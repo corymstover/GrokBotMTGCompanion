@@ -749,7 +749,13 @@
 - **Flavor text** (MH3 printing):
   > *It is a sun-dappled glade in the morning, the aroma of spring's first blossoms, and the melody of birds chirping in a joyful chorus. It is life.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #582 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/291/emerald-medallion) · oracle_id `d683024d-8fe7-4509-851b-7655fadc1de7` · printing: MH3 #291 (2024-06-14) · [rulings](https://api.scryfall.com/cards/5ddf44fe-9e4e-42a6-a6f8-11ada3ce8a94/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-07-28* — If a spell you cast has {X} in its mana cost, you choose the value of X before calculating the spell's total cost.
+  - *2023-07-28* — If there are additional costs to cast a spell, or if the cost to cast a spell is increased by an effect (such as the one created by Thalia, Guardian of Thraben's ability), apply those increases before applying cost reductions.
+  - *2023-07-28* — The ability can't reduce the amount of colored mana you pay for a spell. It reduces only the generic mana component of that cost.
+  - *2023-07-28* — The ability doesn't change the mana cost or mana value of any spell. It changes only the total cost you pay.
+  - *2023-07-28* — The cost reduction can apply to alternative costs such as flashback costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/291/emerald-medallion) · oracle_id `d683024d-8fe7-4509-851b-7655fadc1de7` · printing: MH3 #291 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emerald Oryx
 
@@ -785,6 +791,7 @@
 - **Flavor text** (WAR printing):
   > *The Planar Bridge opened over the Chamber of the Guildpact, reducing the symbol of Ravnica's endurance to rubble.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #538 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/245/emergence-zone) · oracle_id `7536eb66-959d-4dca-9b75-895572ef733c` · printing: WAR #245 (2019-05-03) · [rulings](https://api.scryfall.com/cards/ab95f6e7-b806-47fe-a071-6c38b3176d94/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emergency Eject
@@ -973,7 +980,9 @@
   > At the beginning of your upkeep, if you control seven or more Plains, you may return target creature card from your graveyard to the battlefield.
   > {T}: Add {W}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #942 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/368/emeria-the-sky-ruin) · oracle_id `cc999cf2-c99b-4911-8c52-6cc4a99fcc7b` · printing: SOC #368 (2026-04-24) · [rulings](https://api.scryfall.com/cards/90f148e6-1a5e-46fc-9557-40c5c0038069/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — Emeria, the Sky Ruin's triggered ability has an "intervening 'if' clause." That means (1) the ability won't trigger at all unless you control seven or more Plains as your upkeep starts, and (2) the ability will do nothing if you control fewer than seven Plains by the time it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/368/emeria-the-sky-ruin) · oracle_id `cc999cf2-c99b-4911-8c52-6cc4a99fcc7b` · printing: SOC #368 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emerin, Shivan Angel
 
@@ -1213,7 +1222,15 @@
   > Before drawing your opening hand, choose 1, 2, or 3.
   > You may spend mana as though it were mana of any color to cast creature spells with mana value equal to the chosen number.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/4/emissarys-ploy) · oracle_id `88e936c3-cab9-430f-baa1-930ff557cbf6` · printing: CN2 #4 (2016-08-26) · [rulings](https://api.scryfall.com/cards/ce5f3b5c-feb8-4304-852f-01c467d6517c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2016-08-23* — A conspiracy doesn't count as a card in your deck for purposes of meeting minimum deck size requirements. (In most drafts, the minimum deck size is 40 cards.)
+  - *2016-08-23* — A conspiracy's static and triggered abilities function as long as that conspiracy is face-up in the command zone.
+  - *2016-08-23* — Conspiracies are colorless, have no mana cost, and can't be cast as spells.
+  - *2016-08-23* — Conspiracies are never put into your deck. Instead, you put any number of conspiracies from your card pool into the command zone as the game begins. These conspiracies are face up unless they have hidden agenda, in which case they begin the game face down.
+  - *2016-08-23* — Conspiracies aren't legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft.
+  - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
+  - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/4/emissarys-ploy) · oracle_id `88e936c3-cab9-430f-baa1-930ff557cbf6` · printing: CN2 #4 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emmara, Soul of the Accord
 
@@ -1563,7 +1580,14 @@
   > When Emrakul is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.
 - **Keywords:** Flying, Annihilator, Protection
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/1/emrakul-the-aeons-torn) · oracle_id `900ca697-ad38-4b2b-bc74-2ff7eb6ea951` · printing: 2X2 #1 (2022-07-08) · [rulings](https://api.scryfall.com/cards/249db4d4-2542-47ee-a216-e13ffbc2319c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2010-06-15* — Annihilator abilities trigger and resolve during the declare attackers step. The defending player chooses and sacrifices the required number of permanents before they declare blockers. Any creatures sacrificed this way won't be able to block.
+  - *2010-06-15* — If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn't blocked, it simply won't deal combat damage to anything.
+  - *2018-12-07* — "Colored spells" is not synonymous with "colored cards." For example, even though creatures are spells when they're cast, they're not spells when they're on the battlefield and can block Emrakul; and triggered abilities of permanents entering the battlefield (such as that of Banishing Light) can target it.
+  - *2018-12-07* — Emrakul can be targeted by spells that try to counter it (such as Ionize). Those spells will resolve, but the part of their effect that would counter Emrakul won't do anything. Any other effects those spells have will work as normal.
+  - *2018-12-07* — Emrakul can't be the target of colored Aura spells, but colored Auras can be put onto the battlefield enchanting it.
+  - *2018-12-07* — Emrakul's second ability triggers as you cast it, and that ability resolves before the spell itself. It resolves even if that spell is somehow removed from the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/1/emrakul-the-aeons-torn) · oracle_id `900ca697-ad38-4b2b-bc74-2ff7eb6ea951` · printing: 2X2 #1 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emrakul, the Exigent Doom
 
@@ -1619,4 +1643,12 @@
   > {T}: Choose target artifact card in your graveyard. You may cast that card this turn. (You still pay its costs. Timing rules still apply.)
 - **Keywords:** Affinity, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #604 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/71/emry-lurker-of-the-loch) · oracle_id `da3e7d3d-2ca0-40c3-9602-fca37c92f507` · printing: EOC #71 (2025-08-01) · [rulings](https://api.scryfall.com/cards/c977d89a-bfd1-4e98-9d95-3e41c53dd188/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2019-10-04* — Casting the target card causes it to leave your graveyard and become a new object. You can't cast it again if it returns to your graveyard this turn.
+  - *2019-10-04* — If Emry's last ability targets an artifact land card, you can't play it. Effects that allow you to "cast" a card don't allow you to play a land card.
+  - *2019-10-04* — Once you announce that you're casting a spell, no player may take actions until the spell has been paid for. Notably, opponents can't try to change by how much Emry's cost is reduced.
+  - *2019-10-04* — The cost reduction ability reduces only the generic mana in Emry's cost. The colored mana must still be paid.
+  - *2019-10-04* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Emry). The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+  - *2019-10-04* — You must follow the normal timing permissions and restrictions for the target artifact card. Unless it has flash, you'll most likely only be able to cast it during your main phase while the stack is empty.
+  - *2019-10-04* — You'll still pay all costs for a spell cast this way, including additional costs. You may also pay alternative costs if any are available.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/71/emry-lurker-of-the-loch) · oracle_id `da3e7d3d-2ca0-40c3-9602-fca37c92f507` · printing: EOC #71 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -475,7 +475,11 @@
 - **Flavor text** (LCI printing):
   > *"Invaders in the West Chasm? Give me an hour and they'll be fungus food."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #396 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/232/kutzil-malamet-exemplar) · oracle_id `3233af43-7826-4895-b67e-03c6102c2cd5` · printing: LCI #232 (2023-11-17) · [rulings](https://api.scryfall.com/cards/c9f88a40-a6ed-4c1f-a309-011aca1acddd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-11-10* — If a creature has a characteristic-defining ability that sets its power and toughness, indicated with a */* or similar in the power and toughness box, that ability is taken into account when determining its base power and toughness.
+  - *2023-11-10* — Normally, a creature's base power and toughness are the power and toughness printed on the card or, for a token, the power and toughness set by the effect that created it. If another effect sets a creature's power and toughness to specific numbers or values, those become its base power and toughness. If an effect modifies a creature's power and/or toughness without setting them, that is not included when determining its base power and toughness.
+  - *2023-11-10* — Some creatures have base power and toughness 0/0 and an ability that gives them a bonus based on some criteria. Those are not characteristic-defining abilities, and that ability doesn't change its base power and toughness. Such a creature will have power greater than its base power if the ability is raising its power above 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/232/kutzil-malamet-exemplar) · oracle_id `3233af43-7826-4895-b67e-03c6102c2cd5` · printing: LCI #232 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kutzil's Flanker
 

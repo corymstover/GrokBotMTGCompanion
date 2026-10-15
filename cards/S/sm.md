@@ -622,7 +622,11 @@
 - **Flavor text** (MSC printing):
   > *Deep within Subterranea dwell the fearsome Lava Men, beings made of living magma.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #95 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/266/smoldering-marsh) · oracle_id `390f1b56-264e-4336-83be-dc1fe79bfdcf` · printing: MSC #266 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d707c477-440f-417c-970a-0e7426a58045/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-08-25* — Even though these lands have basic land types, they are not basic lands because "basic" doesn't appear on their type line. Notably, controlling two or more of them won't allow others to enter the battlefield untapped.
+  - *2015-08-25* — However, because these cards have basic land types, effects that specify a basic land type without also specifying that the land be basic can affect them. For example, a spell or ability that reads "Destroy target Forest" can target Canopy Vista, while one that reads "Destroy target basic Forest" cannot.
+  - *2015-08-25* — If one of these lands enters the battlefield at the same time as any number of basic lands, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/266/smoldering-marsh) · oracle_id `390f1b56-264e-4336-83be-dc1fe79bfdcf` · printing: MSC #266 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smoldering Spires
 
@@ -727,7 +731,9 @@
   > *—Dasha, Orzhov priest*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #67 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/57/smothering-tithe) · oracle_id `153376c9-dffd-458c-8ce3-a4c8269bc4e9` · printing: CMM #57 (2023-08-04) · [rulings](https://api.scryfall.com/cards/861b5889-0183-4bee-afeb-a4b2aa700a8e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-09-01* — If an opponent is instructed to draw multiple cards, that player draws all of them before deciding how many times to pay as the multiple triggered abilities from Smothering Tithe resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/57/smothering-tithe) · oracle_id `153376c9-dffd-458c-8ce3-a4c8269bc4e9` · printing: CMM #57 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smuggler Captain
 

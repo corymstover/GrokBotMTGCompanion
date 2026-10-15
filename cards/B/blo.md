@@ -282,7 +282,9 @@
   > *"Vanya Falkenrath's paintings are astonishing. How does she manage to achieve such rich crimson hues?"*
   > *—Stefan, art critic*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #142 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/209/blood-artist) · oracle_id `310f141c-7f37-4729-aed6-dd9c09db448d` · printing: SOC #209 (2026-04-24) · [rulings](https://api.scryfall.com/cards/b5275d76-2947-4219-be21-614c7421614a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-06-08* — If Blood Artist and one or more other creatures die at the same time, its ability will trigger for each of those creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/209/blood-artist) · oracle_id `310f141c-7f37-4729-aed6-dd9c09db448d` · printing: SOC #209 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blood Aspirant
 
@@ -468,7 +470,13 @@
   > At the beginning of each end step, if an opponent lost 2 or more life this turn, you may put a quest counter on this enchantment. (Damage causes loss of life.)
   > Whenever a card is put into an opponent's graveyard from anywhere, if this enchantment has three or more quest counters on it, you may have that player lose 2 life. If you do, you gain 2 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #762 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/139/bloodchief-ascension) · oracle_id `d5ea905b-4bb6-48d0-9082-c472703db550` · printing: CMM #139 (2023-08-04) · [rulings](https://api.scryfall.com/cards/d56d1535-d9de-459f-bc31-0923f621e0e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2009-10-01* — Bloodchief Ascension's first ability checks how much life was lost by each opponent over the course of the entire turn, even if Bloodchief Ascension wasn't on the battlefield the whole time.
+  - *2009-10-01* — Bloodchief Ascension's first ability checks only whether life was lost. It doesn't care whether life was also gained. For example, if an opponent lost 4 life and gained 6 life during the turn, that player will have a higher life total than they started the turn with — but Bloodchief Ascension's first ability will still trigger.
+  - *2009-10-01* — Bloodchief Ascension's first ability has an "intervening 'if' clause." It won't trigger at all unless an opponent has already lost 2 or more life by the time the end step begins.
+  - *2009-10-01* — Bloodchief Ascension's second ability doesn't behave like a leaves-the-battlefield triggered ability, since the card put into an opponent's graveyard may come from anywhere. If a Bloodchief Ascension with three quest counters on it and a permanent an opponent owns are destroyed at the same time, for example, the game will not "look back in time" at the game state, and Bloodchief Ascension's second ability won't trigger.
+  - *2009-10-01* — For the first ability to trigger, a single opponent must have lost 2 life. Two opponents each losing 1 life won't cause it to trigger. It will trigger a maximum of once per turn, no matter how many opponents have lost 2 or more life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/139/bloodchief-ascension) · oracle_id `d5ea905b-4bb6-48d0-9082-c472703db550` · printing: CMM #139 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloodchief's Thirst
 
@@ -607,7 +615,11 @@
 - **Flavor text** (TRK printing):
   > *The hellish mines of Remus fueled the war efforts of the Romulan Star Empire, until the Remans found a champion.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #68 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/trk/278/blood-crypt) · oracle_id `43985bbc-a0f6-4812-984e-392bc8562633` · printing: TRK #278 (2026-11-13) · [rulings](https://api.scryfall.com/cards/1b7eb998-3ec0-4cbc-a416-5a1e3e5a7316/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-10-05* — Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
+  - *2025-11-17* — If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
+  - *2025-11-17* — This land has two basic land types. It's not basic, so cards such as Tend the Sprigs can't find it, but it does have the appropriate land types for effects such as that of Kishla Village (from the Tarkir: Dragonstorm release).
+- **Source flags:** [Scryfall](https://scryfall.com/card/trk/278/blood-crypt) · oracle_id `43985bbc-a0f6-4812-984e-392bc8562633` · printing: TRK #278 (2026-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blood Cultist
 
@@ -1744,6 +1756,7 @@
 - **Flavor text** (MH3 printing):
   > *A graveyard for conquerors and conquered alike.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #43 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/216/bloodstained-mire) · oracle_id `fc0707c7-d504-4ccf-a0d2-3eb6e26e7a57` · printing: MH3 #216 (2024-06-14) · [rulings](https://api.scryfall.com/cards/579743fe-f71e-4cb2-8629-d6b02ed1591d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloodstoke Howler
@@ -1898,7 +1911,10 @@
   > *"This town swims with such exquisite blood. I will take every drop for my own."*
 - **Keywords:** Deathtouch, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #822 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/58/bloodthirsty-conqueror) · oracle_id `fd505c02-c59e-476d-8e88-35da862ddc23` · printing: FDN #58 (2024-11-15) · [rulings](https://api.scryfall.com/cards/ce860ed4-a5bd-4347-9eab-dd716ea84db1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — Damage dealt to an opponent causes that opponent to lose life. An opponent paying life also causes loss of life.
+  - *2024-11-08* — If you and an opponent both lose life simultaneously, and this causes your life total to become 0 or less, you'll lose the game before Bloodthirsty Conqueror's triggered ability can resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/58/bloodthirsty-conqueror) · oracle_id `fd505c02-c59e-476d-8e88-35da862ddc23` · printing: FDN #58 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloodthirsty Ogre
 
@@ -2162,7 +2178,13 @@
   > *Heart calmed by the beauty of the blossom, the dawnhand wondered who was actually protecting whom.*
 - **Keywords:** Vivid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #255 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/166/bloom-tender) · oracle_id `0c23fefe-9891-4dd8-9bb1-eebdb3274e31` · printing: ECL #166 (2026-01-23) · [rulings](https://api.scryfall.com/cards/ba86688d-18f0-4b5c-a797-42bf125a6c9f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-11-17* — Bloom Tender can't produce colorless mana, even if you control a colorless permanent.
+  - *2025-11-17* — Bloom Tender won't produce more than one mana of any particular color. At most, it will produce {W}{U}{B}{R}{G}.
+  - *2025-11-17* — For each color (white, blue, black, red, and green), check to see if you control a permanent of that color. You can count the same permanent for multiple colors. For example, if you control a green enchantment and a white-black creature, Bloom Tender's ability produces {W}{B}{G}.
+  - *2025-11-17* — Lands are normally colorless permanents, even if they tap for mana of a certain color.
+  - *2025-11-17* — The colors are white, blue, black, red, and green. Colorless is not a color.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/166/bloom-tender) · oracle_id `0c23fefe-9891-4dd8-9bb1-eebdb3274e31` · printing: ECL #166 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloomvine Regent // Claim Territory
 
@@ -2276,6 +2298,7 @@
 - **Flavor text** (ECL printing):
   > *To survive Shadowmoor's wilds, safewrights must carry an unassailable seed of beauty within their heart.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2537 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/167/blossoming-defense) · oracle_id `5a851367-1c4a-4cc9-a9c3-3d2775986b4c` · printing: ECL #167 (2026-01-23) · [rulings](https://api.scryfall.com/cards/3cce80d0-b937-4325-a603-1278c110f244/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blossoming Sands

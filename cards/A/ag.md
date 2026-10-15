@@ -542,7 +542,10 @@
 - **Oracle text:**
   > {3}{R}{R}: Untap all creatures you control. After this main phase, there is an additional combat phase followed by an additional main phase. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #695 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ons/185/aggravated-assault) · oracle_id `20129459-a386-41eb-899d-1aede3427300` · printing: ONS #185 (2002-10-07) · [rulings](https://api.scryfall.com/cards/c99c5707-d5f2-4675-bfca-e801e6b0f627/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — If you have enough mana, the ability may be activated more than once in a turn.
+  - *2023-09-01* — You will normally activate this ability during your postcombat main phase so you can untap any creatures that attacked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ons/185/aggravated-assault) · oracle_id `20129459-a386-41eb-899d-1aede3427300` · printing: ONS #185 (2002-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aggression
 

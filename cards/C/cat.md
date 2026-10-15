@@ -66,7 +66,13 @@
 - **Flavor text** (TPR printing):
   > *The \*Weatherlight\* dragged the Predator behind it, the cradle hauling the casket.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12768 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/8/cataclysm) · oracle_id `b0479ca4-e925-4aa7-a4fa-f7e01f899ac5` · printing: TPR #8 (2015-05-06) · [rulings](https://api.scryfall.com/cards/713160be-bcfd-4ef5-9457-c02b926ba06e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2004-10-04* — If you control a permanent with more than one type, you can choose that permanent to be the representative of either type. This makes it possible to have more than one creature (or other permanent type) on the battlefield. For example, if you select a creature for your creature and an artifact creature for your artifact, you get to keep both of these creatures.
+  - *2004-10-04* — If you control a permanent with more than one type, you can choose that same permanent for more than one of the choices if you want to. This makes it possible to select an artifact creature as both your artifact and creature, and then select a land and thereby keep only two cards.
+  - *2004-10-04* — The current player makes their choices before the other player. After both players make choices, all the sacrifices are done simultaneously.
+  - *2004-10-04* — The permanents to save are chosen on resolution. You do not choose them when casting the spell.
+  - *2014-02-01* — Each permanent not chosen by a player will be sacrificed. If a permanent has none of the listed types (for example, a Planeswalker with no other types), it can’t be chosen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/8/cataclysm) · oracle_id `b0479ca4-e925-4aa7-a4fa-f7e01f899ac5` · printing: TPR #8 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cataclysmic Gearhulk
 
@@ -231,7 +237,9 @@
 - **Flavor text** (USG printing):
   > *Radiant's eyes flashed. "Go, then," the angel spat at Serra, "and leave this world to those who truly care."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12597 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/6/catastrophe) · oracle_id `ed68160e-5e3d-44f2-ac7a-3749fda10119` · printing: USG #6 (1998-10-12) · [rulings](https://api.scryfall.com/cards/294d21dc-5c76-4449-936f-9b7541d37c86/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You choose land or creatures when the spell resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/6/catastrophe) · oracle_id `ed68160e-5e3d-44f2-ac7a-3749fda10119` · printing: USG #6 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cat Burglar
 
@@ -456,7 +464,9 @@
 - **Flavor text** (INR printing):
   > *Avacyn's holy warriors kept hope alive in her darkest hours. Now they will carry that hope across Innistrad.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #559 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/17/cathars-crusade) · oracle_id `cc65ac73-5bef-4ecb-ad8e-39199084c027` · printing: INR #17 (2025-01-24) · [rulings](https://api.scryfall.com/cards/5296e353-2efc-4d72-a877-7957eff630b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-05-01* — The creature that entered and caused the ability to trigger will also get a +1/+1 counter, provided it's still on the battlefield when the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/17/cathars-crusade) · oracle_id `cc65ac73-5bef-4ecb-ad8e-39199084c027` · printing: INR #17 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Catharsis
 

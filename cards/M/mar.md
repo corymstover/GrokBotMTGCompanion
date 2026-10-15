@@ -1083,7 +1083,11 @@
   > *"Ah! Yes! I got its leg to twitch!"*
 - **Keywords:** Fabricate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #565 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/100/marionette-apprentice) · oracle_id `726d9d2c-736a-4852-9938-a0f50d8fd89f` · printing: MH3 #100 (2024-06-14) · [rulings](https://api.scryfall.com/cards/d16f8670-f038-400a-83e7-a53a7f8c47ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-06-07* — Fabricate doesn't cause the creature with the ability to enter the battlefield with +1/+1 counters already on it. For example, Marionette Apprentice will enter the battlefield as a 1/2 creature, then its fabricate ability goes on the stack. Players may take actions (such as casting instants) while the ability is waiting to resolve.
+  - *2024-06-07* — If you can't put a +1/+1 counter on the creature for any reason as fabricate resolves (for instance, if it's no longer on the battlefield), you just create a Servo token.
+  - *2024-06-07* — You choose whether to put a +1/+1 counter on the creature or create a Servo token as the fabricate ability is resolving. No player may take actions between the time you choose and the time that a counter is added or a token is created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/100/marionette-apprentice) · oracle_id `726d9d2c-736a-4852-9938-a0f50d8fd89f` · printing: MH3 #100 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marionette Master
 
@@ -1736,6 +1740,7 @@
 - **Oracle text:**
   > {T}, Pay 1 life, Sacrifice this land: Search your library for a Plains or Swamp card, put it onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #51 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/248/marsh-flats) · oracle_id `dab520d0-20b4-4273-ba6b-eb07f85ea433` · printing: MH2 #248 (2021-06-18) · [rulings](https://api.scryfall.com/cards/9db3ba6d-eb7f-4f5b-9a3b-c6239c3baa42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marsh Flitter

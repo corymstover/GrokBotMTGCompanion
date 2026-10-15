@@ -365,6 +365,7 @@
   > *"I fear no army or beast, but only the morning fog. Our assault can survive everything else."*
   > *—Lord Hilneth*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #649 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/167/fog) · oracle_id `27e9db49-7af7-4bef-ad4c-bf5dfb92030d` · printing: EMA #167 (2016-06-10) · [rulings](https://api.scryfall.com/cards/bbc3152e-7b3b-4ac6-8b33-abfebde216aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fog Bank
@@ -1107,6 +1108,7 @@
   > {T}: Add one mana of any color.
   > Whenever you tap this land for mana, target opponent creates a 1/1 colorless Spirit creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #738 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/323/forbidden-orchard) · oracle_id `cfd60d1f-9832-4408-b84e-0fd3018b015b` · printing: 2X2 #323 (2022-07-08) · [rulings](https://api.scryfall.com/cards/17db644c-1acf-477d-9c20-f72221f1108a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Forbidden Ritual
@@ -1303,6 +1305,7 @@
 - **Flavor text** (2X2 printing):
   > *"Try, if you must."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #272 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/50/force-of-negation) · oracle_id `ac2173f9-f223-440a-9231-fd98762bdc6f` · printing: 2X2 #50 (2022-07-08) · [rulings](https://api.scryfall.com/cards/1825a719-1b2a-4af9-9cd2-7cb497cd0317/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Force of Rage
@@ -1376,7 +1379,9 @@
 - **Flavor text** (DMR printing):
   > *"Your artillery will burn itself out before I allow my focus to waver."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #202 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/50/force-of-will) · oracle_id `956381ba-6d37-4a8a-846c-bad79222dbee` · printing: DMR #50 (2023-01-13) · [rulings](https://api.scryfall.com/cards/89f612d6-7c59-4a7b-a87d-45f789e88ba5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as the alternative cost of Force of Will), add any cost increases, then apply any cost reductions. Force of Will's mana value is always 5, no matter what you paid to cast it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/50/force-of-will) · oracle_id `956381ba-6d37-4a8a-846c-bad79222dbee` · printing: DMR #50 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Force Spike
 
@@ -1447,7 +1452,12 @@
 - **Flavor text** (MSC printing):
   > *Once a symbol of hope, now a sinister reminder.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #316 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/244/foreboding-ruins) · oracle_id `5c87e2fa-77f1-4978-b25f-f14d227301d1` · printing: MSC #244 (2026-06-26) · [rulings](https://api.scryfall.com/cards/76fdf6be-e13b-49ee-9d50-8625edb49951/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-04-08* — If a Swamp or Mountain is entering the battlefield from your hand at the same time as Foreboding Ruins, you may reveal the other land to have Foreboding Ruins enter untapped.
+  - *2016-04-08* — If an effect instructs you to put Foreboding Ruins onto the battlefield tapped, it will still enter the battlefield tapped even if you reveal a land card from your hand.
+  - *2016-04-08* — Lands don't have a subtype just because they can produce mana of the corresponding color. Foreboding Ruins itself is neither a Swamp nor a Mountain, even though it produces black and red mana, so you can't reveal one to satisfy the ability of another.
+  - *2016-04-08* — You may reveal any land card with either or both of the appropriate subtypes. It doesn't have to be a basic land. For example, you could reveal Sunken Hollow from the Battle for Zendikar set to satisfy the ability of Foreboding Ruins.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/244/foreboding-ruins) · oracle_id `5c87e2fa-77f1-4978-b25f-f14d227301d1` · printing: MSC #244 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Foreboding Statue // Forsaken Thresher
 
@@ -1826,7 +1836,10 @@
 - **Flavor text** (SOC printing):
   > *Its blood is life. Its body is growth.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #390 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/267/forgotten-ancient) · oracle_id `2ef75cf3-30dc-4852-a6d1-1d6391fad022` · printing: SOC #267 (2026-04-24) · [rulings](https://api.scryfall.com/cards/f8c9d744-8294-4747-ae7e-99be2b6e7479/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-12-08* — Forgotten Ancient's first ability will resolve before the spell that caused it to trigger. Putting a +1/+1 counter on Forgotten Ancient is optional.
+  - *2022-12-08* — Forgotten Ancient's last ability doesn't target any creatures. You choose how many +1/+1 counters will be moved (and onto which creatures) as the ability resolves. Notably, once the ability starts resolving and you make these choices, no player may take actions until the ability has finished resolving.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/267/forgotten-ancient) · oracle_id `2ef75cf3-30dc-4852-a6d1-1d6391fad022` · printing: SOC #267 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Forgotten Cave
 
@@ -2383,7 +2396,12 @@
   > *"Our villages are the lifeblood of Wakanda. When the common people prosper, so do we."*
   > *—Queen Mother Ramonda*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #344 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/245/fortified-village) · oracle_id `56f1a16a-9f41-41fb-b580-c200bca27cd6` · printing: MSC #245 (2026-06-26) · [rulings](https://api.scryfall.com/cards/15f81ac6-a550-4782-a3a9-22d7fef1c206/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-04-08* — If a Forest or Plains is entering the battlefield from your hand at the same time as Fortified Village, you may reveal the other land to have Fortified Village enter untapped.
+  - *2016-04-08* — If an effect instructs you to put Fortified Village onto the battlefield tapped, it will still enter the battlefield tapped even if you reveal a land card from your hand.
+  - *2016-04-08* — Lands don't have a subtype just because they can produce mana of the corresponding color. Fortified Village itself is neither a Forest nor a Plains, even though it produces green and white mana, so you can't reveal one to satisfy the ability of another.
+  - *2016-04-08* — You may reveal any land card with either or both of the appropriate subtypes. It doesn't have to be a basic land. For example, you could reveal Prairie Stream from the Battle for Zendikar set to satisfy the ability of Fortified Village.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/245/fortified-village) · oracle_id `56f1a16a-9f41-41fb-b580-c200bca27cd6` · printing: MSC #245 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fortify
 
@@ -2901,7 +2919,10 @@
 - **Flavor text** (CMM printing):
   > *Automaton inspectors ensure that the Consulate's stringent standards for mass production are upheld.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #250 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/385/foundry-inspector) · oracle_id `18f22960-87ec-43cd-82ea-ec5cabf49ad3` · printing: CMM #385 (2023-08-04) · [rulings](https://api.scryfall.com/cards/16debeb1-fb2b-4172-b6da-726416d4fb38/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-09-20* — If an artifact spell has {X} in its mana cost, choose the value for X first, and then reduce the cost by {1}. For example, an artifact that costs {X} with X chosen as 4 costs {3} to cast if you control Foundry Inspector.
+  - *2016-09-20* — Once a player has announced an artifact spell, no player may take actions to try to remove Foundry Inspector from the battlefield before that spell's cost is locked in.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/385/foundry-inspector) · oracle_id `18f22960-87ec-43cd-82ea-ec5cabf49ad3` · printing: CMM #385 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Foundry of the Consuls
 

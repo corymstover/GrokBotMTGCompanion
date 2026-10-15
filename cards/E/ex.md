@@ -838,7 +838,13 @@
   > *"When you can't find your way home, find home where you can."*
   > *—Rho, veteran hero*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mbc/79/exotic-orchard) · oracle_id `27b047e3-0d41-45e2-98e9-9391d7923a1e` · printing: MBC #79 (2026-10-19) · [rulings](https://api.scryfall.com/cards/d11c5fe0-1528-4c94-a8cc-42bcab9d7487/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2009-02-01* — Exotic Orchard checks the effects of all mana-producing abilities of lands your opponents control, but it doesn't check their costs. For example, Vivid Crag has the ability "{T}, Remove a charge counter from Vivid Crag: Add one mana of any color." If an opponent controls Vivid Crag and you control Exotic Orchard, you can tap Exotic Orchard for any color of mana. It doesn't matter whether Vivid Crag has a charge counter on it, and it doesn't matter whether it's untapped.
+  - *2009-02-01* — Exotic Orchard doesn't care about any restrictions or riders your opponents' lands (such as Ancient Ziggurat or Hall of the Bandit Lord) put on the mana they produce. It just cares about colors of mana.
+  - *2009-02-01* — Lands that produce mana based only on what other lands "could produce" won't help each other unless some other land allows one of them to actually produce some type of mana. For example, if you control an Exotic Orchard and your opponent controls an Exotic Orchard and a Reflecting Pool, none of those lands would produce mana if their mana abilities were activated. On the other hand, if you control a Forest and an Exotic Orchard, and your opponent controls an Exotic Orchard and a Reflecting Pool, then each of those lands can be tapped to produce {G}. Your opponent's Exotic Orchard can produce {G} because you control a Forest. Your Exotic Orchard and your opponent's Reflecting Pool can each produce {G} because your opponent's Exotic Orchard can produce {G}.
+  - *2009-02-01* — The colors of mana are white, blue, black, red, and green. Exotic Orchard can't be tapped for colorless mana, even if a land an opponent controls could produce colorless mana.
+  - *2009-02-01* — When determining what colors of mana your opponents' lands could produce, Exotic Orchard takes into account any applicable replacement effects that would apply to those lands' mana abilities (such as Contamination's effect, for example). If there are more than one, consider them in any possible order.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mbc/79/exotic-orchard) · oracle_id `27b047e3-0d41-45e2-98e9-9391d7923a1e` · printing: MBC #79 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Exotic Pets
 
@@ -1009,7 +1015,9 @@
   > *"I use maps to find out where explorers have already been. Then I go the other way."*
   > *—Javad Nasrin, Ondu relic hunter*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #452 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/724/expedition-map) · oracle_id `8fcf50cd-e6d0-4516-850f-d42ee75dcc3a` · printing: FDN #724 (2024-11-15) · [rulings](https://api.scryfall.com/cards/08e66835-c228-48fa-bcaa-eb96edbd4f5a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — You may find any land card, not just a basic land card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/724/expedition-map) · oracle_id `8fcf50cd-e6d0-4516-850f-d42ee75dcc3a` · printing: FDN #724 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Expedition Raptor
 
@@ -1301,7 +1309,9 @@
 - **Flavor text** (DMR printing):
   > *The first explorers found Argoth a storehouse of natural wealth—towering forests grown over rich veins of ore.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #305 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/159/exploration) · oracle_id `0c2841bb-038c-4fbf-8360-bc0a1522b58d` · printing: DMR #159 (2023-01-13) · [rulings](https://api.scryfall.com/cards/5b372045-a4a0-44c8-96ec-1e201d61ed26/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — Exploration’s ability is cumulative with other effects that allow you to play additional lands, including ones created by other Explorations you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/159/exploration) · oracle_id `0c2841bb-038c-4fbf-8360-bc0a1522b58d` · printing: DMR #159 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Exploration Broodship
 
@@ -1327,7 +1337,11 @@
 - **Flavor text** (TLE printing):
   > *Sky bison know no boundaries by land or sea, for the sky above them is boundless.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #237 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/259/explore) · oracle_id `b8f566ea-8283-4afa-9ac8-737e26419283` · printing: TLE #259 (2025-11-21) · [rulings](https://api.scryfall.com/cards/ab9dbf0b-2c1d-463c-b675-ff711c282e56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-03-14* — Explore's effect allows you to play an additional land during your main phase. Doing so follows the normal timing rules for playing lands. In particular, you don't get to play a land as Explore resolves; Explore fully resolves first and you draw a card, perhaps a land you'll play later.
+  - *2017-03-14* — If you somehow manage to cast Explore when it's not your turn, you'll draw a card when it resolves, but you won't be able to play a land that turn.
+  - *2017-03-14* — The effects of multiple Explores in the same turn are cumulative. They're also cumulative with other effects that let you play additional lands, such as the one from Urban Evolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/259/explore) · oracle_id `b8f566ea-8283-4afa-9ac8-737e26419283` · printing: TLE #259 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Explorer's Cache
 
@@ -1638,7 +1652,10 @@
 - **Flavor text** (LCC printing):
   > *Even as humans regained the upper hand, some still willingly traded their lives for a chance at immortality.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #517 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/195/exquisite-blood) · oracle_id `8f933fae-6c0c-42d7-a817-14760d8285cd` · printing: LCC #195 (2023-11-17) · [rulings](https://api.scryfall.com/cards/0e8ccfa7-4178-476a-a155-0ca1c98556c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2012-05-01* — Damage dealt to an opponent usually causes that opponent to lose life. An opponent paying life also causes loss of life.
+  - *2012-05-01* — If you and an opponent both lose life simultaneously, and this causes your life total to become 0 or less, you'll lose the game before Exquisite Blood's triggered ability can resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/195/exquisite-blood) · oracle_id `8f933fae-6c0c-42d7-a817-14760d8285cd` · printing: LCC #195 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Exquisite Firecraft
 
@@ -1674,7 +1691,9 @@
 - **Flavor text** (FDN printing):
   > *"I didn't say I would help you find your way home. I said I would help you finish your adventure."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #273 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/173/exsanguinate) · oracle_id `8164b1e8-3350-465e-8a17-75f57d326344` · printing: FDN #173 (2024-11-15) · [rulings](https://api.scryfall.com/cards/f11d7311-4066-4a5d-ba28-9857fa707a0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-01* — Players can lose more life than they have. For example, say you're playing a multiplayer game in which one of your opponents has 3 life and your other opponent has 10 life. If you cast Exsanguinate with X of 4, your opponents will wind up at -1 life and 6 life, respectively. You'll gain 8 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/173/exsanguinate) · oracle_id `8164b1e8-3350-465e-8a17-75f57d326344` · printing: FDN #173 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Exsanguinator Cavalry
 

@@ -154,7 +154,9 @@
 - **Flavor text** (SOC printing):
   > *Silverquill's elite know how to offer a scathing rebuttal without uttering a word.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #784 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/316/inkshield) · oracle_id `da93264e-4e04-401a-9809-e4e1056cf604` · printing: SOC #316 (2026-04-24) · [rulings](https://api.scryfall.com/cards/3362ade8-d585-40be-8486-382cad6efaf8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-04-16* — If multiple damage prevention effects would apply to combat damage that would be dealt to you, you get to choose the order the prevention effects are applied in.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/316/inkshield) · oracle_id `da93264e-4e04-401a-9809-e4e1056cf604` · printing: SOC #316 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ink-Treader Nephilim
 

@@ -1363,7 +1363,11 @@
   > *A faerie's glee at her trove quickly fades to contentment, then to boredom, then to an urge to steal more.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #636 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/9/all-that-glitters) · oracle_id `a4d751e0-41c1-4e90-853d-512f385acd81` · printing: CMM #9 (2023-08-04) · [rulings](https://api.scryfall.com/cards/5fc0b82a-f943-4330-b9e7-bb4527354bfd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-10-04* — A permanent that's both an artifact and an enchantment is counted only once.
+  - *2019-10-04* — Because All That Glitters is an enchantment, the enchanted creature usually gets at least +1/+1.
+  - *2019-10-04* — You still control Auras that you put onto the battlefield attached to a permanent you don't control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/9/all-that-glitters) · oracle_id `a4d751e0-41c1-4e90-853d-512f385acd81` · printing: CMM #9 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Allure of the Unknown
 
@@ -1925,7 +1929,10 @@
   > *—Volrath*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #641 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/218/altar-of-dementia) · oracle_id `d64e9152-ef24-4394-aeb0-9c3befc56549` · printing: MH1 #218 (2019-06-14) · [rulings](https://api.scryfall.com/cards/169356e0-46dc-4096-8e66-36726454f104/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-06-14* — If the target player's library contains fewer cards than the sacrificed creature's power, all of those cards are put into that player's graveyard. That player won't lose the game until they try to draw from the empty library.
+  - *2019-06-14* — The number of cards the target player puts into their graveyard is equal to the power of the sacrificed creature as it last existed on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/218/altar-of-dementia) · oracle_id `d64e9152-ef24-4394-aeb0-9c3befc56549` · printing: MH1 #218 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Altar of Mogis
 

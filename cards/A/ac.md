@@ -182,7 +182,12 @@
   > *Automated systems at the Tolarian Academy sort new acquisitions for optimal use, determining which should be studied, eaten, or sold.*
 - **Keywords:** Treasure, Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #263 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/251/academy-manufactor) · oracle_id `f36d1d8b-8303-44a9-ab56-531931641ea2` · printing: OTC #251 (2024-04-19) · [rulings](https://api.scryfall.com/cards/76480f4d-ad6d-4ed6-82c6-fa12abc22557/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-06-18* — Creating a Clue token this way isn't the same thing as investigating. Notably, an ability that triggers whenever you investigate won't trigger because you created a Clue token due to this replacement effect. If the original token creation was because you investigated once, those abilities will still each trigger once, no matter how many Clue tokens you end up creating.
+  - *2021-06-18* — If you control eighteen Academy Manufactors (I don't know, you figure it out) and would create some number of Clue, Food, or Treasure tokens, you will instead create 129,140,163 times that many Clue tokens, 129,140,163 times that many Food tokens, and 129,140,163 times that many Treasure tokens.
+  - *2021-06-18* — If you control one Academy Manufactor and would create some number of Clue, Food, or Treasure tokens, you will instead create that many Clue tokens, that many Food tokens, and that many Treasure tokens.
+  - *2021-06-18* — If you control two Academy Manufactors and would create some number of Clue, Food, or Treasure tokens, you will instead create three times that many Clue tokens, three times that many Food tokens, and three times that many Treasure tokens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/251/academy-manufactor) · oracle_id `f36d1d8b-8303-44a9-ab56-531931641ea2` · printing: OTC #251 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Academy Raider
 
@@ -228,6 +233,7 @@
 - **Flavor text** (2XM printing):
   > *Its secrets once wrought the greatest artifice ever known. Now crabs loot the rubble to decorate their shells.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #459 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/309/academy-ruins) · oracle_id `a3da7d5b-2c2b-45fe-b9c5-413b8c8fc0a2` · printing: 2XM #309 (2020-08-07) · [rulings](https://api.scryfall.com/cards/a95b7645-154f-4904-bf71-db7eb24d4df2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Academy Wall
@@ -321,7 +327,10 @@
 - **Flavor text** (TDC printing):
   > *Oriq agents stick to the dark corners of Arcavios, unseen yet ever-present.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #598 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/337/access-tunnel) · oracle_id `ed9cc560-f30b-4b60-a094-ccf93ed656a7` · printing: TDC #337 (2025-04-11) · [rulings](https://api.scryfall.com/cards/4bef5957-71a4-4fe0-b2ce-dff8e8690bd9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-04-16* — If the target creature's power is greater than 3 as Access Tunnel's second ability tries to resolve, the ability doesn't resolve. However, if instead the creature's power is raised above 3 after the ability resolves, it still can't be blocked that turn.
+  - *2021-04-16* — Once a creature with power 3 or less has been blocked, Access Tunnel's second ability won't cause it to become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/337/access-tunnel) · oracle_id `ed9cc560-f30b-4b60-a094-ccf93ed656a7` · printing: TDC #337 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Acclaimed Contender
 
@@ -453,7 +462,10 @@
 - **Flavor text** (MH3 printing):
   > *The Accursed are ever drawn to the Hekma, as though its presence provides a brief respite in their lives of eternal torment.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #476 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/80/accursed-marauder) · oracle_id `d8ad23a1-0b43-48ea-9fbe-d89b29194509` · printing: MH3 #80 (2024-06-14) · [rulings](https://api.scryfall.com/cards/5da14d86-0780-4821-a799-96f64b377df4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-06-07* — As Accursed Marauder's enters-the-battlefield ability resolves, first the player whose turn it is chooses which creature they'll sacrifice, then each other player in turn order does the same. Players will know the choices of previous players when making their choice. Then all of the chosen creatures are sacrificed by their controllers simultaneously.
+  - *2024-06-07* — You may sacrifice Accursed Marauder to its own ability. If it is the only creature you control when that ability resolves, you must sacrifice it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/80/accursed-marauder) · oracle_id `d8ad23a1-0b43-48ea-9fbe-d89b29194509` · printing: MH3 #80 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Accursed Spirit
 
@@ -574,6 +586,7 @@
   > *It fears no sword and leaves no bones behind.*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1520 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/270/acidic-slime) · oracle_id `21f45043-5419-4019-8b6c-e5294bd5f549` · printing: CMM #270 (2023-08-04) · [rulings](https://api.scryfall.com/cards/932d48fb-42b5-4aaa-a91c-d35cdb5e41a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Acidic Sliver

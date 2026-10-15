@@ -81,7 +81,12 @@
 - **Oracle text:**
   > {T}: Untap target attacking creature. Prevent all combat damage that would be dealt to and dealt by that creature this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #556 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/250/maze-of-ith) · oracle_id `38a12bd7-4394-44a8-91a0-6a4ff7fa4f71` · printing: DMR #250 (2023-01-13) · [rulings](https://api.scryfall.com/cards/5889fde1-730d-43d0-aaa4-499784a80530/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-12-08* — Maze of Ith can target an untapped attacking creature. It will still prevent the combat damage it would deal and be dealt.
+  - *2022-12-08* — Maze of Ith doesn't have a mana ability. It doesn't tap for colorless mana.
+  - *2022-12-08* — The creature isn't removed from combat; it just has its damage prevented. It's still an attacking creature until the combat phase is complete.
+  - *2022-12-08* — You can activate Maze of Ith's ability targeting an attacking creature you control during the combat damage step or the end of combat step, even though it will already have dealt combat damage. This will untap the creature. The damage it dealt will be unaffected.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/250/maze-of-ith) · oracle_id `38a12bd7-4394-44a8-91a0-6a4ff7fa4f71` · printing: DMR #250 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maze of Shadows
 

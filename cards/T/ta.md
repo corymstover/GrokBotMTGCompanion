@@ -484,7 +484,10 @@
 - **Oracle text:**
   > ({T}: Add {R} or {G}.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #435 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/317/taiga) · oracle_id `22e3cf1d-3559-4ce1-954c-8dc815342979` · printing: VMA #317 (2014-06-16) · [rulings](https://api.scryfall.com/cards/0c2c39fc-b564-4ab5-833c-ff029760b7a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-10-01* — This has basic land types, but it isn't a basic land. Things that affect basic lands don't affect it. Things that affect basic land types do.
+  - *2008-10-01* — This has the mana abilities associated with both of its basic land types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/317/taiga) · oracle_id `22e3cf1d-3559-4ce1-954c-8dc815342979` · printing: VMA #317 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Taigam, Master Opportunist
 
@@ -619,6 +622,7 @@
   > {T}: Add {C}.
   > {T}: Add {W} or {B}. Activate only if you control a Swamp.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #451 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/302/tainted-field) · oracle_id `439de49b-1091-4688-9ffb-80a025df31c2` · printing: DSC #302 (2024-09-27) · [rulings](https://api.scryfall.com/cards/c6eeab6f-a738-4005-91c2-a5f81df5c569/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tainted Indulgence
@@ -640,6 +644,7 @@
   > {T}: Add {C}.
   > {T}: Add {U} or {B}. Activate only if you control a Swamp.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #527 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/303/tainted-isle) · oracle_id `0222414f-98b5-458a-a0fd-831a66cd8b07` · printing: DSC #303 (2024-09-27) · [rulings](https://api.scryfall.com/cards/70e8e7e2-e9ea-4358-805e-c5110c8d8443/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tainted Monkey
@@ -675,6 +680,7 @@
 - **Oracle text:**
   > Exile the top card of your library. You may put that card into your hand unless it has the same name as another card exiled this way. Repeat this process until you put a card into your hand or you exile two cards with the same name, whichever comes first.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #887 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/164/tainted-pact) · oracle_id `1a85ba2b-ae10-4917-954a-7709b75a9740` · printing: ODY #164 (2001-10-01) · [rulings](https://api.scryfall.com/cards/c513f51b-a0db-4c08-8acc-1e91060b93b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tainted Peak
@@ -685,6 +691,7 @@
   > {T}: Add {C}.
   > {T}: Add {B} or {R}. Activate only if you control a Swamp.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #497 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/304/tainted-peak) · oracle_id `b2bae7fc-0668-4b34-9cd6-0d80aea52275` · printing: DSC #304 (2024-09-27) · [rulings](https://api.scryfall.com/cards/7e6f1a55-0fec-4b94-9640-9110ca8d0212/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tainted Remedy
@@ -770,6 +777,7 @@
   > {T}: Add {C}.
   > {T}: Add {B} or {G}. Activate only if you control a Swamp.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #445 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/305/tainted-wood) · oracle_id `fa6d05a1-3df4-4751-b1a0-8d9693faec73` · printing: DSC #305 (2024-09-27) · [rulings](https://api.scryfall.com/cards/3da7ab6b-b10a-4786-b1eb-92de7e66690e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tajic, Blade of the Legion
@@ -1042,7 +1050,11 @@
   > Channel — {3}{B}, Discard this card: Mill three cards, then return a creature or planeswalker card from your graveyard to your hand. This ability costs {1} less to activate for each legendary creature you control.
 - **Keywords:** Mill, Channel
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #245 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/278/takenuma-abandoned-mire) · oracle_id `ac2dd694-d2f1-4025-8400-12332bdc882a` · printing: NEO #278 (2022-02-18) · [rulings](https://api.scryfall.com/cards/499037cc-a577-41cb-8ca2-5e117945634f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-02-18* — Discarding the card is part of the cost to activate a channel ability.
+  - *2022-02-18* — If a channel ability requires a target, you may not activate it without a target just to discard the card.
+  - *2022-02-18* — The creature or planeswalker card you return to your hand is not chosen until after you mill three cards. You may choose a creature or planeswalker card from among all the cards in your graveyard, including the milled cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/278/takenuma-abandoned-mire) · oracle_id `ac2dd694-d2f1-4025-8400-12332bdc882a` · printing: NEO #278 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Takenuma Bleeder
 
@@ -1372,7 +1384,13 @@
   > *"When you are gone, will anyone remember your story?"*
   > *—Unknown*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4854 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/77/tales-end) · oracle_id `8ebb6fe0-3ed1-4cc9-bcb1-5317de199efc` · printing: M20 #77 (2019-07-12) · [rulings](https://api.scryfall.com/cards/1421115b-9a98-4ab2-bcb2-7d8899ce12db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2019-07-12* — Abilities that create replacement effects, such as a permanent entering the battlefield tapped or with counters on it, can't be targeted. Abilities that apply "as [this creature] enters the battlefield" are also replacement effects and can't be targeted.
+  - *2019-07-12* — Activated abilities are written in the form "[Cost]: [Effect]." Some keyword abilities (such as equip) are activated abilities and will have colons in their reminder texts, if applicable.
+  - *2019-07-12* — If you counter a delayed triggered ability that triggered at the beginning of the "next" occurrence of a specified step or phase, that ability won't trigger again the following time that step or phase occurs.
+  - *2019-07-12* — Tale's End can't target an activated or triggered mana ability. An activated mana ability is one that could add mana as it resolves, doesn't have a target, and isn't a loyalty ability. A triggered mana ability is one that could add mana as it resolves and triggers on an activated mana ability.
+  - *2019-07-12* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keyword abilities are triggered abilities and will have "when," "whenever," or "at" in their reminder text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/77/tales-end) · oracle_id `8ebb6fe0-3ed1-4cc9-bcb1-5317de199efc` · printing: M20 #77 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tales of Master Seshiro // Seshiro's Living Legacy
 
@@ -1440,6 +1458,7 @@
   > *"Never forget who you are and where you came from."*
   > *—Captain Marvel, Carol Danvers*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #150 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/217/talisman-of-conviction) · oracle_id `6c326439-5620-4ec6-a56a-fe9c3d5d2a46` · printing: MSC #217 (2026-06-26) · [rulings](https://api.scryfall.com/cards/a365885c-f7d9-4ea1-9125-5265055e5570/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Talisman of Creativity
@@ -1453,6 +1472,7 @@
   > *"Good ideas don't take time. They take a lot of bad ideas first."*
   > *—Ral Zarek*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #125 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/61/talisman-of-creativity) · oracle_id `14d2979d-5728-42d7-a027-0eb1f754655d` · printing: FRC #61 (2026-10-02) · [rulings](https://api.scryfall.com/cards/d4ba86c8-8052-4c9e-a0d0-ac6ad0b2679c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Talisman of Curiosity
@@ -1466,6 +1486,7 @@
   > *"The pain of exploring is less than the pain of not knowing."*
   > *—Tamiyo*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #484 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/241/talisman-of-curiosity) · oracle_id `8c34b089-aad1-476e-958a-3077bf1bbb51` · printing: MKC #241 (2024-02-09) · [rulings](https://api.scryfall.com/cards/8388c4e8-bda1-47e5-8df2-ddec5babcaf9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Talisman of Dominance
@@ -1476,6 +1497,7 @@
   > {T}: Add {C}.
   > {T}: Add {U} or {B}. This artifact deals 1 damage to you.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #92 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/62/talisman-of-dominance) · oracle_id `4c0a0448-b9d6-43a0-8549-64066dac63f0` · printing: FRC #62 (2026-10-02) · [rulings](https://api.scryfall.com/cards/78d5366f-eb6d-4ec1-880b-111872863766/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Talisman of Hierarchy
@@ -1489,6 +1511,7 @@
   > *"You'll never get to the top if you don't know who's already there."*
   > *—Kaya*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #135 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/358/talisman-of-hierarchy) · oracle_id `b693c3de-2eaf-4850-b405-e79d00adefda` · printing: SOC #358 (2026-04-24) · [rulings](https://api.scryfall.com/cards/0c959368-2f58-48de-b7a5-2bab408652b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Talisman of Impulse
@@ -1499,6 +1522,7 @@
   > {T}: Add {C}.
   > {T}: Add {R} or {G}. This artifact deals 1 damage to you.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #589 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/332/talisman-of-impulse) · oracle_id `f2ccc9e8-8e92-4f8c-8728-8c748630e0dd` · printing: TDC #332 (2025-04-11) · [rulings](https://api.scryfall.com/cards/5135919f-7b10-4a2e-a98a-83ed1347ad36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Talisman of Indulgence
@@ -1509,6 +1533,7 @@
   > {T}: Add {C}.
   > {T}: Add {B} or {R}. This artifact deals 1 damage to you.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #127 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/63/talisman-of-indulgence) · oracle_id `1d9aeaaa-66f6-41cb-9bac-162d6fd8662c` · printing: FRC #63 (2026-10-02) · [rulings](https://api.scryfall.com/cards/36bd614f-ab3b-4ad1-ab5c-a7ca0a641f32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Talisman of Progress
@@ -1519,6 +1544,7 @@
   > {T}: Add {C}.
   > {T}: Add {W} or {U}. This artifact deals 1 damage to you.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #136 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/64/talisman-of-progress) · oracle_id `00e35322-1a9a-41e3-9ce1-359c8eaa3bc7` · printing: FRC #64 (2026-10-02) · [rulings](https://api.scryfall.com/cards/454ed9c8-3ec1-4b65-bf3f-29a186742aed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Talisman of Resilience
@@ -1532,6 +1558,7 @@
   > *"The continual rise of the downtrodden is as inevitable as vines usurping a forest."*
   > *—Vraska*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #502 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/255/talisman-of-resilience) · oracle_id `42b8aa14-10bc-4bd6-88d9-4bb287eadd19` · printing: DSC #255 (2024-09-27) · [rulings](https://api.scryfall.com/cards/eff598b0-0b32-41d0-b980-584576e58626/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Talisman of Unity
@@ -1591,7 +1618,16 @@
   > {1}, {T}: Add one mana of any color.
   > {4}: Put this card from your hand onto the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #569 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/82/talon-gates-of-madara) · oracle_id `8c45bf9d-a017-43bf-9e32-67810a8a217b` · printing: M3C #82 (2024-06-14) · [rulings](https://api.scryfall.com/cards/de92facf-762b-4a23-8d5e-bb673b0500c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-06-07* — An attacking or blocking creature that phases out is removed from combat.
+  - *2024-06-07* — Any continuous effects with a "for as long as" duration ignore phased-out objects. If ignoring those objects causes the effect's conditions to no longer be met, the duration will expire.
+  - *2024-06-07* — As a permanent is phased out, Auras and Equipment attached to it also phase out at the same time. Those Auras and Equipment will phase in at the same time that permanent does, and they'll phase in still attached to that permanent.
+  - *2024-06-07* — Choices made for permanents as they entered the battlefield are remembered when they phase in.
+  - *2024-06-07* — Permanents phase back in during their controller's untap step, immediately before that player untaps their permanents. Creatures that phase in this way are able to attack during that turn, and their activated abilities with {T} in their costs can be activated. If a permanent had counters on it when it phased out, it will have those counters when it phases back in.
+  - *2024-06-07* — Phased-out permanents are treated as though they don't exist. They can't be the targets of spells or abilities, their static abilities have no effect on the game, their triggered abilities can't trigger, they can't attack or block, and so on.
+  - *2024-06-07* — Phasing out doesn't cause any "leaves the battlefield" abilities to trigger. Similarly, phasing in won't cause any "enters the battlefield" abilities to trigger.
+  - *2024-06-07* — When you activate Talon Gates of Madara's last ability, you must reveal Talon Gates of Madara from your hand until that ability resolves or otherwise leaves the stack. If Talon Gates of Madara isn't still in your hand as that ability resolves, nothing happens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/82/talon-gates-of-madara) · oracle_id `8c45bf9d-a017-43bf-9e32-67810a8a217b` · printing: M3C #82 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Talon of Pain
 
@@ -1687,7 +1723,9 @@
 - **Flavor text** (OTC printing):
   > *"The seas are vast, but the skies are even more so. Why be content with one kingdom when I can rule them both?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #804 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/116/talrand-sky-summoner) · oracle_id `ea1eb902-a23c-44ff-9169-19baf71de238` · printing: OTC #116 (2024-04-19) · [rulings](https://api.scryfall.com/cards/1be3ed47-072e-481a-b3d9-dc232ac4b24f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger, but after targets have been chosen for that spell. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/116/talrand-sky-summoner) · oracle_id `ea1eb902-a23c-44ff-9169-19baf71de238` · printing: OTC #116 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Talruum Champion
 
@@ -1903,6 +1941,7 @@
 - **Flavor text** (NEO printing):
   > *To keep the Reality Chip out of Jin-Gitaxias's hands, the Wanderer entrusted it to Tamiyo.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #465 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/211/tamiyos-safekeeping) · oracle_id `bb2b324c-970a-4920-884e-c92ba49669f0` · printing: NEO #211 (2022-02-18) · [rulings](https://api.scryfall.com/cards/fd4b7ee2-de65-4288-872d-486065a4f226/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tamiyo, the Moon Sage
@@ -3162,7 +3201,11 @@
   > *"Yavimaya is one being—one vastness of rippling leaves, one deepness of roots, and one chatter of animals—of which I am one part."*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #481 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/247/tatyova-benthic-druid) · oracle_id `0715e860-3b3b-4331-9718-207973e94fee` · printing: FDN #247 (2024-11-15) · [rulings](https://api.scryfall.com/cards/eabc978a-0666-472d-bdc6-d4b29d29eca4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/247/tatyova-benthic-druid) · oracle_id `0715e860-3b3b-4331-9718-207973e94fee` · printing: FDN #247 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tatyova, Steward of Tides
 

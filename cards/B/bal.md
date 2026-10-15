@@ -94,7 +94,17 @@
   > *"I know it's around here somewhere."*
   > *—Doral, Bala Ged guide*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #318 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/180/bala-ged-recovery-bala-ged-sanctuary) · oracle_id `d2075f58-b0e9-4e85-b7e6-0523a27a1d5b` · printing: ZNR #180 (2020-09-25) · [rulings](https://api.scryfall.com/cards/c5cb3052-358d-44a7-8cfd-cd31b236494a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2020-09-25* — A modal double-faced card can’t be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2020-09-25* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2020-09-25* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than “play”) a specific modal double-faced card, you can’t play it as a land.
+  - *2020-09-25* — If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face’s name.
+  - *2020-09-25* — If an effect puts a double-faced card onto the battlefield, it enters with its front face up. If that front face can’t be put onto the battlefield, it doesn’t enter the battlefield.
+  - *2020-09-25* — In the Commander variant, a double-faced card’s color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+  - *2020-09-25* — The mana value of a modal double-faced card is based on the characteristics of the face that’s being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
+  - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you’re playing and ignore the other face’s characteristics.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/180/bala-ged-recovery-bala-ged-sanctuary) · oracle_id `d2075f58-b0e9-4e85-b7e6-0523a27a1d5b` · printing: ZNR #180 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bala Ged Scorpion
 
@@ -157,7 +167,11 @@
 - **Oracle text:**
   > Each player chooses a number of lands they control equal to the number of lands controlled by the player who controls the fewest, then sacrifices the rest. Players discard cards and sacrifice creatures the same way.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ema/2/balance) · oracle_id `17fa98cd-ed8f-483f-9525-7e989a82ebb2` · printing: EMA #2 (2016-06-10) · [rulings](https://api.scryfall.com/cards/ce648aa3-098b-4af0-a433-fd290bc85904/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-06-08* — Balance doesn't have targets, so permanents that can't be targeted, such as a creature with shroud or protection from white, are valid choices to be sacrificed.
+  - *2016-06-08* — Each type of object is counted during the corresponding part of the process. Cards in hand are counted after lands have been sacrificed, and creatures on the battlefield are counted after cards have been discarded. Thus, a land creature sacrificed to the first part of the spell would not be counted when determining how many creatures are on the battlefield for the last part.
+  - *2016-06-08* — First the player whose turn it is chooses which lands (if any) to keep, then each other player in turn order does the same. Each player will know the choices made by the players who chose before them. All of the unchosen lands are then sacrificed simultaneously. Then the process is repeated for cards in hand, except that no cards are revealed until all players have chosen what to discard, at which point those cards are all discarded simultaneously. Lastly, the process is repeated for creatures, and players will again know earlier choices made when deciding what to sacrifice. All of the unchosen creatures are then sacrificed simultaneously.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ema/2/balance) · oracle_id `17fa98cd-ed8f-483f-9525-7e989a82ebb2` · printing: EMA #2 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Balance of Power
 
@@ -559,6 +573,7 @@
   > *Its beak rends flesh and bone, exposing the tender marrow of dream.*
 - **Keywords:** Deathtouch, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #363 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/215/baleful-strix) · oracle_id `37688720-03de-4eca-a82d-a0afe8d58adc` · printing: OTC #215 (2024-04-19) · [rulings](https://api.scryfall.com/cards/be8439e6-f779-49f0-806a-b04995697a6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Balemurk Leech

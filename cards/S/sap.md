@@ -134,7 +134,13 @@
 - **Flavor text** (MH3 printing):
   > *It is the glimpse of a new horizon beyond the hills, the briny taste of salt spray off a ship's hull, and the whisper of pages turning in a new book. It is discovery.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #354 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/296/sapphire-medallion) · oracle_id `f1ef5698-14bd-42bf-aae5-2870699e4186` · printing: MH3 #296 (2024-06-14) · [rulings](https://api.scryfall.com/cards/a77850b2-6478-449e-bdb9-5b92650e3504/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-07-28* — If a spell you cast has {X} in its mana cost, you choose the value of X before calculating the spell's total cost.
+  - *2023-07-28* — If there are additional costs to cast a spell, or if the cost to cast a spell is increased by an effect (such as the one created by Thalia, Guardian of Thraben's ability), apply those increases before applying cost reductions.
+  - *2023-07-28* — The ability can't reduce the amount of colored mana you pay for a spell. It reduces only the generic mana component of that cost.
+  - *2023-07-28* — The ability doesn't change the mana cost or mana value of any spell. It changes only the total cost you pay.
+  - *2023-07-28* — The cost reduction can apply to alternative costs such as flashback costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/296/sapphire-medallion) · oracle_id `f1ef5698-14bd-42bf-aae5-2870699e4186` · printing: MH3 #296 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saprazzan Bailiff
 

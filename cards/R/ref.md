@@ -85,7 +85,13 @@
   > *"Jace's world is like a warped mirror. Like some part of him strains against what the Theorist is creating."*
   > *—Vraska*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #164 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/23/reflecting-pool) · oracle_id `67f43ac6-2a58-4b53-b5d7-0330e2a252e2` · printing: FRC #23 (2026-10-02) · [rulings](https://api.scryfall.com/cards/cbc4281a-b70d-4f96-b309-38e986484829/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-07-25* — Any change to a land’s type or abilities gained by a land can affect the types of mana a land can produce.
+  - *2025-07-25* — Multiple Reflecting Pools won’t help each other produce mana. If you control a Reflecting Pool, and all other lands you control either lack mana abilities or are other Reflecting Pools, you may still activate Reflecting Pool’s ability—it just won’t produce any mana.
+  - *2025-07-25* — Reflecting Pool’s ability checks the effects of all mana-producing abilities of lands you control, but it doesn’t check their costs or legality. For example, Spire of Industry says “{T}, Pay 1 life: Add one mana of any color. Activate only if you control an artifact.” If you control Spire of Industry and Reflecting Pool, you can tap Reflecting Pool for any color of mana. It doesn’t matter whether you control an artifact, whether you can pay 1 life, or whether Spire of Industry is untapped.
+  - *2025-07-25* — Reflecting Pool’s ability doesn’t care about any restrictions or riders your lands put on the mana they produce, such as those of Plaza of Heroes or Power Depot. It just produces one mana of the appropriate type, with no restrictions or riders.
+  - *2025-07-25* — The types of mana are white, blue, black, red, green, and colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/23/reflecting-pool) · oracle_id `67f43ac6-2a58-4b53-b5d7-0330e2a252e2` · printing: FRC #23 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reflections of Littjara
 
@@ -97,7 +103,13 @@
 - **Flavor text** (TDC printing):
   > *The masks float downstream toward the Mirrorlake, where faces arise to wear them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #693 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/164/reflections-of-littjara) · oracle_id `c3fdfb94-2d10-4743-864c-a59fdd57d8b7` · printing: TDC #164 (2025-04-11) · [rulings](https://api.scryfall.com/cards/578a1846-8c1a-4013-b669-1d3f4ddbbaa3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-02-05* — As a copy of a permanent spell resolves, it's put onto the battlefield as a token rather than putting a copy of the spell onto the battlefield. The rules that apply to a permanent spell becoming a permanent apply to a copy of a spell becoming a token.
+  - *2021-02-05* — If a spell has the kindred card type and the chosen creature type, Reflections of Littjara will copy it.
+  - *2021-02-05* — The token that a resolving copy of a permanent spell becomes isn't "created." Abilities that refer to a copy being created won't interact with the copy resolving.
+  - *2021-02-05* — The triggered ability and the copy it creates will resolve before the spell that caused the ability to trigger.
+  - *2021-02-05* — You must choose an existing creature type, such as Zombie or Angel. You can't choose card types (e.g., artifact) or supertypes (e.g., snow).
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/164/reflections-of-littjara) · oracle_id `c3fdfb94-2d10-4743-864c-a59fdd57d8b7` · printing: TDC #164 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reflective Gate
 

@@ -205,6 +205,7 @@
 - **Flavor text** (A25 printing):
   > *Nothing restrains a burning passion.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #450 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/147/red-elemental-blast) · oracle_id `bb329a5c-b9f9-4973-a53f-090024146325` · printing: A25 #147 (2018-03-16) · [rulings](https://api.scryfall.com/cards/70a45e9b-699e-425a-9f3d-267274830d3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Redemption Arc
@@ -350,7 +351,11 @@
   > *"A Waterbender lets their defense become their offense, turning their opponent's energy against them. I learned a way to do this with lightning."*
   > *—Iroh*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #533 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/151/redirect-lightning) · oracle_id `c62b5c22-e058-436f-9575-a01cb2112829` · printing: TLA #151 (2025-11-21) · [rulings](https://api.scryfall.com/cards/2b5b14a7-1fdd-4efc-b197-cadfa7f7c860/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-10-02* — If a spell or ability targets multiple things, you can't target it with Redirect Lightning, even if all but one of those targets have become illegal.
+  - *2025-10-02* — If a spell or ability targets the same player or object multiple times, you can't target it with Redirect Lightning.
+  - *2025-10-02* — You don't choose the new target for the spell or ability until Redirect Lightning resolves. You must change the target if possible. However, you can't change the target to an illegal target. If there are no legal targets to choose from, the target isn't changed. It doesn't matter if the original target has somehow become illegal itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/151/redirect-lightning) · oracle_id `c62b5c22-e058-436f-9575-a01cb2112829` · printing: TLA #151 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rediscover the Way
 

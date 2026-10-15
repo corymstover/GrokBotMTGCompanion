@@ -43,6 +43,7 @@
 - **Oracle text:**
   > {T}, Pay 1 life, Sacrifice this land: Search your library for a Mountain or Plains card, put it onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #55 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/244/arid-mesa) · oracle_id `c5acf2a5-40f4-433d-a74d-1cb56c521464` · printing: MH2 #244 (2021-06-18) · [rulings](https://api.scryfall.com/cards/25ac5405-df7b-4097-914a-022cb18e20d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arisen Gorgon

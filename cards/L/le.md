@@ -721,7 +721,13 @@
   > *No evidence, no crime.*
 - **Keywords:** Flying, Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #838 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/46/ledger-shredder) · oracle_id `e9117015-1050-44dd-a46b-e7ffe2085fae` · printing: SNC #46 (2022-04-29) · [rulings](https://api.scryfall.com/cards/7ea4b5bc-18a4-45db-a56a-ab3f8bd2fb0d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-04-29* — Don't play with this card near any important paperwork. We can't take responsibility for what happens.
+  - *2022-04-29* — If a resolving spell or ability instructs a specific creature to connive but that creature has left the battlefield, the creature still connives. If you discard a nonland card this way, you won't put a +1/+1 counter on anything. Abilities that trigger “when [that creature] connives” will trigger.
+  - *2022-04-29* — If no card is discarded, most likely because that player's hand is empty and an effect says they can't draw cards, the conniving creature does not receive a +1/+1 counter.
+  - *2022-04-29* — Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard a nonland card but before it receives a counter.
+  - *2022-04-29* — Spells that were cast before Ledger Shredder entered the battlefield count. If Ledger Shredder was the first spell you cast this turn, the next spell you cast this turn is your second spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/46/ledger-shredder) · oracle_id `e9117015-1050-44dd-a46b-e7ffe2085fae` · printing: SNC #46 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leech Bonder
 
@@ -1715,7 +1721,13 @@
 - **Flavor text** (UMA printing):
   > *"I'm sure we can come to an arrangement."*
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/202/leovold-emissary-of-trest) · oracle_id `d5d91377-fd66-4dbe-a092-07f2ea379ca7` · printing: UMA #202 (2018-12-07) · [rulings](https://api.scryfall.com/cards/cedfc5b7-9242-4680-b284-debc8b5a9bc7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2018-12-07* — If an opponent hasn’t drawn any cards in a turn and a spell or ability instructs that player to draw multiple cards, that player will just draw one card. However, if the draws are optional, the player can’t choose to draw, even if they could draw one card this way.
+  - *2018-12-07* — If you and a permanent you control each become the target of the same spell or ability an opponent controls, Leovold’s ability will trigger twice. The same is true if two permanents you control become the target of the same spell or ability an opponent controls.
+  - *2018-12-07* — Leovold will “see” cards drawn by opponents earlier in the turn before it entered the battlefield, although Leovold can’t affect cards drawn before it entered the battlefield. For example, if an opponent draws two cards, then Leovold enters the battlefield, that opponent can’t draw more cards that turn, but the two drawn cards are unaffected.
+  - *2018-12-07* — Replacement effects (such as that of dredge or Laboratory Maniac’s ability) can’t be used to replace draws that Leovold disallows. However, if an opponent’s first draw is replaced (by a dredge ability, for example), that draw didn’t happen and Leovold won’t stop the next draw.
+  - *2018-12-07* — Your opponents can draw a maximum of one card each on each player’s turn. Subsequent card draws during that turn are ignored.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/202/leovold-emissary-of-trest) · oracle_id `d5d91377-fd66-4dbe-a092-07f2ea379ca7` · printing: UMA #202 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leovold's Operative
 
@@ -2107,7 +2119,9 @@
   > If this card is in your opening hand, you may begin the game with it on the battlefield.
   > You may cast spells as though they had flash.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #755 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/726/leyline-of-anticipation) · oracle_id `9dc65ffe-17fc-4280-b4bd-78073ac7e12b` · printing: CLB #726 (2022-06-10) · [rulings](https://api.scryfall.com/cards/f57bdaa1-ce8a-4103-8598-fee751e65a53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — A player's "opening hand" is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player's opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/726/leyline-of-anticipation) · oracle_id `9dc65ffe-17fc-4280-b4bd-78073ac7e12b` · printing: CLB #726 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leyline of Combustion
 

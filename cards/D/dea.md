@@ -497,6 +497,7 @@
   > *—Tombstone, to Anaconda*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #131 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/794/deadly-dispute) · oracle_id `457af74a-02b3-4659-846d-63e482667f34` · printing: MSC #794 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d86fa72c-25c1-43ef-9cb0-fe76f7568ed3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deadly Embrace
@@ -606,7 +607,10 @@
 - **Flavor text** (CMM printing):
   > *Otrimi was disappointed at how quickly its new friend got tired and stopped playing.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #106 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/147/deadly-rollick) · oracle_id `0456ec64-2c81-4763-a352-8ff64a4c3d6b` · printing: CMM #147 (2023-08-04) · [rulings](https://api.scryfall.com/cards/0e13f735-54fa-42b6-aea4-ced33811d7d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-04-17* — It doesn't matter whose commander you control. Any one will do. If you have two commanders, you just need to control one of them.
+  - *2020-04-17* — Once you begin casting this spell, players can't take any other actions until you're done casting it. Notably, they can't try to remove the commander you control to make you pay its cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/147/deadly-rollick) · oracle_id `0456ec64-2c81-4763-a352-8ff64a4c3d6b` · printing: CMM #147 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deadly Tempest
 
@@ -1044,6 +1048,7 @@
   > *"Life is defined by change. When I shucked my flesh to combat the Phyrexian infection, it was not loss to me, merely a new state of being."*
   > *—Moseo, dean of the vein*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #342 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/253/deathcap-glade) · oracle_id `f6d24565-5b32-4eff-b2e0-6e2c25516ff0` · printing: SOS #253 (2026-04-24) · [rulings](https://api.scryfall.com/cards/78897104-80e1-4d8a-9958-145b40f679e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deathcap Marionette
@@ -1638,7 +1643,10 @@
   > {B}, {T}: Exile target instant or sorcery card from a graveyard. Each opponent loses 2 life.
   > {G}, {T}: Exile target creature card from a graveyard. You gain 2 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #615 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/175/deathrite-shaman) · oracle_id `22f1a4a4-c423-4d1c-8775-0ed604a9fa51` · printing: RVR #175 (2024-01-12) · [rulings](https://api.scryfall.com/cards/cfdb1c47-14be-491f-88b3-bed03489dbc5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-06-08* — Because the first ability requires a target, it is not a mana ability. It uses the stack and can be responded to.
+  - *2016-06-08* — If the target of any of Deathrite Shaman's three abilities is an illegal target when that ability tries to resolve, it won't resolve and none of its effects will happen. You won't add mana, no opponent will lose life, or you won't gain life, as appropriate.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/175/deathrite-shaman) · oracle_id `22f1a4a4-c423-4d1c-8775-0ed604a9fa51` · printing: RVR #175 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Death's Approach
 

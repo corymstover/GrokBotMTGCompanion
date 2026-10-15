@@ -188,7 +188,10 @@
 - **Flavor text** (LCC printing):
   > *The wills of mortals shift as the tide ebbs and flows.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #443 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/146/bident-of-thassa) · oracle_id `e1afaef7-9fa3-4662-a95f-adfb0da9fd11` · printing: LCC #146 (2023-11-17) · [rulings](https://api.scryfall.com/cards/94751d5e-7693-44af-b1b5-e440677dc7a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-03-16* — If a creature can't attack for any reason (such as being tapped or having come under that player's control that turn), then it doesn't attack. If there's a cost associated with having a creature attack, the player isn't forced to pay that cost, so it doesn't have to attack in that case either.
+  - *2018-03-16* — The controller of each attacking creature still chooses which player or planeswalker that creature attacks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/146/bident-of-thassa) · oracle_id `e1afaef7-9fa3-4662-a95f-adfb0da9fd11` · printing: LCC #146 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bifurcate
 
@@ -335,6 +338,7 @@
   > *"Bank robbery? In Harlem? On a Sunday? You must be outta your mind."*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #138 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/802/big-score) · oracle_id `a5cbd257-c836-493e-bb1a-76242619dea2` · printing: MSC #802 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3383a939-4ab3-4546-9995-6c65cd3f4441/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Big Wheel
@@ -1116,6 +1120,7 @@
   > *The migration of the cranes is believed to be a portent of coming abundance in Wakanda.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #35 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/170/birds-of-paradise) · oracle_id `d3a0b660-358c-41bd-9cd2-41fbf3491b1a` · printing: MSC #170 (2026-06-26) · [rulings](https://api.scryfall.com/cards/492c2f9a-51e7-4e0f-9899-23bf43ea988b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Birgi, God of Storytelling // Harnfel, Horn of Bounty
@@ -1132,7 +1137,25 @@
   - *Flavor text (KHM printing):*
   > *Like her well of stories, Birgi's horn never runs dry.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #498 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/123/birgi-god-of-storytelling-harnfel-horn-of-bounty) · oracle_id `fb81e4d3-1d8c-4779-be62-87cf49277e51` · printing: KHM #123 (2021-02-05) · [rulings](https://api.scryfall.com/cards/44657ab1-0a6a-4a5f-9688-86f239083821/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (17):
+  - *2021-02-05* — A modal double-faced card can’t be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2021-02-05* — Any cards exiled with Harnfel that you don’t play remain exiled.
+  - *2021-02-05* — Birgi’s first ability uses the stack and can be responded to. It isn’t a mana ability.
+  - *2021-02-05* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2021-02-05* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than “play”) a specific modal double-faced card, you can’t play it as a land.
+  - *2021-02-05* — If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face’s name.
+  - *2021-02-05* — If an effect puts a double-faced card onto the battlefield, it enters with its front face up. If that front face can’t be put onto the battlefield, it doesn’t enter the battlefield.
+  - *2021-02-05* — In the Commander variant, a double-faced card’s color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+  - *2021-02-05* — Playing the cards exiled with Harnfel follows the normal rules for playing those cards. You must pay their costs, if any, and you must follow all applicable timing rules. For example, if one of the cards is a creature card, you can cast that card by paying its mana cost only during your main phase while the stack is empty.
+  - *2021-02-05* — The card you discard to activate the ability isn’t part of “those cards” and can’t be played, even if it somehow ends up in exile.
+  - *2021-02-05* — The cards exiled by Harnfel’s activated ability are exiled face up.
+  - *2021-02-05* — The mana value of a modal double-faced card is based on the characteristics of the face that’s being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2021-02-05* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
+  - *2021-02-05* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you’re playing and ignore the other face’s characteristics.
+  - *2021-02-05* — Unless an effect allows you to play additional lands that turn, you can play land cards exiled with Harnfel only if you haven’t played a land yet that turn. In most cases, if you exile two land cards with Harnfel, you won’t be able to play both.
+  - *2021-02-05* — You may play those cards that turn even if Harnfel leaves the battlefield or another player gains control of it.
+  - *2021-02-05* — You must still attack with a creature you control to activate its boast ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/123/birgi-god-of-storytelling-harnfel-horn-of-bounty) · oracle_id `fb81e4d3-1d8c-4779-be62-87cf49277e51` · printing: KHM #123 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Birnin Zana Plaza
 
@@ -1423,7 +1446,13 @@
 - **Flavor text** (2X2 printing):
   > *In Lorwyn's brief evenings, the sun pauses at the horizon long enough for a certain species of violet to bloom with the fragrance of mischief.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #614 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/69/bitterblossom) · oracle_id `fb868840-09fa-49b1-85cb-b08ad065e972` · printing: 2X2 #69 (2022-07-08) · [rulings](https://api.scryfall.com/cards/b9640cbf-b016-410e-9eff-e8924883517b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2008-04-01* — The effect is mandatory. You'll lose 1 life even if you have only 1 life left.
+  - *2008-04-01* — The life loss isn't a payment. You'll get a token even if you had 0 life (and another effect is stopping you from losing the game).
+  - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
+  - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
+  - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/69/bitterblossom) · oracle_id `fb868840-09fa-49b1-85cb-b08ad065e972` · printing: 2X2 #69 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bitterbow Sharpshooters
 
@@ -1546,6 +1575,7 @@
 - **Flavor text** (TDC printing):
   > *Though he wept at Inti's death, Caparocti's eyes were keen, and his spear pierced cleanly through Clavileño's tainted heart.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #828 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/173/bitter-triumph) · oracle_id `776341cb-d2ec-423f-9250-92dc8bd8d503` · printing: TDC #173 (2025-04-11) · [rulings](https://api.scryfall.com/cards/c5333556-eea2-41ae-833e-007b9d540700/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bitter Work

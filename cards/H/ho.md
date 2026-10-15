@@ -657,7 +657,16 @@
   > At the beginning of your first upkeep, create a 1/2 white Soldier creature token with defender.
   > At the beginning of each other player's first upkeep, that player creates a 1/1 red Goblin creature token with "This token can't block."
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/6/hold-the-perimeter) · oracle_id `20f7f33d-0c49-49f7-80fa-aed86e33a528` · printing: CN2 #6 (2016-08-26) · [rulings](https://api.scryfall.com/cards/00717f7c-0778-4a02-b6c0-b3c3f07e75a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2016-08-23* — A conspiracy doesn't count as a card in your deck for purposes of meeting minimum deck size requirements. (In most drafts, the minimum deck size is 40 cards.)
+  - *2016-08-23* — A conspiracy's static and triggered abilities function as long as that conspiracy is face-up in the command zone.
+  - *2016-08-23* — Conspiracies are colorless, have no mana cost, and can't be cast as spells.
+  - *2016-08-23* — Conspiracies are never put into your deck. Instead, you put any number of conspiracies from your card pool into the command zone as the game begins. These conspiracies are face up unless they have hidden agenda, in which case they begin the game face down.
+  - *2016-08-23* — Conspiracies aren't legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft.
+  - *2016-08-23* — The Goblin tokens can't attack the turn they are put onto the battlefield.
+  - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
+  - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/6/hold-the-perimeter) · oracle_id `20f7f33d-0c49-49f7-80fa-aed86e33a528` · printing: CN2 #6 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Holistic Wisdom
 
@@ -1072,7 +1081,10 @@
   > *"Let your heels point you home."*
   > *—Ancient blessing*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1187 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c16/301/homeward-path) · oracle_id `cb8ec2e4-8223-4172-8f2c-37c918a573fa` · printing: C16 #301 (2016-11-11) · [rulings](https://api.scryfall.com/cards/54734347-eee7-4c52-b514-7342afeccabd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-09-22* — The owner of a card is the player who started the game with that card in their deck.
+  - *2011-09-22* — The owner of a token is the player under whose control the token was put onto the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c16/301/homeward-path) · oracle_id `cb8ec2e4-8223-4172-8f2c-37c918a573fa` · printing: C16 #301 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Homicidal Seclusion
 
@@ -3181,7 +3193,12 @@
 - **Flavor text** (C16 printing):
   > *The mine's riches never end, nor do the moans of the spirits doomed to haunt them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #721 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c16/257/howling-mine) · oracle_id `d26b27db-a567-4631-b4b6-7294222fbdd1` · printing: C16 #257 (2016-11-11) · [rulings](https://api.scryfall.com/cards/cdae9939-03a4-4561-92cd-01f498d29a7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2004-10-04* — If Howling Mine leaves the battlefield before it resolves, then the last known tap or untap state of the card is used for resolution.
+  - *2004-10-04* — It does not trigger at all if this is tapped at the start of the draw step, and it checks this again on resolution.
+  - *2004-10-04* — The additional draw is separate from any other draw during your draw step. It happens when the triggered ability resolves.
+  - *2013-04-15* — The triggered ability is put onto the stack after you have already drawn your card for the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c16/257/howling-mine) · oracle_id `d26b27db-a567-4631-b4b6-7294222fbdd1` · printing: C16 #257 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Howling Moon
 

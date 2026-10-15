@@ -181,7 +181,9 @@
   > *"You, toadlet! Bring me a goblet of your bog's finest fire-slug slime!"*
 - **Keywords:** Exalted
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #535 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/52/ignoble-hierarch) · oracle_id `c8de43a3-ebd3-4000-b343-a6ffed11d34d` · printing: ECC #52 (2026-01-23) · [rulings](https://api.scryfall.com/cards/e802cfe1-45e0-47cd-8745-363ccc0f2af8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-06-18* — A creature attacks alone if it's the only creature declared as an attacker during the declare attackers step (including creatures controlled by your teammates, if applicable). For example, exalted won't trigger if you attack with multiple creatures and all but one of them are removed from combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/52/ignoble-hierarch) · oracle_id `c8de43a3-ebd3-4000-b343-a6ffed11d34d` · printing: ECC #52 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ignoble Soldier
 

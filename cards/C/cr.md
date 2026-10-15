@@ -1091,7 +1091,10 @@
   > *—Eshki Dragonclaw*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #296 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/138/craterhoof-behemoth) · oracle_id `8c52bd39-0586-48ca-b263-17210cf9feb6` · printing: TDM #138 (2025-04-11) · [rulings](https://api.scryfall.com/cards/276f5cee-a501-4658-bd4d-7a044bf1ccbc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-04-04* — Craterhoof Behemoth’s triggered ability affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won’t gain trample and get +X/+X.
+  - *2025-04-04* — The value of X is calculated only once, as Craterhoof Behemoth’s last ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/138/craterhoof-behemoth) · oracle_id `8c52bd39-0586-48ca-b263-17210cf9feb6` · printing: TDM #138 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Craterize
 
@@ -2188,7 +2191,9 @@
 - **Flavor text** (DMR printing):
   > *"Hmm ... maybe lotuses this year."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #218 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/154/crop-rotation) · oracle_id `28b46183-c62f-47b1-9fee-3ba148202cab` · printing: DMR #154 (2023-01-13) · [rulings](https://api.scryfall.com/cards/523414cb-f8db-407a-808a-01454e03d8b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — You can’t cast Crop Rotation without sacrificing a land, and you can’t sacrifice additional lands.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/154/crop-rotation) · oracle_id `28b46183-c62f-47b1-9fee-3ba148202cab` · printing: DMR #154 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Crop Sigil
 
@@ -2752,7 +2757,10 @@
 - **Flavor text** (2X2 printing):
   > *Amidst the darkest ashes grow the strongest seeds.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #599 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/303/crucible-of-worlds) · oracle_id `33c722cf-b4bf-431f-aefd-ee96241a7fbf` · printing: 2X2 #303 (2022-07-08) · [rulings](https://api.scryfall.com/cards/7f4893ef-f983-418b-b7a4-5f073c844545/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-07-13* — Crucible of Worlds doesn't allow you to activate abilities (such as cycling) of land cards in your graveyard.
+  - *2018-07-13* — Crucible of Worlds doesn't change the times when you can play those land cards. You can still play only one land per turn, and only during your main phase when you have priority and the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/303/crucible-of-worlds) · oracle_id `33c722cf-b4bf-431f-aefd-ee96241a7fbf` · printing: 2X2 #303 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Crude Bent Blade
 
@@ -3098,6 +3106,7 @@
   > *"Hear me, nations of the world! This place now stands uninhabited and ungoverned. Eternal proof that human life cannot stand against the steel of machinery!"*
   > *—Ultron*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #368 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/237/crumbling-necropolis) · oracle_id `7190debf-708b-4f41-9714-0d0a5bd5a74e` · printing: MSC #237 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d28542af-936f-44e5-a4e3-119f23c9f0d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Crumbling Sanctuary
@@ -3130,6 +3139,7 @@
   > *"Finally, I understand. Home isn't where you rest. It's what you fight for."*
   > *—Elspeth Tirel*
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddf/27/crusade) · oracle_id `4692740f-be90-459f-8d90-c4ae71771595` · printing: DDF #27 (2010-09-03) · [rulings](https://api.scryfall.com/cards/b99452c0-5d1c-4a73-90b6-0ec3ac0af893/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Crusader of Odric
@@ -3571,7 +3581,12 @@
   > Whenever you tap a Swamp for mana, add an additional {B}.
 - **Keywords:** Extort
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #523 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/70/crypt-ghast) · oracle_id `a3c8d817-7949-4dae-b9f5-f9d952479270` · printing: RVR #70 (2024-01-12) · [rulings](https://api.scryfall.com/cards/60bebd79-f88c-44ef-8920-e19031bad1d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-01-12* — The amount of life you gain from extort is based on the total amount of life lost, not necessarily the number of opponents you have. For example, if your opponent's life total can't change (perhaps because that player controls Platinum Emperion), you won't gain any life.
+  - *2024-01-12* — The extort ability doesn't target any player.
+  - *2024-01-12* — The extort ability resolves before the spell that caused it to trigger. The ability resolves even if that spell is countered.
+  - *2024-01-12* — You may pay {W/B} a maximum of one time for each extort triggered ability. You decide whether to pay when the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/70/crypt-ghast) · oracle_id `a3c8d817-7949-4dae-b9f5-f9d952479270` · printing: RVR #70 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cryptic Annelid
 
@@ -3619,7 +3634,10 @@
   > • Tap all creatures your opponents control.
   > • Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1610 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/48/cryptic-command) · oracle_id `a3e51a35-09df-4189-b131-08a21e6a557d` · printing: IMA #48 (2017-11-17) · [rulings](https://api.scryfall.com/cards/30f6fca9-003b-4f6b-9d6e-1e88adda4155/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-11-17* — Look at both chosen modes to determine how many targets Cryptic Command has, if any. If it has at least one target, and all its targets are illegal when it tries to resolve, then it won’t resolve and none of its effects will happen. For example, if you choose the second and fourth modes, and the permanent is an illegal target when Cryptic Command tries to resolve, you won’t draw a card.
+  - *2017-11-17* — You choose both modes as you cast Cryptic Command. You must choose two different modes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/48/cryptic-command) · oracle_id `a3e51a35-09df-4189-b131-08a21e6a557d` · printing: IMA #48 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cryptic Cruiser
 
@@ -3782,7 +3800,9 @@
 - **Flavor text** (INR printing):
   > *The chant was incomprehensible, but its power was unmistakable.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #665 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/189/cryptolith-rite) · oracle_id `043f869d-b11c-4c0d-9591-2bf0df7bde55` · printing: INR #189 (2025-01-24) · [rulings](https://api.scryfall.com/cards/0a4e707f-b760-434d-ba97-a0fe651f3f6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-04-08* — If a creature has multiple mana abilities with a cost of {T}, such as if you control two Cryptolith Rites, you can only activate one of them at a time. Tapping the creature doesn’t produce multiple mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/189/cryptolith-rite) · oracle_id `043f869d-b11c-4c0d-9591-2bf0df7bde55` · printing: INR #189 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cryptoplasm
 

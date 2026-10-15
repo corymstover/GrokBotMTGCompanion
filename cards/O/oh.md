@@ -37,7 +37,10 @@
 - **Flavor text** (SOC printing):
   > *Silent as a snowdrift. Inexorable as an avalanche.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #446 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/279/ohran-frostfang) · oracle_id `b99ada26-9a61-4175-9fb8-15a106960220` · printing: SOC #279 (2026-04-24) · [rulings](https://api.scryfall.com/cards/55fb93e6-d057-4b70-ad12-e98291fd4a2c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-08-23* — If one or more creatures you control deal combat damage to players at the same time that lethal damage is dealt to Ohran Frostfang, its ability triggers for each of those creatures.
+  - *2019-08-23* — Snow is a supertype, not a card type. It has no rules meaning or function by itself, but other cards and abilities may refer to it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/279/ohran-frostfang) · oracle_id `b99ada26-9a61-4175-9fb8-15a106960220` · printing: SOC #279 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ohran Viper
 

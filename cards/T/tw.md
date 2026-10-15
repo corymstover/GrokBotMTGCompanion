@@ -180,6 +180,7 @@
 - **Flavor text** (SOC printing):
   > *As their roots soaked in a weak tea of bogwater and decay, the trees absorbed the essence of death into their living tissue.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #355 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/418/twilight-mire) · oracle_id `db623754-e078-4030-ba07-818803c348a8` · printing: SOC #418 (2026-04-24) · [rulings](https://api.scryfall.com/cards/3cc8186b-b46f-46c0-8dfb-9e423e430048/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twilight Panther
@@ -390,7 +391,11 @@
   > *—Peren, veteran mercenary*
 - **Keywords:** Flying, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #767 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/97/twinflame-tyrant) · oracle_id `321b5cc6-8df6-4292-97a0-a6a3a22f3b55` · printing: FDN #97 (2024-11-15) · [rulings](https://api.scryfall.com/cards/1eb34f51-0bd2-43c3-af95-2ce8dabcc7bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — If another effect (or effects) modifies how much damage a source you control would deal—by preventing some of it, for example—the player being dealt damage or the controller of the permanent being dealt damage chooses the order in which any such effects (including Twinflame Tyrant's) apply. If all of the damage is prevented, Twinflame Tyrant's effect no longer applies.
+  - *2024-11-08* — If damage dealt by a source you control is being divided or assigned among multiple permanents and/or players, that damage is divided or assigned before doubling. For example, if you attack with a 5/5 creature with trample and it's blocked by a 2/2 creature, you can assign 2 damage to the blocker and 3 damage to the defending player. Those amounts are then doubled to 4 and 6, respectively.
+  - *2024-11-08* — The damage is dealt by the same source as the original source of damage. The doubled damage isn't dealt by Twinflame Tyrant unless it was the original source of damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/97/twinflame-tyrant) · oracle_id `321b5cc6-8df6-4292-97a0-a6a3a22f3b55` · printing: FDN #97 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twining Twins // Swift Spiral
 

@@ -1504,6 +1504,7 @@
   > When this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #558 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/262/hedge-maze) · oracle_id `ca4b6689-04ee-4227-9bdc-cb5a9590c745` · printing: MKM #262 (2024-02-09) · [rulings](https://api.scryfall.com/cards/5260f8ae-805b-4eae-badf-62de0f768867/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hedge Shredder
@@ -1593,6 +1594,7 @@
   > *"You've begun to understand the hedrons' true purpose," said Ugin. "The Eldrazi can be imprisoned."*
   > *"And how did that work out last time?" asked Jace.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #544 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/726/hedron-archive) · oracle_id `32263baa-d3f0-463f-92b3-4e9938476add` · printing: FDN #726 (2024-11-15) · [rulings](https://api.scryfall.com/cards/535b9ac6-dba2-4162-86ed-df3e9fad0306/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hedron Blade
@@ -2426,7 +2428,9 @@
   > At the beginning of your upkeep, if you control twenty or more artifacts, you win the game.
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #737 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/plst/RVR-111/hellkite-tyrant) · oracle_id `d9b066ff-9519-415c-ae17-bfea703c9889` · printing: PLST #RVR-111 (2024-12-02) · [rulings](https://api.scryfall.com/cards/a7cb4100-1696-4393-8f1f-634018e0b78f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-01-24* — If you don't control twenty or more artifacts at the beginning of your upkeep, Hellkite Tyrant's last ability won't trigger. If it does trigger, it will check again when it tries to resolve. If you don't control twenty or more artifacts at that time, the ability will do nothing.
+- **Source flags:** [Scryfall](https://scryfall.com/card/plst/RVR-111/hellkite-tyrant) · oracle_id `d9b066ff-9519-415c-ae17-bfea703c9889` · printing: PLST #RVR-111 (2024-12-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hellkite Whelp
 
@@ -2675,7 +2679,16 @@
   > *T'Challa summoned the legions of Panthers past, and the dead rallied to their now and forever king.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #393 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/200/helm-of-the-host) · oracle_id `83b43aba-bf9c-4da2-967d-9daa632e97d2` · printing: MSC #200 (2026-06-26) · [rulings](https://api.scryfall.com/cards/70ffc71f-328d-421d-926b-6f2e45ffb812/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2018-04-27* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the chosen creature will also work.
+  - *2018-04-27* — If the copied creature has {X} in its mana cost, X is considered to be 0.
+  - *2018-04-27* — If the copied creature is a token, the token that's created copies the original characteristics of that token as stated by the effect that created that token.
+  - *2018-04-27* — If the copied creature is copying something else (for example, if the copied creature is a Clone), then the token enters the battlefield as whatever that creature copied.
+  - *2018-04-27* — If the equipped creature leaves the battlefield before the triggered ability of Helm of the Host resolves, or if there is no equipped creature, no token is created. However, if Helm of the Host leaves the battlefield while its triggered ability is on the stack, a token will be created of the creature it last equipped. If that creature has also left the battlefield, its last known information is used to determine what the token looks like.
+  - *2018-04-27* — The token copies exactly what was printed on the original creature and nothing else (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2018-04-27* — The token gains haste indefinitely, and this effect isn't copiable. If something else copies the token later, that copy won't have haste.
+  - *2018-04-27* — The token isn't legendary, and this exception is copiable. If something else copies the token later, that copy also won't be legendary. If you control two or more permanents with the same name but only one is legendary, the "legend rule" doesn't apply.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/200/helm-of-the-host) · oracle_id `83b43aba-bf9c-4da2-967d-9daa632e97d2` · printing: MSC #200 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Helmut Zemo, Mastermind
 
@@ -2898,7 +2911,10 @@
   > Creatures you control of the chosen color get +1/+0.
   > {T}: Add one mana of the chosen color.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #849 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/254/heraldic-banner) · oracle_id `3525e263-e29a-49bf-a29f-fb3ce43bbd33` · printing: FDN #254 (2024-11-15) · [rulings](https://api.scryfall.com/cards/743ea709-dbb3-4db8-a2ce-544f47eb6339/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-10-04* — If there is somehow no chosen color, Heraldic Banner's static ability has no effect, and its mana ability produces no mana if you activate it. Colorless creatures won't get +1/+0, and you won't add {C}.
+  - *2019-10-04* — You must choose white, blue, black, red, or green for Heraldic Banner's ability. You can't choose "multicolor," "gold," or "colorless."
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/254/heraldic-banner) · oracle_id `3525e263-e29a-49bf-a29f-fb3ce43bbd33` · printing: FDN #254 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Herald of Amity
 
@@ -3202,7 +3218,14 @@
   > Creature spells you cast of the chosen type cost {1} less to cast.
   > At the beginning of your upkeep, look at the top card of your library. If it's a creature card of the chosen type, you may reveal it and put it into your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #151 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/304/heralds-horn) · oracle_id `c02c5547-b9c9-4b2d-9d12-e87bfba8f2d2` · printing: LCC #304 (2023-11-17) · [rulings](https://api.scryfall.com/cards/4bfa71d4-4125-4404-9c24-979401bae592/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2017-08-25* — If you don't put the top card of your library into your hand, you put it back on top of your library without revealing it. You'll draw it in that turn's draw step.
+  - *2017-08-25* — If you somehow control a Herald's Horn with no chosen creature type, no spells will cost less to cast, not even creature spells with no creature type. You'll be able to look at the top card of your library at the beginning of each of your upkeeps, but you can never put it into your hand this way, even if it's a creature card with no creature type.
+  - *2017-08-25* — The effect of Herald's Horn reduces only generic mana in a spell's cost. If that cost has no generic mana, the cost isn't reduced.
+  - *2017-08-25* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+  - *2017-08-25* — You can't choose multiple creature types, such as "Cat Warrior." A Cat Warrior is both a Cat and a Warrior. It's affected by anything that affects either type and unaffected by things that affect non-Cat or non-Warrior creatures.
+  - *2017-08-25* — You must choose an existing creature type, such as Vampire or Cat. Card types such as "artifact" can't be chosen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/304/heralds-horn) · oracle_id `c02c5547-b9c9-4b2d-9d12-e87bfba8f2d2` · printing: LCC #304 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Heralds of Tzeentch
 
@@ -3662,7 +3685,11 @@
   > *"Wherever the strong would harm the weak, I will be there."*
   > *—Ajani Goldmane*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/295/heroic-intervention) · oracle_id `24882fa2-3fe9-4c1b-aa3d-0e6488b9db27` · printing: CMM #295 (2023-08-04) · [rulings](https://api.scryfall.com/cards/e32c67d1-187f-40df-b3b3-6036f5c92834/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-06-23* — A planeswalker with indestructible still loses loyalty counters as it's dealt damage and will still be put into its owner's graveyard if its loyalty reaches 0.
+  - *2020-06-23* — The set of permanents affected by Heroic Intervention is determined as the spell resolves. Permanents you begin to control later in the turn won't gain hexproof and indestructible.
+  - *2023-07-28* — A battle with indestructible still loses defense counters as it's dealt damage. If it's a Siege, it will still be exiled when the last defense counter is removed from it, and its controller may still cast it transformed without paying its mana cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/295/heroic-intervention) · oracle_id `24882fa2-3fe9-4c1b-aa3d-0e6488b9db27` · printing: CMM #295 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Heroic Reinforcements
 
@@ -4232,7 +4259,9 @@
   > *"Finally, a place where the ingredients are as potent as my magics!"*
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #575 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/145/hexing-squelcher) · oracle_id `96c2d71e-0fc9-42aa-bc6b-6d0ae3f66f8b` · printing: ECL #145 (2026-01-23) · [rulings](https://api.scryfall.com/cards/674960ce-ff33-4d5e-a24a-a4582b2e9809/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-11-17* — A spell or ability that counters spells can still target any spell that can't be countered. When that spell or ability resolves, the spell that can't be countered won't be countered, but any additional effects of the countering spell or ability will still happen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/145/hexing-squelcher) · oracle_id `96c2d71e-0fc9-42aa-bc6b-6d0ae3f66f8b` · printing: ECL #145 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hex Magic
 

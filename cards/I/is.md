@@ -234,7 +234,13 @@
   > {2}, {T}: You may copy the exiled card. If you do, you may cast the copy without paying its mana cost.
 - **Keywords:** Imprint
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #760 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/264/isochron-scepter) · oracle_id `ddd649f4-dbaf-48ec-8ff7-95581257772d` · printing: 2XM #264 (2020-08-07) · [rulings](https://api.scryfall.com/cards/2aa24fe0-e275-4307-b26c-2a656068a451/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-08-07* — If Isochron Scepter leaves the battlefield while the activated ability is on the stack, the ability can still make a copy. On the other hand, if the imprinted card leaves the exile zone while the activated ability is on the stack, the copy can't be made.
+  - *2020-08-07* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2020-08-07* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+  - *2020-08-07* — If you don't want to cast the copy, you can choose not to; the copy ceases to exist the next time state-based actions are checked.
+  - *2020-08-07* — You cast the copy while the ability is resolving and still on the stack. You can't wait to cast it later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/264/isochron-scepter) · oracle_id `ddd649f4-dbaf-48ec-8ff7-95581257772d` · printing: 2XM #264 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isolate
 
@@ -257,6 +263,7 @@
 - **Flavor text** (FRC printing):
   > *Serra's blessing lies strongest upon Sursi, where her holy chapels are untouched even as evil encroaches.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #90 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/74/isolated-chapel) · oracle_id `7e5d9efe-48a9-434b-bb09-056e0e09cc9a` · printing: FRC #74 (2026-10-02) · [rulings](https://api.scryfall.com/cards/b3169b9a-f5e3-402e-883a-08274d0c7b12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isolated Watchtower

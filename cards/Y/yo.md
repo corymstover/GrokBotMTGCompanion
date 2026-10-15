@@ -506,7 +506,9 @@
 - **Flavor text** (TDC printing):
   > *The hydrorats were soon eradicated from the monastery.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #845 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/95/young-pyromancer) · oracle_id `5fac139a-07d3-4e6c-98e3-d98b199f7a6f` · printing: TDC #95 (2025-04-11) · [rulings](https://api.scryfall.com/cards/c0d74ecd-a595-4012-81b4-083264b40c94/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger, but after targets have been chosen for that spell. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/95/young-pyromancer) · oracle_id `5fac139a-07d3-4e6c-98e3-d98b199f7a6f` · printing: TDC #95 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Young Red Dragon // Bathe in Gold
 

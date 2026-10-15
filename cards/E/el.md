@@ -290,7 +290,9 @@
 - **Flavor text** (MH1 printing):
   > *Tribal rivalries and petty disputes were laid aside at Eladamri's summons.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #780 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/197/eladamris-call) · oracle_id `4acb6612-54e8-428d-acb6-c7259a5ad6a8` · printing: MH1 #197 (2019-06-14) · [rulings](https://api.scryfall.com/cards/ea751fe2-b64a-4265-8885-a9016b29b5b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/197/eladamris-call) · oracle_id `4acb6612-54e8-428d-acb6-c7259a5ad6a8` · printing: MH1 #197 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eladamri's Vineyard
 
@@ -342,7 +344,11 @@
   > *"All will bow to the Whispering One."*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #617 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/198/elas-il-kor-sadistic-pilgrim) · oracle_id `a4d33e21-d3fe-4d5b-903c-b75e859d6f7f` · printing: DMU #198 (2022-09-09) · [rulings](https://api.scryfall.com/cards/1c3f0ffe-cf51-4c30-8cd5-9e3c7e92c019/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-09-09* — If one or more other creatures enter the battlefield under your control at the same time that Elas il-Kor enters the battlefield, its second ability will trigger for each of those other creatures.
+  - *2022-09-09* — If one or more other creatures you control die at the same time that Elas il-Kor dies, its last ability triggers for each of those other creatures.
+  - *2022-09-09* — In a Two-Headed Giant game, Elas il-Kor’s last ability causes the opposing team to lose 2 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/198/elas-il-kor-sadistic-pilgrim) · oracle_id `a4d33e21-d3fe-4d5b-903c-b75e859d6f7f` · printing: DMU #198 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Elbrus, the Binding Blade // Withengar Unbound
 
@@ -817,7 +823,14 @@
   > As an additional cost to cast this spell, sacrifice a creature.
   > Search your library for a creature card with mana value X or less, where X is 2 plus the sacrificed creature's mana value. Put that card onto the battlefield, then shuffle. Exile Eldritch Evolution.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #763 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/195/eldritch-evolution) · oracle_id `0f77c0c9-4dc4-489a-b547-e93287c4d1a5` · printing: INR #195 (2025-01-24) · [rulings](https://api.scryfall.com/cards/606caf13-c0d3-4a61-9a1a-32f13b6448ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2016-07-13* — A creature's mana value is determined solely by the mana symbols printed in its upper right corner (unless that creature is the back face of a double-faced card, a melded card, or is copying something else; see below). If the mana cost includes {X}, X is considered to be 0. If it's a single-faced card with no mana symbols in its upper right corner (because it's an animated land, for example), its mana value is 0. Ignore any alternative costs or additional costs (such as kicker) paid when the creature was cast.
+  - *2016-07-13* — A token that isn't a copy of another permanent has a mana value of 0. A token that is a copy or a creature that has become a copy of another permanent has the mana value of what it's copying.
+  - *2016-07-13* — If a card in a library has {X} in its mana cost, X is considered to be 0. If you find such a card this way, you won't have an opportunity to spend mana on {X}.
+  - *2016-07-13* — Once you begin to cast Eldritch Evolution, no player may take actions until you're done. Notably, opponents can't try to remove the creature you wish to sacrifice.
+  - *2016-07-13* — Sacrificing a creature is part of Eldritch Evolution's cost. You can't sacrifice more creatures to search for more creature cards, and you can't cast Eldritch Evolution at all if you control no creatures.
+  - *2016-07-13* — The mana value of a permanent that's a double-faced card with its back face up is the mana value of its front face. The mana value of a melded permanent is the sum of the mana values of its front faces. A creature that's a copy of either has a mana value of 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/195/eldritch-evolution) · oracle_id `0f77c0c9-4dc4-489a-b547-e93287c4d1a5` · printing: INR #195 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eldritch Immunity
 
@@ -1100,6 +1113,7 @@
   > When this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #771 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/260/elegant-parlor) · oracle_id `9ea747cf-5d04-4aa7-bdc3-8145860cd1ba` · printing: MKM #260 (2024-02-09) · [rulings](https://api.scryfall.com/cards/72c6d541-e2cb-4d6e-acac-90a8f53b7006/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Elegy Acolyte
@@ -1174,7 +1188,9 @@
   > *"I want to help Zendikar. Show me the way."*
   > *—Nissa Revane*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #550 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/254/elemental-bond) · oracle_id `d9a7e5a6-3e41-4fc6-987a-18fe1b9d67dd` · printing: TDC #254 (2025-04-11) · [rulings](https://api.scryfall.com/cards/8efbc925-54ac-4dda-82af-9091b1cf2fda/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-10-02* — The creature must have power 3 or greater as it enters, or Elemental Bond's ability won't trigger. Static abilities that raise (or lower) a creature's power are taken into account. However, you can't have a creature with power 2 or less enter and try to raise its power with a spell, an activated ability, or a triggered ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/254/elemental-bond) · oracle_id `d9a7e5a6-3e41-4fc6-987a-18fe1b9d67dd` · printing: TDC #254 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Elemental Eruption
 
@@ -2236,7 +2252,9 @@
   > 0: Put a +1/+1 counter on each creature you control. Those creatures gain flying until your next turn.
   > −3: Destroy target creature an opponent controls with mana value 3 or greater.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #663 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/11/elspeth-storm-slayer) · oracle_id `f78af825-023a-42e9-8374-5c52303a1417` · printing: TDM #11 (2025-04-11) · [rulings](https://api.scryfall.com/cards/73a065e3-b530-4e62-ab3c-4f6f908184ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-04-04* — Everything that is specified by the effect creating the original token or tokens will also be true about the additional token or tokens created by Elspeth’s replacement effect. For example, if an effect tells you to create a token “tapped and attacking,” the additional tokens will also be tapped and attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/11/elspeth-storm-slayer) · oracle_id `f78af825-023a-42e9-8374-5c52303a1417` · printing: TDM #11 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Elspeth, Sun's Champion
 
@@ -2248,6 +2266,7 @@
   > −3: Destroy all creatures with power 4 or greater.
   > −7: You get an emblem with "Creatures you control get +2/+2 and have flying."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #786 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/24/elspeth-suns-champion) · oracle_id `05e6b243-48a6-4a42-bc5f-413441de9c33` · printing: FRC #24 (2026-10-02) · [rulings](https://api.scryfall.com/cards/a91d9163-c1f2-4eae-acab-5dabbc71d7d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Elspeth, Sun's Nemesis
@@ -2591,6 +2610,7 @@
 - **Flavor text** (DDJ printing):
   > *Cast out of the Conclave generations ago, these elves found a home in the corrupted districts of the Golgari.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #742 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddj/47/elves-of-deep-shadow) · oracle_id `20347559-95a9-4689-bb79-c5bb3809b719` · printing: DDJ #47 (2012-09-07) · [rulings](https://api.scryfall.com/cards/6040ba5e-7042-4095-9000-89bcb8ce1ea6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Elvish Aberration
@@ -2942,6 +2962,7 @@
   > *"The Three Rings of the Elves were not made as weapons of war or conquest—that is not their power. Those who made them did not desire strength or domination or hoarded wealth, but understanding, making, and healing, to preserve all things unstained."*
   > *—Elrond*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #102 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/205/elvish-mystic) · oracle_id `3f3b2c10-21f8-4e13-be83-4ef3fa36e123` · printing: HOC #205 (2026-08-14) · [rulings](https://api.scryfall.com/cards/08b9a296-3b76-4f8f-9d71-7c9af92bb3b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Elvish Pathcutter
@@ -3111,7 +3132,9 @@
   > *"We are never without guidance, if we but seek it."*
   > *—Taaveti of Kelsinko, elvish hunter*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #750 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/157/elvish-spirit-guide) · oracle_id `6b0e23cf-7d68-4329-86db-7adc26abd86b` · printing: DMR #157 (2023-01-13) · [rulings](https://api.scryfall.com/cards/50aded92-f934-441f-8e48-d68d471e70d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — If a spell or ability's cost includes returning a creature to your hand and paying mana, you can't activate Elvish Spirit Guide's mana ability after returning it to your hand. This is because mana abilities must be activated before you begin paying costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/157/elvish-spirit-guide) · oracle_id `6b0e23cf-7d68-4329-86db-7adc26abd86b` · printing: DMR #157 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Elvish Vanguard
 

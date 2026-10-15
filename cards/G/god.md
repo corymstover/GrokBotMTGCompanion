@@ -145,7 +145,10 @@
 - **Flavor text** (TRK printing):
   > *After Gul Dukat aligned the Cardassian Union with the Dominion, the Founders moved their military headquarters to Cardassia Prime to better oversee war efforts.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #59 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/trk/285/godless-shrine) · oracle_id `73864fcc-1bde-4bc0-831e-2b93e546e417` · printing: TRK #285 (2026-11-13) · [rulings](https://api.scryfall.com/cards/8fbd1ae0-3d4c-492a-a1ea-85a95fa3d7b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-10-05* — If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
+  - *2018-10-05* — Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
+- **Source flags:** [Scryfall](https://scryfall.com/card/trk/285/godless-shrine) · oracle_id `73864fcc-1bde-4bc0-831e-2b93e546e417` · printing: TRK #285 (2026-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Godo, Bandit Warlord
 

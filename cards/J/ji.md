@@ -132,7 +132,9 @@
   > White creatures get +2/+1 as long as the chosen player controls a nontoken permanent of the chosen color.
   > When the chosen player controls no nontoken permanents of the chosen color, sacrifice this enchantment.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/arn/5/jihad) · oracle_id `b18b9869-8490-4875-a5bb-484c3299f2c5` · printing: ARN #5 (1993-12-17) · [rulings](https://api.scryfall.com/cards/b6c7705a-2987-4ef1-92b1-2c55d989ec6f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — In a multi-player game, it tracks only the chosen player. This is not changed even if this card changes controllers.
+- **Source flags:** [Scryfall](https://scryfall.com/card/arn/5/jihad) · oracle_id `b18b9869-8490-4875-a5bb-484c3299f2c5` · printing: ARN #5 (1993-12-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jill, Shiva's Dominant // Shiva, Warden of Ice
 

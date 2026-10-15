@@ -138,7 +138,15 @@
   > *"It has been my experience that disasters like to strike in pairs."*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #682 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/165/dualcaster-mage) · oracle_id `8eb7c0a5-6190-40de-b473-2d1daa3bbe28` · printing: C21 #165 (2021-04-23) · [rulings](https://api.scryfall.com/cards/defcc4a3-40e0-4f5d-b23c-6cd6a614abc1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2016-06-08* — As Dualcaster Mage's triggered ability resolves, it creates a copy of a spell on the stack. The copy isn't cast, so abilities that trigger when a player casts a spell won't trigger.
+  - *2016-06-08* — Dualcaster Mage's triggered ability can target (and copy) any instant or sorcery spell, not just one with targets. It doesn't matter who controls it.
+  - *2016-06-08* — If the copy says that it affects "you," it affects the controller of the copy, not the controller of the original spell. Similarly, if the copy says that it affects an "opponent," it affects an opponent of the copy's controller, not an opponent of the original spell's controller.
+  - *2016-06-08* — If the spell has an X whose value was determined as it was cast (like Earthquake does), the copy has the same value of X.
+  - *2016-06-08* — If the spell is modal (that is, it says "Choose one —" or the like), the copy will have the same mode. You can't choose a different one.
+  - *2016-06-08* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2016-06-08* — You can't choose to pay any additional costs for the copy. However, effects based on any additional or alternative costs paid for the targeted spell are copied as though those same costs were paid for the copy.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/165/dualcaster-mage) · oracle_id `8eb7c0a5-6190-40de-b473-2d1daa3bbe28` · printing: C21 #165 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dual Casting
 
@@ -1406,6 +1414,7 @@
   > {T}: Add {C}.
   > {3}, {T}, Sacrifice a land: Destroy target nonbasic land.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5303 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/316/dust-bowl) · oracle_id `d3df7128-31dd-4d71-90be-87e2e9ff51b4` · printing: MMQ #316 (1999-10-04) · [rulings](https://api.scryfall.com/cards/75b03c30-c2b8-4207-b675-26c59c40a7e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dust Corona

@@ -55,7 +55,9 @@
 - **Flavor text** (MH2 printing):
   > *Deep within the Cabal's vault, the Mirari pulsed like a dead sun—and its darkness radiated across Otaria.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #200 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/301/cabal-coffers) · oracle_id `7358e164-5704-4e78-9b21-6a9bf2a968ce` · printing: MH2 #301 (2021-06-18) · [rulings](https://api.scryfall.com/cards/e1efb0d3-2c72-46ff-bdc1-1069967365a0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-06-18* — The mana ability of Cabal Coffers counts each land you control with the subtype Swamp, not just ones named Swamp.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/301/cabal-coffers) · oracle_id `7358e164-5704-4e78-9b21-6a9bf2a968ce` · printing: MH2 #301 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabal Conditioning
 
@@ -177,6 +179,7 @@
   > *—Cabal Patriarch*
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #442 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/106/cabal-ritual) · oracle_id `5b5bf1fa-6502-4790-b66b-f0f8504ebc7c` · printing: VMA #106 (2014-06-16) · [rulings](https://api.scryfall.com/cards/a5d85875-22da-4054-ae42-e85b472a6d5d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabal Shrine

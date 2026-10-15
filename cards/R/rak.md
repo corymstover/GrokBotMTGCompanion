@@ -139,7 +139,9 @@
   > When this land enters, return a land you control to its owner's hand.
   > {T}: Add {B}{R}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #518 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/161/rakdos-carnarium) · oracle_id `0a023964-2905-4928-9c3e-dc63e6ebd218` · printing: ECC #161 (2026-01-23) · [rulings](https://api.scryfall.com/cards/20c799a9-ab94-46e6-9111-00505e071c41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/161/rakdos-carnarium) · oracle_id `0a023964-2905-4928-9c3e-dc63e6ebd218` · printing: ECC #161 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Charm
 
@@ -154,6 +156,7 @@
   > *"Let all feel joy in pain."*
   > *—Rakdos*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #326 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/125/rakdos-charm) · oracle_id `5e62b51d-faec-4aa0-9504-cf2c282d08ea` · printing: EOC #125 (2025-08-01) · [rulings](https://api.scryfall.com/cards/64b67170-1602-4050-80c0-ade2a6cac211/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Cluestone
@@ -394,6 +397,7 @@
 - **Flavor text** (FRC printing):
   > *Made of bone and boiled in blood, a Rakdos signet is not considered finished until it has been used as a murder weapon.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #168 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/60/rakdos-signet) · oracle_id `3adb7681-977f-4a32-9ec8-51481b958268` · printing: FRC #60 (2026-10-02) · [rulings](https://api.scryfall.com/cards/a263e71d-953f-4648-b326-33133cfa7e00/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos's Return

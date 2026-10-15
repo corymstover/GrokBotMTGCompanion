@@ -216,7 +216,11 @@
   > Play with the top card of your library revealed.
   > You may play lands from the top of your library.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #509 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/102/oracle-of-mul-daya) · oracle_id `6c5b02eb-7829-436a-8555-fea200e4b67f` · printing: EOC #102 (2025-08-01) · [rulings](https://api.scryfall.com/cards/ab19808f-a5b8-4dfd-800e-2064cd6538c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2009-10-01* — If you control more than one Oracle of Mul Daya, the effects of their first abilities are cumulative. If you control two, for example, you can play three lands on your turn.
+  - *2009-10-01* — If you play your first land of the turn from the top of your library, and the new top card is another land card, you can play that one too.
+  - *2009-10-01* — Oracle of Mul Daya doesn't change the times when you can play a land card from the top of your library. You can play a land only during your main phase when you have priority and the stack is empty. Doing so counts as one of your land plays for the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/102/oracle-of-mul-daya) · oracle_id `6c5b02eb-7829-436a-8555-fea200e4b67f` · printing: EOC #102 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oracle of Nectars
 
@@ -370,7 +374,10 @@
   > {T}: Add {G}.
   > {T}: Put a +1/+1 counter on each green creature that entered this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #740 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/391/oran-rief-the-vastwood) · oracle_id `e88027a6-24cc-4a8b-86db-734f26149ea8` · printing: SOC #391 (2026-04-24) · [rulings](https://api.scryfall.com/cards/d46d3ef7-b81f-42f4-9c1b-fa53f11eae65/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-10-01* — Oran-Rief's last ability affects all permanents that are green creatures that entered this turn, not just the ones you control.
+  - *2009-10-01* — Oran-Rief's last ability cares about permanents' characteristics at the time the ability resolves, not their characteristics at the time they entered. For example, if a blue creature enters, then is turned green by a spell or ability, then Oran-Rief's second ability resolves, you'll put a +1/+1 counter on that creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/391/oran-rief-the-vastwood) · oracle_id `e88027a6-24cc-4a8b-86db-734f26149ea8` · printing: SOC #391 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Orator of Ojutai
 
@@ -625,7 +632,16 @@
   > When this creature enters and whenever an opponent draws a card except the first one they draw in each of their draw steps, this creature deals 1 damage to any target. Then amass Orcs 1.
 - **Keywords:** Amass, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #260 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/103/orcish-bowmasters) · oracle_id `ea5103f5-27e0-4eb1-902c-7f34652d6bf3` · printing: LTR #103 (2023-06-23) · [rulings](https://api.scryfall.com/cards/7c024bae-5631-4e20-ac69-df392ac9e109/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-06-16* — Amass Zombies works the same way, except you create a 0/0 black Zombie Army creature token if you don't control an Army. If the Army creature you chose isn't already a Zombie, it becomes a Zombie in addition to its other types. By combining cards with amass Orcs and amass Zombies, you can end up with an Orc Zombie Army.
+  - *2023-06-16* — Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."
+  - *2023-06-16* — If a spell or ability causes an opponent to put cards into their hand without specifically using the word "draw," it's not a card drawn.
+  - *2023-06-16* — If you don't control an Army, the Orc Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Orcs, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't an Orc, it becomes an Orc in addition to its other types.
+  - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
+  - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/103/orcish-bowmasters) · oracle_id `ea5103f5-27e0-4eb1-902c-7f34652d6bf3` · printing: LTR #103 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Orcish Cannonade
 
@@ -1776,6 +1792,7 @@
   > *—Urza, in his apprenticeship*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #789 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/233/ornithopter) · oracle_id `a3a98bc9-caa0-49b7-951c-fe4e4f54e4ba` · printing: DMR #233 (2023-01-13) · [rulings](https://api.scryfall.com/cards/305078a5-ac18-4721-bba2-3434eba5b1cf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ornithopter of Paradise
@@ -1791,6 +1808,7 @@
   > *—Rashmi, aether-seer*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #220 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/966/ornithopter-of-paradise) · oracle_id `3a940dfa-a026-4969-8981-ef90cdfbe9ef` · printing: CMM #966 (2023-08-04) · [rulings](https://api.scryfall.com/cards/18bbdc6c-b6c9-4f89-8f0a-6266e53c1fb9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Orochi Eggwatcher // Shidako, Broodmistress
@@ -1997,7 +2015,9 @@
   > When this land enters, return a land you control to its owner's hand.
   > {T}: Add {W}{B}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #418 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/292/orzhov-basilica) · oracle_id `aa00ae0b-7c0f-427e-8102-ce0e2a6af5df` · printing: DSC #292 (2024-09-27) · [rulings](https://api.scryfall.com/cards/9c7c08fc-b6ee-498c-8ab6-fd6be27c9d97/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/292/orzhov-basilica) · oracle_id `aa00ae0b-7c0f-427e-8102-ce0e2a6af5df` · printing: DSC #292 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Orzhov Charm
 
@@ -2134,4 +2154,5 @@
 - **Flavor text** (TDC printing):
   > *The sigil holds different meanings depending on its form and presentation. While some wear it as a sign of status, others wear it as a sign of debt.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #190 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/323/orzhov-signet) · oracle_id `de3dcb5d-775a-479f-99f5-d1883ed9b1b5` · printing: TDC #323 (2025-04-11) · [rulings](https://api.scryfall.com/cards/90894726-1940-4291-a05c-b85cefbfa344/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

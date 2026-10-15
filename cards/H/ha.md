@@ -1040,6 +1040,7 @@
 - **Flavor text** (DSC printing):
   > *The stronghold of Theros's light.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #433 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/283/hall-of-heliods-generosity) · oracle_id `2fc070dc-f2f7-4648-8069-31d74790a39c` · printing: DSC #283 (2024-09-27) · [rulings](https://api.scryfall.com/cards/f08dfd99-59fa-4a6c-bd69-c647f639de4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hall of Mirrors
@@ -1143,7 +1144,11 @@
 - **Flavor text** (TRK printing):
   > *The metaphasic radiation of the Ba'ku planet promised medical marvels, as long as the locals could be quietly removed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #61 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/trk/286/hallowed-fountain) · oracle_id `f1750962-a87c-49f6-b731-02ae971ac6ea` · printing: TRK #286 (2026-11-13) · [rulings](https://api.scryfall.com/cards/b7285986-7e08-4969-86ef-452dc5bfdd9f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-10-05* — Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
+  - *2025-11-17* — If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
+  - *2025-11-17* — This land has two basic land types. It's not basic, so cards such as Tend the Sprigs can't find it, but it does have the appropriate land types for effects such as that of Kishla Village (from the Tarkir: Dragonstorm release).
+- **Source flags:** [Scryfall](https://scryfall.com/card/trk/286/hallowed-fountain) · oracle_id `f1750962-a87c-49f6-b731-02ae971ac6ea` · printing: TRK #286 (2026-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hallowed Ground
 
@@ -1628,7 +1633,10 @@
   > Equip {4}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #722 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/388/hammer-of-nazahn) · oracle_id `e3955573-3db5-490e-903e-65e0172a9202` · printing: CMM #388 (2023-08-04) · [rulings](https://api.scryfall.com/cards/e77a8ac1-f40d-423e-a0b3-0a8e236a6c1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to the equipped creature may become lethal if you attach Hammer of Nazahn to a different creature during that turn.
+  - *2020-08-07* — If Hammer of Nazahn enters the battlefield at the same time as other Equipment you control, its ability will trigger for each of those Equipment.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/388/hammer-of-nazahn) · oracle_id `e3955573-3db5-490e-903e-65e0172a9202` · printing: CMM #388 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hammer of Purphoros
 
@@ -2468,7 +2476,11 @@
   > *"Naga shed their scales. We wear ours with pride."*
   > *—Golran, dragonscale captain*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #185 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/272/hardened-scales) · oracle_id `a1f3da21-af6d-450e-bf0b-985d158418e6` · printing: SOC #272 (2026-04-24) · [rulings](https://api.scryfall.com/cards/99cfd1a8-49fd-4cc0-96f2-f9f159ce5d55/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-09-01* — Each additional Hardened Scales you control will increase the number of +1/+1 counters placed on a creature you control by one.
+  - *2023-09-01* — If a creature you control would enter the battlefield with a number of +1/+1 counters on it, it enters with that many plus one instead.
+  - *2023-09-01* — If two or more effects attempt to modify how many counters would be put on a creature you control, you choose the order to apply those effects, no matter who controls the sources of those effects.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/272/hardened-scales) · oracle_id `a1f3da21-af6d-450e-bf0b-985d158418e6` · printing: SOC #272 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hardened Tactician
 
@@ -2667,6 +2679,7 @@
   > *"Why would I deprive the crowd of an encore?"*
 - **Keywords:** Prowess
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #640 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/123/harmonic-prodigy) · oracle_id `2e2ace5b-4018-43af-8e72-ebafec1a7739` · printing: SOC #123 (2026-04-24) · [rulings](https://api.scryfall.com/cards/63a565e3-d7a8-469d-898f-49fef634c107/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Harmonic Sliver
@@ -2734,6 +2747,7 @@
 - **Flavor text** (MSC printing):
   > *"You have done well, Child of Bast. Now rest, sit in the shade of the country you have fought for, and heal. For at least a moment, until you are called to fight again."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #327 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/175/harmonize) · oracle_id `7eff84f1-f772-497a-b350-bbc93d0230f7` · printing: MSC #175 (2026-06-26) · [rulings](https://api.scryfall.com/cards/bd7138fb-6aa7-455e-b1f7-ca08d747277d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Harmonized Crescendo
@@ -2983,7 +2997,10 @@
 - **Flavor text** (EOC printing):
   > *No spot in nature is truly barren.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #249 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/98/harrow) · oracle_id `705509e9-a034-4a5a-9c65-66f58748b8a2` · printing: EOC #98 (2025-08-01) · [rulings](https://api.scryfall.com/cards/3e76be46-cf81-4fef-bc5b-f87666cb0413/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — The sacrifice of a land is part of the cost of casting Harrow. You can't pay this cost more than once to get a multiple effect.
+  - *2004-10-04* — The two lands do not count toward your normal one land you can play each turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/98/harrow) · oracle_id `705509e9-a034-4a5a-9c65-66f58748b8a2` · printing: EOC #98 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Harrowing Journey
 
@@ -3671,7 +3688,9 @@
 - **Flavor text** (FRA printing):
   > *Jace remembered the mage-rings. The first time he touched another's mind. He remembered how powerful his own could be if he were willing to find his limits.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #270 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/180/haunted-ridge) · oracle_id `e2a37967-4212-4553-9f77-bcb613405807` · printing: FRA #180 (2026-10-02) · [rulings](https://api.scryfall.com/cards/a4e4966b-8963-4fac-a8bf-e778e063c7dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-09-24* — If this land enters the battlefield at the same time as any number of other lands, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/180/haunted-ridge) · oracle_id `e2a37967-4212-4553-9f77-bcb613405807` · printing: FRA #180 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Haunted Screen
 
@@ -4183,6 +4202,7 @@
   > *"They're easy enough to squish, but they're a pain to wash out of a workbench."*
   > *—Tergel, goblin explosioneer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #683 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/349/haywire-mite) · oracle_id `749d2994-44e7-40d3-8630-7bebed239e9e` · printing: SOC #349 (2026-04-24) · [rulings](https://api.scryfall.com/cards/6f813bc3-6d81-4555-8e4b-6ecd9a6757b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hazard of the Dunes

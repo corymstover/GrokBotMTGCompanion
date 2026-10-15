@@ -47,4 +47,7 @@
 - **Flavor text** (MOC printing):
   > *When Titania offered peace, Urza merely turned her down. Mishra made her people pay for the insult.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #379 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/250/go-for-the-throat) · oracle_id `2f092562-9e17-43cd-aeb8-d0567f99363e` · printing: MOC #250 (2023-04-21) · [rulings](https://api.scryfall.com/cards/5446e1ba-c745-45b2-ad05-b22abf04daec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-06-01* — If the targeted creature is also an artifact when Go for the Throat tries to resolve, it won't resolve.
+  - *2022-10-14* — If the targeted creature is also an artifact when Go for the Throat tries to resolve, it won't resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/250/go-for-the-throat) · oracle_id `2f092562-9e17-43cd-aeb8-d0567f99363e` · printing: MOC #250 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

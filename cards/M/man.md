@@ -243,6 +243,7 @@
 - **Flavor text** (JOU printing):
   > *Five rivers encircle Theros, flowing with waters more ancient than the world itself.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #116 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/163/mana-confluence) · oracle_id `d0ee5bdc-2b69-4b73-9a20-ffcc18783b29` · printing: JOU #163 (2014-05-02) · [rulings](https://api.scryfall.com/cards/504a69eb-3c2d-4bb1-b117-252b15acf0c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mana Crypt
@@ -253,7 +254,9 @@
   > At the beginning of your upkeep, flip a coin. If you lose the flip, this artifact deals 3 damage to you.
   > {T}: Add {C}{C}.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/270/mana-crypt) · oracle_id `2c63e4e1-89d2-4bc6-a232-94e75c4b1c8a` · printing: 2XM #270 (2020-08-07) · [rulings](https://api.scryfall.com/cards/4d960186-4559-4af0-bd22-63baa15f8939/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — No player may choose to take actions between determining the result of the flip and damage being dealt if you lost the flip.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/270/mana-crypt) · oracle_id `2c63e4e1-89d2-4bc6-a232-94e75c4b1c8a` · printing: 2XM #270 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mana Cylix
 
@@ -275,7 +278,10 @@
 - **Flavor text** (2X2 printing):
   > *Enthusiasm is no match for preparation.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #119 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/57/mana-drain) · oracle_id `74d3277a-38e5-4732-afed-084a56148f20` · printing: 2X2 #57 (2022-07-08) · [rulings](https://api.scryfall.com/cards/3c429c40-2389-41e5-8681-4bb274e25eba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-11-10* — If the target spell is an illegal target by the time Mana Drain tries to resolve, Mana Drain doesn't resolve. You don't add mana at the beginning of your next main phase. If the target is legal but not countered (most likely because an effect says that the spell can't be countered), you do add mana.
+  - *2020-11-10* — Mana Drain's delayed triggered ability will usually trigger at the beginning of your precombat main phase. However, if you cast Mana Drain during your precombat main phase or during your combat phase, its delayed triggered ability will trigger at the beginning of that turn's postcombat main phase.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/57/mana-drain) · oracle_id `74d3277a-38e5-4732-afed-084a56148f20` · printing: 2X2 #57 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mana Echoes
 
@@ -370,6 +376,7 @@
 - **Flavor text** (SOC printing):
   > *The Quicksilver Sea hissed and bubbled at the indignity. The Vulshok shaman just smiled.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #289 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/247/mana-geyser) · oracle_id `a8dba58b-2956-492e-ae30-49db2ae68e53` · printing: SOC #247 (2026-04-24) · [rulings](https://api.scryfall.com/cards/dfbda387-3c7d-4c80-97c3-60c9d4757244/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Managorger Hydra
@@ -417,6 +424,7 @@
 - **Flavor text** (2X2 printing):
   > *The fatal flaw in every plan is the assumption that you know more than your enemy.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1769 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/58/mana-leak) · oracle_id `c61fe162-2202-4e56-9ba0-393547f9875f` · printing: 2X2 #58 (2022-07-08) · [rulings](https://api.scryfall.com/cards/179236d9-6fe2-4db6-bdfb-f851e8d531a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mana Leech
@@ -637,6 +645,7 @@
   > At the beginning of your draw step, if this artifact is tapped, it deals 1 damage to you.
   > {T}: Add {C}{C}{C}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #152 · Game Changer: **yes** · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/308/mana-vault) · oracle_id `736892cb-a34b-4bb9-b56c-e26e3db207a2` · printing: 2X2 #308 (2022-07-08) · [rulings](https://api.scryfall.com/cards/c1a31d52-a407-4ded-bfca-cc812f11afa0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mana Vortex
@@ -811,7 +820,13 @@
   > Whenever an opponent casts their second spell each turn, draw a card.
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #608 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/155/mangara-the-diplomat) · oracle_id `cbcb6d9a-6ae5-4bcd-8013-2b657553764a` · printing: SOC #155 (2026-04-24) · [rulings](https://api.scryfall.com/cards/49d0d7ec-4bee-47d3-91a6-43510be65402/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-06-23* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2020-06-23* — If some of the attacking creatures leave the battlefield while Mangara's triggered ability is on the stack, use the player or planeswalker they were attacking before they left to determine whether you draw a card. On the other hand, if they're removed from combat without leaving the battlefield, use their current information to determine that they're not attacking you or a planeswalker you control anymore.
+  - *2020-06-23* — If your opponent attacks you with one creature and your planeswalker with another, you draw a card.
+  - *2020-06-23* — Players can cast spells and activate abilities after the triggered ability resolves but before the spell that caused it to trigger does.
+  - *2020-06-23* — You draw just one card, no matter how many creatures are attacking you and your planeswalkers beyond the second.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/155/mangara-the-diplomat) · oracle_id `cbcb6d9a-6ae5-4bcd-8013-2b657553764a` · printing: SOC #155 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Manglehorn
 

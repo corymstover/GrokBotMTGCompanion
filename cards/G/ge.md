@@ -255,7 +255,10 @@
 - **Flavor text** (LCC printing):
   > *All are welcome.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #447 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/335/geier-reach-sanitarium) · oracle_id `7b9fafe7-d26a-4ed5-b4c4-ce13763770b5` · printing: LCC #335 (2023-11-17) · [rulings](https://api.scryfall.com/cards/4b9c92f0-4242-4a3e-9ede-6a4935f5c75d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-07-13* — If more than one player discards a card with madness simultaneously, the player whose turn it is puts their madness abilities onto the stack first, then each other player does the same in turn order. The last one put onto the stack resolves first, and a spell cast this way will resolve before resolving the next madness ability.
+  - *2016-07-13* — When you activate Geier Reach Sanitarium's last ability, first each player draws a card. Then the player whose turn it is selects a card from their hand and sets it aside without revealing it; proceeding in turn order, each other player does the same. Then the cards that were set aside are discarded at once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/335/geier-reach-sanitarium) · oracle_id `7b9fafe7-d26a-4ed5-b4c4-ce13763770b5` · printing: LCC #335 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Geistblast
 
@@ -629,7 +632,10 @@
   > If this card is in your opening hand and you're not the starting player, you may begin the game with Gemstone Caverns on the battlefield with a luck counter on it. If you do, exile a card from your hand.
   > {T}: Add {C}. If Gemstone Caverns has a luck counter on it, instead add one mana of any color.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #181 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/280/gemstone-caverns) · oracle_id `c0adbddc-b070-4c5f-afe0-0474c72a9251` · printing: TSR #280 (2021-03-19) · [rulings](https://api.scryfall.com/cards/7f273641-c5f3-48bc-b89e-3cff52d26a0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-03-19* — A player's "opening hand" is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player's opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins.
+  - *2021-03-19* — If multiple Gemstone Caverns are put onto the battlefield under a single player's control before the game begins, the "legend rule" won't put the extras into that player's graveyard until just before the starting player gets priority during the game's first upkeep step. There's no opportunity to tap the extras for mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/280/gemstone-caverns) · oracle_id `c0adbddc-b070-4c5f-afe0-0474c72a9251` · printing: TSR #280 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gemstone Mine
 
@@ -896,7 +902,9 @@
   > *"What am I supposed to do with this?"*
   > *—Everett K. Ross, State Department liaison*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #63 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/133/generous-gift) · oracle_id `fae37e28-e137-4177-b973-fa8b4dd8f409` · printing: MSC #133 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c3f9b454-97e9-4c77-b37a-e974221ae385/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-06-14* — If the target permanent is an illegal target by the time Generous Gift tries to resolve, the spell doesn't resolve. No player creates an Elephant. If the target is legal but not destroyed (most likely because it has indestructible), its controller does create an Elephant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/133/generous-gift) · oracle_id `fae37e28-e137-4177-b973-fa8b4dd8f409` · printing: MSC #133 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Generous Patron
 

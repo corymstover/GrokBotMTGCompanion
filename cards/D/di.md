@@ -339,7 +339,13 @@
 - **Flavor text** (BRO printing):
   > *Gix pierced his disciples' minds and savored their experiences as he took in their knowledge.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #275 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/89/diabolic-intent) · oracle_id `038519b9-bca8-4b27-b5ac-2409595469d0` · printing: BRO #89 (2022-11-18) · [rulings](https://api.scryfall.com/cards/d72ab698-de67-4ca8-8e42-b05346bf52fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2004-10-04* — You must choose a card if there are any in your library.
+  - *2013-04-15* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.
+  - *2013-04-15* — You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
+  - *2022-10-14* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.
+  - *2022-10-14* — You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/89/diabolic-intent) · oracle_id `038519b9-bca8-4b27-b5ac-2409595469d0` · printing: BRO #89 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Diabolic Machine
 
@@ -387,6 +393,7 @@
 - **Flavor text** (CMA printing):
   > *The wise always keep an ear open to the whispers of power.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #485 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cma/54/diabolic-tutor) · oracle_id `14589b6b-1814-46f9-a364-83cc15dacac2` · printing: CMA #54 (2017-06-09) · [rulings](https://api.scryfall.com/cards/d650dd8c-edd8-44e4-ae95-aaaf84557a72/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Diabolic Vision
@@ -671,7 +678,9 @@
   > *"If you're in our home, we expect you to mind your manners."*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3530 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/42/didnt-say-please) · oracle_id `b90bc464-a95a-42e4-9d9a-4b0882eb57ba` · printing: ELD #42 (2019-10-04) · [rulings](https://api.scryfall.com/cards/77500b53-0852-4d6a-bfe3-b1e8ef5a12cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-10-04* — A spell that can't be countered is a legal target for Didn't Say Please. The spell won't be countered when Didn't Say Please resolves, but its controller still puts the top three cards of their library into their graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/42/didnt-say-please) · oracle_id `b90bc464-a95a-42e4-9d9a-4b0882eb57ba` · printing: ELD #42 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Die Young
 
@@ -742,7 +751,11 @@
   > Look at the top seven cards of your library. Put two of them into your hand and the rest on the bottom of your library in any order.
 - **Keywords:** Delve
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #627 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/195/dig-through-time) · oracle_id `f8b17b89-26ce-4208-874a-9e1d66514640` · printing: SOC #195 (2026-04-24) · [rulings](https://api.scryfall.com/cards/020939d6-72f0-4aa0-9ac2-d16cc896cd7f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-03-19* — Because delve isn't an alternative cost, it can be used in conjunction with alternative costs, such as flashback. It can also be used to pay for additional costs that include generic mana.
+  - *2021-03-19* — Delve doesn't change a spell's mana cost or mana value. For example, Treasure Cruise's mana value is 8 even if you exiled three cards to cast it.
+  - *2021-03-19* — You can exile cards to pay only for generic mana, and you can't exile more cards than the generic mana requirement of a spell with delve. For example, you can't exile more than seven cards from your graveyard to cast Treasure Cruise unless an effect has increased its cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/195/dig-through-time) · oracle_id `f8b17b89-26ce-4208-874a-9e1d66514640` · printing: SOC #195 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dig Up
 
@@ -946,7 +959,9 @@
   > When this land enters, return a land you control to its owner's hand.
   > {T}: Add {U}{B}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #387 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/270/dimir-aqueduct) · oracle_id `378a1d57-e2f1-4b84-9692-1564602e9e99` · printing: DSC #270 (2024-09-27) · [rulings](https://api.scryfall.com/cards/84bf9d60-64b8-4209-acfe-e07eefc6bf1f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/270/dimir-aqueduct) · oracle_id `378a1d57-e2f1-4b84-9692-1564602e9e99` · printing: DSC #270 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dimir Charm
 
@@ -1106,6 +1121,7 @@
 - **Flavor text** (FRC printing):
   > *An emblem of a secret guild, the Dimir insignia is seen only by its own members—and the doomed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #158 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/56/dimir-signet) · oracle_id `7d881c57-0bd9-4c57-aa4a-b10808b86143` · printing: FRC #56 (2026-10-02) · [rulings](https://api.scryfall.com/cards/0862060d-3198-4eeb-af8c-efeb27f42a99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dimir Spybug
@@ -1982,7 +1998,15 @@
   - *Flavor text (MH3 printing):*
   > *The Juniper Order safeguards secret places that still thrum with traces of Freyalise's life-giving magic.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #456 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/250/disciple-of-freyalise-garden-of-freyalise) · oracle_id `2699005b-a471-429f-a9d8-fbf2077ee2fd` · printing: MH3 #250 (2024-06-14) · [rulings](https://api.scryfall.com/cards/a8e9ea5a-5e10-4b77-baef-0352ff035483/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-06-07* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2024-06-07* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect. For example, if an effect allows you to play lands from your graveyard, you can play Garden of Freyalise, but you can't cast Disciple of Freyalise.
+  - *2024-06-07* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2024-06-07* — If an effect allows you to put a card with particular characteristics onto the battlefield without instructing you to play or cast it, you consider only the characteristics of a modal double-faced card's front face to see if that card qualifies. If it does, it enters the battlefield with its front face up. For example, if an effect allows you to put a creature card from your graveyard onto the battlefield, you can put Disciple of Freyalise onto the battlefield. However, an effect that lets you return a land card from your graveyard to your hand won't let you return Garden of Freyalise to your hand, as that card has only its front face's characteristics while in the graveyard.
+  - *2024-06-07* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2024-06-07* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics. For example, if an effect stops you from casting creature spells, you can't cast Disciple of Freyalise, but you can still play Garden of Freyalise.
+  - *2024-06-07* — Use the power of the sacrificed creature as it last existed on the battlefield to determine the value of X.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/250/disciple-of-freyalise-garden-of-freyalise) · oracle_id `2699005b-a471-429f-a9d8-fbf2077ee2fd` · printing: MH3 #250 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Disciple of Grace
 
@@ -2289,7 +2313,10 @@
 - **Flavor text** (WOE printing):
   > *In retrospect, using storm magic against a storm giant was not the wisest strategy.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2354 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/47/disdainful-stroke) · oracle_id `11e02134-7b1a-46a4-a89e-7539dd1efada` · printing: WOE #47 (2023-09-08) · [rulings](https://api.scryfall.com/cards/588c6217-c460-417e-98bf-de5475780baf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-02-05* — If a spell has {X} in its mana cost, use the value chosen for X when determining the spell's mana value.
+  - *2021-03-19* — A face-down spell has mana value 0 and can't be targeted by Disdainful Stroke.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/47/disdainful-stroke) · oracle_id `11e02134-7b1a-46a4-a89e-7539dd1efada` · printing: WOE #47 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Disease Carriers
 
@@ -2629,7 +2656,9 @@
   > *There are few ways to enter Wakanda, but there are many ways to leave.*
 - **Keywords:** Metalcraft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #449 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/130/dispatch) · oracle_id `133c99c0-3652-410f-8100-68015a47af9f` · printing: MSC #130 (2026-06-26) · [rulings](https://api.scryfall.com/cards/99d30a21-b003-4a17-a4c5-97811f230896/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-06-01* — If you control three or more artifacts when Dispatch resolves, you'll tap the creature, then exile it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/130/dispatch) · oracle_id `133c99c0-3652-410f-8100-68015a47af9f` · printing: MSC #130 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dispatch Dispensary
 
@@ -2650,6 +2679,7 @@
   > *"I said we should destroy the Eldrazi. Ugin wanted to return them to stasis. Ugin's arguments were . . . unconvincing."*
   > *—Jace Beleren*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #950 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/76/dispel) · oracle_id `6d7be242-a072-40ce-b540-95880506cccd` · printing: BFZ #76 (2015-10-02) · [rulings](https://api.scryfall.com/cards/bceab6b3-6b64-4964-a501-ce806a6c13ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dispeller's Capsule
@@ -2795,7 +2825,10 @@
   > *—Doen, purveyor of exotic pets*
 - **Keywords:** Avoidance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #549 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/63/displacer-kitten) · oracle_id `09ef446c-a13d-49d9-a94c-cd5f5a2d440b` · printing: CLB #63 (2022-06-10) · [rulings](https://api.scryfall.com/cards/c7a401b8-29fb-46ef-a663-427f66724d5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-06-10* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2022-06-10* — When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled. Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/63/displacer-kitten) · oracle_id `09ef446c-a13d-49d9-a94c-cd5f5a2d440b` · printing: CLB #63 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Display of Dominance
 
@@ -3113,7 +3146,9 @@
 - **Flavor text** (ECC printing):
   > *In far-off Shadowmoor, her kin lifted their heads to a refrain they could not hear.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #653 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/45/distant-melody) · oracle_id `ac6c5852-71c7-4f19-8c87-ccb345052862` · printing: ECC #45 (2026-01-23) · [rulings](https://api.scryfall.com/cards/f1d7e8c9-0936-47eb-8996-309e7a7edcad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-04-01* — Note that this spell counts the number of permanents you control of the chosen type, not just the number of creatures you control. It will also take your kindred permanents of the chosen type into account.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/45/distant-melody) · oracle_id `ac6c5852-71c7-4f19-8c87-ccb345052862` · printing: ECC #45 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Distant Memories
 

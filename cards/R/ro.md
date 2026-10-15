@@ -425,7 +425,10 @@
   > If a triggered ability of another creature you control of the chosen type triggers, it triggers an additional time.
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #133 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/258/roaming-throne) · oracle_id `3640c29b-1534-4952-b297-619ade948431` · printing: LCI #258 (2023-11-17) · [rulings](https://api.scryfall.com/cards/32fd8b7c-baf3-4d3d-be6f-044a917b11a0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — If you control two Roaming Thrones with the same chosen creature type, triggered abilities of other creatures you control of the chosen type trigger three times. Three such Roaming Thrones result in four triggered abilities, and so on.
+  - *2023-11-10* — Roaming Throne's last ability doesn't copy the triggered ability; it just causes the ability to trigger an additional time. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution, such as whether to put counters on a permanent, are also made individually.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/258/roaming-throne) · oracle_id `3640c29b-1534-4952-b297-619ade948431` · printing: LCI #258 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Roaring Earth
 
@@ -966,7 +969,9 @@
 - **Flavor text** (FRA printing):
   > *Jace remembered the gate. The dying world, the wanderers who stayed to fight. He remembered how even the most impossible problems had practical solutions.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #225 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/186/rockfall-vale) · oracle_id `185c70c1-8403-4ae5-b45d-3679d4ee092a` · printing: FRA #186 (2026-10-02) · [rulings](https://api.scryfall.com/cards/e3c8a8b6-23ba-45ad-80d1-8e2dc79897f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-09-24* — If this land enters the battlefield at the same time as any number of other lands, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/186/rockfall-vale) · oracle_id `185c70c1-8403-4ae5-b45d-3679d4ee092a` · printing: FRA #186 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rock Hydra
 
@@ -1226,6 +1231,7 @@
 - **Oracle text:**
   > {T}: Add {G} for each Forest you control.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/229/rofellos-llanowar-emissary) · oracle_id `3015882b-4897-4d2c-8e33-6731c85a0d03` · printing: VMA #229 (2014-06-16) · [rulings](https://api.scryfall.com/cards/6d63a085-101c-4749-a3a4-1d335c25b10e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rofellos's Gift
@@ -1366,7 +1372,9 @@
   > *"I'm leaving; for somewhere where I can finish my book, perhaps. I have thought of a nice ending for it: 'And he lived happily ever after to the end of his days.'"*
   > *—Bilbo*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/212/rogues-passage) · oracle_id `f29dc596-2121-4421-8463-15f6c2e8b9b3` · printing: HOC #212 (2026-08-14) · [rulings](https://api.scryfall.com/cards/4493b62b-f354-47ff-9dcf-cc6e29de77c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-12-07* — Activating the second ability of Rogue's Passage after a creature has become blocked won't cause that creature to become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/212/rogues-passage) · oracle_id `f29dc596-2121-4421-8463-15f6c2e8b9b3` · printing: HOC #212 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rohgahh, Kher Keep Overlord
 
@@ -2051,7 +2059,10 @@
   > *"I been ta space, a buncha dimensions 'n' universes . . . and I always end up right back here on Yancy Street."*
   > *—The Thing, Ben Grimm*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #128 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/261/rootbound-crag) · oracle_id `9516c4c1-d72d-434f-97e1-6a862434a169` · printing: MSC #261 (2026-06-26) · [rulings](https://api.scryfall.com/cards/42d174e5-b8c2-45eb-8e08-1b94fc27cbee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-10-01* — As this is entering, it checks for lands that are already on the battlefield. It won't see lands that are entering at the same time (due to Warp World, for example).
+  - *2009-10-01* — This checks for lands you control with the land type Mountain or Forest, not for lands named Mountain or Forest. The lands it checks for don't have to be basic lands. For example, if you control Temple Garden (a nonbasic land with the land types Forest and Plains), Rootbound Crag will enter untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/261/rootbound-crag) · oracle_id `9516c4c1-d72d-434f-97e1-6a862434a169` · printing: MSC #261 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rootbreaker Wurm
 

@@ -366,7 +366,13 @@
   > Ashaya's power and toughness are each equal to the number of lands you control.
   > Nontoken creatures you control are Forest lands in addition to their other types. (They're still affected by summoning sickness.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #829 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/170/ashaya-soul-of-the-wild) · oracle_id `162572f2-1757-42e9-bd97-e6bd9a762c0e` · printing: DSC #170 (2024-09-27) · [rulings](https://api.scryfall.com/cards/0a74b4e6-f6c9-4fef-a83c-a285a541e720/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-09-25* — A land that's a Forest has the intrinsic mana ability "{T}: Add {G}."
+  - *2020-09-25* — As long as Ashaya is on the battlefield, it's affected by its second ability and thus its first ability counts itself.
+  - *2020-09-25* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to Ashaya may become lethal if lands you control leave the battlefield during that turn.
+  - *2020-09-25* — The ability that defines Ashaya's power and toughness applies in all zones, not just the battlefield.
+  - *2020-09-25* — You can't play creature cards as lands; you'll still have to cast them as spells, and they'll enter the battlefield as lands (in addition to their other types).
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/170/ashaya-soul-of-the-wild) · oracle_id `162572f2-1757-42e9-bd97-e6bd9a762c0e` · printing: DSC #170 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ash Barrens
 
@@ -379,6 +385,7 @@
   > *Many interstellar civilizations have dumped their unwanted elements on Planet Morbus, from toxins to lowlifes.*
 - **Keywords:** Landcycling, Basic landcycling, Typecycling, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #210 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/60/ash-barrens) · oracle_id `58257464-278e-45fa-8e0b-bcd9a7500bc1` · printing: TMC #60 (2026-03-06) · [rulings](https://api.scryfall.com/cards/e8510205-4baa-4f1c-bf64-5d931e2ddf48/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashcloud Phoenix
@@ -832,6 +839,7 @@
   > *"If you work at sawing up carcasses, you notice how the joints fit, how the nerves are arrayed, and how the skin peels back."*
   > *—Ashnod, to Tawnos*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #134 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/368/ashnods-altar) · oracle_id `4d18bcba-a346-445e-a182-6cc30b7e066d` · printing: CMM #368 (2023-08-04) · [rulings](https://api.scryfall.com/cards/3c0f7157-a375-499c-92c7-d47d2e95dbad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashnod's Battle Gear
@@ -1245,7 +1253,14 @@
   > *"Not just any floriculturist can grow this caliber of nightbloom. We're looking for a rooftop hothouse with quite particular conditions."*
   > *—Dr. A of the Foundway Associates*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #122 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/294/assassins-trophy) · oracle_id `ac10d218-f9a6-4058-9cda-a15ca1b0b7b5` · printing: SOC #294 (2026-04-24) · [rulings](https://api.scryfall.com/cards/aaf258fc-3ba4-4b83-bdbf-10a07e0b6c03/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2018-10-05* — If the permanent's controller doesn't search their library, they don't shuffle their library.
+  - *2018-10-05* — If the target permanent is a legal target but isn't destroyed, most likely because it has indestructible, its controller may search their library.
+  - *2018-10-05* — If the target permanent is an illegal target by the time Assassin's Trophy tries to resolve, the spell doesn't resolve. No player searches their library.
+  - *2024-02-02* — If the permanent's controller doesn't search their library, they don't shuffle their library.
+  - *2024-02-02* — If the target permanent is a legal target but isn't destroyed, most likely because it has indestructible, its controller may search their library.
+  - *2024-02-02* — If the target permanent is an illegal target by the time Assassin's Trophy tries to resolve, the spell doesn't resolve. No player searches their library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/294/assassins-trophy) · oracle_id `ac10d218-f9a6-4058-9cda-a15ca1b0b7b5` · printing: SOC #294 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Assault // Battery
 
@@ -1437,7 +1452,23 @@
   > Creatures you control with the chosen name have "When this creature dies, you may pay {B}. If you do, create a tapped 2/2 black Zombie creature token."
 - **Keywords:** Hidden agenda
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/2/assemble-the-rank-and-vile) · oracle_id `8c912b1f-4584-4945-9931-f6850e5ebfa4` · printing: CN2 #2 (2016-08-26) · [rulings](https://api.scryfall.com/cards/7023889e-924f-495f-b189-82592989d659/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2016-08-23* — A conspiracy doesn't count as a card in your deck for purposes of meeting minimum deck size requirements. (In most drafts, the minimum deck size is 40 cards.)
+  - *2016-08-23* — A conspiracy with hidden agenda that has a triggered ability must be face up before that ability's trigger condition is met in order for it to trigger. Turning it face up afterward won't have any effect.
+  - *2016-08-23* — A conspiracy's static and triggered abilities function as long as that conspiracy is face-up in the command zone.
+  - *2016-08-23* — As a special action, you may turn a face-down conspiracy face up. You may do so any time you have priority. This action doesn't use the stack and can't be responded to. Once face up, the named card is revealed and the conspiracy's abilities will affect the game.
+  - *2016-08-23* — At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players.
+  - *2016-08-23* — At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players. Notably, you can't bluff conspiracies with hidden agenda by putting other cards into the command zone face down as the game starts.
+  - *2016-08-23* — Conspiracies are colorless, have no mana cost, and can't be cast as spells.
+  - *2016-08-23* — Conspiracies are never put into your deck. Instead, you put any number of conspiracies from your card pool into the command zone as the game begins. These conspiracies are face up unless they have hidden agenda, in which case they begin the game face down.
+  - *2016-08-23* — Conspiracies aren't legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft.
+  - *2016-08-23* — If you play multiple games after the draft, you can name a different card in each new game.
+  - *2016-08-23* — There are several ways to secretly name a card, including writing the name on a piece of paper that's kept with the face-down conspiracy. If you have multiple face-down conspiracies, you may name a different card for each one. It's important that each named card is clearly associated with only one of the conspiracies.
+  - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
+  - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+  - *2016-08-23* — You must name a Magic card. Notably, you can't name a token.
+  - *2016-08-23* — You name the card as the game begins, as you put the conspiracy into the command zone, not as you turn the face-down conspiracy face up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/2/assemble-the-rank-and-vile) · oracle_id `8c912b1f-4584-4945-9931-f6850e5ebfa4` · printing: CN2 #2 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Assembly Hall
 

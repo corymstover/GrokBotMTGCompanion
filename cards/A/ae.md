@@ -703,7 +703,12 @@
   > *—Captain Hoyrik*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #848 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/210/aesi-tyrant-of-gyre-strait) · oracle_id `6511f317-bd38-46d0-b800-7125a3f420da` · printing: DSC #210 (2024-09-27) · [rulings](https://api.scryfall.com/cards/673c21f8-02b6-4ac4-b2fc-df065b4ac662/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-11-10* — Aesi's ability is cumulative with other effects that let you play additional lands, such as the one from Exploration.
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/210/aesi-tyrant-of-gyre-strait) · oracle_id `6511f317-bd38-46d0-b800-7125a3f420da` · printing: DSC #210 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aesthetic Consultation
 
@@ -906,7 +911,12 @@
 - **Flavor text** (KLD printing):
   > *While most power is used for ordinary, everyday tasks, one shouldn't underestimate its potential for the extraordinary.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #366 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/192/aetherflux-reservoir) · oracle_id `5f15125e-ae89-471e-b055-226a783bc7c1` · printing: KLD #192 (2016-09-30) · [rulings](https://api.scryfall.com/cards/96b6b2e1-c3e6-464c-8a13-b15deb34e862/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-09-20* — Aetherflux Reservoir's first ability doesn't trigger when you cast Aetherflux Reservoir itself.
+  - *2016-09-20* — The first ability counts spells you cast earlier in the turn even if you didn't control Aetherflux Reservoir as you cast them, and even if those spells were countered.
+  - *2016-09-20* — The first ability counts the spell that caused it to trigger plus any other spells you cast earlier in the turn.
+  - *2016-09-20* — The number of spells you've cast is counted only as Aetherflux Reservoir's triggered ability resolves. For example, if you cast a spell, then respond to the triggered ability with a second spell, you'll gain 4 life total.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/192/aetherflux-reservoir) · oracle_id `5f15125e-ae89-471e-b055-226a783bc7c1` · printing: KLD #192 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aether Gale
 
@@ -1013,7 +1023,9 @@
 - **Flavor text** (FDN printing):
   > *"You can come back once you've learned some manners—and figured out how to reconstitute your physical forms."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #287 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/151/aetherize) · oracle_id `7c779721-cd1b-4696-9ae9-68ccc284ed2a` · printing: FDN #151 (2024-11-15) · [rulings](https://api.scryfall.com/cards/1e5530fc-0291-4a17-b048-c5d24e6f51d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-11-17* — An "attacking creature" is one that has been declared as an attacker this combat, or one that was put onto the battlefield attacking this combat. Unless that creature leaves combat, it continues to be an attacking creature through the end of combat step, even if the player it was attacking has left the game, or the planeswalker it was attacking has left combat. There's no such thing as an attacking creature outside of the combat phase.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/151/aetherize) · oracle_id `7c779721-cd1b-4696-9ae9-68ccc284ed2a` · printing: FDN #151 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aetherjacket
 

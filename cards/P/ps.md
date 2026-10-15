@@ -532,7 +532,9 @@
   > *"If that brain can't figure out the secret of the serum, then add more brains."*
   > *—Rhmir, Hand of the Augur*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #432 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/234/psychosis-crawler) · oracle_id `2876e74f-a242-4995-9702-0b737a1ab67a` · printing: MKC #234 (2024-02-09) · [rulings](https://api.scryfall.com/cards/d0f42a19-c180-45b1-9f4c-787cf3a4a649/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-06-01* — If an effect causes you to draw multiple cards, Psychosis Crawler will trigger that many times.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/234/psychosis-crawler) · oracle_id `2876e74f-a242-4995-9702-0b737a1ab67a` · printing: MKC #234 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychotic Episode
 

@@ -435,7 +435,11 @@
 - **Flavor text** (TSR printing):
   > *Those who expect betrayal at every turn are seldom disappointed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #370 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/77/pact-of-negation) · oracle_id `f3e213a4-ba5a-468a-93b3-c0a34e1bd725` · printing: TSR #77 (2021-03-19) · [rulings](https://api.scryfall.com/cards/1ed4c0bb-b710-44a1-b8bc-6bd11c27b8b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-06-07* — Although originally printed with a characteristic-defining ability that defined its color, this card now has a color indicator. This color indicator can't be affected by text-changing effects (such as the one created by Crystal Spray), although color-changing effects can still overwrite it.
+  - *2021-03-19* — If Pact of Negation is countered or otherwise doesn't resolve (perhaps because its target became illegal), the delayed triggered ability that threatens you with a game loss won't trigger at the beginning of your next upkeep.
+  - *2021-03-19* — If Pact of Negation resolves with a legal target but fails to counter that spell (most likely because that spell can't be countered), the delayed triggered ability will still trigger at the beginning of your next upkeep and you will have to pay. Or else.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/77/pact-of-negation) · oracle_id `f3e213a4-ba5a-468a-93b3-c0a34e1bd725` · printing: TSR #77 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pact of the Serpent
 
@@ -1166,6 +1170,7 @@
 - **Flavor text** (CMM printing):
   > *The myr are like the Glimmervoid: blank canvases on which to build grand creations.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #732 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/967/palladium-myr) · oracle_id `7b0767b8-b504-456e-93bd-218502f73b3d` · printing: CMM #967 (2023-08-04) · [rulings](https://api.scryfall.com/cards/f7c6aba3-38c3-45d1-83e1-40829eb07862/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Palliation Accord
@@ -1285,7 +1290,17 @@
 - **Flavor text** (2X2 printing):
   > *All who listen hear their own song, a unique melody played just for them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #271 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/310/panharmonicon) · oracle_id `76678885-3674-443d-b9a2-2a460cf6aac0` · printing: 2X2 #310 (2022-07-08) · [rulings](https://api.scryfall.com/cards/998d0cc8-ca2a-41c3-ab65-d05c26ab8278/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2021-03-19* — Abilities that apply "as [this artifact or creature] enters the battlefield," such as choosing a color with Gauntlet of Power, are also unaffected.
+  - *2021-03-19* — If a triggered ability is linked to a second ability, additional instances of that triggered ability are also linked to that second ability. If the second ability refers to "the exiled card," it refers to all cards exiled by instances of the triggered ability.
+  - *2021-03-19* — If an artifact or creature entering the battlefield at the same time as Panharmonicon (including Panharmonicon itself) causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
+  - *2021-03-19* — If you control two Panharmonicons, an artifact or creature entering the battlefield causes abilities to trigger three times, not four. A third Panharmonicon causes abilities to trigger four times, a fourth causes abilities to trigger five times, and so on.
+  - *2021-03-19* — In some cases involving linked abilities, an ability requires information about "the exiled card." When this happens, the ability gets multiple answers. If these answers are being used to determine the value of a variable, the sum is used. For example, if Elite Arcanist's enters-the-battlefield ability triggers twice, two cards are exiled. The value of X in the activation cost of Elite Arcanist's other ability is the sum of the two cards' mana values. As the ability resolves, you create copies of both cards and can cast none, one, or both of the copies in any order.
+  - *2021-03-19* — Panharmonicon affects a permanent's own enters-the-battlefield triggered abilities as well as other triggered abilities that trigger when that permanent enters the battlefield. Such triggered abilities start with "when" or "whenever."
+  - *2021-03-19* — Panharmonicon's effect doesn't copy the triggered ability; it just causes the ability to trigger twice. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution, such as whether to put counters on a permanent, are also made individually.
+  - *2021-03-19* — Replacement effects are unaffected by Panharmonicon's ability. For example, a creature that enters the battlefield with one +1/+1 counter on it won't receive an additional +1/+1 counter.
+  - *2021-03-19* — You don't need to control the permanent entering the battlefield, only the permanent that has the triggered ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/310/panharmonicon) · oracle_id `76678885-3674-443d-b9a2-2a460cf6aac0` · printing: 2X2 #310 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Panic
 
@@ -1551,7 +1566,9 @@
   > *"One look at this glorious item convinced me that Kaladesh deserved my full attention. Sure enough, my time here has yielded exquisite fruit."*
   > *—Tezzeret*
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/169/paradox-engine) · oracle_id `d38937a6-ab1c-4de8-a278-d81a6ce0d921` · printing: AER #169 (2017-01-20) · [rulings](https://api.scryfall.com/cards/fd8ccd81-9e11-47fa-8e16-064c52c24506/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-02-09* — Paradox Engine’s triggered ability resolves before the spell that caused it to trigger. The ability will resolve even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/169/paradox-engine) · oracle_id `d38937a6-ab1c-4de8-a278-d81a6ce0d921` · printing: AER #169 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Paradox Gardens
 
@@ -1804,7 +1821,10 @@
   > *"There will come a time when the only prey left will be each other."*
   > *—Ulrich of Krallenhorde Pack*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #405 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/isd/199/parallel-lives) · oracle_id `84dc94b2-95fb-4d53-aaa2-191cb645639f` · printing: ISD #199 (2011-09-30) · [rulings](https://api.scryfall.com/cards/01033dae-fec1-41f2-b7f2-cc6a43331790/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-09-01* — Everything that is specified by the effect creating the original token or tokens will also be true about the additional token or tokens created by Parallel Lives's replacement effect. For example, if an effect tells you to create a token "tapped and attacking," the additional tokens will also be tapped and attacking.
+  - *2023-09-01* — If you control two Parallel Lives, then the number of tokens created is four times the original number. If you control three, then the number of tokens created is eight times the original number, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/isd/199/parallel-lives) · oracle_id `84dc94b2-95fb-4d53-aaa2-191cb645639f` · printing: ISD #199 (2011-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Parallel Thoughts
 
@@ -2588,7 +2608,9 @@
 - **Flavor text** (MSC printing):
   > *The Hand is comprised of many ninja factions united under the banner of the Beast, an ancient demon who grants them dark, mystical strength.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #201 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/207/patchwork-banner) · oracle_id `4fb00dbe-1f82-4ba6-b18c-97e816d10d3a` · printing: MSC #207 (2026-06-26) · [rulings](https://api.scryfall.com/cards/537ea7e7-e8e8-4736-bdd9-1085f1a7c259/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-26* — You must choose an existing creature type, such as Bird or Wizard. Card types such as artifact can't be chosen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/207/patchwork-banner) · oracle_id `4fb00dbe-1f82-4ba6-b18c-97e816d10d3a` · printing: MSC #207 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Patchwork Beastie
 
@@ -2687,7 +2709,15 @@
   > {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mbc/80/path-of-ancestry) · oracle_id `b473e293-59e3-4e04-acf2-622604aeb25f` · printing: MBC #80 (2026-10-19) · [rulings](https://api.scryfall.com/cards/b1aaa7b0-1cac-4a92-b880-7ef1ac00618f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2020-11-10* — If Path of Ancestry's last ability produces two mana (most likely due to Mana Reflection), spending those two mana to cast creature spells that share a creature type with your commander will cause two abilities to trigger. Each of those abilities will cause you to scry 1. You won't scry 2. This is true whether you spend the mana on one creature spell or two.
+  - *2020-11-10* — If you cast your commander with mana from Path of Ancestry, and your commander hasn't somehow lost all of its creature types while on the stack, you'll scry 1.
+  - *2020-11-10* — If you don't have a commander, Path of Ancestry's ability produces no mana.
+  - *2020-11-10* — If your commander has no creature types, it can't share a creature type with any spell that you cast.
+  - *2020-11-10* — If your commander is a card that has no colors in its color identity, Path of Ancestry's ability produces no mana. It doesn't produce {C}.
+  - *2023-07-28* — If you have two commanders, the last ability adds one mana of any color in their combined color identities. When you spend that mana on a creature spell that shares a creature type with either of your commanders, you'll scry 1.
+  - *2023-07-28* — Your commander's creature types are checked immediately after you cast a creature spell spending mana from Path of Ancestry's last ability. They aren't set before the game begins, and they may not be the same types your commander had when you activated that ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mbc/80/path-of-ancestry) · oracle_id `b473e293-59e3-4e04-acf2-622604aeb25f` · printing: MBC #80 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Path of Anger's Flame
 
@@ -2853,7 +2883,10 @@
 - **Oracle text:**
   > Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/30/path-to-exile) · oracle_id `d683d985-9888-4d21-8b5f-69e69ce4a03b` · printing: FRC #30 (2026-10-02) · [rulings](https://api.scryfall.com/cards/22e08a78-55b7-46b0-bd1a-a51548fc1861/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-01-27* — If the target creature is an illegal target by the time Path to Exile tries to resolve, it won't resolve and none of its effects will happen. The creature's controller won't search for a basic land card.
+  - *2026-01-27* — The controller of the exiled creature isn't required to search their library for a basic land. If that player doesn't, the player won't shuffle their library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/30/path-to-exile) · oracle_id `d683d985-9888-4d21-8b5f-69e69ce4a03b` · printing: FRC #30 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Path to Redemption
 

@@ -456,7 +456,9 @@
   > *"STAY ON THE STAGE!"*
   > *—Notices posted during Summitfest*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #708 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/121/chain-reaction) · oracle_id `086b2564-9114-4ba2-94fd-b490f98f38a7` · printing: SOC #121 (2026-04-24) · [rulings](https://api.scryfall.com/cards/6f34d11e-8452-448f-be4f-838e0ace9904/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2010-03-01* — The value of X is determined as Chain Reaction resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/121/chain-reaction) · oracle_id `086b2564-9114-4ba2-94fd-b490f98f38a7` · printing: SOC #121 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chainsaw
 
@@ -775,7 +777,10 @@
   > Creatures with power less than this creature's power can't block creatures you control.
   > Whenever another creature you control enters, put a +1/+1 counter on this creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #584 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/293/champion-of-lambholt) · oracle_id `c549b0fd-1e08-4873-952e-a14dc45a0fd2` · printing: MOC #293 (2023-04-21) · [rulings](https://api.scryfall.com/cards/46eff31d-f460-48f2-aab7-8b9b89cd87fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — Champion of Lambholt's first ability applies even if it isn't attacking.
+  - *2020-08-07* — The comparison of power is done only when blockers are declared. Decreasing the power of a blocking creature (or increasing the power of Champion of Lambholt) after this point won't cause any creature to stop blocking or become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/293/champion-of-lambholt) · oracle_id `c549b0fd-1e08-4873-952e-a14dc45a0fd2` · printing: MOC #293 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Champion of Rhonas
 
@@ -939,7 +944,9 @@
   > Equip {1}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #739 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/375/champions-helm) · oracle_id `c01aafb8-3da5-4eb1-8731-2a223e747d63` · printing: CMM #375 (2023-08-04) · [rulings](https://api.scryfall.com/cards/c6548a30-577a-47e7-aa6e-8f6db1f7b78e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-09-22* — It's possible for a Champion's Helm you control to be attached to a creature an opponent controls (if an opponent gains control of your equipped creature, for example). In this case, the creature couldn't be the target of spells or abilities you control, as you are an opponent of the controller of the creature with hexproof.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/375/champions-helm) · oracle_id `c01aafb8-3da5-4eb1-8731-2a223e747d63` · printing: CMM #375 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Champions of Archery // Join the Group
 
@@ -1485,7 +1492,11 @@
 - **Flavor text** (LCC printing):
   > *In the moment before her execution, she realized what it meant to be a pyromancer, to be alive, to be Chandra.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #474 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/220/chandras-ignition) · oracle_id `f61680da-606e-4d16-b0a0-361aa5210901` · printing: LCC #220 (2023-11-17) · [rulings](https://api.scryfall.com/cards/960f45a3-f9cf-41e6-b813-f3dee620a944/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-06-22* — If the creature becomes an illegal target by the time Chandra's Ignition tries to resolve (perhaps because another player controls it or it's left the battlefield), Chandra's Ignition won't resolve and none of its effects will happen. No damage will be dealt.
+  - *2015-06-22* — The creature is the source of the damage, not Chandra's Ignition. For example, Chandra's Ignition can have a white creature deal damage to a creature with protection from red.
+  - *2015-06-22* — Use the power of the target creature as Chandra's Ignition resolves to determine how much damage it deals to each other creature and each opponent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/220/chandras-ignition) · oracle_id `f61680da-606e-4d16-b0a0-361aa5210901` · printing: LCC #220 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chandra's Incinerator
 
@@ -1695,6 +1706,7 @@
   > *A mercurial face sows distrust. Distrust reaps a lonely life.*
 - **Keywords:** Changeling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #687 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/128/changeling-outcast) · oracle_id `a61ef0cc-1da9-49f9-b0dc-01cf9f6205be` · printing: OTC #128 (2024-04-19) · [rulings](https://api.scryfall.com/cards/ab499df5-ed76-43ad-81b3-70afd0487ccd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Changeling Sentinel
@@ -1805,7 +1817,9 @@
 - **Flavor text** (IMA printing):
   > *To some mages, the meaning of life is less important than how much is left.*
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/157/channel) · oracle_id `d1b815d1-2848-40d4-a555-66822d1becbc` · printing: IMA #157 (2017-11-17) · [rulings](https://api.scryfall.com/cards/ce54c7c1-3401-4414-8da0-5846cb0ae1b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-11-17* — Once your life total is 0, you can't pay any more life, even if you've somehow not lost the game yet.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/157/channel) · oracle_id `d1b815d1-2848-40d4-a555-66822d1becbc` · printing: IMA #157 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Channeled Dragonfire
 
@@ -2028,7 +2042,15 @@
 - **Oracle text:**
   > {1}, {T}: If this artifact is on the battlefield, flip it onto the battlefield from a height of at least one foot. If this artifact turns over completely at least once during the flip, destroy all nontoken permanents it touches. Then destroy this artifact.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/2ed/236/chaos-orb) · oracle_id `edb455f4-8dc9-4b7c-b25c-cb51b7dfbb41` · printing: 2ED #236 (1993-12-01) · [rulings](https://api.scryfall.com/cards/7a601041-926f-40fd-8106-39099b87806f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2004-10-04* — Chaos Orb can only affect permanents. Cards that are in the game but not on the battlefield, such as those in the Library and Graveyard, can't be affected.
+  - *2004-10-04* — If you have sleeves on cards, they count as the cards.
+  - *2004-10-04* — It must flip 360 degrees (that's what "flip" means). And this flip must be in the air and not in your hand.
+  - *2004-10-04* — This is a not a targeted ability.
+  - *2004-10-04* — You can arrange your cards any time before the Orb is put onto the battlefield, but not after. In general, you should not stack cards or put them in places where your opponent can't read the names of all of them or count them. This is recommended good gaming practice.
+  - *2004-10-04* — You can't interfere in any physical way with activating this ability.
+  - *2019-01-27* *(Scryfall note)* — If you are playing Chaos Orb in the Old School format, the card's text is “{1}, {T}: Choose a nontoken permanent on the battlefield. If Chaos Orb is on the battlefield, flip Chaos Orb onto the battlefield from a height of at least one foot. If Chaos Orb turns over completely at least once during the flip, and lands resting on the chosen permanent, destroy that permanent. Then destroy Chaos Orb.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/2ed/236/chaos-orb) · oracle_id `edb455f4-8dc9-4b7c-b25c-cb51b7dfbb41` · printing: 2ED #236 (1993-12-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chaosphere
 
@@ -2095,7 +2117,13 @@
 - **Oracle text:**
   > The owner of target permanent shuffles it into their library, then reveals the top card of their library. If it's a permanent card, they put it onto the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mbc/72/chaos-warp) · oracle_id `07a0cba9-8768-4fd9-a3d5-b0f83b4bf8e8` · printing: MBC #72 (2026-10-19) · [rulings](https://api.scryfall.com/cards/fb8d8106-b9bd-405c-886e-72fc301c65e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2011-09-22* — A permanent card is a card with one or more of the following card types: artifact, creature, enchantment, land, or planeswalker.
+  - *2011-09-22* — If the permanent is an illegal target by the time Chaos Warp tries to resolve, it won't resolve and none of its effects will occur. No library will be shuffled and no card will be revealed.
+  - *2011-09-22* — If the revealed card is a permanent card but can't enter (perhaps because it's an Aura with nothing to enchant), it remains on top of that library.
+  - *2011-09-22* — If the revealed card is not a permanent card, it remains on top of that library.
+  - *2011-09-22* — The owner of a token is the player under whose control the token was put onto the battlefield. If a token is shuffled into a player's library this way, that player shuffles before revealing the top card of that library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mbc/72/chaos-warp) · oracle_id `07a0cba9-8768-4fd9-a3d5-b0f83b4bf8e8` · printing: MBC #72 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chaos Wrap
 
@@ -2210,6 +2238,7 @@
 - **Flavor text** (CLB printing):
   > *Every facet a portent of Kelemvor's inevitable judgment.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #701 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/305/charcoal-diamond) · oracle_id `1386d111-a2a7-4df1-91d7-947664126989` · printing: CLB #305 (2022-06-10) · [rulings](https://api.scryfall.com/cards/f0475c79-bc7f-4de8-a020-226bc658d303/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chardalyn Dragon
@@ -2898,7 +2927,10 @@
   > Whenever you draw a card, put a +1/+1 counter on this creature.
   > When this creature dies, create X 1/1 blue Squid creature tokens with islandwalk, where X is the number of +1/+1 counters on this creature. (They can't be blocked as long as defending player controls an Island.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #704 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/218/chasm-skulker) · oracle_id `69facbc7-3859-4716-b627-5199571fb3cf` · printing: MOC #218 (2023-04-21) · [rulings](https://api.scryfall.com/cards/794e01e7-430c-43cf-ba2b-1028cd088148/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-07-18* — If enough -1/-1 counters are put on Chasm Skulker at the same time to make its toughness 0 or less, the number of +1/+1 counters on it before it got any -1/-1 counters will be used to determine how many Squid tokens you get. For example, if there are two +1/+1 counters on Chasm Skulker and it gets three -1/-1 counters, you'll get two Squid tokens.
+  - *2014-07-18* — If you draw multiple cards, the first ability will trigger that many times. Each of these abilities will cause a +1/+1 counter to be put on Chasm Skulker.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/218/chasm-skulker) · oracle_id `69facbc7-3859-4716-b627-5199571fb3cf` · printing: MOC #218 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chastise
 

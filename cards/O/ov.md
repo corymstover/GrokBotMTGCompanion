@@ -233,6 +233,7 @@
 - **Flavor text** (SOC printing):
   > *Still to the ignorant eye, yet bursting with life. A million actions and reactions, unstoppable as the dawn.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #725 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/392/overflowing-basin) · oracle_id `5ac8e01c-b0a7-4855-a122-1cd26b07c4a5` · printing: SOC #392 (2026-04-24) · [rulings](https://api.scryfall.com/cards/6357d665-2b28-4747-ab43-b90176d78d42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Overflowing Insight
@@ -308,7 +309,9 @@
 - **Flavor text** (FRA printing):
   > *Jace remembered the shadows. The inscrutable puzzle, the prisoner in the moon. He remembered how victory could be achieved by choosing not to play.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #283 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/185/overgrown-farmland) · oracle_id `709d2f10-1585-48c3-9058-ddd5f62f0452` · printing: FRA #185 (2026-10-02) · [rulings](https://api.scryfall.com/cards/178e61e4-472f-42cd-9d3b-4880c2acc527/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-09-24* — If this land enters the battlefield at the same time as any number of other lands, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/185/overgrown-farmland) · oracle_id `709d2f10-1585-48c3-9058-ddd5f62f0452` · printing: FRA #185 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Overgrown Pest
 
@@ -332,7 +335,12 @@
 - **Flavor text** (TRK printing):
   > *The Zakdorn run Surplus Depot Zed-15, salvaging decommissioned ships to supply future Federation projects.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #71 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/trk/289/overgrown-tomb) · oracle_id `975ec9a3-6f20-4177-8211-82526e092538` · printing: TRK #289 (2026-11-13) · [rulings](https://api.scryfall.com/cards/ad7e18e2-c033-4b6c-86e8-d0e5cc824cfd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-10-05* — If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
+  - *2018-10-05* — Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
+  - *2025-11-17* — If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
+  - *2025-11-17* — This land has two basic land types. It's not basic, so cards such as Tend the Sprigs can't find it, but it does have the appropriate land types for effects such as that of Kishla Village (from the Tarkir: Dragonstorm release).
+- **Source flags:** [Scryfall](https://scryfall.com/card/trk/289/overgrown-tomb) · oracle_id `975ec9a3-6f20-4177-8211-82526e092538` · printing: TRK #289 (2026-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Overgrown Zealot
 
@@ -787,7 +795,9 @@
 - **Flavor text** (MSC printing):
   > *The Black Panther is only the tip of Wakanda's spear.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #524 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/178/overwhelming-stampede) · oracle_id `e1e96802-fd0c-41f1-aa21-3287d75a0e88` · printing: MSC #178 (2026-06-26) · [rulings](https://api.scryfall.com/cards/6996b9c4-e78c-4970-91c7-9025a0a4f670/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2010-08-15* — You check the power of your creatures as Overwhelming Stampede resolves. For example, if you control a 2/1 creature, a 2/2 creature, a 2/4 creature, a 4/1 creature, a 5/5 creature, and a 5/6 creature at that time, each of your creatures gets +5/+5 and gains trample until end of turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/178/overwhelming-stampede) · oracle_id `e1e96802-fd0c-41f1-aa21-3287d75a0e88` · printing: MSC #178 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Overwhelming Surge
 

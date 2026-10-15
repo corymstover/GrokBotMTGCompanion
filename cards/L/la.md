@@ -269,7 +269,10 @@
 - **Flavor text** (INR printing):
   > *His mind whirled with grand plans, never thinking of what might happen if he were to succeed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #554 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/71/laboratory-maniac) · oracle_id `aa286dd5-aa19-446d-9003-684d81eb57ca` · printing: INR #71 (2025-01-24) · [rulings](https://api.scryfall.com/cards/7a5be94c-08b8-4964-a79d-e22ea6e94be8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-03-19* — If for some reason you can't win the game (because your opponent has cast Angel's Grace this turn, for example), you won't lose for having tried to draw a card from a library with no cards in it. The draw was still replaced.
+  - *2021-03-19* — If two or more players each control a Laboratory Maniac and each player is instructed to draw a number of cards, first the player whose turn it is draws that many cards. If this causes that player to win the game instead, the game is immediately over. If the game isn't over yet, repeat this process for each other player in turn order.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/71/laboratory-maniac) · oracle_id `aa286dd5-aa19-446d-9003-684d81eb57ca` · printing: INR #71 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lab Rats
 
@@ -1181,7 +1184,11 @@
 - **Oracle text:**
   > At the beginning of your upkeep, if an opponent controls more lands than you, you may search your library for up to three basic land cards, reveal them, put them into your hand, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #357 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/153/land-tax) · oracle_id `d2d9ecea-7925-420e-98b9-2f87f41f387c` · printing: SOC #153 (2026-04-24) · [rulings](https://api.scryfall.com/cards/c70d3706-9d28-49ac-8718-4a516413e727/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2006-10-15* — You can fetch any of the "Snow-Covered" lands, since they all also have the supertype basic.
+  - *2009-10-01* — This ability has an "intervening 'if' clause." That means (1) the ability won't trigger at all unless any one of your opponents controls more lands than you, and (2) the ability will do nothing if you control at least as many lands as each of your opponents by the time it resolves.
+  - *2009-10-01* — You shuffle your library if you search, even if you don't put any basic land cards into your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/153/land-tax) · oracle_id `d2d9ecea-7925-420e-98b9-2f87f41f387c` · printing: SOC #153 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Languish
 
@@ -1344,6 +1351,7 @@
 - **Flavor text** (CON printing):
   > *Without a connection of mind and body, magic is just an idea stuck in the head, a word on the tip of a tongue.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6434 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/con/9/lapse-of-certainty) · oracle_id `1b721ad3-d0f6-4eec-9bf0-f57ea9dfa392` · printing: CON #9 (2009-02-06) · [rulings](https://api.scryfall.com/cards/ec609036-dfbf-47de-9a3a-762aea4196d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Laquatus's Champion

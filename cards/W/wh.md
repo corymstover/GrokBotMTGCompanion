@@ -202,6 +202,7 @@
 - **Oracle text:**
   > Each player discards their hand, then draws seven cards.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #577 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/192/wheel-of-fortune) · oracle_id `a8abd966-de7b-46a3-8ac7-8747ab35653a` · printing: VMA #192 (2014-06-16) · [rulings](https://api.scryfall.com/cards/2597050f-6b1b-474e-aa16-33fd154628ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wheel of Misfortune
@@ -469,7 +470,12 @@
   > Creatures you control have lifelink.
   > {2}{B}{B}, {T}: Return target creature card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step. If it would leave the battlefield, exile it instead of putting it anywhere else. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #714 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/159/whip-of-erebos) · oracle_id `53987a39-c18c-4c13-b1ea-fd1b2a369f9e` · printing: DSC #159 (2024-09-27) · [rulings](https://api.scryfall.com/cards/b738612f-4e78-4b19-9392-6c074956d6e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-09-15* — At the beginning of the next end step, the creature returned to the battlefield with Whip of Erebos is exiled. This is a delayed triggered ability. If the ability is countered, the creature will stay on the battlefield and the delayed trigger won't trigger again. However, the replacement effect will still exile the creature when it eventually leaves the battlefield.
+  - *2013-09-15* — If a creature returned to the battlefield with Whip of Erebos would leave the battlefield for any reason, it's exiled instead. However, if that creature is already being exiled, then the replacement effect won't apply. If the spell or ability that exiles it later returns it to the battlefield (as Chained to the Rocks might, for example), the creature card will return to the battlefield as a new object with no relation to its previous existence. The effects from Whip of Erebos will no longer apply to it.
+  - *2013-09-15* — The exiled creature is never put into the graveyard. Any abilities the creature has that trigger when it dies won't trigger.
+  - *2013-09-15* — Whip of Erebos grants haste to the creature that's returned to the battlefield. However, neither of the "exile" abilities is granted to that creature. If that creature loses all its abilities, it will still be exiled at the beginning of the end step, and if it would leave the battlefield, it is still exiled instead.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/159/whip-of-erebos) · oracle_id `53987a39-c18c-4c13-b1ea-fd1b2a369f9e` · printing: DSC #159 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Whippoorwill
 
@@ -816,7 +822,17 @@
   > Search your library for an artifact card with mana value X or less, put it onto the battlefield, then shuffle.
 - **Keywords:** Improvise
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1335 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/49/whir-of-invention) · oracle_id `152b91c9-cc07-4ca8-944f-9bc2242a2283` · printing: AER #49 (2017-01-20) · [rulings](https://api.scryfall.com/cards/0279fd3c-9252-4958-9d7a-5f33aa25907e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2017-02-09* — Because improvise isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2017-02-09* — Equipment attached to a creature doesn't become tapped when that creature becomes tapped, and tapping that Equipment doesn't cause the creature to become tapped.
+  - *2017-02-09* — If an artifact you control has a mana ability with {T} in the cost, activating that ability while casting a spell with improvise will result in the artifact being tapped when you pay the spell's costs. You won't be able to tap it again for improvise. Similarly, if you sacrifice an artifact to activate a mana ability while casting a spell with improvise, that artifact won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for improvise.
+  - *2017-02-09* — Improvise can't be used to pay for anything other than the cost of casting the spell. For example, it can't be used during the resolution of an ability that says "Counter target spell unless its controller pays {3}."
+  - *2017-02-09* — Improvise can't pay for {W}, {U}, {B}, {R}, {G}, or {C} mana symbols in a spell's total cost.
+  - *2017-02-09* — Improvise doesn't change a spell's mana cost or mana value.
+  - *2017-02-09* — Tapping an artifact won't cause its abilities to stop applying unless those abilities say so.
+  - *2017-02-09* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Improvise applies after the total cost is calculated.
+  - *2017-02-09* — When using improvise to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap artifacts you control to help pay that cost. For example, if you cast Whir of Invention (a spell with improvise and mana cost {X}{U}{U}{U}) and choose X to be 3, the total cost is {3}{U}{U}{U}. If you tap two artifacts, you'll have to pay {1}{U}{U}{U}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/49/whir-of-invention) · oracle_id `152b91c9-cc07-4ca8-944f-9bc2242a2283` · printing: AER #49 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Whisk Away
 
@@ -992,6 +1008,7 @@
   > *A panther does not announce its presence. It stalks its prey unseen.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #333 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/225/whispersilk-cloak) · oracle_id `9ad4f730-a18e-4a7c-a468-a926c718c741` · printing: MSC #225 (2026-06-26) · [rulings](https://api.scryfall.com/cards/a3f31ac4-09ca-4712-a311-50d28824bfad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Whispers of Emrakul

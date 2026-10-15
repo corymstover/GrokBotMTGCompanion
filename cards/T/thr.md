@@ -396,6 +396,7 @@
 - **Flavor text** (CMM printing):
   > *Urza's metathran children were conceived, birthed, and nurtured by an integrated system of machines.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #195 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/415/thran-dynamo) · oracle_id `a699c663-8131-4045-9265-a83e86609374` · printing: CMM #415 (2023-08-04) · [rulings](https://api.scryfall.com/cards/7ce5f12e-fc02-42f8-a5ca-b523050d4650/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thran Forge
@@ -892,7 +893,9 @@
   > {T}: Add {C}.
   > {2}, {T}: Choose a color. Add an amount of mana of that color equal to the number of creatures you control of the chosen type.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #178 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/260/three-tree-city) · oracle_id `da3b17a2-e1e1-44e9-b9b1-ae54a92037db` · printing: BLB #260 (2024-08-02) · [rulings](https://api.scryfall.com/cards/56f88a48-cced-4a9d-8c19-e4f105f0d8a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-26* — To choose a creature type, you must choose an existing creature type, such as Lizard or Wizard. You can’t choose multiple creature types, such as “Lizard Wizard.” Card types such as artifact can’t be chosen, nor can subtypes that aren’t creature types, such as Jace, Vehicle, or Treasure.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/260/three-tree-city) · oracle_id `da3b17a2-e1e1-44e9-b9b1-ae54a92037db` · printing: BLB #260 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Three Tree Mascot
 
@@ -943,7 +946,10 @@
   > *"Three against four. I like our odds."*
   > *—Human Torch, Johnny Storm*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #40 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/181/three-visits) · oracle_id `1b882a0e-0ede-4d1a-bd1a-9b7cffbcde8e` · printing: MSC #181 (2026-06-26) · [rulings](https://api.scryfall.com/cards/99bf792f-963e-4509-8d3c-7db129c6a77f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
+  - *2009-10-01* — Three Visits allows you to search your library for any card with the land type Forest, not just a card with the name Forest.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/181/three-visits) · oracle_id `1b882a0e-0ede-4d1a-bd1a-9b7cffbcde8e` · printing: MSC #181 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Three Wishes
 
@@ -1051,7 +1057,9 @@
   > *"Remember all the great heroes who were careful and never did anything risky? Me neither."*
   > *—Syr Carah, the Bold*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #212 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/210/thrill-of-possibility) · oracle_id `1cb0610b-a731-42c2-b93f-0a29f63cebf4` · printing: FDN #210 (2024-11-15) · [rulings](https://api.scryfall.com/cards/882b348c-076b-41d8-b505-063480636669/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-02-04* — You must discard exactly one card to cast Thrill of Possibility; you can't cast it without discarding a card, and you can't discard additional cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/210/thrill-of-possibility) · oracle_id `1cb0610b-a731-42c2-b93f-0a29f63cebf4` · printing: FDN #210 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thrill of the Hunt
 
@@ -1543,7 +1551,14 @@
   > Whenever this creature deals combat damage to a player, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
 - **Keywords:** Flying, Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #830 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/80/thrummingbird) · oracle_id `eac94269-4baa-4b8e-a0fd-d6b227d1cde3` · printing: EOC #80 (2025-08-01) · [rulings](https://api.scryfall.com/cards/f10db847-6598-49a5-8f10-67afd5187d32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/80/thrummingbird) · oracle_id `eac94269-4baa-4b8e-a0fd-d6b227d1cde3` · printing: EOC #80 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thrumming Hivepool
 

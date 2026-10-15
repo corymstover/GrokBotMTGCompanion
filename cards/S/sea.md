@@ -296,7 +296,18 @@
   > *"We carry on the legacy of those who defended our world by continuing to unearth its secrets."*
   > *—Tazri*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #659 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/76/sea-gate-restoration-sea-gate-reborn) · oracle_id `4a8d41fe-e04d-484b-a7d1-19be311e6ca7` · printing: ZNR #76 (2020-09-25) · [rulings](https://api.scryfall.com/cards/193071fe-180b-4d35-ba78-9c16675c29fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2020-09-25* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2020-09-25* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2020-09-25* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2020-09-25* — If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face's name.
+  - *2020-09-25* — If an effect puts a double-faced card onto the battlefield, it enters with its front face up. If that front face can't be put onto the battlefield, it doesn't enter the battlefield.
+  - *2020-09-25* — If you have no cards in hand as Sea Gate Restoration resolves, you draw one card.
+  - *2020-09-25* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+  - *2020-09-25* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
+  - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/76/sea-gate-restoration-sea-gate-reborn) · oracle_id `4a8d41fe-e04d-484b-a7d1-19be311e6ca7` · printing: ZNR #76 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sea Gate Stormcaller
 
@@ -589,7 +600,9 @@
 - **Flavor text** (CLB printing):
   > *A shoreless sea extends to every horizon, sharing its beauty only with those who can fly high enough to see it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #165 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/360/sea-of-clouds) · oracle_id `672e190d-8ea0-4a2e-b74f-5d35304631e4` · printing: CLB #360 (2022-06-10) · [rulings](https://api.scryfall.com/cards/d4fb722f-40af-4bd1-b660-e8186b98f233/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-06-08* — If you began the game with two or more opponents but now only have one opponent left, these lands enter the battlefield tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/360/sea-of-clouds) · oracle_id `672e190d-8ea0-4a2e-b74f-5d35304631e4` · printing: CLB #360 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sear
 
@@ -973,6 +986,7 @@
 - **Flavor text** (ECC printing):
   > *For wisdom's sake, it was built high to gaze on all things. For glory's sake, it was built high as a testament of power. For strength's sake, it was built high to repel all attacks.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #411 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/166/seaside-citadel) · oracle_id `2ae77795-6a80-498b-bf69-6fd612f601e4` · printing: ECC #166 (2026-01-23) · [rulings](https://api.scryfall.com/cards/b681599f-aa7a-4b3a-a36a-dc6d70fd6a11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seaside Haven
@@ -1295,6 +1309,7 @@
 - **Flavor text** (EOC printing):
   > *Lumengrid, site of the Knowledge Pool, source of vedalken arcana.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #310 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/176/seat-of-the-synod) · oracle_id `39451b4d-cd7a-40da-b457-cb51b609173f` · printing: EOC #176 (2025-08-01) · [rulings](https://api.scryfall.com/cards/57a194b3-2899-4dee-977a-c77df0b94dfe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sea Troll

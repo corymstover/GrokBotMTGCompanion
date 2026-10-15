@@ -176,7 +176,17 @@
   > {3}{G}: Level 3
   > If you would put one or more counters on a permanent or player, put twice that many of each of those kinds of counters on that permanent or player instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #692 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/180/innkeepers-talent) · oracle_id `915b75d1-b5e3-4aca-a54c-beaccef0a2e4` · printing: BLB #180 (2024-08-02) · [rulings](https://api.scryfall.com/cards/941b0afc-0e8f-45f2-ae7f-07595e164611/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-07-26* — Each Class has five abilities. The three in the major sections of its text box are class abilities. Class abilities can be static, activated, or triggered abilities. The other two are level abilities, one activated ability to advance the Class to level 2 and another to advance the Class to level 3.
+  - *2024-07-26* — Each Class starts with only the first of its three class abilities. As the first level ability resolves, the Class becomes level 2 and gains the second class ability. As the second level ability resolves, the Class becomes level 3 and gains the third class ability.
+  - *2024-07-26* — Gaining a level is a normal activated ability. It uses the stack and can be responded to.
+  - *2024-07-26* — Gaining a level won't remove abilities that a Class had at a previous level.
+  - *2024-07-26* — If a permanent enters with counters on it, the effect causing the permanent to be given counters may specify which player puts those counters on it. If the effect doesn't specify a player, the object's controller puts those counters on it.
+  - *2024-07-26* — If two or more effects attempt to modify how many counters would be put onto a permanent you control, you choose the order to apply those effects, no matter who controls the sources of those effects.
+  - *2024-07-26* — Once a ward ability of a permanent with a counter on it has triggered, causing that permanent to lose ward by removing Innkeeper's Talent or removing the counters from that permanent won't affect that ability. The appropriate player will still have to pay {1} or have their spell or ability countered.
+  - *2024-07-26* — There's no restriction on how many Class permanents you can control, whether they're the same or different classes. Each Class permanent tracks its own level separately.
+  - *2024-07-26* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/180/innkeepers-talent) · oracle_id `915b75d1-b5e3-4aca-a54c-beaccef0a2e4` · printing: BLB #180 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Innocence Kami
 

@@ -693,6 +693,7 @@
 - **Flavor text** (SOC printing):
   > *The desert is a voracious beast, devouring both flesh and stone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #145 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/234/abrade) · oracle_id `f9db72dc-9a5b-48a4-a86e-7464d9a2166a` · printing: SOC #234 (2026-04-24) · [rulings](https://api.scryfall.com/cards/1add1757-c1f8-448a-b279-c6940fb7ad5f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abraded Bluffs
@@ -719,7 +720,12 @@
 - **Flavor text** (MM3 printing):
   > *The Izzet quickly suspended their policy of lifetime guarantees.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #751 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/146/abrupt-decay) · oracle_id `1c747fe2-289e-492a-a846-aa77707e2dc3` · printing: MM3 #146 (2017-03-17) · [rulings](https://api.scryfall.com/cards/a8e328c6-3a84-49cf-a1a3-1d1e5373d274/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-03-19* — A spell or ability that counters spells can still target Abrupt Decay. When that spell or ability resolves, Abrupt Decay won't be countered, but any additional effects of the countering spell or ability will still happen.
+  - *2021-03-19* — If a permanent has {X} in its mana cost, X is considered to be 0.
+  - *2021-03-19* — The mana value of a token that isn't a copy of another object is 0. A token that is a copy of another object has the same mana cost as that object.
+  - *2024-04-12* — If you target a creature with ward, you may still pay the ward cost, but Abrupt Decay won't be countered even if you don't.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/146/abrupt-decay) · oracle_id `1c747fe2-289e-492a-a846-aa77707e2dc3` · printing: MM3 #146 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Absolute Grace
 
@@ -790,7 +796,9 @@
 - **Flavor text** (DMR printing):
   > *"Your presumption is your downfall."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3696 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/186/absorb) · oracle_id `132ca99a-a3c7-4ed6-b4d0-0edcd7140ca2` · printing: DMR #186 (2023-01-13) · [rulings](https://api.scryfall.com/cards/21892cbc-1af2-4ea1-8907-cec514b53004/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — A spell that can't be countered is a legal target for Absorb. The spell won't be countered when Absorb resolves, but you'll still gain 3 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/186/absorb) · oracle_id `132ca99a-a3c7-4ed6-b4d0-0edcd7140ca2` · printing: DMR #186 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Absorb Identity
 

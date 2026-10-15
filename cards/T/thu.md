@@ -443,6 +443,7 @@
   > When this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #626 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/269/thundering-falls) · oracle_id `d2bcff58-7a8a-46ef-b6b3-39501d4c8e6e` · printing: MKM #269 (2024-02-09) · [rulings](https://api.scryfall.com/cards/17260fff-b239-4af4-9306-3236ae3fa5a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thundering Giant

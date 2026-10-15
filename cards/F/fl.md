@@ -1221,7 +1221,17 @@
 - **Flavor text** (MH3 printing):
   > *"I call upon a power greater than myself."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #735 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/26/flare-of-fortitude) · oracle_id `4ff07b7c-e97a-4b57-bcf1-2f22c37a8bd6` · printing: MH3 #26 (2024-06-14) · [rulings](https://api.scryfall.com/cards/37b41b59-0296-443b-8a62-8d5c4641ef66/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-06-07* — Abilities that trigger whenever damage is dealt to you will still trigger because that damage is still dealt, even though your life total doesn't change as a result.
+  - *2024-06-07* — Effects that replace an event with having you gain life (like Words of Worship's effect does) or having you lose life will end up replacing the event with nothing.
+  - *2024-06-07* — Effects that would replace having you gain life with some other event won't be able to be applied because it's impossible for you to gain life.
+  - *2024-06-07* — If a cost would include causing you to gain life, that cost can't be paid. Similarly, you can't pay a cost that includes the payment of any amount of life other than 0 life. However, you can choose to be dealt damage, even though that damage won't result in your life total changing.
+  - *2024-06-07* — If an effect says to set your life total to a certain number, that part of the effect won't do anything.
+  - *2024-06-07* — If an effect would cause you to exchange life totals with another player, the exchange won't happen. Neither player's life total changes.
+  - *2024-06-07* — In a Commander game, the damage dealt to you by commanders will still be counted, even if that damage doesn't cause you to lose life.
+  - *2024-06-07* — Spells and abilities that would normally cause you to gain or lose life still resolve while your life total can't change, but the life-gain or life-loss part simply has no effect.
+  - *2024-06-07* — The effect of Flare of Fortitude doesn't prevent damage. Rather, it changes the results of that damage. For example, if a creature with lifelink deals damage to you, you won't lose any life, but its controller will still gain that much life. Similarly, if a creature you control with lifelink deals damage to another player, that player will lose life but you won't gain any life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/26/flare-of-fortitude) · oracle_id `4ff07b7c-e97a-4b57-bcf1-2f22c37a8bd6` · printing: MH3 #26 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Flare of Malice
 
@@ -1282,7 +1292,12 @@
 - **Flavor text** (A25 printing):
   > *No tactic transforms a battle like a well-timed carnivore.*
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/a25/57/flash) · oracle_id `3e057471-e415-4105-9064-8236a0a5047d` · printing: A25 #57 (2018-03-16) · [rulings](https://api.scryfall.com/cards/d31459c2-9656-4e9a-bb72-71a910e8570b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-03-16* — If the creature has {X} in its mana cost, X is considered to be 0.
+  - *2018-03-16* — If you choose not to pay, the creature is sacrificed immediately. No player will get priority in between the creature entering the battlefield and being sacrificed. Sacrificing the creature this way will trigger any abilities that trigger when it leaves the battlefield, and those abilities will be put onto the stack at the same time as those that triggered when it entered the battlefield.
+  - *2018-03-16* — Only the generic mana in that creature's mana cost is reduced. For example, if that creature's mana cost is {1}{R}, you'll have to pay {R} to keep it.
+  - *2018-03-16* — The creature enters the battlefield, so it will trigger enters-the-battlefield abilities even if you choose not to pay.
+- **Source flags:** [Scryfall](https://scryfall.com/card/a25/57/flash) · oracle_id `3e057471-e415-4105-9064-8236a0a5047d` · printing: A25 #57 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Flashback
 
@@ -1501,7 +1516,10 @@
   > *"Captain, your units are the tip of our spear. There is zero room for failure."*
   > *—Jirina Kudro*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #173 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/25/flawless-maneuver) · oracle_id `4e183439-17d2-47ff-9d99-5e22821d91e3` · printing: FRC #25 (2026-10-02) · [rulings](https://api.scryfall.com/cards/3ffe82a4-584e-4ebd-9551-a745bed01e26/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-04-17* — It doesn't matter whose commander you control. Any one will do. If you have two commanders, you just need to control one of them.
+  - *2020-04-17* — Once you begin casting this spell, players can't take any other actions until you're done casting it. Notably, they can't try to remove the commander you control to make you pay its cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/25/flawless-maneuver) · oracle_id `4e183439-17d2-47ff-9d99-5e22821d91e3` · printing: FRC #25 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Flaxen Intruder // Welcome Home
 
@@ -1956,7 +1974,10 @@
 - **Flavor text** (CLU printing):
   > *Grixis is a world where the only things found in abundance are death and decay. Corpses, whole or in part, are the standard currency among necromancers and demons.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #796 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/111/fleshbag-marauder) · oracle_id `4b1bf05e-753e-4350-a913-894cf3cecc0c` · printing: CLU #111 (2024-02-23) · [rulings](https://api.scryfall.com/cards/fce2baa4-2976-4bbd-b6c5-a5a3c6a901be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-11-10* — As Fleshbag Marauder's ability resolves, first the player whose turn it is chooses a creature to sacrifice, then each other player in turn order does the same knowing the choices made before them. Then all those creatures are sacrificed simultaneously.
+  - *2020-11-10* — When its ability resolves, you may sacrifice Fleshbag Marauder itself. If you control no other creatures, you'll have to sacrifice Fleshbag Marauder.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/111/fleshbag-marauder) · oracle_id `4b1bf05e-753e-4350-a913-894cf3cecc0c` · printing: CLU #111 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Flesh // Blood
 
@@ -2522,6 +2543,7 @@
 - **Flavor text** (SOC printing):
   > *At full moon, the river seeps over its banks and crawls through the woods like a blanket of serpents.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #303 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/373/flooded-grove) · oracle_id `dc974eb4-72b9-4213-887b-8ee684b93420` · printing: SOC #373 (2026-04-24) · [rulings](https://api.scryfall.com/cards/df797e0d-8ae2-4fdb-a33d-4ba7852b0172/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Flooded Shoreline
@@ -2545,6 +2567,7 @@
 - **Flavor text** (MH3 printing):
   > *Once a prosperous Vantress town, now swept clean and reclaimed by the waters of the wilds.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #38 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/220/flooded-strand) · oracle_id `f3c7af78-a77d-4134-82a2-a5ce84285a84` · printing: MH3 #220 (2024-06-14) · [rulings](https://api.scryfall.com/cards/8f85e12c-196b-4459-b81f-0c9c854e9f57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Flooded Woodlands
@@ -2568,6 +2591,7 @@
 - **Flavor text** (DSK printing):
   > *Here, the Mistmoors slump like a grieving parent, the once-thriving fields drowned by the relentless deluge.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #619 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/259/floodfarm-verge) · oracle_id `f1e9abfb-c3c8-483e-b446-5c2afc9f6394` · printing: DSK #259 (2024-09-27) · [rulings](https://api.scryfall.com/cards/d53ed0db-1199-44b3-8eda-8189dfcf53d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Floodgate
@@ -2921,6 +2945,7 @@
 - **Flavor text** (LTR printing):
   > *Aragorn planted the new tree in the court by the fountain, and swiftly and gladly it began to grow.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #811 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/15/flowering-of-the-white-tree) · oracle_id `3cda958a-f777-433d-850e-a6c8f581db4e` · printing: LTR #15 (2023-06-23) · [rulings](https://api.scryfall.com/cards/2203b2cd-48e5-471a-85fe-dc81012e5d61/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Flow of Ideas
@@ -3367,7 +3392,13 @@
   > Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)
 - **Keywords:** Storm
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #309 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/55/flusterstorm) · oracle_id `86bf58f2-7f25-4e10-b797-25e0e8e67769` · printing: IMA #55 (2017-11-17) · [rulings](https://api.scryfall.com/cards/f900eeb7-7c45-44bc-ad3a-0bbe594ecf50/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-12-08* — A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won't affect the copies.
+  - *2022-12-08* — Spells cast from zones other than a player's hand and spells that were countered are counted by the storm ability.
+  - *2022-12-08* — The copies are put directly onto the stack. They aren't cast and won't be counted by other spells with storm cast later in the turn.
+  - *2022-12-08* — The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack.
+  - *2022-12-08* — You may choose new targets for any of the copies. You can make different choices for each copy.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/55/flusterstorm) · oracle_id `86bf58f2-7f25-4e10-b797-25e0e8e67769` · printing: IMA #55 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Flutterfox
 

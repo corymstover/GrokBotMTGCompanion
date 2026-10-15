@@ -410,7 +410,14 @@
   > *"I gazed once into that light. Now it burns in my mind, forever denying me rest."*
   > *—Riku of Two Reflections*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #183 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/352/command-beacon) · oracle_id `7e8c2a18-e404-40ff-a9e0-ec3eeb6d576e` · printing: TDC #352 (2025-04-11) · [rulings](https://api.scryfall.com/cards/435e9678-9ff3-4e5d-8061-3f806e1c2ed2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2015-11-04* — If you cast a commander from your hand, the additional cost based on the number of times you've cast it from your command zone (sometimes referred to as the "commander tax") doesn't apply. Additionally, that casting won't add to the tax if you later cast the commander from the command zone.
+  - *2015-11-04* — If your commander isn't in the command zone (or you're not playing Commander) as the last ability resolves, nothing happens.
+  - *2016-11-08* — If you have two commanders with the partner ability in the command zone, Command Beacon's effect puts one of your choice into your hand, not both.
+  - *2020-11-10* — If you cast a commander from your hand, the commander tax doesn't apply. Additionally, that casting won't add to commander tax if you later cast the commander from the command zone.
+  - *2020-11-10* — If you have two commanders with the partner ability in the command zone, Command Beacon's effect puts one of your choice into your hand, not both.
+  - *2020-11-10* — If your commander isn't in the command zone (or you don't have a commander) as the last ability resolves, nothing happens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/352/command-beacon) · oracle_id `7e8c2a18-e404-40ff-a9e0-ec3eeb6d576e` · printing: TDC #352 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Command Bridge
 
@@ -558,7 +565,11 @@
   > *Not all beautiful things are fragile.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #475 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/305/commanders-plate) · oracle_id `cae166de-e681-40a0-83a8-3c17cf40e2fc` · printing: CMR #305 (2020-11-20) · [rulings](https://api.scryfall.com/cards/19992dbd-7a6a-43d3-b1db-01716b2eed27/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-11-10* — If you have no commander, Commander's Plate grants no protection abilities. The equipped creature still gets +3/+3.
+  - *2020-11-10* — If you have two commanders and attach Commander's Plate to one, it has protection from each color not in your two commanders' combined color identity.
+  - *2020-11-10* — If your commander is a card that has no colors in its color identity, Commander's Plate gives it protection from each color.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/305/commanders-plate) · oracle_id `cae166de-e681-40a0-83a8-3c17cf40e2fc` · printing: CMR #305 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Commander's Sphere
 
@@ -570,7 +581,11 @@
 - **Flavor text** (ECC printing):
   > *It harmonizes with the essence of its master.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #54 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/139/commanders-sphere) · oracle_id `0b67c4e2-f88b-4e01-85a1-9d5f5b8db13b` · printing: ECC #139 (2026-01-23) · [rulings](https://api.scryfall.com/cards/a0d50603-e31f-4cd7-b4b6-49847d99eb2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-11-10* — If you don't have a commander, Commander's Sphere's first ability produces no mana.
+  - *2020-11-10* — If you have two commanders, the ability adds one mana of any color in their combined color identities.
+  - *2020-11-10* — If your commander is a card that has no colors in its color identity, Commander's Sphere's first ability produces no mana. It doesn't produce {C}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/139/commanders-sphere) · oracle_id `0b67c4e2-f88b-4e01-85a1-9d5f5b8db13b` · printing: ECC #139 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Command From the Shadows
 
@@ -700,7 +715,11 @@
 - **Flavor text** (FRC printing):
   > *The pinnacle of Jace's hope for a better, different Multiverse.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/22/command-tower) · oracle_id `0895c9b7-ae7d-4bb3-af17-3b75deb50a25` · printing: FRC #22 (2026-10-02) · [rulings](https://api.scryfall.com/cards/1ac6cb62-45da-4e9a-84c6-09e6eacf0664/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-11-10* — If you don't have a commander, Command Tower's ability produces no mana.
+  - *2020-11-10* — If you have two commanders, the ability adds one mana of any color in their combined color identities.
+  - *2020-11-10* — If your commander is a card that has no colors in its color identity, Command Tower's ability produces no mana. It doesn't produce {C}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/22/command-tower) · oracle_id `0895c9b7-ae7d-4bb3-af17-3b75deb50a25` · printing: FRC #22 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Commencement of Festivities
 
@@ -737,6 +756,7 @@
   > When this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #657 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/259/commercial-district) · oracle_id `b33656ae-3473-4223-845f-f9147f87678b` · printing: MKM #259 (2024-02-09) · [rulings](https://api.scryfall.com/cards/bf220c06-3cce-4bdd-aa58-83940c223e9c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Commissar Severina Raine

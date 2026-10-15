@@ -744,7 +744,9 @@
   > *To the High Fae, spells that take a human years to master come as easily as breathing.*
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #841 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/40/high-fae-trickster) · oracle_id `28c1a4a0-f58c-4d07-a918-51ff8a74f050` · printing: FDN #40 (2024-11-15) · [rulings](https://api.scryfall.com/cards/7f1b93ea-1ec1-4010-9343-765742f5088b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — High Fae Trickster's last ability applies only to casting spells. It does not, for example, change when you may activate abilities that can be activated "only as a sorcery."
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/40/high-fae-trickster) · oracle_id `28c1a4a0-f58c-4d07-a918-51ff8a74f050` · printing: FDN #40 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### High-Flying Ace
 
@@ -873,6 +875,7 @@
 - **Flavor text** (SOC printing):
   > *If it can't be had here, it can't be had on any world.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #420 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/380/high-market) · oracle_id `86fb3749-37d6-48a6-8524-71e996850307` · printing: SOC #380 (2026-04-24) · [rulings](https://api.scryfall.com/cards/894aa6b6-0d08-4c43-8734-9cb7b31359c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### High Noon
@@ -1064,7 +1067,10 @@
   > *"Close the walls! Retract the docks! The homarids are coming!"*
   > *—Benson, Argivian sentry*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #797 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/54/high-tide) · oracle_id `dc671205-f2fa-454f-9957-921a6069ad53` · printing: DMR #54 (2023-01-13) · [rulings](https://api.scryfall.com/cards/babd2248-5517-4b7b-a159-9a1f7b5583c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-12-08* — The delayed triggered ability refers to any land with the land type Island, not just those named Island.
+  - *2022-12-08* — The effect applies even if the Island in question entered the battlefield after High Tide resolved.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/54/high-tide) · oracle_id `dc671205-f2fa-454f-9957-921a6069ad53` · printing: DMR #54 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hightide Hermit
 
@@ -1302,6 +1308,7 @@
   > *"You swabs did all right. But I got my own crew ta get back to. Ship's yers now. Sail 'er well."*
   > *—Blackbeard the Pirate, Ben Grimm*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #97 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/250/hinterland-harbor) · oracle_id `fb5a3403-7f0b-406c-8c4f-d693be010ca6` · printing: MSC #250 (2026-06-26) · [rulings](https://api.scryfall.com/cards/892451a1-5527-4857-84f8-62028d147489/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hinterland Hermit // Hinterland Scourge
@@ -1445,7 +1452,23 @@
   > Whenever a creature you control with the chosen name deals combat damage to a player, you may pay {U}. If you do, draw a card.
 - **Keywords:** Hidden agenda
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/5/hired-heist) · oracle_id `b0d84455-dc35-45d3-901e-8d28363142f4` · printing: CN2 #5 (2016-08-26) · [rulings](https://api.scryfall.com/cards/d3914468-d769-4fe3-ae18-0caee9eb1502/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2016-08-23* — A conspiracy doesn't count as a card in your deck for purposes of meeting minimum deck size requirements. (In most drafts, the minimum deck size is 40 cards.)
+  - *2016-08-23* — A conspiracy with hidden agenda that has a triggered ability must be face up before that ability's trigger condition is met in order for it to trigger. Turning it face up afterward won't have any effect.
+  - *2016-08-23* — A conspiracy's static and triggered abilities function as long as that conspiracy is face-up in the command zone.
+  - *2016-08-23* — As a special action, you may turn a face-down conspiracy face up. You may do so any time you have priority. This action doesn't use the stack and can't be responded to. Once face up, the named card is revealed and the conspiracy's abilities will affect the game.
+  - *2016-08-23* — At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players.
+  - *2016-08-23* — At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players. Notably, you can't bluff conspiracies with hidden agenda by putting other cards into the command zone face down as the game starts.
+  - *2016-08-23* — Conspiracies are colorless, have no mana cost, and can't be cast as spells.
+  - *2016-08-23* — Conspiracies are never put into your deck. Instead, you put any number of conspiracies from your card pool into the command zone as the game begins. These conspiracies are face up unless they have hidden agenda, in which case they begin the game face down.
+  - *2016-08-23* — Conspiracies aren't legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft.
+  - *2016-08-23* — If you play multiple games after the draft, you can name a different card in each new game.
+  - *2016-08-23* — There are several ways to secretly name a card, including writing the name on a piece of paper that's kept with the face-down conspiracy. If you have multiple face-down conspiracies, you may name a different card for each one. It's important that each named card is clearly associated with only one of the conspiracies.
+  - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
+  - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+  - *2016-08-23* — You must name a Magic card. Notably, you can't name a token.
+  - *2016-08-23* — You name the card as the game begins, as you put the conspiracy into the command zone, not as you turn the face-down conspiracy face up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/5/hired-heist) · oracle_id `b0d84455-dc35-45d3-901e-8d28363142f4` · printing: CN2 #5 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hired Hexblade
 

@@ -1287,7 +1287,13 @@
 - **Flavor text** (SOC printing):
   > *Nashi knelt reverently before the kami and envisioned his family reunited.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #403 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/273/kami-of-whispered-hopes) · oracle_id `f122624f-f30d-444e-a62a-939829241045` · printing: SOC #273 (2026-04-24) · [rulings](https://api.scryfall.com/cards/0be4e5f6-a1fc-4a91-aafe-f963878cd1b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-04-14* — However, if Kami of Whispered Hopes somehow enters the battlefield with +1/+1 counters it, its first ability won't apply to itself.
+  - *2023-04-14* — If another permanent you control would enter the battlefield with a number of +1/+1 counters on it, it enters with that many plus one instead.
+  - *2023-04-14* — If two or more effects attempt to modify how many counters would be put onto a permanent you control, you choose the order to apply those effects, no matter who controls the sources of those effects.
+  - *2023-04-14* — If you control two Kamis of Whispered Hopes, the number of +1/+1 counters put on a permanent is two plus the original number. Three Kamis of Whispered Hopes add three, and so on.
+  - *2023-04-14* — The last ability is a mana ability. It doesn't use the stack and can't be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/273/kami-of-whispered-hopes) · oracle_id `f122624f-f30d-444e-a62a-939829241045` · printing: SOC #273 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kami's Flare
 
@@ -1502,6 +1508,7 @@
   > {T}: Add {W}.
   > {T}: Return target legendary creature to its owner's hand.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/244/karakas) · oracle_id `59119143-c0fa-49dd-adf0-e2fd3029c48b` · printing: UMA #244 (2018-12-07) · [rulings](https://api.scryfall.com/cards/e52214e1-404a-405a-b08e-20e13c087338/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Karakyk Guardian
@@ -1863,7 +1870,14 @@
   > *—Karn*
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #206 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/163/karns-bastion) · oracle_id `9fb8cd81-403a-4988-8f1c-b8eccf8abd9c` · printing: EOC #163 (2025-08-01) · [rulings](https://api.scryfall.com/cards/22017ec2-3552-4865-af76-dba042b141f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/163/karns-bastion) · oracle_id `9fb8cd81-403a-4988-8f1c-b8eccf8abd9c` · printing: EOC #163 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Karn, Scion of Urza
 
@@ -2020,6 +2034,7 @@
 - **Flavor text** (EOC printing):
   > *Between jagged, snowcapped peaks, the dense bands of hardy evergreens provide the perfect cover for roving bands of orc and goblin raiders.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #219 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/164/karplusan-forest) · oracle_id `bd912666-f37f-4767-af6f-9e6d0fcccacf` · printing: EOC #164 (2025-08-01) · [rulings](https://api.scryfall.com/cards/67198b97-bac2-480f-aea8-12841e8884de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Karplusan Giant
@@ -2889,7 +2904,15 @@
   > *The Eternals found some sparks to be quite slippery.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #769 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/94/kayas-ghostform) · oracle_id `b15c6203-6311-44eb-916d-a4c271960c74` · printing: WAR #94 (2019-05-03) · [rulings](https://api.scryfall.com/cards/98f3be88-24e2-433f-9138-f0cb59d09a0f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2019-05-03* — If Kaya’s Ghostform and the enchanted permanent are both put into graveyards and/or exiled at the same time, the enchanted permanent will be returned to the battlefield.
+  - *2019-05-03* — If Kaya’s Ghostform enchants a permanent you control but don’t own, that permanent will return to the battlefield under your control when it dies or is exiled. In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any creatures you control from Kaya’s Ghostform’s effect are exiled.
+  - *2019-05-03* — If an effect exiles the enchanted permanent and immediately returns it to the battlefield, the last ability of Kaya’s Ghostform triggers but will have no effect. If an effect exiles the enchanted permanent and would return it to the battlefield at a later time, Kaya’s Ghostform will return that card to the battlefield and it won’t be returned later.
+  - *2019-05-03* — If another player gains control of the enchanted permanent, Kaya’s Ghostform will be put into your graveyard.
+  - *2019-05-03* — If the enchanted permanent is put into a graveyard or exile but leaves that zone before the last ability of Kaya’s Ghostform resolves, that card stays in its new zone, even if that zone is also a graveyard or exile. You don’t return it to the battlefield.
+  - *2019-05-03* — Kaya’s Ghostform can enchant a token, but its last ability won’t return the token to the battlefield.
+  - *2019-05-03* — Kaya’s Ghostform is put into your graveyard once the enchanted permanent leaves the battlefield. It doesn’t return to the battlefield with that permanent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/94/kayas-ghostform) · oracle_id `b15c6203-6311-44eb-916d-a4c271960c74` · printing: WAR #94 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kaya's Guile
 

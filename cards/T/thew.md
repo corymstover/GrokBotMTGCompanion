@@ -461,7 +461,9 @@
   > As long as you control six or more lands, lands you control have "{T}: Add one mana of any color."
   > {W}{W}{U}{U}{B}{B}{R}{R}{G}{G}, {T}, Sacrifice this land: Search your library for any number of God cards, put them onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #818 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/275/the-world-tree) · oracle_id `3437d504-bf62-4c27-b15f-f6330182ff7e` · printing: KHM #275 (2021-02-05) · [rulings](https://api.scryfall.com/cards/a70cb6d9-3955-4064-917b-11dec26440c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-02-05* — The World Tree’s third ability doesn’t cause lands you control to lose any of their abilities. It also doesn’t cause lands you control to gain or lose any land types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/275/the-world-tree) · oracle_id `3437d504-bf62-4c27-b15f-f6330182ff7e` · printing: KHM #275 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wretched
 

@@ -163,7 +163,9 @@
 - **Flavor text** (SOC printing):
   > *On Innistrad, one person's windfall usually starts with another person lying face down in the mud.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #246 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/219/morbid-opportunist) · oracle_id `322f44f0-e6da-4ee0-b474-e7d5e9a461c5` · printing: SOC #219 (2026-04-24) · [rulings](https://api.scryfall.com/cards/08838865-a9b6-4323-96a2-0d3a7aba9d3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — If Morbid Opportunist dies at the same time as one or more other creatures, Morbid Opportunist's ability still triggers.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/219/morbid-opportunist) · oracle_id `322f44f0-e6da-4ee0-b474-e7d5e9a461c5` · printing: SOC #219 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morbid Plunder
 
@@ -607,7 +609,9 @@
 - **Flavor text** (CLB printing):
   > *No one really knows how deep the waters go beneath Undercity, nor what amorphous horrors lurk within.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #149 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/357/morphic-pool) · oracle_id `bd004c9d-771e-4e63-a97d-a2259c096af8` · printing: CLB #357 (2022-06-10) · [rulings](https://api.scryfall.com/cards/48e40927-dd87-42ed-b805-0ae8ba81f5fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-06-08* — If you began the game with two or more opponents but now only have one opponent left, these lands enter the battlefield tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/357/morphic-pool) · oracle_id `bd004c9d-771e-4e63-a97d-a2259c096af8` · printing: CLB #357 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morphling
 
@@ -777,7 +781,9 @@
 - **Flavor text** (FDN printing):
   > *The queen sent her champion to defeat the necromancer threat. His helmet was returned the next day, warped and stained with blood.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #580 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/662/mortify) · oracle_id `faa01ed1-ccfa-4e58-951f-cd81f9068027` · printing: FDN #662 (2024-11-15) · [rulings](https://api.scryfall.com/cards/88e85619-3a7d-48c2-b9b0-20718c913696/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-02-01* — This spell isn't modal. When it resolves, it will destroy the target if it's a creature or an enchantment, even if it changed from one to the other between targeting and resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/662/mortify) · oracle_id `faa01ed1-ccfa-4e58-951f-cd81f9068027` · printing: FDN #662 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mortipede
 
@@ -847,6 +853,7 @@
   > When this land enters, you may put target creature card from your graveyard on top of your library.
   > {T}: Add {B}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #707 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/900/mortuary-mire) · oracle_id `1b3fb20a-e090-4286-9c03-6b71c27c45be` · printing: CLB #900 (2022-06-10) · [rulings](https://api.scryfall.com/cards/058f30e5-64a9-4d6b-b7a6-0fd95d460cae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mortus Strider

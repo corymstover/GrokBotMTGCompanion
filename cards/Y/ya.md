@@ -363,7 +363,10 @@
 - **Flavor text** (SOC printing):
   > *As magnigoth trees expanded across the sea into Almaaz and New Argive, it became clear Yavimaya's borders were never confined by its coastline.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #137 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/425/yavimaya-coast) · oracle_id `40b36bc6-c185-4bda-99e7-0118953c2c97` · printing: SOC #425 (2026-04-24) · [rulings](https://api.scryfall.com/cards/f4c1500b-1f4c-4d33-810c-25e3bb0a4666/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-06-22* — Like most lands, each land in this cycle is colorless. The damage dealt to you is dealt by a colorless source.
+  - *2015-06-22* — The damage dealt to you is part of the second mana ability. It doesn't use the stack and can't be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/425/yavimaya-coast) · oracle_id `40b36bc6-c185-4bda-99e7-0118953c2c97` · printing: SOC #425 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yavimaya, Cradle of Growth
 
@@ -375,7 +378,11 @@
   > *"Multani's heart is a seed, and all of Yavimaya is its flower. There is as much life here as in the rest of Dominaria together."*
   > *—Karn*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #79 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/261/yavimaya-cradle-of-growth) · oracle_id `8dd5f5af-d2d8-4356-8617-8381081b930c` · printing: MH2 #261 (2021-06-18) · [rulings](https://api.scryfall.com/cards/4e4b6e22-93b2-4896-bba5-0ceaa5d8ea3c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-06-18* — Land cards not on the battlefield aren't Forests while Yavimaya is on the battlefield.
+  - *2021-06-18* — Yavimaya's ability causes each land on the battlefield to have the land type Forest. Any land that's a Forest has the ability "{T}: Add {G}." Nothing else changes about those lands, including their names, other subtypes, and whether they're legendary, basic, or snow.
+  - *2021-06-18* — Yavimaya, Cradle of Growth isn't a Forest while it's not on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/261/yavimaya-cradle-of-growth) · oracle_id `8dd5f5af-d2d8-4356-8617-8381081b930c` · printing: MH2 #261 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yavimaya Dryad
 
@@ -604,6 +611,7 @@
 - **Flavor text** (VMA printing):
   > *He craves only one commodity.*
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/147/yawgmoths-bargain) · oracle_id `f7f76f39-a0de-4bda-86b6-0f291892fcec` · printing: VMA #147 (2014-06-16) · [rulings](https://api.scryfall.com/cards/eef31b59-45bb-4208-8957-1564902c8507/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yawgmoth's Day Planner
@@ -671,7 +679,20 @@
   > {B}{B}, Discard a card: Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
 - **Keywords:** Protection, Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #834 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/110/yawgmoth-thran-physician) · oracle_id `a1e232c0-dc38-47be-a5a0-f68bc1d86a29` · printing: DMR #110 (2023-01-13) · [rulings](https://api.scryfall.com/cards/b5a79f5d-d0df-4799-ac3a-84305e3af0c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2021-03-19* — Protection from Humans refers only to the creature type Human. As far as Yawgmoth is concerned, you, your opponents, and planeswalkers aren't Humans.
+  - *2021-03-19* — You may activate Yawgmoth's first activated ability without choosing a target creature. You'll just draw a card. However, if you choose a target and it becomes illegal before the ability tries to resolve, the ability won't resolve and you won't draw a card.
+  - *2022-12-08* — If a permanent has +1/+1 counters and -1/-1 counters on it, they're removed in pairs as a state-based action until that permanent has only one of those kinds of counters on it.
+  - *2022-12-08* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2022-12-08* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2022-12-08* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/110/yawgmoth-thran-physician) · oracle_id `a1e232c0-dc38-47be-a5a0-f68bc1d86a29` · printing: DMR #110 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yawning Fissure
 

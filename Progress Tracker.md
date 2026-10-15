@@ -16,7 +16,8 @@
 `██████████████████████████████`
 
 - EDHREC coverage: every Commander-legal card ranked ≤ **32,351** has an entry
-- Last batch: `2026-10-15-b6` (+14,085 cards) · last run 2026-10-15T10:55:05+00:00 · Scryfall bulk 2026-10-15
+- Rulings: **2,604 / 78,943** Scryfall rulings in entries (686 / 19,889 cards with rulings; 1,000 / 33,894 cards processed) · next: **Delney, Streetwise Lookout**
+- Last batch: `2026-10-15-b6` (+14,085 cards) · last run 2026-10-15T11:03:04+00:00 · Scryfall bulk 2026-10-15
 - Next card target: **none — full coverage.** Each run auto-adds newly released Scryfall cards and refreshes Oracle text/legality.
 <!-- CARD-STATS:END -->
 

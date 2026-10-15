@@ -610,7 +610,11 @@
   > *"Welcome, T'Challa, to the City of the Dead."*
   > *—Bast*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #567 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/171/conduit-of-worlds) · oracle_id `ed14be15-8f8d-4fe3-a147-f5da8ed873bf` · printing: MSC #171 (2026-06-26) · [rulings](https://api.scryfall.com/cards/8380eb8d-d1c3-4f96-b3b9-54845188c1d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-02-04* — The first ability of Conduit of Worlds doesn't change the times when you can play those land cards. You can still play only one land per turn, and only during your main phase when you have priority and the stack is empty.
+  - *2023-02-04* — The second ability of Conduit of Worlds allows you to cast the target card as the ability resolves. You can't wait and cast that card later in the turn. If you cast it, you can't cast any other spells this turn, even if another effect would allow you to.
+  - *2023-02-04* — The second ability of Conduit of Worlds will count spells you cast earlier in the turn even if Conduit of Worlds wasn't on the battlefield or under your control at that time. It will also count a spell you cast that subsequently was countered or failed to resolve. Notably, it will also include Conduit of Worlds itself on the turn you cast it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/171/conduit-of-worlds) · oracle_id `ed14be15-8f8d-4fe3-a147-f5da8ed873bf` · printing: MSC #171 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Conduit Pylons
 
@@ -942,7 +946,12 @@
   > *"Tomorrow wears yesterday's face."*
   > *—Kordel the Cryptic*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #464 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/259/conjurers-closet) · oracle_id `cd1eda60-53e4-44d0-9b2c-7a57395e291f` · printing: INR #259 (2025-01-24) · [rulings](https://api.scryfall.com/cards/af2115e4-009e-4432-99bb-05e844bc18b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-08-07* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2020-08-07* — If you gain control of a creature “until end of turn,” you control it during that turn's end step.
+  - *2020-08-07* — Once the exiled creature returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled creature will be put into their owners' graveyards. Equipment attached to the exiled creature will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+  - *2020-08-07* — When an effect returns the exiled card “under your control,” you control it indefinitely after that. In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any creatures you control from Conjurer's Closet effect are exiled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/259/conjurers-closet) · oracle_id `cd1eda60-53e4-44d0-9b2c-7a57395e291f` · printing: INR #259 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Conjurer's Mantle
 
@@ -1093,7 +1102,11 @@
   > *A curse is just another name for an unwanted blessing.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #654 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/43/consecrated-sphinx) · oracle_id `311a449d-dc74-46e6-9a47-6a597931f736` · printing: 2X2 #43 (2022-07-08) · [rulings](https://api.scryfall.com/cards/c9bd60fc-2777-44bc-b314-a792e8e48360/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-11-17* — If each player controls a Consecrated Sphinx, their abilities will cause each other to trigger until one player chooses not to draw cards.
+  - *2017-11-17* — The ability triggers once for each card an opponent draws. You choose whether to draw two cards as each of those abilities resolves.
+  - *2017-11-17* — You may either draw two cards or not draw at all. You can't choose to draw only one card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/43/consecrated-sphinx) · oracle_id `311a449d-dc74-46e6-9a47-6a597931f736` · printing: 2X2 #43 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Consecrate Land
 
@@ -1139,7 +1152,9 @@
   > *—Iroh*
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #362 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/157/consider) · oracle_id `4c9bcba6-87b5-4fb3-97ee-6fe5b739337d` · printing: TLE #157 (2025-11-21) · [rulings](https://api.scryfall.com/cards/4f28e706-c488-4525-ad8a-977a5fa77f80/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-01-12* — You perform the actions stated on a card in sequence. For some spells and abilities, you'll surveil last. For others, you'll surveil and then perform other actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/157/consider) · oracle_id `4c9bcba6-87b5-4fb3-97ee-6fe5b739337d` · printing: TLE #157 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Consider the Prime Directive
 
@@ -2039,6 +2054,7 @@
   > Remove this card from your deck before playing if you're not playing for ante.
   > Discard your hand, ante the top card of your library, then draw seven cards.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sum/97/contract-from-below) · oracle_id `9e0ed4b0-28b5-44be-ab83-f1e8eb07138d` · printing: SUM #97 (1994-06-21) · [rulings](https://api.scryfall.com/cards/e1e33690-b851-404a-9cde-d00235be5aa5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Contract Hero

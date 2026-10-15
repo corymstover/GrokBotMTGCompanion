@@ -184,7 +184,9 @@
 - **Flavor text** (SOC printing):
   > *"Eldrazi? Ha! Try walking through Zulaport at night with your pockets full. Now \*that's\* dangerous."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #236 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/233/zulaport-cutthroat) · oracle_id `76b003e0-15af-4f22-bdf2-1ade5430964a` · printing: SOC #233 (2026-04-24) · [rulings](https://api.scryfall.com/cards/c43609fb-3cee-44e0-98d0-3ecaba1d5767/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — If another creature you control dies at the same time as Zulaport Cutthroat, its ability triggers for that creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/233/zulaport-cutthroat) · oracle_id `76b003e0-15af-4f22-bdf2-1ade5430964a` · printing: SOC #233 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zulaport Duelist
 

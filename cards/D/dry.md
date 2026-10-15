@@ -29,7 +29,15 @@
   > *"Touch no tree, break no branch, and speak only the question you wish answered."*
   > *—Von Yomm, elder druid, to her initiates*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #778 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/273/dryad-arbor) · oracle_id `e996cd67-739c-40f4-b276-0042acf26c71` · printing: DSC #273 (2024-09-27) · [rulings](https://api.scryfall.com/cards/e3ddbebf-72cd-4d1b-ba0d-d94934654ab7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2011-09-22* — If Dryad Arbor is changed into another basic land type (such as by Sea's Claim), it continues to be a creature and a Dryad.
+  - *2013-06-07* — Although originally printed with a characteristic-defining ability that defined its color, this card now has a color indicator. This color indicator can't be affected by text-changing effects (such as the one created by Crystal Spray), although color-changing effects can still overwrite it.
+  - *2021-03-19* — Dryad Arbor is played as a land. It doesn't use the stack, it's not a spell, it can't be responded to, it has no mana cost, and it counts as your land play for the turn.
+  - *2021-03-19* — Due to its color indicator (appearing to the left of its type line), Dryad Arbor is green. Color indicators apply in all zones, not just the battlefield.
+  - *2021-03-19* — Forest is a land type and Dryad is a creature type.
+  - *2021-03-19* — If Dryad Arbor is changed into another basic land type, it continues to be a green Dryad creature.
+  - *2021-03-19* — If a Dryad Arbor gains flash, or you have the ability to play Dryad Arbor as though it had flash (due to Teferi, Mage of Zhalfir or Scout's Warning, for example), you can ignore the normal timing rules for when during your turn you can play a land, but not any other restrictions. You can't play Dryad Arbor during another player's turn, and you can't play Dryad Arbor if you don't have any land plays remaining.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/273/dryad-arbor) · oracle_id `e996cd67-739c-40f4-b276-0042acf26c71` · printing: DSC #273 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dryad Greenseeker
 
@@ -68,7 +76,11 @@
   > *"Vine-wreathed, he nurtures life among the dead."*
   > *—Psemilla, Meletian poet*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #312 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/891/dryad-of-the-ilysian-grove) · oracle_id `bdbde5d0-f5e4-44da-b27c-b4ad6f374cc9` · printing: CMM #891 (2023-08-04) · [rulings](https://api.scryfall.com/cards/43be1363-7e73-4862-b45f-07f490ab46be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-01-24* — Dryad of the Ilysian Grove’s first ability is cumulative if you control more than one. It’s also cumulative with other effects that let you play additional lands, such as the one from Escape to the Wilds.
+  - *2020-01-24* — Each land you control will have the land types Plains, Island, Swamp, Mountain, and Forest. They’ll also have the mana ability of each basic land type (for example, Forests have “{T}: Add {G}.”). They’ll still have their other subtypes and abilities.
+  - *2020-01-24* — Giving a land additional basic land types doesn’t change its name or whether it’s legendary or basic.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/891/dryad-of-the-ilysian-grove) · oracle_id `bdbde5d0-f5e4-44da-b27c-b4ad6f374cc9` · printing: CMM #891 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dryad's Caress
 

@@ -503,7 +503,10 @@
   > *"I'll teach you the leyline paratrigonometrics, no problem. But you need to show me how to make that fiery swirly thing."*
   > *—Zimone, to Rootha*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #46 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/j22/114/rhystic-study) · oracle_id `53236dd7-845a-444c-96d5-f41ed7325d8f` · printing: J22 #114 (2022-12-02) · [rulings](https://api.scryfall.com/cards/9f37c5b6-a59c-45cd-9a99-e9357fe9ea1b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-09-01* — Rhystic Study's triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered. The player gets the option to pay when this triggered ability resolves.
+  - *2023-09-01* — You don't have to decide whether or not to draw a card until after the player decides whether or not to pay.
+- **Source flags:** [Scryfall](https://scryfall.com/card/j22/114/rhystic-study) · oracle_id `53236dd7-845a-444c-96d5-f41ed7325d8f` · printing: J22 #114 (2022-12-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhystic Syphon
 
@@ -547,4 +550,14 @@
 - **Flavor text** (RVR printing):
   > *Some view Domri's unlikely ascent as a sign of Ilharg the Raze-Boar's imminent return.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #223 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/217/rhythm-of-the-wild) · oracle_id `acfa77fd-3610-4f12-9c3c-bd860ce91700` · printing: RVR #217 (2024-01-12) · [rulings](https://api.scryfall.com/cards/c2a6453e-a373-44ec-807a-15c0c8b1af57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2019-01-25* — A noncreature card that happens to be entering the battlefield as a creature will have riot (for example, Rusted Relic while you control three other artifacts). Similarly, a creature card entering the battlefield as a noncreature permanent won't have riot (for example, Thassa, God of the Sea while your other permanents contribute only four to your devotion to blue).
+  - *2019-01-25* — A spell or ability that counters spells can still target a creature spell you control. When that spell or ability resolves, the creature spell won't be countered, but any additional effects of that spell or ability will still happen.
+  - *2019-01-25* — If a creature entering the battlefield has riot but can't have a +1/+1 counter put onto it, it gains haste.
+  - *2019-01-25* — If a creature enters the battlefield with two instances of riot, you may choose to have it get two +1/+1 counters, one +1/+1 counter and haste, or two instances of haste. Multiple instances of haste on the same creature are redundant, but we're not going to tell the Gruul how to live their lives.
+  - *2019-01-25* — If a nontoken, noncreature permanent becomes a creature after it's already on the battlefield, it will have riot but it will be too late for the replacement effect to have any effect.
+  - *2019-01-25* — If you choose for the creature to gain haste, it gains haste indefinitely. It won't lose it as the turn ends or as another player gains control of it.
+  - *2019-01-25* — Once a creature with riot has entered the battlefield, it keeps its +1/+1 counter or haste even if it loses riot.
+  - *2019-01-25* — Riot is a replacement effect. Players can't respond to your choice of +1/+1 counter or haste, and they can't take actions while the creature is on the battlefield without one or the other.
+  - *2019-05-03* — If Rhythm of the Wild leaves the battlefield at the same time that a nontoken creature enters the battlefield (most likely because that creature has a replacement effect, such as that of Rescuer Sphinx), that creature still gets a +1/+1 counter or haste.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/217/rhythm-of-the-wild) · oracle_id `acfa77fd-3610-4f12-9c3c-bd860ce91700` · printing: RVR #217 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

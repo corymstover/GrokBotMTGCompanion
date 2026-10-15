@@ -331,7 +331,9 @@
 - **Flavor text** (LTR printing):
   > *As Faramir and Éowyn stood so, their hands met and clasped, though they did not know it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #596 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/26/reprieve) · oracle_id `f0449cbd-855c-4c20-a1f5-f76a395d8d39` · printing: LTR #26 (2023-06-23) · [rulings](https://api.scryfall.com/cards/1bd3fa8a-6c50-4f7f-9ae3-0810eec5e3db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-09-19* — If a spell is returned to its owner's hand, it's removed from the stack and thus will not resolve. This works against a spell that can't be countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/26/reprieve) · oracle_id `f0449cbd-855c-4c20-a1f5-f76a395d8d39` · printing: LTR #26 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reprisal
 

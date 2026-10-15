@@ -425,7 +425,13 @@
 - **Flavor text** (MH3 printing):
   > *It is the warm glow of the setting sun at journey's end, the scent of the evening meal crackling over a fire, and the cacophony of a raucous song shared over tankards of mead. It is freedom.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #293 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/295/ruby-medallion) · oracle_id `0c367958-729e-416d-988b-098e90e7a1fd` · printing: MH3 #295 (2024-06-14) · [rulings](https://api.scryfall.com/cards/630febf5-58ff-4dab-a5a8-575ebc5435a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-07-28* — If a spell you cast has {X} in its mana cost, you choose the value of X before calculating the spell's total cost.
+  - *2023-07-28* — If there are additional costs to cast a spell, or if the cost to cast a spell is increased by an effect (such as the one created by Thalia, Guardian of Thraben's ability), apply those increases before applying cost reductions.
+  - *2023-07-28* — The ability can't reduce the amount of colored mana you pay for a spell. It reduces only the generic mana component of that cost.
+  - *2023-07-28* — The ability doesn't change the mana cost or mana value of any spell. It changes only the total cost you pay.
+  - *2023-07-28* — The cost reduction can apply to alternative costs such as flashback costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/295/ruby-medallion) · oracle_id `0c367958-729e-416d-988b-098e90e7a1fd` · printing: MH3 #295 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rude Awakening
 
@@ -489,6 +495,7 @@
 - **Flavor text** (SOC printing):
   > *Hobs bury their kin far from home. They believe the dry, open ground keeps hags from stealing the bones and gwyllions from stealing the spirits.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #281 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/401/rugged-prairie) · oracle_id `8e7641e1-e814-4d5a-9cb3-71ad2f4ceee8` · printing: SOC #401 (2026-04-24) · [rulings](https://api.scryfall.com/cards/6bd21c9e-de16-4ee9-ae16-6e82b490109d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rug of Smothering
@@ -540,6 +547,7 @@
   > *"We have built a wall upon sand. The wall will vanish. The sand will remain."*
   > *—Oracle \*en\*-Vec*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8423 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmd/134/ruination) · oracle_id `59dbc873-72d9-4e7b-9442-2c7b8e8523e1` · printing: CMD #134 (2011-06-17) · [rulings](https://api.scryfall.com/cards/6330d925-96a8-47e1-855d-035ddc2af709/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ruination Guide
@@ -712,6 +720,7 @@
   > *"Strike those abominations down. Let their names rot with their remains."*
   > *—General Kudro*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #651 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/204/ruinous-ultimatum) · oracle_id `a6f38908-aa4f-4f99-a28e-85d11dab52e4` · printing: IKO #204 (2020-04-24) · [rulings](https://api.scryfall.com/cards/50c1d6ca-7789-46b5-bc89-85cc3915cb85/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ruinous Waterbending

@@ -1595,6 +1595,7 @@
   > *As a scholar, she saw the sylex not as a weapon, but as a key to the past.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #340 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/71/loran-of-the-third-path) · oracle_id `b3d81980-76f2-44e2-b1c9-01e30c726312` · printing: MKC #71 (2024-02-09) · [rulings](https://api.scryfall.com/cards/9e83a0ef-4fea-45ba-86c0-130d6687f7fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loran's Escape
@@ -2472,7 +2473,9 @@
   > *—Pippin*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #410 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/213/lotho-corrupt-shirriff) · oracle_id `135cc078-1c45-465e-b0b9-7168c89f56f4` · printing: LTR #213 (2023-06-23) · [rulings](https://api.scryfall.com/cards/ce01ff8f-a037-484f-9148-c847ffaabc5a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — Spells that were cast before Lotho, Corrupt Shirriff count. If Lotho, Corrupt Shirriff was the first spell you cast this turn, the next spell you cast this turn is your second spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/213/lotho-corrupt-shirriff) · oracle_id `135cc078-1c45-465e-b0b9-7168c89f56f4` · printing: LTR #213 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lotleth Giant
 
@@ -2535,7 +2538,16 @@
   > *Its hood blossoms as a warning: receive your gift, but stray no closer.*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #329 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/193/lotus-cobra) · oracle_id `8ad91f64-ccab-4edc-bd54-b2ee9267d614` · printing: ZNR #193 (2020-09-25) · [rulings](https://api.scryfall.com/cards/a4b759f0-901f-4be3-93fa-224609b08d48/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2017-11-17* — Lotus Cobra's ability isn't a mana ability. Opponents may respond to it before you have that mana.
+  - *2020-09-25* — Lotus Cobra's ability uses the stack and players may respond to it. It isn't a mana ability because the event that causes it to trigger isn't a mana ability.
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/193/lotus-cobra) · oracle_id `8ad91f64-ccab-4edc-bd54-b2ee9267d614` · printing: ZNR #193 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lotus-Eye Mystics
 
@@ -2630,6 +2642,7 @@
 - **Flavor text** (TPR printing):
   > *"Hard to imagine," mused Hanna, stroking the petal, "such a lovely flower inspiring such greed."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #120 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/225/lotus-petal) · oracle_id `32e5339e-9e4f-46f8-b305-f9d6d3ba8bb5` · printing: TPR #225 (2015-05-06) · [rulings](https://api.scryfall.com/cards/f85ab5f9-508e-45de-8fa1-ce1f16552ffc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lotus Ring
@@ -3056,7 +3069,11 @@
   > *Those with knowledge are wise to listen to those with imagination.*
 - **Keywords:** Haste, Lieutenant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #749 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/222/loyal-apprentice) · oracle_id `7f268b15-ac92-4e98-821b-78d15d9285d9` · printing: TDC #222 (2025-04-11) · [rulings](https://api.scryfall.com/cards/d4d469ea-824b-4eff-82e8-2a0b9b4c0e2d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-07-13* — If you don't control your commander as the lieutenant ability resolves, you won't get its effect.
+  - *2018-07-13* — If you have multiple commanders, you need to control only one for the lieutenant effect to happen.
+  - *2018-07-13* — The lieutenant effect happens only once each combat, even if you somehow control multiple commanders (perhaps because you have two commanders with a partner ability from the Battlebond™ set).
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/222/loyal-apprentice) · oracle_id `7f268b15-ac92-4e98-821b-78d15d9285d9` · printing: TDC #222 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loyal Cathar // Unhallowed Cathar
 

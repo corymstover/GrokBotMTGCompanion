@@ -1384,7 +1384,9 @@
 - **Flavor text** (EMA printing):
   > *What a lonely agony, the memory of memories lost.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3230 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ema/60/memory-lapse) · oracle_id `bbfb3e4a-b389-4391-8141-13b68c0ef2e0` · printing: EMA #60 (2016-06-10) · [rulings](https://api.scryfall.com/cards/30202613-d05f-4f47-af97-d0b75ccac293/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-06-08* — Memory Lapse has a self-replacement effect that replaces the spell going to the graveyard before any other effect can replace that event. If the spell was cast using flashback, however, flashback will change the spell's destination from its owner's library to exile.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ema/60/memory-lapse) · oracle_id `bbfb3e4a-b389-4391-8141-13b68c0ef2e0` · printing: EMA #60 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Memory Leak
 
@@ -1649,7 +1651,15 @@
   > *"Your first mistake was thinking I would let you live long enough to make a second."*
   > *—Sarnvax, Gitaxian sective*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #473 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nph/38/mental-misstep) · oracle_id `1a0770e6-b093-4439-baff-6889a50ba12e` · printing: NPH #38 (2011-05-13) · [rulings](https://api.scryfall.com/cards/61e9c6df-1c84-4eab-9076-a4feb6347c10/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2011-06-01* — A card with Phyrexian mana symbols in its mana cost is each color that appears in that mana cost, regardless of how that cost may have been paid.
+  - *2011-06-01* — As you cast a spell or activate an activated ability with one or more Phyrexian mana symbols in its cost, you choose how to pay for each Phyrexian mana symbol at the same time you would choose modes or choose a value for X.
+  - *2011-06-01* — Each Phyrexian mana symbol in a spell's mana cost contributes 1 to that spell's mana value. For example, Mental Misstep's mana value is 1, regardless of how its cost was paid.
+  - *2011-06-01* — If a spell has {X} in its mana cost, X is considered to be the value chosen for it while that spell is on the stack.
+  - *2011-06-01* — If you're at 1 life or less, you can't pay 2 life.
+  - *2011-06-01* — Phyrexian mana is not a new color. Players can't produce Phyrexian mana.
+  - *2011-06-01* — To calculate the mana value of a card with Phyrexian mana symbols in its cost, count each Phyrexian mana symbol as 1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nph/38/mental-misstep) · oracle_id `1a0770e6-b093-4439-baff-6889a50ba12e` · printing: NPH #38 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mental Modulation
 
@@ -1698,7 +1708,11 @@
 - **Flavor text** (HOC printing):
   > *In a twinkling the table was laid. There was hot soup, cold meats, a blackberry tart, new loaves, slabs of butter, and half a ripe cheese: good plain food, as good as the Shire could show.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #662 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/170/mentor-of-the-meek) · oracle_id `b9f4f96b-6e54-4fe6-8df7-623e0fc72409` · printing: HOC #170 (2026-08-14) · [rulings](https://api.scryfall.com/cards/05b6a101-4d12-4f50-8f02-5c778e08b149/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-01-24* — If a creature enters with +1/+1 counters or a continuous effect such as that of Wedding Festivity will apply to the creature on the battlefield, those effects apply when checking to see if Mentor of the Meek's ability will trigger.
+  - *2025-01-24* — Mentor of the Meek's ability checks the power of the other creature only as it enters. If that creature's power is 2 or less, the ability will trigger. Once the ability triggers, raising that creature's power above 2 won't affect that ability. Similarly, reducing the creature's power to 2 or less after it enters won't cause the ability to trigger.
+  - *2025-01-24* — While resolving the triggered ability of Mentor of the Meek, you can't pay {1} multiple times to draw more than one card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/170/mentor-of-the-meek) · oracle_id `b9f4f96b-6e54-4fe6-8df7-623e0fc72409` · printing: HOC #170 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mentor's Guidance
 
@@ -2785,7 +2799,11 @@
 - **Flavor text** (DSC printing):
   > *To weary wanderers, trapped and lost amid Duskmourn's labyrinthine halls, her gifts are a welcome respite from meals of boiled ear-fungus, crickets, and the Floodpits' bizarre aquatic creatures.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #837 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/68/mesa-enchantress) · oracle_id `8f4b8a19-72f4-48ed-ac05-62a7c7525797` · printing: DSC #68 (2024-09-27) · [rulings](https://api.scryfall.com/cards/c4f9e9fc-8b89-40ee-9b20-10e4a23e6333/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-12-08* — Enchantments put onto the battlefield without being cast won't cause Mesa Enchantress's ability to trigger.
+  - *2022-12-08* — If the enchantment spell is countered, Mesa Enchantress's ability still resolves and causes you to draw a card.
+  - *2022-12-08* — Mesa Enchantress's ability will resolve before the spell that caused it to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/68/mesa-enchantress) · oracle_id `8f4b8a19-72f4-48ed-ac05-62a7c7525797` · printing: DSC #68 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mesa Falcon
 
@@ -3307,6 +3325,7 @@
   > *"My vibranium Hulkbuster absorbs and amplifies energy, Hulk. I'd advise you to calm down."*
   > *—T'Challa, the Black Panther*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #800 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/205/meteor-golem) · oracle_id `d9f11aa1-9219-42a8-85a9-a8f204160706` · printing: MSC #205 (2026-06-26) · [rulings](https://api.scryfall.com/cards/a1a1cfec-72ca-499b-b621-fa2d8502ea20/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Meteoric Mace
@@ -3419,6 +3438,7 @@
   > When this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #677 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/264/meticulous-archive) · oracle_id `ccfb8b4d-651c-418a-aa19-cb23105b3f2f` · printing: MKM #264 (2024-02-09) · [rulings](https://api.scryfall.com/cards/652236c2-84ef-45e4-b5fc-ed6170bc3d6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Meticulous Artisan

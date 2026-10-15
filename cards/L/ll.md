@@ -118,6 +118,7 @@
 - **Flavor text** (FDN printing):
   > *The elves of the Llanowar forest have defended it for generations. It is their sacred duty to keep outside influences from corrupting their ancestral home.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #56 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/227/llanowar-elves) · oracle_id `68954295-54e3-4303-a6bc-fc4547a4e3a3` · printing: FDN #227 (2024-11-15) · [rulings](https://api.scryfall.com/cards/6a0b230b-d391-4998-a3f7-7b158a0ec2cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Llanowar Empath
@@ -291,7 +292,10 @@
   > *"The sylex blast marked not only the end of the war, but the end of Dominaria as most knew it."*
   > *—\*The Antiquities War\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #140 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/383/llanowar-wastes) · oracle_id `32116127-cf96-4a1b-8896-a1ebc087b597` · printing: SOC #383 (2026-04-24) · [rulings](https://api.scryfall.com/cards/266316d3-3bbc-4283-aab8-69629855909f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-06-22* — Like most lands, each land in this cycle is colorless. The damage dealt to you is dealt by a colorless source.
+  - *2015-06-22* — The damage dealt to you is part of the second mana ability. It doesn't use the stack and can't be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/383/llanowar-wastes) · oracle_id `32116127-cf96-4a1b-8896-a1ebc087b597` · printing: SOC #383 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Llawan, Cephalid Empress
 

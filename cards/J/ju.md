@@ -581,6 +581,7 @@
 - **Flavor text** (TDM printing):
   > *Long-standing disagreements between the Sultai and Abzan about how to honor their dead have led to rare but fierce skirmishes.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #798 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/258/jungle-hollow) · oracle_id `6de714e1-446d-4fb9-9e3d-bcd3ec6af9ca` · printing: TDM #258 (2025-04-11) · [rulings](https://api.scryfall.com/cards/ea13440b-3f7b-4182-9541-27c1fa3121e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jungle Lion
@@ -616,6 +617,7 @@
 - **Flavor text** (ECC printing):
   > *On Naya, ambition and treachery are scarce, hunted nearly to extinction by the awe owed to terrestrial gods.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #324 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/154/jungle-shrine) · oracle_id `2e69537c-c898-4e13-a72d-ce3957a90304` · printing: ECC #154 (2026-01-23) · [rulings](https://api.scryfall.com/cards/0b1a84b6-4202-4413-80ed-4142c51e619a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jungle Troll

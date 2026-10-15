@@ -107,7 +107,9 @@
   > {T}: Add {C}{C}{C}.
   > {3}: Untap this artifact.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #564 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/232/basalt-monolith) · oracle_id `6b8cf2a0-b045-4d91-9d91-c602d40c6237` · printing: 2XM #232 (2020-08-07) · [rulings](https://api.scryfall.com/cards/f79de5e7-1545-420c-bfe1-ee2444fca85b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — Basalt Monolith's last ability can untap it as often as you can pay for it. If you believe you've found a way to generate an unbounded amount of mana with it, you're probably right.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/232/basalt-monolith) · oracle_id `6b8cf2a0-b045-4d91-9d91-c602d40c6237` · printing: 2XM #232 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basalt Ravager
 
@@ -281,6 +283,7 @@
   > Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #254 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/669/basilisk-collar) · oracle_id `f5f4dd28-f4ae-4d39-b9b8-6ebfd63c93fe` · printing: FDN #669 (2024-11-15) · [rulings](https://api.scryfall.com/cards/7b36fba7-71f7-4b7f-bde5-b3a9752ad21c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basilisk Gate
@@ -508,7 +511,11 @@
 - **Flavor text** (TLE printing):
   > *Brave soldier boy comes marching home.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #331 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/160/bastion-of-remembrance) · oracle_id `c7f33cea-2ec8-4081-9208-a5b1d86721b3` · printing: TLE #160 (2025-11-21) · [rulings](https://api.scryfall.com/cards/6fe6ccad-e303-48f9-9dfa-0db7c1878031/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-04-17* — If one or more creatures you control die at the same time that Bastion of Remembrance leaves the battlefield, its last ability triggers for each of those creatures.
+  - *2020-04-17* — If your life total is brought to 0 or less at the same time that creatures you control are dealt lethal damage, you lose the game before the last ability goes on the stack.
+  - *2020-04-17* — In a Two-Headed Giant game, Bastion of Remembrance's last ability causes the opposing team to lose 2 life and you to gain 1 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/160/bastion-of-remembrance) · oracle_id `c7f33cea-2ec8-4081-9208-a5b1d86721b3` · printing: TLE #160 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bastion Protector
 

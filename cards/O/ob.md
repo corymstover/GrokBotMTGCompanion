@@ -225,7 +225,9 @@
   > *"The enemy has been destroyed, sir. So have the forest, the city, your palace, your dog . . ."*
   > *—Keldon soldier*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9576 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/8ed/204/obliterate) · oracle_id `47496941-8007-45a0-a981-76c683cbddc1` · printing: 8ED #204 (2003-07-28) · [rulings](https://api.scryfall.com/cards/c85f9623-5900-473c-a3b1-f98473b9a545/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Counterspells can be cast that target it, but when they resolve they simply don’t counter it since it can’t be countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/8ed/204/obliterate) · oracle_id `47496941-8007-45a0-a981-76c683cbddc1` · printing: 8ED #204 (2003-07-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Obliterating Bolt
 

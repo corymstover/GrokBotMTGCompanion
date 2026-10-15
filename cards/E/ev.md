@@ -90,6 +90,7 @@
   > *"Abandon ship! No, grab the treasure first!"*
   > *—Admiral Beckett Brass*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1898 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/156/evacuation) · oracle_id `fdd94383-b573-439a-8e1c-925af887c5a6` · printing: LCC #156 (2023-11-17) · [rulings](https://api.scryfall.com/cards/b11037bc-e719-461e-a89e-9c026dfd9fd4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Evanescent Intellect
@@ -359,7 +360,15 @@
   > {T}: Add {C} for each charge counter on this artifact.
 - **Keywords:** Multikicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #252 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/137/everflowing-chalice) · oracle_id `0a79237e-0811-4a8a-bd4d-db3ca91bff22` · printing: EOC #137 (2025-08-01) · [rulings](https://api.scryfall.com/cards/e4ed0052-d6dd-4f69-8313-10863baefac9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-03-19* — You can cast Everflowing Chalice without kicking it at all if you wish. However, if Everflowing Chalice has no charge counters on it, activating its last ability won't produce any mana.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/137/everflowing-chalice) · oracle_id `0a79237e-0811-4a8a-bd4d-db3ca91bff22` · printing: EOC #137 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Everglades
 
@@ -829,7 +838,17 @@
   > *"To care for yourself, cultivate the world. To care for the world, cultivate yourself."*
 - **Keywords:** Proliferate, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #402 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/105/evolution-sage) · oracle_id `b45fdeab-00cc-4422-af9f-66f30a880a7c` · printing: ECC #105 (2026-01-23) · [rulings](https://api.scryfall.com/cards/1d58d08d-cd62-416d-8d8e-7d9c56d5c4da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/105/evolution-sage) · oracle_id `b45fdeab-00cc-4422-af9f-66f30a880a7c` · printing: ECC #105 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Evolution Vat
 
@@ -914,6 +933,7 @@
   > *"The mechanisms of evolution do their work upon the Savage Land, as they do everywhere. I only hasten the process."*
   > *—High Evolutionary, Herbert Wyndham*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/240/evolving-wilds) · oracle_id `a75445d3-1303-4bb5-89ad-26ea93fecd48` · printing: MSC #240 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c0318a48-30e4-4ef7-be3d-5e561c5ce428/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Evra, Halcyon Witness

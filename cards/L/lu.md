@@ -1247,6 +1247,7 @@
   > When this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #730 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/263/lush-portico) · oracle_id `d51831b1-7394-456e-a1de-6787a59f5932` · printing: MKM #263 (2024-02-09) · [rulings](https://api.scryfall.com/cards/c17816e8-28b1-4295-a637-efb0e5c18873/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lust for War
@@ -1429,4 +1430,6 @@
   > *"Doom doesn't demand adulation! The people simply take it upon themselves to recognize greatness."*
   > *—Doctor Doom*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #161 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/252/luxury-suite) · oracle_id `819e1765-8325-4e6f-89c1-63ea86de369f` · printing: MSC #252 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3c409d1e-f634-44a2-8fcf-dcdcb0babc3f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-06-08* — If you began the game with two or more opponents but now only have one opponent left, these lands enter the battlefield tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/252/luxury-suite) · oracle_id `819e1765-8325-4e6f-89c1-63ea86de369f` · printing: MSC #252 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

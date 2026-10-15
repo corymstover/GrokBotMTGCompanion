@@ -269,7 +269,14 @@
   > {T}: Add {G}{G}. You gain 2 life.
   > Whenever a nontoken creature you control enters, put a +1/+1 counter on it and draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #228 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/294/the-great-henge) · oracle_id `78427103-9543-41fb-b6d4-72963fe87275` · printing: CMM #294 (2023-08-04) · [rulings](https://api.scryfall.com/cards/6340e0f3-7f9c-4d71-8daf-e1be5505eb5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-10-02* — Once The Great Henge's last ability has triggered, you'll draw a card even if you can't put a +1/+1 counter on the creature for some reason (most likely because it has left the battlefield).
+  - *2025-10-02* — Once you announce that you're casting a spell, no player may take actions until the spell has been paid for. Notably, opponents can't try to change by how much The Great Henge's cost is reduced.
+  - *2025-10-02* — Once you determine the cost to cast The Great Henge, you may activate mana abilities to pay that cost. If the greatest power among creatures you control changes while activating mana abilities, the cost to cast The Great Henge remains what you previously determined.
+  - *2025-10-02* — The cost reduction ability reduces only the generic mana in The Great Henge's cost. The colored mana must still be paid.
+  - *2025-10-02* — The first step of casting a spell is to move it to the stack. If this causes the greatest power among creatures you control to change, that new power will be used to determine the cost reduction.
+  - *2025-10-02* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/294/the-great-henge) · oracle_id `78427103-9543-41fb-b6d4-72963fe87275` · printing: CMM #294 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Great Juggernaut
 

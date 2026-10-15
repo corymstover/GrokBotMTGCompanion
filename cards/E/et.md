@@ -80,7 +80,15 @@
   > *The contagion spreads and the Multiverse quakes.*
 - **Keywords:** Indestructible, Transform, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #812 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/137/etali-primal-conqueror-etali-primal-sickness) · oracle_id `7514e401-7aa1-405d-9f7a-312b4e630cc2` · printing: MOM #137 (2023-04-21) · [rulings](https://api.scryfall.com/cards/95c14c4d-6c16-4826-8d93-d89ad04aee09/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-04-14* — Any cards not cast, including land cards, remain in exile. They can’t be cast on later turns.
+  - *2023-04-14* — If an exiled card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2023-04-14* — If you cast a card “without paying its mana cost,” you can’t pay any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, those must be paid to cast the card.
+  - *2023-04-14* — If you cast any of the exiled cards, you do so as part of the resolution of the triggered ability. You can’t wait to cast them later in the turn. Timing restrictions based on a card’s type are ignored.
+  - *2023-04-14* — If you cast more than one of the exiled cards, you choose the order in which to cast them. A spell you cast this way can be the target of a later spell you cast this way. However, permanent spells cast this way won’t resolve until you’re done casting spells, so the permanents they become can’t be the target of spells cast this way. For example, if you exile Twincast and Lightning Strike, you can cast Lightning Strike and then cast Twincast targeting it; but if you exile a creature card and an Aura card, you can’t cast that Aura targeting that creature.
+  - *2023-04-14* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any spells or permanents you control from Etali’s ability are exiled.
+  - *2023-04-14* — Losing the game because a player (preferably an opponent) has ten or more poison counters is a rule of the game. Etali, Primal Sickness doesn’t have to still be on the battlefield when someone (preferably an opponent) gets their tenth poison counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/137/etali-primal-conqueror-etali-primal-sickness) · oracle_id `7514e401-7aa1-405d-9f7a-312b4e630cc2` · printing: MOM #137 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Etali, Primal Storm
 
@@ -92,7 +100,15 @@
 - **Flavor text** (FDN printing):
   > *The storm rages and the earth breaks.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #279 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/194/etali-primal-storm) · oracle_id `078def07-ae5d-4591-8db6-d156834aab97` · printing: FDN #194 (2024-11-15) · [rulings](https://api.scryfall.com/cards/b6af9894-95b5-4c8e-902f-a9ba70f02e4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-03-19* — Any cards not cast, including land cards, remain in exile. They can't be cast on later turns, even if Etali attacks again.
+  - *2021-03-19* — Because all attacking creatures are chosen at once, a creature cast this way can't attack during the same combat as Etali, even if it has haste.
+  - *2021-03-19* — If an exiled card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2021-03-19* — If you cast a card "without paying its mana cost," you can't pay any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, those must be paid to cast the card.
+  - *2021-03-19* — If you cast any of the exiled cards, you do so as part of the resolution of the triggered ability. You can't wait to cast them later in the turn. Timing permissions based on a card's type are ignored, and the spells resolve before blockers are declared.
+  - *2021-03-19* — If you cast more than one of the exiled cards, you choose the order in which to cast them. A spell you cast this way can be the target of a later spell you cast this way. However, permanent spells cast this way won't resolve until you're done casting spells, so the permanents they become can't be the target of spells cast this way. For example, if you exile Twincast and Lightning Strike, you can cast Lightning Strike and then cast Twincast targeting it; but if you exile a creature card and an Aura card, you can't cast that Aura targeting that creature.
+  - *2021-03-19* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any spells or permanents you control from Etali's ability are exiled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/194/etali-primal-storm) · oracle_id `078def07-ae5d-4591-8db6-d156834aab97` · printing: FDN #194 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Etali's Favor
 
@@ -363,7 +379,9 @@
 - **Flavor text** (CMM printing):
   > *She remembers every word spoken, from the hero's oath to the baby's cry.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #121 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/286/eternal-witness) · oracle_id `30b24e8e-3b0e-4d8e-90f3-f66eb7c1858c` · printing: CMM #286 (2023-08-04) · [rulings](https://api.scryfall.com/cards/39704000-65d3-4d39-849e-a3b617376bbc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — If a resolving spell puts Eternal Witness onto the battlefield, Eternal Witness's ability can target that card if it's put into your graveyard as it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/286/eternal-witness) · oracle_id `30b24e8e-3b0e-4d8e-90f3-f66eb7c1858c` · printing: CMM #286 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eternity Snare
 
@@ -626,7 +644,10 @@
 - **Flavor text** (EOC printing):
   > *The greatest masters of the craft abandon tools altogether, shaping metal with hand and mind alone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #415 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/72/etherium-sculptor) · oracle_id `96b87445-6362-4a17-91b2-cbf203fd03fd` · printing: EOC #72 (2025-08-01) · [rulings](https://api.scryfall.com/cards/b0556f20-1ea8-4ab5-9a09-dec9959f017b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-10-01* — This effect can reduce only the generic portion of the artifact spell's total cost.
+  - *2008-10-01* — This effect doesn't change the mana cost or mana value of an artifact spell. Rather, it reduces the total cost of the spell, which is the amount you actually pay while casting it. The total cost takes into account additional or alternative costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/72/etherium-sculptor) · oracle_id `96b87445-6362-4a17-91b2-cbf203fd03fd` · printing: EOC #72 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Etherium Spinner
 

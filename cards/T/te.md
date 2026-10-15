@@ -609,7 +609,10 @@
   > *"We move because the earth does."*
   > *—Bruse Tarl, Goma Fada nomad*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4187 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c14/313/tectonic-edge) · oracle_id `4927150d-7ff6-4232-b20e-d2ea245ac710` · printing: C14 #313 (2014-11-07) · [rulings](https://api.scryfall.com/cards/94b9d7af-3e6f-4227-bb7d-a17d6f250535/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2010-03-01* — Assuming you can activate Tectonic Edge’s second ability, you can target any nonbasic land with it (not just one controlled by an opponent that controls four or more lands).
+  - *2010-03-01* — Tectonic Edge’s second ability checks how many lands an opponent controls only at the time you activate the ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c14/313/tectonic-edge) · oracle_id `4927150d-7ff6-4232-b20e-d2ea245ac710` · printing: C14 #313 (2014-11-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tectonic Fiend
 
@@ -833,7 +836,11 @@
   > *"Fine, you know more than me. But do you have to be such a show-off about it?"*
   > *—Chandra Nalaar, to Teferi*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #588 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/119/teferis-ageless-insight) · oracle_id `1c9e1f75-73f0-4846-b53f-458a0984b1bb` · printing: MKC #119 (2024-02-09) · [rulings](https://api.scryfall.com/cards/b1a32b7c-9f26-4504-9f8d-379164d69346/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-06-23* — Because Teferi's Ageless Insight is legendary, it's unlikely that one player will control two. However, if that happens, each card that player would draw after the first will result in four cards being drawn. If they control three, they draw eight cards, and so on.
+  - *2020-06-23* — If a spell or ability causes you to put a card into your hand without specifically using the word "draw," it's not a card drawn.
+  - *2020-06-23* — If two or more replacement effects would apply to a card-drawing event, the player drawing the card chooses the order in which to apply them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/119/teferis-ageless-insight) · oracle_id `1c9e1f75-73f0-4846-b53f-458a0984b1bb` · printing: MKC #119 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Teferi's Care
 
@@ -943,7 +950,35 @@
   > Until your next turn, your life total can't change and you gain protection from everything. All permanents you control phase out. (While they're phased out, they're treated as though they don't exist. They phase in before you untap during your untap step.)
   > Exile Teferi's Protection.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #109 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/32/teferis-protection) · oracle_id `0d4ecdb1-ec90-497f-a7a4-1c68092b8757` · printing: 2X2 #32 (2022-07-08) · [rulings](https://api.scryfall.com/cards/483fa1cb-1e35-44f2-a143-98c0f107f5ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (27):
+  - *2017-08-25* — ---------- The following rulings focus on the "protection from" keyword ----------
+  - *2017-08-25* — ---------- The following rulings focus on the phasing keyword ----------
+  - *2017-08-25* — ---------- The following rulings focus on what it means if your life total can't change ----------
+  - *2017-08-25* — A permanent phasing out causes a spell or ability on the stack to have an illegal target if it targets that permanent. As a spell or ability tries to resolve, if all its targets are illegal, that spell or ability doesn't resolve and none of its effects happen, including effects unrelated to the target. If at least one target is still legal, the spell or ability does as much as it can to the remaining legal targets, and its other effects still happen.
+  - *2017-08-25* — Any continuous effects with a "for as long as" duration such as that of Mathas, Fiend Seeker ignore phased-out objects. Any such effects will expire if their conditions are no longer met after ignoring the phased-out objects.
+  - *2017-08-25* — Any creatures that phase in under your control as your next untap step begins will be able to attack and pay a cost of {T} during that turn.
+  - *2017-08-25* — Any one-shot effects that are waiting "until [this] leaves the battlefield," such as that of Banishing Light, won't happen when a permanent phases out.
+  - *2017-08-25* — Choices made for permanents as they entered the battlefield are remembered when they phase in.
+  - *2017-08-25* — Each Aura and Equipment that phases out attached to a permanent that's phasing out phases in with that permanent and still attached to it.
+  - *2017-08-25* — Each Aura and Equipment you control attached to a permanent that isn't phasing out phases in attached to that permanent if it can still be attached to that permanent. If not, it phases in unattached. An Aura that phases in unattached will be put into its owner's graveyard as a state-based action. The same is true with Auras attached to players.
+  - *2017-08-25* — Effects that replace an event with having you gain life (like Words of Worship's effect does) or having you lose life will apply and end up replacing the event with nothing.
+  - *2017-08-25* — Effects that would replace having you gain life with some other event won't be able to be applied because it's impossible for you to gain life. The same is true for effects that would replace having you lose life with some other event.
+  - *2017-08-25* — Gaining protection from everything causes a spell or ability on the stack to have an illegal target if it targets you. As a spell or ability tries to resolve, if all its targets are illegal, that spell or ability doesn't resolve and none of its effects happen, including effects unrelated to the target. If at least one target is still legal, the spell or ability does as much as it can to the remaining legal targets, and its other effects still happen.
+  - *2017-08-25* — If a cost includes causing you to gain life (like the alternative cost of an opponent's Invigorate does), that cost can't be paid.
+  - *2017-08-25* — If a player has protection from everything, it means three things: 1) All damage that would be dealt to that player is prevented. 2) Auras can't be attached to that player. 3) That player can't be the target of spells or abilities.
+  - *2017-08-25* — If a token is phased out, it will phase in as your next untap step begins. This is a change from previous rules.
+  - *2017-08-25* — If an effect would cause you to exchange life totals with another player, the exchange won't happen. Neither player's life total changes.
+  - *2017-08-25* — If an effect would set your life total to a certain number that's different than your current life total, that part of the effect won't do anything.
+  - *2017-08-25* — If you gain control of another player's permanent and it phases out, if the duration of the control-change effect expires before it phases in, that permanent phases in under that other player's control as your next untap step begins. If you leave the game before your next untap step, it phases in as the next untap step begins after your turn would have begun.
+  - *2017-08-25* — If your untap step is somehow skipped as your next turn begins, your phased-out permanents won't phase in until the next untap step you actually have, but you'll no longer have protection from everything and your life total can change again.
+  - *2017-08-25* — Nothing other than the specified events are prevented or illegal. An effect that doesn't target you could still cause you to discard cards, for example. Creatures can still attack you while you have protection from everything, although combat damage that they would deal to you will be prevented.
+  - *2017-08-25* — Permanents that phase out with counters phase in with those counters.
+  - *2017-08-25* — Phasing out doesn't cause any "leaves the battlefield" abilities to trigger. Similarly, phasing in won't cause any "enters" abilities to trigger.
+  - *2017-08-25* — Protection from everything will usually prevent damage if it would be dealt to you, but some damage can't be prevented. In this case, because your life total also can't change, that damage has any other effects that it may have aside from causing you to lose that much life (such as effects from lifelink or infect) and triggers and effects can see that damage was dealt even though your life total didn't change.
+  - *2017-08-25* — Spells and abilities that would normally cause you to gain or lose life still resolve while your life total can't change, but the life-gain or life-loss part simply has no effect.
+  - *2017-08-25* — While a permanent is phased out, it's treated as though it doesn't exist. It can't be the target of spells or abilities, its static abilities have no effect on the game, its triggered abilities can't trigger, it can't attack or block, and so on.
+  - *2017-08-25* — You can't pay a cost that includes the payment of any amount of life other than 0 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/32/teferis-protection) · oracle_id `0d4ecdb1-ec90-497f-a7a4-1c68092b8757` · printing: 2X2 #32 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Teferi's Protege
 
@@ -1683,6 +1718,7 @@
   > Remove this card from your deck before playing if you're not playing for ante.
   > {T}, Sacrifice this creature: Target opponent may pay 10 life. If that player doesn't, they reveal a card at random from their hand. Exchange ownership of the revealed card and Tempest Efreet. Put the revealed card into your hand and Tempest Efreet from anywhere into that player's graveyard. This change in ownership is permanent.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/4ed/225/tempest-efreet) · oracle_id `272016e1-df1e-4376-9851-af8b1ecba2f4` · printing: 4ED #225 (1995-04-01) · [rulings](https://api.scryfall.com/cards/c2ea6dfe-64d6-451a-bd34-31546996e711/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tempest Hart // Scan the Clouds
@@ -1844,7 +1880,11 @@
 - **Flavor text** (TRK printing):
   > *The Edo view their homeworld as a paradise, though outsiders find their strict justice system senselessly brutal.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #81 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/trk/301/temple-garden) · oracle_id `f413a83d-a40d-434c-b20a-4c707c0527fa` · printing: TRK #301 (2026-11-13) · [rulings](https://api.scryfall.com/cards/b9b0589d-f327-46a7-8bac-06b7654c547a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-10-05* — Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
+  - *2025-11-17* — If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
+  - *2025-11-17* — This land has two basic land types. It's not basic, so cards such as Tend the Sprigs can't find it, but it does have the appropriate land types for effects such as that of Great Arashin City (from the Tarkir: Dragonstorm release).
+- **Source flags:** [Scryfall](https://scryfall.com/card/trk/301/temple-garden) · oracle_id `f413a83d-a40d-434c-b20a-4c707c0527fa` · printing: TRK #301 (2026-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Temple of Abandon
 
@@ -1856,7 +1896,12 @@
   > {T}: Add {R} or {G}.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #548 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/400/temple-of-abandon) · oracle_id `3baa8e38-ef93-435d-b63e-f781d5bfcc68` · printing: TDC #400 (2025-04-11) · [rulings](https://api.scryfall.com/cards/d2ce0759-6b24-41a6-8a24-16cf44dfc162/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-09-15* — Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
+  - *2013-09-15* — When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
+  - *2013-09-15* — You choose how to order cards returned to your library after scrying no matter where you put them.
+  - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/400/temple-of-abandon) · oracle_id `3baa8e38-ef93-435d-b63e-f781d5bfcc68` · printing: TDC #400 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Temple of Deceit
 
@@ -1868,7 +1913,12 @@
   > {T}: Add {U} or {B}.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #360 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/697/temple-of-deceit) · oracle_id `33b9b3bd-33ca-46f3-b8bb-a978bc3d1085` · printing: FDN #697 (2024-11-15) · [rulings](https://api.scryfall.com/cards/e18748ce-e52e-4cd1-89d4-cd2578a0d574/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-09-15* — Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
+  - *2013-09-15* — When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
+  - *2013-09-15* — You choose how to order cards returned to your library after scrying no matter where you put them.
+  - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/697/temple-of-deceit) · oracle_id `33b9b3bd-33ca-46f3-b8bb-a978bc3d1085` · printing: FDN #697 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Temple of Enlightenment
 
@@ -1880,7 +1930,12 @@
   > {T}: Add {W} or {U}.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #320 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/186/temple-of-enlightenment) · oracle_id `89f43e27-790b-4ca1-8ba7-0882b31e0783` · printing: EOC #186 (2025-08-01) · [rulings](https://api.scryfall.com/cards/dd139d4d-3a40-4015-93de-c838c64156c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-09-15* — Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
+  - *2013-09-15* — When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
+  - *2013-09-15* — You choose how to order cards returned to your library after scrying no matter where you put them.
+  - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/186/temple-of-enlightenment) · oracle_id `89f43e27-790b-4ca1-8ba7-0882b31e0783` · printing: EOC #186 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Temple of Epiphany
 
@@ -1892,6 +1947,7 @@
   > {T}: Add {U} or {R}.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #295 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/412/temple-of-epiphany) · oracle_id `79f94050-d850-41ca-b1db-5ae0cf743f0a` · printing: SOC #412 (2026-04-24) · [rulings](https://api.scryfall.com/cards/cc63cd97-de9e-4d31-babb-aaad1277169e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Temple of Khonshu
@@ -1916,6 +1972,7 @@
   > {T}: Add {B} or {G}.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #377 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/413/temple-of-malady) · oracle_id `dc55421f-dee8-4263-9df0-2365df5f14bb` · printing: SOC #413 (2026-04-24) · [rulings](https://api.scryfall.com/cards/1ca36218-db87-4e44-8606-2a516504ed20/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Temple of Malice
@@ -1928,7 +1985,12 @@
   > {T}: Add {B} or {R}.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #462 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/701/temple-of-malice) · oracle_id `7c439c18-31dc-41fe-b03d-3fca06e6fc0b` · printing: FDN #701 (2024-11-15) · [rulings](https://api.scryfall.com/cards/d78eccc4-1500-43f1-94f5-b39c160b6381/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-09-15* — Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
+  - *2013-09-15* — When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
+  - *2013-09-15* — You choose how to order cards returned to your library after scrying no matter where you put them.
+  - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/701/temple-of-malice) · oracle_id `7c439c18-31dc-41fe-b03d-3fca06e6fc0b` · printing: FDN #701 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Temple of Mystery
 
@@ -1940,7 +2002,12 @@
   > {T}: Add {G} or {U}.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #335 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/414/temple-of-mystery) · oracle_id `7e26f0b7-20e6-46d5-8130-d98c14d6aa29` · printing: SOC #414 (2026-04-24) · [rulings](https://api.scryfall.com/cards/258077cf-edef-40fe-ab46-03c965ebe990/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-09-15* — Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
+  - *2013-09-15* — When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
+  - *2013-09-15* — You choose how to order cards returned to your library after scrying no matter where you put them.
+  - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/414/temple-of-mystery) · oracle_id `7e26f0b7-20e6-46d5-8130-d98c14d6aa29` · printing: SOC #414 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Temple of Plenty
 
@@ -1952,7 +2019,12 @@
   > {T}: Add {G} or {W}.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #507 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/405/temple-of-plenty) · oracle_id `e521322b-0e83-458c-8936-7021a80ee279` · printing: TDC #405 (2025-04-11) · [rulings](https://api.scryfall.com/cards/de1f7e5e-a503-4f99-91a1-2fdabb7d5e89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-09-15* — Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
+  - *2013-09-15* — When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
+  - *2013-09-15* — You choose how to order cards returned to your library after scrying no matter where you put them.
+  - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/405/temple-of-plenty) · oracle_id `e521322b-0e83-458c-8936-7021a80ee279` · printing: TDC #405 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Temple of Silence
 
@@ -1964,7 +2036,12 @@
   > {T}: Add {W} or {B}.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #308 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/415/temple-of-silence) · oracle_id `e6e6fce8-0f6a-4b84-865e-d4e4a4182f9f` · printing: SOC #415 (2026-04-24) · [rulings](https://api.scryfall.com/cards/f7d3770f-cde6-4e29-8cbf-fe841634a5d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-09-15* — Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
+  - *2013-09-15* — When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
+  - *2013-09-15* — You choose how to order cards returned to your library after scrying no matter where you put them.
+  - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/415/temple-of-silence) · oracle_id `e6e6fce8-0f6a-4b84-865e-d4e4a4182f9f` · printing: SOC #415 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Temple of the Dragon Queen
 
@@ -1986,6 +2063,7 @@
 - **Flavor text** (SOC printing):
   > *Those who bring nothing to the temple take nothing away.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #84 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/416/temple-of-the-false-god) · oracle_id `cfdd5dc6-593e-495a-8cfe-3a56b3c4c7df` · printing: SOC #416 (2026-04-24) · [rulings](https://api.scryfall.com/cards/1024f555-e0d7-48ac-b86e-c87290eac832/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Temple of Triumph
@@ -1998,7 +2076,12 @@
   > {T}: Add {R} or {W}.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #317 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/417/temple-of-triumph) · oracle_id `6f0d94d9-64bb-4175-83bc-301e8f79f54f` · printing: SOC #417 (2026-04-24) · [rulings](https://api.scryfall.com/cards/d0e763f7-25b8-444f-8722-614297d0663f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-09-15* — Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
+  - *2013-09-15* — When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
+  - *2013-09-15* — You choose how to order cards returned to your library after scrying no matter where you put them.
+  - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/417/temple-of-triumph) · oracle_id `6f0d94d9-64bb-4175-83bc-301e8f79f54f` · printing: SOC #417 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Temple Thief
 
@@ -3102,6 +3185,7 @@
 - **Flavor text** (MSC printing):
   > *"I think, therefore I annihilate!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #226 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/189/terminate) · oracle_id `6257c2fd-005f-41e3-8a72-af76df1eb134` · printing: MSC #189 (2026-06-26) · [rulings](https://api.scryfall.com/cards/379ffc67-4142-4ead-a871-0f851523745e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Termination Facilitator
@@ -3249,6 +3333,7 @@
   > *"This is . . . I can't explain it. The opposite of all we know. A negative zone."*
   > *—Mister Fantastic, Reed Richards*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/273/terramorphic-expanse) · oracle_id `1bd3e453-aa21-4ee6-95c2-d6d920ee8e7a` · printing: MSC #273 (2026-06-26) · [rulings](https://api.scryfall.com/cards/a81f924b-0527-4311-8120-9bfff71524f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Terrapact Intimidator
@@ -3309,6 +3394,7 @@
 - **Flavor text** (EOE printing):
   > *For Eumidians, terraforming and evolution are one and the same. They grow as their planet grows, in lockstep coexistence.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #768 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/210/terrasymbiosis) · oracle_id `4ac94586-3ac7-4ade-af31-ad0d0e3ffc4a` · printing: EOE #210 (2025-08-01) · [rulings](https://api.scryfall.com/cards/26008c7d-5dbe-4da2-b475-4dd307e7bc68/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Terravore
@@ -3624,7 +3710,9 @@
   > Whenever another creature you control enters, this creature deals damage equal to that creature's power to any target.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #514 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/149/terror-of-the-peaks) · oracle_id `f8e17f4f-080d-4bba-bd05-ca27e94ccecc` · printing: OTJ #149 (2024-04-19) · [rulings](https://api.scryfall.com/cards/904ff94a-4db4-44a6-8593-89c32905b3fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-06-23* — The amount of damage Terror of the Peaks deals is the entering creature's power as the triggered ability resolves. If that creature leaves the battlefield before the ability resolves, use its power as it last existed on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/149/terror-of-the-peaks) · oracle_id `f8e17f4f-080d-4bba-bd05-ca27e94ccecc` · printing: OTJ #149 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Terror of Towashi
 

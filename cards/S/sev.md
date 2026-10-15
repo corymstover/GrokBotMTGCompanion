@@ -139,7 +139,19 @@
   > Flashback {4}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #341 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/170/sevinnes-reclamation) · oracle_id `1b9f9f5b-8712-4f00-90cb-1b7b9970eccc` · printing: SOC #170 (2026-04-24) · [rulings](https://api.scryfall.com/cards/8deab1ef-4219-4767-a3c4-b61250d0ebe0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2019-08-23* — If a card in a graveyard has {X} in its mana cost, X is considered to be 0.
+  - *2019-08-23* — If the target card is an illegal target by the time Sevinne's Reclamation tries to resolve, the spell doesn't resolve. You won't copy it if you cast it from a graveyard.
+  - *2019-08-23* — If you cast Sevinne's Reclamation from your graveyard, any abilities that trigger as the permanent card returns to the battlefield will resolve before the copy of Sevinne's Reclamation resolves but after new targets for the copy have been chosen.
+  - *2019-08-23* — The copy that Sevinne's Reclamation creates is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger. The copy wasn't cast from a graveyard, so it won't make another copy of itself.
+  - *2024-06-07* — A permanent card is an artifact, battle, creature, enchantment, land, or planeswalker card.
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/170/sevinnes-reclamation) · oracle_id `1b9f9f5b-8712-4f00-90cb-1b7b9970eccc` · printing: SOC #170 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sevinne, the Chronoclasm
 

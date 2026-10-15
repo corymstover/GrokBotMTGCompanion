@@ -885,7 +885,12 @@
   > *"Die. But die knowing that your pathetic life will yield a great bounty for me."*
   > *—Zul Ashur, lich lord*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #130 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/198/victimize) · oracle_id `240e85d3-e495-4877-8609-4b4056c402f7` · printing: TDC #198 (2025-04-11) · [rulings](https://api.scryfall.com/cards/ee008d81-df28-49a8-917d-44f66527e469/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-11-10* — As Victimize resolves, you must sacrifice a creature if able. You can't change your mind and choose not to sacrifice anything.
+  - *2020-11-10* — If one of the targeted creature cards is an illegal target (for instance, because it has left your graveyard before Victimize resolves), you'll still sacrifice a creature and put the other card onto the battlefield. If both are illegal targets, Victimize won't resolve. You won't sacrifice a creature.
+  - *2020-11-10* — The creature you sacrifice isn't chosen until Victimize resolves. You can't return the creature you sacrifice because it will still be on the battlefield at the time targets are chosen.
+  - *2020-11-10* — You must choose two targets. You can't cast Victimize targeting only one creature card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/198/victimize) · oracle_id `240e85d3-e495-4877-8609-4b4056c402f7` · printing: TDC #198 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Victim of Night
 
@@ -1515,7 +1520,9 @@
 - **Flavor text** (INR printing):
   > *"You were so eager to take and consume. Yet when asked to give, you refuse?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #204 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/137/village-rites) · oracle_id `365548fb-5acc-4a8a-b20b-26d28b7d029f` · printing: INR #137 (2025-01-24) · [rulings](https://api.scryfall.com/cards/42ed35e9-51cd-468a-86a9-9412553cf50d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-02-05* — You must sacrifice exactly one creature to cast this spell; you can't cast it without sacrificing a creature, and you can't sacrifice additional creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/137/village-rites) · oracle_id `365548fb-5acc-4a8a-b20b-26d28b7d029f` · printing: INR #137 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Villagers of Estwald // Howlpack of Estwald
 
@@ -1678,6 +1685,7 @@
 - **Oracle text:**
   > Destroy target permanent.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1161 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/294/vindicate) · oracle_id `63c1ac21-e3d8-40c2-8c09-3f31c52992ef` · printing: MH2 #294 (2021-06-18) · [rulings](https://api.scryfall.com/cards/683c4e13-525c-45c9-8832-bfe67965c34e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vindictive Flamestoker
@@ -1807,7 +1815,12 @@
 - **Flavor text** (SOC printing):
   > *A verdant paradox of primal logic.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #547 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/420/vineglimmer-snarl) · oracle_id `33f52df8-4b44-4422-8b0a-37fead9c894b` · printing: SOC #420 (2026-04-24) · [rulings](https://api.scryfall.com/cards/445bd162-b523-45f4-83d0-ffc702fc1fac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-04-16* — If a land card with an appropriate subtype is entering the battlefield from your hand at the same time as one of these lands, you may reveal the other land to have the "Snarl" enter untapped.
+  - *2021-04-16* — If an effect instructs you to put one of these lands onto the battlefield tapped, it will still enter the battlefield tapped even if you reveal a land card from your hand.
+  - *2021-04-16* — The "Snarl" itself doesn't have any land subtypes. You can't reveal one to satisfy the ability of another.
+  - *2021-04-16* — You may reveal any land card with either or both of the appropriate subtypes. It doesn't have to be a basic land card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/420/vineglimmer-snarl) · oracle_id `33f52df8-4b44-4422-8b0a-37fead9c894b` · printing: SOC #420 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vine Kami
 
@@ -2132,6 +2145,7 @@
 - **Flavor text** (SOC printing):
   > *Life and death mixing together, both ends of the same cycle giving rise to something else.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #724 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/421/viridescent-bog) · oracle_id `6bd6d259-1af7-4dff-a79c-48a616d2a36e` · printing: SOC #421 (2026-04-24) · [rulings](https://api.scryfall.com/cards/54d852fc-0f3a-4791-a147-b21ca6964763/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viridescent Wisps
@@ -2585,7 +2599,10 @@
   > *In matters of life and death, he trusts his gut.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #257 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/229/viscera-seer) · oracle_id `f82a4e85-526d-4456-b700-7760043a31be` · printing: SOC #229 (2026-04-24) · [rulings](https://api.scryfall.com/cards/f511830b-1c1f-4d30-aa5d-4314726d142e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2010-08-15* — If you sacrifice an attacking or blocking creature during the declare blockers step, it won't deal combat damage. If you wait until the combat damage step, but that creature is dealt lethal damage, it'll be destroyed before you get a chance to sacrifice it.
+  - *2010-08-15* — You can sacrifice Viscera Seer to activate its own ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/229/viscera-seer) · oracle_id `f82a4e85-526d-4456-b700-7760043a31be` · printing: SOC #229 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viscerid Armor
 
@@ -3085,7 +3102,13 @@
 - **Flavor text** (M21 printing):
   > *"Through the blood of the wicked, we shall be redeemed. Let us pray."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #489 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/127/vito-thorn-of-the-dusk-rose) · oracle_id `7336a541-3ae9-4ab2-acb8-f574c0a5b3a9` · printing: M21 #127 (2020-07-03) · [rulings](https://api.scryfall.com/cards/0fe79ee4-c3f3-4a6b-a967-203ca3b70ee5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-06-23* — Because Vito's first ability doesn't deal damage, you won't gain life when it resolves if Vito has lifelink.
+  - *2020-06-23* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Vito's first ability will trigger twice and you may choose a different opponent for each trigger. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2020-06-23* — If an ability triggers whenever an opponent loses life and causes you to gain life, such as the ability of Exquisite Blood, this will loop until either you win the game or a player takes an action to break the loop.
+  - *2020-06-23* — If you gain an amount of life "for each" of something, that life is gained as one event and Vito's first ability triggers only once.
+  - *2020-06-23* — In a Two-Headed Giant game, life gained by your teammate won't cause the ability to trigger, even though it caused your team's life total to increase.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/127/vito-thorn-of-the-dusk-rose) · oracle_id `7336a541-3ae9-4ab2-acb8-f574c0a5b3a9` · printing: M21 #127 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vitu-Ghazi Guildmage
 

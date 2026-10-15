@@ -176,6 +176,7 @@
   > *To most, the Nido Sanctuary is an office complex. To the Brokers, it's a vault of secrets.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #398 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/257/sparas-headquarters) · oracle_id `3123ec89-8e95-4761-ba17-747ec667509f` · printing: SNC #257 (2022-04-29) · [rulings](https://api.scryfall.com/cards/7363f1fb-9af3-4212-921f-d59533faf0e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spare Changeling
@@ -247,7 +248,17 @@
 - **Oracle text:**
   > You may have this creature enter as a copy of a creature or planeswalker you control, except it enters with an additional +1/+1 counter on it if it's a creature, it enters with an additional loyalty counter on it if it's a planeswalker, and it isn't legendary.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #378 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/62/spark-double) · oracle_id `8dcb35e5-ae44-455f-86e3-4a77d496ff34` · printing: RVR #62 (2024-01-12) · [rulings](https://api.scryfall.com/cards/c41b9ba2-0006-4d8e-b600-efe81ff5e0cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2019-05-03* — Any enters-the-battlefield abilities of the copied permanent will trigger when Spark Double enters the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the chosen permanent will also work.
+  - *2019-05-03* — If Spark Double somehow enters the battlefield at the same time as another permanent, it can’t become a copy of that permanent. You may choose only a creature or planeswalker that’s already on the battlefield.
+  - *2019-05-03* — If it copies a planeswalker, Spark Double enters with the appropriate number of loyalty counters as printed on the card plus one. If it copies a creature, Spark Double enters with a +1/+1 counter on it, plus any counters that will be put on it from abilities it copied and other abilities of other objects.
+  - *2019-05-03* — If the chosen permanent is a token, Spark Double copies the original characteristics of that token as stated by the effect that created the token. Spark Double doesn’t become a token in this case.
+  - *2019-05-03* — If the chosen permanent is copying something else (for example, if the chosen permanent is another Spark Double), then Spark Double enters the battlefield as whatever the chosen permanent copied.
+  - *2019-05-03* — If the copied permanent has {X} in its mana cost, X is considered to be 0.
+  - *2019-05-03* — If the copied permanent is affected by a type-changing effect, Spark Double may enter the battlefield with different permanent types than the copied permanent currently has. Use the characteristics of Spark Double as it enters the battlefield, not of the copied permanent, to determine whether it enters with an additional counter on it. Notably, if Spark Double copies a Gideon planeswalker that’s a creature because its loyalty ability caused it to become a planeswalker creature, Spark Double enters as a noncreature planeswalker and doesn’t get a +1/+1 counter. On the other hand, if Spark Double copies Gideon Blackblade during your turn, Spark Double enters as a planeswalker creature and gets both kinds of counters.
+  - *2019-05-03* — Spark Double copies exactly what was printed on the original permanent (unless that permanent is copying something else or is a token; see below). It doesn’t copy whether that permanent is tapped or untapped, whether it has any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+  - *2019-05-03* — Spark Double isn’t legendary if it copies a legendary permanent, and this exception is copiable. If something else copies Spark Double later, that copy also won’t be legendary. If you control two or more permanents with the same name but only one is legendary, the “legend rule” doesn’t apply.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/62/spark-double) · oracle_id `8dcb35e5-ae44-455f-86e3-4a77d496ff34` · printing: RVR #62 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spark Elemental
 

@@ -1664,7 +1664,9 @@
 - **Flavor text** (FIN printing):
   > *When darkness veils the world, four Warriors of Light shall come.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #698 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/289/starting-town) · oracle_id `d04e0975-f401-41b8-a9db-9bcf9cbbce66` · printing: FIN #289 (2025-06-13) · [rulings](https://api.scryfall.com/cards/fc7d1912-7e27-49ef-bd98-375d975a42b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/289/starting-town) · oracle_id `d04e0975-f401-41b8-a9db-9bcf9cbbce66` · printing: FIN #289 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Starting Town NPC
 

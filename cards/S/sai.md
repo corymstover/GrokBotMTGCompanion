@@ -115,7 +115,9 @@
 - **Flavor text** (CMM printing):
   > *"Industry without artistry is just a fancy way to fill the junkyard."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #814 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/118/sai-master-thopterist) · oracle_id `52241b9c-7a69-4176-9234-8bdab09d8e64` · printing: CMM #118 (2023-08-04) · [rulings](https://api.scryfall.com/cards/ad0b5c09-5075-408e-84c5-1095354ac53e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-07-13* — Sai's triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/118/sai-master-thopterist) · oracle_id `52241b9c-7a69-4176-9234-8bdab09d8e64` · printing: CMM #118 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saint Traft and Rem Karolus
 

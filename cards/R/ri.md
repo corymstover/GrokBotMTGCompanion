@@ -1779,6 +1779,7 @@
   > *As the monster lay dying, it stared into the eyes of the human who slew it. Decades later, it has yet to break its gaze.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #534 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/107/ripples-of-undeath) · oracle_id `2acf8e34-9215-4a72-a24f-09d3bdd0083a` · printing: MH3 #107 (2024-06-14) · [rulings](https://api.scryfall.com/cards/a201d1bc-e3fe-4f59-bd48-3683996ac308/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ripscale Predator
@@ -2187,6 +2188,7 @@
   > *"For every living person there are generations of dead. Which realm would you rather rule?"*
   > *—Liliana Vess*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #486 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/183/rise-of-the-dark-realms) · oracle_id `e5223a09-f732-4747-8914-e6546ab0ef4c` · printing: FDN #183 (2024-11-15) · [rulings](https://api.scryfall.com/cards/8645bf0c-631f-4003-bd24-3e069ae23513/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rise of the Deathbringer
@@ -2396,7 +2398,18 @@
 - **Flavor text** (LCC printing):
   > *"Control the Great Conduit? You might as well try to divert a river with your hands."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #242 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/254/rishkars-expertise) · oracle_id `97407cd0-2bd2-4074-94d3-4ec3d243fa78` · printing: LCC #254 (2023-11-17) · [rulings](https://api.scryfall.com/cards/efa9d2dc-b3b8-4475-bbfc-2db457ee4ffd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2017-02-09* — A card's mana value is determined solely by the mana symbols printed in its upper right corner. The mana value is the total amount of mana in that cost, regardless of color. For example, a card with mana cost {1}{U}{U} has mana value 3. Ignore any alternative costs, additional costs, cost increases, or cost reductions that could apply to it. A card with no mana cost has a mana value of 0.
+  - *2017-02-09* — Any triggered abilities that trigger while performing the Expertise spell's first effect won't be put onto the stack until after you're done casting your free spell. They're put onto the stack at the same time as any abilities that triggered while casting that spell regardless of the order in which those abilities triggered.
+  - *2017-02-09* — Effects that allow you to "cast" a card don't allow you to play a land card.
+  - *2017-02-09* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2017-02-09* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs, such as emerge costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Cathartic Reunion, you must pay those to cast the card.
+  - *2017-02-09* — If you control no creatures with power greater than 0 as Rishkar's Expertise resolves, you draw no cards, but you may cast a card with mana value 5 or less from your hand without paying its mana cost.
+  - *2017-02-09* — The greatest power among creatures you control is determined as Rishkar's Expertise resolves.
+  - *2017-02-09* — While you're casting your free spell, the Expertise spell is still on the stack. It will be put into its owner's graveyard after the free spell is cast. The free spell can't target the Expertise card in your graveyard. It can target the Expertise spell on the stack, but the Expertise spell will become an illegal target before the free spell resolves.
+  - *2017-02-09* — You may cast one of the cards drawn by Rishkar's Expertise's first effect while performing its second effect.
+  - *2017-04-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If an expertise spell allows you to cast a split card, you may cast either half or, if that split card has fuse, both halves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/254/rishkars-expertise) · oracle_id `97407cd0-2bd2-4074-94d3-4ec3d243fa78` · printing: LCC #254 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rising Miasma
 
@@ -2419,6 +2432,7 @@
 - **Flavor text** (LTR printing):
   > *Over the low hills the horns were sounding. Hastening down the long slopes were a thousand men on foot; their swords were in their hands.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #733 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/145/rising-of-the-day) · oracle_id `434a20f8-3f87-4004-9155-0f196fc2257e` · printing: LTR #145 (2023-06-23) · [rulings](https://api.scryfall.com/cards/d4fbcac6-8ac9-44a8-9d1a-03d0799ac253/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rising Populace
@@ -2534,6 +2548,7 @@
 - **Flavor text** (CSP printing):
   > *Deep beneath the ice, beneath the soil and the rock, Dominaria's fire still burned hot.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #646 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/96/rite-of-flame) · oracle_id `8a2e53f9-8100-488f-8504-b59e9bd1cc29` · printing: CSP #96 (2006-07-21) · [rulings](https://api.scryfall.com/cards/c062caf7-f0eb-44db-9f74-e6711a13fada/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rite of Harmony
@@ -3174,6 +3189,7 @@
   > *"While Loot's ability to predict Omenpaths is extraordinary, I'm more impressed by his unrelenting curiosity."*
   > *—Pia Nalaar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #839 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/260/riverpyre-verge) · oracle_id `510a6ac5-f098-4145-ac07-771b1b6f7cdf` · printing: DFT #260 (2025-02-14) · [rulings](https://api.scryfall.com/cards/57a93a71-d77c-417f-85d0-cd420f573331/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### River Serpent
@@ -3365,6 +3381,7 @@
 - **Flavor text** (ECC printing):
   > *Along the outer girders, in gold filigree, are inscribed the names of all those who fell to their deaths during construction.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #717 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/162/riveteers-overlook) · oracle_id `5548ff43-e5f6-4a63-8562-a2b1de06d6f5` · printing: ECC #162 (2026-01-23) · [rulings](https://api.scryfall.com/cards/65ce9590-87c0-4057-bddb-fadc0de552f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Riveteers Requisitioner

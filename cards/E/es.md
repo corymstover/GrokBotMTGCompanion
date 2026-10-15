@@ -192,7 +192,12 @@
   > *"I hear the sewers in Connecticut are really nice."*
   > *—Michelangelo*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #791 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/184/escape-tunnel) · oracle_id `0056fc91-4398-471c-b561-7ff99750ac8a` · printing: TMT #184 (2026-03-06) · [rulings](https://api.scryfall.com/cards/5df90940-15ea-418c-8547-6c75d69ec6d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-02-02* — If the target creature's power is increased to 3 or greater after Escape Tunnel's last ability is activated but before it resolves, the ability doesn't resolve. However, if instead the creature's power is increased to 3 or greater after the ability resolves, it still can't be blocked that turn.
+  - *2024-02-02* — Once a creature with power 2 or less has been blocked, Escape Tunnel's last ability won't cause it to become unblocked.
+  - *2026-01-27* — If the target creature's power is increased to 3 or greater after Escape Tunnel's last ability is activated but before it resolves, the ability doesn't resolve. However, if instead the creature's power is increased to 3 or greater after the ability resolves, it still can't be blocked that turn.
+  - *2026-01-27* — Once a creature with power 2 or less has been blocked, Escape Tunnel's last ability won't cause it to become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/184/escape-tunnel) · oracle_id `0056fc91-4398-471c-b561-7ff99750ac8a` · printing: TMT #184 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Escape Velocity
 
@@ -405,7 +410,11 @@
 - **Flavor text** (MH2 printing):
   > *The more Esper changes, the more he refuses to.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #80 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/12/esper-sentinel) · oracle_id `5def9f38-0a0b-4e8d-9f9d-29dcb46520b4` · printing: MH2 #12 (2021-06-18) · [rulings](https://api.scryfall.com/cards/f3537373-ef54-4578-9d05-6216420ee349/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-06-18* — If Esper Sentinel's has negative power when this ability resolves, then {X} is {0}. The opponent may still choose not to pay the cost if they want you to draw a card.
+  - *2021-06-18* — If a noncreature spell was already cast by an opponent the turn Esper Sentinel enters the battlefield, that opponent already cast their first noncreature spell this turn, and Esper Sentinel's ability won't trigger for that opponent that turn.
+  - *2021-06-18* — This ability checks Esper Sentinel's power when it resolves, not when the ability goes on the stack. If Esper Sentinel is no longer on the battlefield when it resolves, use the power it had the last time it was on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/12/esper-sentinel) · oracle_id `5def9f38-0a0b-4e8d-9f9d-29dcb46520b4` · printing: MH2 #12 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Esper Sojourners
 
@@ -761,7 +770,9 @@
   > *"Venturing beyond campus means learning how to deal with creatures not bound by university rules."*
   > *—Emil, Vastlands roamer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2645 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/47/essence-scatter) · oracle_id `46665089-aa3d-44c3-964d-6638dfbb5782` · printing: SOS #47 (2026-04-24) · [rulings](https://api.scryfall.com/cards/32840097-0531-4c43-b6a8-e76c17420b04/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — A "creature spell" is any spell with the card type creature, even if it has other types such as artifact or enchantment.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/47/essence-scatter) · oracle_id `46665089-aa3d-44c3-964d-6638dfbb5782` · printing: SOS #47 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Essence Sliver
 

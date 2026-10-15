@@ -360,6 +360,7 @@
 - **Flavor text** (CLU printing):
   > *Gruul territorial markings need not be legible. The blood, snot, and muck used to smear them are unmistakably Gruul.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #826 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/223/gruul-signet) · oracle_id `d36e0c9f-c025-4dfe-9644-9cad2461ce38` · printing: CLU #223 (2024-02-23) · [rulings](https://api.scryfall.com/cards/ed1adca8-9386-42b0-ac6b-699394ac7969/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gruul Spellbreaker
@@ -386,7 +387,9 @@
   > When this land enters, return a land you control to its owner's hand.
   > {T}: Add {R}{G}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #466 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/152/gruul-turf) · oracle_id `657243dd-e479-4f4b-99d2-09b55d833a35` · printing: ECC #152 (2026-01-23) · [rulings](https://api.scryfall.com/cards/f19d2b68-1415-4a0c-bb68-cfacb611c4d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/152/gruul-turf) · oracle_id `657243dd-e479-4f4b-99d2-09b55d833a35` · printing: ECC #152 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gruul War Chant
 

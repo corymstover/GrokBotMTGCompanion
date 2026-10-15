@@ -384,7 +384,15 @@
   > • Target creature gains hexproof and indestructible until end of turn.
 - **Keywords:** Escalate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #764 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/147/collective-resistance) · oracle_id `bffdfe7b-f17a-41b6-a460-80280fe497d4` · printing: MH3 #147 (2024-06-14) · [rulings](https://api.scryfall.com/cards/f260bd08-68b6-44f4-ace9-e298cb13d82e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-06-07* — If Collective Resistance is copied, the effect that creates the copy will usually allow you to choose new targets, but you can't choose new modes.
+  - *2024-06-07* — If an effect allows you to cast Collective Resistance without paying its mana cost, you'll still have to pay the escalate costs if you choose more than one mode.
+  - *2024-06-07* — If you chose more than one mode and the target of one of those modes becomes illegal, the other targets will still be affected. If all of the targets become illegal, Collective Resistance won't resolve.
+  - *2024-06-07* — No matter which combination of modes you choose, you always follow the instructions in the order they are written.
+  - *2024-06-07* — No player can cast spells or activate abilities in between the modes of a resolving spell. Any abilities that trigger won't be put onto the stack until Collective Resistance is done resolving.
+  - *2024-06-07* — You can't choose any one mode multiple times.
+  - *2024-06-07* — You choose all of your modes at once. You can't wait to perform one mode's actions and then decide to choose more modes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/147/collective-resistance) · oracle_id `bffdfe7b-f17a-41b6-a460-80280fe497d4` · printing: MH3 #147 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Collective Restraint
 
@@ -829,7 +837,11 @@
   > *"There's only one way to be sure it's really dead."*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #824 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/202/colossus-hammer) · oracle_id `8ec03b88-8d3a-4a32-8b7c-7da59b0c03d0` · printing: AFC #202 (2021-07-23) · [rulings](https://api.scryfall.com/cards/897a134e-7e61-4fe1-bbae-23ef1fe5c0cf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-07-12* — Colossus Hammer can be attached to a creature that didn't have flying to begin with. It just won't lose flying.
+  - *2019-07-12* — If an ability of the equipped creature states that it has flying "as long as" a particular condition is true, that condition becoming true will not cause that creature to gain flying. For example, if the equipped creature "has flying as long as it's attacking," it will not gain flying, even if it attacks after Colossus Hammer becomes attached to it.
+  - *2019-07-12* — If the equipped creature gains flying after Colossus Hammer became attached to it, it will keep flying.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/202/colossus-hammer) · oracle_id `8ec03b88-8d3a-4a32-8b7c-7da59b0c03d0` · printing: AFC #202 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Colossus of Akros
 

@@ -259,6 +259,7 @@
 - **Flavor text** (EOC printing):
   > *Left barren by the Brothers' War, it stands as a stark reminder of Dominaria's likely fate should the Coalition fail.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #143 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/147/adarkar-wastes) · oracle_id `d5ad26cc-2bdb-46b7-b8bf-dd099d5fa09b` · printing: EOC #147 (2025-08-01) · [rulings](https://api.scryfall.com/cards/42e0aa15-639a-4e88-9bd8-ce5e7c7d7649/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adarkar Windform
@@ -336,7 +337,13 @@
   > Whenever you attack, for each opponent, create a 1/1 white Human creature token that's tapped and attacking that player or a planeswalker they control.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #493 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/108/adeline-resplendent-cathar) · oracle_id `38515f89-348b-4cf3-b7bd-1f6fe4ce2fba` · printing: TDC #108 (2025-04-11) · [rulings](https://api.scryfall.com/cards/1de30c12-2011-495a-be25-f7a46b23e142/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-09-24* — Although the Human tokens created by the triggered ability are attacking, they were never declared as attacking creatures (for the purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2021-09-24* — Attacking with any creatures will cause Adeline's last ability to trigger. Adeline doesn't have to be among them.
+  - *2021-09-24* — The ability that defines Adeline's power works in all zones, not just the battlefield. As long as Adeline is on the battlefield (and still a creature), that ability will count Adeline itself.
+  - *2021-09-24* — Tokens will be created for each of your opponents, not just opponents that you attacked.
+  - *2021-09-24* — You choose whether each token is attacking that opponent or a planeswalker they control as those tokens enter the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/108/adeline-resplendent-cathar) · oracle_id `38515f89-348b-4cf3-b7bd-1f6fe4ce2fba` · printing: TDC #108 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adeliz, the Cinder Wind
 
@@ -545,7 +552,24 @@
   > Whenever a creature you control with the chosen name attacks, you may pay {W}. If you do, that creature gains indestructible until end of turn. (Damage and effects that say "destroy" don't destroy it.)
 - **Keywords:** Hidden agenda
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/1/adrianas-valor) · oracle_id `512a9ab9-ddd4-4872-b4f4-dee56f9f5575` · printing: CN2 #1 (2016-08-26) · [rulings](https://api.scryfall.com/cards/8bfd6889-90e2-49fe-bd30-7d850dc18db2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2016-08-23* — A conspiracy doesn't count as a card in your deck for purposes of meeting minimum deck size requirements. (In most drafts, the minimum deck size is 40 cards.)
+  - *2016-08-23* — A conspiracy with hidden agenda that has a triggered ability must be face up before that ability's trigger condition is met in order for it to trigger. Turning it face up afterward won't have any effect.
+  - *2016-08-23* — A conspiracy's static and triggered abilities function as long as that conspiracy is face-up in the command zone.
+  - *2016-08-23* — As a special action, you may turn a face-down conspiracy face up. You may do so any time you have priority. This action doesn't use the stack and can't be responded to. Once face up, the named card is revealed and the conspiracy's abilities will affect the game.
+  - *2016-08-23* — At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players.
+  - *2016-08-23* — At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players. Notably, you can't bluff conspiracies with hidden agenda by putting other cards into the command zone face down as the game starts.
+  - *2016-08-23* — Conspiracies are colorless, have no mana cost, and can't be cast as spells.
+  - *2016-08-23* — Conspiracies are never put into your deck. Instead, you put any number of conspiracies from your card pool into the command zone as the game begins. These conspiracies are face up unless they have hidden agenda, in which case they begin the game face down.
+  - *2016-08-23* — Conspiracies aren't legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft.
+  - *2016-08-23* — If you play multiple games after the draft, you can name a different card in each new game.
+  - *2016-08-23* — The last ability triggers once for each creature with the chosen name that attacks. You choose whether to pay {W} as the ability resolves. Notably, someone could respond to the ability and destroy the creature before it gains indestructible.
+  - *2016-08-23* — There are several ways to secretly name a card, including writing the name on a piece of paper that's kept with the face-down conspiracy. If you have multiple face-down conspiracies, you may name a different card for each one. It's important that each named card is clearly associated with only one of the conspiracies.
+  - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
+  - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+  - *2016-08-23* — You must name a Magic card. Notably, you can't name a token.
+  - *2016-08-23* — You name the card as the game begins, as you put the conspiracy into the command zone, not as you turn the face-down conspiracy face up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/1/adrianas-valor) · oracle_id `512a9ab9-ddd4-4872-b4f4-dee56f9f5575` · printing: CN2 #1 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adric, Mathematical Genius
 
@@ -691,7 +715,17 @@
 - **Flavor text** (CNS printing):
   > *"The beneficent council deems you worthy of favor. They hope this doesn't provoke envy from your peers."*
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/1/advantageous-proclamation) · oracle_id `86373537-7424-416a-8d89-cc38f6538458` · printing: CNS #1 (2014-06-06) · [rulings](https://api.scryfall.com/cards/f8c37fe8-43b3-454e-a70b-5b0d0f396a33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2014-05-29* — In Limited formats (including Conspiracy Draft), the minimum deck size is generally 40 cards. With Advantageous Proclamation, your Conspiracy Draft deck must contain at least 35 cards.
+  - *2014-05-29* — The effect of Advantageous Proclamation is cumulative. If you have two in your command zone to start the game, your minimum deck size is reduced by ten, and so on.
+  - *2016-08-23* — A conspiracy doesn't count as a card in your deck for purposes of meeting minimum deck size requirements. (In most drafts, the minimum deck size is 40 cards.)
+  - *2016-08-23* — A conspiracy's static and triggered abilities function as long as that conspiracy is face-up in the command zone.
+  - *2016-08-23* — Conspiracies are colorless, have no mana cost, and can't be cast as spells.
+  - *2016-08-23* — Conspiracies are never put into your deck. Instead, you put any number of conspiracies from your card pool into the command zone as the game begins. These conspiracies are face up unless they have hidden agenda, in which case they begin the game face down.
+  - *2016-08-23* — Conspiracies aren't legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft.
+  - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
+  - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/1/advantageous-proclamation) · oracle_id `86373537-7424-416a-8d89-cc38f6538458` · printing: CNS #1 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Advent of the Wurm
 

@@ -538,7 +538,10 @@
 - **Flavor text** (BIG printing):
   > *"You think because you've mapped the land, you own the land. You own an idea, nothing more."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #256 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/big/2/grand-abolisher) · oracle_id `c749f23c-40c0-4159-b84c-a70cbb062c14` · printing: BIG #2 (2024-04-19) · [rulings](https://api.scryfall.com/cards/ee793ed2-7d59-4640-8868-ad486600df2c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-09-22* — Grand Abolisher doesn't affect triggered abilities or static abilities.
+  - *2011-09-22* — Grand Abolisher doesn't stop your opponents from activating abilities of artifact, creature, or entorchantment cards in zones other than the battlefield (like cycling abilities, for example).
+- **Source flags:** [Scryfall](https://scryfall.com/card/big/2/grand-abolisher) · oracle_id `c749f23c-40c0-4159-b84c-a70cbb062c14` · printing: BIG #2 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grand Arbiter Augustin IV
 
@@ -834,7 +837,13 @@
   > *As the mother rewrites the fabric of reality, so too does the son.*
 - **Keywords:** Storm
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #729 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/803/grapeshot) · oracle_id `ebd2d760-5ad8-4027-b124-171822f3edfe` · printing: MSC #803 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e3e2d90a-3557-49d5-9986-cb50fd31f396/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-12-08* — A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won't affect the copies.
+  - *2022-12-08* — Spells cast from zones other than a player's hand and spells that were countered are counted by the storm ability.
+  - *2022-12-08* — The copies are put directly onto the stack. They aren't cast and won't be counted by other spells with storm cast later in the turn.
+  - *2022-12-08* — The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack.
+  - *2022-12-08* — You may choose new targets for any of the copies. You can make different choices for each copy.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/803/grapeshot) · oracle_id `ebd2d760-5ad8-4027-b124-171822f3edfe` · printing: MSC #803 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grapeshot Catapult
 
@@ -1260,7 +1269,10 @@
   > *"Jade-touched, wisteria-crowned, with gifts of gold and the Harvest's blessing, return this honored one to us as sibsig."*
   > *—Priests' chant*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #658 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/93/gravecrawler) · oracle_id `09ff28b1-b6c9-48e6-b12e-2f0e644f709f` · printing: TDC #93 (2025-04-11) · [rulings](https://api.scryfall.com/cards/6987d609-ba0f-42bf-9b61-bdfb943c03b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-01-22* — Gravecrawler's ability doesn't change when you could cast it.
+  - *2011-01-22* — Once you've cast Gravecrawler and it's on the stack, it doesn't matter if you lose control of the other Zombie.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/93/gravecrawler) · oracle_id `09ff28b1-b6c9-48e6-b12e-2f0e644f709f` · printing: TDC #93 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grave Defiler
 
@@ -1433,7 +1445,9 @@
 - **Flavor text** (DSC printing):
   > *Shamans of Kar-Sengir claim that their sun sets because it can no longer bear the gaze of those pain-carved cliffs.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #555 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/280/graven-cairns) · oracle_id `5004b84a-33b7-4f6f-b2c2-7086b9087535` · printing: DSC #280 (2024-09-27) · [rulings](https://api.scryfall.com/cards/74a13fea-4f48-428b-b42b-4ba63d4752ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-05-01* — {(b/r)}, {T}" is the same as saying "{B}, {T} or {R}, {T}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/280/graven-cairns) · oracle_id `5004b84a-33b7-4f6f-b2c2-7086b9087535` · printing: DSC #280 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Graven Dominator
 
@@ -1469,7 +1483,14 @@
 - **Flavor text** (CMM printing):
   > *Denied the peace of the Blessed Sleep, geists lash out at the living, and the cycle of anger and unrest continues unbroken.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #579 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/165/grave-pact) · oracle_id `6f4ac4a4-53ec-4bc9-8f5c-d4b801d867b2` · printing: CMM #165 (2023-08-04) · [rulings](https://api.scryfall.com/cards/f5a4970b-2ba6-4c91-a301-369369cdf360/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-09-01* — If multiple creatures you control die at the same time, Grave Pact's ability will trigger that many times.
+  - *2023-09-01* — If two players each control a Grave Pact and a creature controlled by one of those players dies, a chain reaction happens. First the ability of that player's Grave Pact will trigger, causing each other player to sacrifice a creature. That sacrifice causes the ability of the other player's Grave Pact to trigger, and so on.
+  - *2023-09-01* — If you control more than one Grave Pact and a creature you control dies, each of the triggered abilities will trigger. Each other player will sacrifice a creature each time one of those abilities resolves.
+  - *2023-09-01* — In a Two-Headed Giant game, when a creature you control dies, Grave Pact's triggered ability will cause each other player, including your teammate, to sacrifice a creature. Grave Pact's ability won't trigger when a creature your teammate controls dies.
+  - *2023-09-01* — None of the players are targeted. A player with hexproof would still sacrifice a creature.
+  - *2023-09-01* — When the triggered ability resolves, first the player whose turn it is (if it isn't your turn) chooses which creature they will sacrifice, then each other player in turn order does the same, then all chosen creatures are sacrificed at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/165/grave-pact) · oracle_id `6f4ac4a4-53ec-4bc9-8f5c-d4b801d867b2` · printing: CMM #165 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grave Peril
 
@@ -1931,7 +1952,14 @@
 - **Oracle text:**
   > When this creature enters, each opponent loses X life, where X is your devotion to black. You gain life equal to the life lost this way. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #244 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/142/gray-merchant-of-asphodel) · oracle_id `38f3b157-0df4-409b-89cc-086e1531cd5b` · printing: DSC #142 (2024-09-27) · [rulings](https://api.scryfall.com/cards/00d001d0-fd29-4b7c-9d0e-9131b995f910/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-01-24* — Colorless and generic mana symbols ({C}, {0}, {1}, {2}, {X}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
+  - *2020-01-24* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2020-01-24* — If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it's still on the battlefield at that time.
+  - *2020-01-24* — If you put an Aura on an opponent's permanent, you still control the Aura, and mana symbols in its mana cost count towards your devotion.
+  - *2020-01-24* — Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
+  - *2021-03-19* — The amount of life you gain is the total amount of life lost, not simply the value of X.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/142/gray-merchant-of-asphodel) · oracle_id `38f3b157-0df4-409b-89cc-086e1531cd5b` · printing: DSC #142 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gray Ogre
 

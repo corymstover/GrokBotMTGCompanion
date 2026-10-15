@@ -49,7 +49,12 @@
   > Cycling {2} ({2}, Discard this card: Draw a card.)
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #644 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/281/ozolith-the-shattered-spire) · oracle_id `41fed659-237c-4d8e-ad31-d17fa0d3f764` · printing: SOC #281 (2026-04-24) · [rulings](https://api.scryfall.com/cards/1d5bab94-362e-45e6-8988-69e2b2c681b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-04-14* — However, if Ozolith, the Shattered Spire somehow enters the battlefield with +1/+1 counters it, its first ability won't apply to itself.
+  - *2023-04-14* — If another artifact or creature you control would enter the battlefield with a number of +1/+1 counters on it, it enters with that many plus one instead.
+  - *2023-04-14* — If two or more effects attempt to modify how many counters would be put onto a permanent you control, you choose the order to apply those effects, no matter who controls the sources of those effects.
+  - *2023-04-14* — If you somehow control two copies of Ozolith, the Shattered Spire, the number of +1/+1 counters put on an artifact or creature you control is two plus the original number. Three Ozoliths add three, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/281/ozolith-the-shattered-spire) · oracle_id `41fed659-237c-4d8e-ad31-d17fa0d3f764` · printing: SOC #281 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ozox, the Clattering King
 

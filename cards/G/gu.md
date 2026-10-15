@@ -575,7 +575,12 @@
 - **Flavor text** (RVR printing):
   > *Simic's strength comes from its diversity.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #323 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/146/guardian-project) · oracle_id `4f9e07ae-6341-4b46-9f77-f17ab659d266` · printing: RVR #146 (2024-01-12) · [rulings](https://api.scryfall.com/cards/2c523ef7-d6c4-4887-9a4e-0c2bc6f63676/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-01-25* — A face-down creature has no name, so it can't share a name with anything. This includes other creatures with no name.
+  - *2019-01-25* — If the entering creature is put into your graveyard while Guardian Project's ability is on the stack, that same card will be a creature card in your graveyard that shares a name with the creature that was on the battlefield, so you won't draw a card.
+  - *2019-01-25* — If the entering creature leaves the battlefield and returns while Guardian Project's ability is on the stack, that same card will be a new creature you control that shares a name with the creature that was on the battlefield, so you won't draw a card. However, Guardian Project's ability may trigger for the new creature and you may draw a card as that ability resolves.
+  - *2019-01-25* — Whether the entering creature shares a name with a creature you control or a creature card in your graveyard is checked both as that creature enters and as Guardian Project's ability resolves. If the entering creature isn't the first of its name as it enters, the ability doesn't trigger at all; if its name is shared as the ability resolves, you don't draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/146/guardian-project) · oracle_id `4f9e07ae-6341-4b46-9f77-f17ab659d266` · printing: RVR #146 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Guardian Scalelord
 
@@ -1649,7 +1654,10 @@
   > *"I have looked on Moria, and it is very great, but it has become dark and dreadful."*
   > *—Gimli*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #408 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/196/guttersnipe) · oracle_id `c6bdaf76-6a03-4695-9c4b-f040e73435af` · printing: HOC #196 (2026-08-14) · [rulings](https://api.scryfall.com/cards/f6bb1ffc-2251-4655-b8f9-4c8047dd5d5f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — Guttersnipe's triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
+  - *2024-11-08* — In a Two-Headed Giant game, Guttersnipe's ability causes the opposing team to lose 4 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/196/guttersnipe) · oracle_id `c6bdaf76-6a03-4695-9c4b-f040e73435af` · printing: HOC #196 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gut, True Soul Zealot
 

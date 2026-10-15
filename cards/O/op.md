@@ -201,7 +201,13 @@
   > {T}: Add {C}.
   > {1}, {T}: Add one mana of any color in your commander's color identity. If you spend this mana to cast your commander, it enters with a number of additional +1/+1 counters on it equal to the number of times it's been cast from the command zone this game.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #689 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/390/opal-palace) · oracle_id `aa6723a2-75da-49f5-a1ba-cbfa82c55301` · printing: SOC #390 (2026-04-24) · [rulings](https://api.scryfall.com/cards/912553e7-1e67-4045-84fd-0a791754cf6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-11-10* — If Opal Palace's last ability produces two mana (most likely due to Mana Reflection) and you spend them to cast a commander, that commander enters with two counters for each time it's been cast from the command zone this game.
+  - *2020-11-10* — If you don't have a commander, Opal Palace's last ability produces no mana.
+  - *2020-11-10* — If you have two commanders, the last ability adds one mana of any color in their combined color identities.
+  - *2020-11-10* — If your commander is a card that has no colors in its color identity, Opal Palace's last ability produces no mana. It doesn't produce {C}.
+  - *2020-11-10* — The "number of times it's been cast from the command zone" includes the most recent time. For example, the first time you cast your commander from the command zone in a game, if you spent mana from Opal Palace's last ability to do so, it will enter the battlefield with a +1/+1 counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/390/opal-palace) · oracle_id `aa6723a2-75da-49f5-a1ba-cbfa82c55301` · printing: SOC #390 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Opal Titan
 
@@ -269,6 +275,7 @@
 - **Flavor text** (CMR printing):
   > *"Once Avacyn returned, I hoped I'd never need these things again. I didn't think I'd be dusting them off to use against angels."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #638 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/34/open-the-armory) · oracle_id `2ecf7771-8061-4710-ad2e-80b092ae0b4b` · printing: CMR #34 (2020-11-20) · [rulings](https://api.scryfall.com/cards/6db45698-9da9-4cea-b9bf-0f84ab276b51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Open the Gates
@@ -384,7 +391,11 @@
 - **Flavor text** (SOC printing):
   > *"Keep them in terrariums? No way! Snakes are meant to roam free, my friend."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #631 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/118/ophiomancer) · oracle_id `55eca80c-dcd8-4c2f-aa0f-fb0aec7b80f7` · printing: SOC #118 (2026-04-24) · [rulings](https://api.scryfall.com/cards/baf793b6-9612-43f3-9f1b-2e53e81cb89f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-10-17* — If the ability does trigger, but you control a Snake when it tries to resolve, the ability will do nothing. No Snake token will be created.
+  - *2013-10-17* — Ophiomancer's ability checks if you control a Snake at the beginning of each upkeep. If you do, the ability won't trigger.
+  - *2013-10-17* — Ophiomancer's ability considers any creature you control with the creature type Snake, not just the tokens Ophiomancer creates.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/118/ophiomancer) · oracle_id `55eca80c-dcd8-4c2f-aa0f-fb0aec7b80f7` · printing: SOC #118 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Opportunist
 
@@ -443,7 +454,18 @@
   > While an opponent is searching their library, they exile each card they find. You may play those cards for as long as they remain exiled, and you may spend mana as though it were mana of any color to cast them.
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #593 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/141/opposition-agent) · oracle_id `1f438b8f-fe23-4f3b-ab2e-f6c33676c462` · printing: CMR #141 (2020-11-20) · [rulings](https://api.scryfall.com/cards/086f97e9-8b62-44f3-b467-149c2ac5ca78/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2020-11-10* — If a spell or ability instructs an opponent you control to search multiple zones including the library, you decide what cards they find in all zones. They'll exile all cards they find in any of the zones.
+  - *2020-11-10* — If more than one player controls an Opposition Agent, and another player searches their library, the controller of the Opposition Agent that most recently entered the battlefield controls that player during the search. Because the last ability of each Opposition Agent is trying to exile the card and give permission to play it, the owner of the exiled card chooses which effect wins. However, that owner will be under another player's control, so that player controlling that owner actually makes the decision. In other words, the player who controls the Opposition Agent whose effect applies (and thus controls the opponent) can choose to give themselves all the play permissions unless they're feeling very generous.
+  - *2020-11-10* — If the search instruction states a quality of the card to find, such as a color or card type, you may have the opponent not find any cards. If the search is simply for a number of cards without stating a quality, you must have them find that many cards (or as many as possible, if their library doesn't contain that many cards).
+  - *2020-11-10* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well.
+  - *2020-11-10* — The cards found in the search will be exiled rather than be put wherever the spell or ability tells the opponent to put them after finding them. Any other effects the spell or ability has will still apply. If such an effect refers to the found cards, it can't see them in exile.
+  - *2020-11-10* — While controlling an opponent, you can't make any choices or decisions for that player related to tournament rules. You can't make them concede or have them agree to an intentional draw.
+  - *2020-11-10* — While controlling an opponent, you make all choices and decisions for that player. However, because the control effect is limited to while they're searching their libraries, it's unlikely the player will be allowed to make any decisions other than what to find with the search.
+  - *2020-11-10* — You can't have the player find cards in their library that aren't asked for by the search instruction. For example, if the opponent is searching their library for a basic land card, you can't have them find a different card, such as a creature card.
+  - *2020-11-10* — You must follow the normal timing permissions and restrictions for each exiled card. If one is a land, you can't play it unless you have land plays available.
+  - *2020-11-10* — You'll still pay all costs for a spell cast this way, including additional costs. You may also pay alternative costs if any are available.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/141/opposition-agent) · oracle_id `1f438b8f-fe23-4f3b-ab2e-f6c33676c462` · printing: CMR #141 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oppression
 
@@ -491,6 +513,7 @@
   > *"It's easy to anticipate Captain Storm's orders: take the more dangerous route."*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #216 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/158/opt) · oracle_id `713332c1-5bd8-400f-bfff-c1ca0697a043` · printing: TDC #158 (2025-04-11) · [rulings](https://api.scryfall.com/cards/bbc99a51-1501-4525-a3cc-f48249b64bed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Optical Optimizer
@@ -556,4 +579,5 @@
   > *"The people must know that the former seat of their oppression is cleansed. Throw open Qarsi's gates and let them see for themselves."*
   > *—Kotis, the Fangkeeper*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #385 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/157/opulent-palace) · oracle_id `f9e7e855-1e3b-42d3-91b0-64ba8b5b8982` · printing: ECC #157 (2026-01-23) · [rulings](https://api.scryfall.com/cards/f0001153-dbcb-44e5-99be-2c186c9b10b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

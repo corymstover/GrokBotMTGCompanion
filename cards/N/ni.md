@@ -1198,6 +1198,7 @@
 - **Flavor text** (HOC printing):
   > *Frodo was hardly less terrified than his companions; he was quaking as if he was bitter cold, but his terror was swallowed up in a sudden temptation to put on the Ring.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #180 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/189/nights-whisper) · oracle_id `7ffae8f8-3006-4969-a339-6d30678f87ea` · printing: HOC #189 (2026-08-14) · [rulings](https://api.scryfall.com/cards/e8399c2e-ecc8-41c9-a690-a0eeafb27f77/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Night Terrors
@@ -2552,7 +2553,12 @@
   > Whenever a player casts an instant or sorcery spell, you draw a card.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #795 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/235/niv-mizzet-parun) · oracle_id `33666a98-812f-4892-9f8d-33e0cbecc340` · printing: OTC #235 (2024-04-19) · [rulings](https://api.scryfall.com/cards/86c5c337-d25f-4c3e-9762-09ed0c2d36d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-10-05* — If a spell or ability causes you to put cards into your hand without specifically using the word "draw," Niv-Mizzet's first triggered ability won't trigger.
+  - *2018-10-05* — If an effect instructs you to draw multiple cards, Niv-Mizzet's first triggered ability triggers that many times. You choose targets for those abilities after you've drawn all of the cards.
+  - *2018-10-05* — Niv-Mizzet's second triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered. This causes its first triggered ability to trigger, and that also resolves before the spell.
+  - *2018-10-05* — Players can cast spells and activate abilities after Niv-Mizzet's second triggered ability resolves but before the spell that caused it to trigger does. Notably, the card you draw may be able to counter that spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/235/niv-mizzet-parun) · oracle_id `33666a98-812f-4892-9f8d-33e0cbecc340` · printing: OTC #235 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Niv-Mizzet Reborn
 

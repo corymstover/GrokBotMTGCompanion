@@ -1505,6 +1505,7 @@
   > *When M.O.D.O.K. plays head games, he always comes out on top.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #39 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/210/skullclamp) · oracle_id `65986c1b-8e51-4604-b685-d82fa7d1263a` · printing: MSC #210 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1d8b007b-3169-4ee3-80c7-781fc096fc7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skull Collector
@@ -2094,6 +2095,7 @@
 - **Flavor text** (EOC printing):
   > *From Otaria, the sun above meets the sea below at a glittering horizon.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #347 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/181/skycloud-expanse) · oracle_id `76f335d0-7f71-4b1a-b60d-73de954cbe2c` · printing: EOC #181 (2025-08-01) · [rulings](https://api.scryfall.com/cards/03f8c846-d80c-49a4-a562-e817cd0c6096/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skycoach Conductor // All Aboard
@@ -2174,6 +2176,7 @@
 - **Flavor text** (CLB printing):
   > *Every facet a window into Oghma's divine insight.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #817 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/337/sky-diamond) · oracle_id `2224b6e0-c5ff-45d0-84e3-83758c5fc99f` · printing: CLB #337 (2022-06-10) · [rulings](https://api.scryfall.com/cards/d47abfb2-9bcf-485c-9bd4-2c09b714eb32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sky-Eel School
@@ -2771,6 +2774,7 @@
 - **Flavor text** (EOC printing):
   > *"Flowstone spreads, but new life spreads faster."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #304 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/107/skyshroud-claim) · oracle_id `376c9d3f-21d3-4251-bb6a-026fa9e1b0e1` · printing: EOC #107 (2025-08-01) · [rulings](https://api.scryfall.com/cards/860c0808-3ec1-4182-bf83-783720a02780/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skyshroud Condor

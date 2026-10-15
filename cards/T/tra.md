@@ -235,6 +235,7 @@
 - **Oracle text:**
   > Target opponent draws two cards, then you draw up to four cards. That opponent may repeat this process as many times as they choose.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmd/64/trade-secrets) · oracle_id `50885640-cdf1-4c62-b3bc-f37db6ab38b5` · printing: CMD #64 (2011-06-17) · [rulings](https://api.scryfall.com/cards/58dadc78-fe87-40ac-94cb-128716d89d74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trade the Helm
@@ -417,6 +418,7 @@
   > *It's much easier to list the places they \*haven't\* been.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #656 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/269/trailblazers-boots) · oracle_id `634d5009-cbf3-44cb-8c15-7057f501a210` · printing: OTC #269 (2024-04-19) · [rulings](https://api.scryfall.com/cards/aa05985b-e2cb-412f-a2ad-b8d723d9f451/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trailblazer's Torch
@@ -616,7 +618,10 @@
 - **Flavor text** (CMM printing):
   > *Between matches, combatants practice to stay in peak mental and physical form.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #154 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/434/training-center) · oracle_id `e3570ac7-c593-40e3-bbd6-ec3da6d8158d` · printing: CMM #434 (2023-08-04) · [rulings](https://api.scryfall.com/cards/78a39d22-5e3b-4ba0-b728-dbf16b61fc8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-11-10* — Count the number of opponents you currently have, not how many you started with. If your four-player game is down to you and a single opponent, the land enters the battlefield tapped.
+  - *2020-11-10* — If an effect puts the land onto the battlefield tapped, having two or more opponents won't untap it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/434/training-center) · oracle_id `e3570ac7-c593-40e3-bbd6-ec3da6d8158d` · printing: CMM #434 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Training Compound
 

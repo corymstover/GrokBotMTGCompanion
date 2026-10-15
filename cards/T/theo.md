@@ -72,7 +72,12 @@
   > {T}: Put a burden counter on The One Ring, then draw a card for each burden counter on The One Ring.
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #96 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/246/the-one-ring) · oracle_id `3aa83ed2-f48b-4ce6-a614-2c54ddf50538` · printing: LTR #246 (2023-06-23) · [rulings](https://api.scryfall.com/cards/d5806e68-1054-458e-866d-1f2470f682b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-06-16* — Gaining protection from everything causes a spell or ability on the stack to have an illegal target if it targets you. As a spell or ability tries to resolve, if all its targets are illegal, that spell or ability doesn't resolve and none of its effects happen, including effects unrelated to the target. If at least one target is still legal, the spell or ability does as much as it can to the remaining legal targets, and its other effects still happen.
+  - *2023-06-16* — If a player has protection from everything, it means three things: 1) All damage that would be dealt to that player is prevented. 2) Auras can't be attached to that player. 3) That player can't be the target of spells or abilities.
+  - *2023-06-16* — Nothing other than the specified events are prevented or illegal. An effect that doesn't target you could still cause you to discard cards, for example. Creatures can still attack you while you have protection from everything, although combat damage that they would deal to you will be prevented.
+  - *2023-06-16* — Protection from everything will usually prevent damage if it would be dealt to you, but some damage can't be prevented. In this case, that damage reduces your life total as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/246/the-one-ring) · oracle_id `3aa83ed2-f48b-4ce6-a614-2c54ddf50538` · printing: LTR #246 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ooze
 
@@ -194,4 +199,11 @@
 - **Flavor text** (IKO printing):
   > *As it twists, so does all life around it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #302 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/237/the-ozolith) · oracle_id `1946ded1-5f53-409f-b0a6-5433bb0357d2` · printing: IKO #237 (2020-04-24) · [rulings](https://api.scryfall.com/cards/9341ed06-53db-4604-b60a-3ea9129afbc2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-04-17* — +1/+1 counters on The Ozolith have no effect unless it becomes a creature. Keyword counters on The Ozolith will grant it keywords that may have no practical effect. For example, flying on a noncreature artifact is just strange, but hexproof on a noncreature artifact is entirely useful.
+  - *2020-04-17* — As The Ozolith's last ability resolves, you choose whether to move the counters.
+  - *2020-04-17* — If The Ozolith leaves the battlefield after the last ability triggers but before it resolves, you can't move any counters from it onto the target creature.
+  - *2020-04-17* — If the target creature is an illegal target by the time The Ozolith's last ability tries to resolve, the ability won't resolve. You won't remove any counters from The Ozolith.
+  - *2020-04-17* — The Ozolith's first ability doesn't move counters off the creature that's left the battlefield. Rather, you put the same number of each kind of counter the creature had onto The Ozoloith. Notably, if you somehow control a second The Ozolith, each one will receive the same number and kinds of counters that were on the creature that left the battlefield. Similarly, if the creature has an ability that triggers when it leaves the battlefield that refers to the number of counters it had, that ability will use the number of counters that were on the permanent, even if The Ozolith's first ability resolves first.
+  - *2020-04-17* — You can't move only some of the counters from The Ozolith onto the target creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/237/the-ozolith) · oracle_id `1946ded1-5f53-409f-b0a6-5433bb0357d2` · printing: IKO #237 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -58,7 +58,11 @@
 - **Flavor text** (M21 printing):
   > *"The best denials are simply that: a beginning and end unchanged, a dream with no memory."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1016 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/63/rewind) · oracle_id `bb27bfdf-fe8d-45bd-ad62-8118dce06eda` · printing: M21 #63 (2020-07-03) · [rulings](https://api.scryfall.com/cards/b832abcc-9ffd-47bf-827a-01b303c610ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-06-23* — If the spell is an illegal target when Rewind tries to resolve, perhaps because it was countered by another spell or ability, Rewind won't resolve and none of its effects will happen. You won't untap any lands.
+  - *2020-06-23* — Rewind targets only a spell. It doesn't target any lands. The lands are chosen as Rewind resolves.
+  - *2020-06-23* — You can choose up to four lands, no matter who controls any of them. Those lands untap once. You can't choose one land and have it untap four times, for example.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/63/rewind) · oracle_id `bb27bfdf-fe8d-45bd-ad62-8118dce06eda` · printing: M21 #63 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rewrite History
 

@@ -313,7 +313,15 @@
 - **Flavor text** (FIN printing):
   > *"Warriors of Light...Only you can restore hope to the world, for yours is the light that can balance out the darkness..."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #843 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/135/the-fire-crystal) · oracle_id `57276db8-9d8d-4587-ae88-dfdc44343f17` · printing: FIN #135 (2025-06-13) · [rulings](https://api.scryfall.com/cards/ea430b17-2014-4b8e-b53f-43bcfc06f7cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-06-06* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2025-06-06* — If the copied creature is a token, the new token that's created copies the original characteristics of that token as stated by the effect that created the token.
+  - *2025-06-06* — If the copied creature is copying something else, then the token enters as whatever that creature copied.
+  - *2025-06-06* — If the creature copied by the token had any "when [this permanent] enters" abilities, the token also has those abilities, and they'll trigger when it's created. Similarly, any "as [this permanent] enters" or "[this permanent] enters with" abilities that the token has copied will also work.
+  - *2025-06-06* — The cost reduction applies only to generic mana in the total cost of red spells you cast.
+  - *2025-06-06* — The token copies exactly what was printed on the original creature (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or any Auras or Equipment attached to it, or any non-copy effects that have changed its types, color, power and toughness, and so on.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a flashback cost), add any cost increases (such as kicker costs), then apply any cost reductions (such as that of The Fire Crystal's first ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/135/the-fire-crystal) · oracle_id `57276db8-9d8d-4587-ae88-dfdc44343f17` · printing: FIN #135 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fire Nation Drill
 

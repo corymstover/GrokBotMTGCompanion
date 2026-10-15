@@ -210,6 +210,7 @@
   > *"The greatest hunter can go from predator to prey here in a single heartbeat."*
   > *—Ka-Zar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #647 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/827/savage-lands) · oracle_id `a3292406-3f49-42d6-a547-e43dd5797f84` · printing: MSC #827 (2026-06-26) · [rulings](https://api.scryfall.com/cards/428df1ff-e13e-48a3-bcc9-301bdc9470fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savage Mansion
@@ -417,6 +418,7 @@
   > *Broad prairies feed the human sanctuary of Drannith and conceal a network of caverns where giant cats make their dens.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #495 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/253/savai-triome) · oracle_id `00625242-9348-4ef4-b975-f2ac82fee21d` · printing: IKO #253 (2020-04-24) · [rulings](https://api.scryfall.com/cards/748e6a61-9c1f-4225-9f04-e54002f63ac3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savannah
@@ -426,7 +428,10 @@
 - **Oracle text:**
   > ({T}: Add {G} or {W}.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #458 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/311/savannah) · oracle_id `703243f0-8cb3-420f-958f-5fd4bde30293` · printing: VMA #311 (2014-06-16) · [rulings](https://api.scryfall.com/cards/b0d161fc-4a2a-4f1d-82b4-a746552552df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-10-01* — This has basic land types, but it isn't a basic land. Things that affect basic lands don't affect it. Things that affect basic land types do.
+  - *2008-10-01* — This has the mana abilities associated with both of its basic land types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/311/savannah) · oracle_id `703243f0-8cb3-420f-958f-5fd4bde30293` · printing: VMA #311 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savannah Lions
 

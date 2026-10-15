@@ -165,6 +165,7 @@
 - **Flavor text** (CHK printing):
   > *Its students graduate the school and enter history.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #612 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/279/minamo-school-at-waters-edge) · oracle_id `17784f90-89a1-47a5-83ef-ae60dfc30bd1` · printing: CHK #279 (2004-10-01) · [rulings](https://api.scryfall.com/cards/7536292c-da25-41c8-ba28-1e35758a7f3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minamo Scrollkeeper
@@ -227,7 +228,9 @@
   > *"I would see the White Tree in flower again in the courts of the kings, and Minas Tirith in peace."*
   > *—Faramir*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #416 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/256/minas-tirith) · oracle_id `7b0d7e62-0287-454a-8702-b0bfa7b41245` · printing: LTR #256 (2023-06-23) · [rulings](https://api.scryfall.com/cards/b38b6760-616f-4b11-8ce7-ac1223c7fd53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — The legendary creature must already be on the battlefield as the land enters the battlefield. If it enters the battlefield at the same time, the land will enter tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/256/minas-tirith) · oracle_id `7b0d7e62-0287-454a-8702-b0bfa7b41245` · printing: LTR #256 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minas Tirith Garrison
 
@@ -303,7 +306,11 @@
   > *"Life is a maze. This is one of its dead ends."*
   > *—Noyan Dar, Tazeem lullmage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #551 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/zen/57/mindbreak-trap) · oracle_id `48712d36-5c13-4ded-87a4-68106da4a5cd` · printing: ZEN #57 (2009-10-02) · [rulings](https://api.scryfall.com/cards/4f51140b-6254-431a-8810-94307bfdfbbe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-09-19* — For Mindbreak Trap's alternative cost to apply, a single opponent must cast three or more spells. Three opponents each casting a single spell won't work, for example.
+  - *2025-09-19* — If a spell is exiled, it's removed from the stack and thus will not resolve. The spell isn't countered; it just no longer exists. This works on spells that can't be countered.
+  - *2025-09-19* — Mindbreak Trap's alternative cost condition checks whether an opponent cast three or more spells this turn, not whether those spells have resolved.
+- **Source flags:** [Scryfall](https://scryfall.com/card/zen/57/mindbreak-trap) · oracle_id `48712d36-5c13-4ded-87a4-68106da4a5cd` · printing: ZEN #57 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Burst
 
@@ -1046,6 +1053,7 @@
   > *"What is mana but possibility, an idea not yet given form?"*
   > *—Jhoira, master artificer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/76/mind-stone) · oracle_id `c97361b5-af16-4a7b-af85-a429dbaf4ad2` · printing: MBC #76 (2026-10-19) · [rulings](https://api.scryfall.com/cards/b30a8f92-ce42-4b27-a893-bcf97fde228d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindstorm Crown

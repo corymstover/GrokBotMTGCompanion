@@ -282,7 +282,9 @@
 - **Flavor text** (MH2 printing):
   > *A good Gruul shaman can work a whole clan into a frenzy. A great one will wait until the enemy's nearby.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #557 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/200/goblin-anarchomancer) · oracle_id `e9319f13-1f2b-429c-9d61-e58a3cbec86a` · printing: MH2 #200 (2021-06-18) · [rulings](https://api.scryfall.com/cards/633a3423-501d-4b22-95a6-743233be521e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-06-18* — A spell that's both red and green costs {1} less to cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/200/goblin-anarchomancer) · oracle_id `e9319f13-1f2b-429c-9d61-e58a3cbec86a` · printing: MH2 #200 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Archaeologist
 
@@ -524,6 +526,7 @@
 - **Flavor text** (MH2 printing):
   > *With one motion, a pest is removed and a scourge inflicted.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #463 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/279/goblin-bombardment) · oracle_id `edad60c6-80de-4033-af1b-a703ac332983` · printing: MH2 #279 (2021-06-18) · [rulings](https://api.scryfall.com/cards/e262f55e-9239-4a97-a19e-9b08fb34502e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Bookie
@@ -910,7 +913,11 @@
 - **Flavor text** (TDC printing):
   > *The Jeskai find potential recruits among all walks of life, including other clans.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #671 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/99/goblin-electromancer) · oracle_id `81f06f84-1580-43c0-89d5-08d34541a519` · printing: TDC #99 (2025-04-11) · [rulings](https://api.scryfall.com/cards/bd9eca71-2430-4112-a23a-fba76ca2efb4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-03-14* — Two Goblin Electromancers will make instant and sorcery spells you cast cost {2} less to cast, and so on.
+  - *2018-10-05* — Goblin Electromancer's effect reduces only generic mana in the spell's total cost.
+  - *2018-10-05* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/99/goblin-electromancer) · oracle_id `81f06f84-1580-43c0-89d5-08d34541a519` · printing: TDC #99 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Elite Infantry
 

@@ -230,7 +230,11 @@
 - **Flavor text** (RVR printing):
   > *"My power is generosity, in a way. I give my survivors an appreciation for their lives."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #639 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/89/plaguecrafter) · oracle_id `2e3ee458-fa3f-4452-ab95-5a7fb5a0483b` · printing: RVR #89 (2024-01-12) · [rulings](https://api.scryfall.com/cards/97505837-e0e2-4f7b-8581-01942e886bb8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-10-05* — As Plaguecrafter's ability resolves, first the player whose turn it is chooses a creature or planeswalker they control, then each other player in turn order does the same, knowing the choices made before them. Then all the chosen permanents are sacrificed at the same time. Next, each player in the same order who couldn't sacrifice a permanent chooses a card in hand without revealing it, then the chosen cards are discarded at the same time.
+  - *2018-10-05* — Each player chooses a permanent to sacrifice from among the creatures and planeswalkers they control. You don't choose which type of permanent any other player has to sacrifice.
+  - *2018-10-05* — Plaguecrafter can be the creature its controller sacrifices for its own ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/89/plaguecrafter) · oracle_id `2e3ee458-fa3f-4452-ab95-5a7fb5a0483b` · printing: RVR #89 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Plague Dogs
 
@@ -1039,7 +1043,10 @@
 - **Oracle text:**
   > ({T}: Add {R} or {W}.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #441 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/308/plateau) · oracle_id `c7a15ca4-085f-4d92-8387-c3711c04c8fa` · printing: VMA #308 (2014-06-16) · [rulings](https://api.scryfall.com/cards/bb979a96-a57d-4fb5-8ebe-0bd398272abe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-10-01* — This has basic land types, but it isn't a basic land. Things that affect basic lands don't affect it. Things that affect basic land types do.
+  - *2008-10-01* — This has the mana abilities associated with both of its basic land types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/308/plateau) · oracle_id `c7a15ca4-085f-4d92-8387-c3711c04c8fa` · printing: VMA #308 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Plated Crusher
 
@@ -1356,6 +1363,7 @@
   > {T}: Add one mana of any color among legendary permanents you control.
   > {3}, {T}, Exile this land: Target legendary creature gains hexproof and indestructible until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #471 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/255/plaza-of-heroes) · oracle_id `9c58d241-4d9f-4b46-b8ee-f4587f9acfd6` · printing: MSC #255 (2026-06-26) · [rulings](https://api.scryfall.com/cards/96fe4b9b-d766-463b-a6df-345ebebfc17c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Plea for Guidance

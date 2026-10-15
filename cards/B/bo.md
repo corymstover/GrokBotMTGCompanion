@@ -873,7 +873,14 @@
   - *Flavor text (MH3 printing):*
   > *A boggart warren is usually located in a place rich with sensations... good and bad.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #632 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/243/boggart-trawler-boggart-bog) · oracle_id `727f3201-1cfc-4ab2-9dfe-be4f7251f42f` · printing: MH3 #243 (2024-06-14) · [rulings](https://api.scryfall.com/cards/d0d484a6-5610-4f1d-95ec-eda273c255e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-06-07* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2024-06-07* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect. For example, if an effect allows you to play lands from your graveyard, you can play Garden of Freyalise, but you can't cast Disciple of Freyalise.
+  - *2024-06-07* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2024-06-07* — If an effect allows you to put a card with particular characteristics onto the battlefield without instructing you to play or cast it, you consider only the characteristics of a modal double-faced card's front face to see if that card qualifies. If it does, it enters the battlefield with its front face up. For example, if an effect allows you to put a creature card from your graveyard onto the battlefield, you can put Disciple of Freyalise onto the battlefield. However, an effect that lets you return a land card from your graveyard to your hand won't let you return Garden of Freyalise to your hand, as that card has only its front face's characteristics while in the graveyard.
+  - *2024-06-07* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2024-06-07* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics. For example, if an effect stops you from casting creature spells, you can't cast Disciple of Freyalise, but you can still play Garden of Freyalise.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/243/boggart-trawler-boggart-bog) · oracle_id `727f3201-1cfc-4ab2-9dfe-be4f7251f42f` · printing: MH3 #243 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bog Glider
 
@@ -1237,6 +1244,7 @@
   > When this land enters, exile target player's graveyard.
   > {T}: Add {B}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/363/bojuka-bog) · oracle_id `04b7362d-0490-4cb0-b5d7-2a7732f659ce` · printing: SOC #363 (2026-04-24) · [rulings](https://api.scryfall.com/cards/55b5b094-9d2d-4d96-b90c-78fecdae725a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bojuka Brigand
@@ -1273,7 +1281,16 @@
   > You may play lands and cast spells from the top of your library. If you cast a spell this way, pay life equal to its mana value rather than pay its mana cost.
   > {T}, Sacrifice ten nonland permanents: Each opponent loses 10 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #276 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/79/bolass-citadel) · oracle_id `2bd111bb-ce02-414c-b5b7-e0e037d8d96b` · printing: WAR #79 (2019-05-03) · [rulings](https://api.scryfall.com/cards/d2124603-d20e-40eb-97f0-a66323397ac2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2019-05-03* — Bolas's Citadel lets you look at the top card of your library whenever you want (with one restriction—see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
+  - *2019-05-03* — Bolas's Citadel may be one of the permanents you sacrifice to activate its last ability.
+  - *2019-05-03* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2019-05-03* — If the top card of your library changes while you're casting a spell, playing a land, or activating an ability, you can't look at the new top card until you finish doing so. This means that if you cast the top card of your library, you can't look at the next one until you're done paying for that spell.
+  - *2019-05-03* — If you cast a spell for another cost "rather than pay its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Spark Harvest, those must be paid to cast the card.
+  - *2019-05-03* — In a Two-Headed Giant game, the last ability of Bolas's Citadel causes the opposing team to lose 20 life.
+  - *2019-05-03* — You can play a land card from the top of your library only if you have available land plays remaining.
+  - *2019-05-03* — You must follow the normal timing permissions and restrictions of the cards you play from your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/79/bolass-citadel) · oracle_id `2bd111bb-ce02-414c-b5b7-e0e037d8d96b` · printing: WAR #79 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bola Warrior
 
@@ -1465,7 +1482,15 @@
 - **Flavor text** (TLE printing):
   > *By studying the ways of the Waterbenders, Iroh learned how to redirect lightning.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #521 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/163/bolt-bend) · oracle_id `c20a96f7-aa5a-4c15-b8b1-806685c99b27` · printing: TLE #163 (2025-11-21) · [rulings](https://api.scryfall.com/cards/771b9f25-76f8-4da9-b3ab-ee51f4ad32d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-11-08* — If a spell or ability targets multiple things, you can't target it with Bolt Bend, even if all but one of those targets have become illegal.
+  - *2024-11-08* — If a spell or ability targets the same player or object multiple times, you can't target it with Bolt Bend.
+  - *2024-11-08* — Once you announce that you're casting Bolt Bend, no player may take actions until the spell has been paid for. Notably, opponents can't try to change whether you control a creature with power 4 or greater.
+  - *2024-11-08* — Once you've cast Bolt Bend, losing control of all creatures with power 4 or greater won't affect the spell or cause you to pay more mana.
+  - *2024-11-08* — The single target that the target spell or ability targets doesn't have to be a creature you control with power 4 or greater.
+  - *2024-11-08* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+  - *2024-11-08* — You don't choose the new target for the spell or ability until Bolt Bend resolves. You must change the target if possible. However, you can't change the target to an illegal target. If there are no legal targets to choose from, the target isn't changed. It doesn't matter if the original target has somehow become illegal itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/163/bolt-bend) · oracle_id `c20a96f7-aa5a-4c15-b8b1-806685c99b27` · printing: TLE #163 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Boltbender
 
@@ -1720,7 +1745,10 @@
 - **Flavor text** (OTC printing):
   > *There is a sanctuary that reveals itself only to those graced by the \*eludha\*—the mystical connection between bonder and monster.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #542 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/274/bonders-enclave) · oracle_id `f33ce38a-34ec-4b65-a0fc-160484a02007` · printing: OTC #274 (2024-04-19) · [rulings](https://api.scryfall.com/cards/d174f42c-dcf2-4da9-812b-7e1d0991d466/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-04-17* — Once you announce that you're activating the last ability of Bonders' Enclave, no player may take actions until you've finished activating it. Notably, opponents can't try to change whether you control a creature with power 4 or greater.
+  - *2020-04-17* — Once you've activated the last ability of Bonders' Enclave, it doesn't check again at any point whether you control a creature with power 4 or greater.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/274/bonders-enclave) · oracle_id `f33ce38a-34ec-4b65-a0fc-160484a02007` · printing: OTC #274 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bonder's Ornament
 
@@ -2393,7 +2421,13 @@
   > *"The worthy shall strive for greatness. Supremacy in life leads to supremacy in the afterlife."*
   > *—Monument inscription*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #670 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/179/bontus-monument) · oracle_id `940ba435-7abc-40f8-a5af-c1c653b3284e` · printing: DMC #179 (2022-09-09) · [rulings](https://api.scryfall.com/cards/171a9a3f-6278-4921-9848-2b8459869d6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-04-18* — A creature spell that's multiple colors is each of those colors. For example, Ahn-Crop Champion is a white creature and a green creature, so it can benefit from either Oketra's Monument or Rhonas's Monument—or both at once.
+  - *2017-04-18* — Each Monument has one ability that reduces the cost of creature spells of a certain color, and a triggered ability that triggers whenever you cast any creature spell—not just a creature spell of that color.
+  - *2017-04-18* — Each Monument's triggered ability triggers as the creature spell is cast and resolves before that creature spell resolves. The ability will resolve even if that creature spell is countered.
+  - *2017-04-18* — In a Two-Headed Giant game, the triggered ability of Bontu's Monument causes the opposing team to lose 2 life and you gain 1 life.
+  - *2017-04-18* — To determine the total cost of a creature spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the creature remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/179/bontus-monument) · oracle_id `940ba435-7abc-40f8-a5af-c1c653b3284e` · printing: DMC #179 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bontu the Glorified
 
@@ -2512,7 +2546,16 @@
 - **Face 2: Bust** — {5}{R} — Sorcery
   > Destroy all lands.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13014 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/156/boom-bust) · oracle_id `514fdac0-95f4-4034-b891-283fe0fb6da6` · printing: TSR #156 (2021-03-19) · [rulings](https://api.scryfall.com/cards/8ffdee1b-bb5d-44e6-a90d-6f9e9266d4fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2021-03-19* — If one of Boom's targets becomes an illegal target, the other is still destroyed.
+  - *2022-12-08* — A split card's characteristics are a combination of its two halves while it is not on the stack. For example, Assault // Battery has a mana value of 5 while it is in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Assault // Battery.
+  - *2022-12-08* — Each split card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2022-12-08* — Each split card is a single card. For example, if you discard a split card, you've discarded one card, not two. If an effect counts the number of sorcery cards in your graveyard, Assault // Battery counts once, not twice.
+  - *2022-12-08* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the half you're casting. For example, if an effect allows you to cast a sorcery spell with mana value 2 or less from among cards in your graveyard, you could cast Assault this way, but not Battery.
+  - *2022-12-08* — If you copy a spell that's half of a split card, the copy copies that same half. For example, if you copy Assault, the copy is also Assault, not Battery.
+  - *2022-12-08* — Split cards have two card faces on a single card. The characteristics of the half you didn't cast are ignored while the spell is on the stack.
+  - *2022-12-08* — To cast a split card, choose one of its halves to cast. There's no way to cast both halves of this split card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/156/boom-bust) · oracle_id `514fdac0-95f4-4034-b891-283fe0fb6da6` · printing: TSR #156 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Boomerang
 
@@ -3068,7 +3111,9 @@
   > *"I looked on Aragorn and thought how great and terrible a Lord he might have become, had he taken the Ring for himself. Not for naught does Mordor fear him."*
   > *—Legolas*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #645 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/44/borne-upon-a-wind) · oracle_id `ce19962d-94f9-4b2b-b668-963c0acce308` · printing: LTR #44 (2023-06-23) · [rulings](https://api.scryfall.com/cards/a9379675-1a32-4e2b-8aaf-5f908c595f31/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — This applies only to casting spells. It does not, for example, change when you can activate abilities that can be activated "only as a sorcery."
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/44/borne-upon-a-wind) · oracle_id `ce19962d-94f9-4b2b-b668-963c0acce308` · printing: LTR #44 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Born to Drive
 
@@ -3145,7 +3190,10 @@
   > • Permanents you control gain indestructible until end of turn.
   > • Target creature gains double strike until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #182 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/721/boros-charm) · oracle_id `2679d0dd-ba30-4a1c-b6a0-b3ac6c790496` · printing: FDN #721 (2024-11-15) · [rulings](https://api.scryfall.com/cards/e0d8c9f6-cbbd-4694-b100-01cfb81036cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — Boros Charm's second mode affects only permanents you control at the time it resolves. It won't affect permanents that come under your control later in the turn.
+  - *2024-11-08* — Planeswalkers with indestructible will still have loyalty counters removed from them as they are dealt damage. If a planeswalker with indestructible has no loyalty counters, it will still be put into its owner's graveyard, as the rule that does this doesn't destroy the planeswalker.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/721/boros-charm) · oracle_id `2679d0dd-ba30-4a1c-b6a0-b3ac6c790496` · printing: FDN #721 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Boros Cluestone
 
@@ -3192,7 +3240,9 @@
   > When this land enters, return a land you control to its owner's hand.
   > {T}: Add {R}{W}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #512 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/231/boros-garrison) · oracle_id `8fa3ac81-3dfe-4565-be99-5554f7597b4b` · printing: CLU #231 (2024-02-23) · [rulings](https://api.scryfall.com/cards/76ec3366-98f3-4903-8f7b-cfcdd60e3be1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/231/boros-garrison) · oracle_id `8fa3ac81-3dfe-4565-be99-5554f7597b4b` · printing: CLU #231 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Boros Guildgate
 
@@ -3289,6 +3339,7 @@
 - **Flavor text** (TDC printing):
   > *Carved high into stone, the signet requires all to look up at it—whether with fear or admiration.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #251 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/314/boros-signet) · oracle_id `41c84665-1f99-40ab-aaca-1188649eb263` · printing: TDC #314 (2025-04-11) · [rulings](https://api.scryfall.com/cards/49c37c0e-d363-4033-a069-710241cd9923/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Boros Strike-Captain
@@ -3464,7 +3515,10 @@
   > Channel — {1}{G}, Discard this card: Destroy target artifact, enchantment, or nonbasic land an opponent controls. That player may search their library for a land card with a basic land type, put it onto the battlefield, then shuffle. This ability costs {1} less to activate for each legendary creature you control.
 - **Keywords:** Channel
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #77 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/266/boseiju-who-endures) · oracle_id `bf1341dd-41a3-49f6-87ec-63170dde4324` · printing: NEO #266 (2022-02-18) · [rulings](https://api.scryfall.com/cards/2135ac5a-187b-4dc9-8f82-34e8d1603416/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-02-18* — Discarding the card is part of the cost to activate a channel ability.
+  - *2022-02-18* — If a channel ability requires a target, you may not activate it without a target just to discard the card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/266/boseiju-who-endures) · oracle_id `bf1341dd-41a3-49f6-87ec-63170dde4324` · printing: NEO #266 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Boseiju, Who Shelters All
 
@@ -4012,7 +4066,9 @@
   > *"When I first came here, I was a little awestruck, thinking of everyone who came before. Now all I feel is pride."*
   > *—Shuri*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #209 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/226/bountiful-promenade) · oracle_id `761cb262-f83b-4a99-9345-b773182a7671` · printing: MSC #226 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f0b11ba3-68ba-4067-af40-2a55e31b395e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-06-08* — If you began the game with two or more opponents but now only have one opponent left, these lands enter the battlefield tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/226/bountiful-promenade) · oracle_id `761cb262-f83b-4a99-9345-b773182a7671` · printing: MSC #226 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bounty Agent
 

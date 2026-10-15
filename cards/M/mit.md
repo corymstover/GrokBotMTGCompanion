@@ -38,7 +38,11 @@
   > Equip {3}
 - **Keywords:** Indestructible, Equip, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #238 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/245/mithril-coat) · oracle_id `3dc364f3-3094-4660-80ca-9418588c7fde` · printing: LTR #245 (2023-06-23) · [rulings](https://api.scryfall.com/cards/0fd1fc09-a09d-45e6-8a07-3a8a83b4e6ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-06-16* — Attaching an Equipment with its enters-the-battlefield triggered ability isn't the same as using its equip ability. You don't pay mana for the attachment, and the timing restrictions for equip abilities don't apply.
+  - *2023-06-16* — If the target creature becomes an illegal target, the Equipment remains on the battlefield unattached.
+  - *2023-06-16* — Mithril Coat doesn't enter the battlefield attached to a creature. Instead, the Equipment enters the battlefield and then a triggered ability attaches it to a creature. You may cast Mithril Coat even if you don't control any creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/245/mithril-coat) · oracle_id `3dc364f3-3094-4660-80ca-9418588c7fde` · printing: LTR #245 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mitotic Manipulation
 

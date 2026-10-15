@@ -351,7 +351,13 @@
 - **Flavor text** (MH3 printing):
   > *It is a helping hand reaching out to the downtrodden, the acrid-sweet tang of burning incense during prayer, and the harmony of voices uplifted in unison. It is faith.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #430 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/294/pearl-medallion) · oracle_id `19015380-1332-4960-8cc6-0732009525a2` · printing: MH3 #294 (2024-06-14) · [rulings](https://api.scryfall.com/cards/1225264f-b298-4b56-b208-c5da87bd6867/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-07-28* — If a spell you cast has {X} in its mana cost, you choose the value of X before calculating the spell's total cost.
+  - *2023-07-28* — If there are additional costs to cast a spell, or if the cost to cast a spell is increased by an effect (such as the one created by Thalia, Guardian of Thraben's ability), apply those increases before applying cost reductions.
+  - *2023-07-28* — The ability can't reduce the amount of colored mana you pay for a spell. It reduces only the generic mana component of that cost.
+  - *2023-07-28* — The ability doesn't change the mana cost or mana value of any spell. It changes only the total cost you pay.
+  - *2023-07-28* — The cost reduction can apply to alternative costs such as flashback costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/294/pearl-medallion) · oracle_id `19015380-1332-4960-8cc6-0732009525a2` · printing: MH3 #294 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pearl of Wisdom
 
@@ -1132,7 +1138,15 @@
   > *"Sam! Get breakfast ready for half-past nine!"*
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #792 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/181/peregrin-took) · oracle_id `188da0ad-8524-4fb2-915e-1876dc9df89f` · printing: LTR #181 (2023-06-23) · [rulings](https://api.scryfall.com/cards/f5baee8d-88e7-4468-94a9-66ca8e2caf15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — Peregrin Took's first ability applies to all kinds of tokens that its controller creates, not just Food tokens.
+  - *2023-06-16* — The additional Food tokens won't have any abilities the other tokens were created with. Anything else specified in the effect creating the token (such as tapped or "Exile that token at end of combat") applies to both the original tokens and the Food.
+  - *2023-06-16* — You don't need to control the spell or ability that creates the tokens, but you do have to be the one creating the tokens for Peregrin Took's ability to apply.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/181/peregrin-took) · oracle_id `188da0ad-8524-4fb2-915e-1876dc9df89f` · printing: LTR #181 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Perennation
 
@@ -1648,7 +1662,9 @@
 - **Flavor text** (CMM printing):
   > *Lomelda had spent four semesters on the waitlist for Kasmina's Advanced Polymorphological Theory seminar. She was determined not to miss a word.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2098 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/110/personal-tutor) · oracle_id `90f54959-2c9b-4b8a-84c9-d6893eb43553` · printing: CMM #110 (2023-08-04) · [rulings](https://api.scryfall.com/cards/2887fc25-22cd-48c9-ad2b-6539c8139e27/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/110/personal-tutor) · oracle_id `90f54959-2c9b-4b8a-84c9-d6893eb43553` · printing: CMM #110 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Personify
 

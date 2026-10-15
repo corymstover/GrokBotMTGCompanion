@@ -57,7 +57,9 @@
   > {T}: Add {C}.
   > {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type or activate an ability of a creature source of the chosen type.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #221 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/265/secluded-courtyard) · oracle_id `79ba18fd-f184-43c1-86df-56ee18ce806c` · printing: MSC #265 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c0d17d04-cf0b-4918-bfec-b34b0d98a602/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-02-18* — If Secluded Courtyard is somehow on the battlefield without a chosen type, mana from its second mana ability can't be spent on anything.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/265/secluded-courtyard) · oracle_id `79ba18fd-f184-43c1-86df-56ee18ce806c` · printing: MSC #265 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secluded Glen
 
@@ -151,7 +153,10 @@
   > *"The cornfields promise a good yield this season."*
   > *—Radwick, farmer of Gatstaf*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #560 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/213/second-harvest) · oracle_id `61a6341e-0d36-44b6-8026-9c87c8ef61cb` · printing: INR #213 (2025-01-24) · [rulings](https://api.scryfall.com/cards/aaecd005-b849-4e75-a8e0-24231bf2a0c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-01-24* — Second Harvest copies all tokens, not only creature tokens.
+  - *2025-01-24* — Second Harvest copies the original characteristics of each token as stated by the effect that created that token. It doesn’t copy whether that token is tapped or untapped, whether it has any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/213/second-harvest) · oracle_id `61a6341e-0d36-44b6-8026-9c87c8ef61cb` · printing: INR #213 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Second Sight
 
@@ -353,7 +358,23 @@
   > Creatures you control with the chosen name have "{T}: Add one mana of any color."
 - **Keywords:** Hidden agenda
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/10/secrets-of-paradise) · oracle_id `f309fe9f-0732-4b81-a342-a394225cbbb1` · printing: CNS #10 (2014-06-06) · [rulings](https://api.scryfall.com/cards/15ace01c-93de-49e6-b9f9-276a2303f42f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2016-08-23* — A conspiracy doesn't count as a card in your deck for purposes of meeting minimum deck size requirements. (In most drafts, the minimum deck size is 40 cards.)
+  - *2016-08-23* — A conspiracy with hidden agenda that has a triggered ability must be face up before that ability's trigger condition is met in order for it to trigger. Turning it face up afterward won't have any effect.
+  - *2016-08-23* — A conspiracy's static and triggered abilities function as long as that conspiracy is face-up in the command zone.
+  - *2016-08-23* — As a special action, you may turn a face-down conspiracy face up. You may do so any time you have priority. This action doesn't use the stack and can't be responded to. Once face up, the named card is revealed and the conspiracy's abilities will affect the game.
+  - *2016-08-23* — At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players.
+  - *2016-08-23* — At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players. Notably, you can't bluff conspiracies with hidden agenda by putting other cards into the command zone face down as the game starts.
+  - *2016-08-23* — Conspiracies are colorless, have no mana cost, and can't be cast as spells.
+  - *2016-08-23* — Conspiracies are never put into your deck. Instead, you put any number of conspiracies from your card pool into the command zone as the game begins. These conspiracies are face up unless they have hidden agenda, in which case they begin the game face down.
+  - *2016-08-23* — Conspiracies aren't legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft.
+  - *2016-08-23* — If you play multiple games after the draft, you can name a different card in each new game.
+  - *2016-08-23* — There are several ways to secretly name a card, including writing the name on a piece of paper that's kept with the face-down conspiracy. If you have multiple face-down conspiracies, you may name a different card for each one. It's important that each named card is clearly associated with only one of the conspiracies.
+  - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
+  - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+  - *2016-08-23* — You must name a Magic card. Notably, you can't name a token.
+  - *2016-08-23* — You name the card as the game begins, as you put the conspiracy into the command zone, not as you turn the face-down conspiracy face up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/10/secrets-of-paradise) · oracle_id `f309fe9f-0732-4b81-a342-a394225cbbb1` · printing: CNS #10 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secrets of the Dead
 
@@ -402,7 +423,23 @@
   > Whenever a creature you control with the chosen name enters, you may search your library for any number of cards with that name, reveal them, put them into your hand, then shuffle.
 - **Keywords:** Hidden agenda
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/9/secret-summoning) · oracle_id `1342ee23-c3a0-4578-833a-e30a9fc9141c` · printing: CNS #9 (2014-06-06) · [rulings](https://api.scryfall.com/cards/7867db8a-5adc-4fe9-aabd-aa55935e3227/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2016-08-23* — A conspiracy doesn't count as a card in your deck for purposes of meeting minimum deck size requirements. (In most drafts, the minimum deck size is 40 cards.)
+  - *2016-08-23* — A conspiracy with hidden agenda that has a triggered ability must be face up before that ability's trigger condition is met in order for it to trigger. Turning it face up afterward won't have any effect.
+  - *2016-08-23* — A conspiracy's static and triggered abilities function as long as that conspiracy is face-up in the command zone.
+  - *2016-08-23* — As a special action, you may turn a face-down conspiracy face up. You may do so any time you have priority. This action doesn't use the stack and can't be responded to. Once face up, the named card is revealed and the conspiracy's abilities will affect the game.
+  - *2016-08-23* — At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players.
+  - *2016-08-23* — At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players. Notably, you can't bluff conspiracies with hidden agenda by putting other cards into the command zone face down as the game starts.
+  - *2016-08-23* — Conspiracies are colorless, have no mana cost, and can't be cast as spells.
+  - *2016-08-23* — Conspiracies are never put into your deck. Instead, you put any number of conspiracies from your card pool into the command zone as the game begins. These conspiracies are face up unless they have hidden agenda, in which case they begin the game face down.
+  - *2016-08-23* — Conspiracies aren't legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft.
+  - *2016-08-23* — If you play multiple games after the draft, you can name a different card in each new game.
+  - *2016-08-23* — There are several ways to secretly name a card, including writing the name on a piece of paper that's kept with the face-down conspiracy. If you have multiple face-down conspiracies, you may name a different card for each one. It's important that each named card is clearly associated with only one of the conspiracies.
+  - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
+  - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+  - *2016-08-23* — You must name a Magic card. Notably, you can't name a token.
+  - *2016-08-23* — You name the card as the game begins, as you put the conspiracy into the command zone, not as you turn the face-down conspiracy face up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/9/secret-summoning) · oracle_id `1342ee23-c3a0-4578-833a-e30a9fc9141c` · printing: CNS #9 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secret Tunnel
 

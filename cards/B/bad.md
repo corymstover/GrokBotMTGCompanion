@@ -101,7 +101,12 @@
 - **Oracle text:**
   > ({T}: Add {B} or {R}.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #380 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/291/badlands) · oracle_id `13ff3222-91cb-4796-a34e-899ed817694c` · printing: VMA #291 (2014-06-16) · [rulings](https://api.scryfall.com/cards/73403d04-fe97-4830-8b80-16dd1a1a6cc1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2004-10-04* — Land type changing effects that change a dual land's land type will remove the old land types completely. Text-changing effects that just change one of the two land types will leave the other type unaffected.
+  - *2004-10-04* — This card is a Mountain and a Swamp even while in the graveyard, library, or any other zone.
+  - *2008-10-01* — This has basic land types, but it isn't a basic land. Things that affect basic lands don't affect it. Things that affect basic land types do.
+  - *2008-10-01* — This has the mana abilities associated with both of its basic land types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/291/badlands) · oracle_id `13ff3222-91cb-4796-a34e-899ed817694c` · printing: VMA #291 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Badlands Revival
 

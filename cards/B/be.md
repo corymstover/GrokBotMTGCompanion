@@ -657,7 +657,9 @@
   > Whenever a creature you control attacks, you may put a quest counter on this enchantment.
   > As long as this enchantment has seven or more quest counters on it, creatures you control get +5/+5.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #568 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/283/beastmaster-ascension) · oracle_id `11b5308d-5bc0-4782-875f-a28be36e665d` · printing: NCC #283 (2022-04-29) · [rulings](https://api.scryfall.com/cards/f404d133-fc1a-4751-ac72-554e6553e486/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — If you attack with multiple creatures, Beastmaster Ascension's first ability triggers multiple times.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/283/beastmaster-ascension) · oracle_id `11b5308d-5bc0-4782-875f-a28be36e665d` · printing: NCC #283 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Beastmaster's Magemark
 
@@ -743,7 +745,9 @@
 - **Flavor text** (CLU printing):
   > *"The tiniest mouse speaks louder to me than all the festival crowds on Tin Street."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #213 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/158/beast-whisperer) · oracle_id `5da7eea8-bb9e-47ce-a554-8a1ee058bd7a` · printing: CLU #158 (2024-02-23) · [rulings](https://api.scryfall.com/cards/daf4bcd2-3ae4-4803-9ea1-3bcc3de5ca59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/158/beast-whisperer) · oracle_id `5da7eea8-bb9e-47ce-a554-8a1ee058bd7a` · printing: CLU #158 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Beast Within
 
@@ -754,7 +758,9 @@
 - **Flavor text** (MSC printing):
   > *Raw vibranium is hazardous to any who touch it, causing irreversible mutations.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/169/beast-within) · oracle_id `7735eeba-693b-47e2-bd51-414379cf1016` · printing: MSC #169 (2026-06-26) · [rulings](https://api.scryfall.com/cards/400b43aa-c1d2-4435-b863-061f43889422/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — If the target permanent is an illegal target by the time Beast Within tries to resolve, the spell won't resolve. No player creates a Beast token. If the target is legal but not destroyed (most likely because it has indestructible), its controller does create a Beast token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/169/beast-within) · oracle_id `7735eeba-693b-47e2-bd51-414379cf1016` · printing: MSC #169 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Beatrix, Loyal General
 
@@ -934,6 +940,7 @@
   > *"That's the thing about the Avengers and their heroics. So easy to predict. So easy to foil!"*
   > *—Grim Reaper, Eric Williams*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #487 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/182/bedevil) · oracle_id `bceecc64-96f1-4e7b-8904-0aef90377764` · printing: MSC #182 (2026-06-26) · [rulings](https://api.scryfall.com/cards/985b9779-b8f6-4d7e-9490-5d2b91ee8db2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bedhead Beastie
@@ -1965,7 +1972,10 @@
 - **Flavor text** (TLA printing):
   > *Katara's waterskin ensured that she would always have water for bending, healing, or drinking.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #543 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/255/benders-waterskin) · oracle_id `3bc46467-323f-4cbf-9d0a-f3d2ae3c3a34` · printing: TLA #255 (2025-11-21) · [rulings](https://api.scryfall.com/cards/6d4a1712-d19e-4475-9614-a0b1af4da610/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-10-02* — Bender's Waterskin untaps at the same time as the active player's permanents. You can't choose to not untap it at that time.
+  - *2025-10-02* — Some effects state that an artifact doesn't untap during its controller's untap step. These effects won't apply and stop Bender's Waterskin from untapping during another player's untap step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/255/benders-waterskin) · oracle_id `3bc46467-323f-4cbf-9d0a-f3d2ae3c3a34` · printing: TLA #255 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bend or Break
 

@@ -1199,6 +1199,7 @@
   > *—"America the Beautiful"*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #813 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/251/irrigated-farmland) · oracle_id `406eabe2-df62-49e2-bb39-c0227509d875` · printing: MSC #251 (2026-06-26) · [rulings](https://api.scryfall.com/cards/996b4484-a701-409a-822c-aa19be89a2c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Irrigation Ditch

@@ -151,7 +151,12 @@
   > Whenever an opponent casts their first spell each turn, counter that spell.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/sok/35/erayo-soratami-ascendant-erayos-essence) · oracle_id `d83bb32d-f409-421a-9d93-bd7ea3240b47` · printing: SOK #35 (2005-06-03) · [rulings](https://api.scryfall.com/cards/0b61d772-2d8b-4acf-9dd2-b2e8b03538c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2005-06-01* — Each Ascendant is legendary in both its unflipped and flipped forms. This means that effects that look for legendary creature cards, such as Time of Need and Captain Sisay, can find an Ascendant.
+  - *2005-06-01* — Erayo’s Essence triggers only for the first spell an opponent casts in a given turn. It doesn’t trigger off any other spell that player casts after the first.
+  - *2005-06-01* — If Erayo, Soratami Ascendant flips while an opponent’s first spell for the turn is still on the stack, the ability of Erayo’s Essence doesn’t trigger because the opponent’s spell has already been cast. The spell isn’t countered.
+  - *2005-06-01* — If you have multiple opponents, Erayo’s Essence can trigger once for each opponent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sok/35/erayo-soratami-ascendant-erayos-essence) · oracle_id `d83bb32d-f409-421a-9d93-bd7ea3240b47` · printing: SOK #35 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Erdwal Illuminator
 

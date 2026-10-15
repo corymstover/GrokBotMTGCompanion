@@ -57,7 +57,9 @@
   > When this land enters, return a land you control to its owner's hand.
   > {T}: Add {U}{R}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #437 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/302/izzet-boilerworks) · oracle_id `1cb9d94a-3039-4f2e-8fcc-6996f9a45f74` · printing: OTC #302 (2024-04-19) · [rulings](https://api.scryfall.com/cards/bfac9395-7ca5-48dd-ab83-7c26ada12f61/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/302/izzet-boilerworks) · oracle_id `1cb9d94a-3039-4f2e-8fcc-6996f9a45f74` · printing: OTC #302 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izzet Charm
 
@@ -177,6 +179,7 @@
 - **Flavor text** (FRC printing):
   > *The Izzet signet is redesigned often, each time becoming closer to a vanity portrait of Niv-Mizzet.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #172 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/58/izzet-signet) · oracle_id `2fda4fe7-8b0c-489c-a000-6d358e614e34` · printing: FRC #58 (2026-10-02) · [rulings](https://api.scryfall.com/cards/d5e141ad-5cb8-416b-9acf-bce1baeb6b6b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izzet Staticaster

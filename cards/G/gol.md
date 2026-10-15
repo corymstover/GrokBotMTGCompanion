@@ -574,7 +574,11 @@
   > Treasures you control have "{T}, Sacrifice this artifact: Add two mana of any one color."
 - **Keywords:** Flying, Treasure, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #365 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/245/goldspan-dragon) · oracle_id `716b3ea2-45b7-4a8f-af72-de7f4e510eff` · printing: SOC #245 (2026-04-24) · [rulings](https://api.scryfall.com/cards/848c1951-90fa-4f01-9aed-76f1afcd9995/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-02-05* — An ability that triggers when a creature becomes the target of a spell resolves before the spell that caused it to trigger. Such an ability resolves even if that spell is countered.
+  - *2021-02-05* — If a spell targets Goldspan Dragon more than once, the triggered ability will trigger only once.
+  - *2021-02-05* — Players can cast spells and activate abilities after the triggered ability resolves but before the spell that caused it to trigger does.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/245/goldspan-dragon) · oracle_id `716b3ea2-45b7-4a8f-af72-de7f4e510eff` · printing: SOC #245 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goldvein Hydra
 
@@ -857,7 +861,9 @@
   > When this land enters, return a land you control to its owner's hand.
   > {T}: Add {B}{G}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #337 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/151/golgari-rot-farm) · oracle_id `1b301478-b14f-4ef8-94e6-9647d582eabe` · printing: ECC #151 (2026-01-23) · [rulings](https://api.scryfall.com/cards/42486edd-24b7-4299-84fa-50559917b2a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/151/golgari-rot-farm) · oracle_id `1b301478-b14f-4ef8-94e6-9647d582eabe` · printing: ECC #151 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Golgari Rotwurm
 
@@ -880,6 +886,7 @@
 - **Flavor text** (DSC printing):
   > *Depending on your point of view, the seal represents a proud guardian of the natural cycle or one who has sold her soul to darkness for eternal life.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #726 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/246/golgari-signet) · oracle_id `1cf51f50-24e4-48d0-95b3-1dad3ffa4bf5` · printing: DSC #246 (2024-09-27) · [rulings](https://api.scryfall.com/cards/95103b4c-d0c0-40fa-9ddd-c7416455ca0c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Golgari Thug
@@ -1107,4 +1114,9 @@
   > When Golos enters, you may search your library for a land card, put that card onto the battlefield tapped, then shuffle.
   > {2}{W}{U}{B}{R}{G}: Exile the top three cards of your library. You may play them this turn without paying their mana costs.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/226/golos-tireless-pilgrim) · oracle_id `efe9c3e0-7315-408e-9903-9d25a681039b` · printing: M20 #226 (2019-07-12) · [rulings](https://api.scryfall.com/cards/1fa48620-4c3d-4f75-be1f-c12c4aa59f51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-07-12* — Golos's last ability doesn't change when you can play the exiled cards. For example, if you exile a sorcery card, you can cast it only during your main phase when the stack is empty. If you exile a land card, you can play it only during your main phase and only if you have an available land play remaining.
+  - *2019-07-12* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2019-07-12* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs (such as that of Bone Splinters), you must pay those to cast the card.
+  - *2019-07-12* — If you don't play some or all of the cards exiled with Golos's last ability, those cards remain in exile.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/226/golos-tireless-pilgrim) · oracle_id `efe9c3e0-7315-408e-9903-9d25a681039b` · printing: M20 #226 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

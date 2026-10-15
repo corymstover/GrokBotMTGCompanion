@@ -184,7 +184,10 @@
   > {4}: Put a +1/+1 counter on this creature.
   > Remove a +1/+1 counter from this creature: It deals 1 damage to any target.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #423 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/306/walking-ballista) · oracle_id `4b515bb0-f275-4400-8032-3173b799ab40` · printing: 2XM #306 (2020-08-07) · [rulings](https://api.scryfall.com/cards/5272436e-74f0-44c4-a291-ea8ebc3f1525/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — A casting cost of {X}{X} means that you pay twice X. If you want X to be 3, you pay {6} to cast Walking Ballista.
+  - *2020-08-07* — If Walking Ballista has been dealt damage or had its toughness reduced by an effect, this limits how many times you'll be able to remove +1/+1 counters from it in a single turn. For example, if it has three +1/+1 counters on it and has been dealt 1 damage this turn, it will be destroyed immediately after you activate the ability a second time and you won't be able to activate it a third time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/306/walking-ballista) · oracle_id `4b515bb0-f275-4400-8032-3173b799ab40` · printing: 2XM #306 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Walking Bulwark
 

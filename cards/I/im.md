@@ -247,7 +247,23 @@
   > Creatures you control with the chosen name have haste.
 - **Keywords:** Hidden agenda
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/5/immediate-action) · oracle_id `5a9c1c2d-d4d7-4df3-a853-f1b81c67b3e3` · printing: CNS #5 (2014-06-06) · [rulings](https://api.scryfall.com/cards/167c6740-0625-4987-8fac-516aab564ca1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2016-08-23* — A conspiracy doesn't count as a card in your deck for purposes of meeting minimum deck size requirements. (In most drafts, the minimum deck size is 40 cards.)
+  - *2016-08-23* — A conspiracy with hidden agenda that has a triggered ability must be face up before that ability's trigger condition is met in order for it to trigger. Turning it face up afterward won't have any effect.
+  - *2016-08-23* — A conspiracy's static and triggered abilities function as long as that conspiracy is face-up in the command zone.
+  - *2016-08-23* — As a special action, you may turn a face-down conspiracy face up. You may do so any time you have priority. This action doesn't use the stack and can't be responded to. Once face up, the named card is revealed and the conspiracy's abilities will affect the game.
+  - *2016-08-23* — At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players.
+  - *2016-08-23* — At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players. Notably, you can't bluff conspiracies with hidden agenda by putting other cards into the command zone face down as the game starts.
+  - *2016-08-23* — Conspiracies are colorless, have no mana cost, and can't be cast as spells.
+  - *2016-08-23* — Conspiracies are never put into your deck. Instead, you put any number of conspiracies from your card pool into the command zone as the game begins. These conspiracies are face up unless they have hidden agenda, in which case they begin the game face down.
+  - *2016-08-23* — Conspiracies aren't legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft.
+  - *2016-08-23* — If you play multiple games after the draft, you can name a different card in each new game.
+  - *2016-08-23* — There are several ways to secretly name a card, including writing the name on a piece of paper that's kept with the face-down conspiracy. If you have multiple face-down conspiracies, you may name a different card for each one. It's important that each named card is clearly associated with only one of the conspiracies.
+  - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
+  - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+  - *2016-08-23* — You must name a Magic card. Notably, you can't name a token.
+  - *2016-08-23* — You name the card as the game begins, as you put the conspiracy into the command zone, not as you turn the face-down conspiracy face up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/5/immediate-action) · oracle_id `5a9c1c2d-d4d7-4df3-a853-f1b81c67b3e3` · printing: CNS #5 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Immersturm Battlefield
 
@@ -570,7 +586,9 @@
   > *"If their ears are to the ground, we will make them bleed!"*
   > *—Taklai, Kolaghan warrior*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #203 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/717/impact-tremors) · oracle_id `9242cd3e-1a71-4700-8182-9c1005616033` · printing: FDN #717 (2024-11-15) · [rulings](https://api.scryfall.com/cards/d0b7cecf-b51b-4d30-b7e9-cd7976271e07/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — If multiple creatures you control enter at the same time, Impact Tremors will trigger once for each of those creatures. This is true even if Impact Tremors enters at the same time as those creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/717/impact-tremors) · oracle_id `9242cd3e-1a71-4700-8182-9c1005616033` · printing: FDN #717 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Impale
 
@@ -677,7 +695,11 @@
   > *"The goblins are in charge of maintenance? Why not just set it on fire now and call it a day?"*
   > *—Whip Tongue, viashino technician*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12920 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/82/impending-disaster) · oracle_id `cf0799f3-ef64-4fcc-924a-5265e52c9727` · printing: ULG #82 (1999-02-15) · [rulings](https://api.scryfall.com/cards/44497303-9686-4810-bf0f-876dd9696cab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — The ability is not optional.
+  - *2004-10-04* — This ability does not trigger at all if there are not seven lands on the battlefield at the beginning of upkeep. It checks this number again when it is going to resolve and does not do anything if the land count is below 7.
+  - *2010-06-15* — If this card is not on the battlefield at the times its ability resolves, then you can’t sacrifice it. However, you still destroy all lands.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/82/impending-disaster) · oracle_id `cf0799f3-ef64-4fcc-924a-5265e52c9727` · printing: ULG #82 (1999-02-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Impending Doom
 
@@ -838,7 +860,10 @@
 - **Flavor text** (MH2 printing):
   > *A passionate recruiter will win a war before the first arrow flies.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #705 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/281/imperial-recruiter) · oracle_id `4d6a1391-817a-4ddc-840d-886b138eeb3f` · printing: MH2 #281 (2021-06-18) · [rulings](https://api.scryfall.com/cards/05bd329b-5707-42fc-af1c-084cc604e805/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
+  - *2008-10-01* — If a creature card has "*" in its power, the ability that defines its power works in all zones.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/281/imperial-recruiter) · oracle_id `4d6a1391-817a-4ddc-840d-886b138eeb3f` · printing: MH2 #281 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Imperial Seal
 
@@ -850,6 +875,7 @@
   > *"Your presence at the palace this evening is required."*
   > *—Letter from Queen Marchesa*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #541 · Game Changer: **yes** · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/79/imperial-seal) · oracle_id `16cd0b90-f70c-4efa-b252-8de8784ef9a3` · printing: 2X2 #79 (2022-07-08) · [rulings](https://api.scryfall.com/cards/e71a6bd3-7478-4c3a-8ae0-98352ce28492/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Imperial Subduer
@@ -1234,7 +1260,10 @@
   > Whenever enchanted creature attacks or blocks, you may pay {1}. If you do, tap the creature, remove it from combat, and creatures it was blocking that had become blocked by only that creature this combat become unblocked. If you don't, destroy this Aura.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/leg/107/imprison) · oracle_id `632de66b-2314-4299-847c-16a84bf9121f` · printing: LEG #107 (1994-06-01) · [rulings](https://api.scryfall.com/cards/12671381-beb7-41b8-9484-97f8aca5c981/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Both abilities are triggered abilities. The first one triggers on the activating of a creature ability, and the second triggers on declaration of attacking or blocking.
+  - *2013-04-15* — A mana ability is an ability that (1) isn't a loyalty ability, (2) doesn't target, and (3) could add mana when it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/leg/107/imprison) · oracle_id `632de66b-2314-4299-847c-16a84bf9121f` · printing: LEG #107 (1994-06-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Imprisoned in the Moon
 
@@ -1247,7 +1276,13 @@
   > *Only one vault was great enough to hold Emrakul.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #765 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/69/imprisoned-in-the-moon) · oracle_id `339a7418-9a29-4eae-a3c2-ea590d175936` · printing: INR #69 (2025-01-24) · [rulings](https://api.scryfall.com/cards/0d150547-09f5-45ce-a825-89944b066bd4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2016-07-13* — At the time the permanent becomes enchanted, Imprisoned in the Moon causes it to lose all abilities except the noted mana ability. Any abilities the permanent gains after that point will work normally.
+  - *2016-07-13* — Becoming a land may cause other Auras to become illegally attached. These are put into their owner's graveyard, and any Equipment attached to the land become unattached and remain on the battlefield. Counters on the land remain on it even if they don't do anything.
+  - *2016-07-13* — If the enchanted permanent is a land and has land types, it retains those types even though it loses any intrinsic mana abilities associated with them. For example, a Plains enchanted by Imprisoned in the Moon is still a Plains, but it can't tap for {W}, only for {C}.
+  - *2016-07-13* — If you remove Imprisoned in the Moon from a planeswalker after tapping it for mana, you can still activate a loyalty ability of that planeswalker even though it's tapped.
+  - *2016-07-13* — The permanent will keep any supertypes it previously had. Notably, if Imprisoned in the Moon is enchanting a legendary permanent, that permanent will continue to be legendary.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/69/imprisoned-in-the-moon) · oracle_id `339a7418-9a29-4eae-a3c2-ea590d175936` · printing: INR #69 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Improbable Alliance
 
@@ -1349,7 +1384,18 @@
   > *"Do the innocent pay for the crimes of the guilty? Of course they do. That's the fate of the weak."*
   > *—Nicol Bolas*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #650 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/167/imps-mischief) · oracle_id `30ec73ad-c7a1-4527-8dc6-44bdd65b9ba6` · printing: CMM #167 (2023-08-04) · [rulings](https://api.scryfall.com/cards/0eb0e8e7-266f-441e-b1cd-12b8ec3f7d71/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2004-10-04* — If there is no other legal target for the spell, this does not change the target.
+  - *2004-10-04* — Once the spell resolves, the new target is considered to be targeted by the deflected spell. This will trigger any effects which trigger on being targeted.
+  - *2004-10-04* — The target of a spell that targets another spell on the stack can be changed to any other spell on the stack, even if the new target will resolve before the spell does.
+  - *2004-10-04* — This does not check if the current target is legal. It just checks if the spell has a single target.
+  - *2004-10-04* — This only targets the spell being changed, not the original or new target of the spell it is affecting.
+  - *2004-10-04* — You can choose to make a spell on the stack target this spell (if such a target choice would be legal had the spell been cast while this spell was on the stack). The new target for the deflected spell is not chosen until this spell resolves. This spell is still on the stack when new targets are selected for the spell.
+  - *2004-10-04* — You can't make a spell which is on the stack target itself.
+  - *2004-10-04* — You choose the spell to target on announcement, but you pick the new target for that spell on resolution.
+  - *2024-04-12* — If a spell targets multiple things, you can't target it with Imp's Mischief, even if all but one of those targets have become illegal.
+  - *2024-04-12* — You don't choose the new target for the spell until Imp's Mischief resolves. You must change the target if possible. However, you can't change the target to an illegal target. If there are no legal targets to choose from, the target isn't changed. It doesn't matter if the original target has somehow become illegal itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/167/imps-mischief) · oracle_id `30ec73ad-c7a1-4527-8dc6-44bdd65b9ba6` · printing: CMM #167 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Imps' Taunt
 

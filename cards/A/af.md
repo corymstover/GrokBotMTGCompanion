@@ -158,6 +158,7 @@
   > *"Could someone bring me more evidence markers? Like...a lot more?"*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #630 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/91/aftermath-analyst) · oracle_id `374e54d8-8e73-4268-9dde-c28c77bbbf32` · printing: EOC #91 (2025-08-01) · [rulings](https://api.scryfall.com/cards/66f135b4-8cb3-4a4e-86ae-81a3cf4b7259/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aftershock

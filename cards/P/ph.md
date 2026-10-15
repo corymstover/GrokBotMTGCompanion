@@ -1210,6 +1210,7 @@
   > *"Unskin these impure bodies, Great Yawgmoth, that the flesh may welcome your blessings."*
   > *—\*Phyrexian Scriptures\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #307 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/311/phyrexian-altar) · oracle_id `8d02b297-97c4-4379-9862-0a462400f66f` · printing: 2X2 #311 (2022-07-08) · [rulings](https://api.scryfall.com/cards/95d9f93c-50a8-41a9-be98-d1900bf1c12f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Archivist
@@ -1235,6 +1236,7 @@
 - **Flavor text** (FDN printing):
   > *A spark of resistance against a tide of corruption.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #104 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/180/phyrexian-arena) · oracle_id `ee579a32-a048-4335-b966-231ba731cdea` · printing: FDN #180 (2024-11-15) · [rulings](https://api.scryfall.com/cards/0784b6f0-9ebf-43d2-ba0f-a6bc93ba0c48/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Atlas
@@ -1757,7 +1759,16 @@
   > ({U/P} can be paid with either {U} or 2 life.)
   > You may have this creature enter as a copy of any artifact or creature on the battlefield, except it's an artifact in addition to its other types.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #313 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/75/phyrexian-metamorph) · oracle_id `340bbe8b-e987-4c3e-ab4e-9dee63e57d4f` · printing: EOC #75 (2025-08-01) · [rulings](https://api.scryfall.com/cards/a564c2e8-f49f-4ed7-850f-7c8bc92e4926/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2011-06-01* — Any "enters" abilities of the copied permanent will trigger when Phyrexian Metamorph enters. Any "as [this] enters" or "[this] enters with" abilities of the chosen permanent will also work.
+  - *2011-06-01* — Except for also being an artifact, Phyrexian Metamorph copies exactly what was printed on the original permanent and nothing more (unless that creature is itself copying something or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras attached to it, or any noncopy effects that have changed its power, toughness, types, color, and so on.
+  - *2011-06-01* — If Phyrexian Metamorph copies a noncreature artifact, it is no longer a creature.
+  - *2011-06-01* — If Phyrexian Metamorph somehow enters at the same time as another permanent (due to Mass Polymorph or Liliana Vess's third ability, for example), Phyrexian Metamorph can't become a copy of that permanent. You may choose only a permanent that's already on the battlefield.
+  - *2011-06-01* — If the chosen creature is copying something else (for example, if the chosen creature is a Clone), then your Phyrexian Metamorph enters as whatever the chosen creature copied, except it's also an artifact.
+  - *2011-06-01* — If the chosen permanent has {X} in its mana cost (such as Protean Hydra), X is considered to be zero.
+  - *2011-06-01* — If the chosen permanent is a token, Phyrexian Metamorph copies the original characteristics of that token as stated by the effect that put the token onto the battlefield, except it's also an artifact. Phyrexian Metamorph is not a token.
+  - *2011-06-01* — You can choose not to copy anything. In that case, Phyrexian Metamorph simply enters as a 0/0 artifact creature and is put into its owner's graveyard as a state-based action (unless something else is raising its toughness).
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/75/phyrexian-metamorph) · oracle_id `340bbe8b-e987-4c3e-ab4e-9dee63e57d4f` · printing: EOC #75 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Midway Bamboozle
 
@@ -2092,6 +2103,7 @@
   > *"A cursed silhouette to look upon. Even if the halls stand empty, its vile shadows blight the land. I shudder to think of the evils that it held."*
   > *—Koth*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #194 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/303/phyrexian-tower) · oracle_id `1861e642-21d5-4232-89f3-b5557f2946c1` · printing: MH3 #303 (2024-06-14) · [rulings](https://api.scryfall.com/cards/0b47f6d2-9f65-47a4-bfc4-15619befe53d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Tribute

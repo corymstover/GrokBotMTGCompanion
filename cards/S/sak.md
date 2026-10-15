@@ -99,6 +99,7 @@
 - **Flavor text** (SOC printing):
   > *He'd chosen a sunlit clearing with open skies and an ample brook. All that remained was to find a worthy sapling.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #114 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/285/sakura-tribe-elder) · oracle_id `e3afc704-220f-498f-9eaa-0821b17dc24c` · printing: SOC #285 (2026-04-24) · [rulings](https://api.scryfall.com/cards/7a8b1c49-8594-426d-b585-41140235bb0e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sakura-Tribe Scout

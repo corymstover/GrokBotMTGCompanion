@@ -204,7 +204,9 @@
   > If one or more tokens would be created under your control, twice that many of those tokens are created instead.
   > {1}{W/P}{W/P}, Sacrifice two other artifacts and/or creatures: Put an indestructible counter on Mondrak. ({W/P} can be paid with either {W} or 2 life.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #431 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/23/mondrak-glory-dominus) · oracle_id `fe83087d-c6c1-40be-9295-baaa1c6b2db1` · printing: ONE #23 (2023-02-10) · [rulings](https://api.scryfall.com/cards/8296a455-21d5-498e-9029-2bdf0da855a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-02-04* — Everything that is specified by the effect creating the original token or tokens will also be true about the additional token or tokens created by Mondrak's replacement effect. For example, if an effect tells you to create a token "tapped and attacking," the additional tokens will also be tapped and attacking. Similarly, if an effect creates a token and puts counters on it (such as a Fractal token) the additional token will also get those counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/23/mondrak-glory-dominus) · oracle_id `fe83087d-c6c1-40be-9295-baaa1c6b2db1` · printing: ONE #23 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mondronen Shaman // Tovolar's Magehunter
 

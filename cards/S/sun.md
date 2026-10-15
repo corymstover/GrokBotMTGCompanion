@@ -180,6 +180,7 @@
   > *"Loot is free to go where he wants, so let's make sure the kid gets there in one piece."*
   > *—Chandra Nalaar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #801 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/264/sunbillow-verge) · oracle_id `a202276b-1f1b-4277-95ee-26877a204f5e` · printing: DFT #264 (2025-02-14) · [rulings](https://api.scryfall.com/cards/94ed132f-b818-4dbf-9b4a-e5acb067e0a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunbird's Invocation
@@ -507,7 +508,17 @@
   - *Flavor text (MH3 printing):*
   > *Even the most seasoned adventurers think twice before testing their fortunes on the volcanic teeth of Akoum.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #702 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/248/sundering-eruption-volcanic-fissure) · oracle_id `c95309e9-5c2f-4518-b2fd-825d3d0a4ae0` · printing: MH3 #248 (2024-06-14) · [rulings](https://api.scryfall.com/cards/50686ac7-346c-43d1-bdaa-28d46a12ad93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-06-07* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2024-06-07* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect. For example, if an effect allows you to play lands from your graveyard, you can play Garden of Freyalise, but you can't cast Disciple of Freyalise.
+  - *2024-06-07* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2024-06-07* — If an effect allows you to put a card with particular characteristics onto the battlefield without instructing you to play or cast it, you consider only the characteristics of a modal double-faced card's front face to see if that card qualifies. If it does, it enters the battlefield with its front face up. For example, if an effect allows you to put a creature card from your graveyard onto the battlefield, you can put Disciple of Freyalise onto the battlefield. However, an effect that lets you return a land card from your graveyard to your hand won't let you return Garden of Freyalise to your hand, as that card has only its front face's characteristics while in the graveyard.
+  - *2024-06-07* — If the target land is an illegal target when Sundering Eruption tries to resolve, it won't resolve and none of its effects will happen. That land's controller won't get to search for a basic land card, and creatures without flying will still be able to block this turn.
+  - *2024-06-07* — If the target land isn't destroyed by Sundering Eruption's effect (perhaps because the land has indestructible), its controller still gets to search for a basic land card, and creatures without flying still can't block this turn.
+  - *2024-06-07* — The effect of Sundering Eruption prevents all creatures without flying from blocking that turn, including creatures that lose flying after Sundering Eruption resolves and creatures without flying that enter the battlefield later in the turn. Creatures without flying that gain flying later in the turn will be able to block if they have flying when blockers are being declared.
+  - *2024-06-07* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2024-06-07* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics. For example, if an effect stops you from casting creature spells, you can't cast Disciple of Freyalise, but you can still play Garden of Freyalise.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/248/sundering-eruption-volcanic-fissure) · oracle_id `c95309e9-5c2f-4518-b2fd-825d3d0a4ae0` · printing: MH3 #248 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sundering Fork
 
@@ -551,7 +562,12 @@
   > *"Even if we defeat it, what remains to be saved?"*
   > *—Glissa Sunseeker*
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/292/sundering-titan) · oracle_id `d17d071d-dbee-4d65-8435-137f35cd89ca` · printing: 2XM #292 (2020-08-07) · [rulings](https://api.scryfall.com/cards/a2ebb5d3-72b1-411d-8c90-83dac5b37898/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-08-07* — If a land has more than one basic land type, it can be chosen more than once.
+  - *2020-08-07* — If one of the basic land types isn't present, it isn't chosen. If the only land of a certain type is one you control, you must choose it.
+  - *2020-08-07* — Players can't take actions in between the time you choose the lands and the time you destroy them. Notably, they can't activate mana abilities of those lands.
+  - *2020-08-07* — Sundering Titan's ability isn't targeted. When it resolves, Sundering Titan's controller must choose one land for each basic land type (Plains, Island, Swamp, Mountain, and Forest), and then they are destroyed simultaneously.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/292/sundering-titan) · oracle_id `d17d071d-dbee-4d65-8435-137f35cd89ca` · printing: 2XM #292 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sundering Vitae
 
@@ -624,6 +640,7 @@
   > *"Study of the past is preparation for the future. My fail-safe spell, activated upon my death, was precaution born from tales of the careless."*
   > *—Augusta, dean of order*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #259 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/264/sundown-pass) · oracle_id `5ad0b405-cca4-475e-985c-4d7e3599d87e` · printing: SOS #264 (2026-04-24) · [rulings](https://api.scryfall.com/cards/b34000e9-ff20-4fb4-9d0b-03a172a92457/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sun Droplet
@@ -647,7 +664,9 @@
   > *—Heliod*
 - **Keywords:** Incubate, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3524 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/36/sunfall) · oracle_id `fb3f5097-0da0-458c-8508-60823567e2da` · printing: FRC #36 (2026-10-02) · [rulings](https://api.scryfall.com/cards/a560b9a7-4c00-4c0c-b63d-774d3f6b9aa9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-04-14* — If Sunfall resolves but doesn't exile any creatures, you'll incubate 0, creating an Incubator token but putting no +1/+1 counters on it. It will still have the ability to transform, but you might need to figure out how it's going to survive first.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/36/sunfall) · oracle_id `fb3f5097-0da0-458c-8508-60823567e2da` · printing: FRC #36 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunfire Balm
 
@@ -778,6 +797,7 @@
   > *"We learn many lessons from nature, my son. See how the panther patiently stalks the herd through the tall grass, waiting for the right moment to strike?"*
   > *—King T'Chaka, to his young son T'Challa*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #434 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/270/sungrass-prairie) · oracle_id `0a28dff0-2bd6-4105-b73a-b6c4735833fd` · printing: MSC #270 (2026-06-26) · [rulings](https://api.scryfall.com/cards/841f369e-6532-469c-8565-78094b33a3d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunhome Enforcer
@@ -885,7 +905,11 @@
 - **Flavor text** (MSC printing):
   > *There are regions of Subterranea where even the Moloids dare not tread, lest they never return. Or worse, lest they do.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #86 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/271/sunken-hollow) · oracle_id `cd2c90ac-2b04-461c-92f3-939871b6b6a3` · printing: MSC #271 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3a8eef9b-9b03-42cd-a27a-07021bf0b33f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-08-25* — Even though these lands have basic land types, they are not basic lands because "basic" doesn't appear on their type line. Notably, controlling two or more of them won't allow others to enter the battlefield untapped.
+  - *2015-08-25* — However, because these cards have basic land types, effects that specify a basic land type without also specifying that the land be basic can affect them. For example, a spell or ability that reads "Destroy target Forest" can target Canopy Vista, while one that reads "Destroy target basic Forest" cannot.
+  - *2015-08-25* — If one of these lands enters the battlefield at the same time as any number of basic lands, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/271/sunken-hollow) · oracle_id `cd2c90ac-2b04-461c-92f3-939871b6b6a3` · printing: MSC #271 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunken Hope
 
@@ -997,7 +1021,10 @@
   > *"Birnin Zana is not a cold and dead city like those of other nations. Our city lives. It \*thrives\*."*
   > *—Queen Mother Ramonda*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #132 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/272/sunpetal-grove) · oracle_id `402ec768-76fb-474e-ae74-babc90d833c4` · printing: MSC #272 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e83092ee-4a90-4eac-915f-3fd01b7d9bd0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-10-01* — As this is entering, it checks for lands that are already on the battlefield. It won't see lands that are entering at the same time (due to Warp World, for example).
+  - *2009-10-01* — This checks for lands you control with the land type Forest or Plains, not for lands named Forest or Plains. The lands it checks for don't have to be basic lands. For example, if you control Hallowed Fountain (a nonbasic land with the land types Plains and Island), Sunpetal Grove will enter untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/272/sunpetal-grove) · oracle_id `402ec768-76fb-474e-ae74-babc90d833c4` · printing: MSC #272 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sun Quan, Lord of Wu
 
@@ -1133,6 +1160,7 @@
 - **Flavor text** (SOC printing):
   > *Majesty rising above the arid sweep of land, a bulwark horizon against the mundane, a divide cleaving inspiration from stagnation.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #821 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/410/sunscorched-divide) · oracle_id `8d2b2675-19df-4f40-9e8e-196ec097b91c` · printing: SOC #410 (2026-04-24) · [rulings](https://api.scryfall.com/cards/eae999f9-9c58-4609-8ade-aca0acf07519/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunscorch Regent
@@ -1447,7 +1475,12 @@
   > *A blazing sun that never sets.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #314 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/178/sun-titan) · oracle_id `b2e950fb-cb7e-40a0-a311-5bbdd0477b29` · printing: SOC #178 (2026-04-24) · [rulings](https://api.scryfall.com/cards/3d6eacf2-f6c7-4ede-b5a5-7463602699ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2010-08-15* — A permanent card is an artifact, creature, enchantment, land, or planeswalker card.
+  - *2010-08-15* — If a card in your graveyard has no mana symbols in its upper right corner (because it's a land card, for example), its mana value is 0.
+  - *2010-08-15* — If the mana cost of a card in your graveyard includes {X}, X is considered to be 0.
+  - *2010-08-15* — The mana value of a card in your graveyard is determined solely by the mana symbols printed in its upper right corner. The mana value is the total amount of mana in that cost, regardless of color. For example, a card with mana cost {3}{U}{U} has mana value 5.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/178/sun-titan) · oracle_id `b2e950fb-cb7e-40a0-a311-5bbdd0477b29` · printing: SOC #178 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suntouched Myr
 

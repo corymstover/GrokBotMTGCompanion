@@ -615,6 +615,7 @@
   > *—\*Scroll of Beginnings\**
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #831 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/170/wonder) · oracle_id `232284f7-c623-4895-9ab9-8b1a39926830` · printing: TDC #170 (2025-04-11) · [rulings](https://api.scryfall.com/cards/567abd78-d4a3-4a33-9b5b-b5ca361059cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wonder Man, Hollywood Hero
@@ -735,6 +736,7 @@
 - **Flavor text** (MH3 printing):
   > *Home and hunting ground for Kaldheim's fearsome trolls.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #47 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/236/wooded-foothills) · oracle_id `6587a463-a108-4854-b6d1-944e89b8c8a4` · printing: MH3 #236 (2024-06-14) · [rulings](https://api.scryfall.com/cards/4e11ea8a-f895-438d-a3b7-f070238e4161/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wooded Ridgeline
@@ -770,7 +772,9 @@
 - **Flavor text** (HOB printing):
   > *After the coming of Humans, the Wood-Elves took ever more and more to the gloaming and the dusk. Still Elves they were and remained—that is, Good People.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #678 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/142/wood-elves) · oracle_id `8973bd99-20f8-4867-90ef-50392147ee1b` · printing: HOB #142 (2026-08-14) · [rulings](https://api.scryfall.com/cards/2476e42b-b209-4207-8ed9-cb668f89b218/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/142/wood-elves) · oracle_id `8973bd99-20f8-4867-90ef-50392147ee1b` · printing: HOB #142 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wooden Cane
 
@@ -858,6 +862,7 @@
   > *"They never found the body of young Josu, or that of his murderous sister."*
   > *—"The Fall of the House of Vess"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #111 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/424/woodland-cemetery) · oracle_id `c9fe1383-1331-4a58-a45a-3320250221a9` · printing: SOC #424 (2026-04-24) · [rulings](https://api.scryfall.com/cards/4d6f6c96-f813-4864-b4e1-b2a0aa8be1e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Woodland Champion
@@ -1495,7 +1500,16 @@
   > (Start the game with this conspiracy face up in the command zone.)
   > As long as every card in your card pool started the game in your library or in the command zone, lands you control have "{T}: Add one mana of any color."
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/13/worldknit) · oracle_id `652f6d90-b158-4f9b-a15e-3e677905331d` · printing: CNS #13 (2014-06-06) · [rulings](https://api.scryfall.com/cards/7f1fe849-b407-4252-b175-3f4afbbcea1b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2014-05-29* — Your card pool includes every card you drafted or received after the draft because of Deal Broker. It doesn't include any cards removed from the draft with Cogwork Grinder.
+  - *2016-08-23* — A conspiracy doesn't count as a card in your deck for purposes of meeting minimum deck size requirements. (In most drafts, the minimum deck size is 40 cards.)
+  - *2016-08-23* — A conspiracy's static and triggered abilities function as long as that conspiracy is face-up in the command zone.
+  - *2016-08-23* — Conspiracies are colorless, have no mana cost, and can't be cast as spells.
+  - *2016-08-23* — Conspiracies are never put into your deck. Instead, you put any number of conspiracies from your card pool into the command zone as the game begins. These conspiracies are face up unless they have hidden agenda, in which case they begin the game face down.
+  - *2016-08-23* — Conspiracies aren't legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft.
+  - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
+  - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/13/worldknit) · oracle_id `652f6d90-b158-4f9b-a15e-3e677905331d` · printing: CNS #13 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Worldly Counsel
 
@@ -1518,7 +1532,9 @@
 - **Flavor text** (DMR printing):
   > *"All of us, from the tiny leaf-mite to the towering baloth, are vital threads in the weave of life."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #171 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/185/worldly-tutor) · oracle_id `e8863518-0bfa-49c3-8c6e-6c9116a81051` · printing: DMR #185 (2023-01-13) · [rulings](https://api.scryfall.com/cards/f39aa2e9-e294-4ce6-bf5e-e1f579101a7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/185/worldly-tutor) · oracle_id `e8863518-0bfa-49c3-8c6e-6c9116a81051` · printing: DMR #185 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### World Map
 
@@ -1820,6 +1836,7 @@
 - **Flavor text** (MH3 printing):
   > *Even a fragment of a powerstone contains within it not just energy, but space—vast dimensions trapped in fragile crystal.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #571 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/298/worn-powerstone) · oracle_id `b166b670-febc-4821-855e-f8d465644c03` · printing: MH3 #298 (2024-06-14) · [rulings](https://api.scryfall.com/cards/ace686ad-9e3f-41b3-b8eb-d1b6d45eb4e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Worry Beads

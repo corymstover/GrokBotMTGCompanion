@@ -253,7 +253,12 @@
   > {T}: Add {C}.
   > {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type, and that spell can't be countered.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #110 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/269/cavern-of-souls) · oracle_id `89ca686a-7c72-4d8f-9290-e89635624a83` · printing: LCI #269 (2023-11-17) · [rulings](https://api.scryfall.com/cards/3aad15a2-8a1b-4460-9b06-e85863081878/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-12-07* — The spell can't be countered if the mana produced by Cavern of Souls is spent to cover any cost of the spell, even an additional cost such as a kicker cost. This is true even if you use the mana to pay an additional cost while casting a spell "without paying its mana cost."
+  - *2018-12-07* — You must choose an existing creature type, such as Human or Warrior. Card types such as artifact can't be chosen.
+  - *2023-11-10* — The spell can't be countered if the mana produced by Cavern of Souls is spent to cover any cost of the spell, even an additional cost such as a kicker cost. This is true even if you use the mana to pay an additional cost while casting a spell "without paying its mana cost."
+  - *2023-11-10* — You must choose an existing creature type, such as Human or Warrior. Card types such as artifact can't be chosen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/269/cavern-of-souls) · oracle_id `89ca686a-7c72-4d8f-9290-e89635624a83` · printing: LCI #269 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cavernous Maw
 
@@ -348,7 +353,10 @@
 - **Flavor text** (FRC printing):
   > *After years of silence, the caves once again echo with the grisly sounds of Phyrexians preparing for war.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #124 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/66/caves-of-koilos) · oracle_id `33de01e9-ce5a-42d4-afcb-343cd54a6d80` · printing: FRC #66 (2026-10-02) · [rulings](https://api.scryfall.com/cards/ca814c7c-9908-4727-b556-3f85bfd653ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-06-22* — Like most lands, each land in this cycle is colorless. The damage dealt to you is dealt by a colorless source.
+  - *2015-06-22* — The damage dealt to you is part of the second mana ability. It doesn't use the stack and can't be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/66/caves-of-koilos) · oracle_id `33de01e9-ce5a-42d4-afcb-343cd54a6d80` · printing: FRC #66 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cave Tiger
 

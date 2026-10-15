@@ -138,7 +138,10 @@
   > *It spilled the blood of one elder dragon. In Gideon's hands, it may yet taste another's.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #356 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/178/blackblade-reforged) · oracle_id `dca51281-fb21-45b6-beb4-1f13397caee2` · printing: DMC #178 (2022-09-09) · [rulings](https://api.scryfall.com/cards/240448cd-c308-49ae-9e4b-0c35adc59fba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-04-27* — "Equip [quality] creature" is a variant of the equip keyword. "Equip [quality] creature [cost]" means "[Cost]: Attach this Equipment to target [quality] creature you control. Activate only as a sorcery."
+  - *2018-04-27* — Whether the target creature is legendary is checked only as Blackblade Reforged's first equip ability is activated and as that ability resolves. If the creature somehow becomes nonlegendary later, Blackblade Reforged remains attached to it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/178/blackblade-reforged) · oracle_id `dca51281-fb21-45b6-beb4-1f13397caee2` · printing: DMC #178 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blackbloom Rogue // Blackbloom Bog
 
@@ -323,6 +326,7 @@
 - **Oracle text:**
   > {T}, Sacrifice this artifact: Add three mana of any one color.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/4/black-lotus) · oracle_id `5089ec1a-f881-4d55-af14-5d996171203b` · printing: VMA #4 (2014-06-16) · [rulings](https://api.scryfall.com/cards/bd8fa327-dd41-4737-8f19-2cf5eb1f7cdd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Black Mage's Rod
@@ -366,7 +370,9 @@
   > Whenever a creature dies, put a charge counter on this enchantment.
   > At the beginning of your first main phase, add {B} for each charge counter on this enchantment.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #680 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/739/black-market) · oracle_id `21338b71-37f5-4121-9b84-565025ebcd17` · printing: CLB #739 (2022-06-10) · [rulings](https://api.scryfall.com/cards/78c80c6d-f3ae-48d3-ba6a-b9b738e1affb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Getting the mana is not optional.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/739/black-market) · oracle_id `21338b71-37f5-4121-9b84-565025ebcd17` · printing: CLB #739 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Black Market Connections
 
@@ -379,6 +385,7 @@
   > • Hire a Mercenary — Create a 3/2 colorless Shapeshifter creature token with changeling. You lose 3 life. (It is every creature type.)
 - **Keywords:** Hire a Mercenary, Treasure, Sell Contraband, Buy Information
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #129 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/155/black-market-connections) · oracle_id `d2664f28-49e1-46f8-a863-b217e961a57c` · printing: MSC #155 (2026-06-26) · [rulings](https://api.scryfall.com/cards/9d9ca869-e68a-4f53-9f52-85c714dac6f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Black Market Tycoon
@@ -1183,7 +1190,12 @@
   > *"Now watch as I do what you could not."*
   > *—Namor the Sub-Mariner*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/163/blasphemous-act) · oracle_id `7a2484a9-04fd-41a0-8224-610c1c07ed10` · printing: MSC #163 (2026-06-26) · [rulings](https://api.scryfall.com/cards/7d4b1d44-126e-4987-9a9f-f0f9627a09cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-11-10* — Although players may respond to Blasphemous Act once it's been cast, once it's announced, they can't respond before the cost is calculated and paid.
+  - *2020-11-10* — Blasphemous Act's ability can't reduce the total cost to cast the spell below {R}.
+  - *2020-11-10* — The total cost to cast Blasphemous Act is locked in before you pay that cost. For example, if there are three creatures on the battlefield, including one you can sacrifice to add {C}, the total cost of Blasphemous Act is {5}{R}. Then you can sacrifice the creature when you activate mana abilities just before paying the cost.
+  - *2020-11-10* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Blasphemous Act). The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/163/blasphemous-act) · oracle_id `7a2484a9-04fd-41a0-8224-610c1c07ed10` · printing: MSC #163 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blasphemous Edict
 
@@ -1196,7 +1208,10 @@
   > *"A demonic pact is all fun and games until the bill comes due."*
   > *—Liliana Vess*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #500 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/57/blasphemous-edict) · oracle_id `6cf50e21-0f60-4e9a-b910-ebe1bad2a29e` · printing: FDN #57 (2024-11-15) · [rulings](https://api.scryfall.com/cards/11040ecd-3153-4029-b42b-1441bc51ec34/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — If a player controls fewer than thirteen creatures when Blasphemous Edict resolves, they will sacrifice all of their creatures.
+  - *2024-11-08* — Starting with the player whose turn it is, each player in turn order chooses which creatures they will sacrifice, then all the creatures chosen by all players are sacrificed at the same time. Players get to know the choices made by players who chose before them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/57/blasphemous-edict) · oracle_id `6cf50e21-0f60-4e9a-b910-ebe1bad2a29e` · printing: FDN #57 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blasted Landscape
 
@@ -1374,6 +1389,7 @@
 - **Flavor text** (DSK printing):
   > *Here, the Balemurk spits and boils, the oppressive darkness pierced by scorching spears of fire.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #496 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/256/blazemire-verge) · oracle_id `977c2f33-b622-4172-9efb-7f523becd32b` · printing: DSK #256 (2024-09-27) · [rulings](https://api.scryfall.com/cards/d151c8e2-d715-470d-868a-f45191db9fa0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blaze of Glory

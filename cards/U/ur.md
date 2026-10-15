@@ -432,7 +432,12 @@
   > *"Yawgmoth's corpse is a wound in the universe. His foul blood seeps out, infecting the land with his final curse."*
   > *—Lord Windgrace*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #75 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/287/urborg-tomb-of-yawgmoth) · oracle_id `db6174d7-211d-4817-b8e4-8384594c83f9` · printing: TSR #287 (2021-03-19) · [rulings](https://api.scryfall.com/cards/9e1a9e38-6ffc-490f-b0be-23ba4e8204c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-03-19* — If an effect such as that of Magus of the Moon causes Urborg to lose its abilities by setting it to a basic land type not in addition to its other types, it won't turn lands into Swamps, no matter in what order those effects started to apply.
+  - *2021-03-19* — Land cards not on the battlefield aren't Swamps while Urborg is on the battlefield.
+  - *2021-03-19* — Urborg's ability causes each land on the battlefield to have the land type Swamp. Any land that's a Swamp has the ability "{T}: Add {B}." Nothing else changes about those lands, including their names, other subtypes, other abilities, and whether they're legendary, basic, or snow.
+  - *2021-03-19* — Urborg, Tomb of Yawgmoth isn't a Swamp while it's not on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/287/urborg-tomb-of-yawgmoth) · oracle_id `db6174d7-211d-4817-b8e4-8384594c83f9` · printing: TSR #287 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urborg Uprising
 
@@ -749,7 +754,14 @@
   > Tap an untapped artifact you control: Add {U}.
   > {5}: Shuffle your library, then exile the top card. Until end of turn, you may play that card without paying its mana cost.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #802 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/130/urza-lord-high-artificer) · oracle_id `e87906d2-db1a-4e19-b910-adb4eb339945` · printing: CMM #130 (2023-08-04) · [rulings](https://api.scryfall.com/cards/7b7a348a-51f7-4dc5-8fe7-1c70fea5e050/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-12-08* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2022-12-08* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2022-12-08* — If you don't play the card exiled with Urza's last ability, it remains in exile.
+  - *2022-12-08* — The token created by Urza's first ability will count itself, so it'll be at least 1/1.
+  - *2022-12-08* — Urza's last ability doesn't change when you can play the exiled card. For example, if you exile a sorcery card, you can cast it only during your main phase when the stack is empty. If you exile a land card, you can play it only during your main phase and only if you have an available land play remaining.
+  - *2022-12-08* — You can tap any untapped artifact you control to pay the cost of the mana ability, including an artifact creature you haven't controlled continuously since the beginning of your most recent turn. Tapping an Equipment this way won't affect its abilities or the equipped creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/130/urza-lord-high-artificer) · oracle_id `e87906d2-db1a-4e19-b910-adb4eb339945` · printing: CMM #130 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza, Lord Protector
 
@@ -859,6 +871,7 @@
 - **Flavor text** (MH3 printing):
   > *No matter how deep Urza delved, he couldn't escape his regrets.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #440 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/234/urzas-cave) · oracle_id `4474ecee-0ec3-409b-90df-738d9313fe3c` · printing: MH3 #234 (2024-06-14) · [rulings](https://api.scryfall.com/cards/926916ed-2f22-4ba9-9427-194886ad6c1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Chalice
@@ -1013,7 +1026,10 @@
   > *"Our recruitment drives are bringing in fewer fresh troops every day. We need a new strategy."*
   > *—Urza, to Tawnos*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #311 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/297/urzas-incubator) · oracle_id `b380c04b-0bce-4328-8f0a-1425e48bee72` · printing: MH3 #297 (2024-06-14) · [rulings](https://api.scryfall.com/cards/c4589226-6072-409b-b598-ebd87f675a6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Multiple Incubators are cumulative.
+  - *2004-10-04* — You choose a creature type right as it enters, before any continuous effects are applied or trigged abilities trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/297/urzas-incubator) · oracle_id `b380c04b-0bce-4328-8f0a-1425e48bee72` · printing: MH3 #297 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Mine
 
@@ -1024,7 +1040,10 @@
 - **Flavor text** (CMM printing):
   > *In his hunger for power and knowledge, Urza dug deep into Dominaria's ancient past.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #840 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1051/urzas-mine) · oracle_id `33e85a8a-86df-4cdc-a9cc-8cbabe92c3c0` · printing: CMM #1051 (2023-08-04) · [rulings](https://api.scryfall.com/cards/396bbb7d-ae61-4d8d-b931-9ed2f712832e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — If you have at least one of each of the three Urza's lands on the battlefield, you must take the 2 mana instead of just one.
+  - *2024-06-07* — The ability checks for land types, not the names of other permanents you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1051/urzas-mine) · oracle_id `33e85a8a-86df-4cdc-a9cc-8cbabe92c3c0` · printing: CMM #1051 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Miter
 
@@ -1044,7 +1063,10 @@
 - **Flavor text** (CMM printing):
   > *Urza threw himself into his research, pushing the boundaries of both possibility and morality.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #842 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1052/urzas-power-plant) · oracle_id `e11966cd-2ee3-4df4-b099-abf42dcdf0db` · printing: CMM #1052 (2023-08-04) · [rulings](https://api.scryfall.com/cards/b0449a19-37f7-4169-9e32-928db5ec76fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — If you have at least one of each of the three Urza's lands on the battlefield, you must take the 2 mana instead of just one.
+  - *2024-06-07* — The ability checks for land types, not the names of other permanents you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1052/urzas-power-plant) · oracle_id `e11966cd-2ee3-4df4-b099-abf42dcdf0db` · printing: CMM #1052 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Rage
 
@@ -1094,7 +1116,13 @@
   > II — This Saga gains "{2}, {T}: Create a 0/0 colorless Construct artifact creature token with 'This token gets +1/+1 for each artifact you control.'"
   > III — Search your library for an artifact card with mana cost {0} or {1}, put it onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #117 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/259/urzas-saga) · oracle_id `4c6a0c30-b547-4eff-8ff4-0ca25803c076` · printing: MH2 #259 (2021-06-18) · [rulings](https://api.scryfall.com/cards/c1e0f201-42cb-46a1-901a-65bb4fc18f6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-06-18* — Although Urza's Saga has the Urza's land type, it doesn't interact with Urza's Tower, Urza's Mine, or Urza's Power Plant.
+  - *2021-06-18* — Even though Urza's Saga is a land, it is also still a Saga, and it will be sacrificed after its last chapter ability resolves.
+  - *2021-06-18* — Urza's Saga gains an ability from its first and second chapters. It keeps those abilities for as long as it's on the battlefield.
+  - *2021-06-18* — Urza's Saga is a land, so it can only be played as a land. It cannot be cast as a spell.
+  - *2021-06-18* — While resolving the chapter III ability, you can find only a card with actual mana cost {0} or {1}, not mana value 0 or 1. For example, you couldn't find a card with mana cost {U} or one with mana cost {X}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/259/urzas-saga) · oracle_id `4c6a0c30-b547-4eff-8ff4-0ca25803c076` · printing: MH2 #259 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Science Fair Project
 
@@ -1143,7 +1171,9 @@
 - **Flavor text** (CMM printing):
   > *Urza studied the creations of the Thran not simply to learn from them, but to surpass them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #832 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1053/urzas-tower) · oracle_id `32fbb638-ab14-4e8b-a07a-d4c44e3496f2` · printing: CMM #1053 (2023-08-04) · [rulings](https://api.scryfall.com/cards/1e9f09b3-dd2d-4ba9-a57e-4f3c1793f752/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-06-07* — The ability checks for land types, not the names of other permanents you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1053/urzas-tower) · oracle_id `32fbb638-ab14-4e8b-a07a-d4c44e3496f2` · printing: CMM #1053 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Workshop
 

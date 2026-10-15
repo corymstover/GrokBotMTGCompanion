@@ -130,7 +130,9 @@
 - **Flavor text** (TDC printing):
   > *"Arise, great one, and cleanse the world of our enemies!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #191 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/319/idol-of-oblivion) · oracle_id `c232d974-9c65-4bce-b045-e5a7cc0c62e0` · printing: TDC #319 (2025-04-11) · [rulings](https://api.scryfall.com/cards/cbc25725-1485-4d98-abe1-906520f868d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-08-23* — You can activate Idol of Oblivion's first ability even if the token you've created was created before Idol of Oblivion entered the battlefield or if the token has left the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/319/idol-of-oblivion) · oracle_id `c232d974-9c65-4bce-b045-e5a7cc0c62e0` · printing: TDC #319 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Idol of the Deep King // Sovereign's Macuahuitl
 
@@ -194,4 +196,5 @@
 - **Flavor text** (THB printing):
   > *"You are loved, child."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #754 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/24/idyllic-tutor) · oracle_id `57c9ff89-dd30-467b-bb3e-499eeea8cb94` · printing: THB #24 (2020-01-24) · [rulings](https://api.scryfall.com/cards/f06edd53-f3ac-44b0-a087-5670ba8f0fa5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

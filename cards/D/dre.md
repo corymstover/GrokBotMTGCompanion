@@ -439,7 +439,15 @@
   > *Those who forget the horrors of the past are doomed to re-meet them.*
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #539 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/153/dread-return) · oracle_id `352b64d2-2ae5-44ee-a64f-94932ef545d3` · printing: CMM #153 (2023-08-04) · [rulings](https://api.scryfall.com/cards/34a87901-98bb-41dd-b566-bcb510c20022/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-03-19* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+  - *2022-12-08* — You choose the target for Dread Return before paying any of its costs, so it's not possible to cast it using flashback and bring back one of the creatures you sacrifice.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/153/dread-return) · oracle_id `352b64d2-2ae5-44ee-a64f-94932ef545d3` · printing: CMM #153 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dread Rider
 
@@ -896,6 +904,7 @@
   > *"Nature is chaos governed by principle. In analyzing these patterns, I hope to protect Strixhaven's future from any more tragedy."*
   > *—Adrix, dean of theory*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #174 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/254/dreamroot-cascade) · oracle_id `dd8538e6-cd5f-4a88-aff5-eb5e76ce8ddb` · printing: SOS #254 (2026-04-24) · [rulings](https://api.scryfall.com/cards/ef662b92-5a7f-48c9-bcc1-14b55e091aef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dream Salvage

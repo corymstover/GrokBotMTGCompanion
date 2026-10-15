@@ -625,7 +625,13 @@
   > Delirium — {2}{G}{G}: This land becomes a copy of target permanent card in your graveyard until end of turn. Activate only if there are four or more card types among cards in your graveyard.
 - **Keywords:** Delirium
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #361 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/228/shifting-woodland) · oracle_id `7c2a4fe5-43e8-4e20-bef2-0278d18afc4b` · printing: MH3 #228 (2024-06-14) · [rulings](https://api.scryfall.com/cards/059164e1-894d-4586-9800-e60d6fbd6eb6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-06-07* — Any effects that applied to Shifting Woodland before it becomes a copy of another card will continue to apply after it becomes a copy. The same is true of any counters that are on Shifting Woodland.
+  - *2024-06-07* — Because Shifting Woodland isn't entering the battlefield when it becomes a copy of a card, any "When [this creature] enters the battlefield" or "[This creature] enters the battlefield with" abilities of the copied card won't apply.
+  - *2024-06-07* — If a card in your graveyard has {X} in its mana cost, X is considered to be 0.
+  - *2024-06-07* — Shifting Woodland copies exactly what was printed on the original card and nothing else. It doesn't copy any information about the object the card was before it was put into your graveyard.
+  - *2024-06-07* — You must already control a Forest as Shifting Woodland enters the battlefield for it to enter untapped. If it enters the battlefield at the same time as a Forest when you control no other Forests, it will enter tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/228/shifting-woodland) · oracle_id `7c2a4fe5-43e8-4e20-bef2-0278d18afc4b` · printing: MH3 #228 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shifty Doppelganger
 
@@ -1010,7 +1016,12 @@
 - **Flavor text** (SOC printing):
   > *A flickering beacon of righteous corruption.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #422 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/403/shineshadow-snarl) · oracle_id `c9fc13d6-bd10-47bc-b2b6-7f67a1f3371e` · printing: SOC #403 (2026-04-24) · [rulings](https://api.scryfall.com/cards/7a198106-4d31-4e10-884a-bdf2316f8088/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-04-16* — If a land card with an appropriate subtype is entering the battlefield from your hand at the same time as one of these lands, you may reveal the other land to have the "Snarl" enter untapped.
+  - *2021-04-16* — If an effect instructs you to put one of these lands onto the battlefield tapped, it will still enter the battlefield tapped even if you reveal a land card from your hand.
+  - *2021-04-16* — The "Snarl" itself doesn't have any land subtypes. You can't reveal one to satisfy the ability of another.
+  - *2021-04-16* — You may reveal any land card with either or both of the appropriate subtypes. It doesn't have to be a basic land card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/403/shineshadow-snarl) · oracle_id `c9fc13d6-bd10-47bc-b2b6-7f67a1f3371e` · printing: SOC #403 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shinestriker
 
@@ -1175,7 +1186,9 @@
 - **Flavor text** (FRA printing):
   > *Jace remembered the ship. The captain who saw him through. He remembered how losing a part of himself had only made him stronger.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #227 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/189/shipwreck-marsh) · oracle_id `5f42b67f-87fd-4f98-a0e8-0c8313f4bbc8` · printing: FRA #189 (2026-10-02) · [rulings](https://api.scryfall.com/cards/9e944c5b-68ac-4a30-bbd4-09a4288319ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-09-24* — If this land enters the battlefield at the same time as any number of other lands, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/189/shipwreck-marsh) · oracle_id `5f42b67f-87fd-4f98-a0e8-0c8313f4bbc8` · printing: FRA #189 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shipwreck Moray
 
@@ -1468,7 +1481,10 @@
 - **Flavor text** (FRC printing):
   > *The boiling seas around Shiv provided a welcome layer of protection for the reclaimed Mana Rig.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #113 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/83/shivan-reef) · oracle_id `0fe16212-66c3-4e45-a641-7391e9b2e304` · printing: FRC #83 (2026-10-02) · [rulings](https://api.scryfall.com/cards/9fb3938c-9ecf-46cc-865a-0091455419f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-06-22* — Like most lands, each land in this cycle is colorless. The damage dealt to you is dealt by a colorless source.
+  - *2015-06-22* — The damage dealt to you is part of the second mana ability. It doesn't use the stack and can't be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/83/shivan-reef) · oracle_id `0fe16212-66c3-4e45-a641-7391e9b2e304` · printing: FRC #83 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shivan Sand-Mage
 
@@ -1547,6 +1563,7 @@
 - **Flavor text** (DMC printing):
   > *Centuries ago, Shizo was a verdant field of wildflowers. After 891 samurai died in a single battle on its grasses, it became a haunted moor.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #623 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/233/shizo-deaths-storehouse) · oracle_id `008f2698-1721-45a3-8353-10f2f400dc8f` · printing: DMC #233 (2022-09-09) · [rulings](https://api.scryfall.com/cards/099352e2-38c8-4fb4-a25f-6d928aa20f9e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shizuko, Caller of Autumn

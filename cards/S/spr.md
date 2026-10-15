@@ -142,7 +142,9 @@
 - **Flavor text** (FDN printing):
   > *"New growth applies a healing poultice to wounds long scabbed over."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #782 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/767/springbloom-druid) · oracle_id `788a4896-3414-40bf-b391-d2efea2fb5f9` · printing: FDN #767 (2026-04-24) · [rulings](https://api.scryfall.com/cards/17d67b88-3f76-401f-b04a-f2bcaab4aa97/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-06-14* — While resolving Springbloom Druid's triggered ability, you can't sacrifice multiple lands to search for more than two basic land cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/767/springbloom-druid) · oracle_id `788a4896-3414-40bf-b391-d2efea2fb5f9` · printing: FDN #767 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spring Cleaning
 
@@ -165,7 +167,17 @@
   > Landfall — Whenever a land you control enters, you may pay {1}{G} if this permanent is attached to a creature you control. If you do, create a token that's a copy of that creature. If you didn't create a token this way, create a 1/1 green Insect creature token.
 - **Keywords:** Bestow, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #706 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/171/springheart-nantuko) · oracle_id `8a3ad2ef-8bcb-40c0-85de-f03328c2b644` · printing: MH3 #171 (2024-06-14) · [rulings](https://api.scryfall.com/cards/54a3ea87-005e-4985-b2a5-21711d0b71c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-06-07* — Auras attached to a creature don't become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature.
+  - *2024-06-07* — If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can't choose to pay the bestow cost and have it become an Aura.
+  - *2024-06-07* — If you don't pay {1}{G}, either because you simply chose not to or because Springheart Nantuko isn't attached to a creature you control, you'll still create a 1/1 green Insect creature token when Springheart Nantuko's landfall ability resolves.
+  - *2024-06-07* — On the stack, a spell with bestow is either a creature spell or an Aura spell. It's never both, although it's an enchantment spell in either case.
+  - *2024-06-07* — Unlike other Aura spells, an Aura spell with bestow isn't countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature.
+  - *2024-06-07* — Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/171/springheart-nantuko) · oracle_id `8a3ad2ef-8bcb-40c0-85de-f03328c2b644` · printing: MH3 #171 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Springing Tiger
 
@@ -250,7 +262,10 @@
 - **Flavor text** (ECL printing):
   > *To attain the preferred timbre for merrow shanties, the kelp leaf must be moistened with fresh water and struck with a fluid wrist.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #562 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/260/springleaf-drum) · oracle_id `bdeb440d-a714-40e8-9038-f651e6ae45fb` · printing: ECL #260 (2026-01-23) · [rulings](https://api.scryfall.com/cards/e15ab0aa-4059-4923-9816-6f7a9e5b5a18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — You can tap a creature that hasn't been under your control since your most recent turn began to activate Springleaf Drum's ability.
+  - *2025-11-17* — You can tap a creature that hasn't been under your control since your most recent turn began to activate Springleaf Drum's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/260/springleaf-drum) · oracle_id `bdeb440d-a714-40e8-9038-f651e6ae45fb` · printing: ECL #260 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Springleaf Parade
 

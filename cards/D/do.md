@@ -244,7 +244,9 @@
   > *"It's just business."*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/107/dockside-extortionist) · oracle_id `697bcfe1-ecbf-42a1-bfc7-0766d48ca56b` · printing: 2X2 #107 (2022-07-08) · [rulings](https://api.scryfall.com/cards/9e2e3efb-75cb-430f-b9f4-cb58f3aeb91b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-10-02* — If an opponent controls an artifact that's also an enchantment, that permanent is counted only once for Dockside Extortionist's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/107/dockside-extortionist) · oracle_id `697bcfe1-ecbf-42a1-bfc7-0766d48ca56b` · printing: 2X2 #107 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dockworker Drone
 
@@ -1863,7 +1865,29 @@
   > Whenever you cast an instant or sorcery spell with the chosen name, you may copy it. You may choose new targets for the copy.
 - **Keywords:** Hidden agenda
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/4/double-stroke) · oracle_id `e25ab152-e166-44df-8f92-668bab0e9619` · printing: CNS #4 (2014-06-06) · [rulings](https://api.scryfall.com/cards/b0ec6d79-8a22-49d5-ac00-7fd60b278a4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (21):
+  - *2014-05-29* — Effects based on any additional costs that were paid for the original spell will be copied as though those same costs were paid for the copy. For example, if a player exiles three cards from their graveyard to cast Skeletal Scrying, and you copy it, the copy will also cause you to draw three cards and lose 3 life (but you won't exile any cards from your graveyard).
+  - *2014-05-29* — If the spell being copied has an X whose value was determined as it was cast (like Skeletal Scrying has), the copy will have the same value of X.
+  - *2014-05-29* — If the spell being copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode. You can't choose a different one.
+  - *2014-05-29* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2014-05-29* — When the ability resolves, it creates a copy of the spell. You control the copy. That copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger. The copy will resolve like a normal spell, after players get a chance to cast spells and activate abilities.
+  - *2014-05-29* — You must turn Double Stroke face up before you cast the spell with the chosen name to have Double Stroke's second ability trigger.
+  - *2016-08-23* — A conspiracy doesn't count as a card in your deck for purposes of meeting minimum deck size requirements. (In most drafts, the minimum deck size is 40 cards.)
+  - *2016-08-23* — A conspiracy with hidden agenda that has a triggered ability must be face up before that ability's trigger condition is met in order for it to trigger. Turning it face up afterward won't have any effect.
+  - *2016-08-23* — A conspiracy's static and triggered abilities function as long as that conspiracy is face-up in the command zone.
+  - *2016-08-23* — As a special action, you may turn a face-down conspiracy face up. You may do so any time you have priority. This action doesn't use the stack and can't be responded to. Once face up, the named card is revealed and the conspiracy's abilities will affect the game.
+  - *2016-08-23* — At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players.
+  - *2016-08-23* — At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players. Notably, you can't bluff conspiracies with hidden agenda by putting other cards into the command zone face down as the game starts.
+  - *2016-08-23* — Conspiracies are colorless, have no mana cost, and can't be cast as spells.
+  - *2016-08-23* — Conspiracies are never put into your deck. Instead, you put any number of conspiracies from your card pool into the command zone as the game begins. These conspiracies are face up unless they have hidden agenda, in which case they begin the game face down.
+  - *2016-08-23* — Conspiracies aren't legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft.
+  - *2016-08-23* — If you play multiple games after the draft, you can name a different card in each new game.
+  - *2016-08-23* — There are several ways to secretly name a card, including writing the name on a piece of paper that's kept with the face-down conspiracy. If you have multiple face-down conspiracies, you may name a different card for each one. It's important that each named card is clearly associated with only one of the conspiracies.
+  - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
+  - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+  - *2016-08-23* — You must name a Magic card. Notably, you can't name a token.
+  - *2016-08-23* — You name the card as the game begins, as you put the conspiracy into the command zone, not as you turn the face-down conspiracy face up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/4/double-stroke) · oracle_id `e25ab152-e166-44df-8f92-668bab0e9619` · printing: CNS #4 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Double Take
 
@@ -1931,7 +1955,13 @@
   > If an effect would create one or more tokens under your control, it creates twice that many of those tokens instead.
   > If an effect would put one or more counters on a permanent you control, it puts twice that many of those counters on that permanent instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #189 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/216/doubling-season) · oracle_id `01546b7d-a233-4176-8843-d732074dc5b6` · printing: FDN #216 (2024-11-15) · [rulings](https://api.scryfall.com/cards/f2c4f80e-84a0-463b-82c3-5c6503809351/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-11-08* — Battles will enter with double the normal number of defense counters.
+  - *2024-11-08* — Doubling Season affects permanents that enter with counters.
+  - *2024-11-08* — Everything that is specified by the effect creating the original token or tokens will also be true about the additional token or tokens created by Doubling Season's replacement effect. For example, if an effect tells you to create a token "tapped and attacking," the additional tokens will also be tapped and attacking.
+  - *2024-11-08* — If there are two Doubling Seasons on the battlefield, then the number of tokens or counters is four times the original number. If there are three on the battlefield, then the number of tokens or counters is eight times the original number, and so on.
+  - *2024-11-08* — Planeswalkers will enter with double the normal number of loyalty counters. However, if you activate an ability whose cost has you put loyalty counters on a planeswalker, the number you put on isn't doubled. This is because those counters are put on as a cost, not as an effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/216/doubling-season) · oracle_id `01546b7d-a233-4176-8843-d732074dc5b6` · printing: FDN #216 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doubtless One
 
@@ -2095,7 +2125,9 @@
 - **Flavor text** (WAR printing):
   > *"I see you've learned nothing, Chandra. You'd still put a match to something rather than understand it."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #229 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/193/dovins-veto) · oracle_id `1b388371-f9ef-45b4-82a3-ca20a8cd7807` · printing: WAR #193 (2019-05-03) · [rulings](https://api.scryfall.com/cards/5d6b5054-2224-4f68-9d82-3ed17c5dacc4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — A spell or ability that counters spells can still target Dovin's Veto. When that spell or ability resolves, Dovin's Veto won't be countered, but any additional effects of the countering spell or ability will still happen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/193/dovins-veto) · oracle_id `1b388371-f9ef-45b4-82a3-ca20a8cd7807` · printing: WAR #193 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Down // Dirty
 

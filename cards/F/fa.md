@@ -323,7 +323,10 @@
 - **Flavor text** (FRC printing):
   > *Beyond Valley lies danger—and promise.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #44 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/71/fabled-passage) · oracle_id `0c85b8f7-0bd0-4680-9ec5-d4b110460a54` · printing: FRC #71 (2026-10-02) · [rulings](https://api.scryfall.com/cards/76edd22f-808e-4a7c-b941-13c0f5e30418/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-06-23* — If you control four or more lands, the basic land doesn't enter untapped; it enters tapped and then you untap it.
+  - *2020-06-23* — The land that you put onto the battlefield will be counted when determining whether you control four or more lands, but Fabled Passage will not.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/71/fabled-passage) · oracle_id `0c85b8f7-0bd0-4680-9ec5-d4b110460a54` · printing: FRC #71 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fabled Path of Searo Point
 
@@ -375,6 +378,7 @@
 - **Flavor text** (HOP printing):
   > *"The secret to invention is to see something in your mind, then find where it hides in the world."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #470 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hop/9/fabricate) · oracle_id `422e1869-134f-463d-9fa1-86b66a998b3e` · printing: HOP #9 (2009-09-04) · [rulings](https://api.scryfall.com/cards/44e49332-b1e1-4b88-b508-516b55c67a1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fabrication Foundry
@@ -541,7 +545,9 @@
 - **Flavor text** (FRC printing):
   > *"Try to pretend like you understand what's important."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #703 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/41/fact-or-fiction) · oracle_id `437b2dab-15e0-4b9a-a204-58622d37a3b3` · printing: FRC #41 (2026-10-02) · [rulings](https://api.scryfall.com/cards/eb1a25c5-1918-40f3-b54f-5d31cf6b4eb2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — Piles may be empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/41/fact-or-fiction) · oracle_id `437b2dab-15e0-4b9a-a204-58622d37a3b3` · printing: FRC #41 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fade Away
 
@@ -628,7 +634,10 @@
   > *Faeries trade trinkets for tales, growing their knowledge and his collection.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #494 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/53/faeburrow-elder) · oracle_id `70a6f08e-854d-4e2f-9d8c-c45ec3231157` · printing: ECC #53 (2026-01-23) · [rulings](https://api.scryfall.com/cards/145dcac4-2c53-4ae9-9ede-24dc07474b01/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-10-04* — Faeburrow Elder's middle ability can give it at most +5/+5, that is, +1/+1 each for white, blue, black, red, and green. "Gold," "multicolor," and "colorless" aren't colors. Similarly, Faeburrow Elder's last ability can produce at most five mana.
+  - *2019-10-04* — Since Faeburrow Elder is a green and white permanent, its middle ability usually gives it at least +2/+2 and its last ability usually produces at least {G}{W}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/53/faeburrow-elder) · oracle_id `70a6f08e-854d-4e2f-9d8c-c45ec3231157` · printing: ECC #53 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fae Flight
 
@@ -853,7 +862,9 @@
   > *Omenpaths bring new students and new tactics to the field.*
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #288 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/114/faerie-mastermind) · oracle_id `a984db23-40ea-428d-829f-e944267280f8` · printing: SOC #114 (2026-04-24) · [rulings](https://api.scryfall.com/cards/bc9a7599-3c7d-4b83-bff3-e3d1f20f1b0f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-04-14* — Faerie Mastermind doesn't need to have been under your control when the first card is drawn for its ability to trigger. As long as you control it when an opponent draws their second card in a turn, that ability will trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/114/faerie-mastermind) · oracle_id `a984db23-40ea-428d-829f-e944267280f8` · printing: SOC #114 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Faerie Mechanist
 
@@ -1205,7 +1216,15 @@
   > *"Avacyn has abandoned us! We have nothing left except what we can take!"*
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #99 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/244/faithless-looting) · oracle_id `3d6fa57a-aa53-4b5c-b8af-a7612c823117` · printing: SOC #244 (2026-04-24) · [rulings](https://api.scryfall.com/cards/fc019ffa-4461-4f3d-ab8d-e4d20e77ca0c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2016-06-08* — You draw two cards and discard two cards all while Faithless Looting is resolving. Nothing can happen between the two, and no player may choose to take actions.
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/244/faithless-looting) · oracle_id `3d6fa57a-aa53-4b5c-b8af-a7612c823117` · printing: SOC #244 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Faithless Salvaging
 
@@ -1728,7 +1747,10 @@
 - **Oracle text:**
   > Flip Falling Star onto the playing area from a height of at least one foot. Falling Star deals 3 damage to each creature it lands on. Tap all creatures dealt damage by Falling Star. If Falling Star doesn't turn completely over at least once during the flip, it has no effect.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/leg/145/falling-star) · oracle_id `f5ca7b13-8003-4361-b827-7095c89f2750` · printing: LEG #145 (1994-06-01) · [rulings](https://api.scryfall.com/cards/f2b9983e-20d4-4d12-9e2c-ec6d9a345787/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — It must flip like a coin and not like a Frisbee.
+  - *2004-10-04* — Only cards touched when it stops moving are affected. Not ones touched while it is moving.
+- **Source flags:** [Scryfall](https://scryfall.com/card/leg/145/falling-star) · oracle_id `f5ca7b13-8003-4361-b827-7095c89f2750` · printing: LEG #145 (1994-06-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Falling Timber
 
@@ -1819,7 +1841,16 @@
   > I — Destroy all lands.
   > II, III — Each player returns two land cards from their graveyard to the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13263 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/18/fall-of-the-thran) · oracle_id `341803d9-fd29-4721-81bf-ae9b7f1c01d2` · printing: DOM #18 (2018-04-27) · [rulings](https://api.scryfall.com/cards/3a613a01-6145-4e34-987c-c9bdcb068370/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2018-04-27* — A chapter ability doesn’t trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter’s number. For example, the third lore counter put on a Saga causes the III chapter ability to trigger, but I and II won’t trigger again.
+  - *2018-04-27* — As a Saga enters the battlefield, its controller puts a lore counter on it. As your precombat main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn’t use the stack.
+  - *2018-04-27* — Each symbol on the left of a Saga’s text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability’s chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2018-04-27* — If a player somehow has only one land card in their graveyard when either of Fall of the Thran’s last two chapter abilities resolves, that player returns that one card to the battlefield.
+  - *2018-04-27* — If counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives lore counters. Removing lore counters won’t cause a previous chapter ability to trigger.
+  - *2018-04-27* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2018-04-27* — Once a chapter ability has triggered, the ability on the stack won’t be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2018-04-27* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities—in the Dominaria set, this is always three—the Saga’s controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn’t use the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/18/fall-of-the-thran) · oracle_id `341803d9-fd29-4721-81bf-ae9b7f1c01d2` · printing: DOM #18 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fall of the Titans
 
@@ -2251,7 +2282,12 @@
   > Eternalize {2}{G}{G} ({2}{G}{G}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Snake Druid with no mana cost. Eternalize only as a sorcery.)
 - **Keywords:** Ferocious, Eternalize
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #404 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/152/fanatic-of-rhonas) · oracle_id `7973820b-fdaf-46ec-9e3e-d4c0e77b5067` · printing: MH3 #152 (2024-06-14) · [rulings](https://api.scryfall.com/cards/1f9fb33a-3b39-4aff-93b8-aedafe0ea694/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-06-07* — If a creature card with eternalize is put into your graveyard during your main phase, you'll have priority immediately afterward. You can activate its eternalize ability before any player can try to exile it.
+  - *2024-06-07* — Once you've activated an eternalize ability, the card is immediately exiled. Opponents can't try to stop the ability by exiling the card.
+  - *2024-06-07* — The token copies exactly what was printed on the original card and nothing else, except the characteristics specifically modified by eternalize. It doesn't copy any information about the object the card was before it was put into your graveyard.
+  - *2024-06-07* — The token is a Zombie in addition to its other types and is black instead of its other colors. Its base power and toughness are 4/4. It has no mana cost, and thus its mana value is 0. These are copiable values of the token that other effects may copy.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/152/fanatic-of-rhonas) · oracle_id `7973820b-fdaf-46ec-9e3e-d4c0e77b5067` · printing: MH3 #152 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fanatic of the Harrowing
 
@@ -2699,7 +2735,9 @@
   > • Exile all enchantments.
   > • Exile all graveyards.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #177 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/64/farewell) · oracle_id `4eb813fd-2d5a-4b02-8193-662681ef4e7d` · printing: MKC #64 (2024-02-09) · [rulings](https://api.scryfall.com/cards/114d2180-093b-4838-97ad-badbc8ee50b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-02-18* — If you choose more than one mode for Farewell, you perform the actions in the order written.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/64/farewell) · oracle_id `4eb813fd-2d5a-4b02-8193-662681ef4e7d` · printing: MKC #64 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Farewell to Arms
 
@@ -2905,7 +2943,9 @@
 - **Flavor text** (MSC printing):
   > *In the race to be first to the stars, four brave explorers undertook a dangerous journey aboard an experimental spaceship, the \*Marvel-1\*.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/173/farseek) · oracle_id `495e52e6-4c2b-4574-9474-eadbdcc8b4ac` · printing: MSC #173 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c1aac0f5-1d01-4673-b8d3-878d9a1d423c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — Farseek can find any land with any of the listed land types, including nonbasic ones, even if that land is a Forest in addition to one or more of those types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/173/farseek) · oracle_id `495e52e6-4c2b-4574-9474-eadbdcc8b4ac` · printing: MSC #173 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Farsight Adept
 
@@ -2995,7 +3035,10 @@
   > You may play any number of lands on each of your turns.
   > Whenever you play a land, if it wasn't the first land you played this turn, this enchantment deals 1 damage to you.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/209/fastbond) · oracle_id `e27193b7-1a47-4555-865d-b1fd4c6d597f` · printing: VMA #209 (2014-06-16) · [rulings](https://api.scryfall.com/cards/daf43523-558c-4701-9fa3-5d1ceb82a006/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — You do not take damage when you "put a land onto the battlefield" through the effect of a spell or ability.
+  - *2004-10-04* — You take damage when you play a land using the "play a land" action. Such an action can be your regular "play a land", one enabled by Fastbond, or ones enabled through other effects.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/209/fastbond) · oracle_id `e27193b7-1a47-4555-865d-b1fd4c6d597f` · printing: VMA #209 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fast Forward
 

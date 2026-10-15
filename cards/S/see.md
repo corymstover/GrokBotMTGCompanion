@@ -75,7 +75,10 @@
   > *"She speaks with the purity of nature and walks with the boldness of the wilds. She is a reminder of a world untamed."*
   > *—Kamahl, druid acolyte*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #286 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/268/seedborn-muse) · oracle_id `463865bc-087e-477b-9e86-84e77f1ad931` · printing: TDC #268 (2025-04-11) · [rulings](https://api.scryfall.com/cards/76f58441-5674-4f1e-af9b-94e14ab7e619/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Other effects can prevent a permanent from untapping during an untap step. You do need to look carefully, however, as many effects say that the permanent does not untap during its controller's untap step, and this card's ability occurs during other players' untap steps. If a card does say this, then Seedborn Muse can untap it. But some other abilities are not written this way and can still prevent a card from untapping.
+  - *2007-07-15* — All your permanents untap during each other player's untap step. You have no choice about what untaps.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/268/seedborn-muse) · oracle_id `463865bc-087e-477b-9e86-84e77f1ad931` · printing: TDC #268 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seedcradle Witch
 
@@ -598,4 +601,5 @@
 - **Flavor text** (C21 printing):
   > *Vulshok mana rituals echo the day when the red sun burst through Mirrodin's surface to take its place in the heavens.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #300 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/179/seething-song) · oracle_id `64bf8929-f5f2-4d50-8667-13b1d007bcfc` · printing: C21 #179 (2021-04-23) · [rulings](https://api.scryfall.com/cards/f493ce26-005c-4ddc-80f0-47bea4fd013a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

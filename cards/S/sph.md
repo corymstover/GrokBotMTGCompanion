@@ -146,7 +146,9 @@
 - **Flavor text** (DSC printing):
   > *The Rakdos believe that all are eager to join their revels, even when told otherwise.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #690 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/104/sphere-of-safety) · oracle_id `92f6c063-a740-4c3c-a60a-569fd298854d` · printing: DSC #104 (2024-09-27) · [rulings](https://api.scryfall.com/cards/5c4e3031-ffc2-4d4d-a9f9-e85820059315/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-10-01* — If you control Sphere of Safety, your opponents can choose not to attack with a creature with an ability that says it attacks if able.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/104/sphere-of-safety) · oracle_id `92f6c063-a740-4c3c-a60a-569fd298854d` · printing: DSC #104 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphere of the Suns
 

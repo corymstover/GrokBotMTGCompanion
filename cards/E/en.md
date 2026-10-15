@@ -412,6 +412,7 @@
 - **Flavor text** (CMR printing):
   > *Every world is a work in progress, constantly reshaped by time, disasters, and even the powerful magic of Planeswalkers.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10599 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/481/encroaching-wastes) · oracle_id `43144f06-079b-4515-a03a-01ea3e90d586` · printing: CMR #481 (2020-11-20) · [rulings](https://api.scryfall.com/cards/a591bffd-2f03-48f4-a719-04f2142abd77/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Encrust
@@ -872,7 +873,11 @@
   > When Enduring Curiosity dies, if it was a creature, return it to the battlefield under its owner's control. It's an enchantment. (It's not a creature.)
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #825 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/51/enduring-curiosity) · oracle_id `9d2460c3-8eeb-4f35-b6f6-748c478664c7` · printing: DSK #51 (2024-09-27) · [rulings](https://api.scryfall.com/cards/8616629e-08f9-41ad-bfec-f86c8096f1cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-09-20* — A token that's a copy of Enduring Curiosity won't return to the battlefield when its last ability resolves.
+  - *2024-09-20* — Cat and Glimmer are both creature types. Enduring Curiosity won't have those creature types when its last ability returns it to the battlefield because it won't be a creature.
+  - *2024-09-20* — If a nontoken permanent that's a copy of Enduring Curiosity dies while it's a creature, it will return to the battlefield as an enchantment when its last ability resolves. It won't have any card types other than enchantment.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/51/enduring-curiosity) · oracle_id `9d2460c3-8eeb-4f35-b6f6-748c478664c7` · printing: DSK #51 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Enduring Ideal
 
@@ -896,7 +901,12 @@
   > When Enduring Innocence dies, if it was a creature, return it to the battlefield under its owner's control. It's an enchantment. (It's not a creature.)
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #728 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/6/enduring-innocence) · oracle_id `98a389f4-2905-47f3-b60e-3d4afb3e5cb0` · printing: DSK #6 (2024-09-27) · [rulings](https://api.scryfall.com/cards/08f79439-b8f8-418f-9772-26d81844749e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-09-20* — A token that's a copy of Enduring Innocence won't return to the battlefield when its last ability resolves.
+  - *2024-09-20* — Enduring Innocence's second ability checks the power of the other creatures only at the moment they enter. If a creature enters with counters, those counters are included. If a creature's power is 2 or less when it enters but becomes greater than 2 while Enduring Innocence's second ability is still on the stack, you'll still draw a card when the ability resolves.
+  - *2024-09-20* — If a nontoken permanent that's a copy of Enduring Innocence dies while it's a creature, it will return to the battlefield as an enchantment when its last ability resolves. It won't have any card types other than enchantment.
+  - *2024-09-20* — Sheep and Glimmer are both creature types. Enduring Innocence won't have those creature types when its last ability returns it to the battlefield because it won't be a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/6/enduring-innocence) · oracle_id `98a389f4-2905-47f3-b60e-3d4afb3e5cb0` · printing: DSK #6 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Enduring Renewal
 
@@ -946,7 +956,15 @@
   > Whenever you gain life, target opponent loses that much life.
   > When Enduring Tenacity dies, if it was a creature, return it to the battlefield under its owner's control. It's an enchantment. (It's not a creature.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #787 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/95/enduring-tenacity) · oracle_id `98e698ae-1a69-469c-9cfb-0e3fedeb71d4` · printing: DSK #95 (2024-09-27) · [rulings](https://api.scryfall.com/cards/d5756d4b-3068-412c-8643-880d3459151e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-09-20* — A token that's a copy of Enduring Tenacity won't return to the battlefield when its last ability resolves.
+  - *2024-09-20* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Enduring Tenacity's first ability will trigger twice and you may choose a different opponent for each trigger. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, planeswalkers, and/or battles at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2024-09-20* — If a nontoken permanent that's a copy of Enduring Tenacity dies while it's a creature, it will return to the battlefield as an enchantment when its last ability resolves. It won't have any card types other than enchantment.
+  - *2024-09-20* — If an ability triggers whenever an opponent loses life and its effect causes you to gain life, such as the ability of Exquisite Blood, this will loop until either you win the game or a player takes an action to break the loop.
+  - *2024-09-20* — If you gain an amount of life "for each" of something, that life is gained as one event and Enduring Tenacity's first ability triggers only once.
+  - *2024-09-20* — In a Two-Headed Giant game, life gained by your teammate won't cause Enduring Tenacity's first ability to trigger, even though it caused your team's life total to increase.
+  - *2024-09-20* — Snake and Glimmer are both creature types. Enduring Tenacity won't have those creature types when its last ability returns it to the battlefield because it won't be a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/95/enduring-tenacity) · oracle_id `98e698ae-1a69-469c-9cfb-0e3fedeb71d4` · printing: DSK #95 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Enduring Victory
 
@@ -972,7 +990,11 @@
   > When Enduring Vitality dies, if it was a creature, return it to the battlefield under its owner's control. It's an enchantment. (It's not a creature.)
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #424 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/176/enduring-vitality) · oracle_id `3577c47e-76d3-4659-b922-31c4b74be3a0` · printing: DSK #176 (2024-09-27) · [rulings](https://api.scryfall.com/cards/9d76a30c-0431-4334-892a-9822dda9671a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-09-20* — A token that's a copy of Enduring Vitality won't return to the battlefield when its last ability resolves.
+  - *2024-09-20* — Elk and Glimmer are both creature types. Enduring Vitality won't have those creature types when its last ability returns it to the battlefield because it won't be a creature.
+  - *2024-09-20* — If a nontoken permanent that's a copy of Enduring Vitality dies while it's a creature, it will return to the battlefield as an enchantment when its last ability resolves. It won't have any card types other than enchantment.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/176/enduring-vitality) · oracle_id `3577c47e-76d3-4659-b922-31c4b74be3a0` · printing: DSK #176 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Enemy of Enlightenment
 
@@ -1422,7 +1444,9 @@
   > *"Organization is often undervalued but rarely unjustified."*
   > *—Frasio, royal archivist*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #123 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/6/enlightened-tutor) · oracle_id `c5229c17-b7be-4b05-b683-f2277edc4849` · printing: DMR #6 (2023-01-13) · [rulings](https://api.scryfall.com/cards/1c9675fb-1a89-420f-aea8-50e0642f549c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-06-08* — The "shuffle and put the card on top" is a single action. If an effect causes the top card of the library to be face up, the second card down is not revealed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/6/enlightened-tutor) · oracle_id `c5229c17-b7be-4b05-b683-f2277edc4849` · printing: DMR #6 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Enlisted Wurm
 
@@ -1949,7 +1973,9 @@
 - **Flavor text** (LTR printing):
   > *"Welcome to the Treegarth of Orthanc!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #455 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/163/entish-restoration) · oracle_id `736017e2-bc33-49e8-812d-1639443fdb51` · printing: LTR #163 (2023-06-23) · [rulings](https://api.scryfall.com/cards/cd4dbf80-187b-40e3-9e0b-526f78d9a34e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — You sacrifice the lands as part of the resolution of Entish Restoration. It isn't an additional cost. If Entish Restoration is countered, you won't sacrifice any lands.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/163/entish-restoration) · oracle_id `736017e2-bc33-49e8-812d-1639443fdb51` · printing: LTR #163 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Entity Tracker
 
@@ -1974,6 +2000,7 @@
 - **Flavor text** (DMR printing):
   > *A grave is the safest place to store ill-gotten treasures.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #325 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/82/entomb) · oracle_id `299fc083-0834-4064-8344-f895aff68867` · printing: DMR #82 (2023-01-13) · [rulings](https://api.scryfall.com/cards/3caa9c55-5e3b-436b-84a9-b7ccebf63799/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Entomber Exarch

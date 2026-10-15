@@ -664,7 +664,13 @@
 - **Flavor text** (CMM printing):
   > *Archmage attacks are little more than annoyances to Kalamax.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #74 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/214/deflecting-swat) · oracle_id `ae120613-97d6-4393-b39d-c3e6c076f5d6` · printing: CMM #214 (2023-08-04) · [rulings](https://api.scryfall.com/cards/b4b36435-55b3-4615-8812-af41d4fc64d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-04-17* — If the target spell has a variable number of targets, you can't change how many targets it has.
+  - *2020-04-17* — If the target spell has damage divided as it was cast (like Mythos of Vadrok), the division can't be changed although the targets receiving that damage still can. The same is true of spells that distribute counters.
+  - *2020-04-17* — If you choose new targets for the target spell, the new targets must be legal.
+  - *2020-04-17* — It doesn't matter whose commander you control. Any one will do. If you have two commanders, you just need to control one of them.
+  - *2020-04-17* — Once you begin casting this spell, players can't take any other actions until you're done casting it. Notably, they can't try to remove the commander you control to make you pay its cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/214/deflecting-swat) · oracle_id `ae120613-97d6-4393-b39d-c3e6c076f5d6` · printing: CMM #214 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deflection
 

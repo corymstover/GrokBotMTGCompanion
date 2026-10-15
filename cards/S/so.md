@@ -554,7 +554,10 @@
   > Channel — {3}{R}, Discard this card: Create two 1/1 colorless Spirit creature tokens. They gain haste until end of turn. This ability costs {1} less to activate for each legendary creature you control.
 - **Keywords:** Channel
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #992 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/276/sokenzan-crucible-of-defiance) · oracle_id `c5ee72d5-3a9e-4fe5-8802-3286ee612055` · printing: NEO #276 (2022-02-18) · [rulings](https://api.scryfall.com/cards/aa548dcd-c1dd-492d-a69f-c65dfeef0633/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-02-18* — Discarding the card is part of the cost to activate a channel ability.
+  - *2022-02-18* — If a channel ability requires a target, you may not activate it without a target just to discard the card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/276/sokenzan-crucible-of-defiance) · oracle_id `c5ee72d5-3a9e-4fe5-8802-3286ee612055` · printing: NEO #276 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sokenzan Renegade
 
@@ -1104,6 +1107,7 @@
   > When this creature enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.
   > When this creature dies, you may draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #41 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/215/solemn-simulacrum) · oracle_id `00c0543c-2a1f-4425-8283-4062d74a1637` · printing: MSC #215 (2026-06-26) · [rulings](https://api.scryfall.com/cards/daafd816-f7c1-4630-9e5c-a1e5db570a35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sole Performer
@@ -1330,6 +1334,7 @@
 - **Flavor text** (FRC printing):
   > *Jace could see the sunlight in his Multiverse, but somewhere along the way, he lost the feel of its warmth.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/21/sol-ring) · oracle_id `6ad8011d-3471-4369-9d68-b264cc027487` · printing: FRC #21 (2026-10-02) · [rulings](https://api.scryfall.com/cards/8ee443cc-e17a-493b-9c93-1f9e141a30e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Solstice Revelations
@@ -3467,7 +3472,9 @@
 - **Flavor text** (ROE printing):
   > *In truth, her own faith was gone, trodden in Ulamog's wake. She pantomimed the blessing in the hope that it would inspire others to continue to struggle.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #794 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/roe/44/souls-attendant) · oracle_id `045a9d3d-c20d-427f-a77b-0bffc6f55526` · printing: ROE #44 (2010-04-23) · [rulings](https://api.scryfall.com/cards/3223c0ac-cc22-4886-8919-11273b477cc7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2010-06-15* — If Soul's Attendant and another creature enter at the same time, Soul's Attendant's ability will trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/roe/44/souls-attendant) · oracle_id `045a9d3d-c20d-427f-a77b-0bffc6f55526` · printing: ROE #44 (2010-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Soul-Scar Mage
 
@@ -3910,7 +3917,9 @@
 - **Flavor text** (MM3 printing):
   > *"One does not question the size or shape of the grains of sand in an hourglass. Nor do I question the temperament of the souls under my guidance."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #467 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/24/soul-warden) · oracle_id `f3fad295-1af2-4ecc-8546-b121ad6be27b` · printing: MM3 #24 (2017-03-17) · [rulings](https://api.scryfall.com/cards/d96266b3-a7cb-40ce-a328-ac13719fe5f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-01-24* — If this creature enters at the same time as one or more other creatures, its ability will trigger for each of those other creatures. 
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/24/soul-warden) · oracle_id `f3fad295-1af2-4ecc-8546-b121ad6be27b` · printing: MM3 #24 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sound the Call
 
@@ -4114,7 +4123,21 @@
   > Exile a card from your hand: This turn, you may play basic lands from outside the game.
   > Basic lands you control have "{T}: Add one mana of any color."
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/10/sovereigns-realm) · oracle_id `c100a597-8186-4b07-b34a-e1eca2146838` · printing: CN2 #10 (2016-08-26) · [rulings](https://api.scryfall.com/cards/abefb30c-780d-4496-8fc6-6e1b80686c15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2016-08-23* — A conspiracy doesn't count as a card in your deck for purposes of meeting minimum deck size requirements. (In most drafts, the minimum deck size is 40 cards.)
+  - *2016-08-23* — A conspiracy's static and triggered abilities function as long as that conspiracy is face-up in the command zone.
+  - *2016-08-23* — Conspiracies are colorless, have no mana cost, and can't be cast as spells.
+  - *2016-08-23* — Conspiracies are never put into your deck. Instead, you put any number of conspiracies from your card pool into the command zone as the game begins. These conspiracies are face up unless they have hidden agenda, in which case they begin the game face down.
+  - *2016-08-23* — Conspiracies aren't legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft.
+  - *2016-08-23* — Even though your starting hand size is five, nothing else about the pregame procedure changes.
+  - *2016-08-23* — If you're drafting with other sets and draft basic land cards other than the five mentioned above (including Wastes and the "Snow-Covered" versions of the typical basic lands), those cards will be in your sideboard and the activated ability of Sovereign's Realm will allow you to play them. Also, invite me to your next draft—your group sounds rad.
+  - *2016-08-23* — In Limited and Constructed events, "outside the game" means your sideboard. In Limited events, your sideboard is considered to have as many cards named Plains, Island, Swamp, Mountain, and Forest as needed. You don't have to draft such cards.
+  - *2016-08-23* — The ability of Sovereign's Realm doesn't change when you can play lands. You can still only play them during your main phase, if the stack is empty, if you have priority, and if you have an available land play.
+  - *2016-08-23* — Unless an effect states otherwise, you are still limited to one land play on each of your turns. Activating the ability of Sovereign's Realm multiple times on your turn has no additional benefit.
+  - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
+  - *2016-08-23* — You can never play lands on another player's turn. Activating the ability of Sovereign's Realm during an opponent's turn won't allow you to play lands that turn.
+  - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/10/sovereigns-realm) · oracle_id `c100a597-8186-4b07-b34a-e1eca2146838` · printing: CN2 #10 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sower of Chaos
 
@@ -4176,7 +4199,10 @@
 - **Oracle text:**
   > Exile target nonbasic land. Search its controller's graveyard, hand, and library for all cards with the same name as that land and exile them. Then that player shuffles.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30683 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bok/118/sowing-salt) · oracle_id `131d2b70-959d-4814-b0c8-38031f141718` · printing: BOK #118 (2005-02-04) · [rulings](https://api.scryfall.com/cards/bd243ce5-152b-4d9c-991e-be56b6731d99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Does not exile other cards of the same name that are on the battlefield. Just from the graveyard, hand, and library.
+  - *2005-02-01* — The copies must be found if they are in publicly viewable zones. Finding copies while searching private zones is optional.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bok/118/sowing-salt) · oracle_id `131d2b70-959d-4814-b0c8-38031f141718` · printing: BOK #118 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sozin's Comet
 

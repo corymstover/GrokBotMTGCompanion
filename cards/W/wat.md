@@ -673,4 +673,7 @@
 - **Flavor text** (TRK printing):
   > *Earth's restored cetacean population eventually came to see the wreck of the \*Bounty\* as a sort of holy site.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #50 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/trk/306/watery-grave) · oracle_id `fc9ec820-4245-4a96-b009-5308a818ca58` · printing: TRK #306 (2026-11-13) · [rulings](https://api.scryfall.com/cards/5525d6a6-e532-4047-9da4-bfae7927fecc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-10-05* — If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
+  - *2018-10-05* — Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
+- **Source flags:** [Scryfall](https://scryfall.com/card/trk/306/watery-grave) · oracle_id `fc9ec820-4245-4a96-b009-5308a818ca58` · printing: TRK #306 (2026-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

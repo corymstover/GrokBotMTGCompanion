@@ -821,7 +821,9 @@
 - **Flavor text** (C16 printing):
   > *The first vine shows the others where to grow.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #907 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c16/143/burgeoning) · oracle_id `88cf4c1a-5863-45fc-b76d-7ad33b175b2b` · printing: C16 #143 (2016-11-11) · [rulings](https://api.scryfall.com/cards/6da045f8-6278-4c84-9d39-025adf0789c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Playing a land will trigger it, but putting a land onto the battlefield as part of an effect will not.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c16/143/burgeoning) · oracle_id `88cf4c1a-5863-45fc-b76d-7ad33b175b2b` · printing: C16 #143 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burglar Rat
 
@@ -845,7 +847,9 @@
 - **Flavor text** (MH3 printing):
   > *The scrape of shovels and the tumble of cold dirt soon muffled their pleas.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #353 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/273/buried-alive) · oracle_id `8203c621-a1a0-4865-8c9a-0d4064c86107` · printing: MH3 #273 (2024-06-14) · [rulings](https://api.scryfall.com/cards/76878b19-2916-4f3f-bee5-20846bc9e2db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You can look in your library and then choose to find any number from zero to three creatures after you look at it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/273/buried-alive) · oracle_id `8203c621-a1a0-4865-8c9a-0d4064c86107` · printing: MH3 #273 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Buried in the Garden
 
@@ -879,6 +883,7 @@
 - **Flavor text** (EOC printing):
   > *History has buried its treasures deep.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #193 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/150/buried-ruin) · oracle_id `3644f316-f9a3-46c9-9b1e-747f86cf4ead` · printing: EOC #150 (2025-08-01) · [rulings](https://api.scryfall.com/cards/7ab1a074-9d92-4125-9200-84cd035f8f53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Buried Treasure
@@ -1334,6 +1339,7 @@
 - **Flavor text** (FDN printing):
   > *Forged by divine hands to wander mortal realms.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #505 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/250/burnished-hart) · oracle_id `893fed41-c144-433f-af88-bc7d419b7fb3` · printing: FDN #250 (2024-11-15) · [rulings](https://api.scryfall.com/cards/65ebbff0-fbe6-4310-a33f-e00bb2534979/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burnout
@@ -1703,7 +1709,11 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #850 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/255/buster-sword) · oracle_id `5e060d58-4d6e-425c-b7d4-727669fcce5b` · printing: FIN #255 (2025-06-13) · [rulings](https://api.scryfall.com/cards/374d7383-a1a7-4eea-91f7-290180e14cc9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-06-06* — If a spell you cast has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2025-06-06* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+  - *2025-06-06* — You choose whether to cast a spell from among the cards in your hand as Buster Sword's middle ability resolves. You can't wait to cast one later in the turn. Timing restrictions based on the card's types are ignored.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/255/buster-sword) · oracle_id `5e060d58-4d6e-425c-b7d4-727669fcce5b` · printing: FIN #255 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Butch DeLoria, Tunnel Snake
 

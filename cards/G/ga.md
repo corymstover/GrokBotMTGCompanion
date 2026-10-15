@@ -378,6 +378,7 @@
   > *"Here sprouted the first seedling of Argoth. Here the last tree will fall."*
   > *—Gamelen, Citanul elder*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #448 · Game Changer: **yes** · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/321/gaeas-cradle) · oracle_id `7c427c3d-ecd8-45ef-bebd-8f10f4a311db` · printing: USG #321 (1998-10-12) · [rulings](https://api.scryfall.com/cards/25b0b816-0583-44aa-9dc5-f3ff48993a51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gaea's Embrace
@@ -1292,7 +1293,9 @@
 - **Flavor text** (DMR printing):
   > *When you've got nothing, you might as well trade it for something else.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #241 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/121/gamble) · oracle_id `a54f0869-94c8-42af-9080-166efb9486a4` · printing: DMR #121 (2023-01-13) · [rulings](https://api.scryfall.com/cards/8e37fae5-ddd0-4e16-8581-71579f89d9c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — You might end up discarding the card you searched for. It's a gamble!
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/121/gamble) · oracle_id `a54f0869-94c8-42af-9080-166efb9486a4` · printing: DMR #121 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gamekeeper
 
@@ -1357,7 +1360,12 @@
   > As this land enters, you may reveal a Mountain or Forest card from your hand. If you don't, this land enters tapped.
   > {T}: Add {R} or {G}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #397 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/264/game-trail) · oracle_id `00de57d2-7cb6-4337-9bc6-f6711e4dfabf` · printing: MKC #264 (2024-02-09) · [rulings](https://api.scryfall.com/cards/2a84a604-7b05-4716-bcd8-40d2acdb76e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-04-08* — If a Mountain or Forest is entering the battlefield from your hand at the same time as Game Trail, you may reveal the other land to have Game Trail enter untapped.
+  - *2016-04-08* — If an effect instructs you to put Game Trail onto the battlefield tapped, it will still enter the battlefield tapped even if you reveal a land card from your hand.
+  - *2016-04-08* — Lands don't have a subtype just because they can produce mana of the corresponding color. Game Trail itself is neither a Mountain nor a Forest, even though it produces red and green mana, so you can't reveal one to satisfy the ability of another.
+  - *2016-04-08* — You may reveal any land card with either or both of the appropriate subtypes. It doesn't have to be a basic land. For example, you could reveal Canopy Vista from the Battle for Zendikar set to satisfy the ability of Game Trail.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/264/game-trail) · oracle_id `00de57d2-7cb6-4337-9bc6-f6711e4dfabf` · printing: MKC #264 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Game-Trail Changeling
 
@@ -2161,7 +2169,12 @@
   > Creatures you control have trample. (Each of those creatures can deal excess combat damage to the player or planeswalker it's attacking.)
   > Whenever a creature you control with power 4 or greater enters, draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #91 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/109/garruks-uprising) · oracle_id `3127ae9b-a7a7-43ec-89d7-688f8445b33d` · printing: ECC #109 (2026-01-23) · [rulings](https://api.scryfall.com/cards/b58c4033-f764-42f6-966f-b7202a2babbf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — If one or more static abilities that apply to a creature entering change its power, those abilities are considered when determining whether Garruk's Uprising's last ability triggers. The same is true for replacement effects that apply to it, such as entering with one or more +1/+1 counters or entering as a copy of another creature.
+  - *2024-11-08* — If you don't control a creature with power 4 or greater immediately after Garruk's Uprising enters, its first ability won't trigger. If you don't control one as the ability resolves, you don't draw a card. They don't have to be the same creature both times, however.
+  - *2024-11-08* — Once the last ability of Garruk's Uprising has triggered, lowering the power of the creature or removing it from the battlefield won't stop you from drawing a card.
+  - *2024-11-08* — The first ability of Garruk's Uprising has you draw just one card, no matter how many creatures you control with power 4 or greater.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/109/garruks-uprising) · oracle_id `3127ae9b-a7a7-43ec-89d7-688f8445b33d` · printing: ECC #109 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garruk's Warsteed
 
@@ -2891,6 +2904,7 @@
   > *"The protective wards of the church have weakened, and no one can tell us why. It's time to look to our own defenses."*
   > *—Gregel, militia leader*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1002 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/406/gavony-township) · oracle_id `8a44e4e7-dfa2-427b-bbff-11c398fa60bb` · printing: MOC #406 (2023-04-21) · [rulings](https://api.scryfall.com/cards/ce46c4e2-a515-41d7-8d70-d20cf4925996/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gavony Trapper

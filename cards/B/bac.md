@@ -200,7 +200,17 @@
 - **Flavor text** (CNS printing):
   > *"In the market for an alternative, friend?"*
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/2/backup-plan) · oracle_id `6f14f61f-e533-4541-b861-4dbaf0d88833` · printing: CNS #2 (2014-06-06) · [rulings](https://api.scryfall.com/cards/84c5a45a-adc2-41f9-893c-58a03bebbf0c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2014-05-29* — If, through a combination of Backup Plan and/or other conspiracies, you have fewer cards in your deck than you must draw as the game begins, you'll lose the game when state-based actions are checked during the upkeep of the first turn.
+  - *2014-05-29* — The effect of Backup Plan is cumulative. If you have two in your command zone to start the game, you'll draw three hands of seven cards and shuffle all but one of them into your library.
+  - *2016-08-23* — A conspiracy doesn't count as a card in your deck for purposes of meeting minimum deck size requirements. (In most drafts, the minimum deck size is 40 cards.)
+  - *2016-08-23* — A conspiracy's static and triggered abilities function as long as that conspiracy is face-up in the command zone.
+  - *2016-08-23* — Conspiracies are colorless, have no mana cost, and can't be cast as spells.
+  - *2016-08-23* — Conspiracies are never put into your deck. Instead, you put any number of conspiracies from your card pool into the command zone as the game begins. These conspiracies are face up unless they have hidden agenda, in which case they begin the game face down.
+  - *2016-08-23* — Conspiracies aren't legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft.
+  - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
+  - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/2/backup-plan) · oracle_id `6f14f61f-e533-4541-b861-4dbaf0d88833` · printing: CNS #2 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Backwoods Survivalists
 

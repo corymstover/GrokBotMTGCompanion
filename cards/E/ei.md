@@ -189,7 +189,10 @@
   > Channel — {2}{W}, Discard this card: It deals 4 damage to target attacking or blocking creature. This ability costs {1} less to activate for each legendary creature you control.
 - **Keywords:** Channel
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #376 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/268/eiganjo-seat-of-the-empire) · oracle_id `7edb3d15-4f70-4ebe-8c5e-caf6a225076d` · printing: NEO #268 (2022-02-18) · [rulings](https://api.scryfall.com/cards/c375a022-5b57-496d-a802-e4ea8376e9e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-02-18* — Discarding the card is part of the cost to activate a channel ability.
+  - *2022-02-18* — If a channel ability requires a target, you may not activate it without a target just to discard the card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/268/eiganjo-seat-of-the-empire) · oracle_id `7edb3d15-4f70-4ebe-8c5e-caf6a225076d` · printing: NEO #268 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eiganjo Uprising
 

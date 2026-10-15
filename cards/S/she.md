@@ -363,6 +363,7 @@
   > Cycling {2} ({2}, Discard this card: Draw a card.)
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #652 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/167/sheltered-thicket) · oracle_id `db8d8643-3d0b-4f20-bf53-f4cd26a0e8df` · printing: ECC #167 (2026-01-23) · [rulings](https://api.scryfall.com/cards/ad7f87dd-1c43-4b6f-9d68-cc09ef76dbc2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sheltered Valley
@@ -535,7 +536,9 @@
   > *"Gix failed. I shall not."*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #460 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/107/sheoldred-the-apocalypse) · oracle_id `34f34409-326d-4994-a0ea-1a69aa278f03` · printing: DMU #107 (2022-09-09) · [rulings](https://api.scryfall.com/cards/d67be074-cdd4-41d9-ac89-0a0456c4e4b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-09-09* — If you and an opponent draw a card at the same time, you choose the order that the triggered abilities will resolve in.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/107/sheoldred-the-apocalypse) · oracle_id `34f34409-326d-4994-a0ea-1a69aa278f03` · printing: DMU #107 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sheoldred // The True Scriptures
 
@@ -565,7 +568,12 @@
   > At the beginning of each opponent's upkeep, that player sacrifices a creature of their choice.
 - **Keywords:** Landwalk, Swampwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #723 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/278/sheoldred-whispering-one) · oracle_id `9218b56d-aaec-482f-99e9-d95d227bfe25` · printing: JMP #278 (2020-07-17) · [rulings](https://api.scryfall.com/cards/8b207a4a-47d1-4905-81d3-455c59bfd7da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2017-11-17* — If another triggered ability during your upkeep causes you to sacrifice a creature, such as that of Lord of the Pit, you won't be able to target it with Sheoldred's triggered ability as that ability is put on the stack.
+  - *2017-11-17* — In a Two-Headed Giant game, the last ability will trigger twice at the beginning of the opposing team's upkeep, once for each player on that team. Each player sacrifices only a creature they control.
+  - *2017-11-17* — Swampwalk is a keyword ability that means “This creature can't be blocked if defending player controls a Swamp.” Most nonbasic lands don't have basic land types, even if they produce colored mana. For example, Graven Cairns is neither a Swamp nor a Mountain, while Blood Crypt is both.
+  - *2017-11-17* — The opponent whose upkeep it is chooses a creature to sacrifice when Sheoldred's second triggered ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/278/sheoldred-whispering-one) · oracle_id `9218b56d-aaec-482f-99e9-d95d227bfe25` · printing: JMP #278 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shepherding Spirits
 

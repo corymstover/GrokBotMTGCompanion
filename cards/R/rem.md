@@ -34,7 +34,10 @@
 - **Flavor text** (RVR printing):
   > *"Well, at least all of that arm-waving and arcane babbling you did was impressive."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4633 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/59/remand) · oracle_id `d71cd08e-3e84-41ff-b9db-9e343c0af6b4` · printing: RVR #59 (2024-01-12) · [rulings](https://api.scryfall.com/cards/a5048047-abff-4a1f-8d72-6b758a03542c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-03-19* — If you target a card that was cast with flashback with Remand, the card will still be exiled.
+  - *2021-03-19* — Remand can target a spell that can't be countered. That spell won't be countered or returned to its owner's hand, but you'll draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/59/remand) · oracle_id `d71cd08e-3e84-41ff-b9db-9e343c0af6b4` · printing: RVR #59 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Remedy
 

@@ -155,7 +155,11 @@
   > *A golden helix streaked skyward from the Helvault. A thunderous explosion shattered the silver monolith and Avacyn emerged, free from her prison at last.*
 - **Keywords:** Flying, Indestructible, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #744 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/477/avacyn-angel-of-hope) · oracle_id `216cb26e-8da9-478b-bfbc-8030f7adee72` · printing: INR #477 (2025-01-24) · [rulings](https://api.scryfall.com/cards/74e5dcec-ef1d-4461-bb23-61d98ff082dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-08-07* — A planeswalker with indestructible still loses loyalty as it's dealt damage. It is put into its owner's graveyard if its loyalty becomes 0.
+  - *2020-08-07* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature you control may become lethal if Avacyn leaves the battlefield during that turn.
+  - *2023-07-28* — A battle with indestructible still loses defense counters as it's dealt damage. If it's a Siege, it will still be exiled when the last defense counter is removed from it, and its controller may still cast it transformed without paying its mana cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/477/avacyn-angel-of-hope) · oracle_id `216cb26e-8da9-478b-bfbc-8030f7adee72` · printing: INR #477 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avacyn, Angel of Horror
 
@@ -271,6 +275,7 @@
 - **Flavor text** (MIC printing):
   > *"Avacyn's protection is everywhere. From the holy church to the sacred glade, all that we see is under her blessed watch."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #501 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/132/avacyns-pilgrim) · oracle_id `069f6530-e65c-4d52-85f3-e0a2acd148c5` · printing: MIC #132 (2021-09-24) · [rulings](https://api.scryfall.com/cards/a390a7df-b8da-41aa-93e5-2c0db938a27e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avalanche
@@ -319,6 +324,7 @@
   > When this creature enters, destroy target land.
 - **Keywords:** Haste, Echo
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21034 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsb/55/avalanche-riders) · oracle_id `c9048d35-aff7-45ae-ae97-db89397b3e74` · printing: TSB #55 (2006-10-06) · [rulings](https://api.scryfall.com/cards/abb19b6b-4142-4b93-85ca-3f2d8b23b4e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avalanche Tusker
@@ -873,7 +879,11 @@
   > Landfall — Whenever a land you control enters, you may put a +1/+1 counter on each Plant creature you control.
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #299 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/98/avenger-of-zendikar) · oracle_id `4ba5b3f6-503b-43e6-b66e-4f8c55cffed7` · printing: ECC #98 (2026-01-23) · [rulings](https://api.scryfall.com/cards/c6f1e60f-a195-4590-80b0-86767de6c423/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/98/avenger-of-zendikar) · oracle_id `4ba5b3f6-503b-43e6-b66e-4f8c55cffed7` · printing: ECC #98 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avengers Assemble!
 

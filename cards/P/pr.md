@@ -410,6 +410,7 @@
   > *"A mysterious people indeed. Their origins are as secret as their traditions."*
   > *—Lord Magnus of Llanowar*
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/6ed/244/pradesh-gypsies) · oracle_id `37c49483-bef6-47c6-9354-ead8560d48da` · printing: 6ED #244 (1999-04-21) · [rulings](https://api.scryfall.com/cards/a4c9b18c-4993-4ce1-b2bd-ab14c9f3aad7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Praetorhoof Behemoth
@@ -481,7 +482,11 @@
 - **Flavor text** (FRC printing):
   > *The continent of Ondu is a vast plateau crisscrossed by deep trenches and meandering rivers.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #103 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/79/prairie-stream) · oracle_id `5330e24a-8568-446e-840a-594cd08bd1bc` · printing: FRC #79 (2026-10-02) · [rulings](https://api.scryfall.com/cards/a93c2e0b-3fca-476e-ae5b-a331ccacae19/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-08-25* — Even though these lands have basic land types, they are not basic lands because "basic" doesn't appear on their type line. Notably, controlling two or more of them won't allow others to enter the battlefield untapped.
+  - *2015-08-25* — However, because these cards have basic land types, effects that specify a basic land type without also specifying that the land be basic can affect them. For example, a spell or ability that reads "Destroy target Forest" can target Canopy Vista, while one that reads "Destroy target basic Forest" cannot.
+  - *2015-08-25* — If one of these lands enters the battlefield at the same time as any number of basic lands, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/79/prairie-stream) · oracle_id `5330e24a-8568-446e-840a-594cd08bd1bc` · printing: FRC #79 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Prakhata Club Security
 
@@ -1009,6 +1014,7 @@
   > Scry 2, then draw a card. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #214 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/161/preordain) · oracle_id `ac641490-ca14-48d7-8cc4-b69ce984befa` · printing: TDC #161 (2025-04-11) · [rulings](https://api.scryfall.com/cards/dd29a0e5-c1de-4e8a-8866-715e9f9cde1f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Prepare // Fight
@@ -1638,7 +1644,10 @@
 - **Flavor text** (MH3 printing):
   > *Titania rewards all who honor the forest by making them a living part of it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #770 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/286/priest-of-titania) · oracle_id `3a198a16-17b9-481e-b516-5bc945c7e247` · printing: MH3 #286 (2024-06-14) · [rulings](https://api.scryfall.com/cards/eb11921b-1b28-483f-a707-4de21a6daa31/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-06-07* — Priest of Titania's ability counts all Elves on the battlefield. This includes Priest of Titania itself as well as Elves controlled by other players.
+  - *2024-06-07* — Priest of Titania's ability is a mana ability. It doesn't use the stack and players can't respond to it. Notably, this means other players can't try to remove Elves from the battlefield after you activate this ability but before it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/286/priest-of-titania) · oracle_id `3a198a16-17b9-481e-b516-5bc945c7e247` · printing: MH3 #286 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Priest of Urabrask
 
@@ -2168,7 +2177,9 @@
   > *When nature calls, \*run\*.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/183/primeval-titan) · oracle_id `ae83ef2c-960f-4c5b-97cc-52465c687c18` · printing: IMA #183 (2017-11-17) · [rulings](https://api.scryfall.com/cards/6d5537da-112e-4679-a113-b5d7ce32a66b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-11-17* — You may find any land cards, not just basic land cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/183/primeval-titan) · oracle_id `ae83ef2c-960f-4c5b-97cc-52465c687c18` · printing: IMA #183 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Primitive Etchings
 
@@ -2652,6 +2663,7 @@
 - **Flavor text** (MH1 printing):
   > *There is beauty in the uncertainty of potential.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #192 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/244/prismatic-vista) · oracle_id `032b8a0d-491a-4a12-ab9f-689010054d5b` · printing: MH1 #244 (2019-06-14) · [rulings](https://api.scryfall.com/cards/e37da81e-be12-45a2-9128-376f1ad7b3e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Prismatic Ward
@@ -3228,6 +3240,7 @@
   > Sacrifice a Treasure: Exile the top card of your library. You may play that card this turn.
 - **Keywords:** Treasure, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #207 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/116/professional-face-breaker) · oracle_id `04152e7a-969c-4858-841b-0a569a9fc1bf` · printing: SNC #116 (2022-04-29) · [rulings](https://api.scryfall.com/cards/42acbf52-b137-44f0-a815-2817fe8d2da2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Professional Wrestler
@@ -3649,7 +3662,14 @@
 - **Flavor text** (MSC printing):
   > *"Why vote for a mere mortal when you can vote for a god?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #112 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/151/propaganda) · oracle_id `ea9709b6-4c37-4d5a-b04d-cd4c42e4f9dd` · printing: MSC #151 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ac943e31-26bc-4b54-b73f-460e6e402d86/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2004-10-04* — If there are multiple attacks in a turn, then you have to pay for each attack.
+  - *2004-10-04* — If there is more than one Propaganda on the battlefield, the cost is cumulative.
+  - *2004-10-04* — Paying this cost is not an instant or any other kind of ability, it is an additional cost on the declaration of the attacker.
+  - *2004-10-04* — The payment is made during the declare attackers step at the same time you are declaring the attacker.
+  - *2007-02-01* — In the Two-Headed Giant format, you still only have to pay once per creature.
+  - *2014-02-01* — Unless some effect explicitly says otherwise, a creature that can't attack you can still attack a planeswalker you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/151/propaganda) · oracle_id `ea9709b6-4c37-4d5a-b04d-cd4c42e4f9dd` · printing: MSC #151 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Propagator Drone
 
@@ -3808,7 +3828,13 @@
 - **Flavor text** (THS printing):
   > *"Time is fluid as a dance, and truth as fleeting."*
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/199/prophet-of-kruphix) · oracle_id `372351fd-58f7-4cb8-8644-5fbc94ccb145` · printing: THS #199 (2013-09-27) · [rulings](https://api.scryfall.com/cards/45de923f-fdab-460c-96f4-f62aefa9ad73/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2013-09-15* — Controlling more than one Prophet of Kruphix doesn't allow you to untap any creature or land more than once during a single untap step.
+  - *2013-09-15* — Creatures and lands you control untap at the same time as the active player's permanents. You can't choose to not untap them at that time.
+  - *2013-09-15* — Effects that state a creature or land you control doesn't untap during your untap step won't apply during another player's untap step.
+  - *2013-09-15* — If you're casting a creature spell with bestow, whether or not it has flash will depend on if you're casting it as a creature or as an Aura. Prophet of Kruphix won't give flash to a spell with bestow you're casting as an Aura.
+  - *2013-09-15* — The last ability applies to creature cards in any zone, provided something is allowing you to cast them. For example, if you control a Zombie, you could cast Gravecrawler (a creature with “You may cast Gravecrawler from your graveyard as long as you control a Zombie”) from your graveyard as though it had flash.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/199/prophet-of-kruphix) · oracle_id `372351fd-58f7-4cb8-8644-5fbc94ccb145` · printing: THS #199 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Prophet of the Peak
 

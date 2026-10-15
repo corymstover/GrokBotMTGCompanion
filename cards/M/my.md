@@ -517,7 +517,9 @@
   > {T}: Add {C}.
   > {2}, {T}, Sacrifice this land: Search your library for up to two basic land cards that share a land type, put them onto the battlefield tapped, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/169/myriad-landscape) · oracle_id `2549bc57-9ffb-4053-9f10-f2a5f792b845` · printing: EOC #169 (2025-08-01) · [rulings](https://api.scryfall.com/cards/a0e2098f-1d94-491a-a7e9-a45a9f69e3a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-03-16* — You can choose to find one basic land card with Myriad Landscape's last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/169/myriad-landscape) · oracle_id `2549bc57-9ffb-4053-9f10-f2a5f792b845` · printing: EOC #169 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Incubator
 
@@ -942,6 +944,7 @@
 - **Flavor text** (ELD printing):
   > *"Poor, lost mage. Your feet are on land, yet you're in over your head, aren't you?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10876 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/58/mystical-dispute) · oracle_id `48390b8d-db41-48a5-9bac-316660ab7252` · printing: ELD #58 (2019-10-04) · [rulings](https://api.scryfall.com/cards/fbe04cb8-a8b9-4241-baae-b398a2509a3a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystical Teachings
@@ -976,7 +979,9 @@
 - **Flavor text** (DMR printing):
   > *The student searches the world for meaning. The master finds worlds of meaning in the search.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #162 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/60/mystical-tutor) · oracle_id `fb81f95c-70f8-4eb7-8d15-15d0ae23ec03` · printing: DMR #60 (2023-01-13) · [rulings](https://api.scryfall.com/cards/36fa9a0b-b0c9-43ea-ba11-99d7982f974e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-06-08* — The "shuffle and put the card on top" is a single action. If an effect causes the top card of the library to be face up, the second card down is not revealed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/60/mystical-tutor) · oracle_id `fb81f95c-70f8-4eb7-8d15-15d0ae23ec03` · printing: DMR #60 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Archaeologist
 
@@ -1102,7 +1107,14 @@
   > You may cast artifact spells and colorless spells from the top of your library.
   > {T}, Pay 1 life: Exile the top card of your library.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #414 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/964/mystic-forge) · oracle_id `994bc16d-fdc6-475c-96df-beeb4d5aa03e` · printing: CMM #964 (2023-08-04) · [rulings](https://api.scryfall.com/cards/bc0de77a-c503-4000-9eb5-aa28a5e91082/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2019-07-12* — Because you never "cast" a land card, Mystic Forge doesn't allow you to play an artifact land from the top of your library.
+  - *2019-07-12* — If the top card of your library changes while you're casting a spell, playing a land, or activating an ability, you can't look at the new top card until you finish doing so. This means that if you cast the top card of your library, you can't look at the next one until you're done paying for that spell.
+  - *2019-07-12* — If the top card of your library has a morph ability, you can cast it face down from the top of your library, even if it's normally not a colorless card.
+  - *2019-07-12* — Mystic Forge lets you look at the top card of your library whenever you want (with one restriction—see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
+  - *2019-07-12* — You must follow the normal timing permissions and restrictions of the spells you cast from your library.
+  - *2019-07-12* — You still pay all costs for a spell you cast from your library, including additional costs. You may also pay alternative costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/964/mystic-forge) · oracle_id `994bc16d-fdc6-475c-96df-beeb4d5aa03e` · printing: CMM #964 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Gate
 
@@ -1114,6 +1126,7 @@
 - **Flavor text** (FRC printing):
   > *The gate of every kithkin doun is a cunning trap, intended to spill visitors into an oubliette from which there is no escape.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #806 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/76/mystic-gate) · oracle_id `e9f5feb2-2c1a-46ce-885a-4f378d7d10af` · printing: FRC #76 (2026-10-02) · [rulings](https://api.scryfall.com/cards/fa32d90e-1153-42ab-b8ff-0eb82698692c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Genesis
@@ -1175,6 +1188,7 @@
   > *"It may not be the most extravagant or awe-inspiring House of the Deadly Hand of all time, but it's here and it's home."*
   > *—Shang-Chi*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #373 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/253/mystic-monastery) · oracle_id `834b8f71-9a45-42ae-9e99-e749fa6fb45e` · printing: MSC #253 (2026-06-26) · [rulings](https://api.scryfall.com/cards/bc23343a-3a01-4975-8430-17bf15fa639d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic of the Hidden Way
@@ -1236,7 +1250,10 @@
   > Whenever an opponent casts a noncreature spell, you may draw a card unless that player pays {4}.
 - **Keywords:** Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #101 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/59/mystic-remora) · oracle_id `8a52f3c0-2552-4425-b2e3-5496eb2232a7` · printing: DMR #59 (2023-01-13) · [rulings](https://api.scryfall.com/cards/40140991-cffa-4b52-9a25-37e9a8aa9ddd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-10-02* — Cumulative upkeep is a triggered ability that imposes an increasing cost on a permanent. "Cumulative upkeep [cost]" means "At the beginning of your upkeep, if this permanent is on the battlefield, put an age counter on this permanent. Then you may pay [cost] for each age counter on it. If you don't, sacrifice it."
+  - *2025-10-02* — Paying cumulative upkeep is always optional. If it's not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can't be made. For example, if Mystic Remora has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either pay {4} or sacrifice it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/59/mystic-remora) · oracle_id `8a52f3c0-2552-4425-b2e3-5496eb2232a7` · printing: DMR #59 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Repeal
 
@@ -1283,7 +1300,10 @@
   > This land enters tapped unless you control three or more other Islands.
   > When this land enters untapped, you may put target instant or sorcery card from your graveyard on top of your library.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #175 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/388/mystic-sanctuary) · oracle_id `17b60106-a4c7-410a-8ac3-ec8e74e29a7c` · printing: SOC #388 (2026-04-24) · [rulings](https://api.scryfall.com/cards/4cd86997-d7b9-4b5b-9488-11f5c679e4d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-10-04* — As these lands are entering the battlefield, they check for lands that are already on the battlefield. They won't see lands that are entering the battlefield at the same time (due to Scapeshift, for example).
+  - *2019-10-04* — If another effect puts these lands onto the battlefield tapped, they enter tapped, even if you control enough lands with the appropriate basic land type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/388/mystic-sanctuary) · oracle_id `17b60106-a4c7-410a-8ac3-ec8e74e29a7c` · printing: SOC #388 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Skull // Mystic Monstrosity
 
@@ -1400,7 +1420,11 @@
   > {T}: Add {C}.
   > {4}, {T}: Exile target attacking creature an opponent controls. At the beginning of the next end step, return it to the battlefield tapped under its owner's control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6567 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c17/264/mystifying-maze) · oracle_id `58bd67a8-1833-4827-aa33-1c141568f481` · printing: C17 #264 (2017-08-25) · [rulings](https://api.scryfall.com/cards/faeeb2f8-0aa1-4f3e-848d-f4233996055b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2010-08-15* — An “attacking creature” is one that has been declared as an attacker this combat, or one that was put onto the battlefield attacking this combat. Unless that creature leaves combat, it continues to be an attacking creature through the end of combat step, even if the player it was attacking has left the game, or the planeswalker it was attacking has left combat.
+  - *2010-08-15* — At the beginning of the next end step, the affected creature is returned to the battlefield even if Mystifying Maze is no longer on the battlefield by then.
+  - *2010-08-15* — The targeted creature doesn’t have to be attacking you. It can be attacking a planeswalker, or (in a multiplayer game) it can be attacking another player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c17/264/mystifying-maze) · oracle_id `58bd67a8-1833-4827-aa33-1c141568f481` · printing: C17 #264 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mythic Proportions
 

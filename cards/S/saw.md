@@ -107,7 +107,16 @@
 - **Flavor text** (UNF printing):
   > *The audience always loves it, but volunteers are divided.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #578 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/88/saw-in-half) · oracle_id `eea18c55-8695-4ba1-9b38-3e7638692f5f` · printing: UNF #88 (2022-10-07) · [rulings](https://api.scryfall.com/cards/05e6a7bc-a35a-4e68-99a0-be264553b5de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2025-09-19* — Any enters-the-battlefield abilities of the copied creature will trigger when the tokens enter the battlefield. Any "as [this creature] enters" or "[this creature] enters with" abilities of the copied creature will also work.
+  - *2025-09-19* — Except for power and toughness, the tokens copy exactly what was printed on the original creature and nothing else (unless that creature was copying something else or it's a token; see below). They don't copy whether that creature was tapped or untapped, whether it had any counters on it or Auras and Equipment attached to it, and so on.
+  - *2025-09-19* — If the copied creature had {X} in its mana cost, X is 0.
+  - *2025-09-19* — If the copied creature was a token, the new tokens copy the original characteristics of that token as stated by the effect that created the token, with the listed exceptions.
+  - *2025-09-19* — If the copied creature was copying something else, then the tokens enter the battlefield as whatever that creature copied, with the listed exceptions.
+  - *2025-09-19* — If the creature isn't destroyed (perhaps because it has indestructible), its controller doesn't create any tokens. The same is true if the creature is destroyed but instead of going to its owner's graveyard, a replacement effect moves it elsewhere, such as exile.
+  - *2025-09-19* — If the original creature had a characteristic-defining ability that determined its power and/or toughness, that ability is not copied.
+  - *2025-09-19* — Use the power and toughness of the creature from when it was last on the battlefield to determine the power and toughness of the tokens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/88/saw-in-half) · oracle_id `eea18c55-8695-4ba1-9b38-3e7638692f5f` · printing: UNF #88 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saw It Coming
 
@@ -120,7 +129,11 @@
   > *"How predictable."*
 - **Keywords:** Foretell
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3121 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/76/saw-it-coming) · oracle_id `90edaf33-d0ab-47e0-8f6a-6fba38286e6e` · printing: KHM #76 (2021-02-05) · [rulings](https://api.scryfall.com/cards/877a1bb9-5eae-453a-bec0-a9de20ea6815/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-02-05* — Because exiling a card with foretell from your hand is a special action, you can do so any time you have priority during your turn, including in response to spells and abilities. Once you announce you’re taking the action, no other player can respond by trying to remove the card from your hand.
+  - *2021-02-05* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player’s turn. In most cases, if you foretell a card that isn’t an instant (or doesn’t have flash), you’ll have to wait until your next turn to cast it.
+  - *2021-02-05* — If you’re casting a foretold card from exile for its foretell cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/76/saw-it-coming) · oracle_id `90edaf33-d0ab-47e0-8f6a-6fba38286e6e` · printing: KHM #76 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sawtooth Avenger
 

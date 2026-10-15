@@ -72,6 +72,7 @@
   > *"Now, remember: Under no circumstances should you utter the word 'geyser' in the same room as—oh, blast it!"*
   > *—Bindlehaim, Upper City merchant*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #321 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/309/decanter-of-endless-water) · oracle_id `8ae98ef8-8f52-4877-a08c-1fae5514184e` · printing: CLB #309 (2022-06-10) · [rulings](https://api.scryfall.com/cards/518bbc36-58ea-44c4-a857-75a3aff058f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decaying Soil
@@ -477,7 +478,10 @@
   > When you cycle this card, destroy all lands.
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12147 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/scg/85/decree-of-annihilation) · oracle_id `6679b462-3c90-418c-8727-acd1a61d988b` · printing: SCG #85 (2003-05-26) · [rulings](https://api.scryfall.com/cards/73744717-518c-478e-9da9-201c49124f37/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-12-08* — The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (because, for example, it has been countered, or all of its targets have become illegal), the cycling ability will still resolve, and you'll draw a card.
+  - *2022-12-08* — When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/scg/85/decree-of-annihilation) · oracle_id `6679b462-3c90-418c-8727-acd1a61d988b` · printing: SCG #85 (2003-05-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decree of Justice
 

@@ -728,7 +728,11 @@
 - **Oracle text:**
   > Draw a card if an opponent has cast a blue or black spell this turn. Spells you control can't be countered this turn. You and permanents you control gain hexproof from blue and from black until end of turn. (You and they can't be the targets of blue or black spells or abilities your opponents control.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #528 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/198/veil-of-summer) · oracle_id `002965be-a36f-4a09-9ce0-c6535bca1703` · printing: M20 #198 (2019-07-12) · [rulings](https://api.scryfall.com/cards/aa686c34-1c11-469f-93c2-f9891aea521f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-07-12* — A spell or ability that counters spells can still target your spells after Veil of Summer resolves. When that spell or ability resolves, your spell won't be countered, but any additional effects of the countering spell or ability will still happen.
+  - *2019-07-12* — If your opponents have cast more than one blue or black spell, you still draw only one card as Veil of Summer resolves.
+  - *2019-07-12* — Veil of Summer has no effect until it resolves. It can be countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/198/veil-of-summer) · oracle_id `002965be-a36f-4a09-9ce0-c6535bca1703` · printing: M20 #198 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Veilstone Amulet
 
@@ -1805,6 +1809,7 @@
 - **Oracle text:**
   > {T}, Pay 1 life, Sacrifice this land: Search your library for a Swamp or Forest card, put it onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #48 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/260/verdant-catacombs) · oracle_id `67d60b24-d429-4ded-90d9-06e49f28c396` · printing: MH2 #260 (2021-06-18) · [rulings](https://api.scryfall.com/cards/94c229ea-90da-4aa0-bfda-b162fb3b5b8b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Verdant Command
@@ -2149,7 +2154,9 @@
   > *"New things need room to grow. We prune time so the future can flourish."*
   > *—Antioxa, Drix elder*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #664 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/419/vernal-fen) · oracle_id `40544d12-0391-4a61-af95-9b8ec01ed8fc` · printing: SOC #419 (2026-04-24) · [rulings](https://api.scryfall.com/cards/0466cf57-bb3e-4359-8fe8-d6cc1288fdc6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-07-25* — Unlike some other dual lands, Vernal Fen has two basic land types. It’s not basic, so effects that search for basic lands (such as the ability of a Lander token) can’t find it, but it does have the appropriate land types for effects such as that of Wastewood Verge (from the Aetherdrift release).
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/419/vernal-fen) · oracle_id `40544d12-0391-4a61-af95-9b8ec01ed8fc` · printing: SOC #419 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vernal Sovereign
 
@@ -2902,4 +2909,12 @@
   > If you casting or copying an instant or sorcery spell causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
 - **Keywords:** Magecraft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #745 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/337/veyran-voice-of-duality) · oracle_id `d57a6b19-bd06-4b07-8ee1-0b45612ba9e4` · printing: SOC #337 (2026-04-24) · [rulings](https://api.scryfall.com/cards/1cb06c70-7ff2-4c88-9931-1bfe8a3226d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-04-16* — Each magecraft ability has a different effect, although they all have the same trigger condition, whenever you cast or copy an instant or sorcery spell.
+  - *2021-04-16* — If an effect creates a copy of an instant or sorcery spell, this will also cause the magecraft ability to trigger.
+  - *2021-04-16* — If an effect creates multiple copies of an instant or sorcery spell, magecraft abilities trigger once for each copy created by the effect.
+  - *2021-04-16* — If you somehow control two Veyrans (which would be poetic), you casting an instant or sorcery spell causes abilities to trigger three times. A third Veyran (less poetic) causes abilities to trigger four times, and so on.
+  - *2021-04-16* — Some effects instruct you to copy an instant or sorcery card in a zone other than the stack. These copies do not cause magecraft abilities to trigger. However, most effects that do this also allow you to cast the copy, and casting the copy will cause magecraft abilities to trigger.
+  - *2021-04-16* — Veyran's effect doesn't copy the triggered ability; it just causes the ability to trigger again. Any choices you make as you put the ability on the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution are also made individually.
+  - *2021-04-16* — Veyran, Voice of Duality's last ability causes each of your magecraft abilities, including Veyran's own, to trigger an additional time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/337/veyran-voice-of-duality) · oracle_id `d57a6b19-bd06-4b07-8ee1-0b45612ba9e4` · printing: SOC #337 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

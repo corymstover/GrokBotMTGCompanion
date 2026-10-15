@@ -679,6 +679,7 @@
 - **Oracle text:**
   > Target player draws three cards.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/1/ancestral-recall) · oracle_id `550c74d4-1fcb-406a-b02a-639a760a4380` · printing: VMA #1 (2014-06-16) · [rulings](https://api.scryfall.com/cards/2398892d-28e9-4009-81ec-0d544af79d2b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ancestral Reminiscence
@@ -886,6 +887,7 @@
   > Whenever this creature deals combat damage to a player, roll a d20. You create a number of Treasure tokens equal to the result.
 - **Keywords:** Flying, Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #624 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/161/ancient-copper-dragon) · oracle_id `48daee9d-ddaf-410f-8c3a-12fa1064ab56` · printing: CLB #161 (2022-06-10) · [rulings](https://api.scryfall.com/cards/3836dddd-a7e4-499f-ad49-ce298aa65720/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ancient Cornucopia
@@ -933,6 +935,7 @@
 - **Flavor text** (EOC printing):
   > *Taj-Nar, throne of Raksha Golden Cub, destined leader of the leonin prides.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #483 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/148/ancient-den) · oracle_id `02f16726-f2f6-4943-b71a-93f8e26251d3` · printing: EOC #148 (2025-08-01) · [rulings](https://api.scryfall.com/cards/d9a7b0f6-97f9-4937-865c-e25c142c3ed7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ancient Excavation
@@ -971,7 +974,19 @@
   > *When the ruins awakened, so did their defenses.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #700 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/186/ancient-greenwarden) · oracle_id `3bcf090c-e890-4a9f-a8aa-6079e4ec9947` · printing: OTC #186 (2024-04-19) · [rulings](https://api.scryfall.com/cards/12a0bf5c-a165-48f1-9a57-3a7cc9f3b0f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2020-09-25* — An ability that triggers whenever you play a land won't trigger an additional time.
+  - *2020-09-25* — Ancient Greenwarden allows you to play a modal double-faced card's land face, but not a nonland face.
+  - *2020-09-25* — Ancient Greenwarden doesn't allow you to activate abilities (such as cycling) of land cards in your graveyard.
+  - *2020-09-25* — Ancient Greenwarden doesn't change the times when you can play those lands. You can still play only one land per turn, and only during your main phase when you have priority and the stack is empty.
+  - *2020-09-25* — Ancient Greenwarden's effect doesn't copy the triggered ability; it causes the ability to trigger twice. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution, such as whether to put counters on a permanent, are also made individually.
+  - *2020-09-25* — Ancient Greenwarden's third ability affects a land's own enters-the-battlefield triggered abilities as well as other triggered abilities that trigger when that land enters the battlefield, such as landfall abilities. Such triggered abilities start with "when" or "whenever."
+  - *2020-09-25* — If a land entering the battlefield at the same time as Ancient Greenwarden (including Ancient Greenwarden itself if an effect causes it to be a land) causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
+  - *2020-09-25* — If you control two Ancient Greenwardens, a land entering the battlefield causes abilities to trigger three times, not four. A third Ancient Greenwarden causes abilities to trigger four times, a fourth causes abilities to trigger five times, and so on.
+  - *2020-09-25* — Look at each permanent as it exists on the battlefield, taking into account continuous effects, to determine whether any triggered abilities will trigger multiple times. For example, if you control Ashaya, Soul of the Wild, a nontoken creature entering the battlefield will cause any appropriate abilities to trigger an additional time.
+  - *2020-09-25* — Replacement effects are unaffected by Ancient Greenwarden's third ability. This includes any abilities that apply "as [this land] enters the battlefield" and any ability that says the land enters the battlefield with counters.
+  - *2020-09-25* — The trigger event doesn't have to specifically refer to "lands." For example, an ability that triggers "whenever a creature enters the battlefield under your control" would trigger twice if the entering land is also a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/186/ancient-greenwarden) · oracle_id `3bcf090c-e890-4a9f-a8aa-6079e4ec9947` · printing: OTC #186 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ancient Grudge
 
@@ -1153,6 +1168,7 @@
   > *There is no glory to be gained in the kingdom of the dead.*
   > *—Vec tomb inscription*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #69 · Game Changer: **yes** · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/236/ancient-tomb) · oracle_id `23467047-6dba-4498-b783-1ebc4f74b8c2` · printing: UMA #236 (2018-12-07) · [rulings](https://api.scryfall.com/cards/bd3d4b4b-cf31-4f89-8140-9650edb03c7b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ancient Vendetta
@@ -2164,7 +2180,9 @@
   > *—Koth of the Hammer*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #346 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/235/anger) · oracle_id `eaabd151-2160-4bff-82c0-3fa88659be98` · printing: SOC #235 (2026-04-24) · [rulings](https://api.scryfall.com/cards/e886a604-e3ce-4c6a-b63e-2c7f910a177a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The timestamp for the "in your graveyard" ability is set at the time that this card goes to your graveyard, regardless of whether you control a Mountain at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/235/anger) · oracle_id `eaabd151-2160-4bff-82c0-3fa88659be98` · printing: SOC #235 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Anger of the Gods
 
@@ -2325,7 +2343,9 @@
 - **Flavor text** (SOC printing):
   > *Sorin had created Avacyn, so it was a cruelty beyond imagining, a pain beyond description, that it fell upon him to end her forever.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #153 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/293/anguished-unmaking) · oracle_id `ad09b3c3-c8e7-481c-8c45-e7f234935117` · printing: SOC #293 (2026-04-24) · [rulings](https://api.scryfall.com/cards/407183c6-c962-4f8c-867e-abc309b6c573/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-04-12* — If the target nonland permanent is an illegal target as Anguished Unmaking tries to resolve, it won't resolve and none of its effects will happen. You won't lose 3 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/293/anguished-unmaking) · oracle_id `ad09b3c3-c8e7-481c-8c45-e7f234935117` · printing: SOC #293 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Angus Mackenzie
 
@@ -2500,7 +2520,13 @@
   > Enchanted creature gets -1/-0.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #222 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/207/animate-dead) · oracle_id `c0d8fef4-65f4-4769-982d-b397d2b7e977` · printing: SOC #207 (2026-04-24) · [rulings](https://api.scryfall.com/cards/cc0c2bab-4392-4e7b-9d14-2901f4ffbae8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2016-06-08* — Abilities such as shroud and protection function only on the battlefield unless otherwise specified. A creature card with shroud may be targeted by Animate Dead, and Animate Dead will become attached to the creature that enters the battlefield.
+  - *2016-06-08* — Animate Dead is an Aura, albeit with an unusual enchant ability. You target a creature card in a graveyard when you cast it. It enters the battlefield attached to that card. Then it returns that card to the battlefield, and attaches itself to the card again (since the card is a new object on the battlefield). Animate Dead itself never moves into a graveyard during this process.
+  - *2016-06-08* — If Animate Dead isn't on the battlefield as its triggered ability resolves, none of its effects happen. The creature card won't be returned to the battlefield.
+  - *2016-06-08* — If the creature put onto the battlefield has protection from black—or if the creature can't legally be enchanted by Animate Dead for another reason—Animate Dead won't be able to attach to it. It will be put into the graveyard as a state-based action, causing its delayed triggered ability to trigger. When the trigger resolves, if the creature's still on the battlefield, its controller will sacrifice it.
+  - *2016-06-08* — Once the creature is returned to the battlefield, Animate Dead can't be attached to anything other than it (unless Animate Dead somehow manages to put a different creature onto the battlefield). Attempting to move Animate Dead to another creature won't work.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/207/animate-dead) · oracle_id `c0d8fef4-65f4-4769-982d-b397d2b7e977` · printing: SOC #207 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Animate Graveyard
 
@@ -2875,7 +2901,10 @@
   > *"I think you'll find my terms quite agreeable, if you know what's good for you."*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #34 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/160/an-offer-you-cant-refuse) · oracle_id `234a734b-ba28-4f1b-9d01-3c3e7d516590` · printing: FDN #160 (2024-11-15) · [rulings](https://api.scryfall.com/cards/a829747f-cf9b-4d81-ba66-9f0630ed4565/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-04-29* — If the target is no longer legal as An Offer You Can't Refuse resolves, no Treasure tokens are created.
+  - *2022-04-29* — If the target is still legal as it resolves but the spell can't be countered for some reason, its controller will still create two Treasure tokens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/160/an-offer-you-cant-refuse) · oracle_id `234a734b-ba28-4f1b-9d01-3c3e7d516590` · printing: FDN #160 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Anoint
 
@@ -2938,7 +2967,14 @@
   > *"The gods here may walk among the people, but they are not with them."*
   > *—Gideon Jura*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #364 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/2/anointed-procession) · oracle_id `7246d45b-2185-4cdd-981b-5419b7d52bce` · printing: AKH #2 (2017-04-28) · [rulings](https://api.scryfall.com/cards/9a52c265-6920-4929-ba0a-70da08df01f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2017-04-18* — All of the tokens enter the battlefield simultaneously. They’ll be created with the same name, color, type and subtype, abilities, power, toughness, and so on.
+  - *2017-04-18* — If an effect creates more than one kind of token, it’ll create twice as many of each kind. For example, if you cast Bestial Menace while controlling Anointed Procession, you’ll create two Snake tokens, two Wolf tokens, and two Elephant tokens.
+  - *2017-04-18* — If the effect creating the tokens instructs you to do something with those tokens at a later time, like exiling them at the end of combat, you’ll do that for all the tokens.
+  - *2017-04-18* — If the token you create has any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities, first determine how many tokens are being created, then apply those abilities individually for each one. For example, if a token with “You may have [this permanent] enter the battlefield as a copy of any creature on the battlefield” would be created (such as an embalmed Vizier of Many Faces), the resulting two tokens can each copy a different creature.
+  - *2017-04-18* — If you control two Anointed Processions, then the number of tokens created is four times the original number. If you control three, then the number of tokens created is eight times the original number, and so on.
+  - *2018-01-19* — There are many important moments in the story, but the most crucial—called “story spotlights”—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/2/anointed-procession) · oracle_id `7246d45b-2185-4cdd-981b-5419b7d52bce` · printing: AKH #2 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Anointer of Champions
 

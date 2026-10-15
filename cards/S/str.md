@@ -995,7 +995,16 @@
 - **Flavor text** (MOC printing):
   > *Its tines cannot be rung by mere physical force. Only magic of great power can start its eldritch resonance.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #603 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/384/strionic-resonator) · oracle_id `cf751552-156f-4f81-ac94-9814dce099f9` · printing: MOC #384 (2023-04-21) · [rulings](https://api.scryfall.com/cards/b9edb215-f967-4968-905e-d1dc3b5d3424/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2018-03-16* — Any choices made when the triggered ability resolves won't have been made yet when it's copied. Any such choices will be made separately when the copy resolves. If the triggered ability asks you to pay a cost (such as that of Frenzied Goblin), you pay that cost for the copy.
+  - *2018-03-16* — If a triggered ability is linked to a second ability, copies of that triggered ability are also linked to that second ability. If the second ability refers to "the exiled card," it refers to all cards exiled by the triggered ability and the copy. For example, if Fiend Hunter's enters-the-battlefield ability is copied and two creatures are exiled, they both return when Fiend Hunter leaves the battlefield.
+  - *2018-03-16* — If the triggered ability divides damage or distributes counters among a number of targets (for example, the ability of Bogardan Hellkite), the division and number of targets can't be changed. If you choose new targets, you must choose the same number of targets.
+  - *2018-03-16* — If the triggered ability is modal (that is, if it says, "Choose one —" or similar), the mode is copied and can't be changed.
+  - *2018-03-16* — In some cases involving linked abilities, an ability requires information about "the exiled card." When this happens, the ability gets multiple answers. If these answers are being used to determine the value of a variable, the sum is used. For example, if Elite Arcanist's enters-the-battlefield ability is copied, two cards are exiled. The value of X in the activation cost of Elite Arcanist's other ability is the sum of the two cards' mana values. As the ability resolves, you create copies of both cards and can cast none, one, or both of the copies in any order.
+  - *2018-03-16* — Strionic Resonator targets a triggered ability that has triggered and is on the stack and creates another instance of that ability on the stack. It doesn't cause any object to gain an ability.
+  - *2018-03-16* — The source of the copy is the same as the source of the original ability.
+  - *2018-03-16* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]."
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/384/strionic-resonator) · oracle_id `cf751552-156f-4f81-ac94-9814dce099f9` · printing: MOC #384 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Strip Bare
 
@@ -1046,6 +1055,7 @@
 - **Flavor text** (VMA printing):
   > *Unlike previous conflicts, the war between Urza and Mishra made Dominaria itself a casualty of war.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #529 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/316/strip-mine) · oracle_id `d21a89eb-7c5b-459a-acc7-12b20b13bf79` · printing: VMA #316 (2014-06-16) · [rulings](https://api.scryfall.com/cards/f57fd4c9-0004-4f71-a30f-2720943f57ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Strixhaven Skycoach
@@ -1118,7 +1128,9 @@
   > *"Who was that knight, so graceful and strong? Why did she flee before the food was gone?"*
   > *—\*Tale of the Masked Maiden\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #199 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/35/stroke-of-midnight) · oracle_id `9a107e48-3d50-4941-95b1-10f2b29a4245` · printing: FRC #35 (2026-10-02) · [rulings](https://api.scryfall.com/cards/d42b9f9e-2df2-491e-b6ac-3b2bac8a8d8e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-09-01* — If the target permanent is an illegal target by the time Stroke of Midnight tries to resolve, the spell doesn't resolve. No player creates a Human token. If the target is legal but not destroyed (most likely because it has indestructible), its controller does create a Human token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/35/stroke-of-midnight) · oracle_id `9a107e48-3d50-4941-95b1-10f2b29a4245` · printing: FRC #35 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stromgald Cabal
 

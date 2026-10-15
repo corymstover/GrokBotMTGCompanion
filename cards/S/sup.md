@@ -551,6 +551,7 @@
 - **Flavor text** (CLU printing):
   > *Leonos had no second thoughts about the abolishment edict. He'd left skyrunes warning of the eviction, even though it was cloudy.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #469 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/211/supreme-verdict) · oracle_id `0230de18-8d15-4cfa-9d42-7ccddd9f9570` · printing: CLU #211 (2024-02-23) · [rulings](https://api.scryfall.com/cards/3892f1c5-937e-4ef4-b6f9-e0c0ded070d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Supreme Will
@@ -562,4 +563,5 @@
   > • Counter target spell unless its controller pays {3}.
   > • Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8938 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/102/supreme-will) · oracle_id `75325029-e6f1-44af-88b2-53cc2b7233c0` · printing: CMR #102 (2020-11-20) · [rulings](https://api.scryfall.com/cards/fcf7fd8a-adc3-4099-8e30-08375f263446/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

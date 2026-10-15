@@ -845,6 +845,7 @@
   > Remove this card from your deck before playing if you're not playing for ante.
   > {T}, Sacrifice this artifact: Target opponent may ante the top card of their library. If they don't, you flip a coin. If you win the flip, that player loses the game. If you lose the flip, you lose the game. Activate only during your upkeep.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/308/amulet-of-quoz) · oracle_id `a06f8476-0a23-413a-bc28-8dc2427fdc2a` · printing: ICE #308 (1995-06-03) · [rulings](https://api.scryfall.com/cards/764ec6a8-a878-446c-b7e4-6026c2a3e9a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amulet of Safekeeping

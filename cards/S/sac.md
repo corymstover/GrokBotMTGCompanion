@@ -137,7 +137,10 @@
 - **Flavor text** (TRK printing):
   > *Sooner or later, every Starfleet vessel passes through Spacedock, whether for resupply, repairs, or complete retrofit.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #73 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/trk/295/sacred-foundry) · oracle_id `45181cb8-2090-4471-ba90-e5a8f04d525f` · printing: TRK #295 (2026-11-13) · [rulings](https://api.scryfall.com/cards/a7758cc6-4e18-48a5-8720-5f42b5cd9d31/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-10-05* — If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
+  - *2018-10-05* — Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
+- **Source flags:** [Scryfall](https://scryfall.com/card/trk/295/sacred-foundry) · oracle_id `45181cb8-2090-4471-ba90-e5a8f04d525f` · printing: TRK #295 (2026-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sacred Ground
 

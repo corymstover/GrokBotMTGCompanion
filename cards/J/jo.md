@@ -376,6 +376,7 @@
   > *"I was shocked when I first saw the aftermath of the Yavimaya Valley disaster. The raging waters had swept away trees, bridges, and even houses. My healers had much work to do."*
   > *—Halvor Arenson, Kjeldoran priest*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11516 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/100/jokulhaups) · oracle_id `7bdfe368-353c-4f8d-851f-05b7ea9f905d` · printing: ME1 #100 (2007-09-10) · [rulings](https://api.scryfall.com/cards/99d26ff7-afff-40a0-b515-7928c2428809/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jokulmorder

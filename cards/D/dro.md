@@ -610,7 +610,10 @@
 - **Flavor text** (FRC printing):
   > *None can tell how many vessels are tangled up on the sea floor—or how much treasure remains unclaimed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #105 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/69/drowned-catacomb) · oracle_id `819fc966-434e-470f-91e9-a38df974ad17` · printing: FRC #69 (2026-10-02) · [rulings](https://api.scryfall.com/cards/4acb0f92-74be-40e8-b70e-61c4aaaeb47b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-10-01* — As this is entering, it checks for lands that are already on the battlefield. It won't see lands that are entering at the same time (due to Warp World, for example).
+  - *2009-10-01* — This checks for lands you control with the land type Island or Swamp, not for lands named Island or Swamp. The lands it checks for don't have to be basic lands. For example, if you control Blood Crypt (a nonbasic land with the land types Swamp and Mountain), Drowned Catacomb will enter untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/69/drowned-catacomb) · oracle_id `819fc966-434e-470f-91e9-a38df974ad17` · printing: FRC #69 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drowned Rusalka
 

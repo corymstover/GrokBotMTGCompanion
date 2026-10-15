@@ -104,6 +104,7 @@
 - **Flavor text** (CMR printing):
   > *"We could no more abandon the forest than the stars could abandon the night sky."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #217 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/228/fyndhorn-elves) · oracle_id `df317532-7d36-40fd-938f-e972749c8792` · printing: CMR #228 (2020-11-20) · [rulings](https://api.scryfall.com/cards/450744cf-7eba-491b-97b0-ca80c6368bbb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fyndhorn Pollen

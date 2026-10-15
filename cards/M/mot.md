@@ -79,6 +79,7 @@
 - **Flavor text** (CLB printing):
   > *"My family protects all families."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #506 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/702/mother-of-runes) · oracle_id `60433b48-d27f-413c-905c-43839b1943f1` · printing: CLB #702 (2022-06-10) · [rulings](https://api.scryfall.com/cards/a5e19147-e459-43a6-8ef0-e37968a462e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mothers Yamazaki

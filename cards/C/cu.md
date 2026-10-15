@@ -246,7 +246,9 @@
 - **Flavor text** (SOC printing):
   > *"Great power requires great sacrifice. But it need not be my own."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #591 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/302/culling-ritual) · oracle_id `15e5136e-ed15-49a8-b027-e09436673fb4` · printing: SOC #302 (2026-04-24) · [rulings](https://api.scryfall.com/cards/abaad8c5-763d-4276-9b19-623cd19f59b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-04-16* — You can choose to add either {B} or {G} for each permanent destroyed. You aren't limited to one color.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/302/culling-ritual) · oracle_id `15e5136e-ed15-49a8-b027-e09436673fb4` · printing: SOC #302 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Culling Scales
 
@@ -280,7 +282,10 @@
   > *"The blood of the weak shall be the ink with which we scribe great Yawgmoth's glorious name."*
   > *—Stronghold architect, journal*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #508 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/exo/55/culling-the-weak) · oracle_id `6385fd0d-256d-4400-9319-afa8170024db` · printing: EXO #55 (1998-06-15) · [rulings](https://api.scryfall.com/cards/50c33f18-0a5c-4e46-ab0d-6e450915594f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.
+  - *2013-04-15* — You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/exo/55/culling-the-weak) · oracle_id `6385fd0d-256d-4400-9319-afa8170024db` · printing: EXO #55 (1998-06-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Culmination of Studies
 
@@ -377,7 +382,9 @@
   > *"Don't get so caught up in the science that you forget to embrace the wonder in front of you."*
   > *—Reed Richards, to Valeria Richards*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/172/cultivate) · oracle_id `8b755881-a72d-4e21-a369-d2924eb4585a` · printing: MSC #172 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e60deb92-f7dd-4f4e-9036-e47dd586f985/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2010-08-15* — If you choose to find only one basic land card, you put it onto the battlefield tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/172/cultivate) · oracle_id `8b755881-a72d-4e21-a369-d2924eb4585a` · printing: MSC #172 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cultivator Colossus
 
@@ -814,7 +821,13 @@
   > *"Surely you know the joy of the hunt, my furry friend. My kind of hunt just takes a different form than yours."*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #581 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/147/curiosity) · oracle_id `223fa044-d387-4884-bf4e-75f1b61c6a46` · printing: JMP #147 (2020-07-17) · [rulings](https://api.scryfall.com/cards/c5a0be10-c20f-4ac0-89a5-1770ecf48aad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2011-09-22* — "You" refers to the controller of Curiosity, which may be different from the controller of the enchanted creature. "An opponent" refers to an opponent of Curiosity's controller.
+  - *2011-09-22* — Any damage dealt by the enchanted creature to an opponent will cause Curiosity to trigger, not just combat damage.
+  - *2023-09-01* — Curiosity doesn't trigger if the enchanted creature deals damage to a planeswalker or to a battle.
+  - *2023-09-01* — If you control Curiosity and it's enchanting an opponent's creature, you won't draw a card when that creature deals damage to you. The creature has to deal damage to one of your opponents for the ability to trigger.
+  - *2023-09-01* — You draw one card each time the enchanted creature deals damage to an opponent, no matter how much damage it deals.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/147/curiosity) · oracle_id `223fa044-d387-4884-bf4e-75f1b61c6a46` · printing: JMP #147 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curiosity Crafter
 
@@ -1121,7 +1134,16 @@
   > {T}: Add {R}.
   > As this artifact enters, you may have it become a copy of any creature on the battlefield until end of turn, except it has haste.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #428 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/49/cursed-mirror) · oracle_id `4d67e2a7-4aa7-44cc-853b-500d7aac046d` · printing: FRC #49 (2026-10-02) · [rulings](https://api.scryfall.com/cards/1e82aa17-1eac-49e8-8a63-50357e564997/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2021-04-16* — Any enters-the-battlefield abilities of the copied creature will trigger when Cursed Mirror enters the battlefield. Any "As [this creature] enters the battlefield" or "[This creature] enters the battlefield with" abilities of the copied creature will also work.
+  - *2021-04-16* — Cursed Mirror copies exactly what was printed on the original creature (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or any Auras or Equipment attached to it, or any non-copy effects that have changed its types, color, power and toughness, and so on.
+  - *2021-04-16* — If Cursed Mirror somehow enters the battlefield at the same time as a creature, it can't become a copy of that creature. You may choose only a creature that's already on the battlefield.
+  - *2021-04-16* — If something else becomes a copy of Cursed Mirror while Cursed Mirror is a copy of a creature, the duration of the effect is not copied. The new copy will still be a creature (with haste) after Cursed Mirror stops being a copy at the end of the turn.
+  - *2021-04-16* — If the copied creature has {X} in its mana cost, X is considered to be 0.
+  - *2021-04-16* — If the copied creature is a token, Cursed Mirror copies the original characteristics of that token as stated by the effect that created the token. Copying a token doesn't make Cursed Mirror a token. Similarly, if Cursed Mirror itself is a token, copying a nontoken permanent doesn't make it stop being a token.
+  - *2021-04-16* — If the copied creature is copying something else, then Cursed Mirror enters the battlefield as a copy of whatever that creature is copying.
+  - *2021-04-16* — While it is copying a creature, Cursed Mirror does not have "{T}: Add {R}" (unless the creature it's copying also has that ability).
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/49/cursed-mirror) · oracle_id `4d67e2a7-4aa7-44cc-853b-500d7aac046d` · printing: FRC #49 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cursed Monstrosity
 
@@ -1481,7 +1503,13 @@
   > *Jingling coins beckon many an eager hand.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #697 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/209/curse-of-opulence) · oracle_id `ba0d3df2-3acf-46d7-8d64-8d67d1579adc` · printing: TDC #209 (2025-04-11) · [rulings](https://api.scryfall.com/cards/494a6f50-9cd3-4bfc-9382-dce4f7047a81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-08-25* — A player is attacking another player if they control a creature that's attacking that player. If no creatures are attacking the enchanted player as a Curse's ability resolves (most likely because they've left the battlefield), only the Curse's controller performs its actions.
+  - *2017-08-25* — Curse of Opulence's triggered ability resolves after attackers have been declared. Any costs to attack must have already been paid before the attacking player creates the Gold.
+  - *2017-08-25* — Each Curse's ability triggers only once, no matter how many creatures are attacking the enchanted player.
+  - *2017-08-25* — If you enchant yourself with one of these Curses, you'll get its effects whenever another player attacks you.
+  - *2017-08-25* — The triggered ability of these Curses won't trigger if only a planeswalker controlled by the enchanted player is attacked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/209/curse-of-opulence) · oracle_id `ba0d3df2-3acf-46d7-8d64-8d67d1579adc` · printing: TDC #209 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curse of Predation
 

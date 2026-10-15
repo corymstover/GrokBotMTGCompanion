@@ -64,7 +64,10 @@
 - **Oracle text:**
   > ({T}: Add {B} or {G}.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #425 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/293/bayou) · oracle_id `b76d1ae6-ad1d-4bac-b4c3-2e03e0e84d9b` · printing: VMA #293 (2014-06-16) · [rulings](https://api.scryfall.com/cards/bd7567df-b4d8-41a8-8eac-c05afa784bfe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-10-01* — This has basic land types, but it isn't a basic land. Things that affect basic lands don't affect it. Things that affect basic land types do.
+  - *2008-10-01* — This has the mana abilities associated with both of its basic land types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/293/bayou) · oracle_id `b76d1ae6-ad1d-4bac-b4c3-2e03e0e84d9b` · printing: VMA #293 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bayou Dragonfly
 

@@ -1560,7 +1560,12 @@
   > {T}, Sacrifice a Food: Add one mana of any color.
 - **Keywords:** Flying, Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #807 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/269/gilded-goose) · oracle_id `f2f09757-1931-47c0-a5f0-39280445489d` · printing: SOC #269 (2026-04-24) · [rulings](https://api.scryfall.com/cards/5ea59511-24b1-4925-9948-9d4c0d27d1c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/269/gilded-goose) · oracle_id `f2f09757-1931-47c0-a5f0-39280445489d` · printing: SOC #269 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gilded Light
 
@@ -1584,6 +1589,7 @@
 - **Flavor text** (MSC printing):
   > *T'Challa merged vibranium technology with organic matter to create a jungle of boundless potential.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #412 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/199/gilded-lotus) · oracle_id `9a02a9a7-39d9-4763-85d3-747a0540b60b` · printing: MSC #199 (2026-06-26) · [rulings](https://api.scryfall.com/cards/28e619e6-ecc1-49c3-8fa9-ce42becdb9ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gilded Pinions
@@ -2113,7 +2119,14 @@
   > *"My flesh holds no secrets, monster. The spirit of Mirrodin will fight on."*
   > *—Vy Covalt, Mirran resistance*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #525 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nph/35/gitaxian-probe) · oracle_id `1d67f5ff-1fce-45e5-b6a1-416c569351e2` · printing: NPH #35 (2011-05-13) · [rulings](https://api.scryfall.com/cards/995486ce-58bb-4753-a812-0ca73ef1a235/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2011-06-01* — A card with Phyrexian mana symbols in its mana cost is each color that appears in that mana cost, regardless of how that cost may have been paid.
+  - *2011-06-01* — As you cast a spell or activate an activated ability with one or more Phyrexian mana symbols in its cost, you choose how to pay for each Phyrexian mana symbol at the same time you would choose modes or choose a value for X.
+  - *2011-06-01* — If you're at 1 life or less, you can't pay 2 life.
+  - *2011-06-01* — Phyrexian mana is not a new color. Players can't produce Phyrexian mana.
+  - *2011-06-01* — The targeted player may have no cards in their hand. You'll still draw a card.
+  - *2011-06-01* — To calculate the mana value of a card with Phyrexian mana symbols in its cost, count each Phyrexian mana symbol as 1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nph/35/gitaxian-probe) · oracle_id `1d67f5ff-1fce-45e5-b6a1-416c569351e2` · printing: NPH #35 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gitaxian Raptor
 
@@ -2178,7 +2191,11 @@
 - **Flavor text** (MH1 printing):
   > *She provides marks of protection to those she chooses as family.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1383 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/13/giver-of-runes) · oracle_id `4ec85850-f274-4c0c-9a03-0488267caa14` · printing: MH1 #13 (2019-06-14) · [rulings](https://api.scryfall.com/cards/4e117771-5a8b-4812-b487-32ba34b7f724/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-06-14* — A permanent gaining protection may cause a spell or ability on the stack to have an illegal target. As a spell or ability tries to resolve, if all its targets are illegal, that spell or ability doesn't resolve. None of its effects happen, including effects unrelated to the target. If at least one target is still legal, the spell or ability does as much as it can to the remaining legal targets, and its other effects still happen.
+  - *2019-06-14* — Protection from a color means that the target creature can't be blocked by creatures of that color, can't be the target of spells of that color or abilities from sources of that color, can't be enchanted or equipped by Auras or Equipment of that color, and all damage that sources of that color would deal to it is prevented. Nothing other than these events is prevented or illegal.
+  - *2019-06-14* — Similarly, protection from colorless means that the target creature can't be blocked by colorless creatures, can't be the target of colorless spells or abilities of colorless sources, can't be enchanted or equipped by colorless Auras or Equipment, and all damage that colorless sources would deal to it is prevented.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/13/giver-of-runes) · oracle_id `4ec85850-f274-4c0c-9a03-0488267caa14` · printing: MH1 #13 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Give // Take
 

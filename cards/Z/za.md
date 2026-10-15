@@ -180,6 +180,7 @@
   > *Hunters in the primeval wetlands become fluent in reading the ripples to tell when to pursue and when to flee.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #400 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/259/zagoth-triome) · oracle_id `fdd46004-eaba-4024-8687-39b23dc6a58c` · printing: IKO #259 (2020-04-24) · [rulings](https://api.scryfall.com/cards/cc520518-2063-4b57-a0d4-10cf62a7175e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zagras, Thief of Heartbeats

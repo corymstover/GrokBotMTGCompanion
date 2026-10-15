@@ -102,6 +102,7 @@
 - **Oracle text:**
   > Destroy all lands.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4059 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/5/armageddon) · oracle_id `c9ed8b01-959a-47d6-891e-0abbdccf6e4f` · printing: A25 #5 (2018-03-16) · [rulings](https://api.scryfall.com/cards/77f1f6ac-983f-4f3e-8906-47f774e8367b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armageddon Clock

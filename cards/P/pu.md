@@ -784,7 +784,10 @@
   > Metalcraft — Equipment you control have equip {0} as long as you control three or more artifacts.
 - **Keywords:** Metalcraft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #597 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/51/puresteel-paladin) · oracle_id `74a62c7b-4753-4af2-b7a1-9a4ae8988801` · printing: CMM #51 (2023-08-04) · [rulings](https://api.scryfall.com/cards/d8f8a324-006d-4cb8-9816-620a603b4229/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — Once the equip {0} ability is activated, causing Puresteel Paladin to leave the battlefield or causing its controller to control fewer than three artifacts won't stop the equip ability from resolving.
+  - *2020-08-07* — You may still activate the Equipment's other equip abilities if you wish.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/51/puresteel-paladin) · oracle_id `74a62c7b-4753-4af2-b7a1-9a4ae8988801` · printing: CMM #51 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Purestrain Genestealer
 
@@ -929,7 +932,20 @@
   > {2}{R}: Creatures you control get +1/+0 until end of turn.
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #694 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/246/purphoros-god-of-the-forge) · oracle_id `4fdbbec2-e921-4b63-958d-f9ba1e417197` · printing: CMM #246 (2023-08-04) · [rulings](https://api.scryfall.com/cards/4736a2c4-c89c-48db-a104-6303e7e2eee8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2013-09-15* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2013-09-15* — If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it's still on the battlefield at that time.
+  - *2013-09-15* — Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
+  - *2013-09-15* — Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
+  - *2020-01-24* — As a God enters the battlefield, your devotion to its color will determine whether any replacement effects that affect creatures entering the battlefield apply to that God. Because replacement effects are considered before the God is on the battlefield, the mana symbols in its mana cost won't be counted when determining this.
+  - *2020-01-24* — Counters put on a God remain on it while it's not a creature, even if they have no effect.
+  - *2020-01-24* — If a God is attacking or blocking and it stops being a creature, it will be removed from combat. It won't rejoin combat if it resumes being a creature later during that combat.
+  - *2020-01-24* — If a God stops being a creature, it loses the type creature and the creature type God. It continues to be a legendary enchantment.
+  - *2020-01-24* — If an effect causes a God to lose all abilities, its ability that causes it to stop being a creature still applies if appropriate.
+  - *2020-01-24* — The abilities of Gods function as long as they're on the battlefield, regardless of whether they're creatures.
+  - *2020-01-24* — The type-changing ability that can make a God not be a creature functions only on the battlefield. It's always a creature card in other zones, regardless of your devotion to its color. It's always a creature spell while it's on the stack.
+  - *2020-01-24* — When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/246/purphoros-god-of-the-forge) · oracle_id `4fdbbec2-e921-4b63-958d-f9ba1e417197` · printing: CMM #246 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Purphoros's Emissary
 
@@ -1173,7 +1189,9 @@
   > *"We are all decaying, always in a state of near-death. One moment without breath and we begin to break down."*
   > *—Cevraya, Golgari shaman*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #345 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/131/putrefy) · oracle_id `9b271430-f53d-42d6-a547-2f286dd9bcb6` · printing: ECC #131 (2026-01-23) · [rulings](https://api.scryfall.com/cards/ad6ed9f1-2014-49e2-91c6-2b55c8d60cdc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-02-01* — This spell isn't modal. When it resolves, it will destroy the target if it's a creature or an artifact, even if it changed from one to the other between targeting and resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/131/putrefy) · oracle_id `9b271430-f53d-42d6-a547-2f286dd9bcb6` · printing: ECC #131 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Putrid Cyclops
 

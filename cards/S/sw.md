@@ -259,7 +259,9 @@
 - **Flavor text** (EOC printing):
   > *In the end, the dying Illvoi clung to neither secrecy nor protocol. She cloudsculpted wings that she might live on in a spark of creativity.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #66 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/46/swan-song) · oracle_id `8ddfc283-c9b4-41a5-af88-cf0068e986cc` · printing: EOC #46 (2025-08-01) · [rulings](https://api.scryfall.com/cards/83d0b761-d694-4232-9f40-5bd8c82a05f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-09-15* — Swan Song can target a spell that can't be countered. That spell won't be countered when Swan Song resolves, but its controller will get a Bird token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/46/swan-song) · oracle_id `8ddfc283-c9b4-41a5-af88-cf0068e986cc` · printing: EOC #46 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swarm, Being of Bees
 
@@ -713,7 +715,9 @@
   > *—Kenjek, captain of the Thousand Swords*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mbc/77/swiftfoot-boots) · oracle_id `c8b143ad-43ec-4e0d-a440-e348daa31391` · printing: MBC #77 (2026-10-19) · [rulings](https://api.scryfall.com/cards/03f7e9fc-8e59-45c1-90fc-1d04d929b292/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-03-16* — If a creature enters the battlefield under your control and gains haste, but then loses it before attacking, it won't be able to attack that turn. This means that you can't use one Swiftfoot Boots to allow two new creatures to attack in the same turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mbc/77/swiftfoot-boots) · oracle_id `c8b143ad-43ec-4e0d-a440-e348daa31391` · printing: MBC #77 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swiftgear Drake
 
@@ -1093,7 +1097,10 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #545 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/296/sword-of-feast-and-famine) · oracle_id `d0901053-6de0-46d0-9ee3-8d40510236c1` · printing: 2XM #296 (2020-08-07) · [rulings](https://api.scryfall.com/cards/c7710eb5-c56a-437b-8847-2a829c404d47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — You can tap your lands for mana while the triggered ability is on the stack. However, you'll lose any mana you produce this way if you don't spend it before the end of the current combat damage step.
+  - *2020-08-07* — You'll untap all lands you control even if the player can't discard a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/296/sword-of-feast-and-famine) · oracle_id `d0901053-6de0-46d0-9ee3-8d40510236c1` · printing: 2XM #296 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword of Fire and Ice
 
@@ -1225,6 +1232,7 @@
   > *The blade glows only for Zendikar's chosen.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #234 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/413/sword-of-the-animist) · oracle_id `d79cbc61-6c15-48ea-bbba-3cffb819ccba` · printing: CMM #413 (2023-08-04) · [rulings](https://api.scryfall.com/cards/64401acc-d080-4763-b67a-95164c11c69e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword of the Chosen
@@ -1372,7 +1380,9 @@
 - **Flavor text** (FRC printing):
   > *"The arc of my blade has carved a path of light for the peace that will follow."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/37/swords-to-plowshares) · oracle_id `b1544f21-7e98-461b-aed5-e748b0168c52` · printing: FRC #37 (2026-10-02) · [rulings](https://api.scryfall.com/cards/f7e12477-d59f-442b-a678-1be746d0b7be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — Use the power of the creature from when it was last on the battlefield to determine how much life is gained.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/37/swords-to-plowshares) · oracle_id `b1544f21-7e98-461b-aed5-e748b0168c52` · printing: FRC #37 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword-Swallowing Seraph
 

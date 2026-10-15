@@ -44,7 +44,10 @@
   > Channel — {3}{U}, Discard this card: Return target artifact, creature, enchantment, or planeswalker to its owner's hand. This ability costs {1} less to activate for each legendary creature you control.
 - **Keywords:** Channel
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #89 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/271/otawara-soaring-city) · oracle_id `e9b6a394-691c-425a-9307-76d8edc7375e` · printing: NEO #271 (2022-02-18) · [rulings](https://api.scryfall.com/cards/486d7edc-d983-41f0-8b78-c99aecd72996/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-02-18* — Discarding the card is part of the cost to activate a channel ability.
+  - *2022-02-18* — If a channel ability requires a target, you may not activate it without a target just to discard the card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/271/otawara-soaring-city) · oracle_id `e9b6a394-691c-425a-9307-76d8edc7375e` · printing: NEO #271 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oteclan Landmark // Oteclan Levitator
 

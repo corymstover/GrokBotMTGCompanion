@@ -481,7 +481,9 @@
 - **Flavor text** (CMM printing):
   > *The arrival of spring's first flowers is a sacred occasion to Karametra's acolytes, who fill the Setessan woods with song in celebration.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #669 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/910/sanctum-weaver) · oracle_id `acfe7ec0-0606-4d5e-b1fa-25f0c7aeec47` · printing: CMM #910 (2023-08-04) · [rulings](https://api.scryfall.com/cards/3c9ac089-6962-48fd-bf67-f041ece27fa9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-06-18* — Sanctum Weaver's ability is a mana ability and does not use the stack. This means that no player can respond to the ability by taking an action that would reduce the number of enchantments you have.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/910/sanctum-weaver) · oracle_id `acfe7ec0-0606-4d5e-b1fa-25f0c7aeec47` · printing: CMM #910 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandals of Abdallah
 
@@ -735,6 +737,7 @@
   > *"The most important part of a stronghold isn't its armaments or its walls. It's the reason people have to defend it."*
   > *—Gvar Barzeel, krumar captain*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #510 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/164/sandsteppe-citadel) · oracle_id `544dbabd-cbfc-40da-a5ba-2fea9cddb453` · printing: ECC #164 (2026-01-23) · [rulings](https://api.scryfall.com/cards/e7482def-e87e-4a7f-9c18-7859483b2a66/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandsteppe Mastodon
@@ -1054,7 +1057,13 @@
   > *"Blood is constant. Every drop I drink, someone must bleed."*
   > *—Vradeen, vampire nocturnus*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #503 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/153/sanguine-bond) · oracle_id `73089a39-a2f6-4aa2-a058-e6551475153d` · printing: C21 #153 (2021-04-23) · [rulings](https://api.scryfall.com/cards/ad4de9f1-7a39-45af-828e-c59234d9e9b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2009-10-01* — Sanguine Bond's ability triggers just once for each life-gaining event, whether it's 1 life from Soul Warden or 8 life from Tendrils of Corruption.
+  - *2021-03-19* — If an ability triggers whenever an opponent loses life and causes you to gain life, such as the ability of Exquisite Blood, this will loop until either you win the game or a player takes an action to break the loop. If neither of these happen, the game ends in a draw.
+  - *2021-03-19* — If you gain an amount of life "for each" of something, that life is gained as one event and Sanguine Bond's ability triggers only once.
+  - *2023-09-01* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Sanguine Bond's ability will trigger twice and you may choose a different opponent for each trigger. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, planeswalkers, and/or battles at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2024-04-12* — In a Two-Headed Giant game, life gained by your teammate won't cause Sanguine Bond's ability to trigger, even though it caused your team's life total to increase.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/153/sanguine-bond) · oracle_id `73089a39-a2f6-4aa2-a058-e6551475153d` · printing: C21 #153 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanguine Brushstroke
 

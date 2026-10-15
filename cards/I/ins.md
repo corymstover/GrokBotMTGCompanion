@@ -649,7 +649,10 @@
 - **Flavor text** (TLE printing):
   > *"Sozin's comet is arriving and our destinies are upon us!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #280 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/168/inspiring-call) · oracle_id `9b9a10ff-5a5d-4df8-88aa-18d84ff9117c` · printing: TLE #168 (2025-11-21) · [rulings](https://api.scryfall.com/cards/2555ec7b-5cc2-4ffd-9344-6368019feff9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-11-17* — Creatures you control that have +1/+1 counters put on them after Inspiring Call resolves won't gain indestructible.
+  - *2017-11-17* — Once a creature gains indestructible, it will have it for the turn, even if it loses all its +1/+1 counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/168/inspiring-call) · oracle_id `9b9a10ff-5a5d-4df8-88aa-18d84ff9117c` · printing: TLE #168 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inspiring Captain
 

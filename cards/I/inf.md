@@ -286,6 +286,7 @@
 - **Flavor text** (SOC printing):
   > *Ancient evils dwell within the burning chasm called the Ashmouth, ever ready to devour those foolish enough to travel alone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #264 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/216/infernal-grasp) · oracle_id `94f0a572-e91c-4b56-a5d1-6cbbeabd210d` · printing: SOC #216 (2026-04-24) · [rulings](https://api.scryfall.com/cards/f67b323d-0dda-45f8-84b7-d883ce5045a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Harvest

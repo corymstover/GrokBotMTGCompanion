@@ -480,6 +480,7 @@
   > As this artifact enters, choose a creature type. This artifact enters with a fellowship counter on it for each creature you control of the chosen type.
   > Creatures you control of the chosen type get +1/+1 for each fellowship counter on this artifact.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #616 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/127/banner-of-kinship) · oracle_id `8c220dbd-6572-4715-aae6-dd09a4252d68` · printing: FDN #127 (2024-11-15) · [rulings](https://api.scryfall.com/cards/a14c16c0-4053-46b0-8fa6-be8b4a7a1c8a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banners Raised

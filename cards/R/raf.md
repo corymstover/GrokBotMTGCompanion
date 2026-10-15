@@ -94,6 +94,7 @@
   > *The Obscura's Cloud Spire dominates the skyline, its eye a beacon of progress that sees all.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #419 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/254/raffines-tower) · oracle_id `6e9ef5ef-6aed-4d3e-a59b-9e3dc8740b1b` · printing: SNC #254 (2022-04-29) · [rulings](https://api.scryfall.com/cards/a2c56479-4bee-4edb-80d7-4af010b7c793/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raff, Weatherlight Stalwart

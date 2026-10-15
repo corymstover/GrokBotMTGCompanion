@@ -276,7 +276,11 @@
   > *—Nissa Revane*
 - **Keywords:** Trample, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #386 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/104/rampaging-baloths) · oracle_id `2d3e6549-6cc6-434f-a189-ba3b55e64c34` · printing: EOC #104 (2025-08-01) · [rulings](https://api.scryfall.com/cards/84aa18de-6acc-46cc-8e28-3046790a6751/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/104/rampaging-baloths) · oracle_id `2d3e6549-6cc6-434f-a189-ba3b55e64c34` · printing: EOC #104 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampaging Brontodon
 
@@ -511,7 +515,10 @@
 - **Flavor text** (TDC printing):
   > *Nature grows solutions to its problems.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/265/rampant-growth) · oracle_id `8539f295-5d58-4436-a73a-b9277c4c7795` · printing: TDC #265 (2025-04-11) · [rulings](https://api.scryfall.com/cards/b7c47024-5e08-4b17-b41a-7647f8b814b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
+  - *2004-10-04* — The land does not count toward your one per turn limit because it was put onto the battlefield by an effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/265/rampant-growth) · oracle_id `8539f295-5d58-4436-a73a-b9277c4c7795` · printing: TDC #265 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampant, Growth
 
@@ -645,7 +652,10 @@
 - **Flavor text** (OTC printing):
   > *"This world was once so much more than the confines of Naktamun."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #491 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/202/ramunap-excavator) · oracle_id `4f819ba4-52ef-4fdd-8e4c-5ae3b2f44db5` · printing: OTC #202 (2024-04-19) · [rulings](https://api.scryfall.com/cards/3f8a0a0e-81f7-40a2-b393-bdc1423549f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-07-14* — Ramunap Excavator doesn't allow you to activate activated abilities (such as cycling) of land cards in your graveyard.
+  - *2017-07-14* — Ramunap Excavator doesn't change the times when you can play those land cards. You can still play only one land per turn, and only during your main phase when you have priority and the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/202/ramunap-excavator) · oracle_id `4f819ba4-52ef-4fdd-8e4c-5ae3b2f44db5` · printing: OTC #202 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ramunap Hydra
 

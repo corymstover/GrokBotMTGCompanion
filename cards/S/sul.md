@@ -78,6 +78,7 @@
   > *"We have inherited the mysteries of the Thran, but few of the answers."*
   > *—Jhoira*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #76 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/84/sulfur-falls) · oracle_id `6a6c5e17-6465-4a1f-9d63-8a3ce2edc522` · printing: FRC #84 (2026-10-02) · [rulings](https://api.scryfall.com/cards/2b20fa73-c6de-49c1-b3d0-6ebd543a00d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sulfuric Vapors
@@ -135,6 +136,7 @@
 - **Flavor text** (FRC printing):
   > *Everything is flammable in the Burning Isles, even the mana itself.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #144 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/85/sulfurous-springs) · oracle_id `f5c38c01-4a40-469f-91a0-7479daf4e8e7` · printing: FRC #85 (2026-10-02) · [rulings](https://api.scryfall.com/cards/be340a1c-f1e7-446e-ae91-86ecb884479c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sulfur Vent

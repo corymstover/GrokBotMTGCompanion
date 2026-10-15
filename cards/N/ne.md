@@ -461,7 +461,12 @@
 - **Flavor text** (SOC printing):
   > *A hungry lair of flourishing rot.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #537 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/389/necroblossom-snarl) · oracle_id `761ee6f9-b0fa-43c9-8d1f-9591ea18e52d` · printing: SOC #389 (2026-04-24) · [rulings](https://api.scryfall.com/cards/4355ba23-de6a-4f18-baf4-82ae47cc2965/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-04-16* — If a land card with an appropriate subtype is entering the battlefield from your hand at the same time as one of these lands, you may reveal the other land to have the "Snarl" enter untapped.
+  - *2021-04-16* — If an effect instructs you to put one of these lands onto the battlefield tapped, it will still enter the battlefield tapped even if you reveal a land card from your hand.
+  - *2021-04-16* — The "Snarl" itself doesn't have any land subtypes. You can't reveal one to satisfy the ability of another.
+  - *2021-04-16* — You may reveal any land card with either or both of the appropriate subtypes. It doesn't have to be a basic land card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/389/necroblossom-snarl) · oracle_id `761ee6f9-b0fa-43c9-8d1f-9591ea18e52d` · printing: SOC #389 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Necrodominance
 
@@ -858,7 +863,12 @@
   > Whenever you discard a card, exile that card from your graveyard.
   > Pay 1 life: Exile the top card of your library face down. Put that card into your hand at the beginning of your next end step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #522 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/98/necropotence) · oracle_id `94a844d2-0574-45a7-b347-e0e329767c42` · printing: IMA #98 (2017-11-17) · [rulings](https://api.scryfall.com/cards/c89c6895-b0f8-444a-9c89-c6b4fd027b3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2017-11-17* — If a discarded card isn't put into your graveyard (due to an effect such as that of Obstinate Baloth) or leaves your graveyard (perhaps because another effect returned it to your hand), it won't be exiled.
+  - *2017-11-17* — If you discard a card with madness and wish to cast it, Necropotence's ability won't exile that card. If you don't wish to cast it, you choose whether it ends up exiled or in your graveyard.
+  - *2017-11-17* — Necropotence's last ability creates a delayed triggered ability that will put the exiled card into your hand. That ability still triggers even if Necropotence is removed from the battlefield before your end step.
+  - *2023-09-01* — You can't look at the cards exiled by the last ability while they're face down.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/98/necropotence) · oracle_id `94a844d2-0574-45a7-b347-e0e329767c42` · printing: IMA #98 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Necropouncer
 
@@ -1286,7 +1296,9 @@
 - **Flavor text** (TMT printing):
   > *"You guys seriously try to do this with jump kicks?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #57 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/47/negate) · oracle_id `3407fe41-fdd3-4119-8f70-4bc4590a379f` · printing: TMT #47 (2026-03-06) · [rulings](https://api.scryfall.com/cards/52d58fe4-6070-4022-9cd7-c35a11b44525/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-01-27* — A "creature spell" is any spell with the creature type, even if it has other types such as artifact or enchantment.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/47/negate) · oracle_id `3407fe41-fdd3-4119-8f70-4bc4590a379f` · printing: TMT #47 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Negative Zone Portal
 
@@ -1872,7 +1884,12 @@
 - **Flavor text** (ECC printing):
   > *Dappled coats become armored hides. Soft jaws become razor tusks. Nestling play becomes the fight for survival.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #561 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/155/nesting-grounds) · oracle_id `d27bb97d-286b-4947-8d7b-443e4df93319` · printing: ECC #155 (2026-01-23) · [rulings](https://api.scryfall.com/cards/c25ad164-4076-496d-833c-d607391b1ac8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-04-17* — If either permanent becomes an illegal target, no counter is removed or put.
+  - *2020-04-17* — The two target permanents don't have to share a type, which can result in some counters on permanents that would not occur normally, such as loyalty counters on creatures or +1/+1 counters on lands. Keyword counters will grant the permanent that keyword even if it's meaningless (such as trample on an enchantment); +1/+1 counters won't affect the permanent unless it's a creature; and many named counters (such as soul counters) won't have an effect unless the recipient permanent refers to them in some way.
+  - *2020-04-17* — To move a counter from one creature to another, the counter is removed from the first permanent and put on the second. Any abilities that care about a counter being removed from or put onto a permanent will apply.
+  - *2020-04-17* — You choose the two target permanents as Nesting Grounds's second ability is put onto the stack. You choose which kind of counter to move as that ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/155/nesting-grounds) · oracle_id `d27bb97d-286b-4947-8d7b-443e4df93319` · printing: ECC #155 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nesting Wurm
 

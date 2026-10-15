@@ -218,7 +218,10 @@
 - **Oracle text:**
   > ({T}: Add {G} or {U}.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #352 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/321/tropical-island) · oracle_id `74b7fe23-5d3a-4092-8d78-7c0eba8f6f73` · printing: VMA #321 (2014-06-16) · [rulings](https://api.scryfall.com/cards/47033ba4-8f26-4a6b-97bd-5b366327325e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-10-01* — This has basic land types, but it isn't a basic land. Things that affect basic lands don't affect it. Things that affect basic land types do.
+  - *2008-10-01* — This has the mana abilities associated with both of its basic land types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/321/tropical-island) · oracle_id `74b7fe23-5d3a-4092-8d78-7c0eba8f6f73` · printing: VMA #321 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tropical Storm
 
@@ -317,7 +320,14 @@
 - **Flavor text** (MKC printing):
   > *Together, they're greater than the sum of their rap sheets.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #621 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/15/trouble-in-pairs) · oracle_id `f349f58b-8cc8-45e4-9565-2b46fdf976c9` · printing: MKC #15 (2024-02-09) · [rulings](https://api.scryfall.com/cards/0f61e93f-5f97-4c7d-b3d5-0e05242faeb3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-02-02* — An "extra turn" is any turn created by a spell or ability. Notably, it doesn't include additional turns taken in tournaments after time expires for a round.
+  - *2024-02-02* — Extra turns can still be created while Trouble in Pairs is on the battlefield. They're not skipped until they would begin, so if Trouble in Pairs leaves the battlefield before that happens, the extra turns will be unaffected.
+  - *2024-02-02* — If an opponent attacks you with two or more creatures more than once in a turn (probably because they've generated extra combat phases), Trouble in Pairs's last ability will trigger each time that happens.
+  - *2024-02-02* — Trouble in Pairs counts spells that were cast even if they didn't resolve. This means it still counts spells that were countered.
+  - *2024-02-02* — Trouble in Pairs doesn't have to be on the battlefield to see the first card an opponent draws in a turn or the first spell they cast in a turn. As long as it's already on the battlefield when they draw their second card or cast their second spell in a turn, its last ability will trigger.
+  - *2024-02-02* — Trouble in Pairs's last ability can trigger multiple times per opponent per turn. For example, if an opponent draws a second card, casts a second spell, and attacks you with two or more creatures in a single turn, Trouble in Pairs's last ability will trigger once when each of those events occurs, for a total of three times.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/15/trouble-in-pairs) · oracle_id `f349f58b-8cc8-45e4-9565-2b46fdf976c9` · printing: MKC #15 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Troublemaker Ouphe
 

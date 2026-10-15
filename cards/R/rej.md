@@ -73,7 +73,10 @@
 - **Flavor text** (MSC printing):
   > *Time with family cures many ills.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #147 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/260/rejuvenating-springs) · oracle_id `d1620449-930a-4895-a143-fd2a0a3c8b17` · printing: MSC #260 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c4565a7b-a0ed-4a7f-ad48-7745c56d141b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-11-10* — Count the number of opponents you currently have, not how many you started with. If your four-player game is down to you and a single opponent, the land enters the battlefield tapped.
+  - *2020-11-10* — If an effect puts the land onto the battlefield tapped, having two or more opponents won't untap it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/260/rejuvenating-springs) · oracle_id `d1620449-930a-4895-a143-fd2a0a3c8b17` · printing: MSC #260 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rejuvenation Chamber
 

@@ -143,7 +143,12 @@
   > *The earth walks, strongest of all.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #457 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/222/ghalta-primal-hunger) · oracle_id `b0b6be0c-41cf-4757-9f0e-87227b6ba6b3` · printing: FDN #222 (2024-11-15) · [rulings](https://api.scryfall.com/cards/6a9c39e4-a8cf-42dd-8d0e-45634b335546/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-01-19* — Ghalta's first ability can't reduce its cost below {G}{G}.
+  - *2018-01-19* — If a creature's power is somehow less than 0, it subtracts from the total power of your other creatures. If the total power of your creatures is 0 or less, Ghalta's cost remains {10}{G}{G}.
+  - *2018-01-19* — The total cost to cast Ghalta is locked in before you pay that cost. For example, if you control three 2/2 creatures, including one you can sacrifice to add {C}, the total cost of Ghalta is {4}{G}{G}. Then you can sacrifice the creature when you activate mana abilities just before paying the cost.
+  - *2018-01-19* — To determine Ghalta's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases, then apply any cost reductions. Ghalta's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/222/ghalta-primal-hunger) · oracle_id `b0b6be0c-41cf-4757-9f0e-87227b6ba6b3` · printing: FDN #222 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghalta, Stampede Tyrant
 
@@ -865,7 +870,9 @@
 - **Flavor text** (CMM printing):
   > *Sometimes it's useful to take a break from existence.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #592 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/98/ghostly-flicker) · oracle_id `ad0070db-6454-41cb-861f-8f5b8fc2a3b8` · printing: CMM #98 (2023-08-04) · [rulings](https://api.scryfall.com/cards/dc143ba3-2a58-4980-9fa0-a05a9e9ed082/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-03-14* — The two targets can have different card types. For example, you can target one artifact and one creature with Ghostly Flicker.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/98/ghostly-flicker) · oracle_id `ad0070db-6454-41cb-861f-8f5b8fc2a3b8` · printing: CMM #98 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghostly Keybearer
 
@@ -915,7 +922,10 @@
   > *"May the memory of our fallen heroes ensnare the violent hearts of lesser men."*
   > *—Great Threshold of Monserkat inscription*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #160 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/146/ghostly-prison) · oracle_id `e828b189-0e8f-43b8-b909-4c23e742e028` · printing: SOC #146 (2026-04-24) · [rulings](https://api.scryfall.com/cards/e1f723a8-0be9-4270-b451-a52d6b2fda4e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2007-02-01* — In the Two-Headed Giant format, you still only have to pay once per creature.
+  - *2014-02-01* — Unless some effect explicitly says otherwise, a creature that can't attack you can still attack a planeswalker you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/146/ghostly-prison) · oracle_id `e828b189-0e8f-43b8-b909-4c23e742e028` · printing: SOC #146 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghostly Sentinel
 
@@ -989,7 +999,11 @@
 - **Flavor text** (CM2 printing):
   > *Deserted, but not uninhabited.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #835 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/253/ghost-quarter) · oracle_id `2ec4288e-34c6-4831-a2c0-ba1ca1d9d1dc` · printing: CM2 #253 (2018-06-08) · [rulings](https://api.scryfall.com/cards/12f8071c-8955-4aa2-889c-6043df047223/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2006-05-01* — If you target Ghost Quarter with its own ability, the ability won't resolve because its target is no longer on the battlefield. You won't get to search for a land card.
+  - *2011-09-22* — If the targeted land is an illegal target by the time Ghost Quarter's ability resolves, it won't resolve and none of its effects will happen. The land's controller won't get to search for a basic land card.
+  - *2013-07-01* — The target land's controller gets to search for a basic land card even if that land wasn't destroyed by Ghost Quarter's ability. This may happen because the land has indestructible or because it was regenerated.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/253/ghost-quarter) · oracle_id `2ec4288e-34c6-4831-a2c0-ba1ca1d9d1dc` · printing: CM2 #253 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghost Ship
 

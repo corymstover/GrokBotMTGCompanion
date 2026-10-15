@@ -1156,6 +1156,7 @@
 - **Flavor text** (CMR printing):
   > *The Order of Saint Traft found new strength with Sigarda's support.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #833 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/384/sigardas-aid) · oracle_id `4f5f2792-0cc4-4caa-b798-2ee9597f2524` · printing: CMR #384 (2020-11-20) · [rulings](https://api.scryfall.com/cards/531da950-dc96-4050-94a8-e01b73ddd965/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sigarda's Imprisonment
@@ -1584,6 +1585,7 @@
 - **Flavor text** (DSC printing):
   > *Little agonies pave the way to greater power.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #233 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/156/sign-in-blood) · oracle_id `c6207f6a-a624-4754-88f5-dbe700c841ff` · printing: DSC #156 (2024-09-27) · [rulings](https://api.scryfall.com/cards/b89d9372-8682-4a61-a003-8bccfbb6cbb4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Signpost Scarecrow
@@ -1664,7 +1666,11 @@
   > *"Take a quiet moment to reflect on your sins."*
   > *—Cleph, Order of Redeemed Souls*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #399 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m14/35/silence) · oracle_id `8aed54cb-d1bb-45ad-adbe-38e55d84ff31` · printing: M14 #35 (2013-07-19) · [rulings](https://api.scryfall.com/cards/1c2b13b1-31f0-4676-88a7-53f3a190e9a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-03-19* — A player who can't cast a spell can't suspend a card.
+  - *2021-03-19* — Silence won't affect spells that your opponents cast before you cast Silence, including any spells that are still on the stack. Silence also won't stop your opponents from casting spells after you cast Silence but before Silence resolves.
+  - *2021-03-19* — The only thing Silence stops is casting spells. Your opponents can still activate abilities, including abilities of cards in their hands (like cycling). Their triggered abilities work as normal, they can still play lands, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m14/35/silence) · oracle_id `8aed54cb-d1bb-45ad-adbe-38e55d84ff31` · printing: M14 #35 (2013-07-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Silence the Believers
 
@@ -2172,7 +2178,13 @@
   > • Target creature gets -3/-3 until end of turn.
   > • Destroy target planeswalker.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14198 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znc/99/silumgars-command) · oracle_id `7052fbd6-94df-41a9-a382-641701086804` · printing: ZNC #99 (2020-09-25) · [rulings](https://api.scryfall.com/cards/6c7cfb9c-58e4-4f4a-9a2c-ba5a7ba34f03/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2015-02-25* — As the spell resolves, follow the instructions of the modes you chose in the order they are printed on the card. For example, if you chose the second and fourth modes of Ojutai’s Command, you would gain 4 life and then draw a card. (The order won’t matter in most cases.)
+  - *2015-02-25* — If a Command is copied, the effect that creates the copy will usually allow you to choose new targets for the copy, but you can’t choose new modes.
+  - *2015-02-25* — If all targets for the chosen modes become illegal before the Command resolves, the spell won’t resolve and none of its effects will happen. If at least one target is still legal, the spell will resolve but will have no effect on any illegal targets.
+  - *2015-02-25* — You can choose a mode only if you can choose legal targets for that mode. Ignore the targeting requirements for modes that aren’t chosen. For example, you can cast Ojutai’s Command without targeting a creature spell provided you don’t choose the third mode.
+  - *2015-02-25* — You choose the two modes as you cast the spell. You must choose two different modes. Once modes are chosen, they can’t be changed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znc/99/silumgars-command) · oracle_id `7052fbd6-94df-41a9-a382-641701086804` · printing: ZNC #99 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Silumgar Sorcerer
 
@@ -2983,7 +2995,9 @@
   > *"It's rarely worth questioning where the mana comes from. Just be grateful."*
   > *—Jaya Ballard, task mage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #438 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/190/simian-spirit-guide) · oracle_id `44e0ffa3-8915-4c1f-8f1a-4aeea1365f07` · printing: TSR #190 (2021-03-19) · [rulings](https://api.scryfall.com/cards/0e57335d-4066-4d73-83cd-67a215e01a4e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — If a spell or ability's cost includes returning a creature to your hand and paying mana, you can't activate Simian Spirit Guide's mana ability after returning it to your hand. This is because mana abilities must be activated before you begin paying costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/190/simian-spirit-guide) · oracle_id `44e0ffa3-8915-4c1f-8f1a-4aeea1365f07` · printing: TSR #190 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Simic Ascendancy
 
@@ -3053,7 +3067,9 @@
   > When this land enters, return a land you control to its owner's hand.
   > {T}: Add {G}{U}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #319 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/298/simic-growth-chamber) · oracle_id `046f5783-cc7b-416a-8cf6-2bcef9c2cc1a` · printing: DSC #298 (2024-09-27) · [rulings](https://api.scryfall.com/cards/212d97c5-c144-483b-b42e-00623477e928/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/298/simic-growth-chamber) · oracle_id `046f5783-cc7b-416a-8cf6-2bcef9c2cc1a` · printing: DSC #298 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Simic Guildgate
 
@@ -3149,6 +3165,7 @@
 - **Flavor text** (DSC printing):
   > *For the Simic Combine, its sigil serves not as an emblem of honor but as a trademark. Its familiar image on any biological commodity attests to superb craftsmanship, ingenious innovation, and higher cost.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #628 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/252/simic-signet) · oracle_id `44503105-3e13-408d-a44f-37d503c61d72` · printing: DSC #252 (2024-09-27) · [rulings](https://api.scryfall.com/cards/bf222c78-f12e-4857-93da-fade99c740b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Simic Sky Swallower
@@ -3522,6 +3539,7 @@
 - **Flavor text** (EMA printing):
   > *High walls, a sturdy keep, a strong garrison . . . they made no difference. In a matter of moments, the city was lost.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19055 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/106/sinkhole) · oracle_id `5a46ad2a-35b1-4dd5-b7c3-fec36b7c67ab` · printing: EMA #106 (2016-06-10) · [rulings](https://api.scryfall.com/cards/a084d0fb-8db2-4873-a2f9-e6e5fecdd38c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sinkhole Surveyor
@@ -3563,7 +3581,16 @@
   - *Flavor text (MH3 printing):*
   > *Desperate travelers journey from across Kamigawa, drawn by rumors of relief from all their troubles.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #166 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/241/sink-into-stupor-soporific-springs) · oracle_id `bcc6eece-75ea-494c-b33a-d4477d504e0b` · printing: MH3 #241 (2024-06-14) · [rulings](https://api.scryfall.com/cards/5358b87a-1a29-426d-b165-40c97da2c14d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-06-07* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2024-06-07* — If a copy of a spell is returned to its owner's hand, it's moved there, then it will cease to exist as a state-based action. It can't be recast.
+  - *2024-06-07* — If a spell is returned to its owner's hand, it's removed from the stack and thus will not resolve. The spell isn't countered; it just no longer exists. This works even against a spell that can't be countered.
+  - *2024-06-07* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect. For example, if an effect allows you to play lands from your graveyard, you can play Garden of Freyalise, but you can't cast Disciple of Freyalise.
+  - *2024-06-07* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2024-06-07* — If an effect allows you to put a card with particular characteristics onto the battlefield without instructing you to play or cast it, you consider only the characteristics of a modal double-faced card's front face to see if that card qualifies. If it does, it enters the battlefield with its front face up. For example, if an effect allows you to put a creature card from your graveyard onto the battlefield, you can put Disciple of Freyalise onto the battlefield. However, an effect that lets you return a land card from your graveyard to your hand won't let you return Garden of Freyalise to your hand, as that card has only its front face's characteristics while in the graveyard.
+  - *2024-06-07* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2024-06-07* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics. For example, if an effect stops you from casting creature spells, you can't cast Disciple of Freyalise, but you can still play Garden of Freyalise.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/241/sink-into-stupor-soporific-springs) · oracle_id `bcc6eece-75ea-494c-b33a-d4477d504e0b` · printing: MH3 #241 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sink into Takenuma
 
@@ -4073,7 +4100,9 @@
   > During your turn, nonland permanent cards in your graveyard have retrace. (You may cast permanent cards from your graveyard by discarding a land card in addition to paying their other costs.)
 - **Keywords:** Reach, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #590 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/169/six) · oracle_id `dbcbdf37-c40f-4068-b4a7-a849cab1056c` · printing: MH3 #169 (2024-06-14) · [rulings](https://api.scryfall.com/cards/f9246b68-580f-4f53-883d-7900880e4b0d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-06-07* — If a spell you cast with retrace is countered, it's put back into your graveyard. You may use the retrace ability to cast it again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/169/six) · oracle_id `dbcbdf37-c40f-4068-b4a7-a849cab1056c` · printing: MH3 #169 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Six-Sided Die
 

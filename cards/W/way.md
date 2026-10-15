@@ -42,6 +42,7 @@
 - **Flavor text** (PLST printing):
   > *It is the forest beyond the horizon, the mountain waiting to be climbed, the new land across the endless sea.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #126 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/M3C-315/wayfarers-bauble) · oracle_id `31f15274-301b-47c5-ba19-0ced04520878` · printing: PLST #M3C-315 (2026-09-28) · [rulings](https://api.scryfall.com/cards/a0eac775-5652-406e-9a06-8d20d693098c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wayfaring Giant

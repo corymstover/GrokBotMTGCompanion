@@ -785,7 +785,10 @@
 - **Flavor text** (OTJ printing):
   > *Every moving carriage is an accident waiting to happen, and the Hellspurs hate waiting.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #601 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/84/corrupted-conviction) · oracle_id `b45e35df-9032-4482-89a6-c7c50c6d0a79` · printing: OTJ #84 (2024-04-19) · [rulings](https://api.scryfall.com/cards/8046f892-3317-4ef7-9cf7-97b9060540c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-04-14* — Players can't respond to this spell until it's been cast and all its costs have been paid. No one can try to interfere with the creature you sacrificed to prevent you from casting this spell.
+  - *2023-04-14* — You must sacrifice exactly one creature to cast this spell; you can't cast it without sacrificing a creature, and you can't sacrifice additional creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/84/corrupted-conviction) · oracle_id `b45e35df-9032-4482-89a6-c7c50c6d0a79` · printing: OTJ #84 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corrupted Crossroads
 
@@ -968,4 +971,15 @@
   > Whenever you cast a noncreature spell, this creature deals 1 damage to each opponent.
 - **Keywords:** Offspring
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #805 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/131/coruscation-mage) · oracle_id `88bb91b5-2ccd-4ce9-8cd4-e54d63c12abf` · printing: BLB #131 (2024-08-02) · [rulings](https://api.scryfall.com/cards/dc2c1de0-6233-469a-be72-a050b97d2c8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2024-07-26* — Any “enters” abilities of the copied creature will trigger when the token enters. Any “as [this creature] enters” or “[this creature] enters with” abilities of the copied creature will also work.
+  - *2024-07-26* — Coruscation Mage’s last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2024-07-26* — If the spell is countered, the offspring ability will not trigger, and no token will be created.
+  - *2024-07-26* — If the spell resolves but the creature with offspring leaves the battlefield before the offspring ability resolves, you’ll still create a token copy of it.
+  - *2024-07-26* — In the rare case where the creature doesn’t have the offspring ability when it enters, the ability won’t trigger even if you paid the offspring cost.
+  - *2024-07-26* — In the rare case where the original creature is copying something else when the offspring ability resolves, the token enters as whatever that creature copied, except it’s a 1/1.
+  - *2024-07-26* — Many creatures with offspring abilities have other abilities that refer to them as “this creature” rather than referring to them by name. This difference is for clarity purposes and does not change the function of any of these abilities.
+  - *2024-07-26* — The token copies exactly what was printed on the original creature and nothing else, except it’s a 1/1 (unless that creature is copying something else; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its types, color, or so on.
+  - *2024-07-26* — The token created by the offspring ability isn’t “cast”, so abilities that trigger when a creature spell is cast won’t trigger for the copy.
+  - *2024-07-26* — You can pay an offspring cost only once as you cast a spell with offspring. You can’t try to pay it multiple times to get more token copies.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/131/coruscation-mage) · oracle_id `88bb91b5-2ccd-4ce9-8cd4-e54d63c12abf` · printing: BLB #131 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

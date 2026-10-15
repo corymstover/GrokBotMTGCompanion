@@ -573,7 +573,10 @@
   > At the beginning of your end step, discover 5. (Exile cards from the top of your library until you exile a nonland card with mana value 5 or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.)
 - **Keywords:** Discover
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #743 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/137/chimil-the-inner-sun) · oracle_id `119d9671-61ba-4629-89b1-f94bdec5cb74` · printing: ECC #137 (2026-01-23) · [rulings](https://api.scryfall.com/cards/7b696878-bf6c-4323-baa5-93c44dde075e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — A spell or ability that counters spells can still target spells that can't be countered. When that spell or ability resolves, the uncounterable spell won't be countered, but any additional effects of the countering spell or ability will still happen.
+  - *2023-11-10* — Chimil, the Inner Sun's first ability applies only while it's on the battlefield. While it's a spell, it can be countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/137/chimil-the-inner-sun) · oracle_id `119d9671-61ba-4629-89b1-f94bdec5cb74` · printing: ECC #137 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chimney Goyf
 

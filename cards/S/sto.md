@@ -501,7 +501,10 @@
   > *"Neural's active mantle and energetic water cycle create staggeringly beautiful rock formations and a variety of tropical microclimates. Don't feed the wildlife."*
   > *—\*Lawmim Galactopedia\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #70 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/trk/299/stomping-ground) · oracle_id `16052b52-ade1-406f-a06b-ce7ea607fb63` · printing: TRK #299 (2026-11-13) · [rulings](https://api.scryfall.com/cards/1ee8255a-44f6-4faa-9843-15432bf751ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-10-05* — If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
+  - *2018-10-05* — Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
+- **Source flags:** [Scryfall](https://scryfall.com/card/trk/299/stomping-ground) · oracle_id `16052b52-ade1-406f-a06b-ce7ea607fb63` · printing: TRK #299 (2026-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stomping Slabs
 
@@ -922,6 +925,7 @@
 - **Oracle text:**
   > Destroy target land.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13220 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/221/stone-rain) · oracle_id `6e880df6-fc00-43d2-a9c8-f575f40b78c6` · printing: 9ED #221 (2005-07-29) · [rulings](https://api.scryfall.com/cards/d2334c10-fa96-4f8e-8187-c7ecc00cbac8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stone Retrieval Unit
@@ -1049,6 +1053,7 @@
   > *Sometimes those with the most sin cast the first stones.*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/arn/33/stone-throwing-devils) · oracle_id `124c8663-21f3-4cd8-a060-9d04be35c43f` · printing: ARN #33 (1993-12-17) · [rulings](https://api.scryfall.com/cards/d1c387dd-1347-4443-91ce-b71f7ccdceba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stone-Tongue Basilisk
@@ -1358,6 +1363,7 @@
   > *"Careful ideation crashes together with wild creativity. Though I am grateful to be made dean, I've found it difficult to represent just the one side."*
   > *—Veyran, dean of perfection*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #184 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/263/stormcarved-coast) · oracle_id `4722105b-0085-4bb8-bca1-9de0d3eb5600` · printing: SOS #263 (2026-04-24) · [rulings](https://api.scryfall.com/cards/bd3ae4fa-4c97-410a-8c0a-bd203342595d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stormcatch Mentor
@@ -1778,7 +1784,12 @@
   > *A captured elemental makes for a potent, albeit unstable, power source.*
 - **Keywords:** Treasure, Magecraft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #196 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/255/storm-kiln-artist) · oracle_id `a145ff8c-5812-4bcb-bd16-9839dc25121d` · printing: SOC #255 (2026-04-24) · [rulings](https://api.scryfall.com/cards/da7ae8e0-cb6b-4386-8a30-9527d1af9be5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-04-16* — Each magecraft ability has a different effect, although they all have the same trigger condition, whenever you cast or copy an instant or sorcery spell.
+  - *2021-04-16* — If an effect creates a copy of an instant or sorcery spell, this will also cause the magecraft ability to trigger.
+  - *2021-04-16* — If an effect creates multiple copies of an instant or sorcery spell, magecraft abilities trigger once for each copy created by the effect.
+  - *2021-04-16* — Some effects instruct you to copy an instant or sorcery card in a zone other than the stack. These copies do not cause magecraft abilities to trigger. However, most effects that do this also allow you to cast the copy, and casting the copy will cause magecraft abilities to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/255/storm-kiln-artist) · oracle_id `a145ff8c-5812-4bcb-bd16-9839dc25121d` · printing: SOC #255 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Storm King's Thunder
 

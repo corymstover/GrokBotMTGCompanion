@@ -75,6 +75,7 @@
 - **Flavor text** (MKM printing):
   > *After the attempt on Aurelia's life, she gave the Agency an ultimatum: solve the case in twenty-four hours, or the Boros Legion would declare war on the Cult of Rakdos.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #417 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/122/demand-answers) · oracle_id `c11e84a1-dbda-429b-8cd6-fd0deaefc689` · printing: MKM #122 (2024-02-09) · [rulings](https://api.scryfall.com/cards/eca092fc-7c67-4a73-989e-5297bbaaea76/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demanding Dragon
@@ -200,7 +201,10 @@
   > {T}: Add {C}.
   > {2}, {T}, Sacrifice this land: Destroy target nonbasic land an opponent controls. That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #394 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/687/demolition-field) · oracle_id `93953926-a644-49bb-9b5a-4c8f19114c7e` · printing: FDN #687 (2024-11-15) · [rulings](https://api.scryfall.com/cards/0c7e51b6-4898-4632-b39c-3ce438caa882/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-14* — If the targeted land is an illegal target by the time Demolition Field's ability resolves, it won't resolve and none of its effects will happen. Neither player will get to search for a basic land card.
+  - *2022-10-14* — The target land's controller gets to search for a basic land card even if that land wasn't destroyed by Demolition Field's ability. This may happen because the land has indestructible.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/687/demolition-field) · oracle_id `93953926-a644-49bb-9b5a-4c8f19114c7e` · printing: FDN #687 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demolition Stomper
 
@@ -274,6 +278,7 @@
   > Remove this card from your deck before playing if you're not playing for ante.
   > Each player antes the top card of their library.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sum/103/demonic-attorney) · oracle_id `65a9f643-063f-406a-8d5a-5ebbe0f04c3d` · printing: SUM #103 (1994-06-21) · [rulings](https://api.scryfall.com/cards/233b1104-91b3-4949-8356-baf6e80ab07e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonic Bargain
@@ -490,7 +495,11 @@
 - **Flavor text** (CMM printing):
   > *Beware the generosity of demons.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #64 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/150/demonic-tutor) · oracle_id `82004860-e589-4e38-8d61-8c0210e4ea39` · printing: CMM #150 (2023-08-04) · [rulings](https://api.scryfall.com/cards/a24b4cb6-cebb-428b-8654-74347a6a8d63/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — This card is put directly into your hand. It is not drawn.
+  - *2004-10-04* — You don't reveal the card to your opponent.
+  - *2004-10-04* — You pick a card on resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/150/demonic-tutor) · oracle_id `82004860-e589-4e38-8d61-8c0210e4ea39` · printing: CMM #150 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonic Vigor
 

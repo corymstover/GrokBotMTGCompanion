@@ -350,7 +350,9 @@
 - **Flavor text** (MSC printing):
   > *Mjölnir knows who is worthy to wield it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #532 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/209/relic-of-legends) · oracle_id `4d9554de-c005-41ab-a941-39328ebff9de` · printing: MSC #209 (2026-06-26) · [rulings](https://api.scryfall.com/cards/89691cda-e38b-4f53-bee6-4c234186e6ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-09-09* — You can tap any untapped legendary creature you control, including one you haven't controlled continuously since the beginning of your most recent turn, to pay the cost of Relic of Legends's activated ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/209/relic-of-legends) · oracle_id `4d9554de-c005-41ab-a941-39328ebff9de` · printing: MSC #209 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relic of Progenitus
 
@@ -527,7 +529,9 @@
 - **Flavor text** (SOC printing):
   > *Once guarded by the Knights of the Reliquary, the tower stands now protected only by its own remoteness, its dusty treasures open to plunder by anyone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/398/reliquary-tower) · oracle_id `c23e5b80-08d2-4e24-9908-fe2aa4f30f6f` · printing: SOC #398 (2026-04-24) · [rulings](https://api.scryfall.com/cards/e2a27742-08c1-4153-af7f-25a7a98f585e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-02-01* — If multiple effects modify your hand size, apply them in timestamp order. For example, if you put Null Profusion (an enchantment that says your maximum hand size is two) onto the battlefield and then put Reliquary Tower onto the battlefield, you'll have no maximum hand size. However, if those permanents enter in the opposite order, your maximum hand size would be two.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/398/reliquary-tower) · oracle_id `c23e5b80-08d2-4e24-9908-fe2aa4f30f6f` · printing: SOC #398 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relive the Past
 

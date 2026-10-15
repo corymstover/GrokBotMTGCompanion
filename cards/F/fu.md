@@ -1039,7 +1039,12 @@
   > *"Time to find out if the heads keep growing back if you burn them with fire."*
   > *—Nick Fury, director of S.H.I.E.L.D.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #343 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/247/furycalm-snarl) · oracle_id `651dea9c-2375-4e44-8e65-ba8e40f0c0ef` · printing: MSC #247 (2026-06-26) · [rulings](https://api.scryfall.com/cards/afc12892-4978-4442-ace5-c4dea5c0ee00/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-04-16* — If a land card with an appropriate subtype is entering the battlefield from your hand at the same time as one of these lands, you may reveal the other land to have the "Snarl" enter untapped.
+  - *2021-04-16* — If an effect instructs you to put one of these lands onto the battlefield tapped, it will still enter the battlefield tapped even if you reveal a land card from your hand.
+  - *2021-04-16* — The "Snarl" itself doesn't have any land subtypes. You can't reveal one to satisfy the ability of another.
+  - *2021-04-16* — You may reveal any land card with either or both of the appropriate subtypes. It doesn't have to be a basic land card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/247/furycalm-snarl) · oracle_id `651dea9c-2375-4e44-8e65-ba8e40f0c0ef` · printing: MSC #247 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fury Charm
 

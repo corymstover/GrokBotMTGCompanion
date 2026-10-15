@@ -144,7 +144,9 @@
   > When this land enters, return a land you control to its owner's hand.
   > {T}: Add {W}{U}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #478 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/261/azorius-chancery) · oracle_id `189fc8f4-17ac-4f1d-82c8-8401445bdaf4` · printing: DSC #261 (2024-09-27) · [rulings](https://api.scryfall.com/cards/50ef0ac3-e911-4d67-a751-8d86160ae843/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/261/azorius-chancery) · oracle_id `189fc8f4-17ac-4f1d-82c8-8401445bdaf4` · printing: DSC #261 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azorius Charm
 
@@ -295,6 +297,7 @@
 - **Flavor text** (FRC printing):
   > *The maze-like design embodies the core of Azorius law—strict structure designed to test wills and stall change.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #211 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/53/azorius-signet) · oracle_id `e018773f-95b3-49a3-9674-6f04ddef2092` · printing: FRC #53 (2026-10-02) · [rulings](https://api.scryfall.com/cards/af690536-b0bc-4d85-8bb8-f6856b9f927b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azorius Skyguard
@@ -524,7 +527,9 @@
 - **Flavor text** (CMM printing):
   > *"I do not miss Jukai Forest. It is not my home. My home is Kamigawa, its people my family. Wherever I set my pack and rest my head, I am home."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #330 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/274/azusa-lost-but-seeking) · oracle_id `6c2c8bf3-9bf8-4a86-89d3-3bb36260dc51` · printing: CMM #274 (2023-08-04) · [rulings](https://api.scryfall.com/cards/2fe97fbe-a6d6-4e96-8c26-f81bcdf579a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-06-23* — Azusa's ability is cumulative with other effects that allow you to play additional lands, such as that of Song of Creation (from the Ikoria: Lair of Behemoths set).
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/274/azusa-lost-but-seeking) · oracle_id `6c2c8bf3-9bf8-4a86-89d3-3bb36260dc51` · printing: CMM #274 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azusa's Many Journeys // Likeness of the Seeker
 

@@ -816,7 +816,12 @@
 - **Flavor text** (MSC printing):
   > *It is in the nature of a hero to inspire others.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #339 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/150/kindred-discovery) · oracle_id `005ee549-1bf5-478f-bc3f-3e791bd7eecf` · printing: MSC #150 (2026-06-26) · [rulings](https://api.scryfall.com/cards/19bdedb2-768b-4adf-8193-917a10c8f729/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2017-08-25* — If you somehow control a Kindred Discovery with no chosen creature type, its last ability can't trigger, even if a creature with no creature types enters the battlefield or attacks.
+  - *2022-06-10* — The choice of creature type is made as Kindred Discovery enters the battlefield. Players can't take any actions between the time the choice is made and the time it enters the battlefield. Notably, this means that if it is entering the battlefield at the same time as any creatures of the chosen type, its last ability will trigger.
+  - *2022-06-10* — You must choose an existing creature type, such as Human or Warrior. Card types such as artifact and supertypes such as legendary can't be chosen.
+  - *2023-09-01* — You can't choose multiple creature types, such as "Cat Warrior." A Cat Warrior is both a Cat and a Warrior. It's affected by anything that affects either type and unaffected by things that affect non-Cat or non-Warrior creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/150/kindred-discovery) · oracle_id `005ee549-1bf5-478f-bc3f-3e791bd7eecf` · printing: MSC #150 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kindred Dominance
 
@@ -827,7 +832,11 @@
 - **Flavor text** (MSC printing):
   > *When the screams subsided, only the dry slither of scales and the hiss of cold breath remained.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #696 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/156/kindred-dominance) · oracle_id `ccaa44f2-96be-44e2-884f-c31baa3908d5` · printing: MSC #156 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f6cd7c08-f5d4-4bdc-a254-809d900b0fc3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-08-25* — Once Kindred Dominance begins to resolve, no players may take other actions until it's done. Notably, players can't try to save their creatures after you've chosen a creature type.
+  - *2017-08-25* — You can't choose multiple creature types, such as "Cat Warrior." A Cat Warrior is both a Cat and a Warrior. It's affected by anything that affects either type and unaffected by things that affect non-Cat or non-Warrior creatures.
+  - *2017-08-25* — You must choose an existing creature type, such as Vampire or Cat. Card types such as "artifact" can't be chosen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/156/kindred-dominance) · oracle_id `ccaa44f2-96be-44e2-884f-c31baa3908d5` · printing: MSC #156 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kindred Judgment
 

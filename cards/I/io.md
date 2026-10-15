@@ -43,7 +43,10 @@
   > *No more shall the righteous cower before evil.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/20/iona-shield-of-emeria) · oracle_id `5e816472-561d-43d1-ad28-80a829e2a91a` · printing: MM2 #20 (2015-05-22) · [rulings](https://api.scryfall.com/cards/6197b59e-1652-496c-a038-e2eb88ecf017/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-10-01* — Iona's third ability includes permanent spells (artifacts, creatures, enchantments, and planeswalkers), not just instant and sorcery spells. It does not include lands or abilities (such as cycling or unearth).
+  - *2009-10-01* — Once the color is chosen, it's too late for opponents to respond by casting spells of that color. Iona is not yet in the battlefield at the time the color is chosen, so, for example, there's no way for an opponent to destroy it by casting Doom Blade if the chosen color is black.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/20/iona-shield-of-emeria) · oracle_id `5e816472-561d-43d1-ad28-80a829e2a91a` · printing: MM2 #20 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iona's Judgment
 

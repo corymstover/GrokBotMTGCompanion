@@ -1266,6 +1266,7 @@
   > *"The living take their souls for granted. The dead know what they're worth."*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #413 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/110/warren-soultrader) · oracle_id `ace86e56-efde-4eb7-8815-71456a4c3abe` · printing: MH3 #110 (2024-06-14) · [rulings](https://api.scryfall.com/cards/b334e4c6-d316-4141-8889-f95afcc04701/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warren Torchmaster
@@ -1459,7 +1460,11 @@
 - **Flavor text** (SOC printing):
   > *A figure is moved on a map, and the tide of war changes.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #139 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/422/war-room) · oracle_id `71c52bf5-2a5d-488e-8b15-7ef290e4b77d` · printing: SOC #422 (2026-04-24) · [rulings](https://api.scryfall.com/cards/0775b4be-881c-4832-8954-d961064315b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-11-10* — Color identity is set before the game begins and doesn't change during the game, even if your commander is in a hidden zone (like the hand or library) or an effect changes your commander's color.
+  - *2020-11-10* — If you don't have a commander, you can't activate War Room's last ability at all.
+  - *2020-11-10* — If your commander has no colors in its color identity, you pay no life to activate War Room's last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/422/war-room) · oracle_id `71c52bf5-2a5d-488e-8b15-7ef290e4b77d` · printing: SOC #422 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War Screecher
 
@@ -1549,7 +1554,10 @@
 - **Flavor text** (CLB printing):
   > *"Listen to the roar! Feel the thunder! The Immersturm shouts its approval with every bolt of lightning!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #731 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/815/warstorm-surge) · oracle_id `42fb1a1c-ab3d-4cdc-a6ff-a591f7481583` · printing: CLB #815 (2022-06-10) · [rulings](https://api.scryfall.com/cards/dbe1bfe0-0be7-496d-94db-e8028d4d9493/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-09-22* — The creature that entered deals damage equal to its current power to the targeted permanent or player. If it's no longer on the battlefield, its last known existence on the battlefield is checked to determine its power.
+  - *2011-09-22* — Warstorm Surge is the source of the ability, but the creature is the source of the damage. The ability couldn't target a creature with protection from red, for example. It could target a creature with protection from creatures, but all the damage would be prevented. Since damage is dealt by the creature, abilities like lifelink, deathtouch and infect are taken into account, even if the creature has left the battlefield by the time it deals damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/815/warstorm-surge) · oracle_id `42fb1a1c-ab3d-4cdc-a6ff-a591f7481583` · printing: CLB #815 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War Tax
 

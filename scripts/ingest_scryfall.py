@@ -63,7 +63,9 @@ EXCLUDED_LAYOUTS = {"token", "double_faced_token", "art_series", "emblem",
                     "front_card"}  # front_card = Jumpstart theme/front cards, not game cards
 COLOR_NAMES = {"W": "White", "U": "Blue", "B": "Black", "R": "Red", "G": "Green"}
 CSV_FIELDS = ["name", "oracle_id", "shard", "anchor", "edhrec_rank", "color_identity",
-              "type_line", "commander_legality", "game_changer", "batch"]
+              "type_line", "commander_legality", "game_changer", "batch", "rulings"]
+# `rulings` column: "" = rulings not yet ingested for this card; otherwise the number of rulings rendered (may be 0).
+RULINGS: dict = {}  # oracle_id -> list of ruling dicts (filled in main)
 UNIVERSE_TARGET_LABEL = "~33,000 (Grok working total)"
 
 _last_request = 0.0
@@ -81,19 +83,19 @@ def http_get(url: str) -> bytes:
     return data
 
 
-def get_bulk(cache_dir: Path, bulk_file: str | None) -> tuple[list[dict], str]:
-    """Return (cards, bulk_updated_at)."""
+def get_bulk(cache_dir: Path, bulk_file: str | None, kind: str = "oracle-cards") -> tuple[list[dict], str]:
+    """Return (objects, bulk_updated_at) for a Scryfall bulk type (oracle-cards, rulings, ...)."""
     if bulk_file:
         path = Path(bulk_file)
         updated = dt.datetime.fromtimestamp(path.stat().st_mtime, dt.timezone.utc).isoformat()
     else:
-        meta = json.loads(http_get(f"{API}/bulk-data/oracle-cards"))
+        meta = json.loads(http_get(f"{API}/bulk-data/{kind}"))
         updated = meta["updated_at"]
         uri = meta.get("jsonl_download_uri") or meta.get("download_uri")
         cache_dir.mkdir(parents=True, exist_ok=True)
         path = cache_dir / Path(uri.split("?")[0]).name
         if not path.exists():
-            for old in cache_dir.glob("oracle-cards-*"):
+            for old in cache_dir.glob(f"{kind}-*"):
                 old.unlink()
             print(f"Downloading {uri} ...", file=sys.stderr)
             tmp = path.with_suffix(".part")
@@ -218,7 +220,24 @@ def heading(c: dict) -> str:
     return c["name"]
 
 
-def render_entry(c: dict, bulk_date: str) -> str:
+def ruling_text(r: dict) -> str:
+    """Exact Markdown form of one ruling comment (used by the generator and verify_cards.py)."""
+    return r["comment"].replace("<", "&lt;").replace("\n", " ")
+
+
+def render_rulings(c: dict, rulings: list | None) -> list[str]:
+    if rulings is None:
+        return []
+    if not rulings:
+        return ["- **Rulings:** none published on Scryfall"]
+    out = [f"- **Rulings** ({len(rulings)}):"]
+    for r in sorted(rulings, key=lambda r: (r["published_at"], r["comment"])):
+        src = "" if r.get("source") == "wotc" else " *(Scryfall note)*"
+        out.append(f"  - *{r['published_at']}*{src} — {ruling_text(r)}")
+    return out
+
+
+def render_entry(c: dict, bulk_date: str, rulings: list | None = None) -> str:
     L = [f"### {heading(c)}", ""]
     faces = c.get("card_faces")
     mv = c.get("cmc", 0)
@@ -260,10 +279,11 @@ def render_entry(c: dict, bulk_date: str) -> str:
     if c.get("reserved"):
         notes.append("Reserved List")
     L.append("- **Commander notes:** " + " · ".join(notes))
+    L.extend(render_rulings(c, rulings))
     flags = [f"[Scryfall]({c['scryfall_uri'].split('?')[0]})",
              f"oracle_id `{c['oracle_id']}`",
              f"printing: {c.get('set', '').upper()} #{c.get('collector_number', '')} ({c.get('released_at', '')})",
-             f"[rulings]({c.get('rulings_uri', '')})",
+             *([] if rulings else [f"[rulings]({c.get('rulings_uri', '')})"]),
              f"source: Scryfall oracle_cards bulk {bulk_date[:10]}", "status: ✅ verified (Scryfall Oracle)"]
     L.append("- **Source flags:** " + " · ".join(flags))
     L.append("")
@@ -317,6 +337,10 @@ def main() -> int:
     ap.add_argument("--bulk-file", default=None, help="use a local oracle_cards .json/.jsonl(.gz) instead of downloading")
     ap.add_argument("--cache-dir", default=str(DEFAULT_CACHE))
     ap.add_argument("--batch-label", default=None, help="label stored in the CSV for newly added cards")
+    ap.add_argument("--rulings-batch", type=int, default=None,
+                    help="number of cards (in priority/EDHREC order) to newly add rulings for "
+                         "(default: state rulings.next_batch_size; 0 = only refresh cards already done)")
+    ap.add_argument("--rulings-file", default=None, help="local Scryfall rulings bulk .jsonl(.gz)")
     args = ap.parse_args()
 
     state = json.loads(STATE_FILE.read_text()) if STATE_FILE.exists() else {}
@@ -373,6 +397,22 @@ def main() -> int:
             index[c["oracle_id"]] = {"batch": label}
             added.append(c)
 
+    # ---- rulings (Scryfall `rulings` bulk, joined by oracle_id; resumable via CSV column + state)
+    rstate = state.get("rulings", {})
+    rulings_list, rulings_updated = get_bulk(Path(args.cache_dir), args.rulings_file, "rulings")
+    RULINGS.clear()
+    for r in rulings_list:
+        RULINGS.setdefault(r["oracle_id"], []).append(r)
+    r_batch = args.rulings_batch if args.rulings_batch is not None else rstate.get("next_batch_size", 5000)
+    r_added = 0
+    for c in queue:  # same priority order as card ingestion (priority list, banned, EDHREC rank, ...)
+        if r_added >= r_batch:
+            break
+        row = index.get(c["oracle_id"])
+        if row is not None and row.get("rulings", "") == "":
+            row["rulings"] = "pending-render"
+            r_added += 1
+
     # ---- render shards
     shards: dict[str, list[dict]] = defaultdict(list)
     for oid in index:
@@ -404,15 +444,18 @@ def main() -> int:
                 a2 = a
             anchors[a] += 1
             head.append(f"- [{heading(c)}](#{a2})")
-            body.append(render_entry(c, bulk_updated))
             r = index[c["oracle_id"]]
+            has_r = r.get("rulings", "") != ""
+            rl = RULINGS.get(c["oracle_id"], []) if has_r else None
+            body.append(render_entry(c, bulk_updated, rl))
             rows.append({"name": heading(c), "oracle_id": c["oracle_id"], "shard": f"cards/{shard}",
                          "anchor": a2, "edhrec_rank": c.get("edhrec_rank") or "",
                          "color_identity": "".join(c.get("color_identity", [])) or "C",
                          "type_line": c.get("type_line", ""),
                          "commander_legality": c.get("legalities", {}).get("commander", ""),
                          "game_changer": "1" if c.get("game_changer") else "0",
-                         "batch": r.get("batch", label)})
+                         "batch": r.get("batch", label),
+                         "rulings": str(len(rl)) if rl is not None else ""})
         p.write_text("\n".join(head) + "\n\n## Entries\n\n" + "\n".join(body), encoding="utf-8")
 
     rows.sort(key=lambda r: (ascii_key(r["name"]), r["name"]))
@@ -437,6 +480,27 @@ def main() -> int:
     hist = state.get("history", [])
     if added or dropped or not hist:
         hist.append({"date": today, "label": label, "added": len(added), "removed": len(dropped), "total": total})
+    r_done = [r for r in rows if r["rulings"] != ""]
+    rows_by_oid = {r["oracle_id"]: r for r in rows}
+    next_r = next((c for c in queue if c["oracle_id"] in rows_by_oid and rows_by_oid[c["oracle_id"]]["rulings"] == ""), None)
+    cards_with_rulings_total = sum(1 for oid in rows_by_oid if RULINGS.get(oid))
+    rulings_hist = rstate.get("history", [])
+    if r_added:
+        rulings_hist.append({"date": today, "cards_processed": r_added, "done_total": len(r_done)})
+    state["rulings"] = {
+        "source": "scryfall rulings bulk",
+        "bulk_updated_at": rulings_updated,
+        "next_batch_size": rstate.get("next_batch_size", 5000),
+        "cards_processed": len(r_done),
+        "cards_with_rulings_rendered": sum(1 for r in r_done if r["rulings"] not in ("", "0")),
+        "rulings_rendered": sum(int(r["rulings"]) for r in r_done),
+        "cards_with_rulings_available": cards_with_rulings_total,
+        "rulings_available_for_ingested": sum(len(RULINGS.get(oid, [])) for oid in rows_by_oid),
+        "last_added": r_added,
+        "next_target": ({"name": heading(next_r), "oracle_id": next_r["oracle_id"],
+                         "edhrec_rank": next_r.get("edhrec_rank")} if next_r else None),
+        "history": rulings_hist[-50:],
+    }
     state.update({
         "schema": 1,
         "source": "scryfall oracle_cards bulk",
@@ -497,6 +561,8 @@ def write_card_index(rows, by_id, state, shards):
          f"| EDHREC-rank coverage (all Commander-legal cards ranked ≤ N ingested) | N = {state['ingested_edhrec_rank_contiguous_through']:,} |",
          f"| Commander legality of ingested | " + ", ".join(f"{k}: {v:,}" for k, v in sorted(legal.items())) + " |",
          f"| Game Changers ingested | {len(gc)} |",
+         f"| Rulings ingested (Scryfall `rulings` bulk) | {state['rulings']['rulings_rendered']:,} rulings on {state['rulings']['cards_with_rulings_rendered']:,} cards · "
+         f"{state['rulings']['cards_processed']:,}/{total:,} cards processed · {state['rulings']['cards_with_rulings_available']:,} ingested cards have rulings on Scryfall |",
          f"| Shard files | {state['shards']} |",
          f"| Scryfall bulk data timestamp | {state['bulk_updated_at']} |", "",
          "### By color identity", "", "| Identity | Cards |", "|---|---|"]
@@ -567,6 +633,7 @@ def bar(frac: float, width: int = 30) -> str:
 def write_dashboard(state):
     total, uni = state["ingested_total"], state["universe_size"]
     nt = state.get("next_target") or {}
+    rs = state["rulings"]
     lb = next((h for h in reversed(state["history"]) if h.get("added")), state["history"][-1])
     block = "\n".join([
         f"**Cards with full Scryfall-verified entries: {total:,} / {uni:,}** ({total / uni:.1%}) — working target {UNIVERSE_TARGET_LABEL}",
@@ -574,6 +641,10 @@ def write_dashboard(state):
         f"`{bar(total / uni)}`",
         "",
         f"- EDHREC coverage: every Commander-legal card ranked ≤ **{state['ingested_edhrec_rank_contiguous_through']:,}** has an entry",
+        f"- Rulings: **{rs['rulings_rendered']:,} / {rs['rulings_available_for_ingested']:,}** Scryfall rulings in entries "
+        f"({rs['cards_with_rulings_rendered']:,} / {rs['cards_with_rulings_available']:,} cards with rulings; "
+        f"{rs['cards_processed']:,} / {total:,} cards processed) · next: "
+        + (f"**{rs['next_target']['name']}**" if rs.get('next_target') else "**none — complete**"),
         f"- Last batch: `{lb['label']}` (+{lb['added']:,} cards) · last run {state['last_run']} · Scryfall bulk {state['bulk_updated_at'][:10]}",
         (f"- Next card target: **{nt.get('name')}** (EDHREC rank {nt.get('edhrec_rank') or '—'}) · default batch {state['next_batch_size']:,}"
          if nt else "- Next card target: **none — full coverage.** Each run auto-adds newly released Scryfall cards and refreshes Oracle text/legality."),

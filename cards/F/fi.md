@@ -349,7 +349,9 @@
   > {T}: Add {C}.
   > {2}, {T}, Sacrifice this land: Destroy target nonbasic land an opponent controls. Each player searches their library for a basic land card, puts it onto the battlefield, then shuffles.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #914 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/400/field-of-ruin) · oracle_id `f825c98f-a327-440b-8c0d-ebe02e23bfb7` · printing: MOC #400 (2023-04-21) · [rulings](https://api.scryfall.com/cards/143147d2-2eec-41e7-b78a-592288b38630/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — If the target land is an illegal target by the time Field of Ruin's ability tries to resolve, the ability doesn't resolve. No players search for a basic land card or shuffles. If the target is legal but not destroyed (most likely because it has indestructible), each player does search and shuffle.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/400/field-of-ruin) · oracle_id `f825c98f-a327-440b-8c0d-ebe02e23bfb7` · printing: MOC #400 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Field of Souls
 
@@ -369,7 +371,11 @@
   > {T}: Add {C}.
   > Whenever this land or another land you control enters, if you control seven or more lands with different names, create a 2/2 black Zombie creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #490 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/247/field-of-the-dead) · oracle_id `aa959340-c869-4caa-92c7-572bd8d23eef` · printing: M20 #247 (2019-07-12) · [rulings](https://api.scryfall.com/cards/470ca3f4-29aa-4c4c-8ff2-8cdd70c69943/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-07-12* — Field of the Dead's last ability counts itself and the land entering the battlefield in addition to whichever other lands you control.
+  - *2019-07-12* — If multiple lands enter the battlefield simultaneously, possibly including Field of the Dead itself, all of those lands are counted. For example, if you sacrifice eight lands while resolving Scapeshift and search your library for five different basic land cards, two Field of the Dead cards, and one other land card with a different name, you'll create sixteen Zombie tokens.
+  - *2019-07-12* — If you control multiple lands with the same name, only one of those lands will count toward the seven or more required to create a Zombie. For example, if you control four lands named Plains, two named Island, and one named Field of the Dead, you control three lands with different names.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/247/field-of-the-dead) · oracle_id `aa959340-c869-4caa-92c7-572bd8d23eef` · printing: M20 #247 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Field Research
 
@@ -556,7 +562,10 @@
   > *"Hunt somewhere else. This is your only warning."*
   > *—Gavi, nest warden*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #82 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/94/fierce-guardianship) · oracle_id `d09c9cba-fdd2-479b-ad5d-d05181c3e3f9` · printing: CMM #94 (2023-08-04) · [rulings](https://api.scryfall.com/cards/f7f3dd95-bd14-4e0f-a388-444f9cf1b0dc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-04-17* — It doesn't matter whose commander you control. Any one will do. If you have two commanders, you just need to control one of them.
+  - *2020-04-17* — Once you begin casting this spell, players can't take any other actions until you're done casting it. Notably, they can't try to remove the commander you control to make you pay its cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/94/fierce-guardianship) · oracle_id `d09c9cba-fdd2-479b-ad5d-d05181c3e3f9` · printing: CMM #94 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fierce Invocation
 
@@ -1199,7 +1208,12 @@
 - **Flavor text** (CMM printing):
   > *Some spells sing a quiet tune. Others roar.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #301 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/289/finale-of-devastation) · oracle_id `69872a9a-fe54-4e58-940c-89395af71acd` · printing: CMM #289 (2023-08-04) · [rulings](https://api.scryfall.com/cards/b10d99bf-b2ce-4443-b924-ff0eb8be1033/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-05-03* — If X is 10 or more, the creature card you just put onto the battlefield will get +X/+X and haste.
+  - *2019-05-03* — If a creature card in your library or graveyard has {X} in its mana cost, X is considered to be 0.
+  - *2019-05-03* — If you don't find a creature card with mana value X or less, creatures you control still get +X/+X and gain haste if X is 10 or more.
+  - *2019-05-03* — No player may take action between the time you reveal which creature card you'll put onto the battlefield and the time it gets +X/+X and haste if X is 10 or more. Any abilities that trigger as it enters the battlefield will be put onto the stack after your creatures get +X/+X and haste.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/289/finale-of-devastation) · oracle_id `69872a9a-fe54-4e58-940c-89395af71acd` · printing: CMM #289 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Finale of Eternity
 
@@ -1851,6 +1865,7 @@
 - **Flavor text** (CLB printing):
   > *Every facet aglow like iron in Moradin's mighty forge.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #727 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/313/fire-diamond) · oracle_id `97b477d8-2e05-475e-8ed6-7d680cb21cd9` · printing: CLB #313 (2022-06-10) · [rulings](https://api.scryfall.com/cards/5a561484-438b-4ce9-911e-97078ac5b0fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fire Dragon

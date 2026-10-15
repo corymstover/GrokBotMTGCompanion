@@ -47,7 +47,13 @@
 - **Flavor text** (EOC printing):
   > *Despite their stake in the city's survival, Rakdos cultists are loath to pass up any opportunity to sow chaos.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #573 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/121/mayhem-devil) · oracle_id `4709f11c-aef8-45ac-b2bf-e640c568dfac` · printing: EOC #121 (2025-08-01) · [rulings](https://api.scryfall.com/cards/674f3a8a-4552-4289-b92a-06ce158f115c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2019-05-03* — A legendary permanent that is put into a graveyard because of the "legend rule" isn't sacrificed.
+  - *2019-05-03* — If a permanent is sacrificed to pay a cost of a spell or ability, Mayhem Devil's ability will resolve before that spell or ability. Conversely, if a permanent is sacrificed during the resolution of a spell or ability, that spell or ability will finish resolving before Mayhem Devil's ability is put onto the stack.
+  - *2019-05-03* — If you sacrifice Mayhem Devil, its ability triggers.
+  - *2019-05-03* — Mayhem Devil itself doesn't allow any player to sacrifice any permanents. Its ability triggers whenever a player sacrifices a permanent because some other spell, ability, or cost instructed the player to do so.
+  - *2019-05-03* — You control Mayhem Devil's triggered ability and choose the target, no matter who sacrificed the permanent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/121/mayhem-devil) · oracle_id `4709f11c-aef8-45ac-b2bf-e640c568dfac` · printing: EOC #121 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mayhem Patrol
 

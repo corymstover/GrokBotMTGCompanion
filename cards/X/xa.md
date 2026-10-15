@@ -57,6 +57,7 @@
   > *Maestros agents can lie low in high style at the opulent Shadow Hostel.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #472 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/260/xanders-lounge) · oracle_id `8291543f-d086-48aa-b2b7-5481ca8c9198` · printing: SNC #260 (2022-04-29) · [rulings](https://api.scryfall.com/cards/54f449ff-4025-465e-9ec5-a5cf42c4c9d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xander's Pact

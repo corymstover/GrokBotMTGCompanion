@@ -153,6 +153,7 @@
 - **Flavor text** (TDM printing):
   > *"Now I wonder . . . will anyone come to protect \*you\*?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #426 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/159/snakeskin-veil) · oracle_id `1e6a24be-8281-41c1-a5ba-b68f0ef1d7b8` · printing: TDM #159 (2025-04-11) · [rulings](https://api.scryfall.com/cards/a3d2c692-7566-468e-9c86-47a9f768fde2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snake Umbra
@@ -176,7 +177,9 @@
 - **Flavor text** (DMR printing):
   > *Good riddance.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #277 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/66/snap) · oracle_id `ac914d98-221e-426c-8a50-342896b15f9e` · printing: DMR #66 (2023-01-13) · [rulings](https://api.scryfall.com/cards/f13406c6-f208-402a-94d3-a94a24f03563/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — You choose which lands to untap as the spell resolves. They aren't targeted, and they don't have to be lands that you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/66/snap) · oracle_id `ac914d98-221e-426c-8a50-342896b15f9e` · printing: DMR #66 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snapback
 
@@ -858,4 +861,5 @@
 - **Flavor text** (GVL printing):
   > *"The bigger they are, the faster they rot."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #691 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gvl/53/snuff-out) · oracle_id `324824cb-f938-401c-b9b5-d8908b431ef0` · printing: GVL #53 (2014-12-05) · [rulings](https://api.scryfall.com/cards/75bbe89f-09af-494e-b58e-271f64bde4b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

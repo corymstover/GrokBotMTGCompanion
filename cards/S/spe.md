@@ -376,7 +376,10 @@
   > *"Did you see that? Did you see that? The Wasp waved at \*me\*!"*
   > *—Kamala Khan*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #167 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/268/spectator-seating) · oracle_id `cf6d10ed-85c3-48f2-8ba0-2960e03b408b` · printing: MSC #268 (2026-06-26) · [rulings](https://api.scryfall.com/cards/4c62dcfc-4bc8-4551-b3c7-9eec26be3362/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-11-10* — Count the number of opponents you currently have, not how many you started with. If your four-player game is down to you and a single opponent, the land enters the battlefield tapped.
+  - *2020-11-10* — If an effect puts the land onto the battlefield tapped, having two or more opponents won't untap it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/268/spectator-seating) · oracle_id `cf6d10ed-85c3-48f2-8ba0-2960e03b408b` · printing: MSC #268 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Specter of Mortality
 
@@ -1104,6 +1107,7 @@
 - **Flavor text** (DFT printing):
   > *The druid's aim was dead on. But their choice of target was dead wrong.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #903 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/64/spell-pierce) · oracle_id `d64b0848-0193-4025-ba62-63ecd8fb9f50` · printing: DFT #64 (2025-02-14) · [rulings](https://api.scryfall.com/cards/8dd4374f-0301-4b2e-bc99-2cd19568cb3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spellpyre Phoenix
@@ -1429,4 +1433,7 @@
   > When this enchantment enters, draw a card, then you may put a land card from your hand onto the battlefield. If you put a Cave onto the battlefield this way, you gain 4 life.
   > Lands you control enter untapped.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #747 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/213/spelunking) · oracle_id `2962fe4c-bf48-454b-8a6b-0f8253352ae8` · printing: LCI #213 (2023-11-17) · [rulings](https://api.scryfall.com/cards/d3be4257-2316-4a2e-b347-f71c0368a947/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — If Spelunking would enter the battlefield at the same time a land you control would enter the battlefield tapped, that land still enters the battlefield tapped.
+  - *2023-11-10* — If a land has an ability that says it enters the battlefield tapped, you choose the order in which that ability's effect and Spelunking's effect apply. This means you can choose to have the land enter tapped or untapped. If a land you control is simply put onto the battlefield tapped without a replacement effect being applied, it always enters untapped if you control Spelunking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/213/spelunking) · oracle_id `2962fe4c-bf48-454b-8a6b-0f8253352ae8` · printing: LCI #213 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

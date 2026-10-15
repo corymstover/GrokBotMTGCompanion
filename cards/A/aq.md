@@ -85,7 +85,12 @@
   > Whenever enchanted creature attacks, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
 - **Keywords:** Enchant, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #758 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/56/aqueous-form) · oracle_id `3378fef3-4d8c-4d9e-a338-4abb6f70d410` · printing: CMR #56 (2020-11-20) · [rulings](https://api.scryfall.com/cards/c859f7cb-ac12-490e-b769-6f019791f2a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-09-15* — Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
+  - *2013-09-15* — When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
+  - *2013-09-15* — You choose how to order cards returned to your library after scrying no matter where you put them.
+  - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/56/aqueous-form) · oracle_id `3378fef3-4d8c-4d9e-a338-4abb6f70d410` · printing: CMR #56 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aquitect's Defenses
 

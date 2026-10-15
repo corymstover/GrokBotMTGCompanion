@@ -420,7 +420,26 @@
   > Spells with the chosen name you cast cost {1} less to cast.
 - **Keywords:** Hidden agenda
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/3/bragos-favor) · oracle_id `395b312b-8fe6-4c28-b91d-620b5fcb9e6d` · printing: CNS #3 (2014-06-06) · [rulings](https://api.scryfall.com/cards/9bb6ece9-2038-4dbc-83aa-01ab4d7980b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (18):
+  - *2014-05-29* — If there are additional costs to cast the spell, such as kicker costs, apply those increases before applying cost reductions.
+  - *2014-05-29* — The second ability can reduce alternative costs such as overload costs.
+  - *2014-05-29* — The second ability can't reduce the colored mana requirement of a spell.
+  - *2016-08-23* — A conspiracy doesn't count as a card in your deck for purposes of meeting minimum deck size requirements. (In most drafts, the minimum deck size is 40 cards.)
+  - *2016-08-23* — A conspiracy with hidden agenda that has a triggered ability must be face up before that ability's trigger condition is met in order for it to trigger. Turning it face up afterward won't have any effect.
+  - *2016-08-23* — A conspiracy's static and triggered abilities function as long as that conspiracy is face-up in the command zone.
+  - *2016-08-23* — As a special action, you may turn a face-down conspiracy face up. You may do so any time you have priority. This action doesn't use the stack and can't be responded to. Once face up, the named card is revealed and the conspiracy's abilities will affect the game.
+  - *2016-08-23* — At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players.
+  - *2016-08-23* — At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players. Notably, you can't bluff conspiracies with hidden agenda by putting other cards into the command zone face down as the game starts.
+  - *2016-08-23* — Conspiracies are colorless, have no mana cost, and can't be cast as spells.
+  - *2016-08-23* — Conspiracies are never put into your deck. Instead, you put any number of conspiracies from your card pool into the command zone as the game begins. These conspiracies are face up unless they have hidden agenda, in which case they begin the game face down.
+  - *2016-08-23* — Conspiracies aren't legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft.
+  - *2016-08-23* — If you play multiple games after the draft, you can name a different card in each new game.
+  - *2016-08-23* — There are several ways to secretly name a card, including writing the name on a piece of paper that's kept with the face-down conspiracy. If you have multiple face-down conspiracies, you may name a different card for each one. It's important that each named card is clearly associated with only one of the conspiracies.
+  - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
+  - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+  - *2016-08-23* — You must name a Magic card. Notably, you can't name a token.
+  - *2016-08-23* — You name the card as the game begins, as you put the conspiracy into the command zone, not as you turn the face-down conspiracy face up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/3/bragos-favor) · oracle_id `395b312b-8fe6-4c28-b91d-620b5fcb9e6d` · printing: CNS #3 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Brago's Representative
 
@@ -469,7 +488,9 @@
 - **Oracle text:**
   > At the beginning of your end step, you may sacrifice an artifact, creature, enchantment, land, or planeswalker. If you do, each opponent may sacrifice a permanent of their choice that shares a card type with it. For each opponent who doesn't, that player loses 2 life and you draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #298 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/82/braids-arisen-nightmare) · oracle_id `e0445c80-fa53-4c3e-881e-940e9fce7f57` · printing: EOC #82 (2025-08-01) · [rulings](https://api.scryfall.com/cards/f96223d0-04c4-40c2-87a9-0c6bc74adddb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-09-09* — If the permanent that you sacrifice as you resolve Braids's triggered ability has more than one card type, each opponent may choose to sacrifice any permanent they control that shares any card type with it. For example, if the permanent you sacrifice is an artifact creature, one opponent might choose to sacrifice an artifact and another opponent might choose to sacrifice a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/82/braids-arisen-nightmare) · oracle_id `e0445c80-fa53-4c3e-881e-940e9fce7f57` · printing: EOC #82 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Braids, Cabal Minion
 
@@ -550,7 +571,13 @@
   > Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)
 - **Keywords:** Storm, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #777 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/57/brain-freeze) · oracle_id `464c0150-3dbc-403b-9ada-fef25ab1f29d` · printing: VMA #57 (2014-06-16) · [rulings](https://api.scryfall.com/cards/3a2d7cf9-dddb-4de3-b4f2-c52e3ec8fb4b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-12-08* — A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won't affect the copies.
+  - *2022-12-08* — Spells cast from zones other than a player's hand and spells that were countered are counted by the storm ability.
+  - *2022-12-08* — The copies are put directly onto the stack. They aren't cast and won't be counted by other spells with storm cast later in the turn.
+  - *2022-12-08* — The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack.
+  - *2022-12-08* — You may choose new targets for any of the copies. You can make different choices for each copy.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/57/brain-freeze) · oracle_id `464c0150-3dbc-403b-9ada-fef25ab1f29d` · printing: VMA #57 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Braingeyser
 
@@ -651,7 +678,9 @@
 - **Flavor text** (FRC printing):
   > *"I have a plan. Actually, I have three."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #72 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/39/brainstorm) · oracle_id `36cd2364-d113-47d1-b2c4-b088d9eb88dd` · printing: FRC #39 (2026-10-02) · [rulings](https://api.scryfall.com/cards/ec7d6864-7b6b-4f74-8474-9b9ec96b1d33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-03-16* — You draw three cards and put two cards back all while Brainstorm is resolving. Nothing can happen between the two, and no player may choose to take actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/39/brainstorm) · oracle_id `36cd2364-d113-47d1-b2c4-b088d9eb88dd` · printing: FRC #39 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Brainsurge
 
@@ -925,7 +954,11 @@
 - **Flavor text** (MH3 printing):
   > *As Aclazotz's undead forces approached the temple of Ojer Kaslem, they met a roaring wall of vibrant, flourishing life.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #374 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/285/branching-evolution) · oracle_id `28fe909b-06e0-424c-9f75-c824a25f5865` · printing: MH3 #285 (2024-06-14) · [rulings](https://api.scryfall.com/cards/c0f1a736-8b12-4f58-a031-bf1733f65c51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-06-23* — If a creature you control would enter the battlefield with a number of +1/+1 counters on it, it enters with twice that many instead.
+  - *2020-06-23* — If two or more effects attempt to modify how many counters would be put onto a creature you control, you choose the order to apply those effects, no matter who controls the sources of those effects.
+  - *2020-06-23* — If you control two Branching Evolutions, the number of +1/+1 counters put on a creature is four times the original number. Three Branching Evolutions multiplies the original number by eight, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/285/branching-evolution) · oracle_id `28fe909b-06e0-424c-9f75-c824a25f5865` · printing: MH3 #285 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Branchloft Pathway // Boulderloft Pathway
 
@@ -1039,7 +1072,11 @@
   > *"Why don't you come a little closer and say that again, you spineless spit-licker!"*
 - **Keywords:** Indestructible, Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #809 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/161/brash-taunter) · oracle_id `3e41648f-c5a9-4b26-b97e-8176fe5e9c85` · printing: DSC #161 (2024-09-27) · [rulings](https://api.scryfall.com/cards/275f8721-a6e5-489b-851f-1676aad5ec39/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-06-23* — A creature can be dealt an amount of damage greater than its toughness. For example, if Brash Taunter is dealt 3 damage, its middle ability deals 3 damage, not 1, to the target opponent.
+  - *2020-06-23* — If the target creature is an illegal target when Brash Taunter's last ability tries to resolve, the ability doesn't resolve. If Brash Taunter is no longer on the battlefield, the target creature won't deal or be dealt damage.
+  - *2020-06-23* — If your life total is brought to 0 or less at the same time that Brash Taunter is dealt damage, you lose the game before its middle ability goes on the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/161/brash-taunter) · oracle_id `3e41648f-c5a9-4b26-b97e-8176fe5e9c85` · printing: DSC #161 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Brassclaw Orcs
 
@@ -2004,7 +2041,10 @@
 - **Flavor text** (TRK printing):
   > *In the milky pools permeating the caves of Mak'ala, Trill symbionts await their new lives.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #60 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/trk/279/breeding-pool) · oracle_id `20283c4a-f1f0-42f0-bc08-6da87474426b` · printing: TRK #279 (2026-11-13) · [rulings](https://api.scryfall.com/cards/63e4dc07-c742-41bd-8301-861637908fd1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-10-05* — If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
+  - *2018-10-05* — Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
+- **Source flags:** [Scryfall](https://scryfall.com/card/trk/279/breeding-pool) · oracle_id `20283c4a-f1f0-42f0-bc08-6da87474426b` · printing: TRK #279 (2026-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Breena, the Demagogue
 
@@ -2310,7 +2350,17 @@
   > *The chasm formed during the Phyrexian Invasion quickly filled with new life.*
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #672 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/249/bridgeworks-battle-tanglespan-bridgeworks) · oracle_id `9d581188-ce80-494e-bd38-f411e1f4efb5` · printing: MH3 #249 (2024-06-14) · [rulings](https://api.scryfall.com/cards/ebef3db0-2b58-4581-a79c-fbca9a059e63/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-06-07* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2024-06-07* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect. For example, if an effect allows you to play lands from your graveyard, you can play Garden of Freyalise, but you can't cast Disciple of Freyalise.
+  - *2024-06-07* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2024-06-07* — If an effect allows you to put a card with particular characteristics onto the battlefield without instructing you to play or cast it, you consider only the characteristics of a modal double-faced card's front face to see if that card qualifies. If it does, it enters the battlefield with its front face up. For example, if an effect allows you to put a creature card from your graveyard onto the battlefield, you can put Disciple of Freyalise onto the battlefield. However, an effect that lets you return a land card from your graveyard to your hand won't let you return Garden of Freyalise to your hand, as that card has only its front face's characteristics while in the graveyard.
+  - *2024-06-07* — If the creature you control is an illegal target as Bridgeworks Battle tries to resolve, no creature gets +2/+2. If that creature is a legal target but the creature you don't control isn't, the creature you control still gets +2/+2.
+  - *2024-06-07* — If you choose two target creatures and either target is an illegal target as Bridgeworks Battle tries to resolve, neither creature will deal or be dealt damage.
+  - *2024-06-07* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2024-06-07* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics. For example, if an effect stops you from casting creature spells, you can't cast Disciple of Freyalise, but you can still play Garden of Freyalise.
+  - *2024-06-07* — You can cast Bridgeworks Battle targeting only the creature you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/249/bridgeworks-battle-tanglespan-bridgeworks) · oracle_id `9d581188-ce80-494e-bd38-f411e1f4efb5` · printing: MH3 #249 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bridled Bighorn
 
@@ -2364,7 +2414,17 @@
   > *"My mother wanted me to take over the family dry goods business, but no. I had to come here."*
   > *—Yavotz, Sea Gate Expeditionary House*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #820 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/259/brightclimb-pathway-grimclimb-pathway) · oracle_id `1c633e02-95ef-445e-b4e0-fbfbc5ed9cc9` · printing: ZNR #259 (2020-09-25) · [rulings](https://api.scryfall.com/cards/d24c3d51-795d-4c01-a34a-3280fccd2d78/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2020-09-25* — A modal double-faced card can’t be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2020-09-25* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2020-09-25* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than “play”) a specific modal double-faced card, you can’t play it as a land.
+  - *2020-09-25* — If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face’s name.
+  - *2020-09-25* — If an effect puts a double-faced card onto the battlefield, it enters with its front face up. If that front face can’t be put onto the battlefield, it doesn’t enter the battlefield.
+  - *2020-09-25* — In the Commander variant, a double-faced card’s color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+  - *2020-09-25* — The mana value of a modal double-faced card is based on the characteristics of the face that’s being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
+  - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you’re playing and ignore the other face’s characteristics.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/259/brightclimb-pathway-grimclimb-pathway) · oracle_id `1c633e02-95ef-445e-b4e0-fbfbc5ed9cc9` · printing: ZNR #259 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Brightfield Glider
 
@@ -3622,7 +3682,13 @@
   > This artifact enters tapped.
   > {4}, {T}: Exile this artifact and target nontoken permanent an opponent owns. That player may pay 10 life. If they do, put this card into its owner's graveyard. Otherwise, that player owns this card and you own the other exiled card.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/4ed/303/bronze-tablet) · oracle_id `a1ab033f-9605-4ca2-a98b-c0b2e1599609` · printing: 4ED #303 (1995-04-01) · [rulings](https://api.scryfall.com/cards/cad56033-c1f9-4477-9dd6-ba7009c30593/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2004-10-04* — If the card being targeted by the Bronze Tablet is removed before Tablet takes effect, then the Tablet ability doesn't resolve and it remains tapped.
+  - *2004-10-04* — If using a copy of the Tablet, you must trade the copy card to your opponent just like you would have traded the Tablet.
+  - *2004-10-04* — You can take control of your opponent's Tablet and in the trade you only have to give them back their Tablet.
+  - *2004-10-04* — You can't choose to pay 10 life if you have less than 10 life, but you may choose to give up the game immediately. This has roughly the same effect.
+  - *2008-08-01* — If the tablet is not still on the battlefield when the ability resolves, it is not exiled. The other player still has the choice to pay 10 life, and you still become the owner of their card if they choose not to do so.
+- **Source flags:** [Scryfall](https://scryfall.com/card/4ed/303/bronze-tablet) · oracle_id `a1ab033f-9605-4ca2-a98b-c0b2e1599609` · printing: 4ED #303 (1995-04-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bronze Walrus
 
@@ -3967,6 +4033,7 @@
   > *An Assassin's best armor is not being seen.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #563 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/71/brotherhood-regalia) · oracle_id `d169738e-af0b-4488-a399-3aa1d1933aa1` · printing: ACR #71 (2024-07-05) · [rulings](https://api.scryfall.com/cards/8a6439a6-288d-427e-b14b-a99e8ef8c5cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Brotherhood Scribe
@@ -4214,6 +4281,7 @@
   > *"Urza fortified every thirty miles on the path to Tomakul, creating a network of trenches the brothers would trade for decades."*
   > *—\*The Antiquities War\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #230 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/259/brushland) · oracle_id `5eb8b497-ec9a-4a89-ad29-1ec3ca82da7c` · printing: BRO #259 (2022-11-18) · [rulings](https://api.scryfall.com/cards/18d236ce-3b78-403a-b5f9-4fb44123d85b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Brush Off

@@ -106,6 +106,7 @@
 - **Flavor text** (FDN printing):
   > *"I decide what stands in my way."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2083 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/505/cancel) · oracle_id `7d00fb28-ea6c-49a9-b4af-ffb38860a9a7` · printing: FDN #505 (2024-11-15) · [rulings](https://api.scryfall.com/cards/475bff39-220a-4490-9c2e-d311e306a6db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Candelabra of Tawnos
@@ -279,7 +280,14 @@
   > • Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #827 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/161/cankerbloom) · oracle_id `d5b80895-621a-40df-bf48-6c7295658f21` · printing: ONE #161 (2023-02-10) · [rulings](https://api.scryfall.com/cards/89b39293-6f57-4294-85fc-c718bdbb4d40/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/161/cankerbloom) · oracle_id `d5b80895-621a-40df-bf48-6c7295658f21` · printing: ONE #161 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cankerous Thirst
 
@@ -513,7 +521,11 @@
   > *"I have seen the wonders of the world, but none of them can rival the sunsets of Wakanda."*
   > *—T'Challa, the Black Panther*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #108 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/227/canopy-vista) · oracle_id `dcb7e046-f01b-497c-88e5-57794eb30ce5` · printing: MSC #227 (2026-06-26) · [rulings](https://api.scryfall.com/cards/369e6485-fbc7-45f9-ac9d-2e26dd94f2d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-08-25* — Even though these lands have basic land types, they are not basic lands because "basic" doesn't appear on their type line. Notably, controlling two or more of them won't allow others to enter the battlefield untapped.
+  - *2015-08-25* — However, because these cards have basic land types, effects that specify a basic land type without also specifying that the land be basic can affect them. For example, a spell or ability that reads "Destroy target Forest" can target Canopy Vista, while one that reads "Destroy target basic Forest" cannot.
+  - *2015-08-25* — If one of these lands enters the battlefield at the same time as any number of basic lands, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/227/canopy-vista) · oracle_id `dcb7e046-f01b-497c-88e5-57794eb30ce5` · printing: MSC #227 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cantankerous Captain
 
@@ -671,6 +683,7 @@
   > *Gamma radiation destroys all it touches, save for an unlucky few.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #688 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/228/canyon-slough) · oracle_id `2031b17c-0536-446f-a9aa-b46fe79b7ea7` · printing: MSC #228 (2026-06-26) · [rulings](https://api.scryfall.com/cards/587cc3ba-75c2-46a0-bd44-6f953fe1eb01/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canyon Vaulter

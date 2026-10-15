@@ -980,6 +980,7 @@
 - **Flavor text** (MM2 printing):
   > *Fire is always at the top of the food chain, and it has a big appetite.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12851 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/134/wildfire) · oracle_id `0da68ca2-07fd-4359-95a9-fb2f815e6ed0` · printing: MM2 #134 (2015-05-22) · [rulings](https://api.scryfall.com/cards/c5924430-1904-47b9-bcf0-3379babd395c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wildfire Awakener
@@ -1108,7 +1109,9 @@
   > *If you stop to listen, you can hear it grow.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #215 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/195/wild-growth) · oracle_id `706ae742-1807-44b7-a4fa-f2e26f61519a` · printing: MKC #195 (2024-02-09) · [rulings](https://api.scryfall.com/cards/47260e7c-29bf-46f1-a029-9da7bbb418b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The additional mana is not an ability of the land and is not something the land can produce.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/195/wild-growth) · oracle_id `706ae742-1807-44b7-a4fa-f2e26f61519a` · printing: MKC #195 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wildgrowth Archaic
 
@@ -2082,7 +2085,13 @@
   > {W}, {T}: You may play the exiled card without paying its mana cost if you attacked with three or more creatures this turn.
 - **Keywords:** Hideaway
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #661 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/411/windbrisk-heights) · oracle_id `3589bcfc-42b0-414a-adce-bc690dc631c8` · printing: TDC #411 (2025-04-11) · [rulings](https://api.scryfall.com/cards/df441bae-3b9c-46a9-8287-870c00d58a64/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2007-10-01* — At the time the ability resolves, you'll get to play the card if you declared three different creatures as attackers at any point in the turn. A creature declared as an attacker in two different attack phases counts only once. A creature that entered attacking (such as a token created by Militia's Pride) doesn't count because you never attacked with it.
+  - *2022-04-29* — "Hideaway N" means "When this permanent enters the battlefield, look at the top N cards of your library. Exile one of them face down and put the rest on the bottom of your library in a random order. The exiled card gains 'The player who controls the permanent that exiled this card may look at this card in the exile zone.'"
+  - *2022-04-29* — Any player who has controlled a permanent with a hideaway ability since a card was exiled with it may look at that card.
+  - *2022-04-29* — Hideaway now causes you to put the rest of the cards on the bottom of your library in a random order instead of any order.
+  - *2022-04-29* — Previously, permanents with hideaway entered the battlefield tapped. This ability has been removed from the definition of hideaway. Older cards have received errata to have an additional paragraph that reads "[This permanent] enters the battlefield tapped," and they now have hideaway 4.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/411/windbrisk-heights) · oracle_id `3589bcfc-42b0-414a-adce-bc690dc631c8` · printing: TDC #411 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Windbrisk Raptor
 
@@ -2161,6 +2170,7 @@
 - **Flavor text** (OTC printing):
   > *"Rich" is a relative term.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #159 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/123/windfall) · oracle_id `08becc07-28bc-4a2f-a6b0-28a2998d2f50` · printing: OTC #123 (2024-04-19) · [rulings](https://api.scryfall.com/cards/9ce7113b-08f7-4584-b65f-a7b5caa90c2f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Windgrace Acolyte
@@ -2427,7 +2437,13 @@
   > Overload {4}{W}{W} (You may cast this spell for its overload cost. If you do, change "target" in its text to "each.")
 - **Keywords:** Overload
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1956 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/37/winds-of-abandon) · oracle_id `499a4715-6776-461b-bee4-22ed172d455e` · printing: MH1 #37 (2019-06-14) · [rulings](https://api.scryfall.com/cards/3bb17913-fe4d-4acd-9b75-71f5a90f898b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2019-06-14* — If a creature is exiled but ends up in another zone, it's still a "creature exiled this way" for Winds of Abandon.
+  - *2024-01-12* — Because a spell with overload doesn't target when its overload cost is paid, it may affect permanents with hexproof or with protection from the appropriate color.
+  - *2024-01-12* — If you are instructed to cast a spell with overload "without paying its mana cost," you can't choose to pay its overload cost instead.
+  - *2024-01-12* — If you don't pay the overload cost of a spell with overload, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
+  - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an overload cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/37/winds-of-abandon) · oracle_id `499a4715-6776-461b-bee4-22ed172d455e` · printing: MH1 #37 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Winds of Change
 
@@ -2540,6 +2556,7 @@
 - **Flavor text** (MH3 printing):
   > *An underground paradise, bright and thriving beneath the surface of Ixalan.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #45 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/235/windswept-heath) · oracle_id `29737a60-3ebd-40d9-b935-c4f54b90d45d` · printing: MH3 #235 (2024-06-14) · [rulings](https://api.scryfall.com/cards/bd1d13f7-fd38-4f0b-a8e0-1eac78668117/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Windswift Slice
@@ -3617,7 +3634,10 @@
   > This artifact enters with three wish counters on it.
   > {1}, {T}, Remove a wish counter from this artifact: Search your library for a card, put it into your hand, then shuffle. An opponent gains control of this artifact. Activate only during your turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #526 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/617/wishclaw-talisman) · oracle_id `81c70ae7-3c18-4c9b-8505-e4db9e0e6518` · printing: FDN #617 (2024-11-15) · [rulings](https://api.scryfall.com/cards/69d0f5bd-ccea-49b2-bd79-ad5e4d850cf5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-10-04* — Once Wishclaw Talisman runs out of wish counters, it remains on the battlefield. You can't activate its last ability at all.
+  - *2019-10-04* — You choose which opponent gains control of Wishclaw Talisman while its ability is resolving. If that player later leaves the game, you regain control of Wishclaw Talisman.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/617/wishclaw-talisman) · oracle_id `81c70ae7-3c18-4c9b-8505-e4db9e0e6518` · printing: FDN #617 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wishcoin Crab
 
@@ -3777,7 +3797,14 @@
   > *"Ghrin-Danu will not let her people go hungry."*
   > *—Katilda, Dawnhart Prime*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #290 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/239/witch-enchanter-witch-blessed-meadow) · oracle_id `0355249a-8e4e-41db-9cea-1b901faffbe6` · printing: MH3 #239 (2024-06-14) · [rulings](https://api.scryfall.com/cards/62061e7c-cf19-4f03-b8fa-2bdba62d6b0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-06-07* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2024-06-07* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect. For example, if an effect allows you to play lands from your graveyard, you can play Garden of Freyalise, but you can't cast Disciple of Freyalise.
+  - *2024-06-07* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2024-06-07* — If an effect allows you to put a card with particular characteristics onto the battlefield without instructing you to play or cast it, you consider only the characteristics of a modal double-faced card's front face to see if that card qualifies. If it does, it enters the battlefield with its front face up. For example, if an effect allows you to put a creature card from your graveyard onto the battlefield, you can put Disciple of Freyalise onto the battlefield. However, an effect that lets you return a land card from your graveyard to your hand won't let you return Garden of Freyalise to your hand, as that card has only its front face's characteristics while in the graveyard.
+  - *2024-06-07* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2024-06-07* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics. For example, if an effect stops you from casting creature spells, you can't cast Disciple of Freyalise, but you can still play Garden of Freyalise.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/239/witch-enchanter-witch-blessed-meadow) · oracle_id `0355249a-8e4e-41db-9cea-1b901faffbe6` · printing: MH3 #239 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Witch Engine
 
@@ -4223,7 +4250,9 @@
   > *"Hell is real, Richards. I will show you!"*
   > *—Doctor Doom*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #265 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/162/withering-torment) · oracle_id `ffce81c5-1b58-4882-a4e7-6f8d7cb170de` · printing: MSC #162 (2026-06-26) · [rulings](https://api.scryfall.com/cards/06d44ada-f98e-405f-89d3-ac1002bfb854/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — If the target creature or enchantment is an illegal target as Withering Torment tries to resolve, it won't resolve and none of its effects will happen. You won't lose life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/162/withering-torment) · oracle_id `ffce81c5-1b58-4882-a4e7-6f8d7cb170de` · printing: MSC #162 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Withering Wisps
 
@@ -4415,7 +4444,15 @@
   > {4}{U}: Level 3
   > Whenever you draw a card, put a +1/+1 counter on target creature you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #635 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/81/wizard-class) · oracle_id `36f68aa3-9955-46f1-bc87-497f16ef5222` · printing: AFR #81 (2021-07-23) · [rulings](https://api.scryfall.com/cards/d1f629fb-b097-4240-8560-ef47f5678f48/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-07-23* — Each Class has five abilities. The three in the major sections of its text box are class abilities. Class abilities can be static, activated, or triggered abilities. The other two are level abilities, one activated ability to advance the Class to level 2 and another to advance the Class to level 3.
+  - *2021-07-23* — Each Class starts with only the first of three class abilities. As the first level ability resolves, the Class becomes level 2 and gains the second class ability. As the second level ability resolves, the Class becomes level 3 and gains the third class ability.
+  - *2021-07-23* — Gaining a level is a normal activated ability. It uses the stack and can be responded to.
+  - *2021-07-23* — Gaining a level won't remove abilities that a Class had at a previous level.
+  - *2021-07-23* — Some Class cards have an effect that increases when more are under your control. For example, if you have multiple Barbarian Class cards, you roll that many additional dice and ignore that many of the lowest rolls.
+  - *2021-07-23* — You can multiclass or even control multiple Class enchantments of the same class. Each Class permanent tracks its own level separately.
+  - *2021-07-23* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/81/wizard-class) · oracle_id `36f68aa3-9955-46f1-bc87-497f16ef5222` · printing: AFR #81 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wizard from Beyond
 

@@ -51,6 +51,7 @@
   > *Restless Riveteers can always find a sparring partner in the sprawling Treza warehouse.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #536 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/261/ziatoras-proving-ground) · oracle_id `f7e7b78c-c769-4720-8585-1874773eb342` · printing: SNC #261 (2022-04-29) · [rulings](https://api.scryfall.com/cards/75fdce80-e338-4a50-bdc6-786511feaeef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ziatora, the Incinerator

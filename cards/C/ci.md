@@ -216,7 +216,11 @@
 - **Flavor text** (MSC printing):
   > *Four people emerged from the wreckage more fantastic than when they had begun their flight.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #87 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/230/cinder-glade) · oracle_id `dfac0258-e148-4d7d-8ded-fc2466d9caa6` · printing: MSC #230 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ec93087a-5728-40e8-8625-a1d175d5252c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-08-25* — Even though these lands have basic land types, they are not basic lands because "basic" doesn't appear on their type line. Notably, controlling two or more of them won't allow others to enter the battlefield untapped.
+  - *2015-08-25* — However, because these cards have basic land types, effects that specify a basic land type without also specifying that the land be basic can affect them. For example, a spell or ability that reads "Destroy target Forest" can target Canopy Vista, while one that reads "Destroy target basic Forest" cannot.
+  - *2015-08-25* — If one of these lands enters the battlefield at the same time as any number of basic lands, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/230/cinder-glade) · oracle_id `dfac0258-e148-4d7d-8ded-fc2466d9caa6` · printing: MSC #230 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cinderhaze Wretch
 
@@ -868,7 +872,11 @@
 - **Flavor text** (TMC printing):
   > *It's like the future's a party that these brothers just crashed . . .*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #94 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/62/city-of-brass) · oracle_id `f25351e3-539b-4bbc-b92d-6480acf4d722` · printing: TMC #62 (2026-03-06) · [rulings](https://api.scryfall.com/cards/c21565d0-fc40-4d89-9b27-87c03385e0af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — If you tap City of Brass while you are casting a spell or activating an ability, its ability will trigger and wait. When you finish casting that spell or activating that ability, City of Brass's triggered ability is put on the stack on top of it. City of Brass's ability will resolve first.
+  - *2004-10-04* — On the other hand, you can tap City of Brass, put its triggered ability on the stack, and then respond to that ability by casting an instant or activating an ability using that mana. In that case, the instant spell or activated ability will resolve first.
+  - *2004-10-04* — The first ability triggers no matter how the land becomes tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/62/city-of-brass) · oracle_id `f25351e3-539b-4bbc-b92d-6480acf4d722` · printing: TMC #62 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### City of Death
 

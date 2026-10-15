@@ -1077,7 +1077,11 @@
 - **Flavor text** (TLE printing):
   > *Buzzard-wasps single-mindedly scour the Si Wong Desert in search of dead or dying prey.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #93 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/257/feed-the-swarm) · oracle_id `5825997b-10d7-4a36-972c-a80ddd90b8ed` · printing: TLE #257 (2025-11-21) · [rulings](https://api.scryfall.com/cards/2246c098-1071-4cc3-a60a-802406e2827b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — If a permanent on the battlefield has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+  - *2024-11-08* — If the target permanent is an illegal target by the time Feed the Swarm tries to resolve, the spell doesn't resolve. You don't lose any life. If the target is legal but not destroyed (most likely because it has indestructible), you do lose life.
+  - *2024-11-08* — The amount of life you lose is determined by the permanent's mana value as it last existed on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/257/feed-the-swarm) · oracle_id `5825997b-10d7-4a36-972c-a80ddd90b8ed` · printing: TLE #257 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Feeling of Dread
 
@@ -1269,7 +1273,12 @@
   > • Put a +1/+1 counter on each creature you control. Those creatures gain vigilance until end of turn.
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #519 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/574/felidar-retreat) · oracle_id `16629f59-bae8-4c19-bf50-443eb0ed6856` · printing: FDN #574 (2024-11-15) · [rulings](https://api.scryfall.com/cards/89e3cc09-5057-4c05-88fc-d6cda809fc74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-09-25* — Felidar Retreat's second mode affects only creatures you control at the time the ability resolves, including creatures you control but that for some reason didn't get a +1/+1 counter. Creatures you begin to control later in the turn won't gain vigilance or get a +1/+1 counter.
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/574/felidar-retreat) · oracle_id `16629f59-bae8-4c19-bf50-443eb0ed6856` · printing: FDN #574 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Felidar Savior
 
@@ -1513,7 +1522,14 @@
   > *"The Nethermire is all the salvation you deserve."*
   > *—Aryel, knight of Windgrace*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #198 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/244/fell-the-profane-fell-mire) · oracle_id `053a69d8-2b5e-4f14-8b02-ca405891dc4a` · printing: MH3 #244 (2024-06-14) · [rulings](https://api.scryfall.com/cards/a3cb782d-c459-468d-9779-9b5669abc337/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-06-07* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2024-06-07* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect. For example, if an effect allows you to play lands from your graveyard, you can play Garden of Freyalise, but you can't cast Disciple of Freyalise.
+  - *2024-06-07* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2024-06-07* — If an effect allows you to put a card with particular characteristics onto the battlefield without instructing you to play or cast it, you consider only the characteristics of a modal double-faced card's front face to see if that card qualifies. If it does, it enters the battlefield with its front face up. For example, if an effect allows you to put a creature card from your graveyard onto the battlefield, you can put Disciple of Freyalise onto the battlefield. However, an effect that lets you return a land card from your graveyard to your hand won't let you return Garden of Freyalise to your hand, as that card has only its front face's characteristics while in the graveyard.
+  - *2024-06-07* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2024-06-07* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics. For example, if an effect stops you from casting creature spells, you can't cast Disciple of Freyalise, but you can still play Garden of Freyalise.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/244/fell-the-profane-fell-mire) · oracle_id `053a69d8-2b5e-4f14-8b02-ca405891dc4a` · printing: MH3 #244 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fellwar Stone
 
@@ -1525,7 +1541,15 @@
   > *"What do you have that I cannot obtain?"*
   > *—Mairsil, the Pretender*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mbc/74/fellwar-stone) · oracle_id `95560508-7ac9-4be9-8a3f-3c7d5b52807b` · printing: MBC #74 (2026-10-19) · [rulings](https://api.scryfall.com/cards/3ef87948-0ad9-4757-a692-2262c8e24367/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2004-10-04* — It only produces one mana even if the land can produce more than one.
+  - *2004-10-04* — The ability can be activated if the opponent has no lands that produce mana, but the effect will not be able to generate any mana.
+  - *2004-10-04* — This works even if the opponent's lands are tapped. It only checks what kinds of mana can be produced, not if the abilities that produce them are usable right now.
+  - *2009-10-01* — Fellwar Stone checks the effects of all mana-producing abilities of lands your opponents control, but it doesn't check their costs. For example, Vivid Crag has the ability "{T}, Remove a charge counter from Vivid Crag: Add one mana of any color." If an opponent controls Vivid Crag and you control Fellwar Stone, you can tap Fellwar Stone for any color of mana. It doesn't matter whether Vivid Crag has a charge counter on it, and it doesn't matter whether it's untapped.
+  - *2009-10-01* — Fellwar Stone doesn't care about any restrictions or riders your opponents' lands (such as Ancient Ziggurat or Hall of the Bandit Lord) put on the mana they produce. It just cares about colors of mana.
+  - *2009-10-01* — The colors of mana are white, blue, black, red, and green. Fellwar Stone can't be tapped for colorless mana, even if a land an opponent controls could produce colorless mana.
+  - *2009-10-01* — When determining what colors of mana your opponents' lands could produce, take into account any applicable replacement effects that would apply to those lands' mana abilities (such as Contamination's effect, for example). If there is more than one, consider them in any possible order.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mbc/74/fellwar-stone) · oracle_id `95560508-7ac9-4be9-8a3f-3c7d5b52807b` · printing: MBC #74 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Felonious Rage
 
@@ -2165,6 +2189,7 @@
 - **Flavor text** (SOC printing):
   > *Stability and volatility churn together, creating beauty and danger both.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #776 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/370/ferrous-lake) · oracle_id `62c15af0-40e1-407d-b056-7a3d909e3fdb` · printing: SOC #370 (2026-04-24) · [rulings](https://api.scryfall.com/cards/92fa559c-a99b-4bc1-86c4-0c5eeeac9f4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ferrovore
@@ -2593,6 +2618,7 @@
   > *"Do not linger in such places, child. There the gwyllions dance. If they find you, you will join in their revels for eternity."*
   > *—Talara, elvish safewright*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #322 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/72/fetid-heath) · oracle_id `42bf259d-4bb9-49c3-b4ec-223dca62f4d6` · printing: FRC #72 (2026-10-02) · [rulings](https://api.scryfall.com/cards/ae07ff9f-d5a8-4220-b08f-fe8fad5adcb7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fetid Horror

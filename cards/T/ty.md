@@ -427,6 +427,7 @@
 - **Flavor text** (SOC printing):
   > *"When they write songs about this battle, I will make sure your name is forgotten, devil."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #718 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/291/tyvars-stand) · oracle_id `4247b667-a0a8-4995-97c7-622d20132f7d` · printing: SOC #291 (2026-04-24) · [rulings](https://api.scryfall.com/cards/b6ab0855-782a-498c-a885-b3ab3d1bb362/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tyvar the Bellicose

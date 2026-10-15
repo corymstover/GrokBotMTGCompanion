@@ -484,7 +484,10 @@
 - **Flavor text** (TLE printing):
   > *In the skies of the Si Wong Desert, a solitary winged lemur searched in vain for a lost friend.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #98 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/159/frantic-search) · oracle_id `16e015b2-f8a3-4b1a-80be-58a8f5fb5e8c` · printing: TLE #159 (2025-11-21) · [rulings](https://api.scryfall.com/cards/d8c5e52d-57ae-464b-8860-7dd39ebfef64/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-12-07* — You draw two cards and discard two cards all while Frantic Search is resolving. Nothing can happen between the two, and no player may choose to take actions.
+  - *2022-12-08* — You choose which lands to untap as the spell resolves. They aren't targeted, and they don't have to be lands that you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/159/frantic-search) · oracle_id `16e015b2-f8a3-4b1a-80be-58a8f5fb5e8c` · printing: TLE #159 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frantic Strength
 
@@ -1580,6 +1583,7 @@
 - **Flavor text** (ECC printing):
   > *With a warm fire and a fresh catch, Temur hunters find respite in even the coldest climates.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #401 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/150/frontier-bivouac) · oracle_id `e4cf6c2f-0f1e-4980-9ef9-e4eabcae42a9` · printing: ECC #150 (2026-01-23) · [rulings](https://api.scryfall.com/cards/48810b27-0646-4ff9-9d4d-c6d09b2e0267/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frontier Explorer
@@ -1809,7 +1813,12 @@
 - **Flavor text** (MSC printing):
   > *Odin's son journeyed to the icy realm of Jotunheim, seeking to test his raging thunder against the Frost Giant horde.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #334 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/246/frostboil-snarl) · oracle_id `7137aae6-260d-41de-8b4e-42a8cf752697` · printing: MSC #246 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ae705a26-5371-4236-904c-fe3e58b4721d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-04-16* — If a land card with an appropriate subtype is entering the battlefield from your hand at the same time as one of these lands, you may reveal the other land to have the "Snarl" enter untapped.
+  - *2021-04-16* — If an effect instructs you to put one of these lands onto the battlefield tapped, it will still enter the battlefield tapped even if you reveal a land card from your hand.
+  - *2021-04-16* — The "Snarl" itself doesn't have any land subtypes. You can't reveal one to satisfy the ability of another.
+  - *2021-04-16* — You may reveal any land card with either or both of the appropriate subtypes. It doesn't have to be a basic land card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/246/frostboil-snarl) · oracle_id `7137aae6-260d-41de-8b4e-42a8cf752697` · printing: MSC #246 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frost Breath
 

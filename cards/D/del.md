@@ -43,7 +43,24 @@
 - **Oracle text:**
   > Counter target spell. If the spell is countered this way, exile it with three time counters on it instead of putting it into its owner's graveyard. If it doesn't have suspend, it gains suspend. (At the beginning of its owner's upkeep, they remove a time counter. When the last is removed, they may play it without paying its mana cost. If it's a creature, it has haste.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2245 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/61/delay) · oracle_id `983caa3f-7089-4e66-825d-4086a5adb9bb` · printing: TSR #61 (2021-03-19) · [rulings](https://api.scryfall.com/cards/3906d538-f1ca-4799-b91c-2e0d2934f241/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2021-03-19* — If the target spell is face down, it'll be exiled face up. It can't be cast face down when casting it without paying its mana cost.
+  - *2021-03-19* — If the target spell was cast with flashback, Delay's effect will exile it, not the flashback effect. The card will get time counters and gain suspend (if it didn't already have suspend).
+  - *2021-03-19* — When the last time counter is removed from the exiled card, it's cast as a completely new spell. Modes and targets are chosen again. If the spell has any mandatory additional costs, they must be paid again. If they can't be, the spell can't be cast and stays exiled.
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/61/delay) · oracle_id `983caa3f-7089-4e66-825d-4086a5adb9bb` · printing: TSR #61 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Delayed Blast Fireball
 
@@ -123,7 +140,10 @@
 - **Flavor text** (LTR printing):
   > *There were toys the Hobbit-children had never seen before, all beautiful, and some obviously magical.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #148 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/158/delighted-halfling) · oracle_id `f9d3b046-0b95-4103-a630-4b3fb88bb60b` · printing: LTR #158 (2023-06-23) · [rulings](https://api.scryfall.com/cards/71384418-173a-4f77-adab-56e52fa23692/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-06-16* — If the legendary spell you cast this way is copied, the copy can be countered.
+  - *2023-06-16* — The legendary spell can't be countered if the mana produced by Delighted Halfling is spent to pay any portion of the spell's cost, even an additional cost or an alternative cost. This is true even if you pay an additional cost while casting a spell "without paying its mana cost."
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/158/delighted-halfling) · oracle_id `f9d3b046-0b95-4103-a630-4b3fb88bb60b` · printing: LTR #158 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Delighted Killbot
 

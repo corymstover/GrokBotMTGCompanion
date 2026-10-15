@@ -53,6 +53,7 @@
 - **Flavor text** (MH2 printing):
   > *The calm comes after the storm.*
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/270/upheaval) · oracle_id `7cafc972-a6f5-4cac-a3d3-8a3ae36ffb1e` · printing: MH2 #270 (2021-06-18) · [rulings](https://api.scryfall.com/cards/befe74b1-c487-42bb-a1a1-4d13f3a86ff7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Uphill Battle

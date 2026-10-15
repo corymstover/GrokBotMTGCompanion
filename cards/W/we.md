@@ -878,7 +878,17 @@
 - **Flavor text** (CN2 printing):
   > *When immovable object turns to unstoppable force, it's best to just get out of the way.*
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/12/weight-advantage) · oracle_id `42bede0a-de6d-4de3-90ea-9d92b0fe8c64` · printing: CN2 #12 (2016-08-26) · [rulings](https://api.scryfall.com/cards/feef03a1-f19a-413b-ad86-0b357cf9c09c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2016-08-23* — A conspiracy doesn't count as a card in your deck for purposes of meeting minimum deck size requirements. (In most drafts, the minimum deck size is 40 cards.)
+  - *2016-08-23* — A conspiracy's static and triggered abilities function as long as that conspiracy is face-up in the command zone.
+  - *2016-08-23* — Conspiracies are colorless, have no mana cost, and can't be cast as spells.
+  - *2016-08-23* — Conspiracies are never put into your deck. Instead, you put any number of conspiracies from your card pool into the command zone as the game begins. These conspiracies are face up unless they have hidden agenda, in which case they begin the game face down.
+  - *2016-08-23* — Conspiracies aren't legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft.
+  - *2016-08-23* — For example, a 2/3 creature will assign 3 combat damage rather than 2.
+  - *2016-08-23* — Weight Advantage's ability doesn't change any creature's power. It changes only the value of the combat damage it assigns. All other rules and effects that check power or toughness use the real values.
+  - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
+  - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/12/weight-advantage) · oracle_id `42bede0a-de6d-4de3-90ea-9d92b0fe8c64` · printing: CN2 #12 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Weight of Conscience
 
@@ -1130,7 +1140,10 @@
   > *From the moment they arrived, wedding guests were met with a pageant of wealth and excess.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #427 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/140/welcoming-vampire) · oracle_id `605c1ee0-5e8a-4e0a-a99b-42a38873f822` · printing: TDC #140 (2025-04-11) · [rulings](https://api.scryfall.com/cards/35a69bb5-b8e6-4558-9563-10c7a3662f93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-11-19* — If creatures enter the battlefield with +1/+1 counters or a continuous effect such as that of Wedding Festivity will apply to the creatures on the battlefield, those effects apply when checking to see if Welcoming Vampire's ability will trigger.
+  - *2021-11-19* — Welcoming Vampire's ability checks the power of the other creatures only as they enter the battlefield. If one of those creatures has power 2 or less, the ability will trigger. Once the ability triggers, raising that creature's power above 2 won't affect that ability. Similarly, reducing a creature's power to 2 or less after it enters the battlefield won't cause the ability to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/140/welcoming-vampire) · oracle_id `605c1ee0-5e8a-4e0a-a99b-42a38873f822` · printing: TDC #140 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Welder Automaton
 

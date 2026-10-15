@@ -1133,7 +1133,10 @@
   > *"I . . . have . . . awakened! After countless centuries, I live again!"*
   > *—Fin Fang Foom*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #83 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/238/dragonskull-summit) · oracle_id `63398c02-6fb1-481d-9d9f-81063532fbc0` · printing: MSC #238 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d20e433a-eb62-4301-bc20-bfe27468b033/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-10-01* — As this is entering, it checks for lands that are already on the battlefield. It won't see lands that are entering at the same time (due to Warp World, for example).
+  - *2009-10-01* — This checks for lands you control with the land type Swamp or Mountain, not for lands named Swamp or Mountain. The lands it checks for don't have to be basic lands. For example, if you control Stomping Ground (a nonbasic land with the land types Mountain and Forest), Dragonskull Summit will enter untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/238/dragonskull-summit) · oracle_id `63398c02-6fb1-481d-9d9f-81063532fbc0` · printing: MSC #238 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragon Sniper
 
@@ -1306,7 +1309,11 @@
   > Whenever a creature you control with flying enters, it gains haste until end of turn.
   > Whenever a Dragon you control enters, it deals X damage to any target, where X is the number of Dragons you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #844 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/94/dragon-tempest) · oracle_id `b9bacb46-fd1d-459b-81c2-d7d08fe73848` · printing: TDC #94 (2025-04-11) · [rulings](https://api.scryfall.com/cards/39ac7ad0-e570-4209-988c-7c0f9b9d2004/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-11-17* — If a Dragon entering the battlefield causes Dragon Tempest’s second ability to trigger but leaves the battlefield before that ability resolves, that Dragon still deals damage.
+  - *2017-11-17* — The amount of damage dealt by the Dragon that entered the battlefield is based on the number of Dragons you control when the ability resolves.
+  - *2017-11-17* — The two abilities aren’t mutually exclusive. If a Dragon with flying (which is most of them) enters the battlefield under your control, both abilities will trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/94/dragon-tempest) · oracle_id `b9bacb46-fd1d-459b-81c2-d7d08fe73848` · printing: TDC #94 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragon Throne of Tarkir
 
@@ -1777,6 +1784,7 @@
   > *"I beat you all before and I'll do it again!"*
   > *—Toph*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #673 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/158/dramatic-reversal) · oracle_id `da46904c-8fb8-44c2-b2ab-775a1cc12ec3` · printing: TLE #158 (2025-11-21) · [rulings](https://api.scryfall.com/cards/2ad14406-4504-4951-83f0-82c298964d6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dramatist's Puppet
@@ -1908,7 +1916,11 @@
 - **Flavor text** (IKO printing):
   > *"Our sanctuaries must be beacons of reason and calm or else they will fall."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #759 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/11/drannith-magistrate) · oracle_id `aadd10d0-6dd0-4bdc-8d93-ff08e29a5863` · printing: IKO #11 (2020-04-24) · [rulings](https://api.scryfall.com/cards/98b0a4a8-9319-451b-9b79-b0bca7a41e91/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-04-17* — Effects may put cards from other zones onto the battlefield under an opponent's control.
+  - *2020-04-17* — If a rule or effect allows them to do so, your opponents may play lands from zones other than their hand and activate abilities of cards in zones other than their hand.
+  - *2020-04-17* — If an effect says that an opponent may cast a spell from anywhere other than their hand, Drannith Magistrate's restriction overrules that permission.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/11/drannith-magistrate) · oracle_id `aadd10d0-6dd0-4bdc-8d93-ff08e29a5863` · printing: IKO #11 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drannith Ruins
 

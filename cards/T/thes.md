@@ -457,7 +457,12 @@
 - **Flavor text** (2XM printing):
   > *Amid rumors of war, the third act of \*The Absolution of the Guildpact\* was quickly rewritten as a tragedy.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #583 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/327/thespians-stage) · oracle_id `b01e698b-608a-4fc7-8073-b01d044743ec` · printing: 2XM #327 (2020-08-07) · [rulings](https://api.scryfall.com/cards/269a926d-7788-4668-8bd8-7572dbf5f5eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-12-07* — A land's copiable values are those printed on it, as modified by other copy effects. Counters and other effects aren't copied. Notably, if you copy a land that is also a creature because of a temporary effect (such as Celestial Colonnade), Thespian's Stage will become just the "unanimated" land.
+  - *2018-12-07* — No enters-the-battlefield abilities of the land Thespian's Stage is copying will trigger. Thespian's Stage was already on the battlefield. Similarly, no "as this land enters the battlefield" or "this land enters the battlefield with" effects, such as that of Dark Depths, will apply.
+  - *2018-12-07* — The copy effect created by the last activated ability doesn't have a duration. It will last until Thespian's Stage leaves the battlefield or another copy effect overwrites it. The permanent will no longer have the first ability of Thespian's Stage.
+  - *2018-12-07* — Thespian's Stage doesn't become untapped when it becomes a copy, even if the target land is untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/327/thespians-stage) · oracle_id `b01e698b-608a-4fc7-8073-b01d044743ec` · printing: 2XM #327 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Spike Cactus
 

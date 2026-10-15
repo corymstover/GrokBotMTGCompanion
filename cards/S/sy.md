@@ -299,7 +299,15 @@
 - **Oracle text:**
   > At the beginning of your draw step, you may draw two additional cards. If you do, choose two cards in your hand drawn this turn. For each of those cards, pay 4 life or put the card on top of your library.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #258 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/179/sylvan-library) · oracle_id `92eed395-62ca-4293-882b-8565c40daab5` · printing: DMR #179 (2023-01-13) · [rulings](https://api.scryfall.com/cards/6ada256f-2e55-4c1f-b4d3-d7b10b498956/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-12-08* — Any cards drawn prior to Sylvan Library’s ability resolving, including in your upkeep or in response to Sylvan Library’s triggered ability, can be chosen to be put back using this effect. Sylvan Library’s controller is responsible for keeping these cards distinguishable in hand, such as by keeping them separate from cards that began the turn in hand.
+  - *2022-12-08* — If you choose to draw two cards, then replace one or more of those draws with some other effect, the rest of Sylvan Library’s ability still happens. If you’ve actually drawn only one card that turn, you must choose that card and either pay 4 life or put it on top of your library. If you haven’t actually drawn any cards that turn, the rest of the ability has no effect.
+  - *2022-12-08* — If you control more than one Sylvan Library, the triggered ability of each will resolve in sequence. You don’t get to draw all the cards at once and then put them all back at once.
+  - *2022-12-08* — If you control other triggered abilities that allow you to draw cards during your draw step, you can choose to order Sylvan Library’s ability before or after those abilities. Triggered abilities controlled by other players will resolve before triggered abilities you control.
+  - *2022-12-08* — It’s not possible to take any actions between drawing the cards and choosing two cards. You can’t cast the cards you drew to avoid having two cards to choose.
+  - *2022-12-08* — You always perform your normal draw before this ability. The normal draw occurs before anything can be placed on the stack during a player’s draw step.
+  - *2022-12-08* — You can put back zero, one, or two cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/179/sylvan-library) · oracle_id `92eed395-62ca-4293-882b-8565c40daab5` · printing: DMR #179 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sylvan Messenger
 
@@ -353,7 +361,11 @@
   > When this creature enters, for each opponent, destroy target noncreature permanent that player controls. Search your library for up to X Forest cards, where X is the number of permanents destroyed this way, put those cards onto the battlefield tapped, then shuffle.
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/136/sylvan-primordial) · oracle_id `52b88034-bf0f-4d29-b776-40ce421f1107` · printing: GTC #136 (2013-02-01) · [rulings](https://api.scryfall.com/cards/0483c869-38dc-4b0b-82f3-dd08a1ab985f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-01-24* — You search and shuffle your library only once.
+  - *2013-07-01* — If Sylvan Primordial’s enters-the-battlefield ability resolves but one of the target noncreature permanents isn’t destroyed (perhaps because it has indestructible or it regenerated), it won’t count toward the number of Forest cards you can put onto the battlefield.
+  - *2014-02-01* — If an opponent has any legal permanents to target, you must target one of them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/136/sylvan-primordial) · oracle_id `52b88034-bf0f-4d29-b776-40ce421f1107` · printing: GTC #136 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sylvan Ranger
 
@@ -389,6 +401,7 @@
   > *"He has been to the heart of the wood. Did you truly expect to wield power over him?"*
   > *—Oakhide druid*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #779 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/287/sylvan-safekeeper) · oracle_id `bddf8f4a-3149-4dd6-a9e5-7747e7e45a1c` · printing: MH3 #287 (2024-06-14) · [rulings](https://api.scryfall.com/cards/83036e21-21ea-4324-aa07-11757f80c417/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sylvan Scavenging
@@ -1160,7 +1173,10 @@
   > {1}{B}: Each player mills a card. (They each put the top card of their library into their graveyard.)
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #262 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/158/syr-konrad-the-grim) · oracle_id `14c3ff84-1e82-4606-a433-869fc52cc382` · printing: DSC #158 (2024-09-27) · [rulings](https://api.scryfall.com/cards/443a4eac-f972-4027-aed4-552d4edc2ce1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-10-04* — If one or more creatures die at the same time as Syr Konrad, its first ability triggers for each of those creatures.
+  - *2019-10-04* — In a Two-Headed Giant game, Syr Konrad's first ability causes it to deal 1 damage twice.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/158/syr-konrad-the-grim) · oracle_id `14c3ff84-1e82-4606-a433-869fc52cc382` · printing: DSC #158 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syr Vondam, Sunstar Exemplar
 

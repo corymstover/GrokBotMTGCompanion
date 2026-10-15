@@ -39,7 +39,15 @@
   > *"Laughing at you? No, no, I'm laughing \*as\* you!"*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #734 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/61/mockingbird) · oracle_id `b9df2cdf-397c-458d-89cf-911568737ffa` · printing: BLB #61 (2024-08-02) · [rulings](https://api.scryfall.com/cards/ade32396-8841-4ba4-8852-d11146607f21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-07-26* — Any “enters” abilities of the copied creature will trigger when Mockingbird enters. Any “as [this creature] enters” or “[this creature] enters with” abilities of the copied creature will also work.
+  - *2024-07-26* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2024-07-26* — If the copied creature is a token, Mockingbird copies the original characteristics of that token as stated by the effect that created that token, with the noted exceptions.
+  - *2024-07-26* — If the copied creature is copying something else, then Mockingbird enters as whatever that creature copied, with the noted exceptions.
+  - *2024-07-26* — Mockingbird copies exactly what was printed on the original creature, except it’s a Bird in addition to its other types and it has flying, and nothing else (unless that creature is copying something else or is a token; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2024-07-26* — Mockingbird’s second ability counts all mana spent to cast Mockingbird, not just mana spent on {X}. If there are any additional costs to cast it, the mana spent to pay those costs counts as well.
+  - *2024-07-26* — You can choose not to have Mockingbird enter as a copy of another creature. If you do, it will just be a 1/1 Bird Bard creature with flying, an ability that didn’t do anything, and the opportunity for a good self-deprecating joke or two.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/61/mockingbird) · oracle_id `b9df2cdf-397c-458d-89cf-911568737ffa` · printing: BLB #61 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mockingbird, Ace Agent
 

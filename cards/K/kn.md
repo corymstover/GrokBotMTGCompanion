@@ -784,7 +784,10 @@
   > *Both guide and guard on open plain.*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #655 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/193/knight-of-the-white-orchid) · oracle_id `7d0efc64-151f-45b4-8c0b-c32609f9d862` · printing: MOC #193 (2023-04-21) · [rulings](https://api.scryfall.com/cards/f332cd21-46ed-4fff-9fd9-d5975bf0004d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-10-01* — Knight of the White Orchid's triggered ability has an “intervening ‘if' clause.” That means (1) the ability won't trigger at all unless any one of your opponents controls more lands than you, and (2) the ability will do nothing if you control at least as many lands as each of your opponents by the time it resolves.
+  - *2015-06-22* — The Plains you search for doesn't have to be basic. For example, you could put a Sacred Foundry onto the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/193/knight-of-the-white-orchid) · oracle_id `7d0efc64-151f-45b4-8c0b-c32609f9d862` · printing: MOC #193 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of the Widget
 

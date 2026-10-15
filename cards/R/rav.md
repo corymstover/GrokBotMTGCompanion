@@ -108,6 +108,7 @@
   > *"Thorn bushes spring up wherever the army has passed. Lean years follow in the wake of a great war."*
   > *—Lao Tzu, Tao Te Ching, trans. Feng and English*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11748 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/27/ravages-of-war) · oracle_id `265236d1-d96c-4424-835e-a0fe91c41170` · printing: ME2 #27 (2008-09-22) · [rulings](https://api.scryfall.com/cards/bdf7d5d9-d980-445e-b1e4-5af0681c6e60/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravaging Blaze

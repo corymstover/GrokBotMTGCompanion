@@ -218,7 +218,12 @@
   > *She protects the sacred groves from blight, drought, and the Unbeholden.*
 - **Keywords:** Exalted
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #772 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/177/noble-hierarch) · oracle_id `98aa9424-5912-4bd6-9300-b3972a31d8af` · printing: 2XM #177 (2020-08-07) · [rulings](https://api.scryfall.com/cards/400382a4-aea2-4827-b06a-1b0b3745908b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-08-07* — If you declare exactly one creature as an attacker, each exalted ability on each permanent you control (including, perhaps, the attacking creature itself) will trigger.
+  - *2020-08-07* — In a Two-Headed Giant game, a creature “attacks alone” if it's the only creature declared as an attacker by your entire team. If you control that attacking creature, your exalted abilities will trigger but your teammate's exalted abilities won't.
+  - *2020-08-07* — Some effects put creatures onto the battlefield attacking. Since those creatures were never declared as attackers, they're ignored by exalted abilities. They won't cause exalted abilities to trigger. If any exalted abilities have already triggered (because exactly one creature was declared as an attacker), those abilities will resolve as normal even though there may now be multiple attackers.
+  - *2020-08-07* — You must attack with exactly one creature for exalted abilities to trigger. Exalted abilities won't trigger if you attack a player with one creature and a planeswalker with another, for example, or if you attack with two creatures but one is removed from combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/177/noble-hierarch) · oracle_id `98aa9424-5912-4bd6-9300-b3972a31d8af` · printing: 2XM #177 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Noble Ox
 
@@ -609,6 +614,7 @@
   > *"The Mardu breathe life into what was lost under the dragonlords. If the Abzan are upset, it should be at themselves."*
   > *—Tersa Lightshatter*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #381 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/263/nomad-outpost) · oracle_id `4619de7e-3d6e-4c6b-8e6e-e24db324839d` · printing: TDM #263 (2025-04-11) · [rulings](https://api.scryfall.com/cards/a68fbeaa-941f-4d53-becd-f93ed22b9a54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nomads' Assembly
@@ -1607,7 +1613,13 @@
   > *"Dead or alive, my creations are stronger than Jin-Gitaxias's septic minions."*
   > *—Vorinclex, Voice of Hunger*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #629 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nph/118/noxious-revival) · oracle_id `97cabeda-9fe3-490d-99b4-4c8d87c17157` · printing: NPH #118 (2011-05-13) · [rulings](https://api.scryfall.com/cards/1bdd1243-1d14-496a-9b7a-0c5b34461361/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2011-06-01* — A card with Phyrexian mana symbols in its mana cost is each color that appears in that mana cost, regardless of how that cost may have been paid.
+  - *2011-06-01* — As you cast a spell or activate an activated ability with one or more Phyrexian mana symbols in its cost, you choose how to pay for each Phyrexian mana symbol at the same time you would choose modes or choose a value for X.
+  - *2011-06-01* — If you're at 1 life or less, you can't pay 2 life.
+  - *2011-06-01* — Phyrexian mana is not a new color. Players can't produce Phyrexian mana.
+  - *2011-06-01* — To calculate the mana value of a card with Phyrexian mana symbols in its cost, count each Phyrexian mana symbol as 1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nph/118/noxious-revival) · oracle_id `97cabeda-9fe3-490d-99b4-4c8d87c17157` · printing: NPH #118 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Noxious Toad
 

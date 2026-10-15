@@ -108,6 +108,7 @@
   > Remove this card from your deck before playing if you're not playing for ante.
   > Each player may ante the top card of their library. If a player does, that player's life total becomes 20.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/4ed/267/rebirth) · oracle_id `d17576b2-4a47-4848-8908-3152c8b4afe2` · printing: 4ED #267 (1995-04-01) · [rulings](https://api.scryfall.com/cards/27c01d57-2bd4-433e-bea7-1acc70d14be3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reborn Hero

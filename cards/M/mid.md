@@ -138,7 +138,12 @@
   > At the beginning of each upkeep, put an hour counter on this artifact.
   > When the twelfth hour counter is put on this artifact, shuffle your hand and graveyard into your library, then draw seven cards. Exile this artifact.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #648 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/100/midnight-clock) · oracle_id `c68faebc-b2cd-461b-b93e-e1fcd4816810` · printing: OTC #100 (2024-04-19) · [rulings](https://api.scryfall.com/cards/0b3c33b7-5b15-4b61-bfd6-1ffa823eb28a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-10-04* — If Midnight Clock leaves the battlefield while its last ability is on the stack, it won't be exiled.
+  - *2019-10-04* — Midnight Clock's first triggered ability triggers at the beginning of each upkeep, not just your upkeep. In a Two-Headed Giant game, an ability that triggers at the beginning of each upkeep rather than each player's upkeep triggers only once during each team's upkeep.
+  - *2019-10-04* — Midnight Clock's last ability triggers after one or more counters are put onto it if it had fewer than twelve counters on it before those counters were put on it and it has twelve or more counters on it after.
+  - *2019-10-04* — You can activate Midnight Clock's mana ability to pay the cost of its second ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/100/midnight-clock) · oracle_id `c68faebc-b2cd-461b-b93e-e1fcd4816810` · printing: OTC #100 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Covenant
 

@@ -627,7 +627,16 @@
   > *"Gather your strength. Prepare yourself."*
   > *—Jeska, to Radha*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #107 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/156/jeskas-will) · oracle_id `0fd114c4-092b-4e28-b0dc-ef529f3bc73e` · printing: MKC #156 (2024-02-09) · [rulings](https://api.scryfall.com/cards/99e0c371-1024-4432-9fd9-3bc29c8d38e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2026-03-20* — Any of the exiled cards you don't play will remain exiled.
+  - *2026-03-20* — Even though the card is named after a specific character, controlling any commander will satisfy its condition.
+  - *2026-03-20* — Once you've announced that you're casting a spell, players can't take any actions until you've finished doing so. Notably, opponents can't try to remove your commander to change how many modes you may choose.
+  - *2026-03-20* — Once you've chosen both modes for the spell, it doesn't matter whether you continue to control a commander. This is true even if you somehow no longer control a commander as you finish casting the spell.
+  - *2026-03-20* — The commander you control doesn't have to be your commander.
+  - *2026-03-20* — There's no extra bonus if you control more than one commander.
+  - *2026-03-20* — Use the number of cards in the target opponent's hand as Jeska's Will resolves to determine how much {R} to add.
+  - *2026-03-20* — You pay all costs and follow all timing rules for cards played with the permission from the last mode of Jeska's Will. For example, if one of the exiled cards is a land card, you may play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/156/jeskas-will) · oracle_id `0fd114c4-092b-4e28-b0dc-ef529f3bc73e` · printing: MKC #156 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeska, Thrice Reborn
 
@@ -763,7 +772,13 @@
 - **Flavor text** (MH3 printing):
   > *It is the imposing heft of a ruler's scepter, the stench of death after a victory in battle, and the mournful wail of an enemy kneeling in supplication. It is power.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #274 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/292/jet-medallion) · oracle_id `bccb06f1-8839-4104-9ffa-c79a817f8378` · printing: MH3 #292 (2024-06-14) · [rulings](https://api.scryfall.com/cards/d423365c-a32c-4060-b178-3221e3200387/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-07-28* — If a spell you cast has {X} in its mana cost, you choose the value of X before calculating the spell's total cost.
+  - *2023-07-28* — If there are additional costs to cast a spell, or if the cost to cast a spell is increased by an effect (such as the one created by Thalia, Guardian of Thraben's ability), apply those increases before applying cost reductions.
+  - *2023-07-28* — The ability can't reduce the amount of colored mana you pay for a spell. It reduces only the generic mana component of that cost.
+  - *2023-07-28* — The ability doesn't change the mana cost or mana value of any spell. It changes only the total cost you pay.
+  - *2023-07-28* — The cost reduction can apply to alternative costs such as flashback costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/292/jet-medallion) · oracle_id `bccb06f1-8839-4104-9ffa-c79a817f8378` · printing: MH3 #292 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jetmir, Nexus of Revels
 
@@ -801,6 +816,7 @@
   > *The parklike Cabaretti grounds offer rest, food, and the perfect place to shake off a tail.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #367 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/250/jetmirs-garden) · oracle_id `f5896356-5744-4f7e-a4e5-1cc36dde5958` · printing: SNC #250 (2022-04-29) · [rulings](https://api.scryfall.com/cards/26d40e03-6de4-4373-9fbf-04c1dd79e995/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jetpack Death Seltzer
@@ -884,7 +900,9 @@
   > Remove this card from your deck before playing if you're not playing for ante.
   > {T}: Ante this artifact. If you do, put all other cards you own from the ante into your graveyard, then draw a card.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/chr/102/jeweled-bird) · oracle_id `89f5b21c-18da-4071-bc42-9cdc433734bf` · printing: CHR #102 (1995-07-01) · [rulings](https://api.scryfall.com/cards/d78e61e5-9313-4c83-af38-98849aea4e42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The card is exchanged for your entire contribution to the ante. This means that it replaces all the cards if you have more than one already contributed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chr/102/jeweled-bird) · oracle_id `89f5b21c-18da-4071-bc42-9cdc433734bf` · printing: CHR #102 (1995-07-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeweled Lotus
 
@@ -896,6 +914,7 @@
   > *"I've seen my share of baubles, minister. Whatever ostentatious bit of glitter you have there won't convince me to ... Oh my."*
   > *—Emperor Ayrelion*
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/396/jeweled-lotus) · oracle_id `23216e59-f147-4bb7-a698-12777c2f8584` · printing: CMM #396 (2023-08-04) · [rulings](https://api.scryfall.com/cards/d7183700-6941-4a3d-a581-4f33bea795e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeweled Spirit

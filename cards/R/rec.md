@@ -304,7 +304,9 @@
 - **Flavor text** (KLD printing):
   > *Architects find inspiration in the dragon's beauty of form, while artificers are influenced by the function of its fire.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #668 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/126/reckless-fireweaver) · oracle_id `180e1a7e-890d-477c-80a5-da8a5f2857b3` · printing: KLD #126 (2016-09-30) · [rulings](https://api.scryfall.com/cards/63ffac51-62c4-4170-85b3-a43d7cfae7d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-09-20* — In a Two-Headed Giant game, Reckless Fireweaver's ability causes 2 damage total to be dealt to the opposing team.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/126/reckless-fireweaver) · oracle_id `180e1a7e-890d-477c-80a5-da8a5f2857b3` · printing: KLD #126 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reckless Handling
 
@@ -631,6 +633,7 @@
 - **Flavor text** (FDN printing):
   > *"What was once formed by masons, shaped by smiths, or given life by mages, I will return to the embrace of the earth."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #332 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/231/reclamation-sage) · oracle_id `032ec6e2-6cc3-4a97-9cc7-3233f5e11904` · printing: FDN #231 (2024-11-15) · [rulings](https://api.scryfall.com/cards/1918ea65-ab7f-4d40-97fd-a656c892a2a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reclusive Artificer
@@ -922,7 +925,9 @@
   > *"I am confined by sleep and defined by nightmare."*
   > *—Crovax*
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/113/recurring-nightmare) · oracle_id `a6708b11-1bcd-4208-a967-fe91f2e3313c` · printing: TPR #113 (2015-05-06) · [rulings](https://api.scryfall.com/cards/b50e1800-a45c-43bd-8886-8a06145d9346/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — If you cast this as normal during your main phase, it will enter the battlefield and you’ll receive priority. If no abilities trigger because of this, you can activate its ability immediately, before any other player has a chance to remove it from the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/113/recurring-nightmare) · oracle_id `a6708b11-1bcd-4208-a967-fe91f2e3313c` · printing: TPR #113 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Recursive Recruitment
 

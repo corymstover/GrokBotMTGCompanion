@@ -151,7 +151,11 @@
   > *"Superior force meets woefully inadequate object. What paradox were you expecting?"*
   > *—Azguri, archmage of Evos Isle*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4596 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/108/stifle) · oracle_id `b3b00911-ece7-4484-bc36-f211ce72b6cc` · printing: CNS #108 (2014-06-06) · [rulings](https://api.scryfall.com/cards/616d1b20-61c1-4d39-a9b5-ad9fd61699e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — An activated ability has a "Cost: Effect" format. Look for the colon. A triggered ability starts with "when", "whenever", or "at".
+  - *2004-10-04* — It can target delayed triggered abilities. For example, a card that says "Whenever a player cycles a card, you may exile target creature. If you do, return that creature to the battlefield at the beginning of the end step." triggers when a player cycles a card and creates a delayed trigger that happens at the beginning of the end step. You can choose to target the "at the beginning of the end step" trigger when it is placed on the stack at end of turn.
+  - *2004-10-04* — Turn-based actions and special actions like the normal card draw, combat damage, or turning a face-down creature face up can't be targeted.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/108/stifle) · oracle_id `b3b00911-ece7-4484-bc36-f211ce72b6cc` · printing: CNS #108 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stigma Lasher
 
@@ -778,6 +782,7 @@
   > *No part goes to waste.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #618 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/196/stitchers-supplier) · oracle_id `7fd61a18-6e4f-40c5-aa00-3d101ec1ec82` · printing: TDC #196 (2025-04-11) · [rulings](https://api.scryfall.com/cards/2edcde06-b326-476e-884d-770187c785fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stitch in Time

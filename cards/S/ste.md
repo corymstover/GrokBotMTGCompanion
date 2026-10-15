@@ -521,7 +521,11 @@
 - **Flavor text** (TRK printing):
   > *As one of the Galaxy's few ectothermic sapient species, Cardassians prefer high temperatures. Many use sweltering saunas to "charge" themselves before interacting with other species.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #62 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/trk/298/steam-vents) · oracle_id `17039058-822d-409f-938c-b727a366ba63` · printing: TRK #298 (2026-11-13) · [rulings](https://api.scryfall.com/cards/a83903c7-fd51-4526-aed2-359e946fea36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-10-05* — Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
+  - *2025-11-17* — If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
+  - *2025-11-17* — This land has two basic land types. It's not basic, so cards such as Tend the Sprigs can't find it, but it does have the appropriate land types for effects such as that of Kishla Village (from the Tarkir: Dragonstorm release).
+- **Source flags:** [Scryfall](https://scryfall.com/card/trk/298/steam-vents) · oracle_id `17039058-822d-409f-938c-b727a366ba63` · printing: TRK #298 (2026-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Steam Vines
 
@@ -756,7 +760,9 @@
   > *"The world is already run by all manner of machines. One day, they'll remind us of that fact."*
   > *—Sargis Haz, artificer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #793 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/144/steel-overseer) · oracle_id `986ae327-f433-4c58-93dc-afc544b9bfcb` · printing: EOC #144 (2025-08-01) · [rulings](https://api.scryfall.com/cards/7601fbf2-916f-44b2-837a-201fd8304613/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-07-12* — Steel Overseer's ability puts a +1/+1 counter on each artifact creature you control, including Steel Overseer.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/144/steel-overseer) · oracle_id `986ae327-f433-4c58-93dc-afc544b9bfcb` · printing: EOC #144 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Steel-Plume Marshal
 
@@ -820,6 +826,7 @@
 - **Flavor text** (CMM printing):
   > *Some blades seek their own wielders.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1023 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/59/steelshapers-gift) · oracle_id `d9abda7e-6ca2-42ea-ab24-c542e57014f1` · printing: CMM #59 (2023-08-04) · [rulings](https://api.scryfall.com/cards/55d61383-b739-4422-a76c-d8cbca13c5b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Steel Squirrel
@@ -1276,6 +1283,7 @@
 - **Flavor text** (HOC printing):
   > *"Fool of a Took! This is a serious journey, not a Hobbit walking-party. Throw yourself in next time, and then you will be no further nuisance. Now be quiet!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11153 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/183/stern-scolding) · oracle_id `3bc8a406-3ae7-4f56-a33c-b4a2c115b917` · printing: HOC #183 (2026-08-14) · [rulings](https://api.scryfall.com/cards/b2dee261-e02f-47ab-8468-3ef055004c8c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stet, Draconic Proofreader

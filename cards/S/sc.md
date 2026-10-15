@@ -418,6 +418,7 @@
 - **Oracle text:**
   > {T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Mountain card, put it onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #49 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/254/scalding-tarn) · oracle_id `cb027150-848c-4a66-88ad-e20222304dd8` · printing: MH2 #254 (2021-06-18) · [rulings](https://api.scryfall.com/cards/71e491c5-8c07-449b-b2f1-ffa052e6d311/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scalding Tongs
@@ -1259,7 +1260,11 @@
 - **Flavor text** (MSC printing):
   > *The remnants of titanic clashes, immortalized by the desert sands.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #294 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/263/scavenger-grounds) · oracle_id `5ece7d03-9ee7-4953-a06e-9d8e41874903` · printing: MSC #263 (2026-06-26) · [rulings](https://api.scryfall.com/cards/9fbe68ba-ffe5-4fe0-ac0a-0b3221e4f395/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-04-18* — Desert is a land subtype with no special meaning. It doesn't grant the land an intrinsic mana ability. Other cards may care about which lands are Deserts.
+  - *2017-07-14* — If a Desert has an ability with a cost of "Sacrifice a Desert," you can sacrifice that Desert to pay the cost for its own ability.
+  - *2017-07-14* — The sacrificed Desert will be in your graveyard to be exiled by the last ability of Scavenger Grounds.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/263/scavenger-grounds) · oracle_id `5ece7d03-9ee7-4953-a06e-9d8e41874903` · printing: MSC #263 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scavenger Hunt (UNF #226a)
 
@@ -2314,6 +2319,7 @@
 - **Flavor text** (TDM printing):
   > *By the codes of Mardu and Abzan alike, both sides allowed their enemies time to grieve after a battle.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #753 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/267/scoured-barrens) · oracle_id `d37f858e-03c8-4594-9b92-cd03699a1591` · printing: TDM #267 (2025-04-11) · [rulings](https://api.scryfall.com/cards/b4b47b80-69ed-44b0-afa0-ca90206dc16d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scour for Scrap
@@ -2982,6 +2988,7 @@
 - **Flavor text** (FDN printing):
   > *It spreads the machine gospel of New Phyrexia, its task incomplete until all surrender to perfection.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #587 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/132/scrawling-crawler) · oracle_id `1d60c80d-9a95-4051-bbf7-02ca51ee1be2` · printing: FDN #132 (2024-11-15) · [rulings](https://api.scryfall.com/cards/a1176dcf-40ee-4342-aa74-791b8352e99a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Screamer-Killer
@@ -3504,7 +3511,10 @@
 - **Oracle text:**
   > ({T}: Add {W} or {B}.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #383 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/313/scrubland) · oracle_id `c8d95ca8-7d12-4072-aeaf-e20f248c7e39` · printing: VMA #313 (2014-06-16) · [rulings](https://api.scryfall.com/cards/9d471e36-a3ab-4a96-ba4b-8eca921ea37a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-10-01* — This has basic land types, but it isn't a basic land. Things that affect basic lands don't affect it. Things that affect basic land types do.
+  - *2008-10-01* — This has the mana abilities associated with both of its basic land types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/313/scrubland) · oracle_id `c8d95ca8-7d12-4072-aeaf-e20f248c7e39` · printing: VMA #313 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scryb Ranger
 
@@ -3582,7 +3592,13 @@
 - **Flavor text** (MOC printing):
   > *An artificer once dropped one in a vault full of coins. She has yet to find it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #667 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/374/sculpting-steel) · oracle_id `6c85271c-c711-49b0-a72e-9e576c33714d` · printing: MOC #374 (2023-04-21) · [rulings](https://api.scryfall.com/cards/d1958f01-77e9-4976-b7f8-f9b62aa78edc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2004-12-01* — Any "enters" abilities of the copied artifact will trigger when Sculpting Steel enters. Any "as enters" or "enters with" abilities of the chosen artifact will also work. For example, if Sculpting Steel copies an artifact creature with sunburst, the copy will get +1/+1 counters based on the number of different colors of mana used to pay Sculpting Steel's total cost. If Sculpting Steel copies a noncreature artifact with sunburst, the copy will get charge counters based on the number of different colors of mana used to pay Sculpting Steel's total cost.
+  - *2007-07-15* — If the chosen artifact is a token, your Sculpting Steel copies the original characteristics of that token as stated by the effect that put it onto the battlefield. Your Sculpting Steel is not considered to be a token.
+  - *2007-07-15* — If the chosen artifact is copying something else (for example, if the chosen artifact is another Sculpting Steel), then your Sculpting Steel enters as whatever the chosen artifact copied.
+  - *2007-07-15* — Sculpting Steel doesn't copy whether the original artifact is tapped or untapped. It also doesn't copy any counters on that artifact, any Auras or Equipment attached to that artifact, or any effects that are currently affecting that artifact — you get exactly what's printed on the chosen card and nothing more. So if you copy an animated Chimeric Staff, for example, you get a normal, nonanimated Chimeric Staff.
+  - *2007-07-15* — You can choose not to copy anything. In that case, Sculpting Steel stays on the battlefield as an artifact that doesn't do much of anything.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/374/sculpting-steel) · oracle_id `6c85271c-c711-49b0-a72e-9e576c33714d` · printing: MOC #374 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sculptor of Winter
 
@@ -3685,7 +3701,14 @@
   > *—Zurdi, goblin shortcutter*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #240 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/197/scute-swarm) · oracle_id `aa854d50-444c-49d9-bfb1-5476b33c1c0b` · printing: DSC #197 (2024-09-27) · [rulings](https://api.scryfall.com/cards/ea630ba1-22f9-4a10-bdc6-0d03128214f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-09-25* — If Scute Swarm leaves the battlefield before its triggered ability resolves, the token will still enter the battlefield as a copy of Scute Swarm, using Scute Swarm's copiable values from when it was last on the battlefield.
+  - *2020-09-25* — The token copy will have Scute Swarm's ability. It will also be able to create copies of itself.
+  - *2020-09-25* — The token copy won't copy counters or damage marked on Scute Swarm, nor will it copy other effects that have changed Scute Swarm's power, toughness, types, color, and so on. Normally, this means the token will simply be a Scute Swarm, but if any copy effects have affected the original Scute Swarm, the token will take those into account.
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/197/scute-swarm) · oracle_id `aa854d50-444c-49d9-bfb1-5476b33c1c0b` · printing: DSC #197 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scuttlegator
 

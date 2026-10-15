@@ -629,6 +629,7 @@
 - **Flavor text** (ULG printing):
   > *Part prison, part home.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #676 · Game Changer: **yes** · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ulg/126/grim-monolith) · oracle_id `229d6627-1292-4ae1-8849-b0f956fa6540` · printing: ULG #126 (1999-02-15) · [rulings](https://api.scryfall.com/cards/9ddc9fe1-17c8-4e1d-aeb8-c4214e881280/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grimoire of the Dead
@@ -794,7 +795,9 @@
 - **Flavor text** (M21 printing):
   > *As blood touched the empty page, it formed words that seared themselves into the wizard's mind.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #710 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/103/grim-tutor) · oracle_id `e62f8d69-a559-4f13-a5c9-5fb750b4af2c` · printing: M21 #103 (2020-07-03) · [rulings](https://api.scryfall.com/cards/928558ab-e29a-44cb-ac2f-88443571f41a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-06-23* — You don't reveal the card you search for.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/103/grim-tutor) · oracle_id `e62f8d69-a559-4f13-a5c9-5fb750b4af2c` · printing: M21 #103 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grim Wanderer
 
@@ -980,7 +983,9 @@
   > *—Thalia, Knight-Cathar*
 - **Keywords:** Flying, Lifelink
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/115/griselbrand) · oracle_id `f759d112-76db-4091-a22b-b9f19ab6fa5f` · printing: INR #115 (2025-01-24) · [rulings](https://api.scryfall.com/cards/4069e510-f3f3-4668-9f13-3546fa9bc7c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-05-01* — You can’t activate Griselbrand’s ability if you have 6 or less life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/115/griselbrand) · oracle_id `f759d112-76db-4091-a22b-b9f19ab6fa5f` · printing: INR #115 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grishnákh, Brash Instigator
 

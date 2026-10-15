@@ -400,6 +400,7 @@
   > *"The Tree was the heart of our world. It made me what I am and pulled me back from the brink of death. I won't allow it to be forgotten."*
   > *—Esika, god of the Tree*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #613 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/211/tribute-to-the-world-tree) · oracle_id `72deedab-7c17-4505-aeca-4bc8596d80a5` · printing: MOM #211 (2023-04-21) · [rulings](https://api.scryfall.com/cards/c0cdeaba-fc21-44e6-bf99-aa1ff379401b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tribute to Urborg

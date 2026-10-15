@@ -522,7 +522,11 @@
   > *"Come! Join me in the sun!"*
 - **Keywords:** Mill, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #611 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/192/icetill-explorer) · oracle_id `109cdefd-e8cc-4ac7-b6ba-2cfdef8d780f` · printing: EOE #192 (2025-08-01) · [rulings](https://api.scryfall.com/cards/d9482aab-6ddf-48e1-84fa-b13d5ff81e69/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-07-25* — Icetill Explorer’s second ability doesn’t allow you to activate abilities (such as cycling) of land cards in your graveyard.
+  - *2025-07-25* — Icetill Explorer’s second ability doesn’t change the times when you can play those land cards. You can still play lands only during your main phase when you have priority and the stack is empty.
+  - *2025-07-25* — The effect of Icetill Explorer’s first ability is cumulative with similar effects. For example, if you control both Icetill Explorer and Exploration (an enchantment with “You may play an additional land on each of your turns”), you’ll be able to play three lands during each of your turns.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/192/icetill-explorer) · oracle_id `109cdefd-e8cc-4ac7-b6ba-2cfdef8d780f` · printing: EOE #192 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ice Tunnel
 

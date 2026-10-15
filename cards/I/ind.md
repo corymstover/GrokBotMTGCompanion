@@ -65,6 +65,7 @@
   > *—\*Tales of the Ozolith\**
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #480 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/248/indatha-triome) · oracle_id `ec2b3779-55f7-4169-aa66-6312fb52721f` · printing: IKO #248 (2020-04-24) · [rulings](https://api.scryfall.com/cards/2b74bb81-fb9a-40e5-a941-e517430b52f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indebted Samurai

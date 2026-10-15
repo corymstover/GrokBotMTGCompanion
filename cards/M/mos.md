@@ -81,7 +81,13 @@
   > Landfall — Whenever a land you control enters, double the number of +1/+1 counters on this creature.
 - **Keywords:** Trample, Double, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #752 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/107/mossborn-hydra) · oracle_id `84122d81-9634-4d3f-85a5-f6cf4303691a` · printing: FDN #107 (2024-11-15) · [rulings](https://api.scryfall.com/cards/7054a0d7-396f-40b4-ab24-db591c3b08f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — If Mossborn Hydra somehow enters at the same time as one or more other lands you control, its last ability triggers for each of those lands.
+  - *2024-11-08* — To double the number of +1/+1 counters on Mossborn Hydra, put a number of +1/+1 counters on it equal to the number it already has. Other cards that interact with putting counters on it will interact with this effect accordingly.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/107/mossborn-hydra) · oracle_id `84122d81-9634-4d3f-85a5-f6cf4303691a` · printing: FDN #107 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mossbridge Troll
 
@@ -154,6 +160,7 @@
 - **Flavor text** (TDC printing):
   > *Lush growth spreads like a ferocious blaze across the Otarian hillsides.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #552 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/378/mossfire-valley) · oracle_id `23bbd091-f6ff-4514-97aa-42c08164b4eb` · printing: TDC #378 (2025-04-11) · [rulings](https://api.scryfall.com/cards/29208018-8079-44bc-b33b-21cda4709bf2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moss Kami
@@ -243,7 +250,12 @@
   > {G}, {T}: You may play the exiled card without paying its mana cost if creatures you control have total power 10 or greater.
 - **Keywords:** Hideaway
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #197 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/379/mosswort-bridge) · oracle_id `7cb9e29f-835f-4155-a2a5-4b778866c773` · printing: TDC #379 (2025-04-11) · [rulings](https://api.scryfall.com/cards/1490c0dc-06d6-45ee-af3c-2935b0ab1233/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-04-29* — "Hideaway N" means "When this permanent enters the battlefield, look at the top N cards of your library. Exile one of them face down and put the rest on the bottom of your library in a random order. The exiled card gains 'The player who controls the permanent that exiled this card may look at this card in the exile zone.'"
+  - *2022-04-29* — Any player who has controlled a permanent with a hideaway ability since a card was exiled with it may look at that card.
+  - *2022-04-29* — Hideaway now causes you to put the rest of the cards on the bottom of your library in a random order instead of any order.
+  - *2022-04-29* — Previously, permanents with hideaway entered the battlefield tapped. This ability has been removed from the definition of hideaway. Older cards have received errata to have an additional paragraph that reads "[This permanent] enters the battlefield tapped," and they now have hideaway 4.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/379/mosswort-bridge) · oracle_id `7cb9e29f-835f-4155-a2a5-4b778866c773` · printing: TDC #379 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Most Decrepit Old Bird // Speak Secrets
 

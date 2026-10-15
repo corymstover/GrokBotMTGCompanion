@@ -250,7 +250,16 @@
   > *As long as the scientists were present, the specimen floated patiently or swam quietly about, biding its time, watching.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #607 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/240/hydroelectric-specimen-hydroelectric-laboratory) · oracle_id `573151f0-00d4-4a8a-8a09-745c5f376532` · printing: MH3 #240 (2024-06-14) · [rulings](https://api.scryfall.com/cards/8689ecd7-e9a6-458b-99d2-6dbaca527f00/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-06-07* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2024-06-07* — If a spell has multiple targets, you can't target it with Hydroelectric Specimen's ability, even if only one of those targets is a creature or all but one of those targets have become illegal.
+  - *2024-06-07* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect. For example, if an effect allows you to play lands from your graveyard, you can play Garden of Freyalise, but you can't cast Disciple of Freyalise.
+  - *2024-06-07* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2024-06-07* — If an effect allows you to put a card with particular characteristics onto the battlefield without instructing you to play or cast it, you consider only the characteristics of a modal double-faced card's front face to see if that card qualifies. If it does, it enters the battlefield with its front face up. For example, if an effect allows you to put a creature card from your graveyard onto the battlefield, you can put Disciple of Freyalise onto the battlefield. However, an effect that lets you return a land card from your graveyard to your hand won't let you return Garden of Freyalise to your hand, as that card has only its front face's characteristics while in the graveyard.
+  - *2024-06-07* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2024-06-07* — The spell's target is changed to Hydroelectric Specimen only if Hydroelectric Specimen is a legal target for that spell.
+  - *2024-06-07* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics. For example, if an effect stops you from casting creature spells, you can't cast Disciple of Freyalise, but you can still play Garden of Freyalise.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/240/hydroelectric-specimen-hydroelectric-laboratory) · oracle_id `573151f0-00d4-4a8a-8a09-745c5f376532` · printing: MH3 #240 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hydroform
 
@@ -443,7 +452,22 @@
 - **Flavor text** (CN2 printing):
   > *Many attempt to speak with nature. Selvala speaks less, and nature answers more.*
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/7/hymn-of-the-wilds) · oracle_id `dfa62414-48c6-4e5c-8609-1ce507b41505` · printing: CN2 #7 (2016-08-26) · [rulings](https://api.scryfall.com/cards/e7902666-21f2-4590-9dca-e95858dbde70/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2016-08-23* — A conspiracy doesn't count as a card in your deck for purposes of meeting minimum deck size requirements. (In most drafts, the minimum deck size is 40 cards.)
+  - *2016-08-23* — A conspiracy's static and triggered abilities function as long as that conspiracy is face-up in the command zone.
+  - *2016-08-23* — Conspiracies are colorless, have no mana cost, and can't be cast as spells.
+  - *2016-08-23* — Conspiracies are never put into your deck. Instead, you put any number of conspiracies from your card pool into the command zone as the game begins. These conspiracies are face up unless they have hidden agenda, in which case they begin the game face down.
+  - *2016-08-23* — Conspiracies aren't legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft.
+  - *2016-08-23* — If the first creature spell you cast in a turn has {X} in its mana cost, you choose the value of X before calculating the spell's total cost. For example, if the first creature spell you cast in a turn has a mana cost of {X}{G}, you could choose 1 as the value of X and pay {G} to cast the spell.
+  - *2016-08-23* — If there are additional costs to cast a spell, or if the cost to cast a spell is increased by an effect, apply those increases before applying cost reductions.
+  - *2016-08-23* — If you have more than one Hymn of the Wilds in the command zone, their abilities will each apply to the first creature spell you cast each turn. For example, if you have two, the first creature spell you cast each turn costs {2} less to cast. Subsequent creature spells won't get a discount.
+  - *2016-08-23* — The ability can't affect the amount of colored mana you pay for a spell. It reduces only the generic component of that mana cost.
+  - *2016-08-23* — The cost reduction can apply to an alternative cost, such as a madness cost.
+  - *2016-08-23* — The first ability doesn't change the mana cost or mana value of any creature spell. It changes only the total cost you actually pay.
+  - *2016-08-23* — The first creature spell you cast each turn doesn't necessarily have to be the first spell you cast. For example, you could cast an artifact spell and then cast a creature spell that would get the discount.
+  - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
+  - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/7/hymn-of-the-wilds) · oracle_id `dfa62414-48c6-4e5c-8609-1ce507b41505` · printing: CN2 #7 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hymn to Tourach
 

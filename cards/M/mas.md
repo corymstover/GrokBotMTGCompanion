@@ -334,7 +334,14 @@
   > Creatures you control are every creature type. The same is true for creature spells you control and creature cards you own that aren't on the battlefield.
   > {3}, {T}: Create a 2/2 blue Shapeshifter creature token with changeling. (It is every creature type.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #492 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/865/maskwood-nexus) · oracle_id `9b2cdbed-c733-409b-b0e4-2c8960c25111` · printing: CLB #865 (2022-06-10) · [rulings](https://api.scryfall.com/cards/1246c42d-57c0-4cba-959a-15ad89d8a50b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-02-05* — Changeling is a characteristic-defining ability. It functions in all zones, not only while a card that has it is on the battlefield.
+  - *2021-02-05* — If an effect causes a creature with changeling to become a new creature type, it will be only that new creature type. It will still have changeling; the effect making it all creature types will simply be overwritten.
+  - *2021-02-05* — If an effect causes a creature with changeling to lose all abilities, it will remain all creature types, even though it will no longer have changeling. This is because changeling applies before the effect that removes it.
+  - *2021-02-05* — Replacement effects that modify how creatures of a certain creature type enter the battlefield will apply after you apply the effect of Maskwood Nexus. For example, if you control Maskwood Nexus and an effect says that each Warrior you control enters the battlefield with an additional +1/+1 counter on it, any creature that enters the battlefield under your control will get that counter.
+  - *2021-02-05* — The subtype Shapeshifter that appears on the type line is mostly there to reinforce the flavor. A creature card with changeling is just as much an Elf, a Dwarf, a Sliver, a Goat, a Coward, and a Zombie as it is a Shapeshifter.
+  - *2021-02-05* — The tokens created by the activated ability will continue to have all creature types if Maskwood Nexus leaves the battlefield because those tokens have changeling. Other creatures you control will revert to their usual creature types unless another relevant effect is affecting them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/865/maskwood-nexus) · oracle_id `9b2cdbed-c733-409b-b0e4-2c8960c25111` · printing: CLB #865 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Massacre
 
@@ -406,7 +413,12 @@
   > When this creature enters, creatures your opponents control get -2/-2 until end of turn.
   > Whenever a creature an opponent controls dies, that player loses 2 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #515 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/754/massacre-wurm) · oracle_id `93cf50cf-0ecc-4d3e-abea-778c1ebacec4` · printing: FDN #754 (2026-04-24) · [rulings](https://api.scryfall.com/cards/670a36cc-34e1-4d11-808e-1b6bc88eb5d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-06-23* — If a creature an opponent controls dies at the same time as Massacre Wurm, Massacre Wurm's last ability triggers for that creature.
+  - *2020-06-23* — If your life total is brought to 0 or less at the same time that a creature an opponent controls is dealt lethal damage, you lose the game before Massacre Wurm's last ability goes on the stack.
+  - *2020-06-23* — Massacre Wurm's first ability affects only creatures your opponents control at the time it resolves. Creatures they begin to control later in the turn won't get -2/-2.
+  - *2020-06-23* — Massacre Wurm's triggered ability triggers if a creature an opponent controls dies for any reason, including from its first ability reducing its toughness to 0, as long as Massacre Wurm remains on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/754/massacre-wurm) · oracle_id `93cf50cf-0ecc-4d3e-abea-778c1ebacec4` · printing: FDN #754 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mass Appeal
 

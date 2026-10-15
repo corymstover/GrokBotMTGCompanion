@@ -270,7 +270,13 @@
   > Counter target spell. Choose 1, 2, or 3 at random. Its controller mills that many cards, then exiles cards from the top of their library until they exile a nonland card with a different name than that spell. They may cast that card without paying its mana cost. Then they put the exiled cards on the bottom of their library in a random order.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #600 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/153/tibalts-trickery) · oracle_id `6623cb85-fb1e-4561-8b21-0977c25096c2` · printing: KHM #153 (2021-02-05) · [rulings](https://api.scryfall.com/cards/dd921e27-3e08-438c-bec2-723226d35175/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-02-05* — If a player casts a spell "without paying its mana cost," they can't choose to cast it for any alternative costs. They can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+  - *2021-02-05* — If the spell has {X} in its mana cost, they must choose 0 as the value of X.
+  - *2021-02-05* — If the spell that's countered was the back face of a modal double-faced card, no card in the player's library will have the same name as that spell because those cards all use only their front-face characteristics while in the library; however, if the first card the player exiles that has a different name than the spell is a modal double-faced card, they may cast either face, even if the back face has the same name as the countered spell.
+  - *2021-02-05* — If there aren't any nonland cards in that library with a different name than the countered spell, the player will exile all cards from their library, revealing all of them, and then they'll put those cards on the bottom of their library in a random order.
+  - *2021-02-05* — Tibalt's Trickery can target a spell that can't be countered. If Tibalt's Trickery resolves, the target spell won't be countered, but all of the other effects will still happen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/153/tibalts-trickery) · oracle_id `6623cb85-fb1e-4561-8b21-0977c25096c2` · printing: KHM #153 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tibalt the Chaotic
 
@@ -1580,7 +1586,11 @@
   > If you would begin your turn while this artifact is tapped, you may skip that turn instead. If you do, untap this artifact.
   > {T}: Take an extra turn after this one.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/287/time-vault) · oracle_id `99d4d99d-cf56-45aa-aa39-a250695612f2` · printing: VMA #287 (2014-06-16) · [rulings](https://api.scryfall.com/cards/c367ffc1-8084-45a1-87d5-22183604d1cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-10-01* — The choice of whether or not to skip a turn is made as that turn would begin, and only if Time Vault is tapped at that time. If you choose to skip your turn, Time Vault untaps before anything else happens in the next turn.
+  - *2008-10-01* — This wording means that you no longer end up skipping multiple turns if you find a way to activate the ability multiple times.
+  - *2022-12-08* — If multiple "extra turn" effects resolve in the same turn, take them in the reverse of the order that the effects resolved. In other words, the most recently created extra turn is taken first.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/287/time-vault) · oracle_id `99d4d99d-cf56-45aa-aa39-a250695612f2` · printing: VMA #287 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Time Walk
 
@@ -1589,7 +1599,9 @@
 - **Oracle text:**
   > Take an extra turn after this one.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/2/time-walk) · oracle_id `d0209d3f-3f7e-4fd5-bce5-10bce6f29c86` · printing: VMA #2 (2014-06-16) · [rulings](https://api.scryfall.com/cards/70901356-3266-4bd9-aacc-f06c27271de5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — If multiple "extra turn" effects resolve in the same turn, take them in the reverse of the order that the effects resolved. In other words, the most recently created extra turn is taken first.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/2/time-walk) · oracle_id `d0209d3f-3f7e-4fd5-bce5-10bce6f29c86` · printing: VMA #2 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Time Warp
 
@@ -1663,7 +1675,9 @@
   > Remove this card from your deck before playing if you're not playing for ante.
   > {B}{B}{B}, Sacrifice this creature: The owner of target artifact may ante the top card of their library. If that player doesn't, exchange ownership of that artifact and Timmerian Fiends. Put the artifact card into your graveyard and Timmerian Fiends from anywhere into that player's graveyard. This change in ownership is permanent.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/hml/58/timmerian-fiends) · oracle_id `2d2fab27-8793-4212-a512-c4f0c8c55eeb` · printing: HML #58 (1995-10-01) · [rulings](https://api.scryfall.com/cards/90643766-c92f-4a25-bd02-227f3c91f391/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Both this card and the target must be on the battlefield when announcing the ability. The target must be on the battlefield when the ability resolves or nothing happens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hml/58/timmerian-fiends) · oracle_id `2d2fab27-8793-4212-a512-c4f0c8c55eeb` · printing: HML #58 (1995-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Timmy, Power Gamer
 
@@ -1750,7 +1764,9 @@
   > *"I wonder how it feels to be bored."*
   > *—Jhoira, artificer*
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/45/tinker) · oracle_id `254878f0-be90-4653-a395-0c41258fceaf` · printing: ULG #45 (1999-02-15) · [rulings](https://api.scryfall.com/cards/7da23b15-dfb8-4267-9b33-d7a4c035c434/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/45/tinker) · oracle_id `254878f0-be90-4653-a395-0c41258fceaf` · printing: ULG #45 (1999-02-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tinker's Tote
 
@@ -1959,7 +1975,11 @@
   > Landfall — Whenever a land you control enters, create a Food token or a Treasure token. (Food is an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life." Treasure is an artifact with "{T}, Sacrifice this token: Add one mana of any color.")
 - **Keywords:** Treasure, Food, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #187 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/313/tireless-provisioner) · oracle_id `ab8d5f5c-1976-4f77-8ed2-8d28ee666741` · printing: MOC #313 (2023-04-21) · [rulings](https://api.scryfall.com/cards/a1e048e0-19d2-4076-892d-f8b3104dee37/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/313/tireless-provisioner) · oracle_id `ab8d5f5c-1976-4f77-8ed2-8d28ee666741` · printing: MOC #313 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tireless Tracker
 
@@ -1971,7 +1991,16 @@
   > Whenever you sacrifice a Clue, put a +1/+1 counter on this creature.
 - **Keywords:** Investigate, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #666 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/110/tireless-tracker) · oracle_id `e6555cca-e608-4c87-b835-9cd47fd1f543` · printing: EOC #110 (2025-08-01) · [rulings](https://api.scryfall.com/cards/66444549-ad9b-49c6-a7c6-34e977c1085d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-02-02* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2024-02-02* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
+  - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
+  - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+  - *2025-07-25* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2025-07-25* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2025-07-25* — Whenever a land you control enters, each landfall ability of permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve. As a result, you can have those abilities resolve in the order of your choosing.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/110/tireless-tracker) · oracle_id `e6555cca-e608-4c87-b835-9cd47fd1f543` · printing: EOC #110 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tireless Tribe
 

@@ -430,7 +430,10 @@
   > *"As Terisiare's mines ran dry, scrap metal became increasingly plentiful."*
   > *—\*The Antiquities War\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #118 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/65/battlefield-forge) · oracle_id `6b75b94e-83b7-457e-ac41-7ca90b5a59aa` · printing: FRC #65 (2026-10-02) · [rulings](https://api.scryfall.com/cards/ef7d3676-b1db-4329-9201-18f8a6c54ea6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-06-22* — Like most lands, each land in this cycle is colorless. The damage dealt to you is dealt by a colorless source.
+  - *2015-06-22* — The damage dealt to you is part of the second mana ability. It doesn't use the stack and can't be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/65/battlefield-forge) · oracle_id `6b75b94e-83b7-457e-ac41-7ca90b5a59aa` · printing: FRC #65 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battlefield Improvisation
 

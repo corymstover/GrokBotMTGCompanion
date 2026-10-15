@@ -580,7 +580,10 @@
   > *Come cavalier, come taut bowstring!"*
 - **Keywords:** Mobilize
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #499 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/33/voice-of-victory) · oracle_id `b12cbda1-ac09-49eb-96b3-a4df27bc37ea` · printing: TDM #33 (2025-04-11) · [rulings](https://api.scryfall.com/cards/ec3de5f4-bb55-4ab9-995f-f3e0dc22c1bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-04-04* — Although the Warrior tokens enter as attacking creatures, they were never declared as attacking creatures. Abilities that trigger whenever a creature attacks won’t trigger when the tokens enter attacking.
+  - *2025-04-04* — You choose the player, planeswalker, or battle each Warrior token is attacking. They don’t all have to attack the same one, and they don’t have to attack the same player, planeswalker, or battle as the creature with mobilize.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/33/voice-of-victory) · oracle_id `b12cbda1-ac09-49eb-96b3-a4df27bc37ea` · printing: TDM #33 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Voices from the Void
 
@@ -766,7 +769,10 @@
 - **Flavor text** (SNC printing):
   > *Bits of the missing agent were discovered in various alleys across all three boroughs.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #757 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/230/void-rend) · oracle_id `713f16db-95ec-479e-a48c-7a69f7668d7f` · printing: SNC #230 (2022-04-29) · [rulings](https://api.scryfall.com/cards/2daab74d-d66b-4164-aa19-24e8d5536f7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-04-12* — A spell or ability that counters spells can still target Void Rend. When that spell or ability resolves, Void Rend won't be countered, but any additional effects of the countering spell or ability will still happen.
+  - *2024-04-12* — If you target a creature with ward, you may still pay the ward cost, but Void Rend won't be countered even if you don't.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/230/void-rend) · oracle_id `713f16db-95ec-479e-a48c-7a69f7668d7f` · printing: SNC #230 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Void Shatter
 
@@ -1084,7 +1090,10 @@
 - **Oracle text:**
   > ({T}: Add {U} or {R}.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #336 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/324/volcanic-island) · oracle_id `c718911c-c955-4eb9-9e16-be4bd49a4e4e` · printing: VMA #324 (2014-06-16) · [rulings](https://api.scryfall.com/cards/2f607e7e-30c0-45e9-8f61-bf6e9fe63f2b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-10-01* — This has basic land types, but it isn't a basic land. Things that affect basic lands don't affect it. Things that affect basic land types do.
+  - *2008-10-01* — This has the mana abilities associated with both of its basic land types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/324/volcanic-island) · oracle_id `c718911c-c955-4eb9-9e16-be4bd49a4e4e` · printing: VMA #324 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Volcanic Offering
 
@@ -1512,6 +1521,7 @@
 - **Flavor text** (TPR printing):
   > *The seed of a world's evil.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2816 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/248/volraths-stronghold) · oracle_id `73b8cf90-3c71-4f8b-a29f-61894b7f27c9` · printing: TPR #248 (2015-05-06) · [rulings](https://api.scryfall.com/cards/f465ae5f-61f0-42c4-978f-841ba1226f56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Volrath the Fallen

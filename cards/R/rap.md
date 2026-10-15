@@ -264,7 +264,10 @@
   > *"We've merged your life essence with that of several creatures at once. You're welcome."*
   > *—Speaker Trifon*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #208 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/198/rapid-hybridization) · oracle_id `06692cd9-ac2f-4a32-8fd1-043ba3c0fe71` · printing: SOC #198 (2026-04-24) · [rulings](https://api.scryfall.com/cards/ccda5bda-5afd-4548-bd48-12c780bfa68b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-01-24* — If the creature is an illegal target when Rapid Hybridization tries to resolve, it won't resolve and none of its effects will happen. No Frog Lizard token will be created.
+  - *2013-07-01* — If Rapid Hybridization resolves and the creature isn't destroyed (perhaps because it has indestructible), its controller will still get the Frog Lizard token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/198/rapid-hybridization) · oracle_id `06692cd9-ac2f-4a32-8fd1-043ba3c0fe71` · printing: SOC #198 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rapid Prototyper
 

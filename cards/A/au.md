@@ -695,7 +695,9 @@
   > *Where Razia was aloof and untouchable, Aurelia is on the frontlines, calling for war.*
 - **Keywords:** Flying, Vigilance, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #819 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/651/aurelia-the-warleader) · oracle_id `0f5a3a09-2f07-4774-9e0f-e99d9a444166` · printing: FDN #651 (2024-11-15) · [rulings](https://api.scryfall.com/cards/bc6ffc1c-575b-4116-83c9-d13b29886c35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — Aurelia's last ability doesn't give you any additional main phases. This means that you will move directly from the end of combat step of one combat phase to the beginning of combat step of the next one.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/651/aurelia-the-warleader) · oracle_id `0f5a3a09-2f07-4774-9e0f-e99d9a444166` · printing: FDN #651 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aurification
 
@@ -1054,7 +1056,11 @@
   > • Destroy all creatures with mana value 3 or less.
   > • Destroy all creatures with mana value 4 or greater.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #170 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/121/austere-command) · oracle_id `09cc8709-fe10-472a-b05c-e89f3523018d` · printing: MSC #121 (2026-06-26) · [rulings](https://api.scryfall.com/cards/a8bc7912-e201-468a-b251-140205cb741c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-11-10* — Each of the chosen modes happens sequentially. If a permanent has an ability that triggers whenever it or another permanent is destroyed, it will see permanents destroyed at the same time as it or before it, but not permanents destroyed by later modes.
+  - *2020-11-10* — If a card is exiled "until" another permanent leaves the battlefield, the exiled card returns to the battlefield immediately after that permanent leaves the battlefield during Austere Command's resolution, and it may be destroyed by a later mode.
+  - *2020-11-10* — If the first and last modes are chosen, an artifact creature with mana value 4 or greater will have to be regenerated twice to survive. This is because the modes happen sequentially, and the regeneration "shield" is used up by the first one. The same is true with any other combination of modes that covers one permanent twice.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/121/austere-command) · oracle_id `09cc8709-fe10-472a-b05c-e89f3523018d` · printing: MSC #121 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Autarch Mammoth
 
@@ -1078,6 +1084,7 @@
 - **Flavor text** (FDN printing):
   > *Citizens are free to do as they wish, within the confines of the Consulate's laws.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #315 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/137/authority-of-the-consuls) · oracle_id `55f3c721-e13a-406e-bc8e-d6cdc91ac477` · printing: FDN #137 (2024-11-15) · [rulings](https://api.scryfall.com/cards/42ce2d7f-5924-47c0-b5ed-dacf9f9617a0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Author of Shadows

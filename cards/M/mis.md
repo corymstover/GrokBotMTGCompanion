@@ -126,7 +126,9 @@
   > Cycling {2} ({2}, Discard this card: Draw a card.)
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11385 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/36/miscalculation) · oracle_id `9078db26-3a54-4a11-9aae-e45c38da7226` · printing: ULG #36 (1999-02-15) · [rulings](https://api.scryfall.com/cards/4b4956a2-9a39-4152-9c98-70e4b2acfa26/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/36/miscalculation) · oracle_id `9078db26-3a54-4a11-9aae-e45c38da7226` · printing: ULG #36 (1999-02-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Miscast
 
@@ -1306,7 +1308,9 @@
 - **Flavor text** (TDM printing):
   > *Built on a fumarole field, the village is a refuge of warmth amid the ice of the Qal Sisma mountains.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #375 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/261/mistrise-village) · oracle_id `339f5334-b65a-445a-a016-20e997e0b4bb` · printing: TDM #261 (2025-04-11) · [rulings](https://api.scryfall.com/cards/d44bccbf-6fab-46e4-8ddb-6577e27ec6e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-04-04* — You must already control a Mountain or Forest as Mistrise Village enters for it to enter untapped. If it enters at the same time as a Mountain or Forest when you control no other Mountains or Forests, it will enter tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/261/mistrise-village) · oracle_id `339f5334-b65a-445a-a016-20e997e0b4bb` · printing: TDM #261 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mists of Littjara
 
@@ -1455,6 +1459,7 @@
 - **Oracle text:**
   > {T}, Pay 1 life, Sacrifice this land: Search your library for a Forest or Island card, put it onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #42 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/250/misty-rainforest) · oracle_id `09dd85aa-47bc-4713-a9b9-8b52ff2285ed` · printing: MH2 #250 (2021-06-18) · [rulings](https://api.scryfall.com/cards/88231c0d-0cc8-44ec-bf95-81d1710ac141/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Misunderstood Trapeze Elf

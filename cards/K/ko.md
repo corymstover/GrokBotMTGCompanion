@@ -261,7 +261,9 @@
   > *"The land grows only where the kami will it."*
   > *—Dosan the Falling Leaf*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #37 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/113/kodamas-reach) · oracle_id `1593ea18-2f2f-4ab4-83fb-6ccc0bec8a90` · printing: ECC #113 (2026-01-23) · [rulings](https://api.scryfall.com/cards/90c423cc-1264-4067-9c50-e7c88c68ef2d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-12-01* — You can get just one basic land card if you wish (or even none at all). If you get only one land card, you put it onto the battlefield tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/113/kodamas-reach) · oracle_id `1593ea18-2f2f-4ab4-83fb-6ccc0bec8a90` · printing: ECC #113 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kogla and Yidaro
 
@@ -866,6 +868,7 @@
   > {T}: Add {C}.
   > {1}{W}, {T}: Prevent all combat damage that would be dealt by target attacking creature this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3743 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/141/kor-haven) · oracle_id `276cece9-f9f2-46e6-ae76-daddaa2fb9ab` · printing: NEM #141 (2000-02-14) · [rulings](https://api.scryfall.com/cards/3d5529ca-5c20-4dfd-8595-96d6dfa6debe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kor Hookmaster

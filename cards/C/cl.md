@@ -812,6 +812,7 @@
 - **Flavor text** (ME3 printing):
   > *The clouds broke and the sun's rays burst forth; each foul beast in its turn faltered, and was gone.*
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/5/cleanse) · oracle_id `a610c77c-fe31-4465-a1c1-392db4ce4ed1` · printing: ME3 #5 (2009-09-07) · [rulings](https://api.scryfall.com/cards/af581e5a-abdb-4d76-8bda-32555aafc8ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cleansing
@@ -1026,7 +1027,17 @@
   > *"Here, at least, the danger is usually in plain sight."*
   > *—Zahr Gada, Halimar expedition leader*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #815 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/260/clearwater-pathway-murkwater-pathway) · oracle_id `144119bc-7fd1-45c5-9e29-f742e7c255ac` · printing: ZNR #260 (2020-09-25) · [rulings](https://api.scryfall.com/cards/b4b99ebb-0d54-4fe5-a495-979aaa564aa8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2020-09-25* — A modal double-faced card can’t be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2020-09-25* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2020-09-25* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than “play”) a specific modal double-faced card, you can’t play it as a land.
+  - *2020-09-25* — If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face’s name.
+  - *2020-09-25* — If an effect puts a double-faced card onto the battlefield, it enters with its front face up. If that front face can’t be put onto the battlefield, it doesn’t enter the battlefield.
+  - *2020-09-25* — In the Commander variant, a double-faced card’s color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+  - *2020-09-25* — The mana value of a modal double-faced card is based on the characteristics of the face that’s being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
+  - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you’re playing and ignore the other face’s characteristics.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/260/clearwater-pathway-murkwater-pathway) · oracle_id `144119bc-7fd1-45c5-9e29-f742e7c255ac` · printing: ZNR #260 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cleaver Blow
 
@@ -1238,7 +1249,21 @@
   > Any number of target nonland permanents you control phase out. (Treat them and anything attached to them as though they don't exist until your next turn.)
 - **Keywords:** Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #553 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/125/clever-concealment) · oracle_id `42bb7ea9-f6e4-4551-8d93-3b1eae84b865` · printing: MSC #125 (2026-06-26) · [rulings](https://api.scryfall.com/cards/41d45a8a-ea1d-4fbc-86d2-5d6340f3b639/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2023-02-04* — An attacking or blocking creature that phases out is removed from combat.
+  - *2023-02-04* — Any continuous effects with a "for as long as" duration, such as that of Mind Flayer, ignore phased-out objects. If ignoring those objects causes the effect's conditions to no longer be met, the duration will expire.
+  - *2023-02-04* — As a permanent is phased out, Auras and Equipment attached to it also phase out at the same time. Those Auras and Equipment will phase in at the same time that permanent does, and they'll phase in still attached to that permanent.
+  - *2023-02-04* — Choices made for permanents as they entered the battlefield are remembered when they phase in.
+  - *2023-02-04* — Permanents phase back in during their controller's untap step, immediately before that player untaps their permanents. Creatures that phase in this way are able to attack and pay a cost of {T} during that turn. If a permanent had counters on it when it phased out, it will have those counters when it phases back in.
+  - *2023-02-04* — Phased out permanents are treated as though they don't exist. They can't be the target of spells or abilities, their static abilities have no effect on the game, their triggered abilities can't trigger, they can't attack or block, and so on.
+  - *2023-02-04* — Phasing out doesn't cause permanents to leave or re-enter the battlefield, so no "leaves the battlefield" or "enters the battlefield" abilities will trigger.
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/125/clever-concealment) · oracle_id `42bb7ea9-f6e4-4551-8d93-3b1eae84b865` · printing: MSC #125 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Clever Conjurer
 
@@ -1419,6 +1444,7 @@
 - **Flavor text** (FRC printing):
   > *The sunlight falls pristine on the temple at Epityr, softened by the remembered shadows of angelic saviors' wings.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #78 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/67/clifftop-retreat) · oracle_id `d7faa3c8-46cf-46b2-bfa4-89000307cf18` · printing: FRC #67 (2026-10-02) · [rulings](https://api.scryfall.com/cards/cd112d5c-102f-45a6-b26c-f80cc97d4df2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Clinging Anemones
@@ -2270,7 +2296,10 @@
 - **Flavor text** (EOC printing):
   > *The advent of cloudsculpting ended the use of mechanical locks in Illvoi society.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #606 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/54/cloud-key) · oracle_id `2a838818-d590-4374-9a63-d9e6381a0f0d` · printing: EOC #54 (2025-08-01) · [rulings](https://api.scryfall.com/cards/b851ab76-e40e-4232-b120-0bc1905ef0b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-03-19* — The cost reduction applies only to generic mana in the cost of spells of the chosen type you cast.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a flashback cost), add any cost increases (such as kicker costs), then apply any cost reductions (such as that of Cloud Key's ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/54/cloud-key) · oracle_id `2a838818-d590-4374-9a63-d9e6381a0f0d` · printing: EOC #54 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cloudkill
 
@@ -2459,7 +2488,12 @@
   > *"Clouds are made of water and air, so between the two of us, we ought to be able to bend them into any shape we want."*
   > *—Aang*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #766 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/152/cloudshift) · oracle_id `6879f5ce-7a1b-4606-bad1-885779b0d456` · printing: TLE #152 (2025-11-21) · [rulings](https://api.scryfall.com/cards/6dc0c976-26d2-40c9-a571-c370e9139d1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-03-16* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2018-03-16* — Once the exiled permanent returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled permanent will be put into their owners' graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
+  - *2018-03-16* — The returned card won't be the target of any spells or abilities that targeted it before. Any spells that don't target, such as Akroma's Vengeance, will still affect it.
+  - *2018-03-16* — When an effect returns the exiled card "under your control," you control it indefinitely after that. In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any creatures you control from Cloudshift's effect are exiled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/152/cloudshift) · oracle_id `6879f5ce-7a1b-4606-bad1-885779b0d456` · printing: TLE #152 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cloudshredder Sliver
 

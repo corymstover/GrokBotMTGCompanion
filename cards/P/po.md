@@ -578,6 +578,7 @@
 - **Flavor text** (MH3 printing):
   > *A warped gateway that seeps toxins and malevolence into the waters around Towashi.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #36 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/224/polluted-delta) · oracle_id `ef86989d-ce80-4e55-aece-7d11710eeffa` · printing: MH3 #224 (2024-06-14) · [rulings](https://api.scryfall.com/cards/6e288374-2b71-4ace-b1d2-a19fee6cb4af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Polluted Mire
@@ -764,7 +765,9 @@
 - **Flavor text** (TDC printing):
   > *Tomorrow belongs to those who prepare for it today.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #146 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/159/ponder) · oracle_id `02090581-61aa-4348-ad57-451be8ee91c2` · printing: TDC #159 (2025-04-11) · [rulings](https://api.scryfall.com/cards/dc69f960-68ba-4315-8146-6a7a82047503/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — If you choose to shuffle your library, that includes the three cards you just looked at and put back on top of it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/159/ponder) · oracle_id `02090581-61aa-4348-ad57-451be8ee91c2` · printing: TDC #159 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pondering Mage
 
@@ -799,7 +802,9 @@
 - **Flavor text** (TDC printing):
   > *Some spellcrafting mistakes go on to become spells of their own.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #155 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/160/pongify) · oracle_id `05849bd6-8f38-4031-be2b-e2aa03beb8cc` · printing: TDC #160 (2025-04-11) · [rulings](https://api.scryfall.com/cards/4131fa63-5afc-4b63-a4b4-f47b4bced87f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — If the target creature is an illegal target by the time Pongify tries to resolve, the spell won't resolve. No player creates an Ape token. If the target is legal but not destroyed (most likely because it has indestructible), its controller does create an Ape token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/160/pongify) · oracle_id `05849bd6-8f38-4031-be2b-e2aa03beb8cc` · printing: TDC #160 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pontiff of Blight
 
@@ -1127,7 +1132,12 @@
   > *"I think you'll find that our little island will make an ideal base for your Quinjets!"*
   > *—Stingray, Walter Newell*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #338 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/256/port-town) · oracle_id `458d2b12-f578-4392-98d3-c3bc83f316c4` · printing: MSC #256 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3f962cab-c058-41f5-b7e1-5b063f374eb0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-04-08* — If a Plains or Island is entering the battlefield from your hand at the same time as Port Town, you may reveal the other land to have Port Town enter untapped.
+  - *2016-04-08* — If an effect instructs you to put Port Town onto the battlefield tapped, it will still enter the battlefield tapped even if you reveal a land card from your hand.
+  - *2016-04-08* — Lands don't have a subtype just because they can produce mana of the corresponding color. Port Town itself is neither a Plains nor an Island, even though it produces white and blue mana, so you can't reveal one to satisfy the ability of another.
+  - *2016-04-08* — You may reveal any land card with either or both of the appropriate subtypes. It doesn't have to be a basic land. For example, you could reveal Canopy Vista from the Battle for Zendikar set to satisfy the ability of Port Town.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/256/port-town) · oracle_id `458d2b12-f578-4392-98d3-c3bc83f316c4` · printing: MSC #256 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Possessed Aven
 
@@ -1655,7 +1665,16 @@
   > (Start the game with this conspiracy face up in the command zone.)
   > You are the starting player. If multiple players would be the starting player, one of those players is chosen at random.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/8/power-play) · oracle_id `15710c57-369a-442b-b7ea-175f3d9d164d` · printing: CNS #8 (2014-06-06) · [rulings](https://api.scryfall.com/cards/bbfca319-edc4-45f2-b208-35c8112ec918/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2014-05-29* — If you have Power Play but aren't the starting player (because another player also had Power Play), your place in the turn order is unaffected. If you're sitting to the right of the starting player, you're going last. Not all power plays bear fruit.
+  - *2016-08-23* — A conspiracy doesn't count as a card in your deck for purposes of meeting minimum deck size requirements. (In most drafts, the minimum deck size is 40 cards.)
+  - *2016-08-23* — A conspiracy's static and triggered abilities function as long as that conspiracy is face-up in the command zone.
+  - *2016-08-23* — Conspiracies are colorless, have no mana cost, and can't be cast as spells.
+  - *2016-08-23* — Conspiracies are never put into your deck. Instead, you put any number of conspiracies from your card pool into the command zone as the game begins. These conspiracies are face up unless they have hidden agenda, in which case they begin the game face down.
+  - *2016-08-23* — Conspiracies aren't legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft.
+  - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
+  - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/8/power-play) · oracle_id `15710c57-369a-442b-b7ea-175f3d9d164d` · printing: CNS #8 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Power Sink
 

@@ -579,7 +579,10 @@
   > *"I don't need a map to find riches."*
 - **Keywords:** Treasure, Flash
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/74/hullbreacher) · oracle_id `2f533667-e29b-4bec-897a-e7a9eee08314` · printing: CMR #74 (2020-11-20) · [rulings](https://api.scryfall.com/cards/4df8aabc-7fcb-4b7b-980b-18f499e6c170/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-11-10* — If multiple replacement effects apply to the same card draw, the player drawing the card chooses the order in which to apply them.
+  - *2020-11-10* — If you control multiple Hullbreachers while an opponent would draw a card except their first one in their draw step, you'll create only one Treasure.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/74/hullbreacher) · oracle_id `2f533667-e29b-4bec-897a-e7a9eee08314` · printing: CMR #74 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hullbreaker Horror
 
@@ -594,6 +597,7 @@
   > • Return target nonland permanent to its owner's hand.
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #278 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/68/hullbreaker-horror) · oracle_id `d4a84e78-d9b9-4c67-8a4b-4329e65f0f15` · printing: INR #68 (2025-01-24) · [rulings](https://api.scryfall.com/cards/137acb70-a1fd-4ea9-a5d9-f4b438eb5e82/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hullcarver
@@ -1769,6 +1773,7 @@
 - **Flavor text** (DSK printing):
   > *Here, the Hauntwoods churn like a viper's nest, as monstrous creatures prowl hungrily toward the ghostly light.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #674 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/261/hushwood-verge) · oracle_id `cce328b9-6100-417e-9ddf-808bbe3e3bc5` · printing: DSK #261 (2024-09-27) · [rulings](https://api.scryfall.com/cards/ec288d76-c1f5-471b-8a53-504f88469c1b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Huskburster Swarm

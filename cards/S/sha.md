@@ -352,6 +352,7 @@
 - **Flavor text** (DSC printing):
   > *Gnolls make offerings to sinister forces in the shadow-drenched chasms.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #436 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/296/shadowblood-ridge) · oracle_id `15687ee3-3cdb-4a8f-a726-46b73bceb792` · printing: DSC #296 (2024-09-27) · [rulings](https://api.scryfall.com/cards/d7af1d6b-ff13-4886-a212-4a6e09153475/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadowborn Apostle
@@ -733,7 +734,11 @@
   > *A weapon of darkness for a warrior of light.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #306 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/236/shadowspear) · oracle_id `8b27326f-e7b8-4a4d-b589-df459246d19a` · printing: THB #236 (2020-01-24) · [rulings](https://api.scryfall.com/cards/939c6e19-4b27-4023-bb9c-ae440f91e21c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-01-24* — Because damage remains marked on a creature until the damage is removed as the turn ends, damage previously dealt to a creature with indestructible may cause it to be destroyed if Shadowspear's second ability resolves during that turn.
+  - *2020-01-24* — If a permanent enters the battlefield under an opponent's control with hexproof or indestructible after Shadowspear's second ability resolves, it won't lose that ability unless you activate Shadowspear's second ability again. The same is true if an opponent's permanent gains indestructible or hexproof after Shadowspear's second ability resolves.
+  - *2020-01-24* — You can activate Shadowspear's second ability whether or not it's equipped to a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/236/shadowspear) · oracle_id `8b27326f-e7b8-4a4d-b589-df459246d19a` · printing: THB #236 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadow Stinger
 
@@ -831,6 +836,7 @@
   > When this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #576 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/268/shadowy-backstreet) · oracle_id `216a2a92-9ca3-4ca3-8af7-686c13b04290` · printing: MKM #268 (2024-02-09) · [rulings](https://api.scryfall.com/cards/69c1b656-1d67-499c-bf0f-417682a86c7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadrix Silverquill
@@ -922,7 +928,12 @@
 - **Oracle text:**
   > Players play a Magic subgame, using their libraries as their decks. Each player who doesn't win the subgame loses half their life, rounded up.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/arn/10/shahrazad) · oracle_id `fc04f621-338b-4d4c-bf57-5e5a00d990f0` · printing: ARN #10 (1993-12-17) · [rulings](https://api.scryfall.com/cards/0014def3-4063-4929-ac51-76aef1bb2a68/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2004-10-04* — At the start of the sub-game both players draw their initial hand (usually 7 cards). If one player has fewer cards than required, that player loses. If both have fewer than required, both players lose.
+  - *2004-10-04* — Events in a Shahrazad sub-game do not normally trigger abilities in the main game. And continuous effects in the main game do not carry over into the sub-game.
+  - *2004-10-04* — You randomly chose which player chooses to go first or draw first.
+  - *2007-07-15* — At the end of a subgame, each player puts all cards they own that are in the subgame into their library in the main game, then shuffles them. This includes cards in the subgame’s Exile zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/arn/10/shahrazad) · oracle_id `fc04f621-338b-4d4c-bf57-5e5a00d990f0` · printing: ARN #10 (1993-12-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shahrazad and Sindbad
 
@@ -1079,7 +1090,9 @@
   > *First, whispers of ancient days. Then, visions of things to come.*
 - **Keywords:** Ferocious
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #369 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/311/shamanic-revelation) · oracle_id `d1d171de-1c6d-4fb9-817a-9c689c709f3d` · printing: NCC #311 (2022-04-29) · [rulings](https://api.scryfall.com/cards/b3784eff-ab7b-4fd4-9a07-fbc852d116bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — After you draw cards while Shamanic Revelation is resolving, nothing else can happen before you gain the appropriate amount of life. Notably, abilities that trigger when you draw cards won't be put onto the stack until after you've gained life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/311/shamanic-revelation) · oracle_id `d1d171de-1c6d-4fb9-817a-9c689c709f3d` · printing: NCC #311 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shaman of Forgotten Ways
 
@@ -1724,7 +1737,10 @@
   > *"It is the nature of souls that they burn more brightly together than apart."*
   > *—Vessifrus, flamekin demagogue*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #686 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/231/shared-animosity) · oracle_id `a27445db-33f2-4571-98b5-83206b797484` · printing: LCC #231 (2023-11-17) · [rulings](https://api.scryfall.com/cards/1bd77ae9-c5ba-44af-80e9-7c852722ef6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-04-01* — In a Two-Headed Giant game, only creatures you control trigger the ability and get the bonus, but your teammate's attacking creatures are included in the calculation of those bonuses.
+  - *2008-04-01* — This ability counts creatures, not creature types. For example, if you attack with five creatures — an Elf Shaman, an Elf Warrior, a Goblin Shaman, an Elemental, and a creature with all creature types — the ability will trigger five times. Those creatures will get +3/+0, +2/+0, +2/+0, +1/+0, and +4/+0, respectively.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/231/shared-animosity) · oracle_id `a27445db-33f2-4571-98b5-83206b797484` · printing: LCC #231 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shared Discovery
 
@@ -2055,6 +2071,7 @@
   > *"The most cordial words are often the ones intended to deceive. It's only of late that I've realized how much strength honesty requires."*
   > *—Embrose, dean of shadow*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #261 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/260/shattered-sanctum) · oracle_id `c854ecb0-cc60-4c48-a9aa-7f2348a7a8c6` · printing: SOS #260 (2026-04-24) · [rulings](https://api.scryfall.com/cards/5aa0c810-3b7d-4661-979e-e84fb327742d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shattered Seraph

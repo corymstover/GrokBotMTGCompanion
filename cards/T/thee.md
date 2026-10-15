@@ -50,7 +50,15 @@
   > If one or more +1/+1 counters would be put on a creature you control, twice that many +1/+1 counters are put on that creature instead.
   > {4}{G}{G}, {T}: Distribute two +1/+1 counters among one or two target creatures you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #681 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/184/the-earth-crystal) · oracle_id `5e7ef7fe-968b-4ada-9fe4-6fda0541aafc` · printing: FIN #184 (2025-06-13) · [rulings](https://api.scryfall.com/cards/d585e218-3dc8-4fbd-8ad2-795fbc9b2155/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-06-06* — If a creature you control would enter the battlefield with a number of +1/+1 counters on it, it enters with twice that many instead.
+  - *2025-06-06* — If one of the creatures is an illegal target and the other one isn't as The Earth Crystal's last ability tries to resolve, the original distribution of counters applies and the counter that would have been put on the illegal target is lost. It won't be put on the remaining legal target instead.
+  - *2025-06-06* — If the rare case where you control two of The Earth Crystal, the number of +1/+1 counters put on a creature is four times the original number. Three of The Earth Crystal multiplies the original number by eight, and so on.
+  - *2025-06-06* — If two or more effects attempt to modify how many counters would be put onto a creature you control, you choose the order to apply those effects, no matter who controls the sources of those effects.
+  - *2025-06-06* — The cost reduction applies only to generic mana in the total cost of green spells you cast.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a flashback cost), add any cost increases (such as kicker costs), then apply any cost reductions (such as that of The Earth Crystal's first ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+  - *2025-06-06* — You choose how many targets The Earth Crystal's last ability has and how the counters are distributed as you activate it. Each target must receive at least one counter. This means, for example, that you can't target two creatures and assign them two and zero counters respectively.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/184/the-earth-crystal) · oracle_id `5e7ef7fe-968b-4ada-9fe4-6fda0541aafc` · printing: FIN #184 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Earth King
 

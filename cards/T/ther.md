@@ -135,6 +135,7 @@
   > Equip {3}
 - **Keywords:** Treasure, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #530 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/8/the-reaver-cleaver) · oracle_id `37a2a31d-51e6-4c07-b4c2-b206ad40eb42` · printing: DMC #8 (2022-09-09) · [rulings](https://api.scryfall.com/cards/5bcd1591-b5b9-49fc-9f2a-45f31ed1871e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Rebellious Intelligence

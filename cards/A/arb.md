@@ -207,6 +207,7 @@
 - **Oracle text:**
   > {T}: Untap target Forest.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #605 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/160/arbor-elf) · oracle_id `4567a528-75f0-4ea6-b927-3a500caf76ac` · printing: A25 #160 (2018-03-16) · [rulings](https://api.scryfall.com/cards/4b81165e-f091-4211-8b47-5ea6868b0d4c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arboretum Elemental

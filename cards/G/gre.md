@@ -254,7 +254,11 @@
 - **Flavor text** (MSC printing):
   > *A mantle passed on through sacrifice and love.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #634 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/174/greater-good) · oracle_id `dc0593c2-ccb4-4648-a592-c5bcd121dc72` · printing: MSC #174 (2026-06-26) · [rulings](https://api.scryfall.com/cards/9dd8b16f-3dfd-4e04-a2e9-ec87d0e007c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-08-07* — If you don't have three cards in hand when instructed to discard three cards, you discard your hand.
+  - *2020-08-07* — Use the sacrificed creature's power as it last existed on the battlefield to determine how many cards you draw.
+  - *2020-08-07* — You draw and discard cards all while Greater Good's ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/174/greater-good) · oracle_id `dc0593c2-ccb4-4648-a592-c5bcd121dc72` · printing: MSC #174 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Greater Harvester
 
@@ -406,6 +410,7 @@
 - **Flavor text** (EOC printing):
   > *Kuldotha, wellspring of molten metal, temple of the goblin horde.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #371 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/161/great-furnace) · oracle_id `f4819061-b0b5-48ab-af7b-6525c3d2eab7` · printing: EOC #161 (2025-08-01) · [rulings](https://api.scryfall.com/cards/74c5bb44-d72c-4c1a-a38f-86b4a8f49ae1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Great Gilded Boat
@@ -933,7 +938,12 @@
 - **Flavor text** (2X2 printing):
   > *As the green sun crowned, Phyrexian prophecies glowed on the Tree of Tales.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #540 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/150/green-suns-zenith) · oracle_id `0d96b60b-a060-48ee-bb83-93f1c4a10669` · printing: 2X2 #150 (2022-07-08) · [rulings](https://api.scryfall.com/cards/70291c7b-a86f-4466-8502-c28765a89b2a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2011-06-01* — If this spell doesn't resolve, none of its effects occur. In particular, it will go to the graveyard rather than to its owner's library.
+  - *2016-06-08* — If Green Sun's Zenith is countered, none of its effects will happen. Notably, it will be put into its owner's graveyard rather than shuffled into its owner's library.
+  - *2016-06-08* — If you own Green Sun's Zenith, but an opponent casts it (due to Knowledge Pool's effect, for example), that opponent searches their library for an appropriate creature card, then shuffles that library. That opponent then shuffles Green Sun's Zenith into your library. You won't shuffle any library in this case.
+  - *2016-06-08* — In most cases, if you own Green Sun's Zenith and cast it, you'll shuffle your library twice. In practice, shuffling once is sufficient, but effects that care about you shuffling your library (like Psychogenic Probe, for example) will see that you've shuffled twice.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/150/green-suns-zenith) · oracle_id `0d96b60b-a060-48ee-bb83-93f1c4a10669` · printing: 2X2 #150 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Green Ward
 

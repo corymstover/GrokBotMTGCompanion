@@ -263,7 +263,9 @@
   > *"Your mundane wizardry will not harm the Sorcerer Supreme."*
   > *—Doctor Strange*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #52 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/147/arcane-denial) · oracle_id `ab1cc360-b9de-48d9-9983-4dfe4a7d2a37` · printing: MSC #147 (2026-06-26) · [rulings](https://api.scryfall.com/cards/5eb843ef-b223-40d0-a461-54b16d188d0e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-09-16* — The controller of the countered spell doesn't choose how many cards to draw until the relevant ability resolves. The player may draw 0, 1, or 2 cards. They choose the number before drawing any cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/147/arcane-denial) · oracle_id `ab1cc360-b9de-48d9-9983-4dfe4a7d2a37` · printing: MSC #147 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Encyclopedia
 
@@ -414,6 +416,7 @@
   > *"We must rely on our own knowledge, not on the dogma of the seekers or the mutterings of the sphinxes."*
   > *—Tullus of Palandius*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #351 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/259/arcane-sanctum) · oracle_id `7d7cf15c-06b9-4062-a1eb-32614c458a3b` · printing: DSC #259 (2024-09-27) · [rulings](https://api.scryfall.com/cards/c75eeb97-3249-4762-84b0-387f27fb255f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Savant
@@ -437,7 +440,11 @@
   > *"Everything is in progress . . . just like us. May we always know exactly who we are."*
   > *—Jace, to Tam*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/20/arcane-signet) · oracle_id `0bc7f093-bef0-4f1a-852c-4b75ebf54838` · printing: FRC #20 (2026-10-02) · [rulings](https://api.scryfall.com/cards/c6b6117c-faab-4bbb-b851-07bd8061ef03/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-11-10* — If you don't have a commander, Arcane Signet's ability produces no mana.
+  - *2020-11-10* — If you have two commanders, the ability adds one mana of any color in their combined color identities.
+  - *2020-11-10* — If your commander is a card that has no colors in its color identity, Arcane Signet's ability produces no mana. It doesn't produce {C}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/20/arcane-signet) · oracle_id `0bc7f093-bef0-4f1a-852c-4b75ebf54838` · printing: FRC #20 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Spyglass
 
@@ -857,7 +864,9 @@
   > When this artifact enters, search your library for up to two basic Plains cards, reveal them, put them into your hand, then shuffle.
   > Whenever a land an opponent controls enters, if that player controls more lands than you, you may put a land card from your hand onto the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #685 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/136/archaeomancers-map) · oracle_id `ef833546-f755-4ac5-867a-3926984e68a0` · printing: SOC #136 (2026-04-24) · [rulings](https://api.scryfall.com/cards/3679b9c8-ebae-474a-b862-6397edbcc4ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-04-16* — The last ability triggers only if that opponent controls more lands than you after the land enters the battlefield. The ability will check again as it tries to resolve. If that opponent doesn't still control more lands than you at that time, the ability won't resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/136/archaeomancers-map) · oracle_id `ef833546-f755-4ac5-867a-3926984e68a0` · printing: SOC #136 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archaeomender
 
@@ -1033,7 +1042,11 @@
   > • Put a +1/+1 counter on target creature you control. It deals damage equal to its power to target creature you don't control.
   > • Exile target artifact or enchantment.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #622 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/151/archdruids-charm) · oracle_id `3c1ef404-e2c6-486d-a5a2-d5779c71d498` · printing: MKM #151 (2024-02-09) · [rulings](https://api.scryfall.com/cards/5caae5ae-845f-42c2-b1ae-956df2739433/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-02-02* — If you choose the second mode and the creature you don't control is not a legal target as Archdruid's Charm resolves, you'll still put a +1/+1 counter on your creature.
+  - *2024-02-02* — If you choose the second mode and your creature is not a legal target as Archdruid's Charm resolves, you won't put a +1/+1 counter on it, and no damage will be dealt.
+  - *2024-02-02* — You can't choose the second mode for Archdruid's Charm unless you and another player have creatures to target.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/151/archdruids-charm) · oracle_id `3c1ef404-e2c6-486d-a5a2-d5779c71d498` · printing: MKM #151 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archelos, Lagoon Mystic
 
@@ -1391,7 +1404,10 @@
   > *"Knowledge is the greatest tool of the mortal mind, outweighing anything made by mortal hands. Before anything else can exist, the idea must exist."*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #699 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/4/archivist-of-oghma) · oracle_id `08b13e1f-27ca-40a8-b5ed-88ac933d24bf` · printing: CLB #4 (2022-06-10) · [rulings](https://api.scryfall.com/cards/f6589e02-8c84-4069-88d1-ebcc8520cae1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-06-10* — Archivist of Oghma's triggered ability won't be put onto the stack until after the spell or ability causing the opponent to search their library finishes resolving. Notably, if that spell or ability causes any other abilities to trigger (for example, if the opponent searched for a card and put it onto the battlefield), those abilities and Archivist of Oghma's triggered ability will go on the stack at the same time. The active player puts all their abilities on the stack in any order, then each other player in turn order does the same. The last ability put onto the stack this way resolves first, and so on.
+  - *2022-06-10* — Archivist of Oghma's triggered ability won't trigger if you search an opponent's library or an opponent searches another player's library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/4/archivist-of-oghma) · oracle_id `08b13e1f-27ca-40a8-b5ed-88ac933d24bf` · printing: CLB #4 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archmage Ascension
 
@@ -1414,7 +1430,12 @@
   > *Some emeritus professors return from their wanderings periodically to share tales of the mystical wonders of Arcavios.*
 - **Keywords:** Magecraft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #253 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/188/archmage-emeritus) · oracle_id `8305d576-21d8-4ce7-8eda-a7cd9793aca5` · printing: SOC #188 (2026-04-24) · [rulings](https://api.scryfall.com/cards/dd547601-d650-4a02-a3a4-890bcef03a7c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-04-16* — Each magecraft ability has a different effect, although they all have the same trigger condition, whenever you cast or copy an instant or sorcery spell.
+  - *2021-04-16* — If an effect creates a copy of an instant or sorcery spell, this will also cause the magecraft ability to trigger.
+  - *2021-04-16* — If an effect creates multiple copies of an instant or sorcery spell, magecraft abilities trigger once for each copy created by the effect.
+  - *2021-04-16* — Some effects instruct you to copy an instant or sorcery card in a zone other than the stack. These copies do not cause magecraft abilities to trigger. However, most effects that do this also allow you to cast the copy, and casting the copy will cause magecraft abilities to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/188/archmage-emeritus) · oracle_id `8305d576-21d8-4ce7-8eda-a7cd9793aca5` · printing: SOC #188 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archmage of Echoes
 

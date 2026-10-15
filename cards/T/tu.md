@@ -250,7 +250,10 @@
 - **Oracle text:**
   > ({T}: Add {W} or {U}.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #350 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/322/tundra) · oracle_id `02418479-9455-417f-a6a1-004356faff37` · printing: VMA #322 (2014-06-16) · [rulings](https://api.scryfall.com/cards/efd35cb4-862d-4699-a197-b744989b3ceb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-10-01* — This has basic land types, but it isn't a basic land. Things that affect basic lands don't affect it. Things that affect basic land types do.
+  - *2008-10-01* — This has the mana abilities associated with both of its basic land types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/322/tundra) · oracle_id `02418479-9455-417f-a6a1-004356faff37` · printing: VMA #322 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tundra Fumarole
 

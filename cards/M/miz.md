@@ -111,4 +111,16 @@
   > Overload {5}{R}{R}{R} (You may cast this spell for its overload cost. If you do, change "target" in its text to "each.")
 - **Keywords:** Overload
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #816 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/175/mizzixs-mastery) · oracle_id `40362fe0-a1a9-4d76-8c35-eac474b91af5` · printing: OTC #175 (2024-04-19) · [rulings](https://api.scryfall.com/cards/4fa2d7f2-05b3-468f-9f2c-a61b46bad88e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2015-11-04* — If Mizzix's Mastery exiled multiple cards, you may cast the copies in any order. The last copy you cast will be the first one to resolve.
+  - *2015-11-04* — If the copy has {X} in its mana cost, you must choose 0 as the value of X.
+  - *2015-11-04* — If you cast a spell "without paying its mana cost," you can't pay any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
+  - *2015-11-04* — If you don't cast one of the copies (perhaps because there are no legal targets available or you don't want to), the copy will cease to exist.
+  - *2015-11-04* — Mizzix's Mastery is still on the stack as it resolves. If you pay the overload cost, Mizzix's Mastery won't copy itself.
+  - *2015-11-04* — The cards remain exiled no matter what happens to the copies.
+  - *2015-11-04* — The copies are created and cast during the resolution of Mizzix's Mastery. You can't wait to cast them later in the turn. Timing restrictions based on the copy's type are ignored. Other restrictions (such as "Cast [this spell] only during combat") are not.
+  - *2024-01-12* — Because a spell with overload doesn't target when its overload cost is paid, it may affect permanents with hexproof or with protection from the appropriate color.
+  - *2024-01-12* — If you are instructed to cast a spell with overload "without paying its mana cost," you can't choose to pay its overload cost instead.
+  - *2024-01-12* — If you don't pay the overload cost of a spell with overload, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
+  - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an overload cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/175/mizzixs-mastery) · oracle_id `40362fe0-a1a9-4d76-8c35-eac474b91af5` · printing: OTC #175 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

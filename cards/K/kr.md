@@ -885,7 +885,14 @@
   > *—Zyd, Kamahlite druid*
 - **Keywords:** Split second
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #660 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/198/krosan-grip) · oracle_id `3e39224c-72ce-4ecc-aa17-12c071ea1f3e` · printing: C21 #198 (2021-04-23) · [rulings](https://api.scryfall.com/cards/d3571dee-7b90-4c0c-abc7-59b515ffa129/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — After a spell with split second resolves (or otherwise leaves the stack), players may again cast spells and activate abilities before the next object on the stack resolves.
+  - *2021-03-19* — Casting a spell with split second won't affect spells and abilities that are already on the stack.
+  - *2021-03-19* — If the resolution of a triggered ability involves casting a spell, that spell can't be cast if a spell with split second is on the stack.
+  - *2021-03-19* — Players may turn face-down creatures face up while a spell with split second is on the stack.
+  - *2021-03-19* — Players still get priority while a card with split second is on the stack; their options are just limited to mana abilities and certain special actions.
+  - *2021-03-19* — Split second doesn't stop triggered abilities from triggering, such as that of Chalice of the Void. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/198/krosan-grip) · oracle_id `3e39224c-72ce-4ecc-aa17-12c071ea1f3e` · printing: C21 #198 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Krosan Groundshaker
 

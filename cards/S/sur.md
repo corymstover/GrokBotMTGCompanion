@@ -719,7 +719,9 @@
 - **Oracle text:**
   > {G}, Discard a creature card: Search your library for a creature card, reveal that card, put it into your hand, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2367 · Game Changer: **yes** · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/199/survival-of-the-fittest) · oracle_id `119d719d-e965-45b4-9bc9-ac03211b10c2` · printing: TPR #199 (2015-05-06) · [rulings](https://api.scryfall.com/cards/4ef0d7f9-ddb9-4e83-a9bf-09bec22fc80d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/199/survival-of-the-fittest) · oracle_id `119d719d-e965-45b4-9bc9-ac03211b10c2` · printing: TPR #199 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Survive the Night
 

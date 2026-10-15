@@ -281,7 +281,11 @@
   > *Countless delights drift on the surface while dark schemes run below.*
 - **Keywords:** Delve
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #643 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/205/treasure-cruise) · oracle_id `5b6bdf5a-2742-4851-92cd-a857a3852836` · printing: SOC #205 (2026-04-24) · [rulings](https://api.scryfall.com/cards/42c45880-15c7-4259-8066-c04d031d8216/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-03-19* — Because delve isn't an alternative cost, it can be used in conjunction with alternative costs, such as flashback. It can also be used to pay for additional costs that include generic mana.
+  - *2021-03-19* — Delve doesn't change a spell's mana cost or mana value. For example, Treasure Cruise's mana value is 8 even if you exiled three cards to cast it.
+  - *2021-03-19* — You can exile cards to pay only for generic mana, and you can't exile more cards than the generic mana requirement of a spell with delve. For example, you can't exile more than seven cards from your graveyard to cast Treasure Cruise unless an effect has increased its cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/205/treasure-cruise) · oracle_id `5b6bdf5a-2742-4851-92cd-a857a3852836` · printing: SOC #205 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treasured Find
 
@@ -399,6 +403,7 @@
   > *There is wealth enough inside to cause the rise and the ruin of dynasties.*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #461 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/261/treasure-vault) · oracle_id `3c43efd6-b1a8-452c-ae20-9a936c3340ab` · printing: AFR #261 (2021-07-23) · [rulings](https://api.scryfall.com/cards/a0931eb3-b403-4b1a-ad46-a7b0a51bb9a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treasury Thrull

@@ -49,6 +49,7 @@
   > *"Despite being older than nearly every living thing here, Loot is still just a kid. That doesn't change what we need from him."*
   > *—Jace*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #774 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/250/bleachbone-verge) · oracle_id `2b8144a0-08d2-4c28-9fd7-5d90f90105e4` · printing: DFT #250 (2025-02-14) · [rulings](https://api.scryfall.com/cards/52dcdabd-a186-45fe-9fee-6c0f1afeaf16/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bleak Coven Vampires

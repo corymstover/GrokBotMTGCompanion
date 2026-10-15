@@ -89,7 +89,9 @@
 - **Flavor text** (MBC printing):
   > *By guild tradition, any puddle of multicolored light on the cobblestones can serve as neutral ground.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #85 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mbc/73/chromatic-lantern) · oracle_id `539f5396-d99a-417d-a84c-dff7930b5900` · printing: MBC #73 (2026-10-19) · [rulings](https://api.scryfall.com/cards/9b29492a-8bdd-4806-8d1b-3058ed277cc1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-10-05* — Lands you control won't lose any other abilities they had. They also won't gain or lose any land types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mbc/73/chromatic-lantern) · oracle_id `539f5396-d99a-417d-a84c-dff7930b5900` · printing: MBC #73 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chromatic Orrery
 
@@ -202,7 +204,11 @@
   > {T}: Add one mana of any of the exiled card's colors.
 - **Keywords:** Imprint
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #156 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/240/chrome-mox) · oracle_id `ec3d4466-547c-4e02-b1b5-a156ec4637e9` · printing: 2XM #240 (2020-08-07) · [rulings](https://api.scryfall.com/cards/f340cbf7-5bbe-45b9-a4bf-d1caa500ff93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-02-07* — If no card is exiled with this artifact, it can’t add mana. The same is true if the exiled card is colorless.
+  - *2025-02-07* — If the exiled card is multicolored, you choose one of that card’s colors each time you tap this artifact for mana.
+  - *2025-02-07* — This artifact's activated ability can never add {C}, even if the exiled card is colorless or has a colorless mana symbol in its mana cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/240/chrome-mox) · oracle_id `ec3d4466-547c-4e02-b1b5-a156ec4637e9` · printing: 2XM #240 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chrome Prowler
 

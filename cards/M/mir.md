@@ -186,7 +186,12 @@
 - **Flavor text** (CMM printing):
   > *Even after a false god tore the magic from Dominaria, power still radiated from the Mirari sword that slew her.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #712 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/928/miraris-wake) · oracle_id `852657c0-18a4-4b28-b9ae-7728acdb5044` · printing: CMM #928 (2023-08-04) · [rulings](https://api.scryfall.com/cards/ef4fa4e8-39e8-47a6-b975-ff5d46e59edd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-06-18* — Because damage remains marked on a creature until the cleanup step or an effect removes that damage, nonlethal damage dealt to creatures you control may become lethal if Mirari's Wake leaves the battlefield.
+  - *2021-06-18* — If tapping a land produces more than one type of mana, you choose one type that was produced and add one mana of that type.
+  - *2021-06-18* — If the mana produced by the land has any additional restrictions or riders, those restrictions or riders don't apply to the mana added by Mirari's Wake. You just get one mana of the appropriate type.
+  - *2021-06-18* — The types of mana are white, blue, black, red, green, and colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/928/miraris-wake) · oracle_id `852657c0-18a4-4b28-b9ae-7728acdb5044` · printing: CMM #928 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mire Blight
 
@@ -387,6 +392,7 @@
   > *—Gandalf*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #232 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/95/mirkwood-bats) · oracle_id `0636b6c3-0662-420a-b30d-f0a14e7c512d` · printing: LTR #95 (2023-06-23) · [rulings](https://api.scryfall.com/cards/15f035df-784a-4dc8-b7f5-77139a4e6e99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirkwood Channeler

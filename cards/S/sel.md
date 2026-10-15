@@ -259,7 +259,9 @@
   > When this land enters, return a land you control to its owner's hand.
   > {T}: Add {G}{W}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #585 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/246/selesnya-sanctuary) · oracle_id `00ef1c55-dea1-4564-bd57-66de86cba4df` · printing: CLU #246 (2024-02-23) · [rulings](https://api.scryfall.com/cards/fdc53c6a-8e28-4314-9bcf-b31b6c6f56d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/246/selesnya-sanctuary) · oracle_id `00ef1c55-dea1-4564-bd57-66de86cba4df` · printing: CLU #246 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selesnya Sentry
 
@@ -443,7 +445,9 @@
   > *"There is always more to give."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #594 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/167/selfless-spirit) · oracle_id `71d785a9-ddc8-472e-a778-a551b444a4bd` · printing: SOC #167 (2026-04-24) · [rulings](https://api.scryfall.com/cards/9cd16dac-3bf9-4a71-a906-0cfbf98cdca5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-07-13* — The set of creatures affected by Selfless Spirit's last ability is determined as the ability resolves. Creatures you begin to control later in the turn won't gain indestructible.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/167/selfless-spirit) · oracle_id `71d785a9-ddc8-472e-a778-a551b444a4bd` · printing: SOC #167 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selfless Squire
 
@@ -580,7 +584,11 @@
   > Whenever another creature enters, its controller may draw a card if its power is greater than each other creature's power.
   > {G}, {T}: Add X mana in any combination of colors, where X is the greatest power among creatures you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #409 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/116/selvala-heart-of-the-wilds) · oracle_id `1d725121-e50c-42f0-9128-56802f07c89e` · printing: ECC #116 (2026-01-23) · [rulings](https://api.scryfall.com/cards/812856be-cf51-42de-96d2-4ac91e71d442/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-08-23* — If the new creature isn't on the battlefield as the first ability resolves, use its power when it left the battlefield to determine whether its controller may draw a card. Note that effects that reduced its power before it left the battlefield will apply.
+  - *2016-08-23* — Selvala's last ability is a mana ability. It doesn't use the stack and can't be responded to. If the greatest power among creatures you control is 0 or less at that time, no mana is added.
+  - *2016-08-23* — The new creature's power is compared to the power of each other creature on the battlefield as the first ability resolves. If another creature has the same or higher power than the new creature's power, no one may draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/116/selvala-heart-of-the-wilds) · oracle_id `1d725121-e50c-42f0-9128-56802f07c89e` · printing: ECC #116 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selvala's Charge
 

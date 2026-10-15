@@ -350,6 +350,7 @@
 - **Flavor text** (SOC printing):
   > *"Your father was a dear friend to whom I owe much. He wanted me to look after you, to care for you should something happen to him."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #823 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/181/tocasias-welcome) · oracle_id `25c983e0-a8c9-4784-91a4-8fe04c6df882` · printing: SOC #181 (2026-04-24) · [rulings](https://api.scryfall.com/cards/90e38661-292a-45e7-bda9-51af53cf0f68/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tocatli Honor Guard
@@ -536,6 +537,7 @@
 - **Flavor text** (VMA printing):
   > *The academy worked with time—until time ran out.*
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/319/tolarian-academy) · oracle_id `dba4fd31-8931-42dd-bd86-45479c2abf74` · printing: VMA #319 (2014-06-16) · [rulings](https://api.scryfall.com/cards/fd99bce1-ce39-464b-8e61-2631eb3ed6f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tolarian Contempt
@@ -1908,7 +1910,14 @@
 - **Flavor text** (HOU printing):
   > *"Your God-Pharaoh has returned."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #625 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/77/torment-of-hailfire) · oracle_id `30a0a6c2-1fbb-4784-ab96-22611d57e62c` · printing: HOU #77 (2017-07-14) · [rulings](https://api.scryfall.com/cards/f69d77d1-5980-436c-bf48-790939b069aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2017-07-14* — Each repetition through this process is done separately. If an opponent sacrifices a creature with an ability that triggers when another creature dies, for example, it will see creatures that are sacrificed before it, but not those are sacrificed after it.
+  - *2017-07-14* — If X is 0, Torment of Hailfire resolves with no effect.
+  - *2017-07-14* — In a Two-Headed Giant game, Torment of Hailfire causes both opponents to sacrifice a nonland permanent, discard a card, or lose 3 life X times. Your opponents can choose the same torment or different ones each time.
+  - *2017-07-14* — In a multiplayer game, each opponent in turn order makes their choice once, then all of the actions occur simultaneously, then they repeat this process if it hasn’t been done X times yet. Opponents will know choices made by earlier opponents when making their choices, although a card chosen to be discarded this way isn’t revealed until it’s discarded.
+  - *2017-07-14* — State-based actions aren’t checked in between repetitions of this process, so the game state may be a little unusual while making the choice. For example, a player may sacrifice a creature and then later sacrifice an Aura that was attached to that creature.
+  - *2017-07-14* — While resolving Torment of Hailfire, your opponent chooses a card to be discarded without revealing it, chooses a nonland permanent to be sacrificed, or chooses to do neither. Then that player discards that card, sacrifices that permanent, or loses 3 life, then repeats this process if it hasn’t been done X times yet. Your opponent can always choose to lose 3 life, even if they have cards to discard or nonland permanents to sacrifice.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/77/torment-of-hailfire) · oracle_id `30a0a6c2-1fbb-4784-ab96-22611d57e62c` · printing: HOU #77 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Torment of Scarabs
 
@@ -2284,7 +2293,10 @@
   > Whenever a creature you control deals combat damage to a player, draw a card.
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #388 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/191/toski-bearer-of-secrets) · oracle_id `a8e707ec-ce77-4bc5-8c76-5ea3e81e8c7f` · printing: MKC #191 (2024-02-09) · [rulings](https://api.scryfall.com/cards/e82e61d1-488d-4627-a54c-d8496a967814/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-02-05* — A spell or ability that counters spells can still target Toski. When that spell or ability resolves, Toski won't be countered, but any additional effects of that spell or ability will still happen.
+  - *2021-02-05* — If Toski can't attack for some reason (such as being tapped or having come under that player's control that turn), then it doesn't attack. If there's a cost associated with having it attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/191/toski-bearer-of-secrets) · oracle_id `a8e707ec-ce77-4bc5-8c76-5ea3e81e8c7f` · printing: MKC #191 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Totally Lost
 
@@ -2969,7 +2981,10 @@
   > *"Zemo insults me by tasking me with weaklings such as you. Even together, you pose no challenge."*
   > *—Radioactive Man, Dr. Chen Lu*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #65 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/161/toxic-deluge) · oracle_id `afaef788-34d1-460b-b884-9d7ae6ddeb18` · printing: MSC #161 (2026-06-26) · [rulings](https://api.scryfall.com/cards/de5afccc-8d42-4bd6-b068-b9ea2361655e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — All creatures on the battlefield when Toxic Deluge resolves are affected. Ones that enter the battlefield or become creatures later in the turn are not.
+  - *2020-08-07* — If you cast Toxic Deluge without paying its mana cost, you'll still choose a value for X and pay X life. This is because it doesn't have {X} in its mana cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/161/toxic-deluge) · oracle_id `afaef788-34d1-460b-b884-9d7ae6ddeb18` · printing: MSC #161 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Toxic Iguanar
 

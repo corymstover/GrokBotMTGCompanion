@@ -156,6 +156,7 @@
   > *"The land promises nothing and keeps its promise."*
   > *—Oracle \*en\*-Vec*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1217 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/248/wasteland) · oracle_id `09a70ae8-3859-4a09-901d-dce063fa3b5f` · printing: EMA #248 (2016-06-10) · [rulings](https://api.scryfall.com/cards/aaafb9bc-7cea-4624-a227-595544fa42b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wasteland Raider

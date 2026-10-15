@@ -139,7 +139,10 @@
   > When this creature enters, you may search your library for a creature card with mana value 1 or less, reveal it, put it into your hand, then shuffle.
   > Sacrifice this creature: Your opponents can't cast noncreature spells this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #808 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/21/ranger-captain-of-eos) · oracle_id `cada3481-cc2b-4412-b9b5-0436af53aad2` · printing: MH1 #21 (2019-06-14) · [rulings](https://api.scryfall.com/cards/af3928b4-813a-4120-8799-de34235d60ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-06-14* — If a card in a player’s library has {X} in its mana cost, X is considered to be 0.
+  - *2019-06-14* — Your opponents may cast spells in response to the last ability of Ranger-Captain of Eos. The ability won’t affect those spells and it won’t affect spells that those players cast before you activated it. (In other words, the ability can’t be used to counter a spell.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/21/ranger-captain-of-eos) · oracle_id `cada3481-cc2b-4412-b9b5-0436af53aad2` · printing: MH1 #21 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ranger Class
 

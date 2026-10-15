@@ -510,7 +510,11 @@
   > *Though the Sun Empire and the River Heralds once came together to plant the sacred forest, its roots have been tended by the mycoids ever since.*
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #574 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/188/growing-rites-of-itlimoc-itlimoc-cradle-of-the-sun) · oracle_id `ea9c459a-6047-43aa-968f-a582be4000e8` · printing: LCI #188 (2023-11-17) · [rulings](https://api.scryfall.com/cards/004524bf-b249-4dac-9c10-44d57143feb9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-09-29* — If you control a creature that will be removed from the battlefield "at the beginning of the next end step," you can resolve the ability of Growing Rites of Itlimoc before that creature leaves the battlefield.
+  - *2017-09-29* — If you gain control of a creature "until end of turn," or if a noncreature permanent you control becomes a creature "until end of turn," it'll be a creature under your control through the entire end step.
+  - *2017-09-29* — The last ability of Growing Rites of Itlimoc doesn't trigger if you don't control four or more creatures as your end step begins. If you don't control four or more creatures as it resolves, it does nothing.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/188/growing-rites-of-itlimoc-itlimoc-cradle-of-the-sun) · oracle_id `ea9c459a-6047-43aa-968f-a582be4000e8` · printing: LCI #188 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grown from the Stump
 
@@ -587,7 +591,9 @@
 - **Flavor text** (DSC printing):
   > *Hidden within the infinite, protean rooms of the House are strange pockets of power that only the bravest dare access.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #239 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/88/growth-spiral) · oracle_id `34bcc217-dd91-45a0-90d7-a94d02f1f317` · printing: DSC #88 (2024-09-27) · [rulings](https://api.scryfall.com/cards/1e10e2b4-9639-41ae-8b8e-253224d3d513/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-01-25* — Growth Spiral's effect doesn't count as playing a land. It can put a land card onto the battlefield even if it's not your turn or if you've already played your land for the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/88/growth-spiral) · oracle_id `34bcc217-dd91-45a0-90d7-a94d02f1f317` · printing: DSC #88 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Growth Spurt
 

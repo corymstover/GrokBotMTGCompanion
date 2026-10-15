@@ -139,7 +139,13 @@
   > *The dead know lessons the living haven't learned.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #488 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/154/read-the-bones) · oracle_id `5bf4d8d9-a2b2-4dba-ac05-9d4470a89db2` · printing: DSC #154 (2024-09-27) · [rulings](https://api.scryfall.com/cards/b3198f96-f9d8-494f-a556-24ce3ad3895d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2013-09-15* — Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
+  - *2013-09-15* — The loss of life is part of the spell's effect. It's not an additional cost. If Read the Bones doesn't resolve, you won't lose life.
+  - *2013-09-15* — When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
+  - *2013-09-15* — You choose how to order cards returned to your library after scrying no matter where you put them.
+  - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/154/read-the-bones) · oracle_id `5bf4d8d9-a2b2-4dba-ac05-9d4470a89db2` · printing: DSC #154 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Read the Runes
 
@@ -274,7 +280,21 @@
   > Exile target creature. Its controller manifests the top card of their library. (That player puts the top card of their library onto the battlefield face down as a 2/2 creature. If it's a creature card, it can be turned face up any time for its mana cost.)
 - **Keywords:** Manifest
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #285 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/199/reality-shift) · oracle_id `70dc830e-d05b-4fc7-88dd-879e140b3fbf` · printing: SOC #199 (2026-04-24) · [rulings](https://api.scryfall.com/cards/920bb44e-aa7f-4ee9-ab19-30114f55ec9b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2014-11-24* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
+  - *2014-11-24* — Any time you have priority, you may turn a manifested creature face up by revealing that it's a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2014-11-24* — At any time, you can look at a face-down permanent you control. You can't look at face-down permanents you don't control unless an effect allows you to or instructs you to.
+  - *2014-11-24* — Because face-down creatures don't have names, they can't have the same name as any other creature, even another face-down creature.
+  - *2014-11-24* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2014-11-24* — If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can't transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up.
+  - *2014-11-24* — If a face-down permanent you control leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+  - *2014-11-24* — If a manifested creature would have morph if it were face up, you may also turn it face up by paying its morph cost.
+  - *2014-11-24* — The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant or change any of these characteristics.
+  - *2014-11-24* — There are no cards in the Fate Reforged set that would turn a face-down instant or sorcery card on the battlefield face up, but some older cards can try to do this. If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it's an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won't trigger, because even though you revealed the card, it never turned face up.
+  - *2014-11-24* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2014-11-24* — Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
+  - *2014-11-24* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on).
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/199/reality-shift) · oracle_id `70dc830e-d05b-4fc7-88dd-879e140b3fbf` · printing: SOC #199 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reality Smasher
 
@@ -461,7 +481,15 @@
   > You may cast creature spells of the chosen type from the top of your library.
 - **Keywords:** Changeling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #610 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/114/realmwalker) · oracle_id `b81eaa2f-0554-41c6-bdf6-d1cb73b8f56f` · printing: ECC #114 (2026-01-23) · [rulings](https://api.scryfall.com/cards/52733829-27b7-40ec-a897-cabab35b3729/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-02-05* — If Realmwalker is somehow on the battlefield with no choice having been made for it, you may still look at the top card of your library any time. You won't be able to cast any creature spells from the top of your library, even if they have no creature types.
+  - *2021-02-05* — If the top card of your library changes while you're casting a spell, playing a land, or activating an ability, you can't look at the new top card until you finish doing so. This means that if you cast a spell from the top of your library, you can't look at the next one until you're done paying for that spell.
+  - *2021-02-05* — Realmwalker doesn't change when you can cast creature spells. Normally, this means during your main phase when the stack is empty, although flash may change this.
+  - *2021-02-05* — The top card of your library isn't in your hand, so you can't foretell it, discard it, or activate any of its activated abilities.
+  - *2021-02-05* — You can look at the top card of your library whenever you want (with one restriction; see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
+  - *2021-02-05* — You must choose an existing creature type, such as Elk or Advisor. You can't choose card types (e.g., artifact) or supertypes (e.g., snow).
+  - *2021-02-05* — You'll still pay all costs for the spell, including additional costs. You may also pay alternative costs if any are available.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/114/realmwalker) · oracle_id `b81eaa2f-0554-41c6-bdf6-d1cb73b8f56f` · printing: ECC #114 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Realmwright
 
@@ -486,7 +514,13 @@
   > *"You'd better be worth it."*
   > *—Liliana Vess*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #53 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/155/reanimate) · oracle_id `a044474a-cd72-4e9d-bd8d-a08f2de9cdc0` · printing: DSC #155 (2024-09-27) · [rulings](https://api.scryfall.com/cards/368b6903-5fc4-43e7-bd44-46b8107c8bb4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-09-19* — If a card in a graveyard has {X} in its mana cost, X is 0.
+  - *2025-09-19* — If any abilities trigger on the creature entering the battlefield, those abilities resolve after you lose life. If losing life results in you losing the game, those abilities won't resolve.
+  - *2025-09-19* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, the creature you control from Reanimate is exiled.
+  - *2025-09-19* — The amount of life you lose is determined by the mana value of the card in your graveyard, not the creature once it's on the battlefield.
+  - *2025-09-19* — You lose life after the creature is already on the battlefield. Any abilities it has that interact with loss of life, such as that of Platinum Emperion, apply to that loss of life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/155/reanimate) · oracle_id `a044474a-cd72-4e9d-bd8d-a08f2de9cdc0` · printing: DSC #155 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reap
 
@@ -743,6 +777,7 @@
   > *"If none of the bones are original, is it even the same skele—aaagh!"*
   > *—Mort the Philosopher, last words*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #773 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/195/reassembling-skeleton) · oracle_id `9dbc3530-b278-4c8d-b2cc-a09dfac9d5e5` · printing: TDC #195 (2025-04-11) · [rulings](https://api.scryfall.com/cards/4d431445-d7db-4ce1-b422-41494d9be1b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reaver Ambush

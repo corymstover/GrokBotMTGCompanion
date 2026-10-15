@@ -1237,7 +1237,15 @@
   > Enchanted creature loses all abilities and is a green Elk creature with base power and toughness 3/3. (It loses all other card types and creature types.)
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #748 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/162/kenriths-transformation) · oracle_id `a492a323-df8a-40fd-bff0-50091baa7700` · printing: AFC #162 (2021-07-23) · [rulings](https://api.scryfall.com/cards/44d60a41-3f5e-4559-b18c-22c0fe15235e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2019-10-04* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature may become lethal if Kenrith's Transformation becomes attached to it during that turn.
+  - *2019-10-04* — Effects that modify a creature's power and/or toughness, such as the effect of Festive Funeral, will apply to the creature no matter when they started to take effect. The same is true for any counters that change its power and/or toughness.
+  - *2019-10-04* — If the affected creature gains an ability after Kenrith's Transformation becomes attached to it, it will keep that ability.
+  - *2019-10-04* — If the creature Kenrith's Transformation would enchant is an illegal target by the time the Aura spell resolves, the entire spell doesn't resolve. It won't enter the battlefield, so its ability won't trigger.
+  - *2019-10-04* — Kenrith's Transformation may enchant a permanent that is only temporarily a creature, such as Enchanted Carriage. If this happens, the Aura's effect causes the enchanted permanent to remain a green Elk creature even after the temporary effect expires.
+  - *2019-10-04* — Kenrith's Transformation overwrites all colors and creature types the enchanted creature has. It's just a green Elk. The creature keeps any supertypes (such as legendary) it has, but loses any other card types it has (such as artifact).
+  - *2019-10-04* — Kenrith's Transformation overwrites all previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after Kenrith's Transformation becomes attached to a creature will overwrite this effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/162/kenriths-transformation) · oracle_id `a492a323-df8a-40fd-bff0-50091baa7700` · printing: AFC #162 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kenrith, the Returned King
 
@@ -1482,6 +1490,7 @@
 - **Flavor text** (TDC printing):
   > *When a werewolf changes for the first time, that first howl is said to echo through the wilds till moonset.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #406 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/375/kessig-wolf-run) · oracle_id `c6911265-54ef-4c16-bcf2-1ffb24b7d426` · printing: TDC #375 (2025-04-11) · [rulings](https://api.scryfall.com/cards/32da0d6c-64dd-4aec-b63e-953e96164603/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kestia, the Cultivator
@@ -1560,6 +1569,7 @@
   > *Nowhere on Ikoria are monsters more integral to the landscape than Ketria, where the river itself will stand up and roar.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #359 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/250/ketria-triome) · oracle_id `6bae00e8-06cf-4ac4-a1cc-757e454109fe` · printing: IKO #250 (2020-04-24) · [rulings](https://api.scryfall.com/cards/a249b1f4-2b22-4b67-a207-e0c4ae95d2e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kevin, Questing Dragon

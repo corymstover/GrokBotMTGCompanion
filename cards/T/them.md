@@ -331,7 +331,9 @@
   > Whenever a creature you control dies, each opponent loses 1 life.
   > Whenever a creature an opponent controls dies, you gain 1 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #516 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/122/the-meathook-massacre) · oracle_id `127de52b-df75-4342-95a0-20d84c5bf916` · printing: INR #122 (2025-01-24) · [rulings](https://api.scryfall.com/cards/70d0540f-93c6-4af5-ab2d-65e6c03001c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-09-24* — If The Meathook Massacre enters the battlefield and it wasn't cast (or it was cast without paying its mana cost), X will be 0. The first ability will trigger, but it won't be much of a massacre.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/122/the-meathook-massacre) · oracle_id `127de52b-df75-4342-95a0-20d84c5bf916` · printing: INR #122 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Mechanist, Aerial Artisan
 
@@ -661,7 +663,11 @@
 - **Flavor text** (EOC printing):
   > *As the Invasion Tree grew, its branches pierced through the world's silent core.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #851 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/168/the-mycosynth-gardens) · oracle_id `03f5c566-825c-4c46-9c01-a2f9b1e70a13` · printing: EOC #168 (2025-08-01) · [rulings](https://api.scryfall.com/cards/0a6f0408-6758-495f-9d6c-7686a1542fbd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-02-04* — If the copied artifact has {X} in its mana cost, X is 0.
+  - *2023-02-04* — If the copied artifact is copying something else, then The Mycosynth Gardens becomes a copy of whatever that artifact copied.
+  - *2023-02-04* — The Mycosynth Gardens copies exactly what was printed on the original artifact and nothing else (unless that permanent is copying something else; see below). It doesn't copy whether that artifact is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/168/the-mycosynth-gardens) · oracle_id `03f5c566-825c-4c46-9c01-a2f9b1e70a13` · printing: EOC #168 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Mycotyrant
 

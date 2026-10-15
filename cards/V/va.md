@@ -297,7 +297,19 @@
   > *"I can hear the echo of their hammers, long stilled."*
   > *—Tars Olan, stoneforge mystic*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #513 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/174/valakut-awakening-valakut-stoneforge) · oracle_id `ff0ab867-b710-4b1a-baed-95fc3cf68f79` · printing: ZNR #174 (2020-09-25) · [rulings](https://api.scryfall.com/cards/228e551e-023a-4c9a-8f32-58dae6ffdf7f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2020-09-25* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2020-09-25* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2020-09-25* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2020-09-25* — If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face's name.
+  - *2020-09-25* — If an effect puts a double-faced card onto the battlefield, it enters with its front face up. If that front face can't be put onto the battlefield, it doesn't enter the battlefield.
+  - *2020-09-25* — If you put zero cards on the bottom of your library, you draw one card.
+  - *2020-09-25* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+  - *2020-09-25* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
+  - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
+  - *2020-09-25* — You choose how many cards to put on the bottom of your library as Valakut Awakening resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/174/valakut-awakening-valakut-stoneforge) · oracle_id `ff0ab867-b710-4b1a-baed-95fc3cf68f79` · printing: ZNR #174 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Valakut Exploration
 
@@ -359,7 +371,12 @@
   > Whenever a Mountain you control enters, if you control at least five other Mountains, you may have this land deal 3 damage to any target.
   > {T}: Add {R}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1320 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/zen/228/valakut-the-molten-pinnacle) · oracle_id `1bc44216-4e06-4f66-89b7-5c327004604e` · printing: ZEN #228 (2009-10-02) · [rulings](https://api.scryfall.com/cards/37bce60d-2cb0-4772-9f5c-122a7ed426a0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2009-10-01* — If a Mountain you control leaves the battlefield between the time Valakut's second ability triggers and the time it resolves, be aware if that was the Mountain that caused Valakut's ability to trigger or not. If it was, Valakut's count isn't affected; if it wasn't, Valakut's count goes down by one.
+  - *2009-10-01* — If multiple Mountains enter under your control at the same time, Valakut's second ability could trigger that many times. Each ability takes into consideration the other Mountains that entered at the same time as the one that caused it to trigger.
+  - *2009-10-01* — Valakut, the Molten Pinnacle's triggered ability has an "intervening 'if' clause." That means (1) the ability won't trigger at all unless, at the time a Mountain enters under your control, you control five or more Mountains other than that new one, and (2) the ability will do nothing if you control fewer than five Mountains other than that new one by the time it resolves.
+  - *2009-10-01* — You target a permanent or player when the ability triggers. You decide whether to have Valakut deal damage to that permanent or player as the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/zen/228/valakut-the-molten-pinnacle) · oracle_id `1bc44216-4e06-4f66-89b7-5c327004604e` · printing: ZEN #228 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Valduk, Keeper of the Flame
 
@@ -727,7 +744,10 @@
   > Whenever you cast a noncreature spell, Birds, Frogs, Otters, and Rats you control get +1/+1 until end of turn. Untap them.
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #761 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/79/valley-floodcaller) · oracle_id `4879c8f0-8832-4290-bc71-9838940f75cd` · printing: BLB #79 (2024-08-02) · [rulings](https://api.scryfall.com/cards/90b12da0-f666-471d-95f5-15d8c9b31c92/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-07-26* — Valley Floodcaller’s second ability applies to noncreature cards in any zone, provided something is allowing you to cast them. For example, you could cast a sorcery with flashback as though it had flash.
+  - *2024-07-26* — Valley Floodcaller’s second ability has no effect on abilities that you can activate “any time you could cast a sorcery.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/79/valley-floodcaller) · oracle_id `4879c8f0-8832-4290-bc71-9838940f75cd` · printing: BLB #79 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Valleymaker
 
@@ -1461,7 +1481,9 @@
 - **Flavor text** (DMR printing):
   > *True power is achieved through blood and sweat. But mostly blood.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #115 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/108/vampiric-tutor) · oracle_id `ededbdae-d9dc-4206-9335-d7158f2d7700` · printing: DMR #108 (2023-01-13) · [rulings](https://api.scryfall.com/cards/34a0203f-9cce-43a4-9cb7-8ce6647895cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-06-08* — The "shuffle and put the card on top" is a single action. If an effect causes the top card of the library to be face up, the second card down is not revealed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/108/vampiric-tutor) · oracle_id `ededbdae-d9dc-4206-9335-d7158f2d7700` · printing: DMR #108 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vampirism
 
@@ -1506,7 +1528,12 @@
   > *—Molecule Man, Owen Reece*
 - **Keywords:** Overload
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #100 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/168/vandalblast) · oracle_id `3567c3c8-b3c7-45b7-935b-b1fdbc973720` · printing: MSC #168 (2026-06-26) · [rulings](https://api.scryfall.com/cards/71067239-d46f-4201-a91c-6aa4c41fa8b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-01-12* — Because a spell with overload doesn't target when its overload cost is paid, it may affect permanents with hexproof or with protection from the appropriate color.
+  - *2024-01-12* — If you are instructed to cast a spell with overload "without paying its mana cost," you can't choose to pay its overload cost instead.
+  - *2024-01-12* — If you don't pay the overload cost of a spell with overload, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
+  - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an overload cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/168/vandalblast) · oracle_id `3567c3c8-b3c7-45b7-935b-b1fdbc973720` · printing: MSC #168 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vandalize
 
@@ -1731,7 +1758,14 @@
   > Creatures you control of the chosen type get +1/+1.
   > Whenever you cast a creature spell of the chosen type, draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #384 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/316/vanquishers-banner) · oracle_id `8cf38025-5821-45a0-9483-266353b7e82d` · printing: LCC #316 (2023-11-17) · [rulings](https://api.scryfall.com/cards/efa6944e-b5e2-4584-ae37-f5b59a8ec75e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2017-09-29* — The choice of creature type is made as Vanquisher's Banner enters the battlefield. Players can't respond to this choice. The bonus starts applying immediately.
+  - *2017-09-29* — The last ability of Vanquisher's Banner resolves before the spell that caused it to trigger. The ability will resolve even if the creature spell is countered.
+  - *2021-03-19* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature you control of the chosen type may become lethal if Vanquisher's Banner leaves the battlefield during that turn.
+  - *2021-03-19* — The choice of creature type is made as Vanquisher's Banner enters the battlefield. Players can't respond to this choice. The bonus starts applying immediately.
+  - *2021-03-19* — The last ability of Vanquisher's Banner resolves before the spell that caused it to trigger. The ability will resolve even if the creature spell is countered.
+  - *2021-03-19* — To choose a creature type, you must choose an existing creature type, such as Fungus or Sliver. You can't choose multiple creature types, such as Fungus Sliver. Card types such as artifact can't be chosen, nor can subtypes that aren't creature types, such as Jace, Vehicle, or Treasure.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/316/vanquishers-banner) · oracle_id `8cf38025-5821-45a0-9483-266353b7e82d` · printing: LCC #316 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vanquish the Foul
 
@@ -1754,6 +1788,7 @@
   > *"Invading Wakanda is the last mistake you will ever make, Doom."*
   > *—Shuri, the Black Panther*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #788 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/146/vanquish-the-horde) · oracle_id `a332e80a-dc51-4dc6-bc85-e114a1c6fdb8` · printing: MSC #146 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f392782b-7464-4617-b421-6b5d0e2880fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vanquish the Weak
@@ -2285,7 +2320,10 @@
 - **Flavor text** (CMM printing):
   > *Where victors are commemorated and moments of glory immortalized.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #169 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/436/vault-of-champions) · oracle_id `ebc5ac83-08d4-4d6b-b840-0c4ba71a38ab` · printing: CMM #436 (2023-08-04) · [rulings](https://api.scryfall.com/cards/cafd7db6-b04e-4fa2-bccd-981211132a93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-11-10* — Count the number of opponents you currently have, not how many you started with. If your four-player game is down to you and a single opponent, the land enters the battlefield tapped.
+  - *2020-11-10* — If an effect puts the land onto the battlefield tapped, having two or more opponents won't untap it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/436/vault-of-champions) · oracle_id `ebc5ac83-08d4-4d6b-b840-0c4ba71a38ab` · printing: CMM #436 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vault of the Archangel
 
@@ -2298,7 +2336,10 @@
   > *"For centuries my creation kept this world in balance. Now only her shadow remains."*
   > *—Sorin Markov*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #468 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/410/vault-of-the-archangel) · oracle_id `eeaac65a-3480-475a-bb28-e6375d53f487` · printing: TDC #410 (2025-04-11) · [rulings](https://api.scryfall.com/cards/8f203f04-bd73-4d88-bb5e-aab63507dbd1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-01-22* — Multiple instances of deathtouch or lifelink on the same creature are redundant.
+  - *2011-01-22* — Vault of the Archangel's last ability affects only creatures you control when that ability resolves. It won't affect creatures that come under your control later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/410/vault-of-the-archangel) · oracle_id `eeaac65a-3480-475a-bb28-e6375d53f487` · printing: TDC #410 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vault of Whispers
 
@@ -2309,6 +2350,7 @@
 - **Flavor text** (DSC printing):
   > *Ish Sah, den of the warlord Geth, commander of countless nim.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #620 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/322/vault-of-whispers) · oracle_id `09496421-74e4-466a-9546-56f2a0c8eef4` · printing: DSC #322 (2024-09-27) · [rulings](https://api.scryfall.com/cards/e85e4098-f872-4aa4-a71a-208b6090be28/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vault Plunderer

@@ -311,7 +311,10 @@
   > *The annual arts festival, Summitfest, draws participants from across Arcavios, but only one will walk away with The Grand Muse trophy.*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #746 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/129/seize-the-spoils) · oracle_id `58f83528-9110-4895-b5ea-51b90af30a8d` · printing: SOS #129 (2026-04-24) · [rulings](https://api.scryfall.com/cards/4ddf4e34-a1f9-4636-942d-0a08e9f94320/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-02-05* — You must discard exactly one card to cast Seize the Spoils; you can't cast it without discarding a card, and you can't discard additional cards.
+  - *2026-03-20* — You must discard exactly one card to cast Seize the Spoils; you can't cast it without discarding a card, and you can't discard additional cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/129/seize-the-spoils) · oracle_id `58f83528-9110-4895-b5ea-51b90af30a8d` · printing: SOS #129 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seize the Spotlight
 

@@ -174,6 +174,7 @@
 - **Flavor text** (CMM printing):
   > *Legend speaks of the lost coastal polis of Olantin, whose inhabitants' hubris enraged the sun god Heliod.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #684 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/70/wrath-of-god) · oracle_id `34515b16-c9a4-4f98-8c77-416a7a523407` · printing: CMM #70 (2023-08-04) · [rulings](https://api.scryfall.com/cards/537d2b05-3f52-45d6-8fe3-26282085d0c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wrath of Leknif

@@ -407,7 +407,9 @@
   > {T}: Add {C}.
   > {T}: Draw a card. Activate only if you have exactly seven cards in hand.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/303/library-of-alexandria) · oracle_id `2111588d-9af5-4a33-989e-b074d83f0463` · printing: VMA #303 (2014-06-16) · [rulings](https://api.scryfall.com/cards/e5145f31-a4ac-44ef-8f85-e4d95f2c9ff5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You may tap multiples of these in response to each other because the requirement for 7 cards is checked only at the time the ability is announced and not again when it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/303/library-of-alexandria) · oracle_id `2111588d-9af5-4a33-989e-b074d83f0463` · printing: VMA #303 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Library of Lat-Nam
 
@@ -922,7 +924,14 @@
   > *—Kotis, the Fangkeeper*
 - **Keywords:** Dredge, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #713 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/96/life-from-the-loam) · oracle_id `ac8fba34-512c-4f24-999a-ab72f1ce4acb` · printing: TDC #96 (2025-04-11) · [rulings](https://api.scryfall.com/cards/cdb6432f-3f56-4c92-b09a-2a5b64620c04/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-01-12* — Dredge can replace any card draw, not only the one during your draw step.
+  - *2024-01-12* — If an effect puts a card into your hand without specifically using the word "draw," you're not drawing a card. Dredge can't replace this event.
+  - *2024-01-12* — If you're drawing multiple cards, each draw is performed one at a time. For example, if you're instructed to draw two cards and you replace the first draw with a dredge ability, another card with a dredge ability (including one that was milled by the first dredge ability) may be used to replace the second draw.
+  - *2024-01-12* — Once you've announced that you're applying a card's dredge ability to replace a draw, players can't take any actions until you've put that card into your hand and milled cards.
+  - *2024-01-12* — One card draw can't be replaced by multiple dredge abilities.
+  - *2024-01-12* — You can't attempt to use a dredge ability if you don't have enough cards in your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/96/life-from-the-loam) · oracle_id `ac8fba34-512c-4f24-999a-ab72f1ce4acb` · printing: TDC #96 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lifegift
 
@@ -1376,6 +1385,7 @@
 - **Flavor text** (MSC printing):
   > *"I am the god of thunder, the lord of the savage lightning, and the very skies must tremble when speaks The Mighty Thor!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #157 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/806/lightning-bolt) · oracle_id `4457ed35-7c10-48c8-9776-456485fdf070` · printing: MSC #806 (2026-06-26) · [rulings](https://api.scryfall.com/cards/7673784e-db4b-43a1-8d55-1bb9fc1e284f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lightning Cloud
@@ -1499,7 +1509,10 @@
   > *—Invisible Woman, Sue Storm*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/202/lightning-greaves) · oracle_id `ca204b66-8d0c-431a-8d34-282f7c2d17da` · printing: MSC #202 (2026-06-26) · [rulings](https://api.scryfall.com/cards/b61634ae-05be-4b56-8ebb-9d4ade902e42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — If a creature enters the battlefield under your control and gains haste, but then loses it before attacking, it won't be able to attack that turn. This means that you can't use one Lightning Greaves to allow two new creatures to attack in the same turn.
+  - *2020-08-07* — You can't simply unequip Equipment from a creature. If Lightning Greaves is attached to the only creature you control, you won't be able to attach other equipment to it (or target it with anything else) until you have another creature to which you can attach Lightning Greaves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/202/lightning-greaves) · oracle_id `ca204b66-8d0c-431a-8d34-282f7c2d17da` · printing: MSC #202 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lightning Helix
 
@@ -2115,7 +2128,14 @@
   > −4: Each player sacrifices two creatures of their choice.
   > −9: Each opponent chooses a permanent they control of each permanent type and sacrifices the rest.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #775 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/176/liliana-dreadhorde-general) · oracle_id `5e958212-6a5b-4288-8d31-f1572619d7dc` · printing: FDN #176 (2024-11-15) · [rulings](https://api.scryfall.com/cards/cb28d217-795e-4320-a032-cd713f7ecc8a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-01-12* — As Liliana's last ability resolves, the next opponent in turn order (or, if it's somehow an opponent's turn, that opponent) makes all of their choices for it, then each other opponent in turn order does the same, knowing the choices made before them. Then all the unchosen permanents are sacrificed at the same time.
+  - *2024-01-12* — As Liliana's second loyalty ability resolves, first the player whose turn it is chooses two creatures they control, then each other player in turn order does the same, knowing the choices made before them. Then all the chosen creatures are sacrificed at the same time. If any player can choose only one creature, that player does so.
+  - *2024-01-12* — If Liliana dies at the same time as one or more creatures you control, her first ability triggers for each of those creatures.
+  - *2024-01-12* — If Liliana somehow becomes a creature and dies, her first ability will trigger.
+  - *2024-01-12* — The permanent types are artifact, creature, enchantment, land, and planeswalker. Supertypes, like legendary, aren't permanent types.
+  - *2024-01-12* — While making choices for Liliana's last ability, if a permanent has more than one permanent type, it can count for any of them. For example, you could choose an artifact creature as the artifact you're sparing, another creature as the creature, and an enchantment creature as the enchantment. Similarly, you could choose an enchantment creature as both the creature and the enchantment that you're sparing, even if you control another creature and/or another enchantment.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/176/liliana-dreadhorde-general) · oracle_id `5e958212-6a5b-4288-8d31-f1572619d7dc` · printing: FDN #176 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana, Heretical Healer // Liliana, Defiant Necromancer
 
@@ -2627,7 +2647,11 @@
   > When this enchantment enters, each player chooses five lands they control and sacrifices the rest.
   > Players can't play lands as long as ten or more lands are on the battlefield.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/exo/10/limited-resources) · oracle_id `5b287dcc-f853-4df1-8ddf-5b8b2adc2873` · printing: EXO #10 (1998-06-15) · [rulings](https://api.scryfall.com/cards/20ae3609-a3cc-486c-94f6-b8f647adfb47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — If a player has less than 5 lands, they get to pick and keep all of their lands.
+  - *2004-10-04* — The sacrificed lands are chosen during resolution. The current player chooses first.
+  - *2004-10-04* — You can put lands onto the battlefield using effects, you just can’t play lands from your hand as an action.
+- **Source flags:** [Scryfall](https://scryfall.com/card/exo/10/limited-resources) · oracle_id `5b287dcc-f853-4df1-8ddf-5b8b2adc2873` · printing: EXO #10 (1998-06-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Limits of Solidarity
 
@@ -2906,7 +2930,9 @@
   > *Held in the lion's eye*
   > *—Zhalfirin saying meaning "caught in the moment of crisis"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #741 · Game Changer: **yes** · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/271/lions-eye-diamond) · oracle_id `ee6099b0-fb1f-42f1-b862-7708c6e36d05` · printing: VMA #271 (2014-06-16) · [rulings](https://api.scryfall.com/cards/758f95f8-bcb0-43ae-b474-56ebd855951e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The ability is a mana ability, so it is activated and resolves as a mana ability, but it can only be activated at times when you can cast an instant. Yes, this is a bit weird.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/271/lions-eye-diamond) · oracle_id `ee6099b0-fb1f-42f1-b862-7708c6e36d05` · printing: VMA #271 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lion Umbra
 
@@ -2978,6 +3004,7 @@
   > *"Weaponized jewelry has a long and respected history."*
   > *—Ervos Trax*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #511 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/228/liquimetal-torque) · oracle_id `b7d4b7dd-fbb1-4ca3-875f-ef13a95e66ad` · printing: MH2 #228 (2021-06-18) · [rulings](https://api.scryfall.com/cards/13c6101a-da40-4785-8ccb-4e779bbbdb55/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lita, Little Orphan Amphibian
@@ -3329,7 +3356,10 @@
 - **Oracle text:**
   > Each player exiles all creature cards from their graveyard, then sacrifices all creatures they control, then puts all cards they exiled this way onto the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #454 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/185/living-death) · oracle_id `9e6a3df4-67a3-452e-a6ef-f04dbadb21ef` · printing: TDC #185 (2025-04-11) · [rulings](https://api.scryfall.com/cards/4ac29c46-f8ee-42ba-a98c-d785ba65485e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-03-16* — As Living Death resolves, all players exile their creature cards from graveyards at the same time. Then all players sacrifice all creatures they control at the same time. Then all players put all creatures they exiled onto the battlefield at the same time.
+  - *2018-03-16* — Only cards exiled by Living Death's first instruction are put onto the battlefield. If a replacement effect (such as that of Leyline of the Void) causes any of the sacrificed creatures to be exiled instead of put into a graveyard, those cards aren't returned to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/185/living-death) · oracle_id `9e6a3df4-67a3-452e-a6ef-f04dbadb21ef` · printing: TDC #185 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Living Destiny
 

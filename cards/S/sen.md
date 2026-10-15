@@ -246,7 +246,10 @@
   > {1}: Look at the top three cards of your library, then put them back in any order.
   > {T}: Draw a card, then put this artifact on top of its owner's library.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #231 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/314/senseis-divining-top) · oracle_id `13575cf9-65c1-4861-b21e-eb2155e07766` · printing: 2X2 #314 (2022-07-08) · [rulings](https://api.scryfall.com/cards/e5142b7a-e580-4737-a4aa-2590f6610ceb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-06-08* — If Sensei's Divining Top leaves the battlefield while its second ability is on the stack, you'll draw a card and leave Sensei's Divining Top in the zone it's moved to.
+  - *2016-06-08* — Sensei's Divining Top's second ability may be activated in response to its first ability. If so, you'll draw a card, put Sensei's Divining Top on top of your library, and then look at the top three cards and rearrange them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/314/senseis-divining-top) · oracle_id `13575cf9-65c1-4861-b21e-eb2155e07766` · printing: 2X2 #314 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Senseless Rage
 
@@ -307,7 +310,15 @@
   > *"Unusual. Security also worth stealing."*
   > *—Dack Fayden*
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/11/sentinel-dispatch) · oracle_id `7df49476-7b6c-4b5d-bede-463a7d2e0a58` · printing: CNS #11 (2014-06-06) · [rulings](https://api.scryfall.com/cards/2b5f4072-47d6-46e2-affb-3affb908124e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2016-08-23* — A conspiracy doesn't count as a card in your deck for purposes of meeting minimum deck size requirements. (In most drafts, the minimum deck size is 40 cards.)
+  - *2016-08-23* — A conspiracy's static and triggered abilities function as long as that conspiracy is face-up in the command zone.
+  - *2016-08-23* — Conspiracies are colorless, have no mana cost, and can't be cast as spells.
+  - *2016-08-23* — Conspiracies are never put into your deck. Instead, you put any number of conspiracies from your card pool into the command zone as the game begins. These conspiracies are face up unless they have hidden agenda, in which case they begin the game face down.
+  - *2016-08-23* — Conspiracies aren't legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft.
+  - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
+  - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/11/sentinel-dispatch) · oracle_id `7df49476-7b6c-4b5d-bede-463a7d2e0a58` · printing: CNS #11 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sentinel of Lost Lore
 

@@ -425,7 +425,11 @@
   > Addendum — If you cast this spell during your main phase, put a +1/+1 counter on each of those creatures and they gain vigilance until end of turn.
 - **Keywords:** Addendum
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #566 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/32/unbreakable-formation) · oracle_id `97435e03-2fff-4fe0-8fa9-69ab0a046a33` · printing: RVR #32 (2024-01-12) · [rulings](https://api.scryfall.com/cards/06e1cc7b-9319-4f6f-88ee-2e6b6d2efbc6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-01-25* — Unbreakable Formation affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won't gain indestructible or vigilance and they won't get a +1/+1 counter.
+  - *2024-01-12* — Addendum abilities of instant spells apply while the spell is resolving, not immediately after casting it. If the spell is countered, you don't get the addendum bonus.
+  - *2024-01-12* — If an effect copies a spell with an addendum ability while it's on the stack, the copy wasn't cast at all, so you won't get the addendum bonus.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/32/unbreakable-formation) · oracle_id `97435e03-2fff-4fe0-8fa9-69ab0a046a33` · printing: RVR #32 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unbreathing Horde
 
@@ -669,7 +673,9 @@
   > {T}: Add {C}.
   > {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #247 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/275/unclaimed-territory) · oracle_id `584b15f2-6ae9-413a-8b8d-9244dbea4878` · printing: MSC #275 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d3782952-3839-4a94-95bc-716611d3ece6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-01-19* — To choose a creature type, you must choose an existing creature type, such as Vampire or Knight. You can't choose multiple creature types, such as "Vampire Knight." Card types such as artifact can't be chosen, nor can subtypes that aren't creature types, such as Jace, Vehicle, or Treasure.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/275/unclaimed-territory) · oracle_id `584b15f2-6ae9-413a-8b8d-9244dbea4878` · printing: MSC #275 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Uncle Iroh
 
@@ -1085,6 +1091,7 @@
   > When this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #421 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/270/undercity-sewers) · oracle_id `08d80efc-9542-4ba2-824c-c8615d8d07f2` · printing: MKM #270 (2024-02-09) · [rulings](https://api.scryfall.com/cards/2b5801fb-2026-4f25-98bc-ebb2f99684b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Undercity Shade
@@ -1297,6 +1304,7 @@
   > When this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #482 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/271/underground-mortuary) · oracle_id `840119bf-e60f-4ff7-9c9b-d420d09df545` · printing: MKM #271 (2024-02-09) · [rulings](https://api.scryfall.com/cards/f6ca59cd-8779-4a84-a54b-e863b79c61f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Underground River
@@ -1310,6 +1318,7 @@
   > *"The war polluted the land, turning what had once been fruitful fields into fetid morasses of mud and rusted corpses."*
   > *—\*The Antiquities War\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #141 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/87/underground-river) · oracle_id `857febd9-cdd7-4f8e-a852-d88084b0cfbc` · printing: FRC #87 (2026-10-02) · [rulings](https://api.scryfall.com/cards/e8b05f37-815f-4854-bf82-ca544ca67532/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Underground Sea
@@ -1319,7 +1328,10 @@
 - **Oracle text:**
   > ({T}: Add {U} or {B}.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #297 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/323/underground-sea) · oracle_id `4b22be3a-8ce1-47d1-b82e-6c3ccfb0548b` · printing: VMA #323 (2014-06-16) · [rulings](https://api.scryfall.com/cards/26cee543-6eab-494e-a803-33a5d48d7d74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-10-01* — This has basic land types, but it isn't a basic land. Things that affect basic lands don't affect it. Things that affect basic land types do.
+  - *2008-10-01* — This has the mana abilities associated with both of its basic land types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/323/underground-sea) · oracle_id `4b22be3a-8ce1-47d1-b82e-6c3ccfb0548b` · printing: VMA #323 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Undergrowth
 
@@ -1394,7 +1406,10 @@
 - **Flavor text** (TMC printing):
   > *"Welcome, wrestling fans, to Stump Asteroid: Home of Stump Arena and the Intergalactic Wrestling Federation! Tonight we welcome new tag-team challengers! They're lean! They're mean! They're green . . ."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #176 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/80/undergrowth-stadium) · oracle_id `7c69f718-acc8-4851-8e5d-0cbaaa86192c` · printing: TMC #80 (2026-03-06) · [rulings](https://api.scryfall.com/cards/f25aa8aa-e2f7-4634-8a96-2082e76c6503/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-11-10* — Count the number of opponents you currently have, not how many you started with. If your four-player game is down to you and a single opponent, the land enters the battlefield tapped.
+  - *2020-11-10* — If an effect puts the land onto the battlefield tapped, having two or more opponents won't untap it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/80/undergrowth-stadium) · oracle_id `7c69f718-acc8-4851-8e5d-0cbaaa86192c` · printing: TMC #80 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Underhanded Designs
 
@@ -1511,7 +1526,18 @@
   > Each nonland card in your graveyard has escape. The escape cost is equal to the card's mana cost plus exile three other cards from your graveyard. (You may cast cards from your graveyard for their escape cost.)
   > At the beginning of the end step, sacrifice this enchantment.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #389 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/161/underworld-breach) · oracle_id `27e0948b-9916-473b-8d8c-a51bdfbc7457` · printing: THB #161 (2020-01-24) · [rulings](https://api.scryfall.com/cards/0e51d796-7279-4c06-87f0-37adbdaa41df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2020-01-24* — After an escaped spell resolves, it returns to its owner's graveyard if it's not a permanent spell. If it is a permanent spell, it enters the battlefield and will return to its owner's graveyard if it dies later. Perhaps it will escape again—good underworld security is so hard to come by these days.
+  - *2020-01-24* — Escape's permission doesn't change when you may cast the spell from your graveyard.
+  - *2020-01-24* — If a card has multiple abilities giving you permission to cast it, such as two escape abilities or an escape ability and a flashback ability, you choose which one to apply. The others have no effect.
+  - *2020-01-24* — If a card has no mana cost, its escape cost is an unpayable cost, so you can't cast it for that cost.
+  - *2020-01-24* — If a card with escape is put into your graveyard during your turn, you'll be able to cast it right away if it's legal to do so, before an opponent can take any actions.
+  - *2020-01-24* — If a spell you're casting with escape has an additional cost of discarding cards or sacrificing permanents, you may exile cards discarded or sacrificed this way to pay that part of its escape cost.
+  - *2020-01-24* — If you cast a spell with its escape permission, you can't choose to apply any other alternative costs or to cast it without paying its mana cost. If it has any additional costs, you must pay those.
+  - *2020-01-24* — If you're casting an adventurer card or split card with escape, you choose how you wish to cast it, then pay the appropriate cost (for the Adventure, the creature, or the half of the split card you chose) plus exiling three cards.
+  - *2020-01-24* — Once you begin casting a spell with escape, it immediately moves to the stack. Players can't take any other actions until you're done casting the spell.
+  - *2020-01-24* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an escape cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was and no matter whether an alternative cost was paid.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/161/underworld-breach) · oracle_id `27e0948b-9916-473b-8d8c-a51bdfbc7457` · printing: THB #161 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Underworld Cerberus
 
@@ -1849,7 +1875,23 @@
   > You may spend mana as though it were mana of any color to cast spells with the chosen name.
 - **Keywords:** Hidden agenda
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/12/unexpected-potential) · oracle_id `1acbbf61-edf7-4f67-968b-6832c2dd54d1` · printing: CNS #12 (2014-06-06) · [rulings](https://api.scryfall.com/cards/8789ef9e-f68c-4ff0-8621-47678038131b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2016-08-23* — A conspiracy doesn't count as a card in your deck for purposes of meeting minimum deck size requirements. (In most drafts, the minimum deck size is 40 cards.)
+  - *2016-08-23* — A conspiracy with hidden agenda that has a triggered ability must be face up before that ability's trigger condition is met in order for it to trigger. Turning it face up afterward won't have any effect.
+  - *2016-08-23* — A conspiracy's static and triggered abilities function as long as that conspiracy is face-up in the command zone.
+  - *2016-08-23* — As a special action, you may turn a face-down conspiracy face up. You may do so any time you have priority. This action doesn't use the stack and can't be responded to. Once face up, the named card is revealed and the conspiracy's abilities will affect the game.
+  - *2016-08-23* — At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players.
+  - *2016-08-23* — At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players. Notably, you can't bluff conspiracies with hidden agenda by putting other cards into the command zone face down as the game starts.
+  - *2016-08-23* — Conspiracies are colorless, have no mana cost, and can't be cast as spells.
+  - *2016-08-23* — Conspiracies are never put into your deck. Instead, you put any number of conspiracies from your card pool into the command zone as the game begins. These conspiracies are face up unless they have hidden agenda, in which case they begin the game face down.
+  - *2016-08-23* — Conspiracies aren't legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft.
+  - *2016-08-23* — If you play multiple games after the draft, you can name a different card in each new game.
+  - *2016-08-23* — There are several ways to secretly name a card, including writing the name on a piece of paper that's kept with the face-down conspiracy. If you have multiple face-down conspiracies, you may name a different card for each one. It's important that each named card is clearly associated with only one of the conspiracies.
+  - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
+  - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+  - *2016-08-23* — You must name a Magic card. Notably, you can't name a token.
+  - *2016-08-23* — You name the card as the game begins, as you put the conspiracy into the command zone, not as you turn the face-down conspiracy face up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/12/unexpected-potential) · oracle_id `1acbbf61-edf7-4f67-968b-6832c2dd54d1` · printing: CNS #12 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unexpected Request
 
@@ -1882,6 +1924,7 @@
   > *Fortune favors the fortunate.*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #269 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/164/unexpected-windfall) · oracle_id `498c10c9-253d-4b15-b48c-1509381b17e8` · printing: AFR #164 (2021-07-23) · [rulings](https://api.scryfall.com/cards/bae6a5fb-39f5-4cf8-85f7-661cb4570507/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unexplained Absence
@@ -2725,7 +2768,9 @@
   > *With the cycles of day and night unspooled, the twisted sway of the moon only grew. And grew.*
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #439 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/223/unnatural-growth) · oracle_id `7324abaa-48da-439d-9339-b0ea5eea612e` · printing: INR #223 (2025-01-24) · [rulings](https://api.scryfall.com/cards/08fa38c0-353c-4f6a-b87e-3f6366af44d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-09-24* — If you control more than one Unnatural Growth, each one applies independently. For example, if you control two copies of Unnatural Growth, a 2/2 Bear Cub becomes a 4/4 creature when the first ability resolves and then becomes an 8/8 creature when the second one resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/223/unnatural-growth) · oracle_id `7324abaa-48da-439d-9339-b0ea5eea612e` · printing: INR #223 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unnatural Hunger
 
@@ -3471,7 +3516,11 @@
 - **Flavor text** (DSK printing):
   > *"No! This worked perfectly in the lab!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #266 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/161/untimely-malfunction) · oracle_id `2c49d24a-98a4-43c2-bb59-1ef13d4214c2` · printing: DSK #161 (2024-09-27) · [rulings](https://api.scryfall.com/cards/857bfb0e-17dc-4dda-bc37-3df927a9eae6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-09-20* — If a spell or ability targets multiple things, you can't target it with Untimely Malfunction's second mode, even if all but one of those targets have become illegal.
+  - *2024-09-20* — The effect of Untimely Malfunction's last mode won't cause creatures that are already blocking to stop blocking.
+  - *2024-09-20* — You don't choose the new target for the spell or ability targeted with Untimely Malfunction's second mode until Untimely Malfunction resolves. You must change the target if possible. However, you can't change the target to an illegal target. If there are no legal targets to choose from, the target isn't changed. It doesn't matter if the original target has somehow become illegal itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/161/untimely-malfunction) · oracle_id `2c49d24a-98a4-43c2-bb59-1ef13d4214c2` · printing: DSK #161 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unwanted Remake
 
@@ -3567,7 +3616,11 @@
   > *"The partisans have unearthed a strange artifact. None know its origin, but it gives them hope of a life beyond."*
   > *—Elspeth's journal*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #546 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/228/unwinding-clock) · oracle_id `153fac93-5d2b-4348-a468-a5eef6a12da3` · printing: C18 #228 (2018-08-10) · [rulings](https://api.scryfall.com/cards/c3fd1a59-4ade-459f-90d2-1fc67d6d1384/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2011-06-01* — Even if you control more than one Unwinding Clock, you'll only untap your artifacts once during each other player's untap step.
+  - *2011-06-01* — Some effects, such as the one generated by Rust Tick's ability, state that an artifact doesn't untap during its controller's untap step. These effects won't apply and stop the artifact from untapping during another player's untap step.
+  - *2011-06-01* — Those artifacts untap at the same time as the active player's permanents. You have no choice about what untaps and can't choose to not untap an artifact you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/228/unwinding-clock) · oracle_id `153fac93-5d2b-4348-a468-a5eef6a12da3` · printing: C18 #228 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unworthy Dead
 

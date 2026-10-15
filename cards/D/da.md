@@ -867,7 +867,12 @@
   > Overload {2}{W}{W} (You may cast this spell for its overload cost. If you do, change "target" in its text to "each.")
 - **Keywords:** Overload
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #348 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/191/damn) · oracle_id `b01d61cc-9844-4191-86a0-f2db6d42d6e5` · printing: LCC #191 (2023-11-17) · [rulings](https://api.scryfall.com/cards/84056124-1a6f-4274-bee2-74cf0debddb5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-01-12* — Because a spell with overload doesn't target when its overload cost is paid, it may affect permanents with hexproof or with protection from the appropriate color.
+  - *2024-01-12* — If you are instructed to cast a spell with overload "without paying its mana cost," you can't choose to pay its overload cost instead.
+  - *2024-01-12* — If you don't pay the overload cost of a spell with overload, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
+  - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an overload cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/191/damn) · oracle_id `b01d61cc-9844-4191-86a0-f2db6d42d6e5` · printing: LCC #191 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Damnable Pact
 
@@ -888,6 +893,7 @@
 - **Oracle text:**
   > Destroy all creatures. They can't be regenerated.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #391 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/73/damnation) · oracle_id `d57a8f0b-7989-4db5-8756-6f2690097252` · printing: 2X2 #73 (2022-07-08) · [rulings](https://api.scryfall.com/cards/d3c0aac5-b9f1-4446-bfea-3e1dd1cf1f2f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Damning Verdict
@@ -1189,6 +1195,7 @@
   > *"I will protect the less fortunate. I will love bravely. I will face despair and fight on. As a Capashen, I can do no less."*
 - **Keywords:** Lifelink, Vigilance, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #803 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/20/danitha-capashen-paragon) · oracle_id `4b6377da-83e7-4519-9582-16a9c16b8faa` · printing: CMM #20 (2023-08-04) · [rulings](https://api.scryfall.com/cards/a11f77e4-edb6-43c6-b8ca-d4f62d26d0c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Danitha, New Benalia's Light
@@ -1833,7 +1840,11 @@
   > {3}: Remove an ice counter from Dark Depths.
   > When Dark Depths has no ice counters on it, sacrifice it. If you do, create Marit Lage, a legendary 20/20 black Avatar creature token with flying and indestructible.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1483 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/244/dark-depths) · oracle_id `c9b82110-7dfd-4617-9399-9510be449043` · printing: DMR #244 (2023-01-13) · [rulings](https://api.scryfall.com/cards/3a8b11ad-d077-40b6-988c-0462e118fe3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-12-08* — Dark Depths doesn't have a mana ability. It doesn't tap for colorless mana.
+  - *2022-12-08* — If Dark Depths leaves the battlefield before its triggered ability resolves, you won't be able to sacrifice it, so you won't create Marit Lage.
+  - *2022-12-08* — The last ability of Dark Depths is a state trigger. It won't trigger again while the ability is on the stack, but if the ability is countered and Dark Depths is still on the battlefield with no ice counters on it, it will trigger again immediately.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/244/dark-depths) · oracle_id `c9b82110-7dfd-4617-9399-9510be449043` · printing: DMR #244 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dark-Dweller Oracle
 
@@ -2134,6 +2145,7 @@
   > Remove this card from your deck before playing if you're not playing for ante.
   > You own target card in the ante. Exchange that card with the top card of your library.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sum/100/darkpact) · oracle_id `74f10b9a-a286-49b2-bfa1-a427ff041bd4` · printing: SUM #100 (1994-06-21) · [rulings](https://api.scryfall.com/cards/f9ab1c5e-e36e-4a2a-9e6d-c993edc17c03/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dark Petition
@@ -2208,6 +2220,7 @@
 - **Flavor text** (MSC printing):
   > *"Behold! The most arcane powers of the multiverse are mere tools in service of Doom's ambition."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #33 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/793/dark-ritual) · oracle_id `53f7c868-b03e-4fc2-8dcf-a75bbfa3272b` · printing: MSC #793 (2026-06-26) · [rulings](https://api.scryfall.com/cards/11e12a84-e7be-4afc-a230-c2e644743fa8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dark Salvation
@@ -2323,7 +2336,9 @@
   > *Structures built from darksteel yield to neither assault nor age.*
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #284 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/285/darksteel-citadel) · oracle_id `8dc067bf-f78f-4ac4-b6e7-b305c42cf0bc` · printing: C21 #285 (2021-04-23) · [rulings](https://api.scryfall.com/cards/2ba7597d-6d76-45b8-b172-342999e401bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-07-18* — Although Darksteel Citadel is an artifact, it can't be cast as a spell. Playing it follows the normal rules for playing a land.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/285/darksteel-citadel) · oracle_id `8dc067bf-f78f-4ac4-b6e7-b305c42cf0bc` · printing: C21 #285 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Darksteel Colossus
 
@@ -2427,7 +2442,16 @@
   > *Infinitely powerless.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #586 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/142/darksteel-mutation) · oracle_id `05a4f8ff-49da-42af-add5-6248c4b0644b` · printing: SOC #142 (2026-04-24) · [rulings](https://api.scryfall.com/cards/6e776a1e-266d-4b30-83da-be4721a55ed2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2013-10-17* — Darksteel Mutation causes the enchanted creature to lose all abilities except indestructible at the time it becomes enchanted. Any abilities the creature gains after that point will work normally.
+  - *2013-10-17* — Darksteel Mutation doesn't affect the enchanted creature's colors, if any. It will continue to be whatever color or colors it was before Darksteel Mutation entered the battlefield.
+  - *2013-10-17* — Darksteel Mutation overwrites any previous effects that set the enchanted creature's power or toughness to a specific value. Any such effects that start to apply after Darksteel Mutation entered the battlefield will work normally.
+  - *2013-10-17* — Darksteel Mutation overwrites the printed power and toughness of the enchanted creature, as well as any characteristic-defining abilities that define power and/or toughness.
+  - *2013-10-17* — However, Darksteel Mutation does not overwrite effects that change the enchanted creature's power or toughness without setting it to a specific value (such as the ones created by Giant Growth or Glorious Anthem). It also won't overwrite the effect of counters.
+  - *2013-10-17* — In some rare cases, the creature may have subtypes other than creature types before becoming enchanted with Darksteel Mutation. If it had any other artifact subtypes (such as Equipment), it will retain those. If it had any subtypes other than artifact types and creature types (such as Shrine), it won't retain those.
+  - *2013-10-17* — The creature will keep any supertypes it previously had. Notably, if Darksteel Mutation is enchanting a legendary creature, that creature will continue to be legendary. Also, if it's enchanting a commander, that creature will continue to be a commander.
+  - *2013-10-17* — The enchanted creature will be only an artifact and a creature, not any other card types. It will be only an Insect, not any other creature types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/142/darksteel-mutation) · oracle_id `05a4f8ff-49da-42af-add5-6248c4b0644b` · printing: SOC #142 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Darksteel Myr
 
@@ -2464,6 +2488,7 @@
   > *—Koth of the Hammer*
 - **Keywords:** Indestructible, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #912 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/304/darksteel-plate) · oracle_id `b5b4cf54-ed5e-42d0-9d98-5fec76b0b0b8` · printing: 2X2 #304 (2022-07-08) · [rulings](https://api.scryfall.com/cards/3f99fb1e-99a6-4c83-98eb-7bff23996a7f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Darksteel Reactor
@@ -2607,6 +2632,7 @@
 - **Flavor text** (TDC printing):
   > *Murky Otarian tides hide the forgotten treacheries of the Phyrexian war.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #328 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/355/darkwater-catacombs) · oracle_id `4869a530-757f-4364-8d8e-4dc8001f433c` · printing: TDC #355 (2025-04-11) · [rulings](https://api.scryfall.com/cards/03fbf51d-f622-4629-a228-a03ce7caf500/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Darkwater Egg
@@ -2890,7 +2916,11 @@
 - **Flavor text** (DOM printing):
   > *The Benalish aristocracy is hereditary, but the loyalty of its subjects is earned.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9936 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/14/dauntless-bodyguard) · oracle_id `70973a2d-66e6-4662-ab10-99678775dda1` · printing: DOM #14 (2018-04-27) · [rulings](https://api.scryfall.com/cards/a3f82012-5c33-47bc-a3c8-56ae2eea1fb9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-04-27* — Dauntless Bodyguard’s first ability isn’t a triggered ability and doesn’t use the stack. Players can’t respond to your choice of which creature it’s protecting.
+  - *2018-04-27* — If Dauntless Bodyguard enters the battlefield at the same time as another creature, that creature can’t be chosen for its ability.
+  - *2018-04-27* — If the chosen creature leaves the battlefield, you can’t choose a new creature for Dauntless Bodyguard to protect. If you activate its last ability in this case, no creature gains indestructible.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/14/dauntless-bodyguard) · oracle_id `70973a2d-66e6-4662-ab10-99678775dda1` · printing: DOM #14 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dauntless Cathar
 
@@ -3156,7 +3186,15 @@
   > {T}, Sacrifice this creature: Choose an exiled card an opponent owns with a void counter on it. You may play it this turn without paying its mana cost.
 - **Keywords:** Shadow
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #395 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/176/dauthi-voidwalker) · oracle_id `f1c2dbe2-fbe0-4058-bdf1-91d1b1832786` · printing: TDC #176 (2025-04-11) · [rulings](https://api.scryfall.com/cards/3573b9a2-7911-475c-8ae7-25bd0dbb7159/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-06-18* — If a card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2021-06-18* — If an attacking creature has multiple evasion abilities, such as shadow and flying, a creature can block it only if that creature satisfies all of the appropriate evasion abilities.
+  - *2021-06-18* — If you cast a card this way, you may not cast it for any other alternative costs it has, but you may pay for additional costs, such as kicker costs. If the spell requires an additional cost, you must pay that cost.
+  - *2021-06-18* — If your opponent discards a card while you control Dauthi Voidwalker, abilities that function when that card is discarded still work, even though that card never reaches that player's graveyard. In addition, spells or abilities that check the characteristics of the discarded card can find that card in exile.
+  - *2021-06-18* — Playing a card with Dauthi Voidwalker's last ability is still subject to normal timing restrictions.
+  - *2021-06-18* — Tokens still die while Dauthi Voidwalker is on the battlefield.
+  - *2021-06-18* — While Dauthi Voidwalker is on the battlefield, nontoken creatures your opponents control won't die. They'll be exiled instead. Abilities that would trigger when those creatures die won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/176/dauthi-voidwalker) · oracle_id `f1c2dbe2-fbe0-4058-bdf1-91d1b1832786` · printing: TDC #176 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dauthi Warlord
 
@@ -3692,7 +3730,16 @@
   > You and permanents you control gain hexproof until end of turn. If the gift was promised, permanents you control also gain indestructible until end of turn.
 - **Keywords:** Gift
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #358 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/9/dawns-truce) · oracle_id `37c06f89-db36-4937-9404-2b07cd22e1a6` · printing: BLB #9 (2024-08-02) · [rulings](https://api.scryfall.com/cards/8f72bfa0-efef-48ce-aff8-d5818ed71ba6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-07-26* — As an additional cost to cast a spell with gift, you can promise the listed gift to an opponent. That opponent is chosen as part of that additional cost. The gift isn't given at this time; rather, it's given at a later time based on whether or not the spell is a permanent spell.
+  - *2024-07-26* — For instants and sorceries with gift, the gift is given to the appropriate opponent as part of the resolution of the spell. This happens before any of the spell's other effects would take place.
+  - *2024-07-26* — For permanent spells with gift, an ability triggers when that permanent enters if the gift was promised. When that ability resolves, the gift is given to the appropriate opponent.
+  - *2024-07-26* — If a spell for which the gift was promised is countered, doesn't resolve (perhaps because all of its targets are illegal), or is otherwise removed from the stack, the gift won't be given. None of its other effects will happen either.
+  - *2024-07-26* — If you copy a spell for which the gift was promised, the gift was also promised to the same opponent for the copy. If a card or token enters as a copy of a permanent that's already on the battlefield, the gift isn't promised for that new permanent, even if it was promised for the original.
+  - *2024-07-26* — In the main set, there are four different kinds of gifts. "Gift a Food" causes the chosen opponent to create a Food token, while "Gift a Treasure" causes the chosen opponent to create a Treasure token. "Gift a card" causes them to draw a card, and "Gift a tapped Fish" causes them to create a tapped 1/1 blue Fish creature token. The Commander decks contain two more kinds of gifts: "Gift an Octopus," which causes the chosen opponent to create an 8/8 blue Octopus creature token, and "Gift an extra turn," which causes them to take an extra turn after the current turn ends.
+  - *2024-07-26* — Some instant or sorcery spells require alternative or additional targets if the gift was promised. You ignore these targeting requirements if the gifts aren't promised for those spells. On the other hand, you can promise a gift for a permanent spell even if you won't be able to choose targets for an enters ability of that permanent once the spell resolves.
+  - *2024-07-26* — You can't pay a gift cost more than once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/9/dawns-truce) · oracle_id `37c06f89-db36-4937-9404-2b07cd22e1a6` · printing: BLB #9 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dawn to Dusk
 

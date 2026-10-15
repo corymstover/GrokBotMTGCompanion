@@ -381,7 +381,10 @@
 - **Flavor text** (M11 printing):
   > *The Multiverse is filled with limitless power just waiting for someone to reach out and seize it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #711 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m11/153/pyretic-ritual) · oracle_id `86ef6474-613f-41fb-931c-d4279b03ed99` · printing: M11 #153 (2010-07-16) · [rulings](https://api.scryfall.com/cards/1e577638-a7ed-4bcc-90fb-0cffe87d5a28/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2010-08-15* — In the same vein, you can cast Pyretic Ritual only at a time when you could cast any other instant, not at a time when you could activate a mana ability. For example, you can’t cast Pyretic Ritual in the midst of casting another spell; you’d need to cast Pyretic Ritual first.
+  - *2010-08-15* — Pyretic Ritual is not a mana ability and doesn’t behave like one. You cast it as a spell. It uses the stack. It can be responded to, and it can be countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m11/153/pyretic-ritual) · oracle_id `86ef6474-613f-41fb-931c-d4279b03ed99` · printing: M11 #153 (2010-07-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyrewild Shaman
 
@@ -457,7 +460,10 @@
 - **Flavor text** (EMA printing):
   > *Water can be crushing, but it is predictable. Fire is always dynamic, its rage absolute and all-consuming.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #479 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ema/142/pyroblast) · oracle_id `ecc435e2-deb1-420a-a79f-01dd08747314` · printing: EMA #142 (2016-06-10) · [rulings](https://api.scryfall.com/cards/b029eb9a-dd7a-40c2-96c4-0063d9cc002c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — The decision to counter a spell or destroy a permanent is a decision made on announcement before the target is selected. If the spell is redirected, this mode can't be changed, so only targets of the selected type are valid.
+  - *2016-06-08* — Pyroblast can target any spell or permanent, not just a blue one. It checks the color of the target only on resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ema/142/pyroblast) · oracle_id `ecc435e2-deb1-420a-a79f-01dd08747314` · printing: EMA #142 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyroceratops
 

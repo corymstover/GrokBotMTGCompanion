@@ -484,6 +484,7 @@
 - **Flavor text** (ECC printing):
   > *"The curse is broken."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #179 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/115/return-of-the-wildspeaker) · oracle_id `2b76f9e9-cd28-4eaf-8674-215c34263f96` · printing: ECC #115 (2026-01-23) · [rulings](https://api.scryfall.com/cards/2fa1dac5-51ba-403e-b48b-d2c0d23a8146/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Return the Favor
@@ -498,7 +499,29 @@
   > *"Don't you know it's rude not to share?"*
 - **Keywords:** Spree
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #572 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/142/return-the-favor) · oracle_id `30377bd5-99ab-4888-9ea7-e5a069b527e8` · printing: OTJ #142 (2024-04-19) · [rulings](https://api.scryfall.com/cards/a9cc02d1-799d-42aa-9bc2-4c05452b63b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (21):
+  - *2024-04-12* — Each additional cost and associated mode in the text box is also preceded with a + indicator. These symbols also have no rules meaning and serve only to remind players that the listed costs are additional costs.
+  - *2024-04-12* — If a mode requires a target, you can select that mode only if there's a legal target available. Ignore the targeting requirements for modes you don't choose.
+  - *2024-04-12* — If a spell or ability targets multiple things, you can't target it with Return the Favor's second mode, even if all but one of those targets have become illegal.
+  - *2024-04-12* — If a spell that's copied has an X whose value was determined as it was cast, the copy will have the same value of X. The same is true for an ability that's copied and an X whose value was determined as the ability was activated.
+  - *2024-04-12* — If a spell with spree is copied, the effect that creates the copy may allow you to choose new targets. You cannot choose new modes.
+  - *2024-04-12* — If all targets for the chosen modes become illegal before a spell with spree resolves, the spell won't resolve and none of its effects will happen. If at least one target is still legal, the spell will resolve but will have no effect on any illegal targets.
+  - *2024-04-12* — If an effect allows you to cast a spell with spree "without paying its mana cost," you must still choose at least one mode and pay the associated additional costs.
+  - *2024-04-12* — If the copied spell or ability divides damage or distributes counters among a number of targets, the division and number of targets can't be changed. If you choose new targets, you must choose the same number of targets.
+  - *2024-04-12* — If the copied spell or ability is modal (that is, it says "Choose one —" or the like), the copy will have the same mode or modes. You can't choose different ones.
+  - *2024-04-12* — If you copy a spell with the first mode, you can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+  - *2024-04-12* — If you copy an activated ability with the first mode, and the activation cost includes a choice, such as a creature to sacrifice or a number of counters to remove, the copy uses that same information. You can't pay the cost again, even if you want to.
+  - *2024-04-12* — No matter which modes you choose, you always follow the instructions in the order they are written.
+  - *2024-04-12* — No player can cast spells or activate abilities in between the modes of a resolving spell. Any abilities that trigger won't be put onto the stack until the spell is done resolving.
+  - *2024-04-12* — Spells with spree have a + (plus sign) indicator in the upper right corner of the card frame. This has no rules meaning and serves only to remind players that at least one additional cost is required to cast the spell.
+  - *2024-04-12* — The copy created by the effect of Return the Favor's first mode will have the same targets as the spell or ability it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal.
+  - *2024-04-12* — The copy made by the effect of Return the Favor's first mode is created on the stack, so it's not "cast" or "activated."
+  - *2024-04-12* — The mana value of a spell with spree is determined only by its mana cost (in the upper right corner of the card). It doesn't matter which modes you choose or which additional costs you pay, including any additional costs imposed by other effects.
+  - *2024-04-12* — You can't choose the same mode more than once.
+  - *2024-04-12* — You choose the modes as you cast the spell with spree. Once modes are chosen, they can't be changed.
+  - *2024-04-12* — You don't choose the new target for the spell or ability targeted with Return the Favor's second mode until Return the Favor resolves. You must change the target if possible. However, you can't change the target to an illegal target. If there are no legal targets to choose from, the target isn't changed. It doesn't matter if the original target has somehow become illegal itself.
+  - *2024-04-12* — You must choose at least one of the listed modes and pay its associated additional cost in order to cast a spell with spree.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/142/return-the-favor) · oracle_id `30377bd5-99ab-4888-9ea7-e5a069b527e8` · printing: OTJ #142 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Return the Past
 
@@ -544,7 +567,10 @@
 - **Flavor text** (DSC printing):
   > *Some timelines forever fray, branch, and intermingle. Others end abruptly.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1636 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/102/return-to-dust) · oracle_id `3029df1d-d02a-4fed-8ab4-000a2096f823` · printing: DSC #102 (2024-09-27) · [rulings](https://api.scryfall.com/cards/3c3745c2-5509-4d6b-8f49-5cb93374edea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-03-19* — If a spell or ability copies Return to Dust, the copy exiles only the first target artifact or enchantment. This is because the copy wasn't cast at all.
+  - *2021-03-19* — Return to Dust can always target a second artifact or enchantment; it just won't exile it if it's not your main phase when you cast Return to Dust.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/102/return-to-dust) · oracle_id `3029df1d-d02a-4fed-8ab4-000a2096f823` · printing: DSC #102 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Return to Nature
 
@@ -559,6 +585,7 @@
   > *"Long after the magic wore off, the mice still dreamed of glorious galloping."*
   > *—\*Tales of the Fae\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #785 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/309/return-to-nature) · oracle_id `777b8ec4-a783-4297-96b7-4f200d0eb734` · printing: MOC #309 (2023-04-21) · [rulings](https://api.scryfall.com/cards/7e99f99a-68a1-4f35-853c-794630d313fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Return to the Earth

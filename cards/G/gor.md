@@ -67,7 +67,11 @@
 - **Flavor text** (CMM printing):
   > *You don't want to know how she got that name.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #637 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/293/goreclaw-terror-of-qal-sisma) · oracle_id `befb211f-37ca-4083-98d4-9ff1f28be3f2` · printing: CMM #293 (2023-08-04) · [rulings](https://api.scryfall.com/cards/ee47f23a-3ba9-4615-b170-c89d8ab99d78/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-07-13* — Goreclaw's last ability affects only creatures you control with the appropriate power at the time it resolves. Creatures you begin to control later in the turn won't get either bonus, and a creature you control whose power decreases later in the turn won't lose either bonus.
+  - *2018-07-13* — If another creature has an ability that changes its power when it attacks, such as Brawl-Bash Ogre, you may have that ability resolve before Goreclaw's last ability.
+  - *2018-07-13* — If you cast a creature spell that will enter the battlefield with a number of +1/+1 counters, such as Hungering Hydra, those counters aren't considered when determining whether Goreclaw reduces that spell's cost. Similarly, effects that will raise the creature's power once it has entered the battlefield won't apply.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/293/goreclaw-terror-of-qal-sisma) · oracle_id `befb211f-37ca-4083-98d4-9ff1f28be3f2` · printing: CMM #293 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorehorn Minotaurs
 

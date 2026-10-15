@@ -616,6 +616,7 @@
 - **Flavor text** (DSK printing):
   > *Here, the Boilerbilges twitch like a trapped animal, peaks straining against the grasping roots and vines.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #719 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/270/thornspire-verge) · oracle_id `e861bc08-4f0b-4d22-9b85-9d20227fd5b4` · printing: DSK #270 (2024-09-27) · [rulings](https://api.scryfall.com/cards/7e1cdc03-6faa-4138-9a52-caafbe34fb59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thorn Thallid
@@ -1017,6 +1018,7 @@
   > *It roams the skies over the Quicksilver Sea, alert for any hint of aberrant thought.*
 - **Keywords:** Flying, Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #736 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/79/thought-monitor) · oracle_id `9deded8b-cec4-4ede-a50b-131404d456d4` · printing: EOC #79 (2025-08-01) · [rulings](https://api.scryfall.com/cards/18a6ea89-417c-4ee0-a410-8a0067b92967/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thought Nibbler
@@ -1164,6 +1166,7 @@
 - **Flavor text** (MBC printing):
   > *Infinite possibilities contained in a finite space.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/78/thought-vessel) · oracle_id `9965d9c5-2ebf-4a6c-930e-55c5890979be` · printing: MBC #78 (2026-10-19) · [rulings](https://api.scryfall.com/cards/ad077996-6b5e-4eb8-bb6e-93d43c5efa8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thoughtweft Charge

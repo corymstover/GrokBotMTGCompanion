@@ -307,7 +307,17 @@
   > {3}{W}: Level 3
   > Creature tokens you control get +2/+2.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #633 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/6/caretakers-talent) · oracle_id `c97957a2-8310-4cff-8aad-871b7901d124` · printing: BLB #6 (2024-08-02) · [rulings](https://api.scryfall.com/cards/ad5ea98a-e36e-4ab9-b4da-cc572f3777db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-07-26* — Any "as [this permanent] enters" or "[this permanent] enters with" abilities of the new token will work.
+  - *2024-07-26* — Each Class has five abilities. The three in the major sections of its text box are class abilities. Class abilities can be static, activated, or triggered abilities. The other two are level abilities, one activated ability to advance the Class to level 2 and another to advance the Class to level 3.
+  - *2024-07-26* — Each Class starts with only the first of its three class abilities. As the first level ability resolves, the Class becomes level 2 and gains the second class ability. As the second level ability resolves, the Class becomes level 3 and gains the third class ability.
+  - *2024-07-26* — Gaining a level is a normal activated ability. It uses the stack and can be responded to.
+  - *2024-07-26* — Gaining a level won't remove abilities that a Class had at a previous level.
+  - *2024-07-26* — The new token created by the second class ability copies the characteristics of the original token as stated by the effect that created the original token.
+  - *2024-07-26* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, color, and so on.
+  - *2024-07-26* — There's no restriction on how many Class permanents you can control, whether they're the same or different classes. Each Class permanent tracks its own level separately.
+  - *2024-07-26* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/6/caretakers-talent) · oracle_id `c97957a2-8310-4cff-8aad-871b7901d124` · printing: BLB #6 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cargo Ship
 
@@ -756,6 +766,7 @@
 - **Flavor text** (MH1 printing):
   > *It has no respect for the deeds of martyrs, reducing their legacy to a mouthful of flesh.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #609 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/81/carrion-feeder) · oracle_id `a1cc5e37-b09a-4b7f-afd5-77c1c35aa425` · printing: MH1 #81 (2019-06-14) · [rulings](https://api.scryfall.com/cards/0a19da90-880e-4eca-8cf7-6d7baf090d53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Carrion Grub

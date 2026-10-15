@@ -48,7 +48,9 @@
 - **Flavor text** (ELD printing):
   > *Mourning shifts seamlessly to celebration as she chooses her next suitor.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #836 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/75/ayara-first-of-locthwain) · oracle_id `388168b3-ec68-4af2-b88c-6a5ec88c15f6` · printing: ELD #75 (2019-10-04) · [rulings](https://api.scryfall.com/cards/ed0ace28-9a33-4f0d-b8c8-f5517f20ccf1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-10-04* — In a Two-Headed Giant game, Ayara's first ability causes the opposing team to lose 1 life twice, and you gain 1 life once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/75/ayara-first-of-locthwain) · oracle_id `388168b3-ec68-4af2-b88c-6a5ec88c15f6` · printing: ELD #75 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ayara's Oathsworn
 

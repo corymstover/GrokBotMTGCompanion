@@ -1323,7 +1323,15 @@
   > {R}, {T}: You may play the exiled card without paying its mana cost if an opponent was dealt 7 or more damage this turn.
 - **Keywords:** Hideaway
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #783 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/300/spinerock-knoll) · oracle_id `690c7f8e-fea2-4920-afa7-02ff120701a1` · printing: DSC #300 (2024-09-27) · [rulings](https://api.scryfall.com/cards/11e4ba4b-62d1-43ed-82e8-cd45d7a62c65/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2007-10-01* — At the time the last ability resolves, you'll get to play the card if a player who is currently your opponent, or a player who was your opponent at the time they left the game, has been dealt 7 damage over the course of the turn.
+  - *2007-10-01* — It doesn't matter how the opponent was dealt damage or by whom, as long as the total damage is 7 or more. You don't specify an opponent when you activate the ability.
+  - *2007-10-01* — You'll get to play the card even if Spinerock Knoll wasn't on the battlefield at the time some or all of the 7 damage was dealt.
+  - *2022-04-29* — "Hideaway N" means "When this permanent enters the battlefield, look at the top N cards of your library. Exile one of them face down and put the rest on the bottom of your library in a random order. The exiled card gains 'The player who controls the permanent that exiled this card may look at this card in the exile zone.'"
+  - *2022-04-29* — Any player who has controlled a permanent with a hideaway ability since a card was exiled with it may look at that card.
+  - *2022-04-29* — Hideaway now causes you to put the rest of the cards on the bottom of your library in a random order instead of any order.
+  - *2022-04-29* — Previously, permanents with hideaway entered the battlefield tapped. This ability has been removed from the definition of hideaway. Older cards have received errata to have an additional paragraph that reads "[This permanent] enters the battlefield tapped," and they now have hideaway 4.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/300/spinerock-knoll) · oracle_id `690c7f8e-fea2-4920-afa7-02ff120701a1` · printing: DSC #300 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spinerock Tyrant
 
@@ -1575,7 +1583,9 @@
 - **Flavor text** (TMC printing):
   > *The strange nature of Dimension X allows any and every microhabitat to flourish, from planet-sized eyes to an asteroid-top jungle paradise.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #188 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/75/spire-garden) · oracle_id `45fe016e-1a09-410c-bbe3-4663ba06c5b7` · printing: TMC #75 (2026-03-06) · [rulings](https://api.scryfall.com/cards/48444c3e-2068-4961-a9cd-9398052e5bd6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-06-08* — If you began the game with two or more opponents but now only have one opponent left, these lands enter the battlefield tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/75/spire-garden) · oracle_id `45fe016e-1a09-410c-bbe3-4663ba06c5b7` · printing: TMC #75 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spire Golem
 
@@ -1643,6 +1653,7 @@
 - **Flavor text** (EOC printing):
   > *A beacon of prosperity to some, a shadow of oppression to others.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #392 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/183/spire-of-industry) · oracle_id `55a519b4-61cb-448a-875b-4d6dbe00580f` · printing: EOC #183 (2025-08-01) · [rulings](https://api.scryfall.com/cards/35e9ec06-a848-4230-84a2-19cb8034e0f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spire Owl

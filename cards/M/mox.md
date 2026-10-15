@@ -31,7 +31,11 @@
 - **Flavor text** (DOM printing):
   > *A moment in time made tangible, it has the power to realize epic visions.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #205 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/224/mox-amber) · oracle_id `7a43bd27-fdd8-41f0-9bc4-92568f3408f1` · printing: DOM #224 (2018-04-27) · [rulings](https://api.scryfall.com/cards/66024e69-ad60-4c9a-a0ca-da138d33ad80/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-04-27* — If you control no legendary creatures or legendary planeswalkers, you can activate Mox Amber's ability, but you won't add any mana.
+  - *2018-04-27* — If your legendary creatures and legendary planeswalkers are all colorless, you can activate Mox Amber's ability, but you won't add any mana. Colorless is not a color.
+  - *2018-04-27* — Mox Amber's ability adds one mana of the color of your choice from among the colors of legendary creatures and legendary planeswalkers you control. It doesn't add one mana of each of those colors.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/224/mox-amber) · oracle_id `7a43bd27-fdd8-41f0-9bc4-92568f3408f1` · printing: DOM #224 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mox Diamond
 
@@ -41,7 +45,9 @@
   > If this artifact would enter, you may discard a land card instead. If you do, put this artifact onto the battlefield. If you don't, put it into its owner's graveyard.
   > {T}: Add one mana of any color.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #248 · Game Changer: **yes** · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/228/mox-diamond) · oracle_id `f3c5978a-70fa-431f-933b-b954bd0db0ea` · printing: TPR #228 (2015-05-06) · [rulings](https://api.scryfall.com/cards/bf9fecfd-d122-422f-bd0a-5bf69b434dfe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-05-01* — If you don't discard a land card, Mox Diamond never enters. It won't trigger abilities that look for something entering, and you won't get the opportunity to tap it for mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/228/mox-diamond) · oracle_id `f3c5978a-70fa-431f-933b-b954bd0db0ea` · printing: TPR #228 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mox Emerald
 
@@ -50,6 +56,7 @@
 - **Oracle text:**
   > {T}: Add {G}.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/5/mox-emerald) · oracle_id `376ee366-e082-402f-b4db-6592fcfcacd2` · printing: VMA #5 (2014-06-16) · [rulings](https://api.scryfall.com/cards/aced2c55-7543-4076-bcdd-36c4d649b8ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moxite Refinery
@@ -84,6 +91,7 @@
 - **Oracle text:**
   > {T}: Add {B}.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/6/mox-jet) · oracle_id `0677f49e-f8bf-4349-af52-2ccde9287c2e` · printing: VMA #6 (2014-06-16) · [rulings](https://api.scryfall.com/cards/5f6927e1-c580-483a-8e2a-6e2deb74800e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mox Lotus
@@ -106,7 +114,9 @@
   > *The suns of Mirrodin have shone upon perfection only once.*
 - **Keywords:** Metalcraft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #243 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/275/mox-opal) · oracle_id `de2440de-e948-4811-903c-0bbe376ff64d` · printing: 2XM #275 (2020-08-07) · [rulings](https://api.scryfall.com/cards/56001a36-126b-4c08-af98-a6cc4d84210e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — If you control Mox Opal and one other artifact, then have a second Mox Opal enter the battlefield as your third artifact, you can't activate either one's mana ability before putting one into your graveyard due to the “legend rule.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/275/mox-opal) · oracle_id `de2440de-e948-4811-903c-0bbe376ff64d` · printing: 2XM #275 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mox Pearl
 
@@ -115,6 +125,7 @@
 - **Oracle text:**
   > {T}: Add {W}.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/7/mox-pearl) · oracle_id `824597b8-c89a-47ec-8526-7efc6e24ef0e` · printing: VMA #7 (2014-06-16) · [rulings](https://api.scryfall.com/cards/ed0216a0-c5c9-4a99-b869-53e4d0256326/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mox Poison
@@ -133,6 +144,7 @@
 - **Oracle text:**
   > {T}: Add {R}.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/8/mox-ruby) · oracle_id `ed85fa82-e4fa-434b-92a8-36b6075708d1` · printing: VMA #8 (2014-06-16) · [rulings](https://api.scryfall.com/cards/45fd6e91-df76-497f-b642-33dc3d5f6a5a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mox Sapphire
@@ -142,6 +154,7 @@
 - **Oracle text:**
   > {T}: Add {U}.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/9/mox-sapphire) · oracle_id `d5ed1233-df87-4b90-8918-13922ec95249` · printing: VMA #9 (2014-06-16) · [rulings](https://api.scryfall.com/cards/ea1feac0-d3a7-45eb-9719-1cdaf51ea0b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mox Tantalite

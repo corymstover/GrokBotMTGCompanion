@@ -131,6 +131,7 @@
   > Whenever enchanted Forest is tapped for mana, its controller adds an additional one mana of the chosen color.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #349 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/159/utopia-sprawl) · oracle_id `00d8efa6-a2d9-4249-8da7-b45173675329` · printing: RVR #159 (2024-01-12) · [rulings](https://api.scryfall.com/cards/5ea568df-04a1-4012-98ec-ba75e189e0ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Utopia Tree

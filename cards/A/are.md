@@ -75,7 +75,16 @@
   > {R}, {T}, Exert this land: Add {R}{R}. If any of that mana is spent on a creature spell, it gains haste until end of turn. (An exerted permanent won't untap during your next untap step.)
 - **Keywords:** Exert
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #372 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/215/arena-of-glory) · oracle_id `63dfe794-5f56-41ec-9883-5523b41cc3e0` · printing: MH3 #215 (2024-06-14) · [rulings](https://api.scryfall.com/cards/dd148edc-9e43-41aa-bb50-f912115d3e72/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-06-07* — If an exerted permanent is already untapped during your next untap step (most likely because an effect untapped it), exert's effect preventing it from untapping expires without having done anything.
+  - *2024-06-07* — If mana generated with Arena of Glory's last ability is spent on a noncreature spell that becomes a creature later in the turn, that creature won't have haste.
+  - *2024-06-07* — If mana generated with Arena of Glory's last ability is spent to cast a noncreature spell that creates tokens, those tokens won't gain haste.
+  - *2024-06-07* — If mana generated with Arena of Glory's last ability is spent to pay any part of a creature spell's cost, including an alternative or additional cost, that creature spell (and the resulting creature) will gain haste until end of turn.
+  - *2024-06-07* — If the mana generated with Arena of Glory's last ability is spent on two different creature spells, each of those spells (and resulting creatures) will gain haste until end of turn.
+  - *2024-06-07* — If you gain control of another player's permanent until end of turn and exert it, and then that player regains control of it, it will untap during that player's untap step.
+  - *2024-06-07* — The mana generated with Arena of Glory's last ability can be spent on anything, not just creature spells.
+  - *2024-06-07* — You must already control a Mountain as Arena of Glory enters the battlefield for it to enter untapped. If it enters the battlefield at the same time as a Mountain when you control no other Mountains, it will enter tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/215/arena-of-glory) · oracle_id `63dfe794-5f56-41ec-9883-5523b41cc3e0` · printing: MH3 #215 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arena of the Ancients
 

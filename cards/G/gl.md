@@ -216,7 +216,9 @@
   > Prevent all damage that would be dealt to you.
 - **Keywords:** Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2241 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me2/229/glacial-chasm) · oracle_id `73e7a2ad-d11c-4867-b97d-f971809da778` · printing: ME2 #229 (2008-09-22) · [rulings](https://api.scryfall.com/cards/0c008129-daba-46bc-829c-d2c0c13ecdd3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — When Glacial Chasm's "enters" ability resolves, if you don't control any other lands, you must sacrifice Glacial Chasm itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me2/229/glacial-chasm) · oracle_id `73e7a2ad-d11c-4867-b97d-f971809da778` · printing: ME2 #229 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glacial Crasher
 
@@ -276,7 +278,10 @@
 - **Flavor text** (FRC printing):
   > *Ships blown north in their voyage across the Stormwreck Sea become trapped in the unmelting ice.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #88 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/73/glacial-fortress) · oracle_id `027dd013-baa7-4111-b3c9-f4d1414e9c45` · printing: FRC #73 (2026-10-02) · [rulings](https://api.scryfall.com/cards/3c726a60-8de7-4d5e-8ad5-8405e6ac36b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-10-01* — As this is entering, it checks for lands that are already on the battlefield. It won't see lands that are entering at the same time (due to Warp World, for example).
+  - *2009-10-01* — This checks for lands you control with the land type Plains or Island, not for lands named Plains or Island. The lands it checks for don't have to be basic lands. For example, if you control Watery Grave (a nonbasic land with the land types Island and Swamp), Glacial Fortress will enter untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/73/glacial-fortress) · oracle_id `027dd013-baa7-4111-b3c9-f4d1414e9c45` · printing: FRC #73 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glacial Grasp
 
@@ -2013,6 +2018,7 @@
 - **Flavor text** (DSK printing):
   > *Here, the Floodpits languish like a corpse, the clear waters choked by the filthy hands of the bog.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #595 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/260/gloomlake-verge) · oracle_id `d71bda4c-3dee-4398-8fd0-f77d8743b887` · printing: DSK #260 (2024-09-27) · [rulings](https://api.scryfall.com/cards/83f510b7-4cbd-4883-9c26-c8824bc668ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gloomlance

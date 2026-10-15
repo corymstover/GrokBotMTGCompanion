@@ -368,7 +368,9 @@
 - **Flavor text** (FRA printing):
   > *Jace remembered the island. The useless original, the inner refuge. He remembered how twice he found the strength to rebuild himself from nothing.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #267 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/176/deserted-beach) · oracle_id `f0ec8681-da50-466b-8cdd-1dc710deccd9` · printing: FRA #176 (2026-10-02) · [rulings](https://api.scryfall.com/cards/56dae4c4-3e71-4a32-979b-4e26d9c9e96c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-09-24* — If this land enters the battlefield at the same time as any number of other lands, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/176/deserted-beach) · oracle_id `f0ec8681-da50-466b-8cdd-1dc710deccd9` · printing: FRA #176 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deserted Temple
 
@@ -690,7 +692,9 @@
 - **Flavor text** (FRC printing):
   > *Liliana whispered to whatever consciousness Oketra and Bontu had left. "You are the gods. He is the usurper. You know what to do."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #407 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/50/despark) · oracle_id `bd16434d-55ea-4c5a-a9ef-752971a4af16` · printing: FRC #50 (2026-10-02) · [rulings](https://api.scryfall.com/cards/2c09f45f-54a5-47b5-afd7-9ac7c05438e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-05-03* — If a permanent has {X} in its mana cost, X is considered to be 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/50/despark) · oracle_id `bd16434d-55ea-4c5a-a9ef-752971a4af16` · printing: FRC #50 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Desperate Bloodseeker
 
@@ -1017,6 +1021,7 @@
 - **Flavor text** (PLS printing):
   > *Stage two of the Phyrexian invasion included the complete alteration of Dominaria's landscape.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20441 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pls/102/destructive-flow) · oracle_id `f7544a96-46b3-4cdc-8b14-c7b6daecdabd` · printing: PLS #102 (2001-02-05) · [rulings](https://api.scryfall.com/cards/7db86e34-c3ec-4a29-8779-81350a985644/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Destructive Force

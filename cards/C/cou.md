@@ -252,6 +252,7 @@
 - **Oracle text:**
   > Counter target spell.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/114/counterspell) · oracle_id `cc187110-1148-4090-bbb8-e205694a39f5` · printing: DSC #114 (2024-09-27) · [rulings](https://api.scryfall.com/cards/4f616706-ec97-4923-bb1e-11a69fbaa1f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Countersquall
