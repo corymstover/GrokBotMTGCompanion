@@ -1055,6 +1055,7 @@ schema: 2
   > *For years scholars debated whether these were Urza's or Mishra's creations. Recent research suggests they were invented by the brothers' original master, Tocasia, and that both used these devices.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30498 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#grapeshot-catapult)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/204/grapeshot-catapult) · oracle_id `23f73983-0337-4464-8817-5f7596d65b38` · printing: ME4 #204 (2011-01-10) · [rulings](https://api.scryfall.com/cards/1d36ac82-1e81-4e1b-873d-bfb138044876/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Graphic Violence

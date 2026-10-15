@@ -1123,7 +1123,7 @@ schema: 2
   > *From their earliest educations, the brothers had known that no human contrivance could stand against the true masters of Dominia.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31716 · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#golgothian-sylex)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/G.md#golgothian-sylex)
 - **Source flags:** [Scryfall](https://scryfall.com/card/atq/51/golgothian-sylex) · oracle_id `95197f8f-c24e-4d13-a106-7186b3cc59e0` · printing: ATQ #51 (1994-03-04) · [rulings](https://api.scryfall.com/cards/856be1dd-a20b-49c2-be9d-7db76c7efd8b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goliath Beetle

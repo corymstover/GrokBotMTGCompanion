@@ -1418,6 +1418,7 @@ schema: 2
   > *The Order of Saint Traft found new strength with Sigarda's support.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #833 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#sigardas-aid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/384/sigardas-aid) · oracle_id `4f5f2792-0cc4-4caa-b798-2ee9597f2524` · printing: CMR #384 (2020-11-20) · [rulings](https://api.scryfall.com/cards/531da950-dc96-4050-94a8-e01b73ddd965/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sigarda's Imprisonment

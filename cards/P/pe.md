@@ -416,7 +416,7 @@ schema: 2
   - *2023-07-28* — The ability can't reduce the amount of colored mana you pay for a spell. It reduces only the generic mana component of that cost.
   - *2023-07-28* — The ability doesn't change the mana cost or mana value of any spell. It changes only the total cost you pay.
   - *2023-07-28* — The cost reduction can apply to alternative costs such as flashback costs.
-- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/P.md#pearl-medallion)
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/P.md#pearl-medallion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/294/pearl-medallion) · oracle_id `19015380-1332-4960-8cc6-0732009525a2` · printing: MH3 #294 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pearl of Wisdom

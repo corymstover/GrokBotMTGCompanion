@@ -868,8 +868,9 @@ schema: 2
 
 ### Emeria's Call // Emeria, Shattered Skyclave
 
-[Card entry](../cards/E/em.md#emerias-call--emeria-shattered-skyclave) · **1 pages** (card data 1)
+[Card entry](../cards/E/em.md#emerias-call--emeria-shattered-skyclave) · **2 pages** (decks 1 · card data 1)
 
+- **Decks (1):** [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Emeria Shepherd
@@ -880,9 +881,9 @@ schema: 2
 
 ### Emeria, the Sky Ruin
 
-[Card entry](../cards/E/em.md#emeria-the-sky-ruin) · **3 pages** (decks 1 · edh guides 2)
+[Card entry](../cards/E/em.md#emeria-the-sky-ruin) · **4 pages** (decks 2 · edh guides 2)
 
-- **Decks (1):** [Giada, Font of Hope](../decks/giada-font-of-hope.md)
+- **Decks (2):** [Giada, Font of Hope](../decks/giada-font-of-hope.md) · [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md)
 - **EDH guides (2):** [EDH Mana Bases → White W](../EDH%20Mana%20Bases.md#white-w) · [EDH Upgrade Paths → Giada, Font of Hope](../EDH%20Upgrade%20Paths.md#giada-font-of-hope)
 
 ### Emeritus of Truce // Swords to Plowshares
@@ -991,9 +992,9 @@ schema: 2
 
 ### Emry, Lurker of the Loch
 
-[Card entry](../cards/E/em.md#emry-lurker-of-the-loch) · **12 pages** (decks 8 · edh guides 2 · rules 1 · card data 1)
+[Card entry](../cards/E/em.md#emry-lurker-of-the-loch) · **13 pages** (decks 9 · edh guides 2 · rules 1 · card data 1)
 
-- **Decks (8):** [Ashad, the Lone Cyberman (Grixis)](../grixis/decks/ashad-the-lone-cyberman.md) · [Ashnod the Uncaring (Grixis)](../grixis/decks/ashnod-the-uncaring.md) · [Bjorna, Nightfall Alchemist (Grixis)](../grixis/decks/bjorna-nightfall-alchemist-cecily.md) · [Breya, Etherium Shaper](../decks/breya-etherium-shaper.md) · [Cult of Skaro (Grixis)](../grixis/decks/cult-of-skaro.md) · [Mai and Zuko (Grixis)](../grixis/decks/mai-and-zuko.md) · [Mishra, Artificer Prodigy (Grixis)](../grixis/decks/mishra-artificer-prodigy.md) · [Mishra, Eminent One (Grixis)](../grixis/decks/mishra-eminent-one.md)
+- **Decks (9):** [Ashad, the Lone Cyberman (Grixis)](../grixis/decks/ashad-the-lone-cyberman.md) · [Ashnod the Uncaring (Grixis)](../grixis/decks/ashnod-the-uncaring.md) · [Bjorna, Nightfall Alchemist (Grixis)](../grixis/decks/bjorna-nightfall-alchemist-cecily.md) · [Breya, Etherium Shaper](../decks/breya-etherium-shaper.md) · [Cult of Skaro (Grixis)](../grixis/decks/cult-of-skaro.md) · [Mai and Zuko (Grixis)](../grixis/decks/mai-and-zuko.md) · [Mishra, Artificer Prodigy (Grixis)](../grixis/decks/mishra-artificer-prodigy.md) · [Mishra, Eminent One (Grixis)](../grixis/decks/mishra-eminent-one.md) · [Urza, Lord High Artificer](../decks/lore-brothers-war-urza-lord-high-artificer.md)
 - **EDH guides (2):** [EDH Packages → Graveyard: Self-mill](../EDH%20Packages.md#graveyard-self-mill) · [Grixis Packages → Recursion](../grixis/Grixis%20Packages.md#recursion)
 - **Rules (1):** [Keyword Encyclopedia → Affinity](../Keyword%20Encyclopedia.md#affinity)
 - **Card data (1):** [Artist Index → Artists B](../Artist%20Index.md#artists-b) (+1 more)
@@ -1143,8 +1144,9 @@ schema: 2
 
 ### Energy Refractor
 
-[Card entry](../cards/E/en.md#energy-refractor) · **1 pages** (card data 1)
+[Card entry](../cards/E/en.md#energy-refractor) · **2 pages** (decks 1 · card data 1)
 
+- **Decks (1):** [Urza, Lord High Artificer](../decks/lore-brothers-war-urza-lord-high-artificer.md)
 - **Card data (1):** [Artist Index → Artists M](../Artist%20Index.md#artists-m)
 
 ### Engineered Explosives
@@ -1849,9 +1851,9 @@ schema: 2
 
 ### Expedition Map
 
-[Card entry](../cards/E/ex.md#expedition-map) · **4 pages** (decks 2 · edh guides 2)
+[Card entry](../cards/E/ex.md#expedition-map) · **6 pages** (decks 4 · edh guides 2)
 
-- **Decks (2):** [Kozilek, the Great Distortion](../decks/kozilek-the-great-distortion.md) · [Omnath, Locus of Rage (Zendikar-only)](../decks/plane-zendikar-omnath-locus-of-rage.md)
+- **Decks (4):** [Kozilek, the Great Distortion](../decks/kozilek-the-great-distortion.md) · [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md) · [Omnath, Locus of Rage (Zendikar-only)](../decks/plane-zendikar-omnath-locus-of-rage.md) · [Urza, Lord High Artificer](../decks/lore-brothers-war-urza-lord-high-artificer.md)
 - **EDH guides (2):** [EDH Staples → Tutors](../EDH%20Staples.md#tutors) · [EDH Upgrade Paths → Kozilek, the Great Distortion](../EDH%20Upgrade%20Paths.md#kozilek-the-great-distortion)
 
 ### Experimental Augury
@@ -2061,9 +2063,9 @@ schema: 2
 
 ### Eye of Ugin
 
-[Card entry](../cards/E/ey.md#eye-of-ugin) · **3 pages** (decks 1 · edh guides 1 · card data 1)
+[Card entry](../cards/E/ey.md#eye-of-ugin) · **4 pages** (decks 2 · edh guides 1 · card data 1)
 
-- **Decks (1):** [Kozilek, the Great Distortion](../decks/kozilek-the-great-distortion.md)
+- **Decks (2):** [Kozilek, the Great Distortion](../decks/kozilek-the-great-distortion.md) · [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md)
 - **EDH guides (1):** [EDH Upgrade Paths → Kozilek, the Great Distortion](../EDH%20Upgrade%20Paths.md#kozilek-the-great-distortion)
 - **Card data (1):** [Format Legality Matrix → modern](../Format%20Legality%20Matrix.md#modern) (+2 more)
 

@@ -21,7 +21,7 @@ schema: 2
 
 ## Summary
 
-- **86 decks**: floor Bracket 2: **10** · Bracket 3: **30** · Bracket 4: **46**.
+- **88 decks**: floor Bracket 2: **12** · Bracket 3: **30** · Bracket 4: **46**.
 - Set by Game Changers (> 3): 46 · mass land denial: 1 · two-card infinites: 37 decks (146 combos).
 - Decks with extra-turn cards: 17 · median tutors per deck: 3.
 - Grixis source targets: 32 stated; 0 below the floor.
@@ -110,6 +110,8 @@ schema: 2
 | [Karador, Ghost Chieftain](decks/karador-ghost-chieftain.md#bracket-calibration--pilot-notes) | core | WBG | **2** | 0 | 0 | 0 | 0 | 6 | 36 | 2.68 | — | 3 |
 | [Krenko, Mob Boss](decks/krenko-mob-boss.md#bracket-calibration--pilot-notes) | core | R | **2** | 0 | 0 | 0 | 0 | 1 | 36 | 2.59 | — | 2 |
 | [Yidris, Maelstrom Wielder](decks/yidris-maelstrom-wielder.md#bracket-calibration--pilot-notes) | core | UBRG | **2** | 0 | 0 | 0 | 0 | 4 | 36 | 3.63 | — | 2 |
+| [Lore Deck — Nahiri, the Lithomancer](decks/lore-nahiri-the-lithomancer.md#bracket-calibration--pilot-notes) | lore | W | **2** | 0 | 0 | 0 | 0 | 4 | 36 | 2.6 | — | — |
+| [Lore Deck — The Brothers' War (Urza, Lord High Artificer)](decks/lore-brothers-war-urza-lord-high-artificer.md#bracket-calibration--pilot-notes) | lore | U | **2** | 0 | 0 | 0 | 0 | 2 | 37 | 2.95 | — | — |
 | [Atarka, World Render — Tarkir-only](decks/plane-tarkir-atarka-world-render.md#bracket-calibration--pilot-notes) | plane | RG | **2** | 0 | 0 | 0 | 0 | 3 | 36 | 3.86 | — | 2 |
 | [Ghalta, Primal Hunger — Ixalan-only](decks/plane-ixalan-ghalta-primal-hunger.md#bracket-calibration--pilot-notes) | plane | G | **2** | 0 | 0 | 0 | 0 | 2 | 36 | 3.9 | — | 2 |
 | [Omnath, Locus of Rage — Zendikar-only](decks/plane-zendikar-omnath-locus-of-rage.md#bracket-calibration--pilot-notes) | plane | RG | **2** | 0 | 0 | 0 | 0 | 0 | 36 | 3.41 | — | 2 |

@@ -356,6 +356,7 @@ schema: 2
   > *"Once Avacyn returned, I hoped I'd never need these things again. I didn't think I'd be dusting them off to use against angels."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #638 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/O.md#open-the-armory)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/34/open-the-armory) · oracle_id `2ecf7771-8061-4710-ad2e-80b092ae0b4b` · printing: CMR #34 (2020-11-20) · [rulings](https://api.scryfall.com/cards/6db45698-9da9-4cea-b9bf-0f84ab276b51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Open the Gates

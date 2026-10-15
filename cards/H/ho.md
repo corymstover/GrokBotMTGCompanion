@@ -739,7 +739,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3042 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-01-22* — To activate the last ability, you may tap any untapped creature you control, including one you haven’t controlled continuously since the beginning of your most recent turn. (Note that tapping the creature doesn’t use {T} [the tap symbol].)
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/H.md#holdout-settlement)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/H.md#holdout-settlement)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/172/holdout-settlement) · oracle_id `e6b77545-de5c-4f4a-b7ea-83498fb33ba8` · printing: OGW #172 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hold the Gates

@@ -497,6 +497,7 @@ schema: 2
   > *—Kordain, luminarch of Kabira*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19863 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#smite-the-monstrous)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/42/smite-the-monstrous) · oracle_id `649512ed-4908-450a-9652-b2c80df5e24d` · printing: ZNR #42 (2020-09-25) · [rulings](https://api.scryfall.com/cards/9c103163-31b7-4d25-aa2c-02ca082ee1bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smiting Helix

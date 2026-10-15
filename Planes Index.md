@@ -182,6 +182,7 @@ No standalone official profile was found in the 2026-10-15 sitemap for these; fa
 - 🗣️ Only a passing mention. The compleated Vraska, narrating, recalls a souvenir: "an entire Segovian chariot I could barely carry into the Blind Eternities but now sits under a bell jar" ([MOM: One and the Same](https://magic.wizards.com/en/news/magic-story/one-and-the-same)). No other fetched source describes the plane.
 
 ### Zendikar (Zendikar Rising era)
+- **Lore-themed EDH deck:** [Nahiri, the Lithomancer](decks/lore-nahiri-the-lithomancer.md) (hedron builder; Kor lithomancy).
 - ✅ The Roil remains: it "became clear that the Roil was Zendikar's own effort to purify itself of corruption", and it "remains active even after the destruction of the Eldrazi" ([Zendikar: Things Have Changed](https://magic.wizards.com/en/news/feature/zendikar-things-have-changed-2020-09-01), 2020-09-01).
 - ✅ **Skyclaves**: centuries before the Eldrazi, the kor Makindi empire built "seven Skyclaves—military bases, government headquarters, and small cities that ﬂoated in the sky above each continent". They fell one by one. After the Eldrazi's fall, explorers of Emeria "triggered the magical defenses of the ancient Skyclave—and awakened the other six" (same source).
 - ✅ Sea Gate was rebuilt to Tazri's plan with Linvala's backing ("Within a year, the city was restored"). The new Sea Gate Expeditionary House was founded by Kesenya, and "Unknown to virtually anyone, that benefactor is Nahiri". Drana is "the last living bloodchief" (same source).
@@ -195,6 +196,7 @@ No standalone official profile was found in the 2026-10-15 sitemap for these; fa
 - ✅ Story: in [NEO Episode 1: A Stranger in Eiganjo](https://magic.wizards.com/en/news/magic-story/episode-1-stranger-eiganjo-2022-01-24), Kaito finds that "the emperor was gone, too", and resolves to find "the man with the metal arm". By [Episode 5: Threads of War](https://magic.wizards.com/en/news/magic-story/episode-5-threads-war-2022-01-27), Light-Paws is "the Regent of Kamigawa" and Kaito leaves to "search the Multiverse for Tamiyo" and "bring the emperor home". The epilogue shows Tamiyo compleated by Jin-Gitaxias as "the first Phyrexianized planeswalker". Character: [Kaito Shizuki](Characters%20Index.md#kaito-shizuki). Cards: [Kaito Shizuki](cards/K/ka.md#kaito-shizuki), [Risona, Asari Commander](cards/R/ri.md#risona-asari-commander), [Hidetsugu, Devouring Chaos](cards/H/hi.md#hidetsugu-devouring-chaos), [Eiganjo, Seat of the Empire](cards/E/ei.md#eiganjo-seat-of-the-empire).
 
 ### Dominaria (Dominaria United era)
+- **Lore-themed EDH deck:** [Brothers' War — Urza](decks/lore-brothers-war-urza-lord-high-artificer.md) (arc-based).
 - ✅ "We return to Dominaria during a time of regrowth and rejuvenation". After the Mending, "Within decades, Dominaria was healthier than it had been in centuries" ([Planeswalker's Guide to Dominaria](https://magic.wizards.com/en/news/feature/planeswalkers-guide-dominaria-2022-08-31), 2022-08-31; written for *Dominaria United*).
 - ✅ Regions and powers (same source):
   - **Benalia** is "ruled by a council of seven noble houses".

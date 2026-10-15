@@ -425,6 +425,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-14* — A resolving copy of a permanent spell becomes a token, so the token isn't "created." Effects that care about a token being created won't interact with a token that enters the battlefield because the triggered ability copied a permanent spell.
   - *2022-10-14* — If an effect copies a prototyped spell, that copy (as well as the token it becomes on the battlefield) will have the same characteristics as the prototyped spell.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#drafna-founder-of-lat-nam)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/47/drafna-founder-of-lat-nam) · oracle_id `ed2e8718-4b20-4310-96ce-05a29a24ef32` · printing: BRO #47 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drafna's Restoration
@@ -699,6 +700,7 @@ schema: 2
   > *From a distance, dormant dragon engines can be mistaken for harmless statues. By the time you get close enough to spot the scorch marks, it's too late.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27134 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#dragon-engine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/222/dragon-engine) · oracle_id `727a6474-d5b5-42ab-ace3-352d28f499eb` · printing: DMR #222 (2023-01-13) · [rulings](https://api.scryfall.com/cards/045f373e-510f-4552-9859-884f6ce4cc59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragon Fangs

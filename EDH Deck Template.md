@@ -2,10 +2,10 @@
 title: "EDH Deck Template"
 category: edh
 tags: [template, blueprint, swap-ledger, methodology]
-issues: [62]
+issues: [62, 81]
 generated_by: hand-written
 sources: [grixis-repo, cr]
-related: ["EDH Deck Evaluation Checklist.md", "EDH Standards.md", "grixis/README.md", "EDH Win Conditions.md", "grixis/Grixis Packages.md"]
+related: ["EDH Deck Evaluation Checklist.md", "EDH Standards.md", "EDH Lore-Themed Deckbuilding.md", "grixis/README.md", "EDH Win Conditions.md", "grixis/Grixis Packages.md"]
 schema: 2
 ---
 
@@ -21,6 +21,7 @@ schema: 2
 - [5. Card-fit rubric](#5-card-fit-rubric)
 - [6. Finalization record](#6-finalization-record)
 - [7. Page layout for a finished deck](#7-page-layout-for-a-finished-deck)
+- [8. Lore-themed (story-first) extension](#8-lore-themed-story-first-extension)
 
 ## 1. Commander block
 **(repo addition, per [EDH Standards → Commander first](EDH%20Standards.md#commander-first))**
@@ -96,3 +97,18 @@ Reopen triggers: Oracle/rules/legality change · material new card · repeated f
 
 ## 7. Page layout for a finished deck
 **(repo addition)**. Use the layout of the [decks/](decks/) skeletons and [grixis/decks/](grixis/decks/): YAML front-matter (`scripts/front_matter.py`) → Commander → Validation → Bracket assessment → Corrections or changes → Decklist (Archidekt import, see [List format](EDH%20Standards.md#list-format-archidekt)) → Card breakdown (role, type, MV, identity, GC) → Commentary (guidance, attributed) → Combos (Commander Spellbook block).
+
+## 8. Lore-themed (story-first) extension
+**(repo addition, Bot cycle 21, [#81](https://github.com/corymstover/GrokBotMTGCompanion/issues/81)).** Use with [EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md). Fill this **before** the role map when the goal is a lore deck.
+
+| Field | What to write |
+|---|---|
+| Deck type | Arc-based or character-based |
+| Story the deck tells | One cited paragraph; link Conflicts & Arcs / dossier / Timeline |
+| Story packages | Beat or chapter names (not only Ramp/Draw) |
+| Story keywords & sets | Regex/keywords and Scryfall set codes used as evidence |
+| Lore score target | ≥ 60% of non-basic slots story-connected |
+| Deliberately rejected power | Game Changers / infinites / off-story staples you skipped and why (guidance) |
+| Playability budget | How many labeled playability slots you allow |
+
+Finished pages live under `decks/lore-*.md` and are rebuilt by `scripts/build_lore_decks.py`.

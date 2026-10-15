@@ -96,6 +96,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27736 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2014-11-24* — If you control only colorless permanents as the ability resolves (for example, basic lands and face-down permanents), you won’t sacrifice anything.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/U.md#ugins-construct)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frf/164/ugins-construct) · oracle_id `6b87a933-b0d2-4120-b4a0-65ab0f3dbe48` · printing: FRF #164 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ugin's Insight
@@ -190,7 +191,7 @@ schema: 2
   - *2019-05-03* — If you've activated Ugin's ability multiple times, you must keep track of which exiled card belongs to each Spirit token.
   - *2019-05-03* — Once you look at the exiled face-down card once, you may look at it again any time you wish. If another player gains control of the Spirit token, that player can't look at the exiled card.
   - *2019-05-03* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Ugin). The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
-- **Referenced in:** 6 pages (2 decks · 2 lore & story · 2 card data) → [reverse index](../../references/U.md#ugin-the-ineffable)
+- **Referenced in:** 7 pages (3 decks · 2 lore & story · 2 card data) → [reverse index](../../references/U.md#ugin-the-ineffable)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/811/ugin-the-ineffable) · oracle_id `18bdc181-9592-4147-81fb-7f83ce137f70` · printing: CMM #811 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ugin, the Spirit Dragon

@@ -947,7 +947,7 @@ schema: 2
   - *2022-12-08* — The token created by Urza's first ability will count itself, so it'll be at least 1/1.
   - *2022-12-08* — Urza's last ability doesn't change when you can play the exiled card. For example, if you exile a sorcery card, you can cast it only during your main phase when the stack is empty. If you exile a land card, you can play it only during your main phase and only if you have an available land play remaining.
   - *2022-12-08* — You can tap any untapped artifact you control to pay the cost of the mana ability, including an artifact creature you haven't controlled continuously since the beginning of your most recent turn. Tapping an Equipment this way won't affect its abilities or the equipped creature.
-- **Referenced in:** 13 pages (6 decks · 3 edh guides · 1 lore & story · 3 card data) → [reverse index](../../references/U.md#urza-lord-high-artificer)
+- **Referenced in:** 14 pages (7 decks · 3 edh guides · 1 lore & story · 3 card data) → [reverse index](../../references/U.md#urza-lord-high-artificer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/130/urza-lord-high-artificer) · oracle_id `e87906d2-db1a-4e19-b910-adb4eb339945` · printing: CMM #130 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza, Lord Protector
@@ -1055,6 +1055,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — If a spell or ability damages multiple things, divide up the damage before applying this effect, and prevent the 1 damage to you only.
   - *2004-10-04* — It is a prevention effect applied when damage would be dealt.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/U.md#urzas-armor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/318/urzas-armor) · oracle_id `e5fa232a-c8f2-4532-88bf-60d1223181b0` · printing: 8ED #318 (2003-07-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Avenger
@@ -1069,6 +1070,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27316 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — The -1/-1 is not permanent. It lasts until the end of the turn as do the abilities that are granted.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/U.md#urzas-avenger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/5ed/405/urzas-avenger) · oracle_id `1cfeb5c4-a2d0-4872-a907-a6d484be85a5` · printing: 5ED #405 (1997-03-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Bauble
@@ -1079,6 +1081,7 @@ schema: 2
   > {T}, Sacrifice this artifact: Look at a card at random in target player's hand. You draw a card at the beginning of the next turn's upkeep.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2823 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/U.md#urzas-bauble)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/170/urzas-bauble) · oracle_id `17dbbca3-ac1c-4d4e-9618-3e66ac3ccd24` · printing: ME1 #170 (2007-09-10) · [rulings](https://api.scryfall.com/cards/29175e6b-a2ab-4373-8093-cb372aa8c7d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Blueprints
@@ -1093,6 +1096,7 @@ schema: 2
 - **Keywords:** Echo
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23559 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/U.md#urzas-blueprints)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/238/urzas-blueprints) · oracle_id `ad75efdb-3e36-4253-be47-1df5a3cf8204` · printing: DMR #238 (2023-01-13) · [rulings](https://api.scryfall.com/cards/1fd2b6a7-b93a-42d3-b66a-a70b573fc58a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Cave
@@ -1106,7 +1110,7 @@ schema: 2
   > *No matter how deep Urza delved, he couldn't escape his regrets.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #440 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/U.md#urzas-cave)
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/U.md#urzas-cave)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/234/urzas-cave) · oracle_id `4474ecee-0ec3-409b-90df-738d9313fe3c` · printing: MH3 #234 (2024-06-14) · [rulings](https://api.scryfall.com/cards/926916ed-2f22-4ba9-9427-194886ad6c1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Chalice
@@ -1120,6 +1124,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24151 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — This will not trigger on its own casting. It must be on the battlefield at the time the artifact is cast.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/U.md#urzas-chalice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/236/urzas-chalice) · oracle_id `fde25440-1810-46ba-a112-b54091593b66` · printing: ME4 #236 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Command
@@ -1139,6 +1144,7 @@ schema: 2
   - *2022-10-14* — Powerstone tokens are a kind of predefined token. Each one has the artifact subtype "Powerstone" and the ability "{T}: Add {C}. This mana can't be spent to cast a nonartifact spell."
   - *2022-10-14* — The ability of that Construct token does count the Construct itself, so it'll be at least 1/1.
   - *2022-10-14* — You can use the {C} added by a Powerstone token on anything that isn't a nonartifact spell. This includes paying costs to activate abilities of both artifact and nonartifact permanents, paying ward costs, and so on.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/U.md#urzas-command)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/70/urzas-command) · oracle_id `f5c30dec-072c-4f02-b5d8-5eccfd1cffcf` · printing: BRO #70 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Contact Lenses
@@ -1188,6 +1194,7 @@ schema: 2
   - *2008-10-01* — Creatures in the same band must all attack the same player or planeswalker.
   - *2008-10-01* — If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a "band." The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned.
   - *2009-10-01* — If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/U.md#urzas-engine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/all/135/urzas-engine) · oracle_id `bf6ea878-044b-40a8-a21b-0191a948a69a` · printing: ALL #135 (1996-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Factory
@@ -1203,7 +1210,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4446 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-03-19* — Urza's is a land subtype that has no inherent rules meaning. Other effects may refer to it.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#urzas-factory)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/U.md#urzas-factory)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/288/urzas-factory) · oracle_id `5a620d20-f14e-43d0-8e57-c2a197e2ec51` · printing: TSR #288 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Filter
@@ -1296,7 +1303,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — Multiple Incubators are cumulative.
   - *2004-10-04* — You choose a creature type right as it enters, before any continuous effects are applied or trigged abilities trigger.
-- **Referenced in:** 9 pages (6 decks · 2 edh guides · 1 card data) → [reverse index](../../references/U.md#urzas-incubator)
+- **Referenced in:** 10 pages (7 decks · 2 edh guides · 1 card data) → [reverse index](../../references/U.md#urzas-incubator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/297/urzas-incubator) · oracle_id `b380c04b-0bce-4328-8f0a-1425e48bee72` · printing: MH3 #297 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Mine
@@ -1311,7 +1318,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — If you have at least one of each of the three Urza's lands on the battlefield, you must take the 2 mana instead of just one.
   - *2024-06-07* — The ability checks for land types, not the names of other permanents you control.
-- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/U.md#urzas-mine)
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/U.md#urzas-mine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1051/urzas-mine) · oracle_id `33e85a8a-86df-4cdc-a9cc-8cbabe92c3c0` · printing: CMM #1051 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Miter
@@ -1336,7 +1343,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — If you have at least one of each of the three Urza's lands on the battlefield, you must take the 2 mana instead of just one.
   - *2024-06-07* — The ability checks for land types, not the names of other permanents you control.
-- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/U.md#urzas-power-plant)
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/U.md#urzas-power-plant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1052/urzas-power-plant) · oracle_id `e11966cd-2ee3-4df4-b099-abf42dcdf0db` · printing: CMM #1052 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Rage
@@ -1373,6 +1380,7 @@ schema: 2
   > *—Urza*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9579 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/U.md#urzas-rebuff)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/71/urzas-rebuff) · oracle_id `db3b294a-87b1-4dda-b1f6-ea63a9722faf` · printing: BRO #71 (2022-11-18) · [rulings](https://api.scryfall.com/cards/8a6f90b3-450c-490a-b6d0-2393c4646c85/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Ruinous Blast
@@ -1407,7 +1415,7 @@ schema: 2
   - *2021-06-18* — Urza's Saga gains an ability from its first and second chapters. It keeps those abilities for as long as it's on the battlefield.
   - *2021-06-18* — Urza's Saga is a land, so it can only be played as a land. It cannot be cast as a spell.
   - *2021-06-18* — While resolving the chapter III ability, you can find only a card with actual mana cost {0} or {1}, not mana value 0 or 1. For example, you couldn't find a card with mana cost {U} or one with mana cost {X}.
-- **Referenced in:** 18 pages (11 decks · 3 edh guides · 1 rules · 3 card data) → [reverse index](../../references/U.md#urzas-saga)
+- **Referenced in:** 19 pages (12 decks · 3 edh guides · 1 rules · 3 card data) → [reverse index](../../references/U.md#urzas-saga)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/259/urzas-saga) · oracle_id `4c6a0c30-b547-4eff-8ff4-0ca25803c076` · printing: MH2 #259 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Science Fair Project
@@ -1467,7 +1475,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #832 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-06-07* — The ability checks for land types, not the names of other permanents you control.
-- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/U.md#urzas-tower)
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/U.md#urzas-tower)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1053/urzas-tower) · oracle_id `32fbb638-ab14-4e8b-a07a-d4c44e3496f2` · printing: CMM #1053 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Workshop
@@ -1482,5 +1490,5 @@ schema: 2
 - **Keywords:** Metalcraft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2277 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/U.md#urzas-workshop)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/U.md#urzas-workshop)
 - **Source flags:** [Scryfall](https://scryfall.com/card/brc/28/urzas-workshop) · oracle_id `71099427-e110-488f-ab29-7867241fc7f0` · printing: BRC #28 (2022-11-18) · [rulings](https://api.scryfall.com/cards/37c9b9d7-2fa7-4710-94bb-c55ee7bf598c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

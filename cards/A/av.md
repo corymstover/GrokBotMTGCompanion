@@ -173,7 +173,7 @@ schema: 2
   - *2020-08-07* — A planeswalker with indestructible still loses loyalty as it's dealt damage. It is put into its owner's graveyard if its loyalty becomes 0.
   - *2020-08-07* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature you control may become lethal if Avacyn leaves the battlefield during that turn.
   - *2023-07-28* — A battle with indestructible still loses defense counters as it's dealt damage. If it's a Siege, it will still be exiled when the last defense counter is removed from it, and its controller may still cast it transformed without paying its mana cost.
-- **Referenced in:** 6 pages (1 decks · 2 edh guides · 1 rules · 1 lore & story · 1 card data) → [reverse index](../../references/A.md#avacyn-angel-of-hope)
+- **Referenced in:** 7 pages (2 decks · 2 edh guides · 1 rules · 1 lore & story · 1 card data) → [reverse index](../../references/A.md#avacyn-angel-of-hope)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/477/avacyn-angel-of-hope) · oracle_id `216cb26e-8da9-478b-bfbc-8030f7adee72` · printing: INR #477 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avacyn, Angel of Horror

@@ -808,6 +808,68 @@
    "one_card_away": null
   },
   {
+   "path": "decks/lore-brothers-war-urza-lord-high-artificer.md",
+   "title": "Lore Deck — The Brothers' War (Urza, Lord High Artificer)",
+   "kind": "lore",
+   "commanders": [
+    "Urza, Lord High Artificer"
+   ],
+   "identity": "U",
+   "floor": 2,
+   "set_by": [
+    "no Game Changers, mass land denial or two-card infinites (Bracket 2 floor; Bracket 1 is a matter of intent)"
+   ],
+   "gcs": [],
+   "mld": [],
+   "extra_turns": [],
+   "two": [],
+   "lands": 37,
+   "avg_mv": 2.95,
+   "roles": {
+    "ramp": 14,
+    "draw": 12,
+    "counter": 4,
+    "removal": 3,
+    "wipe": 0,
+    "protection": 0,
+    "tutor": 2
+   },
+   "target": null,
+   "edhrec": null,
+   "one_card_away": "22"
+  },
+  {
+   "path": "decks/lore-nahiri-the-lithomancer.md",
+   "title": "Lore Deck — Nahiri, the Lithomancer",
+   "kind": "lore",
+   "commanders": [
+    "Nahiri, the Lithomancer"
+   ],
+   "identity": "W",
+   "floor": 2,
+   "set_by": [
+    "no Game Changers, mass land denial or two-card infinites (Bracket 2 floor; Bracket 1 is a matter of intent)"
+   ],
+   "gcs": [],
+   "mld": [],
+   "extra_turns": [],
+   "two": [],
+   "lands": 36,
+   "avg_mv": 2.6,
+   "roles": {
+    "ramp": 8,
+    "draw": 10,
+    "counter": 0,
+    "removal": 12,
+    "wipe": 1,
+    "protection": 7,
+    "tutor": 4
+   },
+   "target": null,
+   "edhrec": null,
+   "one_card_away": null
+  },
+  {
    "path": "decks/muldrotha-the-gravetide.md",
    "title": "Deck Skeleton — Muldrotha, the Gravetide",
    "kind": "core",

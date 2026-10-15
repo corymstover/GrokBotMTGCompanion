@@ -13,6 +13,18 @@ schema: 2
 
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
+## Bot cycle 21 — lore-themed deckbuilding (2026-10-15)
+Issues [#79](https://github.com/corymstover/GrokBotMTGCompanion/issues/79)–[#81](https://github.com/corymstover/GrokBotMTGCompanion/issues/81); milestone 15.
+
+- New guide: [EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md) (story-first, arc vs character, evidence table, ≥60% lore score, facts vs guidance).
+- Worked decks: [Brothers' War — Urza, Lord High Artificer](decks/lore-brothers-war-urza-lord-high-artificer.md) (arc, U, floor 2, story 58/79 = 73%); [Nahiri, the Lithomancer](decks/lore-nahiri-the-lithomancer.md) (character, W, floor 2, story 57/75 = 76%).
+- Generator: `scripts/build_lore_decks.py` + `data/lore_decks/lore_decks.json`.
+- Template §8 + Gate L on Evaluation Checklist; front_matter `kind: lore` for `lore-*.md`.
+- Cross-links from Conflicts & Arcs (Brothers' War, Ancient Eldrazi), Master Timeline, Characters Index (Urza, Nahiri), Planeswalker Dossiers (Nahiri), Planes Index (Dominaria, Zendikar).
+- `validate_all.py` PASS (links/schema/index/crossrefs/calibration/citations/oracle/decks/freshness).
+- Grixis #63 and other non-lore work remain ON HOLD; Phase 6 lore deepening continues next (Bot cycle 22).
+
+
 ## Contents
 - [2026-10-15 — Bot cycle 20 (Phase 6: lore deepening — timeline & arcs, retcon log)](#2026-10-15--bot-cycle-20-phase-6-lore-deepening--timeline--arcs-retcon-log)
 - [2026-10-15 — Bot cycle 19 (Phase 5 complete: bracket calibration & pilot notes)](#2026-10-15--bot-cycle-19-phase-5-complete-bracket-calibration--pilot-notes)

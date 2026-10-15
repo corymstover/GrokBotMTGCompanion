@@ -5,7 +5,7 @@ tags: [planeswalkers, dossiers, sparks]
 issues: [35]
 generated_by: hand-written
 sources: [wizards-story]
-related: ["Characters Index.md", "Planes Index.md", "Art & Flavor Story Links.md", "Side-Media Index.md", "Story Arc Summaries.md"]
+related: ["Characters Index.md", "EDH Lore-Themed Deckbuilding.md", "Planes Index.md", "Art & Flavor Story Links.md", "Side-Media Index.md", "Story Arc Summaries.md"]
 schema: 2
 ---
 
@@ -217,6 +217,7 @@ schema: 2
 **Status:** [Characters Index → Gideon Jura](Characters%20Index.md#gideon-jura) (dead).
 
 ## Nahiri
+> **Lore-themed EDH decks:** [Nahiri, the Lithomancer](decks/lore-nahiri-the-lithomancer.md) · [guide](EDH%20Lore-Themed%20Deckbuilding.md).
 **Identity:** "bold, fearless, and unpredictable … several thousand years old, she spent much of that time in stasis" ([profile](https://magic.wizards.com/en/story/nahiri-planeswalker)). Kor lithomancer of [Zendikar](Planes%20Index.md#planes-with-official-profiles).
 **Spark moment:** ❓ Not in the fetched sources.
 

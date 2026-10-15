@@ -524,7 +524,7 @@ schema: 2
   > Whenever you cast a colorless spell with mana value 7 or greater, you may sacrifice this land. If you do, search your library for a colorless creature card, reveal it, put it into your hand, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2890 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/S.md#sanctum-of-ugin)
+- **Referenced in:** 3 pages (2 decks · 1 lore & story) → [reverse index](../../references/S.md#sanctum-of-ugin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/242/sanctum-of-ugin) · oracle_id `72cb5dcd-9b24-435c-921a-3766108374c4` · printing: BFZ #242 (2015-10-02) · [rulings](https://api.scryfall.com/cards/86798d03-9f2d-46bd-a660-13c8dd5535ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctum Plowbeast

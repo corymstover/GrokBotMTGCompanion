@@ -1003,7 +1003,7 @@ schema: 2
   - *2017-02-09* — Tapping an artifact won't cause its abilities to stop applying unless those abilities say so.
   - *2017-02-09* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Improvise applies after the total cost is calculated.
   - *2017-02-09* — When using improvise to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap artifacts you control to help pay that cost. For example, if you cast Whir of Invention (a spell with improvise and mana cost {X}{U}{U}{U}) and choose X to be 3, the total cost is {3}{U}{U}{U}. If you tap two artifacts, you'll have to pay {1}{U}{U}{U}.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#inspiring-statuary)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/I.md#inspiring-statuary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/230/inspiring-statuary) · oracle_id `78b2b68d-6e27-49f3-8373-6e19faf6f679` · printing: MKC #230 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inspiring Unicorn

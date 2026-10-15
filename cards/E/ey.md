@@ -366,7 +366,7 @@ schema: 2
   - *2010-03-01* — Eye of Ugin doesn’t have a mana ability.
   - *2010-03-01* — Eye of Ugin’s second ability lets you find any colorless creature card in your deck, such as an artifact creature card that has no colored mana symbols in its mana cost, or a creature card that’s become colorless due to Mycosynth Lattice.
   - *2013-04-15* — Mistform Ultimus and creatures with changeling are Eldrazi. If they become colorless, possibly due to Mycosynth Lattice, Eye of Ugin would reduce the cost to cast them by {2}.
-- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/E.md#eye-of-ugin)
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/E.md#eye-of-ugin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/242/eye-of-ugin) · oracle_id `10d13ff6-c4d0-4753-8939-a8a90f0e92bb` · printing: MM2 #242 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eye of Vecna

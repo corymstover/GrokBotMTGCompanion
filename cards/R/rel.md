@@ -665,7 +665,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-02-01* — If multiple effects modify your hand size, apply them in timestamp order. For example, if you put Null Profusion (an enchantment that says your maximum hand size is two) onto the battlefield and then put Reliquary Tower onto the battlefield, you'll have no maximum hand size. However, if those permanents enter in the opposite order, your maximum hand size would be two.
-- **Referenced in:** 22 pages (17 decks · 3 edh guides · 2 card data) → [reverse index](../../references/R.md#reliquary-tower)
+- **Referenced in:** 23 pages (18 decks · 3 edh guides · 2 card data) → [reverse index](../../references/R.md#reliquary-tower)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/398/reliquary-tower) · oracle_id `c23e5b80-08d2-4e24-9908-fe2aa4f30f6f` · printing: SOC #398 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relive the Past

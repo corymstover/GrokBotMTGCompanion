@@ -3624,7 +3624,7 @@ schema: 2
 - **Rulings** (2):
   - *2016-09-20* — If an artifact spell has {X} in its mana cost, choose the value for X first, and then reduce the cost by {1}. For example, an artifact that costs {X} with X chosen as 4 costs {3} to cast if you control Foundry Inspector.
   - *2016-09-20* — Once a player has announced an artifact spell, no player may take actions to try to remove Foundry Inspector from the battlefield before that spell's cost is locked in.
-- **Referenced in:** 9 pages (6 decks · 2 edh guides · 1 card data) → [reverse index](../../references/F.md#foundry-inspector)
+- **Referenced in:** 10 pages (7 decks · 2 edh guides · 1 card data) → [reverse index](../../references/F.md#foundry-inspector)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/385/foundry-inspector) · oracle_id `18f22960-87ec-43cd-82ea-ec5cabf49ad3` · printing: CMM #385 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Foundry of the Consuls

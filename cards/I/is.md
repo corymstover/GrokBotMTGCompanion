@@ -405,6 +405,7 @@ schema: 2
   - *2016-01-22* — If a token is exiled, it ceases to exist. It won’t be returned to the battlefield.
   - *2016-01-22* — In a multiplayer game, if Isolation Zone’s owner leaves the game, the exiled card will return to the battlefield. Because the one-shot effect that returns the card isn’t an ability that goes on the stack, it won’t cease to exist along with the leaving player’s spells and abilities on the stack.
   - *2016-01-22* — The exiled card returns to the battlefield immediately after Isolation Zone leaves the battlefield. Nothing happens between the two events, including state-based actions.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#isolation-zone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/22/isolation-zone) · oracle_id `7c1890cf-36db-4720-a472-9158bdc0d8aa` · printing: OGW #22 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isperia's Skywatch

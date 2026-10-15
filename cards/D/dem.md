@@ -245,7 +245,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-14* — If the targeted land is an illegal target by the time Demolition Field's ability resolves, it won't resolve and none of its effects will happen. Neither player will get to search for a basic land card.
   - *2022-10-14* — The target land's controller gets to search for a basic land card even if that land wasn't destroyed by Demolition Field's ability. This may happen because the land has indestructible.
-- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/D.md#demolition-field)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/D.md#demolition-field)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/687/demolition-field) · oracle_id `93953926-a644-49bb-9b5a-4c8f19114c7e` · printing: FDN #687 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demolition Stomper

@@ -1550,7 +1550,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #57 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-01-27* — A "creature spell" is any spell with the creature type, even if it has other types such as artifact or enchantment.
-- **Referenced in:** 16 pages (10 decks · 4 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/N.md#negate)
+- **Referenced in:** 17 pages (11 decks · 4 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/N.md#negate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/47/negate) · oracle_id `3407fe41-fdd3-4119-8f70-4bc4590a379f` · printing: TMT #47 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Negative Zone Portal

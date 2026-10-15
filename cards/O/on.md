@@ -755,6 +755,7 @@ schema: 2
   > *An early inspiration for Urza, Tocasia's Onulets contained magical essences that could be cannibalized after they stopped functioning.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30601 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/O.md#onulet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/219/onulet) · oracle_id `598f948b-bdd3-490f-b3e9-f0f9dc470522` · printing: ME4 #219 (2011-01-10) · [rulings](https://api.scryfall.com/cards/5e6e91cb-1104-4feb-885b-0a49c0b4e60d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Onward // Victory

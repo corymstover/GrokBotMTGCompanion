@@ -195,6 +195,7 @@ schema: 2
   > *"We prepare for the known with daggers, rations, rope, and pitons. But we also prepare for the unknown with billycat tails, pikku roots, hedron chips . . ."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26766 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#armament-master)
 - **Source flags:** [Scryfall](https://scryfall.com/card/zen/1/armament-master) · oracle_id `f1dca9ac-8886-4688-9245-763ef486701c` · printing: ZEN #1 (2009-10-02) · [rulings](https://api.scryfall.com/cards/975f7752-e981-4046-ae9b-90b20db6b23a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armament of Nyx

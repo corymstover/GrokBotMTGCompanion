@@ -802,6 +802,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22708 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-01-22* — To activate a cohort ability, the Ally with that ability must have been under your control continuously since the beginning of your most recent turn. Informally, it can’t have “summoning sickness.” However, the other Ally you tap can be one that just came under your control. (Note that tapping the second Ally doesn’t use {T} [the tap symbol].)
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#stoneforge-acolyte)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/38/stoneforge-acolyte) · oracle_id `c3c40f93-7e10-4139-b9e0-b6dfff8b8038` · printing: OGW #38 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stoneforge Masterwork
@@ -818,6 +819,7 @@ schema: 2
 - **Rulings** (2):
   - *2016-01-22* — The bonus is only +1/+1 per applicable creature, even if it shares more than one creature type with the equipped creature. For example, if the equipped creature is a Human Shaman and you control a Human Warrior, a Goblin Shaman, and another Human Shaman, the equipped creature will get +3/+3.
   - *2016-01-22* — The bonus will change as the creatures you control change. This may cause the equipped creature to lose toughness and die because of damage dealt earlier in the turn.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#stoneforge-masterwork)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/166/stoneforge-masterwork) · oracle_id `83db5c28-e172-4a4d-9324-ed5ade5255bc` · printing: OGW #166 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stoneforge Mystic
@@ -831,7 +833,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1093 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2010-03-01* — When Stoneforge Mystic's second ability resolves, you may put any Equipment card from your hand onto the battlefield, not just the one you searched for with its first ability. The Equipment is put onto the battlefield unattached.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stoneforge-mystic)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/S.md#stoneforge-mystic)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/31/stoneforge-mystic) · oracle_id `358789f9-7d87-411d-919e-d597da665cbd` · printing: 2XM #31 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stonefury
@@ -937,6 +939,7 @@ schema: 2
   - *2016-01-22* — Equipped creatures will get just +1/+1 from Stone Haven Outfitter, no matter how many Equipment are attached to them. Similarly, the last ability will trigger just once per equipped creature.
   - *2016-01-22* — In this context, "equipped creatures you control" and "equipped creature you control" refer to any creatures you control with Equipment attached to them. In the highly unusual case that Stone Haven Outfitter becomes an Equipment, the meaning of its abilities doesn't change. The bonuses continue to refer to any equipped creature you control. They aren't bonuses applied solely to the creature Stone Haven Outfitter is attached to.
   - *2016-01-22* — The bonuses gained from Stone Haven Outfitter's abilities are in addition to any bonuses given by the Equipment.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#stone-haven-outfitter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/37/stone-haven-outfitter) · oracle_id `8e646a6b-77ba-4f7d-8ee9-b0b084453f77` · printing: OGW #37 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stone Haven Pilgrim

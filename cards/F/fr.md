@@ -348,6 +348,7 @@ schema: 2
 - **Rulings** (2):
   - *2012-06-01* — In non-Planechase games, Fractured Powerstone's second ability will have no effect.
   - *2012-06-01* — Rolling the planar die this way doesn't count when determining the cost of the special action of rolling the planar die. For example, if you roll the planar die twice in a turn, then activate Fractured Powerstone to roll it a third time, rolling the planar die again that turn will cost {2}.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/F.md#fractured-powerstone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/357/fractured-powerstone) · oracle_id `af4f192a-9565-4377-b359-835fe4396e85` · printing: MOC #357 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fractured Sanity

@@ -51,6 +51,7 @@ PAGES = {
     "EDH Standards.md": ("edh", ["deckbuilding-rules", "color-identity", "brackets"], [6], None, ["cr", "wotc-articles"]),
     "EDH Staples.md": ("edh", ["staples", "color-identity"], [], "scripts/build_staples.py", ["scryfall", "edhrec"]),
     "EDH Themed Decks.md": ("edh", ["decks", "plane-restricted", "themes"], [33], "scripts/build_themed_index.py", ["scryfall", "edhrec"]),
+    "EDH Lore-Themed Deckbuilding.md": ("edh", ["lore-decks", "story-first", "methodology", "template"], [79, 80, 81], None, ["scryfall", "wizards-story", "spellbook", "cr"]),
     "EDH Upgrade Paths.md": ("edh", ["upgrades", "budget"], [30], "scripts/build_upgrade_paths.py", ["scryfall", "edhrec"]),
     "EDH Win Conditions.md": ("edh", ["win-conditions", "combos"], [27], "scripts/build_wincons.py", ["scryfall", "spellbook"]),
     "FAQ.md": ("meta", ["faq", "lore", "rules"], [45], None, ["cr", "wizards-story", "scryfall"]),
@@ -74,8 +75,8 @@ PAGES = {
     "Update Log.md": ("meta", ["changelog"], [], None, []),
     "cEDH Primer.md": ("edh", ["cedh", "competitive", "bracket-5"], [29], "scripts/build_cedh.py", ["scryfall", "spellbook"]),
     # Bot cycle 16 — Grixis integration (#59–#63) and the generalized method
-    "EDH Deck Template.md": ("edh", ["template", "blueprint", "swap-ledger", "methodology"], [62], None, ["grixis-repo", "cr"]),
-    "EDH Deck Evaluation Checklist.md": ("edh", ["checklist", "evaluation", "brackets", "methodology"], [62], None, ["grixis-repo", "cr", "scryfall", "spellbook"]),
+    "EDH Deck Template.md": ("edh", ["template", "blueprint", "swap-ledger", "methodology"], [62, 81], None, ["grixis-repo", "cr"]),
+    "EDH Deck Evaluation Checklist.md": ("edh", ["checklist", "evaluation", "brackets", "methodology"], [62, 81], None, ["grixis-repo", "cr", "scryfall", "spellbook"]),
     "grixis/README.md": ("edh", ["grixis", "decks", "index"], [59, 60, 61], "scripts/build_grixis.py", ["grixis-repo", "scryfall", "spellbook"]),
     "grixis/Grixis Evaluation.md": ("edh", ["grixis", "validation", "legality"], [59], "scripts/build_grixis.py", ["grixis-repo", "scryfall"]),
     "grixis/Grixis Corrections.md": ("edh", ["grixis", "corrections", "legality", "oracle"], [60], "scripts/build_grixis.py", ["grixis-repo", "scryfall", "spellbook"]),
@@ -105,7 +106,7 @@ SCHEMA = {
     "deck": {
         "title": ("string", True, "The deck page's H1 heading."),
         "category": ("`deck`", True, "Always `deck`."),
-        "kind": ("enum: core/plane/theme/grixis", True, "core = EDHREC skeleton; plane = plane-restricted; theme = EDHREC theme page; grixis = imported from the Grixis repo."),
+        "kind": ("enum: core/plane/theme/grixis/lore", True, "core = EDHREC skeleton; plane = plane-restricted; theme = EDHREC theme page; grixis = imported from the Grixis repo; lore = story-first lore-themed (Bot cycle 21)."),
         "commander": ("string", True, "First commander's Scryfall name."),
         "color_identity": ("WUBRG-ordered letters or `C`", True, "Commander color identity (CR 903.4), always in WUBRG order."),
         "bracket_floor": ("int 1–5", True, "Minimum bracket by the published barometers (Game Changers, MLD, two-card infinites)."),
@@ -231,7 +232,7 @@ def deck_fields(path, body):
     gcn = int(gc.group(1)) if gc else (0 if re.search(r"no Game Changers", body) else None)
     cb = re.search(r"\*\*(\d+) complete combo\(s\); (\d+) two-card infinite", body)
     kind = ("grixis" if path.parent.parent.name == "grixis" else "plane" if path.name.startswith("plane-")
-            else "theme" if path.name.startswith("theme-") else "core")
+            else "theme" if path.name.startswith("theme-") else "lore" if path.name.startswith("lore-") else "core")
     ident = None if not ci else ("C" if ci.group(1) in ("C", "Colorless") else wubrg(ci.group(1)))
     f = {"title": title, "kind": kind, "commander": cmd.group(1) if cmd else None, "color_identity": ident,
          "bracket_floor": floor, "game_changers": gcn, "combos": int(cb.group(1)) if cb else 0,

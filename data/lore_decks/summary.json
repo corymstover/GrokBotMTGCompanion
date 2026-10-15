@@ -1,0 +1,28 @@
+[
+ {
+  "slug": "lore-brothers-war-urza-lord-high-artificer",
+  "type": "arc",
+  "commander": "Urza, Lord High Artificer",
+  "identity": "U",
+  "floor": 2,
+  "gc": 0,
+  "story": 58,
+  "playability": 21,
+  "share": 73,
+  "valid": true,
+  "lands": 37
+ },
+ {
+  "slug": "lore-nahiri-the-lithomancer",
+  "type": "character",
+  "commander": "Nahiri, the Lithomancer",
+  "identity": "W",
+  "floor": 2,
+  "gc": 0,
+  "story": 57,
+  "playability": 18,
+  "share": 76,
+  "valid": true,
+  "lands": 37
+ }
+]

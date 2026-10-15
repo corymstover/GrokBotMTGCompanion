@@ -352,7 +352,7 @@ schema: 2
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6333 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/T.md#tocasias-dig-site)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 lore & story) → [reverse index](../../references/T.md#tocasias-dig-site)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/308/tocasias-dig-site) · oracle_id `a91f93fd-e428-4a36-b1b3-604b47a34287` · printing: MKC #308 (2024-02-09) · [rulings](https://api.scryfall.com/cards/bbb5d40b-f0e1-4e98-b4d3-1ee2cfa5b579/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tocasia's Onulet

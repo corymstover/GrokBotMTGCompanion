@@ -1,7 +1,7 @@
 {
 "schema": 1,
 "generated_by": "scripts/kb_find.py --build",
-"entries": 161,
+"entries": 164,
 "note": "Pages and decks only; card entries are indexed by data/card_index.csv.",
 "items": [
 {
@@ -117,6 +117,7 @@
 "related": [
 "Story Arc Summaries.md",
 "Artist Index.md",
+"EDH Lore-Themed Deckbuilding.md",
 "Planeswalker Dossiers.md",
 "Side-Media Index.md"
 ]
@@ -1170,7 +1171,7 @@
 "Planes Index.md",
 "Story Arc Summaries.md",
 "Contradictions & Retcons Log.md",
-"Omenpath & Multiverse Connections.md"
+"EDH Lore-Themed Deckbuilding.md"
 ]
 },
 {
@@ -1411,18 +1412,24 @@
 2,
 "Running the checks",
 "running-the-checks"
+],
+[
+2,
+"Gate L — lore-themed (story-first)",
+"gate-l--lore-themed-story-first"
 ]
 ],
 "issues": [
-"62"
+"62",
+"81"
 ],
 "related": [
 "EDH Deck Template.md",
+"EDH Lore-Themed Deckbuilding.md",
 "EDH Standards.md",
 "grixis/Grixis Corrections.md",
 "EDH Mulligans.md",
-"grixis/Grixis Packages.md",
-"grixis/README.md"
+"grixis/Grixis Packages.md"
 ]
 },
 {
@@ -1471,14 +1478,21 @@
 2,
 "7. Page layout for a finished deck",
 "7-page-layout-for-a-finished-deck"
+],
+[
+2,
+"8. Lore-themed (story-first) extension",
+"8-lore-themed-story-first-extension"
 ]
 ],
 "issues": [
-"62"
+"62",
+"81"
 ],
 "related": [
 "EDH Deck Evaluation Checklist.md",
 "EDH Standards.md",
+"EDH Lore-Themed Deckbuilding.md",
 "grixis/README.md",
 "EDH Win Conditions.md",
 "grixis/Grixis Packages.md"
@@ -1635,6 +1649,93 @@
 "EDH Win Conditions.md",
 "Rules Interactions.md",
 "cEDH Primer.md"
+]
+},
+{
+"path": "EDH Lore-Themed Deckbuilding.md",
+"kind": "page",
+"title": "EDH Lore-Themed Deckbuilding",
+"category": "edh",
+"tags": [
+"lore-decks",
+"story-first",
+"methodology",
+"template"
+],
+"headings": [
+[
+2,
+"Principles",
+"principles"
+],
+[
+2,
+"Deck types",
+"deck-types"
+],
+[
+3,
+"Arc-based",
+"arc-based"
+],
+[
+3,
+"Character-based",
+"character-based"
+],
+[
+2,
+"What counts as a story link",
+"what-counts-as-a-story-link"
+],
+[
+2,
+"Playability floor",
+"playability-floor"
+],
+[
+2,
+"Documenting \"why this card belongs\"",
+"documenting-why-this-card-belongs"
+],
+[
+2,
+"Facts vs guidance",
+"facts-vs-guidance"
+],
+[
+2,
+"Evaluation criteria",
+"evaluation-criteria"
+],
+[
+2,
+"Template & checklist",
+"template--checklist"
+],
+[
+2,
+"Worked examples",
+"worked-examples"
+],
+[
+2,
+"Relation to other deck kinds",
+"relation-to-other-deck-kinds"
+]
+],
+"issues": [
+"79",
+"80",
+"81"
+],
+"related": [
+"Conflicts & Arcs.md",
+"EDH Deck Evaluation Checklist.md",
+"Planeswalker Dossiers.md",
+"EDH Deck Template.md",
+"Art & Flavor Story Links.md",
+"Characters Index.md"
 ]
 },
 {
@@ -2708,6 +2809,7 @@
 "33"
 ],
 "related": [
+"EDH Lore-Themed Deckbuilding.md",
 "EDH Standards.md"
 ]
 },
@@ -3448,7 +3550,7 @@
 "Card Data Conventions.md",
 "EDH Deck Evaluation Checklist.md",
 "EDH Deck Template.md",
-"Lookup Guide.md"
+"EDH Lore-Themed Deckbuilding.md"
 ]
 },
 {
@@ -3732,8 +3834,8 @@
 "Update Log.md",
 "Card Data Conventions.md",
 "Conflicts & Arcs.md",
-"EDH Staples.md",
-"Lookup Guide.md"
+"EDH Lore-Themed Deckbuilding.md",
+"EDH Staples.md"
 ]
 },
 {
@@ -3906,8 +4008,8 @@
 "Conflicts & Arcs.md",
 "Contradictions & Retcons Log.md",
 "Planes Index.md",
-"Omenpath & Multiverse Connections.md",
-"Story Arc Summaries.md"
+"EDH Lore-Themed Deckbuilding.md",
+"Omenpath & Multiverse Connections.md"
 ]
 },
 {
@@ -4252,6 +4354,7 @@
 ],
 "related": [
 "Characters Index.md",
+"EDH Lore-Themed Deckbuilding.md",
 "Planes Index.md",
 "Art & Flavor Story Links.md",
 "Side-Media Index.md",
@@ -4344,11 +4447,11 @@
 "issues": [],
 "related": [
 "Front-Matter Schema.md",
+"EDH Lore-Themed Deckbuilding.md",
 "Knowledge Index.md",
 "ROADMAP.md",
 "Artist Index.md",
-"EDH Archetypes.md",
-"EDH Bracket Calibration.md"
+"EDH Archetypes.md"
 ]
 },
 {
@@ -4378,18 +4481,18 @@
 ],
 [
 2,
-"Phase 6 — Lore deepening sprint (Bot cycles 20+; Cory, 2026-10-15)",
-"phase-6--lore-deepening-sprint-bot-cycles-20-cory-2026-10-15"
+"Phase 6",
+"phase-6"
 ]
 ],
 "issues": [],
 "related": [
 "Front-Matter Schema.md",
+"EDH Lore-Themed Deckbuilding.md",
 "Lookup Guide.md",
 "Planeswalker Dossiers.md",
 "Progress Tracker.md",
-"Art & Flavor Story Links.md",
-"Artist Index.md"
+"Art & Flavor Story Links.md"
 ]
 },
 {
@@ -4893,6 +4996,11 @@
 "changelog"
 ],
 "headings": [
+[
+2,
+"Bot cycle 21 — lore-themed deckbuilding (2026-10-15)",
+"bot-cycle-21--lore-themed-deckbuilding-2026-10-15"
+],
 [
 2,
 "2026-10-15 — Bot cycle 20 (Phase 6: lore deepening — timeline & arcs, retcon log)",
@@ -7030,6 +7138,202 @@
 "color_identity": "BG",
 "bracket_floor": "3",
 "game_changers": "1",
+"two_card_infinites": "0"
+},
+{
+"path": "decks/lore-brothers-war-urza-lord-high-artificer.md",
+"kind": "deck",
+"title": "Lore Deck — The Brothers' War (Urza, Lord High Artificer)",
+"category": "deck",
+"tags": [
+"lore",
+"mono-blue",
+"bracket-floor-2",
+"no-game-changers",
+"combos"
+],
+"headings": [
+[
+2,
+"Story the deck tells",
+"story-the-deck-tells"
+],
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
+"Lore score",
+"lore-score"
+],
+[
+2,
+"Packages",
+"packages"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Pilot notes (guidance)",
+"pilot-notes-guidance-1"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+],
+[
+2,
+"Cross-references",
+"cross-references"
+]
+],
+"deck_kind": "lore",
+"commander": "Urza, Lord High Artificer",
+"color_identity": "U",
+"bracket_floor": "2",
+"game_changers": "0",
+"two_card_infinites": "0"
+},
+{
+"path": "decks/lore-nahiri-the-lithomancer.md",
+"kind": "deck",
+"title": "Lore Deck — Nahiri, the Lithomancer",
+"category": "deck",
+"tags": [
+"lore",
+"mono-white",
+"bracket-floor-2",
+"no-game-changers"
+],
+"headings": [
+[
+2,
+"Story the deck tells",
+"story-the-deck-tells"
+],
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
+"Lore score",
+"lore-score"
+],
+[
+2,
+"Packages",
+"packages"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Pilot notes (guidance)",
+"pilot-notes-guidance-1"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+],
+[
+2,
+"Cross-references",
+"cross-references"
+]
+],
+"deck_kind": "lore",
+"commander": "Nahiri, the Lithomancer",
+"color_identity": "W",
+"bracket_floor": "2",
+"game_changers": "0",
 "two_card_infinites": "0"
 },
 {
@@ -14967,6 +15271,11 @@
 ],
 [
 3,
+"Amulet of Kroog",
+"amulet-of-kroog"
+],
+[
+3,
 "Amulet of Quoz",
 "amulet-of-quoz"
 ],
@@ -15877,6 +16186,11 @@
 ],
 [
 3,
+"Argivian Avenger",
+"argivian-avenger"
+],
+[
+3,
 "Argivian Blacksmith",
 "argivian-blacksmith"
 ],
@@ -15934,6 +16248,11 @@
 3,
 "Armageddon",
 "armageddon"
+],
+[
+3,
+"Armament Master",
+"armament-master"
 ],
 [
 3,
@@ -17566,6 +17885,11 @@
 3,
 "Bladebrand",
 "bladebrand"
+],
+[
+3,
+"Bladed Bracers",
+"bladed-bracers"
 ],
 [
 3,
@@ -19976,6 +20300,11 @@
 ],
 [
 3,
+"Chief of the Foundry",
+"chief-of-the-foundry"
+],
+[
+3,
 "Child of Alara",
 "child-of-alara"
 ],
@@ -20198,6 +20527,11 @@
 3,
 "Claws of Gix",
 "claws-of-gix"
+],
+[
+3,
+"Clay Statue",
+"clay-statue"
 ],
 [
 3,
@@ -22383,6 +22717,11 @@
 ],
 [
 3,
+"Declaration in Stone",
+"declaration-in-stone"
+],
+[
+3,
 "Decorated Knight // Present Arms",
 "decorated-knight--present-arms"
 ],
@@ -23538,6 +23877,11 @@
 ],
 [
 3,
+"Drafna, Founder of Lat-Nam",
+"drafna-founder-of-lat-nam"
+],
+[
+3,
 "Drafna's Restoration",
 "drafnas-restoration"
 ],
@@ -23575,6 +23919,11 @@
 3,
 "Dragon Egg",
 "dragon-egg"
+],
+[
+3,
+"Dragon Engine",
+"dragon-engine"
 ],
 [
 3,
@@ -26042,6 +26391,11 @@
 ],
 [
 3,
+"Fateful Absence",
+"fateful-absence"
+],
+[
+3,
 "Fateful Discovery",
 "fateful-discovery"
 ],
@@ -27209,6 +27563,11 @@
 3,
 "Fracture",
 "fracture"
+],
+[
+3,
+"Fractured Powerstone",
+"fractured-powerstone"
 ],
 [
 3,
@@ -29019,6 +29378,11 @@
 ],
 [
 3,
+"Grapeshot Catapult",
+"grapeshot-catapult"
+],
+[
+3,
 "Graphic Violence",
 "graphic-violence"
 ],
@@ -30136,6 +30500,11 @@
 ],
 [
 3,
+"Hedron Blade",
+"hedron-blade"
+],
+[
+3,
 "Hedron Crab",
 "hedron-crab"
 ],
@@ -30143,6 +30512,16 @@
 3,
 "Hedron Crawler",
 "hedron-crawler"
+],
+[
+3,
+"Hedron Matrix",
+"hedron-matrix"
+],
+[
+3,
+"Hedron Scrabbler",
+"hedron-scrabbler"
 ],
 [
 3,
@@ -31023,6 +31402,11 @@
 3,
 "Huntmaster of the Fells // Ravager of the Fells",
 "huntmaster-of-the-fells--ravager-of-the-fells"
+],
+[
+3,
+"Hurkyl, Master Wizard",
+"hurkyl-master-wizard"
 ],
 [
 3,
@@ -32130,6 +32514,11 @@
 3,
 "Isolated Chapel",
 "isolated-chapel"
+],
+[
+3,
+"Isolation Zone",
+"isolation-zone"
 ],
 [
 3,
@@ -33797,8 +34186,53 @@
 ],
 [
 3,
+"Kor Blademaster",
+"kor-blademaster"
+],
+[
+3,
 "Kor Cartographer",
 "kor-cartographer"
+],
+[
+3,
+"Kor Duelist",
+"kor-duelist"
+],
+[
+3,
+"Kor Haven",
+"kor-haven"
+],
+[
+3,
+"Kor Hookmaster",
+"kor-hookmaster"
+],
+[
+3,
+"Kor Outfitter",
+"kor-outfitter"
+],
+[
+3,
+"Kor Sanctifiers",
+"kor-sanctifiers"
+],
+[
+3,
+"Kor Scythemaster",
+"kor-scythemaster"
+],
+[
+3,
+"Kor Skyfisher",
+"kor-skyfisher"
+],
+[
+3,
+"Kor Spiritdancer",
+"kor-spiritdancer"
 ],
 [
 3,
@@ -34196,6 +34630,11 @@
 3,
 "Lathril, Blade of the Elves",
 "lathril-blade-of-the-elves"
+],
+[
+3,
+"Lat-Nam's Legacy",
+"lat-nams-legacy"
 ],
 [
 3,
@@ -34806,6 +35245,11 @@
 3,
 "Lithoform Engine",
 "lithoform-engine"
+],
+[
+3,
+"Lithomancer's Focus",
+"lithomancers-focus"
 ],
 [
 3,
@@ -36056,6 +36500,11 @@
 ],
 [
 3,
+"Maul of the Skyclaves",
+"maul-of-the-skyclaves"
+],
+[
+3,
 "Mavinda, Students' Advocate",
 "mavinda-students-advocate"
 ],
@@ -36376,6 +36825,11 @@
 ],
 [
 3,
+"Metathran Soldier",
+"metathran-soldier"
+],
+[
+3,
 "Meteor Crater",
 "meteor-crater"
 ],
@@ -36478,6 +36932,11 @@
 3,
 "Might of the Meek",
 "might-of-the-meek"
+],
+[
+3,
+"Mightstone",
+"mightstone"
 ],
 [
 3,
@@ -37795,6 +38254,11 @@
 3,
 "Nahiri, Heir of the Ancients",
 "nahiri-heir-of-the-ancients"
+],
+[
+3,
+"Nahiri's Binding",
+"nahiris-binding"
 ],
 [
 3,
@@ -39225,6 +39689,11 @@
 ],
 [
 3,
+"Onulet",
+"onulet"
+],
+[
+3,
 "On Wings of Gold",
 "on-wings-of-gold"
 ],
@@ -39247,6 +39716,11 @@
 3,
 "Open into Wonder",
 "open-into-wonder"
+],
+[
+3,
+"Open the Armory",
+"open-the-armory"
 ],
 [
 3,
@@ -45990,6 +46464,11 @@
 ],
 [
 3,
+"Sigarda's Aid",
+"sigardas-aid"
+],
+[
+3,
 "Sigil of the Empty Throne",
 "sigil-of-the-empty-throne"
 ],
@@ -46355,6 +46834,11 @@
 ],
 [
 3,
+"Skyclave Relic",
+"skyclave-relic"
+],
+[
+3,
 "Skycloud Expanse",
 "skycloud-expanse"
 ],
@@ -46562,6 +47046,11 @@
 3,
 "Smelting Vat",
 "smelting-vat"
+],
+[
+3,
+"Smite the Monstrous",
+"smite-the-monstrous"
 ],
 [
 3,
@@ -47570,6 +48059,11 @@
 ],
 [
 3,
+"Sram, Senior Edificer",
+"sram-senior-edificer"
+],
+[
+3,
 "Stack of Paperwork",
 "stack-of-paperwork"
 ],
@@ -47990,6 +48484,16 @@
 ],
 [
 3,
+"Stoneforge Acolyte",
+"stoneforge-acolyte"
+],
+[
+3,
+"Stoneforge Masterwork",
+"stoneforge-masterwork"
+],
+[
+3,
 "Stoneforge Mystic",
 "stoneforge-mystic"
 ],
@@ -48002,6 +48506,11 @@
 3,
 "Stone-Giant of High Pass",
 "stone-giant-of-high-pass"
+],
+[
+3,
+"Stone Haven Outfitter",
+"stone-haven-outfitter"
 ],
 [
 3,
@@ -49379,6 +49888,11 @@
 3,
 "Tavern Brawler",
 "tavern-brawler"
+],
+[
+3,
+"Tawnos's Weaponry",
+"tawnoss-weaponry"
 ],
 [
 3,
@@ -50997,6 +51511,11 @@
 ],
 [
 3,
+"Thraben Gargoyle // Stonewing Antagonizer",
+"thraben-gargoyle--stonewing-antagonizer"
+],
+[
+3,
 "Thraben Watcher",
 "thraben-watcher"
 ],
@@ -51017,6 +51536,16 @@
 ],
 [
 3,
+"Thran Foundry",
+"thran-foundry"
+],
+[
+3,
+"Thran Golem",
+"thran-golem"
+],
+[
+3,
 "Thran Power Suit",
 "thran-power-suit"
 ],
@@ -51024,6 +51553,11 @@
 3,
 "Thran Temporal Gateway",
 "thran-temporal-gateway"
+],
+[
+3,
+"Thran Turbine",
+"thran-turbine"
 ],
 [
 3,
@@ -52624,6 +53158,11 @@
 ],
 [
 3,
+"Ugin's Construct",
+"ugins-construct"
+],
+[
+3,
 "Ugin's Insight",
 "ugins-insight"
 ],
@@ -53229,13 +53768,48 @@
 ],
 [
 3,
+"Urza's Armor",
+"urzas-armor"
+],
+[
+3,
+"Urza's Avenger",
+"urzas-avenger"
+],
+[
+3,
+"Urza's Bauble",
+"urzas-bauble"
+],
+[
+3,
+"Urza's Blueprints",
+"urzas-blueprints"
+],
+[
+3,
 "Urza's Cave",
 "urzas-cave"
 ],
 [
 3,
+"Urza's Chalice",
+"urzas-chalice"
+],
+[
+3,
+"Urza's Command",
+"urzas-command"
+],
+[
+3,
 "Urza's Dark Cannonball",
 "urzas-dark-cannonball"
+],
+[
+3,
+"Urza's Engine",
+"urzas-engine"
 ],
 [
 3,
@@ -53256,6 +53830,11 @@
 3,
 "Urza's Power Plant",
 "urzas-power-plant"
+],
+[
+3,
+"Urza's Rebuff",
+"urzas-rebuff"
 ],
 [
 3,
@@ -54718,6 +55297,11 @@
 ],
 [
 3,
+"Weakstone",
+"weakstone"
+],
+[
+3,
 "Weaponcraft Enthusiast",
 "weaponcraft-enthusiast"
 ],
@@ -56084,6 +56668,11 @@
 3,
 "Yotia Declares War",
 "yotia-declares-war"
+],
+[
+3,
+"Yotian Soldier",
+"yotian-soldier"
 ],
 [
 3,

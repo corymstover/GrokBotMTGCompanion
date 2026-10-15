@@ -536,7 +536,7 @@ schema: 2
   - *2022-10-14* — When two cards are exiled and melded, they each leave the battlefield, then return together as one new object with no relation to either of the objects that left the battlefield. Counters, Auras, Equipment, and other effects that affected those two cards don't affect the melded permanent.
   - *2022-10-14* — While a meld card is in any zone other than the battlefield, it has only the characteristics of its front face. The same is true while it's on the battlefield with its front face up.
   - *2022-10-14* — While a melded permanent is on the battlefield, it has only the characteristics of its combined back face. Any effects that modify how the new object enters the battlefield will consider only the combined back face.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#the-mightstone-and-weakstone)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/T.md#the-mightstone-and-weakstone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/238/the-mightstone-and-weakstone) · oracle_id `c396db03-bf11-4e20-b630-4f9aa8fd78da` · printing: BRO #238 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Mighty Thor, Jane Foster

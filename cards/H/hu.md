@@ -1906,6 +1906,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-14* — Hurkyl need not have been on the battlefield at the time the noncreature spells were cast for the ability to trigger or for the spells to be counted.
   - *2022-10-14* — The card types that a noncreature spell can have are artifact, battle, enchantment, instant, kindred, planeswalker, and sorcery. Subtypes, like Human and Equipment, and supertypes, like snow and legendary, aren't card types.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/H.md#hurkyl-master-wizard)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/51/hurkyl-master-wizard) · oracle_id `957df9f4-73e9-4540-b838-52f65d0c62ee` · printing: BRO #51 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hurkyl's Final Meditation
@@ -1932,7 +1933,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — It only returns artifacts which are on the battlefield.
   - *2004-10-04* — Retrieves all artifacts owned by the target player regardless of who controls them. Ignores artifacts owned by other players even if target player has control of them.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hurkyls-recall)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/H.md#hurkyls-recall)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/48/hurkyls-recall) · oracle_id `ed1e5d24-c8a8-48fe-a88f-1003ad432477` · printing: MM2 #48 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hurler Cyclops

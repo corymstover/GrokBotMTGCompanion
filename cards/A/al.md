@@ -1231,7 +1231,7 @@ schema: 2
   - *2015-08-25* — In a multiplayer game, if Aligned Hedron Network’s owner leaves the game, the exiled cards will return to the battlefield. Because the one-shot effect that returns the cards isn’t an ability that goes on the stack, it won’t cease to exist along with the leaving player’s spells and abilities on the stack.
   - *2015-08-25* — In some very rare situations, Aligned Hedron Network may enter the battlefield as a creature with power 5 or greater. If this happens, Aligned Hedron Network will exile itself along with other creatures with power 5 or greater. Those cards will immediately return to the battlefield. If this causes a loop with Aligned Hedron Network continually exiling and returning itself, the game will be a draw unless a player breaks the loop somehow.
   - *2015-08-25* — The exiled cards return to the battlefield immediately after Aligned Hedron Network leaves the battlefield. Nothing happens between the two events, including state-based actions.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#aligned-hedron-network)
+- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/A.md#aligned-hedron-network)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/222/aligned-hedron-network) · oracle_id `5a399467-abb7-4f33-962d-8bef5aa9ebf3` · printing: BFZ #222 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Alirios, Enraptured

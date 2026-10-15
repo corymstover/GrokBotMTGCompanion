@@ -3345,7 +3345,7 @@ schema: 2
   > *There is beauty in the uncertainty of potential.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #192 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/P.md#prismatic-vista)
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/P.md#prismatic-vista)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/244/prismatic-vista) · oracle_id `032b8a0d-491a-4a12-ab9f-689010054d5b` · printing: MH1 #244 (2019-06-14) · [rulings](https://api.scryfall.com/cards/e37da81e-be12-45a2-9128-376f1ad7b3e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Prismatic Ward

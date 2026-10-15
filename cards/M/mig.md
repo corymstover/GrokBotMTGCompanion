@@ -259,6 +259,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27926 · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings** (1):
   - *2004-10-04* — The +1/+0 applies to attacking creatures from all players.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#mightstone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/215/mightstone) · oracle_id `2f578020-9b39-4c61-8b0b-6d29187e022a` · printing: ME4 #215 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mightstone's Animation

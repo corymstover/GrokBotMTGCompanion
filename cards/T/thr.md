@@ -216,6 +216,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22045 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-07-13* — For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#thraben-gargoyle--stonewing-antagonizer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/266/thraben-gargoyle-stonewing-antagonizer) · oracle_id `9b5cf592-8385-4115-b27a-98f42bdf6329` · printing: SOI #266 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thraben Heretic
@@ -470,7 +471,7 @@ schema: 2
   > *Urza's metathran children were conceived, birthed, and nurtured by an integrated system of machines.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #195 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#thran-dynamo)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/T.md#thran-dynamo)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/415/thran-dynamo) · oracle_id `a699c663-8131-4045-9265-a83e86609374` · printing: CMM #415 (2023-08-04) · [rulings](https://api.scryfall.com/cards/7ce5f12e-fc02-42f8-a5ca-b523050d4650/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thran Forge
@@ -498,6 +499,7 @@ schema: 2
   > *—Urza*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20603 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#thran-foundry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uds/140/thran-foundry) · oracle_id `88079144-8d8e-4f98-9bee-3762540c94ca` · printing: UDS #140 (1999-06-07) · [rulings](https://api.scryfall.com/cards/9cdc0d42-d96f-490f-87cb-3577dfdce807/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thran Golem
@@ -511,6 +513,7 @@ schema: 2
   > *Even after thousands of years, the wondrous creations of the Thran guarded the lost empire's secrets with single-minded devotion.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24399 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#thran-golem)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/234/thran-golem) · oracle_id `fe55f366-2996-4a4f-9b30-fc494cc80f87` · printing: DMR #234 (2023-01-13) · [rulings](https://api.scryfall.com/cards/05ea19b9-d25e-4d46-a7ea-059a3a2fceb1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thran Lens
@@ -628,6 +631,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10541 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-01-25* — Any of this mana that isn’t spent during your upkeep step will be removed before your draw step begins. You cannot save it to be spent on the card you will draw this turn.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#thran-turbine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/311/thran-turbine) · oracle_id `6c31f06d-bf02-48a7-9c17-be2a226b8eae` · printing: USG #311 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thran Vigil

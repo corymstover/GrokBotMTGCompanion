@@ -301,7 +301,7 @@ schema: 2
   - *2005-02-01* — If the Jitte leaves the battlefield after the "+2/+2" mode is announced but before it resolves, the bonus is given to the creature that was most recently equipped once the ability resolves.
   - *2005-02-01* — The ability can be used any time Umezawa's Jitte's controller has priority — only the "target creature" choice has additional requirements. Choosing the "Equipped creature gets +2/+2 until end of turn" mode does nothing if the Jitte isn't equipped to a creature when the ability resolves.
   - *2005-02-01* — Umezawa's Jitte's activated ability generates a modal choice. The choice is made when the ability is activated.
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/U.md#umezawas-jitte)
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/U.md#umezawas-jitte)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/163/umezawas-jitte) · oracle_id `1da10d5c-36a8-473f-a5d4-782ad61d8057` · printing: BOK #163 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Umori, the Collector

@@ -1079,6 +1079,7 @@ schema: 2
   > *Among the first allies Urza gained were the people of Kroog. As a sign of friendship, Urza gave the healers of the city potent amulets; afterwards, thousands journeyed to Kroog in hope of healing, greatly adding to the city's glory.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28882 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#amulet-of-kroog)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/179/amulet-of-kroog) · oracle_id `8eca999e-f7f8-4354-b419-2df4249c4361` · printing: ME4 #179 (2011-01-10) · [rulings](https://api.scryfall.com/cards/55540bd5-e0aa-40aa-8b98-2dfb4762b498/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amulet of Quoz

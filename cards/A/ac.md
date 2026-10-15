@@ -291,7 +291,7 @@ schema: 2
   > *Its secrets once wrought the greatest artifice ever known. Now crabs loot the rubble to decorate their shells.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #459 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 8 pages (6 decks · 2 edh guides) → [reverse index](../../references/A.md#academy-ruins)
+- **Referenced in:** 9 pages (7 decks · 2 edh guides) → [reverse index](../../references/A.md#academy-ruins)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/309/academy-ruins) · oracle_id `a3da7d5b-2c2b-45fe-b9c5-413b8c8fc0a2` · printing: 2XM #309 (2020-08-07) · [rulings](https://api.scryfall.com/cards/a95b7645-154f-4904-bf71-db7eb24d4df2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Academy Wall

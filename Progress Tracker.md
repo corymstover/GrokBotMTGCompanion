@@ -5,7 +5,7 @@ tags: [progress, milestones]
 issues: []
 generated_by: hand-written
 sources: []
-related: ["Front-Matter Schema.md", "Knowledge Index.md", "ROADMAP.md", "Artist Index.md", "EDH Archetypes.md", "EDH Bracket Calibration.md"]
+related: ["Front-Matter Schema.md", "EDH Lore-Themed Deckbuilding.md", "Knowledge Index.md", "ROADMAP.md", "Artist Index.md", "EDH Archetypes.md"]
 schema: 2
 ---
 
@@ -49,6 +49,7 @@ schema: 2
 | Characters Index | 🟢 complete for profiled PWs (cycle 4) | **78 entries** (was 59); **61 ✅ / 10 ❓ / 6 ⚠️ / 1 🚫** (was 54 / 1 / 3 / 1); 0 profiled Planeswalkers left unreviewed (was 19) |
 | Conflicts & Arcs | 🟢 cycle 20 (Phase 6) | **17 arcs** with Cause · Key beats · Outcome · Lasting consequences (of 39 entries) |
 | Contradictions & Retcons Log | 🟡 skeleton (cycle 20) | **5** cited entries · 5 queued |
+| Lore-themed EDH decks | 🟢 cycle 21 | [Guide](EDH%20Lore-Themed%20Deckbuilding.md) · 2 decks (Urza Brothers' War 73%; Nahiri 76%); Gate L; `kind: lore` |
 | Story Arc Summaries | ✅ Phase 2 done (cycles 7–8, #34) | **19 arcs and 135 cited beats** (was 7 / 52). Cycle 8 added BFZ/OGW, SOI/EMN, KLD/AER, AKH/HOU, DOM, WAR, WOE, LCI, DFT, EOE, ECL, SOS and RF, and folded ONE+MOM into one Phyrexia arc. Other pre-2022 arcs stay as entries in Conflicts & Arcs |
 | Planeswalker Dossiers | ✅ Phase 2 done (cycles 7–8, #35) | **21 dossiers** (was 13). Cycle 8 newly sourced the spark moments of Gideon, Sorin, Ugin and Bolas, plus Karn's partial (Venser's spark). Still ❓: Teferi, Kaya, Vraska, Tamiyo, Nahiri, Ral, Oko, Tezzeret, and Ajani's ignition scene |
 | Omenpath & Multiverse | 🟢 first pass (cycle 7, #36) | 5 definition facts, 5 known connections, 4 infrastructure items, 4 exceptions, 3 open ❓ |
@@ -61,11 +62,11 @@ schema: 2
 | Item | Status |
 |---|---|
 | EDH Standards | ✅ CR 903 rules, strict color identity, Archidekt format, Brackets (beta, Oct 2025 + Feb 2026 updates), auto banned list (83) and Game Changers (53) |
-| Deck skeletons | **46 validated** (was 32): 32 core, one per color identity, + **10 plane-restricted + 4 themed** (Bot cycle 7): C, 5 mono, 10 pairs, 10 three-color, 5 four-color (Atraxa, Breya, Yidris, Saskia, Kynaios & Tiro), WUBRG; each with a Commander rules & rulings block |
+| Deck skeletons | **46 validated** (was 32): 32 core, one per color identity, + **10 plane-restricted + 4 themed** (Bot cycle 7): C, 5 mono, 10 pairs, 10 three-color, 5 four-color (Atraxa, Breya, Yidris, Saskia, Kynaios & Tiro), WUBRG; each with a Commander rules & rulings block | · **+2 lore decks** (cycle 21, `decks/lore-*.md`)
 | EDH Staples | ✅ auto-generated: top 15 per color identity (C, 5 mono, 10 two-color, 10 three-color) + top 15 per role/archetype (14 roles) from 32,048 ranked Commander-legal cards |
 | Synergy notes | 15 commander engines with Oracle text + official rulings · **12 archetype guides** in [EDH Archetypes](EDH%20Archetypes.md) (was 0) |
 | Grixis section | ✅ (Bot cycle 16, #59–#62) **40 integrated decks** of 62 source lists (22 left out: 20 unrefined in the source, 2 future-release) · **87 corrections** (2 legality, 1 companion, 40 bracket, 40 format, 2 provenance, 2 structure flags) · 16,137 source Oracle rows checked, 0 outdated · 444 Game Changer slots · Spellbook **288 combos, 83 two-card infinite in 19 decks** · floors: 35× B4, 5× B3 · [package library](grixis/Grixis%20Packages.md) |
-| Deckbuilding method | ✅ (Bot cycle 16, #62) [EDH Deck Template](EDH%20Deck%20Template.md) + [EDH Deck Evaluation Checklist](EDH%20Deck%20Evaluation%20Checklist.md) (gates A–E, generalized from the Grixis repo) + `scripts/evaluate_decklist.py` (any identity) |
+| Deckbuilding method | ✅ (Bot cycle 16, #62; **cycle 21** Gate L + lore) [EDH Deck Template](EDH%20Deck%20Template.md) + [EDH Deck Evaluation Checklist](EDH%20Deck%20Evaluation%20Checklist.md) + [EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md) (gates A–E, generalized from the Grixis repo) + `scripts/evaluate_decklist.py` (any identity) |
 | Combo detection | ✅ (#15) Commander Spellbook API on all 46 decks: **218 complete combos, 63 two-card infinite in 18 decks** (was 189 / 51 / 14); combo-adjusted floors (Xenagos and Gishath 2 → 3) |
 | Phase 1 guides (Bot cycles 6–7, [ROADMAP](ROADMAP.md)) | ✅ **9 of 9 Phase 1 issues done** (cycle 7: Upgrade Paths, 32 commanders / 576 upgrade rows / 256 cuts; Themed Decks, 14): Mana Bases (32 identities, 1,118 non-basic lands), Packages (13 / 33 sub-packages / 321 rows), Win Conditions (8 categories / 146 rows / 46 combo kills), Interaction (6 hierarchies / 19 buckets / 183 rows), Pairings (8 abilities / 3,104 legal pairs), Mulligans (5 CR quotes, 2 odds tables, 19 opening-hand cards, 12 archetype rows), cEDH Primer (129 rows, 61 Spellbook combos). Open: #30 upgrade paths, #33 themed decks |
 
@@ -108,3 +109,5 @@ schema: 2
 | Phase 4 — Structure & usability | ✅ closed (Bot cycle 14: #46; Bot cycle 15: #44, #45, #47) | `v1.8-cycle15-phase4-complete` |
 | Grixis integration (Bot cycle 16) | ✅ #59–#62 done; #63 (follow-ups) open | `v1.9-grixis-integration` |
 | Phase 5 — Optimization pass (Bot cycles 17–19) | ✅ closed (Bot cycle 17: #65, #67; Bot cycle 18: #66; Bot cycle 19: #68) | `v2.0-phase5-optimization` |
+| Phase 6 — Lore deepening sprint | 🟡 Bot cycle 20 arcs/timeline/retcons; **cycle 21** lore deckbuilding (#79–#81) | milestone 15 |
+

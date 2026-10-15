@@ -1944,7 +1944,7 @@ schema: 2
   > *"And how did that work out last time?" asked Jace.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #544 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 4 pages (2 decks · 1 lore & story · 1 card data) → [reverse index](../../references/H.md#hedron-archive)
+- **Referenced in:** 5 pages (3 decks · 1 lore & story · 1 card data) → [reverse index](../../references/H.md#hedron-archive)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/726/hedron-archive) · oracle_id `32263baa-d3f0-463f-92b3-4e9938476add` · printing: FDN #726 (2024-11-15) · [rulings](https://api.scryfall.com/cards/535b9ac6-dba2-4162-86ed-df3e9fad0306/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hedron Blade
@@ -1958,6 +1958,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24162 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/H.md#hedron-blade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/224/hedron-blade) · oracle_id `cf7ca005-410d-40c8-aae4-89f41f81848b` · printing: BFZ #224 (2015-10-02) · [rulings](https://api.scryfall.com/cards/87242e1d-babe-4b0d-aa1f-ab62e0bc4ab7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hedron Crab
@@ -1990,7 +1991,7 @@ schema: 2
   > *—General Tazri, allied commander*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3929 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/H.md#hedron-crawler)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/H.md#hedron-crawler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/164/hedron-crawler) · oracle_id `0b9a4e06-b21d-4cbe-906f-9dbd08dbe5d3` · printing: OGW #164 (2016-01-22) · [rulings](https://api.scryfall.com/cards/9f827f92-1df6-4fd0-aa61-ec2e53476f9c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hedron Detonator
@@ -2051,6 +2052,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17237 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/H.md#hedron-matrix)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/209/hedron-matrix) · oracle_id `dc748941-fd91-4a0e-b0c4-04c9092ff158` · printing: CN2 #209 (2016-08-26) · [rulings](https://api.scryfall.com/cards/54fef322-b214-40b4-bed5-bc867bcf280b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hedron Rover
@@ -2087,6 +2089,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/H.md#hedron-scrabbler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/zen/204/hedron-scrabbler) · oracle_id `180d9c48-6d6c-4d20-965a-0ee2ad57f99b` · printing: ZEN #204 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Heedless One
@@ -3393,7 +3396,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22131 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-01-22* — Helvault’s first and third abilities are linked. Similarly, Helvault’s second and third abilities are linked. Only cards exiled as a result of Helvault’s first or second abilities will be returned to the battlefield by its third ability.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#helvault)
+- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/H.md#helvault)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/266/helvault) · oracle_id `fa3d8a6f-dc5b-4890-a806-f785a41660c7` · printing: INR #266 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hematite Golem

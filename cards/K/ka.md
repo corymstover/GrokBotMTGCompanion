@@ -2370,7 +2370,7 @@ schema: 2
   - *2022-09-09* — Karn’s emblem has an activated ability that allows you to tap untapped artifacts to pay its cost. Notably, you may tap artifact creatures that entered the battlefield this turn to pay this cost, even if they don’t have haste.
   - *2022-09-09* — Powerstone tokens are a new kind of predefined token. Each one has the artifact subtype “Powerstone” and the ability “{T}: Add {C}. This mana can’t be spent to cast a nonartifact spell.”
   - *2022-09-09* — You can use the {C} added by a Powerstone token on anything that isn’t a nonartifact spell. This includes paying costs to activate abilities of both artifact and nonartifact permanents, paying ward costs, and so on.
-- **Referenced in:** 4 pages (1 decks · 2 lore & story · 1 card data) → [reverse index](../../references/K.md#karn-living-legacy)
+- **Referenced in:** 5 pages (2 decks · 2 lore & story · 1 card data) → [reverse index](../../references/K.md#karn-living-legacy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/1/karn-living-legacy) · oracle_id `09ab1278-811f-4b97-bd34-7493d6e081e9` · printing: DMU #1 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Karn's Bastion
@@ -2408,7 +2408,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-04-27* — A token created by Karn's last ability will count itself, so it'll be at least 1/1.
   - *2018-04-27* — Karn is colorless but not an artifact. The Construct tokens created by Karn's last ability don't count Karn.
-- **Referenced in:** 3 pages (1 decks · 2 lore & story) → [reverse index](../../references/K.md#karn-scion-of-urza)
+- **Referenced in:** 4 pages (2 decks · 2 lore & story) → [reverse index](../../references/K.md#karn-scion-of-urza)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/1/karn-scion-of-urza) · oracle_id `060209fa-4b7d-4e08-bf8b-8759bba5641b` · printing: DOM #1 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Karn, Silver Golem

@@ -2186,7 +2186,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #789 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/O.md#ornithopter)
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/O.md#ornithopter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/233/ornithopter) · oracle_id `a3a98bc9-caa0-49b7-951c-fe4e4f54e4ba` · printing: DMR #233 (2023-01-13) · [rulings](https://api.scryfall.com/cards/305078a5-ac18-4721-bba2-3434eba5b1cf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ornithopter of Paradise

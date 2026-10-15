@@ -35,6 +35,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #444 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — Sram's ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#sram-senior-edificer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/176/sram-senior-edificer) · oracle_id `7e00b0cd-d212-4604-ba07-da21f4fe00b0` · printing: SOC #176 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sram's Expertise

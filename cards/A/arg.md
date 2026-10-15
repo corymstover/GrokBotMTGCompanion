@@ -148,6 +148,7 @@ schema: 2
   > *Unable to settle on just one versatile being, Urza decided to create myriad adaptable machines.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19722 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#argivian-avenger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/232/argivian-avenger) · oracle_id `d215cd4a-412c-4632-ab2d-de51103e6a7d` · printing: BRO #232 (2022-11-18) · [rulings](https://api.scryfall.com/cards/28e3bf5a-0a90-46d3-bcfe-9a47df41b72b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Argivian Blacksmith

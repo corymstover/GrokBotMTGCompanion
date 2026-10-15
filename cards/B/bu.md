@@ -1099,7 +1099,7 @@ schema: 2
   > *History has buried its treasures deep.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #193 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/B.md#buried-ruin)
+- **Referenced in:** 6 pages (4 decks · 1 edh guides · 1 card data) → [reverse index](../../references/B.md#buried-ruin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/150/buried-ruin) · oracle_id `3644f316-f9a3-46c9-9b1e-747f86cf4ead` · printing: EOC #150 (2025-08-01) · [rulings](https://api.scryfall.com/cards/7ab1a074-9d92-4125-9200-84cd035f8f53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Buried Treasure
@@ -1677,7 +1677,7 @@ schema: 2
   > *Forged by divine hands to wander mortal realms.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #505 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/B.md#burnished-hart)
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/B.md#burnished-hart)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/250/burnished-hart) · oracle_id `893fed41-c144-433f-af88-bc7d419b7fb3` · printing: FDN #250 (2024-11-15) · [rulings](https://api.scryfall.com/cards/65ebbff0-fbe6-4310-a33f-e00bb2534979/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burnout

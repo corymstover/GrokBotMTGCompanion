@@ -536,7 +536,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #594 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-07-13* — The set of creatures affected by Selfless Spirit's last ability is determined as the ability resolves. Creatures you begin to control later in the turn won't gain indestructible.
-- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/S.md#selfless-spirit)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#selfless-spirit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/167/selfless-spirit) · oracle_id `71d785a9-ddc8-472e-a778-a551b444a4bd` · printing: SOC #167 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selfless Squire

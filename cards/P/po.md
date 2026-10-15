@@ -1057,7 +1057,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #155 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-03-19* — If the target creature is an illegal target by the time Pongify tries to resolve, the spell won't resolve. No player creates an Ape token. If the target is legal but not destroyed (most likely because it has indestructible), its controller does create an Ape token.
-- **Referenced in:** 9 pages (4 decks · 3 edh guides · 2 card data) → [reverse index](../../references/P.md#pongify)
+- **Referenced in:** 10 pages (5 decks · 3 edh guides · 2 card data) → [reverse index](../../references/P.md#pongify)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/160/pongify) · oracle_id `05849bd6-8f38-4031-be2b-e2aa03beb8cc` · printing: TDC #160 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pontiff of Blight
@@ -2236,7 +2236,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15615 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-04-27* — Powerstone Shard’s activated ability is a mana ability. It doesn’t use the stack and can’t be responded to.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#powerstone-shard)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/P.md#powerstone-shard)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/227/powerstone-shard) · oracle_id `769c45ae-5d49-4815-944e-98790ad4efb0` · printing: DOM #227 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Power Surge

@@ -924,7 +924,7 @@ schema: 2
   - *2020-01-24* — Because damage remains marked on a creature until the damage is removed as the turn ends, damage previously dealt to a creature with indestructible may cause it to be destroyed if Shadowspear's second ability resolves during that turn.
   - *2020-01-24* — If a permanent enters the battlefield under an opponent's control with hexproof or indestructible after Shadowspear's second ability resolves, it won't lose that ability unless you activate Shadowspear's second ability again. The same is true if an opponent's permanent gains indestructible or hexproof after Shadowspear's second ability resolves.
   - *2020-01-24* — You can activate Shadowspear's second ability whether or not it's equipped to a creature.
-- **Referenced in:** 6 pages (3 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/S.md#shadowspear)
+- **Referenced in:** 7 pages (4 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/S.md#shadowspear)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/236/shadowspear) · oracle_id `8b27326f-e7b8-4a4d-b589-df459246d19a` · printing: THB #236 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadow Stinger

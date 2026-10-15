@@ -343,6 +343,7 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26385 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/Y.md#yotian-soldier)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/249/yotian-soldier) · oracle_id `645571f1-a775-4834-8b79-8852d38c9587` · printing: BBD #249 (2018-06-08) · [rulings](https://api.scryfall.com/cards/9e71190b-c96c-4aea-9696-780c69eff395/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yotian Tactician

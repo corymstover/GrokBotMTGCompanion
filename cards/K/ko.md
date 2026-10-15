@@ -928,6 +928,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17818 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-09-25* — If a creature loses double strike after assigning damage in the first strike combat damage step (due to Kor Blademaster leaving the battlefield, for example), that creature won’t assign damage in the normal combat damage step.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/K.md#kor-blademaster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/21/kor-blademaster) · oracle_id `194260af-aba5-4d18-a69b-eedb97ed4a4b` · printing: ZNR #21 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kor Bladewhirl
@@ -957,7 +958,7 @@ schema: 2
   > *Kor have no concept of exploration. They return to homelands forgotten.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4181 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/K.md#kor-cartographer)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/K.md#kor-cartographer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khc/28/kor-cartographer) · oracle_id `a5f537f6-3254-45a3-a4e7-d4d4fd7a972d` · printing: KHC #28 (2021-02-05) · [rulings](https://api.scryfall.com/cards/6226b346-ca4c-45ea-871c-1a8fb7f9be0d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kor Castigator
@@ -1029,6 +1030,7 @@ schema: 2
   > *"Swords cannot reach far enough. Chains cannot strike hard enough. An eternal dilemma, but a simple one."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21195 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/K.md#kor-duelist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/22/kor-duelist) · oracle_id `758dd2fd-d3ec-4782-9a60-12b0d79719da` · printing: MM2 #22 (2015-05-22) · [rulings](https://api.scryfall.com/cards/d7cd85ac-e826-4b16-b9ab-864ae2cabed1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kor Entanglers
@@ -1086,6 +1088,7 @@ schema: 2
   > {1}{W}, {T}: Prevent all combat damage that would be dealt by target attacking creature this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3743 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/K.md#kor-haven)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/141/kor-haven) · oracle_id `276cece9-f9f2-46e6-ae76-daddaa2fb9ab` · printing: NEM #141 (2000-02-14) · [rulings](https://api.scryfall.com/cards/3d5529ca-5c20-4dfd-8595-96d6dfa6debe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kor Hookmaster
@@ -1100,6 +1103,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25876 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-03-14* — Kor Hookmaster’s ability can target a creature that’s already tapped. It still won’t untap during its controller’s next untap step.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/K.md#kor-hookmaster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm3/10/kor-hookmaster) · oracle_id `e6941577-8262-42ef-bf32-f6505d90b73a` · printing: MM3 #10 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Korlash, Heir to Blackblade
@@ -1176,6 +1180,7 @@ schema: 2
 - **Rulings** (2):
   - *2009-10-01* — If either target is illegal by the time the ability resolves, the ability won’t do anything. If both targets are illegal, the ability doesn’t resolve.
   - *2009-10-01* — You may target Kor Outfitter with its ability.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/K.md#kor-outfitter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/zen/21/kor-outfitter) · oracle_id `8ae3562f-28b7-4462-96ed-be0cf7052ccc` · printing: ZEN #21 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Korozda Gorgon
@@ -1239,6 +1244,7 @@ schema: 2
   - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
   - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
   - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/K.md#kor-sanctifiers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c15/73/kor-sanctifiers) · oracle_id `55d8ac5b-622c-42a9-83dc-f2c1c6c2506f` · printing: C15 #73 (2015-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kor Scythemaster
@@ -1252,6 +1258,7 @@ schema: 2
   > *The kor of Zendikar are known for quiet determination in the face of overwhelming odds.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29175 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/K.md#kor-scythemaster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/23/kor-scythemaster) · oracle_id `21083222-12b6-4892-8078-1859140b7cc3` · printing: OGW #23 (2016-01-22) · [rulings](https://api.scryfall.com/cards/5ce587ba-f23a-4548-a5b8-fca54984d4b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kor Sky Climber
@@ -1282,6 +1289,7 @@ schema: 2
 - **Rulings** (2):
   - *2017-03-14* — If Kor Skyfisher is still on the battlefield as its triggered ability resolves, you may return Kor Skyfisher itself.
   - *2017-03-14* — Kor Skyfisher’s triggered ability doesn’t target a permanent. You choose which one to return to its owner’s hand as the ability resolves. No one can respond to the choice.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/K.md#kor-skyfisher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm3/11/kor-skyfisher) · oracle_id `054a0193-861e-4644-ab0a-8aa33407abc8` · printing: MM3 #11 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kor Spiritdancer
@@ -1298,6 +1306,7 @@ schema: 2
 - **Rulings** (2):
   - *2010-06-15* — If you cast an Aura spell, Kor Spiritdancer's second ability triggers and goes on the stack on top of it. The ability will resolve before the spell does.
   - *2010-06-15* — The second ability triggers when you cast any Aura spell, not just one that targets Kor Spiritdancer.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/K.md#kor-spiritdancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/152/kor-spiritdancer) · oracle_id `2bfc7467-1316-43d3-9ca6-ff36cc2de607` · printing: SOC #152 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Korvold and the Noble Thief
