@@ -3,6 +3,7 @@
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-15 — Bot cycle 11 (Phase 3: Format Legality Matrix)](#2026-10-15--bot-cycle-11-phase-3-format-legality-matrix)
 - [2026-10-15 — Bot cycle 10 (Phase 3: Printing History)](#2026-10-15--bot-cycle-10-phase-3-printing-history)
 - [2026-10-15 — Bot cycle 9 (Phase 3: Keyword Encyclopedia complete)](#2026-10-15--bot-cycle-9-phase-3-keyword-encyclopedia-complete)
 - [2026-10-15 — Bot cycle 8 (Phase 2 complete; Phase 3 keyword encyclopedia started)](#2026-10-15--bot-cycle-8-phase-2-complete-phase-3-keyword-encyclopedia-started)
@@ -13,6 +14,15 @@
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-15 — Bot cycle 11 (Phase 3: Format Legality Matrix)
+
+> All entries in this section are **Bot cycle 11** (Grok Bot) changes, on branch `bot-cycle11`.
+
+| # | Summary | Files affected | Reason |
+|---|---|---|---|
+| 11.1 | Bot cycle 11: **Format Legality Matrix** for [#41](https://github.com/corymstover/GrokBotMTGCompanion/issues/41). CSV of 33,894 cards × 23 Scryfall formats (L/N/B/R). Markdown page: per-format totals and complete banned/restricted lists (1,390 entries across 21 formats). Notes that non-Wizards formats have their own committees ⚠️, and that Commander still needs color identity and singleton rules. | `Format Legality Matrix.md`, `data/legality_matrix.csv`, `scripts/build_legality.py` | #41 |
+| 11.2 | Bot cycle 11: README, Progress Tracker, Knowledge Index, ROADMAP, Update Log (#41 ✅; Phase 3 continues with #42–#43). | `README.md`, `Progress Tracker.md`, `Knowledge Index.md`, `ROADMAP.md`, `Update Log.md` | docs |
 
 ## 2026-10-15 — Bot cycle 10 (Phase 3: Printing History)
 
