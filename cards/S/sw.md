@@ -222,6 +222,8 @@ schema: 2
   > *—Sif*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/beast-2014-06-19), [official story page](https://magic.wizards.com/en/news/feature/tragedy-2013-10-23), [Bound and Bonded](https://magic.wizards.com/en/news/magic-story/bound-and-bonded-2018-11-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (58): [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Breya, Etherium Shaper](../../decks/breya-etherium-shaper.md) · [Edgar Markov](../../decks/edgar-markov.md) · [Karador, Ghost Chieftain](../../decks/karador-ghost-chieftain.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,789,200 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (93.6% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (97.7% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (89.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 36 pages (35 decks · 1 card data) → [reverse index](../../references/S.md#swamp)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mdd/296/swamp) · oracle_id `56719f6a-1a6c-4c0a-8d21-18f7d7350b68` · printing: MDD #296 (2027-04-09) · [rulings](https://api.scryfall.com/cards/b233b117-9369-45c1-80c5-cc857386b6be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -581,6 +583,8 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23065 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Talented Captain Vraska](https://magic.wizards.com/en/news/magic-story/talented-captain-vraska-2017-09-20) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,249 decks; most often under [Valduk, Keeper of the Flame](../../cards/V/va.md#valduk-keeper-of-the-flame) (2.9% of its decks), [Admiral Beckett Brass](../../cards/A/ad.md#admiral-beckett-brass) (1.5% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/167/swashbuckling) · oracle_id `4992144f-7a36-4f30-9e8a-4355288b50c5` · printing: XLN #167 (2017-09-29) · [rulings](https://api.scryfall.com/cards/01ed59b1-968b-4297-9e98-42d940f9478c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swat
@@ -690,6 +694,8 @@ schema: 2
   > *The Roil takes many forms. It also takes many victims.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23080 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Zendikar's Last Stand](https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,242 decks; most often under [Wan Shi Tong, All-Knowing](../../cards/W/wan.md#wan-shi-tong-all-knowing) (7.9% of its decks), [Maralen, Fae Ascendant](../../cards/M/mar.md#maralen-fae-ascendant) (0.2% of its decks), [Rashmi and Ragavan](../../cards/R/ras.md#rashmi-and-ragavan) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#sweep-away)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/180/sweep-away) · oracle_id `c6901a89-ac7d-4797-a027-97bb1cf42e60` · printing: JMP #180 (2020-07-17) · [rulings](https://api.scryfall.com/cards/cad50269-6e80-47ea-a027-fa274f904e86/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -938,6 +944,8 @@ schema: 2
   - *2014-09-20* — If either target is an illegal target when Swift Kick tries to resolve, neither creature will deal or be dealt damage.
   - *2014-09-20* — If just the creature you control is an illegal target when Swift Kick tries to resolve, it won’t get +1/+0 until end of turn. If the creature you control is a legal target but the creature you don’t control isn’t, the creature you control will get +1/+0 until end of turn.
   - *2014-09-20* — You can’t cast Swift Kick unless you target both a creature you control and a creature you don’t control.
+- **Lore:** ✅ Card art shown on [Enlightened](https://magic.wizards.com/en/news/magic-story/enlightened) (caption names the card and its artist) — ✅ Flavor text verbatim on [official page 1](https://magic.wizards.com/en/news/magic-story/enlightened) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 696 decks; most often under [Zada, Hedron Grinder](../../cards/Z/za.md#zada-hedron-grinder) (0.3% of its decks), [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (0.3% of its decks), [Maarika, Brutal Gladiator](../../cards/M/maa.md#maarika-brutal-gladiator) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/122/swift-kick) · oracle_id `8c54fd75-e89f-490e-90dd-788f22b6e316` · printing: KTK #122 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swift Maneuver
@@ -966,6 +974,8 @@ schema: 2
   - *2015-06-22* — Check to see if there are two or more instant and/or sorcery cards in your graveyard as the spell resolves to determine whether the spell mastery ability applies. The spell itself won't count because it's still on the stack as you make this check.
   - *2018-12-07* — If an effect allows you to cast Swift Reckoning from your graveyard, you need two other instant and/or sorcery cards in your graveyard to cast it as though it had flash.
   - *2018-12-07* — The number of instant and/or sorcery cards in your graveyard matters only as you begin to cast Swift Reckoning. Once it's cast, that number doesn't matter and will have no effect on Swift Reckoning resolving.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 585 decks; most often under [Kytheon, Hero of Akros](../../cards/K/ky.md#kytheon-hero-of-akros--gideon-battle-forged) (6.2% of its decks), [Hylda of the Icy Crown](../../cards/H/hy.md#hylda-of-the-icy-crown) (0.3% of its decks), [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/39/swift-reckoning) · oracle_id `82b0c006-bf58-4f05-8801-e5d2857a6fd6` · printing: UMA #39 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swift Reconfiguration
@@ -1057,6 +1067,8 @@ schema: 2
   - *2015-02-25* — The creature you put onto the battlefield will be returned to your hand only if it’s still on the battlefield as the delayed triggered ability resolves during the next end step. If it leaves the battlefield before then, it will remain wherever it is.
   - *2015-02-25* — The delayed triggered ability that returns the creature to your hand will trigger even if Swift Warkite leaves the battlefield before the next end step.
   - *2015-02-25* — You can’t put creatures onto the battlefield face down this way.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Dragons of Tarkir, Part 2](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-dragons-tarkir-part-2-2015-03-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 5 combos; most popular [Swift Warkite + Activated Sleeper + Ashnod's Altar](https://commanderspellbook.com/combo/1481-2034-4881/) (Infinite colorless mana, Infinite death triggers) · EDHREC: in 1,380 decks; most often under [Rivaz of the Claw](../../cards/R/ri.md#rivaz-of-the-claw) (3.1% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (0.2% of its decks), [Neriv, Heart of the Storm](../../cards/N/ne.md#neriv-heart-of-the-storm) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/233/swift-warkite) · oracle_id `0df3444c-ae29-4fcc-bf46-4edf52b90e30` · printing: DTK #233 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swiftwater Cliffs
@@ -1558,6 +1570,8 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #234 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Nissa's Quest](https://magic.wizards.com/en/news/magic-story/nissas-quest-2015-09-23) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Nahiri, the Lithomancer](../../decks/lore-nahiri-the-lithomancer.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 444,070 decks; most often under [Cloud, Ex-SOLDIER](../../cards/C/cl.md#cloud-ex-soldier) (80.6% of its decks), [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (52.4% of its decks), [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (29.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Land ramp (puts lands onto the battlefield)](../../EDH%20Packages.md#ramp-land-ramp-puts-lands-onto-the-battlefield) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#sword-of-the-animist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/413/sword-of-the-animist) · oracle_id `d79cbc61-6c15-48ea-bbba-3cffb819ccba` · printing: CMM #413 (2023-08-04) · [rulings](https://api.scryfall.com/cards/64401acc-d080-4763-b67a-95164c11c69e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

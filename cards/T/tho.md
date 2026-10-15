@@ -187,6 +187,8 @@ schema: 2
   > Artifact creatures you control have haste. (They can attack and {T} as soon as they come under your control.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7691 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 44 combos; most popular [Breath of Fury + Myrel, Shield of Argive + Thopter Engineer](https://commanderspellbook.com/combo/814-1903-3259/) (Infinite creature ETB, Infinite creature LTB) · EDHREC: in 18,797 decks; most often under [Zinnia, Valley's Voice](../../cards/Z/zi.md#zinnia-valleys-voice) (21.3% of its decks), [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (9.6% of its decks), [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (12.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/181/thopter-engineer) · oracle_id `4ac53b34-20d2-4a53-bade-4f998fb6ae67` · printing: C21 #181 (2021-04-23) · [rulings](https://api.scryfall.com/cards/03ba03d0-c2fd-44fa-809e-3873e1c3e968/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thopter Fabricator
@@ -272,7 +274,9 @@ schema: 2
 - **Rulings** (2):
   - *2015-06-22* — The last ability will trigger, at most, once per combat damage step per player. However, if at least one artifact creature you control has first strike and others don't, or if an artifact creature you control has double strike, the ability could trigger twice per combat: once in each combat damage step.
   - *2015-06-22* — Thopter Spy Network's first ability has an “intervening ‘if' clause.” That means (1) the ability won't trigger at all unless you control an artifact as your upkeep begins, and (2) the ability will do nothing if you don't control an artifact as it resolves.
-- **Referenced in:** 7 pages (3 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/T.md#thopter-spy-network)
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (3): [Breya, Etherium Shaper](../../decks/breya-etherium-shaper.md) · [Ashad, the Lone Cyberman (Grixis)](../../grixis/decks/ashad-the-lone-cyberman.md) · [Cult of Skaro (Grixis)](../../grixis/decks/cult-of-skaro.md) · Commander Spellbook: 7 combos; most popular [Time Sieve + Myr Battlesphere + Conjurer's Closet + Thopter Spy Network](https://commanderspellbook.com/combo/933-1558-4840-5085/) (Infinite turns, Lock) · EDHREC: in 162,632 decks; most often under [Urza, Chief Artificer](../../cards/U/ur.md#urza-chief-artificer) (68.8% of its decks), [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (50.7% of its decks), [Mendicant Core, Guidelight](../../cards/M/me.md#mendicant-core-guidelight) (60.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 8 pages (3 decks · 3 edh guides · 1 rules · 1 card data) → [reverse index](../../references/T.md#thopter-spy-network)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/241/thopter-spy-network) · oracle_id `49be65fd-3755-410d-b0dc-2e5861ea2552` · printing: MOC #241 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thopter Squadron
@@ -867,6 +871,8 @@ schema: 2
   > *By morning the only evidence of conflict between Temur hunters and Sultai scouts were abandoned banners in the freshly fallen snow.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1103 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Chronicle of Bolas: The Twins](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-twins-2018-06-13), [Unwritten](https://magic.wizards.com/en/news/magic-story/unwritten-2015-01-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 142,401 decks; most often under [Zimone, Mystery Unraveler](../../cards/Z/zi.md#zimone-mystery-unraveler) (31.1% of its decks), [Aesi, Tyrant of Gyre Strait](../../cards/A/ae.md#aesi-tyrant-of-gyre-strait) (25.7% of its decks), [Omo, Queen of Vesuva](../../cards/O/om.md#omo-queen-of-vesuva) (22.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/T.md#thornwood-falls)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/269/thornwood-falls) · oracle_id `ec96cde2-f1e6-495c-94e2-3e8ae79e556c` · printing: TDM #269 (2025-04-11) · [rulings](https://api.scryfall.com/cards/ebb502c2-5fd0-46a9-b77d-010f4a942056/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1626,5 +1632,7 @@ schema: 2
   - *2018-10-05* — The copies will have the same targets as the spell they're copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal.
   - *2018-10-05* — Thousand-Year Storm's ability will copy any instant or sorcery spell, not just one with targets.
   - *2018-10-05* — You can't choose to pay any additional costs for the copies. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#thousand-year-storm)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): GRN #207, PGRN #207s · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Niv-Mizzet, Parun](../../decks/niv-mizzet-parun.md) · Commander Spellbook: 37 combos; most popular [Storm-Kiln Artist + Thousand-Year Storm + Narset's Reversal](https://commanderspellbook.com/combo/11-3584-5195/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC: in 115,558 decks; most often under [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (21.9% of its decks), [Storm, Force of Nature](../../cards/S/sto.md#storm-force-of-nature) (38.1% of its decks), [Iroh, Grand Lotus](../../cards/I/ir.md#iroh-grand-lotus) (37.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/T.md#thousand-year-storm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/248/thousand-year-storm) · oracle_id `dd4cf149-2fae-40e5-b50b-639f6bcec65e` · printing: FDN #248 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

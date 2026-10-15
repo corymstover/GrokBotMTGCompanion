@@ -205,6 +205,8 @@ schema: 2
 - **Keywords:** Flying, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14619 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Lunarch's Journal](https://magic.wizards.com/en/news/magic-story/lunarchs-journal-2014-08-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,865 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (6.1% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (0.6% of its decks), [Shilgengar, Sire of Famine](../../cards/S/shi.md#shilgengar-sire-of-famine) (1.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/44/seraph-of-dawn) · oracle_id `38c588ae-7254-4fae-aa9a-03e2a5524492` · printing: CMR #44 (2020-11-20) · [rulings](https://api.scryfall.com/cards/64bf33ea-2d2d-476d-ab1d-fba204fd034b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seraph of New Capenna // Seraph of New Phyrexia
@@ -309,6 +311,8 @@ schema: 2
   > {T}: Add {C}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2143 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Lunarch's Journal](https://magic.wizards.com/en/news/magic-story/lunarchs-journal-2014-08-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Giada, Font of Hope](../../decks/giada-font-of-hope.md) · [Nahiri, the Lithomancer](../../decks/lore-nahiri-the-lithomancer.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 77,424 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (78.2% of its decks), [Shilgengar, Sire of Famine](../../cards/S/shi.md#shilgengar-sire-of-famine) (54.9% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (10.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/S.md#seraph-sanctuary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddq/33/seraph-sanctuary) · oracle_id `0b504dc6-61cc-4a72-907c-145fa4c72466` · printing: DDQ #33 (2016-02-26) · [rulings](https://api.scryfall.com/cards/e1c1fa29-362f-40b4-b67f-513f6592fb3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -645,6 +649,8 @@ schema: 2
   - *2015-08-25* — If a card loses devoid, it will still be colorless. This is because effects that change an object’s color (like the one created by devoid) are considered before the object loses devoid.
   - *2015-08-25* — If one or two of those targets become illegal by the time Serpentine Spike resolves, you can’t change how much damage will be dealt to the remaining legal targets.
   - *2015-08-25* — Other cards and abilities can give a card with devoid color. If that happens, it’s just the new color, not that color and colorless.
+- **Lore:** ✅ Card art shown on [The Liberation of Sea Gate](https://magic.wizards.com/en/news/magic-story/liberation-sea-gate-2015-10-28) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 447 decks; most often under [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (0.2% of its decks), [Azlask, the Swelling Scourge](../../cards/A/az.md#azlask-the-swelling-scourge) (0.3% of its decks), [Lorehold, the Historian](../../cards/L/lo.md#lorehold-the-historian) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#serpentine-spike)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/133/serpentine-spike) · oracle_id `c983644d-6741-4aa1-aa68-a6e680c26bb6` · printing: BFZ #133 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -658,6 +664,8 @@ schema: 2
   > This creature can't attack unless defending player controls an Island.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21975 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Drop for Drop](https://magic.wizards.com/en/news/magic-story/drop-drop-2015-05-20) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,539 decks; most often under [Eluge, the Shoreless Sea](../../cards/E/el.md#eluge-the-shoreless-sea) (2.5% of its decks), [Xolatoyac, the Smiling Flood](../../cards/X/xo.md#xolatoyac-the-smiling-flood) (4.5% of its decks), [Kiora, Sovereign of the Deep](../../cards/K/ki.md#kiora-sovereign-of-the-deep) (1.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m10/70/serpent-of-the-endless-sea) · oracle_id `3b954d5f-3a93-4dd9-9d60-6097594d449c` · printing: M10 #70 (2009-07-17) · [rulings](https://api.scryfall.com/cards/f525d734-7e19-4c1e-a5c2-097b718df7c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Serpent of the Pass
@@ -1157,6 +1165,8 @@ schema: 2
   - *2019-06-14* — Serra's emblem doesn't prevent damage. It only changes the result of damage dealt to you. For example, a creature with lifelink that deals damage to you will still cause its controller to gain life, even if that damage would reduce your life total to less than 1.
   - *2019-06-14* — Serra's emblem doesn't stop loss of life from effects that say that you lose life.
   - *2019-06-14* — Serra's first ability affects only creatures you control with flying at the time it resolves. Creatures you begin to control later in the turn or that gain flying later in the turn won't get +1/+1.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Serra](../../Characters%20Index.md#serra) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Serra the Benevolent + Arcbond + Volcano Hellion](https://commanderspellbook.com/combo/518-1341-5109/) (Infinite damage) · EDHREC: in 27,609 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (29.8% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (3.3% of its decks), [Sigarda, Font of Blessings](../../cards/S/si.md#sigarda-font-of-blessings) (12.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/S.md#serra-the-benevolent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/26/serra-the-benevolent) · oracle_id `8b0e2382-dd91-42e6-aba3-5e8a15418a49` · printing: MH1 #26 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

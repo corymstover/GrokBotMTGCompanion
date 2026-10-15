@@ -126,6 +126,8 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #419 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** Featured in: [Plane → New Capenna](../../Planes%20Index.md#new-capenna) ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna), [2](https://magic.wizards.com/en/news/magic-story/episode-1-homecoming-2022-03-28) via entry) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Zur the Enchanter](../../decks/zur-the-enchanter.md) · Commander Spellbook: 1 combo; most popular [Escape Protocol + Fluctuator + Bone Miser + Golgari Findbroker + Raffine's Tower](https://commanderspellbook.com/combo/65-717-2628-5044-5181/) (Infinite card draw, Infinite draw triggers) · EDHREC: in 296,167 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (38.3% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (31.8% of its decks), [Hashaton, Scarab's Fist](../../cards/H/ha.md#hashaton-scarabs-fist) (40.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 5 pages (1 decks · 2 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/R.md#raffines-tower)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/254/raffines-tower) · oracle_id `6e9ef5ef-6aed-4d3e-a59b-9e3dc8740b1b` · printing: SNC #254 (2022-04-29) · [rulings](https://api.scryfall.com/cards/a2c56479-4bee-4edb-80d7-4af010b7c793/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

@@ -211,6 +211,8 @@ schema: 2
   > *The Warlord decreed that only someone who could move the statue would be strong enough to marry the princess. So Urza moved it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15113 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #57 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Urza, Lord High Artificer](../../decks/lore-brothers-war-urza-lord-high-artificer.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,346 decks; most often under [Urza, Lord High Artificer](../../cards/U/ur.md#urza-lord-high-artificer) (5.6% of its decks), [Sai, Master Thopterist](../../cards/S/sai.md#sai-master-thopterist) (6.1% of its decks), [The Cyber-Controller](../../cards/T/thec.md#the-cyber-controller) (11.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/M.md#machine-over-matter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/57/machine-over-matter) · oracle_id `37069c66-c17a-40ac-80f4-14ef49d18008` · printing: BRO #57 (2022-11-18) · [rulings](https://api.scryfall.com/cards/d08eadf5-a86d-4e8d-b65d-79b4f88477b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

@@ -275,6 +275,8 @@ schema: 2
 - **Keywords:** Flying, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9976 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Nissa's Resolve](https://magic.wizards.com/en/news/magic-story/nissas-resolve-2015-10-07) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 12,534 decks; most often under [Arcades, the Strategist](../../cards/A/arc.md#arcades-the-strategist) (16.5% of its decks), [Cynette, Jelly Drover](../../cards/C/cy.md#cynette-jelly-drover) (31.3% of its decks), [Phenax, God of Deception](../../cards/P/ph.md#phenax-god-of-deception) (6.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pca/17/guard-gomazoa) · oracle_id `7c565975-aebc-4599-ac32-5594c718e2cb` · printing: PCA #17 (2016-11-25) · [rulings](https://api.scryfall.com/cards/505969a2-0869-461e-a69a-3b380579e00a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Guardian Angel
@@ -338,6 +340,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27092 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2015-06-22* — If Guardian Automaton dies at the same time as your life total is reduced to 0 or less, you’ll lose the game before the triggered ability resolves.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Audacious Reshapers + Mortuary + Intruder Alarm + Guardian Automaton](https://commanderspellbook.com/combo/1636-2108-3511-5220/) (Infinite death triggers, Infinite creature ETB) · EDHREC: in 509 decks; most often under [Ragost, Deft Gastronaut](../../cards/R/rag.md#ragost-deft-gastronaut) (0.2% of its decks), [Dr. Eggman](../../cards/D/dre.md#dr-eggman) (0.2% of its decks), [Karn, Legacy Reforged](../../cards/K/ka.md#karn-legacy-reforged) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/227/guardian-automaton) · oracle_id `cd29d0fd-685f-4c26-b69c-e96f1c0d59c4` · printing: ORI #227 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Guardian Beast
@@ -757,6 +761,8 @@ schema: 2
   - *2009-10-01* — Spells and permanents have controllers, but cards that aren’t on the stack or the battlefield don’t. If a source without a controller (such as a cycled Jund Sojourners, for example) would deal damage to you, 1 of that damage is prevented if an opponent owns that source.
   - *2009-10-01* — The effects from multiple Guardian Seraphs are cumulative.
   - *2009-10-01* — This ability prevents 1 damage from each source an opponent controls each time that source would deal damage to you. It prevents 1 of any damage, not just combat damage.
+- **Lore:** ✅ Card art shown on [Veil of Deceit](https://magic.wizards.com/en/news/magic-story/veil-deceit-2014-07-01) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,807 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (2.4% of its decks), [Shilgengar, Sire of Famine](../../cards/S/shi.md#shilgengar-sire-of-famine) (0.6% of its decks), [Sigarda, Font of Blessings](../../cards/S/si.md#sigarda-font-of-blessings) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m10/13/guardian-seraph) · oracle_id `fe9106e3-c637-4995-9dc1-cae0be31f23b` · printing: M10 #13 (2009-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Guardian Shield-Bearer
@@ -1357,6 +1363,9 @@ schema: 2
   > *In a climate of suspicion, Isperia gathered the guilds to propose a radical idea: cooperation.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8175 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): GRN #41 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 17,059 decks; most often under [Nine-Fingers Keene](../../cards/N/ni.md#nine-fingers-keene) (82.1% of its decks), [Child of Alara](../../cards/C/chi.md#child-of-alara) (17.9% of its decks), [The Wandering Minstrel](../../cards/T/thew.md#the-wandering-minstrel) (8.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/G.md#guild-summit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/41/guild-summit) · oracle_id `38a3e144-93ad-497b-9b29-7040b6f337e1` · printing: GRN #41 (2018-10-05) · [rulings](https://api.scryfall.com/cards/d952259f-9e0a-49af-9dfb-3cad1a1bb3a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Guildsworn Prowler
@@ -2158,6 +2167,8 @@ schema: 2
   - *2010-06-15* — Effects that set a leveler’s power or toughness to a specific value, including the effects from a level symbol’s ability, apply in timestamp order. The timestamp of each level symbol’s ability is the same as the timestamp of the leveler itself, regardless of when the most recent level counter was put on it.
   - *2010-06-15* — If another creature becomes a copy of a leveler, all of the leveler’s printed abilities — including those represented by level symbols — are copied. The current characteristics of the leveler, and the number of level counters on it, are not. The abilities, power, and toughness of the copy will be determined based on how many level counters are on the copy.
   - *2010-06-15* — The abilities a leveler grants to itself don’t overwrite any other abilities it may have. In particular, they don’t overwrite the creature’s level up ability; it always has that.
+- **Lore:** ✅ Card art shown on [Stirring from Slumber](https://magic.wizards.com/en/news/magic-story/stirring-slumber-2015-05-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 7,075 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (3.7% of its decks), [Massacre Girl, Known Killer](../../cards/M/mas.md#massacre-girl-known-killer) (11.5% of its decks), [Ramses, Assassin Lord](../../cards/R/ram.md#ramses-assassin-lord) (18.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/roe/112/guul-draz-assassin) · oracle_id `c6fb6971-112b-4c82-a0a3-4acdde970b30` · printing: ROE #112 (2010-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Guul Draz Mucklord

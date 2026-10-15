@@ -124,6 +124,9 @@ schema: 2
   > *"Human enlightenment is a firefly that sparks in the night. Dragon enlightenment is a beacon that disperses all darkness."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17979 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Chronicle of Bolas: Blood and Fire](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-blood-and-fire-2018-07-18), [Chronicle of Bolas: Things Unseen](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-things-unseen-2018-06-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Mazzy, Truesword Paladin + Unbridled Growth + Defiler of Vigor + Student of Ojutai](https://commanderspellbook.com/combo/1560-2029-2340-3953/) (Infinite card draw, Infinite draw triggers) · EDHREC: in 3,234 decks; most often under [The Archimandrite](../../cards/T/thea.md#the-archimandrite) (51.5% of its decks), [Hope Estheim](../../cards/H/ho.md#hope-estheim) (0.7% of its decks), [Narset, Enlightened Exile](../../cards/N/na.md#narset-enlightened-exile) (0.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#student-of-ojutai)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/33/student-of-ojutai) · oracle_id `0adcf8d2-6eb9-4679-8ad5-f28e2f4aba39` · printing: IMA #33 (2017-11-17) · [rulings](https://api.scryfall.com/cards/df49884b-9e12-488c-8381-ec543349b97b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Student of Warfare
@@ -268,6 +271,8 @@ schema: 2
 - **Rulings** (2):
   - *2021-03-19* — A creature can be dealt an amount of damage greater than its toughness. For example, if Stuffy Doll is dealt 3 damage, its triggered ability deals 3 damage, not 1, to the chosen player.
   - *2021-03-19* — If your life total is brought to 0 or less at the same time that Stuffy Doll is dealt damage, you lose the game before its triggered ability goes on the stack.
+- **Lore:** ✅ Card art shown on [Threadbare](https://magic.wizards.com/en/news/magic-story/threadbare-2012-07-23) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 23 combos; most popular [Stuffy Doll + Pariah's Shield](https://commanderspellbook.com/combo/1640-3799/) (Draw the game) · EDHREC: in 73,209 decks; most often under [Anti-Venom, Horrifying Healer](../../cards/A/an.md#anti-venom-horrifying-healer) (32.3% of its decks), [Wayta, Trainer Prodigy](../../cards/W/way.md#wayta-trainer-prodigy) (51.5% of its decks), [Imodane, the Pyrohammer](../../cards/I/im.md#imodane-the-pyrohammer) (39.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/875/stuffy-doll) · oracle_id `499dceab-1890-49c8-b35d-b059a1dc950f` · printing: CLB #875 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stumpsquall Hydra

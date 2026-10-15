@@ -43,6 +43,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6996 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called “story spotlights”—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): AKH #123, PLST #AKH-123 — [Art & Flavor → Amonkhet & Hour of Devastation (2017)](../../Art%20%26%20Flavor%20Story%20Links.md#amonkhet--hour-of-devastation-2017) — ✅ Card art shown on [Judgment](https://magic.wizards.com/en/news/magic-story/judgment-2017-05-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Hinata, Dawn-Crowned + Mycosynth Lattice + By Force](https://commanderspellbook.com/combo/2128-3263-5381/) (Destroy all permanents opponents control, Mass Land Denial) · EDHREC: in 21,455 decks; most often under [Hinata, Dawn-Crowned](../../cards/H/hi.md#hinata-dawn-crowned) (51.7% of its decks), [Kibo, Uktabi Prince](../../cards/K/ki.md#kibo-uktabi-prince) (8.3% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (2.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#by-force)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/123/by-force) · oracle_id `7ce950fb-e065-45d3-aeff-f8c475460754` · printing: AKH #123 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -119,6 +121,8 @@ schema: 2
   - *2021-11-19* — If a player controls fewer than the chosen number of creatures, they will sacrifice all their creatures.
   - *2021-11-19* — Starting with the player whose turn it is, each player in turn order chooses which creatures they will sacrifice, then all the creatures chosen by all players are sacrificed at the same time. Players get to know the choices made by players who chose before them.
   - *2021-11-19* — The numbers you may choose include 0 and 13.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): VOW #5 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 14,511 decks; most often under [Malik, Grim Manipulator](../../cards/M/mal.md#malik-grim-manipulator) (17.3% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (0.9% of its decks), [Atla Palani, Nest Tender](../../cards/A/at.md#atla-palani-nest-tender) (1.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/5/by-invitation-only) · oracle_id `d64e96bf-6815-462c-93b4-c9c22dc43eda` · printing: VOW #5 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Byode, Inverse Sun

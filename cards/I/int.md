@@ -136,6 +136,8 @@ schema: 2
   - *2022-12-08* — If you copy a spell that's half of a split card, the copy copies that same half. For example, if you copy Assault, the copy is also Assault, not Battery.
   - *2022-12-08* — Split cards have two card faces on a single card. The characteristics of the half you didn't cast are ignored while the spell is on the stack.
   - *2022-12-08* — To cast a split card, choose one of its halves to cast. There's no way to cast both halves of this split card.
+- **Lore:** ✅ Card art shown on [Clans & Legions](https://magic.wizards.com/en/news/magic-story/clans-legions-2018-10-24) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,348 decks; most often under [General Ferrous Rokiric](../../cards/G/ge.md#general-ferrous-rokiric) (13.6% of its decks), [Firesong and Sunspeaker](../../cards/F/fi.md#firesong-and-sunspeaker) (8.2% of its decks), [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/198/integrity-intervention) · oracle_id `12f252b1-d3da-43af-ab31-0c8a6807c3c4` · printing: CLU #198 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Intellect Devourer
@@ -689,7 +691,9 @@ schema: 2
   > *Kellan stepped from his village into a strange world where trees bore jeweled fruit. A regal, inhuman voice rang in his ears: "Tell me, brave hero, are you true of heart?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16116 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/I.md#into-the-fae-court)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WOE #57 — [Art & Flavor → Wilds of Eldraine (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#wilds-of-eldraine-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,479 decks; most often under [Obyra, Dreaming Duelist](../../cards/O/ob.md#obyra-dreaming-duelist) (25.9% of its decks), [Maralen, Fae Ascendant](../../cards/M/mar.md#maralen-fae-ascendant) (3.0% of its decks), [Alela, Artful Provocateur](../../cards/A/al.md#alela-artful-provocateur) (2.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/I.md#into-the-fae-court)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/57/into-the-fae-court) · oracle_id `8db0a379-4cf2-43a7-932b-c5646a604578` · printing: WOE #57 (2023-09-08) · [rulings](https://api.scryfall.com/cards/969b13bb-6411-41f9-b6b4-af4ffca62e17/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Into the Fire
@@ -705,6 +709,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7812 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-04-14* — If you choose the second mode, you choose how many cards to put on the bottom of your library as Into the Fire resolves. You may choose to put no cards on the bottom of your library and just draw a card.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MOM #144 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 18,315 decks; most often under [Grenzo, Dungeon Warden](../../cards/G/gre.md#grenzo-dungeon-warden) (24.5% of its decks), [Hansk, Slayer Zealot](../../cards/H/ha.md#hansk-slayer-zealot) (58.1% of its decks), [The Locust God](../../cards/T/thel.md#the-locust-god) (10.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/I.md#into-the-fire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/144/into-the-fire) · oracle_id `e7f735ce-e53b-40c0-b449-1f28fdfb2484` · printing: MOM #144 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -823,6 +829,8 @@ schema: 2
   - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
   - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
   - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Lore:** ✅ Card art shown on [Zendikar: Things Have Changed](https://magic.wizards.com/en/news/feature/zendikar-things-have-changed-2020-09-01) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 29,490 decks; most often under [Talrand, Sky Summoner](../../cards/T/ta.md#talrand-sky-summoner) (23.7% of its decks), [Aesi, Tyrant of Gyre Strait](../../cards/A/ae.md#aesi-tyrant-of-gyre-strait) (9.5% of its decks), [Verazol, the Split Current](../../cards/V/ve.md#verazol-the-split-current) (84.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/I.md#into-the-roil)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/509/into-the-roil) · oracle_id `c2898bbd-82a4-4d26-b6ee-169b0ebe71b4` · printing: FDN #509 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1132,6 +1140,8 @@ schema: 2
 - **Rulings** (2):
   - *2024-02-02* — You decide which opponent chooses the pile while resolving Intrude on the Mind.
   - *2024-02-02* — You may choose to put all of the cards into one pile and leave the other pile empty. If you do, the opponent will choose whether to put the revealed cards into your hand or your graveyard.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MKM #296, MKM #61 — [Art & Flavor → Murders at Karlov Manor (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#murders-at-karlov-manor-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,759 decks; most often under [The Celestial Toymaker](../../cards/T/thec.md#the-celestial-toymaker) (71.3% of its decks), [Melek, Reforged Researcher](../../cards/M/me.md#melek-reforged-researcher) (16.0% of its decks), [Leonardo da Vinci](../../cards/L/le.md#leonardo-da-vinci) (6.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/I.md#intrude-on-the-mind)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/61/intrude-on-the-mind) · oracle_id `eedb1527-548a-435a-a3e1-8ad7d9d6d8a9` · printing: MKM #61 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

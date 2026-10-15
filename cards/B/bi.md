@@ -210,7 +210,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-03-16* — If a creature can't attack for any reason (such as being tapped or having come under that player's control that turn), then it doesn't attack. If there's a cost associated with having a creature attack, the player isn't forced to pay that cost, so it doesn't have to attack in that case either.
   - *2018-03-16* — The controller of each attacking creature still chooses which player or planeswalker that creature attacks.
-- **Lore:** Featured in: [Item → Theros god weapons](../../Items%20%26%20Artifacts%20Index.md#theros-god-weapons) ([source](https://magic.wizards.com/en/news/making-magic/planeswalkers-guide-theros-part-1-2013-08-21)) (the entry line carries ⚠️) · [format](../../Card%20Enrichment.md#lore-line)
+- **Lore:** Featured in: [Item → Theros god weapons](../../Items%20%26%20Artifacts%20Index.md#theros-god-weapons) ([source](https://magic.wizards.com/en/news/making-magic/planeswalkers-guide-theros-part-1-2013-08-21)) (the entry line carries ⚠️) — ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/sea-gods-labyrinth-part-2-2013-11-20), [Drop for Drop](https://magic.wizards.com/en/news/magic-story/drop-drop-2015-05-20), [Hedron Alignment](https://magic.wizards.com/en/news/magic-story/hedron-alignment-2015-11-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — KB decks (4): [Uro, Titan of Nature's Wrath (Theros-only)](../../decks/plane-theros-uro-titan-of-natures-wrath.md) · [Talrand, Sky Summoner](../../decks/talrand-sky-summoner.md) · [Admiral Beckett Brass (Grixis)](../../grixis/decks/admiral-beckett-brass.md) · [Goro-Goro and Satoru (Grixis)](../../grixis/decks/goro-goro-and-satoru.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 286,833 decks; most often under [Alela, Artful Provocateur](../../cards/A/al.md#alela-artful-provocateur) (54.5% of its decks), [Zinnia, Valley's Voice](../../cards/Z/zi.md#zinnia-valleys-voice) (45.0% of its decks), [Urza, Chief Artificer](../../cards/U/ur.md#urza-chief-artificer) (42.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 8 pages (4 decks · 1 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/B.md#bident-of-thassa)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/146/bident-of-thassa) · oracle_id `e1afaef7-9fa3-4662-a95f-adfb0da9fd11` · printing: LCC #146 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
@@ -1578,6 +1578,8 @@ schema: 2
   - *2018-01-19* — If a token is exiled this way, it will cease to exist and won’t return to the battlefield.
   - *2018-01-19* — If there is no exiled card as Bishop of Binding’s last ability resolves, most likely because Bishop of Binding left the battlefield while that ability was on the stack, X is 0. The same is true if the exiled card doesn’t have a power, most likely because it’s a noncreature card that had become a creature.
   - *2018-01-19* — The value of X is determined only as Bishop of Binding’s second ability resolves. It won’t change if the card leaves exile later in the turn.
+- **Lore:** ✅ Card art shown on [Unbowed, Part 2](https://magic.wizards.com/en/news/magic-story/unbowed-part-2-2018-09-05) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,778 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (1.6% of its decks), [Clavileño, First of the Blessed](../../cards/C/cl.md#clavileño-first-of-the-blessed) (2.1% of its decks), [Elenda, the Dusk Rose](../../cards/E/el.md#elenda-the-dusk-rose) (2.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/2/bishop-of-binding) · oracle_id `c2dd6c78-e482-4a3c-ad9c-7dd71b3e34d2` · printing: RIX #2 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bishop of Rebirth
@@ -1955,6 +1957,8 @@ schema: 2
   > *The peace summit proved the grudge between Urza and Mishra could end only in blood.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2928 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #127, PLST #BRO-127 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 57,348 decks; most often under [Yuma, Proud Protector](../../cards/Y/yu.md#yuma-proud-protector) (40.9% of its decks), [Magar of the Magic Strings](../../cards/M/mag.md#magar-of-the-magic-strings) (31.3% of its decks), [Ghen, Arcanum Weaver](../../cards/G/gh.md#ghen-arcanum-weaver) (59.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/B.md#bitter-reunion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/156/bitter-reunion) · oracle_id `173e86f4-17f3-44f5-8073-78e7e2e12c4a` · printing: OTC #156 (2024-04-19) · [rulings](https://api.scryfall.com/cards/4ef0b4dc-5a15-4de6-9c27-0e21148c0797/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1969,6 +1973,8 @@ schema: 2
   > *—Sorin Markov*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17867 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Sorin's Revelation](https://magic.wizards.com/en/news/magic-story/sorins-revelation) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,284 decks; most often under [Sorin of House Markov](../../cards/S/so.md#sorin-of-house-markov--sorin-ravenous-neonate) (1.3% of its decks), [Syr Konrad, the Grim](../../cards/S/sy.md#syr-konrad-the-grim) (0.9% of its decks), [Shilgengar, Sire of Famine](../../cards/S/shi.md#shilgengar-sire-of-famine) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/109/bitter-revelation) · oracle_id `f3e025ce-6114-42d0-842f-73366c853657` · printing: CMR #109 (2020-11-20) · [rulings](https://api.scryfall.com/cards/25657da2-e7bc-4e9b-8ec2-5a5779738436/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bitterthorn, Nissa's Animus
@@ -1997,6 +2003,8 @@ schema: 2
   > *Though he wept at Inti's death, Caparocti's eyes were keen, and his spear pierced cleanly through Clavileño's tainted heart.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #828 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): LCI #91 — [Art & Flavor → The Lost Caverns of Ixalan (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-lost-caverns-of-ixalan-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 176,730 decks; most often under [Hashaton, Scarab's Fist](../../cards/H/ha.md#hashaton-scarabs-fist) (27.2% of its decks), [Zurgo Stormrender](../../cards/Z/zu.md#zurgo-stormrender) (34.5% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (29.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/B.md#bitter-triumph)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/173/bitter-triumph) · oracle_id `776341cb-d2ec-423f-9250-92dc8bd8d503` · printing: TDC #173 (2025-04-11) · [rulings](https://api.scryfall.com/cards/c5333556-eea2-41ae-833e-007b9d540700/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

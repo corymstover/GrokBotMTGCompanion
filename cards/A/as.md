@@ -489,6 +489,8 @@ schema: 2
   - *2014-09-20* — The face-down spell has no mana cost and has a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost.
   - *2014-09-20* — When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the creature can still grant it any of these characteristics.
   - *2014-09-20* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Lore:** ✅ Card art shown on [Way of the Mantis](https://magic.wizards.com/en/news/magic-story/way-of-the-mantis) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 44 combos; most popular [Yarus, Roar of the Old Gods + Ashcloud Phoenix + Goblin Bombardment](https://commanderspellbook.com/combo/144-5147-5434/) (Near-infinite damage, Near-infinite damage to all players) · EDHREC: in 8,803 decks; most often under [Yarus, Roar of the Old Gods](../../cards/Y/ya.md#yarus-roar-of-the-old-gods) (86.3% of its decks), [Kaust, Eyes of the Glade](../../cards/K/ka.md#kaust-eyes-of-the-glade) (73.8% of its decks), [Syrix, Carrier of the Flame](../../cards/S/sy.md#syrix-carrier-of-the-flame) (68.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/147/ashcloud-phoenix) · oracle_id `fb2d7c3d-b68f-410e-9a73-cfcbfe702ade` · printing: MKC #147 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashcoat Bear
@@ -680,6 +682,8 @@ schema: 2
   - *2017-09-29* — Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keyword abilities (such as embalm from the Amonkhet set) are activated abilities and will have colons in their reminder text. Triggered abilities (starting with “when,” “whenever,” or “at”) are unaffected by Ashes of the Abhorrent.
   - *2017-09-29* — Ashes of the Abhorrent doesn’t stop players from playing land cards from the graveyard if an effect allows them to do so.
   - *2017-09-29* — If a creature dies at the same time that Ashes of the Abhorrent is destroyed, you’ll gain 1 life.
+- **Lore:** ✅ Card art shown on [Who Tells the Stories](https://magic.wizards.com/en/news/magic-story/who-tells-stories-2018-02-07) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 71 combos; most popular [Yawgmoth, Thran Physician + Ashes of the Abhorrent + Pawn of Ulamog](https://commanderspellbook.com/combo/883-4279-4314--216/) (Infinite card draw, Infinite draw triggers) · EDHREC: in 16,689 decks; most often under [Hope Estheim](../../cards/H/ho.md#hope-estheim) (8.5% of its decks), [Heliod, Sun-Crowned](../../cards/H/he.md#heliod-sun-crowned) (17.8% of its decks), [Oloro, Ageless Ascetic](../../cards/O/ol.md#oloro-ageless-ascetic) (3.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/A.md#ashes-of-the-abhorrent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/2/ashes-of-the-abhorrent) · oracle_id `a75d5b54-5cc9-49c4-8e8c-3bef22d4c01c` · printing: XLN #2 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -729,6 +733,8 @@ schema: 2
   - *2019-05-03* — If an effect says “Search your library . . . then shuffle your library,” your opponents shuffle their libraries even though they can’t search.
   - *2019-05-03* — If an effect says “You may search your library . . . If you do, shuffle your library” or “You may search your library . . . then shuffle your library,” your opponents can’t choose to search, so they won’t shuffle.
   - *2019-05-03* — Spells and abilities your opponents control may cause other players to search their libraries, and spells and abilities you control may cause your opponents to search their libraries.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Ashiok](../../Characters%20Index.md#ashiok) · [Dossier → Ashiok](../../Planeswalker%20Dossiers.md#ashiok) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (4): [Muldrotha, the Gravetide](../../decks/muldrotha-the-gravetide.md) · [Atraxa, Praetors' Voice (planeswalkers theme)](../../decks/theme-atraxa-praetors-voice-planeswalkers.md) · [Muldrotha, the Gravetide (self mill theme)](../../decks/theme-muldrotha-the-gravetide-self-mill.md) · [Kraum, Ludevic's Opus (Grixis)](../../grixis/decks/grixistax-october-2026.md) · Commander Spellbook: 1 combo; most popular [Hive Mind + Doomsday + Ashiok, Dream Render](https://commanderspellbook.com/combo/1371-3189-4510/) (Exile each opponent's library, Near-infinite lifeloss) · EDHREC: in 62,522 decks; most often under [Umbris, Fear Manifest](../../cards/U/um.md#umbris-fear-manifest) (64.1% of its decks), [Muldrotha, the Gravetide](../../cards/M/mu.md#muldrotha-the-gravetide) (25.7% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (10.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 8 pages (4 decks · 2 lore & story · 2 card data) → [reverse index](../../references/A.md#ashiok-dream-render)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/228/ashiok-dream-render) · oracle_id `93723b12-db34-4047-885e-8606415b1553` · printing: WAR #228 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -751,6 +757,8 @@ schema: 2
   - *2020-01-24* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any spells and/or permanents you control from Ashiok's last ability are exiled.
   - *2020-01-24* — The card exiled while resolving Ashiok's second ability may be the one that was returned to its owner's hand.
   - *2020-01-24* — You may cast any face-up cards your opponents own from exile while resolving Ashiok's last ability, not just those exiled by Ashiok's second ability or by Ashiok's Nightmare tokens.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Ashiok](../../Characters%20Index.md#ashiok) · [Dossier → Ashiok](../../Planeswalker%20Dossiers.md#ashiok) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 21,430 decks; most often under [Umbris, Fear Manifest](../../cards/U/um.md#umbris-fear-manifest) (66.9% of its decks), [Tasha, the Witch Queen](../../cards/T/ta.md#tasha-the-witch-queen) (39.7% of its decks), [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (9.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/A.md#ashiok-nightmare-muse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/208/ashiok-nightmare-muse) · oracle_id `ebc9ff52-c914-4c48-9d35-0e4cd07741cb` · printing: THB #208 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -770,6 +778,8 @@ schema: 2
   - *2013-09-15* — If Ashiok leaves the battlefield, and later another Ashiok enters the battlefield, it is a new object (even if the two were represented by the same card). Creature cards exiled by the original Ashiok can't be put onto the battlefield by the second ability of the new Ashiok.
   - *2013-09-15* — If you put a creature card with bestow onto the battlefield, it will be a creature on the battlefield, not an Aura.
   - *2013-09-15* — If you put a creature card with {X} in its mana cost onto the battlefield, the value of that X is 0.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/building-toward-dream-part-2-2013-12-03), [official story page](https://magic.wizards.com/en/news/feature/building-toward-dream-part-2-2013-12-04), [official story page](https://magic.wizards.com/en/news/feature/dreams-city-2014-04-23-0) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Ashiok](../../Characters%20Index.md#ashiok) · [Dossier → Ashiok](../../Planeswalker%20Dossiers.md#ashiok) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 10,247 decks; most often under [Umbris, Fear Manifest](../../cards/U/um.md#umbris-fear-manifest) (30.7% of its decks), [Tasha, the Witch Queen](../../cards/T/ta.md#tasha-the-witch-queen) (11.2% of its decks), [Phenax, God of Deception](../../cards/P/ph.md#phenax-god-of-deception) (4.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/A.md#ashiok-nightmare-weaver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/188/ashiok-nightmare-weaver) · oracle_id `b6f52260-9ad5-4024-acf9-d77f3c08c872` · printing: THS #188 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -805,7 +815,9 @@ schema: 2
 - **Rulings** (2):
   - *2020-01-24* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any permanents you control from Ashiok’s second ability are exiled, and the control effect of Ashiok’s last ability ends.
   - *2020-01-24* — The effect of Ashiok’s last ability lasts indefinitely. It doesn’t expire as the turn ends or if Ashiok leaves the battlefield.
-- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/A.md#ashiok-sculptor-of-fears)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Ashiok](../../Characters%20Index.md#ashiok) · [Dossier → Ashiok](../../Planeswalker%20Dossiers.md#ashiok) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 9,374 decks; most often under [Captain N'ghathrod](../../cards/C/cap.md#captain-nghathrod) (8.3% of its decks), [Umbris, Fear Manifest](../../cards/U/um.md#umbris-fear-manifest) (5.2% of its decks), [Tasha, the Witch Queen](../../cards/T/ta.md#tasha-the-witch-queen) (7.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Reanimation](../../EDH%20Packages.md#graveyard-reanimation) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 edh guides · 2 lore & story) → [reverse index](../../references/A.md#ashiok-sculptor-of-fears)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/274/ashiok-sculptor-of-fears) · oracle_id `ce79bbd2-edf0-4d5e-9aaf-717ec3960c48` · printing: THB #274 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashiok's Erasure
@@ -887,7 +899,9 @@ schema: 2
   - *2023-09-01* — Ashiok's first ability doesn't allow you to attempt to pay an amount of life greater than your current life total.
   - *2023-09-01* — Ashiok, Wicked Nightmare's first ability isn't optional. You can't choose to pay life instead of exiling cards from the top of your library while you control Ashiok, and you can't split the payment between life and cards.
   - *2023-09-01* — If you would pay life while you control Ashiok and your library does not have at least that many cards in it, you'll just pay life as normal.
-- **Referenced in:** 4 pages (1 decks · 2 lore & story · 1 card data) → [reverse index](../../references/A.md#ashiok-wicked-manipulator)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Ashiok](../../Characters%20Index.md#ashiok) · [Dossier → Ashiok](../../Planeswalker%20Dossiers.md#ashiok) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Syr Konrad, the Grim (Eldraine-only)](../../decks/plane-eldraine-syr-konrad-the-grim.md) · Commander Spellbook: 5 combos; most popular [Ashiok, Wicked Manipulator + Necropotence](https://commanderspellbook.com/combo/2057-3591/) (Exile your library) · EDHREC: in 6,037 decks; most often under [Umbris, Fear Manifest](../../cards/U/um.md#umbris-fear-manifest) (10.2% of its decks), [Ketramose, the New Dawn](../../cards/K/ke.md#ketramose-the-new-dawn) (3.9% of its decks), [K'rrik, Son of Yawgmoth](../../cards/K/kr.md#krrik-son-of-yawgmoth) (1.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 5 pages (1 decks · 1 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/A.md#ashiok-wicked-manipulator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/78/ashiok-wicked-manipulator) · oracle_id `67d66678-a8e6-4f80-bade-1f1daf4b0610` · printing: WOE #78 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashling, Flame Dancer
@@ -1134,6 +1148,8 @@ schema: 2
   > *"Listen, Duck. Gix is everywhere, playing every side. Mishra won't listen . . . but perhaps Urza will."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8310 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #85 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 16,698 decks; most often under [Xantcha, Sleeper Agent](../../cards/X/xa.md#xantcha-sleeper-agent) (10.7% of its decks), [Deadpool, Trading Card](../../cards/D/dea.md#deadpool-trading-card) (2.8% of its decks), [Kain, Traitorous Dragoon](../../cards/K/ka.md#kain-traitorous-dragoon) (32.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#ashnods-intervention)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/85/ashnods-intervention) · oracle_id `c1a7d108-8073-42a5-ade0-a0643d078268` · printing: BRO #85 (2022-11-18) · [rulings](https://api.scryfall.com/cards/bcf491db-d12b-4c58-9c05-085cac34a73e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1587,6 +1603,8 @@ schema: 2
   - *2024-02-02* — If the permanent's controller doesn't search their library, they don't shuffle their library.
   - *2024-02-02* — If the target permanent is a legal target but isn't destroyed, most likely because it has indestructible, its controller may search their library.
   - *2024-02-02* — If the target permanent is an illegal target by the time Assassin's Trophy tries to resolve, the spell doesn't resolve. No player searches their library.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): GRN #152, PGRN #152s · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (7): [Karador, Ghost Chieftain](../../decks/karador-ghost-chieftain.md) · [Korvold, Fae-Cursed King](../../decks/korvold-fae-cursed-king.md) · [Lathril, Blade of the Elves](../../decks/lathril-blade-of-the-elves.md) · [Muldrotha, the Gravetide](../../decks/muldrotha-the-gravetide.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 703,764 decks; most often under [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (44.0% of its decks), [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (48.5% of its decks), [Auntie Ool, Cursewretch](../../cards/A/au.md#auntie-ool-cursewretch) (84.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 11 pages (7 decks · 3 edh guides · 1 card data) → [reverse index](../../references/A.md#assassins-trophy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/294/assassins-trophy) · oracle_id `ac10d218-f9a6-4058-9cda-a15ca1b0b7b5` · printing: SOC #294 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1811,6 +1829,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2285 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-01-12* — If Assemble the Legion isn't on the battlefield when its ability resolves, use the number of muster counters it had when it was last on the battlefield to determine how many Soldier tokens to create.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/greater-good-2013-02-06) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Aurelia, the Warleader (Ravnica-only)](../../decks/plane-ravnica-aurelia-the-warleader.md) · Commander Spellbook: 1 combo; most popular [Esix, Fractal Bloom + Timestream Navigator + Assemble the Legion](https://commanderspellbook.com/combo/430-727-1061/) (Infinite turns, Lock) · EDHREC: in 72,027 decks; most often under [Caesar, Legion's Emperor](../../cards/C/cae.md#caesar-legions-emperor) (52.4% of its decks), [Arabella, Abandoned Doll](../../cards/A/ara.md#arabella-abandoned-doll) (35.2% of its decks), [Queen Marchesa](../../cards/Q/qu.md#queen-marchesa) (18.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/A.md#assemble-the-legion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/163/assemble-the-legion) · oracle_id `6f81bef3-6ca0-4cf4-aa99-7b2813eeef04` · printing: RVR #163 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1832,6 +1852,8 @@ schema: 2
   - *2024-02-02* — If the top card of your library has a disguise or morph ability, you can cast it face down from the top of your library, even if it doesn't normally have power 2 or less.
   - *2024-02-02* — You can look at the top card of your library whenever you want (with one restriction; see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
   - *2024-02-02* — You must pay all costs and follow all timing rules for spells cast from the top of your library this way.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MKM #287, MKM #3 — [Art & Flavor → Murders at Karlov Manor (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#murders-at-karlov-manor-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 34,280 decks; most often under [Arabella, Abandoned Doll](../../cards/A/ara.md#arabella-abandoned-doll) (20.3% of its decks), [Arcades, the Strategist](../../cards/A/arc.md#arcades-the-strategist) (13.7% of its decks), [Delney, Streetwise Lookout](../../cards/D/del.md#delney-streetwise-lookout) (47.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#assemble-the-players)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/3/assemble-the-players) · oracle_id `180ba940-2b11-4953-b7ce-74847e1aebfd` · printing: MKM #3 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2094,6 +2116,8 @@ schema: 2
 - **Rulings** (2):
   - *2014-02-01* — If you choose 1 for the value of X, Astral Cornucopia will cost {3} to cast and enter the battlefield with one charge counter. If you choose 2 for the value of X, it will cost {6} to cast and enter the battlefield with two charge counters, and so on.
   - *2014-02-01* — The last ability is a mana ability. It doesn't use the stack and can't be responded to.
+- **Lore:** ✅ Card art shown on [The Oracle of Ephara](https://magic.wizards.com/en/news/magic-story/oracle-ephara-2014-03-19), [The Oracle of Ephara](https://magic.wizards.com/en/news/magic-story/oracle-ephara-2014-03-19-0) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (3): [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Uro, Titan of Nature's Wrath (Theros-only)](../../decks/plane-theros-uro-titan-of-natures-wrath.md) · [Atraxa, Praetors' Voice (planeswalkers theme)](../../decks/theme-atraxa-praetors-voice-planeswalkers.md) · Commander Spellbook: 57 combos; most popular [Filigree Sages + Astral Cornucopia](https://commanderspellbook.com/combo/2544-2593/) (Infinite colored mana, Infinite mana artifacts you control can produce) · EDHREC: in 122,106 decks; most often under [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (42.8% of its decks), [Kilo, Apogee Mind](../../cards/K/ki.md#kilo-apogee-mind) (71.6% of its decks), [Inspirit, Flagship Vessel](../../cards/I/ins.md#inspirit-flagship-vessel) (76.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (3 decks · 1 edh guides) → [reverse index](../../references/A.md#astral-cornucopia)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/342/astral-cornucopia) · oracle_id `1bc42024-52da-4d93-8b47-544f0a4a72a1` · printing: SOC #342 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

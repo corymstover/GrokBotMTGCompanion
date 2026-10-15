@@ -55,6 +55,8 @@ schema: 2
 - **Rulings** (2):
   - *2018-04-27* — In a Two-Headed Giant game, creatures can attack your teammate and planeswalkers your teammate controls without requiring a mana payment. This is a change from previous rules.
   - *2023-07-28* — If you control Baird, your opponents can choose not to pay to attack with a creature that attacks "if able." If there's no other player, planeswalker, or battle to attack, that creature simply doesn't attack.
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 8](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-8-2018-05-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 225 decks; highest synergy [Windborn Muse](../../cards/W/wi.md#windborn-muse) (+47%), [Ghostly Prison](../../cards/G/gh.md#ghostly-prison) (+43%), [Sphere of Safety](../../cards/S/sph.md#sphere-of-safety) (+41%) · EDHREC: in 64,007 decks; most often under [Ms. Bumbleflower](../../cards/M/ms.md#ms-bumbleflower) (22.6% of its decks), [Grand Arbiter Augustin IV](../../cards/G/gra.md#grand-arbiter-augustin-iv) (24.5% of its decks), [Myrel, Shield of Argive](../../cards/M/my.md#myrel-shield-of-argive) (36.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/15/baird-steward-of-argive) · oracle_id `69aa6809-5468-413a-94c9-562e6de93957` · printing: CMM #15 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baithook Angler // Hook-Haunt Drifter

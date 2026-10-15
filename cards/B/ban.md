@@ -226,6 +226,8 @@ schema: 2
   - *2018-07-13* — Banefire can be targeted by spells that try to counter it regardless of what the value of X is. If X is 5 or more, those spells will still resolve, but the part of their effect that would counter Banefire won’t do anything. Any other effects those spells have will work as normal.
   - *2018-07-13* — If its target is illegal by the time Banefire tries to resolve, the spell isn’t countered, but it doesn’t resolve. The target won’t be dealt damage.
   - *2018-07-13* — To determine whether it can be countered and its damage can be prevented, Banefire checks the number you chose for X, not the amount of mana you actually spent or the amount of damage it will actually deal.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/reforged-chain-2015-01-21) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 39,952 decks; most often under [Imodane, the Pyrohammer](../../cards/I/im.md#imodane-the-pyrohammer) (43.3% of its decks), [Magus Lucea Kane](../../cards/M/mag.md#magus-lucea-kane) (12.4% of its decks), [Rowan, Scion of War](../../cards/R/ro.md#rowan-scion-of-war) (19.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/130/banefire) · oracle_id `5eff8a06-e0d6-435a-a7c0-db9f9d98636a` · printing: M19 #130 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baneful Omen
@@ -444,6 +446,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13036 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-03-20* — If the target permanent is an illegal target when Banishing Betrayal tries to resolve, it won't resolve and none of its effects will happen. You won't surveil.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): SOS #38 — [Art & Flavor → Secrets of Strixhaven (2026)](../../Art%20%26%20Flavor%20Story%20Links.md#secrets-of-strixhaven-2026) — ✅ Card art shown on [Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-6-two-three-five-seven) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 7,721 decks; most often under [Mirko, Obsessive Theorist](../../cards/M/mir.md#mirko-obsessive-theorist) (15.7% of its decks), [Prismari, the Inspiration](../../cards/P/pr.md#prismari-the-inspiration) (4.0% of its decks), [Matoya, Archon Elder](../../cards/M/mat.md#matoya-archon-elder) (33.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#banishing-betrayal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/38/banishing-betrayal) · oracle_id `6b633e58-ea1b-4ed0-addb-6dfd93645ae4` · printing: SOS #38 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -632,6 +636,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21652 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2012-05-01* — Only creatures you control when Banners Raised resolves will get the bonus. Creatures that enter or that you gain control of later in the turn will be unaffected.
+- **Lore:** ✅ Card art shown on [I Am Avacyn](https://magic.wizards.com/en/news/magic-story/i-am-avacyn-2016-05-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,643 decks; most often under [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (0.6% of its decks), [Balmor, Battlemage Captain](../../cards/B/bal.md#balmor-battlemage-captain) (2.2% of its decks), [Rosnakht, Heir of Rohgahh](../../cards/R/ro.md#rosnakht-heir-of-rohgahh) (4.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#banners-raised)
 - **Source flags:** [Scryfall](https://scryfall.com/card/avr/127/banners-raised) · oracle_id `b60d83ea-18bf-4c64-b4ee-981d54629362` · printing: AVR #127 (2012-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

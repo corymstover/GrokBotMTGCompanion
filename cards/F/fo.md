@@ -790,6 +790,8 @@ schema: 2
 - **Keywords:** Infusion
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16065 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): SOS #148 — [Art & Flavor → Secrets of Strixhaven (2026)](../../Art%20%26%20Flavor%20Story%20Links.md#secrets-of-strixhaven-2026) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,551 decks; most often under [Blech, Loafing Pest](../../cards/B/ble.md#blech-loafing-pest) (8.7% of its decks), [Witherbloom, the Balancer](../../cards/W/wi.md#witherbloom-the-balancer) (1.9% of its decks), [Dina, Essence Brewer](../../cards/D/di.md#dina-essence-brewer) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/F.md#follow-the-lumarets)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/148/follow-the-lumarets) · oracle_id `5bb38d08-582e-43aa-9507-7c20759978ec` · printing: SOS #148 (2026-04-24) · [rulings](https://api.scryfall.com/cards/f9488480-2b6c-40bc-a93e-29fb1292a2e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -843,6 +845,9 @@ schema: 2
   > *Drink deep, and know the path to the heart of the wilds.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6785 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Path or the Horizon](https://magic.wizards.com/en/news/magic-story/path-or-horizon-2014-05-07), [The Path or the Horizon](https://magic.wizards.com/en/news/magic-story/path-or-horizon-2014-05-07-0) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 22,375 decks; most often under [Anikthea, Hand of Erebos](../../cards/A/an.md#anikthea-hand-of-erebos) (32.8% of its decks), [Narci, Fable Singer](../../cards/N/na.md#narci-fable-singer) (32.9% of its decks), [Muldrotha, the Gravetide](../../cards/M/mu.md#muldrotha-the-gravetide) (5.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Land ramp (puts lands onto the battlefield)](../../EDH%20Packages.md#ramp-land-ramp-puts-lands-onto-the-battlefield) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/F.md#font-of-fertility)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/895/font-of-fertility) · oracle_id `7fb6f960-38f6-45fa-bfec-d43fc174daa7` · printing: CMM #895 (2023-08-04) · [rulings](https://api.scryfall.com/cards/a8e85cd4-c116-42e2-a94b-2c04b06c4e2b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Font of Fortunes
@@ -1742,6 +1747,8 @@ schema: 2
   - *2016-04-08* — If an effect instructs you to put Foreboding Ruins onto the battlefield tapped, it will still enter the battlefield tapped even if you reveal a land card from your hand.
   - *2016-04-08* — Lands don't have a subtype just because they can produce mana of the corresponding color. Foreboding Ruins itself is neither a Swamp nor a Mountain, even though it produces black and red mana, so you can't reveal one to satisfy the ability of another.
   - *2016-04-08* — You may reveal any land card with either or both of the appropriate subtypes. It doesn't have to be a basic land. For example, you could reveal Sunken Hollow from the Battle for Zendikar set to satisfy the ability of Foreboding Ruins.
+- **Lore:** ✅ Card art shown on [The Mystery of Markov Manor](https://magic.wizards.com/en/news/magic-story/mystery-markov-manor-2016-03-30) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Prosper, Tome-Bound](../../decks/prosper-tome-bound.md) · [Be'lakor, the Dark Master (Grixis)](../../grixis/decks/belakor-the-dark-master.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 358,750 decks; most often under [Valgavoth, Harrower of Souls](../../cards/V/va.md#valgavoth-harrower-of-souls) (65.5% of its decks), [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (37.5% of its decks), [Kuja, Genome Sorcerer](../../cards/K/ku.md#kuja-genome-sorcerer--trance-kuja-fate-defied) (49.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 6 pages (2 decks · 3 edh guides · 1 card data) → [reverse index](../../references/F.md#foreboding-ruins)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/244/foreboding-ruins) · oracle_id `5c87e2fa-77f1-4978-b25f-f14d227301d1` · printing: MSC #244 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1962,6 +1969,8 @@ schema: 2
   > *—Morgan Le Fay*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/burying-part-2-2013-03-06), [official story page](https://magic.wizards.com/en/news/feature/great-concourse-2012-10-23), [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (24): [Animar, Soul of Elements](../../decks/animar-soul-of-elements.md) · [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Chulane, Teller of Tales](../../decks/chulane-teller-of-tales.md) · [Gishath, Sun's Avatar](../../decks/gishath-suns-avatar.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,416,399 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (83.5% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (91.9% of its decks), [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (96.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#forest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mdd/301/forest) · oracle_id `b34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6` · printing: MDD #301 (2027-04-09) · [rulings](https://api.scryfall.com/cards/2e781bfd-f8cb-4d20-b977-4359f3a21311/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2186,6 +2195,8 @@ schema: 2
   > *The metal turned and blossomed with Saheeli's will, each filigreed twist bringing the temporal anchor closer to completion.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15249 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #50 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,208 decks; most often under [Urza, Chief Artificer](../../cards/U/ur.md#urza-chief-artificer) (4.0% of its decks), [Jhoira, Ageless Innovator](../../cards/J/jh.md#jhoira-ageless-innovator) (19.7% of its decks), [Urza, Lord Protector](../../cards/U/ur.md#urza-lord-protector) (5.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/F.md#forging-the-anchor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/50/forging-the-anchor) · oracle_id `17c5b5c9-5c58-46dc-b0a7-a635b9997bb8` · printing: BRO #50 (2022-11-18) · [rulings](https://api.scryfall.com/cards/057f6add-1f1d-4cce-9c9d-5e59fb74d78e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2207,6 +2218,8 @@ schema: 2
   - *2021-02-05* — Once a chapter ability has triggered, the ability on the stack won’t be affected if the Saga gains or loses counters, or if it leaves the battlefield.
   - *2021-02-05* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga’s controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn’t use the stack.
   - *2021-02-05* — Removing lore counters won’t cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): KHM #211, PLST #KHM-211 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 15,998 decks; most often under [Ardenn, Intrepid Archaeologist // Rograkh, Son of Rohgahh](../../cards/A/ard.md#ardenn-intrepid-archaeologist) (16.1% of its decks), [Syr Gwyn, Hero of Ashvale](../../cards/S/sy.md#syr-gwyn-hero-of-ashvale) (14.1% of its decks), [Bruenor Battlehammer](../../cards/B/br.md#bruenor-battlehammer) (23.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/211/forging-the-tyrite-sword) · oracle_id `47a8f3a8-253b-4df9-9cfc-ff7df65d850c` · printing: KHM #211 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Forgotten Ancient
@@ -2469,6 +2482,8 @@ schema: 2
   - *2014-02-01* — If the inspired ability includes an optional cost, you decide whether to pay that cost as the ability resolves. You can do this even if the creature leaves the battlefield in response to the ability.
   - *2014-02-01* — Inspired abilities don’t trigger when the creature enters the battlefield.
   - *2014-02-01* — Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/dance-flitterstep-2014-02-19-0), [Dance of the Flitterstep](https://magic.wizards.com/en/news/magic-story/dance-flitterstep-2014-02-19) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 705 decks; most often under [The Scarab God](../../cards/T/thes.md#the-scarab-god) (0.3% of its decks), [King Macar, the Gold-Cursed](../../cards/K/ki.md#king-macar-the-gold-cursed) (2.7% of its decks), [Zul Ashur, Lich Lord](../../cards/Z/zu.md#zul-ashur-lich-lord) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#forlorn-pseudamma)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/71/forlorn-pseudamma) · oracle_id `92680de3-6ee2-4b73-b0f5-38383482dcca` · printing: BNG #71 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2591,6 +2606,8 @@ schema: 2
   - *2014-11-24* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
   - *2014-11-24* — Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
   - *2014-11-24* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on).
+- **Lore:** ✅ Card art shown on [Chronicle of Bolas: A Familiar Stranger](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-familiar-stranger-2018-08-01) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Kitsa, Otterball Elite + Ashnod's Altar + Intruder Alarm + Formless Nurturing](https://commanderspellbook.com/combo/1636-2034-5803-7241/) (Infinite self-mill, Near-infinite creature ETB) · EDHREC: in 538 decks; most often under [Yarus, Roar of the Old Gods](../../cards/Y/ya.md#yarus-roar-of-the-old-gods) (5.1% of its decks), [Kaust, Eyes of the Glade](../../cards/K/ka.md#kaust-eyes-of-the-glade) (1.8% of its decks), [Kadena, Slinking Sorcerer](../../cards/K/ka.md#kadena-slinking-sorcerer) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frf/129/formless-nurturing) · oracle_id `ddbe6d9b-ea69-449c-a765-b3c16ff60c08` · printing: FRF #129 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Form of the Approach of the Second Sun
@@ -2642,6 +2659,8 @@ schema: 2
   - *2004-10-04* — If you life total was above 5 at end of turn, then you lose life to make your total 5. If it was less than 5, you gain life to bring it to 5.
   - *2004-10-04* — It sets your life total at the beginning of the end step of every player’s turn, not just your own.
   - *2014-02-01* — Unless some effect explicitly says otherwise, a creature that can’t attack you can still attack a planeswalker you control.
+- **Lore:** ✅ Card art shown on [Unwritten](https://magic.wizards.com/en/news/magic-story/unwritten-2015-01-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 7 combos; most popular [Form of the Dragon + Sandwurm Convergence](https://commanderspellbook.com/combo/3658-5339/) (You can't be attacked, Lock) · EDHREC: in 3,893 decks; most often under [Zedruu the Greathearted](../../cards/Z/ze.md#zedruu-the-greathearted) (14.1% of its decks), [Iroh, Tea Master](../../cards/I/ir.md#iroh-tea-master) (15.2% of its decks), [Blim, Comedic Genius](../../cards/B/bli.md#blim-comedic-genius) (5.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/187/form-of-the-dragon) · oracle_id `7b389f2b-fddc-46fb-85d5-4470565323f3` · printing: 9ED #187 (2005-07-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Form of the Mulldrifter
@@ -2779,6 +2798,8 @@ schema: 2
   > *—Minaldra, the Vizag Atum*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6580 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Promised End](https://magic.wizards.com/en/news/magic-story/promised-end-2016-07-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 23,289 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (3.5% of its decks), [Teysa Karlov](../../cards/T/te.md#teysa-karlov) (5.9% of its decks), [Liesa, Shroud of Dusk](../../cards/L/li.md#liesa-shroud-of-dusk) (4.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/F.md#forsaken-sanctuary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/247/forsaken-sanctuary) · oracle_id `941b0dd1-0df2-48ee-8829-615e9c3177a7` · printing: C18 #247 (2018-08-10) · [rulings](https://api.scryfall.com/cards/f3e0b983-62e7-43fb-b5d5-402ea60a64d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2939,6 +2960,8 @@ schema: 2
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9666 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Blight We Were Born For](https://magic.wizards.com/en/news/magic-story/blight-we-were-born-2016-01-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 13,240 decks; most often under [Arcades, the Strategist](../../cards/A/arc.md#arcades-the-strategist) (34.3% of its decks), [Felothar the Steadfast](../../cards/F/fe.md#felothar-the-steadfast) (11.5% of its decks), [Betor, Kin to All](../../cards/B/be.md#betor-kin-to-all) (4.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/27/fortified-rampart) · oracle_id `a55202a9-bddb-40df-b93f-06678ae1e0ea` · printing: BFZ #27 (2015-10-02) · [rulings](https://api.scryfall.com/cards/5095e2ab-a7f5-45bc-8b2f-31198ea27bba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fortified Village
@@ -3261,6 +3284,8 @@ schema: 2
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8496 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-winnowing-season) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 16,232 decks; most often under [Killian, Decisive Mentor](../../cards/K/ki.md#killian-decisive-mentor) (41.6% of its decks), [Silverquill, the Disputant](../../cards/S/si.md#silverquill-the-disputant) (10.5% of its decks), [Eriette of the Charmed Apple](../../cards/E/er.md#eriette-of-the-charmed-apple) (9.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/256/forum-of-amity) · oracle_id `349ea6c7-6b3e-417f-b082-b712e2b1635b` · printing: SOS #256 (2026-04-24) · [rulings](https://api.scryfall.com/cards/1de6c6cc-0c55-4997-8623-d7f796bd9ab8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fossil Find
@@ -3453,6 +3478,8 @@ schema: 2
   - *2015-02-25* — If you don’t reveal a Dragon card from your hand, you must control a Dragon as you are finished casting the spell to get the bonus. For example, if you lose control of your only Dragon while casting the spell (because, for example, you sacrificed it to activate a mana ability), you won’t get the bonus.
   - *2015-02-25* — You can’t reveal more than one Dragon card to multiply the bonus. There is also no additional benefit for both revealing a Dragon card as an additional cost and controlling a Dragon as you cast the spell.
   - *2015-02-25* — You may cast Foul-Tongue Invocation targeting a player who controls no creatures. If you qualify for the “Dragon bonus,” you’ll just gain 4 life.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Dragons of Tarkir, Part 2](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-dragons-tarkir-part-2-2015-03-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,043 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.3% of its decks), [Sivitri, Dragon Master](../../cards/S/si.md#sivitri-dragon-master) (6.2% of its decks), [Rivaz of the Claw](../../cards/R/ri.md#rivaz-of-the-claw) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/91/foul-tongue-invocation) · oracle_id `fbf27d1b-2b2a-49f3-abcd-20a6c79c44ee` · printing: IMA #91 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Foul-Tongue Shriek

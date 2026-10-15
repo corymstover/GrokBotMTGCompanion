@@ -329,6 +329,8 @@ schema: 2
   - *2015-06-22* — If a creature with renown deals combat damage to its controller because that damage was redirected, renown will trigger.
   - *2015-06-22* — If a renown ability triggers, but the creature leaves the battlefield before that ability resolves, the creature doesn’t become renowned. Any ability that triggers “whenever a creature becomes renowned” won’t trigger.
   - *2015-06-22* — Renown won’t trigger when a creature deals combat damage to a planeswalker or another creature. It also won’t trigger when a creature deals noncombat damage to a player.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,753 decks; most often under [Obosh, the Preypiercer](../../cards/O/ob.md#obosh-the-preypiercer) (28.4% of its decks), [Lovisa Coldeyes](../../cards/L/lo.md#lovisa-coldeyes) (48.5% of its decks), [Ruric Thar, the Unbowed](../../cards/R/ru.md#ruric-thar-the-unbowed) (5.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#scab-clan-berserker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/160/scab-clan-berserker) · oracle_id `d4f659ba-c277-47a2-8b95-ce81ddac34fb` · printing: ORI #160 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -538,6 +540,9 @@ schema: 2
 - **Rulings** (2):
   - *2015-02-25* — Bolster itself doesn't target any creature, though some spells and abilities that bolster may have other effects that target creatures. For example, you could put counters on a creature with protection from white with Aven Tactician's bolster ability.
   - *2015-02-25* — You determine which creature to put counters on as the spell or ability that instructs you to bolster resolves. That could be the creature with the bolster ability, if it's still under your control and has the least toughness.
+- **Lore:** ✅ Card art shown on [The Guardian](https://magic.wizards.com/en/news/magic-story/guardian-2015-04-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,240 decks; most often under [Optimus Prime, Hero](../../cards/O/op.md#optimus-prime-hero--optimus-prime-autobot-leader) (2.2% of its decks), [Anafenza, Kin-Tree Spirit](../../cards/A/an.md#anafenza-kin-tree-spirit) (12.2% of its decks), [Anafenza, the Foremost](../../cards/A/an.md#anafenza-the-foremost) (4.4% of its decks) — *Guidance (Oracle pattern)* — packages: [+1/+1 counters: Counter payoffs](../../EDH%20Packages.md#11-counters-counter-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#scale-blessing)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/27/scale-blessing) · oracle_id `a7157ec5-9e6a-4771-b3db-6760640d6c6c` · printing: 2X2 #27 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scaled Behemoth
@@ -1017,6 +1022,9 @@ schema: 2
   > *—Jorshu of Clan Nel Toth*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23830 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [All the Cairns of Jund](https://magic.wizards.com/en/news/magic-story/all-cairns-jund-2015-11-04) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 13 combos; most popular [Scarland Thrinax + Darksteel Angel](https://commanderspellbook.com/combo/7841-8250--5/) (Infinite +1/+1 counters on a creature, Infinite creature ETB) · EDHREC: in 1,059 decks; most often under [Prossh, Skyraider of Kher](../../cards/P/pr.md#prossh-skyraider-of-kher) (4.3% of its decks), [Kresh the Bloodbraided](../../cards/K/kr.md#kresh-the-bloodbraided) (4.7% of its decks), [Korvold, Fae-Cursed King](../../cards/K/ko.md#korvold-fae-cursed-king) (0.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Free sacrifice outlets](../../EDH%20Packages.md#aristocrats-free-sacrifice-outlets) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#scarland-thrinax)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c13/209/scarland-thrinax) · oracle_id `1a185f90-69eb-496b-8e38-8dcf241a84a4` · printing: C13 #209 (2013-11-01) · [rulings](https://api.scryfall.com/cards/8fb20f32-cdfa-43e3-8dbe-339bb03c0a00/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scarlet Spider, Ben Reilly
@@ -1383,6 +1391,8 @@ schema: 2
   - *2015-08-25* — If the non-awaken part of the spell requires a target, you must choose a legal target. You can’t cast the spell if you can’t choose a legal target for each instance of the word “target” (though you only need a legal target for the awaken ability if you’re casting the spell for its awaken cost).
   - *2015-08-25* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that’s turned into a creature this way can still be tapped for {G}.
   - *2015-08-25* — You can cast a spell with awaken for its mana cost and get only its first effect. If you cast a spell for its awaken cost, you’ll get both effects.
+- **Lore:** ✅ Card art shown on [Shaping an Army](https://magic.wizards.com/en/news/magic-story/shaping-army-2015-10-21) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,672 decks; most often under [Jolrael, Voice of Zhalfir](../../cards/J/jo.md#jolrael-voice-of-zhalfir) (20.2% of its decks), [Noyan Dar, Roil Shaper](../../cards/N/no.md#noyan-dar-roil-shaper) (31.2% of its decks), [Jyoti, Moag Ancient](../../cards/J/jy.md#jyoti-moag-ancient) (14.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/85/scatter-to-the-winds) · oracle_id `13d600e6-86b4-4813-8f34-75f23717f433` · printing: BFZ #85 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scavenged Blade
@@ -1934,6 +1944,8 @@ schema: 2
   > *She asks pointed questions of the dead who wait for Athreos, learning of life from those who are about to leave it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24006 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/tragedy-2013-10-23) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Scholar of Athreos + Crystalline Crawler + Sunbond](https://commanderspellbook.com/combo/2060-4017-7610/) (Near-infinite lifegain, Near-infinite lifegain triggers) · EDHREC: in 1,021 decks; most often under [Athreos, God of Passage](../../cards/A/at.md#athreos-god-of-passage) (0.9% of its decks), [Oloro, Ageless Ascetic](../../cards/O/ol.md#oloro-ageless-ascetic) (0.3% of its decks), [Elas il-Kor, Sadistic Pilgrim](../../cards/E/el.md#elas-il-kor-sadistic-pilgrim) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/28/scholar-of-athreos) · oracle_id `18c5e7a0-4397-48bb-b993-1c3e3b08be2c` · printing: THS #28 (2013-09-27) · [rulings](https://api.scryfall.com/cards/95a36e06-39f3-47d0-b6a9-43728afceb4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scholar of Combustion
@@ -2291,6 +2303,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24171 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2015-02-25* — Scion of Ugin is colorless. It isn’t monocolored, nor is it an artifact.
+- **Lore:** ✅ Card art shown on [Unbroken and Unbowed](https://magic.wizards.com/en/news/magic-story/unbroken-and-unbowed-2015-04-22) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Atarka, World Render (Tarkir-only)](../../decks/plane-tarkir-atarka-world-render.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 985 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.1% of its decks), [Ultima, Origin of Oblivion](../../cards/U/ul.md#ultima-origin-of-oblivion) (0.6% of its decks), [Omarthis, Ghostfire Initiate](../../cards/O/om.md#omarthis-ghostfire-initiate) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#scion-of-ugin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/1/scion-of-ugin) · oracle_id `7422f43d-0c1e-42cb-864d-1c63f2ec533a` · printing: IMA #1 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2449,6 +2463,8 @@ schema: 2
   - *2019-10-04* — Scorching Dragonfire's replacement effect will exile the target creature or planeswalker if it would die this turn for any reason, not just due to lethal damage. It applies to the target creature or planeswalker even if Scorching Dragonfire deals no damage to it (most likely due to a prevention effect).
   - *2020-06-23* — Scorching Dragonfire's replacement effect will exile the target creature or planeswalker if it would die this turn for any reason, not just due to lethal damage.
   - *2024-09-20* — Scorching Dragonfire's replacement effect will exile the target creature or planeswalker if it would die this turn for any reason, not just due to lethal damage.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): DSK #156 — [Art & Flavor → Duskmourn: House of Horror (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#duskmourn-house-of-horror-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 8,683 decks; most often under [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (0.9% of its decks), [Imodane, the Pyrohammer](../../cards/I/im.md#imodane-the-pyrohammer) (6.0% of its decks), [Arabella, Abandoned Doll](../../cards/A/ara.md#arabella-abandoned-doll) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#scorching-dragonfire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/545/scorching-dragonfire) · oracle_id `d14f313c-fea6-49c4-8197-5b74ee584a6b` · printing: FDN #545 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2821,6 +2837,8 @@ schema: 2
   > *By the codes of Mardu and Abzan alike, both sides allowed their enemies time to grieve after a battle.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #753 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/journey-nexus-2014-12-10) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Isshin, Two Heavens as One (Kamigawa-only)](../../decks/plane-kamigawa-isshin-two-heavens-as-one.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 189,946 decks; most often under [Frodo, Adventurous Hobbit // Sam, Loyal Attendant](../../cards/F/fr.md#frodo-adventurous-hobbit) (41.9% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (16.3% of its decks), [Oloro, Ageless Ascetic](../../cards/O/ol.md#oloro-ageless-ascetic) (26.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#scoured-barrens)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/267/scoured-barrens) · oracle_id `d37f858e-03c8-4594-9b92-cd03699a1591` · printing: TDM #267 (2025-04-11) · [rulings](https://api.scryfall.com/cards/b4b47b80-69ed-44b0-afa0-ca90206dc16d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2896,6 +2914,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2211 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2014-04-26* — The value of X is determined as the ability resolves.
+- **Lore:** ✅ Card art shown on [The Prodigal Sorcerers](https://magic.wizards.com/en/news/magic-story/prodigal-sorcerers-2016-05-25) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Uro, Titan of Nature's Wrath (Theros-only)](../../decks/plane-theros-uro-titan-of-natures-wrath.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 74,382 decks; most often under [Kiora, Sovereign of the Deep](../../cards/K/ki.md#kiora-sovereign-of-the-deep) (82.0% of its decks), [Aesi, Tyrant of Gyre Strait](../../cards/A/ae.md#aesi-tyrant-of-gyre-strait) (31.9% of its decks), [Kenessos, Priest of Thassa](../../cards/K/ke.md#kenessos-priest-of-thassa) (87.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#scourge-of-fleets)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/403/scourge-of-fleets) · oracle_id `57308fc8-8915-4211-a5fd-9363caea9ab9` · printing: CMR #403 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3066,6 +3086,8 @@ schema: 2
 - **Rulings** (2):
   - *2017-11-17* — If a Dragon entering the battlefield causes Scourge of Valkas's ability to trigger but leaves the battlefield before that ability resolves, that Dragon still deals damage.
   - *2017-11-17* — The amount of damage dealt by the Dragon that entered the battlefield is based on the number of Dragons you control when the ability resolves.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/path-bravery-2013-07-10) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [The Ur-Dragon](../../decks/the-ur-dragon.md) · Commander Spellbook: 6 combos; most popular [Scourge of Valkas + Rite of Replication](https://commanderspellbook.com/combo/1744-2676/) (Near-infinite damage) · EDHREC: in 108,499 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (50.4% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (65.3% of its decks), [Ureni of the Unwritten](../../cards/U/ur.md#ureni-of-the-unwritten) (45.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/S.md#scourge-of-valkas)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/137/scourge-of-valkas) · oracle_id `0a147009-a57c-4ac1-ab81-d8bd8b737631` · printing: AFC #137 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4172,6 +4194,9 @@ schema: 2
 - **Rulings** (2):
   - *2014-11-24* — Count the number of lore counters on Scroll of the Masters as the activated ability resolves to determine how big a bonus the target creature gets. If Scroll of the Masters isn’t on the battlefield at that time, use the number of lore counters on it when it left the battlefield.
   - *2014-11-24* — Once the activated ability has resolved, changing the number of lore counters on Scroll of the Masters won’t affect the bonus that activation granted.
+- **Lore:** ✅ Card art shown on [Chronicle of Bolas: Whispers of Treachery](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-whispers-treachery-2018-07-11), [Khanfall](https://magic.wizards.com/en/news/magic-story/khanfall-2015-02-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,805 decks; most often under [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (5.2% of its decks), [Zethi, Arcane Blademaster](../../cards/Z/ze.md#zethi-arcane-blademaster) (7.3% of its decks), [Shu Yun, the Silent Tempest](../../cards/S/shu.md#shu-yun-the-silent-tempest) (19.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#scroll-of-the-masters)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frf/163/scroll-of-the-masters) · oracle_id `f2c7adde-492b-4585-8385-42d7e0d6e914` · printing: FRF #163 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scroll Rack

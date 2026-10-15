@@ -624,6 +624,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14633 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-09-20* — You may target zero cards in your graveyard and still choose to shuffle your library.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): DSK #171 — [Art & Flavor → Duskmourn: House of Horror (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#duskmourn-house-of-horror-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,843 decks; most often under [Marina Vendrell](../../cards/M/mar.md#marina-vendrell) (1.7% of its decks), [Codie, Vociferous Codex](../../cards/C/cod.md#codie-vociferous-codex) (1.5% of its decks), [Kona, Rescue Beastie](../../cards/K/ko.md#kona-rescue-beastie) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#cathartic-parting)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/171/cathartic-parting) · oracle_id `0ea80bd9-ab7e-4a8f-85b0-167fe7fae43a` · printing: DSK #171 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -653,7 +655,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1115 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-08-07* — Because discarding two cards is an additional cost, you can't cast Cathartic Reunion if you don't have at least two other cards in hand.
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/C.md#cathartic-reunion)
+- **Lore:** ✅ Card art shown on [Renewal](https://magic.wizards.com/en/news/magic-story/renewal-2017-02-01), [In This Very Arena](https://magic.wizards.com/en/news/magic-story/very-arena-2016-10-12) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 141,203 decks; most often under [The Beamtown Bullies](../../cards/T/theb.md#the-beamtown-bullies) (65.6% of its decks), [Magar of the Magic Strings](../../cards/M/mag.md#magar-of-the-magic-strings) (68.2% of its decks), [Captain Howler, Sea Scourge](../../cards/C/cap.md#captain-howler-sea-scourge) (38.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/C.md#cathartic-reunion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/91/cathartic-reunion) · oracle_id `0f3c3e5f-6af3-4af2-8703-4ccc8ed8f675` · printing: ECC #91 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cathedral Acolyte

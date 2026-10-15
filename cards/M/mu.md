@@ -455,6 +455,8 @@ schema: 2
   - *2020-11-10* — Use the type of the card as it's played or cast to determine which permanent type to count it as. For example, if you cast a creature spell from your graveyard, you can cast a card with bestow as an enchantment spell.
   - *2020-11-10* — You must follow the normal timing permissions and restrictions of the cards you play from your graveyard. For example, you can't use Muldrotha to play a land if you don't have an available land play or to cast a planeswalker spell during your end step.
   - *2020-11-10* — You must pay the costs to cast a spell this way. If it has an alternative cost, you may cast it for that cost instead.
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 12](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-12-2018-05-30) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Muldrotha, the Gravetide](../../decks/muldrotha-the-gravetide.md) · [Muldrotha, the Gravetide (self mill theme)](../../decks/theme-muldrotha-the-gravetide-self-mill.md) · Commander Spellbook: 100+ combos; most popular [Muldrotha, the Gravetide + Kaya's Ghostform + Altar of Dementia + Lotus Petal](https://commanderspellbook.com/combo/1414-2730-5131-5256/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 25,442 decks; highest synergy [Spore Frog](../../cards/S/spo.md#spore-frog) (+53%), [Seal of Primordium](../../cards/S/sea.md#seal-of-primordium) (+44%), [Kaya's Ghostform](../../cards/K/ka.md#kayas-ghostform) (+42%) · EDHREC: in 117,828 decks; most often under [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (62.3% of its decks), [Ashling, the Limitless](../../cards/A/as.md#ashling-the-limitless) (72.9% of its decks), [The Wise Mothman](../../cards/T/thew.md#the-wise-mothman) (46.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 8 pages (2 decks · 4 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/M.md#muldrotha-the-gravetide)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/128/muldrotha-the-gravetide) · oracle_id `e4625704-1d52-44e4-804f-2f45644d76ac` · printing: ECC #128 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -558,6 +560,8 @@ schema: 2
 - **Rulings** (2):
   - *2018-04-27* — Multani's ability that modifies its power and toughness applies only while it's on the battlefield. In all other zones, it's a 0/0 creature card.
   - *2018-04-27* — To activate Multani's last ability, you must return lands you control from the battlefield to their owner's hand. Land cards in your graveyard can't be returned this way.
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 9](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-9-2018-05-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Jadzi, Oracle of Arcavios // Journey to the Oracle + Multani, Yavimaya's Avatar + Lotus Cobra](https://commanderspellbook.com/combo/1401-3470-6975/) (Infinite colored mana, Infinite storm count) · EDHREC as commander: 571 decks; highest synergy [Harrow](../../cards/H/ha.md#harrow) (+49%), [Blackblade Reforged](../../cards/B/bla.md#blackblade-reforged) (+39%), [Beanstalk Giant](../../cards/B/be.md#beanstalk-giant--fertile-footsteps) (+36%) · EDHREC: in 86,721 decks; most often under [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (27.3% of its decks), [Zimone, Mystery Unraveler](../../cards/Z/zi.md#zimone-mystery-unraveler) (58.4% of its decks), [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (26.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/M.md#multani-yavimayas-avatar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/100/multani-yavimayas-avatar) · oracle_id `4b8bf64b-4800-45ff-81c6-2857f34999b5` · printing: EOC #100 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -717,6 +721,8 @@ schema: 2
 - **Rulings** (2):
   - *2015-08-25* — If a creature with a rally ability enters the battlefield under your control at the same time as other Allies, that ability will trigger once for each of those creatures and once for the creature with the ability itself.
   - *2015-08-25* — When an Ally enters the battlefield under your control, each rally ability of the permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve.
+- **Lore:** ✅ Card art shown on [The Liberation of Sea Gate](https://magic.wizards.com/en/news/magic-story/liberation-sea-gate-2015-10-28) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 106 decks; highest synergy [Resolute Blademaster](../../cards/R/res.md#resolute-blademaster) (+86%), [Hero of Goma Fada](../../cards/H/he.md#hero-of-goma-fada) (+85%), [Lantern Scout](../../cards/L/la.md#lantern-scout) (+85%) · EDHREC: in 2,586 decks; most often under [General Tazri](../../cards/G/ge.md#general-tazri) (41.4% of its decks), [Sokka, Tenacious Tactician](../../cards/S/so.md#sokka-tenacious-tactician) (2.4% of its decks), [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#munda-ambush-leader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/215/munda-ambush-leader) · oracle_id `4d5da73a-f22a-4446-b5f9-504dfabf1d52` · printing: BFZ #215 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -964,6 +970,8 @@ schema: 2
   > *Razorkin have only one hobby.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #872 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MKM #300, MKM #95, SNC #88 — [Art & Flavor → Murders at Karlov Manor (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#murders-at-karlov-manor-2024) — ✅ Card art shown on [Chronicle of Bolas: The First Lesson](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-first-lesson-2018-06-20), [Chronicle of Bolas: Whispers of Treachery](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-whispers-treachery-2018-07-11) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [The Gitrog Monster (Innistrad-only)](../../decks/plane-innistrad-the-gitrog-monster.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 169,973 decks; most often under [Ezio Auditore da Firenze](../../cards/E/ez.md#ezio-auditore-da-firenze) (22.3% of its decks), [Gisa and Geralf](../../cards/G/gi.md#gisa-and-geralf) (33.6% of its decks), [Marrow-Gnawer](../../cards/M/mar.md#marrow-gnawer) (17.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 decks · 1 lore & story · 1 card data) → [reverse index](../../references/M.md#murder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/110/murder) · oracle_id `938b4e2c-88d9-4637-bc00-e228920c9a78` · printing: DSK #110 (2024-09-27) · [rulings](https://api.scryfall.com/cards/2c249609-9cf7-46f1-b94c-9329add966bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1819,6 +1827,8 @@ schema: 2
   > −10: Tap all creatures your opponents control. You take an extra turn after this one.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15507 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Mu Yanling](../../Characters%20Index.md#mu-yanling) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 8 combos; most popular [Muldrotha, the Gravetide + Mu Yanling + Doubling Season](https://commanderspellbook.com/combo/4003-4772-5131/) (Infinite turns, Lock) · EDHREC: in 4,986 decks; most often under [Yuriko, the Tiger's Shadow](../../cards/Y/yu.md#yuriko-the-tigers-shadow) (0.7% of its decks), [Charix, the Raging Isle](../../cards/C/cha.md#charix-the-raging-isle) (6.9% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/M.md#mu-yanling)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gs1/1/mu-yanling) · oracle_id `34e1477a-c0fb-4364-bb93-04a85c0c2517` · printing: GS1 #1 (2018-06-22) · [rulings](https://api.scryfall.com/cards/a2ee3c3c-768b-434b-a121-6d897b2ae345/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1835,6 +1845,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-07-12* — In a multiplayer game, if you leave the game after Mu Yanling’s first ability resolves but before your next turn begins, its effect lasts until your next turn would have begun. It neither expires immediately nor lasts indefinitely.
   - *2019-07-12* — Mu Yanling’s last ability affects only creatures you control with flying at the time it resolves. Creatures you begin to control later in the turn (or creatures that that gain flying later in the turn) won’t get +5/+5.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Mu Yanling](../../Characters%20Index.md#mu-yanling) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,133 decks; most often under [Mu Yanling, Wind Rider](../../cards/M/mu.md#mu-yanling-wind-rider) (7.6% of its decks), [Cynette, Jelly Drover](../../cards/C/cy.md#cynette-jelly-drover) (3.3% of its decks), [Kastral, the Windcrested](../../cards/K/ka.md#kastral-the-windcrested) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#mu-yanling-celestial-wind)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/286/mu-yanling-celestial-wind) · oracle_id `5f39accf-62fd-407a-a147-781210569d33` · printing: M20 #286 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1854,6 +1866,8 @@ schema: 2
   - *2019-07-12* — In a multiplayer game, if you leave the game after Mu Yanling's first ability resolves but before your next turn begins, its effect lasts until your next turn would have begun. It neither expires immediately nor lasts indefinitely.
   - *2019-07-12* — Mu Yanling's first ability can target a creature that doesn't have flying. The creature just gets -2/-0.
   - *2019-07-12* — Tapping an Island for mana is an activated ability. You can't activate that ability and also activate the ability it gains from Mu Yanling's emblem.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Mu Yanling](../../Characters%20Index.md#mu-yanling) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 7,219 decks; most often under [Kastral, the Windcrested](../../cards/K/ka.md#kastral-the-windcrested) (7.2% of its decks), [Tekuthal, Inquiry Dominus](../../cards/T/te.md#tekuthal-inquiry-dominus) (17.2% of its decks), [Mu Yanling, Wind Rider](../../cards/M/mu.md#mu-yanling-wind-rider) (20.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/M.md#mu-yanling-sky-dancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/68/mu-yanling-sky-dancer) · oracle_id `1e825298-7c99-40cc-81c9-280cc7ed98d3` · printing: M20 #68 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1870,7 +1884,9 @@ schema: 2
   > *The search for her lost mentor continued.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7181 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 3 pages (1 lore & story · 2 card data) → [reverse index](../../references/M.md#mu-yanling-wind-rider)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Mu Yanling](../../Characters%20Index.md#mu-yanling) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,374 decks; highest synergy [Thopter Fabricator](../../cards/T/tho.md#thopter-fabricator) (+78%), [The Indomitable](../../cards/T/thei.md#the-indomitable) (+73%), [Mobilizer Mech](../../cards/M/mob.md#mobilizer-mech) (+68%) · EDHREC: in 19,402 decks; most often under [Shorikai, Genesis Engine](../../cards/S/sho.md#shorikai-genesis-engine) (21.5% of its decks), [Miles "Tails" Prower](../../cards/M/mil.md#miles-tails-prower) (73.2% of its decks), [Edward Kenway](../../cards/E/ed.md#edward-kenway) (16.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (1 edh guides · 1 lore & story · 2 card data) → [reverse index](../../references/M.md#mu-yanling-wind-rider)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/52/mu-yanling-wind-rider) · oracle_id `aaafcd69-6295-4d79-8e67-98df0c9bae88` · printing: DFT #52 (2025-02-14) · [rulings](https://api.scryfall.com/cards/76423446-d62f-4cc5-a23a-3175be88bd73/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Muzzio's Preparations

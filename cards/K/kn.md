@@ -323,6 +323,8 @@ schema: 2
 - **Rulings** (2):
   - *2018-07-13* — If the creature this Aura would enchant is an illegal target by the time Knightly Valor tries to resolve, the Aura spell doesn't resolve. It won't enter the battlefield, so its ability won't trigger.
   - *2018-07-13* — You need a creature for Knightly Valor to target as you cast it. There's no way to have it enter the battlefield attached to the Knight token it'll create.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,212 decks; most often under [Eriette, the Beguiler](../../cards/E/er.md#eriette-the-beguiler) (13.2% of its decks), [Three Dog, Galaxy News DJ](../../cards/T/thr.md#three-dog-galaxy-news-dj) (9.5% of its decks), [Light-Paws, Emperor's Voice](../../cards/L/li.md#light-paws-emperors-voice) (2.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/14/knightly-valor) · oracle_id `9ba6cec6-97bf-4a83-9ffa-77e187d0945b` · printing: 2X2 #14 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of Autumn
@@ -454,6 +456,8 @@ schema: 2
 - **Keywords:** Exalted, Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14635 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Threadbare](https://magic.wizards.com/en/news/magic-story/threadbare-2012-07-23) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,842 decks; most often under [Rafiq of the Many](../../cards/R/raf.md#rafiq-of-the-many) (44.9% of its decks), [Squall, SeeD Mercenary](../../cards/S/sq.md#squall-seed-mercenary) (6.6% of its decks), [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m13/21/knight-of-glory) · oracle_id `10b8fd4d-1696-4b0d-b791-7bd3de504457` · printing: M13 #21 (2012-07-13) · [rulings](https://api.scryfall.com/cards/1646cb67-e0ac-4f2d-af21-618ff3613d69/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of Grace

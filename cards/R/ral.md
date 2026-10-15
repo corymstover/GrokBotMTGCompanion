@@ -77,6 +77,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20615 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-10-05* — If some of the targets become illegal for Ral's second ability, the original division of damage still applies, and the damage that would have been dealt to illegal targets isn't dealt at all.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Ral Zarek](../../Characters%20Index.md#ral-zarek) · [Dossier → Ral Zarek](../../Planeswalker%20Dossiers.md#ral-zarek) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,006 decks; most often under [Niv-Mizzet, Parun](../../cards/N/ni.md#niv-mizzet-parun) (1.4% of its decks), [Ral, Monsoon Mage](../../cards/R/ral.md#ral-monsoon-mage--ral-leyline-prodigy) (1.7% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/R.md#ral-caller-of-storms)
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/265/ral-caller-of-storms) · oracle_id `d7b10518-b6dc-4a39-881a-edd346034f28` · printing: GRN #265 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -99,7 +101,7 @@ schema: 2
   - *2024-07-26* — The copies of instant and sorcery spells you cast created by the storm ability are put directly onto the stack. They aren't cast and won't be counted by other spells with storm cast later in the turn.
 - **Lore:** Featured in: [Plane → Ravnica after the invasion (Murders at Karlov Manor)](../../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor) ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-murders-at-karlov-manor), [2](https://magic.wizards.com/en/news/magic-story/one-and-the-same) via entry) (the entry line carries ⚠️) — ⚠️ Name match only (not a canon claim): [Character → Ral Zarek](../../Characters%20Index.md#ral-zarek) · [Dossier → Ral Zarek](../../Planeswalker%20Dossiers.md#ral-zarek) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 73,492 decks; most often under [Alania, Divergent Storm](../../cards/A/al.md#alania-divergent-storm) (66.3% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (17.8% of its decks), [Bria, Riptide Rogue](../../cards/B/br.md#bria-riptide-rogue) (69.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 5 pages (3 lore & story · 2 card data) → [reverse index](../../references/R.md#ral-crackling-wit)
+- **Referenced in:** 6 pages (1 edh guides · 3 lore & story · 2 card data) → [reverse index](../../references/R.md#ral-crackling-wit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/230/ral-crackling-wit) · oracle_id `3c970f43-17da-4187-a084-efd53b579067` · printing: BLB #230 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ral, Izzet Viceroy
@@ -118,7 +120,9 @@ schema: 2
   - *2018-10-05* — If you have only one card in your library, Ral's first ability puts it into your hand. Nothing is put into your graveyard.
   - *2018-10-05* — The emblem created by Ral's last ability is colorless. The damage it deals is from a colorless source.
   - *2018-10-05* — The triggered ability of Ral's emblem resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
-- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/R.md#ral-izzet-viceroy)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Ral Zarek](../../Characters%20Index.md#ral-zarek) · [Dossier → Ral Zarek](../../Planeswalker%20Dossiers.md#ral-zarek) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,728 decks; most often under [Niv-Mizzet, Parun](../../cards/N/ni.md#niv-mizzet-parun) (2.8% of its decks), [Ral, Monsoon Mage](../../cards/R/ral.md#ral-monsoon-mage--ral-leyline-prodigy) (3.2% of its decks), [Rowan Kenrith // Will Kenrith](../../cards/R/ro.md#rowan-kenrith) (21.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (1 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/R.md#ral-izzet-viceroy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/195/ral-izzet-viceroy) · oracle_id `f29f4c73-5e5c-4341-8582-2873fbe5c5a3` · printing: GRN #195 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rally
@@ -206,6 +210,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7297 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-05-03* — Rally of Wings affects only creatures you control at the time it resolves. Creatures that gain flying later in the turn or that you begin to control later in the turn won't get +2/+2.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WAR #27 — [Art & Flavor → War of the Spark (2019)](../../Art%20%26%20Flavor%20Story%20Links.md#war-of-the-spark-2019) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 33 combos; most popular [Elite Arcanist + Rally of Wings](https://commanderspellbook.com/combo/2825-5107/) (Infinite storm count, Infinite untap of creatures you control) · EDHREC: in 20,296 decks; most often under [Kastral, the Windcrested](../../cards/K/ka.md#kastral-the-windcrested) (36.6% of its decks), [Choco, Seeker of Paradise](../../cards/C/cho.md#choco-seeker-of-paradise) (7.6% of its decks), [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (3.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#rally-of-wings)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/27/rally-of-wings) · oracle_id `984336a7-85bd-4549-9771-03a0c2367db0` · printing: WAR #27 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -220,6 +226,8 @@ schema: 2
   > *—Daghatar the Adamant*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11243 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [No End and No Beginning](https://magic.wizards.com/en/news/magic-story/no-end-and-no-beginning-2015-02-11) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 10,226 decks; most often under [Teysa Karlov](../../cards/T/te.md#teysa-karlov) (5.6% of its decks), [Polukranos Reborn](../../cards/P/po.md#polukranos-reborn--polukranos-engine-of-ruin) (42.8% of its decks), [Athreos, God of Passage](../../cards/A/at.md#athreos-god-of-passage) (7.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frf/22/rally-the-ancestors) · oracle_id `9d612686-2d7f-49a3-b9c4-1e99a30134f6` · printing: FRF #22 (2015-01-23) · [rulings](https://api.scryfall.com/cards/6d9efacb-9d7c-41f4-9b11-59df1be50e11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rally the Forces
@@ -283,7 +291,9 @@ schema: 2
   > • Destroy target creature with power 4 or greater.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12402 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#rally-the-monastery)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): PLST #TDM-19, TDM #19 — [Art & Flavor → Tarkir: Dragonstorm (2025)](../../Art%20%26%20Flavor%20Story%20Links.md#tarkir-dragonstorm-2025) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 8,422 decks; most often under [Elsha, Threefold Master](../../cards/E/el.md#elsha-threefold-master) (8.0% of its decks), [Narset, Enlightened Exile](../../cards/N/na.md#narset-enlightened-exile) (7.9% of its decks), [Shiko and Narset, Unified](../../cards/S/shi.md#shiko-and-narset-unified) (5.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/R.md#rally-the-monastery)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/19/rally-the-monastery) · oracle_id `3f6101a5-3038-45b0-8302-b2e4127b9510` · printing: TDM #19 (2025-04-11) · [rulings](https://api.scryfall.com/cards/b56e0037-8143-4c13-83e1-0c3f44e685ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rally the Peasants
@@ -394,7 +404,9 @@ schema: 2
   - *2024-06-07* — You choose how many targets Ral, Leyline Prodigy's second loyalty ability has and how the damage is divided as you activate the ability. Each target must receive at least 1 damage.
   - *2024-06-07* — You flip a coin as Ral, Monsoon Mage's triggered ability resolves. No player may take actions between seeing the result of the flip and the effects that occur based on the result of the flip.
   - *2024-06-07* — You follow all normal timing rules for spells cast with the permission granted by Ral, Leyline Prodigy's last ability. For example, if one of the exiled cards is a sorcery, you can cast it only during your main phase while the stack is empty.
-- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/R.md#ral-monsoon-mage--ral-leyline-prodigy)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Ral Zarek](../../Characters%20Index.md#ral-zarek) · [Dossier → Ral Zarek](../../Planeswalker%20Dossiers.md#ral-zarek) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7,235 decks; highest synergy [Desperate Ritual](../../cards/D/des.md#desperate-ritual) (+71%), [Pyretic Ritual](../../cards/P/py.md#pyretic-ritual) (+69%), [Past in Flames](../../cards/P/pa.md#past-in-flames) (+65%) · EDHREC: in 39,465 decks; most often under [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (10.8% of its decks), [Storm, Force of Nature](../../cards/S/sto.md#storm-force-of-nature) (24.7% of its decks), [Prismari, the Inspiration](../../cards/P/pr.md#prismari-the-inspiration) (20.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [Spellslinger: Instant/sorcery cost reducers](../../EDH%20Packages.md#spellslinger-instantsorcery-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 edh guides · 2 lore & story) → [reverse index](../../references/R.md#ral-monsoon-mage--ral-leyline-prodigy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/247/ral-monsoon-mage-ral-leyline-prodigy) · oracle_id `16d40f56-691b-42a7-a5ab-157568921e03` · printing: MH3 #247 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ral's Dispersal
@@ -470,6 +482,8 @@ schema: 2
   - *2019-05-03* — The copies that Ral's last ability creates are created on the stack, so they're not "cast." Abilities that trigger when a player casts a spell won't trigger.
   - *2019-05-03* — You can't choose to pay any additional costs for the copy created by Ral's last ability. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
   - *2019-06-14* — If an effect copies a card rather than a spell (such as that of God-Eternal Kefnet), this doesn't cause Ral's first ability to trigger. That ability will trigger if you cast the copy, however.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Ral Zarek](../../Characters%20Index.md#ral-zarek) · [Dossier → Ral Zarek](../../Planeswalker%20Dossiers.md#ral-zarek) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Anhelo, the Painter (Grixis)](../../grixis/decks/anhelo-the-painter.md) · Commander Spellbook: 5 combos; most popular [Fury Storm + Ral, Storm Conduit](https://commanderspellbook.com/combo/2655-5005/) (Infinite damage, Infinite magecraft triggers) · EDHREC: in 44,757 decks; most often under [Ghyrson Starn, Kelermorph](../../cards/G/gh.md#ghyrson-starn-kelermorph) (32.3% of its decks), [Kalamax, the Stormsire](../../cards/K/ka.md#kalamax-the-stormsire) (40.9% of its decks), [Veyran, Voice of Duality](../../cards/V/ve.md#veyran-voice-of-duality) (29.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (1 decks · 2 lore & story · 1 card data) → [reverse index](../../references/R.md#ral-storm-conduit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/211/ral-storm-conduit) · oracle_id `b7da26c9-78a6-41c5-a5ef-6555e8274d7a` · printing: WAR #211 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -486,6 +500,8 @@ schema: 2
 - **Rulings** (2):
   - *2024-01-12* — Ral Zarek's first ability can target any two permanents. It doesn't matter whether they're tapped or untapped. If the first target is tapped as the ability resolves, it will just stay tapped. Similarly, if the second target is untapped as the ability resolves, it will stay untapped.
   - *2024-01-12* — The five coins you flip for Ral Zarek's last ability aren't called, and no one wins or loses these flips. Abilities that care about a player winning or losing a coin flip won't consider these flips.
+- **Lore:** ✅ Card art shown on [Project Lightning Bug](https://magic.wizards.com/en/news/magic-story/project-lightning-bug-2015-05-27) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Ral Zarek](../../Characters%20Index.md#ral-zarek) · [Dossier → Ral Zarek](../../Planeswalker%20Dossiers.md#ral-zarek) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 18 combos; most popular [The Chain Veil + Chandra, Hope's Beacon + Chandra, Torch of Defiance + Ral Zarek](https://commanderspellbook.com/combo/1124-2858-4074-4356/) (Infinite activations of most planeswalkers, Infinite damage) · EDHREC: in 26,494 decks; most often under [Okaun, Eye of Chaos // Zndrsplt, Eye of Wisdom](../../cards/O/ok.md#okaun-eye-of-chaos) (59.6% of its decks), [Yusri, Fortune's Flame](../../cards/Y/yu.md#yusri-fortunes-flame) (54.8% of its decks), [Commodore Guff](../../cards/C/com.md#commodore-guff) (26.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/R.md#ral-zarek)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/216/ral-zarek) · oracle_id `75ed6946-e7b1-4bf8-a05c-62a2ba5a6c79` · printing: RVR #216 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -504,5 +520,7 @@ schema: 2
 - **Rulings** (2):
   - *2026-03-20* — If a card in a graveyard has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
   - *2026-03-20* — When Ral Zarek's second ability resolves, the next target player in turn order (or, if it's a target player's turn, that player) chooses a card in hand without revealing it, then each other target player in turn order (if any) does the same. All chosen cards are then discarded at the same time.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Ral Zarek](../../Characters%20Index.md#ral-zarek) · [Dossier → Ral Zarek](../../Planeswalker%20Dossiers.md#ral-zarek) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 14,943 decks; most often under [Mirko, Obsessive Theorist](../../cards/M/mir.md#mirko-obsessive-theorist) (24.9% of its decks), [Tinybones, Bauble Burglar](../../cards/T/ti.md#tinybones-bauble-burglar) (14.4% of its decks), [Squall, SeeD Mercenary](../../cards/S/sq.md#squall-seed-mercenary) (12.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/R.md#ral-zarek-guest-lecturer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/97/ral-zarek-guest-lecturer) · oracle_id `0dc76b7f-6405-44a1-8c55-31fa480ff70b` · printing: SOS #97 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

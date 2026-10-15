@@ -368,6 +368,8 @@ schema: 2
   > Look at the top five cards of your library. You may reveal any number of creature cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14110 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): IKO #163 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,376 decks; most often under [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (1.1% of its decks), [Ezuri, Renegade Leader](../../cards/E/ez.md#ezuri-renegade-leader) (11.8% of its decks), [Fynn, the Fangbearer](../../cards/F/fy.md#fynn-the-fangbearer) (1.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/163/lead-the-stampede) · oracle_id `ea91be73-40f5-461a-bb39-d60216829a53` · printing: IKO #163 (2020-04-24) · [rulings](https://api.scryfall.com/cards/9e76b676-c7a3-4de6-a78d-3059a0df83f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leaf Arrow
@@ -527,6 +529,9 @@ schema: 2
   - *2018-10-05* — The controller of a copy can't choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
   - *2018-10-05* — The copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger.
   - *2018-10-05* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+- **Lore:** ✅ Card art shown on [Testing the Dark Waters](https://magic.wizards.com/en/news/magic-story/testing-dark-waters-2018-10-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [League Guildmage + Dramatic Reversal](https://commanderspellbook.com/combo/4821-5054/) (Infinite colored mana) · EDHREC: in 2,359 decks; most often under [Dynaheir, Invoker Adept](../../cards/D/dy.md#dynaheir-invoker-adept) (14.0% of its decks), [Niv-Mizzet, Parun](../../cards/N/ni.md#niv-mizzet-parun) (1.3% of its decks), [Niv-Mizzet, Guildpact](../../cards/N/ni.md#niv-mizzet-guildpact) (4.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Spell copiers](../../EDH%20Packages.md#spellslinger-spell-copiers) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/L.md#league-guildmage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/241/league-guildmage) · oracle_id `08bb1f33-b232-4382-a268-4804d4e72d29` · printing: 2X2 #241 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leap
@@ -594,6 +599,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31040 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2014-09-20* — Activating Leaping Master's ability after it's been blocked won't change or undo the block.
+- **Lore:** ✅ Card art shown on [Taigam's Scheming](https://magic.wizards.com/en/news/magic-story/taigams-scheming) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 131 decks; most often under [The Archimandrite](../../cards/T/thea.md#the-archimandrite) (0.4% of its decks), [Narset, Jeskai Waymaster](../../cards/N/na.md#narset-jeskai-waymaster) (0.3% of its decks), [Narset, Enlightened Exile](../../cards/N/na.md#narset-enlightened-exile) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/114/leaping-master) · oracle_id `1b5c2ba0-3df7-4394-a3f1-8e8330d7ac81` · printing: KTK #114 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leap of Faith
@@ -644,6 +651,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10656 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2015-02-25* — If the player's graveyard is empty, the player will shuffle their library, then you'll draw a card.
+- **Lore:** ✅ Card art shown on [Unbroken and Unbowed](https://magic.wizards.com/en/news/magic-story/unbroken-and-unbowed-2015-04-22) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 11,278 decks; most often under [Galadriel, Elven-Queen](../../cards/G/ga.md#galadriel-elven-queen) (33.9% of its decks), [Niv-Mizzet, Parun](../../cards/N/ni.md#niv-mizzet-parun) (1.7% of its decks), [Lord of the Nazgûl](../../cards/L/lo.md#lord-of-the-nazgûl) (1.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/60/learn-from-the-past) · oracle_id `f325fd7a-dcae-4892-adf5-de9893a23ac5` · printing: DTK #60 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leashling
@@ -2382,6 +2391,8 @@ schema: 2
   > *The letter unfolded, inviting the twins to Strixhaven. Will saw a chance for arcane study. Rowan saw a chance for power.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9657 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): PLST #STX-256, STX #256 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 13,254 decks; most often under [Ovika, Enigma Goliath](../../cards/O/ov.md#ovika-enigma-goliath) (13.6% of its decks), [Zaffai, Thunder Conductor](../../cards/Z/za.md#zaffai-thunder-conductor) (15.2% of its decks), [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/397/letter-of-acceptance) · oracle_id `e0cb503e-9814-4280-9c29-4eff3379bc24` · printing: CMM #397 (2023-08-04) · [rulings](https://api.scryfall.com/cards/ae094ace-1760-4bdd-a513-04616fb0deeb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Let the Galaxy Burn

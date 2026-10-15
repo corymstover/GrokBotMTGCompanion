@@ -22,6 +22,7 @@ schema: 2
 - **Decks (31):** [Abaddon the Despoiler (Grixis)](../grixis/decks/abaddon-the-despoiler.md) · [Admiral Beckett Brass (Grixis)](../grixis/decks/admiral-beckett-brass.md) · [Admiral Brass, Unsinkable (Grixis)](../grixis/decks/admiral-brass-unsinkable.md) · [Anhelo, the Painter (Grixis)](../grixis/decks/anhelo-the-painter.md) · [Ashad, the Lone Cyberman (Grixis)](../grixis/decks/ashad-the-lone-cyberman.md) · [Ashnod the Uncaring (Grixis)](../grixis/decks/ashnod-the-uncaring.md) · [Be'lakor, the Dark Master (Grixis)](../grixis/decks/belakor-the-dark-master.md) · [Bjorna, Nightfall Alchemist (Grixis)](../grixis/decks/bjorna-nightfall-alchemist-cecily.md) · [Crosis, the Purger (Grixis)](../grixis/decks/crosis-the-purger.md) · [Cult of Skaro (Grixis)](../grixis/decks/cult-of-skaro.md) · [Davros, Dalek Creator (Grixis)](../grixis/decks/davros-dalek-creator.md) · [Doctor Doom, King of Latveria (Grixis)](../grixis/decks/doctor-doom-king-of-latveria.md) · [Don Andres, the Renegade (Grixis)](../grixis/decks/don-andres-the-renegade.md) · [Dr. Eggman (Grixis)](../grixis/decks/dr-eggman.md) · [Edea, Possessed Sorceress (Grixis)](../grixis/decks/edea-possessed-sorceress.md) · [Edward Kenway (Grixis)](../grixis/decks/edward-kenway.md) · [Garza Zol, Plague Queen (Grixis)](../grixis/decks/garza-zol-plague-queen.md) · [Goro-Goro and Satoru (Grixis)](../grixis/decks/goro-goro-and-satoru.md) · [Gwendlyn Di Corci (Grixis)](../grixis/decks/gwendlyn-di-corci.md) · [Loki, the Deceiver (Grixis)](../grixis/decks/loki-the-deceiver.md) · [Lord of Tresserhorn (Grixis)](../grixis/decks/lord-of-tresserhorn.md) · [Lord Xander, the Collector (Grixis)](../grixis/decks/lord-xander-the-collector.md) · [Lynde, Cheerful Tormentor (Grixis)](../grixis/decks/lynde-cheerful-tormentor.md) · [Mai and Zuko (Grixis)](../grixis/decks/mai-and-zuko.md) · [Mairsil, the Pretender (Grixis)](../grixis/decks/mairsil-the-pretender.md) · [Marchesa, the Black Rose (Grixis)](../grixis/decks/marchesa-the-black-rose.md) · [Mishra, Eminent One (Grixis)](../grixis/decks/mishra-eminent-one.md) · [Missy (Grixis)](../grixis/decks/missy.md) · [Nathan Drake, Treasure Hunter (Grixis)](../grixis/decks/nathan-drake-treasure-hunter.md) · [Nekusar, the Mindrazer](../decks/nekusar-the-mindrazer.md) · [Nekusar, the Mindrazer (Grixis)](../grixis/decks/nekusar-the-mindrazer.md)
 - **EDH guides (3):** [EDH Mana Bases → Grixis UBR](../EDH%20Mana%20Bases.md#grixis-ubr) · [EDH Staples → Grixis (UBR)](../EDH%20Staples.md#grixis-ubr) · [Grixis Packages → Land](../grixis/Grixis%20Packages.md#land)
 - **Lore & story (1):** [Planes Index → New Capenna](../Planes%20Index.md#new-capenna)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [New Capenna](../Planes%20Index.md#new-capenna) (featured)
 
 ### Xander's Pact
 
@@ -49,6 +50,7 @@ schema: 2
 - **EDH guides (1):** [EDH Upgrade Paths → Xenagos, God of Revels](../EDH%20Upgrade%20Paths.md#xenagos-god-of-revels)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Artist Index → Artists A](../Artist%20Index.md#artists-a)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Xenagos](../Characters%20Index.md#xenagos) (name-match) · [Xenagos](../Planeswalker%20Dossiers.md#xenagos) (name-match)
 
 ### Xenagos, the Reveler
 
@@ -56,6 +58,7 @@ schema: 2
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Xenagos](../Characters%20Index.md#xenagos) (name-match) · [Xenagos](../Planeswalker%20Dossiers.md#xenagos) (name-match)
 
 ### Xenic Poltergeist
 

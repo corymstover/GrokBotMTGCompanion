@@ -395,6 +395,8 @@ schema: 2
   > • Creatures you control get +1/+0 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12741 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): KHM #143 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 7,990 decks; most often under [Etali, Primal Conqueror](../../cards/E/et.md#etali-primal-conqueror--etali-primal-sickness) (13.0% of its decks), [Raph & Mikey, Troublemakers](../../cards/R/rap.md#raph--mikey-troublemakers) (12.9% of its decks), [Rocco, Cabaretti Caterer](../../cards/R/ro.md#rocco-cabaretti-caterer) (2.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/143/open-the-omenpaths) · oracle_id `9ac01998-6e26-4ba5-b66c-614ec831caef` · printing: KHM #143 (2021-02-05) · [rulings](https://api.scryfall.com/cards/4e4023c8-8e7f-42b9-99e5-87e80fc3d6c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Open the Vaults
@@ -635,6 +637,8 @@ schema: 2
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #216 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 9](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-9-2018-05-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (3): [Kykar, Wind's Fury](../../decks/kykar-winds-fury.md) · [Niv-Mizzet, Parun](../../decks/niv-mizzet-parun.md) · [Talrand, Sky Summoner](../../decks/talrand-sky-summoner.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 463,455 decks; most often under [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (54.1% of its decks), [Alela, Cunning Conqueror](../../cards/A/al.md#alela-cunning-conqueror) (68.7% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (28.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 5 pages (3 decks · 1 lore & story · 1 card data) → [reverse index](../../references/O.md#opt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/158/opt) · oracle_id `713332c1-5bd8-400f-bfff-c1ca0697a043` · printing: TDC #158 (2025-04-11) · [rulings](https://api.scryfall.com/cards/bbc99a51-1501-4525-a3cc-f48249b64bed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

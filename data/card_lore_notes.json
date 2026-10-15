@@ -1,8 +1,88 @@
 {
- "_doc": "Curated card lore notes for scripts/build_card_enrichment.py (Bot cycle 33, Phase 8, #100). Key = exact card name. relation: depicts | references | echoes (echoes = mechanics mirror a cited moment; guidance). Every note cites official (wizards.com) pages; every double-quoted passage must be verbatim in a cited cached page (checked by build_card_enrichment.py --check). flag: optional ⚠️ / 🚫.",
- "Godsend": {"relation": "depicts", "text": "Heliod \"reforged the sword into the spear Godsend\"; Elspeth later \"stabbed Xenagos with Godsend, destroying him once and for all\"", "sources": ["https://magic.wizards.com/en/news/feature/theros-beyond-death-story-cards-2019-12-16"]},
- "Blackblade Reforged": {"relation": "depicts", "text": "the weapon the *Dominaria* (2018) heroes seek: \"So this Blackblade would kill Belzenlok.\"", "sources": ["https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-5-2018-04-11"]},
- "The Mightstone and Weakstone": {"relation": "depicts", "text": "the two halves of the stone the brothers split; *The Brothers' War* episode 5 ends with \"Mightstone and Weakstone, reunited at last, within the surviving brother.\"", "sources": ["https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary"]},
- "Helvault": {"relation": "depicts", "text": "Avacyn's prison: Griselbrand would \"trap her in the Helvault\", and \"When the Helvault shattered, Avacyn emerged at her full strength.\"", "sources": ["https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-avacyn-restored-part-1"]},
- "The Immortal Sun": {"relation": "depicts", "text": "the Sun Empire's lost relic: \"Emperor Apatzec Intli was gifted the Immortal Sun in a fateful encounter, and vowed to conquer the merfolk and raze the jungle.\"", "sources": ["https://magic.wizards.com/en/news/feature/planeswalkers-guide-ixalan-part-1-2017-11-01"]}
+ "_doc": "Curated card lore notes for scripts/build_card_enrichment.py (Bot cycles 33–34, Phase 8, #100). Key = exact card name. relation: depicts | references | echoes (echoes = mechanics mirror a cited moment; guidance). Every note cites official (wizards.com) pages; every double-quoted passage must be verbatim in a cited cached page (checked by build_card_enrichment.py --check). flag: optional ⚠️ / 🚫.",
+ "Godsend": {
+  "relation": "depicts",
+  "text": "Heliod \"reforged the sword into the spear Godsend\"; Elspeth later \"stabbed Xenagos with Godsend, destroying him once and for all\"",
+  "sources": [
+   "https://magic.wizards.com/en/news/feature/theros-beyond-death-story-cards-2019-12-16"
+  ]
+ },
+ "Blackblade Reforged": {
+  "relation": "depicts",
+  "text": "the weapon the *Dominaria* (2018) heroes seek: \"So this Blackblade would kill Belzenlok.\"",
+  "sources": [
+   "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-5-2018-04-11"
+  ]
+ },
+ "The Mightstone and Weakstone": {
+  "relation": "depicts",
+  "text": "the two halves of the stone the brothers split; *The Brothers' War* episode 5 ends with \"Mightstone and Weakstone, reunited at last, within the surviving brother.\"",
+  "sources": [
+   "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary"
+  ]
+ },
+ "Helvault": {
+  "relation": "depicts",
+  "text": "Avacyn's prison: Griselbrand would \"trap her in the Helvault\", and \"When the Helvault shattered, Avacyn emerged at her full strength.\"",
+  "sources": [
+   "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-avacyn-restored-part-1"
+  ]
+ },
+ "The Immortal Sun": {
+  "relation": "depicts",
+  "text": "the Sun Empire's lost relic: \"Emperor Apatzec Intli was gifted the Immortal Sun in a fateful encounter, and vowed to conquer the merfolk and raze the jungle.\"",
+  "sources": [
+   "https://magic.wizards.com/en/news/feature/planeswalkers-guide-ixalan-part-1-2017-11-01"
+  ]
+ },
+ "Golgothian Sylex": {
+  "relation": "depicts",
+  "text": "the artifact behind the Sylex Blast; in *Dominaria* (2018) Karn says \"It was created by Urza to help defeat the Phyrexians.\" Later stories give other origins (see the item entry's three statements)",
+  "sources": [
+   "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-9-2018-05-09"
+  ],
+  "flag": "🔄"
+ },
+ "Moonsilver Key": {
+  "relation": "depicts",
+  "text": "\"the Sungold Lock in the center of the Celestus needs to be joined with an enchanted, blessed-silver item called the Moonsilver Key\", and \"the Moonsilver Key has been lost for generations\"",
+  "sources": [
+   "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-innistrad-midnight-hunt"
+  ]
+ },
+ "Crucible of the Spirit Dragon": {
+  "relation": "depicts",
+  "text": "\"Narset and the other rebellion leaders gathered at the remains of the Crucible of the Spirit Dragon, hoping to finally put an end to the dragonlords' reign.\"",
+  "sources": [
+   "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-tarkir-dragonstorm-part-1"
+  ]
+ },
+ "Hedron Archive": {
+  "relation": "references",
+  "text": "Zendikar's hedrons: \"Ancient, rune-carved monoliths called hedrons are strewn across Zendikar.\"",
+  "sources": [
+   "https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-zendikar"
+  ]
+ },
+ "The World Tree": {
+  "relation": "depicts",
+  "text": "Kaldheim's World Tree: \"Looming overhead is the unfathomably huge bulk of the World Tree, whose dangling roots plunge into the realm.\" (Istfell)",
+  "sources": [
+   "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kaldheim-part-2-2021-01-14"
+  ]
+ },
+ "Halo Fountain": {
+  "relation": "references",
+  "text": "New Capenna's Halo: the archangels \"gave themselves up to make Halo, to distribute it across the city and throughout the air itself\"",
+  "sources": [
+   "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna"
+  ]
+ },
+ "Halo Forager": {
+  "relation": "references",
+  "text": "New Capenna's Halo: the archangels \"gave themselves up to make Halo, to distribute it across the city and throughout the air itself\"",
+  "sources": [
+   "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna"
+  ]
+ }
 }

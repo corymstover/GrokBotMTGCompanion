@@ -364,6 +364,8 @@ schema: 2
 - **Rulings** (2):
   - *2015-06-22* — If a permanent has more than one of the affected types, it can count for any of them. For example, you could choose an artifact creature as the artifact you're sparing, another creature as the creature, and an enchantment creature as the enchantment. Similarly, you could choose an enchantment creature as both the creature and the enchantment that you're sparing, even if the player controls another creature and/or another enchantment.
   - *2015-06-22* — None of the chosen permanents are targets of Tragic Arrogance.
+- **Lore:** ✅ Card art shown on [Hedron Alignment](https://magic.wizards.com/en/news/magic-story/hedron-alignment-2015-11-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 59,385 decks; most often under [Terra, Herald of Hope](../../cards/T/te.md#terra-herald-of-hope) (36.0% of its decks), [Quintorius, History Chaser](../../cards/Q/qu.md#quintorius-history-chaser) (45.4% of its decks), [Breena, the Demagogue](../../cards/B/br.md#breena-the-demagogue) (28.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#tragic-arrogance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/144/tragic-arrogance) · oracle_id `8a29bd35-33ef-4317-9fe5-8aaff5d7d64d` · printing: MSC #144 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -976,6 +978,8 @@ schema: 2
   > *Despite the chaos of the Roil and the devastation of the Eldrazi, Zendikar is a world of breathtaking beauty.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8172 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Renewal](https://magic.wizards.com/en/news/magic-story/renewal-2017-02-01) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 17,068 decks; most often under [Emmara, Soul of the Accord](../../cards/E/em.md#emmara-soul-of-the-accord) (29.6% of its decks), [Arahbo, Roar of the World](../../cards/A/ara.md#arahbo-roar-of-the-world) (7.4% of its decks), [Trostani, Selesnya's Voice](../../cards/T/tro.md#trostani-selesnyas-voice) (3.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#tranquil-expanse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/289/tranquil-expanse) · oracle_id `a5478263-47c9-447f-9c7a-c77ce0752947` · printing: C18 #289 (2018-08-10) · [rulings](https://api.scryfall.com/cards/123cd67f-7226-4e69-8637-382380fb213e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1206,7 +1210,9 @@ schema: 2
   - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
   - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
   - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#transcendent-message)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MOM #83 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 24,878 decks; most often under [Ovika, Enigma Goliath](../../cards/O/ov.md#ovika-enigma-goliath) (38.9% of its decks), [The Watcher in the Water](../../cards/T/thew.md#the-watcher-in-the-water) (62.2% of its decks), [Namor the Sub-Mariner](../../cards/N/na.md#namor-the-sub-mariner) (52.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/T.md#transcendent-message)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/83/transcendent-message) · oracle_id `1f7f7765-aeb9-4e47-a6b9-ce823bb29e33` · printing: MOM #83 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Transdimensional Bovine
@@ -1304,6 +1310,8 @@ schema: 2
   > {T}: Add one mana of any color.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8169 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Rage of the Unsung](https://magic.wizards.com/en/news/magic-story/rage-unsung-2019-01-30) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 17,071 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.8% of its decks), [Oloro, Ageless Ascetic](../../cards/O/ol.md#oloro-ageless-ascetic) (1.5% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/499/transguild-promenade) · oracle_id `98334bfa-c516-4c20-bdc5-9e32e7127adc` · printing: CMR #499 (2020-11-20) · [rulings](https://api.scryfall.com/cards/a0baaa39-7fce-4feb-9118-b1d6bc24f548/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Transit Mage
@@ -1776,6 +1784,8 @@ schema: 2
 - **Keywords:** Incubate, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19615 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MOM #127 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,410 decks; most often under [Glissa, Herald of Predation](../../cards/G/gl.md#glissa-herald-of-predation) (32.4% of its decks), [Brimaz, Blight of Oreskos](../../cards/B/br.md#brimaz-blight-of-oreskos) (4.4% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#traumatic-revelation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/127/traumatic-revelation) · oracle_id `e47253d1-9b12-4989-80c0-604906c88b5e` · printing: MOM #127 (2023-04-21) · [rulings](https://api.scryfall.com/cards/59d40511-c9ff-466c-8eb9-cc7afc5c2eab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1905,6 +1915,8 @@ schema: 2
   > *—\*The Theriad\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28834 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/asphodel-2013-12-11), [official story page](https://magic.wizards.com/en/news/feature/building-toward-dream-part-2-2013-12-03), [official story page](https://magic.wizards.com/en/news/feature/building-toward-dream-part-2-2013-12-04) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 321 decks; most often under [Jasmine Boreal of the Seven](../../cards/J/ja.md#jasmine-boreal-of-the-seven) (1.2% of its decks), [Sokrates, Athenian Teacher](../../cards/S/so.md#sokrates-athenian-teacher) (1.0% of its decks), [Isamaru, Hound of Konda](../../cards/I/is.md#isamaru-hound-of-konda) (3.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/34/traveling-philosopher) · oracle_id `1adc4691-20cf-4f55-af85-3132fe1ff2a8` · printing: THS #34 (2013-09-27) · [rulings](https://api.scryfall.com/cards/edad0276-45d1-45e5-a6b1-1cd2a99b4f2c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Traveling Plague

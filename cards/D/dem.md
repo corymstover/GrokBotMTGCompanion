@@ -88,6 +88,8 @@ schema: 2
   > *After the attempt on Aurelia's life, she gave the Agency an ultimatum: solve the case in twenty-four hours, or the Boros Legion would declare war on the Cult of Rakdos.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #417 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MKM #122, MKM #306, PLST #MKM-122 — [Art & Flavor → Murders at Karlov Manor (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#murders-at-karlov-manor-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (3): [Aurelia, the Warleader (Ravnica-only)](../../decks/plane-ravnica-aurelia-the-warleader.md) · [Doctor Doom, King of Latveria (Grixis)](../../grixis/decks/doctor-doom-king-of-latveria.md) · [Fire Lord Azula (Grixis)](../../grixis/decks/fire-lord-azula.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 297,255 decks; most often under [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (42.5% of its decks), [Kuja, Genome Sorcerer](../../cards/K/ku.md#kuja-genome-sorcerer--trance-kuja-fate-defied) (42.2% of its decks), [Captain Howler, Sea Scourge](../../cards/C/cap.md#captain-howler-sea-scourge) (48.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 5 pages (3 decks · 1 edh guides · 1 lore & story) → [reverse index](../../references/D.md#demand-answers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/122/demand-answers) · oracle_id `c11e84a1-dbda-429b-8cd6-fd0deaefc689` · printing: MKM #122 (2024-02-09) · [rulings](https://api.scryfall.com/cards/eca092fc-7c67-4a73-989e-5297bbaaea76/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -217,6 +219,8 @@ schema: 2
   > *—Aurelia*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13571 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Making of Kaladesh](https://magic.wizards.com/en/news/magic-story/making-kaladesh-2016-11-09), [Stirring from Slumber](https://magic.wizards.com/en/news/magic-story/stirring-slumber-2015-05-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,943 decks; most often under [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (1.5% of its decks), [Fin Fang Foom](../../cards/F/fi.md#fin-fang-foom) (36.4% of its decks), [Numot, the Devastator](../../cards/N/nu.md#numot-the-devastator) (12.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/106/demolish) · oracle_id `08c6d2fd-d9ae-4f95-bb9d-7e16b1039814` · printing: RVR #106 (2024-01-12) · [rulings](https://api.scryfall.com/cards/3abaf8fe-5fab-442c-b219-45137f9ae112/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demolisher Spawn
@@ -536,6 +540,8 @@ schema: 2
   - *2015-06-22* — The phrase "that hasn't been chosen" refers only to that specific Demonic Pact. If you control one and cast another one, you can choose any mode for the second one the first time its ability triggers.
   - *2015-06-22* — Yes, if the fourth mode is the only one remaining, you must choose it. You read the whole contract, right?
   - *2015-06-22* — You choose the mode as the triggered ability goes on the stack. You can choose a mode that requires targets only if there are legal targets available.
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 5](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-5-2018-04-11), [Unkindness of Ravens](https://magic.wizards.com/en/news/magic-story/unkindness-ravens-2015-07-29) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 8 combos; most popular [Demonic Pact + Harmless Offering](https://commanderspellbook.com/combo/3090-6676/) (Target opponent loses the game at the beginning of their next upkeep) · EDHREC: in 13,744 decks; most often under [Blim, Comedic Genius](../../cards/B/bli.md#blim-comedic-genius) (83.4% of its decks), [Ghen, Arcanum Weaver](../../cards/G/gh.md#ghen-arcanum-weaver) (23.1% of its decks), [Deadpool, Trading Card](../../cards/D/dea.md#deadpool-trading-card) (3.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#demonic-pact)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/602/demonic-pact) · oracle_id `19a2f0a0-9e68-4982-a5f5-b77d805befd7` · printing: FDN #602 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -668,6 +674,8 @@ schema: 2
   - *2018-04-27* — Land cards exiled this way remain exiled.
   - *2018-04-27* — Once the triggered ability resolves, the ability will continue until you either exile a nonland card with mana value 3 or less or fail to exile any nonland cards while performing the process. You can't choose to stop receiving the blessings of Demonlord Belzenlok any sooner.
   - *2018-04-27* — The mana value of a split card, such as a card with aftermath from the Amonkhet block, is equal to the combined mana cost of its two halves.
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 12](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-12-2018-05-30) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Braids, Arisen Nightmare (Dominaria-only)](../../decks/plane-dominaria-braids-arisen-nightmare.md) · Commander Spellbook: 3 combos; most popular [Demonlord Belzenlok + Selective Memory + Thassa's Oracle](https://commanderspellbook.com/combo/1295-2177-5962/) (Win the game, Exile your library) · EDHREC as commander: 387 decks; highest synergy [Skirge Familiar](../../cards/S/sk.md#skirge-familiar) (+47%), [Thran Dynamo](../../cards/T/thr.md#thran-dynamo) (+41%), [Dread Return](../../cards/D/dre.md#dread-return) (+38%) · EDHREC: in 19,773 decks; most often under [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (14.4% of its decks), [Be'lakor, the Dark Master](../../cards/B/be.md#belakor-the-dark-master) (18.3% of its decks), [Rakdos, Lord of Riots](../../cards/R/rak.md#rakdos-lord-of-riots) (13.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/D.md#demonlord-belzenlok)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/151/demonlord-belzenlok) · oracle_id `667ece0e-a474-4e11-8ac4-6c8fc354457c` · printing: CMM #151 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -858,6 +866,8 @@ schema: 2
   > *—Ob Nixilis*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27440 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [At Any Cost](https://magic.wizards.com/en/news/magic-story/any-cost-2015-11-25), [Hedron Alignment](https://magic.wizards.com/en/news/magic-story/hedron-alignment-2015-11-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 472 decks; most often under [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (0.0% of its decks), [Ardyn, the Usurper](../../cards/A/ard.md#ardyn-the-usurper) (0.3% of its decks), [Raphael, Fiendish Savior](../../cards/R/rap.md#raphael-fiendish-savior) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#demons-grasp)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddr/43/demons-grasp) · oracle_id `13228a22-d63a-4952-a482-4f84da696e88` · printing: DDR #43 (2016-09-02) · [rulings](https://api.scryfall.com/cards/8ee78a0d-8a76-4d21-b65c-03f27f1a96c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

@@ -912,6 +912,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29880 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Nissa's Resolve](https://magic.wizards.com/en/news/magic-story/nissas-resolve-2015-10-07) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 226 decks; most often under [Slinza, the Spiked Stampede](../../cards/S/sl.md#slinza-the-spiked-stampede) (1.0% of its decks), [Goreclaw, Terror of Qal Sisma](../../cards/G/gor.md#goreclaw-terror-of-qal-sisma) (0.1% of its decks), [Tawnos, the Toymaker](../../cards/T/ta.md#tawnos-the-toymaker) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m13/192/spiked-baloth) · oracle_id `e873b9c2-1346-4f36-aa48-da58112792db` · printing: M13 #192 (2012-07-13) · [rulings](https://api.scryfall.com/cards/522777b1-a89f-4969-a962-0137018ec86c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spiked Corridor // Torture Pit

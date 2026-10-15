@@ -360,6 +360,8 @@ schema: 2
   - *2013-04-15* — You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
   - *2022-10-14* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.
   - *2022-10-14* — You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #89 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (8): [Korvold, Fae-Cursed King](../../decks/korvold-fae-cursed-king.md) · [Teysa Karlov](../../decks/teysa-karlov.md) · [Cormela, Glamour Thief (Grixis)](../../grixis/decks/cormela-glamour-thief.md) · [Edea, Possessed Sorceress (Grixis)](../../grixis/decks/edea-possessed-sorceress.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 397,821 decks; most often under [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (41.1% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (22.6% of its decks), [Kraum, Ludevic's Opus // Tymna the Weaver](../../cards/K/kr.md#kraum-ludevics-opus) (75.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 15 pages (8 decks · 5 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/D.md#diabolic-intent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/89/diabolic-intent) · oracle_id `038519b9-bca8-4b27-b5ac-2409595469d0` · printing: BRO #89 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -696,6 +698,8 @@ schema: 2
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1864 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Kruphix's Insight](https://magic.wizards.com/en/news/magic-story/kruphixs-insight-2014-06-11) (caption names the card and its artist) — ✅ Flavor text verbatim on [official page 1](https://magic.wizards.com/en/news/magic-story/kruphixs-insight-2014-06-11) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (3): [Kynaios and Tiro of Meletis](../../decks/kynaios-and-tiro-of-meletis.md) · [Nekusar, the Mindrazer](../../decks/nekusar-the-mindrazer.md) · [Uro, Titan of Nature's Wrath (Theros-only)](../../decks/plane-theros-uro-titan-of-natures-wrath.md) · Commander Spellbook: 1 combo; most popular [Hive Mind + Enter the Infinite + Dictate of Kruphix](https://commanderspellbook.com/combo/953-1371-2065/) (Each opponent loses the game, Infinite card draw) · EDHREC: in 88,200 decks; most often under [Nekusar, the Mindrazer](../../cards/N/ne.md#nekusar-the-mindrazer) (40.8% of its decks), [Kynaios and Tiro of Meletis](../../cards/K/ky.md#kynaios-and-tiro-of-meletis) (48.6% of its decks), [Xyris, the Writhing Storm](../../cards/X/xy.md#xyris-the-writhing-storm) (34.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/D.md#dictate-of-kruphix)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/587/dictate-of-kruphix) · oracle_id `be74a4c1-d569-4203-b28a-3e2ac6a82990` · printing: FDN #587 (2024-11-15) · [rulings](https://api.scryfall.com/cards/b5e4087b-e692-4eb2-bb59-ff2a001d6dd4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -806,6 +810,8 @@ schema: 2
   - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
   - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
   - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Lore:** ✅ Card art shown on [The Making of Kaladesh](https://magic.wizards.com/en/news/magic-story/making-kaladesh-2016-11-09), [Renewal](https://magic.wizards.com/en/news/magic-story/renewal-2017-02-01) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 821 decks; most often under [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (0.2% of its decks), [Yarok, the Desecrated](../../cards/Y/ya.md#yarok-the-desecrated) (0.7% of its decks), [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#die-young)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/76/die-young) · oracle_id `4bcc54d1-8ab6-4ad3-91b6-97fb02b88cc0` · printing: KLD #76 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1410,6 +1416,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5629 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-03-20* — Use the power of the sacrificed creature as it last existed on the battlefield to determine the value of X.
+- **Lore:** ✅ Card art shown on [Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-down-to-the-lake-alone) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Dina, Essence Brewer + Jumbo Cactuar](https://commanderspellbook.com/combo/6323-7398/) (Near-infinite +1/+1 counters on a creature, Near-infinite lifegain) · EDHREC as commander: 11,832 decks; highest synergy [High Market](../../cards/H/hi.md#high-market) (+67%), [Ophiomancer](../../cards/O/op.md#ophiomancer) (+64%), [Turbulent Fen](../../cards/T/tu.md#turbulent-fen) (+64%) · EDHREC: in 16,562 decks; most often under [Blech, Loafing Pest](../../cards/B/ble.md#blech-loafing-pest) (23.2% of its decks), [Gorma, the Gullet](../../cards/G/gor.md#gorma-the-gullet) (54.9% of its decks), [Witherbloom, the Balancer](../../cards/W/wi.md#witherbloom-the-balancer) (4.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/D.md#dina-essence-brewer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/1/dina-essence-brewer) · oracle_id `f61c1dc4-2f09-4b50-957f-ee656c659072` · printing: SOC #1 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dina's Guidance
@@ -2100,6 +2109,8 @@ schema: 2
   - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MID #219 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 11,532 decks; most often under [Tovolar, Dire Overlord](../../cards/T/to.md#tovolar-dire-overlord--tovolar-the-midnight-scourge) (17.8% of its decks), [Omnath, Locus of Rage](../../cards/O/om.md#omnath-locus-of-rage) (7.9% of its decks), [Hazezon, Shaper of Sand](../../cards/H/ha.md#hazezon-shaper-of-sand) (5.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/219/dire-strain-rampage) · oracle_id `55281479-9d30-4f3e-afd0-66b0df5de68c` · printing: MID #219 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dire Tactics
@@ -2339,6 +2350,8 @@ schema: 2
   - *2017-02-09* — If you counter a delayed triggered ability that triggers at the beginning of the "next" occurrence of a specified step or phase, that ability won't trigger again the following time that phase or step occurs.
   - *2017-02-09* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keyword abilities, such as prowess and fabricate, are triggered abilities and will have "when," "whenever," or "at" in their reminder text.
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called "story spotlights"—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): AER #31 — [Art & Flavor → Kaladesh & Aether Revolt (2016–17)](../../Art%20%26%20Flavor%20Story%20Links.md#kaladesh--aether-revolt-201617) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 90,341 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (21.0% of its decks), [Baral, Chief of Compliance](../../cards/B/bar.md#baral-chief-of-compliance) (58.8% of its decks), [Saheeli, Radiant Creator](../../cards/S/sah.md#saheeli-radiant-creator) (32.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#disallow)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/31/disallow) · oracle_id `88b51e15-6630-4e14-a6b8-db0aa12e34ef` · printing: AER #31 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2632,6 +2645,8 @@ schema: 2
   - *2013-09-15* — Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
   - *2013-09-15* — Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
   - *2013-09-15* — Use your devotion to black as the triggered ability resolves to determine how many cards will be revealed. If Disciple of Phenax is still on the battlefield at that time, its mana cost will count toward your devotion to black.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/gods-born-gods-2014-01-29-0), [The Gods of Born of the Gods](https://magic.wizards.com/en/news/magic-story/gods-born-gods-2014-01-29) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 913 decks; most often under [Shirei, Shizo's Caretaker](../../cards/S/shi.md#shirei-shizos-caretaker) (1.4% of its decks), [Tinybones, Bauble Burglar](../../cards/T/ti.md#tinybones-bauble-burglar) (0.9% of its decks), [Tergrid, God of Fright](../../cards/T/te.md#tergrid-god-of-fright--tergrids-lantern) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/84/disciple-of-phenax) · oracle_id `d7cbe54b-f217-45f5-8583-c254a1c80bb8` · printing: THS #84 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Disciple of Tevesh Szat
@@ -3349,6 +3364,8 @@ schema: 2
   > *—Jace Beleren*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #950 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Revelation at the Eye](https://magic.wizards.com/en/news/magic-story/revelation-eye-2015-10-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Talrand, Sky Summoner](../../decks/talrand-sky-summoner.md) · [Marchesa, Dealer of Death (Grixis)](../../grixis/decks/marchesa-dealer-of-death.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 160,054 decks; most often under [Kinnan, Bonder Prodigy](../../cards/K/ki.md#kinnan-bonder-prodigy) (30.1% of its decks), [Yuriko, the Tiger's Shadow](../../cards/Y/yu.md#yuriko-the-tigers-shadow) (18.1% of its decks), [Urza, Lord High Artificer](../../cards/U/ur.md#urza-lord-high-artificer) (19.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 decks · 1 lore & story) → [reverse index](../../references/D.md#dispel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/76/dispel) · oracle_id `6d7be242-a072-40ce-b540-95880506cccd` · printing: BFZ #76 (2015-10-02) · [rulings](https://api.scryfall.com/cards/bceab6b3-6b64-4964-a501-ce806a6c13ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3981,7 +3998,9 @@ schema: 2
   - *2011-06-01* — If no opponent has you put the card into your hand, the card remains exiled.
   - *2011-06-01* — In multiplayer formats, your opponents each make the decision in turn order.
   - *2011-06-01* — The card is exiled face up. Each opponent will know what the card is when deciding whether to have you put it in your hand.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#distant-memories)
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 5](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-5-2018-04-11) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,065 decks; most often under [Merieke Ri Berit](../../cards/M/me.md#merieke-ri-berit) (2.0% of its decks), [Jin-Gitaxias](../../cards/J/ji.md#jin-gitaxias--the-great-synthesis) (0.8% of its decks), [Alela, Cunning Conqueror](../../cards/A/al.md#alela-cunning-conqueror) (0.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/D.md#distant-memories)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbs/24/distant-memories) · oracle_id `12c78cc4-7fbe-4639-bef7-bf959a0d6d68` · printing: MBS #24 (2011-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Distemper of the Blood
@@ -4510,6 +4529,8 @@ schema: 2
   > *Ravnica's defenders watched in horror as Oketra's shot pierced the body of the pegasus. Gideon tumbled through the air, Blackblade in hand.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20123 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WAR #10 — [Art & Flavor → War of the Spark (2019)](../../Art%20%26%20Flavor%20Story%20Links.md#war-of-the-spark-2019) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,185 decks; most often under [Anti-Venom, Horrifying Healer](../../cards/A/an.md#anti-venom-horrifying-healer) (2.0% of its decks), [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (0.4% of its decks), [Kytheon, Hero of Akros](../../cards/K/ky.md#kytheon-hero-of-akros--gideon-battle-forged) (7.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#divine-arrow)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/100/divine-arrow) · oracle_id `6add505a-9c0f-42e6-898d-be3194c3df33` · printing: JMP #100 (2020-07-17) · [rulings](https://api.scryfall.com/cards/352c4997-2b96-45da-a4e1-70a86453c6fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4571,6 +4592,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17393 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2014-07-18* — If the creature targeted by Divine Favor is an illegal target when Divine Favor tries to resolve, Divine Favor won't resolve. It won't enter the battlefield and its enters-the-battlefield ability won't trigger.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/path-bravery-2013-07-10) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,579 decks; most often under [Light-Paws, Emperor's Voice](../../cards/L/li.md#light-paws-emperors-voice) (2.3% of its decks), [Eriette of the Charmed Apple](../../cards/E/er.md#eriette-of-the-charmed-apple) (1.2% of its decks), [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m15/10/divine-favor) · oracle_id `bffa18c3-642c-4239-b425-238599007976` · printing: M15 #10 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Divine Gambit

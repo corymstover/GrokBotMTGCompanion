@@ -63,6 +63,8 @@ schema: 2
   > *"You stole a child from its nest," Mabel accused. "The only calamity I see here is you."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14327 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BLB #21 — [Art & Flavor → Bloomburrow (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#bloomburrow-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,151 decks; most often under [Mabel, Heir to Cragflame](../../cards/M/mab.md#mabel-heir-to-cragflame) (56.4% of its decks), [Arthur, Marigold Knight](../../cards/A/art.md#arthur-marigold-knight) (7.0% of its decks), [Baylen, the Haymaker](../../cards/B/bay.md#baylen-the-haymaker) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#mabels-mettle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/21/mabels-mettle) · oracle_id `c657626f-7444-4c26-842c-dda9b9656fa3` · printing: BLB #21 (2024-08-02) · [rulings](https://api.scryfall.com/cards/5cfcf83f-089c-4e35-855e-b61b98bb1cd8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

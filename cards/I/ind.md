@@ -79,6 +79,8 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #480 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** Featured in: [Plane → Ikoria](../../Planes%20Index.md#ikoria) ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-ikoria-2020-04-02), [2](https://magic.wizards.com/en/news/magic-story/survival-of-the-fittest) via entry) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (4): [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Karador, Ghost Chieftain](../../decks/karador-ghost-chieftain.md) · [Saskia the Unyielding](../../decks/saskia-the-unyielding.md) · [Atraxa, Praetors' Voice (planeswalkers theme)](../../decks/theme-atraxa-praetors-voice-planeswalkers.md) · Commander Spellbook: 2 combos; most popular [Escape Protocol + Fluctuator + Bone Miser + Golgari Findbroker + Indatha Triome](https://commanderspellbook.com/combo/65-717-1076-2628-5181/) (Infinite card draw, Infinite draw triggers) · EDHREC: in 272,290 decks; most often under [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (37.7% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (23.1% of its decks), [The Necrobloom](../../cards/T/then.md#the-necrobloom) (50.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 8 pages (4 decks · 3 edh guides · 1 lore & story) → [reverse index](../../references/I.md#indatha-triome)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/248/indatha-triome) · oracle_id `ec2b3779-55f7-4169-aa66-6312fb52721f` · printing: IKO #248 (2020-04-24) · [rulings](https://api.scryfall.com/cards/2b74bb81-fb9a-40e5-a941-e517430b52f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -422,6 +424,8 @@ schema: 2
   - *2018-01-19* — If Induced Amnesia leaves the battlefield but isn’t put into a graveyard, the exiled cards are lost forever. They won’t be returned if another Induced Amnesia is put into a graveyard, even if that Induced Amnesia is represented by the same card.
   - *2018-01-19* — No player may look at the exiled cards.
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called “story spotlights”—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): RIX #40 — ✅ Card art shown on [Sabotage](https://magic.wizards.com/en/news/magic-story/sabotage-2018-01-31) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,517 decks; most often under [Ertai, the Corrupted](../../cards/E/er.md#ertai-the-corrupted) (31.7% of its decks), [Jace, Vryn's Prodigy](../../cards/J/ja.md#jace-vryns-prodigy--jace-telepath-unbound) (8.8% of its decks), [Nekusar, the Mindrazer](../../cards/N/ne.md#nekusar-the-mindrazer) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/40/induced-amnesia) · oracle_id `6f01c124-0518-428c-9efe-7f3741f3c109` · printing: RIX #40 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Induce Despair
@@ -486,6 +490,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2575 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-04-08* — You can sacrifice Indulgent Aristocrat to pay the cost of its own activated ability.
+- **Lore:** ✅ Card art shown on [Innistrad's Last Hope](https://magic.wizards.com/en/news/magic-story/innistrads-last-hope-2016-06-29) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Edgar Markov](../../decks/edgar-markov.md) · [Edgar Markov (lifegain theme)](../../decks/theme-edgar-markov-lifegain.md) · Commander Spellbook: 3 combos; most popular [Indulgent Aristocrat + Animation Module + Ashnod's Altar](https://commanderspellbook.com/combo/2034-2848-3490/) (Infinite +1/+1 counters on certain creatures, Infinite colorless mana) · EDHREC: in 64,354 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (72.9% of its decks), [Clavileño, First of the Blessed](../../cards/C/cl.md#clavileño-first-of-the-blessed) (80.3% of its decks), [Elenda, the Dusk Rose](../../cards/E/el.md#elenda-the-dusk-rose) (39.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 decks · 1 lore & story) → [reverse index](../../references/I.md#indulgent-aristocrat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/118/indulgent-aristocrat) · oracle_id `c7054a2d-2e7b-4487-8fc3-f6a47a716fd3` · printing: INR #118 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

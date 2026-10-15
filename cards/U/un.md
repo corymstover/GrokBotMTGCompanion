@@ -366,6 +366,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9710 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-02-02* — If the target nonland permanent is an illegal target as Unauthorized Exit tries to resolve, it won't resolve and none of its effects will happen. You won't surveil 1.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MKM #298, MKM #74 — [Art & Flavor → Murders at Karlov Manor (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#murders-at-karlov-manor-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 13,204 decks; most often under [Mirko, Obsessive Theorist](../../cards/M/mir.md#mirko-obsessive-theorist) (33.0% of its decks), [Matoya, Archon Elder](../../cards/M/mat.md#matoya-archon-elder) (57.3% of its decks), [Stella Lee, Wild Card](../../cards/S/ste.md#stella-lee-wild-card) (2.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/U.md#unauthorized-exit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/74/unauthorized-exit) · oracle_id `3d145811-adb2-46a4-b173-bf8152e5de48` · printing: MKM #74 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -606,6 +608,8 @@ schema: 2
 - **Rulings** (2):
   - *2017-07-14* — For cards in your library with {X} in their mana costs, X is considered to be 0.
   - *2017-07-14* — If you cast Uncage the Menagerie with X as 0, you’ll search your library and shuffle it, but you won’t be able to find any cards.
+- **Lore:** ✅ Card art shown on [Unbowed, Part 3](https://magic.wizards.com/en/news/magic-story/unbowed-part-3-2018-09-07) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,233 decks; most often under [Zaxara, the Exemplary](../../cards/Z/za.md#zaxara-the-exemplary) (1.5% of its decks), [Gargos, Vicious Watcher](../../cards/G/ga.md#gargos-vicious-watcher) (2.0% of its decks), [Rosheen, Roaring Prophet](../../cards/R/ro.md#rosheen-roaring-prophet) (9.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/137/uncage-the-menagerie) · oracle_id `d2043685-f091-444f-9c35-d238afa24d7b` · printing: HOU #137 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Uncanny Speed
@@ -1320,6 +1324,8 @@ schema: 2
   - *2015-06-22* — If a creature with renown deals combat damage to its controller because that damage was redirected, renown will trigger.
   - *2015-06-22* — If a renown ability triggers, but the creature leaves the battlefield before that ability resolves, the creature doesn’t become renowned. Any ability that triggers “whenever a creature becomes renowned” won’t trigger.
   - *2015-06-22* — Renown won’t trigger when a creature deals combat damage to a planeswalker or another creature. It also won’t trigger when a creature deals noncombat damage to a player.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 204 decks; most often under [Varolz, the Scar-Striped](../../cards/V/va.md#varolz-the-scar-striped) (1.6% of its decks), [Aragorn, Hornburg Hero](../../cards/A/ara.md#aragorn-hornburg-hero) (0.8% of its decks), [Thrun, the Last Troll](../../cards/T/thr.md#thrun-the-last-troll) (1.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/188/undercity-troll) · oracle_id `b7851b17-faa2-4767-9716-86997b882690` · printing: IMA #188 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Undercity Upheaval
@@ -1777,6 +1783,8 @@ schema: 2
   - *2018-10-05* — If an effect instructs you to draw multiple cards, each draw is performed—and replaced by Underrealm Lich's ability—one at a time. This means that if you're drawing two cards, you'll look at the top three cards of your library, put one into your hand, put the other two into your graveyard, and then repeat the process with the next three cards in your library.
   - *2018-10-05* — Underrealm Lich's first ability applies even if you have fewer than three cards in your library. If you have no cards in your library, you can't lose the game for trying to draw a card from an empty library.
   - *2018-10-05* — You can activate Underrealm Lich's last ability even if it's already tapped. It can't be tapped again, but it still gains indestructible.
+- **Lore:** ✅ Card art shown on [Death's Precious Moments](https://magic.wizards.com/en/news/magic-story/deaths-precious-moments-2018-11-07) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Muldrotha, the Gravetide](../../decks/muldrotha-the-gravetide.md) · [Muldrotha, the Gravetide (self mill theme)](../../decks/theme-muldrotha-the-gravetide-self-mill.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 55,859 decks; most often under [Muldrotha, the Gravetide](../../cards/M/mu.md#muldrotha-the-gravetide) (27.0% of its decks), [Betor, Ancestor's Voice](../../cards/B/be.md#betor-ancestors-voice) (19.7% of its decks), [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (8.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/U.md#underrealm-lich)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/215/underrealm-lich) · oracle_id `e1bce9c3-300c-4a9d-abe0-a1f02d3a1105` · printing: CLU #215 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1969,6 +1977,8 @@ schema: 2
   - *2014-04-26* — A constellation ability triggers whenever an enchantment enters the battlefield under your control for any reason. Enchantments with other card types, such as enchantment creatures, will also cause constellation abilities to trigger.
   - *2014-04-26* — An Aura spell without bestow that has an illegal target when it tries to resolve won't resolve and will be put into its owner's graveyard. It won't enter the battlefield and constellation abilities won't trigger. An Aura spell with bestow won't be countered this way. It will revert to being an enchantment creature and resolve, entering the battlefield and triggering constellation abilities.
   - *2014-04-26* — When an enchantment enters the battlefield under your control, each constellation ability of permanents you control will trigger. You can put these abilities on the stack in any order. The last ability you put on the stack will be the first one that resolves.
+- **Lore:** ✅ Card art shown on [The Path or the Horizon](https://magic.wizards.com/en/news/magic-story/path-or-horizon-2014-05-07), [The Path or the Horizon](https://magic.wizards.com/en/news/magic-story/path-or-horizon-2014-05-07-0) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Myrkul, Lord of Bones + Ondu Spiritdancer + Underworld Coinsmith](https://commanderspellbook.com/combo/1072-2144-3729/) (Infinite lifegain, Infinite lifegain triggers) · EDHREC: in 12,702 decks; most often under [Eriette of the Charmed Apple](../../cards/E/er.md#eriette-of-the-charmed-apple) (8.0% of its decks), [Myrkul, Lord of Bones](../../cards/M/my.md#myrkul-lord-of-bones) (16.3% of its decks), [Daxos the Returned](../../cards/D/da.md#daxos-the-returned) (56.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c15/237/underworld-coinsmith) · oracle_id `ae06e0e5-8a42-4d1f-a629-94152e5f1fe6` · printing: C15 #237 (2015-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Underworld Connections
@@ -1983,6 +1993,8 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5232 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Project Lightning Bug](https://magic.wizards.com/en/news/magic-story/project-lightning-bug-2015-05-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 30,501 decks; most often under [Eriette of the Charmed Apple](../../cards/E/er.md#eriette-of-the-charmed-apple) (18.8% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (2.6% of its decks), [Verrak, Warped Sengir](../../cards/V/ve.md#verrak-warped-sengir) (76.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/138/underworld-connections) · oracle_id `39c10798-9dfc-47a2-9da3-b4038509aebe` · printing: VOC #138 (2021-11-19) · [rulings](https://api.scryfall.com/cards/1df71add-7bb6-4687-bb69-cf4450adb7dc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Underworld Dreams
@@ -2305,7 +2317,9 @@ schema: 2
   - *2025-11-17* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
   - *2025-11-17* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
   - *2025-11-17* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/U.md#unexpected-assistance)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): ECL #80 — [Art & Flavor → Lorwyn Eclipsed (2025–26)](../../Art%20%26%20Flavor%20Story%20Links.md#lorwyn-eclipsed-202526) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 11,078 decks; most often under [Ovika, Enigma Goliath](../../cards/O/ov.md#ovika-enigma-goliath) (14.4% of its decks), [Maralen, Fae Ascendant](../../cards/M/mar.md#maralen-fae-ascendant) (3.7% of its decks), [Kasla, the Broken Halo](../../cards/K/ka.md#kasla-the-broken-halo) (35.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/U.md#unexpected-assistance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/80/unexpected-assistance) · oracle_id `c452e748-8a2a-4f68-8869-e294925a8b0b` · printing: ECL #80 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unexpected Fangs
@@ -2446,6 +2460,8 @@ schema: 2
 - **Rulings** (2):
   - *2024-01-12* — Some spells that instruct you to surveil require targets. You can't cast a spell without choosing legal targets. If all of those targets become illegal, the spell doesn't resolve and you won't surveil.
   - *2024-01-12* — You perform the actions stated on a card in sequence. For some spells and abilities, you'll surveil last. For others, you'll surveil and then perform other actions.
+- **Lore:** ✅ Card art shown on [Under the Cover of Fog](https://magic.wizards.com/en/news/magic-story/under-cover-fog-2018-10-10) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,596 decks; most often under [Mirko, Obsessive Theorist](../../cards/M/mir.md#mirko-obsessive-theorist) (9.5% of its decks), [Matoya, Archon Elder](../../cards/M/mat.md#matoya-archon-elder) (23.4% of its decks), [Zethi, Arcane Blademaster](../../cards/Z/ze.md#zethi-arcane-blademaster) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/56/unexplained-disappearance) · oracle_id `18d16129-da25-4120-a343-64ce962abba2` · printing: GRN #56 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unexplained Vision
@@ -2464,7 +2480,9 @@ schema: 2
   - *2019-10-04* — If an effect allows you to cast a spell without paying its mana cost, you can't choose to cast it and pay unless another rule or effect allows you to cast that spell for a cost. Similarly, you can't waive a cost reduction unless that effect says you may.
   - *2019-10-04* — If an instant or sorcery spell has an adamant ability, you perform the spell's instructions in order. You don't perform the adamant instruction before the spell resolves or before any other effects printed above it.
   - *2019-10-04* — If you copy a spell that has an adamant ability, no mana was spent to cast the copy at all, so that ability won't apply.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/U.md#unexplained-vision)
+- **Lore:** Featured in: [Arc → Throne of Eldraine (2019)](../../Conflicts%20%26%20Arcs.md#throne-of-eldraine-2019) ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31), [2](https://magic.wizards.com/en/story/will-kenrith-planeswalker) via entry) — ✅ Story Spotlight printing (Scryfall `story_spotlight`): ELD #70 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,194 decks; most often under [Eligeth, Crossroads Augur // Siani, Eye of the Storm](../../cards/E/el.md#eligeth-crossroads-augur) (8.8% of its decks), [Elminster](../../cards/E/el.md#elminster) (1.8% of its decks), [Niv-Mizzet, Parun](../../cards/N/ni.md#niv-mizzet-parun) (0.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/U.md#unexplained-vision)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/70/unexplained-vision) · oracle_id `9f693483-f4df-497a-a6c7-fc269fc60ea8` · printing: ELD #70 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unfathomable Truths
@@ -3000,6 +3018,8 @@ schema: 2
   > *Terisia City at last opened its ivory towers to all who sought respite from the endless war.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8863 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #31 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 15,172 decks; most often under [Hope Estheim](../../cards/H/ho.md#hope-estheim) (15.3% of its decks), [Will, Scion of Peace](../../cards/W/wi.md#will-scion-of-peace) (50.4% of its decks), [The Archimandrite](../../cards/T/thea.md#the-archimandrite) (57.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/U.md#union-of-the-third-path)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/31/union-of-the-third-path) · oracle_id `4492c329-174a-44aa-be4d-9f018173b9a7` · printing: BRO #31 (2022-11-18) · [rulings](https://api.scryfall.com/cards/486a0745-7360-4cc9-9cc2-30c0eda6e00c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3028,6 +3048,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14231 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-04-04* — If a card in a library has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): TDM #32 — [Art & Flavor → Tarkir: Dragonstorm (2025)](../../Art%20%26%20Flavor%20Story%20Links.md#tarkir-dragonstorm-2025) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,267 decks; most often under [Cloud, Midgar Mercenary](../../cards/C/cl.md#cloud-midgar-mercenary) (3.4% of its decks), [Eriette of the Charmed Apple](../../cards/E/er.md#eriette-of-the-charmed-apple) (1.8% of its decks), [Zurgo, Thunder's Decree](../../cards/Z/zu.md#zurgo-thunders-decree) (1.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/U.md#united-battlefront)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/32/united-battlefront) · oracle_id `892a83a0-a3cb-4cfb-9106-4008e4e75c0f` · printing: TDM #32 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3086,7 +3108,9 @@ schema: 2
   - *2016-01-22* — If a spell with support has other abilities that target creatures, those abilities and the support ability can target the same creature.
   - *2016-01-22* — Support can target a creature you don’t control.
   - *2016-01-22* — You can’t put more than one +1/+1 counter on any one target using the support action.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/U.md#unity-of-purpose)
+- **Lore:** ✅ Card art shown on [Brink of Extinction](https://magic.wizards.com/en/news/magic-story/brink-extinction-2016-02-10) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,568 decks; most often under [Noyan Dar, Roil Shaper](../../cards/N/no.md#noyan-dar-roil-shaper) (14.8% of its decks), [Stella Lee, Wild Card](../../cards/S/ste.md#stella-lee-wild-card) (1.0% of its decks), [Jace, Vryn's Prodigy](../../cards/J/ja.md#jace-vryns-prodigy--jace-telepath-unbound) (4.2% of its decks) — *Guidance (Oracle pattern)* — packages: [+1/+1 counters: Counter payoffs](../../EDH%20Packages.md#11-counters-counter-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/U.md#unity-of-purpose)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/66/unity-of-purpose) · oracle_id `9fbcae6e-5523-47a3-b0ff-ab7a8bb72822` · printing: OGW #66 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Universal Automaton
@@ -3173,6 +3197,8 @@ schema: 2
   > *—\*The Callapheia\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7628 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Beneath the Surface](https://magic.wizards.com/en/news/magic-story/beneath-surface-2016-01-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Uro, Titan of Nature's Wrath (Theros-only)](../../decks/plane-theros-uro-titan-of-natures-wrath.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 19,031 decks; most often under [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (1.6% of its decks), [Azlask, the Swelling Scourge](../../cards/A/az.md#azlask-the-swelling-scourge) (1.6% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/U.md#unknown-shores)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/249/unknown-shores) · oracle_id `82c5ec8e-27be-475a-9921-ad61209fd022` · printing: THB #249 (2020-01-24) · [rulings](https://api.scryfall.com/cards/492181e4-5825-45d4-b8a1-37f29c32a845/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3269,6 +3295,8 @@ schema: 2
   > *"I appreciate you not letting me fall to my death in the acid bogs. Now, can you let me down?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14052 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WAR #109 — [Art & Flavor → War of the Spark (2019)](../../Art%20%26%20Flavor%20Story%20Links.md#war-of-the-spark-2019) — ✅ Card art shown on [War of the Spark: Ravnica—Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,442 decks; most often under [Skithiryx, the Blight Dragon](../../cards/S/sk.md#skithiryx-the-blight-dragon) (9.5% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (0.5% of its decks), [Judith, Carnage Connoisseur](../../cards/J/ju.md#judith-carnage-connoisseur) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/U.md#unlikely-aid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/103/unlikely-aid) · oracle_id `795e0ffb-fcd9-4cb9-ad18-8a0217229bfe` · printing: IKO #103 (2020-04-24) · [rulings](https://api.scryfall.com/cards/bac3409e-7c24-43b0-9956-5f0cdeae6468/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3513,6 +3541,8 @@ schema: 2
   - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MID #247 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 10,513 decks; most often under [Tovolar, Dire Overlord](../../cards/T/to.md#tovolar-dire-overlord--tovolar-the-midnight-scourge) (60.5% of its decks), [Ulrich of the Krallenhorde](../../cards/U/ul.md#ulrich-of-the-krallenhorde--ulrich-uncontested-alpha) (37.7% of its decks), [Saskia the Unyielding](../../cards/S/sas.md#saskia-the-unyielding) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/247/unnatural-moonrise) · oracle_id `df33b298-9e4b-4522-96e5-c8d8d6af2bb4` · printing: MID #247 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unnatural Predation
@@ -3649,6 +3679,8 @@ schema: 2
   - *2020-04-17* — If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, such as that of Swallow Whole, those must be paid to cast the card.
   - *2020-04-17* — If you exile your entire library without exiling a card that shares a card type, you put the library back in a random order and continue. You won’t draw a card.
   - *2020-04-17* — If you wish to cast the last exiled card, you do so as part of the resolution of the cycling ability. You can’t wait to cast it later. Timing permissions based on a card’s type are ignored.
+- **Lore:** Featured in: [Arc → Ikoria: Lair of Behemoths (2020)](../../Conflicts%20%26%20Arcs.md#ikoria-lair-of-behemoths-2020) ([source](https://magic.wizards.com/en/news/feature/ikoria-lair-behemoths-story-cards-2020-04-10), [2](https://magic.wizards.com/en/news/feature/planeswalkers-guide-ikoria-2020-04-02) via entry) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,656 decks; most often under [Gavi, Nest Warden](../../cards/G/ga.md#gavi-nest-warden) (30.9% of its decks), [Captain Howler, Sea Scourge](../../cards/C/cap.md#captain-howler-sea-scourge) (1.8% of its decks), [Brallin, Skyshark Rider // Shabraz, the Skyshark](../../cards/B/br.md#brallin-skyshark-rider) (4.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/U.md#unpredictable-cyclone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/139/unpredictable-cyclone) · oracle_id `5b67a944-ab0b-4155-8bc0-becb1b38b3bb` · printing: IKO #139 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4246,6 +4278,8 @@ schema: 2
   > *Jace knew that if he just had time to explain his plan, he would find support. Unfortunately, time was in short supply.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1781 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): DFT #72 — [Art & Flavor → Aetherdrift (2025)](../../Art%20%26%20Flavor%20Story%20Links.md#aetherdrift-2025) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 5 combos; most popular [Gogo, Master of Mimicry + Unstoppable Plan](https://commanderspellbook.com/combo/6286-6657/) (Infinite mana nonland permanents you control can produce, Infinite untap of nonland permanents you control) · EDHREC: in 93,158 decks; most often under [Shorikai, Genesis Engine](../../cards/S/sho.md#shorikai-genesis-engine) (22.6% of its decks), [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (6.1% of its decks), [Mendicant Core, Guidelight](../../cards/M/me.md#mendicant-core-guidelight) (17.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/U.md#unstoppable-plan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/72/unstoppable-plan) · oracle_id `3f6f4c98-ed7e-4fb1-8bfe-4210a39f77f2` · printing: DFT #72 (2025-02-14) · [rulings](https://api.scryfall.com/cards/aaeb5981-7e6a-4ffd-bb02-4757b2e92f08/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

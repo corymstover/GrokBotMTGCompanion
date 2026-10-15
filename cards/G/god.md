@@ -109,6 +109,8 @@ schema: 2
   - *2019-05-03* — You can cast the copy only as Kefnet's triggered ability resolves. If you don't want to cast it at that time (or you can't cast it, perhaps because there are no legal targets available), the copy ceases to exist. You can't cast it later.
   - *2019-05-03* — You can reveal and copy an instant or sorcery card this way on any turn, not just your own, if it's the first card you've drawn that turn.
   - *2019-05-03* — You don't have to reveal a drawn card if you don't wish to copy it at that time.
+- **Lore:** ✅ Card art shown on [War of the Spark: Ravnica—Operation Desperation](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 41 combos; most popular [God-Eternal Kefnet + Scroll Rack + Time Warp](https://commanderspellbook.com/combo/1271-3212-4872/) (Infinite turns, Skip your draw steps) · EDHREC as commander: 600 decks; highest synergy [Scroll Rack](../../cards/S/sc.md#scroll-rack) (+58%), [Time Warp](../../cards/T/ti.md#time-warp) (+46%), [Temporal Manipulation](../../cards/T/te.md#temporal-manipulation) (+45%) · EDHREC: in 16,153 decks; most often under [Atreus, Impulsive Son // Kratos, Stoic Father](../../cards/A/at.md#atreus-impulsive-son) (21.8% of its decks), [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (8.4% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (3.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#god-eternal-kefnet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/53/god-eternal-kefnet) · oracle_id `41d11144-32fc-4e45-a8db-3edb9dc0ce80` · printing: WAR #53 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -208,6 +210,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28572 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2014-04-26* — Whether the defending player controls an enchantment or enchanted permanent is checked only as attackers are declared. Once Godhunter Octopus has been declared as an attacker, it will continue to attack even if the defending player loses control of each enchantment or enchanted permanent they controlled.
+- **Lore:** ✅ Card art shown on [Drop for Drop](https://magic.wizards.com/en/news/magic-story/drop-drop-2015-05-20) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 347 decks; most often under [Kiora, Sovereign of the Deep](../../cards/K/ki.md#kiora-sovereign-of-the-deep) (0.7% of its decks), [Runo Stromkirk](../../cards/R/ru.md#runo-stromkirk--krothuss-lord-of-the-deep) (0.7% of its decks), [Marvo, Deep Operative](../../cards/M/mar.md#marvo-deep-operative) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/39/godhunter-octopus) · oracle_id `930b48b8-dbd1-4109-9eaa-7d7e9a04fa5b` · printing: JOU #39 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Godless Shrine
@@ -223,6 +227,8 @@ schema: 2
 - **Rulings** (2):
   - *2018-10-05* — If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
   - *2018-10-05* — Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/burying-part-1-2013-01-30), [Family Values](https://magic.wizards.com/en/news/magic-story/family-values-2015-11-11) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (9): [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Breya, Etherium Shaper](../../decks/breya-etherium-shaper.md) · [Edgar Markov](../../decks/edgar-markov.md) · [Karador, Ghost Chieftain](../../decks/karador-ghost-chieftain.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 985,123 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (55.8% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (52.9% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (53.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 13 pages (9 decks · 3 edh guides · 1 card data) → [reverse index](../../references/G.md#godless-shrine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/285/godless-shrine) · oracle_id `73864fcc-1bde-4bc0-831e-2b93e546e417` · printing: TRK #285 (2026-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -266,6 +272,8 @@ schema: 2
 - **Rulings** (2):
   - *2017-07-14* — If you cast a spell that’s two or more of these colors, you gain only 1 life.
   - *2017-07-14* — The triggered ability of God-Pharaoh’s Faithful will resolve before the spell that caused it to trigger. The ability will resolve even if that spell is countered.
+- **Lore:** ✅ Card art shown on [Hour of Eternity](https://magic.wizards.com/en/news/magic-story/hour-eternity-2017-07-12) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 14 combos; most popular [Acererak the Archlich + Carnival of Souls + Heartless Summoning + God-Pharaoh's Faithful](https://commanderspellbook.com/combo/1824-2530-4924-7360/) (Infinite card draw, Infinite draw triggers) · EDHREC: in 1,889 decks; most often under [Plagon, Lord of the Beach](../../cards/P/pl.md#plagon-lord-of-the-beach) (5.7% of its decks), [The Kingpin of Crime](../../cards/T/thek.md#the-kingpin-of-crime) (16.2% of its decks), [Doran, the Siege Tower](../../cards/D/do.md#doran-the-siege-tower) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#god-pharaohs-faithful)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/14/god-pharaohs-faithful) · oracle_id `3f86e6c6-fca5-43e9-88cc-4546cdd5f0ec` · printing: HOU #14 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -297,6 +305,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-05-03* — In a Two-Headed Giant game, the last ability of God-Pharaoh's Statue causes the opposing team to lose 2 life.
   - *2019-05-03* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases (such as that of God-Pharaoh's Statue's first ability), then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): PLST #WAR-238, WAR #238 — [Art & Flavor → War of the Spark (2019)](../../Art%20%26%20Flavor%20Story%20Links.md#war-of-the-spark-2019) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 67,936 decks; most often under [Magda, Brazen Outlaw](../../cards/M/mag.md#magda-brazen-outlaw) (45.1% of its decks), [Grand Arbiter Augustin IV](../../cards/G/gra.md#grand-arbiter-augustin-iv) (50.2% of its decks), [Belbe, Corrupted Observer](../../cards/B/be.md#belbe-corrupted-observer) (51.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 edh guides · 1 lore & story) → [reverse index](../../references/G.md#god-pharaohs-statue)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/238/god-pharaohs-statue) · oracle_id `183954d2-7b40-4c7e-adfa-d80191ab5ad6` · printing: WAR #238 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

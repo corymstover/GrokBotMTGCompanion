@@ -380,6 +380,8 @@ schema: 2
   - *2019-10-04* — If the creature you control is an illegal target as Outmuscle tries to resolve, no creature gets a +1/+1 counter. If that creature is a legal target but the creature you don't control isn't, it still gets a +1/+1 counter and gains indestructible if appropriate.
   - *2019-10-04* — If you copy a spell that has an adamant ability, no mana was spent to cast the copy at all, so that ability won't apply.
   - *2019-10-04* — You can't cast Outmuscle unless you choose both a creature you control and a creature you don't control as targets.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Eldraine](https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Apex Altisaur + Outmuscle](https://commanderspellbook.com/combo/2488-2772/) (Infinite damage to most creatures) · EDHREC: in 4,477 decks; most often under [Ayula, Queen Among Bears](../../cards/A/ay.md#ayula-queen-among-bears) (7.0% of its decks), [Maarika, Brutal Gladiator](../../cards/M/maa.md#maarika-brutal-gladiator) (2.5% of its decks), [Fynn, the Fangbearer](../../cards/F/fy.md#fynn-the-fangbearer) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/170/outmuscle) · oracle_id `185d84f4-6095-46ef-917f-3d662a86aa81` · printing: ELD #170 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Outnumber
@@ -393,6 +395,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9033 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2015-08-25* — Count the number of creatures you control as Outnumber resolves to determine how much damage Outnumber deals.
+- **Lore:** ✅ Card art shown on [Battle for Zendikar Story Summary](https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23), [The Liberation of Sea Gate](https://magic.wizards.com/en/news/magic-story/liberation-sea-gate-2015-10-28) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 14,669 decks; most often under [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (19.8% of its decks), [General Kreat, the Boltbringer](../../cards/G/ge.md#general-kreat-the-boltbringer) (17.4% of its decks), [Krenko, Tin Street Kingpin](../../cards/K/kr.md#krenko-tin-street-kingpin) (18.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/O.md#outnumber)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/354/outnumber) · oracle_id `b72efd67-a234-44af-8296-3e182292c7e6` · printing: JMP #354 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -525,7 +529,9 @@ schema: 2
   - *2014-11-24* — If you exile a land card using the "Khans" ability, you may play that land only if you have any available land plays. Normally, this means you can play the land only if you haven't played a land yet that turn.
   - *2014-11-24* — The card exiled by the "Khans" ability is exiled face up. Playing a card exiled with the "Khans" ability follows the normal rules for playing the card. You must pay its costs, and you must follow all applicable timing rules. For example, if it's a creature card, you can cast it only during your main phase while the stack is empty.
   - *2014-11-24* — The words "Khans" and "Dragons" are anchor words, connecting your choice to the appropriate ability. Anchor words are a new rules concept. "[Anchor word] — [Ability]" means "As long as you chose [anchor word] as this permanent entered the battlefield, this permanent has [ability]." Notably, the anchor word "Dragons" has no connection to the creature type Dragon.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/O.md#outpost-siege)
+- **Lore:** ✅ Card art shown on [The Truth of Names](https://magic.wizards.com/en/news/magic-story/truth-names-2015-01-28) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Atarka, World Render (Tarkir-only)](../../decks/plane-tarkir-atarka-world-render.md) · Commander Spellbook: 4 combos; most popular [Worldfire + Outpost Siege](https://commanderspellbook.com/combo/3765-3938/) (Each opponent loses the game, Exile all cards in hands and graveyards) · EDHREC: in 68,557 decks; most often under [Bello, Bard of the Brambles](../../cards/B/be.md#bello-bard-of-the-brambles) (31.6% of its decks), [Norin the Wary](../../cards/N/no.md#norin-the-wary) (67.1% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (11.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/O.md#outpost-siege)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/804/outpost-siege) · oracle_id `ebb24fc7-dc71-4712-8c2a-b5920f78e55d` · printing: CLB #804 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Outrageous Robbery

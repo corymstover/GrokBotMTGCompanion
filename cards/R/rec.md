@@ -736,6 +736,8 @@ schema: 2
   > *—Nissa Revane*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20450 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Nissa's Resolve](https://magic.wizards.com/en/news/magic-story/nissas-resolve-2015-10-07) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,071 decks; most often under [Svella, Ice Shaper](../../cards/S/sv.md#svella-ice-shaper) (8.0% of its decks), [Sergeant John Benton](../../cards/S/ser.md#sergeant-john-benton) (1.1% of its decks), [Nissa, Vastwood Seer](../../cards/N/ni.md#nissa-vastwood-seer--nissa-sage-animist) (5.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/185/reclaiming-vines) · oracle_id `3ec3d99d-2c49-469a-81d5-f1609b6e49ca` · printing: BFZ #185 (2015-10-02) · [rulings](https://api.scryfall.com/cards/18be4c1a-58d7-409e-b7e0-aadb5ccf814d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reclaim the Wastes

@@ -881,6 +881,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9436 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-10-04* — If you pay {X} while Wildborn Preserver's triggered ability is resolving, the reflexive triggered ability triggers and will resolve separately. This is different from effects that say “If you do . . .” in that players may take actions after you've paid mana but before the creature gets +1/+1 counters.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Eldraine](https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 13,735 decks; most often under [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (4.5% of its decks), [Ohabi Caleria](../../cards/O/oh.md#ohabi-caleria) (66.6% of its decks), [Maralen, Fae Ascendant](../../cards/M/mar.md#maralen-fae-ascendant) (4.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/650/wildborn-preserver) · oracle_id `55cec4bc-3de6-4c0d-a4cc-c5a30849fbda` · printing: FDN #650 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wildcall
@@ -1390,6 +1392,8 @@ schema: 2
 - **Rulings** (2):
   - *2017-09-29* — If Wildgrowth Walker leaves the battlefield while its triggered ability is on the stack, you won’t put a +1/+1 counter on anything but you will gain 3 life.
   - *2017-09-29* — If a creature leaves the battlefield before an effect instructs it to explore, it still explores. Effects that trigger when a creature you control explores, such as that of Wildgrowth Walker, trigger if appropriate.
+- **Lore:** ✅ Card art shown on [The Race, Part 1](https://magic.wizards.com/en/news/magic-story/race-part-1-2017-10-11) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Amalia Benavides Aguirre + Wildgrowth Walker](https://commanderspellbook.com/combo/6283-6284/) (Infinite lifegain triggers, Infinite lifegain) · EDHREC: in 7,287 decks; most often under [Hakbal of the Surging Soul](../../cards/H/ha.md#hakbal-of-the-surging-soul) (22.3% of its decks), [Nicanzil, Current Conductor](../../cards/N/ni.md#nicanzil-current-conductor) (59.4% of its decks), [Kellan, Daring Traveler](../../cards/K/ke.md#kellan-daring-traveler--journey-on) (15.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/216/wildgrowth-walker) · oracle_id `d80562c2-cf90-43a4-9721-28da40fdfeed` · printing: XLN #216 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wild Guess
@@ -2144,7 +2148,9 @@ schema: 2
   - *2018-06-08* — The triggered ability of the "partner with" keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player who might have that card in their library.
   - *2018-06-08* — To have two commanders, both must have the partner ability (featured in the Magic: The Gathering—Commander™ (2016 Edition) set) or corresponding "partner with" abilities as the game begins. A creature with a "partner with" ability can't partner with any creature other than its designated partner. Losing a partner ability during the game doesn't cause either to cease to be your commander.
   - *2018-06-08* — Will's first ability overwrites all previous effects that set a creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after that ability resolves will overwrite this effect.
-- **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/W.md#will-kenrith)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Will Kenrith](../../Characters%20Index.md#will-kenrith) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 78 combos; most popular [Ghostly Flicker + Will Kenrith + Archaeomancer](https://commanderspellbook.com/combo/1518-1987-2493/) (Infinite landfall triggers, Infinite creature ETB) · EDHREC as commander: 11 decks; highest synergy [Jace Reawakened](../../cards/J/ja.md#jace-reawakened) (+35%), [Jace, Unraveler of Secrets](../../cards/J/ja.md#jace-unraveler-of-secrets) (+35%), [Reins of Power](../../cards/R/rei.md#reins-of-power) (+34%) · EDHREC: in 8,197 decks; most often under [Commodore Guff](../../cards/C/com.md#commodore-guff) (24.7% of its decks), [Firkraag, Cunning Instigator](../../cards/F/fi.md#firkraag-cunning-instigator) (8.9% of its decks), [Pramikon, Sky Rampart](../../cards/P/pr.md#pramikon-sky-rampart) (3.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (2 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/W.md#will-kenrith)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/738/will-kenrith) · oracle_id `20dbfc9a-172e-4065-bfde-d40de3131787` · printing: CLB #738 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Will of the Abzan
@@ -2229,6 +2235,8 @@ schema: 2
   - *2021-03-19* — Because delve isn't an alternative cost, it can be used in conjunction with alternative costs, such as flashback. It can also be used to pay for additional costs that include generic mana.
   - *2021-03-19* — Delve doesn't change a spell's mana cost or mana value. For example, Treasure Cruise's mana value is 8 even if you exiled three cards to cast it.
   - *2021-03-19* — You can exile cards to pay only for generic mana, and you can't exile more cards than the generic mana requirement of a spell with delve. For example, you can't exile more than seven cards from your graveyard to cast Treasure Cruise unless an effect has increased its cost.
+- **Lore:** ✅ Card art shown on [The Doom of the Golden Fang](https://magic.wizards.com/en/news/magic-story/doom-golden-fang-2015-02-04) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 485 decks; most often under [Imoti, Celebrant of Bounty](../../cards/I/im.md#imoti-celebrant-of-bounty) (0.9% of its decks), [Hylda of the Icy Crown](../../cards/H/hy.md#hylda-of-the-icy-crown) (0.2% of its decks), [Yuriko, the Tiger's Shadow](../../cards/Y/yu.md#yuriko-the-tigers-shadow) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 rules) → [reverse index](../../references/W.md#will-of-the-naga)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frf/58/will-of-the-naga) · oracle_id `520b6637-0a9f-4dc4-846e-f1cd2b868263` · printing: FRF #58 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3083,6 +3091,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10017 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-04-18* — If the target nonland permanent is an illegal target by the time Winds of Rebuke resolves, the entire spell doesn’t resolve. No player loses cards from the top of their library.
+- **Lore:** ✅ Card art shown on [The Hand That Moves](https://magic.wizards.com/en/news/magic-story/hand-moves-2017-04-26) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 12,426 decks; most often under [Octavia, Living Thesis](../../cards/O/oc.md#octavia-living-thesis) (15.1% of its decks), [Bruvac the Grandiloquent](../../cards/B/br.md#bruvac-the-grandiloquent) (4.9% of its decks), [Vadrok, Apex of Thunder](../../cards/V/va.md#vadrok-apex-of-thunder) (20.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/W.md#winds-of-rebuke)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/76/winds-of-rebuke) · oracle_id `6840a63d-d627-4a18-afa9-018406767642` · printing: AKH #76 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4072,6 +4082,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16863 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-09-20* — If the target creature is an illegal target as Winter's Intervention tries to resolve, it won't resolve and none of its effects will happen. You won't gain life.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): DSK #123 — [Art & Flavor → Duskmourn: House of Horror (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#duskmourn-house-of-horror-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,908 decks; most often under [Dina, Soul Steeper](../../cards/D/di.md#dina-soul-steeper) (1.5% of its decks), [Judith, Carnage Connoisseur](../../cards/J/ju.md#judith-carnage-connoisseur) (1.1% of its decks), [Winter, Misanthropic Guide](../../cards/W/wi.md#winter-misanthropic-guide) (1.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/W.md#winters-intervention)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/123/winters-intervention) · oracle_id `91967284-6711-4ef3-bb9b-5ba873da8bb2` · printing: DSK #123 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4672,6 +4684,8 @@ schema: 2
   > You have hexproof. (You can't be the target of spells or abilities your opponents control, including Aura spells.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16556 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Odric, Master Tactician](https://magic.wizards.com/en/news/magic-story/odric-master-tactician-2012-06-26) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,150 decks; most often under [Muldrotha, the Gravetide](../../cards/M/mu.md#muldrotha-the-gravetide) (0.5% of its decks), [Lynde, Cheerful Tormentor](../../cards/L/ly.md#lynde-cheerful-tormentor) (1.6% of its decks), [Bello, Bard of the Brambles](../../cards/B/be.md#bello-bard-of-the-brambles) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/isd/236/witchbane-orb) · oracle_id `7411a8f4-b736-482f-886e-5fa671e94e0d` · printing: ISD #236 (2011-09-30) · [rulings](https://api.scryfall.com/cards/53e0bf16-62f5-4b62-96e8-bc7e049bcf89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Witch Enchanter // Witch-Blessed Meadow
@@ -5001,6 +5015,8 @@ schema: 2
 - **Rulings** (2):
   - *2023-09-01* — Witchstalker Frenzy's first ability can't reduce its cost to less than {R}.
   - *2023-09-01* — Witchstalker Frenzy's first ability doesn't change its mana cost or mana value, only the total cost you pay. Specifically, the mana value of Witchstalker Frenzy is always 4.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WOE #159 — [Art & Flavor → Wilds of Eldraine (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#wilds-of-eldraine-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,009 decks; most often under [Imodane, the Pyrohammer](../../cards/I/im.md#imodane-the-pyrohammer) (26.5% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (0.9% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/W.md#witchstalker-frenzy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/159/witchstalker-frenzy) · oracle_id `f46befcb-6a7f-4f5e-8634-393cbf4b3308` · printing: WOE #159 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -5330,6 +5346,8 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16181 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Hour of Eternity](https://magic.wizards.com/en/news/magic-story/hour-eternity-2017-07-12) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,444 decks; most often under [Shirei, Shizo's Caretaker](../../cards/S/shi.md#shirei-shizos-caretaker) (5.7% of its decks), [The Raven Man](../../cards/T/ther.md#the-raven-man) (16.1% of its decks), [Judith, Carnage Connoisseur](../../cards/J/ju.md#judith-carnage-connoisseur) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/W.md#without-weakness)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/81/without-weakness) · oracle_id `fffa9334-3576-4f70-9605-2ad062cdbc69` · printing: HOU #81 (2017-07-14) · [rulings](https://api.scryfall.com/cards/d6695fa8-881c-407c-91d9-3ac770372d35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -5428,6 +5446,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26586 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-01-22* — If that player has only one card in hand, that card will be exiled. If the player has no cards in hand, no cards will be exiled, but they will still lose 2 life.
+- **Lore:** ✅ Card art shown on [Zendikar's Last Stand](https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 581 decks; most often under [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (0.5% of its decks), [Azlask, the Swelling Scourge](../../cards/A/az.md#azlask-the-swelling-scourge) (0.5% of its decks), [Umbris, Fear Manifest](../../cards/U/um.md#umbris-fear-manifest) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/W.md#witness-the-end)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/82/witness-the-end) · oracle_id `340d2261-9454-4ab0-827c-49c7e76c7781` · printing: OGW #82 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

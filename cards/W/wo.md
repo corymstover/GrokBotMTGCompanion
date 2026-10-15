@@ -433,6 +433,8 @@ schema: 2
   - *2011-01-22* — For each of the activated abilities, the equipped creature is the source of the ability and the damage. For example, if the equipped creature is not an artifact, you could activate either ability targeting a creature with protection from artifacts.
   - *2011-01-22* — Only the equipped creature’s controller can activate the abilities it gains from Wolfhunter’s Quiver.
   - *2011-01-22* — You could activate the first ability targeting a Werewolf creature if you wanted to.
+- **Lore:** ✅ Card art shown on [Sacrifice](https://magic.wizards.com/en/news/magic-story/sacrifice-2016-03-23) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 24 combos; most popular [Thornbite Staff + Wolfhunter's Quiver + Basilisk Collar](https://commanderspellbook.com/combo/1006-2178-3500/) (Destroy all creatures opponents control, Destroy all creatures opponents control whenever a creature enters the battlefield) · EDHREC: in 1,643 decks; most often under [Ohabi Caleria](../../cards/O/oh.md#ohabi-caleria) (12.6% of its decks), [Chevill, Bane of Monsters](../../cards/C/che.md#chevill-bane-of-monsters) (12.7% of its decks), [Shelob, Child of Ungoliant](../../cards/S/she.md#shelob-child-of-ungoliant) (1.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dka/154/wolfhunters-quiver) · oracle_id `f1ebccc2-d12a-4440-8a73-86c1bc901feb` · printing: DKA #154 (2012-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wolf in _____ Clothing
@@ -881,6 +883,8 @@ schema: 2
   > *Home and hunting ground for Kaldheim's fearsome trolls.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #47 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Victory](https://magic.wizards.com/en/news/magic-story/victory-2014-11-26) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (18): [Animar, Soul of Elements](../../decks/animar-soul-of-elements.md) · [Korvold, Fae-Cursed King](../../decks/korvold-fae-cursed-king.md) · [Saskia the Unyielding](../../decks/saskia-the-unyielding.md) · [The Ur-Dragon](../../decks/the-ur-dragon.md) … · Commander Spellbook: 31 combos; most popular [Tifa Lockhart + Scale Up + Wooded Foothills](https://commanderspellbook.com/combo/7675-7676-8101/) (Target opponent loses the game) · EDHREC: in 1,102,650 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (39.7% of its decks), [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (42.6% of its decks), [Toph, the First Metalbender](../../cards/T/to.md#toph-the-first-metalbender) (38.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 23 pages (18 decks · 3 edh guides · 2 card data) → [reverse index](../../references/W.md#wooded-foothills)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/236/wooded-foothills) · oracle_id `6587a463-a108-4854-b6d1-944e89b8c8a4` · printing: MH3 #236 (2024-06-14) · [rulings](https://api.scryfall.com/cards/4e11ea8a-f895-438d-a3b7-f070238e4161/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1209,6 +1213,8 @@ schema: 2
   - *2015-08-25* — If you cast a spell with converge without spending any mana to cast it (perhaps because an effect allowed you to cast it without paying its mana cost), then the number of colors spent to cast it will be zero.
   - *2015-08-25* — The maximum number of colors of mana you can spend to cast a spell is five. Colorless is not a color. Note that the cost of a spell with converge may limit how many colors of mana you can spend.
   - *2015-08-25* — Unless a spell or ability allows you to, you can't choose to pay more mana for a spell with a converge ability just to spend more colors of mana. Likewise, if a spell or ability reduces the amount of mana it costs you to cast a spell with converge, you can't ignore that cost reduction in order to spend more colors of mana.
+- **Lore:** ✅ Card art shown on [The Liberation of Sea Gate](https://magic.wizards.com/en/news/magic-story/liberation-sea-gate-2015-10-28) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Omnath, Locus of Rage (Zendikar-only)](../../decks/plane-zendikar-omnath-locus-of-rage.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 780 decks; most often under [Jodah, Archmage Eternal](../../cards/J/jo.md#jodah-archmage-eternal) (0.7% of its decks), [Duskana, the Rage Mother](../../cards/D/du.md#duskana-the-rage-mother) (0.7% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/W.md#woodland-wanderer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/198/woodland-wanderer) · oracle_id `d5f3c711-edfa-4105-9844-e3f444942a03` · printing: BFZ #198 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1703,6 +1709,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3959 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-11-10* — If another artifact card is put into your graveyard at the same time as Workshop Assistant, you can target it with Workshop Assistant's triggered ability.
+- **Lore:** ✅ Card art shown on [Breakthrough](https://magic.wizards.com/en/news/magic-story/breakthrough-2016-12-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Imotekh the Stormlord + Myr Retriever + Workshop Assistant + Ashnod's Altar](https://commanderspellbook.com/combo/1020-1913-2034-3689/) (Infinite colorless mana, Infinite creature tokens) · EDHREC: in 41,887 decks; most often under [Ragost, Deft Gastronaut](../../cards/R/rag.md#ragost-deft-gastronaut) (24.2% of its decks), [Imotekh the Stormlord](../../cards/I/im.md#imotekh-the-stormlord) (51.7% of its decks), [Rendmaw, Creaking Nest](../../cards/R/ren.md#rendmaw-creaking-nest) (11.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/348/workshop-assistant) · oracle_id `319ee221-bace-41e9-b386-6b528bd780c1` · printing: CMR #348 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Workshop Elders
@@ -1999,6 +2007,8 @@ schema: 2
   > *"Hoarding supplies, profiting from death and destruction, colluding with the invaders—every one of them betrayed Ravnica in its time of greatest need. They all deserved to die. And I'm not done yet!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2684 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MKM #244, MKM #316 — [Art & Flavor → Murders at Karlov Manor (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#murders-at-karlov-manor-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 61,917 decks; most often under [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (68.4% of its decks), [Szarel, Genesis Shepherd](../../cards/S/sz.md#szarel-genesis-shepherd) (52.9% of its decks), [Tannuk, Memorial Ensign](../../cards/T/ta.md#tannuk-memorial-ensign) (43.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/W.md#worldsouls-rage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/130/worldsouls-rage) · oracle_id `3b6ef144-bb98-4686-9718-204f1c3cf020` · printing: EOC #130 (2025-08-01) · [rulings](https://api.scryfall.com/cards/1a54246e-1e22-4660-b2c8-fdfa2110b4fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2267,6 +2277,8 @@ schema: 2
   > *Even a fragment of a powerstone contains within it not just energy, but space—vast dimensions trapped in fragile crystal.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #571 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 3](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-3-2018-03-28), [Return to Dominaria: Episode 4](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-4-2018-04-04) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Kozilek, the Great Distortion](../../decks/kozilek-the-great-distortion.md) · [Urza, Lord High Artificer](../../decks/lore-brothers-war-urza-lord-high-artificer.md) · Commander Spellbook: 7 combos; most popular [Myr Welder + Staff of Domination + Worn Powerstone](https://commanderspellbook.com/combo/132-2645-3436/) (Infinite card draw, Infinite draw triggers) · EDHREC: in 239,932 decks; most often under [Zhulodok, Void Gorger](../../cards/Z/zh.md#zhulodok-void-gorger) (66.7% of its decks), [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (21.1% of its decks), [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (17.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (2 decks · 1 lore & story · 1 card data) → [reverse index](../../references/W.md#worn-powerstone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/298/worn-powerstone) · oracle_id `b166b670-febc-4821-855e-f8d465644c03` · printing: MH3 #298 (2024-06-14) · [rulings](https://api.scryfall.com/cards/ace686ad-9e3f-41b3-b8eb-d1b6d45eb4e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2379,6 +2391,8 @@ schema: 2
   - *2019-10-04* — If an effect refers to a “[subtype] spell,” it refers only to a spell that has that subtype. For example, Knights' Charge is a card with “Knight” in its name and benefits Knights, but it isn't a Knight card.
   - *2019-10-04* — Worthy Knight's ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
   - *2019-10-04* — Worthy Knight's triggered ability won't trigger when you cast it because it's not on the battlefield yet.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Eldraine](https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 15,944 decks; most often under [Sidar Jabari of Zhalfir](../../cards/S/si.md#sidar-jabari-of-zhalfir) (48.3% of its decks), [Dion, Bahamut's Dominant](../../cards/D/di.md#dion-bahamuts-dominant--bahamut-warden-of-light) (61.8% of its decks), [Syr Gwyn, Hero of Ashvale](../../cards/S/sy.md#syr-gwyn-hero-of-ashvale) (14.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/217/worthy-knight) · oracle_id `37733e29-3ade-4bfd-89c9-efd13b548a53` · printing: MOC #217 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wort, the Raidmother

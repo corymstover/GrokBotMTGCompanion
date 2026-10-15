@@ -272,6 +272,8 @@ schema: 2
   - *2021-11-19* — If an effect allows you to “cast a spell without paying its mana cost,” you can't cast that spell for its cleave cost.
   - *2021-11-19* — If you cast a spell for its cleave cost, that spell doesn't have any of the text in square brackets while it's on the stack.
   - *2021-11-19* — You can't cast a spell for both its cleave cost and another alternative cost. For example, if an effect gives an Alchemist's Retrieval in your graveyard a flashback cost of {U}, you can't cast it from your graveyard for its cleave cost.
+- **Lore:** ✅ Card art shown on [The Devouring House](https://magic.wizards.com/en/news/magic-story/devouring-house-2021-11-19) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,847 decks; most often under [Tinybones, Bauble Burglar](../../cards/T/ti.md#tinybones-bauble-burglar) (1.7% of its decks), [Tergrid, God of Fright](../../cards/T/te.md#tergrid-god-of-fright--tergrids-lantern) (0.8% of its decks), [K'rrik, Son of Yawgmoth](../../cards/K/kr.md#krrik-son-of-yawgmoth) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/107/dread-fugue) · oracle_id `efe4194a-b3c5-4308-abfe-553e035f5e64` · printing: VOW #107 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dreadful Apathy
@@ -363,6 +365,8 @@ schema: 2
   - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
   - *2023-06-16* — Some cards that cause you to amass Zombies also provide bonuses to "Zombie tokens." These affect any token that happens to be a Zombie, not just a Zombie Army you've amassed.
   - *2023-06-16* — To amass Zombies N, if you don't control an Army creature, create a 0/0 black Zombie Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Zombie, it becomes a Zombie in addition to its other types.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WAR #86 — [Art & Flavor → War of the Spark (2019)](../../Art%20%26%20Flavor%20Story%20Links.md#war-of-the-spark-2019) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 117,943 decks; most often under [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (35.7% of its decks), [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (26.1% of its decks), [Wilhelt, the Rotcleaver](../../cards/W/wi.md#wilhelt-the-rotcleaver) (46.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (1 rules · 1 lore & story · 2 card data) → [reverse index](../../references/D.md#dreadhorde-invasion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/48/dreadhorde-invasion) · oracle_id `01deabbb-af6a-4998-99a7-35b7cfa9ef77` · printing: FRC #48 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1227,6 +1231,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-14* — If the opponent has no artifact or creature cards in their hand, you must still choose an artifact or creature card from their graveyard to exile.
   - *2022-10-14* — You must choose an artifact or creature card from their hand if they reveal one. Similarly, you must choose an artifact or creature card from their graveyard if one exists there.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #92 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,187 decks; most often under [Ketramose, the New Dawn](../../cards/K/ke.md#ketramose-the-new-dawn) (1.0% of its decks), [Nebuchadnezzar](../../cards/N/ne.md#nebuchadnezzar) (16.9% of its decks), [Umbris, Fear Manifest](../../cards/U/um.md#umbris-fear-manifest) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#dreams-of-steel-and-oil)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/92/dreams-of-steel-and-oil) · oracle_id `8c308ebf-df5e-4f47-9b97-5c31944fe91c` · printing: BRO #92 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

@@ -378,6 +378,8 @@ schema: 2
   - *2022-10-14* — Although all the cards in The Brothers' War that create Powerstone tokens create a tapped Powerstone token, entering the battlefield tapped isn't part of the token's definition. Notably, if you create a token that is a copy of a Powerstone token, the token copy won't enter the battlefield tapped.
   - *2022-10-14* — Powerstone tokens are a kind of predefined token. Each one has the artifact subtype "Powerstone" and the ability "{T}: Add {C}. This mana can't be spent to cast a nonartifact spell."
   - *2022-10-14* — You can use the {C} added by a Powerstone token on anything that isn't a nonartifact spell. This includes paying costs to activate abilities of both artifact and nonartifact permanents, paying ward costs, and so on.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #152 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Sibling Rivalry + Dual Casting + Storm-Kiln Artist](https://commanderspellbook.com/combo/829-1528-5195/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC: in 2,846 decks; most often under [Ragost, Deft Gastronaut](../../cards/R/rag.md#ragost-deft-gastronaut) (1.7% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (0.2% of its decks), [Mishra, Claimed by Gix](../../cards/M/mis.md#mishra-claimed-by-gix) (2.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#sibling-rivalry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/152/sibling-rivalry) · oracle_id `7fa1430f-cd2e-4071-a161-e32a61e33714` · printing: BRO #152 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -437,6 +439,9 @@ schema: 2
   - *2021-03-19* — Because delve isn't an alternative cost, it can be used in conjunction with alternative costs, such as flashback. It can also be used to pay for additional costs that include generic mana.
   - *2021-03-19* — Delve doesn't change a spell's mana cost or mana value. For example, Treasure Cruise's mana value is 8 even if you exiled three cards to cast it.
   - *2021-03-19* — You can exile cards to pay only for generic mana, and you can't exile more cards than the generic mana requirement of a spell with delve. For example, you can't exile more than seven cards from your graveyard to cast Treasure Cruise unless an effect has increased its cost.
+- **Lore:** ✅ Card art shown on [Khanfall](https://magic.wizards.com/en/news/magic-story/khanfall-2015-02-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,136 decks; most often under [Volrath the Fallen](../../cards/V/vo.md#volrath-the-fallen) (16.8% of its decks), [Rakdos, the Muscle](../../cards/R/rak.md#rakdos-the-muscle) (2.2% of its decks), [The Meep](../../cards/T/them.md#the-meep) (6.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#sibsig-muckdraggers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frf/83/sibsig-muckdraggers) · oracle_id `423c1079-bdba-42fc-8732-59cb83ebafc3` · printing: FRF #83 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sibylline Soothsayer
@@ -860,7 +865,9 @@ schema: 2
 - **Rulings** (2):
   - *2014-09-20* — Any instruction, including Sidisi's first ability, that tells you to put multiple cards from a library into a graveyard moves all the cards at the same time. For example, if Sidisi enters the battlefield and you put three creature cards into your graveyard, Sidisi's last ability will trigger once and you'll put one Zombie token onto the battlefield.
   - *2014-09-20* — Sidisi's last ability triggers any time creature cards are put into your graveyard from anywhere in your library, not just from the top.
-- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/S.md#sidisi-brood-tyrant)
+- **Lore:** ✅ Card art shown on [Mercy](https://magic.wizards.com/en/news/magic-story/mercy) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Muldrotha, the Gravetide](../../decks/muldrotha-the-gravetide.md) · [Muldrotha, the Gravetide (self mill theme)](../../decks/theme-muldrotha-the-gravetide-self-mill.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7,813 decks; highest synergy [Dread Return](../../cards/D/dre.md#dread-return) (+53%), [Snarling Gorehound](../../cards/S/sn.md#snarling-gorehound) (+47%), [Wonder](../../cards/W/wo.md#wonder) (+47%) · EDHREC: in 39,011 decks; most often under [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (47.4% of its decks), [Muldrotha, the Gravetide](../../cards/M/mu.md#muldrotha-the-gravetide) (32.5% of its decks), [The Wise Mothman](../../cards/T/thew.md#the-wise-mothman) (6.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (2 decks · 2 edh guides) → [reverse index](../../references/S.md#sidisi-brood-tyrant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/355/sidisi-brood-tyrant) · oracle_id `3fad7072-21e3-446e-a28f-615038c8bfea` · printing: CMM #355 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sidisi, Regent of the Mire
@@ -938,6 +945,8 @@ schema: 2
   - *2015-02-25* — You can sacrifice the creature with exploit if it's still on the battlefield. This will cause its other ability to trigger.
   - *2015-02-25* — You can't sacrifice more than one creature to any one exploit ability.
   - *2015-02-25* — You choose whether to sacrifice a creature and which creature to sacrifice as the exploit ability resolves.
+- **Lore:** ✅ Card art shown on [The Poisoned Heart](https://magic.wizards.com/en/news/magic-story/poisoned-heart-2015-04-08) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 20 combos; most popular [Necroduality + Rot Hulk + Sidisi, Undead Vizier](https://commanderspellbook.com/combo/1303-1769-1982/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 727 decks; highest synergy [Ad Nauseam](../../cards/A/ad.md#ad-nauseam) (+30%), [Sickening Dreams](../../cards/S/si.md#sickening-dreams) (+26%), [Dark Sphere](../../cards/D/da.md#dark-sphere) (+23%) · EDHREC: in 57,817 decks; most often under [Wilhelt, the Rotcleaver](../../cards/W/wi.md#wilhelt-the-rotcleaver) (28.2% of its decks), [Meren of Clan Nel Toth](../../cards/M/me.md#meren-of-clan-nel-toth) (20.2% of its decks), [K'rrik, Son of Yawgmoth](../../cards/K/kr.md#krrik-son-of-yawgmoth) (18.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#sidisi-undead-vizier)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/120/sidisi-undead-vizier) · oracle_id `3406db41-6b95-48fc-b58e-4476220fd34d` · printing: DTK #120 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -987,6 +996,8 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25746 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Bond and Blood](https://magic.wizards.com/en/news/magic-story/bond-and-blood-2014-12-03) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 697 decks; most often under [Light-Paws, Emperor's Voice](../../cards/L/li.md#light-paws-emperors-voice) (0.6% of its decks), [Eriette, the Beguiler](../../cards/E/er.md#eriette-the-beguiler) (1.2% of its decks), [Pearl-Ear, Imperial Advisor](../../cards/P/pe.md#pearl-ear-imperial-advisor) (1.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/23/siegecraft) · oracle_id `a49a9418-72d1-4ab1-89d9-a1f65ae23d35` · printing: KTK #23 (2014-09-26) · [rulings](https://api.scryfall.com/cards/fbd17ef9-9f1b-4937-a60a-d7175f04eef2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Siege Dragon
@@ -1067,6 +1078,8 @@ schema: 2
 - **Rulings** (2):
   - *2018-01-19* — If lethal damage is dealt to a creature with an enrage ability, that ability triggers. The creature with that enrage ability leaves the battlefield before that ability resolves, so it won’t be affected by the resolving ability.
   - *2018-01-19* — If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
+- **Lore:** ✅ Card art shown on [Unbowed, Part 3](https://magic.wizards.com/en/news/magic-story/unbowed-part-3-2018-09-07) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 7 combos; most popular [Wayta, Trainer Prodigy + Siegehorn Ceratops + Cacophodon](https://commanderspellbook.com/combo/2343-4831-5358/) (Infinite +1/+1 counters on a creature) · EDHREC: in 7,711 decks; most often under [Wayta, Trainer Prodigy](../../cards/W/way.md#wayta-trainer-prodigy) (63.5% of its decks), [Gishath, Sun's Avatar](../../cards/G/gi.md#gishath-suns-avatar) (5.7% of its decks), [Pantlaza, Sun-Favored](../../cards/P/pa.md#pantlaza-sun-favored) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/171/siegehorn-ceratops) · oracle_id `f7730e2e-aa62-40e7-836d-e6ddb6893816` · printing: RIX #171 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Siege Mastodon
@@ -1217,6 +1230,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17737 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-09-24* — Since Siege Zombie's activated ability doesn't have a tap symbol in its cost, you can tap creatures that haven't been under your control since your most recent turn began (including Siege Zombie itself) to pay the cost.
+- **Lore:** ✅ Card art shown on [The Dance of Undeath](https://magic.wizards.com/en/news/magic-story/dance-undeath-2021-09-24) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,366 decks; most often under [Wilhelt, the Rotcleaver](../../cards/W/wi.md#wilhelt-the-rotcleaver) (1.9% of its decks), [The Scarab God](../../cards/T/thes.md#the-scarab-god) (1.7% of its decks), [Gisa and Geralf](../../cards/G/gi.md#gisa-and-geralf) (2.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/131/siege-zombie) · oracle_id `a7756bc2-26ce-4044-a322-a898af8a393d` · printing: INR #131 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Siegfried, Famed Swordsman
@@ -1353,6 +1368,8 @@ schema: 2
   - *2021-09-24* — A creature has different power from another if their powers are different numbers. For example, a 1/1 creature and a 2/1 creature have different powers.
   - *2021-09-24* — For three creatures to have different powers from one another, each of their powers needs to be different. A 1/1 creature, a 2/1 creature, and another 2/1 creature aren't three creatures with different powers, even though both 2/1 creatures have different power than the 1/1 creature.
   - *2021-09-24* — Many coven abilities, such as that of Dawnhart Wardens above, are triggered abilities with intervening if clauses. You must control three or more creatures with different powers at the time the ability triggers and at the time the ability tries to resolve. They do not, however, need to be the same set of creatures in both cases.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MID #240 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 622 decks; highest synergy [Kyler, Sigardian Emissary](../../cards/K/ky.md#kyler-sigardian-emissary) (+65%), [Katilda, Dawnhart Prime](../../cards/K/ka.md#katilda-dawnhart-prime) (+63%), [Torens, Fist of the Angels](../../cards/T/to.md#torens-fist-of-the-angels) (+61%) · EDHREC: in 8,163 decks; most often under [Sigarda, Font of Blessings](../../cards/S/si.md#sigarda-font-of-blessings) (26.4% of its decks), [Kyler, Sigardian Emissary](../../cards/K/ky.md#kyler-sigardian-emissary) (22.4% of its decks), [Katilda, Dawnhart Prime](../../cards/K/ka.md#katilda-dawnhart-prime) (30.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sigarda-champion-of-light)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/240/sigarda-champion-of-light) · oracle_id `24919141-82d2-42ad-963c-e53511a868b3` · printing: MID #240 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1386,6 +1403,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9627 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Saint Traft and the Flight of Nightmares](https://magic.wizards.com/en/news/magic-story/saint-traft-and-flight-nightmares-2016-07-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 356 decks; highest synergy [Kyler, Sigardian Emissary](../../cards/K/ky.md#kyler-sigardian-emissary) (+56%), [Thalia's Lieutenant](../../cards/T/tha.md#thalias-lieutenant) (+50%), [Heron's Grace Champion](../../cards/H/he.md#herons-grace-champion) (+43%) · EDHREC: in 12,948 decks; most often under [Kyler, Sigardian Emissary](../../cards/K/ky.md#kyler-sigardian-emissary) (61.4% of its decks), [Sigarda, Font of Blessings](../../cards/S/si.md#sigarda-font-of-blessings) (23.9% of its decks), [Leinore, Autumn Sovereign](../../cards/L/le.md#leinore-autumn-sovereign) (54.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#sigarda-herons-grace)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/155/sigarda-herons-grace) · oracle_id `79b56cf8-d573-40cf-b797-6b4eef2bed23` · printing: MIC #155 (2021-09-24) · [rulings](https://api.scryfall.com/cards/a1de7031-f589-4af5-9c63-06fb7ec7a6b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1436,6 +1455,8 @@ schema: 2
   - *2025-01-24* — If an effect refers to a Blood token, it means any artifact token with the subtype Blood, even if it has gained other subtypes.
   - *2025-01-24* — Some triggered abilities trigger "whenever you sacrifice a Blood token." These abilities trigger regardless of why you sacrificed that Blood token.
   - *2025-01-24* — You can't sacrifice a Blood token to pay multiple costs.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): VOW #35 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,071 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (0.4% of its decks), [Eriette of the Charmed Apple](../../cards/E/er.md#eriette-of-the-charmed-apple) (0.6% of its decks), [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/35/sigardas-imprisonment) · oracle_id `574230c7-b949-4c90-b107-c26458a6e469` · printing: VOW #35 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sigarda's Splendor
@@ -1462,6 +1483,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7007 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-11-19* — Removing all +1/+1 counters from a creature affected by this ability or removing Sigarda's Summons from the battlefield will cause that creature to revert back to what it was. Notably, this may cause a creature to lose flying after it has been declared as an attacker but before blockers are declared. This may also result in a creature with damage already marked on it being destroyed if that damage is greater than the creature's toughness.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): VOW #36 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 18 combos; most popular [Sigarda's Summons + Bishop of Wings + Cathars' Crusade + Ashnod's Altar](https://commanderspellbook.com/combo/2034-2744-3026-4302/) (Infinite colorless mana, Infinite death triggers) · EDHREC: in 21,421 decks; most often under [Sigarda, Font of Blessings](../../cards/S/si.md#sigarda-font-of-blessings) (11.2% of its decks), [Katilda, Dawnhart Prime](../../cards/K/ka.md#katilda-dawnhart-prime) (23.7% of its decks), [Zabaz, the Glimmerwasp](../../cards/Z/za.md#zabaz-the-glimmerwasp) (18.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/36/sigardas-summons) · oracle_id `7fd06710-0721-4e3e-90ed-d0ccecb1919a` · printing: VOW #36 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sigarda's Vanguard
@@ -1775,6 +1798,8 @@ schema: 2
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8106 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Thank the Gods](https://magic.wizards.com/en/news/magic-story/thank-gods-2014-04-30) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 5 combos; most popular [Matoya, Archon Elder + Mind Over Matter + Sigiled Starfish](https://commanderspellbook.com/combo/2708-4067-6625/) (Infinite self-discard triggers, Infinite draw triggers) · EDHREC: in 17,339 decks; most often under [Kenessos, Priest of Thassa](../../cards/K/ke.md#kenessos-priest-of-thassa) (40.0% of its decks), [Galadriel of Lothlórien](../../cards/G/ga.md#galadriel-of-lothlórien) (37.1% of its decks), [Elminster](../../cards/E/el.md#elminster) (27.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/177/sigiled-starfish) · oracle_id `94a4f70a-8aac-412a-99f0-933e3ff87fe0` · printing: JMP #177 (2020-07-17) · [rulings](https://api.scryfall.com/cards/7a1a93c3-8561-4c65-bea8-a9c3a898a48c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sigiled Sword of Valeron
@@ -2714,6 +2739,8 @@ schema: 2
   - *2015-02-25* — If all targets for the chosen modes become illegal before the Command resolves, the spell won’t resolve and none of its effects will happen. If at least one target is still legal, the spell will resolve but will have no effect on any illegal targets.
   - *2015-02-25* — You can choose a mode only if you can choose legal targets for that mode. Ignore the targeting requirements for modes that aren’t chosen. For example, you can cast Ojutai’s Command without targeting a creature spell provided you don’t choose the third mode.
   - *2015-02-25* — You choose the two modes as you cast the spell. You must choose two different modes. Once modes are chosen, they can’t be changed.
+- **Lore:** ✅ Card art shown on [The Poisoned Heart](https://magic.wizards.com/en/news/magic-story/poisoned-heart-2015-04-08) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,275 decks; most often under [Anowon, the Ruin Thief](../../cards/A/an.md#anowon-the-ruin-thief) (16.7% of its decks), [Inalla, Archmage Ritualist](../../cards/I/ina.md#inalla-archmage-ritualist) (2.5% of its decks), [Sivitri, Dragon Master](../../cards/S/si.md#sivitri-dragon-master) (13.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znc/99/silumgars-command) · oracle_id `7052fbd6-94df-41a9-a382-641701086804` · printing: ZNC #99 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Silumgar Sorcerer
@@ -2781,6 +2808,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5505 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2014-11-24* — The creatures affected by Silumgar’s triggered ability are determined relative to the Dragon that attacked. For example, if Silumgar attacked one opponent and two other Dragons attacked another opponent, creatures controlled by the first opponent would get -1/-1 until end of turn and creatures controlled by the second opponent would get -2/-2 until end of turn.
+- **Lore:** ✅ Card art shown on [The Doom of the Golden Fang](https://magic.wizards.com/en/news/magic-story/doom-golden-fang-2015-02-04), [Khanfall](https://magic.wizards.com/en/news/magic-story/khanfall-2015-02-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [The Ur-Dragon](../../decks/the-ur-dragon.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 639 decks; highest synergy [Crux of Fate](../../cards/C/cr.md#crux-of-fate) (+72%), [Dragon's Hoard](../../cards/D/dra.md#dragons-hoard) (+67%), [Iymrith, Desert Doom](../../cards/I/iy.md#iymrith-desert-doom) (+67%) · EDHREC: in 28,350 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (32.1% of its decks), [Scion of the Ur-Dragon](../../cards/S/sc.md#scion-of-the-ur-dragon) (40.3% of its decks), [Tiamat](../../cards/T/ti.md#tiamat) (13.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#silumgar-the-drifting-death)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/194/silumgar-the-drifting-death) · oracle_id `b26c91d9-87de-45f7-a24c-bbe0cef3a35c` · printing: C17 #194 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3077,6 +3106,8 @@ schema: 2
   - *2019-10-04* — If an effect allows you to cast a spell without paying its mana cost, you can't choose to cast it and pay unless another rule or effect allows you to cast that spell for a cost. Similarly, you can't waive a cost reduction unless that effect says you may.
   - *2019-10-04* — If an instant or sorcery spell has an adamant ability, you perform the spell's instructions in order. You don't perform the adamant instruction before the spell resolves or before any other effects printed above it.
   - *2019-10-04* — If you copy a spell that has an adamant ability, no mana was spent to cast the copy at all, so that ability won't apply.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Eldraine](https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,219 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (0.3% of its decks), [Hamza, Guardian of Arashin](../../cards/H/ha.md#hamza-guardian-of-arashin) (1.2% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/30/silverflame-ritual) · oracle_id `d511573b-35c7-4934-aa46-906e14101664` · printing: ELD #30 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Silverflame Squire // On Alert
@@ -3241,6 +3272,8 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22357 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Under the Silver Moon](https://magic.wizards.com/en/news/magic-story/under-silver-moon-2016-03-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,429 decks; most often under [Sram, Senior Edificer](../../cards/S/sr.md#sram-senior-edificer) (2.1% of its decks), [Valduk, Keeper of the Flame](../../cards/V/va.md#valduk-keeper-of-the-flame) (1.5% of its decks), [Lightning, Army of One](../../cards/L/li.md#lightning-army-of-one) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/isd/233/silver-inlaid-dagger) · oracle_id `93e9b0d6-97a8-4357-bcd4-f82d81bad232` · printing: ISD #233 (2011-09-30) · [rulings](https://api.scryfall.com/cards/f8b8162a-68f0-45df-bb25-8fd4487257a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Silver Knight
@@ -3303,6 +3336,8 @@ schema: 2
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6217 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** Featured in: [Plane → Arcavios — the Strixhaven colleges](../../Planes%20Index.md#arcavios--the-strixhaven-colleges) ([source](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-secrets-of-strixhaven) via entry) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 24,962 decks; most often under [Killian, Decisive Mentor](../../cards/K/ki.md#killian-decisive-mentor) (38.5% of its decks), [Brimaz, Blight of Oreskos](../../cards/B/br.md#brimaz-blight-of-oreskos) (20.3% of its decks), [Breena, the Demagogue](../../cards/B/br.md#breena-the-demagogue) (15.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#silverquill-campus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/405/silverquill-campus) · oracle_id `2b65eb80-6fb7-429f-81f2-2fe125eba634` · printing: SOC #405 (2026-04-24) · [rulings](https://api.scryfall.com/cards/354efff0-aea5-4274-94d6-9fce02430255/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3451,7 +3486,9 @@ schema: 2
   > *Karn's creation allowed him to monitor events across Dominaria—and everything he saw worried him.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9550 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#silver-scrutiny)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): DMU #65 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 13,457 decks; most often under [Zaxara, the Exemplary](../../cards/Z/za.md#zaxara-the-exemplary) (5.7% of its decks), [Magus Lucea Kane](../../cards/M/mag.md#magus-lucea-kane) (6.5% of its decks), [Will, Scion of Peace](../../cards/W/wi.md#will-scion-of-peace) (19.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/S.md#silver-scrutiny)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/65/silver-scrutiny) · oracle_id `2b0b4fc1-9ad6-4259-a0a2-9a14484c246e` · printing: DMU #65 (2022-09-09) · [rulings](https://api.scryfall.com/cards/8b650ab6-9c22-424f-99e5-8ef5235a18a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Silver Seraph
@@ -3826,6 +3863,8 @@ schema: 2
 - **Rulings** (2):
   - *2013-04-15* — Gate is not a basic land type.
   - *2013-04-15* — The subtype Gate has no special rules significance, but other spells and abilities may refer to it.
+- **Lore:** ✅ Card art shown on [The Principles of Unnatural Selection](https://magic.wizards.com/en/news/magic-story/principles-unnatural-selection-2019-02-06) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 103,673 decks; most often under [Omo, Queen of Vesuva](../../cards/O/om.md#omo-queen-of-vesuva) (57.8% of its decks), [Nine-Fingers Keene](../../cards/N/ni.md#nine-fingers-keene) (98.8% of its decks), [The Wandering Minstrel](../../cards/T/thew.md#the-wandering-minstrel) (21.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#simic-guildgate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/695/simic-guildgate) · oracle_id `e8705df9-6439-4930-91b6-229f818559af` · printing: FDN #695 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3870,6 +3909,8 @@ schema: 2
 - **Rulings** (2):
   - *2013-04-15* — Activating the ability that turns the Keyrune into a creature while it's already a creature will override any effects that set its power and/or toughness to another number, but effects that modify power and/or toughness without directly setting them will still apply.
   - *2013-04-15* — Until the ability that turns the Keyrune into a creature resolves, the Keyrune is colorless.
+- **Lore:** ✅ Card art shown on [The Principles of Unnatural Selection](https://magic.wizards.com/en/news/magic-story/principles-unnatural-selection-2019-02-06) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,546 decks; most often under [Ezuri, Claw of Progress](../../cards/E/ez.md#ezuri-claw-of-progress) (2.4% of its decks), [Kinnan, Bonder Prodigy](../../cards/K/ki.md#kinnan-bonder-prodigy) (0.4% of its decks), [Arixmethes, Slumbering Isle](../../cards/A/ari.md#arixmethes-slumbering-isle) (1.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c15/265/simic-keyrune) · oracle_id `9e737a22-a352-411d-8412-96770c7f6cce` · printing: C15 #265 (2015-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Simic Locket
@@ -4644,6 +4685,8 @@ schema: 2
   - *2018-01-19* — In some unusual cases, noncreature permanents may explore. For example, if the creature card returned by Defossilize is somehow not a creature once it's on the battlefield, it can still explore. You'll take all the same actions, and you may end up putting a +1/+1 counter on the permanent. (Note that some effects target a creature, and those effects would still require a legal target to have it explore.)
   - *2018-01-19* — Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
   - *2018-01-19* — Some spells or abilities might cause a creature to explore multiple times in a row. If you reveal a nonland card when a creature explores and leave it on top of your library, then the creature explores again immediately afterwards, you'll reveal the same card again.
+- **Lore:** ✅ Card art shown on [The Talented Captain Vraska](https://magic.wizards.com/en/news/magic-story/talented-captain-vraska-2017-09-20) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,826 decks; most often under [Nicanzil, Current Conductor](../../cards/N/ni.md#nicanzil-current-conductor) (30.7% of its decks), [Admiral Beckett Brass](../../cards/A/ad.md#admiral-beckett-brass) (4.4% of its decks), [Breeches, Brazen Plunderer // Malcolm, Keen-Eyed Navigator](../../cards/B/br.md#breeches-brazen-plunderer) (4.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/78/siren-lookout) · oracle_id `9f0d82ae-38bf-45d8-8cda-982b6ead1d72` · printing: XLN #78 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Siren of the Fanged Coast
@@ -4698,6 +4741,8 @@ schema: 2
 - **Rulings** (2):
   - *2024-11-08* — Raid abilities care only that you attacked with a creature. It doesn't matter how many creatures you attacked with or which player, planeswalker, or battle those creatures attacked.
   - *2024-11-08* — Raid abilities evaluate the entire turn to see if you attacked with a creature. That creature doesn't have to still be on the battlefield. Similarly, the player, planeswalker, or battle it attacked doesn't have to still be in the game or on the battlefield.
+- **Lore:** ✅ Card art shown on [The Arbiter of Law Left Chaos in His Wake](https://magic.wizards.com/en/news/magic-story/arbiter-law-left-chaos-his-wake-2018-01-24) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 389 decks; most often under [Admiral Beckett Brass](../../cards/A/ad.md#admiral-beckett-brass) (1.5% of its decks), [Breeches, Brazen Plunderer // Malcolm, Keen-Eyed Navigator](../../cards/B/br.md#breeches-brazen-plunderer) (1.2% of its decks), [The Indomitable](../../cards/T/thei.md#the-indomitable) (3.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/54/siren-reaver) · oracle_id `bc1c9ca8-2f00-4761-bd85-1329287ae7ac` · printing: RIX #54 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Siren's Call
@@ -4814,6 +4859,8 @@ schema: 2
   - *2015-08-25* — If that player has one card in their library when Sire of Stagnation’s triggered ability resolves, that card will be exiled. If their library has zero cards, no cards are exiled. In both cases, you’ll still draw two cards. That player won’t lose the game (until they attempt to draw a card from an empty library).
   - *2015-08-25* — Other cards and abilities can give a card with devoid color. If that happens, it’s just the new color, not that color and colorless.
   - *2015-08-25* — The cards are exiled from the library face up.
+- **Lore:** ✅ Card art shown on [At Any Cost](https://magic.wizards.com/en/news/magic-story/any-cost-2015-11-25) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 59,952 decks; most often under [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (74.2% of its decks), [Azlask, the Swelling Scourge](../../cards/A/az.md#azlask-the-swelling-scourge) (38.3% of its decks), [Hashaton, Scarab's Fist](../../cards/H/ha.md#hashaton-scarabs-fist) (18.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/206/sire-of-stagnation) · oracle_id `ed6607f4-20ab-4d3f-a8af-bcc148423336` · printing: BFZ #206 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sire of the Storm

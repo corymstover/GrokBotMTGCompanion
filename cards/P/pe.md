@@ -847,6 +847,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9035 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Unbowed, Part 1](https://magic.wizards.com/en/news/magic-story/unbowed-part-1-2018-08-29) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 16 combos; most popular [Chatterfang, Squirrel General + Nim Deathmantle + Ashnod's Altar + Pelakka Wurm + Trudge Garden](https://commanderspellbook.com/combo/2034-2308-2606-3000-5003/) (Infinite card draw, Infinite draw triggers) · EDHREC: in 14,687 decks; most often under [Baru, Wurmspeaker](../../cards/B/bar.md#baru-wurmspeaker) (79.6% of its decks), [Atla Palani, Nest Tender](../../cards/A/at.md#atla-palani-nest-tender) (2.2% of its decks), [Kona, Rescue Beastie](../../cards/K/ko.md#kona-rescue-beastie) (3.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/765/pelakka-wurm) · oracle_id `d36075c2-de66-4202-9217-b1102a2bc14b` · printing: FDN #765 (2026-04-24) · [rulings](https://api.scryfall.com/cards/304c635c-de4d-46ee-8ab0-e5c4d55b61b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pelargir Survivor
@@ -1371,6 +1373,9 @@ schema: 2
   - *2013-09-15* — You choose how to order cards returned to your library after scrying no matter where you put them.
   - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you’ll scry last. For others, that means you’ll scry and then perform other actions.
   - *2014-02-01* — You can choose to search for only one basic land card with Peregrination. If you do, you’ll put that card onto the battlefield tapped.
+- **Lore:** ✅ Card art shown on [The Walls of Akros](https://magic.wizards.com/en/news/magic-story/walls-akros-2014-02-26) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,336 decks; most often under [Ruby, Daring Tracker](../../cards/R/ru.md#ruby-daring-tracker) (3.4% of its decks), [Radha, Heir to Keld](../../cards/R/rad.md#radha-heir-to-keld) (4.8% of its decks), [Borborygmos Enraged](../../cards/B/bo.md#borborygmos-enraged) (2.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Land ramp (puts lands onto the battlefield)](../../EDH%20Packages.md#ramp-land-ramp-puts-lands-onto-the-battlefield) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/P.md#peregrination)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/132/peregrination) · oracle_id `2aff9be5-f6d4-4cdd-ab59-20202bc2f144` · printing: BNG #132 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Peregrine Drake
@@ -1488,6 +1493,8 @@ schema: 2
   > *In the Meditation Realm, Jace had seen himself reflected in a Multiverse complete in every detail. Now he only had to make it real.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22700 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): FRA #34 — [Art & Flavor → Reality Fracture (2026)](../../Art%20%26%20Flavor%20Story%20Links.md#reality-fracture-2026) — ✅ Card art shown on [Reality Fracture](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-1-tam-alive) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,431 decks; most often under [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (5.1% of its decks), [Jace, Vryn's Prodigy](../../cards/J/ja.md#jace-vryns-prodigy--jace-telepath-unbound) (14.2% of its decks), [Riku of Many Paths](../../cards/R/ri.md#riku-of-many-paths) (4.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#perfected-theory)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/34/perfected-theory) · oracle_id `d824a319-fa74-42e4-9cbe-dba1576d6bad` · printing: FRA #34 (2026-10-02) · [rulings](https://api.scryfall.com/cards/d0ecae06-bc5a-4886-84df-c2900816f226/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1503,6 +1510,8 @@ schema: 2
   > *Morcant's voice was as sweet as honey and as dangerous as moonglove.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18219 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): ECL #115 — [Art & Flavor → Lorwyn Eclipsed (2025–26)](../../Art%20%26%20Flavor%20Story%20Links.md#lorwyn-eclipsed-202526) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,101 decks; most often under [High Perfect Morcant](../../cards/H/hi.md#high-perfect-morcant) (3.8% of its decks), [Maralen, Fae Ascendant](../../cards/M/mar.md#maralen-fae-ascendant) (2.0% of its decks), [Auntie Ool, Cursewretch](../../cards/A/au.md#auntie-ool-cursewretch) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#perfect-intimidation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/115/perfect-intimidation) · oracle_id `da099c34-74b2-4db8-8583-09bf2c56606f` · printing: ECL #115 (2026-01-23) · [rulings](https://api.scryfall.com/cards/ff05b7f4-e0d0-4304-99b3-66ac804129fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1671,6 +1680,8 @@ schema: 2
   - *2025-02-07* — Start your engines! isn’t a triggered ability. Increasing your speed to 1 is something that happens as a state-based action as soon as you control a permanent with the ability. Notably, this includes gaining control of a permanent with the ability that another player controls.
   - *2025-02-07* — Your speed doesn’t change until a spell or ability says so, such as the inherent triggered ability that cares about opponents losing life during your turn. Notably, losing control of permanents with start your engines! doesn’t affect your speed.
   - *2025-02-07* — “Max speed — [ability]” means “As long as you have max speed, this object has [ability].” If the granted ability functions in a zone other than the battlefield, the max speed ability does too.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): DFT #23 — [Art & Flavor → Aetherdrift (2025)](../../Art%20%26%20Flavor%20Story%20Links.md#aetherdrift-2025) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 13,613 decks; most often under [Mendicant Core, Guidelight](../../cards/M/me.md#mendicant-core-guidelight) (21.7% of its decks), [Samut, the Driving Force](../../cards/S/sam.md#samut-the-driving-force) (53.4% of its decks), [Kolodin, Triumph Caster](../../cards/K/ko.md#kolodin-triumph-caster) (8.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#perilous-snare)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/23/perilous-snare) · oracle_id `cff7499a-44b0-4a2a-b96c-ed2cafb1a90d` · printing: DFT #23 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1684,6 +1695,8 @@ schema: 2
   > *The spirit dragon Ugin arranged the hedrons of Zendikar to direct leylines of energy. To disrupt one is to unleash devastation and chaos.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10206 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Stirring from Slumber](https://magic.wizards.com/en/news/magic-story/stirring-slumber-2015-05-13), [The Lithomancer](https://magic.wizards.com/en/news/magic-story/the-lithomancer) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 12,105 decks; most often under [Zhulodok, Void Gorger](../../cards/Z/zh.md#zhulodok-void-gorger) (16.5% of its decks), [Toph, the First Metalbender](../../cards/T/to.md#toph-the-first-metalbender) (2.9% of its decks), [Kozilek, the Great Distortion](../../cards/K/ko.md#kozilek-the-great-distortion) (12.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/968/perilous-vault) · oracle_id `7acd7ef5-0e26-436d-962a-1a391f81c2e8` · printing: CMM #968 (2023-08-04) · [rulings](https://api.scryfall.com/cards/3f747fa8-515c-4c79-8d2e-f1bbab2e4602/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Perilous Voyage
@@ -1701,6 +1714,8 @@ schema: 2
   - *2017-09-29* — If the target permanent is an illegal target by the time Perilous Voyage resolves, the entire spell doesn't resolve. You won't scry.
   - *2017-09-29* — Use the permanent's mana value as it existed on the battlefield to determine whether you scry.
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called "story spotlights"—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): XLN #67 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,046 decks; most often under [Stella Lee, Wild Card](../../cards/S/ste.md#stella-lee-wild-card) (1.6% of its decks), [Jace, Vryn's Prodigy](../../cards/J/ja.md#jace-vryns-prodigy--jace-telepath-unbound) (7.7% of its decks), [Matoya, Archon Elder](../../cards/M/mat.md#matoya-archon-elder) (7.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/67/perilous-voyage) · oracle_id `0ab090db-f8fc-42ff-95db-e9370796db97` · printing: XLN #67 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Perils of the Past

@@ -592,6 +592,8 @@ schema: 2
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16531 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Race, Part 1](https://magic.wizards.com/en/news/magic-story/race-part-1-2017-10-11) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Hive Mind + Paradigm Shift + Sentinel Totem](https://commanderspellbook.com/combo/1371-3367-4127/) (Exile each opponent's library) · EDHREC: in 4,160 decks; most often under [Mm'menon, the Right Hand](../../cards/M/mm.md#mmmenon-the-right-hand) (7.6% of its decks), [Urza, Lord High Artificer](../../cards/U/ur.md#urza-lord-high-artificer) (1.2% of its decks), [Umbris, Fear Manifest](../../cards/U/um.md#umbris-fear-manifest) (1.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/245/sentinel-totem) · oracle_id `5432bd43-e92c-464b-9ad2-3515f3042799` · printing: XLN #245 (2017-09-29) · [rulings](https://api.scryfall.com/cards/0d8097eb-518a-4b8e-8d6a-a139d4ddcc8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sentinel Tower

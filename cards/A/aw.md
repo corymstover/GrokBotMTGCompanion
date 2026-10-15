@@ -118,6 +118,8 @@ schema: 2
   - *2019-05-03* — Awakening of Vitu-Ghazi doesn’t untap the land that becomes a creature.
   - *2019-05-03* — Awakening of Vitu-Ghazi’s effect lasts indefinitely. It doesn’t wear off during the cleanup step.
   - *2019-05-03* — The target land loses the name it had, and its name is just Vitu-Ghazi. It keeps any types and abilities it had.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WAR #152 — [Art & Flavor → War of the Spark (2019)](../../Art%20%26%20Flavor%20Story%20Links.md#war-of-the-spark-2019) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 9,166 decks; most often under [Jolrael, Voice of Zhalfir](../../cards/J/jo.md#jolrael-voice-of-zhalfir) (50.8% of its decks), [Bumi, Unleashed](../../cards/B/bu.md#bumi-unleashed) (18.5% of its decks), [Jyoti, Moag Ancient](../../cards/J/jy.md#jyoti-moag-ancient) (30.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#awakening-of-vitu-ghazi)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/152/awakening-of-vitu-ghazi) · oracle_id `5c326102-005d-463c-b9f7-14b034b66baa` · printing: WAR #152 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -244,7 +246,9 @@ schema: 2
   > *—Myrel, Shield of Argive*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1334 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 3 pages (1 lore & story · 2 card data) → [reverse index](../../references/A.md#awaken-the-woods)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #170 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 61 combos; most popular [Awaken the Woods + Uyo, Silent Prophet + Concordant Crossroads](https://commanderspellbook.com/combo/1322-2137-4642/) (Infinite copies of instant or sorcery spells you cast, Infinite creature tokens with haste) · EDHREC: in 120,596 decks; most often under [Witherbloom, the Balancer](../../cards/W/wi.md#witherbloom-the-balancer) (66.3% of its decks), [Zaxara, the Exemplary](../../cards/Z/za.md#zaxara-the-exemplary) (20.6% of its decks), [Baylen, the Haymaker](../../cards/B/bay.md#baylen-the-haymaker) (12.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (1 edh guides · 1 lore & story · 2 card data) → [reverse index](../../references/A.md#awaken-the-woods)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/170/awaken-the-woods) · oracle_id `3cc79d36-1a24-4395-8ad1-915a65db8a60` · printing: BRO #170 (2022-11-18) · [rulings](https://api.scryfall.com/cards/1c95f8b8-faba-4412-8d8f-093e2ec903f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Awe for the Guilds

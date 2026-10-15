@@ -233,6 +233,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20581 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-04-15* — Exiling the creature card with scavenge is part of the cost of activating the scavenge ability. Once the ability is activated and the cost is paid, it’s too late to stop the ability from being activated by trying to remove the creature card from the graveyard.
+- **Lore:** ✅ Card art shown on [Death's Precious Moments](https://magic.wizards.com/en/news/magic-story/deaths-precious-moments-2018-11-07) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,021 decks; most often under [Grist, the Hunger Tide](../../cards/G/gri.md#grist-the-hunger-tide) (7.1% of its decks), [Zask, Skittering Swarmlord](../../cards/Z/za.md#zask-skittering-swarmlord) (3.6% of its decks), [Jarad, Golgari Lich Lord](../../cards/J/ja.md#jarad-golgari-lich-lord) (1.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rtr/120/deadbridge-goliath) · oracle_id `1498f5a1-6df7-4f80-9470-c93528b64a9c` · printing: RTR #120 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deadbridge Shaman
@@ -246,6 +248,8 @@ schema: 2
   > *Ending her life won't end the infestation.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22899 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,285 decks; most often under [Tinybones, Bauble Burglar](../../cards/T/ti.md#tinybones-bauble-burglar) (1.1% of its decks), [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (0.3% of its decks), [Miara, Thorn of the Glade // Nadier, Agent of the Duskenel](../../cards/M/mia.md#miara-thorn-of-the-glade) (26.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/85/deadbridge-shaman) · oracle_id `a57389ad-7f2a-47a6-8ae6-2821503cbb28` · printing: EMA #85 (2016-06-10) · [rulings](https://api.scryfall.com/cards/f110fa8e-3fbf-4a81-a743-e709f58e4414/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dead Drop
@@ -367,6 +371,8 @@ schema: 2
   > *"Welcome aboard, mate! You're going to need this."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9203 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Something Else Entirely](https://magic.wizards.com/en/news/magic-story/something-else-entirely-2017-10-04) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Edward Kenway (Grixis)](../../grixis/decks/edward-kenway.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 14,258 decks; most often under [Edward Kenway](../../cards/E/ed.md#edward-kenway) (38.2% of its decks), [Shorikai, Genesis Engine](../../cards/S/sho.md#shorikai-genesis-engine) (6.3% of its decks), [Tetsuo, Imperial Champion](../../cards/T/te.md#tetsuo-imperial-champion) (13.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#deadeye-quartermaster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/50/deadeye-quartermaster) · oracle_id `40abba38-533b-4f51-99e9-a2b337d65171` · printing: XLN #50 (2017-09-29) · [rulings](https://api.scryfall.com/cards/5ba70d58-69fd-4675-85d2-90bc2595c01c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -504,6 +510,8 @@ schema: 2
   - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
   - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
   - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): KLD #204 — [Art & Flavor → Kaladesh & Aether Revolt (2016–17)](../../Art%20%26%20Flavor%20Story%20Links.md#kaladesh--aether-revolt-201617) — ✅ Card art shown on [Bottled Up](https://magic.wizards.com/en/news/magic-story/bottled-2016-09-28), [Return to Dominaria: Episode 10](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-10-2018-05-16) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,509 decks; most often under [Dr. Madison Li](../../cards/D/drm.md#dr-madison-li) (4.4% of its decks), [Nissa, Worldsoul Speaker](../../cards/N/ni.md#nissa-worldsoul-speaker) (11.9% of its decks), [Satya, Aetherflux Genius](../../cards/S/sat.md#satya-aetherflux-genius) (1.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#deadlock-trap)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/204/deadlock-trap) · oracle_id `726c911d-6543-4400-a8fa-b8a5c9f0c15d` · printing: KLD #204 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -579,6 +587,8 @@ schema: 2
   - *2024-02-02* — If a suspected creature loses all abilities, it will lose menace and "This creature can't block", but it won't stop being suspected.
   - *2024-02-02* — There's no limit to the number of creatures that can be suspected simultaneously. Suspecting a new creature doesn't cause other creatures to stop being suspected.
   - *2024-02-02* — When an effect suspects a creature, it becomes suspected. It gains menace and "This creature can't block" for as long as it's suspected. It stays suspected until it leaves the battlefield or another effect causes it to no longer be suspected.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MKM #195, MKM #312 — [Art & Flavor → Murders at Karlov Manor (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#murders-at-karlov-manor-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 682 decks; most often under [Judith, Carnage Connoisseur](../../cards/J/ju.md#judith-carnage-connoisseur) (0.3% of its decks), [Niv-Mizzet, Guildpact](../../cards/N/ni.md#niv-mizzet-guildpact) (0.6% of its decks), [Kuja, Genome Sorcerer](../../cards/K/ku.md#kuja-genome-sorcerer--trance-kuja-fate-defied) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#deadly-complication)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/195/deadly-complication) · oracle_id `c53c75a0-c248-4e76-8d28-f7e53b2dcc49` · printing: MKM #195 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -922,7 +932,9 @@ schema: 2
   - *2024-01-12* — Spectacle cares only that an opponent lost life during the turn, not that the opponent's life total is currently lower than it was. For example, if an opponent loses 1 life and then gains 2 life in the same turn, you can cast a spell for its spectacle cost that turn.
   - *2024-01-12* — Spectacle doesn't change when you can cast the spell. For example, you can't cast a sorcery with spectacle during an opponent's turn unless another effect allows you to do so, even if that player has lost life this turn.
   - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a spectacle cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#dead-revels)
+- **Lore:** ✅ Card art shown on [War of the Spark: Ravnica—Operation Desperation](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,749 decks; most often under [Rakdos, Lord of Riots](../../cards/R/rak.md#rakdos-lord-of-riots) (2.0% of its decks), [Gev, Scaled Scorch](../../cards/G/ge.md#gev-scaled-scorch) (0.8% of its decks), [Juri, Master of the Revue](../../cards/J/ju.md#juri-master-of-the-revue) (1.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/D.md#dead-revels)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/71/dead-revels) · oracle_id `4354eb0a-28c5-4f3f-8e78-fd7eec230c7b` · printing: RNA #71 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dead Ringers

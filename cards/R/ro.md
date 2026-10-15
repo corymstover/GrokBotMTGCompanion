@@ -1304,6 +1304,8 @@ schema: 2
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24346 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [All the Cairns of Jund](https://magic.wizards.com/en/news/magic-story/all-cairns-jund-2015-11-04) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 946 decks; most often under [Rakka Mar](../../cards/R/rak.md#rakka-mar) (32.8% of its decks), [Kresh the Bloodbraided](../../cards/K/kr.md#kresh-the-bloodbraided) (1.3% of its decks), [Horde of Notions](../../cards/H/ho.md#horde-of-notions) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hop/63/rockslide-elemental) · oracle_id `c848a9d8-40d5-498d-9da9-e71a9ddeb5ab` · printing: HOP #63 (2009-09-04) · [rulings](https://api.scryfall.com/cards/d698604b-86cc-4dba-a1be-7b5bb46c5c5a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rockslide Sorcerer
@@ -1706,6 +1708,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-12-07* — Activating the second ability of Rogue's Passage after a creature has become blocked won't cause that creature to become unblocked.
+- **Lore:** ✅ Card art shown on [Family Values](https://magic.wizards.com/en/news/magic-story/family-values-2015-11-11) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (12): [Brago, King Eternal](../../decks/brago-king-eternal.md) · [Feather, the Redeemed](../../decks/feather-the-redeemed.md) · [Gishath, Sun's Avatar](../../decks/gishath-suns-avatar.md) · [Kozilek, the Great Distortion](../../decks/kozilek-the-great-distortion.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,062,059 decks; most often under [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (51.5% of its decks), [Pantlaza, Sun-Favored](../../cards/P/pa.md#pantlaza-sun-favored) (51.3% of its decks), [Frodo, Adventurous Hobbit // Sam, Loyal Attendant](../../cards/F/fr.md#frodo-adventurous-hobbit) (57.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 15 pages (12 decks · 2 edh guides · 1 card data) → [reverse index](../../references/R.md#rogues-passage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/212/rogues-passage) · oracle_id `f29dc596-2121-4421-8463-15f6c2e8b9b3` · printing: HOC #212 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1989,6 +1993,8 @@ schema: 2
   - *2015-08-25* — The maximum number of colors of mana you can spend to cast a spell is five. Colorless is not a color. Note that the cost of a spell with converge may limit how many colors of mana you can spend.
   - *2015-08-25* — Unless a spell or ability allows you to, you can’t choose to pay more mana for a spell with a converge ability just to spend more colors of mana. Likewise, if a spell or ability reduces the amount of mana it costs you to cast a spell with converge, you can’t ignore that cost reduction in order to spend more colors of mana.
   - *2015-08-25* — You can cast Roilmage’s Trick even if your opponents control no creatures. You’ll simply draw a card.
+- **Lore:** ✅ Card art shown on [Shaping an Army](https://magic.wizards.com/en/news/magic-story/shaping-army-2015-10-21) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 266 decks; most often under [Jodah, Archmage Eternal](../../cards/J/jo.md#jodah-archmage-eternal) (0.4% of its decks), [Ramos, Dragon Engine](../../cards/R/ram.md#ramos-dragon-engine) (0.1% of its decks), [The Wandering Minstrel](../../cards/T/thew.md#the-wandering-minstrel) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/83/roilmages-trick) · oracle_id `73eaf40a-abc6-486a-958d-374ed6111173` · printing: BFZ #83 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Roil Spout
@@ -2007,6 +2013,8 @@ schema: 2
   - *2015-08-25* — If the non-awaken part of the spell requires a target, you must choose a legal target. You can’t cast the spell if you can’t choose a legal target for each instance of the word “target” (though you only need a legal target for the awaken ability if you’re casting the spell for its awaken cost).
   - *2015-08-25* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that’s turned into a creature this way can still be tapped for {G}.
   - *2015-08-25* — You can cast a spell with awaken for its mana cost and get only its first effect. If you cast a spell for its awaken cost, you’ll get both effects.
+- **Lore:** ✅ Card art shown on [Shaping an Army](https://magic.wizards.com/en/news/magic-story/shaping-army-2015-10-21) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 572 decks; most often under [Noyan Dar, Roil Shaper](../../cards/N/no.md#noyan-dar-roil-shaper) (13.3% of its decks), [Child of Alara](../../cards/C/chi.md#child-of-alara) (0.3% of its decks), [Omnath, Locus of Creation](../../cards/O/om.md#omnath-locus-of-creation) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/219/roil-spout) · oracle_id `ebc1d343-26f1-4d85-ac3a-610da24c990e` · printing: BFZ #219 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Roil's Retribution
@@ -2750,6 +2758,8 @@ schema: 2
   - *2026-03-20* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
   - *2026-03-20* — For spells you cast with {X} in their mana costs, use the value chosen for X to determine the spell's mana value.
   - *2026-03-20* — Rootha's ability will check as your beginning of combat step starts to see if you've cast an instant or sorcery spell this turn. If you haven't, the ability won't trigger at all. It's not possible to cast an instant or sorcery spell during your beginning of combat step in time to have the ability trigger.
+- **Lore:** ✅ Card art shown on [Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-a-living-flame) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Breath of Fury + Rootha, Mastering the Moment](https://commanderspellbook.com/combo/3259-7397/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 7,264 decks; highest synergy [Surge to Victory](../../cards/S/sur.md#surge-to-victory) (+81%), [Dirgur Focusmage](../../cards/D/di.md#dirgur-focusmage--braingeyser) (+74%), [Volcanic Salvo](../../cards/V/vo.md#volcanic-salvo) (+73%) · EDHREC: in 4,334 decks; most often under [Ashling, Rekindled](../../cards/A/as.md#ashling-rekindled--ashling-rimebound) (12.3% of its decks), [Prismari, the Inspiration](../../cards/P/pr.md#prismari-the-inspiration) (3.6% of its decks), [Magnus the Red](../../cards/M/mag.md#magnus-the-red) (7.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rootha-mastering-the-moment)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/8/rootha-mastering-the-moment) · oracle_id `348c67ef-9ccc-4651-9038-efdf1ad1b36a` · printing: SOC #8 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2840,6 +2850,8 @@ schema: 2
   > *"Nature endures and adapts, and so shall we."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12455 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Flavor text verbatim on [official page 1](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-secrets-of-strixhaven) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 8,386 decks; most often under [Blech, Loafing Pest](../../cards/B/ble.md#blech-loafing-pest) (38.9% of its decks), [Witherbloom, the Balancer](../../cards/W/wi.md#witherbloom-the-balancer) (4.8% of its decks), [Dina, Soul Steeper](../../cards/D/di.md#dina-soul-steeper) (5.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/222/root-manipulation) · oracle_id `d870948e-721a-46fd-86b6-ecd42e3aa9bd` · printing: SOS #222 (2026-04-24) · [rulings](https://api.scryfall.com/cards/5390a79c-bc4b-4edb-a845-0d3514986401/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Root Maze
@@ -3816,6 +3828,8 @@ schema: 2
   > *Mastodons became extinct long ago, but foul forces of the Gurmag Swamp sometimes animate their decaying remains. The Sultai happily exploit such creatures but consider them inferior to their own necromantic creations.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25398 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Bond and Blood](https://magic.wizards.com/en/news/magic-story/bond-and-blood-2014-12-03) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 759 decks; most often under [Doran, Besieged by Time](../../cards/D/do.md#doran-besieged-by-time) (0.7% of its decks), [Yargle and Multani](../../cards/Y/ya.md#yargle-and-multani) (1.4% of its decks), [Doran, the Siege Tower](../../cards/D/do.md#doran-the-siege-tower) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/87/rotting-mastodon) · oracle_id `d6e90e75-ef12-49d0-8dd8-0c6cb718ce28` · printing: KTK #87 (2014-09-26) · [rulings](https://api.scryfall.com/cards/1564a20a-0e57-4ced-9eda-7acff74274e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rotting Rats
@@ -4046,6 +4060,8 @@ schema: 2
   > *—Elesh Norn, Grand Cenobite*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8131 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Kruphix's Insight](https://magic.wizards.com/en/news/magic-story/kruphixs-insight-2014-06-11) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Biorhythm + Rout](https://commanderspellbook.com/combo/7299-8185/) (Draw the game, Each opponent loses the game) · EDHREC: in 17,160 decks; most often under [Elesh Norn](../../cards/E/el.md#elesh-norn--the-argent-etchings) (22.2% of its decks), [Osgir, the Reconstructor](../../cards/O/os.md#osgir-the-reconstructor) (17.8% of its decks), [Elesh Norn, Mother of Machines](../../cards/E/el.md#elesh-norn-mother-of-machines) (10.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/101/rout) · oracle_id `d69aa624-23d1-406a-b7e0-9140a6f57929` · printing: C21 #101 (2021-04-23) · [rulings](https://api.scryfall.com/cards/15ce585a-67fc-4e7a-92ff-a27292179dfa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rover Blades
@@ -4124,6 +4140,8 @@ schema: 2
   - *2019-10-04* — If a target of Rowan's second ability is a legal target but an effect prevents the damage that would be dealt to it, that creature still can't block this turn.
   - *2019-10-04* — Rowan's second ability can't target the same creature twice to deal 2 damage to it.
   - *2019-10-04* — Rowan's third ability can affect creatures you already control or ones that are already untapped. It will untap them if applicable and give them haste.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Rowan Kenrith](../../Characters%20Index.md#rowan-kenrith) · [Dossier → Rowan & Will Kenrith](../../Planeswalker%20Dossiers.md#rowan--will-kenrith) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,056 decks; most often under [Rowan Kenrith // Will Kenrith](../../cards/R/ro.md#rowan-kenrith) (9.6% of its decks), [Commodore Guff](../../cards/C/com.md#commodore-guff) (0.8% of its decks), [Ertha Jo, Frontier Mentor](../../cards/E/er.md#ertha-jo-frontier-mentor) (7.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/R.md#rowan-fearless-sparkmage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/304/rowan-fearless-sparkmage) · oracle_id `cd83f886-c651-4ad7-82ca-2446c60c8f94` · printing: ELD #304 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4162,6 +4180,8 @@ schema: 2
   - *2018-06-08* — The second ability represented by the "partner with [name]" keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with "partner with [name]" is designated as your commander, the named legendary creature card can also be designated as your commander. For more information on the Commander variant, please visit Wizards.com/Commander.
   - *2018-06-08* — The triggered ability of the "partner with" keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player who might have that card in their library.
   - *2018-06-08* — To have two commanders, both must have the partner ability (featured in the Magic: The Gathering—Commander™ (2016 Edition) set) or corresponding "partner with" abilities as the game begins. A creature with a "partner with" ability can't partner with any creature other than its designated partner. Losing a partner ability during the game doesn't cause either to cease to be your commander.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Rowan Kenrith](../../Characters%20Index.md#rowan-kenrith) · [Dossier → Rowan & Will Kenrith](../../Planeswalker%20Dossiers.md#rowan--will-kenrith) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 17 decks; highest synergy [Karn's Bastion](../../cards/K/ka.md#karns-bastion) (+69%), [Chandra's Regulator](../../cards/C/cha.md#chandras-regulator) (+63%), [Chandra, Acolyte of Flame](../../cards/C/cha.md#chandra-acolyte-of-flame) (+63%) · EDHREC: in 5,855 decks; most often under [Commodore Guff](../../cards/C/com.md#commodore-guff) (20.7% of its decks), [Pramikon, Sky Rampart](../../cards/P/pr.md#pramikon-sky-rampart) (6.1% of its decks), [Firkraag, Cunning Instigator](../../cards/F/fi.md#firkraag-cunning-instigator) (12.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (1 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/R.md#rowan-kenrith)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/805/rowan-kenrith) · oracle_id `e191976c-6ab1-4a23-aeb8-8a88bd4bd203` · printing: CLB #805 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4200,7 +4220,9 @@ schema: 2
   - *2021-04-16* — For Will’s first loyalty ability, any effects that modify a creature’s power and/or toughness without setting them to a specific value (i.e. ones that don’t affect base power and/or toughness) will apply after its base power and toughness are set, regardless of the order those effects were created. The same is true for counters that modify its power and toughness.
   - *2021-04-16* — Neither face’s first ability can reduce colored mana requirements of spells you cast.
   - *2021-04-16* — To determine the total cost of a spell, start with the mana cost or alternative cost you’re paying, add any cost increases, then apply any cost reductions (such as that of Rowan or Will’s first ability). The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
-- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/R.md#rowan-scholar-of-sparks--will-scholar-of-frost)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Rowan Kenrith](../../Characters%20Index.md#rowan-kenrith) · [Dossier → Rowan & Will Kenrith](../../Planeswalker%20Dossiers.md#rowan--will-kenrith) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 4 combos; most popular [Kiki-Jiki, Mirror Breaker + Blazing Firesinger // Seething Song + Hematite Talisman + Rowan, Scholar of Sparks // Will, Scholar of Frost](https://commanderspellbook.com/combo/618-4456-7494-7644/) (Infinite creature ETB, Infinite creature LTB) · EDHREC: in 9,346 decks; most often under [Ghyrson Starn, Kelermorph](../../cards/G/gh.md#ghyrson-starn-kelermorph) (5.0% of its decks), [Rowan Kenrith // Will Kenrith](../../cards/R/ro.md#rowan-kenrith) (54.3% of its decks), [Niv-Mizzet, Visionary](../../cards/N/ni.md#niv-mizzet-visionary) (5.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [Spellslinger: Instant/sorcery cost reducers](../../EDH%20Packages.md#spellslinger-instantsorcery-cost-reducers) · [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (1 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/R.md#rowan-scholar-of-sparks--will-scholar-of-frost)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/156/rowan-scholar-of-sparks-will-scholar-of-frost) · oracle_id `dd06c11c-c4fd-414e-ac63-5556f31491f5` · printing: STX #156 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rowan, Scion of War
@@ -4220,6 +4242,8 @@ schema: 2
   - *2023-09-01* — Rowan's activated ability counts the total amount of life you lost without taking into account any life you gained during that turn. For example, if you gained 3 life and lost 3 life earlier in the turn, the cost of black and/or red spells you cast this turn will be reduced by {3}.
   - *2023-09-01* — Rowan's activated ability doesn't change the mana cost or mana value of any spell. It changes only the total cost you pay.
   - *2023-09-01* — The value of X is determined only once, at the time Rowan, Scion of War's activated ability resolves.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Rowan Kenrith](../../Characters%20Index.md#rowan-kenrith) · [Dossier → Rowan & Will Kenrith](../../Planeswalker%20Dossiers.md#rowan--will-kenrith) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Rowan, Scion of War + Exsanguinate + Wall of Blood](https://commanderspellbook.com/combo/140-2749-3245/) (Near-infinite lifegain, Near-infinite lifeloss) · EDHREC as commander: 9,277 decks; highest synergy [K'rrik, Son of Yawgmoth](../../cards/K/kr.md#krrik-son-of-yawgmoth) (+70%), [Exsanguinate](../../cards/E/ex.md#exsanguinate) (+68%), [Treasonous Ogre](../../cards/T/tre.md#treasonous-ogre) (+61%) · EDHREC: in 5,657 decks; most often under [Licia, Sanguine Tribune](../../cards/L/li.md#licia-sanguine-tribune) (23.0% of its decks), [Greven, Predator Captain](../../cards/G/gre.md#greven-predator-captain) (51.1% of its decks), [Kuja, Genome Sorcerer](../../cards/K/ku.md#kuja-genome-sorcerer--trance-kuja-fate-defied) (2.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/R.md#rowan-scion-of-war)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/211/rowan-scion-of-war) · oracle_id `333c15c6-c8fd-4cdd-89d2-06b921edeb8b` · printing: WOE #211 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4239,7 +4263,9 @@ schema: 2
   - *2023-09-01* — If you copy a bargained spell, the copy is also bargained. If a card or token enters the battlefield as a copy of a permanent that's already on the battlefield, the new permanent isn't bargained, even if the original was.
   - *2023-09-01* — Some instant and sorcery spells require additional targets if they're bargained. You ignore those targeting requirements if those spells aren't bargained, and you can't bargain those spells unless you can choose the appropriate targets. On the other hand, you can bargain a permanent spell even if you won't be able to choose targets for an enters-the-battlefield ability of that permanent once the spell resolves.
   - *2023-09-01* — You may sacrifice only one artifact, enchantment, or token to pay a spell's bargain cost.
-- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/R.md#rowans-grim-search)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WOE #104 — [Art & Flavor → Wilds of Eldraine (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#wilds-of-eldraine-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Syr Konrad, the Grim (Eldraine-only)](../../decks/plane-eldraine-syr-konrad-the-grim.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 17,279 decks; most often under [Rowan, Scion of War](../../cards/R/ro.md#rowan-scion-of-war) (15.9% of its decks), [Alela, Cunning Conqueror](../../cards/A/al.md#alela-cunning-conqueror) (6.5% of its decks), [Toshiro Umezawa](../../cards/T/to.md#toshiro-umezawa) (28.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 lore & story) → [reverse index](../../references/R.md#rowans-grim-search)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/104/rowans-grim-search) · oracle_id `f60234e4-9b53-47a5-a21a-82c80b5af072` · printing: WOE #104 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rowan's Stalwarts
@@ -4296,6 +4322,8 @@ schema: 2
   - *2017-09-29* — Rowdy Crew doesn't get more than two +1/+1 counters if the discarded cards happen to share more than one card type.
   - *2017-09-29* — The card types that can appear on the discarded cards are artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Legendary is a supertype, not a card type.
   - *2017-09-29* — The discarded cards just need to share one card type. For example, Rowdy Crew will get two +1/+1 counters if you discard an artifact creature and an enchantment creature.
+- **Lore:** ✅ Card art shown on [Something Else Entirely](https://magic.wizards.com/en/news/magic-story/something-else-entirely-2017-10-04) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,200 decks; most often under [Admiral Brass, Unsinkable](../../cards/A/ad.md#admiral-brass-unsinkable) (2.5% of its decks), [Captain Howler, Sea Scourge](../../cards/C/cap.md#captain-howler-sea-scourge) (1.1% of its decks), [Admiral Beckett Brass](../../cards/A/ad.md#admiral-beckett-brass) (2.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/159/rowdy-crew) · oracle_id `3d1d30e1-8934-4451-9b32-c6db2167fc2e` · printing: XLN #159 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rowdy Research

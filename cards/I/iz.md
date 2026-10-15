@@ -95,7 +95,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1538 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-08-07* — If you choose the last mode, you draw two cards and discard two cards all while Izzet Charm is resolving. Nothing can happen between the two, and no player may choose to take actions.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#izzet-charm)
+- **Lore:** ✅ Card art shown on [Project Lightning Bug](https://magic.wizards.com/en/news/magic-story/project-lightning-bug-2015-05-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Niv-Mizzet, Parun](../../decks/niv-mizzet-parun.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 106,366 decks; most often under [Captain Howler, Sea Scourge](../../cards/C/cap.md#captain-howler-sea-scourge) (62.9% of its decks), [Niv-Mizzet, Parun](../../cards/N/ni.md#niv-mizzet-parun) (45.8% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (11.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/I.md#izzet-charm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/190/izzet-charm) · oracle_id `a07698f6-5ad5-49a3-9da2-f82d407f5cd7` · printing: RVR #190 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izzet Chemister
@@ -233,6 +235,8 @@ schema: 2
   > *—Daxiver, Izzet electromancer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8114 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Bound and Bonded](https://magic.wizards.com/en/news/magic-story/bound-and-bonded-2018-11-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 17,206 decks; most often under [Ovika, Enigma Goliath](../../cards/O/ov.md#ovika-enigma-goliath) (22.9% of its decks), [Niv-Mizzet, Parun](../../cards/N/ni.md#niv-mizzet-parun) (14.6% of its decks), [The Locust God](../../cards/T/thel.md#the-locust-god) (7.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/215/izzet-locket) · oracle_id `7ee07546-2c2e-4679-b671-7ea509b1d3ea` · printing: C19 #215 (2019-08-23) · [rulings](https://api.scryfall.com/cards/a32ecc71-b924-4414-94ee-c6cb0ba752e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izzet Signet

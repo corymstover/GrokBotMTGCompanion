@@ -160,6 +160,8 @@ schema: 2
   - *2019-10-04* — Irencrag Feat's effect doesn't allow you to cast any spell you couldn't otherwise cast. For example, if an effect says you can't cast more than one spell each turn, Irencrag Feat won't let you cast a second.
   - *2019-10-04* — Irencrag Feat's effect doesn't care how many spells you've cast so far in the turn. You can cast only one more.
   - *2019-10-04* — Irencrag Feat's effect doesn't stop you from activating any abilities or from playing lands.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Eldraine](https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 20,653 decks; most often under [Raph & Mikey, Troublemakers](../../cards/R/rap.md#raph--mikey-troublemakers) (46.4% of its decks), [Gilgamesh, Master-at-Arms](../../cards/G/gi.md#gilgamesh-master-at-arms) (33.4% of its decks), [Ozai, the Phoenix King](../../cards/O/oz.md#ozai-the-phoenix-king) (10.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/127/irencrag-feat) · oracle_id `2d550e17-7340-4b11-8b25-1d4f1a58f82f` · printing: ELD #127 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Irencrag Pyromancer
@@ -427,6 +429,8 @@ schema: 2
 - **Keywords:** Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24600 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 895 decks; most often under [Iroas, God of Victory](../../cards/I/ir.md#iroas-god-of-victory) (3.9% of its decks), [General Ferrous Rokiric](../../cards/G/ge.md#general-ferrous-rokiric) (1.8% of its decks), [Commander Mustard](../../cards/C/com.md#commander-mustard) (1.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/214/iroass-champion) · oracle_id `8f2252f6-69b9-4c56-b078-803db301a874` · printing: ORI #214 (2015-07-17) · [rulings](https://api.scryfall.com/cards/c0441583-c9d5-47a1-8754-c9162cec64bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iroh, Dragon of the West

@@ -249,6 +249,8 @@ schema: 2
   - *2014-11-24* — The ability only applies during the controller’s next untap step, even if the permanent has been the target of Ojutai’s triggered ability more than once. The permanent won’t stay tapped through multiple untap steps.
   - *2014-11-24* — The ability tracks the permanent, but not its controller. If the permanent changes controllers before its first controller’s next untap step, then it won’t untap during its new controller’s next untap step.
   - *2014-11-24* — The triggered ability can target a nonland permanent that’s already tapped. That permanent won’t untap during its controller’s next untap step.
+- **Lore:** ✅ Card art shown on [Khanfall](https://magic.wizards.com/en/news/magic-story/khanfall-2015-02-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 223 decks; highest synergy [Dragonlord Ojutai](../../cards/D/dra.md#dragonlord-ojutai) (+82%), [Icefall Regent](../../cards/I/ic.md#icefall-regent) (+79%), [Sunscorch Regent](../../cards/S/sun.md#sunscorch-regent) (+74%) · EDHREC: in 13,113 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (15.0% of its decks), [Tiamat](../../cards/T/ti.md#tiamat) (6.4% of its decks), [Zurgo and Ojutai](../../cards/Z/zu.md#zurgo-and-ojutai) (31.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/187/ojutai-soul-of-winter) · oracle_id `27d7f737-59a4-4948-9b2e-599ae848e054` · printing: C17 #187 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ojutai's Summons

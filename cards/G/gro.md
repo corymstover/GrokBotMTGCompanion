@@ -449,6 +449,9 @@ schema: 2
   - *2024-11-08* — The effect of this spell's landfall ability replaces its normal effect. If you had a land enter under your control this turn, only the landfall-based effect happens.
   - *2024-11-08* — The landfall ability checks for an action that has happened in the past. It doesn't matter if a land that entered the battlefield under your control previously in the turn is still on the battlefield, is still under your control, or is still a land.
   - *2024-11-08* — Whether you had a land enter the battlefield under your control this turn is checked as this spell resolves, not as you cast it.
+- **Lore:** ✅ Card art shown on [For Zendikar](https://magic.wizards.com/en/news/magic-story/zendikar-2015-08-12) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 16,269 decks; most often under [Sergeant John Benton](../../cards/S/ser.md#sergeant-john-benton) (71.6% of its decks), [Xyris, the Writhing Storm](../../cards/X/xy.md#xyris-the-writhing-storm) (15.3% of its decks), [Tifa Lockhart](../../cards/T/ti.md#tifa-lockhart) (12.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Lands / landfall: Landfall payoffs](../../EDH%20Packages.md#lands--landfall-landfall-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/G.md#groundswell)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddp/15/groundswell) · oracle_id `ddbacb74-1f98-4607-a92e-d14973b9d0ef` · printing: DDP #15 (2015-08-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Group Project
@@ -499,6 +502,8 @@ schema: 2
 - **Rulings** (2):
   - *2012-10-01* — To activate Grove of the Guardian’s second ability you can tap any two untapped creatures you control, including ones you haven’t controlled continuously since the beginning of your most recent turn.
   - *2012-10-01* — You can’t tap Grove of the Guardian to activate both abilities at the same time.
+- **Lore:** ✅ Card art shown on [In Praise of the Worldsoul, Part 2](https://magic.wizards.com/en/news/magic-story/in-praise-of-the-worldsoul-part-2) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Trostani, Selesnya's Voice](../../decks/trostani-selesnyas-voice.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 13,018 decks; most often under [Trostani, Selesnya's Voice](../../cards/T/tro.md#trostani-selesnyas-voice) (53.1% of its decks), [Ghired, Mirror of the Wilds](../../cards/G/gh.md#ghired-mirror-of-the-wilds) (15.5% of its decks), [Ghired, Conclave Exile](../../cards/G/gh.md#ghired-conclave-exile) (21.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/G.md#grove-of-the-guardian)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rtr/240/grove-of-the-guardian) · oracle_id `f746612a-fbed-44ca-b2cc-5928e10cf4bb` · printing: RTR #240 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -628,6 +633,8 @@ schema: 2
   - *2024-01-12* — Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control.
   - *2024-01-12* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
   - *2024-01-12* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/great-concourse-2012-10-23), [In Praise of the Worldsoul, Part 2](https://magic.wizards.com/en/news/magic-story/in-praise-of-the-worldsoul-part-2) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Trostani, Selesnya's Voice](../../decks/trostani-selesnyas-voice.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 35,257 decks; most often under [Trostani, Selesnya's Voice](../../cards/T/tro.md#trostani-selesnyas-voice) (55.5% of its decks), [Anikthea, Hand of Erebos](../../cards/A/an.md#anikthea-hand-of-erebos) (37.9% of its decks), [Atla Palani, Nest Tender](../../cards/A/at.md#atla-palani-nest-tender) (19.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#growing-ranks)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/193/growing-ranks) · oracle_id `bec6fb31-60a3-432f-ba36-aebf172f8b27` · printing: C19 #193 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -676,6 +683,8 @@ schema: 2
   - *2019-01-25* — An ability that triggers when counters are put on a permanent will trigger if that permanent somehow enters the battlefield with those counters.
   - *2019-01-25* — If a creature somehow loses all of its +1/+1 counters, it can adapt again and get more +1/+1 counters.
   - *2019-01-25* — You can always activate an ability that will cause a creature to adapt. As that ability resolves, if the creature has a +1/+1 counter on it for any reason, you simply won't put any +1/+1 counters on it.
+- **Lore:** ✅ Card art shown on [The Principles of Unnatural Selection](https://magic.wizards.com/en/news/magic-story/principles-unnatural-selection-2019-02-06) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 5 combos; most popular [Growth-Chamber Guardian + The Great Henge + The Cauldron of Eternity + Ashnod's Altar + Mycosynth Lattice](https://commanderspellbook.com/combo/2034-2579-2986-3139-3263/) (Infinite card draw, Infinite colorless mana) · EDHREC: in 320 decks; most often under [Derevi, Empyrial Tactician](../../cards/D/der.md#derevi-empyrial-tactician) (0.2% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (0.1% of its decks), [Ezuri, Claw of Progress](../../cards/E/ez.md#ezuri-claw-of-progress) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/128/growth-chamber-guardian) · oracle_id `1a49ec1c-6150-4b46-b671-b7d6f4e301ae` · printing: RNA #128 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Growth Charm

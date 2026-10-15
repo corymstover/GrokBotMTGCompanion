@@ -729,7 +729,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2639 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2015-06-22* — Count the number of attacking Elves you control as Dwynen's last ability resolves to determine how much life to gain.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#dwynen-gilt-leaf-daen)
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Lathril, Blade of the Elves](../../decks/lathril-blade-of-the-elves.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 384 decks; highest synergy [Elvish Archdruid](../../cards/E/el.md#elvish-archdruid) (+71%), [Dwynen's Elite](../../cards/D/dw.md#dwynens-elite) (+69%), [Imperious Perfect](../../cards/I/im.md#imperious-perfect) (+63%) · EDHREC: in 62,576 decks; most often under [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (63.8% of its decks), [High Perfect Morcant](../../cards/H/hi.md#high-perfect-morcant) (41.5% of its decks), [Marwyn, the Nurturer](../../cards/M/mar.md#marwyn-the-nurturer) (47.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/D.md#dwynen-gilt-leaf-daen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/217/dwynen-gilt-leaf-daen) · oracle_id `30d0d75f-e94c-460b-b957-9f1d655c0f65` · printing: FDN #217 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwynen's Elite
@@ -744,5 +746,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5561 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-11-08* — Dwynen's Elite's ability checks at the moment it would trigger to see if you control another Elf. If you don't, the ability won't trigger at all. If it does trigger, the ability will check again as it tries to resolve. If you don't control another Elf at that time, the ability won't resolve and none of its effects will happen.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 28,684 decks; most often under [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (18.7% of its decks), [High Perfect Morcant](../../cards/H/hi.md#high-perfect-morcant) (25.4% of its decks), [Maralen, Fae Ascendant](../../cards/M/mar.md#maralen-fae-ascendant) (12.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/D.md#dwynens-elite)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/218/dwynens-elite) · oracle_id `3d4a7dd3-9258-4bd1-adc4-08f0205e196a` · printing: FDN #218 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -365,6 +365,8 @@ schema: 2
   > *—Killian, Silverquill mage-student*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14994 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [A Silent Voice Calls](https://magic.wizards.com/en/news/magic-story/silent-voice-calls-2021-04-30) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,473 decks; most often under [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (5.6% of its decks), [Killian, Ink Duelist](../../cards/K/ki.md#killian-ink-duelist) (11.6% of its decks), [Sergeant John Benton](../../cards/S/ser.md#sergeant-john-benton) (4.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/9/beaming-defiance) · oracle_id `f88eeb04-4b8e-4c76-a8c6-90887b94d518` · printing: STX #9 (2021-04-23) · [rulings](https://api.scryfall.com/cards/7e22411c-11c1-4770-8491-7952dd406e01/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Beamsaw Prospector
@@ -1497,6 +1499,8 @@ schema: 2
 - **Rulings** (2):
   - *2016-04-08* — If you cause a creature to have 0 power or less, use the actual value (which may be negative) to determine whether it can block or be blocked. A creature with skulk and 0 or less power most likely won’t be blocked, but it won’t deal combat damage and won’t trigger any abilities that trigger when combat damage is dealt.
   - *2016-04-08* — Skulk matters only as blockers are chosen. Modifying either creature’s power after blockers are chosen won’t cause the attacking creature to become unblocked.
+- **Lore:** ✅ Card art shown on [Liliana's Indignation](https://magic.wizards.com/en/news/magic-story/lilianas-indignation-2016-04-20) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 32,917 decks; most often under [Felothar the Steadfast](../../cards/F/fe.md#felothar-the-steadfast) (83.4% of its decks), [Betor, Kin to All](../../cards/B/be.md#betor-kin-to-all) (29.8% of its decks), [Doran, the Siege Tower](../../cards/D/do.md#doran-the-siege-tower) (58.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/172/behind-the-scenes) · oracle_id `e84837bd-4f94-43e1-876e-d82cae6ee247` · printing: TDC #172 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Behold the Beyond
@@ -1775,6 +1779,8 @@ schema: 2
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17966 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Eldraine](https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,237 decks; most often under [Sidar Jabari of Zhalfir](../../cards/S/si.md#sidar-jabari-of-zhalfir) (5.2% of its decks), [Syr Gwyn, Hero of Ashvale](../../cards/S/sy.md#syr-gwyn-hero-of-ashvale) (10.1% of its decks), [Aryel, Knight of Windgrace](../../cards/A/ary.md#aryel-knight-of-windgrace) (40.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/78/belle-of-the-brawl) · oracle_id `6bc4a078-4d30-452d-9e33-ff09f943903e` · printing: ELD #78 (2019-10-04) · [rulings](https://api.scryfall.com/cards/2c3c992a-70b5-4d3c-9a96-93c3365691ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Belligerent Brontodon
@@ -3453,6 +3459,8 @@ schema: 2
 - **Rulings** (2):
   - *2024-04-12* — If one of the two other target creatures leaves the battlefield before Betrayal at the Vault resolves, the creature you control will still deal damage to the remaining other target creature.
   - *2024-04-12* — If the creature you control leaves the battlefield before Betrayal at the Vault resolves, Betrayal at the Vault has no effect and no damage is dealt.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): OTJ #155 — [Art & Flavor → Outlaws of Thunder Junction (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#outlaws-of-thunder-junction-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,680 decks; most often under [Shelob, Child of Ungoliant](../../cards/S/she.md#shelob-child-of-ungoliant) (0.7% of its decks), [Legolas, Master Archer](../../cards/L/le.md#legolas-master-archer) (2.8% of its decks), [Fynn, the Fangbearer](../../cards/F/fy.md#fynn-the-fangbearer) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#betrayal-at-the-vault)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/155/betrayal-at-the-vault) · oracle_id `f1dce3f0-30c8-488f-bbeb-b0533886c655` · printing: OTJ #155 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3483,6 +3491,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18019 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-09-20* — If Betrayer's Bargain resolves, its effect causes the creature to be exiled any time it would die that turn, not just if it would die as a result of damage dealt by Betrayer's Bargain.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): DSK #126 — [Art & Flavor → Duskmourn: House of Horror (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#duskmourn-house-of-horror-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,209 decks; most often under [Lynde, Cheerful Tormentor](../../cards/L/ly.md#lynde-cheerful-tormentor) (2.0% of its decks), [Arabella, Abandoned Doll](../../cards/A/ara.md#arabella-abandoned-doll) (0.7% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#betrayers-bargain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/126/betrayers-bargain) · oracle_id `bfb3d862-d92d-4a4f-9a22-671b55d954fd` · printing: DSK #126 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

@@ -4,6 +4,7 @@ Compares EDHREC's public *budget* and *expensive* deck pages (json.edhrec.com) p
 common in expensive decks; cuts are cards much more common in budget decks. Every card is checked against Scryfall:
 Commander-legal and within the commander's color identity. Prices are Scryfall's cheapest paper printing (snapshot).
 Usage: python3 scripts/build_upgrade_paths.py [--refresh]"""
+import atomic_io  # noqa: F401  atomic Path.write_text/write_bytes (Bot cycle 34)
 import json, re, sys, time, urllib.request
 from edh_lib import Data
 import ingest_scryfall as ing

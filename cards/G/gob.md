@@ -977,6 +977,8 @@ schema: 2
   - *2016-01-22* — If you can't cast the target instant or sorcery card, perhaps because there are no legal targets available, or if you choose not to cast it, it will remain in your graveyard.
   - *2016-01-22* — If you cast a card "without paying its mana cost," you can't pay alternative costs such as surge costs. You can pay additional costs. If the card has mandatory additional costs, you must pay those.
   - *2016-01-22* — You cast the card during the resolution of the enters-the-battlefield ability, not later in the turn. If it's a sorcery card, ignore the timing restrictions based on it being a sorcery card. Other timing restrictions, such as "Cast [this card] only during combat," must be followed.
+- **Lore:** ✅ Card art shown on [Beneath the Surface](https://magic.wizards.com/en/news/magic-story/beneath-surface-2016-01-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 14,856 decks; most often under [Zada, Hedron Grinder](../../cards/Z/za.md#zada-hedron-grinder) (16.4% of its decks), [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (5.7% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (4.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/153/goblin-dark-dwellers) · oracle_id `bab0ab8d-74d2-49a3-b258-b93d19925d99` · printing: C20 #153 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Deathraiders
@@ -1985,6 +1987,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6734 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — The number of Goblins is counted when this ability resolves.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Krenko, Mob Boss](../../decks/krenko-mob-boss.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 22,636 decks; most often under [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (34.5% of its decks), [Muxus, Goblin Grandee](../../cards/M/mu.md#muxus-goblin-grandee) (56.9% of its decks), [Wort, Boggart Auntie](../../cards/W/wo.md#wort-boggart-auntie) (25.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#goblin-piledriver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/151/goblin-piledriver) · oracle_id `4d74d12b-1ffb-482f-8bac-635a8d4d32e9` · printing: ORI #151 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2667,6 +2671,8 @@ schema: 2
   - *2013-04-15* — Goblin Test Pilot is a legal target of its own ability.
   - *2013-04-15* — The target is chosen at random as part of activating the ability. Players can respond to the ability knowing what the target of the ability is.
   - *2013-04-15* — To choose a target at random, all possible legal targets (including creatures and players) must have an equal chance of being chosen. There are many ways to do this, including assigning each possible legal target a number and rolling a die.
+- **Lore:** ✅ Card art shown on [Homesick](https://magic.wizards.com/en/news/magic-story/homesick-2016-08-29) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 430 decks; most often under [Ruhan of the Fomori](../../cards/R/ru.md#ruhan-of-the-fomori) (1.6% of its decks), [Okaun, Eye of Chaos // Zndrsplt, Eye of Wisdom](../../cards/O/ok.md#okaun-eye-of-chaos) (0.3% of its decks), [Yusri, Fortune's Flame](../../cards/Y/yu.md#yusri-fortunes-flame) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/74/goblin-test-pilot) · oracle_id `4760bb87-56e9-47eb-b5ec-6fa4dd19156e` · printing: DGM #74 (2013-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Tinkerer
@@ -2937,6 +2943,8 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18179 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Hedron Alignment](https://magic.wizards.com/en/news/magic-story/hedron-alignment-2015-11-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,113 decks; most often under [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (2.1% of its decks), [Valduk, Keeper of the Flame](../../cards/V/va.md#valduk-keeper-of-the-flame) (5.6% of its decks), [Uril, the Miststalker](../../cards/U/ur.md#uril-the-miststalker) (2.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#goblin-war-paint)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/146/goblin-war-paint) · oracle_id `67ca79d7-9064-4605-8625-b1cfe5cb1b45` · printing: BFZ #146 (2015-10-02) · [rulings](https://api.scryfall.com/cards/b6ff3183-c273-4a61-ad25-526db29111c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

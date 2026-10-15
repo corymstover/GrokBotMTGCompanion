@@ -1618,6 +1618,8 @@ schema: 2
   - *2012-05-01* — Barter in Blood doesn’t target any creatures and may be cast even if a player controls fewer than two creatures.
   - *2012-05-01* — If a player controls only one creature, that creature is sacrificed.
   - *2012-05-01* — The active player chooses which creatures will be sacrificed first, then each other player in turn order does the same. Then all creatures are sacrificed simultaneously.
+- **Lore:** ✅ Card art shown on [Unwelcome](https://magic.wizards.com/en/news/magic-story/unwelcome-2016-03-16) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 7,165 decks; most often under [Vren, the Relentless](../../cards/V/vr.md#vren-the-relentless) (5.4% of its decks), [Tergrid, God of Fright](../../cards/T/te.md#tergrid-god-of-fright--tergrids-lantern) (4.9% of its decks), [Meren of Clan Nel Toth](../../cards/M/me.md#meren-of-clan-nel-toth) (2.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/202/barter-in-blood) · oracle_id `9167998d-5cac-47d7-99f2-f38122f7b8e7` · printing: JMP #202 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bar the Door

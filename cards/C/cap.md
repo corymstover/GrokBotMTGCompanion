@@ -686,6 +686,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3972 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-10-01* — Captain of the Watch grants +1/+1 and vigilance to all other Soldier creatures you control, not just the ones its ability puts onto the battlefield.
+- **Lore:** ✅ Card art shown on [Chronomaton](https://magic.wizards.com/en/news/magic-story/chronomaton-2012-07-10) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 41,774 decks; most often under [Caesar, Legion's Emperor](../../cards/C/cae.md#caesar-legions-emperor) (39.4% of its decks), [Myrel, Shield of Argive](../../cards/M/my.md#myrel-shield-of-argive) (63.2% of its decks), [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (35.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#captain-of-the-watch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddo/3/captain-of-the-watch) · oracle_id `9f2af06d-8fb7-4276-bb92-3559a6d1fa18` · printing: DDO #3 (2015-02-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain of Umbar
@@ -1049,6 +1052,8 @@ schema: 2
   - *2016-09-20* — When a player casts an Aura spell, it targets the creature that it will enchant and may cause Captured by the Consulate's last ability to trigger.
   - *2016-09-20* — When you attach Captured by the Consulate to an opponent's creature, you still control Captured by the Consulate. Its last ability triggers whenever your opponents cast a spell with a single target, not when an opponent of the creature's controller casts a spell with a single target.
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called “story spotlights”—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): KLD #8 — [Art & Flavor → Kaladesh & Aether Revolt (2016–17)](../../Art%20%26%20Flavor%20Story%20Links.md#kaladesh--aether-revolt-201617) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,139 decks; most often under [Eriette of the Charmed Apple](../../cards/E/er.md#eriette-of-the-charmed-apple) (1.8% of its decks), [Light-Paws, Emperor's Voice](../../cards/L/li.md#light-paws-emperors-voice) (2.0% of its decks), [Pearl-Ear, Imperial Advisor](../../cards/P/pe.md#pearl-ear-imperial-advisor) (2.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#captured-by-the-consulate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/8/captured-by-the-consulate) · oracle_id `da164485-c985-42fa-819e-42f0d33237c5` · printing: KLD #8 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

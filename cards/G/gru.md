@@ -204,7 +204,9 @@ schema: 2
   > *Mishra was gone—all that remained was a machine wearing his face.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10659 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#gruesome-realization)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #103 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 11,239 decks; most often under [Maha, Its Feathers Night](../../cards/M/mah.md#maha-its-feathers-night) (64.3% of its decks), [Grismold, the Dreadsower](../../cards/G/gri.md#grismold-the-dreadsower) (22.5% of its decks), [Massacre Girl, Known Killer](../../cards/M/mas.md#massacre-girl-known-killer) (9.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/G.md#gruesome-realization)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/103/gruesome-realization) · oracle_id `c24e34e7-0ac6-451a-b73b-31c7f96d123f` · printing: BRO #103 (2022-11-18) · [rulings](https://api.scryfall.com/cards/21cd0ece-a267-42ab-b95a-6e7931bd837a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gruesome Scourger
@@ -231,6 +233,8 @@ schema: 2
   > *Though Gideon arrived at Sea Gate too late to prevent the massacre, he still had enough time to lead its survivors to relative safety.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9681 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Battle for Zendikar Story Summary](https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 13,211 decks; most often under [Zhulodok, Void Gorger](../../cards/Z/zh.md#zhulodok-void-gorger) (6.4% of its decks), [Graaz, Unstoppable Juggernaut](../../cards/G/gra.md#graaz-unstoppable-juggernaut) (32.9% of its decks), [Ultima, Origin of Oblivion](../../cards/U/ul.md#ultima-origin-of-oblivion) (15.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#gruesome-slaughter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/9/gruesome-slaughter) · oracle_id `5f6fbb1d-63c9-4913-8e99-9e8c3b4e8d8c` · printing: BFZ #9 (2015-10-02) · [rulings](https://api.scryfall.com/cards/3d3e464c-3032-4579-8840-4fe75474e3fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -395,6 +399,8 @@ schema: 2
 - **Rulings** (2):
   - *2013-04-15* — Activating the ability that turns the Keyrune into a creature while it's already a creature will override any effects that set its power and/or toughness to another number, but effects that modify power and/or toughness without directly setting them will still apply.
   - *2013-04-15* — Until the ability that turns the Keyrune into a creature resolves, the Keyrune is colorless.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/burying-part-1-2013-01-30) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,345 decks; most often under [Slinza, the Spiked Stampede](../../cards/S/sl.md#slinza-the-spiked-stampede) (1.3% of its decks), [Tovolar, Dire Overlord](../../cards/T/to.md#tovolar-dire-overlord--tovolar-the-midnight-scourge) (0.6% of its decks), [Ruric Thar, the Unbowed](../../cards/R/ru.md#ruric-thar-the-unbowed) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gtc/230/gruul-keyrune) · oracle_id `98bdb1e1-7550-47e8-aa06-f81802b257a0` · printing: GTC #230 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gruul Locket
@@ -502,6 +508,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #466 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-04-15* — If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.
+- **Lore:** ✅ Card art shown on [Clans & Legions](https://magic.wizards.com/en/news/magic-story/clans-legions-2018-10-24), [The Flood](https://magic.wizards.com/en/news/magic-story/flood-2018-01-10) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Kodama of the East Tree + Gruul Turf + Rampaging Baloths](https://commanderspellbook.com/combo/573-1479-4488/) (Infinite creature tokens, Infinite creature ETB) · EDHREC: in 278,372 decks; most often under [Bello, Bard of the Brambles](../../cards/B/be.md#bello-bard-of-the-brambles) (57.5% of its decks), [Auntie Ool, Cursewretch](../../cards/A/au.md#auntie-ool-cursewretch) (41.6% of its decks), [Omnath, Locus of Creation](../../cards/O/om.md#omnath-locus-of-creation) (43.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/G.md#gruul-turf)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/152/gruul-turf) · oracle_id `657243dd-e479-4f4b-99d2-09b55d833a35` · printing: ECC #152 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

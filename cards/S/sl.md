@@ -317,6 +317,8 @@ schema: 2
   > *—Huatli*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27964 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Race, Part 2](https://magic.wizards.com/en/news/magic-story/race-part-2-2017-10-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 408 decks; most often under [Gishath, Sun's Avatar](../../cards/G/gi.md#gishath-suns-avatar) (0.3% of its decks), [Pantlaza, Sun-Favored](../../cards/P/pa.md#pantlaza-sun-favored) (0.1% of its decks), [Zacama, Primal Calamity](../../cards/Z/za.md#zacama-primal-calamity) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/38/slash-of-talons) · oracle_id `ef331f13-bdd0-4123-9e61-b2e4b6b6d8b8` · printing: XLN #38 (2017-09-29) · [rulings](https://api.scryfall.com/cards/a97d474e-83b6-4969-81b4-51f5315057d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Slash Panther
@@ -445,6 +447,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26928 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2012-10-01* — You can leave any cards with that name in the zone they are in. You don’t have to exile them.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/slaughter-games-2012-10-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 531 decks; most often under [Rakdos, Lord of Riots](../../cards/R/rak.md#rakdos-lord-of-riots) (0.3% of its decks), [Zevlor, Elturel Exile](../../cards/Z/ze.md#zevlor-elturel-exile) (0.3% of its decks), [Magar of the Magic Strings](../../cards/M/mag.md#magar-of-the-magic-strings) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rtr/197/slaughter-games) · oracle_id `c38c7899-b774-489b-9eb7-084522635a3f` · printing: RTR #197 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Slaughterhorn
@@ -994,6 +998,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8536 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-02-02* — If you target a creature with ward, you may still pay the ward cost, but Slice from the Shadows won't be countered even if you don't.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MKM #103, MKM #301 — [Art & Flavor → Murders at Karlov Manor (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#murders-at-karlov-manor-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 16,012 decks; most often under [Zaxara, the Exemplary](../../cards/Z/za.md#zaxara-the-exemplary) (17.3% of its decks), [Massacre Girl, Known Killer](../../cards/M/mas.md#massacre-girl-known-killer) (55.5% of its decks), [Horobi, Death's Wail](../../cards/H/ho.md#horobi-deaths-wail) (23.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#slice-from-the-shadows)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/103/slice-from-the-shadows) · oracle_id `4d31d3f4-4748-4713-808f-24699fcd7b10` · printing: MKM #103 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1245,6 +1251,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5568 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2021-03-19* — If one or more Saprolings you control die at the same time as Slimefoot, Slimefoot's first ability will still trigger once for each Saproling that died.
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 10](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-10-2018-05-16), [Return to Dominaria: Episode 12](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-12-2018-05-30) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 29 combos; most popular [Slimefoot, the Stowaway + Ashnod's Altar + Doubling Season](https://commanderspellbook.com/combo/2034-2775-4772/) (Infinite damage, Infinite death triggers) · EDHREC as commander: 6,507 decks; highest synergy [Utopia Mycon](../../cards/U/ut.md#utopia-mycon) (+76%), [Deathspore Thallid](../../cards/D/dea.md#deathspore-thallid) (+75%), [Nemata, Primeval Warden](../../cards/N/ne.md#nemata-primeval-warden) (+71%) · EDHREC: in 22,095 decks; most often under [Ghave, Guru of Spores](../../cards/G/gh.md#ghave-guru-of-spores) (61.1% of its decks), [Slimefoot and Squee](../../cards/S/sl.md#slimefoot-and-squee) (47.1% of its decks), [The Mycotyrant](../../cards/T/them.md#the-mycotyrant) (43.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/S.md#slimefoot-the-stowaway)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/356/slimefoot-the-stowaway) · oracle_id `fd541139-de13-4b32-93ba-070ecf711d33` · printing: CMM #356 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1870,6 +1878,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5044 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2014-07-18* — Whether you control a Sliver is checked only when you activate the last ability, not as that ability resolves. If you control no Slivers at the time the ability resolves, you’ll still get a Sliver token.
+- **Lore:** ✅ Card art shown on [The Bard and the Biologist](https://magic.wizards.com/en/news/magic-story/bard-and-biologist-2014-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 31,693 decks; most often under [The First Sliver](../../cards/T/thef.md#the-first-sliver) (67.1% of its decks), [Sliver Overlord](../../cards/S/sl.md#sliver-overlord) (70.7% of its decks), [Sliver Hivelord](../../cards/S/sl.md#sliver-hivelord) (46.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sliver-hive)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m15/247/sliver-hive) · oracle_id `e7286688-ffbe-4d25-ad55-27990f005368` · printing: M15 #247 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1889,6 +1899,8 @@ schema: 2
   - *2014-07-18* — Damage dealt to a Sliver with indestructible is still marked on that creature. If it has lethal damage marked on it and it loses indestructible (perhaps because Sliver Hivelord leaves the battlefield), it will be destroyed.
   - *2014-07-18* — If you change the creature type of a Sliver you control so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures you control.
   - *2014-07-18* — Slivers in this set affect only Sliver creatures you control. They don’t grant bonuses to your opponents’ Slivers. This is the same way Slivers from the Magic 2014 core set worked, while Slivers in earlier sets granted bonuses to all Slivers.
+- **Lore:** ✅ Card art shown on [The Bard and the Biologist](https://magic.wizards.com/en/news/magic-story/bard-and-biologist-2014-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4,591 decks; highest synergy [Gemhide Sliver](../../cards/G/ge.md#gemhide-sliver) (+82%), [Cloudshredder Sliver](../../cards/C/cl.md#cloudshredder-sliver) (+78%), [Sentinel Sliver](../../cards/S/sen.md#sentinel-sliver) (+77%) · EDHREC: in 38,307 decks; most often under [The First Sliver](../../cards/T/thef.md#the-first-sliver) (88.7% of its decks), [Sliver Overlord](../../cards/S/sl.md#sliver-overlord) (90.2% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (15.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/937/sliver-hivelord) · oracle_id `e4fe33e7-b952-4152-8c83-81d948756d2f` · printing: CMM #937 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sliver Legion

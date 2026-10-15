@@ -98,7 +98,9 @@ schema: 2
   > *With every retelling of Agatha's demise, Kellan got taller and Ruby got stronger. But the core story stayed the same, and people remembered what happens to those who prey on the weak.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15234 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#a-tale-for-the-ages)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WOE #34 — [Art & Flavor → Wilds of Eldraine (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#wilds-of-eldraine-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,224 decks; most often under [Gylwain, Casting Director](../../cards/G/gy.md#gylwain-casting-director) (57.6% of its decks), [Ellivere of the Wild Court](../../cards/E/el.md#ellivere-of-the-wild-court) (8.4% of its decks), [Eriette of the Charmed Apple](../../cards/E/er.md#eriette-of-the-charmed-apple) (2.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/A.md#a-tale-for-the-ages)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/34/a-tale-for-the-ages) · oracle_id `682a0770-8fe0-4142-aa0c-b60af3628a33` · printing: WOE #34 (2023-09-08) · [rulings](https://api.scryfall.com/cards/ca0c8d3b-ce30-4da5-a6a8-9bdcb3c757f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atalya, Samite Master
@@ -133,6 +135,8 @@ schema: 2
   - *2015-02-25* — If you control a creature with power less than 0, use its actual power when calculating the total power of creatures you control. For example, if you control three creatures with powers 4, 5, and -2, the total power of creatures you control is 7.
   - *2015-02-25* — Other formidable abilities are triggered abilities with an "intervening 'if'" clause. Such abilities check the total power of creatures you control twice: once at the appropriate time to see if the ability will trigger, and again as the ability tries to resolve. If, at that time, the total power of creatures you control is no longer 8 or greater, the ability will have no effect.
   - *2015-02-25* — Some formidable abilities are activated abilities that require creatures you control to have total power 8 or greater. Once you activate these abilities, it doesn't matter what happens to the total power of creatures you control.
+- **Lore:** ✅ Card art shown on [The Call](https://magic.wizards.com/en/news/magic-story/call-2015-04-15), [Sorin's Restoration](https://magic.wizards.com/en/news/magic-story/sorins-restoration-2015-03-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 230 decks; most often under [Agatha of the Vile Cauldron](../../cards/A/ag.md#agatha-of-the-vile-cauldron) (0.3% of its decks), [Chevill, Bane of Monsters](../../cards/C/che.md#chevill-bane-of-monsters) (0.7% of its decks), [Surrak Dragonclaw](../../cards/S/sur.md#surrak-dragonclaw) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/174/atarka-beastbreaker) · oracle_id `fdd4ef61-607a-4090-9380-dabbbb448519` · printing: DTK #174 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atarka Efreet
@@ -204,6 +208,8 @@ schema: 2
   - *2015-02-25* — The first mode won't affect life that was gained earlier in the turn.
   - *2015-02-25* — You can choose a mode only if you can choose legal targets for that mode. Ignore the targeting requirements for modes that aren't chosen. For example, you can cast Ojutai's Command without targeting a creature spell provided you don't choose the third mode.
   - *2015-02-25* — You choose the two modes as you cast the spell. You must choose two different modes. Once modes are chosen, they can't be changed.
+- **Lore:** ✅ Card art shown on [The Call](https://magic.wizards.com/en/news/magic-story/call-2015-04-15), [Chronicle of Bolas: Perspectives](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-perspectives-2018-08-08), [Planeswalker's Guide to Dragons of Tarkir, Part 2](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-dragons-tarkir-part-2-2015-03-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 23,159 decks; most often under [Indoraptor, the Perfect Hybrid](../../cards/I/ind.md#indoraptor-the-perfect-hybrid) (60.5% of its decks), [Riku of Many Paths](../../cards/R/ri.md#riku-of-many-paths) (67.8% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (6.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/176/atarkas-command) · oracle_id `1943cbb0-2b12-4450-90af-060b8c8627c3` · printing: 2X2 #176 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atarka, World Render
@@ -220,6 +226,8 @@ schema: 2
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1373 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Khanfall](https://magic.wizards.com/en/news/magic-story/khanfall-2015-02-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (3): [Atarka, World Render (Tarkir-only)](../../decks/plane-tarkir-atarka-world-render.md) · [The Ur-Dragon](../../decks/the-ur-dragon.md) · [Xenagos, God of Revels](../../decks/xenagos-god-of-revels.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 5,914 decks; highest synergy [Dragon Tempest](../../cards/D/dra.md#dragon-tempest) (+85%), [Dragonspeaker Shaman](../../cards/D/dra.md#dragonspeaker-shaman) (+85%), [Dragonlord's Servant](../../cards/D/dra.md#dragonlords-servant) (+81%) · EDHREC: in 111,442 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (64.6% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (69.8% of its decks), [Ureni of the Unwritten](../../cards/U/ur.md#ureni-of-the-unwritten) (88.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 5 pages (3 decks · 1 edh guides · 1 card data) → [reverse index](../../references/A.md#atarka-world-render)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/281/atarka-world-render) · oracle_id `c0b3bbce-977c-42a9-afcb-dabdfc717c97` · printing: TDC #281 (2025-04-11) · [rulings](https://api.scryfall.com/cards/c569fab1-6901-40ab-b958-001698819585/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -951,6 +959,8 @@ schema: 2
   - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
   - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
   - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Lore:** ✅ Card art shown on [Bottled Up](https://magic.wizards.com/en/news/magic-story/bottled-2016-09-28) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 15,686 decks; most often under [Saheeli, Radiant Creator](../../cards/S/sah.md#saheeli-radiant-creator) (74.1% of its decks), [Nissa, Worldsoul Speaker](../../cards/N/ni.md#nissa-worldsoul-speaker) (75.1% of its decks), [Pia Nalaar, Chief Mechanic](../../cards/P/pi.md#pia-nalaar-chief-mechanic) (71.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/145/attune-with-aether) · oracle_id `b337c241-f2c4-48e3-a303-371b172fcd18` · printing: KLD #145 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atzocan Archer

@@ -488,6 +488,8 @@ schema: 2
   > *"My greatest hope is that you will surpass me in every way, consigning my name to some forgotten corner of history."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25405 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Lunarch's Journal](https://magic.wizards.com/en/news/magic-story/lunarchs-journal-2014-08-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 758 decks; most often under [Kyler, Sigardian Emissary](../../cards/K/ky.md#kyler-sigardian-emissary) (0.7% of its decks), [Greymond, Avacyn's Stalwart](../../cards/G/gre.md#greymond-avacyns-stalwart) (0.8% of its decks), [Myrel, Shield of Argive](../../cards/M/my.md#myrel-shield-of-argive) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddq/9/elder-cathar) · oracle_id `ba9ac0a9-735d-4bca-9d24-586aca963872` · printing: DDQ #9 (2016-02-26) · [rulings](https://api.scryfall.com/cards/26c38fbf-09ab-46fc-905e-ca45a85d794b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Elder Deep-Fiend
@@ -1793,7 +1795,9 @@ schema: 2
 - **Rulings** (2):
   - *2018-01-19* — If Elenda dies at the same time as another creature, both of its triggered abilities trigger. However, the first one won't do anything since you can't put a +1/+1 counter on Elenda.
   - *2018-01-19* — To determine how many Vampire tokens are created, use Elenda's power as it last existed on the battlefield.
-- **Referenced in:** 6 pages (3 decks · 2 edh guides · 1 card data) → [reverse index](../../references/E.md#elenda-the-dusk-rose)
+- **Lore:** ✅ Card art shown on [Glimpse the Far Side of the Sun](https://magic.wizards.com/en/news/magic-story/glimpse-far-side-sun-2018-01-17), [Who Tells the Stories](https://magic.wizards.com/en/news/magic-story/who-tells-stories-2018-02-07) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (3): [Edgar Markov](../../decks/edgar-markov.md) · [Teysa Karlov](../../decks/teysa-karlov.md) · [Edgar Markov (lifegain theme)](../../decks/theme-edgar-markov-lifegain.md) · Commander Spellbook: 14 combos; most popular [Elenda, the Dusk Rose + Nim Deathmantle + Ashnod's Altar](https://commanderspellbook.com/combo/2034-2876-5003/) (Infinite +1/+1 counters on a creature, Infinite colorless mana) · EDHREC as commander: 6,986 decks; highest synergy [Blade of the Bloodchief](../../cards/B/bla.md#blade-of-the-bloodchief) (+65%), [Cordial Vampire](../../cards/C/cor.md#cordial-vampire) (+61%), [Teysa Karlov](../../cards/T/te.md#teysa-karlov) (+51%) · EDHREC: in 117,940 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (58.5% of its decks), [Teysa Karlov](../../cards/T/te.md#teysa-karlov) (70.3% of its decks), [Clavileño, First of the Blessed](../../cards/C/cl.md#clavileño-first-of-the-blessed) (87.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 7 pages (3 decks · 3 edh guides · 1 card data) → [reverse index](../../references/E.md#elenda-the-dusk-rose)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/268/elenda-the-dusk-rose) · oracle_id `ce35f262-b93f-4409-8b33-26a7ed7abac8` · printing: LCC #268 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Elephant Ambush
@@ -1917,6 +1921,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #857 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2017-11-17* — If a second Elesh Norn, Grand Cenobite comes under your control, you'll put one into its owner's graveyard due to the “legend rule” at the same time that any of your opponents' creatures getting -4/-4 are put into their owner's graveyard for having 0 or less toughness.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/lost-confession-2013-09-09), [official story page](https://magic.wizards.com/en/news/feature/lost-confession-2013-09-11), [official story page](https://magic.wizards.com/en/news/feature/lost-confession-2013-12-18) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Elesh Norn](../../Characters%20Index.md#elesh-norn) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Elesh Norn, Mother of Machines (New-only)](../../decks/plane-new-phyrexia-elesh-norn-mother-of-machines.md) · Commander Spellbook: 27 combos; most popular [Kudo, King Among Bears + Elesh Norn, Grand Cenobite](https://commanderspellbook.com/combo/5158-5612/) (Destroy all creatures opponents control, Destroy each creature that enters the battlefield under an opponent's control) · EDHREC as commander: 1,881 decks; highest synergy [White Sun's Twilight](../../cards/W/wh.md#white-suns-twilight) (+38%), [Norn's Annex](../../cards/N/no.md#norns-annex) (+32%), [Mondrak, Glory Dominus](../../cards/M/mon.md#mondrak-glory-dominus) (+31%) · EDHREC: in 170,335 decks; most often under [Hashaton, Scarab's Fist](../../cards/H/ha.md#hashaton-scarabs-fist) (35.3% of its decks), [Kudo, King Among Bears](../../cards/K/ku.md#kudo-king-among-bears) (67.0% of its decks), [Elesh Norn, Mother of Machines](../../cards/E/el.md#elesh-norn-mother-of-machines) (49.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (1 decks · 1 edh guides · 1 rules · 1 lore & story) → [reverse index](../../references/E.md#elesh-norn-grand-cenobite)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/18/elesh-norn-grand-cenobite) · oracle_id `958d71ff-c9f7-46f0-96ca-79e7f4d65a16` · printing: IMA #18 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1966,6 +1972,8 @@ schema: 2
 - **Rulings** (2):
   - *2023-04-14* — Elesh Norn’s triggered ability will trigger separately for each permanent dealt damage by a source an opponent controls, plus once if you’re dealt damage by that source. For example, if an opponent casts a spell that deals damage to you and two creatures you control, Elesh Norn’s ability will trigger three times. Each of those abilities will cause that opponent to lose 2 life unless they pay {1}.
   - *2023-04-14* — Similarly, the triggered ability will trigger separately for each source an opponent controls that deals damage to you or a permanent you control. For example, if three creatures controlled by an opponent block and deal damage to an attacking creature you control, Elesh Norn’s ability will trigger three times.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Elesh Norn](../../Characters%20Index.md#elesh-norn) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4,046 decks; highest synergy [Norn's Inquisitor](../../cards/N/no.md#norns-inquisitor) (+79%), [Essence of Orthodoxy](../../cards/E/es.md#essence-of-orthodoxy) (+76%), [Progenitor Exarch](../../cards/P/pr.md#progenitor-exarch) (+74%) · EDHREC: in 35,319 decks; most often under [Brimaz, Blight of Oreskos](../../cards/B/br.md#brimaz-blight-of-oreskos) (71.0% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (7.0% of its decks), [Omnath, Locus of All](../../cards/O/om.md#omnath-locus-of-all) (12.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 rules · 1 lore & story · 1 card data) → [reverse index](../../references/E.md#elesh-norn--the-argent-etchings)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/12/elesh-norn-the-argent-etchings) · oracle_id `650ed75c-20b0-45b8-a4d4-813e0369aaf1` · printing: MOM #12 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2274,6 +2282,8 @@ schema: 2
 - **Keywords:** Vigilance, First strike, Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21660 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Hunter Cannot Pity](https://magic.wizards.com/en/news/magic-story/hunter-cannot-pity-2014-07-16) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,643 decks; most often under [Odric, Lunarch Marshal](../../cards/O/od.md#odric-lunarch-marshal) (8.1% of its decks), [Kwende, Pride of Femeref](../../cards/K/kw.md#kwende-pride-of-femeref) (26.7% of its decks), [Akroma, Vision of Ixidor // Rograkh, Son of Rohgahh](../../cards/A/ak.md#akroma-vision-of-ixidor) (12.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/isd/13/elite-inquisitor) · oracle_id `4f7e865b-6ab0-4361-b864-63c38cdb2fed` · printing: ISD #13 (2011-09-30) · [rulings](https://api.scryfall.com/cards/c9411c44-92a8-4f5d-b3de-d80046649c8c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Elite Instructor
@@ -2810,6 +2820,8 @@ schema: 2
 - **Rulings** (2):
   - *2011-01-01* — Emblems behave similarly to enchantments: They have an ability that, in a general sense, continually affects the game. The primary difference between them is that emblems aren’t permanents and don’t exist on the battlefield. Nothing in the game can remove an emblem, simply because no other spell or ability references them. Once you get an emblem, you keep it for the rest of the game. Emblems have no color, name, card type, or other characteristics beyond the listed ability.
   - *2013-07-01* — Lethal damage and effects that say “destroy” won’t cause a permanent with indestructible to be put into the graveyard. However, a permanent with indestructible can be put into the graveyard for a number of reasons. The most likely reasons are if it’s sacrificed, if it’s a creature whose toughness is 0 or less, or if it’s an Aura that’s either unattached or attached to something illegal.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Elspeth Tirel](../../Characters%20Index.md#elspeth-tirel) · [Dossier → Elspeth Tirel](../../Planeswalker%20Dossiers.md#elspeth-tirel) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 26,694 decks; most often under [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (3.9% of its decks), [Myrel, Shield of Argive](../../cards/M/my.md#myrel-shield-of-argive) (11.3% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (2.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/E.md#elspeth-knight-errant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mma/13/elspeth-knight-errant) · oracle_id `eab0d8b9-c66f-402f-b259-f46f15cefd78` · printing: MMA #13 (2013-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2831,6 +2843,8 @@ schema: 2
   - *2022-04-29* — Removing a shield counter in this way isn't the same as regenerating a creature.
   - *2022-04-29* — Shield counters don't prevent players from sacrificing creatures.
   - *2022-04-29* — “Shield” is not an ability that creatures have and shield counters are not keyword counters. If a creature with a shield counter loses its abilities, the shield counter will still protect it as normal.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Elspeth Tirel](../../Characters%20Index.md#elspeth-tirel) · [Dossier → Elspeth Tirel](../../Planeswalker%20Dossiers.md#elspeth-tirel) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 29,871 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (11.7% of its decks), [Tidus, Yuna's Guardian](../../cards/T/ti.md#tidus-yunas-guardian) (16.5% of its decks), [Perrie, the Pulverizer](../../cards/P/pe.md#perrie-the-pulverizer) (53.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (2 lore & story · 2 card data) → [reverse index](../../references/E.md#elspeth-resplendent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/11/elspeth-resplendent) · oracle_id `24591330-d038-478f-b89d-b7b66c0b5cc3` · printing: SNC #11 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2878,6 +2892,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16420 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-11-08* — Elspeth's Smite's replacement effect will exile the target creature or planeswalker if it would die this turn for any reason, not just due to lethal damage.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MOM #13, PLST #MOM-13 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,251 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (1.0% of its decks), [Anti-Venom, Horrifying Healer](../../cards/A/an.md#anti-venom-horrifying-healer) (0.9% of its decks), [Myrel, Shield of Argive](../../cards/M/my.md#myrel-shield-of-argive) (1.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/E.md#elspeths-smite)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/13/elspeths-smite) · oracle_id `3f404fe4-4335-4dcc-ba90-78246c4b880b` · printing: MOM #13 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2910,6 +2926,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #663 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-04-04* — Everything that is specified by the effect creating the original token or tokens will also be true about the additional token or tokens created by Elspeth’s replacement effect. For example, if an effect tells you to create a token “tapped and attacking,” the additional tokens will also be tapped and attacking.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Elspeth Tirel](../../Characters%20Index.md#elspeth-tirel) · [Dossier → Elspeth Tirel](../../Planeswalker%20Dossiers.md#elspeth-tirel) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Gleaming Splendor + Smothering Tithe + Elspeth, Storm Slayer](https://commanderspellbook.com/combo/4682-6441-7890/) (Infinite card draw for any number of players, Infinite draw triggers for any number of players) · EDHREC: in 208,312 decks; most often under [Baylen, the Haymaker](../../cards/B/bay.md#baylen-the-haymaker) (32.6% of its decks), [Zurgo Stormrender](../../cards/Z/zu.md#zurgo-stormrender) (35.8% of its decks), [Caesar, Legion's Emperor](../../cards/C/cae.md#caesar-legions-emperor) (32.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Token doublers](../../EDH%20Packages.md#tokens-token-doublers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 5 pages (1 edh guides · 2 lore & story · 2 card data) → [reverse index](../../references/E.md#elspeth-storm-slayer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/11/elspeth-storm-slayer) · oracle_id `f78af825-023a-42e9-8374-5c52303a1417` · printing: TDM #11 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2924,6 +2942,8 @@ schema: 2
   > −7: You get an emblem with "Creatures you control get +2/+2 and have flying."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #786 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Elspeth Tirel](../../Characters%20Index.md#elspeth-tirel) · [Dossier → Elspeth Tirel](../../Planeswalker%20Dossiers.md#elspeth-tirel) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Atraxa, Praetors' Voice (planeswalkers theme)](../../decks/theme-atraxa-praetors-voice-planeswalkers.md) · Commander Spellbook: 4 combos; most popular [The Chain Veil + Ashnod's Altar + Teferi, Who Slows the Sunset + Elspeth, Sun's Champion](https://commanderspellbook.com/combo/1124-2034-2242-2696/) (Infinite activations of most planeswalkers, Infinite colorless mana) · EDHREC: in 184,562 decks; most often under [Zinnia, Valley's Voice](../../cards/Z/zi.md#zinnia-valleys-voice) (49.7% of its decks), [Arabella, Abandoned Doll](../../cards/A/ara.md#arabella-abandoned-doll) (32.6% of its decks), [Commodore Guff](../../cards/C/com.md#commodore-guff) (82.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 8 pages (1 decks · 3 edh guides · 2 lore & story · 2 card data) → [reverse index](../../references/E.md#elspeth-suns-champion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/24/elspeth-suns-champion) · oracle_id `05e6b243-48a6-4a42-bc5f-413441de9c33` · printing: FRC #24 (2026-10-02) · [rulings](https://api.scryfall.com/cards/a91d9163-c1f2-4eae-acab-5dabbc71d7d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2948,7 +2968,9 @@ schema: 2
   - *2020-01-24* — If you cast a spell with its escape permission, you can't choose to apply any other alternative costs or to cast it without paying its mana cost. If it has any additional costs, you must pay those.
   - *2020-01-24* — Once you begin casting a spell with escape, it immediately moves to the stack. Players can't take any other actions until you're done casting the spell.
   - *2020-01-24* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an escape cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was and no matter whether an alternative cost was paid.
-- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/E.md#elspeth-suns-nemesis)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Elspeth Tirel](../../Characters%20Index.md#elspeth-tirel) · [Dossier → Elspeth Tirel](../../Planeswalker%20Dossiers.md#elspeth-tirel) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,694 decks; most often under [Silvar, Devourer of the Free // Trynn, Champion of Freedom](../../cards/S/si.md#silvar-devourer-of-the-free) (4.3% of its decks), [General Kudro of Drannith](../../cards/G/ge.md#general-kudro-of-drannith) (24.4% of its decks), [Éowyn, Shieldmaiden](../../cards/E/eo.md#éowyn-shieldmaiden) (1.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 edh guides · 2 lore & story) → [reverse index](../../references/E.md#elspeth-suns-nemesis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/14/elspeth-suns-nemesis) · oracle_id `faf296b0-59e5-4ec9-9912-e5e21c0ce9f5` · printing: THB #14 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Elspeth Tirel
@@ -2963,7 +2985,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4975 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-01-01* — As Elspeth Tirel's last ability resolves, each permanent that isn't a token, a land, or Elspeth Tirel herself is destroyed.
-- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/E.md#elspeth-tirel)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Elspeth Tirel](../../Characters%20Index.md#elspeth-tirel) · [Dossier → Elspeth Tirel](../../Planeswalker%20Dossiers.md#elspeth-tirel) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 32,188 decks; most often under [Trostani, Selesnya's Voice](../../cards/T/tro.md#trostani-selesnyas-voice) (18.8% of its decks), [Child of Alara](../../cards/C/chi.md#child-of-alara) (16.9% of its decks), [Neyali, Suns' Vanguard](../../cards/N/ne.md#neyali-suns-vanguard) (53.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 edh guides · 2 lore & story) → [reverse index](../../references/E.md#elspeth-tirel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/6/elspeth-tirel) · oracle_id `5f815e69-fdd6-4186-9317-25f5c7e0b08e` · printing: SOM #6 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Elspeth, Undaunted Hero
@@ -2984,6 +3008,8 @@ schema: 2
   - *2020-01-24* — If you put an Aura on an opponent’s permanent, you still control the Aura, and mana symbols in its mana cost count towards your devotion.
   - *2020-01-24* — Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color.
   - *2020-01-24* — The value of X is determined only as Elspeth’s last ability resolves. Once that happens, the value of X won’t change later in the turn even if your devotion to white changes.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Elspeth Tirel](../../Characters%20Index.md#elspeth-tirel) · [Dossier → Elspeth Tirel](../../Planeswalker%20Dossiers.md#elspeth-tirel) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,130 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (0.2% of its decks), [Myrel, Shield of Argive](../../cards/M/my.md#myrel-shield-of-argive) (1.0% of its decks), [Anti-Venom, Horrifying Healer](../../cards/A/an.md#anti-venom-horrifying-healer) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/E.md#elspeth-undaunted-hero)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/270/elspeth-undaunted-hero) · oracle_id `3f9a797b-85e7-474e-aefe-7e2ec08fc5b7` · printing: THB #270 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

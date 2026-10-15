@@ -17,6 +17,7 @@ Usage:
   python3 scripts/build_crossrefs.py            apply everything (then: build_packages.py, front_matter.py, kb_find.py --build)
   python3 scripts/build_crossrefs.py --check    exit 1 if any generated block, reverse-index page, JSON or shard line is stale
 """
+import atomic_io  # noqa: F401  atomic Path.write_text/write_bytes (Bot cycle 34)
 import csv
 import json
 import re

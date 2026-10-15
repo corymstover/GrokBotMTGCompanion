@@ -864,6 +864,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19035 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2015-06-22* — Once an attacking creature with menace is legally blocked by two or more creatures, removing one or more of those blockers from combat won't change or undo that block.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,667 decks; most often under [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (3.5% of its decks), [Gornog, the Red Reaper](../../cards/G/gor.md#gornog-the-red-reaper) (2.6% of its decks), [Zada, Hedron Grinder](../../cards/Z/za.md#zada-hedron-grinder) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/299/boggart-brute) · oracle_id `880793a2-84b0-4ae1-9bb8-6e942e3dc723` · printing: JMP #299 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Boggart Cursecrafter
@@ -1272,6 +1274,8 @@ schema: 2
   > *—Witherbloom student handbook*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6293 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-1-penmanship-practice) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 86 combos; most popular [Warren Soultrader + Chatterfang, Squirrel General + Bogwater Lumaret](https://commanderspellbook.com/combo/3000-5670-7399/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC: in 24,710 decks; most often under [Blech, Loafing Pest](../../cards/B/ble.md#blech-loafing-pest) (82.9% of its decks), [Witherbloom, the Balancer](../../cards/W/wi.md#witherbloom-the-balancer) (20.0% of its decks), [Dina, Essence Brewer](../../cards/D/di.md#dina-essence-brewer) (15.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#bogwater-lumaret)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/177/bogwater-lumaret) · oracle_id `0109432d-5a2a-456f-ad39-b75cb4c73420` · printing: SOS #177 (2026-04-24) · [rulings](https://api.scryfall.com/cards/7a42f51a-3377-47bb-b6fb-c0515bf1dcfb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1389,6 +1393,8 @@ schema: 2
   - *2015-08-25* — If the non-awaken part of the spell requires a target, you must choose a legal target. You can’t cast the spell if you can’t choose a legal target for each instance of the word “target” (though you only need a legal target for the awaken ability if you’re casting the spell for its awaken cost).
   - *2015-08-25* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that’s turned into a creature this way can still be tapped for {G}.
   - *2015-08-25* — You can cast a spell with awaken for its mana cost and get only its first effect. If you cast a spell for its awaken cost, you’ll get both effects.
+- **Lore:** ✅ Card art shown on [Shaping an Army](https://magic.wizards.com/en/news/magic-story/shaping-army-2015-10-21) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 8,810 decks; most often under [Ghyrson Starn, Kelermorph](../../cards/G/gh.md#ghyrson-starn-kelermorph) (17.0% of its decks), [Judith, Carnage Connoisseur](../../cards/J/ju.md#judith-carnage-connoisseur) (26.9% of its decks), [Taii Wakeen, Perfect Shot](../../cards/T/ta.md#taii-wakeen-perfect-shot) (13.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 rules) → [reverse index](../../references/B.md#boiling-earth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/142/boiling-earth) · oracle_id `fb34b671-b61a-47e2-90fa-dbe5cf6d3743` · printing: BFZ #142 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2074,6 +2080,8 @@ schema: 2
   - *2015-06-22* — If a creature that can’t attack alone also must attack if able, its controller must attack with it and another creature if able.
   - *2015-06-22* — If you control more than one creature that can’t attack alone, they can attack together, even if no other creatures attack.
   - *2015-06-22* — In a Two-Headed Giant game (or in another format using the shared team turns option), Bonded Construct can attack with a creature controlled by your teammate, even if no other creatures you control attack.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,290 decks; most often under [Nylea, Keen-Eyed](../../cards/N/ny.md#nylea-keen-eyed) (17.3% of its decks), [Graaz, Unstoppable Juggernaut](../../cards/G/gra.md#graaz-unstoppable-juggernaut) (1.4% of its decks), [Arcum Dagsson](../../cards/A/arc.md#arcum-dagsson) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/223/bonded-construct) · oracle_id `c7556be3-649a-4994-8aaa-a0f258856682` · printing: ORI #223 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bonded Fetch
@@ -2273,6 +2281,8 @@ schema: 2
 - **Rulings** (2):
   - *2016-01-22* — Damage dealt to a creature with indestructible is still marked on that creature. If that creature loses indestructible, and the marked damage is lethal, it will be destroyed. However, if a creature with indestructible is dealt damage by a source with deathtouch and then later loses indestructible, that creature won’t be destroyed.
   - *2016-01-22* — The last ability causes creatures your opponents control to lose hexproof and indestructible as it resolves. Effects that cause those creatures to gain those abilities after that point will work normally.
+- **Lore:** ✅ Card art shown on [Zendikar's Last Stand](https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 12,716 decks; most often under [Chevill, Bane of Monsters](../../cards/C/che.md#chevill-bane-of-monsters) (43.7% of its decks), [Legolas, Master Archer](../../cards/L/le.md#legolas-master-archer) (21.5% of its decks), [Kraven the Hunter](../../cards/K/kr.md#kraven-the-hunter) (16.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#bonds-of-mortality)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/128/bonds-of-mortality) · oracle_id `d93ba2f2-bf9b-444b-adbb-3835662734e7` · printing: OGW #128 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2990,7 +3000,9 @@ schema: 2
   - *2017-04-18* — Each Monument's triggered ability triggers as the creature spell is cast and resolves before that creature spell resolves. The ability will resolve even if that creature spell is countered.
   - *2017-04-18* — In a Two-Headed Giant game, the triggered ability of Bontu's Monument causes the opposing team to lose 2 life and you gain 1 life.
   - *2017-04-18* — To determine the total cost of a creature spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the creature remains unchanged, no matter what the total cost to cast it was.
-- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/B.md#bontus-monument)
+- **Lore:** ✅ Card art shown on [Brazen](https://magic.wizards.com/en/news/magic-story/brazen-2017-05-03) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 65 combos; most popular [Warren Soultrader + Gravecrawler + Bontu's Monument](https://commanderspellbook.com/combo/2577-2932-5670/) (Infinite creature LTB, Infinite creature ETB) · EDHREC: in 207,173 decks; most often under [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (37.2% of its decks), [Marrow-Gnawer](../../cards/M/mar.md#marrow-gnawer) (63.1% of its decks), [Temmet, Naktamun's Will](../../cards/T/te.md#temmet-naktamuns-will) (63.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/B.md#bontus-monument)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/179/bontus-monument) · oracle_id `940ba435-7abc-40f8-a5af-c1c653b3284e` · printing: DMC #179 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bontu the Glorified
@@ -3009,6 +3021,8 @@ schema: 2
   - *2017-04-18* — Creature tokens that die are put into your graveyard as normal (and cease to exist soon after). If one died this turn, it satisfies Bontu's combat restriction.
   - *2017-04-18* — In a Two-Headed Giant game, Bontu's activated ability causes the opposing team to lose 2 life and you gain 1 life.
   - *2017-04-18* — The creature that died doesn't have to still be in its owner's graveyard to satisfy Bontu's combat restriction.
+- **Lore:** ✅ Card art shown on [Brazen](https://magic.wizards.com/en/news/magic-story/brazen-2017-05-03) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 278 decks; highest synergy [Reassembling Skeleton](../../cards/R/rea.md#reassembling-skeleton) (+49%), [Zulaport Cutthroat](../../cards/Z/zu.md#zulaport-cutthroat) (+41%), [Bastion of Remembrance](../../cards/B/bas.md#bastion-of-remembrance) (+40%) · EDHREC: in 12,286 decks; most often under [Indominus Rex, Alpha](../../cards/I/ind.md#indominus-rex-alpha) (45.9% of its decks), [Child of Alara](../../cards/C/chi.md#child-of-alara) (7.5% of its decks), [Kathril, Aspect Warper](../../cards/K/ka.md#kathril-aspect-warper) (17.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/82/bontu-the-glorified) · oracle_id `c2679c32-a23d-4953-bb48-b46580439ce2` · printing: AKH #82 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bonus Round
@@ -3589,6 +3603,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11741 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [War of the Spark: Ravnica—Desperate Operatives](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-desperate-operatives-2019-05-29) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 40 combos; most popular [Borborygmos Enraged + Life from the Loam + Surly Badgersaur + Tranquil Thicket](https://commanderspellbook.com/combo/2051-2546-4298-4578/) (Infinite self-mill, Near-infinite damage) · EDHREC as commander: 3,086 decks; highest synergy [Creeping Renaissance](../../cards/C/cr.md#creeping-renaissance) (+66%), [Snake Umbra](../../cards/S/sn.md#snake-umbra) (+66%), [Keen Sense](../../cards/K/ke.md#keen-sense) (+62%) · EDHREC: in 6,320 decks; most often under [Borborygmos and Fblthp](../../cards/B/bo.md#borborygmos-and-fblthp) (46.3% of its decks), [Lord Windgrace](../../cards/L/lo.md#lord-windgrace) (6.2% of its decks), [Mina and Denn, Wildborn](../../cards/M/min.md#mina-and-denn-wildborn) (24.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#borborygmos-enraged)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/167/borborygmos-enraged) · oracle_id `b7505737-1fc8-4ee8-8b1d-5dde73b6a76d` · printing: RVR #167 (2024-01-12) · [rulings](https://api.scryfall.com/cards/02df18c5-07b9-4e85-9c4b-58b63fa59437/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3924,6 +3940,8 @@ schema: 2
   - *2013-04-15* — If you choose two targets for Boros Battleshaper’s ability, and only one of those targets is legal when the ability tries to resolve, only the legal target will be affected. If all targets are illegal when the ability tries to resolve, it won’t resolve and none of its effects will happen.
   - *2013-04-15* — The controller of each creature chooses which player or planeswalker it attacks or which attacking creature it blocks, as appropriate.
   - *2013-04-15* — You may choose zero targets for either or both instances of “up to one target creature.”
+- **Lore:** ✅ Card art shown on [The Gorgon and the Guildpact](https://magic.wizards.com/en/news/magic-story/gorgon-and-guildpact-2014-03-12) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,633 decks; most often under [General Ferrous Rokiric](../../cards/G/ge.md#general-ferrous-rokiric) (2.4% of its decks), [Aurelia, the Warleader](../../cards/A/au.md#aurelia-the-warleader) (1.8% of its decks), [Commander Mustard](../../cards/C/com.md#commander-mustard) (2.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/58/boros-battleshaper) · oracle_id `cf5bf1ef-e40b-4fb5-8148-d4ca7a307501` · printing: DGM #58 (2013-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Boros Challenger
@@ -3991,6 +4009,8 @@ schema: 2
   - *2013-04-15* — Once a battalion ability has triggered, it doesn't matter how many creatures are still attacking when that ability resolves.
   - *2013-04-15* — The effects of battalion abilities vary from card to card. Read each card carefully.
   - *2024-01-12* — The three attacking creatures don't have to be attacking the same player, planeswalker, or battle.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/greater-good-2013-02-06) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,465 decks; most often under [Aurelia, the Warleader](../../cards/A/au.md#aurelia-the-warleader) (3.6% of its decks), [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (0.5% of its decks), [Commander Mustard](../../cards/C/com.md#commander-mustard) (3.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/10/boros-elite) · oracle_id `7c83fb45-03af-4f1a-b7e3-2c4f47511658` · printing: RVR #10 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Boros Fury-Shield
@@ -4015,6 +4035,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #512 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-04-15* — If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.
+- **Lore:** ✅ Card art shown on [Krenko, Mob Boss](https://magic.wizards.com/en/news/magic-story/krenko-mob-boss-2012-07-16), [Krenko, Mob Boss](https://magic.wizards.com/en/news/magic-story/krenko-mob-boss-2012-07-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Feather, the Redeemed](../../decks/feather-the-redeemed.md) · [Aurelia, the Warleader (Ravnica-only)](../../decks/plane-ravnica-aurelia-the-warleader.md) · Commander Spellbook: 100+ combos; most popular [Kodama of the East Tree + Scute Swarm + Boros Garrison](https://commanderspellbook.com/combo/1479-2907-5233/) (Infinite creature tokens, Infinite landfall triggers) · EDHREC: in 259,628 decks; most often under [Arabella, Abandoned Doll](../../cards/A/ara.md#arabella-abandoned-doll) (30.2% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (15.6% of its decks), [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (41.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (2 decks · 2 edh guides) → [reverse index](../../references/B.md#boros-garrison)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/231/boros-garrison) · oracle_id `8fa3ac81-3dfe-4565-be99-5554f7597b4b` · printing: CLU #231 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4031,6 +4053,8 @@ schema: 2
 - **Rulings** (2):
   - *2013-04-15* — Gate is not a basic land type.
   - *2013-04-15* — The subtype Gate has no special rules significance, but other spells and abilities may refer to it.
+- **Lore:** ✅ Card art shown on [Project Lightning Bug](https://magic.wizards.com/en/news/magic-story/project-lightning-bug-2015-05-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Aurelia, the Warleader (Ravnica-only)](../../decks/plane-ravnica-aurelia-the-warleader.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 88,086 decks; most often under [Child of Alara](../../cards/C/chi.md#child-of-alara) (32.8% of its decks), [The Wandering Minstrel](../../cards/T/thew.md#the-wandering-minstrel) (15.7% of its decks), [Go-Shintai of Life's Origin](../../cards/G/gos.md#go-shintai-of-lifes-origin) (15.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#boros-guildgate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/684/boros-guildgate) · oracle_id `73c423b7-cab8-4e69-8070-9edbf96a6c2c` · printing: FDN #684 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4072,6 +4096,8 @@ schema: 2
   > *—Alovnek, Boros guildmage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9625 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Clans & Legions](https://magic.wizards.com/en/news/magic-story/clans-legions-2018-10-24) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Aurelia, the Warleader (Ravnica-only)](../../decks/plane-ravnica-aurelia-the-warleader.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 13,298 decks; most often under [General Ferrous Rokiric](../../cards/G/ge.md#general-ferrous-rokiric) (7.9% of its decks), [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (3.3% of its decks), [Firesong and Sunspeaker](../../cards/F/fi.md#firesong-and-sunspeaker) (10.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#boros-locket)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/236/boros-locket) · oracle_id `b044b4fd-d504-4a11-80bf-eb8fb0b6e21e` · printing: C21 #236 (2021-04-23) · [rulings](https://api.scryfall.com/cards/c61204b7-02c2-41be-8841-0b261798de7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4122,6 +4148,8 @@ schema: 2
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19346 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Krenko, Mob Boss](https://magic.wizards.com/en/news/magic-story/krenko-mob-boss-2012-07-16), [Krenko, Mob Boss](https://magic.wizards.com/en/news/magic-story/krenko-mob-boss-2012-07-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,527 decks; most often under [General Ferrous Rokiric](../../cards/G/ge.md#general-ferrous-rokiric) (24.1% of its decks), [Commander Mustard](../../cards/C/com.md#commander-mustard) (2.1% of its decks), [Aurelia, the Warleader](../../cards/A/au.md#aurelia-the-warleader) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/243/boros-recruit) · oracle_id `00abb43b-550f-42d2-9049-61ac56ff5d8d` · printing: RAV #243 (2005-10-07) · [rulings](https://api.scryfall.com/cards/5af01330-05c2-4c5b-9830-2886711b2b5d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Boros Signet
@@ -4279,6 +4307,8 @@ schema: 2
   - *2021-09-24* — If Borrowed Time leaves the battlefield before its enters-the-battlefield ability resolves, the target permanent won't be exiled.
   - *2021-09-24* — If a token is exiled, it ceases to exist. It won't be returned to the battlefield.
   - *2021-09-24* — In a multiplayer game, if Borrowed Time's owner leaves the game, the exiled card will return to the battlefield. Because the one-shot effect that returns the card isn't an ability that goes on the stack, it won't cease to exist along with the leaving player's spells and abilities on the stack.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MID #6 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,156 decks; most often under [Sythis, Harvest's Hand](../../cards/S/sy.md#sythis-harvests-hand) (2.8% of its decks), [Elesh Norn, Mother of Machines](../../cards/E/el.md#elesh-norn-mother-of-machines) (2.9% of its decks), [Zur the Enchanter](../../cards/Z/zu.md#zur-the-enchanter) (1.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/6/borrowed-time) · oracle_id `f1ac4e0e-5633-46e4-9a21-d3924e481d13` · printing: MID #6 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Borrowing 100,000 Arrows
@@ -4764,6 +4794,8 @@ schema: 2
   - *2013-09-15* — If an effect creates a copy of Boulderfall, the division of damage and number of targets can't be changed. The effect that creates the copy may allow you to change targets, however.
   - *2013-09-15* — If some but not all of Boulderfall's targets become illegal, you can't change the division of damage. Damage that would have been dealt to illegal targets simply isn't dealt.
   - *2013-09-15* — You divide the damage as you cast the spell, not as it resolves. Each target must be assigned at least 1 damage.
+- **Lore:** ✅ Card art shown on [The Walls of Akros](https://magic.wizards.com/en/news/magic-story/walls-akros-2014-02-26) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 440 decks; most often under [Lorehold, the Historian](../../cards/L/lo.md#lorehold-the-historian) (0.3% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (0.0% of its decks), [Magar of the Magic Strings](../../cards/M/mag.md#magar-of-the-magic-strings) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/115/boulderfall) · oracle_id `2160aed4-5a7a-4eca-96b5-707204fa73bb` · printing: THS #115 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Boulder Jockey
@@ -5006,6 +5038,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5965 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2012-07-01* — The number of basic land cards you put onto the battlefield is equal to the number of lands you control when Boundless Realms begins resolving.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/burying-part-2-2013-03-06) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Rootpath Purifier + Maze's End + Boundless Realms](https://commanderspellbook.com/combo/2473-3063-5094/) (Win the game) · EDHREC: in 26,249 decks; most often under [Omnath, Locus of Rage](../../cards/O/om.md#omnath-locus-of-rage) (14.4% of its decks), [Tifa Lockhart](../../cards/T/ti.md#tifa-lockhart) (7.1% of its decks), [Omnath, Locus of Mana](../../cards/O/om.md#omnath-locus-of-mana) (7.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m13/162/boundless-realms) · oracle_id `e6acafb7-856f-4125-a908-a620635b8ba3` · printing: M13 #162 (2012-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bounteous Kirin
@@ -5158,6 +5192,8 @@ schema: 2
 - **Rulings** (2):
   - *2017-04-18* — If Bounty of the Luxa leaves the battlefield while its triggered ability is on the stack, you can't remove any flood counters from it, even if it had one before it left the battlefield. You won't put one on it as the ability resolves, but you will draw a card.
   - *2017-04-18* — If Bounty of the Luxa somehow has multiple flood counters on it, you'll still get only {C}{G}{U} when you remove them all.
+- **Lore:** ✅ Card art shown on [Trespass](https://magic.wizards.com/en/news/magic-story/trespass-2017-05-10) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 7,886 decks; most often under [Sab-Sunen, Luxa Embodied](../../cards/S/sab.md#sab-sunen-luxa-embodied) (15.3% of its decks), [Xolatoyac, the Smiling Flood](../../cards/X/xo.md#xolatoyac-the-smiling-flood) (17.7% of its decks), [Kadena, Slinking Sorcerer](../../cards/K/ka.md#kadena-slinking-sorcerer) (5.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/187/bounty-of-the-luxa) · oracle_id `e6b20c30-88c2-4cb0-a5e4-46f1df924a7c` · printing: 2X2 #187 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bovine Intervention

@@ -263,6 +263,8 @@ schema: 2
   - *2019-05-03* — You choose one opponent to make the final choice of which cards remains in your graveyard, but all players may discuss and advise this choice.
   - *2019-05-03* — You may cast Deliver Unto Evil with fewer than four targets. However, if you don’t control a Bolas planeswalker as Deliver Unto Evil resolves, your opponent will choose two of however many cards you did target (or one or zero, if you chose fewer than two) and the remainder (if any) will be put into your hand.
   - *2019-05-03* — You may cast Deliver Unto Evil with no targets if you wish. It will be exiled, and nothing else happens.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WAR #85 — [Art & Flavor → War of the Spark (2019)](../../Art%20%26%20Flavor%20Story%20Links.md#war-of-the-spark-2019) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,632 decks; most often under [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (50.2% of its decks), [Nicol Bolas](../../cards/N/ni.md#nicol-bolas) (20.5% of its decks), [Vorthos, Steward of Myth](../../cards/V/vo.md#vorthos-steward-of-myth) (34.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#deliver-unto-evil)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/85/deliver-unto-evil) · oracle_id `9e73f938-0aa4-4639-a97a-f7e68f645623` · printing: WAR #85 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

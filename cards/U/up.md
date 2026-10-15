@@ -125,7 +125,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1123 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-09-01* — If a spell has {X} in its mana cost, use the value chosen for that X to determine the mana value of that spell.
-- **Referenced in:** 3 pages (1 decks · 1 lore & story · 1 card data) → [reverse index](../../references/U.md#up-the-beanstalk)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): PLST #WOE-195, WOE #195 — [Art & Flavor → Wilds of Eldraine (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#wilds-of-eldraine-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Xenagos, God of Revels](../../decks/xenagos-god-of-revels.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 139,890 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (16.9% of its decks), [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (18.5% of its decks), [Pantlaza, Sun-Favored](../../cards/P/pa.md#pantlaza-sun-favored) (12.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (1 decks · 1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/U.md#up-the-beanstalk)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/195/up-the-beanstalk) · oracle_id `050f5733-7c0b-4991-9a6c-7ea12ccf0ca9` · printing: WOE #195 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Upwelling

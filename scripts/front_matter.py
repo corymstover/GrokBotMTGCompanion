@@ -13,6 +13,7 @@ Usage:
   python3 scripts/front_matter.py --no-shards   skip the 739 card shards (faster)
 README.md and GOAL.md are left untouched: README is the dashboard and GOAL is the user's own file.
 """
+import atomic_io  # noqa: F401  atomic Path.write_text/write_bytes (Bot cycle 34)
 import re
 import sys
 from collections import Counter, defaultdict
@@ -51,7 +52,7 @@ PAGES = {
     "EDH Interaction.md": ("edh", ["removal", "interaction", "stax"], [28], "scripts/build_interaction.py", ["scryfall", "edhrec"]),
     "EDH Mana Bases.md": ("edh", ["lands", "mana-base", "color-identity"], [25], "scripts/build_mana_bases.py", ["scryfall", "edhrec"]),
     "EDH Mulligans.md": ("edh", ["mulligan", "opening-hand"], [31, 96], "scripts/build_mulligans.py", ["cr", "scryfall"]),
-    "EDH Packages.md": ("edh", ["packages", "ramp", "card-advantage"], [26], "scripts/build_packages.py", ["scryfall", "edhrec"]),
+    "EDH Packages.md": ("edh", ["packages", "ramp", "card-advantage"], [26, 102], "scripts/build_packages.py", ["scryfall", "edhrec"]),
     "EDH Pairings.md": ("edh", ["partner", "background", "pairings"], [32], "scripts/build_pairings.py", ["cr", "scryfall"]),
     "EDH Standards.md": ("edh", ["deckbuilding-rules", "color-identity", "brackets"], [6, 96], None, ["cr", "wotc-articles"]),
     "EDH Staples.md": ("edh", ["staples", "color-identity"], [], "scripts/build_staples.py", ["scryfall", "edhrec"]),

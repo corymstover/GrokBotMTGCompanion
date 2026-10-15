@@ -902,6 +902,8 @@ schema: 2
   - *2011-01-22* — If there are multiple combat phases in a turn, a creature that’s been removed from combat can still attack or block in future combat phases that turn.
   - *2011-01-22* — Removing a blocking creature from combat doesn’t cause the creature it was blocking to become unblocked. If no other creatures are blocking that attacking creature, it won’t assign combat damage (unless it has trample).
   - *2011-01-22* — Removing an attacking creature from combat doesn’t untap that creature.
+- **Lore:** ✅ Card art shown on [Laid to Rest](https://magic.wizards.com/en/news/magic-story/laid-rest-2016-08-03) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 526 decks; most often under [King of the Oathbreakers](../../cards/K/ki.md#king-of-the-oathbreakers) (1.4% of its decks), [Millicent, Restless Revenant](../../cards/M/mil.md#millicent-restless-revenant) (0.8% of its decks), [Sonic the Hedgehog](../../cards/S/so.md#sonic-the-hedgehog) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/92/hollowhenge-spirit) · oracle_id `b34449d1-eab2-4be1-8351-568dc5ced7c3` · printing: CN2 #92 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hollow Marauder
@@ -1113,6 +1115,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31582 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2012-05-01* — If the creature is an untapped Zombie, it will become tapped, then exiled.
+- **Lore:** ✅ Card art shown on [I Am Avacyn](https://magic.wizards.com/en/news/magic-story/i-am-avacyn-2016-05-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 86 decks; most often under [General Kudro of Drannith](../../cards/G/ge.md#general-kudro-of-drannith) (0.5% of its decks), [Odric, Lunarch Marshal](../../cards/O/od.md#odric-lunarch-marshal) (0.1% of its decks), [Gisela, Blade of Goldnight](../../cards/G/gi.md#gisela-blade-of-goldnight) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#holy-justiciar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/avr/25/holy-justiciar) · oracle_id `9edcf49b-2767-48bd-8fbe-968527cbddf4` · printing: AVR #25 (2012-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1302,6 +1306,8 @@ schema: 2
   > *—Hermit of Hanne Hall*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26250 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Laid to Rest](https://magic.wizards.com/en/news/magic-story/laid-rest-2016-08-03) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 625 decks; most often under [Shauku, Endbringer](../../cards/S/sha.md#shauku-endbringer) (50.2% of its decks), [Demonlord Belzenlok](../../cards/D/dem.md#demonlord-belzenlok) (13.7% of its decks), [Nefarox, Overlord of Grixis](../../cards/N/ne.md#nefarox-overlord-of-grixis) (19.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/avr/108/homicidal-seclusion) · oracle_id `3bc51b45-1f96-4277-8b80-bb0a528c6ac2` · printing: AVR #108 (2012-05-04) · [rulings](https://api.scryfall.com/cards/022960a1-8223-4b83-aea2-85359c39f3b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Homicide Investigator
@@ -1338,6 +1344,8 @@ schema: 2
 - **Rulings** (2):
   - *2013-01-24* — Homing Lightning has only one target. Other creatures with that name are not targeted. For example, a creature with hexproof will be dealt damage if it has the same name as the target creature.
   - *2022-06-10* — Unless a token is a copy of another permanent or was explicitly given a name by the effect that created it, its name is the subtypes it was given when it was created plus the word "Token." For example, if an effect creates a 1/1 Soldier creature token, that token is named "Soldier Token."
+- **Lore:** ✅ Card art shown on [In This Very Arena](https://magic.wizards.com/en/news/magic-story/very-arena-2016-10-12) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,277 decks; most often under [Lightning, Army of One](../../cards/L/li.md#lightning-army-of-one) (0.5% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (0.1% of its decks), [Imodane, the Pyrohammer](../../cards/I/im.md#imodane-the-pyrohammer) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#homing-lightning)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/112/homing-lightning) · oracle_id `6e7f8e25-49a9-49a0-9bf4-129439344550` · printing: RVR #112 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1552,6 +1560,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6576 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-07-25* — If the target creature is an illegal target as Honor tries to resolve, it won’t resolve and none of its effects will happen. You won’t draw a card.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): EOE #21 — [Art & Flavor → Edge of Eternities (2025)](../../Art%20%26%20Flavor%20Story%20Links.md#edge-of-eternities-2025) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Feather, the Redeemed](../../decks/feather-the-redeemed.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 23,431 decks; most often under [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (44.8% of its decks), [Elsha, Threefold Master](../../cards/E/el.md#elsha-threefold-master) (13.1% of its decks), [Brigone, Soldier of Meletis](../../cards/B/br.md#brigone-soldier-of-meletis) (53.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/H.md#honor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/21/honor) · oracle_id `48c0cd06-465d-4901-bf23-948a003afc0b` · printing: EOE #21 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2055,6 +2065,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20251 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-04-08* — Hope Against Hope’s second ability counts the enchanted creature, so that creature will normally get at least +1/+1.
+- **Lore:** ✅ Card art shown on [The Lunarch Inquisition](https://magic.wizards.com/en/news/magic-story/lunarch-inquisition-2016-05-04) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,131 decks; most often under [Three Dog, Galaxy News DJ](../../cards/T/thr.md#three-dog-galaxy-news-dj) (1.9% of its decks), [Odric, Lunarch Marshal](../../cards/O/od.md#odric-lunarch-marshal) (1.2% of its decks), [Adeline, Resplendent Cathar](../../cards/A/ad.md#adeline-resplendent-cathar) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hope-against-hope)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/22/hope-against-hope) · oracle_id `553b9606-0519-4b85-b6ae-acc126e537e1` · printing: SOI #22 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2203,6 +2215,8 @@ schema: 2
   - *2017-02-09* — The affected player won’t be able to cast any noncreature spells until after the time that your “beginning of upkeep” triggered abilities are put onto the stack on your next turn.
   - *2017-02-09* — The target player (and any other player) may cast spells in response to the activated ability of Hope of Ghirapur. The ability won’t affect those spells and it won’t affect spells that the target player cast before you activated it. (In other words, the ability can’t be used to counter a spell.)
   - *2017-02-09* — When a player leaves a multiplayer game, any continuous effects with durations that last until that player’s next turn will last until that turn would have begun. They neither expire immediately nor last indefinitely.
+- **Lore:** ✅ Card art shown on [Breaking Points](https://magic.wizards.com/en/news/magic-story/breaking-points-2017-01-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 11 combos; most popular [Yomiji, Who Bars the Way + Hope of Ghirapur + Ashnod's Altar](https://commanderspellbook.com/combo/1215-2034-3184/) (Infinite colorless mana, Infinite death triggers) · EDHREC as commander: 465 decks; highest synergy [Blackblade Reforged](../../cards/B/bla.md#blackblade-reforged) (+43%), [Brass Squire](../../cards/B/br.md#brass-squire) (+41%), [Ghostfire Blade](../../cards/G/gh.md#ghostfire-blade) (+40%) · EDHREC: in 49,548 decks; most often under [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (47.5% of its decks), [Yuriko, the Tiger's Shadow](../../cards/Y/yu.md#yuriko-the-tigers-shadow) (14.5% of its decks), [Mendicant Core, Guidelight](../../cards/M/me.md#mendicant-core-guidelight) (17.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#hope-of-ghirapur)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/154/hope-of-ghirapur) · oracle_id `1a20e805-c80b-4710-917b-706d29ec395e` · printing: AER #154 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3207,6 +3221,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6601 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-10-14* — If you have fewer than six cards in your library, the second pile will be smaller than the first. If you have fewer than four cards in your library, only the first pile will have cards in it at all, and the second pile will be empty. You may choose to turn the empty pile face up, but your opponent will probably choose to give you the empty pile regardless, unless they're feeling especially generous.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #105 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 23,207 decks; most often under [The Celestial Toymaker](../../cards/T/thec.md#the-celestial-toymaker) (86.6% of its decks), [Magar of the Magic Strings](../../cards/M/mag.md#magar-of-the-magic-strings) (14.7% of its decks), [Toshiro Umezawa](../../cards/T/to.md#toshiro-umezawa) (33.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#hostile-negotiations)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/105/hostile-negotiations) · oracle_id `c5cbd852-c42f-4592-a0bb-a8bffa2dd2f4` · printing: BRO #105 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3234,6 +3250,8 @@ schema: 2
   > *Ob Nixilis smiled. It had been over one thousand years since his last conquest.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20898 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): SNC #191 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,908 decks; most often under [Cormela, Glamour Thief](../../cards/C/cor.md#cormela-glamour-thief) (13.2% of its decks), [Omnath, Locus of All](../../cards/O/om.md#omnath-locus-of-all) (0.7% of its decks), [Ramos, Dragon Engine](../../cards/R/ram.md#ramos-dragon-engine) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/191/hostile-takeover) · oracle_id `5c7f91af-8bac-4da1-b9e5-f15989c9d53c` · printing: SNC #191 (2022-04-29) · [rulings](https://api.scryfall.com/cards/bd7df727-50ea-4ea8-bdb9-d7ef16199d8a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hostility
@@ -3547,6 +3565,8 @@ schema: 2
   - *2017-07-14* — Creatures with indestructible that enter the battlefield after Hour of Devastation resolves will still have indestructible.
   - *2017-07-14* — Once Hour of Devastation begins to resolve, no player may take actions until it’s done. Notably, players can’t try to give a creature indestructible again to save it from the damage.
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called “story spotlights”—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): HOU #97 — [Art & Flavor → Amonkhet & Hour of Devastation (2017)](../../Art%20%26%20Flavor%20Story%20Links.md#amonkhet--hour-of-devastation-2017) — ✅ Card art shown on [Hour of Devastation](https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26), [Sabotage](https://magic.wizards.com/en/news/magic-story/sabotage-2018-01-31) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 11,778 decks; most often under [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (29.8% of its decks), [Firesong and Sunspeaker](../../cards/F/fi.md#firesong-and-sunspeaker) (18.2% of its decks), [Nicol Bolas](../../cards/N/ni.md#nicol-bolas) (21.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#hour-of-devastation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/97/hour-of-devastation) · oracle_id `b9ea0d4c-cd71-4817-8213-96899e1a14bb` · printing: HOU #97 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3565,6 +3585,8 @@ schema: 2
   - *2017-07-14* — The tokens are Zombies instead of their other types (unlike Zombies created by an eternalize ability) and are black instead of their other colors. Their power and toughness are 4/4. These are copiable values of the tokens that other effects may copy.
   - *2017-07-14* — Unlike the tokens created by an eternalize ability, the tokens have the mana cost and thus mana value of the cards they're copying.
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called “story spotlights”—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): HOU #36 — [Art & Flavor → Amonkhet & Hour of Devastation (2017)](../../Art%20%26%20Flavor%20Story%20Links.md#amonkhet--hour-of-devastation-2017) — ✅ Card art shown on [Hour of Eternity](https://magic.wizards.com/en/news/magic-story/hour-eternity-2017-07-12) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,348 decks; most often under [Wilhelt, the Rotcleaver](../../cards/W/wi.md#wilhelt-the-rotcleaver) (4.3% of its decks), [The Scarab God](../../cards/T/thes.md#the-scarab-god) (2.1% of its decks), [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#hour-of-eternity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/102/hour-of-eternity) · oracle_id `6fbaac3b-37ec-4815-a4ea-544c547e90b1` · printing: MIC #102 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3580,6 +3602,8 @@ schema: 2
 - **Rulings** (2):
   - *2017-07-14* — If the target creature is an illegal target by the time Hour of Glory resolves, the entire spell doesn’t resolve. No player reveals their hand or exiles cards from it.
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called “story spotlights”—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): HOU #65 — [Art & Flavor → Amonkhet & Hour of Devastation (2017)](../../Art%20%26%20Flavor%20Story%20Links.md#amonkhet--hour-of-devastation-2017) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 552 decks; most often under [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (0.7% of its decks), [The Scarab God](../../cards/T/thes.md#the-scarab-god) (0.1% of its decks), [Nicol Bolas](../../cards/N/ni.md#nicol-bolas) (1.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#hour-of-glory)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/65/hour-of-glory) · oracle_id `d97fd43b-146f-4d13-9c45-51bceaff742e` · printing: HOU #65 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3613,7 +3637,9 @@ schema: 2
 - **Rulings** (2):
   - *2017-07-14* — When Hour of Promise checks the number of Deserts you control, it includes any Deserts you found earlier with Hour of Promise.
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called "story spotlights"—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#hour-of-promise)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): HOU #120 — [Art & Flavor → Amonkhet & Hour of Devastation (2017)](../../Art%20%26%20Flavor%20Story%20Links.md#amonkhet--hour-of-devastation-2017) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 50,361 decks; most often under [Omo, Queen of Vesuva](../../cards/O/om.md#omo-queen-of-vesuva) (66.7% of its decks), [Hazezon, Shaper of Sand](../../cards/H/ha.md#hazezon-shaper-of-sand) (71.6% of its decks), [Yuma, Proud Protector](../../cards/Y/yu.md#yuma-proud-protector) (63.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Land ramp (puts lands onto the battlefield)](../../EDH%20Packages.md#ramp-land-ramp-puts-lands-onto-the-battlefield) · [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/H.md#hour-of-promise)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/195/hour-of-promise) · oracle_id `51ff3e53-90bb-41bf-80e4-bb3fd51d574a` · printing: OTC #195 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hour of Reckoning
@@ -3650,6 +3676,8 @@ schema: 2
 - **Rulings** (2):
   - *2017-07-14* — You determine the cost to cast Hour of Revelation before you pay any of that cost. For example, if the only nonland permanents on the battlefield are Tezzeret the Schemer and nine Etherium Cells he’s given you, Hour of Revelation costs {W}{W}{W} to cast. You may sacrifice three Etherium Cells to pay this cost, even though there are no longer ten or more nonland permanents after you produce {W}{W}{W}.
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called “story spotlights”—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): HOU #15 — [Art & Flavor → Amonkhet & Hour of Devastation (2017)](../../Art%20%26%20Flavor%20Story%20Links.md#amonkhet--hour-of-devastation-2017) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 43,976 decks; most often under [Toph, the First Metalbender](../../cards/T/to.md#toph-the-first-metalbender) (31.6% of its decks), [Avacyn, Angel of Hope](../../cards/A/av.md#avacyn-angel-of-hope) (57.7% of its decks), [Obuun, Mul Daya Ancestor](../../cards/O/ob.md#obuun-mul-daya-ancestor) (46.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/H.md#hour-of-revelation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znc/17/hour-of-revelation) · oracle_id `920c1dd4-c3f6-4020-a6f0-2e8acad2c212` · printing: ZNC #17 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3670,6 +3698,8 @@ schema: 2
   - *2025-02-07* — Start your engines! isn’t a triggered ability. Increasing your speed to 1 is something that happens as a state-based action as soon as you control a permanent with the ability. Notably, this includes gaining control of a permanent with the ability that another player controls.
   - *2025-02-07* — Your speed doesn’t change until a spell or ability says so, such as the inherent triggered ability that cares about opponents losing life during your turn. Notably, losing control of permanents with start your engines! doesn’t affect your speed.
   - *2025-02-07* — “Max speed — [ability]” means “As long as you have max speed, this object has [ability].” If the granted ability functions in a zone other than the battlefield, the max speed ability does too.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): DFT #91 — [Art & Flavor → Aetherdrift (2025)](../../Art%20%26%20Flavor%20Story%20Links.md#aetherdrift-2025) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 7,157 decks; most often under [The Speed Demon](../../cards/T/thes.md#the-speed-demon) (60.0% of its decks), [Far Fortune, End Boss](../../cards/F/fa.md#far-fortune-end-boss) (45.5% of its decks), [Zahur, Glory's Past](../../cards/Z/za.md#zahur-glorys-past) (23.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#hour-of-victory)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/91/hour-of-victory) · oracle_id `eb100b3b-bc3f-48f3-8f28-bb2d80225ea9` · printing: DFT #91 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3704,6 +3734,8 @@ schema: 2
   - *2018-10-05* — House Guildmage's first ability doesn't tap the creature. It can target any creature, tapped or untapped. If that creature is already untapped at the beginning of its controller's next untap step, the effect won't do anything.
   - *2024-01-12* — When you surveil, you may put all the cards you look at back on top of your library, you may put all of those cards into your graveyard, or you may put some of those cards on top and the rest of them into your graveyard.
   - *2024-01-12* — You perform the actions stated on a card in sequence. For some spells and abilities, you'll surveil last. For others, you'll surveil and then perform other actions.
+- **Lore:** ✅ Card art shown on [Testing the Dark Waters](https://magic.wizards.com/en/news/magic-story/testing-dark-waters-2018-10-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,368 decks; most often under [Mirko, Obsessive Theorist](../../cards/M/mir.md#mirko-obsessive-theorist) (2.5% of its decks), [Niv-Mizzet, Guildpact](../../cards/N/ni.md#niv-mizzet-guildpact) (4.3% of its decks), [Tazri, Stalwart Survivor](../../cards/T/ta.md#tazri-stalwart-survivor) (4.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/177/house-guildmage) · oracle_id `257cc8e9-55b4-4510-9d1f-5df8c1ae2061` · printing: GRN #177 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hovel Hurler
@@ -3863,6 +3895,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25178 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Laid to Rest](https://magic.wizards.com/en/news/magic-story/laid-rest-2016-08-03) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 790 decks; most often under [Iname, Death Aspect](../../cards/I/ina.md#iname-death-aspect) (26.7% of its decks), [Sygg, River Cutthroat](../../cards/S/sy.md#sygg-river-cutthroat) (1.9% of its decks), [Davros, Dalek Creator](../../cards/D/da.md#davros-dalek-creator) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gvl/43/howling-banshee) · oracle_id `6156bd59-d623-4612-8e86-b5228d5de750` · printing: GVL #43 (2014-12-05) · [rulings](https://api.scryfall.com/cards/ce096d78-e8b0-4ba2-a734-aa1e96d2dabe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Howling Fury

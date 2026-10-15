@@ -995,6 +995,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2645 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-03-20* — A "creature spell" is any spell with the card type creature, even if it has other types such as artifact or enchantment.
+- **Lore:** ✅ Card art shown on [The Hand That Moves](https://magic.wizards.com/en/news/magic-story/hand-moves-2017-04-26) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 63,029 decks; most often under [Baral, Chief of Compliance](../../cards/B/bar.md#baral-chief-of-compliance) (38.6% of its decks), [Talrand, Sky Summoner](../../cards/T/ta.md#talrand-sky-summoner) (23.8% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (3.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/E.md#essence-scatter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/47/essence-scatter) · oracle_id `46665089-aa3d-44c3-964d-6638dfbb5782` · printing: SOS #47 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

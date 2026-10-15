@@ -340,6 +340,8 @@ schema: 2
   - *2016-06-08* — The ability of Dack's emblem will resolve before the spell that caused it to trigger.
   - *2016-06-08* — The effect of Dack's second ability and the effect of the emblem's ability last indefinitely. You won't lose control of the permanents if Dack leaves the battlefield.
   - *2016-06-08* — The targeted player draws two cards and discards two cards all while Dack's first ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Dack Fayden](../../Characters%20Index.md#dack-fayden) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 21,876 decks; most often under [Commodore Guff](../../cards/C/com.md#commodore-guff) (25.1% of its decks), [Captain Howler, Sea Scourge](../../cards/C/cap.md#captain-howler-sea-scourge) (11.9% of its decks), [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (12.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/D.md#dack-fayden)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/199/dack-fayden) · oracle_id `9d4b1e44-3c66-4b1b-8a1d-308aa4f841f8` · printing: EMA #199 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -353,6 +355,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15091 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-08-21* — If something is goaded but the player who goaded it has left the game, it still must attack one of the other players if able.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Dack Fayden](../../Characters%20Index.md#dack-fayden) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Dack Fayden, Helping Hand + Venser, Fervent Forger + Brainstorm](https://commanderspellbook.com/combo/548-8194-8195/) (Infinite artifact ETB, Infinite artifact tokens) · EDHREC as commander: 3,590 decks; highest synergy [Homeward Path](../../cards/H/ho.md#homeward-path) (+71%), [Flickerwisp](../../cards/F/fl.md#flickerwisp) (+67%), [Flicker of Fate](../../cards/F/fl.md#flicker-of-fate) (+64%) · EDHREC: in 2,101 decks; most often under [Zedruu the Greathearted](../../cards/Z/ze.md#zedruu-the-greathearted) (11.9% of its decks), [Iroh, Tea Master](../../cards/I/ir.md#iroh-tea-master) (12.5% of its decks), [Zidane, Tantalus Thief](../../cards/Z/zi.md#zidane-tantalus-thief) (13.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#dack-fayden-helping-hand)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/4/dack-fayden-helping-hand) · oracle_id `3b21abb0-9a58-4e62-9650-4b04ce2bfb12` · printing: FRC #4 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -545,6 +549,8 @@ schema: 2
   - *2014-11-24* — The +1/+1 counter is moved only if both targets are still legal as the ability resolves.
   - *2014-11-24* — The two targets of the last ability must be different creatures. Either one may be Daghatar the Adamant.
   - *2014-11-24* — To move a counter from one creature to another, the counter is removed from the first creature and placed on the second. Any abilities that care about a counter being placed on the second creature will apply.
+- **Lore:** ✅ Card art shown on [No End and No Beginning](https://magic.wizards.com/en/news/magic-story/no-end-and-no-beginning-2015-02-11), [The Story of Tarkir Block](https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Daghatar the Adamant + Antler Skulkin + Ashnod's Altar](https://commanderspellbook.com/combo/626-2034-3374/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 333 decks; highest synergy [Abzan Falconer](../../cards/A/ab.md#abzan-falconer) (+65%), [Hardened Scales](../../cards/H/ha.md#hardened-scales) (+61%), [Inspiring Call](../../cards/I/ins.md#inspiring-call) (+60%) · EDHREC: in 650 decks; most often under [Anafenza, the Foremost](../../cards/A/an.md#anafenza-the-foremost) (12.6% of its decks), [Felothar, Dawn of the Abzan](../../cards/F/fe.md#felothar-dawn-of-the-abzan) (1.3% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frf/9/daghatar-the-adamant) · oracle_id `7b303881-ac8d-4459-b04e-768a6804763c` · printing: FRF #9 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dai Li Agents
@@ -752,6 +758,8 @@ schema: 2
   > *—Dakkon Blackblade, Memoirs*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19263 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Dakkon Blackblade](../../Characters%20Index.md#dakkon-blackblade) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,925 decks; highest synergy [Blackblade Reforged](../../cards/B/bla.md#blackblade-reforged) (+80%), [Dakkon, Shadow Slayer](../../cards/D/da.md#dakkon-shadow-slayer) (+70%), [Sword of the Animist](../../cards/S/sw.md#sword-of-the-animist) (+63%) · EDHREC: in 634 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks), [Chromium](../../cards/C/chr.md#chromium) (18.2% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#dakkon-blackblade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/143/dakkon-blackblade) · oracle_id `1aa78e3b-bf7e-4645-9521-4b3537c93f46` · printing: ME1 #143 (2007-09-10) · [rulings](https://api.scryfall.com/cards/235bbf86-02ad-497b-b698-e60930bbde9c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -769,6 +777,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11127 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-01-12* — When you surveil, you may put all the cards you look at back on top of your library, you may put all of those cards into your graveyard, or you may put some of those cards on top and the rest of them into your graveyard.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Dakkon Blackblade](../../Characters%20Index.md#dakkon-blackblade) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Coretapper + Magistrate's Scepter + Dakkon, Shadow Slayer + Brago, King Eternal](https://commanderspellbook.com/combo/3492-3557-3609-5899/) (Infinite turns, Lock) · EDHREC: in 10,453 decks; most often under [Dakkon Blackblade](../../cards/D/da.md#dakkon-blackblade) (71.4% of its decks), [Aminatou, the Fateshifter](../../cards/A/am.md#aminatou-the-fateshifter) (15.4% of its decks), [Sefris of the Hidden Ways](../../cards/S/sef.md#sefris-of-the-hidden-ways) (6.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#dakkon-shadow-slayer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/192/dakkon-shadow-slayer) · oracle_id `335b5302-2272-405a-b2b8-3943b3df335f` · printing: MH2 #192 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1036,6 +1046,8 @@ schema: 2
   > *—Siara, the Dragon's Mouth*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3211 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Poisoned Heart](https://magic.wizards.com/en/news/magic-story/poisoned-heart-2015-04-08) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 52,017 decks; most often under [Witherbloom, the Balancer](../../cards/W/wi.md#witherbloom-the-balancer) (41.5% of its decks), [Sheoldred, the Apocalypse](../../cards/S/she.md#sheoldred-the-apocalypse) (61.0% of its decks), [Nekusar, the Mindrazer](../../cards/N/ne.md#nekusar-the-mindrazer) (12.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/245/damnable-pact) · oracle_id `28dd0ae4-fc56-4abf-af24-6c6c8d0a10cd` · printing: NCC #245 (2022-04-29) · [rulings](https://api.scryfall.com/cards/17fa6dc2-5a2e-4758-9ca4-e020eb032d74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Damnation
@@ -1046,6 +1058,8 @@ schema: 2
   > Destroy all creatures. They can't be regenerated.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #391 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Hour of Devastation](https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26), [Return to Dominaria: Episode 11](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-11-2018-05-23), [Veil of Deceit](https://magic.wizards.com/en/news/magic-story/veil-deceit-2014-07-01) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Crosis, the Purger (Grixis)](../../grixis/decks/crosis-the-purger.md) · [Lynde, Cheerful Tormentor (Grixis)](../../grixis/decks/lynde-cheerful-tormentor.md) · Commander Spellbook: 1 combo; most popular [Biorhythm + Damnation](https://commanderspellbook.com/combo/6129-7299/) (Draw the game, Each opponent loses the game) · EDHREC: in 312,999 decks; most often under [Kotis, the Fangkeeper](../../cards/K/ko.md#kotis-the-fangkeeper) (34.9% of its decks), [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (19.1% of its decks), [Nekusar, the Mindrazer](../../cards/N/ne.md#nekusar-the-mindrazer) (16.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 6 pages (2 decks · 2 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/D.md#damnation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/73/damnation) · oracle_id `d57a8f0b-7989-4db5-8756-6f2690097252` · printing: 2X2 #73 (2022-07-08) · [rulings](https://api.scryfall.com/cards/d3c0aac5-b9f1-4446-bfea-3e1dd1cf1f2f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1711,6 +1725,8 @@ schema: 2
 - **Rulings** (2):
   - *2016-08-23* — For the last ability, if you choose an artifact on the battlefield as the target, and that artifact is no longer on the battlefield as the ability tries to resolve, the ability won’t resolve and none of its effects will happen. You won’t get any tokens. This is true even if the card that represented that artifact is now in a graveyard. That card will be a different object than it was on the battlefield.
   - *2016-08-23* — For the second ability, you choose the target artifact or creature as you activate the ability. You choose whether to sacrifice an artifact and which artifact to sacrifice as the ability resolves.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Daretti](../../Characters%20Index.md#daretti) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Time Sieve + Myr Battlesphere + Teleportation Circle + Daretti, Ingenious Iconoclast](https://commanderspellbook.com/combo/1558-2963-4072-4840/) (Infinite turns, Lock) · EDHREC: in 9,971 decks; most often under [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (4.2% of its decks), [Jan Jansen, Chaos Crafter](../../cards/J/ja.md#jan-jansen-chaos-crafter) (12.0% of its decks), [Imskir Iron-Eater](../../cards/I/im.md#imskir-iron-eater) (12.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/D.md#daretti-ingenious-iconoclast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/74/daretti-ingenious-iconoclast) · oracle_id `add0f7e7-8990-4fd1-8ac7-8115f7802912` · printing: CN2 #74 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1726,6 +1742,8 @@ schema: 2
 - **Rulings** (2):
   - *2025-02-07* — If an artifact on the battlefield has {X} in its mana cost, X is 0 when determining its mana value.
   - *2025-02-07* — You choose the target card in your graveyard as Daretti’s second ability is put on the stack, but you don’t choose whether to sacrifice an artifact or which one to sacrifice until the ability resolves.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Daretti](../../Characters%20Index.md#daretti) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 5 combos; most popular [Daretti, Rocketeer Engineer + Weapons Manufacturing + Cursed Mirror](https://commanderspellbook.com/combo/5291-6250-6757/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 827 decks; highest synergy [Ichor Wellspring](../../cards/I/ic.md#ichor-wellspring) (+72%), [Daretti, Scrap Savant](../../cards/D/da.md#daretti-scrap-savant) (+67%), [Combustible Gearhulk](../../cards/C/com.md#combustible-gearhulk) (+64%) · EDHREC: in 16,177 decks; most often under [Kolodin, Triumph Caster](../../cards/K/ko.md#kolodin-triumph-caster) (21.9% of its decks), [Daretti, Scrap Savant](../../cards/D/da.md#daretti-scrap-savant) (27.2% of its decks), [Balthier and Fran](../../cards/B/bal.md#balthier-and-fran) (26.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#daretti-rocketeer-engineer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/120/daretti-rocketeer-engineer) · oracle_id `0eb1d539-6301-46b0-903e-487eda34253f` · printing: DFT #120 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1744,6 +1762,8 @@ schema: 2
   - *2014-11-07* — The ability of Daretti’s emblem will return the artifact card only if it’s still in your graveyard when the delayed triggered ability resolves at the beginning of the next end step. If the artifact card left your graveyard before that point (even if it was put back into your graveyard), the ability won’t return it to the battlefield.
   - *2014-11-07* — You choose which artifact to sacrifice as the second ability resolves. You must sacrifice an artifact if you control at least one at that time. For example, if you control two artifacts when you activate the second ability, but the artifact you intended to sacrifice is destroyed in response, you must sacrifice the other artifact as the ability resolves.
   - *2014-11-07* — You may choose to discard zero cards as the first ability resolves. In that case, you won’t draw any cards.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Daretti](../../Characters%20Index.md#daretti) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Encroaching Mycosynth + Daretti, Scrap Savant + Phyrexian Metamorph + Technomancer](https://commanderspellbook.com/combo/1379-3734-4375-5119/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 3,324 decks; highest synergy [Darksteel Citadel](../../cards/D/da.md#darksteel-citadel) (+72%), [Goblin Welder](../../cards/G/gob.md#goblin-welder) (+72%), [Ichor Wellspring](../../cards/I/ic.md#ichor-wellspring) (+70%) · EDHREC: in 77,696 decks; most often under [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (21.5% of its decks), [Osgir, the Reconstructor](../../cards/O/os.md#osgir-the-reconstructor) (69.7% of its decks), [Ragost, Deft Gastronaut](../../cards/R/rag.md#ragost-deft-gastronaut) (16.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/D.md#daretti-scrap-savant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/213/daretti-scrap-savant) · oracle_id `ea9f4de3-fc35-435a-8dff-a5657d14a9bd` · printing: CMM #213 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1946,6 +1966,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19952 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-04-29* — If the target is not legal as the spell would resolve, its controller does not get to scry.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): SNC #104 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,261 decks; most often under [Zada, Hedron Grinder](../../cards/Z/za.md#zada-hedron-grinder) (2.2% of its decks), [Norin, Swift Survivalist](../../cards/N/no.md#norin-swift-survivalist) (20.4% of its decks), [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (1.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/104/daring-escape) · oracle_id `c777002d-dcd4-4d75-8175-5440a8bb118e` · printing: SNC #104 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Daring Fiendbonder
@@ -2266,6 +2288,8 @@ schema: 2
   - *2018-12-07* — Dark Dabbling is still on the stack while you count the number of instant and/or sorcery cards in your graveyard. It doesn’t count itself.
   - *2018-12-07* — Dark Dabbling’s spell mastery ability is a normal spell effect, not a replacement effect. This means that if you replace drawing a card for Dark Dabbling’s effect with dredging a card from your graveyard, the cards put into your graveyard this way may enable the additional regeneration.
   - *2018-12-07* — If the target creature is an illegal target by the time Dark Dabbling tries to resolve, the ability doesn’t resolve. You don’t draw a card and no creatures are regenerated.
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 1](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-1-2018-03-21) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 7,927 decks; most often under [Killian, Ink Duelist](../../cards/K/ki.md#killian-ink-duelist) (30.9% of its decks), [Judith, Carnage Connoisseur](../../cards/J/ju.md#judith-carnage-connoisseur) (3.8% of its decks), [Liliana, Heretical Healer](../../cards/L/li.md#liliana-heretical-healer--liliana-defiant-necromancer) (6.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#dark-dabbling)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/91/dark-dabbling) · oracle_id `342daae1-f7f0-4bce-94bc-e9bdce53e48e` · printing: UMA #91 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2342,6 +2366,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14724 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-07-25* — To determine the total cost of a spell, start with the mana cost or alternative cost you’re paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): EOE #93 — [Art & Flavor → Edge of Eternities (2025)](../../Art%20%26%20Flavor%20Story%20Links.md#edge-of-eternities-2025) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,761 decks; most often under [Alpharael, Stonechosen](../../cards/A/al.md#alpharael-stonechosen) (22.7% of its decks), [Syr Vondam, Sunstar Exemplar](../../cards/S/sy.md#syr-vondam-sunstar-exemplar) (5.8% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#dark-endurance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/93/dark-endurance) · oracle_id `ded4009d-be23-4e36-a7a3-9e07230712ee` · printing: EOE #93 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2479,6 +2505,8 @@ schema: 2
   - *2017-02-09* — When Dark Intimations resolves, first the player whose turn it is (if that player is an opponent) chooses which creature or planeswalker they will sacrifice, then each other opponent in turn order does the same, then all chosen permanents are sacrificed at the same time. Then each opponent in the same order chooses a card in their hand without revealing it, then all chosen cards are discarded at the same time.
   - *2017-02-09* — You choose the creature or planeswalker card to return to your hand while Dark Intimations is resolving. No player may take actions between the time you choose one and the time you put it into your hand.
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called "story spotlights"—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): AER #128 — [Art & Flavor → Kaladesh & Aether Revolt (2016–17)](../../Art%20%26%20Flavor%20Story%20Links.md#kaladesh--aether-revolt-201617) — ✅ Card art shown on [Puppets](https://magic.wizards.com/en/news/magic-story/puppets-2017-01-25) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,718 decks; most often under [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (42.5% of its decks), [Nicol Bolas](../../cards/N/ni.md#nicol-bolas) (22.7% of its decks), [Kefka, Court Mage](../../cards/K/ke.md#kefka-court-mage--kefka-ruler-of-ruin) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#dark-intimations)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/128/dark-intimations) · oracle_id `228cb63f-0b93-4be5-94e5-4eaae9112eeb` · printing: AER #128 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2635,6 +2663,8 @@ schema: 2
   > *Isilu's presence turned day to night, fellowship to suspicion, and neighbors against one another.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10107 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): ECL #97 — [Art & Flavor → Lorwyn Eclipsed (2025–26)](../../Art%20%26%20Flavor%20Story%20Links.md#lorwyn-eclipsed-202526) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Natural Affinity + Darkness Descends + Necroskitter](https://commanderspellbook.com/combo/1660-7777-7778/) (Gain control of all lands opponents control, Gain control of some creatures opponents control) · EDHREC: in 12,348 decks; most often under [Auntie Ool, Cursewretch](../../cards/A/au.md#auntie-ool-cursewretch) (34.3% of its decks), [The Reaper, King No More](../../cards/T/ther.md#the-reaper-king-no-more) (21.3% of its decks), [High Perfect Morcant](../../cards/H/hi.md#high-perfect-morcant) (6.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#darkness-descends)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/97/darkness-descends) · oracle_id `a3435757-d049-4aaf-a2cb-897dd4940997` · printing: ECL #97 (2026-01-23) · [rulings](https://api.scryfall.com/cards/c8aa3895-df83-4f8e-9e23-1a665614b662/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2774,6 +2804,8 @@ schema: 2
   - *2016-07-13* — If the targeted creature becomes an illegal target, the targeted player will still get Zombie tokens.
   - *2016-07-13* — You choose up to one target creature total, not a separate target for each Zombie that player controls.
   - *2016-07-13* — You may cast Dark Salvation with X as 0 just to have a creature get -1/-1 for each Zombie a player controls, and you may cast it without targeting any creature just to have a player get Zombie tokens. If you really just want to cast a spell, you can even cast it with X as 0 without a target creature and have neither effect do anything.
+- **Lore:** ✅ Card art shown on [Battle of Thraben](https://magic.wizards.com/en/news/magic-story/battle-thraben-2016-07-20), [The Promised End](https://magic.wizards.com/en/news/magic-story/promised-end-2016-07-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 18,782 decks; most often under [Wilhelt, the Rotcleaver](../../cards/W/wi.md#wilhelt-the-rotcleaver) (22.0% of its decks), [Witherbloom, the Balancer](../../cards/W/wi.md#witherbloom-the-balancer) (11.0% of its decks), [The Scarab God](../../cards/T/thes.md#the-scarab-god) (12.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#dark-salvation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/110/dark-salvation) · oracle_id `f5c2b700-da52-4436-b234-e32ba7759e17` · printing: MIC #110 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4005,6 +4037,8 @@ schema: 2
   - *2019-05-03* — If an opponent has one or fewer cards in hand as Davriel's first ability triggers but has two or more cards in hand as that ability resolves, Davriel doesn't deal damage to them.
   - *2019-05-03* — If an opponent has two or more cards in their hand as their upkeep begins, Davriel's first ability won't trigger. No player may take any actions during a turn before the turn's upkeep begins. Because the upkeep step is before the draw step, that player won't have drawn a card for the turn yet.
   - *2019-05-03* — In a Two-Headed Giant game, Davriel's first ability triggers for each opponent separately as appropriate during that player's team's upkeep.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Davriel Cane](../../Characters%20Index.md#davriel-cane) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 9,039 decks; most often under [Tinybones, Bauble Burglar](../../cards/T/ti.md#tinybones-bauble-burglar) (13.4% of its decks), [Tergrid, God of Fright](../../cards/T/te.md#tergrid-god-of-fright--tergrids-lantern) (7.8% of its decks), [Tinybones, Trinket Thief](../../cards/T/ti.md#tinybones-trinket-thief) (19.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#davriel-rogue-shadowmage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/83/davriel-rogue-shadowmage) · oracle_id `1bd5e51f-f9a5-4eb7-bda2-957310602c20` · printing: WAR #83 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4275,6 +4309,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31066 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Saint Traft and the Flight of Nightmares](https://magic.wizards.com/en/news/magic-story/saint-traft-and-flight-nightmares-2016-07-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 129 decks; most often under [Duskana, the Rage Mother](../../cards/D/du.md#duskana-the-rage-mother) (0.2% of its decks), [Arabella, Abandoned Doll](../../cards/A/ara.md#arabella-abandoned-doll) (0.0% of its decks), [Odric, Lunarch Marshal](../../cards/O/od.md#odric-lunarch-marshal) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#dawn-gryff)
 - **Source flags:** [Scryfall](https://scryfall.com/card/emn/19/dawn-gryff) · oracle_id `1c34b2e4-e600-4688-86cb-8a1c11fdc770` · printing: EMN #19 (2016-07-22) · [rulings](https://api.scryfall.com/cards/42d30894-82b9-4af8-b0bb-48a78acbc4bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4387,6 +4423,8 @@ schema: 2
   - *2021-09-24* — A creature has different power from another if their powers are different numbers. For example, a 1/1 creature and a 2/1 creature have different powers.
   - *2021-09-24* — For three creatures to have different powers from one another, each of their powers needs to be different. A 1/1 creature, a 2/1 creature, and another 2/1 creature aren't three creatures with different powers, even though both 2/1 creatures have different power than the 1/1 creature.
   - *2021-09-24* — Many coven abilities, such as that of Dawnhart Wardens above, are triggered abilities with intervening if clauses. You must control three or more creatures with different powers at the time the ability triggers and at the time the ability tries to resolve. They do not, however, need to be the same set of creatures in both cases.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MID #216 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,689 decks; most often under [Leinore, Autumn Sovereign](../../cards/L/le.md#leinore-autumn-sovereign) (26.3% of its decks), [Kyler, Sigardian Emissary](../../cards/K/ky.md#kyler-sigardian-emissary) (5.1% of its decks), [Sigarda, Champion of Light](../../cards/S/si.md#sigarda-champion-of-light) (21.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#dawnhart-wardens)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/216/dawnhart-wardens) · oracle_id `0604ed6c-a85f-41da-a163-0c414e57d133` · printing: MID #216 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4556,6 +4594,8 @@ schema: 2
 - **Keywords:** Lifelink, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25354 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/path-bravery-2013-07-10) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 766 decks; most often under [Dion, Bahamut's Dominant](../../cards/D/di.md#dion-bahamuts-dominant--bahamut-warden-of-light) (1.5% of its decks), [Sidar Jabari of Zhalfir](../../cards/S/si.md#sidar-jabari-of-zhalfir) (0.2% of its decks), [Odric, Lunarch Marshal](../../cards/O/od.md#odric-lunarch-marshal) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddl/14/dawnstrike-paladin) · oracle_id `c2bfb230-6949-4d5e-8cac-9d7dafdc5e9a` · printing: DDL #14 (2013-09-06) · [rulings](https://api.scryfall.com/cards/549ca818-f7bf-47a8-9005-18ddabd3c360/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dawnstrike Vanguard
@@ -4592,6 +4632,8 @@ schema: 2
   - *2024-07-26* — In the main set, there are four different kinds of gifts. "Gift a Food" causes the chosen opponent to create a Food token, while "Gift a Treasure" causes the chosen opponent to create a Treasure token. "Gift a card" causes them to draw a card, and "Gift a tapped Fish" causes them to create a tapped 1/1 blue Fish creature token. The Commander decks contain two more kinds of gifts: "Gift an Octopus," which causes the chosen opponent to create an 8/8 blue Octopus creature token, and "Gift an extra turn," which causes them to take an extra turn after the current turn ends.
   - *2024-07-26* — Some instant or sorcery spells require alternative or additional targets if the gift was promised. You ignore these targeting requirements if the gifts aren't promised for those spells. On the other hand, you can promise a gift for a permanent spell even if you won't be able to choose targets for an enters ability of that permanent once the spell resolves.
   - *2024-07-26* — You can't pay a gift cost more than once.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BLB #9 — [Art & Flavor → Bloomburrow (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#bloomburrow-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Kynaios and Tiro of Meletis](../../decks/kynaios-and-tiro-of-meletis.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 328,721 decks; most often under [Ms. Bumbleflower](../../cards/M/ms.md#ms-bumbleflower) (32.7% of its decks), [Baylen, the Haymaker](../../cards/B/bay.md#baylen-the-haymaker) (25.3% of its decks), [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (14.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 7 pages (1 decks · 2 edh guides · 2 rules · 1 lore & story · 1 card data) → [reverse index](../../references/D.md#dawns-truce)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/9/dawns-truce) · oracle_id `37c06f89-db36-4937-9404-2b07cd22e1a6` · printing: BLB #9 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4622,6 +4664,9 @@ schema: 2
   > *Silent as winter snow, it seeks wild places unspoiled by the walking dead.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9048 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/beast-2014-06-19) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Hazel's Brewmaster + Tireless Provisioner + Dawntreader Elk + Nissa, Resurgent Animist](https://commanderspellbook.com/combo/2653-3875-5856-7514/) (Near-infinite landfall triggers, Put all basic lands from your library onto the battlefield tapped) · EDHREC: in 14,645 decks; most often under [Meren of Clan Nel Toth](../../cards/M/me.md#meren-of-clan-nel-toth) (5.5% of its decks), [Yedora, Grave Gardener](../../cards/Y/ye.md#yedora-grave-gardener) (30.3% of its decks), [Muldrotha, the Gravetide](../../cards/M/mu.md#muldrotha-the-gravetide) (2.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Land ramp (puts lands onto the battlefield)](../../EDH%20Packages.md#ramp-land-ramp-puts-lands-onto-the-battlefield) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/D.md#dawntreader-elk)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/387/dawntreader-elk) · oracle_id `de6d0248-79f6-48df-bdca-8ce207b2ec08` · printing: JMP #387 (2020-07-17) · [rulings](https://api.scryfall.com/cards/524fab2b-ff28-4e02-9f25-e038c754b2cf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dawnwing Marshal
@@ -4946,6 +4991,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3002 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-03-20* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as the alternative cost of Daze), add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Lore:** ✅ Card art shown on [The Hand That Moves](https://magic.wizards.com/en/news/magic-story/hand-moves-2017-04-26), [Trespass](https://magic.wizards.com/en/news/magic-story/trespass-2017-05-10) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 55,728 decks; most often under [Rograkh, Son of Rohgahh // Silas Renn, Seeker Adept](../../cards/R/ro.md#rograkh-son-of-rohgahh) (67.5% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (11.0% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (6.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 5 pages (2 edh guides · 1 lore & story · 2 card data) → [reverse index](../../references/D.md#daze)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/44/daze) · oracle_id `70486bee-6ee7-41ea-b834-8caf4699302b` · printing: EMA #44 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

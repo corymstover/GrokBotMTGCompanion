@@ -117,7 +117,9 @@ schema: 2
   - *2017-02-09* — If an artifact becomes an illegal target for Release the Gremlins, it won’t change the number of tokens created. However, if every target artifact becomes an illegal target, Release the Gremlins doesn’t resolve and no tokens are created.
   - *2017-02-09* — The value of X is limited by the number of artifacts that you can target. You can’t target the same artifact more than once.
   - *2017-02-09* — You can target an artifact with indestructible. It won’t be destroyed, and you’ll still create X Gremlin tokens.
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/R.md#release-the-gremlins)
+- **Lore:** ✅ Card art shown on [Breaking Points](https://magic.wizards.com/en/news/magic-story/breaking-points-2017-01-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,518 decks; most often under [Magnus the Red](../../cards/M/mag.md#magnus-the-red) (31.0% of its decks), [Hinata, Dawn-Crowned](../../cards/H/hi.md#hinata-dawn-crowned) (7.8% of its decks), [Brudiclad, Telchor Engineer](../../cards/B/br.md#brudiclad-telchor-engineer) (2.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/R.md#release-the-gremlins)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/96/release-the-gremlins) · oracle_id `3b583358-d0d5-4f53-b06c-c6439156e684` · printing: AER #96 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Release to Memory
@@ -166,6 +168,8 @@ schema: 2
   - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Zombies, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't a Zombie, it becomes a Zombie in addition to its other types.
   - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
   - *2023-06-16* — To amass Zombies N, if you don't control an Army creature, create a 0/0 black Zombie Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Zombie, it becomes a Zombie in addition to its other types.
+- **Lore:** ✅ Card art shown on [War of the Spark: Ravnica – The Path to Opulent](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-path-opulent-2019-05-15) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,732 decks; most often under [Saruman, the White Hand](../../cards/S/sar.md#saruman-the-white-hand) (3.0% of its decks), [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (0.8% of its decks), [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#relentless-advance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/64/relentless-advance) · oracle_id `f54573d1-9950-46c3-b8f1-cd6f081d62ad` · printing: WAR #64 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -240,6 +244,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19868 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-01-24* — While resolving Relentless Pursuit, you could put no cards, a creature card, a land card, or a creature card and a land card into your hand.
+- **Lore:** Featured in: [Arc → Theros Beyond Death (2020)](../../Conflicts%20%26%20Arcs.md#theros-beyond-death-2020) ([source](https://magic.wizards.com/en/news/feature/theros-beyond-death-story-cards-2019-12-16), [2](https://magic.wizards.com/en/news/feature/theros-beyond-death-story-summary-2020-01-10) via entry) — ✅ Story Spotlight printing (Scryfall `story_spotlight`): THB #195 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,303 decks; most often under [Muldrotha, the Gravetide](../../cards/M/mu.md#muldrotha-the-gravetide) (0.2% of its decks), [Zask, Skittering Swarmlord](../../cards/Z/za.md#zask-skittering-swarmlord) (1.0% of its decks), [Nethroi, Apex of Death](../../cards/N/ne.md#nethroi-apex-of-death) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#relentless-pursuit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/195/relentless-pursuit) · oracle_id `d39c378b-f0a2-400f-af40-a632e24b6d72` · printing: THB #195 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -637,6 +643,8 @@ schema: 2
   - *2016-01-22* — If a spell with support has other abilities that target creatures, those abilities and the support ability can target the same creature.
   - *2016-01-22* — Support can target a creature you don't control.
   - *2016-01-22* — You can't put more than one +1/+1 counter on any one target using the support action.
+- **Lore:** ✅ Card art shown on [Zendikar's Last Stand](https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,263 decks; most often under [Katara, the Fearless](../../cards/K/ka.md#katara-the-fearless) (1.7% of its decks), [Kros, Defense Contractor](../../cards/K/kr.md#kros-defense-contractor) (1.1% of its decks), [Sidar Jabari of Zhalfir](../../cards/S/si.md#sidar-jabari-of-zhalfir) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#relief-captain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/24/relief-captain) · oracle_id `97e088a3-65eb-42f5-85b8-6aeb770a3f56` · printing: 2X2 #24 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

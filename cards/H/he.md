@@ -701,6 +701,8 @@ schema: 2
   > *The ethereal touch brings relief. The physical touch brings peace.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19715 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,368 decks; most often under [Firesong and Sunspeaker](../../cards/F/fi.md#firesong-and-sunspeaker) (3.9% of its decks), [Hope Estheim](../../cards/H/ho.md#hope-estheim) (0.8% of its decks), [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/17/healing-hands) · oracle_id `3cc48835-3ac0-4774-b380-f9b21d2dc974` · printing: ORI #17 (2015-07-17) · [rulings](https://api.scryfall.com/cards/9a26559c-0ac5-42a7-b6ac-b39938c31026/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Healing Leaves
@@ -1049,6 +1051,8 @@ schema: 2
   - *2020-04-17* — If you choose the second mode for Heartless Act, you choose which counters to remove from the creature, no matter who controls the creature. You may choose counters of different kinds.
   - *2025-10-02* — If you choose the first mode and the creature gains a counter in response, you can't remove counters from it instead; the spell just doesn't resolve. Similarly, if you choose the second mode and the creature loses its counters in response, you can't destroy it instead.
   - *2025-10-02* — If you choose the second mode for Heartless Act, you choose which counters to remove from the creature, no matter who controls the creature. You may choose counters of different kinds.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): IKO #91, PLST #IKO-91 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 12 combos; most popular [Archfiend of the Dross + Heartless Act + Fateful Handoff](https://commanderspellbook.com/combo/1165-1844-2861/) (Target opponent loses the game at the beginning of their next upkeep) · EDHREC: in 33,589 decks; most often under [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (11.4% of its decks), [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (5.9% of its decks), [Ozai, the Phoenix King](../../cards/O/oz.md#ozai-the-phoenix-king) (15.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/103/heartless-act) · oracle_id `3641d572-8335-4804-88ad-edf4dc67a8e4` · printing: TLA #103 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Heartless Conscription
@@ -1183,6 +1187,8 @@ schema: 2
   - *2017-09-29* — When a Vehicle becomes a creature, that doesn’t count as having a creature enter the battlefield. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters the battlefield won’t trigger.
   - *2017-09-29* — You may activate a crew ability of a Vehicle even if it’s already an artifact creature. Doing so has no effect on the Vehicle. It doesn’t change its power and toughness.
   - *2017-09-29* — You may tap more creatures than necessary to activate a crew ability.
+- **Lore:** ✅ Card art shown on [Breaking Points](https://magic.wizards.com/en/news/magic-story/breaking-points-2017-01-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Dihada, Binder of Wills + Underworld Breach + Heart of Kiran](https://commanderspellbook.com/combo/1238-1368-5287/) (Infinite self-mill, Near-infinite storm count) · EDHREC as commander: 37 decks; highest synergy [The Aetherspark](../../cards/T/thea.md#the-aetherspark) (+88%), [Karn, Living Legacy](../../cards/K/ka.md#karn-living-legacy) (+81%), [Karn, Scion of Urza](../../cards/K/ka.md#karn-scion-of-urza) (+78%) · EDHREC: in 5,779 decks; most often under [Shorikai, Genesis Engine](../../cards/S/sho.md#shorikai-genesis-engine) (2.1% of its decks), [Depala, Pilot Exemplar](../../cards/D/dep.md#depala-pilot-exemplar) (21.9% of its decks), [Kolodin, Triumph Caster](../../cards/K/ko.md#kolodin-triumph-caster) (5.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#heart-of-kiran)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/153/heart-of-kiran) · oracle_id `e2ee410f-2467-4f1f-84a0-8a79faedc0b3` · printing: AER #153 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1398,6 +1404,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-05-03* — If you have no cards in hand as Heartwarming Redemption resolves, you discard nothing then draw one card.
   - *2019-05-03* — The amount of life you gain is determined after you draw during Heartwarming Redemption’s resolution. No player may take actions between the time cards are drawn and the time you gain life.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WAR #199 — [Art & Flavor → War of the Spark (2019)](../../Art%20%26%20Flavor%20Story%20Links.md#war-of-the-spark-2019) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 9,019 decks; most often under [Brallin, Skyshark Rider // Shabraz, the Skyshark](../../cards/B/br.md#brallin-skyshark-rider) (38.8% of its decks), [General Ferrous Rokiric](../../cards/G/ge.md#general-ferrous-rokiric) (16.3% of its decks), [Firesong and Sunspeaker](../../cards/F/fi.md#firesong-and-sunspeaker) (14.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#heartwarming-redemption)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/199/heartwarming-redemption) · oracle_id `011af4c1-e8ed-44bf-b7b5-dfdc18524cd0` · printing: WAR #199 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1526,6 +1534,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21209 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-03-20* — If the target creature is an illegal target as Heated Argument tries to resolve, it won't resolve and none of its effects will happen. You won't be able to exile any cards from your graveyard, and no player will be dealt damage.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): SOS #118 — [Art & Flavor → Secrets of Strixhaven (2026)](../../Art%20%26%20Flavor%20Story%20Links.md#secrets-of-strixhaven-2026) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,803 decks; most often under [Lorehold, the Historian](../../cards/L/lo.md#lorehold-the-historian) (2.1% of its decks), [Prismari, the Inspiration](../../cards/P/pr.md#prismari-the-inspiration) (1.7% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#heated-argument)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/118/heated-argument) · oracle_id `329f6434-8f1b-4a10-8feb-2a9dc5f2712b` · printing: SOS #118 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1916,6 +1926,8 @@ schema: 2
   - *2015-02-25* — The cards are exiled face up.
   - *2015-02-25* — The once-a-turn restriction of the last ability applies only to nonland cards. You can play a land card exiled with Hedonist’s Trove on the same turn you cast a nonland card exiled that way.
   - *2015-02-25* — Under normal circumstances, you can play a land card exiled with Hedonist’s Trove only if you haven’t played a land yet that turn.
+- **Lore:** ✅ Card art shown on [The Poisoned Heart](https://magic.wizards.com/en/news/magic-story/poisoned-heart-2015-04-08) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,421 decks; most often under [Prosper, Tome-Bound](../../cards/P/pr.md#prosper-tome-bound) (1.6% of its decks), [Tasha, the Witch Queen](../../cards/T/ta.md#tasha-the-witch-queen) (3.2% of its decks), [Anje Falkenrath](../../cards/A/an.md#anje-falkenrath) (3.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/119/hedonists-trove) · oracle_id `9d5f712a-d46c-4d7e-8fea-45fdadb458df` · printing: C19 #119 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hedron Alignment
@@ -1944,6 +1956,8 @@ schema: 2
   > *"And how did that work out last time?" asked Jace.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #544 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** Featured in: [Item → Hedrons](../../Items%20%26%20Artifacts%20Index.md#hedrons) ([source](https://magic.wizards.com/en/news/magic-story/retaliation-ob-nixilis-2015-12-30), [2](https://magic.wizards.com/en/story/zendikar-plane) via entry) — ✅ Card art shown on [Hedron Alignment](https://magic.wizards.com/en/news/magic-story/hedron-alignment-2015-11-18), [Revelation at the Eye](https://magic.wizards.com/en/news/magic-story/revelation-eye-2015-10-14) (caption names the card and its artist) — *References:* Zendikar's hedrons: "Ancient, rune-carved monoliths called hedrons are strewn across Zendikar." ([source](https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-zendikar)) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (3): [Kozilek, the Great Distortion](../../decks/kozilek-the-great-distortion.md) · [Nahiri, the Lithomancer](../../decks/lore-nahiri-the-lithomancer.md) · [Omnath, Locus of Rage (Zendikar-only)](../../decks/plane-zendikar-omnath-locus-of-rage.md) · Commander Spellbook: 24 combos; most popular [Trazyn the Infinite + Staff of Domination + Hedron Archive](https://commanderspellbook.com/combo/270-2645-3918/) (Infinite colorless mana, Infinite lifegain triggers) · EDHREC: in 250,474 decks; most often under [Zhulodok, Void Gorger](../../cards/Z/zh.md#zhulodok-void-gorger) (83.6% of its decks), [Bello, Bard of the Brambles](../../cards/B/be.md#bello-bard-of-the-brambles) (55.0% of its decks), [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (48.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 6 pages (3 decks · 2 lore & story · 1 card data) → [reverse index](../../references/H.md#hedron-archive)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/726/hedron-archive) · oracle_id `32263baa-d3f0-463f-92b3-4e9938476add` · printing: FDN #726 (2024-11-15) · [rulings](https://api.scryfall.com/cards/535b9ac6-dba2-4162-86ed-df3e9fad0306/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2431,7 +2445,9 @@ schema: 2
   - *2024-07-26* — If a spell has {X} in its mana cost, use the value chosen for that X to determine the mana value of that spell.
   - *2024-07-26* — If you spend the mana added by Helga's last ability on a creature spell with {X} in its mana cost, the mana can be spent on any part of that spell's total cost. You're not limited to spending it only on the {X} part.
   - *2024-07-26* — You don't have to spend all the mana added by Helga's last ability on the same spell.
-- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/H.md#helga-skittish-seer)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Helga](../../Characters%20Index.md#helga) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 18 combos; most popular [Helga, Skittish Seer + Chakram Retriever + Venser, Shaper Savant](https://commanderspellbook.com/combo/3152-3634-5922/) (Infinite card draw, Near-infinite lifegain) · EDHREC as commander: 20,439 decks; highest synergy [Garruk's Uprising](../../cards/G/ga.md#garruks-uprising) (+49%), [Chakram Retriever](../../cards/C/cha.md#chakram-retriever) (+48%), [Chulane, Teller of Tales](../../cards/C/chu.md#chulane-teller-of-tales) (+48%) · EDHREC: in 16,806 decks; most often under [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (37.8% of its decks), [Omnath, Locus of All](../../cards/O/om.md#omnath-locus-of-all) (17.2% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (3.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (2 edh guides · 1 lore & story) → [reverse index](../../references/H.md#helga-skittish-seer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/217/helga-skittish-seer) · oracle_id `0a0d25a8-4f28-453b-9270-4d449fe0ca65` · printing: BLB #217 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Helica Glider
@@ -2549,6 +2565,8 @@ schema: 2
   - *2020-01-24* — If a creature is enchanted by two or more Heliod's Punishments, it has only the activated ability of the one that most recently became attached. Activating that ability removes a task counter from only that one.
   - *2020-01-24* — If the affected creature gains an ability after Heliod's Punishment becomes attached to it, it will keep that ability.
   - *2020-01-24* — If the enchanted creature has an ability that defines a * in its power or toughness, that * is 0.
+- **Lore:** Featured in: [Arc → Theros Beyond Death (2020)](../../Conflicts%20%26%20Arcs.md#theros-beyond-death-2020) ([source](https://magic.wizards.com/en/news/feature/theros-beyond-death-story-cards-2019-12-16), [2](https://magic.wizards.com/en/news/feature/theros-beyond-death-story-summary-2020-01-10) via entry) — ✅ Story Spotlight printing (Scryfall `story_spotlight`): PLST #THB-21, THB #21 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,151 decks; most often under [Light-Paws, Emperor's Voice](../../cards/L/li.md#light-paws-emperors-voice) (11.0% of its decks), [Eriette of the Charmed Apple](../../cards/E/er.md#eriette-of-the-charmed-apple) (1.7% of its decks), [Yenna, Redtooth Regent](../../cards/Y/ye.md#yenna-redtooth-regent) (4.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#heliods-punishment)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/21/heliods-punishment) · oracle_id `ac5d5133-6f5c-43b7-82da-24802246e5a4` · printing: THB #21 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2825,6 +2843,8 @@ schema: 2
   - *2013-04-15* — Putting a +1/+1 counter on a creature with unleash that's already blocking won't remove it from combat. It will continue to block.
   - *2013-04-15* — The unleash ability applies no matter where the creature is entering the battlefield from.
   - *2013-04-15* — You make the choice to have the creature with unleash enter the battlefield with a +1/+1 counter or not as it's entering the battlefield. At that point, it's too late for a player to respond to the creature spell by trying to counter it, for example.
+- **Lore:** ✅ Card art shown on [In Praise of the Worldsoul, Part 3](https://magic.wizards.com/en/news/magic-story/in-praise-of-the-worldsoul-part-3) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 843 decks; most often under [Exava, Rakdos Blood Witch](../../cards/E/ex.md#exava-rakdos-blood-witch) (55.4% of its decks), [Marchesa, the Black Rose](../../cards/M/mar.md#marchesa-the-black-rose) (0.7% of its decks), [Rakdos, Lord of Riots](../../cards/R/rak.md#rakdos-lord-of-riots) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rtr/167/hellhole-flailer) · oracle_id `e13c1703-1184-4a8c-9310-f11e4e673597` · printing: RTR #167 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hellhole Rats
@@ -3396,7 +3416,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22131 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-01-22* — Helvault’s first and third abilities are linked. Similarly, Helvault’s second and third abilities are linked. Only cards exiled as a result of Helvault’s first or second abilities will be returned to the battlefield by its third ability.
-- **Lore:** Depicts: [Item → Helvault](../../Items%20%26%20Artifacts%20Index.md#helvault) ([source](https://magic.wizards.com/en/news/magic-story/campaign-vengeance-2016-07-06), [2](https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15) via entry) — *Depicts:* Avacyn's prison: Griselbrand would "trap her in the Helvault", and "When the Helvault shattered, Avacyn emerged at her full strength." ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-avacyn-restored-part-1)) · [format](../../Card%20Enrichment.md#lore-line)
+- **Lore:** Depicts: [Item → Helvault](../../Items%20%26%20Artifacts%20Index.md#helvault) ([source](https://magic.wizards.com/en/news/magic-story/campaign-vengeance-2016-07-06), [2](https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15) via entry) — ✅ Card art shown on [The Lunarch's Journal](https://magic.wizards.com/en/news/magic-story/lunarchs-journal-2014-08-13), [Promises Old and New](https://magic.wizards.com/en/news/magic-story/promises-old-and-new-2016-04-13), [Stone and Blood](https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15) (caption names the card and its artist) — *Depicts:* Avacyn's prison: Griselbrand would "trap her in the Helvault", and "When the Helvault shattered, Avacyn emerged at her full strength." ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-avacyn-restored-part-1)) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — KB decks (1): [Nahiri, the Lithomancer](../../decks/lore-nahiri-the-lithomancer.md) · Commander Spellbook: 3 combos; most popular [Sharuum the Hegemon + Helvault + Krark-Clan Ironworks](https://commanderspellbook.com/combo/2437-4112-4659/) (Infinite colorless mana, Infinite creature ETB) · EDHREC: in 1,495 decks; most often under [The Peregrine Dynamo](../../cards/T/thep.md#the-peregrine-dynamo) (3.7% of its decks), [Ketramose, the New Dawn](../../cards/K/ke.md#ketramose-the-new-dawn) (0.3% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 decks · 2 lore & story) → [reverse index](../../references/H.md#helvault)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/266/helvault) · oracle_id `fa3d8a6f-dc5b-4890-a806-f785a41660c7` · printing: INR #266 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
@@ -4184,6 +4204,8 @@ schema: 2
   - *2015-02-25* — If a face-down creature with megamorph is turned face up some other way (for example, if you manifest a card with megamorph and then pay its mana cost to turn it face up), you won’t put a +1/+1 counter on it.
   - *2015-02-25* — Megamorph is a variant of the morph ability. You can find more information on morph on cards with morph from the Khans of Tarkir set.
   - *2015-02-25* — Turning a face-down creature with megamorph face up and putting a +1/+1 counter on it is a special action. It doesn’t use the stack and can’t be responded to.
+- **Lore:** ✅ Card art shown on [The Call](https://magic.wizards.com/en/news/magic-story/call-2015-04-15), [Chronicle of Bolas: Things Unseen](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-things-unseen-2018-06-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Atarka, World Render (Tarkir-only)](../../decks/plane-tarkir-atarka-world-render.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,404 decks; most often under [Skanos Dragonheart // Acolyte of Bahamut](../../cards/S/sk.md#skanos-dragonheart) (64.9% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.2% of its decks), [Dromoka, the Eternal](../../cards/D/dro.md#dromoka-the-eternal) (15.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/H.md#herdchaser-dragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/190/herdchaser-dragon) · oracle_id `9c7073e9-c676-4629-814c-a96e7af905cf` · printing: DTK #190 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4588,6 +4610,8 @@ schema: 2
   - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
   - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
   - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): DMU #20 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 925 decks; most often under [Tori D'Avenant, Fury Rider](../../cards/T/to.md#tori-davenant-fury-rider) (5.0% of its decks), [Baylen, the Haymaker](../../cards/B/bay.md#baylen-the-haymaker) (0.1% of its decks), [Arabella, Abandoned Doll](../../cards/A/ara.md#arabella-abandoned-doll) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#heroic-charge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/20/heroic-charge) · oracle_id `862511a3-672f-44fe-8121-a9afe1d1404f` · printing: DMU #20 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -5023,6 +5047,8 @@ schema: 2
   > *Odric resisted the vampire's curse with all his strength. But after a lifetime of fighting monsters, he was doomed to become one himself.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1994 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Walls of Akros](https://magic.wizards.com/en/news/magic-story/walls-akros-2014-02-26) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [The Gitrog Monster (Innistrad-only)](../../decks/plane-innistrad-the-gitrog-monster.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 82,916 decks; most often under [Marrow-Gnawer](../../cards/M/mar.md#marrow-gnawer) (12.0% of its decks), [Tinybones, Bauble Burglar](../../cards/T/ti.md#tinybones-bauble-burglar) (13.5% of its decks), [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (4.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/H.md#heros-downfall)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/175/heros-downfall) · oracle_id `03df6a57-37c9-46d3-83b3-4a6240100714` · printing: FDN #175 (2024-11-15) · [rulings](https://api.scryfall.com/cards/ad2c01d9-8f54-46c0-9dc9-d4d4764ce1c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

@@ -571,6 +571,8 @@ schema: 2
   > *—Thor*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/asphodel-2013-12-11), [official story page](https://magic.wizards.com/en/news/feature/path-bravery-2013-07-10), [official story page](https://magic.wizards.com/en/news/feature/sea-gods-labyrinth-part-1-2013-11-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (23): [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Brago, King Eternal](../../decks/brago-king-eternal.md) · [Breya, Etherium Shaper](../../decks/breya-etherium-shaper.md) · [Chulane, Teller of Tales](../../decks/chulane-teller-of-tales.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,428,270 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (92.9% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (94.6% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (89.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#plains)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mdd/292/plains) · oracle_id `bc71ebf6-2056-41f7-be35-b2e5c34afa99` · printing: MDD #292 (2027-04-09) · [rulings](https://api.scryfall.com/cards/09ac862f-0a51-44dd-b86f-9412b8218b13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -655,7 +657,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4542 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-02-09* — A permanent card is an artifact, creature, enchantment, land, or planeswalker card.
-- **Lore:** Depicts: [Item → Planar Bridge](../../Items%20%26%20Artifacts%20Index.md#planar-bridge) ([source](https://magic.wizards.com/en/news/magic-story/breaking-points-2017-01-18), [2](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-3-nemesis) via entry) · [format](../../Card%20Enrichment.md#lore-line)
+- **Lore:** Depicts: [Item → Planar Bridge](../../Items%20%26%20Artifacts%20Index.md#planar-bridge) ([source](https://magic.wizards.com/en/news/magic-story/breaking-points-2017-01-18), [2](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-3-nemesis) via entry) — ✅ Card art shown on [Puppets](https://magic.wizards.com/en/news/magic-story/puppets-2017-01-25) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — KB decks (1): [Kozilek, the Great Distortion](../../decks/kozilek-the-great-distortion.md) · Commander Spellbook: 5 combos; most popular [Timestream Navigator + Planar Bridge](https://commanderspellbook.com/combo/1061-3592/) (Infinite turns, Lock) · EDHREC: in 35,848 decks; most often under [Karn, Legacy Reforged](../../cards/K/ka.md#karn-legacy-reforged) (46.2% of its decks), [Zhulodok, Void Gorger](../../cards/Z/zh.md#zhulodok-void-gorger) (13.7% of its decks), [Ultima, Origin of Oblivion](../../cards/U/ul.md#ultima-origin-of-oblivion) (28.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (1 decks · 2 lore & story · 1 card data) → [reverse index](../../references/P.md#planar-bridge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/313/planar-bridge) · oracle_id `853c6cc0-ed2b-4d65-add1-2449ade8cf68` · printing: 2X2 #313 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
@@ -725,6 +727,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6564 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-02-04* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keywords are activated abilities and will have colons in their reminder text. Notably, loyalty abilities of planeswalkers are activated abilities.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): ONE #28, PLST #ONE-28 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 23,370 decks; most often under [Eriette of the Charmed Apple](../../cards/E/er.md#eriette-of-the-charmed-apple) (28.3% of its decks), [Light-Paws, Emperor's Voice](../../cards/L/li.md#light-paws-emperors-voice) (22.8% of its decks), [Sythis, Harvest's Hand](../../cards/S/sy.md#sythis-harvests-hand) (6.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#planar-disruption)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/28/planar-disruption) · oracle_id `6128679e-7e54-41e4-ab6e-25aeeffed49f` · printing: ONE #28 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -739,6 +743,8 @@ schema: 2
   > *—Oracle Jadzi, to Tam*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3149 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-the-math-of-more) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 53,394 decks; most often under [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (30.6% of its decks), [Tifa Lockhart](../../cards/T/ti.md#tifa-lockhart) (50.6% of its decks), [Toph, the First Metalbender](../../cards/T/to.md#toph-the-first-metalbender) (14.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#planar-engineering)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/158/planar-engineering) · oracle_id `dc48079a-b1c4-4c43-a989-418c78a264ec` · printing: SOS #158 (2026-04-24) · [rulings](https://api.scryfall.com/cards/c83b96a3-ddfd-4d11-8a85-5bf62087cbb9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -798,6 +804,8 @@ schema: 2
   > *Jin-Gitaxias had long coveted the secrets of planeswalking. Spirits that could pass between worlds made for perfect test subjects.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2263 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): NEO #72 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 38 combos; most popular [Dualcaster Mage + Planar Incision](https://commanderspellbook.com/combo/147-673/) (Infinite creature LTB, Infinite creature ETB) · EDHREC: in 73,061 decks; most often under [Eluge, the Shoreless Sea](../../cards/E/el.md#eluge-the-shoreless-sea) (36.9% of its decks), [Kefka, Court Mage](../../cards/K/ke.md#kefka-court-mage--kefka-ruler-of-ruin) (15.8% of its decks), [Loot, the Pathfinder](../../cards/L/lo.md#loot-the-pathfinder) (35.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/72/planar-incision) · oracle_id `a959a91a-3e1d-4bd4-9e14-5ee977540146` · printing: NEO #72 (2022-02-18) · [rulings](https://api.scryfall.com/cards/9163cb04-ee28-4127-b53a-89c546996d7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Planar Nexus
@@ -1069,7 +1077,9 @@ schema: 2
   - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
   - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/P.md#planewide-celebration)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WAR #172 — [Art & Flavor → War of the Spark (2019)](../../Art%20%26%20Flavor%20Story%20Links.md#war-of-the-spark-2019) — ✅ Card art shown on [War of the Spark: Ravnica—Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 6 combos; most popular [Magistrate's Scepter + Tamiyo, Collector of Tales + Planewide Celebration](https://commanderspellbook.com/combo/2480-3609-3842/) (Infinite turns, Lock) · EDHREC: in 21,444 decks; most often under [Fynn, the Fangbearer](../../cards/F/fy.md#fynn-the-fangbearer) (33.7% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (5.8% of its decks), [Ixhel, Scion of Atraxa](../../cards/I/ix.md#ixhel-scion-of-atraxa) (16.0% of its decks) — *Guidance (Oracle pattern)* — packages: [+1/+1 counters: Proliferate](../../EDH%20Packages.md#11-counters-proliferate) · [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/P.md#planewide-celebration)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/172/planewide-celebration) · oracle_id `af23d348-adc9-451e-af08-bf9b1986c591` · printing: WAR #172 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Plan for All Outcomes
@@ -1136,7 +1146,9 @@ schema: 2
   - *2024-04-12* — Plot abilities are written “Plot [cost],” which means “Any time you have priority during your main phase while the stack is empty, you may pay [cost] and exile this card from your hand. It becomes plotted.”
   - *2024-04-12* — You can’t cast a plotted card on the same turn it became plotted. On any future turn, you may cast that card from exile without paying its mana cost during your main phase while the stack is empty.
   - *2024-04-12* — You’ll only surveil 3 if you have no cards in hand when Plan the Heist resolves, but you’ll still draw three cards either way.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#plan-the-heist)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): OTJ #62 — [Art & Flavor → Outlaws of Thunder Junction (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#outlaws-of-thunder-junction-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,307 decks; most often under [Kellan, the Kid](../../cards/K/ke.md#kellan-the-kid) (15.1% of its decks), [Doc Aurlock, Grizzled Genius](../../cards/D/do.md#doc-aurlock-grizzled-genius) (65.5% of its decks), [Flubs, the Fool](../../cards/F/fl.md#flubs-the-fool) (0.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/P.md#plan-the-heist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/62/plan-the-heist) · oracle_id `a9471b33-b5b0-408a-9900-6964e5fe42da` · printing: OTJ #62 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Plargg and Nassari
@@ -1710,6 +1722,8 @@ schema: 2
   > *On Theros, the dove is a symbol not of peace but of discovery. Quick wings herald the arrival of a revelation.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9456 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/dreams-city-2014-04-23-0), [Dreams of the City](https://magic.wizards.com/en/news/magic-story/dreams-city-2014-04-23) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 13,681 decks; most often under [Go-Shintai of Life's Origin](../../cards/G/gos.md#go-shintai-of-lifes-origin) (5.8% of its decks), [Sythis, Harvest's Hand](../../cards/S/sy.md#sythis-harvests-hand) (4.6% of its decks), [Tuvasa the Sunlit](../../cards/T/tu.md#tuvasa-the-sunlit) (4.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/24/plea-for-guidance) · oracle_id `358cfcf3-8ad0-4877-a59a-76ee269169fb` · printing: BNG #24 (2014-02-07) · [rulings](https://api.scryfall.com/cards/1d1d6d76-f399-475a-b5cd-544bd7c6d967/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Plea for Power
@@ -1753,6 +1767,8 @@ schema: 2
   > *—Gideon Jura*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8614 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WAR #210 — [Art & Flavor → War of the Spark (2019)](../../Art%20%26%20Flavor%20Story%20Links.md#war-of-the-spark-2019) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 15,716 decks; most often under [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (8.7% of its decks), [Lathiel, the Bounteous Dawn](../../cards/L/la.md#lathiel-the-bounteous-dawn) (24.4% of its decks), [Hamza, Guardian of Arashin](../../cards/H/ha.md#hamza-guardian-of-arashin) (23.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#pledge-of-unity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/210/pledge-of-unity) · oracle_id `ad501bcb-b838-4716-9759-98c484772285` · printing: WAR #210 (2019-05-03) · [rulings](https://api.scryfall.com/cards/ca9b3518-7fcd-49e2-a4c4-e5daa8be6c21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1842,6 +1858,8 @@ schema: 2
 - **Rulings** (2):
   - *2021-04-16* — If you copy Plumb the Forbidden multiple times, each magecraft ability of a creature you control will trigger that many times.
   - *2021-04-16* — If you sacrifice a creature with a magecraft ability to cast Plumb the Forbidden, that creature's ability will not trigger.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): STX #81 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 137,415 decks; most often under [Chatterfang, Squirrel General](../../cards/C/cha.md#chatterfang-squirrel-general) (34.1% of its decks), [Hazel of the Rootbloom](../../cards/H/ha.md#hazel-of-the-rootbloom) (55.2% of its decks), [Dina, Essence Brewer](../../cards/D/di.md#dina-essence-brewer) (52.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/224/plumb-the-forbidden) · oracle_id `b099fc54-cdbc-46cb-b4e4-7c2ca77b115b` · printing: SOC #224 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Plumecreed Escort

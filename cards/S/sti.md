@@ -245,7 +245,9 @@ schema: 2
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10816 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#stillness-in-motion)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): TDM #59 — [Art & Flavor → Tarkir: Dragonstorm (2025)](../../Art%20%26%20Flavor%20Story%20Links.md#tarkir-dragonstorm-2025) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 11,044 decks; most often under [The Master of Keys](../../cards/T/them.md#the-master-of-keys) (17.5% of its decks), [Teval, Arbiter of Virtue](../../cards/T/te.md#teval-arbiter-of-virtue) (15.3% of its decks), [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (2.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/S.md#stillness-in-motion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/59/stillness-in-motion) · oracle_id `d73913ea-44d0-408f-9f8b-8e91843f2826` · printing: TDM #59 (2025-04-11) · [rulings](https://api.scryfall.com/cards/a6289251-17e4-4987-96b9-2fb1a8f90e2a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stilt-Man, Towering Terror
@@ -920,6 +922,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13680 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2014-11-07* — “Exiled this way” refers to the exile instruction that's part of the ability's effect. If the cards each player would put into their graveyard are exiled because of a replacement effect, those cards won't be in the graveyards to be exiled by the next part of the ability. In this case, the value of X will be 0. You'll put a 0/0 token onto the battlefield, then that token will die and subsequently cease to exist (unless something else raises its toughness above 0).
+- **Lore:** ✅ Card art shown on [Games](https://magic.wizards.com/en/news/magic-story/games-2016-04-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 241 decks; highest synergy [Fatestitcher](../../cards/F/fa.md#fatestitcher) (+59%), [Geralf, Visionary Stitcher](../../cards/G/ge.md#geralf-visionary-stitcher) (+56%), [Wonder](../../cards/W/wo.md#wonder) (+55%) · EDHREC: in 6,547 decks; most often under [Wilhelt, the Rotcleaver](../../cards/W/wi.md#wilhelt-the-rotcleaver) (7.4% of its decks), [Gisa and Geralf](../../cards/G/gi.md#gisa-and-geralf) (8.6% of its decks), [The Scarab God](../../cards/T/thes.md#the-scarab-god) (4.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stitcher-geralf)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/121/stitcher-geralf) · oracle_id `da394a25-79c9-4b75-9ce6-741f64ae6913` · printing: CMM #121 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

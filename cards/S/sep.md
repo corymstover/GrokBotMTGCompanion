@@ -43,6 +43,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25968 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2015-06-22* — Separatist Voidmage’s ability can target itself.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Dream Halls + Conspiracy Theorist + Petals of Insight + Separatist Voidmage](https://commanderspellbook.com/combo/2430-2680-3415-5218/) (Infinite creature ETB, Infinite creature LTB) · EDHREC: in 663 decks; most often under [Helga, Skittish Seer](../../cards/H/he.md#helga-skittish-seer) (0.6% of its decks), [Naban, Dean of Iteration](../../cards/N/na.md#naban-dean-of-iteration) (8.1% of its decks), [Inalla, Archmage Ritualist](../../cards/I/ina.md#inalla-archmage-ritualist) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/72/separatist-voidmage) · oracle_id `d9fabfa8-b930-428d-af4e-640fb310a5b2` · printing: ORI #72 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sephara, Sky's Blade

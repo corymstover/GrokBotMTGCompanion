@@ -900,6 +900,9 @@ schema: 2
 - **Rulings** (2):
   - *2022-04-29* — The mana created by Meeting of the Five can be spent on any portion of the cost for a spell with exactly three colors, including any generic cost component or additional costs it has.
   - *2022-04-29* — You may cast any spells that have exactly three colors from among the cards exiled this way, even if they aren't the same three colors. For example, you could cast a spell that is white, blue, and black, then cast a spell that is black, red, and green.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): SNC #202 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,346 decks; most often under [Omnath, Locus of All](../../cards/O/om.md#omnath-locus-of-all) (5.0% of its decks), [Ramos, Dragon Engine](../../cards/R/ram.md#ramos-dragon-engine) (2.1% of its decks), [Jared Carthalion](../../cards/J/ja.md#jared-carthalion) (0.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/M.md#meeting-of-the-five)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/202/meeting-of-the-five) · oracle_id `60fc4c2d-1bf9-4c9a-a240-ab9b1c9c6817` · printing: SNC #202 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mega Flare
@@ -1320,6 +1323,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5930 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/dragons-errand-2015-05-06) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 88 combos; most popular [Kodama of the East Tree + Meloku the Clouded Mirror](https://commanderspellbook.com/combo/1479-4300/) (Infinite creature tokens, Infinite creature ETB) · EDHREC as commander: 186 decks; highest synergy [Retreat to Coralhelm](../../cards/R/ret.md#retreat-to-coralhelm) (+82%), [Walking Atlas](../../cards/W/wal.md#walking-atlas) (+82%), [Patron of the Moon](../../cards/P/pa.md#patron-of-the-moon) (+71%) · EDHREC: in 26,219 decks; most often under [Aesi, Tyrant of Gyre Strait](../../cards/A/ae.md#aesi-tyrant-of-gyre-strait) (41.0% of its decks), [Minn, Wily Illusionist](../../cards/M/min.md#minn-wily-illusionist) (49.9% of its decks), [Tatyova, Benthic Druid](../../cards/T/ta.md#tatyova-benthic-druid) (17.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#meloku-the-clouded-mirror)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/399/meloku-the-clouded-mirror) · oracle_id `3b96b8c3-b9c8-4712-a3b1-243a67cc013a` · printing: CMR #399 (2020-11-20) · [rulings](https://api.scryfall.com/cards/60b9db96-a6ab-454b-99a7-910ef77560d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1501,6 +1506,8 @@ schema: 2
   > {4}{U}, {T}, Sacrifice this land: Draw two cards.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9617 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 12](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-12-2018-05-30) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 13,319 decks; most often under [Aesi, Tyrant of Gyre Strait](../../cards/A/ae.md#aesi-tyrant-of-gyre-strait) (9.1% of its decks), [Minn, Wily Illusionist](../../cards/M/min.md#minn-wily-illusionist) (5.7% of its decks), [Zaffai, Thunder Conductor](../../cards/Z/za.md#zaffai-thunder-conductor) (20.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#memorial-to-genius)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/301/memorial-to-genius) · oracle_id `81763d7d-3897-4be9-bbf6-f6f5dee366ff` · printing: C21 #301 (2021-04-23) · [rulings](https://api.scryfall.com/cards/1d96dd97-ce88-4576-8261-c7866a06275d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1817,6 +1824,8 @@ schema: 2
   > *The Theorist used his own memories to trap the parts of Jace that objected to his plans, and to ensnare the friends who wished to stop him.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25359 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): FRA #15 — [Art & Flavor → Reality Fracture (2026)](../../Art%20%26%20Flavor%20Story%20Links.md#reality-fracture-2026) — ✅ Card art shown on [Reality Fracture](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-7-pick-up-the-pieces) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 818 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (0.3% of its decks), [Codie, Ravenous Codex](../../cards/C/cod.md#codie-ravenous-codex) (0.4% of its decks), [Liliana the Faultless](../../cards/L/li.md#liliana-the-faultless) (2.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#memory-trap)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/15/memory-trap) · oracle_id `70616a8c-9b6c-408e-8f3e-2c348ec136d8` · printing: FRA #15 (2026-10-02) · [rulings](https://api.scryfall.com/cards/2f5345ae-4489-4d05-b2d5-c71285254f05/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2109,6 +2118,8 @@ schema: 2
   - *2013-04-15* — The spell with cipher is encoded on the creature as part of that spell’s resolution, just after the spell’s other effects. That card goes directly from the stack to exile. It never goes to the graveyard.
   - *2013-04-15* — You cast the copy of the card with cipher during the resolution of the triggered ability. Ignore timing restrictions based on the card’s type.
   - *2013-04-15* — You choose the creature as the spell resolves. The cipher ability doesn’t target that creature, although the spell with cipher may target that creature (or a different creature) because of its other abilities.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/persistence-memory-2013-01-16) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,214 decks; most often under [Felix Five-Boots](../../cards/F/fe.md#felix-five-boots) (1.7% of its decks), [Tinybones, Bauble Burglar](../../cards/T/ti.md#tinybones-bauble-burglar) (0.7% of its decks), [Gríma, Saruman's Footman](../../cards/G/gri.md#gríma-sarumans-footman) (6.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gtc/72/mental-vapors) · oracle_id `e0151f37-790b-47f4-9928-cd8f32f68e4c` · printing: GTC #72 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mentor of the Meek
@@ -2141,6 +2152,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16611 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-04-16* — The triggered ability will trigger when you cast Mentor's Guidance no matter what permanents you control. As that ability tries to resolve, it will check to see if you control at least one permanent with the listed type or subtypes. If you do, Mentor's Guidance will be copied once, not once for each of those permanents. If you don't control a qualifying permanent at that time, the triggered ability won't resolve and it won't copy Mentor's Guidance.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): STX #46 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,106 decks; most often under [Matoya, Archon Elder](../../cards/M/mat.md#matoya-archon-elder) (36.3% of its decks), [Inalla, Archmage Ritualist](../../cards/I/ina.md#inalla-archmage-ritualist) (1.4% of its decks), [Elminster](../../cards/E/el.md#elminster) (2.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/46/mentors-guidance) · oracle_id `ba961e01-315a-4195-a6d5-694a97a70b5a` · printing: STX #46 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mephidross Vampire
@@ -2481,6 +2494,8 @@ schema: 2
   - *2017-07-14* — Afflict resolves before combat damage is dealt. If this loss of life brings a player to 0 life or less, that player loses the game immediately. A blocking creature with lifelink won't deal combat damage in time to save that player.
   - *2017-07-14* — If multiple creatures block a creature with afflict, afflict triggers only once.
   - *2023-07-28* — If a creature is attacking a planeswalker, that planeswalker's controller is the defending player. If a creature is attacking a battle, that battle's protector is the defending player.
+- **Lore:** ✅ Card art shown on [Hour of Eternity](https://magic.wizards.com/en/news/magic-story/hour-eternity-2017-07-12) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 702 decks; most often under [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (1.2% of its decks), [The Scarab God](../../cards/T/thes.md#the-scarab-god) (0.5% of its decks), [Hashaton, Scarab's Fist](../../cards/H/ha.md#hashaton-scarabs-fist) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#merciless-eternal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/71/merciless-eternal) · oracle_id `55c419e9-43f2-4d2d-8c13-057a48d47b53` · printing: HOU #71 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2555,6 +2570,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21564 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-04-14* — If the target of Merciless Repurposing is illegal as the spell tries to resolve, it won't resolve and none of its effects will happen. You won't incubate.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MOM #117 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,669 decks; most often under [Glissa, Herald of Predation](../../cards/G/gl.md#glissa-herald-of-predation) (25.6% of its decks), [Brimaz, Blight of Oreskos](../../cards/B/br.md#brimaz-blight-of-oreskos) (3.8% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#merciless-repurposing)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/117/merciless-repurposing) · oracle_id `2e1b5ae6-a29d-4f37-a380-eebee6cdcbd2` · printing: MOM #117 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2571,6 +2588,9 @@ schema: 2
 - **Rulings** (2):
   - *2016-04-08* — Players can respond to this spell only after it’s been cast and all its costs have been paid. No one can try to destroy the creature or land you sacrificed to stop you from casting this spell or to make you sacrifice a different one.
   - *2016-04-08* — You must sacrifice exactly one creature or land to cast Merciless Resolve. You can’t cast it without sacrificing a permanent, and you can’t sacrifice additional permanents.
+- **Lore:** ✅ Card art shown on [Promises Old and New](https://magic.wizards.com/en/news/magic-story/promises-old-and-new-2016-04-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,609 decks; most often under [Judith, Carnage Connoisseur](../../cards/J/ju.md#judith-carnage-connoisseur) (0.8% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (0.2% of its decks), [Kardur, Doomscourge](../../cards/K/ka.md#kardur-doomscourge) (1.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/M.md#merciless-resolve)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/123/merciless-resolve) · oracle_id `e9eecc10-8821-4b61-a042-01fef435d37c` · printing: SOI #123 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mercurial Chemister
@@ -2704,6 +2724,9 @@ schema: 2
 - **Rulings** (2):
   - *2014-09-20* — Several creatures with outlast also grant an ability to creatures you control with +1/+1 counters on them, including themselves. These counters could come from an outlast ability, but any +1/+1 counter on the creature will count.
   - *2014-09-20* — The cost to activate a creature’s outlast ability includes the tap symbol ({T}). A creature’s outlast ability can’t be activated unless that creature has been under your control continuously since the beginning of your turn.
+- **Lore:** ✅ Card art shown on [Enlightened](https://magic.wizards.com/en/news/magic-story/enlightened) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 7,629 decks; most often under [Abigale, Poet Laureate](../../cards/A/ab.md#abigale-poet-laureate--heroic-stanza) (29.2% of its decks), [Marchesa, the Black Rose](../../cards/M/mar.md#marchesa-the-black-rose) (3.2% of its decks), [Anafenza, the Foremost](../../cards/A/an.md#anafenza-the-foremost) (31.5% of its decks) — *Guidance (Oracle pattern)* — packages: [+1/+1 counters: Counter payoffs](../../EDH%20Packages.md#11-counters-counter-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/M.md#mer-ek-nightblade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/97/mer-ek-nightblade) · oracle_id `56a8554c-d427-44ca-a01d-9e12c89acd1e` · printing: IMA #97 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Meren of Clan Nel Toth
@@ -3834,6 +3857,8 @@ schema: 2
   - *2020-08-07* — Improvise doesn't change a spell's mana cost or mana value.
   - *2020-08-07* — Tapping an artifact won't cause its abilities to stop applying unless those abilities say so.
   - *2020-08-07* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Improvise applies after the total cost is calculated.
+- **Lore:** ✅ Card art shown on [Puppets](https://magic.wizards.com/en/news/magic-story/puppets-2017-01-25) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 10,977 decks; most often under [Emry, Lurker of the Loch](../../cards/E/em.md#emry-lurker-of-the-loch) (7.4% of its decks), [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (1.8% of its decks), [Urza, Lord High Artificer](../../cards/U/ur.md#urza-lord-high-artificer) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 rules · 1 lore & story) → [reverse index](../../references/M.md#metallic-rebuke)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/59/metallic-rebuke) · oracle_id `c4920e95-a6fc-4373-a0d6-244f51851364` · printing: 2XM #59 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3892,6 +3917,8 @@ schema: 2
   > {2}{B}, Sacrifice this artifact: You draw a card and you lose 1 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21778 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Kaladesh](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-kaladesh-2016-11-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,603 decks; most often under [Alela, Artful Provocateur](../../cards/A/al.md#alela-artful-provocateur) (0.5% of its decks), [Golbez, Crystal Collector](../../cards/G/gol.md#golbez-crystal-collector) (0.4% of its decks), [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/273/metalspinners-puzzleknot) · oracle_id `c19d2f54-2c3a-4cbe-8328-061d4b51f574` · printing: 2XM #273 (2020-08-07) · [rulings](https://api.scryfall.com/cards/6a3e1c7a-5672-4f76-9e04-a18cf0089fa7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Metalwork Colossus
@@ -4375,6 +4402,8 @@ schema: 2
   - *2022-10-14* — If the target permanent has unearth and was put onto the battlefield using its unearth ability, this effect can still exile it and return it to its owner's hand.
   - *2022-10-14* — If you activate a card's unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will do nothing as it resolves.
   - *2022-10-14* — Unearth grants haste to the permanent that's returned to the battlefield (even if it's not a creature card). However, neither of the "exile" abilities is granted to that permanent. If that permanent loses all its abilities, it will still be exiled at the beginning of the next end step, and if it would leave the battlefield, it is still exiled instead.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #16 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Meticulous Excavation + Sanctum Weaver](https://commanderspellbook.com/combo/1350-1355--85/) (Infinite creature LTB, Infinite creature ETB) · EDHREC: in 6,545 decks; most often under [Sythis, Harvest's Hand](../../cards/S/sy.md#sythis-harvests-hand) (9.2% of its decks), [Brigid, Clachan's Heart](../../cards/B/br.md#brigid-clachans-heart--brigid-douns-mind) (4.0% of its decks), [Zacama, Primal Calamity](../../cards/Z/za.md#zacama-primal-calamity) (5.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#meticulous-excavation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/16/meticulous-excavation) · oracle_id `6dff1d15-604f-4eea-9b7a-0c0ba6afbbac` · printing: BRO #16 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

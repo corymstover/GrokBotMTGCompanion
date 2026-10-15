@@ -204,6 +204,8 @@ schema: 2
   > *As retaliation for the Warlord's ambush at the peace summit, Mishra leveled Yotia's capital city.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23736 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #133 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,075 decks; most often under [Judith, Carnage Connoisseur](../../cards/J/ju.md#judith-carnage-connoisseur) (0.6% of its decks), [Fin Fang Foom](../../cards/F/fi.md#fin-fang-foom) (7.5% of its decks), [Ghyrson Starn, Kelermorph](../../cards/G/gh.md#ghyrson-starn-kelermorph) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#the-fall-of-kroog)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/133/the-fall-of-kroog) · oracle_id `bfd8d447-7253-40d0-a153-78e9700045d7` · printing: BRO #133 (2022-11-18) · [rulings](https://api.scryfall.com/cards/f454583d-d227-4fc8-842e-128e025880e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

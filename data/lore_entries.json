@@ -33,7 +33,22 @@
     ]
    },
    "enriched_cards": [
-    "Jace, Vryn's Prodigy // Jace, Telepath Unbound"
+    "Jace Beleren",
+    "Jace Reawakened",
+    "Jace, Arcane Strategist",
+    "Jace, Architect of Thought",
+    "Jace, Cunning Castaway",
+    "Jace, Ingenious Mind-Mage",
+    "Jace, Memory Adept",
+    "Jace, Mirror Mage",
+    "Jace, Multiverse Architect",
+    "Jace, Reality Sculptor",
+    "Jace, Unraveler of Secrets",
+    "Jace, Vryn's Prodigy // Jace, Telepath Unbound",
+    "Jace, Wielder of Mysteries",
+    "Jace, the Living Guildpact",
+    "Jace, the Mind Sculptor",
+    "Jace, the Perfected Mind"
    ]
   },
   {
@@ -43,7 +58,8 @@
    "anchor": "chandra-nalaar",
    "tags": [
     "dossier",
-    "planeswalker"
+    "planeswalker",
+    "has-enriched-cards"
    ],
    "citations": 13,
    "flags": {},
@@ -51,7 +67,32 @@
     "characters": [
      "Characters Index.md#chandra-nalaar"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Chandra Ablaze",
+    "Chandra Nalaar",
+    "Chandra, Acolyte of Flame",
+    "Chandra, Awakened Inferno",
+    "Chandra, Bold Pyromancer",
+    "Chandra, Chill of Compliance",
+    "Chandra, Dressed to Kill",
+    "Chandra, Fire Artisan",
+    "Chandra, Fire of Kaladesh // Chandra, Roaring Flame",
+    "Chandra, Flame's Catalyst",
+    "Chandra, Flame's Fury",
+    "Chandra, Flamecaller",
+    "Chandra, Flameshaper",
+    "Chandra, Gremlin Wrangler",
+    "Chandra, Heart of Fire",
+    "Chandra, Hope's Beacon",
+    "Chandra, Legacy of Fire",
+    "Chandra, Novice Pyromancer",
+    "Chandra, Pyrogenius",
+    "Chandra, Pyromaster",
+    "Chandra, Spark Hunter",
+    "Chandra, Torch of Defiance",
+    "Chandra, the Firebrand"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -60,7 +101,8 @@
    "anchor": "nissa-revane",
    "tags": [
     "dossier",
-    "spark-lost"
+    "spark-lost",
+    "has-enriched-cards"
    ],
    "citations": 14,
    "flags": {},
@@ -68,7 +110,23 @@
     "characters": [
      "Characters Index.md#nissa-revane"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Nissa Revane",
+    "Nissa of Shadowed Boughs",
+    "Nissa, Ascended Animist",
+    "Nissa, Genesis Mage",
+    "Nissa, Leyline Tamer",
+    "Nissa, Nature's Artisan",
+    "Nissa, Resurgent Animist",
+    "Nissa, Steward of Elements",
+    "Nissa, Vastwood Seer // Nissa, Sage Animist",
+    "Nissa, Vital Force",
+    "Nissa, Voice of Zendikar",
+    "Nissa, Who Shakes the World",
+    "Nissa, Worldsoul Speaker",
+    "Nissa, Worldwaker"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -77,7 +135,8 @@
    "anchor": "liliana-vess",
    "tags": [
     "dossier",
-    "spark-lost"
+    "spark-lost",
+    "has-enriched-cards"
    ],
    "citations": 10,
    "flags": {},
@@ -85,7 +144,23 @@
     "characters": [
      "Characters Index.md#liliana-vess"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Liliana Vess",
+    "Liliana of the Dark Realms",
+    "Liliana of the Veil",
+    "Liliana the Faultless",
+    "Liliana the Repentant",
+    "Liliana, Death Mage",
+    "Liliana, Death Wielder",
+    "Liliana, Death's Majesty",
+    "Liliana, Dreadhorde General",
+    "Liliana, Heretical Healer // Liliana, Defiant Necromancer",
+    "Liliana, Untouched by Death",
+    "Liliana, Waker of the Dead",
+    "Liliana, the Last Hope",
+    "Liliana, the Necromancer"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -95,7 +170,8 @@
    "tags": [
     "dossier",
     "has-secondary",
-    "alive-or-active"
+    "alive-or-active",
+    "has-enriched-cards"
    ],
    "citations": 11,
    "flags": {
@@ -105,7 +181,16 @@
     "characters": [
      "Characters Index.md#elspeth-tirel"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Elspeth Resplendent",
+    "Elspeth Tirel",
+    "Elspeth, Knight-Errant",
+    "Elspeth, Storm Slayer",
+    "Elspeth, Sun's Champion",
+    "Elspeth, Sun's Nemesis",
+    "Elspeth, Undaunted Hero"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -116,7 +201,8 @@
     "dossier",
     "has-unknowns",
     "has-non-canonical",
-    "spark-given-up"
+    "spark-given-up",
+    "has-enriched-cards"
    ],
    "citations": 10,
    "flags": {
@@ -127,7 +213,17 @@
     "characters": [
      "Characters Index.md#karn"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Karn Liberated",
+    "Karn, Argent Defender",
+    "Karn, Gilded Guardian",
+    "Karn, Legacy Reforged",
+    "Karn, Living Legacy",
+    "Karn, Scion of Urza",
+    "Karn, Silver Golem",
+    "Karn, the Great Creator"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -137,7 +233,8 @@
    "tags": [
     "dossier",
     "has-unknowns",
-    "spark-faded"
+    "spark-faded",
+    "has-enriched-cards"
    ],
    "citations": 9,
    "flags": {
@@ -147,7 +244,19 @@
     "characters": [
      "Characters Index.md#teferi"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Teferi, Druid of Argoth",
+    "Teferi, Hero of Dominaria",
+    "Teferi, Mage of Zhalfir",
+    "Teferi, Master of Time",
+    "Teferi, Temporal Archmage",
+    "Teferi, Temporal Pilgrim",
+    "Teferi, Time Raveler",
+    "Teferi, Timebender",
+    "Teferi, Timeless Voyager",
+    "Teferi, Who Slows the Sunset"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -157,7 +266,8 @@
    "tags": [
     "dossier",
     "has-unknowns",
-    "planeswalker"
+    "planeswalker",
+    "has-enriched-cards"
    ],
    "citations": 12,
    "flags": {
@@ -167,7 +277,26 @@
     "characters": [
      "Characters Index.md#ajani-goldmane"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Ajani Goldmane",
+    "Ajani Resolute",
+    "Ajani Steadfast",
+    "Ajani Unrelenting",
+    "Ajani Unyielding",
+    "Ajani Vengeant",
+    "Ajani, Adversary of Tyrants",
+    "Ajani, Caller of the Pride",
+    "Ajani, Inspiring Leader",
+    "Ajani, Mentor of Heroes",
+    "Ajani, Nacatl Pariah // Ajani, Nacatl Avenger",
+    "Ajani, Outland Chaperone",
+    "Ajani, Sleeper Agent",
+    "Ajani, Strength of the Pride",
+    "Ajani, Valiant Protector",
+    "Ajani, Wise Counselor",
+    "Ajani, the Greathearted"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -177,7 +306,8 @@
    "tags": [
     "dossier",
     "has-unknowns",
-    "planeswalker"
+    "planeswalker",
+    "has-enriched-cards"
    ],
    "citations": 9,
    "flags": {
@@ -187,7 +317,17 @@
     "characters": [
      "Characters Index.md#kaya"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Kaya the Inexorable",
+    "Kaya, Bane of the Dead",
+    "Kaya, Geist Hunter",
+    "Kaya, Ghost Assassin",
+    "Kaya, Ghost Haunter",
+    "Kaya, Intangible Slayer",
+    "Kaya, Orzhov Usurper",
+    "Kaya, Spirits' Justice"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -207,7 +347,10 @@
     ]
    },
    "enriched_cards": [
-    "Kaito Shizuki"
+    "Kaito Shizuki",
+    "Kaito, Bane of Nightmares",
+    "Kaito, Cunning Infiltrator",
+    "Kaito, Dancing Shadow"
    ]
   },
   {
@@ -231,7 +374,17 @@
     ]
    },
    "enriched_cards": [
-    "Vraska, Golgari Queen"
+    "Vraska Joins Up",
+    "Vraska the Unseen",
+    "Vraska, Betrayal's Sting",
+    "Vraska, Golgari Queen",
+    "Vraska, Regal Gorgon",
+    "Vraska, Relic Seeker",
+    "Vraska, Scheming Gorgon",
+    "Vraska, Soul of Stone",
+    "Vraska, Swarm's Eminence",
+    "Vraska, the Cutting Glare",
+    "Vraska, the Silencer"
    ]
   },
   {
@@ -242,7 +395,8 @@
    "tags": [
     "dossier",
     "has-unknowns",
-    "dead"
+    "dead",
+    "has-enriched-cards"
    ],
    "citations": 8,
    "flags": {
@@ -252,7 +406,15 @@
     "characters": [
      "Characters Index.md#tamiyo"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Tamiyo, Collector of Tales",
+    "Tamiyo, Compleated Sage",
+    "Tamiyo, Field Researcher",
+    "Tamiyo, Inquisitive Student // Tamiyo, Seasoned Scholar",
+    "Tamiyo, Upriser Crowned",
+    "Tamiyo, the Moon Sage"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -262,7 +424,8 @@
    "tags": [
     "dossier",
     "has-unknowns",
-    "status-unknown"
+    "status-unknown",
+    "has-enriched-cards"
    ],
    "citations": 8,
    "flags": {
@@ -272,7 +435,18 @@
     "characters": [
      "Characters Index.md#sarkhan-vol"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Sarkhan Unbroken",
+    "Sarkhan Vol",
+    "Sarkhan the Mad",
+    "Sarkhan the Masterless",
+    "Sarkhan, Dragon Ascendant",
+    "Sarkhan, Dragonsoul",
+    "Sarkhan, Fireblood",
+    "Sarkhan, Soul Aflame",
+    "Sarkhan, the Dragonspeaker"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -281,7 +455,8 @@
    "anchor": "gideon-jura",
    "tags": [
     "dossier",
-    "dead"
+    "dead",
+    "has-enriched-cards"
    ],
    "citations": 11,
    "flags": {},
@@ -292,7 +467,17 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Gideon Blackblade",
+    "Gideon Jura",
+    "Gideon of the Trials",
+    "Gideon the Oathless",
+    "Gideon, Ally of Zendikar",
+    "Gideon, Champion of Justice",
+    "Gideon, Martial Paragon",
+    "Gideon, the Oathsworn"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -318,7 +503,12 @@
     ]
    },
    "enriched_cards": [
-    "Nahiri, Heir of the Ancients"
+    "Nahiri, Forged in Fury",
+    "Nahiri, Heir of the Ancients",
+    "Nahiri, Storm of Stone",
+    "Nahiri, the Harbinger",
+    "Nahiri, the Lithomancer",
+    "Nahiri, the Unforgiving"
    ]
   },
   {
@@ -329,7 +519,8 @@
    "tags": [
     "dossier",
     "has-secondary",
-    "status-unknown"
+    "status-unknown",
+    "has-enriched-cards"
    ],
    "citations": 6,
    "flags": {
@@ -339,7 +530,18 @@
     "characters": [
      "Characters Index.md#sorin-markov"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Sorin Markov",
+    "Sorin of House Markov // Sorin, Ravenous Neonate",
+    "Sorin the Mirthless",
+    "Sorin, Grim Nemesis",
+    "Sorin, Imperious Bloodlord",
+    "Sorin, Lord of Innistrad",
+    "Sorin, Solemn Visitor",
+    "Sorin, Vampire Lord",
+    "Sorin, Vengeful Bloodlord"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -348,7 +550,8 @@
    "anchor": "ugin",
    "tags": [
     "dossier",
-    "alive-or-active"
+    "alive-or-active",
+    "has-enriched-cards"
    ],
    "citations": 8,
    "flags": {},
@@ -356,7 +559,12 @@
     "characters": [
      "Characters Index.md#ugin"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Ugin, Eye of the Storms",
+    "Ugin, the Ineffable",
+    "Ugin, the Spirit Dragon"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -366,7 +574,8 @@
    "tags": [
     "dossier",
     "has-unknowns",
-    "alive-or-active"
+    "alive-or-active",
+    "has-enriched-cards"
    ],
    "citations": 9,
    "flags": {
@@ -376,7 +585,15 @@
     "characters": [
      "Characters Index.md#nicol-bolas"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Nicol Bolas",
+    "Nicol Bolas, Dragon-God",
+    "Nicol Bolas, God-Pharaoh",
+    "Nicol Bolas, Planeswalker",
+    "Nicol Bolas, the Deceiver",
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -399,7 +616,13 @@
     ]
    },
    "enriched_cards": [
-    "Ral, Crackling Wit"
+    "Ral Zarek",
+    "Ral Zarek, Guest Lecturer",
+    "Ral, Caller of Storms",
+    "Ral, Crackling Wit",
+    "Ral, Izzet Viceroy",
+    "Ral, Monsoon Mage // Ral, Leyline Prodigy",
+    "Ral, Storm Conduit"
    ]
   },
   {
@@ -410,7 +633,8 @@
    "tags": [
     "dossier",
     "has-unknowns",
-    "planeswalker"
+    "planeswalker",
+    "has-enriched-cards"
    ],
    "citations": 6,
    "flags": {
@@ -423,7 +647,13 @@
     "retcons": [
      "Contradictions & Retcons Log.md#okos-origin-revealed"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Oko, Lorwyn Liege // Oko, Shadowmoor Scion",
+    "Oko, Thief of Crowns",
+    "Oko, the Ringleader",
+    "Oko, the Trickster"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -446,7 +676,15 @@
     ]
    },
    "enriched_cards": [
-    "Tezzeret, Betrayer of Flesh"
+    "Tezzeret the Schemer",
+    "Tezzeret the Seeker",
+    "Tezzeret, Agent of Bolas",
+    "Tezzeret, Artifice Master",
+    "Tezzeret, Betrayer of Flesh",
+    "Tezzeret, Cruel Captain",
+    "Tezzeret, Cruel Machinist",
+    "Tezzeret, Master of Metal",
+    "Tezzeret, Master of the Bridge"
    ]
   },
   {
@@ -457,7 +695,8 @@
    "tags": [
     "dossier",
     "has-unknowns",
-    "planeswalker"
+    "planeswalker",
+    "has-enriched-cards"
    ],
    "citations": 5,
    "flags": {
@@ -470,7 +709,12 @@
     "retcons": [
      "Contradictions & Retcons Log.md#tam-revealed-as-jaces-creation"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Tam, Mindful First-Year",
+    "Tam, Observant Sequencer // Deep Sight",
+    "Tam, the Possibility"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -480,7 +724,8 @@
    "tags": [
     "dossier",
     "has-unknowns",
-    "planeswalker"
+    "planeswalker",
+    "has-enriched-cards"
    ],
    "citations": 5,
    "flags": {
@@ -490,7 +735,20 @@
     "characters": [
      "Characters Index.md#garruk-wildspeaker"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Garruk Relentless // Garruk, the Veil-Cursed",
+    "Garruk Wildspeaker",
+    "Garruk the Slayer",
+    "Garruk, Apex Predator",
+    "Garruk, Caller of Beasts",
+    "Garruk, Curse Breaker",
+    "Garruk, Cursed Huntsman",
+    "Garruk, Primal Hunter",
+    "Garruk, Savage Herald",
+    "Garruk, Unleashed",
+    "Garruk, Veiled Butcher"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -499,7 +757,8 @@
    "anchor": "wrenn",
    "tags": [
     "dossier",
-    "dead"
+    "dead",
+    "has-enriched-cards"
    ],
    "citations": 6,
    "flags": {
@@ -509,7 +768,12 @@
     "characters": [
      "Characters Index.md#wrenn"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Wrenn and Realmbreaker",
+    "Wrenn and Seven",
+    "Wrenn and Six"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -528,7 +792,14 @@
     ]
    },
    "enriched_cards": [
-    "Niv-Mizzet Reborn"
+    "Niv-Mizzet Reborn",
+    "Niv-Mizzet, Dracogenius",
+    "Niv-Mizzet, Ghost Counsel",
+    "Niv-Mizzet, Guildpact",
+    "Niv-Mizzet, Parun",
+    "Niv-Mizzet, Supreme",
+    "Niv-Mizzet, Visionary",
+    "Niv-Mizzet, the Firemind"
    ]
   },
   {
@@ -539,7 +810,8 @@
    "tags": [
     "dossier",
     "has-unknowns",
-    "alive-or-active"
+    "alive-or-active",
+    "has-enriched-cards"
    ],
    "citations": 7,
    "flags": {
@@ -549,7 +821,16 @@
     "characters": [
      "Characters Index.md#kiora"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Kiora of Fire and Ashes",
+    "Kiora of Salt and Sand",
+    "Kiora, Behemoth Beckoner",
+    "Kiora, Master of the Depths",
+    "Kiora, Sovereign of the Deep",
+    "Kiora, the Crashing Wave",
+    "Kiora, the Rising Tide"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -559,7 +840,8 @@
    "tags": [
     "dossier",
     "has-unknowns",
-    "spark-faded"
+    "spark-faded",
+    "has-enriched-cards"
    ],
    "citations": 6,
    "flags": {
@@ -569,7 +851,13 @@
     "characters": [
      "Characters Index.md#koth"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Koth of the Hammer",
+    "Koth of the Homestead",
+    "Koth, Fire of Resistance",
+    "Koth, the Geomancer"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -578,7 +866,8 @@
    "anchor": "narset",
    "tags": [
     "dossier",
-    "alive-or-active"
+    "alive-or-active",
+    "has-enriched-cards"
    ],
    "citations": 4,
    "flags": {
@@ -588,7 +877,15 @@
     "characters": [
      "Characters Index.md#narset"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Narset Transcendent",
+    "Narset of the Ancient Way",
+    "Narset, Enlightened Exile",
+    "Narset, Enlightened Master",
+    "Narset, Jeskai Waymaster",
+    "Narset, Parter of Veils"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -598,7 +895,8 @@
    "tags": [
     "dossier",
     "has-unknowns",
-    "spark-lost"
+    "spark-lost",
+    "has-enriched-cards"
    ],
    "citations": 5,
    "flags": {
@@ -608,7 +906,17 @@
     "characters": [
      "Characters Index.md#saheeli-rai"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Saheeli Rai",
+    "Saheeli, Consul of Oversight",
+    "Saheeli, Filigree Master",
+    "Saheeli, Jewel of Avishkar",
+    "Saheeli, Radiant Creator",
+    "Saheeli, Sublime Artificer",
+    "Saheeli, the Gifted",
+    "Saheeli, the Sun's Brilliance"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -618,7 +926,8 @@
    "tags": [
     "dossier",
     "has-unknowns",
-    "spark-lost"
+    "spark-lost",
+    "has-enriched-cards"
    ],
    "citations": 5,
    "flags": {
@@ -628,7 +937,14 @@
     "characters": [
      "Characters Index.md#huatli"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Huatli, Dinosaur Knight",
+    "Huatli, Poet of Unity // Roar of the Fifth People",
+    "Huatli, Radiant Champion",
+    "Huatli, Warrior Poet",
+    "Huatli, the Sun's Heart"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -637,7 +953,8 @@
    "anchor": "samut",
    "tags": [
     "dossier",
-    "alive-or-active"
+    "alive-or-active",
+    "has-enriched-cards"
    ],
    "citations": 5,
    "flags": {
@@ -647,7 +964,16 @@
     "characters": [
      "Characters Index.md#samut"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Samut, Hazoret's Champion",
+    "Samut, Tyrant Smasher",
+    "Samut, Tyrant of Naktamun",
+    "Samut, Vizier of Naktamun",
+    "Samut, Voice of Dissent",
+    "Samut, the Driving Force",
+    "Samut, the Tested"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -657,7 +983,8 @@
    "tags": [
     "dossier",
     "has-unknowns",
-    "status-unknown"
+    "status-unknown",
+    "has-enriched-cards"
    ],
    "citations": 5,
    "flags": {
@@ -667,7 +994,13 @@
     "characters": [
      "Characters Index.md#dovin-baan"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Dovin Baan",
+    "Dovin, Architect of Law",
+    "Dovin, Grand Arbiter",
+    "Dovin, Hand of Control"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -677,7 +1010,8 @@
    "tags": [
     "dossier",
     "has-unknowns",
-    "status-unknown"
+    "status-unknown",
+    "has-enriched-cards"
    ],
    "citations": 4,
    "flags": {
@@ -687,7 +1021,12 @@
     "characters": [
      "Characters Index.md#angrath"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Angrath, Captain of Chaos",
+    "Angrath, Minotaur Pirate",
+    "Angrath, the Flame-Chained"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -698,7 +1037,8 @@
     "dossier",
     "has-unknowns",
     "has-non-canonical",
-    "dead"
+    "dead",
+    "has-enriched-cards"
    ],
    "citations": 4,
    "flags": {
@@ -710,7 +1050,14 @@
     "characters": [
      "Characters Index.md#venser"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Venser, Corpse Puppet",
+    "Venser, Fervent Forger",
+    "Venser, Shaper Savant",
+    "Venser, Visionary Traveler",
+    "Venser, the Sojourner"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -719,7 +1066,8 @@
    "anchor": "xenagos",
    "tags": [
     "dossier",
-    "dead"
+    "dead",
+    "has-enriched-cards"
    ],
    "citations": 4,
    "flags": {
@@ -732,7 +1080,11 @@
     "items": [
      "Items & Artifacts Index.md#godsend--khrusor"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Xenagos, God of Revels",
+    "Xenagos, the Reveler"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -743,7 +1095,8 @@
     "dossier",
     "has-secondary",
     "has-unknowns",
-    "status-unknown"
+    "status-unknown",
+    "has-enriched-cards"
    ],
    "citations": 5,
    "flags": {
@@ -754,7 +1107,14 @@
     "characters": [
      "Characters Index.md#ashiok"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Ashiok, Dream Render",
+    "Ashiok, Nightmare Muse",
+    "Ashiok, Nightmare Weaver",
+    "Ashiok, Sculptor of Fears",
+    "Ashiok, Wicked Manipulator"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -763,7 +1123,8 @@
    "anchor": "rowan--will-kenrith",
    "tags": [
     "dossier",
-    "has-unknowns"
+    "has-unknowns",
+    "has-enriched-cards"
    ],
    "citations": 6,
    "flags": {
@@ -777,7 +1138,13 @@
     "retcons": [
      "Contradictions & Retcons Log.md#queue-for-later-cycles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Rowan Kenrith",
+    "Rowan, Fearless Sparkmage",
+    "Rowan, Scholar of Sparks // Will, Scholar of Frost",
+    "Rowan, Scion of War"
+   ]
   },
   {
    "page": "Planeswalker Dossiers.md",
@@ -787,7 +1154,8 @@
    "tags": [
     "dossier",
     "has-unknowns",
-    "alive-or-active"
+    "alive-or-active",
+    "has-enriched-cards"
    ],
    "citations": 4,
    "flags": {
@@ -797,7 +1165,13 @@
     "characters": [
      "Characters Index.md#teyo-verada"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Teyo, Diamondblade Mage",
+    "Teyo, Geometric Tactician",
+    "Teyo, Lightshield Expert",
+    "Teyo, the Shieldmage"
+   ]
   },
   {
    "page": "Planes Index.md",
@@ -848,6 +1222,7 @@
     "Alrund, God of the Cosmos // Hakka, Whispering Raven",
     "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
     "Cosima, God of the Voyage // The Omenkeel",
+    "Doomskar",
     "Egon, God of Death // Throne of Death",
     "Esika, God of the Tree // The Prismatic Bridge",
     "Halvar, God of Battle // Sword of the Realms",
@@ -900,6 +1275,7 @@
    },
    "enriched_cards": [
     "Agatha of the Vile Cauldron",
+    "Cauldron of Souls",
     "Eriette of the Charmed Apple",
     "Gadwick, the Wizened",
     "Hylda of the Icy Crown",
@@ -944,12 +1320,18 @@
    },
    "enriched_cards": [
     "Brokkos, Apex of Forever",
+    "Drannith Magistrate",
     "Illuna, Apex of Wishes",
+    "Indatha Triome",
+    "Ketria Triome",
     "Kinnan, Bonder Prodigy",
     "Nethroi, Apex of Death",
+    "Raugrin Triome",
+    "Savai Triome",
     "Snapdax, Apex of the Hunt",
     "Vadrok, Apex of Thunder",
-    "Winota, Joiner of Forces"
+    "Winota, Joiner of Forces",
+    "Zagoth Triome"
    ]
   },
   {
@@ -982,9 +1364,14 @@
    },
    "enriched_cards": [
     "Falco Spara, Pactweaver",
+    "Jetmir's Garden",
     "Jetmir, Nexus of Revels",
     "Lord Xander, the Collector",
+    "Raffine's Tower",
     "Raffine, Scheming Seer",
+    "Spara's Headquarters",
+    "Xander's Lounge",
+    "Ziatora's Proving Ground",
     "Ziatora, the Incinerator"
    ]
   },
@@ -1133,7 +1520,8 @@
     ]
    },
    "enriched_cards": [
-    "Jace, Vryn's Prodigy // Jace, Telepath Unbound"
+    "Jace, Vryn's Prodigy // Jace, Telepath Unbound",
+    "Mage-Ring Network"
    ]
   },
   {
@@ -1223,7 +1611,9 @@
     ]
    },
    "enriched_cards": [
+    "Apocalypse Chime",
     "Baron Sengir",
+    "Feroz's Ban",
     "Grandmother Sengir"
    ]
   },
@@ -1235,7 +1625,8 @@
    "tags": [
     "plane",
     "has-secondary",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {
@@ -1246,7 +1637,10 @@
     "cards": [
      "cards/I/inv.md#invasion-of-ergamon--truga-cliffcharger"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Invasion of Ergamon // Truga Cliffcharger"
+   ]
   },
   {
    "page": "Planes Index.md",
@@ -1452,7 +1846,8 @@
    "anchor": "arcavios--the-strixhaven-colleges",
    "tags": [
     "plane",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 1,
    "flags": {
@@ -1462,7 +1857,10 @@
     "cards": [
      "cards/S/si.md#silverquill-campus"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Silverquill Campus"
+   ]
   },
   {
    "page": "Planes Index.md",
@@ -1891,6 +2289,7 @@
     ]
    },
    "enriched_cards": [
+    "Golgothian Sylex",
     "Karn's Sylex"
    ]
   },
@@ -2024,7 +2423,8 @@
    "anchor": "hedrons",
    "tags": [
     "item",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {},
@@ -2035,7 +2435,10 @@
     "cards": [
      "cards/H/he.md#hedron-archive"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Hedron Archive"
+   ]
   },
   {
    "page": "Items & Artifacts Index.md",
@@ -2161,7 +2564,8 @@
    "anchor": "halo",
    "tags": [
     "item",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 4,
    "flags": {},
@@ -2174,7 +2578,11 @@
      "cards/H/ha.md#halo-forager",
      "cards/H/ha.md#halo-fountain"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Halo Forager",
+    "Halo Fountain"
+   ]
   },
   {
    "page": "Items & Artifacts Index.md",
@@ -2258,6 +2666,7 @@
     ]
    },
    "enriched_cards": [
+    "Moonsilver Key",
     "The Celestus"
    ]
   },
@@ -2268,7 +2677,8 @@
    "anchor": "biblioplex--the-blood-avatar-strixhaven",
    "tags": [
     "item",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 4,
    "flags": {},
@@ -2280,7 +2690,10 @@
     "cards": [
      "cards/H/ha.md#hall-of-oracles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Hall of Oracles"
+   ]
   },
   {
    "page": "Items & Artifacts Index.md",
@@ -2332,7 +2745,9 @@
     ]
    },
    "enriched_cards": [
-    "Koma, Cosmos Serpent"
+    "Doomskar",
+    "Koma, Cosmos Serpent",
+    "The World Tree"
    ]
   },
   {
@@ -2478,7 +2893,8 @@
    "anchor": "stormnexus-ritual--the-crucible-of-the-spirit-dragon-tarkir",
    "tags": [
     "item",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 1,
    "flags": {},
@@ -2489,7 +2905,10 @@
     "cards": [
      "cards/C/cr.md#crucible-of-the-spirit-dragon"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Crucible of the Spirit Dragon"
+   ]
   },
   {
    "page": "Contradictions & Retcons Log.md",
@@ -3126,7 +3545,8 @@
    "tags": [
     "character",
     "has-non-canonical",
-    "alive-or-active"
+    "alive-or-active",
+    "has-enriched-cards"
    ],
    "citations": 5,
    "flags": {
@@ -3146,7 +3566,15 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Nicol Bolas",
+    "Nicol Bolas, Dragon-God",
+    "Nicol Bolas, God-Pharaoh",
+    "Nicol Bolas, Planeswalker",
+    "Nicol Bolas, the Deceiver",
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3155,7 +3583,8 @@
    "anchor": "ugin",
    "tags": [
     "character",
-    "alive-or-active"
+    "alive-or-active",
+    "has-enriched-cards"
    ],
    "citations": 4,
    "flags": {
@@ -3174,7 +3603,12 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Ugin, Eye of the Storms",
+    "Ugin, the Ineffable",
+    "Ugin, the Spirit Dragon"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3185,7 +3619,8 @@
     "character",
     "has-secondary",
     "has-non-canonical",
-    "status-unknown"
+    "status-unknown",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {
@@ -3204,7 +3639,18 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Sorin Markov",
+    "Sorin of House Markov // Sorin, Ravenous Neonate",
+    "Sorin the Mirthless",
+    "Sorin, Grim Nemesis",
+    "Sorin, Imperious Bloodlord",
+    "Sorin, Lord of Innistrad",
+    "Sorin, Solemn Visitor",
+    "Sorin, Vampire Lord",
+    "Sorin, Vengeful Bloodlord"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3234,7 +3680,12 @@
     ]
    },
    "enriched_cards": [
-    "Nahiri, Heir of the Ancients"
+    "Nahiri, Forged in Fury",
+    "Nahiri, Heir of the Ancients",
+    "Nahiri, Storm of Stone",
+    "Nahiri, the Harbinger",
+    "Nahiri, the Lithomancer",
+    "Nahiri, the Unforgiving"
    ]
   },
   {
@@ -3244,7 +3695,8 @@
    "anchor": "serra",
    "tags": [
     "character",
-    "dead"
+    "dead",
+    "has-enriched-cards"
    ],
    "citations": 1,
    "flags": {
@@ -3260,7 +3712,10 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Serra the Benevolent"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3270,7 +3725,8 @@
    "tags": [
     "character",
     "has-secondary",
-    "status-unknown"
+    "status-unknown",
+    "has-enriched-cards"
    ],
    "citations": 1,
    "flags": {
@@ -3286,7 +3742,10 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Geyadrone Dihada"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3296,7 +3755,8 @@
    "tags": [
     "character",
     "has-secondary",
-    "status-unknown"
+    "status-unknown",
+    "has-enriched-cards"
    ],
    "citations": 1,
    "flags": {
@@ -3312,7 +3772,11 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Dakkon Blackblade",
+    "Dakkon, Shadow Slayer"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3321,7 +3785,8 @@
    "anchor": "jaya-ballard",
    "tags": [
     "character",
-    "dead"
+    "dead",
+    "has-enriched-cards"
    ],
    "citations": 4,
    "flags": {
@@ -3337,7 +3802,13 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Jaya Ballard",
+    "Jaya Ballard, Task Mage",
+    "Jaya, Fiery Negotiator",
+    "Jaya, Venerated Firemage"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3346,7 +3817,8 @@
    "anchor": "freyalise",
    "tags": [
     "character",
-    "dead"
+    "dead",
+    "has-enriched-cards"
    ],
    "citations": 1,
    "flags": {
@@ -3362,7 +3834,10 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Freyalise, Llanowar's Fury"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3371,7 +3846,8 @@
    "anchor": "urza",
    "tags": [
     "character",
-    "dead"
+    "dead",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {
@@ -3388,7 +3864,16 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Urza, Academy Headmaster",
+    "Urza, Chief Artificer",
+    "Urza, Lord High Artificer",
+    "Urza, Lord Protector",
+    "Urza, Planeswalker",
+    "Urza, Powerstone Prodigy",
+    "Urza, Prince of Kroog"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3398,7 +3883,8 @@
    "tags": [
     "character",
     "has-non-canonical",
-    "dead"
+    "dead",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {
@@ -3415,7 +3901,15 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Mishra, Artificer Prodigy",
+    "Mishra, Claimed by Gix",
+    "Mishra, Eminent One",
+    "Mishra, Excavation Prodigy",
+    "Mishra, Lost to Phyrexia",
+    "Mishra, Tamer of Mak Fawa"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3424,7 +3918,8 @@
    "anchor": "karn",
    "tags": [
     "character",
-    "spark-given-up"
+    "spark-given-up",
+    "has-enriched-cards"
    ],
    "citations": 4,
    "flags": {
@@ -3442,7 +3937,17 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Karn Liberated",
+    "Karn, Argent Defender",
+    "Karn, Gilded Guardian",
+    "Karn, Legacy Reforged",
+    "Karn, Living Legacy",
+    "Karn, Scion of Urza",
+    "Karn, Silver Golem",
+    "Karn, the Great Creator"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3451,7 +3956,8 @@
    "anchor": "teferi",
    "tags": [
     "character",
-    "spark-faded"
+    "spark-faded",
+    "has-enriched-cards"
    ],
    "citations": 5,
    "flags": {
@@ -3469,7 +3975,19 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Teferi, Druid of Argoth",
+    "Teferi, Hero of Dominaria",
+    "Teferi, Mage of Zhalfir",
+    "Teferi, Master of Time",
+    "Teferi, Temporal Archmage",
+    "Teferi, Temporal Pilgrim",
+    "Teferi, Time Raveler",
+    "Teferi, Timebender",
+    "Teferi, Timeless Voyager",
+    "Teferi, Who Slows the Sunset"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3478,7 +3996,8 @@
    "anchor": "tevesh-szat",
    "tags": [
     "character",
-    "dead"
+    "dead",
+    "has-enriched-cards"
    ],
    "citations": 1,
    "flags": {
@@ -3494,7 +4013,10 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Tevesh Szat, Doom of Fools"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3503,7 +4025,8 @@
    "anchor": "lord-windgrace",
    "tags": [
     "character",
-    "dead"
+    "dead",
+    "has-enriched-cards"
    ],
    "citations": 1,
    "flags": {
@@ -3519,7 +4042,10 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Lord Windgrace"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3558,7 +4084,8 @@
    "anchor": "venser",
    "tags": [
     "character",
-    "dead"
+    "dead",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {
@@ -3576,7 +4103,14 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Venser, Corpse Puppet",
+    "Venser, Fervent Forger",
+    "Venser, Shaper Savant",
+    "Venser, Visionary Traveler",
+    "Venser, the Sojourner"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3611,7 +4145,22 @@
     ]
    },
    "enriched_cards": [
-    "Jace, Vryn's Prodigy // Jace, Telepath Unbound"
+    "Jace Beleren",
+    "Jace Reawakened",
+    "Jace, Arcane Strategist",
+    "Jace, Architect of Thought",
+    "Jace, Cunning Castaway",
+    "Jace, Ingenious Mind-Mage",
+    "Jace, Memory Adept",
+    "Jace, Mirror Mage",
+    "Jace, Multiverse Architect",
+    "Jace, Reality Sculptor",
+    "Jace, Unraveler of Secrets",
+    "Jace, Vryn's Prodigy // Jace, Telepath Unbound",
+    "Jace, Wielder of Mysteries",
+    "Jace, the Living Guildpact",
+    "Jace, the Mind Sculptor",
+    "Jace, the Perfected Mind"
    ]
   },
   {
@@ -3621,7 +4170,8 @@
    "anchor": "chandra-nalaar",
    "tags": [
     "character",
-    "planeswalker"
+    "planeswalker",
+    "has-enriched-cards"
    ],
    "citations": 4,
    "flags": {
@@ -3641,7 +4191,32 @@
      "Planes Index.md#other-planes-in-recent-stories-omenpath-era",
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Chandra Ablaze",
+    "Chandra Nalaar",
+    "Chandra, Acolyte of Flame",
+    "Chandra, Awakened Inferno",
+    "Chandra, Bold Pyromancer",
+    "Chandra, Chill of Compliance",
+    "Chandra, Dressed to Kill",
+    "Chandra, Fire Artisan",
+    "Chandra, Fire of Kaladesh // Chandra, Roaring Flame",
+    "Chandra, Flame's Catalyst",
+    "Chandra, Flame's Fury",
+    "Chandra, Flamecaller",
+    "Chandra, Flameshaper",
+    "Chandra, Gremlin Wrangler",
+    "Chandra, Heart of Fire",
+    "Chandra, Hope's Beacon",
+    "Chandra, Legacy of Fire",
+    "Chandra, Novice Pyromancer",
+    "Chandra, Pyrogenius",
+    "Chandra, Pyromaster",
+    "Chandra, Spark Hunter",
+    "Chandra, Torch of Defiance",
+    "Chandra, the Firebrand"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3651,7 +4226,8 @@
    "tags": [
     "character",
     "has-non-canonical",
-    "dead"
+    "dead",
+    "has-enriched-cards"
    ],
    "citations": 4,
    "flags": {
@@ -3669,7 +4245,17 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Gideon Blackblade",
+    "Gideon Jura",
+    "Gideon of the Trials",
+    "Gideon the Oathless",
+    "Gideon, Ally of Zendikar",
+    "Gideon, Champion of Justice",
+    "Gideon, Martial Paragon",
+    "Gideon, the Oathsworn"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3678,7 +4264,8 @@
    "anchor": "nissa-revane",
    "tags": [
     "character",
-    "spark-lost"
+    "spark-lost",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {
@@ -3695,7 +4282,23 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Nissa Revane",
+    "Nissa of Shadowed Boughs",
+    "Nissa, Ascended Animist",
+    "Nissa, Genesis Mage",
+    "Nissa, Leyline Tamer",
+    "Nissa, Nature's Artisan",
+    "Nissa, Resurgent Animist",
+    "Nissa, Steward of Elements",
+    "Nissa, Vastwood Seer // Nissa, Sage Animist",
+    "Nissa, Vital Force",
+    "Nissa, Voice of Zendikar",
+    "Nissa, Who Shakes the World",
+    "Nissa, Worldsoul Speaker",
+    "Nissa, Worldwaker"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3704,7 +4307,8 @@
    "anchor": "liliana-vess",
    "tags": [
     "character",
-    "spark-lost"
+    "spark-lost",
+    "has-enriched-cards"
    ],
    "citations": 4,
    "flags": {
@@ -3724,7 +4328,23 @@
      "Planes Index.md#other-planes-in-recent-stories-omenpath-era",
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Liliana Vess",
+    "Liliana of the Dark Realms",
+    "Liliana of the Veil",
+    "Liliana the Faultless",
+    "Liliana the Repentant",
+    "Liliana, Death Mage",
+    "Liliana, Death Wielder",
+    "Liliana, Death's Majesty",
+    "Liliana, Dreadhorde General",
+    "Liliana, Heretical Healer // Liliana, Defiant Necromancer",
+    "Liliana, Untouched by Death",
+    "Liliana, Waker of the Dead",
+    "Liliana, the Last Hope",
+    "Liliana, the Necromancer"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3734,7 +4354,8 @@
    "tags": [
     "character",
     "has-unknowns",
-    "planeswalker"
+    "planeswalker",
+    "has-enriched-cards"
    ],
    "citations": 5,
    "flags": {
@@ -3755,7 +4376,26 @@
      "Planes Index.md#other-planes-in-recent-stories-omenpath-era",
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Ajani Goldmane",
+    "Ajani Resolute",
+    "Ajani Steadfast",
+    "Ajani Unrelenting",
+    "Ajani Unyielding",
+    "Ajani Vengeant",
+    "Ajani, Adversary of Tyrants",
+    "Ajani, Caller of the Pride",
+    "Ajani, Inspiring Leader",
+    "Ajani, Mentor of Heroes",
+    "Ajani, Nacatl Pariah // Ajani, Nacatl Avenger",
+    "Ajani, Outland Chaperone",
+    "Ajani, Sleeper Agent",
+    "Ajani, Strength of the Pride",
+    "Ajani, Valiant Protector",
+    "Ajani, Wise Counselor",
+    "Ajani, the Greathearted"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3785,7 +4425,17 @@
     ]
    },
    "enriched_cards": [
-    "Vraska, Golgari Queen"
+    "Vraska Joins Up",
+    "Vraska the Unseen",
+    "Vraska, Betrayal's Sting",
+    "Vraska, Golgari Queen",
+    "Vraska, Regal Gorgon",
+    "Vraska, Relic Seeker",
+    "Vraska, Scheming Gorgon",
+    "Vraska, Soul of Stone",
+    "Vraska, Swarm's Eminence",
+    "Vraska, the Cutting Glare",
+    "Vraska, the Silencer"
    ]
   },
   {
@@ -3796,7 +4446,8 @@
    "tags": [
     "character",
     "has-unknowns",
-    "planeswalker"
+    "planeswalker",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {
@@ -3813,7 +4464,20 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Garruk Relentless // Garruk, the Veil-Cursed",
+    "Garruk Wildspeaker",
+    "Garruk the Slayer",
+    "Garruk, Apex Predator",
+    "Garruk, Caller of Beasts",
+    "Garruk, Curse Breaker",
+    "Garruk, Cursed Huntsman",
+    "Garruk, Primal Hunter",
+    "Garruk, Savage Herald",
+    "Garruk, Unleashed",
+    "Garruk, Veiled Butcher"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3822,7 +4486,8 @@
    "anchor": "elspeth-tirel",
    "tags": [
     "character",
-    "alive-or-active"
+    "alive-or-active",
+    "has-enriched-cards"
    ],
    "citations": 4,
    "flags": {
@@ -3840,7 +4505,16 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Elspeth Resplendent",
+    "Elspeth Tirel",
+    "Elspeth, Knight-Errant",
+    "Elspeth, Storm Slayer",
+    "Elspeth, Sun's Champion",
+    "Elspeth, Sun's Nemesis",
+    "Elspeth, Undaunted Hero"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3850,7 +4524,8 @@
    "tags": [
     "character",
     "has-unknowns",
-    "status-unknown"
+    "status-unknown",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {
@@ -3868,7 +4543,18 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Sarkhan Unbroken",
+    "Sarkhan Vol",
+    "Sarkhan the Mad",
+    "Sarkhan the Masterless",
+    "Sarkhan, Dragon Ascendant",
+    "Sarkhan, Dragonsoul",
+    "Sarkhan, Fireblood",
+    "Sarkhan, Soul Aflame",
+    "Sarkhan, the Dragonspeaker"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3877,7 +4563,8 @@
    "anchor": "narset",
    "tags": [
     "character",
-    "alive-or-active"
+    "alive-or-active",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {
@@ -3894,7 +4581,15 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Narset Transcendent",
+    "Narset of the Ancient Way",
+    "Narset, Enlightened Exile",
+    "Narset, Enlightened Master",
+    "Narset, Jeskai Waymaster",
+    "Narset, Parter of Veils"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3904,7 +4599,8 @@
    "tags": [
     "character",
     "has-non-canonical",
-    "dead"
+    "dead",
+    "has-enriched-cards"
    ],
    "citations": 5,
    "flags": {
@@ -3924,7 +4620,15 @@
     "retcons": [
      "Contradictions & Retcons Log.md#tamiyo-after-compleation"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Tamiyo, Collector of Tales",
+    "Tamiyo, Compleated Sage",
+    "Tamiyo, Field Researcher",
+    "Tamiyo, Inquisitive Student // Tamiyo, Seasoned Scholar",
+    "Tamiyo, Upriser Crowned",
+    "Tamiyo, the Moon Sage"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3933,7 +4637,8 @@
    "anchor": "kaya",
    "tags": [
     "character",
-    "planeswalker"
+    "planeswalker",
+    "has-enriched-cards"
    ],
    "citations": 4,
    "flags": {
@@ -3952,7 +4657,17 @@
      "Planes Index.md#planes-with-official-profiles",
      "Planes Index.md#ravnica-after-the-invasion-murders-at-karlov-manor"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Kaya the Inexorable",
+    "Kaya, Bane of the Dead",
+    "Kaya, Geist Hunter",
+    "Kaya, Ghost Assassin",
+    "Kaya, Ghost Haunter",
+    "Kaya, Intangible Slayer",
+    "Kaya, Orzhov Usurper",
+    "Kaya, Spirits' Justice"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -3981,7 +4696,13 @@
     ]
    },
    "enriched_cards": [
-    "Ral, Crackling Wit"
+    "Ral Zarek",
+    "Ral Zarek, Guest Lecturer",
+    "Ral, Caller of Storms",
+    "Ral, Crackling Wit",
+    "Ral, Izzet Viceroy",
+    "Ral, Monsoon Mage // Ral, Leyline Prodigy",
+    "Ral, Storm Conduit"
    ]
   },
   {
@@ -4010,7 +4731,15 @@
     ]
    },
    "enriched_cards": [
-    "Tezzeret, Betrayer of Flesh"
+    "Tezzeret the Schemer",
+    "Tezzeret the Seeker",
+    "Tezzeret, Agent of Bolas",
+    "Tezzeret, Artifice Master",
+    "Tezzeret, Betrayer of Flesh",
+    "Tezzeret, Cruel Captain",
+    "Tezzeret, Cruel Machinist",
+    "Tezzeret, Master of Metal",
+    "Tezzeret, Master of the Bridge"
    ]
   },
   {
@@ -4020,7 +4749,8 @@
    "anchor": "oko",
    "tags": [
     "character",
-    "planeswalker"
+    "planeswalker",
+    "has-enriched-cards"
    ],
    "citations": 4,
    "flags": {
@@ -4040,7 +4770,13 @@
     "retcons": [
      "Contradictions & Retcons Log.md#okos-origin-revealed"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Oko, Lorwyn Liege // Oko, Shadowmoor Scion",
+    "Oko, Thief of Crowns",
+    "Oko, the Ringleader",
+    "Oko, the Trickster"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4069,7 +4805,10 @@
     ]
    },
    "enriched_cards": [
-    "Kaito Shizuki"
+    "Kaito Shizuki",
+    "Kaito, Bane of Nightmares",
+    "Kaito, Cunning Infiltrator",
+    "Kaito, Dancing Shadow"
    ]
   },
   {
@@ -4079,7 +4818,8 @@
    "anchor": "niko-aris",
    "tags": [
     "character",
-    "planeswalker"
+    "planeswalker",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {
@@ -4096,7 +4836,11 @@
      "Planes Index.md#other-planes-in-recent-stories-omenpath-era",
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Niko Aris",
+    "Niko, Light of Hope"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4105,7 +4849,8 @@
    "anchor": "the-wanderer",
    "tags": [
     "character",
-    "planeswalker"
+    "planeswalker",
+    "has-enriched-cards"
    ],
    "citations": 4,
    "flags": {
@@ -4127,7 +4872,10 @@
     "retcons": [
      "Contradictions & Retcons Log.md#the-wanderer-is-the-emperor-of-kamigawa"
     ]
-   }
+   },
+   "enriched_cards": [
+    "The Wanderer"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4136,7 +4884,8 @@
    "anchor": "koth",
    "tags": [
     "character",
-    "spark-faded"
+    "spark-faded",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {
@@ -4153,7 +4902,13 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Koth of the Hammer",
+    "Koth of the Homestead",
+    "Koth, Fire of Resistance",
+    "Koth, the Geomancer"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4162,7 +4917,8 @@
    "anchor": "saheeli-rai",
    "tags": [
     "character",
-    "spark-lost"
+    "spark-lost",
+    "has-enriched-cards"
    ],
    "citations": 4,
    "flags": {
@@ -4180,7 +4936,17 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Saheeli Rai",
+    "Saheeli, Consul of Oversight",
+    "Saheeli, Filigree Master",
+    "Saheeli, Jewel of Avishkar",
+    "Saheeli, Radiant Creator",
+    "Saheeli, Sublime Artificer",
+    "Saheeli, the Gifted",
+    "Saheeli, the Sun's Brilliance"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4189,7 +4955,8 @@
    "anchor": "huatli",
    "tags": [
     "character",
-    "spark-lost"
+    "spark-lost",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {
@@ -4207,7 +4974,14 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Huatli, Dinosaur Knight",
+    "Huatli, Poet of Unity // Roar of the Fifth People",
+    "Huatli, Radiant Champion",
+    "Huatli, Warrior Poet",
+    "Huatli, the Sun's Heart"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4217,7 +4991,8 @@
    "tags": [
     "character",
     "has-unknowns",
-    "spark-lost"
+    "spark-lost",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {
@@ -4234,7 +5009,13 @@
     "planes": [
      "Planes Index.md#eldraine"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Rowan Kenrith",
+    "Rowan, Fearless Sparkmage",
+    "Rowan, Scholar of Sparks // Will, Scholar of Frost",
+    "Rowan, Scion of War"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4243,7 +5024,8 @@
    "anchor": "jiang-yanggu",
    "tags": [
     "character",
-    "spark-lost"
+    "spark-lost",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {
@@ -4257,7 +5039,13 @@
     "eras": [
      "Master Timeline.md#phyrexian-invasion"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Jiang Yanggu",
+    "Jiang Yanggu, Alone",
+    "Jiang Yanggu, Never Alone",
+    "Jiang Yanggu, Wildcrafter"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4285,6 +5073,7 @@
     ]
    },
    "enriched_cards": [
+    "Lukka, Bound to Ruin",
     "Lukka, Coppercoat Outcast"
    ]
   },
@@ -4295,7 +5084,8 @@
    "anchor": "wrenn",
    "tags": [
     "character",
-    "dead"
+    "dead",
+    "has-enriched-cards"
    ],
    "citations": 4,
    "flags": {
@@ -4311,7 +5101,12 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Wrenn and Realmbreaker",
+    "Wrenn and Seven",
+    "Wrenn and Six"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4321,7 +5116,8 @@
    "tags": [
     "character",
     "has-non-canonical",
-    "alive-or-active"
+    "alive-or-active",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {
@@ -4339,7 +5135,16 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Kiora of Fire and Ashes",
+    "Kiora of Salt and Sand",
+    "Kiora, Behemoth Beckoner",
+    "Kiora, Master of the Depths",
+    "Kiora, Sovereign of the Deep",
+    "Kiora, the Crashing Wave",
+    "Kiora, the Rising Tide"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4348,7 +5153,8 @@
    "anchor": "samut",
    "tags": [
     "character",
-    "alive-or-active"
+    "alive-or-active",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {
@@ -4364,7 +5170,16 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Samut, Hazoret's Champion",
+    "Samut, Tyrant Smasher",
+    "Samut, Tyrant of Naktamun",
+    "Samut, Vizier of Naktamun",
+    "Samut, Voice of Dissent",
+    "Samut, the Driving Force",
+    "Samut, the Tested"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4374,7 +5189,8 @@
    "tags": [
     "character",
     "has-unknowns",
-    "alive-or-active"
+    "alive-or-active",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {
@@ -4388,7 +5204,13 @@
     "eras": [
      "Master Timeline.md#post-mending-gatewatch-era"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Teyo, Diamondblade Mage",
+    "Teyo, Geometric Tactician",
+    "Teyo, Lightshield Expert",
+    "Teyo, the Shieldmage"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4417,6 +5239,8 @@
     ]
    },
    "enriched_cards": [
+    "Elesh Norn // The Argent Etchings",
+    "Elesh Norn, Grand Cenobite",
     "Elesh Norn, Mother of Machines"
    ]
   },
@@ -4447,6 +5271,8 @@
     ]
    },
    "enriched_cards": [
+    "Sheoldred // The True Scriptures",
+    "Sheoldred, Whispering One",
     "Sheoldred, the Apocalypse"
    ]
   },
@@ -4477,6 +5303,8 @@
     ]
    },
    "enriched_cards": [
+    "Jin-Gitaxias // The Great Synthesis",
+    "Jin-Gitaxias, Core Augur",
     "Jin-Gitaxias, Progress Tyrant"
    ]
   },
@@ -4507,7 +5335,9 @@
     ]
    },
    "enriched_cards": [
-    "Vorinclex, Monstrous Raider"
+    "Vorinclex // The Grand Evolution",
+    "Vorinclex, Monstrous Raider",
+    "Vorinclex, Voice of Hunger"
    ]
   },
   {
@@ -4539,7 +5369,9 @@
     ]
    },
    "enriched_cards": [
-    "Urabrask // The Great Work"
+    "Urabrask // The Great Work",
+    "Urabrask the Hidden",
+    "Urabrask, Heretic Praetor"
    ]
   },
   {
@@ -4549,7 +5381,8 @@
    "anchor": "tam",
    "tags": [
     "character",
-    "planeswalker"
+    "planeswalker",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {
@@ -4565,7 +5398,12 @@
     "planes": [
      "Planes Index.md#other-planes-in-recent-stories-omenpath-era"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Tam, Mindful First-Year",
+    "Tam, Observant Sequencer // Deep Sight",
+    "Tam, the Possibility"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4619,7 +5457,12 @@
     ]
    },
    "enriched_cards": [
-    "Kellan, the Fae-Blooded // Birthright Boon"
+    "Kellan Joins Up",
+    "Kellan, Daring Traveler // Journey On",
+    "Kellan, Inquisitive Prodigy // Tail the Suspect",
+    "Kellan, Planar Trailblazer",
+    "Kellan, the Fae-Blooded // Birthright Boon",
+    "Kellan, the Kid"
    ]
   },
   {
@@ -4629,7 +5472,8 @@
    "anchor": "helga",
    "tags": [
     "character",
-    "planeswalker"
+    "planeswalker",
+    "has-enriched-cards"
    ],
    "citations": 1,
    "flags": {
@@ -4645,7 +5489,10 @@
     "planes": [
      "Planes Index.md#other-planes-in-recent-stories-omenpath-era"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Helga, Skittish Seer"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4654,7 +5501,8 @@
    "anchor": "kirol-abigale-lluwen-sanar",
    "tags": [
     "character",
-    "planeswalker"
+    "planeswalker",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {
@@ -4671,7 +5519,17 @@
      "Planes Index.md#other-planes-in-recent-stories-omenpath-era",
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Abigale, Eloquent First-Year",
+    "Abigale, Poet Laureate // Heroic Stanza",
+    "Kirol, Attentive First-Year",
+    "Kirol, History Buff // Pack a Punch",
+    "Lluwen, Exchange Student // Pest Friend",
+    "Lluwen, Imperfect Naturalist",
+    "Sanar, Innovative First-Year",
+    "Sanar, Unfinished Genius // Wild Idea"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4699,7 +5557,20 @@
     ]
    },
    "enriched_cards": [
-    "Niv-Mizzet Reborn"
+    "Aminatou, Veil Piercer",
+    "Aminatou, the Fateshifter",
+    "Etrata, Deadly Fugitive",
+    "Etrata, the Silencer",
+    "Niv-Mizzet Reborn",
+    "Niv-Mizzet, Dracogenius",
+    "Niv-Mizzet, Ghost Counsel",
+    "Niv-Mizzet, Guildpact",
+    "Niv-Mizzet, Parun",
+    "Niv-Mizzet, Supreme",
+    "Niv-Mizzet, Visionary",
+    "Niv-Mizzet, the Firemind",
+    "Proft, Consulting Detective",
+    "Proft, Sinister Mastermind"
    ]
   },
   {
@@ -4710,7 +5581,8 @@
    "tags": [
     "character",
     "has-non-canonical",
-    "alive-or-active"
+    "alive-or-active",
+    "has-enriched-cards"
    ],
    "citations": 1,
    "flags": {
@@ -4726,7 +5598,10 @@
     "planes": [
      "Planes Index.md#other-planes-in-recent-stories-omenpath-era"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Uldaros Theorix"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4735,7 +5610,8 @@
    "anchor": "pinnacle--sothera-cast-haliya-sami-mirri-alpharael",
    "tags": [
     "character",
-    "planeswalker"
+    "planeswalker",
+    "has-enriched-cards"
    ],
    "citations": 1,
    "flags": {
@@ -4751,7 +5627,15 @@
     "planes": [
      "Planes Index.md#other-planes-in-recent-stories-omenpath-era"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Alpharael, Dreaming Acolyte",
+    "Alpharael, Stonechosen",
+    "Haliya, Ascendant Cadet",
+    "Haliya, Guided by Light",
+    "Sami, Ship's Engineer",
+    "Sami, Wildcat Captain"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4761,13 +5645,19 @@
    "tags": [
     "character",
     "has-unknowns",
-    "status-unknown"
+    "status-unknown",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {
     "unknown": 1
    },
-   "links": {}
+   "links": {},
+   "enriched_cards": [
+    "Angrath, Captain of Chaos",
+    "Angrath, Minotaur Pirate",
+    "Angrath, the Flame-Chained"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4777,13 +5667,19 @@
    "tags": [
     "character",
     "has-secondary",
-    "status-unknown"
+    "status-unknown",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {
     "secondary": 2
    },
-   "links": {}
+   "links": {},
+   "enriched_cards": [
+    "Arlinn Kord // Arlinn, Embraced by the Moon",
+    "Arlinn, Voice of the Pack",
+    "Arlinn, the Pack's Hope // Arlinn, the Moon's Fury"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4793,7 +5689,8 @@
    "tags": [
     "character",
     "has-unknowns",
-    "status-unknown"
+    "status-unknown",
+    "has-enriched-cards"
    ],
    "citations": 4,
    "flags": {
@@ -4803,7 +5700,14 @@
     "characters": [
      "Characters Index.md#jace-beleren"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Ashiok, Dream Render",
+    "Ashiok, Nightmare Muse",
+    "Ashiok, Nightmare Weaver",
+    "Ashiok, Sculptor of Fears",
+    "Ashiok, Wicked Manipulator"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4812,13 +5716,19 @@
    "anchor": "basri-ket",
    "tags": [
     "character",
-    "alive-or-active"
+    "alive-or-active",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {
     "confirmed": 1
    },
-   "links": {}
+   "links": {},
+   "enriched_cards": [
+    "Basri Ket",
+    "Basri, Devoted Paladin",
+    "Basri, Tomorrow's Champion"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4828,13 +5738,18 @@
    "tags": [
     "character",
     "has-unknowns",
-    "status-unknown"
+    "status-unknown",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {
     "unknown": 1
    },
-   "links": {}
+   "links": {},
+   "enriched_cards": [
+    "Calix, Destiny's Hand",
+    "Calix, Guided by Fate"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4845,14 +5760,19 @@
     "character",
     "has-unknowns",
     "has-non-canonical",
-    "status-unknown"
+    "status-unknown",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {
     "unknown": 1,
     "non-canonical": 1
    },
-   "links": {}
+   "links": {},
+   "enriched_cards": [
+    "Dack Fayden",
+    "Dack Fayden, Helping Hand"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4862,14 +5782,20 @@
    "tags": [
     "character",
     "has-unknowns",
-    "alive-or-active"
+    "alive-or-active",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {
     "confirmed": 1,
     "unknown": 1
    },
-   "links": {}
+   "links": {},
+   "enriched_cards": [
+    "Daretti, Ingenious Iconoclast",
+    "Daretti, Rocketeer Engineer",
+    "Daretti, Scrap Savant"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4879,13 +5805,17 @@
    "tags": [
     "character",
     "has-secondary",
-    "status-unknown"
+    "status-unknown",
+    "has-enriched-cards"
    ],
    "citations": 1,
    "flags": {
     "secondary": 1
    },
-   "links": {}
+   "links": {},
+   "enriched_cards": [
+    "Davriel, Rogue Shadowmage"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4894,13 +5824,20 @@
    "anchor": "domri-rade",
    "tags": [
     "character",
-    "dead"
+    "dead",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {
     "confirmed": 1
    },
-   "links": {}
+   "links": {},
+   "enriched_cards": [
+    "Domri Rade",
+    "Domri, Anarch of Bolas",
+    "Domri, Chaos Bringer",
+    "Domri, City Smasher"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4910,13 +5847,20 @@
    "tags": [
     "character",
     "has-unknowns",
-    "status-unknown"
+    "status-unknown",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {
     "unknown": 1
    },
-   "links": {}
+   "links": {},
+   "enriched_cards": [
+    "Dovin Baan",
+    "Dovin, Architect of Law",
+    "Dovin, Grand Arbiter",
+    "Dovin, Hand of Control"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4926,13 +5870,18 @@
    "tags": [
     "character",
     "has-secondary",
-    "status-unknown"
+    "status-unknown",
+    "has-enriched-cards"
    ],
    "citations": 1,
    "flags": {
     "secondary": 1
    },
-   "links": {}
+   "links": {},
+   "enriched_cards": [
+    "Grist, Voracious Larva // Grist, the Plague Swarm",
+    "Grist, the Hunger Tide"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4942,13 +5891,18 @@
    "tags": [
     "character",
     "has-unknowns",
-    "status-unknown"
+    "status-unknown",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {
     "unknown": 1
    },
-   "links": {}
+   "links": {},
+   "enriched_cards": [
+    "Kasmina, Enigma Sage",
+    "Kasmina, Enigmatic Mentor"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4958,13 +5912,20 @@
    "tags": [
     "character",
     "has-unknowns",
-    "status-unknown"
+    "status-unknown",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {
     "unknown": 1
    },
-   "links": {}
+   "links": {},
+   "enriched_cards": [
+    "Mu Yanling",
+    "Mu Yanling, Celestial Wind",
+    "Mu Yanling, Sky Dancer",
+    "Mu Yanling, Wind Rider"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4975,14 +5936,25 @@
     "character",
     "has-unknowns",
     "has-non-canonical",
-    "status-unknown"
+    "status-unknown",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {
     "unknown": 1,
     "non-canonical": 1
    },
-   "links": {}
+   "links": {},
+   "enriched_cards": [
+    "Ob Nixilis Reignited",
+    "Ob Nixilis of the Black Oath",
+    "Ob Nixilis, Captive Kingpin",
+    "Ob Nixilis, Unshackled",
+    "Ob Nixilis, the Adversary",
+    "Ob Nixilis, the Ascended",
+    "Ob Nixilis, the Fallen",
+    "Ob Nixilis, the Hate-Twisted"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -4992,13 +5964,19 @@
    "tags": [
     "character",
     "has-unknowns",
-    "dead"
+    "dead",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {
     "unknown": 1
    },
-   "links": {}
+   "links": {},
+   "enriched_cards": [
+    "Tibalt the Chaotic",
+    "Tibalt, Rakish Instigator",
+    "Tibalt, the Fiend-Blooded"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -5016,7 +5994,10 @@
    },
    "links": {},
    "enriched_cards": [
-    "Tyvar Kell"
+    "Tyvar Kell",
+    "Tyvar the Bellicose",
+    "Tyvar, Jubilant Brawler",
+    "Tyvar, the Pummeler"
    ]
   },
   {
@@ -5040,7 +6021,12 @@
    },
    "enriched_cards": [
     "Vivien Reid",
-    "Vivien, Monsters' Advocate"
+    "Vivien of the Arkbow",
+    "Vivien on the Hunt",
+    "Vivien, Arkbow Ranger",
+    "Vivien, Champion of the Wilds",
+    "Vivien, Monsters' Advocate",
+    "Vivien, Nature's Avenger"
    ]
   },
   {
@@ -5052,7 +6038,8 @@
     "character",
     "has-secondary",
     "has-unknowns",
-    "alive-or-active"
+    "alive-or-active",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {
@@ -5060,7 +6047,10 @@
     "secondary": 1,
     "unknown": 2
    },
-   "links": {}
+   "links": {},
+   "enriched_cards": [
+    "Will Kenrith"
+   ]
   },
   {
    "page": "Characters Index.md",
@@ -5069,13 +6059,18 @@
    "anchor": "xenagos",
    "tags": [
     "character",
-    "dead"
+    "dead",
+    "has-enriched-cards"
    ],
    "citations": 4,
    "flags": {
     "confirmed": 1
    },
-   "links": {}
+   "links": {},
+   "enriched_cards": [
+    "Xenagos, God of Revels",
+    "Xenagos, the Reveler"
+   ]
   },
   {
    "page": "Master Timeline.md",
@@ -5762,7 +6757,8 @@
     "arc",
     "has-secondary",
     "has-unknowns",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 2,
    "flags": {
@@ -5792,7 +6788,13 @@
     "planes": [
      "Planes Index.md#eldraine"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Happily Ever After",
+    "Kenrith's Transformation",
+    "Return of the Wildspeaker",
+    "Unexplained Vision"
+   ]
   },
   {
    "page": "Conflicts & Arcs.md",
@@ -5802,7 +6804,8 @@
    "tags": [
     "arc",
     "has-secondary",
-    "has-cards"
+    "has-cards",
+    "has-enriched-cards"
    ],
    "citations": 3,
    "flags": {
@@ -5831,7 +6834,13 @@
     "planes": [
      "Planes Index.md#planes-with-official-profiles"
     ]
-   }
+   },
+   "enriched_cards": [
+    "Agonizing Remorse",
+    "Heliod's Punishment",
+    "Relentless Pursuit",
+    "Triumphant Surge"
+   ]
   },
   {
    "page": "Conflicts & Arcs.md",
@@ -5874,6 +6883,7 @@
     "General Kudro of Drannith",
     "Lukka, Coppercoat Outcast",
     "The Ozolith",
+    "Unpredictable Cyclone",
     "Vivien, Monsters' Advocate"
    ]
   },

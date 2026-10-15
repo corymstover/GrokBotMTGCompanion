@@ -761,6 +761,8 @@ schema: 2
 - **Rulings** (2):
   - *2015-06-22* — If multiple attacking creatures must be blocked if able, the defending player must assign at least one blocker to each of them if possible. For example, if two such creatures were attacking and there were two potential blockers, they couldn't both be assigned to block the same attacker.
   - *2015-06-22* — Joraga Invocation doesn't force any specific creature to block any specific attacking creature. The defending player still chooses how creatures they control block.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,422 decks; most often under [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (0.3% of its decks), [General Marhault Elsdragon](../../cards/G/ge.md#general-marhault-elsdragon) (2.7% of its decks), [Anzrag, the Quake-Mole](../../cards/A/an.md#anzrag-the-quake-mole) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/555/joraga-invocation) · oracle_id `216d3eed-cb07-40c5-869a-962e074e757d` · printing: FDN #555 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Joraga Peach
@@ -847,6 +849,9 @@ schema: 2
 - **Rulings** (2):
   - *2016-01-22* — Jori En must be on the battlefield in order for the ability to function. Notably, the ability won’t trigger if Jori En is the second spell you cast in a turn.
   - *2016-01-22* — Jori En’s ability can trigger only once each turn. The ability will resolve before the second spell resolves. It doesn’t matter if the first spell you cast that turn has resolved, was countered, or is still on the stack.
+- **Lore:** ✅ Card art shown on [Beneath the Surface](https://magic.wizards.com/en/news/magic-story/beneath-surface-2016-01-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 773 decks; highest synergy [Opt](../../cards/O/op.md#opt) (+35%), [Consider](../../cards/C/con.md#consider) (+31%), [Quicken](../../cards/Q/qu.md#quicken) (+30%) · EDHREC: in 32,707 decks; most often under [Eshki Dragonclaw](../../cards/E/es.md#eshki-dragonclaw) (49.0% of its decks), [Gandalf, Party Guest](../../cards/G/ga.md#gandalf-party-guest) (62.6% of its decks), [Veyran, Voice of Duality](../../cards/V/ve.md#veyran-voice-of-duality) (25.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/J.md#jori-en-ruin-diver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dds/23/jori-en-ruin-diver) · oracle_id `4cd9b48e-5774-4a1c-857f-9f4a92db9b41` · printing: DDS #23 (2017-03-31) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jor Kadeen, First Goldwarden

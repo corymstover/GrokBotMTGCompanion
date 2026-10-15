@@ -334,7 +334,9 @@ schema: 2
   - *2015-06-22* — The card exiled by Abbot of Keral Keep's ability is exiled face up.
   - *2015-06-22* — Unless an effect allows you to play additional lands that turn, you can play a land card exiled with Abbot of Keral Keep's ability only if you haven't played a land yet that turn.
   - *2015-06-22* — You may play that card that turn even if Abbot of Keral Keep is no longer on the battlefield or under your control.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#abbot-of-keral-keep)
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09), [Offers to the Fire](https://magic.wizards.com/en/news/magic-story/offers-fire-2015-08-05), [Return to Dominaria: Episode 9](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-9-2018-05-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,542 decks; most often under [The Archimandrite](../../cards/T/thea.md#the-archimandrite) (8.5% of its decks), [Narset, Enlightened Exile](../../cards/N/na.md#narset-enlightened-exile) (2.1% of its decks), [Fire Lord Zuko](../../cards/F/fi.md#fire-lord-zuko) (1.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/A.md#abbot-of-keral-keep)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/100/abbot-of-keral-keep) · oracle_id `09be0f69-9c7f-491f-964d-bfbbc2d4251f` · printing: 2X2 #100 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abbot of the Sacred Meeple
@@ -626,6 +628,8 @@ schema: 2
 - **Rulings** (2):
   - *2025-11-17* — If the affected creature gains an ability after Abigale's last ability resolves, it will keep that ability.
   - *2025-11-17* — The effect of Abigale's last ability that causes the target creature to lose all abilities lasts indefinitely. It doesn't expire during the cleanup step or when Abigale leaves the battlefield.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Kirol, Abigale, Lluwen, Sanar](../../Characters%20Index.md#kirol-abigale-lluwen-sanar) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,360 decks; highest synergy [Rotting Regisaur](../../cards/R/ro.md#rotting-regisaur) (+81%), [Kalakscion, Hunger Tyrant](../../cards/K/ka.md#kalakscion-hunger-tyrant) (+80%), [Cloudshift](../../cards/C/cl.md#cloudshift) (+77%) · EDHREC: in 13,437 decks; most often under [Ardbert, Warrior of Darkness](../../cards/A/ard.md#ardbert-warrior-of-darkness) (45.5% of its decks), [Tayam, Luminous Enigma](../../cards/T/ta.md#tayam-luminous-enigma) (30.6% of its decks), [Betor, Ancestor's Voice](../../cards/B/be.md#betor-ancestors-voice) (9.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#abigale-eloquent-first-year)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/204/abigale-eloquent-first-year) · oracle_id `48a773d0-c433-4463-b50f-b6d4604a042c` · printing: ECL #204 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -657,6 +661,8 @@ schema: 2
   - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
   - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
   - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Kirol, Abigale, Lluwen, Sanar](../../Characters%20Index.md#kirol-abigale-lluwen-sanar) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,604 decks; highest synergy [Stirring Hopesinger](../../cards/S/sti.md#stirring-hopesinger) (+85%), [Graduation Day](../../cards/G/gra.md#graduation-day) (+78%), [Informed Inkwright](../../cards/I/inf.md#informed-inkwright) (+78%) · EDHREC: in 5,887 decks; most often under [Ardbert, Warrior of Darkness](../../cards/A/ard.md#ardbert-warrior-of-darkness) (46.0% of its decks), [Silverquill, the Disputant](../../cards/S/si.md#silverquill-the-disputant) (4.9% of its decks), [Fire Lord Zuko](../../cards/F/fi.md#fire-lord-zuko) (3.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#abigale-poet-laureate--heroic-stanza)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/170/abigale-poet-laureate-heroic-stanza) · oracle_id `2f5f46ed-b8aa-4864-bd20-17281d4632bf` · printing: SOS #170 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1243,6 +1249,8 @@ schema: 2
   > *Quintorius touched the old poncho he'd found. A rush of magic condensed into an Echo, and wise Abuelo stepped forth.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15117 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): LCI #1 — [Art & Flavor → The Lost Caverns of Ixalan (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-lost-caverns-of-ixalan-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Phyrexian Metamorph + Abuelo's Awakening + Naru Meha, Master Wizard](https://commanderspellbook.com/combo/141-3734-5440/) (Infinite death triggers, Infinite creature ETB) · EDHREC: in 5,347 decks; most often under [Terra, Magical Adept](../../cards/T/te.md#terra-magical-adept--esper-terra) (0.8% of its decks), [Zur, Eternal Schemer](../../cards/Z/zu.md#zur-eternal-schemer) (2.1% of its decks), [Quintorius, History Chaser](../../cards/Q/qu.md#quintorius-history-chaser) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/A.md#abuelos-awakening)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/1/abuelos-awakening) · oracle_id `2b22cf44-7b03-4919-9812-6796bf193484` · printing: LCI #1 (2023-11-17) · [rulings](https://api.scryfall.com/cards/f93b725e-2b9c-4830-ac54-b2562afe09bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1542,6 +1550,8 @@ schema: 2
   > Whenever a nontoken creature you control dies, create a 1/1 white Spirit creature token with flying.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10217 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [No End and No Beginning](https://magic.wizards.com/en/news/magic-story/no-end-and-no-beginning-2015-02-11) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Yawgmoth, Thran Physician + Zulaport Cutthroat + Abzan Ascendancy](https://commanderspellbook.com/combo/1385-2301-4279--216/) (Infinite card draw, Infinite draw triggers) · EDHREC: in 12,069 decks; most often under [Tayam, Luminous Enigma](../../cards/T/ta.md#tayam-luminous-enigma) (31.0% of its decks), [Felothar, Dawn of the Abzan](../../cards/F/fe.md#felothar-dawn-of-the-abzan) (36.0% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (1.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/165/abzan-ascendancy) · oracle_id `3b7d4206-0d88-407b-ace5-d5d28881bf95` · printing: 2X2 #165 (2022-07-08) · [rulings](https://api.scryfall.com/cards/80b722d9-be9d-463c-929e-78f7156af9c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abzan Banner

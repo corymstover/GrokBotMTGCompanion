@@ -54,6 +54,8 @@ schema: 2
 - **Keywords:** Infusion
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16753 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-down-to-the-lake-alone) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,035 decks; most often under [Blech, Loafing Pest](../../cards/B/ble.md#blech-loafing-pest) (6.2% of its decks), [Witherbloom, the Balancer](../../cards/W/wi.md#witherbloom-the-balancer) (1.6% of its decks), [Berta, Wise Extrapolator](../../cards/B/be.md#berta-wise-extrapolator) (6.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/144/efflorescence) · oracle_id `181da74b-53fb-4e46-afc0-e7c990fda128` · printing: SOS #144 (2026-04-24) · [rulings](https://api.scryfall.com/cards/79b9ace7-eceb-4f97-9ee7-d5ee3e0b3515/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Effortless Master

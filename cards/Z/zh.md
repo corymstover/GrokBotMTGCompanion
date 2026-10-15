@@ -148,6 +148,8 @@ schema: 2
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2514 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 7](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-7-2018-04-25) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 66,081 decks; most often under [Zhulodok, Void Gorger](../../cards/Z/zh.md#zhulodok-void-gorger) (28.7% of its decks), [Ultima, Origin of Oblivion](../../cards/U/ul.md#ultima-origin-of-oblivion) (37.8% of its decks), [Karn, Legacy Reforged](../../cards/K/ka.md#karn-legacy-reforged) (38.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/Z.md#zhalfirin-void)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/273/zhalfirin-void) · oracle_id `13aab4fc-4c89-45e6-8275-b074b00d0ee9` · printing: AFC #273 (2021-07-23) · [rulings](https://api.scryfall.com/cards/d481d871-d1e3-439b-bfd5-5b2212f9b0c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

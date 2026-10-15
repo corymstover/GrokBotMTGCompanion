@@ -264,6 +264,8 @@ schema: 2
   - *2015-02-25* — Warbringer’s first ability can’t affect the colored mana requirement of a dash cost. If a card’s dash cost includes one generic mana, that cost will be reduced by {1}.
   - *2015-02-25* — Warbringer’s first ability doesn’t affect Warbringer itself.
   - *2015-02-25* — You don’t have to attack with the creature with dash unless another ability says you do.
+- **Lore:** ✅ Card art shown on [The Guardian](https://magic.wizards.com/en/news/magic-story/guardian-2015-04-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 621 decks; most often under [Neriv, Heart of the Storm](../../cards/N/ne.md#neriv-heart-of-the-storm) (1.4% of its decks), [Zurgo Helmsmasher](../../cards/Z/zu.md#zurgo-helmsmasher) (1.2% of its decks), [Zurgo Bellstriker](../../cards/Z/zu.md#zurgo-bellstriker) (30.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/168/warbringer) · oracle_id `0636090b-49e0-45b4-a68d-48b1cdc0c54d` · printing: DTK #168 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War Cadence
@@ -437,6 +439,8 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13426 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Up in Flames](https://magic.wizards.com/en/news/magic-story/flames-2016-01-20) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 7,116 decks; most often under [Zhulodok, Void Gorger](../../cards/Z/zh.md#zhulodok-void-gorger) (6.9% of its decks), [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (2.6% of its decks), [Kozilek, the Great Distortion](../../cards/K/ko.md#kozilek-the-great-distortion) (13.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/11/warden-of-geometries) · oracle_id `448da389-81db-4931-9cf7-3fde0ce9392f` · printing: OGW #11 (2016-01-22) · [rulings](https://api.scryfall.com/cards/c7f517b9-ac10-4710-8ef1-ced1253d5ecf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warden of the Beyond
@@ -946,6 +950,8 @@ schema: 2
   > *While Aurelia mustered the Boros Legion, Kaya and Kellan raced against the clock, desperate to stave off a war the guilds might not survive.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #913 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MKM #242 — [Art & Flavor → Murders at Karlov Manor (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#murders-at-karlov-manor-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Kykar, Wind's Fury](../../decks/kykar-winds-fury.md) · [Aurelia, the Warleader (Ravnica-only)](../../decks/plane-ravnica-aurelia-the-warleader.md) · Commander Spellbook: 6 combos; most popular [Storm Herd + Warleader's Call](https://commanderspellbook.com/combo/2067-5905/) (Near-infinite creature ETB, Near-infinite creature tokens) · EDHREC: in 165,126 decks; most often under [Baylen, the Haymaker](../../cards/B/bay.md#baylen-the-haymaker) (36.6% of its decks), [Caesar, Legion's Emperor](../../cards/C/cae.md#caesar-legions-emperor) (47.0% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (18.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 5 pages (2 decks · 1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/W.md#warleaders-call)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/242/warleaders-call) · oracle_id `a751c07b-fc21-4854-96e7-f71abf4e86c9` · printing: MKM #242 (2024-02-09) · [rulings](https://api.scryfall.com/cards/b3e8f8bd-1c8b-4a7c-96c4-57a247ce9ccc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1210,6 +1216,8 @@ schema: 2
   - *2014-09-20* — Once a creature legally blocks War-Name Aspirant, changing that creature's power to 1 or less won't change or undo that block.
   - *2024-11-08* — Raid abilities care only that you attacked with a creature. It doesn't matter how many creatures you attacked with or which player, planeswalker, or battle those creatures attacked.
   - *2024-11-08* — Raid abilities evaluate the entire turn to see if you attacked with a creature. That creature doesn't have to still be on the battlefield. Similarly, the player, planeswalker, or battle it attacked doesn't have to still be in the game or on the battlefield.
+- **Lore:** ✅ Card art shown on [Victory](https://magic.wizards.com/en/news/magic-story/victory-2014-11-26) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 593 decks; most often under [Gornog, the Red Reaper](../../cards/G/gor.md#gornog-the-red-reaper) (2.1% of its decks), [Alesha, Who Laughs at Fate](../../cards/A/al.md#alesha-who-laughs-at-fate) (1.1% of its decks), [Alesha, Who Smiles at Death](../../cards/A/al.md#alesha-who-smiles-at-death) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/126/war-name-aspirant) · oracle_id `448c84f9-712b-4970-8719-2ab9c2a59d20` · printing: KTK #126 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warning
@@ -1275,6 +1283,8 @@ schema: 2
   - *2015-06-22* — If a creature with renown deals combat damage to its controller because that damage was redirected, renown will trigger.
   - *2015-06-22* — If a renown ability triggers, but the creature leaves the battlefield before that ability resolves, the creature doesn’t become renowned. Any ability that triggers “whenever a creature becomes renowned” won’t trigger.
   - *2015-06-22* — Renown won’t trigger when a creature deals combat damage to a planeswalker or another creature. It also won’t trigger when a creature deals noncombat damage to a player.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 315 decks; most often under [Aragorn, Hornburg Hero](../../cards/A/ara.md#aragorn-hornburg-hero) (1.0% of its decks), [Minwu, White Mage](../../cards/M/min.md#minwu-white-mage) (0.5% of its decks), [Iroas, God of Victory](../../cards/I/ir.md#iroas-god-of-victory) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/41/war-oracle) · oracle_id `aa26fb50-1b53-488e-90d1-b0c7af273622` · printing: ORI #41 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warp Artifact
@@ -1339,6 +1349,8 @@ schema: 2
   > *Each cryptolith twists the plane's mana, bending its flow to a singular purpose.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8075 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Emrakul Rises](https://magic.wizards.com/en/news/magic-story/emrakul-rises) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 17,367 decks; most often under [Lord Windgrace](../../cards/L/lo.md#lord-windgrace) (5.7% of its decks), [Tifa Lockhart](../../cards/T/ti.md#tifa-lockhart) (2.5% of its decks), [Omnath, Locus of Rage](../../cards/O/om.md#omnath-locus-of-rage) (3.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/291/warped-landscape) · oracle_id `543e6bb3-a867-43bf-a737-2f5d6d8dc631` · printing: C18 #291 (2018-08-10) · [rulings](https://api.scryfall.com/cards/3d313741-af67-47fd-9beb-8abc7d554715/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warped Physique
@@ -1428,6 +1440,8 @@ schema: 2
   > *"Let nothing take away from the purity of swords clashing or of arrows taking flight toward the breast of evil."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17159 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/xathrid-gorgon-2012-12-19), [Xathrid Gorgon](https://magic.wizards.com/en/news/magic-story/xathrid-gorgon-2012-07-03) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,724 decks; most often under [Orah, Skyclave Hierophant](../../cards/O/or.md#orah-skyclave-hierophant) (8.7% of its decks), [Brago, King Eternal](../../cards/B/br.md#brago-king-eternal) (1.9% of its decks), [God-Eternal Oketra](../../cards/G/god.md#god-eternal-oketra) (7.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/35/war-priest-of-thune) · oracle_id `2e44fd5c-5c7f-4ca8-90cd-34015047eb26` · printing: EMA #35 (2016-06-10) · [rulings](https://api.scryfall.com/cards/b222a639-dd46-40f9-835d-3c68b74c295e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warp World

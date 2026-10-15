@@ -98,6 +98,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14080 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2014-09-20* — You decide whether to pay 1 life as the triggered ability resolves. You may do this only once per ability (in other words, once per Warrior that deals combat damage to a player).
+- **Lore:** ✅ Card art shown on [The Salt Road](https://magic.wizards.com/en/news/magic-story/the-salt-road) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 15 combos; most popular [Skittering Precursor + Sword of the Meek + Raiders' Spoils + Atog](https://commanderspellbook.com/combo/2558-5330-5687-5689/) (Infinite creature LTB, Infinite creature ETB) · EDHREC: in 6,398 decks; most often under [Najeela, the Blade-Blossom](../../cards/N/na.md#najeela-the-blade-blossom) (16.9% of its decks), [Zurgo, Thunder's Decree](../../cards/Z/zu.md#zurgo-thunders-decree) (18.5% of its decks), [Mortarion, Daemon Primarch](../../cards/M/mor.md#mortarion-daemon-primarch) (46.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/R.md#raiders-spoils)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/83/raiders-spoils) · oracle_id `45fd14b9-d66a-452d-add4-36f512fff9c2` · printing: KTK #83 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raiders' Wake

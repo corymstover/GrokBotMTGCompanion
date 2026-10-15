@@ -672,6 +672,8 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28506 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Walls of Akros](https://magic.wizards.com/en/news/magic-story/walls-akros-2014-02-26) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 355 decks; most often under [Iroas, God of Victory](../../cards/I/ir.md#iroas-god-of-victory) (1.1% of its decks), [Zirda, the Dawnwaker](../../cards/Z/zi.md#zirda-the-dawnwaker) (1.1% of its decks), [Anax and Cymede](../../cards/A/an.md#anax-and-cymede) (4.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/2/akroan-phalanx) · oracle_id `0edd4894-0df0-4a4e-8a96-d20360ea81c7` · printing: BNG #2 (2014-02-07) · [rulings](https://api.scryfall.com/cards/fe23019a-e432-4a27-8acb-b17728a1e8b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akroan Sergeant
@@ -706,6 +708,8 @@ schema: 2
   - *2013-09-15* — Heroic abilities will resolve before the spell that caused them to trigger.
   - *2013-09-15* — Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times.
   - *2013-09-15* — Heroic abilities won't trigger when a copy of a spell is created on the stack or when a spell's targets are changed to include a creature with a heroic ability.
+- **Lore:** ✅ Card art shown on [The Oracle of Ephara](https://magic.wizards.com/en/news/magic-story/oracle-ephara-2014-03-19), [The Oracle of Ephara](https://magic.wizards.com/en/news/magic-story/oracle-ephara-2014-03-19-0) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,385 decks; most often under [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (3.2% of its decks), [Abigale, Poet Laureate](../../cards/A/ab.md#abigale-poet-laureate--heroic-stanza) (17.6% of its decks), [Anax and Cymede](../../cards/A/an.md#anax-and-cymede) (19.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/3/akroan-skyguard) · oracle_id `f4e8be6f-2a1f-47b2-a4d8-7e576e25ab60` · printing: BNG #3 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akroma, Angel of Fury

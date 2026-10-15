@@ -442,6 +442,8 @@ schema: 2
   - *2009-05-01* — If two or more replacement effects would apply to a card-drawing event, the player who’s drawing the card chooses what order to apply them. It’s possible that after applying one of them, the others will no longer be applicable because the player would no longer draw a card. For example, if you have more than one Sages of the Anima on the battlefield and you would draw a card, each Sages of the Anima’s replacement effect could apply. Once you use one, the rest are no longer applicable.
   - *2009-05-01* — Other players don’t get to see the order that you put the cards on the bottom of your library.
   - *2009-05-01* — This effect is mandatory. Even if there are no more creature cards in your library, you have to do this instead of drawing a card.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/burying-part-2-2013-03-06) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 707 decks; most often under [Helga, Skittish Seer](../../cards/H/he.md#helga-skittish-seer) (0.7% of its decks), [Animar, Soul of Elements](../../cards/A/an.md#animar-soul-of-elements) (0.5% of its decks), [Maralen, Fae Ascendant](../../cards/M/mar.md#maralen-fae-ascendant) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/arb/103/sages-of-the-anima) · oracle_id `d6c008c7-6c87-4677-ba0e-6d95f10d10bc` · printing: ARB #103 (2009-04-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sage's Reverie

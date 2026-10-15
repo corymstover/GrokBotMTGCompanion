@@ -26,6 +26,7 @@ Batches: BATCHES below; one per Bot cycle.
   python3 scripts/build_card_enrichment.py           rebuild from caches (missing caches → carry the stored data)
   python3 scripts/build_card_enrichment.py --check   exit 1 if stale, or on a citation / tier / reciprocity problem
 """
+import atomic_io  # noqa: F401  atomic Path.write_text/write_bytes (Bot cycle 34)
 import csv
 import glob
 import gzip
@@ -34,6 +35,7 @@ import re
 import sys
 import time
 import unicodedata
+import urllib.error
 import urllib.parse
 import urllib.request
 from collections import Counter, defaultdict
@@ -87,11 +89,20 @@ def type_group(c):
         return "legendary land"
     if "Legendary" in f:
         return "other legendary"
-    return "planeswalker" if "Planeswalker" in t else "legendary creature" if "Legendary Creature" in t else "other"
+    if "Planeswalker" in t:
+        return "planeswalker"
+    if "Legendary Creature" in t:
+        return "legendary creature"
+    for k in ("Creature", "Instant", "Sorcery", "Artifact", "Enchantment", "Land", "Battle"):
+        if k in f.split("—")[0]:
+            return k.lower()
+    return "other"
 
 
 BATCHES = [(33, "legendary cards and planeswalkers already linked from lore entries",
-            lambda c, tiers: "entry-linked" in tiers and is_legend_or_pw(c))]
+            lambda c, tiers: "entry-linked" in tiers and is_legend_or_pw(c)),
+           (34, "every other lore-entry-linked card, every name-matched character card, every story-flavor card",
+            lambda c, tiers: bool(tiers & {"entry-linked", "character-card", "story-flavor"}))]
 
 
 # ------------------------------------------------------------------ inputs
@@ -110,7 +121,7 @@ def load_bulk():
 
 def load_printings(want=None):
     """{oracle_id: {"spotlight": [...], "flavors": [...], "ub": bool, "sets": [...]}} from default-cards (paper printings)."""
-    out = defaultdict(lambda: {"spotlight": [], "flavors": [], "stamps": set(), "sets": []})
+    out = defaultdict(lambda: {"spotlight": [], "flavors": [], "stamps": set(), "sets": [], "artists": set()})
     f = sorted(glob.glob(str(ROOT / ".cache" / "default-cards-*.jsonl.gz")))[-1]
     with gzip.open(f, "rt", encoding="utf-8") as fh:
         for line in fh:
@@ -127,6 +138,9 @@ def load_printings(want=None):
                 if ft and ft not in o["flavors"]:
                     o["flavors"].append(ft)
             o["stamps"].add(c.get("security_stamp") or "")
+            for fc in (c.get("card_faces") or [c]):
+                if fc.get("artist") or c.get("artist"):
+                    o["artists"].add(fc.get("artist") or c.get("artist"))
             o["sets"].append((c.get("released_at", ""), c["set"].upper()))
     return out
 
@@ -170,6 +184,42 @@ def charcard_links():
     return out, keys
 
 
+def art_captions():
+    """{card name: [(title, url, artist)]} — card art captioned on cached official story pages (data/story_art_captions.csv,
+    harvested by scripts/build_art_flavor.py). Used only when the caption artist matches a printing's artist (same rule as
+    Art & Flavor Story Links)."""
+    out = defaultdict(list)
+    for r in csv.DictReader((ROOT / "data" / "story_art_captions.csv").open(encoding="utf-8")):
+        t = (r.get("title") or "").split(" | ")[0].strip() or "official story page"
+        if r["url"].startswith("https://magic.wizards.com/en/news/") or r["url"].startswith("https://magic.wizards.com/en/story"):
+            out[r["caption_name"]].append((t, r["url"], r["caption_artist"]))
+    return out
+
+
+AF_PAGE = "Art & Flavor Story Links.md"
+
+
+def art_flavor_sections():
+    """{(shard, anchor): (section anchor, section title)} for Story Spotlight rows on Art & Flavor Story Links."""
+    out = {}
+    sec = None
+    seen = Counter()
+    for line in (ROOT / AF_PAGE).read_text(encoding="utf-8").splitlines():
+        m = re.match(r"^(#{2,4}) (.+)$", line)
+        if m:
+            a = L.anchor(m.group(2))
+            a2 = f"{a}-{seen[a]}" if seen[a] else a
+            seen[a] += 1
+            sec = (a2, m.group(2)) if len(m.group(1)) == 3 else (None if len(m.group(1)) == 2 else sec)
+            continue
+        if sec and line.startswith("| ["):
+            first = line.split(" | ")[0]
+            for dest, frag in L.links(first, AF_PAGE):
+                if dest.startswith("cards/"):
+                    out.setdefault((dest, frag), sec)
+    return out
+
+
 def names_match(entry_name, card_name):
     import build_lore_xrefs as X
     cn = front(card_name)
@@ -209,13 +259,61 @@ def get_json(url, path, fetch):
         return json.loads(path.read_text(encoding="utf-8"))
     if not fetch:
         return None
+    return _download(url, path)
+
+
+def _download(url, path):
+    """One polite request; a 404 (or EDHREC's 403 for a missing page) is cached as a miss, other errors
+    are not cached (retried on the next run).  An EDHREC `{"redirect": "/cards/<slug>"}` stub (split
+    cards are filed under both halves' names) is followed once (Bot cycle 34)."""
     try:
         d = json.loads(urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60).read())
-    except Exception as ex:  # noqa: BLE001 — record the miss, don't invent
-        d = {"_error": str(ex)[:200]}
+        if isinstance(d, dict) and isinstance(d.get("redirect"), str) and "json.edhrec.com" in url:
+            time.sleep(1.0)
+            d = json.loads(urllib.request.urlopen(urllib.request.Request(
+                "https://json.edhrec.com/pages" + d["redirect"] + ".json", headers=UA), timeout=60).read())
+    except urllib.error.HTTPError as ex:
+        if not (ex.code == 404 or (ex.code == 403 and "json.edhrec.com" in url)):
+            return None
+        d = {"_error": f"HTTP {ex.code}"}
+    except Exception:  # noqa: BLE001 — network trouble: leave uncached
+        return None
     path.write_text(json.dumps(d), encoding="utf-8")
-    time.sleep(1)
     return d
+
+
+def urls_for(name, can_command):
+    q = urllib.parse.quote(f'card="{name}"')
+    out = [("spellbook", f"https://backend.commanderspellbook.com/variants/?q={q}&ordering=-popularity&limit=100", CSB / f"card__{slug(name)}.json"),
+           ("edhrec", f"https://json.edhrec.com/pages/cards/{slug(name)}.json", EDH / f"cards__{slug(name)}.json")]
+    if can_command:
+        out.append(("edhrec", f"https://json.edhrec.com/pages/commanders/{slug(name)}.json", EDH / f"commanders__{slug(name)}.json"))
+    return out
+
+
+def prefetch(cards, delay=1.0):
+    """Fetch missing EDHREC / Spellbook pages: one worker per host (the two hosts in parallel), `delay` s between requests."""
+    import threading
+    jobs = defaultdict(list)
+    for c in cards:
+        for host, u, pth in urls_for(c["name"], ing.commander_eligibility(c).startswith("Yes")):
+            if not pth.exists() and (u, pth) not in jobs[host]:
+                jobs[host].append((u, pth))
+    done = Counter()
+
+    def work(host):
+        for u, pth in jobs[host]:
+            ok = _download(u, pth)
+            done[host + (" ok" if ok is not None else " failed")] += 1
+            if done[host + " ok"] % 200 == 0:
+                print(f"  {host}: {done[host + ' ok']}/{len(jobs[host])}", flush=True)
+            time.sleep(delay)
+    th = [threading.Thread(target=work, args=(h,)) for h in jobs]
+    for t in th:
+        t.start()
+    for t in th:
+        t.join()
+    print("prefetch:", {h: len(v) for h, v in jobs.items()}, dict(done), flush=True)
 
 
 def spellbook(name, fetch):
@@ -272,7 +370,7 @@ def edhrec_commander(name, fetch):
 
 
 # ------------------------------------------------------------------ build
-def pool(rows_by_key, by_id, prints, links, cc):
+def pool(rows_by_key, by_id, prints, links, cc, caps, prev=None):
     S, norm = story_norm()
     big = "\n".join(S.values())
     sh = set()
@@ -297,7 +395,10 @@ def pool(rows_by_key, by_id, prints, links, cc):
         elif "Legendary" in ft and "Creature" in ft:
             tiers[oid].add("legendary-creature")
         p = prints.get(oid)
+        cn = c["name"] if c["name"] in caps else front(c["name"])
         if p and p["spotlight"]:
+            tiers[oid].add("story-flavor")
+        elif p and any(a in p["artists"] for _, _, a in caps.get(cn, [])):
             tiers[oid].add("story-flavor")
         elif p:
             for fl in p["flavors"]:
@@ -305,14 +406,19 @@ def pool(rows_by_key, by_id, prints, links, cc):
                 if len(w) >= 8 and hash(" ".join(w[:6])) in sh and norm(fl).strip(" .'\"-") in big:
                     tiers[oid].add("story-flavor")
                     break
+        if not S and (prev or {}).get(oid, {}).get("lore", {}).get("flavor_on"):
+            tiers[oid].add("story-flavor")  # no story cache: keep the earlier verified flavor match
     return tiers
 
 
-def lore_for(r, c, links, cc, keys, prints, S, norm, notes):
+def lore_for(r, c, links, cc, keys, prints, S, norm, notes, caps, afs, prev_lore=None):
     k = (r["shard"], r["anchor"])
     rel = []
     for x in links.get(k, []):
         relation = "depicts" if x["kind"] in ("character", "dossier", "item") and names_match(x["name"], c["name"]) else "featured"
+        if relation == "depicts" and x["kind"] == "item" and "Creature" in face_types(c)[0] \
+                and front(c["name"]).lower() not in x["name"].lower():
+            relation = "featured"  # a creature named for an item (Halo Forager → Halo) features it, not depicts it
         if x["kind"] == "plane" and names_match(x["name"], c["name"]):
             relation = "depicts"  # a legendary land / location named for the plane
         rel.append({"entry": x["key"], "kind": x["kind"], "name": x["name"], "relation": relation, "sources": x["sources"],
@@ -323,7 +429,7 @@ def lore_for(r, c, links, cc, keys, prints, S, norm, notes):
             continue
         e = keys[ek]
         rel.append({"entry": ek, "kind": e["kind"], "name": e["name"], "relation": "name-match", "sources": [], "via": "name", "line_flags": []})
-    p = prints.get(r["oracle_id"]) or {"spotlight": [], "flavors": [], "stamps": set()}
+    p = prints.get(r["oracle_id"]) or {"spotlight": [], "flavors": [], "stamps": set(), "artists": set()}
     flav = []
     for fl in p["flavors"]:
         n = norm(fl).strip(" .'\"-")
@@ -332,7 +438,18 @@ def lore_for(r, c, links, cc, keys, prints, S, norm, notes):
         for u, t in S.items():
             if n in t and u not in flav:
                 flav.append(u)
+    if not S and prev_lore:
+        # No story-page cache on this box (gitignored; lost in the cycle 34 reset): keep the
+        # flavor-text matches verified in an earlier run instead of silently dropping them.
+        flav = list(prev_lore.get("flavor_on", []))
+    cn = c["name"] if c["name"] in caps else front(c["name"])
+    art = []
+    for t, u, a in caps.get(cn, []):
+        if a in p.get("artists", set()) and u not in [x[1] for x in art]:
+            art.append([t, u])
+    sec = afs.get(k)
     out = {"relations": rel, "spotlight": sorted(set(p["spotlight"]))[:3], "flavor_on": sorted(flav)[:3],
+           "art_on": sorted(art, key=lambda x: x[1])[:3], "art_flavor": list(sec) if sec else None,
            "flags": ["🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon"] if p["stamps"] and p["stamps"] <= {"triangle"} else []}
     if c["name"] in notes:
         out["note"] = notes[c["name"]]
@@ -385,7 +502,11 @@ def render(r, card, lore, syn, rows_by_name):
     if by_rel["featured"]:
         parts.append("Featured in: " + " · ".join(by_rel["featured"]))
     if lore["spotlight"]:
-        parts.append("✅ Story Spotlight printing (Scryfall `story_spotlight`): " + ", ".join(lore["spotlight"]))
+        sec = lore.get("art_flavor")
+        parts.append("✅ Story Spotlight printing (Scryfall `story_spotlight`): " + ", ".join(lore["spotlight"]) +
+                     (f" — [Art & Flavor → {sec[1]}](../../Art%20%26%20Flavor%20Story%20Links.md#{sec[0]})" if sec else ""))
+    if lore.get("art_on"):
+        parts.append("✅ Card art shown on " + ", ".join(f"[{t}]({u})" for t, u in lore["art_on"]) + " (caption names the card and its artist)")
     if lore["flavor_on"]:
         parts.append("✅ Flavor text verbatim on " + ", ".join(f"[official page {i + 1}]({u})" for i, u in enumerate(lore["flavor_on"])))
     if lore.get("note"):
@@ -432,13 +553,22 @@ def build(fetch=False):
     links = entry_links()
     cc, keys = charcard_links()
     prints = load_printings()
-    tiers = pool(rows_by_key, by_id, prints, links, cc)
+    caps = art_captions()
+    afs = art_flavor_sections()
     prev = json.loads(OUT.read_text(encoding="utf-8")).get("cards", {}) if OUT.exists() else {}
+    tiers = pool(rows_by_key, by_id, prints, links, cc, caps, prev)
     notes = json.loads(NOTES.read_text(encoding="utf-8")) if NOTES.exists() else {}
     notes = {k: v for k, v in notes.items() if not k.startswith("_")}
     S, norm = story_norm()
     decks = deck_index()
     pkgmatch, _ = bx.package_matcher()
+    sel = []
+    for r in rows:
+        c = by_id.get(r["oracle_id"])
+        if c and any(f(c, tiers.get(r["oracle_id"], set())) for _, _, f in BATCHES):
+            sel.append(c)
+    if fetch:
+        prefetch(sel)
     cards = {}
     for r in sorted(rows, key=lambda r: r["name"]):
         c = by_id.get(r["oracle_id"])
@@ -447,8 +577,8 @@ def build(fetch=False):
         batch = next((n for n, _, sel in BATCHES if sel(c, tiers.get(r["oracle_id"], set()))), None)
         if batch is None:
             continue
-        lore = lore_for(r, c, links, cc, keys, prints, S, norm, notes)
-        syn = synergy_for(c, decks, pkgmatch, fetch, prev.get(r["oracle_id"], {}).get("synergy"))
+        lore = lore_for(r, c, links, cc, keys, prints, S, norm, notes, caps, afs, prev.get(r["oracle_id"], {}).get("lore"))
+        syn = synergy_for(c, decks, pkgmatch, False, prev.get(r["oracle_id"], {}).get("synergy"))
         cards[r["oracle_id"]] = {"name": r["name"], "shard": r["shard"], "anchor": r["anchor"], "batch": batch,
                                  "type": type_group(c), "tiers": sorted(tiers.get(r["oracle_id"], set())),
                                  "lore": lore, "synergy": syn, "lines": render(r, c, lore, syn, rows_by_name)}
@@ -520,28 +650,27 @@ def write_page(d):
     for t, v in d["coverage"].items():
         L_.append(f"| {t} | {v['size']:,} | {v['enriched']:,} | {100 * v['enriched'] / v['size']:.1f}% |" if v["size"] else f"| {t} | 0 | 0 | — |")
     L_ += ["", "Batches: " + "; ".join(f"Bot cycle {b['cycle']} — {b['rule']}" for b in d["batches"]) + ".", "",
-           "## Enriched cards", "| Card | Type | Lore relations | Evidence | Proven synergy | Guidance packages |", "|---|---|---|---|---|---|"]
+           "## Enriched cards", "Every enriched card, by type and batch. The full per-card record is `data/card_enrichment.json`; the card's own entry shows the two lines.", "",
+           "| Type | " + " | ".join(f"Bot cycle {b['cycle']}" for b in d["batches"]) + " | Total |", "|---|" + "---|" * (len(d["batches"]) + 1)]
+    tb = Counter((v["type"], v["batch"]) for v in cards)
+    for t in sorted({v["type"] for v in cards}, key=lambda t: -sum(n for (tt, _), n in tb.items() if tt == t)):
+        L_.append(f"| {t} | " + " | ".join(f"{tb[(t, b['cycle'])]:,}" for b in d["batches"]) + f" | {sum(n for (tt, _), n in tb.items() if tt == t):,} |")
+    L_.append("| **all** | " + " | ".join(f"**{sum(1 for v in cards if v['batch'] == b['cycle']):,}**" for b in d["batches"]) + f" | **{len(cards):,}** |")
+    ev = Counter()
     for v in cards:
-        rel = Counter(x["relation"] for x in v["lore"]["relations"])
-        ev = []
-        if v["lore"]["spotlight"]:
-            ev.append("Spotlight")
-        if v["lore"]["flavor_on"]:
-            ev.append("flavor on page")
-        if v["lore"].get("note"):
-            ev.append("note")
-        if any(x["via"] == "line" for x in v["lore"]["relations"]):
-            ev.append("line citation")
-        pv = v["synergy"]["proven"]
-        ps = []
-        if pv["decks"]:
-            ps.append(f"{len(pv['decks'])} decks")
-        if pv.get("spellbook", {}).get("count"):
-            ps.append(f"{pv['spellbook']['count']}{'+' if pv['spellbook']['capped'] else ''} combos")
-        if pv.get("edhrec", {}).get("decks"):
-            ps.append(f"EDHREC {pv['edhrec']['decks']:,}")
-        L_.append(f"| [{v['name']}]({esc(v['shard'])}#{v['anchor']}) | {v['type']} | " + ", ".join(f"{k} {n}" for k, n in sorted(rel.items())) +
-                  f" | {', '.join(ev) or 'via entry'} | {', '.join(ps) or '—'} | {len(v['synergy']['guidance']['packages'])} |")
+        lo = v["lore"]
+        ev.update({"depicts": any(x["relation"] == "depicts" for x in lo["relations"]),
+                   "featured": any(x["relation"] == "featured" for x in lo["relations"]),
+                   "name match only": bool(lo["relations"]) and all(x["relation"] == "name-match" for x in lo["relations"]),
+                   "Story Spotlight": bool(lo["spotlight"]), "art on an official page": bool(lo.get("art_on")),
+                   "flavor text on an official page": bool(lo["flavor_on"]), "curated note": bool(lo.get("note")),
+                   "🚫 Universes Beyond": bool(lo["flags"]),
+                   "in a KB deck": bool(v["synergy"]["proven"]["decks"]),
+                   "Spellbook combo": bool(v["synergy"]["proven"].get("spellbook", {}).get("count")),
+                   "EDHREC data": bool(v["synergy"]["proven"].get("edhrec", {}).get("decks")),
+                   "EDHREC as commander": bool(v["synergy"]["proven"].get("as_commander", {}).get("decks")),
+                   "package match (guidance)": bool(v["synergy"]["guidance"]["packages"])})
+    L_ += ["", "| Evidence on the card's lines | Cards |", "|---|---|"] + [f"| {k} | {n:,} |" for k, n in ev.items()]
     by_e = defaultdict(list)
     by_p = defaultdict(list)
     for v in cards:
@@ -575,13 +704,31 @@ def write_page(d):
     return "\n".join(L_) + "\n"
 
 
+_PKG = None
+
+
+def pkg_sections():
+    """{sub-package title: section text} of EDH Packages.md (### headings)."""
+    global _PKG
+    if _PKG is None:
+        _PKG = {}
+        t = (ROOT / "EDH Packages.md").read_text(encoding="utf-8")
+        for ch in re.split(r"\n(?=### )", t)[1:]:
+            _PKG[ch.split("\n", 1)[0][4:].strip()] = ch.split("\n## ")[0]
+    return _PKG
+
+
 def check(d):
     bad = []
     keys = {f"{e['page']}#{e['anchor']}": e for e in L.all_entries()}
     for oid, v in d["cards"].items():
         lo = v["lore"]
-        if not lo["relations"] and not lo.get("note"):
-            bad.append(f"{v['name']}: no lore relation")
+        if not (lo["relations"] or lo.get("note") or lo["spotlight"] or lo["flavor_on"] or lo.get("art_on")):
+            bad.append(f"{v['name']}: no lore relation or official evidence")
+        if lo["spotlight"] and lo.get("art_flavor"):
+            t = (ROOT / AF_PAGE).read_text(encoding="utf-8")
+            if f"]({v['shard']}#{v['anchor']})" not in t:
+                bad.append(f"{v['name']}: Art & Flavor Story Links does not list the card back")
         for x in lo["relations"]:
             if x["relation"] not in RELATIONS:
                 bad.append(f"{v['name']}: unknown relation {x['relation']}")
@@ -601,6 +748,8 @@ def check(d):
             elif target not in L.links(e["text"], e["page"]):
                 bad.append(f"{v['name']}: entry {x['entry']} does not link the card back")
         nt = lo.get("note")
+        if nt and nt.get("flag", "") not in ("", "⚠️", "❓", "🚫", "🔄"):
+            bad.append(f"{v['name']}: curated note flag must be one of ⚠️ ❓ 🚫 🔄")
         if nt:
             if nt.get("relation") not in NOTE_RELATIONS or not nt.get("sources") or not all(L.OFFICIAL.match(u) for u in nt["sources"]):
                 bad.append(f"{v['name']}: curated note needs relation in {NOTE_RELATIONS} and official (wizards.com) sources")
@@ -622,6 +771,10 @@ def check(d):
         ln = v["lines"]
         if not (ln[0].startswith(LORE_P) and ln[1].startswith(SYN_P) and "*Proven*" in ln[1]):
             bad.append(f"{v['name']}: rendered lines malformed or tier label missing")
+        for pk in syn["guidance"]["packages"][:3]:
+            sec = pkg_sections().get(pk, "")
+            if f"]({v['shard']}#{v['anchor']})" not in sec:
+                bad.append(f"{v['name']}: EDH Packages → {pk} does not list the card back (run scripts/build_packages.py)")
         if syn["guidance"]["packages"] and "*Guidance (Oracle pattern)*" not in ln[1]:
             bad.append(f"{v['name']}: guidance tier label missing")
     return bad

@@ -598,6 +598,8 @@ schema: 2
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20104 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Brazen](https://magic.wizards.com/en/news/magic-story/brazen-2017-05-03) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,190 decks; most often under [Hapatra, Vizier of Poisons](../../cards/H/ha.md#hapatra-vizier-of-poisons) (6.4% of its decks), [Madame Null, Power Broker](../../cards/M/mad.md#madame-null-power-broker) (31.8% of its decks), [Be'lakor, the Dark Master](../../cards/B/be.md#belakor-the-dark-master) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/79/baleful-ammit) · oracle_id `1cfa9f7d-ef1f-4907-aeb1-15c0df33fccc` · printing: AKH #79 (2017-04-28) · [rulings](https://api.scryfall.com/cards/fb662d58-ae50-423d-b1c5-abd45baca12b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baleful Beholder
@@ -771,6 +773,8 @@ schema: 2
   - *2017-09-29* — When a Vehicle becomes a creature, that doesn't count as having a creature enter the battlefield. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters the battlefield won't trigger.
   - *2017-09-29* — You may activate a crew ability of a Vehicle even if it's already an artifact creature. Doing so has no effect on the Vehicle. It doesn't change its power and toughness.
   - *2017-09-29* — You may tap more creatures than necessary to activate a crew ability.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Kaladesh](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-kaladesh-2016-11-02), [Quiet Moments](https://magic.wizards.com/en/news/magic-story/quiet-moments-2016-12-07) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Bruce Banner // The Incredible Hulk + Ballista Charger](https://commanderspellbook.com/combo/7124-7126/) (Infinite combat phases, Infinite +1/+1 counters on a creature) · EDHREC: in 2,056 decks; most often under [Captain Rex Nebula](../../cards/C/cap.md#captain-rex-nebula) (18.4% of its decks), [Depala, Pilot Exemplar](../../cards/D/dep.md#depala-pilot-exemplar) (9.5% of its decks), [Greasefang, Okiba Boss](../../cards/G/gre.md#greasefang-okiba-boss) (2.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/196/ballista-charger) · oracle_id `b4862430-e3d3-4f29-90ca-50141e36e2f1` · printing: KLD #196 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ballista Squad
@@ -1205,6 +1209,8 @@ schema: 2
 - **Rulings** (2):
   - *2017-11-17* — If the target player has no land cards in their library, all cards from that library will be revealed and put into their graveyard.
   - *2024-01-12* — The land card they reveal, if any, is included in the cards put into their graveyard.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/persistence-memory-2013-01-16) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Balustrade Spy + Mana Severance + Unburial Rites + Thassa's Oracle](https://commanderspellbook.com/combo/1295-1771-1862-1901/) (Win the game) · EDHREC: in 7,754 decks; most often under [Syr Konrad, the Grim](../../cards/S/sy.md#syr-konrad-the-grim) (6.6% of its decks), [The Wandering Minstrel](../../cards/T/thew.md#the-wandering-minstrel) (1.7% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#balustrade-spy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/66/balustrade-spy) · oracle_id `39b4a47a-df51-4bd9-9a20-43ac80a5d352` · printing: RVR #66 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

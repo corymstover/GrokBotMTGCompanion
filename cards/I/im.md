@@ -389,6 +389,8 @@ schema: 2
   - *2017-07-14* — If a spell has {X} in its mana cost, include the value chosen for that X when determining the mana value of that spell.
   - *2017-07-14* — Imminent Doom's triggered ability resolves before the spell that caused it to trigger. The ability will resolve even if that spell is countered.
   - *2017-07-14* — The amount of damage Imminent Doom's triggered ability deals is the number of counters it had on it as the ability triggered. For example, if you cast Shock and then respond to Imminent Doom's triggered ability with a second Shock, both abilities cause Imminent Doom to deal 1 damage and Imminent Doom will end up with three doom counters on it.
+- **Lore:** ✅ Card art shown on [Hour of Devastation](https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 771 decks; most often under [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (1.9% of its decks), [Nicol Bolas](../../cards/N/ni.md#nicol-bolas) (2.9% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/I.md#imminent-doom)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/98/imminent-doom) · oracle_id `6ded956d-30ed-49ca-8653-cbaaae676b0c` · printing: HOU #98 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -823,6 +825,8 @@ schema: 2
   > *To a trained warrior, there is scarcely a more potent weapon than patience.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24669 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Release](https://magic.wizards.com/en/news/magic-story/release-2016-10-05) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 888 decks; most often under [Marisi, Breaker of the Coil](../../cards/M/mar.md#marisi-breaker-of-the-coil) (0.7% of its decks), [Anti-Venom, Horrifying Healer](../../cards/A/an.md#anti-venom-horrifying-healer) (0.3% of its decks), [Arahbo, the First Fang](../../cards/A/ara.md#arahbo-the-first-fang) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/I.md#impeccable-timing)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/18/impeccable-timing) · oracle_id `102bbedf-9f84-433a-bd01-e1a4c05fbedb` · printing: AKH #18 (2017-04-28) · [rulings](https://api.scryfall.com/cards/a98cee1e-64d8-4662-a911-009b031dc888/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1569,6 +1573,8 @@ schema: 2
   - *2016-07-13* — If the enchanted permanent is a land and has land types, it retains those types even though it loses any intrinsic mana abilities associated with them. For example, a Plains enchanted by Imprisoned in the Moon is still a Plains, but it can't tap for {W}, only for {C}.
   - *2016-07-13* — If you remove Imprisoned in the Moon from a planeswalker after tapping it for mana, you can still activate a loyalty ability of that planeswalker even though it's tapped.
   - *2016-07-13* — The permanent will keep any supertypes it previously had. Notably, if Imprisoned in the Moon is enchanting a legendary permanent, that permanent will continue to be legendary.
+- **Lore:** ✅ Card art shown on [The Promised End](https://magic.wizards.com/en/news/magic-story/promised-end-2016-07-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Zur the Enchanter](../../decks/zur-the-enchanter.md) · Commander Spellbook: 1 combo; most popular [Lumra, Bellow of the Woods + Imprisoned in the Moon + Vesuva](https://commanderspellbook.com/combo/2098-5531-7813/) (Infinite creature ETB, Infinite creature LTB) · EDHREC: in 187,574 decks; most often under [Zur the Enchanter](../../cards/Z/zu.md#zur-the-enchanter) (45.0% of its decks), [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (26.3% of its decks), [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (9.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 decks · 1 lore & story · 1 card data) → [reverse index](../../references/I.md#imprisoned-in-the-moon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/69/imprisoned-in-the-moon) · oracle_id `339a7418-9a29-4eae-a3c2-ea590d175936` · printing: INR #69 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

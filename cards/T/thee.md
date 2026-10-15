@@ -168,6 +168,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-05-03* — You can cast The Elderspell without controlling any planeswalkers. The target planeswalkers will still be destroyed. You can also cast it without targeting any planeswalkers if you really want to do so.
   - *2019-05-03* — You choose the target planeswalkers to destroy as you cast The Elderspell, but you don’t choose a planeswalker to receive loyalty counters until The Elderspell is resolving.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WAR #89 — [Art & Flavor → War of the Spark (2019)](../../Art%20%26%20Flavor%20Story%20Links.md#war-of-the-spark-2019) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,796 decks; most often under [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (21.2% of its decks), [Carth the Lion](../../cards/C/car.md#carth-the-lion) (19.0% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/T.md#the-elderspell)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/89/the-elderspell) · oracle_id `eff0a1ad-ecc6-416f-a4ae-96b26cd8a905` · printing: WAR #89 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -307,7 +309,7 @@ schema: 2
   - *2025-07-25* — The Endstone’s first ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
 - **Lore:** Depicts: [Item → Endstone](../../Items%20%26%20Artifacts%20Index.md#endstone) ([source](https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-10), [2](https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-11)) (the entry line carries ❓) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 52,611 decks; most often under [Sami, Wildcat Captain](../../cards/S/sam.md#sami-wildcat-captain) (58.4% of its decks), [Zhulodok, Void Gorger](../../cards/Z/zh.md#zhulodok-void-gorger) (21.4% of its decks), [Tannuk, Steadfast Second](../../cards/T/ta.md#tannuk-steadfast-second) (20.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/T.md#the-endstone)
+- **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/T.md#the-endstone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/240/the-endstone) · oracle_id `57ee0730-3ac5-4f17-ac82-bd4a6673c2bb` · printing: EOE #240 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Enigma Jewel // Locus of Enlightenment

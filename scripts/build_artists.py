@@ -9,6 +9,7 @@ Joint credits ("A & B") count for each artist. Tokens, art-series and other non-
 so only card entries are counted.
 Usage: python3 scripts/build_artists.py && python3 scripts/resolve_card_links.py "Artist Index.md"
 """
+import atomic_io  # noqa: F401  atomic Path.write_text/write_bytes (Bot cycle 34)
 import csv
 import gzip
 import json
@@ -62,7 +63,7 @@ def main() -> int:
                      "first_year": min(e["years"]), "latest_year": max(e["years"]),
                      "top_cards": "; ".join(index[o]["name"] for o in top)})
     rows.sort(key=lambda r: unicodedata.normalize("NFKD", r["artist"]).lower())
-    with CSV_OUT.open("w", newline="", encoding="utf-8") as fh:
+    with atomic_io.atomic_open(CSV_OUT, "w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=list(rows[0]))
         w.writeheader()
         w.writerows(rows)

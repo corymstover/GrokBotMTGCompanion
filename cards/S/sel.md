@@ -425,6 +425,8 @@ schema: 2
 - **Rulings** (2):
   - *2011-09-22* — Only creatures you control when Selfless Cathar's ability resolves will be affected. Creatures that enter or that you gain control of later in the turn will not.
   - *2011-09-22* — You can activate Selfless Cathar's ability even if you control no other creatures.
+- **Lore:** ✅ Card art shown on [I Am Avacyn](https://magic.wizards.com/en/news/magic-story/i-am-avacyn-2016-05-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 525 decks; most often under [Orah, Skyclave Hierophant](../../cards/O/or.md#orah-skyclave-hierophant) (0.5% of its decks), [Adeline, Resplendent Cathar](../../cards/A/ad.md#adeline-resplendent-cathar) (0.4% of its decks), [Athreos, God of Passage](../../cards/A/at.md#athreos-god-of-passage) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#selfless-cathar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m15/31/selfless-cathar) · oracle_id `a6e4c8de-4c35-4ea4-b865-596ae8cef075` · printing: M15 #31 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

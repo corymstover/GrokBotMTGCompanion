@@ -492,6 +492,9 @@ schema: 2
 - **Rulings** (2):
   - *2004-12-01* — If you choose to use Moonring Mirror’s second ability, you return all the cards you own exiled by both of its abilities, but not any of the cards you just exiled from your hand.
   - *2004-12-01* — Note that Moonring Mirror’s first ability is not a replacement effect.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/dragons-errand-2015-05-06) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,009 decks; most often under [Flubs, the Fool](../../cards/F/fl.md#flubs-the-fool) (0.3% of its decks), [Arjun, the Shifting Flame](../../cards/A/arj.md#arjun-the-shifting-flame) (0.9% of its decks), [Vnwxt, Verbose Host](../../cards/V/vn.md#vnwxt-verbose-host) (0.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/M.md#moonring-mirror)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/262/moonring-mirror) · oracle_id `037c49e4-39ca-4d72-8f5c-9adc5687601b` · printing: CHK #262 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonrise Cleric
@@ -581,6 +584,8 @@ schema: 2
 - **Rulings** (2):
   - *2021-09-24* — Most mana abilities found on artifacts are activated mana abilities. An activated mana ability is an activated ability that could produce mana as it resolves, does not require a target, and isn't a loyalty ability.
   - *2021-09-24* — Some artifacts, such as Gauntlet of Power, have triggered mana abilities. A triggered mana ability is a triggered ability that could produce mana as it resolves, triggers on the resolution of an activated mana ability or on mana being added, and doesn't require a target.
+- **Lore:** Depicts: [Item → Celestus, Sungold Lock & Moonsilver Key](../../Items%20%26%20Artifacts%20Index.md#celestus-sungold-lock--moonsilver-key) ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-innistrad-midnight-hunt), [2](https://magic.wizards.com/en/news/magic-story/episode-5-till-death-do-us-part-2021-11-24) via entry) — *Depicts:* "the Sungold Lock in the center of the Celestus needs to be joined with an enchanted, blessed-silver item called the Moonsilver Key", and "the Moonsilver Key has been lost for generations" ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-innistrad-midnight-hunt)) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (3): [Kozilek, the Great Distortion](../../decks/kozilek-the-great-distortion.md) · [The Gitrog Monster (Innistrad-only)](../../decks/plane-innistrad-the-gitrog-monster.md) · [Ashnod the Uncaring (Grixis)](../../grixis/decks/ashnod-the-uncaring.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 96,649 decks; most often under [Kinnan, Bonder Prodigy](../../cards/K/ki.md#kinnan-bonder-prodigy) (46.5% of its decks), [Zhulodok, Void Gorger](../../cards/Z/zh.md#zhulodok-void-gorger) (22.3% of its decks), [Toph, the First Metalbender](../../cards/T/to.md#toph-the-first-metalbender) (7.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (3 decks · 1 lore & story) → [reverse index](../../references/M.md#moonsilver-key)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/255/moonsilver-key) · oracle_id `373395b2-f04b-46c9-b9f4-4f6815b71009` · printing: MID #255 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -838,6 +843,8 @@ schema: 2
   > {W}{U}, {T}, Exile a creature card from your graveyard: Create a 1/1 white Spirit creature token with flying.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8830 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Laid to Rest](https://magic.wizards.com/en/news/magic-story/laid-rest-2016-08-03) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 15,210 decks; most often under [Millicent, Restless Revenant](../../cards/M/mil.md#millicent-restless-revenant) (67.0% of its decks), [Kangee, Sky Warden](../../cards/K/ka.md#kangee-sky-warden) (42.2% of its decks), [Inniaz, the Gale Force](../../cards/I/inn.md#inniaz-the-gale-force) (43.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#moorland-haunt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/175/moorland-haunt) · oracle_id `5324192b-6687-41e4-8e56-326b21a5dbf3` · printing: VOC #175 (2021-11-19) · [rulings](https://api.scryfall.com/cards/74deeeaa-95e9-42c9-89e3-e317ea63e216/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

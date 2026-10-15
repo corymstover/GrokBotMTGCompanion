@@ -569,6 +569,8 @@ schema: 2
   - *2010-06-15* — If you cast a spell with rebound from anywhere other than your hand (such as from your graveyard due to Sins of the Past, from your library due to cascade, or from your opponent's hand due to Sen Triplets), rebound won't have any effect. If you do cast it from your hand, rebound will work regardless of whether you paid its mana cost (for example, if you cast it from your hand due to Maelstrom Archangel).
   - *2010-06-15* — If you cast a spell with rebound from your hand and it resolves, it isn't put into your graveyard. Rather, it's exiled directly from the stack. Effects that care about cards being put into your graveyard won't do anything.
   - *2010-06-15* — Rebound will have no effect on copies of spells because you don't cast them from your hand.
+- **Lore:** ✅ Card art shown on [Limits](https://magic.wizards.com/en/news/magic-story/limits-2015-07-15) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,862 decks; most often under [Kuja, Genome Sorcerer](../../cards/K/ku.md#kuja-genome-sorcerer--trance-kuja-fate-defied) (0.4% of its decks), [Ojer Axonil, Deepest Might](../../cards/O/oj.md#ojer-axonil-deepest-might--temple-of-power) (0.9% of its decks), [Judith, Carnage Connoisseur](../../cards/J/ju.md#judith-carnage-connoisseur) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/125/staggershock) · oracle_id `056c3b7d-b603-40b8-8404-18c2eb7e7129` · printing: 2X2 #125 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stain the Mind
@@ -844,6 +846,8 @@ schema: 2
   - *2015-06-22* — If a creature with renown deals combat damage to its controller because that damage was redirected, renown will trigger.
   - *2015-06-22* — If a renown ability triggers, but the creature leaves the battlefield before that ability resolves, the creature doesn’t become renowned. Any ability that triggers “whenever a creature becomes renowned” won’t trigger.
   - *2015-06-22* — Renown won’t trigger when a creature deals combat damage to a planeswalker or another creature. It also won’t trigger when a creature deals noncombat damage to a player.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 324 decks; most often under [Kastral, the Windcrested](../../cards/K/ka.md#kastral-the-windcrested) (0.5% of its decks), [Aragorn, Hornburg Hero](../../cards/A/ara.md#aragorn-hornburg-hero) (0.8% of its decks), [Choco, Seeker of Paradise](../../cards/C/cho.md#choco-seeker-of-paradise) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/32/stalwart-aven) · oracle_id `09cc2cda-14d1-424e-a688-1b49b1b4c392` · printing: IMA #32 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stalwart Pathlighter
@@ -1472,6 +1476,8 @@ schema: 2
   - *2015-06-22* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn’t matter how long the permanent has been a creature.
   - *2015-06-22* — If the first ability returns an Aura card to the battlefield, you choose what that Aura will enchant as it enters the battlefield. If the Aura can’t legally enchant anything, it stays in the graveyard.
   - *2015-06-22* — Note that if an Aura is returned to the battlefield this way, whatever the Aura enchants isn’t a target of Starfield of Nyx’s ability, nor is it a target of the Aura card itself. You could put an Aura onto the battlefield this way enchanting a creature with hexproof controlled by an opponent, for example.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 56 combos; most popular [Touch the Spirit Realm + Starfield of Nyx](https://commanderspellbook.com/combo/1917-4608/) (Infinite creature LTB, Infinite creature ETB) · EDHREC: in 70,820 decks; most often under [Anikthea, Hand of Erebos](../../cards/A/an.md#anikthea-hand-of-erebos) (64.8% of its decks), [Aminatou, Veil Piercer](../../cards/A/am.md#aminatou-veil-piercer) (50.7% of its decks), [Tom Bombadil](../../cards/T/to.md#tom-bombadil) (36.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#starfield-of-nyx)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/840/starfield-of-nyx) · oracle_id `922d603e-6623-4455-b91f-fad76f94045a` · printing: CMM #840 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1832,6 +1838,8 @@ schema: 2
   - *2021-02-05* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player’s turn. In most cases, if you foretell a card that isn’t an instant (or doesn’t have flash), you’ll have to wait until your next turn to cast it.
   - *2021-02-05* — If you’re casting a foretold card from exile for its foretell cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
   - *2021-02-05* — You choose the value of X in the foretell cost as you cast the spell. You’ll pay {2}{W} for one Angel Warrior token, {4}{W} for two, {6}{W} for three, and so on.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): KHM #33 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 14,397 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (14.4% of its decks), [Ranar the Ever-Watchful](../../cards/R/ran.md#ranar-the-ever-watchful) (34.9% of its decks), [Kellan, the Kid](../../cards/K/ke.md#kellan-the-kid) (8.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#starnheim-unleashed)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/33/starnheim-unleashed) · oracle_id `495ebe60-f0e5-4f0f-9d99-b2c64c95dbf4` · printing: KHM #33 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

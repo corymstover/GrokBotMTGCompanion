@@ -153,6 +153,8 @@ schema: 2
   - *2015-06-22* — Check to see if there are two or more instant and/or sorcery cards in your graveyard as the spell resolves to determine whether the spell mastery ability applies. The spell itself won’t count because it’s still on the stack as you make this check.
   - *2015-06-22* — If the creature becomes an illegal target by the time Ravaging Blaze tries to resolve, Ravaging Blaze won’t resolve and none of its effects will happen. No damage will be dealt to the creature or its controller.
   - *2015-06-22* — Ravaging Blaze targets only the creature. It doesn’t target any player, even if the spell mastery ability applies.
+- **Lore:** ✅ Card art shown on [Offers to the Fire](https://magic.wizards.com/en/news/magic-story/offers-fire-2015-08-05) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,832 decks; most often under [Chandra, Fire of Kaladesh](../../cards/C/cha.md#chandra-fire-of-kaladesh--chandra-roaring-flame) (16.4% of its decks), [Imodane, the Pyrohammer](../../cards/I/im.md#imodane-the-pyrohammer) (7.8% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/250/ravaging-blaze) · oracle_id `a41760a2-d359-4581-b8d3-c1b572ac15c2` · printing: CMM #250 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravaging Horde
@@ -253,6 +255,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23994 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — This is not a draw.
+- **Lore:** ✅ Card art shown on [Unkindness of Ravens](https://magic.wizards.com/en/news/magic-story/unkindness-ravens-2015-07-29) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,018 decks; most often under [Animar, Soul of Elements](../../cards/A/an.md#animar-soul-of-elements) (0.4% of its decks), [Oloro, Ageless Ascetic](../../cards/O/ol.md#oloro-ageless-ascetic) (0.4% of its decks), [Kastral, the Windcrested](../../cards/K/ka.md#kastral-the-windcrested) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c13/55/raven-familiar) · oracle_id `47aabd9d-0f68-490a-a2ae-5cd9ef689be6` · printing: C13 #55 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenform
@@ -618,6 +622,8 @@ schema: 2
   > *Nothing is sacred to rats. Everything is simply another meal.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11913 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/xathrid-gorgon-2012-12-19), [Xathrid Gorgon](https://magic.wizards.com/en/news/magic-story/xathrid-gorgon-2012-07-03) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 9,134 decks; most often under [Marrow-Gnawer](../../cards/M/mar.md#marrow-gnawer) (15.4% of its decks), [Karumonix, the Rat King](../../cards/K/ka.md#karumonix-the-rat-king) (25.1% of its decks), [Wick, the Whorled Mind](../../cards/W/wi.md#wick-the-whorled-mind) (6.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gvl/37/ravenous-rats) · oracle_id `2fa1bbfd-92b5-482c-b32d-4cdc286474c4` · printing: GVL #37 (2014-12-05) · [rulings](https://api.scryfall.com/cards/f87e5072-525e-4b0b-a5c3-ee5e89a81e1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Robots
@@ -878,6 +884,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4789 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-05-03* — A land normally has no color, even if it can produce multiple colors of mana.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): PLST #WAR-28, WAR #28 — [Art & Flavor → War of the Spark (2019)](../../Art%20%26%20Flavor%20Story%20Links.md#war-of-the-spark-2019) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 33,790 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (14.2% of its decks), [Anti-Venom, Horrifying Healer](../../cards/A/an.md#anti-venom-horrifying-healer) (32.5% of its decks), [Light-Paws, Emperor's Voice](../../cards/L/li.md#light-paws-emperors-voice) (10.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#ravnica-at-war)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/28/ravnica-at-war) · oracle_id `0012bc78-e69d-4a67-a302-e5fe0dfd4407` · printing: WAR #28 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

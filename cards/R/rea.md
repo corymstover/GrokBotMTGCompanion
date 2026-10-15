@@ -283,6 +283,8 @@ schema: 2
 - **Keywords:** Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9227 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): NEO #75 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 14,223 decks; most often under [Mendicant Core, Guidelight](../../cards/M/me.md#mendicant-core-guidelight) (11.4% of its decks), [Ovika, Enigma Goliath](../../cards/O/ov.md#ovika-enigma-goliath) (12.9% of its decks), [Urza, Chief Artificer](../../cards/U/ur.md#urza-chief-artificer) (5.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/75/reality-heist) · oracle_id `569da5d3-6af2-4021-a464-b30ebaaf6fa0` · printing: NEO #75 (2022-02-18) · [rulings](https://api.scryfall.com/cards/5bc954d7-322a-45b8-9e25-6e9a97fbde61/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reality Hemorrhage
@@ -731,6 +733,8 @@ schema: 2
   - *2016-04-08* — Some delirium abilities are activated abilities of permanents. To activate such an ability, there must be four or more card types among cards in your graveyard. The number of card types is not rechecked as the ability resolves.
   - *2016-04-08* — The card types in Magic are artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Supertypes (such as legendary and basic) and subtypes (such as Human and Equipment) are not counted.
   - *2016-04-08* — The number of card types matters, not the number of cards. For example, Wicker Witch (an artifact creature) along with Catalog (an instant) and Chaplain's Blessing (a sorcery) will enable delirium.
+- **Lore:** ✅ Card art shown on [The Archmage of Goldnight](https://magic.wizards.com/en/news/magic-story/archmage-goldnight-2016-06-08) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 14 combos; most popular [Changeling Hero + Karmic Guide + Reaper of Flight Moonsilver](https://commanderspellbook.com/combo/3839-4681-7272/) (Infinite creature ETB, Infinite creature LTB) · EDHREC: in 388 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (0.2% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (0.1% of its decks), [Saffi Eriksdotter](../../cards/S/saf.md#saffi-eriksdotter) (2.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/36/reaper-of-flight-moonsilver) · oracle_id `94cce37a-a752-4cde-a5b5-e8a15f8af52c` · printing: SOI #36 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reaper of Night // Harvest Fear

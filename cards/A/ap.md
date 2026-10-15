@@ -178,7 +178,9 @@ schema: 2
   - *2018-07-13* — Apex of Power doesn't change when you can cast the exiled cards. For example, if you exile a sorcery card, you can cast it only during your main phase when the stack is empty.
   - *2018-07-13* — Casting an exiled card causes it to leave exile. You can't cast it multiple times.
   - *2018-07-13* — If an effect copies Apex of Power, the copy wasn't cast at all, so you won't add ten mana.
-- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/A.md#apex-of-power)
+- **Lore:** ✅ Card art shown on [Chronicle of Bolas: The Unwritten Now](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Bjorna, Nightfall Alchemist (Grixis)](../../grixis/decks/bjorna-nightfall-alchemist-cecily.md) · Commander Spellbook: 2 combos; most popular [Vadrik, Astral Archmage + Mystic Retrieval + Runic Repetition + Apex of Power](https://commanderspellbook.com/combo/185-2020-4293-4664/) (Infinite untap of permanents you control, Cast all spells in your library) · EDHREC: in 42,066 decks; most often under [Lorehold, the Historian](../../cards/L/lo.md#lorehold-the-historian) (53.6% of its decks), [Rowan, Scion of War](../../cards/R/ro.md#rowan-scion-of-war) (36.4% of its decks), [Prosper, Tome-Bound](../../cards/P/pr.md#prosper-tome-bound) (15.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 decks · 2 edh guides) → [reverse index](../../references/A.md#apex-of-power)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/114/apex-of-power) · oracle_id `d06eedb4-bd5a-4864-9505-a570a745d165` · printing: AFC #114 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Apex Witchstalker
@@ -356,6 +358,8 @@ schema: 2
   > *—Grandmother Sengir*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29559 · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** Featured in: [Plane → Ulgrotha](../../Planes%20Index.md#ulgrotha) ([source](https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19) via entry) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 262 decks; most often under [Atogatog](../../cards/A/at.md#atogatog) (0.8% of its decks), [Cromat](../../cards/C/cr.md#cromat) (0.5% of its decks), [Karona, False God](../../cards/K/ka.md#karona-false-god) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#apocalypse-chime)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hml/101/apocalypse-chime) · oracle_id `995e2412-3f69-4aaf-a5d6-ae0ecbb95061` · printing: HML #101 (1995-10-01) · [rulings](https://api.scryfall.com/cards/cef20d8f-6e80-4fca-b6a7-541981f6a112/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -823,6 +827,8 @@ schema: 2
   - *2017-04-18* — If you have fewer than six cards in your library, you'll put Approach of the Second Sun on the bottom of your library. Otherwise, you'll lift up the top six cards without looking at them and place Approach of the Second Sun just under them.
   - *2017-04-18* — The second Approach of the Second Sun that you cast must be cast from your hand, but first may have been cast from anywhere.
   - *2017-07-14* — Approach of the Second Sun has no effect until it's resolving. If the second one you cast is countered, you won't win the game.
+- **Lore:** ✅ Card art shown on [Brazen](https://magic.wizards.com/en/news/magic-story/brazen-2017-05-03) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Kynaios and Tiro of Meletis](../../decks/kynaios-and-tiro-of-meletis.md) · Commander Spellbook: 100+ combos; most popular [Approach of the Second Sun + Windfall](https://commanderspellbook.com/combo/553-790/) (Win the game) · EDHREC: in 158,327 decks; most often under [Grand Arbiter Augustin IV](../../cards/G/gra.md#grand-arbiter-augustin-iv) (51.5% of its decks), [Lorehold, the Historian](../../cards/L/lo.md#lorehold-the-historian) (62.5% of its decks), [Ms. Bumbleflower](../../cards/M/ms.md#ms-bumbleflower) (17.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/A.md#approach-of-the-second-sun)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/4/approach-of-the-second-sun) · oracle_id `e4125377-34c0-4b54-bdf8-4e88f5d24565` · printing: AKH #4 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

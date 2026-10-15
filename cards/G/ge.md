@@ -435,6 +435,8 @@ schema: 2
   - *2020-08-07* — Any effects that say that the Angel can't attack (such as that of Propaganda) affect only the declaration of attackers. They won't stop the Angel token from entering the battlefield attacking.
   - *2020-08-07* — If you create more than one Angel token (most likely due to Doubling Season), both are exiled at end of combat. On the other hand, if something else becomes a copy of the Angel token, the copy isn't exiled.
   - *2020-08-07* — You choose which player or planeswalker the Angel token is attacking. It doesn't have to be attacking the same player or planeswalker that Geist of Saint Traft is attacking.
+- **Lore:** ✅ Card art shown on [I Am Avacyn](https://magic.wizards.com/en/news/magic-story/i-am-avacyn-2016-05-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,223 decks; highest synergy [Steel of the Godhead](../../cards/S/ste.md#steel-of-the-godhead) (+65%), [Aqueous Form](../../cards/A/aq.md#aqueous-form) (+58%), [Spirit Mantle](../../cards/S/spi.md#spirit-mantle) (+54%) · EDHREC: in 6,928 decks; most often under [Millicent, Restless Revenant](../../cards/M/mil.md#millicent-restless-revenant) (47.3% of its decks), [Noctis, Heir Apparent](../../cards/N/no.md#noctis-heir-apparent) (4.6% of its decks), [Ranar the Ever-Watchful](../../cards/R/ran.md#ranar-the-ever-watchful) (5.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/G.md#geist-of-saint-traft)
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/155/geist-of-saint-traft) · oracle_id `4304035c-c3e4-4a19-aa1f-92a83d8aed1f` · printing: VOC #155 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -639,6 +641,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18134 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2012-07-01* — You don’t have to find all three cards, even if they’re present in your library. For example, you can activate the ability just to find an Island card and a Swamp card.
+- **Lore:** ✅ Card art shown on [Chronicle of Bolas: A Familiar Stranger](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-familiar-stranger-2018-08-01) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,138 decks; most often under [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (14.3% of its decks), [Nicol Bolas](../../cards/N/ni.md#nicol-bolas) (14.9% of its decks), [Nekusar, the Mindrazer](../../cards/N/ne.md#nekusar-the-mindrazer) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m13/205/gem-of-becoming) · oracle_id `6b1e4940-11ac-4d85-98f4-3f50d1060b96` · printing: M13 #205 (2012-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gempalm Avenger
@@ -1005,6 +1009,8 @@ schema: 2
 - **Rulings** (2):
   - *2016-01-22* — Once the last ability resolves, the bonus given doesn’t change, even if the number of colors among your Allies does.
   - *2016-01-22* — The last ability checks only Ally creatures you control as the ability resolves. The value of X will be between 0 and 5. Colorless is not a color.
+- **Lore:** ✅ Card art shown on [Zendikar: Things Have Changed](https://magic.wizards.com/en/news/feature/zendikar-things-have-changed-2020-09-01), [Brink of Extinction](https://magic.wizards.com/en/news/magic-story/brink-extinction-2016-02-10), [Up in Flames](https://magic.wizards.com/en/news/magic-story/flames-2016-01-20) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,789 decks; highest synergy [Harabaz Druid](../../cards/H/ha.md#harabaz-druid) (+77%), [Sea Gate Loremaster](../../cards/S/sea.md#sea-gate-loremaster) (+74%), [Hagra Diabolist](../../cards/H/ha.md#hagra-diabolist) (+73%) · EDHREC: in 2,290 decks; most often under [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (8.8% of its decks), [Tazri, Beacon of Unity](../../cards/T/ta.md#tazri-beacon-of-unity) (4.2% of its decks), [Rukarumel, Biologist](../../cards/R/ru.md#rukarumel-biologist) (2.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#general-tazri)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/19/general-tazri) · oracle_id `b0f19cba-1339-4518-8320-d7b1dcaf2eb0` · printing: OGW #19 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1172,6 +1178,8 @@ schema: 2
   - *2026-08-21* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2026-08-21* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2026-08-21* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Lore:** ✅ Card art shown on [Reality Fracture](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-4-oh-sweetie) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 19 combos; most popular [Goblin Bombardment + Dualcaster Mage + Generous Revival](https://commanderspellbook.com/combo/147-5147-8179/) (Infinite creature ETB, Infinite creature LTB) · EDHREC: in 1,439 decks; most often under [Quintorius, History Chaser](../../cards/Q/qu.md#quintorius-history-chaser) (3.5% of its decks), [Phlage, Titan of Fire's Fury](../../cards/P/ph.md#phlage-titan-of-fires-fury) (12.3% of its decks), [Niv-Mizzet, Ghost Counsel](../../cards/N/ni.md#niv-mizzet-ghost-counsel) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#generous-revival)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/8/generous-revival) · oracle_id `f8601f5f-0f7c-4689-9d15-137f1e82c49c` · printing: FRA #8 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1737,6 +1745,8 @@ schema: 2
 - **Rulings** (2):
   - *2016-04-08* — Geralf's Masterpiece's last ability can only be activated while it's in your graveyard.
   - *2016-04-08* — If a spell or ability causes you to draw cards and then discard cards, Geralf's Masterpiece may have a toughness of 0 while you choose which cards to discard. As long as it has toughness 1 or greater again after the spell or ability resolves, it will survive.
+- **Lore:** ✅ Card art shown on [Games](https://magic.wizards.com/en/news/magic-story/games-2016-04-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,010 decks; most often under [Gisa and Geralf](../../cards/G/gi.md#gisa-and-geralf) (2.2% of its decks), [Stitcher Geralf](../../cards/S/sti.md#stitcher-geralf) (36.1% of its decks), [The Scarab God](../../cards/T/thes.md#the-scarab-god) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/65/geralfs-masterpiece) · oracle_id `dacab848-89ca-46cc-b796-21fc2c218e78` · printing: SOI #65 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Geralf's Messenger
@@ -2069,6 +2079,8 @@ schema: 2
   - *2024-04-12* — You can’t choose the same mode more than once.
   - *2024-04-12* — You choose the modes as you cast the spell with spree. Once modes are chosen, they can’t be changed.
   - *2024-04-12* — You must choose at least one of the listed modes and pay its associated additional cost in order to cast a spell with spree.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): OTJ #14 — [Art & Flavor → Outlaws of Thunder Junction (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#outlaws-of-thunder-junction-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 25,981 decks; most often under [Niko, Light of Hope](../../cards/N/ni.md#niko-light-of-hope) (26.7% of its decks), [Syr Vondam, Sunstar Exemplar](../../cards/S/sy.md#syr-vondam-sunstar-exemplar) (31.6% of its decks), [Mister Negative](../../cards/M/mis.md#mister-negative) (15.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Blink: Blink effects](../../EDH%20Packages.md#blink-blink-effects) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/G.md#getaway-glamer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/14/getaway-glamer) · oracle_id `98eac0f7-3f4d-46ef-9575-680c52e967cf` · printing: OTJ #14 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2174,6 +2186,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6030 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-09-20* — Get Out's last mode can target any creatures and/or enchantments you own, including ones controlled by other players.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): DSK #60 — [Art & Flavor → Duskmourn: House of Horror (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#duskmourn-house-of-horror-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 5 combos; most popular [Stormchaser's Talent + Valley Floodcaller + Get Out + Enduring Vitality](https://commanderspellbook.com/combo/5864-6006-7110-7111/) (Infinite creature LTB, Infinite creature ETB) · EDHREC: in 25,833 decks; most often under [Marina Vendrell](../../cards/M/mar.md#marina-vendrell) (18.7% of its decks), [The Mindskinner](../../cards/T/them.md#the-mindskinner) (13.9% of its decks), [Jon Irenicus, Shattered One](../../cards/J/jo.md#jon-irenicus-shattered-one) (10.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#get-out)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/60/get-out) · oracle_id `b2f3c27e-b646-4449-901a-8b809cdfa84e` · printing: DSK #60 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2241,6 +2255,8 @@ schema: 2
   - *2021-06-18* — Creatures with corruption counters can still attack Dihada, but the damage they would deal will be prevented.
   - *2021-06-18* — Geyadrone Dihada can't be targeted, dealt damage, or enchanted by any permanent with a corruption counter on it. If it somehow becomes a creature, it also can't be blocked or equipped by those permanents. This includes being the target of activated and triggered abilities of those permanents.
   - *2021-06-18* — When Dihada leaves the battlefield, permanents keep their corruption counters. If you later control another Geyadrone Dihada, it will have protection from those permanents.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Geyadrone Dihada](../../Characters%20Index.md#geyadrone-dihada) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 14,187 decks; most often under [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (18.9% of its decks), [Abaddon the Despoiler](../../cards/A/ab.md#abaddon-the-despoiler) (27.0% of its decks), [Edea, Possessed Sorceress](../../cards/E/ed.md#edea-possessed-sorceress) (23.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#geyadrone-dihada)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/199/geyadrone-dihada) · oracle_id `e1105d84-86b5-44ef-9efc-d994ee1c35cc` · printing: MH2 #199 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

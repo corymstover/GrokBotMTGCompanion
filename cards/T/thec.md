@@ -140,7 +140,9 @@ schema: 2
   - *2019-10-04* — Once you announce that you're casting a spell, no player may take actions until the spell has been paid for. Notably, opponents can't try to change by how much a relic's cost is reduced.
   - *2019-10-04* — The cost reduction ability reduces only the generic mana in the relic's cost. The colored mana must still be paid.
   - *2019-10-04* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#the-cauldron-of-eternity)
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Eldraine](https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Syr Konrad, the Grim (Eldraine-only)](../../decks/plane-eldraine-syr-konrad-the-grim.md) · Commander Spellbook: 42 combos; most popular [Grenzo, Dungeon Warden + The Cauldron of Eternity + Ashnod's Altar](https://commanderspellbook.com/combo/1799-2034-2579/) (Infinite death triggers, Infinite creature ETB) · EDHREC: in 13,402 decks; most often under [Grenzo, Dungeon Warden](../../cards/G/gre.md#grenzo-dungeon-warden) (58.5% of its decks), [Yuriko, the Tiger's Shadow](../../cards/Y/yu.md#yuriko-the-tigers-shadow) (5.1% of its decks), [The Ancient One](../../cards/T/thea.md#the-ancient-one) (30.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Reanimation](../../EDH%20Packages.md#graveyard-reanimation) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/T.md#the-cauldron-of-eternity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/82/the-cauldron-of-eternity) · oracle_id `a7308a1f-ec46-478e-86ea-33b2ebbd995f` · printing: ELD #82 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Cave of Two Lovers
@@ -280,6 +282,8 @@ schema: 2
   - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
   - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
   - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MKM #116, MKM #304 — [Art & Flavor → Murders at Karlov Manor (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#murders-at-karlov-manor-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,597 decks; most often under [Zada, Hedron Grinder](../../cards/Z/za.md#zada-hedron-grinder) (3.2% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (0.8% of its decks), [Alexios, Deimos of Kosmos](../../cards/A/al.md#alexios-deimos-of-kosmos) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#the-chase-is-on)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/116/the-chase-is-on) · oracle_id `789899eb-3a33-4a41-b6b5-5e2f55a9af51` · printing: MKM #116 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

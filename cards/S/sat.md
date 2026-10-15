@@ -235,6 +235,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24149 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Path or the Horizon](https://magic.wizards.com/en/news/magic-story/path-or-horizon-2014-05-07), [The Path or the Horizon](https://magic.wizards.com/en/news/magic-story/path-or-horizon-2014-05-07-0) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 993 decks; most often under [Gallia of the Endless Dance](../../cards/G/ga.md#gallia-of-the-endless-dance) (51.4% of its decks), [Xenagos, God of Revels](../../cards/X/xe.md#xenagos-god-of-revels) (0.1% of its decks), [Zada, Hedron Grinder](../../cards/Z/za.md#zada-hedron-grinder) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/139/satyr-rambler) · oracle_id `6ea0d274-564b-4785-801d-b3272a7b6bfa` · printing: THS #139 (2013-09-27) · [rulings](https://api.scryfall.com/cards/fabccddd-c0ea-45a5-bebc-d8f858242a2a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Satyr's Cunning

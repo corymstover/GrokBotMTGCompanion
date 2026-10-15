@@ -60,6 +60,8 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23494 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Endure](https://magic.wizards.com/en/news/magic-story/endure-2017-07-19) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,138 decks; most often under [Hylda of the Icy Crown](../../cards/H/hy.md#hylda-of-the-icy-crown) (2.0% of its decks), [Gavi, Nest Warden](../../cards/G/ga.md#gavi-nest-warden) (1.6% of its decks), [Queza, Augur of Agonies](../../cards/Q/qu.md#queza-augur-of-agonies) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#djerus-renunciation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/11/djerus-renunciation) · oracle_id `11b21086-0779-4d16-8a56-252c6bee9bed` · printing: HOU #11 (2017-07-14) · [rulings](https://api.scryfall.com/cards/03f005de-7971-4f22-ad1f-5d0667f68113/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

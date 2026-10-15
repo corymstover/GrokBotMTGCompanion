@@ -141,6 +141,8 @@ schema: 2
 - **Rulings** (2):
   - *2023-04-14* — You can choose a permanent with no counters on it as the target. You’ll still draw a card.
   - *2023-04-14* — You choose which counters to remove from the permanent, no matter who controls it. You may choose counters of different kinds.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MOM #123 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,075 decks; most often under [Omnath, Locus of All](../../cards/O/om.md#omnath-locus-of-all) (1.2% of its decks), [Glissa Sunslayer](../../cards/G/gl.md#glissa-sunslayer) (4.5% of its decks), [Xavier Sal, Infested Captain](../../cards/X/xa.md#xavier-sal-infested-captain) (1.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#render-inert)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/123/render-inert) · oracle_id `e9ece3c6-81c2-441a-acce-c109aaa9026b` · printing: MOM #123 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -566,6 +568,8 @@ schema: 2
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called "story spotlights"—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
   - *2022-12-08* — The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (because, for example, it has been countered, or all of its targets have become illegal), the cycling ability will still resolve, and you'll draw a card.
   - *2022-12-08* — When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): AKH #25 — [Art & Flavor → Amonkhet & Hour of Devastation (2017)](../../Art%20%26%20Flavor%20Story%20Links.md#amonkhet--hour-of-devastation-2017) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,234 decks; most often under [Will, Scion of Peace](../../cards/W/wi.md#will-scion-of-peace) (11.3% of its decks), [Hope Estheim](../../cards/H/ho.md#hope-estheim) (1.9% of its decks), [Gavi, Nest Warden](../../cards/G/ga.md#gavi-nest-warden) (5.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#renewed-faith)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/23/renewed-faith) · oracle_id `aa4ecefa-808e-4706-af16-4ea5af9743fc` · printing: DMR #23 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

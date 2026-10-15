@@ -8,6 +8,7 @@ Facts only: combo pieces/results are Commander Spellbook community data (cited p
 the bracket implication uses the official Brackets barometer (no intentional two-card infinite
 combos in Brackets 1-2). Anything else is Opinion and is not written here.
 """
+import atomic_io  # noqa: F401  atomic Path.write_text/write_bytes (Bot cycle 34)
 import json, re, sys, time, urllib.request, pathlib, datetime
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 API = "https://backend.commanderspellbook.com/find-my-combos"

@@ -263,6 +263,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7101 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-01-22* — Activating Deepfathom Skulker’s last ability after it’s been legally blocked won’t change or undo that block. The declare attackers step is the last time you can activate the ability and have it be effective.
+- **Lore:** ✅ Card art shown on [Beneath the Surface](https://magic.wizards.com/en/news/magic-story/beneath-surface-2016-01-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 20,999 decks; most often under [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (42.6% of its decks), [Azlask, the Swelling Scourge](../../cards/A/az.md#azlask-the-swelling-scourge) (18.2% of its decks), [Animar, Soul of Elements](../../cards/A/an.md#animar-soul-of-elements) (2.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/D.md#deepfathom-skulker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/43/deepfathom-skulker) · oracle_id `a09a4556-8913-495c-8768-e05413c48f0b` · printing: OGW #43 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deepfire Elemental

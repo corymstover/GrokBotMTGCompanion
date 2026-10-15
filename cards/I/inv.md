@@ -437,6 +437,8 @@ schema: 2
   - *2023-04-14* — In a multiplayer game, if the protector of a battle leaves the game and that battle is not currently being attacked, its controller chooses a new protector for it as a state-based action. If it is being attacked, its controller chooses a new protector for it once no creatures are attacking it. This means that it continues to be attacked and can be dealt combat damage as normal.
   - *2023-04-14* — Only creatures controlled by a battle’s protector can block creatures that are attacking that battle. This means a Siege’s controller can never assign creatures to block for it.
   - *2023-04-14* — Sieges each have an intrinsic triggered ability. That ability is “When the last defense counter is removed from this permanent, exile it, then you may cast it transformed without paying its mana cost.”
+- **Lore:** Depicts: [Plane → Ergamon](../../Planes%20Index.md#ergamon) ([source](https://magic.wizards.com/en/news/making-magic/choosing-your-battles-part-3)) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 8,101 decks; most often under [Disa the Restless](../../cards/D/di.md#disa-the-restless) (14.5% of its decks), [Winter, Misanthropic Guide](../../cards/W/wi.md#winter-misanthropic-guide) (19.2% of its decks), [Loot, the Key to Everything](../../cards/L/lo.md#loot-the-key-to-everything) (19.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/I.md#invasion-of-ergamon--truga-cliffcharger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/233/invasion-of-ergamon-truga-cliffcharger) · oracle_id `fe84933e-d98f-4cbc-b272-387a80894e31` · printing: MOM #233 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1006,7 +1008,9 @@ schema: 2
   - *2023-04-14* — Sieges each have an intrinsic triggered ability. That ability is “When the last defense counter is removed from this permanent, exile it, then you may cast it transformed without paying its mana cost.”
   - *2023-04-14* — Teferi Akosa’s last ability has received an update to its official rules text to clarify its function. The updated text is included above.
   - *2023-04-14* — You activate Teferi Akosa’s last ability without choosing a target or tapping any creatures. As it resolves, you choose which untapped creatures you control to tap, if any. If you don’t tap any creatures (including if you don’t control any), X is 0. After you tap creatures or not, the reflexive triggered ability triggers. You choose the target for that ability as it’s put on the stack.
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/I.md#invasion-of-new-phyrexia--teferi-akosa-of-zhalfir)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MOM #239 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 11,556 decks; most often under [Sidar Jabari of Zhalfir](../../cards/S/si.md#sidar-jabari-of-zhalfir) (37.4% of its decks), [The Council of Four](../../cards/T/thec.md#the-council-of-four) (10.9% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/I.md#invasion-of-new-phyrexia--teferi-akosa-of-zhalfir)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/239/invasion-of-new-phyrexia-teferi-akosa-of-zhalfir) · oracle_id `480ea052-87d7-4fea-ac97-b6121b78f863` · printing: MOM #239 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invasion of Pyrulea // Gargantuan Slabhorn
@@ -1243,6 +1247,8 @@ schema: 2
   - *2021-02-05* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
   - *2021-02-05* — The chapter II ability goes on the stack without a target. You choose whether to reveal a Giant card from your hand after you have drawn a card. When you do, the reflexive triggered ability triggers. This is different than effects that say "If you do" in that players can respond after you've revealed the Giant card but before damage is dealt.
   - *2021-02-05* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of the effect of the chapter III ability). The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): KHM #215 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,844 decks; most often under [Aegar, the Freezing Flame](../../cards/A/ae.md#aegar-the-freezing-flame) (56.7% of its decks), [Ruhan of the Fomori](../../cards/R/ru.md#ruhan-of-the-fomori) (16.1% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/215/invasion-of-the-giants) · oracle_id `807e35c0-8ea1-44a5-abac-51fd516aad03` · printing: KHM #215 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invasion of Theros // Ephara, Ever-Sheltering
@@ -1670,6 +1676,8 @@ schema: 2
   - *2016-09-20* — No player may take actions in a turn before Inventors' Fair's triggered ability checks to see if it should trigger. If you don't control three or more artifacts, it won't trigger.
   - *2016-09-20* — When using Inventors' Fair's activated ability, the number of artifacts you control is checked only as you activate it. It's not checked again as the ability resolves.
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called “story spotlights”—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): KLD #247, PLST #KLD-247 — [Art & Flavor → Kaladesh & Aether Revolt (2016–17)](../../Art%20%26%20Flavor%20Story%20Links.md#kaladesh--aether-revolt-201617) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (7): [Ashad, the Lone Cyberman (Grixis)](../../grixis/decks/ashad-the-lone-cyberman.md) · [Ashnod the Uncaring (Grixis)](../../grixis/decks/ashnod-the-uncaring.md) · [Cult of Skaro (Grixis)](../../grixis/decks/cult-of-skaro.md) · [Dr. Eggman (Grixis)](../../grixis/decks/dr-eggman.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 403,950 decks; most often under [Urza, Lord High Artificer](../../cards/U/ur.md#urza-lord-high-artificer) (51.9% of its decks), [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (36.9% of its decks), [Ragost, Deft Gastronaut](../../cards/R/rag.md#ragost-deft-gastronaut) (41.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 10 pages (7 decks · 1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/I.md#inventors-fair)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/247/inventors-fair) · oracle_id `91d4a5fe-fd6d-4b14-a63f-61b4d0ecd9c4` · printing: KLD #247 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1783,6 +1791,8 @@ schema: 2
   - *2022-12-08* — If you copy a spell that's half of a split card, the copy copies that same half. For example, if you copy Assault, the copy is also Assault, not Battery.
   - *2022-12-08* — Split cards have two card faces on a single card. The characteristics of the half you didn't cast are ignored while the spell is on the stack.
   - *2022-12-08* — To cast a split card, choose one of its halves to cast. There's no way to cast both halves of this split card.
+- **Lore:** ✅ Card art shown on [Clans & Legions](https://magic.wizards.com/en/news/magic-story/clans-legions-2018-10-24), [Testing the Dark Waters](https://magic.wizards.com/en/news/magic-story/testing-dark-waters-2018-10-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 8,390 decks; most often under [Lilah, Undefeated Slickshot](../../cards/L/li.md#lilah-undefeated-slickshot) (53.8% of its decks), [Vadrik, Astral Archmage](../../cards/V/va.md#vadrik-astral-archmage) (35.5% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (2.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/228/invert-invent) · oracle_id `9a378964-2c04-4d60-a905-c819d37ed4c3` · printing: GRN #228 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invert Polarity
@@ -1870,6 +1880,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10198 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-02-09* — If you choose Invigorated Rampage's second mode and one target becomes an illegal target, the remaining target gets +2/+0 and gains trample. It doesn't get +4/+0.
+- **Lore:** ✅ Card art shown on [Breaking Points](https://magic.wizards.com/en/news/magic-story/breaking-points-2017-01-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 12,117 decks; most often under [Zada, Hedron Grinder](../../cards/Z/za.md#zada-hedron-grinder) (18.9% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (3.8% of its decks), [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (8.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/I.md#invigorated-rampage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/86/invigorated-rampage) · oracle_id `d1a665f1-b06f-4775-bcb1-c57a476fa651` · printing: AER #86 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2042,6 +2054,8 @@ schema: 2
   - *2016-04-08* — If an effect gives the token vigilance, the token will still enter the battlefield tapped.
   - *2016-04-08* — Removing Invocation of Saint Traft or the enchanted creature from the battlefield won’t stop the delayed triggered ability from exiling the Angel token at end of combat.
   - *2016-04-08* — You declare which player or planeswalker the token is attacking as you put it onto the battlefield. It doesn’t have to be the same player or planeswalker the enchanted creature is attacking.
+- **Lore:** ✅ Card art shown on [The Lunarch Inquisition](https://magic.wizards.com/en/news/magic-story/lunarch-inquisition-2016-05-04), [Saint Traft and the Flight of Nightmares](https://magic.wizards.com/en/news/magic-story/saint-traft-and-flight-nightmares-2016-07-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,651 decks; most often under [Geist of Saint Traft](../../cards/G/ge.md#geist-of-saint-traft) (50.0% of its decks), [Bruna, Light of Alabaster](../../cards/B/br.md#bruna-light-of-alabaster) (6.6% of its decks), [Katara, the Fearless](../../cards/K/ka.md#katara-the-fearless) (1.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/I.md#invocation-of-saint-traft)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/246/invocation-of-saint-traft) · oracle_id `cd6e9465-f4eb-482d-9c49-3a16b52c997c` · printing: SOI #246 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

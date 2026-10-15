@@ -112,6 +112,8 @@ schema: 2
   > *It's hard to shout "Shields up!" with a javelin in your chest.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21165 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/building-toward-dream-part-2-2013-12-03), [official story page](https://magic.wizards.com/en/news/feature/building-toward-dream-part-2-2013-12-04), [The Walls of Akros](https://magic.wizards.com/en/news/magic-story/walls-akros-2014-02-26) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,813 decks; most often under [Anax and Cymede](../../cards/A/an.md#anax-and-cymede) (35.1% of its decks), [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (1.5% of its decks), [Zada, Hedron Grinder](../../cards/Z/za.md#zada-hedron-grinder) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/128/coordinated-assault) · oracle_id `ba14843d-6b7f-4e3d-b5ba-fc573fa8bf50` · printing: CLU #128 (2024-02-23) · [rulings](https://api.scryfall.com/cards/e1741b97-b75f-49a3-a930-e0eefda9d5be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coordinated Barrage
@@ -153,6 +155,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13791 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-09-20* — If one of the target creatures you control is an illegal target when Coordinated Clobbering begins to resolve (perhaps because it's no longer on the battlefield or because it's tapped), that creature won't deal any damage. If the target creature an opponent controls is an illegal target, no damage will be dealt.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): DSK #173 — [Art & Flavor → Duskmourn: House of Horror (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#duskmourn-house-of-horror-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,654 decks; most often under [Kona, Rescue Beastie](../../cards/K/ko.md#kona-rescue-beastie) (23.9% of its decks), [Rip, Spawn Hunter](../../cards/R/ri.md#rip-spawn-hunter) (21.9% of its decks), [Sméagol, Helpful Guide](../../cards/S/sm.md#sméagol-helpful-guide) (2.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#coordinated-clobbering)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/173/coordinated-clobbering) · oracle_id `b2b65b17-1fb4-42d6-9c6a-376d3f18851b` · printing: DSK #173 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

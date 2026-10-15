@@ -85,6 +85,9 @@ schema: 2
   - *2020-01-24* — The type-changing ability that can make a God not be a creature functions only on the battlefield. It's always a creature card in other zones, regardless of your devotion to its color. It's always a creature spell while it's on the stack.
   - *2020-01-24* — When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
   - *2020-01-24* — Your devotion to two colors is the number of mana symbols among mana costs of permanents you control that are the first color, the second, or both. If an effect counts your devotion to two colors, a hybrid symbol that is both of those colors is counted just once.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/gods-born-gods-2014-01-29-0), [The Gods of Born of the Gods](https://magic.wizards.com/en/news/magic-story/gods-born-gods-2014-01-29) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,507 decks; highest synergy [Nadir Kraken](../../cards/N/na.md#nadir-kraken) (+50%), [Venser, Shaper Savant](../../cards/V/ve.md#venser-shaper-savant) (+49%), [Whitemane Lion](../../cards/W/wh.md#whitemane-lion) (+46%) · EDHREC: in 24,368 decks; most often under [Atreus, Impulsive Son // Kratos, Stoic Father](../../cards/A/at.md#atreus-impulsive-son) (37.8% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (12.2% of its decks), [Gavi, Nest Warden](../../cards/G/ga.md#gavi-nest-warden) (34.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/E.md#ephara-god-of-the-polis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/145/ephara-god-of-the-polis) · oracle_id `5968ecb5-5728-429f-9324-0c108820ebe8` · printing: BNG #145 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ephara's Dispersal
@@ -116,6 +119,9 @@ schema: 2
 - **Rulings** (2):
   - *2014-02-01* — If Ephara's Enlightenment isn't on the battlefield when its enters-the-battlefield ability resolves, put a +1/+1 counter on the creature it was enchanting when it left the battlefield.
   - *2014-02-01* — The last ability of Ephara's Enlightenment will trigger only if it's on the battlefield when the creature enters the battlefield under your control. You may return it to its owner's hand only if it's still on the battlefield when that ability resolves.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/dreams-city-2014-04-23-0), [Dreams of the City](https://magic.wizards.com/en/news/magic-story/dreams-city-2014-04-23) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,141 decks; most often under [Arna Kennerüd, Skycaptain](../../cards/A/arn.md#arna-kennerüd-skycaptain) (0.8% of its decks), [Ephara, God of the Polis](../../cards/E/ep.md#ephara-god-of-the-polis) (2.1% of its decks), [Daxos of Meletis](../../cards/D/da.md#daxos-of-meletis) (5.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Voltron (equipment & auras): Evasion & double strike](../../EDH%20Packages.md#voltron-equipment--auras-evasion--double-strike) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/E.md#epharas-enlightenment)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/146/epharas-enlightenment) · oracle_id `da848568-1c66-4ce1-87f0-a35c317f2c61` · printing: BNG #146 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ephara's Radiance
@@ -131,6 +137,8 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23204 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/dreams-city-2014-04-23-0), [Dreams of the City](https://magic.wizards.com/en/news/magic-story/dreams-city-2014-04-23) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,212 decks; most often under [Eriette of the Charmed Apple](../../cards/E/er.md#eriette-of-the-charmed-apple) (0.4% of its decks), [Hope Estheim](../../cards/H/ho.md#hope-estheim) (0.3% of its decks), [The Gaffer](../../cards/T/theg.md#the-gaffer) (5.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/9/epharas-radiance) · oracle_id `0870e9f8-9e02-4997-9554-41a4e8eec4cb` · printing: BNG #9 (2014-02-07) · [rulings](https://api.scryfall.com/cards/e0741582-0c7b-4d5b-83a9-dd8862de1f24/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ephara's Warden
@@ -144,6 +152,8 @@ schema: 2
   > *"When you threaten the sanctity of the polis, you insult Ephara herself. If she doesn't smite you, I will."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29859 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/gods-born-gods-2014-01-29-0), [The Gods of Born of the Gods](https://magic.wizards.com/en/news/magic-story/gods-born-gods-2014-01-29) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 230 decks; most often under [Hylda of the Icy Crown](../../cards/H/hy.md#hylda-of-the-icy-crown) (0.4% of its decks), [Ephara, God of the Polis](../../cards/E/ep.md#ephara-god-of-the-polis) (0.4% of its decks), [Minwu, White Mage](../../cards/M/min.md#minwu-white-mage) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/10/epharas-warden) · oracle_id `805d1f48-dd91-4034-b42c-3f1f1cb75cc9` · printing: THS #10 (2013-09-27) · [rulings](https://api.scryfall.com/cards/71f7f788-2795-46a7-82ae-270f1e9415ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ephemeral Shields
@@ -212,6 +222,8 @@ schema: 2
   - *2018-03-16* — You can't cast Epic Confrontation unless you choose both a creature you control and a creature you don't control as targets.
   - *2022-10-14* — If the creature you control is an illegal target as Epic Confrontation tries to resolve, the creature you control won't get +1/+2. If that creature is a legal target but the creature you don't control isn't, your creature will still get +1/+2. In both cases, neither creature will deal or be dealt damage.
   - *2022-10-14* — You can't cast Epic Confrontation unless you choose both a creature you control and a creature you don't control as targets.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #176 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) — ✅ Card art shown on [The Call](https://magic.wizards.com/en/news/magic-story/call-2015-04-15) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,424 decks; most often under [Maarika, Brutal Gladiator](../../cards/M/maa.md#maarika-brutal-gladiator) (4.4% of its decks), [Wolverine, Best There Is](../../cards/W/wo.md#wolverine-best-there-is) (1.9% of its decks), [Neyith of the Dire Hunt](../../cards/N/ne.md#neyith-of-the-dire-hunt) (9.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/E.md#epic-confrontation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/176/epic-confrontation) · oracle_id `31123cb5-2dd5-4f2b-a2fd-8f87095972c6` · printing: BRO #176 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -333,6 +345,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12395 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-04-08* — X can be 0, and piles can be empty. If X is 0, you’ll reveal one card and one pile will be empty. Your opponent may choose the empty pile to put into your hand.
+- **Lore:** ✅ Card art shown on [The Drownyard Temple](https://magic.wizards.com/en/news/magic-story/drownyard-temple-2016-04-06) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 8,443 decks; most often under [The Celestial Toymaker](../../cards/T/thec.md#the-celestial-toymaker) (85.4% of its decks), [Vadrik, Astral Archmage](../../cards/V/va.md#vadrik-astral-archmage) (11.5% of its decks), [Zaxara, the Exemplary](../../cards/Z/za.md#zaxara-the-exemplary) (1.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/59/epiphany-at-the-drownyard) · oracle_id `33befbd6-56ac-45a7-a4d0-448167162707` · printing: SOI #59 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Epiphany Storm

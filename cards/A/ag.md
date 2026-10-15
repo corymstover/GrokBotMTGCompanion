@@ -997,6 +997,8 @@ schema: 2
   - *2020-01-24* — If you choose a card from their graveyard, it may be a land card.
   - *2020-01-24* — No player may take actions between the time you choose a card and the time it's exiled.
   - *2020-01-24* — You must choose a card to exile if able. If there are no nonland cards in the opponent's hand, you must exile a card from their graveyard, and vice versa.
+- **Lore:** Featured in: [Arc → Theros Beyond Death (2020)](../../Conflicts%20%26%20Arcs.md#theros-beyond-death-2020) ([source](https://magic.wizards.com/en/news/feature/theros-beyond-death-story-cards-2019-12-16), [2](https://magic.wizards.com/en/news/feature/theros-beyond-death-story-summary-2020-01-10) via entry) — ✅ Story Spotlight printing (Scryfall `story_spotlight`): THB #83 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,648 decks; most often under [Umbris, Fear Manifest](../../cards/U/um.md#umbris-fear-manifest) (1.0% of its decks), [K'rrik, Son of Yawgmoth](../../cards/K/kr.md#krrik-son-of-yawgmoth) (0.4% of its decks), [Codie, Vociferous Codex](../../cards/C/cod.md#codie-vociferous-codex) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#agonizing-remorse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/83/agonizing-remorse) · oracle_id `1267dfda-eb1a-4963-9fe3-fa619d924d7a` · printing: THB #83 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

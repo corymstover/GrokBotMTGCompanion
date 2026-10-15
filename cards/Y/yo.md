@@ -198,6 +198,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-10-04* — If the entering green creature dies before Yorvo's triggered ability resolves, use its power as it last existed on the battlefield to determine whether Yorvo gets a second +1/+1 counter.
   - *2019-10-04* — Yorvo's triggered ability compares the power of the entering green creature only after putting a +1/+1 counter on Yorvo. If that counter causes Yorvo's power to be greater than or equal to the entering creature's power, it won't get a second +1/+1 counter.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Eldraine](https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 4 combos; most popular [Ghave, Guru of Spores + Yorvo, Lord of Garenbrig + Ashnod's Altar](https://commanderspellbook.com/combo/2034-5189-6164/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 1,056 decks; highest synergy [Hardened Scales](../../cards/H/ha.md#hardened-scales) (+44%), [Forgotten Ancient](../../cards/F/fo.md#forgotten-ancient) (+37%), [Renata, Called to the Hunt](../../cards/R/ren.md#renata-called-to-the-hunt) (+34%) · EDHREC: in 12,479 decks; most often under [Ghalta, Primal Hunger](../../cards/G/gh.md#ghalta-primal-hunger) (31.1% of its decks), [Casal, Lurkwood Pathfinder](../../cards/C/cas.md#casal-lurkwood-pathfinder--casal-pathbreaker-owlbear) (46.8% of its decks), [Vorinclex, Monstrous Raider](../../cards/V/vo.md#vorinclex-monstrous-raider) (10.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/185/yorvo-lord-of-garenbrig) · oracle_id `00a15abc-bdac-4977-90a0-f08d41941d01` · printing: ELD #185 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yosei, the Morning Star
@@ -343,6 +345,8 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26385 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Flavor text verbatim on [official page 1](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-2-antiquities) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Urza, Lord High Artificer](../../decks/lore-brothers-war-urza-lord-high-artificer.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 611 decks; most often under [Mannichi, the Fevered Dream](../../cards/M/man.md#mannichi-the-fevered-dream) (30.5% of its decks), [Graaz, Unstoppable Juggernaut](../../cards/G/gra.md#graaz-unstoppable-juggernaut) (0.7% of its decks), [Doran, Besieged by Time](../../cards/D/do.md#doran-besieged-by-time) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/Y.md#yotian-soldier)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/249/yotian-soldier) · oracle_id `645571f1-a775-4834-8b79-8852d38c9587` · printing: BBD #249 (2018-06-08) · [rulings](https://api.scryfall.com/cards/9e71190b-c96c-4aea-9696-780c69eff395/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

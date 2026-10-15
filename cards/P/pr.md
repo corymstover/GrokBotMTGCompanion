@@ -375,6 +375,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13645 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-04-16* — As Practical Research resolves, you can discard either one instant or sorcery card or discard two cards, each of which may or may not be an instant or sorcery card.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): STX #212 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,839 decks; most often under [Lilah, Undefeated Slickshot](../../cards/L/li.md#lilah-undefeated-slickshot) (68.3% of its decks), [Melek, Reforged Researcher](../../cards/M/me.md#melek-reforged-researcher) (42.5% of its decks), [Codie, Vociferous Codex](../../cards/C/cod.md#codie-vociferous-codex) (4.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/P.md#practical-research)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/212/practical-research) · oracle_id `9110480b-a5d6-4cf8-a72c-dc1a50f11fac` · printing: STX #212 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Practiced Offense
@@ -528,6 +531,8 @@ schema: 2
   - *2015-08-25* — Even though these lands have basic land types, they are not basic lands because "basic" doesn't appear on their type line. Notably, controlling two or more of them won't allow others to enter the battlefield untapped.
   - *2015-08-25* — However, because these cards have basic land types, effects that specify a basic land type without also specifying that the land be basic can affect them. For example, a spell or ability that reads "Destroy target Forest" can target Canopy Vista, while one that reads "Destroy target basic Forest" cannot.
   - *2015-08-25* — If one of these lands enters the battlefield at the same time as any number of basic lands, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
+- **Lore:** ✅ Card art shown on [Shaping an Army](https://magic.wizards.com/en/news/magic-story/shaping-army-2015-10-21), [Stone and Blood](https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (5): [Brago, King Eternal](../../decks/brago-king-eternal.md) · [Chulane, Teller of Tales](../../decks/chulane-teller-of-tales.md) · [Kykar, Wind's Fury](../../decks/kykar-winds-fury.md) · [Chulane, Teller of Tales (landfall theme)](../../decks/theme-chulane-teller-of-tales-landfall.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 776,230 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (52.8% of its decks), [Ms. Bumbleflower](../../cards/M/ms.md#ms-bumbleflower) (63.1% of its decks), [Tidus, Yuna's Guardian](../../cards/T/ti.md#tidus-yunas-guardian) (69.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 10 pages (5 decks · 3 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/P.md#prairie-stream)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/79/prairie-stream) · oracle_id `5330e24a-8568-446e-840a-594cd08bd1bc` · printing: FRC #79 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1231,6 +1236,8 @@ schema: 2
   - *2017-04-18* — Untapping an attacking creature doesn't remove it from combat.
   - *2017-04-18* — While not on the stack, the characteristics of a split card are the combination of its two halves. For example, Destined // Lead is a green and black card, it is both an instant card and a sorcery card, and its mana value is 6. This means that if an effect allows you to cast a card with mana value 2 from your hand, you can't cast Destined. This is a change from the previous rules for split cards.
   - *2017-07-14* — Once you've started to cast a spell with aftermath from your graveyard, the card is immediately moved to the stack. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+- **Lore:** ✅ Card art shown on [Judgment](https://magic.wizards.com/en/news/magic-story/judgment-2017-05-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,457 decks; most often under [Sergeant John Benton](../../cards/S/ser.md#sergeant-john-benton) (8.4% of its decks), [Codie, Vociferous Codex](../../cards/C/cod.md#codie-vociferous-codex) (1.0% of its decks), [Helga, Skittish Seer](../../cards/H/he.md#helga-skittish-seer) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#prepare--fight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/220/prepare-fight) · oracle_id `fed7a6ad-68d8-4923-9ef0-619f73bfd6c2` · printing: AKH #220 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1384,6 +1391,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15071 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-09-25* — If the target creature is an illegal target by the time Pressure Point tries to resolve, the spell doesn't resolve. You don't draw a card. If the target is legal but doesn't become tapped (most likely because it's already tapped), you do draw a card.
+- **Lore:** ✅ Card art shown on [Khanfall](https://magic.wizards.com/en/news/magic-story/khanfall-2015-02-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,383 decks; most often under [Hylda of the Icy Crown](../../cards/H/hy.md#hylda-of-the-icy-crown) (10.1% of its decks), [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (1.2% of its decks), [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/33/pressure-point) · oracle_id `d4bbdd0c-e578-49ed-b2f7-b1decb04ee87` · printing: ZNR #33 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Preston Garvey, Minuteman
@@ -1535,6 +1544,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-05-03* — Players don’t normally have counters, but some cards in other sets say that a player “gets” a counter of a certain kind. Notably, emblems aren’t counters.
   - *2019-05-03* — Price of Betrayal has only one target. You may remove different kinds of counters from that one target, and you may also remove multiples of the same kind of counter from that one target.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WAR #102 — [Art & Flavor → War of the Spark (2019)](../../Art%20%26%20Flavor%20Story%20Links.md#war-of-the-spark-2019) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,455 decks; most often under [Liliana, Heretical Healer](../../cards/L/li.md#liliana-heretical-healer--liliana-defiant-necromancer) (5.2% of its decks), [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (0.7% of its decks), [Jecht, Reluctant Guardian](../../cards/J/je.md#jecht-reluctant-guardian--braskas-final-aeon) (13.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#price-of-betrayal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/102/price-of-betrayal) · oracle_id `43a2bfe4-9705-4d0f-901a-21f9803b50f1` · printing: WAR #102 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1764,6 +1775,8 @@ schema: 2
   - *2018-01-19* — If your tenth permanent enters the battlefield and then a permanent leaves the battlefield immediately afterwards (most likely due to the “Legend Rule” or due to being a creature with 0 toughness), you get the city’s blessing before it leaves the battlefield.
   - *2018-01-19* — Once you have the city’s blessing, you have it for the rest of the game, even if you lose control of some or all of your permanents. The city’s blessing isn’t a permanent itself and can’t be removed by any effect.
   - *2018-01-19* — Pride of Conquerors affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won’t get a bonus.
+- **Lore:** ✅ Card art shown on [Unbowed, Part 1](https://magic.wizards.com/en/news/magic-story/unbowed-part-1-2018-08-29) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 906 decks; most often under [Silverquill, the Disputant](../../cards/S/si.md#silverquill-the-disputant) (0.3% of its decks), [Elenda, the Dusk Rose](../../cards/E/el.md#elenda-the-dusk-rose) (0.4% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/17/pride-of-conquerors) · oracle_id `e45a1c99-a020-49ab-8971-35c6bcd096c8` · printing: RIX #17 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pride of Lions
@@ -1925,6 +1938,8 @@ schema: 2
   > *"Even my last breath will be a blow struck for Iroas."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30096 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/i-iroan-2013-11-04) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 209 decks; most often under [Iroas, God of Victory](../../cards/I/ir.md#iroas-god-of-victory) (1.1% of its decks), [Anax and Cymede](../../cards/A/an.md#anax-and-cymede) (2.3% of its decks), [Arabella, Abandoned Doll](../../cards/A/ara.md#arabella-abandoned-doll) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/134/priest-of-iroas) · oracle_id `706f7d56-f4da-48ba-ac94-fc09580beec7` · printing: THS #134 (2013-09-27) · [rulings](https://api.scryfall.com/cards/013ec9f5-8bf3-4067-a942-d535d011af82/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Priest of the Blessed Graf
@@ -3487,6 +3502,8 @@ schema: 2
   - *2019-05-03* — If Prison Realm leaves the battlefield before its first triggered ability resolves, the target permanent won’t be exiled.
   - *2019-05-03* — If a token is exiled this way, it will cease to exist and won’t return to the battlefield.
   - *2019-05-03* — You’ll still scry 1 even if Prison Realm’s first ability has no legal target or if that target becomes an illegal target before the ability resolves.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WAR #26 — [Art & Flavor → War of the Spark (2019)](../../Art%20%26%20Flavor%20Story%20Links.md#war-of-the-spark-2019) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,451 decks; most often under [Alela, Artful Provocateur](../../cards/A/al.md#alela-artful-provocateur) (1.7% of its decks), [Zur the Enchanter](../../cards/Z/zu.md#zur-the-enchanter) (1.6% of its decks), [Sythis, Harvest's Hand](../../cards/S/sy.md#sythis-harvests-hand) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#prison-realm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/26/prison-realm) · oracle_id `808a8491-2966-4388-8590-a46ba147f65a` · printing: WAR #26 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3605,6 +3622,8 @@ schema: 2
   > *—Niszka, Selesnya evangel*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3352 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Rage of the Unsung](https://magic.wizards.com/en/news/magic-story/rage-unsung-2019-01-30) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 49,819 decks; most often under [Sythis, Harvest's Hand](../../cards/S/sy.md#sythis-harvests-hand) (30.8% of its decks), [Go-Shintai of Life's Origin](../../cards/G/gos.md#go-shintai-of-lifes-origin) (21.3% of its decks), [Anikthea, Hand of Erebos](../../cards/A/an.md#anikthea-hand-of-erebos) (28.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#privileged-position)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/263/privileged-position) · oracle_id `abd62af0-c17d-4f62-af15-9ea83037b990` · printing: 2X2 #263 (2022-07-08) · [rulings](https://api.scryfall.com/cards/9655bbe4-062f-4278-ad05-a326a64c5b69/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3622,6 +3641,8 @@ schema: 2
 - **Rulings** (2):
   - *2021-03-19* — A card cast using its madness ability is cast from exile, not from your graveyard.
   - *2021-03-19* — Prized Amalgam's ability triggers only if it's in your graveyard immediately after an appropriate creature enters the battlefield. A Prized Amalgam that's already on the battlefield won't be returned at the beginning of the next end step if it's put into your graveyard later.
+- **Lore:** ✅ Card art shown on [Games](https://magic.wizards.com/en/news/magic-story/games-2016-04-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,298 decks; most often under [Gisa and Geralf](../../cards/G/gi.md#gisa-and-geralf) (16.1% of its decks), [Wilhelt, the Rotcleaver](../../cards/W/wi.md#wilhelt-the-rotcleaver) (3.7% of its decks), [The Scarab God](../../cards/T/thes.md#the-scarab-god) (3.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/264/prized-amalgam) · oracle_id `8499b3ec-9a61-47a4-a880-e8230b41c81b` · printing: 2X2 #264 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Prized Elephant
@@ -3895,6 +3916,8 @@ schema: 2
   > *"You can't learn to enjoy life's amusements in the pages of books. You must seek them out in earnest."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11438 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Prodigal Sorcerers](https://magic.wizards.com/en/news/magic-story/prodigal-sorcerers-2016-05-25) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Ashaya, Soul of the Wild + Ley Weaver + Prodigal Sorcerer](https://commanderspellbook.com/combo/539-1606-4291/) (Infinite damage, Infinite mana lands you control can produce) · EDHREC: in 9,898 decks; most often under [Ghyrson Starn, Kelermorph](../../cards/G/gh.md#ghyrson-starn-kelermorph) (12.6% of its decks), [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (16.2% of its decks), [Rona, Herald of Invasion](../../cards/R/ro.md#rona-herald-of-invasion--rona-tolarian-obliterator) (29.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/67/prodigal-sorcerer) · oracle_id `5e961d15-5972-4e4b-9385-1cd7cd7c6bbe` · printing: EMA #67 (2016-06-10) · [rulings](https://api.scryfall.com/cards/50aef269-55f9-4d84-8bc5-29e794297f11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Prodigious Growth
@@ -3989,6 +4012,8 @@ schema: 2
   - *2018-01-19* — If you have enough mana, you can activate Profane Procession's ability multiple times before any activation resolves. It will be transformed if one activation exiles the third card. Further activations waiting to resolve won't cause Tomb of the Dusk Rose to transform back into Profane Procession, but they will exile creatures that Tomb of the Dusk Rose can bring back.
   - *2018-01-19* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any permanents you control from Tomb of the Dusk Rose's ability are exiled.
   - *2018-01-19* — Profane Procession's ability can exile token creatures. They won't count towards the number of cards exiled with it.
+- **Lore:** ✅ Card art shown on [Unbowed, Part 2](https://magic.wizards.com/en/news/magic-story/unbowed-part-2-2018-09-05) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,619 decks; most often under [Ketramose, the New Dawn](../../cards/K/ke.md#ketramose-the-new-dawn) (2.4% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (0.4% of its decks), [Ardbert, Warrior of Darkness](../../cards/A/ard.md#ardbert-warrior-of-darkness) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/166/profane-procession-tomb-of-the-dusk-rose) · oracle_id `a656ad7f-133f-4d93-919a-43bcf1f815f3` · printing: RIX #166 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Profaner of the Dead
@@ -4201,6 +4226,8 @@ schema: 2
   > *Professor Onyx urged the twins to prepare for the dark mage Extus, sounding very much like someone familiar with the rise of tyrants.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8842 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): STX #84 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 15,172 decks; most often under [Shirei, Shizo's Caretaker](../../cards/S/shi.md#shirei-shizos-caretaker) (14.1% of its decks), [Sarulf, Realm Eater](../../cards/S/sar.md#sarulf-realm-eater) (24.6% of its decks), [Judith, Carnage Connoisseur](../../cards/J/ju.md#judith-carnage-connoisseur) (4.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/84/professors-warning) · oracle_id `e3c8e552-d315-486d-a176-813b3a300174` · printing: STX #84 (2021-04-23) · [rulings](https://api.scryfall.com/cards/862fded6-e474-4b20-86d8-fd9af5f25b1a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Professor Zei, Anthropologist
@@ -4288,6 +4315,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22008 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-08-21* — Proft's ability goes on the stack after you finish scrying or surveilling, meaning that you've already looked at and moved those cards before choosing whether to pay {2}.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Proft, Etrata, Aminatou, Niv-Mizzet](../../Characters%20Index.md#proft-etrata-aminatou-niv-mizzet) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 15 decks; highest synergy [Voyage's End](../../cards/V/vo.md#voyages-end) (+66%), [Matoya, Archon Elder](../../cards/M/mat.md#matoya-archon-elder) (+65%), [Elvish Mariner](../../cards/E/el.md#elvish-mariner) (+60%) · EDHREC: in 1,601 decks; most often under [Mirko, Obsessive Theorist](../../cards/M/mir.md#mirko-obsessive-theorist) (6.5% of its decks), [Matoya, Archon Elder](../../cards/M/mat.md#matoya-archon-elder) (11.1% of its decks), [Elminster](../../cards/E/el.md#elminster) (2.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#proft-consulting-detective)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/218/proft-consulting-detective) · oracle_id `45473bdb-b96f-4213-a46d-b2dbdf6b5e56` · printing: FRA #218 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4322,6 +4351,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27571 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-08-21* — If an effect allows you to cast this card from your graveyard, there need to be seven other cards in your graveyard to cast it.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Proft, Etrata, Aminatou, Niv-Mizzet](../../Characters%20Index.md#proft-etrata-aminatou-niv-mizzet) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4 decks; highest synergy [Astarion's Thirst](../../cards/A/as.md#astarions-thirst) (+99%), [Alchemist's Assistant](../../cards/A/al.md#alchemists-assistant) (+75%), [Grasping Shadows](../../cards/G/gra.md#grasping-shadows--shadows-lair) (+75%) · EDHREC: in 476 decks; most often under [Xu-Ifit, Osteoharmonist](../../cards/X/xu.md#xu-ifit-osteoharmonist) (2.4% of its decks), [Nashi, Searcher in the Dark](../../cards/N/na.md#nashi-searcher-in-the-dark) (4.8% of its decks), [Varolz, the Scar-Striped](../../cards/V/va.md#varolz-the-scar-striped) (3.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#proft-sinister-mastermind)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/235/proft-sinister-mastermind) · oracle_id `a350856c-87f2-4605-999f-4e26aa362a55` · printing: FRA #235 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4730,6 +4761,8 @@ schema: 2
   > *Upon death, an oracle of Arcavios returns to the very source of their world. Jace followed Jadzi's mind to witness two planes becoming one.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22809 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): FRA #17 — [Art & Flavor → Reality Fracture (2026)](../../Art%20%26%20Flavor%20Story%20Links.md#reality-fracture-2026) — ✅ Card art shown on [Reality Fracture](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-8-keep-your-lids-open) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,400 decks; most often under [Liliana the Faultless](../../cards/L/li.md#liliana-the-faultless) (6.4% of its decks), [Niv-Mizzet, Ghost Counsel](../../cards/N/ni.md#niv-mizzet-ghost-counsel) (0.6% of its decks), [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#prophesied-end)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/17/prophesied-end) · oracle_id `45f4d057-5134-40a2-9590-ddba73a65582` · printing: FRA #17 (2026-10-02) · [rulings](https://api.scryfall.com/cards/1f95399a-9766-4f3d-aa6a-ece55e0530d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4839,6 +4872,8 @@ schema: 2
   - *2013-09-15* — Effects that state a creature or land you control doesn't untap during your untap step won't apply during another player's untap step.
   - *2013-09-15* — If you're casting a creature spell with bestow, whether or not it has flash will depend on if you're casting it as a creature or as an Aura. Prophet of Kruphix won't give flash to a spell with bestow you're casting as an Aura.
   - *2013-09-15* — The last ability applies to creature cards in any zone, provided something is allowing you to cast them. For example, if you control a Zombie, you could cast Gravecrawler (a creature with “You may cast Gravecrawler from your graveyard as long as you control a Zombie”) from your graveyard as though it had flash.
+- **Lore:** ✅ Card art shown on [Kruphix's Insight](https://magic.wizards.com/en/news/magic-story/kruphixs-insight-2014-06-11) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/P.md#prophet-of-kruphix)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/199/prophet-of-kruphix) · oracle_id `372351fd-58f7-4cb8-8644-5fbc94ccb145` · printing: THS #199 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -5027,7 +5062,9 @@ schema: 2
   - *2020-11-10* — The amount of mana you spent to cast this creature is usually equal to its mana value. However, you also include any additional costs you pay, including the commander tax.
   - *2020-11-10* — The first ability triggers when you cast Prossh, not when it enters the battlefield. This means that it will resolve before Prossh, so any Kobold tokens it creates will be put onto the battlefield before Prossh. If Prossh enters the battlefield without being cast, the ability will not trigger.
   - *2020-11-10* — You can't choose to pay extra mana to cast a creature spell unless something instructs you to.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#prossh-skyraider-of-kher)
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 8](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-8-2018-05-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 19 combos; most popular [Prossh, Skyraider of Kher + Food Chain](https://commanderspellbook.com/combo/1864-3519/) (Infinite colored mana that can only be spent to cast creature spells, Infinite creature tokens) · EDHREC as commander: 6,971 decks; highest synergy [Impact Tremors](../../cards/I/im.md#impact-tremors) (+61%), [Zulaport Cutthroat](../../cards/Z/zu.md#zulaport-cutthroat) (+58%), [Skullclamp](../../cards/S/sk.md#skullclamp) (+56%) · EDHREC: in 5,883 decks; most often under [Korvold, Fae-Cursed King](../../cards/K/ko.md#korvold-fae-cursed-king) (16.2% of its decks), [Ziatora, the Incinerator](../../cards/Z/zi.md#ziatora-the-incinerator) (3.0% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/P.md#prossh-skyraider-of-kher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/214/prossh-skyraider-of-kher) · oracle_id `868882d2-ed4e-4171-a17c-478a341080fb` · printing: A25 #214 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Prosthetic Injector
@@ -5161,6 +5198,8 @@ schema: 2
 - **Rulings** (2):
   - *2017-04-18* — Damage that would be dealt to creatures you control is unaffected.
   - *2017-04-18* — If multiple sources would deal damage to you at once (for example, several attacking creatures), 1 damage from each of those sources is prevented.
+- **Lore:** ✅ Card art shown on [Trespass](https://magic.wizards.com/en/news/magic-story/trespass-2017-05-10) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 36 combos; most popular [Ghyrson Starn, Kelermorph + Protection of the Hekma + Sakashima of a Thousand Faces + Harmless Offering](https://commanderspellbook.com/combo/428-2719-3090-5096/) (Infinite damage to one opponent) · EDHREC: in 650 decks; most often under [Reidane, God of the Worthy](../../cards/R/rei.md#reidane-god-of-the-worthy--valkmira-protectors-shield) (24.2% of its decks), [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (0.0% of its decks), [Aminatou, Veil Piercer](../../cards/A/am.md#aminatou-veil-piercer) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/23/protection-of-the-hekma) · oracle_id `c5f611c9-9e6e-4719-ad71-8686327a8564` · printing: AKH #23 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Protection Racket
@@ -5329,6 +5368,8 @@ schema: 2
   - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
   - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
   - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): DMU #62, PLST #DMU-62 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 8,856 decks; most often under [Marneus Calgar](../../cards/M/mar.md#marneus-calgar) (7.9% of its decks), [Harbin, Vanguard Aviator](../../cards/H/ha.md#harbin-vanguard-aviator) (57.2% of its decks), [Raff, Weatherlight Stalwart](../../cards/R/raf.md#raff-weatherlight-stalwart) (52.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#protect-the-negotiators)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/62/protect-the-negotiators) · oracle_id `7ccd666a-0d56-4fe3-b16b-d035bf2ad420` · printing: DMU #62 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -5349,6 +5390,8 @@ schema: 2
   - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
   - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
   - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): FRA #37 — [Art & Flavor → Reality Fracture (2026)](../../Art%20%26%20Flavor%20Story%20Links.md#reality-fracture-2026) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,533 decks; most often under [Jace, Vryn's Prodigy](../../cards/J/ja.md#jace-vryns-prodigy--jace-telepath-unbound) (40.8% of its decks), [Vraska, Soul of Stone](../../cards/V/vr.md#vraska-soul-of-stone) (1.1% of its decks), [Leori, Sparktouched Hunter](../../cards/L/le.md#leori-sparktouched-hunter) (11.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#proteges-awakening)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/37/proteges-awakening) · oracle_id `07617648-6490-4719-acec-7705671f7e01` · printing: FRA #37 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

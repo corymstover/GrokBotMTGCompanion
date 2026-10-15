@@ -522,7 +522,9 @@ schema: 2
   - *2023-05-12* — Playing the exiled card follows the normal rules for playing that card. Unless you're casting an Equipment spell this way, you must pay the spell's costs, and you must follow all applicable timing rules. For example, if the card is a creature card, you can cast that card by paying its mana cost only during your main phase while the stack is empty.
   - *2023-05-12* — Unless an effect allows you to play additional lands that turn, you can play a land card exiled with Nahiri only if you haven't played a land yet that turn.
   - *2023-05-12* — You may play the card exiled with Nahiri's ability even if Nahiri or the equipped creature leaves the battlefield or you lose control of them.
-- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/N.md#nahiri-forged-in-fury)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Nahiri](../../Characters%20Index.md#nahiri) · [Dossier → Nahiri](../../Planeswalker%20Dossiers.md#nahiri) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 6,867 decks; highest synergy [Bladehold War-Whip](../../cards/B/bla.md#bladehold-war-whip) (+73%), [Puresteel Paladin](../../cards/P/pu.md#puresteel-paladin) (+70%), [Nettlecyst](../../cards/N/ne.md#nettlecyst) (+68%) · EDHREC: in 22,751 decks; most often under [Cloud, Ex-SOLDIER](../../cards/C/cl.md#cloud-ex-soldier) (15.7% of its decks), [Captain America, First Avenger](../../cards/C/cap.md#captain-america-first-avenger) (16.8% of its decks), [Ardenn, Intrepid Archaeologist // Rograkh, Son of Rohgahh](../../cards/A/ard.md#ardenn-intrepid-archaeologist) (21.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 edh guides · 2 lore & story) → [reverse index](../../references/N.md#nahiri-forged-in-fury)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mat/36/nahiri-forged-in-fury) · oracle_id `87966759-206a-4a2d-bf78-86f727c29972` · printing: MAT #36 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nahiri, Heir of the Ancients
@@ -557,6 +559,8 @@ schema: 2
   - *2020-09-25* — A planeswalker enchanted this way may be attacked.
   - *2020-09-25* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities are activated abilities and will have a colon in their reminder text. Triggered abilities (starting with "when," "whenever," or "at") are unaffected.
   - *2020-09-25* — No abilities of the enchanted permanent can be activated, including mana abilities.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): ZNR #29 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Nahiri, the Lithomancer](../../decks/lore-nahiri-the-lithomancer.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,752 decks; most often under [Light-Paws, Emperor's Voice](../../cards/L/li.md#light-paws-emperors-voice) (2.5% of its decks), [Eriette of the Charmed Apple](../../cards/E/er.md#eriette-of-the-charmed-apple) (1.1% of its decks), [Nahiri, Forged in Fury](../../cards/N/na.md#nahiri-forged-in-fury) (2.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/N.md#nahiris-binding)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/29/nahiris-binding) · oracle_id `8f674382-78b5-462c-9a7f-c5f613c317d4` · printing: ZNR #29 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -574,6 +578,8 @@ schema: 2
   - *2020-09-25* — If an effect says that a land enters tapped unless a condition is met or a cost is paid, that land enters tapped even if that condition is met or that cost is paid if it's affected by Nahiri's Lithoforming.
   - *2020-09-25* — Nahiri's Lithoforming's permission to play lands is cumulative with other effects that allow you to play additional lands, such as that of Scale the Heights.
   - *2020-09-25* — You don't sacrifice lands until Nahiri's Lithoforming is resolving. Once you do so, players can't take actions until the spell has finished resolving.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): ZNR #151 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Omnath, Locus of Rage (Zendikar-only)](../../decks/plane-zendikar-omnath-locus-of-rage.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 39,538 decks; most often under [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (30.6% of its decks), [Hazezon, Shaper of Sand](../../cards/H/ha.md#hazezon-shaper-of-sand) (67.7% of its decks), [Yuma, Proud Protector](../../cards/Y/yu.md#yuma-proud-protector) (42.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/N.md#nahiris-lithoforming)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/151/nahiris-lithoforming) · oracle_id `888e711a-1251-4704-8ef1-b4b98ec54b5a` · printing: ZNR #151 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -619,6 +625,8 @@ schema: 2
   - *2023-02-04* — If some of the targets of the last ability become illegal, the original division of damage still applies, but the damage that would have been dealt to illegal targets isn't dealt at all.
   - *2023-02-04* — You can't choose more than X targets, and each chosen target must receive at least 1 damage.
   - *2023-02-04* — You choose the value of X, the targets, and how damage will be divided as you cast Nahiri's Sacrifice.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): ONE #142 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,365 decks; most often under [Nahiri, Forged in Fury](../../cards/N/na.md#nahiri-forged-in-fury) (1.9% of its decks), [Chiss-Goria, Forge Tyrant](../../cards/C/chi.md#chiss-goria-forge-tyrant) (2.1% of its decks), [Lucius the Eternal](../../cards/L/lu.md#lucius-the-eternal) (6.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/N.md#nahiris-sacrifice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/142/nahiris-sacrifice) · oracle_id `a84cc828-8d1b-4e61-a13f-60124e2ee35f` · printing: ONE #142 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -645,6 +653,8 @@ schema: 2
   > −X: Nahiri deals X damage to target tapped creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17860 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Nahiri](../../Characters%20Index.md#nahiri) · [Dossier → Nahiri](../../Planeswalker%20Dossiers.md#nahiri) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Oathkeeper, Takeno's Daisho + Skirk Prospector + Nahiri, Storm of Stone](https://commanderspellbook.com/combo/38-4640-6305--168/) (Infinite creature ETB, Infinite creature LTB) · EDHREC: in 3,297 decks; most often under [Nahiri, Forged in Fury](../../cards/N/na.md#nahiri-forged-in-fury) (8.1% of its decks), [Koll, the Forgemaster](../../cards/K/ko.md#koll-the-forgemaster) (12.1% of its decks), [Bruenor Battlehammer](../../cards/B/br.md#bruenor-battlehammer) (3.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/N.md#nahiri-storm-of-stone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/233/nahiri-storm-of-stone) · oracle_id `6332d6d3-1d77-486c-b040-02fc7225f245` · printing: WAR #233 (2019-05-03) · [rulings](https://api.scryfall.com/cards/8806605c-0cb7-4360-96e4-afb424ccad90/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -698,6 +708,8 @@ schema: 2
   - *2016-04-08* — If the artifact or creature put onto the battlefield with Nahiri’s third ability leaves the battlefield before the next end step, it won’t be returned to your hand from its new zone.
   - *2016-04-08* — If you find a noncreature artifact with Nahiri’s third ability, it will still gain haste, even though it won’t be meaningful unless that artifact becomes a creature.
   - *2016-04-08* — You can activate Nahiri’s first ability with no intention of discarding a card just to add loyalty to Nahiri.
+- **Lore:** ✅ Card art shown on [Stone and Blood](https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Nahiri](../../Characters%20Index.md#nahiri) · [Dossier → Nahiri](../../Planeswalker%20Dossiers.md#nahiri) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 14,631 decks; most often under [Commodore Guff](../../cards/C/com.md#commodore-guff) (46.1% of its decks), [General Ferrous Rokiric](../../cards/G/ge.md#general-ferrous-rokiric) (15.2% of its decks), [Nahiri, Forged in Fury](../../cards/N/na.md#nahiri-forged-in-fury) (7.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (3 lore & story) → [reverse index](../../references/N.md#nahiri-the-harbinger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/929/nahiri-the-harbinger) · oracle_id `d492eb9a-1f3b-4bf2-9a5d-0f4a4433f33f` · printing: CMM #929 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -713,6 +725,8 @@ schema: 2
   > Nahiri, the Lithomancer can be your commander.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9188 · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Sorin's Restoration](https://magic.wizards.com/en/news/magic-story/sorins-restoration-2015-03-27), [Stirring from Slumber](https://magic.wizards.com/en/news/magic-story/stirring-slumber-2015-05-13) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Nahiri](../../Characters%20Index.md#nahiri) · [Dossier → Nahiri](../../Planeswalker%20Dossiers.md#nahiri) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Nahiri, the Lithomancer](../../decks/lore-nahiri-the-lithomancer.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 916 decks; highest synergy [Argentum Armor](../../cards/A/arg.md#argentum-armor) (+66%), [Puresteel Paladin](../../cards/P/pu.md#puresteel-paladin) (+64%), [Masterwork of Ingenuity](../../cards/M/mas.md#masterwork-of-ingenuity) (+60%) · EDHREC: in 13,363 decks; most often under [Nahiri, Forged in Fury](../../cards/N/na.md#nahiri-forged-in-fury) (21.6% of its decks), [Captain America, First Avenger](../../cards/C/cap.md#captain-america-first-avenger) (7.2% of its decks), [Cloud, Midgar Mercenary](../../cards/C/cl.md#cloud-midgar-mercenary) (8.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (1 decks · 2 lore & story · 1 card data) → [reverse index](../../references/N.md#nahiri-the-lithomancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/45/nahiri-the-lithomancer) · oracle_id `a554aa2c-d947-4fc6-929d-d5891f467615` · printing: CMM #45 (2023-08-04) · [rulings](https://api.scryfall.com/cards/b074e60a-6f9b-4679-9617-261e2e15e1e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -734,6 +748,8 @@ schema: 2
   - *2023-02-04* — Other replacement effects that would change the number of loyalty counters Nahiri enters with will apply as normal.
   - *2023-02-04* — The compleated ability looks only at whether a player chose to pay 2 life for a Phyrexian mana symbol as they were casting the spell. If a player paid life for some other reason while casting the spell, that will not reduce the number of loyalty counters the planeswalker enters the battlefield with.
   - *2023-02-04* — The last loyalty ability will check Nahiri's loyalty as the ability tries to resolve to see if the target is still legal. If it's not, the ability won't resolve and none of its effects will happen. The card won't be exiled and no token will be created.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Nahiri](../../Characters%20Index.md#nahiri) · [Dossier → Nahiri](../../Planeswalker%20Dossiers.md#nahiri) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,909 decks; most often under [Nahiri, Forged in Fury](../../cards/N/na.md#nahiri-forged-in-fury) (8.0% of its decks), [Omnath, Locus of All](../../cards/O/om.md#omnath-locus-of-all) (1.9% of its decks), [Quintorius, History Chaser](../../cards/Q/qu.md#quintorius-history-chaser) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/N.md#nahiri-the-unforgiving)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/211/nahiri-the-unforgiving) · oracle_id `d71d42e0-cd56-4f53-95ff-ecab7f8c6552` · printing: ONE #211 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1524,6 +1540,8 @@ schema: 2
   - *2023-05-12* — Narset's first ability gives it prowess while it's on the battlefield.
   - *2023-05-12* — Once a prowess ability triggers, causing the creature to lose prowess by removing Narset, Enlightened Exile won't affect that ability. The creature will still get +1/+1 until end of turn.
   - *2023-05-12* — You cast the copy while the ability is resolving and still on the stack. You can't wait to cast it later in the turn.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Narset](../../Characters%20Index.md#narset) · [Dossier → Narset](../../Planeswalker%20Dossiers.md#narset) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 10,476 decks; highest synergy [Monastery Mentor](../../cards/M/mon.md#monastery-mentor) (+69%), [Jeskai Ascendancy](../../cards/J/je.md#jeskai-ascendancy) (+60%), [Third Path Iconoclast](../../cards/T/thi.md#third-path-iconoclast) (+57%) · EDHREC: in 18,732 decks; most often under [Elsha, Threefold Master](../../cards/E/el.md#elsha-threefold-master) (40.6% of its decks), [Shiko and Narset, Unified](../../cards/S/shi.md#shiko-and-narset-unified) (26.1% of its decks), [Sokka, Tenacious Tactician](../../cards/S/so.md#sokka-tenacious-tactician) (16.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 edh guides · 2 lore & story) → [reverse index](../../references/N.md#narset-enlightened-exile)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mat/38/narset-enlightened-exile) · oracle_id `d92725de-ead0-4a6c-83db-55ec3acc7184` · printing: MAT #38 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1543,7 +1561,9 @@ schema: 2
   - *2014-09-20* — If the card has {X} in its mana cost, you must choose 0 as the value for X when casting it.
   - *2014-09-20* — The cards are exiled face up. Casting the noncreature cards exiled this way follows the normal rules for casting those cards. You must follow all applicable timing rules. For example, if one of the exiled cards is a sorcery card, you can cast it only during your main phase while the stack is empty.
   - *2014-09-20* — You can't play any land cards exiled with Narset.
-- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/N.md#narset-enlightened-master)
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/journey-nexus-2014-12-10), [Enlightened](https://magic.wizards.com/en/news/magic-story/enlightened) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Narset](../../Characters%20Index.md#narset) · [Dossier → Narset](../../Planeswalker%20Dossiers.md#narset) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 5 combos; most popular [Narset, Enlightened Master + Mirror of Fate + Scrabbling Claws + Karn's Temporal Sundering](https://commanderspellbook.com/combo/799-1164-3278-5103/) (Infinite turns, Lock) · EDHREC as commander: 6,231 decks; highest synergy [Omniscience](../../cards/O/om.md#omniscience) (+51%), [Time Stretch](../../cards/T/ti.md#time-stretch) (+49%), [Beacon of Tomorrows](../../cards/B/be.md#beacon-of-tomorrows) (+44%) · EDHREC: in 9,518 decks; most often under [Commodore Guff](../../cards/C/com.md#commodore-guff) (27.4% of its decks), [Narset, Enlightened Exile](../../cards/N/na.md#narset-enlightened-exile) (12.8% of its decks), [The Archimandrite](../../cards/T/thea.md#the-archimandrite) (22.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 edh guides · 2 lore & story) → [reverse index](../../references/N.md#narset-enlightened-master)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/931/narset-enlightened-master) · oracle_id `aeaf7768-ed67-487d-8506-e667babb88ba` · printing: CMM #931 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Narset, Jeskai Waymaster
@@ -1558,6 +1578,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12062 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-04-04* — You may choose to discard your hand even if your hand contains zero cards.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Narset](../../Characters%20Index.md#narset) · [Dossier → Narset](../../Planeswalker%20Dossiers.md#narset) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,963 decks; highest synergy [Frantic Search](../../cards/F/fr.md#frantic-search) (+40%), [Gitaxian Probe](../../cards/G/gi.md#gitaxian-probe) (+39%), [Snap](../../cards/S/sn.md#snap) (+39%) · EDHREC: in 5,962 decks; most often under [Elsha, Threefold Master](../../cards/E/el.md#elsha-threefold-master) (15.7% of its decks), [Narset, Enlightened Exile](../../cards/N/na.md#narset-enlightened-exile) (11.8% of its decks), [Shiko and Narset, Unified](../../cards/S/shi.md#shiko-and-narset-unified) (7.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/N.md#narset-jeskai-waymaster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/209/narset-jeskai-waymaster) · oracle_id `1a2a74b8-0689-4959-9348-02cc832194cf` · printing: TDM #209 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1578,7 +1600,9 @@ schema: 2
   - *2020-04-17* — Narset's second ability goes on the stack without a target. While that ability is resolving, you draw a card and may choose to discard a card. When you discard a nonland card this way, the reflexive triggered ability triggers and you pick a target to be dealt damage. This is different from effects that say "If you do . . ." in that you choose a target after looking at the card you draw and players can respond to the reflexive triggered ability knowing how much damage will be dealt.
   - *2020-04-17* — The emblem created by Narset's last ability is colorless. The damage it deals is from a colorless source.
   - *2020-04-17* — You can discard a card even if Narset leaves the battlefield before her middle ability resolves. The reflexive triggered ability will still trigger if you discard a nonland card.
-- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/N.md#narset-of-the-ancient-way)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Narset](../../Characters%20Index.md#narset) · [Dossier → Narset](../../Planeswalker%20Dossiers.md#narset) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 21,690 decks; most often under [Commodore Guff](../../cards/C/com.md#commodore-guff) (79.7% of its decks), [Narset, Enlightened Master](../../cards/N/na.md#narset-enlightened-master) (26.8% of its decks), [Narset, Enlightened Exile](../../cards/N/na.md#narset-enlightened-exile) (15.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (1 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/N.md#narset-of-the-ancient-way)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/930/narset-of-the-ancient-way) · oracle_id `b7ac6e89-941f-4ad9-a437-38ec38ec5263` · printing: CMM #930 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Narset, Parter of Veils
@@ -1595,6 +1619,8 @@ schema: 2
   - *2019-05-03* — Narset will "see" cards drawn by opponents earlier in the turn she entered the battlefield, although Narset can't affect cards drawn before she entered the battlefield. For example, if an opponent draws two cards, then Narset enters the battlefield, that opponent can't draw more cards that turn, but the two drawn cards are unaffected.
   - *2019-05-03* — Replacement effects (such as that of Underrealm Lich or the first ability of Jace, Wielder of Mysteries) can't be used to replace draws that Narset disallows. However, if an opponent's first draw is replaced (by Underrealm Lich's ability, for example), that draw didn't happen and Narset won't stop the next draw (which may also be replaced by Underrealm Lich's ability).
   - *2019-05-03* — Your opponents can each draw a maximum of one card each on each player's turn. Subsequent card draws during that turn are ignored.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Narset](../../Characters%20Index.md#narset) · [Dossier → Narset](../../Planeswalker%20Dossiers.md#narset) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Atraxa, Praetors' Voice (planeswalkers theme)](../../decks/theme-atraxa-praetors-voice-planeswalkers.md) · [Kraum, Ludevic's Opus (Grixis)](../../grixis/decks/grixistax-october-2026.md) · Commander Spellbook: 38 combos; most popular [Narset, Parter of Veils + Teferi's Puzzle Box](https://commanderspellbook.com/combo/1177-2286/) (Each opponent shuffles their hand into their library during their draw step, Opponents can't draw cards during their turn) · EDHREC: in 156,795 decks; most often under [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (16.1% of its decks), [Grand Arbiter Augustin IV](../../cards/G/gra.md#grand-arbiter-augustin-iv) (45.5% of its decks), [Urza, Lord High Artificer](../../cards/U/ur.md#urza-lord-high-artificer) (30.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 7 pages (2 decks · 1 edh guides · 2 lore & story · 2 card data) → [reverse index](../../references/N.md#narset-parter-of-veils)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/853/narset-parter-of-veils) · oracle_id `ab26fbe2-e808-48b9-8d0d-3fbb6c3d554f` · printing: CMM #853 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1608,6 +1634,8 @@ schema: 2
   > *With a swift motion Narset struck Sarkhan down. She would not let his fevered dreams of draconic dominance come to fruition. Not after all she had done to free Tarkir.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19763 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): TDM #114 — [Art & Flavor → Tarkir: Dragonstorm (2025)](../../Art%20%26%20Flavor%20Story%20Links.md#tarkir-dragonstorm-2025) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,348 decks; most often under [Shiko and Narset, Unified](../../cards/S/shi.md#shiko-and-narset-unified) (5.1% of its decks), [Narset, Jeskai Waymaster](../../cards/N/na.md#narset-jeskai-waymaster) (8.1% of its decks), [Narset, Enlightened Exile](../../cards/N/na.md#narset-enlightened-exile) (2.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/N.md#narsets-rebuke)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/114/narsets-rebuke) · oracle_id `247075c5-62f8-41a1-91b3-562ff0aabb30` · printing: TDM #114 (2025-04-11) · [rulings](https://api.scryfall.com/cards/5098bd73-d51c-4db4-bf06-fd4854089d37/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1647,6 +1675,8 @@ schema: 2
 - **Rulings** (2):
   - *2015-02-25* — If a spell that exiles itself as part of its own resolution, such as Volcanic Vision, gains rebound, the ability that lets you cast the spell again won’t be created. The spell will simply be exiled.
   - *2015-02-25* — When resolving Narset’s first ability, if the top card of your library is a creature or a land card, or if you don’t wish to put it into your hand, it isn’t revealed.
+- **Lore:** ✅ Card art shown on [The Story of Tarkir Block](https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29), [Unbroken and Unbowed](https://magic.wizards.com/en/news/magic-story/unbroken-and-unbowed-2015-04-22) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Narset](../../Characters%20Index.md#narset) · [Dossier → Narset](../../Planeswalker%20Dossiers.md#narset) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Atraxa, Praetors' Voice (planeswalkers theme)](../../decks/theme-atraxa-praetors-voice-planeswalkers.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 18,311 decks; most often under [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (10.8% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (6.0% of its decks), [Commodore Guff](../../cards/C/com.md#commodore-guff) (18.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (1 decks · 2 lore & story · 1 card data) → [reverse index](../../references/N.md#narset-transcendent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/225/narset-transcendent) · oracle_id `e1de0c94-0ecc-425a-9b92-27c2745d07e7` · printing: DTK #225 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2282,7 +2312,9 @@ schema: 2
   > *—\*The Antiquities War\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12596 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/N.md#natures-spiral)
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 9](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-9-2018-05-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 8,175 decks; most often under [Shigeki, Jukai Visionary](../../cards/S/shi.md#shigeki-jukai-visionary) (8.4% of its decks), [Fynn, the Fangbearer](../../cards/F/fy.md#fynn-the-fangbearer) (0.8% of its decks), [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (0.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/N.md#natures-spiral)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/175/natures-spiral) · oracle_id `565922d6-8152-411f-8d4d-dc7c8523a49b` · printing: DOM #175 (2018-04-27) · [rulings](https://api.scryfall.com/cards/6666b95e-80de-4bf7-bae6-8a7e991b38ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nature's Way

@@ -422,6 +422,9 @@ schema: 2
 - **Rulings** (2):
   - *2018-10-05* — Resolving Smelt-Ward Minotaur’s triggered ability after a creature has blocked won’t remove the blocking creature from combat or cause the creature it blocked to become unblocked.
   - *2018-10-05* — Smelt-Ward Minotaur’s triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Lore:** ✅ Card art shown on [Under the Cover of Fog](https://magic.wizards.com/en/news/magic-story/under-cover-fog-2018-10-10) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,135 decks; most often under [Sethron, Hurloon General](../../cards/S/set.md#sethron-hurloon-general) (28.8% of its decks), [Neheb, the Worthy](../../cards/N/ne.md#neheb-the-worthy) (20.8% of its decks), [Gornog, the Red Reaper](../../cards/G/gor.md#gornog-the-red-reaper) (2.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#smelt-ward-minotaur)
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/116/smelt-ward-minotaur) · oracle_id `ee25680a-d01a-4ddb-908b-27a9bea0ceae` · printing: GRN #116 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smile at Death

@@ -521,6 +521,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5960 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-01-19* — For more information on double-faced cards, see the Ixalan mechanics article (http://magic.wizards.com/en/articles/archive/feature/ixalan-mechanics).
+- **Lore:** ✅ Card art shown on [The Flood](https://magic.wizards.com/en/news/magic-story/flood-2018-01-10) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 26,252 decks; most often under [Sab-Sunen, Luxa Embodied](../../cards/S/sab.md#sab-sunen-luxa-embodied) (45.0% of its decks), [Hakbal of the Surging Soul](../../cards/H/ha.md#hakbal-of-the-surging-soul) (5.7% of its decks), [Ezuri, Claw of Progress](../../cards/E/ez.md#ezuri-claw-of-progress) (14.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/158/hadanas-climb-winged-temple-of-orazca) · oracle_id `93b91d18-6acf-42e5-9a31-bc6e01f90c1f` · printing: RIX #158 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hada Spy Patrol
@@ -1156,7 +1158,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9254 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-07-25* — A creature that deals combat damage to a player must have a +1/+1 counter on it at the time damage is dealt in order for Haliya, Ascendant Cadet’s last ability to trigger.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#haliya-ascendant-cadet)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Pinnacle / Sothera cast (Haliya, Sami, Mirri, Alpharael)](../../Characters%20Index.md#pinnacle--sothera-cast-haliya-sami-mirri-alpharael) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 610 decks; highest synergy [Drix Fatemaker](../../cards/D/dri.md#drix-fatemaker) (+54%), [Biosynthic Burst](../../cards/B/bi.md#biosynthic-burst) (+43%), [Meltstrider Eulogist](../../cards/M/me.md#meltstrider-eulogist) (+39%) · EDHREC: in 13,579 decks; most often under [Dyadrine, Synthesis Amalgam](../../cards/D/dy.md#dyadrine-synthesis-amalgam) (48.8% of its decks), [Hamza, Guardian of Arashin](../../cards/H/ha.md#hamza-guardian-of-arashin) (17.9% of its decks), [Felothar, Dawn of the Abzan](../../cards/F/fe.md#felothar-dawn-of-the-abzan) (12.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/H.md#haliya-ascendant-cadet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/218/haliya-ascendant-cadet) · oracle_id `6846448b-d5a0-4ae0-bb11-ea7fa6ed2558` · printing: EOE #218 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Haliya, Guided by Light
@@ -1172,7 +1176,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1404 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-07-25* — Haliya, Guided by Light’s second ability checks how much life you’ve gained during the turn at the time it resolves, not what your life total is compared to what it was when the turn began. For example, if you start the turn at 10 life, gain 6 life during the turn, then lose 6 life later that turn, Haliya’s second ability will cause you to draw a card as it resolves.
-- **Referenced in:** 3 pages (1 rules · 1 lore & story · 1 card data) → [reverse index](../../references/H.md#haliya-guided-by-light)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Pinnacle / Sothera cast (Haliya, Sami, Mirri, Alpharael)](../../Characters%20Index.md#pinnacle--sothera-cast-haliya-sami-mirri-alpharael) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Kwia Vigorbloom + Emiel the Blessed + Haliya, Guided by Light](https://commanderspellbook.com/combo/4499-6752-8160/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 1,394 decks; highest synergy [Soul Warden](../../cards/S/so.md#soul-warden) (+57%), [Cleric Class](../../cards/C/cl.md#cleric-class) (+53%), [Soul's Attendant](../../cards/S/so.md#souls-attendant) (+53%) · EDHREC: in 113,972 decks; most often under [Ragost, Deft Gastronaut](../../cards/R/rag.md#ragost-deft-gastronaut) (61.5% of its decks), [Hope Estheim](../../cards/H/ho.md#hope-estheim) (43.8% of its decks), [Bre of Clan Stoutarm](../../cards/B/br.md#bre-of-clan-stoutarm) (64.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (1 edh guides · 1 rules · 1 lore & story · 1 card data) → [reverse index](../../references/H.md#haliya-guided-by-light)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/19/haliya-guided-by-light) · oracle_id `9b0af3ad-1b4d-4480-af91-fe9baee5d1c5` · printing: EOE #19 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hall
@@ -1301,6 +1307,8 @@ schema: 2
   > {T}: Put a +1/+1 counter on target creature. Activate only as a sorcery and only if you've cast an instant or sorcery spell this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5384 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** Featured in: [Item → Biblioplex & the Blood Avatar (Strixhaven)](../../Items%20%26%20Artifacts%20Index.md#biblioplex--the-blood-avatar-strixhaven) ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-strixhaven-2021-04-01), [2](https://magic.wizards.com/en/news/magic-story/episode-4-put-test-2021-04-14) via entry) — ✅ Card art shown on [Episode 4: Put to the Test](https://magic.wizards.com/en/news/magic-story/episode-4-put-test-2021-04-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 29,617 decks; most often under [Rootha, Mastering the Moment](../../cards/R/ro.md#rootha-mastering-the-moment) (54.6% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (1.8% of its decks), [Muddle, the Ever-Changing](../../cards/M/mu.md#muddle-the-ever-changing) (14.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#hall-of-oracles)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/378/hall-of-oracles) · oracle_id `0bb896ba-e15e-43a9-9120-e674d7ba003c` · printing: SOC #378 (2026-04-24) · [rulings](https://api.scryfall.com/cards/c29b896e-eee0-4f40-89b8-89262dae44e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1566,6 +1574,8 @@ schema: 2
   - *2023-04-14* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
   - *2023-04-14* — If you cast a card "without paying its mana cost," you can't pay any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, those must be paid to cast the card.
   - *2023-04-14* — You choose whether or not to cast the target instant or sorcery card as the reflexive triggered ability resolves. If you do, you do so as part of the resolution of the triggered ability. You can't wait to cast it later in the turn. Timing restrictions based on the card's type are ignored.
+- **Lore:** Featured in: [Item → Halo](../../Items%20%26%20Artifacts%20Index.md#halo) ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna), [2](https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-2-unstable-foundations) via entry) — *References:* New Capenna's Halo: the archangels "gave themselves up to make Halo, to distribute it across the city and throughout the air itself" ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna)) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 23,942 decks; most often under [Alela, Cunning Conqueror](../../cards/A/al.md#alela-cunning-conqueror) (34.6% of its decks), [Tegwyll, Duke of Splendor](../../cards/T/te.md#tegwyll-duke-of-splendor) (69.7% of its decks), [Maralen, Fae Ascendant](../../cards/M/mar.md#maralen-fae-ascendant) (7.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#halo-forager)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/227/halo-forager) · oracle_id `210d1077-6e60-4f06-a8a4-10b842979ac5` · printing: MOM #227 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1581,6 +1591,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-04-29* — Activating mana abilities is done before paying costs when activating an ability. This means that if you control a creature which can be tapped for mana, such as Avacyn's Pilgrim, you may both tap it for mana and untap it to pay costs for Halo Fountain's activated abilities.
   - *2022-04-29* — Untapping creatures is part of the cost of all of Halo Fountain's abilities. Once you've begun activating an ability, other players can't take actions until you have finished activating it, including paying its costs. Notably, players can't take actions to remove the creatures from the battlefield to prevent you from untapping them to pay for the ability.
+- **Lore:** Depicts: [Item → Halo](../../Items%20%26%20Artifacts%20Index.md#halo) ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna), [2](https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-2-unstable-foundations) via entry) — *References:* New Capenna's Halo: the archangels "gave themselves up to make Halo, to distribute it across the city and throughout the air itself" ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna)) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Trostani, Selesnya's Voice](../../decks/trostani-selesnyas-voice.md) · Commander Spellbook: 100+ combos; most popular [Halo Fountain + Sylvan Awakening](https://commanderspellbook.com/combo/512-3690/) (Win the game) · EDHREC: in 86,665 decks; most often under [Baylen, the Haymaker](../../cards/B/bay.md#baylen-the-haymaker) (40.7% of its decks), [Trostani, Selesnya's Voice](../../cards/T/tro.md#trostani-selesnyas-voice) (47.8% of its decks), [Myrel, Shield of Argive](../../cards/M/my.md#myrel-shield-of-argive) (24.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 decks · 1 lore & story · 1 card data) → [reverse index](../../references/H.md#halo-fountain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/15/halo-fountain) · oracle_id `36a9de4c-8073-475d-8679-e50844eef09e` · printing: SNC #15 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2271,6 +2283,8 @@ schema: 2
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24966 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Poisoned Heart](https://magic.wizards.com/en/news/magic-story/poisoned-heart-2015-04-08) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 829 decks; most often under [Najeela, the Blade-Blossom](../../cards/N/na.md#najeela-the-blade-blossom) (0.3% of its decks), [Aveline de Grandpré](../../cards/A/av.md#aveline-de-grandpré) (1.8% of its decks), [The Serpent Society](../../cards/T/thes.md#the-serpent-society) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/146/hand-of-silumgar) · oracle_id `e2714e1f-c883-41e0-bc2f-60e15462ef98` · printing: BBD #146 (2018-06-08) · [rulings](https://api.scryfall.com/cards/d3cbb127-6149-4d0b-ad98-1968f2ebe8e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hand of the Praetors
@@ -2598,7 +2612,9 @@ schema: 2
   - *2025-01-24* — Although the tokens created by the triggered ability are attacking, they were never declared as attacking creatures (for the purposes of abilities that trigger whenever a creature attacks, for example).
   - *2025-01-24* — If another ability of a source you control triggers when attackers are declared, such as that of Hamlet Captain, you may have it resolve before or after that of Hanweir Garrison (or Hanweir, the Writhing Township). If that ability has targets, it won’t be able to target the tokens.
   - *2025-01-24* — You choose which player, planeswalker, or battle each token is attacking as you create the tokens. It doesn’t have to be the same one that Hanweir Garrison (or Hanweir, the Writhing Township) is attacking, and the tokens don’t both have to attack the same player, planeswalker, or battle.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#hanweir-the-writhing-township)
+- **Lore:** ✅ Card art shown on [Saint Traft and the Flight of Nightmares](https://magic.wizards.com/en/news/magic-story/saint-traft-and-flight-nightmares-2016-07-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/H.md#hanweir-the-writhing-township)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/157b/hanweir-the-writhing-township) · oracle_id `f4905c40-003e-4992-b8d7-3f07ba09c686` · printing: INR #157b (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hanweir Watchkeep // Bane of Hanweir
@@ -2677,6 +2693,8 @@ schema: 2
 - **Rulings** (2):
   - *2017-04-18* — If you put any number of -1/-1 counters on more than one creature at once, Hapatra's last ability triggers once for each of those creatures.
   - *2017-04-18* — If you put enough -1/-1 counters on Hapatra so that its toughness is 0 or less, its last ability triggers.
+- **Lore:** ✅ Card art shown on [The Hour of Promise](https://magic.wizards.com/en/news/magic-story/hour-promise-2017-06-28) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 64 combos; most popular [Blowfly Infestation + Hapatra, Vizier of Poisons](https://commanderspellbook.com/combo/2228-4994/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 6,078 decks; highest synergy [Nest of Scarabs](../../cards/N/ne.md#nest-of-scarabs) (+83%), [Blowfly Infestation](../../cards/B/blo.md#blowfly-infestation) (+80%), [Black Sun's Zenith](../../cards/B/bla.md#black-suns-zenith) (+79%) · EDHREC: in 36,986 decks; most often under [Auntie Ool, Cursewretch](../../cards/A/au.md#auntie-ool-cursewretch) (94.4% of its decks), [The Reaper, King No More](../../cards/T/ther.md#the-reaper-king-no-more) (84.5% of its decks), [High Perfect Morcant](../../cards/H/hi.md#high-perfect-morcant) (16.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/H.md#hapatra-vizier-of-poisons)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/123/hapatra-vizier-of-poisons) · oracle_id `a8ddea1c-8d80-49c1-a5b4-630d5e51d66e` · printing: ECC #123 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2724,6 +2742,8 @@ schema: 2
   - *2019-10-04* — The card types that could appear among your permanents and cards in your graveyard are artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Supertypes, such as legendary and basic, aren't card types.
   - *2019-10-04* — The second triggered ability of Happily Ever After has one very long intervening "if" clause. This means that all of the conditions must be true as your upkeep begins—you must control permanents with all five colors, your permanents and graveyard must contain six or more card types, and your life total must be high enough—or the ability won't trigger at all. If they're not all true as the ability resolves, you won't win the game.
   - *2019-10-04* — You could have one permanent that's all five colors, or the five colors could be spread out among any number of permanents.
+- **Lore:** Featured in: [Arc → Throne of Eldraine (2019)](../../Conflicts%20%26%20Arcs.md#throne-of-eldraine-2019) ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31), [2](https://magic.wizards.com/en/story/will-kenrith-planeswalker) via entry) — ✅ Story Spotlight printing (Scryfall `story_spotlight`): ELD #16 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,822 decks; most often under [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (5.1% of its decks), [Go-Shintai of Life's Origin](../../cards/G/gos.md#go-shintai-of-lifes-origin) (4.5% of its decks), [Kynaios and Tiro of Meletis](../../cards/K/ky.md#kynaios-and-tiro-of-meletis) (1.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#happily-ever-after)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/16/happily-ever-after) · oracle_id `7a4cc57b-9f85-446c-9ca0-98c72b9bb732` · printing: ELD #16 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2882,6 +2902,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10747 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2015-02-25* — If Harbinger of the Hunt loses flying, its first activated ability will cause it to deal damage to itself.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Dragons of Tarkir, Part 2](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-dragons-tarkir-part-2-2015-03-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Atarka, World Render (Tarkir-only)](../../decks/plane-tarkir-atarka-world-render.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 11,123 decks; most often under [Ureni of the Unwritten](../../cards/U/ur.md#ureni-of-the-unwritten) (13.7% of its decks), [Atarka, World Render](../../cards/A/at.md#atarka-world-render) (41.4% of its decks), [Eshki, Temur's Roar](../../cards/E/es.md#eshki-temurs-roar) (5.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/H.md#harbinger-of-the-hunt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/291/harbinger-of-the-hunt) · oracle_id `3256029f-6558-4fcc-9fa1-74ceba3e5c92` · printing: TDC #291 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3547,6 +3569,8 @@ schema: 2
   - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
   - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
   - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Kaladesh](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-kaladesh-2016-11-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,602 decks; most often under [Satya, Aetherflux Genius](../../cards/S/sat.md#satya-aetherflux-genius) (6.2% of its decks), [Saheeli, Radiant Creator](../../cards/S/sah.md#saheeli-radiant-creator) (8.6% of its decks), [Dr. Madison Li](../../cards/D/drm.md#dr-madison-li) (8.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/117/harnessed-lightning) · oracle_id `d8dd7e7f-0053-44bb-bac0-1a08843d4c49` · printing: KLD #117 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Harnessed Snubhorn
@@ -3771,6 +3795,8 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — The sacrifice of a land is part of the cost of casting Harrow. You can't pay this cost more than once to get a multiple effect.
   - *2004-10-04* — The two lands do not count toward your normal one land you can play each turn.
+- **Lore:** ✅ Card art shown on [Drop for Drop](https://magic.wizards.com/en/news/magic-story/drop-drop-2015-05-20) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (3): [Korvold, Fae-Cursed King](../../decks/korvold-fae-cursed-king.md) · [Omnath, Locus of Rage (Zendikar-only)](../../decks/plane-zendikar-omnath-locus-of-rage.md) · [Tatyova, Benthic Druid](../../decks/tatyova-benthic-druid.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 423,907 decks; most often under [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (82.3% of its decks), [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (46.3% of its decks), [Tifa Lockhart](../../cards/T/ti.md#tifa-lockhart) (75.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Land ramp (puts lands onto the battlefield)](../../EDH%20Packages.md#ramp-land-ramp-puts-lands-onto-the-battlefield) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 6 pages (3 decks · 2 edh guides · 1 card data) → [reverse index](../../references/H.md#harrow)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/98/harrow) · oracle_id `705509e9-a034-4a5a-9c65-66f58748b8a2` · printing: EOC #98 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3785,6 +3811,8 @@ schema: 2
   > *—Old Rutstein*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25190 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Laid to Rest](https://magic.wizards.com/en/news/magic-story/laid-rest-2016-08-03) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 792 decks; most often under [Sheoldred, the Apocalypse](../../cards/S/she.md#sheoldred-the-apocalypse) (0.9% of its decks), [Nekusar, the Mindrazer](../../cards/N/ne.md#nekusar-the-mindrazer) (0.2% of its decks), [Witherbloom, the Balancer](../../cards/W/wi.md#witherbloom-the-balancer) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dka/67/harrowing-journey) · oracle_id `70f3d545-d114-485d-8d8b-4a93b2393c41` · printing: DKA #67 (2012-02-03) · [rulings](https://api.scryfall.com/cards/9cf96a6c-8481-4954-b149-7153b80480be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Harsh Annotation
@@ -4899,6 +4927,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1140 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2015-02-25* — The mana produced by Haven of the Spirit Dragon's second ability can be used to pay for any additional or alternative costs (such as dash costs) involved in casting a Dragon creature spell.
+- **Lore:** ✅ Card art shown on [Chronicle of Bolas: The First Lesson](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-first-lesson-2018-06-20), [Sorin's Restoration](https://magic.wizards.com/en/news/magic-story/sorins-restoration-2015-03-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Atarka, World Render (Tarkir-only)](../../decks/plane-tarkir-atarka-world-render.md) · [The Ur-Dragon](../../decks/the-ur-dragon.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 138,389 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (66.0% of its decks), [Ureni of the Unwritten](../../cards/U/ur.md#ureni-of-the-unwritten) (87.7% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (68.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/H.md#haven-of-the-spirit-dragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/370/haven-of-the-spirit-dragon) · oracle_id `acc9c16a-5e72-43bd-87e1-56a16aa892f5` · printing: TDC #370 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -5529,7 +5559,9 @@ schema: 2
   - *2017-04-18* — Each Monument has one ability that reduces the cost of creature spells of a certain color, and a triggered ability that triggers whenever you cast any creature spell—not just a creature spell of that color.
   - *2017-04-18* — Each Monument's triggered ability triggers as the creature spell is cast and resolves before that creature spell resolves. The ability will resolve even if that creature spell is countered.
   - *2017-04-18* — To determine the total cost of a creature spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the creature remains unchanged, no matter what the total cost to cast it was.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#hazorets-monument)
+- **Lore:** ✅ Card art shown on [Judgment](https://magic.wizards.com/en/news/magic-story/judgment-2017-05-17), [Trespass](https://magic.wizards.com/en/news/magic-story/trespass-2017-05-10) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 8 combos; most popular [Squee, the Immortal + Hazoret's Monument + Runaway Steam-Kin + Skirk Prospector](https://commanderspellbook.com/combo/38-2076-3101-3705/) (Infinite death triggers, Infinite draw triggers) · EDHREC: in 86,048 decks; most often under [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (27.5% of its decks), [Tannuk, Steadfast Second](../../cards/T/ta.md#tannuk-steadfast-second) (49.7% of its decks), [Clive, Ifrit's Dominant](../../cards/C/cl.md#clive-ifrits-dominant--ifrit-warden-of-inferno) (39.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/H.md#hazorets-monument)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/183/hazorets-monument) · oracle_id `f02a4cbf-f0bb-4bc7-99c2-6afa1b41ebb8` · printing: DMC #183 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hazoret's Undying Fury

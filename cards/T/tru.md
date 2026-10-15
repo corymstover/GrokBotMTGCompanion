@@ -224,6 +224,8 @@ schema: 2
   - *2017-04-18* — If you gain control of another player's creature until end of turn and exert it, it will untap during that player's untap step.
   - *2017-04-18* — Some cards have abilities that trigger whenever you exert any creature. These abilities trigger when you exert that creature or any other creature you control.
   - *2017-04-18* — You can't exert a creature unless an effect allows you to do so. Similar effects that "tap and freeze" a creature (such as that of Decision Paralysis) don't exert that creature.
+- **Lore:** ✅ Card art shown on [Brazen](https://magic.wizards.com/en/news/magic-story/brazen-2017-05-03) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 471 decks; most often under [Johan](../../cards/J/jo.md#johan) (44.7% of its decks), [Anep, Vizier of Hazoret](../../cards/A/an.md#anep-vizier-of-hazoret) (47.3% of its decks), [Samut, Voice of Dissent](../../cards/S/sam.md#samut-voice-of-dissent) (2.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/153/trueheart-twins) · oracle_id `5d3be0d2-0940-4904-9f12-de592c990bdb` · printing: AKH #153 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### True Identity

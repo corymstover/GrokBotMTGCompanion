@@ -437,6 +437,8 @@ schema: 2
   - *2016-07-13* — You can tap any untapped creature you control to pay the escalate cost, including one you haven't controlled continuously since the beginning of the turn.
   - *2016-07-13* — You can't choose any one mode multiple times.
   - *2016-07-13* — You choose all of your modes at once. You can't wait to perform one mode's actions and then decide to choose more modes.
+- **Lore:** ✅ Card art shown on [Battle of Thraben](https://magic.wizards.com/en/news/magic-story/battle-thraben-2016-07-20) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 52,148 decks; most often under [Tidus, Yuna's Guardian](../../cards/T/ti.md#tidus-yunas-guardian) (47.8% of its decks), [Marneus Calgar](../../cards/M/mar.md#marneus-calgar) (26.4% of its decks), [Kros, Defense Contractor](../../cards/K/kr.md#kros-defense-contractor) (58.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 rules · 1 lore & story · 1 card data) → [reverse index](../../references/C.md#collective-effort)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/126/collective-effort) · oracle_id `a97e760a-99c8-47ea-a875-451aca913ee7` · printing: MSC #126 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

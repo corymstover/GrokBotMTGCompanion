@@ -178,6 +178,9 @@ schema: 2
   > {2}{R}, Sacrifice an artifact: Pia and Kiran Nalaar deals 2 damage to any target.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8967 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 7 combos; most popular [Nim Deathmantle + Ashnod's Altar + Pia and Kiran Nalaar](https://commanderspellbook.com/combo/1156-2034-5003/) (Infinite artifact ETB, Infinite artifact tokens) · EDHREC as commander: 70 decks; highest synergy [Loyal Apprentice](../../cards/L/lo.md#loyal-apprentice) (+61%), [Reckless Fireweaver](../../cards/R/rec.md#reckless-fireweaver) (+57%), [Thopter Engineer](../../cards/T/tho.md#thopter-engineer) (+57%) · EDHREC: in 14,792 decks; most often under [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (23.7% of its decks), [Saheeli, Radiant Creator](../../cards/S/sah.md#saheeli-radiant-creator) (17.8% of its decks), [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (6.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/P.md#pia-and-kiran-nalaar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/288/pia-and-kiran-nalaar) · oracle_id `86084ed9-b8bb-4289-9579-6056194787bc` · printing: MOC #288 (2023-04-21) · [rulings](https://api.scryfall.com/cards/5aab5a55-0aee-4d8e-92b7-92b057a00509/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pia, Determined Rebuilder
@@ -207,6 +210,8 @@ schema: 2
 - **Rulings** (2):
   - *2016-09-20* — Once a creature has blocked an attacking creature, activating Pia Nalaar's last ability won't cause the attacking creature to become unblocked.
   - *2016-09-20* — The “legend rule” cares about legendary permanents with the exact same English name. The Kaladesh™ card Pia Nalaar and the Magic Origins™ card Pia and Kiran Nalaar have different names, so you can control both at the same time.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Kaladesh](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-kaladesh-2016-11-02), [Revolution Begins](https://magic.wizards.com/en/news/magic-story/revolution-begins-2017-01-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 43 decks; highest synergy [Pia's Revolution](../../cards/P/pi.md#pias-revolution) (+62%), [Loyal Apprentice](../../cards/L/lo.md#loyal-apprentice) (+60%), [Ichor Wellspring](../../cards/I/ic.md#ichor-wellspring) (+55%) · EDHREC: in 6,543 decks; most often under [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (11.1% of its decks), [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (3.4% of its decks), [Osgir, the Reconstructor](../../cards/O/os.md#osgir-the-reconstructor) (6.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#pia-nalaar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/177/pia-nalaar) · oracle_id `715336f5-a708-488b-9f30-5702a9013af0` · printing: C21 #177 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -274,6 +279,8 @@ schema: 2
   - *2017-02-09* — It doesn’t matter who controlled the artifact when it was put into your graveyard. Pia’s Revolution’s ability will trigger if you own that artifact.
   - *2017-02-09* — The target opponent chooses whether to have Pia’s Revolution deal 3 damage to them as its ability resolves. You won’t return the card to your hand if that player chooses to be dealt damage or if the card leaves the graveyard before the ability resolves.
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called “story spotlights”—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): AER #91 — [Art & Flavor → Kaladesh & Aether Revolt (2016–17)](../../Art%20%26%20Flavor%20Story%20Links.md#kaladesh--aether-revolt-201617) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 20,554 decks; most often under [Ragost, Deft Gastronaut](../../cards/R/rag.md#ragost-deft-gastronaut) (18.5% of its decks), [Megatron, Tyrant](../../cards/M/me.md#megatron-tyrant--megatron-destructive-force) (41.0% of its decks), [Zabaz, the Glimmerwasp](../../cards/Z/za.md#zabaz-the-glimmerwasp) (44.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#pias-revolution)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/91/pias-revolution) · oracle_id `edce515d-828e-49ae-8651-6d14f7470a62` · printing: AER #91 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -466,6 +473,8 @@ schema: 2
   > *"The clues have begun to reveal a truth I hesitate to accept."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17314 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Promised End](https://magic.wizards.com/en/news/magic-story/promised-end-2016-07-27), [Stories and Endings](https://magic.wizards.com/en/news/magic-story/stories-and-endings-2016-05-11) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,630 decks; most often under [Jace, Vryn's Prodigy](../../cards/J/ja.md#jace-vryns-prodigy--jace-telepath-unbound) (9.5% of its decks), [Sin, Spira's Punishment](../../cards/S/si.md#sin-spiras-punishment) (2.2% of its decks), [Octavia, Living Thesis](../../cards/O/oc.md#octavia-living-thesis) (3.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#pieces-of-the-puzzle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/78/pieces-of-the-puzzle) · oracle_id `7b599b4d-95bc-4ed2-a167-84a697944747` · printing: SOI #78 (2016-04-08) · [rulings](https://api.scryfall.com/cards/69204c83-2e43-4ca1-a4cd-d75399a7d6dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1220,6 +1229,8 @@ schema: 2
   - *2015-02-25* — Bolster itself doesn’t target any creature, though some spells and abilities that bolster may have other effects that target creatures. For example, you could put counters on a creature with protection from white with Aven Tactician’s bolster ability.
   - *2015-02-25* — You determine which creature to put counters on as the spell or ability that instructs you to bolster resolves. That could be the creature with the bolster ability, if it’s still under your control and has the least toughness.
   - *2015-02-25* — You must choose a creature with flying in order to cast Pinion Feast. You can’t cast it without a legal target just to bolster.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Dragons of Tarkir, Part 2](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-dragons-tarkir-part-2-2015-03-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 236 decks; most often under [Dragonlord Dromoka](../../cards/D/dra.md#dragonlord-dromoka) (2.3% of its decks), [Dromoka, the Eternal](../../cards/D/dro.md#dromoka-the-eternal) (1.8% of its decks), [Anafenza, the Foremost](../../cards/A/an.md#anafenza-the-foremost) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/195/pinion-feast) · oracle_id `9812bdf9-98b6-4b4d-8381-a7bbb25069d8` · printing: DTK #195 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pink Horror
@@ -1400,6 +1411,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26099 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-09-29* — If the creature this Aura would enchant is an illegal target by the time Pious Interdiction resolves, the entire spell doesn't resolve. It won't enter the battlefield, so its ability won't trigger.
+- **Lore:** ✅ Card art shown on [Unbowed, Part 3](https://magic.wizards.com/en/news/magic-story/unbowed-part-3-2018-09-07) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 645 decks; most often under [Gishath, Sun's Avatar](../../cards/G/gi.md#gishath-suns-avatar) (0.2% of its decks), [Eriette of the Charmed Apple](../../cards/E/er.md#eriette-of-the-charmed-apple) (0.1% of its decks), [Light-Paws, Emperor's Voice](../../cards/L/li.md#light-paws-emperors-voice) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/26/pious-interdiction) · oracle_id `e6762a65-5c88-4652-ac3d-b9de220634c7` · printing: XLN #26 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pious Kitsune
@@ -2074,6 +2087,8 @@ schema: 2
   - *2015-02-25* — If you choose to pay the dash cost rather than the mana cost, you’re still casting the spell. It goes on the stack and can be responded to and countered. You can cast a creature spell for its dash cost only when you otherwise could cast that creature spell. Most of the time, this means during your main phase when the stack is empty.
   - *2015-02-25* — If you pay the dash cost to cast a creature spell, that card will be returned to its owner’s hand only if it’s still on the battlefield when its triggered ability resolves. If it dies or goes to another zone before then, it will stay where it is.
   - *2015-02-25* — You don’t have to attack with the creature with dash unless another ability says you do.
+- **Lore:** ✅ Card art shown on [The Guardian](https://magic.wizards.com/en/news/magic-story/guardian-2015-04-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,180 decks; most often under [Jon Irenicus, Shattered One](../../cards/J/jo.md#jon-irenicus-shattered-one) (3.3% of its decks), [Blim, Comedic Genius](../../cards/B/bli.md#blim-comedic-genius) (1.2% of its decks), [Neriv, Heart of the Storm](../../cards/N/ne.md#neriv-heart-of-the-storm) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/112/pitiless-horde) · oracle_id `d5726b60-60f6-4481-bc76-759fbb55bb49` · printing: DTK #112 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pitiless Plunderer

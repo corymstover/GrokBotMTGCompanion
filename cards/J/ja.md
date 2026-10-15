@@ -198,6 +198,8 @@ schema: 2
   - *2019-05-03* — If an effect instructs you to draw multiple cards, Jace’s first ability triggers after you draw whichever is the second one for the turn (if any). You choose a target for the ability after you’ve drawn all of the cards.
   - *2019-05-03* — Jace’s first ability can trigger only once each turn. It doesn’t matter whether Jace was on the battlefield when the first card was drawn.
   - *2019-05-03* — Once Jace’s last ability has resolved, its effect applies even if Jace has left the battlefield.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Jace Beleren](../../Characters%20Index.md#jace-beleren) · [Dossier → Jace Beleren](../../Planeswalker%20Dossiers.md#jace-beleren) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 9,901 decks; most often under [Jace, Vryn's Prodigy](../../cards/J/ja.md#jace-vryns-prodigy--jace-telepath-unbound) (51.6% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (0.5% of its decks), [Tekuthal, Inquiry Dominus](../../cards/T/te.md#tekuthal-inquiry-dominus) (6.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/J.md#jace-arcane-strategist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/270/jace-arcane-strategist) · oracle_id `4126bab7-6a2a-43b2-ba65-77299f9bb8cf` · printing: WAR #270 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -222,6 +224,8 @@ schema: 2
   - *2012-10-01* — When resolving Jace's third ability, you search each player's library (including yours) and exile the nonland cards before casting any of them.
   - *2012-10-01* — You cast the cards by putting them on the stack one at a time, choosing modes, targets, and so on. The last card you cast will be the first one to resolve.
   - *2012-10-01* — You pick one of your opponents when Jace's second ability resolves. The ability doesn't target that opponent. All players may see the revealed cards and offer opinions. You (not your opponent) choose which pile is put into your hand and which pile is put on the bottom of your library.
+- **Lore:** ✅ Card art shown on [Catching Up](https://magic.wizards.com/en/news/magic-story/catching-2015-07-22), [Project Lightning Bug](https://magic.wizards.com/en/news/magic-story/project-lightning-bug-2015-05-27) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Jace Beleren](../../Characters%20Index.md#jace-beleren) · [Dossier → Jace Beleren](../../Planeswalker%20Dossiers.md#jace-beleren) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Jace, Architect of Thought + Wheel of Sun and Moon + Doubling Season](https://commanderspellbook.com/combo/968-2660-4772/) (Cast any number of spells from opponents' libraries, Infinite storm count) · EDHREC: in 19,424 decks; most often under [Commodore Guff](../../cards/C/com.md#commodore-guff) (36.7% of its decks), [The Celestial Toymaker](../../cards/T/thec.md#the-celestial-toymaker) (55.3% of its decks), [Jace, Vryn's Prodigy](../../cards/J/ja.md#jace-vryns-prodigy--jace-telepath-unbound) (64.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/J.md#jace-architect-of-thought)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/851/jace-architect-of-thought) · oracle_id `2274c7ae-5a40-4fd4-a4ac-6f56b23034e4` · printing: CMM #851 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -238,6 +242,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3485 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-10-01* — If there are fewer than twenty cards in the targeted player's library, that player puts all the cards from their library into their graveyard.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Jace Beleren](../../Characters%20Index.md#jace-beleren) · [Dossier → Jace Beleren](../../Planeswalker%20Dossiers.md#jace-beleren) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 47,848 decks; most often under [Nekusar, the Mindrazer](../../cards/N/ne.md#nekusar-the-mindrazer) (17.3% of its decks), [Commodore Guff](../../cards/C/com.md#commodore-guff) (40.1% of its decks), [Kynaios and Tiro of Meletis](../../cards/K/ky.md#kynaios-and-tiro-of-meletis) (15.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/J.md#jace-beleren)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/850/jace-beleren) · oracle_id `cc2b6e58-2d6f-495e-95f3-9496105c4cba` · printing: CMM #850 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -257,7 +263,9 @@ schema: 2
   - *2017-09-29* — The tokens created by Jace's last ability don't have the legendary supertype. If another object becomes a copy of the token, that copy also won't be legendary.
   - *2017-09-29* — The tokens from Jace's last ability copy exactly what is printed on Jace and nothing else. They don't copy how many counters are on him or Auras attached to him, or any non-copy effects that have changed his color or types, and so on. They'll each enter the battlefield with three loyalty counters. You can activate one loyalty ability of each of the tokens this turn.
   - *2017-09-29* — You can control one legendary Jace, Cunning Castaway in addition to any number of nonlegendary copies of Jace, Cunning Castaway.
-- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/J.md#jace-cunning-castaway)
+- **Lore:** ✅ Card art shown on [The Talented Captain Vraska](https://magic.wizards.com/en/news/magic-story/talented-captain-vraska-2017-09-20) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Jace Beleren](../../Characters%20Index.md#jace-beleren) · [Dossier → Jace Beleren](../../Planeswalker%20Dossiers.md#jace-beleren) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 22 combos; most popular [Jace, Cunning Castaway + Ichormoon Gauntlet + The Chain Veil](https://commanderspellbook.com/combo/600-1124-1543/) (Infinite creature ETB, Infinite creature tokens) · EDHREC: in 10,236 decks; most often under [Jace, Vryn's Prodigy](../../cards/J/ja.md#jace-vryns-prodigy--jace-telepath-unbound) (58.9% of its decks), [Commodore Guff](../../cards/C/com.md#commodore-guff) (7.6% of its decks), [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (4.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (1 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/J.md#jace-cunning-castaway)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/60/jace-cunning-castaway) · oracle_id `d2341a16-ffde-42fa-9746-0d8888e812d4` · printing: XLN #60 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jace, Ingenious Mind-Mage
@@ -273,6 +281,8 @@ schema: 2
 - **Rulings** (2):
   - *2017-09-29* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well, and any effects that give the player control of permanents immediately end.
   - *2017-09-29* — The control-change effect of Jace’s last ability lasts indefinitely. It doesn’t wear off during the cleanup step or when you lose control of Jace.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Jace Beleren](../../Characters%20Index.md#jace-beleren) · [Dossier → Jace Beleren](../../Planeswalker%20Dossiers.md#jace-beleren) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [The Sixth Doctor + Romana II + Jace, Ingenious Mind-Mage](https://commanderspellbook.com/combo/2157-2598-3071/) (Infinite untap of creatures you control, Infinite mana creatures you control can produce) · EDHREC: in 8,466 decks; most often under [Jace, Vryn's Prodigy](../../cards/J/ja.md#jace-vryns-prodigy--jace-telepath-unbound) (50.3% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (0.4% of its decks), [Empress Galina](../../cards/E/em.md#empress-galina) (17.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/J.md#jace-ingenious-mind-mage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/280/jace-ingenious-mind-mage) · oracle_id `fe0fcb4e-92fd-4e64-99d1-043092ea21e3` · printing: XLN #280 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -291,6 +301,8 @@ schema: 2
   - *2011-09-22* — If Jace’s third ability causes a player to draw more cards than are left in their library, that player loses the game as a state-based action. If this ability causes all players to do this, the game is a draw.
   - *2011-09-22* — If you activate Jace’s first ability, and the player is an illegal target when the ability tries to resolve, it won’t resolve and none of its effects will happen. You won’t draw a card.
   - *2011-09-22* — If you target yourself with Jace’s first ability, you’ll draw a card first, then put the top card of your library into your graveyard.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Jace Beleren](../../Characters%20Index.md#jace-beleren) · [Dossier → Jace Beleren](../../Planeswalker%20Dossiers.md#jace-beleren) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 27,009 decks; most often under [Bruvac the Grandiloquent](../../cards/B/br.md#bruvac-the-grandiloquent) (30.1% of its decks), [Captain N'ghathrod](../../cards/C/cap.md#captain-nghathrod) (11.7% of its decks), [Phenax, God of Deception](../../cards/P/ph.md#phenax-god-of-deception) (23.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/J.md#jace-memory-adept)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m14/60/jace-memory-adept) · oracle_id `4a4dc133-541f-456b-a95f-3d707e1c95e9` · printing: M14 #60 (2013-07-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -320,6 +332,8 @@ schema: 2
   - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
   - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
   - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Jace Beleren](../../Characters%20Index.md#jace-beleren) · [Dossier → Jace Beleren](../../Planeswalker%20Dossiers.md#jace-beleren) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 21,835 decks; most often under [Elminster](../../cards/E/el.md#elminster) (60.7% of its decks), [Commodore Guff](../../cards/C/com.md#commodore-guff) (32.0% of its decks), [Galadriel of Lothlórien](../../cards/G/ga.md#galadriel-of-lothlórien) (34.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/J.md#jace-mirror-mage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/852/jace-mirror-mage) · oracle_id `7ca99e2f-faf2-4301-a0ae-7cb880ba965b` · printing: CMM #852 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -335,6 +349,8 @@ schema: 2
   > Jace, Multiverse Architect can be your commander.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9285 · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
 - **Rulings:** none published on Scryfall
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Jace Beleren](../../Characters%20Index.md#jace-beleren) · [Dossier → Jace Beleren](../../Planeswalker%20Dossiers.md#jace-beleren) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 10,812 decks; highest synergy [Skrelv's Hive](../../cards/S/sk.md#skrelvs-hive) (+58%), [Reflecting Pool](../../cards/R/ref.md#reflecting-pool) (+57%), [Brainstorm](../../cards/B/br.md#brainstorm) (+55%) · EDHREC: in 4,040 decks; most often under [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (10.6% of its decks), [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (2.0% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/J.md#jace-multiverse-architect)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/1/jace-multiverse-architect) · oracle_id `3321c134-bf5b-4f63-8035-fca0bbdfa86b` · printing: FRC #1 (2026-10-02) · [rulings](https://api.scryfall.com/cards/55cd03d9-2535-4cf3-a8b2-1418e1190f4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -354,6 +370,8 @@ schema: 2
   - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
   - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
   - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Jace Beleren](../../Characters%20Index.md#jace-beleren) · [Dossier → Jace Beleren](../../Planeswalker%20Dossiers.md#jace-beleren) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 8,090 decks; most often under [Jace, Vryn's Prodigy](../../cards/J/ja.md#jace-vryns-prodigy--jace-telepath-unbound) (77.8% of its decks), [Commodore Guff](../../cards/C/com.md#commodore-guff) (13.5% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (2.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/J.md#jace-reality-sculptor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/216/jace-reality-sculptor) · oracle_id `bf0e9e00-fba5-448a-9052-ae730aea4bf8` · printing: FRA #216 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -385,6 +403,8 @@ schema: 2
   - *2024-04-12* — You can't cast a plotted card on the same turn it became plotted. On any future turn, you may cast that card from exile without paying its mana cost during your main phase while the stack is empty.
   - *2024-04-12* — You can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
   - *2024-06-07* — If an instant or a card with flash is plotted this way, you can still cast it only when you have priority during your main phase while the stack is empty.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Jace Beleren](../../Characters%20Index.md#jace-beleren) · [Dossier → Jace Beleren](../../Planeswalker%20Dossiers.md#jace-beleren) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 20,706 decks; most often under [Kellan, the Kid](../../cards/K/ke.md#kellan-the-kid) (31.7% of its decks), [Jace, Vryn's Prodigy](../../cards/J/ja.md#jace-vryns-prodigy--jace-telepath-unbound) (63.3% of its decks), [Loot, the Key to Everything](../../cards/L/lo.md#loot-the-key-to-everything) (19.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/J.md#jace-reawakened)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/271/jace-reawakened) · oracle_id `cbd483b5-5554-43ed-a729-535d01b0d5d3` · printing: OTJ #271 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -415,6 +435,8 @@ schema: 2
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23744 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Hour of Devastation](https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,080 decks; most often under [Jace, Vryn's Prodigy](../../cards/J/ja.md#jace-vryns-prodigy--jace-telepath-unbound) (16.3% of its decks), [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (1.0% of its decks), [Blind Seer](../../cards/B/bli.md#blind-seer) (6.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/J.md#jaces-defeat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/38/jaces-defeat) · oracle_id `8ed8e27b-2137-4e19-99bb-5e0d6d32e3af` · printing: HOU #38 (2017-07-14) · [rulings](https://api.scryfall.com/cards/c6b103c1-9b25-4bfe-9081-570977e9fdad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -443,6 +465,9 @@ schema: 2
   > *"Brute force can sometimes kick down a locked door, but knowledge is a skeleton key."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15821 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Gorgon and the Guildpact](https://magic.wizards.com/en/news/magic-story/gorgon-and-guildpact-2014-03-12) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,733 decks; most often under [Jace, Vryn's Prodigy](../../cards/J/ja.md#jace-vryns-prodigy--jace-telepath-unbound) (35.6% of its decks), [Eluge, the Shoreless Sea](../../cards/E/el.md#eluge-the-shoreless-sea) (1.6% of its decks), [Melek, Reforged Researcher](../../cards/M/me.md#melek-reforged-researcher) (5.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/J.md#jaces-ingenuity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m15/63/jaces-ingenuity) · oracle_id `ce588fd3-642e-4df9-8061-6fcfc6e81270` · printing: M15 #63 (2014-07-18) · [rulings](https://api.scryfall.com/cards/ad4932ba-e272-4f22-89f5-a6153ca570b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jace's Machinations
@@ -546,6 +571,8 @@ schema: 2
   - *2015-06-22* — Jace’s Sanctum can reduce alternative costs such as miracle or overload costs.
   - *2015-06-22* — Jace’s Sanctum’s scry ability will resolve before the instant or sorcery spell that caused it to trigger.
   - *2015-06-22* — The first ability of Jace’s Sanctum can’t reduce the colored mana requirement of an instant or sorcery spell.
+- **Lore:** ✅ Card art shown on [Homesick](https://magic.wizards.com/en/news/magic-story/homesick-2016-08-29), [The Promised End](https://magic.wizards.com/en/news/magic-story/promised-end-2016-07-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Storm-Kiln Artist + Goldspan Dragon + Call to Mind + Déjà Vu + Jace's Sanctum](https://commanderspellbook.com/combo/1210-3098-3449-3809-5195/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC: in 39,648 decks; most often under [Elminster](../../cards/E/el.md#elminster) (49.5% of its decks), [Talrand, Sky Summoner](../../cards/T/ta.md#talrand-sky-summoner) (22.9% of its decks), [Zethi, Arcane Blademaster](../../cards/Z/ze.md#zethi-arcane-blademaster) (22.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [Spellslinger: Instant/sorcery cost reducers](../../EDH%20Packages.md#spellslinger-instantsorcery-cost-reducers) · [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/J.md#jaces-sanctum)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/88/jaces-sanctum) · oracle_id `22d7048e-d538-4fd3-9fb3-2e99e74875fe` · printing: C19 #88 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -565,6 +592,8 @@ schema: 2
   - *2016-04-08* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
   - *2016-04-08* — You can't cast a spell without choosing legal targets. If all of those targets become illegal, the spell doesn't resolve and you won't investigate.
   - *2016-04-08* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Lore:** ✅ Card art shown on [The Drownyard Temple](https://magic.wizards.com/en/news/magic-story/drownyard-temple-2016-04-06) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,545 decks; most often under [Jace, Vryn's Prodigy](../../cards/J/ja.md#jace-vryns-prodigy--jace-telepath-unbound) (24.9% of its decks), [Lonis, Cryptozoologist](../../cards/L/lo.md#lonis-cryptozoologist) (1.4% of its decks), [Piper Wright, Publick Reporter](../../cards/P/pi.md#piper-wright-publick-reporter) (2.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/70/jaces-scrutiny) · oracle_id `8578c462-7b2d-4b69-ad10-a2eab44ac98d` · printing: SOI #70 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jace's Sentinel
@@ -606,6 +635,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15492 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2014-07-18* — When the first ability resolves, the card you don't put into your graveyard stays on top of your library.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Jace Beleren](../../Characters%20Index.md#jace-beleren) · [Dossier → Jace Beleren](../../Planeswalker%20Dossiers.md#jace-beleren) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [The One Ring + Displacer Kitten + Jace, the Living Guildpact](https://commanderspellbook.com/combo/1170-3363-4622/) (Prevent all damage that would be dealt to you, You have protection from everything) · EDHREC: in 5,065 decks; most often under [Jace, Vryn's Prodigy](../../cards/J/ja.md#jace-vryns-prodigy--jace-telepath-unbound) (55.2% of its decks), [Tekuthal, Inquiry Dominus](../../cards/T/te.md#tekuthal-inquiry-dominus) (8.2% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/J.md#jace-the-living-guildpact)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m15/62/jace-the-living-guildpact) · oracle_id `55259de3-561d-4a9e-bb28-63c6a7ac5c68` · printing: M15 #62 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -623,6 +654,8 @@ schema: 2
 - **Rulings** (2):
   - *2020-08-07* — If the target player for Jace's last ability has no cards in hand, that player shuffles nothing into their library, and that player's library will remain empty. That player won't lose the game until they try to draw from the empty library.
   - *2020-08-07* — You draw three cards and put two cards back all while Jace's second ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Jace Beleren](../../Characters%20Index.md#jace-beleren) · [Dossier → Jace Beleren](../../Planeswalker%20Dossiers.md#jace-beleren) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 12 combos; most popular [God-Eternal Kefnet + Jace, the Mind Sculptor + Time Warp](https://commanderspellbook.com/combo/1702-3212-4872/) (Infinite turns, Lock) · EDHREC: in 50,588 decks; most often under [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (7.2% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (7.4% of its decks), [Commodore Guff](../../cards/C/com.md#commodore-guff) (21.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 edh guides · 2 lore & story) → [reverse index](../../references/J.md#jace-the-mind-sculptor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/56/jace-the-mind-sculptor) · oracle_id `7f77a84e-5a4b-4834-aefa-3cecc175ae8e` · printing: 2XM #56 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -643,6 +676,8 @@ schema: 2
   - *2023-02-04* — Jace's second loyalty ability doesn't care which player's graveyard has twenty or more cards in it. It could be the target player's or another player's.
   - *2023-02-04* — Other replacement effects that would change the number of loyalty counters Jace enters with will apply as normal.
   - *2023-02-04* — The compleated ability looks only at whether a player chose to pay 2 life for a Phyrexian mana symbol as they were casting the spell. If a player paid life for some other reason while casting the spell, that will not reduce the number of loyalty counters the planeswalker enters the battlefield with.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Jace Beleren](../../Characters%20Index.md#jace-beleren) · [Dossier → Jace Beleren](../../Planeswalker%20Dossiers.md#jace-beleren) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 29,055 decks; most often under [Captain N'ghathrod](../../cards/C/cap.md#captain-nghathrod) (17.0% of its decks), [The Mindskinner](../../cards/T/them.md#the-mindskinner) (24.5% of its decks), [Bruvac the Grandiloquent](../../cards/B/br.md#bruvac-the-grandiloquent) (30.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (1 rules · 2 lore & story · 1 card data) → [reverse index](../../references/J.md#jace-the-perfected-mind)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/57/jace-the-perfected-mind) · oracle_id `03dafab4-841f-41cb-8f2e-8188f5177837` · printing: ONE #57 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -661,6 +696,8 @@ schema: 2
   - *2016-04-08* — If Jace’s emblem’s triggered ability doesn’t counter the first spell an opponent casts (perhaps because that spell can’t be countered), it won’t trigger again in the same turn to try to counter that player’s second spell.
   - *2016-04-08* — If you have multiple opponents, Jace’s emblem can trigger once each turn for each opponent.
   - *2016-04-08* — The emblem’s triggered ability counters the first spell an opponent casts on each turn, not just that opponent’s turn.
+- **Lore:** ✅ Card art shown on [The Mystery of Markov Manor](https://magic.wizards.com/en/news/magic-story/mystery-markov-manor-2016-03-30), [The Promised End](https://magic.wizards.com/en/news/magic-story/promised-end-2016-07-27), [Stories and Endings](https://magic.wizards.com/en/news/magic-story/stories-and-endings-2016-05-11) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Jace Beleren](../../Characters%20Index.md#jace-beleren) · [Dossier → Jace Beleren](../../Planeswalker%20Dossiers.md#jace-beleren) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 26,306 decks; most often under [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (7.8% of its decks), [Jace, Vryn's Prodigy](../../cards/J/ja.md#jace-vryns-prodigy--jace-telepath-unbound) (68.7% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (4.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 5 pages (3 lore & story · 2 card data) → [reverse index](../../references/J.md#jace-unraveler-of-secrets)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/70/jace-unraveler-of-secrets) · oracle_id `ac29873e-28c3-4933-b427-61d34ff0afcd` · printing: INR #70 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -695,7 +732,7 @@ schema: 2
   - *2016-04-08* — If you discard a card with madness while resolving the ability of Jace, Vryn's Prodigy, you'll need to already have five other cards in your graveyard to satisfy that ability's condition. You can't choose to put the card directly into your graveyard to satisfy it.
   - *2016-04-08* — The back face of a double-faced card doesn't have a mana cost. A double-faced permanent with its back face up has a mana value equal to the mana value of its front face. Each back face has a color indicator that defines its color.
   - *2017-09-29* — You can control two of this permanent, one front-face up and the other back-face up, at the same time.
-- **Lore:** Depicts: [Plane → Vryn](../../Planes%20Index.md#vryn) ([source](https://magic.wizards.com/en/news/feature/jaces-origin-absent-minds-2015-06-24)) — ⚠️ Name match only (not a canon claim): [Character → Jace Beleren](../../Characters%20Index.md#jace-beleren) · [Dossier → Jace Beleren](../../Planeswalker%20Dossiers.md#jace-beleren) · [format](../../Card%20Enrichment.md#lore-line)
+- **Lore:** Depicts: [Plane → Vryn](../../Planes%20Index.md#vryn) ([source](https://magic.wizards.com/en/news/feature/jaces-origin-absent-minds-2015-06-24)) — ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Jace Beleren](../../Characters%20Index.md#jace-beleren) · [Dossier → Jace Beleren](../../Planeswalker%20Dossiers.md#jace-beleren) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,256 decks; highest synergy [Jace Beleren](../../cards/J/ja.md#jace-beleren) (+71%), [Jace, the Mind Sculptor](../../cards/J/ja.md#jace-the-mind-sculptor) (+71%), [Jace, Memory Adept](../../cards/J/ja.md#jace-memory-adept) (+68%) · EDHREC: in 22,313 decks; most often under [Hashaton, Scarab's Fist](../../cards/H/ha.md#hashaton-scarabs-fist) (3.7% of its decks), [Oskar, Rubbish Reclaimer](../../cards/O/os.md#oskar-rubbish-reclaimer) (19.9% of its decks), [Captain Howler, Sea Scourge](../../cards/C/cap.md#captain-howler-sea-scourge) (3.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (3 lore & story · 1 card data) → [reverse index](../../references/J.md#jace-vryns-prodigy--jace-telepath-unbound)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/60/jace-vryns-prodigy-jace-telepath-unbound) · oracle_id `594f6881-c059-46f8-aa4e-7151d502de73` · printing: ORI #60 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
@@ -717,6 +754,8 @@ schema: 2
   - *2019-05-03* — If the target player is an illegal target when Jace’s first loyalty ability tries to resolve, it doesn’t resolve. You won’t draw a card.
   - *2019-05-03* — If two or more players control Jace, Wielder of Mysteries and each player is instructed to draw a number of cards, first the player whose turn it is draws that many cards. If this causes that player to win the game instead, the game is immediately over. If the game isn’t over yet, repeat this process for each other player in turn order.
   - *2019-05-03* — If your library has fewer than seven cards in it while resolving Jace’s last ability, and Jace has already left the battlefield, you’ll draw as many cards as you can and then win the game before state-based actions would cause you to lose the game for trying to draw from an empty library.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Jace Beleren](../../Characters%20Index.md#jace-beleren) · [Dossier → Jace Beleren](../../Planeswalker%20Dossiers.md#jace-beleren) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 57 combos; most popular [Jace, Wielder of Mysteries + Enter the Infinite](https://commanderspellbook.com/combo/953-3096/) (Infinite card draw, Infinite draw triggers) · EDHREC: in 146,017 decks; most often under [Vnwxt, Verbose Host](../../cards/V/vn.md#vnwxt-verbose-host) (57.0% of its decks), [Muldrotha, the Gravetide](../../cards/M/mu.md#muldrotha-the-gravetide) (16.1% of its decks), [Grolnok, the Omnivore](../../cards/G/gro.md#grolnok-the-omnivore) (53.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 5 pages (2 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/J.md#jace-wielder-of-mysteries)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/54/jace-wielder-of-mysteries) · oracle_id `5277a68e-1ceb-4b40-8e10-3d0564f5d7be` · printing: WAR #54 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1499,6 +1538,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14503 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2018-03-16* — If your library has no nonlegendary creature cards in it, you'll reveal all the cards in your library, then put them in a random order. Although this is not technically shuffling your library, no player is allowed to know the order of those cards and you will randomize the cards in your deck.
+- **Lore:** ✅ Card art shown on [The Bard and the Biologist](https://magic.wizards.com/en/news/magic-story/bard-and-biologist-2014-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Jalira, Master Polymorphist + Timestream Navigator](https://commanderspellbook.com/combo/1061-4189--99/) (Infinite turns, Lock) · EDHREC as commander: 1,838 decks; highest synergy [Hard Evidence](../../cards/H/ha.md#hard-evidence) (+63%), [Lazotep Plating](../../cards/L/la.md#lazotep-plating) (+62%), [Callous Dismissal](../../cards/C/cal.md#callous-dismissal) (+56%) · EDHREC: in 4,145 decks; most often under [Yasova Dragonclaw](../../cards/Y/ya.md#yasova-dragonclaw) (40.3% of its decks), [Brenard, Ginger Sculptor](../../cards/B/br.md#brenard-ginger-sculptor) (2.3% of its decks), [Kykar, Wind's Fury](../../cards/K/ky.md#kykar-winds-fury) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/63/jalira-master-polymorphist) · oracle_id `62ad15f1-ee51-4991-8e52-06a3cbd8f395` · printing: A25 #63 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jalum Grifter
@@ -2064,6 +2105,8 @@ schema: 2
   - *2018-04-27* — Mana produced by Jaya’s first ability can be spent among any number of instant and/or sorcery spells.
   - *2018-04-27* — You choose how many cards to discard while Jaya’s second ability is resolving. You can choose to discard zero cards this way (and then draw zero cards) if you wish.
   - *2018-06-08* — Because it’s a loyalty ability, Jaya’s first ability isn’t a mana ability. It can be activated only any time you could cast a sorcery. It uses the stack and can be responded to.
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 8](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-8-2018-05-02) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Jaya Ballard](../../Characters%20Index.md#jaya-ballard) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 14,004 decks; most often under [Firesong and Sunspeaker](../../cards/F/fi.md#firesong-and-sunspeaker) (21.3% of its decks), [Imodane, the Pyrohammer](../../cards/I/im.md#imodane-the-pyrohammer) (12.9% of its decks), [Judith, Carnage Connoisseur](../../cards/J/ju.md#judith-carnage-connoisseur) (5.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/J.md#jaya-ballard)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/175/jaya-ballard) · oracle_id `a56c5ca5-70eb-4d5f-8116-2acbe5f5a3cb` · printing: C21 #175 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2078,6 +2121,8 @@ schema: 2
   > {5}{R}{R}, {T}, Discard a card: Jaya Ballard deals 6 damage to each creature and each player.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17219 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Jaya Ballard](../../Characters%20Index.md#jaya-ballard) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 433 decks; highest synergy [Distorting Lens](../../cards/D/di.md#distorting-lens) (+59%), [Squee, Goblin Nabob](../../cards/S/sq.md#squee-goblin-nabob) (+59%), [Repercussion](../../cards/R/rep.md#repercussion) (+52%) · EDHREC: in 3,243 decks; most often under [Chandra, Fire of Kaladesh](../../cards/C/cha.md#chandra-fire-of-kaladesh--chandra-roaring-flame) (4.9% of its decks), [Captain Howler, Sea Scourge](../../cards/C/cap.md#captain-howler-sea-scourge) (0.9% of its decks), [Zurgo Helmsmasher](../../cards/Z/zu.md#zurgo-helmsmasher) (1.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/J.md#jaya-ballard-task-mage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/172/jaya-ballard-task-mage) · oracle_id `cbbad3da-695e-4527-9678-0942f3751287` · printing: TSR #172 (2021-03-19) · [rulings](https://api.scryfall.com/cards/2890840e-da0b-40ba-b3c2-7e4af39922b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2101,6 +2146,8 @@ schema: 2
   - *2022-09-09* — The triggered ability of Jaya's emblem will copy any red instant or sorcery spell you cast, not just one with targets.
   - *2022-09-09* — You can't choose to pay any additional costs for the copies. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copies too. Notably, if the spell you copy was kicked, the copies will also be kicked.
   - *2022-09-09* — You must pay all costs and follow all normal timing rules to play a card chosen for Jaya's second loyalty ability. For example, if you choose a land card, you may only play it during one of your main phases while the stack is empty, and only if you haven't yet played a land in the same turn.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Jaya Ballard](../../Characters%20Index.md#jaya-ballard) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 9,208 decks; most often under [Narset, Enlightened Exile](../../cards/N/na.md#narset-enlightened-exile) (8.9% of its decks), [The Archimandrite](../../cards/T/thea.md#the-archimandrite) (28.9% of its decks), [Bria, Riptide Rogue](../../cards/B/br.md#bria-riptide-rogue) (3.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/J.md#jaya-fiery-negotiator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/133/jaya-fiery-negotiator) · oracle_id `2458aa66-5b20-4811-a4a4-8375ad0a6498` · printing: DMU #133 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2179,6 +2226,8 @@ schema: 2
   - *2019-05-03* — If another effect modifies how much damage your red source would deal, including preventing some of it, the player being dealt damage or the controller of the permanent being dealt damage chooses an order in which to apply those effects. If all of the damage is prevented, Jaya's effect no longer applies.
   - *2019-05-03* — If damage dealt by a source you control is being divided or assigned among multiple permanents an opponent controls or among an opponent and one or more permanents they control simultaneously, divide the original amount before adding 1. For example, if you attack with a 5/5 red creature with trample and your opponent blocks with a 2/2 creature, you can assign 2 damage to the blocker and 3 damage to the defending player. These amounts are then modified to 3 and 4, respectively.
   - *2019-05-03* — Jaya's first ability doesn't cause Jaya to deal damage; it affects the amount of damage dealt by the original red source.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Jaya Ballard](../../Characters%20Index.md#jaya-ballard) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 4 combos; most popular [Smaug the Impenetrable + Street Urchin + Jaya, Venerated Firemage](https://commanderspellbook.com/combo/330-5430-7839/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC: in 6,659 decks; most often under [Torbran, Thane of Red Fell](../../cards/T/to.md#torbran-thane-of-red-fell) (12.3% of its decks), [Chandra, Fire of Kaladesh](../../cards/C/cha.md#chandra-fire-of-kaladesh--chandra-roaring-flame) (12.3% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/J.md#jaya-venerated-firemage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/135/jaya-venerated-firemage) · oracle_id `10a87c58-2d8b-4658-b7d6-8dcbb44a2d2f` · printing: WAR #135 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

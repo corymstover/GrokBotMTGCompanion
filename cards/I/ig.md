@@ -199,6 +199,8 @@ schema: 2
   > *—Ajani Goldmane*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13343 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WAR #18 — [Art & Flavor → War of the Spark (2019)](../../Art%20%26%20Flavor%20Story%20Links.md#war-of-the-spark-2019) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 7,225 decks; most often under [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (2.2% of its decks), [Commodore Guff](../../cards/C/com.md#commodore-guff) (12.0% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/I.md#ignite-the-beacon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/18/ignite-the-beacon) · oracle_id `1f74d046-e695-4ad9-a27c-8ff1f30d4c23` · printing: WAR #18 (2019-05-03) · [rulings](https://api.scryfall.com/cards/4e11d6f9-0b80-4b19-ab96-23f80b66b409/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

@@ -85,6 +85,8 @@ schema: 2
 - **Rulings** (2):
   - *2016-07-13* — If Spreading Flames has multiple targets, and some, but not all, are illegal targets when Spreading Flames tries to resolve, Spreading Flames will still deal damage to the remaining legal targets according to the original damage division. If all the targets are illegal, the spell won’t resolve.
   - *2016-07-13* — You announce how the damage will be divided as part of casting Spreading Flames. Each chosen target must receive at least 1 damage.
+- **Lore:** ✅ Card art shown on [Battle of Thraben](https://magic.wizards.com/en/news/magic-story/battle-thraben-2016-07-20) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 458 decks; most often under [Chandra, Fire of Kaladesh](../../cards/C/cha.md#chandra-fire-of-kaladesh--chandra-roaring-flame) (4.2% of its decks), [Raggadragga, Goreguts Boss](../../cards/R/rag.md#raggadragga-goreguts-boss) (0.2% of its decks), [Lorehold, the Historian](../../cards/L/lo.md#lorehold-the-historian) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#spreading-flames)
 - **Source flags:** [Scryfall](https://scryfall.com/card/emn/143/spreading-flames) · oracle_id `95bedd11-ed01-4cb1-bcdb-c5f9fdba8c79` · printing: EMN #143 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

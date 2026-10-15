@@ -854,6 +854,8 @@ schema: 2
   - *2015-06-22* — If a creature with renown deals combat damage to its controller because that damage was redirected, renown will trigger.
   - *2015-06-22* — If a renown ability triggers, but the creature leaves the battlefield before that ability resolves, the creature doesn’t become renowned. Any ability that triggers “whenever a creature becomes renowned” won’t trigger.
   - *2015-06-22* — Renown won’t trigger when a creature deals combat damage to a planeswalker or another creature. It also won’t trigger when a creature deals noncombat damage to a player.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 494 decks; most often under [Aragorn, Hornburg Hero](../../cards/A/ara.md#aragorn-hornburg-hero) (1.8% of its decks), [Sigarda, Font of Blessings](../../cards/S/si.md#sigarda-font-of-blessings) (0.3% of its decks), [Kyler, Sigardian Emissary](../../cards/K/ky.md#kyler-sigardian-emissary) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/213/citadel-castellan) · oracle_id `b9e93832-93b7-409d-91aa-13757225824d` · printing: ORI #213 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Citadel Gate
@@ -897,6 +899,8 @@ schema: 2
   - *2014-11-24* — Each Siege will have one of the two listed abilities, depending on your choice as it enters the battlefield.
   - *2014-11-24* — Each of the last two abilities is linked to the first ability. They each refer only to the choice made as a result of the first ability. If a permanent enters the battlefield as a copy of one of the Sieges, its controller will make a new choice for that Siege. Which ability the copy has won't depend on the choice made for the original permanent.
   - *2014-11-24* — The words “Khans” and “Dragons” are anchor words, connecting your choice to the appropriate ability. Anchor words are a new rules concept. “[Anchor word] — [Ability]” means “As long as you chose [anchor word] as this permanent entered the battlefield, this permanent has [ability].” Notably, the anchor word “Dragons” has no connection to the creature type Dragon.
+- **Lore:** ✅ Card art shown on [No End and No Beginning](https://magic.wizards.com/en/news/magic-story/no-end-and-no-beginning-2015-02-11) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 28,704 decks; most often under [Hylda of the Icy Crown](../../cards/H/hy.md#hylda-of-the-icy-crown) (69.9% of its decks), [Breena, the Demagogue](../../cards/B/br.md#breena-the-demagogue) (19.5% of its decks), [Anim Pakal, Thousandth Moon](../../cards/A/an.md#anim-pakal-thousandth-moon) (23.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/81/citadel-siege) · oracle_id `40f66e21-5b60-4e42-927d-65397e7ad544` · printing: MIC #81 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Citanul Centaurs

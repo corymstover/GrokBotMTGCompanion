@@ -437,6 +437,8 @@ schema: 2
 - **Rulings** (2):
   - *2013-01-24* — Only creatures you control when the first ability resolves will gain trample. Creatures that come under your control later in the turn won’t have trample. Lands you control that aren’t creatures also won’t gain trample, even if you use the second ability to turn them into creatures later in the turn.
   - *2013-01-24* — Skarrg Guildmage’s second ability doesn’t affect the land’s name or any other types, subtypes, or supertypes (such as basic or legendary) the land may have. The land will also keep any abilities it had.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/burying-part-2-2013-03-06) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,409 decks; most often under [Duskana, the Rage Mother](../../cards/D/du.md#duskana-the-rage-mother) (3.0% of its decks), [Ruric Thar, the Unbowed](../../cards/R/ru.md#ruric-thar-the-unbowed) (2.6% of its decks), [Niv-Mizzet, Guildpact](../../cards/N/ni.md#niv-mizzet-guildpact) (4.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gtc/196/skarrg-guildmage) · oracle_id `7a49f3a1-abdb-4bf3-b5ed-f54349ab40fd` · printing: GTC #196 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skarrg, the Rage Pits
@@ -654,6 +656,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27957 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-03-16* — You get the token created by Skeletonize's delayed triggered ability regardless of who controlled the creature.
+- **Lore:** ✅ Card art shown on [All the Cairns of Jund](https://magic.wizards.com/en/news/magic-story/all-cairns-jund-2015-11-04) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 411 decks; most often under [Sek'Kuar, Deathkeeper](../../cards/S/sek.md#sekkuar-deathkeeper) (5.9% of its decks), [Gut, True Soul Zealot // Agent of the Iron Throne](../../cards/G/gu.md#gut-true-soul-zealot) (3.7% of its decks), [Bladewing, Deathless Tyrant](../../cards/B/bla.md#bladewing-deathless-tyrant) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#skeletonize)
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/149/skeletonize) · oracle_id `2a4cde8f-38e0-439b-9928-95ab23317f70` · printing: A25 #149 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1679,6 +1683,8 @@ schema: 2
 - **Rulings** (2):
   - *2017-09-29* — If either target becomes illegal after you cast Skulduggery but before it resolves, the other is still affected as appropriate.
   - *2017-09-29* — You can't cast Skulduggery unless you choose both a creature you control and a creature you don't control as targets.
+- **Lore:** ✅ Card art shown on [The Talented Captain Vraska](https://magic.wizards.com/en/news/magic-story/talented-captain-vraska-2017-09-20) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,295 decks; most often under [Maha, Its Feathers Night](../../cards/M/mah.md#maha-its-feathers-night) (2.6% of its decks), [Laughing Jasper Flint](../../cards/L/la.md#laughing-jasper-flint) (2.3% of its decks), [Gisa, the Hellraiser](../../cards/G/gi.md#gisa-the-hellraiser) (2.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/107/skulduggery) · oracle_id `9100530e-2bd0-487e-a4eb-13dabd55b678` · printing: OTJ #107 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skulking Fugitive
@@ -2197,6 +2203,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24883 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Talented Captain Vraska](https://magic.wizards.com/en/news/magic-story/talented-captain-vraska-2017-09-20) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 848 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (0.5% of its decks), [Mavren Fein, Dusk Apostle](../../cards/M/mav.md#mavren-fein-dusk-apostle) (76.0% of its decks), [Clavileño, First of the Blessed](../../cards/C/cl.md#clavileño-first-of-the-blessed) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/37/skyblade-of-the-legion) · oracle_id `678c76bf-fc31-47e4-8c19-712e15bba9e3` · printing: XLN #37 (2017-09-29) · [rulings](https://api.scryfall.com/cards/67e788e2-12e9-4041-8210-753aaef2576c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skyblade's Boon
@@ -2923,6 +2931,8 @@ schema: 2
 - **Rulings** (2):
   - *2015-08-25* — Skyline Cascade's triggered ability doesn't tap the creature. It can target any creature, tapped or untapped. If that creature is already untapped at the beginning of its controller's next untap step, the effect won't do anything.
   - *2015-08-25* — The triggered ability tracks the creature, but not its controller. If the creature changes controllers before its first controller's next untap step has come around, then it won't untap during its new controller's next untap step.
+- **Lore:** ✅ Card art shown on [Promises to Keep](https://magic.wizards.com/en/news/magic-story/promises-keep-2015-12-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 12,151 decks; most often under [Hylda of the Icy Crown](../../cards/H/hy.md#hylda-of-the-icy-crown) (4.0% of its decks), [Patron of the Moon](../../cards/P/pa.md#patron-of-the-moon) (17.1% of its decks), [Eluge, the Shoreless Sea](../../cards/E/el.md#eluge-the-shoreless-sea) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/246/skyline-cascade) · oracle_id `79301ae1-8c9c-4723-be21-dc27e1646f35` · printing: BFZ #246 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skyline Despot
@@ -3651,6 +3661,8 @@ schema: 2
   - *2017-09-29* — When a Vehicle becomes a creature, that doesn't count as having a creature enter the battlefield. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters the battlefield won't trigger.
   - *2017-09-29* — You may activate a crew ability of a Vehicle even if it's already an artifact creature. Doing so has no effect on the Vehicle. It doesn't change its power and toughness.
   - *2017-09-29* — You may tap more creatures than necessary to activate a crew ability.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Kaladesh](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-kaladesh-2016-11-02), [The Skies over Ghirapur](https://magic.wizards.com/en/news/magic-story/skies-over-ghirapur-2017-01-11) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Edward Kenway (Grixis)](../../grixis/decks/edward-kenway.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 39 decks; highest synergy [Mech Hangar](../../cards/M/me.md#mech-hangar) (+58%), [Chief of the Foundry](../../cards/C/chi.md#chief-of-the-foundry) (+50%), [Guidelight Matrix](../../cards/G/gu.md#guidelight-matrix) (+46%) · EDHREC: in 61,447 decks; most often under [Shorikai, Genesis Engine](../../cards/S/sho.md#shorikai-genesis-engine) (50.1% of its decks), [Greasefang, Okiba Boss](../../cards/G/gre.md#greasefang-okiba-boss) (76.7% of its decks), [Edward Kenway](../../cards/E/ed.md#edward-kenway) (33.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/S.md#skysovereign-consul-flagship)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/159/skysovereign-consul-flagship) · oracle_id `50b14338-9318-4327-a1dd-c0ef38903cc4` · printing: NEC #159 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

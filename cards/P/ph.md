@@ -325,6 +325,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22653 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-03-16* — If Phantasmal Bear becomes the target of a spell or ability, its ability triggers and goes on the stack on top of that spell or ability. The ability will resolve first (causing Phantasmal Bear to be sacrificed). Unless the spell or ability has another target, it will then be countered when it tries to resolve for having no legal targets. 
+- **Lore:** ✅ Card art shown on [Unwelcome](https://magic.wizards.com/en/news/magic-story/unwelcome-2016-03-16) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,349 decks; most often under [Minn, Wily Illusionist](../../cards/M/min.md#minn-wily-illusionist) (13.9% of its decks), [Pol Jamaar, Illusionist](../../cards/P/po.md#pol-jamaar-illusionist) (20.7% of its decks), [Jace, Vryn's Prodigy](../../cards/J/ja.md#jace-vryns-prodigy--jace-telepath-unbound) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/69/phantasmal-bear) · oracle_id `780da643-8d14-4f1a-a298-5b7454e9c4df` · printing: A25 #69 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phantasmal Dragon
@@ -903,6 +905,8 @@ schema: 2
   - *2015-06-22* — If a creature with renown deals combat damage to its controller because that damage was redirected, renown will trigger.
   - *2015-06-22* — If a renown ability triggers, but the creature leaves the battlefield before that ability resolves, the creature doesn’t become renowned. Any ability that triggers “whenever a creature becomes renowned” won’t trigger.
   - *2015-06-22* — Renown won’t trigger when a creature deals combat damage to a planeswalker or another creature. It also won’t trigger when a creature deals noncombat damage to a player.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 694 decks; most often under [Fynn, the Fangbearer](../../cards/F/fy.md#fynn-the-fangbearer) (2.5% of its decks), [Aragorn, Hornburg Hero](../../cards/A/ara.md#aragorn-hornburg-hero) (0.9% of its decks), [Karador, Ghost Chieftain](../../cards/K/ka.md#karador-ghost-chieftain) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/194/pharikas-disciple) · oracle_id `d7798312-657c-4f4a-9e2d-906284caf50f` · printing: ORI #194 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pharika's Libation
@@ -1030,6 +1034,8 @@ schema: 2
   - *2020-01-24* — The type-changing ability that can make a God not be a creature functions only on the battlefield. It's always a creature card in other zones, regardless of your devotion to its color. It's always a creature spell while it's on the stack.
   - *2020-01-24* — When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
   - *2020-01-24* — Your devotion to two colors is the number of mana symbols among mana costs of permanents you control that are the first color, the second, or both. If an effect counts your devotion to two colors, a hybrid symbol that is both of those colors is counted just once.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/gods-born-gods-2014-01-29-0), [The Gods of Born of the Gods](https://magic.wizards.com/en/news/magic-story/gods-born-gods-2014-01-29) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 27 combos; most popular [Phenax, God of Deception + Consuming Aberration + Maddening Cacophony](https://commanderspellbook.com/combo/1055-5080-6498/) (Infinite mill for target opponent, Near-infinite mill) · EDHREC as commander: 9,239 decks; highest synergy [Consuming Aberration](../../cards/C/con.md#consuming-aberration) (+71%), [Charix, the Raging Isle](../../cards/C/cha.md#charix-the-raging-isle) (+70%), [Ruin Crab](../../cards/R/ru.md#ruin-crab) (+64%) · EDHREC: in 22,123 decks; most often under [Captain N'ghathrod](../../cards/C/cap.md#captain-nghathrod) (22.0% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (8.9% of its decks), [The Wise Mothman](../../cards/T/thew.md#the-wise-mothman) (4.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/152/phenax-god-of-deception) · oracle_id `046ccc8a-ec0d-4dc5-b41d-5e8a6d86812a` · printing: BNG #152 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phenomenon Investigators
@@ -1567,6 +1573,8 @@ schema: 2
   > *A spark of resistance against a tide of corruption.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #104 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): ONE #104 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (4): [Edgar Markov](../../decks/edgar-markov.md) · [K'rrik, Son of Yawgmoth](../../decks/krrik-son-of-yawgmoth.md) · [Teysa Karlov](../../decks/teysa-karlov.md) · [Zur the Enchanter](../../decks/zur-the-enchanter.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 772,384 decks; most often under [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (43.7% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (28.5% of its decks), [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (19.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 9 pages (4 decks · 3 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/P.md#phyrexian-arena)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/180/phyrexian-arena) · oracle_id `ee579a32-a048-4335-b966-231ba731cdea` · printing: FDN #180 (2024-11-15) · [rulings](https://api.scryfall.com/cards/0784b6f0-9ebf-43d2-ba0f-a6bc93ba0c48/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2294,6 +2302,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1888 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-02-04* — If creatures an opponent controls are dealt lethal damage at the same time that Phyrexian Obliterator is dealt damage, those creatures will be destroyed before that player chooses permanents to sacrifice.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/lost-confession-2013-09-09), [official story page](https://magic.wizards.com/en/news/feature/lost-confession-2013-09-11), [official story page](https://magic.wizards.com/en/news/feature/lost-confession-2013-12-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 87,331 decks; most often under [Captain N'ghathrod](../../cards/C/cap.md#captain-nghathrod) (47.1% of its decks), [Tergrid, God of Fright](../../cards/T/te.md#tergrid-god-of-fright--tergrids-lantern) (41.3% of its decks), [Brimaz, Blight of Oreskos](../../cards/B/br.md#brimaz-blight-of-oreskos) (51.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#phyrexian-obliterator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/105/phyrexian-obliterator) · oracle_id `41820f91-27cf-41c0-bb5e-9adf6845a6a4` · printing: ONE #105 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

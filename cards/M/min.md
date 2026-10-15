@@ -577,6 +577,8 @@ schema: 2
 - **Rulings** (2):
   - *2013-01-24* — If an opponent’s library contains fewer than X land cards, all cards from that library are revealed and put into their graveyard.
   - *2013-01-24* — If another spell or ability instructs you to cast Mind Grind “without paying its mana cost,” you won’t be able to. You must pick 0 as the value of X in the mana cost of a spell being cast “without paying its mana cost,” but the X in Mind Grind’s mana cost can’t be 0.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/persistence-memory-2013-01-16) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Opposition Agent + Hive Mind + Mana Severance + Mind Grind](https://commanderspellbook.com/combo/1211-1371-1499-1771/) (Infinite mill for target opponent) · EDHREC: in 27,415 decks; most often under [Captain N'ghathrod](../../cards/C/cap.md#captain-nghathrod) (33.7% of its decks), [Phenax, God of Deception](../../cards/P/ph.md#phenax-god-of-deception) (48.7% of its decks), [Umbris, Fear Manifest](../../cards/U/um.md#umbris-fear-manifest) (25.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gtc/178/mind-grind) · oracle_id `8965ca34-5ea2-4797-9093-5a8ee02bfa43` · printing: GTC #178 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Harness
@@ -990,6 +992,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11819 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2012-07-01* — You can cast Mind Sculpt no matter how many cards are in the opponent’s library. If there are fewer than seven, the opponent will put all of them into their graveyard.
+- **Lore:** ✅ Card art shown on [The Believers' Pilgrimage](https://magic.wizards.com/en/news/magic-story/believers-pilgrimage-2015-09-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 9,287 decks; most often under [The Mindskinner](../../cards/T/them.md#the-mindskinner) (15.5% of its decks), [Bruvac the Grandiloquent](../../cards/B/br.md#bruvac-the-grandiloquent) (23.6% of its decks), [Phenax, God of Deception](../../cards/P/ph.md#phenax-god-of-deception) (7.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m15/70/mind-sculpt) · oracle_id `4d8592d7-2e36-4a7a-be9e-7c8f512d5f62` · printing: M15 #70 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind's Desire
@@ -1906,7 +1910,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8926 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-01-25* — Because blockers are chosen all at once, you can’t block with a creature with afterlife, wait for it to die, then block with the resulting Spirit tokens.
-- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/M.md#ministrant-of-obligation)
+- **Lore:** ✅ Card art shown on [The Ledger of Hidden Fortunes](https://magic.wizards.com/en/news/magic-story/ledger-hidden-fortunes-2019-02-20) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Teysa Karlov](../../decks/teysa-karlov.md) · Commander Spellbook: 7 combos; most popular [Nim Deathmantle + Ashnod's Altar + Ministrant of Obligation](https://commanderspellbook.com/combo/2034-2599-5003/) (Infinite colorless mana, Infinite creature tokens) · EDHREC: in 14,947 decks; most often under [Teysa Karlov](../../cards/T/te.md#teysa-karlov) (47.3% of its decks), [Teysa, Orzhov Scion](../../cards/T/te.md#teysa-orzhov-scion) (19.0% of its decks), [Elas il-Kor, Sadistic Pilgrim](../../cards/E/el.md#elas-il-kor-sadistic-pilgrim) (3.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 rules) → [reverse index](../../references/M.md#ministrant-of-obligation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/23/ministrant-of-obligation) · oracle_id `0cee5539-d10b-4de2-aee8-e02f0e24ac26` · printing: RVR #23 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minnea, Planar Tourist
@@ -2047,6 +2053,8 @@ schema: 2
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23465 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/sea-gods-labyrinth-part-2-2013-11-20) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,147 decks; most often under [Sethron, Hurloon General](../../cards/S/set.md#sethron-hurloon-general) (20.1% of its decks), [Neheb, the Worthy](../../cards/N/ne.md#neheb-the-worthy) (19.2% of its decks), [Mogis, God of Slaughter](../../cards/M/mog.md#mogis-god-of-slaughter) (2.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/349/minotaur-skullcleaver) · oracle_id `dd36aea8-9f1c-4daf-86f6-ab9307279ce7` · printing: JMP #349 (2020-07-17) · [rulings](https://api.scryfall.com/cards/b6fef9f8-ff3e-4a3f-a3ff-4534ff0c3946/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minotaur Sureshot

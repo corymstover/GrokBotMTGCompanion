@@ -398,6 +398,8 @@ schema: 2
 - **Rulings** (2):
   - *2016-04-08* — If a source deals damage to you and/or one or more permanents you control at the same time, Flameblade Angel’s last ability will trigger that many times. For example, if a creature with trample deals damage to a blocking creature you control and you, Flameblade Angel’s ability will trigger two times.
   - *2016-04-08* — Note that the last ability is optional. Say two players each control a Flameblade Angel, and a source controlled by the first player deals damage to the second player or a permanent they control. The resulting triggered ability may deal damage to the first player, causing the ability of that player’s Flameblade Angel to trigger. That ability may deal damage to the second player, and so on. This cycle will repeat until the game ends or one player declines to use the ability, putting an end to the carnage.
+- **Lore:** ✅ Card art shown on [The Archmage of Goldnight](https://magic.wizards.com/en/news/magic-story/archmage-goldnight-2016-06-08) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,043 decks; most often under [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (0.7% of its decks), [Ghyrson Starn, Kelermorph](../../cards/G/gh.md#ghyrson-starn-kelermorph) (0.8% of its decks), [Gisela, Blade of Goldnight](../../cards/G/gi.md#gisela-blade-of-goldnight) (4.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/157/flameblade-angel) · oracle_id `f912c739-27a2-4068-bf0c-0891309639df` · printing: SOI #157 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Flameblast Dragon
@@ -1025,6 +1027,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19934 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2012-07-01* — You divide the damage as you cast Flames of the Firebrand, not as it resolves. Each target must be assigned at least 1 damage. (In other words, as you put the spell on the stack, you choose whether to have it deal 3 damage to a single target, 2 damage to one target and 1 damage to another target, or 1 damage to each of three targets.)
+- **Lore:** ✅ Card art shown on [Promises to Keep](https://magic.wizards.com/en/news/magic-story/promises-keep-2015-12-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,269 decks; most often under [Chandra, Fire of Kaladesh](../../cards/C/cha.md#chandra-fire-of-kaladesh--chandra-roaring-flame) (12.4% of its decks), [Ojer Axonil, Deepest Might](../../cards/O/oj.md#ojer-axonil-deepest-might--temple-of-power) (2.4% of its decks), [Ghyrson Starn, Kelermorph](../../cards/G/gh.md#ghyrson-starn-kelermorph) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/317/flames-of-the-firebrand) · oracle_id `bc32c24f-2f2a-4125-917c-60d425166640` · printing: JMP #317 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Flames of the Raze-Boar
@@ -1598,6 +1602,8 @@ schema: 2
   - *2026-03-20* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2026-03-20* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2026-03-20* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Lore:** ✅ Card art shown on [Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-field-studies-in-a-future-tense) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 89,978 decks; most often under [Prismari, the Inspiration](../../cards/P/pr.md#prismari-the-inspiration) (50.5% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (27.7% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (25.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/F.md#flashback)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/115/flashback) · oracle_id `02070488-9203-4304-9392-a111d20218c5` · printing: SOS #115 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2039,6 +2045,8 @@ schema: 2
 - **Rulings** (2):
   - *2016-01-22* — Creatures that Flaying Tendrils would cause to die will be exiled instead. The game doesn’t check to see which creatures die until after Flaying Tendrils has finished resolving.
   - *2016-01-22* — Only creatures that are on the battlefield as Flaying Tendrils resolves will get -2/-2. However, any creature that would die that turn will be exiled, even if it wasn’t on the battlefield or wasn’t a creature as Flaying Tendrils resolved.
+- **Lore:** ✅ Card art shown on [Zendikar's Last Stand](https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 855 decks; most often under [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (0.5% of its decks), [Azlask, the Swelling Scourge](../../cards/A/az.md#azlask-the-swelling-scourge) (0.5% of its decks), [Maha, Its Feathers Night](../../cards/M/mah.md#maha-its-feathers-night) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/F.md#flaying-tendrils)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/70/flaying-tendrils) · oracle_id `cc2d016a-af44-427b-a25a-593274369449` · printing: OGW #70 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2143,6 +2151,8 @@ schema: 2
   - *2013-09-15* — An ability that triggers when a creature becomes monstrous won't trigger if that creature isn't on the battlefield when its monstrosity ability resolves.
   - *2013-09-15* — Monstrous isn't an ability that a creature has. It's just something true about that creature. If the creature stops being a creature or loses its abilities, it will continue to be monstrous.
   - *2013-09-15* — Once a creature becomes monstrous, it can't become monstrous again. If the creature is already monstrous when the monstrosity ability resolves, nothing happens.
+- **Lore:** ✅ Card art shown on [Emonberry Red](https://magic.wizards.com/en/news/magic-story/emonberry-red-2014-02-05) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 14,923 decks; most often under [Arahbo, Roar of the World](../../cards/A/ara.md#arahbo-roar-of-the-world) (60.7% of its decks), [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (10.1% of its decks), [T'Challa, the Black Panther](../../cards/T/tc.md#tchalla-the-black-panther) (14.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/185/fleecemane-lion) · oracle_id `e3c8cdf7-a26a-45eb-9498-99b618cfba99` · printing: AFC #185 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fleetfeather Cockatrice
@@ -2970,6 +2980,8 @@ schema: 2
   - *2013-09-15* — On the stack, a spell with bestow is either a creature spell or an Aura spell. It's never both, although it's an enchantment spell in either case.
   - *2013-09-15* — Unlike other Aura spells, an Aura spell with bestow isn't countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature.
   - *2013-09-15* — Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/dance-flitterstep-2014-02-19-0), [Dance of the Flitterstep](https://magic.wizards.com/en/news/magic-story/dance-flitterstep-2014-02-19) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,495 decks; most often under [Kestia, the Cultivator](../../cards/K/ke.md#kestia-the-cultivator) (38.4% of its decks), [Millicent, Restless Revenant](../../cards/M/mil.md#millicent-restless-revenant) (2.1% of its decks), [Yuriko, the Tiger's Shadow](../../cards/Y/yu.md#yuriko-the-tigers-shadow) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/40/flitterstep-eidolon) · oracle_id `4280191f-e2cb-4cee-a3b4-660b3efd62e9` · printing: BNG #40 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Flitterwing Nuisance
@@ -3175,6 +3187,8 @@ schema: 2
   > *Once a prosperous Vantress town, now swept clean and reclaimed by the waters of the wilds.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #38 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Unwritten](https://magic.wizards.com/en/news/magic-story/unwritten-2015-01-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (26): [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Brago, King Eternal](../../decks/brago-king-eternal.md) · [Chulane, Teller of Tales](../../decks/chulane-teller-of-tales.md) · [Kykar, Wind's Fury](../../decks/kykar-winds-fury.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,178,743 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (42.1% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (34.3% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (29.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 32 pages (26 decks · 4 edh guides · 2 card data) → [reverse index](../../references/F.md#flooded-strand)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/220/flooded-strand) · oracle_id `f3c7af78-a77d-4134-82a2-a5ce84285a84` · printing: MH3 #220 (2024-06-14) · [rulings](https://api.scryfall.com/cards/8f85e12c-196b-4459-b81f-0c9c854e9f57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3249,7 +3263,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7740 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called "story spotlights"—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/F.md#flood-of-recollection)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): RIX #38 — ✅ Card art shown on [The Flood](https://magic.wizards.com/en/news/magic-story/flood-2018-01-10) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Talrand, Sky Summoner](../../decks/talrand-sky-summoner.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 18,612 decks; most often under [Talrand, Sky Summoner](../../cards/T/ta.md#talrand-sky-summoner) (27.7% of its decks), [Jace, Vryn's Prodigy](../../cards/J/ja.md#jace-vryns-prodigy--jace-telepath-unbound) (33.8% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (1.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/F.md#flood-of-recollection)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/61/flood-of-recollection) · oracle_id `02393093-e970-40a0-848b-9cd758450cbb` · printing: CMR #61 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Flood of Tears
@@ -3595,6 +3611,8 @@ schema: 2
   - *2022-12-08* — If you copy a spell that's half of a split card, the copy copies that same half. For example, if you copy Assault, the copy is also Assault, not Battery.
   - *2022-12-08* — Split cards have two card faces on a single card. The characteristics of the half you didn't cast are ignored while the spell is on the stack.
   - *2022-12-08* — To cast a split card, choose one of its halves to cast. There's no way to cast both halves of this split card.
+- **Lore:** ✅ Card art shown on [Bound and Bonded](https://magic.wizards.com/en/news/magic-story/bound-and-bonded-2018-11-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,063 decks; most often under [Codie, Vociferous Codex](../../cards/C/cod.md#codie-vociferous-codex) (2.1% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (0.6% of its decks), [Trostani, Selesnya's Voice](../../cards/T/tro.md#trostani-selesnyas-voice) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/226/flower-flourish) · oracle_id `2f8243a4-f347-4e18-9094-570b34df903b` · printing: GRN #226 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Flowerfoot Swordmaster

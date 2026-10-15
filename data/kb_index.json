@@ -416,10 +416,10 @@
 ],
 "related": [
 "Characters Index.md",
-"Items & Artifacts Index.md",
 "EDH Packages.md",
-"Planes Index.md",
 "Planeswalker Dossiers.md",
+"Items & Artifacts Index.md",
+"Planes Index.md",
 "Conflicts & Arcs.md"
 ]
 },
@@ -2547,7 +2547,8 @@
 ]
 ],
 "issues": [
-"26"
+"26",
+"102"
 ],
 "related": [
 "EDH Interaction.md",
@@ -5774,6 +5775,11 @@
 "changelog"
 ],
 "headings": [
+[
+2,
+"2026-10-15 — Bot cycle 34 (Phase 8: batch 2, package back-links, atomic writes)",
+"2026-10-15--bot-cycle-34-phase-8-batch-2-package-back-links-atomic-writes"
+],
 [
 2,
 "2026-10-15 — Bot cycle 33 (Phase 8: card enrichment format + batch 1)",
@@ -16354,6 +16360,11 @@
 ],
 [
 3,
+"Angelic Gift",
+"angelic-gift"
+],
+[
+3,
 "Angelic Page",
 "angelic-page"
 ],
@@ -16774,6 +16785,11 @@
 ],
 [
 3,
+"Arcades, the Strategist",
+"arcades-the-strategist"
+],
+[
+3,
 "Arcane Amphisbaena",
 "arcane-amphisbaena"
 ],
@@ -17111,6 +17127,11 @@
 3,
 "Armed // Dangerous",
 "armed--dangerous"
+],
+[
+3,
+"Armorcraft Judge",
+"armorcraft-judge"
 ],
 [
 3,
@@ -18821,6 +18842,11 @@
 ],
 [
 3,
+"Blast of Genius",
+"blast-of-genius"
+],
+[
+3,
 "Blast Zone",
 "blast-zone"
 ],
@@ -20198,6 +20224,11 @@
 ],
 [
 3,
+"Call of the Full Moon",
+"call-of-the-full-moon"
+],
+[
+3,
 "Call of the Nightwing",
 "call-of-the-nightwing"
 ],
@@ -20395,6 +20426,11 @@
 3,
 "Captain N'ghathrod",
 "captain-nghathrod"
+],
+[
+3,
+"Captain of the Watch",
+"captain-of-the-watch"
 ],
 [
 3,
@@ -21155,6 +21191,11 @@
 3,
 "Chief of the Foundry",
 "chief-of-the-foundry"
+],
+[
+3,
+"Chief of the Scale",
+"chief-of-the-scale"
 ],
 [
 3,
@@ -21953,6 +21994,11 @@
 ],
 [
 3,
+"Consecrated by Blood",
+"consecrated-by-blood"
+],
+[
+3,
 "Consecrated Sphinx",
 "consecrated-sphinx"
 ],
@@ -22045,6 +22091,11 @@
 3,
 "Contortionist Otter Storm",
 "contortionist-otter-storm"
+],
+[
+3,
+"Contraband Kingpin",
+"contraband-kingpin"
 ],
 [
 3,
@@ -22528,6 +22579,11 @@
 ],
 [
 3,
+"Crowned Ceratok",
+"crowned-ceratok"
+],
+[
+3,
 "Crown of Convergence",
 "crown-of-convergence"
 ],
@@ -22540,6 +22596,11 @@
 3,
 "Crown of Skemfar",
 "crown-of-skemfar"
+],
+[
+3,
+"Crow of Dark Tidings",
+"crow-of-dark-tidings"
 ],
 [
 3,
@@ -22610,6 +22671,11 @@
 3,
 "Crusade",
 "crusade"
+],
+[
+3,
+"Crushing Disappointment",
+"crushing-disappointment"
 ],
 [
 3,
@@ -22735,6 +22801,11 @@
 3,
 "Cult of Skaro",
 "cult-of-skaro"
+],
+[
+3,
+"Cunning Breezedancer",
+"cunning-breezedancer"
 ],
 [
 3,
@@ -23365,6 +23436,11 @@
 ],
 [
 3,
+"Dawntreader Elk",
+"dawntreader-elk"
+],
+[
+3,
 "Daxos the Returned",
 "daxos-the-returned"
 ],
@@ -23622,6 +23698,11 @@
 3,
 "Deepchannel Duelist",
 "deepchannel-duelist"
+],
+[
+3,
+"Deepfathom Skulker",
+"deepfathom-skulker"
 ],
 [
 3,
@@ -24155,6 +24236,11 @@
 ],
 [
 3,
+"Dina, Essence Brewer",
+"dina-essence-brewer"
+],
+[
+3,
 "Din of the Fireherd",
 "din-of-the-fireherd"
 ],
@@ -24680,6 +24766,11 @@
 ],
 [
 3,
+"Dovin's Acuity",
+"dovins-acuity"
+],
+[
+3,
 "Dovin's Veto",
 "dovins-veto"
 ],
@@ -24862,6 +24953,11 @@
 3,
 "Dragonstorm Globe",
 "dragonstorm-globe"
+],
+[
+3,
+"Dragon-Style Twins",
+"dragon-style-twins"
 ],
 [
 3,
@@ -25220,6 +25316,11 @@
 ],
 [
 3,
+"Dutiful Return",
+"dutiful-return"
+],
+[
+3,
 "Duty Beyond Death",
 "duty-beyond-death"
 ],
@@ -25394,6 +25495,11 @@
 3,
 "Edgar Markov",
 "edgar-markov"
+],
+[
+3,
+"Edgar's Awakening",
+"edgars-awakening"
 ],
 [
 3,
@@ -26012,6 +26118,11 @@
 ],
 [
 3,
+"Emrakul's Hatcher",
+"emrakuls-hatcher"
+],
+[
+3,
 "Emrakul's Messenger",
 "emrakuls-messenger"
 ],
@@ -26084,6 +26195,11 @@
 3,
 "Endless Horizons",
 "endless-horizons"
+],
+[
+3,
+"Endless Obedience",
+"endless-obedience"
 ],
 [
 3,
@@ -26254,6 +26370,16 @@
 3,
 "Éowyn, Shieldmaiden",
 "éowyn-shieldmaiden"
+],
+[
+3,
+"Ephara, God of the Polis",
+"ephara-god-of-the-polis"
+],
+[
+3,
+"Ephara's Enlightenment",
+"epharas-enlightenment"
 ],
 [
 3,
@@ -26459,6 +26585,11 @@
 3,
 "Eternal Witness",
 "eternal-witness"
+],
+[
+3,
+"Ethereal Absolution",
+"ethereal-absolution"
 ],
 [
 3,
@@ -26854,6 +26985,11 @@
 3,
 "Eye Collector",
 "eye-collector"
+],
+[
+3,
+"Eyeless Watcher",
+"eyeless-watcher"
 ],
 [
 3,
@@ -27349,6 +27485,11 @@
 ],
 [
 3,
+"Fearsome Awakening",
+"fearsome-awakening"
+],
+[
+3,
 "Feasting Hobbit",
 "feasting-hobbit"
 ],
@@ -27754,6 +27895,11 @@
 ],
 [
 3,
+"Firemind's Research",
+"fireminds-research"
+],
+[
+3,
 "Fire Nation Archers",
 "fire-nation-archers"
 ],
@@ -28156,6 +28302,11 @@
 3,
 "Font of Agonies",
 "font-of-agonies"
+],
+[
+3,
+"Font of Fertility",
+"font-of-fertility"
 ],
 [
 3,
@@ -28841,6 +28992,11 @@
 ],
 [
 3,
+"Garruk's Packleader",
+"garruks-packleader"
+],
+[
+3,
 "Garruk's Uprising",
 "garruks-uprising"
 ],
@@ -29316,6 +29472,11 @@
 ],
 [
 3,
+"Gideon's Phalanx",
+"gideons-phalanx"
+],
+[
+3,
 "Gideon's Reproach",
 "gideons-reproach"
 ],
@@ -29428,6 +29589,11 @@
 3,
 "Ginger, Queen of Sweets",
 "ginger-queen-of-sweets"
+],
+[
+3,
+"Gisa's Bidding",
+"gisas-bidding"
 ],
 [
 3,
@@ -29588,6 +29754,11 @@
 3,
 "Glimmer Lens",
 "glimmer-lens"
+],
+[
+3,
+"Glimmer of Genius",
+"glimmer-of-genius"
 ],
 [
 3,
@@ -30626,6 +30797,11 @@
 ],
 [
 3,
+"Groundswell",
+"groundswell"
+],
+[
+3,
 "Group Project",
 "group-project"
 ],
@@ -30783,6 +30959,11 @@
 3,
 "Guild Artisan",
 "guild-artisan"
+],
+[
+3,
+"Guild Summit",
+"guild-summit"
 ],
 [
 3,
@@ -31750,6 +31931,11 @@
 3,
 "High Score",
 "high-score"
+],
+[
+3,
+"High Sentinels of Arashin",
+"high-sentinels-of-arashin"
 ],
 [
 3,
@@ -33390,6 +33576,11 @@
 ],
 [
 3,
+"Isperia, Supreme Judge",
+"isperia-supreme-judge"
+],
+[
+3,
 "Isshin, Two Heavens as One",
 "isshin-two-heavens-as-one"
 ],
@@ -33432,6 +33623,11 @@
 3,
 "Ivory Tower",
 "ivory-tower"
+],
+[
+3,
+"Ivorytusk Fortress",
+"ivorytusk-fortress"
 ],
 [
 3,
@@ -33569,6 +33765,11 @@
 3,
 "Jace's Defeat",
 "jaces-defeat"
+],
+[
+3,
+"Jace's Ingenuity",
+"jaces-ingenuity"
 ],
 [
 3,
@@ -33764,6 +33965,11 @@
 3,
 "Jeskai Baller",
 "jeskai-baller"
+],
+[
+3,
+"Jeskai Elder",
+"jeskai-elder"
 ],
 [
 3,
@@ -33964,6 +34170,11 @@
 3,
 "Joraga Treespeaker",
 "joraga-treespeaker"
+],
+[
+3,
+"Jori En, Ruin Diver",
+"jori-en-ruin-diver"
 ],
 [
 3,
@@ -34709,6 +34920,11 @@
 ],
 [
 3,
+"Killian, Ink Duelist",
+"killian-ink-duelist"
+],
+[
+3,
 "Killmonger, Ruthless Usurper",
 "killmonger-ruthless-usurper"
 ],
@@ -35016,6 +35232,11 @@
 3,
 "Kokusho, the Evening Star",
 "kokusho-the-evening-star"
+],
+[
+3,
+"Kolaghan's Command",
+"kolaghans-command"
 ],
 [
 3,
@@ -35591,6 +35812,11 @@
 ],
 [
 3,
+"League Guildmage",
+"league-guildmage"
+],
+[
+3,
 "Ledger Shredder",
 "ledger-shredder"
 ],
@@ -35998,6 +36224,11 @@
 3,
 "Liliana's Elite",
 "lilianas-elite"
+],
+[
+3,
+"Liliana's Indignation",
+"lilianas-indignation"
 ],
 [
 3,
@@ -36813,6 +37044,11 @@
 ],
 [
 3,
+"Magmatic Insight",
+"magmatic-insight"
+],
+[
+3,
 "Magmaw",
 "magmaw"
 ],
@@ -37085,6 +37321,11 @@
 3,
 "Marchesa, Dealer of Death",
 "marchesa-dealer-of-death"
+],
+[
+3,
+"Marchesa's Infiltrator",
+"marchesas-infiltrator"
 ],
 [
 3,
@@ -37383,6 +37624,11 @@
 ],
 [
 3,
+"Mausoleum Guard",
+"mausoleum-guard"
+],
+[
+3,
 "Mavinda, Students' Advocate",
 "mavinda-students-advocate"
 ],
@@ -37470,6 +37716,11 @@
 3,
 "Meet and Greet \"Sisay\"",
 "meet-and-greet-sisay"
+],
+[
+3,
+"Meeting of the Five",
+"meeting-of-the-five"
 ],
 [
 3,
@@ -37588,6 +37839,11 @@
 ],
 [
 3,
+"Merciless Resolve",
+"merciless-resolve"
+],
+[
+3,
 "Mercurial Spelldancer",
 "mercurial-spelldancer"
 ],
@@ -37595,6 +37851,11 @@
 3,
 "Mercy Killing",
 "mercy-killing"
+],
+[
+3,
+"Mer-Ek Nightblade",
+"mer-ek-nightblade"
 ],
 [
 3,
@@ -38520,6 +38781,11 @@
 3,
 "Moonlight Bargain",
 "moonlight-bargain"
+],
+[
+3,
+"Moonring Mirror",
+"moonring-mirror"
 ],
 [
 3,
@@ -39950,6 +40216,11 @@
 ],
 [
 3,
+"Noyan Dar, Roil Shaper",
+"noyan-dar-roil-shaper"
+],
+[
+3,
 "Nulldrifter",
 "nulldrifter"
 ],
@@ -40897,6 +41168,11 @@
 ],
 [
 3,
+"Ovalchase Daredevil",
+"ovalchase-daredevil"
+],
+[
+3,
 "Overburden",
 "overburden"
 ],
@@ -41141,6 +41417,11 @@
 3,
 "Palace Jailer",
 "palace-jailer"
+],
+[
+3,
+"Palace Siege",
+"palace-siege"
 ],
 [
 3,
@@ -41414,6 +41695,11 @@
 ],
 [
 3,
+"Patron of the Valiant",
+"patron-of-the-valiant"
+],
+[
+3,
 "Patron of the Vein",
 "patron-of-the-vein"
 ],
@@ -41521,6 +41807,11 @@
 3,
 "Perch Protection",
 "perch-protection"
+],
+[
+3,
+"Peregrination",
+"peregrination"
 ],
 [
 3,
@@ -41874,6 +42165,11 @@
 ],
 [
 3,
+"Pia and Kiran Nalaar",
+"pia-and-kiran-nalaar"
+],
+[
+3,
 "Pia Nalaar",
 "pia-nalaar"
 ],
@@ -42219,6 +42515,11 @@
 ],
 [
 3,
+"Pore Over the Pages",
+"pore-over-the-pages"
+],
+[
+3,
 "Portal to Phyrexia",
 "portal-to-phyrexia"
 ],
@@ -42291,6 +42592,11 @@
 3,
 "Pox",
 "pox"
+],
+[
+3,
+"Practical Research",
+"practical-research"
 ],
 [
 3,
@@ -43056,6 +43362,11 @@
 ],
 [
 3,
+"Quiet Contemplation",
+"quiet-contemplation"
+],
+[
+3,
 "Quietus Spike",
 "quietus-spike"
 ],
@@ -43235,6 +43546,11 @@
 3,
 "Raid Bombardment",
 "raid-bombardment"
+],
+[
+3,
+"Raiders' Spoils",
+"raiders-spoils"
 ],
 [
 3,
@@ -44128,6 +44444,11 @@
 ],
 [
 3,
+"Remember the Fallen",
+"remember-the-fallen"
+],
+[
+3,
 "Remodel",
 "remodel"
 ],
@@ -44605,6 +44926,11 @@
 3,
 "Rings of Brighthearth",
 "rings-of-brighthearth"
+],
+[
+3,
+"Ringwarden Owl",
+"ringwarden-owl"
 ],
 [
 3,
@@ -45897,6 +46223,11 @@
 ],
 [
 3,
+"Scale Blessing",
+"scale-blessing"
+],
+[
+3,
 "Scaled Destruction",
 "scaled-destruction"
 ],
@@ -45929,6 +46260,11 @@
 3,
 "Scarblade's Malice",
 "scarblades-malice"
+],
+[
+3,
+"Scarland Thrinax",
+"scarland-thrinax"
 ],
 [
 3,
@@ -46134,6 +46470,11 @@
 3,
 "Scroll of Isildur",
 "scroll-of-isildur"
+],
+[
+3,
+"Scroll of the Masters",
+"scroll-of-the-masters"
 ],
 [
 3,
@@ -46912,6 +47253,11 @@
 ],
 [
 3,
+"Shapers' Sanctuary",
+"shapers-sanctuary"
+],
+[
+3,
 "Sharding Sphinx",
 "sharding-sphinx"
 ],
@@ -47272,8 +47618,18 @@
 ],
 [
 3,
+"Shu Yun, the Silent Tempest",
+"shu-yun-the-silent-tempest"
+],
+[
+3,
 "Sibling Rivalry",
 "sibling-rivalry"
+],
+[
+3,
+"Sibsig Muckdraggers",
+"sibsig-muckdraggers"
 ],
 [
 3,
@@ -47937,6 +48293,11 @@
 ],
 [
 3,
+"Smelt-Ward Minotaur",
+"smelt-ward-minotaur"
+],
+[
+3,
 "Smite the Monstrous",
 "smite-the-monstrous"
 ],
@@ -48507,6 +48868,11 @@
 ],
 [
 3,
+"Spectacular Skywhale",
+"spectacular-skywhale"
+],
+[
+3,
 "Spectacular Spider-Man",
 "spectacular-spider-man"
 ],
@@ -48594,6 +48960,11 @@
 3,
 "Sphinx of the Second Sun",
 "sphinx-of-the-second-sun"
+],
+[
+3,
+"Sphinx's Tutelage",
+"sphinxs-tutelage"
 ],
 [
 3,
@@ -49702,6 +50073,11 @@
 ],
 [
 3,
+"Student of Ojutai",
+"student-of-ojutai"
+],
+[
+3,
 "Study Break",
 "study-break"
 ],
@@ -50052,6 +50428,11 @@
 ],
 [
 3,
+"Sunset Revelry",
+"sunset-revelry"
+],
+[
+3,
 "Sunset Strikemaster",
 "sunset-strikemaster"
 ],
@@ -50144,6 +50525,11 @@
 3,
 "Surly Badgersaur",
 "surly-badgersaur"
+],
+[
+3,
+"Surrakar Marauder",
+"surrakar-marauder"
 ],
 [
 3,
@@ -50524,6 +50910,11 @@
 ],
 [
 3,
+"Take Up Arms",
+"take-up-arms"
+],
+[
+3,
 "Take Up the Shield",
 "take-up-the-shield"
 ],
@@ -50731,6 +51122,11 @@
 3,
 "Tasha, the Witch Queen",
 "tasha-the-witch-queen"
+],
+[
+3,
+"Tasigur, the Golden Fang",
+"tasigur-the-golden-fang"
 ],
 [
 3,
@@ -51379,6 +51775,11 @@
 ],
 [
 3,
+"Tezzeret's Ambition",
+"tezzerets-ambition"
+],
+[
+3,
 "Tezzeret's Gambit",
 "tezzerets-gambit"
 ],
@@ -51856,6 +52257,11 @@
 3,
 "The Lost and the Damned",
 "the-lost-and-the-damned"
+],
+[
+3,
+"The Magic Mirror",
+"the-magic-mirror"
 ],
 [
 3,
@@ -52534,6 +52940,11 @@
 ],
 [
 3,
+"Thrilling Discovery",
+"thrilling-discovery"
+],
+[
+3,
 "Thrill-Kill Assassin",
 "thrill-kill-assassin"
 ],
@@ -53131,6 +53542,11 @@
 3,
 "Tome of Legends",
 "tome-of-legends"
+],
+[
+3,
+"Tome of the Guildpact",
+"tome-of-the-guildpact"
 ],
 [
 3,
@@ -54868,6 +55284,11 @@
 ],
 [
 3,
+"Valeron Wardens",
+"valeron-wardens"
+],
+[
+3,
 "Valgavoth, Terror Eater",
 "valgavoth-terror-eater"
 ],
@@ -56495,6 +56916,11 @@
 ],
 [
 3,
+"Whisperer of the Wilds",
+"whisperer-of-the-wilds"
+],
+[
+3,
 "Whispering Madness",
 "whispering-madness"
 ],
@@ -57766,6 +58192,11 @@
 ],
 [
 3,
+"Zegana, Utopian Speaker",
+"zegana-utopian-speaker"
+],
+[
+3,
 "Zektar Shrine Expedition",
 "zektar-shrine-expedition"
 ],
@@ -57778,6 +58209,11 @@
 3,
 "Zendikar Farguide",
 "zendikar-farguide"
+],
+[
+3,
+"Zendikar Resurgent",
+"zendikar-resurgent"
 ],
 [
 3,
@@ -58097,7 +58533,8 @@
 "category": "lore",
 "tags": [
 "dossier",
-"planeswalker"
+"planeswalker",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58109,7 +58546,8 @@
 "category": "lore",
 "tags": [
 "dossier",
-"spark-lost"
+"spark-lost",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58121,7 +58559,8 @@
 "category": "lore",
 "tags": [
 "dossier",
-"spark-lost"
+"spark-lost",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58134,7 +58573,8 @@
 "tags": [
 "dossier",
 "has-secondary",
-"alive-or-active"
+"alive-or-active",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58148,7 +58588,8 @@
 "dossier",
 "has-unknowns",
 "has-non-canonical",
-"spark-given-up"
+"spark-given-up",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58161,7 +58602,8 @@
 "tags": [
 "dossier",
 "has-unknowns",
-"spark-faded"
+"spark-faded",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58174,7 +58616,8 @@
 "tags": [
 "dossier",
 "has-unknowns",
-"planeswalker"
+"planeswalker",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58187,7 +58630,8 @@
 "tags": [
 "dossier",
 "has-unknowns",
-"planeswalker"
+"planeswalker",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58227,7 +58671,8 @@
 "tags": [
 "dossier",
 "has-unknowns",
-"dead"
+"dead",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58240,7 +58685,8 @@
 "tags": [
 "dossier",
 "has-unknowns",
-"status-unknown"
+"status-unknown",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58252,7 +58698,8 @@
 "category": "lore",
 "tags": [
 "dossier",
-"dead"
+"dead",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58279,7 +58726,8 @@
 "tags": [
 "dossier",
 "has-secondary",
-"status-unknown"
+"status-unknown",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58291,7 +58739,8 @@
 "category": "lore",
 "tags": [
 "dossier",
-"alive-or-active"
+"alive-or-active",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58304,7 +58753,8 @@
 "tags": [
 "dossier",
 "has-unknowns",
-"alive-or-active"
+"alive-or-active",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58331,7 +58781,8 @@
 "tags": [
 "dossier",
 "has-unknowns",
-"planeswalker"
+"planeswalker",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58358,7 +58809,8 @@
 "tags": [
 "dossier",
 "has-unknowns",
-"planeswalker"
+"planeswalker",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58371,7 +58823,8 @@
 "tags": [
 "dossier",
 "has-unknowns",
-"planeswalker"
+"planeswalker",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58383,7 +58836,8 @@
 "category": "lore",
 "tags": [
 "dossier",
-"dead"
+"dead",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58408,7 +58862,8 @@
 "tags": [
 "dossier",
 "has-unknowns",
-"alive-or-active"
+"alive-or-active",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58421,7 +58876,8 @@
 "tags": [
 "dossier",
 "has-unknowns",
-"spark-faded"
+"spark-faded",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58433,7 +58889,8 @@
 "category": "lore",
 "tags": [
 "dossier",
-"alive-or-active"
+"alive-or-active",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58446,7 +58903,8 @@
 "tags": [
 "dossier",
 "has-unknowns",
-"spark-lost"
+"spark-lost",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58459,7 +58917,8 @@
 "tags": [
 "dossier",
 "has-unknowns",
-"spark-lost"
+"spark-lost",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58471,7 +58930,8 @@
 "category": "lore",
 "tags": [
 "dossier",
-"alive-or-active"
+"alive-or-active",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58484,7 +58944,8 @@
 "tags": [
 "dossier",
 "has-unknowns",
-"status-unknown"
+"status-unknown",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58497,7 +58958,8 @@
 "tags": [
 "dossier",
 "has-unknowns",
-"status-unknown"
+"status-unknown",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58511,7 +58973,8 @@
 "dossier",
 "has-unknowns",
 "has-non-canonical",
-"dead"
+"dead",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58523,7 +58986,8 @@
 "category": "lore",
 "tags": [
 "dossier",
-"dead"
+"dead",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58537,7 +59001,8 @@
 "dossier",
 "has-secondary",
 "has-unknowns",
-"status-unknown"
+"status-unknown",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58549,7 +59014,8 @@
 "category": "lore",
 "tags": [
 "dossier",
-"has-unknowns"
+"has-unknowns",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58562,7 +59028,8 @@
 "tags": [
 "dossier",
 "has-unknowns",
-"alive-or-active"
+"alive-or-active",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58731,7 +59198,8 @@
 "tags": [
 "plane",
 "has-secondary",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -58850,7 +59318,8 @@
 "category": "lore",
 "tags": [
 "plane",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59155,7 +59624,8 @@
 "category": "lore",
 "tags": [
 "item",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59232,7 +59702,8 @@
 "category": "lore",
 "tags": [
 "item",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59286,7 +59757,8 @@
 "category": "lore",
 "tags": [
 "item",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59398,7 +59870,8 @@
 "category": "lore",
 "tags": [
 "item",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59757,7 +60230,8 @@
 "tags": [
 "character",
 "has-non-canonical",
-"alive-or-active"
+"alive-or-active",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59769,7 +60243,8 @@
 "category": "lore",
 "tags": [
 "character",
-"alive-or-active"
+"alive-or-active",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59783,7 +60258,8 @@
 "character",
 "has-secondary",
 "has-non-canonical",
-"status-unknown"
+"status-unknown",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59808,7 +60284,8 @@
 "category": "lore",
 "tags": [
 "character",
-"dead"
+"dead",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59821,7 +60298,8 @@
 "tags": [
 "character",
 "has-secondary",
-"status-unknown"
+"status-unknown",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59834,7 +60312,8 @@
 "tags": [
 "character",
 "has-secondary",
-"status-unknown"
+"status-unknown",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59846,7 +60325,8 @@
 "category": "lore",
 "tags": [
 "character",
-"dead"
+"dead",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59858,7 +60338,8 @@
 "category": "lore",
 "tags": [
 "character",
-"dead"
+"dead",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59870,7 +60351,8 @@
 "category": "lore",
 "tags": [
 "character",
-"dead"
+"dead",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59883,7 +60365,8 @@
 "tags": [
 "character",
 "has-non-canonical",
-"dead"
+"dead",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59895,7 +60378,8 @@
 "category": "lore",
 "tags": [
 "character",
-"spark-given-up"
+"spark-given-up",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59907,7 +60391,8 @@
 "category": "lore",
 "tags": [
 "character",
-"spark-faded"
+"spark-faded",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59919,7 +60404,8 @@
 "category": "lore",
 "tags": [
 "character",
-"dead"
+"dead",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59931,7 +60417,8 @@
 "category": "lore",
 "tags": [
 "character",
-"dead"
+"dead",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59956,7 +60443,8 @@
 "category": "lore",
 "tags": [
 "character",
-"dead"
+"dead",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59981,7 +60469,8 @@
 "category": "lore",
 "tags": [
 "character",
-"planeswalker"
+"planeswalker",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -59994,7 +60483,8 @@
 "tags": [
 "character",
 "has-non-canonical",
-"dead"
+"dead",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60006,7 +60496,8 @@
 "category": "lore",
 "tags": [
 "character",
-"spark-lost"
+"spark-lost",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60018,7 +60509,8 @@
 "category": "lore",
 "tags": [
 "character",
-"spark-lost"
+"spark-lost",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60031,7 +60523,8 @@
 "tags": [
 "character",
 "has-unknowns",
-"planeswalker"
+"planeswalker",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60057,7 +60550,8 @@
 "tags": [
 "character",
 "has-unknowns",
-"planeswalker"
+"planeswalker",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60069,7 +60563,8 @@
 "category": "lore",
 "tags": [
 "character",
-"alive-or-active"
+"alive-or-active",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60082,7 +60577,8 @@
 "tags": [
 "character",
 "has-unknowns",
-"status-unknown"
+"status-unknown",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60094,7 +60590,8 @@
 "category": "lore",
 "tags": [
 "character",
-"alive-or-active"
+"alive-or-active",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60107,7 +60604,8 @@
 "tags": [
 "character",
 "has-non-canonical",
-"dead"
+"dead",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60119,7 +60617,8 @@
 "category": "lore",
 "tags": [
 "character",
-"planeswalker"
+"planeswalker",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60157,7 +60656,8 @@
 "category": "lore",
 "tags": [
 "character",
-"planeswalker"
+"planeswalker",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60182,7 +60682,8 @@
 "category": "lore",
 "tags": [
 "character",
-"planeswalker"
+"planeswalker",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60194,7 +60695,8 @@
 "category": "lore",
 "tags": [
 "character",
-"planeswalker"
+"planeswalker",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60206,7 +60708,8 @@
 "category": "lore",
 "tags": [
 "character",
-"spark-faded"
+"spark-faded",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60218,7 +60721,8 @@
 "category": "lore",
 "tags": [
 "character",
-"spark-lost"
+"spark-lost",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60230,7 +60734,8 @@
 "category": "lore",
 "tags": [
 "character",
-"spark-lost"
+"spark-lost",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60243,7 +60748,8 @@
 "tags": [
 "character",
 "has-unknowns",
-"spark-lost"
+"spark-lost",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60255,7 +60761,8 @@
 "category": "lore",
 "tags": [
 "character",
-"spark-lost"
+"spark-lost",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60280,7 +60787,8 @@
 "category": "lore",
 "tags": [
 "character",
-"dead"
+"dead",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60293,7 +60801,8 @@
 "tags": [
 "character",
 "has-non-canonical",
-"alive-or-active"
+"alive-or-active",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60305,7 +60814,8 @@
 "category": "lore",
 "tags": [
 "character",
-"alive-or-active"
+"alive-or-active",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60318,7 +60828,8 @@
 "tags": [
 "character",
 "has-unknowns",
-"alive-or-active"
+"alive-or-active",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60396,7 +60907,8 @@
 "category": "lore",
 "tags": [
 "character",
-"planeswalker"
+"planeswalker",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60433,7 +60945,8 @@
 "category": "lore",
 "tags": [
 "character",
-"planeswalker"
+"planeswalker",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60445,7 +60958,8 @@
 "category": "lore",
 "tags": [
 "character",
-"planeswalker"
+"planeswalker",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60471,7 +60985,8 @@
 "tags": [
 "character",
 "has-non-canonical",
-"alive-or-active"
+"alive-or-active",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60483,7 +60998,8 @@
 "category": "lore",
 "tags": [
 "character",
-"planeswalker"
+"planeswalker",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60496,7 +61012,8 @@
 "tags": [
 "character",
 "has-unknowns",
-"status-unknown"
+"status-unknown",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60509,7 +61026,8 @@
 "tags": [
 "character",
 "has-secondary",
-"status-unknown"
+"status-unknown",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60522,7 +61040,8 @@
 "tags": [
 "character",
 "has-unknowns",
-"status-unknown"
+"status-unknown",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60534,7 +61053,8 @@
 "category": "lore",
 "tags": [
 "character",
-"alive-or-active"
+"alive-or-active",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60547,7 +61067,8 @@
 "tags": [
 "character",
 "has-unknowns",
-"status-unknown"
+"status-unknown",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60561,7 +61082,8 @@
 "character",
 "has-unknowns",
 "has-non-canonical",
-"status-unknown"
+"status-unknown",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60574,7 +61096,8 @@
 "tags": [
 "character",
 "has-unknowns",
-"alive-or-active"
+"alive-or-active",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60587,7 +61110,8 @@
 "tags": [
 "character",
 "has-secondary",
-"status-unknown"
+"status-unknown",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60599,7 +61123,8 @@
 "category": "lore",
 "tags": [
 "character",
-"dead"
+"dead",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60612,7 +61137,8 @@
 "tags": [
 "character",
 "has-unknowns",
-"status-unknown"
+"status-unknown",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60625,7 +61151,8 @@
 "tags": [
 "character",
 "has-secondary",
-"status-unknown"
+"status-unknown",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60638,7 +61165,8 @@
 "tags": [
 "character",
 "has-unknowns",
-"status-unknown"
+"status-unknown",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60651,7 +61179,8 @@
 "tags": [
 "character",
 "has-unknowns",
-"status-unknown"
+"status-unknown",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60665,7 +61194,8 @@
 "character",
 "has-unknowns",
 "has-non-canonical",
-"status-unknown"
+"status-unknown",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60678,7 +61208,8 @@
 "tags": [
 "character",
 "has-unknowns",
-"dead"
+"dead",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60718,7 +61249,8 @@
 "character",
 "has-secondary",
 "has-unknowns",
-"alive-or-active"
+"alive-or-active",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60730,7 +61262,8 @@
 "category": "lore",
 "tags": [
 "character",
-"dead"
+"dead",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60985,7 +61518,8 @@
 "arc",
 "has-secondary",
 "has-unknowns",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },
@@ -60998,7 +61532,8 @@
 "tags": [
 "arc",
 "has-secondary",
-"has-cards"
+"has-cards",
+"has-enriched-cards"
 ],
 "headings": []
 },

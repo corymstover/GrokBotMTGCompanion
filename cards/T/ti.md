@@ -280,6 +280,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-05-03* — If an effect says to set an opponent's life total to a number that's higher than their current life total while Tibalt is on the battlefield, the player's life total doesn't change.
   - *2019-05-03* — Spells and abilities that cause opponents to gain life still resolve while Tibalt is on the battlefield. No opponent will gain life, but any other effects of that spell or ability will happen.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Tibalt](../../Characters%20Index.md#tibalt) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 10,297 decks; most often under [Zurzoth, Chaos Rider](../../cards/Z/zu.md#zurzoth-chaos-rider) (39.5% of its decks), [Raphael, Fiendish Savior](../../cards/R/rap.md#raphael-fiendish-savior) (19.7% of its decks), [Torbran, Thane of Red Fell](../../cards/T/to.md#torbran-thane-of-red-fell) (7.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/T.md#tibalt-rakish-instigator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/146/tibalt-rakish-instigator) · oracle_id `0b768f8f-2213-45b9-bced-8fb1bbb441c3` · printing: WAR #146 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -331,6 +333,8 @@ schema: 2
   - *2019-11-12* — The copy is created outside the game. After the copy resolves, it ceases to exist.
   - *2019-11-12* — You cast the copy while Tibalt’s ability is resolving. You can’t wait to cast it later in the turn.
   - *2019-11-12* — You cast the copy without paying its mana cost. Note that this is unique to Tibalt and is not the normal process for casting a copy of a card. If this card survived playtesting, we’d probably add words to make it more obvious.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Tibalt](../../Characters%20Index.md#tibalt) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/T.md#tibalt-the-chaotic)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/66/tibalt-the-chaotic) · oracle_id `f8e4f19a-c224-4e42-b80b-69fa12d46c12` · printing: CMB2 #66 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -347,6 +351,8 @@ schema: 2
 - **Rulings** (2):
   - *2012-05-01* — The number of cards in the target player's hand is determined when Tibalt's second ability resolves.
   - *2012-05-01* — When Tibalt's third ability resolves, all creatures will become untapped and gain haste, including ones you controlled before the ability resolved.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Tibalt](../../Characters%20Index.md#tibalt) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,312 decks; most often under [Commodore Guff](../../cards/C/com.md#commodore-guff) (1.6% of its decks), [Zurzoth, Chaos Rider](../../cards/Z/zu.md#zurzoth-chaos-rider) (3.3% of its decks), [Adamaro, First to Desire](../../cards/A/ad.md#adamaro-first-to-desire) (17.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#tibalt-the-fiend-blooded)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddk/41/tibalt-the-fiend-blooded) · oracle_id `ee9c57c6-41ef-4328-8417-e5a433eadf17` · printing: DDK #41 (2013-03-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1299,6 +1305,8 @@ schema: 2
   > *Tazeem's embrace is harsh, but for those that call it home, nothing else will do.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9031 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Chronicle of Bolas: The Twins](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-twins-2018-06-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 14,679 decks; most often under [Atarka, World Render](../../cards/A/at.md#atarka-world-render) (36.7% of its decks), [Tovolar, Dire Overlord](../../cards/T/to.md#tovolar-dire-overlord--tovolar-the-midnight-scourge) (5.4% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#timber-gorge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/258/timber-gorge) · oracle_id `00b34fab-5a80-4a4d-b6cf-72479197677a` · printing: M19 #258 (2018-07-13) · [rulings](https://api.scryfall.com/cards/07076412-18fe-4e15-bdb5-17111b4a66db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1939,6 +1947,8 @@ schema: 2
   - *2013-09-15* — If neither creature is a legal target when Time to Feed tries to resolve, the spell won't resolve and none of its effects will happen.
   - *2013-09-15* — If the first target creature dies that turn, you'll gain 3 life no matter what caused the creature to die or who controls the creature at that time.
   - *2013-09-15* — Time to Feed has two targets: a creature an opponent controls and a creature you control. If only one of those creatures is a legal target when Time to Feed tries to resolve, the creatures won't fight and neither will deal or be dealt damage. If the creature you don't control is the illegal target, you won't gain life when it dies.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/building-toward-dream-part-2-2013-12-03), [official story page](https://magic.wizards.com/en/news/feature/building-toward-dream-part-2-2013-12-04) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,616 decks; most often under [Shelob, Child of Ungoliant](../../cards/S/she.md#shelob-child-of-ungoliant) (0.5% of its decks), [Slinza, the Spiked Stampede](../../cards/S/sl.md#slinza-the-spiked-stampede) (0.7% of its decks), [Lathiel, the Bounteous Dawn](../../cards/L/la.md#lathiel-the-bounteous-dawn) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/438/time-to-feed) · oracle_id `59642d6f-8a25-4f79-9e81-643eac775658` · printing: JMP #438 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Time to Reflect
@@ -1954,6 +1964,8 @@ schema: 2
 - **Rulings** (2):
   - *2017-04-18* — Time to Reflect can target a creature that’s currently blocking or being blocked by a Zombie, or one that blocked or was blocked by a Zombie earlier in the turn.
   - *2017-04-18* — Time to Reflect only cares that the second creature was a Zombie at the moment it blocked or became blocked by the target creature. If that Zombie has become a non-Zombie creature or left the battlefield, Time to Reflect can still target the first creature.
+- **Lore:** ✅ Card art shown on [Judgment](https://magic.wizards.com/en/news/magic-story/judgment-2017-05-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 970 decks; most often under [Varina, Lich Queen](../../cards/V/va.md#varina-lich-queen) (2.0% of its decks), [Temmet, Naktamun's Will](../../cards/T/te.md#temmet-naktamuns-will) (1.1% of its decks), [God-Eternal Oketra](../../cards/G/god.md#god-eternal-oketra) (3.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#time-to-reflect)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/33/time-to-reflect) · oracle_id `7ce28a3c-5f93-4434-918e-1e74f9fc71d8` · printing: AKH #33 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2531,6 +2543,8 @@ schema: 2
   - *2017-09-29* — Because damage remains marked on a creature until it's removed as the turn ends, the damage Tishana takes during combat may become lethal if cards leave your hand later in the turn, such as by casting them in your postcombat main phase.
   - *2017-09-29* — If Tishana enters the battlefield while you have no cards in hand, it will be put into your graveyard for having 0 toughness before its triggered ability resolves.
   - *2017-09-29* — The number of creatures you control is counted only as Tishana's last ability resolves. If Tishana is still on the battlefield, it'll count itself.
+- **Lore:** ✅ Card art shown on [The Race, Part 1](https://magic.wizards.com/en/news/magic-story/race-part-1-2017-10-11), [The Shapers](https://magic.wizards.com/en/news/magic-story/shapers-2017-09-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Tishana, Voice of Thunder + Mind Over Matter + Deadeye Navigator](https://commanderspellbook.com/combo/1409-3447-4067/) (Infinite draw triggers, Near-infinite blinking) · EDHREC as commander: 695 decks; highest synergy [Psychosis Crawler](../../cards/P/ps.md#psychosis-crawler) (+49%), [Prime Speaker Zegana](../../cards/P/pr.md#prime-speaker-zegana) (+45%), [Body of Knowledge](../../cards/B/bo.md#body-of-knowledge) (+44%) · EDHREC: in 27,807 decks; most often under [Hakbal of the Surging Soul](../../cards/H/ha.md#hakbal-of-the-surging-soul) (43.4% of its decks), [Kumena, Tyrant of Orazca](../../cards/K/ku.md#kumena-tyrant-of-orazca) (39.0% of its decks), [Animar, Soul of Elements](../../cards/A/an.md#animar-soul-of-elements) (7.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/291/tishana-voice-of-thunder) · oracle_id `479dd04b-0048-446a-9202-a4dc9472e5c3` · printing: LCC #291 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Titanbones, Towering Heart
@@ -2911,6 +2925,8 @@ schema: 2
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6999 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-down-to-the-lake-alone) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 21,580 decks; most often under [Dina, Essence Brewer](../../cards/D/di.md#dina-essence-brewer) (45.2% of its decks), [Blech, Loafing Pest](../../cards/B/ble.md#blech-loafing-pest) (19.9% of its decks), [Witherbloom, the Balancer](../../cards/W/wi.md#witherbloom-the-balancer) (9.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/266/titans-grave) · oracle_id `595f0eb5-f521-4174-9c48-b89e85ea907c` · printing: SOS #266 (2026-04-24) · [rulings](https://api.scryfall.com/cards/a9ab41c8-3ee2-4676-9b8b-20c34d9f5f21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Titans' Nest
@@ -3024,6 +3040,8 @@ schema: 2
   > *—Teysa*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29521 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [War of the Spark: Ravnica – Rallying the Reluctant](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 260 decks; most often under [Oloro, Ageless Ascetic](../../cards/O/ol.md#oloro-ageless-ascetic) (0.1% of its decks), [Araumi of the Dead Tide](../../cards/A/ara.md#araumi-of-the-dead-tide) (0.2% of its decks), [Zurgo, Thunder's Decree](../../cards/Z/zu.md#zurgo-thunders-decree) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#tithebearer-giant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/124/tithebearer-giant) · oracle_id `475aaf7c-b0f8-40f3-ad91-3e7d414de933` · printing: CLU #124 (2024-02-23) · [rulings](https://api.scryfall.com/cards/4f1db7bc-30c5-45fd-9a45-ede37716736d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

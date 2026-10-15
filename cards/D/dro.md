@@ -109,6 +109,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14089 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-04-08* — The Spirit tokens created by Drogskol Cavalry will cause its second ability to trigger, as well as any other Spirits you cast or Spirit tokens you put onto the battlefield another way.
+- **Lore:** ✅ Card art shown on [Saint Traft and the Flight of Nightmares](https://magic.wizards.com/en/news/magic-story/saint-traft-and-flight-nightmares-2016-07-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Corpse Dance + Lord of the Forsaken + Spectral Arcanist + Skirge Familiar + Drogskol Cavalry](https://commanderspellbook.com/combo/313-1742-1745-3503-4357/) (Infinite death triggers, Infinite creature ETB) · EDHREC: in 6,389 decks; most often under [King of the Oathbreakers](../../cards/K/ki.md#king-of-the-oathbreakers) (52.5% of its decks), [Millicent, Restless Revenant](../../cards/M/mil.md#millicent-restless-revenant) (17.8% of its decks), [Thalisse, Reverent Medium](../../cards/T/tha.md#thalisse-reverent-medium) (6.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#drogskol-cavalry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/15/drogskol-cavalry) · oracle_id `a8bac5a8-5a60-4f7a-a4d6-cb922da92472` · printing: SOI #15 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -192,6 +194,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30127 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2005-10-01* — Each time Dromad Purebred is dealt damage, including from multiple sources at once, you gain 1 life. You don’t gain life equal to the damage dealt.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/barrins-tall-tale-2013-04-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 207 decks; most often under [Wayta, Trainer Prodigy](../../cards/W/way.md#wayta-trainer-prodigy) (0.6% of its decks), [Doran, Besieged by Time](../../cards/D/do.md#doran-besieged-by-time) (0.1% of its decks), [Baldin, Century Herdmaster](../../cards/B/bal.md#baldin-century-herdmaster) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/15/dromad-purebred) · oracle_id `c7adac8f-8187-49a0-80b2-3281d42f1b92` · printing: RAV #15 (2005-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dromar's Attendant
@@ -318,6 +322,8 @@ schema: 2
   - *2015-02-25* — You can choose a mode only if you can choose legal targets for that mode. Ignore the targeting requirements for modes that aren't chosen. For example, you can cast Ojutai's Command without targeting a creature spell provided you don't choose the third mode.
   - *2015-02-25* — You can target any player with the second ability, including one that doesn't control an enchantment.
   - *2015-02-25* — You choose the two modes as you cast the spell. You must choose two different modes. Once modes are chosen, they can't be changed.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Dragons of Tarkir, Part 2](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-dragons-tarkir-part-2-2015-03-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 20,393 decks; most often under [Shalai and Hallar](../../cards/S/sha.md#shalai-and-hallar) (19.8% of its decks), [Bright-Palm, Soul Awakener](../../cards/B/br.md#bright-palm-soul-awakener) (41.9% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (5.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 rules) → [reverse index](../../references/D.md#dromokas-command)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/323/dromokas-command) · oracle_id `3bd8ea71-cbcc-4659-b9a8-88cf27ee12d8` · printing: MOC #323 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -334,6 +340,8 @@ schema: 2
 - **Rulings** (2):
   - *2015-02-25* — Bolster itself doesn’t target any creature, though some spells and abilities that bolster may have other effects that target creatures. For example, you could put counters on a creature with protection from white with Aven Tactician’s bolster ability.
   - *2015-02-25* — You determine which creature to put counters on as the spell or ability that instructs you to bolster resolves. That could be the creature with the bolster ability, if it’s still under your control and has the least toughness.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Dragons of Tarkir, Part 2](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-dragons-tarkir-part-2-2015-03-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 446 decks; most often under [Dromoka, the Eternal](../../cards/D/dro.md#dromoka-the-eternal) (7.9% of its decks), [Dragonlord Dromoka](../../cards/D/dra.md#dragonlord-dromoka) (4.8% of its decks), [Anafenza, the Foremost](../../cards/A/an.md#anafenza-the-foremost) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/184/dromokas-gift) · oracle_id `1264da2f-4767-4bec-b4ed-1c625ac3cf95` · printing: DTK #184 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dromoka, the Eternal
@@ -353,6 +361,8 @@ schema: 2
   - *2014-11-24* — Bolster itself doesn’t target any creature, though some spells and abilities that bolster may have other effects that target creatures. For example, you could put counters on a creature with protection from white with Abzan Skycaptain’s bolster ability.
   - *2014-11-24* — Each Dragon you attack with will cause Dromoka’s triggered ability to trigger. For each instance of the ability, you’ll determine which creature to put +1/+1 counters on as it resolves. Specifically, the creature you control with the lowest toughness as the first such ability resolves may not have the lowest toughness as the second such ability resolves.
   - *2014-11-24* — You determine which creature to put counters on as the spell or ability that instructs you to bolster resolves.
+- **Lore:** ✅ Card art shown on [No End and No Beginning](https://magic.wizards.com/en/news/magic-story/no-end-and-no-beginning-2015-02-11) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 556 decks; highest synergy [Enduring Scalelord](../../cards/E/en.md#enduring-scalelord) (+87%), [Sunscorch Regent](../../cards/S/sun.md#sunscorch-regent) (+85%), [Guardian Scalelord](../../cards/G/gu.md#guardian-scalelord) (+74%) · EDHREC: in 12,682 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (13.4% of its decks), [Tiamat](../../cards/T/ti.md#tiamat) (7.6% of its decks), [Rith, Liberated Primeval](../../cards/R/ri.md#rith-liberated-primeval) (43.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/170/dromoka-the-eternal) · oracle_id `73520b5a-3d55-40c9-af60-90fdd811934f` · printing: C17 #170 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dromoka Warrior
@@ -366,6 +376,8 @@ schema: 2
   > *Dromoka has regard for the humans who serve under her. In return for her protection, they obey with steadfast loyalty, acting as weapons for her and her scalelords against the other clans.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22329 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Dragons of Tarkir, Part 2](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-dragons-tarkir-part-2-2015-03-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,435 decks; most often under [Jasmine Boreal of the Seven](../../cards/J/ja.md#jasmine-boreal-of-the-seven) (16.2% of its decks), [Isamaru, Hound of Konda](../../cards/I/is.md#isamaru-hound-of-konda) (4.5% of its decks), [Jasmine Boreal](../../cards/J/ja.md#jasmine-boreal) (23.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/14/dromoka-warrior) · oracle_id `f62998a7-898f-494f-89a1-624f6236033b` · printing: DTK #14 (2015-03-27) · [rulings](https://api.scryfall.com/cards/13ae001b-556f-4576-8cf4-0b8902997bb1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dromosaur
@@ -1029,6 +1041,8 @@ schema: 2
   > *—Jace Beleren*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1989 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Drownyard Temple](https://magic.wizards.com/en/news/magic-story/drownyard-temple-2016-04-06), [Games](https://magic.wizards.com/en/news/magic-story/games-2016-04-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Lotus Cobra + Squandered Resources + Amulet of Vigor + Drownyard Temple](https://commanderspellbook.com/combo/654-1021-2167-3470/) (Infinite landfall triggers) · EDHREC: in 83,103 decks; most often under [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (37.8% of its decks), [Zimone, Mystery Unraveler](../../cards/Z/zi.md#zimone-mystery-unraveler) (49.9% of its decks), [Mirko, Obsessive Theorist](../../cards/M/mir.md#mirko-obsessive-theorist) (33.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/D.md#drownyard-temple)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/359/drownyard-temple) · oracle_id `c30f9be4-c274-4ad0-b5d7-7d3421aa4277` · printing: TDC #359 (2025-04-11) · [rulings](https://api.scryfall.com/cards/dbc8512a-9f6c-40d4-8049-14505e260746/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

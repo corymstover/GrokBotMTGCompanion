@@ -246,6 +246,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-10-04* — As these lands are entering the battlefield, they check for lands that are already on the battlefield. They won't see lands that are entering the battlefield at the same time (due to Scapeshift, for example).
   - *2019-10-04* — If another effect puts these lands onto the battlefield tapped, they enter tapped, even if you control enough lands with the appropriate basic land type.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Eldraine](https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 38,238 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (10.3% of its decks), [Elesh Norn, Mother of Machines](../../cards/E/el.md#elesh-norn-mother-of-machines) (10.7% of its decks), [Brigone, Soldier of Meletis](../../cards/B/br.md#brigone-soldier-of-meletis) (45.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/246/idyllic-grange) · oracle_id `23d349a0-e441-40b8-b634-13e61440a7c8` · printing: ELD #246 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Idyllic Tutor

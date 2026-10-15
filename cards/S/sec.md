@@ -537,6 +537,8 @@ schema: 2
   - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MID #73 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,637 decks; most often under [Lonis, Cryptozoologist](../../cards/L/lo.md#lonis-cryptozoologist) (8.3% of its decks), [Lazav, Wearer of Faces](../../cards/L/la.md#lazav-wearer-of-faces) (23.7% of its decks), [Galazeth Prismari](../../cards/G/ga.md#galazeth-prismari) (5.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/73/secrets-of-the-key) · oracle_id `55c7ce94-3cd3-42f3-9dd8-0c118fa626c8` · printing: MID #73 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secret Summoning

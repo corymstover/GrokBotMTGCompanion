@@ -1,6 +1,7 @@
 """Build "EDH Archetypes.md" (Bot cycle 4): one guide per archetype, assembled from repo data only —
 validated deck skeletons, Oracle text (Scryfall bulk), EDH Staples role lists, rulings-backed synergy notes,
 Rules Interactions topics, and Commander Spellbook combos (data/combos.json). Strategy text is labeled Opinion."""
+import atomic_io  # noqa: F401  atomic Path.write_text/write_bytes (Bot cycle 34)
 import csv, gzip, json, re, sys, pathlib, collections
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts")); import ingest_scryfall as ing
@@ -82,5 +83,5 @@ for name, decks, stap, pat, rules, synw, plan in A:
             o.append(f"- {' + '.join(L(n) for n in r['cards'])} — {', '.join(r['produces'][:2])} ([{r['id']}](https://commanderspellbook.com/combo/{r['id']}/))")
         if len(tc) > 6: o.append(f"- … {len(tc)-6} more in the deck files.")
         o.append("")
-open(ROOT / "EDH Archetypes.md", "w").write("\n".join(o) + "\n")
+(ROOT / "EDH Archetypes.md").write_text("\n".join(o) + "\n")
 print("archetypes", len(A))

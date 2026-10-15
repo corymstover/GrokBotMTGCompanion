@@ -340,6 +340,8 @@ schema: 2
   > {3}{G}, {T}, Sacrifice this land: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #945 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Nissa's Resolve](https://magic.wizards.com/en/news/magic-story/nissas-resolve-2015-10-07) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Omnath, Locus of Rage (Zendikar-only)](../../decks/plane-zendikar-omnath-locus-of-rage.md) · Commander Spellbook: 30 combos; most popular [Tifa Lockhart + Scale Up + Blighted Woodland](https://commanderspellbook.com/combo/6158-7675-7676/) (Target opponent loses the game) · EDHREC: in 160,881 decks; most often under [Aesi, Tyrant of Gyre Strait](../../cards/A/ae.md#aesi-tyrant-of-gyre-strait) (32.8% of its decks), [Tifa Lockhart](../../cards/T/ti.md#tifa-lockhart) (28.0% of its decks), [Omnath, Locus of Rage](../../cards/O/om.md#omnath-locus-of-rage) (35.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/B.md#blighted-woodland)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/881/blighted-woodland) · oracle_id `02679a2e-303d-412f-87d8-0a37a8ca259c` · printing: CLB #881 (2022-06-10) · [rulings](https://api.scryfall.com/cards/94e0ad38-31b3-46ba-9999-9b6ff57906ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1011,6 +1013,8 @@ schema: 2
 - **Rulings** (2):
   - *2020-08-07* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
   - *2020-08-07* — Blinkmoth Nexus can be the target of its last ability after activating its middle ability. Activating it after it has blocked a creature won't remove it from combat or stop it from dealing and being dealt combat damage.
+- **Lore:** ✅ Card art shown on [Nissa's Resolve](https://magic.wizards.com/en/news/magic-story/nissas-resolve-2015-10-07) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 11 combos; most popular [Blinkmoth Nexus + Springheart Nantuko + Tireless Provisioner](https://commanderspellbook.com/combo/3875-4806-5702/) (Infinite landfall triggers, Infinite tapped copies of a specific land) · EDHREC: in 53,955 decks; most often under [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (39.0% of its decks), [Baba Lysaga, Night Witch](../../cards/B/bab.md#baba-lysaga-night-witch) (73.0% of its decks), [Black Panther, Wakandan King](../../cards/B/bla.md#black-panther-wakandan-king) (42.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/B.md#blinkmoth-nexus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/311/blinkmoth-nexus) · oracle_id `40d45c02-6416-4e19-8fe3-0ddadf5ba627` · printing: 2XM #311 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

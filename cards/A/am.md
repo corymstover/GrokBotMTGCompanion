@@ -714,6 +714,8 @@ schema: 2
   - *2018-07-13* — Once the exiled permanent returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled permanent will be put into their owners' graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
   - *2018-07-13* — The effect of Aminatou's third ability lasts indefinitely. It continues to apply after Aminatou (or her controller) leaves the game.
   - *2018-07-13* — You draw a card and put one back all while Aminatou's first ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Proft, Etrata, Aminatou, Niv-Mizzet](../../Characters%20Index.md#proft-etrata-aminatou-niv-mizzet) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 76 combos; most popular [Aminatou, the Fateshifter + Nicol Bolas, Dragon-God + Oath of Teferi](https://commanderspellbook.com/combo/193-1180-2369/) (Exile all of your opponents' permanents and hands, Infinite card draw) · EDHREC as commander: 6,888 decks; highest synergy [Oath of Teferi](../../cards/O/oa.md#oath-of-teferi) (+58%), [Felidar Guardian](../../cards/F/fe.md#felidar-guardian) (+55%), [Soulherder](../../cards/S/so.md#soulherder) (+48%) · EDHREC: in 30,271 decks; most often under [Aminatou, Veil Piercer](../../cards/A/am.md#aminatou-veil-piercer) (34.9% of its decks), [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (26.6% of its decks), [Yennett, Cryptic Sovereign](../../cards/Y/ye.md#yennett-cryptic-sovereign) (59.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/A.md#aminatou-the-fateshifter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/169/aminatou-the-fateshifter) · oracle_id `3a30089d-cd2d-49be-9b06-7a2454117692` · printing: 2X2 #169 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -739,6 +741,8 @@ schema: 2
   - *2024-09-20* — You cast the card with miracle during the resolution of the triggered ability. Ignore any timing rules based on the card's type.
   - *2024-09-20* — You don't have to reveal a drawn card with miracle if you don't wish to cast it at that time.
   - *2024-09-20* — You still draw the card, whether you use the miracle ability or not. Any ability that triggers whenever you draw a card, for example, will trigger. If you don't cast the card using its miracle ability, it will remain in your hand.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Proft, Etrata, Aminatou, Niv-Mizzet](../../Characters%20Index.md#proft-etrata-aminatou-niv-mizzet) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 15,806 decks; highest synergy [One with the Multiverse](../../cards/O/on.md#one-with-the-multiverse) (+80%), [Hall of Heliod's Generosity](../../cards/H/ha.md#hall-of-heliods-generosity) (+77%), [Sphere of Safety](../../cards/S/sph.md#sphere-of-safety) (+77%) · EDHREC: in 12,611 decks; most often under [Marina Vendrell](../../cards/M/mar.md#marina-vendrell) (25.3% of its decks), [Zur, Eternal Schemer](../../cards/Z/zu.md#zur-eternal-schemer) (27.3% of its decks), [The Master of Keys](../../cards/T/them.md#the-master-of-keys) (18.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#aminatou-veil-piercer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/1/aminatou-veil-piercer) · oracle_id `bf45f5ee-4d5f-4920-b612-b5492c2f035d` · printing: DSC #1 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1012,6 +1016,8 @@ schema: 2
   > *"It's all a game. You shouldn't get too attached to the pieces."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27518 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 456 decks; most often under [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (0.1% of its decks), [Myrel, Shield of Argive](../../cards/M/my.md#myrel-shield-of-argive) (0.2% of its decks), [Abdel Adrian, Gorion's Ward // Far Traveler](../../cards/A/ab.md#abdel-adrian-gorions-ward) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/2/ampryn-tactician) · oracle_id `4ae19803-23a7-4724-a4cd-dc6f3c16fb24` · printing: ORI #2 (2015-07-17) · [rulings](https://api.scryfall.com/cards/82a2e1d9-6763-4024-a18b-982d96395553/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amrou Kithkin

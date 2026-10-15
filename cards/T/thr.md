@@ -181,6 +181,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28614 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-09-24* — A creature with disturb is one that has the disturb keyword ability in its text box. Notably, permanents that were cast using the disturb ability rarely end up having disturb on the battlefield. Barring some very weird circumstances with copy effects, if a card's front face has disturb but its back face is on the battlefield, that permanent doesn't have disturb.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MID #39 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 342 decks; most often under [Ketramose, the New Dawn](../../cards/K/ke.md#ketramose-the-new-dawn) (0.2% of its decks), [King of the Oathbreakers](../../cards/K/ki.md#king-of-the-oathbreakers) (0.3% of its decks), [Dennick, Pious Apprentice](../../cards/D/den.md#dennick-pious-apprentice--dennick-pious-apparition) (3.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/39/thraben-exorcism) · oracle_id `b43e25d8-1c8b-4316-84f3-c4ec6f77092e` · printing: MID #39 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thraben Foulbloods
@@ -912,6 +914,8 @@ schema: 2
   - *2005-02-01* — Creatures on the battlefield treat {X} in their mana cost as 0 for the purposes of calculating mana values.
   - *2005-02-01* — Threads of Disloyalty can't target a creature with mana value 3 or greater. If it somehow enchants a creature with mana value 3 or greater, Threads of Disloyalty is put into the graveyard the next time state-based actions are checked.
   - *2005-02-01* — Tokens usually have a mana value of 0.
+- **Lore:** ✅ Card art shown on [Hour of Eternity](https://magic.wizards.com/en/news/magic-story/hour-eternity-2017-07-12) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,168 decks; most often under [Jace, Vryn's Prodigy](../../cards/J/ja.md#jace-vryns-prodigy--jace-telepath-unbound) (13.7% of its decks), [Zur the Enchanter](../../cards/Z/zu.md#zur-the-enchanter) (0.5% of its decks), [Empress Galina](../../cards/E/em.md#empress-galina) (2.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#threads-of-disloyalty)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/56/threads-of-disloyalty) · oracle_id `9d86735c-12e5-457a-beb4-057ab220d18b` · printing: BOK #56 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1269,6 +1273,9 @@ schema: 2
   > *—Quintorius, Lorehold mage-student*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4229 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Mentor](https://magic.wizards.com/en/news/magic-story/mentor-2021-04-16) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 39,044 decks; most often under [General Ferrous Rokiric](../../cards/G/ge.md#general-ferrous-rokiric) (68.1% of its decks), [Yuma, Proud Protector](../../cards/Y/yu.md#yuma-proud-protector) (41.7% of its decks), [Quintorius, History Chaser](../../cards/Q/qu.md#quintorius-history-chaser) (23.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#thrilling-discovery)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/245/thrilling-discovery) · oracle_id `c5f5a234-c751-4976-a3e1-fbd52b3255c9` · printing: OTC #245 (2024-04-19) · [rulings](https://api.scryfall.com/cards/1278b2ef-6c11-4892-9388-833f67bcc858/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thrilling Encore
@@ -1303,6 +1310,8 @@ schema: 2
   - *2013-04-15* — Putting a +1/+1 counter on a creature with unleash that’s already blocking won’t remove it from combat. It will continue to block.
   - *2013-04-15* — The unleash ability applies no matter where the creature is entering the battlefield from.
   - *2013-04-15* — You make the choice to have the creature with unleash enter the battlefield with a +1/+1 counter or not as it’s entering the battlefield. At that point, it’s too late for a player to respond to the creature spell by trying to counter it, for example.
+- **Lore:** ✅ Card art shown on [In Praise of the Worldsoul, Part 2](https://magic.wizards.com/en/news/magic-story/in-praise-of-the-worldsoul-part-2) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,773 decks; most often under [Etrata, Deadly Fugitive](../../cards/E/et.md#etrata-deadly-fugitive) (22.9% of its decks), [Altaïr Ibn-La'Ahad](../../cards/A/al.md#altaïr-ibn-laahad) (5.6% of its decks), [Ramses, Assassin Lord](../../cards/R/ram.md#ramses-assassin-lord) (13.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 rules) → [reverse index](../../references/T.md#thrill-kill-assassin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/94/thrill-kill-assassin) · oracle_id `f13f5705-e3e0-4e1e-a5b3-61e04e23a374` · printing: RVR #94 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1340,6 +1349,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #212 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-02-04* — You must discard exactly one card to cast Thrill of Possibility; you can't cast it without discarding a card, and you can't discard additional cards.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Eldraine](https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Krenko, Mob Boss](../../decks/krenko-mob-boss.md) · [Niv-Mizzet, Parun](../../decks/niv-mizzet-parun.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 465,446 decks; most often under [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (49.9% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (29.4% of its decks), [Kuja, Genome Sorcerer](../../cards/K/ku.md#kuja-genome-sorcerer--trance-kuja-fate-defied) (54.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 6 pages (2 decks · 3 edh guides · 1 card data) → [reverse index](../../references/T.md#thrill-of-possibility)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/210/thrill-of-possibility) · oracle_id `1cb0610b-a731-42c2-b93f-0a29f63cebf4` · printing: FDN #210 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1845,6 +1856,8 @@ schema: 2
   > *—Vallon, Thraben inspector*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28955 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Mercy](https://magic.wizards.com/en/news/magic-story/mercy) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 311 decks; most often under [Tariel, Reckoner of Souls](../../cards/T/ta.md#tariel-reckoner-of-souls) (0.8% of its decks), [Sidisi, Brood Tyrant](../../cards/S/si.md#sidisi-brood-tyrant) (0.1% of its decks), [Sephiroth, Planet's Heir](../../cards/S/sep.md#sephiroth-planets-heir) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/138/throttle) · oracle_id `01823ab7-b9f6-48bc-b45c-9b0fabc6f657` · printing: SOI #138 (2016-04-08) · [rulings](https://api.scryfall.com/cards/953f9001-17b2-4087-8d87-5dbaa6c48b16/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Through the Breach

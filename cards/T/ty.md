@@ -438,6 +438,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-05-03* — If a creature on the battlefield has {X} in its mana cost, X is considered to be 0.
   - *2024-04-12* — The mana value of a token that isn't a copy of another object is 0. A token that is a copy of another object has the same mana cost as that object.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WAR #225 — [Art & Flavor → War of the Spark (2019)](../../Art%20%26%20Flavor%20Story%20Links.md#war-of-the-spark-2019) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 11,917 decks; most often under [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (16.6% of its decks), [Marchesa, Dealer of Death](../../cards/M/mar.md#marchesa-dealer-of-death) (7.7% of its decks), [Etrata, the Silencer](../../cards/E/et.md#etrata-the-silencer) (22.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#tyrants-scorn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/225/tyrants-scorn) · oracle_id `afb278f1-0e21-4f6d-96bb-c34aa3ef96b0` · printing: WAR #225 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -540,7 +542,9 @@ schema: 2
   - *2023-02-04* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keywords are activated abilities; they have colons in their reminder text.
   - *2023-02-04* — For Tyvar's last ability, you may return any creature card with mana value 2 or less from your graveyard to the battlefield, even if it wasn't one of the three cards milled as the ability resolved.
   - *2023-02-04* — Tyvar's first ability doesn't grant haste to any creatures, nor does it allow you to attack with creatures as though they had haste. However, you will be able to activate abilities with {T} in their activation costs as soon as creatures with such abilities come under your control.
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/T.md#tyvar-jubilant-brawler)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Tyvar Kell](../../Characters%20Index.md#tyvar-kell) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Selvala, Heart of the Wilds + Emiel the Blessed + Tyvar, Jubilant Brawler](https://commanderspellbook.com/combo/527-4499-4927/) (Infinite creature LTB, Infinite creature ETB) · EDHREC: in 73,800 decks; most often under [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (47.7% of its decks), [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (21.6% of its decks), [Tayam, Luminous Enigma](../../cards/T/ta.md#tayam-luminous-enigma) (64.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/T.md#tyvar-jubilant-brawler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/218/tyvar-jubilant-brawler) · oracle_id `848c2b8f-8086-4047-8ad0-24b701dc4d0d` · printing: ONE #218 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tyvar Kell
@@ -573,6 +577,8 @@ schema: 2
   > *"When they write songs about this battle, I will make sure your name is forgotten, devil."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #718 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): ONE #190, PLST #ONE-190 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 195,641 decks; most often under [Zimone, Infinite Analyst](../../cards/Z/zi.md#zimone-infinite-analyst) (81.0% of its decks), [Tifa Lockhart](../../cards/T/ti.md#tifa-lockhart) (40.2% of its decks), [Xyris, the Writhing Storm](../../cards/X/xy.md#xyris-the-writhing-storm) (29.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#tyvars-stand)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/291/tyvars-stand) · oracle_id `4247b667-a0a8-4995-97c7-622d20132f7d` · printing: SOC #291 (2026-04-24) · [rulings](https://api.scryfall.com/cards/b6ab0855-782a-498c-a885-b3ab3d1bb362/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -591,6 +597,8 @@ schema: 2
   - *2023-05-12* — If Tyvar leaves the battlefield and returns to the battlefield in the same turn, or if Tyvar leaves and another Tyvar appears, the triggered ability granted by the new one is different than the triggered ability granted by the old one. The one granted by the new Tyvar may trigger for each creature you control, even if the ability granted by the old Tyvar triggered for those creatures that turn. (Note that creatures you control won't have the ability granted by the old one anymore, and if you control multiple Tyvars, you won't have the opportunity to activate mana abilities before the "legend rule" gets you down to one Tyvar.)
   - *2023-05-12* — If the mana ability that caused the granted triggered ability to trigger was activated while casting a spell or activating an ability, the triggered ability will resolve (and +1/+1 counters will be added) before that spell or ability.
   - *2023-05-12* — The ability that Tyvar grants to each creature you control functions independently for each creature. Specifically, the ability can trigger once each turn for each creature you control, not just once total.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Tyvar Kell](../../Characters%20Index.md#tyvar-kell) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Lathril, Blade of the Elves](../../decks/lathril-blade-of-the-elves.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,642 decks; highest synergy [Elvish Archdruid](../../cards/E/el.md#elvish-archdruid) (+79%), [Marwyn, the Nurturer](../../cards/M/mar.md#marwyn-the-nurturer) (+78%), [Priest of Titania](../../cards/P/pr.md#priest-of-titania) (+78%) · EDHREC: in 21,796 decks; most often under [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (29.4% of its decks), [High Perfect Morcant](../../cards/H/hi.md#high-perfect-morcant) (26.9% of its decks), [Thranduil, the Elvenking](../../cards/T/thr.md#thranduil-the-elvenking) (24.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/T.md#tyvar-the-bellicose)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mat/48/tyvar-the-bellicose) · oracle_id `a21d321b-2172-4577-a05b-399a019e3448` · printing: MAT #48 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -608,5 +616,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-09-20* — The value of X is calculated only once, as Tyvar's last ability resolves.
   - *2024-09-20* — You can activate Tyvar's first ability even if Tyvar is already tapped.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Tyvar Kell](../../Characters%20Index.md#tyvar-kell) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Tyvar, the Pummeler + Devoted Druid](https://commanderspellbook.com/combo/4762-6189/) (Infinite green mana, Infinitely large creatures you control until end of turn) · EDHREC as commander: 891 decks; highest synergy [Elvish Archdruid](../../cards/E/el.md#elvish-archdruid) (+45%), [Priest of Titania](../../cards/P/pr.md#priest-of-titania) (+45%), [Marwyn, the Nurturer](../../cards/M/mar.md#marwyn-the-nurturer) (+44%) · EDHREC: in 54,974 decks; most often under [Thranduil, the Elvenking](../../cards/T/thr.md#thranduil-the-elvenking) (51.2% of its decks), [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (14.7% of its decks), [Kona, Rescue Beastie](../../cards/K/ko.md#kona-rescue-beastie) (46.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#tyvar-the-pummeler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/202/tyvar-the-pummeler) · oracle_id `5a242eab-204c-4411-860f-c0f3582a8f38` · printing: DSK #202 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

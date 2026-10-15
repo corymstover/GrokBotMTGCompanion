@@ -212,6 +212,8 @@ schema: 2
   - *2018-01-19* — If you control ten permanents but don’t control a permanent or resolving spell with ascend, you don’t get the city’s blessing. For example, if you control ten permanents, lose control of one, then cast Golden Demise, you won’t have the city’s blessing and the spell will affect creatures you control.
   - *2018-01-19* — If your tenth permanent enters the battlefield and then a permanent leaves the battlefield immediately afterwards (most likely due to the “Legend Rule” or due to being a creature with 0 toughness), you get the city’s blessing before it leaves the battlefield.
   - *2018-01-19* — Once you have the city’s blessing, you have it for the rest of the game, even if you lose control of some or all of your permanents. The city’s blessing isn’t a permanent itself and can’t be removed by any effect.
+- **Lore:** ✅ Card art shown on [Wool Over the Eyes](https://magic.wizards.com/en/news/magic-story/wool-over-eyes-2018-02-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,956 decks; most often under [Massacre Girl, Known Killer](../../cards/M/mas.md#massacre-girl-known-killer) (12.2% of its decks), [Maha, Its Feathers Night](../../cards/M/mah.md#maha-its-feathers-night) (3.8% of its decks), [Rendmaw, Creaking Nest](../../cards/R/ren.md#rendmaw-creaking-nest) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/73/golden-demise) · oracle_id `e4648fa3-0343-414b-b04d-07fe0d132145` · printing: RIX #73 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Golden Egg
@@ -877,6 +879,8 @@ schema: 2
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1619 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/ravnica-high-2013-08-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 100,841 decks; most often under [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (27.2% of its decks), [Shelob, Child of Ungoliant](../../cards/S/she.md#shelob-child-of-ungoliant) (39.1% of its decks), [High Perfect Morcant](../../cards/H/hi.md#high-perfect-morcant) (27.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/201/golgari-charm) · oracle_id `f0ab7166-9fcf-46e5-af2c-b7f628db4789` · printing: UMA #201 (2018-12-07) · [rulings](https://api.scryfall.com/cards/9d467e61-bbec-4cea-bd5d-f10555910c9d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Golgari Cluestone
@@ -980,6 +984,8 @@ schema: 2
 - **Rulings** (2):
   - *2013-04-15* — Gate is not a basic land type.
   - *2013-04-15* — The subtype Gate has no special rules significance, but other spells and abilities may refer to it.
+- **Lore:** ✅ Card art shown on [Pride of the Kraul](https://magic.wizards.com/en/news/magic-story/pride-kraul-2017-05-31) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 99,777 decks; most often under [Nine-Fingers Keene](../../cards/N/ni.md#nine-fingers-keene) (98.7% of its decks), [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (16.8% of its decks), [The Wandering Minstrel](../../cards/T/thew.md#the-wandering-minstrel) (20.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/G.md#golgari-guildgate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/689/golgari-guildgate) · oracle_id `fa2da325-6859-45bb-b185-35526b01bcc1` · printing: FDN #689 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1123,6 +1129,8 @@ schema: 2
   > *From their earliest educations, the brothers had known that no human contrivance could stand against the true masters of Dominia.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31716 · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** Depicts: [Item → Golgothian Sylex](../../Items%20%26%20Artifacts%20Index.md#golgothian-sylex) ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-march-of-the-machine), [2](https://magic.wizards.com/en/news/magic-story/epilogue-1-the-invasion-tree) via entry) — 🔄 *Depicts:* the artifact behind the Sylex Blast; in *Dominaria* (2018) Karn says "It was created by Urza to help defeat the Phyrexians." Later stories give other origins (see the item entry's three statements) ([source](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-9-2018-05-09)) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Urza, Lord High Artificer](../../decks/lore-brothers-war-urza-lord-high-artificer.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 75 decks; most often under [Garth One-Eye](../../cards/G/ga.md#garth-one-eye) (0.1% of its decks), [Jodah, Archmage Eternal](../../cards/J/jo.md#jodah-archmage-eternal) (0.0% of its decks), [Karn, Silver Golem](../../cards/K/ka.md#karn-silver-golem) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 decks · 1 lore & story · 1 card data) → [reverse index](../../references/G.md#golgothian-sylex)
 - **Source flags:** [Scryfall](https://scryfall.com/card/atq/51/golgothian-sylex) · oracle_id `95197f8f-c24e-4d13-a106-7186b3cc59e0` · printing: ATQ #51 (1994-03-04) · [rulings](https://api.scryfall.com/cards/856be1dd-a20b-49c2-be9d-7db76c7efd8b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

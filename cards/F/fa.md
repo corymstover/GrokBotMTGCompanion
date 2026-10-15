@@ -625,6 +625,8 @@ schema: 2
   - *2026-08-21* — If the copied creature is copying something else (for example, if the copied creature is a Clone), then the token enters the battlefield as whatever that creature copied.
   - *2026-08-21* — The tokens copy exactly what was printed on the original creature, with the listed exceptions, and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
   - *2026-08-21* — The tokens see each other enter the battlefield. If any of them have a triggered ability that triggers whenever a creature enters, they'll trigger for one another.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): FRA #83 — [Art & Flavor → Reality Fracture (2026)](../../Art%20%26%20Flavor%20Story%20Links.md#reality-fracture-2026) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,164 decks; most often under [The Master, Multiplied](../../cards/T/them.md#the-master-multiplied) (20.1% of its decks), [Venser, Fervent Forger](../../cards/V/ve.md#venser-fervent-forger) (28.6% of its decks), [Obeka, Brute Chronologist](../../cards/O/ob.md#obeka-brute-chronologist) (6.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/F.md#face-yourself)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/83/face-yourself) · oracle_id `3c0fe71c-bee1-41d3-aeb5-1723028eedde` · printing: FRA #83 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -639,6 +641,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #703 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-12-08* — Piles may be empty.
+- **Lore:** ✅ Card art shown on [Stories and Endings](https://magic.wizards.com/en/news/magic-story/stories-and-endings-2016-05-11) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Talrand, Sky Summoner](../../decks/talrand-sky-summoner.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 199,353 decks; most often under [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (13.0% of its decks), [Alela, Cunning Conqueror](../../cards/A/al.md#alela-cunning-conqueror) (20.1% of its decks), [Captain N'ghathrod](../../cards/C/cap.md#captain-nghathrod) (18.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/F.md#fact-or-fiction)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/41/fact-or-fiction) · oracle_id `437b2dab-15e0-4b9a-a204-58622d37a3b3` · printing: FRC #41 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -758,7 +762,9 @@ schema: 2
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9799 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/F.md#fae-flight)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MKM #295, MKM #56 — [Art & Flavor → Murders at Karlov Manor (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#murders-at-karlov-manor-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 12,951 decks; most often under [Kotis, the Fangkeeper](../../cards/K/ko.md#kotis-the-fangkeeper) (9.8% of its decks), [Haldan, Avid Arcanist // Pako, Arcane Retriever](../../cards/H/ha.md#haldan-avid-arcanist) (19.6% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (3.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Voltron (equipment & auras): Protective equipment/auras](../../EDH%20Packages.md#voltron-equipment--auras-protective-equipmentauras) · [Voltron (equipment & auras): Evasion & double strike](../../EDH%20Packages.md#voltron-equipment--auras-evasion--double-strike) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/F.md#fae-flight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/56/fae-flight) · oracle_id `d3912c82-37f8-456e-ba49-65c7f5b39d13` · printing: MKM #56 (2024-02-09) · [rulings](https://api.scryfall.com/cards/d9caa4eb-ed8c-4d05-8029-2a42163938a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fae Offering
@@ -1274,6 +1280,8 @@ schema: 2
   > *The most dangerous thing an artificer can do is believe an invention is perfect.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22093 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Kaladesh](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-kaladesh-2016-11-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,506 decks; most often under [Baral, Chief of Compliance](../../cards/B/bar.md#baral-chief-of-compliance) (1.2% of its decks), [The Emperor of Palamecia](../../cards/T/thee.md#the-emperor-of-palamecia--the-lord-master-of-hell) (1.0% of its decks), [Eluge, the Shoreless Sea](../../cards/E/el.md#eluge-the-shoreless-sea) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/47/failed-inspection) · oracle_id `e4fbf952-de3b-4cbd-848a-37041f337e06` · printing: KLD #47 (2016-09-30) · [rulings](https://api.scryfall.com/cards/f8900f91-cb17-4f99-a5ce-15819369beb8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Failure // Comply
@@ -1871,6 +1879,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2046 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-03-14* — If Falkenrath Noble and another creature die at the same time, Falkenrath Noble's triggered ability will trigger for each of them.
+- **Lore:** ✅ Card art shown on [The Lunarch's Journal](https://magic.wizards.com/en/news/magic-story/lunarchs-journal-2014-08-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [The Gitrog Monster (Innistrad-only)](../../decks/plane-innistrad-the-gitrog-monster.md) · Commander Spellbook: 100+ combos; most popular [Warren Soultrader + Pitiless Plunderer + Falkenrath Noble + Reassembling Skeleton](https://commanderspellbook.com/combo/323-1580-4871-5670/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC: in 80,550 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (18.0% of its decks), [Valgavoth, Harrower of Souls](../../cards/V/va.md#valgavoth-harrower-of-souls) (23.9% of its decks), [Clavileño, First of the Blessed](../../cards/C/cl.md#clavileño-first-of-the-blessed) (39.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/F.md#falkenrath-noble)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/140/falkenrath-noble) · oracle_id `3739b179-bc81-4737-8376-66a57e16b942` · printing: DSC #140 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1987,6 +1997,8 @@ schema: 2
   - *2022-10-14* — The prototype ability functions in any zone that the spell could be cast from. For example, if an effect allows you to cast artifact spells from your graveyard, you could cast a prototyped Blitz Automaton from your graveyard.
   - *2022-10-14* — When cast as a prototyped spell, that spell has the mana cost, power, and toughness characteristics shown in its colored, secondary text box rather than the normal values of those characteristics. Its color and mana value are determined by that mana cost. The permanent that spell becomes as it resolves has the same characteristics. If the spell leaves the stack in any other way, or the permanent it becomes leaves the battlefield, it immediately resumes using its normal characteristics.
   - *2022-10-14* — When casting a prototyped spell, use only its prototype characteristics to determine whether it's legal to cast it. For example, if Blitz Automaton is exiled with the last ability of Chandra, Dressed to Kill, you would be able to cast it for {2}{R} (because it's a red spell), even though you wouldn't be able to cast it as a colorless spell for its normal cost.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #159 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,474 decks; most often under [Captain Rex Nebula](../../cards/C/cap.md#captain-rex-nebula) (31.9% of its decks), [Megatron, Tyrant](../../cards/M/me.md#megatron-tyrant--megatron-destructive-force) (4.1% of its decks), [Herigast, Erupting Nullkite](../../cards/H/he.md#herigast-erupting-nullkite) (3.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/F.md#fallaji-dragon-engine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/159/fallaji-dragon-engine) · oracle_id `dc8cca38-df2a-4cef-973c-a482505be66f` · printing: BRO #159 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2303,6 +2315,8 @@ schema: 2
   - *2021-02-05* — Removing lore counters won’t cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
   - *2021-02-05* — The chapter III ability doesn’t target any creatures. For example, a creature with protection from white could be exiled this way.
   - *2021-02-05* — The greatest power among creatures target opponent controls is determined solely by evaluating the creatures that player controls at that time. You won’t consider creatures controlled by any other player.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): KHM #208 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 9,526 decks; most often under [Narci, Fable Singer](../../cards/N/na.md#narci-fable-singer) (29.6% of its decks), [Sigurd, Jarl of Ravensthorpe](../../cards/S/si.md#sigurd-jarl-of-ravensthorpe) (58.2% of its decks), [Tom Bombadil](../../cards/T/to.md#tom-bombadil) (5.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/208/fall-of-the-impostor) · oracle_id `54deeeef-be90-4975-9213-8355ddf3ce0c` · printing: KHM #208 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fall of the Thran
@@ -2342,6 +2356,8 @@ schema: 2
   - *2016-01-22* — For some cards, surge represents only an alternative cost, a discount that applies if you or a teammate has cast another spell this turn. Other cards, like Reckless Bushwhacker, have additional abilities or effects if you paid the surge cost to cast the spell.
   - *2016-01-22* — If an instant or sorcery spell cast for its surge cost is copied, the copy is also considered to have had its surge cost paid.
   - *2016-01-22* — The other spell that you or a teammate cast can be one that's resolved, one that was countered, or (for instants with surge) one that's still on the stack.
+- **Lore:** ✅ Card art shown on [Zendikar's Last Stand](https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 10,774 decks; most often under [Rowan, Scion of War](../../cards/R/ro.md#rowan-scion-of-war) (14.0% of its decks), [Neheb, the Eternal](../../cards/N/ne.md#neheb-the-eternal) (19.8% of its decks), [Raggadragga, Goreguts Boss](../../cards/R/rag.md#raggadragga-goreguts-boss) (6.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 rules · 1 lore & story) → [reverse index](../../references/F.md#fall-of-the-titans)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/109/fall-of-the-titans) · oracle_id `55e564b4-7c08-4109-bd67-da5f31fe002e` · printing: OGW #109 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2637,6 +2653,8 @@ schema: 2
   > *Huatli smiled up at Akal. "Our peoples have too long been parted, and yet we are cousins still."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12576 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): LCI #13 — [Art & Flavor → The Lost Caverns of Ixalan (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-lost-caverns-of-ixalan-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 8,196 decks; most often under [Anim Pakal, Thousandth Moon](../../cards/A/an.md#anim-pakal-thousandth-moon) (4.3% of its decks), [Kutzil, Malamet Exemplar](../../cards/K/ku.md#kutzil-malamet-exemplar) (5.8% of its decks), [Sovereign Okinec Ahau](../../cards/S/so.md#sovereign-okinec-ahau) (5.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/F.md#family-reunion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/13/family-reunion) · oracle_id `8972de18-2c49-4162-a285-264a44c0e675` · printing: LCI #13 (2023-11-17) · [rulings](https://api.scryfall.com/cards/5c2cfbdc-8d40-4abb-afca-6c6d8e36185b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2784,6 +2802,8 @@ schema: 2
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7578 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Rivals of Ixalan Magic Story Alternate Endings](https://magic.wizards.com/en/news/magic-story/rivals-ixalan-magic-story-alternate-endings-2018-02-21) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 68 combos; most popular [Solemnity + Luminous Broodmoth + Fanatical Firebrand](https://commanderspellbook.com/combo/2018-4053-4905/) (Infinite death triggers, Infinite creature ETB) · EDHREC: in 19,189 decks; most often under [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (11.3% of its decks), [Breeches, Brazen Plunderer // Malcolm, Keen-Eyed Navigator](../../cards/B/br.md#breeches-brazen-plunderer) (22.8% of its decks), [Kediss, Emberclaw Familiar // Malcolm, Keen-Eyed Navigator](../../cards/K/ke.md#kediss-emberclaw-familiar) (15.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/195/fanatical-firebrand) · oracle_id `d36e11f1-6ab3-4273-8114-a8fbbe21c1c3` · printing: FDN #195 (2024-11-15) · [rulings](https://api.scryfall.com/cards/d1296316-7781-4e98-95e6-7020648be6a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fanatical Offering
@@ -2805,7 +2825,9 @@ schema: 2
   - *2023-11-10* — Map tokens are a kind of predefined token. Each one is a colorless artifact with the artifact subtype Map and the ability "{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery."
   - *2023-11-10* — Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
   - *2023-11-10* — Some spells or abilities might cause a creature to explore multiple times in a row. If you reveal a nonland card when a creature explores and leave it on top of your library, then the creature explores again immediately afterwards, you'll reveal the same card again.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/F.md#fanatical-offering)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): LCI #105 — [Art & Flavor → The Lost Caverns of Ixalan (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-lost-caverns-of-ixalan-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 35,098 decks; most often under [Judith, Carnage Connoisseur](../../cards/J/ju.md#judith-carnage-connoisseur) (10.4% of its decks), [Juri, Master of the Revue](../../cards/J/ju.md#juri-master-of-the-revue) (12.8% of its decks), [Teysa, Opulent Oligarch](../../cards/T/te.md#teysa-opulent-oligarch) (29.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/F.md#fanatical-offering)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/105/fanatical-offering) · oracle_id `3e5402bf-ce7b-4c23-9333-0acdcf349caf` · printing: LCI #105 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fanatical Strength
@@ -2818,6 +2840,8 @@ schema: 2
   > *"What is this? An ambush or a staring contest?" Kaya taunted. As if in answer, the robed figure lunged forward.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13411 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MKM #159, MKM #310, MKM #310† — [Art & Flavor → Murders at Karlov Manor (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#murders-at-karlov-manor-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 7,122 decks; most often under [Fynn, the Fangbearer](../../cards/F/fy.md#fynn-the-fangbearer) (4.2% of its decks), [Kotis, the Fangkeeper](../../cards/K/ko.md#kotis-the-fangkeeper) (3.3% of its decks), [Xyris, the Writhing Storm](../../cards/X/xy.md#xyris-the-writhing-storm) (2.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/F.md#fanatical-strength)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/159/fanatical-strength) · oracle_id `b92e97f5-a307-471f-be06-afa4fcdab757` · printing: MKM #159 (2024-02-09) · [rulings](https://api.scryfall.com/cards/4941fa74-c7b9-4468-8080-de8057d3d27b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4119,6 +4143,8 @@ schema: 2
   - *2014-02-01* — If the copied creature is a token, the token created by Fated Infatuation copies the original characteristics of that token as stated by the effect that put the token onto the battlefield.
   - *2014-02-01* — If the copied creature is copying something else (for example, if the copied creature is a Clone), then the token enters the battlefield as whatever that creature copied.
   - *2014-02-01* — The token copies exactly what was printed on the original creature and nothing else (unless that permanent is copying something else or is a token; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+- **Lore:** ✅ Card art shown on [Emonberry Red](https://magic.wizards.com/en/news/magic-story/emonberry-red-2014-02-05) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 16 combos; most popular [Dualcaster Mage + Fated Infatuation](https://commanderspellbook.com/combo/147-5134/) (Infinite creature tokens, Infinite creature ETB) · EDHREC: in 16,517 decks; most often under [Hidetsugu and Kairi](../../cards/H/hi.md#hidetsugu-and-kairi) (52.0% of its decks), [Namor the Sub-Mariner](../../cards/N/na.md#namor-the-sub-mariner) (21.7% of its decks), [Brudiclad, Telchor Engineer](../../cards/B/br.md#brudiclad-telchor-engineer) (14.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/39/fated-infatuation) · oracle_id `ae771e78-1d29-4b8c-8511-9da196a78dcf` · printing: BNG #39 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fated Intervention
@@ -4208,6 +4234,8 @@ schema: 2
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5914 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MID #18 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Nahiri, the Lithomancer](../../decks/lore-nahiri-the-lithomancer.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 26,599 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (6.5% of its decks), [Kambal, Profiteering Mayor](../../cards/K/ka.md#kambal-profiteering-mayor) (18.3% of its decks), [Shay Cormac](../../cards/S/sha.md#shay-cormac) (36.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/F.md#fateful-absence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/18/fateful-absence) · oracle_id `35bba442-1aec-4d33-b502-4c580d61644b` · printing: MID #18 (2021-09-24) · [rulings](https://api.scryfall.com/cards/eca8d6f8-c6f1-437c-99e2-4281eae14a6f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4252,6 +4280,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-14* — If an artifact or creature on the battlefield has {X} in its mana cost, X is 0.
   - *2022-10-14* — The mana value of an artifact creature that was cast as a prototype is based on the prototype mana cost rather than the card's usual mana cost.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #94 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 49 combos; most popular [Archfiend of the Dross + Heartless Act + Fateful Handoff](https://commanderspellbook.com/combo/1165-1844-2861/) (Target opponent loses the game at the beginning of their next upkeep) · EDHREC: in 13,004 decks; most often under [Blim, Comedic Genius](../../cards/B/bli.md#blim-comedic-genius) (75.5% of its decks), [Jon Irenicus, Shattered One](../../cards/J/jo.md#jon-irenicus-shattered-one) (33.4% of its decks), [Deadpool, Trading Card](../../cards/D/dea.md#deadpool-trading-card) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/F.md#fateful-handoff)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/94/fateful-handoff) · oracle_id `1ecde43f-e418-437b-8b8f-efe120f96cb3` · printing: BRO #94 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4268,6 +4298,8 @@ schema: 2
   - *2016-09-20* — If Fateful Showdown's target becomes an illegal target, you won't discard your hand or draw any cards.
   - *2016-09-20* — The number of cards in your hand is counted only as Fateful Showdown resolves. Fateful Showdown is on the stack at this time, so it's not counted.
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called “story spotlights”—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): KLD #114 — [Art & Flavor → Kaladesh & Aether Revolt (2016–17)](../../Art%20%26%20Flavor%20Story%20Links.md#kaladesh--aether-revolt-201617) — ✅ Card art shown on [In This Very Arena](https://magic.wizards.com/en/news/magic-story/very-arena-2016-10-12) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 15,216 decks; most often under [The Emperor of Palamecia](../../cards/T/thee.md#the-emperor-of-palamecia--the-lord-master-of-hell) (33.7% of its decks), [The Locust God](../../cards/T/thel.md#the-locust-god) (26.9% of its decks), [Captain Howler, Sea Scourge](../../cards/C/cap.md#captain-howler-sea-scourge) (11.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/F.md#fateful-showdown)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/114/fateful-showdown) · oracle_id `729b7ce8-7e7f-4db9-b3ce-67aba46a7b0d` · printing: KLD #114 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4463,6 +4495,8 @@ schema: 2
   > *—Perisophia the philosopher*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1778 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Emonberry Red](https://magic.wizards.com/en/news/magic-story/emonberry-red-2014-02-05) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Nekusar, the Mindrazer](../../decks/nekusar-the-mindrazer.md) · [Nekusar, the Mindrazer (Grixis)](../../grixis/decks/nekusar-the-mindrazer.md) · Commander Spellbook: 16 combos; most popular [Windfall + Fate Unraveler + Phyresis](https://commanderspellbook.com/combo/790-2152-4651/) (Each opponent loses the game) · EDHREC: in 92,802 decks; most often under [Nekusar, the Mindrazer](../../cards/N/ne.md#nekusar-the-mindrazer) (74.4% of its decks), [Valgavoth, Harrower of Souls](../../cards/V/va.md#valgavoth-harrower-of-souls) (81.7% of its decks), [Sheoldred, the Apocalypse](../../cards/S/she.md#sheoldred-the-apocalypse) (60.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/F.md#fate-unraveler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/141/fate-unraveler) · oracle_id `7d66f67d-3148-4636-ac5a-2cf8a51d5e50` · printing: DSC #141 (2024-09-27) · [rulings](https://api.scryfall.com/cards/30250c4d-2c16-4d03-874e-aec39d8e72a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

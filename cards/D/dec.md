@@ -370,6 +370,8 @@ schema: 2
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3301 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Blue-Green Ribbons](https://magic.wizards.com/en/news/magic-story/blue-green-ribbons-2021-04-23) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 50,521 decks; most often under [Zimone, Infinite Analyst](../../cards/Z/zi.md#zimone-infinite-analyst) (34.6% of its decks), [Riku of Many Paths](../../cards/R/ri.md#riku-of-many-paths) (53.8% of its decks), [Haldan, Avid Arcanist // Pako, Arcane Retriever](../../cards/H/ha.md#haldan-avid-arcanist) (30.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/304/decisive-denial) · oracle_id `2d0bd780-b754-44a3-894c-a9c8aa711f05` · printing: SOC #304 (2026-04-24) · [rulings](https://api.scryfall.com/cards/b1ad1949-1c8e-4566-9286-caf240c88fcc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Declaration in Stone

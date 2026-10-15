@@ -547,6 +547,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23405 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-01-19* — If multiple effects say that an opponent can’t cast instant or sorcery spells during that player’s next turn, they all apply to the same turn.
+- **Lore:** ✅ Card art shown on [Wool Over the Eyes](https://magic.wizards.com/en/news/magic-story/wool-over-eyes-2018-02-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,166 decks; most often under [Grand Arbiter Augustin IV](../../cards/G/gra.md#grand-arbiter-augustin-iv) (0.3% of its decks), [Yennett, Cryptic Sovereign](../../cards/Y/ye.md#yennett-cryptic-sovereign) (0.6% of its decks), [Azor, the Lawbringer](../../cards/A/az.md#azor-the-lawbringer) (5.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/24/sphinxs-decree) · oracle_id `7d615b37-8dc6-4142-bf9a-9815dd99025a` · printing: RIX #24 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx's Disciple
@@ -644,6 +646,9 @@ schema: 2
 - **Rulings** (2):
   - *2015-06-22* — Colorless is not a color, so putting two colorless cards into a graveyard won’t cause the process to repeat.
   - *2015-06-22* — The process will keep repeating as long as both cards share a color and neither is a land card.
+- **Lore:** ✅ Card art shown on [The Flood](https://magic.wizards.com/en/news/magic-story/flood-2018-01-10) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Sphinx's Tutelage + Opposition Agent + Mana Severance + Hive Mind + Painter's Servant](https://commanderspellbook.com/combo/87-1211-1371-1771-2302/) (Infinite mill for target opponent) · EDHREC: in 46,168 decks; most often under [Bruvac the Grandiloquent](../../cards/B/br.md#bruvac-the-grandiloquent) (53.8% of its decks), [The Mindskinner](../../cards/T/them.md#the-mindskinner) (30.8% of its decks), [Phenax, God of Deception](../../cards/P/ph.md#phenax-god-of-deception) (32.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#sphinxs-tutelage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/76/sphinxs-tutelage) · oracle_id `158db438-52ba-4c30-b7bf-d1c4f76da917` · printing: ORI #76 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx Summoner

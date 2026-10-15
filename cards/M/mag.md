@@ -269,6 +269,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17852 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-04-16* — Mage Hunter’s triggered ability will resolve before the spell that caused it to trigger.
+- **Lore:** ✅ Card art shown on [Episode 4: Put to the Test](https://magic.wizards.com/en/news/magic-story/episode-4-put-test-2021-04-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,298 decks; most often under [Captain N'ghathrod](../../cards/C/cap.md#captain-nghathrod) (2.4% of its decks), [Valgavoth, Harrower of Souls](../../cards/V/va.md#valgavoth-harrower-of-souls) (1.3% of its decks), [Umbris, Fear Manifest](../../cards/U/um.md#umbris-fear-manifest) (3.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/76/mage-hunter) · oracle_id `e3d2df4d-8c79-4391-bc4e-69325958a5be` · printing: STX #76 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mage Hunters' Onslaught
@@ -282,6 +284,8 @@ schema: 2
   > *Extus stood before his alma mater for a moment, remembering first his studies, then his vengeance. At his command, the mage hunters unfolded.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23934 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): STX #77 — ✅ Card art shown on [Episode 4: Put to the Test](https://magic.wizards.com/en/news/magic-story/episode-4-put-test-2021-04-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,035 decks; most often under [Yuriko, the Tiger's Shadow](../../cards/Y/yu.md#yuriko-the-tigers-shadow) (0.1% of its decks), [Dina, Soul Steeper](../../cards/D/di.md#dina-soul-steeper) (0.4% of its decks), [Killian, Ink Duelist](../../cards/K/ki.md#killian-ink-duelist) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/77/mage-hunters-onslaught) · oracle_id `22195e0e-a426-48d6-b100-480c7e2bd5cc` · printing: STX #77 (2021-04-23) · [rulings](https://api.scryfall.com/cards/ed85140f-f0e0-4ac1-a67f-26d17ff95e31/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mage il-Vec
@@ -327,6 +331,8 @@ schema: 2
   > {T}, Remove any number of storage counters from this land: Add {C} for each storage counter removed this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4468 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** Featured in: [Plane → Vryn](../../Planes%20Index.md#vryn) ([source](https://magic.wizards.com/en/news/feature/jaces-origin-absent-minds-2015-06-24)) — ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09), [The Flood](https://magic.wizards.com/en/news/magic-story/flood-2018-01-10) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 36,455 decks; most often under [Zhulodok, Void Gorger](../../cards/Z/zh.md#zhulodok-void-gorger) (41.5% of its decks), [Kozilek, the Great Distortion](../../cards/K/ko.md#kozilek-the-great-distortion) (35.3% of its decks), [Ultima, Origin of Oblivion](../../cards/U/ul.md#ultima-origin-of-oblivion) (14.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#mage-ring-network)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1009/mage-ring-network) · oracle_id `136596a0-b179-40be-b42d-c0b992621c95` · printing: CMM #1009 (2023-08-04) · [rulings](https://api.scryfall.com/cards/f060ea2b-717a-47ae-a4d6-b0594e838459/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -342,6 +348,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22928 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2015-06-22* — The last ability triggers and resolves before blockers are declared. If the target creature is destroyed by the damage, it won’t be on the battlefield to block.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,285 decks; most often under [Karn, Legacy Reforged](../../cards/K/ka.md#karn-legacy-reforged) (1.2% of its decks), [Tannuk, Steadfast Second](../../cards/T/ta.md#tannuk-steadfast-second) (0.6% of its decks), [Lady Octopus, Inspired Inventor](../../cards/L/la.md#lady-octopus-inspired-inventor) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/232/mage-ring-responder) · oracle_id `1d84fb81-2de5-4be1-9638-9ae28e3d867a` · printing: ORI #232 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mage's Attendant
@@ -911,6 +919,8 @@ schema: 2
   > *—Chandra Nalaar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29868 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Stone and Blood](https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 229 decks; most often under [Chandra, Fire of Kaladesh](../../cards/C/cha.md#chandra-fire-of-kaladesh--chandra-roaring-flame) (1.8% of its decks), [Imodane, the Pyrohammer](../../cards/I/im.md#imodane-the-pyrohammer) (0.2% of its decks), [Hazezon, Shaper of Sand](../../cards/H/ha.md#hazezon-shaper-of-sand) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#magma-rift)
 - **Source flags:** [Scryfall](https://scryfall.com/card/zen/136/magma-rift) · oracle_id `0996d48a-f92a-4aaf-b8a3-f7ec8ff986ca` · printing: ZEN #136 (2009-10-02) · [rulings](https://api.scryfall.com/cards/ee526306-6959-421c-9969-3c19b666d6da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1074,6 +1084,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6303 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2015-06-22* — You must discard exactly one land card to cast Magmatic Insight. You can't cast it without discarding a land card, and you can't discard additional cards.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 24,555 decks; most often under [Yuma, Proud Protector](../../cards/Y/yu.md#yuma-proud-protector) (58.8% of its decks), [Hazezon, Shaper of Sand](../../cards/H/ha.md#hazezon-shaper-of-sand) (30.8% of its decks), [Urabrask](../../cards/U/ur.md#urabrask--the-great-work) (34.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/M.md#magmatic-insight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/173/magmatic-insight) · oracle_id `6a9031b6-3f4d-4a36-90e1-ac77b8518cee` · printing: OTC #173 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magmatic Sinkhole

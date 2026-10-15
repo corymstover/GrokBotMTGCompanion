@@ -402,6 +402,8 @@ schema: 2
 - **Rulings** (2):
   - *2015-02-25* — Bolster itself doesn't target any creature, though some spells and abilities that bolster may have other effects that target creatures. For example, you could put counters on a creature with protection from white with Aven Tactician's bolster ability.
   - *2015-02-25* — You determine which creature to put counters on as the spell or ability that instructs you to bolster resolves. That could be the creature with the bolster ability, if it's still under your control and has the least toughness.
+- **Lore:** ✅ Card art shown on [The Guardian](https://magic.wizards.com/en/news/magic-story/guardian-2015-04-02), [Planeswalker's Guide to Dragons of Tarkir, Part 2](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-dragons-tarkir-part-2-2015-03-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 4 combos; most popular [Anafenza, Kin-Tree Spirit + Murderous Redcap + Viscera Seer](https://commanderspellbook.com/combo/1657-2292-2355/) (Infinite damage, Infinite death triggers) · EDHREC as commander: 444 decks; highest synergy [Abzan Falconer](../../cards/A/ab.md#abzan-falconer) (+64%), [Dusk Legion Duelist](../../cards/D/du.md#dusk-legion-duelist) (+54%), [Ainok Bond-Kin](../../cards/A/ai.md#ainok-bond-kin) (+53%) · EDHREC: in 25,331 decks; most often under [Alesha, Who Smiles at Death](../../cards/A/al.md#alesha-who-smiles-at-death) (28.7% of its decks), [Dihada, Binder of Wills](../../cards/D/di.md#dihada-binder-of-wills) (12.4% of its decks), [Tayam, Luminous Enigma](../../cards/T/ta.md#tayam-luminous-enigma) (10.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 rules) → [reverse index](../../references/A.md#anafenza-kin-tree-spirit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/11/anafenza-kin-tree-spirit) · oracle_id `f7fa6ac0-70db-4586-b881-5a19db644dfb` · printing: CMM #11 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -421,6 +423,8 @@ schema: 2
   - *2014-09-20* — Anafenza's last ability cares only what the card would be in the zone it's moving from, not what it would be in the graveyard. For example, if a land card you control becomes a creature due to an effect and then dies, the land card will be exiled. But if a creature card with bestow is an Aura when it would be put into the graveyard, it ends up in the graveyard.
   - *2014-09-20* — If your opponent discards a creature card while Anafenza is on the battlefield, abilities that function when a card is discarded (such as madness) still work, even though that card never reaches a graveyard. In addition, spells or abilities that check the characteristics of a discarded card (such as Chandra Ablaze's first ability) can find that card in exile.
   - *2014-09-20* — While Anafenza is on the battlefield, abilities that trigger whenever a nontoken creature your opponent owns dies won't trigger, as that card will never reach that player's graveyard. (Token creatures will still go to the graveyard briefly before ceasing to exist.)
+- **Lore:** ✅ Card art shown on [Bond and Blood](https://magic.wizards.com/en/news/magic-story/bond-and-blood-2014-12-03) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Anafenza, the Foremost + Void Attendant + Pitiless Plunderer](https://commanderspellbook.com/combo/230-4692-4871/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 1,182 decks; highest synergy [Abzan Falconer](../../cards/A/ab.md#abzan-falconer) (+45%), [Hardened Scales](../../cards/H/ha.md#hardened-scales) (+41%), [Abzan Charm](../../cards/A/ab.md#abzan-charm) (+37%) · EDHREC: in 4,437 decks; most often under [Saskia the Unyielding](../../cards/S/sas.md#saskia-the-unyielding) (12.7% of its decks), [Reyhan, Last of the Abzan // Yoshimaru, Ever Faithful](../../cards/R/rey.md#reyhan-last-of-the-abzan) (19.5% of its decks), [Felothar, Dawn of the Abzan](../../cards/F/fe.md#felothar-dawn-of-the-abzan) (4.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/163/anafenza-the-foremost) · oracle_id `ebfafabc-5255-4024-be59-7403bdb16ee4` · printing: KTK #163 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Anafenza, Unyielding Lineage
@@ -457,6 +461,8 @@ schema: 2
   - *2024-02-02* — If you can't exile enough cards to meet or exceed the required mana value, you can't choose to collect evidence at all.
   - *2024-02-02* — Once you've announced that you're casting a spell, players can't take actions until you've finished doing so. Notably, opponents can't try to remove cards from your graveyard to stop you from collecting evidence.
   - *2024-02-02* — The collect evidence ability of Analyze the Pollen allows you to find a nonbasic land card.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MKM #150, MKM #308 — [Art & Flavor → Murders at Karlov Manor (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#murders-at-karlov-manor-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 20,242 decks; most often under [The Gitrog Monster](../../cards/T/theg.md#the-gitrog-monster) (3.5% of its decks), [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (0.8% of its decks), [Sin, Spira's Punishment](../../cards/S/si.md#sin-spiras-punishment) (4.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 rules · 1 lore & story) → [reverse index](../../references/A.md#analyze-the-pollen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/150/analyze-the-pollen) · oracle_id `ec7d550b-9e13-4249-89c7-6ad43f71ea11` · printing: MKM #150 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -919,6 +925,8 @@ schema: 2
   - *2022-02-18* — If a card in a player's library has {X} in its mana cost, X is 0.
   - *2022-02-18* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to interfere with the permanent you sacrificed to prevent you from casting this spell.
   - *2022-02-18* — You must sacrifice exactly one artifact or creature to cast this spell; you can't cast it without sacrificing an artifact or creature, and you can't sacrifice additional artifacts or creatures.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): NEO #45 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 15,804 decks; most often under [Shorikai, Genesis Engine](../../cards/S/sho.md#shorikai-genesis-engine) (20.5% of its decks), [Tetsuo, Imperial Champion](../../cards/T/te.md#tetsuo-imperial-champion) (25.3% of its decks), [Captain America, First Avenger](../../cards/C/cap.md#captain-america-first-avenger) (4.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/45/anchor-to-reality) · oracle_id `6783f559-33d7-4b13-9a91-02b821e97163` · printing: NEO #45 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Anchor to the Aether
@@ -996,6 +1004,8 @@ schema: 2
   - *2020-11-10* — If the creature you control is an illegal target as Ancient Animus tries to resolve, you won't put a +1/+1 counter on it. If that creature is a legal target but the creature you don't control isn't, you'll still put the counter on the creature you control if it's legendary.
   - *2020-11-10* — The creature you control doesn't have to be legendary. It simply won't receive a +1/+1 counter before it fights if it isn't legendary.
   - *2020-11-10* — You can't cast Ancient Animus unless you choose both a creature you control and a creature you don't control as targets.
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 9](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-9-2018-05-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 32,240 decks; most often under [Wolverine, Best There Is](../../cards/W/wo.md#wolverine-best-there-is) (49.9% of its decks), [Maarika, Brutal Gladiator](../../cards/M/maa.md#maarika-brutal-gladiator) (42.6% of its decks), [Skullbriar, the Walking Grave](../../cards/S/sk.md#skullbriar-the-walking-grave) (18.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#ancient-animus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/215/ancient-animus) · oracle_id `4c9a38f8-8fcb-45f9-8b70-e54298c7b485` · printing: CMR #215 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1389,6 +1399,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8760 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-03-19* — Objects with no mana cost, including lands that could produce colored mana, are colorless by default.
+- **Lore:** ✅ Card art shown on [Limits](https://magic.wizards.com/en/news/magic-story/limits-2015-07-15) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 15,395 decks; most often under [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (35.3% of its decks), [Azlask, the Swelling Scourge](../../cards/A/az.md#azlask-the-swelling-scourge) (11.8% of its decks), [Azusa, Lost but Seeking](../../cards/A/az.md#azusa-lost-but-seeking) (1.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/151/ancient-stirrings) · oracle_id `82f18e7d-5c42-47c4-8e74-3fccc9b7b1f0` · printing: 2XM #151 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ancient Stone Idol
@@ -1882,6 +1894,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3692 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-11-10* — If the target creature is an illegal target by the time Angelic Gift tries to resolve, it doesn't resolve. It won't enter the battlefield, so its enters-the-battlefield ability won't trigger.
+- **Lore:** ✅ Card art shown on [The Blight We Were Born For](https://magic.wizards.com/en/news/magic-story/blight-we-were-born-2016-01-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 45,238 decks; most often under [Eriette of the Charmed Apple](../../cards/E/er.md#eriette-of-the-charmed-apple) (43.5% of its decks), [Light-Paws, Emperor's Voice](../../cards/L/li.md#light-paws-emperors-voice) (48.8% of its decks), [Three Dog, Galaxy News DJ](../../cards/T/thr.md#three-dog-galaxy-news-dj) (70.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Voltron (equipment & auras): Evasion & double strike](../../EDH%20Packages.md#voltron-equipment--auras-evasion--double-strike) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#angelic-gift)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/64/angelic-gift) · oracle_id `e5e04968-d9b7-4bd5-b826-be9502360cd3` · printing: AFC #64 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Angelic Guardian
@@ -2002,6 +2017,8 @@ schema: 2
   > *"We must save you from yourselves."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12494 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Emrakul Rises](https://magic.wizards.com/en/news/magic-story/emrakul-rises) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 8,318 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (1.2% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (0.7% of its decks), [Atla Palani, Nest Tender](../../cards/A/at.md#atla-palani-nest-tender) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/9/angelic-purge) · oracle_id `b262a057-9ace-48b4-b418-1bb751ccb300` · printing: INR #9 (2025-01-24) · [rulings](https://api.scryfall.com/cards/ed2fe361-2885-4fc9-a10f-960cc1ac0fbf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Angelic Quartermaster
@@ -2792,6 +2809,8 @@ schema: 2
   - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Zombies, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't a Zombie, it becomes a Zombie in addition to its other types.
   - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
   - *2023-06-16* — To amass Zombies N, if you don't control an Army creature, create a 0/0 black Zombie Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Zombie, it becomes a Zombie in addition to its other types.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Angrath](../../Characters%20Index.md#angrath) · [Dossier → Angrath](../../Planeswalker%20Dossiers.md#angrath) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 9,782 decks; most often under [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (6.1% of its decks), [Saruman, the White Hand](../../cards/S/sar.md#saruman-the-white-hand) (11.3% of its decks), [Sethron, Hurloon General](../../cards/S/set.md#sethron-hurloon-general) (26.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/A.md#angrath-captain-of-chaos)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/227/angrath-captain-of-chaos) · oracle_id `de08f5d4-8868-4d0f-8c0e-d0d3a2105581` · printing: WAR #227 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2811,6 +2830,8 @@ schema: 2
   - *2018-01-19* — Any abilities of the destroyed creatures that trigger when the player is dealt damage won't trigger.
   - *2018-01-19* — Any abilities that trigger when creatures die while resolving Angrath's last ability won't be put on the stack until after the player is dealt damage. If the player's life total becomes 0 or less, those triggers won't resolve in time to save that player.
   - *2018-01-19* — If a creature controlled by the target opponent isn't destroyed as Angrath's last ability resolves (most likely because it has indestructible), its power still contributes to the amount of damage dealt. Use its power as it currently exists on the battlefield to determine the total power of the creatures.
+- **Lore:** ✅ Card art shown on [The Arbiter of Law Left Chaos in His Wake](https://magic.wizards.com/en/news/magic-story/arbiter-law-left-chaos-his-wake-2018-01-24) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Angrath](../../Characters%20Index.md#angrath) · [Dossier → Angrath](../../Planeswalker%20Dossiers.md#angrath) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,545 decks; most often under [Admiral Beckett Brass](../../cards/A/ad.md#admiral-beckett-brass) (20.6% of its decks), [Admiral Brass, Unsinkable](../../cards/A/ad.md#admiral-brass-unsinkable) (7.1% of its decks), [Edward Kenway](../../cards/E/ed.md#edward-kenway) (3.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/A.md#angrath-minotaur-pirate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/201/angrath-minotaur-pirate) · oracle_id `2737a78c-77ed-4bd0-ac0d-39ca2d816e83` · printing: RIX #201 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2887,6 +2908,8 @@ schema: 2
   - *2018-01-19* — In a Two-Headed Giant game, Angrath’s first ability causes the opposing team to lose 4 life, and each player on that team discards a card. His last ability causes the opposing team to lose life equal to the number of cards in both graveyards.
   - *2018-01-19* — Whether the target creature has mana value 3 or less is checked only as the delayed triggered ability from Angrath’s second ability resolves during the end step.
   - *2018-01-19* — You can target and gain control of an untapped creature with Angrath’s second ability. You can also untap a creature you already control and give it haste.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Angrath](../../Characters%20Index.md#angrath) · [Dossier → Angrath](../../Planeswalker%20Dossiers.md#angrath) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 12,145 decks; most often under [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (11.2% of its decks), [Winter, Misanthropic Guide](../../cards/W/wi.md#winter-misanthropic-guide) (8.4% of its decks), [Kefka, Court Mage](../../cards/K/ke.md#kefka-court-mage--kefka-ruler-of-ruin) (2.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/A.md#angrath-the-flame-chained)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/152/angrath-the-flame-chained) · oracle_id `092ceffb-1ee4-452c-b15e-5b79267d42a6` · printing: RIX #152 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3314,6 +3337,8 @@ schema: 2
   - *2015-06-22* — If the spell mastery ability applies, you untap only the lands put onto the battlefield with Animist's Awakening.
   - *2015-06-22* — If you have X or less cards in your library, you'll reveal all the cards from your library, put all land cards from among them onto the battlefield tapped, and then put the rest of the cards back in your library in a random order. (This is effectively the same as shuffling your library, although it's still not technically a shuffle.)
   - *2015-06-22* — No player will know the order of the cards put on the bottom of your library. Practically speaking, the cards should be shuffled (although this is not the game action of "shuffling").
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 66,747 decks; most often under [Zaxara, the Exemplary](../../cards/Z/za.md#zaxara-the-exemplary) (60.6% of its decks), [Zimone, Infinite Analyst](../../cards/Z/zi.md#zimone-infinite-analyst) (83.9% of its decks), [Witherbloom, the Balancer](../../cards/W/wi.md#witherbloom-the-balancer) (43.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/261/animists-awakening) · oracle_id `6f1bfe50-b61a-4fdd-963c-40d59117bdf4` · printing: SOC #261 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Animist's Might
@@ -3670,6 +3695,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-04-29* — If the target is no longer legal as An Offer You Can't Refuse resolves, no Treasure tokens are created.
   - *2022-04-29* — If the target is still legal as it resolves but the spell can't be countered for some reason, its controller will still create two Treasure tokens.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): PLST #SNC-51, SNC #51 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (35): [Brago, King Eternal](../../decks/brago-king-eternal.md) · [Chulane, Teller of Tales](../../decks/chulane-teller-of-tales.md) · [Kykar, Wind's Fury](../../decks/kykar-winds-fury.md) · [Kynaios and Tiro of Meletis](../../decks/kynaios-and-tiro-of-meletis.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,349,639 decks; most often under [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (62.6% of its decks), [Ms. Bumbleflower](../../cards/M/ms.md#ms-bumbleflower) (69.8% of its decks), [Kefka, Court Mage](../../cards/K/ke.md#kefka-court-mage--kefka-ruler-of-ruin) (58.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 42 pages (35 decks · 5 edh guides · 2 card data) → [reverse index](../../references/A.md#an-offer-you-cant-refuse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/160/an-offer-you-cant-refuse) · oracle_id `234a734b-ba28-4f1b-9d01-3c3e7d516590` · printing: FDN #160 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3712,6 +3739,8 @@ schema: 2
   > *Inspiration is red as rubies, flowing like honeyed wine.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25251 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Unbowed, Part 1](https://magic.wizards.com/en/news/magic-story/unbowed-part-1-2018-08-29) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 785 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (0.3% of its decks), [Strefan, Maurer Progenitor](../../cards/S/str.md#strefan-maurer-progenitor) (0.5% of its decks), [Astarion, the Decadent](../../cards/A/as.md#astarion-the-decadent) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/89/anointed-deacon) · oracle_id `5212f0a8-7341-4960-835b-2f4600ca1b2d` · printing: XLN #89 (2017-09-29) · [rulings](https://api.scryfall.com/cards/9bae5e75-0048-41fd-8bbb-89607ab96d6e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Anointed Peacekeeper
@@ -3753,6 +3782,8 @@ schema: 2
   - *2017-04-18* — If the token you create has any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities, first determine how many tokens are being created, then apply those abilities individually for each one. For example, if a token with “You may have [this permanent] enter the battlefield as a copy of any creature on the battlefield” would be created (such as an embalmed Vizier of Many Faces), the resulting two tokens can each copy a different creature.
   - *2017-04-18* — If you control two Anointed Processions, then the number of tokens created is four times the original number. If you control three, then the number of tokens created is eight times the original number, and so on.
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called “story spotlights”—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): AKH #2, PLST #AKH-2 — [Art & Flavor → Amonkhet & Hour of Devastation (2017)](../../Art%20%26%20Flavor%20Story%20Links.md#amonkhet--hour-of-devastation-2017) — ✅ Card art shown on [Brazen](https://magic.wizards.com/en/news/magic-story/brazen-2017-05-03) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (3): [Edgar Markov](../../decks/edgar-markov.md) · [Edgar Markov (lifegain theme)](../../decks/theme-edgar-markov-lifegain.md) · [Trostani, Selesnya's Voice](../../decks/trostani-selesnyas-voice.md) · Commander Spellbook: 100+ combos; most popular [Springheart Nantuko + Anointed Procession](https://commanderspellbook.com/combo/1308-5702--143/) (Infinite creature ETB, Infinite creature tokens) · EDHREC: in 325,073 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (26.7% of its decks), [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (46.4% of its decks), [Baylen, the Haymaker](../../cards/B/bay.md#baylen-the-haymaker) (36.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Token doublers](../../EDH%20Packages.md#tokens-token-doublers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 8 pages (3 decks · 3 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/A.md#anointed-procession)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/2/anointed-procession) · oracle_id `7246d45b-2185-4cdd-981b-5419b7d52bce` · printing: AKH #2 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4453,6 +4484,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7339 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-02-02* — Anzrag's Rampage counts the number of artifacts that were put into graveyards from the battlefield this turn for any reason, not just ones that were destroyed by Anzrag's Rampage. This includes any artifact tokens that were put into graveyards from the battlefield this turn, such as Clue, Food, and Treasure tokens.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MKM #111, MKM #303 — [Art & Flavor → Murders at Karlov Manor (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#murders-at-karlov-manor-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Mycosynth Lattice + Anzrag's Rampage](https://commanderspellbook.com/combo/3263-7259/) (Destroy all permanents opponents control, Mass Land Denial) · EDHREC: in 20,126 decks; most often under [Kibo, Uktabi Prince](../../cards/K/ki.md#kibo-uktabi-prince) (29.7% of its decks), [Anzrag, the Quake-Mole](../../cards/A/an.md#anzrag-the-quake-mole) (16.9% of its decks), [Obeka, Brute Chronologist](../../cards/O/ob.md#obeka-brute-chronologist) (7.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#anzrags-rampage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/111/anzrags-rampage) · oracle_id `ce690a21-8117-420e-be00-cd6d9923a812` · printing: MKM #111 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

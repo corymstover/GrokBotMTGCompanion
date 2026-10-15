@@ -352,6 +352,8 @@ schema: 2
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6333 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #266 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Urza, Lord High Artificer](../../decks/lore-brothers-war-urza-lord-high-artificer.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 24,422 decks; most often under [Mirko, Obsessive Theorist](../../cards/M/mir.md#mirko-obsessive-theorist) (63.7% of its decks), [The Capitoline Triad](../../cards/T/thec.md#the-capitoline-triad) (27.0% of its decks), [Marvo, Deep Operative](../../cards/M/mar.md#marvo-deep-operative) (5.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 lore & story) → [reverse index](../../references/T.md#tocasias-dig-site)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/308/tocasias-dig-site) · oracle_id `a91f93fd-e428-4a36-b1b3-604b47a34287` · printing: MKC #308 (2024-02-09) · [rulings](https://api.scryfall.com/cards/bbb5d40b-f0e1-4e98-b4d3-1ee2cfa5b579/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -383,7 +385,9 @@ schema: 2
   > *"Your father was a dear friend to whom I owe much. He wanted me to look after you, to care for you should something happen to him."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #823 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#tocasias-welcome)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #30, PLST #BRO-30 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 179,618 decks; most often under [Zurgo Stormrender](../../cards/Z/zu.md#zurgo-stormrender) (41.1% of its decks), [Quintorius, History Chaser](../../cards/Q/qu.md#quintorius-history-chaser) (65.6% of its decks), [Arabella, Abandoned Doll](../../cards/A/ara.md#arabella-abandoned-doll) (26.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/T.md#tocasias-welcome)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/181/tocasias-welcome) · oracle_id `25c983e0-a8c9-4784-91a4-8fe04c6df882` · printing: SOC #181 (2026-04-24) · [rulings](https://api.scryfall.com/cards/90e38661-292a-45e7-bda9-51af53cf0f68/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tocatli Honor Guard
@@ -448,6 +452,8 @@ schema: 2
   - *2026-03-20* — If you cast a spell with converge without spending any mana to cast it (perhaps because an effect allowed you to cast it without paying its mana cost), then the number of colors spent to cast it will be zero.
   - *2026-03-20* — The maximum number of colors of mana you can spend to cast a spell is five. Colorless is not a color. Note that the cost of a spell with converge may limit how many colors of mana you can spend.
   - *2026-03-20* — Unless a spell or ability allows you to, you can't choose to pay more mana for a spell with a converge ability just to spend more colors of mana. Likewise, if a spell or ability reduces the amount of mana it costs you to cast a spell with converge, you can't ignore that cost reduction in order to spend more colors of mana.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): SOS #4 — [Art & Flavor → Secrets of Strixhaven (2026)](../../Art%20%26%20Flavor%20Story%20Links.md#secrets-of-strixhaven-2026) — ✅ Card art shown on [Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-6-two-three-five-seven) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,547 decks; most often under [The Dawning Archaic](../../cards/T/thed.md#the-dawning-archaic) (42.9% of its decks), [Jodah, Archmage Eternal](../../cards/J/jo.md#jodah-archmage-eternal) (6.6% of its decks), [Codie, Vociferous Codex](../../cards/C/cod.md#codie-vociferous-codex) (4.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#together-as-one)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/4/together-as-one) · oracle_id `234f1c4b-dd0c-4c4e-b3c1-3b9ccfc42226` · printing: SOS #4 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1093,6 +1099,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1754 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2014-09-20* — Count the number of colorless creatures you control (including face-down creatures) as the last ability resolves to determine how much life you gain.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/journey-nexus-2014-12-10), [Chronicle of Bolas: A Familiar Stranger](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-familiar-stranger-2018-08-01), [Chronicle of Bolas: The Unwritten Now](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Kozilek, the Great Distortion](../../decks/kozilek-the-great-distortion.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 94,078 decks; most often under [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (60.2% of its decks), [Zhulodok, Void Gorger](../../cards/Z/zh.md#zhulodok-void-gorger) (65.5% of its decks), [Azlask, the Swelling Scourge](../../cards/A/az.md#azlask-the-swelling-scourge) (39.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#tomb-of-the-spirit-dragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1048/tomb-of-the-spirit-dragon) · oracle_id `22f6391e-2634-440f-af1b-9581d1bff818` · printing: CMM #1048 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1301,6 +1309,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6825 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-01-25* — Tome of the Guildpact’s ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Lore:** ✅ Card art shown on [The Ascension of Reza](https://magic.wizards.com/en/news/magic-story/ascension-reza-2019-02-27) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 22,248 decks; most often under [General Ferrous Rokiric](../../cards/G/ge.md#general-ferrous-rokiric) (58.5% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (9.3% of its decks), [Ramos, Dragon Engine](../../cards/R/ram.md#ramos-dragon-engine) (14.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#tome-of-the-guildpact)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/242/tome-of-the-guildpact) · oracle_id `3c7dd86d-25eb-4b24-9358-98b951248e04` · printing: RNA #242 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tome Raider
@@ -1699,6 +1710,8 @@ schema: 2
   - *2015-06-22* — If a creature with renown deals combat damage to its controller because that damage was redirected, renown will trigger.
   - *2015-06-22* — If a renown ability triggers, but the creature leaves the battlefield before that ability resolves, the creature doesn’t become renowned. Any ability that triggers “whenever a creature becomes renowned” won’t trigger.
   - *2015-06-22* — Renown won’t trigger when a creature deals combat damage to a planeswalker or another creature. It also won’t trigger when a creature deals noncombat damage to a player.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 423 decks; most often under [Aragorn, Hornburg Hero](../../cards/A/ara.md#aragorn-hornburg-hero) (1.1% of its decks), [Odric, Lunarch Marshal](../../cards/O/od.md#odric-lunarch-marshal) (0.7% of its decks), [Myrel, Shield of Argive](../../cards/M/my.md#myrel-shield-of-argive) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gn2/14/topan-freeblade) · oracle_id `9e2cd0d5-1537-412b-9ecd-989ab4ac2700` · printing: GN2 #14 (2019-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Topaz Dragon // Entropic Cloud
@@ -1967,6 +1980,8 @@ schema: 2
   - *2020-08-07* — If Topple the Statue targets an artifact, that artifact will be tapped if it's untapped, and then it'll be destroyed. Any abilities that trigger as it becomes tapped do so and will resolve after Topple the Statue has finished resolving.
   - *2020-08-07* — If the target permanent is an illegal target when Topple the Statue tries to resolve, it doesn't resolve. You won't draw a card. If the target is legal but isn't tapped, isn't destroyed, or is neither tapped nor destroyed, you do draw a card.
   - *2020-08-07* — Topple the Statue can target any permanent, even one that's already tapped.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WAR #35 — [Art & Flavor → War of the Spark (2019)](../../Art%20%26%20Flavor%20Story%20Links.md#war-of-the-spark-2019) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,864 decks; most often under [Hylda of the Icy Crown](../../cards/H/hy.md#hylda-of-the-icy-crown) (1.2% of its decks), [Killian, Ink Duelist](../../cards/K/ki.md#killian-ink-duelist) (2.0% of its decks), [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#topple-the-statue)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/36/topple-the-statue) · oracle_id `3883f5de-92bf-4692-80e5-f03365bf7112` · printing: 2XM #36 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2378,6 +2393,8 @@ schema: 2
   - *2013-09-15* — Heroic abilities will resolve before the spell that caused them to trigger.
   - *2013-09-15* — Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times.
   - *2013-09-15* — Heroic abilities won't trigger when a copy of a spell is created on the stack or when a spell's targets are changed to include a creature with a heroic ability.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/tragedy-2013-10-23) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,247 decks; most often under [Abigale, Poet Laureate](../../cards/A/ab.md#abigale-poet-laureate--heroic-stanza) (39.1% of its decks), [Killian, Ink Duelist](../../cards/K/ki.md#killian-ink-duelist) (2.7% of its decks), [Eriette of the Charmed Apple](../../cards/E/er.md#eriette-of-the-charmed-apple) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/108/tormented-hero) · oracle_id `47fbb4f0-565b-4682-9971-0735210c76e5` · printing: THS #108 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tormented Pariah // Rampaging Werewolf
@@ -2496,6 +2513,8 @@ schema: 2
   - *2017-07-14* — Because state-based actions aren’t performed while Torment of Venom is resolving, the target creature is still on the battlefield while its controller is tormented. If that creature has an Aura attached to it, that Aura can be sacrificed.
   - *2017-07-14* — If the target creature is an illegal target by the time Torment of Venom resolves, the entire spell doesn’t resolve. The creature’s controller won’t be tormented.
   - *2017-07-14* — While resolving Torment of Venom, the creature’s controller chooses a card to be discarded without revealing it, chooses a nonland permanent to be sacrificed, or chooses to do neither. Then that player discards that card, sacrifices that permanent, or loses 3 life. That player can always choose to lose 3 life, even if they have cards to discard or nonland permanents to sacrifice.
+- **Lore:** ✅ Card art shown on [Endure](https://magic.wizards.com/en/news/magic-story/endure-2017-07-19) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,864 decks; most often under [The Scorpion God](../../cards/T/thes.md#the-scorpion-god) (27.2% of its decks), [Hapatra, Vizier of Poisons](../../cards/H/ha.md#hapatra-vizier-of-poisons) (11.7% of its decks), [Auntie Ool, Cursewretch](../../cards/A/au.md#auntie-ool-cursewretch) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#torment-of-venom)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/79/torment-of-venom) · oracle_id `9e9a7f0b-ffba-43d6-892a-95fd0b8b39f8` · printing: HOU #79 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2933,7 +2952,7 @@ schema: 2
   - *2021-02-05* — If Toski can't attack for some reason (such as being tapped or having come under that player's control that turn), then it doesn't attack. If there's a cost associated with having it attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.
 - **Lore:** Featured in: [Plane → Kaldheim](../../Planes%20Index.md#kaldheim) ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-kaldheim-part-1-2021-01-08), [2](https://magic.wizards.com/en/news/feature/planeswalkers-guide-kaldheim-part-2-2021-01-14) via entry) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — KB decks (1): [Saskia the Unyielding](../../decks/saskia-the-unyielding.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,429 decks; highest synergy [Ohran Frostfang](../../cards/O/oh.md#ohran-frostfang) (+38%), [Lure](../../cards/L/lu.md#lure) (+35%), [Basilisk Collar](../../cards/B/bas.md#basilisk-collar) (+32%) · EDHREC: in 311,458 decks; most often under [Chatterfang, Squirrel General](../../cards/C/cha.md#chatterfang-squirrel-general) (74.3% of its decks), [Hazel of the Rootbloom](../../cards/H/ha.md#hazel-of-the-rootbloom) (87.2% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (23.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 6 pages (1 decks · 3 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/T.md#toski-bearer-of-secrets)
+- **Referenced in:** 7 pages (1 decks · 4 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/T.md#toski-bearer-of-secrets)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/191/toski-bearer-of-secrets) · oracle_id `a8e707ec-ce77-4bc5-8c76-5ea3e81e8c7f` · printing: MKC #191 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Totally Lost
@@ -2946,6 +2965,8 @@ schema: 2
   > *Fblthp had always hated crowds.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21984 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/fblthp-2013-12-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,544 decks; most often under [Haldan, Avid Arcanist // Pako, Arcane Retriever](../../cards/H/ha.md#haldan-avid-arcanist) (1.6% of its decks), [Fblthp, the Lost](../../cards/F/fb.md#fblthp-the-lost) (14.4% of its decks), [Borborygmos and Fblthp](../../cards/B/bo.md#borborygmos-and-fblthp) (4.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/64/totally-lost) · oracle_id `e0462a2c-fb88-495f-813b-6476ee3e62bb` · printing: RVR #64 (2024-01-12) · [rulings](https://api.scryfall.com/cards/c36f01a5-82bf-4fc6-9396-4410067c351b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Total War

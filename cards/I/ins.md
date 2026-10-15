@@ -226,6 +226,8 @@ schema: 2
 - **Keywords:** Menace, Void
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16810 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): EOE #108 — [Art & Flavor → Edge of Eternities (2025)](../../Art%20%26%20Flavor%20Story%20Links.md#edge-of-eternities-2025) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,976 decks; most often under [Alpharael, Stonechosen](../../cards/A/al.md#alpharael-stonechosen) (26.9% of its decks), [Grist, the Hunger Tide](../../cards/G/gri.md#grist-the-hunger-tide) (5.3% of its decks), [Syr Vondam, Sunstar Exemplar](../../cards/S/sy.md#syr-vondam-sunstar-exemplar) (5.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/I.md#insatiable-skittermaw)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/108/insatiable-skittermaw) · oracle_id `69a68dec-4b01-4528-81fc-a3c5f5097f72` · printing: EOE #108 (2025-08-01) · [rulings](https://api.scryfall.com/cards/e9d30cca-ea33-418f-bba3-5103f1dbd751/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -461,6 +463,8 @@ schema: 2
 - **Rulings** (2):
   - *2024-02-02* — If multiple creature cards leave your graveyard at the same time, Insidious Roots's last ability will trigger only once.
   - *2024-02-02* — In the rare case where Insidious Roots is a creature token, it will grant itself the ability "{T}: Add one mana of any color."
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MKM #208, MKM #313 — [Art & Flavor → Murders at Karlov Manor (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#murders-at-karlov-manor-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Tortured Existence + Phyrexian Altar + Insidious Roots](https://commanderspellbook.com/combo/1445-4050-5477/) (Infinite creature LTB, Infinite creature ETB) · EDHREC: in 110,453 decks; most often under [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (52.8% of its decks), [The Necrobloom](../../cards/T/then.md#the-necrobloom) (40.2% of its decks), [The Mycotyrant](../../cards/T/them.md#the-mycotyrant) (57.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 lore & story · 2 card data) → [reverse index](../../references/I.md#insidious-roots)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/208/insidious-roots) · oracle_id `d75b2b8e-05c9-47da-b359-a867256d78ea` · printing: MKM #208 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -589,6 +593,8 @@ schema: 2
   > *—Journal of the Prime Izmagnus*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20647 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/gruul-ingenuity-2012-12-21) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,005 decks; most often under [Nekusar, the Mindrazer](../../cards/N/ne.md#nekusar-the-mindrazer) (0.2% of its decks), [Talrand, Sky Summoner](../../cards/T/ta.md#talrand-sky-summoner) (1.0% of its decks), [Niv-Mizzet, Parun](../../cards/N/ni.md#niv-mizzet-parun) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/w17/10/inspiration) · oracle_id `8f32ceb2-92c2-4dde-bf73-40bb79c3fcef` · printing: W17 #10 (2017-04-15) · [rulings](https://api.scryfall.com/cards/95233b5e-9401-4d6d-8ec4-959ca22270ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inspirational Antelope
@@ -658,6 +664,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18695 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-09-20* — The set of creatures affected by Inspired Charge is determined as the spell resolves. Creatures you begin to control later in the turn and noncreature permanents that become creatures later in the turn won't get +2/+1.
+- **Lore:** ✅ Card art shown on [Shaping an Army](https://magic.wizards.com/en/news/magic-story/shaping-army-2015-10-21) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,839 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (0.2% of its decks), [Kytheon, Hero of Akros](../../cards/K/ky.md#kytheon-hero-of-akros--gideon-battle-forged) (6.8% of its decks), [Jasmine Boreal of the Seven](../../cards/J/ja.md#jasmine-boreal-of-the-seven) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/19/inspired-charge) · oracle_id `d465a3d6-5830-456c-8e7a-908b464db846` · printing: MOM #19 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inspired Fire
@@ -888,6 +896,8 @@ schema: 2
   > *"The Immortal Sun will bring us true eternal life to replace the everlasting shadow of undeath."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21490 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [The Race, Part 1](https://magic.wizards.com/en/news/magic-story/race-part-1-2017-10-11) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,700 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (0.5% of its decks), [Astarion, the Decadent](../../cards/A/as.md#astarion-the-decadent) (1.6% of its decks), [Mavren Fein, Dusk Apostle](../../cards/M/mav.md#mavren-fein-dusk-apostle) (65.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/16/inspiring-cleric) · oracle_id `65e19aec-e8ea-412f-a239-bd8d1b78249c` · printing: XLN #16 (2017-09-29) · [rulings](https://api.scryfall.com/cards/31b8f1da-c8ea-41d5-b1ad-b714c22d3683/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inspiring Leader
@@ -1030,6 +1040,8 @@ schema: 2
 - **Rulings** (2):
   - *2016-09-20* — If one of these lands enters the battlefield at the same time as one or more other lands (due to Oblivion Sower or Warp World, perhaps), it doesn't take those lands into consideration when determining how many other lands you control.
   - *2016-09-20* — If one of these lands is your first, second, or third land, it enters the battlefield untapped. If you control three or more other lands, however, it enters the battlefield tapped.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Kaladesh](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-kaladesh-2016-11-02), [Quiet Moments](https://magic.wizards.com/en/news/magic-story/quiet-moments-2016-12-07), [Wool Over the Eyes](https://magic.wizards.com/en/news/magic-story/wool-over-eyes-2018-02-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Feather, the Redeemed](../../decks/feather-the-redeemed.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 111,492 decks; most often under [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (36.2% of its decks), [Arabella, Abandoned Doll](../../cards/A/ara.md#arabella-abandoned-doll) (17.0% of its decks), [Lightning, Army of One](../../cards/L/li.md#lightning-army-of-one) (19.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#inspiring-vantage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/269/inspiring-vantage) · oracle_id `3f17c60e-923a-4392-9da8-87d9ded009b7` · printing: OTJ #269 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

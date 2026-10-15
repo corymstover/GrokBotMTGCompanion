@@ -52,6 +52,8 @@ schema: 2
 - **Rulings** (2):
   - *2016-09-20* — Depala, Pilot Exemplar's last ability is a triggered ability, not an activated ability. It doesn't allow you to tap Depala whenever you want; rather, you need some other way of tapping it, such as by attacking.
   - *2016-09-20* — For the ability to trigger, Depala has to actually change from untapped to tapped. If an effect attempts to tap Depala, but it was already tapped at the time, this ability won't trigger.
+- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Kaladesh](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-kaladesh-2016-11-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,696 decks; highest synergy [Veteran Motorist](../../cards/V/ve.md#veteran-motorist) (+85%), [Magda, Brazen Outlaw](../../cards/M/mag.md#magda-brazen-outlaw) (+80%), [Peacewalker Colossus](../../cards/P/pe.md#peacewalker-colossus) (+76%) · EDHREC: in 9,522 decks; most often under [Kolodin, Triumph Caster](../../cards/K/ko.md#kolodin-triumph-caster) (61.5% of its decks), [Thorin, King of Durin's Folk](../../cards/T/tho.md#thorin-king-of-durins-folk) (27.1% of its decks), [Dáin of the Ancient Halls](../../cards/D/da.md#dáin-of-the-ancient-halls) (35.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/178/depala-pilot-exemplar) · oracle_id `cc913f28-18ef-485e-8d2b-ae0115523020` · printing: KLD #178 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Departed Deckhand

@@ -49,6 +49,8 @@ schema: 2
   - *2015-06-22* — If the spell or ability has multiple instances of the word “target,” you choose which target you’re changing to Mizzium Meddler as Mizium Meddler’s ability resolves.
   - *2015-06-22* — Mizzium Meddler’s triggered ability can target a spell or ability even if Mizzium Meddler wouldn’t be a legal target for that spell or ability. However, the target of that spell or ability will remain unchanged.
   - *2015-06-22* — The target of the spell or ability won’t change unless Mizzium Meddler fulfills all the targeting criteria. If a spell or ability has multiple targets, such as Send to Sleep, you can change only one of the targets to Mizzium Meddler.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,883 decks; most often under [Sonic the Hedgehog](../../cards/S/so.md#sonic-the-hedgehog) (1.6% of its decks), [Azami, Lady of Scrolls](../../cards/A/az.md#azami-lady-of-scrolls) (3.3% of its decks), [Rayne, Academy Chancellor](../../cards/R/ray.md#rayne-academy-chancellor) (43.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/64/mizzium-meddler) · oracle_id `48a909b6-e6ee-4148-8b50-b35f11bc065f` · printing: ORI #64 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mizzium Mortars

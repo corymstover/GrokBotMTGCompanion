@@ -339,6 +339,8 @@ schema: 2
   - *2016-09-20* — If any of the cards put into your graveyard have {X} in their mana cost, X is considered to be 0.
   - *2016-09-20* — If you have fewer than three cards in your library, the opponent may choose to have you draw three cards. If so, you'll lose the game as state-based actions are performed.
   - *2016-09-20* — While Combustible Gearhulk's triggered ability is resolving, no player may take any actions other than those specified by the Gearhulk. Once the opponent makes a choice, players can't cast spells or activate abilities until after the cards are drawn or put into the graveyard and damage has been dealt (if applicable).
+- **Lore:** ✅ Card art shown on [The Making of Kaladesh](https://magic.wizards.com/en/news/magic-story/making-kaladesh-2016-11-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Dr. Eggman (Grixis)](../../grixis/decks/dr-eggman.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 151,701 decks; most often under [Dr. Eggman](../../cards/D/dre.md#dr-eggman) (78.9% of its decks), [Tannuk, Steadfast Second](../../cards/T/ta.md#tannuk-steadfast-second) (77.0% of its decks), [Satya, Aetherflux Genius](../../cards/S/sat.md#satya-aetherflux-genius) (39.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (1 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/C.md#combustible-gearhulk)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/163/combustible-gearhulk) · oracle_id `3494a575-f68e-4e78-9f6b-142cd8a0edea` · printing: DSC #163 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -500,6 +502,8 @@ schema: 2
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18143 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MOM #136 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,132 decks; most often under [Zada, Hedron Grinder](../../cards/Z/za.md#zada-hedron-grinder) (4.0% of its decks), [Rosnakht, Heir of Rohgahh](../../cards/R/ro.md#rosnakht-heir-of-rohgahh) (21.5% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#coming-in-hot)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/136/coming-in-hot) · oracle_id `9666729d-3a06-43f9-a957-d5cc4d25b974` · printing: MOM #136 (2023-04-21) · [rulings](https://api.scryfall.com/cards/4f6eb966-67af-4b18-8899-4a99a5179aa3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -534,6 +538,8 @@ schema: 2
   > {T}: Add one mana of any color.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3433 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): EOE #252 — [Art & Flavor → Edge of Eternities (2025)](../../Art%20%26%20Flavor%20Story%20Links.md#edge-of-eternities-2025) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 48,719 decks; most often under [Infinite Guideline Station](../../cards/I/inf.md#infinite-guideline-station) (25.3% of its decks), [Kilo, Apogee Mind](../../cards/K/ki.md#kilo-apogee-mind) (5.8% of its decks), [Inspirit, Flagship Vessel](../../cards/I/ins.md#inspirit-flagship-vessel) (5.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#command-bridge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/252/command-bridge) · oracle_id `87c8e1ed-258a-4a89-bcc6-211405e49692` · printing: EOE #252 (2025-08-01) · [rulings](https://api.scryfall.com/cards/247670d2-a7cd-4ed7-9c77-704c7962b815/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -657,6 +663,8 @@ schema: 2
   > *"There's so much to learn. Sometimes I wish there were more of me."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8215 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-the-math-of-more) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 16,984 decks; most often under [Zimone, Infinite Analyst](../../cards/Z/zi.md#zimone-infinite-analyst) (48.0% of its decks), [Eluge, the Shoreless Sea](../../cards/E/el.md#eluge-the-shoreless-sea) (6.8% of its decks), [Zaxara, the Exemplary](../../cards/Z/za.md#zaxara-the-exemplary) (4.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/C.md#commanders-insight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/113/commanders-insight) · oracle_id `54d7d7f8-22cd-4859-b203-924d248b422b` · printing: SOC #113 (2026-04-24) · [rulings](https://api.scryfall.com/cards/1a40e4da-a631-4423-b70f-701b27b09f79/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -840,6 +848,8 @@ schema: 2
   - *2019-05-03* — Command the Dreadhorde deals damage to you before the creature and planeswalker cards are put onto the battlefield, but if this brings your life total to 0 or less, those creatures and planeswalkers enter the battlefield before you lose the game. Any abilities they have that trigger when they enter the battlefield won’t resolve if you lose the game, but their static abilities (such as that of Platinum Angel) may help you survive with 0 or less life.
   - *2019-05-03* — If a card in a graveyard has {X} in its mana cost, X is considered to be 0.
   - *2019-05-03* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, the creatures and planeswalkers you control from Command the Dreadhorde’s effect are exiled.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WAR #82 — [Art & Flavor → War of the Spark (2019)](../../Art%20%26%20Flavor%20Story%20Links.md#war-of-the-spark-2019) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 23,184 decks; most often under [Judith, Carnage Connoisseur](../../cards/J/ju.md#judith-carnage-connoisseur) (14.1% of its decks), [Liliana, Heretical Healer](../../cards/L/li.md#liliana-heretical-healer--liliana-defiant-necromancer) (29.4% of its decks), [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (10.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#command-the-dreadhorde)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/82/command-the-dreadhorde) · oracle_id `198d31e4-1ae1-4bf9-a05a-7fa45c0aeddb` · printing: WAR #82 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -881,6 +891,8 @@ schema: 2
   - *2020-11-10* — If you don't have a commander, Command Tower's ability produces no mana.
   - *2020-11-10* — If you have two commanders, the ability adds one mana of any color in their combined color identities.
   - *2020-11-10* — If your commander is a card that has no colors in its color identity, Command Tower's ability produces no mana. It doesn't produce {C}.
+- **Lore:** ✅ Card art shown on [Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-the-math-of-more) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (70): [Animar, Soul of Elements](../../decks/animar-soul-of-elements.md) · [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Brago, King Eternal](../../decks/brago-king-eternal.md) · [Breya, Etherium Shaper](../../decks/breya-etherium-shaper.md) … · Commander Spellbook: 20 combos; most popular [Tower Winder + Kheru Goldkeeper + Six + Command Tower + Altar of Dementia](https://commanderspellbook.com/combo/5256-5751-6462-7104-7105/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC: in 7,588,837 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (96.1% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (93.0% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (91.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 77 pages (70 decks · 3 edh guides · 1 rules · 1 lore & story · 2 card data) → [reverse index](../../references/C.md#command-tower)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/22/command-tower) · oracle_id `0895c9b7-ae7d-4bb3-af17-3b75deb50a25` · printing: FRC #22 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1168,7 +1180,9 @@ schema: 2
   - *2015-02-25* — Playing a card this way follows the normal rules for playing the card. You must pay its costs, and you must follow all applicable timing rules. For example, if one of the cards is a creature card, you can cast that card only during your main phase while the stack is empty.
   - *2015-02-25* — The cards are exiled face up.
   - *2015-02-25* — Under normal circumstances, you can play a land card exiled with Commune with Lava only if you haven't played a land yet that turn.
-- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/C.md#commune-with-lava)
+- **Lore:** ✅ Flavor text verbatim on [official page 1](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-dragons-tarkir-part-2-2015-03-18) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Atarka, World Render (Tarkir-only)](../../decks/plane-tarkir-atarka-world-render.md) · [Prosper, Tome-Bound](../../decks/prosper-tome-bound.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 42,000 decks; most often under [Fire Lord Zuko](../../cards/F/fi.md#fire-lord-zuko) (50.3% of its decks), [Prosper, Tome-Bound](../../cards/P/pr.md#prosper-tome-bound) (36.0% of its decks), [Rowan, Scion of War](../../cards/R/ro.md#rowan-scion-of-war) (29.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/C.md#commune-with-lava)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/118/commune-with-lava) · oracle_id `f4aa0f64-d202-42a1-af62-0e53bbe87782` · printing: AFC #118 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Commune with Nature
@@ -1299,6 +1313,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23177 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-08-21* — The power of the creature or the loyalty of the planeswalker is checked as the spell resolves. If that creature or planeswalker is no longer on the battlefield at the time the spell resolves, no damage is dealt.
+- **Lore:** ✅ Card art shown on [Reality Fracture](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-5-i-dont-need-to-convince-you) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,296 decks; most often under [Carth the Lion](../../cards/C/car.md#carth-the-lion) (10.0% of its decks), [Fynn, the Fangbearer](../../cards/F/fy.md#fynn-the-fangbearer) (1.7% of its decks), [Wolverine, Best There Is](../../cards/W/wo.md#wolverine-best-there-is) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#compel-brutality)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/101/compel-brutality) · oracle_id `3a9059ac-c595-4e71-b704-b04d2d47db70` · printing: FRA #101 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1372,6 +1388,8 @@ schema: 2
   > *"Elspeth, my friend, the Multiverse has answered my prayers to bring you here so that I may gather you into my pride and forever protect you."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17805 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): ONE #7 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,319 decks; most often under [Skrelv, Defector Mite](../../cards/S/sk.md#skrelv-defector-mite) (37.0% of its decks), [Ixhel, Scion of Atraxa](../../cards/I/ix.md#ixhel-scion-of-atraxa) (4.7% of its decks), [Vishgraz, the Doomhive](../../cards/V/vi.md#vishgraz-the-doomhive) (6.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#compleat-devotion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/7/compleat-devotion) · oracle_id `c2a6cfb7-e5bd-49c8-aa51-fd5203eca8b8` · printing: ONE #7 (2023-02-10) · [rulings](https://api.scryfall.com/cards/2bb29a69-3e42-4268-8026-f01072d7b56c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

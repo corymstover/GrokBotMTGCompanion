@@ -111,6 +111,8 @@ schema: 2
   > *Ranks of sleeping Ardenvale knights filled Eriette's throne room, ready to defend their witch-queen with unthinking devotion.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9453 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WOE #12 — [Art & Flavor → Wilds of Eldraine (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#wilds-of-eldraine-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 13,676 decks; most often under [Eriette of the Charmed Apple](../../cards/E/er.md#eriette-of-the-charmed-apple) (2.8% of its decks), [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (0.9% of its decks), [Arabella, Abandoned Doll](../../cards/A/ara.md#arabella-abandoned-doll) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/E.md#eerie-interference)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/12/eerie-interference) · oracle_id `35ba0e70-da7c-4ed9-b8ec-7dd5c5ce110e` · printing: WOE #12 (2023-09-08) · [rulings](https://api.scryfall.com/cards/42a74545-75c8-4a6b-bee1-ac5665d9bcf0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

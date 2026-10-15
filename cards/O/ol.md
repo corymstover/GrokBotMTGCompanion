@@ -441,6 +441,8 @@ schema: 2
   - *2016-04-08* — If the entering creature leaves the battlefield before the triggered ability of Olivia, Mobilized for War resolves, you may still discard a card. The rest of the ability has no effect.
   - *2016-04-08* — If you discard a card, the creature only gains haste until end of turn, but the +1/+1 counter and Vampire subtype remain indefinitely.
   - *2016-04-08* — You decide whether to discard a card as the triggered ability of Olivia, Mobilized for War resolves. If you do, the rest of the ability’s effects happen before any player may take actions.
+- **Lore:** ✅ Card art shown on [Saint Traft and the Flight of Nightmares](https://magic.wizards.com/en/news/magic-story/saint-traft-and-flight-nightmares-2016-07-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Olivia, Mobilized for War + Yahenni, Undying Partisan + High-Society Hunter](https://commanderspellbook.com/combo/3967-6247-6249--5/) (Near-infinite creature ETB, Infinite draw triggers) · EDHREC as commander: 1,083 decks; highest synergy [Stensia Masquerade](../../cards/S/ste.md#stensia-masquerade) (+60%), [Archfiend of Ifnir](../../cards/A/arc.md#archfiend-of-ifnir) (+50%), [Stromkirk Captain](../../cards/S/str.md#stromkirk-captain) (+49%) · EDHREC: in 9,650 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (3.4% of its decks), [Olivia, Crimson Bride](../../cards/O/ol.md#olivia-crimson-bride) (57.2% of its decks), [Magar of the Magic Strings](../../cards/M/mag.md#magar-of-the-magic-strings) (15.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/O.md#olivia-mobilized-for-war)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/248/olivia-mobilized-for-war) · oracle_id `1f8d387e-e4bb-4e76-a173-f46f7b107b95` · printing: SOI #248 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -520,6 +522,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27103 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-09-24* — The phrase "if it's night" refers to the day or night designation the game can have. It does not refer to whether or not it's dark outside as you play the game.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MID #118 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 510 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (0.1% of its decks), [Olivia Voldaren](../../cards/O/ol.md#olivia-voldaren) (1.6% of its decks), [Olivia, Crimson Bride](../../cards/O/ol.md#olivia-crimson-bride) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/118/olivias-midnight-ambush) · oracle_id `a3b8a08b-5409-4d5f-9bab-8a7a6376a5b9` · printing: MID #118 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Olivia's Wrath
@@ -550,6 +554,8 @@ schema: 2
 - **Rulings** (2):
   - *2017-03-14* — If Olivia Voldaren deals lethal damage to a creature with its first activated ability, that creature will become a Vampire before dying.
   - *2017-03-14* — If you activate Olivia Voldaren’s last ability, and before that ability resolves you lose control of Olivia Voldaren, the ability will resolve with no effect. You won’t gain control of the targeted Vampire.
+- **Lore:** ✅ Card art shown on [Promises Old and New](https://magic.wizards.com/en/news/magic-story/promises-old-and-new-2016-04-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 16 combos; most popular [Olivia Voldaren + Revel in Riches + Goldspan Dragon](https://commanderspellbook.com/combo/2429-3193-3809/) (Destroy all creatures opponents control, Destroy each creature that enters the battlefield under an opponent's control) · EDHREC as commander: 2,866 decks; highest synergy [Stromkirk Captain](../../cards/S/str.md#stromkirk-captain) (+65%), [Captivating Vampire](../../cards/C/cap.md#captivating-vampire) (+62%), [Cordial Vampire](../../cards/C/cor.md#cordial-vampire) (+59%) · EDHREC: in 20,830 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (25.3% of its decks), [Strefan, Maurer Progenitor](../../cards/S/str.md#strefan-maurer-progenitor) (17.0% of its decks), [Olivia, Crimson Bride](../../cards/O/ol.md#olivia-crimson-bride) (44.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#olivia-voldaren)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/246/olivia-voldaren) · oracle_id `dd27d0f2-fe1e-4b63-9ba0-6264ca3c70f8` · printing: INR #246 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

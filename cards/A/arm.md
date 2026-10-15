@@ -418,6 +418,9 @@ schema: 2
 - **Rulings** (2):
   - *2020-11-10* — Armorcraft Judge's ability counts the number of creatures, not the number of counters. A creature with more than one +1/+1 counter won't cause you to draw more than one card.
   - *2020-11-10* — The number of creatures you control with +1/+1 counters on them is counted only as Armorcraft Judge's triggered ability resolves. Players may respond to the triggered ability by trying to change that number.
+- **Lore:** ✅ Card art shown on [The Making of Kaladesh](https://magic.wizards.com/en/news/magic-story/making-kaladesh-2016-11-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 45,802 decks; most often under [Hamza, Guardian of Arashin](../../cards/H/ha.md#hamza-guardian-of-arashin) (60.7% of its decks), [Voja, Jaws of the Conclave](../../cards/V/vo.md#voja-jaws-of-the-conclave) (19.3% of its decks), [Shalai and Hallar](../../cards/S/sha.md#shalai-and-hallar) (31.0% of its decks) — *Guidance (Oracle pattern)* — packages: [+1/+1 counters: Counter payoffs](../../EDH%20Packages.md#11-counters-counter-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#armorcraft-judge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/273/armorcraft-judge) · oracle_id `d7f49243-a96e-499f-b2d7-8e9842432420` · printing: CMM #273 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armored Armadillo

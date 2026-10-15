@@ -162,6 +162,9 @@ schema: 2
   > *"Ghoulcallers trying to get in, geists trying to get out . . . . This duty is never dull."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21127 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Sacrifice](https://magic.wizards.com/en/news/magic-story/sacrifice-2016-03-23) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Nim Deathmantle + Ashnod's Altar + Mausoleum Guard](https://commanderspellbook.com/combo/2034-5003-6418/) (Infinite creature LTB, Infinite creature ETB) · EDHREC: in 1,826 decks; most often under [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (3.9% of its decks), [Teysa Karlov](../../cards/T/te.md#teysa-karlov) (1.3% of its decks), [Arabella, Abandoned Doll](../../cards/A/ara.md#arabella-abandoned-doll) (0.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/M.md#mausoleum-guard)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/33/mausoleum-guard) · oracle_id `64f3af46-f8ab-4ba4-9dff-7412cefb4eea` · printing: INR #33 (2025-01-24) · [rulings](https://api.scryfall.com/cards/849bea7e-74e5-4310-be5a-d517d7b19be6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mausoleum Harpy

@@ -122,6 +122,8 @@ schema: 2
   > *"Everyone has a weak spot."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10376 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): VOW #179 — ✅ Card art shown on [Episode 4: The Wedding Crashers](https://magic.wizards.com/en/news/magic-story/episode-4-wedding-crashers-2021-11-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 11,744 decks; most often under [Zada, Hedron Grinder](../../cards/Z/za.md#zada-hedron-grinder) (9.4% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (2.0% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/209/sure-strike) · oracle_id `fb694e7e-f66e-4958-b6ed-aa74bc9ac43e` · printing: FDN #209 (2024-11-15) · [rulings](https://api.scryfall.com/cards/5de6a1e4-5c66-43e6-9f2a-2635bdab03f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surestrike Trident
@@ -268,6 +270,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3075 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-04-14* — The set of permanents that gain hexproof is determined as Surge of Salvation resolves. Permanents you begin to control later in the turn won't gain hexproof. However, the damage prevention effect will apply to all creatures you control throughout the turn, even if you didn't control them (or they weren't creatures) as Surge of Salvation resolved.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MOM #41, PLST #MOM-41 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 54,075 decks; most often under [Light-Paws, Emperor's Voice](../../cards/L/li.md#light-paws-emperors-voice) (22.1% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (4.3% of its decks), [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (3.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#surge-of-salvation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/41/surge-of-salvation) · oracle_id `b9a62c6b-5848-44b1-932b-8d5de2560976` · printing: MOM #41 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -615,6 +619,9 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Lore:** ✅ Card art shown on [Nissa's Resolve](https://magic.wizards.com/en/news/magic-story/nissas-resolve-2015-10-07) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 266 decks; most often under [Ob Nixilis, the Fallen](../../cards/O/ob.md#ob-nixilis-the-fallen) (10.3% of its decks), [Korlash, Heir to Blackblade](../../cards/K/ko.md#korlash-heir-to-blackblade) (0.8% of its decks), [Dakkon Blackblade](../../cards/D/da.md#dakkon-blackblade) (0.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Lands / landfall: Landfall payoffs](../../EDH%20Packages.md#lands--landfall-landfall-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#surrakar-marauder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/zen/113/surrakar-marauder) · oracle_id `23c52252-1e65-4e04-98d3-0ac06a565016` · printing: ZEN #113 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surrakar Spellblade
@@ -683,6 +690,8 @@ schema: 2
   - *2015-02-25* — If you control a creature with power less than 0, use its actual power when calculating the total power of creatures you control. For example, if you control three creatures with powers 4, 5, and -2, the total power of creatures you control is 7.
   - *2015-02-25* — Other formidable abilities are triggered abilities with an "intervening 'if'" clause. Such abilities check the total power of creatures you control twice: once at the appropriate time to see if the ability will trigger, and again as the ability tries to resolve. If, at that time, the total power of creatures you control is no longer 8 or greater, the ability will have no effect.
   - *2015-02-25* — Some formidable abilities are activated abilities that require creatures you control to have total power 8 or greater. Once you activate these abilities, it doesn't matter what happens to the total power of creatures you control.
+- **Lore:** ✅ Card art shown on [The Call](https://magic.wizards.com/en/news/magic-story/call-2015-04-15), [Planeswalker's Guide to Dragons of Tarkir, Part 2](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-dragons-tarkir-part-2-2015-03-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 112 decks; highest synergy [Ghalta, Primal Hunger](../../cards/G/gh.md#ghalta-primal-hunger) (+35%), [Whisperer of the Wilds](../../cards/W/wh.md#whisperer-of-the-wilds) (+32%), [Garruk's Uprising](../../cards/G/ga.md#garruks-uprising) (+28%) · EDHREC: in 19,804 decks; most often under [Ghalta, Primal Hunger](../../cards/G/gh.md#ghalta-primal-hunger) (49.2% of its decks), [Goreclaw, Terror of Qal Sisma](../../cards/G/gor.md#goreclaw-terror-of-qal-sisma) (42.4% of its decks), [Selvala, Heart of the Wilds](../../cards/S/sel.md#selvala-heart-of-the-wilds) (6.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/768/surrak-the-hunt-caller) · oracle_id `fa56a5fa-ef96-404c-8fb6-d1f5fcebb52e` · printing: FDN #768 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surreal Memoir

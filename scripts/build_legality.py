@@ -7,6 +7,7 @@
 Source: Scryfall oracle-cards `legalities` (the same bulk that verify_cards.py checks).
 Usage: python3 scripts/build_legality.py && python3 scripts/resolve_card_links.py "Format Legality Matrix.md"
 """
+import atomic_io  # noqa: F401  atomic Path.write_text/write_bytes (Bot cycle 34)
 import csv
 import sys
 from collections import Counter, defaultdict
@@ -37,7 +38,7 @@ def main() -> int:
             fmts = [f for f in ORDER if f in lg] + sorted(f for f in lg if f not in ORDER)
         rows.append((index[c["oracle_id"]]["name"], c["oracle_id"], {f: CODE.get(lg.get(f, "not_legal"), "N") for f in fmts}))
     rows.sort(key=lambda r: r[0].lower())
-    with CSV_OUT.open("w", newline="", encoding="utf-8") as fh:
+    with atomic_io.atomic_open(CSV_OUT, "w", newline="", encoding="utf-8") as fh:
         w = csv.writer(fh)
         w.writerow(["name", "oracle_id"] + fmts)
         for n, o, m in rows:

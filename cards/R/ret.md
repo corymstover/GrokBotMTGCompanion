@@ -206,6 +206,8 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Lore:** ✅ Card art shown on [Shaping an Army](https://magic.wizards.com/en/news/magic-story/shaping-army-2015-10-21) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Tatyova, Benthic Druid](../../decks/tatyova-benthic-druid.md) · [Chulane, Teller of Tales (landfall theme)](../../decks/theme-chulane-teller-of-tales-landfall.md) · Commander Spellbook: 100+ combos; most popular [Retreat to Coralhelm + Simic Growth Chamber + Sakura-Tribe Scout](https://commanderspellbook.com/combo/224-1671-3177/) (Infinite landfall triggers) · EDHREC: in 94,080 decks; most often under [Aesi, Tyrant of Gyre Strait](../../cards/A/ae.md#aesi-tyrant-of-gyre-strait) (43.3% of its decks), [Omnath, Locus of Creation](../../cards/O/om.md#omnath-locus-of-creation) (32.6% of its decks), [Hylda of the Icy Crown](../../cards/H/hy.md#hylda-of-the-icy-crown) (41.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Lands / landfall: Landfall payoffs](../../EDH%20Packages.md#lands--landfall-landfall-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/R.md#retreat-to-coralhelm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/126/retreat-to-coralhelm) · oracle_id `c450f6b7-bb2a-4b8c-aec7-d27555137b63` · printing: DSC #126 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -503,6 +505,8 @@ schema: 2
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29381 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/tragedy-2013-10-23) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 273 decks; most often under [Phenax, God of Deception](../../cards/P/ph.md#phenax-god-of-deception) (0.4% of its decks), [Aminatou, the Fateshifter](../../cards/A/am.md#aminatou-the-fateshifter) (0.5% of its decks), [Gisa and Geralf](../../cards/G/gi.md#gisa-and-geralf) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/106/returned-phalanx) · oracle_id `f8d64a8e-1bff-4960-bc36-1fbb4fc18c8f` · printing: A25 #106 (2018-03-16) · [rulings](https://api.scryfall.com/cards/aeaa1dc6-b2e7-457b-9ad4-d024f21e8888/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Returned Reveler
@@ -587,6 +591,8 @@ schema: 2
   > *"The curse is broken."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #179 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** Featured in: [Arc → Throne of Eldraine (2019)](../../Conflicts%20%26%20Arcs.md#throne-of-eldraine-2019) ([source](https://magic.wizards.com/en/story/will-kenrith-planeswalker)) — ✅ Story Spotlight printing (Scryfall `story_spotlight`): ELD #172, PLST #ELD-172 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (3): [Gishath, Sun's Avatar](../../decks/gishath-suns-avatar.md) · [Selvala, Heart of the Wilds](../../decks/selvala-heart-of-the-wilds.md) · [Xenagos, God of Revels](../../decks/xenagos-god-of-revels.md) · Commander Spellbook: 3 combos; most popular [Triskaidekaphile + Return of the Wildspeaker + Emrakul, the Promised End](https://commanderspellbook.com/combo/479-4755-4958/) (Win the game at the beginning of your next upkeep) · EDHREC: in 522,929 decks; most often under [Pantlaza, Sun-Favored](../../cards/P/pa.md#pantlaza-sun-favored) (46.7% of its decks), [Ashling, the Limitless](../../cards/A/as.md#ashling-the-limitless) (40.5% of its decks), [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (34.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 6 pages (3 decks · 1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/R.md#return-of-the-wildspeaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/115/return-of-the-wildspeaker) · oracle_id `2b76f9e9-cd28-4eaf-8674-215c34263f96` · printing: ECC #115 (2026-01-23) · [rulings](https://api.scryfall.com/cards/2fa1dac5-51ba-403e-b48b-d2c0d23a8146/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

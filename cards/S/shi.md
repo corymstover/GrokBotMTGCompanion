@@ -1527,6 +1527,8 @@ schema: 2
   - *2013-09-15* — If, during a player's declare attackers step, a creature is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack, the player isn't forced to pay that cost, so it doesn't have to attack in that case either.
   - *2013-09-15* — The controller of each attacking creature still chooses which player or planeswalker that creature attacks.
   - *2013-09-15* — The last ability affects creatures that are already attacking when it resolves. Activating it before combat won't affect any creatures that attack later that turn.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/consequences-attraction-2013-10-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 556 decks; most often under [Marchesa, Dealer of Death](../../cards/M/mar.md#marchesa-dealer-of-death) (0.3% of its decks), [Skeleton Ship](../../cards/S/sk.md#skeleton-ship) (1.5% of its decks), [Phenax, God of Deception](../../cards/P/ph.md#phenax-god-of-deception) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/206/shipwreck-singer) · oracle_id `8aae6f84-02ac-4f8f-9721-b12138588b6b` · printing: CN2 #206 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shirei, Shizo's Caretaker
@@ -1652,6 +1654,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11176 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/path-bravery-2013-07-10) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 10,381 decks; most often under [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (1.6% of its decks), [Lathliss, Dragon Queen](../../cards/L/la.md#lathliss-dragon-queen) (11.2% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (1.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/S.md#shivan-dragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/763/shivan-dragon) · oracle_id `711eea87-0fa3-46e0-a42b-fa5a86455f04` · printing: FDN #763 (2026-04-24) · [rulings](https://api.scryfall.com/cards/702c4781-670b-49ae-b511-90ed119841b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1759,6 +1763,8 @@ schema: 2
   - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
   - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
   - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Lore:** ✅ Card art shown on [Threadbare](https://magic.wizards.com/en/news/magic-story/threadbare-2012-07-23) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 17 combos; most popular [Imodane, the Pyrohammer + Shivan Meteor + Grafted Exoskeleton](https://commanderspellbook.com/combo/235-3681-4150/) (Each opponent loses the game) · EDHREC: in 9,865 decks; most often under [Imodane, the Pyrohammer](../../cards/I/im.md#imodane-the-pyrohammer) (77.6% of its decks), [Smaug the Impenetrable](../../cards/S/sm.md#smaug-the-impenetrable) (7.4% of its decks), [The Face of Boe](../../cards/T/thef.md#the-face-of-boe) (60.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/188/shivan-meteor) · oracle_id `6cf5edd6-1ca2-46a5-83b4-7ddff590ef96` · printing: TSR #188 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shivan Oasis
@@ -1815,6 +1821,8 @@ schema: 2
 - **Rulings** (2):
   - *2015-06-22* — Like most lands, each land in this cycle is colorless. The damage dealt to you is dealt by a colorless source.
   - *2015-06-22* — The damage dealt to you is part of the second mana ability. It doesn't use the stack and can't be responded to.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (14): [Kykar, Wind's Fury](../../decks/kykar-winds-fury.md) · [Niv-Mizzet, Parun](../../decks/niv-mizzet-parun.md) · [Admiral Beckett Brass (Grixis)](../../grixis/decks/admiral-beckett-brass.md) · [Anhelo, the Painter (Grixis)](../../grixis/decks/anhelo-the-painter.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 734,021 decks; most often under [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (62.6% of its decks), [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (70.4% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (40.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 18 pages (14 decks · 3 edh guides · 1 card data) → [reverse index](../../references/S.md#shivan-reef)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/83/shivan-reef) · oracle_id `0fe16212-66c3-4e45-a641-7391e9b2e304` · printing: FRC #83 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

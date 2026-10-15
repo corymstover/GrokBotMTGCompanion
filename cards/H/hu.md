@@ -180,6 +180,8 @@ schema: 2
 - **Rulings** (2):
   - *2017-09-29* — Huatli’s last ability affects only Dinosaurs you control at the time it resolves. Dinosaurs you begin to control later in the turn or creatures that become Dinosaurs later in the turn won’t get +4/+4.
   - *2017-09-29* — If either creature is an illegal target as Huatli’s second ability resolves, the creature you control won’t deal damage.
+- **Lore:** ✅ Card art shown on [The Race, Part 1](https://magic.wizards.com/en/news/magic-story/race-part-1-2017-10-11) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Huatli](../../Characters%20Index.md#huatli) · [Dossier → Huatli](../../Planeswalker%20Dossiers.md#huatli) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,886 decks; most often under [Gishath, Sun's Avatar](../../cards/G/gi.md#gishath-suns-avatar) (7.8% of its decks), [Pantlaza, Sun-Favored](../../cards/P/pa.md#pantlaza-sun-favored) (2.5% of its decks), [Atla Palani, Nest Tender](../../cards/A/at.md#atla-palani-nest-tender) (2.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/H.md#huatli-dinosaur-knight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/285/huatli-dinosaur-knight) · oracle_id `04aa210a-235f-4e07-87d1-0d28cdf6888b` · printing: XLN #285 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -200,7 +202,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9406 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-11-10* — Roar of the Fifth People's second chapter ability doesn't have a duration. It will continue to apply as long as Roar of the Fifth People remains on the battlefield.
-- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/H.md#huatli-poet-of-unity--roar-of-the-fifth-people)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Huatli](../../Characters%20Index.md#huatli) · [Dossier → Huatli](../../Planeswalker%20Dossiers.md#huatli) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,518 decks; highest synergy [Gishath, Sun's Avatar](../../cards/G/gi.md#gishath-suns-avatar) (+59%), [Pantlaza, Sun-Favored](../../cards/P/pa.md#pantlaza-sun-favored) (+59%), [Earthshaker Dreadmaw](../../cards/E/ea.md#earthshaker-dreadmaw) (+58%) · EDHREC: in 12,244 decks; most often under [Pantlaza, Sun-Favored](../../cards/P/pa.md#pantlaza-sun-favored) (15.3% of its decks), [Gishath, Sun's Avatar](../../cards/G/gi.md#gishath-suns-avatar) (13.9% of its decks), [Atla Palani, Nest Tender](../../cards/A/at.md#atla-palani-nest-tender) (4.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (1 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/H.md#huatli-poet-of-unity--roar-of-the-fifth-people)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/189/huatli-poet-of-unity-roar-of-the-fifth-people) · oracle_id `2e6ed3e6-d2b8-4b75-b7e1-0773da4987a1` · printing: LCI #189 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Huatli, Radiant Champion
@@ -216,7 +220,9 @@ schema: 2
 - **Rulings** (2):
   - *2018-01-19* — If you activate Huatli's first ability while you control no creatures, she'll get one loyalty counter from the ability's activation cost and no others as it resolves.
   - *2018-01-19* — The number of creatures you control is counted only as Huatli's first or second ability resolves. Once her second ability resolves, the bonus won't change, even if the number of creatures you control changes later in the turn.
-- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/H.md#huatli-radiant-champion)
+- **Lore:** ✅ Card art shown on [The Arbiter of Law Left Chaos in His Wake](https://magic.wizards.com/en/news/magic-story/arbiter-law-left-chaos-his-wake-2018-01-24) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Huatli](../../Characters%20Index.md#huatli) · [Dossier → Huatli](../../Planeswalker%20Dossiers.md#huatli) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 4 combos; most popular [Huatli, Radiant Champion + Ichormoon Gauntlet + Oath of Teferi](https://commanderspellbook.com/combo/1543-2311-2369/) (Infinite turns, Lock) · EDHREC: in 13,386 decks; most often under [Baylen, the Haymaker](../../cards/B/bay.md#baylen-the-haymaker) (3.0% of its decks), [Rhys the Redeemed](../../cards/R/rh.md#rhys-the-redeemed) (12.5% of its decks), [Gishath, Sun's Avatar](../../cards/G/gi.md#gishath-suns-avatar) (3.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (1 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/H.md#huatli-radiant-champion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/159/huatli-radiant-champion) · oracle_id `5ab5b82a-83e1-44d7-b8c3-9cd7accc1ca4` · printing: RIX #159 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Huatli's Final Strike
@@ -230,6 +236,8 @@ schema: 2
   > *—Huatli, to Vito*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19559 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): LCI #190 — [Art & Flavor → The Lost Caverns of Ixalan (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-lost-caverns-of-ixalan-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,421 decks; most often under [Gishath, Sun's Avatar](../../cards/G/gi.md#gishath-suns-avatar) (0.8% of its decks), [Pantlaza, Sun-Favored](../../cards/P/pa.md#pantlaza-sun-favored) (0.4% of its decks), [Legolas, Master Archer](../../cards/L/le.md#legolas-master-archer) (4.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#huatlis-final-strike)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/190/huatlis-final-strike) · oracle_id `20acb8df-2ea0-48b0-8dcf-54dd0e1f8db8` · printing: LCI #190 (2023-11-17) · [rulings](https://api.scryfall.com/cards/1247a5fa-b50a-4ab1-96ca-dbeb45bd0b56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -293,6 +301,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-05-03* — Huatli’s first ability doesn’t actually change any creature’s power. It changes only the amount of combat damage it assigns. All other rules and effects that check power or toughness use the real values. For example, Domri’s Ambush won’t cause a creature to deal damage equal to its toughness.
   - *2019-05-03* — The greatest toughness among creatures you control is determined only as Huatli’s loyalty ability begins to resolve.
+- **Lore:** ✅ Card art shown on [War of the Spark: Ravnica – Rallying the Reluctant](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22) (caption names the card and its artist) — ⚠️ Name match only (not a canon claim): [Character → Huatli](../../Characters%20Index.md#huatli) · [Dossier → Huatli](../../Planeswalker%20Dossiers.md#huatli) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Outrider en-Kor + Task Force + Huatli, the Sun's Heart](https://commanderspellbook.com/combo/651-928-4046/) (Infinite lifegain) · EDHREC: in 23,886 decks; most often under [Arcades, the Strategist](../../cards/A/arc.md#arcades-the-strategist) (27.9% of its decks), [Doran, Besieged by Time](../../cards/D/do.md#doran-besieged-by-time) (29.4% of its decks), [Betor, Kin to All](../../cards/B/be.md#betor-kin-to-all) (29.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (3 lore & story) → [reverse index](../../references/H.md#huatli-the-suns-heart)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/230/huatli-the-suns-heart) · oracle_id `e1a13723-a6b1-4160-8eb5-f7a4860898a3` · printing: WAR #230 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -311,6 +321,8 @@ schema: 2
   - *2017-09-29* — The greatest power among creatures you control is determined as Huatli's first ability resolves. If that number is negative, you won't gain or lose any life.
   - *2017-09-29* — You can activate Huatli's first ability even if you control no creatures. You simply won't gain any life.
   - *2017-09-29* — You divide the damage among the target creatures as you activate Huatli's last ability. Each target must be assigned at least 1 damage. If X is 0, you can't choose any targets.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Huatli](../../Characters%20Index.md#huatli) · [Dossier → Huatli](../../Planeswalker%20Dossiers.md#huatli) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 7,708 decks; most often under [Gishath, Sun's Avatar](../../cards/G/gi.md#gishath-suns-avatar) (11.1% of its decks), [Atla Palani, Nest Tender](../../cards/A/at.md#atla-palani-nest-tender) (6.1% of its decks), [Pantlaza, Sun-Favored](../../cards/P/pa.md#pantlaza-sun-favored) (3.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/H.md#huatli-warrior-poet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/224/huatli-warrior-poet) · oracle_id `3ec889bc-f4d7-492a-91c3-d3691eb90eac` · printing: XLN #224 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1088,6 +1100,8 @@ schema: 2
   > Whenever this creature is dealt damage, put that many +1/+1 counters on it. (It must survive the damage to get the counters.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3638 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Unbowed, Part 1](https://magic.wizards.com/en/news/magic-story/unbowed-part-1-2018-08-29) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Yedora, Grave Gardener + Primordial Mist + Hungering Hydra](https://commanderspellbook.com/combo/575-1009-4489/) (Infinite death triggers, Infinite creature ETB) · EDHREC: in 45,826 decks; most often under [Zaxara, the Exemplary](../../cards/Z/za.md#zaxara-the-exemplary) (66.5% of its decks), [Gargos, Vicious Watcher](../../cards/G/ga.md#gargos-vicious-watcher) (77.9% of its decks), [Polukranos Reborn](../../cards/P/po.md#polukranos-reborn--polukranos-engine-of-ruin) (88.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/177/hungering-hydra) · oracle_id `d1dde190-8124-4590-9507-801ea4c8cde3` · printing: C20 #177 (2020-04-17) · [rulings](https://api.scryfall.com/cards/cce0561d-252a-499f-bfa0-9de59e4ea5ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hungering Puppetbeast
@@ -1155,6 +1169,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22294 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-02-09* — You can’t cast Hungry Flames unless you target both a creature and a player. If one target is illegal as Hungry Flames resolves, the spell deals damage to the remaining legal target.
+- **Lore:** ✅ Card art shown on [Breaking Points](https://magic.wizards.com/en/news/magic-story/breaking-points-2017-01-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,439 decks; most often under [Chandra, Fire of Kaladesh](../../cards/C/cha.md#chandra-fire-of-kaladesh--chandra-roaring-flame) (4.4% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (0.2% of its decks), [Torbran, Thane of Red Fell](../../cards/T/to.md#torbran-thane-of-red-fell) (1.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#hungry-flames)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/336/hungry-flames) · oracle_id `a2c00788-14e7-4ab5-8c71-2a176621a177` · printing: JMP #336 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1918,6 +1934,8 @@ schema: 2
   > Return all nonland permanents to their owners' hands. End the turn. (Exile all spells and abilities from the stack, including this card. The player whose turn it is discards down to their maximum hand size. Damage wears off, and "this turn" and "until end of turn" effects end.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17782 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #52 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,331 decks; most often under [Eluge, the Shoreless Sea](../../cards/E/el.md#eluge-the-shoreless-sea) (1.9% of its decks), [Obeka, Brute Chronologist](../../cards/O/ob.md#obeka-brute-chronologist) (1.5% of its decks), [Yue, the Moon Spirit](../../cards/Y/yu.md#yue-the-moon-spirit) (7.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/H.md#hurkyls-final-meditation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/52/hurkyls-final-meditation) · oracle_id `a2099033-42d9-47ac-90c7-b41b55b7dadd` · printing: BRO #52 (2022-11-18) · [rulings](https://api.scryfall.com/cards/5577f345-9577-42f8-b244-089b9a7c2e56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

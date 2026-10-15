@@ -189,6 +189,8 @@ schema: 2
   > *—Rakdos*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #326 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [In Praise of the Worldsoul, Part 3](https://magic.wizards.com/en/news/magic-story/in-praise-of-the-worldsoul-part-3) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Prosper, Tome-Bound](../../decks/prosper-tome-bound.md) · Commander Spellbook: 1 combo; most popular [Argothian Elder + Wirewood Lodge + Forbidden Orchard + Rakdos Charm](https://commanderspellbook.com/combo/54-1399-2681-3814/) (Each opponent loses the game, Infinite creature tokens for opponents) · EDHREC: in 354,136 decks; most often under [Valgavoth, Harrower of Souls](../../cards/V/va.md#valgavoth-harrower-of-souls) (80.6% of its decks), [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (49.5% of its decks), [Kuja, Genome Sorcerer](../../cards/K/ku.md#kuja-genome-sorcerer--trance-kuja-fate-defied) (48.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 decks · 2 edh guides) → [reverse index](../../references/R.md#rakdos-charm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/125/rakdos-charm) · oracle_id `5e62b51d-faec-4aa0-9504-cf2c282d08ea` · printing: EOC #125 (2025-08-01) · [rulings](https://api.scryfall.com/cards/64b67170-1602-4050-80c0-ade2a6cac211/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -363,7 +365,7 @@ schema: 2
   - *2020-11-10* — Rakdos's last ability won't reduce the cost to cast Rakdos itself. It applies only to creature spells you cast once Rakdos is on the battlefield.
 - **Lore:** Featured in: [Plane → Ravnica after the invasion (Murders at Karlov Manor)](../../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor) ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-murders-at-karlov-manor), [2](https://magic.wizards.com/en/news/magic-story/one-and-the-same) via entry) (the entry line carries ⚠️) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — KB decks (2): [Abaddon the Despoiler (Grixis)](../../grixis/decks/abaddon-the-despoiler.md) · [Be'lakor, the Dark Master (Grixis)](../../grixis/decks/belakor-the-dark-master.md) · Commander Spellbook: 100+ combos; most popular [Ancestral Statue + Rakdos, Lord of Riots](https://commanderspellbook.com/combo/2-2906/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 10,664 decks; highest synergy [Spear Spewer](../../cards/S/spe.md#spear-spewer) (+62%), [Thermo-Alchemist](../../cards/T/ther.md#thermo-alchemist) (+58%), [Stormfist Crusader](../../cards/S/sto.md#stormfist-crusader) (+55%) · EDHREC: in 52,077 decks; most often under [Be'lakor, the Dark Master](../../cards/B/be.md#belakor-the-dark-master) (68.6% of its decks), [Valgavoth, Harrower of Souls](../../cards/V/va.md#valgavoth-harrower-of-souls) (35.3% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (13.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 4 pages (2 decks · 1 rules · 1 lore & story) → [reverse index](../../references/R.md#rakdos-lord-of-riots)
+- **Referenced in:** 5 pages (2 decks · 1 edh guides · 1 rules · 1 lore & story) → [reverse index](../../references/R.md#rakdos-lord-of-riots)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/230/rakdos-lord-of-riots) · oracle_id `143a269a-b9ee-48ba-bd7b-4aa46eb36778` · printing: DSC #230 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos, Patron of Chaos
@@ -409,6 +411,8 @@ schema: 2
 - **Keywords:** Lifelink, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27083 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/slaughter-games-2012-10-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 511 decks; most often under [Rakdos, Lord of Riots](../../cards/R/rak.md#rakdos-lord-of-riots) (0.8% of its decks), [Kroxa and Kunoros](../../cards/K/kr.md#kroxa-and-kunoros) (1.7% of its decks), [Rakdos, Patron of Chaos](../../cards/R/rak.md#rakdos-patron-of-chaos) (2.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rtr/185/rakdos-ragemutt) · oracle_id `8f4c7419-bbbe-4ddc-83ae-fd9ea3e86c3d` · printing: RTR #185 (2012-10-05) · [rulings](https://api.scryfall.com/cards/bb36840a-3f85-4fca-87ab-379dfce8e542/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Ringleader
@@ -423,6 +427,8 @@ schema: 2
 - **Keywords:** First strike, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26219 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/slaughter-games-2012-10-13), [In This Very Arena](https://magic.wizards.com/en/news/magic-story/very-arena-2016-10-12) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 630 decks; most often under [Rakdos, Lord of Riots](../../cards/R/rak.md#rakdos-lord-of-riots) (0.6% of its decks), [Juri, Master of the Revue](../../cards/J/ju.md#juri-master-of-the-revue) (0.8% of its decks), [Rakdos, Patron of Chaos](../../cards/R/rak.md#rakdos-patron-of-chaos) (3.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#rakdos-ringleader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rtr/186/rakdos-ringleader) · oracle_id `f8ce8573-7c87-4f47-a0d4-14bd335f2c1d` · printing: RTR #186 (2012-10-05) · [rulings](https://api.scryfall.com/cards/6b54fbe8-324a-4066-bed1-dda1dca319fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -543,6 +549,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-01-25* — All of the creatures whose coins come up tails are destroyed at the same time.
   - *2019-01-25* — Players can't take any action between the time that coins are flipped and the time creatures are destroyed. For example, if they wish to cast a spell to have a creature gain indestructible, they must do so before Rakdos's triggered ability resolves, without knowing whether that creature's coin will come up heads or tails.
+- **Lore:** ✅ Card art shown on [War of the Spark: Ravnica—Operation Desperation](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Be'lakor, the Dark Master (Grixis)](../../grixis/decks/belakor-the-dark-master.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,407 decks; highest synergy [Liliana's Contract](../../cards/L/li.md#lilianas-contract) (+62%), [Harvester of Souls](../../cards/H/ha.md#harvester-of-souls) (+60%), [Raphael, Fiendish Savior](../../cards/R/rap.md#raphael-fiendish-savior) (+60%) · EDHREC: in 22,914 decks; most often under [Be'lakor, the Dark Master](../../cards/B/be.md#belakor-the-dark-master) (67.5% of its decks), [Raphael, Fiendish Savior](../../cards/R/rap.md#raphael-fiendish-savior) (59.9% of its decks), [Rakdos, Lord of Riots](../../cards/R/rak.md#rakdos-lord-of-riots) (22.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/R.md#rakdos-the-showstopper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/205/rakdos-the-showstopper) · oracle_id `03a4b997-4738-41a9-933f-e1f765e3a75a` · printing: CLU #205 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -787,6 +795,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18806 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2014-11-24* — Count the number of cards in your graveyard as Rakshasa’s Disdain resolves to determine how much mana the controller of the target spell must pay to avoid the spell being countered. Rakshasa’s Disdain is still on the stack at this time and won’t count toward this number.
+- **Lore:** ✅ Card art shown on [The Doom of the Golden Fang](https://magic.wizards.com/en/news/magic-story/doom-golden-fang-2015-02-04) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,780 decks; most often under [Baral, Chief of Compliance](../../cards/B/bar.md#baral-chief-of-compliance) (3.5% of its decks), [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (0.2% of its decks), [Talrand, Sky Summoner](../../cards/T/ta.md#talrand-sky-summoner) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frf/45/rakshasas-disdain) · oracle_id `a8fe6204-9f55-45e5-99b3-43f2761ce8a3` · printing: FRF #45 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakshasa's Secret
@@ -815,4 +825,6 @@ schema: 2
 - **Rulings** (2):
   - *2014-09-20* — Exiling cards from your graveyard to pay the cost of a spell with delve is a single action. It will cause Rakshasa Vizier’s ability to trigger once, putting a number of +1/+1 counters on it equal to the number of cards you exiled.
   - *2014-09-20* — If a card is exiled “instead” of being put into a graveyard, Rakshasa Vizier’s ability won’t trigger.
+- **Lore:** ✅ Card art shown on [The Doom of the Golden Fang](https://magic.wizards.com/en/news/magic-story/doom-golden-fang-2015-02-04), [Taigam's Scheming](https://magic.wizards.com/en/news/magic-story/taigams-scheming) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 425 decks; most often under [Teval, Arbiter of Virtue](../../cards/T/te.md#teval-arbiter-of-virtue) (1.4% of its decks), [Sidisi, Brood Tyrant](../../cards/S/si.md#sidisi-brood-tyrant) (0.8% of its decks), [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/193/rakshasa-vizier) · oracle_id `9bdef081-1408-4125-82c3-04296dee05d5` · printing: KTK #193 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

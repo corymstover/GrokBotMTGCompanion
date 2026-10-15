@@ -216,6 +216,8 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #398 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** Featured in: [Plane → New Capenna](../../Planes%20Index.md#new-capenna) ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna), [2](https://magic.wizards.com/en/news/magic-story/episode-1-homecoming-2022-03-28) via entry) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (5): [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Chulane, Teller of Tales](../../decks/chulane-teller-of-tales.md) · [Kynaios and Tiro of Meletis](../../decks/kynaios-and-tiro-of-meletis.md) · [Atraxa, Praetors' Voice (planeswalkers theme)](../../decks/theme-atraxa-praetors-voice-planeswalkers.md) … · Commander Spellbook: 1 combo; most popular [Escape Protocol + Fluctuator + Bone Miser + Golgari Findbroker + Spara's Headquarters](https://commanderspellbook.com/combo/65-717-2628-2995-5181/) (Infinite card draw, Infinite draw triggers) · EDHREC: in 307,429 decks; most often under [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (36.0% of its decks), [Ms. Bumbleflower](../../cards/M/ms.md#ms-bumbleflower) (32.6% of its decks), [Arcades, the Strategist](../../cards/A/arc.md#arcades-the-strategist) (40.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 9 pages (5 decks · 2 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/S.md#sparas-headquarters)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/257/sparas-headquarters) · oracle_id `3123ec89-8e95-4761-ba17-747ec667509f` · printing: SNC #257 (2022-04-29) · [rulings](https://api.scryfall.com/cards/7363f1fb-9af3-4212-921f-d59533faf0e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -347,6 +349,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11802 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-11-10* — You must sacrifice exactly one creature or pay an extra {3}{B} to cast this spell; you can't cast it without paying one of those costs, and you can't pay either multiple times. Players can respond to Spark Harvest only after it's been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to stop you from casting this spell or to make it cost more mana.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WAR #105 — [Art & Flavor → War of the Spark (2019)](../../Art%20%26%20Flavor%20Story%20Links.md#war-of-the-spark-2019) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 9,303 decks; most often under [Shirei, Shizo's Caretaker](../../cards/S/shi.md#shirei-shizos-caretaker) (10.3% of its decks), [Lucius the Eternal](../../cards/L/lu.md#lucius-the-eternal) (30.5% of its decks), [Juri, Master of the Revue](../../cards/J/ju.md#juri-master-of-the-revue) (3.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#spark-harvest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/150/spark-harvest) · oracle_id `25756e33-25e5-4976-8cce-a39fa2c4b007` · printing: CMR #150 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -625,6 +629,8 @@ schema: 2
   > *Aspiring to earn their place in the afterlife, acolytes train every day against those who fell short of that glory.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18747 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [Brazen](https://magic.wizards.com/en/news/magic-story/brazen-2017-05-03) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 59 combos; most popular [The Jolly Balloon Man + Ertha Jo, Frontier Mentor + Sparring Mummy](https://commanderspellbook.com/combo/4730-5640-5917/) (Infinite creature LTB, Infinite creature ETB) · EDHREC: in 2,823 decks; most often under [Helga, Skittish Seer](../../cards/H/he.md#helga-skittish-seer) (6.4% of its decks), [The Jolly Balloon Man](../../cards/T/thej.md#the-jolly-balloon-man) (7.3% of its decks), [Ghired, Mirror of the Wilds](../../cards/G/gh.md#ghired-mirror-of-the-wilds) (2.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/108/sparring-mummy) · oracle_id `414c97a3-cf31-4145-a431-3b1ad4343947` · printing: BBD #108 (2018-06-08) · [rulings](https://api.scryfall.com/cards/337f8889-d814-4422-ac6e-1416e5e4d4d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sparring Regimen

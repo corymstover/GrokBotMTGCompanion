@@ -369,4 +369,6 @@ schema: 2
 - **Keywords:** Treasure, Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17844 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): SNC #153 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,296 decks; most often under [Stangg, Echo Warrior](../../cards/S/sta.md#stangg-echo-warrior) (44.0% of its decks), [Kaima, the Fractured Calm](../../cards/K/ka.md#kaima-the-fractured-calm) (7.0% of its decks), [Ziatora, the Incinerator](../../cards/Z/zi.md#ziatora-the-incinerator) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/153/most-wanted) · oracle_id `140d38cc-0ae6-4e9b-a60f-a51d2947e07b` · printing: SNC #153 (2022-04-29) · [rulings](https://api.scryfall.com/cards/573c0f68-9ed8-4657-b709-b7f3804aaa68/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

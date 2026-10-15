@@ -353,7 +353,7 @@ schema: 2
   - *2019-10-04* — Gadwick's second ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
   - *2019-10-04* — Gadwick's triggered ability won't trigger when you cast it because it's not on the battlefield yet.
   - *2019-10-04* — If Gadwick enters the battlefield without being cast, or if it was cast for a cost other than its mana cost, the value of X for its first ability is 0.
-- **Lore:** Featured in: [Plane → Eldraine](../../Planes%20Index.md#eldraine) ([source](https://magic.wizards.com/en/news/announcements/a-first-look-at-wilds-of-eldraine), [2](https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31) via entry) (the entry line carries ⚠️) · [format](../../Card%20Enrichment.md#lore-line)
+- **Lore:** Featured in: [Plane → Eldraine](../../Planes%20Index.md#eldraine) ([source](https://magic.wizards.com/en/news/announcements/a-first-look-at-wilds-of-eldraine), [2](https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31) via entry) (the entry line carries ⚠️) — ✅ Card art shown on [Planeswalker's Guide to Eldraine](https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 356 decks; highest synergy [Verity Circle](../../cards/V/ve.md#verity-circle) (+45%), [Riptide Laboratory](../../cards/R/ri.md#riptide-laboratory) (+33%), [Willbreaker](../../cards/W/wi.md#willbreaker) (+26%) · EDHREC: in 22,678 decks; most often under [Hylda of the Icy Crown](../../cards/H/hy.md#hylda-of-the-icy-crown) (52.9% of its decks), [Zaxara, the Exemplary](../../cards/Z/za.md#zaxara-the-exemplary) (7.5% of its decks), [Azami, Lady of Scrolls](../../cards/A/az.md#azami-lady-of-scrolls) (24.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#gadwick-the-wizened)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/48/gadwick-the-wizened) · oracle_id `c7530ecd-e22f-41e7-a76b-de32809901c8` · printing: ELD #48 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
@@ -2584,6 +2584,8 @@ schema: 2
   - *2014-07-18* — The emblem is owned and controlled by the target of the ability that created it. In a multiplayer game, if Garruk’s owner leaves the game, the emblem does not.
   - *2014-07-18* — The emblem’s ability won’t trigger if a creature attacks a planeswalker.
   - *2014-07-18* — The first ability can target and destroy a Garruk planeswalker controlled by another player.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Garruk Wildspeaker](../../Characters%20Index.md#garruk-wildspeaker) · [Dossier → Garruk Wildspeaker](../../Planeswalker%20Dossiers.md#garruk-wildspeaker) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Outrider en-Kor + Task Force + Garruk, Apex Predator](https://commanderspellbook.com/combo/651-4046-4595/) (Infinite lifegain) · EDHREC: in 14,607 decks; most often under [Carth the Lion](../../cards/C/car.md#carth-the-lion) (68.9% of its decks), [Disa the Restless](../../cards/D/di.md#disa-the-restless) (12.8% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (2.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (2 lore & story · 2 card data) → [reverse index](../../references/G.md#garruk-apex-predator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m15/210/garruk-apex-predator) · oracle_id `ef9a8bdc-3361-440d-89f6-0bf5ff7a09e8` · printing: M15 #210 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2600,6 +2602,8 @@ schema: 2
 - **Rulings** (2):
   - *2013-07-01* — If you have Garruk's emblem, the creature card you search for will be put onto the battlefield before the creature spell you cast resolves. The creature card you put onto the battlefield isn't cast, so the ability of the emblem won't retrigger.
   - *2013-07-01* — You choose what green creature card to put onto the battlefield, if any, when the second ability resolves.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Garruk Wildspeaker](../../Characters%20Index.md#garruk-wildspeaker) · [Dossier → Garruk Wildspeaker](../../Planeswalker%20Dossiers.md#garruk-wildspeaker) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 13,771 decks; most often under [Vorinclex, Monstrous Raider](../../cards/V/vo.md#vorinclex-monstrous-raider) (39.3% of its decks), [Kona, Rescue Beastie](../../cards/K/ko.md#kona-rescue-beastie) (8.5% of its decks), [Slinza, the Spiked Stampede](../../cards/S/sl.md#slinza-the-spiked-stampede) (10.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-caller-of-beasts)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m14/172/garruk-caller-of-beasts) · oracle_id `8e2fbc26-5373-4fd7-8e9e-41af5bb9ff18` · printing: M14 #172 (2013-07-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2615,7 +2619,9 @@ schema: 2
   > −4: Until your next turn, whenever one or more creatures attack one of your opponents, those creatures get +2/+2 and gain trample until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15498 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-curse-breaker)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Garruk Wildspeaker](../../Characters%20Index.md#garruk-wildspeaker) · [Dossier → Garruk Wildspeaker](../../Planeswalker%20Dossiers.md#garruk-wildspeaker) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,318 decks; most often under [Carth the Lion](../../cards/C/car.md#carth-the-lion) (29.5% of its decks), [Beorn the Fierce](../../cards/B/be.md#beorn-the-fierce) (2.2% of its decks), [Ghalta, Primal Hunger](../../cards/G/gh.md#ghalta-primal-hunger) (3.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (1 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-curse-breaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/259/garruk-curse-breaker) · oracle_id `184d4672-05a9-4182-8b3f-3561fb33ed62` · printing: FRA #259 (2026-10-02) · [rulings](https://api.scryfall.com/cards/90ca5812-ceb5-46bd-b049-aed7ff10e6af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garruk, Cursed Huntsman
@@ -2631,7 +2637,9 @@ schema: 2
 - **Rulings** (2):
   - *2019-10-04* — If lethal damage is dealt to one of Garruk's Wolf tokens at the same time that Garruk's loyalty is brought to 0 or less, Garruk is put into your graveyard before the Wolf's triggered ability can save him.
   - *2019-10-04* — If the target creature is an illegal target by the time Garruk's second ability tries to resolve, the ability won't resolve. You won't draw a card. If the target is legal but not destroyed (most likely because it has indestructible), you will still draw.
-- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-cursed-huntsman)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Garruk Wildspeaker](../../Characters%20Index.md#garruk-wildspeaker) · [Dossier → Garruk Wildspeaker](../../Planeswalker%20Dossiers.md#garruk-wildspeaker) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 4 combos; most popular [The Chain Veil + Ashnod's Altar + Teferi, Who Slows the Sunset + Garruk, Cursed Huntsman](https://commanderspellbook.com/combo/1124-2034-2696-5082/) (Infinite activations of most planeswalkers, Infinite death triggers) · EDHREC: in 44,334 decks; most often under [Chatterfang, Squirrel General](../../cards/C/cha.md#chatterfang-squirrel-general) (27.0% of its decks), [Hazel of the Rootbloom](../../cards/H/ha.md#hazel-of-the-rootbloom) (57.2% of its decks), [Carth the Lion](../../cards/C/car.md#carth-the-lion) (92.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (1 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-cursed-huntsman)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/191/garruk-cursed-huntsman) · oracle_id `e0cef79c-ad47-4cbc-9d73-a913e487ccb7` · printing: ELD #191 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garruk, Primal Hunter
@@ -2648,6 +2656,8 @@ schema: 2
   - *2011-09-22* — For Garruk’s second ability, the greatest power among creatures you control is determined when that ability begins resolving.
   - *2011-09-22* — For Garruk’s third ability, the number of Wurm tokens you put onto the battlefield is determined when that ability begins resolving.
   - *2011-09-22* — If the greatest power among creatures you control is 0 or less, you’ll draw no cards. You won’t discard any cards this way.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Garruk Wildspeaker](../../Characters%20Index.md#garruk-wildspeaker) · [Dossier → Garruk Wildspeaker](../../Planeswalker%20Dossiers.md#garruk-wildspeaker) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Selvala, Heart of the Wilds](../../decks/selvala-heart-of-the-wilds.md) · Commander Spellbook: 1 combo; most popular [Body of Research + Garruk, Primal Hunter](https://commanderspellbook.com/combo/648-6691/) (Infinite card draw, Infinite draw triggers) · EDHREC: in 79,292 decks; most often under [Carth the Lion](../../cards/C/car.md#carth-the-lion) (77.3% of its decks), [Adrix and Nev, Twincasters](../../cards/A/ad.md#adrix-and-nev-twincasters) (33.3% of its decks), [Jasmine Boreal of the Seven](../../cards/J/ja.md#jasmine-boreal-of-the-seven) (38.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (1 decks · 2 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-primal-hunter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/190/garruk-primal-hunter) · oracle_id `298a7e1a-b254-442e-bc1d-2a3e5296d849` · printing: C21 #190 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2672,6 +2682,8 @@ schema: 2
   - *2011-09-22* — The second ability of Garruk, the Veil-Cursed doesn't target a creature. However, when that ability resolves, you must sacrifice a creature if you control one.
   - *2011-09-22* — You can't activate a loyalty ability of Garruk Relentless and later that turn after he transforms activate a loyalty ability of Garruk, the Veil-Cursed.
   - *2011-09-22* — You don't add or remove loyalty counters from Garruk Relentless when he transforms into Garruk, the Veil-Cursed. In most cases, he'll have one or two loyalty counters on him.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Garruk Wildspeaker](../../Characters%20Index.md#garruk-wildspeaker) · [Dossier → Garruk Wildspeaker](../../Planeswalker%20Dossiers.md#garruk-wildspeaker) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Garruk Relentless // Garruk, the Veil-Cursed + Spark Double](https://commanderspellbook.com/combo/2920-3908/) (Draw the game) · EDHREC: in 7,228 decks; most often under [Carth the Lion](../../cards/C/car.md#carth-the-lion) (32.1% of its decks), [Chief of the Wilds](../../cards/C/chi.md#chief-of-the-wilds) (26.3% of its decks), [Xavier Sal, Infested Captain](../../cards/X/xa.md#xavier-sal-infested-captain) (4.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-relentless--garruk-the-veil-cursed)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/197/garruk-relentless-garruk-the-veil-cursed) · oracle_id `7cec9021-6f25-4fd8-b40e-adf4ffd3a7b8` · printing: INR #197 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2689,6 +2701,8 @@ schema: 2
   - *2020-06-23* — Garruk's last ability affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won't gain the ability.
   - *2020-06-23* — If either creature is an illegal target as Garruk's second ability tries to resolve, the creature you control won't deal damage to any creature.
   - *2020-06-23* — When assigning combat damage, you choose for each creature whether you want to assign its damage to the creature blocking it, or if you want to assign it to the player or planeswalker the creature is attacking. You can't split the damage assignment between them.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Garruk Wildspeaker](../../Characters%20Index.md#garruk-wildspeaker) · [Dossier → Garruk Wildspeaker](../../Planeswalker%20Dossiers.md#garruk-wildspeaker) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,290 decks; most often under [Carth the Lion](../../cards/C/car.md#carth-the-lion) (8.2% of its decks), [Vorinclex, Monstrous Raider](../../cards/V/vo.md#vorinclex-monstrous-raider) (4.3% of its decks), [Slinza, the Spiked Stampede](../../cards/S/sl.md#slinza-the-spiked-stampede) (1.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/G.md#garruk-savage-herald)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/336/garruk-savage-herald) · oracle_id `fc762e40-84c1-4762-82f7-a0fc4f6fd522` · printing: M21 #336 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2782,6 +2796,9 @@ schema: 2
   - *2010-08-15* — If Garruk's Packleader and another creature with power 3 or greater enter under your control at the same time, the ability will trigger.
   - *2012-07-01* — The ability checks the power of each creature as it enters. It will take into account counters the permanent enters with and static abilities that affect its power (such as Flinthoof Boar's ability). After the creature is on the battlefield, raising its power with a spell (such as Titanic Growth), an activated ability, or a triggered ability won't cause this ability to retroactively trigger.
   - *2012-07-01* — The creature's power is checked only to see if the ability triggers. It doesn't matter what the creature's power is when the ability resolves.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/beast-2014-06-19) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 13 combos; most popular [Zombie Infestation + Elemental Bond + Garruk's Packleader + Collective Blessing](https://commanderspellbook.com/combo/128-1963-2285-4550/) (Infinite draw triggers, Infinite rummaging) · EDHREC: in 82,412 decks; most often under [Bello, Bard of the Brambles](../../cards/B/be.md#bello-bard-of-the-brambles) (35.1% of its decks), [Slinza, the Spiked Stampede](../../cards/S/sl.md#slinza-the-spiked-stampede) (84.1% of its decks), [Goreclaw, Terror of Qal Sisma](../../cards/G/gor.md#goreclaw-terror-of-qal-sisma) (61.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/G.md#garruks-packleader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/168/garruks-packleader) · oracle_id `13279222-422d-4447-9451-2463b0c714c6` · printing: C19 #168 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garruk's Uprising
@@ -2826,6 +2843,8 @@ schema: 2
   > −25: Destroy all creatures Garruk the Slayer doesn't control.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Garruk Wildspeaker](../../Characters%20Index.md#garruk-wildspeaker) · [Dossier → Garruk Wildspeaker](../../Planeswalker%20Dossiers.md#garruk-wildspeaker) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/G.md#garruk-the-slayer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ppc1/1/garruk-the-slayer) · oracle_id `640c1743-3ad6-46ae-87d1-4d7fbe6a8ff4` · printing: PPC1 #1 (2014-07-12) · [rulings](https://api.scryfall.com/cards/c18e2175-ec42-47f2-a40f-426ccaa1e89e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2843,6 +2862,8 @@ schema: 2
   - *2020-06-23* — Garruk's second ability gives him only one loyalty counter, no matter how many opponents control how many more creatures than you do.
   - *2020-06-23* — If Garruk has only two loyalty counters, activating his second loyalty ability results in him dying before it resolves. He won't be there to get a loyalty counter.
   - *2020-06-23* — If the creature you put onto the battlefield with Garruk's emblem's ability during your end step has an ability that triggers at the beginning of your end step, it won't trigger during that end step.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Garruk Wildspeaker](../../Characters%20Index.md#garruk-wildspeaker) · [Dossier → Garruk Wildspeaker](../../Planeswalker%20Dossiers.md#garruk-wildspeaker) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 16,266 decks; most often under [Vorinclex, Monstrous Raider](../../cards/V/vo.md#vorinclex-monstrous-raider) (56.4% of its decks), [Carth the Lion](../../cards/C/car.md#carth-the-lion) (53.4% of its decks), [Fynn, the Fangbearer](../../cards/F/fy.md#fynn-the-fangbearer) (6.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-unleashed)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/183/garruk-unleashed) · oracle_id `32ea6b1c-d48e-4663-ad5c-d7f4a85450af` · printing: M21 #183 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2858,6 +2879,8 @@ schema: 2
   > −3: Each opponent discards two cards. For each opponent who didn't discard two nonland cards this way, you draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17747 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Garruk Wildspeaker](../../Characters%20Index.md#garruk-wildspeaker) · [Dossier → Garruk Wildspeaker](../../Planeswalker%20Dossiers.md#garruk-wildspeaker) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,567 decks; most often under [Carth the Lion](../../cards/C/car.md#carth-the-lion) (31.6% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (0.6% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-veiled-butcher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/229/garruk-veiled-butcher) · oracle_id `4a6972fe-348a-4a19-a1d0-bdf8f1f9c792` · printing: FRA #229 (2026-10-02) · [rulings](https://api.scryfall.com/cards/d48bfb8a-d135-45f3-be99-4694b4b9ab93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2874,6 +2897,8 @@ schema: 2
 - **Rulings** (2):
   - *2009-10-01* — The first ability can target any two lands. They don’t have to be tapped.
   - *2009-10-01* — The third ability affects only creatures you control at the time it resolves. It won’t affect creatures that come under your control later in the turn.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Garruk Wildspeaker](../../Characters%20Index.md#garruk-wildspeaker) · [Dossier → Garruk Wildspeaker](../../Planeswalker%20Dossiers.md#garruk-wildspeaker) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 27,179 decks; most often under [Carth the Lion](../../cards/C/car.md#carth-the-lion) (79.6% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (2.4% of its decks), [Slinza, the Spiked Stampede](../../cards/S/sl.md#slinza-the-spiked-stampede) (10.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-wildspeaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmd/157/garruk-wildspeaker) · oracle_id `186b4def-4fff-4a2b-bcbf-5318b0ac5fa9` · printing: CMD #157 (2011-06-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3118,6 +3143,8 @@ schema: 2
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6007 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/great-concourse-2012-10-23) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 26,043 decks; most often under [Arcades, the Strategist](../../cards/A/arc.md#arcades-the-strategist) (22.9% of its decks), [Nine-Fingers Keene](../../cards/N/ni.md#nine-fingers-keene) (79.3% of its decks), [Child of Alara](../../cards/C/chi.md#child-of-alara) (20.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddm/48/gatecreeper-vine) · oracle_id `0f539127-535f-4e0d-abaa-e884521098d2` · printing: DDM #48 (2014-03-14) · [rulings](https://api.scryfall.com/cards/e1ebaed7-b3d5-4eb8-93f7-3a65fd7b89b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gate Hound
@@ -3446,6 +3473,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19386 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2015-06-22* — Check to see if there are two or more instant and/or sorcery cards in your graveyard as the spell resolves to determine whether the spell mastery ability applies. The spell itself won’t count because it’s still on the stack as you make this check.
+- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,511 decks; most often under [Ashling, the Limitless](../../cards/A/as.md#ashling-the-limitless) (0.8% of its decks), [Hogaak, Arisen Necropolis](../../cards/H/ho.md#hogaak-arisen-necropolis) (5.8% of its decks), [Katilda and Lier](../../cards/K/ka.md#katilda-and-lier) (6.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/178/gather-the-pack) · oracle_id `8f31d870-872d-4671-80d1-8d2ecd2c38d2` · printing: ORI #178 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gather the Townsfolk

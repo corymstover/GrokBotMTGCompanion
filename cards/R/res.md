@@ -535,6 +535,8 @@ schema: 2
 - **Rulings** (2):
   - *2023-02-04* — If the target creature is no longer a legal target as Resistance Reunited tries to resolve, it won't resolve and no creatures will gain indestructible.
   - *2023-02-04* — The set of creatures that gains indestructible is determined as Resistance Reunited resolves. After that point, an equipped creature that gained indestructible won't lose indestructible if it becomes unequipped. Similarly, one that didn't gain indestructible won't gain it should it become equipped.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): ONE #31 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 5,891 decks; most often under [Nahiri, Forged in Fury](../../cards/N/na.md#nahiri-forged-in-fury) (16.8% of its decks), [Bruenor Battlehammer](../../cards/B/br.md#bruenor-battlehammer) (11.2% of its decks), [Jor Kadeen, First Goldwarden](../../cards/J/jo.md#jor-kadeen-first-goldwarden) (38.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#resistance-reunited)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/31/resistance-reunited) · oracle_id `e68fa0e6-9f55-498b-a13e-197cb30ca4aa` · printing: ONE #31 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -566,6 +568,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21902 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-11-19* — You must control another Human both at the time Resistance Squad enters the battlefield and at the time the ability resolves to draw a card.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): VOW #32 — ✅ Card art shown on [Episode 4: The Wedding Crashers](https://magic.wizards.com/en/news/magic-story/episode-4-wedding-crashers-2021-11-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,562 decks; most often under [Kyler, Sigardian Emissary](../../cards/K/ky.md#kyler-sigardian-emissary) (1.8% of its decks), [Myrel, Shield of Argive](../../cards/M/my.md#myrel-shield-of-argive) (1.0% of its decks), [Greymond, Avacyn's Stalwart](../../cards/G/gre.md#greymond-avacyns-stalwart) (2.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/32/resistance-squad) · oracle_id `a16eeef9-e03c-4ebb-b986-325252a9491f` · printing: VOW #32 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Resize
@@ -907,6 +911,8 @@ schema: 2
   - *2018-01-19* — If your tenth permanent enters the battlefield and then a permanent leaves the battlefield immediately afterwards (most likely due to the “Legend Rule” or due to being a creature with 0 toughness), you get the city’s blessing before it leaves the battlefield.
   - *2018-01-19* — Once you have the city’s blessing, you have it for the rest of the game, even if you lose control of some or all of your permanents. The city’s blessing isn’t a permanent itself and can’t be removed by any effect.
   - *2018-01-19* — Some cards have triggered abilities with an intervening “if” clause that checks whether you have the city’s blessing. These are worded “[Trigger condition], if you have the city’s blessing, [effect].” You must already have the city’s blessing in order for these abilities to trigger; otherwise they do nothing. In other words, there’s no way to have the ability trigger if you don’t have the city’s blessing, even if you intend to get it in response to the triggered ability.
+- **Lore:** ✅ Card art shown on [Wool Over the Eyes](https://magic.wizards.com/en/news/magic-story/wool-over-eyes-2018-02-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 337 decks; most often under [Kangee, Sky Warden](../../cards/K/ka.md#kangee-sky-warden) (1.2% of its decks), [Errant and Giada](../../cards/E/er.md#errant-and-giada) (0.6% of its decks), [Niko, Light of Hope](../../cards/N/ni.md#niko-light-of-hope) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/170/resplendent-griffin) · oracle_id `f8bf5df2-b783-4796-b2c6-eb4dd4167d62` · printing: RIX #170 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Resplendent Marshal
@@ -1004,6 +1010,8 @@ schema: 2
   - *2018-03-16* — If Rest in Peace is destroyed by a spell, Rest in Peace will be exiled and then the spell will be put into its owner's graveyard.
   - *2018-03-16* — If a card is discarded while Rest in Peace is on the battlefield, abilities that function when a card is discarded (such as madness) still work, even though that card never reaches a graveyard. In addition, spells or abilities that check the characteristics of a discarded card (such as Chandra Ablaze's first ability) can find that card in exile.
   - *2018-03-16* — While Rest in Peace is on the battlefield, abilities that trigger whenever a creature dies won't trigger because cards and tokens are never put into a player's graveyard.
+- **Lore:** ✅ Card art shown on [In Praise of the Worldsoul, Part 3](https://magic.wizards.com/en/news/magic-story/in-praise-of-the-worldsoul-part-3) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Zur the Enchanter](../../decks/zur-the-enchanter.md) · Commander Spellbook: 43 combos; most popular [Helm of Obedience + Rest in Peace](https://commanderspellbook.com/combo/3002-5065/) (Exile target opponent's library) · EDHREC: in 71,326 decks; most often under [Zur the Enchanter](../../cards/Z/zu.md#zur-the-enchanter) (39.0% of its decks), [Grand Arbiter Augustin IV](../../cards/G/gra.md#grand-arbiter-augustin-iv) (32.6% of its decks), [Hope Estheim](../../cards/H/ho.md#hope-estheim) (24.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/R.md#rest-in-peace)
 - **Source flags:** [Scryfall](https://scryfall.com/card/big/4/rest-in-peace) · oracle_id `087f9ad7-e74f-40e2-8102-1ed2925d0418` · printing: BIG #4 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1431,7 +1439,9 @@ schema: 2
   > *Garruk looked at the young, scared boy from Vryn. "I have also begun anew," he rumbled.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22167 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#restore-with-empathy)
+- **Lore:** ✅ Card art shown on [Reality Fracture](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-7-pick-up-the-pieces) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,600 decks; most often under [Blech, Loafing Pest](../../cards/B/ble.md#blech-loafing-pest) (1.2% of its decks), [Beorn the Fierce](../../cards/B/be.md#beorn-the-fierce) (0.7% of its decks), [Carth the Lion](../../cards/C/car.md#carth-the-lion) (3.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/R.md#restore-with-empathy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/112/restore-with-empathy) · oracle_id `cb1e697f-6689-4f0b-8725-61d51432b8dd` · printing: FRA #112 (2026-10-02) · [rulings](https://api.scryfall.com/cards/3546b93b-a7d1-451d-a369-22cc8ddcd00d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Restrain

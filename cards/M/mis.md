@@ -429,7 +429,9 @@ schema: 2
   > *A sojourn through time gave dark inspiration to one gifted young mind.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23576 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/M.md#mishra-artificer-prodigy)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Mishra](../../Characters%20Index.md#mishra) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Mishra, Artificer Prodigy (Grixis)](../../grixis/decks/mishra-artificer-prodigy.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,031 decks; highest synergy [Possibility Storm](../../cards/P/po.md#possibility-storm) (+81%), [Etherium Sculptor](../../cards/E/et.md#etherium-sculptor) (+66%), [Blood Funnel](../../cards/B/blo.md#blood-funnel) (+61%) · EDHREC: in 80 decks; most often under [Mishra, Eminent One](../../cards/M/mis.md#mishra-eminent-one) (0.3% of its decks), [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (0.0% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Artifacts: Artifact payoffs](../../EDH%20Packages.md#artifacts-artifact-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 lore & story) → [reverse index](../../references/M.md#mishra-artificer-prodigy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsp/243/mishra-artificer-prodigy) · oracle_id `b38adaac-3714-4348-9fec-cb2e2ad518b1` · printing: TSP #243 (2006-10-06) · [rulings](https://api.scryfall.com/cards/d5deaec5-499d-4e19-b879-8bcd1dc35f3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mishra, Claimed by Gix
@@ -458,6 +460,8 @@ schema: 2
   - *2022-10-14* — While a melded permanent is on the battlefield, it has only the characteristics of its combined back face. Any effects that modify how the new object enters the battlefield will consider only the combined back face.
   - *2022-10-14* — You can use the {C} added by a Powerstone token on anything that isn't a nonartifact spell. This includes paying costs to activate abilities of both artifact and nonartifact permanents, paying ward costs, and so on.
   - *2022-10-14* — You choose which player or planeswalker Mishra, Lost to Phyrexia is attacking as it enters the battlefield.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Mishra](../../Characters%20Index.md#mishra) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,022 decks; highest synergy [Phyrexian Dragon Engine](../../cards/P/ph.md#phyrexian-dragon-engine) (+94%), [Hanweir Garrison](../../cards/H/ha.md#hanweir-garrison) (+55%), [Krenko, Tin Street Kingpin](../../cards/K/kr.md#krenko-tin-street-kingpin) (+55%) · EDHREC: in 19,259 decks; most often under [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (27.8% of its decks), [Caesar, Legion's Emperor](../../cards/C/cae.md#caesar-legions-emperor) (4.9% of its decks), [Zurgo Stormrender](../../cards/Z/zu.md#zurgo-stormrender) (2.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#mishra-claimed-by-gix)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/216/mishra-claimed-by-gix) · oracle_id `26a623a1-60c9-47e3-af96-616e29551865` · printing: BRO #216 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -475,6 +479,8 @@ schema: 2
   - *2022-10-14* — If the copied permanent has {X} in its mana cost, X is 0.
   - *2022-10-14* — If the copied permanent is a token, the new token that’s created copies the original characteristics of that token as stated by the effect that created that token (with the listed exceptions).
   - *2022-10-14* — If the copied permanent is copying something else, then the token enters the battlefield as whatever that permanent copied (with the listed exceptions).
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Mishra](../../Characters%20Index.md#mishra) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Mishra, Eminent One (Grixis)](../../grixis/decks/mishra-eminent-one.md) · Commander Spellbook: 93 combos; most popular [Mishra, Eminent One + Gonti's Aether Heart + Strionic Resonator](https://commanderspellbook.com/combo/2751-4636-5159/) (Infinite turns, Lock) · EDHREC as commander: 7,969 decks; highest synergy [Ichor Wellspring](../../cards/I/ic.md#ichor-wellspring) (+82%), [Seat of the Synod](../../cards/S/sea.md#seat-of-the-synod) (+77%), [Emry, Lurker of the Loch](../../cards/E/em.md#emry-lurker-of-the-loch) (+75%) · EDHREC: in 4,092 decks; most often under [Obeka, Brute Chronologist](../../cards/O/ob.md#obeka-brute-chronologist) (11.5% of its decks), [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (3.7% of its decks), [Ashnod the Uncaring](../../cards/A/as.md#ashnod-the-uncaring) (17.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 decks · 1 lore & story · 1 card data) → [reverse index](../../references/M.md#mishra-eminent-one)
 - **Source flags:** [Scryfall](https://scryfall.com/card/brc/1/mishra-eminent-one) · oracle_id `d3438037-3efd-4ce0-88ec-6d48ab521992` · printing: BRC #1 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -493,6 +499,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13576 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-10-14* — The last ability will trigger if you discard artifact cards for any reason, not just due to its activated ability.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Mishra](../../Characters%20Index.md#mishra) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 118 decks; highest synergy [Trash for Treasure](../../cards/T/tra.md#trash-for-treasure) (+55%), [Daretti, Scrap Savant](../../cards/D/da.md#daretti-scrap-savant) (+54%), [Darksteel Citadel](../../cards/D/da.md#darksteel-citadel) (+52%) · EDHREC: in 6,812 decks; most often under [Queen Kayla bin-Kroog](../../cards/Q/qu.md#queen-kayla-bin-kroog) (37.4% of its decks), [Mishra, Tamer of Mak Fawa](../../cards/M/mis.md#mishra-tamer-of-mak-fawa) (53.6% of its decks), [Daretti, Scrap Savant](../../cards/D/da.md#daretti-scrap-savant) (17.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#mishra-excavation-prodigy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/140/mishra-excavation-prodigy) · oracle_id `4eba0e29-985b-4763-9a70-0946ba044b43` · printing: BRO #140 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -525,6 +533,8 @@ schema: 2
   - *2022-10-14* — While a meld card is in any zone other than the battlefield, it has only the characteristics of its front face. The same is true while it's on the battlefield with its front face up.
   - *2022-10-14* — While a melded permanent is on the battlefield, it has only the characteristics of its combined back face. Any effects that modify how the new object enters the battlefield will consider only the combined back face.
   - *2022-10-14* — You can use the {C} added by a Powerstone token on anything that isn't a nonartifact spell. This includes paying costs to activate abilities of both artifact and nonartifact permanents, paying ward costs, and so on.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Mishra](../../Characters%20Index.md#mishra) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#mishra-lost-to-phyrexia)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/163b/mishra-lost-to-phyrexia) · oracle_id `3989308a-4c0f-493a-b38f-cb4f5019dfe7` · printing: BRO #163b (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -568,6 +578,8 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23462 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #142 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,147 decks; most often under [Valduk, Keeper of the Flame](../../cards/V/va.md#valduk-keeper-of-the-flame) (3.0% of its decks), [Kaima, the Fractured Calm](../../cards/K/ka.md#kaima-the-fractured-calm) (3.0% of its decks), [Mishra, Claimed by Gix](../../cards/M/mis.md#mishra-claimed-by-gix) (1.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#mishras-domination)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/142/mishras-domination) · oracle_id `ede2354a-64b0-402c-8fbe-9da90f811a9b` · printing: BRO #142 (2022-11-18) · [rulings](https://api.scryfall.com/cards/87c71fb1-a30b-4e0e-a6d6-4656cfff2da1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -700,6 +712,8 @@ schema: 2
   - *2018-04-27* — The token will have Mishra’s Self-Replicator’s ability. It will also be able to create copies of itself.
   - *2018-04-27* — The token won’t copy counters or damage marked on Mishra’s Self-Replicator, nor will it copy other effects that have changed Mishra’s Self-Replicator’s power, toughness, types, color, and so on. Normally, this means the token will simply be a Mishra’s Self-Replicator, but if any copy effects have affected that Mishra’s Self-Replicator, they’re taken into account.
   - *2018-04-27* — While resolving the triggered ability of Mishra’s Self-Replicator, you can’t pay {1} multiple times to create more than one token. However, if you control more than one Mishra’s Self-Replicator, you can pay {1} for each of their abilities.
+- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 6](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-6-2018-04-18) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Braids, Arisen Nightmare (Dominaria-only)](../../decks/plane-dominaria-braids-arisen-nightmare.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 10,858 decks; most often under [Graaz, Unstoppable Juggernaut](../../cards/G/gra.md#graaz-unstoppable-juggernaut) (40.2% of its decks), [The Capitoline Triad](../../cards/T/thec.md#the-capitoline-triad) (32.8% of its decks), [Karn, Legacy Reforged](../../cards/K/ka.md#karn-legacy-reforged) (10.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#mishras-self-replicator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/223/mishras-self-replicator) · oracle_id `5546d127-a961-4e33-bbc9-06ee14b0cb04` · printing: DOM #223 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -766,6 +780,8 @@ schema: 2
   - *2022-10-14* — If a permanent returned to the battlefield with unearth would leave the battlefield for any reason, it's exiled instead—unless the spell or ability that's causing the permanent to leave the battlefield is actually trying to exile it! In that case, it succeeds at exiling it. If that spell or ability later returns the card to the battlefield (as Static Net might, for example), the permanent card will return to the battlefield as a new object with no relation to its previous existence. The unearth effects will no longer apply to it.
   - *2022-10-14* — If you activate a card's unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will do nothing as it resolves.
   - *2022-10-14* — Unearth grants haste to the permanent that's returned to the battlefield (even if it's not a creature card). However, neither of the "exile" abilities is granted to that permanent. If that permanent loses all its abilities, it will still be exiled at the beginning of the next end step, and if it would leave the battlefield, it is still exiled instead.
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Mishra](../../Characters%20Index.md#mishra) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Mishra, Tamer of Mak Fawa + Void Maw + Myr Battlesphere + Phyrexian Altar](https://commanderspellbook.com/combo/3069-3465-4050-4840/) (Infinite colored mana, Infinite creature tokens) · EDHREC as commander: 1,155 decks; highest synergy [Noxious Gearhulk](../../cards/N/no.md#noxious-gearhulk) (+70%), [Combustible Gearhulk](../../cards/C/com.md#combustible-gearhulk) (+69%), [Daretti, Scrap Savant](../../cards/D/da.md#daretti-scrap-savant) (+58%) · EDHREC: in 12,125 decks; most often under [Megatron, Tyrant](../../cards/M/me.md#megatron-tyrant--megatron-destructive-force) (47.0% of its decks), [Mishra, Eminent One](../../cards/M/mis.md#mishra-eminent-one) (15.8% of its decks), [Imskir Iron-Eater](../../cards/I/im.md#imskir-iron-eater) (23.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#mishra-tamer-of-mak-fawa)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/217/mishra-tamer-of-mak-fawa) · oracle_id `3be40d81-9be5-4f39-8ce4-920c26cf2748` · printing: BRO #217 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1618,6 +1634,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16387 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2012-05-01* — Mist Raven’s ability is mandatory. If Mist Raven is the only creature on the battlefield when its ability triggers, you must choose it as the target.
+- **Lore:** ✅ Card art shown on [Threadbare](https://magic.wizards.com/en/news/magic-story/threadbare-2012-07-23) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Volo, Guide to Monsters + Food Chain + Mist Raven](https://commanderspellbook.com/combo/569-3519-4115/) (Infinite colored mana that can only be spent to cast creature spells, Infinite creature ETB) · EDHREC: in 4,268 decks; most often under [Kastral, the Windcrested](../../cards/K/ka.md#kastral-the-windcrested) (5.9% of its decks), [Choco, Seeker of Paradise](../../cards/C/cho.md#choco-seeker-of-paradise) (2.2% of its decks), [Tawnos, the Toymaker](../../cards/T/ta.md#tawnos-the-toymaker) (21.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/76/mist-raven) · oracle_id `12654457-3aae-4046-a976-8e41c3f78927` · printing: INR #76 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mistrise Village

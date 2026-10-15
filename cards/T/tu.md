@@ -426,6 +426,8 @@ schema: 2
   > *"But we're not most people," Pia replied.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11120 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): DFT #33 — [Art & Flavor → Aetherdrift (2025)](../../Art%20%26%20Flavor%20Story%20Links.md#aetherdrift-2025) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 10,460 decks; most often under [Kolodin, Triumph Caster](../../cards/K/ko.md#kolodin-triumph-caster) (40.2% of its decks), [Greasefang, Okiba Boss](../../cards/G/gre.md#greasefang-okiba-boss) (22.9% of its decks), [Mendicant Core, Guidelight](../../cards/M/me.md#mendicant-core-guidelight) (7.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#tune-up)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/33/tune-up) · oracle_id `aaa14260-2537-4668-8517-c825118777cc` · printing: DFT #33 (2025-02-14) · [rulings](https://api.scryfall.com/cards/f8bddc5f-8f25-4313-b5bb-e5eae2923878/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

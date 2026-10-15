@@ -283,6 +283,8 @@ schema: 2
   > *Professors scrambled to push the mage hunters back, leaving the heart of Strixhaven undefended.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24837 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): STX #12 — ✅ Card art shown on [Episode 4: Put to the Test](https://magic.wizards.com/en/news/magic-story/episode-4-put-test-2021-04-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 851 decks; most often under [Shadrix Silverquill](../../cards/S/sha.md#shadrix-silverquill) (1.0% of its decks), [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (0.1% of its decks), [Killian, Ink Duelist](../../cards/K/ki.md#killian-ink-duelist) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/12/defend-the-campus) · oracle_id `274c2781-f40a-49b4-a039-669739beaab6` · printing: STX #12 (2021-04-23) · [rulings](https://api.scryfall.com/cards/85e4e1b5-77d6-4af4-b22e-6f6b4d129f5d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defend the Celestus
@@ -297,6 +299,8 @@ schema: 2
 - **Rulings** (2):
   - *2021-09-24* — If some, but not all, of the target creatures are illegal targets as Defend the Celestus resolves, the original distribution of counters remains the same. Counters that were to be put on the now-illegal targets are lost.
   - *2021-09-24* — You decide how to distribute the counters as you cast Defend the Celestus. You must distribute at least one counter to each creature you target.
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MID #182 · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,033 decks; most often under [Tovolar, Dire Overlord](../../cards/T/to.md#tovolar-dire-overlord--tovolar-the-midnight-scourge) (3.5% of its decks), [Leinore, Autumn Sovereign](../../cards/L/le.md#leinore-autumn-sovereign) (1.7% of its decks), [Sarulf, Realm Eater](../../cards/S/sar.md#sarulf-realm-eater) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/182/defend-the-celestus) · oracle_id `c079a636-cfd4-49cd-bcd4-54375b3fa355` · printing: MID #182 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defend the Hearth
@@ -835,6 +839,8 @@ schema: 2
 - **Rulings** (2):
   - *2014-09-20* — Deflecting Palm doesn't target any permanent or player. You choose a source of damage as Deflecting Palm resolves.
   - *2014-09-20* — If multiple prevention and/or replacement effects are trying to apply to the same damage, the player who would be dealt damage chooses the order in which to apply them.
+- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/journey-nexus-2014-12-10) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 139,083 decks; most often under [Queen Marchesa](../../cards/Q/qu.md#queen-marchesa) (63.3% of its decks), [Lightning, Army of One](../../cards/L/li.md#lightning-army-of-one) (43.3% of its decks), [Nelly Borca, Impulsive Accuser](../../cards/N/ne.md#nelly-borca-impulsive-accuser) (80.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#deflecting-palm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/205/deflecting-palm) · oracle_id `dc5dffc8-fac5-4956-bac4-1ad2cc16f6be` · printing: MKC #205 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
