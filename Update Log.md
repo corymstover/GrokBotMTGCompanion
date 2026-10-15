@@ -3,8 +3,23 @@
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)
+
+> All entries in this section are **Bot cycle 3** (Grok Bot) changes. Sprint mode: the scheduled routine was paused and this was the only committing process.
+
+| # | Summary | Files affected | Reason |
+|---|---|---|---|
+| 3.1 | Bot cycle 3: card-data polish — deck-skeleton mass-land-denial pattern fixed (All Is Dust was a false positive; Kozilek rebuilt, floor 4 → 3); new `scripts/deck_rules_notes.py` adds a Commander rules & rulings block (Oracle text, every official ruling verbatim, ruled deck cards) to every deck. Cards/rulings unchanged: 33,894 entries, 78,943 rulings, verify 0 problems. | `scripts/build_deck_skeleton.py`, `scripts/deck_rules_notes.py`, `decks/*` | Accuracy of bracket floors; rulings surfaced where decks are used. |
+| 3.2 | Bot cycle 3: EDH — 20 new validated skeletons (PR #21), then 4 four-color skeletons (Breya WUBR, Yidris UBRG, Saskia BRGW, Kynaios & Tiro RGWU) → **32 skeletons covering all 32 color identities** (was 8); synergy notes 3 → 15 (Niv-Mizzet two-card loop ⚠️ flagged). | `decks/*`, `EDH Standards.md` | Issue #19. |
+| 3.3 | Bot cycle 3: **Conflicts & Arcs deepened** — 15 one-paragraph arcs → **36 sourced entries / 40 headings** (Sets · Timeline · Planes · Characters · events · Outcome · Sources), per-set 2019–2026 arcs, cross-arc threads table, open questions; original anchors preserved. Claims re-checked against the fetched story text; unverifiable details removed or ⚠️-flagged (ELD/THB/IKO unsourced; Emrakul's containment; fate of Ulamog/Kozilek). | `Conflicts & Arcs.md` | User priority (2): deepen lore. |
+| 3.4 | Bot cycle 3: **Master Timeline deepened** — 7 era tables with arc/character cross-links (56 links into Conflicts & Arcs), new **Dated events (AR)** table (28, 44, 63, 64, 69, 79, 85 AR and the 4562 AR frame, all quoted from *The Brothers' War* episodes), Omenpath-era relative markers quoted from sources ("One Year Prior", "nearly two years"). All cited Wizards URLs in both files validated against the official sitemap. | `Master Timeline.md` | User priority (2). |
+| 3.5 | Bot cycle 3: **Planes Index** +Regatha and +Rath (sourced from official Magic Story pages); Mercadia and Ulgrotha added as ⚠️ stubs (no official page in the sitemap; `/en/story/<plane>-plane` returns 404). | `Planes Index.md` | Issue #12. |
+| 3.6 | Bot cycle 3: **Rules Interactions** started — 7 topics (layers 613.1–613.7, dependency 613.8, replacement vs. triggered 614/603/616, SBAs 704, copy 707, color identity 903.4, command-zone returns 903.9) quoting the CR 2026-09-25 verbatim, 35 official WotC rulings linked to card entries; generator `scripts/build_rules_interactions.py`. | `Rules Interactions.md`, `scripts/build_rules_interactions.py`, `EDH Standards.md` | Issue #9. |
+| 3.7 | Bot cycle 3: README dashboard, Progress Tracker, Knowledge Index, Update Log refreshed. | `README.md`, `Progress Tracker.md`, `Knowledge Index.md`, `Update Log.md` | Keep the dashboard current. |
 
 ## 2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)
 

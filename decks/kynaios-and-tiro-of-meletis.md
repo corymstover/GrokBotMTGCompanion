@@ -1,0 +1,232 @@
+# Deck Skeleton — Kynaios and Tiro of Meletis
+
+> **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/kynaios-and-tiro-of-meletis) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Rejected candidates](#rejected-candidates)
+- [Commander rules & rulings](#commander-rules--rulings)
+
+## Commander
+
+- **[Kynaios and Tiro of Meletis](../cards/K/ky.md#kynaios-and-tiro-of-meletis)** — {R}{G}{W}{U} — Legendary Creature — Human Soldier
+- Color identity: **GRUW (Green, Red, Blue, White)**
+- Eligibility: Yes (legendary creature)
+- EDHREC sample: 16518 decks · bracket distribution reported by EDHREC: B1: 196, B2: 1,337, B3: 1,465, B4: 412, B5: 9
+
+## Validation
+
+- Total cards: **100** (1 commander + 63 nonland + 16 nonbasic lands + 20 basics)
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+
+## Bracket assessment
+
+- Game Changers (1): Smothering Tithe
+- Extra-turn cards: none
+- Mass land denial: none
+- Two-card infinite combos: ⚠️ not machine-checked — review manually.
+- **Minimum bracket by the published barometers: 3 (Upgraded) — 1–3 Game Changers.** (Brackets are a pregame-conversation tool; see [EDH Standards](../EDH%20Standards.md#power-bracket-assessment).)
+
+## Decklist (Archidekt import)
+
+```text
+1x Kynaios and Tiro of Meletis [Commander{top}]
+1x Sol Ring [Artifact]
+1x Arcane Signet [Artifact]
+1x Howling Mine [Artifact]
+1x Chromatic Lantern [Artifact]
+1x Temple Bell [Artifact]
+1x Folio of Fancies [Artifact]
+1x Thought Vessel [Artifact]
+1x Wedding Ring [Artifact]
+1x Font of Mythos [Artifact]
+1x Horn of Greed [Artifact]
+1x Ghirapur Orrery [Artifact]
+1x Rites of Flourishing [Enchantment]
+1x Propaganda [Enchantment]
+1x Ghostly Prison [Enchantment]
+1x Dictate of Kruphix [Enchantment]
+1x Heartbeat of Spring [Enchantment]
+1x Mana Flare [Enchantment]
+1x Smothering Tithe [Enchantment]
+1x Forced Fruition [Enchantment]
+1x Sphere of Safety [Enchantment]
+1x Swords to Plowshares [Instant]
+1x Arcane Denial [Instant]
+1x Path to Exile [Instant]
+1x Beast Within [Instant]
+1x Chaos Warp [Instant]
+1x Generous Gift [Instant]
+1x Counterspell [Instant]
+1x An Offer You Can't Refuse [Instant]
+1x Dawn's Truce [Instant]
+1x Everybody Lives! [Instant]
+1x Tempt with Discovery [Sorcery]
+1x Farseek [Sorcery]
+1x Minds Aglow [Sorcery]
+1x Cultivate [Sorcery]
+1x Collective Voyage [Sorcery]
+1x Approach of the Second Sun [Sorcery]
+1x Nature's Lore [Sorcery]
+1x Kodama's Reach [Sorcery]
+1x Insurrection [Sorcery]
+1x Three Visits [Sorcery]
+1x Selvala, Explorer Returned [Creature]
+1x Kwain, Itinerant Meddler [Creature]
+1x Gluntch, the Bestower [Creature]
+1x Xyris, the Writhing Storm [Creature]
+1x Kami of the Crescent Moon [Creature]
+1x The Second Doctor [Creature]
+1x The Council of Four [Creature]
+1x Heartwood Storyteller [Creature]
+1x Master of Ceremonies [Creature]
+1x Edric, Spymaster of Trest [Creature]
+1x Veteran Explorer [Creature]
+1x Laboratory Maniac [Creature]
+1x Ms. Bumbleflower [Creature]
+1x Humble Defector [Creature]
+1x Scrawling Crawler [Creature]
+1x Tatyova, Benthic Druid [Creature]
+1x Windborn Muse [Creature]
+1x Dryad of the Ilysian Grove [Creature]
+1x Psychosis Crawler [Creature]
+1x Birds of Paradise [Creature]
+1x Braids, Conjurer Adept [Creature]
+1x Tidal Barracuda [Creature]
+1x Triskaidekaphile [Creature]
+1x Command Tower [Land]
+1x Exotic Orchard [Land]
+1x Reliquary Tower [Land]
+1x Stardew Valley [Land]
+1x Temple Garden [Land]
+1x Breeding Pool [Land]
+1x Hallowed Fountain [Land]
+1x Stomping Ground [Land]
+1x Steam Vents [Land]
+1x Spara's Headquarters [Land]
+1x Ketria Triome [Land]
+1x Sacred Foundry [Land]
+1x Seaside Citadel [Land]
+1x Raugrin Triome [Land]
+1x Jetmir's Garden [Land]
+1x Frontier Bivouac [Land]
+5x Plains [Land]
+5x Island [Land]
+5x Mountain [Land]
+5x Forest [Land]
+```
+
+## Card breakdown
+
+| Card | Section | EDHREC inclusion | Identity |
+|---|---|---|---|
+| [Sol Ring](../cards/S/so.md#sol-ring) | Artifact | 76% | C |
+| [Arcane Signet](../cards/A/arc.md#arcane-signet) | Artifact | 72% | C |
+| [Howling Mine](../cards/H/ho.md#howling-mine) | Artifact | 55% | C |
+| [Chromatic Lantern](../cards/C/chr.md#chromatic-lantern) | Artifact | 41% | C |
+| [Temple Bell](../cards/T/te.md#temple-bell) | Artifact | 40% | C |
+| [Folio of Fancies](../cards/F/fo.md#folio-of-fancies) | Artifact | 37% | U |
+| [Thought Vessel](../cards/T/tho.md#thought-vessel) | Artifact | 37% | C |
+| [Wedding Ring](../cards/W/we.md#wedding-ring) | Artifact | 36% | W |
+| [Font of Mythos](../cards/F/fo.md#font-of-mythos) | Artifact | 30% | C |
+| [Horn of Greed](../cards/H/ho.md#horn-of-greed) | Artifact | 27% | C |
+| [Ghirapur Orrery](../cards/G/gh.md#ghirapur-orrery) | Artifact | 27% | C |
+| [Rites of Flourishing](../cards/R/ri.md#rites-of-flourishing) | Enchantment | 70% | G |
+| [Propaganda](../cards/P/pr.md#propaganda) | Enchantment | 53% | U |
+| [Ghostly Prison](../cards/G/gh.md#ghostly-prison) | Enchantment | 50% | W |
+| [Dictate of Kruphix](../cards/D/di.md#dictate-of-kruphix) | Enchantment | 49% | U |
+| [Heartbeat of Spring](../cards/H/he.md#heartbeat-of-spring) | Enchantment | 35% | G |
+| [Mana Flare](../cards/M/man.md#mana-flare) | Enchantment | 29% | R |
+| [Smothering Tithe](../cards/S/sm.md#smothering-tithe) | Enchantment | 28% | W |
+| [Forced Fruition](../cards/F/fo.md#forced-fruition) | Enchantment | 28% | U |
+| [Sphere of Safety](../cards/S/sph.md#sphere-of-safety) | Enchantment | 23% | W |
+| [Swords to Plowshares](../cards/S/sw.md#swords-to-plowshares) | Instant | 61% | W |
+| [Arcane Denial](../cards/A/arc.md#arcane-denial) | Instant | 44% | U |
+| [Path to Exile](../cards/P/pa.md#path-to-exile) | Instant | 41% | W |
+| [Beast Within](../cards/B/be.md#beast-within) | Instant | 33% | G |
+| [Chaos Warp](../cards/C/cha.md#chaos-warp) | Instant | 30% | R |
+| [Generous Gift](../cards/G/ge.md#generous-gift) | Instant | 30% | W |
+| [Counterspell](../cards/C/cou.md#counterspell) | Instant | 28% | U |
+| [An Offer You Can't Refuse](../cards/A/an.md#an-offer-you-cant-refuse) | Instant | 28% | U |
+| [Dawn's Truce](../cards/D/da.md#dawns-truce) | Instant | 27% | W |
+| [Everybody Lives!](../cards/E/ev.md#everybody-lives) | Instant | 25% | W |
+| [Tempt with Discovery](../cards/T/te.md#tempt-with-discovery) | Sorcery | 58% | G |
+| [Farseek](../cards/F/fa.md#farseek) | Sorcery | 47% | G |
+| [Minds Aglow](../cards/M/min.md#minds-aglow) | Sorcery | 41% | U |
+| [Cultivate](../cards/C/cu.md#cultivate) | Sorcery | 41% | G |
+| [Collective Voyage](../cards/C/col.md#collective-voyage) | Sorcery | 39% | G |
+| [Approach of the Second Sun](../cards/A/ap.md#approach-of-the-second-sun) | Sorcery | 37% | W |
+| [Nature's Lore](../cards/N/na.md#natures-lore) | Sorcery | 28% | G |
+| [Kodama's Reach](../cards/K/ko.md#kodamas-reach) | Sorcery | 27% | G |
+| [Insurrection](../cards/I/ins.md#insurrection) | Sorcery | 24% | R |
+| [Three Visits](../cards/T/thr.md#three-visits) | Sorcery | 23% | G |
+| [Selvala, Explorer Returned](../cards/S/sel.md#selvala-explorer-returned) | Creature | 54% | GW |
+| [Kwain, Itinerant Meddler](../cards/K/kw.md#kwain-itinerant-meddler) | Creature | 50% | UW |
+| [Gluntch, the Bestower](../cards/G/gl.md#gluntch-the-bestower) | Creature | 49% | GW |
+| [Xyris, the Writhing Storm](../cards/X/xy.md#xyris-the-writhing-storm) | Creature | 45% | GRU |
+| [Kami of the Crescent Moon](../cards/K/ka.md#kami-of-the-crescent-moon) | Creature | 43% | U |
+| [The Second Doctor](../cards/T/thes.md#the-second-doctor) | Creature | 38% | UW |
+| [The Council of Four](../cards/T/thec.md#the-council-of-four) | Creature | 38% | UW |
+| [Heartwood Storyteller](../cards/H/he.md#heartwood-storyteller) | Creature | 33% | G |
+| [Master of Ceremonies](../cards/M/mas.md#master-of-ceremonies) | Creature | 31% | W |
+| [Edric, Spymaster of Trest](../cards/E/ed.md#edric-spymaster-of-trest) | Creature | 31% | GU |
+| [Veteran Explorer](../cards/V/ve.md#veteran-explorer) | Creature | 30% | G |
+| [Laboratory Maniac](../cards/L/la.md#laboratory-maniac) | Creature | 30% | U |
+| [Ms. Bumbleflower](../cards/M/ms.md#ms-bumbleflower) | Creature | 28% | GUW |
+| [Humble Defector](../cards/H/hu.md#humble-defector) | Creature | 28% | R |
+| [Scrawling Crawler](../cards/S/sc.md#scrawling-crawler) | Creature | 28% | C |
+| [Tatyova, Benthic Druid](../cards/T/ta.md#tatyova-benthic-druid) | Creature | 28% | GU |
+| [Windborn Muse](../cards/W/wi.md#windborn-muse) | Creature | 28% | W |
+| [Dryad of the Ilysian Grove](../cards/D/dry.md#dryad-of-the-ilysian-grove) | Creature | 26% | G |
+| [Psychosis Crawler](../cards/P/ps.md#psychosis-crawler) | Creature | 25% | C |
+| [Birds of Paradise](../cards/B/bi.md#birds-of-paradise) | Creature | 23% | G |
+| [Braids, Conjurer Adept](../cards/B/br.md#braids-conjurer-adept) | Creature | 22% | U |
+| [Tidal Barracuda](../cards/T/ti.md#tidal-barracuda) | Creature | 22% | U |
+| [Triskaidekaphile](../cards/T/tri.md#triskaidekaphile) | Creature | 22% | U |
+| [Command Tower](../cards/C/com.md#command-tower) | Land | 92% | C |
+| [Exotic Orchard](../cards/E/ex.md#exotic-orchard) | Land | 68% | C |
+| [Reliquary Tower](../cards/R/rel.md#reliquary-tower) | Land | 64% | C |
+| [Stardew Valley](../cards/S/sta.md#stardew-valley) | Land | 50% | C |
+| [Temple Garden](../cards/T/te.md#temple-garden) | Land | 43% | GW |
+| [Breeding Pool](../cards/B/br.md#breeding-pool) | Land | 43% | GU |
+| [Hallowed Fountain](../cards/H/ha.md#hallowed-fountain) | Land | 43% | UW |
+| [Stomping Ground](../cards/S/sto.md#stomping-ground) | Land | 40% | GR |
+| [Steam Vents](../cards/S/ste.md#steam-vents) | Land | 38% | RU |
+| [Spara's Headquarters](../cards/S/spa.md#sparas-headquarters) | Land | 37% | GUW |
+| [Ketria Triome](../cards/K/ke.md#ketria-triome) | Land | 37% | GRU |
+| [Sacred Foundry](../cards/S/sac.md#sacred-foundry) | Land | 36% | RW |
+| [Seaside Citadel](../cards/S/sea.md#seaside-citadel) | Land | 35% | GUW |
+| [Raugrin Triome](../cards/R/rau.md#raugrin-triome) | Land | 35% | RUW |
+| [Jetmir's Garden](../cards/J/je.md#jetmirs-garden) | Land | 34% | GRW |
+| [Frontier Bivouac](../cards/F/fr.md#frontier-bivouac) | Land | 33% | GRU |
+| 5× Plains | Basic land | — | — |
+| 5× Island | Basic land | — | — |
+| 5× Mountain | Basic land | — | — |
+| 5× Forest | Basic land | — | — |
+
+## Rejected candidates
+
+EDHREC suggestions excluded by validation (should normally be empty or only off-identity/illegal cards):
+
+- Zagorka, Mother of Sanctum — not Commander-legal
+
+<!-- RULES-NOTES:START -->
+## Commander rules & rulings
+
+> Auto-generated by `scripts/deck_rules_notes.py` from Scryfall Oracle bulk (2026-10-15) and rulings bulk (2026-10-15); rulings are quoted verbatim (source: Wizards of the Coast unless marked). Facts only — strategy is in [EDH Standards](../EDH%20Standards.md#synergy-notes), labeled Opinion.
+
+**Oracle text — [Kynaios and Tiro of Meletis](../cards/K/ky.md#kynaios-and-tiro-of-meletis):**
+> Kynaios and Tiro of Meletis: At the beginning of your end step, draw a card. Each player may put a land card from their hand onto the battlefield, then each opponent who didn't draws a card.
+
+**Official rulings on the commander (2):**
+- *2016-11-08* — If the card you draw is a land card, you may choose it to put onto the battlefield.
+- *2016-11-08* — Starting with you and proceeding in turn order, each player chooses a land card from their hand or chooses not to choose one, but doesn’t reveal any chosen lands yet. Once all players have made this choice, all chosen lands are revealed and enter the battlefield simultaneously.
+
+**Creature-type overlap** with the commander (Human, Soldier): 6 card(s) — [The Council of Four](../cards/T/thec.md#the-council-of-four), [Veteran Explorer](../cards/V/ve.md#veteran-explorer), [Laboratory Maniac](../cards/L/la.md#laboratory-maniac), [Humble Defector](../cards/H/hu.md#humble-defector), [Braids, Conjurer Adept](../cards/B/br.md#braids-conjurer-adept), [Triskaidekaphile](../cards/T/tri.md#triskaidekaphile).
+
+**Deck cards with official rulings:** 62 of 79 non-basic cards — [Arcane Signet](../cards/A/arc.md#arcane-signet) (3), [Howling Mine](../cards/H/ho.md#howling-mine) (4), [Chromatic Lantern](../cards/C/chr.md#chromatic-lantern) (1), [Folio of Fancies](../cards/F/fo.md#folio-of-fancies) (3), [Wedding Ring](../cards/W/we.md#wedding-ring) (1), [Font of Mythos](../cards/F/fo.md#font-of-mythos) (1), [Horn of Greed](../cards/H/ho.md#horn-of-greed) (1), [Ghirapur Orrery](../cards/G/gh.md#ghirapur-orrery) (6), [Rites of Flourishing](../cards/R/ri.md#rites-of-flourishing) (1), [Propaganda](../cards/P/pr.md#propaganda) (6), [Ghostly Prison](../cards/G/gh.md#ghostly-prison) (2), [Heartbeat of Spring](../cards/H/he.md#heartbeat-of-spring) (3), [Mana Flare](../cards/M/man.md#mana-flare) (3), [Smothering Tithe](../cards/S/sm.md#smothering-tithe) (1), [Forced Fruition](../cards/F/fo.md#forced-fruition) (1), [Sphere of Safety](../cards/S/sph.md#sphere-of-safety) (1), [Swords to Plowshares](../cards/S/sw.md#swords-to-plowshares) (1), [Arcane Denial](../cards/A/arc.md#arcane-denial) (1), [Path to Exile](../cards/P/pa.md#path-to-exile) (2), [Beast Within](../cards/B/be.md#beast-within) (1), [Chaos Warp](../cards/C/cha.md#chaos-warp) (5), [Generous Gift](../cards/G/ge.md#generous-gift) (1), [An Offer You Can't Refuse](../cards/A/an.md#an-offer-you-cant-refuse) (2), [Dawn's Truce](../cards/D/da.md#dawns-truce) (8), [Everybody Lives!](../cards/E/ev.md#everybody-lives) (1), [Tempt with Discovery](../cards/T/te.md#tempt-with-discovery) (2), [Farseek](../cards/F/fa.md#farseek) (1), [Minds Aglow](../cards/M/min.md#minds-aglow) (1), [Cultivate](../cards/C/cu.md#cultivate) (1), [Collective Voyage](../cards/C/col.md#collective-voyage) (1), [Approach of the Second Sun](../cards/A/ap.md#approach-of-the-second-sun) (6), [Nature's Lore](../cards/N/na.md#natures-lore) (1), [Kodama's Reach](../cards/K/ko.md#kodamas-reach) (1), [Insurrection](../cards/I/ins.md#insurrection) (1), [Three Visits](../cards/T/thr.md#three-visits) (2), [Selvala, Explorer Returned](../cards/S/sel.md#selvala-explorer-returned) (2), [Gluntch, the Bestower](../cards/G/gl.md#gluntch-the-bestower) (3), [Xyris, the Writhing Storm](../cards/X/xy.md#xyris-the-writhing-storm) (3), [Kami of the Crescent Moon](../cards/K/ka.md#kami-of-the-crescent-moon) (1), [The Second Doctor](../cards/T/thes.md#the-second-doctor) (3), [Heartwood Storyteller](../cards/H/he.md#heartwood-storyteller) (2), [Edric, Spymaster of Trest](../cards/E/ed.md#edric-spymaster-of-trest) (3), [Veteran Explorer](../cards/V/ve.md#veteran-explorer) (1), [Laboratory Maniac](../cards/L/la.md#laboratory-maniac) (2), [Ms. Bumbleflower](../cards/M/ms.md#ms-bumbleflower) (1), [Humble Defector](../cards/H/hu.md#humble-defector) (4), [Tatyova, Benthic Druid](../cards/T/ta.md#tatyova-benthic-druid) (3), [Windborn Muse](../cards/W/wi.md#windborn-muse) (1), [Dryad of the Ilysian Grove](../cards/D/dry.md#dryad-of-the-ilysian-grove) (3), [Psychosis Crawler](../cards/P/ps.md#psychosis-crawler) (1), [Braids, Conjurer Adept](../cards/B/br.md#braids-conjurer-adept) (2), [Tidal Barracuda](../cards/T/ti.md#tidal-barracuda) (5), [Triskaidekaphile](../cards/T/tri.md#triskaidekaphile) (1), [Command Tower](../cards/C/com.md#command-tower) (3), [Exotic Orchard](../cards/E/ex.md#exotic-orchard) (5), [Reliquary Tower](../cards/R/rel.md#reliquary-tower) (1), [Temple Garden](../cards/T/te.md#temple-garden) (3), [Breeding Pool](../cards/B/br.md#breeding-pool) (2), [Hallowed Fountain](../cards/H/ha.md#hallowed-fountain) (3), [Stomping Ground](../cards/S/sto.md#stomping-ground) (2), [Steam Vents](../cards/S/ste.md#steam-vents) (3), [Sacred Foundry](../cards/S/sac.md#sacred-foundry) (2).
+<!-- RULES-NOTES:END -->

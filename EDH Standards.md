@@ -19,6 +19,8 @@
 - [Open questions](#open-questions)
 
 ## Core rules (verified)
+
+> Deeper rules topics (layers, replacement vs. triggers, SBAs, copy effects, color identity, command-zone returns) with verbatim CR 2026-09-25 text: [Rules Interactions](Rules%20Interactions.md).
 | Rule | Source |
 |---|---|
 | Exactly **100 cards** including the commander. | CR 903.5a |
@@ -91,7 +93,7 @@ Definition (official): cards that "can dramatically warp Commander games… run 
 <!-- GAME-CHANGERS:END -->
 
 ## Deck skeletons
-Built by [`scripts/build_deck_skeleton.py`](scripts/build_deck_skeleton.py): highest-inclusion cards for the commander from EDHREC (community data, fetched 2026-10-15), then **validated** (100 cards, singleton, strict identity, Commander-legal, commander eligibility) and bracket-floored. They are *starting points*, not tuned lists. Each skeleton ends with an auto-generated **Commander rules & rulings** block (`scripts/deck_rules_notes.py`): commander Oracle text, every official ruling, creature-type overlap, and which deck cards carry rulings. **Coverage: 28 skeletons across 28 color identities** — all 5 mono-colors + colorless, all 10 two-color pairs, all 10 three-color combinations, 1 of 5 four-color (WUBG — Atraxa) and five-color (The Ur-Dragon); still missing: the other 4 four-color identities (WUBR, UBRG, BRGW, RGWU).
+Built by [`scripts/build_deck_skeleton.py`](scripts/build_deck_skeleton.py): highest-inclusion cards for the commander from EDHREC (community data, fetched 2026-10-15), then **validated** (100 cards, singleton, strict identity, Commander-legal, commander eligibility) and bracket-floored. They are *starting points*, not tuned lists. Each skeleton ends with an auto-generated **Commander rules & rulings** block (`scripts/deck_rules_notes.py`): commander Oracle text, every official ruling, creature-type overlap, and which deck cards carry rulings. **Coverage: 32 skeletons — all 32 color identities** (5 mono-colors + colorless, 10 two-color pairs, 10 three-color combinations, all 5 four-color identities, and five-color). Bot cycle 3 added the last four: WUBR (Breya), UBRG (Yidris), BRGW (Saskia), RGWU (Kynaios and Tiro).
 
 | Deck | Identity | Game Changers | Bracket floor |
 |---|---|---|---|
@@ -121,6 +123,10 @@ Built by [`scripts/build_deck_skeleton.py`](scripts/build_deck_skeleton.py): hig
 | [Gishath, Sun's Avatar](decks/gishath-suns-avatar.md) | GRW | 0 | 2 (or 1) |
 | [Chulane, Teller of Tales](decks/chulane-teller-of-tales.md) | GUW | 6 | 4 |
 | [Kykar, Wind's Fury](decks/kykar-winds-fury.md) | RUW | 6 | 4 |
+| [Breya, Etherium Shaper](decks/breya-etherium-shaper.md) | BRUW | 3 | 3 |
+| [Yidris, Maelstrom Wielder](decks/yidris-maelstrom-wielder.md) | BGRU | 0 | 2 (or 1) |
+| [Saskia the Unyielding](decks/saskia-the-unyielding.md) | BGRW | 1 | 3 |
+| [Kynaios and Tiro of Meletis](decks/kynaios-and-tiro-of-meletis.md) | GRUW | 1 | 3 |
 | [Atraxa, Praetors' Voice](decks/atraxa-praetors-voice.md) | BGUW | 5 | 4 |
 | [The Ur-Dragon](decks/the-ur-dragon.md) | BGRUW | 3 | 3 |
 
@@ -184,6 +190,32 @@ Built by [`scripts/build_deck_skeleton.py`](scripts/build_deck_skeleton.py): hig
 - **Rules fact:** [Niv-Mizzet, Parun](cards/N/ni.md#niv-mizzet-parun) — "Whenever you draw a card, Niv-Mizzet deals 1 damage to any target." Rulings (2018-10-05): drawing multiple cards triggers it that many times; putting cards into hand without the word "draw" doesn't.
 - **Combo (rules fact from Oracle text):** with [Curiosity](cards/C/cu.md#curiosity) or [Ophidian Eye](cards/O/op.md#ophidian-eye) on Niv-Mizzet ("Whenever enchanted creature deals damage to an opponent, you may draw a card"), each ping at an opponent draws a card, which pings again — a loop that only stops when you decline the optional draw or run out of library/opponents. [Tandem Lookout](cards/T/ta.md#tandem-lookout) paired with Niv-Mizzet does the same (mandatory draw). [Psychosis Crawler](cards/P/ps.md#psychosis-crawler) adds 1 life loss per draw.
 - **Bracket note:** the [Commander Brackets](#power-bracket-assessment) restrict two-card infinite combos in the lower brackets; this skeleton already floors at 4 (4 GC). Flagged because `build_deck_skeleton.py` does not detect combos (#15).
+
+### Artifacts as ammunition — Breya, Etherium Shaper (WUBR, artifacts)
+- **Rules fact:** [Breya, Etherium Shaper](cards/B/br.md#breya-etherium-shaper) — "When Breya enters, create two 1/1 blue Thopter artifact creature tokens with flying. / {2}, Sacrifice two artifacts: Choose one — … Breya deals 3 damage to target player or planeswalker … Target creature gets -4/-4 … You gain 5 life."
+- **Ruling (2020-08-07, WotC):** "Breya can be one of the two artifacts sacrificed to pay the cost of its last ability."
+- **Artifact token makers in the skeleton (fuel the sacrifice cost):** [Sai, Master Thopterist](cards/S/sai.md#sai-master-thopterist), [Efficient Construction](cards/E/ef.md#efficient-construction), [Pinnacle Emissary](cards/P/pi.md#pinnacle-emissary), [Thopter Spy Network](cards/T/tho.md#thopter-spy-network), [Marionette Master](cards/M/mar.md#marionette-master), [Myr Battlesphere](cards/M/my.md#myr-battlesphere); [Stridehangar Automaton](cards/S/str.md#stridehangar-automaton) adds one more artifact token whenever artifact tokens would be created (Oracle).
+- **Other sacrifice outlets / payoffs:** [Krark-Clan Ironworks](cards/K/kr.md#krark-clan-ironworks), [Thopter Foundry](cards/T/tho.md#thopter-foundry), [Jan Jansen, Chaos Crafter](cards/J/ja.md#jan-jansen-chaos-crafter); [Reckless Fireweaver](cards/R/rec.md#reckless-fireweaver) pings each opponent whenever an artifact enters.
+- **Opinion:** the deck is a value/aristocrats engine; check [#15](https://github.com/corymstover/GrokBotMTGCompanion/issues/15) combo notes before calling it Bracket 3.
+
+### Cascade on combat damage — Yidris, Maelstrom Wielder (UBRG, cascade)
+- **Rules fact:** [Yidris, Maelstrom Wielder](cards/Y/yi.md#yidris-maelstrom-wielder) — "Whenever Yidris deals combat damage to a player, as you cast spells from your hand this turn, they gain cascade."
+- **Rulings (2016-11-08, WotC):** "If Yidris's triggered ability resolves more than once in one turn, spells you cast from your hand will gain cascade that many times." · "Spells you cast from your hand this turn will gain cascade even if Yidris leaves the battlefield."
+- **Getting the trigger (evasion in the skeleton):** [Whispersilk Cloak](cards/W/wh.md#whispersilk-cloak), [Brotherhood Regalia](cards/B/br.md#brotherhood-regalia) ("can't be blocked").
+- **Native cascade (works without Yidris):** [Maelstrom Wanderer](cards/M/mae.md#maelstrom-wanderer), [Apex Devastator](cards/A/ap.md#apex-devastator), [Bloodbraid Elf](cards/B/blo.md#bloodbraid-elf), [Shardless Agent](cards/S/sha.md#shardless-agent), [Imoti, Celebrant of Bounty](cards/I/im.md#imoti-celebrant-of-bounty), [Aurora Phoenix](cards/A/au.md#aurora-phoenix); [Averna, the Chaos Bloom](cards/A/av.md#averna-the-chaos-bloom) lets you put a land from the exiled cards onto the battlefield as you cascade.
+- **Opinion:** cast the spells *after* combat (second main phase) so the trigger has already resolved.
+
+### Combat damage, redirected — Saskia the Unyielding (BRGW, aggro)
+- **Rules fact:** [Saskia the Unyielding](cards/S/sas.md#saskia-the-unyielding) — "As Saskia enters, choose a player. / Whenever a creature you control deals combat damage to a player, it deals that much damage to the chosen player."
+- **Rulings (2016-11-08, WotC):** "The damage that Saskia's ability causes a creature to deal isn't combat damage." · "If a creature you control deals combat damage to the chosen player, it deals that much damage to that player again." · "If Saskia leaves the battlefield and returns, you choose a player again."
+- **Consequence:** the redirected damage does **not** trigger "deals combat damage to a player" abilities such as [Ohran Frostfang](cards/O/oh.md#ohran-frostfang), [Toski, Bearer of Secrets](cards/T/to.md#toski-bearer-of-secrets), [Marisi, Breaker of the Coil](cards/M/mar.md#marisi-breaker-of-the-coil) a second time — only the original combat damage does (follows from the first ruling; CR 120.2a combat damage).
+- **More combat damage events:** double strike from [Samut, Voice of Dissent](cards/S/sam.md#samut-voice-of-dissent) (two combat damage steps ⇒ two triggers, CR 702.4b, 510.4), extra combats from [Aurelia, the Warleader](cards/A/au.md#aurelia-the-warleader), [Karlach, Fury of Avernus](cards/K/ka.md#karlach-fury-of-avernus).
+
+### Group hug lands & cards — Kynaios and Tiro of Meletis (RGWU, group hug)
+- **Rules fact:** [Kynaios and Tiro of Meletis](cards/K/ky.md#kynaios-and-tiro-of-meletis) — "At the beginning of your end step, draw a card. Each player may put a land card from their hand onto the battlefield, then each opponent who didn't draws a card."
+- **Ruling (2016-11-08, WotC):** "Starting with you and proceeding in turn order, each player chooses a land card from their hand or chooses not to choose one, but doesn't reveal any chosen lands yet. Once all players have made this choice, all chosen lands are revealed and enter the battlefield simultaneously." · "If the card you draw is a land card, you may choose it to put onto the battlefield."
+- **Symmetric effects in the skeleton:** [Temple Bell](cards/T/te.md#temple-bell), [Folio of Fancies](cards/F/fo.md#folio-of-fancies), [Minds Aglow](cards/M/min.md#minds-aglow), [Collective Voyage](cards/C/col.md#collective-voyage), [Tempt with Discovery](cards/T/te.md#tempt-with-discovery), [Veteran Explorer](cards/V/ve.md#veteran-explorer), [The Second Doctor](cards/T/thes.md#the-second-doctor); punishers that turn opponents' draws into value: [Scrawling Crawler](cards/S/sc.md#scrawling-crawler), [Psychosis Crawler](cards/P/ps.md#psychosis-crawler).
+- **Opinion:** group hug relies on table politics; disclose this in Rule 0 (see [Bracket assessment](#power-bracket-assessment)).
 
 ## Deck-building checklist
 1. Commander block first (eligibility per CR 903.3; pairing mechanics).
