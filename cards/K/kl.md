@@ -56,6 +56,7 @@
   > Whenever Klaw deals combat damage to a player, look at the top card of that player's library, then exile it face down. You may play it for as long as it remains exiled. Mana of any type can be spent to cast a spell this way.
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16612 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/46/klaw-master-of-sound) · oracle_id `8eaa8833-ab9e-4bd8-92de-63e195b8d912` · printing: MSC #46 (2026-06-26) · [rulings](https://api.scryfall.com/cards/5c589d94-7cea-4d4c-91a8-4d939634a5e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Klaw, Sonic Subjugator
@@ -69,6 +70,7 @@
   > *"Listen to the sound of death. Hear the sound of your own cells exploding."*
 - **Keywords:** Sonic Attack
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24532 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/103/klaw-sonic-subjugator) · oracle_id `1c233e08-d5a3-48d7-9074-20393896a480` · printing: MSH #103 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c79a86f8-24e9-49a2-8b1c-72a72fed1985/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Klingon Strike Force
@@ -82,6 +84,7 @@
   > When this creature dies, it deals 2 damage to each opponent.
 - **Keywords:** Haste, Trample
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32316 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/199/klingon-strike-force) · oracle_id `847efb61-5933-43c1-93ff-e8375f9469a9` · printing: TRC #199 (2026-11-13) · [rulings](https://api.scryfall.com/cards/bc121e37-b01c-4cf3-bd41-19a1cb21caa5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Klothys, God of Destiny
@@ -125,4 +128,12 @@
 - **Flavor text** (THB printing):
   > *The god of destiny grants her followers vision deeper than sight.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18464 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/176/klothyss-design) · oracle_id `85c20c39-7b9c-4661-9372-e659b321773f` · printing: THB #176 (2020-01-24) · [rulings](https://api.scryfall.com/cards/b1b6b7a7-0ac8-470a-949b-4779ded95359/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2020-01-24* — Colorless and generic mana symbols ({C}, {0}, {1}, {2}, {X}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color.
+  - *2020-01-24* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2020-01-24* — If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time.
+  - *2020-01-24* — If you put an Aura on an opponent’s permanent, you still control the Aura, and mana symbols in its mana cost count towards your devotion.
+  - *2020-01-24* — Klothys’s Design affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won’t get +X/+X.
+  - *2020-01-24* — Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color.
+  - *2020-01-24* — The value of X is determined only as Klothys’s Design resolves. Once that happens, the value of X won’t change later in the turn even if your devotion to green changes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/176/klothyss-design) · oracle_id `85c20c39-7b9c-4661-9372-e659b321773f` · printing: THB #176 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

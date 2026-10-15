@@ -21,4 +21,5 @@
   > *No mortal could atone for Ihsan's betrayal. Redemption required him to become something else.*
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25828 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/94/ihsans-shade) · oracle_id `5eb29367-4ec3-4bd2-887e-13eeeecae8fa` · printing: A25 #94 (2018-03-16) · [rulings](https://api.scryfall.com/cards/ff128110-b87e-451c-a51d-9f116892e482/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

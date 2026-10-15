@@ -62,7 +62,10 @@
 - **Flavor text** (PCA printing):
   > *Ancient lore locked in a mind driven mad is just as safe as when it was locked deep underground.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13625 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pca/25/see-beyond) · oracle_id `4f9942ee-d3fd-4c01-93eb-870d642ebd83` · printing: PCA #25 (2016-11-25) · [rulings](https://api.scryfall.com/cards/6f3b8171-8bf0-40eb-8ea1-9519b9d9425d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2010-06-15* — The card you shuffle into your library may be any card from your hand. It doesn’t have to be one of the cards you drew with the spell.
+  - *2010-06-15* — You have to shuffle a card from your hand into your library even if you don’t draw any cards (due to replacement effects or Maralen of the Mornsong’s ability, for example). If your hand is empty, you don’t shuffle your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pca/25/see-beyond) · oracle_id `4f9942ee-d3fd-4c01-93eb-870d642ebd83` · printing: PCA #25 (2016-11-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seedborn Muse
 
@@ -90,6 +93,7 @@
 - **Flavor text** (SHM printing):
   > *She whispered a prayer for strength, and her wishes wafted away like seeds on the wind.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15410 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/241/seedcradle-witch) · oracle_id `278ea996-3094-4a76-b6e1-db1d002e5502` · printing: SHM #241 (2008-05-02) · [rulings](https://api.scryfall.com/cards/a0ae8525-ce10-40bd-8980-a05fb81a0fac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seedglaive Mentor
@@ -104,7 +108,11 @@
   > *"Your riposte is good, yes. But how's your footwork?"*
 - **Keywords:** Vigilance, Valiant, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11685 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/231/seedglaive-mentor) · oracle_id `f50bbe5e-a839-40e1-ba79-1e96f91bd218` · printing: BLB #231 (2024-08-02) · [rulings](https://api.scryfall.com/cards/d21c3e41-0636-49a3-8c9c-384c5e5c9c3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-07-26* — If a spell or ability you control has one or more of its targets changed to a creature you control with a valiant ability, that ability will trigger if that creature hasn't yet been the target of a spell or ability you control this turn.
+  - *2024-07-26* — If you create a copy of a spell on the stack and target a creature you control with a valiant ability, that ability will trigger as long as the creature hasn't yet been the target of a spell or ability you control this turn.
+  - *2024-07-26* — Valiant abilities will resolve before the spell or ability that caused them to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/231/seedglaive-mentor) · oracle_id `f50bbe5e-a839-40e1-ba79-1e96f91bd218` · printing: BLB #231 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seed Guardian
 
@@ -118,7 +126,10 @@
   > *It is a reminder that spring will always follow winter.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24800 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/143/seed-guardian) · oracle_id `728045bf-0959-44ff-8de9-16ec35fd248f` · printing: OGW #143 (2016-01-22) · [rulings](https://api.scryfall.com/cards/ba4736b3-d6ce-4a16-bcb7-67780caeb78c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-01-22* — Once the Elemental is created, the number of creature cards in your graveyard changing won’t cause the Elemental’s power or toughness to change.
+  - *2016-01-22* — Use the number of creature cards in your graveyard as the ability resolves to determine the value of X. Seed Guardian will count toward this number as long as it’s still in your graveyard at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/143/seed-guardian) · oracle_id `728045bf-0959-44ff-8de9-16ec35fd248f` · printing: OGW #143 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seedguide Ash
 
@@ -144,6 +155,7 @@
   > • Target creature gains trample until end of turn.
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20094 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/240/seedling-charm) · oracle_id `b8d66cd6-15db-41ff-bae3-60f1aad3ea23` · printing: MIR #240 (1996-10-08) · [rulings](https://api.scryfall.com/cards/e42746e1-f422-4453-a860-3993d5796479/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seed of Hope
@@ -156,6 +168,7 @@
   > *Wrenn had given everything and asked for nothing. She deserved a monument, but rest in a quiet meadow is all she would've wanted.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16768 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/204/seed-of-hope) · oracle_id `863d6607-912b-4186-9874-87d5473ec481` · printing: MOM #204 (2023-04-21) · [rulings](https://api.scryfall.com/cards/084a8b94-0c5d-41e0-88e4-fe91ab92c09d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### See Double
@@ -198,6 +211,7 @@
   > *His body clicked and hummed—a lullaby meant only for machines.*
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20965 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/325/seedpod-caretaker) · oracle_id `257fbe05-b2cb-493c-a116-49f9000b2384` · printing: MOM #325 (2023-04-21) · [rulings](https://api.scryfall.com/cards/0861bda4-d014-4908-aed5-3f3bf78704cf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seedpod Squire
@@ -213,6 +227,7 @@
   > *—Clement, pessimistic adventurer*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21158 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/232/seedpod-squire) · oracle_id `e2f57e48-ff5b-4a42-9b7c-1bd23b0d78ed` · printing: BLB #232 (2024-08-02) · [rulings](https://api.scryfall.com/cards/f3684577-51ce-490e-9b59-b19c733be466/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seedship Agrarian
@@ -227,6 +242,7 @@
   > *Knowledge isn't found, but grown.*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10728 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/204/seedship-agrarian) · oracle_id `003d9c17-5d5c-469f-ad87-d78faf55e025` · printing: EOE #204 (2025-08-01) · [rulings](https://api.scryfall.com/cards/2fc7946d-37b0-4dc8-9daa-8d2204d8e4d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seedship Broodtender
@@ -267,6 +283,7 @@
   > *"I have hidden from the machinations of Zhalfir for centuries. Why should I join \*your\* campaign?"*
   > *—Jolrael*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19654 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/241/seeds-of-innocence) · oracle_id `f5ebad5c-9675-4a37-b76c-760416083939` · printing: MIR #241 (1996-10-08) · [rulings](https://api.scryfall.com/cards/f9c868f5-0f90-4f7e-bafb-c45d2372fe06/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seeds of Renewal
@@ -278,7 +295,12 @@
   > Return up to two target cards from your graveyard to your hand. Exile Seeds of Renewal.
 - **Keywords:** Undaunted
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15443 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c16/24/seeds-of-renewal) · oracle_id `48d63b86-8ddd-4306-960f-98490d1d80b9` · printing: C16 #24 (2016-11-11) · [rulings](https://api.scryfall.com/cards/ba13b3ba-c36e-4c79-aaa6-2c2619a2d999/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-11-08* — Causing an opponent to lose the game after you've announced that you're casting a spell with undaunted and determined its total cost won't cause you to have to pay more mana.
+  - *2016-11-08* — Effects that reduce what you pay to cast a spell don't affect its mana value.
+  - *2016-11-08* — If each target is illegal as Seeds of Renewal resolves, Seeds of Renewal doesn't resolve and is put into its owner's graveyard. It's not exiled.
+  - *2016-11-08* — If one target becomes illegal before Seeds of Renewal resolves, you'll still return the legal target from your graveyard to your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c16/24/seeds-of-renewal) · oracle_id `48d63b86-8ddd-4306-960f-98490d1d80b9` · printing: C16 #24 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seeds of Strength
 
@@ -291,7 +313,9 @@
 - **Flavor text** (RAV printing):
   > *Beneath the beauty of light and seed is the might of Vitu-Ghazi.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26708 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rav/227/seeds-of-strength) · oracle_id `dd3d4d96-1e88-49e1-8276-7f62c22ad91a` · printing: RAV #227 (2005-10-07) · [rulings](https://api.scryfall.com/cards/bfa1ac13-adbd-439a-90b2-9c506aec0836/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2005-10-01* — You may choose the same creature as a target multiple times since the card says “target creature” multiple times. You may give three different creatures +1/+1 each, one creature +2/+2 and another creature +1/+1, or a single creature +3/+3.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rav/227/seeds-of-strength) · oracle_id `dd3d4d96-1e88-49e1-8276-7f62c22ad91a` · printing: RAV #227 (2005-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seed Spark
 
@@ -303,6 +327,7 @@
   > *"If you ask me, those root-lovers value mindless dogma over progress."*
   > *—Trivaz, Izzet mage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22665 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/30/seed-spark) · oracle_id `fc2e441c-bc0b-439f-af71-daba3b033381` · printing: RAV #30 (2005-10-07) · [rulings](https://api.scryfall.com/cards/33af31cf-d730-4f54-a0be-3229cdccf60c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seed the Land
@@ -314,6 +339,7 @@
 - **Flavor text** (SOK printing):
   > *With a sadness and a sense of hope, Senka left the colony of her birth and, with her attendants, set out to serve as broodmistress, founder of a new colony.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16739 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/146/seed-the-land) · oracle_id `75b39a67-6720-482f-935a-c142ca0f7891` · printing: SOK #146 (2005-06-03) · [rulings](https://api.scryfall.com/cards/ec1b0a4e-e52e-4d4e-9b12-24676d8571b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seedtime
@@ -327,7 +353,9 @@
   > *The hippo grows wings to fight the condor.*
   > *—Nantuko teaching*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10236 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jud/130/seedtime) · oracle_id `3ba50802-57d0-450e-9e2f-a46a09d2f6bb` · printing: JUD #130 (2002-05-27) · [rulings](https://api.scryfall.com/cards/4ffd5c52-f260-400c-b088-8792282509a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You only get an extra turn if an opponent cast a blue spell this turn prior to this spell resolving. Note that "casting" a spell only requires it to be announced, so an unresolved spell still counts as having been cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jud/130/seedtime) · oracle_id `3ba50802-57d0-450e-9e2f-a46a09d2f6bb` · printing: JUD #130 (2002-05-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seek Bolas's Counsel
 
@@ -342,7 +370,21 @@
   > • Destroy all creatures and non-Bolas planeswalkers.
   > • You get an emblem with "You can cast nonland cards from your sideboard."
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/98/seek-bolass-counsel) · oracle_id `022667d0-60f2-4e37-bc50-53198fc933ab` · printing: CMB2 #98 (2021-08-20) · [rulings](https://api.scryfall.com/cards/edf62ee7-1800-4748-87a8-0432635b4f60/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2019-11-12* — Each player controls the current plane card during their turn.
+  - *2019-11-12* — If Bolas has you choose the fourth mode, you can’t play land cards exiled this way.
+  - *2019-11-12* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2019-11-12* — If you cast a card “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Tormenting Voice, you must pay those to cast the card.
+  - *2019-11-12* — In a Limited event, each card a player opened (in a Sealed Deck event) or drafted (in a Booster Draft event) is their sideboard.
+  - *2019-11-12* — One a spell or ability has had a random mode chosen, a player can’t choose to not finish casting or activating that spell or ability unless there’s no way for the player to complete the process. For example, the player can’t choose to not activate mana abilities to pay for the spell.
+  - *2019-11-12* — One card (Fractured Powerstone) allows you to roll the planar die even if you’re not playing a Planechase game as long as you’ve already planeswalked to a plane card. If you roll the Planeswalker symbol outside of a Planechase game, you’ll planeswalk away from Pools of Becoming, but you won’t planeswalk to a new plane. You’re totally lost, which tends to work out well.
+  - *2019-11-12* — Pools of Becoming is a plane card that reads “At the beginning of your end step, put the cards in your hand on the bottom of your library in any order, then draw that many cards” and “Whenever you roll CHAOS, reveal the top three cards of your planar deck. Each of the revealed cards' CHAOS abilities triggers. Then put the revealed cards on the bottom of your planar deck in any order.” The second ability can’t trigger unless you roll a planar die.
+  - *2019-11-12* — The last mode’s emblem doesn’t change when you can cast cards from your sideboard.
+  - *2019-11-12* — There’s no way to leave Pools of Becoming other than by rolling a planar die or finding an effect that instructs you to planeswalk.
+  - *2019-11-12* — You can’t choose to roll a planar die (which would allow you to leave the Pools of Becoming or trigger its last ability) unless you’re playing a Planechase game.
+  - *2019-11-12* — You must cast any of the exiled cards you wish to cast while Seek Bolas’s Counsel is resolving. You can’t cast them later in the turn.
+  - *2019-11-12* — You planeswalk to Pools of Becoming even if you’re not playing a Planechase game. This planeswalk isn’t represented by a plane card. If you are playing a Planechase game, you planeswalk away from the current plane but you don’t reveal the top card of any planar deck.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/98/seek-bolass-counsel) · oracle_id `022667d0-60f2-4e37-bc50-53198fc933ab` · printing: CMB2 #98 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seeker
 
@@ -353,6 +395,7 @@
   > Enchanted creature can't be blocked except by artifact creatures and/or white creatures.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27764 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/4ed/49/seeker) · oracle_id `ca00eb17-e5c3-42c8-a665-431f5f95b67f` · printing: 4ED #49 (1995-04-01) · [rulings](https://api.scryfall.com/cards/7052825f-d9fc-4820-b8c4-dbc204730b7c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seeker of Insight
@@ -365,7 +408,9 @@
 - **Flavor text** (AKH printing):
   > *The Trial of Knowledge challenges and broadens the minds of initiates.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27451 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/69/seeker-of-insight) · oracle_id `a0b2d446-fe90-40f8-8674-7421c425b489` · printing: AKH #69 (2017-04-28) · [rulings](https://api.scryfall.com/cards/7f0b7bfc-f126-4885-a663-6f8dcc52e663/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-04-18* — It doesn’t matter whether the noncreature spell has resolved or was countered, as long as it was cast. That spell may even still be on the stack when you activate Seeker of Insight’s ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/69/seeker-of-insight) · oracle_id `a0b2d446-fe90-40f8-8674-7421c425b489` · printing: AKH #69 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seeker of Skybreak
 
@@ -393,7 +438,9 @@
   > *War is a dance. And they're looking for partners.*
 - **Keywords:** Haste, Allure of Slaanesh
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14644 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/85/seeker-of-slaanesh) · oracle_id `47af21d3-b43f-4101-81cf-ca44db1a2706` · printing: 40K #85 (2022-10-07) · [rulings](https://api.scryfall.com/cards/9f07e21c-a775-43bb-90a2-545a5e1b909b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-07* — If a creature isn't able to attack for any reason (such as being tapped as its controller's declare attackers step begins or being affected by "summoning sickness"), that creature doesn't have to attack. If no creatures a player controls are able to attack, Seeker of Slaanesh's requirement has no effect during that combat. If there's a cost associated with having a creature attack, its controller isn't forced to pay that cost, so it doesn't have to attack in that case either.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/85/seeker-of-slaanesh) · oracle_id `47af21d3-b43f-4101-81cf-ca44db1a2706` · printing: 40K #85 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seeker of Sunlight
 
@@ -406,7 +453,14 @@
   > *"We weren't fleeing a broken world. We were running toward paradise!"*
 - **Keywords:** Explore
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16855 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/210/seeker-of-sunlight) · oracle_id `cba9d6a2-1772-42dc-9bfb-c933a092be19` · printing: LCI #210 (2023-11-17) · [rulings](https://api.scryfall.com/cards/ffcdb10f-4bad-4f89-8e7c-daa5c0c69230/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-11-10* — If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature explores" trigger as appropriate.
+  - *2023-11-10* — If an ability instructs a creature to explore, its controller reveals the top card of their library. If it's a land card, they'll put it into their hand. Otherwise, they'll put a +1/+1 counter on that creature, then choose to either leave that card on top of their library or put it into their graveyard.
+  - *2023-11-10* — If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+  - *2023-11-10* — In some unusual cases, noncreature permanents may explore. For example, if the creature card returned by Defossilize is somehow not a creature once it's on the battlefield, it can still explore. You'll take all the same actions, and you may end up putting a +1/+1 counter on the permanent. (Note that some effects target a creature, and those effects would still require a legal target to have it explore.)
+  - *2023-11-10* — Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+  - *2023-11-10* — Some spells or abilities might cause a creature to explore multiple times in a row. If you reveal a nonland card when a creature explores and leave it on top of your library, then the creature explores again immediately afterwards, you'll reveal the same card again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/210/seeker-of-sunlight) · oracle_id `cba9d6a2-1772-42dc-9bfb-c933a092be19` · printing: LCI #210 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seeker of the Way
 
@@ -420,7 +474,12 @@
   > *"I don't know where my destiny lies, but I know it isn't here."*
 - **Keywords:** Prowess
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19979 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/28/seeker-of-the-way) · oracle_id `e206842f-139b-490d-bc10-d365705ac720` · printing: 2X2 #28 (2022-07-08) · [rulings](https://api.scryfall.com/cards/e9e3cb28-d318-4d5d-b5bf-1ea7c6249a89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-09-20* — Any spell you cast that doesn't have the type creature will cause prowess to trigger. If a spell has multiple types, and one of those types is creature (such as an artifact creature), casting it won't cause prowess to trigger. Playing a land also won't cause prowess to trigger.
+  - *2014-09-20* — Once it triggers, prowess isn't connected to the spell that caused it to trigger. If that spell is countered, prowess will still resolve.
+  - *2014-09-20* — Prowess goes on the stack on top of the spell that caused it to trigger. It will resolve before that spell.
+  - *2017-11-17* — Multiple instances of lifelink on the same creature are redundant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/28/seeker-of-the-way) · oracle_id `e206842f-139b-490d-bc10-d365705ac720` · printing: 2X2 #28 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seeker's Folly
 
@@ -433,6 +492,7 @@
 - **Flavor text** (FDN printing):
   > *While searching the foreboding woods for his favorite helmet, Syr Verlor lost his second-favorite helmet.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14348 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/69/seekers-folly) · oracle_id `223794f2-67a3-4ab5-81c5-046c63307c6c` · printing: FDN #69 (2024-11-15) · [rulings](https://api.scryfall.com/cards/bc359da6-8b7f-45ec-b530-ce159fc35953/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seekers' Squire
@@ -446,7 +506,15 @@
   > *Dusk follows the light.*
 - **Keywords:** Explore
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25218 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/87/seekers-squire) · oracle_id `a494cbe7-a4a5-4657-9f68-3811fe56a17e` · printing: 2X2 #87 (2022-07-08) · [rulings](https://api.scryfall.com/cards/30573211-ba4d-41c7-a3cd-283aaf04dffb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2018-01-19* — If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature explores" trigger as appropriate.
+  - *2018-01-19* — If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.
+  - *2018-01-19* — If an ability instructs a creature to explore, its controller reveals the top card of their library. If it's a land card, they'll put it into their hand. Otherwise, they'll put a +1/+1 counter on that creature, then choose to either leave that card on top of their library or put it into their graveyard.
+  - *2018-01-19* — If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+  - *2018-01-19* — In some unusual cases, noncreature permanents may explore. For example, if the creature card returned by Defossilize is somehow not a creature once it's on the battlefield, it can still explore. You'll take all the same actions, and you may end up putting a +1/+1 counter on the permanent. (Note that some effects target a creature, and those effects would still require a legal target to have it explore.)
+  - *2018-01-19* — Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+  - *2018-01-19* — Some spells or abilities might cause a creature to explore multiple times in a row. If you reveal a nonland card when a creature explores and leave it on top of your library, then the creature explores again immediately afterwards, you'll reveal the same card again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/87/seekers-squire) · oracle_id `a494cbe7-a4a5-4657-9f68-3811fe56a17e` · printing: 2X2 #87 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seek the Horizon
 
@@ -458,6 +526,7 @@
   > *"The horizon is the perpetual ideal, the constant promise of hope."*
   > *—Nissa Revane*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11373 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddr/20/seek-the-horizon) · oracle_id `7537b482-7626-4b65-8b67-53b99baf1872` · printing: DDR #20 (2016-09-02) · [rulings](https://api.scryfall.com/cards/6244cbd8-8cc4-44a7-b11d-2ab159e92c02/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seek the Wilds
@@ -469,6 +538,7 @@
 - **Flavor text** (GNT printing):
   > *"In my downtime I used to paint the vistas. Now the vistas disappear faster than my downtime."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18471 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gnt/49/seek-the-wilds) · oracle_id `3865d219-44b7-49ce-ab26-b833acb39765` · printing: GNT #49 (2018-11-16) · [rulings](https://api.scryfall.com/cards/4ac58ffa-a9ea-4bc3-bd43-76b0764742bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### See Red
@@ -481,7 +551,9 @@
   > At the beginning of your end step, if you didn't attack with a creature this turn, sacrifice this Aura.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27087 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/112/see-red) · oracle_id `dd33af3e-ab8c-486c-baae-a37cc857f180` · printing: RIX #112 (2018-01-19) · [rulings](https://api.scryfall.com/cards/4686cbaf-1de8-4f30-8027-c6c8a85dde7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-01-19* — See Red's last ability is satisfied if any creature has attacked, similar to raid abilities. The creature it enchants doesn't have to have attacked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/112/see-red) · oracle_id `dd33af3e-ab8c-486c-baae-a37cc857f180` · printing: RIX #112 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seer of Stolen Sight
 
@@ -493,6 +565,7 @@
   > Whenever one or more artifacts and/or creatures you control are put into a graveyard from the battlefield, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)
 - **Keywords:** Surveil, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20939 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/330/seer-of-stolen-sight) · oracle_id `b2bdccf1-857b-48f8-a9aa-8ef999ef0632` · printing: MOM #330 (2023-04-21) · [rulings](https://api.scryfall.com/cards/9d0b3232-44ee-481d-81d9-46432f853a7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seer of the Bright Side
@@ -505,6 +578,7 @@
   > This creature can't attack or block as long as it has a cage counter on it.
   > At the beginning of your upkeep, remove a cage counter from this creature. When the last cage counter is removed this way, destroy target creature an opponent controls.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB02/seer-of-the-bright-side) · oracle_id `d7bfea15-ced2-415e-b175-4588186536b4` · printing: UNK #RB02 (2024-10-25) · [rulings](https://api.scryfall.com/cards/544949ec-1065-46f9-a10e-3e9976ba75d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seer of the Last Tomorrow
@@ -518,6 +592,7 @@
   > *"The truth? It's been here all along. The Hours as we understood them are lies."*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27829 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/44/seer-of-the-last-tomorrow) · oracle_id `dc5cb189-9eff-4b4e-a46d-7a8e62529c89` · printing: HOU #44 (2017-07-14) · [rulings](https://api.scryfall.com/cards/7e897f14-8775-4bc3-a3b2-b149f79ec702/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seer's Lantern
@@ -531,6 +606,7 @@
   > *A light to bring hope in dark times.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11061 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/338/seers-lantern) · oracle_id `4b3dd7e5-e0b5-4773-bb16-37b757ae74d8` · printing: CMR #338 (2020-11-20) · [rulings](https://api.scryfall.com/cards/09bcfd12-6b50-4fdf-9bda-6d52bba2f897/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seer's Sundial
@@ -558,6 +634,7 @@
   > Your opponents play with their hands revealed.
   > Sacrifice this enchantment: Look at target player's hand and choose a card from it. That player discards that card. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21590 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/270/seers-vision) · oracle_id `f5276e83-ca3f-4755-9239-e44d91a446fd` · printing: INV #270 (2000-10-02) · [rulings](https://api.scryfall.com/cards/0c94618a-808c-4b3c-8f34-45e64d0414d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### See the Truth
@@ -583,7 +660,13 @@
   > Ferocious — If you control a creature with power 4 or greater, you may put two creature cards onto the battlefield instead of one.
 - **Keywords:** Ferocious
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12045 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/149/see-the-unwritten) · oracle_id `b0060b32-b856-4ff7-a113-cec2dc8f8dc6` · printing: KTK #149 (2014-09-26) · [rulings](https://api.scryfall.com/cards/3689a7f1-9713-412e-a030-9cba463c170e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2014-09-20* — Because you’re not casting the creature cards, you can’t pay any additional or alternative costs. You can’t put the cards onto the battlefield face down.
+  - *2014-09-20* — Ferocious abilities of instants and sorceries that don’t use the word “instead” will provide an additional effect if you control a creature with power 4 or greater as they resolve.
+  - *2014-09-20* — If a card you put onto the battlefield this way has {X} in its mana cost, X is considered to be 0.
+  - *2014-09-20* — Some ferocious abilities that appear on instants and sorceries use the word “instead.” These spells have an upgraded effect if you control a creature with power 4 or greater as they resolve. For these, you only get the upgraded effect, not both effects.
+  - *2014-09-20* — You determine whether the ferocious ability applies before any creature cards are put onto the battlefield. If you put two creature cards onto the battlefield this way, those creatures enter the battlefield at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/149/see-the-unwritten) · oracle_id `b0060b32-b856-4ff7-a113-cec2dc8f8dc6` · printing: KTK #149 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seething Anger
 
@@ -594,6 +677,7 @@
   > Target creature gets +3/+0 until end of turn.
 - **Keywords:** Buyback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14165 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/156/seething-anger) · oracle_id `2effcd1c-5833-4e0e-bb67-2d2ffb22a014` · printing: TPR #156 (2015-05-06) · [rulings](https://api.scryfall.com/cards/2294ef08-c27a-4bb4-bd59-434516717961/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seething Landscape
@@ -620,6 +704,7 @@
   > *"Flamekin death rites are elaborate and spectacular affairs. Their greatest fear is death in obscurity."*
   > *—Tollek Worldwatcher, journal*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27841 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mor/101/seething-pathblazer) · oracle_id `574abab1-a722-45f5-a210-c1d4442a278a` · printing: MOR #101 (2008-02-01) · [rulings](https://api.scryfall.com/cards/4971a447-29c8-47b6-863c-f13a69b4148b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seething Song

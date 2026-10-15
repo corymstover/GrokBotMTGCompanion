@@ -68,6 +68,7 @@
   > When this creature enters, clash with an opponent. If you win, put a +1/+1 counter on this creature. (Each clashing player reveals the top card of their library, then puts that card on their choice of the top or bottom. A player wins if their card had a greater mana value.)
 - **Keywords:** Clash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28604 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/33/oaken-brawler) · oracle_id `819351c6-b0d6-42dc-9bd9-d1a3851aad7c` · printing: LRW #33 (2007-10-12) · [rulings](https://api.scryfall.com/cards/e9fdb060-8f4d-453a-9516-92c390fbc85a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oakenform
@@ -82,6 +83,7 @@
   > *—Dionus, elvish archdruid*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20868 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/341/oakenform) · oracle_id `b254fefb-11d2-4369-ae5c-0c3bd48ae580` · printing: M20 #341 (2019-07-12) · [rulings](https://api.scryfall.com/cards/d1ca08a0-c58d-4c13-bf63-0401d89839b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oaken Power Suit
@@ -91,7 +93,20 @@
 - **Oracle text:**
   > Whenever you crank this Contraption, target creature gets +X/+X until end of turn, where X is the greatest power among creatures you control.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/196/oaken-power-suit) · oracle_id `8696b4a0-b8c3-43e5-a2d8-eba69677760d` · printing: UST #196 (2017-12-08) · [rulings](https://api.scryfall.com/cards/488398b3-8b85-4017-87db-f7b683eef3d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2018-01-19* — Any Contraption that's on the battlefield and wasn't assembled immediately heads to the scrapyard. However, if it's a not an actual Contraption card (like Copy Artifact isn't), it goes to your graveyard as normal. Non-Contraption cards can't be in the scrapyard.
+  - *2018-01-19* — At the beginning of your upkeep, if you control any Contraptions, move the CRANK! counter to the next sprocket. You may then crank any number of Contraptions on that sprocket, causing their abilities to trigger. Cranking a Contraption is always optional.
+  - *2018-01-19* — Contraptions are artifacts. Anything that interacts with artifacts will interact with Contraptions.
+  - *2018-01-19* — Contraptions aren't put into your main deck. They go into a separate deck called the Contraption deck.
+  - *2018-01-19* — If a Contraption would leave the battlefield and go to any zone other than exile, it instead goes to the scrapyard, the Contraption deck's version of the graveyard. Things that affect the graveyard do not affect the scrapyard. You can exile Contraptions just fine.
+  - *2018-01-19* — If you crank multiple Contraptions, their abilities can be put onto the stack in any order. The ability put onto the stack will resolve first.
+  - *2018-01-19* — If you or a permanent you control are instructed to assemble a Contraption, reveal the top card of your Contraption deck. Put it onto the battlefield on one of the three sprockets.
+  - *2018-01-19* — If you or a permanent you control assembles a Contraption and your Contraption deck is empty, nothing happens. You don't lose the game.
+  - *2018-01-19* — In Constructed formats, a Contraption deck must have at least fifteen different Contraption cards and no more than one of each.
+  - *2018-01-19* — In Limited formats, a Contraption deck may include any number of Contraption cards in your card pool. You don't have to include every Contraption card you draft or open in sealed deck. In those formats, your Contraption deck may include duplicates.
+  - *2018-01-19* — In silver-bordered games using Contraptions, you have three sprockets, illustrated on the back of Contraption cards. At the start of the game, put a CRANK! counter on sprocket 3.
+  - *2018-01-19* — While Contraptions you control are on the battlefield, the Contraption deck is not, even if you are using it to signify the three sprockets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/196/oaken-power-suit) · oracle_id `8696b4a0-b8c3-43e5-a2d8-eba69677760d` · printing: UST #196 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oaken Siren
 
@@ -105,7 +120,9 @@
   > *The ship's carpenter adorned the figurehead with a small cosmium gem, never expecting the figurehead to take flight.*
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10920 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/66/oaken-siren) · oracle_id `a06a35a9-a23e-4a0a-90bc-84e7a52d2cef` · printing: LCI #66 (2023-11-17) · [rulings](https://api.scryfall.com/cards/d7731ef5-da74-4436-8ee7-01c065cbefae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-11-10* — An "artifact source" is any object with the card type artifact. This means you could spend the mana to activate an ability of an artifact you control or an artifact card in your hand or graveyard, for example.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/66/oaken-siren) · oracle_id `a06a35a9-a23e-4a0a-90bc-84e7a52d2cef` · printing: LCI #66 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oakgnarl Warrior
 
@@ -118,6 +135,7 @@
   > *"Roam as you will, your roots remain in the strong earth of your Rising."*
 - **Keywords:** Vigilance, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24575 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddr/15/oakgnarl-warrior) · oracle_id `5cafdf77-5500-4471-a848-89863eea2a35` · printing: DDR #15 (2016-09-02) · [rulings](https://api.scryfall.com/cards/7ee2eb87-d70e-49d7-b429-5df70a71c143/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oakhame Adversary
@@ -145,7 +163,18 @@
 - **Face 2: Bring Back** — {G/W}{G/W}{G/W}{G/W} — Sorcery — Adventure
   > Create two 1/1 white Human creature tokens. (Then exile this card. You may cast the creature later from exile.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20874 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/212/oakhame-ranger-bring-back) · oracle_id `9c247a17-361c-435e-90c8-ce9c6b71f7db` · printing: ELD #212 (2019-10-04) · [rulings](https://api.scryfall.com/cards/8a665794-513f-4f78-92c9-1844ec27c79c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2019-10-04* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Giant Killer is a white creature card whose mana value is 1. It can't be the target of the triggered ability of Mystic Sanctuary.
+  - *2019-10-04* — Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2019-10-04* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to cast it as a permanent later.
+  - *2019-10-04* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to cast it as a permanent spell.
+  - *2019-10-04* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to cast the copy as a permanent.
+  - *2019-10-04* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2019-10-04* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+  - *2019-10-04* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if Giant Killer is exiled with the last ability of Vivien, Champion of the Wilds, you can't cast it as Chop Down.
+  - *2019-10-04* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2019-10-04* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/212/oakhame-ranger-bring-back) · oracle_id `9c247a17-361c-435e-90c8-ce9c6b71f7db` · printing: ELD #212 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oakheart Dryads
 
@@ -159,7 +188,11 @@
   > *—Ianthe, Setessan hunter*
 - **Keywords:** Constellation
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24343 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jou/133/oakheart-dryads) · oracle_id `60bac6e8-0c72-4665-9b01-d07c99dd1716` · printing: JOU #133 (2014-05-02) · [rulings](https://api.scryfall.com/cards/d8ef63b9-c021-40fe-910e-93c06d660c20/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2014-04-26* — A constellation ability triggers whenever an enchantment enters the battlefield under your control for any reason. Enchantments with other card types, such as enchantment creatures, will also cause constellation abilities to trigger.
+  - *2014-04-26* — An Aura spell without bestow that has an illegal target when it tries to resolve won't resolve and will be put into its owner's graveyard. It won't enter the battlefield and constellation abilities won't trigger. An Aura spell with bestow won't be countered this way. It will revert to being an enchantment creature and resolve, entering the battlefield and triggering constellation abilities.
+  - *2014-04-26* — When an enchantment enters the battlefield under your control, each constellation ability of permanents you control will trigger. You can put these abilities on the stack in any order. The last ability you put on the stack will be the first one that resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jou/133/oakheart-dryads) · oracle_id `60bac6e8-0c72-4665-9b01-d07c99dd1716` · printing: JOU #133 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oakhollow Village
 
@@ -190,7 +223,9 @@
   > *Even when he strikes, the only sound is the snap of jaws through bone.*
 - **Keywords:** Transform, Daybound, Nightbound
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23231 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/212/oakshade-stalker-moonlit-ambusher) · oracle_id `1b639537-a8fe-4615-b937-afa478fdec0f` · printing: VOW #212 (2021-11-19) · [rulings](https://api.scryfall.com/cards/8bcaa944-4e45-457c-be9c-07377b6ed08b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-11-19* — You may cast Oakshade Stalker as though it had flash by paying {2} more even if it's night.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/212/oakshade-stalker-moonlit-ambusher) · oracle_id `1b639537-a8fe-4615-b937-afa478fdec0f` · printing: VOW #212 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oak Street Innkeeper
 
@@ -202,6 +237,7 @@
 - **Flavor text** (RTR printing):
   > *The city is vast and perilous, but there are places where a weary traveler can feel very much at home.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16530 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rtr/131/oak-street-innkeeper) · oracle_id `1fa94925-04e5-4073-91af-1857dbc09991` · printing: RTR #131 (2012-10-05) · [rulings](https://api.scryfall.com/cards/08274d1b-52b7-46c1-8f93-7631d2e21def/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oashra Cultivator
@@ -214,6 +250,7 @@
 - **Flavor text** (AKH printing):
   > *"Like fruits in the field, we will be harvested when the season is right."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22019 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/177/oashra-cultivator) · oracle_id `c07bbe66-96ae-4fab-82b9-fc6dc4f549c3` · printing: AKH #177 (2017-04-28) · [rulings](https://api.scryfall.com/cards/3d10be36-8e57-4b08-bc3b-e69769e0908a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oasis
@@ -223,6 +260,7 @@
 - **Oracle text:**
   > {T}: Prevent the next 1 damage that would be dealt to target creature this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21288 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/248/oasis) · oracle_id `4533ce78-0594-4195-96fb-46cbadd0db69` · printing: ME4 #248 (2011-01-10) · [rulings](https://api.scryfall.com/cards/4949330d-9f12-459a-8a64-bd304fc53954/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oasis Gardener
@@ -252,7 +290,12 @@
   > *"It's only the end if we allow it."*
 - **Keywords:** Exert
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23055 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/124/oasis-ritualist) · oracle_id `de89ef8f-ef6a-4f95-9c38-5debc06e1d74` · printing: HOU #124 (2017-07-14) · [rulings](https://api.scryfall.com/cards/a30bb49b-956e-44bc-8a32-46d4c9c13245/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2017-04-18* — If an exerted creature is already untapped during your next untap step (most likely because it had vigilance or an effect untapped it), exert’s effect preventing it from untapping expires without having done anything.
+  - *2017-04-18* — If you gain control of another player’s creature until end of turn and exert it, it will untap during that player’s untap step.
+  - *2017-04-18* — You can’t exert a creature unless an effect allows you to do so. Similar effects that “tap and freeze” a creature (such as that of Decision Paralysis) don’t exert that creature.
+  - *2017-07-14* — Some cards in the Hour of Devastation set let you exert a creature as a cost to activate one of its abilities. You can exert it to pay that cost even if you’ve already exerted it earlier in the turn. Exerting it multiple times will keep it tapped only during your next untap step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/124/oasis-ritualist) · oracle_id `de89ef8f-ef6a-4f95-9c38-5debc06e1d74` · printing: HOU #124 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oathkeeper, Takeno's Daisho
 
@@ -265,7 +308,9 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10917 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/chk/265/oathkeeper-takenos-daisho) · oracle_id `7d58b478-a64b-46e9-b62a-08c6c1ca7c13` · printing: CHK #265 (2004-10-01) · [rulings](https://api.scryfall.com/cards/01b7c8e4-db88-48f3-bfd5-8d990f449b1c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-12-01* — Oathkeeper's second ability checks whether the card's creature type is Samurai, not whether the creature was a Samurai when it left the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chk/265/oathkeeper-takenos-daisho) · oracle_id `7d58b478-a64b-46e9-b62a-08c6c1ca7c13` · printing: CHK #265 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oath of Ajani
 
@@ -290,7 +335,13 @@
 - **Flavor text** (OGW printing):
   > *"If it means that people can live in freedom, yeah, I'll keep watch."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14492 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/113/oath-of-chandra) · oracle_id `53a0923f-7da8-4e31-a231-9b275916e2a2` · printing: OGW #113 (2016-01-22) · [rulings](https://api.scryfall.com/cards/f570b0cb-2f38-422d-89d6-22c85e085328/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2016-01-22* — Each of the Oaths is legendary: if you control more than one of any particular Oath, you choose one to remain on the battlefield and the others are put into your graveyard.
+  - *2016-01-22* — Even if you control a particular Oath, you can cast another of that Oath to take advantage of its enters-the-battlefield ability. It will enter the battlefield, causing its first ability to trigger. You will then choose one to keep, as detailed above, and then its enters-the-battlefield ability will resolve.
+  - *2016-01-22* — Oath of Chandra’s last ability will trigger even if the planeswalker that entered the battlefield under your control is no longer on the battlefield, no longer under your control, or no longer a planeswalker. This is also true if Oath of Chandra wasn’t on the battlefield when the planeswalker entered.
+  - *2016-01-22* — The last ability triggers only once per turn, even if more than one planeswalker entered the battlefield under your control.
+  - *2016-01-22* — The “legend rule” checks the full names of legendary permanents. You can control Oath of Gideon and Oath of Chandra at the same time, for example.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/113/oath-of-chandra) · oracle_id `53a0923f-7da8-4e31-a231-9b275916e2a2` · printing: OGW #113 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oath of Druids
 
@@ -299,7 +350,10 @@
 - **Oracle text:**
   > At the beginning of each player's upkeep, that player chooses target player who controls more creatures than they do and is their opponent. The first player may reveal cards from the top of their library until they reveal a creature card. If the first player does, that player puts that card onto the battlefield and all other cards revealed this way into their graveyard.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13828 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c16/159/oath-of-druids) · oracle_id `cf0dcb27-f02e-4065-81dc-75fbbb09ea3f` · printing: C16 #159 (2016-11-11) · [rulings](https://api.scryfall.com/cards/9dad6b50-c415-4c55-8eac-bbc9d656c2fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-10-01* — The ability can only target an opponent of the current player.
+  - *2009-10-01* — The targeted player controlling more creatures than the current player is a part of the targeting requirement. A player can't be targeted by this ability unless it's true, and the ability doesn't resolve if it's no longer true at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c16/159/oath-of-druids) · oracle_id `cf0dcb27-f02e-4065-81dc-75fbbb09ea3f` · printing: C16 #159 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oath of Eorl
 
@@ -327,7 +381,10 @@
 - **Oracle text:**
   > At the beginning of each player's upkeep, that player chooses target player whose graveyard has fewer creature cards in it than their graveyard does and is their opponent. The first player may return a creature card from their graveyard to their hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22324 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/exo/69/oath-of-ghouls) · oracle_id `b9490b52-6c3f-437b-b2c2-9e81c4b43b61` · printing: EXO #69 (1998-06-15) · [rulings](https://api.scryfall.com/cards/1102f35a-ae62-479d-b61c-31a82978aedd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-10-01* — The ability can only target an opponent of the current player.
+  - *2009-10-01* — The targeted player’s graveyard having fewer creature cards in it than the current player’s is a part of the targeting requirement. A player can’t be targeted by this ability unless it’s true, and the ability doesn’t resolve if it’s no longer true at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/exo/69/oath-of-ghouls) · oracle_id `b9490b52-6c3f-437b-b2c2-9e81c4b43b61` · printing: EXO #69 (1998-06-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oath of Gideon
 
@@ -373,7 +430,10 @@
 - **Flavor text** (WAR printing):
   > *"So everyone gets what they truly deserve, I will keep watch."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14041 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/209/oath-of-kaya) · oracle_id `8b3febb9-0597-46af-b005-982f1a31c83e` · printing: WAR #209 (2019-05-03) · [rulings](https://api.scryfall.com/cards/faba010d-5b1b-4562-91d6-ec55303c4dcd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-05-03* — If an opponent attacks more than one planeswalker you control, the last ability of Oath of Kaya triggers once for each of those attacked planeswalkers.
+  - *2019-05-03* — If the target is an illegal target by the time the first ability of Oath of Kaya tries to resolve, the ability doesn’t resolve. You won’t gain 3 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/209/oath-of-kaya) · oracle_id `8b3febb9-0597-46af-b005-982f1a31c83e` · printing: WAR #209 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oath of Lieges
 
@@ -382,7 +442,13 @@
 - **Oracle text:**
   > At the beginning of each player's upkeep, that player chooses target player who controls more lands than they do and is their opponent. The first player may search their library for a basic land card, put that card onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12676 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/exo/11/oath-of-lieges) · oracle_id `87038354-6762-4069-be34-7d40ae308a8d` · printing: EXO #11 (1998-06-15) · [rulings](https://api.scryfall.com/cards/470a2092-eeda-4557-8cee-ac401b61a225/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2004-10-04* — Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
+  - *2004-10-04* — The land card enters under the current player's control.
+  - *2008-08-01* — Shuffling the library is part of the optional effect. The player only shuffles if they chose to search.
+  - *2009-10-01* — The ability can only target an opponent of the current player.
+  - *2009-10-01* — The targeted player controlling more lands than the current player is a part of the targeting requirement. A player can't be targeted by this ability unless it's true, and the ability doesn't resolve if it's no longer true at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/exo/11/oath-of-lieges) · oracle_id `87038354-6762-4069-be34-7d40ae308a8d` · printing: EXO #11 (1998-06-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oath of Liliana
 
@@ -394,7 +460,11 @@
 - **Flavor text** (EMN printing):
   > *"I'll keep watch. Happy now?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10456 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/emn/99/oath-of-liliana) · oracle_id `0bd7fd12-a0b7-4b4e-8a33-cace6e6bd6d1` · printing: EMN #99 (2016-07-22) · [rulings](https://api.scryfall.com/cards/2028f577-e0fb-48dd-89c6-f4a000b0a881/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-07-13* — Oath of Liliana is legendary, just like the previous Oaths from Oath of the Gatewatch. If you already control an Oath of Liliana, you can still cast a second Oath of Liliana to take advantage of its enters-the-battlefield ability. It will enter the battlefield, causing its first ability to trigger. You will then choose one to keep, and the other will be put into your graveyard.
+  - *2016-07-13* — Oath of Liliana’s last ability will trigger even if the planeswalker that entered the battlefield under your control is no longer on the battlefield, no longer under your control, or no longer a planeswalker. This is also true if Oath of Liliana wasn’t on the battlefield when the planeswalker entered.
+  - *2016-07-13* — The last ability triggers only once per turn, even if more than one planeswalker entered the battlefield under your control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/emn/99/oath-of-liliana) · oracle_id `0bd7fd12-a0b7-4b4e-8a33-cace6e6bd6d1` · printing: EMN #99 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oath of Lim-Dûl
 
@@ -404,6 +474,7 @@
   > Whenever you lose life, for each 1 life you lost, sacrifice a permanent other than this enchantment unless you discard a card. (Damage dealt to you causes you to lose life.)
   > {B}{B}: Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21543 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/156/oath-of-lim-d%C3%BBl) · oracle_id `64e163c2-2378-4e4c-aefe-5e0d2fd19988` · printing: ICE #156 (1995-06-03) · [rulings](https://api.scryfall.com/cards/f16df768-06de-43a0-b548-44fb0887490b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oath of Mages
@@ -413,7 +484,10 @@
 - **Oracle text:**
   > At the beginning of each player's upkeep, that player chooses target player who has more life than they do and is their opponent. The first player may have this enchantment deal 1 damage to the second player.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24630 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/exo/90/oath-of-mages) · oracle_id `2b749918-f425-4243-aabb-7350bb74403c` · printing: EXO #90 (1998-06-15) · [rulings](https://api.scryfall.com/cards/ed8708d2-2c73-4da5-b6ff-41c083b59caa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-10-01* — The ability can only target an opponent of the current player.
+  - *2009-10-01* — The targeted player having more life than the current player is a part of the targeting requirement. A player can’t be targeted by this ability unless it’s true, and the ability doesn’t resolve if it’s no longer true at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/exo/90/oath-of-mages) · oracle_id `2b749918-f425-4243-aabb-7350bb74403c` · printing: EXO #90 (1998-06-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oath of Nissa
 
@@ -438,7 +512,10 @@
 - **Oracle text:**
   > At the beginning of each player's upkeep, that player chooses target player who has more cards in hand than they do and is their opponent. The first player may discard their hand and draw three cards.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23270 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/exo/42/oath-of-scholars) · oracle_id `da4a5129-b005-4fc6-b175-0416627881db` · printing: EXO #42 (1998-06-15) · [rulings](https://api.scryfall.com/cards/d61376ad-21c8-4d34-b37d-ed60877f5d4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-10-01* — The ability can only target an opponent of the current player.
+  - *2009-10-01* — The targeted player having more cards in their hand than the current player is a part of the targeting requirement. A player can’t be targeted by this ability unless it’s true, and the ability doesn’t resolve if it’s no longer true at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/exo/42/oath-of-scholars) · oracle_id `da4a5129-b005-4fc6-b175-0416627881db` · printing: EXO #42 (1998-06-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oath of Teferi
 
@@ -467,7 +544,9 @@
 - **Flavor text** (M14 printing):
   > *"Some gaze upon the forest and see trees. I see true power."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20044 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m14/187/oath-of-the-ancient-wood) · oracle_id `385d70ed-07ab-4e01-a473-4408f4bcf6d0` · printing: M14 #187 (2013-07-19) · [rulings](https://api.scryfall.com/cards/9bc42032-8727-4f78-b369-ba103d965b73/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-07-01* — If the enchantment that enters the battlefield is somehow also a creature, you may choose it as the target of Oath of the Ancient Wood’s ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m14/187/oath-of-the-ancient-wood) · oracle_id `385d70ed-07ab-4e01-a473-4408f4bcf6d0` · printing: M14 #187 (2013-07-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oath of the Grey Host
 
@@ -480,7 +559,11 @@
   > III — Create three tapped 1/1 white Spirit creature tokens with flying.
 - **Keywords:** Treasure, Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12627 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/101/oath-of-the-grey-host) · oracle_id `228fe7f0-54ad-411b-bedb-65a1bc2a099b` · printing: LTR #101 (2023-06-23) · [rulings](https://api.scryfall.com/cards/6a780abd-f276-40d3-b2af-d2e47d858d3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/101/oath-of-the-grey-host) · oracle_id `228fe7f0-54ad-411b-bedb-65a1bc2a099b` · printing: LTR #101 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oathsworn Giant
 
@@ -494,6 +577,7 @@
   > *The town stands on his ancestors' former burial grounds. Even with the graves long gone, he continues his determined vigil.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14647 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/27/oathsworn-giant) · oracle_id `d3828907-1321-40ca-9531-30401e82a6b8` · printing: RAV #27 (2005-10-07) · [rulings](https://api.scryfall.com/cards/2c342b0f-a8a5-4991-a0a2-fd75b54e1de2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oathsworn Knight
@@ -506,7 +590,12 @@
   > This creature attacks each combat if able.
   > If damage would be dealt to this creature while it has a +1/+1 counter on it, prevent that damage and remove a +1/+1 counter from it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19679 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/98/oathsworn-knight) · oracle_id `16c293c8-bd1d-4db9-b197-da14f2f37cb1` · printing: ELD #98 (2019-10-04) · [rulings](https://api.scryfall.com/cards/9173ffda-1d3b-4dab-8dcb-de44717de464/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-10-04* — If Oathsworn Knight can't attack for any reason (such as being tapped or having come under that player's control that turn), then it doesn't attack. If there's a cost associated with having it attack, its controller isn't forced to pay that cost, so it doesn't have to attack in that case either.
+  - *2019-10-04* — If damage that can't be prevented is dealt to Oathsworn Knight, one counter is still removed from it.
+  - *2019-10-04* — If multiple sources would deal damage to Oathsworn Knight simultaneously (for example, multiple creatures blocking it), its last ability applies once. All of that damage is prevented, and only one counter is removed.
+  - *2019-10-04* — Oathsworn Knight's last ability removes only one counter from it each time it would be dealt damage, not one counter per 1 damage prevented.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/98/oathsworn-knight) · oracle_id `16c293c8-bd1d-4db9-b197-da14f2f37cb1` · printing: ELD #98 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oathsworn Vampire
 

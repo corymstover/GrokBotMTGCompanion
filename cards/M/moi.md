@@ -22,6 +22,7 @@
   > Whenever you cast a historic spell, return target nonland permanent card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step. If it would leave the battlefield, exile it instead of putting it anywhere else. (Artifacts, legendaries, and Sagas are historic.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15921 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/7/moira-and-teshar) · oracle_id `445ad01c-c899-424d-8666-ee7bb2a6e535` · printing: MOC #7 (2023-04-21) · [rulings](https://api.scryfall.com/cards/19d0acaa-bfbf-4155-a9b0-5b39c3c87361/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moira Brown, Guide Author
@@ -33,6 +34,7 @@
   > When Moira Brown enters, create a colorless Book Equipment artifact token named Wasteland Survival Guide with "Equipped creature gets +1/+1 for each quest counter among permanents you control" and equip {1}.
   > Whenever you attack, put a quest counter on target nonland permanent you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15239 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/110/moira-brown-guide-author) · oracle_id `db02644b-820f-4102-b1f6-ed8fac40baf8` · printing: PIP #110 (2024-03-08) · [rulings](https://api.scryfall.com/cards/418ce6f6-b483-4695-aaf5-e4f7eeb9eb16/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moira, Urborg Haunt
@@ -45,4 +47,6 @@
   > Whenever Moira deals combat damage to a player, return to the battlefield target creature card in your graveyard that was put there from the battlefield this turn.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15488 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/6/moira-urborg-haunt) · oracle_id `48060406-dd5a-4df5-84e9-3e797f0248cd` · printing: DMC #6 (2022-09-09) · [rulings](https://api.scryfall.com/cards/0a5c9d99-8fbc-4a74-99a5-32ba71eb2b62/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-09-09* — You may target a creature card with Moira's triggered ability that was put into your graveyard as a result of combat damage dealt in the same combat damage step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/6/moira-urborg-haunt) · oracle_id `48060406-dd5a-4df5-84e9-3e797f0248cd` · printing: DMC #6 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

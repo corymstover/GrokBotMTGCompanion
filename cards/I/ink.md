@@ -31,7 +31,14 @@
   > Kinship — At the beginning of your upkeep, you may look at the top card of your library. If it shares a creature type with this creature, you may reveal it. If you do, each opponent mills three cards.
 - **Keywords:** Kinship, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26529 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mor/36/ink-dissolver) · oracle_id `a138ca33-6ea4-468e-9cfb-c908ee62c516` · printing: MOR #36 (2008-02-01) · [rulings](https://api.scryfall.com/cards/6e1bf0ad-f718-4118-9e9b-19041cfbb5cf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2008-04-01* — After the kinship ability finishes resolving, the card you looked at remains on top of your library.
+  - *2008-04-01* — If the top card of your library is already revealed (due to Magus of the Future, for example), you still have the option to reveal it or not as part of a kinship ability’s effect.
+  - *2008-04-01* — If you have multiple creatures with kinship abilities, each triggers and resolves separately. You’ll look at the same card for each one, unless you have some method of shuffling your library or moving that card to a different zone.
+  - *2008-04-01* — Kinship is an ability word that indicates a group of similar triggered abilities that appear on _Morningtide_ creatures. It doesn’t have any special rules associated with it.
+  - *2008-04-01* — The first two sentences of every kinship ability are the same (except for the creature’s name). Only the last sentence varies from one kinship ability to the next.
+  - *2008-04-01* — You don’t have to reveal the top card of your library, even if it shares a creature type with the creature that has the kinship ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mor/36/ink-dissolver) · oracle_id `a138ca33-6ea4-468e-9cfb-c908ee62c516` · printing: MOR #36 (2008-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ink-Eyes, Servant of Oni
 
@@ -58,6 +65,7 @@
   > When this creature enters, look at the top four cards of your library, then put them back in any order.
 - **Keywords:** Landwalk, Islandwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25202 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddt/8/inkfathom-divers) · oracle_id `dbdf3c82-b0fc-479c-acce-f7e60be3a2b1` · printing: DDT #8 (2017-10-24) · [rulings](https://api.scryfall.com/cards/758a8ca6-1fc1-454a-a2be-9745ac964eb7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inkfathom Infiltrator
@@ -70,6 +78,7 @@
 - **Flavor text** (SHM printing):
   > *No one can navigate the dank maze of Shadowmoor's rivers better than the cruel and covetous merrows. They use the currents to steal—and to steal away.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15600 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/167/inkfathom-infiltrator) · oracle_id `2b43c7de-8c21-4137-b6b8-45965e4bb558` · printing: SHM #167 (2008-05-02) · [rulings](https://api.scryfall.com/cards/28854f0f-48d3-4a54-8811-c6329ad2e88e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inkfathom Witch
@@ -84,7 +93,13 @@
   > *The murk of the Wanderbrine concealed unseemly rituals designed to bring out the worst in merrowkind.*
 - **Keywords:** Fear
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19072 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/342/inkfathom-witch) · oracle_id `60b6e96a-63e6-4520-b2dd-b20b7dfbcd57` · printing: NCC #342 (2022-04-29) · [rulings](https://api.scryfall.com/cards/fe2837c6-8fb8-4ab6-97f3-3602a92374ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2008-05-01* — An “unblocked creature” is a creature that attacked and wasn't blocked. Creatures aren't “blocked” or “unblocked” until the declare blockers step, so activating this ability before then (or after combat ends) will have no effect.
+  - *2008-05-01* — Creatures stop being unblocked as the combat phase ends. However, they'll stay 4/1 until turn ends.
+  - *2008-05-01* — If Inkfathom Witch is attacking and unblocked, it can make itself 4/1.
+  - *2008-05-01* — Inkfathom Witch doesn't cause creatures to lose their abilities.
+  - *2009-10-01* — The effect from the ability overwrites other effects that set power and/or toughness if and only if those effects existed before the ability resolved. It will not overwrite effects that modify power or toughness (whether from a static ability, counters, or a resolved spell or ability), nor will it overwrite effects that set power and toughness which come into existence after the ability resolves. Effects that switch the creature's power and toughness are always applied after any other power or toughness changing effects, including this one, regardless of the order in which they are created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/342/inkfathom-witch) · oracle_id `60b6e96a-63e6-4520-b2dd-b20b7dfbcd57` · printing: NCC #342 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inkling Mascot
 
@@ -97,7 +112,10 @@
   > *At the ready when words fail.*
 - **Keywords:** Surveil, Repartee
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21225 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/196/inkling-mascot) · oracle_id `0f0959ff-4464-4738-9d79-5b06f368f144` · printing: SOS #196 (2026-04-24) · [rulings](https://api.scryfall.com/cards/6d4a2f39-0e1e-4076-815a-2676a09a1aab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-03-20* — A repartee ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+  - *2026-03-20* — It doesn't matter if the creature or creatures targeted by the spell that caused the repartee ability to trigger leave the battlefield or stop being creatures before that spell resolves. As long as that spell targeted one or more creatures when it was cast, the repartee ability will trigger and later resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/196/inkling-mascot) · oracle_id `0f0959ff-4464-4738-9d79-5b06f368f144` · printing: SOS #196 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inkling Summoning
 
@@ -109,7 +127,10 @@
   > *"Think of an insult so vicious, so vulgar, that you hesitate to speak it aloud. The strongest, most aggressive inklings are born from such scorn."*
   > *—Embrose, Silverquill dean*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25702 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/195/inkling-summoning) · oracle_id `999a9310-d145-4c1a-8518-9d96602ca672` · printing: STX #195 (2021-04-23) · [rulings](https://api.scryfall.com/cards/04a8a5b8-9743-4d1a-89e9-61bdf180b2e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-04-16* — Although you may want to include Lessons in your sideboard if you’re playing with cards that instruct you to learn, Lesson cards can be included in your main deck like other instant or sorcery cards.
+  - *2021-04-16* — Lesson is a spell subtype found on some instant and sorcery cards in the Strixhaven set. The Lesson subtype has no special rules associated with it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/195/inkling-summoning) · oracle_id `999a9310-d145-4c1a-8518-9d96602ca672` · printing: STX #195 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inkmoth Nexus
 
@@ -136,6 +157,7 @@
   > *"They can't follow your footprints if you never touch the ground."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13527 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/100/inkrise-infiltrator) · oracle_id `6a45d09a-6af3-45fb-8f7c-cf630cb37f24` · printing: NEO #100 (2022-02-18) · [rulings](https://api.scryfall.com/cards/cbb6e447-5f40-4039-8a17-257b4a55382c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inkshape Demonstrator
@@ -148,7 +170,10 @@
   > Repartee — Whenever you cast an instant or sorcery spell that targets a creature, this creature gets +1/+0 and gains lifelink until end of turn.
 - **Keywords:** Ward, Repartee
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23907 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/21/inkshape-demonstrator) · oracle_id `4993651f-f161-4007-b485-a0c66a02f91b` · printing: SOS #21 (2026-04-24) · [rulings](https://api.scryfall.com/cards/bcfac992-9984-4529-b9ff-a42d58832b34/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-03-20* — A repartee ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+  - *2026-03-20* — It doesn't matter if the creature or creatures targeted by the spell that caused the repartee ability to trigger leave the battlefield or stop being creatures before that spell resolves. As long as that spell targeted one or more creatures when it was cast, the repartee ability will trigger and later resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/21/inkshape-demonstrator) · oracle_id `4993651f-f161-4007-b485-a0c66a02f91b` · printing: SOS #21 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inkshield
 
@@ -173,7 +198,11 @@
 - **Flavor text** (GPT printing):
   > *When it awoke, the mirrors of the world reflected only darkness.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19028 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/117/ink-treader-nephilim) · oracle_id `3846b499-59c8-4e77-b46a-1d697bcbded7` · printing: GPT #117 (2006-02-03) · [rulings](https://api.scryfall.com/cards/d29bb432-1ca6-4305-b6d3-d7afe06c6c69/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2006-02-01* — Even though you control the copies, the ability cares about who cast the original spell when determining which other creatures that spell could target. If the original spell has a targeting restriction that refers to "an opponent," the copies will see that from the perspective of the original spell's controller. For example, if your opponent casts a spell that says "Destroy target creature an opponent controls" targeting your Ink-Treader Nephilim, its ability will create a copy for each other creature the original spell could target: the rest of your creatures. However, since you control the copies, all the copies won't resolve for having illegal targets.
+  - *2006-02-01* — Ink-Treader Nephilim's ability is mandatory and will create a copy targeting each possible creature whether you want it to or not. You control all the copies of the spell (even if you didn't control the original spell), so you choose the order to put them on the stack.
+  - *2006-02-01* — Ink-Treader Nephilim's ability will trigger off a spell with multiple targets if all of those targets are Ink-Treader Nephilim. For example, Seeds of Strength cast with Ink-Treader Nephilim as each of the three targets will cause the ability to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/117/ink-treader-nephilim) · oracle_id `3846b499-59c8-4e77-b46a-1d697bcbded7` · printing: GPT #117 (2006-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inkwell Leviathan
 

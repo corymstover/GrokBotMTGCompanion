@@ -116,6 +116,7 @@
 - **Flavor text** (MRD printing):
   > *Last to charge, last to fall.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18263 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/223/omega-myr) · oracle_id `fd1b237a-7132-4875-b738-8ec65b85ea28` · printing: MRD #223 (2003-10-02) · [rulings](https://api.scryfall.com/cards/ddaa5c60-054f-4397-a110-21df58264caf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omen
@@ -126,6 +127,7 @@
   > Look at the top three cards of your library, then put them back in any order. You may shuffle.
   > Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21413 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/por/62/omen) · oracle_id `9b8c44a0-82ef-4beb-a762-c2a2a21380f3` · printing: POR #62 (1997-05-01) · [rulings](https://api.scryfall.com/cards/6be1956e-c43e-4a6c-950a-5be6e6ca013f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omen Hawker
@@ -149,7 +151,10 @@
   > Players can't draw cards.
   > At the beginning of each player's draw step, that player exiles the top card of their library. If it's a land card, the player puts it onto the battlefield. Otherwise, the player casts it without paying its mana cost if able.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10059 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nph/148/omen-machine) · oracle_id `dbf05c40-7274-4aaa-94d7-1f28cbe15e09` · printing: NPH #148 (2011-05-13) · [rulings](https://api.scryfall.com/cards/0ff4e35f-2a82-4d3c-86c5-ae05a5abc4d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-06-01* — If the player is unable to put the land onto the battlefield (this is rare) or cast the spell (perhaps because there are no legal targets available) as the triggered ability of Omen Machine resolves, the card simply remains in exile.
+  - *2011-06-01* — Putting the land onto the battlefield or casting the card is not optional.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nph/148/omen-machine) · oracle_id `dbf05c40-7274-4aaa-94d7-1f28cbe15e09` · printing: NPH #148 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omen of Fire
 
@@ -161,6 +166,7 @@
   > *"Let Balduvia burn to warm Kjeldor's hearth!"*
   > *—General Varchild*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25747 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/all/75/omen-of-fire) · oracle_id `5935e9b3-b9b9-413c-ba17-103f5792131a` · printing: ALL #75 (1996-06-10) · [rulings](https://api.scryfall.com/cards/9c724b46-6e17-4bee-9bc6-e9fc5a379dd7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omen of the Dead
@@ -175,6 +181,7 @@
   > *"My time will come, when life's frantic striving will fade into the boundless quiet of death."*
 - **Keywords:** Flash, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12838 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/110/omen-of-the-dead) · oracle_id `0aa9ee99-69a8-452b-a0d5-001384bdff3c` · printing: THB #110 (2020-01-24) · [rulings](https://api.scryfall.com/cards/8023fc44-fb8e-420d-a68c-b45912c4e5bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omen of the Forge
@@ -189,6 +196,7 @@
   > *"My time will come, when all the world will be reforged in the fires of my invention."*
 - **Keywords:** Flash, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25020 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/145/omen-of-the-forge) · oracle_id `e11e2dc8-b28e-415d-9a5d-0eb46da8945c` · printing: THB #145 (2020-01-24) · [rulings](https://api.scryfall.com/cards/70388773-709b-4cd8-a8b7-56093fd77a1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omen of the Hunt
@@ -203,6 +211,7 @@
   > *"My time will come, when no road will divide the endless verdure of the trees."*
 - **Keywords:** Flash, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10766 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/906/omen-of-the-hunt) · oracle_id `53295b03-717d-481d-9d5c-212c5f30bbbf` · printing: CMM #906 (2023-08-04) · [rulings](https://api.scryfall.com/cards/e0d5877d-fa0f-4117-adc1-9153aeba4777/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omen of the Sea
@@ -232,6 +241,7 @@
   > *"My time will come, when every soul will bask in my glory and obey my law."*
 - **Keywords:** Flash, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14773 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/831/omen-of-the-sun) · oracle_id `08740dda-0629-4b6f-bbcc-c8088105b5e7` · printing: CMM #831 (2023-08-04) · [rulings](https://api.scryfall.com/cards/157e4f28-d1b1-41e4-a2f1-6613a952bca2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omenpath Journey
@@ -256,7 +266,11 @@
   > {T}: Add {R}, {G}, or {W}.
 - **Keywords:** Vanishing
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/616/omenpath-to-naya) · oracle_id `271264fb-965c-4fe3-baec-2217de20f8b5` · printing: MB2 #616 (2024-08-02) · [rulings](https://api.scryfall.com/cards/41b7743d-7134-4d35-b128-7bed315656a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/616/omenpath-to-naya) · oracle_id `271264fb-965c-4fe3-baec-2217de20f8b5` · printing: MB2 #616 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omenport Vigilante
 
@@ -268,7 +282,13 @@
 - **Flavor text** (OTJ printing):
   > *Freestriders took to patrolling near the Omenpaths, protecting new arrivals from the robbers and charlatans prowling for easy marks.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25464 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/21/omenport-vigilante) · oracle_id `852e3d89-64a0-4b32-be2b-b1d6cd7c2f64` · printing: OTJ #21 (2024-04-19) · [rulings](https://api.scryfall.com/cards/7ecd8b6f-b9aa-466a-909c-3209beef8244/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-04-12* — A player can commit only one crime per spell or ability they control. Targeting multiple opponents, permanents, spells, abilities, and/or cards with the same spell or ability doesn’t constitute committing multiple crimes.
+  - *2024-04-12* — A player commits a crime as they cast a spell, activate an ability, or put a triggered ability on the stack that targets at least one opponent, at least one permanent, spell, or ability an opponent controls, and/or at least one card in an opponent’s graveyard.
+  - *2024-04-12* — Changing the target or targets of a spell or ability won’t affect whether or not the controller of that spell or ability has committed a crime. Only the initial targets chosen for that spell or ability are used to determine whether or not its controller committed a crime.
+  - *2024-04-12* — For example, an ability that triggers when you cast a spell that targets an opponent will trigger at the same time as an ability that triggers whenever you commit a crime. Those abilities can be put on the stack in either order (if you control them both), and they’ll both resolve before the spell that caused them to trigger.
+  - *2024-04-12* — The spell or ability that constituted a crime doesn’t have to have resolved yet or at all. As soon as you’re finished casting the spell, activating the ability, or putting the triggered ability on the stack, you’ve committed a crime.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/21/omenport-vigilante) · oracle_id `852e3d89-64a0-4b32-be2b-b1d6cd7c2f64` · printing: OTJ #21 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omenspeaker
 
@@ -281,7 +301,12 @@
   > *Her prophecies amaze her even as she speaks them.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17213 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/83/omenspeaker) · oracle_id `43d7fcf3-acc2-4e9b-a466-c73b1b6c58af` · printing: CMR #83 (2020-11-20) · [rulings](https://api.scryfall.com/cards/1b635abe-ad7e-44b8-b3fe-6e365db87c29/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-09-15* — Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
+  - *2013-09-15* — When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
+  - *2013-09-15* — You choose how to order cards returned to your library after scrying no matter where you put them.
+  - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/83/omenspeaker) · oracle_id `43d7fcf3-acc2-4e9b-a466-c73b1b6c58af` · printing: CMR #83 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ominous Asylum
 
@@ -324,7 +349,13 @@
   > *The hunters came for the mushrooms. The trudges came for the mushroom hunters.*
 - **Keywords:** Gravestorm
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10285 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/28/ominous-harvest) · oracle_id `76bc6518-dea4-4a5c-a8a7-352cd297197b` · printing: SOC #28 (2026-04-24) · [rulings](https://api.scryfall.com/cards/2271184b-08eb-4d2a-8ebf-a1807d51dd2a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2026-03-20* — A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with gravestorm won't affect the copies.
+  - *2026-03-20* — Gravestorm counts all permanents put into graveyards from the battlefield this turn. It doesn't matter who controlled those permanents, who owns them, or whether or not they were tokens.
+  - *2026-03-20* — The copies of Ominous Harvest created by its gravestorm ability are created on the stack, so they're not cast and won't cause abilities that trigger when a player casts a spell to trigger.
+  - *2026-03-20* — The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack.
+  - *2026-03-20* — You may choose new targets for any of the copies. You can make different choices for each copy.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/28/ominous-harvest) · oracle_id `76bc6518-dea4-4a5c-a8a7-352cd297197b` · printing: SOC #28 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ominous Parcel
 
@@ -336,6 +367,7 @@
 - **Flavor text** (SNC printing):
   > *The rest of Anhelo's assistant arrived over the following week.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20821 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/241/ominous-parcel) · oracle_id `be3c138b-045b-4b08-a12f-a5679d972051` · printing: SNC #241 (2022-04-29) · [rulings](https://api.scryfall.com/cards/e1691374-e9f2-4a8b-abdb-0bb1dbc96715/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ominous Roost
@@ -348,6 +380,7 @@
   > *"One raven is a bad omen. Two are a curse. I don't know what this is, but it can't be good."*
   > *—Verna, priest of Sigarda*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19836 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/65/ominous-roost) · oracle_id `745fc118-ffab-45c6-b51a-7bef2f6931e8` · printing: MID #65 (2021-09-24) · [rulings](https://api.scryfall.com/cards/daf2b49a-56f9-4093-960f-9ec7af8983b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ominous Seas
@@ -376,7 +409,12 @@
   > *The sphinxes began to speak only after the Second Sun aligned. They whispered dire warnings, though no one listened.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27718 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/41/ominous-sphinx) · oracle_id `2cb968c4-5b50-4242-8db7-dd1fa9ce4948` · printing: HOU #41 (2017-07-14) · [rulings](https://api.scryfall.com/cards/2361bd3b-9ae0-4198-9296-6d278feff042/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2017-04-18* — An ability that triggers whenever you discard a card doesn’t give you permission to discard cards. You’ll need another effect that instructs or allows you to discard them.
+  - *2017-04-18* — An ability that triggers whenever you “cycle or discard” a card triggers only once if you cycle a card. The ability “Whenever you discard a card” is functionally identical to this ability; cycling is mentioned for clarity.
+  - *2017-04-18* — If a player discards a card during their cleanup step due to having too many cards in hand, any appropriate abilities that trigger on discarding that card trigger. If this happens, those triggered abilities are put onto the stack and players receive priority in that cleanup step to cast spells or activate abilities (normally, no players may take actions during a cleanup step). Another cleanup step is created following that one.
+  - *2017-04-18* — Some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/41/ominous-sphinx) · oracle_id `2cb968c4-5b50-4242-8db7-dd1fa9ce4948` · printing: HOU #41 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omnath, Locus of All
 
@@ -474,7 +512,10 @@
   > *Unconnected to the land, it hungers.*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11062 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/3/omnath-locus-of-the-void) · oracle_id `579225b5-50e2-4891-8871-0bf6dbc07e33` · printing: FRC #3 (2026-10-02) · [rulings](https://api.scryfall.com/cards/727511d8-be1a-4c2e-92f6-5cc9d67a2b0c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-08-21* — As long as Omnath, Locus of the Void remains under your control, you'll retain unspent mana as steps and phases end, although that mana will become colorless. This means you can add mana and spend it during a future step, phase, or turn. Once Omnath leaves your control, you'll have until the end of the current step or phase to spend the mana before it is lost.
+  - *2026-08-21* — If unspent mana you have has any restrictions or riders associated with it (for example, if it was produced by Jeweled Lotus), those restrictions or riders remain associated with that mana when it becomes colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/3/omnath-locus-of-the-void) · oracle_id `579225b5-50e2-4891-8871-0bf6dbc07e33` · printing: FRC #3 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omnibian
 
@@ -487,7 +528,11 @@
   > *"This creature has hyperevolved chameleonic abilities. It no longer mimics its surroundings, instead forcing them to take on its form."*
   > *—Simic research notes*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12278 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dis/119/omnibian) · oracle_id `590a4c09-2d19-40db-8d0d-7765f3b63e38` · printing: DIS #119 (2006-05-05) · [rulings](https://api.scryfall.com/cards/12a5a212-395c-427e-81b8-893745274068/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2006-05-01* — If the target creature has any counters on it that modify its power and toughness (such as a +1/+1 counter), those counters will continue to affect the creature after it becomes 3/3. In the example given, it will be 4/4.
+  - *2009-10-01* — If the target creature is affected by any effects that modify its power or toughness without setting them to specific values (such as from Giant Growth), Omnibian’s effect will be applied before those effects. In the example given, the creature will be 6/6.
+  - *2013-04-15* — This effect changes only the power, toughness, and creature type of the targeted creature. It does not cause that creature to lose any abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dis/119/omnibian) · oracle_id `590a4c09-2d19-40db-8d0d-7765f3b63e38` · printing: DIS #119 (2006-05-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omni-Changeling
 
@@ -529,7 +574,12 @@
   > *"And just a sprig of parsley for color . . ."*
   > *—Michelangelo*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13305 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/176/omni-cheese-pizza) · oracle_id `73144877-1d37-4c7a-8493-3cef191b9211` · printing: TMT #176 (2026-03-06) · [rulings](https://api.scryfall.com/cards/f2c8397c-2014-4a43-9ed7-41795880011f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2026-01-27* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2026-01-27* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Pizza Face (a Legendary Artifact Creature — Food Mutant) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost). You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+  - *2026-01-27* — Some spells and abilities that create Food tokens may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Food tokens.
+  - *2026-01-27* — Whatever you do, don't eat the cards. (Also, don't make the pizzas pictured on the cards. You don't have the digestive system of a Ninja Turtle.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/176/omni-cheese-pizza) · oracle_id `73144877-1d37-4c7a-8493-3cef191b9211` · printing: TMT #176 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omniclown Colossus // Pie-roclasm
 
@@ -542,7 +592,19 @@
   > This creature deals π damage to each non-Clown creature. (How to calculate π isn't important. It's a smidgen more than 3.)
 - **Keywords:** Affinity, Trample
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #30771 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/116/omniclown-colossus-pie-roclasm) · oracle_id `15954ed7-cab4-4a06-a796-bbc8a48c550d` · printing: UNF #116 (2022-10-07) · [rulings](https://api.scryfall.com/cards/209db1d7-844a-4eee-bdf2-319741f4cefe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2022-10-07* — A single Pie-roclasm will destroy all non-Clown creatures with toughness 3 or less. Two will destroy all non-Clown creatures with toughness 6 or less. Three, with toughness 9 or less. Four, with toughness 12 ½ or less. That's a lot of pie.
+  - *2022-10-07* — All the rulings from this point on are about how to play with Adventures. If you are an experienced adventurer, you can venture forth.
+  - *2022-10-07* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Omniclown Colossus is a red artifact creature card whose mana value is 10.
+  - *2022-10-07* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (Pie-roclasm doesn't require targets, so most likely by being countered), that card won't be exiled and the spell's controller won't be able to cast it as a creature later.
+  - *2022-10-07* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to cast it as a creature spell.
+  - *2022-10-07* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to cast the copy as a creature.
+  - *2022-10-07* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+  - *2022-10-07* — If damage from Pie-roclasm gets redirected to a player, just use 3.14.
+  - *2022-10-07* — Only the Omniclown Colossus has affinity for Clowns. Pie-roclasm is indifferent toward Clowns and will not cost {1} less for each Clown you control.
+  - *2022-10-07* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2022-10-07* — You must still follow any timing restrictions and permissions for the creature spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/116/omniclown-colossus-pie-roclasm) · oracle_id `15954ed7-cab4-4a06-a796-bbc8a48c550d` · printing: UNF #116 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omnipresence
 
@@ -553,7 +615,12 @@
 - **Flavor text** (FRA printing):
   > *Her choice made, Tam called upon the one being who could fix what Jace had done.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18922 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/110/omnipresence) · oracle_id `8dad1fa8-3533-4e3c-b9b3-fcd57b20a33d` · printing: FRA #110 (2026-10-02) · [rulings](https://api.scryfall.com/cards/eaf9dc77-c83b-49cf-84be-6bd791cb925e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2026-08-21* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2026-08-21* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, such as that of Tormenting Voice, those must be paid to cast the spell.
+  - *2026-08-21* — Once you cast Omnipresence, if it's your turn, you'll have priority immediately after it resolves. You can cast another spell before any player can attempt to remove Omnipresence with spells or abilities.
+  - *2026-08-21* — You must follow the normal timing permissions and restrictions of each spell you cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/110/omnipresence) · oracle_id `8dad1fa8-3533-4e3c-b9b3-fcd57b20a33d` · printing: FRA #110 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omnipresent Impostor
 
@@ -566,7 +633,15 @@
   > As you search your library for one or more cards, you may choose Omnipresent Impostor as one of those cards. (For example, if you search for two land cards, you may find Omnipresent Impostor and a land card.)
 - **Keywords:** Changeling
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/504/omnipresent-impostor) · oracle_id `fef7369d-ebd6-4616-8a37-1f57b12bf2c8` · printing: MB2 #504 (2024-08-02) · [rulings](https://api.scryfall.com/cards/34a870d3-c2c4-40e3-adee-666215dbd6d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-11-08* — Each time you search your deck for one or more cards, you can find Omnipresent Impostor in place of one of those cards. If you search your deck for more than one card, you can replace each of those cards with an Omnipresent Impostor as long as there are enough Omnipresent Impostors in your deck. Continue resolving the search effect with Omnipresent Impostor in place of whatever card it replaced. For example, Sakura-Tribe Elder’s activated ability lets you put an Omnipresent Impostor onto the battlefield tapped, while Goblin Engineer’s enters ability lets you put an Omnipresent Impostor into your graveyard.
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — Omnipresent Impostor has the basic supertype, and you can play as many of them as you want in your Constructed decks. These two statements may or may not be related.
+  - *2024-11-08* — Omnipresent Impostor has the names of all cards, including the back faces of double-faced cards. Notably, it doesn’t have the names of tokens, such as Zombie Token, Blood Token, and similar.
+  - *2024-11-08* — Omnipresent Impostor’s second ability is a characteristic-defining ability that functions in all zones as well as outside the game.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/504/omnipresent-impostor) · oracle_id `fef7369d-ebd6-4616-8a37-1f57b12bf2c8` · printing: MB2 #504 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omniscience
 
@@ -595,7 +670,11 @@
 - **Flavor text** (GRN printing):
   > *She memorized every arcane text in the Ismeri Library by the time she was sixteen. Now she quizzes sphinxes in her spare time.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19304 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/49/omnispell-adept) · oracle_id `b575449b-591d-4357-92b7-55137fc7966a` · printing: GRN #49 (2018-10-05) · [rulings](https://api.scryfall.com/cards/e17664df-e8ba-464d-b338-3e671d2d7f0e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-10-05* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2018-10-05* — If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, such as that of Severed Strands, those must be paid to cast the card.
+  - *2018-10-05* — You may cast a sorcery this way even if it’s not your turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/49/omnispell-adept) · oracle_id `b575449b-591d-4357-92b7-55137fc7966a` · printing: GRN #49 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omnivorous Flytrap
 
@@ -606,7 +685,9 @@
   > Delirium — Whenever this creature enters or attacks, if there are four or more card types among cards in your graveyard, distribute two +1/+1 counters among one or two target creatures. Then if there are six or more card types among cards in your graveyard, double the number of +1/+1 counters on those creatures.
 - **Keywords:** Delirium, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13787 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/192/omnivorous-flytrap) · oracle_id `0aa2ab46-c5ad-462b-b441-dbbc4b2c3532` · printing: DSK #192 (2024-09-27) · [rulings](https://api.scryfall.com/cards/4370a197-68cc-46dd-bf0a-e9dab4ff6638/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — To double the number of +1/+1 counters on a permanent, put a number of +1/+1 counters on it equal to the number it already has. Other effects that interact with putting counters on it will interact with this effect accordingly.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/192/omnivorous-flytrap) · oracle_id `0aa2ab46-c5ad-462b-b441-dbbc4b2c3532` · printing: DSK #192 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omo, Queen of Vesuva
 

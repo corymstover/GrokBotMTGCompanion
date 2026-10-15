@@ -19,4 +19,5 @@
   > When X enters, you may put it into target opponent's hand. If you do, as long as it remains in their hand, that player can't cast X and they play with their hand revealed.
   > During your turn while X is in an opponent's hand, you may activate abilities of nonland permanents opponents control. If you activate the crew or saddle ability of a permanent this way, gain control of it until end of turn. Untap it. It gains haste until end of turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ05i/x-mystery-racer) · oracle_id `a097ca92-c032-481c-8447-582c4ad50d02` · printing: UNK #RZ05i (2025-02-21) · [rulings](https://api.scryfall.com/cards/ad2f0b29-f2dd-43ac-b437-2bce46a3781b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

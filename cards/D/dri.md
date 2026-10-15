@@ -57,7 +57,11 @@
   > *They study the deeds of their traitorous ancestors, hoping the stories may reveal a way back to the physical world.*
 - **Keywords:** Shadow
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25758 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/65/drifter-il-dal) · oracle_id `dbe8ad46-d862-4ff6-bf17-238fb8341075` · printing: TSR #65 (2021-03-19) · [rulings](https://api.scryfall.com/cards/d40c45e7-f157-4b3f-a627-09b5c27473ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-03-19* — If an attacking creature has multiple evasion abilities, such as shadow and flying, a creature can block it only if that creature satisfies all of the appropriate evasion abilities.
+  - *2021-03-19* — Multiple instances of shadow on the same creature are redundant.
+  - *2021-03-19* — Once a creature has been blocked, that creature remains blocked and will deal and be dealt combat damage even if it gains or loses shadow or if the blocking creature gains or loses shadow.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/65/drifter-il-dal) · oracle_id `dbe8ad46-d862-4ff6-bf17-238fb8341075` · printing: TSR #65 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Driftgloom Coyote
 
@@ -69,7 +73,12 @@
 - **Flavor text** (BLB printing):
   > *"The fog is descending like a starving beast. I believe our expedition ends here."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21591 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/11/driftgloom-coyote) · oracle_id `f76a86f3-568a-40b3-8e2c-f84db4141293` · printing: BLB #11 (2024-08-02) · [rulings](https://api.scryfall.com/cards/d7ab2de3-3aea-461a-a74f-fb742cf8a198/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-07-26* — Auras attached to the exiled creature will be put into their owners’ graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
+  - *2024-07-26* — If Driftgloom Coyote leaves the battlefield before its triggered ability resolves, the target creature won’t be exiled.
+  - *2024-07-26* — If a token is exiled this way, it will cease to exist and won’t return to the battlefield.
+  - *2024-07-26* — Use the power of the exiled creature as it last existed on the battlefield to determine whether or not to put a +1/+1 counter on Driftgloom Coyote.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/11/driftgloom-coyote) · oracle_id `f76a86f3-568a-40b3-8e2c-f84db4141293` · printing: BLB #11 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drifting Djinn
 
@@ -82,7 +91,9 @@
   > Cycling {2} ({2}, Discard this card: Draw a card.)
 - **Keywords:** Flying, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30595 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/71/drifting-djinn) · oracle_id `fdea1945-0bb6-4a83-8cb1-5ba6a4dc39bd` · printing: USG #71 (1998-10-12) · [rulings](https://api.scryfall.com/cards/971d0eda-91b8-48f2-a988-016bcc7ab35e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You choose whether to pay or not on resolution. If not, then you sacrifice Drifting Djinn. You can choose to not pay if you no longer control this card on resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/71/drifting-djinn) · oracle_id `fdea1945-0bb6-4a83-8cb1-5ba6a4dc39bd` · printing: USG #71 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drifting Meadow
 
@@ -109,6 +120,7 @@
   > *It stalks the fens by the light of the full moon, gathering shadows as it floats among them.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29301 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m12/96/drifting-shade) · oracle_id `fa3883c7-4fb4-48b9-847b-9a94d1988dd7` · printing: M12 #96 (2011-07-15) · [rulings](https://api.scryfall.com/cards/00dcb25e-764b-47d6-bec4-225aaace77b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drift of Phantasms
@@ -138,6 +150,7 @@
   > *—Lim-Dûl, the Necromancer*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23900 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/86/drift-of-the-dead) · oracle_id `bcea5e7e-655d-48ea-871e-28ca49e5c574` · printing: ME2 #86 (2008-09-22) · [rulings](https://api.scryfall.com/cards/2d96224a-178d-4d41-bc6a-b5ccfd27ed2f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drill Bit
@@ -151,7 +164,14 @@
   > *Never boring.*
 - **Keywords:** Spectacle
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23525 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/73/drill-bit) · oracle_id `0dbd6e47-a8b4-4268-ba44-8924cd4963a6` · printing: RNA #73 (2019-01-25) · [rulings](https://api.scryfall.com/cards/73f8710c-9c5e-4d11-b45f-0728c54bd631/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-01-12* — A card's spectacle cost is the same no matter how much life your opponents lost or how many opponents lost life.
+  - *2024-01-12* — Damage dealt to a player causes that player to lose that much life.
+  - *2024-01-12* — In a multiplayer game, if an opponent loses life and later that turn leaves the game, you can cast a spell for its spectacle cost. (If a player leaves the game during their turn, that turn continues without an active player.)
+  - *2024-01-12* — Spectacle cares only that an opponent lost life during the turn, not that the opponent's life total is currently lower than it was. For example, if an opponent loses 1 life and then gains 2 life in the same turn, you can cast a spell for its spectacle cost that turn.
+  - *2024-01-12* — Spectacle doesn't change when you can cast the spell. For example, you can't cast a sorcery with spectacle during an opponent's turn unless another effect allows you to do so, even if that player has lost life this turn.
+  - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a spectacle cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/73/drill-bit) · oracle_id `0dbd6e47-a8b4-4268-ba44-8924cd4963a6` · printing: RNA #73 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drill-Skimmer
 
@@ -165,6 +185,7 @@
   > *In close proximity, their magnetic energies merge and form a field of protection.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27442 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dst/118/drill-skimmer) · oracle_id `45657f7f-9760-41f9-bcf7-9fbd2bbdb918` · printing: DST #118 (2004-02-06) · [rulings](https://api.scryfall.com/cards/3b60dc6a-3b38-4dde-9dd4-aa49a53f29ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drill Too Deep
@@ -178,6 +199,7 @@
 - **Flavor text** (EOE printing):
   > *The rapacious appetite that ended their world became the only means by which the Kav could lift their civilization from it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12096 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/133/drill-too-deep) · oracle_id `0413e0e4-c8f8-44c3-a749-c799766bc8cd` · printing: EOE #133 (2025-08-01) · [rulings](https://api.scryfall.com/cards/b9d3b6e8-47c8-49e3-b204-8b659e127bde/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drillworks Mole
@@ -190,7 +212,9 @@
 - **Flavor text** (CLB printing):
   > *The Flaming Fist soldiers prepared to face a bulette, or worse, but the cause of the rumblings turned out to be much more benign and bizarre.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10249 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/311/drillworks-mole) · oracle_id `9fa3286b-ee10-4f68-bfc3-974cdc39d986` · printing: CLB #311 (2022-06-10) · [rulings](https://api.scryfall.com/cards/9803002e-08f8-4533-b645-7e54d18bbc54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-06-10* — If you target a commander creature with Drillworks Mole's activated ability and that creature is no longer a legal target as the ability resolves, you will not put a +1/+1 counter on Drillworks Mole. Conversely, if the target is still legal, you will put a counter on the commander creature you control, even if Drillworks Mole is no longer on the battlefield as the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/311/drillworks-mole) · oracle_id `9fa3286b-ee10-4f68-bfc3-974cdc39d986` · printing: CLB #311 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drinker of Sorrow
 
@@ -203,7 +227,9 @@
 - **Flavor text** (LGN printing):
   > *It strikes at your soul, heedless of your prayers.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13101 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lgn/66/drinker-of-sorrow) · oracle_id `6208534d-e7c7-43ef-b8b2-fea1d82459e8` · printing: LGN #66 (2003-02-03) · [rulings](https://api.scryfall.com/cards/2bc8758b-68cc-45ab-85d0-b870cef7dd85/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You only sacrifice one permanent, no matter how many things it deals damage to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lgn/66/drinker-of-sorrow) · oracle_id `6208534d-e7c7-43ef-b8b2-fea1d82459e8` · printing: LGN #66 (2003-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dripping Dead
 
@@ -216,6 +242,7 @@
 - **Flavor text** (LGN printing):
   > *It oozes death from every pore.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30939 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lgn/67/dripping-dead) · oracle_id `bf0c85d7-16a0-46a5-a3a6-5591849bef60` · printing: LGN #67 (2003-02-03) · [rulings](https://api.scryfall.com/cards/cdb3b483-01a8-4f54-9a3a-0d3f5aa3cd8b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dripping-Tongue Zubera
@@ -228,6 +255,7 @@
 - **Flavor text** (CHK printing):
   > *When the Honden of Life's Web was destroyed, its attendants swarmed Kamigawa to ensure mortal defeat.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27036 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/206/dripping-tongue-zubera) · oracle_id `78b1cb2d-1b48-4068-b6f3-8727ef9e8080` · printing: CHK #206 (2004-10-01) · [rulings](https://api.scryfall.com/cards/e752b762-38b7-463c-aa09-37fecfe71a53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Driven // Despair
@@ -240,7 +268,21 @@
   > Until end of turn, creatures you control gain menace and "Whenever this creature deals combat damage to a player, that player discards a card."
 - **Keywords:** Aftermath
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14657 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/157/driven-despair) · oracle_id `87fca901-678d-4c9a-be4a-9dce2a53074b` · printing: HOU #157 (2017-07-14) · [rulings](https://api.scryfall.com/cards/7713ba59-dd4c-4b49-93a7-292728df86b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2017-04-18* — A spell with aftermath cast from a graveyard will always be exiled afterward, whether it resolves, it's countered, or it leaves the stack in some other way.
+  - *2017-04-18* — All split cards have two card faces on a single card, and you put a split card onto the stack with only the half you're casting. The characteristics of the half of the card you didn't cast are ignored while the spell is on the stack. For example, if an effect prevents you from casting green spells, you can cast Destined of Destined // Lead, but not Lead.
+  - *2017-04-18* — Each split card has two names. If an effect instructs you to choose a card name, you may choose one, but not both.
+  - *2017-04-18* — Each split card is a single card. For example, if you discard one, you've discarded one card, not two. If an effect counts the number of instant and sorcery cards in your graveyard, Destined // Lead counts once, not twice.
+  - *2017-04-18* — If another effect allows you to cast a split card with aftermath from a graveyard, you may cast either half. If you cast the half that has aftermath, you'll exile the card if it would leave the stack.
+  - *2017-04-18* — If another effect allows you to cast a split card with aftermath from any zone other than a graveyard, you can't cast the half with aftermath.
+  - *2017-04-18* — If you cast the first half of a split card with aftermath during your turn, you'll have priority immediately after it resolves. You can cast the half with aftermath from your graveyard before any player can take any other action if it's legal for you to do so.
+  - *2017-04-18* — Split cards with aftermath have a new frame treatment—the half you can cast from your hand is oriented the same as other cards you'd cast from your hand, while the half you can cast from your graveyard is a traditional split card half. This frame treatment is for your convenience and has no rules significance.
+  - *2017-04-18* — While not on the stack, the characteristics of a split card are the combination of its two halves. For example, Destined // Lead is a green and black card, it is both an instant card and a sorcery card, and its mana value is 6. This means that if an effect allows you to cast a card with mana value 2 from your hand, you can't cast Destined. This is a change from the previous rules for split cards.
+  - *2017-07-14* — Driven and Despair each affect only creatures you control at the time it resolves. Creatures you begin to control later in the turn won't gain the keyword ability or the triggered ability.
+  - *2017-07-14* — If you resolve multiples of Driven or of Despair in one turn, your creatures have that many instances of the appropriate triggered ability. Each instance triggers separately.
+  - *2017-07-14* — Multiple instances of trample or menace are redundant.
+  - *2017-07-14* — Once you've started to cast a spell with aftermath from your graveyard, the card is immediately moved to the stack. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/157/driven-despair) · oracle_id `87fca901-678d-4c9a-be4a-9dce2a53074b` · printing: HOU #157 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Driver of the Dead
 
@@ -252,7 +294,11 @@
 - **Flavor text** (FDN printing):
   > *Some vampires resorted to corpse trading after cathars burned their estates and drove them from their ancestral feeding grounds.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18421 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/605/driver-of-the-dead) · oracle_id `7c179e54-3beb-4761-bddf-41fa98b082db` · printing: FDN #605 (2024-11-15) · [rulings](https://api.scryfall.com/cards/4443696a-0b9a-4081-91aa-800b5c4065d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — If Driver of the Dead dies at the same time as a creature with mana value 2 or less, you can target that card and return it to the battlefield.
+  - *2024-11-08* — If a card in a player's graveyard has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+  - *2024-11-08* — If a creature card with mana value 2 or less becomes a copy of Driver of the Dead and dies, it can be the target of its own ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/605/driver-of-the-dead) · oracle_id `7c179e54-3beb-4761-bddf-41fa98b082db` · printing: FDN #605 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drive to Work
 
@@ -261,6 +307,7 @@
 - **Oracle text:**
   > Exile target creature or Vehicle. At the beginning of the next end step, return that card to the battlefield under its owner's control. Then you may share a story or fun fact about that card. If you do, you gain 3 life.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/CW11/drive-to-work) · oracle_id `8c768e86-4181-462b-a6a5-4ca0f6660380` · printing: UNK #CW11 (2024-10-25) · [rulings](https://api.scryfall.com/cards/6e4b2cff-9fa2-40f4-9b8d-94d537b97c80/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drivnod, Carnage Dominus
@@ -309,4 +356,6 @@
   > Whenever a creature dies, if it had power greater than Drizzt's power, put a number of +1/+1 counters on Drizzt equal to the difference.
 - **Keywords:** Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14696 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/220/drizzt-dourden) · oracle_id `1e939df0-d421-42b7-b642-88b3555fd8df` · printing: AFR #220 (2021-07-23) · [rulings](https://api.scryfall.com/cards/46e3259e-93c2-48c0-8b96-835cdb883383/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-07-23* — Drizzt's last ability checks his power both at the time the creature dies and at the time the ability resolves. Notably, this means that if several creatures with power greater than Drizzt's die at the same time, Drizzt's ability will trigger that many times, but some of those abilities may not put counters on him as they resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/220/drizzt-dourden) · oracle_id `1e939df0-d421-42b7-b642-88b3555fd8df` · printing: AFR #220 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

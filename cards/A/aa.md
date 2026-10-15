@@ -57,6 +57,7 @@
   > *Monk Gyatso taught Aang many things, most importantly to live with joy.*
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11828 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/210/aang-air-nomad) · oracle_id `e46b2ac6-97d6-48f2-aba3-cd92f8e092c6` · printing: TLE #210 (2025-11-21) · [rulings](https://api.scryfall.com/cards/f369827d-e4cd-4bc7-8c5e-72882eff0908/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aang, A Lot to Learn
@@ -70,7 +71,9 @@
 - **Flavor text** (TLE printing):
   > *"First you form a ball. Then you've got to get on quick!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21222 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/146/aang-a-lot-to-learn) · oracle_id `854278bc-2bcf-45dd-abd5-6aca7a1e5fc9` · printing: TLE #146 (2025-11-21) · [rulings](https://api.scryfall.com/cards/50a22ad6-d2a4-48a6-91c9-147c946a60a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-10-02* — Gaining vigilance any time after the moment you choose to attack with Aang, A Lot to Learn won't cause him to become untapped, and losing vigilance after that time won't cause it to become tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/146/aang-a-lot-to-learn) · oracle_id `854278bc-2bcf-45dd-abd5-6aca7a1e5fc9` · printing: TLE #146 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aang and Katara
 
@@ -114,6 +117,7 @@
   > *"I guess you've never fought an Airbender before."*
   > *—Aang*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15303 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/211/aangs-defense) · oracle_id `92b617f9-6e6b-42a0-9c45-6ff5f6193051` · printing: TLE #211 (2025-11-21) · [rulings](https://api.scryfall.com/cards/642e1b90-c240-44fe-82b2-7522026224ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aang's Iceberg
@@ -238,6 +242,7 @@
   > *Even Firebenders hate fire ants, so the Sun Warriors ensure the sloths are free to eat their fill.*
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25323 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/212/aardvark-sloth) · oracle_id `1c385880-3eea-45c8-8e89-330ad8ad92b1` · printing: TLE #212 (2025-11-21) · [rulings](https://api.scryfall.com/cards/e16365a2-4969-4ad5-af95-9dd2d0499f06/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aardwolf's Advantage
@@ -250,6 +255,7 @@
   > *"My Abattoir Ghoul deck is unstoppable. Wait, 1996 World Champion?"*
   > *—Johnny, to Spike*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32193 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/97/aardwolfs-advantage) · oracle_id `4c445455-5b91-4c22-8b3b-8cff4e97f00a` · printing: UNF #97 (2022-10-07) · [rulings](https://api.scryfall.com/cards/c775a7d1-a1f7-460b-b1f4-888006058e15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aatchik, Emerald Radian

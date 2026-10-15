@@ -75,6 +75,7 @@
   > {R}: This creature gets +0/+1 until end of turn.
 - **Keywords:** Echo, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32154 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/153/basalt-gargoyle) · oracle_id `83a38c8d-e2f6-404b-83be-9cfce037d6e2` · printing: TSR #153 (2021-03-19) · [rulings](https://api.scryfall.com/cards/9d49201b-bd41-49b7-b00e-4ab8034a3a03/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basalt Golem
@@ -86,7 +87,9 @@
   > This creature can't be blocked by artifact creatures.
   > Whenever this creature becomes blocked by a creature, that creature's controller sacrifices it at end of combat. If the player does, they create a 0/2 colorless Wall artifact creature token with defender.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26071 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mir/294/basalt-golem) · oracle_id `9155f78e-0ccc-4e08-ae79-ef5b2db1183f` · printing: MIR #294 (1996-10-08) · [rulings](https://api.scryfall.com/cards/5ff538f9-10b4-4327-aea6-a86759daf488/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2005-11-01* — The token creature is put onto the battlefield at the end of combat only if the blocking creature is sacrificed during the resolution of the triggered ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mir/294/basalt-golem) · oracle_id `9155f78e-0ccc-4e08-ae79-ef5b2db1183f` · printing: MIR #294 (1996-10-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basal Thrull
 
@@ -99,6 +102,7 @@
   > *Initially bred for sacrifice, the thrulls eventually turned on their masters, the Order of the Ebon Hand, with gruesome results.*
   > *—\*Sarpadian Empires, vol. II\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12564 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/59/basal-thrull) · oracle_id `9da50130-3f83-4968-983c-7dcba257cf1b` · printing: ME1 #59 (2007-09-10) · [rulings](https://api.scryfall.com/cards/f4cf027e-2021-4ce7-b156-199cf1ca25eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basalt Monolith
@@ -122,7 +126,9 @@
 - **Oracle text:**
   > When this creature enters, it deals X damage to any target, where X is the greatest number of creatures you control that have a creature type in common.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10770 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/122/basalt-ravager) · oracle_id `980c32ff-c154-4ac9-adc2-ed3a85c8d71c` · printing: KHM #122 (2021-02-05) · [rulings](https://api.scryfall.com/cards/b32aea04-04f7-48a8-a8ab-8b38fa53da3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-02-05* — The amount of damage dealt is calculated as the triggered ability resolves based on the creatures you control at that time, including Basalt Ravager itself if it’s still under your control. You’ll always use the greatest number possible. You don’t need to choose any creature types. For example, if you control a Giant Wizard, a Giant Warrior, an Elf Warrior, and a Kor Warrior at that time, Basalt Ravager will deal 3 damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/122/basalt-ravager) · oracle_id `980c32ff-c154-4ac9-adc2-ed3a85c8d71c` · printing: KHM #122 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basandra, Battle Seraph
 
@@ -137,7 +143,11 @@
   > *"Why listen to the mumblings of wizards when the lash speaks true?"*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13013 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cma/174/basandra-battle-seraph) · oracle_id `4a480736-4cdc-4e3a-a8cb-d1c726982f9f` · printing: CMA #174 (2017-06-09) · [rulings](https://api.scryfall.com/cards/6e5baa27-3f6b-49bb-9927-5afc21b9cc3f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2011-09-22* — If, during a player’s declare attackers step, a creature is tapped, is affected by a spell or ability that says it can’t attack, or hasn’t been under that player’s control continuously since the turn began (and doesn’t have haste), then it doesn’t attack. If there’s a cost associated with having a creature attack, the player isn’t forced to pay that cost, so it doesn’t have to attack in that case either.
+  - *2011-09-22* — Players may still activate abilities during combat.
+  - *2011-09-22* — While Basandra, Battle Seraph is on the battlefield, players can’t cast any spells during the combat phase, including permanent spells with flash.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cma/174/basandra-battle-seraph) · oracle_id `4a480736-4cdc-4e3a-a8cb-d1c726982f9f` · printing: CMA #174 (2017-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baseball Bat
 
@@ -150,6 +160,7 @@
   > Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19118 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/209/baseball-bat) · oracle_id `9b5a3765-943b-4925-b008-fc734b2934f7` · printing: DSK #209 (2024-09-27) · [rulings](https://api.scryfall.com/cards/438accb1-6d2c-4710-adeb-df4301a7b8f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Base Camp
@@ -163,7 +174,9 @@
 - **Flavor text** (ZNR printing):
   > *A new dawn, a new adventure.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11130 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/257/base-camp) · oracle_id `41fbf835-baee-4530-9155-e2c1b9045567` · printing: ZNR #257 (2020-09-25) · [rulings](https://api.scryfall.com/cards/dc85412e-333d-4e7d-8c85-40618cf1b6c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-09-25* — The mana generated by Base Camp’s last ability can’t be spent to activate abilities of cards that aren’t on the battlefield or to pay a cost in a resolving triggered ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/257/base-camp) · oracle_id `41fbf835-baee-4530-9155-e2c1b9045567` · printing: ZNR #257 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bashful Beastie
 
@@ -176,7 +189,24 @@
   > *No one knows what hides beneath the beasties' masks.*
 - **Keywords:** Manifest, Manifest dread
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22370 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/169/bashful-beastie) · oracle_id `e7aeabd9-a72c-47ee-b275-b025d7142766` · printing: DSK #169 (2024-09-27) · [rulings](https://api.scryfall.com/cards/c20fa7ee-a4c2-4eb0-9467-195f3b894fa0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2024-09-20* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent and Auras and Equipment that were attached to that permanent aren't affected unless the new characteristics of the object change the legality of those targets or attachments.
+  - *2024-09-20* — Any time you have priority, you can turn a manifested permanent you control face up by revealing that it's a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2024-09-20* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down permanents or spells you don't control unless an effect instructs or allows you to do so.
+  - *2024-09-20* — Because face-down creatures don't have a name, they can't have the same name as any other creature, even another face-down creature.
+  - *2024-09-20* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2024-09-20* — If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can't transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up.
+  - *2024-09-20* — If a face-down creature loses its abilities, it can't be turned face up with a disguise or morph ability because it will no longer have that ability (or the associated cost) once face up.
+  - *2024-09-20* — If a face-down spell leaves the stack and goes to any zone other than the battlefield (if it was countered, for example), you must reveal it. Similarly, if a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or the game ends.
+  - *2024-09-20* — If a manifested creature would have disguise or morph if it were face up, you may also turn it face up by paying its disguise or morph cost, as appropriate.
+  - *2024-09-20* — If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it's an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won't trigger, because even though you revealed the card, it never turned face up.
+  - *2024-09-20* — If your library contains only one card when you manifest dread, you'll look at that card and put it onto the battlefield face down. You won't have the option to put it into your graveyard instead. If your library contains no cards when you manifest dread, you won't do anything.
+  - *2024-09-20* — Some cards in the Duskmourn release have abilities that trigger "whenever you manifest dread." In circumstances where you are instructed to manifest dread but can't perform some or all of the steps of manifesting dread (probably because your library has one or fewer cards in it), these abilities will still trigger.
+  - *2024-09-20* — To manifest dread, look at the top two cards of your library. Manifest one (by putting it onto the battlefield face down) and put the other into your graveyard. The card you put onto the battlefield becomes a 2/2 face-down creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant it any characteristics it doesn't have or change the characteristics it does have.
+  - *2024-09-20* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2024-09-20* — Unlike a face-down creature that was cast using a disguise or morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
+  - *2024-09-20* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered should remain clear, as well as what ability caused them to be face down. (This includes manifest, disguise, cloak, morph, and a few older effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/169/bashful-beastie) · oracle_id `e7aeabd9-a72c-47ee-b275-b025d7142766` · printing: DSK #169 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bash to Bits
 
@@ -187,7 +217,14 @@
   > Flashback {4}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28337 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ody/176/bash-to-bits) · oracle_id `894b8375-5d55-4138-8448-c38f83a17e4f` · printing: ODY #176 (2001-10-01) · [rulings](https://api.scryfall.com/cards/694b24de-d7f8-49c6-8ab3-d5fab13b6a8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it’s legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you’re paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card’s type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+  - *2021-03-19* — “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/ody/176/bash-to-bits) · oracle_id `894b8375-5d55-4138-8448-c38f83a17e4f` · printing: ODY #176 (2001-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basic Conjuration
 
@@ -198,7 +235,10 @@
 - **Flavor text** (STX printing):
   > *"I made that! It's mine! Did you see that?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17550 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/120/basic-conjuration) · oracle_id `547ab16c-b8d1-4357-9219-7cabde80f5ba` · printing: STX #120 (2021-04-23) · [rulings](https://api.scryfall.com/cards/8be52d88-f430-4437-a0d3-590c2947c838/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-04-16* — Although you may want to include Lessons in your sideboard if you’re playing with cards that instruct you to learn, Lesson cards can be included in your main deck like other instant or sorcery cards.
+  - *2021-04-16* — Lesson is a spell subtype found on some instant and sorcery cards in the Strixhaven set. The Lesson subtype has no special rules associated with it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/120/basic-conjuration) · oracle_id `547ab16c-b8d1-4357-9219-7cabde80f5ba` · printing: STX #120 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basilica Bell-Haunt
 
@@ -210,7 +250,9 @@
 - **Flavor text** (RNA printing):
   > *You can hear their tolling only when your debt is due.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20940 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/156/basilica-bell-haunt) · oracle_id `796dc53d-5a0d-4d19-9fa4-f474a9d96041` · printing: RNA #156 (2019-01-25) · [rulings](https://api.scryfall.com/cards/e72f4329-db6f-4284-b63e-55f22a0a0f6e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-01-25* — You gain 3 life even if some or all of your opponents can’t discard a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/156/basilica-bell-haunt) · oracle_id `796dc53d-5a0d-4d19-9fa4-f474a9d96041` · printing: RNA #156 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basilica Guards
 
@@ -224,7 +266,12 @@
   > *"None may pass . . . for free."*
 - **Keywords:** Extort, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15725 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/7/basilica-guards) · oracle_id `24d2e266-2dcb-40f1-a465-cfc63e9aa6ae` · printing: RVR #7 (2024-01-12) · [rulings](https://api.scryfall.com/cards/5ba068ef-7f08-474f-beea-575568dd6963/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-01-12* — The amount of life you gain from extort is based on the total amount of life lost, not necessarily the number of opponents you have. For example, if your opponent's life total can't change (perhaps because that player controls Platinum Emperion), you won't gain any life.
+  - *2024-01-12* — The extort ability doesn't target any player.
+  - *2024-01-12* — The extort ability resolves before the spell that caused it to trigger. The ability resolves even if that spell is countered.
+  - *2024-01-12* — You may pay {W/B} a maximum of one time for each extort triggered ability. You decide whether to pay when the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/7/basilica-guards) · oracle_id `24d2e266-2dcb-40f1-a465-cfc63e9aa6ae` · printing: RVR #7 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basilica Screecher
 
@@ -255,7 +302,15 @@
   > When this creature enters, create two 1/1 colorless Phyrexian Mite artifact creature tokens with toxic 1 and "This token can't block." (Players dealt combat damage by them also get a poison counter.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10645 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/4/basilica-shepherd) · oracle_id `929c67aa-49ff-4401-85e8-76990fe1a369` · printing: ONE #4 (2023-02-10) · [rulings](https://api.scryfall.com/cards/81ef3cfa-63e6-4450-af65-da7f05d13cf3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-02-04* — A player with ten or more poison counters loses the game. This is a state-based action and doesn't use the stack. In other words, it happens immediately and players can't respond to it, just like a player losing the game due to having 0 or less life.
+  - *2023-02-04* — Any other effects of that damage, such as life gain from lifelink, still apply.
+  - *2023-02-04* — Conversely, replacement effects that apply to the number of counters put on a player can modify the counters placed this way. For example, Vorinclex, Monstrous Raider's last two abilities can apply to counters placed this way.
+  - *2023-02-04* — Damage dealt by a creature with toxic grants the same number of counters regardless of how much damage is dealt. Notably, if a replacement effect modifies the damage in some way (such as that of Gratuitous Violence), the number of counters given remains unchanged.
+  - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
+  - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
+  - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/4/basilica-shepherd) · oracle_id `929c67aa-49ff-4401-85e8-76990fe1a369` · printing: ONE #4 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basilica Skullbomb
 
@@ -267,7 +322,9 @@
 - **Flavor text** (ONE printing):
   > *It shines with the conviction of a zealous acolyte.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15038 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/224/basilica-skullbomb) · oracle_id `43057d84-b424-489c-abec-3fb4cb823d80` · printing: ONE #224 (2023-02-10) · [rulings](https://api.scryfall.com/cards/8e2f0ae2-db68-4338-93f9-9d9268cec41e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-02-04* — If the target of Basilica Skullbomb's last ability isn't a legal target as the ability tries to resolve (probably because it has left the battlefield), you won't draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/224/basilica-skullbomb) · oracle_id `43057d84-b424-489c-abec-3fb4cb823d80` · printing: ONE #224 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basilica Stalker
 
@@ -280,7 +337,20 @@
   > Disguise {4}{B} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)
 - **Keywords:** Flying, Surveil, Disguise
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22082 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/78/basilica-stalker) · oracle_id `e335485a-80fc-40d4-8be6-7eabf2bab571` · printing: MKM #78 (2024-02-09) · [rulings](https://api.scryfall.com/cards/fdafea8f-283d-4f19-a74a-669bfbdfed98/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2024-02-02* — A disguise ability lets you cast a card face down by paying {3} and announcing that you are using a disguise ability. Any time you have priority, you can turn a face-down permanent with disguise face up by paying its disguise cost.
+  - *2024-02-02* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent and Auras and Equipment that were attached to that permanent aren't affected unless the new characteristics of the object change the legality of those targets or attachments.
+  - *2024-02-02* — Any time you have priority, you may turn the face-down creature face up by revealing what its disguise cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2024-02-02* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down permanents or spells you don't control unless an effect instructs or allows you to do so.
+  - *2024-02-02* — Because face-down creatures don't have a name, they can't have the same name as any other creature, even another face-down creature.
+  - *2024-02-02* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2024-02-02* — If a face-down creature loses its abilities, it can't be turned face up with a disguise ability because it will no longer have a disguise ability (or a disguise cost) once face up.
+  - *2024-02-02* — If a face-down spell leaves the stack and goes to any zone other than the battlefield (if it was countered, for example), you must reveal it. Similarly, if a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or the game ends.
+  - *2024-02-02* — The creature spell is a 2/2 creature spell with ward {2} that has no name, mana cost, or creature types. The resulting creature is a 2/2 creature with ward {2} that has no name, mana cost, or creature types. Both the spell and the resulting creature are colorless and have a mana value of 0. Other effects that apply to the spell or creature can still grant it any characteristics it doesn't have or change the characteristics it does have.
+  - *2024-02-02* — The face-down spell has no mana cost and a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3} to cast it. This is an alternative cost.
+  - *2024-02-02* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2024-02-02* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/78/basilica-stalker) · oracle_id `e335485a-80fc-40d4-8be6-7eabf2bab571` · printing: MKM #78 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basilisk Collar
 
@@ -378,7 +448,10 @@
   > *—Nelli, Oltec didact*
 - **Keywords:** Descend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23597 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/175/basking-capybara) · oracle_id `0ce678fa-6495-4857-b178-231c283b4514` · printing: LCI #175 (2023-11-17) · [rulings](https://api.scryfall.com/cards/ff0a2ba4-dfa8-49d6-95e9-04b7a14d0c6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — Cards with the ability word "descend N" have abilities that care if you have at least N permanent cards in your graveyard.
+  - *2023-11-10* — Some descend triggered abilities include intervening "if" clauses (i.e. "if you have [four or eight] permanent cards in your graveyard" in the middle of the ability). Each of these abilities checks your graveyard at the moment it would trigger to see if it does. If you don't have the required number of permanent cards in your graveyard at that time, the ability doesn't trigger at all. If it does trigger, it will check again as it tries to resolve. If you don't have the required number of permanent cards in your graveyard at that time, the ability won't resolve and none of its effects will happen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/175/basking-capybara) · oracle_id `0ce678fa-6495-4857-b178-231c283b4514` · printing: LCI #175 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basking Rootwalla
 
@@ -390,7 +463,18 @@
   > Madness {0} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
 - **Keywords:** Madness
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17475 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/156/basking-rootwalla) · oracle_id `b2ec080f-ad5d-4274-91e3-bc6ac89fc3e4` · printing: UMA #156 (2018-12-07) · [rulings](https://api.scryfall.com/cards/26bfde99-7761-48e1-851a-522f888d0f6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2006-02-01* — If this card's ability is activated by one player, then another player takes control of it on the same turn, the second player can't activate its ability that turn.
+  - *2022-12-08* — A card with madness that's discarded counts as having been discarded even though it's put into exile rather than a graveyard. If it was discarded to pay a cost, that cost is still paid. Abilities that trigger when a card is discarded will still trigger.
+  - *2022-12-08* — A spell cast for its madness cost is put onto the stack like any other spell. It can be countered, copied, and so on. As it resolves, it's put onto the battlefield if it's a permanent card or into its owner's graveyard if it's an instant or sorcery card.
+  - *2022-12-08* — Cards are discarded in a Magic game only from a player's hand. Effects that put cards into a player's graveyard from anywhere else do not cause those cards to be discarded.
+  - *2022-12-08* — Casting a spell with madness ignores the timing rules based on the card's card type. For example, you can cast a sorcery with madness if you discard it during an opponent's turn.
+  - *2022-12-08* — If you choose not to cast a card with madness when the madness triggered ability resolves, it's put into your graveyard. Madness doesn't give you another chance to cast it later.
+  - *2022-12-08* — If you discard a card with madness to pay the cost of a spell or activated ability, that card's madness triggered ability (and the spell that card becomes, if you choose to cast it) will resolve before the spell or ability the discard paid for.
+  - *2022-12-08* — If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.
+  - *2022-12-08* — Madness works independently of why you're discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can't discard a card with madness just because you want to, though.
+  - *2022-12-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a madness cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/156/basking-rootwalla) · oracle_id `b2ec080f-ad5d-4274-91e3-bc6ac89fc3e4` · printing: UMA #156 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basri, Devoted Paladin
 
@@ -402,7 +486,10 @@
   > −1: Whenever a creature attacks this turn, put a +1/+1 counter on it.
   > −6: Creatures you control get +2/+2 and gain flying until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22707 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/320/basri-devoted-paladin) · oracle_id `1601e553-31c2-4e04-9f0c-bc17e49eeff7` · printing: M21 #320 (2020-07-03) · [rulings](https://api.scryfall.com/cards/2688b45d-9d74-4d9f-9a63-29c82b48d64f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-06-23* — After activating Basri's second ability, a creature that attacks gets a +1/+1 counter before blockers are chosen.
+  - *2020-06-23* — Basri's last ability affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won't get +2/+2 or gain flying.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/320/basri-devoted-paladin) · oracle_id `1601e553-31c2-4e04-9f0c-bc17e49eeff7` · printing: M21 #320 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basri Ket
 
@@ -434,7 +521,9 @@
   > *Basri carries on his god's legacy, spreading her teachings throughout the Multiverse.*
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14637 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/8/basris-acolyte) · oracle_id `92c824da-2351-43bd-9fa0-d09709ad8205` · printing: M21 #8 (2020-07-03) · [rulings](https://api.scryfall.com/cards/08d1dd97-2675-4953-ab95-d47d23abfe05/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-06-23* — You can't target the same creature twice with the triggered ability of Basri's Acolyte to give it two +1/+1 counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/8/basris-acolyte) · oracle_id `92c824da-2351-43bd-9fa0-d09709ad8205` · printing: M21 #8 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basri's Aegis
 
@@ -446,7 +535,10 @@
   > *"As long as we survive, we can rebuild."*
   > *—Basri Ket*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28766 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/322/basris-aegis) · oracle_id `9825dab8-ca1a-44ea-b1d7-77c66f00351f` · printing: M21 #322 (2020-07-03) · [rulings](https://api.scryfall.com/cards/577657ed-162f-4104-b0af-ee9733e90f20/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-06-23* — If do you choose targets and each target creature is an illegal target by the time Basri's Aegis tries to resolve, the spell won't resolve. You won't search for Basri. If just one target is still legal, however, you do put a +1/+1 counter on it and search for Basri.
+  - *2020-06-23* — You can cast Basri's Aegis without any target creatures. You'll just search for Basri, Devoted Paladin.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/322/basris-aegis) · oracle_id `9825dab8-ca1a-44ea-b1d7-77c66f00351f` · printing: M21 #322 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basri's Lieutenant
 
@@ -476,6 +568,7 @@
   > *"The will to fight and act as one is not limited to a single world. Oketra's teachings are universal."*
   > *—Basri Ket*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10396 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/10/basris-solidarity) · oracle_id `68281e06-64e3-490b-8691-8f4169614ec0` · printing: M21 #10 (2020-07-03) · [rulings](https://api.scryfall.com/cards/c2e6fdc0-bdd4-4bba-b8f1-bbc8dfad038e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basri, Tomorrow's Champion
@@ -489,6 +582,7 @@
   > When you cycle this card, Cats you control gain hexproof and indestructible until end of turn.
 - **Keywords:** Exert, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12598 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/3/basri-tomorrows-champion) · oracle_id `d8e1e9ba-708c-4f54-abc3-817004a2f2ac` · printing: DFT #3 (2025-02-14) · [rulings](https://api.scryfall.com/cards/991270fa-a391-4c2e-bd9a-19151386fb67/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bassara Tower Archer
@@ -502,6 +596,7 @@
   > *Setessan warriors of Bassara Tower are known for their guerrilla tactics and skill with the bow. Interlopers into the Nessian Wood do not get far.*
 - **Keywords:** Reach, Hexproof
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14565 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/117/bassara-tower-archer) · oracle_id `39daa265-8d02-4449-9c45-ae8ec2b13e5b` · printing: JOU #117 (2014-05-02) · [rulings](https://api.scryfall.com/cards/95a1e5c2-7f5b-4ae4-83d9-06e334ba57ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bastion Enforcer
@@ -514,6 +609,7 @@
 - **Flavor text** (M20 printing):
   > *Headquartered at the Bastion of the Honorable, the soldiers of Ghirapur are charged with the task of keeping peace in the city.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29054 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/303/bastion-enforcer) · oracle_id `87449f64-9500-4967-a073-cde19824e087` · printing: M20 #303 (2019-07-12) · [rulings](https://api.scryfall.com/cards/7cbf17a0-2dbc-4e79-9cfa-ea49b1605105/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bastion Inventor
@@ -528,7 +624,16 @@
   > *"This armor transcends the limitations of mere flesh and bone."*
 - **Keywords:** Improvise, Hexproof
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28843 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/30/bastion-inventor) · oracle_id `900ae045-0160-4e85-b283-e35399c2acec` · printing: AER #30 (2017-01-20) · [rulings](https://api.scryfall.com/cards/856f804d-0213-4b86-bc6a-6a0a1147c4f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2017-02-09* — Because improvise isn’t an alternative cost, it can be used in conjunction with alternative costs.
+  - *2017-02-09* — Equipment attached to a creature doesn’t become tapped when that creature becomes tapped, and tapping that Equipment doesn’t cause the creature to become tapped.
+  - *2017-02-09* — If an artifact you control has a mana ability with {T} in the cost, activating that ability while casting a spell with improvise will result in the artifact being tapped when you pay the spell’s costs. You won’t be able to tap it again for improvise. Similarly, if you sacrifice an artifact to activate a mana ability while casting a spell with improvise, that artifact won’t be on the battlefield when you pay the spell’s costs, so you won’t be able to tap it for improvise.
+  - *2017-02-09* — Improvise can’t be used to pay for anything other than the cost of casting the spell. For example, it can’t be used during the resolution of an ability that says “Counter target spell unless its controller pays {3}.”
+  - *2017-02-09* — Improvise can’t pay for {W}, {U}, {B}, {R}, {G}, or {C} mana symbols in a spell’s total cost.
+  - *2017-02-09* — Improvise doesn’t change a spell’s mana cost or mana value.
+  - *2017-02-09* — Tapping an artifact won’t cause its abilities to stop applying unless those abilities say so.
+  - *2017-02-09* — When calculating a spell’s total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Improvise applies after the total cost is calculated.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/30/bastion-inventor) · oracle_id `900ae045-0160-4e85-b283-e35399c2acec` · printing: AER #30 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bastion Mastodon
 
@@ -540,7 +645,9 @@
 - **Flavor text** (KLD printing):
   > *The Consulate's automaton bank contains only the most impressive specimens.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28479 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/197/bastion-mastodon) · oracle_id `48a01671-da1f-4875-bcd5-ca99566ff399` · printing: KLD #197 (2016-09-30) · [rulings](https://api.scryfall.com/cards/c3ea690f-fd4e-4d05-b815-22d97736e894/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-09-20* — Once Bastion Mastodon is tapped and attacking, gaining vigilance won't cause it to become untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/197/bastion-mastodon) · oracle_id `48a01671-da1f-4875-bcd5-ca99566ff399` · printing: KLD #197 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bastion of Remembrance
 
@@ -588,4 +695,5 @@
   > *"Will you prove worthy of my blessing?"*
 - **Keywords:** Reach, Indestructible, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11878 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/75/bast-panther-goddess) · oracle_id `e3233686-7703-460c-80ee-8cd37b3014ff` · printing: MSC #75 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c53a05f1-8e95-4a39-b2a3-a21d3d19b5b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -20,4 +20,5 @@
 - **Flavor text** (TRC printing):
   > *"Humans needed the help of the Vulcans when they discovered warp drive. That need hasn't changed."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32280 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/151/tpol-vulcan-representative) · oracle_id `e8a548e8-057e-4023-ac20-bac973dbce09` · printing: TRC #151 (2026-11-13) · [rulings](https://api.scryfall.com/cards/686a0be0-9374-4454-8bc6-a1bcec95df40/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

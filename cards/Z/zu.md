@@ -51,6 +51,7 @@
   > *—Afari, \*Tales\**
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22527 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/51/zuberi-golden-feather) · oracle_id `5a43b164-61a4-4dcb-9397-45356ad4260e` · printing: MIR #51 (1996-10-08) · [rulings](https://api.scryfall.com/cards/c1b24a80-b5e1-484f-9e21-886cb6b5db48/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zuko, Avatar Hunter
@@ -65,6 +66,7 @@
   > *"Once I deliver the Avatar to my father, he will welcome me home with honor and restore my rightful place on the throne."*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13407 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/246/zuko-avatar-hunter) · oracle_id `d445a584-98e7-4501-bb20-e76c9cafa757` · printing: TLE #246 (2025-11-21) · [rulings](https://api.scryfall.com/cards/2a2330fa-a1e1-41d9-bb7b-8aa9b03a0543/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zuko, Conflicted
@@ -79,7 +81,10 @@
   > • Add {R}.
   > • Exile Zuko, then return him to the battlefield under an opponent's control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12714 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/253/zuko-conflicted) · oracle_id `b5fd82b9-77de-4358-9ce7-915cc809a889` · printing: TLA #253 (2025-11-21) · [rulings](https://api.scryfall.com/cards/9d555cab-ec86-4f27-bca2-7d01f79c3f46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-10-02* — In a multiplayer game, if Zuko, Conflicted's owner leaves the game, Zuko, Conflicted leaves the game with them. If his controller leaves the game, Zuko, Conflicted is exiled (assuming that player wasn't also Zuko, Conflicted's owner).
+  - *2025-10-02* — When Zuko, Conflicted is under an opponent's control, his triggered ability will trigger in their first main phase, and they will make all choices for the ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/253/zuko-conflicted) · oracle_id `b5fd82b9-77de-4358-9ce7-915cc809a889` · printing: TLA #253 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zuko, Exiled Prince
 
@@ -152,7 +157,13 @@
   > *"My name is Zuko. Prince of the Fire Nation and heir to the throne."*
 - **Keywords:** Firebending
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15393 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/150/zuko-seeking-honor) · oracle_id `6e737c52-cbe0-493f-ae46-7bf068e04882` · printing: TLE #150 (2025-11-21) · [rulings](https://api.scryfall.com/cards/365fa3f6-a210-4342-9413-fcb7812ff4f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — "Firebending N" is a keyword that represents the ability "Whenever this creature attacks, add N {R}. Until end of combat, you don't lose this mana as steps end."
+  - *2025-10-02* — Any other mana you add during combat will still be lost as normal when moving between steps of combat.
+  - *2025-10-02* — Firebending abilities aren't mana abilities. They use the stack and can be responded to.
+  - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
+  - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/150/zuko-seeking-honor) · oracle_id `6e737c52-cbe0-493f-ae46-7bf068e04882` · printing: TLE #150 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zuko's Exile
 
@@ -178,6 +189,7 @@
   > *"Looks like I underestimated you."*
   > *—Zuko*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19973 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/247/zukos-offense) · oracle_id `90a2ec9c-2f1c-4ed4-820d-dfdb6b58c0db` · printing: TLE #247 (2025-11-21) · [rulings](https://api.scryfall.com/cards/efc6eea1-9872-47e5-a3bc-3c8c1b9705be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zulaport Chainmage
@@ -191,7 +203,9 @@
   > *The chains obey her. Everything else would do best to get out of her way.*
 - **Keywords:** Cohort
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29623 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/93/zulaport-chainmage) · oracle_id `017f4471-db5a-4ad0-97b3-b1f12b52578a` · printing: OGW #93 (2016-01-22) · [rulings](https://api.scryfall.com/cards/92461f3c-21dc-48a8-b532-9c4e2e1e80b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-01-22* — To activate a cohort ability, the Ally with that ability must have been under your control continuously since the beginning of your most recent turn. Informally, it can’t have “summoning sickness.” However, the other Ally you tap can be one that just came under your control. (Note that tapping the second Ally doesn’t use {T} [the tap symbol].)
+- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/93/zulaport-chainmage) · oracle_id `017f4471-db5a-4ad0-97b3-b1f12b52578a` · printing: OGW #93 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zulaport Cutthroat
 
@@ -217,7 +231,9 @@
   > When this creature enters, up to one target creature gets -2/-0 until end of turn. Its controller mills two cards. (They put the top two cards of their library into their graveyard.)
 - **Keywords:** Flash, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22522 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/88/zulaport-duelist) · oracle_id `e8237d12-2860-4cc8-85a4-458e4c68e69a` · printing: ZNR #88 (2020-09-25) · [rulings](https://api.scryfall.com/cards/0b4c7268-60c6-4038-8ce9-d9d51bed4577/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-09-25* — If the target creature is an illegal target by the time Zulaport Duelist’s ability tries to resolve, the ability doesn’t resolve. No player mills two cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/88/zulaport-duelist) · oracle_id `e8237d12-2860-4cc8-85a4-458e4c68e69a` · printing: ZNR #88 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zulaport Enforcer
 
@@ -233,7 +249,13 @@
   > This creature can't be blocked except by black creatures.
 - **Keywords:** Level Up
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25308 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/roe/133/zulaport-enforcer) · oracle_id `0ab5fde8-e7db-4265-81c6-2a6488ba56c4` · printing: ROE #133 (2010-04-23) · [rulings](https://api.scryfall.com/cards/1975d18a-df3f-4c1f-8fde-d11dabbc4adc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2010-06-15* — A creature's level is based on how many level counters it has on it, not how many times its level up ability has been activated or has resolved. If a leveler gets level counters due to some other effect (such as Clockspinning) or loses level counters for some reason (such as Vampire Hexmage), its level is changed accordingly.
+  - *2010-06-15* — Effects that modify a leveler's power or toughness, such as the effects of Giant Growth or Glorious Anthem, will apply to it no matter when they started to take effect. The same is true for counters that change the creature's power or toughness (such as +1/+1 counters) and effects that switch its power and toughness.
+  - *2010-06-15* — Effects that set a leveler's power or toughness to a specific value, including the effects from a level symbol's ability, apply in timestamp order. The timestamp of each level symbol's ability is the same as the timestamp of the leveler itself, regardless of when the most recent level counter was put on it.
+  - *2010-06-15* — If another creature becomes a copy of a leveler, all of the leveler's printed abilities — including those represented by level symbols — are copied. The current characteristics of the leveler, and the number of level counters on it, are not. The abilities, power, and toughness of the copy will be determined based on how many level counters are on the copy.
+  - *2010-06-15* — The abilities a leveler grants to itself don't overwrite any other abilities it may have. In particular, they don't overwrite the creature's level up ability; it always has that.
+- **Source flags:** [Scryfall](https://scryfall.com/card/roe/133/zulaport-enforcer) · oracle_id `0ab5fde8-e7db-4265-81c6-2a6488ba56c4` · printing: ROE #133 (2010-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zul Ashur, Lich Lord
 
@@ -259,6 +281,7 @@
   > Zuo Ci can't be blocked by creatures with horsemanship.
 - **Keywords:** Hexproof
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30048 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/165/zuo-ci-the-mocking-sage) · oracle_id `ae8773a3-05f2-4074-9a53-033b0c127235` · printing: PTK #165 (1999-05-01) · [rulings](https://api.scryfall.com/cards/e3425241-efdc-4261-a2bb-58fbf4a9fe8c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zuran Enchanter
@@ -272,6 +295,7 @@
   > *"We are Kjeldorans no more."*
   > *—Zur the Enchanter*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31362 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/111/zuran-enchanter) · oracle_id `ee0f883f-d7c9-4acf-a78f-f733b6f268d3` · printing: ICE #111 (1995-06-03) · [rulings](https://api.scryfall.com/cards/721edcef-f40a-4d43-9d80-26161dc425cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zuran Orb
@@ -298,6 +322,7 @@
   > *"A mage must be precise as well as potent; cautious, as well as clever."*
   > *—Zur the Enchanter*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18054 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/76/zuran-spellcaster) · oracle_id `bc7b90b1-3517-4e5d-9bd8-68b4d8a259fd` · printing: ME2 #76 (2008-09-22) · [rulings](https://api.scryfall.com/cards/29d414a2-9afd-4bf1-908a-d9b5bea06222/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zur, Eternal Schemer
@@ -343,7 +368,14 @@
   > Dash {1}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)
 - **Keywords:** Dash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15881 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/169/zurgo-bellstriker) · oracle_id `46808926-d95b-4313-89d1-6bdfe13fcb77` · printing: DTK #169 (2015-03-27) · [rulings](https://api.scryfall.com/cards/bbac6d75-59ab-4d7d-87ae-46875abf8cc7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2015-02-25* — Even though both cards portray the same character, Zurgo Bellstriker and Zurgo Helmsmasher have different names. Controlling both of them won't invoke the "legend rule."
+  - *2015-02-25* — If a creature enters the battlefield as a copy of or becomes a copy of a creature whose dash cost was paid, the copy won't have haste and won't be returned to its owner's hand.
+  - *2015-02-25* — If you choose to pay the dash cost rather than the mana cost, you're still casting the spell. It goes on the stack and can be responded to and countered. You can cast a creature spell for its dash cost only when you otherwise could cast that creature spell. Most of the time, this means during your main phase when the stack is empty.
+  - *2015-02-25* — If you pay the dash cost to cast a creature spell, that card will be returned to its owner's hand only if it's still on the battlefield when its triggered ability resolves. If it dies or goes to another zone before then, it will stay where it is.
+  - *2015-02-25* — Once Zurgo Bellstriker has legally blocked a creature, raising that creature's power to 2 or greater won't undo the block.
+  - *2015-02-25* — You don't have to attack with the creature with dash unless another ability says you do.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/169/zurgo-bellstriker) · oracle_id `46808926-d95b-4313-89d1-6bdfe13fcb77` · printing: DTK #169 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zurgo Helmsmasher
 
@@ -357,7 +389,12 @@
   > Whenever a creature dealt damage by Zurgo this turn dies, put a +1/+1 counter on Zurgo.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10898 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/214/zurgo-helmsmasher) · oracle_id `6c48d888-9f5d-43f4-adbd-61dbdba09260` · printing: KTK #214 (2014-09-26) · [rulings](https://api.scryfall.com/cards/13f4bafe-0d21-47ba-8f16-0274107d618c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-09-20* — Each time a creature dies, check whether Zurgo had dealt any damage to it at any time during that turn. If so, Zurgo's ability will trigger. It doesn't matter who controlled the creature or whose graveyard it went to.
+  - *2014-09-20* — If Zurgo enters the battlefield before the combat phase, it will attack that turn if able. If it enters the battlefield after combat, it won't attack that turn and will usually be available to block on the following turn.
+  - *2014-09-20* — If, during your declare attackers step, Zurgo is tapped or is affected by a spell or ability that says it can't attack, then it doesn't attack. If there's a cost associated with having Zurgo attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.
+  - *2014-09-20* — You still choose which player or planeswalker Zurgo Helmsmasher attacks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/214/zurgo-helmsmasher) · oracle_id `6c48d888-9f5d-43f4-adbd-61dbdba09260` · printing: KTK #214 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zurgo Stormrender
 
@@ -385,6 +422,7 @@
   > Zurgo's Vanguard's power is equal to the number of creatures you control.
 - **Keywords:** Mobilize
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10076 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/133/zurgos-vanguard) · oracle_id `d6fdfd94-cef5-482c-83ed-11c5ba40abe9` · printing: TDM #133 (2025-04-11) · [rulings](https://api.scryfall.com/cards/a1aa3501-5738-4063-a7f4-51d2600b0041/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zurgo, Thunder's Decree
@@ -414,6 +452,7 @@
   > *Zuri is a veteran of T'Chaka's army and a mentor to his son. He is one of the few entrusted to carry the spear of Bashenga, the founder of the Panther tribe.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17057 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/72/zuri-warrior-of-wakanda) · oracle_id `aa792980-0811-4c08-8343-00fba0c5cf5e` · printing: MSC #72 (2026-06-26) · [rulings](https://api.scryfall.com/cards/b8225b51-d5a4-4b46-9a10-b581362b6a11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zur's Weirding
@@ -424,7 +463,12 @@
   > Players play with their hands revealed.
   > If a player would draw a card, they reveal it instead. Then any other player may pay 2 life. If a player does, put that card into its owner's graveyard. Otherwise, that player draws a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12348 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/9ed/114/zurs-weirding) · oracle_id `c6eaa147-3566-43a9-999a-d58b877496f5` · printing: 9ED #114 (2005-07-29) · [rulings](https://api.scryfall.com/cards/741612e3-fe3a-4099-9d2b-4a654c4ce949/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2004-10-04* — If a spell or ability causes more than one card to be drawn, draw the cards one at a time and deal with this replacement before drawing the next card.
+  - *2004-10-04* — If someone pays the cost, then the card was never drawn or discarded. It just gets put into the graveyard directly from the library.
+  - *2004-10-04* — This is a continuous replacement effect that modifies a draw.
+  - *2006-04-01* — When using Dredge with this, you have two choices. You can immediately replace the draw with Dredge, or you can apply Zur’s Weirding’s replacement. If the latter, you first resolve Zur’s Weirding’s ability, then if you’re going to draw the card, decide whether or not to replace that draw with Dredge.
+- **Source flags:** [Scryfall](https://scryfall.com/card/9ed/114/zurs-weirding) · oracle_id `c6eaa147-3566-43a9-999a-d58b877496f5` · printing: 9ED #114 (2005-07-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zur the Enchanter
 

@@ -40,6 +40,7 @@
   > This creature gets -2/-2 as long as green is the most common color among all permanents or is tied for most common.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32058 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/212/sulam-djinn) · oracle_id `01e311d2-8fe6-4e64-9575-3ef266985f0b` · printing: INV #212 (2000-10-02) · [rulings](https://api.scryfall.com/cards/7aeab16f-e104-47e7-81c7-b6e0123120d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suleiman's Legacy
@@ -52,7 +53,9 @@
 - **Flavor text** (VIS printing):
   > *With Suleiman's ascension to power, the djinn and efreets of ancient Rabiah learned humility.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31898 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vis/138/suleimans-legacy) · oracle_id `9888d67d-fcad-427f-8ba7-b6d421b3d88e` · printing: VIS #138 (1997-02-03) · [rulings](https://api.scryfall.com/cards/3a15e970-e605-425a-b4ec-391d9cacde38/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Does nothing to Djinns or Efreets that phase in while it is on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vis/138/suleimans-legacy) · oracle_id `9888d67d-fcad-427f-8ba7-b6d421b3d88e` · printing: VIS #138 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sulfur Elemental
 
@@ -65,7 +68,16 @@
   > White creatures get +1/-1.
 - **Keywords:** Flash, Split second
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30508 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/195/sulfur-elemental) · oracle_id `60e6a140-c7fb-4fbe-bd74-6bbb925080e7` · printing: TSR #195 (2021-03-19) · [rulings](https://api.scryfall.com/cards/0aed10f9-8c52-400b-a432-a0d8c6458e87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2021-03-19* — After a spell with split second resolves (or otherwise leaves the stack), players may again cast spells and activate abilities before the next object on the stack resolves.
+  - *2021-03-19* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to white creatures may become lethal if Sulfur Elemental enters the battlefield during that turn.
+  - *2021-03-19* — Casting a spell with split second won't affect spells and abilities that are already on the stack.
+  - *2021-03-19* — If the resolution of a triggered ability involves casting a spell, that spell can't be cast if a spell with split second is on the stack.
+  - *2021-03-19* — Players can't take actions between the time that Sulfur Elemental enters the battlefield and the time state-based actions are performed.
+  - *2021-03-19* — Players may turn face-down creatures face up while a spell with split second is on the stack.
+  - *2021-03-19* — Players still get priority while a card with split second is on the stack; their options are just limited to mana abilities and certain special actions.
+  - *2021-03-19* — Split second doesn't stop triggered abilities from triggering, such as that of Chalice of the Void. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/195/sulfur-elemental) · oracle_id `60e6a140-c7fb-4fbe-bd74-6bbb925080e7` · printing: TSR #195 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sulfur Falls
 
@@ -90,7 +102,10 @@
 - **Flavor text** (USG printing):
   > *It was the dragons who first learned to chase their prey into the vapors before igniting them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26813 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/220/sulfuric-vapors) · oracle_id `40b14aaa-f29e-4e84-9bdc-bc2ac9762ce9` · printing: USG #220 (1998-10-12) · [rulings](https://api.scryfall.com/cards/e133997f-1620-4fe9-8275-057edc998fba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — If the red spell damages more than one target, add 1 to each target.
+  - *2004-10-04* — The ability is a replacement effect which is applied when damage would become dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/220/sulfuric-vapors) · oracle_id `40b14aaa-f29e-4e84-9bdc-bc2ac9762ce9` · printing: USG #220 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sulfuric Vortex
 
@@ -112,6 +127,7 @@
 - **Flavor text** (CMM printing):
   > *The Keldons used the toxic vents in the cracked earth to bolster their home's defenses.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18284 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/262/sulfurous-blast) · oracle_id `f2b4f37b-270b-4746-83b3-51ff88ee3491` · printing: CMM #262 (2023-08-04) · [rulings](https://api.scryfall.com/cards/dabae267-54fa-4e6d-8f7d-15152fe37397/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sulfurous Mire
@@ -155,6 +171,7 @@
   > {T}: Add {B}.
   > {T}, Sacrifice this land: Add {U}{R}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21932 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/328/sulfur-vent) · oracle_id `bc2906cd-9e0c-4aa8-b656-fb1045d810ac` · printing: INV #328 (2000-10-02) · [rulings](https://api.scryfall.com/cards/22c66ed6-55fb-4c65-aac4-26d9cc3053b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sultai Ascendancy
@@ -179,6 +196,7 @@
 - **Flavor text** (KTK printing):
   > *Power to dominate, cruelty to rule.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17092 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/225/sultai-banner) · oracle_id `93b139a5-2678-46a5-b8eb-45344ee3290a` · printing: KTK #225 (2014-09-26) · [rulings](https://api.scryfall.com/cards/1695cf35-8f7c-4674-bfd3-43520b13d084/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sultai Charm
@@ -209,6 +227,7 @@
   > *Many Sultai villages are protected by naga who weave magics to bless or curse as needed.*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18174 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/160/sultai-devotee) · oracle_id `ee7b3fc0-6128-4bf6-b3e7-7371e6f93c4b` · printing: TDM #160 (2025-04-11) · [rulings](https://api.scryfall.com/cards/c32487e9-f3ac-472e-b6ea-81bd9254770c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sultai Emissary
@@ -222,7 +241,21 @@
   > *To the Sultai, Ugin's power was just one more resource to be exploited.*
 - **Keywords:** Manifest
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21762 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frf/85/sultai-emissary) · oracle_id `0274f286-46a1-4028-878a-88c2146a895c` · printing: FRF #85 (2015-01-23) · [rulings](https://api.scryfall.com/cards/12421e1c-5144-4391-abf2-a2fb864920e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2014-11-24* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
+  - *2014-11-24* — Any time you have priority, you may turn a manifested creature face up by revealing that it's a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2014-11-24* — At any time, you can look at a face-down permanent you control. You can't look at face-down permanents you don't control unless an effect allows you to or instructs you to.
+  - *2014-11-24* — Because face-down creatures don't have names, they can't have the same name as any other creature, even another face-down creature.
+  - *2014-11-24* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2014-11-24* — If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can't transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up.
+  - *2014-11-24* — If a face-down permanent you control leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+  - *2014-11-24* — If a manifested creature would have morph if it were face up, you may also turn it face up by paying its morph cost.
+  - *2014-11-24* — The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant or change any of these characteristics.
+  - *2014-11-24* — There are no cards in the Fate Reforged set that would turn a face-down instant or sorcery card on the battlefield face up, but some older cards can try to do this. If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it's an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won't trigger, because even though you revealed the card, it never turned face up.
+  - *2014-11-24* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2014-11-24* — Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
+  - *2014-11-24* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on).
+- **Source flags:** [Scryfall](https://scryfall.com/card/frf/85/sultai-emissary) · oracle_id `0274f286-46a1-4028-878a-88c2146a895c` · printing: FRF #85 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sultai Flayer
 
@@ -234,7 +267,9 @@
 - **Flavor text** (IMA printing):
   > *"You can have the body, necromancer. I just want the skin."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24127 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/186/sultai-flayer) · oracle_id `df621822-c811-40fa-99c1-ea9920bcd2e2` · printing: IMA #186 (2017-11-17) · [rulings](https://api.scryfall.com/cards/e50d74eb-07df-48b5-8788-8b5f5fc0b22b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-11-17* — If Sultai Flayer dies, and its toughness is still 4 or greater, its own ability will trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/186/sultai-flayer) · oracle_id `df621822-c811-40fa-99c1-ea9920bcd2e2` · printing: IMA #186 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sultai Monument
 
@@ -244,6 +279,7 @@
   > When this artifact enters, search your library for a basic Swamp, Forest, or Island card, reveal it, put it into your hand, then shuffle.
   > {2}{B}{G}{U}, {T}, Sacrifice this artifact: Create two 2/2 black Zombie Druid creature tokens. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20355 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/247/sultai-monument) · oracle_id `9db71b76-eda7-49dd-af5a-3de18acb8ccb` · printing: TDM #247 (2025-04-11) · [rulings](https://api.scryfall.com/cards/45308e0e-b515-49ac-9960-a24e898dd321/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sultai Runemark
@@ -256,6 +292,7 @@
   > Enchanted creature has deathtouch as long as you control a green or blue permanent. (Any amount of damage it deals to a creature is enough to destroy it.)
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24862 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frf/86/sultai-runemark) · oracle_id `59410454-93ff-41f0-ab62-cdaf156163d0` · printing: FRF #86 (2015-01-23) · [rulings](https://api.scryfall.com/cards/98d73ae0-de01-4a70-a51c-b990687561a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sultai Scavenger
@@ -270,7 +307,11 @@
   > *Since they guard armies of walking carrion, Sultai aven are never far from a meal.*
 - **Keywords:** Flying, Delve
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29189 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/91/sultai-scavenger) · oracle_id `837f72a9-9522-46e9-a48c-c6ff6d0bbe67` · printing: KTK #91 (2014-09-26) · [rulings](https://api.scryfall.com/cards/2cb8e423-f7e7-4ac3-acc2-2a3722e409e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-03-19* — Because delve isn't an alternative cost, it can be used in conjunction with alternative costs, such as flashback. It can also be used to pay for additional costs that include generic mana.
+  - *2021-03-19* — Delve doesn't change a spell's mana cost or mana value. For example, Treasure Cruise's mana value is 8 even if you exiled three cards to cast it.
+  - *2021-03-19* — You can exile cards to pay only for generic mana, and you can't exile more cards than the generic mana requirement of a spell with delve. For example, you can't exile more than seven cards from your graveyard to cast Treasure Cruise unless an effect has increased its cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/91/sultai-scavenger) · oracle_id `837f72a9-9522-46e9-a48c-c6ff6d0bbe67` · printing: KTK #91 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sultai Skullkeeper
 
@@ -283,6 +324,7 @@
   > *A skullkeeper is the first to arrive after the palace archers strike down intruders, probing their brains for choice bits of knowledge.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28451 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/75/sultai-skullkeeper) · oracle_id `726ba167-9e7b-4d46-a52c-72d5a500aee2` · printing: UMA #75 (2018-12-07) · [rulings](https://api.scryfall.com/cards/f83c3936-1d30-4b1b-85ae-64c2be7d37c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sultai Soothsayer
@@ -295,4 +337,5 @@
 - **Flavor text** (2X2 printing):
   > *The naga of the Sultai Brood made deals with dark forces to keep their power.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25485 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/279/sultai-soothsayer) · oracle_id `5fe127e0-ee38-4f80-969b-13e84712a26f` · printing: 2X2 #279 (2022-07-08) · [rulings](https://api.scryfall.com/cards/6dcc4f4b-a1bd-4581-858f-bbd3ff6a9d7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

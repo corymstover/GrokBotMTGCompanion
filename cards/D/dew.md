@@ -45,4 +45,5 @@
   > *Only in dew from Oona herself is there clarity enough to see a victim's mind.*
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24243 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mor/30/dewdrop-spy) · oracle_id `14bee98b-6dd8-48f3-8043-06f03cc93aa7` · printing: MOR #30 (2008-02-01) · [rulings](https://api.scryfall.com/cards/64b14ad2-0ac7-4ae1-8a9e-eb49c8c5cc40/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

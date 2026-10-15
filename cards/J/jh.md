@@ -34,7 +34,9 @@
 - **Flavor text** (CON printing):
   > *"You have two choices: heed my advice now or need my healing later."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26096 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/con/112/jhessian-balmgiver) · oracle_id `2be283da-6d5a-442b-bd07-d06c16cb1214` · printing: CON #112 (2009-02-06) · [rulings](https://api.scryfall.com/cards/5e638e38-15b9-4081-8340-985d4646e3d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-02-01* — After blockers have been declared, activating the second ability won’t cause those blocks to change.
+- **Source flags:** [Scryfall](https://scryfall.com/card/con/112/jhessian-balmgiver) · oracle_id `2be283da-6d5a-442b-bd07-d06c16cb1214` · printing: CON #112 (2009-02-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jhessian Infiltrator
 
@@ -46,6 +48,7 @@
 - **Flavor text** (ALA printing):
   > *The Jhessian navy makes successful raids on Valeron's coastal towns thanks to their spies planted during peacetime.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20631 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ala/174/jhessian-infiltrator) · oracle_id `6ec8dc98-adc7-4fc3-94e5-31037235ceab` · printing: ALA #174 (2008-10-03) · [rulings](https://api.scryfall.com/cards/1761d867-2eb0-406b-b175-97a90c457844/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jhessian Lookout
@@ -58,6 +61,7 @@
 - **Flavor text** (ALA printing):
   > *She stands ready, always watchful, knowing that weeks of peace and serenity can be overturned by a single distant sail.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32003 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ala/46/jhessian-lookout) · oracle_id `acc07d0d-141b-4169-9643-6f20739e91be` · printing: ALA #46 (2008-10-03) · [rulings](https://api.scryfall.com/cards/f55b1b92-575e-4b6f-9179-21d0bc1acd11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jhessian Thief
@@ -72,7 +76,11 @@
   > *"Where's the fun in an escape if it's not at least a little daring?"*
 - **Keywords:** Prowess
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19945 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/61/jhessian-thief) · oracle_id `b917c3aa-2d54-49e0-924a-dfd02eaf4b2d` · printing: IMA #61 (2017-11-17) · [rulings](https://api.scryfall.com/cards/1227fb31-2780-48e2-9790-4a7e9a413f75/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-06-22* — Any spell you cast that doesn’t have the type creature will cause prowess to trigger. If a spell has multiple types, and one of those types is creature (such as an artifact creature), casting it won’t cause prowess to trigger. Playing a land also won’t cause prowess to trigger.
+  - *2015-06-22* — Once it triggers, prowess isn’t connected to the spell that caused it to trigger. If that spell is countered, prowess will still resolve.
+  - *2015-06-22* — Prowess goes on the stack on top of the spell that caused it to trigger. It will resolve before that spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/61/jhessian-thief) · oracle_id `b917c3aa-2d54-49e0-924a-dfd02eaf4b2d` · printing: IMA #61 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jhessian Zombies
 
@@ -84,7 +92,13 @@
   > Islandcycling {2}, swampcycling {2} ({2}, Discard this card: Search your library for an Island or Swamp card, reveal it, put it into your hand, then shuffle.)
 - **Keywords:** Islandcycling, Landcycling, Fear, Typecycling, Cycling, Swampcycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20849 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddh/56/jhessian-zombies) · oracle_id `40cc8ac6-114f-439d-816d-f65cd52bbbd2` · printing: DDH #56 (2011-09-02) · [rulings](https://api.scryfall.com/cards/82afe98a-1b57-4fe4-8c8c-c8995c313410/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2009-05-01* — A landcycling ability lets you search for any card in your library with the stated land type. It doesn’t have to be a basic land.
+  - *2009-05-01* — Landcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being landcycled. Any ability that stops a cycling ability from being activated also stops a landcycling ability from being activated.
+  - *2009-05-01* — Unlike the normal cycling ability, landcycling doesn’t allow you to draw a card. Instead, it lets you search your library for a land card of the specified land type, reveal it, put it into your hand, then shuffle your library.
+  - *2009-05-01* — You can choose to find any card with the appropriate land type, including nonbasic lands. You can also choose not to find a card, even if there is a land card with the appropriate type in your library.
+  - *2009-05-01* — You may only activate one landcycling ability at a time. You must specify which landcycling ability you are activating as you cycle this card, not as the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddh/56/jhessian-zombies) · oracle_id `40cc8ac6-114f-439d-816d-f65cd52bbbd2` · printing: DDH #56 (2011-09-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jhoira, Ageless Innovator
 
@@ -94,7 +108,9 @@
 - **Oracle text:**
   > {T}: Put two ingenuity counters on Jhoira, then you may put an artifact card with mana value X or less from your hand onto the battlefield, where X is the number of ingenuity counters on Jhoira.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10332 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/202/jhoira-ageless-innovator) · oracle_id `83b9a734-ee92-44c8-bf47-ca69b6d6405e` · printing: DMU #202 (2022-09-09) · [rulings](https://api.scryfall.com/cards/dd911900-1f5f-4420-96b8-1e4fe67e59f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-09-09* — If Jhoira, Ageless Innovator isn't on the battlefield as the activated ability resolves, you won't be able to put any ingenuity counters on it. However, you can still put an artifact card from your hand onto the battlefield. Use the number of ingenuity counters that were on Jhoira before it left the battlefield to determine the value of X.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/202/jhoira-ageless-innovator) · oracle_id `83b9a734-ee92-44c8-bf47-ca69b6d6405e` · printing: DMU #202 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jhoira of the Ghitu
 
@@ -159,6 +175,7 @@
   > *It entertained Jhoira to craft a kit that could bring her the tools.*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20025 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ulg/128/jhoiras-toolbox) · oracle_id `a08475a6-1fac-4a3f-b343-aed16a61bc16` · printing: ULG #128 (1999-02-15) · [rulings](https://api.scryfall.com/cards/edb38309-c02c-496c-894f-786a2f6e3d1c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jhoira, Weatherlight Captain
@@ -184,6 +201,7 @@
 - **Oracle text:**
   > Whenever Jhoira enters or attacks, target opponent reveals cards from the top of their library until they reveal a historic permanent card. You put that card onto the battlefield under your control and lose life equal to that permanent's mana value. That player puts the rest of the revealed cards on the bottom of their library in a random order. (Artifacts, legendaries, and Sagas are historic.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15011 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/8/jhoira-weatherlight-corsair) · oracle_id `cf9b0bb5-d545-4efd-9255-39b10c2be0ee` · printing: FRC #8 (2026-10-02) · [rulings](https://api.scryfall.com/cards/1874c58d-00ce-4973-a318-50ce21d1a675/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jhovall Queen
@@ -197,6 +215,7 @@
   > *War-trained jhovalls eat twice their weight in war-trained soldiers daily.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28968 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/25/jhovall-queen) · oracle_id `e1a48505-acbe-4eb4-8e83-3c76cf7a8829` · printing: MMQ #25 (1999-10-04) · [rulings](https://api.scryfall.com/cards/b8eb55cc-ddde-4f15-9262-b9aee28059d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jhovall Rider
@@ -210,4 +229,5 @@
   > *Don't be fooled by the riders' fluid grace—it takes years of practice to ride these beasts.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30700 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/26/jhovall-rider) · oracle_id `84750c9a-ddf7-4ee1-b93b-3dc9ab73e4d5` · printing: MMQ #26 (1999-10-04) · [rulings](https://api.scryfall.com/cards/7e1f7c51-0011-4ea5-b123-3c26293f5dab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

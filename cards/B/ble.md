@@ -63,6 +63,7 @@
   > *As the shadow of the Mephidross spread over the Tangle, the vampires' territory expanded.*
 - **Keywords:** Metalcraft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27924 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/55/bleak-coven-vampires) · oracle_id `698f3526-489e-47a1-ac10-70cca73dea10` · printing: SOM #55 (2010-10-01) · [rulings](https://api.scryfall.com/cards/9d3386e4-bbd6-4756-b29d-f55619e98d0d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blech, Loafing Pest
@@ -89,7 +90,9 @@
   > *"Wipe your chin, child. We can't have Olivia thinking we're uncivilized."*
   > *—Anje Falkenrath*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12996 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/94/bleed-dry) · oracle_id `6c3faf4f-83c1-4098-98b8-bae15d59b0de` · printing: VOW #94 (2021-11-19) · [rulings](https://api.scryfall.com/cards/3db65755-f104-4de9-bcc9-0a4a7bc66b51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-11-19* — If Bleed Dry resolves, its effect causes the creature to be exiled any time it would die that turn, not just if it would die as a result of having toughness 0 or less.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/94/bleed-dry) · oracle_id `6c3faf4f-83c1-4098-98b8-bae15d59b0de` · printing: VOW #94 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bleeding Edge
 
@@ -99,7 +102,15 @@
   > Up to one target creature gets -2/-2 until end of turn. Amass Zombies 2. (Put two +1/+1 counters on an Army you control. It's also a Zombie. If you don't control an Army, create a 0/0 black Zombie Army creature token first.)
 - **Keywords:** Amass
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18951 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/78/bleeding-edge) · oracle_id `308e551a-6d60-4a28-9e22-1181995ca068` · printing: WAR #78 (2019-05-03) · [rulings](https://api.scryfall.com/cards/ac82422c-8ac8-4fbb-b9b9-d0aa23dded61/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2019-05-03* — You may cast Bleeding Edge without choosing a target creature. You'll just amass 2. However, if you choose a target and that target become illegal before Bleeding Edge resolves, the spell won't resolve and you won't amass.
+  - *2023-06-16* — Amass Orcs works the same way, except you create a 0/0 black Orc Army creature token if you don't control an Army. If the Army creature you chose isn't already an Orc, it becomes an Orc in addition to its other types. By combining cards with amass Orcs and amass Zombies, you can end up with an Orc Zombie Army.
+  - *2023-06-16* — Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."
+  - *2023-06-16* — If you don't control an Army, the Zombie Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Zombies, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't a Zombie, it becomes a Zombie in addition to its other types.
+  - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2023-06-16* — To amass Zombies N, if you don't control an Army creature, create a 0/0 black Zombie Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Zombie, it becomes a Zombie in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/78/bleeding-edge) · oracle_id `308e551a-6d60-4a28-9e22-1181995ca068` · printing: WAR #78 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bleeding Effect
 
@@ -140,6 +151,7 @@
   > This creature gets +X/+X, where X is your devotion to hybrid. (Each hybrid mana symbol in the mana costs of permanents you control counts toward your devotion to hybrid.)
 - **Keywords:** Changeling
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/CZ03/blended-twistling) · oracle_id `4cebc0c8-6f89-4b04-8875-2ae3e0667a7c` · printing: UNK #CZ03 (2026-05-01) · [rulings](https://api.scryfall.com/cards/b4f0d547-1817-42c4-b44d-9c2519adb156/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blessed Alliance
@@ -154,7 +166,17 @@
   > • Target opponent sacrifices an attacking creature of their choice.
 - **Keywords:** Escalate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17241 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/emn/13/blessed-alliance) · oracle_id `48b67778-6616-4563-8456-62f302649768` · printing: EMN #13 (2016-07-22) · [rulings](https://api.scryfall.com/cards/b5805eab-9a32-4c0c-9015-7bdb74ad7634/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2016-07-13* — Additional costs don’t affect a spell’s mana value.
+  - *2016-07-13* — Effects that reduce the cost of spells reduce the total cost, including any escalate costs added.
+  - *2016-07-13* — If an effect allows you to cast a spell that has escalate without paying its mana cost, you pay escalate costs for that spell if you choose more than one mode.
+  - *2016-07-13* — If one target of an escalate spell becomes illegal, the other targets will still be affected. If all of the targets become illegal, the spell won’t resolve.
+  - *2016-07-13* — If two of the chosen modes of an escalate spell target a creature, you may choose the same creature for each mode’s target, or choose different creatures. The same is true if the chosen modes target a player (or opponent).
+  - *2016-07-13* — The targeted opponent chooses which of their attacking creatures to sacrifice, not you.
+  - *2016-07-13* — Untapping an attacking creature doesn’t cause it to be removed from combat.
+  - *2016-07-13* — You can’t choose any one mode multiple times.
+  - *2016-07-13* — You choose all of your modes at once. You can’t wait to perform one mode’s actions and then decide to choose more modes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/emn/13/blessed-alliance) · oracle_id `48b67778-6616-4563-8456-62f302649768` · printing: EMN #13 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blessed Breath
 
@@ -165,7 +187,12 @@
   > Splice onto Arcane {W} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
 - **Keywords:** Splice
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16289 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/chk/1/blessed-breath) · oracle_id `e83e1f99-1f9b-49fc-bdc7-5f6335e401e4` · printing: CHK #1 (2004-10-01) · [rulings](https://api.scryfall.com/cards/9e2d8650-b8c3-4e89-9aa2-424a98715c38/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-06-07* — A card with a splice ability can’t be spliced onto itself because the spell is on the stack (and not in your hand) when you reveal the cards you want to splice onto it.
+  - *2013-06-07* — If all of the spell’s targets are illegal when the spell tries to resolve, it won’t resolve and none of its effects will happen.
+  - *2013-06-07* — You choose all targets for the spell after revealing cards you want to splice, including any targets required by the text of any of those cards. You may choose a different target for each instance of the word “target” on the resulting spell.
+  - *2013-06-07* — You reveal all cards you intend to splice at the same time. Each individual card can be spliced only once onto any one spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chk/1/blessed-breath) · oracle_id `e83e1f99-1f9b-49fc-bdc7-5f6335e401e4` · printing: CHK #1 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blessed Defiance
 
@@ -176,6 +203,7 @@
 - **Flavor text** (MID printing):
   > *"If I'm going, I'm taking you with me!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18307 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/5/blessed-defiance) · oracle_id `04e3d36f-5dec-422c-a371-15e135fdface` · printing: MID #5 (2021-09-24) · [rulings](https://api.scryfall.com/cards/1555cdcb-3471-4ee7-99c3-d05311bf433c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blessed Ghoul
@@ -190,6 +218,7 @@
   > *He had failed his final exam, but his professor had kindly offered a way to make up the work.*
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27894 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/123/blessed-ghoul) · oracle_id `fe99d90e-4809-4310-a3f7-ceb540511d55` · printing: FRA #123 (2026-10-02) · [rulings](https://api.scryfall.com/cards/bb975803-9bf2-401e-9414-d272df314398/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blessed Hippogriff // Tyr's Blessing
@@ -203,7 +232,19 @@
   > Target creature gains indestructible until end of turn. (Then exile this card. You may cast the creature later from exile.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13468 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/11/blessed-hippogriff-tyrs-blessing) · oracle_id `3372b994-47de-4e89-9bfc-76e1cb3f1cfa` · printing: CLB #11 (2022-06-10) · [rulings](https://api.scryfall.com/cards/b4590e53-ca8d-4896-a8cf-6af1e4bc456f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2022-06-10* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it’s in your graveyard, Altar of Bhaal is an artifact card whose mana value is 2.
+  - *2022-06-10* — An effect may refer to a card, spell, or permanent that “has an Adventure.” This refers to a card, spell, or permanent that has an adventurer card’s set of alternative characteristics, even if they’re not being used and even if that card was never cast as an Adventure.
+  - *2022-06-10* — Casting a card as an Adventure isn’t casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2022-06-10* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner’s graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won’t be exiled and the spell’s controller won’t be able to cast it as a permanent later.
+  - *2022-06-10* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won’t give you permission to cast it as a permanent spell.
+  - *2022-06-10* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it’s not possible to cast the copy from exile.
+  - *2022-06-10* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2022-06-10* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it’s a token) or cease to be a copy (if it’s a nontoken permanent), and so you won’t be able to cast it as an Adventure.
+  - *2022-06-10* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell.
+  - *2022-06-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2022-06-10* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/11/blessed-hippogriff-tyrs-blessing) · oracle_id `3372b994-47de-4e89-9bfc-76e1cb3f1cfa` · printing: CLB #11 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blessed Light
 
@@ -214,6 +255,7 @@
 - **Flavor text** (DOM printing):
   > *Enchanted by mage-smiths and blessed by priests, Benalish windows let in light and cast out darkness.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23352 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/7/blessed-light) · oracle_id `918b3860-e96c-45b5-b0e6-e82cad9f304d` · printing: DOM #7 (2018-04-27) · [rulings](https://api.scryfall.com/cards/4cf3eb65-0f52-49c1-8243-14ce05de9f3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blessed Orator
@@ -227,6 +269,7 @@
   > *"He spoke with the tongue of Angels; we fought with the strength of lions."*
   > *—Handel, infantry soldier*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25692 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/6/blessed-orator) · oracle_id `c0856fea-cbdc-427b-ae00-bfd9311f284f` · printing: 9ED #6 (2005-07-29) · [rulings](https://api.scryfall.com/cards/6c044857-2124-44f4-aafb-495511f26b3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blessed Reincarnation
@@ -238,7 +281,17 @@
   > Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
 - **Keywords:** Rebound
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21731 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/47/blessed-reincarnation) · oracle_id `ca29588c-f117-418e-be9e-fa2ee89862ca` · printing: DTK #47 (2015-03-27) · [rulings](https://api.scryfall.com/cards/401cd79d-638e-43b4-8d0c-d7af05c55a1a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2015-02-25* — As long as you cast a spell with rebound from your hand, rebound will work regardless of whether you paid its mana cost or an alternative cost you were permitted to pay.
+  - *2015-02-25* — At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card’s type (if it’s a sorcery) are ignored. Other restrictions, such as “Cast [this spell] only during combat,” must be followed.
+  - *2015-02-25* — Casting the card again due to the delayed triggered ability is optional. If you choose not to cast the card, or if you can’t (perhaps because there are no legal targets available), the card will stay exiled. You won’t get another chance to cast it on a future turn.
+  - *2015-02-25* — If a replacement effect (such as the one created by Rest in Peace) would cause a spell with rebound that you cast from your hand to be put somewhere other than into your graveyard as it resolves, you can choose whether to apply the rebound effect or the other effect as the spell resolves.
+  - *2015-02-25* — If a spell with rebound that you cast from your hand doesn’t resolve for any reason (either because another spell or ability counters it or because all its targets are illegal as it tries to resolve), none of its effects will happen, including rebound. The spell will be put into its owner’s graveyard and you won’t get to cast it again on your next turn.
+  - *2015-02-25* — If there are no creature cards in the library, it will be revealed and shuffled. The target creature will remain exiled.
+  - *2015-02-25* — If you cast a card from exile this way, it will go to its owner’s graveyard when it resolves, fails to resolve, or is countered. It won’t go back to exile.
+  - *2015-02-25* — If you cast a spell with rebound from any zone other than your hand (including your opponent’s hand), rebound will have no effect.
+  - *2015-02-25* — Rebound will have no effect on copies of spells because you don’t cast them from your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/47/blessed-reincarnation) · oracle_id `ca29588c-f117-418e-be9e-fa2ee89862ca` · printing: DTK #47 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blessed Respite
 
@@ -264,7 +317,9 @@
 - **Flavor text** (8ED printing):
   > *Even an enemy is a valuable resource.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18452 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/8ed/7/blessed-reversal) · oracle_id `70e0b676-61a2-4dcf-8f61-d9281467ed43` · printing: 8ED #7 (2003-07-28) · [rulings](https://api.scryfall.com/cards/806d854b-a165-4d40-86d7-d6a0aa17ce18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The creatures are counted on resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/8ed/7/blessed-reversal) · oracle_id `70e0b676-61a2-4dcf-8f61-d9281467ed43` · printing: 8ED #7 (2003-07-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blessed Sanctuary
 
@@ -291,7 +346,9 @@
   > *Not all heroes die in armor.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20973 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/92/blessed-spirits) · oracle_id `5fb899c1-3a2f-4b5e-a82d-fece51bdf786` · printing: JMP #92 (2020-07-17) · [rulings](https://api.scryfall.com/cards/2f060a74-dd75-4625-8842-27cb13a279e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-06-22* — Blessed Spirits’s ability will resolve before the enchantment spell that caused it to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/92/blessed-spirits) · oracle_id `5fb899c1-3a2f-4b5e-a82d-fece51bdf786` · printing: JMP #92 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blessed Wind
 
@@ -303,7 +360,9 @@
   > *"The fourth wind of ascension is Anointer, deifying the worthy."*
   > *—\*Keld Triumphant\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24670 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/4/blessed-wind) · oracle_id `93da4a35-d2d8-476c-ad03-318101c0118b` · printing: PCY #4 (2000-06-05) · [rulings](https://api.scryfall.com/cards/3cb624d6-9aec-498c-8df9-6fd025c74487/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — This counts as gaining or losing life as appropriate.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/4/blessed-wind) · oracle_id `93da4a35-d2d8-476c-ad03-318101c0118b` · printing: PCY #4 (2000-06-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blessed Wine
 
@@ -316,6 +375,7 @@
   > *"Out there, there are spirits, but here, there is wine."*
   > *—Blessing for the bounty of Kjeld*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22566 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5ed/11/blessed-wine) · oracle_id `8079007c-a07a-4d71-bb08-e1dd215297de` · printing: 5ED #11 (1997-03-24) · [rulings](https://api.scryfall.com/cards/aee815d6-ce79-42ff-9d18-b2f92671d1c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blessing
@@ -330,6 +390,7 @@
   > *—Ardanna of the Angelic Council*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23412 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m14/8/blessing) · oracle_id `5c84d8da-2bfb-4618-89a0-7d9ed604e854` · printing: M14 #8 (2013-07-19) · [rulings](https://api.scryfall.com/cards/4273cf50-db65-4b1f-95e1-f24ba6582c8b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blessing of Belzenlok
@@ -342,6 +403,7 @@
   > *"My heart is not mine, it is Belzenlok's. All hearts are his, and all blood."*
   > *—"Rite of Belzenlok"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18618 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/77/blessing-of-belzenlok) · oracle_id `c4a03986-4db6-4114-9a58-5a8a3a7a2461` · printing: DOM #77 (2018-04-27) · [rulings](https://api.scryfall.com/cards/d224940c-d87c-4317-9ca3-b704ef894a7b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blessing of Frost
@@ -353,7 +415,18 @@
 - **Flavor text** (KHM printing):
   > *A friend of Jorn is never cold.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11771 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/161/blessing-of-frost) · oracle_id `240d650b-97ea-40ad-8c1b-fe1ea52d861f` · printing: KHM #161 (2021-02-05) · [rulings](https://api.scryfall.com/cards/42f01f4d-491e-4f25-a017-a0d9c437ac8c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2021-02-05* — Because Blessing of Frost doesn’t target any creatures, you determine how the +1/+1 counters will be distributed as Blessing of Frost resolves. Players may respond to Blessing of Frost as normal, and they’ll know how much snow mana you spent to cast it, but they won’t necessarily know how the counters will be distributed.
+  - *2021-02-05* — Because none of the creatures are targeted, you can choose to put +1/+1 counters on a creature with protection from green, for example.
+  - *2021-02-05* — If Blessing of Frost is copied, no mana was spent to cast the copy, so no +1/+1 counters will be distributed. You may still draw cards if your creatures are large enough.
+  - *2021-02-05* — If you cast Blessing of Frost without spending snow mana, no +1/+1 counters will be distributed. You may still draw cards if your creatures are large enough.
+  - *2021-02-05* — Snow is a supertype, not a card type. It has no rules meaning or function by itself, but spells and abilities may refer to it.
+  - *2021-02-05* — Snow isn’t a type of mana. If an effect says you may spend mana as though it were any type, you can’t pay for {S} using mana that wasn’t produced by a snow source.
+  - *2021-02-05* — Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don’t spend any snow mana to cast them; their additional effects simply won’t do anything.
+  - *2021-02-05* — The Kaldheim set doesn’t have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn’t apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
+  - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+  - *2021-02-05* — You determine how many creatures you control with power 4 or greater as Blessing of Frost is resolving, after +1/+1 counters have been put on creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/161/blessing-of-frost) · oracle_id `240d650b-97ea-40ad-8c1b-fe1ea52d861f` · printing: KHM #161 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blessing of Leeches
 
@@ -366,6 +439,7 @@
   > {0}: Regenerate enchanted creature.
 - **Keywords:** Regenerate, Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10047 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/62/blessing-of-leeches) · oracle_id `923b725a-e189-4b61-b01a-c5056f1328ba` · printing: BOK #62 (2005-02-04) · [rulings](https://api.scryfall.com/cards/de0ba1cf-d913-4285-9d8b-38acf78cc45e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blessing of the Nephilim
@@ -379,6 +453,7 @@
   > *"Before the first stone was laid or the first elf-child born, the power of the nephilim was gathering. Let that power be spread by my hands."*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17740 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/4/blessing-of-the-nephilim) · oracle_id `0904cc0e-e2c9-4a85-89c7-4254fd423bf8` · printing: DIS #4 (2006-05-05) · [rulings](https://api.scryfall.com/cards/689b4ba1-5bb5-458d-8900-19a330e0093c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blessings of Nature
@@ -390,7 +465,9 @@
   > Miracle {G} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)
 - **Keywords:** Miracle
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20329 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/avr/168/blessings-of-nature) · oracle_id `1e77cf90-ac51-4ac7-b123-be04aabe1688` · printing: AVR #168 (2012-05-04) · [rulings](https://api.scryfall.com/cards/d16453f1-c6ca-4288-ab72-315ed9bb0ab0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-05-01* — You may choose up to four target creatures. You declare how many counters will be placed on each target creature as you cast Blessings of Nature. Each target must receive at least one counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/avr/168/blessings-of-nature) · oracle_id `1e77cf90-ac51-4ac7-b123-be04aabe1688` · printing: AVR #168 (2012-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blex, Vexing Pest // Search for Blex
 

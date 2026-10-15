@@ -32,6 +32,7 @@
 - **Oracle text:**
   > Choose a player who cast one or more sorcery spells this turn. Backdraft deals damage to that player equal to half the damage dealt by one of those sorcery spells this turn, rounded down.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28798 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/leg/132/backdraft) · oracle_id `80734bb0-5032-4355-9304-49f4a4557aba` · printing: LEG #132 (1994-06-01) · [rulings](https://api.scryfall.com/cards/58d5b9fe-b66a-48c9-94c4-db783e605f37/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Backdraft Hellkite
@@ -71,6 +72,7 @@
   > Whenever enchanted creature deals damage to you, this Aura deals that much damage to that creature's controller.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23296 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/4ed/62/backfire) · oracle_id `e04fa58e-be7a-4c9c-98d0-48241742a41b` · printing: 4ED #62 (1995-04-01) · [rulings](https://api.scryfall.com/cards/ad34094d-a7ec-4b04-a288-4d4f1a07fc6b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Back for More
@@ -84,7 +86,11 @@
   > *—Trundan, Indatha poacher*
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12073 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/177/back-for-more) · oracle_id `670df8be-21cd-49d8-92e3-d7cc38b256d6` · printing: IKO #177 (2020-04-24) · [rulings](https://api.scryfall.com/cards/3fc7210c-da23-4cec-9195-4de75587f40f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-04-17* — If the target creature is an illegal target when the reflexive triggered ability tries to resolve, the ability doesn't resolve. If the creature you put onto the battlefield is no longer on the battlefield or no longer a creature, the target creature won't deal or be dealt damage.
+  - *2020-04-17* — The reflexive triggered ability from Back for More is put onto the stack at the same time as any other triggered abilities caused by the creature entering the battlefield.
+  - *2024-04-12* — You don't choose a target creature you don't control at the time you cast Back for More. Rather, a "reflexive" ability triggers when you return the target creature card from your graveyard to the battlefield. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal. Notably, Back for More isn't a crime, but the reflexive triggered ability potentially is.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/177/back-for-more) · oracle_id `670df8be-21cd-49d8-92e3-d7cc38b256d6` · printing: IKO #177 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Back for Seconds
 
@@ -113,7 +119,12 @@
 - **Flavor text** (ISD printing):
   > *On Innistrad, death is just a career change.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21246 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/isd/44/back-from-the-brink) · oracle_id `704aaf92-590f-46d3-8b39-4ab84e1c766d` · printing: ISD #44 (2011-09-30) · [rulings](https://api.scryfall.com/cards/b4bba140-5c06-4542-9ae0-b2517104ab7c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2011-09-22* — Although you're paying the card's mana cost, you aren't casting that card. Abilities that reduce the cost to cast a creature spell won't apply, and additional costs to cast that creature can't be paid. Alternative costs that affect what it costs to cast a creature spell, such as evoke, can't.
+  - *2011-09-22* — Any "enters" abilities of the creature will trigger when the token enters. Any "as [this creature] enters" or "[this creature] enters with" abilities of the creature will also work.
+  - *2011-09-22* — If the exiled creature card has {X} in its mana cost, X is considered to be zero.
+  - *2011-09-22* — If you exile a double-faced creature card this way, you'll pay the mana cost of the front face. The token will be a copy of the front face and it won't be able to transform.
+- **Source flags:** [Scryfall](https://scryfall.com/card/isd/44/back-from-the-brink) · oracle_id `704aaf92-590f-46d3-8b39-4ab84e1c766d` · printing: ISD #44 (2011-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Back in Town
 
@@ -140,7 +151,9 @@
 - **Flavor text** (INV printing):
   > *Darigaaz decided his foe would be more useful as a weapon.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12170 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inv/234/backlash) · oracle_id `3db9bf7b-da4e-428f-aa5d-a0cd1afeb16c` · printing: INV #234 (2000-10-02) · [rulings](https://api.scryfall.com/cards/dadf030d-5451-43fc-bf0c-c1629fdf88ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Being untapped is a targeting restriction. If the target is tapped before this spell resolves, then this spell doesn’t resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inv/234/backlash) · oracle_id `3db9bf7b-da4e-428f-aa5d-a0cd1afeb16c` · printing: INV #234 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Back on Track
 
@@ -151,6 +164,7 @@
 - **Flavor text** (DFT printing):
   > *At the Tombs Before Time, the living of Amonkhet made vital alliances with the honored dead.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18429 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/76/back-on-track) · oracle_id `aaf46eaf-2e01-46ac-b79d-6b70739d11c2` · printing: DFT #76 (2025-02-14) · [rulings](https://api.scryfall.com/cards/884c0032-9c62-4028-a55f-6a3da2545654/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Backslide
@@ -164,7 +178,9 @@
   > *Some things are better left unknown.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23184 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ons/70/backslide) · oracle_id `6d9746bc-0b72-4ac4-b48a-742b63b1c41b` · printing: ONS #70 (2002-10-07) · [rulings](https://api.scryfall.com/cards/47c40269-80a5-454f-83dd-dae1c11500c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ons/70/backslide) · oracle_id `6d9746bc-0b72-4ac4-b48a-742b63b1c41b` · printing: ONS #70 (2002-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Backstreet Bruiser
 
@@ -178,7 +194,9 @@
   > *"I could show you what's in the case, but it'd be the last thing you ever see."*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26727 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/35/backstreet-bruiser) · oracle_id `354d9db1-18a6-4701-be3c-c4ded900e2ff` · printing: SNC #35 (2022-04-29) · [rulings](https://api.scryfall.com/cards/8d3a94c8-a7eb-4f05-8d48-d42e5129b09a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-04-29* — Backstreet Bruiser's ability looks for two or more individual counters. It doesn't matter if the counters are the same kind or different kinds or whether they are on the same permanent or different permanents.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/35/backstreet-bruiser) · oracle_id `354d9db1-18a6-4701-be3c-c4ded900e2ff` · printing: SNC #35 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Back to Basics
 
@@ -215,6 +233,7 @@
 - **Flavor text** (SNC printing):
   > *"My sources say the Beamtown Bullies were spotted in the Mezzio. Keep your eyes sharp and stay close to me."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21403 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/2/backup-agent) · oracle_id `df9a3fe0-aca8-4adb-9ef6-45616025925b` · printing: SNC #2 (2022-04-29) · [rulings](https://api.scryfall.com/cards/2a46af75-3880-4141-b26e-19834d67e7a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Backup Plan
@@ -250,4 +269,5 @@
   > *Paranoia has driven some Kessig communities to hunt down anything—and anyone—that travels through their woods.*
 - **Keywords:** Delirium
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30583 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/emn/150/backwoods-survivalists) · oracle_id `d2aecca6-fe03-4686-9daa-68f1f6c73ab4` · printing: EMN #150 (2016-07-22) · [rulings](https://api.scryfall.com/cards/4a3a65be-0ca1-437f-aafe-d96e8fe428ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

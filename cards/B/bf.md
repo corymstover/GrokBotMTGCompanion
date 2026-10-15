@@ -23,6 +23,7 @@
   > *"It was big. Really, really big. No, bigger*
   > *No, more. Look, we're talking krakens and*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ugl/28/bfm-(big-furry-monster)) · oracle_id `8fd7503b-e722-49a7-a8ac-786e7354bc95` · printing: UGL #28 (1998-08-11) · [rulings](https://api.scryfall.com/cards/a9f9c279-e382-4feb-9575-196e7cf5d7dc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### B.F.M. (Big Furry Monster) (UGL #29)
@@ -38,4 +39,5 @@
   > *dreadnoughts for jewelry. It was \*big\*!"*
   > *—Arna Kennerüd, skyknight*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ugl/29/bfm-(big-furry-monster)) · oracle_id `d0bd00f2-91bb-4c9c-a8e7-f8aeadc0bbb9` · printing: UGL #29 (1998-08-11) · [rulings](https://api.scryfall.com/cards/d15c6375-2e4e-47f7-88e1-d90794e7f724/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

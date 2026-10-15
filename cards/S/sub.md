@@ -42,7 +42,11 @@
 - **Flavor text** (UST printing):
   > *Martha was in and out in exactly two minutes—thirty seconds to administer the poison plus a minute and a half to properly refold the napkins.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/73/subcontract) · oracle_id `ce9a7e3f-ec9b-4258-ba32-9603f9a9c18c` · printing: UST #73 (2017-12-08) · [rulings](https://api.scryfall.com/cards/c349f19b-1f9e-4541-943a-a6933d01ad73/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-01-19* — If there’s no one around to make a decision, you can call or text someone if you need to. If there’s a physical action required, such as high-fiving, you’ll need someone there.
+  - *2018-01-19* — It doesn’t have to be someone who plays Magic. This may be fun.
+  - *2018-01-19* — You can choose any player not currently in your game. This includes people who used to be in your game but left it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/73/subcontract) · oracle_id `ce9a7e3f-ec9b-4258-ba32-9603f9a9c18c` · printing: UST #73 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Subdue
 
@@ -51,6 +55,7 @@
 - **Oracle text:**
   > Prevent all combat damage that would be dealt by target creature this turn. That creature gets +0/+X until end of turn, where X is its mana value.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31502 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/leg/206/subdue) · oracle_id `81bac4b8-277b-415a-9064-a80a68fd7051` · printing: LEG #206 (1994-06-01) · [rulings](https://api.scryfall.com/cards/123d6097-8021-46cd-a8c3-01013245e347/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Subgoyf
@@ -61,7 +66,13 @@
 - **Oracle text:**
   > Subgoyf's power and toughness are each equal to the number of different subtypes other than creature types among cards in all graveyards and its toughness is equal to that number plus 1. (Subtypes include but are absolutely not limited to: Plains, Equipment, Aura, Arcane, Jace, Curse, Urza's, Ulamog's, etc.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/536/subgoyf) · oracle_id `9e57331c-b5b0-40b7-ba2d-6effa9d0abea` · printing: MB2 #536 (2024-08-02) · [rulings](https://api.scryfall.com/cards/3144ee6e-5dca-4fda-9f78-852541b3f4c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+  - *2024-11-08* — Subtypes appear on cards’ type lines after a long dash.
+  - *2024-11-08* — The ability that defines Subgoyf’s power and toughness applies in all zones, not just the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/536/subgoyf) · oracle_id `9e57331c-b5b0-40b7-ba2d-6effa9d0abea` · printing: MB2 #536 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Subira, Tulzidi Caravanner
 
@@ -165,7 +176,10 @@
   > *Exhale, and let the winds carry your soul for all eternity.*
 - **Keywords:** Undaunted
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15289 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/60/sublime-exhalation) · oracle_id `9e0c66e9-7d2b-46bd-890e-886d0c029d1d` · printing: CMM #60 (2023-08-04) · [rulings](https://api.scryfall.com/cards/4a8f810f-844b-4ebd-b28c-46432cf0203d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-11-08* — Causing an opponent to lose the game after you've announced that you're casting a spell with undaunted and determined its total cost won't cause you to have to pay more mana.
+  - *2016-11-08* — Effects that reduce what you pay to cast a spell don't affect its mana value.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/60/sublime-exhalation) · oracle_id `9e0c66e9-7d2b-46bd-890e-886d0c029d1d` · printing: CMM #60 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Submerge
 
@@ -225,6 +239,7 @@
   > *"Down here, I am no longer alone. I needed a kingdom, and they needed a king."*
   > *—Mole Man, Harvey Elder*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14515 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/273/subterranean-cavern) · oracle_id `d49a7525-eca5-48e1-b94b-d618a706fd02` · printing: MSH #273 (2026-06-26) · [rulings](https://api.scryfall.com/cards/038bf500-e23a-4d38-9312-db1909e20353/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Subterranean Hangar
@@ -236,6 +251,7 @@
   > {T}: Put a storage counter on this land.
   > {T}, Remove any number of storage counters from this land: Add {B} for each storage counter removed this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19838 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/329/subterranean-hangar) · oracle_id `0bbd5a04-c281-4afb-98a1-657b4eca102c` · printing: MMQ #329 (1999-10-04) · [rulings](https://api.scryfall.com/cards/edc199d1-970b-489f-b713-8285151f16ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Subterranean Schooner
@@ -267,6 +283,7 @@
 - **Flavor text** (DMR printing):
   > *When things get ugly above ground, goblins resort to alternate routes of passage.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20896 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/143/subterranean-scout) · oracle_id `19f66bfa-bdfc-430a-ae39-4535f0b28324` · printing: DMR #143 (2023-01-13) · [rulings](https://api.scryfall.com/cards/b9e6c26c-84f8-46dd-bb32-b3fc57e172c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Subterranean Shambler
@@ -279,6 +296,7 @@
   > When this creature enters or leaves the battlefield, it deals 1 damage to each creature without flying.
 - **Keywords:** Echo
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31282 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsp/178/subterranean-shambler) · oracle_id `d06be0a6-0d45-4e95-b132-88ce80dd7cb6` · printing: TSP #178 (2006-10-06) · [rulings](https://api.scryfall.com/cards/f9429ec0-ff23-494d-ab1c-b88f3a0dee1b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Subterranean Spirit
@@ -294,6 +312,7 @@
   > *—Dwarven mining song*
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28454 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/195/subterranean-spirit) · oracle_id `58917163-584d-4c74-8243-f56c5d4b49e7` · printing: MIR #195 (1996-10-08) · [rulings](https://api.scryfall.com/cards/132e8aac-9698-45fa-8d64-b460fd5deffc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Subterranean Tremors
@@ -305,6 +324,7 @@
 - **Flavor text** (CN2 printing):
   > *The market is now closed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14716 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/58/subterranean-tremors) · oracle_id `f0881756-de74-43b1-a9fe-c2fde93faf5a` · printing: CN2 #58 (2016-08-26) · [rulings](https://api.scryfall.com/cards/1b9510b8-6601-4116-8713-ff7649c000eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Subtle Strike
@@ -318,7 +338,9 @@
 - **Flavor text** (ZNR printing):
   > *Silence is an underrated hunting strategy.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19902 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/128/subtle-strike) · oracle_id `08122109-6287-4d78-9242-2da8a25022b0` · printing: ZNR #128 (2020-09-25) · [rulings](https://api.scryfall.com/cards/0d3f531a-ce45-4cba-be24-6db749e38abd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-09-25* — If you choose both modes and one target becomes illegal before Subtle Strike resolves, the other target is affected as appropriate.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/128/subtle-strike) · oracle_id `08122109-6287-4d78-9242-2da8a25022b0` · printing: ZNR #128 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Subtlety
 
@@ -365,7 +387,9 @@
 - **Flavor text** (ULG printing):
   > *Kerrick's corrupt domain swelled like a blister on Tolaria's skin.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17028 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/68/subversion) · oracle_id `0772c5d2-9189-47e2-b0ee-13babd94ea93` · printing: ULG #68 (1999-02-15) · [rulings](https://api.scryfall.com/cards/50f1bca9-5831-4e8b-8920-f28ebb3ffb27/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — This is loss of life, not damage. It can’t be prevented.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/68/subversion) · oracle_id `0772c5d2-9189-47e2-b0ee-13babd94ea93` · printing: ULG #68 (1999-02-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Subway Train
 
@@ -377,4 +401,5 @@
   > Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17555 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/178/subway-train) · oracle_id `6d4472ad-3fbf-4a5d-94de-dfee04fda9c3` · printing: SPM #178 (2025-09-26) · [rulings](https://api.scryfall.com/cards/96f869f7-db88-4580-82b7-8749a55e525c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

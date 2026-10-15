@@ -71,7 +71,10 @@
 - **Flavor text** (5DN printing):
   > *The ouphes finally managed to still the clockwork monstrosity by catching themselves in its cogs.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29097 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/90/ouphe-vandals) · oracle_id `7bee3848-24e2-4e12-a341-a759214308c0` · printing: 5DN #90 (2004-06-04) · [rulings](https://api.scryfall.com/cards/896e08f8-7608-4137-9a58-f6eda8f84313/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-12-01* — The ability targets an ability on the stack, not the artifact, so it can destroy an artifact with protection from green or one that can’t be targeted by spells and abilities.
+  - *2016-06-08* — Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords are activated abilities and will have colons in their reminder text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/90/ouphe-vandals) · oracle_id `7bee3848-24e2-4e12-a341-a759214308c0` · printing: 5DN #90 (2004-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Our Market Research Shows That Players Like Really Long Card Names So We Made this Card to Have the Absolute Longest Card Name Ever Elemental
 
@@ -83,6 +86,7 @@
 - **Flavor text** (UNH printing):
   > *Just call it OMRSTPLRLCNSWMTCTHTALCNEE for short.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/107/our-market-research-shows-that-players-like-really-long-card-names-so-we-made-this-card-to-have-the-absolute-longest-card-name-ever-elemental) · oracle_id `94a3b2af-0741-48c5-b827-6ff529bafae3` · printing: UNH #107 (2004-11-19) · [rulings](https://api.scryfall.com/cards/5c1f3f52-cb9b-4b2a-bb02-6175897ae76e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ouroboroid
@@ -111,7 +115,13 @@
   > *"'Invincible' is just a word."*
   > *—Gideon Jura*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16680 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/67/oust) · oracle_id `efc12fda-054b-466a-a863-06cf54878172` · printing: CLU #67 (2024-02-23) · [rulings](https://api.scryfall.com/cards/2c655916-08fc-4971-be2a-1e33bf8b22f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2010-06-15* — If the targeted creature is a token, it will cease to exist after it’s put into its owner’s library.
+  - *2010-06-15* — If the targeted creature is an illegal target by the time Oust resolves, the spell doesn’t resolve. No one gains life.
+  - *2010-06-15* — If the targeted creature’s owner has no cards left in their library, that creature is put into that library as the only card there.
+  - *2010-06-15* — If the targeted creature’s owner has one or more cards in their library, that creature is put into that library directly under the top card.
+  - *2010-06-15* — Note that the creature’s controller, not its owner, is the one who gains life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/67/oust) · oracle_id `efc12fda-054b-466a-a863-06cf54878172` · printing: CLU #67 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Outbreak
 
@@ -123,6 +133,7 @@
 - **Flavor text** (PCY printing):
   > *This plague chooses its victims.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30000 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcy/71/outbreak) · oracle_id `05079cee-b190-42d7-b59f-130cb545cab7` · printing: PCY #71 (2000-06-05) · [rulings](https://api.scryfall.com/cards/f43c30d9-23a5-4872-925d-3427f5f57995/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Outcaster Greenblade
@@ -136,6 +147,7 @@
 - **Flavor text** (OTJ printing):
   > *In the shade of his sword, the desert blooms.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13946 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/172/outcaster-greenblade) · oracle_id `855a2579-8f78-46ce-a3a8-eddc808bd7b4` · printing: OTJ #172 (2024-04-19) · [rulings](https://api.scryfall.com/cards/c9458f0f-5593-4ac9-934c-e215ef8093a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Outcaster Trailblazer
@@ -172,7 +184,15 @@
   > *—Dvika of the Foundway Associates*
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13836 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/66/out-cold) · oracle_id `2d16d51b-47e0-4cdc-83dd-a805ba50bd83` · printing: MKM #66 (2024-02-09) · [rulings](https://api.scryfall.com/cards/aabfada0-3c1b-4237-b06c-573071ccd68d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-02-02* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2024-02-02* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2024-02-02* — If you target a creature with ward, you may still pay the ward cost, but Out Cold won't be countered even if you don't.
+  - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
+  - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
+  - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+  - *2024-02-02* — You don't have to choose any targets for Out Cold. However, if you do, and all of those creatures are illegal targets at the time Out Cold tries to resolve, it won't resolve and none of its effects will happen. You won't investigate.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/66/out-cold) · oracle_id `2d16d51b-47e0-4cdc-83dd-a805ba50bd83` · printing: MKM #66 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Outflank
 
@@ -184,7 +204,9 @@
   > *"With the drum of hooves and a flash of blades, the monster's terrifying roar changed to a cry of fear."*
   > *—\*Legend of the Gilded Knights\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19613 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/23/outflank) · oracle_id `c3436d70-230c-4bda-b7da-935a270f135f` · printing: ELD #23 (2019-10-04) · [rulings](https://api.scryfall.com/cards/663e0208-81c3-4a76-bcc2-bc59cf8ca649/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-10-04* — Count the number of creatures you control as Outflank resolves to determine how much damage Outflank deals.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/23/outflank) · oracle_id `c3436d70-230c-4bda-b7da-935a270f135f` · printing: ELD #23 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Outland Boar
 
@@ -196,7 +218,9 @@
 - **Flavor text** (AER printing):
   > *The vibrant forest of Peema is awash with aether. Its animals are stronger, faster, and more aggressive than their counterparts elsewhere.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28699 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/132/outland-boar) · oracle_id `fdb109f6-d185-4d1e-92b9-768e77562f55` · printing: AER #132 (2017-01-20) · [rulings](https://api.scryfall.com/cards/135912b3-978b-4a9b-8758-7b138b190232/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-02-09* — Once a creature with power 3 or greater has blocked Outland Boar, changing the power of the blocking creature won’t cause Outland Boar to become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/132/outland-boar) · oracle_id `fdb109f6-d185-4d1e-92b9-768e77562f55` · printing: AER #132 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Outland Colossus
 
@@ -208,7 +232,11 @@
   > This creature can't be blocked by more than one creature.
 - **Keywords:** Renown
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20167 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/193/outland-colossus) · oracle_id `5b034e04-70e5-4783-8ac8-04d8e5a9f961` · printing: ORI #193 (2015-07-17) · [rulings](https://api.scryfall.com/cards/1caad298-52cb-46f1-8212-fe657ab80159/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-06-22* — If a creature with renown deals combat damage to its controller because that damage was redirected, renown will trigger.
+  - *2015-06-22* — If a renown ability triggers, but the creature leaves the battlefield before that ability resolves, the creature doesn't become renowned. Any ability that triggers "whenever a creature becomes renowned" won't trigger.
+  - *2015-06-22* — Renown won't trigger when a creature deals combat damage to a planeswalker or another creature. It also won't trigger when a creature deals noncombat damage to a player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/193/outland-colossus) · oracle_id `5b034e04-70e5-4783-8ac8-04d8e5a9f961` · printing: ORI #193 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Outland Liberator // Frenzied Trapbreaker
 
@@ -250,6 +278,7 @@
   > *"What are you gonna do, walk a hundred miles for a second opinion?"*
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15037 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/23/outlaw-medic) · oracle_id `637be5f7-ab39-4e3a-a5eb-c6e48fca00a9` · printing: OTJ #23 (2024-04-19) · [rulings](https://api.scryfall.com/cards/2feaa51e-47fb-4849-b420-ee7278f3489a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Outlaws' Fury
@@ -261,7 +290,13 @@
 - **Flavor text** (OTJ printing):
   > *The only witness to their rampage was the stoic visage of the moon.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18298 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/136/outlaws-fury) · oracle_id `5b5ef88c-f863-4f55-91fc-a63f7f3c1b3f` · printing: OTJ #136 (2024-04-19) · [rulings](https://api.scryfall.com/cards/f7502b9c-b759-499a-8e94-22f87f5eb142/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-04-12* — A card, spell, or permanent is an outlaw if it has the Assassin, Mercenary, Pirate, Rogue, or Warlock creature type. It doesn't matter if it has more than one of those creature types; as long as it has at least one, it's an outlaw.
+  - *2024-04-12* — If an ability refers to an outlaw or whether a player controls an outlaw, it's referring only to permanents with one or more of the creature types specified above. Notably, it's not referring to any spell or card not on the battlefield. However, other abilities may refer to an "outlaw spell" or "outlaw card" in a zone other than the battlefield. Those abilities refer to spells and cards with one or more of the specified creature types.
+  - *2024-04-12* — Outlaw is not a creature type. If an effect asks you to choose a creature type, you can't choose outlaw.
+  - *2024-04-12* — Outlaws' Fury affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn and noncreature permanents that become creatures later in the turn won't get +2/+0.
+  - *2024-04-12* — You pay all costs and follow all normal timing rules for a card played from exile this way. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/136/outlaws-fury) · oracle_id `5b5ef88c-f863-4f55-91fc-a63f7f3c1b3f` · printing: OTJ #136 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Outlaws' Merriment
 
@@ -287,7 +322,14 @@
   > Plot {4}{U} (You may pay {4}{U} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)
 - **Keywords:** Plot
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19714 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/59/outlaw-stitcher) · oracle_id `9fda1239-97ca-41f0-8bfa-040484769396` · printing: OTJ #59 (2024-04-19) · [rulings](https://api.scryfall.com/cards/ba9584f0-55b8-448d-99a7-041934053f42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-04-12* — Exiling a card using its plot ability is a special action. Once you announce you’re taking that action, no other player can respond by trying to remove that card from your hand.
+  - *2024-04-12* — If a plotted card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-04-12* — If you’re casting a plotted card from exile without paying its mana cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the plotted card has any mandatory additional costs, those must still be paid to cast the spell.
+  - *2024-04-12* — Outlaw Stitcher’s ability will count all spells you’ve cast this turn except the first, including itself (if it wasn’t the first spell), spells that were countered or didn’t resolve, and spells that are still on the stack.
+  - *2024-04-12* — Plot abilities are written “Plot [cost],” which means “Any time you have priority during your main phase while the stack is empty, you may pay [cost] and exile this card from your hand. It becomes plotted.”
+  - *2024-04-12* — You can’t cast a plotted card on the same turn it became plotted. On any future turn, you may cast that card from exile without paying its mana cost during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/59/outlaw-stitcher) · oracle_id `9fda1239-97ca-41f0-8bfa-040484769396` · printing: OTJ #59 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Outmaneuver
 
@@ -299,7 +341,10 @@
   > *"Push one goblin into sight, an' run a lot. That's tactics."*
   > *—Jula, goblin raider*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16848 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/205/outmaneuver) · oracle_id `42b44108-4a03-4333-bf5a-e42493f4d5e4` · printing: USG #205 (1998-10-12) · [rulings](https://api.scryfall.com/cards/4a5a69fa-71ff-4e4f-9406-7cfebccb3384/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-04-01* — Creatures damage the defending player or planeswalker even if the blocking creatures are no longer there at that time.
+  - *2008-04-01* — If a creature is attacking a planeswalker, assigning its damage as though it weren’t blocked means the damage is assigned to the planeswalker, not to the defending player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/205/outmaneuver) · oracle_id `42b44108-4a03-4333-bf5a-e42493f4d5e4` · printing: USG #205 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Outmuscle
 
@@ -310,7 +355,16 @@
   > Adamant — If at least three green mana was spent to cast this spell, the creature you control gains indestructible until end of turn.
 - **Keywords:** Adamant, Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16126 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/170/outmuscle) · oracle_id `185d84f4-6095-46ef-917f-3d662a86aa81` · printing: ELD #170 (2019-10-04) · [rulings](https://api.scryfall.com/cards/40d0ddcc-e6df-4fe1-9ac9-f895885ccc84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2019-10-04* — Adamant effects check what mana was actually spent to cast a spell. If an effect allows you to spend mana “as though it were mana” of any color or type, that allows you to spend mana you couldn't otherwise spend, but it doesn't change what mana you spent to cast the spell.
+  - *2019-10-04* — Because state-based actions don't destroy a creature with lethal damage marked on it until a player would receive priority, gaining indestructible from Outmuscle will save your creature if it's dealt lethal damage in the fight.
+  - *2019-10-04* — If an effect allows you to cast a spell without paying its mana cost, you can't choose to cast it and pay unless another rule or effect allows you to cast that spell for a cost. Similarly, you can't waive a cost reduction unless that effect says you may.
+  - *2019-10-04* — If an instant or sorcery spell has an adamant ability, you perform the spell's instructions in order. You don't perform the adamant instruction before the spell resolves or before any other effects printed above it.
+  - *2019-10-04* — If either target is an illegal target as Outmuscle tries to resolve, neither creature will deal or be dealt damage.
+  - *2019-10-04* — If the creature you control is an illegal target as Outmuscle tries to resolve, no creature gets a +1/+1 counter. If that creature is a legal target but the creature you don't control isn't, it still gets a +1/+1 counter and gains indestructible if appropriate.
+  - *2019-10-04* — If you copy a spell that has an adamant ability, no mana was spent to cast the copy at all, so that ability won't apply.
+  - *2019-10-04* — You can't cast Outmuscle unless you choose both a creature you control and a creature you don't control as targets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/170/outmuscle) · oracle_id `185d84f4-6095-46ef-917f-3d662a86aa81` · printing: ELD #170 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Outnumber
 
@@ -336,6 +390,7 @@
   > *"The Core is not a simple trove to be plundered by intruders from the surface. It will reject those who do not accord it respect."*
   > *—Akal Pakal, First Steward of Oteclan*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14135 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/69/out-of-air) · oracle_id `fcea912b-58b1-4068-ac4d-1bc89aa7f33c` · printing: LCI #69 (2023-11-17) · [rulings](https://api.scryfall.com/cards/c263db55-fcac-4b49-b626-7c8092accfcd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Out of Bounds
@@ -349,7 +404,12 @@
   > *The wardens watch for illegal tactics and protect spectators from the occasional rogue fireball.*
 - **Keywords:** Assist
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18672 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/38/out-of-bounds) · oracle_id `431b2e52-1290-47b1-920d-2c1817553d96` · printing: BBD #38 (2018-06-08) · [rulings](https://api.scryfall.com/cards/8b457672-902b-42c0-9d53-a3c21be2f500/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-06-08* — Assist allows another player to pay for any amount of generic mana. If an effect changes the cost of the spell, the amount that player may pay will be more or less than the amount in the spell’s reminder text.
+  - *2018-06-08* — If an effect allows a player to cast a spell spending mana “as though it were mana of any color” or “of any type,” that player must still pay for the colored mana in that spell’s total cost. That cost doesn’t become generic.
+  - *2018-06-08* — Only the generic mana portion of a spell’s cost can be paid with assist. Any colored mana costs must be paid by the spell’s controller, even if the assisting player paid mana of that color.
+  - *2018-06-08* — You may reveal a card with assist and discuss how to pay for it before you begin to cast the spell. Targets are chosen for that spell before you choose another player to help you pay for it and before that player has committed any mana to doing so.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/38/out-of-bounds) · oracle_id `431b2e52-1290-47b1-920d-2c1817553d96` · printing: BBD #38 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Out of the Tombs
 
@@ -375,6 +435,7 @@
 - **Flavor text** (SNC printing):
   > *"You bore me."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23140 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/52/out-of-the-way) · oracle_id `9300874a-32a9-4869-b3e1-1b996403df4e` · printing: SNC #52 (2022-04-29) · [rulings](https://api.scryfall.com/cards/2201ade5-8add-49f2-8045-ae351aaf061c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Out of Time
@@ -407,6 +468,7 @@
   > When this enchantment enters, exile target creature an opponent controls until this enchantment leaves the battlefield.
   > When a Town controlled by the owner of the exiled card enters, sacrifice this enchantment.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UW11a/out-of-town) · oracle_id `3c0ab275-d31f-4ded-8330-40cf0ce9a88b` · printing: UNK #UW11a (2025-06-20) · [rulings](https://api.scryfall.com/cards/c36523f8-5126-4808-8bb7-173ef7b01f75/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Outpace Oblivion
@@ -419,7 +481,14 @@
   > {2}, Sacrifice this enchantment: It deals 2 damage to each player who doesn't have max speed.
 - **Keywords:** Start your engines!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16957 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/139/outpace-oblivion) · oracle_id `4d92f48d-c851-4b71-b7fa-916459928d59` · printing: DFT #139 (2025-02-14) · [rulings](https://api.scryfall.com/cards/c22e415f-636f-4394-9b21-600ab720ac98/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-02-07* — A player “has max speed” if their speed is 4.
+  - *2025-02-07* — Each player tracks their speed (or lack thereof) separately. Increasing your speed has no effect on whether another player has speed.
+  - *2025-02-07* — If an effect needs to know what a player’s speed is and that player doesn’t have a speed, their speed is considered 0.
+  - *2025-02-07* — Start your engines! isn’t a triggered ability. Increasing your speed to 1 is something that happens as a state-based action as soon as you control a permanent with the ability. Notably, this includes gaining control of a permanent with the ability that another player controls.
+  - *2025-02-07* — Your speed doesn’t change until a spell or ability says so, such as the inherent triggered ability that cares about opponents losing life during your turn. Notably, losing control of permanents with start your engines! doesn’t affect your speed.
+  - *2025-02-07* — “Max speed — [ability]” means “As long as you have max speed, this object has [ability].” If the granted ability functions in a zone other than the battlefield, the max speed ability does too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/139/outpace-oblivion) · oracle_id `4d92f48d-c851-4b71-b7fa-916459928d59` · printing: DFT #139 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Outpost Siege
 
@@ -465,7 +534,11 @@
   > *A boggart's mind is a tinderbox of volatile thoughts, hungry for a spark.*
 - **Keywords:** Chroma
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25588 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eve/59/outrage-shaman) · oracle_id `08d77e5b-7de1-4b0a-a5a7-75e60d452d27` · printing: EVE #59 (2008-07-25) · [rulings](https://api.scryfall.com/cards/8bf2b2fb-d521-42ea-a6de-f80054b8a4a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-08-01* — Chroma abilities check only mana costs, which are found in a card’s upper right corner. They don’t count mana symbols that appear in a card’s text box.
+  - *2008-08-01* — Chroma abilities count hybrid mana symbols of the appropriate color. For example, a card with mana cost {3}{U/R}{U/R} has two red mana symbols in its mana cost.
+  - *2008-08-01* — The effect counts the mana symbols in this cards mana cost as well.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eve/59/outrage-shaman) · oracle_id `08d77e5b-7de1-4b0a-a5a7-75e60d452d27` · printing: EVE #59 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Outrider en-Kor
 
@@ -477,7 +550,11 @@
   > {0}: The next 1 damage that would be dealt to this creature this turn is dealt to target creature you control instead.
 - **Keywords:** Flanking
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16775 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/30/outrider-en-kor) · oracle_id `644b7aba-a7b8-4861-9e83-73329cf85be2` · printing: TSR #30 (2021-03-19) · [rulings](https://api.scryfall.com/cards/de9b2506-ead4-49ff-a733-66f3f13dbe17/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-03-19* — After Outrider en-Kor's activated ability has resolved, if multiple sources would deal damage to Outrider en-Kor simultaneously that turn (which can happen if Outrider en-Kor is blocked by multiple creatures, for example), you choose which source has its 1 damage redirected. If Outrider en-Kor's ability has resolved more than once that turn, you may choose a different source for each redirection effect.
+  - *2021-03-19* — If the targeted creature leaves the battlefield after the activated ability resolves but before Outrider en-Kor would be dealt damage, the damage isn't redirected away from Outrider en-Kor. The same is true if the target is no longer a creature (or a planeswalker) at that time.
+  - *2021-03-19* — The damage dealt to the target is dealt by the original source of damage, not by Outrider en-Kor.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/30/outrider-en-kor) · oracle_id `644b7aba-a7b8-4861-9e83-73329cf85be2` · printing: TSR #30 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Outrider of Jhess
 
@@ -490,7 +567,14 @@
   > *The island nation of Jhess is under constant siege from Valeron on the mainland. Riders traverse the coastline, always on the lookout for sails or aven.*
 - **Keywords:** Exalted
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25924 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/52/outrider-of-jhess) · oracle_id `ccfe72b2-8a9a-4ad6-ab1d-676bb376b0ac` · printing: ALA #52 (2008-10-03) · [rulings](https://api.scryfall.com/cards/d3b681c8-6d20-4e43-95f8-e83d34626145/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2008-10-01* — Exalted abilities will resolve before blockers are declared.
+  - *2008-10-01* — Exalted bonuses last until end of turn. If an effect creates an additional combat phase during your turn, a creature that attacked alone during the first combat phase will still have its exalted bonuses in that new phase. If a creature attacks alone during the second combat phase, all your exalted abilities will trigger again.
+  - *2008-10-01* — If you attack with multiple creatures, but then all but one are removed from combat, your exalted abilities won’t trigger.
+  - *2008-10-01* — If you declare exactly one creature as an attacker, each exalted ability on each permanent you control (including, perhaps, the attacking creature itself) will trigger. The bonuses are given to the attacking creature, not to the permanent with exalted. Ultimately, the attacking creature will wind up with +1/+1 for each of your exalted abilities.
+  - *2008-10-01* — In a Two-Headed Giant game, a creature “attacks alone” if it’s the only creature declared as an attacker by your entire team. If you control that attacking creature, your exalted abilities will trigger but your teammate’s exalted abilities won’t.
+  - *2008-10-01* — Some effects put creatures onto the battlefield attacking. Since those creatures were never declared as attackers, they’re ignored by exalted abilities. They won’t cause exalted abilities to trigger. If any exalted abilities have already triggered (because exactly one creature was declared as an attacker), those abilities will resolve as normal even though there may now be multiple attackers.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/52/outrider-of-jhess) · oracle_id `ccfe72b2-8a9a-4ad6-ab1d-676bb376b0ac` · printing: ALA #52 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Outwit
 
@@ -501,4 +585,6 @@
 - **Flavor text** (AVR printing):
   > *The student asks how a spell is begun. The master ponders what ends it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24141 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/avr/70/outwit) · oracle_id `eac02e36-15c8-4b6d-b9b4-da549a722336` · printing: AVR #70 (2012-05-04) · [rulings](https://api.scryfall.com/cards/429f7cf0-579a-4003-b5cf-4baf5d420796/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-05-01* — The spell you target could also target other things, as long as it also targets a player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/avr/70/outwit) · oracle_id `eac02e36-15c8-4b6d-b9b4-da549a722336` · printing: AVR #70 (2012-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

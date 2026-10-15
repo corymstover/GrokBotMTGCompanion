@@ -111,7 +111,12 @@
   > *The Hobbits of the Shire were fond of six meals a day—when they could get them.*
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15197 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/29/second-breakfast) · oracle_id `bf5f68b8-8ae2-4d08-b86c-4e6d3b653fec` · printing: LTR #29 (2023-06-23) · [rulings](https://api.scryfall.com/cards/002f647a-25f8-461b-8617-52674f5d577c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Some spells and abilities that create Food tokens may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Food tokens.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/29/second-breakfast) · oracle_id `bf5f68b8-8ae2-4d08-b86c-4e6d3b653fec` · printing: LTR #29 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Second Chance
 
@@ -122,7 +127,12 @@
 - **Flavor text** (ULG printing):
   > *The greatest gift is the opportunity to right one's wrongs.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20753 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/41/second-chance) · oracle_id `aa19bbf0-7de3-4ec3-a98b-2ac7533c6b0b` · printing: ULG #41 (1999-02-15) · [rulings](https://api.scryfall.com/cards/62d1a0da-40b9-4e79-bace-b93f98ae4695/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2004-10-04* — It is not optional.
+  - *2004-10-04* — The ability will only trigger if you have 5 or less life at the beginning of upkeep. This is checked again at the start of resolution and nothing happens if you do not still have 5 or less life.
+  - *2010-06-15* — On resolution of the trigger you have to sacrifice this card if you have 5 life or less. If you can't (because it is not on the battlefield, for example), then you still take an extra turn after this one.
+  - *2022-12-08* — If multiple "extra turn" effects resolve in the same turn, take them in the reverse of the order that the effects resolved. In other words, the most recently created extra turn is taken first.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/41/second-chance) · oracle_id `aa19bbf0-7de3-4ec3-a98b-2ac7533c6b0b` · printing: ULG #41 (1999-02-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Second City
 
@@ -132,6 +142,7 @@
   > {T}: Add {C}.
   > {T}: Add one mana of any color. Spend this mana only to cast your second spell in a turn. When that mana is spent, create a Deep Dish Pizza token. (It's a Food artifact with "{3}, {T}, Sacrifice this token: You gain 3 life and draw a card.")
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pf25/4/second-city) · oracle_id `ee164c25-aab0-4568-9be7-1c26fb401ccd` · printing: PF25 #4 (2025-02-03) · [rulings](https://api.scryfall.com/cards/04ab3fa9-13b2-42da-bdf7-1df93e4e3e08/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Second Guess
@@ -144,7 +155,11 @@
   > *"I see where you're going with that. I don't like it."*
   > *—Dierk, geistmage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26326 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/avr/74/second-guess) · oracle_id `b036eac6-60db-48ca-b6e1-b42afac959bd` · printing: AVR #74 (2012-05-04) · [rulings](https://api.scryfall.com/cards/0d22d093-8e89-4d54-ac04-14c8759de3ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2012-05-01* — It doesn’t matter if the first spell cast that turn has resolved yet or not. It also doesn’t matter how many spells have been cast after the second one, as long as the second spell cast is still on the stack.
+  - *2012-05-01* — Most spells and abilities that copy a spell create that copy on the stack. These copies are not cast and won’t count toward the number of spells cast that turn. However, a few (like Isochron Scepter’s ability) instruct you to copy a spell and “cast the copy.” These spells are cast and will count toward the number of spells cast that turn.
+  - *2012-05-01* — Second Guess can’t be cast unless the spell it targets is the second spell cast this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/avr/74/second-guess) · oracle_id `b036eac6-60db-48ca-b6e1-b42afac959bd` · printing: AVR #74 (2012-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Second Harvest
 
@@ -172,6 +187,7 @@
   > Entwine {U} (Choose both if you pay the entwine cost.)
 - **Keywords:** Entwine
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25463 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dst/33/second-sight) · oracle_id `1a4e948a-5a5e-4811-a6af-7ea93a051746` · printing: DST #33 (2004-02-06) · [rulings](https://api.scryfall.com/cards/24a07cdc-8335-45da-9ae2-3052193663ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Second Stage of Magic Design
@@ -181,6 +197,7 @@
 - **Oracle text:**
   > Whenever you cast a spell with a keyword or ability word, if it doesn't share a keyword or ability word with a permanent you control or a card in your graveyard, draw a card. (Keywords and ability words include abilities like flying, flashback, and landfall.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU03d/second-stage-of-magic-design) · oracle_id `951f6b64-81f6-438a-a28e-dfdab127d20c` · printing: UNK #RU03d (2024-10-25) · [rulings](https://api.scryfall.com/cards/98c90956-2564-4e53-9f13-85ae8094481d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Second Sunrise
@@ -205,7 +222,9 @@
 - **Flavor text** (EMA printing):
   > *It suddenly dawned on Jorin that farming was quite a noble profession.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28106 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ema/27/second-thoughts) · oracle_id `41bfef9f-6eb7-49c7-9b90-ff9f385ba670` · printing: EMA #27 (2016-06-10) · [rulings](https://api.scryfall.com/cards/2d8b53ca-272f-44ba-a3aa-13ec0844ada9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-06-08* — If the targeted creature is an illegal target when Second Thoughts tries to resolve, the entire spell doesn’t resolve. You won’t draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ema/27/second-thoughts) · oracle_id `41bfef9f-6eb7-49c7-9b90-ff9f385ba670` · printing: EMA #27 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Second Wind
 
@@ -219,7 +238,9 @@
   > *Vindr stormchasers believe that the same ancient forces that move the winds can also move mortal minds and hearts.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17464 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fut/57/second-wind) · oracle_id `1d8569c1-0b10-40a7-9a87-38571a782dd9` · printing: FUT #57 (2007-05-04) · [rulings](https://api.scryfall.com/cards/061d2f8f-1166-4579-9609-d8ba5db79172/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-05-01* — These abilities are abilities of the Aura, not abilities granted to the creature. Only the Aura’s controller can activate them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fut/57/second-wind) · oracle_id `1d8569c1-0b10-40a7-9a87-38571a782dd9` · printing: FUT #57 (2007-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secret Arcade // Dusty Parlor
 
@@ -262,6 +283,7 @@
 - **Flavor text** (UST printing):
   > *The Order of the Widget doesn't believe in traveling light.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/165a/secret-base) · oracle_id `1017088c-08a3-45d9-a7f7-01fb2f309717` · printing: UST #165a (2017-12-08) · [rulings](https://api.scryfall.com/cards/9a4306c2-1b92-4ccc-8d92-9f27f1505113/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secret Door
@@ -276,7 +298,18 @@
   > *The way opened before him, and the dust of centuries stirred in the air.*
 - **Keywords:** Defender, Venture into the dungeon
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13853 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/71/secret-door) · oracle_id `a53baf90-8d0c-4900-9f24-893ad31628ec` · printing: AFR #71 (2021-07-23) · [rulings](https://api.scryfall.com/cards/3191e400-aa4e-4955-aca0-ecbe63ea240f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2021-07-23* — A player may only have one dungeon in the command zone at a time.
+  - *2021-07-23* — Choosing the dungeon or room to venture into is part of resolving the venture into the dungeon keyword action. Once that choice is made, players may not respond until after the appropriate room ability has triggered.
+  - *2021-07-23* — Dungeon cards are not part of a player's deck or sideboard. In both constructed and limited formats, players can use any dungeon card when they venture into the dungeon.
+  - *2021-07-23* — Dungeons are removed from the game as a state-based action.
+  - *2021-07-23* — If you somehow venture into the dungeon while a room's ability is on the stack, you will continue on in the dungeon. If you're already in the last room, complete that dungeon and start a new one.
+  - *2021-07-23* — Moving into a dungeon room will cause its room ability to trigger.
+  - *2021-07-23* — Once you resolve the last room ability of a dungeon, that dungeon is now completed and is removed from the game.
+  - *2021-07-23* — The player venturing into the dungeon chooses which dungeon they will venture into. They may choose a dungeon that they have already completed this game.
+  - *2021-07-23* — To venture into the dungeon, a player moves their venture marker into the next room of the dungeon they are currently in. If they aren't currently in a dungeon, that player instead chooses a dungeon card from outside the game, puts it into the command zone, and moves their venture marker onto the first room.
+  - *2021-07-23* — You can only move forward (well, downward) in a dungeon, never backwards or sideways.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/71/secret-door) · oracle_id `a53baf90-8d0c-4900-9f24-893ad31628ec` · printing: AFR #71 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secret Identity
 
@@ -288,6 +321,7 @@
   > • Reveal — Until end of turn, target creature you control becomes a Hero with base power and toughness 3/4 and gains flying and vigilance.
 - **Keywords:** Conceal
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10403 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/43/secret-identity) · oracle_id `e6637f9f-8293-43a5-a134-93799a016ecb` · printing: SPM #43 (2025-09-26) · [rulings](https://api.scryfall.com/cards/37a31d84-e87b-406e-9249-fae1b5e23e72/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secret Invasion
@@ -300,6 +334,7 @@
   > Enchanted creature has ward {2}.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18502 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/72/secret-invasion) · oracle_id `25443ea4-3177-4e29-a2b1-f3fee60b3205` · printing: MSH #72 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e361b2f4-cd2f-44e9-a56d-c1d6b5ae742d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secretkeeper
@@ -312,6 +347,7 @@
 - **Flavor text** (SOK printing):
   > *It is all the things that humanity was not meant to know.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31755 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/54/secretkeeper) · oracle_id `709a8bf0-bd0b-4ee0-9c06-98b7551447b5` · printing: SOK #54 (2005-06-03) · [rulings](https://api.scryfall.com/cards/03247e03-747a-462a-ad74-49ce02d20f13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secret of Bloodbending
@@ -355,7 +391,13 @@
   > {4}, {T}: Investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.")
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14847 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/20/secret-passage) · oracle_id `c6a46fc2-fc8f-4dcd-bca7-682abfbf303d` · printing: CLU #20 (2024-02-23) · [rulings](https://api.scryfall.com/cards/6b35ede8-e882-46fd-9eda-9d6f64c73ea1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-02-02* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2024-02-02* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
+  - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
+  - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/20/secret-passage) · oracle_id `c6a46fc2-fc8f-4dcd-bca7-682abfbf303d` · printing: CLU #20 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secret Plans
 
@@ -393,6 +435,7 @@
 - **Flavor text** (AER printing):
   > *There is no shortage of illegal salvage in Ghirapur, nor of those who are willing to profit from it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10079 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/71/secret-salvage) · oracle_id `f42fa525-dd17-448a-b0c3-29b90db2e30e` · printing: AER #71 (2017-01-20) · [rulings](https://api.scryfall.com/cards/d9b9f3e2-b5e8-4234-aaf3-5f1938a20c78/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secrets of Paradise
@@ -447,7 +490,13 @@
   > *Stolen knowledge can never be stolen back.*
 - **Keywords:** Ascend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15089 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/52/secrets-of-the-golden-city) · oracle_id `c0dda0d0-1fae-4777-ba86-9fe7990bf3a8` · printing: RIX #52 (2018-01-19) · [rulings](https://api.scryfall.com/cards/899ecd7a-bfd6-42a4-8cb2-18bac40b4401/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2018-01-19* — A permanent is any object on the battlefield, including tokens and lands. Spells and emblems aren’t permanents.
+  - *2018-01-19* — If you cast a spell with ascend, you don’t get the city’s blessing until it resolves. Players may respond to that spell by trying to change whether you get the city’s blessing.
+  - *2018-01-19* — If you control ten permanents but don’t control a permanent or resolving spell with ascend, you don’t get the city’s blessing. For example, if you control ten permanents, lose control of one, then cast Golden Demise, you won’t have the city’s blessing and the spell will affect creatures you control.
+  - *2018-01-19* — If your tenth permanent enters the battlefield and then a permanent leaves the battlefield immediately afterwards (most likely due to the “Legend Rule” or due to being a creature with 0 toughness), you get the city’s blessing before it leaves the battlefield.
+  - *2018-01-19* — Once you have the city’s blessing, you have it for the rest of the game, even if you lose control of some or all of your permanents. The city’s blessing isn’t a permanent itself and can’t be removed by any effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/52/secrets-of-the-golden-city) · oracle_id `c0dda0d0-1fae-4777-ba86-9fe7990bf3a8` · printing: RIX #52 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secrets of the Key
 
@@ -460,7 +509,14 @@
   > *As Sigarda and Sorin battled, Arlinn and Teferi recovered the key from the Markov catacombs.*
 - **Keywords:** Investigate, Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13845 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/73/secrets-of-the-key) · oracle_id `55c7ce94-3cd3-42f3-9dd8-0c118fa626c8` · printing: MID #73 (2021-09-24) · [rulings](https://api.scryfall.com/cards/9b022ba8-07b6-4993-99c8-89c6dcb19e60/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/73/secrets-of-the-key) · oracle_id `55c7ce94-3cd3-42f3-9dd8-0c118fa626c8` · printing: MID #73 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secret Summoning
 
@@ -518,6 +574,7 @@
   > *"Enjoy your stay, Zemo. The quiet should help you ponder the consequences of your actions."*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28981 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/608/secure-detention) · oracle_id `ce95e51d-4ef3-44a8-ae47-cf1bf71ebd3f` · printing: MSC #608 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ae5233b5-08fe-4b63-a0fa-6e5e07df3fa8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secure the Scene
@@ -530,7 +587,9 @@
   > *"You know it's a great show when the Azorius arrest the props, too!"*
   > *—Judith, the Scourge Diva*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26543 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/35/secure-the-scene) · oracle_id `d6a9746c-eba5-4735-aec1-e70edba2c686` · printing: M21 #35 (2020-07-03) · [rulings](https://api.scryfall.com/cards/d6467d96-e43a-4b1e-b6ce-578d991077b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-06-23* — If the target nonland permanent is an illegal target by the time Secure the Scene tries to resolve, the spell won't resolve. No player will create a Soldier token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/35/secure-the-scene) · oracle_id `d6a9746c-eba5-4735-aec1-e70edba2c686` · printing: M21 #35 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secure the Wastes
 
@@ -576,7 +635,9 @@
   > Enchanted land has "{T}: Prevent the next 1 damage that would be dealt to you this turn."
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28784 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/20/security-blockade) · oracle_id `b4b397a9-85cb-4bdf-8c2e-a151a02a4208` · printing: RTR #20 (2012-10-05) · [rulings](https://api.scryfall.com/cards/e6250b31-8592-48b2-a877-3637c9ee7d49/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-10-01* — You must target a land to cast Security Blockade. If that land is an illegal target when Security Blockade tries to resolve, it won't resolve and won't enter. You won't get the Knight token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/20/security-blockade) · oracle_id `b4b397a9-85cb-4bdf-8c2e-a151a02a4208` · printing: RTR #20 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Security Bypass
 
@@ -601,6 +662,7 @@
 - **Oracle text:**
   > {W}{W}: Create a 1/1 white Soldier creature token. Activate only if you control no creatures and only once each turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31477 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/47/security-detail) · oracle_id `2a26dee4-b4b6-489d-99e5-6dbd8d19419d` · printing: MMQ #47 (1999-10-04) · [rulings](https://api.scryfall.com/cards/5b89d34b-1a67-4f5c-a731-54b56c5233ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Security Rhox
@@ -613,4 +675,5 @@
 - **Flavor text** (SNC printing):
   > *Unlucky assassins find out why he's called "Brick Wall" Balzano.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26610 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/220/security-rhox) · oracle_id `dffc6785-31b0-487c-b9a0-980bca39753d` · printing: SNC #220 (2022-04-29) · [rulings](https://api.scryfall.com/cards/0050dd40-9a18-41e4-97e6-fce5bf220ccf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

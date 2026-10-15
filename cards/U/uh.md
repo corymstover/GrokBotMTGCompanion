@@ -17,4 +17,5 @@
 - **Oracle text:**
   > +1/+1 counters give −1/−1 and −1/−1 counters give +1/+1. (They're still +1/+1 and −1/−1 counters. The effects are just backwards.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ02h/uh-squen-&-cragg-made-a-card) · oracle_id `2fa6a0b2-de61-4eba-9ace-01b6ea2de802` · printing: UNK #RZ02h (2026-05-01) · [rulings](https://api.scryfall.com/cards/8a784470-e224-474a-815d-7bddc297c518/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

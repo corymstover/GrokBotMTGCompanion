@@ -23,7 +23,9 @@
   > *"Our mobile greenhouse will never be deprived of energy again. It will always align itself to the sun's path."*
   > *—Vigorbloom and Konstrari joint project*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18286 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/175/dedicated-commons) · oracle_id `d4e0749a-e179-4c19-8536-bf8f1a198549` · printing: FRA #175 (2026-10-02) · [rulings](https://api.scryfall.com/cards/3223e5db-5cc4-42f9-ae9e-ff58abc7c390/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-08-21* — If this land enters at the same time as a planeswalker, that planeswalker isn't considered when determining if this land enters the battlefield tapped or untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/175/dedicated-commons) · oracle_id `d4e0749a-e179-4c19-8536-bf8f1a198549` · printing: FRA #175 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dedicated Martyr
 
@@ -36,6 +38,7 @@
   > *"If he's so willing to suffer for his cause, then by all means, let us oblige him."*
   > *—Cabal Patriarch*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29570 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/16/dedicated-martyr) · oracle_id `ca39af65-985d-4ab1-874b-9e8d3455c349` · printing: ODY #16 (2001-10-01) · [rulings](https://api.scryfall.com/cards/d1f95b64-858b-4344-84a2-3afa5c7b9ee9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deduce

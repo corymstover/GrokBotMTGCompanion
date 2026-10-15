@@ -21,6 +21,7 @@
 - **Oracle text:**
   > As long as you control a Plains, this creature has first strike and lifelink. (Damage dealt by a creature with lifelink also causes its controller to gain that much life.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28422 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/wwk/36/sejiri-merfolk) · oracle_id `74231a46-7e2d-497f-ae66-b40f8989551c` · printing: WWK #36 (2010-02-05) · [rulings](https://api.scryfall.com/cards/6ae04d82-56f5-4c72-b1c1-40c7d9640b7c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sejiri Refuge
@@ -71,4 +72,5 @@
   > When this land enters, target creature you control gains protection from the color of your choice until end of turn.
   > {T}: Add {W}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11627 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddg/36/sejiri-steppe) · oracle_id `3dfbf95e-a91b-429c-96e2-95ac777e7027` · printing: DDG #36 (2011-04-01) · [rulings](https://api.scryfall.com/cards/d45b0ed8-8692-4fa7-b32c-30d29028da3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -35,4 +35,5 @@
   > Whenever another nontoken Spirit you control enters, create a 1/1 colorless Spirit creature token with "This token can't block or be blocked by non-Spirit creatures."
   > {3}{U}: Exile another target creature you control. Return it to the battlefield under its owner's control at the beginning of the next end step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17218 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/89/baboon-spirit) · oracle_id `eb036e02-f43e-46a2-90f1-931579467c9b` · printing: TLE #89 (2025-11-21) · [rulings](https://api.scryfall.com/cards/8b5a7f24-63df-40fa-9200-c862544b0ffa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

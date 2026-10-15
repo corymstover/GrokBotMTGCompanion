@@ -56,7 +56,10 @@
   > *"My world is corrupted beyond cleansing. I must prevent this from happening to others."*
   > *—Karn*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20218 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nph/27/argent-mutation) · oracle_id `652ef093-06e9-4bf1-b9cf-950fe043b319` · printing: NPH #27 (2011-05-13) · [rulings](https://api.scryfall.com/cards/507fa5fd-2aa5-4721-a059-2c8c3056a4ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-06-01* — If the permanent is an illegal target when Argent Mutation tries to resolve, it won’t resolve and none of its effects will happen. You won’t draw a card.
+  - *2011-06-01* — You can target an artifact with Argent Mutation. When it resolves, you’ll simply draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nph/27/argent-mutation) · oracle_id `652ef093-06e9-4bf1-b9cf-950fe043b319` · printing: NPH #27 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Argent Sphinx
 
@@ -70,7 +73,11 @@
   > *A great mirage, a dream of wings and silver.*
 - **Keywords:** Flying, Metalcraft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19372 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/41/argent-sphinx) · oracle_id `7220c391-8d0e-4f43-94fc-ff77ffa2ee8d` · printing: MM2 #41 (2015-05-22) · [rulings](https://api.scryfall.com/cards/99d03f11-7448-47de-9fb4-3ceaf08dc1d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2011-01-01* — If you activate Argent Sphinx’s metalcraft ability during a turn’s end step, Argent Sphinx will return to the battlefield at the beginning of the following turn’s end step.
+  - *2011-01-01* — If you activate Argent Sphinx’s metalcraft ability, Argent Sphinx will return to the battlefield at the beginning of the next end step no matter how many artifacts you control at that time.
+  - *2011-01-01* — If you control an Argent Sphinx owned by another player and activate its ability, Argent Sphinx will return to the battlefield under your control at the beginning of the next end step. You’ll retain control of it indefinitely.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/41/argent-sphinx) · oracle_id `7220c391-8d0e-4f43-94fc-ff77ffa2ee8d` · printing: MM2 #41 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Argentum Armor
 
@@ -99,7 +106,10 @@
   > At the beginning of your upkeep, sacrifice this creature unless you discard a card. When you discard a card this way, destroy target nonland permanent an opponent controls with mana value less than or equal to the mana value of the discarded card.
 - **Keywords:** First strike, Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10264 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/222/argentum-masticore) · oracle_id `3ceee5c2-321c-49ec-ba49-1fac7f6ee2cc` · printing: ONE #222 (2023-02-10) · [rulings](https://api.scryfall.com/cards/9746e3ab-c0a6-46c1-a418-275b419962e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-02-04* — Notably, this means that you may discard a card to keep Argentum Masticore on the battlefield even if there isn't a legal target for that second triggered ability. In that case, no players may respond to the second triggered ability and it does not resolve.
+  - *2023-02-04* — You don't choose a target for Argentum Masticore's upkeep triggered ability at the time it triggers. Rather, a second "reflexive" ability triggers when you discard a card this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/222/argentum-masticore) · oracle_id `3ceee5c2-321c-49ec-ba49-1fac7f6ee2cc` · printing: ONE #222 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Argivian Archaeologist
 
@@ -111,6 +121,7 @@
 - **Flavor text** (ME1 printing):
   > *Fascinated by the lore of ancient struggles, the archaeologist searches incessantly for remnants of an earlier, more powerful era.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24252 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/3/argivian-archaeologist) · oracle_id `4b889ec0-6130-4e31-bb02-03fdabd28bee` · printing: ME1 #3 (2007-09-10) · [rulings](https://api.scryfall.com/cards/0e765567-4f45-4571-aa20-0d127fc522e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Argivian Avenger
@@ -123,6 +134,7 @@
 - **Flavor text** (BRO printing):
   > *Unable to settle on just one versatile being, Urza decided to create myriad adaptable machines.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19722 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/232/argivian-avenger) · oracle_id `d215cd4a-412c-4632-ab2d-de51103e6a7d` · printing: BRO #232 (2022-11-18) · [rulings](https://api.scryfall.com/cards/28e3bf5a-0a90-46d3-bcfe-9a47df41b72b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Argivian Blacksmith
@@ -135,6 +147,7 @@
 - **Flavor text** (ME4 printing):
   > *Through years of study and training, the Blacksmiths of Argive became adept at reassembling the mangled remains of the strange, mechanical creatures abounding in their native land.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31581 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/4/argivian-blacksmith) · oracle_id `80240b6b-d20d-4dfb-a2c5-c272c3b43a70` · printing: ME4 #4 (2011-01-10) · [rulings](https://api.scryfall.com/cards/f1fb4d0b-fa3f-4794-9285-89ddb9ac21c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Argivian Cavalier
@@ -147,7 +160,12 @@
   > When this creature enters, create a 1/1 white Soldier creature token.
 - **Keywords:** Enlist
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21693 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/4/argivian-cavalier) · oracle_id `c45090bd-a589-45a0-8388-025b8e0b3487` · printing: DMU #4 (2022-09-09) · [rulings](https://api.scryfall.com/cards/57746e72-ba9f-4717-a4a2-6c6a039080c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-09-09* — The attacking player chooses whether to tap a creature for an enlist ability immediately after they tap the creatures that they have chosen to attack with. You can’t choose to enlist a creature later.
+  - *2022-09-09* — To enlist a creature, that creature must be untapped, it must not be attacking (even if it has vigilance), and it must have haste or have been under that attacking player’s control since the beginning of their current turn.
+  - *2022-09-09* — When a player taps a creature for an attacking creature’s enlist ability, that attacking creature gets +X/+0 until end of turn, where X is the tapped creature’s power. This is a triggered ability that goes on the stack immediately after attackers have been declared in the declare attackers step.
+  - *2022-09-09* — You may tap only one creature for an enlist ability of an attacking creature, and a single creature can’t be tapped for more than one enlist ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/4/argivian-cavalier) · oracle_id `c45090bd-a589-45a0-8388-025b8e0b3487` · printing: DMU #4 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Argivian Find
 
@@ -159,6 +177,7 @@
   > *"We often bury our pasts, and then someone comes along and digs them up."*
   > *—Gerrard of the \*Weatherlight\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10635 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/wth/6/argivian-find) · oracle_id `0b6c74a7-d7d3-4c05-84b1-bcb580bb476f` · printing: WTH #6 (1997-06-09) · [rulings](https://api.scryfall.com/cards/89f23295-ad0a-4e2d-ae04-1a9c065e575d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Argivian Phalanx
@@ -173,7 +192,10 @@
   > *New Argive welcomed the kor people when they were displaced by the Rathi overlay. The kor repay that kindness with fierce loyalty.*
 - **Keywords:** Affinity, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23686 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/5/argivian-phalanx) · oracle_id `1ca8d2cb-58ba-476b-a4f2-1bf273a54cf3` · printing: DMU #5 (2022-09-09) · [rulings](https://api.scryfall.com/cards/afbadc37-1b4f-4237-a3c0-772bafb18aa0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-09-09* — Argivian Phalanx's first ability can't reduce the {W} in its cost.
+  - *2022-09-09* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Argivian Phalanx). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/5/argivian-phalanx) · oracle_id `1ca8d2cb-58ba-476b-a4f2-1bf273a54cf3` · printing: DMU #5 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Argivian Restoration
 
@@ -185,6 +207,7 @@
   > *"The Argivian University taught me two things: always look to the past, and never dismiss what appears useless."*
   > *—Hanna, \*Weatherlight\* navigator*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13688 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/42/argivian-restoration) · oracle_id `d887919a-68d5-455d-977c-4f1f0b4b3141` · printing: 2XM #42 (2020-08-07) · [rulings](https://api.scryfall.com/cards/3f14b3a6-5490-4a50-9449-542e23f1d6b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Argothian Elder
@@ -229,7 +252,11 @@
 - **Flavor text** (BRO printing):
   > *"Nature adapts. So should we."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25489 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/167/argothian-opportunist) · oracle_id `cc9d3868-9814-4506-80b3-660bc462ff98` · printing: BRO #167 (2022-11-18) · [rulings](https://api.scryfall.com/cards/b22586ce-efcc-4b20-83f9-c23b8eeaa88c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-10-14* — Although all the cards in The Brothers' War that create Powerstone tokens create a tapped Powerstone token, entering the battlefield tapped isn't part of the token's definition. Notably, if you create a token that is a copy of a Powerstone token, the token copy won't enter the battlefield tapped.
+  - *2022-10-14* — Powerstone tokens are a kind of predefined token. Each one has the artifact subtype "Powerstone" and the ability "{T}: Add {C}. This mana can't be spent to cast a nonartifact spell."
+  - *2022-10-14* — You can use the {C} added by a Powerstone token on anything that isn't a nonartifact spell. This includes paying costs to activate abilities of both artifact and nonartifact permanents, paying ward costs, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/167/argothian-opportunist) · oracle_id `cc9d3868-9814-4506-80b3-660bc462ff98` · printing: BRO #167 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Argothian Pixies
 
@@ -240,6 +267,7 @@
   > This creature can't be blocked by artifact creatures.
   > Prevent all damage that would be dealt to this creature by artifact creatures.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30485 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/142/argothian-pixies) · oracle_id `bbf183bc-d502-4432-8202-f29f60c08396` · printing: ME4 #142 (2011-01-10) · [rulings](https://api.scryfall.com/cards/6d672009-a442-495a-b2aa-b25b92db7030/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Argothian Sprite
@@ -254,6 +282,7 @@
   > *"Make the exhaust vents smaller next time!"*
   > *—Urza, notes to his engineers*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28353 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/168/argothian-sprite) · oracle_id `0dbcc5d8-9533-48fd-a69d-bbc6c72aaac5` · printing: BRO #168 (2022-11-18) · [rulings](https://api.scryfall.com/cards/b5dbc383-7e08-4701-8d4a-6b99b74fe358/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Argothian Swine
@@ -267,6 +296,7 @@
   > *In Argoth, the shortest path between two points is the one the swine make.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30174 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/235/argothian-swine) · oracle_id `80e08ee2-4272-4783-9a0d-90079600b594` · printing: USG #235 (1998-10-12) · [rulings](https://api.scryfall.com/cards/afe5e4ec-9c0e-4b1a-b3c6-e9631cf214eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Argothian Treefolk
@@ -277,6 +307,7 @@
 - **Oracle text:**
   > Prevent all damage that would be dealt to this creature by artifact sources.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30398 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/143/argothian-treefolk) · oracle_id `f3aaef18-dc32-40d6-b48c-f957aa31247f` · printing: ME4 #143 (2011-01-10) · [rulings](https://api.scryfall.com/cards/36b0d5b3-84d7-4888-90e9-2d0eb16c11d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Argothian Wurm
@@ -289,7 +320,9 @@
   > When this creature enters, any player may sacrifice a land of their choice. If a player does, put this creature on top of its owner's library.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21605 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/236/argothian-wurm) · oracle_id `f8aa1893-60e5-439e-9316-872a9f6b6c94` · printing: USG #236 (1998-10-12) · [rulings](https://api.scryfall.com/cards/93294349-75ae-4a6b-896d-b403a5d69e98/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-02-01* — When Argothian Wurm enters, first the active player gets the option to sacrifice a land. If they decline, the next player in turn order gets the option. If a player elects to sacrifice a land, Argothian Wurm is put on top of its owner's library, but then all remaining players still get the option. If all players decline, then nothing happens and Argothian Wurm stays on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/236/argothian-wurm) · oracle_id `f8aa1893-60e5-439e-9316-872a9f6b6c94` · printing: USG #236 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Argoth, Sanctum of Nature
 

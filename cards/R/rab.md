@@ -49,6 +49,7 @@
   > *Rabaroos are famous enjoyers of hopping and infamous enjoyers of cabbage.*
 - **Keywords:** Plainscycling, Landcycling, Typecycling, Cycling, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16790 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/32/rabaroo-troop) · oracle_id `48252207-d345-455c-b655-c2027664e6a6` · printing: TLA #32 (2025-11-21) · [rulings](https://api.scryfall.com/cards/62a983b4-ac73-4949-9317-05a75a8ce164/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rabbit Battery
@@ -85,6 +86,7 @@
   > *You never fight just one rabbitfolk. They bring the strength of their burrow to battle with them.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13410 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/26/rabbit-response) · oracle_id `9f7abd7d-1087-495c-8a52-2a2368cc1032` · printing: BLB #26 (2024-08-02) · [rulings](https://api.scryfall.com/cards/c4ded450-346d-4917-917a-b62bc0267509/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rabble-Rouser
@@ -97,6 +99,7 @@
   > {R}, {T}: Attacking creatures get +X/+0 until end of turn, where X is this creature's power.
 - **Keywords:** Bloodthirst
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27228 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gpt/73/rabble-rouser) · oracle_id `1d591c00-7086-4337-bdb8-a5f35568f04e` · printing: GPT #73 (2006-02-03) · [rulings](https://api.scryfall.com/cards/c6877862-f7c5-493d-baaf-41a91d4c7982/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rabble Rousing
@@ -125,6 +128,7 @@
   > *"Let me guess, the scurrids got to you lot?"*
   > *—Witherbloom infirmary attendant*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12289 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/96/rabid-attack) · oracle_id `4db02b34-efec-437c-ab28-aa318b8879ad` · printing: SOS #96 (2026-04-24) · [rulings](https://api.scryfall.com/cards/f5e67560-3135-4b27-a344-5859edf8bcd9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rabid Bite
@@ -152,6 +156,7 @@
   > *She haunts the streets, wings spread wide, with carrion on her breath and blood in her eyes.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27563 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/113/rabid-bloodsucker) · oracle_id `e6b0c47b-9758-4ee3-b831-0af0650660fe` · printing: ORI #113 (2015-07-17) · [rulings](https://api.scryfall.com/cards/7335da62-3b59-4c73-a19e-b1733393ed88/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rabid Elephant
@@ -164,6 +169,7 @@
 - **Flavor text** (ODY printing):
   > *When in doubt, stomp.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29292 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/263/rabid-elephant) · oracle_id `9daed342-e773-43ec-a8e2-98126b505e8a` · printing: ODY #263 (2001-10-01) · [rulings](https://api.scryfall.com/cards/fe394a38-ee44-4342-adcf-8c65d14f4978/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rabid Gnaw
@@ -189,6 +195,7 @@
 - **Flavor text** (STH printing):
   > *Every sentence in Volrath's prisons ends the same way.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24219 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sth/67/rabid-rats) · oracle_id `0f2504b0-bd5a-4b61-b8bb-c8b20aa1e26e` · printing: STH #67 (1998-03-02) · [rulings](https://api.scryfall.com/cards/ed8c028e-6656-47ef-97fb-de99f8833d5f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rabid Wolverines
@@ -201,6 +208,7 @@
 - **Flavor text** (EXO printing):
   > *Is there any other kind?*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31451 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/exo/119/rabid-wolverines) · oracle_id `ed076c39-9bfc-424a-8ce8-8572f7c0de73` · printing: EXO #119 (1998-06-15) · [rulings](https://api.scryfall.com/cards/99121a2b-c735-47be-b01e-cdf59809e7f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rabid Wombat
@@ -213,4 +221,6 @@
   > This creature gets +2/+2 for each Aura attached to it.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29437 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me1/126/rabid-wombat) · oracle_id `c886eeb5-f86f-48c8-9adb-af13015972b1` · printing: ME1 #126 (2007-09-10) · [rulings](https://api.scryfall.com/cards/604d52c5-ceab-40fd-936e-bab859c4333e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2005-08-01* — If an Aura is removed from the Wombat, its power and toughness change immediately.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me1/126/rabid-wombat) · oracle_id `c886eeb5-f86f-48c8-9adb-af13015972b1` · printing: ME1 #126 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -56,7 +56,9 @@
 - **Flavor text** (RAV printing):
   > *True enlightenment comes not with a new thought, but with understanding of all the old ones.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20774 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rav/59/mnemonic-nexus) · oracle_id `6fe302f2-5594-478c-a66b-89b4b96e3611` · printing: RAV #59 (2005-10-07) · [rulings](https://api.scryfall.com/cards/200edda9-7ad9-47fc-837e-37ec9e5b4b51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-07-01* — This card won’t be put into your graveyard until after it’s finished resolving, which means it won’t be shuffled into your library as part of its own effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rav/59/mnemonic-nexus) · oracle_id `6fe302f2-5594-478c-a66b-89b4b96e3611` · printing: RAV #59 (2005-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mnemonic Sliver
 
@@ -69,7 +71,10 @@
   > *"A jigsaw puzzle that lives, breeds, and thinks."*
   > *—Hanna, \*Weatherlight\* navigator*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19873 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/62/mnemonic-sliver) · oracle_id `101a5c2d-b0b4-45a7-b236-df474ac47356` · printing: TPR #62 (2015-05-06) · [rulings](https://api.scryfall.com/cards/3457f86f-422c-483d-9d3f-b8e99fdab6c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit.
+  - *2013-07-01* — If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/62/mnemonic-sliver) · oracle_id `101a5c2d-b0b4-45a7-b236-df474ac47356` · printing: TPR #62 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mnemonic Sphere
 
@@ -83,7 +88,10 @@
   > *—Emire, director of the Saiba Futurists*
 - **Keywords:** Channel
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11994 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/64/mnemonic-sphere) · oracle_id `53bfffae-b99e-44bd-8954-6cf236f93f26` · printing: NEO #64 (2022-02-18) · [rulings](https://api.scryfall.com/cards/1a15d8d9-0575-4add-ae8d-4576e8ed2cbe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-02-18* — Discarding the card is part of the cost to activate a channel ability.
+  - *2022-02-18* — If a channel ability requires a target, you may not activate it without a target just to discard the card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/64/mnemonic-sphere) · oracle_id `53bfffae-b99e-44bd-8954-6cf236f93f26` · printing: NEO #64 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mnemonic Wall
 

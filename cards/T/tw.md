@@ -82,7 +82,9 @@
 - **Flavor text** (ECL printing):
   > *"Oh, come on, don't be stingy! You've got so many!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17523 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/162/tweeze) · oracle_id `9a294cbd-df18-4ee0-acaa-e31390a7f508` · printing: ECL #162 (2026-01-23) · [rulings](https://api.scryfall.com/cards/3ceab0e6-1bb8-487d-ab4b-2da8457b970a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-11-17* — If the target is illegal as Tweeze tries to resolve, it won't resolve and none of its effects will happen. You won't have the opportunity to discard a card to draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/162/tweeze) · oracle_id `9a294cbd-df18-4ee0-acaa-e31390a7f508` · printing: ECL #162 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twenty Lessons
 
@@ -91,6 +93,7 @@
 - **Oracle text:**
   > Cast a random Lesson spell without paying its mana cost. If that spell has X in its mana cost, X is 3. (As of today, there are 20 lessons. Perhaps look up a list and roll a d20?)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UA03/twenty-lessons) · oracle_id `bb5d563f-ca42-4315-a4b7-d83482066103` · printing: UNK #UA03 (2025-06-20) · [rulings](https://api.scryfall.com/cards/b95af642-1dd0-4c51-bef1-4a6e55b22917/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twenty-Toed Toad
@@ -118,7 +121,18 @@
 - **Face 2: Unlikely Meeting** — {2}{U} — Sorcery — Adventure
   > Search your library for a Doctor card, reveal it, put it into your hand, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12731 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/61/twice-upon-a-time-unlikely-meeting) · oracle_id `04dc2e9c-312c-4af8-950c-6a7ed859c9be` · printing: WHO #61 (2023-10-13) · [rulings](https://api.scryfall.com/cards/9d504a87-f782-4b70-91da-c1944925e86a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2023-10-13* — An effect may refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
+  - *2023-10-13* — Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2023-10-13* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may cast it as a non-Adventure spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to cast it as a permanent later.
+  - *2023-10-13* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to cast it as a non-Adventure spell.
+  - *2023-10-13* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to cast the copy from exile.
+  - *2023-10-13* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2023-10-13* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell.
+  - *2023-10-13* — In every zone other than the stack, Twice Upon a Time uses only its non-Adventure characteristics, and you ignore its alternative characteristics in those cases. For example, while it's in your graveyard, its mana value is 6.
+  - *2023-10-13* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2023-10-13* — You must still follow any relevant timing rules for the non-Adventure spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/61/twice-upon-a-time-unlikely-meeting) · oracle_id `04dc2e9c-312c-4af8-950c-6a7ed859c9be` · printing: WHO #61 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twiddle
 
@@ -139,7 +153,20 @@
 - **Oracle text:**
   > Whenever you crank this Contraption, tap or untap target creature.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/210/twiddlestick-charger) · oracle_id `a65fb7e7-a338-4006-877e-2efdecc125a7` · printing: UST #210 (2017-12-08) · [rulings](https://api.scryfall.com/cards/c9ce1145-ca48-4fee-a11d-df88c20bd852/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2018-01-19* — Any Contraption that's on the battlefield and wasn't assembled immediately heads to the scrapyard. However, if it's a not an actual Contraption card (like Copy Artifact isn't), it goes to your graveyard as normal. Non-Contraption cards can't be in the scrapyard.
+  - *2018-01-19* — At the beginning of your upkeep, if you control any Contraptions, move the CRANK! counter to the next sprocket. You may then crank any number of Contraptions on that sprocket, causing their abilities to trigger. Cranking a Contraption is always optional.
+  - *2018-01-19* — Contraptions are artifacts. Anything that interacts with artifacts will interact with Contraptions.
+  - *2018-01-19* — Contraptions aren't put into your main deck. They go into a separate deck called the Contraption deck.
+  - *2018-01-19* — If a Contraption would leave the battlefield and go to any zone other than exile, it instead goes to the scrapyard, the Contraption deck's version of the graveyard. Things that affect the graveyard do not affect the scrapyard. You can exile Contraptions just fine.
+  - *2018-01-19* — If you crank multiple Contraptions, their abilities can be put onto the stack in any order. The ability put onto the stack will resolve first.
+  - *2018-01-19* — If you or a permanent you control are instructed to assemble a Contraption, reveal the top card of your Contraption deck. Put it onto the battlefield on one of the three sprockets.
+  - *2018-01-19* — If you or a permanent you control assembles a Contraption and your Contraption deck is empty, nothing happens. You don't lose the game.
+  - *2018-01-19* — In Constructed formats, a Contraption deck must have at least fifteen different Contraption cards and no more than one of each.
+  - *2018-01-19* — In Limited formats, a Contraption deck may include any number of Contraption cards in your card pool. You don't have to include every Contraption card you draft or open in sealed deck. In those formats, your Contraption deck may include duplicates.
+  - *2018-01-19* — In silver-bordered games using Contraptions, you have three sprockets, illustrated on the back of Contraption cards. At the start of the game, put a CRANK! counter on sprocket 3.
+  - *2018-01-19* — While Contraptions you control are on the battlefield, the Contraption deck is not, even if you are using it to signify the three sprockets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/210/twiddlestick-charger) · oracle_id `a65fb7e7-a338-4006-877e-2efdecc125a7` · printing: UST #210 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twigwalker
 
@@ -152,6 +179,7 @@
   > *"Break one in half and you'll get a decent—if gooey—pair of weapons."*
   > *—Centaur warrior*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31369 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/279/twigwalker) · oracle_id `ee90b4c5-f646-47a9-8aa8-393c86e35536` · printing: ODY #279 (2001-10-01) · [rulings](https://api.scryfall.com/cards/90b8ba27-c3bb-48cf-b831-518f5d255c2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twilight Diviner
@@ -210,6 +238,7 @@
 - **Flavor text** (CLU printing):
   > *A pet that can hunt both flesh and spirit is precious in a place where smiling assassins keep company with ghostly shadows.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26560 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/78/twilight-panther) · oracle_id `5e19aa52-5b76-40d7-ba9c-0e5d64f2b773` · printing: CLU #78 (2024-02-23) · [rulings](https://api.scryfall.com/cards/c12b92f0-3cb8-4ab6-8f8d-6c47b2bbaa7e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twilight Prophet
@@ -248,7 +277,10 @@
   > *Twilight falls. We rise.*
   > *—Necropolis inscription*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14465 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddj/76/twilights-call) · oracle_id `ae0a1d9c-19cb-42ee-97c3-464e38e84615` · printing: DDJ #76 (2012-09-07) · [rulings](https://api.scryfall.com/cards/a6e04dd2-75ad-4427-93cc-37226340c2fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — All the creature cards enter simultaneously.
+  - *2004-10-04* — For purposes of ordering any continuous effects of the creatures, the current player (not the controller of this spell) decides the ordering regardless of which player is putting the creatures onto the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddj/76/twilights-call) · oracle_id `ae0a1d9c-19cb-42ee-97c3-464e38e84615` · printing: DDJ #76 (2012-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twilight Shepherd
 
@@ -261,7 +293,15 @@
   > Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 - **Keywords:** Flying, Persist, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14201 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dvd/11/twilight-shepherd) · oracle_id `eff736bc-d311-4bef-9c7e-de4ebe32e46f` · printing: DVD #11 (2014-12-05) · [rulings](https://api.scryfall.com/cards/753c4ef2-d61a-4cfe-8e8b-8379402c8713/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2013-06-07* — If a creature with persist stops being a creature, persist will still work.
+  - *2013-06-07* — If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner’s graveyard for having 0 or less toughness, persist won’t trigger and the card won’t return to the battlefield. That’s because persist checks the creature’s existence just before it leaves the battlefield, and it still has all those counters on it at that point.
+  - *2013-06-07* — If a permanent has multiple instances of persist, they’ll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
+  - *2013-06-07* — If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can’t return to the battlefield.
+  - *2013-06-07* — If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player’s persist creatures will return to the battlefield first, then the active player’s persist creatures do the same. The creatures return to the battlefield one at a time.
+  - *2013-06-07* — The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it.
+  - *2013-06-07* — When a permanent with persist returns to the battlefield, it’s a new object with no memory of or connection to its previous existence.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dvd/11/twilight-shepherd) · oracle_id `eff736bc-d311-4bef-9c7e-de4ebe32e46f` · printing: DVD #11 (2014-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twinblade Assassins
 
@@ -273,7 +313,10 @@
 - **Flavor text** (KHC printing):
   > *Rumors swirl of a pair of deadly Golgari assassins known only as the Left and Right Hands of the Ochran.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15675 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khc/95/twinblade-assassins) · oracle_id `66093486-c9c3-42c5-97d1-ec0fe54f65b0` · printing: KHC #95 (2021-02-05) · [rulings](https://api.scryfall.com/cards/f353281a-0e56-448f-b41a-beb3949c5f11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-06-23* — If a creature didn't die before your end step begins, the ability of Twinblade Assassins doesn't trigger at all. The creature may have died before Twinblade Assassins entered the battlefield, however.
+  - *2020-06-23* — The triggered ability triggers just once, no matter how many creatures died this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khc/95/twinblade-assassins) · oracle_id `66093486-c9c3-42c5-97d1-ec0fe54f65b0` · printing: KHC #95 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twinblade Blessing
 
@@ -305,6 +348,7 @@
   > *Since her passing, many more travelers have made it home alive.*
 - **Keywords:** Transform, Enchant, Double strike, Disturb
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14416 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/47/twinblade-geist-twinblade-invocation) · oracle_id `4db96d32-b4c2-44e9-a73f-aca7dad279b6` · printing: INR #47 (2025-01-24) · [rulings](https://api.scryfall.com/cards/88bc8cdf-adfa-4a11-a8c0-484bc03edc65/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twinblade Paladin
@@ -316,7 +360,17 @@
   > Whenever you gain life, put a +1/+1 counter on this creature.
   > As long as you have 25 or more life, this creature has double strike. (It deals both first-strike and regular combat damage.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12040 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/503/twinblade-paladin) · oracle_id `d373dc71-5196-43a0-8cc5-67e2a591aad0` · printing: FDN #503 (2024-11-15) · [rulings](https://api.scryfall.com/cards/5cd9e73d-de8d-486f-bbbd-a2f5d3f8f686/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-11-08* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Twinblade Paladin's first ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, planeswalkers, and/or battles at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2024-11-08* — If Twinblade Paladin gains double strike after combat damage has already been dealt (most likely because a creature with lifelink dealt combat damage), Twinblade Paladin will deal only regular combat damage.
+  - *2024-11-08* — If Twinblade Paladin is dealt lethal damage at the same time that you gain life, it won't receive a counter from its first ability in time to save it.
+  - *2024-11-08* — If you gain an amount of life "for each" of something or "equal to the number" of something, that life is gained as one event and Twinblade Paladin's first ability triggers only once.
+  - *2024-11-08* — If you're dealt first-strike combat damage that brings your life total below 25, Twinblade Paladin will immediately lose double strike. It won't deal regular combat damage unless you bring your life total back above 25 before the regular combat damage step.
+  - *2024-11-08* — In a Two-Headed Giant game, Twinblade Paladin has double strike as long as your team has 25 or more life.
+  - *2024-11-08* — In a Two-Headed Giant game, life gained by your teammate won't cause Twinblade Paladin's first ability to trigger, even though it caused your team's life total to increase.
+  - *2024-11-08* — In a Two-Headed Giant game, life gained by your teammate won't cause the first ability to trigger, even though it caused your team's life total to increase.
+  - *2024-11-08* — Twinblade Paladin's first ability triggers just once for each life-gaining event, whether it's 1 life from Dazzling Angel or 4 life from Apothecary Stomper.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/503/twinblade-paladin) · oracle_id `d373dc71-5196-43a0-8cc5-67e2a591aad0` · printing: FDN #503 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twin Blades
 
@@ -329,6 +383,7 @@
   > Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10454 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/157/twin-blades) · oracle_id `88b076a4-46ff-4a41-95a5-2821f4d8944d` · printing: TLA #157 (2025-11-21) · [rulings](https://api.scryfall.com/cards/dc399ae0-36b5-4c92-9fe2-138caf8d7a86/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twinblade Slasher
@@ -343,6 +398,7 @@
   > *Righteous anger hones a humble soul.*
 - **Keywords:** Wither
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25562 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eve/79/twinblade-slasher) · oracle_id `2375a9c6-28ef-4c8f-909c-0aa7e5fc085c` · printing: EVE #79 (2008-07-25) · [rulings](https://api.scryfall.com/cards/0092d7a0-bd00-45e5-a052-c0a9d970bc2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twin Bolt
@@ -355,7 +411,12 @@
   > *"Fire is only as precise as your control over it."*
   > *—Danfeng, Jeskai mage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12713 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/128/twin-bolt) · oracle_id `970dc070-3668-4584-9904-2897b27bb806` · printing: TDM #128 (2025-04-11) · [rulings](https://api.scryfall.com/cards/688d8e93-d071-4089-9ef9-565ac4ae9ae0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2015-02-25* — If you cast Twin Bolt with two targets and one of those targets becomes illegal before Twin Bolt resolves, the remaining legal target will be dealt 1 damage. You can't change the original division of damage.
+  - *2015-02-25* — You choose whether Twin Bolt has one target that will be dealt 2 damage or two targets that will each be dealt 1 damage as you cast Twin Bolt.
+  - *2025-04-04* — If you cast Twin Bolt with two targets and one of those targets becomes illegal before Twin Bolt resolves, the remaining legal target will be dealt 1 damage. You can’t change the original division of damage.
+  - *2025-04-04* — You choose whether Twin Bolt has one target that will be dealt 2 damage or two targets that will each be dealt 1 damage as you cast Twin Bolt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/128/twin-bolt) · oracle_id `970dc070-3668-4584-9904-2897b27bb806` · printing: TDM #128 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twincast
 
@@ -473,7 +534,20 @@
   > *"We spin and spin to keep us busy, but somehow you're the one who's dizzy."*
 - **Keywords:** Flying, Vigilance, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12385 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/240/twining-twins-swift-spiral) · oracle_id `105aea98-8eb9-4fb2-a0cb-7c7513317c5b` · printing: WOE #240 (2023-09-08) · [rulings](https://api.scryfall.com/cards/043718ea-59f6-4d1a-94c5-271704c1a38a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2023-09-01* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Questing Druid is a green creature card whose mana value is 2. It can't be the target of Tenacious Tomeseeker's triggered ability ("return target instant or sorcery card from your graveyard to your hand").
+  - *2023-09-01* — An effect may refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
+  - *2023-09-01* — Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2023-09-01* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to cast it as a permanent later.
+  - *2023-09-01* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to cast it as a permanent spell.
+  - *2023-09-01* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to cast the copy as a permanent.
+  - *2023-09-01* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2023-09-01* — If an effect refers to a card, spell, or permanent that has an Adventure, it won't find an instant or sorcery spell on the stack that's been cast as an Adventure.
+  - *2023-09-01* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+  - *2023-09-01* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer ("Once each turn, you may cast an instant or sorcery spell from the top of your library.") and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
+  - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/240/twining-twins-swift-spiral) · oracle_id `105aea98-8eb9-4fb2-a0cb-7c7513317c5b` · printing: WOE #240 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twinmaw Stormbrood // Charring Bite
 
@@ -486,7 +560,18 @@
   > Charring Bite deals 5 damage to target creature without flying. (Then shuffle this card into its owner's library.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14305 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/232/twinmaw-stormbrood-charring-bite) · oracle_id `ff812a78-3fe7-47bc-9984-1c2380cff5b1` · printing: TDM #232 (2025-04-11) · [rulings](https://api.scryfall.com/cards/2999e3b1-6510-42b2-9429-28c07a64a44f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2025-04-04* — An omen card is a creature card in every zone except the stack, as well as while on the stack if not cast as an Omen. Ignore its alternative characteristics in those cases. For example, while it’s in your graveyard, Twinmaw Stormbrood is a white creature card whose mana value is 6. It can’t be the target of the reflexive ability created by Kishla Trawlers’s triggered ability (“…When you do, return target instant or sorcery card from your graveyard to your hand.”).
+  - *2025-04-04* — As a player casts an omen card, the player chooses whether they cast the card normally or as an Omen.
+  - *2025-04-04* — Casting a card as an Omen isn’t casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Omen.
+  - *2025-04-04* — If a spell is cast as an Omen, its controller shuffles it into its owner’s library instead of putting it into its owner’s graveyard as it resolves.
+  - *2025-04-04* — If an Omen spell has one or more targets and all of those targets are illegal when the spell tries to resolve, it won’t resolve. None of its effects will happen, and it will be put into its owner’s graveyard. It won’t be shuffled into its owner’s library.
+  - *2025-04-04* — If an Omen spell is copied, that copy is also an Omen and is shuffled into its owner’s library as it resolves. Its owner still shuffles their library, but the copy ceases to exist as a state-based action.
+  - *2025-04-04* — If an Omen spell is countered or an effect causes it to otherwise leave the stack, it won’t be shuffled into its owner’s library.
+  - *2025-04-04* — If an effect instructs you to choose a card name, you may choose the alternative Omen name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2025-04-04* — If you cast an omen card as an Omen, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Thundermane Dragon (“You may cast creature spells with power 4 or greater from the top of your library.”) and Twinmaw Stormbrood is on top of your library, you can cast Twinmaw Stormbrood, but not Charring Bite.
+  - *2025-04-04* — When casting a spell as an Omen, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/232/twinmaw-stormbrood-charring-bite) · oracle_id `ff812a78-3fe7-47bc-9984-1c2380cff5b1` · printing: TDM #232 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twinned Vision
 
@@ -499,7 +584,14 @@
   > *"She will rage and burn until her fuel is expended. It's almost sad to see me like this."*
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21637 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/157/twinned-vision) · oracle_id `fa1cc78f-26bc-4d5d-973b-7cb7d7490973` · printing: FRA #157 (2026-10-02) · [rulings](https://api.scryfall.com/cards/55f85984-0137-4899-8993-bbc8c4794d33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2026-08-21* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2026-08-21* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2026-08-21* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2026-08-21* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2026-08-21* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2026-08-21* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/157/twinned-vision) · oracle_id `fa1cc78f-26bc-4d5d-973b-7cb7d7490973` · printing: FRA #157 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twinning Glass
 
@@ -510,7 +602,11 @@
 - **Flavor text** (LRW printing):
   > *It takes two to craft a mirror: a practiced metalsmith to silver one side and her own hazy reflection to polish the other.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25911 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/264/twinning-glass) · oracle_id `907baed5-499b-4f20-bbb9-8f5bead37c30` · printing: LRW #264 (2007-10-12) · [rulings](https://api.scryfall.com/cards/e0138c42-77ea-45f0-b2ca-cda03f3f50d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2007-10-01* — Activating Twinning Glass's ability allows you to cast a single card from your hand as it resolves. It doesn't create a continuous effect, and it doesn't let you cast multiple cards for free.
+  - *2007-10-01* — It doesn't matter who cast the first spell.
+  - *2007-10-01* — You can't pay any alternative costs (such as those from evoke or morph) when casting the card. On the other hand, if the card has additional costs (such as those from kicker or buyback), you may pay those.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/264/twinning-glass) · oracle_id `907baed5-499b-4f20-bbb9-8f5bead37c30` · printing: LRW #264 (2007-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twinning Staff
 
@@ -545,6 +641,7 @@
   > *"May your wretched name never grace the annals of history, you ignorant buffoon!"*
 - **Keywords:** Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23993 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/118/twinscroll-shaman) · oracle_id `a2f867cd-410d-4524-8660-38ad142f6b1f` · printing: STX #118 (2021-04-23) · [rulings](https://api.scryfall.com/cards/87193af5-4b6b-48d0-9b75-8171bb1d6e53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twinshot Sniper
@@ -560,7 +657,10 @@
   > *"Pierce the heart and pierce the head, even the mightiest fall down dead."*
 - **Keywords:** Reach, Channel
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10830 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/168/twinshot-sniper) · oracle_id `b72fd535-0051-4f59-9d99-75895f751006` · printing: NEO #168 (2022-02-18) · [rulings](https://api.scryfall.com/cards/08a86009-4637-4b6c-9d36-367151583668/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-02-18* — Discarding the card is part of the cost to activate a channel ability.
+  - *2022-02-18* — If a channel ability requires a target, you may not activate it without a target just to discard the card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/168/twinshot-sniper) · oracle_id `b72fd535-0051-4f59-9d99-75895f751006` · printing: NEO #168 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twin-Silk Spider
 
@@ -605,7 +705,17 @@
   > *—Reig, wandering monk, last words*
 - **Keywords:** Madness
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17876 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/118/twins-of-maurer-estate) · oracle_id `378110e9-62d6-4dcf-a2e3-813081c82ec4` · printing: UMA #118 (2018-12-07) · [rulings](https://api.scryfall.com/cards/f689e20a-2c24-44a3-9e1b-7717df3d1948/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2022-12-08* — A card with madness that's discarded counts as having been discarded even though it's put into exile rather than a graveyard. If it was discarded to pay a cost, that cost is still paid. Abilities that trigger when a card is discarded will still trigger.
+  - *2022-12-08* — A spell cast for its madness cost is put onto the stack like any other spell. It can be countered, copied, and so on. As it resolves, it's put onto the battlefield if it's a permanent card or into its owner's graveyard if it's an instant or sorcery card.
+  - *2022-12-08* — Cards are discarded in a Magic game only from a player's hand. Effects that put cards into a player's graveyard from anywhere else do not cause those cards to be discarded.
+  - *2022-12-08* — Casting a spell with madness ignores the timing rules based on the card's card type. For example, you can cast a sorcery with madness if you discard it during an opponent's turn.
+  - *2022-12-08* — If you choose not to cast a card with madness when the madness triggered ability resolves, it's put into your graveyard. Madness doesn't give you another chance to cast it later.
+  - *2022-12-08* — If you discard a card with madness to pay the cost of a spell or activated ability, that card's madness triggered ability (and the spell that card becomes, if you choose to cast it) will resolve before the spell or ability the discard paid for.
+  - *2022-12-08* — If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.
+  - *2022-12-08* — Madness works independently of why you're discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can't discard a card with madness just because you want to, though.
+  - *2022-12-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a madness cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/118/twins-of-maurer-estate) · oracle_id `378110e9-62d6-4dcf-a2e3-813081c82ec4` · printing: UMA #118 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twinstrike
 
@@ -618,6 +728,7 @@
   > *They're dying left and right.*
 - **Keywords:** Hellbent
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30219 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/134/twinstrike) · oracle_id `6d890c2a-2ed7-429d-a2b2-d261397f838d` · printing: DIS #134 (2006-05-05) · [rulings](https://api.scryfall.com/cards/0dfc8ebe-58f4-450f-abdc-8d558f6f5551/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twist Allegiance
@@ -627,6 +738,7 @@
 - **Oracle text:**
   > You and target opponent each gain control of all creatures the other controls until end of turn. Untap those creatures. Those creatures gain haste until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22691 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/120/twist-allegiance) · oracle_id `5b33f3f0-80d3-4ea2-b73b-74510c9f6071` · printing: BOK #120 (2005-02-04) · [rulings](https://api.scryfall.com/cards/24b6607c-0c34-4ffc-b1b7-154417492766/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twisted Abomination
@@ -639,7 +751,12 @@
   > Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.)
 - **Keywords:** Heal, Landcycling, Regenerate, Typecycling, Cycling, Swampcycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12994 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/194/twisted-abomination) · oracle_id `139af10d-a3e5-4ade-b876-87324e6c8017` · printing: CMM #194 (2023-08-04) · [rulings](https://api.scryfall.com/cards/7bcaee2c-fad7-4ee2-8fe7-20b2c1eee5c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-06-08* — Swampcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on Swampcycling this card. Any ability that stops a cycling ability from being activated also stops Swampcycling from being activated.
+  - *2016-06-08* — Swampcycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with Swampcycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+  - *2016-06-08* — Unlike the normal cycling ability, Swampcycling doesn't allow you to draw a card. Instead, it lets you search your library for a Swamp card. After you find a Swamp card in your library, you reveal it, put it into your hand, then shuffle your library.
+  - *2016-06-08* — You can choose to find any card with the Swamp land type, including nonbasic lands. You can also choose not to find a card, even if there is a Swamp card in your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/194/twisted-abomination) · oracle_id `139af10d-a3e5-4ade-b876-87324e6c8017` · printing: CMM #194 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twisted Embrace
 
@@ -653,6 +770,7 @@
   > *Evil kami are drawn to mortals who share their grim fascinations.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15915 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/125/twisted-embrace) · oracle_id `2e29efee-1eed-4bef-8574-0f6ff99d3cda` · printing: NEO #125 (2022-02-18) · [rulings](https://api.scryfall.com/cards/e4c7919a-de62-46df-a937-593647473ef5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twisted Experiment
@@ -666,6 +784,7 @@
   > *After six days in the hands of the Gixians, what remained was utterly unrecognizable as the person it once was.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25790 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/104/twisted-experiment) · oracle_id `4066d4df-d98f-44cd-bf25-ebb5e9d9ddeb` · printing: DMR #104 (2023-01-13) · [rulings](https://api.scryfall.com/cards/655c26af-2b73-48fd-b7e3-ba217c9853d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twisted Fates
@@ -677,6 +796,7 @@
 - **Flavor text** (FRA printing):
   > *"Josu's ashes choke you even now. You failed, while I will have our brother live forever," said one Liliana to the other.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28811 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/158/twisted-fates) · oracle_id `3ce30a19-e716-478f-be89-e2d95753cfed` · printing: FRA #158 (2026-10-02) · [rulings](https://api.scryfall.com/cards/c7c0765d-38fd-4d7b-bfb4-49b10ff5939b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twisted Fealty
@@ -726,6 +846,7 @@
 - **Flavor text** (RAV printing):
   > *In Otiev's mind, he ruled in favor of the accused. But in his courtroom he was only a spectator, watching his hand deliver the sign of death.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27370 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/237/twisted-justice) · oracle_id `89c5dec1-cefe-4ce3-a9df-b5cb9fa73b35` · printing: RAV #237 (2005-10-07) · [rulings](https://api.scryfall.com/cards/d8efa02d-c301-47e1-8cdf-26ff9e97a243/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twisted Landscape
@@ -752,7 +873,13 @@
   > Entwine {B} (Choose both if you pay the entwine cost.)
 - **Keywords:** Entwine
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28558 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/74/twisted-reflection) · oracle_id `57fdf496-c31e-4a3b-a8a6-4f053b808267` · printing: MH1 #74 (2019-06-14) · [rulings](https://api.scryfall.com/cards/f1d4d408-df74-45f7-925b-3cbff9a0304c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2019-06-14* — If Twisted Reflection is entwined, its two modes may each target the same creature, or they may target two different creatures.
+  - *2019-06-14* — Twisted Reflection is always a blue spell. It’s not also black if you paid its entwine cost.
+  - *2021-03-19* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature may become lethal if you switch its power and toughness during that turn.
+  - *2021-03-19* — Effects that switch a creature’s power and toughness apply after all other effects, regardless of when those effects began to apply. For instance, if you target a 1/2 creature then give it +2/+0 later in the turn, it’s a 2/3 creature, not a 4/1 creature.
+  - *2021-03-19* — Switching a creature’s power and toughness twice (or any even number of times) effectively returns the creature to the power and toughness it had before any switches.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/74/twisted-reflection) · oracle_id `57fdf496-c31e-4a3b-a8a6-4f053b808267` · printing: MH1 #74 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twisted Riddlekeeper
 
@@ -765,7 +892,21 @@
   > Flying
 - **Keywords:** Flying, Emerge
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20095 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/14/twisted-riddlekeeper) · oracle_id `c7ad20a3-51bf-4a22-a09c-fff8cae22765` · printing: MH3 #14 (2024-06-14) · [rulings](https://api.scryfall.com/cards/534d7ae4-9c4b-4a5a-a109-7630a07aeb45/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2024-06-07* — The triggered ability may target permanents that are already tapped. It will still put a stun counter on them.
+  - *2024-06-07* — The triggered ability will resolve before Twisted Riddlekeeper does. If Twisted Riddlekeeper is countered or otherwise leaves the stack in response to its triggered ability, the triggered ability will still resolve as normal.
+  - *2025-01-24* — A creature’s mana value is determined solely by the mana symbols printed in its upper right corner (unless that creature is the back face of a double-faced card, is a melded permanent, or is copying something else; see below). If the mana cost includes {X}, X is 0. If it’s a single-faced card with no mana symbols in its upper right corner (because it’s an animated land, for example), its mana value is 0. Ignore any alternative costs or additional costs (such as kicker) that were paid as the creature was cast.
+  - *2025-01-24* — Colored mana components of emerge costs can’t be reduced with emerge.
+  - *2025-01-24* — Emerge represents two static abilities that function while the spell with emerge is on the stack. “Emerge [cost]” means “You may cast this spell by paying [cost] and sacrificing a creature rather than paying its mana cost” and “If you chose to pay this spell’s emerge cost, its total cost is reduced by an amount of generic mana equal to the sacrificed creature’s mana value.”
+  - *2025-01-24* — If you cast a spell for another cost “rather than paying its mana cost,” such as an emerge cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the spell has any mandatory additional costs, those must be paid to cast it.
+  - *2025-01-24* — If you sacrifice a creature with {X} in its mana cost, that X is 0.
+  - *2025-01-24* — Once you begin to cast a spell with emerge, no player may take actions until you’re done. Notably, opponents can’t try to remove the creature you wish to sacrifice.
+  - *2025-01-24* — The creature chosen to be sacrificed is still on the battlefield as the cost of the emerge spell is determined and as you activate mana abilities to cast the emerge spell. Its abilities may affect the spell’s cost, be activated to generate mana, and so on. However, if it has an ability that triggers when a spell is cast, it will have been sacrificed before that ability can trigger.
+  - *2025-01-24* — The mana value of a creature spell with emerge isn’t affected by whether its emerge cost is paid. For example, if you cast Decimator of the Provinces for its emerge cost and sacrifice a creature whose mana value is 3, Decimator of the Provinces’s mana value remains 10.
+  - *2025-01-24* — The mana value of the back face of a double-faced card is the mana value of its front face. The mana value of a melded permanent is the sum of the mana values of its front faces. A creature that’s a copy of either has a mana value of 0.
+  - *2025-01-24* — You may sacrifice a creature with a mana value of 0, such as a token creature that’s not a copy of another permanent, to cast a spell for its emerge cost. You’ll just pay the full emerge cost with no reduction.
+  - *2025-01-24* — You may sacrifice a creature with mana value greater than or equal to the emerge cost. If you do, you’ll pay only the colored mana component of the emerge cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/14/twisted-riddlekeeper) · oracle_id `c7ad20a3-51bf-4a22-a09c-fff8cae22765` · printing: MH3 #14 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twisted Sewer-Witch
 
@@ -798,6 +939,7 @@
   > *"Glurp!"*
   > *—Shift, clone of Spider-Man*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17145 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spe/19/twisted-spider-clone) · oracle_id `58dee718-6820-495a-8c03-5cc130b84167` · printing: SPE #19 (2025-09-26) · [rulings](https://api.scryfall.com/cards/a5dbd3de-4ddd-4243-904d-0cedb4545729/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twist Reality
@@ -842,7 +984,15 @@
   > {3}{G}, {T}: Look at the top four cards of your library. You may reveal a creature card from among them and put that card into your hand. Put the rest on the bottom of your library in a random order.
 - **Keywords:** Transform, Explore, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12067 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/217/twists-and-turns-mycoid-maze) · oracle_id `740aa9d9-91a9-431e-8bf9-1344e5273e27` · printing: LCI #217 (2023-11-17) · [rulings](https://api.scryfall.com/cards/3cdf691e-96a5-45c7-9b94-6f04af81c8e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-11-10* — If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature explores" trigger as appropriate.
+  - *2023-11-10* — If an ability instructs a creature to explore, its controller reveals the top card of their library. If it's a land card, they'll put it into their hand. Otherwise, they'll put a +1/+1 counter on that creature, then choose to either leave that card on top of their library or put it into their graveyard.
+  - *2023-11-10* — If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+  - *2023-11-10* — If you control two copies of Twists and Turns and a creature you control would explore, instead you scry 1, then scry 1 again, then that creature explores. If you control three copies of Twists and Turns, you'd scry 1 an additional time before that creature explores, and so on.
+  - *2023-11-10* — In some unusual cases, noncreature permanents may explore. For example, if the creature card returned by Defossilize is somehow not a creature once it's on the battlefield, it can still explore. You'll take all the same actions, and you may end up putting a +1/+1 counter on the permanent. (Note that some effects target a creature, and those effects would still require a legal target to have it explore.)
+  - *2023-11-10* — Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+  - *2023-11-10* — Some spells or abilities might cause a creature to explore multiple times in a row. If you reveal a nonland card when a creature explores and leave it on top of your library, then the creature explores again immediately afterwards, you'll reveal the same card again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/217/twists-and-turns-mycoid-maze) · oracle_id `740aa9d9-91a9-431e-8bf9-1344e5273e27` · printing: LCI #217 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twitch
 
@@ -880,7 +1030,12 @@
   > • Put a base power 4 counter on target creature.
   > • Put a base toughness 4 counter on target creature.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/538/two-by-four) · oracle_id `cf526a2c-e0db-43f6-b237-9b19e2ad4ff3` · printing: MB2 #538 (2024-08-02) · [rulings](https://api.scryfall.com/cards/72b127d4-dfe8-4a98-9bfd-09d3d836060f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+  - *2024-11-08* — The effect of a base power 4 counter or base toughness 4 counter overrides any existing effects that set that creature’s base power or toughness, as appropriate. Any existing effects or counters that raise, lower, or switch a creature’s power and/or toughness continue to apply to the creature’s new base power or toughness. Any base power- or toughness-setting effects that start to apply after the counter is placed on the creature will overwrite the counter’s effect. (For the rules-savvy, yes, this applies in layer 7b.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/538/two-by-four) · oracle_id `cf526a2c-e0db-43f6-b237-9b19e2ad4ff3` · printing: MB2 #538 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Two-Handed Axe // Sweeping Cleave
 
@@ -918,6 +1073,7 @@
   > *The left head keeps the right head starved as motivation to track new prey.*
 - **Keywords:** Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22572 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/146/two-headed-cerberus) · oracle_id `7b2bbd87-f288-44bd-a15c-1432a3e90cb3` · printing: THS #146 (2013-09-27) · [rulings](https://api.scryfall.com/cards/f8d2f75c-ef2a-4d30-86d1-c47307fc47ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Two-Headed Dragon
@@ -932,6 +1088,7 @@
   > {1}{R}: This creature gets +2/+0 until end of turn.
 - **Keywords:** Flying, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23469 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/arc/50/two-headed-dragon) · oracle_id `a4fa3052-d1ec-4442-a832-15ba36c500ee` · printing: ARC #50 (2010-06-18) · [rulings](https://api.scryfall.com/cards/69e8136d-beab-4783-839c-2d60c26cf5b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Two-Headed Giant
@@ -944,6 +1101,7 @@
 - **Flavor text** (DOM printing):
   > *He watches the pass in both directions, and all must pay his toll.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14187 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/147/two-headed-giant) · oracle_id `e0efb48b-e7e5-4ed0-a7de-c8f72d357319` · printing: DOM #147 (2018-04-27) · [rulings](https://api.scryfall.com/cards/6f86c365-3ce5-45e5-b610-6f2587f99b42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Two-Headed Giant of Foriys
@@ -956,6 +1114,7 @@
   > This creature can block an additional creature each combat.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31498 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/139/two-headed-giant-of-foriys) · oracle_id `38aa31bd-7145-43b9-9409-463d9ad6cd69` · printing: ME4 #139 (2011-01-10) · [rulings](https://api.scryfall.com/cards/203186e6-843d-4296-ab27-10ac444e651c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Two-Headed Hellkite
@@ -987,7 +1146,20 @@
   > *"I point, you club!"*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12806 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/155/two-headed-hunter-twice-the-rage) · oracle_id `0f222f3d-f02b-42b9-aedf-fb7ed92d4889` · printing: WOE #155 (2023-09-08) · [rulings](https://api.scryfall.com/cards/70c12e75-7e65-4706-b976-e47835910928/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2023-09-01* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it’s in your graveyard, Questing Druid is a green creature card whose mana value is 2. It can’t be the target of Tenacious Tomeseeker’s triggered ability (“return target instant or sorcery card from your graveyard to your hand”).
+  - *2023-09-01* — An effect may refer to a card, spell, or permanent that “has an Adventure.” This refers to a card, spell, or permanent that has an adventurer card’s set of alternative characteristics, even if they’re not being used and even if that card was never cast as an Adventure.
+  - *2023-09-01* — Casting a card as an Adventure isn’t casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2023-09-01* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner’s graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won’t be exiled and the spell’s controller won’t be able to cast it as a permanent later.
+  - *2023-09-01* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won’t give you permission to cast it as a permanent spell.
+  - *2023-09-01* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it’s not possible to cast the copy as a permanent.
+  - *2023-09-01* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2023-09-01* — If an effect refers to a card, spell, or permanent that has an Adventure, it won’t find an instant or sorcery spell on the stack that’s been cast as an Adventure.
+  - *2023-09-01* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it’s a token) or cease to be a copy (if it’s a nontoken permanent), and so you won’t be able to cast it as an Adventure.
+  - *2023-09-01* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer (“Once each turn, you may cast an instant or sorcery spell from the top of your library.”) and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
+  - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/155/two-headed-hunter-twice-the-rage) · oracle_id `0f222f3d-f02b-42b9-aedf-fb7ed92d4889` · printing: WOE #155 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Two-Headed Sliver
 
@@ -1016,4 +1188,5 @@
   > *—\*The Stitcher's Tome\**
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28261 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/123/two-headed-zombie) · oracle_id `7e280770-9a8f-4445-84d2-3b9cac659136` · printing: M19 #123 (2018-07-13) · [rulings](https://api.scryfall.com/cards/2cc5760e-8b27-4d37-9772-c9eda90b1d95/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -66,7 +66,9 @@
 - **Flavor text** (TPR printing):
   > *Takara shook with guilt. She knew the last image her father had seen was her sword flashing toward him.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12453 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/7/bandage) · oracle_id `c664df64-0103-462b-a0f8-c483b152974a` · printing: TPR #7 (2015-05-06) · [rulings](https://api.scryfall.com/cards/89dbe086-4c03-448f-a346-49bc08d02705/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-07-15* — You draw the card when Bandage resolves, not when the damage is actually prevented.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/7/bandage) · oracle_id `c664df64-0103-462b-a0f8-c483b152974a` · printing: TPR #7 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banding Sliver
 
@@ -76,7 +78,11 @@
 - **Oracle text:**
   > All Slivers have banding. (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/2/banding-sliver) · oracle_id `5b4ce4bd-fdfd-4476-a679-844953d71e15` · printing: CMB2 #2 (2021-08-20) · [rulings](https://api.scryfall.com/cards/c763192a-cdb6-4f98-bbc2-3bb964cb4b3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-11-12* — A player who controls a creature blocked by or blocking multiple creatures must choose a combat damage assignment order for those creatures. If each creature in that order loses banding, the order will be enforced. Otherwise, the player who controls the creature with banding can assign the other creature’s damage ignoring the damage assignment order and without assigning lethal damage to a creature before assigning damage to another creature.
+  - *2019-11-12* — Creatures don’t “share” abilities in a band. For example, if Banding Sliver bands with a creature with flying, Banding Sliver can be blocked by a creature without flying, and this causes the blocking creature to also block the creature with flying.
+  - *2019-11-12* — While blocking, a creature with banding can block along with any number of creatures. This isn’t a “band,” but it’s similar for how damage assignment is modified.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/2/banding-sliver) · oracle_id `5b4ce4bd-fdfd-4476-a679-844953d71e15` · printing: CMB2 #2 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bandit's Haul
 
@@ -126,7 +132,10 @@
 - **Flavor text** (CLU printing):
   > *In times of peril, the vision the ancient paruns had for their city comes into focus.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12980 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/156/band-together) · oracle_id `a8631e87-bfc3-463b-bdd1-974ea1d79ae4` · printing: CLU #156 (2024-02-23) · [rulings](https://api.scryfall.com/cards/d8e243d6-c888-410f-8de0-51761c925a59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-05-03* — If one of the two target creatures you control is an illegal target as Band Together resolves, the other will still deal damage equal to its power.
+  - *2019-05-03* — If the last target creature is an illegal target as Band Together resolves, or if both of the first targets are illegal targets, no creature deals or is dealt damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/156/band-together) · oracle_id `a8631e87-bfc3-463b-bdd1-974ea1d79ae4` · printing: CLU #156 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bane Alley Blackguard
 
@@ -138,6 +147,7 @@
 - **Flavor text** (DGM printing):
   > *"I'm in the field of procurement, and business is good. The guilds want all kinds of maps and relics these days, though what they want them for I'm not quite sure."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28998 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/21/bane-alley-blackguard) · oracle_id `1134eea5-e931-4cb2-9e30-64c227386d43` · printing: DGM #21 (2013-05-03) · [rulings](https://api.scryfall.com/cards/15fcad03-4567-4f96-976e-01a07d8ab050/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bane Alley Broker
@@ -150,7 +160,13 @@
   > You may look at cards exiled with this creature.
   > {U}{B}, {T}: Return a card exiled with this creature to its owner's hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25561 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/145/bane-alley-broker) · oracle_id `4993e373-4b76-4582-a789-6a3123e7ca89` · printing: GTC #145 (2013-02-01) · [rulings](https://api.scryfall.com/cards/7996df7f-70f5-412c-9573-9512e4e131ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2013-01-24* — Bane Alley Broker’s second and third abilities apply to cards exiled with that specific Bane Alley Broker, not any other creature named Bane Alley Broker. You should keep cards exiled by different Bane Alley Brokers separate.
+  - *2013-01-24* — Even if not all players can look at the exiled cards, each card’s owner is still known. It is advisable to keep cards owned by different players in distinct piles in case another player gains control of Bane Alley Broker and exiles one or more cards with it.
+  - *2013-01-24* — If Bane Alley Broker leaves the battlefield, the cards exiled with it will be exiled indefinitely. If it later returns to the battlefield, it will be a new object with no connection to the cards exiled with it in its previous existence. You won’t be able to use the “new” Bane Alley Broker to return cards exiled with the “old” one.
+  - *2013-01-24* — If Bane Alley Broker’s first ability resolves when you have no cards in your hand, you’ll draw a card and then exile it. You won’t have the opportunity to cast that card (or do anything else with it) before exiling it.
+  - *2013-01-24* — Once you are allowed to look at a face-down card in exile, you are allowed to look at that card as long as it’s exiled. If you no longer control Bane Alley Broker when its last ability resolves, you can continue to look at the relevant cards in exile to choose one to return.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/145/bane-alley-broker) · oracle_id `4993e373-4b76-4582-a789-6a3123e7ca89` · printing: GTC #145 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baneblade Scoundrel // Baneclaw Marauder
 
@@ -168,7 +184,18 @@
   > Nightbound (If a player casts at least two spells during their own turn, it becomes day next turn.)
 - **Keywords:** Transform, Daybound, Nightbound
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26897 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/85/baneblade-scoundrel-baneclaw-marauder) · oracle_id `4f5da665-e880-4325-a9e2-6fc4ca1d807a` · printing: MID #85 (2021-09-24) · [rulings](https://api.scryfall.com/cards/7b63f2ae-5bfd-452f-b1f5-8459bcecd3bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2021-09-24* — Abilities that trigger when a creature "becomes blocked" resolve before combat damage is dealt.
+  - *2021-09-24* — Before a player untaps their permanents during the untap step, the game checks to see if the day/night designation should change.
+  - *2021-09-24* — Day and night are designations that the game itself can have. The game starts as neither. Once the game becomes day (or less commonly, night), the game will be exactly one of them—day or night—going back and forth for the rest of the game.
+  - *2021-09-24* — Double-faced permanents with daybound transform to their nightbound faces as it becomes night. Similarly, double-faced permanents with nightbound transform to their daybound faces as it becomes day. This happens immediately and is not a state-based action. It happens any time it becomes day or night, not just during the untap step.
+  - *2021-09-24* — If it is day, and the active player of the previous turn cast no spells during their turn, it becomes night.
+  - *2021-09-24* — If it is night, and the active player of the previous turn cast two or more spells during their turn, it becomes day.
+  - *2021-09-24* — If it is night, permanents with daybound that enter the battlefield without being cast will enter with their nightbound faces up.
+  - *2021-09-24* — If it's neither day nor night, and a creature with daybound and a creature with nightbound somehow appear on the battlefield at the same time, it becomes day. The creature with nightbound will transform.
+  - *2021-09-24* — If you cast a spell with daybound during night, that spell will be front face up (that is, daybound face up) on the stack. However, it will enter the battlefield with its back face up (that is, with its nightbound face up). It won't enter with its daybound face up and then transform.
+  - *2021-09-24* — Permanents with daybound and nightbound can't transform via any means other than their daybound and nightbound abilities. Notably, older cards such as Moonmist that instruct a player to transform permanents don't affect permanents with daybound or nightbound.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/85/baneblade-scoundrel-baneclaw-marauder) · oracle_id `4f5da665-e880-4325-a9e2-6fc4ca1d807a` · printing: MID #85 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banefire
 
@@ -195,6 +222,7 @@
 - **Flavor text** (ROE printing):
   > *"Ah, again it does not bode well for you."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10208 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/roe/96/baneful-omen) · oracle_id `dc1711cf-c62b-436b-ba35-56bef8ef14d0` · printing: ROE #96 (2010-04-23) · [rulings](https://api.scryfall.com/cards/2bff6e03-b6af-4f54-b365-9a6db2dbb595/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banehound
@@ -221,7 +249,10 @@
   > As long as your life total is less than or equal to half your starting life total, Bane has indestructible.
   > Whenever another nontoken creature you control dies, target opponent may have you draw a card. If they don't, you may put a creature card with equal or lesser toughness from your hand onto the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14281 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/267/bane-lord-of-darkness) · oracle_id `ca507eea-1b04-4488-813e-ca970640e227` · printing: CLB #267 (2022-06-10) · [rulings](https://api.scryfall.com/cards/1a576d17-693d-4cc1-bb5b-bf81c74de03b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-06-10* — Bane's last ability looks at the toughness of the creature that died, not Bane's toughness.
+  - *2022-06-10* — If Bane, Lord of Darkness is dealt lethal damage at the same time that its controller's life total is reduced to less than or equal to half their starting life total, Bane will have indestructible at the time state-based actions are performed and survive.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/267/bane-lord-of-darkness) · oracle_id `ca507eea-1b04-4488-813e-ca970640e227` · printing: CLB #267 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bane of Bala Ged
 
@@ -264,7 +295,10 @@
   > When this creature is turned face up, all creatures get -X/-X until end of turn.
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10175 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/104/bane-of-the-living) · oracle_id `c99e4768-192c-49bf-8f51-c204a2248326` · printing: C19 #104 (2019-08-23) · [rulings](https://api.scryfall.com/cards/946a0fb7-0e36-47d5-8083-09f48725dff1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — The X in the ability has the same value as the X paid in the Morph ability. This is pretty easy to derive since there is no other source of X.
+  - *2004-10-04* — The trigger occurs when you use the Morph ability to turn the card face up, or when an effect turns it face up. It will not trigger on being revealed or on leaving the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/104/bane-of-the-living) · oracle_id `c99e4768-192c-49bf-8f51-c204a2248326` · printing: C19 #104 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bane's Contingency
 
@@ -291,6 +325,7 @@
   > *"The Lord of Darkness elevates only those who serve."*
 - **Keywords:** Wind Walk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28837 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/7/banes-invoker) · oracle_id `daa47749-7a20-4e64-b476-a44eaeb4d844` · printing: CLB #7 (2022-06-10) · [rulings](https://api.scryfall.com/cards/2164a728-131f-41ce-9346-8036c86543e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baneslayer Angel
@@ -316,6 +351,7 @@
 - **Oracle text:**
   > Baneslayer Aspirant gets +3/+3 and has flying, first strike, and lifelink as long as you have one or more emblems.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/3/baneslayer-aspirant) · oracle_id `d4c14052-1e5f-4ae4-a1b7-31876ebe6ca8` · printing: CMB2 #3 (2021-08-20) · [rulings](https://api.scryfall.com/cards/0e0855fe-55b4-4bba-9313-1aac558ccb97/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banewasp Affliction
@@ -329,7 +365,9 @@
   > *The consuming undeath of Grixis terrifies the survivors of Vithia, but its fauna is just as fearsome.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22603 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/65/banewasp-affliction) · oracle_id `c1cb870a-8c1f-435c-b678-e456c4d2d627` · printing: ALA #65 (2008-10-03) · [rulings](https://api.scryfall.com/cards/fef85030-d591-407d-8045-c595326dd6fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — The player who loses life is the player who controlled the creature when it was put into a graveyard. This may not be the player whose graveyard it was put into. That player loses life equal to the creature’s toughness as it last existed on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/65/banewasp-affliction) · oracle_id `c1cb870a-8c1f-435c-b678-e456c4d2d627` · printing: ALA #65 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banewhip Punisher
 
@@ -342,6 +380,7 @@
 - **Flavor text** (HOU printing):
   > *"If I die, it will not be alone."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11168 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/59/banewhip-punisher) · oracle_id `d46c397c-e772-4a29-bbd2-1d7b47a461e8` · printing: HOU #59 (2017-07-14) · [rulings](https://api.scryfall.com/cards/005a19e2-c334-4b87-bc8b-55f62fc9abd9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banisher Priest
@@ -354,7 +393,12 @@
 - **Flavor text** (MOC printing):
   > *"Oathbreaker, I cast you out!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11646 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/173/banisher-priest) · oracle_id `9f560b83-32d4-4bb4-a956-8f5db18599db` · printing: MOC #173 (2023-04-21) · [rulings](https://api.scryfall.com/cards/0e518f9e-d74d-4a6f-8fde-5e3ec5834e63/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-07-01* — Auras attached to the exiled permanent will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
+  - *2013-07-01* — If Banisher Priest leaves the battlefield before its triggered ability resolves, the target permanent won't be exiled.
+  - *2013-07-01* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2013-07-01* — If an Aura is exiled this way, its owner chooses what it will enchant as it returns to the battlefield. An Aura put onto the battlefield this way doesn't target anything (so it could be attached to a permanent with shroud, for example), but the Aura's enchant ability restricts what it can be attached to. If the Aura can't legally be attached to anything, it remains in exile for the rest of the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/173/banisher-priest) · oracle_id `9f560b83-32d4-4bb4-a956-8f5db18599db` · printing: MOC #173 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banish from Edoras
 
@@ -366,6 +410,7 @@
 - **Flavor text** (LTR printing):
   > *Wormtongue bared his teeth; and then with a hissing breath he spat before the king's feet.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19337 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/1/banish-from-edoras) · oracle_id `e4508afd-7cc3-4176-8291-cfc2c155ac11` · printing: LTR #1 (2023-06-23) · [rulings](https://api.scryfall.com/cards/a4410076-e1fe-45f3-a0ca-a91ab0133ff4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banishing Betrayal
@@ -378,7 +423,9 @@
   > *One simple push and Jadzi fell into the churning swirl of magic. Tam thought it would be harder—wished that it had been harder.*
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13036 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/38/banishing-betrayal) · oracle_id `6b633e58-ea1b-4ed0-addb-6dfd93645ae4` · printing: SOS #38 (2026-04-24) · [rulings](https://api.scryfall.com/cards/1ae9d2f3-7a9f-433a-aa1f-14337ae6f9d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — If the target permanent is an illegal target when Banishing Betrayal tries to resolve, it won't resolve and none of its effects will happen. You won't surveil.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/38/banishing-betrayal) · oracle_id `6b633e58-ea1b-4ed0-addb-6dfd93645ae4` · printing: SOS #38 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banishing Knack
 
@@ -419,7 +466,10 @@
 - **Flavor text** (NEO printing):
   > *"In the name of Kyodai, begone!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11940 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/3/banishing-slash) · oracle_id `2800830c-73c6-4097-be7b-d698c6813c38` · printing: NEO #3 (2022-02-18) · [rulings](https://api.scryfall.com/cards/e4b8946b-6604-49ca-98db-18a540b1b4e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-02-18* — If you control an artifact that is also an enchantment as Banishing Slash resolves, you will create a Samurai token.
+  - *2022-02-18* — You may cast Banishing Slash without choosing a target. If you do, and you control both an artifact and an enchantment as it resolves, you'll just create a Samurai token. However, if you do choose a target and that target is an illegal target as Banishing Slash tries to resolve, Banishing Slash won't resolve and none of its effects will happen. The illegal target won't be destroyed and you won't create a Samurai token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/3/banishing-slash) · oracle_id `2800830c-73c6-4097-be7b-d698c6813c38` · printing: NEO #3 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banishing Stroke
 
@@ -430,7 +480,19 @@
   > Miracle {W} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)
 - **Keywords:** Miracle
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17381 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/63/banishing-stroke) · oracle_id `a6898364-c29e-4b97-a500-344efa3ec24a` · printing: C18 #63 (2018-08-10) · [rulings](https://api.scryfall.com/cards/aad93570-b50a-405a-ad73-03f97594061f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2018-07-13* — If an effect puts a card into your hand without using the word “draw,” the card wasn’t drawn.
+  - *2018-07-13* — If the card with miracle leaves your hand before the triggered ability resolves, you won’t be able to cast it using its miracle ability.
+  - *2018-07-13* — It’s important to reveal a card with miracle before it is mixed with the other cards in your hand.
+  - *2018-07-13* — Miracle is an alternative cost to cast the spell with miracle. It can’t be combined with other alternative costs, such as casting a spell “without paying its mana cost.”
+  - *2018-07-13* — Multiple card draws are always treated as a sequence of individual card draws. For example, if you haven’t drawn any cards yet during a turn and cast a spell that instructs you to draw three cards, you’ll draw them one at a time. Only the first card drawn this way may be revealed and cast using its miracle ability.
+  - *2018-07-13* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a miracle cost) you’re paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+  - *2018-07-13* — You can cast a card for its miracle cost only as the miracle triggered ability resolves. If you don’t want to cast it at that time (or you can’t cast it, perhaps because there are no legal targets available), you won’t be able to cast it later for the miracle cost.
+  - *2018-07-13* — You can reveal and cast a card with miracle on any turn, not just your own, if it’s the first card you’ve drawn that turn.
+  - *2018-07-13* — You cast the card with miracle during the resolution of the triggered ability. Ignore any timing rules based on the card’s type.
+  - *2018-07-13* — You don’t have to reveal a drawn card with miracle if you don’t wish to cast it at that time.
+  - *2018-07-13* — You still draw the card, whether you use the miracle ability or not. Any ability that triggers whenever you draw a card, for example, will trigger. If you don’t cast the card using its miracle ability, it will remain in your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/63/banishing-stroke) · oracle_id `a6898364-c29e-4b97-a500-344efa3ec24a` · printing: C18 #63 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banish into Fable
 
@@ -440,7 +502,12 @@
   > When you cast this spell from your hand, copy it if you control an artifact, then copy it if you control an enchantment. You may choose new targets for the copies.
   > Return target nonland permanent to its owner's hand. You create a 2/2 white Knight creature token with vigilance.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22493 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/325/banish-into-fable) · oracle_id `1f18e63d-ab1f-426c-afd5-ce89433394ca` · printing: ELD #325 (2019-10-04) · [rulings](https://api.scryfall.com/cards/2b5e4c5d-7d1d-4426-8351-35c12e29d9c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-10-04* — If the target nonland permanent is an illegal target by the time Banish into Fable tries to resolve, the spell won't resolve. You won't create a Knight token.
+  - *2019-10-04* — If you control one permanent that's an artifact and an enchantment, you'll copy Banish into Fable twice.
+  - *2019-10-04* — The triggered ability that copies Banish into Fable resolves and creates copies of Banish into Fable even if Banish into Fable is countered. The ability and the copies resolve before Banish into Fable itself resolves.
+  - *2019-10-04* — Whether you control an artifact and/or an enchantment is checked only as the triggered ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/325/banish-into-fable) · oracle_id `1f18e63d-ab1f-426c-afd5-ce89433394ca` · printing: ELD #325 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banishment
 
@@ -451,6 +518,7 @@
   > When this enchantment enters, exile target nonland permanent an opponent controls and all other nonland permanents your opponents control with the same name as that permanent until this enchantment leaves the battlefield.
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17174 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/8/banishment) · oracle_id `9c9b3bf7-afb7-4e9b-bdbc-e2b4d5ba477f` · printing: CLB #8 (2022-06-10) · [rulings](https://api.scryfall.com/cards/a71caadb-31ab-4b7f-b304-e7d3e8f9d132/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banishment Decree
@@ -463,6 +531,7 @@
   > *"Unworthy of consecration."*
   > *—Axsh, lesser cenobite*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29621 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbs/3/banishment-decree) · oracle_id `567b676b-54f3-44c7-8654-4d2b0262ea12` · printing: MBS #3 (2011-02-04) · [rulings](https://api.scryfall.com/cards/2c5f605c-9d16-493e-bc44-0e15bdf8c0bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banish to Another Universe
@@ -474,7 +543,9 @@
   > When this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield.
 - **Keywords:** Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14887 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/13/banish-to-another-universe) · oracle_id `ae6ef097-bd52-4bf8-81a8-2e6c643fc805` · printing: WHO #13 (2023-10-13) · [rulings](https://api.scryfall.com/cards/61f39d4c-af2d-486d-9408-b987474f8352/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-10-13* — If Banish to another Universe leaves the battlefield before its triggered ability resolves, the target permanent will not be exiled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/13/banish-to-another-universe) · oracle_id `ae6ef097-bd52-4bf8-81a8-2e6c643fc805` · printing: WHO #13 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bankrupt in Blood
 
@@ -486,7 +557,10 @@
 - **Flavor text** (RNA printing):
   > *"Your spirits can rest in peace, for your debts are paid."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12681 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/62/bankrupt-in-blood) · oracle_id `10a66403-606d-4814-9583-50cdcd6976e0` · printing: RNA #62 (2019-01-25) · [rulings](https://api.scryfall.com/cards/e635c433-0398-442a-856e-1869f6bf2cfd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-01-25* — Players can respond only after Bankrupt in Blood has been cast and all its costs have been paid. No one can try to destroy the creatures you sacrificed to prevent you from casting this spell.
+  - *2019-01-25* — You must sacrifice exactly two creatures to cast Bankrupt in Blood; you can’t cast it without sacrificing two creatures, and you can’t sacrifice additional creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/62/bankrupt-in-blood) · oracle_id `10a66403-606d-4814-9583-50cdcd6976e0` · printing: RNA #62 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banned Eldraine Card
 
@@ -495,6 +569,7 @@
 - **Oracle text:**
   > As an additional cost to play Banned Eldraine Card, pay {B}, {3}{R}{G}, {3}{R}, {2}, {0}, or {1}{G}. It becomes a copy respectively of Cauldron Familiar, Escape to the Wilds, Fires of Invention, Lucky Clover, Mystic Sanctuary, Once Upon A Time for the rest of the game in all zones. (You can't choose Oko. Because let's be real, nobody wants to play against Oko again.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RC01a/banned-eldraine-card) · oracle_id `196becd7-6872-4955-8fce-75bf879e7585` · printing: UNK #RC01a (2023-09-23) · [rulings](https://api.scryfall.com/cards/7f5fd194-036f-4dab-913d-94ab9e2c59fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bannerhide Krushok
@@ -508,7 +583,10 @@
   > Scavenge {5}{G}{G} ({5}{G}{G}, Exile this card from your graveyard: Put a number of +1/+1 counters equal to this card's power on target creature. Scavenge only as a sorcery.)
 - **Keywords:** Scavenge, Trample, Reinforce
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24222 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/149/bannerhide-krushok) · oracle_id `e3191093-1aaa-4002-a603-7c8d132b6a31` · printing: MH2 #149 (2021-06-18) · [rulings](https://api.scryfall.com/cards/1271251b-7d79-4cb4-80bb-98574aa63249/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-06-18* — Exiling the creature card with scavenge is part of the cost of activating the scavenge ability. Once the ability is activated and the cost is paid, it's too late to stop the ability from being activated by trying to remove the creature card from the graveyard.
+  - *2021-06-18* — If you activate Bannerhide Krushok's reinforce ability during your main phase, your opponents will have the chance to respond to that ability before you can activate the scavenge ability, perhaps by removing Bannerhide Krushok from your graveyard. However, if Bannerhide Krushok ends up in your graveyard during your main phase in such a way that there are no spells or abilities on the stack, you'll have priority to activate the scavenge ability before anyone can remove Bannerhide Krushok from your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/149/bannerhide-krushok) · oracle_id `e3191093-1aaa-4002-a603-7c8d132b6a31` · printing: MH2 #149 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banner of Kinship
 
@@ -530,7 +608,9 @@
 - **Flavor text** (AVR printing):
   > *After the destruction of the Helvault, fearful mobs soon became fearless battalions.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21652 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/avr/127/banners-raised) · oracle_id `b60d83ea-18bf-4c64-b4ee-981d54629362` · printing: AVR #127 (2012-05-04) · [rulings](https://api.scryfall.com/cards/a7792df3-e2ab-4e60-abee-f24b72807107/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-05-01* — Only creatures you control when Banners Raised resolves will get the bonus. Creatures that enter or that you gain control of later in the turn will be unaffected.
+- **Source flags:** [Scryfall](https://scryfall.com/card/avr/127/banners-raised) · oracle_id `b60d83ea-18bf-4c64-b4ee-981d54629362` · printing: AVR #127 (2012-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banon, the Returners' Leader
 
@@ -577,7 +657,9 @@
 - **Flavor text** (ME3 printing):
   > *Some say Banshees are the hounds of Death, baying to herd their prey into the arms of their master.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29067 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/59/banshee) · oracle_id `438546b8-0b67-4bec-a43b-f2fc7449c90e` · printing: ME3 #59 (2009-09-07) · [rulings](https://api.scryfall.com/cards/12130a32-8c27-4e48-b1ae-b7991f751e7e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — If the targeted permanent or player is an illegal target by the time Banshee's ability resolves, the ability doesn't resolve. You won't be dealt damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/59/banshee) · oracle_id `438546b8-0b67-4bec-a43b-f2fc7449c90e` · printing: ME3 #59 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banshee of the Dread Choir
 
@@ -589,7 +671,16 @@
   > Whenever this creature deals combat damage to a player, that player discards a card.
 - **Keywords:** Myriad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12873 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cma/47/banshee-of-the-dread-choir) · oracle_id `282b4dbf-ec00-48ba-8010-73bee489fa7a` · printing: CMA #47 (2017-06-09) · [rulings](https://api.scryfall.com/cards/b019f6b5-ce8f-4b95-8fcb-72dc4931b3aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2015-11-04* — Although the tokens enter the battlefield attacking, they were never declared as attackers. Abilities that trigger whenever a creature attacks won’t trigger, including the myriad ability of the tokens. If there any costs to have a creature attack, those costs won’t apply to the tokens.
+  - *2015-11-04* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the copied creature will also work.
+  - *2015-11-04* — Each token copies exactly what was printed on the original creature and nothing else. It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2015-11-04* — If myriad creates more than one token for any given player (due to an effect such as the one Doubling Season creates), you may choose separately for each token whether it’s attacking the player or a planeswalker they control.
+  - *2015-11-04* — If the defending player is your only opponent, no tokens are put onto the battlefield.
+  - *2015-11-04* — The term “defending player” in the myriad rules (or any other ability of an attacking creature) refers to the player the creature with myriad was attacking at the time it became an attacking creature this combat, or the controller of the planeswalker the creature was attacking at the time it became an attacking creature this combat.
+  - *2015-11-04* — The token creatures all enter the battlefield at the same time.
+  - *2015-11-04* — You choose whether each token is attacking the player or a planeswalker they control as the token is created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cma/47/banshee-of-the-dread-choir) · oracle_id `282b4dbf-ec00-48ba-8010-73bee489fa7a` · printing: CMA #47 (2017-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banshee's Blade
 
@@ -601,7 +692,9 @@
   > Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16230 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mrd/144/banshees-blade) · oracle_id `81a770e9-adea-4799-9fed-f10e97e7e901` · printing: MRD #144 (2003-10-02) · [rulings](https://api.scryfall.com/cards/b77baad4-2bd6-492a-86ca-8e0088b751d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-12-01* — The counters stay on Banshee's Blade even if it becomes unattached, or moves from one creature to another.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mrd/144/banshees-blade) · oracle_id `81a770e9-adea-4799-9fed-f10e97e7e901` · printing: MRD #144 (2003-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bant Battlemage
 
@@ -614,6 +707,7 @@
 - **Flavor text** (ALA printing):
   > *"A night attack will be easy. We'll make an air raid over the Akrasan border. Just get me some flint to light the war torches."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27476 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ala/5/bant-battlemage) · oracle_id `92d8b956-87db-43e4-bbb5-436ba01b5714` · printing: ALA #5 (2008-10-03) · [rulings](https://api.scryfall.com/cards/2c597b1d-d8b5-4922-a3f2-1f173a73ea2a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bant Charm
@@ -659,7 +753,11 @@
   > *"We must spread Bant's light before we are shadowed over."*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29639 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/arb/125/bant-sojourners) · oracle_id `67ceffa4-2fdb-499c-88cd-49fb5eb9be59` · printing: ARB #125 (2009-04-30) · [rulings](https://api.scryfall.com/cards/eff007af-0329-4872-8621-41e90d9f06e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2009-05-01* — If you cycle this card, the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
+  - *2009-05-01* — The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.
+  - *2009-05-01* — The triggered ability acts as a cycle-triggered ability or as a leaves-the-battlefield ability, as appropriate. The player who controls the triggered ability is the player who cycled the Sojourner, or the player who last controlled the Sojourner on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/arb/125/bant-sojourners) · oracle_id `67ceffa4-2fdb-499c-88cd-49fb5eb9be59` · printing: ARB #125 (2009-04-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bant Sureblade
 
@@ -671,4 +769,5 @@
 - **Flavor text** (ARB printing):
   > *Soldiers who fought through Grixis learned to hit first, recite the prayer of Asha later.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24582 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/arb/143/bant-sureblade) · oracle_id `610adb2b-9d52-4b70-92d1-0c7adeb93552` · printing: ARB #143 (2009-04-30) · [rulings](https://api.scryfall.com/cards/162feb2b-e641-4338-bcf1-1f7e7a11bb9d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

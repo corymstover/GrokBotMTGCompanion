@@ -60,7 +60,9 @@
   > *—Lazav*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28847 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/50/senate-courier) · oracle_id `4429e14f-a5f7-42e9-a8c3-b59428f92047` · printing: RNA #50 (2019-01-25) · [rulings](https://api.scryfall.com/cards/da8dc5c8-4eb7-4e41-8431-b41251f7814e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-01-25* — Gaining vigilance any time after the moment you choose to attack with a creature won't cause it to become untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/50/senate-courier) · oracle_id `4429e14f-a5f7-42e9-a8c3-b59428f92047` · printing: RNA #50 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Senate Griffin
 
@@ -75,6 +77,7 @@
   > *—Lavinia*
 - **Keywords:** Scry, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29358 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/219/senate-griffin) · oracle_id `7ddf9c12-8f75-481c-a218-d42f925c6503` · printing: RNA #219 (2019-01-25) · [rulings](https://api.scryfall.com/cards/465adbb4-4c64-44eb-8323-61d23282c6b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Senate Guildmage
@@ -86,6 +89,7 @@
   > {W}, {T}: You gain 2 life.
   > {U}, {T}: Draw a card, then discard a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21050 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/204/senate-guildmage) · oracle_id `76f1cc7a-084e-410d-92cb-b8f6ab8da4e9` · printing: RNA #204 (2019-01-25) · [rulings](https://api.scryfall.com/cards/913b3a2a-e3fd-4095-ab2a-5e356ea179df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Senator Peacock
@@ -97,7 +101,15 @@
   > Artifacts you control are Clues in addition to their other types and have "{2}, Sacrifice this artifact: Draw a card."
   > Whenever you sacrifice a Clue, target creature can't be blocked this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11880 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/2/senator-peacock) · oracle_id `10d8f29a-d483-4f06-bc13-d41d62847ffe` · printing: CLU #2 (2024-02-23) · [rulings](https://api.scryfall.com/cards/8778b33c-efab-4b65-b6e3-f0e3d1d8f937/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-02-02* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2024-02-02* — If Senator Peacock somehow becomes an artifact, it will also be a Clue.
+  - *2024-02-02* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
+  - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
+  - *2024-02-02* — The artifacts retain any types, subtypes, supertypes, and abilities they have.
+  - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/2/senator-peacock) · oracle_id `10d8f29a-d483-4f06-bc13-d41d62847ffe` · printing: CLU #2 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Send in the Pest
 
@@ -108,6 +120,7 @@
 - **Flavor text** (SOS printing):
   > *Dara couldn't cover her Silverquill bullies in ink but she could do the next best thing.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10278 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/100/send-in-the-pest) · oracle_id `955bfcb8-6477-4ed0-b6e7-8940874ae5e4` · printing: SOS #100 (2026-04-24) · [rulings](https://api.scryfall.com/cards/283b508b-89f0-4c23-9686-b049e402b73c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Send to Sleep
@@ -119,7 +132,12 @@
   > Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, those creatures don't untap during their controllers' next untap steps.
 - **Keywords:** Spell mastery
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19535 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/71/send-to-sleep) · oracle_id `9e3fd1e9-7db6-40de-b1de-cd8cc9f60590` · printing: ORI #71 (2015-07-17) · [rulings](https://api.scryfall.com/cards/aa34d648-da0a-4615-8dd8-d2c8b1a1a574/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2015-06-22* — Check to see if there are two or more instant and/or sorcery cards in your graveyard as the spell resolves to determine whether the spell mastery ability applies. The spell itself won’t count because it’s still on the stack as you make this check.
+  - *2015-06-22* — If the spell mastery ability applies and a creature affected by Send to Sleep changes controllers before its old controller’s next untap step, Send to Sleep will prevent it from becoming untapped during its new controller’s next untap step.
+  - *2015-06-22* — If you chose two targets and one is an illegal target when Send to Sleep resolves, that creature won’t become tapped and it won’t be stopped from untapping during its controller’s next untap step (if the spell mastery ability applies). It won’t be affected by Send to Sleep in any way.
+  - *2015-06-22* — Send to Sleep can target tapped creatures. If a targeted creature is already tapped when the spell resolves (and the spell mastery ability applies), that creature remains tapped and doesn’t untap during its controller’s next untap step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/71/send-to-sleep) · oracle_id `9e3fd1e9-7db6-40de-b1de-cd8cc9f60590` · printing: ORI #71 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sengir Autocrat
 
@@ -132,7 +150,10 @@
 - **Flavor text** (EMA printing):
   > *"The penalty for idleness is death. The penalty for disputing the penalty is death."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10309 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ema/105/sengir-autocrat) · oracle_id `0561043a-3896-4bb1-8ff5-ee674ddfea2a` · printing: EMA #105 (2016-06-10) · [rulings](https://api.scryfall.com/cards/83fa8a17-ff86-465e-9092-0968081f4e28/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-06-08* — If Sengir Autocrat leaves the battlefield while its first ability is on the stack, its second ability triggers and exiles any Serf tokens that happen to be on the battlefield, and then its first ability resolves and gives you three Serf tokens.
+  - *2016-06-08* — Sengir Autocrat’s last ability exiles all Serf tokens, not just the Serf tokens its first ability created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ema/105/sengir-autocrat) · oracle_id `0561043a-3896-4bb1-8ff5-ee674ddfea2a` · printing: EMA #105 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sengir Bats
 
@@ -147,6 +168,7 @@
   > *—Ihsan's Shade*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27174 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hml/57a/sengir-bats) · oracle_id `ade8f21a-a7bb-4bd9-a7f2-9fa3060ff1e8` · printing: HML #57a (1995-10-01) · [rulings](https://api.scryfall.com/cards/3c745c2c-4311-412d-a137-02bf6d106e46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sengir Connoisseur
@@ -161,6 +183,7 @@
   > *"We cannot afford to let the Phyrexians win. They taste terrible."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20681 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/104/sengir-connoisseur) · oracle_id `8a4d505e-b884-4b8b-93d5-495992f3858e` · printing: DMU #104 (2022-09-09) · [rulings](https://api.scryfall.com/cards/7c9231f0-7733-46d9-b9c6-c6c5b7fe65dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sengir Nosferatu
@@ -173,7 +196,10 @@
   > {1}{B}, Exile this creature: Create a 1/2 black Bat creature token with flying. It has "{1}{B}, Sacrifice this token: Return an exiled card named Sengir Nosferatu to the battlefield under its owner's control."
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27744 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/136/sengir-nosferatu) · oracle_id `2efdfcae-c3ad-4c6b-8a60-45a203bd14c6` · printing: TSR #136 (2021-03-19) · [rulings](https://api.scryfall.com/cards/71dc9f1e-b889-402d-a5a1-fa0d7d493246/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2006-09-25* — The Sengir Nosferatu that the Bat token's ability returns to the battlefield doesn't have to be the same one that created it, and it doesn't even have to be owned by the same player.
+  - *2007-05-01* — If the Nosferatu is copied (by Clone, for example) and then the copy is exiled by the first activated ability, it won't be able to come back using the second activated ability, since it's no longer named Sengir Nosferatu in the Exile zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/136/sengir-nosferatu) · oracle_id `2efdfcae-c3ad-4c6b-8a60-45a203bd14c6` · printing: TSR #136 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sengir, the Dark Baron
 
@@ -187,7 +213,18 @@
   > Partner (You can have two commanders if both have partner.)
 - **Keywords:** Flying, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11253 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/149/sengir-the-dark-baron) · oracle_id `f49f84f9-616e-495b-8d87-4de7941f230e` · printing: CMR #149 (2020-11-20) · [rulings](https://api.scryfall.com/cards/4d51a22e-74fc-442e-945a-56d02ca12713/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2020-11-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2020-11-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2020-11-10* — If Sengir, the Dark Baron is dealt lethal damage at the same time as other creatures, they die at the same time. The second ability won't resolve in time to save Sengir, the Dark Baron.
+  - *2020-11-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2020-11-10* — If you and another player lose the game at the same time, the third ability won't resolve in time to save you.
+  - *2020-11-10* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Falthis and Kediss are your commanders, your deck may contain cards with black and/or red in their color identity, but not cards with green, white, or blue.
+  - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
+  - *2020-11-10* — Sengir, the Dark Baron's third ability will trigger no matter how the player lost the game: due to a state-based action (having 0 or less life, trying to draw a card from an empty library, having 10 or more poison counters), because of a spell or effect that states they lose the game, because your awesome might has left them with no choice other than concession, or for any other reason.
+  - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
+  - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/149/sengir-the-dark-baron) · oracle_id `f49f84f9-616e-495b-8d87-4de7941f230e` · printing: CMR #149 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sengir Vampire
 
@@ -201,7 +238,11 @@
   > *Empires rise and fall, but evil is eternal.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18512 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/275/sengir-vampire) · oracle_id `749141aa-f6c4-4ad8-b146-406e68ae9b0b` · printing: JMP #275 (2020-07-17) · [rulings](https://api.scryfall.com/cards/de652420-eacf-4f9d-9f13-c6bc02b0fa72/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2007-07-15* — If Sengir Vampire deals nonlethal damage to a creature and then a different effect or damage source causes that creature to be put into a graveyard later in the turn, Sengir Vampire's ability will trigger and it will get a +1/+1 counter.
+  - *2011-09-22* — Each time a creature is put into a graveyard from the battlefield, check whether Sengir Vampire had dealt any damage to it at any time during that turn. If so, Sengir Vampire's ability will trigger. It doesn't matter who controlled the creature or whose graveyard it was put into.
+  - *2011-09-22* — If Sengir Vampire and a creature it dealt damage to are both put into a graveyard at the same time, Sengir Vampire's ability will trigger, but it will do nothing when it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/275/sengir-vampire) · oracle_id `749141aa-f6c4-4ad8-b146-406e68ae9b0b` · printing: JMP #275 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sensational Spider-Man
 
@@ -228,7 +269,14 @@
   > *More, more, more!*
 - **Keywords:** Kinship
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16346 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mor/102/sensation-gorger) · oracle_id `42a7daf1-59a9-4e85-a664-47061758e748` · printing: MOR #102 (2008-02-01) · [rulings](https://api.scryfall.com/cards/b2e5eb69-dcd9-4784-bf4c-20b674f4c035/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2008-04-01* — After the kinship ability finishes resolving, the card you looked at remains on top of your library.
+  - *2008-04-01* — If the top card of your library is already revealed (due to Magus of the Future, for example), you still have the option to reveal it or not as part of a kinship ability’s effect.
+  - *2008-04-01* — If you have multiple creatures with kinship abilities, each triggers and resolves separately. You’ll look at the same card for each one, unless you have some method of shuffling your library or moving that card to a different zone.
+  - *2008-04-01* — Kinship is an ability word that indicates a group of similar triggered abilities that appear on _Morningtide_ creatures. It doesn’t have any special rules associated with it.
+  - *2008-04-01* — The first two sentences of every kinship ability are the same (except for the creature’s name). Only the last sentence varies from one kinship ability to the next.
+  - *2008-04-01* — You don’t have to reveal the top card of your library, even if it shares a creature type with the creature that has the kinship ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mor/102/sensation-gorger) · oracle_id `42a7daf1-59a9-4e85-a664-47061758e748` · printing: MOR #102 (2008-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sensei Golden-Tail
 
@@ -240,7 +288,10 @@
   > {1}{W}, {T}: Put a training counter on target creature. That creature gains bushido 1 and becomes a Samurai in addition to its other creature types. Activate only as a sorcery.
 - **Keywords:** Bushido
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16267 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/chk/44/sensei-golden-tail) · oracle_id `63305fd4-068f-498b-a01e-0b375c592797` · printing: CHK #44 (2004-10-01) · [rulings](https://api.scryfall.com/cards/b93dd897-3fb5-48b1-bdff-9383ce1feb21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-12-01* — Note that multiple instances of the bushido ability each trigger separately.
+  - *2004-12-01* — The training counter just marks which creatures have been changed; an effect that removes the counter doesn’t change the creature’s types or abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chk/44/sensei-golden-tail) · oracle_id `63305fd4-068f-498b-a01e-0b375c592797` · printing: CHK #44 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sensei's Divining Top
 
@@ -265,7 +316,17 @@
   > Madness {1}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
 - **Keywords:** Madness, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17932 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/180/senseless-rage) · oracle_id `5036fe35-43c6-45af-99d5-7b79ebcfc406` · printing: SOI #180 (2016-04-08) · [rulings](https://api.scryfall.com/cards/9c779cb6-3454-4d5a-85a1-bea5cf8005b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2022-12-08* — A card with madness that's discarded counts as having been discarded even though it's put into exile rather than a graveyard. If it was discarded to pay a cost, that cost is still paid. Abilities that trigger when a card is discarded will still trigger.
+  - *2022-12-08* — A spell cast for its madness cost is put onto the stack like any other spell. It can be countered, copied, and so on. As it resolves, it's put onto the battlefield if it's a permanent card or into its owner's graveyard if it's an instant or sorcery card.
+  - *2022-12-08* — Cards are discarded in a Magic game only from a player's hand. Effects that put cards into a player's graveyard from anywhere else do not cause those cards to be discarded.
+  - *2022-12-08* — Casting a spell with madness ignores the timing rules based on the card's card type. For example, you can cast a sorcery with madness if you discard it during an opponent's turn.
+  - *2022-12-08* — If you choose not to cast a card with madness when the madness triggered ability resolves, it's put into your graveyard. Madness doesn't give you another chance to cast it later.
+  - *2022-12-08* — If you discard a card with madness to pay the cost of a spell or activated ability, that card's madness triggered ability (and the spell that card becomes, if you choose to cast it) will resolve before the spell or ability the discard paid for.
+  - *2022-12-08* — If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.
+  - *2022-12-08* — Madness works independently of why you're discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can't discard a card with madness just because you want to, though.
+  - *2022-12-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a madness cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/180/senseless-rage) · oracle_id `5036fe35-43c6-45af-99d5-7b79ebcfc406` · printing: SOI #180 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sensor Splicer
 
@@ -278,6 +339,7 @@
 - **Flavor text** (2X2 printing):
   > *With clarity of vision comes clarity of function.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10235 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/29/sensor-splicer) · oracle_id `9676da93-1e17-4f6c-b610-a242b78c71ab` · printing: 2X2 #29 (2022-07-08) · [rulings](https://api.scryfall.com/cards/2d308c11-cc8d-4fa6-bbe1-357b164733ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sensory Deprivation
@@ -291,6 +353,7 @@
   > *They call it "stitcher's anesthesia," a spell to deaden the senses while the mad doctors begin their grisly work.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28787 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m14/71/sensory-deprivation) · oracle_id `0006faf6-7a61-426c-9034-579f2cfcfa83` · printing: M14 #71 (2013-07-19) · [rulings](https://api.scryfall.com/cards/7050735c-b232-47a6-a342-01795bfd0d46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sentinel
@@ -301,7 +364,9 @@
 - **Oracle text:**
   > {0}: This creature's base toughness becomes equal to 1 plus the power of target creature blocking or blocked by this creature. (This effect lasts indefinitely.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24943 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/chr/107/sentinel) · oracle_id `c30e8efb-d097-4388-8d5c-1037ccc29fba` · printing: CHR #107 (1995-07-01) · [rulings](https://api.scryfall.com/cards/ffd4921f-cda5-4318-837d-a3fe4f0d9362/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — You apply power/toughness changing effects in a series of sublayers in the following order: (a) effects from characteristic-defining abilities; (b) effects that set power and/or toughness to a specific number or value; (c) effects that modify power and/or toughness but don’t set power and/or toughness to a specific number or value; (d) changes from counters; (e) effects that switch a creature’s power and toughness. This card’s effect is always applied in (b), which means that effects applied in sublayer (c), (d), or (e) will not be overwritten; they will be applied to the new value.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chr/107/sentinel) · oracle_id `c30e8efb-d097-4388-8d5c-1037ccc29fba` · printing: CHR #107 (1995-07-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sentinel Dispatch
 
@@ -335,7 +400,10 @@
   > • Put target card you don't own in exile that has an Adventure on the bottom of its owner's library.
   > • Exile target player's graveyard.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15878 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/184/sentinel-of-lost-lore) · oracle_id `683775ac-481e-4c26-ab2f-5d2813af0268` · printing: WOE #184 (2023-09-08) · [rulings](https://api.scryfall.com/cards/f109a5bf-1472-4b87-b3d3-70db0e123693/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-09-01* — The first and second modes of Sentinel of Lost Lore's ability can target any face-up exiled card that has an Adventure as long as it's owned by an appropriate player. It doesn't matter whether the card was cast as an Adventure.
+  - *2023-09-01* — You must choose at least one mode if you can. If there are no legal targets available for the first two modes, you must choose the last mode. Notably, the last mode can target any player, even one who has no cards in their graveyard. In the unusual case there are no appropriate cards in exile to target and no player may legally be chosen as a target, the ability is removed from the stack with no effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/184/sentinel-of-lost-lore) · oracle_id `683775ac-481e-4c26-ab2f-5d2813af0268` · printing: WOE #184 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sentinel of the Eternal Watch
 
@@ -349,6 +417,7 @@
   > *The portcullis is superfluous.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17321 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/30/sentinel-of-the-eternal-watch) · oracle_id `572b1aeb-d2a0-433d-b167-86e683c2127d` · printing: ORI #30 (2015-07-17) · [rulings](https://api.scryfall.com/cards/0a7b01ce-2729-4b70-ae0a-b9a1007be78f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sentinel of the Nameless City
@@ -363,7 +432,15 @@
   > *"Halt, traveler. Whatever you seek, you will not find it here."*
 - **Keywords:** Vigilance, Explore
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12181 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/211/sentinel-of-the-nameless-city) · oracle_id `a5bbfe32-2fb9-48a0-bc8a-e9899aac1fda` · printing: LCI #211 (2023-11-17) · [rulings](https://api.scryfall.com/cards/eeeffc0b-dc92-458e-ad58-86ff6077a508/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-11-10* — If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature explores" trigger as appropriate.
+  - *2023-11-10* — If an ability instructs a creature to explore, its controller reveals the top card of their library. If it's a land card, they'll put it into their hand. Otherwise, they'll put a +1/+1 counter on that creature, then choose to either leave that card on top of their library or put it into their graveyard.
+  - *2023-11-10* — If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+  - *2023-11-10* — In some unusual cases, noncreature permanents may explore. For example, if the creature card returned by Defossilize is somehow not a creature once it's on the battlefield, it can still explore. You'll take all the same actions, and you may end up putting a +1/+1 counter on the permanent. (Note that some effects target a creature, and those effects would still require a legal target to have it explore.)
+  - *2023-11-10* — Map tokens are a kind of predefined token. Each one is a colorless artifact with the artifact subtype Map and the ability "{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery."
+  - *2023-11-10* — Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+  - *2023-11-10* — Some spells or abilities might cause a creature to explore multiple times in a row. If you reveal a nonland card when a creature explores and leave it on top of your library, then the creature explores again immediately afterwards, you'll reveal the same card again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/211/sentinel-of-the-nameless-city) · oracle_id `a5bbfe32-2fb9-48a0-bc8a-e9899aac1fda` · printing: LCI #211 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sentinel of the Pearl Trident
 
@@ -375,7 +452,12 @@
   > When this creature enters, you may exile target historic permanent you control. If you do, return that card to the battlefield under its owner's control at the beginning of the next end step. (Artifacts, legendaries, and Sagas are historic.)
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24122 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/67/sentinel-of-the-pearl-trident) · oracle_id `2bddbd7d-9b6b-4166-88de-368d91c7fe4f` · printing: 2XM #67 (2020-08-07) · [rulings](https://api.scryfall.com/cards/a19284d8-4404-4032-8dee-3c7af2819045/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-08-07* — Auras attached to the exiled permanent will be put into their owners' graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist. Once the exiled permanent returns, it's considered a new object with no relation to the object that it was.
+  - *2020-08-07* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2020-08-07* — If the permanent that returns to the battlefield has any abilities that trigger at the beginning of the end step, those abilities won't trigger that turn.
+  - *2020-08-07* — The exiled card will return to the battlefield at the beginning of the end step even if Sentinel of the Pearl Trident is no longer on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/67/sentinel-of-the-pearl-trident) · oracle_id `2bddbd7d-9b6b-4166-88de-368d91c7fe4f` · printing: 2XM #67 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sentinel Sarah Lyons
 
@@ -444,7 +526,12 @@
   > Addendum — When this Aura enters, if you cast it during your main phase, enchanted creature gains lifelink until end of turn.
 - **Keywords:** Addendum, Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19088 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/20/sentinels-mark) · oracle_id `ac34bc09-ba8a-4bfb-bc45-e9c3e4d7bdc0` · printing: RNA #20 (2019-01-25) · [rulings](https://api.scryfall.com/cards/e6f4f661-ee4b-4fa5-99c4-106731d117ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-01-25* — Gaining vigilance any time after the moment you choose to attack with a creature won't cause it to become untapped, and losing vigilance after that time won't cause it to become tapped.
+  - *2019-01-25* — If Sentinel's Mark enters the battlefield without being cast, the addendum ability won't trigger, even if it's your main phase.
+  - *2019-01-25* — If an effect copies a spell with an addendum ability while it's on the stack, the copy wasn't cast at all, so you won't get the addendum bonus.
+  - *2019-01-25* — Multiple instances of lifelink on the same creature are redundant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/20/sentinels-mark) · oracle_id `ac34bc09-ba8a-4bfb-bc45-e9c3e4d7bdc0` · printing: RNA #20 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sentinels of Glen Elendra
 
@@ -458,6 +545,7 @@
   > *Some say the valley of Glen Elendra is mythical, and that rumors of its existence are nothing but a faerie prank. Others say it is the fae's most fiercely guarded secret.*
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28241 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/84/sentinels-of-glen-elendra) · oracle_id `a93779c5-603e-4a91-aef8-a0cd8fd1b3e9` · printing: LRW #84 (2007-10-12) · [rulings](https://api.scryfall.com/cards/f48daf7e-2f8e-4179-a145-a6b36dd11d44/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sentinel Spider
@@ -472,6 +560,7 @@
   > *—Endril, Kalonian naturalist*
 - **Keywords:** Reach, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18881 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/253/sentinel-spider) · oracle_id `a37c9b13-dc45-4b55-a63d-5314abde7aab` · printing: CMR #253 (2020-11-20) · [rulings](https://api.scryfall.com/cards/01e7af76-e505-49ca-a91e-8167027560ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sentinel Totem
@@ -483,6 +572,7 @@
   > {T}, Exile this artifact: Exile all graveyards.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16531 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/245/sentinel-totem) · oracle_id `5432bd43-e92c-464b-9ad2-3515f3042799` · printing: XLN #245 (2017-09-29) · [rulings](https://api.scryfall.com/cards/0d8097eb-518a-4b8e-8d6a-a139d4ddcc8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sentinel Tower
@@ -494,7 +584,12 @@
 - **Flavor text** (BBD printing):
   > *The built-in obstacles force competitors to think three moves ahead.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9952 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/79/sentinel-tower) · oracle_id `49b86b51-e1ef-4e27-84d2-66166481e0a5` · printing: BBD #79 (2018-06-08) · [rulings](https://api.scryfall.com/cards/25d9500e-a536-4f8e-bfdd-6cb08f709890/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-06-08* — For example, the first instant or sorcery spell cast during your turn causes Sentinel Tower to deal 1 damage; the second causes it to deal 2 damage, and so on.
+  - *2018-06-08* — Sentinel Tower’s ability counts all instant and sorcery spells cast in the turn before the spell that caused it to trigger, even if those spells are still on the stack or have been countered.
+  - *2018-06-08* — Sentinel Tower’s ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2018-06-08* — You choose the target for Sentinel Tower’s ability, regardless of who cast the spell that caused it to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/79/sentinel-tower) · oracle_id `49b86b51-e1ef-4e27-84d2-66166481e0a5` · printing: BBD #79 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sen Triplets
 
@@ -527,7 +622,20 @@
   > At the beginning of combat on your turn, you may pay {E}{E}{E}. If you do, put a +1/+1 counter on each creature you control.
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10427 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/24/sentry-bot) · oracle_id `d0c78ee6-babb-410d-9d3a-0c1395596e56` · printing: PIP #24 (2024-03-08) · [rulings](https://api.scryfall.com/cards/b16b0143-3511-4f79-bdb1-1ff7af55f051/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2024-03-08* — Energy counters are a kind of counter that a player may have. They’re not associated with any specific permanents.
+  - *2024-03-08* — Energy counters aren’t mana. They don’t go away as steps, phases, and turns end, and effects that add mana “of any type” can’t give you energy counters.
+  - *2024-03-08* — If a spell or ability with one or more targets states that you “may pay” some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won’t resolve. You can’t pay any {E} even if you want to.
+  - *2024-03-08* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can’t pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-03-08* — Keep track of how many energy counters each player has. Potential ways to track this include writing them down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-03-08* — Once you announce that you’re casting Sentry Bot, no player may take actions until you’re done casting it. Notably, opponents can’t remove creatures from combat to try to change Sentry Bot’s total cost.
+  - *2024-03-08* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won’t resolve. You won’t get any {E}.
+  - *2024-03-08* — Some triggered abilities state that you “may pay” a certain amount of {E}. You can’t pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-03-08* — Some triggered abilities that state that you “may pay” a certain amount of {E} describe an effect that happens “If you do.” In that case, no player may take actions to try to stop the ability’s effect after you make your choice. If the payment is followed by the phrase “When you do,” then you’ll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-03-08* — The cost-reduction ability of Sentry Bot doesn’t change its mana cost or mana value, only the total cost you pay. Specifically, the mana value of Sentry Bot is always 5.
+  - *2024-03-08* — Use the number of creatures attacking you as Sentry Bot’s third ability resolves to determine the number of energy counters you get.
+  - *2024-03-08* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/24/sentry-bot) · oracle_id `d0c78ee6-babb-410d-9d3a-0c1395596e56` · printing: PIP #24 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sentry Oak
 
@@ -539,7 +647,9 @@
   > At the beginning of combat on your turn, you may clash with an opponent. If you win, this creature gets +2/+0 and loses defender until end of turn. (Each clashing player reveals the top card of their library, then puts that card on their choice of the top or bottom. A player wins if their card had a greater mana value.)
 - **Keywords:** Clash, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29940 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/38/sentry-oak) · oracle_id `1b2e0a60-844e-4db7-91fd-323497ab3cbf` · printing: LRW #38 (2007-10-12) · [rulings](https://api.scryfall.com/cards/ab09d6d7-e2f0-4e78-a9a3-ac37f02f4096/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-10-01* — Specifically, this ability triggers when the beginning of combat step starts during your turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/38/sentry-oak) · oracle_id `1b2e0a60-844e-4db7-91fd-323497ab3cbf` · printing: LRW #38 (2007-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sentry of the Underworld
 
@@ -553,6 +663,7 @@
   > *When Athreos gathers the newly dead to be ferried across the Five Rivers That Ring the World, he sends skeletal griffins to fetch those who stray.*
 - **Keywords:** Flying, Vigilance, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29323 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/202/sentry-of-the-underworld) · oracle_id `fd4d83fa-070c-46bf-a620-041f69acdea9` · printing: THS #202 (2013-09-27) · [rulings](https://api.scryfall.com/cards/018a9c98-1cb4-4c53-a765-c15808c4ab44/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Senu, Keen-Eyed Protector

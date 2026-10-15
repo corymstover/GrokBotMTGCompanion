@@ -23,7 +23,10 @@
   > *"Her weapon's impressive, sure. But you should see her wield it."*
   > *—Gred, expedition warrior*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16192 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/141/goma-fada-vanguard) · oracle_id `74027d31-6efb-471d-9499-cdb1cefc9eae` · printing: ZNR #141 (2020-09-25) · [rulings](https://api.scryfall.com/cards/ce83962b-445a-4b44-ad8a-fada2c0a15b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-09-25* — The power of the target creature and the number of Warriors you control are checked only as Goma Fada Vanguard's ability is put onto the stack and as that ability resolves. If the creature's power becomes greater after the ability has resolved, it still can't block.
+  - *2020-09-25* — The target creature is restricted from blocking anything, not just Goma Fada Vanguard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/141/goma-fada-vanguard) · oracle_id `74027d31-6efb-471d-9499-cdb1cefc9eae` · printing: ZNR #141 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gomazoa
 
@@ -37,7 +40,10 @@
   > *To explorers, "point man" is a polite way of saying "gomazoa fodder."*
 - **Keywords:** Flying, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18863 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmd/48/gomazoa) · oracle_id `0c82ae16-f995-4ac3-adb4-a5cc93a6e6f2` · printing: CMD #48 (2011-06-17) · [rulings](https://api.scryfall.com/cards/4d2c0c7e-a486-45c5-92fa-f36087714ad3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-10-01* — Gomazoa’s ability can be activated any time its controller has priority. It doesn’t need to be blocking any creatures.
+  - *2009-10-01* — If Gomazoa isn’t blocking a creature at the time its ability resolves, only Gomazoa is put on top of its owner’s library, and only that player shuffles their library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmd/48/gomazoa) · oracle_id `0c82ae16-f995-4ac3-adb4-a5cc93a6e6f2` · printing: CMD #48 (2011-06-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gomif, Fast Racer
 
@@ -51,4 +57,5 @@
   > At the beginning of your end step, if an opponent lost life this turn, you may draw cards equal to your speed. If you do, discard two cards.
 - **Keywords:** Start your engines!
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03i/gomif-fast-racer) · oracle_id `865a9402-b175-425d-9761-3964d1eb4bea` · printing: UNK #RZ03i (2025-02-21) · [rulings](https://api.scryfall.com/cards/0a272a41-fcf0-4434-9cb3-0ea6867e0c56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

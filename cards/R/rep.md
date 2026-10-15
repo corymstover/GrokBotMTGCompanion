@@ -58,7 +58,11 @@
   > *"Throw the bodies out. They'll just weigh down the frame."*
   > *—Rolf, Argivian mechanic*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16465 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/24/repair-and-recharge) · oracle_id `4f42517b-e62e-4b8c-8c56-cb32fb62c478` · printing: BRO #24 (2022-11-18) · [rulings](https://api.scryfall.com/cards/04ff4a4b-4e86-41d1-a6b6-312aac0d3e1a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-10-14* — Although all the cards in The Brothers' War that create Powerstone tokens create a tapped Powerstone token, entering the battlefield tapped isn't part of the token's definition. Notably, if you create a token that is a copy of a Powerstone token, the token copy won't enter the battlefield tapped.
+  - *2022-10-14* — Powerstone tokens are a kind of predefined token. Each one has the artifact subtype "Powerstone" and the ability "{T}: Add {C}. This mana can't be spent to cast a nonartifact spell."
+  - *2022-10-14* — You can use the {C} added by a Powerstone token on anything that isn't a nonartifact spell. This includes paying costs to activate abilities of both artifact and nonartifact permanents, paying ward costs, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/24/repair-and-recharge) · oracle_id `4f42517b-e62e-4b8c-8c56-cb32fb62c478` · printing: BRO #24 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reparations
 
@@ -69,6 +73,7 @@
 - **Flavor text** (MIR printing):
   > *"Sorry I burned down your village. Here's some gold."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22818 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/278/reparations) · oracle_id `3cb86deb-f4e5-41c5-bfcd-614a24f3499c` · printing: MIR #278 (1996-10-08) · [rulings](https://api.scryfall.com/cards/0a9edf28-79c0-42a5-af0f-6df9c3a1f546/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Repay in Kind
@@ -96,7 +101,11 @@
   > *"Your deed cannot be undone. You, however, can be."*
   > *—Agosto, Azorius imperator*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12273 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/94/repeal) · oracle_id `b1f2b26c-91b2-4f3c-9f48-6429ec3fde48` · printing: CLU #94 (2024-02-23) · [rulings](https://api.scryfall.com/cards/265b80cd-2e9c-4e4b-a065-eafb29b3e07a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-03-19* — If a permanent on the battlefield has {X} in its mana cost, X is considered to be 0.
+  - *2021-03-19* — If the target permanent is an illegal target by the time Repeal tries to resolve, the spell doesn't resolve. You don't draw a card.
+  - *2021-03-19* — The mana value of a token that isn't a copy of another object is 0. A token that is a copy of another object has the same mana cost as that object.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/94/repeal) · oracle_id `b1f2b26c-91b2-4f3c-9f48-6429ec3fde48` · printing: CLU #94 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Repeated Reverberation
 
@@ -128,7 +137,10 @@
   > Raid — {3}{R}{R}: Return this card from your graveyard to your hand. Activate only if you attacked this turn.
 - **Keywords:** Raid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26651 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/156/repeating-barrage) · oracle_id `a08c599e-ee75-4d2b-ae9b-0987c233dd17` · printing: XLN #156 (2017-09-29) · [rulings](https://api.scryfall.com/cards/ba90a2d6-8292-4ff1-91d0-b30ae9775f12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — Raid abilities care only that you attacked with a creature. It doesn't matter how many creatures you attacked with or which player, planeswalker, or battle those creatures attacked.
+  - *2024-11-08* — Raid abilities evaluate the entire turn to see if you attacked with a creature. That creature doesn't have to still be on the battlefield. Similarly, the player, planeswalker, or battle it attacked doesn't have to still be in the game or on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/156/repeating-barrage) · oracle_id `a08c599e-ee75-4d2b-ae9b-0987c233dd17` · printing: XLN #156 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Repeat Offender
 
@@ -141,7 +153,13 @@
   > *"Blasted sketch artist did too good a job. Looks like it's time for me to lie low for a little while."*
 - **Keywords:** Suspect
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26644 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/101/repeat-offender) · oracle_id `4d1885d1-212e-47ae-865f-e6dc4148ddf2` · printing: MKM #101 (2024-02-09) · [rulings](https://api.scryfall.com/cards/0c2ca1e7-e0de-4d29-a81b-62185ccd295f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-02-02* — Being suspected isn't a copiable value. If a permanent becomes a copy of a suspected creature, it won't be suspected.
+  - *2024-02-02* — If a creature is already suspected, suspecting it again won't have any effect.
+  - *2024-02-02* — If a suspected creature loses all abilities, it will lose menace and "This creature can't block", but it won't stop being suspected.
+  - *2024-02-02* — There's no limit to the number of creatures that can be suspected simultaneously. Suspecting a new creature doesn't cause other creatures to stop being suspected.
+  - *2024-02-02* — When an effect suspects a creature, it becomes suspected. It gains menace and "This creature can't block" for as long as it's suspected. It stays suspected until it leaves the battlefield or another effect causes it to no longer be suspected.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/101/repeat-offender) · oracle_id `4d1885d1-212e-47ae-865f-e6dc4148ddf2` · printing: MKM #101 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Repel
 
@@ -153,6 +171,7 @@
   > *"I have a hunch we'll be seeing that one again soon."*
   > *—Ambassador Laquatus*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29113 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/89/repel) · oracle_id `6e072b3a-7a83-4d77-bae3-72de0e646b81` · printing: VMA #89 (2014-06-16) · [rulings](https://api.scryfall.com/cards/81cf7987-e478-4a76-8f5e-ef9c1bb3b30a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Repel Calamity
@@ -174,7 +193,13 @@
 - **Oracle text:**
   > Create two 1/1 white Kithkin Soldier creature tokens if {W} was spent to cast this spell. Counter up to one target creature spell if {U} was spent to cast this spell. (Do both if {W}{U} was spent.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27585 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/shm/147/repel-intruders) · oracle_id `94a241bf-5709-4890-8f06-017833869d62` · printing: SHM #147 (2008-05-02) · [rulings](https://api.scryfall.com/cards/38e64b09-1a58-4669-b7f2-baa3ccc85f2d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2008-05-01* — If you choose to target a creature spell, Repel Intruders has a target. If that target becomes illegal by the time Repel Intruders resolves, the entire spell won’t resolve. You won’t get any tokens.
+  - *2008-05-01* — You choose whether or not to target a creature spell before you decide whether or not to spend {U} on Repel Intruders. You may target a creature spell and then not spend {U} to cast Repel Intruders; if you do, Repel Intruders simply won’t affect that creature spell. Similarly, if you don’t target a creature spell but then you spend {U} to cast Repel Intruders, that part of Repel Intruders has no effect.
+  - *2016-06-08* — If this spell is copied, the copy will not have had any colors of mana paid for it, no matter what colors were spent on the original spell.
+  - *2016-06-08* — This spell cares about what mana was spent to pay its total cost, not just what mana was spent to pay the hybrid mana symbol in its cost.
+  - *2016-06-08* — This spell checks on resolution to see if any mana of the appropriate colors were spent to pay its cost. It doesn’t matter how much mana of that color was spent; the effect isn’t multiplied.
+- **Source flags:** [Scryfall](https://scryfall.com/card/shm/147/repel-intruders) · oracle_id `94a241bf-5709-4890-8f06-017833869d62` · printing: SHM #147 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Repel the Abominable
 
@@ -186,7 +211,10 @@
   > *"Fight for a better future, even if you may not live to see it."*
   > *—Grete, Order of Saint Traft*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13550 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/emn/38/repel-the-abominable) · oracle_id `ed198c68-c219-469f-b133-737b060cfbfc` · printing: EMN #38 (2016-07-22) · [rulings](https://api.scryfall.com/cards/cf153f4d-0d37-41a9-80d8-7f2adaad79c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-07-13* — If a spell or ability causes damage to be dealt, it will indicate what object deals the damage. The object dealing damage might not be the spell itself.
+  - *2016-07-13* — Sources that have no creature type at all are non-Human sources, as are sources with creature types that don’t include Human. A creature that is Human and has other types, such as a Human Werewolf, is still a Human source.
+- **Source flags:** [Scryfall](https://scryfall.com/card/emn/38/repel-the-abominable) · oracle_id `ed198c68-c219-469f-b133-737b060cfbfc` · printing: EMN #38 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Repel the Darkness
 
@@ -198,7 +226,12 @@
 - **Flavor text** (UMA printing):
   > *A boon to those who cannot see in the dark. A bane to those who live in it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20711 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/29/repel-the-darkness) · oracle_id `47f5ea79-2bf2-4e17-9c6d-e1cbcd9d30d1` · printing: UMA #29 (2018-12-07) · [rulings](https://api.scryfall.com/cards/07ced55b-27e2-4549-90e4-31c9718e1395/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-12-07* — If you target one creature and that target is illegal as Repel the Darkness resolves, the spell doesn't resolve. You don't draw a card.
+  - *2018-12-07* — If you target two creatures and they're both illegal as Repel the Darkness resolves, the spell doesn't resolve; you don't draw a card. If just one target is illegal, the spell does resolve; the remaining legal target becomes tapped (if it's untapped at that time) and you draw a card.
+  - *2018-12-07* — If you target zero creatures, all that happens is you draw a card.
+  - *2018-12-07* — You may target zero, one, or two creatures. The creatures don't need to be untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/29/repel-the-darkness) · oracle_id `47f5ea79-2bf2-4e17-9c6d-e1cbcd9d30d1` · printing: UMA #29 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Repel the Vile
 
@@ -212,6 +245,7 @@
   > *"You are a guest in this realm, and you've overstayed your welcome."*
   > *—Yui, Imperial intercessor*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19079 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/33/repel-the-vile) · oracle_id `aa108554-f1a0-45b6-aa15-597d42be7a8a` · printing: NEO #33 (2022-02-18) · [rulings](https://api.scryfall.com/cards/9a37d5b4-af3a-48b0-895f-91b652108ef6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Repentance
@@ -223,6 +257,7 @@
 - **Flavor text** (TPR printing):
   > *"The cannon wasn't aimed at you!" pleaded Vhati. "I'm not sure which is more pathetic," replied Greven, "your judgment or your aim."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15415 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/25/repentance) · oracle_id `9a345a67-0c6c-4f6f-b3c9-d525199cdbfa` · printing: TPR #25 (2015-05-06) · [rulings](https://api.scryfall.com/cards/7d02c74a-8bc7-4a4d-830b-e59a7aed5722/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Repentant Blacksmith
@@ -238,6 +273,7 @@
   > *trans. Haddawy*
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31103 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5ed/54/repentant-blacksmith) · oracle_id `a83073a2-e63d-4105-8bad-9612e411fc85` · printing: 5ED #54 (1997-03-24) · [rulings](https://api.scryfall.com/cards/b0bd3587-301e-49ea-a589-1091c880145b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Repentant Vampire
@@ -251,7 +287,9 @@
   > Threshold — As long as there are seven or more cards in your graveyard, this creature is white and has "{T}: Destroy target black creature."
 - **Keywords:** Flying, Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29843 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ody/157/repentant-vampire) · oracle_id `a5dabc98-0db9-4b4f-b2d2-f74dbd022d22` · printing: ODY #157 (2001-10-01) · [rulings](https://api.scryfall.com/cards/2c1dbad4-1105-4426-8d4d-a30f6fa95ce8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — If Threshold is met, this card is white. It is not white and black.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ody/157/repentant-vampire) · oracle_id `a5dabc98-0db9-4b4f-b2d2-f74dbd022d22` · printing: ODY #157 (2001-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Repercussion
 
@@ -309,6 +347,7 @@
   > *"Step one is innovation. Step two is production. Sometimes step one is optional."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13603 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/76/replication-specialist) · oracle_id `7ce7decb-1438-4c3d-88d2-26b0b3996b33` · printing: NEO #76 (2022-02-18) · [rulings](https://api.scryfall.com/cards/475bb3b5-b648-460c-b0ea-89ecfe0ff226/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Replication Technique
@@ -337,7 +376,9 @@
   > Cycling {2} ({2}, Discard this card: Draw a card.)
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20477 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/111/repopulate) · oracle_id `3a225d39-c1f8-4ab0-98ec-dad63bf268db` · printing: ULG #111 (1999-02-15) · [rulings](https://api.scryfall.com/cards/aac77869-97bc-4976-9ee0-3d60e162b78a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/111/repopulate) · oracle_id `3a225d39-c1f8-4ab0-98ec-dad63bf268db` · printing: ULG #111 (1999-02-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Repository Skaab
 
@@ -351,6 +392,7 @@
   > *Created to capture the spark of genius for later use.*
 - **Keywords:** Exploit
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14029 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/73/repository-skaab) · oracle_id `7932ddef-b274-4f56-be7f-72e82d17fc59` · printing: VOW #73 (2021-11-19) · [rulings](https://api.scryfall.com/cards/7cc22c2a-535a-46b5-817c-da5850abd669/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reprieve
@@ -377,6 +419,7 @@
   > *"A tiny flame is enough to dispel the night."*
   > *—Elspeth*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20819 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/23/reprisal) · oracle_id `fae90808-bafa-44d8-972a-17ded87576ee` · printing: JOU #23 (2014-05-02) · [rulings](https://api.scryfall.com/cards/343baad1-dd58-4d64-9b0a-258618094ceb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reprobation
@@ -407,7 +450,9 @@
 - **Flavor text** (TD2 printing):
   > *Everything will find its use in Phyrexia. Eventually.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9911 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/td2/77/reprocess) · oracle_id `27177cb0-1670-488e-82be-4610da5a7de3` · printing: TD2 #77 (2011-05-14) · [rulings](https://api.scryfall.com/cards/6c041d8a-0bce-4f5b-904e-ba98bfe7c50a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You can sacrifice zero permanents if you want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/td2/77/reprocess) · oracle_id `27177cb0-1670-488e-82be-4610da5a7de3` · printing: TD2 #77 (2011-05-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reptil, Dinomorpher
 
@@ -419,6 +464,7 @@
   > Tyrannosaurus Rex — {6}: Until end of turn, Reptil becomes a Dinosaur Hero with base power and toughness 6/6 and gains trample.
 - **Keywords:** Brontosaurus, Tyrannosaurus Rex
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24775 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/182/reptil-dinomorpher) · oracle_id `c6284597-1983-4a21-a461-724135220e0d` · printing: MSH #182 (2026-06-26) · [rulings](https://api.scryfall.com/cards/472db3f2-23df-46c1-86c6-f35fbe5ab4e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reptilian Recruiter
@@ -431,7 +477,9 @@
   > When this creature enters, choose target creature. If that creature's power is 2 or less or if you control another Lizard, gain control of that creature until end of turn, untap it, and it gains haste until end of turn.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14448 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/149/reptilian-recruiter) · oracle_id `a12a66b5-ea4a-4a58-b0f0-13152598b7e6` · printing: BLB #149 (2024-08-02) · [rulings](https://api.scryfall.com/cards/81dec453-c9d7-42cb-980a-c82f82bede76/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-26* — You can target any creature with Reptilian Recruiter’s triggered ability. Whether or not the ability does anything when it resolves will depend on whether that creature’s power is 2 or less or if you control another Lizard at the time the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/149/reptilian-recruiter) · oracle_id `a12a66b5-ea4a-4a58-b0f0-13152598b7e6` · printing: BLB #149 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reptilian Reflection
 
@@ -442,7 +490,11 @@
 - **Flavor text** (IKO printing):
   > *Danger often lurks in the allure of crystal shards.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27901 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/132/reptilian-reflection) · oracle_id `73f6619c-9d92-434e-9f06-52e0ff15cb5e` · printing: IKO #132 (2020-04-24) · [rulings](https://api.scryfall.com/cards/7871b4dd-9085-4a3f-a1ae-9a292f73689b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-04-17* — Some cards with cycling have an ability that triggers when you cycle them, and some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
+  - *2020-04-17* — Triggered abilities from cycling a card and the cycling ability itself aren’t spells. Effects that interact with spells (such as that of Cancel) won’t affect them.
+  - *2020-04-17* — You can cycle a card even if it has a triggered ability from cycling that won’t have a legal target. This is because the cycling ability and the triggered ability are separate. This also means that if either ability is countered (with Disallow, for example), the other ability will still resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/132/reptilian-reflection) · oracle_id `73f6619c-9d92-434e-9f06-52e0ff15cb5e` · printing: IKO #132 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Repudiate // Replicate
 
@@ -511,6 +563,7 @@
   > *"Mind if I cut in?"*
 - **Keywords:** Teamwork
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19704 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/150/repulsor-blast) · oracle_id `150f920c-c942-4feb-824f-79dd9b531687` · printing: MSH #150 (2026-06-26) · [rulings](https://api.scryfall.com/cards/837265b0-fc15-4d96-9d6b-fd1c78534262/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Repulsor Bots
@@ -526,6 +579,7 @@
   > *—Iron Man, Tony Stark*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22077 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/532/repulsor-bots) · oracle_id `facc26d5-bb53-4f91-9b8c-73bf4dd44fcd` · printing: MSC #532 (2026-06-26) · [rulings](https://api.scryfall.com/cards/a9982511-0486-4d23-9932-78dc52f846f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Repulsor Rays
@@ -538,6 +592,7 @@
   > *"Negotiations have failed. Time to take matters into my own hands."*
   > *—Iron Man, Tony Stark*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24246 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/854/repulsor-rays) · oracle_id `053a90b8-61b1-4390-afc0-c5eaef0138a9` · printing: MSC #854 (2026-06-26) · [rulings](https://api.scryfall.com/cards/a47c9cb7-1b7d-4e89-8d4a-79dc515ac858/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Repurposed Enforcer
@@ -551,7 +606,12 @@
   > *A face half remembered, a form fit to serve.*
 - **Keywords:** Surveil, Empower Jace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20799 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/19/repurposed-enforcer) · oracle_id `b775a404-ec0a-47ff-bb9d-eae2273d945b` · printing: FRA #19 (2026-10-02) · [rulings](https://api.scryfall.com/cards/35000e93-85d3-44f8-976a-5918ee4c71e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2026-08-21* — Empower Jace won't let you put loyalty counters on nontoken Jace planeswalkers. However, if you control a Jace planeswalker token that you got another way (such as an effect that creates a token that's a copy of a permanent), empower Jace will put loyalty counters on that.
+  - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
+  - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
+  - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/19/repurposed-enforcer) · oracle_id `b775a404-ec0a-47ff-bb9d-eae2273d945b` · printing: FRA #19 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Repurposing Bay
 
@@ -576,4 +636,5 @@
 - **Flavor text** (TDM printing):
   > *"Dried durian from the Marang River Valley! Candied cherries from the slopes of Cori! Genuine dragon scale cookware!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24444 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/217/reputable-merchant) · oracle_id `62f09a5b-d7fb-44f4-9fab-719185b735ab` · printing: TDM #217 (2025-04-11) · [rulings](https://api.scryfall.com/cards/b7d0591e-7fb7-40ea-ba2a-cfe544d40216/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -32,7 +32,10 @@
 - **Flavor text** (RNA printing):
   > *The Rakdos put the "fun" in "funeral."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17875 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/191/macabre-mockery) · oracle_id `d66f7ee7-e9a1-4714-b79c-8c86c6b6d5dc` · printing: RNA #191 (2019-01-25) · [rulings](https://api.scryfall.com/cards/9c1aee37-dcee-4e58-be9b-81ca57cedb53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-01-25* — If you cast Macabre Mockery during a player’s end step, the creature will remain on the battlefield until the next turn’s end step. However, the +2/+0 and haste wear off during the cleanup step (which comes after the end step) of the turn in which Macabre Mockery resolved.
+  - *2019-01-25* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, the creature you control from Macabre Mockery’s effect is exiled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/191/macabre-mockery) · oracle_id `d66f7ee7-e9a1-4714-b79c-8c86c6b6d5dc` · printing: RNA #191 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Macabre Reconstruction
 
@@ -45,6 +48,7 @@
   > *"Eyewitness testimony, coming right up! Just let me finish regenerating their eyes."*
   > *—Nelo, Agency coroner*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15559 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/93/macabre-reconstruction) · oracle_id `04633ecd-eac0-426a-83a5-8e88262fca30` · printing: MKM #93 (2024-02-09) · [rulings](https://api.scryfall.com/cards/abb6184c-e3d0-4275-b25b-95e4a64b26f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Macabre Waltz
@@ -101,6 +105,7 @@
   > *The goblins tracked the hystrodon with much stealth and cunning. Then they were eaten with much pain and yelling.*
 - **Keywords:** First strike, Haste, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28224 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/130/macetail-hystrodon) · oracle_id `2f1e2742-d7df-4893-abc8-cb927c500569` · printing: DMR #130 (2023-01-13) · [rulings](https://api.scryfall.com/cards/c750f7d7-25b8-433f-b3a8-0d842b99276f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### MACH-1, Swooping Scoundrel
@@ -115,6 +120,7 @@
   > *He's an ace pilot and fighter jet, all in one.*
 - **Keywords:** Flying, Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25881 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/662/mach-1-swooping-scoundrel) · oracle_id `75810ce7-328c-4512-8e36-fd3badbd3997` · printing: MSC #662 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f3933900-a6f7-411c-be2a-96fe7c28f972/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ma Chao, Western Warrior
@@ -127,7 +133,9 @@
   > Whenever Ma Chao attacks alone, it can't be blocked this combat.
 - **Keywords:** Horsemanship
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27333 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ptk/116/ma-chao-western-warrior) · oracle_id `023e26d8-b67d-43dd-89b1-8905b1183094` · printing: PTK #116 (1999-05-01) · [rulings](https://api.scryfall.com/cards/39b8cf7f-8c40-40e9-8118-e8626c3c6433/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ptk/116/ma-chao-western-warrior) · oracle_id `023e26d8-b67d-43dd-89b1-8905b1183094` · printing: PTK #116 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Machinate
 
@@ -138,6 +146,7 @@
 - **Flavor text** (DST printing):
   > *As long as there are questions to be asked, the vedalken will ask them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20899 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dst/24/machinate) · oracle_id `545399a0-f1f5-40bc-bd40-038946df8ad7` · printing: DST #24 (2004-02-06) · [rulings](https://api.scryfall.com/cards/49e815b3-373c-4b2e-beb5-c894a52ffdea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Machine God's Effigy
@@ -174,6 +183,7 @@
 - **Flavor text** (MSC printing):
   > *"They made me in their own image, then condemned me to death for being too human."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25559 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/751/machine-man-model-x-51) · oracle_id `853587be-9709-43a4-81c9-5b6dabe523cf` · printing: MSC #751 (2026-06-26) · [rulings](https://api.scryfall.com/cards/b15fcd0a-ad2a-4265-a4f6-c11d361ad686/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Machine Over Matter
@@ -186,6 +196,7 @@
 - **Flavor text** (BRO printing):
   > *The Warlord decreed that only someone who could move the statue would be strong enough to marry the princess. So Urza moved it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15113 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/57/machine-over-matter) · oracle_id `37069c66-c17a-40ac-80f4-14ef49d18008` · printing: BRO #57 (2022-11-18) · [rulings](https://api.scryfall.com/cards/d08eadf5-a86d-4e8d-b65d-79b4f88477b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Machinesmith Automaton
@@ -201,6 +212,7 @@
   > *—Machinesmith, Samuel Saxon*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16515 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/144/machinesmith-automaton) · oracle_id `945e8443-9647-4eab-b091-ee8e7bc347f5` · printing: MSH #144 (2026-06-26) · [rulings](https://api.scryfall.com/cards/802e663e-9529-46da-8af4-eb9ca07971b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Machinist's Arsenal

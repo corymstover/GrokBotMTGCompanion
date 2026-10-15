@@ -42,6 +42,7 @@
   > *"I've done far worse than kill you. I've hurt you, and I wish to go on hurting you."*
   > *—Khan Noonien Singh*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31764 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/154/khaaaaaaaaaaaannn!) · oracle_id `45b1a19b-6a0c-4534-9106-99c2e5fc30d6` · printing: TRK #154 (2026-11-13) · [rulings](https://api.scryfall.com/cards/22c60c17-74ec-460b-bf7a-e56e42239826/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Khabál Ghoul
@@ -52,7 +53,9 @@
 - **Oracle text:**
   > At the beginning of each end step, put a +1/+1 counter on this creature for each creature that died this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27474 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me1/75/khab%C3%A1l-ghoul) · oracle_id `cb558dda-0c05-426d-aedc-bc07cc54db76` · printing: ME1 #75 (2007-09-10) · [rulings](https://api.scryfall.com/cards/98f443cb-55bb-4e83-826a-98261287bfd3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-09-16* — The effect counts all creatures put into all graveyards from the battlefield during the turn. This includes creature tokens put into a graveyard as well as creatures put into a graveyard before Khabál Ghoul entered the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me1/75/khab%C3%A1l-ghoul) · oracle_id `cb558dda-0c05-426d-aedc-bc07cc54db76` · printing: ME1 #75 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Khalni Ambush // Khalni Territory
 
@@ -105,7 +108,9 @@
 - **Flavor text** (ZEN printing):
   > *A fragment of ancient power lost in the heart of Ora Ondar.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16467 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/zen/205/khalni-gem) · oracle_id `b0a96e47-91da-43ee-93dd-f866721029c6` · printing: ZEN #205 (2009-10-02) · [rulings](https://api.scryfall.com/cards/8b5f6b2b-8d98-4609-b991-a69523b5a07d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — If you don’t control any lands by the time Khalni Gem’s triggered ability resolves, nothing happens. If you control just one, you’ll have to return it to its owner’s hand. Khalni Gem isn’t affected in either case.
+- **Source flags:** [Scryfall](https://scryfall.com/card/zen/205/khalni-gem) · oracle_id `b0a96e47-91da-43ee-93dd-f866721029c6` · printing: ZEN #205 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Khalni Heart Expedition
 
@@ -135,7 +140,11 @@
   > *—Moruul, Khalni druid*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14225 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/roe/192/khalni-hydra) · oracle_id `d4649dd8-9a30-4f7e-8b9d-8edee8b2dbd7` · printing: ROE #192 (2010-04-23) · [rulings](https://api.scryfall.com/cards/7d27a00e-4402-4410-bab7-ccb34a0de72f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2010-06-15* — For the purpose of determining the cost reduction, the number of green creatures you control is checked as you cast Khalni Hydra, before your last chance to activate mana abilities to pay for it. For example, if you control Wild Cantor (a red and green creature with the ability "Sacrifice Wild Cantor: Add one mana of any color.") as you cast Khalni Hydra, first the cost to cast Khalni Hydra is reduced by {G}, then you could sacrifice Wild Cantor for mana to help pay for it.
+  - *2010-06-15* — If an effect (such as the one from Lodestone Golem) imposes an additional generic mana cost to casting Khalni Hydra, the Hydra's ability will reduce it too. It'll reduce the amount of green mana you need to spend first, though.
+  - *2010-06-15* — Khalni Hydra's cost reduction effect doesn't change its mana cost or mana value.
+- **Source flags:** [Scryfall](https://scryfall.com/card/roe/192/khalni-hydra) · oracle_id `d4649dd8-9a30-4f7e-8b9d-8edee8b2dbd7` · printing: ROE #192 (2010-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kharis & The Beholder
 
@@ -151,7 +160,9 @@
   > *#sponsored*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ph18/1/kharis-&-the-beholder) · oracle_id `329f84dd-889c-4d03-a0bb-d96712ebcad8` · printing: PH18 #1 (2019-08-01) · [rulings](https://api.scryfall.com/cards/8dd4d771-366c-4d81-875d-7ba9f1f00320/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ph18/1/kharis-&-the-beholder) · oracle_id `329f84dd-889c-4d03-a0bb-d96712ebcad8` · printing: PH18 #1 (2019-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Khârn the Betrayer
 
@@ -184,6 +195,7 @@
   > *—Tah-crop charioteer motto*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14469 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/201/khenra-charioteer) · oracle_id `e75bc5df-f4a4-45af-a6fd-2711b98dd521` · printing: AKH #201 (2017-04-28) · [rulings](https://api.scryfall.com/cards/8ab1454e-3c69-4450-bd4c-934af2ff2bcb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Khenra Eternal
@@ -197,7 +209,12 @@
   > *For many years, servant mummies toiled in the mines to extract lazotep. The emergence of the Eternals revealed the sacred substance's true purpose.*
 - **Keywords:** Afflict
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24982 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/66/khenra-eternal) · oracle_id `91b46b22-8062-434b-8432-5ed1062ccaf9` · printing: HOU #66 (2017-07-14) · [rulings](https://api.scryfall.com/cards/abbdc277-4a76-44a9-aeda-edabab1f579e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2017-07-14* — Afflict causes the defending player to lose life; it's not damage or combat damage.
+  - *2017-07-14* — Afflict resolves before combat damage is dealt. If this loss of life brings a player to 0 life or less, that player loses the game immediately. A blocking creature with lifelink won't deal combat damage in time to save that player.
+  - *2017-07-14* — If multiple creatures block a creature with afflict, afflict triggers only once.
+  - *2023-07-28* — If a creature is attacking a planeswalker, that planeswalker's controller is the defending player. If a creature is attacking a battle, that battle's protector is the defending player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/66/khenra-eternal) · oracle_id `91b46b22-8062-434b-8432-5ed1062ccaf9` · printing: HOU #66 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Khenra Scrapper
 
@@ -211,7 +228,12 @@
   > *"There is no tomorrow, so hold nothing back."*
 - **Keywords:** Menace, Exert
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28308 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/100/khenra-scrapper) · oracle_id `6ab8958b-10a2-4601-a609-7a372a47f36c` · printing: HOU #100 (2017-07-14) · [rulings](https://api.scryfall.com/cards/e5d4caac-95e8-47bb-90c4-3bf877afdc57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2017-04-18* — All cards in the Amonkhet set that let you exert a creature let you do so as you declare it as an attacking creature, as do some of the cards in the Hour of Devastation set. You can’t do so later in combat, and creatures put onto the battlefield attacking can’t be exerted. Any abilities that trigger on exerting an attacking creature will resolve before blockers are declared.
+  - *2017-04-18* — If an exerted creature is already untapped during your next untap step (most likely because it had vigilance or an effect untapped it), exert’s effect preventing it from untapping expires without having done anything.
+  - *2017-04-18* — If you gain control of another player’s creature until end of turn and exert it, it will untap during that player’s untap step.
+  - *2017-04-18* — You can’t exert a creature unless an effect allows you to do so. Similar effects that “tap and freeze” a creature (such as that of Decision Paralysis) don’t exert that creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/100/khenra-scrapper) · oracle_id `6ab8958b-10a2-4601-a609-7a372a47f36c` · printing: HOU #100 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Khenra Spellspear // Gitaxian Spellstalker
 
@@ -229,6 +251,7 @@
   > *—Jin-Gitaxias*
 - **Keywords:** Prowess, Transform, Trample, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12793 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/151/khenra-spellspear-gitaxian-spellstalker) · oracle_id `f08d8fc5-c7fb-4913-92fc-06a0d4311d71` · printing: MOM #151 (2023-04-21) · [rulings](https://api.scryfall.com/cards/dc1454ce-bb49-4b4f-bbca-d77387fa4966/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kher Keep
@@ -256,7 +279,9 @@
 - **Flavor text** (KTK printing):
   > *It stares through the empty, pain-twisted faces of those it has drained.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22379 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/75/kheru-bloodsucker) · oracle_id `511e35cd-2e19-4803-a404-b790af0cea60` · printing: KTK #75 (2014-09-26) · [rulings](https://api.scryfall.com/cards/baf15cd4-13be-48e7-b3f5-a5106eb02c45/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-09-20* — Kheru Bloodsucker’s triggered ability will trigger when it dies if its toughness is 4 or greater.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/75/kheru-bloodsucker) · oracle_id `511e35cd-2e19-4803-a404-b790af0cea60` · printing: KTK #75 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kheru Dreadmaw
 
@@ -270,7 +295,9 @@
   > *Its hunting instincts have long since rotted away. Its hunger, however, remains.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26254 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/76/kheru-dreadmaw) · oracle_id `8c8c9f16-a3d0-49f2-a95b-dfef756de0b3` · printing: KTK #76 (2014-09-26) · [rulings](https://api.scryfall.com/cards/e8b10468-18b8-4321-a791-0cbd18ea9c4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-09-20* — Use the toughness of the creature as it last existed on the battlefield to determine how much life you gain.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/76/kheru-dreadmaw) · oracle_id `8c8c9f16-a3d0-49f2-a95b-dfef756de0b3` · printing: KTK #76 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kheru Goldkeeper
 
@@ -296,7 +323,15 @@
 - **Oracle text:**
   > At the beginning of your upkeep, you may pay {2}{B}. If you do, return a creature card at random from your graveyard to the battlefield. It gains flying, trample, and haste. Exile that card at the beginning of your next end step. If it would leave the battlefield, exile it instead of putting it anywhere else.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27371 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/182/kheru-lich-lord) · oracle_id `7e4cbfd1-2393-4643-bc05-022d06b30210` · printing: KTK #182 (2014-09-26) · [rulings](https://api.scryfall.com/cards/e7fbca8d-34a3-4df1-986a-36fca142a758/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2014-09-20* — Because the ability doesn’t target any creature card, any creature card (including Kheru Lich Lord itself) put into the graveyard in response to that ability may be returned to the battlefield.
+  - *2014-09-20* — If a creature card returned to the battlefield with Kheru Lich Lord would leave the battlefield for any reason, it’s exiled instead. However, if that creature is already being exiled, then the replacement effect won’t apply. If the spell or ability that exiles it later returns it to the battlefield (as Suspension Field might, for example), the creature card will return to the battlefield as a new object with no relation to its previous existence. The effects from Kheru Lich Lord will no longer apply to it.
+  - *2014-09-20* — Kheru Lich Lord grants flying, trample, and haste to the creature that’s returned to the battlefield. However, neither of the “exile” abilities is granted to that creature. If that creature loses all its abilities, it will still be exiled at the beginning of your next end step, and if it would leave the battlefield, it is still exiled instead.
+  - *2014-09-20* — The ability that exiles the card at the beginning of your next end step is a delayed triggered ability. If the delayed triggered ability is countered, the creature will stay on the battlefield and the ability won’t trigger again. However, the replacement effect will still exile the creature when it eventually leaves the battlefield.
+  - *2014-09-20* — The creature card returned to the battlefield is chosen at random as the ability resolves. If any player responds to the ability, that player won’t yet know what card will be returned.
+  - *2014-09-20* — The exiled creature is never put into the graveyard. Any abilities the creature has that trigger when it dies won’t trigger.
+  - *2014-09-20* — You decide whether to pay {2}{B} as the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/182/kheru-lich-lord) · oracle_id `7e4cbfd1-2393-4643-bc05-022d06b30210` · printing: KTK #182 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kheru Mind-Eater
 
@@ -309,7 +344,13 @@
   > You may look at cards exiled with this creature, and you may play lands and cast spells from among those cards.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17141 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c17/17/kheru-mind-eater) · oracle_id `dfea918b-5702-4c12-ba36-e6aa4ace09c7` · printing: C17 #17 (2017-08-25) · [rulings](https://api.scryfall.com/cards/e6246cf3-76bd-476b-9cd9-789b6ad48887/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-08-25* — If another player gains control of Kheru Mind-Eater, that player can see all of the exiled cards and may play them. Once a player looks at a face-down exiled card, that player may look at that card any time later in the game.
+  - *2017-08-25* — Once you begin to cast an exiled card, losing control of Kheru Mind-Eater won’t affect the spell.
+  - *2017-08-25* — The last ability of Kheru Mind-Eater only lets you cast cards exiled by that card. If Kheru Mind-Eater leaves the battlefield, the exiled cards are lost forever.
+  - *2017-08-25* — You may play land cards exiled with Kheru Mind-Eater only if you have an available land play this turn.
+  - *2017-08-25* — You must pay the costs to cast the exiled cards. If one has an alternative cost, you may cast it for that cost instead.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c17/17/kheru-mind-eater) · oracle_id `dfea918b-5702-4c12-ba36-e6aa4ace09c7` · printing: C17 #17 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kheru Spellsnatcher
 
@@ -345,6 +386,7 @@
   > All lands are Islands in addition to their other types.
   > Other Homarids, Camarids, Cephalids, Nautilids, and Merfolk you control get +1/+1.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/24/khod-etlan-shiis-envoy) · oracle_id `577e85a9-a24c-44f9-99dc-0a0533f5b032` · printing: CMB2 #24 (2021-08-20) · [rulings](https://api.scryfall.com/cards/f17671ec-7ace-4a16-a135-4dfe21995c14/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Khorvath Brightflame
@@ -358,7 +400,17 @@
   > Knights your team controls have flying and haste.
 - **Keywords:** Flying, Partner with, Haste, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17266 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner, Partner with
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/9/khorvath-brightflame) · oracle_id `b96b1341-0c15-4816-be2d-5cc98b2afb63` · printing: BBD #9 (2018-06-08) · [rulings](https://api.scryfall.com/cards/5fa0404b-757a-4aee-bcd8-6150938d0fba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2018-06-08* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2018-06-08* — Both commanders start in the command zone, and the remaining 98 cards of your deck are shuffled to become your library.
+  - *2018-06-08* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders’ combined color identities. If Khorvath and Sylvia are your commanders, your deck may contain cards with red and/or white in their color identity, but not blue, black, or green.
+  - *2018-06-08* — Note that the target player searches their library (which may be affected by effects such as that of Stranglehold) and that the card they find is revealed, even though these words aren’t included in the ability’s reminder text.
+  - *2018-06-08* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from one of them, not from both of them combined. Command Beacon’s effect puts one into your hand from the command zone, not both.
+  - *2018-06-08* — The second ability represented by the “partner with [name]” keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with “partner with [name]” is designated as your commander, the named legendary creature card can also be designated as your commander. For more information on the Commander variant, please visit Wizards.com/Commander.
+  - *2018-06-08* — The triggered ability of the “partner with” keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player who might have that card in their library.
+  - *2018-06-08* — To have two commanders, both must have the partner ability (featured in the Magic: The Gathering—Commander™ (2016 Edition) set) or corresponding “partner with” abilities as the game begins. A creature with a “partner with” ability can’t partner with any creature other than its designated partner. Losing a partner ability during the game doesn’t cause either to cease to be your commander.
+  - *2018-06-08* — “Partner with [name]” represents two abilities. The first is a triggered ability: “When this permanent enters the battlefield, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle their library.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/9/khorvath-brightflame) · oracle_id `b96b1341-0c15-4816-be2d-5cc98b2afb63` · printing: BBD #9 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Khorvath's Fury
 

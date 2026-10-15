@@ -54,7 +54,9 @@
 - **Flavor text** (FDN printing):
   > *She had always believed in the transformative powers of great literature.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21916 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/228/mild-mannered-librarian) · oracle_id `fb7070ab-c234-4d54-8cdc-caf106bf24a6` · printing: FDN #228 (2024-11-15) · [rulings](https://api.scryfall.com/cards/5389663a-fe25-41b9-8c92-1f4d7721ffc2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-02* — As Mild-Mannered Librarian's last ability resolves, it loses its other creature types and becomes a Werewolf. It's no longer a Human.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/228/mild-mannered-librarian) · oracle_id `fb7070ab-c234-4d54-8cdc-caf106bf24a6` · printing: FDN #228 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Miles Morales // Ultimate Spider-Man
 
@@ -97,6 +99,7 @@
   > Whenever a Vehicle you control enters, draw a card if it has flying. Otherwise, put a flying counter on it.
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11527 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2085/miles-tails-prower) · oracle_id `98dd8231-5679-404a-b976-0bbfa6a8493c` · printing: SLD #2085 (2025-07-14) · [rulings](https://api.scryfall.com/cards/7d4bd7e1-9861-4f8a-9ad5-a41aeaee1928/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Militant Angel
@@ -109,6 +112,7 @@
   > When this creature enters, create a number of 2/2 white Knight creature tokens with vigilance equal to the number of opponents you attacked this turn.
 - **Keywords:** Flying, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25249 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gnt/1/militant-angel) · oracle_id `ad645324-204a-49d2-b128-f98eee7c9bb9` · printing: GNT #1 (2018-11-16) · [rulings](https://api.scryfall.com/cards/762fa38f-a760-4e84-bdd5-c14cbc21db72/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Militant Inquisitor
@@ -121,7 +125,10 @@
 - **Flavor text** (SOI printing):
   > *"I am an instrument of the church wielded against Avacyn's enemies."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24177 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/26/militant-inquisitor) · oracle_id `d1e326e8-6e9e-4dbd-8c2f-0bef90db2bb7` · printing: SOI #26 (2016-04-08) · [rulings](https://api.scryfall.com/cards/68d99f1f-80d6-4b5e-aeae-83fb8ae62cdc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-04-08* — Militant Inquisitor's ability applies in addition to any effects from those Equipment that are attached to it.
+  - *2016-04-08* — Militant Inquisitor's ability counts all Equipment you control, regardless of whether they're attached to a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/26/militant-inquisitor) · oracle_id `d1e326e8-6e9e-4dbd-8c2f-0bef90db2bb7` · printing: SOI #26 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Militant Monk
 
@@ -133,6 +140,7 @@
   > {T}: Prevent the next 1 damage that would be dealt to any target this turn.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31465 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/9/militant-monk) · oracle_id `29c0a904-43e3-44c3-8e00-deea523de8eb` · printing: TOR #9 (2002-02-04) · [rulings](https://api.scryfall.com/cards/886a3cfd-7f83-480a-bb22-eec67ad35e4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Military Discipline
@@ -146,6 +154,7 @@
   > Enchanted creature gets +1/+0.
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19204 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/17/military-discipline) · oracle_id `c910c1c0-2b78-4e0f-bb55-e0581b2e07e8` · printing: BRO #17 (2022-11-18) · [rulings](https://api.scryfall.com/cards/94778e17-87c4-4765-b2f0-40455069f2c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Military Intelligence
@@ -172,6 +181,7 @@
   > When this creature enters, look at the top four cards of your library. You may reveal a creature card with power 2 or less from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14829 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/19/militia-bugler) · oracle_id `edb6ae9e-a41c-4d82-97bf-4be00e98364c` · printing: 2X2 #19 (2022-07-08) · [rulings](https://api.scryfall.com/cards/5fe9413b-5702-4998-aed7-d3a1102a8d7e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Militia Rallier
@@ -185,7 +195,11 @@
 - **Flavor text** (VOW printing):
   > *"We can wait like helpless children for a hero, or we can gather our courage and \*be\* the heroes. Who's with me?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26514 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/24/militia-rallier) · oracle_id `d5377597-3454-4636-8563-7e6a5544e36a` · printing: VOW #24 (2021-11-19) · [rulings](https://api.scryfall.com/cards/51b3ff40-3185-4369-985e-17613bb6ad22/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-11-19* — All attackers are chosen at once. You can't attack with Militia Rallier, untap a tapped creature, then attack with that creature.
+  - *2021-11-19* — Untapping an attacking creature doesn't remove it from combat.
+  - *2021-11-19* — You may target an untapped creature with this ability. For example, if all of your creatures have vigilance, you aren't forced to untap an opponent's creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/24/militia-rallier) · oracle_id `d5377597-3454-4636-8563-7e6a5544e36a` · printing: VOW #24 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Militia's Pride
 
@@ -196,7 +210,13 @@
 - **Flavor text** (LRW printing):
   > *If you pick a fight with one kithkin, be ready to fight them all.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17203 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/30/militias-pride) · oracle_id `d311154b-4742-49e5-9b65-4de2d3e0d50b` · printing: LRW #30 (2007-10-12) · [rulings](https://api.scryfall.com/cards/53c8cde1-e447-422e-aed0-2571a77d3d29/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2007-10-01* — The token enters attacking. It doesn't trigger "when a creature attacks" triggers and is not subject to restrictions on declaring attackers.
+  - *2007-10-01* — You choose which player or planeswalker the token is attacking. It doesn't have to attack the same player or planeswalker as the creature that caused the ability to trigger.
+  - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
+  - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
+  - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/30/militias-pride) · oracle_id `d311154b-4742-49e5-9b65-4de2d3e0d50b` · printing: LRW #30 (2007-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Millennial Gargoyle
 
@@ -210,6 +230,7 @@
   > *—Iveta, rooftop runner*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29561 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/239/millennial-gargoyle) · oracle_id `fe07a23a-e526-4277-8c39-6bae5355f0d4` · printing: BBD #239 (2018-06-08) · [rulings](https://api.scryfall.com/cards/068e7803-7c9f-43d7-b6dc-8e1390d902d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Millicent, Restless Revenant
@@ -223,6 +244,7 @@
   > Whenever Millicent or another nontoken Spirit you control dies or deals combat damage to a player, create a 1/1 white Spirit creature token with flying.
 - **Keywords:** Flying, Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11123 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/1/millicent-restless-revenant) · oracle_id `71766a05-62a5-4839-b9bf-f5dcde710251` · printing: VOC #1 (2021-11-19) · [rulings](https://api.scryfall.com/cards/2b86b538-0766-440d-a2cd-f5d5bfcfb010/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Millikin
@@ -250,4 +272,8 @@
   > *Minds, like mountains, are never so grand and mighty that they can't be reduced to dust.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12509 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/242/millstone) · oracle_id `3212e47a-5492-4c50-9d4a-6ea562f1a6e1` · printing: M19 #242 (2018-07-13) · [rulings](https://api.scryfall.com/cards/c2051fd0-99cf-4e11-a625-8294e6767e5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — Can be used on a player with less than 2 cards in their library. It will remove 0 or 1 cards if that is all that is available.
+  - *2004-10-04* — It is not a draw effect so it will not cause a player with less than 2 cards in their library to lose.
+  - *2004-10-04* — Since you are putting more than one card in the graveyard at one time, the affected player can choose the order the 2 cards go in.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/242/millstone) · oracle_id `3212e47a-5492-4c50-9d4a-6ea562f1a6e1` · printing: M19 #242 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

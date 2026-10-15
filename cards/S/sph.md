@@ -71,7 +71,9 @@
   > This artifact enters with X void counters on it.
   > At the beginning of your upkeep, exile this artifact, all creatures and planeswalkers with mana value less than or equal to the number of void counters on it, and all creature and planeswalker cards in graveyards with mana value less than or equal to the number of void counters on it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20677 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/121/sphere-of-annihilation) · oracle_id `b96399f9-c0ba-4507-be13-65cf716b7757` · printing: AFR #121 (2021-07-23) · [rulings](https://api.scryfall.com/cards/3d2315a9-584b-4c59-af43-dd38bcb6c322/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-07-23* — If a permanent on the battlefield or a card in a graveyard has {X} in its mana cost, X is 0 when determining that card's mana value.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/121/sphere-of-annihilation) · oracle_id `b96399f9-c0ba-4507-be13-65cf716b7757` · printing: AFR #121 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphere of Duty
 
@@ -82,6 +84,7 @@
 - **Flavor text** (ODY printing):
   > *Duty subdues instinct.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29035 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/48/sphere-of-duty) · oracle_id `c1612eef-5059-46fd-a5fd-c8ebf6779a6e` · printing: ODY #48 (2001-10-01) · [rulings](https://api.scryfall.com/cards/4bdcd0de-6466-488c-a882-bad80c86504d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphere of Grace
@@ -93,6 +96,7 @@
 - **Flavor text** (ODY printing):
   > *Grace repels darkness.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29014 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/49/sphere-of-grace) · oracle_id `e45de1f7-ad45-494d-855e-3e11f109909d` · printing: ODY #49 (2001-10-01) · [rulings](https://api.scryfall.com/cards/d5b49d82-6d11-4294-a367-0b5b45c05e44/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphere of Law
@@ -104,6 +108,7 @@
 - **Flavor text** (ODY printing):
   > *Law smothers anarchy.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27919 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/50/sphere-of-law) · oracle_id `a8da7c57-c60f-42b1-b611-64a0a43295f2` · printing: ODY #50 (2001-10-01) · [rulings](https://api.scryfall.com/cards/f3451ddf-efec-474b-884c-64288e5552d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphere of Purity
@@ -115,6 +120,7 @@
 - **Flavor text** (MRD printing):
   > *Purity rejects artifice.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30843 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/26/sphere-of-purity) · oracle_id `790d3ee2-8b93-464c-9b16-afe62db0048c` · printing: MRD #26 (2003-10-02) · [rulings](https://api.scryfall.com/cards/392944d5-bff1-4125-86db-68d05682a430/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphere of Reason
@@ -126,6 +132,7 @@
 - **Flavor text** (ODY printing):
   > *Reason exposes deception.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30165 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/51/sphere-of-reason) · oracle_id `de85c961-622d-4d70-8cd7-f722c1ac5ed1` · printing: ODY #51 (2001-10-01) · [rulings](https://api.scryfall.com/cards/76ef2016-b3c8-4615-a056-3000bcccb68e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphere of Resistance
@@ -162,6 +169,7 @@
   > This artifact enters tapped and with three charge counters on it.
   > {T}, Remove a charge counter from this artifact: Add one mana of any color.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14300 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/231/sphere-of-the-suns) · oracle_id `7c709413-dacf-48af-8ac9-8f61b2699bf1` · printing: MM2 #231 (2015-05-22) · [rulings](https://api.scryfall.com/cards/971f7dd0-290f-4ba4-aa2d-29ff148e7778/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphere of Truth
@@ -173,6 +181,7 @@
 - **Flavor text** (ODY printing):
   > *Truth tempers fanaticism.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30088 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/52/sphere-of-truth) · oracle_id `e6325604-cdce-4872-af03-e436631004de` · printing: ODY #52 (2001-10-01) · [rulings](https://api.scryfall.com/cards/7c3de9f5-a05c-4341-a2c2-a1a475d400fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx Ambassador
@@ -185,7 +194,12 @@
   > Whenever this creature deals combat damage to a player, search that player's library for a card, then that player chooses a card name. If you searched for a creature card that doesn't have that name, you may put it onto the battlefield under your control. Then that player shuffles.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10016 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m10/73/sphinx-ambassador) · oracle_id `69e1a166-02f7-43f8-b099-dbb01034370c` · printing: M10 #73 (2009-07-17) · [rulings](https://api.scryfall.com/cards/b0937274-d5cb-4790-8c10-804f537c5581/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2009-10-01* — A “creature card” is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards.
+  - *2009-10-01* — After the player names a card, check if the card you chose has that name. If it doesn’t, but it’s a creature card, you may put it onto the battlefield. If you don’t want to put that card onto the battlefield, it’s not a creature card, or it does have the name the player said, it simply stays in that player’s library without ever being revealed. The player then shuffles their library, including that card.
+  - *2009-10-01* — Once you’ve chosen a card during your search, you must clearly indicate which card you’ve chosen (preferably without showing the front of that card to the player!). Then the player names a card.
+  - *2009-10-01* — You may search for any card, not just a creature card. Of course, if you choose a noncreature card, you won’t be able to put it onto the battlefield no matter what card the player names.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m10/73/sphinx-ambassador) · oracle_id `69e1a166-02f7-43f8-b099-dbb01034370c` · printing: M10 #73 (2009-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx-Bone Wand
 
@@ -196,7 +210,11 @@
 - **Flavor text** (DDJ printing):
   > *Its host's final curse lies captured within.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15451 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddj/29/sphinx-bone-wand) · oracle_id `4b9e529c-4fbd-4944-828d-7fbc8f26c991` · printing: DDJ #29 (2012-09-07) · [rulings](https://api.scryfall.com/cards/df04c110-25f8-4989-ab82-265fb9cb89e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2010-06-15* — If Sphinx-Bone Wand leaves the battlefield before its ability resolves, you won’t be able to put a charge counter on it. As a result, it won’t deal damage.
+  - *2010-06-15* — If the targeted permanent or player is an illegal target by the time the ability resolves, the ability doesn’t resolve. You won’t put a charge counter on Sphinx-Bone Wand and it won’t deal damage.
+  - *2010-06-15* — If you cast an instant or sorcery spell, Sphinx-Bone Wand’s ability triggers and goes on the stack on top of it. The ability will resolve before the spell does.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddj/29/sphinx-bone-wand) · oracle_id `4b9e529c-4fbd-4944-828d-7fbc8f26c991` · printing: DDJ #29 (2012-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx Mindbreaker
 
@@ -210,6 +228,7 @@
   > *Riddles draw you in, paradoxes hold you fast, and answers shatter your perceptions.*
 - **Keywords:** Flying, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15202 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/290/sphinx-mindbreaker) · oracle_id `a5270cf7-1eb3-4907-9f47-d787f61940d3` · printing: THB #290 (2020-01-24) · [rulings](https://api.scryfall.com/cards/d70c50ce-48f0-49a6-9653-42b8ccb9a647/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx of Clear Skies
@@ -222,7 +241,12 @@
   > Domain — Whenever this creature deals combat damage to a player, reveal the top X cards of your library, where X is the number of basic land types among lands you control. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard. (Piles can be empty.)
 - **Keywords:** Flying, Ward, Domain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14385 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/67/sphinx-of-clear-skies) · oracle_id `7ee394a2-84de-42e8-834e-6c1030be0aef` · printing: DMU #67 (2022-09-09) · [rulings](https://api.scryfall.com/cards/974c9e0c-07b2-4535-a3d0-bb827b651075/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-09-09* — Domain abilities count the number of basic land types among lands you control, not how many lands you control or how many of any type.
+  - *2022-09-09* — That opponent may choose to put all of the cards into one pile and leave the other pile empty. In that case, the ability’s controller chooses whether to put the revealed cards into their hand or into their graveyard.
+  - *2022-09-09* — The basic land types are Plains, Island, Swamp, Mountain, and Forest. Land types other than basic land types (such as Desert) don’t contribute to domain abilities.
+  - *2022-09-09* — The player who controls the triggered ability chooses which opponent separates the cards into two piles. This choice is made after revealing those cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/67/sphinx-of-clear-skies) · oracle_id `7ee394a2-84de-42e8-834e-6c1030be0aef` · printing: DMU #67 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx of Enlightenment
 
@@ -251,6 +275,7 @@
   > When this creature dies, if it isn't a token, create a token that's a copy of it.
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15568 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/40/sphinx-of-false-conclusions) · oracle_id `9f004382-c57b-4fde-af97-0c85516c3cf4` · printing: FRA #40 (2026-10-02) · [rulings](https://api.scryfall.com/cards/08ffbd51-2bd3-4262-8809-09576ce2b6f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx of Foresight
@@ -302,7 +327,10 @@
   > You may look at the top card of your library any time.
 - **Keywords:** Flying, Shroud
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19968 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/103/sphinx-of-jwar-isle) · oracle_id `3951f13e-f6dd-4d67-a088-23925baaf99b` · printing: C18 #103 (2018-08-10) · [rulings](https://api.scryfall.com/cards/a38387c9-cee0-4ec1-800a-877d6a7edc2d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-10-01* — Essentially, Sphinx of Jwar Isle lets you play with the top card of your library revealed only to you. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand. You may look at the top card of your library whenever you want, even if you don’t have priority. This action doesn’t use the stack.
+  - *2009-10-01* — If the top card of your library changes during the process of casting a spell or activating an ability, you can’t look at the new top card until the process of casting the spell or activating the ability ends (all targets are chosen, all costs are paid, and so on).
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/103/sphinx-of-jwar-isle) · oracle_id `3951f13e-f6dd-4d67-a088-23925baaf99b` · printing: C18 #103 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx of Lost Truths
 
@@ -315,7 +343,15 @@
   > When this creature enters, draw three cards. Then if it wasn't kicked, discard three cards.
 - **Keywords:** Kicker, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19765 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/zen/69/sphinx-of-lost-truths) · oracle_id `25597913-aa17-4e3b-a4e9-371ce1459160` · printing: ZEN #69 (2009-10-02) · [rulings](https://api.scryfall.com/cards/d97b61b6-bf80-4326-a646-a1985e0b50d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2009-10-01* — Sphinx of Lost Truths behaves differently than other cards with kicker. Its "enters" ability always triggers, and it checks whether it *wasn't* kicked. The two possible results are as follows: -- When an unkicked Sphinx of Lost Truths enters, you draw three cards, then discard three cards. -- When a kicked Sphinx of Lost Truths enters, you draw three cards.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/zen/69/sphinx-of-lost-truths) · oracle_id `25597913-aa17-4e3b-a4e9-371ce1459160` · printing: ZEN #69 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx of Magosi
 
@@ -329,6 +365,7 @@
   > *"A riddle is nothing more than a trap for small minds, baited with the promise of understanding."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16581 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/w17/12/sphinx-of-magosi) · oracle_id `1c9cf20c-51e4-4a87-b9f8-231b6baf5d6b` · printing: W17 #12 (2017-04-15) · [rulings](https://api.scryfall.com/cards/a2b4f70d-e922-4ecb-9d5a-6253f7a7716c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx of New Prahv
@@ -343,6 +380,7 @@
   > *Azorius sphinxes are loyal to the precepts of the law, not to any particular guildmaster—even one of their own kind.*
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24456 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/227/sphinx-of-new-prahv) · oracle_id `3bdd3090-4503-4382-9a11-3e1cfcdffd71` · printing: RVR #227 (2024-01-12) · [rulings](https://api.scryfall.com/cards/8e858971-4084-47cc-8b13-a933891456b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx of the Chimes
@@ -357,6 +395,7 @@
   > *"I've dreamt of the future, Isperia. Danger is on the horizon. You must heed my warning."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19811 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rtr/52/sphinx-of-the-chimes) · oracle_id `690df8d2-9538-4c51-b730-cee09ad0ef1c` · printing: RTR #52 (2012-10-05) · [rulings](https://api.scryfall.com/cards/31a0cae5-925f-4d00-a4da-1db8bae5511b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx of the Final Word
@@ -386,7 +425,10 @@
   > Hexproof from monocolored (This creature can't be the target of monocolored spells or abilities your opponents control.)
 - **Keywords:** Flying, Hexproof from, Hexproof
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22734 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/290/sphinx-of-the-guildpact) · oracle_id `5b410473-1df9-4d16-9b4d-c3ca8e4635b7` · printing: 2XM #290 (2020-08-07) · [rulings](https://api.scryfall.com/cards/f31cab5f-c05e-4688-b300-33ab0dd98598/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — An object is monocolored if it has exactly one color. A colorless object isn't monocolored.
+  - *2020-08-07* — The ability that makes Sphinx of the Guildpact all colors applies in all zones, not just the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/290/sphinx-of-the-guildpact) · oracle_id `5b410473-1df9-4d16-9b4d-c3ca8e4635b7` · printing: 2XM #290 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx of the Revelation
 
@@ -446,6 +488,7 @@
   > *No one has properly answered her favorite riddle: "Why should I spare your life?"*
 - **Keywords:** Flying, Lifelink, Vigilance, First strike, Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13019 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/207/sphinx-of-the-steel-wind) · oracle_id `1c96772b-463c-4655-836b-cf6e9dc6319f` · printing: EMA #207 (2016-06-10) · [rulings](https://api.scryfall.com/cards/9fc9b802-3381-4318-a352-d85451aba586/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx of Uthuun
@@ -472,7 +515,9 @@
   > Draw two cards. Then you may exile this spell and four cards named Sphinx's Approach from your graveyard. If you do, search your library for a Sphinx creature card, put it onto the battlefield, then shuffle.
   > A deck can have any number of cards named Sphinx's Approach.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18000 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/41/sphinxs-approach) · oracle_id `48b1ac27-430f-4fd9-a71b-6ad125c57fe3` · printing: FRA #41 (2026-10-02) · [rulings](https://api.scryfall.com/cards/f49be090-c745-40e5-bc1c-605b8d98acdf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-08-21* — The last ability of Sphinx's Approach lets you ignore the "four-of" rule. It doesn't let you ignore format legality. For example, during a Reality Fracture Limited event, you can't add cards named Sphinx's Approach from your personal collection.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/41/sphinxs-approach) · oracle_id `48b1ac27-430f-4fd9-a71b-6ad125c57fe3` · printing: FRA #41 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx's Decree
 
@@ -484,7 +529,9 @@
   > *"Be still."*
   > *—Azor*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23405 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/24/sphinxs-decree) · oracle_id `7d615b37-8dc6-4142-bf9a-9815dd99025a` · printing: RIX #24 (2018-01-19) · [rulings](https://api.scryfall.com/cards/5058a729-9739-4548-b420-deebbc0950b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-01-19* — If multiple effects say that an opponent can’t cast instant or sorcery spells during that player’s next turn, they all apply to the same turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/24/sphinxs-decree) · oracle_id `7d615b37-8dc6-4142-bf9a-9815dd99025a` · printing: RIX #24 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx's Disciple
 
@@ -498,7 +545,12 @@
   > *Few dare to brave the Dakra Isles. Those who return are forever changed.*
 - **Keywords:** Flying, Inspired
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23520 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bng/51/sphinxs-disciple) · oracle_id `54634ef2-cb7a-4203-8e48-2733f8c3911b` · printing: BNG #51 (2014-02-07) · [rulings](https://api.scryfall.com/cards/ba33f00d-dbed-4bfb-a295-90f729be98de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-02-01* — If an inspired ability triggers during your untap step, the ability will be put on the stack at the beginning of your upkeep. If the ability creates one or more token creatures, those creatures won’t be able to attack that turn (unless they gain haste).
+  - *2014-02-01* — If the inspired ability includes an optional cost, you decide whether to pay that cost as the ability resolves. You can do this even if the creature leaves the battlefield in response to the ability.
+  - *2014-02-01* — Inspired abilities don’t trigger when the creature enters the battlefield.
+  - *2014-02-01* — Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bng/51/sphinxs-disciple) · oracle_id `54634ef2-cb7a-4203-8e48-2733f8c3911b` · printing: BNG #51 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx's Herald
 
@@ -510,7 +562,12 @@
 - **Flavor text** (ALA printing):
   > *He calls a riddle through the gaps of cloven clouds, hoping for an answer.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28571 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/58/sphinxs-herald) · oracle_id `6452873b-1bb2-44b3-b630-88f15962b6e8` · printing: ALA #58 (2008-10-03) · [rulings](https://api.scryfall.com/cards/bd7e2501-2d36-41eb-a77a-747b62affc09/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-10-01* — The only difference between a colored artifact and a colorless artifact is, obviously, its color. Unlike most artifacts, a colored artifact requires colored mana to cast. Also unlike most artifacts, a colored artifact has a color in all zones. It will interact with cards that care about color. Other than that, a colored artifact behaves just like any other artifact. It will interact as normal with any card that cares about artifacts, such as Shatter or Arcbound Ravager.
+  - *2008-10-01* — To activate the ability, you must sacrifice three different creatures. You can’t sacrifice just one three-colored creature, for example.
+  - *2008-10-01* — You may sacrifice multicolored creatures as part of the cost of the search ability. If you sacrifice a multicolored creature this way, specify which part of the cost that creature is satisfying.
+  - *2008-10-01* — You may sacrifice the Herald itself to help pay for the cost of its ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/58/sphinxs-herald) · oracle_id `6452873b-1bb2-44b3-b630-88f15962b6e8` · printing: ALA #58 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx's Insight
 
@@ -523,7 +580,10 @@
   > *"Do not think me blind to your true mission...or your true master, Grand Arbiter."*
 - **Keywords:** Addendum
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21480 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/209/sphinxs-insight) · oracle_id `01f675c3-d1c4-45c8-8a2e-75f535db3025` · printing: RNA #209 (2019-01-25) · [rulings](https://api.scryfall.com/cards/d71c2435-0312-4279-a9e1-fab7432756b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-01-12* — Addendum abilities of instant spells apply while the spell is resolving, not immediately after casting it. If the spell is countered, you don't get the addendum bonus.
+  - *2024-01-12* — If an effect copies a spell with an addendum ability while it's on the stack, the copy wasn't cast at all, so you won't get the addendum bonus.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/209/sphinxs-insight) · oracle_id `01f675c3-d1c4-45c8-8a2e-75f535db3025` · printing: RNA #209 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx Sovereign
 
@@ -537,7 +597,9 @@
   > *"What rises without legs, whispers without a voice, bites without teeth, and dies without having life?"*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20239 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/196/sphinx-sovereign) · oracle_id `41907508-9ffc-4e01-969a-4f9c35cdf548` · printing: ALA #196 (2008-10-03) · [rulings](https://api.scryfall.com/cards/d0fc130e-57ed-40a7-a9ba-d689e7dc3698/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — The ability checks whether Sphinx Sovereign is tapped or untapped at the time the ability resolves. If Sphinx Sovereign is no longer on the battlefield by then, the ability checks whether Sphinx Sovereign was tapped or untapped at the time it left the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/196/sphinx-sovereign) · oracle_id `41907508-9ffc-4e01-969a-4f9c35cdf548` · printing: ALA #196 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx's Revelation
 
@@ -578,4 +640,6 @@
   > When this creature enters, you may search your library for an artifact creature card, reveal it, put it into your hand, then shuffle.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13351 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/220/sphinx-summoner) · oracle_id `77ae7caa-e180-4efb-9348-ab389364b186` · printing: 2XM #220 (2020-08-07) · [rulings](https://api.scryfall.com/cards/ad955c4d-248b-4468-a975-abad97cf84a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-02-01* — The card you find must be both an artifact and a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/220/sphinx-summoner) · oracle_id `77ae7caa-e180-4efb-9348-ab389364b186` · printing: 2XM #220 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

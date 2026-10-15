@@ -70,6 +70,7 @@
   > {T}: Add {R}.
   > {T}, Sacrifice this land: Add one mana of any color.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25298 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/324/ravaged-highlands) · oracle_id `68919931-b995-4aa0-9d2a-e80eae2f335f` · printing: ODY #324 (2001-10-01) · [rulings](https://api.scryfall.com/cards/bb60ffc9-4919-40f2-bdd6-07eee6abf37c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravager's Mace
@@ -82,7 +83,13 @@
   > Equip {2}{B}{R}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24875 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/235/ravagers-mace) · oracle_id `f3e0aaa1-f624-4dc7-a425-7dbf27cba1ce` · printing: ZNR #235 (2020-09-25) · [rulings](https://api.scryfall.com/cards/af484140-57d6-4505-9960-5e7b0306cc9b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-09-25* — An ability referring to the number of creatures in your party gets a number from zero to four. Such abilities never ask which creatures are in your party, and you never have to designate specific creatures as being in your party. You can't choose to exclude creatures from this count to lower the number.
+  - *2020-09-25* — Attaching an Equipment with its enters-the-battlefield triggered ability isn't the same as using its equip ability. You don't pay mana for the attachment, and if the Equipment enters at a time you couldn't cast a sorcery, you can still attach it to a creature you control.
+  - *2020-09-25* — If a creature has more than one party creature type, and there are multiple ways to count that creature that could result in a different number of creatures in your party, the highest such number is used. For example, if you control a Cleric and a Cleric Wizard, the number of creatures in your party is two. You can't choose to have it be just one by counting the Cleric Wizard first as a Cleric.
+  - *2020-09-25* — If the target creature becomes an illegal target, the Equipment remains on the battlefield unattached.
+  - *2020-09-25* — To determine "the number of creatures in your party," check whether you control a Cleric, whether you control a Rogue, whether you control a Warrior, and whether you control a Wizard. The number is the total number of those checks to which you answered yes. Each creature you control can be counted for only one of those checks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/235/ravagers-mace) · oracle_id `f3e0aaa1-f624-4dc7-a425-7dbf27cba1ce` · printing: ZNR #235 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravager Wurm
 
@@ -96,7 +103,14 @@
   > • Destroy target land with an activated ability that isn't a mana ability.
 - **Keywords:** Fight, Riot
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17489 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/200/ravager-wurm) · oracle_id `40b872b5-3ec2-4fcc-b152-91966f67c2be` · printing: RNA #200 (2019-01-25) · [rulings](https://api.scryfall.com/cards/6d5a6085-bb5d-412e-8831-757996bbc8fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2019-01-25* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities are activated abilities and will have colons in their reminder text. An activated mana ability is one that produces mana as it resolves, not one that costs mana to activate.
+  - *2019-01-25* — If a creature entering the battlefield has riot but can't have a +1/+1 counter put onto it, it gains haste.
+  - *2019-01-25* — If the target of Ravager Wurm's first mode isn't a legal target as that ability resolves, or if Ravager Wurm has left the battlefield, neither creature will deal or be dealt damage.
+  - *2019-01-25* — If you choose for the creature to gain haste, it gains haste indefinitely. It won't lose it as the turn ends or as another player gains control of it.
+  - *2019-01-25* — Riot is a replacement effect. Players can't respond to your choice of +1/+1 counter or haste, and they can't take actions while the creature is on the battlefield without one or the other.
+  - *2019-01-25* — You may choose neither mode for Ravager Wurm's triggered ability. In this case, the ability is removed from the stack with no effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/200/ravager-wurm) · oracle_id `40b872b5-3ec2-4fcc-b152-91966f67c2be` · printing: RNA #200 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravages of War
 
@@ -122,7 +136,11 @@
   > *In time, not even the fire monks could keep up with Chandra.*
 - **Keywords:** Spell mastery
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14640 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/250/ravaging-blaze) · oracle_id `a41760a2-d359-4581-b8d3-c1b572ac15c2` · printing: CMM #250 (2023-08-04) · [rulings](https://api.scryfall.com/cards/ae28c04c-d208-4949-a3ec-7d549f5740c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-06-22* — Check to see if there are two or more instant and/or sorcery cards in your graveyard as the spell resolves to determine whether the spell mastery ability applies. The spell itself won’t count because it’s still on the stack as you make this check.
+  - *2015-06-22* — If the creature becomes an illegal target by the time Ravaging Blaze tries to resolve, Ravaging Blaze won’t resolve and none of its effects will happen. No damage will be dealt to the creature or its controller.
+  - *2015-06-22* — Ravaging Blaze targets only the creature. It doesn’t target any player, even if the spell mastery ability applies.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/250/ravaging-blaze) · oracle_id `a41760a2-d359-4581-b8d3-c1b572ac15c2` · printing: CMM #250 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravaging Horde
 
@@ -134,6 +152,7 @@
 - **Flavor text** (PTK printing):
   > *Upon his return to the capitol after taking soldiers to loot a nearby peaceful town, the prime minister, Dong Zhou, boasted of it as a victory over bandits.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30667 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/118/ravaging-horde) · oracle_id `b775b83c-0c3d-437d-9d3c-1d5c9cd418a8` · printing: PTK #118 (1999-05-01) · [rulings](https://api.scryfall.com/cards/6278d679-fc54-4527-ab16-90735574ab9b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravaging Riftwurm
@@ -147,7 +166,14 @@
   > If this creature was kicked, it enters with three additional time counters on it.
 - **Keywords:** Vanishing, Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20604 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fut/135/ravaging-riftwurm) · oracle_id `a71448ce-8d57-418e-b862-bd526726074d` · printing: FUT #135 (2007-05-04) · [rulings](https://api.scryfall.com/cards/5e09949e-c8cd-4bb4-9ed4-699abbc7ad3c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fut/135/ravaging-riftwurm) · oracle_id `a71448ce-8d57-418e-b862-bd526726074d` · printing: FUT #135 (2007-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raven Clan War-Axe
 
@@ -159,6 +185,7 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14673 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/297/raven-clan-war-axe) · oracle_id `d306de95-a80e-4e85-b7d2-36c6ea769b15` · printing: ACR #297 (2024-07-05) · [rulings](https://api.scryfall.com/cards/01de51d1-bbea-407c-b19e-dfef7fce1510/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raven Eagle
@@ -172,7 +199,13 @@
   > Whenever you draw your second card each turn, each opponent loses 1 life and you gain 1 life.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10305 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/116/raven-eagle) · oracle_id `f75ac0a3-8795-48b4-91fd-4717900ef5b7` · printing: TLA #116 (2025-11-21) · [rulings](https://api.scryfall.com/cards/2262f24b-db6b-4f86-96d0-47a20fc015ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — Clue tokens are artifact tokens with "{2}, Sacrifice this token: Draw a card."
+  - *2025-10-02* — Creating a Clue token this way isn't the same thing as investigating. Notably, an ability that triggers whenever you investigate won't trigger because of creating a Clue token this way.
+  - *2025-10-02* — If a card or ability instructs you to put cards into your hand without specifically using the word "draw," it's not a card drawn.
+  - *2025-10-02* — If an effect instructs you to draw multiple cards, the ability triggers after you draw whichever is the second one for the turn. It goes on the stack after you've drawn and looked at all the cards and finished resolving the spell or ability that caused you to draw them.
+  - *2025-10-02* — The second triggered ability can trigger only once each turn. It doesn't matter whether Raven Eagle was on the battlefield when the first card was drawn. If it's not on the battlefield when the second card is drawn, the ability can't trigger at all that turn. It won't trigger when the third or fourth card is drawn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/116/raven-eagle) · oracle_id `f75ac0a3-8795-48b4-91fd-4717900ef5b7` · printing: TLA #116 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravener
 
@@ -185,7 +218,12 @@
   > When this creature enters, target creature attacks target opponent this turn if able.
 - **Keywords:** Ravenous, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10304 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/138/ravener) · oracle_id `6c4ac289-edca-4dce-8572-817efbdd08b2` · printing: 40K #138 (2022-10-07) · [rulings](https://api.scryfall.com/cards/b6a9ed40-78d7-4de2-816f-1791e12fbb0c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-10-07* — A creature with ravenous gets its counters as it enters the battlefield. It doesn't enter the battlefield first and then get its counters. Any triggered ability that looks for a creature with a certain power or toughness entering the battlefield will see the counters when it checks to see if it should trigger.
+  - *2022-10-07* — If a permanent spell with ravenous is copied, the copy will have the same value for X, and the token permanent that the spell becomes as it enters the battlefield will enter with X counters.
+  - *2022-10-07* — If another permanent enters the battlefield as a copy of a creature with Ravenous, it will not enter with any counters from the ravenous ability.
+  - *2022-10-07* — The triggered ability that checks to see if X is 5 or greater refers to the value of X that was chosen as the spell was cast, which may be different from the number of counters it entered with if there are replacement effects involved. This is also true for any other ability that it has which refers to X and triggers when it enters the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/138/ravener) · oracle_id `6c4ac289-edca-4dce-8572-817efbdd08b2` · printing: 40K #138 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raven Familiar
 
@@ -198,7 +236,9 @@
   > When this creature enters, look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
 - **Keywords:** Echo, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23994 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c13/55/raven-familiar) · oracle_id `47aabd9d-0f68-490a-a2ae-5cd9ef689be6` · printing: C13 #55 (2013-11-01) · [rulings](https://api.scryfall.com/cards/8b60227d-74de-4f2a-b281-3512dd77ffe8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — This is not a draw.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c13/55/raven-familiar) · oracle_id `47aabd9d-0f68-490a-a2ae-5cd9ef689be6` · printing: C13 #55 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenform
 
@@ -227,6 +267,7 @@
   > *The Raven Guild soars on winds of unease.*
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30773 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/scg/46/raven-guild-initiate) · oracle_id `67a1529f-aa37-4df8-97e3-5b1d8c03a76f` · printing: SCG #46 (2003-05-26) · [rulings](https://api.scryfall.com/cards/c1e11f70-06c3-4dc5-aafe-82d65080085e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raven Guild Master
@@ -239,6 +280,7 @@
   > Morph {2}{U}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21352 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/scg/47/raven-guild-master) · oracle_id `1dfaa773-7cd5-4489-9790-661cef4ed6f3` · printing: SCG #47 (2003-05-26) · [rulings](https://api.scryfall.com/cards/9843f847-6a8f-4042-86b6-f7fe5a47cc57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenhill Flock
@@ -254,6 +296,7 @@
   > *—Balin*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16409 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/52/ravenhill-flock) · oracle_id `7f961374-00b0-40df-83eb-9ced2bb519aa` · printing: HOB #52 (2026-08-14) · [rulings](https://api.scryfall.com/cards/acbb4d32-2771-469e-a6de-0df15155cc62/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravening Warg
@@ -268,7 +311,9 @@
   > *Goblins and wolves returned to the assault and soon forced their foes into a great ring, hemmed on all sides.*
 - **Keywords:** Ferocious, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17494 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/80/ravening-warg) · oracle_id `8060d231-7477-441d-b249-8e75aa1d7791` · printing: HOB #80 (2026-08-14) · [rulings](https://api.scryfall.com/cards/ea7b5052-b343-466d-879e-2a211657ef0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-06-29* — Ravening Warg's triggered ability will check when it attacks to see if you control a creature with power 4 or greater. If you don't, the ability won't trigger at all. It will not check again when it resolves, so the ability will resolve even if you no longer control a creature with power 4 or greater.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/80/ravening-warg) · oracle_id `8060d231-7477-441d-b249-8e75aa1d7791` · printing: HOB #80 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenloft Adventurer
 
@@ -305,7 +350,13 @@
   > *A raven sighted at midnight often means there's unkindness on the way.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11658 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/101/raven-of-fell-omens) · oracle_id `eec7d4f4-4141-49ed-8978-aefacc0a6609` · printing: OTJ #101 (2024-04-19) · [rulings](https://api.scryfall.com/cards/e2df3cb4-1658-450a-912a-df336706acdc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-04-12* — A player can commit only one crime per spell or ability they control. Targeting multiple opponents, permanents, spells, abilities, and/or cards with the same spell or ability doesn’t constitute committing multiple crimes.
+  - *2024-04-12* — A player commits a crime as they cast a spell, activate an ability, or put a triggered ability on the stack that targets at least one opponent, at least one permanent, spell, or ability an opponent controls, and/or at least one card in an opponent’s graveyard.
+  - *2024-04-12* — Changing the target or targets of a spell or ability won’t affect whether or not the controller of that spell or ability has committed a crime. Only the initial targets chosen for that spell or ability are used to determine whether or not its controller committed a crime.
+  - *2024-04-12* — For example, an ability that triggers when you cast a spell that targets an opponent will trigger at the same time as an ability that triggers whenever you commit a crime. Those abilities can be put on the stack in either order (if you control them both), and they’ll both resolve before the spell that caused them to trigger.
+  - *2024-04-12* — The spell or ability that constituted a crime doesn’t have to have resolved yet or at all. As soon as you’re finished casting the spell, activating the ability, or putting the triggered ability on the stack, you’ve committed a crime.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/101/raven-of-fell-omens) · oracle_id `eec7d4f4-4141-49ed-8978-aefacc0a6609` · printing: OTJ #101 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Amulet
 
@@ -330,7 +381,10 @@
 - **Flavor text** (EXO printing):
   > *Build something and the baboons will tear it down. Leave the pieces lying and they will scatter them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16988 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/exo/97/ravenous-baboons) · oracle_id `1d9bd0a5-3ba0-44e5-9cb3-966f6b9dc14a` · printing: EXO #97 (1998-06-15) · [rulings](https://api.scryfall.com/cards/6d00b68b-8b6a-48c9-8911-2a3270897091/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — If there is no non-basic land to destroy, the ability does nothing.
+  - *2004-10-04* — You have to pick one of your own non-basic lands if the opponent does not have any and you do.
+- **Source flags:** [Scryfall](https://scryfall.com/card/exo/97/ravenous-baboons) · oracle_id `1d9bd0a5-3ba0-44e5-9cb3-966f6b9dc14a` · printing: EXO #97 (1998-06-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Baloth
 
@@ -343,6 +397,7 @@
   > *"All we know about the Krosan Forest we have learned from those few who made it out alive."*
   > *—Elvish refugee*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17122 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/424/ravenous-baloth) · oracle_id `ee771e66-72f8-480f-9920-92c68ab93c3b` · printing: JMP #424 (2020-07-17) · [rulings](https://api.scryfall.com/cards/2f48df6c-8d5d-4d8a-b98a-793f6a56184d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Bloodseeker
@@ -356,7 +411,9 @@
   > *"Nothing will cool the fire in their blood. They are too far gone. We must keep them away from our towns at any cost."*
   > *—Cosper Lowe of the Silbern Guard*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27854 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/175/ravenous-bloodseeker) · oracle_id `bc548ecb-57c4-49ef-a7aa-312bf3665fab` · printing: SOI #175 (2016-04-08) · [rulings](https://api.scryfall.com/cards/cc4d04bc-6263-43b0-9b01-894a532cd3ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-04-08* — You can activate Ravenous Bloodseeker's ability any number of times to discard several cards. It will be put into its owner's graveyard once its toughness is 0 or less. Any other instances of the ability still on the stack will resolve with no effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/175/ravenous-bloodseeker) · oracle_id `bc548ecb-57c4-49ef-a7aa-312bf3665fab` · printing: SOI #175 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Chupacabra
 
@@ -382,7 +439,11 @@
   > *A daggertooth's triumphant roar makes all the sounds of jungle life fall silent.*
 - **Keywords:** Enrage
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17134 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/202/ravenous-daggertooth) · oracle_id `f5ef25fb-545e-41b7-8fed-d3cfff3d8668` · printing: XLN #202 (2017-09-29) · [rulings](https://api.scryfall.com/cards/309b204b-774a-47bc-aead-c78db90f3be2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-09-29* — If your life total is brought to 0 or less at the same time that Ravenous Daggertooth is dealt damage, you lose the game before its enrage ability resolves.
+  - *2018-01-19* — If lethal damage is dealt to a creature with an enrage ability, that ability triggers. The creature with that enrage ability leaves the battlefield before that ability resolves, so it won’t be affected by the resolving ability.
+  - *2018-01-19* — If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/202/ravenous-daggertooth) · oracle_id `f5ef25fb-545e-41b7-8fed-d3cfff3d8668` · printing: XLN #202 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Demon // Archdemon of Greed
 
@@ -400,7 +461,9 @@
   > *"The price is paid. The power is mine!"*
 - **Keywords:** Flying, Transform, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24458 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dka/71/ravenous-demon-archdemon-of-greed) · oracle_id `18932bb9-e054-4ad6-80c8-d2f177312da0` · printing: DKA #71 (2012-02-03) · [rulings](https://api.scryfall.com/cards/6aef77b3-4b38-4902-9f7a-dc18b5bb9da9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-07-13* — For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+- **Source flags:** [Scryfall](https://scryfall.com/card/dka/71/ravenous-demon-archdemon-of-greed) · oracle_id `18932bb9-e054-4ad6-80c8-d2f177312da0` · printing: DKA #71 (2012-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Giant
 
@@ -412,6 +475,7 @@
 - **Flavor text** (FDN printing):
   > *The might of an army with the restraint of a child.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25104 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/630/ravenous-giant) · oracle_id `46c7a552-4a98-4e1a-8651-8fb0e7153aec` · printing: FDN #630 (2024-11-15) · [rulings](https://api.scryfall.com/cards/050b70c4-9086-4db4-8e65-f9bb5f67cf1b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Gigamole
@@ -423,7 +487,10 @@
   > When this creature enters, mill three cards. You may put a creature card from among the cards milled this way into your hand. If you don't, put a +1/+1 counter on this creature. (To mill a card, put the top card of your library into your graveyard.)
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23324 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/113/ravenous-gigamole) · oracle_id `68f4e3e5-2f0d-4d2d-84f6-d1e824a0dcf0` · printing: BRO #113 (2022-11-18) · [rulings](https://api.scryfall.com/cards/2fee3328-75c2-4d13-86e1-bf3a40fbf538/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-14* — If a replacement effect causes the milled cards to be exiled rather than go to the graveyard, this effect can still apply to the cards "milled this way" in exile.
+  - *2022-10-14* — You put a +1/+1 counter on Ravenous Gigamole if you don't put a creature card into your hand with its ability, even if there wasn't a creature card among the milled cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/113/ravenous-gigamole) · oracle_id `68f4e3e5-2f0d-4d2d-84f6-d1e824a0dcf0` · printing: BRO #113 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Gigantotherium
 
@@ -435,7 +502,15 @@
   > When this creature enters, it deals X damage divided as you choose among up to X target creatures, where X is its power. Each of those creatures deals damage equal to its power to this creature.
 - **Keywords:** Devour
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21812 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/63/ravenous-gigantotherium) · oracle_id `022624eb-c9d7-4110-bcc3-465c8d48fcd7` · printing: C20 #63 (2020-04-17) · [rulings](https://api.scryfall.com/cards/ca260253-40b8-4846-9e41-4e9cfc56d691/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2020-04-17* — If some of the targets become illegal for Ravenous Gigantotherium's ability, the original division of damage still applies, but the damage that would have been dealt to illegal targets isn't dealt at all.
+  - *2020-04-17* — Ravenous Gigantotherium can't devour creatures entering the battlefield at the same time as it.
+  - *2020-04-17* — Static abilities, such as that of Glorious Anthem, modify Ravenous Gigantotherium's power before its triggered ability is put onto the stack. Spells, activated abilities, and triggered abilities can't raise its power in time to change the value of X.
+  - *2020-04-17* — The creatures targeted by Ravenous Gigantotherium's ability deal damage back to Ravenous Gigantotherium before dying if they're dealt lethal damage.
+  - *2020-04-17* — The value of X is locked in as you divide the damage while putting Ravenous Gigantotherium's ability onto the stack. Changing Ravenous Gigantotherium's power after that time won't change how much damage is dealt.
+  - *2020-04-17* — You divide the damage as Ravenous Gigantotherium's triggered ability is put onto the stack, not as it resolves. Each target must be assigned at least 1 damage. You can't choose more than X targets and assign 0 damage to a target.
+  - *2020-04-17* — You may choose zero targets. If you do, Ravenous Gigantotherium deals no damage and is dealt no damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/63/ravenous-gigantotherium) · oracle_id `022624eb-c9d7-4110-bcc3-465c8d48fcd7` · printing: C20 #63 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Harpy
 
@@ -449,6 +524,7 @@
   > *A harpy's hoard is a filthy, bloodstained pile of trinkets and corpses.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28592 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/115/ravenous-harpy) · oracle_id `e9ccec56-ec2b-4ab8-b929-6e4795711db9` · printing: M19 #115 (2018-07-13) · [rulings](https://api.scryfall.com/cards/676ec702-75c4-4733-b500-eb15406778bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Intruder
@@ -462,6 +538,7 @@
   > *"I've made some fine acquisitions of late, so I'm planning to make commensurate improvements to my security systems. I have a consultant coming tomorrow."*
   > *—Kurna Majan, Luminary League*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23159 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/141/ravenous-intruder) · oracle_id `06a94ea3-6cda-42fe-ba3b-40a0e9044f8e` · printing: 2XM #141 (2020-08-07) · [rulings](https://api.scryfall.com/cards/289d6da8-9cfe-4c1b-90c9-477a743f6d62/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Leucrocota
@@ -476,7 +553,11 @@
   > *Hunger makes a leucrocota dangerous. A full belly makes it angry and dangerous.*
 - **Keywords:** Vigilance, Monstrosity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30170 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/192/ravenous-leucrocota) · oracle_id `dcc5ca3f-5309-4833-bee4-f2508382ea06` · printing: CN2 #192 (2016-08-26) · [rulings](https://api.scryfall.com/cards/dc504eb1-4684-47a1-b241-01c7bb5cc496/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2014-04-26* — An ability that triggers when a creature becomes monstrous won't trigger if that creature isn't on the battlefield when its monstrosity ability resolves.
+  - *2014-04-26* — Monstrous isn't an ability that a creature has. It's just something true about that creature. If the creature stops being a creature or loses its abilities, it will continue to be monstrous.
+  - *2014-04-26* — Once a creature becomes monstrous, it can't become monstrous again. If the creature is already monstrous when the monstrosity ability resolves, nothing happens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/192/ravenous-leucrocota) · oracle_id `dcc5ca3f-5309-4833-bee4-f2508382ea06` · printing: CN2 #192 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Lindwurm
 
@@ -489,6 +570,7 @@
   > *"I'm no coward, but I'd sooner tangle with a rampaging Torga troll than a hungry lindwurm!"*
   > *—Yegar, Beskir warrior*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20661 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/187/ravenous-lindwurm) · oracle_id `3583ec24-4f26-45ea-8fb4-a45bdd7bfc79` · printing: KHM #187 (2021-02-05) · [rulings](https://api.scryfall.com/cards/9961e3fc-167e-4043-8510-cc5cf08d473e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Necrotitan
@@ -502,6 +584,7 @@
   > *Some of Sheoldred's goliaths spread the glory of Phyrexia. Others just eat.*
 - **Keywords:** Corrupted
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22994 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/106/ravenous-necrotitan) · oracle_id `90109cb4-1e16-4d54-9332-b5fb1e71042c` · printing: ONE #106 (2023-02-10) · [rulings](https://api.scryfall.com/cards/ce7e1e9b-ad7f-4f4c-bdb5-2ccb6f147037/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Rats
@@ -514,6 +597,7 @@
 - **Flavor text** (GVL printing):
   > *Nothing is sacred to rats. Everything is simply another meal.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11913 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gvl/37/ravenous-rats) · oracle_id `2fa1bbfd-92b5-482c-b32d-4cdc286474c4` · printing: GVL #37 (2014-12-05) · [rulings](https://api.scryfall.com/cards/f87e5072-525e-4b0b-a5c3-ee5e89a81e1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Robots
@@ -558,6 +642,7 @@
 - **Flavor text** (MOM printing):
   > *Converter beasts were sent to ensnare as many of Ixalan's dinosaurs as possible. Many of them were converted themselves—into snacks.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15431 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/202/ravenous-sailback) · oracle_id `17e74c4b-435c-469e-a9a4-32bf0cb7634c` · printing: MOM #202 (2023-04-21) · [rulings](https://api.scryfall.com/cards/a225cb30-9f3e-4cfa-bdd6-a7c73c95ea2b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Skirge
@@ -572,7 +657,9 @@
   > *Hunger is a kind of madness—and here, all madness flourishes.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31551 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/152/ravenous-skirge) · oracle_id `b8ae71b3-8ee7-49a0-87ea-7e938166ccb3` · printing: USG #152 (1998-10-12) · [rulings](https://api.scryfall.com/cards/d0b6e655-e05e-44b5-9c7f-9dbbc66e6e28/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — If it attacks more than once per turn, it gets the bonus each time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/152/ravenous-skirge) · oracle_id `b8ae71b3-8ee7-49a0-87ea-7e938166ccb3` · printing: USG #152 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Slime
 
@@ -585,7 +672,14 @@
 - **Flavor text** (C18 printing):
   > *Death eventually wiggles toward us all.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10536 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/34/ravenous-slime) · oracle_id `4696decb-7bff-4c6b-8a7b-9ec324faefde` · printing: C18 #34 (2018-08-10) · [rulings](https://api.scryfall.com/cards/528d8f5e-2d58-4526-875b-21d199267210/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2018-07-13* — A token creature can die just like a nontoken creature before ceasing to exist. Ravenous Slime can replace this by exiling the token.
+  - *2018-07-13* — If Ravenous Slime dies at the same time as an opponent's creatures, the opponent's creatures are exiled.
+  - *2018-07-13* — If an opponent's commander would die, that player may choose to put it into the command zone from exile after Ravenous Slime's replacement effect has been applied and it has received the +1/+1 counters.
+  - *2018-07-13* — If more than one replacement effect tries to change where a dying creature ends up, that creature's controller chooses which effect applies. For example, if two players control a Ravenous Slime, a creature controlled by a third player will be exiled by the Ravenous Slime of that third player's choice, and the other Ravenous Slime won't get +1/+1 counters.
+  - *2018-07-13* — Once a creature with power 3 or greater has blocked this creature, changing the power of the blocking creature won't cause this creature to become unblocked.
+  - *2018-07-13* — The exiled creature's last known existence on the battlefield is checked to determine its power.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/34/ravenous-slime) · oracle_id `4696decb-7bff-4c6b-8a7b-9ec324faefde` · printing: C18 #34 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Squirrel
 
@@ -610,7 +704,9 @@
   > If an opponent had three or more cards put into their graveyard from anywhere this turn, you may pay {0} rather than pay this spell's mana cost.
   > Exile target player's graveyard.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19664 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/103/ravenous-trap) · oracle_id `e0bea449-7601-48ee-a522-f1bbe6905f6d` · printing: 2XM #103 (2020-08-07) · [rulings](https://api.scryfall.com/cards/ce0fae06-1a93-43ac-a349-f3719e60076e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as Ravenous Trap's alternative cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/103/ravenous-trap) · oracle_id `e0bea449-7601-48ee-a522-f1bbe6905f6d` · printing: 2XM #103 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Tyrannosaurus
 
@@ -640,6 +736,7 @@
   > *Eternal life brings eternal hunger.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31802 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/136/ravenous-vampire) · oracle_id `2c029419-3601-4158-b10f-45a19de7faa3` · printing: MIR #136 (1996-10-08) · [rulings](https://api.scryfall.com/cards/5ee67033-7f0f-49b4-8472-3bc4fbb8ffe1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raven's Crime
@@ -653,7 +750,12 @@
   > *It plucks away memories like choice bits of carrion.*
 - **Keywords:** Retrace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15938 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mma/95/ravens-crime) · oracle_id `a21c85f3-482b-47e5-9321-0ca21e110bd8` · printing: MMA #95 (2013-06-07) · [rulings](https://api.scryfall.com/cards/7271436b-897a-4b24-a5d2-d29dbea8c1bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-08-01* — A retrace card cast from your graveyard follows the normal timing rules for its card type.
+  - *2008-08-01* — Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You’re casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs.
+  - *2008-08-01* — If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it’s still in the graveyard.
+  - *2008-08-01* — When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it’s put back into your graveyard. You may use the retrace ability to cast it again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mma/95/ravens-crime) · oracle_id `a21c85f3-482b-47e5-9321-0ca21e110bd8` · printing: MMA #95 (2013-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raven's Run Dragoon
 
@@ -665,6 +767,7 @@
 - **Flavor text** (SHM printing):
   > *"I have a gift. The ability to sense encroaching darkness has saved many lives. And yet constantly feeling the force of so much ugliness is a terrible burden."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31829 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/235/ravens-run-dragoon) · oracle_id `e405800a-27e6-468a-938b-484346ee20cd` · printing: SHM #235 (2008-05-02) · [rulings](https://api.scryfall.com/cards/b868da85-9d19-4407-a0c3-fc3b2b237cda/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raven Wings
@@ -679,6 +782,7 @@
   > *—Inga Rune-Eyes*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19384 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/243/raven-wings) · oracle_id `2d668f67-7cde-447a-8eb3-35c0c5c5ab69` · printing: KHM #243 (2021-02-05) · [rulings](https://api.scryfall.com/cards/60916ebe-6d84-4873-bd91-351bbe219c57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravine Raider
@@ -693,6 +797,7 @@
   > *The path to the Cliff of Heroes is rife with bandits, expertly camouflaged in the dense flora of Valley.*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13741 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/106/ravine-raider) · oracle_id `4c2e84dc-b4f5-4eca-af07-1c53a1caae7c` · printing: BLB #106 (2024-08-02) · [rulings](https://api.scryfall.com/cards/874510be-7ecd-4eff-abad-b9594eb4821a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raving Dead
@@ -706,7 +811,13 @@
   > Whenever this creature deals combat damage to a player, that player loses half their life, rounded down.
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16668 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c14/29/raving-dead) · oracle_id `30e5d70e-6547-483a-a4ab-4c2eed296543` · printing: C14 #29 (2014-11-07) · [rulings](https://api.scryfall.com/cards/5d24d153-a014-4524-a496-9fe1c41cbc2b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2014-11-07* — If Raving Dead can't attack the chosen player for one of the above reasons but it can still attack elsewhere, you may choose to have it attack another player, attack a planeswalker, or not attack at all.
+  - *2014-11-07* — If your turn has multiple combat phases, Raving Dead's ability triggers at the beginning of each of them. Ignore any choices made during previous combat phases that turn.
+  - *2014-11-07* — If, as attackers are declared, Raving Dead is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under your control continuously since your turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having Raving Dead attack the chosen player, you aren't forced to pay that cost, so it doesn't have to attack that player in that case either.
+  - *2014-11-07* — Raving Dead must attack the chosen player if able, not a planeswalker controlled by that player.
+  - *2014-11-07* — The last ability triggers and resolves after combat damage has been dealt. For example, if an opponent has 17 life and Raving Dead deals 2 combat damage to them, they will end up at 8 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c14/29/raving-dead) · oracle_id `30e5d70e-6547-483a-a4ab-4c2eed296543` · printing: C14 #29 (2014-11-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raving Oni-Slave
 
@@ -716,6 +827,7 @@
 - **Oracle text:**
   > When this creature enters or leaves the battlefield, you lose 3 life if you don't control a Demon.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30656 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/86/raving-oni-slave) · oracle_id `024ea14f-48b7-485d-8426-317d59f8262d` · printing: SOK #86 (2005-06-03) · [rulings](https://api.scryfall.com/cards/a4d16271-9302-463b-938d-01dad0c3ce29/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raving Visionary
@@ -730,6 +842,7 @@
   > *"Fear not, child. Open your eyes and witness Keranos's truth!"*
 - **Keywords:** Delirium
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24048 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/56/raving-visionary) · oracle_id `83157972-3a0b-40e2-a80a-7bfb2a8627ee` · printing: MH2 #56 (2021-06-18) · [rulings](https://api.scryfall.com/cards/347cee3a-6e0e-43c2-85e5-531b19297c3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravnica at War

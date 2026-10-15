@@ -113,7 +113,12 @@
   > Vivid — At the beginning of your first main phase, reveal cards from the top of your library until you reveal X nonland cards, where X is the number of colors among permanents you control. For each of those colors, you may exile a card of that color from among the revealed cards. Then shuffle. You may cast the exiled cards this turn.
 - **Keywords:** Vivid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17790 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/241/sanar-innovative-first-year) · oracle_id `2676ba6d-e7a7-48cf-9c86-6e2a11f03096` · printing: ECL #241 (2026-01-23) · [rulings](https://api.scryfall.com/cards/11215561-bbcd-4564-a2e4-a1d77d177a1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-11-17* — Lands are normally colorless permanents, even if they tap for mana of a certain color.
+  - *2025-11-17* — The colors are white, blue, black, red, and green. Colorless is not a color.
+  - *2025-11-17* — The value of X is calculated only once, as Sanar's ability resolves.
+  - *2025-11-17* — You pay all costs and follow all timing rules for cards cast this way. For example, if an exiled card is a sorcery card, you may cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/241/sanar-innovative-first-year) · oracle_id `2676ba6d-e7a7-48cf-9c86-6e2a11f03096` · printing: ECL #241 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanar, Unfinished Genius // Wild Idea
 
@@ -153,6 +158,7 @@
 - **Flavor text** (M15 printing):
   > *You need only raise your spear to receive this blessing.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28048 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m15/30/sanctified-charge) · oracle_id `e89b3133-4cd6-44fb-ae86-a01b86bb970c` · printing: M15 #30 (2014-07-18) · [rulings](https://api.scryfall.com/cards/6481bf34-192c-4102-8336-4d2d007d9e3c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctifier en-Vec
@@ -166,7 +172,12 @@
   > If a black or red permanent, spell, or card not on the battlefield would be put into a graveyard, exile it instead.
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15729 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/27/sanctifier-en-vec) · oracle_id `810d3afe-c644-444f-a4d9-88b323f0b581` · printing: MH2 #27 (2021-06-18) · [rulings](https://api.scryfall.com/cards/f8c3cca4-23c0-4c14-ab56-51ba011f5974/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-06-18* — If a black or red permanent would go to the graveyard at the same time as Sanctifier en-Vec, that permanent will be exiled instead.
+  - *2021-06-18* — If a black or red spell causes Sanctifier en-Vec to have lethal damage marked on it or causes it to have 0 toughness, Sanctifier en-Vec will not be put into a graveyard until the next time state-based actions are checked after the spell has finished resolving. In this case, the spell will be exiled instead of going to its owner's graveyard.
+  - *2021-06-18* — If a black or red spell causes Sanctifier en-Vec to leave the battlefield as part of its resolution, that spell will go to its owner's graveyard and won't be exiled instead.
+  - *2021-11-19* — Sanctifier En-Vec's last ability cares only what the color of the card would be in the zone it's moving from, not what it would be in the graveyard. For example, if a Clone is a copy of a red creature on the battlefield and then dies, the Clone will be exiled. Conversely, if you cast Order, the white half of the split card Order//Chaos, it will not be exiled as it resolves because it is not red before it goes to the graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/27/sanctifier-en-vec) · oracle_id `810d3afe-c644-444f-a4d9-88b323f0b581` · printing: MH2 #27 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctifier of Souls
 
@@ -177,7 +188,9 @@
   > Whenever another creature you control enters, this creature gets +1/+1 until end of turn.
   > {2}{W}, Exile a creature card from your graveyard: Create a 1/1 white Spirit creature token with flying.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28842 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/emn/39/sanctifier-of-souls) · oracle_id `806fc324-a17a-4e65-a9b6-d739c471c7f8` · printing: EMN #39 (2016-07-22) · [rulings](https://api.scryfall.com/cards/8d839c5a-dc35-4eaa-9cf0-b6e002815726/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-07-13* — The last ability functions only while Sanctifier of Souls is on the battlefield. You can’t activate it while Sanctifier of Souls is in your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/emn/39/sanctifier-of-souls) · oracle_id `806fc324-a17a-4e65-a9b6-d739c471c7f8` · printing: EMN #39 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctify
 
@@ -201,7 +214,9 @@
 - **Flavor text** (8ED printing):
   > *"The peasants labor for my profit. I approve."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26435 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/8ed/42/sanctimony) · oracle_id `2fc7740a-dfa4-4279-8822-3f7c93e6b685` · printing: 8ED #42 (2003-07-28) · [rulings](https://api.scryfall.com/cards/74733902-f177-4551-bc39-72f58860c890/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Gaining life is optional. If you forget, you can’t go back later even if it is something you usually do.
+- **Source flags:** [Scryfall](https://scryfall.com/card/8ed/42/sanctimony) · oracle_id `2fc7740a-dfa4-4279-8822-3f7c93e6b685` · printing: 8ED #42 (2003-07-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctuary Blade
 
@@ -213,7 +228,10 @@
   > Equip {3}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14662 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/69/sanctuary-blade) · oracle_id `ab0dd461-25bc-4374-bed8-72fc2d51b5e1` · printing: C20 #69 (2020-04-17) · [rulings](https://api.scryfall.com/cards/c9cf2480-10cd-4200-a47e-cc7f49182692/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-04-17* — Activating Sanctuary Blade's equip ability targeting the creature it's already attached to won't let you choose a new color.
+  - *2020-04-17* — If Sanctuary Blade is somehow attached to a creature without a color having been chosen for it, it doesn't grant a protection ability to the creature. The creature doesn't gain protection from colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/69/sanctuary-blade) · oracle_id `ab0dd461-25bc-4374-bed8-72fc2d51b5e1` · printing: C20 #69 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctuary Cat
 
@@ -223,6 +241,7 @@
 - **Oracle text:**
   > *(no rules text)*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21863 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/oana/8/sanctuary-cat) · oracle_id `c623bc4b-7fc1-4bc1-84e9-71c301dd402f` · printing: OANA #8 (2018-07-14) · [rulings](https://api.scryfall.com/cards/af79c8fb-9189-48c2-a7b8-a1097dbaf138/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctuary Lockdown
@@ -236,7 +255,10 @@
   > *"Drannith gives no quarter to traitors."*
   > *—General Kudro*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14970 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/28/sanctuary-lockdown) · oracle_id `66793ddf-aca3-44cb-8742-4eee178f31c6` · printing: IKO #28 (2020-04-24) · [rulings](https://api.scryfall.com/cards/1387b7be-f69e-4919-9070-a89654c656f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-04-17* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a Human you control may become lethal if Sanctuary Lockdown leaves the battlefield during that turn.
+  - *2020-04-17* — Since Sanctuary Lockdown’s activated ability doesn’t have a tap symbol in its cost, you can tap creatures that haven’t been under your control since your most recent turn began to pay the cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/28/sanctuary-lockdown) · oracle_id `66793ddf-aca3-44cb-8742-4eee178f31c6` · printing: IKO #28 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctuary Raptor
 
@@ -250,6 +272,7 @@
   > *The song of the Worldsoul can take on life in the most unlikely places.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26147 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/233/sanctuary-raptor) · oracle_id `6af53351-ad10-4774-9b5c-7b58bea65bbc` · printing: MH2 #233 (2021-06-18) · [rulings](https://api.scryfall.com/cards/ccbdb1eb-2546-4c1a-bfab-ef61bdadd364/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctuary Smasher
@@ -263,7 +286,11 @@
   > When you cycle this card, put a first strike counter on target creature you control.
 - **Keywords:** First strike, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19709 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/135/sanctuary-smasher) · oracle_id `29925297-b6d4-4fc8-a585-1425c1482ec6` · printing: IKO #135 (2020-04-24) · [rulings](https://api.scryfall.com/cards/cc634c10-42c5-4bdc-bc22-f862ae285492/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-04-17* — Some cards with cycling have an ability that triggers when you cycle them, and some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
+  - *2020-04-17* — Triggered abilities from cycling a card and the cycling ability itself aren't spells. Effects that interact with spells (such as that of Cancel) won't affect them.
+  - *2020-04-17* — You can cycle a card even if it has a triggered ability from cycling that won't have a legal target. This is because the cycling ability and the triggered ability are separate. This also means that if either ability is countered (with Disallow, for example), the other ability will still resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/135/sanctuary-smasher) · oracle_id `29925297-b6d4-4fc8-a585-1425c1482ec6` · printing: IKO #135 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctuary Wall
 
@@ -275,6 +302,7 @@
   > {2}{W}, {T}: Tap target creature. You may put a stun counter on it. If you do, put a stun counter on this creature. (If a permanent with a stun counter would become untapped, remove one from it instead.)
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18283 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/32/sanctuary-wall) · oracle_id `83856c3a-652e-4afc-9dc0-0072324ac36f` · printing: MKM #32 (2024-02-09) · [rulings](https://api.scryfall.com/cards/4a009ba2-c7b9-4cf6-bb90-9d6fd589e932/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctuary Warden
@@ -308,6 +336,7 @@
 - **Flavor text** (USG printing):
   > *Serra told them to guard Urza as he healed. Five years they stood.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30500 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/42/sanctum-custodian) · oracle_id `4d979fbf-5009-47a1-8d77-b1ce80bbe90d` · printing: USG #42 (1998-10-12) · [rulings](https://api.scryfall.com/cards/27a64b98-9002-48fe-a3e5-4449050c87e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctum Gargoyle
@@ -322,7 +351,9 @@
   > *As their supplies of etherium dwindled, mechanists sent gargoyles farther and farther afield in search of salvage.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17166 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/102/sanctum-gargoyle) · oracle_id `6ee9802a-7a44-49c7-93d9-f75c4d42e71e` · printing: C21 #102 (2021-04-23) · [rulings](https://api.scryfall.com/cards/7678e008-f054-485d-ae21-6b97f83dd824/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — The only difference between a colored artifact and a colorless artifact is, obviously, its color. Unlike most artifacts, a colored artifact requires colored mana to cast. Also unlike most artifacts, a colored artifact has a color in all zones. It will interact with cards that care about color. Other than that, a colored artifact behaves just like any other artifact. It will interact as normal with any card that cares about artifacts, such as Shatter or Arcbound Ravager.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/102/sanctum-gargoyle) · oracle_id `6ee9802a-7a44-49c7-93d9-f75c4d42e71e` · printing: C21 #102 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctum Guardian
 
@@ -332,6 +363,7 @@
 - **Oracle text:**
   > Sacrifice this creature: The next time a source of your choice would deal damage to any target this turn, prevent that damage.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29809 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/40/sanctum-guardian) · oracle_id `eb7fe094-2237-40c8-b831-93498c93b768` · printing: 9ED #40 (2005-07-29) · [rulings](https://api.scryfall.com/cards/166cd9d3-7750-4f41-bffd-8f6739204d2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctum Lurker
@@ -345,7 +377,14 @@
   > Planeswalkers you control have "[+2]: This planeswalker deals 1 damage to each opponent and you gain 1 life."
 - **Keywords:** Empower Jace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10896 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/64/sanctum-lurker) · oracle_id `3ebd64d2-c178-45a2-a51f-9869754baa0f` · printing: FRA #64 (2026-10-02) · [rulings](https://api.scryfall.com/cards/2185c08f-bb4d-49d5-8b6c-c629a48bb61c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2026-08-21* — Empower Jace won't let you put loyalty counters on nontoken Jace planeswalkers. However, if you control a Jace planeswalker token that you got another way (such as an effect that creates a token that's a copy of a permanent), empower Jace will put loyalty counters on that.
+  - *2026-08-21* — If a planeswalker you control has zero loyalty counters while you control Sanctum Lurker, it will not be put into its owner's graveyard. You may still activate abilities of that planeswalker that cost [0] or that add counters to it as a cost, such as the one granted by Sanctum Lurker.
+  - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
+  - *2026-08-21* — Only one loyalty ability of each planeswalker may be activated per turn, no matter how many it has gained.
+  - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
+  - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/64/sanctum-lurker) · oracle_id `3ebd64d2-c178-45a2-a51f-9869754baa0f` · printing: FRA #64 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctum of All
 
@@ -481,7 +520,13 @@
   > Plainscycling {2}, islandcycling {2} ({2}, Discard this card: Search your library for a Plains or Island card, reveal it, put it into your hand, then shuffle.)
 - **Keywords:** Islandcycling, Plainscycling, Landcycling, Typecycling, Defender, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22545 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/arb/10/sanctum-plowbeast) · oracle_id `ff3fae6e-d8a1-46b3-a6cc-fb4e8800ee68` · printing: ARB #10 (2009-04-30) · [rulings](https://api.scryfall.com/cards/73887514-7644-4b2b-8c67-4b7e64150478/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2009-05-01* — A landcycling ability lets you search for any card in your library with the stated land type. It doesn’t have to be a basic land.
+  - *2009-05-01* — Landcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being landcycled. Any ability that stops a cycling ability from being activated also stops a landcycling ability from being activated.
+  - *2009-05-01* — Unlike the normal cycling ability, landcycling doesn’t allow you to draw a card. Instead, it lets you search your library for a land card of the specified land type, reveal it, put it into your hand, then shuffle your library.
+  - *2009-05-01* — You can choose to find any card with the appropriate land type, including nonbasic lands. You can also choose not to find a card, even if there is a land card with the appropriate type in your library.
+  - *2009-05-01* — You may only activate one landcycling ability at a time. You must specify which landcycling ability you are activating as you cycle this card, not as the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/arb/10/sanctum-plowbeast) · oracle_id `ff3fae6e-d8a1-46b3-a6cc-fb4e8800ee68` · printing: ARB #10 (2009-04-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctum Prelate
 
@@ -526,7 +571,9 @@
   > *—Shalai, voice of Plenty*
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29464 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/30/sanctum-spirit) · oracle_id `1e640846-8f50-4a94-b7aa-f228124290d3` · printing: 2XM #30 (2020-08-07) · [rulings](https://api.scryfall.com/cards/86322472-52e5-4af4-8a41-1ccc3ff6fd92/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-04-27* — A card, spell, or permanent is historic if it has the legendary supertype, the artifact card type, or the Saga subtype. Having two of those qualities doesn't make an object more historic than another or provide an additional bonus—an object either is historic or it isn't.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/30/sanctum-spirit) · oracle_id `1e640846-8f50-4a94-b7aa-f228124290d3` · printing: 2XM #30 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctum Weaver
 
@@ -549,6 +596,7 @@
 - **Oracle text:**
   > {2}, {T}: Target creature gains islandwalk until end of turn. When that creature dies this turn, destroy this artifact. (A creature with islandwalk can't be blocked as long as defending player controls an Island.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28982 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/arn/69/sandals-of-abdallah) · oracle_id `ff77074f-48ef-4c01-8ede-4e9be3e483f4` · printing: ARN #69 (1993-12-17) · [rulings](https://api.scryfall.com/cards/8f99a520-b8a9-40b0-9854-48aac297c5ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandbar Crocodile
@@ -563,6 +611,7 @@
   > *—Kipkemboi, Kukemssa pirate*
 - **Keywords:** Phasing
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29914 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/88/sandbar-crocodile) · oracle_id `e11926bf-ca14-4e1e-aca5-9ffedb91868c` · printing: MIR #88 (1996-10-08) · [rulings](https://api.scryfall.com/cards/450b79d9-5ab8-4699-8052-a278c316a5c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandbar Merfolk
@@ -576,7 +625,9 @@
   > *You are not prey until a predator knows of your existence.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27906 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/94/sandbar-merfolk) · oracle_id `7d6e5a88-a7fd-466c-a9f8-5015e3400176` · printing: USG #94 (1998-10-12) · [rulings](https://api.scryfall.com/cards/65ce3960-abf1-4f28-8434-ab3b27d3b7cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/94/sandbar-merfolk) · oracle_id `7d6e5a88-a7fd-466c-a9f8-5015e3400176` · printing: USG #94 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandbar Serpent
 
@@ -589,7 +640,9 @@
   > *Treacherous and unpredictable currents around Tolaria earned the nickname "serpent wakes."*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29682 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/95/sandbar-serpent) · oracle_id `30fce201-03a8-4afc-a1ad-7a9b3fd59836` · printing: USG #95 (1998-10-12) · [rulings](https://api.scryfall.com/cards/b3b430ec-28e1-4b2c-bea8-3bfd3a0e8cf8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/95/sandbar-serpent) · oracle_id `30fce201-03a8-4afc-a1ad-7a9b3fd59836` · printing: USG #95 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandbender Scavengers
 
@@ -600,7 +653,9 @@
   > Whenever you sacrifice another permanent, put a +1/+1 counter on this creature.
   > When this creature dies, you may exile it. When you do, return target creature card with mana value less than or equal to this creature's power from your graveyard to the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17236 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/239/sandbender-scavengers) · oracle_id `0feacc7c-b93e-4322-bc8b-b3c19006128e` · printing: TLA #239 (2025-11-21) · [rulings](https://api.scryfall.com/cards/9bfe0f7c-6dac-41d4-a013-109445158a5e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-10-02* — Use Sandbender Scavengers's power as it last existed on the battlefield to determine which creature cards may be targeted with its last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/239/sandbender-scavengers) · oracle_id `0feacc7c-b93e-4322-bc8b-b3c19006128e` · printing: TLA #239 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandbenders' Storm
 
@@ -612,7 +667,14 @@
   > • Earthbend 3. (Target land you control becomes a 0/0 creature with haste that's still a land. Put three +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)
 - **Keywords:** Earthbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10134 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/34/sandbenders-storm) · oracle_id `dfc8b8de-be1d-4f7f-bb21-4761a0e7db4e` · printing: TLA #34 (2025-11-21) · [rulings](https://api.scryfall.com/cards/b3bf4a25-4329-4318-870a-2b06aa620dc4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-10-02* — "Earthbend N" means "Target land you control becomes a 0/0 land creature with haste in addition to its other types. Put N +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control."
+  - *2025-10-02* — Earthbend doesn't give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.
+  - *2025-10-02* — If a land was animated by earthbend and would go to any zone other than the graveyard or exile, it will not be returned to the battlefield by the delayed triggered ability created by earthbend.
+  - *2025-10-02* — If the targeted land becomes an illegal target before the spell or ability that includes earthbend resolves, earthbend does nothing. If the spell or ability didn't have other targets, it won't resolve.
+  - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
+  - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/34/sandbenders-storm) · oracle_id `dfc8b8de-be1d-4f7f-bb21-4761a0e7db4e` · printing: TLA #34 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandblast
 
@@ -623,6 +685,7 @@
 - **Flavor text** (HOU printing):
   > *The sands of Amonkhet can be as much a boon as a bane. It depends entirely on which way the wind blows.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23429 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/20/sandblast) · oracle_id `41ed9b02-5926-4af0-bcee-7f41bbb3fdd6` · printing: HOU #20 (2017-07-14) · [rulings](https://api.scryfall.com/cards/0f3c501c-4e23-4e56-ad99-1803c8a877ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandcrafter Mage
@@ -636,7 +699,10 @@
   > *With heat, sand can form a delicate work of art; with pressure, an impenetrable bulwark.*
 - **Keywords:** Bolster
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29291 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/33/sandcrafter-mage) · oracle_id `6bf9c91f-f278-4b97-8517-d062118c4e56` · printing: DTK #33 (2015-03-27) · [rulings](https://api.scryfall.com/cards/8998b4a5-d94b-45b3-b619-bd850e240ce0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-02-25* — Bolster itself doesn’t target any creature, though some spells and abilities that bolster may have other effects that target creatures. For example, you could put counters on a creature with protection from white with Aven Tactician’s bolster ability.
+  - *2015-02-25* — You determine which creature to put counters on as the spell or ability that instructs you to bolster resolves. That could be the creature with the bolster ability, if it’s still under your control and has the least toughness.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/33/sandcrafter-mage) · oracle_id `6bf9c91f-f278-4b97-8517-d062118c4e56` · printing: DTK #33 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sand Golem
 
@@ -646,6 +712,7 @@
 - **Oracle text:**
   > When a spell or ability an opponent controls causes you to discard this card, return this card from your graveyard to the battlefield with a +1/+1 counter on it at the beginning of the next end step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31552 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/318/sand-golem) · oracle_id `0f9b78ca-1556-4157-a91c-55276fd78127` · printing: MIR #318 (1996-10-08) · [rulings](https://api.scryfall.com/cards/84e4a955-ce9a-4386-b6ac-c00fd25de882/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandman, Shifting Scoundrel
@@ -672,7 +739,10 @@
   > All creatures get -2/-2 until end of turn. If this spell's mayhem cost was paid, creatures your opponents control get -2/-2 until end of turn instead.
 - **Keywords:** Mayhem
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15095 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/63/sandmans-quicksand) · oracle_id `f2b376d2-a2f4-4d23-a1fb-eb7b6ebd0b7a` · printing: SPM #63 (2025-09-26) · [rulings](https://api.scryfall.com/cards/b7795e17-6717-464c-9ae3-20da52ba005a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-09-19* — Mayhem represents an alternative cost that can be paid to cast a spell from your graveyard if you discarded the card with mayhem that turn. You must pay any additional costs the spell has.
+  - *2025-09-19* — You must follow all normal timing rules when casting a spell with mayhem. For example, you can't cast a creature card with mayhem you couldn't normally cast during an opponent's turn, even if you discard that card during an opponent's turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/63/sandmans-quicksand) · oracle_id `f2b376d2-a2f4-4d23-a1fb-eb7b6ebd0b7a` · printing: SPM #63 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sand Scout
 
@@ -697,7 +767,12 @@
   > At the beginning of your upkeep, if this land is tapped, put a storage counter on it.
   > {T}, Remove any number of storage counters from this land: Add {U} for each storage counter removed this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17722 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/5ed/423/sand-silos) · oracle_id `48a830f1-8965-4f97-b3d8-ca98eab1ba33` · printing: 5ED #423 (1997-03-24) · [rulings](https://api.scryfall.com/cards/6769de45-903f-4269-a100-9ceca1df26ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2004-10-04* — Counters are not lost if the land is changed to another land type. They wait around for the land to change back.
+  - *2004-10-04* — If the land is tapped by some external effect, no counters are removed from it.
+  - *2004-10-04* — It is only considered “tapped for mana” if you activate its mana ability and generate mana from it.
+  - *2004-10-04* — Whether or not it is tapped is checked at the beginning of upkeep. If it is not tapped, the ability does not trigger. It also checks during resolution and you only get a counter if it is still tapped then.
+- **Source flags:** [Scryfall](https://scryfall.com/card/5ed/423/sand-silos) · oracle_id `48a830f1-8965-4f97-b3d8-ca98eab1ba33` · printing: 5ED #423 (1997-03-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandskin
 
@@ -710,6 +785,7 @@
   > *"Those who live by the sword will die by the sword. I choose to do neither."*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28214 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/52/sandskin) · oracle_id `13628636-7fc1-426e-abac-07fc35caf81b` · printing: ONS #52 (2002-10-07) · [rulings](https://api.scryfall.com/cards/80b59844-c9d4-4bc1-86e6-4cc596d9165d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandskitter Outrider
@@ -724,7 +800,11 @@
   > *"There's a new sinkhole, seven leagues east. I'll take Scratchy."*
 - **Keywords:** Menace, Endure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20735 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/89/sandskitter-outrider) · oracle_id `eae480fe-d9fe-4dbe-8b78-b65f398b0af3` · printing: TDM #89 (2025-04-11) · [rulings](https://api.scryfall.com/cards/1c4bfebe-f10f-44bd-9368-33e273ba5a55/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-04-04* — If a noncreature permanent is instructed to endure, the effect is the same. You can put +1/+1 counters on that permanent or create a Spirit token.
+  - *2025-04-04* — If you can’t put +1/+1 counters on the creature for any reason as an endure ability resolves (for example, if the creature is no longer on the battlefield), you’ll just create a Spirit token.
+  - *2025-04-04* — You choose whether to put +1/+1 counters on the creature or create a Spirit token as the ability that includes the endure instruction is resolving. No player may take actions between the time you choose and the time that counters are added or tokens are created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/89/sandskitter-outrider) · oracle_id `eae480fe-d9fe-4dbe-8b78-b65f398b0af3` · printing: TDM #89 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sands of Delirium
 
@@ -736,7 +816,9 @@
   > *It counts down your last few moments of sanity.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15034 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m13/216/sands-of-delirium) · oracle_id `c2cc67bf-59c5-4e06-93a3-dcaa1bf276ba` · printing: M13 #216 (2012-07-13) · [rulings](https://api.scryfall.com/cards/78c9d3bf-c858-42f4-bb61-3292f9a7141b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-07-01* — If the player has fewer than X cards in their library, they put all of them into their graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m13/216/sands-of-delirium) · oracle_id `c2cc67bf-59c5-4e06-93a3-dcaa1bf276ba` · printing: M13 #216 (2012-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sands of Time
 
@@ -749,7 +831,11 @@
   > *"But once, with a magician's help, Time was stopped and Day stood still."*
   > *—"Love Song of Night and Day"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21598 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vis/153/sands-of-time) · oracle_id `c8f69b48-a3b2-4324-852d-11fad19d6432` · printing: VIS #153 (1997-02-03) · [rulings](https://api.scryfall.com/cards/a782ee95-bde4-41f4-a947-b073cc4c1e7c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — This card still affects players when it is tapped.
+  - *2008-08-01* — Skipping the untap step means that phased out cards won't phase in, and permanents with phasing won't phase out.
+  - *2009-10-01* — You can tap lands for mana before Sands of Time toggles your permanents. The mana you gain is available during your upkeep step, but it will disappear before your draw step if you don't spend it. You cannot save it to be spent on the card you will draw this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vis/153/sands-of-time) · oracle_id `c8f69b48-a3b2-4324-852d-11fad19d6432` · printing: VIS #153 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandsower
 
@@ -761,7 +847,9 @@
 - **Flavor text** (MMA printing):
   > *It drifts through the streets as a breeze of collective sighs, wilting the bustle with dreams and heavy eyelids.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29664 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mma/29/sandsower) · oracle_id `1dce1f39-eacb-4d29-899b-55569284c7ed` · printing: MMA #29 (2013-06-07) · [rulings](https://api.scryfall.com/cards/6ae0b42a-ae61-4aa8-95c6-49b7fe455603/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-06-07* — Because the cost of Sandsower’s ability doesn’t include the {T} symbol, you can tap any three untapped creatures you control (including Sandsower itself), even if those creatures haven’t been under your control continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mma/29/sandsower) · oracle_id `1dce1f39-eacb-4d29-899b-55569284c7ed` · printing: MMA #29 (2013-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sand Squid
 
@@ -774,6 +862,7 @@
   > {T}: Tap target creature. That creature doesn't untap during its controller's untap step for as long as this creature remains tapped.
 - **Keywords:** Landwalk, Islandwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26199 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/96/sand-squid) · oracle_id `40578245-2cb8-4a6a-aeff-2252719c2d1c` · printing: MMQ #96 (1999-10-04) · [rulings](https://api.scryfall.com/cards/4efd7ce9-b920-409d-a4d2-a07fff280712/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandstalker Moloch
@@ -786,7 +875,9 @@
   > When this creature enters, if an opponent cast a blue and/or black spell this turn, look at the top four cards of your library. You may reveal a permanent card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24397 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/203/sandstalker-moloch) · oracle_id `f2a6dc8d-3c98-44ae-aff0-b838d7aee0b7` · printing: MOM #203 (2023-04-21) · [rulings](https://api.scryfall.com/cards/eb17b083-413b-4a09-a935-ac27594e3bd6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-04-14* — It doesn’t matter if the blue and/or black spell an opponent cast that turn resolved, didn’t resolve, was countered, or is still on the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/203/sandstalker-moloch) · oracle_id `f2a6dc8d-3c98-44ae-aff0-b838d7aee0b7` · printing: MOM #203 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandsteppe Citadel
 
@@ -814,7 +905,10 @@
   > *A mastodon's path always leads to an oasis.*
 - **Keywords:** Reach, Bolster
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21702 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frf/137/sandsteppe-mastodon) · oracle_id `99fa202b-052c-4627-b78c-f0b323f7bdf3` · printing: FRF #137 (2015-01-23) · [rulings](https://api.scryfall.com/cards/76ae01fb-12fa-444d-9d49-bfe195c2a5a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-11-24* — Bolster itself doesn’t target any creature, though some spells and abilities that bolster may have other effects that target creatures. For example, you could put counters on a creature with protection from white with Abzan Skycaptain’s bolster ability.
+  - *2014-11-24* — You determine which creature to put counters on as the spell or ability that instructs you to bolster resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frf/137/sandsteppe-mastodon) · oracle_id `99fa202b-052c-4627-b78c-f0b323f7bdf3` · printing: FRF #137 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandsteppe Outcast
 
@@ -826,7 +920,10 @@
   > • Put a +1/+1 counter on this creature.
   > • Create a 1/1 white Spirit creature token with flying.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24578 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frf/25/sandsteppe-outcast) · oracle_id `fccd17b1-ca0f-4649-a002-5cbf9666b510` · printing: FRF #25 (2015-01-23) · [rulings](https://api.scryfall.com/cards/f29943bb-aa89-443b-96b7-8f6f24672a9d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-11-24* — If a mode requires a target and there are no legal targets available, that mode can't be chosen. You must choose another mode if able.
+  - *2014-11-24* — You choose which mode you're using as you put the ability on the stack, after the creature has entered the battlefield. Once you've chosen a mode, you can't change that mode even if the creature leaves the battlefield in response to that ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frf/25/sandsteppe-outcast) · oracle_id `fccd17b1-ca0f-4649-a002-5cbf9666b510` · printing: FRF #25 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandsteppe Scavenger
 
@@ -839,7 +936,10 @@
   > *"Sad what passes for a dragon among the Silumgar."*
 - **Keywords:** Bolster
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28883 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/200/sandsteppe-scavenger) · oracle_id `747ee321-f2dc-4d27-90cd-c4e610086958` · printing: DTK #200 (2015-03-27) · [rulings](https://api.scryfall.com/cards/861f215b-4f3b-4aca-9664-3ef9a0ddea1a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-02-25* — Bolster itself doesn’t target any creature, though some spells and abilities that bolster may have other effects that target creatures. For example, you could put counters on a creature with protection from white with Aven Tactician’s bolster ability.
+  - *2015-02-25* — You determine which creature to put counters on as the spell or ability that instructs you to bolster resolves. That could be the creature with the bolster ability, if it’s still under your control and has the least toughness.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/200/sandsteppe-scavenger) · oracle_id `747ee321-f2dc-4d27-90cd-c4e610086958` · printing: DTK #200 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandsteppe War Riders
 
@@ -851,7 +951,10 @@
   > At the beginning of combat on your turn, bolster X, where X is the number of differently named artifact tokens you control. (Choose a creature with the least toughness among creatures you control and put X +1/+1 counters on it.)
 - **Keywords:** Trample, Bolster
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20638 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/39/sandsteppe-war-riders) · oracle_id `461c0c37-7213-4ece-91f7-934e6a1a8d64` · printing: MOC #39 (2023-04-21) · [rulings](https://api.scryfall.com/cards/eed8f00b-0d77-48d4-a7b8-979a8ebc2210/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-04-14* — A token’s name is its subtypes plus the word “Token” unless it’s copying another object or it was given a specific name by the effect that created it. For example, Myr tokens are named “Myr Token,” and they have a different name than Phyrexian Myr tokens, which are named “Phyrexian Myr Token.”
+  - *2023-04-14* — To determine the number of differently named artifact tokens you control, count each artifact token you control once, but only if its English name isn’t exactly the same as another artifact token you’ve already counted this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/39/sandsteppe-war-riders) · oracle_id `461c0c37-7213-4ece-91f7-934e6a1a8d64` · printing: MOC #39 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandstone Bridge
 
@@ -862,6 +965,7 @@
   > When this land enters, target creature gets +1/+1 and gains vigilance until end of turn.
   > {T}: Add {W}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12256 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/243/sandstone-bridge) · oracle_id `08911e8e-cd67-4960-a927-958c33632469` · printing: BFZ #243 (2015-10-02) · [rulings](https://api.scryfall.com/cards/c781e932-4605-47aa-add1-4ee62f4e7ead/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandstone Deadfall
@@ -874,6 +978,7 @@
   > *"Two or three tons of rock can really get you down—and keep you there."*
   > *—Kamahl, pit fighter*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30203 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/307/sandstone-deadfall) · oracle_id `42c77495-5cdb-4140-827c-b1e017640c3d` · printing: ODY #307 (2001-10-01) · [rulings](https://api.scryfall.com/cards/241ebc17-b8ae-4ca4-8413-f53501d86244/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandstone Needle
@@ -915,6 +1020,7 @@
   > *—Gerrard of the Weatherlight*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31447 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/154/sandstone-warrior) · oracle_id `120a0bcd-eca2-44eb-ad8d-5e4077f7e21c` · printing: TPR #154 (2015-05-06) · [rulings](https://api.scryfall.com/cards/0c8a607b-b79a-4dc5-bbf5-f6de556f1c7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandstorm
@@ -926,6 +1032,7 @@
 - **Flavor text** (DMR printing):
   > *Ravaged by decades of war, the land struck back with primal, blinding fury.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23422 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/174/sandstorm) · oracle_id `7bb41690-f8ec-462a-ba29-be453eb86fca` · printing: DMR #174 (2023-01-13) · [rulings](https://api.scryfall.com/cards/25fb3d07-a128-455a-a632-c1aba4a4ceb8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandstorm Charger
@@ -940,7 +1047,11 @@
   > *—Urdnan, Dromoka warrior*
 - **Keywords:** Megamorph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31970 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/34/sandstorm-charger) · oracle_id `aa7a9689-e79a-4562-a621-eadc45966ce8` · printing: DTK #34 (2015-03-27) · [rulings](https://api.scryfall.com/cards/9757be26-4480-43b7-a38a-8e4bde4e2d50/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-02-25* — If a face-down creature with megamorph is turned face up some other way (for example, if you manifest a card with megamorph and then pay its mana cost to turn it face up), you won’t put a +1/+1 counter on it.
+  - *2015-02-25* — Megamorph is a variant of the morph ability. You can find more information on morph on cards with morph from the Khans of Tarkir set.
+  - *2015-02-25* — Turning a face-down creature with megamorph face up and putting a +1/+1 counter on it is a special action. It doesn’t use the stack and can’t be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/34/sandstorm-charger) · oracle_id `aa7a9689-e79a-4562-a621-eadc45966ce8` · printing: DTK #34 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandstorm Crasher
 
@@ -952,7 +1063,15 @@
   > You may exert this creature as it attacks. When you do, create a tapped and attacking token that's a copy of target creature you control. Sacrifice the token at the beginning of the next end step. (An exerted creature won't untap during your next untap step.)
 - **Keywords:** Trample, Exert
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14384 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/j25/18/sandstorm-crasher) · oracle_id `d1597137-5609-4012-93bb-19c49c9cf2c3` · printing: J25 #18 (2024-11-15) · [rulings](https://api.scryfall.com/cards/2bcf1ed6-5e5b-4035-9d21-f84ac4fc4fbd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-11-08* — Any enters abilities of the copied creature will trigger when the token enters. Any "as [this permanent] enters" or "[this permanent] enters with" abilities of the copied creature will also work.
+  - *2024-11-08* — If an exerted permanent is already untapped during your next untap step (most likely because an effect untapped it), exert's effect preventing it from untapping expires without having done anything.
+  - *2024-11-08* — If the copied creature is a token, the token that's created copies the original characteristics of that token as stated by the effect that created the token, with the listed exceptions.
+  - *2024-11-08* — If the copied creature is copying something else, then the token enters as whatever that creature copied, with the listed exceptions.
+  - *2024-11-08* — If you gain control of another player's permanent until end of turn and exert it, and then that player regains control of it, it will untap during that player's untap step.
+  - *2024-11-08* — The token created by the reflexive triggered ability copies exactly what was printed on the original creature and nothing else (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on. If it is a Vehicle, it is not crewed.
+  - *2024-11-08* — You can exert Sandstorm Crasher as you declare it as an attacking creature. You can't do so later in combat, and creatures put onto the battlefield attacking can't be exerted. Any abilities that trigger on exerting an attacking creature will resolve before blockers are declared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/j25/18/sandstorm-crasher) · oracle_id `d1597137-5609-4012-93bb-19c49c9cf2c3` · printing: J25 #18 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandstorm Eidolon
 
@@ -963,6 +1082,7 @@
   > {R}, Sacrifice this creature: Target creature can't block this turn.
   > Whenever you cast a multicolored spell, you may return this card from your graveyard to your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28969 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/70/sandstorm-eidolon) · oracle_id `84fe1c59-3f7b-4c1c-9bc4-78a185cfcc0c` · printing: DIS #70 (2006-05-05) · [rulings](https://api.scryfall.com/cards/49e61ce3-e2cc-401c-b998-8baf8836e83a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandstorm Salvager
@@ -1005,7 +1125,10 @@
 - **Flavor text** (HOU printing):
   > *The bombardment of sand disorients, chokes, and ultimately tenderizes its prey.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27558 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/107/sand-strangler) · oracle_id `c429716b-bd3a-4060-b8a3-82e3d6aecd88` · printing: HOU #107 (2017-07-14) · [rulings](https://api.scryfall.com/cards/dd7153be-ad6c-47ff-8f45-bc8df17973cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-07-14* — For abilities that trigger only if you control a Desert or there is a Desert card in your graveyard, one condition must be true as the ability triggers and one must be true as the ability resolves. They don’t have to be the same condition, though. For example, you could sacrifice your only Desert after the ability triggers but before it has resolved.
+  - *2017-07-14* — If an ability checks whether you control a Desert or there is a Desert card in your graveyard, having more than one doesn’t matter. Controlling one is the same as controlling five. There is also no extra bonus for both controlling one and having one in your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/107/sand-strangler) · oracle_id `c429716b-bd3a-4060-b8a3-82e3d6aecd88` · printing: HOU #107 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandworm
 
@@ -1017,7 +1140,10 @@
   > When this creature enters, destroy target land. Its controller may search their library for a basic land card, put it onto the battlefield tapped, then shuffle.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18449 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/155/sandworm) · oracle_id `e92185f8-579c-4645-9cb8-ef5deb9eebc8` · printing: FIN #155 (2025-06-13) · [rulings](https://api.scryfall.com/cards/a6e021da-2397-4ad3-a07b-65c701df531a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-06-06* — If Sandworm's last ability resolves but doesn't destroy the target land (probably because the land had indestructible), the target land's controller still gets to search for a basic land card.
+  - *2025-06-06* — If the target land is an illegal target when Sandworm's last ability tries to resolve, it won't resolve and none of its effects will happen. The target land's controller won't search for a basic land card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/155/sandworm) · oracle_id `e92185f8-579c-4645-9cb8-ef5deb9eebc8` · printing: FIN #155 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandwurm Convergence
 
@@ -1045,6 +1171,7 @@
   > *—Sarkhan Vol*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31095 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/arb/139/sangrite-backlash) · oracle_id `03220765-8a9d-4d4a-88d5-98df975ce13c` · printing: ARB #139 (2009-04-30) · [rulings](https://api.scryfall.com/cards/fa56b15e-d02d-4306-82a6-ced778fee90f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sangrite Surge
@@ -1056,6 +1183,7 @@
 - **Flavor text** (ALA printing):
   > *Some believe the spiky crystal called sangrite is concentrated dragon's breath. Others think it's crystallized life energy. The clans care only about the power it unleashes when crushed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30235 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ala/190/sangrite-surge) · oracle_id `d8053319-b2a0-4df3-9787-3591d12cf1b9` · printing: ALA #190 (2008-10-03) · [rulings](https://api.scryfall.com/cards/16b4527e-e449-45d0-a551-634e2ceb21c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sangromancer
@@ -1083,7 +1211,9 @@
 - **Flavor text** (TSR printing):
   > *The living is all it eats.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30040 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/135/sangrophage) · oracle_id `5d03e6a7-81ea-47d3-add7-8dfdbbfec6d3` · printing: TSR #135 (2021-03-19) · [rulings](https://api.scryfall.com/cards/c9ceaa1f-4c11-4f06-aa87-2f2a0deb47e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — You choose whether or not to pay 2 life as the triggered ability resolves. You can pay 2 life even if Sangrophage is already tapped. (Doing so won't cause Sangrophage to become untapped, however.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/135/sangrophage) · oracle_id `5d03e6a7-81ea-47d3-add7-8dfdbbfec6d3` · printing: TSR #135 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanguimancy
 
@@ -1092,7 +1222,12 @@
 - **Oracle text:**
   > You draw X cards and you lose X life, where X is your devotion to black. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20001 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bng/81/sanguimancy) · oracle_id `f0a85525-b174-41d9-8871-870af29d3480` · printing: BNG #81 (2014-02-07) · [rulings](https://api.scryfall.com/cards/fb129def-4055-4b12-9944-39406b451553/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-09-15* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2013-09-15* — If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time.
+  - *2013-09-15* — Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color.
+  - *2013-09-15* — Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bng/81/sanguimancy) · oracle_id `f0a85525-b174-41d9-8871-870af29d3480` · printing: BNG #81 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanguinary Mage
 
@@ -1105,6 +1240,7 @@
   > *New cults rising in Nephalia have found allies in the Stromkirk bloodline, whose progenitor worships ancient and terrible forces.*
 - **Keywords:** Prowess
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24568 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/178/sanguinary-mage) · oracle_id `d3fb0388-bfa8-4d22-831c-40a81a11d8c6` · printing: SOI #178 (2016-04-08) · [rulings](https://api.scryfall.com/cards/ace86fac-769c-4440-9a40-318d7172555b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanguinary Priest
@@ -1119,6 +1255,7 @@
   > *"Embrace the strength of your Primarch, but deny the Red Thirst, brothers! There is no return from that darkest of paths."*
 - **Keywords:** Lifelink, Blood Chalice
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9974 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/53/sanguinary-priest) · oracle_id `22f5f39d-0898-4c47-8fa8-7d97102d3229` · printing: 40K #53 (2022-10-07) · [rulings](https://api.scryfall.com/cards/f221eccc-3bd2-4629-aacc-7abf8c11449f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanguine Bond
@@ -1148,7 +1285,14 @@
   > Whenever you sacrifice a Blood token, each opponent loses 1 life and you gain 1 life.
 - **Keywords:** Conjure
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31619 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/260/sanguine-brushstroke) · oracle_id `d2c6502d-fefd-4c9f-9d7b-6dfcc43316e1` · printing: MB2 #260 (2024-08-02) · [rulings](https://api.scryfall.com/cards/b7c08707-9467-452c-96ee-2e9d3661dcb4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — A conjured card’s owner is the player who was instructed to conjure it.
+  - *2024-11-08* — Conjured cards are not tokens. Treat conjured cards just as you would treat regular cards. They can move between zones just like any other card and continue to exist for the duration of the game. At the end of the game, make sure to remove all conjured cards from your deck.
+  - *2024-11-08* — Sanguine Brushstroke’s last ability triggers whenever you sacrifice a Blood token, not just when you activate a Blood token’s activated ability.
+  - *2024-11-08* — To conjure a card in a game of tabletop Magic, use the Gatherer card database at Gatherer.Wizards.com to find the official text for the card you’re conjuring. Then put the appropriate conjured card into the appropriate zone.
+  - *2024-11-08* — You can represent conjured cards using objects from outside the game so long as the game state remains clear and understandable to all players. You might need to get creative. For example, while a conjured card is in a public zone, you can represent it by writing on a piece of paper or using some kind of token. But if a conjured card is put into a hidden zone, you must add an object to that zone which, while face down, is indistinguishable from other cards in your deck.
+  - *2024-11-08* — You do not need to own an actual copy of a card in order to conjure it, and a conjured card does not need to obey format legality or deckbuilding restrictions. For example, in a game of Mystery Booster 2 Limited, Toralf’s Disciple can conjure Lightning Bolts into your deck, even though the card Lightning Bolt isn’t found in Mystery Booster 2 and isn’t normally legal in the Limited format.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/260/sanguine-brushstroke) · oracle_id `d2c6502d-fefd-4c9f-9d7b-6dfcc43316e1` · printing: MB2 #260 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanguine Evangelist
 
@@ -1162,6 +1306,7 @@
   > *"Fang-brethren, we feed together."*
 - **Keywords:** Battle Cry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10523 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/34/sanguine-evangelist) · oracle_id `a70d9645-7c25-4fcb-9d16-fb73ce8b55e2` · printing: LCI #34 (2023-11-17) · [rulings](https://api.scryfall.com/cards/269ddd84-fdc4-4c94-b183-32ecec56967c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanguine Glorifier
@@ -1174,6 +1319,7 @@
 - **Flavor text** (RIX printing):
   > *For the Legion of Dusk, the Immortal Sun is a source of eternal life. When they reclaim it, they will no longer be forced to subsist on the blood of the wicked.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26775 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/20/sanguine-glorifier) · oracle_id `391f1331-7577-4bf4-a9ed-2f55ded4cbd8` · printing: RIX #20 (2018-01-19) · [rulings](https://api.scryfall.com/cards/12993e53-8790-4d6f-9da1-a259f67aa5bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanguine Guard
@@ -1189,6 +1335,7 @@
   > *—\*Phyrexian Scriptures\**
 - **Keywords:** First strike, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29178 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dde/9/sanguine-guard) · oracle_id `d86cc093-5db9-437a-a5bd-77d6faf97ca0` · printing: DDE #9 (2010-03-19) · [rulings](https://api.scryfall.com/cards/2c1fa0c5-8eef-484e-9d5f-38e87d99ed73/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanguine Indulgence
@@ -1202,7 +1349,10 @@
   > *"Drink from the vein? How provincial."*
   > *—Lord Duchorvin*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15106 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/613/sanguine-indulgence) · oracle_id `010ec11a-0484-486d-b7c0-de65593bf457` · printing: FDN #613 (2024-11-15) · [rulings](https://api.scryfall.com/cards/03a26ca7-b26f-4b86-a060-712f15f4bf7f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-06-23* — Sanguine Indulgence's first ability looks at how much life you've gained in the turn. It doesn't care if you also lost life, even if you lost more life than you gained.
+  - *2020-06-23* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Sanguine Indulgence). The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/613/sanguine-indulgence) · oracle_id `010ec11a-0484-486d-b7c0-de65593bf457` · printing: FDN #613 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanguine Praetor
 
@@ -1215,6 +1365,7 @@
   > *"Our fealty to guilds dooms us. The old gods shall resurface. Our skins will wave upon the guild-masts over emptied streets, and our bones will clatter in the wind."*
   > *—Ilromov, traveling storyteller*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27784 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gpt/60/sanguine-praetor) · oracle_id `af6124cf-e8c5-44f3-964a-4ac0caa6f22b` · printing: GPT #60 (2006-02-03) · [rulings](https://api.scryfall.com/cards/8291b1a9-2d04-4dd7-b8c5-3b1018aa0d2f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanguine Sacrament
@@ -1226,7 +1377,9 @@
 - **Flavor text** (XLN printing):
   > *"As the sun sets to make way for dawn, so we turn to darkness to bring about the coming salvation."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12498 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/33/sanguine-sacrament) · oracle_id `851be993-35d7-4566-96a0-3fe84d17979e` · printing: XLN #33 (2017-09-29) · [rulings](https://api.scryfall.com/cards/f9fae153-d86a-42b5-9c1c-6dbd56118ecb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-09-29* — Sanguine Sacrament causes you to gain an amount of life equal to twice the number chosen for X as a single life-gain event. An ability that triggers “Whenever you gain life” will trigger only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/33/sanguine-sacrament) · oracle_id `851be993-35d7-4566-96a0-3fe84d17979e` · printing: XLN #33 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanguine Savior
 
@@ -1239,7 +1392,20 @@
   > When this creature is turned face up, another target creature you control gains lifelink until end of turn.
 - **Keywords:** Flying, Lifelink, Disguise
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21962 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/230/sanguine-savior) · oracle_id `cc3a6c83-a671-4ce8-b98e-434989fb6778` · printing: MKM #230 (2024-02-09) · [rulings](https://api.scryfall.com/cards/9cba5503-ba99-43d8-8062-66d905e0d86b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2024-02-02* — A disguise ability lets you cast a card face down by paying {3} and announcing that you are using a disguise ability. Any time you have priority, you can turn a face-down permanent with disguise face up by paying its disguise cost.
+  - *2024-02-02* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent and Auras and Equipment that were attached to that permanent aren't affected unless the new characteristics of the object change the legality of those targets or attachments.
+  - *2024-02-02* — Any time you have priority, you may turn the face-down creature face up by revealing what its disguise cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2024-02-02* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down permanents or spells you don't control unless an effect instructs or allows you to do so.
+  - *2024-02-02* — Because face-down creatures don't have a name, they can't have the same name as any other creature, even another face-down creature.
+  - *2024-02-02* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2024-02-02* — If a face-down creature loses its abilities, it can't be turned face up with a disguise ability because it will no longer have a disguise ability (or a disguise cost) once face up.
+  - *2024-02-02* — If a face-down spell leaves the stack and goes to any zone other than the battlefield (if it was countered, for example), you must reveal it. Similarly, if a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or the game ends.
+  - *2024-02-02* — The creature spell is a 2/2 creature spell with ward {2} that has no name, mana cost, or creature types. The resulting creature is a 2/2 creature with ward {2} that has no name, mana cost, or creature types. Both the spell and the resulting creature are colorless and have a mana value of 0. Other effects that apply to the spell or creature can still grant it any characteristics it doesn't have or change the characteristics it does have.
+  - *2024-02-02* — The face-down spell has no mana cost and a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3} to cast it. This is an alternative cost.
+  - *2024-02-02* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2024-02-02* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/230/sanguine-savior) · oracle_id `cc3a6c83-a671-4ce8-b98e-434989fb6778` · printing: MKM #230 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanguine Sipper
 
@@ -1251,7 +1417,9 @@
 - **Flavor text** (UNF printing):
   > *The midway offers every flavor under the sun, even to guests who need to stay out of it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31132 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/26/sanguine-sipper) · oracle_id `ea787e29-5e24-4136-bdf6-bee338899e34` · printing: UNF #26 (2022-10-07) · [rulings](https://api.scryfall.com/cards/c2b8ae57-74d4-4484-aead-56fe125f26f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-07* — The stickered permanent could be Sanguine Sipper itself or another permanent you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/26/sanguine-sipper) · oracle_id `ea787e29-5e24-4136-bdf6-bee338899e34` · printing: UNF #26 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanguine Spy
 
@@ -1264,7 +1432,14 @@
   > At the beginning of your end step, if there are five or more mana values among cards in your graveyard, you may pay 2 life. If you do, draw a card.
 - **Keywords:** Surveil, Lifelink, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13882 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/93/sanguine-spy) · oracle_id `03af4b10-900e-4013-bd5d-dd8d132d50fb` · printing: SNC #93 (2022-04-29) · [rulings](https://api.scryfall.com/cards/2d52ea1e-5b66-47c7-9a6d-95f5996565d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-04-29* — Sanguine Spy's triggered ability checks the number of mana values among cards you control both when the ability triggers and when it resolves. If you no longer have five or more mana values among those cards when the ability resolves, you may not pay 2 life.
+  - *2022-04-29* — The mana value of a double-faced card in your graveyard is always the mana value of the front face.
+  - *2022-04-29* — The mana value of a land card is 0.
+  - *2022-04-29* — The mana value of a split card in the graveyard is the total mana value of both halves of that card. It does not have two mana values.
+  - *2022-04-29* — X is 0 when determining the mana value of a card in your graveyard.
+  - *2022-04-29* — “Five or more mana values among cards in your graveyard” means there are at least five different mana values among those cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/93/sanguine-spy) · oracle_id `03af4b10-900e-4013-bd5d-dd8d132d50fb` · printing: SNC #93 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanguine Statuette
 
@@ -1274,7 +1449,13 @@
   > When this artifact enters, create a Blood token. (It's an artifact with "{1}, {T}, Discard a card, Sacrifice this token: Draw a card.")
   > Whenever you sacrifice a Blood token, you may have this artifact become a 3/3 Vampire artifact creature with haste until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18545 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/177/sanguine-statuette) · oracle_id `35553c2a-0150-49e4-81da-f356c6a17253` · printing: VOW #177 (2021-11-19) · [rulings](https://api.scryfall.com/cards/706fafd4-443f-4e16-972e-86c16f22670a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-11-19* — If after becoming a creature, Sanguine Statuette becomes subject to an effect that reduces or increases its toughness, sacrificing another Blood token won't allow you to counteract that effect. For example, if a resolving spell gives it -2/-2 until end of turn, it will be a 1/1 creature, even if you set its power to 3/3 again.
+  - *2021-11-19* — If another effect sets Sanguine Statuette's power and/or toughness to another number, sacrificing a Blood token will set it back to 3/3. However, it would still be subject to any increases or reductions that are applying, as described above.
+  - *2025-01-24* — If an effect refers to a Blood token, it means any artifact token with the subtype Blood, even if it has gained other subtypes.
+  - *2025-01-24* — Some triggered abilities trigger "whenever you sacrifice a Blood token." These abilities trigger regardless of why you sacrificed that Blood token.
+  - *2025-01-24* — You can't sacrifice a Blood token to pay multiple costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/177/sanguine-statuette) · oracle_id `35553c2a-0150-49e4-81da-f356c6a17253` · printing: VOW #177 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanguine Syphoner
 
@@ -1299,6 +1480,7 @@
 - **Flavor text** (INR printing):
   > *His mind was lost long before his flesh.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11137 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/129/sanitarium-skeleton) · oracle_id `d09b0648-e324-4a16-b78c-d1849177c04f` · printing: INR #129 (2025-01-24) · [rulings](https://api.scryfall.com/cards/119020b3-9d26-4153-b7b9-28375f7fa915/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanitation Automaton
@@ -1312,6 +1494,7 @@
   > *"I am once again bursting with discarded theories. Disposal imminent."*
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22569 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/256/sanitation-automaton) · oracle_id `be2ab552-df82-49a0-8f0b-ee66de34e1a7` · printing: MKM #256 (2024-02-09) · [rulings](https://api.scryfall.com/cards/52608ba4-c47d-44e4-b624-dee2a3a42ae2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanity Gnawers
@@ -1324,6 +1507,7 @@
 - **Flavor text** (ARB printing):
   > *The last thought to go through their victim's mind is the one they tear out through the scalp.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28094 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/arb/44/sanity-gnawers) · oracle_id `e82308d5-29ee-48eb-9d1c-f24897ef191c` · printing: ARB #44 (2009-04-30) · [rulings](https://api.scryfall.com/cards/c088d28d-16c2-4dd2-b036-946dfdb8ec98/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanity Grinding
@@ -1334,7 +1518,11 @@
   > Chroma — Reveal the top ten cards of your library. For each blue mana symbol in the mana costs of the revealed cards, target opponent mills a card. Then put the cards you revealed this way on the bottom of your library in any order.
 - **Keywords:** Chroma, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24333 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eve/29/sanity-grinding) · oracle_id `bfa0ec94-8851-4518-92e7-ab9f1f90a051` · printing: EVE #29 (2008-07-25) · [rulings](https://api.scryfall.com/cards/7d3e377f-6bb7-4fa1-b58b-7e2af06ca4b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-08-01* — Chroma abilities check only mana costs, which are found in a card’s upper right corner. They don’t count mana symbols that appear in a card’s text box.
+  - *2008-08-01* — Chroma abilities count hybrid mana symbols of the appropriate color. For example, a card with mana cost {3}{U/R}{U/R} has two red mana symbols in its mana cost.
+  - *2008-08-01* — If there are fewer than ten cards in your library, reveal them all. For each blue mana symbol in those cards’ mana costs, the targeted opponent puts the top card of their library into their graveyard. Then you reorder your entire library as you choose.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eve/29/sanity-grinding) · oracle_id `bfa0ec94-8851-4518-92e7-ab9f1f90a051` · printing: EVE #29 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanwell, Avenger Ace
 
@@ -1345,4 +1533,8 @@
   > As long as an artifact creature you control is attacking, prevent all damage that would be dealt to Sanwell.
   > Whenever Sanwell becomes tapped, exile the top six cards of your library. You may cast a Vehicle or artifact creature spell from among them. Then put the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10832 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/brc/5/sanwell-avenger-ace) · oracle_id `4884ad6c-2290-44fc-ab9e-6e6b75b2d69a` · printing: BRC #5 (2022-11-18) · [rulings](https://api.scryfall.com/cards/70cb4359-8e57-4d1a-bf1f-c188555376ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-10-14* — If Sanwell, Avenger Ace is somehow an artifact creature, its first ability will see itself while it is attacking.
+  - *2022-10-14* — If you choose not to cast a spell this way, it goes to the bottom of the library with the other exiled cards. You can't wait and cast it later.
+  - *2022-10-14* — You must pay all costs for a spell cast using Sanwell's last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/brc/5/sanwell-avenger-ace) · oracle_id `4884ad6c-2290-44fc-ab9e-6e6b75b2d69a` · printing: BRC #5 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

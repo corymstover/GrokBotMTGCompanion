@@ -84,6 +84,7 @@
   > *With the ways between worlds thrown open, the Chain Veil's foul magic seeped from a vault deep within Ravnica all the way to Shandalar's dormant masters.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26192 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/156/onakke-javelineer) · oracle_id `e834b281-279f-4df3-9c0e-764502b809c5` · printing: MOM #156 (2023-04-21) · [rulings](https://api.scryfall.com/cards/e5446057-7330-40b9-a5d9-bad4876337cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Onakke Oathkeeper
@@ -109,6 +110,7 @@
 - **Flavor text** (M21 printing):
   > *The ogres you know are nothing like the Onakke. Possessing both intellect and industry, they had brute strength without being brutish.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28730 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/155/onakke-ogre) · oracle_id `fa10cacb-ab14-447a-b411-9d74bc3772fb` · printing: M21 #155 (2020-07-03) · [rulings](https://api.scryfall.com/cards/76e42d07-57d9-4de4-8d41-eb42dd1573ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Once and Future
@@ -120,7 +122,14 @@
   > Adamant — If at least three green mana was spent to cast this spell, instead return those cards to your hand and exile Once and Future.
 - **Keywords:** Adamant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15097 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/168/once-and-future) · oracle_id `f666c38d-e601-4aa9-b140-4b6607bb12dd` · printing: ELD #168 (2019-10-04) · [rulings](https://api.scryfall.com/cards/1c5dd4e8-4d5f-45a0-9cae-4f842751894d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2019-10-04* — Adamant effects check what mana was actually spent to cast a spell. If an effect allows you to spend mana “as though it were mana” of any color or type, that allows you to spend mana you couldn't otherwise spend, but it doesn't change what mana you spent to cast the spell.
+  - *2019-10-04* — If an effect allows you to cast a spell without paying its mana cost, you can't choose to cast it and pay unless another rule or effect allows you to cast that spell for a cost. Similarly, you can't waive a cost reduction unless that effect says you may.
+  - *2019-10-04* — If an instant or sorcery spell has an adamant ability, you perform the spell's instructions in order. You don't perform the adamant instruction before the spell resolves or before any other effects printed above it.
+  - *2019-10-04* — If one of the two target cards is an illegal target by the time Once and Future resolves, you'll put the other in the appropriate zone and exile Once and Future. If both targets are illegal, the spell won't resolve and you won't exile Once and Future.
+  - *2019-10-04* — If you copy a spell that has an adamant ability, no mana was spent to cast the copy at all, so that ability won't apply.
+  - *2019-10-04* — You choose which card will be returned to your hand and which will be put on top of your library as you choose those cards as targets, not as Once and Future resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/168/once-and-future) · oracle_id `f666c38d-e601-4aa9-b140-4b6607bb12dd` · printing: ELD #168 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Once More with Feeling
 
@@ -132,6 +141,7 @@
 - **Flavor text** (UGL printing):
   > *If yo . . . ted.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ugl/11/once-more-with-feeling) · oracle_id `da286f5d-6fc9-498f-9629-b4dcb02d1a01` · printing: UGL #11 (1998-08-11) · [rulings](https://api.scryfall.com/cards/ba42881b-9275-4b54-a17f-dec87d21a270/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Once Upon a Time
@@ -158,7 +168,10 @@
   > *—Gideon Jura*
 - **Keywords:** Rally
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15696 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/149/ondu-champion) · oracle_id `b638407b-4749-41fa-8054-f9db57b849ea` · printing: BFZ #149 (2015-10-02) · [rulings](https://api.scryfall.com/cards/708e1979-902b-410a-ae46-3fd1d2acc31d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-08-25* — If a creature with a rally ability enters the battlefield under your control at the same time as other Allies, that ability will trigger once for each of those creatures and once for the creature with the ability itself.
+  - *2015-08-25* — When an Ally enters the battlefield under your control, each rally ability of the permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/149/ondu-champion) · oracle_id `b638407b-4749-41fa-8054-f9db57b849ea` · printing: BFZ #149 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ondu Cleric
 
@@ -184,6 +197,7 @@
 - **Flavor text** (PCA printing):
   > *Some druids nurture gardens. Others nurture continents.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18251 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pca/71/ondu-giant) · oracle_id `ed8b2887-15fa-4e62-83ac-55973ac6f76c` · printing: PCA #71 (2016-11-25) · [rulings](https://api.scryfall.com/cards/14024eba-58aa-4c28-afbe-cde407f7ddd7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ondu Greathorn
@@ -199,7 +213,11 @@
   > *—Bruse Tarl, Goma Fada nomad*
 - **Keywords:** First strike, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28285 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/40/ondu-greathorn) · oracle_id `9d061ec5-1edf-46e7-9e6a-4ddc9ced4114` · printing: BFZ #40 (2015-10-02) · [rulings](https://api.scryfall.com/cards/95d9668e-05dc-41c4-9326-ef4c0e15dd80/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/40/ondu-greathorn) · oracle_id `9d061ec5-1edf-46e7-9e6a-4ddc9ced4114` · printing: BFZ #40 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ondu Inversion // Ondu Skyruins
 
@@ -239,7 +257,25 @@
   > Distribute two +1/+1 counters among one or two target creatures. (Then exile this card. You may cast the creature later from exile.)
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20101 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/196/ondu-knotmaster-throw-a-line) · oracle_id `dc69a130-967a-4d9f-992f-db7fad2fcd6d` · printing: MH3 #196 (2024-06-14) · [rulings](https://api.scryfall.com/cards/27912e61-97ef-406b-bb88-4fe89a54726e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (17):
+  - *2024-06-07* — A creature that is equipped is considered modified no matter who controls the Equipment that's attached to it.
+  - *2024-06-07* — A creature with a counter on it is considered modified no matter what kind of counter it is or which player put it on that creature.
+  - *2024-06-07* — An Aura controlled by another player does not cause a creature you control to be modified.
+  - *2024-06-07* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Ondu Knotmaster is a white and black creature card whose mana value is 4. It can't be the target of Pinnacle Monk's last ability ("When Pinnacle Monk enters the battlefield, return target instant or sorcery card from your graveyard to your hand").
+  - *2024-06-07* — An effect may refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
+  - *2024-06-07* — Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2024-06-07* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to cast it as a permanent later.
+  - *2024-06-07* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to cast it as a permanent spell.
+  - *2024-06-07* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to cast the copy as a permanent.
+  - *2024-06-07* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2024-06-07* — If an effect refers to a card, spell, or permanent that has an Adventure, it won't find an instant or sorcery spell on the stack that's been cast as an Adventure.
+  - *2024-06-07* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+  - *2024-06-07* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Eladamri, Korvecdal ("You may cast creature spells from the top of your library") and Ondu Knotmaster is on top of your library, you can cast Ondu Knotmaster, but not Throw a Line.
+  - *2024-06-07* — If you choose two targets for Throw a Line, and one of the creatures is an illegal target as Throw a Line tries to resolve, the original distribution of counters still applies and the counter that would have been put on the illegal target are lost.
+  - *2024-06-07* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2024-06-07* — You choose how the counters will be distributed as you cast Throw a Line. Each target must receive at least one +1/+1 counter.
+  - *2024-06-07* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/196/ondu-knotmaster-throw-a-line) · oracle_id `dc69a130-967a-4d9f-992f-db7fad2fcd6d` · printing: MH3 #196 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ondu Rising
 
@@ -250,7 +286,15 @@
   > Awaken 4—{4}{W} (If you cast this spell for {4}{W}, also put four +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.)
 - **Keywords:** Awaken
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24432 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/41/ondu-rising) · oracle_id `01081f81-f588-43ab-8d47-13593aa19ce1` · printing: BFZ #41 (2015-10-02) · [rulings](https://api.scryfall.com/cards/07cb9f87-7ba4-408c-952d-fc9a7611df42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2015-08-25* — Awaken doesn’t give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.
+  - *2015-08-25* — If a spell with awaken has multiple targets (including the land you control), and some but not all of those targets become illegal by the time the spell tries to resolve, the spell won’t affect the illegal targets in any way.
+  - *2015-08-25* — If the non-awaken part of the spell doesn’t require a target and you cast the spell for its awaken cost, then the spell won’t resolve if the target land you control becomes illegal before the spell resolves (such as due to being destroyed in response to the spell being cast).
+  - *2015-08-25* — If the non-awaken part of the spell requires a target, you must choose a legal target. You can’t cast the spell if you can’t choose a legal target for each instance of the word “target” (though you only need a legal target for the awaken ability if you’re casting the spell for its awaken cost).
+  - *2015-08-25* — Ondu Rising creates a delayed triggered ability. Any creature that attacks that turn will cause that ability to trigger, including creatures controlled by a teammate and creatures you didn’t control or that didn’t exist as Ondu Rising resolved. Notably, this includes the land creature created if Ondu Rising is cast for its awaken cost.
+  - *2015-08-25* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that’s turned into a creature this way can still be tapped for {G}.
+  - *2015-08-25* — You can cast a spell with awaken for its mana cost and get only its first effect. If you cast a spell for its awaken cost, you’ll get both effects.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/41/ondu-rising) · oracle_id `01081f81-f588-43ab-8d47-13593aa19ce1` · printing: BFZ #41 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ondu Spiritdancer
 
@@ -284,7 +328,9 @@
   > *"I will follow the light of Iona into battle, and I will know no fear."*
 - **Keywords:** Cohort
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26636 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/31/ondu-war-cleric) · oracle_id `d011153e-d12a-4eb1-b105-64729e37be12` · printing: OGW #31 (2016-01-22) · [rulings](https://api.scryfall.com/cards/9b255d34-04fa-4d3b-9fc1-8f980ef1f054/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-01-22* — To activate a cohort ability, the Ally with that ability must have been under your control continuously since the beginning of your most recent turn. Informally, it can’t have “summoning sickness.” However, the other Ally you tap can be one that just came under your control. (Note that tapping the second Ally doesn’t use {T} [the tap symbol].)
+- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/31/ondu-war-cleric) · oracle_id `d011153e-d12a-4eb1-b105-64729e37be12` · printing: OGW #31 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### One-Clown Band
 
@@ -296,6 +342,7 @@
 - **Flavor text** (UNF printing):
   > *Programmed to play more than seventy instruments and only one song.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25658 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/117/one-clown-band) · oracle_id `eeaa03c9-533f-4067-a2c8-86f3b9e58583` · printing: UNF #117 (2022-10-07) · [rulings](https://api.scryfall.com/cards/b96e3f29-bb0d-49d0-9649-19c3c9b9f40d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### One Does Not
@@ -308,6 +355,7 @@
   > Enchanted creature has nonbasic landwalk. (It can't simply be blocked as long as defending player controls a nonbasic land.)
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/CU12a/one-does-not) · oracle_id `430fd12c-cbcc-42af-a36a-5df0232f5112` · printing: UNK #CU12a (2023-07-29) · [rulings](https://api.scryfall.com/cards/419ad919-efdd-41cb-a38a-72f5875aa4a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### One Dozen Eyes
@@ -321,6 +369,7 @@
   > Entwine {G}{G}{G} (Choose both if you pay the entwine cost.)
 - **Keywords:** Entwine
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22308 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c13/159/one-dozen-eyes) · oracle_id `b1fbf818-6699-4f05-9a91-19aa296526bf` · printing: C13 #159 (2013-11-01) · [rulings](https://api.scryfall.com/cards/451f317f-f587-4187-9e02-6ac5d7ae9cd8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### One-Eyed Scarecrow
@@ -335,6 +384,7 @@
   > *Farmhands and priests mutter curses at the ragged thing; it unnerves more than just the crows.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16637 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/isd/230/one-eyed-scarecrow) · oracle_id `87b61c1f-18e3-446a-a732-cff40adc5e05` · printing: ISD #230 (2011-09-30) · [rulings](https://api.scryfall.com/cards/5d495d85-6458-44d5-b3b4-5e09569057e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oneirophage
@@ -412,7 +462,9 @@
   > At the beginning of the upkeep of enchanted creature's controller, that player loses 1 life.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20448 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/183/one-thousand-lashes) · oracle_id `d3b259e9-f9c7-4830-91fa-6e3d9f4cc1e3` · printing: GTC #183 (2013-02-01) · [rulings](https://api.scryfall.com/cards/eef2d548-477b-4be1-b946-6df6aac2ee6e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-06-08* — Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords are activated abilities and will have colons in their reminder text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/183/one-thousand-lashes) · oracle_id `d3b259e9-f9c7-4830-91fa-6e3d9f4cc1e3` · printing: GTC #183 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### One with Death
 
@@ -421,7 +473,11 @@
 - **Oracle text:**
   > You lose the game.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/45/one-with-death) · oracle_id `f60d0b8c-3086-425f-a53a-769c5badab45` · printing: CMB2 #45 (2021-08-20) · [rulings](https://api.scryfall.com/cards/eb9963e0-a22a-4a64-aa0c-b7c67c5fee96/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-11-12* — One with Death has no target, so a spell or ability that changes targets can’t be used to have another player lose the game.
+  - *2019-11-12* — Yes, seriously.
+  - *2019-11-12* — Yes, you lose the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/45/one-with-death) · oracle_id `f60d0b8c-3086-425f-a53a-769c5badab45` · printing: CMB2 #45 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### One with Nature
 
@@ -444,6 +500,7 @@
 - **Flavor text** (SOK printing):
   > *When nothing remains, everything is equally possible.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17305 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/84/one-with-nothing) · oracle_id `ba995901-bb32-45ed-8af8-f98784b5a9b0` · printing: SOK #84 (2005-06-03) · [rulings](https://api.scryfall.com/cards/5a5841fa-4f30-495a-b840-3ef5a2af8fad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### One with the Kami
@@ -505,7 +562,12 @@
   > *—Kruphix, god of horizons*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22550 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/59/one-with-the-stars) · oracle_id `0ab43fc3-53ec-4686-873d-8dbeee2634f4` · printing: THB #59 (2020-01-24) · [rulings](https://api.scryfall.com/cards/98b7070d-4b09-4390-aa21-1bc0aa2b629c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-01-24* — If One with the Stars enchants an enchantment that has no other card types, the enchanted permanent won’t be affected.
+  - *2020-01-24* — One with the Stars may enchant a permanent that is only temporarily a creature, such as a Vehicle. If this happens, One with the Stars’s effect causes the enchanted permanent to remain an enchantment even after the temporary effect expires.
+  - *2020-01-24* — The enchanted permanent keeps its abilities but has no power or toughness. If one of its abilities refers to them, it uses 0.
+  - *2020-01-24* — The enchanted permanent loses any subtypes associated with the card types it lost. It keeps any supertypes, such as legendary.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/59/one-with-the-stars) · oracle_id `0ab43fc3-53ec-4686-873d-8dbeee2634f4` · printing: THB #59 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### One With the Wind
 
@@ -519,6 +581,7 @@
   > *—Shaper Tuvasa*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17950 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/64/one-with-the-wind) · oracle_id `9203bee0-718a-4ede-9556-5521417c4080` · printing: XLN #64 (2017-09-29) · [rulings](https://api.scryfall.com/cards/2c00f8bf-0088-44ad-b40b-26a2951a2428/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ongoing Investigation
@@ -530,7 +593,12 @@
   > {1}{G}, Exile a creature card from your graveyard: Investigate. You gain 2 life.
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10364 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/114/ongoing-investigation) · oracle_id `68227832-2916-49b9-92bb-c09b8a0c13f5` · printing: MKC #114 (2024-02-09) · [rulings](https://api.scryfall.com/cards/ff084438-2e70-41bc-a208-30ab16c026c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-04-08* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2016-04-08* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2016-04-08* — In a Two-Headed Giant game, if you control more than one creature that can attack, you may have them attack different opponents so that Ongoing Investigation's first ability triggers twice.
+  - *2016-04-08* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/114/ongoing-investigation) · oracle_id `68227832-2916-49b9-92bb-c09b8a0c13f5` · printing: MKC #114 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oni-Cult Anvil
 
@@ -555,6 +623,7 @@
   > *The oni leapt easily from peak to peak, toying with its victims, its voice a purr from the rumbling depths of nightmare.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24585 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cma/85/oni-of-wild-places) · oracle_id `f551093d-40b7-43ac-8023-4cfbb6c646da` · printing: CMA #85 (2017-06-09) · [rulings](https://api.scryfall.com/cards/ddd1e712-826a-47ee-9578-ca61f2d65221/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oni Possession
@@ -568,6 +637,7 @@
   > Enchanted creature is a Demon Spirit.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26950 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dvd/51/oni-possession) · oracle_id `df059974-2cf4-471e-a1e6-17d053113062` · printing: DVD #51 (2014-12-05) · [rulings](https://api.scryfall.com/cards/65404e7b-acce-4e5b-82b7-3d7ce9572eec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### On Serra's Wings
@@ -597,7 +667,11 @@
 - **Flavor text** (EXO printing):
   > *The last thing to go through the mogg's mind was its teeth.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21821 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/exo/92/onslaught) · oracle_id `ae9ca82c-e07e-4a41-a387-0ef7d6df14b6` · printing: EXO #92 (1998-06-15) · [rulings](https://api.scryfall.com/cards/0afaf142-dbca-45bf-aea2-01c53bda635a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — Can target an already tapped creature.
+  - *2004-10-04* — The ability is not optional. If you have the only targetable creatures, you have to tap one of your own.
+  - *2008-04-01* — A “creature spell” is any spell with the type Creature, even if it has other types such as Artifact or Enchantment. Older cards of type Summon are also Creature spells.
+- **Source flags:** [Scryfall](https://scryfall.com/card/exo/92/onslaught) · oracle_id `ae9ca82c-e07e-4a41-a387-0ef7d6df14b6` · printing: EXO #92 (1998-06-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### On the Job
 
@@ -609,7 +683,13 @@
   > *For all their differences, Kaya, Kellan, and Agrus Kos agreed on one thing: none of them would rest until Teysa's murderer was brought to justice.*
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21224 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/30/on-the-job) · oracle_id `e4733889-4d4c-4bf7-8a9b-fb5ad7a38395` · printing: MKM #30 (2024-02-09) · [rulings](https://api.scryfall.com/cards/48b92629-4196-4943-91fd-8c8d5f3fcaef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-02-02* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2024-02-02* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
+  - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
+  - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/30/on-the-job) · oracle_id `e4733889-4d4c-4bf7-8a9b-fb5ad7a38395` · printing: MKM #30 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### On the Trail
 
@@ -650,6 +730,7 @@
 - **Flavor text** (ME4 printing):
   > *An early inspiration for Urza, Tocasia's Onulets contained magical essences that could be cannibalized after they stopped functioning.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30601 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/219/onulet) · oracle_id `598f948b-bdd3-490f-b3e9-f0f9dc470522` · printing: ME4 #219 (2011-01-10) · [rulings](https://api.scryfall.com/cards/5e6e91cb-1104-4feb-885b-0a49c0b4e60d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Onward // Victory
@@ -662,7 +743,19 @@
   > Target creature gains double strike until end of turn.
 - **Keywords:** Aftermath
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21402 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/218/onward-victory) · oracle_id `9a52c1ea-35ac-4028-8c1f-b7971c1df886` · printing: AKH #218 (2017-04-28) · [rulings](https://api.scryfall.com/cards/517b32e4-4b34-431f-8f3b-98a6cffc245a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2017-04-18* — A spell with aftermath cast from a graveyard will always be exiled afterward, whether it resolves, it's countered, or it leaves the stack in some other way.
+  - *2017-04-18* — All split cards have two card faces on a single card, and you put a split card onto the stack with only the half you're casting. The characteristics of the half of the card you didn't cast are ignored while the spell is on the stack. For example, if an effect prevents you from casting green spells, you can cast Destined of Destined // Lead, but not Lead.
+  - *2017-04-18* — Each split card has two names. If an effect instructs you to choose a card name, you may choose one, but not both.
+  - *2017-04-18* — Each split card is a single card. For example, if you discard one, you've discarded one card, not two. If an effect counts the number of instant and sorcery cards in your graveyard, Destined // Lead counts once, not twice.
+  - *2017-04-18* — If another effect allows you to cast a split card with aftermath from a graveyard, you may cast either half. If you cast the half that has aftermath, you'll exile the card if it would leave the stack.
+  - *2017-04-18* — If another effect allows you to cast a split card with aftermath from any zone other than a graveyard, you can't cast the half with aftermath.
+  - *2017-04-18* — If you cast the first half of a split card with aftermath during your turn, you'll have priority immediately after it resolves. You can cast the half with aftermath from your graveyard before any player can take any other action if it's legal for you to do so.
+  - *2017-04-18* — Split cards with aftermath have a new frame treatment—the half you can cast from your hand is oriented the same as other cards you'd cast from your hand, while the half you can cast from your graveyard is a traditional split card half. This frame treatment is for your convenience and has no rules significance.
+  - *2017-04-18* — The value of X is determined only as Onward resolves. It won't change later in the turn if other effects modify the creature's power.
+  - *2017-04-18* — While not on the stack, the characteristics of a split card are the combination of its two halves. For example, Destined // Lead is a green and black card, it is both an instant card and a sorcery card, and its mana value is 6. This means that if an effect allows you to cast a card with mana value 2 from your hand, you can't cast Destined. This is a change from the previous rules for split cards.
+  - *2017-07-14* — Once you've started to cast a spell with aftermath from your graveyard, the card is immediately moved to the stack. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/218/onward-victory) · oracle_id `9a52c1ea-35ac-4028-8c1f-b7971c1df886` · printing: AKH #218 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### On Wings of Gold
 
@@ -686,7 +779,9 @@
 - **Flavor text** (ALA printing):
   > *The goblet was a gift from the sphinx Gorael, who hoped humans and vedalken would eventually destroy each other to acquire it, leaving all of Esper to her own kind.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25171 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/81/onyx-goblet) · oracle_id `3e070d7a-6a1e-4cce-b196-73f4052c049c` · printing: ALA #81 (2008-10-03) · [rulings](https://api.scryfall.com/cards/3686eb57-e9c8-480f-8ab4-2894e1b5fe20/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — The only difference between a colored artifact and a colorless artifact is, obviously, its color. Unlike most artifacts, a colored artifact requires colored mana to cast. Also unlike most artifacts, a colored artifact has a color in all zones. It will interact with cards that care about color. Other than that, a colored artifact behaves just like any other artifact. It will interact as normal with any card that cares about artifacts, such as Shatter or Arcbound Ravager.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/81/onyx-goblet) · oracle_id `3e070d7a-6a1e-4cce-b196-73f4052c049c` · printing: ALA #81 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Onyx Mage
 
@@ -699,7 +794,9 @@
   > *"We wield death and darkness, powers that make lesser mages tremble in fear."*
   > *—Onyx creed*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24080 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m12/103/onyx-mage) · oracle_id `8a398777-2fa5-4cac-adee-4582e59d410d` · printing: M12 #103 (2011-07-15) · [rulings](https://api.scryfall.com/cards/eabd38e6-1e59-42d2-bd1a-555c77cf6747/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-09-22* — Multiple instances of deathtouch on the same creature provide no additional benefit. A creature dealt damage by a creature with multiple instances of deathtouch is destroyed only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m12/103/onyx-mage) · oracle_id `8a398777-2fa5-4cac-adee-4582e59d410d` · printing: M12 #103 (2011-07-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Onyx Talisman
 
@@ -708,4 +805,5 @@
 - **Oracle text:**
   > Whenever a player casts a black spell, you may pay {3}. If you do, untap target permanent.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25731 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/331/onyx-talisman) · oracle_id `d19a19ed-33f9-400d-9669-c393d7127652` · printing: ICE #331 (1995-06-03) · [rulings](https://api.scryfall.com/cards/a89b2368-1180-4821-bcb8-8161c18e5538/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

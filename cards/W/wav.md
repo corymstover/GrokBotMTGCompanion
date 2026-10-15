@@ -48,7 +48,13 @@
   > Heroic — Whenever you cast a spell that targets this creature, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.
 - **Keywords:** Heroic
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26635 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/74/wavecrash-triton) · oracle_id `2a7e68ed-156c-4680-851b-ae8de4a808a5` · printing: THS #74 (2013-09-27) · [rulings](https://api.scryfall.com/cards/7336ca1e-13ef-4e49-a526-3f285bc339bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2013-09-15* — Heroic abilities will resolve before the spell that caused them to trigger.
+  - *2013-09-15* — Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times.
+  - *2013-09-15* — Heroic abilities won't trigger when a copy of a spell is created on the stack or when a spell's targets are changed to include a creature with a heroic ability.
+  - *2013-09-15* — Wavecrash Triton's ability can target a creature that's already tapped. That creature still won't untap during its controller's next untap step.
+  - *2013-09-15* — Wavecrash Triton's ability tracks the creature, but not its controller. If the creature changes controllers before its first controller's next untap step has come around, then it won't untap during its new controller's next untap step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/74/wavecrash-triton) · oracle_id `2a7e68ed-156c-4680-851b-ae8de4a808a5` · printing: THS #74 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wave Elemental
 
@@ -61,6 +67,7 @@
   > *"Consider the wave: how weak the mother yet how strong the child."*
   > *—Tywanna, Shaper Guildmage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32091 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/102/wave-elemental) · oracle_id `d8eed5f7-8724-45c7-b6fc-dcfcc400f09a` · printing: MIR #102 (1996-10-08) · [rulings](https://api.scryfall.com/cards/111ee762-72cb-43e3-88a1-6f1f0b9ee66e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wave Goodbye
@@ -89,6 +96,7 @@
   > *"So?"*
   > *"Just sayin'."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23455 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/243/wave-of-indifference) · oracle_id `932a47fa-9b78-4c7b-8df8-65e0309d663c` · printing: ONS #243 (2002-10-07) · [rulings](https://api.scryfall.com/cards/2c88b942-06d5-45d8-a4d8-6ca864f65516/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wave of Rats
@@ -102,7 +110,13 @@
   > Blitz {4}{B} (If you cast this spell for its blitz cost, it gains haste and "When this creature dies, draw a card." Sacrifice it at the beginning of the next end step.)
 - **Keywords:** Blitz, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9983 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/41/wave-of-rats) · oracle_id `ccb0f59b-7947-4563-9e16-5d23246f4232` · printing: NCC #41 (2022-04-29) · [rulings](https://api.scryfall.com/cards/154dc126-67ca-4759-a424-37f0eb52e1fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-04-29* — If a creature enters the battlefield as a copy of or becomes a copy of a creature whose blitz cost was paid, the copy won't have haste, won't be sacrificed, and its controller won't draw a card when it dies.
+  - *2022-04-29* — If you choose to pay the blitz cost rather than the mana cost, you're still casting the spell. It goes on the stack and can be responded to and countered. You can cast a creature spell for its blitz cost only if you could cast that creature spell. Most of the time, this means during your main phase when the stack is empty.
+  - *2022-04-29* — If you pay the blitz cost to cast a creature spell, that permanent will be sacrificed only if it's still on the battlefield when that triggered ability resolves. If it dies or goes to another zone before then, it will stay where it is.
+  - *2022-04-29* — The triggered ability that lets its controller draw a card triggers when it dies for any reason, not just when you sacrifice it during the end step.
+  - *2022-04-29* — You don't have to attack with the creature with blitz unless another ability says you do.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/41/wave-of-rats) · oracle_id `ccb0f59b-7947-4563-9e16-5d23246f4232` · printing: NCC #41 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wave of Reckoning
 
@@ -127,7 +141,11 @@
   > *The sea of fear has endless depths.*
 - **Keywords:** Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29908 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/wth/86/wave-of-terror) · oracle_id `2346be19-7344-4f11-be2c-a22750cb7e1d` · printing: WTH #86 (1997-06-09) · [rulings](https://api.scryfall.com/cards/d40ab3e7-9abb-4acc-9932-de03b533722f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2005-06-01* — Will not generally kill zero cost creatures because the age counters go on before the ability triggers. If would be possible if something like Power Conduit were removing counters.
+  - *2008-04-01* — If you don't pay the cumulative upkeep, you'll sacrifice Wave of Terror before your draw step begins. It won't destroy any creatures that turn.
+  - *2008-04-01* — This destroys creatures with mana value exactly equal to the appropriate number, not equal to or less than that number.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wth/86/wave-of-terror) · oracle_id `2346be19-7344-4f11-be2c-a22750cb7e1d` · printing: WTH #86 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wave of Vitriol
 
@@ -136,6 +154,7 @@
 - **Oracle text:**
   > Each player sacrifices all artifacts, enchantments, and nonbasic lands they control. For each land sacrificed this way, its controller may search their library for a basic land card and put it onto the battlefield tapped. Then each player who searched their library this way shuffles.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12908 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cma/165/wave-of-vitriol) · oracle_id `5b8b1f03-9e2e-40f2-97e0-c9fb8d780d56` · printing: CMA #165 (2017-06-09) · [rulings](https://api.scryfall.com/cards/17328391-a510-42a0-8a00-4f61dd873c13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wavesifter
@@ -149,7 +168,11 @@
   > Evoke {G}{U} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters.)
 - **Keywords:** Flying, Investigate, Evoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11248 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/220/wavesifter) · oracle_id `d1ec1e4e-faa6-4afc-9e00-a3327105c11b` · printing: MKC #220 (2024-02-09) · [rulings](https://api.scryfall.com/cards/7ca787d2-eee4-4474-9db7-e8efa161ceec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-06-18* — The token is named Clue Token and has the artifact subtype Clue. Clue isn't a creature type.
+  - *2021-06-18* — The tokens are normal artifacts. For example, one can be sacrificed to activate the ability of Breya's Apprentice and one can be the target of Break Ties.
+  - *2021-06-18* — You can't sacrifice a Clue to activate its own ability and also to activate another ability that requires sacrificing a Clue (or any artifact) as a cost, such as that of Lonis, Cryptozoologist.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/220/wavesifter) · oracle_id `d1ec1e4e-faa6-4afc-9e00-a3327105c11b` · printing: MKC #220 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waveskimmer Aven
 
@@ -163,7 +186,14 @@
   > *The greatest gift you can give a sea aven is solitude.*
 - **Keywords:** Flying, Exalted
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24409 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/207/waveskimmer-aven) · oracle_id `113d6c3c-3492-47aa-81d1-359d852d8d0a` · printing: ALA #207 (2008-10-03) · [rulings](https://api.scryfall.com/cards/e75ebcb4-5db8-4c72-9f65-8ee8f2c893ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2008-10-01* — Exalted abilities will resolve before blockers are declared.
+  - *2008-10-01* — Exalted bonuses last until end of turn. If an effect creates an additional combat phase during your turn, a creature that attacked alone during the first combat phase will still have its exalted bonuses in that new phase. If a creature attacks alone during the second combat phase, all your exalted abilities will trigger again.
+  - *2008-10-01* — If you attack with multiple creatures, but then all but one are removed from combat, your exalted abilities won’t trigger.
+  - *2008-10-01* — If you declare exactly one creature as an attacker, each exalted ability on each permanent you control (including, perhaps, the attacking creature itself) will trigger. The bonuses are given to the attacking creature, not to the permanent with exalted. Ultimately, the attacking creature will wind up with +1/+1 for each of your exalted abilities.
+  - *2008-10-01* — In a Two-Headed Giant game, a creature “attacks alone” if it’s the only creature declared as an attacker by your entire team. If you control that attacking creature, your exalted abilities will trigger but your teammate’s exalted abilities won’t.
+  - *2008-10-01* — Some effects put creatures onto the battlefield attacking. Since those creatures were never declared as attackers, they’re ignored by exalted abilities. They won’t cause exalted abilities to trigger. If any exalted abilities have already triggered (because exactly one creature was declared as an attacker), those abilities will resolve as normal even though there may now be multiple attackers.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/207/waveskimmer-aven) · oracle_id `113d6c3c-3492-47aa-81d1-359d852d8d0a` · printing: ALA #207 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waves of Aggression
 
@@ -196,4 +226,8 @@
   > *—Noyan Dar, Tazeem roilmage*
 - **Keywords:** Landfall, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25427 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/88/wave-wing-elemental) · oracle_id `35044f8a-c8e0-41ae-ba61-43109e51f7e8` · printing: BFZ #88 (2015-10-02) · [rulings](https://api.scryfall.com/cards/11b45809-87fc-409d-942a-1f31f68d27ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/88/wave-wing-elemental) · oracle_id `35044f8a-c8e0-41ae-ba61-43109e51f7e8` · printing: BFZ #88 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

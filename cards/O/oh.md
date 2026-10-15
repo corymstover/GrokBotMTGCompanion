@@ -24,7 +24,10 @@
   > Whenever an Archer you control deals damage to a creature, you may pay {2}. If you do, draw a card.
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18413 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/36/ohabi-caleria) · oracle_id `e403fadb-537c-41ac-924a-450f0eabe2c4` · printing: DMC #36 (2022-09-09) · [rulings](https://api.scryfall.com/cards/82003d72-5138-4341-a53a-62b794f2bce1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-09-09* — All your Archers untap during each other player’s untap step. You have no choice about what untaps.
+  - *2022-09-09* — Effects that say an Archer you control “doesn’t untap during your untap step” or “doesn’t untap during its controller’s untap step” won’t prevent Ohabi Caleria from causing you to untap it during other players’ untap steps.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/36/ohabi-caleria) · oracle_id `e403fadb-537c-41ac-924a-450f0eabe2c4` · printing: DMC #36 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ohran Frostfang
 
@@ -66,4 +69,5 @@
 - **Flavor text** (CSP printing):
   > *When a snowdrift shows you its eyes, it's already too late.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29711 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/93/ohran-yeti) · oracle_id `e606cba7-7e3c-4834-b2cd-56e51cedccb7` · printing: CSP #93 (2006-07-21) · [rulings](https://api.scryfall.com/cards/8d6cfa21-75b1-4380-b0fc-a7450699660f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

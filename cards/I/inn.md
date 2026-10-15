@@ -38,6 +38,7 @@
 - **Flavor text** (SOK printing):
   > *The ghostly objects around the kami circled faster and faster, creating a dizzying cyclone of motion. When it opened its eyes, it struck.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16721 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/133/inner-calm-outer-strength) · oracle_id `b7bdbae5-549f-403b-83ca-4f9a1ac93e93` · printing: SOK #133 (2005-06-03) · [rulings](https://api.scryfall.com/cards/40f56817-aabf-469c-a82c-37315decc73c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inner-Chamber Guard
@@ -52,6 +53,7 @@
   > *—Masako the Humorless*
 - **Keywords:** Bushido
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21876 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/13/inner-chamber-guard) · oracle_id `ea5e8920-1343-4335-b516-6db43c3bfeb0` · printing: SOK #13 (2005-06-03) · [rulings](https://api.scryfall.com/cards/4d34bfb9-abc7-4469-9546-aa8988da8259/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inner Demon
@@ -64,7 +66,9 @@
   > When this Aura enters, all non-Demon creatures get -2/-2 until end of turn.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17868 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/48/inner-demon) · oracle_id `2cee861f-d28c-47e6-baee-2da9b7fa89d8` · printing: BBD #48 (2018-06-08) · [rulings](https://api.scryfall.com/cards/dcbfc305-f3b3-4f8f-b18f-bb7af01a39a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-06-08* — Inner Demon's triggered ability affects only non-Demon creatures on the battlefield at the time it resolves. Creatures that enter the battlefield later in the turn won't get -2/-2. Unless Inner Demon leaves the battlefield before that ability resolves, the enchanted creature won't get -2/-2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/48/inner-demon) · oracle_id `2cee861f-d28c-47e6-baee-2da9b7fa89d8` · printing: BBD #48 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inner Demons Gangsters
 
@@ -77,6 +81,7 @@
   > *"Inner Demons? Even for a guy named Mister Negative, that's a bit on the nose."*
   > *—Spider-Man*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15689 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/797/inner-demons-gangsters) · oracle_id `40b43763-3fbf-4ecd-8187-5d2c2c9cda82` · printing: MSC #797 (2026-06-26) · [rulings](https://api.scryfall.com/cards/efec73e0-2dfa-42f7-bb95-3c2553821055/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inner Fire
@@ -101,7 +106,9 @@
   > Evoke {R} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters.)
 - **Keywords:** Evoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26666 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jvc/41/inner-flame-acolyte) · oracle_id `699812af-4dba-49dc-987d-67e472a68971` · printing: JVC #41 (2014-12-05) · [rulings](https://api.scryfall.com/cards/70ec84e5-2a49-4738-9594-f51c76387d33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — If you cast this card for its evoke cost, you may put the sacrifice trigger and the regular enters-the-battlefield trigger on the stack in either order. The one put on the stack last will resolve first.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jvc/41/inner-flame-acolyte) · oracle_id `699812af-4dba-49dc-987d-67e472a68971` · printing: JVC #41 (2014-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inner-Flame Igniter
 
@@ -113,7 +120,11 @@
 - **Flavor text** (MM2 printing):
   > *A light an army can follow.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26679 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/120/inner-flame-igniter) · oracle_id `059788eb-2c55-4da2-bf54-aa2fa7954169` · printing: MM2 #120 (2015-05-22) · [rulings](https://api.scryfall.com/cards/107b3dbc-fc02-4548-90cf-844da42db13f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2007-10-01* — Counts resolutions, not activations. Any such abilities that are still on the stack won’t count toward the total.
+  - *2007-10-01* — When the ability resolves, it counts the number of times that same ability from that this creature has already resolved that turn. It doesn’t matter who controlled the creature or the previous abilities when they resolved. A copy of this ability (created by Rings of Brighthearth, for example) will count toward the total. Abilities from other creatures with the same name don’t count towards the total. Neither does an ability that’s been countered.
+  - *2007-10-01* — You get the bonus only the third time the ability resolves. You won’t get the bonus the fourth, fifth, sixth, or any subsequent times.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/120/inner-flame-igniter) · oracle_id `059788eb-2c55-4da2-bf54-aa2fa7954169` · printing: MM2 #120 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inner Sanctum
 
@@ -126,6 +137,7 @@
   > *"Save me from Maraxus," Starke pleaded, "or condemn me to his wrath. Either way, do not ignore me!"*
 - **Keywords:** Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23855 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/wth/18/inner-sanctum) · oracle_id `2ae36d31-08b7-481a-bfa1-a5c65921dee0` · printing: WTH #18 (1997-06-09) · [rulings](https://api.scryfall.com/cards/2298faae-370e-4b87-bf32-d20c2282a928/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inner Struggle
@@ -138,6 +150,7 @@
   > *"Reflect upon your evils lest they reflect upon you."*
   > *—Inquisitor Laerin*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25131 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/167/inner-struggle) · oracle_id `c993ebf8-972f-41c7-9870-d7f8aa9a69d9` · printing: SOI #167 (2016-04-08) · [rulings](https://api.scryfall.com/cards/b43be50a-8624-46f6-860a-39ffbfbdaa6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inniaz, the Gale Force
@@ -151,7 +164,17 @@
   > Whenever three or more creatures you control with flying attack, each player gains control of a nonland permanent of your choice controlled by the player to their right.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17525 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/12/inniaz-the-gale-force) · oracle_id `b06ebf74-4042-4c8f-a70b-98ba9e74e6ed` · printing: JMP #12 (2020-07-17) · [rulings](https://api.scryfall.com/cards/b238485f-ef67-4295-892b-a10235368f74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2020-06-23* — If any player controls no nonland permanents, the player to their left doesn’t gain control of anything.
+  - *2020-06-23* — If you give away a creature you control with flying that attacked, it’s removed from combat. It will still be tapped if it was tapped, so it won’t be able to block.
+  - *2020-06-23* — In a Two-Headed Giant game, Inniaz’s ability ignores who’s on which team. The leftmost player on each team gains control of a teammate’s permanent, and the rightmost player gains one from the opposing team’s leftmost player. If your teammate gains control of an attacking creature this way, it’s still removed from combat.
+  - *2020-06-23* — In a two-player game, you exchange control of two permanents of your choice with your opponent.
+  - *2020-06-23* — Inniaz’s ability resolves before blockers are chosen.
+  - *2020-06-23* — Inniaz’s ability resolves even if some or all of the attacking creatures lose flying or leave combat before it resolves.
+  - *2020-06-23* — Inniaz’s ability triggers just once, no matter how many creatures with flying attack beyond the third.
+  - *2020-06-23* — The control-change effect of Inniaz’s last ability lasts indefinitely. It doesn’t wear off during the cleanup step, and it doesn’t expire if Inniaz leaves the battlefield. In a multiplayer game, a player who leaves the game takes back their permanent and gives back the one they took.
+  - *2020-06-23* — You choose the permanents to be blown over to other players while Inniaz’s ability is resolving. No player may take actions between the time you make the choices and the time control changes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/12/inniaz-the-gale-force) · oracle_id `b06ebf74-4042-4c8f-a70b-98ba9e74e6ed` · printing: JMP #12 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Innistrad Charm
 
@@ -163,6 +186,7 @@
   > • Duress (Look at their hand, make them discard a noncreature, nonland.)
   > • Human Frailty (Destroy target Human.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UB02c/innistrad-charm) · oracle_id `50e3540f-963f-4c91-a205-c2f8259a969e` · printing: UNK #UB02c (2023-05-06) · [rulings](https://api.scryfall.com/cards/2e3425e9-d369-4e26-b9fb-4193bf5d3e5a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Innkeeper's Talent
@@ -200,6 +224,7 @@
 - **Flavor text** (CHK printing):
   > *Her voice was light, her substance music.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29766 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/18/innocence-kami) · oracle_id `dc9b963e-eae7-4919-a5a9-16aad04e4b22` · printing: CHK #18 (2004-10-01) · [rulings](https://api.scryfall.com/cards/df62efbb-2313-4667-82e6-3b474d998ef5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Innocent Blood
@@ -226,7 +251,14 @@
   > *"Whoops, this isn't my street! Don't mind me! I'll just be on my way while you enjoy your . . . very sharp knives."*
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24081 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/133/innocent-bystander) · oracle_id `c293f1c0-93de-4a73-aaf6-4e9f01e557ec` · printing: MKM #133 (2024-02-09) · [rulings](https://api.scryfall.com/cards/085f4595-4ae5-428e-a934-e918774df6fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-02-02* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2024-02-02* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2024-02-02* — Innocent Bystander's ability triggers only if it's dealt 3 or more damage all at once. It doesn't trigger if damage that adds up to 3 or more is dealt to it at different times.
+  - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
+  - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
+  - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/133/innocent-bystander) · oracle_id `c293f1c0-93de-4a73-aaf6-4e9f01e557ec` · printing: MKM #133 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Innocent Traveler // Malicious Invader
 
@@ -244,7 +276,9 @@
   > *"Aren't you going to offer me a drink?"*
 - **Keywords:** Flying, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20997 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/121/innocent-traveler-malicious-invader) · oracle_id `7950a7ff-7c2e-40fe-b64a-324f4fbcf528` · printing: VOW #121 (2021-11-19) · [rulings](https://api.scryfall.com/cards/13a5e5fd-a67a-4c0e-97ae-923bdbc1be20/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-11-19* — When Innocent Traveler's ability resolves, the next opponent in turn order chooses whether they want to sacrifice a creature at all and which creature to sacrifice if so, then each other opponent in turn order does the same, knowing the choices made before them. Then all the chosen creatures are sacrificed at the same time. If no creatures are sacrificed this way, Innocent Traveler is transformed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/121/innocent-traveler-malicious-invader) · oracle_id `7950a7ff-7c2e-40fe-b64a-324f4fbcf528` · printing: VOW #121 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Innocuous Insect
 
@@ -258,7 +292,9 @@
   > When you cast this spell, draw a card.
 - **Keywords:** Flying, Buyback, Flash
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/23/innocuous-insect) · oracle_id `78b676ce-4d6e-41eb-acb1-f1f8e9aad85b` · printing: CMB2 #23 (2021-08-20) · [rulings](https://api.scryfall.com/cards/19230095-1e80-42fe-9f1f-b14685ce3879/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-11-12* — If you pay the buyback cost for a permanent spell, it doesn’t enter the battlefield as it resolves. It moves from the stack to its owner’s hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/23/innocuous-insect) · oracle_id `78b676ce-4d6e-41eb-acb1-f1f8e9aad85b` · printing: CMB2 #23 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Innocuous Rat
 
@@ -269,7 +305,24 @@
   > When this creature dies, manifest dread. (Look at the top two cards of your library. Put one onto the battlefield face down as a 2/2 creature and the other into your graveyard. Turn it face up any time for its mana cost if it's a creature card.)
 - **Keywords:** Manifest, Manifest dread
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11942 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/103/innocuous-rat) · oracle_id `114725ef-ac81-4d13-9153-0a303c3ce9c4` · printing: DSK #103 (2024-09-27) · [rulings](https://api.scryfall.com/cards/94edbbc5-5673-4753-bfad-4432c4b7dca4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2024-09-20* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent and Auras and Equipment that were attached to that permanent aren't affected unless the new characteristics of the object change the legality of those targets or attachments.
+  - *2024-09-20* — Any time you have priority, you can turn a manifested permanent you control face up by revealing that it's a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2024-09-20* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down permanents or spells you don't control unless an effect instructs or allows you to do so.
+  - *2024-09-20* — Because face-down creatures don't have a name, they can't have the same name as any other creature, even another face-down creature.
+  - *2024-09-20* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2024-09-20* — If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can't transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up.
+  - *2024-09-20* — If a face-down creature loses its abilities, it can't be turned face up with a disguise or morph ability because it will no longer have that ability (or the associated cost) once face up.
+  - *2024-09-20* — If a face-down spell leaves the stack and goes to any zone other than the battlefield (if it was countered, for example), you must reveal it. Similarly, if a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or the game ends.
+  - *2024-09-20* — If a manifested creature would have disguise or morph if it were face up, you may also turn it face up by paying its disguise or morph cost, as appropriate.
+  - *2024-09-20* — If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it's an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won't trigger, because even though you revealed the card, it never turned face up.
+  - *2024-09-20* — If your library contains only one card when you manifest dread, you'll look at that card and put it onto the battlefield face down. You won't have the option to put it into your graveyard instead. If your library contains no cards when you manifest dread, you won't do anything.
+  - *2024-09-20* — Some cards in the Duskmourn release have abilities that trigger "whenever you manifest dread." In circumstances where you are instructed to manifest dread but can't perform some or all of the steps of manifesting dread (probably because your library has one or fewer cards in it), these abilities will still trigger.
+  - *2024-09-20* — To manifest dread, look at the top two cards of your library. Manifest one (by putting it onto the battlefield face down) and put the other into your graveyard. The card you put onto the battlefield becomes a 2/2 face-down creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant it any characteristics it doesn't have or change the characteristics it does have.
+  - *2024-09-20* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2024-09-20* — Unlike a face-down creature that was cast using a disguise or morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
+  - *2024-09-20* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered should remain clear, as well as what ability caused them to be face down. (This includes manifest, disguise, cloak, morph, and a few older effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/103/innocuous-rat) · oracle_id `114725ef-ac81-4d13-9153-0a303c3ce9c4` · printing: DSK #103 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Innocuous Researcher
 
@@ -281,7 +334,15 @@
   > At the beginning of your end step, you may untap all lands you control. If you do, you can't cast spells until your next turn.
 - **Keywords:** Investigate, Parley
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13478 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/38/innocuous-researcher) · oracle_id `ef764497-800e-4cbd-805e-7635919a983c` · printing: MKC #38 (2024-02-09) · [rulings](https://api.scryfall.com/cards/84039704-d7c9-46fd-987e-4b93f812e803/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-02-02* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it’s never a creature type, a land type, or anything but an artifact type.
+  - *2024-02-02* — Except in some very unusual cases, the card each player reveals is the one they’ll draw.
+  - *2024-02-02* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth’s activated ability.
+  - *2024-02-02* — Some abilities trigger “whenever you sacrifice a Clue”. Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue’s activated ability.
+  - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won’t resolve. You won’t create any Clue tokens.
+  - *2024-02-02* — There’s no window for you to cast spells after untapping all lands you control but before the “you can’t cast spells” portion of Innocuous Researcher’s last ability takes effect. Once that ability resolves, it doesn’t matter whether Innocuous Researcher stays on the battlefield; you’ll still be unable to cast spells until your next turn begins.
+  - *2024-02-02* — You can’t sacrifice a Clue to pay multiple costs. For example, you can’t sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth’s ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/38/innocuous-researcher) · oracle_id `ef764497-800e-4cbd-805e-7635919a983c` · printing: MKC #38 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Innovative Commons
 
@@ -294,4 +355,6 @@
   > *"Proud to announce we've invented a \*voice-activated\* void portal! No gestures needed!"*
   > *—Stingerquill and Theorix joint project*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18065 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/182/innovative-commons) · oracle_id `6812e4d3-0034-4fc8-9ee9-520f76a0ea94` · printing: FRA #182 (2026-10-02) · [rulings](https://api.scryfall.com/cards/84ea799a-faa2-4ff1-a933-432d4ee31a3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-08-21* — If this land enters at the same time as a planeswalker, that planeswalker isn't considered when determining if this land enters the battlefield tapped or untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/182/innovative-commons) · oracle_id `6812e4d3-0034-4fc8-9ee9-520f76a0ea94` · printing: FRA #182 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -30,6 +30,7 @@
 - **Oracle text:**
   > {T}: Draw a card, then discard a card.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thp1/2/the-harvester) · oracle_id `0429a8c5-1b27-4a08-aa92-3282916a461d` · printing: THP1 #2 (2013-09-27) · [rulings](https://api.scryfall.com/cards/6c17db56-68ee-44c5-82c5-9ed9f03c5899/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Haunt of Hightower
@@ -61,6 +62,7 @@
   > Numot, the Devastators you control have vigilance and haste, and the "legend rule" doesn't apply to them.
 - **Keywords:** Vigilance, Haste, Double strike
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03/the-herald-of-numot) · oracle_id `92008320-088f-4ea1-a690-c5bb83ad7d3f` · printing: UNK #RZ03 (2025-06-20) · [rulings](https://api.scryfall.com/cards/46ec0135-5e1d-456e-94de-d739f96a31e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Heron Moon
@@ -72,7 +74,20 @@
   > {1}, {T}: Exile the bottom card of target opponent's library.
   > Whenever one or more cards an opponent owns are put into exile, put a release counter on The Heron Moon. Then if it has thirteen or more release counters on it, sacrifice it and create a copy of Emrakul, the Promised End. Cast it without paying its mana cost.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/612/the-heron-moon) · oracle_id `4e7d4fdb-ff80-4192-a78c-78c8bce8c955` · printing: MB2 #612 (2024-08-02) · [rulings](https://api.scryfall.com/cards/5986aeba-c0d8-497c-9573-5d0880dbe49a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2024-11-08* — Cards exiled by The Heron Moon’s second ability are exiled face up.
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — If a player is instructed to exile cards from their library “until” a certain event occurs, that player exiles those cards one at a time. If that player is an opponent, The Heron Moon’s ability will trigger that many times.
+  - *2024-11-08* — If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, those must be paid to cast the spell.
+  - *2024-11-08* — If you choose to cast a card as Colossal Dreadmaw, while on the stack, treat that spell as though it were Colossal Dreadmaw (including the mana cost to cast it). After it resolves, treat the permanent it becomes as though it were Colossal Dreadmaw for as long as it remains on the battlefield. Once it leaves the battlefield, the card goes back to its normal self.
+  - *2024-11-08* — Official text for Colossal Dreadmaw can be found using the Gatherer card database at Gatherer.Wizards.com.
+  - *2024-11-08* — Official text for Emrakul, the Promised End can be found using the Gatherer card database at Gatherer.Wizards.com.
+  - *2024-11-08* — Once you’ve started casting a spell as Colossal Dreadmaw, it’s too late . . . for an opponent to prevent you from doing that by killing The Colossal Dreadmaw.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+  - *2024-11-08* — The third ability only triggers once for each instance where cards an opponent owns are put into exile, no matter how many cards were exiled at the same time.
+  - *2024-11-08* — You cast the copy of Emrakul, the Promised End as The Heron Moon’s last ability resolves. You do so as part of the resolution of the ability. You can’t wait to cast it later in the turn. Timing restrictions based on the card’s types are ignored.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/612/the-heron-moon) · oracle_id `4e7d4fdb-ff80-4192-a78c-78c8bce8c955` · printing: MB2 #612 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Highland Runner
 
@@ -83,6 +98,7 @@
   > When The Highland Runner enters and at the beginning of the first upkeep in a game where it's your commander, you may have each player's life total become 20. If you do, each of your commanders stop being commanders this game. Shuffle them into your library. (They no longer go to the command zone.)
   > Ready to run (You can have two commanders if both have ready to run.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW06b/the-highland-runner) · oracle_id `718ee3f1-13d0-4079-9941-8a703dafbc6b` · printing: UNK #RW06b (2024-10-25) · [rulings](https://api.scryfall.com/cards/f935c4c4-daf7-4861-bd95-c6a05afe6fab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Hive
@@ -95,6 +111,7 @@
   > *"Their buzzing makes my bones hum from a mile away."*
   > *—Galenti, treasure hunter*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25845 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/324/the-hive) · oracle_id `87a77482-f286-4fb1-b179-85b2095bb768` · printing: 10E #324 (2007-07-13) · [rulings](https://api.scryfall.com/cards/4141e02a-d42c-4272-833d-98e2614ab371/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Horizon Seeker
@@ -109,6 +126,7 @@
   > *Prize Card for the Unknown events at MagicCon Amsterdam, June 29-30, 2024.*
 - **Keywords:** Horsemanship
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/MZ05/the-horizon-seeker) · oracle_id `e6b3188b-3648-4fbb-866a-766e50e79c3b` · printing: UNK #MZ05 (2024-06-29) · [rulings](https://api.scryfall.com/cards/f8c91499-57df-43b3-a250-1573d65cdfa4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Horus Heresy
@@ -135,6 +153,7 @@
   > Whenever The Howling Abomination becomes the target of a spell, it gets +2/+2 until end of turn and deals 2 damage to each opponent.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15094 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/13/the-howling-abomination) · oracle_id `4a67946e-8903-4994-9641-d31fbb62082c` · printing: SLX #13 (2023-02-10) · [rulings](https://api.scryfall.com/cards/5aa862c3-69a3-4d6c-abe8-201e1868c204/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Howling Commandos
@@ -148,6 +167,7 @@
   > *"We've been fightin' this or that war our whole lives. And yeah, war is hell, but spend enough time in hell and you can fight like the devil."*
   > *—Dum Dum Dugan*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29626 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/598/the-howling-commandos) · oracle_id `49325445-0825-405e-be86-2a814699ce03` · printing: MSC #598 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e1982da2-4ed5-4fa7-aa88-26362b7b4dc5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Hunger Tide Rises
@@ -170,6 +190,7 @@
 - **Oracle text:**
   > {T}: Target creature you control gets +1/+1 until end of turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thp1/1e/the-hunter) · oracle_id `76b3985d-a9b5-4506-9007-c64a89cff8d5` · printing: THP1 #1e (2013-09-27) · [rulings](https://api.scryfall.com/cards/4ef068ff-934c-4e4d-a4ae-e44f194b8dca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Hunter Maze

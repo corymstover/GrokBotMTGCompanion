@@ -38,7 +38,10 @@
   > Constellation — Whenever this creature or another enchantment you control enters, choose target creature you control. Until end of turn, that creature has base power and toughness 4/4 and gains flying.
 - **Keywords:** Vigilance, Constellation
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15385 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/j25/2/eidolon-of-astral-winds) · oracle_id `4c9b8b82-7f61-4dc0-aeac-fba5dc115e91` · printing: J25 #2 (2024-11-15) · [rulings](https://api.scryfall.com/cards/fd62f1de-853e-4fc3-9137-8f419c5972f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — If Eidolon of Astral Winds enters at the same time as one or more other enchantments you control, its last ability will trigger for each of those enchantments, including itself.
+  - *2024-11-08* — The effect of Eidolon of Astral Winds's last ability will overwrite any previous effects that set the creature's power and toughness to specific values. Effects that otherwise modify the target creature's power and toughness will still apply no matter when they took effect. The same is true for +1/+1 counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/j25/2/eidolon-of-astral-winds) · oracle_id `4c9b8b82-7f61-4dc0-aeac-fba5dc115e91` · printing: J25 #2 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eidolon of Blossoms
 
@@ -88,6 +91,7 @@
   > *"Agios was felled by a minotaur's blade, but I swear I have seen him since—in the midst of battle, wherever help is needed most."*
   > *—Phrokos, soldier of Akros*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25736 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/271/eidolon-of-inspiration) · oracle_id `ad70144e-16e4-4604-9e6d-cb287f67ddb5` · printing: THB #271 (2020-01-24) · [rulings](https://api.scryfall.com/cards/53343a0c-d97c-4d6f-b696-5343a962e3dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eidolon of Obstruction
@@ -102,7 +106,10 @@
   > *Death turned admirable conviction into pointless intransigence.*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21191 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/12/eidolon-of-obstruction) · oracle_id `15d38195-b661-42c1-82c9-1af2a3ba2ea5` · printing: THB #12 (2020-01-24) · [rulings](https://api.scryfall.com/cards/2f48f802-df9d-45b2-afea-98699bcdf0d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-01-24* — Eidolon of Obstruction doesn’t replace the loyalty cost of activating a loyalty ability or cause it to cost more loyalty to activate. It just adds a mana component to the ability’s activation cost.
+  - *2020-01-24* — Loyalty abilities cost just {1} more to activate, no matter how much loyalty they cost to activate.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/12/eidolon-of-obstruction) · oracle_id `15d38195-b661-42c1-82c9-1af2a3ba2ea5` · printing: THB #12 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eidolon of Philosophy
 
@@ -114,6 +121,7 @@
 - **Flavor text** (THB printing):
   > *"And what did Erekastos teach us is the nature of the soul?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25458 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/48/eidolon-of-philosophy) · oracle_id `65acea17-c900-4574-b22f-910285552aa2` · printing: THB #48 (2020-01-24) · [rulings](https://api.scryfall.com/cards/d2897635-b387-485d-932f-5655244a381f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eidolon of Rhetoric
@@ -201,6 +209,7 @@
 - **Flavor text** (NEO printing):
   > *Imperial samurai undergo strict training, honing their skills and purifying their spirits in the hope that they will prove worthy of a kami's blessing.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13159 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/10/eiganjo-exemplar) · oracle_id `8e0f4e22-0677-4246-a4c5-6fcc74cb54a3` · printing: NEO #10 (2022-02-18) · [rulings](https://api.scryfall.com/cards/3b0a9cc0-bb6d-47f7-b0d5-3956c46a1b3a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eiganjo Free-Riders
@@ -216,6 +225,7 @@
   > *—\*Great Battles of Kamigawa\**
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27617 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/8/eiganjo-free-riders) · oracle_id `0e381b7e-2d32-4a9a-a327-e9dd1236dc1b` · printing: SOK #8 (2005-06-03) · [rulings](https://api.scryfall.com/cards/fe47bbc5-6f7f-4135-9e83-9e2a428c97f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eiganjo, Seat of the Empire
@@ -242,6 +252,7 @@
 - **Flavor text** (NEO printing):
   > *Two different visions of freedom clashed at the gates of the Imperial Palace.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13857 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/217/eiganjo-uprising) · oracle_id `fe2fe9f2-908b-49a9-9648-b01e0417a364` · printing: NEO #217 (2022-02-18) · [rulings](https://api.scryfall.com/cards/35203138-5237-49aa-a335-7a32829548a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eight-and-a-Half-Tails
@@ -267,7 +278,10 @@
   > Cast this spell only during the declare attackers step and only if you've been attacked this step.
   > Destroy target attacking creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30578 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/9/eightfold-maze) · oracle_id `9097457c-ceb3-4944-8f01-c28ddefbb270` · printing: ME3 #9 (2009-09-07) · [rulings](https://api.scryfall.com/cards/d0fb20ae-269b-452b-894b-a8a285428b15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-10-01* — If all the attacking creatures attack your planeswalkers, you can’t cast Eightfold Maze. To cast it, a creature needs to have attacked _you_.
+  - *2009-10-01* — If you’re able to cast Eightfold Maze, it can target any attacking creature (including one attacking a planeswalker).
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/9/eightfold-maze) · oracle_id `9097457c-ceb3-4944-8f01-c28ddefbb270` · printing: ME3 #9 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight
 

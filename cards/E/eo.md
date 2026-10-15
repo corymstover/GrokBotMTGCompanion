@@ -65,6 +65,7 @@
   > *But northward the white crest of Éomer led the great front of the Rohirrim which he had again gathered and marshaled.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16735 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/121/%C3%A9omer-of-the-riddermark) · oracle_id `c07340bb-04b6-4a80-9999-727b8ab3534d` · printing: LTR #121 (2023-06-23) · [rulings](https://api.scryfall.com/cards/d920fcaf-4988-4186-962d-cdda25d79e7b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eon Frolicker
@@ -77,7 +78,10 @@
   > When this creature enters, if you cast it, target opponent takes an extra turn after this one. Until your next turn, you and planeswalkers you control gain protection from that player. (You and planeswalkers you control can't be targeted, dealt damage, or enchanted by anything controlled by that player.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13990 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/33/eon-frolicker) · oracle_id `c0a18a53-d520-4795-9b3b-0f93bcf35848` · printing: C20 #33 (2020-04-17) · [rulings](https://api.scryfall.com/cards/acaec4bf-69c8-43c1-960f-cb5b5bff660a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-04-17* — Creatures that player controls can still attack you or planeswalkers you control, but the damage they would deal will be prevented.
+  - *2020-04-17* — Protection from a player means that you and each planeswalker you control have protection from each object controlled by that player. If an object has no controller (such as a card in a graveyard), its owner is considered its controller for this purpose.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/33/eon-frolicker) · oracle_id `c0a18a53-d520-4795-9b3b-0f93bcf35848` · printing: C20 #33 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eon Hub
 
@@ -88,7 +92,11 @@
 - **Flavor text** (5DN printing):
   > *Its power source is time itself. It absorbs unused minutes and hours, bringing the end of existence always closer.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22101 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/120/eon-hub) · oracle_id `84342991-b925-4064-a88f-b6d60fd931e7` · printing: 5DN #120 (2004-06-04) · [rulings](https://api.scryfall.com/cards/d5d6b270-b4c9-489d-9322-7c8ddc0ca0ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-12-01* — Any triggered abilities that triggered during the untap step will go onto the stack at the start of the draw step.
+  - *2004-12-01* — The upkeep step is skipped entirely. The turn proceeds from untap step to draw step.
+  - *2004-12-01* — Upkeep-triggered abilities don't trigger, and "activate only during your upkeep" abilities can't be activated.
+- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/120/eon-hub) · oracle_id `84342991-b925-4064-a88f-b6d60fd931e7` · printing: 5DN #120 (2004-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Éowyn, Fearless Knight
 

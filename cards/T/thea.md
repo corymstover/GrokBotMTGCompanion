@@ -40,7 +40,10 @@
   > *"An immense river of oblivion is sweeping us away into a nameless abyss."*
   > *—Ernest Renan, Souvenirs d'Enfance et de Jeunesse*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21698 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/77/the-abyss) · oracle_id `a02a7816-c967-4503-bb08-f8db44915250` · printing: ME3 #77 (2009-09-07) · [rulings](https://api.scryfall.com/cards/f11db51c-bbbc-4890-960e-d8a3eacca1e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — The controller of The Abyss controls the ability, but the current player chooses what gets destroyed.
+  - *2008-10-01* — This has the supertype world. When a world permanent enters, any world permanents that were already on the battlefield are put into their owners' graveyards. This is a state-based action called the "world rule." The new world permanent stays on the battlefield. If two world permanents enter at the same time, they're both put into their owners' graveyards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/77/the-abyss) · oracle_id `a02a7816-c967-4503-bb08-f8db44915250` · printing: ME3 #77 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Actualizer
 
@@ -50,6 +53,7 @@
 - **Oracle text:**
   > At the beginning of your first main phase, read aloud the name, mana cost, type line, power, and toughness of a card in your hand, except lie about one of them. Each opponent simultaneously guesses which one is incorrect. Then reveal the card. Each opponent who guessed incorrectly loses 3 life. You may discard that card and draw a card. (They can't look it up or ask for help as this ability is resolving. Nice try, though.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03h/the-actualizer) · oracle_id `0cdfacbb-63c9-4a0e-bf47-ba7777417acc` · printing: UNK #RZ03h (2024-10-25) · [rulings](https://api.scryfall.com/cards/7a3d703c-4964-4a31-bb77-5fa57e3e938c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Aesir Escape Valhalla
@@ -113,6 +117,7 @@
   > {T}: Add {G}{G}.
   > Whenever a nontoken creature enters the battlefield under your control, put a +1/+1 counter on it.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UG15/the-alright-henge) · oracle_id `71a82009-e817-4cce-9b87-c8b6e15bfcab` · printing: UNK #UG15 (2023-09-23) · [rulings](https://api.scryfall.com/cards/46b324ff-a701-4aa6-81c1-3ea338cfa9a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ancient Dingus
@@ -125,6 +130,7 @@
   > Whenever The Ancient Dingus attacks, target player creates a Food token.
 - **Keywords:** Food
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04v/the-ancient-dingus) · oracle_id `57debcd1-440e-4369-becc-fe71c434bbc8` · printing: UNK #RZ04v (2026-05-01) · [rulings](https://api.scryfall.com/cards/b97323cd-236e-44c6-b24c-d81454d38286/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ancient One
@@ -166,7 +172,20 @@
   > I, II — Look at the top five cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
   > III — Artifacts you control become artifact creatures with base power and toughness 5/5 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12010 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/42/the-antiquities-war) · oracle_id `ab5a9749-5c94-43e0-b9df-bd2c3601936f` · printing: DOM #42 (2018-04-27) · [rulings](https://api.scryfall.com/cards/bbda670a-00a7-419c-b4b5-bfdb323f006d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2018-04-27* — A chapter ability doesn’t trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter’s number. For example, the third lore counter put on a Saga causes the III chapter ability to trigger, but I and II won’t trigger again.
+  - *2018-04-27* — An Equipment that becomes an artifact creature becomes unattached if it’s attached to a creature. Its equip ability can be activated, but it won’t become attached to the target creature.
+  - *2018-04-27* — As a Saga enters the battlefield, its controller puts a lore counter on it. As your precombat main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn’t use the stack.
+  - *2018-04-27* — Each symbol on the left of a Saga’s text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability’s chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2018-04-27* — Effects that modify an artifact creature’s power and/or toughness, such as the effect of Titanic Growth, will apply to the creature no matter when they started to take effect. The same is true for any counters that change its power and/or toughness and effects that switch its power and toughness.
+  - *2018-04-27* — If The Antiquities War somehow becomes an artifact enchantment prior to resolving its final chapter ability, it will become a 5/5 Saga artifact enchantment creature, and will then be sacrificed after that ability resolves.
+  - *2018-04-27* — If counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives lore counters. Removing lore counters won’t cause a previous chapter ability to trigger.
+  - *2018-04-27* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2018-04-27* — Once a chapter ability has triggered, the ability on the stack won’t be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2018-04-27* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities—in the Dominaria set, this is always three—the Saga’s controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn’t use the stack.
+  - *2018-04-27* — The final chapter ability of The Antiquities War affects only artifacts you control at the time it resolves. Artifacts you begin to control later in the turn won’t become 5/5 creatures.
+  - *2018-04-27* — The final chapter ability of The Antiquities War overwrites an artifact creature’s normal base power and toughness and all previous effects that set an artifact creature’s base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after the ability resolves will overwrite this effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/42/the-antiquities-war) · oracle_id `ab5a9749-5c94-43e0-b9df-bd2c3601936f` · printing: DOM #42 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Apprentice's Folly
 
@@ -177,7 +196,13 @@
   > I, II — Choose target nontoken creature you control that doesn't have the same name as a token you control. Create a token that's a copy of it, except it isn't legendary, is a Reflection in addition to its other types, and has haste.
   > III — Sacrifice all Reflections you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10072 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/200/the-apprentices-folly) · oracle_id `f45542a0-0d49-4b56-9c3e-663ff8d0529a` · printing: WOE #200 (2023-09-08) · [rulings](https://api.scryfall.com/cards/0edb58bb-8ff3-4e34-b3d1-d83b5bd8c178/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-09-01* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the creature will also work.
+  - *2023-09-01* — Except for the listed exceptions, the token copies exactly what was printed on the original creature and nothing else (unless that permanent is itself copying something else; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2023-09-01* — If something becomes a copy of the token, the copy is also a Reflection in addition to its other types, has haste, and isn't legendary.
+  - *2023-09-01* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2023-09-01* — If the copied creature is copying something else, then the token enters the battlefield as whatever that creature copied, with the stated exceptions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/200/the-apprentices-folly) · oracle_id `f45542a0-0d49-4b56-9c3e-663ff8d0529a` · printing: WOE #200 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Archenemy's Charm
 
@@ -189,6 +214,7 @@
   > • Every Hope Shall Vanish
   > • Make Yourself Useful
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB13/the-archenemys-charm) · oracle_id `26ffb2ab-615f-4f6a-b5f7-a8ff3409304b` · printing: UNK #RB13 (2024-10-25) · [rulings](https://api.scryfall.com/cards/0657e5e3-d452-4d53-b22f-b582fe299a21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Archimandrite
@@ -201,7 +227,10 @@
   > Whenever you gain life, each Advisor, Artificer, and Monk you control gains vigilance and gets +X/+0 until end of turn, where X is the amount of life you gained.
   > Tap three untapped Advisors, Artificers, and/or Monks you control: Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17783 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/brc/26/the-archimandrite) · oracle_id `e5e8368d-43af-4f83-8565-25d03da64360` · printing: BRC #26 (2022-11-18) · [rulings](https://api.scryfall.com/cards/54fb3f4c-44fb-4afe-9fab-204ef98995c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-14* — Since The Archimandrite’s activated ability doesn’t have a tap symbol in its cost, you can tap creatures that haven’t been under your control since your most recent turn began (including The Archimandrite itself) to pay the cost.
+  - *2022-10-14* — You can’t gain negative amounts of life. If you have fewer than four cards in hand as the first ability resolves, you won’t gain any life, but you won’t lose any life either.
+- **Source flags:** [Scryfall](https://scryfall.com/card/brc/26/the-archimandrite) · oracle_id `e5e8368d-43af-4f83-8565-25d03da64360` · printing: BRC #26 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Arkenstone // Seek the Heart
 
@@ -238,7 +267,12 @@
   > *—Iroh*
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16879 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/129/the-art-of-tea) · oracle_id `9ed4e48f-91bd-45f9-9f31-a2705b330713` · printing: TLE #129 (2025-11-21) · [rulings](https://api.scryfall.com/cards/1897db0c-db6d-4018-bf2a-9221bb0d6e61/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-10-02* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2025-10-02* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Bosco, Just a Bear's ability (an ability with "Sacrifice a Food" in its cost). You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Bosco, Just a Bear's ability.
+  - *2025-10-02* — Some spells and abilities that create Food tokens may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Food tokens.
+  - *2025-10-02* — Whatever you do, don't eat the delicious cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/129/the-art-of-tea) · oracle_id `9ed4e48f-91bd-45f9-9f31-a2705b330713` · printing: TLE #129 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ash Lizard
 
@@ -249,6 +283,7 @@
   > Other Lizards, Treefolk, And Warriors you control get +2/+2.
   > Whenever The Ash Lizard attacks, create a token that's a copy of one of the following cards at random: Ash Zealot; Bog-Strider Ash; Grotag ThrASHer; Seedguide Ash; Unstoppable Ash; ViASHino Warrior. (You're probably going to need to look these cards up.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ05c/the-ash-lizard) · oracle_id `70565641-15db-49e8-91e7-d2772052a155` · printing: UNK #RZ05c (2024-06-29) · [rulings](https://api.scryfall.com/cards/1cba355b-438b-44a0-9e67-d7e7ae64adfd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Asker of More Mana
@@ -259,6 +294,7 @@
 - **Oracle text:**
   > Each time a player pays mana, they must pay {1} additional mana. (This includes casting spells, activating abilities, turning face-down creatures face up, paying for Ghostly Prison, the weird ability on Quenchable Fire, etc.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW35b/the-asker-of-more-mana) · oracle_id `3c93038d-b6c3-49b3-9439-62b53347f01e` · printing: UNK #RW35b (2025-09-26) · [rulings](https://api.scryfall.com/cards/335ca507-ab79-4605-a30d-e5b25637e65a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Astonishing Ant-Man
@@ -270,6 +306,7 @@
   > Whenever you draw a card, put a +1/+1 counter on The Astonishing Ant-Man.
   > {2}{G}, {T}, Remove any number of +1/+1 counters from The Astonishing Ant-Man: Create that many 1/1 green Insect creature tokens.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11536 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/204/the-astonishing-ant-man) · oracle_id `6c7e4e51-099a-4398-a4b7-e2f0ddd36429` · printing: MSH #204 (2026-06-26) · [rulings](https://api.scryfall.com/cards/5d98073e-2828-4365-a8d6-f631aac0cca9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Theater of Horrors
@@ -309,4 +346,5 @@
 - **Oracle text:**
   > {3}, {T}: Target creature you control gains deathtouch until end of turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thp1/1c/the-avenger) · oracle_id `73bf5475-78ed-4b10-9580-3c396865c206` · printing: THP1 #1c (2013-09-27) · [rulings](https://api.scryfall.com/cards/d0f83818-2c47-435c-ade3-302e4eabc2bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

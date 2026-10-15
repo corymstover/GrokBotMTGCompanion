@@ -29,6 +29,7 @@
   > {U}: Target creature becomes blue until end of turn.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28447 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmp/64/fylamarid) · oracle_id `c5829bff-9687-42b2-8bba-1f036e592cdd` · printing: TMP #64 (1997-10-14) · [rulings](https://api.scryfall.com/cards/8dd4f686-79e3-4067-81f9-7fae0c25dc8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fylgja
@@ -42,6 +43,7 @@
   > {2}{W}: Put a healing counter on this Aura.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30066 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/26/fylgja) · oracle_id `df0e5dd8-65e0-474c-ac32-6e0f6f16b8e6` · printing: ICE #26 (1995-06-03) · [rulings](https://api.scryfall.com/cards/3c6358a1-37f0-4b40-93d4-4f1652c38404/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fyndhorn Bow
@@ -54,6 +56,7 @@
   > *"With a bow like this, the hunting is always good."*
   > *—Taaveti of Kelsinko, Elvish Hunter*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30516 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/318/fyndhorn-bow) · oracle_id `d37fb8bf-d293-4ac3-b744-74e4caade975` · printing: ICE #318 (1995-06-03) · [rulings](https://api.scryfall.com/cards/65dd0a41-cc51-4728-b597-fdb2510accd8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fyndhorn Brownie
@@ -67,6 +70,7 @@
   > *"I've been insulted by drunks in a hundred inns, but never as skillfully or annoyingly as by those blasted brownies."*
   > *—General Jarkeld, the Arctic Fox*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25528 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/6ed/231/fyndhorn-brownie) · oracle_id `6d1f8073-4da2-4abc-abb4-2053c4a40bbf` · printing: 6ED #231 (1999-04-21) · [rulings](https://api.scryfall.com/cards/bc2a2d39-92dd-4123-8a3f-5c756d22b6ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fyndhorn Druid
@@ -80,6 +84,7 @@
   > *"All struggles ultimately require sacrifice. It's just that some sacrifices are dearer than others."*
   > *—Jaeuhl Carthalion, Juniper Order Advocate*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31375 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/all/90a/fyndhorn-druid) · oracle_id `98e51f1a-ed6e-4286-a41b-e4656d08c934` · printing: ALL #90a (1996-06-10) · [rulings](https://api.scryfall.com/cards/778b028f-fa4e-4638-82b4-fb287223ea20/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fyndhorn Elder
@@ -92,6 +97,7 @@
 - **Flavor text** (8ED printing):
   > *"It is useful to be able to speak to the trees. But it is truly wondrous to be able to listen to them."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12456 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/251/fyndhorn-elder) · oracle_id `507bdb1a-90b4-4fd3-a1a3-e8be316e97f3` · printing: 8ED #251 (2003-07-28) · [rulings](https://api.scryfall.com/cards/81c125cd-ea49-4511-a78c-42c1f7ce802d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fyndhorn Elves
@@ -120,6 +126,7 @@
   > *—Taaveti of Kelsinko, elvish hunter*
 - **Keywords:** Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31452 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/166/fyndhorn-pollen) · oracle_id `2f18967d-c2cd-449d-a288-df6343672743` · printing: ME2 #166 (2008-09-22) · [rulings](https://api.scryfall.com/cards/7b0278f9-19fb-4b6d-b765-5265f2cf0db2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fynn, the Fangbearer

@@ -82,6 +82,7 @@
 - **Flavor text** (PTK printing):
   > *Taking control of powerful court positions one by one, eunuchs eventually brought on the fall of the Han dynasty, leading to the chaos of the Three Kingdoms.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30864 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/110/eunuchs-intrigues) · oracle_id `e34f8aae-bf55-4bba-9524-c841591bb14b` · printing: PTK #110 (1999-05-01) · [rulings](https://api.scryfall.com/cards/5e7ca92f-770d-4147-8eaf-f1fa69340dc9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eureka
@@ -91,7 +92,13 @@
 - **Oracle text:**
   > Starting with you, each player may put a permanent card from their hand onto the battlefield. Repeat this process until no one puts a card onto the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18162 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/208/eureka) · oracle_id `917f2b4b-79ec-4ded-b4c8-cbcf363cb23b` · printing: VMA #208 (2014-06-16) · [rulings](https://api.scryfall.com/cards/71725234-14fa-4a29-9efc-6dd2366d9798/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2004-10-04* — If the card has an X in its mana cost, treat X as zero.
+  - *2004-10-04* — In a game of N players, the process ends when all N players in sequence (starting with you) choose not to put a card onto the battlefield. It doesn’t end the first time a player chooses not to put a card onto the battlefield. If a player chooses not to put a card onto the battlefield but the process continues, that player may put a card onto the battlefield the next time the process gets around to them.
+  - *2004-10-04* — The cards are put onto the battlefield and will not trigger effects which trigger on such cards being “cast” or “played”.
+  - *2006-10-15* — Anything that triggers during the resolution of this will wait to be put on the stack until everything is put onto the battlefield and resolution is complete. The player whose turn it is will put all of their triggered abilities on the stack in any order, then each other player in turn order will do the same. (The last ability put on the stack will be the first one that resolves.)
+  - *2007-09-16* — A “permanent card” is a card that would be a permanent once it’s on the battlefield. Specifically, it’s an artifact, creature, enchantment, land, or planeswalker card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/208/eureka) · oracle_id `917f2b4b-79ec-4ded-b4c8-cbcf363cb23b` · printing: VMA #208 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eureka Moment
 
@@ -115,7 +122,9 @@
   > When Euroakus enters, create a number of 1/1 blue Human Wizard creature tokens equal to the number of differently named lands you control.
   > {4}{G}{U}: Draw a card for each Wizard you control. They each get +1/+1 until end of turn for each card in your hand.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ph20/1/euroakus) · oracle_id `e11a022c-140d-4b7f-84b0-17885f76faa6` · printing: PH20 #1 (2021-08-01) · [rulings](https://api.scryfall.com/cards/4a4039bd-ed03-4eef-8a3d-97f134475974/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ph20/1/euroakus) · oracle_id `e11a022c-140d-4b7f-84b0-17885f76faa6` · printing: PH20 #1 (2021-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Euru, Acorn Scrounger
 
@@ -127,6 +136,7 @@
   > Whenever one or more Squirrels you control deal combat damage to a player, you may sacrifice a token. If you do, put an acorn counter on each permanent you control named Chitterspitter.
 - **Keywords:** Forage, Conjure
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #29767 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/70/euru-acorn-scrounger) · oracle_id `b01657ad-120f-4d00-a367-fd112d403700` · printing: MBC #70 (2026-10-19) · [rulings](https://api.scryfall.com/cards/dc63c971-458a-4be9-aaa0-18df47547d59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eusocial Engineering
@@ -154,4 +164,10 @@
   > *Nylea speaks to her in the windblown leaves; Thassa in the rushing tides.*
 - **Keywords:** Constellation
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13673 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/216/eutropia-the-twice-favored) · oracle_id `4de1319f-b3c7-42d4-9342-3e9c4f526ee0` · printing: THB #216 (2020-01-24) · [rulings](https://api.scryfall.com/cards/c2159949-3d21-448d-bc34-a3dbaf219476/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-01-24* — A constellation ability triggers whenever an enchantment enters the battlefield under your control for any reason. Enchantments with other card types, such as enchantment creatures, will also cause constellation abilities to trigger.
+  - *2020-01-24* — An Aura spell that has an illegal target when it tries to resolve doesn’t resolve and is instead put into its owner’s graveyard. It doesn’t enter the battlefield, so constellation abilities don’t trigger.
+  - *2020-01-24* — Eutropia can be the target of its own triggered ability.
+  - *2020-01-24* — Eutropia’s ability can target a creature that already has flying. It still gets a +1/+1 counter. Multiple instances of flying on the same creature are redundant.
+  - *2020-01-24* — If an enchantment creature enters the battlefield under your control, Eutropia’s ability can target that creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/216/eutropia-the-twice-favored) · oracle_id `4de1319f-b3c7-42d4-9342-3e9c4f526ee0` · printing: THB #216 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

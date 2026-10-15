@@ -78,7 +78,10 @@
 - **Flavor text** (ME1 printing):
   > *Moss-covered statues littered the area, a macabre monument to the basilisk's power.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28700 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me1/134/thicket-basilisk) · oracle_id `c4822813-cd81-465d-9fe8-3a4c2dcd31ef` · printing: ME1 #134 (2007-09-10) · [rulings](https://api.scryfall.com/cards/2ac6ded0-4ff0-4827-a870-1a7851cd37b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Protection from Green does not stop the Basilisk’s ability because the ability is not targeted.
+  - *2004-10-04* — The ability destroys the creature at the end of the combat, which is after all first strike and normal damage dealing is done. This means that a creature may have to regenerate twice to survive the combat, once from damage and once again at end of combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me1/134/thicket-basilisk) · oracle_id `c4822813-cd81-465d-9fe8-3a4c2dcd31ef` · printing: ME1 #134 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thicket Crasher
 
@@ -93,6 +96,7 @@
   > *—Vivien Reid*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14008 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/196/thicket-crasher) · oracle_id `998e850a-b3c7-4ab2-85ac-25beef98ab20` · printing: M20 #196 (2019-07-12) · [rulings](https://api.scryfall.com/cards/534eb449-3f1c-46ec-a965-0f5812e2c93e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thicket Elemental
@@ -105,7 +109,15 @@
   > When this creature enters, if it was kicked, you may reveal cards from the top of your library until you reveal a creature card. If you do, put that card onto the battlefield and shuffle all other cards revealed this way into your library.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20458 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddr/21/thicket-elemental) · oracle_id `a85390b6-e90b-4d0c-9573-eb67ce01a0aa` · printing: DDR #21 (2016-09-02) · [rulings](https://api.scryfall.com/cards/c5a462ca-0632-410d-9999-a096b71fc3ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2004-10-04* — The "if you do" means "if you choose to reveal cards". You still shuffle if you have no creature card in your library.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddr/21/thicket-elemental) · oracle_id `a85390b6-e90b-4d0c-9573-eb67ce01a0aa` · printing: DDR #21 (2016-09-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thick-Skinned Goblin
 
@@ -118,7 +130,9 @@
 - **Flavor text** (TSR printing):
   > *The shaman of the tribe is responsible for keeping track of all its treasures, including angry pets and cursed lamps of fiery doom.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30772 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/196/thick-skinned-goblin) · oracle_id `e7436973-9ac8-45b2-9d79-769bfacef4b9` · printing: TSR #196 (2021-03-19) · [rulings](https://api.scryfall.com/cards/96f6dfd2-f4b1-41bc-b848-5afa30b13e36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — When an echo ability of a permanent you control resolves, you may pay {0}, pay its echo cost, or choose not to pay (and then sacrifice that permanent). Any effects that check whether you paid the echo cost are satisfied if you paid {0} this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/196/thick-skinned-goblin) · oracle_id `e7436973-9ac8-45b2-9d79-769bfacef4b9` · printing: TSR #196 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thief of Blood
 
@@ -132,7 +146,10 @@
   > *Her hunger will not be denied.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10717 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cma/71/thief-of-blood) · oracle_id `97d61346-bd53-4eb8-a920-6ae0382eb20d` · printing: CMA #71 (2017-06-09) · [rulings](https://api.scryfall.com/cards/1625be56-a8e9-44f3-a213-b758bffd447f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-11-04* — Experience counters aren't removed from players this way, but loyalty counters are removed from planeswalkers.
+  - *2015-11-04* — If more than one Thief of Blood enters the battlefield at the same time, you can apply the replacement effect of any of them. That one will enter with additional +1/+1 counters due to its own ability and the others will not.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cma/71/thief-of-blood) · oracle_id `97d61346-bd53-4eb8-a920-6ae0382eb20d` · printing: CMA #71 (2017-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thief of Existence
 
@@ -144,7 +161,15 @@
   > When you cast this spell, exile up to one target noncreature, nonland permanent an opponent controls with mana value 4 or less. If you do, Thief of Existence gains "When this creature leaves the battlefield, target opponent draws a card."
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13401 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/174/thief-of-existence) · oracle_id `7abbd5af-a04b-476d-aee5-2b2f5114b019` · printing: MH3 #174 (2024-06-14) · [rulings](https://api.scryfall.com/cards/328b02ca-d8eb-401d-9c41-93f8eb909312/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-06-07* — A card with devoid is just colorless. It's not colorless and the colors of mana in its mana cost.
+  - *2024-06-07* — Devoid doesn't affect the color identity of the card for the purposes of the Commander variant. For example, while Abstruse Appropriation is colorless because it has devoid, its color identity is still white and black, and it can't be included in a Commander deck where the commander's color identity doesn't include both white and black.
+  - *2024-06-07* — Devoid works in all zones, not just on the battlefield.
+  - *2024-06-07* — If a card loses devoid, it will still be colorless. This is because effects that change an object's color (like the one created by devoid) are considered before the object loses devoid.
+  - *2024-06-07* — If the target of Thief of Existence's triggered ability is illegal as the ability tries to resolve, it won't resolve and none of its effects will happen. Thief of Existence won't gain another ability.
+  - *2024-06-07* — Other cards and abilities can give a card with devoid a color. If that happens, it's just the new color, not that color and colorless.
+  - *2024-06-07* — Thief of Existence's triggered ability will resolve before Thief of Existence does. If Thief of Existence is countered or otherwise leaves the stack in response to that triggered ability, the triggered ability will still resolve as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/174/thief-of-existence) · oracle_id `7abbd5af-a04b-476d-aee5-2b2f5114b019` · printing: MH3 #174 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thief of Hope
 
@@ -156,6 +181,7 @@
   > Soulshift 2 (When this creature dies, you may return target Spirit card with mana value 2 or less from your graveyard to your hand.)
 - **Keywords:** Soulshift
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17857 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/100/thief-of-hope) · oracle_id `d3fa1320-9e95-437a-aa36-102a2722fc42` · printing: MM2 #100 (2015-05-22) · [rulings](https://api.scryfall.com/cards/48304e24-9c74-4726-95ae-3b1a356f5998/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thief of Sanity
@@ -186,7 +212,12 @@
   > Equip {4}
 - **Keywords:** Job select, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10631 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/81/thiefs-knife) · oracle_id `4bf589ed-58f8-40ad-bcee-50cb99da02ca` · printing: FIN #81 (2025-06-13) · [rulings](https://api.scryfall.com/cards/c2dcfd0a-3f52-4616-a09a-fd2db8b6b93e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-06-06* — If the Hero token is destroyed, the Equipment stays on the battlefield.
+  - *2025-06-06* — If the job select ability causes two Hero tokens to be created (due to an effect such as that of Doubling Season), the Equipment becomes attached to only one of them.
+  - *2025-06-06* — The Hero token enters as a 1/1 creature, then the Equipment becomes attached to it. Abilities that trigger when a creature enters the battlefield see that a 1/1 creature entered the battlefield.
+  - *2025-06-06* — You may pay the Equipment's equip cost as normal to move it from the Hero token to another creature you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/81/thiefs-knife) · oracle_id `4bf589ed-58f8-40ad-bcee-50cb99da02ca` · printing: FIN #81 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thieves' Auction
 
@@ -212,7 +243,11 @@
   > Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
 - **Keywords:** Prowl
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20817 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mor/54/thieves-fortune) · oracle_id `e0bffcf3-8d34-461b-a1e4-ae47c1e7b19e` · printing: MOR #54 (2008-02-01) · [rulings](https://api.scryfall.com/cards/8175ec81-f4e2-45d2-a9d8-e8855e17ff4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
+  - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
+  - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mor/54/thieves-fortune) · oracle_id `e0bffcf3-8d34-461b-a1e4-ae47c1e7b19e` · printing: MOR #54 (2008-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thieves' Guild Enforcer
 
@@ -274,6 +309,7 @@
   > *Rayne once made several unkind comparisons between the bird's naked opportunism and Urza's.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15063 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/68/thieving-magpie) · oracle_id `2f074636-6a36-46a3-b872-add79e19aa8b` · printing: DMR #68 (2023-01-13) · [rulings](https://api.scryfall.com/cards/1f9a1760-d681-471d-b3a2-ca5051b8bed3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thieving Otter
@@ -287,6 +323,7 @@
   > *"You're telling me we spent a year securing the sanctuary against pterosaurs, rambeasts, and nightfangs . . . and we were robbed by what?"*
   > *—Endris, Drannith magistrate*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12021 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/390/thieving-otter) · oracle_id `5dee663f-9e2e-4503-8086-fc51664fdf29` · printing: BLB #390 (2024-08-02) · [rulings](https://api.scryfall.com/cards/52a258be-39e3-4689-b2d0-7c353ce7d574/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thieving Skydiver
@@ -322,7 +359,9 @@
   > When this creature enters, target player reveals X cards from their hand, where X is the number of Faeries you control. You choose one of those cards. That player discards that card.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21669 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mma/101/thieving-sprite) · oracle_id `4c5b2be9-5d48-4e62-ae67-d61f3708bb4f` · printing: MMA #101 (2013-06-07) · [rulings](https://api.scryfall.com/cards/244d864d-fc74-4147-aca6-d0498691b1a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-06-07* — The number of cards that are revealed is equal to the number of Faeries you control when the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mma/101/thieving-sprite) · oracle_id `4c5b2be9-5d48-4e62-ae67-d61f3708bb4f` · printing: MMA #101 (2013-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thieving Varmint
 
@@ -352,6 +391,7 @@
   > *"We honor the lost as we cannot honor our own."*
 - **Keywords:** Investigate, Bear Witness, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23233 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/111/thijarian-witness) · oracle_id `d273033b-3b8b-4ce9-afe8-208d82dd20f1` · printing: WHO #111 (2023-10-13) · [rulings](https://api.scryfall.com/cards/da05e23b-419f-4023-9ad4-1227bb1b53be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thing from the Deep
@@ -364,6 +404,7 @@
 - **Flavor text** (ME4 printing):
   > *Seafarers fear sailing off the world's edge not so much as down its gullet.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29931 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/68/thing-from-the-deep) · oracle_id `9542bd7f-bb99-4b59-a4e3-b88ed9f798bf` · printing: ME4 #68 (2011-01-10) · [rulings](https://api.scryfall.com/cards/97c7a97f-b368-4d13-8d07-3d57a15de518/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thing in the Ice // Awoken Horror
@@ -398,6 +439,7 @@
 - **Flavor text** (MSC printing):
   > *"Nobody's catchin' me without a fight!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23247 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/564/thing-swing) · oracle_id `b8306385-ec89-49f5-ac83-7522e4f0546c` · printing: MSC #564 (2026-06-26) · [rulings](https://api.scryfall.com/cards/6db37ee7-4669-4eac-8365-5b20c021691d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thinking Cap
@@ -413,6 +455,7 @@
   > *—Senior Inspector Holjo*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21715 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/257/thinking-cap) · oracle_id `a54fb3de-0581-461e-be33-dc4f4d16a33e` · printing: MKM #257 (2024-02-09) · [rulings](https://api.scryfall.com/cards/6d2565e1-dd7b-462b-8270-a17913277793/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Think Tank
@@ -425,6 +468,7 @@
   > *Cephalids seek knowledge not to better themselves, but to best others.*
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20862 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/104/think-tank) · oracle_id `c13b9ee5-cf4f-47bc-a6e8-1dbf98df3d9c` · printing: ODY #104 (2001-10-01) · [rulings](https://api.scryfall.com/cards/8c1c9d34-ea4c-4e89-a7ed-06c4469c1aca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Think Twice
@@ -471,6 +515,7 @@
 - **Flavor text** (BRO printing):
   > *As Mishra's army bore down on Terisia City, Corlo felt his focus, his patience, and his willpower twine together. With a deep breath, he plucked answers from the air.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25886 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/67/third-path-savant) · oracle_id `6024cb2d-a6e7-4adc-8b34-7f4e0cac16ce` · printing: BRO #67 (2022-11-18) · [rulings](https://api.scryfall.com/cards/793a51ab-59fb-424f-a315-3f63e8990322/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Third Stage of Magic Design
@@ -480,6 +525,7 @@
 - **Oracle text:**
   > Choose a word that's four letters or longer. For each nonland permanent you control and each nonland card in your graveyard with the chosen word in its rules text or type line, create a colorless 2/2 creature token with no name or creature types.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW05f/third-stage-of-magic-design) · oracle_id `50294968-e03a-4e09-8a84-7fe74a5bcbd9` · printing: UNK #RW05f (2024-10-25) · [rulings](https://api.scryfall.com/cards/3b425deb-7d82-45e3-917a-5119319d2380/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thirst
@@ -495,6 +541,7 @@
   > *The first of the Thousand Deaths.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31647 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/99/thirst) · oracle_id `61b3ad9d-485f-4479-b18f-506847af43f2` · printing: MIR #99 (1996-10-08) · [rulings](https://api.scryfall.com/cards/12630ac5-a6c4-4852-abd9-5a0bc71bbf83/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thirst for Discovery
@@ -519,6 +566,7 @@
 - **Flavor text** (ECL printing):
   > *Within each rimekin rages an ongoing struggle for self-discovery and purpose.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10087 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/79/thirst-for-identity) · oracle_id `045ece1e-23aa-4122-8726-86b2af4345ba` · printing: ECL #79 (2026-01-23) · [rulings](https://api.scryfall.com/cards/c3949f8c-d1c5-45c2-80ed-a57f4f9af86e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thirst for Knowledge
@@ -559,7 +607,10 @@
   > *Sometimes the weapon wields the bearer.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27471 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/emn/202/thirsting-axe) · oracle_id `e024870c-af13-4ef3-be27-cdd84dab7d7d` · printing: EMN #202 (2016-07-22) · [rulings](https://api.scryfall.com/cards/f47e5303-c07a-4be0-a314-bf5739a856e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-07-13* — If the equipped creature dealt combat damage only to a player or planeswalker, Thirsting Axe’s triggered ability triggers. The same is true if the creature didn’t deal combat damage at all.
+  - *2016-07-13* — Thirsting Axe’s triggered ability checks whether the creature it’s attached to at the moment your end step begins dealt combat damage to a creature earlier in the turn. It doesn’t matter whether Thirsting Axe was attached to it (or to any creature at all) as combat damage was dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/emn/202/thirsting-axe) · oracle_id `e024870c-af13-4ef3-be27-cdd84dab7d7d` · printing: EMN #202 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thirsting Bloodlord
 
@@ -571,7 +622,9 @@
 - **Flavor text** (M20 printing):
   > *"A whole life, full of memories and experience, love and sorrow, drained drop by drop into this bottle. Could any feast be more glorious?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17622 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/293/thirsting-bloodlord) · oracle_id `b04ba676-a1f5-4216-9d93-3c475b504bfa` · printing: M20 #293 (2019-07-12) · [rulings](https://api.scryfall.com/cards/599e8ed3-4341-4373-8871-2768a90d98c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-07-12* — Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to other Vampires you control may become lethal if Thirsting Bloodlord leaves the battlefield during that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/293/thirsting-bloodlord) · oracle_id `b04ba676-a1f5-4216-9d93-3c475b504bfa` · printing: M20 #293 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thirsting Roots
 
@@ -605,6 +658,7 @@
   > *—Dahlya Trul, "Irbitov Lament"*
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25391 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/87/thirsting-shade) · oracle_id `cba60174-a4de-41e1-a4d9-8f7bb1387e0e` · printing: RNA #87 (2019-01-25) · [rulings](https://api.scryfall.com/cards/a920c2e6-4a1f-487c-ad3f-b772443f0633/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### This Is How It Ends
@@ -631,7 +685,9 @@
   > Whenever you cast a white spell, this creature gets +1/+1 until end of turn.
   > Whenever you cast a blue spell, this creature gains flying until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30770 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/shm/152/thistledown-duo) · oracle_id `f6777aee-c39b-49d8-9049-5d2b1e888dd0` · printing: SHM #152 (2008-05-02) · [rulings](https://api.scryfall.com/cards/d57ba0ce-0390-42fd-9473-2436fac53631/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-05-01* — An object that’s both of the listed colors will cause both abilities to trigger. You can put them on the stack in either order.
+- **Source flags:** [Scryfall](https://scryfall.com/card/shm/152/thistledown-duo) · oracle_id `f6777aee-c39b-49d8-9049-5d2b1e888dd0` · printing: SHM #152 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thistledown Liege
 
@@ -646,7 +702,9 @@
   > *The thoughtweft is his informant, and he its devoted guardian.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13579 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/285/thistledown-liege) · oracle_id `7b07356f-9c3f-4875-939e-aa64eb6b5ce2` · printing: 2X2 #285 (2022-07-08) · [rulings](https://api.scryfall.com/cards/41a21a0c-fe3d-456b-a905-8d962c0b1e3c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-05-01* — The abilities are separate and cumulative. If another creature you control is both of the listed colors, it will get a total of +2/+2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/285/thistledown-liege) · oracle_id `7b07356f-9c3f-4875-939e-aa64eb6b5ce2` · printing: 2X2 #285 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thistledown Players
 
@@ -659,6 +717,7 @@
   > *"In hand, a sword to slay the frightful beast; in heart, these words to soothe our frightened kin."*
   > *—\*Lily and the Ember Seed\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12854 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/35/thistledown-players) · oracle_id `7054c42b-48dd-4887-b878-69c005259d27` · printing: BLB #35 (2024-08-02) · [rulings](https://api.scryfall.com/cards/afa8d83f-8586-4127-8b55-9715e9547488/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### This Town Ain't Big Enough

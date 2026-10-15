@@ -52,4 +52,5 @@
 - **Flavor text** (TMT printing):
   > *"You flatter me, Ms. O'Neil. I like that."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23485 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/139/baxter-stockman) · oracle_id `e610bfd4-d064-410b-929c-1d9dd82828b1` · printing: TMT #139 (2026-03-06) · [rulings](https://api.scryfall.com/cards/117b1341-2cf0-466e-b3a8-7e1afa42cd4c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

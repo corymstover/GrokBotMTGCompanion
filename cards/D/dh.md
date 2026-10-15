@@ -20,4 +20,5 @@
 - **Flavor text** (CMR printing):
   > *Baral's spies always have the latest technology.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26376 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/119/dhund-operative) · oracle_id `e025c802-9862-4dee-8c2a-b875eb001714` · printing: CMR #119 (2020-11-20) · [rulings](https://api.scryfall.com/cards/e0efe5b1-c515-4642-aca2-3eba68fe63ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

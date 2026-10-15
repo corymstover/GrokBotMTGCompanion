@@ -44,6 +44,7 @@
   > *—Sidar Jabari*
 - **Keywords:** Flanking
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27783 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddg/13/zhalfirin-commander) · oracle_id `1053a778-da6a-4b8e-81fb-537a355d4bfe` · printing: DDG #13 (2011-04-01) · [rulings](https://api.scryfall.com/cards/e296cd1a-0508-46c1-aeda-82ecde991caa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhalfirin Crusader
@@ -59,6 +60,7 @@
   > *—Rashida Scalebane*
 - **Keywords:** Flanking
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29075 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/54/zhalfirin-crusader) · oracle_id `9e60c102-412e-4956-a7bb-a2cd737d6692` · printing: VMA #54 (2014-06-16) · [rulings](https://api.scryfall.com/cards/f566f52d-0eba-4b36-936f-002dab3354b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhalfirin Decoy
@@ -72,7 +74,9 @@
   > *"Never let them take their eyes off you."*
   > *—Sidar Jabari*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29159 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/39/zhalfirin-decoy) · oracle_id `b22e55ef-fb74-4991-a43b-9d3ce06c23e5` · printing: MH1 #39 (2019-06-14) · [rulings](https://api.scryfall.com/cards/b93b824c-414d-4dd5-848f-bff678a289ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-06-14* — Zhalfirin Decoy’s ability can be activated even if a creature entered the battlefield under your control only before Zhalfirin Decoy entered the battlefield, and even if that creature has left the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/39/zhalfirin-decoy) · oracle_id `b22e55ef-fb74-4991-a43b-9d3ce06c23e5` · printing: MH1 #39 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhalfirin Knight
 
@@ -87,6 +91,7 @@
   > *—"Love Song of Night and Day"*
 - **Keywords:** Flanking
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28833 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/50/zhalfirin-knight) · oracle_id `a534f06e-dae4-4d1a-96e9-7693bbb21e12` · printing: MIR #50 (1996-10-08) · [rulings](https://api.scryfall.com/cards/eb65d104-bd50-481e-a70e-62aeb2f2c12b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhalfirin Lancer
@@ -99,6 +104,7 @@
 - **Flavor text** (MOM printing):
   > *The Phyrexians armored themselves against blades, fire, and every conjuration they could think of. She brought a war rhino.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24666 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/45/zhalfirin-lancer) · oracle_id `5adcd0cb-9305-4e77-a117-31e9dca5c96d` · printing: MOM #45 (2023-04-21) · [rulings](https://api.scryfall.com/cards/277e5b49-c53f-4bf7-aac0-950d8708b957/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhalfirin Shapecraft
@@ -111,7 +117,11 @@
 - **Flavor text** (MOM printing):
   > *Patient and observant, the people of Zhalfir lurked beyond the veil of time until their moment came to finally strike at Phyrexia.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14116 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/87/zhalfirin-shapecraft) · oracle_id `cf459f47-e565-4bbb-89e4-ed54da8adae1` · printing: MOM #87 (2023-04-21) · [rulings](https://api.scryfall.com/cards/e446a380-0316-46f7-8ac9-22bce773b35f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-04-14* — Effects that modify a creature’s power and/or toughness, such as the effect of Titanic Growth, will apply to the creature no matter when they started to take effect. The same is true for any counters that change its power and/or toughness and effects that switch its power and toughness.
+  - *2023-04-14* — Zhalfirin Shapecraft doesn’t affect the creature’s card types, creature types, or abilities.
+  - *2023-04-14* — Zhalfirin Shapecraft overwrites all previous effects that set the creature’s base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after the ability resolves will overwrite this effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/87/zhalfirin-shapecraft) · oracle_id `cf459f47-e565-4bbb-89e4-ed54da8adae1` · printing: MOM #87 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhalfirin Void
 
@@ -139,7 +149,9 @@
   > *Zhang Fei's uncharacteristic alliance with a defeated Riverlands general, Yan Yan, allowed Shu forces to advance through forty-five Riverlands strongpoints with no casualties.*
 - **Keywords:** Vigilance, Horsemanship
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25275 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/28/zhang-fei-fierce-warrior) · oracle_id `f3f815b8-75c6-40e0-9716-872f0f5c9d46` · printing: ME3 #28 (2009-09-07) · [rulings](https://api.scryfall.com/cards/6364eba6-6aba-4c18-b9f0-aead17064b48/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn’t interact with flying or reach.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/28/zhang-fei-fierce-warrior) · oracle_id `f3f815b8-75c6-40e0-9716-872f0f5c9d46` · printing: ME3 #28 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhang He, Wei General
 
@@ -151,7 +163,9 @@
   > Whenever Zhang He attacks, each other creature you control gets +1/+0 until end of turn.
 - **Keywords:** Horsemanship
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26964 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ptk/95/zhang-he-wei-general) · oracle_id `fe35b809-7439-4bdc-bce2-42262095064f` · printing: PTK #95 (1999-05-01) · [rulings](https://api.scryfall.com/cards/736e4bf1-fee9-47cc-9bbc-093f21c77297/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ptk/95/zhang-he-wei-general) · oracle_id `fe35b809-7439-4bdc-bce2-42262095064f` · printing: PTK #95 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhang Liao, Hero of Hefei
 
@@ -161,6 +175,7 @@
 - **Oracle text:**
   > Whenever Zhang Liao deals damage to an opponent, that opponent discards a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30035 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/96/zhang-liao-hero-of-hefei) · oracle_id `244541f6-cbfc-4e89-9156-64e412f745a7` · printing: PTK #96 (1999-05-01) · [rulings](https://api.scryfall.com/cards/8f42a953-3073-4e74-9bb8-c8c5a45d1dfa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhao, Ruthless Admiral
@@ -175,7 +190,13 @@
   > *"We are the sons and daughters of fire, the superior element!"*
 - **Keywords:** Firebending
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14998 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/252/zhao-ruthless-admiral) · oracle_id `d6b0198a-c1f2-4142-b5e2-8205adf14d0a` · printing: TLA #252 (2025-11-21) · [rulings](https://api.scryfall.com/cards/3fd48a57-b0bb-4177-a0f3-bd317a179cbe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — "Firebending N" is a keyword that represents the ability "Whenever this creature attacks, add N {R}. Until end of combat, you don't lose this mana as steps end."
+  - *2025-10-02* — Any other mana you add during combat will still be lost as normal when moving between steps of combat.
+  - *2025-10-02* — Firebending abilities aren't mana abilities. They use the stack and can be responded to.
+  - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
+  - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/252/zhao-ruthless-admiral) · oracle_id `d6b0198a-c1f2-4142-b5e2-8205adf14d0a` · printing: TLA #252 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhao, the Moon Slayer
 
@@ -189,7 +210,10 @@
   > As long as Zhao has a conqueror counter on him, nonbasic lands are Mountains. (They lose all other land types and abilities and have "{T}: Add {R}.")
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10060 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/162/zhao-the-moon-slayer) · oracle_id `94c64d41-d756-42b6-b0e7-0a351d64a68c` · printing: TLA #162 (2025-11-21) · [rulings](https://api.scryfall.com/cards/f1015bf5-de98-41f3-b6b1-ed95f7465944/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-10-02* — If an effect states that a land enters tapped unless a condition is met, Zhao, the Moon Slayer's second ability has it enter tapped even if that condition is true. For example, you may control a basic land while playing Abandoned Air Temple, but Abandoned Air Temple will still enter tapped.
+  - *2025-10-02* — While Zhao has a conqueror counter on him, if a nonbasic land has an ability that triggers "when" it enters, it will lose that ability before it can trigger. Nonbasic lands will lose any other land types and abilities they had. They will have the land type Mountain and the intrinsic ability "{T}: Add {R}." This effect doesn't affect names or supertypes. It won't turn any land into a basic land or remove the legendary supertype from a legendary land, and the lands won't be named "Mountain."
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/162/zhao-the-moon-slayer) · oracle_id `94c64d41-d756-42b6-b0e7-0a351d64a68c` · printing: TLA #162 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhao, the Seething Flame
 
@@ -202,6 +226,7 @@
   > *"Stand and fight, Avatar!"*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25997 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/245/zhao-the-seething-flame) · oracle_id `92ce3e30-dde3-43bb-a3d6-ccd91ff18bc3` · printing: TLE #245 (2025-11-21) · [rulings](https://api.scryfall.com/cards/f3fa493e-b58a-4b77-88e8-b8890eefb2b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhao Zilong, Tiger General
@@ -216,7 +241,9 @@
   > *Zhao Zilong was a brave and noble warrior. Twice he rescued Liu Bei's son, Liu Shan.*
 - **Keywords:** Horsemanship
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26412 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ptk/33/zhao-zilong-tiger-general) · oracle_id `22aa8e7f-b30d-49e2-b99e-9232e1a3bcf3` · printing: PTK #33 (1999-05-01) · [rulings](https://api.scryfall.com/cards/2d16cf1d-a7c3-4038-a648-299c1bedae99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ptk/33/zhao-zilong-tiger-general) · oracle_id `22aa8e7f-b30d-49e2-b99e-9232e1a3bcf3` · printing: PTK #33 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhentarim Bandit
 
@@ -230,6 +257,7 @@
   > *—Commander Liara Portyr*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10852 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/158/zhentarim-bandit) · oracle_id `86a7f685-05d0-4167-b5bb-8f6943c23087` · printing: CLB #158 (2022-06-10) · [rulings](https://api.scryfall.com/cards/bd1a27c1-ff44-47a7-991d-c294e30eea34/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhou Yu, Chief Commander
@@ -243,6 +271,7 @@
   > *"After making me, Zhou Yu, did you have to make Kongming?"*
   > *—Zhou Yu crying to heaven on his deathbed*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29704 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/65/zhou-yu-chief-commander) · oracle_id `0b4742b7-e769-4354-beaf-6b4d18768ec1` · printing: PTK #65 (1999-05-01) · [rulings](https://api.scryfall.com/cards/6e2cf83b-417d-41ca-8e65-86aa65180c40/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhuge Jin, Wu Strategist
@@ -255,7 +284,9 @@
 - **Flavor text** (PTK printing):
   > *When Zhuge Jin proposed the marriage of Guan Yu's daugher and Sun Quan's heir, Guan Yu's arrogant refusal led to disaster.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27544 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ptk/66/zhuge-jin-wu-strategist) · oracle_id `ce995d3f-be7c-4d2a-8ec4-c7f7f831f0bf` · printing: PTK #66 (1999-05-01) · [rulings](https://api.scryfall.com/cards/60790b07-53da-41fa-b9e0-e7ce22fdcb11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ptk/66/zhuge-jin-wu-strategist) · oracle_id `ce995d3f-be7c-4d2a-8ec4-c7f7f831f0bf` · printing: PTK #66 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhulodok, Void Gorger
 
@@ -320,7 +351,11 @@
   > *Among the Zhur-Taa Clan, goblins are the first to enter battlefury. When the battle is over, the survivors are still frothing at the mouth, looking for someone to hit.*
 - **Keywords:** Riot
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24934 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/215/zhur-taa-goblin) · oracle_id `1003304f-af01-4235-af82-6ef901bd00bf` · printing: RNA #215 (2019-01-25) · [rulings](https://api.scryfall.com/cards/13070db2-cf89-4552-8b6c-76426274321a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-01-25* — If a creature entering the battlefield has riot but can’t have a +1/+1 counter put onto it, it gains haste.
+  - *2019-01-25* — If you choose for the creature to gain haste, it gains haste indefinitely. It won’t lose it as the turn ends or as another player gains control of it.
+  - *2019-01-25* — Riot is a replacement effect. Players can’t respond to your choice of +1/+1 counter or haste, and they can’t take actions while the creature is on the battlefield without one or the other.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/215/zhur-taa-goblin) · oracle_id `1003304f-af01-4235-af82-6ef901bd00bf` · printing: RNA #215 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhur-Taa Swine
 
@@ -333,4 +368,5 @@
   > *Gurley was the first to domesticate one, though his widow didn't take much solace in that accomplishment.*
 - **Keywords:** Bloodrush
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23609 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gtc/210/zhur-taa-swine) · oracle_id `dcc31cbf-f75d-4584-a97b-aa9d19d7b142` · printing: GTC #210 (2013-02-01) · [rulings](https://api.scryfall.com/cards/cef93050-2f24-4c85-a00b-796e53868ac1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

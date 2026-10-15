@@ -21,4 +21,6 @@
 - **Flavor text** (EVG printing):
   > *"Everybody but me—CHARGE!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12887 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/evg/43/ib-halfheart-goblin-tactician) · oracle_id `6742c4b9-8fa6-439f-844d-04a09fa20c45` · printing: EVG #43 (2014-12-05) · [rulings](https://api.scryfall.com/cards/e950415c-2abe-4afe-9ef4-6d63eba2c833/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-09-25* — If you don’t actually sacrifice the Goblin (because it was removed from the battlefield before the ability resolved, for example), no damage is dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/evg/43/ib-halfheart-goblin-tactician) · oracle_id `6742c4b9-8fa6-439f-844d-04a09fa20c45` · printing: EVG #43 (2014-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

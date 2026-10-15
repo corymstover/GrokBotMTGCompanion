@@ -50,7 +50,16 @@
   > *"I headbutted a troll. And won."*
 - **Keywords:** Boast, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16839 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/120/arni-brokenbrow) · oracle_id `3dce6c6c-599f-4e35-ae15-728c5e78dee1` · printing: KHM #120 (2021-02-05) · [rulings](https://api.scryfall.com/cards/ff334bba-0805-4d5d-86c4-99185fe9a77a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2021-02-05* — A boast ability can be activated at any point after the creature with that ability has been declared as an attacker. This can be before blockers are declared, after blockers are declared but before combat damage is dealt, during combat after combat damage is dealt, during the postcombat main phase, during the end step, or, in some unusual cases, during the cleanup step.
+  - *2021-02-05* — Any effects that modify Arni Brokenbrow's power without setting it to a specific value will apply after Arni's base power is set, regardless of the order in which those effects were created. The same is true of counters that modify Arni's power.
+  - *2021-02-05* — Arni Brokenbrow's new base power is set to the 1 plus the actual power of the other creature you control with the highest power, not that creature's base power. If that creature's power changes after the boast ability has resolved, Arni's power is unaffected.
+  - *2021-02-05* — If a creature with a boast ability is put onto the battlefield attacking, it was never declared as an attacker. Its boast ability can't be activated that turn.
+  - *2021-02-05* — If an effect adds additional combat phases to a turn and a creature with a boast ability attacks more than once during that turn, its boast ability can still be activated only once.
+  - *2021-02-05* — If it's not your turn and you gain control of a creature with a boast ability after that creature attacked, you can activate that creature's boast ability if it hasn't been activated yet that turn.
+  - *2021-02-05* — In some unfortunate cases, the greatest power among other creatures you control may be negative. For example, if that greatest power is -3, you could change Arni's base power to -2 until end of turn. Arni strenuously objects to this course of action.
+  - *2021-02-05* — The greatest power among other creatures you control is determined as the boast ability resolves. You choose at that time whether you'd like to change Arni Brokenbrow's base power. If you control no other creatures at that time, you can change Arni's base power to 1 until end of turn. Arni objects to this course of action.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/120/arni-brokenbrow) · oracle_id `3dce6c6c-599f-4e35-ae15-728c5e78dee1` · printing: KHM #120 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arni, Humble Scribe
 
@@ -63,6 +72,7 @@
 - **Flavor text** (FRA printing):
   > *"If you have a tale worthy of telling, I would hear it, friend."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23199 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/211/arni-humble-scribe) · oracle_id `a680d1ab-99f2-43d0-b289-5fdba4083d03` · printing: FRA #211 (2026-10-02) · [rulings](https://api.scryfall.com/cards/8e3a2239-9348-4639-9318-e9e35b2cf86b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arni Metalbrow
@@ -73,7 +83,11 @@
 - **Oracle text:**
   > Whenever a creature you control attacks or enters attacking, you may pay {1}{R}. If you do, you may put a creature card with mana value less than that creature's mana value from your hand onto the battlefield tapped and attacking.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11084 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mat/16/arni-metalbrow) · oracle_id `d799e58a-0032-4df8-a77f-0d824ec15214` · printing: MAT #16 (2023-05-12) · [rulings](https://api.scryfall.com/cards/aeb3069f-5f5a-4e11-8a63-46399eb85a95/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-05-12* — If the attacking creature or creature that entered the battlefield attacking isn't on the battlefield as the triggered ability resolves, use its mana value from when it was last on the battlefield. (If it's on the battlefield but is no longer attacking, use its current mana value.)
+  - *2023-05-12* — Putting a creature onto the battlefield attacking as the ability resolves will cause the ability to trigger again. This instance of the ability will consider the mana value of the new creature that entered the battlefield attacking.
+  - *2023-05-12* — You decide whether to pay {1}{R} as the triggered ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mat/16/arni-metalbrow) · oracle_id `d799e58a-0032-4df8-a77f-0d824ec15214` · printing: MAT #16 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arnim Zola, Bio-Fanatic
 
@@ -85,6 +99,7 @@
 - **Flavor text** (MSH printing):
   > *"You are not the only one who found a way to live across the ages, Captain America."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19881 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/86/arnim-zola-bio-fanatic) · oracle_id `95161e23-e4c4-411f-bce5-58a02abc0958` · printing: MSH #86 (2026-06-26) · [rulings](https://api.scryfall.com/cards/07c70df6-b064-424a-852e-201b312a5b54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arni, Renowned Champion
@@ -99,6 +114,7 @@
   > *There is no man with more bravado in all Bretagard, yet he has never exaggerated a single detail.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27499 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/243/arni-renowned-champion) · oracle_id `1a929c4f-ae1f-44d9-a0a7-2ca2dc928dee` · printing: FRA #243 (2026-10-02) · [rulings](https://api.scryfall.com/cards/bd8db649-1dba-457d-8327-e1f1da1aab36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arni Slays the Troll
@@ -140,6 +156,7 @@
   > *—Arnjlot Olasson, Sky Mage*
 - **Keywords:** Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30214 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/57/arnjlots-ascent) · oracle_id `f2cedb38-12b0-4489-a62b-9b6a3776d695` · printing: ICE #57 (1995-06-03) · [rulings](https://api.scryfall.com/cards/2307fb16-8b77-45b5-8a02-51a13214791d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arno Dorian

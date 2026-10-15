@@ -21,6 +21,7 @@
   > {G}: This creature deals 1 damage to each creature with flying and each player. Any player may activate this ability.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28804 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/123/ifh-b%C3%ADff-efreet) · oracle_id `e503a4f2-a785-4e7a-89a7-a9b24fb98831` · printing: ME1 #123 (2007-09-10) · [rulings](https://api.scryfall.com/cards/f4c21c0d-91ee-4c2c-bfa4-81bb07106842/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ifnir Deadlands

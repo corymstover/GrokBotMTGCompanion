@@ -19,7 +19,9 @@
 - **Oracle text:**
   > {T}: Target opponent discards two cards. Activate only during your turn, before attackers are declared.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22660 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ptk/68/cao-cao-lord-of-wei) · oracle_id `81a98b14-e827-4241-a401-64890def51af` · printing: PTK #68 (1999-05-01) · [rulings](https://api.scryfall.com/cards/d7e5a530-c954-4696-85ce-6afaf7de1808/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ptk/68/cao-cao-lord-of-wei) · oracle_id `81a98b14-e827-4241-a401-64890def51af` · printing: PTK #68 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cao Ren, Wei Commander
 
@@ -33,4 +35,6 @@
   > *Cao Cao's cousin, Cao Ren was known throughout the three kingdoms as the fiercest of warriors.*
 - **Keywords:** Horsemanship
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26984 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ptk/69/cao-ren-wei-commander) · oracle_id `99cbc054-2757-4c07-ad04-9ac67dad4abc` · printing: PTK #69 (1999-05-01) · [rulings](https://api.scryfall.com/cards/4f7e8366-82ba-4df0-b9df-7d0aa9b972eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ptk/69/cao-ren-wei-commander) · oracle_id `99cbc054-2757-4c07-ad04-9ac67dad4abc` · printing: PTK #69 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

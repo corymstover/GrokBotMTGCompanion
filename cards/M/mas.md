@@ -106,7 +106,9 @@
   > *Konda's servants dared not neglect their duties for a moment under Masako's icy gaze, knowing that what she saw, Lord Konda would hear.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11724 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/chk/33/masako-the-humorless) · oracle_id `bb9e77c0-eb94-4bba-9b71-1935be280b75` · printing: CHK #33 (2004-10-01) · [rulings](https://api.scryfall.com/cards/d6b2507f-4035-47d5-8295-0a3773f187fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-12-01* — Masako allows tapped creatures to block only if they could otherwise block. It doesn’t allow creatures that “can’t block” to block, nonflying creatures to block fliers, etc.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chk/33/masako-the-humorless) · oracle_id `bb9e77c0-eb94-4bba-9b71-1935be280b75` · printing: CHK #33 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mascot Exhibition
 
@@ -118,7 +120,10 @@
   > *"Don't just win the game. Win the crowd."*
   > *—Moriana, Mage Tower coach*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13496 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/5/mascot-exhibition) · oracle_id `a1ea2cba-f184-4a27-9971-3a56b0a0e390` · printing: STX #5 (2021-04-23) · [rulings](https://api.scryfall.com/cards/2047592c-739c-41dd-b3e8-31ae1c7688ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-04-16* — Although you may want to include Lessons in your sideboard if you’re playing with cards that instruct you to learn, Lesson cards can be included in your main deck like other instant or sorcery cards.
+  - *2021-04-16* — Lesson is a spell subtype found on some instant and sorcery cards in the Strixhaven set. The Lesson subtype has no special rules associated with it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/5/mascot-exhibition) · oracle_id `a1ea2cba-f184-4a27-9971-3a56b0a0e390` · printing: STX #5 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mascot Interception
 
@@ -130,7 +135,9 @@
 - **Flavor text** (STX printing):
   > *Far from the trappings of royalty, Rowan and Will found inspiration from the most popular sport on campus, Mage Tower.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23035 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/110/mascot-interception) · oracle_id `ae3da0be-2a3f-498a-8854-73d0a5526ec2` · printing: STX #110 (2021-04-23) · [rulings](https://api.scryfall.com/cards/8f0ea66f-1756-4b0d-8ccc-3b3a7370b531/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-04-16* — To determine the total cost of a spell, start with the mana cost or alternative cost you’re paying, add any cost increases, then apply any cost reductions (such as that of Mascot Interception). Mascot Interception’s mana value is always 4, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/110/mascot-interception) · oracle_id `ae3da0be-2a3f-498a-8854-73d0a5526ec2` · printing: STX #110 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Masked Admirers
 
@@ -143,7 +150,10 @@
 - **Flavor text** (KHC printing):
   > *"Beauty determines value, and we determine beauty."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15888 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khc/69/masked-admirers) · oracle_id `ea97fc76-3a32-414c-aa12-87be1a0eb9f3` · printing: KHC #69 (2021-02-05) · [rulings](https://api.scryfall.com/cards/b8cc3361-046c-4908-8b8d-a0502bfc173a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-06-07* — Masked Admirers will return to your hand before the creature spell you cast resolves.
+  - *2013-06-07* — The second triggered ability triggers only if Masked Admirers is in your graveyard when you cast a creature spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khc/69/masked-admirers) · oracle_id `ea97fc76-3a32-414c-aa12-87be1a0eb9f3` · printing: KHC #69 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Masked Bandits
 
@@ -156,7 +166,10 @@
   > {2}, Exile this card from your hand: Target land gains "{T}: Add {B}, {R}, or {G}" until this card is cast from exile. You may cast this card for as long as it remains exiled.
 - **Keywords:** Vigilance, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23415 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/201/masked-bandits) · oracle_id `84ac3096-098a-477a-8907-fc30ac15f00f` · printing: SNC #201 (2022-04-29) · [rulings](https://api.scryfall.com/cards/03757415-6b58-42d3-9452-a862e90647ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-04-29* — If Masked Bandits is removed from exile without being cast, the land will continue to have this ability.
+  - *2022-04-29* — You may use the mana ability Masked Bandits grants to the land while casting Masked Bandits from exile.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/201/masked-bandits) · oracle_id `84ac3096-098a-477a-8907-fc30ac15f00f` · printing: SNC #201 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Masked Blackguard
 
@@ -170,6 +183,7 @@
   > *Her footsteps are whispers, her passage a last breath.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28086 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/115/masked-blackguard) · oracle_id `8ccd20c7-b7fc-4ab1-a98b-3bbcc2079339` · printing: CLU #115 (2024-02-23) · [rulings](https://api.scryfall.com/cards/c7f39361-2e6d-484b-b3ed-5e1426a61680/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Masked Gorgon
@@ -182,6 +196,7 @@
   > Threshold — This creature has protection from green and from white as long as there are seven or more cards in your graveyard.
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29825 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jud/69/masked-gorgon) · oracle_id `f41b1a5b-bc99-4c51-9665-e251f04ad83f` · printing: JUD #69 (2002-05-27) · [rulings](https://api.scryfall.com/cards/0d62728b-b834-4fa8-aed5-6348033ee69c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Masked Meower
@@ -196,6 +211,7 @@
   > *Neither criminals nor veterinarians had much luck pinning down the uncatchable Spider-Cat.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11365 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/807/masked-meower) · oracle_id `a0037ff8-64db-45dd-bba1-db5c49095083` · printing: MSC #807 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2e918a9c-4d06-489e-9a7c-a56f7ded7c0e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Masked Vandal
@@ -258,7 +274,10 @@
   > Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19532 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/151/mask-of-immolation) · oracle_id `dd86d11f-0bd8-49a9-936d-e407ea2c1818` · printing: M20 #151 (2019-07-12) · [rulings](https://api.scryfall.com/cards/be2f4165-f87f-454b-b955-e4477c864e95/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-07-12* — No player may take any actions between the time you create the Elemental token and the time Mask of Immolation becomes attached to it.
+  - *2019-07-12* — The equipped creature is the source of the activated ability and the source of the damage, not Mask of Immolation. This means that a green creature equipped by Mask of Immolation may deal damage to a creature with protection from red but may not deal damage to a creature with protection from green.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/151/mask-of-immolation) · oracle_id `dd86d11f-0bd8-49a9-936d-e407ea2c1818` · printing: M20 #151 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mask of Intolerance
 
@@ -267,6 +286,7 @@
 - **Oracle text:**
   > At the beginning of each player's upkeep, if there are four or more basic land types among lands that player controls, this artifact deals 3 damage to that player.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30484 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/apc/138/mask-of-intolerance) · oracle_id `990d4798-3f59-462d-952c-777da5af1c41` · printing: APC #138 (2001-06-04) · [rulings](https://api.scryfall.com/cards/f623ae51-5f15-4153-b2ed-d03b57b7db54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mask of Law and Grace
@@ -280,7 +300,9 @@
   > *The archangels zealously drove Serra's light into every corner of their new home as if their creator still commanded them.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11060 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uds/11/mask-of-law-and-grace) · oracle_id `21474195-5d91-466d-8874-4818c900dea7` · printing: UDS #11 (1999-06-07) · [rulings](https://api.scryfall.com/cards/6bd97150-b405-4bb5-b5a8-fceda4a45ebb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — If a text-changing effect is used to change one of the color words so it grants Protection from white, then it will cause itself to be put into the graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uds/11/mask-of-law-and-grace) · oracle_id `21474195-5d91-466d-8874-4818c900dea7` · printing: UDS #11 (1999-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mask of Memory
 
@@ -317,7 +339,13 @@
   > Unearth {2}{G} ({2}{G}: Return this card from your graveyard to the battlefield. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
 - **Keywords:** Unearth
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23316 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/201/mask-of-the-jadecrafter) · oracle_id `b1870fff-b87e-434e-8d4c-d9e60f7f4284` · printing: BRO #201 (2022-11-18) · [rulings](https://api.scryfall.com/cards/5db83275-bfd2-42c2-8d0f-e8a9b4f60e78/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-10-14* — Activating a card's unearth ability isn't the same as casting that card. The unearth ability is put on the stack, but the card is not. Spells and abilities that interact with activated abilities (such as Defabricate's second mode) will interact with unearth, but spells and abilities that interact with spells (such as Scatter Ray) will not.
+  - *2022-10-14* — At the beginning of the next end step, a permanent returned to the battlefield with unearth is exiled. This is a delayed triggered ability, and it can be countered by effects such as Defabricate that counter triggered abilities. If the ability is countered, the permanent will stay on the battlefield and the delayed triggered ability won't trigger again. However, the replacement effect will still exile the permanent if it eventually leaves the battlefield.
+  - *2022-10-14* — If a permanent returned to the battlefield with unearth would leave the battlefield for any reason, it's exiled instead—unless the spell or ability that's causing the permanent to leave the battlefield is actually trying to exile it! In that case, it succeeds at exiling it. If that spell or ability later returns the card to the battlefield (as Static Net might, for example), the permanent card will return to the battlefield as a new object with no relation to its previous existence. The unearth effects will no longer apply to it.
+  - *2022-10-14* — If you activate a card's unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will do nothing as it resolves.
+  - *2022-10-14* — Unearth grants haste to the permanent that's returned to the battlefield (even if it's not a creature card). However, neither of the "exile" abilities is granted to that permanent. If that permanent loses all its abilities, it will still be exiled at the beginning of the next end step, and if it would leave the battlefield, it is still exiled instead.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/201/mask-of-the-jadecrafter) · oracle_id `b1870fff-b87e-434e-8d4c-d9e60f7f4284` · printing: BRO #201 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mask of the Mimic
 
@@ -327,7 +355,13 @@
   > As an additional cost to cast this spell, sacrifice a creature.
   > Search your library for a card with the same name as target nontoken creature, put that card onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24101 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sth/37/mask-of-the-mimic) · oracle_id `f1a16f6d-ea11-485e-8c5b-7f919a731fe0` · printing: STH #37 (1998-03-02) · [rulings](https://api.scryfall.com/cards/09891c87-eb74-4174-ad46-11a7f79de859/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2004-10-04* — If a copy card is targeted by this effect, you get to look for another copy of the card it is copying. This is because a copy card actually takes on the name and initial characteristics of what it copies.
+  - *2004-10-04* — You do not have to find a card if you do not want to.
+  - *2004-10-04* — You look for a card of the same name, the current type of the card does not matter.
+  - *2013-04-15* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.
+  - *2013-04-15* — You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sth/37/mask-of-the-mimic) · oracle_id `f1a16f6d-ea11-485e-8c5b-7f919a731fe0` · printing: STH #37 (1998-03-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mask of the Schemer
 
@@ -338,7 +372,12 @@
   > Equip {2}
 - **Keywords:** Equip, Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11524 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/28/mask-of-the-schemer) · oracle_id `584f9c45-9737-47bb-8ba4-a7cd9b0b2c1f` · printing: NCC #28 (2022-04-29) · [rulings](https://api.scryfall.com/cards/5df2a854-5807-4ce2-b2ef-cbd8aa3f86b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-04-29* — Connive X is a variant of connive. If a creature connives X, its controller will draw X cards, discard X cards, then then put a number of +1/+1 counters on the conniving permanent equal to the number of nonland cards discarded this way.
+  - *2022-04-29* — If a resolving spell or ability instructs a specific creature to connive but that creature has left the battlefield, the creature still connives. If you discard a nonland card this way, you won't put a +1/+1 counter on anything. Abilities that trigger “when [that creature] connives” will trigger.
+  - *2022-04-29* — If no card is discarded, most likely because that player's hand is empty and an effect says they can't draw cards, the conniving creature does not receive a +1/+1 counter.
+  - *2022-04-29* — Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard a nonland card but before it receives a counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/28/mask-of-the-schemer) · oracle_id `584f9c45-9737-47bb-8ba4-a7cd9b0b2c1f` · printing: NCC #28 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maskwood Nexus
 
@@ -365,6 +404,7 @@
   > If an opponent controls a Plains and you control a Swamp, you may cast this spell without paying its mana cost.
   > All creatures get -2/-2 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11687 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/58/massacre) · oracle_id `ce1866e9-28de-4bcc-9999-11958e6c13a6` · printing: NEM #58 (2000-02-14) · [rulings](https://api.scryfall.com/cards/f05f5d93-50d1-4aa6-af05-383a6808345b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Massacre Girl
@@ -414,6 +454,7 @@
 - **Flavor text** (FRA printing):
   > *Ravnica's most feared—and most adored—serial killer.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20188 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/234/massacre-girl-most-wanted) · oracle_id `81f35914-73bf-429f-ba20-32e23ac30159` · printing: FRA #234 (2026-10-02) · [rulings](https://api.scryfall.com/cards/9028d31f-9c41-47e3-885b-6a869bca8178/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Massacre Totem
@@ -425,6 +466,7 @@
   > Hero's Reward — When Massacre Totem is put into a graveyard from anywhere, put the top seven cards of the Horde's library into its graveyard.
 - **Keywords:** Hero's Reward
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tbth/12/massacre-totem) · oracle_id `d0f600b1-9f43-4054-b93c-be7cceb9c6dd` · printing: TBTH #12 (2014-03-01) · [rulings](https://api.scryfall.com/cards/a6e352e9-20ac-485b-bcaf-1d053c4ecb40/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Massacre Wurm
@@ -514,6 +556,7 @@
 - **Oracle text:**
   > Whenever Massimo or another creature you control enters, exile up to one target instant or sorcery card with mana value 1 from your graveyard. If a card is exiled this way, that creature gains "Whenever this creature deals combat damage to a player, copy the exiled card. You may cast the copy without paying its mana cost."
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #18625 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/45/massimo-the-magician) · oracle_id `aa27c281-b909-4274-8216-6fd0be78b3c9` · printing: MBC #45 (2026-10-19) · [rulings](https://api.scryfall.com/cards/bed6b0c6-6e25-4129-9d11-3e80157ddb42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Massive Might
@@ -526,6 +569,7 @@
   > *"Run! It's coming for us! Eventually!"*
   > *—Yaster, Havengul shopkeeper*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16118 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/208/massive-might) · oracle_id `4f0ec90b-e5a0-49bd-8fa0-9be6ba259a62` · printing: VOW #208 (2021-11-19) · [rulings](https://api.scryfall.com/cards/3a5cd50b-4825-4d85-b0f9-e2a51d2a7df1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Massive Raid
@@ -584,6 +628,7 @@
   > *"An army has filled the valley, but it's not like any army I've ever seen. There are no tents, no fires, no horses . . . just a sea of bodies, writhing and moaning, as if a pestilent village were sent to invade us."*
   > *—Onean scout*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29289 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/122/mass-of-ghouls) · oracle_id `29646827-7b69-48c5-8273-4e66076e2384` · printing: TSR #122 (2021-03-19) · [rulings](https://api.scryfall.com/cards/cd816d37-7a9e-485e-9ed9-20c1c15a26dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mass of Mysteries
@@ -614,7 +659,12 @@
 - **Oracle text:**
   > Exile all creatures you control, then reveal cards from the top of your library until you reveal that many creature cards. Put all creature cards revealed this way onto the battlefield, then shuffle the rest of the revealed cards into your library.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10566 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/42/mass-polymorph) · oracle_id `b133129d-1ffb-4b78-9f5b-852d163cc9b7` · printing: FRC #42 (2026-10-02) · [rulings](https://api.scryfall.com/cards/b29db023-28d0-411d-864a-8f1e22ae1f74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2010-08-15* — All creatures you put onto the battlefield with Mass Polymorph enter at the same time.
+  - *2010-08-15* — Any abilities that trigger during the resolution of Mass Polymorph (such as a creature's "enters" ability) will wait to be put onto the stack until Mass Polymorph finishes resolving. The player whose turn it is will put all of their triggered abilities on the stack in any order, then each other player in turn order will do the same. (The last ability put on the stack will be the first one that resolves.)
+  - *2010-08-15* — If the number of creatures you exile is greater than the number of creature cards remaining in your library, you'll wind up revealing your entire library, putting all creature cards revealed that way onto the battlefield, then shuffling your library.
+  - *2010-08-15* — The creatures you exile with Mass Polymorph remain exiled for the rest of the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/42/mass-polymorph) · oracle_id `b133129d-1ffb-4b78-9f5b-852d163cc9b7` · printing: FRC #42 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mass Production
 
@@ -626,6 +676,7 @@
   > *"I need an army, not a masterpiece. Accelerate output, whatever it takes."*
   > *—Urza, notes to his engineers*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21560 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/15/mass-production) · oracle_id `20150b58-a442-472c-8191-b44581322eeb` · printing: BRO #15 (2022-11-18) · [rulings](https://api.scryfall.com/cards/640a08b7-dd30-446e-a8a7-2e084bbb9586/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Master Apothecary
@@ -638,6 +689,7 @@
 - **Flavor text** (ODY printing):
   > *It takes a remarkable cleric to turn a group of healers into a hospital.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25691 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/32/master-apothecary) · oracle_id `067b54e4-18f3-48e3-b824-3aba7fcf2408` · printing: ODY #32 (2001-10-01) · [rulings](https://api.scryfall.com/cards/f9ff6624-ed0e-43d0-9519-112979b165f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Master Biomancer
@@ -688,6 +740,7 @@
   > *"A skilled decoy can throw your enemies off your trail. A master decoy can survive to do it again."*
   > *—Gerrard of the Weatherlight*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23904 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/18/master-decoy) · oracle_id `94a16609-8529-4301-8a3d-47ced194f7cd` · printing: TPR #18 (2015-05-06) · [rulings](https://api.scryfall.com/cards/88bd93e9-4fc8-4c10-8183-c87363601033/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Masterful Flourish
@@ -699,6 +752,7 @@
 - **Flavor text** (SOS printing):
   > *"Hold your applause. I am not yet finished."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11765 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/89/masterful-flourish) · oracle_id `1cb419cc-d8e4-4676-987f-089cebccc374` · printing: SOS #89 (2026-04-24) · [rulings](https://api.scryfall.com/cards/8d93d14d-7760-4af2-a237-2df326dd28d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Masterful Ninja
@@ -712,7 +766,14 @@
   > {1}{B}: This creature gets +1/+1 until end of turn.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/60/masterful-ninja) · oracle_id `ca43218e-b7ad-442a-a546-52bcd86c3974` · printing: UST #60 (2017-12-08) · [rulings](https://api.scryfall.com/cards/f7f0b8b2-0202-4e68-970d-cd006f63de61/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2018-01-19* — If Masterful Ninja is destroyed or discarded, it goes to your graveyard. It will no longer be on the battlefield or in your hand.
+  - *2018-01-19* — If you try to move Masterful Ninja from the battlefield to your hand or vice versa, and it's in both zones, it will just stay in both zones. For example, if Masterful Ninja is in both zones, casting Unsummon targeting it won't do anything.
+  - *2018-01-19* — It's right there.
+  - *2018-01-19* — Look closer.
+  - *2018-01-19* — Masterful Ninja's first activated ability doesn't cause any enters-the-battlefield abilities to trigger. When the turn ends and Masterful Ninja stops being both on the battlefield and in your hand, this won't cause any dies or leaves-the-battlefield abilities to trigger. If Masterful Ninja enters or leaves the battlefield some other way, those abilities work as normal.
+  - *2018-01-19* — No, that's a table.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/60/masterful-ninja) · oracle_id `ca43218e-b7ad-442a-a546-52bcd86c3974` · printing: UST #60 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Masterful Replication
 
@@ -740,6 +801,7 @@
 - **Flavor text** (9ED printing):
   > *Behind his eyes is the pain of every soldier his hands have healed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29219 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/28/master-healer) · oracle_id `7695b61a-8d44-44b1-9783-ea3114111c3e` · printing: 9ED #28 (2005-07-29) · [rulings](https://api.scryfall.com/cards/c6a4a15d-9f16-4aa1-adc0-5d4c85991062/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mastermind Plum
@@ -784,7 +846,9 @@
   > *—Gerrard of the \*Weatherlight\**
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31933 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/wth/20/master-of-arms) · oracle_id `37e90cab-d904-4387-9d18-62f125c38c46` · printing: WTH #20 (1997-06-09) · [rulings](https://api.scryfall.com/cards/ac97ff43-c0b6-4f67-ad09-5ba8710c681a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-06-01* — Tapping the blocker does not remove it from combat and does not stop it from dealing or receiving damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wth/20/master-of-arms) · oracle_id `37e90cab-d904-4387-9d18-62f125c38c46` · printing: WTH #20 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Master of Barbs
 
@@ -798,6 +862,7 @@
   > *The question isn't \*if\* he'll make his students cry. Only when.*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18563 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/88/master-of-barbs) · oracle_id `e8c36337-135c-460d-a1da-cc01743dda71` · printing: FRA #88 (2026-10-02) · [rulings](https://api.scryfall.com/cards/4404d9d4-9cdd-4dad-a4f6-574d90db5052/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Master of Ceremonies
@@ -869,7 +934,10 @@
 - **Flavor text** (M14 printing):
   > *Choose your battles carefully. For example, avoid the big guy.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27408 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m14/24/master-of-diversion) · oracle_id `3402aa73-5e63-4158-b114-6f1d42ec8992` · printing: M14 #24 (2013-07-19) · [rulings](https://api.scryfall.com/cards/2bec89b3-640e-4093-a6e9-5639610769b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-07-01* — In multiplayer formats, including Commander, only a creature controlled by the defending player Master of Diversion is attacking can be chosen as the target, even if your other attacking creatures are attacking different players.
+  - *2013-07-01* — The ability will resolve and the creature will become tapped before blocking creatures are declared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m14/24/master-of-diversion) · oracle_id `3402aa73-5e63-4158-b114-6f1d42ec8992` · printing: M14 #24 (2013-07-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Master of Etherium
 
@@ -898,7 +966,17 @@
   > When this creature is turned face up, creatures you control get +2/+2 until end of turn.
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20596 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/73/master-of-pearls) · oracle_id `aca9df28-2df6-477c-b5b8-8e1863c84356` · printing: MKC #73 (2024-02-09) · [rulings](https://api.scryfall.com/cards/5c0267c9-e0a7-4c16-afc9-f05de9fccaba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2014-09-20* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
+  - *2014-09-20* — Any time you have priority, you may turn the face-down creature face up by revealing what its morph cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2014-09-20* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down spells or permanents you don't control unless an effect instructs you to do so.
+  - *2014-09-20* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2014-09-20* — If a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+  - *2014-09-20* — Morph lets you cast a card face down by paying {3}, and lets you turn the face-down permanent face up any time you have priority by paying its morph cost.
+  - *2014-09-20* — The face-down spell has no mana cost and has a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost.
+  - *2014-09-20* — When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the creature can still grant it any of these characteristics.
+  - *2014-09-20* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/73/master-of-pearls) · oracle_id `aca9df28-2df6-477c-b5b8-8e1863c84356` · printing: MKC #73 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Master of Predicaments
 
@@ -945,7 +1023,9 @@
 - **Oracle text:**
   > {2}{G}{G}: Create a 1/1 green Wolf creature token named Wolves of the Hunt. It has "bands with other creatures named Wolves of the Hunt." (Any creatures named Wolves of the Hunt can attack in a band as long as at least one has "bands with other creatures named Wolves of the Hunt." Bands are blocked as a group. If at least two creatures named Wolves of the Hunt you control, one of which has "bands with other creatures named Wolves of the Hunt," are blocking or being blocked by the same creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29686 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/leg/194/master-of-the-hunt) · oracle_id `cdf89ad2-ce08-4708-88c2-8acdc861526d` · printing: LEG #194 (1994-06-01) · [rulings](https://api.scryfall.com/cards/4e6bf56e-2d74-4e4d-a667-885853979377/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Since tapping is not part of the cost, you can use this more than once a turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/leg/194/master-of-the-hunt) · oracle_id `cdf89ad2-ce08-4708-88c2-8acdc861526d` · printing: LEG #194 (1994-06-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Master of the Pearl Trident
 
@@ -971,7 +1051,10 @@
   > When this creature is turned face up, you may turn target creature with a morph ability face down.
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21531 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lgn/43/master-of-the-veil) · oracle_id `ee9104d5-3583-4549-8dd0-5b69274f4b4f` · printing: LGN #43 (2003-02-03) · [rulings](https://api.scryfall.com/cards/d7ce1755-9f4a-4741-b6e5-288595ec494d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — It can target itself and turn itself face down.
+  - *2004-10-04* — The trigger occurs when you use the Morph ability to turn the card face up, or when an effect turns it face up. It will not trigger on being revealed or on leaving the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lgn/43/master-of-the-veil) · oracle_id `ee9104d5-3583-4549-8dd0-5b69274f4b4f` · printing: LGN #43 (2003-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Master of the Wild Hunt
 
@@ -1021,7 +1104,14 @@
   > Whenever you cast an instant, sorcery, or Wizard spell, you may have this creature's base power and toughness become 4/1 or 1/4 until end of turn.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20771 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/68/master-of-winds) · oracle_id `7accdc91-3140-4096-a71f-0cee38d29e96` · printing: ZNR #68 (2020-09-25) · [rulings](https://api.scryfall.com/cards/0caaf92a-3d9d-4c52-acff-cf960ec55e47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-09-25* — A Wizard spell is one with the creature type Wizard. Spells that are Wizard-themed (such as Relic Amulet) aren’t Wizard spells.
+  - *2020-09-25* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger, but after targets have been chosen for that spell (if it has any targets). The ability resolves even if that spell is countered.
+  - *2020-09-25* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to Master of Winds may become lethal if you change its base toughness during that turn.
+  - *2020-09-25* — Effects that modify the power or toughness of Master of Winds without setting it will apply to its new base power and toughness no matter when they started to take effect. The same is true for counters that change its power and toughness.
+  - *2020-09-25* — The ability of Master of Winds overwrites any previous effects that set its power and/or toughness to specific values. Other effects that set these characteristics to specific values that start to apply after the ability resolves will overwrite that part of the effect.
+  - *2020-09-25* — You don’t choose a power and toughness for Master of Winds as its ability triggers. Rather, as it resolves, you choose whether to have Master of Winds become 4/1, become 1/4, or not change its power and toughness.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/68/master-of-winds) · oracle_id `7accdc91-3140-4096-a71f-0cee38d29e96` · printing: ZNR #68 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Master Pakku
 
@@ -1033,6 +1123,7 @@
   > Whenever Master Pakku becomes tapped, target player mills X cards, where X is the number of Lesson cards in your graveyard. (They put the top X cards of their library into their graveyard.)
 - **Keywords:** Prowess, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11900 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/63/master-pakku) · oracle_id `b1727c07-c829-4d64-a1c5-8b53c743888a` · printing: TLA #63 (2025-11-21) · [rulings](https://api.scryfall.com/cards/91e30df5-63f7-4281-8d64-8d522d663652/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Master Piandao
@@ -1057,6 +1148,7 @@
 - **Flavor text** (MBS printing):
   > *The need to obey was inscribed on every plate in their bodies.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16087 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbs/13/masters-call) · oracle_id `d6c9c1f0-050f-40e2-ab6c-6566d0af418c` · printing: MBS #13 (2011-02-04) · [rulings](https://api.scryfall.com/cards/04f54188-2cfc-4964-add7-b452f32d57ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Master's Councillors
@@ -1070,7 +1162,9 @@
   > Whenever you draw your second card each turn, target player mills three cards. (They put the top three cards of their library into their graveyard.)
 - **Keywords:** Vigilance, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21791 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/47/masters-councillors) · oracle_id `b9079564-5c86-4765-988a-f2334e016fa6` · printing: HOB #47 (2026-08-14) · [rulings](https://api.scryfall.com/cards/addcefdd-e012-4adf-9052-e60376a8d2d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-06-29* — The triggered ability can trigger only once each turn. It doesn't matter whether Master's Councillors was on the battlefield when the first card was drawn. If it's not on the battlefield when the second card is drawn, the ability can't trigger at all that turn. It won't trigger when the third or fourth card is drawn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/47/masters-councillors) · oracle_id `b9079564-5c86-4765-988a-f2334e016fa6` · printing: HOB #47 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Master's Guidance
 
@@ -1082,7 +1176,10 @@
 - **Flavor text** (TLE printing):
   > *"You are clearly outnumbered," barked the soldier. "You are clearly outmatched," Iroh replied.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11245 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/141/masters-guidance) · oracle_id `66de5b97-0de0-422c-a351-bfe55ad4503a` · printing: TLE #141 (2025-11-21) · [rulings](https://api.scryfall.com/cards/98319aec-f95b-4343-beb9-7804551369f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-10-02* — Creatures that enter the battlefield attacking will not trigger Master's Guidance's first triggered ability. You have to declare two or more legendary creatures as attackers during your declare attackers step to trigger the ability.
+  - *2025-10-02* — Master's Guidance's first ability can put a +1/+1 counter on each of any two attacking creatures, not just on the legendary attacking creatures that caused it to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/141/masters-guidance) · oracle_id `66de5b97-0de0-422c-a351-bfe55ad4503a` · printing: TLE #141 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Master's Guide-Mural // Master's Manufactory
 
@@ -1097,7 +1194,13 @@
   > *—Anim Pakal, Thousandth Moon*
 - **Keywords:** Craft, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14007 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/233/masters-guide-mural-masters-manufactory) · oracle_id `2dfdd358-e3cd-4bf5-871b-37689b7951e9` · printing: LCI #233 (2023-11-17) · [rulings](https://api.scryfall.com/cards/f7a41343-7cdb-49aa-a9d1-7460195355d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-11-10* — If a card that isn't a transforming double-faced card becomes a copy of a card with craft, it'll stay in exile if you activate the craft ability. It won't return to the battlefield.
+  - *2023-11-10* — If the materials required include multiple objects, you may exile some of them from among permanents you control and the rest from among cards in your graveyard. You don't have to choose all permanents or all cards from your graveyard.
+  - *2023-11-10* — The ability of Master's Manufactory can be activated no matter what happened to the artifact after it entered under your control. It may have left the battlefield, stopped being an artifact, or another player may have gained control of it.
+  - *2023-11-10* — The back faces of some cards with craft refer to cards "used to craft" it. This refers to the cards exiled as part of the cost of the craft ability of the front face. Those cards are considered to be "used to craft" that permanent as long as they remain exiled and the permanent remains on the battlefield, even if the permanent's controller changes or some of its characteristics change (because of a copy effect, for example.)
+  - *2023-11-10* — You may exile tokens you control as part of the materials required. However, because they aren't cards and won't stay in exile, any abilities that refer to what you "used to craft" the back faces won't refer to anything.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/233/masters-guide-mural-masters-manufactory) · oracle_id `2dfdd358-e3cd-4bf5-871b-37689b7951e9` · printing: LCI #233 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Master Skald
 
@@ -1109,7 +1212,10 @@
 - **Flavor text** (KHM printing):
   > *"All my scars have stories to tell."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25479 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/19/master-skald) · oracle_id `34bccfc0-453d-4d1a-8046-70f9c3065e88` · printing: KHM #19 (2021-02-05) · [rulings](https://api.scryfall.com/cards/6b269e27-8e17-4bf2-b28a-a83ecc7d22c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-02-05* — If you choose an artifact creature card or an enchantment creature card in your graveyard as the target, you could exile that card as the triggered ability is resolving, but if you do, you won’t return it to your hand.
+  - *2021-02-05* — You choose the target artifact or enchantment card in your graveyard as you put the triggered ability on the stack. Once the ability starts resolving, you choose which creature card to exile from your graveyard, if any. At that point, no one can respond to your choice or take any actions until the ability is finished resolving.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/19/master-skald) · oracle_id `34bccfc0-453d-4d1a-8046-70f9c3065e88` · printing: KHM #19 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Master Splicer
 
@@ -1150,7 +1256,9 @@
   > *Tondo lost his very first duel and has spent his entire life trying to get even.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22426 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/138/master-symmetrist) · oracle_id `ffce416c-90c6-43ed-9019-e5a32accad6d` · printing: STX #138 (2021-04-23) · [rulings](https://api.scryfall.com/cards/255cdc39-6ad8-4831-9718-6712cb17654c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-04-16* — Master Symmetrist’s triggered ability only looks at the power and toughness of a creature when it attacks. Once the ability has triggered, changing the creature’s power or toughness will not stop it from gaining trample or remove trample from it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/138/master-symmetrist) · oracle_id `ffce416c-90c6-43ed-9019-e5a32accad6d` · printing: STX #138 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Master the Way
 
@@ -1162,7 +1270,10 @@
   > *"The Way has no beginning and no end. It is simply the path."*
   > *—Narset, khan of the Jeskai*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17969 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/188/master-the-way) · oracle_id `909a10f5-a607-474f-8b8b-0176fd840650` · printing: KTK #188 (2014-09-26) · [rulings](https://api.scryfall.com/cards/704743a8-27d6-4db9-8fe1-f65f5f3a955f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-09-20* — If the permanent or player is an illegal target as Master the Way tries to resolve, Master the Way won’t resolve and none of its effects will happen. You won’t draw a card.
+  - *2014-09-20* — Use the number of cards in your hand after you draw the card to determine how much damage Master the Way deals to the target permanent or player. (Remember that Master the Way is not in your hand; it’s on the stack.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/188/master-the-way) · oracle_id `909a10f5-a607-474f-8b8b-0176fd840650` · printing: KTK #188 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Master Thief
 
@@ -1174,7 +1285,11 @@
 - **Flavor text** (ZNC printing):
   > *Possession is ten-tenths of the law.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16501 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znc/30/master-thief) · oracle_id `a32b8502-7427-48a5-a880-14516ff2fe77` · printing: ZNC #30 (2020-09-25) · [rulings](https://api.scryfall.com/cards/703f57d5-d8bb-4fb6-9dc9-71a5b4308f04/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2011-09-22* — If Master Thief ceases to be under your control before its ability resolves, you won’t gain control of the targeted artifact at all.
+  - *2011-09-22* — If Master Thief leaves the battlefield, you no longer control it, and its control-change effect ends.
+  - *2011-09-22* — If another player gains control of Master Thief, its control-change effect ends. Regaining control of Master Thief won’t cause you to regain control of the artifact.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znc/30/master-thief) · oracle_id `a32b8502-7427-48a5-a880-14516ff2fe77` · printing: ZNC #30 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Master Transmuter
 
@@ -1202,7 +1317,9 @@
 - **Flavor text** (KLD printing):
   > *"Let us never forget the joy that lies at the heart of invention."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17905 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/21/master-trinketeer) · oracle_id `aa57f607-c5eb-45a7-bfb1-adce0aef49c7` · printing: KLD #21 (2016-09-30) · [rulings](https://api.scryfall.com/cards/cdb6beb3-1669-4e7b-9c76-65424673eb36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-09-20* — A creature that is both a Servo and a Thopter gets +1/+1, not +2/+2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/21/master-trinketeer) · oracle_id `aa57f607-c5eb-45a7-bfb1-adce0aef49c7` · printing: KLD #21 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Master Warcraft
 
@@ -1243,7 +1360,21 @@
   > {3}{W}: Manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)
 - **Keywords:** Manifest
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16937 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/74/mastery-of-the-unseen) · oracle_id `ae0701c1-7a99-46fe-bcb1-ea33ad2a0fc9` · printing: MKC #74 (2024-02-09) · [rulings](https://api.scryfall.com/cards/b27f4217-881d-401d-860e-d3d8689ca1e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2014-11-24* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
+  - *2014-11-24* — Any time you have priority, you may turn a manifested creature face up by revealing that it's a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2014-11-24* — At any time, you can look at a face-down permanent you control. You can't look at face-down permanents you don't control unless an effect allows you to or instructs you to.
+  - *2014-11-24* — Because face-down creatures don't have names, they can't have the same name as any other creature, even another face-down creature.
+  - *2014-11-24* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2014-11-24* — If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can't transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up.
+  - *2014-11-24* — If a face-down permanent you control leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+  - *2014-11-24* — If a manifested creature would have morph if it were face up, you may also turn it face up by paying its morph cost.
+  - *2014-11-24* — The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant or change any of these characteristics.
+  - *2014-11-24* — There are no cards in the Fate Reforged set that would turn a face-down instant or sorcery card on the battlefield face up, but some older cards can try to do this. If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it's an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won't trigger, because even though you revealed the card, it never turned face up.
+  - *2014-11-24* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2014-11-24* — Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
+  - *2014-11-24* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on).
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/74/mastery-of-the-unseen) · oracle_id `ae0701c1-7a99-46fe-bcb1-ea33ad2a0fc9` · printing: MKC #74 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Masticore
 
@@ -1256,6 +1387,7 @@
   > {2}: Regenerate this creature.
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25297 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/275/masticore) · oracle_id `621476a4-44bf-4f55-adb1-880cdd213f38` · printing: VMA #275 (2014-06-16) · [rulings](https://api.scryfall.com/cards/42663ac9-6b77-44f5-be76-c2c52d8465fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Masumaro, First to Live
@@ -1269,4 +1401,5 @@
   > *"In the waning moments of war, humanity's most ancient ancestors return. But whose side shall they make their own?"*
   > *—Isao, Enlightened Bushi*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21152 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/136/masumaro-first-to-live) · oracle_id `8af347b8-89fa-499e-8e5a-77463edd6773` · printing: SOK #136 (2005-06-03) · [rulings](https://api.scryfall.com/cards/2c4625b7-c8b1-4fdf-af9f-935313436b35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

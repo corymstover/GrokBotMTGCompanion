@@ -55,6 +55,7 @@
   > *Prize Card for the Unknown events at MagicCon Atlanta. September 26-28, 2025*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/ML01/the-waffle-restaurant) · oracle_id `a9b72adf-61a4-41ea-85b3-b92f243ca545` · printing: UNK #ML01 (2025-09-26) · [rulings](https://api.scryfall.com/cards/628effd3-d7f9-4c79-bb4c-07cda183ef6d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Walls of Ba Sing Se
@@ -167,6 +168,7 @@
   > IV — You may exile a nontoken creature you control. When you do, exile all Warriors.
 - **Keywords:** Goad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13825 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/30/the-war-games) · oracle_id `d7cfe3a3-e8e6-446d-a855-46c845f657fa` · printing: WHO #30 (2023-10-13) · [rulings](https://api.scryfall.com/cards/0662fee0-a6bc-4a1c-8a0f-6e7efc6b8a21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The War in Heaven
@@ -180,7 +182,9 @@
   > III — Choose up to three target creature cards with total mana value 8 or less in your graveyard. Return each of them to the battlefield with a necrodermis counter on it. They're artifacts in addition to their other types.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11104 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/69/the-war-in-heaven) · oracle_id `5924cbb0-19b5-449c-a7c5-722e744a54f8` · printing: 40K #69 (2022-10-07) · [rulings](https://api.scryfall.com/cards/cd556cd1-e33a-433d-ac18-4a4fd195c3ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-07* — If a card in your graveyard has an {X} in its cost, X is zero.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/69/the-war-in-heaven) · oracle_id `5924cbb0-19b5-449c-a7c5-722e744a54f8` · printing: 40K #69 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Warmonger
 
@@ -189,6 +193,7 @@
 - **Oracle text:**
   > Exile The Warmonger: Creatures you control get +2/+0 and gain haste until end of turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thp2/4d/the-warmonger) · oracle_id `11f1f549-e4f7-422d-b0a6-c7c624c2f594` · printing: THP2 #4d (2014-02-07) · [rulings](https://api.scryfall.com/cards/f02b5e79-5eea-4cbe-b087-241cf27f0580/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Warring Triad
@@ -221,6 +226,7 @@
 - **Oracle text:**
   > {T}: Target creature you control gains haste until end of turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thp1/1d/the-warrior) · oracle_id `7a6b3559-9a10-4f95-b912-e890a069dc96` · printing: THP1 #1d (2013-09-27) · [rulings](https://api.scryfall.com/cards/dd60768a-c47f-4af5-bb33-c17777c7dd66/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wasp, Janet Van Dyne
@@ -235,6 +241,7 @@
   > *"Careful, wasps are known to sting."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27392 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/844/the-wasp-janet-van-dyne) · oracle_id `8d35c7c8-1342-40b7-82ec-2f7973ee8af8` · printing: MSC #844 (2026-06-26) · [rulings](https://api.scryfall.com/cards/cd009478-6df9-4ebc-b0a4-0c50da82ad11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wasp, Winsome Avenger
@@ -251,6 +258,7 @@
   > *"No job too small. No villain too big."*
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14412 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/39/the-wasp-winsome-avenger) · oracle_id `4b706959-ea38-4808-870a-7c35d83f7ab2` · printing: MSC #39 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ce5fb436-fcc6-426f-a33b-a8ba904df0ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Watcher in the Water
@@ -299,6 +307,7 @@
 - **Flavor text** (UNK printing):
   > *DESTROY*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ01b/the-water-maro) · oracle_id `4efc68ba-6366-4e3c-8539-4cde0cc45e82` · printing: UNK #RZ01b (2024-02-24) · [rulings](https://api.scryfall.com/cards/8f104d73-793d-49e8-bf1d-82a0aa1bd1d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Weatherseed Treaty
@@ -328,6 +337,7 @@
   > Whenever The Weaver King deals combat damage to a player, they mill that many cards. Then for each opponent, put a creature card from that player's graveyard that was put there from their library this turn onto the battlefield under your control.
 - **Keywords:** Shadow, Mill
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #21848 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/56/the-weaver-king) · oracle_id `ed1a6d06-436b-45c0-979c-7802246eeb9e` · printing: MBC #56 (2026-10-19) · [rulings](https://api.scryfall.com/cards/34390921-6fe4-463a-af1c-2aa5f0bfe82a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wedding of River Song
@@ -339,7 +349,24 @@
   > Time travel. (For each suspended card you own and each permanent you control with a time counter on it, you may add or remove a time counter.)
 - **Keywords:** Time Travel
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11093 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/31/the-wedding-of-river-song) · oracle_id `1ff91cc1-2233-4ceb-91ba-6a49c7147f32` · printing: WHO #31 (2023-10-13) · [rulings](https://api.scryfall.com/cards/adc4ce53-7805-4448-bc20-f5bf85fdefa3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2023-10-13* — If you exile a card with a mana value of 0, it will gain suspend, but no time counters will be placed on it. It can't be cast unless a time counter is later placed on it (and then, subsequently removed), and it isn't considered to be a "suspended card."
+  - *2023-10-13* — Time counters are usually found on cards with suspend and vanishing, but may be found on other cards as well. Notably, Sagas use lore counters to track their progress, not time counters. You can't move a Saga's chapters forward and backward this way.
+  - *2023-10-13* — To time travel, look at each permanent you control with a time counter on it and each suspended card you own in exile with a time counter on it. For each of them, you choose whether you want to put a time counter on that card or permanent, remove a time counter from it, or do neither. Then those changes all happen simultaneously.
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/31/the-wedding-of-river-song) · oracle_id `1ff91cc1-2233-4ceb-91ba-6a49c7147f32` · printing: WHO #31 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Weekly Princess
 
@@ -351,6 +378,7 @@
   > Whenever night becomes day, put a +1/+1 counter on The Weekly Princess. Then if she has seven or more +1/+1 counters on her, she deals damage equal to her power to each opponent.
   > When The Weekly Princess leaves the battlefield, it stops being day or night. (Stop tracking it. Trust us, it's better this way.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03e/the-weekly-princess) · oracle_id `3088d1ba-a478-4657-8675-195fc4f7d23c` · printing: UNK #RZ03e (2024-10-25) · [rulings](https://api.scryfall.com/cards/293c4bc6-7b58-4e2c-b7d3-5ce0900fdfb1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wheeling Runner
@@ -363,6 +391,7 @@
   > Whenever The Wheeling Runner deals combat damage to a player, you may discard your hand. If you do, choose four Vintage-legal cards at random. Add those cards to your hand. (The "Random Card" feature on a search site may help.)
   > Ready to run (You can have two commanders if both have ready to run.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR04d/the-wheeling-runner) · oracle_id `d4199531-b8b2-4c3d-b0a2-534f38d7f3bb` · printing: UNK #RR04d (2024-10-25) · [rulings](https://api.scryfall.com/cards/5f9b509c-009e-4f5f-84b4-d139cf6a655d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Whiteboarder
@@ -375,6 +404,7 @@
   > Whenever you cast a creature spell, note its power, toughness, or one of its abilities. (Perhaps write on something you can reuse infinitely.)
   > {6}, {T}: Create a white-bordered blue Elemental creature token. It has noted power and toughness and up to two noted abilities. Erase whatever text you use this way.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU01a/the-whiteboarder) · oracle_id `ad0f1851-695e-44b0-ad91-9ed6489713f6` · printing: UNK #RU01a (2026-05-01) · [rulings](https://api.scryfall.com/cards/3ab96f42-52cd-4487-bfdd-959b14a9762b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Whizzer, Classic Speedster
@@ -388,6 +418,7 @@
   > *In the Golden Age, he fought alongside the mightiest heroes in the All-Winners Squad. He's slowed down since then but, as is the case with many heroes, retirement didn't quite take.*
 - **Keywords:** First strike, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30105 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/710/the-whizzer-classic-speedster) · oracle_id `aa86bce1-9cde-44d8-9455-24502221f31d` · printing: MSC #710 (2026-06-26) · [rulings](https://api.scryfall.com/cards/77134e93-4c03-476b-ab60-d8fb48f7a74f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wiley Speedster
@@ -402,6 +433,7 @@
   > • Create a Treasure token.
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR03/the-wiley-speedster) · oracle_id `1a0ff3b5-cd25-4803-a7ee-614348b4e0aa` · printing: UNK #RR03 (2024-10-25) · [rulings](https://api.scryfall.com/cards/7ba815c0-a1c7-42c2-b1f8-a999f68704c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wind Crystal
@@ -455,6 +487,7 @@
   > Judge Call! — When The Wise Sable enters the battlefield, choose one of the following six cards at random: Blood Moon; Enraging Licid; Humility; Life and Limb; Opalescence; Yavimaya, Cradle of Growth. Create a token that's a copy of the chosen card. (One easy way to determine is to roll a D6.)
 - **Keywords:** Judge Call!
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ06c/the-wise-sable) · oracle_id `c0d27f3e-90a4-47f5-bace-9e91d7a05022` · printing: UNK #RZ06c (2024-06-29) · [rulings](https://api.scryfall.com/cards/8953a06a-3aff-4920-a131-5b9e2d4393f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Witch's Vanity
@@ -468,7 +501,19 @@
   > III — Create a Wicked Role token attached to target creature you control.
 - **Keywords:** Role token, Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16314 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/119/the-witchs-vanity) · oracle_id `ad2793f3-a36f-4a09-a38f-eb98ce0a2b79` · printing: WOE #119 (2023-09-08) · [rulings](https://api.scryfall.com/cards/47ca4926-b5ac-405a-8b58-f8db6df400ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2023-09-01* — A permanent can have multiple Roles attached to it if each one is controlled by a different player.
+  - *2023-09-01* — Cards in the Wilds of Eldraine main set create six different Role tokens: Cursed, Monster, Royal, Sorcerer, Wicked, and Young Hero. A seventh Role token, Virtuous, is created by Ellivere of the Wild Court, the commander of the "Virtue and Valor" Commander Deck.
+  - *2023-09-01* — Hexproof and shroud won't prevent a Role from becoming attached to a permanent if the ability creating that Role attached to that permanent doesn't target it.
+  - *2023-09-01* — If a permanent has more than one Role attached to it controlled by the same player, each of those Roles except the one with the most recent timestamp is put into its owner's graveyard. This is a state-based action.
+  - *2023-09-01* — If two or more Roles controlled by the same player become attached to a permanent at the same time (perhaps due to an effect such as that of Doubling Season), that player chooses which one to keep and which are put into their owners' graveyards.
+  - *2023-09-01* — In rare cases, a spell or ability might attempt to create a Role token enchanting a permanent that it can't legally enchant (because of an ability like protection from enchantments). In such cases, the Role token isn't created.
+  - *2023-09-01* — Roles are colorless enchantment tokens. Each one has the Aura and Role subtypes and the enchant creature ability.
+  - *2023-09-01* — Some spells and abilities that create Role tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Role token won't be created.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/119/the-witchs-vanity) · oracle_id `ad2793f3-a36f-4a09-a38f-eb98ce0a2b79` · printing: WOE #119 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wizardly Barge
 
@@ -481,6 +526,7 @@
   > Crew 1
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03r/the-wizardly-barge) · oracle_id `e110cb22-e984-4975-bba0-3882f7e32850` · printing: UNK #RZ03r (2026-05-01) · [rulings](https://api.scryfall.com/cards/7150c1d7-f4f9-4063-bd3d-563f0cdcd21c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wondrous Wasp
@@ -496,6 +542,7 @@
   > *"Don't overlook the little things."*
 - **Keywords:** Flying, Wasp's Sting, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12762 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/84/the-wondrous-wasp) · oracle_id `5ad8963b-8091-4787-9147-20a1fe7bf0fb` · printing: MSH #84 (2026-06-26) · [rulings](https://api.scryfall.com/cards/484e80a4-1d5f-4c27-98a8-ee2ef9d6cbdc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The World Spell
@@ -508,7 +555,9 @@
   > III — Put up to two non-Saga permanent cards from your hand onto the battlefield.
 - **Keywords:** Read Ahead
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10424 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/189/the-world-spell) · oracle_id `f5186d3f-52b2-43ef-be11-d183ab765663` · printing: DMU #189 (2022-09-09) · [rulings](https://api.scryfall.com/cards/f3a9112a-6a1d-4d89-9866-189b55cd326d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-09-09* — As a Saga with read ahead enters the battlefield, its controller chooses a number from one to that Saga’s greatest chapter number. The Saga enters the battlefield with the chosen number of lore counters. Neither choosing the number nor putting the counters on the Saga use the stack, and neither can be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/189/the-world-spell) · oracle_id `f5186d3f-52b2-43ef-be11-d183ab765663` · printing: DMU #189 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The World Tree
 
@@ -532,4 +581,12 @@
 - **Oracle text:**
   > At end of combat, gain control of all creatures blocking this creature for as long as you control this creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28130 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/78/the-wretched) · oracle_id `27af77e5-6680-43d3-9202-40be9b5d14a0` · printing: ME3 #78 (2009-09-07) · [rulings](https://api.scryfall.com/cards/edf30a58-f77c-4887-a0b2-9d939243d86e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2009-05-01* — Any blocking creatures that regenerated during combat will have been removed from combat. Since such creatures are no longer in combat, they cannot be blocking The Wretched, which means you won’t be able to gain control of them.
+  - *2009-05-01* — If The Wretched itself regenerated during combat, then it will have been removed from combat. Since it is no longer in combat, there cannot be any creatures blocking it, which means you won’t be able to gain control of any creatures.
+  - *2009-05-01* — The ability grants you control of all creatures that are blocking it as the ability resolves. This will include any creatures that were put onto the battlefield blocking it.
+  - *2009-10-01* — If The Wretched leaves the battlefield, you no longer control it, so the duration of its control-change effect ends.
+  - *2009-10-01* — If you lose control of The Wretched before its ability resolves, you won’t gain control of the creatures blocking it at all.
+  - *2009-10-01* — Once the ability resolves, it doesn’t care whether the permanents you gained control of remain creatures, only that they remain on the battlefield.
+  - *2009-10-01* — The Wretched’s ability triggers only if it’s still on the battlefield when the end of combat step begins (after the combat damage step). For example, if it’s blocked by a 7/7 creature and is destroyed, its ability won’t trigger at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/78/the-wretched) · oracle_id `27af77e5-6680-43d3-9202-40be9b5d14a0` · printing: ME3 #78 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

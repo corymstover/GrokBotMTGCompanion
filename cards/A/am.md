@@ -112,7 +112,10 @@
   > *"I'm not here to help. I just want it to be fair."*
 - **Keywords:** No Mercy, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15160 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/457/amarant-coral) · oracle_id `322d2407-fa9f-48d0-bdf0-88f6d24cf865` · printing: FIC #457 (2025-12-05) · [rulings](https://api.scryfall.com/cards/00ef8f06-dfcc-4ffa-a054-b0c81b39dcc0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-10-02* — If Amarant Coral can't attack for any reason (such as being tapped or having come under your control that turn), then it doesn't attack. If there's a cost associated with having it attack, you're not forced to pay that cost, so it doesn't have to attack in that case either.
+  - *2025-10-02* — The damage dealt by Amarant Coral as a result of its last ability is not combat damage and therefore doesn't cause the ability to trigger again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/457/amarant-coral) · oracle_id `322d2407-fa9f-48d0-bdf0-88f6d24cf865` · printing: FIC #457 (2025-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amaranthine Wall
 
@@ -126,6 +129,7 @@
   > *Neither its appearance nor its temperature varies as the years pass, an eternal testament to the forces that shaped Dominaria.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10513 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/210/amaranthine-wall) · oracle_id `3c9fcda6-3ebc-4f9d-9f73-2bb4252d9420` · printing: DOM #210 (2018-04-27) · [rulings](https://api.scryfall.com/cards/73b49065-0a46-4813-a721-71d718e73d18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amareth, the Lustrous
@@ -140,7 +144,9 @@
   > *"Come closer, dear, and let me see that bauble. I've got a match for it somewhere..."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12002 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/266/amareth-the-lustrous) · oracle_id `8cccc8d0-bdd8-4853-8330-6f6a57695d11` · printing: CMR #266 (2020-11-20) · [rulings](https://api.scryfall.com/cards/2fbea010-de77-468e-be39-1717070c9303/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-11-10* — Card types that can appear on permanents and cards in a library include artifact, creature, enchantment, land, planeswalker. Instant and sorcery are card types, but they can't appear on permanents. Legendary, basic, and snow are supertypes, not card types; Dragon and Pirate are subtypes, not card types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/266/amareth-the-lustrous) · oracle_id `8cccc8d0-bdd8-4853-8330-6f6a57695d11` · printing: CMR #266 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amass the Components
 
@@ -151,7 +157,9 @@
 - **Flavor text** (IMA printing):
   > *"I knew I'd find a use for all that newt spittle!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16425 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/41/amass-the-components) · oracle_id `0f623e23-81ae-4c35-b68b-e0a2f431cbad` · printing: IMA #41 (2017-11-17) · [rulings](https://api.scryfall.com/cards/f36521a7-8997-45da-aaa6-dd70d5c4e7f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-11-17* — If you cast Amass the Components with fewer than three cards in your library, you’ll draw the remaining cards in your library, put a card from your hand on the bottom of your library, then lose the game for drawing a card from a library with no cards in it the next time state-based actions are performed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/41/amass-the-components) · oracle_id `0f623e23-81ae-4c35-b68b-e0a2f431cbad` · printing: IMA #41 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amateur Auteur
 
@@ -167,6 +175,7 @@
   > *is now Guildpact for life.*
   > *—\*RAVNICA! The Musical\**
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/3a/amateur-auteur) · oracle_id `38e36eb0-f3a9-42d7-9223-417d23e434fa` · printing: UST #3a (2017-12-08) · [rulings](https://api.scryfall.com/cards/f426dc98-daae-4785-8384-d2b2dc2bbaad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amateur Hero
@@ -179,6 +188,7 @@
 - **Flavor text** (SPE printing):
   > *"Spider-Man wouldn't hesitate to save others, and neither will I!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24242 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spe/1/amateur-hero) · oracle_id `fc8ee6e1-a2e1-4033-a164-7968fc79dd27` · printing: SPE #1 (2025-09-26) · [rulings](https://api.scryfall.com/cards/38d3b35d-3ae7-4f41-879f-e05146112b24/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amazing Acrobatics
@@ -206,6 +216,7 @@
   > *"You know, we should really do this more often."*
   > *—Spider-Man, Peter Parker*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11517 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spe/2/amazing-alliance) · oracle_id `5a824aff-52fe-4402-b074-884afb5286d4` · printing: SPE #2 (2025-09-26) · [rulings](https://api.scryfall.com/cards/ddc2386e-18a4-49f0-9c08-da870dc6f96e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amazing Spider-Girl
@@ -221,6 +232,7 @@
   > *—Spider-Girl, Mayday Parker*
 - **Keywords:** Flying, Vigilance, Web-slinging
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23608 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/583/amazing-spider-girl) · oracle_id `7a6c4216-7aff-41d4-8d79-bd1ac0b263ae` · printing: MSC #583 (2026-06-26) · [rulings](https://api.scryfall.com/cards/794dda34-8bc5-4cb9-8460-07f93426dd34/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ambassador Blorpityblorpboop
@@ -232,7 +244,15 @@
   > When Ambassador Blorpityblorpboop enters, you get {TK}{TK}{TK}, then you may put a sticker on a nonland permanent you own.
   > At the beginning of each combat, you may have Ambassador Blorpityblorpboop's base power become equal to the total power of all stickers on permanents you control and its base toughness become equal to those stickers' total toughness.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23407 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/161/ambassador-blorpityblorpboop) · oracle_id `183a9488-e21f-448b-8b69-e53b56fa0a56` · printing: UNF #161 (2022-10-07) · [rulings](https://api.scryfall.com/cards/49600fe1-8c1f-4940-bb1e-7e28131d6d5f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-10-07* — Although Ambassador Blorpityblorpboop’s last ability considers the power and toughness stickers of permanents you control, the card itself is not considered to be stickered unless there’s actually a sticker on it.
+  - *2022-10-07* — Ambassador Blorpityblorpboop counts all power and toughness stickers on all permanents you control, even if those power and toughness stickers don’t currently have any effect (possibly because you placed another power and toughness sticker on the same creature).
+  - *2022-10-07* — Ambassador Blorpityblorpboop has received a minor update to clarify its function. Specifically, its ability causes its base power to match the total power of stickers you control, and its base toughness to match the total toughness of stickers you control. The updated wording appears above.
+  - *2022-10-07* — Count only the powers and toughnesses of the stickers on permanents you control, not the actual powers and toughnesses of those permanents. For example, if a creature you control has a 4/4 sticker on it, but it also has three +1/+1 counters on it, it’s a 7/7 creature, but Ambassador Blorpityblorpboop’s base power and toughness would become 4/4.
+  - *2022-10-07* — If Ambassador Blorpityblorpboop has a power and toughness sticker on it, that sticker is included when calculating for the last ability.
+  - *2022-10-07* — It doesn’t matter if the stickers are on creatures. Any power and toughness stickers on noncreature permanents you control will also count.
+  - *2022-10-07* — The base power and toughness change doesn’t end at end of turn; it lasts indefinitely, until Ambassador Blorpityblorpboop either leaves the battlefield or its base power and toughness changes again from another effect (for example, a power and toughness sticker being placed on it or its ability triggering again).
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/161/ambassador-blorpityblorpboop) · oracle_id `183a9488-e21f-448b-8b69-e53b56fa0a56` · printing: UNF #161 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ambassador Laquatus
 
@@ -245,6 +265,7 @@
   > *"Life is a game. The only thing that matters is whether you're a pawn or a player."*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18817 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/65/ambassador-laquatus) · oracle_id `2df8f253-1d3c-4b1f-8549-93fb90623474` · printing: 10E #65 (2007-07-13) · [rulings](https://api.scryfall.com/cards/b261067f-b5de-41cc-ba9e-6ef4c061e170/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ambassador Oak
@@ -257,6 +278,7 @@
 - **Flavor text** (JMP printing):
   > *Treefolk and elves share a common interest in the forests, but really the elves just feel at home with the view from above.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23988 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/375/ambassador-oak) · oracle_id `4045c24e-098f-4582-8c50-576a94c7b705` · printing: JMP #375 (2020-07-17) · [rulings](https://api.scryfall.com/cards/b8664d29-dacc-49cb-949f-e00ceeb75ff6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amber Gristle O'Maul
@@ -270,7 +292,20 @@
   > Choose a Background (You can have a Background as a second commander.)
 - **Keywords:** Choose a background, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15940 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/159/amber-gristle-omaul) · oracle_id `d1435f7b-a694-4c7f-a0f2-34c4c646e04b` · printing: CLB #159 (2022-06-10) · [rulings](https://api.scryfall.com/cards/34806912-daf8-4e5c-804f-af0858500438/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2022-06-10* —  If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2022-06-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2022-06-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2022-06-10* — Choose a Background is a variant of the partner ability. You may have two commanders if one of them is a legendary creature with the choose a background ability and the other is a legendary Background enchantment. Backgrounds and cards with choose a Background do not interact with cards which have any other partner ability.
+  - *2022-06-10* — If a card refers to a commander creature you own, a Background won't usually be counted or included for that effect. If another spell or ability causes your Background to become a creature, however, it will be included. Any effect that refers to your commander or a commander you own or control without specifying creature will apply to a Background that is your commander, as appropriate.
+  - *2022-06-10* — If you control a Background that grants an ability to commander creatures you own, and you own more than one commander creature, each of them will have that ability.
+  - *2022-06-10* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders' combined color identities.
+  - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
+  - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won't usually be a creature anyway).
+  - *2022-06-10* — You can choose two commanders that are the same color or colors.
+  - *2022-06-10* — You decide whether to discard your hand as Amber Gristle O'Maul's ability resolves. No player may respond after you have decided to discard your hand but before you have drawn cards.
+  - *2022-06-10* — You may choose to discard your hand even if it is empty. Especially if it is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/159/amber-gristle-omaul) · oracle_id `d1435f7b-a694-4c7f-a0f2-34c4c646e04b` · printing: CLB #159 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amber Prison
 
@@ -280,6 +315,7 @@
   > You may choose not to untap this artifact during your untap step.
   > {4}, {T}: Tap target artifact, creature, or land. That permanent doesn't untap during its controller's untap step for as long as this artifact remains tapped.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23474 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/6ed/272/amber-prison) · oracle_id `1c69fdcf-ba87-480a-88df-70aa4ec9fff0` · printing: 6ED #272 (1999-04-21) · [rulings](https://api.scryfall.com/cards/db90a5e7-8238-442a-a6a4-78c59a6adb3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ambiguity
@@ -289,6 +325,7 @@
 - **Oracle text:**
   > Whenever a player plays a spell that counters a spell that has been played or a player plays a spell that comes into play with counters, that player may counter the next spell played or put an additional counter on a permanent that has already been played, but not countered.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/24/ambiguity) · oracle_id `f5872c45-e5a0-4200-95e6-4cf36d36ed4b` · printing: UNH #24 (2004-11-19) · [rulings](https://api.scryfall.com/cards/6f834c86-cd38-40bf-9aad-b4098895de86/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ambition's Cost
@@ -315,7 +352,11 @@
   > *Aetherborn who are unwilling to accept the decomposition of their bodies invent ways to preserve and augment themselves.*
 - **Keywords:** Fabricate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29029 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/72/ambitious-aetherborn) · oracle_id `31f54f88-85a6-43f4-a6de-fb6ef5f0c38d` · printing: KLD #72 (2016-09-30) · [rulings](https://api.scryfall.com/cards/80cb628e-fa83-4d7e-92cb-8779ea02193f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-09-20* — Fabricate doesn't cause the creature with the ability to enter the battlefield with +1/+1 counters already on it. For example, Weaponcraft Enthusiast will enter the battlefield as a 0/1 creature, then its fabricate ability goes on the stack. Players may take actions (such as casting instants) while the ability is waiting to resolve.
+  - *2016-09-20* — If you can't put +1/+1 counters on the creature for any reason as fabricate resolves (for instance, if it's no longer on the battlefield), you just create Servo tokens.
+  - *2016-09-20* — You choose whether to put +1/+1 counters on the creature or create Servo tokens as the fabricate ability is resolving. No player may take actions between the time you choose and the time that counters are added or tokens are created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/72/ambitious-aetherborn) · oracle_id `31f54f88-85a6-43f4-a6de-fb6ef5f0c38d` · printing: KLD #72 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ambitious Assault
 
@@ -326,6 +367,7 @@
 - **Flavor text** (NEO printing):
   > *In the clangor and chaos of the akki attack, few even noticed the frogs on their heads.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15783 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/133/ambitious-assault) · oracle_id `3fb399fa-123f-448e-a473-573a1fab2c78` · printing: NEO #133 (2022-02-18) · [rulings](https://api.scryfall.com/cards/d00d618d-abad-475b-b938-e111282ea1c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ambitious Augmenter
@@ -338,7 +380,19 @@
   > When this creature dies, if it had one or more counters on it, create a 0/0 green and blue Fractal creature token, then put this creature's counters on that token.
 - **Keywords:** Increment
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14822 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/140/ambitious-augmenter) · oracle_id `d87f0e52-486e-49b4-9cf1-12e238857340` · printing: SOS #140 (2026-04-24) · [rulings](https://api.scryfall.com/cards/85629088-2007-4db5-9397-bac12a3d7498/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2026-03-20* — Ambitious Augmenter's last ability doesn't cause you to move counters from Ambitious Augmenter onto the Fractal token. Rather, you put the same number of each kind of counter Ambitious Augmenter had when it died onto the Fractal token.
+  - *2026-03-20* — Ambitious Augmenter's last ability puts all counters that were on it onto the Fractal token, not just its +1/+1 counters.
+  - *2026-03-20* — An increment ability will only trigger if the permanent it's on is a creature. Similarly, if the permanent is no longer a creature when its increment ability resolves, the ability won't do anything.
+  - *2026-03-20* — If Ambitious Augmenter has -1/-1 counters on it when it dies, that ability will include those as well. This may result in the Fractal token dying.
+  - *2026-03-20* — If enough -1/-1 counters are put on Ambitious Augmenter at the same time to make its toughness 0 or less, its second ability will see all of the +1/+1 counters it had when it died as well as the -1/-1 counters it had, and an equal number of each of those types of counters (plus any other applicable counters) will be put onto the Fractal token.
+  - *2026-03-20* — If increment triggers, the comparison will happen again when the ability tries to resolve. If the amount of mana spent to cast that spell isn't greater than either of that creature's stats anymore, the ability will do nothing.
+  - *2026-03-20* — If more than one token is created by Ambitious Augmenter’s last ability (because of the effect of a card like Anointed Procession, for example), put Ambitious Augmenter’s counters on each of those tokens.
+  - *2026-03-20* — In some unusual cases, you may end up putting the appropriate counters on more than one permanent. For example, if you control The Ozolith (a card from the Ikoria: Lair of Behemoths set) when Ambitious Augmenter dies, you'll put the appropriate number of each kind of counter onto both The Ozolith and the Fractal token.
+  - *2026-03-20* — The increment ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+  - *2026-03-20* — When comparing the mana spent to the creature's stats as the increment ability resolves, it's possible that the stat that is less than the mana spent changes from power to toughness or vice versa. For example, say you control a 1/3 creature with increment and you pay two mana to cast a spell. Since the amount of mana you spent is greater than the creature's power, increment will trigger. While the increment ability is on the stack, an effect gives the creature with increment +2/-2, making it a 3/1. When the increment ability resolves, the creature will still get a +1/+1 counter since the amount of mana you spent is greater than that creature's toughness.
+  - *2026-03-20* — Whenever you cast a spell, check the amount of mana you spent to cast it against the power and toughness of the creature with increment. If the amount of mana you spent isn't greater than either of that creature's stats, increment won't trigger at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/140/ambitious-augmenter) · oracle_id `d87f0e52-486e-49b4-9cf1-12e238857340` · printing: SOS #140 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ambitious Dragonborn
 
@@ -350,7 +404,9 @@
 - **Flavor text** (CLB printing):
   > *The raging green dragon left destruction—and at least one admirer—in its wake.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12941 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/213/ambitious-dragonborn) · oracle_id `934094d6-c897-4ae2-89cd-08d106600d3c` · printing: CLB #213 (2022-06-10) · [rulings](https://api.scryfall.com/cards/5e56a516-d71a-49c4-a929-9a8973125d3c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-06-10* — Ambitious Dragonborn is not yet on the battlefield when its effect looks for the creature or creature card with the greatest power, so any creatures that have a bonus to their power based on the number of creatures on the battlefield won't count it until after it enters with counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/213/ambitious-dragonborn) · oracle_id `934094d6-c897-4ae2-89cd-08d106600d3c` · printing: CLB #213 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ambitious Farmhand // Seasoned Cathar
 
@@ -366,7 +422,11 @@
   > *"The cathars have taught me many things, but I will never forget the hard, honest work that first callused my hands."*
 - **Keywords:** Lifelink, Transform, Coven
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11209 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/8/ambitious-farmhand-seasoned-cathar) · oracle_id `b85e7ab2-6f57-4b65-8c16-034b342996f0` · printing: INR #8 (2025-01-24) · [rulings](https://api.scryfall.com/cards/36cb9b12-98a3-4770-9ae0-a3b02f057c2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-09-24* — A creature has different power from another if their powers are different numbers. For example, a 1/1 creature and a 2/1 creature have different powers.
+  - *2021-09-24* — For three creatures to have different powers from one another, each of their powers needs to be different. A 1/1 creature, a 2/1 creature, and another 2/1 creature aren't three creatures with different powers, even though both 2/1 creatures have different power than the 1/1 creature.
+  - *2021-09-24* — Many coven abilities, such as that of Dawnhart Wardens above, are triggered abilities with intervening if clauses. You must control three or more creatures with different powers at the time the ability triggers and at the time the ability tries to resolve. They do not, however, need to be the same set of creatures in both cases.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/8/ambitious-farmhand-seasoned-cathar) · oracle_id `b85e7ab2-6f57-4b65-8c16-034b342996f0` · printing: INR #8 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ambling Stormshell
 
@@ -379,6 +439,7 @@
   > Whenever you cast a Turtle spell, untap this creature.
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14276 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/37/ambling-stormshell) · oracle_id `75070eaf-c931-46e5-9aa1-b849e33580c6` · printing: TDM #37 (2025-04-11) · [rulings](https://api.scryfall.com/cards/c74d4a57-0f66-4965-9ed7-f88a08aa1d15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ambrosia Whiteheart
@@ -408,7 +469,9 @@
 - **Flavor text** (ONE printing):
   > *The Mirran forces thought they'd vanquished their foes . . . until a nearby monument got up and started stalking toward them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26902 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/79/ambulatory-edifice) · oracle_id `b46351cf-73c7-493c-b8a7-5d7bedc8b205` · printing: ONE #79 (2023-02-10) · [rulings](https://api.scryfall.com/cards/43c9005c-0574-4b75-8dbf-0a6641c3ae33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-02-04* — You don't choose a target for Ambulatory Edifice's last ability at the time it triggers. Rather, a second "reflexive" ability triggers when you pay 2 life this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/79/ambulatory-edifice) · oracle_id `b46351cf-73c7-493c-b8a7-5d7bedc8b205` · printing: ONE #79 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ambuscade
 
@@ -419,7 +482,9 @@
 - **Flavor text** (2X2 printing):
   > *"Spent a lifetime learning from predators. Picked up a few tricks."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20055 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/133/ambuscade) · oracle_id `5e419975-e054-4c35-8845-a08589ebb08f` · printing: 2X2 #133 (2022-07-08) · [rulings](https://api.scryfall.com/cards/4df71162-7e8f-47c5-aff4-59d82d8c674d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-07-14* — If the creature you control leaves the battlefield before Ambuscade resolves, Ambuscade has no effect and no damage is dealt. If the creature an opponent controls leaves the battlefield instead, the creature you control gets +1/+0 even though it won't deal any damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/133/ambuscade) · oracle_id `5e419975-e054-4c35-8845-a08589ebb08f` · printing: 2X2 #133 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ambuscade Shaman
 
@@ -431,7 +496,13 @@
   > Dash {3}{B} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)
 - **Keywords:** Dash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22597 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/87/ambuscade-shaman) · oracle_id `96e1d890-4ebb-4c79-8df9-24e3adaf4d9b` · printing: DTK #87 (2015-03-27) · [rulings](https://api.scryfall.com/cards/5b9a91f8-5f9f-46a2-bd80-1ca014591de9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2015-02-25* — If Ambuscade Shaman enters the battlefield at the same time as other creatures you control, its ability will trigger for each of those creatures.
+  - *2015-02-25* — If a creature enters the battlefield as a copy of or becomes a copy of a creature whose dash cost was paid, the copy won’t have haste and won’t be returned to its owner’s hand.
+  - *2015-02-25* — If you choose to pay the dash cost rather than the mana cost, you’re still casting the spell. It goes on the stack and can be responded to and countered. You can cast a creature spell for its dash cost only when you otherwise could cast that creature spell. Most of the time, this means during your main phase when the stack is empty.
+  - *2015-02-25* — If you pay the dash cost to cast a creature spell, that card will be returned to its owner’s hand only if it’s still on the battlefield when its triggered ability resolves. If it dies or goes to another zone before then, it will stay where it is.
+  - *2015-02-25* — You don’t have to attack with the creature with dash unless another ability says you do.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/87/ambuscade-shaman) · oracle_id `96e1d890-4ebb-4c79-8df9-24e3adaf4d9b` · printing: DTK #87 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ambush
 
@@ -443,6 +514,7 @@
   > *"Don't these goons have anything better to do?"*
   > *—Joskun, An-Havva Constable*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27793 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hml/62/ambush) · oracle_id `05828c1e-9185-4b70-94fe-753eacdf45a1` · printing: HML #62 (1995-10-01) · [rulings](https://api.scryfall.com/cards/b7dd8623-b64a-4b47-a69d-ed62d44596fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ambush Commander
@@ -454,7 +526,9 @@
   > Forests you control are 1/1 green Elf creatures that are still lands.
   > {1}{G}, Sacrifice an Elf: Target creature gets +3/+3 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13400 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/evg/1/ambush-commander) · oracle_id `e75b2a97-b28d-43fe-8b1e-ba87a09f339c` · printing: EVG #1 (2014-12-05) · [rulings](https://api.scryfall.com/cards/5ecbf790-619b-4b55-ae4c-29f1459b0031/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn’t matter how long the permanent has been a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/evg/1/ambush-commander) · oracle_id `e75b2a97-b28d-43fe-8b1e-ba87a09f339c` · printing: EVG #1 (2014-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ambush Gigapede
 
@@ -469,6 +543,7 @@
   > *—Chance Mulligan, wilderness guide*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20683 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/77/ambush-gigapede) · oracle_id `4faf62c3-3ba7-4540-be26-777305ef184e` · printing: OTJ #77 (2024-04-19) · [rulings](https://api.scryfall.com/cards/93b17d09-974a-4e33-b14d-5fe4230ab241/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ambush Krotiq
@@ -483,7 +558,10 @@
   > *The Abzan merchants soon discovered why this route was clear of dragons.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25442 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frf/122/ambush-krotiq) · oracle_id `e53f5f82-a8e0-44b1-a3be-162a0724755d` · printing: FRF #122 (2015-01-23) · [rulings](https://api.scryfall.com/cards/fd3068c6-d403-46d5-b3d7-1c3b00b9a9b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-11-24* — If you control no other creatures as Ambush Krotiq’s triggered ability resolves, nothing happens. Ambush Krotiq remains on the battlefield.
+  - *2014-11-24* — The triggered ability doesn’t target any permanent. You choose which one to return as the ability resolves. No player can respond to this choice once the ability starts resolving.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frf/122/ambush-krotiq) · oracle_id `e53f5f82-a8e0-44b1-a3be-162a0724755d` · printing: FRF #122 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ambush Paratrooper
 
@@ -498,6 +576,7 @@
   > *"It would be folly to fight a dragon engine head-on. Let's hit it from above."*
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21672 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/3/ambush-paratrooper) · oracle_id `cd583365-27cc-4170-b138-4b3dd0d842b6` · printing: BRO #3 (2022-11-18) · [rulings](https://api.scryfall.com/cards/cfa00c0e-163d-4f59-b8b9-3ee9143d27bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ambush Party
@@ -512,6 +591,7 @@
   > *—Tor Wauki, Bandit King*
 - **Keywords:** First strike, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31260 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/115/ambush-party) · oracle_id `454ed336-362d-46d9-96d5-8fcaa8a1c543` · printing: ME2 #115 (2008-09-22) · [rulings](https://api.scryfall.com/cards/92a1bb12-636f-426a-af13-f3be532c7845/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ambush Viper
@@ -542,6 +622,7 @@
   > *It lies perfectly still and silent for hours, concealed in the undergrowth, until its prey draws close enough to strike.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15670 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/98/ambush-wolf) · oracle_id `4c48de92-e053-4af7-b936-d7ec0875e0d3` · printing: FDN #98 (2024-11-15) · [rulings](https://api.scryfall.com/cards/2903832c-318e-42ab-bf58-c682ec2f7afd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amethyst Dragon // Explosive Crystal
@@ -560,7 +641,21 @@
   > *—Erinis, gloom stalker*
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14330 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/160/amethyst-dragon-explosive-crystal) · oracle_id `0961b68d-bb0c-4bfb-ad78-01f90b3b97c8` · printing: CLB #160 (2022-06-10) · [rulings](https://api.scryfall.com/cards/57adbd6e-88ec-4472-a9c9-90b679fa881f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2022-06-10* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it’s in your graveyard, Altar of Bhaal is an artifact card whose mana value is 2.
+  - *2022-06-10* — An effect may refer to a card, spell, or permanent that “has an Adventure.” This refers to a card, spell, or permanent that has an adventurer card’s set of alternative characteristics, even if they’re not being used and even if that card was never cast as an Adventure.
+  - *2022-06-10* — Casting a card as an Adventure isn’t casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2022-06-10* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner’s graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won’t be exiled and the spell’s controller won’t be able to cast it as a permanent later.
+  - *2022-06-10* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won’t give you permission to cast it as a permanent spell.
+  - *2022-06-10* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it’s not possible to cast the copy from exile.
+  - *2022-06-10* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2022-06-10* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it’s a token) or cease to be a copy (if it’s a nontoken permanent), and so you won’t be able to cast it as an Adventure.
+  - *2022-06-10* — If some of the targets are illegal as Explosive Crystal tries to resolve, the original division of damage still applies and the damage that would have been dealt to the illegal targets is lost. It won't be dealt instead to a legal target.
+  - *2022-06-10* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell.
+  - *2022-06-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2022-06-10* — You choose how many targets Explosive Crystal has and how the damage is divided as you put the spell on the stack. Each target must receive at least 1 damage.
+  - *2022-06-10* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/160/amethyst-dragon-explosive-crystal) · oracle_id `0961b68d-bb0c-4bfb-ad78-01f90b3b97c8` · printing: CLB #160 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aminatou's Augury
 
@@ -636,7 +731,13 @@
   > Whenever this creature deals combat damage to a player, remove all -1/-1 counters from it.
 - **Keywords:** Afflict
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11205 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/57/ammit-eternal) · oracle_id `c2f6ddc2-86bc-43da-9bdd-0c2af79c62fd` · printing: HOU #57 (2017-07-14) · [rulings](https://api.scryfall.com/cards/1b04934f-87d1-4768-b7b5-5f7249a09771/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-07-14* — Afflict causes the defending player to lose life; it's not damage or combat damage.
+  - *2017-07-14* — Afflict resolves before combat damage is dealt. If this loss of life brings a player to 0 life or less, that player loses the game immediately. A blocking creature with lifelink won't deal combat damage in time to save that player.
+  - *2017-07-14* — Ammit Eternal's middle ability will resolve before the spell that caused it to trigger. The ability will resolve even if that spell is countered.
+  - *2017-07-14* — If multiple creatures block a creature with afflict, afflict triggers only once.
+  - *2023-07-28* — If a creature is attacking a planeswalker, that planeswalker's controller is the defending player. If a creature is attacking a battle, that battle's protector is the defending player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/57/ammit-eternal) · oracle_id `c2f6ddc2-86bc-43da-9bdd-0c2af79c62fd` · printing: HOU #57 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amnesia
 
@@ -648,7 +749,9 @@
   > *"When one has witnessed the unspeakable, 'tis sometimes better to forget."*
   > *—Vervamon the Elder*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24091 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me1/29/amnesia) · oracle_id `8345187a-a210-49d7-bdce-10fb2909e050` · printing: ME1 #29 (2007-09-10) · [rulings](https://api.scryfall.com/cards/23d6dbd3-652f-4dc3-9453-24299332938d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-02-01* — If you target yourself with this spell, you must reveal your entire hand to the other players just as any other player would.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me1/29/amnesia) · oracle_id `8345187a-a210-49d7-bdce-10fb2909e050` · printing: ME1 #29 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amoeboid Changeling
 
@@ -674,6 +777,7 @@
 - **Flavor text** (STH printing):
   > *Crovax's rage was horrifying. Within moments only blood and shreds of flesh remained of the shapeshifter.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26423 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sth/76/amok) · oracle_id `2ddbbe65-f928-4b8e-8c4c-a9ce82e2594d` · printing: STH #76 (1998-03-02) · [rulings](https://api.scryfall.com/cards/5c5bdb8c-2a2e-47cf-a502-2d62f9ada3fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amok Time
@@ -687,6 +791,7 @@
   > III — Return target creature card from your graveyard to your hand.
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31065 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/183/amok-time) · oracle_id `98a752ff-f041-4032-9f3f-c6c4007f10f1` · printing: TRK #183 (2026-11-13) · [rulings](https://api.scryfall.com/cards/d31447b6-484f-4dda-b6af-ab068a84f896/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amonkhet Raceway
@@ -721,6 +826,7 @@
   > *A weapon forged for every hand.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14636 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/295/amorphous-axe) · oracle_id `fe340efa-6b69-4ccc-a13c-3688f1c44c29` · printing: CMR #295 (2020-11-20) · [rulings](https://api.scryfall.com/cards/2de53345-5809-4704-bd60-682b0c3c3999/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amped Raptor
@@ -758,7 +864,11 @@
 - **Flavor text** (UNF printing):
   > *Space can be a lawless place—far from the prying eyes of electrical inspectors.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32185 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/98/amped-up) · oracle_id `97e77cbf-1461-4137-b92f-4ad363b2b473` · printing: UNF #98 (2022-10-07) · [rulings](https://api.scryfall.com/cards/dc9a9810-ad37-4575-8773-de428174af8d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-10-07* — Also note that you have to remain in your seat while looking around the room. No, you can’t pick up your seat and walk around to get a better discount.
+  - *2022-10-07* — Any electrical socket that you can plug a device into to get electricity counts. Note that the socket has to be in a wall or floor.
+  - *2022-10-07* — Most outlets have two electrical sockets. A surge protector, extension cord, or similar device doesn’t increase the number of electrical sockets in a wall or floor that an outlet has.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/98/amped-up) · oracle_id `97e77cbf-1461-4137-b92f-4ad363b2b473` · printing: UNF #98 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amphibian Downpour
 
@@ -796,7 +906,9 @@
 - **Flavor text** (PLS printing):
   > *Merfolk raided the shores untroubled for years . . . until the shores started fighting back.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29927 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pls/78/amphibious-kavu) · oracle_id `9c9b1871-e776-4373-ba89-e009131cb6f7` · printing: PLS #78 (2001-02-05) · [rulings](https://api.scryfall.com/cards/37d94fb2-958c-487e-9f64-52d2771c6ea4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The ability only triggers once per combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pls/78/amphibious-kavu) · oracle_id `9c9b1871-e776-4373-ba89-e009131cb6f7` · printing: PLS #78 (2001-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amphin Cutthroat
 
@@ -809,6 +921,7 @@
   > *"The amphin have long built their society in secret. While surface dwellers squabbled over trivial borders, they patiently expanded, building their ammonite temple-caves. Now amphin priests eye the shore, and amphin hunters gird for war."*
   > *—Gor Muldrak, \*Cryptohistories\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29980 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m12/43/amphin-cutthroat) · oracle_id `e766a5eb-684b-4939-b164-6093d15600c9` · printing: M12 #43 (2011-07-15) · [rulings](https://api.scryfall.com/cards/fd169064-9c7b-40bd-8be0-a89fcb28ae2f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amphin Mutineer
@@ -843,7 +956,9 @@
   > *"There are those who do not believe in the existence of the amphin. This seems somehow to be of their own design."*
   > *—Gor Muldrak, \*Cryptohistories\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22319 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m15/45/amphin-pathmage) · oracle_id `53e4273c-3292-47a0-90d1-8a0eb0eaf381` · printing: M15 #45 (2014-07-18) · [rulings](https://api.scryfall.com/cards/eafd2e27-01d0-4894-886e-2b8776904ab9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-07-18* — Activating the ability after blockers have been declared won’t have any effect. It won’t change or undo any blocks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m15/45/amphin-pathmage) · oracle_id `53e4273c-3292-47a0-90d1-8a0eb0eaf381` · printing: M15 #45 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amplifire
 
@@ -853,7 +968,11 @@
 - **Oracle text:**
   > At the beginning of your upkeep, reveal cards from the top of your library until you reveal a creature card. Until your next turn, this creature's base power becomes twice that card's power and its base toughness becomes twice that card's toughness. Put the revealed cards on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24911 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/92/amplifire) · oracle_id `c6861c50-d336-4352-a76d-ec22a86ec09e` · printing: RNA #92 (2019-01-25) · [rulings](https://api.scryfall.com/cards/7a58c77f-7c15-44f4-8011-6046482a2d08/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-01-25* — Amplifire will be a 1/1 creature from the time your untap step begins until the time its triggered ability resolves during your upkeep.
+  - *2019-01-25* — Any effects that modify Amplifire’s power and/or toughness without setting them to a specific number or value will apply after its base power and toughness are set, regardless of the order in which those effects were created. The same is true of counters that modify its power and toughness.
+  - *2019-01-25* — If you reveal your entire library and don’t reveal a creature card, Amplifire becomes a 0/0 creature and you put your library back in a random order.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/92/amplifire) · oracle_id `c6861c50-d336-4352-a76d-ec22a86ec09e` · printing: RNA #92 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ampryn Tactician
 
@@ -865,6 +984,7 @@
 - **Flavor text** (ORI printing):
   > *"It's all a game. You shouldn't get too attached to the pieces."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27518 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/2/ampryn-tactician) · oracle_id `4ae19803-23a7-4724-a4cd-dc6f3c16fb24` · printing: ORI #2 (2015-07-17) · [rulings](https://api.scryfall.com/cards/82a2e1d9-6763-4024-a18b-982d96395553/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amrou Kithkin
@@ -877,7 +997,9 @@
 - **Flavor text** (ME3 printing):
   > *Quick and agile, Amrou Kithkin can usually escape from even the most fearsome opponents.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22436 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/3/amrou-kithkin) · oracle_id `79644192-8f99-4d04-b151-6f74a4dbda0a` · printing: ME3 #3 (2009-09-07) · [rulings](https://api.scryfall.com/cards/278d86b4-8d62-4932-a66d-062971295631/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — A creature with power 3 or greater can’t be declared as a blocker for Amrou Kithkin. If the power of a creature that’s already blocking Amrou Kithkin is increased to 3 or greater, it will continue to block Amrou Kithkin.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/3/amrou-kithkin) · oracle_id `79644192-8f99-4d04-b151-6f74a4dbda0a` · printing: ME3 #3 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amrou Scout
 
@@ -889,6 +1011,7 @@
 - **Flavor text** (TSR printing):
   > *The people of Amrou were scattered by war and driven into hiding. Scouts maintain the beacon fires that signal "return" and "home."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22524 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/1/amrou-scout) · oracle_id `4c80112a-8ff5-4ca4-8737-b8d499d78982` · printing: TSR #1 (2021-03-19) · [rulings](https://api.scryfall.com/cards/da2b6d3a-15e7-4305-9384-3635159cb421/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amrou Seekers
@@ -901,6 +1024,7 @@
 - **Flavor text** (TSR printing):
   > *The paradise of Amrou Haven had become a field of cinders. Its people struggled to survive, hoping to see visions of its past in the strange storms that quickly passed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23226 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/2/amrou-seekers) · oracle_id `396efb56-7a54-4d91-b2ce-7f3c62c3238b` · printing: TSR #2 (2021-03-19) · [rulings](https://api.scryfall.com/cards/379c3c08-a91d-48cc-8837-993614b6a32e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amugaba
@@ -915,6 +1039,7 @@
   > *The aven claim it feeds on thunder and rainbows.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29851 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/61/amugaba) · oracle_id `73a1552e-bbfa-445e-8306-b347354c0364` · printing: ODY #61 (2001-10-01) · [rulings](https://api.scryfall.com/cards/8d73d1e7-79be-4b28-a480-b65b4f34f755/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amulet of Kroog
@@ -926,6 +1051,7 @@
 - **Flavor text** (ME4 printing):
   > *Among the first allies Urza gained were the people of Kroog. As a sign of friendship, Urza gave the healers of the city potent amulets; afterwards, thousands journeyed to Kroog in hope of healing, greatly adding to the city's glory.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28882 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/179/amulet-of-kroog) · oracle_id `8eca999e-f7f8-4354-b419-2df4249c4361` · printing: ME4 #179 (2011-01-10) · [rulings](https://api.scryfall.com/cards/55540bd5-e0aa-40aa-8b98-2dfb4762b498/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amulet of Quoz
@@ -949,6 +1075,7 @@
 - **Flavor text** (M19 printing):
   > *Whether it is magical, lucky, or merely old, it is cherished, and that gives it power.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17066 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/226/amulet-of-safekeeping) · oracle_id `98709d61-4da4-4d3a-a654-bb2a7a0edb6b` · printing: M19 #226 (2018-07-13) · [rulings](https://api.scryfall.com/cards/d45ac8dc-281f-4257-9658-80af65a0295b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amulet of Unmaking
@@ -961,7 +1088,9 @@
   > *Trade to trade, not to keep.*
   > *—Suq'Ata motto*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29386 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/mir/293/amulet-of-unmaking) · oracle_id `945d5351-ce7d-488c-bc63-269ad82b74cb` · printing: MIR #293 (1996-10-08) · [rulings](https://api.scryfall.com/cards/fdbd94c8-611c-4b20-99ca-dd2d7661d644/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — If you cast this as normal during your main phase, it will enter the battlefield and you’ll receive priority. If no abilities trigger because of this, you can activate its ability immediately, before any other player has a chance to remove it from the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mir/293/amulet-of-unmaking) · oracle_id `945d5351-ce7d-488c-bc63-269ad82b74cb` · printing: MIR #293 (1996-10-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amulet of Vigor
 
@@ -989,7 +1118,21 @@
   > Doctor's companion (You can have two commanders if the other is the Doctor.)
 - **Keywords:** Partner with, Partner, Doctor's companion
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13766 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner, Partner with, Doctor's companion
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/75/amy-pond) · oracle_id `aa7d3e99-fc14-4f62-bf00-c0428c11e4f2` · printing: WHO #75 (2023-10-13) · [rulings](https://api.scryfall.com/cards/e50a2faa-91e3-4e89-ba8d-2cbf7ac005c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2023-10-13* — "Partner with [name]" represents two abilities. The first is a triggered ability: "When this permanent enters the battlefield, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle."
+  - *2023-10-13* — A suspended card is a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2023-10-13* — Although Doctor's companion is a new variant of the partner ability, the rules for partner have not otherwise changed. Notably, Time Lord Doctors and cards with Doctor's companion do not interact with cards which have another partner ability.
+  - *2023-10-13* — Amy Pond has two different partner abilities, but you can't have Amy, Rory, and the Doctor as your commanders at the same time. Amy must choose one of the two. Even if your other commander is one of the Doctor cards, however, the "Partner with Rory Williams" ability can still search for Rory in a library.
+  - *2023-10-13* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2023-10-13* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2023-10-13* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2023-10-13* — If you remove the last time counter from a suspended card this way, you will cast that card.
+  - *2023-10-13* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders' combined color identities.
+  - *2023-10-13* — Note that the target player searches their library (which may be affected by effects such as that of Stranglehold) and that the card they find is revealed, even though these words aren't included in the ability's reminder text.
+  - *2023-10-13* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined.
+  - *2023-10-13* — The Doctor's companion ability allows you to have two commanders if one has the ability and the other is a legendary creature that is a Time Lord Doctor and has no other creature types. Creatures with the changeling ability, for example, can't be a second commander this way.
+  - *2023-10-13* — The second ability represented by the "partner with [name]" keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with "partner with [name]" is designated as your commander, the named legendary creature card can also be designated as your commander.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/75/amy-pond) · oracle_id `aa7d3e99-fc14-4f62-bf00-c0428c11e4f2` · printing: WHO #75 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amy Rose
 

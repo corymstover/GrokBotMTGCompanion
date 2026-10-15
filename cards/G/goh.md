@@ -21,6 +21,7 @@
   > This creature gets -2/-2 as long as black is the most common color among all permanents or is tied for most common.
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32218 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/107/goham-djinn) · oracle_id `e9db02fb-78e2-44b3-9e1b-ef0148234337` · printing: INV #107 (2000-10-02) · [rulings](https://api.scryfall.com/cards/d67796c7-4d93-4c50-8839-bb69e075bc42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gohn, Town of Ruin

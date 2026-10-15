@@ -20,4 +20,5 @@
   > {2}{R}, Sacrifice a Samurai: Samurai creatures you control gain double strike until end of turn.
 - **Keywords:** Bushido
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22039 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/104/iizuka-the-ruthless) · oracle_id `4f40d66a-1fd8-4b06-b6cb-9cbcf33bc041` · printing: SOK #104 (2005-06-03) · [rulings](https://api.scryfall.com/cards/9ce461f7-385d-4379-83de-49571247c30d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

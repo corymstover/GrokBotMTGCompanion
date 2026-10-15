@@ -52,7 +52,10 @@
 - **Flavor text** (M12 printing):
   > *There are few things as satisfying as a good, healthy thunk.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24727 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m12/5/arbalest-elite) · oracle_id `1d79b7a8-2b4c-4893-afdb-879c74957288` · printing: M12 #5 (2011-07-15) · [rulings](https://api.scryfall.com/cards/094c839e-0aea-4754-af37-edf6292623e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-09-22* — If another player controls Arbalest Elite during your next untap step, the part of the effect that keeps it from untapping does nothing. It won't try to apply during a future untap step.
+  - *2011-09-22* — If the creature is an illegal target when Arbalest Elite's ability tries to resolve, the ability won't resolve and none of its effects will happen. Arbalest Elite will untap during its controller's next untap step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m12/5/arbalest-elite) · oracle_id `1d79b7a8-2b4c-4893-afdb-879c74957288` · printing: M12 #5 (2011-07-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arbalest Engineers
 
@@ -65,7 +68,11 @@
   > • Put a +1/+1 counter on target creature. It gains trample and haste until end of turn.
   > • Create a tapped Powerstone token. (It's an artifact with "{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.")
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23327 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/206/arbalest-engineers) · oracle_id `06bea0b2-1d0f-4d64-a13e-723d08042e83` · printing: BRO #206 (2022-11-18) · [rulings](https://api.scryfall.com/cards/df343bf9-f535-42c7-a2d0-8adfd068b354/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-10-14* — Although all the cards in The Brothers' War that create Powerstone tokens create a tapped Powerstone token, entering the battlefield tapped isn't part of the token's definition. Notably, if you create a token that is a copy of a Powerstone token, the token copy won't enter the battlefield tapped.
+  - *2022-10-14* — Powerstone tokens are a kind of predefined token. Each one has the artifact subtype "Powerstone" and the ability "{T}: Add {C}. This mana can't be spent to cast a nonartifact spell."
+  - *2022-10-14* — You can use the {C} added by a Powerstone token on anything that isn't a nonartifact spell. This includes paying costs to activate abilities of both artifact and nonartifact permanents, paying ward costs, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/206/arbalest-engineers) · oracle_id `06bea0b2-1d0f-4d64-a13e-723d08042e83` · printing: BRO #206 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arbiter of Knollridge
 
@@ -79,7 +86,11 @@
   > *Though giants are mortal, they live so long and on such a grand scale that many small folk don't believe they ever truly die.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13955 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/17/arbiter-of-knollridge) · oracle_id `62705a41-7c4d-4e6c-85b0-36a9d27ab5ae` · printing: CM2 #17 (2018-06-08) · [rulings](https://api.scryfall.com/cards/1fc2e7c4-5dbe-49f4-8c3f-192e7544df74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2007-10-01* — Abilities that trigger when a player gains life may trigger as a result of this ability.
+  - *2007-10-01* — In other multiplayer formats, each player's life total is set to the highest life total within their range of influence. These changes happen at the same time. For example, if each player has a range of influence of one, and the players in the game are Alice (4 life), Barry (8 life), Carrie (11 life), and Doug (7 life), in that order, then Alice's life total will become 8 and Barry and Doug's life totals will each become 11.
+  - *2010-06-15* — In a Two-Headed Giant game, each team chooses one person on that team to gain the appropriate amount of life. This basically means that the triggered ability will set the life total of each team to that of the team with the highest life total.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/17/arbiter-of-knollridge) · oracle_id `62705a41-7c4d-4e6c-85b0-36a9d27ab5ae` · printing: CM2 #17 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arbiter of the Ideal
 
@@ -91,7 +102,15 @@
   > Inspired — Whenever this creature becomes untapped, reveal the top card of your library. If it's an artifact, creature, or land card, you may put it onto the battlefield with a manifestation counter on it. That permanent is an enchantment in addition to its other types.
 - **Keywords:** Flying, Inspired
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13178 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bng/31/arbiter-of-the-ideal) · oracle_id `a6cefecd-459e-439a-a62c-689c2919b689` · printing: BNG #31 (2014-02-07) · [rulings](https://api.scryfall.com/cards/32e58ba3-4202-4f91-b27f-7528d27c1d5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2014-02-01* — If an inspired ability triggers during your untap step, the ability will be put on the stack at the beginning of your upkeep. If the ability creates one or more token creatures, those creatures won’t be able to attack that turn (unless they gain haste).
+  - *2014-02-01* — If the inspired ability includes an optional cost, you decide whether to pay that cost as the ability resolves. You can do this even if the creature leaves the battlefield in response to the ability.
+  - *2014-02-01* — If you choose to not put the card onto the battlefield, or if the card isn’t one of the listed types, it will remain on top of your library. (Note that revealing the card is not optional.)
+  - *2014-02-01* — Inspired abilities don’t trigger when the creature enters the battlefield.
+  - *2014-02-01* — Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability.
+  - *2014-02-01* — The manifestation counter is a memory aid only. The permanent will continue to be an enchantment in addition to its other types even if that counter is removed.
+  - *2014-02-01* — The permanent will be an enchantment as it enters the battlefield and will cause constellation abilities of permanents you control to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bng/31/arbiter-of-the-ideal) · oracle_id `a6cefecd-459e-439a-a62c-689c2919b689` · printing: BNG #31 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arbiter of Woe
 
@@ -104,6 +123,7 @@
   > When this creature enters, each opponent discards a card and loses 2 life. You draw a card and gain 2 life.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9957 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/55/arbiter-of-woe) · oracle_id `540693f3-985c-4a4a-945c-c957c5aad395` · printing: FDN #55 (2024-11-15) · [rulings](https://api.scryfall.com/cards/b2496c4a-df03-4583-bd76-f98ed5cb61ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arbor Adherent
@@ -132,6 +152,7 @@
   > *To unleash an autumn of steel leaves."*
   > *—"Song of Freyalise"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17833 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/376/arbor-armament) · oracle_id `504f21e8-82ac-4433-b5e9-640989480f58` · printing: JMP #376 (2020-07-17) · [rulings](https://api.scryfall.com/cards/71c10923-a5b3-4b50-ae51-59982e05963a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arborback Stomper
@@ -146,6 +167,7 @@
   > *The power of aether draws creatures to it like a magnetic force, and those that are touched by it are forever altered.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21850 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/142/arborback-stomper) · oracle_id `a3f35e0f-bf7a-42bf-b612-ac3af3a33727` · printing: KLD #142 (2016-09-30) · [rulings](https://api.scryfall.com/cards/788b9d55-6679-4fcc-a3af-11d31e477421/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arbor Colossus
@@ -159,7 +181,11 @@
   > When this creature becomes monstrous, destroy target creature with flying an opponent controls.
 - **Keywords:** Reach, Monstrosity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20395 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c15/174/arbor-colossus) · oracle_id `bec585af-0c59-46a7-838f-d747c80a9e97` · printing: C15 #174 (2015-11-13) · [rulings](https://api.scryfall.com/cards/87a12eac-c104-4a91-a9d3-ccc450d5114c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-09-15* — An ability that triggers when a creature becomes monstrous won't trigger if that creature isn't on the battlefield when its monstrosity ability resolves.
+  - *2013-09-15* — Monstrous isn't an ability that a creature has. It's just something true about that creature. If the creature stops being a creature or loses its abilities, it will continue to be monstrous.
+  - *2013-09-15* — Once a creature becomes monstrous, it can't become monstrous again. If the creature is already monstrous when the monstrosity ability resolves, nothing happens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c15/174/arbor-colossus) · oracle_id `bec585af-0c59-46a7-838f-d747c80a9e97` · printing: C15 #174 (2015-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arboreal Alliance
 
@@ -174,7 +200,16 @@
   > *—\*Long List of the Ents\**
 - **Keywords:** Populate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12540 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/497/arboreal-alliance) · oracle_id `2f497352-c812-48c4-a922-cc311bcdcdc6` · printing: LTC #497 (2023-11-03) · [rulings](https://api.scryfall.com/cards/107f9fbf-4111-41a8-8e5d-9889fa2e3047/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-11-03* — Arboreal Alliance's last ability triggers whenever you attack with at least one Elf. You populate exactly once as it resolves, no matter how many Elves you attacked with.
+  - *2023-11-03* — If Arboreal Alliance enters the battlefield without being cast, or if you cast it with X equal to 0, you'll create a 0/0 green Treefolk creature token. Unless something else is raising its toughness, it will immediately die.
+  - *2024-01-12* — Any enters-the-battlefield abilities of the copied token will trigger when the new token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the copied token will also work.
+  - *2024-01-12* — If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
+  - *2024-01-12* — If you control no creature tokens when you populate, nothing will happen.
+  - *2024-01-12* — Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control.
+  - *2024-01-12* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
+  - *2024-01-12* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/497/arboreal-alliance) · oracle_id `2f497352-c812-48c4-a922-cc311bcdcdc6` · printing: LTC #497 (2023-11-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arboreal Grazer
 
@@ -205,6 +240,7 @@
   > *The noble steeds of the elven gods can sometimes be persuaded to allow mere mortals on their backs.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21243 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/2/arborea-pegasus) · oracle_id `9a17452d-3adb-42ec-99f8-0083740cefa0` · printing: AFR #2 (2021-07-23) · [rulings](https://api.scryfall.com/cards/fc45c9d4-ecc7-4a9d-9efe-f4b7d697dd97/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arbor Elf
@@ -228,7 +264,14 @@
   > Hexproof (This creature can't be the target of spells or abilities your opponents control.)
 - **Keywords:** Hexproof, Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22968 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/122/arboretum-elemental) · oracle_id `1708d60d-30af-4184-bc95-2f7a7aed4a6e` · printing: GRN #122 (2018-10-05) · [rulings](https://api.scryfall.com/cards/6f4400bf-134b-4011-985d-eed4e5ba1de8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/122/arboretum-elemental) · oracle_id `1708d60d-30af-4184-bc95-2f7a7aed4a6e` · printing: GRN #122 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arboria
 
@@ -239,4 +282,9 @@
 - **Flavor text** (DMR printing):
   > *As the world steeled itself for the New Phyrexian invasion, the heart of the Pinelands awoke, and a new maro-sorcerer strode forth to join the fight.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18301 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/149/arboria) · oracle_id `acb3e93c-a1d3-458f-b8c3-c426cd359fa4` · printing: DMR #149 (2023-01-13) · [rulings](https://api.scryfall.com/cards/b18f4de2-adfe-4784-bd57-9e2ad9088825/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-12-08* — Arboria doesn’t stop creatures from attacking planeswalkers, regardless of what their controllers did or didn’t do during their last turns.
+  - *2022-12-08* — Arboria’s effect cares about the actions taken by players, not their results. If a player cast a spell during their last turn but that spell was countered, that player may still be attacked. The same is true if a player put a nontoken permanent onto the battlefield during their last turn, but that permanent left the battlefield before their turn ended.
+  - *2022-12-08* — Arboria’s effect cares whether a player put a nontoken permanent onto the battlefield. It’s unusual for an ability to care who put a permanent onto the battlefield, as opposed to under whose control it entered.
+  - *2022-12-08* — If two or more permanents have the world supertype, all of them are put into their owners’ graveyards except the one that has had the world supertype for the shortest amount of time. If there’s a tie for the shortest amount of time, all world permanents are put into the graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/149/arboria) · oracle_id `acb3e93c-a1d3-458f-b8c3-c426cd359fa4` · printing: DMR #149 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

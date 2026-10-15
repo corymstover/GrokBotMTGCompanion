@@ -20,4 +20,10 @@
   > *When a god's will is against you, the day never ends well.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23355 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/64/stymied-hopes) · oracle_id `b081726f-0ed6-4ab0-833e-f510ac6fbeaa` · printing: THS #64 (2013-09-27) · [rulings](https://api.scryfall.com/cards/5702b757-5be5-4a48-bc73-a87ec4f3193b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2013-09-15* — If Stymied Hopes resolves, you'll scry whether the controller of the target spell pays {1} or not.
+  - *2013-09-15* — Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
+  - *2013-09-15* — When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
+  - *2013-09-15* — You choose how to order cards returned to your library after scrying no matter where you put them.
+  - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/64/stymied-hopes) · oracle_id `b081726f-0ed6-4ab0-833e-f510ac6fbeaa` · printing: THS #64 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

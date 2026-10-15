@@ -85,6 +85,7 @@
 - **Flavor text** (WOE printing):
   > *With every retelling of Agatha's demise, Kellan got taller and Ruby got stronger. But the core story stayed the same, and people remembered what happens to those who prey on the weak.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15234 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/34/a-tale-for-the-ages) · oracle_id `682a0770-8fe0-4142-aa0c-b60af3628a33` · printing: WOE #34 (2023-09-08) · [rulings](https://api.scryfall.com/cards/ca0c8d3b-ce30-4da5-a6a8-9bdcb3c757f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atalya, Samite Master
@@ -99,7 +100,10 @@
 - **Flavor text** (INV printing):
   > *"Healing is a gift the divine ones have shared with us. It is a sacred trust."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24545 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/inv/4/atalya-samite-master) · oracle_id `84587724-af96-4396-a0b3-1133d492d915` · printing: INV #4 (2000-10-02) · [rulings](https://api.scryfall.com/cards/90500e7a-f76d-453a-bda0-d56d3f7c7534/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Cost modifiers which add a cost are not restricted to only white mana.
+  - *2004-10-04* — Spending only white mana applies to the ability regardless of which mode you choose.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inv/4/atalya-samite-master) · oracle_id `84587724-af96-4396-a0b3-1133d492d915` · printing: INV #4 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atarka Beastbreaker
 
@@ -112,7 +116,11 @@
   > *He scorns the heavy winter garb of lesser warriors, trusting his anger to keep him warm.*
 - **Keywords:** Formidable
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29853 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/174/atarka-beastbreaker) · oracle_id `fdd4ef61-607a-4090-9380-dabbbb448519` · printing: DTK #174 (2015-03-27) · [rulings](https://api.scryfall.com/cards/c8ef9a03-3044-4e90-9409-c330972fcafb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-02-25* — If you control a creature with power less than 0, use its actual power when calculating the total power of creatures you control. For example, if you control three creatures with powers 4, 5, and -2, the total power of creatures you control is 7.
+  - *2015-02-25* — Other formidable abilities are triggered abilities with an "intervening 'if'" clause. Such abilities check the total power of creatures you control twice: once at the appropriate time to see if the ability will trigger, and again as the ability tries to resolve. If, at that time, the total power of creatures you control is no longer 8 or greater, the ability will have no effect.
+  - *2015-02-25* — Some formidable abilities are activated abilities that require creatures you control to have total power 8 or greater. Once you activate these abilities, it doesn't matter what happens to the total power of creatures you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/174/atarka-beastbreaker) · oracle_id `fdd4ef61-607a-4090-9380-dabbbb448519` · printing: DTK #174 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atarka Efreet
 
@@ -124,7 +132,11 @@
   > When this creature is turned face up, it deals 1 damage to any target.
 - **Keywords:** Megamorph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29068 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/128/atarka-efreet) · oracle_id `177c1f2d-abb9-40ea-afe4-141b08fdeabb` · printing: DTK #128 (2015-03-27) · [rulings](https://api.scryfall.com/cards/b192067c-7cdb-4d3c-95b7-819733e44678/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-02-25* — If a face-down creature with megamorph is turned face up some other way (for example, if you manifest a card with megamorph and then pay its mana cost to turn it face up), you won’t put a +1/+1 counter on it.
+  - *2015-02-25* — Megamorph is a variant of the morph ability. You can find more information on morph on cards with morph from the Khans of Tarkir set.
+  - *2015-02-25* — Turning a face-down creature with megamorph face up and putting a +1/+1 counter on it is a special action. It doesn’t use the stack and can’t be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/128/atarka-efreet) · oracle_id `177c1f2d-abb9-40ea-afe4-141b08fdeabb` · printing: DTK #128 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atarka Monument
 
@@ -136,7 +148,12 @@
 - **Flavor text** (DTK printing):
   > *Atarka is worshipped and fed by her subjects at Ayagor, the Dragon's Bowl.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15341 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/235/atarka-monument) · oracle_id `eb287c04-97f5-4e47-beb1-66cc7d15e748` · printing: DTK #235 (2015-03-27) · [rulings](https://api.scryfall.com/cards/63d52217-a340-4567-9b07-28092a7dc561/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2015-02-25* — A Monument can't attack on the turn it enters the battlefield.
+  - *2015-02-25* — Activating the last ability of a Monument while it's already a creature will override any effects that set its power or toughness to a specific value. Effects that modify power or toughness without directly setting them to a specific value will continue to apply.
+  - *2015-02-25* — Each Monument is colorless, although the last ability will make each of them two colors until end of turn.
+  - *2015-02-25* — If a Monument has any +1/+1 counters on it, those counters will remain on the permanent after it stops being a creature. Those counters will have no effect as long as the Monument isn't a creature, but they will apply again if the Monument later becomes a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/235/atarka-monument) · oracle_id `eb287c04-97f5-4e47-beb1-66cc7d15e748` · printing: DTK #235 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atarka Pummeler
 
@@ -147,7 +164,12 @@
   > Formidable — {3}{R}{R}: Creatures you control gain menace until end of turn. Activate only if creatures you control have total power 8 or greater. (They can't be blocked except by two or more creatures.)
 - **Keywords:** Formidable
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26906 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/129/atarka-pummeler) · oracle_id `4b2831f5-70e3-4f4f-8393-4cd141c9da34` · printing: DTK #129 (2015-03-27) · [rulings](https://api.scryfall.com/cards/d55f2528-f37f-46b9-b95f-4d142f656723/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2015-02-25* — Activating Atarka Pummeler’s ability more than once conveys no additional benefit to creatures you control.
+  - *2015-02-25* — If you control a creature with power less than 0, use its actual power when calculating the total power of creatures you control. For example, if you control three creatures with powers 4, 5, and -2, the total power of creatures you control is 7.
+  - *2015-02-25* — Other formidable abilities are triggered abilities with an “intervening ‘if’” clause. Such abilities check the total power of creatures you control twice: once at the appropriate time to see if the ability will trigger, and again as the ability tries to resolve. If, at that time, the total power of creatures you control is no longer 8 or greater, the ability will have no effect.
+  - *2015-02-25* — Some formidable abilities are activated abilities that require creatures you control to have total power 8 or greater. Once you activate these abilities, it doesn’t matter what happens to the total power of creatures you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/129/atarka-pummeler) · oracle_id `4b2831f5-70e3-4f4f-8393-4cd141c9da34` · printing: DTK #129 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atarka's Command
 
@@ -214,6 +236,7 @@
   > Replicate {2}{G} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copy.)
 - **Keywords:** Investigate, Replicate, Regenerate, Proliferate, Populate
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UG03a/ate-o-clock) · oracle_id `41236699-13c5-4d51-9265-2d24303bcc95` · printing: UNK #UG03a (2024-02-24) · [rulings](https://api.scryfall.com/cards/6fff23dd-03a3-48a7-b0ab-18eb98404713/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Athreos, God of Passage
@@ -294,6 +317,7 @@
 - **Flavor text** (UNH printing):
   > *Isthay iecepay ofay avorflay exttay oesn'tday eallyray aysay anythingay.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/1/atinlay-igpay) · oracle_id `17520d37-111a-4708-9934-feb20f3d7199` · printing: UNH #1 (2004-11-19) · [rulings](https://api.scryfall.com/cards/3d0076e3-e538-4f4f-87fb-467851a8d8dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### At Knifepoint
@@ -329,6 +353,7 @@
   > *—Namor the Sub-Mariner*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19835 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/45/atlantean-cavalry) · oracle_id `e929b730-9aa2-49e1-9a65-50afc0fbe3e0` · printing: MSH #45 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1319bf54-8705-4cc4-8d08-40f05fd09837/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atlantean Skirmisher
@@ -342,6 +367,7 @@
   > *"Take away your air, and you're nothing but food for the crabs."*
 - **Keywords:** Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24390 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/616/atlantean-skirmisher) · oracle_id `8f1c21d6-bf85-4e31-a978-6423c40650d2` · printing: MSC #616 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c95ad4af-bb71-4ca2-bcc0-2c27c3b9ecc3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atlantis Attacks
@@ -355,6 +381,7 @@
   > • Return one or two target nonland permanents to their owners' hands.
 - **Keywords:** Teamwork
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23016 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/46/atlantis-attacks) · oracle_id `b5c8e24a-f4d7-42dc-8117-905ad0bad888` · printing: MSH #46 (2026-06-26) · [rulings](https://api.scryfall.com/cards/40bc4380-055d-4913-93cb-280c9c1d1a87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atla Palani, Nest Tender
@@ -383,6 +410,7 @@
   > *"I wish you guys would fire your weapons a little down and to the left. I've got an itch under my ribs like you wouldn't believe!"*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29110 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/566/atlas-sizable-stooge) · oracle_id `efd5f51f-931d-46a9-9773-f74cfc318c23` · printing: MSC #566 (2026-06-26) · [rulings](https://api.scryfall.com/cards/36ab3eff-348c-480a-a964-88d118b099c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### At Least It's a Dry Heat
@@ -392,6 +420,7 @@
 - **Oracle text:**
   > At Least It's a Dry Heat deals 1,000,000 damage to target creature. This damage can't be prevented, redirected, cause damage to be dealt to a player (sorry, Stuffy Doll), or be compared to damage dealt by sources on the east coast.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR04c/at-least-its-a-dry-heat) · oracle_id `1a7f2440-d262-457c-a68d-40ea2c06ab5a` · printing: UNK #RR04c (2024-10-25) · [rulings](https://api.scryfall.com/cards/795d0a56-d0d3-4b68-9f1f-c706067e9de3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atmosphere Surgeon
@@ -405,6 +434,7 @@
 - **Flavor text** (ONE printing):
   > *It is Jin-Gitaxias's deepest exasperation that any part of his domain still requires maintenance.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19925 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/41/atmosphere-surgeon) · oracle_id `af22ed78-7054-4f5c-84ab-2a274c3d47fb` · printing: ONE #41 (2023-02-10) · [rulings](https://api.scryfall.com/cards/c66988ca-29d5-45ea-8d68-c8e0e4c3ffb1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atmospheric Greenhouse
@@ -418,7 +448,21 @@
   > 8+ | Flying, trample
 - **Keywords:** Station
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12753 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/171/atmospheric-greenhouse) · oracle_id `52c6afc6-aff1-46a8-b1ea-b183facec1ae` · printing: EOE #171 (2025-08-01) · [rulings](https://api.scryfall.com/cards/bf05e378-7a0c-49e3-8c6e-c0fd56796434/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2025-07-25* — A station card is a card with the station keyword ability. The station keyword means “Tap another untapped creature you control: Put a number of charge counters on this permanent equal to the tapped creature’s power. Activate only as a sorcery.”
+  - *2025-07-25* — Each station card has one or more striations in its text box. Each striation is preceded by a station symbol—a circle surrounding a number and a plus sign.
+  - *2025-07-25* — Each station symbol represents an ability. A station symbol means “As long as this permanent has N or more charge counters on it, it has [abilities],” where N is the number inside the symbol and [abilities] are all the abilities found inside the same striation as that symbol.
+  - *2025-07-25* — Even if a permanent with station has equal or greater charge counters than the number in its last station symbol, you can still activate its station ability. Adding more charge counters won’t give it additional abilities, but other effects or cards might make those extra counters relevant.
+  - *2025-07-25* — If a permanent with station becomes a creature, it will be able to attack if it’s been under your control continuously since the turn began. That is, it doesn’t matter how long it’s been a creature, just how long it’s been on the battlefield.
+  - *2025-07-25* — If a station card has a power and toughness box printed in one of the striations in its text box, it’s not a creature unless it has the appropriate number of charge counters on it. That card also doesn’t have that power and toughness in any zone other than the battlefield.
+  - *2025-07-25* — If an effect causes a permanent with station to become a creature by some means other than having the appropriate number of charge counters on it, it won’t use any power and toughness values printed in its text box. Instead, it will use whatever base power and toughness was set by the effect that made it a creature.
+  - *2025-07-25* — If another permanent becomes a copy of a permanent represented by a station card, all of its printed abilities, including the ones represented by station symbols, are copied. Its current characteristics and the number of charge counters on it are not copied. The abilities (and in some cases, types, power, and toughness) are determined based on the number of charge counters on the copy.
+  - *2025-07-25* — If that station symbol is in the same striation as a power and toughness box, it instead means “As long as this permanent has N or more charge counters on it, it has [abilities] and is a creature with base power and toughness [P/T] in addition to its other types.”
+  - *2025-07-25* — If the tapped creature has negative power, no charge counters are put onto or removed from the permanent with station.
+  - *2025-07-25* — Spacecraft is an artifact type with no special meaning. It doesn’t grant the artifact any intrinsic abilities. Other cards may care about which artifacts are Spacecraft.
+  - *2025-07-25* — The abilities of a permanent with station are based on the number of charge counters it has. This means that if a permanent with station gets charge counters due to some other effect (such as proliferate) or loses charge counters somehow, its abilities change accordingly. The same is true for determining whether or not that permanent is a creature.
+  - *2025-07-25* — Use the tapped creature’s power as the station ability resolves to determine how many charge counters to put on the permanent with station. If that creature isn’t on the battlefield at that time, use its power as it last existed on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/171/atmospheric-greenhouse) · oracle_id `52c6afc6-aff1-46a8-b1ea-b183facec1ae` · printing: EOE #171 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atog
 
@@ -428,6 +472,7 @@
 - **Oracle text:**
   > Sacrifice an artifact: This creature gets +2/+2 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15002 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/109/atog) · oracle_id `3095f2cf-05c3-4381-929f-c526b6fc30a7` · printing: ME4 #109 (2011-01-10) · [rulings](https://api.scryfall.com/cards/adf3bd18-d9c1-4f18-86c0-579db8ea37c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atogatog
@@ -440,6 +485,7 @@
 - **Flavor text** (ODY printing):
   > *It relishes old-fashioned family meals.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19516 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/286/atogatog) · oracle_id `b9fdb740-e5d7-4464-b378-2e0514ca28d8` · printing: ODY #286 (2001-10-01) · [rulings](https://api.scryfall.com/cards/4a3e6eb5-6d0f-4f82-86f9-bbce8d27afbb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atomic Microsizer
@@ -454,7 +500,9 @@
   > *When packing for a stealth mission, it's important to fold your dimensions tightly.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15844 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/47/atomic-microsizer) · oracle_id `048c3b0b-48ef-42f5-a2af-90aa1d133296` · printing: EOE #47 (2025-08-01) · [rulings](https://api.scryfall.com/cards/3554f0c7-ea73-43e9-a061-bbb8ef6abce1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-07-25* — The effect of Atomic Microsizer’s second ability will overwrite any previous effects that set the creature’s power and toughness to specific values. Effects that otherwise modify the target creature’s power and toughness will still apply no matter when they took effect. The same is true for +1/+1 counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/47/atomic-microsizer) · oracle_id `048c3b0b-48ef-42f5-a2af-90aa1d133296` · printing: EOE #47 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atomize
 
@@ -486,7 +534,15 @@
   > *"If the acrobatic show doesn't wow the audience, we have no one to blame but our elves."*
   > *—Myra the Magnificent*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18332 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/130/atomwheel-acrobats) · oracle_id `0e9551ef-8aee-46ed-b21f-162c64213437` · printing: UNF #130 (2022-10-07) · [rulings](https://api.scryfall.com/cards/d13cc109-0f43-4957-a4a8-6313b851edae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-10-07* — Each die is identified by the number of faces it has. A six-sided die is a die with six equally likely outcomes: 1, 2, 3, 4, 5, and 6. The roll must be fair. Although physical dice are recommended, digital substitutes are allowed except in cases where the physical die is required for the effect.
+  - *2022-10-07* — If a die is rerolled, the original roll essentially never happened: it doesn't cause any abilities to trigger, and no effect that cares about die rolls will consider it.
+  - *2022-10-07* — If an ability triggers "whenever you roll a die," it will trigger whenever you roll any die, including the planar die. This is a change from previous Un- rules. Some abilities use the result to determine part of the effect. If you get a non-numerical result (currently just the planar die, but the future is long), that part of the effect won't do anything.
+  - *2022-10-07* — Results can be numbers not ordinarily possible on a six-sided die. Spells like Scooch can change the result to 0 or 7, for example.
+  - *2022-10-07* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die, or it may come from other cards. Anything that references the "result" of a die roll is looking for the result after these modifications.
+  - *2022-10-07* — Something in the game must tell you to roll a die. If you roll a die for any other reason (to simulate a coin flip, to choose pizza toppings, to create alternate timelines), that roll doesn't count.
+  - *2022-10-07* — The die roll caused by the activated ability has no inherent effect: you just roll a six-sided die, but any ability that triggers whenever you roll a die will trigger. Abilities that trigger whenever you roll a specific result, such as Atomwheel Acrobats' first ability, may also trigger. 
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/130/atomwheel-acrobats) · oracle_id `0e9551ef-8aee-46ed-b21f-162c64213437` · printing: UNF #130 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### A-Town
 
@@ -495,6 +551,7 @@
 - **Oracle text:**
   > {T}: Add {C}. If you're in a city that starts with an A, instead add one mana of any color.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RL01e/a-town) · oracle_id `cb31edcd-2811-4e4b-abd6-1c8b655afe98` · printing: UNK #RL01e (2025-09-26) · [rulings](https://api.scryfall.com/cards/d58d578c-a204-431b-bb00-568c2afff4f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atraxa, Grand Unifier
@@ -553,7 +610,10 @@
   > This creature enters with three oil counters on it.
   > At the beginning of combat on your turn, you may remove an oil counter from this creature. When you do, target creature you control gains your choice of flying, vigilance, deathtouch, or lifelink until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10867 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/223/atraxas-skitterfang) · oracle_id `8255b408-cc8c-453f-982c-f361b5559cec` · printing: ONE #223 (2023-02-10) · [rulings](https://api.scryfall.com/cards/cdedebad-f71e-4434-871e-5bbbd3c07a12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-02-04* — You choose which ability the target creature gets as the reflexive ability resolves. Players may not wait to see what ability you choose before deciding whether to respond to it.
+  - *2023-02-04* — You don't choose a target for Atraxa's Skitterfang's last ability at the time it triggers. Rather, a second "reflexive" ability triggers when you remove an oil counter this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/223/atraxas-skitterfang) · oracle_id `8255b408-cc8c-453f-982c-f361b5559cec` · printing: ONE #223 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atraxi Warden
 
@@ -566,7 +626,21 @@
   > Suspend 5—{1}{W} (Rather than cast this card from your hand, you may pay {1}{W} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.)
 - **Keywords:** Flying, Suspend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15646 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/12/atraxi-warden) · oracle_id `5f31a2d6-649a-40f4-89ce-95c635340e9e` · printing: WHO #12 (2023-10-13) · [rulings](https://api.scryfall.com/cards/03868f8d-1f1b-4892-abb0-be2b00fc2ba7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/12/atraxi-warden) · oracle_id `5f31a2d6-649a-40f4-89ce-95c635340e9e` · printing: WHO #12 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atreus, Impulsive Son
 
@@ -592,7 +666,11 @@
   > When Atris enters, target opponent looks at the top three cards of your library and separates them into a face-down pile and a face-up pile. Put one pile into your hand and the other into your graveyard.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12578 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/209/atris-oracle-of-half-truths) · oracle_id `8b2b00ab-f1c5-4057-9957-d7daac95a847` · printing: THB #209 (2020-01-24) · [rulings](https://api.scryfall.com/cards/db6c91ec-df14-460f-967c-f182562fe7d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-01-24* — The opponent may split the cards into one pile of three and one pile of zero. The pile of three cards could be the face-up pile or the face-down pile. Sometimes your opponents seem very friendly, but keep in mind which god Atris serves.
+  - *2020-01-24* — You choose just one target opponent to look at the top three cards of your library and put them into piles. Other players can't look, but they may attempt to offer advice without knowing what cards are there. The player who looks may also tell other players truths about those cards, or half-truths, or outright lies.
+  - *2020-01-24* — You don't have to reveal the cards in the face-down pile if you put it into your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/209/atris-oracle-of-half-truths) · oracle_id `8b2b00ab-f1c5-4057-9957-d7daac95a847` · printing: THB #209 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atrocious Experiment
 
@@ -604,6 +682,7 @@
   > *There is no line Jon Irenicus would not cross to regain his lost immortality.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10037 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/115/atrocious-experiment) · oracle_id `9f1c5040-ac46-4e8f-a5ff-8205e13a8893` · printing: CLB #115 (2022-06-10) · [rulings](https://api.scryfall.com/cards/e6098b4a-a92f-4477-8122-5913ac9247f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atsushi, the Blazing Sky
@@ -631,6 +710,7 @@
 - **Flavor text** (DSK printing):
   > *Pop goes the evil.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18832 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/242/attack-in-the-box) · oracle_id `f0fd78bb-cb83-4dfa-a910-0334d225f87c` · printing: DSK #242 (2024-09-27) · [rulings](https://api.scryfall.com/cards/a477dc3e-0fa1-4ce4-b3de-8cae0d1a0763/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Attempted Murder
@@ -663,7 +743,11 @@
 - **Flavor text** (GRN printing):
   > *When the Erstwhile were unearthed from their tombs, they became a ready-made army for Vraska.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28649 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/271/attendant-of-vraska) · oracle_id `9a639f82-24b6-4b54-8b9e-1fbc0f0094bf` · printing: GRN #271 (2018-10-05) · [rulings](https://api.scryfall.com/cards/7f4840f1-3db3-4ba6-b75b-bbd87251a3af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-10-05* — If Attendant of Vraska’s power was negative, you don’t lose or gain life.
+  - *2018-10-05* — If you don’t control a Vraska planeswalker as Attendant of Vraska’s triggered ability resolves, possibly because Vraska left the battlefield at the same time as Attendant of Vraska, you won’t gain life.
+  - *2018-10-05* — The amount of life gained is equal to Attendant of Vraska’s power as it last existed on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/271/attendant-of-vraska) · oracle_id `9a639f82-24b6-4b54-8b9e-1fbc0f0094bf` · printing: GRN #271 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Attended Healer
 
@@ -676,7 +760,14 @@
 - **Flavor text** (ZNR printing):
   > *"My cats have taught me more about the sacred than anything in some old ruin."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12879 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/6/attended-healer) · oracle_id `9442a18b-9093-4a10-ab61-6962f5af3bb6` · printing: ZNR #6 (2020-09-25) · [rulings](https://api.scryfall.com/cards/6ca80b5a-3943-41ca-8cd1-8e3db1b2a1c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-09-25* — An ability that triggers whenever you gain life “for the first time each turn” won’t trigger if you gain life during a turn before the permanent with that ability is on the battlefield, even if you gain life again later in the turn.
+  - *2020-09-25* — An ability that triggers “whenever you gain life” triggers just once for each life-gaining event, no matter how much life you gain.
+  - *2020-09-25* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, a “whenever you gain life” ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2020-09-25* — If you gain an amount of life “for each” of something, that life is gained as one event and the ability will trigger only once.
+  - *2020-09-25* — In a Two-Headed Giant game, life gained by your teammate won’t cause the ability to trigger, even though it caused your team’s life total to increase.
+  - *2020-09-25* — Multiple instances of lifelink on the same creature are redundant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/6/attended-healer) · oracle_id `9442a18b-9093-4a10-ab61-6962f5af3bb6` · printing: ZNR #6 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Attended Knight
 
@@ -690,6 +781,7 @@
   > *The virtues of knighthood are best taught in the field.*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18746 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm3/1/attended-knight) · oracle_id `b3eb8f65-5eba-42a9-a1b4-4f37b14d03d9` · printing: MM3 #1 (2017-03-17) · [rulings](https://api.scryfall.com/cards/eac22a3b-4536-4372-a854-bc7f0919830b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Attended Socialite
@@ -703,6 +795,7 @@
   > *"Say hello to my little friend."*
 - **Keywords:** Alliance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23950 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/133/attended-socialite) · oracle_id `5f7c6fa9-4208-4dc8-a75b-9586200d8e19` · printing: SNC #133 (2022-04-29) · [rulings](https://api.scryfall.com/cards/8bccccf9-3ee5-4485-ae01-4dcbad989d18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Attentive Skywarden
@@ -717,6 +810,7 @@
   > *The same sturdy kitesail that once carried her safely through the Roil now allows her to monitor the pods' progress from above.*
 - **Keywords:** Flying, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13753 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/7/attentive-skywarden) · oracle_id `896213bb-28a0-45a4-abbd-35af51f1d9aa` · printing: MOM #7 (2023-04-21) · [rulings](https://api.scryfall.com/cards/83d89bd5-95cc-41fc-aea2-2dde52231919/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Attentive Sunscribe
@@ -730,6 +824,7 @@
   > *Few humans are steady-handed enough to match a gnome's precision. Even the slightest change to a single line can wildly alter a glyph's meaning.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17645 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/4/attentive-sunscribe) · oracle_id `0f85714b-e731-45a3-aa65-8cd59cd48280` · printing: LCI #4 (2023-11-17) · [rulings](https://api.scryfall.com/cards/ad1a0159-7f00-429c-9318-b028b1e03ba8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Attercop
@@ -744,7 +839,11 @@
   > *Soon there came the sound of "Lazy Lob" and "Attercop" from among the trees away on the right. That upset the spiders greatly.*
 - **Keywords:** Reach, Deathtouch, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17011 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/116/attercop) · oracle_id `45d652c4-188e-4f00-acdd-1be014922cbc` · printing: HOB #116 (2026-08-14) · [rulings](https://api.scryfall.com/cards/81263d5d-e402-4813-9458-161112da27ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2026-06-29* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2026-06-29* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2026-06-29* — Whenever a land you control enters, each landfall ability of permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve (as a result, you can have those abilities resolve in the order of your choosing).
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/116/attercop) · oracle_id `45d652c4-188e-4f00-acdd-1be014922cbc` · printing: HOB #116 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Attrition
 
@@ -770,6 +869,7 @@
 - **Flavor text** (MSH printing):
   > *"All who swim the tides shall bow to my command!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11493 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/47/attuma-atlantean-warlord) · oracle_id `e3b70a85-4296-411f-a673-7992b0c8a9aa` · printing: MSH #47 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c3d5add1-0d0e-414b-a964-8da326472d35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Attuned Hunter
@@ -784,7 +884,9 @@
   > *"Sokran is no mere bear. She is friend, family, and confidante—and more intelligent than some of my blood relatives."*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20235 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/135/attuned-hunter) · oracle_id `f652c593-e8fa-42ff-a8b4-206556b273de` · printing: TDM #135 (2025-04-11) · [rulings](https://api.scryfall.com/cards/d1a4f502-86a9-49fb-9cb9-7918d13c5313/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-04-04* — If multiple cards leave your graveyard at the same time, Attuned Hunter’s last ability will trigger only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/135/attuned-hunter) · oracle_id `f652c593-e8fa-42ff-a8b4-206556b273de` · printing: TDM #135 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Attunement
 
@@ -796,7 +898,9 @@
   > *"The solution can hide for only so long."*
   > *—Urza*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15564 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/61/attunement) · oracle_id `5ea46ccf-5e36-4889-bf64-00d4f327e9b2` · printing: USG #61 (1998-10-12) · [rulings](https://api.scryfall.com/cards/f6723528-8b2c-4beb-a465-800300faf158/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — If you have less than 4 cards, discard all you have.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/61/attunement) · oracle_id `5ea46ccf-5e36-4889-bf64-00d4f327e9b2` · printing: USG #61 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Attune with Aether
 
@@ -831,7 +935,11 @@
   > *His arrows are fletched with feathers from the greatest of the winged dinosaurs.*
 - **Keywords:** Reach, Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21280 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/176/atzocan-archer) · oracle_id `aed10a6c-ef93-46a7-a5d7-c9cd2a4fd91a` · printing: XLN #176 (2017-09-29) · [rulings](https://api.scryfall.com/cards/3e214e0d-bd3d-467b-83fb-d8a232e166e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-09-29* — Atzocan Archer’s ability can target another creature you control (such as a Dinosaur with an enrage ability).
+  - *2017-09-29* — If Atzocan Archer isn’t on the battlefield as its triggered ability resolves, or if the target of that ability is illegal, no creature will deal or be dealt damage.
+  - *2017-09-29* — You must choose another target creature (if able) as Atzocan Archer’s triggered ability is put on the stack. You choose as that ability resolves whether those creatures fight.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/176/atzocan-archer) · oracle_id `aed10a6c-ef93-46a7-a5d7-c9cd2a4fd91a` · printing: XLN #176 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atzocan Seer
 

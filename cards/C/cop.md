@@ -37,6 +37,7 @@
   > *—Tae Aquil, Viridian weaponsmith*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26155 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/205/copper-carapace) · oracle_id `8ffbff60-a59d-4f71-864e-3c16cb61e43b` · printing: MM2 #205 (2015-05-22) · [rulings](https://api.scryfall.com/cards/24eb220b-3ff1-4396-87e3-7aaaa1098691/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coppercoat Vanguard
@@ -63,7 +64,10 @@
 - **Flavor text** (USG printing):
   > *Start with eleven gnomes and a room of parts, and come morning you'll have ten and a monster the likes of which you've never seen.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20088 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/291/copper-gnomes) · oracle_id `4fd6d9af-4d53-4e10-bc23-672454803099` · printing: USG #291 (1998-10-12) · [rulings](https://api.scryfall.com/cards/d5e326b7-6f6a-4249-a315-c5f017931c73/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — You choose the artifact card on resolution.
+  - *2007-05-01* — Putting the card onto the battlefield is optional. When the ability resolves, you can choose not to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/291/copper-gnomes) · oracle_id `4fd6d9af-4d53-4e10-bc23-672454803099` · printing: USG #291 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Copperhoof Vorrac
 
@@ -75,6 +79,7 @@
 - **Flavor text** (MRD printing):
   > *Like all forest beasts, it lives by one rule: if there's no room to grow, make some.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23489 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/116/copperhoof-vorrac) · oracle_id `a5fed574-6ac3-4318-b0a6-27082e07f3bd` · printing: MRD #116 (2003-10-02) · [rulings](https://api.scryfall.com/cards/81fff4cc-b2ab-4a41-bede-0d807552ba46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Copperhorn Scout
@@ -104,6 +109,7 @@
   > *Walls built to withstand assaults even from Ikoria's apex monsters were quickly deemed tactically irrelevant by Vorinclex's forces.*
 - **Keywords:** Hexproof, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10756 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/181/copper-host-crusher) · oracle_id `6971eac1-afd0-46c3-a37f-4a26d50ef656` · printing: MOM #181 (2023-04-21) · [rulings](https://api.scryfall.com/cards/af527344-9d88-4641-8f6d-0263a6797df3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Copper-Leaf Angel
@@ -119,6 +125,7 @@
   > *—Latulla, Keldon overseer*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26648 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcy/137/copper-leaf-angel) · oracle_id `efab5a30-74ee-4959-b7cd-2a5d25d18327` · printing: PCY #137 (2000-06-05) · [rulings](https://api.scryfall.com/cards/7be413dd-d6e0-4bd3-8c14-4dbe44e8ee41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Copperline Gorge
@@ -148,7 +155,14 @@
   > *Its webs are not true silk, but woven from thousands of delicate mycosynth strands.*
 - **Keywords:** Reach, Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11322 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/165/copper-longlegs) · oracle_id `066f6a3d-5e7b-40a4-b348-6dfb5d5239de` · printing: ONE #165 (2023-02-10) · [rulings](https://api.scryfall.com/cards/f8855fbf-4f1e-4c44-9653-bbbfc3f2fafd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/165/copper-longlegs) · oracle_id `066f6a3d-5e7b-40a4-b348-6dfb5d5239de` · printing: ONE #165 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Copper Myr
 
@@ -170,6 +184,7 @@
 - **Oracle text:**
   > At the beginning of each player's upkeep, this artifact deals 1 damage to that player.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15854 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/154/copper-tablet) · oracle_id `16d1023b-2162-4010-8bf4-218dbe7c99a0` · printing: ME1 #154 (2007-09-10) · [rulings](https://api.scryfall.com/cards/f953fa1a-14ea-46db-9a28-7375f0528335/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Copy Artifact
@@ -198,7 +213,13 @@
   > *—Kruno, Agency clerk*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18473 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/20/copy-catchers) · oracle_id `d8e276a8-1234-4b61-84cf-4bf231ea3129` · printing: MKC #20 (2024-02-09) · [rulings](https://api.scryfall.com/cards/af6b5cec-49fa-4f8d-8493-4bb7f3e291e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-02-02* — An ability that triggers “whenever you surveil” triggers after you’re done surveilling, even if you have fewer cards in your library than the number of cards you’re instructed to surveil. It triggers even if you have no cards in your library.
+  - *2024-02-02* — If Copy Catchers leaves the battlefield before its triggered ability resolves, the token will still enter the battlefield as a copy of Copy Catchers, using Copy Catchers’s copiable values from when it was last on the battlefield.
+  - *2024-02-02* — In the unusual case where Copy Catchers becomes a copy of something else while its triggered ability is on the stack but before it resolves, the token will enter the battlefield as a copy of whatever Copy Catchers is copying. (Do you copy? Over.)
+  - *2024-02-02* — The token copy will have Copy Catchers’s abilities and will be able to create copies of itself.
+  - *2024-02-02* — The token doesn’t copy whether Copy Catchers is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/20/copy-catchers) · oracle_id `d8e276a8-1234-4b61-84cf-4bf231ea3129` · printing: MKC #20 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Copycrook
 

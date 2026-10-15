@@ -43,7 +43,13 @@
   > Delirium — Put three +1/+1 counters on that creature instead if there are four or more card types among cards in your graveyard.
 - **Keywords:** Delirium
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27207 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/217/might-beyond-reason) · oracle_id `563a8e37-b90e-4ea1-9366-8502b403e13e` · printing: SOI #217 (2016-04-08) · [rulings](https://api.scryfall.com/cards/5a274689-82f1-488a-baf8-cd8ef3477b72/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2016-04-08* — Because you consider only the characteristics of a double-faced card's front face while it's not on the battlefield, the types of its back face won't be counted for delirium.
+  - *2016-04-08* — In some rare cases, you can have a token or a copy of a spell in your graveyard at the moment that an object's delirium ability counts the card types among cards in your graveyard, before that token or copy ceases to exist. Because tokens and copies of spells are not cards, even if they are copies of cards, their types will never be counted.
+  - *2016-04-08* — Some delirium abilities that appear on instants and sorceries use the word "instead." These spells have an upgraded effect when they resolve if there are four or more card types among cards in your graveyard. They check that number only while they're resolving and don't count themselves, since they aren't in your graveyard yet. You only get the upgraded effect, not both effects.
+  - *2016-04-08* — The card types in Magic are artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Supertypes (such as legendary and basic) and subtypes (such as Human and Equipment) are not counted.
+  - *2016-04-08* — The number of card types matters, not the number of cards. For example, Wicker Witch (an artifact creature) along with Catalog (an instant) and Chaplain's Blessing (a sorcery) will enable delirium.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/217/might-beyond-reason) · oracle_id `563a8e37-b90e-4ea1-9366-8502b403e13e` · printing: SOI #217 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mightform Harmonizer
 
@@ -69,7 +75,13 @@
 - **Flavor text** (M15 printing):
   > *An oath of fealty sworn with a handshake.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22553 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m15/156/might-makes-right) · oracle_id `ec73863f-417b-45d7-a6b7-97a69ce0196a` · printing: M15 #156 (2014-07-18) · [rulings](https://api.scryfall.com/cards/75c63c02-a75b-4880-b9fa-6f4bcf90ede5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2014-07-18* — Gaining control of a creature doesn’t cause you to gain control of any Auras or Equipment attached to it.
+  - *2014-07-18* — The ability can target any creature an opponent controls, not just one that’s tapped.
+  - *2014-07-18* — The ability will check its condition again as it tries to resolve. If, at that time, another player controls a creature with the greatest power or tied for the greatest power, the ability won’t do anything.
+  - *2014-07-18* — The ability will trigger only if you control each creature on the battlefield with the greatest power as the beginning of combat step begins. If another player controls a creature with the greatest power or tied for the greatest power at that time, the ability won’t trigger at all.
+  - *2014-07-18* — “Each creature on the battlefield with the greatest power” may be a single creature if each other creature has less power.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m15/156/might-makes-right) · oracle_id `ec73863f-417b-45d7-a6b7-97a69ce0196a` · printing: M15 #156 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Might of Alara
 
@@ -81,7 +93,10 @@
   > *The combined strength of all five planes spawned creations none had seen before.*
 - **Keywords:** Domain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27074 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/con/85/might-of-alara) · oracle_id `44570849-b2b0-47a8-9d77-f7c738896a0a` · printing: CON #85 (2009-02-06) · [rulings](https://api.scryfall.com/cards/9514c013-bc11-4cc5-af8c-f82fd4098bcf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-06-18* — Domain abilities count the number of basic land types among lands you control, not how many lands you control or how many of any type.
+  - *2021-06-18* — The basic land types are Plains, Island, Swamp, Mountain, and Forest. Land types other than basic land types (such as Desert) don't contribute to domain abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/con/85/might-of-alara) · oracle_id `44570849-b2b0-47a8-9d77-f7c738896a0a` · printing: CON #85 (2009-02-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Might of Murasa
 
@@ -94,7 +109,14 @@
   > *The continent of Murasa is defined by irrepressible growth, both natural and otherwise.*
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20815 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/194/might-of-murasa) · oracle_id `902eb71f-62b3-40cb-816b-f6b7e92e91e7` · printing: ZNR #194 (2020-09-25) · [rulings](https://api.scryfall.com/cards/42914fd9-e56e-4c3e-a445-fdfa45a45178/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/194/might-of-murasa) · oracle_id `902eb71f-62b3-40cb-816b-f6b7e92e91e7` · printing: ZNR #194 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Might of Oaks
 
@@ -106,6 +128,7 @@
   > *May your weapon be no sword forged. May your armor be no metal wrought.*
   > *—Elvish saying*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15192 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m10/192/might-of-oaks) · oracle_id `8331f281-819b-4a0b-bad7-bd86dbedb877` · printing: M10 #192 (2009-07-17) · [rulings](https://api.scryfall.com/cards/438a324b-cf3e-4a0f-95c4-cd548586f7e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Might of Old Krosa
@@ -118,7 +141,9 @@
   > *"Krosa the great. Krosa the enduring. Look to the forest, and it will share its bounty."*
   > *—Zyd, Kamahlite druid*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10229 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/153/might-of-old-krosa) · oracle_id `b50a6db0-16ce-4e98-afbd-ec37e1653e7c` · printing: 2X2 #153 (2022-07-08) · [rulings](https://api.scryfall.com/cards/ed0c7c36-2b15-463b-a023-683972303a0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — If an effect copies Might of Old Krosa while it's on the stack, the copy will give the creature only +2/+2, even if the original spell was cast during your main phase. This is because the copy is created on the stack and wasn't cast at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/153/might-of-old-krosa) · oracle_id `b50a6db0-16ce-4e98-afbd-ec37e1653e7c` · printing: 2X2 #153 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Might of the Ancestors
 
@@ -129,6 +154,7 @@
 - **Flavor text** (LCI printing):
   > *Malamet histories speak of a time when they were not yet confined to mortal bodies and existed as ferocity unrestrained.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19662 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/23/might-of-the-ancestors) · oracle_id `5e4107ce-8450-4501-9cb3-a6344ef320f1` · printing: LCI #23 (2023-11-17) · [rulings](https://api.scryfall.com/cards/54f82c95-8bc1-4df9-9120-86ffc059c7dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Might of the Masses
@@ -170,6 +196,7 @@
   > *"Send a runner to Tin Street, and tell 'em the delivery has been . . . uh . . . held up."*
   > *—Bonmod, caravan rear guard*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15372 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/88/might-of-the-nephilim) · oracle_id `4fda9b70-8da5-4292-b05a-0a0e5a2ad809` · printing: DIS #88 (2006-05-05) · [rulings](https://api.scryfall.com/cards/ca5c4a29-0650-4b9e-af6b-39bee19167ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Might of the Old Ways
@@ -183,7 +210,12 @@
   > *Brimming with power from their disrupted ritual, the Dawnhart witches lashed out at the werewolf intruders.*
 - **Keywords:** Coven
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23811 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/189/might-of-the-old-ways) · oracle_id `266d3f06-c982-4427-b421-7520e5da5c2e` · printing: MID #189 (2021-09-24) · [rulings](https://api.scryfall.com/cards/6a853679-e9dd-4c05-8688-248de8f12760/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-09-24* — A creature has different power from another if their powers are different numbers. For example, a 1/1 creature and a 2/1 creature have different powers.
+  - *2021-09-24* — For three creatures to have different powers from one another, each of their powers needs to be different. A 1/1 creature, a 2/1 creature, and another 2/1 creature aren't three creatures with different powers, even though both 2/1 creatures have different power than the 1/1 creature.
+  - *2021-09-24* — Many coven abilities, such as that of Dawnhart Wardens above, are triggered abilities with intervening if clauses. You must control three or more creatures with different powers at the time the ability triggers and at the time the ability tries to resolve. They do not, however, need to be the same set of creatures in both cases.
+  - *2021-09-24* — The effects of Might of the Old Ways happen in the listed order, so the +2/+2 bonus happens before you check the powers of creatures you control. For example, if you control two 2/2 creatures and a 5/5 creatures, choosing one of the 2/2 creatures as the target will allow you to draw a card. Conversely, if you control a 1/1 creature, a 3/3 creature, and a 5/5 creature, targeting either of the two smaller creatures will not allow you to draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/189/might-of-the-old-ways) · oracle_id `266d3f06-c982-4427-b421-7520e5da5c2e` · printing: MID #189 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Might Sliver
 
@@ -211,7 +243,9 @@
 - **Flavor text** (ME4 printing):
   > *While exploring the sacred cave of Koilos with his brother Mishra and their master Tocasia, Urza fell behind in the Hall of Tagsin, where he discovered the remarkable Mightstone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27926 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/215/mightstone) · oracle_id `2f578020-9b39-4c61-8b0b-6d29187e022a` · printing: ME4 #215 (2011-01-10) · [rulings](https://api.scryfall.com/cards/39310639-643d-42d0-9e92-7bc0da9abd21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The +1/+0 applies to attacking creatures from all players.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/215/mightstone) · oracle_id `2f578020-9b39-4c61-8b0b-6d29187e022a` · printing: ME4 #215 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mightstone's Animation
 
@@ -223,7 +257,12 @@
   > Enchanted artifact is a creature with base power and toughness 4/4 in addition to its other types.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22191 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/58/mightstones-animation) · oracle_id `de68a69a-0c4e-43b9-821d-2fe2269b5e48` · printing: BRO #58 (2022-11-18) · [rulings](https://api.scryfall.com/cards/8c540e42-22e2-4127-bbd9-2e9200023fec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-10-14* — Effects that modify a creature's power and/or toughness, such as the ones created by Giant Growth, will apply to the creature no matter when they started to take effect. The same is true for any counters that change its power and/or toughness and effects that switch power and toughness.
+  - *2022-10-14* — If the artifact was already a creature, its base power and toughness will each become 4. This overwrites any previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after Mightstone's Animation becomes attached to the artifact will overwrite this effect.
+  - *2022-10-14* — The artifact retains any types, subtypes, or supertypes it has. Notably, an Equipment that becomes an artifact creature usually can't be attached to another creature. If it was attached to a creature, it becomes unattached.
+  - *2022-10-14* — The resulting artifact creature will be able to attack on your turn if it's been under your control continuously since the turn began. That is, it doesn't matter how long it's been a creature, just how long it's been on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/58/mightstones-animation) · oracle_id `de68a69a-0c4e-43b9-821d-2fe2269b5e48` · printing: BRO #58 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Might Weaver
 
@@ -235,6 +274,7 @@
 - **Flavor text** (10E printing):
   > *"Let my strength harden your resolve."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31811 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/278/might-weaver) · oracle_id `c2cfbc1a-ae73-409c-b73a-5c8625365905` · printing: 10E #278 (2007-07-13) · [rulings](https://api.scryfall.com/cards/dbd09923-4a4b-4ac6-a487-6e00d17183cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mighty Emergence
@@ -246,7 +286,9 @@
 - **Flavor text** (ALA printing):
   > *Why settle for mere enormity?*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22403 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/137/mighty-emergence) · oracle_id `e7f038af-977a-42ff-bebb-718b7490188a` · printing: ALA #137 (2008-10-03) · [rulings](https://api.scryfall.com/cards/8ee66318-4dbb-49a3-a3c8-ee0e1a9f02b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — The ability checks that creature's power only once: when that creature enters. The trigger checks a creature's initial power upon being put on the battlefield, so it will take into account counters that it enters with and static abilities that may give it a continuous power boost once it's on the battlefield (such as the one on Glorious Anthem). After the creature is already on the battlefield, boosting its power with a spell (such as Giant Growth), activated ability, or triggered ability won't allow this ability to trigger; it's too late by then. Once the ability triggers, it will resolve no matter what the creature's power may become while the ability is on the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/137/mighty-emergence) · oracle_id `e7f038af-977a-42ff-bebb-718b7490188a` · printing: ALA #137 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mighty Leap
 
@@ -258,7 +300,9 @@
   > *"The southern fortress taken by invaders? Heh, sure . . . when elephants fly."*
   > *—Brezard Skeinbow, captain of the guard*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19450 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/66/mighty-leap) · oracle_id `593caa15-e1d1-477f-bbb4-124d7a7b81f3` · printing: CLU #66 (2024-02-23) · [rulings](https://api.scryfall.com/cards/b4c55b3a-0cca-4b4f-9915-61847b8f1455/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-07-13* — Giving a creature flying after it’s already been blocked won’t change or undo that block. If you want to affect what can block the creature, you must cast Mighty Leap during the declare attackers step at the latest.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/66/mighty-leap) · oracle_id `593caa15-e1d1-477f-bbb4-124d7a7b81f3` · printing: CLU #66 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mighty Mutanimals
 
@@ -273,6 +317,7 @@
   > *—Old Hob*
 - **Keywords:** Alliance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16462 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/21/mighty-mutanimals) · oracle_id `fcdc7dfc-04b5-411a-ab49-282b9c2608e2` · printing: TMT #21 (2026-03-06) · [rulings](https://api.scryfall.com/cards/5dd5369c-174c-450b-b776-553866787f8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mighty Servant of Leuk-o
@@ -302,6 +347,7 @@
   > {2}, Remove two oil counters from Migloz: It gets +2/+2 until end of turn.
   > {3}, Remove three oil counters from Migloz: Destroy target artifact or enchantment.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16597 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/210/migloz-maze-crusher) · oracle_id `85eb890e-a5e1-48f8-b813-e8424d18b28a` · printing: ONE #210 (2023-02-10) · [rulings](https://api.scryfall.com/cards/c1171899-07d8-4e60-a79b-f162f59dc3ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Migrating Ketradon
@@ -315,6 +361,7 @@
   > Cycling {2} ({2}, Discard this card: Draw a card.)
 - **Keywords:** Reach, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16894 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/170/migrating-ketradon) · oracle_id `5d957045-acb2-4546-8c19-71511fd497ef` · printing: DFT #170 (2025-02-14) · [rulings](https://api.scryfall.com/cards/a9ba2219-8184-4141-8708-845cb0957299/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Migration Path

@@ -52,6 +52,7 @@
   > *"Yeah, they've got a lot of meat. The only downside to eating 'em is that you often find human bones and body parts inside."*
   > *—Jaby, Silundi Sea nomad*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22156 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/roe/73/jwari-scuttler) · oracle_id `7d1f5f6f-af3d-4b9b-acaf-debf885f660a` · printing: ROE #73 (2010-04-23) · [rulings](https://api.scryfall.com/cards/04129038-3b02-418a-862a-229e9dde339b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jwari Shapeshifter
@@ -64,7 +65,13 @@
 - **Flavor text** (WWK printing):
   > *"The best expedition would be an entire team of me."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10861 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/32/jwari-shapeshifter) · oracle_id `0b0c02eb-4d9e-4fea-bad6-9ef5d7bb5295` · printing: WWK #32 (2010-02-05) · [rulings](https://api.scryfall.com/cards/587f91f6-b46e-4dd5-a86d-1048054dd3c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2010-03-01* — Any "enters" abilities of the copied creature will trigger when Jwari Shapeshifter enters.
+  - *2010-03-01* — If the chosen creature is a token, your Jwari Shapeshifter copies the original characteristics of that token as stated by the effect that put the token onto the battlefield. Your Jwari Shapeshifter is not a token.
+  - *2010-03-01* — If the chosen creature is copying something else (for example, if the chosen creature is another Jwari Shapeshifter), then your Jwari Shapeshifter enters as whatever the chosen creature copied.
+  - *2010-03-01* — Jwari Shapeshifter copies exactly what was printed on the original creature and nothing more (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+  - *2010-03-01* — You can choose not to copy anything. In that case, Jwari Shapeshifter enters as a 0/0 creature, and is probably put into the graveyard immediately.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/32/jwari-shapeshifter) · oracle_id `0b0c02eb-4d9e-4fea-bad6-9ef5d7bb5295` · printing: WWK #32 (2010-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jwar Isle Avenger
 
@@ -78,7 +85,12 @@
   > *Though solitary by nature, the sphinxes did not hesitate to join in the fight against the Eldrazi.*
 - **Keywords:** Flying, Surge
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25766 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/58/jwar-isle-avenger) · oracle_id `2db8fc61-13af-4227-83f9-9f426ab978d3` · printing: OGW #58 (2016-01-22) · [rulings](https://api.scryfall.com/cards/0a5b059f-2fa3-474f-9c74-6d4021703add/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-01-22* — Casting a spell for its surge cost doesn't change its mana cost or its mana value.
+  - *2016-01-22* — For some cards, surge represents only an alternative cost, a discount that applies if you or a teammate has cast another spell this turn. Other cards, like Reckless Bushwhacker, have additional abilities or effects if you paid the surge cost to cast the spell.
+  - *2016-01-22* — If an instant or sorcery spell cast for its surge cost is copied, the copy is also considered to have had its surge cost paid.
+  - *2016-01-22* — The other spell that you or a teammate cast can be one that's resolved, one that was countered, or (for instants with surge) one that's still on the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/58/jwar-isle-avenger) · oracle_id `2db8fc61-13af-4227-83f9-9f426ab978d3` · printing: OGW #58 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jwar Isle Refuge
 

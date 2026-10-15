@@ -33,6 +33,7 @@
   > *—Bayek of Siwa*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18068 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/277/detained-by-legionnaires) · oracle_id `d59488b5-1118-4276-b862-11e860c7c32a` · printing: ACR #277 (2024-07-05) · [rulings](https://api.scryfall.com/cards/fe06e87f-8915-4fc2-81fd-168a371dc407/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Detainment Spell
@@ -47,7 +48,11 @@
   > *Bind the mind rather than the wrist, and you stop the intent to harm before it starts.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18425 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/12/detainment-spell) · oracle_id `b46526af-6b88-42c4-b317-4b499f151ff0` · printing: TSP #12 (2006-10-06) · [rulings](https://api.scryfall.com/cards/c467446b-0168-4c7d-9ab6-57ad8b664877/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2006-09-25* — Detainment Spell prevents mana abilities of the enchanted creature from being activated.
+  - *2006-09-25* — Morph isn't an activated ability, so Detainment Spell doesn't prevent face-down creatures from being able to turn face up.
+  - *2006-09-25* — Responding to a creature's activated ability being activated by moving Detainment Spell onto that creature won't affect the ability that was just activated.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/12/detainment-spell) · oracle_id `b46526af-6b88-42c4-b317-4b499f151ff0` · printing: TSP #12 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Detection Tower
 
@@ -119,7 +124,13 @@
   > *It's a crime lab in a bag.*
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14373 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/196/detectives-satchel) · oracle_id `e4ecfccd-b8b4-4b18-b989-30de79b4971e` · printing: MKM #196 (2024-02-09) · [rulings](https://api.scryfall.com/cards/2c05bf2d-7d4f-4717-b1ea-ec4284854f4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-02-02* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2024-02-02* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
+  - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
+  - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/196/detectives-satchel) · oracle_id `e4ecfccd-b8b4-4b18-b989-30de79b4971e` · printing: MKM #196 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Detention Chariot
 
@@ -132,7 +143,9 @@
   > Cycling {W} ({W}, Discard this card: Draw a card.)
 - **Keywords:** Crew, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15434 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/12/detention-chariot) · oracle_id `0ea2c5ad-2982-4041-8c9d-a1d31ced11aa` · printing: DFT #12 (2025-02-14) · [rulings](https://api.scryfall.com/cards/75d5e64f-7af2-4cb4-abd1-23992e346bee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-02-07* — If this Vehicle leaves the battlefield before its triggered ability resolves, the target will never be exiled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/12/detention-chariot) · oracle_id `0ea2c5ad-2982-4041-8c9d-a1d31ced11aa` · printing: DFT #12 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Detention Sphere
 
@@ -159,7 +172,9 @@
   > {3}: Destroy this Aura. Only your opponents may activate this ability and only as a sorcery.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21536 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/13/detention-vortex) · oracle_id `5383a1c1-662f-46fe-a0e5-0f38efe1a37a` · printing: STX #13 (2021-04-23) · [rulings](https://api.scryfall.com/cards/54ebe581-be17-415a-a160-28d8f4e95636/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-04-16* — In a multiplayer game, any opponent may activate Detention Vortex's last ability, not just an opponent who controls the permanent that it is enchanting.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/13/detention-vortex) · oracle_id `5383a1c1-662f-46fe-a0e5-0f38efe1a37a` · printing: STX #13 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Determined Iteration
 
@@ -187,7 +202,9 @@
 - **Oracle text:**
   > Destroy target artifact with mana value X. It can't be regenerated. Detonate deals X damage to that artifact's controller.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23481 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/111/detonate) · oracle_id `daa90a75-c600-41bd-9311-ec21cf51480b` · printing: ME4 #111 (2011-01-10) · [rulings](https://api.scryfall.com/cards/45d14cd5-8398-481a-a190-d6c0f6263e33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — If the artifact becomes an illegal target before resolution, then no damage is done.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/111/detonate) · oracle_id `daa90a75-c600-41bd-9311-ec21cf51480b` · printing: ME4 #111 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Detritivore
 
@@ -200,4 +217,21 @@
   > Whenever a time counter is removed from this card while it's exiled, destroy target nonbasic land.
 - **Keywords:** Suspend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15459 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/plc/96/detritivore) · oracle_id `ba5fa5ca-f72d-49dd-9f86-e6e1292f5bf0` · printing: PLC #96 (2007-02-02) · [rulings](https://api.scryfall.com/cards/2ec01f4b-b3df-4e2b-ae93-2f2d0cc279bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2007-02-01* — The triggered ability is mandatory. If no other player has any nonbasic lands on the battlefield, you must target one of your own.
+  - *2024-02-02* — A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it. (In some rare cases, another player may gain control of the creature spell itself. If this happens, the creature won't enter the battlefield with haste.)
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If this is suspended, then when the last time counter is removed from it, both its triggered ability and the "you may cast this spell" part of the suspend ability will trigger. They can be put on the stack in either order.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/plc/96/detritivore) · oracle_id `ba5fa5ca-f72d-49dd-9f86-e6e1292f5bf0` · printing: PLC #96 (2007-02-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

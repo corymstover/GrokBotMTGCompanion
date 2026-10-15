@@ -120,7 +120,10 @@
   > Cycling {W}{U} ({W}{U}, Discard this card: Draw a card.)
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11320 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/216/cid-timeless-artificer) · oracle_id `87050537-99c9-4993-a770-4329b2e749e4` · printing: FIN #216 (2025-06-13) · [rulings](https://api.scryfall.com/cards/7fb99393-d2b6-40a6-8de7-317efdc4c50b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-06-06* — The second ability of Cid, Timeless Artificer also lets you ignore the "singleton" rule in formats like Commander.
+  - *2025-06-06* — The second ability of Cid, Timeless Artificer lets you ignore the "four-of" rule in constructed play. It doesn't let you ignore format legality. For example, during a Magic: The Gathering—FINAL FANTASY Limited event, you can't add copies of Cid, Timeless Artificer to your deck from your personal collection.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/216/cid-timeless-artificer) · oracle_id `87050537-99c9-4993-a770-4329b2e749e4` · printing: FIN #216 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cinder Barrens
 
@@ -148,6 +151,7 @@
   > *Not all coals lie quietly in their beds of cold ash.*
 - **Keywords:** Regenerate, Wither
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20702 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/59/cinderbones) · oracle_id `8e3c2f44-c4ca-4555-80c6-316e62c338dd` · printing: SHM #59 (2008-05-02) · [rulings](https://api.scryfall.com/cards/22dcf40c-62fb-4205-807e-71655066a61b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cinderclasm
@@ -161,7 +165,14 @@
   > *Every inferno begins with a spark.*
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12664 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/136/cinderclasm) · oracle_id `d7b49bee-2cb0-48e1-91c1-1e150a0da6ed` · printing: ZNR #136 (2020-09-25) · [rulings](https://api.scryfall.com/cards/5516cf97-805f-4a21-a4c6-2d6e55865336/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/136/cinderclasm) · oracle_id `d7b49bee-2cb0-48e1-91c1-1e150a0da6ed` · printing: ZNR #136 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cinder Cloud
 
@@ -170,6 +181,7 @@
 - **Oracle text:**
   > Destroy target creature. If a white creature dies this way, Cinder Cloud deals damage to that creature's controller equal to the creature's power.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28516 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/165/cinder-cloud) · oracle_id `f64ea1a7-0e10-4549-8056-25ebc2ce0175` · printing: MIR #165 (1996-10-08) · [rulings](https://api.scryfall.com/cards/f044c470-50ce-4a6c-b8ab-665357c3c11e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cinder Crawler
@@ -182,6 +194,7 @@
 - **Flavor text** (EXO printing):
   > *The crawler doesn't care what gets in its way. It pushes everything into the boiling muck and waits for the meal to cook.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32255 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/exo/80/cinder-crawler) · oracle_id `3850479f-1c1e-4a72-ae47-6da2997202e2` · printing: EXO #80 (1998-06-15) · [rulings](https://api.scryfall.com/cards/a9406050-d76b-4569-a463-e21acaf84166/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cinder Elemental
@@ -195,6 +208,7 @@
   > *"The old gods awoke and sent fingers of fire to see what was left of the old ways under the endless city."*
   > *—Daiva, Gruul storyteller*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24763 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/304/cinder-elemental) · oracle_id `01805d0d-3a72-4d26-9475-3e68c278b7fe` · printing: JMP #304 (2020-07-17) · [rulings](https://api.scryfall.com/cards/78c3c616-1f95-41b1-a624-79d6362d4f16/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cinder Giant
@@ -208,6 +222,7 @@
   > *"The giant wept tears of embers for the deaths of his allies."*
   > *—Azeworai, "The Lonely Giant"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14102 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/wth/93/cinder-giant) · oracle_id `3a8306ae-3162-4105-95f4-dacd10c7c051` · printing: WTH #93 (1997-06-09) · [rulings](https://api.scryfall.com/cards/de97c939-2c44-4c43-9d66-1087bcee692b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cinder Glade
@@ -237,7 +252,9 @@
 - **Flavor text** (SHM printing):
   > *Thick smoke billows and twists to form disturbing faces that cackle and click their teeth to the popping embers.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16142 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/shm/60/cinderhaze-wretch) · oracle_id `df6d9787-b423-4067-adf4-c09dcee1329e` · printing: SHM #60 (2008-05-02) · [rulings](https://api.scryfall.com/cards/644319c2-f122-4369-b1f8-56ad7d8ce861/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-05-01* — You put the -1/-1 counter on Cinderhaze Wretch as a cost. That means it happens when you activate the ability, not when it resolves. If paying the cost causes the creature to have 0 toughness, it’s put into the graveyard before you can untap it and before you can even pay the cost again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/shm/60/cinderhaze-wretch) · oracle_id `df6d9787-b423-4067-adf4-c09dcee1329e` · printing: SHM #60 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cinderheart Giant
 
@@ -251,7 +268,9 @@
   > *What fire giants lack in arcane prowess, they make up for with reckless, explosive rage.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19687 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/126/cinderheart-giant) · oracle_id `13efba9f-aedd-4ec0-a387-60c09b887341` · printing: KHM #126 (2021-02-05) · [rulings](https://api.scryfall.com/cards/e4802e6c-6921-4dac-bf44-7e09d6942b71/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-02-05* — The creature an opponent controls isn’t targeted, so it’s chosen as the triggered ability resolves. A creature with hexproof could be chosen, as could a creature with protection from red, although, in the latter case, the damage would be prevented.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/126/cinderheart-giant) · oracle_id `13efba9f-aedd-4ec0-a387-60c09b887341` · printing: KHM #126 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cinder Hellion
 
@@ -265,6 +284,7 @@
   > *Chandra used jets of flame to lure hellions into the path of oncoming Eldrazi.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27416 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/105/cinder-hellion) · oracle_id `9e1ad977-2814-4336-93ec-57b7736a629f` · printing: OGW #105 (2016-01-22) · [rulings](https://api.scryfall.com/cards/5a069118-42e4-40e3-a2ba-593ac89b9064/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cindering Cutthroat
@@ -278,7 +298,10 @@
 - **Flavor text** (BLB printing):
   > *"We don't 'play' with fire. It is strictly business."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13404 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/208/cindering-cutthroat) · oracle_id `46e8bec0-1a09-4e6e-b78a-7ba161686ca9` · printing: BLB #208 (2024-08-02) · [rulings](https://api.scryfall.com/cards/b2ea10dd-21ea-4622-be27-79d03a802b85/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-07-26* — Cindering Cutthroat's first ability cares whether an opponent lost life this turn, not how their life total changed. For example, an opponent who gained 2 life and lost 1 life in the same turn still lost life.
+  - *2024-07-26* — Once Cindering Cutthroat has been blocked by a single creature, activating its last ability won't cause it to become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/208/cindering-cutthroat) · oracle_id `46e8bec0-1a09-4e6e-b78a-7ba161686ca9` · printing: BLB #208 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cinder Marsh
 
@@ -288,6 +311,7 @@
   > {T}: Add {C}.
   > {T}: Add {B} or {R}. This land doesn't untap during your next untap step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24421 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/236/cinder-marsh) · oracle_id `6f8cc374-e76c-4bfa-bf20-28dea0bfefbe` · printing: TPR #236 (2015-05-06) · [rulings](https://api.scryfall.com/cards/8c6dc9af-ea7e-41f8-8c1e-22c588312053/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cinder Pyromancer
@@ -301,6 +325,7 @@
 - **Flavor text** (EVE printing):
   > *"If the whole world burns, I'll never grow cold."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12742 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eve/50/cinder-pyromancer) · oracle_id `47bfee3e-34b4-4b89-aaf8-f74e0c3d3c62` · printing: EVE #50 (2008-07-25) · [rulings](https://api.scryfall.com/cards/b6125689-0098-4e52-bed8-24840d22cdc1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cinder Seer
@@ -311,7 +336,9 @@
 - **Oracle text:**
   > {2}{R}, {T}: Reveal any number of red cards in your hand. This creature deals X damage to any target, where X is the number of cards revealed this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30747 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uds/78/cinder-seer) · oracle_id `64b63797-9db0-41fa-b2eb-fbf51de0e337` · printing: UDS #78 (1999-06-07) · [rulings](https://api.scryfall.com/cards/d96e7522-e0bc-4e23-8e4b-40a0c28ea986/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You can reveal zero cards and deal zero damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uds/78/cinder-seer) · oracle_id `64b63797-9db0-41fa-b2eb-fbf51de0e337` · printing: UDS #78 (1999-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cinder Shade
 
@@ -322,6 +349,7 @@
   > {B}: This creature gets +1/+1 until end of turn.
   > {R}, Sacrifice this creature: It deals damage equal to its power to target creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31302 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/240/cinder-shade) · oracle_id `9e120284-0fcc-432c-9471-9106eab71025` · printing: INV #240 (2000-10-02) · [rulings](https://api.scryfall.com/cards/b8dd933a-19ed-4d30-a94a-bfb2f66f8f13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cinderslash Ravager
@@ -335,6 +363,7 @@
   > When this creature enters, it deals 1 damage to each creature your opponents control.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24089 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/200/cinderslash-ravager) · oracle_id `a1c6bd47-19ef-44f9-921a-e4ffa80b25e1` · printing: ONE #200 (2023-02-10) · [rulings](https://api.scryfall.com/cards/eee24300-fff8-4405-9629-9f62b4a839ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cinder Storm
@@ -346,6 +375,7 @@
 - **Flavor text** (A25 printing):
   > *Any pyromancer can summon fire with a thought. The trick is putting it out.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23594 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/126/cinder-storm) · oracle_id `c7971968-c4ee-4437-92ec-1238bce1935f` · printing: A25 #126 (2018-03-16) · [rulings](https://api.scryfall.com/cards/650a5856-b8a4-445a-93d2-f3869a03031f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cinder Strike
@@ -359,7 +389,14 @@
   > *"If I am to gutter out, at least you will burn."*
 - **Keywords:** Blight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17100 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/131/cinder-strike) · oracle_id `54421e69-d79e-4c2e-8ce6-96994d168835` · printing: ECL #131 (2026-01-23) · [rulings](https://api.scryfall.com/cards/6fb6faa4-236c-4cae-9140-0981c44d2392/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-11-17* — All of the -1/-1 counters must be put on a single creature. You can't choose to split them up between multiple creatures.
+  - *2025-11-17* — If a creature has +1/+1 counters and -1/-1 counters on it, state-based actions remove the same number of each so that it has only one kind of those counters on it. For example, if a creature has three +1/+1 counters on it and two -1/-1 counters are put on it, state-based actions will remove two of each of those kinds of counters, leaving the creature with just one +1/+1 counter.
+  - *2025-11-17* — If a creature that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, effects that refer to the counters on that creature when it died will see all of those +1/+1 and -1/-1 counters.
+  - *2025-11-17* — If you can't place -1/-1 counters on any creatures you control (probably because you control no creatures), you can't choose to blight.
+  - *2025-11-17* — Once you've announced that you're casting a spell or activating an ability, players can't take actions until you've finished doing so. Notably, opponents can't try to destroy or otherwise remove your creatures to stop you from blighting as part of paying the cost of that spell or ability.
+  - *2025-11-17* — The creature you choose to put -1/-1 counters on doesn't have to have enough toughness to survive the process. For example, if you blight 2, you can choose to put the counters on a 1/1 creature you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/131/cinder-strike) · oracle_id `54421e69-d79e-4c2e-8ce6-96994d168835` · printing: ECL #131 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cindervines
 
@@ -388,6 +425,7 @@
   > *—Onean sergeant*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26694 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cns/140/cinder-wall) · oracle_id `16128b90-9b81-476e-8999-3ef498728c39` · printing: CNS #140 (2014-06-06) · [rulings](https://api.scryfall.com/cards/4dfcc240-9010-4e0c-afda-7f70c42da7d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cinnamon, Seasoned Steed
@@ -400,6 +438,7 @@
   > At the beginning of your combat step, you may put a +1/+1 counter on target noncreature Food you control. If you do, it becomes a 0/0 Knight creature in addition to its other types.
   > {2}, {T}, Sacrifice Cinnamon, Seasoned Steed: You gain 3 life.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RA01/cinnamon-seasoned-steed) · oracle_id `b6f27e98-6c12-453c-8321-891f2f7c2bbb` · printing: UNK #RA01 (2023-09-23) · [rulings](https://api.scryfall.com/cards/281b8ca4-e65f-4dcf-9f28-667f4d73e9b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circle of Affliction
@@ -410,7 +449,12 @@
   > As this enchantment enters, choose a color.
   > Whenever a source of the chosen color deals damage to you, you may pay {1}. If you do, target player loses 1 life and you gain 1 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27053 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/plc/66/circle-of-affliction) · oracle_id `69658c2c-2c46-4d62-945e-1a5176869b05` · printing: PLC #66 (2007-02-02) · [rulings](https://api.scryfall.com/cards/1f059cd0-7924-495e-bac4-021f0e46bb87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2007-02-01* — Each time a source deals damage to you, you may pay {1}. You can’t pay more than {1}, even if more than 1 damage was dealt.
+  - *2007-02-01* — If several sources deal damage to you simultaneously (for example, several attacking creatures), this ability triggers once for each source.
+  - *2007-02-01* — If the damage reduces you to 0 or less life, you lose the game before Circle of Affliction’s ability has a chance to give you life.
+  - *2007-02-01* — The player you target doesn’t have to be the controller of the source that dealt damage to you.
+- **Source flags:** [Scryfall](https://scryfall.com/card/plc/66/circle-of-affliction) · oracle_id `69658c2c-2c46-4d62-945e-1a5176869b05` · printing: PLC #66 (2007-02-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circle of Confinement
 
@@ -420,7 +464,11 @@
   > When this enchantment enters, exile target creature an opponent controls with mana value 3 or less until this enchantment leaves the battlefield.
   > Whenever an opponent casts a Vampire spell with the same name as a card exiled with this enchantment, you gain 2 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26200 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/7/circle-of-confinement) · oracle_id `d1cd7a93-4b83-4755-90bc-17cb64bfb131` · printing: VOW #7 (2021-11-19) · [rulings](https://api.scryfall.com/cards/13031fb6-9d5a-4add-9a86-28b2a9373fd2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-11-19* — Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
+  - *2021-11-19* — If Circle of Confinement leaves the battlefield before its enters-the-battlefield ability resolves, the target creature won't be exiled.
+  - *2021-11-19* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/7/circle-of-confinement) · oracle_id `d1cd7a93-4b83-4755-90bc-17cb64bfb131` · printing: VOW #7 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circle of Despair
 
@@ -432,6 +480,7 @@
   > *"Life is a resource that should belong only to the strong."*
   > *—Shauku, Endbringer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23587 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/259/circle-of-despair) · oracle_id `4ad57fbf-69f3-4367-b061-ed8e0b83b9af` · printing: MIR #259 (1996-10-08) · [rulings](https://api.scryfall.com/cards/ef9d2c05-0d2f-4d02-aef3-e1078d78e5ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circle of Dreams Druid
@@ -459,7 +508,11 @@
   > *They whisper of an ancient hero who saved the dragons of their world.*
 - **Keywords:** Vigilance, Formidable
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23699 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/176/circle-of-elders) · oracle_id `f720f80a-74bc-4681-ad4f-d33152ff988b` · printing: DTK #176 (2015-03-27) · [rulings](https://api.scryfall.com/cards/a99df522-cc97-41e3-8073-72e092afe8bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-02-25* — If you control a creature with power less than 0, use its actual power when calculating the total power of creatures you control. For example, if you control three creatures with powers 4, 5, and -2, the total power of creatures you control is 7.
+  - *2015-02-25* — Other formidable abilities are triggered abilities with an “intervening ‘if’” clause. Such abilities check the total power of creatures you control twice: once at the appropriate time to see if the ability will trigger, and again as the ability tries to resolve. If, at that time, the total power of creatures you control is no longer 8 or greater, the ability will have no effect.
+  - *2015-02-25* — Some formidable abilities are activated abilities that require creatures you control to have total power 8 or greater. Once you activate these abilities, it doesn’t matter what happens to the total power of creatures you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/176/circle-of-elders) · oracle_id `f720f80a-74bc-4681-ad4f-d33152ff988b` · printing: DTK #176 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circle of Flame
 
@@ -497,6 +550,7 @@
   > {1}{W}: The next time a source of your choice with art by the chosen artist would deal damage to you this turn, prevent that damage.
   > {1}{W}: Return this enchantment to its owner's hand.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/6/circle-of-protection:-art) · oracle_id `d2b40c9a-e68a-415a-8112-b316b5be057b` · printing: UNH #6 (2004-11-19) · [rulings](https://api.scryfall.com/cards/edbdb5ed-2d8a-4c95-b0fd-f19ff82e1302/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circle of Protection: Artifacts
@@ -508,6 +562,7 @@
 - **Flavor text** (5DN printing):
   > *"Memnarch shall rage against us. We shall endure."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26437 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/8/circle-of-protection:-artifacts) · oracle_id `2e61e9c0-a2b9-4a24-8cb0-5160accce183` · printing: 5DN #8 (2004-06-04) · [rulings](https://api.scryfall.com/cards/b09e7267-3d71-4724-b3e7-ae5a6a1f002a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circle of Protection: Black
@@ -517,7 +572,10 @@
 - **Oracle text:**
   > {1}: The next time a black source of your choice would deal damage to you this turn, prevent that damage.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20826 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/9ed/10/circle-of-protection:-black) · oracle_id `7a5a8414-4da4-4dd0-93ae-210d50f4d6f6` · printing: 9ED #10 (2005-07-29) · [rulings](https://api.scryfall.com/cards/edab2933-5970-4a17-ac00-abcd2c048fdc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — A source of damage is a permanent, a spell on the stack (including one that creates a permanent), or any object referred to by an object on the stack. A source doesn’t need to be capable of dealing damage to be a legal choice.
+  - *2004-10-04* — Can be used even when there is no damage to prevent. It prevents the next damage (if any) from the source this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/9ed/10/circle-of-protection:-black) · oracle_id `7a5a8414-4da4-4dd0-93ae-210d50f4d6f6` · printing: 9ED #10 (2005-07-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circle of Protection: Blue
 
@@ -526,7 +584,10 @@
 - **Oracle text:**
   > {1}: The next time a blue source of your choice would deal damage to you this turn, prevent that damage.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22047 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/8ed/11/circle-of-protection:-blue) · oracle_id `d7572f17-f85d-45c0-ac64-43aac760eafe` · printing: 8ED #11 (2003-07-28) · [rulings](https://api.scryfall.com/cards/5ced2118-dfb3-4f29-ad6b-454c0a8a094b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — A source of damage is a permanent, a spell on the stack (including one that creates a permanent), or any object referred to by an object on the stack. A source doesn’t need to be capable of dealing damage to be a legal choice.
+  - *2004-10-04* — Can be used even when there is no damage to prevent. It prevents the next damage (if any) from the source this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/8ed/11/circle-of-protection:-blue) · oracle_id `d7572f17-f85d-45c0-ac64-43aac760eafe` · printing: 8ED #11 (2003-07-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circle of Protection: Green
 
@@ -535,7 +596,10 @@
 - **Oracle text:**
   > {1}: The next time a green source of your choice would deal damage to you this turn, prevent that damage.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21103 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/8ed/12/circle-of-protection:-green) · oracle_id `41b0f347-1398-4778-bf3f-4007d8a77162` · printing: 8ED #12 (2003-07-28) · [rulings](https://api.scryfall.com/cards/eecc0e7d-a15b-4930-93d1-832c4fed733b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — A source of damage is a permanent, a spell on the stack (including one that creates a permanent), or any object referred to by an object on the stack. A source doesn’t need to be capable of dealing damage to be a legal choice.
+  - *2004-10-04* — Can be used even when there is no damage to prevent. It prevents the next damage (if any) from the source this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/8ed/12/circle-of-protection:-green) · oracle_id `41b0f347-1398-4778-bf3f-4007d8a77162` · printing: 8ED #12 (2003-07-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circle of Protection: Red
 
@@ -544,7 +608,10 @@
 - **Oracle text:**
   > {1}: The next time a red source of your choice would deal damage to you this turn, prevent that damage.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20587 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/9ed/11/circle-of-protection:-red) · oracle_id `df2738fe-9cd1-4347-8808-105fcfde1190` · printing: 9ED #11 (2005-07-29) · [rulings](https://api.scryfall.com/cards/d7920b6d-ff71-4802-9589-e1df0c58b9ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — A source of damage is a permanent, a spell on the stack (including one that creates a permanent), or any object referred to by an object on the stack. A source doesn’t need to be capable of dealing damage to be a legal choice.
+  - *2004-10-04* — Can be used even when there is no damage to prevent. It prevents the next damage (if any) from the source this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/9ed/11/circle-of-protection:-red) · oracle_id `df2738fe-9cd1-4347-8808-105fcfde1190` · printing: 9ED #11 (2005-07-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circle of Protection: Shadow
 
@@ -553,7 +620,9 @@
 - **Oracle text:**
   > {1}: The next time a creature of your choice with shadow would deal damage to you this turn, prevent that damage.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29266 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmp/12/circle-of-protection:-shadow) · oracle_id `07c42f46-800e-4d2a-b844-c125ab93190d` · printing: TMP #12 (1997-10-14) · [rulings](https://api.scryfall.com/cards/49f29a3b-7136-496c-bc29-8808bfff0f82/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It can be used on non-combat damage which happens to come from creatures with the Shadow ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmp/12/circle-of-protection:-shadow) · oracle_id `07c42f46-800e-4d2a-b844-c125ab93190d` · printing: TMP #12 (1997-10-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circle of Protection: White
 
@@ -562,7 +631,10 @@
 - **Oracle text:**
   > {1}: The next time a white source of your choice would deal damage to you this turn, prevent that damage.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19317 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/8ed/14/circle-of-protection:-white) · oracle_id `5f46f86a-9779-4ed3-99cb-76a03d380598` · printing: 8ED #14 (2003-07-28) · [rulings](https://api.scryfall.com/cards/2e64f2cc-67bd-482a-938b-8dca1a1c6ac1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — A source of damage is a permanent, a spell on the stack (including one that creates a permanent), or any object referred to by an object on the stack. A source doesn’t need to be capable of dealing damage to be a legal choice.
+  - *2004-10-04* — Can be used even when there is no damage to prevent. It prevents the next damage (if any) from the source this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/8ed/14/circle-of-protection:-white) · oracle_id `5f46f86a-9779-4ed3-99cb-76a03d380598` · printing: 8ED #14 (2003-07-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circle of Solace
 
@@ -572,6 +644,7 @@
   > As this enchantment enters, choose a creature type.
   > {1}{W}: The next time a creature of the chosen type would deal damage to you this turn, prevent that damage.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27905 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/13/circle-of-solace) · oracle_id `14ebedd1-7a2d-413b-9b76-8610511292a4` · printing: ONS #13 (2002-10-07) · [rulings](https://api.scryfall.com/cards/07f567dc-8a60-40e1-b947-199872d8df08/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circle of the Land Druid
@@ -597,6 +670,7 @@
 - **Flavor text** (AFR printing):
   > *Druids of the Circle of the Moon are fierce guardians of nature who haunt the deepest parts of the wilderness.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21093 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/177/circle-of-the-moon-druid) · oracle_id `90569b99-8b63-4d2e-b7de-b578b8adbdcb` · printing: AFR #177 (2021-07-23) · [rulings](https://api.scryfall.com/cards/700c9ed8-6bfe-4f1e-855a-5f31e0d2fc9b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circling Vultures
@@ -610,7 +684,16 @@
   > At the beginning of your upkeep, sacrifice this creature unless you exile the top creature card of your graveyard.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26372 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/wth/64/circling-vultures) · oracle_id `7fd6fe21-8fb8-499b-9dd4-806d0d660265` · printing: WTH #64 (1997-06-09) · [rulings](https://api.scryfall.com/cards/8dae8e49-c2b6-4965-9249-49f93449d271/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2008-04-01* — Circling Vultures's discard ability is a static ability, not an activated ability. Although it acts like an activated ability that says "Discard Circling Vultures: Nothing happens," it is not one and cards like Pithing Needle or Abeyance won't prevent you from being able to discard it.
+  - *2008-04-01* — If an effect or rule puts two or more cards into the same graveyard at the same time, the owner of those cards may arrange them in any order.
+  - *2008-04-01* — If the creature is no longer on the battlefield when the ability resolves, you may still perform the action if you want.
+  - *2008-04-01* — Players may not rearrange the cards in their graveyards. This is a little-known rule because new cards that care about graveyard order haven't been printed in years.
+  - *2008-04-01* — Say you're the owner of both a permanent and an Aura that's attached to it. If both the permanent and the Aura are destroyed at the same time (by Akroma's Vengeance, for example), you decide the order they're put into your graveyard. If just the enchanted permanent is destroyed, it's put into your graveyard first. Then, after state-based actions are checked, the Aura (which is no longer attached to anything) is put into your graveyard on top of it.
+  - *2008-04-01* — The "top" card of your graveyard is the card that was put there most recently.
+  - *2008-04-01* — The last thing that happens to a resolving instant or sorcery spell is that it's put into its owner's graveyard. —Example: You cast Wrath of God. All creatures on the battlefield are destroyed. You arrange all the cards put into your graveyard this way in any order you want. The other players in the game do the same to the cards that are put into their graveyards. Then you put Wrath of God into your graveyard, on top of the other cards.
+  - *2008-04-01* — When the ability resolves, you choose whether to sacrifice the creature or perform the other action. If you can't perform the other action, then you must sacrifice the creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wth/64/circling-vultures) · oracle_id `7fd6fe21-8fb8-499b-9dd4-806d0d660265` · printing: WTH #64 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circu, Dimir Lobotomist
 
@@ -622,7 +705,11 @@
   > Whenever you cast a black spell, exile the top card of target player's library.
   > Your opponents can't cast spells with the same name as a card exiled with Circu.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17899 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/rav/196/circu-dimir-lobotomist) · oracle_id `c87d547b-00a4-4fdd-ade4-f3f032e5ea3b` · printing: RAV #196 (2005-10-07) · [rulings](https://api.scryfall.com/cards/0b19c0f3-68a5-4544-985a-677aa2c2b50b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2005-10-01* — Circu's last ability applies to all of its controller's opponents, not just the owner of the exiled card.
+  - *2005-10-01* — If a split card is exiled this way, opponents can't cast either half of the split card.
+  - *2005-10-01* — If you cast a blue and black spell, both of Circu's triggered abilities trigger. You can target two different players or target the same player twice.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rav/196/circu-dimir-lobotomist) · oracle_id `c87d547b-00a4-4fdd-ade4-f3f032e5ea3b` · printing: RAV #196 (2005-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circuit Mender
 
@@ -724,7 +811,11 @@
   > *—Shagrat's orders*
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15118 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/80/cirith-ungol-patrol) · oracle_id `c9610d33-4cef-4171-bbf4-48d720492d55` · printing: LTR #80 (2023-06-23) · [rulings](https://api.scryfall.com/cards/7cd03837-37cc-4f6c-8e22-e3b0ff635462/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/80/cirith-ungol-patrol) · oracle_id `c9610d33-4cef-4171-bbf4-48d720492d55` · printing: LTR #80 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Citadel Castellan
 
@@ -738,7 +829,11 @@
   > *"I am the first line of defense. You will not encounter the second."*
 - **Keywords:** Renown, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27226 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/213/citadel-castellan) · oracle_id `b9e93832-93b7-409d-91aa-13757225824d` · printing: ORI #213 (2015-07-17) · [rulings](https://api.scryfall.com/cards/9aa11f30-f2b7-4279-9176-c336c74538bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-06-22* — If a creature with renown deals combat damage to its controller because that damage was redirected, renown will trigger.
+  - *2015-06-22* — If a renown ability triggers, but the creature leaves the battlefield before that ability resolves, the creature doesn’t become renowned. Any ability that triggers “whenever a creature becomes renowned” won’t trigger.
+  - *2015-06-22* — Renown won’t trigger when a creature deals combat damage to a planeswalker or another creature. It also won’t trigger when a creature deals noncombat damage to a player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/213/citadel-castellan) · oracle_id `b9e93832-93b7-409d-91aa-13757225824d` · printing: ORI #213 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Citadel Gate
 
@@ -793,6 +888,7 @@
   > Echo {3}{G} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
 - **Keywords:** Shroud, Echo
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31230 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/243/citanul-centaurs) · oracle_id `831487cf-a377-4c9b-920d-c5bc68f17f24` · printing: USG #243 (1998-10-12) · [rulings](https://api.scryfall.com/cards/5a3ac987-7906-4159-a007-ed409baea9d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Citanul Druid
@@ -803,7 +899,9 @@
 - **Oracle text:**
   > Whenever an opponent casts an artifact spell, put a +1/+1 counter on this creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28584 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/146/citanul-druid) · oracle_id `0d292575-c4ff-427a-953a-abc89e40caa6` · printing: ME4 #146 (2011-01-10) · [rulings](https://api.scryfall.com/cards/2d6c1b0a-3fb9-426e-b3ed-f5d8d1096a51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — In multiplayer games it affects all players.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/146/citanul-druid) · oracle_id `0d292575-c4ff-427a-953a-abc89e40caa6` · printing: ME4 #146 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Citanul Flute
 
@@ -814,7 +912,10 @@
 - **Flavor text** (10E printing):
   > *Each note of the flute mimics the call of a different beast.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14760 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/10e/315/citanul-flute) · oracle_id `6b8183bb-20c4-4d45-b944-508a6a874bb3` · printing: 10E #315 (2007-07-13) · [rulings](https://api.scryfall.com/cards/5e3e0dff-d9f0-4222-a308-e86581c440cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — X can be zero if you want.
+  - *2004-10-04* — You look in your library but you do not have to choose a creature even if you have one that meets the criteria.
+- **Source flags:** [Scryfall](https://scryfall.com/card/10e/315/citanul-flute) · oracle_id `6b8183bb-20c4-4d45-b944-508a6a874bb3` · printing: 10E #315 (2007-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Citanul Hierophants
 
@@ -839,7 +940,9 @@
 - **Flavor text** (BRO printing):
   > *The endless grind of the Brothers' War had fouled Terisiare's land and blackened its skies. Argoth's defenders were determined to protect their isle from the same fate.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10011 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/175/citanul-stalwart) · oracle_id `ce291948-125d-493d-8770-8b3aac515f9b` · printing: BRO #175 (2022-11-18) · [rulings](https://api.scryfall.com/cards/a842a945-21d9-432c-b970-6da65b16f309/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-14* — You can tap any untapped artifact or creature you control, including a creature you haven't controlled continuously since the beginning of your most recent turn, to pay the cost of Citanul Stalwart's activated ability. However, you must have controlled Citanul Stalwart continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/175/citanul-stalwart) · oracle_id `ce291948-125d-493d-8770-8b3aac515f9b` · printing: BRO #175 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Citanul Woodreaders
 
@@ -853,7 +956,14 @@
   > *They seek out living trees to glean age-old secrets from sap and wood.*
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19943 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/199/citanul-woodreaders) · oracle_id `a4555bd2-be42-442a-8ead-3398318e91c5` · printing: TSR #199 (2021-03-19) · [rulings](https://api.scryfall.com/cards/b0cd9af6-3729-4c9c-9669-a2800a693b39/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/199/citanul-woodreaders) · oracle_id `a4555bd2-be42-442a-8ead-3398318e91c5` · printing: TSR #199 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Citizen's Arrest
 
@@ -864,7 +974,11 @@
 - **Flavor text** (DMU printing):
   > *"What lurks behind the faces of those you think you can trust?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20673 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/11/citizens-arrest) · oracle_id `6f554418-9ee6-4a03-b81e-f93d5c70873e` · printing: DMU #11 (2022-09-09) · [rulings](https://api.scryfall.com/cards/9806370b-51e3-4144-a847-6b367fb937ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-09-09* — Auras attached to the exiled permanent will be put into their owners’ graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
+  - *2022-09-09* — If Citizen’s Arrest leaves the battlefield before its triggered ability resolves, the target permanent won’t be exiled.
+  - *2022-09-09* — If a token is exiled this way, it will cease to exist and won’t return to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/11/citizens-arrest) · oracle_id `6f554418-9ee6-4a03-b81e-f93d5c70873e` · printing: DMU #11 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Citizen's Crowbar
 
@@ -876,7 +990,9 @@
   > Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10423 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/8/citizens-crowbar) · oracle_id `64c7e03d-ba38-4979-8889-9bf0e7b8c66e` · printing: SNC #8 (2022-04-29) · [rulings](https://api.scryfall.com/cards/b68896f5-1e13-400a-a327-b6c6f00858b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-04-29* — If another player gains control of the equipped creature but doesn't gain control of the Equipment, they will not be able to activate the ability the Equipment grants because they can't pay a cost that includes sacrificing a permanent they don't control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/8/citizens-crowbar) · oracle_id `64c7e03d-ba38-4979-8889-9bf0e7b8c66e` · printing: SNC #8 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Citizen V, Helmut Zemo
 
@@ -890,6 +1006,7 @@
   > *"I have always been the savior of the human race. I'm simply wearing a more acceptable mask."*
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19593 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/650/citizen-v-helmut-zemo) · oracle_id `974fbeb0-77d6-4a29-aa91-226cb5b32233` · printing: MSC #650 (2026-06-26) · [rulings](https://api.scryfall.com/cards/4c2bdc18-9648-44a2-97dd-b0e03789d186/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### City in a Bottle
@@ -900,7 +1017,10 @@
   > Whenever one or more other nontoken permanents with a name originally printed in the Arabian Nights expansion are on the battlefield, their controllers sacrifice them.
   > Players can't cast spells or play lands with a name originally printed in the Arabian Nights expansion.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30154 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/265/city-in-a-bottle) · oracle_id `a83f25e3-4d84-4c9b-ab12-19b8d326e459` · printing: VMA #265 (2014-06-16) · [rulings](https://api.scryfall.com/cards/cfd5c243-2a40-4ba8-ad00-715f52eeda62/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Token creatures and counters created by Arabian Nights cards are not removed.
+  - *2014-02-01* — Any time a player receives priority to cast spells or activate abilities, check to see whether any permanents on the battlefield were originally printed in the Arabian Nights expansion (even if the physical card representing that permanent is a reprint with a different expansion symbol). If there are any such permanents, the ability will trigger and those permanents will be sacrificed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/265/city-in-a-bottle) · oracle_id `a83f25e3-4d84-4c9b-ab12-19b8d326e459` · printing: VMA #265 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### City of Ass
 
@@ -912,6 +1032,7 @@
 - **Flavor text** (UNH printing):
   > *"But . . ."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/134/city-of-ass) · oracle_id `e043a795-6936-4d7e-9a77-e0175a27c8f5` · printing: UNH #134 (2004-11-19) · [rulings](https://api.scryfall.com/cards/726fe2e7-bd1b-4c11-a098-6c8abfbdf06e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### City of Brass
@@ -955,7 +1076,10 @@
   > {T}, Exile a creature you control: Put a storage counter on this land.
   > {T}: Add {C} for each storage counter on this land.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16600 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/206/city-of-shadows) · oracle_id `043192d8-6077-46c3-b43f-b7caf6762869` · printing: ME3 #206 (2009-09-07) · [rulings](https://api.scryfall.com/cards/0629322b-e9e8-4cac-abe5-fff083bcc240/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — The storage counters aren't removed when you activate the mana ability.
+  - *2009-10-01* — You can activate City of Shadows's second ability while it has no storage counters on it, though it won't add any mana in this case. You did not tap it for mana, though, in case any abilities (such as the ability of a Fertile Ground enchanting it) care about that.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/206/city-of-shadows) · oracle_id `043192d8-6077-46c3-b43f-b7caf6762869` · printing: ME3 #206 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### City of Solitude
 
@@ -967,7 +1091,11 @@
   > *"My horizon was the arcing petals, my new home resplendent with spires of weeds and pillows of fragrant pollen."*
   > *—Naimah, Femeref philosopher*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13158 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vis/102/city-of-solitude) · oracle_id `671458ac-7441-4332-9e59-a42ec8b62f31` · printing: VIS #102 (1997-02-03) · [rulings](https://api.scryfall.com/cards/be499b81-bb2d-4f1d-9deb-c8bfcdca8e13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — City of Solitude can affect abilities of cards that are not on the battlefield because it prevents players from activating those abilities.
+  - *2004-10-04* — City of Solitude does not stop triggered abilities from being put on the stack. They are never “activated”.
+  - *2009-10-01* — This stops players from activating mana abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vis/102/city-of-solitude) · oracle_id `671458ac-7441-4332-9e59-a42ec8b62f31` · printing: VIS #102 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### City of Traitors
 
@@ -1019,6 +1147,7 @@
   > *—Spider-Man, Peter Parker*
 - **Keywords:** Flying, Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13184 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/769/city-pigeon) · oracle_id `ac8cae63-270c-4f73-b29b-50f8f2395fd9` · printing: MSC #769 (2026-06-26) · [rulings](https://api.scryfall.com/cards/726882db-0fac-4a86-ab85-c62bcb593093/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cityscape Leveler
@@ -1056,7 +1185,10 @@
   > *All those who trade in questions must answer to the Dimir.*
 - **Keywords:** Flying, Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28244 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/33/citywatch-sphinx) · oracle_id `a63e0c27-cea8-408a-8e57-2f077826c50f` · printing: GRN #33 (2018-10-05) · [rulings](https://api.scryfall.com/cards/9b809f89-13c7-4236-86a5-60745defb271/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-01-12* — When you surveil, you may put all the cards you look at back on top of your library, you may put all of those cards into your graveyard, or you may put some of those cards on top and the rest of them into your graveyard.
+  - *2024-01-12* — You perform the actions stated on a card in sequence. For some spells and abilities, you'll surveil last. For others, you'll surveil and then perform other actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/33/citywatch-sphinx) · oracle_id `a63e0c27-cea8-408a-8e57-2f077826c50f` · printing: GRN #33 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Citywide Bust
 
@@ -1081,6 +1213,7 @@
 - **Flavor text** (SNC printing):
   > *"I've told you knuckleheads a hundred times: You can kill 'em here, but bury the bodies somewhere else. If you disturb my prized azaleas again, you'd better dig a second hole for yourself!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19762 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/140/civic-gardener) · oracle_id `9eb7f301-b9b6-48c3-9dad-e7df9cc15355` · printing: SNC #140 (2022-04-29) · [rulings](https://api.scryfall.com/cards/f58d39d7-62bf-43c8-97b3-0f9069af0e29/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Civic Guildmage
@@ -1095,6 +1228,7 @@
   > *To condemn the innocent you must first condemn yourself.*
   > *—Civic Guild maxim*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31035 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/7/civic-guildmage) · oracle_id `6e93cb9a-44c8-49fb-b6a7-bfdf7bd725fe` · printing: MIR #7 (1996-10-08) · [rulings](https://api.scryfall.com/cards/a9319039-db2f-47bf-9ef0-8d3a381d54fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Civic Saber
@@ -1108,7 +1242,10 @@
   > *Those without a guild signet often display a different form of protection.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16752 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/254/civic-saber) · oracle_id `79441673-6e43-41bc-936c-958dbb9d92da` · printing: RVR #254 (2024-01-12) · [rulings](https://api.scryfall.com/cards/d222eb30-9ebc-4197-bbe4-678512d960d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2012-10-01* — Civic Saber's bonus can range from +0/+0 (for a colorless creature) to +5/+0 (for a creature that's all five colors).
+  - *2012-10-01* — If the equipped creature becomes a different number of colors, the bonus will change accordingly.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/254/civic-saber) · oracle_id `79441673-6e43-41bc-936c-958dbb9d92da` · printing: RVR #254 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Civic Stalwart
 
@@ -1120,7 +1257,9 @@
 - **Flavor text** (RNA printing):
   > *"These are your streets. Defend them! This is your neighborhood. Honor it! This is your city. Save it!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27479 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/6/civic-stalwart) · oracle_id `80d7e395-f774-44b5-9442-fa2fc03aaa29` · printing: RNA #6 (2019-01-25) · [rulings](https://api.scryfall.com/cards/aa981489-4301-43f6-b1d7-2aa42e00cf75/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-01-25* — Civic Stalwart’s triggered ability affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won’t get +1/+1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/6/civic-stalwart) · oracle_id `80d7e395-f774-44b5-9442-fa2fc03aaa29` · printing: RNA #6 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Civic Wayfinder
 
@@ -1132,6 +1271,7 @@
 - **Flavor text** (DDR printing):
   > *"These alleys are not safe. Come, I can guide you back to the market square."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19129 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddr/5/civic-wayfinder) · oracle_id `b9e53414-c21f-4479-b8c1-8b36c3e6e006` · printing: DDR #5 (2016-09-02) · [rulings](https://api.scryfall.com/cards/5e9754ec-18d1-4c0f-abdd-49ce2d778083/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Civilized Scholar // Homicidal Brute
@@ -1149,7 +1289,11 @@
   > *For a moment his basest desires run free, unshackled by reason or conscience.*
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28701 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/isd/47/civilized-scholar-homicidal-brute) · oracle_id `8662c9be-2244-4ea3-bf80-31a117f40a59` · printing: ISD #47 (2011-09-30) · [rulings](https://api.scryfall.com/cards/7bf864db-4754-433d-9d77-6695f78f6c09/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2011-09-22* — If Civilized Scholar attacks, and later in the turn (but before the beginning of your end step), it transforms, Homicidal Brute's last ability won't trigger. This is because the creature attacked that turn, even if had its other face up at the time.
+  - *2011-09-22* — You don't have priority between untapping Civilized Scholar and transforming it. You can't activate the draw-and-discard ability again, for example.
+  - *2011-09-22* — You'll tap and transform Homicidal Brute even if it couldn't attack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/isd/47/civilized-scholar-homicidal-brute) · oracle_id `8662c9be-2244-4ea3-bf80-31a117f40a59` · printing: ISD #47 (2011-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Civil Servant
 
@@ -1161,4 +1305,5 @@
 - **Flavor text** (SNC printing):
   > *"Together we can build a safer, brighter New Capenna!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27886 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/176/civil-servant) · oracle_id `232e16f4-32ae-4f42-a377-6bdebc9a06c7` · printing: SNC #176 (2022-04-29) · [rulings](https://api.scryfall.com/cards/1cf5da68-a79b-40a3-93bc-785fb2352b05/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

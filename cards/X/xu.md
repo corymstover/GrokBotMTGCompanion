@@ -36,4 +36,6 @@
 - **Flavor text** (PTK printing):
   > *"A splendid talent, admired of all men! His folly lay in serving Cao Cao's power."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30355 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ptk/93/xun-yu-wei-advisor) · oracle_id `fb5fea4a-1b04-45c6-a207-e2e8493ea968` · printing: PTK #93 (1999-05-01) · [rulings](https://api.scryfall.com/cards/8f0a25ea-b414-423c-94a6-8a4795d60b46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ptk/93/xun-yu-wei-advisor) · oracle_id `fb5fea4a-1b04-45c6-a207-e2e8493ea968` · printing: PTK #93 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

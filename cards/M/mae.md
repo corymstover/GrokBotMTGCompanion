@@ -58,7 +58,23 @@
   > Destroy target nonbasic land.
 - **Keywords:** Haste, Prepared
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16720 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/122/maelstrom-artisan-rocket-volley) · oracle_id `03931270-504a-4b0b-af3f-918bf124ea07` · printing: SOS #122 (2026-04-24) · [rulings](https://api.scryfall.com/cards/5c88391d-271f-4021-a5d9-158ebc1e6357/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2026-03-20* — A creature with a prepare spell can't become prepared more than once at the same time. For example, Emeritus of Ideation is on the battlefield and is prepared. When it attacks, its last ability triggers. When that ability resolves, its controller may still exile eight cards from their graveyard, but doing so won't cause Emeritus of Ideation to become prepared a second time or create a second copy of Ancestral Recall in exile.
+  - *2026-03-20* — A creature without a prepare spell can't become prepared.
+  - *2026-03-20* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Emeritus of Ideation is a blue creature whose mana value is 5. It can't be the target of Zealous Lorecaster's triggered ability ("When this creature enters, return target instant or sorcery card from your graveyard to your hand.").
+  - *2026-03-20* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-03-20* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-03-20* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-03-20* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog.") targeting Goblin Glasswright. The token copy of Goblin Glasswright will enter prepared as a 1/1 green Frog creature, but the copy of Craft with Pride in exile will still be a red sorcery. The copy of Craft with Pride won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-03-20* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-03-20* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-03-20* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-03-20* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-03-20* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
+  - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/122/maelstrom-artisan-rocket-volley) · oracle_id `03931270-504a-4b0b-af3f-918bf124ea07` · printing: SOS #122 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maelstrom Colossus
 
@@ -95,7 +111,9 @@
   > When this creature is turned face up, put two time counters on it and it gains vanishing. (At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)
 - **Keywords:** Flying, Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29216 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fut/39/maelstrom-djinn) · oracle_id `351988f0-59c6-492d-8a39-efa0329e1447` · printing: FUT #39 (2007-05-04) · [rulings](https://api.scryfall.com/cards/9c102f29-6f3f-4f97-8177-4307586bd1b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-05-01* — If Maelstrom Djinn turns face up and then is somehow turned face down, it will still have vanishing and time counters. The vanishing ability will continue to work as normal. If it’s turned face up again, it will get more time counters on it, but it will also get another copy of vanishing. Both abilities would trigger during its controller’s upkeep.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fut/39/maelstrom-djinn) · oracle_id `351988f0-59c6-492d-8a39-efa0329e1447` · printing: FUT #39 (2007-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maelstrom Muse
 
@@ -109,7 +127,10 @@
   > *She's an inspiration to everyone, even herself.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22176 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/202/maelstrom-muse) · oracle_id `30b03dda-409f-4615-b392-477d66eb49f4` · printing: STX #202 (2021-04-23) · [rulings](https://api.scryfall.com/cards/5516e81e-16ea-411c-9df0-ed3b03670220/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-04-16* — Maelstrom Muse’s cost reduction can reduce only generic mana in a spell’s total cost. It can’t reduce colored mana requirements.
+  - *2021-04-16* — To determine the total cost of a spell, start with the mana cost or alternative cost you’re paying, add any cost increases, then apply any cost reductions (such as that of Maelstrom Muse’s triggered ability). The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/202/maelstrom-muse) · oracle_id `30b03dda-409f-4615-b392-477d66eb49f4` · printing: STX #202 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maelstrom Nexus
 
@@ -200,7 +221,9 @@
 - **Oracle text:**
   > Once during each of your turns, you may cast an instant or sorcery spell from your graveyard by sacrificing a creature in addition to paying its other costs. If a spell cast this way would be put into your graveyard, exile it instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17245 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/198/maestros-ascendancy) · oracle_id `d1438681-241b-4d53-9470-4d04a7797ea8` · printing: SNC #198 (2022-04-29) · [rulings](https://api.scryfall.com/cards/469a0f03-7874-453d-b9e4-275c13244f4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-04-29* — If you cast an Adventure spell from your graveyard this way, it's exiled as it resolves with the replacement effect created by the Adventure rules and you may cast the creature card from exile later.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/198/maestros-ascendancy) · oracle_id `d1438681-241b-4d53-9470-4d04a7797ea8` · printing: SNC #198 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maestros Charm
 
@@ -226,6 +249,7 @@
   > • Goad each creature target player controls. (Until your next turn, those creatures attack each combat if able and attack a player other than you if able.)
 - **Keywords:** Goad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15456 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/75/maestros-confluence) · oracle_id `ef67a41b-a2a6-4f1b-a0d5-15560e99e387` · printing: NCC #75 (2022-04-29) · [rulings](https://api.scryfall.com/cards/c823c045-5331-4fe3-ba20-cdfef12c44e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maestros Diabolist
@@ -240,7 +264,9 @@
   > *"Where did I find my horned friend? Now there's a story worth telling. . . ."*
 - **Keywords:** Haste, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19717 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/200/maestros-diabolist) · oracle_id `68d61090-a97f-47e9-bc64-7e5c7f8acbf7` · printing: SNC #200 (2022-04-29) · [rulings](https://api.scryfall.com/cards/7206db10-e248-420d-bf92-4d57bc72da56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-04-29* — Maestros Diabolist's triggered ability has an "intervening 'if'" clause. This means that it checks to see if you control a Devil token both when the ability triggers and when it resolves. Notably, this means that attacking with two Maestros Diabolists will normally cause you to create only one Devil token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/200/maestros-diabolist) · oracle_id `68d61090-a97f-47e9-bc64-7e5c7f8acbf7` · printing: SNC #200 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maestros Initiate
 
@@ -253,7 +279,9 @@
   > *"How far are you willing to go for your family, cleanblade?"*
   > *—Lord Xander*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30833 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/86/maestros-initiate) · oracle_id `85905607-dceb-4c37-81a3-ab441ce9490c` · printing: SNC #86 (2022-04-29) · [rulings](https://api.scryfall.com/cards/db94f2a9-53be-449e-8240-77f013cdd7e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-04-29* — Exiling Maestros Initiate from your graveyard is part of paying the cost of its ability. This means that no player can respond to the ability by removing it from your graveyard before you can pay the cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/86/maestros-initiate) · oracle_id `85905607-dceb-4c37-81a3-ab441ce9490c` · printing: SNC #86 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maestros Theater
 
@@ -276,6 +304,7 @@
   > Maestros' Totally Safe Hideout enters the battlefield tapped.
   > {T}: Add {U}, {B}, or {R}.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/615/maestros-totally-safe-hideout) · oracle_id `98b264d6-897b-49d9-82c4-ce82610fa62e` · printing: MB2 #615 (2024-08-02) · [rulings](https://api.scryfall.com/cards/8a1d595b-23d7-4236-8737-49ea78ff8907/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maeve, Insidious Singer
@@ -289,6 +318,7 @@
   > *Her haunting tune drowns out the percussion of snapping masts.*
 - **Keywords:** Goad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14878 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/GN3-2/maeve-insidious-singer) · oracle_id `2494daad-c81d-4a80-ba5d-e7011af8de46` · printing: PLST #GN3-2 (2026-10-19) · [rulings](https://api.scryfall.com/cards/5e31ce2f-378e-4c00-abf3-6b9e0db98141/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maeve, Wearer of Many Hats
@@ -301,4 +331,5 @@
   > Maeve gets +1/+1 for each Role attached to it.
   > Whenever you attach a Role to Maeve, draw a card.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04d/maeve-wearer-of-many-hats) · oracle_id `5216f55c-1e8c-4412-bd0e-d933a1b7aee1` · printing: UNK #RZ04d (2023-09-23) · [rulings](https://api.scryfall.com/cards/30d71c6a-22a7-42ba-b02a-3c434d98caff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

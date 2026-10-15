@@ -7,7 +7,7 @@
   "ingested_total": 33894,
   "batches_run": 6,
   "next_batch_size": 2000,
-  "last_run": "2026-10-15T11:03:53+00:00",
+  "last_run": "2026-10-15T11:04:12+00:00",
   "last_added": 0,
   "ingested_edhrec_rank_contiguous_through": 32351,
   "max_ingested_edhrec_rank": 32353,
@@ -65,17 +65,13 @@
     "source": "scryfall rulings bulk",
     "bulk_updated_at": "2026-10-15T09:00:33.309+00:00",
     "next_batch_size": 5000,
-    "cards_processed": 10000,
-    "cards_with_rulings_rendered": 7385,
-    "rulings_rendered": 32675,
+    "cards_processed": 33894,
+    "cards_with_rulings_rendered": 19889,
+    "rulings_rendered": 78943,
     "cards_with_rulings_available": 19889,
     "rulings_available_for_ingested": 78943,
-    "last_added": 9000,
-    "next_target": {
-      "name": "Exterminate!",
-      "oracle_id": "90b540ab-b05a-4d29-b896-7ff5da0b101d",
-      "edhrec_rank": 9909
-    },
+    "last_added": 23894,
+    "next_target": null,
     "history": [
       {
         "date": "2026-10-15",
@@ -86,6 +82,11 @@
         "date": "2026-10-15",
         "cards_processed": 9000,
         "done_total": 10000
+      },
+      {
+        "date": "2026-10-15",
+        "cards_processed": 23894,
+        "done_total": 33894
       }
     ]
   }

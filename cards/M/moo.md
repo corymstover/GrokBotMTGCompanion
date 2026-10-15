@@ -70,7 +70,12 @@
   > Undergrowth — When this creature enters, target creature gains menace and gets +X/+0 until end of turn, where X is the number of creature cards in your graveyard. (It can't be blocked except by two or more creatures.)
 - **Keywords:** Undergrowth
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26104 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/78/moodmark-painter) · oracle_id `f5068b54-b1f8-4751-9a09-fc1b554e8115` · printing: GRN #78 (2018-10-05) · [rulings](https://api.scryfall.com/cards/82903e5f-c10f-4767-a2c0-6f8cc7280fa0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-10-05* — Because tokens aren't cards, they never count for undergrowth abilities.
+  - *2018-10-05* — Creature cards with other types, such as artifact creature cards, count for undergrowth abilities.
+  - *2018-10-05* — If there are no creature cards in your graveyard, the target creature just gains menace until end of turn.
+  - *2018-10-05* — The value of X is determined only as the undergrowth ability resolves. If the number of creature cards in your graveyard changes later in the turn, the target creature is unaffected.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/78/moodmark-painter) · oracle_id `f5068b54-b1f8-4751-9a09-fc1b554e8115` · printing: GRN #78 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moogles' Valor
 
@@ -127,7 +132,10 @@
   > {2}, Return a land you control to its owner's hand: Target land becomes the basic land type of your choice until end of turn.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21150 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sok/46/moonbow-illusionist) · oracle_id `411137a5-7054-42bc-a731-88a15e5e6b9d` · printing: SOK #46 (2005-06-03) · [rulings](https://api.scryfall.com/cards/f4960789-1a45-4273-b2f2-34713f19d697/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2005-06-01* — Only the targeted land is affected.
+  - *2005-06-01* — The land’s name as well as any supertype it might have (such as legendary) remains unchanged.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sok/46/moonbow-illusionist) · oracle_id `411137a5-7054-42bc-a731-88a15e5e6b9d` · printing: SOK #46 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moon-Boy, Dino Rider
 
@@ -140,6 +148,7 @@
 - **Flavor text** (MSC printing):
   > *"To have such a brother is to be filled with pride!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23476 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/563/moon-boy-dino-rider) · oracle_id `bb7638ce-3802-4198-89d2-6f5b647bd8fb` · printing: MSC #563 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c3ee8468-3780-4887-8586-eaf418a95a21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moon-Circuit Hacker
@@ -172,6 +181,7 @@
 - **Flavor text** (GS1 printing):
   > *The most nimble of creatures, it chases the most sacred luminence.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31485 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gs1/10/moon-eating-dog) · oracle_id `a8e69725-cd57-4340-83b1-498bc0bd77b8` · printing: GS1 #10 (2018-06-22) · [rulings](https://api.scryfall.com/cards/a85747dd-84c0-4e31-964e-c455c96f87bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonfolk Puzzlemaker
@@ -186,6 +196,7 @@
   > *"Research is hardly the dry, serious pastime outsiders make it out to be."*
 - **Keywords:** Scry, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16547 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/68/moonfolk-puzzlemaker) · oracle_id `8ee2371c-e2c3-412e-b9e9-1ec511c9d537` · printing: NEO #68 (2022-02-18) · [rulings](https://api.scryfall.com/cards/c9fa6d4c-78dc-4b40-9ce8-a0e593d4001f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moon Girl and Devil Dinosaur
@@ -197,6 +208,7 @@
   > Whenever you draw your second card each turn, until end of turn, Moon Girl and Devil Dinosaur's base power and toughness become 6/6 and they gain trample.
   > Whenever an artifact you control enters, draw a card. This ability triggers only once each turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20038 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/223/moon-girl-and-devil-dinosaur) · oracle_id `bfe0818b-ae13-4174-85c8-24b895d28df0` · printing: MSH #223 (2026-06-26) · [rulings](https://api.scryfall.com/cards/8c6a6d11-45cb-4def-a04b-51b91e1747db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonglove Changeling
@@ -209,6 +221,7 @@
   > {B}: This creature gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy that creature.)
 - **Keywords:** Changeling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16361 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mor/67/moonglove-changeling) · oracle_id `61b74f82-39f3-4618-b8e7-292058421d1b` · printing: MOR #67 (2008-02-01) · [rulings](https://api.scryfall.com/cards/6955348b-70e9-49c3-9343-9becf977abe8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonglove Extract
@@ -220,6 +233,7 @@
 - **Flavor text** (IMA printing):
   > *Diluted, moonglove can etch living tissue. Concentrated, a drop will kill a giant.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23581 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/222/moonglove-extract) · oracle_id `ac2711b7-318d-478a-b69c-d44baff46f2d` · printing: IMA #222 (2017-11-17) · [rulings](https://api.scryfall.com/cards/2d016c5f-265b-4426-8dd8-87872f075f33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonglove Extractor
@@ -232,6 +246,7 @@
 - **Flavor text** (ECL printing):
   > *Concentrating moonglove flowers into deadly moonglow poison is a revered but fleeting position for Lorwyn elves.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14308 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/109/moonglove-extractor) · oracle_id `980affa7-6308-4acd-af64-f804e574a89b` · printing: ECL #109 (2026-01-23) · [rulings](https://api.scryfall.com/cards/8383e0ab-81b4-4a6b-b87b-dd9180dca1c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonglove Winnower
@@ -245,6 +260,7 @@
   > *Winnowers live to eliminate eyeblights, creatures the elves deem too ugly to exist.*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28102 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/126/moonglove-winnower) · oracle_id `d4870995-f434-4985-a921-1dc9556cee41` · printing: LRW #126 (2007-10-12) · [rulings](https://api.scryfall.com/cards/effb7761-98a8-4cb8-883a-ddcb91d30c08/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moon Heron
@@ -258,6 +274,7 @@
   > *The heron is the symbol of the archangel Avacyn. The fact that such spirits still fly gives the church hope that its founder may one day return.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30654 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/isd/69/moon-heron) · oracle_id `57dfe4aa-1e9a-4891-851b-201edd1fc79c` · printing: ISD #69 (2011-09-30) · [rulings](https://api.scryfall.com/cards/a24de601-1d7b-41c4-aba1-fdb6fd8d5251/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonhold
@@ -267,7 +284,17 @@
 - **Oracle text:**
   > Target player can't play lands this turn if {R} was spent to cast this spell and can't cast creature spells this turn if {W} was spent to cast this spell. (Do both if {R}{W} was spent.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23364 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eve/143/moonhold) · oracle_id `9b515bb8-6e37-4b2d-8d56-bb517c3b267c` · printing: EVE #143 (2008-07-25) · [rulings](https://api.scryfall.com/cards/c72245a8-6f5e-4564-804f-30407c1c4e57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2008-08-01* — If the spell is copied, the copy will never have had mana of the stated color paid for it, no matter what colors were spent on the original spell.
+  - *2008-08-01* — If the spell is copied, the copy will never have had mana of the stated color paid for it, no matter what colors were spent on the original spell.
+  - *2008-08-01* — Moonhold doesn't stop effects that "put a card onto the battlefield."
+  - *2008-08-01* — Moonhold is not a counterspell. It will have no effect on creature spells the targeted player cast before Moonhold resolved.
+  - *2008-08-01* — The spell cares about what mana was spent to pay its total cost, not just what mana was spent to pay the hybrid part of its cost.
+  - *2008-08-01* — The spell cares about what mana was spent to pay its total cost, not just what mana was spent to pay the hybrid part of its cost.
+  - *2008-08-01* — The spell checks on resolution to see if any mana of the stated colors was spent to pay its cost. If so, it doesn't matter how much mana of that color was spent.
+  - *2008-08-01* — The spell checks on resolution to see if any mana of the stated colors was spent to pay its cost. If so, it doesn't matter how much mana of that color was spent.
+  - *2008-08-01* — When you cast the spell, you choose its targets before you pay for it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eve/143/moonhold) · oracle_id `9b515bb8-6e37-4b2d-8d56-bb517c3b267c` · printing: EVE #143 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonlace
 
@@ -278,7 +305,10 @@
 - **Flavor text** (TSP printing):
   > *Once a vision of constancy in the sky, the moon had long been hidden from view by the haze that chokes the heavens. The very sight of it had become a sign that change was in the air.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17872 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/68/moonlace) · oracle_id `52d4dc8a-2799-4b4e-9c20-f14bb75c2279` · printing: TSP #68 (2006-10-06) · [rulings](https://api.scryfall.com/cards/c781cc80-5f57-4677-a9da-3523191cc7c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2006-09-25* — If Moonlace is cast on a spell that becomes a permanent (a creature spell, an artifact spell, or an enchantment spell), the permanent will enter colorless and will remain colorless until it leaves the battlefield (or until another effect changes its color).
+  - *2006-09-25* — Moonlace's effect doesn't wear off.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/68/moonlace) · oracle_id `52d4dc8a-2799-4b4e-9c20-f14bb75c2279` · printing: TSP #68 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonlight Bargain
 
@@ -289,6 +319,7 @@
 - **Flavor text** (C18 printing):
   > *At every fifth full moon, the Moon Market convenes to peddle Ravnica's most forbidden wares.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16066 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/114/moonlight-bargain) · oracle_id `444dea65-9be7-4b64-afd1-eebe44b285be` · printing: C18 #114 (2018-08-10) · [rulings](https://api.scryfall.com/cards/662097e6-355f-4192-9fa7-4b8c22346a64/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonlight Geist
@@ -303,6 +334,7 @@
   > *Wails and whispers are the only weapons she has left.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31385 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/avr/29/moonlight-geist) · oracle_id `12a8c546-d0d1-4c3d-bfca-c1e59cef349a` · printing: AVR #29 (2012-05-04) · [rulings](https://api.scryfall.com/cards/4cf4c4cf-df35-4725-81ca-d62b70b8d0dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonlight Hunt
@@ -328,6 +360,7 @@
 - **Flavor text** (ECL printing):
   > *Isilu's adherents mourn the dead, purging grief through keening rituals.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16241 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/26/moonlit-lamenter) · oracle_id `ce009bd4-5ffb-46a4-a9dd-b9c060926467` · printing: ECL #26 (2026-01-23) · [rulings](https://api.scryfall.com/cards/fb8fc509-cff6-470f-abf6-b07f6c3f94e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonlit Meditation
@@ -360,7 +393,11 @@
 - **Flavor text** (ELD printing):
   > *They comb the shallows of Lochmere for relics of a bygone era. And if they happen upon a lone traveler, all the better.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27664 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/57/moonlit-scavengers) · oracle_id `8403ea46-e6ac-458c-9c17-4c8a81f21659` · printing: ELD #57 (2019-10-04) · [rulings](https://api.scryfall.com/cards/6a658bbd-8d64-460b-87ae-ec8054204794/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-10-04* — Moonlit Scavengers's ability doesn't return multiple creatures if you control multiple artifacts and/or enchantments.
+  - *2019-10-04* — Moonlit Scavengers's ability won't trigger at all if you don't control an artifact or enchantment immediately after it enters the battlefield. If you don't control an artifact or enchantment as the ability resolves, the ability has no effect. These don't have the be the same artifact or enchantment at both times, however.
+  - *2019-10-04* — You still control Auras that you put onto the battlefield attached to a permanent you don't control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/57/moonlit-scavengers) · oracle_id `8403ea46-e6ac-458c-9c17-4c8a81f21659` · printing: ELD #57 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonlit Strider
 
@@ -372,6 +409,7 @@
   > Soulshift 3 (When this creature dies, you may return target Spirit card with mana value 3 or less from your graveyard to your hand.)
 - **Keywords:** Soulshift
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25326 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/27/moonlit-strider) · oracle_id `8524a6a9-4d4c-4796-aad3-0f08f825a239` · printing: MM2 #27 (2015-05-22) · [rulings](https://api.scryfall.com/cards/04fe00af-1634-45bd-bf1b-42997c4c3359/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonlit Wake
@@ -384,6 +422,7 @@
   > *"As long as Rushwood glows, no life is ever truly lost."*
   > *—Ta-Karnst, Cho-Arrim healer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21786 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/29/moonlit-wake) · oracle_id `c93965a8-c527-4b1f-8322-b043f910ffb7` · printing: MMQ #29 (1999-10-04) · [rulings](https://api.scryfall.com/cards/1eba9595-6789-4d7a-9e46-8d1f75993b21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonmist
@@ -410,7 +449,9 @@
 - **Flavor text** (MID printing):
   > *The cathars fell like leaves as Tovolar himself joined the fray.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19965 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/148/moonragers-slash) · oracle_id `40a41774-fe50-438d-85e4-7f2beb29fb82` · printing: MID #148 (2021-09-24) · [rulings](https://api.scryfall.com/cards/eb4f266b-c41c-4047-ae6f-b2226c7459e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-09-24* — The phrase "if it's night" refers to the day or night designation the game can have. It does not refer to whether or not it's dark outside as you play the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/148/moonragers-slash) · oracle_id `40a41774-fe50-438d-85e4-7f2beb29fb82` · printing: MID #148 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonring Island
 
@@ -421,6 +462,7 @@
   > This land enters tapped.
   > {U}, {T}: Look at the top card of target player's library. Activate only if you control two or more blue permanents.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11839 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/276/moonring-island) · oracle_id `cf620c66-7db1-4db8-ae56-ee4bc2f77d74` · printing: SHM #276 (2008-05-02) · [rulings](https://api.scryfall.com/cards/64b36993-666c-40d0-b61a-1d162bd06dcc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonring Mirror
@@ -431,7 +473,10 @@
   > Whenever you draw a card, exile the top card of your library face down.
   > At the beginning of your upkeep, you may exile all cards from your hand face down. If you do, put all other cards you own exiled with this artifact into your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24051 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/chk/262/moonring-mirror) · oracle_id `037c49e4-39ca-4d72-8f5c-9adc5687601b` · printing: CHK #262 (2004-10-01) · [rulings](https://api.scryfall.com/cards/8d36357a-97f6-4b2f-abbf-43f84c29609d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-12-01* — If you choose to use Moonring Mirror’s second ability, you return all the cards you own exiled by both of its abilities, but not any of the cards you just exiled from your hand.
+  - *2004-12-01* — Note that Moonring Mirror’s first ability is not a replacement effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chk/262/moonring-mirror) · oracle_id `037c49e4-39ca-4d72-8f5c-9adc5687601b` · printing: CHK #262 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonrise Cleric
 
@@ -445,6 +490,7 @@
   > *"The sunrisers have entrusted me with their life force. I intend to repay them bountifully."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11832 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/226/moonrise-cleric) · oracle_id `d8067f42-68c0-42da-a1d6-859953939555` · printing: BLB #226 (2024-08-02) · [rulings](https://api.scryfall.com/cards/35f2a71f-31e8-4b51-9dd4-51a5336b3b86/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonshadow
@@ -472,7 +518,20 @@
   > Up to three target creatures gain flying until end of turn. (Then exile this card. You may cast the creature later from exile.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13592 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/84/moonshae-pixie-pixie-dust) · oracle_id `89f1aefd-feb6-45ce-a992-707d027714e7` · printing: CLB #84 (2022-06-10) · [rulings](https://api.scryfall.com/cards/63780e4a-3f63-473c-97d0-5d9462e264f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2022-06-10* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Altar of Bhaal is an artifact card whose mana value is 2.
+  - *2022-06-10* — An effect may refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
+  - *2022-06-10* — Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2022-06-10* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to cast it as a permanent later.
+  - *2022-06-10* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to cast it as a permanent spell.
+  - *2022-06-10* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to cast the copy from exile.
+  - *2022-06-10* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2022-06-10* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+  - *2022-06-10* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell.
+  - *2022-06-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2022-06-10* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+  - *2024-04-12* — If an opponent was dealt combat damage this turn and subsequently lost the game, Moonshae Pixie's second ability still counts that player when determining how many cards its controller should draw.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/84/moonshae-pixie-pixie-dust) · oracle_id `89f1aefd-feb6-45ce-a992-707d027714e7` · printing: CLB #84 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonshaker Cavalry
 
@@ -566,6 +625,7 @@
   > *\*A Midsummer Night's Dream\**
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30729 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/s00/42/moon-sprite) · oracle_id `1e41136b-afa7-45ee-8d04-d0c7514b5387` · printing: S00 #42 (2000-04-01) · [rulings](https://api.scryfall.com/cards/49d0acb1-bc07-42d5-a327-1617f0ed2c60/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonstone Eulogist
@@ -598,6 +658,7 @@
   > *Moonstone weapons drink in the last light of dusk to give their wielders an edge in combat.*
 - **Keywords:** Deathtouch, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12188 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/101/moonstone-harbinger) · oracle_id `fcae4f9d-8f81-42f9-93a3-82a482851bdd` · printing: BLB #101 (2024-08-02) · [rulings](https://api.scryfall.com/cards/59e4aa8d-1d06-48db-b205-aa2f1392bbcb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonstone, Harsh Mistress
@@ -612,6 +673,7 @@
   > *"Let me show you the dark side of the moon."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10954 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/107/moonstone-harsh-mistress) · oracle_id `aeeb50f2-8e02-4d40-a1dd-28b1c5c85c7e` · printing: MSH #107 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1a1b2bd0-e17d-4b34-a8ee-7c913a6bc945/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonveil Dragon
@@ -627,6 +689,7 @@
   > *—Thalia, Knight-Cathar*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16151 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dka/99/moonveil-dragon) · oracle_id `e0cd4619-9a83-41f2-a349-358feaf2ef2f` · printing: DKA #99 (2012-02-03) · [rulings](https://api.scryfall.com/cards/92503118-b37b-4c52-b40a-487f6ad695ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonveil Regent
@@ -640,7 +703,12 @@
   > When this creature dies, it deals X damage to any target, where X is the number of colors among permanents you control.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17719 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/149/moonveil-regent) · oracle_id `61c2a2cb-6424-4a20-81fb-f8e15a8f95ce` · printing: MID #149 (2021-09-24) · [rulings](https://api.scryfall.com/cards/f9fc55fd-161a-4d77-82f0-27075210e7e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-09-24* — If you cast a colorless spell, you may choose to discard your hand and draw no cards. Less great plan?
+  - *2021-09-24* — If you have no cards in hand as Moonveil Regent's first ability resolves, you may still choose to discard your hand. You'll just draw a card for each of that spell's colors. Great plan!
+  - *2021-09-24* — Moonveil Regent's last ability triggers even if you control no permanents that are one or more colors when it dies. The amount of damage is calculated as the ability resolves. Consider only the permanents you control at that time to determine how much damage Moonveil Regent deals.
+  - *2021-09-24* — The colors of a nonmodal double-faced card that was cast with the disturb keyword ability are determined by its color indicator, not the mana cost on the front face of the card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/149/moonveil-regent) · oracle_id `61c2a2cb-6424-4a20-81fb-f8e15a8f95ce` · printing: MID #149 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moon-Vigil Adherents
 
@@ -654,7 +722,9 @@
   > *Adherents of the moon seek to lay claim over the entire plane and bring it under Isilu's domain.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10471 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/184/moon-vigil-adherents) · oracle_id `d0fa43f6-d8f6-4674-b538-6d546b7dcf40` · printing: ECL #184 (2026-01-23) · [rulings](https://api.scryfall.com/cards/60621c37-62e1-4261-ae76-3946b4a0cfa3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-11-17* — Because damage remains marked on creatures until the damage is removed as the turn ends, nonlethal damage dealt to Moon-Vigil Adherents may become lethal if the number of creatures you control or creature cards in your graveyard changes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/184/moon-vigil-adherents) · oracle_id `d0fa43f6-d8f6-4674-b538-6d546b7dcf40` · printing: ECL #184 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonwing Moth
 
@@ -669,6 +739,7 @@
   > *—Snow-Fur, kitsune poet*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30694 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/20/moonwing-moth) · oracle_id `6501b3c7-fd21-4668-b647-db12f0cc23f7` · printing: SOK #20 (2005-06-03) · [rulings](https://api.scryfall.com/cards/f646ed53-c323-4f84-b8c9-39e31da1aca8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moopsy
@@ -684,6 +755,7 @@
   > *—\*Lawmim Galactopedia\**
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31266 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/207/moopsy) · oracle_id `89b9efc8-d1cd-4b2a-acf3-4f0dd1629167` · printing: TRK #207 (2026-11-13) · [rulings](https://api.scryfall.com/cards/dfbaf597-6be2-4aa0-88ae-cc4c94878add/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moor Fiend
@@ -698,6 +770,7 @@
   > *—Lim-Dûl, the Necromancer*
 - **Keywords:** Landwalk, Swampwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30984 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/153/moor-fiend) · oracle_id `ff1fd718-ee97-425c-b8bf-97fea192c631` · printing: ICE #153 (1995-06-03) · [rulings](https://api.scryfall.com/cards/57089dd4-e30d-498d-9341-43c104c6f3f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moorish Cavalry
@@ -711,6 +784,7 @@
   > *Members of the elite Moorish Cavalry are very particular about their mounts, choosing only those whose bloodlines have been pure for generations.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31200 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsb/11/moorish-cavalry) · oracle_id `bccdc42f-9e55-4f8e-a29e-ef39f38add6a` · printing: TSB #11 (2006-10-06) · [rulings](https://api.scryfall.com/cards/c6ae847c-9b88-4e34-930f-2f4fd28423f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moorland Drifter
@@ -724,7 +798,13 @@
   > *It has no apparent purpose or direction. It simply drifts, buoyed by breezes both tangible and otherworldly.*
 - **Keywords:** Delirium
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31248 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/27/moorland-drifter) · oracle_id `f5fa9138-9640-4586-bc81-caa6b8eae8b6` · printing: SOI #27 (2016-04-08) · [rulings](https://api.scryfall.com/cards/5839942c-0ad1-4f77-97a0-142b8ef2266c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2016-04-08* — Because you consider only the characteristics of a double-faced card's front face while it's not on the battlefield, the types of its back face won't be counted for delirium.
+  - *2016-04-08* — Flying only matters as blockers are chosen. Causing Moorland Drifter to gain flying after blockers are chosen won't cause it to become unblocked.
+  - *2016-04-08* — In some rare cases, you can have a token or a copy of a spell in your graveyard at the moment that an object's delirium ability counts the card types among cards in your graveyard, before that token or copy ceases to exist. Because tokens and copies of spells are not cards, even if they are copies of cards, their types will never be counted.
+  - *2016-04-08* — The card types in Magic are artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Supertypes (such as legendary and basic) and subtypes (such as Human and Equipment) are not counted.
+  - *2016-04-08* — The number of card types matters, not the number of cards. For example, Wicker Witch (an artifact creature) along with Catalog (an instant) and Chaplain's Blessing (a sorcery) will enable delirium.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/27/moorland-drifter) · oracle_id `f5fa9138-9640-4586-bc81-caa6b8eae8b6` · printing: SOI #27 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moorland Haunt
 
@@ -747,7 +827,9 @@
 - **Flavor text** (M20 printing):
   > *Inquisitors are taught scripture, philosophy, and the fine art of sharpening an axe.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30038 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/31/moorland-inquisitor) · oracle_id `76bbd280-dcbc-43b3-a8a1-603443b2ccaa` · printing: M20 #31 (2019-07-12) · [rulings](https://api.scryfall.com/cards/9d7b1446-7c9f-4b62-9877-e3d1060948aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-07-12* — Multiple instances of first strike on the same creature are redundant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/31/moorland-inquisitor) · oracle_id `76bbd280-dcbc-43b3-a8a1-603443b2ccaa` · printing: M20 #31 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moorland Rescuer
 
@@ -759,4 +841,7 @@
 - **Flavor text** (MIC printing):
   > *"Hold on tight, little one. I'll get you to safety."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14376 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mic/7/moorland-rescuer) · oracle_id `f687a746-4807-41d5-848d-4053ddef6a76` · printing: MIC #7 (2021-09-24) · [rulings](https://api.scryfall.com/cards/0c293b8c-3ebc-4d14-b0a6-5e41d966cba1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-09-24* — If Moorland Rescuer is exiled from its owner's graveyard in response to its triggered ability, the creature cards will still be returned to the battlefield.
+  - *2021-09-24* — Moorland Rescuer's ability uses the power Moorland Rescuer had when it was last on the battlefield, not its power in the graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mic/7/moorland-rescuer) · oracle_id `f687a746-4807-41d5-848d-4053ddef6a76` · printing: MIC #7 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

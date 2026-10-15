@@ -23,7 +23,10 @@
   > *He can't fear what he can't see.*
 - **Keywords:** Delirium, Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28067 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/131/gouged-zealot) · oracle_id `35b30274-bf8c-4d3c-b738-f9e62cdd5156` · printing: MH2 #131 (2021-06-18) · [rulings](https://api.scryfall.com/cards/5c0595a6-a9e5-4ea8-b733-382e6c365759/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-06-18* — Gouged Zealot's triggered ability checks whether there are four or more card types among cards in your graveyard to see if it triggers. If you don't, the ability won't trigger at all. The ability will check again as it tries to resolve. If you don't at that time, the ability won't do anything. The specific cards in your graveyard may change between the two checks.
+  - *2021-06-18* — The card types that can appear in a graveyard are artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Legendary, basic, and snow are supertypes, not card types; Cyclops and Berserker are subtypes, not card types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/131/gouged-zealot) · oracle_id `35b30274-bf8c-4d3c-b738-f9e62cdd5156` · printing: MH2 #131 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gourmand's Talent
 

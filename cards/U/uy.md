@@ -20,4 +20,6 @@
   > {2}, Return two lands you control to their owner's hand: Copy target instant or sorcery spell. You may choose new targets for the copy.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14205 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c13/64/uyo-silent-prophet) · oracle_id `93da1e63-54d6-4b05-af91-f13e7e111176` · printing: C13 #64 (2013-11-01) · [rulings](https://api.scryfall.com/cards/50840915-545b-4de2-94bb-22a0b1e0dc7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-12-01* — If you copy an Arcane spell that has cards spliced onto it, you’ll copy the spliced text as well as the original spell text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c13/64/uyo-silent-prophet) · oracle_id `93da1e63-54d6-4b05-af91-f13e7e111176` · printing: C13 #64 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -24,7 +24,10 @@
 - **Flavor text** (RTR printing):
   > *The Hauler's Collective wields great influence over the Ravnican merchant class. Without it, little moves in the city.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29615 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/7/bazaar-krovod) · oracle_id `1de561c7-4ff4-4eb9-8cbe-a29f568e786a` · printing: RTR #7 (2012-10-05) · [rulings](https://api.scryfall.com/cards/b07bb2fe-3a9b-47d0-864b-99a662d9544b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2012-10-01* — Bazaar Krovod’s ability can target an attacking creature that’s untapped (such as one with vigilance).
+  - *2012-10-01* — Untapping an attacking creature doesn’t cause it to stop attacking or remove it from combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/7/bazaar-krovod) · oracle_id `1de561c7-4ff4-4eb9-8cbe-a29f568e786a` · printing: RTR #7 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bazaar of Baghdad
 
@@ -33,7 +36,9 @@
 - **Oracle text:**
   > {T}: Draw two cards, then discard three cards.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10570 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/294/bazaar-of-baghdad) · oracle_id `54022a10-c9f0-458d-a0ed-228843cd9a40` · printing: VMA #294 (2014-06-16) · [rulings](https://api.scryfall.com/cards/c88acaa8-ad4d-4321-a6f6-9361916e5b5e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You can’t cast spells or activate mana abilities before discarding the extra cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/294/bazaar-of-baghdad) · oracle_id `54022a10-c9f0-458d-a0ed-228843cd9a40` · printing: VMA #294 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bazaar of Wonders
 
@@ -43,7 +48,9 @@
   > When this enchantment enters, exile all graveyards.
   > Whenever a player casts a spell, counter it if a card with the same name is in a graveyard or a nontoken permanent with the same name is on the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28492 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/mir/55/bazaar-of-wonders) · oracle_id `7fca65b8-01fe-4858-97c6-f97ae82cd801` · printing: MIR #55 (1996-10-08) · [rulings](https://api.scryfall.com/cards/78e7a165-e135-4b85-943d-8352b6e65870/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — This has the supertype world. When a world permanent enters, any world permanents that were already on the battlefield are put into their owners' graveyards. This is a state-based action called the "world rule." The new world permanent stays on the battlefield. If two world permanents enter at the same time, they're both put into their owners' graveyards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mir/55/bazaar-of-wonders) · oracle_id `7fca65b8-01fe-4858-97c6-f97ae82cd801` · printing: MIR #55 (1996-10-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bazaar Trademage
 
@@ -57,7 +64,9 @@
   > *He traded a lamp for a scepter, the scepter for a ruby, and the ruby for a simple rug.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23777 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/41/bazaar-trademage) · oracle_id `6c94a255-c031-48d7-aa07-1189ad3da3b6` · printing: MH1 #41 (2019-06-14) · [rulings](https://api.scryfall.com/cards/9d75faf7-fc27-4fc2-9e80-e35232c42542/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-06-14* — You draw two cards and discard three cards all while Bazaar Trademage’s triggered ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/41/bazaar-trademage) · oracle_id `6c94a255-c031-48d7-aa07-1189ad3da3b6` · printing: MH1 #41 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bazaar Trader
 

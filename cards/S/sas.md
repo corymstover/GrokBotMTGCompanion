@@ -22,7 +22,16 @@
 - **Face 2: Sasaya's Essence** — — — Legendary Enchantment
   > Whenever a land you control is tapped for mana, add an additional one mana of any type that land produced for each other land you control with the same name as it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17322 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/sok/145/sasaya-orochi-ascendant-sasayas-essence) · oracle_id `f07f3bf0-e1c8-4a24-87c7-1d6d0b5bd242` · printing: SOK #145 (2005-06-03) · [rulings](https://api.scryfall.com/cards/d224c50f-8146-4c91-9401-04e5bd306d02/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2005-06-01* — Each Ascendant is legendary in both its unflipped and flipped forms. This means that effects that look for legendary creature cards, such as Time of Need and Captain Sisay, can find an Ascendant.
+  - *2005-06-01* — If Sasaya's Essence's controller has four Forests and taps one of them for {G}, the Essence will add {G}{G}{G} for a total of {G}{G}{G}{G}.
+  - *2005-06-01* — If Sasaya's Essence's controller has four Mossfire Valley and taps one of them for {R}{G}, the Essence will add three mana (one for each other Mossfire Valley) of any combination of {R} and/or {G}.
+  - *2005-06-01* — If Sasaya's Essence's controller has two Brushlands and taps one of them for {W}, Sasaya's Essence adds another {W}. It won't produce {G} or {C} unless the land was tapped for {G} or {C} instead.
+  - *2005-06-01* — Sasaya's Essence has a triggered mana ability. Like activated mana abilities, the triggered mana ability doesn't use the stack.
+  - *2005-06-01* — The triggered mana ability counts the number of other lands with that same name and adds that much mana. The type (that is, the color of mana or colorless mana) is the same as the mana the land just produced.
+  - *2005-06-01* — You don't need to have seven lands in hand to reveal your hand. You leave your hand revealed until the ability resolves. If you don't have seven or more land cards in your hand at that time, the effect does nothing.
+  - *2005-06-01* — You don't need to tap Sasaya to use its ability, so you can activate the ability on the turn Sasaya comes under your control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sok/145/sasaya-orochi-ascendant-sasayas-essence) · oracle_id `f07f3bf0-e1c8-4a24-87c7-1d6d0b5bd242` · printing: SOK #145 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sash and Waistcoat, Unmen
 
@@ -34,6 +43,7 @@
   > {3}: Manifest the top card of your library. Any player may activate this ability but only as a sorcery. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)
 - **Keywords:** Manifest
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #23541 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/11/sash-and-waistcoat-unmen) · oracle_id `2ff470ee-4532-4ded-a684-a2c0d1253fb3` · printing: MBC #11 (2026-10-19) · [rulings](https://api.scryfall.com/cards/7ee28c45-01c4-4f15-83d5-ede29f05a256/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saskia the Unyielding
@@ -47,7 +57,12 @@
   > Whenever a creature you control deals combat damage to a player, it deals that much damage to the chosen player.
 - **Keywords:** Vigilance, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10844 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c16/41/saskia-the-unyielding) · oracle_id `e54d207c-51b8-458e-86a1-2633ac064c8e` · printing: C16 #41 (2016-11-11) · [rulings](https://api.scryfall.com/cards/5b483db6-b614-4af1-820a-42a4ee0c8707/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-11-08* — If Saskia leaves the battlefield and returns, you choose a player again. It doesn't remember the previously chosen player.
+  - *2016-11-08* — If a creature you control deals combat damage to the chosen player, it deals that much damage to that player again.
+  - *2016-11-08* — Once the chosen player has left the game, Saskia's triggered ability will have no effect.
+  - *2016-11-08* — The damage that Saskia's ability causes a creature to deal isn't combat damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c16/41/saskia-the-unyielding) · oracle_id `e54d207c-51b8-458e-86a1-2633ac064c8e` · printing: C16 #41 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sassy Gremlin Blood
 
@@ -60,4 +75,5 @@
   > {TK}{TK}{TK}{TK}{TK}{TK} — 10/10
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/34/sassy-gremlin-blood) · oracle_id `16663933-c8e2-4411-8eed-673c52fa3ecb` · printing: SUNF #34 (2022-10-07) · [rulings](https://api.scryfall.com/cards/e997ea17-18e3-4d4c-8ab3-0395e44fca9c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

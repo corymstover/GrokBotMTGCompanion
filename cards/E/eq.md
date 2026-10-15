@@ -23,6 +23,7 @@
   > If any source would deal 1 or more damage to a permanent or player this turn, it deals 2 damage to that permanent or player instead.
   > Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23505 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/4/equal-treatment) · oracle_id `beef71f4-f607-4718-9fde-98e8d7871ce9` · printing: TOR #4 (2002-02-04) · [rulings](https://api.scryfall.com/cards/310cb525-9299-471e-b310-392353b25472/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Equestrian Skill
@@ -37,6 +38,7 @@
   > *From the jagged peaks of Stensia, to the tangled woods of Kessig, to the bogs of Nephalia, the Gavony Riders prepare for all terrain.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26678 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/204/equestrian-skill) · oracle_id `8c8c12ff-24ff-4279-9bde-da8899d2c2d5` · printing: SOI #204 (2016-04-08) · [rulings](https://api.scryfall.com/cards/f9af14d1-a304-4744-9d6f-9ff5fcd92ad3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Equilibrium
@@ -49,7 +51,11 @@
   > *Seek balance in all things—as long as the scales are weighted in your favor.*
   > *—Vodalian saying*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11465 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/7ed/71/equilibrium) · oracle_id `cbc052e7-817f-43b0-b8e3-96b1644d798b` · printing: 7ED #71 (2001-04-11) · [rulings](https://api.scryfall.com/cards/dfbe8836-88c3-4f5d-88a0-73e54673960e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-04-01* — A "creature spell" is any spell with the type Creature, even if it has other types such as Artifact or Enchantment. Older cards of type Summon are also Creature spells.
+  - *2008-08-01* — The ability is put on the stack immediately after you cast a creature spell, which means the creature that spell will become won't be a legal target.
+  - *2008-08-01* — The ability will still resolve even if the spell that triggered it gets countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/7ed/71/equilibrium) · oracle_id `cbc052e7-817f-43b0-b8e3-96b1644d798b` · printing: 7ED #71 (2001-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Equilibrium Adept
 
@@ -63,7 +69,10 @@
   > *He regained balance while his opponent regained consciousness.*
 - **Keywords:** Flurry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21095 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/106/equilibrium-adept) · oracle_id `42bf9435-02e6-428f-a93c-fe4652deb4fc` · printing: TDM #106 (2025-04-11) · [rulings](https://api.scryfall.com/cards/a4ba6d74-c6be-4a5e-8859-b791bb6b8f51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-04-04* — Spells that were cast before a permanent with flurry count. If that permanent was the first spell you cast that turn, the next spell you cast that turn is your second spell.
+  - *2025-04-04* — You pay all costs and follow all timing rules for cards played this way. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/106/equilibrium-adept) · oracle_id `42bf9435-02e6-428f-a93c-fe4652deb4fc` · printing: TDM #106 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Equinox
 
@@ -74,7 +83,15 @@
   > Enchanted land has "{T}: Counter target spell if it would destroy a land you control."
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22618 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/leg/13/equinox) · oracle_id `0fa2cb01-476e-4e82-94e6-9639e53a7743` · printing: LEG #13 (1994-06-01) · [rulings](https://api.scryfall.com/cards/840c6586-a7a9-4ae8-96be-a995a0693eb6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2004-10-04* — Equinox will not counter a spell that deals damage to an animated land, even if it would deal more damage than the land's toughness. This is because the spell itself does not destroy the land directly. The land is destroyed by a game rule.
+  - *2004-10-04* — Equinox will not counter a spell that has a random chance of destroying a land.
+  - *2004-10-04* — Equinox will not counter a spell which requires sacrificing land when it enters or one that requires sacrificing land as part of the cost to cast it.
+  - *2004-10-04* — Equinox will not counter a spell which would indirectly cause destruction of one of your lands.
+  - *2004-10-04* — The ability can target any spell, even one that would not destroy a land.
+  - *2008-10-01* — Will not counter a spell which would destroy a land only if a choice is made.
+  - *2013-09-20* — When the activated ability resolves, determine whether the targeted spell would destroy a land if it resolved right then. If it would, then counter that spell. Otherwise, it is not countered, even if the spell could, under other circumstances, destroy a land.
+- **Source flags:** [Scryfall](https://scryfall.com/card/leg/13/equinox) · oracle_id `0fa2cb01-476e-4e82-94e6-9639e53a7743` · printing: LEG #13 (1994-06-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Equipoise
 
@@ -83,4 +100,7 @@
 - **Oracle text:**
   > At the beginning of your upkeep, for each land target player controls in excess of the number you control, choose a land that player controls, then the chosen permanents phase out. Repeat this process for artifacts and creatures. (While they're phased out, they're treated as though they don't exist. They phase in before that player untaps during their next untap step.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22882 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vis/3/equipoise) · oracle_id `aab905ef-b945-4523-b26f-fb5e6932bb56` · printing: VIS #3 (1997-02-03) · [rulings](https://api.scryfall.com/cards/53783312-3551-4361-ab02-c9651ce2a926/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — In multiplayer games, you can choose a different target player each turn. You can even choose yourself.
+  - *2009-10-01* — You perform the selection and phasing out on lands first, then on artifacts, then on creatures. This means that if you choose an artifact creature during the second pass, your opponent will control one fewer creature when it comes time to perform the third pass.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vis/3/equipoise) · oracle_id `aab905ef-b945-4523-b26f-fb5e6932bb56` · printing: VIS #3 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

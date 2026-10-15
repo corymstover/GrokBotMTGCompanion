@@ -39,4 +39,6 @@
   > When this enchantment enters, exile target creature an opponent controls until this enchantment leaves the battlefield.
   > At the beginning of the upkeep of the exiled card's owner, that player rolls two six-sided dice. If they roll doubles, sacrifice this enchantment.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/und/6/go-to-jail) · oracle_id `68e13ae5-c9fe-45e7-86ae-070b903df429` · printing: UND #6 (2020-02-29) · [rulings](https://api.scryfall.com/cards/d40eb8f1-7dec-47cd-99dd-b6147ad5593d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-02-29* — “Doubles” means the results of each of the two rolls is identical, after applying any effects that may alter or affect the roll. For example, if you roll a 5 and a 6, and then use Snickering Squirrel to change the 5 into a 6, you’ve rolled doubles.
+- **Source flags:** [Scryfall](https://scryfall.com/card/und/6/go-to-jail) · oracle_id `68e13ae5-c9fe-45e7-86ae-070b903df429` · printing: UND #6 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

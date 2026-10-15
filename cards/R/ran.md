@@ -71,7 +71,12 @@
   > Whenever one or more cards are put into exile from your hand or a spell or ability you control exiles one or more permanents from the battlefield, create a 1/1 white Spirit creature token with flying.
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12061 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/khc/2/ranar-the-ever-watchful) · oracle_id `c73a9939-0742-4919-94d6-c3b537697f17` · printing: KHC #2 (2021-02-05) · [rulings](https://api.scryfall.com/cards/1c8c41dd-8551-4ce8-a9be-9b9f65718852/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-06-18* — "The first card you foretell" refers to the first one you exile from your hand as part of the foretell special action. It doesn't refer to a foretold spell you cast from exile.
+  - *2021-06-18* — Ranar has recieved an update to its Oracle text. Specifically, its triggered ability doesn't care which player is exiling cards and permanents. Cards put into exile from your hand for any reason, such as the foretell ability, cause the ability to trigger, and permanents exiled from the battlefield cause it to trigger if you controlled the spell or ability that exiled them.
+  - *2021-06-18* — Ranar's triggered ability triggers only once for each time you exile cards from your hand or permanents from the battlefield, no matter how many objects were exiled at the same time.
+  - *2021-06-18* — Ranar's triggered ability will trigger when a spell or ability you control exiles any permanent, including token permanents and permanents you don't control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khc/2/ranar-the-ever-watchful) · oracle_id `c73a9939-0742-4919-94d6-c3b537697f17` · printing: KHC #2 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rancid Earth
 
@@ -82,6 +87,7 @@
   > Threshold — If there are seven or more cards in your graveyard, instead destroy that land and Rancid Earth deals 1 damage to each creature and each player.
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24083 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/78/rancid-earth) · oracle_id `c1972a20-5308-4ee4-b234-751b805d30e4` · printing: TOR #78 (2002-02-04) · [rulings](https://api.scryfall.com/cards/23d07a96-85ba-4714-94a5-4a8125954f58/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rancid Rats
@@ -129,7 +135,13 @@
   > *As the giant shadow loomed, the Forum of Amity fell silent for the first time in its history.*
 - **Keywords:** Reach, Converge, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22775 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/2/rancorous-archaic) · oracle_id `6a68fcaf-b1e8-451d-8e1c-b47db55c83cc` · printing: SOS #2 (2026-04-24) · [rulings](https://api.scryfall.com/cards/2565e16a-ed31-4867-adb8-f1633d580397/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2026-03-20* — If a spell with a converge ability is copied, no mana was spent to cast the copy, so the number of colors of mana spent to cast the spell will be zero. The number of colors spent to cast the original spell is not copied.
+  - *2026-03-20* — If there are any alternative or additional costs to cast a spell with a converge ability, the colors of mana spent to pay those costs will count.
+  - *2026-03-20* — If you cast a spell with converge without spending any mana to cast it (perhaps because an effect allowed you to cast it without paying its mana cost), then the number of colors spent to cast it will be zero.
+  - *2026-03-20* — The maximum number of colors of mana you can spend to cast a spell is five. Colorless is not a color. Note that the cost of a spell with converge may limit how many colors of mana you can spend.
+  - *2026-03-20* — Unless a spell or ability allows you to, you can't choose to pay more mana for a spell with a converge ability just to spend more colors of mana. Likewise, if a spell or ability reduces the amount of mana it costs you to cast a spell with converge, you can't ignore that cost reduction in order to spend more colors of mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/2/rancorous-archaic) · oracle_id `6a68fcaf-b1e8-451d-8e1c-b47db55c83cc` · printing: SOS #2 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Random Encounter
 
@@ -140,7 +152,14 @@
   > Flashback {6}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15789 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/150/random-encounter) · oracle_id `324493fc-a205-4177-aa94-cf4672844c81` · printing: FIN #150 (2025-06-13) · [rulings](https://api.scryfall.com/cards/3618e283-2df9-4eb9-97b0-96b55ee31cc0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/150/random-encounter) · oracle_id `324493fc-a205-4177-aa94-cf4672844c81` · printing: FIN #150 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ranger-Captain of Eos
 
@@ -197,6 +216,7 @@
   > *—Oracle \*en\*-Vec*
 - **Keywords:** First strike, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29209 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmp/268/ranger-en-vec) · oracle_id `04bb6731-5662-48d5-9e48-99d378c4adaf` · printing: TMP #268 (1997-10-14) · [rulings](https://api.scryfall.com/cards/4a89e82c-7206-4d74-95c6-ad3627e5a9ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ranger of Eos
@@ -224,6 +244,7 @@
   > Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Vigilance, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22371 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/217/rangers-aetherhive) · oracle_id `49d149d6-de94-48cf-974b-6bb4a37ce77c` · printing: DFT #217 (2025-02-14) · [rulings](https://api.scryfall.com/cards/1b238d2c-d10f-496d-aa34-5a1536e056b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ranger's Firebrand
@@ -236,7 +257,15 @@
   > *"Keep close to the fire, with your faces outward! Get some of the longer sticks ready in your hands!"*
   > *—Strider*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13254 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/143/rangers-firebrand) · oracle_id `796d3836-d820-440c-b0ad-5907b3cfcb10` · printing: LTR #143 (2023-06-23) · [rulings](https://api.scryfall.com/cards/06541200-fa4c-4b98-bdc4-44708fd2ddf6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — As the Ring tempts you, you get an emblem named The Ring if you don't have one. Then your emblem gains its next ability and you choose a creature you control to become (or remain) your Ring-bearer.
+  - *2023-06-16* — Each player can have only one emblem named The Ring and only one Ring-bearer at a time.
+  - *2023-06-16* — Each time the Ring tempts you, you must choose a creature if you control one.
+  - *2023-06-16* — If the creature you choose as your Ring-bearer was already your Ring-bearer, that still counts as choosing that creature as your Ring-bearer for the purpose of abilities that trigger "whenever you choose a creature as your Ring-bearer" or abilities that care about which creature was chosen as your Ring-bearer.
+  - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
+  - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
+  - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/143/rangers-firebrand) · oracle_id `796d3836-d820-440c-b0ad-5907b3cfcb10` · printing: LTR #143 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ranger's Guile
 
@@ -263,7 +292,18 @@
   > *Swift eyes to scout the way ahead.*
 - **Keywords:** Flying, Venture into the dungeon
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17627 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/37/rangers-hawk) · oracle_id `44924f1e-edc4-481b-93f3-78606d4fd691` · printing: AFR #37 (2021-07-23) · [rulings](https://api.scryfall.com/cards/9d7a7744-e49d-4b4e-b6ae-7fc6d2892cef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2021-07-23* — A player may only have one dungeon in the command zone at a time.
+  - *2021-07-23* — Choosing the dungeon or room to venture into is part of resolving the venture into the dungeon keyword action. Once that choice is made, players may not respond until after the appropriate room ability has triggered.
+  - *2021-07-23* — Dungeon cards are not part of a player's deck or sideboard. In both constructed and limited formats, players can use any dungeon card when they venture into the dungeon.
+  - *2021-07-23* — Dungeons are removed from the game as a state-based action.
+  - *2021-07-23* — If you somehow venture into the dungeon while a room's ability is on the stack, you will continue on in the dungeon. If you're already in the last room, complete that dungeon and start a new one.
+  - *2021-07-23* — Moving into a dungeon room will cause its room ability to trigger.
+  - *2021-07-23* — Once you resolve the last room ability of a dungeon, that dungeon is now completed and is removed from the game.
+  - *2021-07-23* — The player venturing into the dungeon chooses which dungeon they will venture into. They may choose a dungeon that they have already completed this game.
+  - *2021-07-23* — To venture into the dungeon, a player moves their venture marker into the next room of the dungeon they are currently in. If they aren't currently in a dungeon, that player instead chooses a dungeon card from outside the game, puts it into the command zone, and moves their venture marker onto the first room.
+  - *2021-07-23* — You can only move forward (well, downward) in a dungeon, never backwards or sideways.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/37/rangers-hawk) · oracle_id `44924f1e-edc4-481b-93f3-78606d4fd691` · printing: AFR #37 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ranger's Longbow
 
@@ -276,6 +316,7 @@
   > *With the right weapon, a fearsome beholder is nothing more than a big floating bullseye.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21128 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/203/rangers-longbow) · oracle_id `4b9abe7f-050f-4d0a-bc01-f442164f95de` · printing: AFR #203 (2021-07-23) · [rulings](https://api.scryfall.com/cards/34c99b32-353c-4930-a6ee-3fb44cf70253/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rangers of Ithilien
@@ -290,7 +331,18 @@
   > *"We have a new errand on this journey: to ambush the Men of Harad."*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16233 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/66/rangers-of-ithilien) · oracle_id `4d5fd9f0-ecb3-4b91-ae55-f02336d7cf37` · printing: LTR #66 (2023-06-23) · [rulings](https://api.scryfall.com/cards/819b4208-7a29-41fa-947f-614bf669b300/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2023-06-16* — As the Ring tempts you, you get an emblem named The Ring if you don't have one. Then your emblem gains its next ability and you choose a creature you control to become (or remain) your Ring-bearer.
+  - *2023-06-16* — Each player can have only one emblem named The Ring and only one Ring-bearer at a time.
+  - *2023-06-16* — Each time the Ring tempts you, you must choose a creature if you control one.
+  - *2023-06-16* — If the creature you choose as your Ring-bearer was already your Ring-bearer, that still counts as choosing that creature as your Ring-bearer for the purpose of abilities that trigger "whenever you choose a creature as your Ring-bearer" or abilities that care about which creature was chosen as your Ring-bearer.
+  - *2023-06-16* — If you gain control of a creature with the triggered ability, you can immediately choose that creature as your Ring-bearer as the Ring tempts you.
+  - *2023-06-16* — Rangers of Ithilien's triggered ability lets you gain control of a creature if it has lesser power than Rangers of Ithilien at the time that you choose the target and at the time that the ability resolves. After that, it no longer matters what the creature's power is; you will continue to control it for as long as you control Rangers of Ithilien.
+  - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
+  - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
+  - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
+  - *2023-06-16* — When Rangers of Ithilien's ability triggers, you can choose not to target a creature just to have the Ring tempt you. However, if you do choose a target, and that target is illegal at the time the ability tries to resolve, the ability won't resolve and none of its effects will happen. The Ring won't tempt you.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/66/rangers-of-ithilien) · oracle_id `4d5fd9f0-ecb3-4b91-ae55-f02336d7cf37` · printing: LTR #66 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ranger's Path
 
@@ -315,6 +367,7 @@
   > Crew 2
 - **Keywords:** Crew, Exhaust
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18290 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/55/rangers-refueler) · oracle_id `8e7ac64d-42c3-4e3b-9a20-9f09ee9d8a7a` · printing: DFT #55 (2025-02-14) · [rulings](https://api.scryfall.com/cards/67d2d713-8acb-4e3d-bd1d-0416fe9b9ef6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ranging Raptors
@@ -343,7 +396,9 @@
 - **Flavor text** (ULG printing):
   > *"Left, right, left, right . . . hmm. Okay—left, left, left, left, . . ."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31878 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/65/rank-and-file) · oracle_id `c0b8ab40-3c27-48bd-ae19-fb1a155a0522` · printing: ULG #65 (1999-02-15) · [rulings](https://api.scryfall.com/cards/59481cb5-2cb0-4b8c-84ee-519399862d46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The -1/-1 penalty is given to all green creatures on the battlefield when the triggered ability resolves. It will not apply to green creatures that enter later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/65/rank-and-file) · oracle_id `c0b8ab40-3c27-48bd-ae19-fb1a155a0522` · printing: ULG #65 (1999-02-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rankle and Torbran
 
@@ -401,6 +456,7 @@
   > • Each player creates a token that's a copy of Spiteful Prankster.
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB04e/rankle-master-of-pranksters) · oracle_id `6ffe8059-5506-4df4-9836-6cb507926a55` · printing: UNK #RB04e (2023-09-23) · [rulings](https://api.scryfall.com/cards/c280fe64-1cda-481c-881c-b667bb8dcc19/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rankle's Prank
@@ -432,7 +488,10 @@
 - **Flavor text** (MH1 printing):
   > *It recruits the fresh and tosses the rotten.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26153 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/102/rank-officer) · oracle_id `52c73c88-3b87-4184-b8e1-cd2b5688800d` · printing: MH1 #102 (2019-06-14) · [rulings](https://api.scryfall.com/cards/7a05edf6-ade4-4052-924d-6057faa51693/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-06-14* — In a Two-Headed Giant game, Rank Officer’s last ability causes the opposing team to lose 4 life
+  - *2019-06-14* — While resolving Rank Officer’s triggered ability, you can’t discard multiple cards to create multiple Zombie tokens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/102/rank-officer) · oracle_id `52c73c88-3b87-4184-b8e1-cd2b5688800d` · printing: MH1 #102 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rank Rat
 
@@ -444,6 +503,7 @@
 - **Flavor text** (FRA printing):
   > *The scrabbling of claws across stone was a symphony to Liliana's ears as she ordered the swarm against her sickeningly nice twin.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21593 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/61/rank-rat) · oracle_id `64e7ef06-ba30-4b19-9d44-ca77944cc930` · printing: FRA #61 (2026-10-02) · [rulings](https://api.scryfall.com/cards/4ff6da82-d7dd-4b59-b7e6-30670cea7169/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ransack
@@ -453,6 +513,7 @@
 - **Oracle text:**
   > Look at the top five cards of target player's library. Put any number of them on the bottom of that library in any order and the rest on top of the library in any order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29353 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/s99/47/ransack) · oracle_id `5b4a400b-435d-4140-984b-65f034c6a9fc` · printing: S99 #47 (1999-07-01) · [rulings](https://api.scryfall.com/cards/97b8db82-4632-40fd-b1e2-7172ddf8d6de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ransack the Lab
@@ -465,6 +526,7 @@
   > *"I think someone is stealing from my laboratory. It had better not be you!"*
   > *—Geralf, letter to Gisa*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11939 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/103/ransack-the-lab) · oracle_id `9b97a7fe-c5d9-4698-a49c-183b3f1ce4db` · printing: MH1 #103 (2019-06-14) · [rulings](https://api.scryfall.com/cards/b547513d-8b69-41cd-84c9-4b08b6426f1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ransack, the Lab
@@ -475,6 +537,7 @@
   > Spell commander (This card can be your commander. In Limited, it can partner like other monocolored legends.)
   > Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UB16/ransack-the-lab) · oracle_id `440ab324-205f-4f53-a8cc-994f30aefd74` · printing: UNK #UB16 (2023-07-29) · [rulings](https://api.scryfall.com/cards/16a04600-9aa2-4285-ab8e-3e17b4654825/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ransom Note
@@ -489,4 +552,19 @@
   > • Draw a card.
 - **Keywords:** Surveil, Goad, Cloak
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11397 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/45/ransom-note) · oracle_id `49c0aac5-d650-4ada-a194-3bf77f104bc1` · printing: MKC #45 (2024-02-09) · [rulings](https://api.scryfall.com/cards/88158a11-a44e-49b4-8ae3-d81c14265802/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2024-02-02* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent and Auras and Equipment that were attached to that permanent aren’t affected unless the new characteristics of the object change the legality of those targets or attachments.
+  - *2024-02-02* — Any time you have priority, you can turn a cloaked permanent you control face-up by revealing that it’s a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn’t use the stack and can’t be responded to.
+  - *2024-02-02* — At any time, you can look at a face-down spell or permanent you control. You can’t look at face-down permanents or spells you don’t control unless an effect instructs or allows you to do so.
+  - *2024-02-02* — Because face-down creatures don’t have a name, they can’t have the same name as any other creature, even another face-down creature.
+  - *2024-02-02* — Because the permanent is on the battlefield both before and after it’s turned face up, turning a permanent face up doesn’t cause any enters-the-battlefield abilities to trigger.
+  - *2024-02-02* — If a cloaked creature would have disguise (or morph) if it were face up, you may also turn it face up by paying its disguise (or morph) cost.
+  - *2024-02-02* — If a double-faced card is cloaked, it will be put onto the battlefield face down. While face down, it can’t transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up.
+  - *2024-02-02* — If a face-down creature loses its abilities, it can’t be turned face up with a disguise ability because it will no longer have a disguise ability (or a disguise cost) once face up.
+  - *2024-02-02* — If a face-down spell leaves the stack and goes to any zone other than the battlefield (if it was countered, for example), you must reveal it. Similarly, if a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or the game ends.
+  - *2024-02-02* — If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it’s an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won’t trigger, because even though you revealed the card, it never turned face up.
+  - *2024-02-02* — To cloak a card, put it onto the battlefield face down. It becomes a 2/2 face-down creature card with ward {2} and no name, mana cost, or creature types. It’s colorless and has a mana value of 0. Other effects that apply to the permanent can still grant it any characteristics it doesn’t have or change the characteristics it does have.
+  - *2024-02-02* — Turning a permanent face up or face down doesn’t change whether that permanent is tapped or untapped.
+  - *2024-02-02* — Unlike a face-down creature that was cast using a disguise or morph ability, a cloaked creature may still be turned face up after it loses its abilities if it’s a creature card.
+  - *2024-02-02* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/45/ransom-note) · oracle_id `49c0aac5-d650-4ada-a194-3bf77f104bc1` · printing: MKC #45 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

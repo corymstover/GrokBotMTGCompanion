@@ -61,6 +61,7 @@
 - **Flavor text** (S99 printing):
   > *The hardest lessons to grasp are the ones you've already learned.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17233 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/s99/48/relearn) · oracle_id `13cb7d87-ff12-4742-8f54-f3175536db40` · printing: S99 #48 (1999-07-01) · [rulings](https://api.scryfall.com/cards/c5f0f0cb-5f77-4887-a5be-463d5e5c47c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Release the Ants
@@ -71,7 +72,10 @@
   > Release the Ants deals 1 damage to any target. Clash with an opponent. If you win, return Release the Ants to its owner's hand. (Each clashing player reveals the top card of their library, then puts that card on their choice of the top or bottom. A player wins if their card had a greater mana value.)
 - **Keywords:** Clash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27380 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mor/98/release-the-ants) · oracle_id `b420e429-9dec-4993-a45f-3458795e5cbe` · printing: MOR #98 (2008-02-01) · [rulings](https://api.scryfall.com/cards/1b6f1afb-2451-4611-ac3e-3513a4651719/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-04-01* — If the spell is countered or doesn't resolve for any reason (for example, if all its targets become illegal), none of its effects happen. There is no clash, and the spell card won't be returned to your hand.
+  - *2008-04-01* — If you win the clash, the spell moves from the stack to your hand as part of its resolution. It never hits the graveyard. If you don't win the clash, the spell is put into the graveyard from the stack as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mor/98/release-the-ants) · oracle_id `b420e429-9dec-4993-a45f-3458795e5cbe` · printing: MOR #98 (2008-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Release the Dogs
 
@@ -95,7 +99,11 @@
   > *"Being an inventor means knowing how to use the tools at hand to make something great—or to bring it down."*
   > *—Pia Nalaar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13947 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/96/release-the-gremlins) · oracle_id `3b583358-d0d5-4f53-b06c-c6439156e684` · printing: AER #96 (2017-01-20) · [rulings](https://api.scryfall.com/cards/d4ba75be-2428-45aa-bf02-75c379a5dfa2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-02-09* — If an artifact becomes an illegal target for Release the Gremlins, it won’t change the number of tokens created. However, if every target artifact becomes an illegal target, Release the Gremlins doesn’t resolve and no tokens are created.
+  - *2017-02-09* — The value of X is limited by the number of artifacts that you can target. You can’t target the same artifact more than once.
+  - *2017-02-09* — You can target an artifact with indestructible. It won’t be destroyed, and you’ll still create X Gremlin tokens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/96/release-the-gremlins) · oracle_id `3b583358-d0d5-4f53-b06c-c6439156e684` · printing: AER #96 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Release to Memory
 
@@ -136,7 +144,14 @@
   > *They approach in formation, every movement efficient and sure. They halt, listen, and then press on in silent unison.*
 - **Keywords:** Amass
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21392 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/64/relentless-advance) · oracle_id `f54573d1-9950-46c3-b8f1-cd6f081d62ad` · printing: WAR #64 (2019-05-03) · [rulings](https://api.scryfall.com/cards/4258e242-91c6-4b30-86ec-7759705aa97c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-06-16* — Amass Orcs works the same way, except you create a 0/0 black Orc Army creature token if you don't control an Army. If the Army creature you chose isn't already an Orc, it becomes an Orc in addition to its other types. By combining cards with amass Orcs and amass Zombies, you can end up with an Orc Zombie Army.
+  - *2023-06-16* — Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."
+  - *2023-06-16* — If you don't control an Army, the Zombie Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Zombies, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't a Zombie, it becomes a Zombie in addition to its other types.
+  - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2023-06-16* — To amass Zombies N, if you don't control an Army creature, create a 0/0 black Zombie Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Zombie, it becomes a Zombie in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/64/relentless-advance) · oracle_id `f54573d1-9950-46c3-b8f1-cd6f081d62ad` · printing: WAR #64 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relentless Assault
 
@@ -180,6 +195,7 @@
   > *The Vau N'Akat created the Watchers to observe and the Drednoks to enforce.*
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32117 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/124/relentless-drednok) · oracle_id `98cbac1d-7896-4c63-a265-03bc5d670fa6` · printing: TRK #124 (2026-11-13) · [rulings](https://api.scryfall.com/cards/ce538db8-373d-4554-821e-cd96e795e37a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relentless Hunter
@@ -192,6 +208,7 @@
 - **Flavor text** (BBD printing):
   > *"I swore to take one head for each member of my family they killed. My task is nowhere near its end."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30555 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/226/relentless-hunter) · oracle_id `6881e3ac-9e3d-49d2-b2ac-63feb6f0f2ff` · printing: BBD #226 (2018-06-08) · [rulings](https://api.scryfall.com/cards/5601725f-d733-4052-86eb-5d11baad8c34/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relentless Pursuit
@@ -203,7 +220,9 @@
 - **Flavor text** (THB printing):
   > *Calix was patient, steadily following Elspeth until their destined confrontation.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19868 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/195/relentless-pursuit) · oracle_id `d39c378b-f0a2-400f-af40-a632e24b6d72` · printing: THB #195 (2020-01-24) · [rulings](https://api.scryfall.com/cards/752b9560-b1d6-441c-8bc8-bf6988112d25/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-01-24* — While resolving Relentless Pursuit, you could put no cards, a creature card, a land card, or a creature card and a land card into your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/195/relentless-pursuit) · oracle_id `d39c378b-f0a2-400f-af40-a632e24b6d72` · printing: THB #195 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relentless Raptor
 
@@ -217,7 +236,9 @@
   > *As the battle for Orazca unfolded, the contenders discovered that others had already staked a claim.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24216 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/169/relentless-raptor) · oracle_id `4727db28-98e9-453d-90c3-2d51365d32fc` · printing: RIX #169 (2018-01-19) · [rulings](https://api.scryfall.com/cards/2d0727ba-4180-4908-93be-a8abf29a8958/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-01-19* — If the defending player somehow gains control of Relentless Raptor after it attacks, it must also block if able.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/169/relentless-raptor) · oracle_id `4727db28-98e9-453d-90c3-2d51365d32fc` · printing: RIX #169 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relentless Rats
 
@@ -228,7 +249,10 @@
   > This creature gets +1/+1 for each other creature on the battlefield named Relentless Rats.
   > A deck can have any number of cards named Relentless Rats.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11331 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/a25/105/relentless-rats) · oracle_id `104ea189-14cd-420f-afdc-57b0f827ab8e` · printing: A25 #105 (2018-03-16) · [rulings](https://api.scryfall.com/cards/75f47b6e-9557-4853-b8d6-7602a91c59a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-07-26* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to one Relentless Rats may become lethal if another Relentless Rats leaves the battlefield during that turn.
+  - *2024-07-26* — The last ability of Relentless Rats lets you ignore the "four-of" rule. It doesn't let you ignore format legality. For example, during a Bloomburrow Limited event, you can't add Relentless Rats from your personal collection.
+- **Source flags:** [Scryfall](https://scryfall.com/card/a25/105/relentless-rats) · oracle_id `104ea189-14cd-420f-afdc-57b0f827ab8e` · printing: A25 #105 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relentless Rohirrim
 
@@ -241,7 +265,15 @@
   > *"The Orcs are in the Deep! Helm! Helm! Forth Helmingas!"*
   > *—Gamling the Old*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22935 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/144/relentless-rohirrim) · oracle_id `1212cc74-ff66-479e-8e1b-504446e1c6d9` · printing: LTR #144 (2023-06-23) · [rulings](https://api.scryfall.com/cards/21b7606a-6a4c-4bf0-b311-1883383161d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — As the Ring tempts you, you get an emblem named The Ring if you don't have one. Then your emblem gains its next ability and you choose a creature you control to become (or remain) your Ring-bearer.
+  - *2023-06-16* — Each player can have only one emblem named The Ring and only one Ring-bearer at a time.
+  - *2023-06-16* — Each time the Ring tempts you, you must choose a creature if you control one.
+  - *2023-06-16* — If the creature you choose as your Ring-bearer was already your Ring-bearer, that still counts as choosing that creature as your Ring-bearer for the purpose of abilities that trigger "whenever you choose a creature as your Ring-bearer" or abilities that care about which creature was chosen as your Ring-bearer.
+  - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
+  - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
+  - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/144/relentless-rohirrim) · oracle_id `1212cc74-ff66-479e-8e1b-504446e1c6d9` · printing: LTR #144 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relentless Skaabs
 
@@ -253,7 +285,11 @@
   > Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
 - **Keywords:** Undying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28534 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddq/46/relentless-skaabs) · oracle_id `5089cd0f-1338-4ecd-bb1b-664d7e72f8fc` · printing: DDQ #46 (2016-02-26) · [rulings](https://api.scryfall.com/cards/7cf48c1a-5709-4e24-8a85-8292a4457150/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2011-01-22* — When Relentless Skaabs returns to the battlefield because of its undying ability, it’s not being cast. You won’t exile a creature card from your graveyard.
+  - *2013-04-15* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to otherwise remove the creature card you exiled in order to prevent you from casting this spell.
+  - *2013-04-15* — You must exile exactly one creature card from your graveyard to cast this spell; you cannot cast it without exiling a creature card, and you cannot exile additional creature cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddq/46/relentless-skaabs) · oracle_id `5089cd0f-1338-4ecd-bb1b-664d7e72f8fc` · printing: DDQ #46 (2016-02-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relentless X-ATM092
 
@@ -267,7 +303,12 @@
   > *"Let's get the hell out of here!"*
   > *—Zell Dincht*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11368 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/268/relentless-x-atm092) · oracle_id `50994df7-300d-4e30-897a-0974dc0820ee` · printing: FIN #268 (2025-06-13) · [rulings](https://api.scryfall.com/cards/e09ee4c9-85ef-4d1e-864b-d659b8e8f51d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-06-06* — Finality counters aren't keyword counters, and a finality counter doesn't give any abilities to the permanent it's on. If that permanent loses its abilities and then would go to a graveyard, it will still be exiled instead.
+  - *2025-06-06* — Finality counters don't stop permanents from going to zones other than the graveyard from the battlefield. For example, if a permanent with a finality counter on it would be put into its owner's hand from the battlefield, it does so normally.
+  - *2025-06-06* — Finality counters work on any permanent, not only creatures. If a permanent with a finality counter on it would be put into a graveyard from the battlefield, exile it instead.
+  - *2025-06-06* — Multiple finality counters on a single permanent are redundant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/268/relentless-x-atm092) · oracle_id `50994df7-300d-4e30-897a-0974dc0820ee` · printing: FIN #268 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relic Amulet
 
@@ -279,7 +320,10 @@
 - **Flavor text** (ZNR printing):
   > *Old power finds new purpose.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19719 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/247/relic-amulet) · oracle_id `b3998d9c-56b1-486c-818c-a6882e999d54` · printing: ZNR #247 (2020-09-25) · [rulings](https://api.scryfall.com/cards/0ab97a84-fe8c-4986-afd8-3abdcc029f7f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-09-25* — A Wizard spell is one with the creature type Wizard. Spells that are Wizard-themed (such as Relic Amulet) aren’t Wizard spells.
+  - *2020-09-25* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger, but after targets have been chosen for that spell (if it has any targets). The ability resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/247/relic-amulet) · oracle_id `b3998d9c-56b1-486c-818c-a6882e999d54` · printing: ZNR #247 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relic Axe
 
@@ -293,7 +337,10 @@
   > *"It's light as a feather, but it hits with the force of a boulder. A very sharp boulder."*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19544 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/248/relic-axe) · oracle_id `d851312f-8b4e-4d8e-bfee-c470853be930` · printing: ZNR #248 (2020-09-25) · [rulings](https://api.scryfall.com/cards/ca8705e3-0e44-45c9-bcdf-c24507b038fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-09-25* — Attaching an Equipment with its enters-the-battlefield triggered ability isn't the same as using its equip ability. You don't pay mana for the attachment, and if the Equipment enters at a time you couldn't cast a sorcery, you can still attach it to a creature you control.
+  - *2020-09-25* — If the target creature becomes an illegal target, the Equipment remains on the battlefield unattached.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/248/relic-axe) · oracle_id `d851312f-8b4e-4d8e-bfee-c470853be930` · printing: ZNR #248 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relic Bane
 
@@ -306,6 +353,7 @@
   > *A sword that has seen cowardice in battle exacts the price of honor from its wielder.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28126 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/76/relic-bane) · oracle_id `3609d300-af9f-4ddf-ad0e-8bebeca15a04` · printing: MRD #76 (2003-10-02) · [rulings](https://api.scryfall.com/cards/9cbafa51-693b-485c-807d-64020540f16a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relic Barrier
@@ -317,7 +365,9 @@
 - **Flavor text** (5DN printing):
   > *Its transmissions are the word of Memnarch. It speaks, and metal bows.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23765 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/147/relic-barrier) · oracle_id `90cd8274-3f21-4b78-8910-dcaa5f8fe25d` · printing: 5DN #147 (2004-06-04) · [rulings](https://api.scryfall.com/cards/12d760d8-030e-47d0-a555-d88ee43d3d80/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Can target a tapped artifact.
+- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/147/relic-barrier) · oracle_id `90cd8274-3f21-4b78-8910-dcaa5f8fe25d` · printing: 5DN #147 (2004-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relic Bind
 
@@ -330,6 +380,7 @@
   > • Target player gains 1 life.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28440 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/4ed/97/relic-bind) · oracle_id `35b9f327-d1f6-47d1-aefa-6f70f407b4bc` · printing: 4ED #97 (1995-04-01) · [rulings](https://api.scryfall.com/cards/05eee3dd-e17f-4154-8f8d-29c5421cd89d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relic Crush
@@ -341,6 +392,7 @@
 - **Flavor text** (CM2 printing):
   > *There are many ruins, but there used to be many more.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22537 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cm2/142/relic-crush) · oracle_id `92381398-94f6-471f-874a-b5894e6f9487` · printing: CM2 #142 (2018-06-08) · [rulings](https://api.scryfall.com/cards/9ba2533c-3e1a-48e0-8dc4-0c915f853c52/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relic Golem
@@ -414,7 +466,12 @@
   > *—Vorinclex, Voice of Hunger*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18293 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/som/77/relic-putrescence) · oracle_id `7e6fd429-f925-4ff7-9c6e-34c2c9d15d04` · printing: SOM #77 (2010-10-01) · [rulings](https://api.scryfall.com/cards/ca940b4e-6f5e-4492-b6e0-dbf619eddadd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2011-01-01* — If the enchanted artifact is tapped as a cost to activate a mana ability, the mana ability resolves immediately, then Relic Putrescence’s ability goes on the stack.
+  - *2011-01-01* — If the enchanted artifact is tapped as a cost to activate an ability that’s not a mana ability, Relic Putrescence’s ability will go on the stack on top of that activated ability and resolve first.
+  - *2011-01-01* — Relic Putrescence may target and may enchant an artifact that’s already tapped. It won’t do anything until the enchanted artifact changes from being untapped to being tapped.
+  - *2011-01-01* — When the enchanted artifact becomes tapped, Relic Putrescence’s ability triggers. The player who gets the poison counter is the player who, at the time the ability resolves, controls the artifact that became tapped. If that artifact is no longer on the battlefield, its last existence on the battlefield is checked to determine its controller. It doesn’t matter whether Relic Putrescence is still on the battlefield as the ability resolves, what artifact it’s enchanting at that time, who controlled the artifact at the time it became tapped, or who tapped it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/som/77/relic-putrescence) · oracle_id `7e6fd429-f925-4ff7-9c6e-34c2c9d15d04` · printing: SOM #77 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relic Retriever
 
@@ -428,7 +485,9 @@
   > *Students working in the field for the first time learn the benefits of small, agile spirit statues over large, strong ones.*
 - **Keywords:** First strike, Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10219 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/35/relic-retriever) · oracle_id `689c41e9-800a-4998-bb04-74bf90141035` · printing: SOC #35 (2026-04-24) · [rulings](https://api.scryfall.com/cards/a016463d-a0aa-44a5-97ca-17ff70c4eb95/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — Relic Retriever's last ability will check as your end step starts to see if any cards have left your graveyard this turn. If none did, the ability won't trigger at all. It's not possible to remove cards from your graveyard during your end step in time to have the ability trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/35/relic-retriever) · oracle_id `689c41e9-800a-4998-bb04-74bf90141035` · printing: SOC #35 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relic Robber
 
@@ -442,6 +501,7 @@
   > *"Here, you take it!"*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14862 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/153/relic-robber) · oracle_id `85eafa00-51df-4070-9b2d-247457ba3364` · printing: ZNR #153 (2020-09-25) · [rulings](https://api.scryfall.com/cards/4540205c-eee8-4db3-8757-710de874b313/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relic Runner
@@ -454,7 +514,9 @@
 - **Flavor text** (2XM printing):
   > *Her knack for tampering with wards got her kicked out of the academy, but they also got her back in.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28252 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/63/relic-runner) · oracle_id `69e4e5bf-f0e2-4ed1-8b17-c8c7a9381551` · printing: 2XM #63 (2020-08-07) · [rulings](https://api.scryfall.com/cards/fbced19d-7035-4284-93b3-cf2d4bcf9734/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — Once Relic Runner has been blocked, casting a historic spell won't remove the blocking creature from combat or cause Relic Runner to become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/63/relic-runner) · oracle_id `69e4e5bf-f0e2-4ed1-8b17-c8c7a9381551` · printing: 2XM #63 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relic Seeker
 
@@ -466,7 +528,11 @@
   > When this creature becomes renowned, you may search your library for an Equipment card, reveal it, put it into your hand, then shuffle.
 - **Keywords:** Renown
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10572 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/382/relic-seeker) · oracle_id `1f101363-c7d1-405a-b3a9-e93b46928dbf` · printing: CMR #382 (2020-11-20) · [rulings](https://api.scryfall.com/cards/ae71b0a7-90c6-48cd-808c-c6c430dcba9c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-06-22* — If a creature with renown deals combat damage to its controller because that damage was redirected, renown will trigger.
+  - *2015-06-22* — If a renown ability triggers, but the creature leaves the battlefield before that ability resolves, the creature doesn't become renowned. Any ability that triggers "whenever a creature becomes renowned" won't trigger.
+  - *2015-06-22* — Renown won't trigger when a creature deals combat damage to a planeswalker or another creature. It also won't trigger when a creature deals noncombat damage to a player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/382/relic-seeker) · oracle_id `1f101363-c7d1-405a-b3a9-e93b46928dbf` · printing: CMR #382 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relic Sloth
 
@@ -480,6 +546,7 @@
   > *When it comes to transporting priceless, delicate artifacts, safety is more important than speed.*
 - **Keywords:** Vigilance, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30149 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/223/relic-sloth) · oracle_id `eb9b0655-3ca3-4d12-8665-54ef0c2c4de2` · printing: STX #223 (2021-04-23) · [rulings](https://api.scryfall.com/cards/c1cb483f-c567-4cfd-9fe8-1503e7b40542/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relic's Roar
@@ -492,7 +559,10 @@
   > *"Well, that's one less share to divide up."*
   > *—Dranach, Dire Fleet boatswain*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19528 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/71/relics-roar) · oracle_id `7887f060-3024-4dc4-aeb5-fb5546db6b48` · printing: LCI #71 (2023-11-17) · [rulings](https://api.scryfall.com/cards/35096eb3-ad7b-4b6e-b799-cb4cc447883e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — Relic's Roar overwrites all previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply afterward will overwrite this effect.
+  - *2023-11-10* — The artifact or creature retains its abilities and colors, if any.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/71/relics-roar) · oracle_id `7887f060-3024-4dc4-aeb5-fb5546db6b48` · printing: LCI #71 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relic Vial
 
@@ -502,7 +572,12 @@
   > {2}, {T}, Sacrifice a creature: Draw a card.
   > As long as you control a Cleric, this artifact has "Whenever a creature you control dies, each opponent loses 1 life and you gain 1 life."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10679 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/250/relic-vial) · oracle_id `7e86d4a6-e4cd-418a-8bbc-72cdad753e3a` · printing: ZNR #250 (2020-09-25) · [rulings](https://api.scryfall.com/cards/4b9ae607-e0bc-4415-ad58-65944848bbe9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-09-25* — If Relic Vial leaves the battlefield at the same time as each Cleric you control, the triggered ability triggers for any creatures you control that die at the same time (possibly including those Clerics).
+  - *2020-09-25* — If you sacrifice the only Cleric you control to activate Relic Vial’s first ability, the triggered ability it gives itself triggers.
+  - *2020-09-25* — In a Two-Headed Giant game, Relic Vial’s ability causes the opposing team to lose 2 life and you to gain 1 life.
+  - *2020-09-25* — Once Relic Vial’s ability has triggered, that ability resolves even if you no longer control a Cleric.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/250/relic-vial) · oracle_id `7e86d4a6-e4cd-418a-8bbc-72cdad753e3a` · printing: ZNR #250 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relic Ward
 
@@ -516,7 +591,10 @@
   > *Asmira's prayers alone should have freed Mangara from the amber prison . . .*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28289 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vis/16/relic-ward) · oracle_id `c6321de2-80b0-4679-93cf-97df75344e97` · printing: VIS #16 (1997-02-03) · [rulings](https://api.scryfall.com/cards/f0459667-b7da-43bd-b981-0e515432d147/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2005-08-01* — Does not destroy Auras which are on the artifact, and it does not prevent Auras from being moved onto the artifact.
+  - *2022-12-08* — The sacrifice occurs only if you cast it using its own ability. If you cast it using some other effect (for example, if another effect allowed you to cast it as though it had flash), then it won't be sacrificed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vis/16/relic-ward) · oracle_id `c6321de2-80b0-4679-93cf-97df75344e97` · printing: VIS #16 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relief Captain
 
@@ -529,7 +607,11 @@
   > *Sometimes gestures of support are small. Sometimes not.*
 - **Keywords:** Support
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22995 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/24/relief-captain) · oracle_id `97e088a3-65eb-42f5-85b8-6aeb770a3f56` · printing: 2X2 #24 (2022-07-08) · [rulings](https://api.scryfall.com/cards/300f4c1d-dbe7-4d9f-9974-b2d1a2989ddf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-01-22* — If a spell with support has other abilities that target creatures, those abilities and the support ability can target the same creature.
+  - *2016-01-22* — Support can target a creature you don't control.
+  - *2016-01-22* — You can't put more than one +1/+1 counter on any one target using the support action.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/24/relief-captain) · oracle_id `97e088a3-65eb-42f5-85b8-6aeb770a3f56` · printing: 2X2 #24 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reliquary Monk
 
@@ -541,6 +623,7 @@
 - **Flavor text** (UDS printing):
   > *A thing of Serra's realm exists only by the grace of her followers' faith.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23473 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/uds/14/reliquary-monk) · oracle_id `a149ac31-b792-4fbe-903a-788bbdfd5e97` · printing: UDS #14 (1999-06-07) · [rulings](https://api.scryfall.com/cards/243e9386-2a7f-406a-9ed3-77d4bf1b50fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reliquary Tower
@@ -567,7 +650,11 @@
   > *"Many have tried to subjugate Ravnica. All have failed. All will fail."*
   > *—Museum of Ravnican History*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24986 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/226/relive-the-past) · oracle_id `dcc51bcb-a61e-471f-8a01-7fcbc069fcba` · printing: MKM #226 (2024-02-09) · [rulings](https://api.scryfall.com/cards/20948cd2-e40c-4648-832f-ab0f1cc21610/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-02-02* — An Equipment without reconfigure that's also a creature can't be attached to anything. You can activate its equip ability, but it won't become attached.
+  - *2024-02-02* — An artifact creature, land creature, or enchantment creature returned this way will be a 5/5 creature and will be an Elemental in addition to its other creature types.
+  - *2024-02-02* — If another effect causes one of the returned permanents to become a creature and sets its power and toughness as it does so, that creature will have that power and toughness; it won't be 5/5. Notably, crewing a Vehicle does not set its power and toughness, so a Vehicle will remain a 5/5 creature if you crew it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/226/relive-the-past) · oracle_id `dcc51bcb-a61e-471f-8a01-7fcbc069fcba` · printing: MKM #226 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relm's Sketching
 
@@ -597,7 +684,9 @@
 - **Flavor text** (ECL printing):
   > *Keeping others out of the doun is the only thing that motivates some to step outside their walls.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22581 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/31/reluctant-dounguard) · oracle_id `162dcfa0-36e4-41cd-8322-08e810ff04d4` · printing: ECL #31 (2026-01-23) · [rulings](https://api.scryfall.com/cards/dbce93c0-5efc-4b60-9cef-9d9b374d397b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-11-17* — If Reluctant Dounguard enters at the same time as one or more other creatures you control, its last ability will trigger for each of those creatures (unless it somehow entered without -1/-1 counters on it.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/31/reluctant-dounguard) · oracle_id `162dcfa0-36e4-41cd-8322-08e810ff04d4` · printing: ECL #31 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reluctant Role Model
 

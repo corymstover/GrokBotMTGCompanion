@@ -54,6 +54,7 @@
   > *The circus called to Ty Lee . . . until Azula called a little louder.*
 - **Keywords:** Prowess
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11573 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/158/ty-lee-artful-acrobat) · oracle_id `3726b9a0-67cb-4f45-ab50-62db50f93568` · printing: TLA #158 (2025-11-21) · [rulings](https://api.scryfall.com/cards/dcd9df24-272b-4aa1-b05f-6ee6b3d3dfe7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ty Lee, Chi Blocker
@@ -83,7 +84,18 @@
   > III — You gain X life and scry X, where X is the number of Zombies you control.
 - **Keywords:** Mill, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18230 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/118/tymaret-calls-the-dead) · oracle_id `1d09ebb7-c4c9-4bb7-b6bf-3c8330b954e8` · printing: THB #118 (2020-01-24) · [rulings](https://api.scryfall.com/cards/68c0d087-540a-4249-9265-f13cc8e776ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2020-01-24* — A chapter ability doesn’t trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter’s number. For example, the third lore counter put on a Saga causes the III chapter ability to trigger, but I and II won’t trigger again.
+  - *2020-01-24* — As a Saga enters the battlefield, its controller puts a lore counter on it. As your precombat main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn’t use the stack.
+  - *2020-01-24* — Each symbol on the left of a Saga’s text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability’s chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2020-01-24* — If X is greater than the number of cards in your library while resolving the third chapter ability, you look at your entire library and put it back in any order. You still gain life equal to the full value of X.
+  - *2020-01-24* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2020-01-24* — Once a chapter ability has triggered, the ability on the stack won’t be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2020-01-24* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga’s controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn’t use the stack.
+  - *2020-01-24* — Removing lore counters won’t cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives lore counters.
+  - *2020-01-24* — The card that you exile for the first two chapter abilities may be one of the cards that you just put into your graveyard.
+  - *2020-01-24* — While resolving the first two chapter abilities, you can’t exile multiple cards to create multiple Zombies.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/118/tymaret-calls-the-dead) · oracle_id `1d09ebb7-c4c9-4bb7-b6bf-3c8330b954e8` · printing: THB #118 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tymaret, Chosen from Death
 
@@ -94,7 +106,15 @@
   > Tymaret's toughness is equal to your devotion to black. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)
   > {1}{B}: Exile up to two target cards from graveyards. You gain 1 life for each creature card exiled this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10650 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/119/tymaret-chosen-from-death) · oracle_id `64b4e91f-83a4-4b3f-87d4-8c48907e628d` · printing: THB #119 (2020-01-24) · [rulings](https://api.scryfall.com/cards/14b28eae-e8ed-4b99-b6ec-86d0716ec473/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2020-01-24* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to Tymaret may become lethal if your devotion to black decreases during that turn.
+  - *2020-01-24* — Colorless and generic mana symbols ({C}, {0}, {1}, {2}, {X}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
+  - *2020-01-24* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2020-01-24* — If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it's still on the battlefield at that time.
+  - *2020-01-24* — If you put an Aura on an opponent's permanent, you still control the Aura, and mana symbols in its mana cost count towards your devotion.
+  - *2020-01-24* — Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
+  - *2020-01-24* — The ability that defines Tymaret's toughness works in all zones, not just the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/119/tymaret-chosen-from-death) · oracle_id `64b4e91f-83a4-4b3f-87d4-8c48907e628d` · printing: THB #119 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tymaret, the Murder King
 
@@ -107,7 +127,9 @@
 - **Flavor text** (THS printing):
   > *His memories remained in the Underworld, but his cruelty crossed the Rivers with him.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19840 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/207/tymaret-the-murder-king) · oracle_id `0a029c61-b1de-427b-a8e8-36f3a23f001b` · printing: THS #207 (2013-09-27) · [rulings](https://api.scryfall.com/cards/4c4ce848-a57d-4e88-8093-9fb1408523bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-09-15* — Tymaret's last ability can be activated only if Tymaret is in your graveyard. Notably, Tymaret can't be sacrificed to return itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/207/tymaret-the-murder-king) · oracle_id `0a029c61-b1de-427b-a8e8-36f3a23f001b` · printing: THS #207 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tymna the Weaver
 
@@ -144,6 +166,7 @@
   > *"May Lady Luck smile upon you some other day, pal."*
 - **Keywords:** Sleight of Hand
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25185 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/101/tymoras-invoker) · oracle_id `36652a44-f5bd-4bc0-abfd-fa3688853dfd` · printing: CLB #101 (2022-06-10) · [rulings](https://api.scryfall.com/cards/af5535db-696f-4c43-a8b9-c8e521b62c9c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Typhoid Mary, Fractured
@@ -158,6 +181,7 @@
   > • Bloody Mary — Each opponent loses 2 life and you gain 2 life.
 - **Keywords:** Mary, Typhoid Mary, Bloody Mary, Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12401 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/99/typhoid-mary-fractured) · oracle_id `867b3923-692c-4444-a071-518a290e43d8` · printing: MSC #99 (2026-06-26) · [rulings](https://api.scryfall.com/cards/6880df6d-2ec3-459d-aa4f-92f595fab9b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Typhoid Rats
@@ -183,7 +207,9 @@
 - **Flavor text** (LEG printing):
   > *Fierce winds ripped across the tropical landscape. What they did not destroy with their fiery breath was washed away by torrential rain.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30074 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/leg/209/typhoon) · oracle_id `ef295a34-0325-49dd-87a6-546dde395082` · printing: LEG #209 (1994-06-01) · [rulings](https://api.scryfall.com/cards/254e0403-67d8-4e73-8d89-c901ebeba49f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Number of Islands is counted on resolution and not on announcement.
+- **Source flags:** [Scryfall](https://scryfall.com/card/leg/209/typhoon) · oracle_id `ef295a34-0325-49dd-87a6-546dde395082` · printing: LEG #209 (1994-06-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tyranid Harridan
 
@@ -195,6 +221,7 @@
   > Shrieking Gargoyles — Whenever this creature or another Tyranid you control deals combat damage to a player, create a 1/1 blue Tyranid Gargoyle creature token with flying.
 - **Keywords:** Flying, Shrieking Gargoyles, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15284 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/144/tyranid-harridan) · oracle_id `01432542-2ea7-45bc-bc90-151516faee0e` · printing: 40K #144 (2022-10-07) · [rulings](https://api.scryfall.com/cards/dff00a51-977e-43ba-a4bf-b251e62f1100/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tyranid Invasion
@@ -206,6 +233,7 @@
 - **Flavor text** (40K printing):
   > *By the time the Blood Angels descended from the heavens, Phodia was a city transformed. Miles of flesh-filled rivers fed into the central digestion pools and up into the hive fleet above.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17661 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/102/tyranid-invasion) · oracle_id `33a45c4a-1481-4c7e-b823-435cb84231e8` · printing: 40K #102 (2022-10-07) · [rulings](https://api.scryfall.com/cards/7082df45-6c2f-4a92-8c73-a582e9ea1948/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tyranid Prime
@@ -218,7 +246,15 @@
   > Synapse Creature — Other creatures you control have evolve.
 - **Keywords:** Evolve, Synapse Creature
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10267 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/145/tyranid-prime) · oracle_id `12a43da3-57aa-4394-8cce-e53ec7e3538e` · printing: 40K #145 (2022-10-07) · [rulings](https://api.scryfall.com/cards/6f6546f2-0db3-4969-b7d9-2e2138997155/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-10-07* — If a creature enters the battlefield with +1/+1 counters on it, consider those counters when determining if evolve will trigger. For example, a 1/1 creature that enters the battlefield with two +1/+1 counters on it will cause the evolve ability of a 2/2 creature to trigger.
+  - *2022-10-07* — If evolve triggers, the stat comparison will happen again when the ability tries to resolve. If neither stat of the new creature is greater, the ability will do nothing. If the creature that entered the battlefield leaves the battlefield before evolve tries to resolve, use its last known power and toughness to compare the stats.
+  - *2022-10-07* — If multiple creatures enter the battlefield at the same time, evolve may trigger multiple times, although the stat comparison will take place each time one of those abilities tries to resolve. For example, if you control a 2/2 creature with evolve and two 3/3 creatures enter the battlefield, evolve will trigger twice. The first ability will resolve and put a +1/+1 counter on the creature with evolve. When the second ability tries to resolve, neither the power nor the toughness of the new creature is greater than that of the creature with evolve, so that ability does nothing.
+  - *2022-10-07* — Multiple instances of evolve trigger separately and, similar to above, the stat comparison takes place for each one independently as they try to resolve.
+  - *2022-10-07* — When comparing the stats as the evolve ability resolves, it's possible that the stat that's greater changes from power to toughness or vice versa. If this happens, the ability will still resolve and you'll put a +1/+1 counter on the creature with evolve. For example, if you control a 2/2 creature with evolve and a 1/3 creature enters the battlefield under your control, its toughness is greater so evolve will trigger. In response, the 1/3 creature gets +2/-2. When the evolve trigger tries to resolve, its power is greater. You'll put a +1/+1 counter on the creature with evolve.
+  - *2022-10-07* — When comparing the stats of the two creatures for evolve, you always compare power to power and toughness to toughness.
+  - *2022-10-07* — Whenever a creature enters the battlefield under your control, check its power and toughness against the power and toughness of the creature with evolve. If neither stat of the new creature is greater, evolve won't trigger at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/145/tyranid-prime) · oracle_id `12a43da3-57aa-4394-8cce-e53ec7e3538e` · printing: 40K #145 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tyrannical Pitlord
 
@@ -232,7 +268,13 @@
   > When this creature leaves the battlefield, sacrifice the chosen creature.
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20983 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/284/tyrannical-pitlord) · oracle_id `776ea0c7-fc5b-44b4-9302-5a3514ff843b` · printing: DMU #284 (2022-09-09) · [rulings](https://api.scryfall.com/cards/027ef1fc-4a7a-465c-9c25-dc19c771b5f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-09-09* — If Tyrannical Pitlord enters the battlefield at the same time as another creature, that creature can’t be chosen.
+  - *2022-09-09* — If Tyrannical Pitlord’s leaves-the-battlefield triggered ability resolves while its controller is not the same as the controller of the chosen creature, that creature will not be sacrificed.
+  - *2022-09-09* — If another player gains control of the chosen creature while Tyrannical Pitlord is still on the battlefield, that creature will continue to have flying and get +3/+3.
+  - *2022-09-09* — If the chosen creature leaves the battlefield, you can’t choose a new creature.
+  - *2022-09-09* — The ability of Tyrannical Pitlord that allows you to choose a creature isn’t a triggered ability and doesn’t use the stack. Players can’t respond to your choice of which creature it’s affecting.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/284/tyrannical-pitlord) · oracle_id `776ea0c7-fc5b-44b4-9302-5a3514ff843b` · printing: DMU #284 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tyrannize
 
@@ -244,6 +286,7 @@
   > *"I can stab you where it hurts, or where you will feel absolutely nothing."*
   > *—Illulia of Nighthearth*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27931 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/201/tyrannize) · oracle_id `27da0af7-85d3-42aa-9426-b86c5e464f81` · printing: SHM #201 (2008-05-02) · [rulings](https://api.scryfall.com/cards/69b7428b-8fff-4839-8b59-b268af0699c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tyrant Guard
@@ -271,7 +314,12 @@
 - **Oracle text:**
   > When this creature enters, target opponent chooses a permanent they control at random and sacrifices it. If a nonland permanent is sacrificed this way, repeat this process.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12048 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/avr/162/tyrant-of-discord) · oracle_id `ce1bf2c4-93d5-41e3-a450-6b95fad7dd21` · printing: AVR #162 (2012-05-04) · [rulings](https://api.scryfall.com/cards/e8f7c8ea-e9c1-4d78-972c-15c4014915a0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2012-05-01* — If any abilities trigger while Tyrant of Discord's "enters" ability is resolving, those abilities will wait until the "enters" ability finishes resolving before going on the stack. Starting with the active player, each player puts their abilities on the stack in any order.
+  - *2012-05-01* — If the target opponent can't sacrifice permanents (perhaps because of Sigarda, Host of Herons), the opponent will choose a permanent at random but not sacrifice it. The ability will then finish resolving.
+  - *2012-05-01* — Repeating the process does not include targeting an opponent. Only one opponent will have to sacrifice permanents.
+  - *2012-05-01* — Repeating the process includes the instruction to repeat the process. That is, the opponent will keep sacrificing permanents until they sacrifice a land.
+- **Source flags:** [Scryfall](https://scryfall.com/card/avr/162/tyrant-of-discord) · oracle_id `ce1bf2c4-93d5-41e3-a450-6b95fad7dd21` · printing: AVR #162 (2012-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tyrant of Kher Ridges
 
@@ -286,6 +334,7 @@
   > *In war, dragons don't see sides, just side dishes.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14128 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/154/tyrant-of-kher-ridges) · oracle_id `e7c06af6-8d96-4bfa-8baf-9e80f741e8cb` · printing: BRO #154 (2022-11-18) · [rulings](https://api.scryfall.com/cards/72a271b1-b757-4373-8e6d-e9698ae96bed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tyrant of Valakut
@@ -299,7 +348,12 @@
   > When this creature enters, if its surge cost was paid, it deals 3 damage to any target.
 - **Keywords:** Flying, Surge
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25554 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/119/tyrant-of-valakut) · oracle_id `a4ddd9e2-ea59-4bba-bb2f-a655cabbb65c` · printing: OGW #119 (2016-01-22) · [rulings](https://api.scryfall.com/cards/f388be9e-332e-4199-9f30-862d631fa26b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-01-22* — Casting a spell for its surge cost doesn't change its mana cost or its mana value.
+  - *2016-01-22* — For some cards, surge represents only an alternative cost, a discount that applies if you or a teammate has cast another spell this turn. Other cards, like Reckless Bushwhacker, have additional abilities or effects if you paid the surge cost to cast the spell.
+  - *2016-01-22* — If an instant or sorcery spell cast for its surge cost is copied, the copy is also considered to have had its surge cost paid.
+  - *2016-01-22* — The other spell that you or a teammate cast can be one that's resolved, one that was countered, or (for instants with surge) one that's still on the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/119/tyrant-of-valakut) · oracle_id `a4ddd9e2-ea59-4bba-bb2f-a655cabbb65c` · printing: OGW #119 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tyrant's Choice
 
@@ -309,7 +363,14 @@
   > Will of the council — Starting with you, each player votes for death or torture. If death gets more votes, each opponent sacrifices a creature of their choice. If torture gets more votes or the vote is tied, each opponent loses 4 life.
 - **Keywords:** Will of the council
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10751 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/143/tyrants-choice) · oracle_id `ee7d2c2f-e32f-4be6-82ac-ff1e32055376` · printing: VMA #143 (2014-06-16) · [rulings](https://api.scryfall.com/cards/5ed37b1c-7377-40bd-ae98-7f5ce56156b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2014-05-29* — Because the votes are cast in turn order, each player will know the votes of players who voted beforehand.
+  - *2014-05-29* — If death gets more votes, each opponent chooses and sacrifices a creature they control. None of these creatures are targeted. An opponent could sacrifice a creature with protection from black, for example.
+  - *2014-05-29* — No player votes until the spell or ability resolves. Any responses to that spell or ability must be made without knowing the outcome of the vote.
+  - *2014-05-29* — Players can't do anything after they finish voting but before the spell or ability that included the vote finishes resolving.
+  - *2014-05-29* — The phrase "the vote is tied" refers only to when there is more than one choice that received the most votes. For example, if a 5-player vote from among three different choices ends 3 votes to 1 vote to 1 vote, the vote isn't tied.
+  - *2014-05-29* — You must vote for one of the available options. You can't abstain.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/143/tyrants-choice) · oracle_id `ee7d2c2f-e32f-4be6-82ac-ff1e32055376` · printing: VMA #143 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tyrant's Familiar
 
@@ -341,6 +402,7 @@
   > *"Though tempered differently, all wills can be broken."*
   > *—Inquisitor Kyrik*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28450 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/248/tyrants-machine) · oracle_id `d9cb3d86-cb3a-4e2e-a24e-ed3cfe5233d0` · printing: BBD #248 (2018-06-08) · [rulings](https://api.scryfall.com/cards/2c697b0b-edba-491a-b40e-f88572a6e955/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tyrant's Scorn
@@ -355,7 +417,10 @@
   > *"The hero with the magic sword slays the dragon? Not this time."*
   > *—Nicol Bolas*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10292 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/225/tyrants-scorn) · oracle_id `afb278f1-0e21-4f6d-96bb-c34aa3ef96b0` · printing: WAR #225 (2019-05-03) · [rulings](https://api.scryfall.com/cards/b7e2708c-2824-4925-b529-d625deb77924/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-05-03* — If a creature on the battlefield has {X} in its mana cost, X is considered to be 0.
+  - *2024-04-12* — The mana value of a token that isn't a copy of another object is 0. A token that is a copy of another object has the same mana cost as that object.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/225/tyrants-scorn) · oracle_id `afb278f1-0e21-4f6d-96bb-c34aa3ef96b0` · printing: WAR #225 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tyrite Sanctum
 
@@ -381,6 +446,7 @@
 - **Flavor text** (DFT printing):
   > *The Avishkari delegation considered their treaties with the Saurid Autocracy settled, but that was a crucial misunderstanding. To the Autocracy, diplomacy is a matter of power, not paper; testing the Grand Prix's defenses is merely their way of making a counteroffer.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16812 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/149/tyrox-saurid-tyrant) · oracle_id `b24d95fa-3cf7-495e-9082-11f8db151906` · printing: DFT #149 (2025-02-14) · [rulings](https://api.scryfall.com/cards/159dc5a8-5cba-4c20-8c07-28a3d86c8411/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tyrranax
@@ -393,6 +459,7 @@
 - **Flavor text** (5DN printing):
   > *It outnumbers you one to many.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31245 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/98/tyrranax) · oracle_id `28ecc209-d78b-4b37-8411-fb8079f6e088` · printing: 5DN #98 (2004-06-04) · [rulings](https://api.scryfall.com/cards/5cb0cc0e-f71f-456f-a6ec-6a70cf838c35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tyrranax Atrocity
@@ -407,7 +474,15 @@
   > *While some predators specialize in speed, size, or deadly venom, the adaptive tyrranax see no need to limit themselves.*
 - **Keywords:** Toxic, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11845 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/188/tyrranax-atrocity) · oracle_id `08261b68-b261-4e47-a085-c489ba394108` · printing: ONE #188 (2023-02-10) · [rulings](https://api.scryfall.com/cards/157cf43c-f7f2-4362-bfc8-11682e94b747/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-02-04* — A player with ten or more poison counters loses the game. This is a state-based action and doesn't use the stack. In other words, it happens immediately and players can't respond to it, just like a player losing the game due to having 0 or less life.
+  - *2023-02-04* — Any other effects of that damage, such as life gain from lifelink, still apply.
+  - *2023-02-04* — Conversely, replacement effects that apply to the number of counters put on a player can modify the counters placed this way. For example, Vorinclex, Monstrous Raider's last two abilities can apply to counters placed this way.
+  - *2023-02-04* — Damage dealt by a creature with toxic grants the same number of counters regardless of how much damage is dealt. Notably, if a replacement effect modifies the damage in some way (such as that of Gratuitous Violence), the number of counters given remains unchanged.
+  - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
+  - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
+  - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/188/tyrranax-atrocity) · oracle_id `08261b68-b261-4e47-a085-c489ba394108` · printing: ONE #188 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tyrranax Rex
 

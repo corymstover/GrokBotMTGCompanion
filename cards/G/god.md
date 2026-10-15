@@ -40,7 +40,15 @@
   > Celebration — As long as two or more nonland permanents entered the battlefield under your control this turn, Goddric is a Dragon with base power and toughness 4/4, flying, and "{R}: Dragons you control get +1/+0 until end of turn." (He loses all other creature types.)
 - **Keywords:** Flying, Celebration, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18560 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/132/goddric-cloaked-reveler) · oracle_id `35b2b172-5fbc-4e4d-a011-390ee1b6c848` · printing: WOE #132 (2023-09-08) · [rulings](https://api.scryfall.com/cards/fe93ef82-51de-40ad-9b52-8f3fd11c144f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-09-01* — Celebration abilities only care if two or more nonland permanents entered the battlefield under your control in a turn. They won't get more powerful if more than two permanents entered the battlefield under your control in a turn.
+  - *2023-09-01* — Each celebration ability has a different effect.
+  - *2023-09-01* — Goddric's activated ability affects only Dragons you control at the time it resolves. Any Dragons that come under your control later in the turn won't be affected.
+  - *2023-09-01* — If an effect causes Goddric to lose all abilities during a turn in which it has already become a Dragon, he's still a Dragon creature with base power and toughness 4/4.
+  - *2023-09-01* — Others are static abilities that give creatures abilities or power and toughness increases as long as two or more nonland permanents entered the battlefield under your control that turn.
+  - *2023-09-01* — Some celebration abilities trigger at specific parts of the turn and check whether two or more nonland permanents entered the battlefield under your control already in that turn.
+  - *2023-09-01* — The permanents that entered the battlefield don't need to remain on the battlefield or under your control. Celebration abilities are checking for past events, not the current game state.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/132/goddric-cloaked-reveler) · oracle_id `35b2b172-5fbc-4e4d-a011-390ee1b6c848` · printing: WOE #132 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### God-Eternal Bontu
 
@@ -146,7 +154,12 @@
   > *Someone had to be first to attack, but he was not alone for long.*
 - **Keywords:** Inspired
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22338 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bng/14/god-favored-general) · oracle_id `e861ddd5-64f7-4c59-ab96-0c69ef74febe` · printing: BNG #14 (2014-02-07) · [rulings](https://api.scryfall.com/cards/984c2db0-5a79-47b8-8a42-5674c6d9d0fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-02-01* — If an inspired ability triggers during your untap step, the ability will be put on the stack at the beginning of your upkeep. If the ability creates one or more token creatures, those creatures won’t be able to attack that turn (unless they gain haste).
+  - *2014-02-01* — If the inspired ability includes an optional cost, you decide whether to pay that cost as the ability resolves. You can do this even if the creature leaves the battlefield in response to the ability.
+  - *2014-02-01* — Inspired abilities don’t trigger when the creature enters the battlefield.
+  - *2014-02-01* — Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bng/14/god-favored-general) · oracle_id `e861ddd5-64f7-4c59-ab96-0c69ef74febe` · printing: BNG #14 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Godhead of Awe
 
@@ -161,7 +174,11 @@
   > *—\*The Seer's Parables\**
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20809 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/shm/142/godhead-of-awe) · oracle_id `1ed5751a-4b45-4cd2-b19c-ac84508de4f8` · printing: SHM #142 (2008-05-02) · [rulings](https://api.scryfall.com/cards/7e34d294-c0ec-4e3c-a731-31b7a29c59b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-05-01* — If two Godheads of Awe are on the battlefield, they'll each make the other one 1/1.
+  - *2008-05-01* — This doesn't cause creatures to lose their abilities.
+  - *2009-10-01* — Godhead of Awe's ability overwrites other effects that set a creature's power and toughness to specific values only if those effects existed before the Godhead entered. It will not overwrite effects that modify power or toughness (whether from a static ability, counters, or a resolved spell or ability), nor will it overwrite effects that set power and toughness which come into existence after the Godhead enters. Effects that switch the creature's power and toughness are always applied after any other power or toughness changing effects, including that of the Godhead.
+- **Source flags:** [Scryfall](https://scryfall.com/card/shm/142/godhead-of-awe) · oracle_id `1ed5751a-4b45-4cd2-b19c-ac84508de4f8` · printing: SHM #142 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Godhunter Octopus
 
@@ -174,7 +191,9 @@
   > *"I will match Thassa drop for drop and show a god what true power is."*
   > *—Kiora*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28572 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jou/39/godhunter-octopus) · oracle_id `930b48b8-dbd1-4109-9eaa-7d7e9a04fa5b` · printing: JOU #39 (2014-05-02) · [rulings](https://api.scryfall.com/cards/da106c23-fd1c-461b-9301-159f93ef489b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-04-26* — Whether the defending player controls an enchantment or enchanted permanent is checked only as attackers are declared. Once Godhunter Octopus has been declared as an attacker, it will continue to attack even if the defending player loses control of each enchantment or enchanted permanent they controlled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jou/39/godhunter-octopus) · oracle_id `930b48b8-dbd1-4109-9eaa-7d7e9a04fa5b` · printing: JOU #39 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Godless Shrine
 
@@ -214,6 +233,7 @@
 - **Flavor text** (SOK printing):
   > *Godo trained their muscles and honed their skills, but he left their hearts wild and empty.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30119 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/101/godos-irregulars) · oracle_id `bcf0ca90-134f-43af-890a-558c5e82974e` · printing: SOK #101 (2005-06-03) · [rulings](https://api.scryfall.com/cards/f7a7afc5-be73-459d-8bd1-116a0bf1210f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### God-Pharaoh's Faithful
@@ -226,7 +246,10 @@
 - **Flavor text** (HOU printing):
   > *"This is the final trial! Rejoice, for the God-Pharaoh soars among us!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20969 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/14/god-pharaohs-faithful) · oracle_id `3f86e6c6-fca5-43e9-88cc-4546cdd5f0ec` · printing: HOU #14 (2017-07-14) · [rulings](https://api.scryfall.com/cards/9cb8a25b-2ad0-4ffe-b41a-6b3f8b48c1e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-07-14* — If you cast a spell that’s two or more of these colors, you gain only 1 life.
+  - *2017-07-14* — The triggered ability of God-Pharaoh’s Faithful will resolve before the spell that caused it to trigger. The ability will resolve even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/14/god-pharaohs-faithful) · oracle_id `3f86e6c6-fca5-43e9-88cc-4546cdd5f0ec` · printing: HOU #14 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### God-Pharaoh's Gift
 
@@ -286,6 +309,7 @@
 - **Flavor text** (BOK printing):
   > *Listen at its walls and you will hear the whispers of gods.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13699 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/164/gods-eye-gate-to-the-reikai) · oracle_id `a66008c9-1ede-4dcf-8d35-6c0ed2390996` · printing: BOK #164 (2005-02-04) · [rulings](https://api.scryfall.com/cards/bdc33a21-d196-4c17-a296-87ff08e7ef69/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gods' Hall Guardian
@@ -300,7 +324,11 @@
   > *Not a single rat has been seen in Istfell since the gods moved in.*
 - **Keywords:** Vigilance, Foretell
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24029 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/13/gods-hall-guardian) · oracle_id `7d22e071-4af4-4182-b387-ecca873d00cc` · printing: KHM #13 (2021-02-05) · [rulings](https://api.scryfall.com/cards/e8e645c8-90ac-4865-b441-e64251d6c9a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-02-05* — Because exiling a card with foretell from your hand is a special action, you can do so any time you have priority during your turn, including in response to spells and abilities. Once you announce you’re taking the action, no other player can respond by trying to remove the card from your hand.
+  - *2021-02-05* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player’s turn. In most cases, if you foretell a card that isn’t an instant (or doesn’t have flash), you’ll have to wait until your next turn to cast it.
+  - *2021-02-05* — If you’re casting a foretold card from exile for its foretell cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/13/gods-hall-guardian) · oracle_id `7d22e071-4af4-4182-b387-ecca873d00cc` · printing: KHM #13 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Godsire
 
@@ -315,6 +343,7 @@
   > *—Syeena, elvish godtoucher*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15695 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ala/170/godsire) · oracle_id `4252d7f4-c582-4a21-b3af-829c84cb0b09` · printing: ALA #170 (2008-10-03) · [rulings](https://api.scryfall.com/cards/e2539ff7-2b7d-47e3-bd77-3138a6c42d2b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gods Willing
@@ -348,7 +377,9 @@
 - **Flavor text** (ALA printing):
   > *"Gargantuans die not in moments but in moons. There is still time to aid this noble ancient."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30343 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/133/godtoucher) · oracle_id `3094f214-5aa8-4003-8a1e-035485dfb978` · printing: ALA #133 (2008-10-03) · [rulings](https://api.scryfall.com/cards/032059cb-c1ad-4cc9-a89d-d68289800312/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — The ability checks the targeted creature’s power twice: when the creature becomes the target, and when the ability resolves. Once the ability resolves, it will continue to apply to the affected creature no matter what its power may become later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/133/godtoucher) · oracle_id `3094f214-5aa8-4003-8a1e-035485dfb978` · printing: ALA #133 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Godtracker of Jund
 
@@ -360,4 +391,5 @@
 - **Flavor text** (ARB printing):
   > *"The behemoths are content to graze like cattle, while dragons rage and conquer. I know which example I'll follow."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29707 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/arb/55/godtracker-of-jund) · oracle_id `9be3e610-f6bf-4e79-87ca-79dde27945d0` · printing: ARB #55 (2009-04-30) · [rulings](https://api.scryfall.com/cards/7bd3fb7a-3eed-4b0a-9de0-ed8b7cf03533/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

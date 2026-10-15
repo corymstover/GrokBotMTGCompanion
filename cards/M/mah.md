@@ -55,4 +55,5 @@
   > *Of royal blood among the spirits of the air, the Mahamoti djinn rides on the wings of the winds. As dangerous in the gambling hall as he is in battle, he is a master of trickery and misdirection.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25604 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/64/mahamoti-djinn) · oracle_id `c39ea5f9-6ec0-4697-897b-779e326754a7` · printing: UMA #64 (2018-12-07) · [rulings](https://api.scryfall.com/cards/855de173-6bec-457b-828e-28678b7d396e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

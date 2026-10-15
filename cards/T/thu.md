@@ -100,7 +100,20 @@
 - **Oracle text:**
   > Whenever you crank this Contraption, roll two six-sided dice. This Contraption deals damage to target creature equal to the difference between those results.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/206/thud-for-duds) · oracle_id `47ae3ff3-9f10-4901-97c3-d1bb090382ab` · printing: UST #206 (2017-12-08) · [rulings](https://api.scryfall.com/cards/c40dafec-1243-413c-84db-c07a8cf6d628/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2018-01-19* — Any Contraption that's on the battlefield and wasn't assembled immediately heads to the scrapyard. However, if it's a not an actual Contraption card (like Copy Artifact isn't), it goes to your graveyard as normal. Non-Contraption cards can't be in the scrapyard.
+  - *2018-01-19* — At the beginning of your upkeep, if you control any Contraptions, move the CRANK! counter to the next sprocket. You may then crank any number of Contraptions on that sprocket, causing their abilities to trigger. Cranking a Contraption is always optional.
+  - *2018-01-19* — Contraptions are artifacts. Anything that interacts with artifacts will interact with Contraptions.
+  - *2018-01-19* — Contraptions aren't put into your main deck. They go into a separate deck called the Contraption deck.
+  - *2018-01-19* — If a Contraption would leave the battlefield and go to any zone other than exile, it instead goes to the scrapyard, the Contraption deck's version of the graveyard. Things that affect the graveyard do not affect the scrapyard. You can exile Contraptions just fine.
+  - *2018-01-19* — If you crank multiple Contraptions, their abilities can be put onto the stack in any order. The ability put onto the stack will resolve first.
+  - *2018-01-19* — If you or a permanent you control are instructed to assemble a Contraption, reveal the top card of your Contraption deck. Put it onto the battlefield on one of the three sprockets.
+  - *2018-01-19* — If you or a permanent you control assembles a Contraption and your Contraption deck is empty, nothing happens. You don't lose the game.
+  - *2018-01-19* — In Constructed formats, a Contraption deck must have at least fifteen different Contraption cards and no more than one of each.
+  - *2018-01-19* — In Limited formats, a Contraption deck may include any number of Contraption cards in your card pool. You don't have to include every Contraption card you draft or open in sealed deck. In those formats, your Contraption deck may include duplicates.
+  - *2018-01-19* — In silver-bordered games using Contraptions, you have three sprockets, illustrated on the back of Contraption cards. At the start of the game, put a CRANK! counter on sprocket 3.
+  - *2018-01-19* — While Contraptions you control are on the battlefield, the Contraption deck is not, even if you are using it to signify the three sprockets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/206/thud-for-duds) · oracle_id `47ae3ff3-9f10-4901-97c3-d1bb090382ab` · printing: UST #206 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thumbscrews
 
@@ -112,7 +125,9 @@
   > *"We will start small, I think."*
   > *—Volrath*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28634 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmp/312/thumbscrews) · oracle_id `a8f1f55a-7a85-4338-b4d1-3d28f10f69a7` · printing: TMP #312 (1997-10-14) · [rulings](https://api.scryfall.com/cards/71025a6b-3aed-4943-a907-9584d135f6c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It checks the number of cards in your hand at the beginning of upkeep, and if you have 4 or fewer cards in hand it will not trigger. It checks again when it resolves and will not deal damage unless you still have 5 or more cards in hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmp/312/thumbscrews) · oracle_id `a8f1f55a-7a85-4338-b4d1-3d28f10f69a7` · printing: TMP #312 (1997-10-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderblade Charge
 
@@ -122,7 +137,10 @@
   > Thunderblade Charge deals 3 damage to any target.
   > Whenever one or more creatures you control deal combat damage to a player, if this card is in your graveyard, you may pay {2}{R}{R}{R}. If you do, you may cast it without paying its mana cost.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30767 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fut/124/thunderblade-charge) · oracle_id `b4f31434-b7c4-489b-9385-70ee0cc3125e` · printing: FUT #124 (2007-05-04) · [rulings](https://api.scryfall.com/cards/88a85be1-9de5-4f96-9fd1-15f3f17c4bea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2007-05-01* — Thunderblade Charge triggers only once per combat damage step per player no matter how many of your creatures deal combat damage to that player, how much damage is dealt, or who that player is. (It might be you if the combat damage is redirected.)
+  - *2007-05-01* — When the ability triggers, first you choose whether to pay {2}{R}{R}{R}. If you paid, then you choose whether to cast the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fut/124/thunderblade-charge) · oracle_id `b4f31434-b7c4-489b-9385-70ee0cc3125e` · printing: FUT #124 (2007-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderblust
 
@@ -135,7 +153,15 @@
   > Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 - **Keywords:** Persist, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14214 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/131/thunderblust) · oracle_id `30d961f7-aae2-4e5a-8f83-9dc17c7dee47` · printing: MM2 #131 (2015-05-22) · [rulings](https://api.scryfall.com/cards/249ec37d-c4ed-4af6-8c30-bcec13c108fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2013-06-07* — If a creature with persist stops being a creature, persist will still work.
+  - *2013-06-07* — If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.
+  - *2013-06-07* — If a permanent has multiple instances of persist, they'll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
+  - *2013-06-07* — If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can't return to the battlefield.
+  - *2013-06-07* — If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
+  - *2013-06-07* — The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it.
+  - *2013-06-07* — When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/131/thunderblust) · oracle_id `30d961f7-aae2-4e5a-8f83-9dc17c7dee47` · printing: MM2 #131 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderbolt
 
@@ -149,6 +175,7 @@
   > *"My next aerial design will use less metal."*
   > *—Hadaken, alchemist of Nephalia*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20267 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/avr/159/thunderbolt) · oracle_id `6ffae2fa-511a-45bf-93c4-5d53c85324f5` · printing: AVR #159 (2012-05-04) · [rulings](https://api.scryfall.com/cards/5845a5bc-6b7d-4bbb-80b3-a0f877b95553/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderbolts Conspiracy
@@ -162,6 +189,7 @@
   > *Justice, like lightning.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14721 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/117/thunderbolts-conspiracy) · oracle_id `d90a5213-3363-4cd1-97d6-4fc057f78b2a` · printing: MSH #117 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f498c1a4-54d2-4e87-952f-8cf7e408930c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderbreak Regent
@@ -191,7 +219,14 @@
   > When this creature enters, if tribute wasn't paid, it gains haste until end of turn.
 - **Keywords:** Trample, Tribute
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29374 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bng/113/thunder-brute) · oracle_id `ee1d97e9-847d-4295-a9c1-7ce8006fb0bd` · printing: BNG #113 (2014-02-07) · [rulings](https://api.scryfall.com/cards/c28fa4f8-4b87-41dc-802d-dfd160ccf1a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2014-02-01* — If the opponent pays tribute, the creature will enter the battlefield with the specified number of +1/+1 counters on it. It won’t enter the battlefield and then have the +1/+1 counters placed on it.
+  - *2014-02-01* — If the triggered ability has a target, that target will not be known while the creature spell with tribute is on the stack.
+  - *2014-02-01* — Players can’t respond to the tribute decision before the creature enters the battlefield. That is, if the opponent doesn’t pay tribute, the triggered ability will trigger before any player has a chance to remove the creature.
+  - *2014-02-01* — The choice of whether to pay tribute is made as the creature with tribute is entering the battlefield. At that point, it’s too late to respond to the creature spell. For example, in a multiplayer game, opponents won’t know whether tribute will be paid or which opponent will be chosen to pay tribute or not when deciding whether to counter the creature spell.
+  - *2014-02-01* — The triggered ability will resolve even if the creature with tribute isn’t on the battlefield at that time.
+  - *2017-04-18* — For effects that check which player put counters on the entering creature, the player chosen to pay tribute puts those counters on it, not the creature’s controller.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bng/113/thunder-brute) · oracle_id `ee1d97e9-847d-4295-a9c1-7ce8006fb0bd` · printing: BNG #113 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderclap
 
@@ -201,6 +236,7 @@
   > You may sacrifice a Mountain rather than pay this spell's mana cost.
   > Thunderclap deals 3 damage to target creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15920 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/219/thunderclap) · oracle_id `02f5ceb4-8b9c-4107-972b-6eec365c4a6c` · printing: MMQ #219 (1999-10-04) · [rulings](https://api.scryfall.com/cards/b3f8c5ee-2179-4c05-adc9-0b66d02b59ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderclap Drake
@@ -255,6 +291,7 @@
   > *Some days it's better to stay inside.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31038 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/scg/54/thundercloud-elemental) · oracle_id `24b44a35-496a-48e9-91ee-98b327d867e4` · printing: SCG #54 (2003-05-26) · [rulings](https://api.scryfall.com/cards/597aea42-43e0-41ed-bfe7-fc92b6b8e680/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thundercloud Shaman
@@ -267,7 +304,9 @@
 - **Flavor text** (CM2 printing):
   > *He cares not for the disasters his storm brings as long as his path ahead is clear.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14937 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/123/thundercloud-shaman) · oracle_id `eb812ea7-3301-4774-86a2-64c4ed6766fc` · printing: CM2 #123 (2018-06-08) · [rulings](https://api.scryfall.com/cards/17676da2-1d9a-4181-bc6c-1f75750f7578/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-06-07* — The amount of damage dealt to each non-Giant creature is equal to the number of Giants you control when the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/123/thundercloud-shaman) · oracle_id `eb812ea7-3301-4774-86a2-64c4ed6766fc` · printing: CM2 #123 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunder Dragon
 
@@ -281,6 +320,7 @@
   > *Sometimes primitive cultures attributed natural phenomena to monsters. Sometimes they were right.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12889 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/810/thunder-dragon) · oracle_id `70d9579f-c8a6-4406-afe1-9291fe5ee736` · printing: CLB #810 (2022-06-10) · [rulings](https://api.scryfall.com/cards/9ff75ff4-495f-4a0c-9d98-69eff1b3fa32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunder Drake
@@ -295,7 +335,10 @@
   > *The arrival of the Planar Bridge caused eddies in the aether, creating some entirely new species while transforming others.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21106 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/102/thunder-drake) · oracle_id `a0956c3d-d382-486a-81f1-9aa5cf49b2ab` · printing: CLU #102 (2024-02-23) · [rulings](https://api.scryfall.com/cards/e7ae37f2-37b9-4421-82b1-183a268d8617/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-05-03* — Thunder Drake must be on the battlefield in order for the ability to function. Notably, the ability won’t trigger if Thunder Drake is the second spell you cast in a turn.
+  - *2019-05-03* — Thunder Drake’s ability can trigger only once each turn. The ability will resolve before the second spell resolves. It doesn’t matter if the first spell you cast that turn has resolved, was countered, or is still on the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/102/thunder-drake) · oracle_id `a0956c3d-d382-486a-81f1-9aa5cf49b2ab` · printing: CLU #102 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderdrum Soloist
 
@@ -307,7 +350,9 @@
   > Opus — Whenever you cast an instant or sorcery spell, this creature deals 1 damage to each opponent. If five or more mana was spent to cast that spell, this creature deals 3 damage to each opponent instead.
 - **Keywords:** Reach, Opus
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9945 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/134/thunderdrum-soloist) · oracle_id `43b5794a-4ed6-471d-bc45-22fac486895d` · printing: SOS #134 (2026-04-24) · [rulings](https://api.scryfall.com/cards/590d1d95-ed13-4121-899f-f5a2d8a6617a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — An opus ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/134/thunderdrum-soloist) · oracle_id `43b5794a-4ed6-471d-bc45-22fac486895d` · printing: SOS #134 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderfoot Baloth
 
@@ -359,6 +404,7 @@
   > *—Keelhauler shanty*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15591 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/148/thunderhead-gunner) · oracle_id `d9b6656d-d71f-4359-bf6f-b76089741e29` · printing: DFT #148 (2025-02-14) · [rulings](https://api.scryfall.com/cards/ef537868-b2cb-4bbd-a935-b7f73f19bd06/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderheads
@@ -372,6 +418,7 @@
   > *The clouds grew thick, and then they grew teeth.*
 - **Keywords:** Replicate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30172 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddj/23/thunderheads) · oracle_id `9c5bc3a7-42fe-4f8f-b799-ece7dd98ea4d` · printing: DDJ #23 (2012-09-07) · [rulings](https://api.scryfall.com/cards/bf0a2851-946d-4f10-b43b-7444daa54ae1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderhead Squadron
@@ -386,7 +433,14 @@
   > *Just as all seemed lost, the griffin riders of Zhalfir arrived with the force of a gathered storm.*
 - **Keywords:** Flying, Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27375 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/81/thunderhead-squadron) · oracle_id `d74d6f6a-aff0-4a36-9a99-8b2281f5e29d` · printing: MOM #81 (2023-04-21) · [rulings](https://api.scryfall.com/cards/8eaa0946-591f-4136-9d8a-e56934151383/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/81/thunderhead-squadron) · oracle_id `d74d6f6a-aff0-4a36-9a99-8b2281f5e29d` · printing: MOM #81 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderherd Migration
 
@@ -414,6 +468,7 @@
   > Cycling {2} ({2}, Discard this card: Draw a card.)
 - **Keywords:** Reach, Crew, Menace, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23432 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/225/thundering-broodwagon) · oracle_id `817464d8-1e2d-4e12-96f8-5c7ec9b3e681` · printing: DFT #225 (2025-02-14) · [rulings](https://api.scryfall.com/cards/2d1576d4-15a3-4e91-84ef-e71e258185e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thundering Ceratok
@@ -429,7 +484,9 @@
   > *—Dovin Baan*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24956 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/179/thundering-ceratok) · oracle_id `b7a3a8a9-96ca-48f7-8354-345d9ccfcb77` · printing: WAR #179 (2019-05-03) · [rulings](https://api.scryfall.com/cards/9888d9a4-ad72-43f6-8031-1031877171a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-05-03* — Thundering Ceratok’s triggered ability affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won’t gain trample.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/179/thundering-ceratok) · oracle_id `b7a3a8a9-96ca-48f7-8354-345d9ccfcb77` · printing: WAR #179 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thundering Chariot
 
@@ -443,6 +500,7 @@
   > *In times of conflict, the philosophers of Meletis trade their podiums for conveyances of war.*
 - **Keywords:** First strike, Haste, Crew, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20887 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/239/thundering-chariot) · oracle_id `589ea35b-c64e-4cf6-81c5-806e9463e992` · printing: THB #239 (2020-01-24) · [rulings](https://api.scryfall.com/cards/cd2fa92d-5521-421c-b3f8-7c14bbef3080/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thundering Djinn
@@ -457,7 +515,9 @@
   > *It strikes like a bolt from a brainstorm.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22273 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/215/thundering-djinn) · oracle_id `da0042a7-89a1-4500-b689-b0ea7cab5ed8` · printing: MH1 #215 (2019-06-14) · [rulings](https://api.scryfall.com/cards/28642fbe-90c8-4beb-9950-91af28d93326/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-06-14* — If a spell or ability causes you to put cards into your hand without specifically using the word “draw,” Thundering Djinn’s effect doesn’t count them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/215/thundering-djinn) · oracle_id `da0042a7-89a1-4500-b689-b0ea7cab5ed8` · printing: MH1 #215 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thundering Falls
 
@@ -483,6 +543,7 @@
   > *The giant was felt a few seconds before he was seen.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29557 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/w17/23/thundering-giant) · oracle_id `d23329e2-4134-4e49-b9b6-5febef2bce31` · printing: W17 #23 (2017-04-15) · [rulings](https://api.scryfall.com/cards/ddbcc6e9-b5f4-4f20-9c15-b690b4f64304/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thundering Mightmare
@@ -495,6 +556,7 @@
   > As long as Thundering Mightmare is paired with another creature, each of those creatures has "Whenever an opponent casts a spell, put a +1/+1 counter on this creature."
 - **Keywords:** Soulbond
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11124 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/37/thundering-mightmare) · oracle_id `bf9a6242-b608-46ef-a059-7e757dd52e9b` · printing: VOC #37 (2021-11-19) · [rulings](https://api.scryfall.com/cards/a37fbffb-4ed0-4c61-9cef-2cd55ad67f9c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thundering Raiju
@@ -523,6 +585,7 @@
   > *"Fire is too imprecise for my tastes. I'd rather rely on a single, well-placed bolt of lightning."*
   > *—Lyrus, Sea Gate wizard*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17871 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/170/thundering-rebuke) · oracle_id `bb4d9770-f230-4413-a7a4-bb1f1303661a` · printing: ZNR #170 (2020-09-25) · [rulings](https://api.scryfall.com/cards/dc671707-4708-44d8-8ec8-d5332599adf9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thundering Sparkmage
@@ -535,7 +598,12 @@
 - **Flavor text** (ZNR printing):
   > *"Stay away from my friends!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27469 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/171/thundering-sparkmage) · oracle_id `a786e495-ae3a-4e15-ab32-661d524e2b2d` · printing: ZNR #171 (2020-09-25) · [rulings](https://api.scryfall.com/cards/a9e6de80-3516-426b-8a1b-bda45f8c0cac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-09-25* — An ability referring to the number of creatures in your party gets a number from zero to four. Such abilities never ask which creatures are in your party, and you never have to designate specific creatures as being in your party. You can’t choose to exclude creatures from this count to lower the number.
+  - *2020-09-25* — If a creature has more than one party creature type, and there are multiple ways to count that creature that could result in a different number of creatures in your party, the highest such number is used. For example, if you control a Cleric and a Cleric Wizard, the number of creatures in your party is two. You can’t choose to have it be just one by counting the Cleric Wizard first as a Cleric.
+  - *2020-09-25* — If an ability of a creature counts the number of creatures in your party, that number is counted as the ability resolves. If that creature is still on the battlefield when the ability resolves, it’ll be counted if appropriate.
+  - *2020-09-25* — To determine “the number of creatures in your party,” check whether you control a Cleric, whether you control a Rogue, whether you control a Warrior, and whether you control a Wizard. The number is the total number of those checks to which you answered yes. Each creature you control can be counted for only one of those checks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/171/thundering-sparkmage) · oracle_id `a786e495-ae3a-4e15-ab32-661d524e2b2d` · printing: ZNR #171 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thundering Spineback
 
@@ -565,7 +633,13 @@
   > *—Vorinclex, Voice of Hunger*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26795 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nph/122/thundering-tanadon) · oracle_id `487382ea-0050-4a3f-bcf6-0ce41d6f4ebf` · printing: NPH #122 (2011-05-13) · [rulings](https://api.scryfall.com/cards/e2fab443-0f4b-45ea-8a6d-435b93803409/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2011-06-01* — A card with Phyrexian mana symbols in its mana cost is each color that appears in that mana cost, regardless of how that cost may have been paid.
+  - *2011-06-01* — As you cast a spell or activate an activated ability with one or more Phyrexian mana symbols in its cost, you choose how to pay for each Phyrexian mana symbol at the same time you would choose modes or choose a value for X.
+  - *2011-06-01* — If you're at 1 life or less, you can't pay 2 life.
+  - *2011-06-01* — Phyrexian mana is not a new color. Players can't produce Phyrexian mana.
+  - *2011-06-01* — To calculate the mana value of a card with Phyrexian mana symbols in its cost, count each Phyrexian mana symbol as 1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nph/122/thundering-tanadon) · oracle_id `487382ea-0050-4a3f-bcf6-0ce41d6f4ebf` · printing: NPH #122 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thundering Wurm
 
@@ -575,6 +649,7 @@
 - **Oracle text:**
   > When this creature enters, sacrifice it unless you discard a land card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31261 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/por/189/thundering-wurm) · oracle_id `cdab50a8-1e02-4ba5-8c09-e2837e7652f7` · printing: POR #189 (1997-05-01) · [rulings](https://api.scryfall.com/cards/8b0ba623-d17f-4f0e-b914-da139a3971df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderkin Awakener
@@ -587,7 +662,13 @@
   > Whenever this creature attacks, choose target Elemental creature card in your graveyard with toughness less than this creature's toughness. Return that card to the battlefield tapped and attacking. Sacrifice it at the beginning of the next end step.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20697 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/162/thunderkin-awakener) · oracle_id `c0171343-9c0f-4001-8f4e-a5af9256c4d2` · printing: M20 #162 (2019-07-12) · [rulings](https://api.scryfall.com/cards/289b649b-c93a-44ad-bdd6-866f8b2f1bc2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2019-07-12* — Although the returned creature is an attacking creature, it was never declared as an attacking creature. This means that abilities that trigger whenever a creature attacks (such as that of Thunderkin Awakener itself) won’t trigger when it enters the battlefield attacking.
+  - *2019-07-12* — If Thunderkin Awakener leaves the battlefield after it has attacked but before its triggered ability resolves, use its toughness as it last existed on the battlefield to determine whether the card is still a legal target.
+  - *2019-07-12* — If the new creature leaves the battlefield before the end step, that card remains in its current zone. It won’t be sacrificed.
+  - *2019-07-12* — The target card must have lesser toughness both as Thunderkin Awakener attacks and as its triggered ability resolves. Other abilities that trigger whenever Thunderkin Awakener attacks can’t raise its toughness in time to allow the ability to target cards with greater toughness.
+  - *2019-07-12* — You choose which player or planeswalker the returned creature is attacking. It doesn’t have to be attacking the same player or planeswalker that Thunderkin Awakener is attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/162/thunderkin-awakener) · oracle_id `c0171343-9c0f-4001-8f4e-a5af9256c4d2` · printing: M20 #162 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunder Lasso
 
@@ -600,7 +681,9 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16339 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/35/thunder-lasso) · oracle_id `d98cc18b-6ebb-4f55-9d0d-b8fbe9a92bc1` · printing: OTJ #35 (2024-04-19) · [rulings](https://api.scryfall.com/cards/73dff5fc-2adf-447a-b35f-e7883e0fd821/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-04-12* — You may target a creature that is already tapped with Thunder Lasso's third ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/35/thunder-lasso) · oracle_id `d98cc18b-6ebb-4f55-9d0d-b8fbe9a92bc1` · printing: OTJ #35 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunder Magic
 
@@ -651,6 +734,7 @@
   > *Its hooves strike lightning and the thunder follows quickly after.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19012 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/224/thundermare) · oracle_id `58fa33fd-02a4-4ec9-9226-82594cfec363` · printing: 9ED #224 (2005-07-29) · [rulings](https://api.scryfall.com/cards/7068c0c3-4ec9-4c02-84db-42b609df545f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thundermaw Hellkite
@@ -676,6 +760,7 @@
 - **Oracle text:**
   > Thunder of Hooves deals X damage to each creature without flying and each player, where X is the number of Beasts on the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30128 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/242/thunder-of-hooves) · oracle_id `4b505a4c-ccc3-4461-bbc4-ad5d39f9b879` · printing: ONS #242 (2002-10-07) · [rulings](https://api.scryfall.com/cards/9e4f796a-6831-4d83-824d-88fd2148b4c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunder of Unity
@@ -699,7 +784,13 @@
   > Look at the top twenty cards of your library. You may reveal up to two creature cards from among them. If this spell was bargained, put the revealed cards onto the battlefield. Otherwise, put the revealed cards into your hand. Then shuffle.
 - **Keywords:** Bargain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13199 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/190/thunderous-debut) · oracle_id `07995092-af6c-43b8-b30b-17e020ead37c` · printing: WOE #190 (2023-09-08) · [rulings](https://api.scryfall.com/cards/d98f51ec-8eae-434a-ab62-85bdb6586fa2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-09-01* — Bargain means "As an additional cost to cast this spell, you may sacrifice an artifact, enchantment, or token."
+  - *2023-09-01* — Bargain represents an optional additional cost. A spell cast with that additional cost paid is "bargained."
+  - *2023-09-01* — If you copy a bargained spell, the copy is also bargained. If a card or token enters the battlefield as a copy of a permanent that's already on the battlefield, the new permanent isn't bargained, even if the original was.
+  - *2023-09-01* — Some instant and sorcery spells require additional targets if they're bargained. You ignore those targeting requirements if those spells aren't bargained, and you can't bargain those spells unless you can choose the appropriate targets. On the other hand, you can bargain a permanent spell even if you won't be able to choose targets for an enters-the-battlefield ability of that permanent once the spell resolves.
+  - *2023-09-01* — You may sacrifice only one artifact, enchantment, or token to pay a spell's bargain cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/190/thunderous-debut) · oracle_id `07995092-af6c-43b8-b30b-17e020ead37c` · printing: WOE #190 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderous Might
 
@@ -710,7 +801,12 @@
   > Whenever enchanted creature attacks, it gets +X/+0 until end of turn, where X is your devotion to red. (Each {R} in the mana costs of permanents you control counts toward your devotion to red.)
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18612 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bng/114/thunderous-might) · oracle_id `d08117ec-e6ec-4c63-91d4-1bda59446c54` · printing: BNG #114 (2014-02-07) · [rulings](https://api.scryfall.com/cards/d361851d-e2d4-4912-ba08-81913f6b6e08/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-09-15* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2013-09-15* — If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time.
+  - *2013-09-15* — Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color.
+  - *2013-09-15* — Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bng/114/thunderous-might) · oracle_id `d08117ec-e6ec-4c63-91d4-1bda59446c54` · printing: BNG #114 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderous Orator
 
@@ -722,7 +818,10 @@
   > Whenever this creature attacks, it gains flying until end of turn if you control a creature with flying. The same is true for first strike, double strike, deathtouch, indestructible, lifelink, menace, and trample.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20179 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/35/thunderous-orator) · oracle_id `7716ad72-9e96-4915-bc1e-e12b4d0f6f9c` · printing: STX #35 (2021-04-23) · [rulings](https://api.scryfall.com/cards/ef3b2961-559f-42b1-be13-ff3d03e62809/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-04-16* — Check the creatures you control as the triggered ability resolves to determine which abilities Thunderous Orator gains. Once Thunderous Orator gains an ability, it doesn’t matter what happens to other creatures you control with that ability.
+  - *2021-04-16* — If you control a creature with one of the abilities listed in the last sentence, Thunderous Orator will gain the that ability, not flying.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/35/thunderous-orator) · oracle_id `7716ad72-9e96-4915-bc1e-e12b4d0f6f9c` · printing: STX #35 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderous Snapper
 
@@ -734,7 +833,10 @@
 - **Flavor text** (ELD printing):
   > *While humans hear only a deafening roar, the fae hear music of breathtaking beauty.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11926 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/215/thunderous-snapper) · oracle_id `f826ac35-7dde-414c-94ec-0bdfe04327b4` · printing: ELD #215 (2019-10-04) · [rulings](https://api.scryfall.com/cards/9576d4f1-47bb-45e0-803c-93fa2cdacbe5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-10-04* — For spells with {X} in their mana costs, use the value chosen for X to determine the spell's mana value.
+  - *2019-10-04* — Thunderous Snapper's ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/215/thunderous-snapper) · oracle_id `f826ac35-7dde-414c-94ec-0bdfe04327b4` · printing: ELD #215 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderous Velocipede
 
@@ -759,6 +861,7 @@
   > Miracle {R} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)
 - **Keywords:** Miracle
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20151 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm3/113/thunderous-wrath) · oracle_id `78260893-c443-44c8-ab45-ce86ef347d98` · printing: MM3 #113 (2017-03-17) · [rulings](https://api.scryfall.com/cards/804458a2-5376-462d-a2cd-fa596750c0aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunder Salvo
@@ -770,7 +873,10 @@
 - **Flavor text** (OTJ printing):
   > *"You said one weapon in the duel. Ain't my fault you forgot to specify size."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18351 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/150/thunder-salvo) · oracle_id `d3ce7c83-986f-410a-ae00-6c1c1f918a2b` · printing: OTJ #150 (2024-04-19) · [rulings](https://api.scryfall.com/cards/a0bf0ea9-0929-4d33-815a-6df29c399e7e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-04-12* — The value of X is determined only once, as Thunder Salvo resolves.
+  - *2024-04-12* — Thunder Salvo will count any other spells you’ve cast this turn. It doesn’t matter if the other spells resolved, didn’t resolve, were countered, or are still on the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/150/thunder-salvo) · oracle_id `d3ce7c83-986f-410a-ae00-6c1c1f918a2b` · printing: OTJ #150 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderscape Apprentice
 
@@ -781,6 +887,7 @@
   > {B}, {T}: Target player loses 1 life.
   > {G}, {T}: Target creature gets +1/+1 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31916 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/174/thunderscape-apprentice) · oracle_id `34e325f0-b66f-44b9-a25c-da88357dbac4` · printing: INV #174 (2000-10-02) · [rulings](https://api.scryfall.com/cards/75a0b075-5414-48d3-a2b1-47dc20213e96/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderscape Battlemage
@@ -794,7 +901,14 @@
   > When this creature enters, if it was kicked with its {G} kicker, destroy target enchantment.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31069 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dde/41/thunderscape-battlemage) · oracle_id `9aa66e7d-d5e3-4c48-9c68-b61ff2af0b1a` · printing: DDE #41 (2010-03-19) · [rulings](https://api.scryfall.com/cards/ddb1475d-abee-4eec-8615-bf5e286afb4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dde/41/thunderscape-battlemage) · oracle_id `9aa66e7d-d5e3-4c48-9c68-b61ff2af0b1a` · printing: DDE #41 (2010-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderscape Familiar
 
@@ -808,7 +922,15 @@
   > *Thunderscape masters release familiars to help guide their apprentices down the thunderscape path.*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15835 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pls/76/thunderscape-familiar) · oracle_id `40f6ea6f-71e1-46bd-8d9a-ccb5f437892c` · printing: PLS #76 (2001-02-05) · [rulings](https://api.scryfall.com/cards/26c9c0aa-9412-4320-aaee-e05369b8bc7b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2004-10-04* — Can never affect the colored part of the cost.
+  - *2004-10-04* — If a spell is both black and green, you pay {1} less, not {2} less.
+  - *2004-10-04* — If this card is sacrificed to pay part of a spell’s cost, the cost reduction still applies.
+  - *2004-10-04* — The effect is cumulative.
+  - *2004-10-04* — The generic X cost is still considered generic even if there is a requirement that a specific color be used for it. For example, “only black mana can be spent this way”. This distinction is important for effects which reduce the generic portion of a spell’s cost.
+  - *2004-10-04* — The lower cost is not optional like with some other cost reducers.
+  - *2004-10-04* — This can lower the cost to zero, but not below zero.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pls/76/thunderscape-familiar) · oracle_id `40f6ea6f-71e1-46bd-8d9a-ccb5f437892c` · printing: PLS #76 (2001-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderscape Master
 
@@ -819,6 +941,7 @@
   > {B}{B}, {T}: Target player loses 2 life and you gain 2 life.
   > {G}{G}, {T}: Creatures you control get +2/+2 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31667 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/175/thunderscape-master) · oracle_id `e1db1798-17d1-4ef3-80d7-3f9115a01f7b` · printing: INV #175 (2000-10-02) · [rulings](https://api.scryfall.com/cards/22abdc2f-bdc8-46c4-8ce2-f06befedbc32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thundersong Trumpeter
@@ -832,6 +955,7 @@
   > *"Hear that? Those notes mean we've arrived at Sunhome! Let our allies' hearts soar and our enemies' hearts shatter at the sound!"*
   > *—Klattic, Boros legionnaire*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20856 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm3/195/thundersong-trumpeter) · oracle_id `6ad87598-5b57-496c-96ec-c04fe0616b6b` · printing: MM3 #195 (2017-03-17) · [rulings](https://api.scryfall.com/cards/0a98e91c-9518-4dcf-90a1-610d2d977e0c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunder Spirit
@@ -843,6 +967,7 @@
   > Flying, first strike
 - **Keywords:** Flying, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30751 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/27/thunder-spirit) · oracle_id `6efad3d6-4886-4b62-a4ff-bc0622f9672a` · printing: ME1 #27 (2007-09-10) · [rulings](https://api.scryfall.com/cards/f8508542-53ea-4c1b-ae6f-b446c42149ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderstaff
@@ -855,7 +980,9 @@
 - **Flavor text** (CMA printing):
   > *Jort the Thunder-Mad spent his life perfecting a way to harness the power of the heavens.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21700 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cma/237/thunderstaff) · oracle_id `1a88a378-051c-42b4-bd0e-9c40ae8efea6` · printing: CMA #237 (2017-06-09) · [rulings](https://api.scryfall.com/cards/3d73681d-189f-4331-ac4b-e7e1541023ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-12-01* — If Thunderstaff is untapped, it prevents 1 damage from each creature, each time it would deal combat damage to you. So if three creatures with double strike attack you and aren’t blocked, Thunderstaff will prevent a total of 6 damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cma/237/thunderstaff) · oracle_id `1a88a378-051c-42b4-bd0e-9c40ae8efea6` · printing: CMA #237 (2017-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thundersteel Colossus
 
@@ -870,6 +997,7 @@
   > *—Arima, to Emire*
 - **Keywords:** Haste, Crew, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11488 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/261/thundersteel-colossus) · oracle_id `9cef3013-6a84-4edd-9a47-e842df2200e3` · printing: NEO #261 (2022-02-18) · [rulings](https://api.scryfall.com/cards/b7d49f9c-2dd3-4aed-9b78-e1bcad354a35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunder Strike
@@ -881,7 +1009,10 @@
 - **Flavor text** (BBD printing):
   > *Lightning reflexes, thunderous might.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25408 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/185/thunder-strike) · oracle_id `a5f25e80-7a6a-4629-8201-901e0fcd4a02` · printing: BBD #185 (2018-06-08) · [rulings](https://api.scryfall.com/cards/abdc38f3-194a-4f43-8ada-9cfc17094d20/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2010-08-15* — If a creature doesn’t have first strike, granting it first strike after combat damage has been dealt in the first-strike combat damage step won’t prevent it from dealing combat damage. It will still assign and deal its combat damage in the second combat damage step.
+  - *2010-08-15* — Thunder Strike can target any creature, even one that already has first strike or double strike. (If it affects such a creature, it will, in effect, just give it +2/+0.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/185/thunder-strike) · oracle_id `a5f25e80-7a6a-4629-8201-901e0fcd4a02` · printing: BBD #185 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunder-Thrash Elder
 
@@ -894,7 +1025,12 @@
   > *Viashino thrashes are led by elders who have survived countless challenges.*
 - **Keywords:** Devour
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24387 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pca/53/thunder-thrash-elder) · oracle_id `aef6c5b3-824f-4b7d-9671-1ed61d547717` · printing: PCA #53 (2016-11-25) · [rulings](https://api.scryfall.com/cards/92ecd6d2-f052-4dc6-823b-a1997a911cf9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-10-01* — If multiple creatures with devour are entering under your control at the same time, you may use each one's devour ability. A creature you already control can be devoured by only one of them, however. (In other words, you can't sacrifice the same creature to satisfy multiple devour abilities.) All creatures devoured this way are sacrificed at the same time.
+  - *2008-10-01* — If you cast this as a spell, you choose how many and which creatures to devour as part of the resolution of that spell. (It can't be countered at this point.) The same is true of a spell or ability that lets you put a creature with devour onto the battlefield.
+  - *2008-10-01* — You may choose not to sacrifice any creatures for the Devour ability.
+  - *2008-10-01* — You may sacrifice only creatures that are already on the battlefield. If a creature with devour and another creature are entering under your control at the same time, the creature with devour can't devour that other creature. The creature with devour also can't devour itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pca/53/thunder-thrash-elder) · oracle_id `aef6c5b3-824f-4b7d-9671-1ed61d547717` · printing: PCA #53 (2016-11-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunder Totem
 
@@ -904,7 +1040,9 @@
   > {T}: Add {W}.
   > {1}{W}{W}: This artifact becomes a 2/2 white Spirit artifact creature with flying and first strike until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23044 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/265/thunder-totem) · oracle_id `89560e1c-b7fb-46b7-955e-647e3ae9091b` · printing: TSP #265 (2006-10-06) · [rulings](https://api.scryfall.com/cards/5fc332da-e93f-45b1-912c-06af41b412e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/265/thunder-totem) · oracle_id `89560e1c-b7fb-46b7-955e-647e3ae9091b` · printing: TSP #265 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thundertrap Trainer
 
@@ -942,6 +1080,7 @@
   > *—General Jarkeld, the Arctic Fox*
 - **Keywords:** Flying, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29530 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/71/thunder-wall) · oracle_id `904b9056-ad76-4805-b14f-c426e4a57bae` · printing: ME2 #71 (2008-09-22) · [rulings](https://api.scryfall.com/cards/cfabe410-ff54-48ba-8d1a-b7248976e967/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderwave
@@ -969,6 +1108,7 @@
   > *The practice of tracking and training Thunderwolves is a sort of initiation ritual into the upper echelons of the Wolf Guard.*
 - **Keywords:** Crushing Teeth, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15583 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/16/thunderwolf-cavalry) · oracle_id `3b36df26-6a41-4714-95a8-fd02e2fc845f` · printing: 40K #16 (2022-10-07) · [rulings](https://api.scryfall.com/cards/3ec9bc4f-d8b8-4c68-bc4a-923b03a971cf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thurid, Mare of Destiny
@@ -982,4 +1122,10 @@
   > Other Pegasi, Unicorns, and Horses you control get +1/+1.
 - **Keywords:** Flying, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12945 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/j25/33/thurid-mare-of-destiny) · oracle_id `0b96cd7a-2132-4ff2-9666-6e2fbd0a2160` · printing: J25 #33 (2024-11-15) · [rulings](https://api.scryfall.com/cards/aad65c60-b9e8-4a8f-92e8-3dff63232102/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-11-08* — As a copy of a permanent spell resolves, it's put onto the battlefield as a token rather than putting a copy of the spell onto the battlefield. The rules that apply to a permanent spell becoming a permanent apply to a copy of a spell becoming a token.
+  - *2024-11-08* — The token that a resolving copy of a permanent spell becomes isn't "created." Abilities that refer to a token being created won't interact with the copy resolving.
+  - *2024-11-08* — Thurid's triggered ability and the copy it creates will resolve before the spell that caused it to trigger. They resolve even if that spell is countered or otherwise leaves the stack without resolving.
+  - *2024-11-08* — Thurid's triggered ability doesn't trigger if a Pegasus, Unicorn, or Horse creature is put onto the battlefield without being cast.
+  - *2024-11-08* — Thurid's triggered ability will copy only creature spells, not noncreature kindred spells, even if those spells have the Pegasus, Unicorn, or Horse types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/j25/33/thurid-mare-of-destiny) · oracle_id `0b96cd7a-2132-4ff2-9666-6e2fbd0a2160` · printing: J25 #33 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

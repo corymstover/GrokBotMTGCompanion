@@ -61,6 +61,7 @@
   > *"Those who fling spells too quickly should have reason to regret it."*
   > *—Baki, Wizard Attendant*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31120 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hml/22/bakis-curse) · oracle_id `341a92b9-d6a0-499e-abb7-e2b7d7bc248c` · printing: HML #22 (1995-10-01) · [rulings](https://api.scryfall.com/cards/e3261b4c-7963-4ca0-875d-77b7c8571b3f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baku Altar
@@ -71,4 +72,5 @@
   > Whenever you cast a Spirit or Arcane spell, you may put a ki counter on this artifact.
   > {2}, {T}, Remove a ki counter from this artifact: Create a 1/1 colorless Spirit creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21845 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/152/baku-altar) · oracle_id `8443b8c2-d0ab-4fb1-ad35-7e5e4cb345b6` · printing: BOK #152 (2005-02-04) · [rulings](https://api.scryfall.com/cards/81e1dbb8-3df8-4e7e-b74b-baab7d6f97c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

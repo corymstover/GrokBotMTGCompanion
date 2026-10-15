@@ -56,7 +56,9 @@
   > When this Aura is put into a graveyard from the battlefield, return it to its owner's hand.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23967 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/8ed/281/spreading-algae) · oracle_id `a08189f2-1643-496a-8a91-74864528b4db` · printing: 8ED #281 (2003-07-28) · [rulings](https://api.scryfall.com/cards/3abaf631-ce63-47c8-8883-04f942f2e7ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-04-01* — This card now has Enchant Swamp, which works exactly like any other Enchant ability. This means it can only be cast targeting a Swamp, and it will be put into its owner's graveyard if the permanent it's attached to ever stops being a Swamp.
+- **Source flags:** [Scryfall](https://scryfall.com/card/8ed/281/spreading-algae) · oracle_id `a08189f2-1643-496a-8a91-74864528b4db` · printing: 8ED #281 (2003-07-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spreading Flames
 
@@ -68,7 +70,10 @@
   > *"Hang on. I'm just tidying up."*
   > *—Chandra Nalaar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27559 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/emn/143/spreading-flames) · oracle_id `95bedd11-ed01-4cb1-bcdb-c5f9fdba8c79` · printing: EMN #143 (2016-07-22) · [rulings](https://api.scryfall.com/cards/c655b1dc-8df1-44c8-a963-bd0a671ec7e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-07-13* — If Spreading Flames has multiple targets, and some, but not all, are illegal targets when Spreading Flames tries to resolve, Spreading Flames will still deal damage to the remaining legal targets according to the original damage division. If all the targets are illegal, the spell won’t resolve.
+  - *2016-07-13* — You announce how the damage will be divided as part of casting Spreading Flames. Each chosen target must receive at least 1 damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/emn/143/spreading-flames) · oracle_id `95bedd11-ed01-4cb1-bcdb-c5f9fdba8c79` · printing: EMN #143 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spreading Insurrection
 
@@ -81,7 +86,13 @@
   > *Everyone wants to be on the winning side.*
 - **Keywords:** Storm
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12784 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/142/spreading-insurrection) · oracle_id `bc59977f-b3a7-4bc1-9f20-0a1e36d418ae` · printing: MH2 #142 (2021-06-18) · [rulings](https://api.scryfall.com/cards/f1c1918b-2f7a-4cab-9547-029ebc589000/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-06-18* — A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won't affect the copies.
+  - *2021-06-18* — If a spell with storm has targets, you may choose new targets for any of the copies. You can make different choices for each copy.
+  - *2021-06-18* — Spells cast from zones other than a player's hand and spells that were countered or otherwise failed to resolve are counted by the storm ability.
+  - *2021-06-18* — The copies are put directly onto the stack. They aren't cast and won't be counted by other spells with storm cast later in the turn.
+  - *2021-06-18* — The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/142/spreading-insurrection) · oracle_id `bc59977f-b3a7-4bc1-9f20-0a1e36d418ae` · printing: MH2 #142 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spreading Plague
 
@@ -92,6 +103,7 @@
 - **Flavor text** (INV printing):
   > *The cruelest strain of plague keeps its hosts alive long enough to return home and infect their families.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16093 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/125/spreading-plague) · oracle_id `6c134ef7-5c2f-4e4c-ae40-ef338fbf41e6` · printing: INV #125 (2000-10-02) · [rulings](https://api.scryfall.com/cards/ac86055d-ce08-4b05-a92c-45e007ca0ba4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spreading Rot
@@ -104,6 +116,7 @@
   > *"What is this foul presence that defies the sun's cleansing rays?"*
   > *—Itzama the Crested*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26357 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/125/spreading-rot) · oracle_id `3c1b95bd-a2fc-47cd-8940-e4af03bd3ce2` · printing: XLN #125 (2017-09-29) · [rulings](https://api.scryfall.com/cards/ca8a160c-5e89-4347-8e88-3541b6d221e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spreading Seas
@@ -118,7 +131,9 @@
   > *Most inhabitants of Zendikar have given up on the idea of an accurate map.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12012 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/zen/70/spreading-seas) · oracle_id `af32757c-9d3c-4f6c-a6fa-d5729a440382` · printing: ZEN #70 (2009-10-02) · [rulings](https://api.scryfall.com/cards/37454c1c-4098-4ac2-884e-3f65f1384bdb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — The enchanted land loses its existing land types and any abilities printed on it. It now has the land type Island and has the ability to tap to produce {U}. Spreading Seas doesn't change the enchanted land's name or whether it's legendary, basic, or snow.
+- **Source flags:** [Scryfall](https://scryfall.com/card/zen/70/spreading-seas) · oracle_id `af32757c-9d3c-4f6c-a6fa-d5729a440382` · printing: ZEN #70 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spread the Sickness
 
@@ -130,7 +145,16 @@
   > *Life is ephemeral. Phyrexia is eternal.*
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11853 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/98/spread-the-sickness) · oracle_id `142af8f1-6d6b-4043-8cc4-6632481972c1` · printing: MM2 #98 (2015-05-22) · [rulings](https://api.scryfall.com/cards/003bc8f1-f282-491c-984d-1ce7ac027053/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2011-06-01* — If the creature is an illegal target when Spread the Sickness tries to resolve, the spell doesn't resolve. You won't proliferate.
+  - *2013-07-01* — If the creature regenerates or has indestructible when Spread the Sickness resolves, you'll still proliferate.
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/98/spread-the-sickness) · oracle_id `142af8f1-6d6b-4043-8cc4-6632481972c1` · printing: MM2 #98 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Springbloom Druid
 
@@ -154,7 +178,10 @@
   > Destroy target enchantment. Clash with an opponent. If you win, destroy all enchantments your opponents control. (Each clashing player reveals the top card of their library, then puts that card on their choice of the top or bottom. A player wins if their card had a greater mana value.)
 - **Keywords:** Clash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19579 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/236/spring-cleaning) · oracle_id `9b3b81cf-f020-4e1e-95c7-db44ca153dc1` · printing: LRW #236 (2007-10-12) · [rulings](https://api.scryfall.com/cards/dc20ef13-e97f-454c-8295-7bb8a7c4e4be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2007-10-01* — If you win the clash, you destroy all enchantments all of your opponents control, not just enchantments controlled by the opponent you clashed with.
+  - *2013-09-20* — If you win the clash and the targeted enchantment is controlled by an opponent, it will be destroyed a second time if it's still on the battlefield (for instance, if it somehow regenerated).
+- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/236/spring-cleaning) · oracle_id `9b3b81cf-f020-4e1e-95c7-db44ca153dc1` · printing: LRW #236 (2007-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Springheart Nantuko
 
@@ -190,6 +217,7 @@
   > *The ground trembled in a violent purr.*
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31155 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/272/springing-tiger) · oracle_id `2f8c4805-694d-4408-8eb5-9fb7ce278ded` · printing: ODY #272 (2001-10-01) · [rulings](https://api.scryfall.com/cards/04462629-fb03-40e8-84e6-4a66e4d5392b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Springjack Knight
@@ -201,6 +229,7 @@
   > Whenever this creature attacks, clash with an opponent. If you win, target creature gains double strike until end of turn. (Each clashing player reveals the top card of their library, then puts that card on their choice of the top or bottom. A player wins if their card had a greater mana value.)
 - **Keywords:** Clash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28716 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/41/springjack-knight) · oracle_id `97b0b719-d948-4671-97ba-1b2be8cc55e4` · printing: LRW #41 (2007-10-12) · [rulings](https://api.scryfall.com/cards/75fa0c72-427b-4797-b5b1-15f07fc5fa07/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Springjack Pasture
@@ -212,7 +241,11 @@
   > {4}, {T}: Create a 0/1 white Goat creature token.
   > {T}, Sacrifice X Goats: Add X mana of any one color. You gain X life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12529 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c13/326/springjack-pasture) · oracle_id `9eaadbbc-818b-4c21-9d4b-1bba48504d38` · printing: C13 #326 (2013-11-01) · [rulings](https://api.scryfall.com/cards/035438b1-f794-41e5-9e2b-bc5136766cd5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-08-01* — If you sacrifice no Goats, you'll produce no mana and you'll gain no life.
+  - *2008-08-01* — Springjack Pasture's last ability is a mana ability. The whole ability — including the life gain — doesn't use the stack and therefore can't be responded to.
+  - *2008-08-01* — You can sacrifice any Goats you control to activate the third ability, not just Goats created by Springjack Pasture.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c13/326/springjack-pasture) · oracle_id `9eaadbbc-818b-4c21-9d4b-1bba48504d38` · printing: C13 #326 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Springjack Shepherd
 
@@ -225,7 +258,11 @@
   > *"Better for a doun to lose its cenn than its springjacks."*
 - **Keywords:** Chroma
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17679 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eve/15/springjack-shepherd) · oracle_id `325b3469-531e-4ca2-bccb-bb95258c1b54` · printing: EVE #15 (2008-07-25) · [rulings](https://api.scryfall.com/cards/e25991e3-4b83-4521-ab2b-c11b1fa9d0bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-08-01* — Chroma abilities check only mana costs, which are found in a card’s upper right corner. They don’t count mana symbols that appear in a card’s text box.
+  - *2008-08-01* — Chroma abilities count hybrid mana symbols of the appropriate color. For example, a card with mana cost {3}{U/R}{U/R} has two red mana symbols in its mana cost.
+  - *2008-08-01* — The effect counts the mana symbols in this cards mana cost as well.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eve/15/springjack-shepherd) · oracle_id `325b3469-531e-4ca2-bccb-bb95258c1b54` · printing: EVE #15 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Springjaw Trap
 
@@ -239,6 +276,7 @@
   > *—Master Hunter Chevill*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26494 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/241/springjaw-trap) · oracle_id `3a635b73-692f-4345-9628-cb4f9f0cddad` · printing: IKO #241 (2020-04-24) · [rulings](https://api.scryfall.com/cards/3741de51-ea92-493a-8058-e0f2000e7701/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spring-Leaf Avenger
@@ -302,7 +340,12 @@
   > Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Craft, Transform, Crew, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14494 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/36/spring-loaded-sawblades-bladewheel-chariot) · oracle_id `fa1ed9fa-5f77-4f7d-bab0-47c719cdc5bc` · printing: LCI #36 (2023-11-17) · [rulings](https://api.scryfall.com/cards/24417388-f2bb-4783-bdce-264774531838/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-11-10* — If a card that isn't a transforming double-faced card becomes a copy of a card with craft, it'll stay in exile if you activate the craft ability. It won't return to the battlefield.
+  - *2023-11-10* — If the materials required include multiple objects, you may exile some of them from among permanents you control and the rest from among cards in your graveyard. You don't have to choose all permanents or all cards from your graveyard.
+  - *2023-11-10* — The back faces of some cards with craft refer to cards "used to craft" it. This refers to the cards exiled as part of the cost of the craft ability of the front face. Those cards are considered to be "used to craft" that permanent as long as they remain exiled and the permanent remains on the battlefield, even if the permanent's controller changes or some of its characteristics change (because of a copy effect, for example.)
+  - *2023-11-10* — You may exile tokens you control as part of the materials required. However, because they aren't cards and won't stay in exile, any abilities that refer to what you "used to craft" the back faces won't refer to anything.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/36/spring-loaded-sawblades-bladewheel-chariot) · oracle_id `fa1ed9fa-5f77-4f7d-bab0-47c719cdc5bc` · printing: LCI #36 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Springmane Cervin
 
@@ -314,6 +357,7 @@
 - **Flavor text** (STX printing):
   > *Cervins feed on the mana-rich plants around the star arches, imbuing their bodies with extraordinary grace and vitality.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26786 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/144/springmane-cervin) · oracle_id `4e964f31-c764-4af5-8c27-a46fd721fab4` · printing: STX #144 (2021-04-23) · [rulings](https://api.scryfall.com/cards/f5b0eac4-0262-4eed-97d4-0f2e6f06c8e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Springmantle Cleric
@@ -326,7 +370,12 @@
 - **Flavor text** (ZNR printing):
   > *Hope and courage bloom in her wake.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28988 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/205/springmantle-cleric) · oracle_id `83865eee-709a-4a34-94f1-9b818f31323f` · printing: ZNR #205 (2020-09-25) · [rulings](https://api.scryfall.com/cards/8d822730-6d81-4dbc-a3c3-ce96d29a1078/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-09-25* — Colorless mana won’t give Springmantle Cleric another +1/+1 counter. Colorless is not a color.
+  - *2020-09-25* — If Springmantle Cleric enters the battlefield without being cast, it receives no +1/+1 counters.
+  - *2020-09-25* — If an effect allows you to spend mana as though it were mana of any color to cast Springmantle Cleric, you consider only the actual mana spent to determine how many counters it receives.
+  - *2020-09-25* — If another creature enters the battlefield as a copy of Springmantle Cleric, consider what mana was spent to cast that creature to determine how many +1/+1 counters it enters with.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/205/springmantle-cleric) · oracle_id `83865eee-709a-4a34-94f1-9b818f31323f` · printing: ZNR #205 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spring // Mind
 
@@ -338,7 +387,18 @@
   > Draw two cards.
 - **Keywords:** Aftermath
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16084 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/219/spring-mind) · oracle_id `6dd7e861-7ae2-49e6-a9ab-8fd761939e22` · printing: AKH #219 (2017-04-28) · [rulings](https://api.scryfall.com/cards/6431d464-1f2b-42c4-ad38-67b7d0984080/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2017-04-18* — A spell with aftermath cast from a graveyard will always be exiled afterward, whether it resolves, it's countered, or it leaves the stack in some other way.
+  - *2017-04-18* — All split cards have two card faces on a single card, and you put a split card onto the stack with only the half you're casting. The characteristics of the half of the card you didn't cast are ignored while the spell is on the stack. For example, if an effect prevents you from casting green spells, you can cast Destined of Destined // Lead, but not Lead.
+  - *2017-04-18* — Each split card has two names. If an effect instructs you to choose a card name, you may choose one, but not both.
+  - *2017-04-18* — Each split card is a single card. For example, if you discard one, you've discarded one card, not two. If an effect counts the number of instant and sorcery cards in your graveyard, Destined // Lead counts once, not twice.
+  - *2017-04-18* — If another effect allows you to cast a split card with aftermath from a graveyard, you may cast either half. If you cast the half that has aftermath, you'll exile the card if it would leave the stack.
+  - *2017-04-18* — If another effect allows you to cast a split card with aftermath from any zone other than a graveyard, you can't cast the half with aftermath.
+  - *2017-04-18* — If you cast the first half of a split card with aftermath during your turn, you'll have priority immediately after it resolves. You can cast the half with aftermath from your graveyard before any player can take any other action if it's legal for you to do so.
+  - *2017-04-18* — Split cards with aftermath have a new frame treatment—the half you can cast from your hand is oriented the same as other cards you'd cast from your hand, while the half you can cast from your graveyard is a traditional split card half. This frame treatment is for your convenience and has no rules significance.
+  - *2017-04-18* — While not on the stack, the characteristics of a split card are the combination of its two halves. For example, Destined // Lead is a green and black card, it is both an instant card and a sorcery card, and its mana value is 6. This means that if an effect allows you to cast a card with mana value 2 from your hand, you can't cast Destined. This is a change from the previous rules for split cards.
+  - *2017-07-14* — Once you've started to cast a spell with aftermath from your graveyard, the card is immediately moved to the stack. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/219/spring-mind) · oracle_id `6dd7e861-7ae2-49e6-a9ab-8fd761939e22` · printing: AKH #219 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spring of Eternal Peace
 
@@ -349,6 +409,7 @@
 - **Flavor text** (PTK printing):
   > *Bathing in this spring could cure ailments of body and mind alike.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31863 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/148/spring-of-eternal-peace) · oracle_id `6fcdb870-a1b6-49fe-8b5c-cdde074a7f7d` · printing: PTK #148 (1999-05-01) · [rulings](https://api.scryfall.com/cards/f6862d7a-04ee-48ac-a5b3-46a4e8694d5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Springsage Ritual
@@ -361,7 +422,9 @@
   > *"Every evil destroyed is a strike against the enemy."*
   > *—Erold, Gatstaf springsage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24499 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/emn/172/springsage-ritual) · oracle_id `14945b80-10ec-4205-98df-cc3e119ca57c` · printing: EMN #172 (2016-07-22) · [rulings](https://api.scryfall.com/cards/2e0b23a4-5868-4dd8-ae68-846934e1bd52/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-07-13* — If the artifact or enchantment becomes an illegal target, Springsage Ritual doesn’t resolve. You won’t gain 4 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/emn/172/springsage-ritual) · oracle_id `14945b80-10ec-4205-98df-cc3e119ca57c` · printing: EMN #172 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spring Splasher
 
@@ -373,6 +436,7 @@
 - **Flavor text** (OTJ printing):
   > *It once escaped a cook's pot. Now it fears neither heat nor human.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18929 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/69/spring-splasher) · oracle_id `f1136a22-b202-4688-a44c-a9979c91261a` · printing: OTJ #69 (2024-04-19) · [rulings](https://api.scryfall.com/cards/b6822d12-1a25-42e7-94cc-71bd29daed93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sprinting Warbrute
@@ -385,7 +449,14 @@
   > Dash {3}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)
 - **Keywords:** Dash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28361 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/157/sprinting-warbrute) · oracle_id `e680f3e9-5c76-41e6-a4a5-662ee05ac3af` · printing: DTK #157 (2015-03-27) · [rulings](https://api.scryfall.com/cards/a215bde8-1680-4aea-9d0f-2d6d80a592e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2015-02-25* — If a creature enters the battlefield as a copy of or becomes a copy of a creature whose dash cost was paid, the copy won’t have haste and won’t be returned to its owner’s hand.
+  - *2015-02-25* — If you choose to pay the dash cost rather than the mana cost, you’re still casting the spell. It goes on the stack and can be responded to and countered. You can cast a creature spell for its dash cost only when you otherwise could cast that creature spell. Most of the time, this means during your main phase when the stack is empty.
+  - *2015-02-25* — If you pay the dash cost to cast a creature spell, that card will be returned to its owner’s hand only if it’s still on the battlefield when its triggered ability resolves. If it dies or goes to another zone before then, it will stay where it is.
+  - *2015-02-25* — If, during your declare attackers step, Sprinting Warbrute is tapped, is affected by a spell or ability that says it can’t attack, or hasn’t been under your control continuously since the turn began (and doesn’t have haste), then it doesn’t attack. If there’s a cost associated with having a creature attack, you’re not forced to pay that cost, so it doesn’t have to attack in that case either.
+  - *2015-02-25* — You don’t have to attack with the creature with dash unless another ability says you do.
+  - *2015-02-25* — You still choose which player or planeswalker Sprinting Warbrute attacks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/157/sprinting-warbrute) · oracle_id `e680f3e9-5c76-41e6-a4a5-662ee05ac3af` · printing: DTK #157 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sprite Dragon
 
@@ -416,7 +487,9 @@
   > *"By thorn and by stone, we will fight to see the day when beauty returns to this world."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14505 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ema/73/sprite-noble) · oracle_id `bf3e3004-4133-4542-9ee3-2fb98e759ffa` · printing: EMA #73 (2016-06-10) · [rulings](https://api.scryfall.com/cards/e2f1b2c9-7b37-451a-a8cc-252a47b2cded/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — The set of creatures affected by Sprite Noble's last ability is determined as the ability resolves. Creatures with flying you begin to control later in the turn and creatures that gain flying later in the turn won't get +1/+0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ema/73/sprite-noble) · oracle_id `bf3e3004-4133-4542-9ee3-2fb98e759ffa` · printing: EMA #73 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sprout
 
@@ -427,6 +500,7 @@
 - **Flavor text** (TSP printing):
   > *Centuries of temporal strife had stripped Dominaria of its natural defenses, but nature fought back with armies constructed of little more than grime and sunlight.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18009 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsp/221/sprout) · oracle_id `424c6f5e-b386-47e9-b3fe-25b263097d40` · printing: TSP #221 (2006-10-06) · [rulings](https://api.scryfall.com/cards/6967363f-1e05-4484-8790-47f7be68455c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sproutback Trudge
@@ -440,7 +514,13 @@
   > At the beginning of your end step, if you gained life this turn, you may cast this creature from your graveyard.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15764 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/68/sproutback-trudge) · oracle_id `d9826660-0f34-4d82-8915-cf2796ab8d9a` · printing: C21 #68 (2021-04-23) · [rulings](https://api.scryfall.com/cards/dbf26e54-bdfe-4da8-acbb-4f1a98faba49/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-04-16* — Sproutback Trudge’s ability counts the total amount of life gained without considering any life you lost during that turn. For example, if you lost 3 life and gained 4 life earlier in the turn, Sproutback Trudge will cost {3}{G}{G}.
+  - *2021-04-16* — The cost reduction can reduce only generic mana in a spell’s total cost. It can’t reduce the cost to cast Sproutback Trudge beyond {G}{G}.
+  - *2021-04-16* — To determine the total cost of a spell, start with the mana cost or alternative cost you’re paying, add any cost increases, then apply any cost reductions (such as that of Sproutback Trudge’s first ability). Sproutback Trudge’s mana value is always 9, no matter what the total cost to cast the spell was.
+  - *2021-04-16* — You need to gain life before the end step begins for the last ability to trigger.
+  - *2021-04-16* — You still need to pay the cost to cast Sproutback Trudge from your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/68/sproutback-trudge) · oracle_id `d9826660-0f34-4d82-8915-cf2796ab8d9a` · printing: C21 #68 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sprouting Goblin
 
@@ -469,7 +549,11 @@
   > *A hydra tender's problem isn't having enough defenses but enough pots.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17412 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dis/95/sprouting-phytohydra) · oracle_id `66847507-f8bb-4266-bd6e-a91c0baf0000` · printing: DIS #95 (2006-05-05) · [rulings](https://api.scryfall.com/cards/6a478eaa-2658-49db-965f-db25fc1d720e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2006-05-01* — A token copy of Sprouting Phytohydra is created even if the damage dealt to Sprouting Phytohydra destroys it.
+  - *2006-05-01* — If Cytoshape turns a creature into a copy of Sprouting Phytohydra, and that creature is dealt damage, the token that is put onto the battlefield is simply a copy of Sprouting Phytohydra. At the end of the turn, the Cytoshaped creature will revert back to what it was, but the token copying it will not.
+  - *2006-05-01* — If a token copy of Sprouting Phytohydra is dealt damage, it will create another token copy.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dis/95/sprouting-phytohydra) · oracle_id `66847507-f8bb-4266-bd6e-a91c0baf0000` · printing: DIS #95 (2006-05-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sprouting Renewal
 
@@ -482,7 +566,14 @@
   > • Destroy target artifact or enchantment.
 - **Keywords:** Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18005 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/157/sprouting-renewal) · oracle_id `674202f0-6832-4392-a118-d513162bcd03` · printing: RVR #157 (2024-01-12) · [rulings](https://api.scryfall.com/cards/e0b32db8-1c8c-4109-a051-0b61eda1da35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/157/sprouting-renewal) · oracle_id `674202f0-6832-4392-a118-d513162bcd03` · printing: RVR #157 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sprouting Thrinax
 
@@ -494,6 +585,7 @@
 - **Flavor text** (2X2 printing):
   > *The vast network of predation on Jund has actually caused some strange creatures to adapt to being eaten.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11980 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/278/sprouting-thrinax) · oracle_id `ea74e89e-0724-4744-a6c9-e35c415624fb` · printing: 2X2 #278 (2022-07-08) · [rulings](https://api.scryfall.com/cards/41b05cf1-1bc2-43e1-b383-9cbb69517389/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sprouting Vines
@@ -505,7 +597,12 @@
   > Storm (When you cast this spell, copy it for each spell cast before it this turn.)
 - **Keywords:** Storm
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13534 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c13/173/sprouting-vines) · oracle_id `a38ad1aa-fc12-49be-b9f7-fe287597a5ca` · printing: C13 #173 (2013-11-01) · [rulings](https://api.scryfall.com/cards/b16ba7be-47e6-4c64-918d-bec60abccaa3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-12-08* — A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won't affect the copies.
+  - *2022-12-08* — Spells cast from zones other than a player's hand and spells that were countered are counted by the storm ability.
+  - *2022-12-08* — The copies are put directly onto the stack. They aren't cast and won't be counted by other spells with storm cast later in the turn.
+  - *2022-12-08* — The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c13/173/sprouting-vines) · oracle_id `a38ad1aa-fc12-49be-b9f7-fe287597a5ca` · printing: C13 #173 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sprout Swarm
 

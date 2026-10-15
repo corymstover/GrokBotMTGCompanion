@@ -18,4 +18,5 @@
   > When this enchantment enters, search your library for a legendary creature card with mana value X or less, exile it, then shuffle.
   > At the beginning of your first main phase, you may introduce the exiled card using an introduction you haven't used this game. If you do, put that card onto the battlefield. It gains haste. Exile that creature at the beginning of the next end step.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pf26/6/in-residence) · oracle_id `87500290-cd00-4622-a97c-903447337bc7` · printing: PF26 #6 (2026-04-13) · [rulings](https://api.scryfall.com/cards/4c7d432c-fead-4ee1-8fdf-516e882c986f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

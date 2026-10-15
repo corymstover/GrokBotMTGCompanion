@@ -42,6 +42,7 @@
   > −1: If you don't control a creature named Mowu, create Mowu, a legendary 3/3 green Dog creature token.
   > −5: Until end of turn, target creature gains trample and gets +X/+X, where X is the number of lands you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20618 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gs1/22/jiang-yanggu) · oracle_id `b15c8f43-685d-4901-9cad-47bc6dc6346f` · printing: GS1 #22 (2018-06-22) · [rulings](https://api.scryfall.com/cards/eb8dae9a-dac2-4b80-b546-852b989bd8c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jiang Yanggu, Alone
@@ -56,7 +57,9 @@
   > *His best friend was gone. Someone had to pay.*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24093 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/246/jiang-yanggu-alone) · oracle_id `fa8b3557-b35a-4a68-ab85-cf09683f3bc5` · printing: FRA #246 (2026-10-02) · [rulings](https://api.scryfall.com/cards/e8c1ce21-b77d-40bf-9ed1-478604e71f5f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-08-21* — A creature attacks a player alone if no other creatures are declared as attackers attacking that player. It doesn't matter if other creatures are declared as attackers attacking planeswalkers that player controls, battles they protect, or other players.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/246/jiang-yanggu-alone) · oracle_id `fa8b3557-b35a-4a68-ab85-cf09683f3bc5` · printing: FRA #246 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jiang Yanggu, Never Alone
 
@@ -69,6 +72,7 @@
 - **Flavor text** (FRA printing):
   > *"I traveled with Mowu as a Planeswalker. Now I do so through Omenpaths. Neither of us are complaining about the longer walk."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18816 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/261/jiang-yanggu-never-alone) · oracle_id `4ba661d7-1cb8-4fec-bfaa-5f2797235fcf` · printing: FRA #261 (2026-10-02) · [rulings](https://api.scryfall.com/cards/f5a0bb3e-8119-4739-8684-e61d1d607dcb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jiang Yanggu, Wildcrafter
@@ -93,6 +97,7 @@
 - **Flavor text** (DFT printing):
   > *"Roadkill" takes on an entirely different meaning when the beast you crash into is more likely to kill \*you\*.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15397 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/166/jibbirik-omnivore) · oracle_id `9cda6cb8-c254-413a-babd-0e24e7b89cc4` · printing: DFT #166 (2025-02-14) · [rulings](https://api.scryfall.com/cards/68a0569b-65c8-49ce-91ac-e639b8faf939/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jidoor, Aristocratic Capital // Overture
@@ -136,6 +141,7 @@
   > Vehicles in your graveyard have jump-start. (You may cast a Vehicle card from your graveyard by discarding a card in addition to paying its other costs. You would exile it, except...)
   > Spells you cast with jump-start aren't exiled.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ02e/jiffy-vehicle-repairer) · oracle_id `e2d3f61d-760c-4ec4-bcf6-76279f7b7b09` · printing: UNK #RZ02e (2025-02-21) · [rulings](https://api.scryfall.com/cards/b33a79a6-26bb-43cd-bb8e-39aca61db9c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jihad
@@ -192,7 +198,14 @@
   > *—Gerrard, to Yawgmoth*
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29780 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/apc/27/jilt) · oracle_id `382bc554-d170-4c19-82dd-829f254e855e` · printing: APC #27 (2001-06-04) · [rulings](https://api.scryfall.com/cards/a010d2b1-960d-4032-a47a-61fe0998bee3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/apc/27/jilt) · oracle_id `382bc554-d170-4c19-82dd-829f254e855e` · printing: APC #27 (2001-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jin-Gitaxias, Core Augur
 
@@ -295,6 +308,7 @@
   > *"What wizards upset, the land soon rights."*
   > *—Gemma, Willow Priestess*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19415 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hml/29/jinx) · oracle_id `e6e1b51c-ba4b-4997-968a-751b4cba110f` · printing: HML #29 (1995-10-01) · [rulings](https://api.scryfall.com/cards/f81fca41-2315-4d12-b05c-d921a4c3c19e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jinxed Choker
@@ -306,7 +320,10 @@
   > At the beginning of your upkeep, this artifact deals damage to you equal to the number of charge counters on it.
   > {3}: Put a charge counter on this artifact or remove one from it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11603 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mrd/189/jinxed-choker) · oracle_id `3241abc1-d739-4ac3-93d1-7fc2898b943b` · printing: MRD #189 (2003-10-02) · [rulings](https://api.scryfall.com/cards/987910b0-0419-45ff-bda6-c6683fd00e49/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-12-01* — If you activate Jinxed Choker’s activated ability, you choose to either add or remove a counter when the ability resolves.
+  - *2004-12-01* — “You” is always Jinxed Choker’s current controller.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mrd/189/jinxed-choker) · oracle_id `3241abc1-d739-4ac3-93d1-7fc2898b943b` · printing: MRD #189 (2003-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jinxed Idol
 
@@ -332,6 +349,7 @@
   > Whenever a nontoken permanent is put into your graveyard from the battlefield, this artifact deals 1 damage to you.
   > Sacrifice a creature: Target opponent gains control of this artifact. (This effect lasts indefinitely.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13760 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sth/137/jinxed-ring) · oracle_id `29cb8f47-7bb5-4881-98ef-59fc858cf9d7` · printing: STH #137 (1998-03-02) · [rulings](https://api.scryfall.com/cards/1c675814-094c-45d4-93ee-0f50b4755e79/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jirina, Dauntless General
@@ -360,7 +378,10 @@
 - **Flavor text** (C20 printing):
   > *"Strength is what keeps us alive. Compassion is what keeps us human."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12677 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/8/jirina-kudro) · oracle_id `b122bf99-b003-452a-a854-b25597ff7ca2` · printing: C20 #8 (2020-04-17) · [rulings](https://api.scryfall.com/cards/6e660d42-f5d3-452a-9662-74e18a1ae9e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-04-17* — If Jirina is your commander, the number of times you cast it includes the time you cast Jirina just before it entered the battlefield.
+  - *2020-04-17* — Jirina’s last ability gives +2/+0 to all Humans you control other than Jirina, including the Human tokens created by its triggered ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/8/jirina-kudro) · oracle_id `b122bf99-b003-452a-a854-b25597ff7ca2` · printing: C20 #8 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jitte and Divining Top
 
@@ -375,6 +396,7 @@
   > Equip {1}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RA02c/jitte-and-divining-top) · oracle_id `6ca93de3-b2b0-435c-8a35-fb5518a12c25` · printing: UNK #RA02c (2023-05-06) · [rulings](https://api.scryfall.com/cards/65972b08-2e91-418f-b3ae-f35208e0a657/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jiwari, the Earth Aflame
@@ -387,4 +409,5 @@
   > Channel — {X}{R}{R}{R}, Discard this card: It deals X damage to each creature without flying.
 - **Keywords:** Channel
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24772 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/107/jiwari-the-earth-aflame) · oracle_id `03199a9e-3a52-42af-8027-50b455a054d4` · printing: SOK #107 (2005-06-03) · [rulings](https://api.scryfall.com/cards/6b46105b-32c2-48fc-b71d-c3e8fcb8a8ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

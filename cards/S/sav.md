@@ -65,6 +65,7 @@
 - **Flavor text** (DRK printing):
   > *"Purity of magic can only come from purity of the land. How can a meal nourish if the ingredients are spoiled?" —Sidaine of Savaen*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31713 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/drk/84/savaen-elves) · oracle_id `330e109c-1885-4946-9edc-895408519b3d` · printing: DRK #84 (1994-08-01) · [rulings](https://api.scryfall.com/cards/38fb3014-f631-4a75-92cd-7e626b13a4c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savage Alliance
@@ -79,7 +80,17 @@
   > • Savage Alliance deals 1 damage to each creature target opponent controls.
 - **Keywords:** Escalate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18372 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/169/savage-alliance) · oracle_id `57da1d3f-7469-4efa-9b82-b2d915177d89` · printing: INR #169 (2025-01-24) · [rulings](https://api.scryfall.com/cards/54bebcf4-7697-4b2d-9160-243cd447c1d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2016-07-13* — Additional costs don't affect a spell's mana value.
+  - *2016-07-13* — Effects that reduce the cost of spells reduce the total cost, including any escalate costs added.
+  - *2016-07-13* — If an effect allows you to cast a spell that has escalate without paying its mana cost, you pay escalate costs for that spell if you choose more than one mode.
+  - *2016-07-13* — If one target of an escalate spell becomes illegal, the other targets will still be affected. If all of the targets become illegal, the spell won't resolve.
+  - *2016-07-13* — If two of the chosen modes of an escalate spell target a creature, you may choose the same creature for each mode's target, or choose different creatures. The same is true if the chosen modes target a player (or opponent).
+  - *2016-07-13* — If you choose the second and third modes, and the targeted creature is controlled by the targeted opponent, that creature will take 2 plus 1 damage for a total of 3 damage. An ability that triggers whenever that creature is dealt damage will trigger twice.
+  - *2016-07-13* — When determining how much damage a creature with trample may assign to the player or planeswalker it's attacking, take into account damage that has already been dealt to the blocking creatures. For example, a 4/4 creature with trample blocked by a 4/4 creature with 2 damage marked on it may assign 2 damage to that creature and 2 damage to the defending player.
+  - *2016-07-13* — You can't choose any one mode multiple times.
+  - *2016-07-13* — You choose all of your modes at once. You can't wait to perform one mode's actions and then decide to choose more modes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/169/savage-alliance) · oracle_id `57da1d3f-7469-4efa-9b82-b2d915177d89` · printing: INR #169 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savage Beating
 
@@ -108,6 +119,7 @@
   > {1}{R/G}: Put a +1/+1 counter on this creature. Activate only as a sorcery.
 - **Keywords:** Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11728 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/215/savageborn-hydra) · oracle_id `fa8e5291-1a50-4c05-820c-8ae756364d33` · printing: 2XM #215 (2020-08-07) · [rulings](https://api.scryfall.com/cards/8c0ef33b-d2bf-4d8b-a7ba-604a37ca5c14/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savage Conception
@@ -121,7 +133,12 @@
   > *Some beasts are born not of a mother, but of magic.*
 - **Keywords:** Retrace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30647 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eve/75/savage-conception) · oracle_id `494050f4-0a55-415d-9ae9-feb17e61c4e1` · printing: EVE #75 (2008-07-25) · [rulings](https://api.scryfall.com/cards/b88ab58b-918b-478a-8c6b-a213e2bc87ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-08-01* — A retrace card cast from your graveyard follows the normal timing rules for its card type.
+  - *2008-08-01* — Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You’re casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs.
+  - *2008-08-01* — If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it’s still in the graveyard.
+  - *2008-08-01* — When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it’s put back into your graveyard. You may use the retrace ability to cast it again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eve/75/savage-conception) · oracle_id `494050f4-0a55-415d-9ae9-feb17e61c4e1` · printing: EVE #75 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savage Firecat
 
@@ -134,6 +151,7 @@
   > Whenever you tap a land for mana, remove a +1/+1 counter from this creature.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31055 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/218/savage-firecat) · oracle_id `084e11d9-dd1d-4e8e-afc1-9be4ee04a510` · printing: ODY #218 (2001-10-01) · [rulings](https://api.scryfall.com/cards/52e14dbe-4d33-405c-ab84-2fc6b1e000b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savage Gorger
@@ -148,7 +166,11 @@
   > *"I have no patience for sipping blood from crystal goblets. I want to bite and tear."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23472 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/291/savage-gorger) · oracle_id `307d20fd-a9c9-4da9-b990-26c653054640` · printing: M20 #291 (2019-07-12) · [rulings](https://api.scryfall.com/cards/a25ea81f-9786-4622-978d-b082fb72622c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-07-12* — A player loses life if they pay life.
+  - *2019-07-12* — It doesn’t matter whether an opponent has less life than they started the turn with. If a player lost 4 life but also gained 6 life, that player still lost 4 life.
+  - *2019-07-12* — Savage Gorger looks at your entire turn to determine whether an opponent lost any life. It doesn’t matter how many opponents lost life or how much life they lost, only whether any of them did. It also doesn’t matter whether Savage Gorger was on the battlefield when they lost life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/291/savage-gorger) · oracle_id `307d20fd-a9c9-4da9-b990-26c653054640` · printing: M20 #291 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savage Gorilla
 
@@ -160,7 +182,9 @@
 - **Flavor text** (APC printing):
   > *These omnivorous gorillas have no qualms about a diet composed of equal parts fruit and Phyrexians.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32277 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/apc/85/savage-gorilla) · oracle_id `6c876a57-c567-4d26-8ab6-a9c051e83ace` · printing: APC #85 (2001-06-04) · [rulings](https://api.scryfall.com/cards/32ad3f87-9f25-455f-9933-3b0b0eaad467/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You do not get to draw a card if the target is not legal on resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/apc/85/savage-gorilla) · oracle_id `6c876a57-c567-4d26-8ab6-a9c051e83ace` · printing: APC #85 (2001-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savage Hunger
 
@@ -172,7 +196,9 @@
   > Cycling {2} ({2}, Discard this card: Draw a card.)
 - **Keywords:** Enchant, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28414 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/147/savage-hunger) · oracle_id `0e608f48-d3a6-422c-839d-f06bb8a32014` · printing: ALA #147 (2008-10-03) · [rulings](https://api.scryfall.com/cards/0367fac8-6990-4544-ac7d-ed363b55a9cf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/147/savage-hunger) · oracle_id `0e608f48-d3a6-422c-839d-f06bb8a32014` · printing: ALA #147 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savage Knuckleblade
 
@@ -184,6 +210,7 @@
   > {2}{U}: Return this creature to its owner's hand.
   > {R}: This creature gains haste until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24785 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/197/savage-knuckleblade) · oracle_id `5a4fabfe-a641-49b7-8134-9d9edeb8bf1b` · printing: KTK #197 (2014-09-26) · [rulings](https://api.scryfall.com/cards/4c9dddd3-7c8d-4669-8298-58149b142b8a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savage Land Dinosaur
@@ -199,6 +226,7 @@
   > *—Ka-Zar of the Savage Land*
 - **Keywords:** Landcycling, Trample, Basic landcycling, Typecycling, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19044 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/185/savage-land-dinosaur) · oracle_id `6e21ebdf-b97c-494e-a1d5-19db1b7d3016` · printing: MSH #185 (2026-06-26) · [rulings](https://api.scryfall.com/cards/562bd376-3fba-4de0-b9fc-183004b03732/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savage Lands
@@ -239,7 +267,15 @@
   > Creatures you control gain first strike until end of turn. If this spell was kicked, they get +1/+1 until end of turn.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25723 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inv/162/savage-offensive) · oracle_id `b5944ca8-d54e-4830-9f66-be8fe97d101d` · printing: INV #162 (2000-10-02) · [rulings](https://api.scryfall.com/cards/356744f3-e444-4f4e-bf00-80bb6b2ef76f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2004-10-04* — Only affects creatures you control when this spell resolves.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inv/162/savage-offensive) · oracle_id `b5944ca8-d54e-4830-9f66-be8fe97d101d` · printing: INV #162 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savage Order
 
@@ -264,7 +300,13 @@
   > Ferocious — The creature you control gets +2/+2 until end of turn before it fights if you control a creature with power 4 or greater.
 - **Keywords:** Ferocious, Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13283 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/147/savage-punch) · oracle_id `3ca58e01-21c6-4314-ab3d-280ba6f9f509` · printing: KTK #147 (2014-09-26) · [rulings](https://api.scryfall.com/cards/6c6b50dc-244a-4df5-a9a9-5a2b8f30d40c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2014-09-20* — Assuming the ferocious ability applies, if just the creature you control is an illegal target when Savage Punch tries to resolve, it won’t get +2/+2 until end of turn. If the creature you control is a legal target but the creature you don’t control isn’t, the creature you control will get +2/+2 until end of turn.
+  - *2014-09-20* — Ferocious abilities of instants and sorceries that don’t use the word “instead” will provide an additional effect if you control a creature with power 4 or greater as they resolve.
+  - *2014-09-20* — If either target is an illegal target when Savage Punch tries to resolve, neither creature will deal or be dealt damage.
+  - *2014-09-20* — Some ferocious abilities that appear on instants and sorceries use the word “instead.” These spells have an upgraded effect if you control a creature with power 4 or greater as they resolve. For these, you only get the upgraded effect, not both effects.
+  - *2014-09-20* — You can’t cast Savage Punch unless you target both a creature you control and a creature you don’t control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/147/savage-punch) · oracle_id `3ca58e01-21c6-4314-ab3d-280ba6f9f509` · printing: KTK #147 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savage Silhouette
 
@@ -277,7 +319,9 @@
   > *Some elves believe that their survival instincts are born of many cycles of reincarnation.*
 - **Keywords:** Regenerate, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23598 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/zen/181/savage-silhouette) · oracle_id `bc243497-d95a-44e0-b7e3-c56b4ff7cd69` · printing: ZEN #181 (2009-10-02) · [rulings](https://api.scryfall.com/cards/8b8547e0-2928-4edc-a15a-a613cb4d1eac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — The controller of the enchanted creature may activate the regeneration ability, not the controller of Savage Silhouette.
+- **Source flags:** [Scryfall](https://scryfall.com/card/zen/181/savage-silhouette) · oracle_id `bc243497-d95a-44e0-b7e3-c56b4ff7cd69` · printing: ZEN #181 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savage Smash
 
@@ -289,7 +333,11 @@
   > *A Gruul berserker is never unarmed.*
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16367 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/203/savage-smash) · oracle_id `676c0315-1cb3-4d80-b136-16d88fd612cb` · printing: RNA #203 (2019-01-25) · [rulings](https://api.scryfall.com/cards/4ca942d7-a3a3-429f-a159-fc2363d9bca6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-01-25* — If either target is an illegal target as Savage Smash resolves, neither creature will deal or be dealt damage.
+  - *2019-01-25* — If the creature you control is an illegal target as Savage Smash tries to resolve, it won’t get +2/+2. If that creature is a legal target but the other creature isn’t, the creature you control still gets +2/+2.
+  - *2019-01-25* — You can’t cast Savage Smash unless you choose both a creature you control and a creature you don’t control as targets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/203/savage-smash) · oracle_id `676c0315-1cb3-4d80-b136-16d88fd612cb` · printing: RNA #203 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savage Stomp
 
@@ -330,7 +378,9 @@
   > *"I thought its back was turned!"*
   > *"A centaur has two backs!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22800 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/176/savage-surge) · oracle_id `0acbc9a6-0de0-4096-b35c-1a586a1312ea` · printing: THS #176 (2013-09-27) · [rulings](https://api.scryfall.com/cards/5916d5e7-0825-4d72-82e4-1e4c86d1fafe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-09-15* — Savage Surge can target an untapped creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/176/savage-surge) · oracle_id `0acbc9a6-0de0-4096-b35c-1a586a1312ea` · printing: THS #176 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savage Swipe
 
@@ -342,7 +392,12 @@
   > *Nine generations of metalworking skill are no match for nine hundred pounds of rage.*
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16843 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/178/savage-swipe) · oracle_id `c74c87f7-3120-4fd7-8735-1d7a7a429643` · printing: MH1 #178 (2019-06-14) · [rulings](https://api.scryfall.com/cards/eea7e77c-ede5-41bd-b766-9a76ce691607/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-06-14* — If either target is an illegal target as Savage Swipe tries to resolve, neither creature will deal or be dealt damage.
+  - *2019-06-14* — If the creature you control is an illegal target as Savage Swipe tries to resolve, no creature gets +2/+2. If that creature is a legal target but the creature you don’t control isn’t, it still gets +2/+2 until end of turn if its power is 2.
+  - *2019-06-14* — The target creature you control gets +2/+2 only if its power is exactly 2 as Savage Swipe resolves. It’ll still fight if it doesn’t get +2/+2.
+  - *2019-06-14* — You can’t cast Savage Swipe unless you choose both a creature you control and a creature you don’t control as targets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/178/savage-swipe) · oracle_id `c74c87f7-3120-4fd7-8735-1d7a7a429643` · printing: MH1 #178 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savage Thallid
 
@@ -355,6 +410,7 @@
   > Sacrifice a Saproling: Regenerate target Fungus.
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11299 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsp/213/savage-thallid) · oracle_id `309a57cb-cc08-4892-bc63-c424ca9c5b43` · printing: TSP #213 (2006-10-06) · [rulings](https://api.scryfall.com/cards/a87cbbdb-3bbc-48da-b5e3-fcdbddebec81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savage Twister
@@ -367,6 +423,7 @@
   > *"Nature is the ultimate mindless destroyer, capable of power and ferocity no army can match, and the Gruul follow its example."*
   > *—Trigori, Azorius senator*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13881 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/190/savage-twister) · oracle_id `5268518e-7631-4149-8eea-c2475b9b14df` · printing: C18 #190 (2018-08-10) · [rulings](https://api.scryfall.com/cards/06ec1b2d-06dd-4364-a913-c34889b70fa1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savage Ventmaw
@@ -394,6 +451,7 @@
   > *The same crystals that root deep enough to pierce Savai's catacombs also soar high enough to change its weather.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13815 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/239/savai-crystal) · oracle_id `cd0c1165-673d-4936-8254-deedd0ebbe97` · printing: IKO #239 (2020-04-24) · [rulings](https://api.scryfall.com/cards/6954a5c1-89b1-4edd-814e-8f88fd49cda3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savai Sabertooth
@@ -406,6 +464,7 @@
 - **Flavor text** (IKO printing):
   > *The giant tigers of Savai prefer to hunt at daybreak, when the crystals' warning glow is masked by the light of dawn.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17602 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/29/savai-sabertooth) · oracle_id `24f2cf61-22db-4e34-898f-6baa2957d3ae` · printing: IKO #29 (2020-04-24) · [rulings](https://api.scryfall.com/cards/d46702b0-7e10-462a-9aac-7564efe91804/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savai Thundermane
@@ -418,7 +477,15 @@
 - **Flavor text** (IKO printing):
   > *A crackling roar is the last sound many hunters hear.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22575 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/205/savai-thundermane) · oracle_id `620a2037-8bf5-48e0-af94-f4f7d3650c60` · printing: IKO #205 (2020-04-24) · [rulings](https://api.scryfall.com/cards/73d3925c-cf7d-4546-bc70-33f04d4b7566/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2020-04-17* — If the target creature is an illegal target by the time Savai Thundermane’s reflexive triggered ability tries to resolve, the ability won’t resolve. You won’t gain 2 life.
+  - *2020-04-17* — If you pay {2} while Savai Thundermane’s triggered ability is resolving, the reflexive triggered ability triggers and will resolve separately. This is different from effects that say “If you do . . .” in that players may take actions after you’ve paid mana but before damage is dealt.
+  - *2020-04-17* — Some cards with cycling have an ability that triggers when you cycle them, and some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
+  - *2020-04-17* — Triggered abilities from cycling a card and the cycling ability itself aren’t spells. Effects that interact with spells (such as that of Cancel) won’t affect them.
+  - *2020-04-17* — While resolving Savai Thundermane’s triggered ability, you can’t pay {2} more than once to have it deal more damage or gain more life.
+  - *2020-04-17* — You can cycle a card even if it has a triggered ability from cycling that won’t have a legal target. This is because the cycling ability and the triggered ability are separate. This also means that if either ability is countered (with Disallow, for example), the other ability will still resolve.
+  - *2020-04-17* — You can pay {2} even if Savai Thundermane leaves the battlefield before its triggered ability resolves. The reflexive triggered ability will still trigger if you do.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/205/savai-thundermane) · oracle_id `620a2037-8bf5-48e0-af94-f4f7d3650c60` · printing: IKO #205 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savai Triome
 
@@ -458,6 +525,7 @@
   > *"One alone is fearsome; one among many is unstoppable."*
   > *—Benalish proverb*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10790 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/146/savannah-lions) · oracle_id `60ba93eb-39e6-4af2-9c66-cd38f72daff2` · printing: FDN #146 (2024-11-15) · [rulings](https://api.scryfall.com/cards/9c9ac1bc-cdf3-4fa6-8319-a7ea164e9e47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savannah Sage
@@ -470,6 +538,7 @@
 - **Flavor text** (M20 printing):
   > *"Now is not the time for your light to fade."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25443 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/284/savannah-sage) · oracle_id `7e6cfec7-3b54-43db-853a-27c164776a5f` · printing: M20 #284 (2019-07-12) · [rulings](https://api.scryfall.com/cards/5b5fa4bb-e061-456f-808e-8d98b2c8abf5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savanti Romero, Time's Exile
@@ -484,7 +553,10 @@
   > *"When I am done, there will be no evidence that you ever existed!"*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14105 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/72/savanti-romero-times-exile) · oracle_id `6074632b-4520-4ae8-bcdc-26b1eff71af9` · printing: TMT #72 (2026-03-06) · [rulings](https://api.scryfall.com/cards/01cb8ded-7f77-4b75-b799-23e9f5efb513/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-01-27* — Savanti Romero's last ability counts all counters on Savanti Romero, not just +1/+1 counters.
+  - *2026-01-27* — The value of X is calculated only once, as Savanti Romero's last ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/72/savanti-romero-times-exile) · oracle_id `6074632b-4520-4ae8-bcdc-26b1eff71af9` · printing: TMT #72 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saved by the Shell
 
@@ -497,6 +569,7 @@
   > *"I LOVE being a turtle!"*
   > *—Michelangelo*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10961 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/132/saved-by-the-shell) · oracle_id `7ef5c812-ad7d-4d6c-8ee5-68561e7e4bd7` · printing: TMT #132 (2026-03-06) · [rulings](https://api.scryfall.com/cards/f6314c7f-41dc-4bbd-99db-3a8a1d2977b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Save Life
@@ -511,6 +584,7 @@
 - **Flavor text** (UNH printing):
   > *Who consistently managed to win.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/19/save-life) · oracle_id `25712750-a8f4-4129-a3a4-fba3332cf779` · printing: UNH #19 (2004-11-19) · [rulings](https://api.scryfall.com/cards/ba47805c-c8f2-4bcd-bf14-b3fa950039b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Save Point
@@ -521,6 +595,7 @@
   > When this enchantment enters, draw a card.
   > Sacrifice this enchantment: Remove each creature from combat and untap each creature that attacked this turn. There is an additional combat phase after this one. Activate only during combat before combat damage has been dealt.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW02d/save-point) · oracle_id `9b27b13a-2f02-4a18-a7f3-2253bf5b6c25` · printing: UNK #RW02d (2025-06-20) · [rulings](https://api.scryfall.com/cards/29571cb7-09d5-409e-8991-9d61a2c07c8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saving Grace
@@ -534,7 +609,13 @@
   > Enchanted creature gets +0/+3.
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10233 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/21/saving-grace) · oracle_id `50ddbea3-7ef4-4f6a-83c9-0c3ea1dfa3c9` · printing: HOU #21 (2017-07-14) · [rulings](https://api.scryfall.com/cards/9ac7b2d8-7702-4b8c-84ed-1d785dea5cc5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-07-14* — If Saving Grace leaves the battlefield during the turn its triggered ability resolved, damage will continue to be redirected to the creature it enchanted before it left the battlefield. If the creature Saving Grace was last attached to isn't on the battlefield or isn't a creature at the time damage would be dealt, it won't be redirected.
+  - *2017-07-14* — If you have more than one Saving Grace enter the battlefield in one turn, all damage that would be dealt at once to you and/or permanents you control is dealt to one of the enchanted creatures of your choice. It's not dealt to all of them, and you can't split the damage between them.
+  - *2017-07-14* — More damage can be redirected to the enchanted creature than it has toughness, as long as that damage is all dealt at once (like combat damage is).
+  - *2017-07-14* — Saving Grace's ability has no effect on damage already dealt earlier in the turn.
+  - *2017-07-14* — Saving Grace's redirection effect doesn't change the source of the damage or whether the damage is combat damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/21/saving-grace) · oracle_id `50ddbea3-7ef4-4f6a-83c9-0c3ea1dfa3c9` · printing: HOU #21 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saving Grasp
 
@@ -547,7 +628,15 @@
   > *Nothing's more valuable than perfect timing.*
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22511 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dka/46/saving-grasp) · oracle_id `f7a4458a-7e8a-46bb-b62d-991c606c7a15` · printing: DKA #46 (2012-02-03) · [rulings](https://api.scryfall.com/cards/914837df-c255-4cea-9255-b05f218fd9f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2011-01-22* — Saving Grasp can target any creature you own, even one controlled by another player.
+  - *2021-03-19* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dka/46/saving-grasp) · oracle_id `f7a4458a-7e8a-46bb-b62d-991c606c7a15` · printing: DKA #46 (2012-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savior of Ollenbock
 
@@ -560,7 +649,11 @@
   > When this creature leaves the battlefield, put the exiled cards onto the battlefield under their owners' control.
 - **Keywords:** Training
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18188 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/34/savior-of-ollenbock) · oracle_id `1857dc32-8ff1-4519-b1ca-480a5c2d3b3c` · printing: VOW #34 (2021-11-19) · [rulings](https://api.scryfall.com/cards/ba77e83b-1846-4c42-bea0-2e304429fbe0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-11-19* — A creature “trains” when a +1/+1 counter is put onto it at as a result of its training ability resolving.
+  - *2021-11-19* — A creature's training ability triggers only when both that creature and a creature with greater power are declared as attackers. Increasing a creature's power after attackers are declared won't cause a training ability to trigger.
+  - *2021-11-19* — Once a creature's training ability has triggered, destroying the other attacking creature or reducing its power won't stop the creature with training from getting a +1/+1 counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/34/savior-of-ollenbock) · oracle_id `1857dc32-8ff1-4519-b1ca-480a5c2d3b3c` · printing: VOW #34 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savior of the Sleeping
 
@@ -574,7 +667,9 @@
   > *Even lost in slumber, the citizens of Ardenvale dream of a tireless protector standing guard over their homes.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23314 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/28/savior-of-the-sleeping) · oracle_id `412eb5ec-bf13-45fb-94b3-c41e62b19d1d` · printing: WOE #28 (2023-09-08) · [rulings](https://api.scryfall.com/cards/7b4979d9-fafb-4e0e-868f-f4772109d7a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-09-01* — Enchantment tokens (such as Roles) that are sacrificed, destroyed, or would otherwise go to the graveyard are put into their owner's graveyard before ceasing to exist. If you controlled the token, Savior of the Sleeping's ability will trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/28/savior-of-the-sleeping) · oracle_id `412eb5ec-bf13-45fb-94b3-c41e62b19d1d` · printing: WOE #28 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savior of the Small
 
@@ -587,7 +682,13 @@
   > *"You're safe, kiddo! For at least the next ten minutes. That's about all I can promise."*
 - **Keywords:** Survival
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17383 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/27/savior-of-the-small) · oracle_id `15f2085f-d5e6-4bc6-870f-00fcaccd981b` · printing: DSK #27 (2024-09-27) · [rulings](https://api.scryfall.com/cards/e2ed31ea-c278-4e8c-afa7-6d09af399345/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-09-20* — If a creature with a survival ability isn't tapped when your second main phase begins, the ability won't trigger at all. You won't be able to tap it during your second main phase in time to have that ability trigger.
+  - *2024-09-20* — If a creature's survival ability triggers but that creature is untapped when the ability begins to resolve, that ability won't do anything.
+  - *2024-09-20* — If a creature's survival ability triggers but the creature leaves the battlefield before the ability resolves, use its tapped or untapped status as it last existed on the battlefield to determine whether or not the ability will do anything.
+  - *2024-09-20* — If the mana cost of a card in your graveyard includes {X}, X is 0 for the purpose of determining its mana value.
+  - *2024-09-20* — Survival abilities (and other abilities that trigger at the beginning of your second main phase) will trigger at the beginning of the second main phase you take in a turn. They won't trigger during your third, fourth, or other additional main phases in a single turn, if effects somehow cause you to have more than two main phases.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/27/savior-of-the-small) · oracle_id `15f2085f-d5e6-4bc6-870f-00fcaccd981b` · printing: DSK #27 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savor
 

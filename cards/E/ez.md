@@ -33,6 +33,7 @@
   > *For all his wealth and power, there is a fear deep inside Ezekiel that spurs him to train others.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14473 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/100/ezekiel-sims-spider-totem) · oracle_id `4074e897-82a4-4f57-86c2-4aab3f29ef9b` · printing: SPM #100 (2025-09-26) · [rulings](https://api.scryfall.com/cards/bb7c3ae2-6b01-4472-8bd1-9a7456401ddc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ezio Auditore da Firenze
@@ -77,7 +78,9 @@
 - **Flavor text** (ACR printing):
   > *"When I was a young man, I had liberty but I did not see it. I had time, but I did not know it. And I had love, but I did not feel it."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12960 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/55/ezio-brash-novice) · oracle_id `d4e2b541-31b6-4bcb-a28a-d897deb91484` · printing: ACR #55 (2024-07-05) · [rulings](https://api.scryfall.com/cards/3351cae2-87be-4438-ba58-f4f4aff2416c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-05* — If Ezio loses first strike after it has already dealt first-strike combat damage but before regular combat damage has been dealt, it won't also deal regular combat damage (unless it somehow has double strike).
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/55/ezio-brash-novice) · oracle_id `d4e2b541-31b6-4bcb-a28a-d897deb91484` · printing: ACR #55 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ezrim, Agency Chief
 
@@ -90,7 +93,13 @@
   > {1}, Sacrifice an artifact: Ezrim gains your choice of vigilance, lifelink, or hexproof until end of turn.
 - **Keywords:** Flying, Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14519 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/202/ezrim-agency-chief) · oracle_id `ddcd8a0a-7ac3-4400-a16f-8bb5aa50994e` · printing: MKM #202 (2024-02-09) · [rulings](https://api.scryfall.com/cards/9554d5f2-7a33-4734-8cf3-dfae2ccc3596/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-02-02* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2024-02-02* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
+  - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
+  - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/202/ezrim-agency-chief) · oracle_id `ddcd8a0a-7ac3-4400-a16f-8bb5aa50994e` · printing: MKM #202 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ezuri, Claw of Progress
 
@@ -136,7 +145,9 @@
   > *Eyes and arrows trained ever skyward.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17402 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddu/9/ezuris-archers) · oracle_id `bcaf3f32-c4e5-4d39-be98-bfc00327021b` · printing: DDU #9 (2018-04-06) · [rulings](https://api.scryfall.com/cards/f909f002-f419-4292-ad92-05c4fd71749d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-01* — If Ezuri’s Archers somehow blocks multiple creatures with flying (perhaps because it’s equipped by Echo Circlet), its ability triggers that many times.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddu/9/ezuris-archers) · oracle_id `bcaf3f32-c4e5-4d39-be98-bfc00327021b` · printing: DDU #9 (2018-04-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ezuri's Brigade
 
@@ -149,6 +160,7 @@
   > *Riding ravenous, ever-growing vorracs is almost as dangerous as fitting them with saddles.*
 - **Keywords:** Metalcraft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27374 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/121/ezuris-brigade) · oracle_id `ae32c0a5-0874-4cab-9a24-29fa572f3193` · printing: SOM #121 (2010-10-01) · [rulings](https://api.scryfall.com/cards/079a6b44-3492-4484-aed1-5cd2449e702d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ezuri's Predation
@@ -202,4 +214,8 @@
   > {T}: You gain 2 life.
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10166 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/60/ezzaroot-channeler) · oracle_id `3e72ec1f-9941-42e6-b832-58b79b44066b` · printing: C21 #60 (2021-04-23) · [rulings](https://api.scryfall.com/cards/a7fd9ede-cc6e-4a96-934b-d91d4aa7fa0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-04-16* — Ezzaroot Channeler’s second ability counts the total amount of life gained without considering any life you lost during that turn. For example, if you lost 3 life and gained 4 life earlier in the turn, creature spells you cast will cost {4} less.
+  - *2021-04-16* — The second ability’s cost reduction can reduce only generic mana in a spell’s total cost. It can’t reduce colored mana requirements.
+  - *2021-04-16* — To determine the total cost of a spell, start with the mana cost or alternative cost you’re paying, add any cost increases, then apply any cost reductions (such as that of Ezzaroot Channeler’s second ability). The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/60/ezzaroot-channeler) · oracle_id `3e72ec1f-9941-42e6-b832-58b79b44066b` · printing: C21 #60 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

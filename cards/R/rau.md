@@ -70,6 +70,7 @@
 - **Flavor text** (OTJ printing):
   > *It's not hard to know the right song for the occasion when most occasions are saloon brawls.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18622 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/177/raucous-entertainer) · oracle_id `534e74f6-52f4-4824-9178-cce5e4bcbcc2` · printing: OTJ #177 (2024-04-19) · [rulings](https://api.scryfall.com/cards/8dc3cbfe-410f-40e3-8021-647a2efb50bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raucous Theater
@@ -96,6 +97,7 @@
   > *The vegetation in Raugrin is dull, but that only makes the towering crystal structures gleam brighter.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11229 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/238/raugrin-crystal) · oracle_id `ae4a8470-4517-42c7-a7f6-ef7635e10fe5` · printing: IKO #238 (2020-04-24) · [rulings](https://api.scryfall.com/cards/c5bce0fb-53d6-47ee-8c5a-a99e50f67fc9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raugrin Triome

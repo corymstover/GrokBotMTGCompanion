@@ -61,6 +61,7 @@
   > *—"Rise on Wings," Zhalfirin song*
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24672 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/54/bay-falcon) · oracle_id `709e99f1-288b-49e0-80a1-f817b457a2cf` · printing: MIR #54 (1996-10-08) · [rulings](https://api.scryfall.com/cards/df45268a-b757-4ad2-bab0-869058ee9186/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baylen, the Haymaker
@@ -102,6 +103,7 @@
   > *—Squee, goblin cabin hand*
 - **Keywords:** Flying, Landwalk, Swampwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23397 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmp/215/bayou-dragonfly) · oracle_id `eeb58cb4-b3da-400b-8bfb-ee985cd60f4b` · printing: TMP #215 (1997-10-14) · [rulings](https://api.scryfall.com/cards/93cfcca5-070b-4946-b17b-0c94b1e47fcd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bayou Groff
@@ -115,4 +117,7 @@
   > *"Groffs are great for tracking pests through the muck, but securing the pests before the groff devours them is a dicey endeavor."*
   > *—Lisette, Witherbloom dean*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19944 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/121/bayou-groff) · oracle_id `e83b2790-3cec-429c-a65d-6f4c7d025d37` · printing: STX #121 (2021-04-23) · [rulings](https://api.scryfall.com/cards/4a82b032-b1ba-456c-abab-c0f7430b0587/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-04-16* — Players can respond to Bayou Groff only after it’s been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to stop you from casting this spell or to make it cost more mana.
+  - *2021-04-16* — You must sacrifice exactly one creature or pay an extra {3} to cast this spell; you can’t cast it without paying one of those costs, and you can’t pay either multiple times.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/121/bayou-groff) · oracle_id `e83b2790-3cec-429c-a65d-6f4c7d025d37` · printing: STX #121 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

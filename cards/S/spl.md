@@ -88,7 +88,17 @@
   > Whenever you cast an instant or sorcery spell, create a Sorcerer Role token attached to up to one other target creature you control. (If you control another Role on it, put that one into the graveyard. Enchanted creature gets +1/+1 and has "Whenever this creature attacks, scry 1.")
 - **Keywords:** Role token, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22590 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/70/splashy-spellcaster) · oracle_id `21486218-70ec-4c60-9844-8f7c80912333` · printing: WOE #70 (2023-09-08) · [rulings](https://api.scryfall.com/cards/73ebd7f0-a54d-43a8-a5ee-9d6835308794/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2023-09-01* — A permanent can have multiple Roles attached to it if each one is controlled by a different player.
+  - *2023-09-01* — Cards in the Wilds of Eldraine main set create six different Role tokens: Cursed, Monster, Royal, Sorcerer, Wicked, and Young Hero. A seventh Role token, Virtuous, is created by Ellivere of the Wild Court, the commander of the “Virtue and Valor” Commander Deck.
+  - *2023-09-01* — Hexproof and shroud won’t prevent a Role from becoming attached to a permanent if the ability creating that Role attached to that permanent doesn’t target it.
+  - *2023-09-01* — If a permanent has more than one Role attached to it controlled by the same player, each of those Roles except the one with the most recent timestamp is put into its owner’s graveyard. This is a state-based action.
+  - *2023-09-01* — If two or more Roles controlled by the same player become attached to a permanent at the same time (perhaps due to an effect such as that of Doubling Season), that player chooses which one to keep and which are put into their owners’ graveyards.
+  - *2023-09-01* — If you don't choose a target for Splashy Spellcaster's ability, the Sorcerer Role token won't be created.
+  - *2023-09-01* — In rare cases, a spell or ability might attempt to create a Role token enchanting a permanent that it can’t legally enchant (because of an ability like protection from enchantments). In such cases, the Role token isn’t created.
+  - *2023-09-01* — Roles are colorless enchantment tokens. Each one has the Aura and Role subtypes and the enchant creature ability.
+  - *2023-09-01* — Some spells and abilities that create Role tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won’t resolve. The Role token won’t be created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/70/splashy-spellcaster) · oracle_id `21486218-70ec-4c60-9844-8f7c80912333` · printing: WOE #70 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splatter Goblin
 
@@ -101,6 +111,7 @@
   > *"For some, perfection is but a single moment when form and purpose converge."*
   > *—Rona*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26178 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/109/splatter-goblin) · oracle_id `a7cf5b74-123c-4def-a4aa-771ecd3be260` · printing: DMU #109 (2022-09-09) · [rulings](https://api.scryfall.com/cards/5045027d-0ff4-484c-b4cb-e0b61885d428/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splatter Technique
@@ -114,6 +125,7 @@
 - **Flavor text** (SOS printing):
   > *As the marvels of living art they are, elemental whales can't resist contributing to Summitfest's displays.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11252 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/231/splatter-technique) · oracle_id `2620dcfe-8738-4f81-b23d-0c1c60cf9047` · printing: SOS #231 (2026-04-24) · [rulings](https://api.scryfall.com/cards/969b6657-c3b9-47e1-a42e-95bbcccf452d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splatter Thug
@@ -128,7 +140,12 @@
   > *The mask isn't meant to hide his identity. It's meant to keep the viscera out of his eyes.*
 - **Keywords:** First strike, Unleash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26595 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/146/splatter-thug) · oracle_id `3baee36b-d64f-448c-ae45-c1ec124c92ec` · printing: IMA #146 (2017-11-17) · [rulings](https://api.scryfall.com/cards/80656711-0e36-4bf6-9ba2-ef4fbdfa433a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-04-15* — A creature with unleash can’t block if it has any +1/+1 counter on it, not just one put on it by the unleash ability.
+  - *2013-04-15* — Putting a +1/+1 counter on a creature with unleash that’s already blocking won’t remove it from combat. It will continue to block.
+  - *2013-04-15* — The unleash ability applies no matter where the creature is entering the battlefield from.
+  - *2013-04-15* — You make the choice to have the creature with unleash enter the battlefield with a +1/+1 counter or not as it’s entering the battlefield. At that point, it’s too late for a player to respond to the creature spell by trying to counter it, for example.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/146/splatter-thug) · oracle_id `3baee36b-d64f-448c-ae45-c1ec124c92ec` · printing: IMA #146 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splendid Agony
 
@@ -140,7 +157,10 @@
   > *"Wherever you are in the city, you can feel the presence of the God-Pharaoh. Take comfort in that."*
   > *—Ukhat, vizier of initiation*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15391 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/109/splendid-agony) · oracle_id `e9958344-13d5-4f7b-acc8-904e5d99b90e` · printing: AKH #109 (2017-04-28) · [rulings](https://api.scryfall.com/cards/58d38abd-116d-4015-91e4-3fc267ad099d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-04-18* — If one of two target creatures becomes an illegal target in response to Splendid Agony, the -1/-1 counter that would have been put on that creature is lost. It can’t be put on the legal target.
+  - *2017-04-18* — You choose how the counters will be distributed as you cast Splendid Agony. Each target creature must be assigned at least one counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/109/splendid-agony) · oracle_id `e9958344-13d5-4f7b-acc8-904e5d99b90e` · printing: AKH #109 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splendid Genesis
 
@@ -152,6 +172,7 @@
   > *She discovered with great delight that one does not love one's children because they are one's children but because of the friendship formed while raising them.*
   > *Gabriel Garciá Márquez*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcel/4/splendid-genesis) · oracle_id `723db8aa-d1c9-409c-8187-69e0e31ea9c0` · printing: PCEL #4 (1997-09-01) · [rulings](https://api.scryfall.com/cards/f62e8120-7aca-49c2-91b2-2622e27cf281/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splendid Reclamation
@@ -179,7 +200,11 @@
   > When you cycle this card, put a lifelink counter on target creature you control.
 - **Keywords:** Lifelink, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10641 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/32/splendor-mare) · oracle_id `fd2a00d1-9f21-4d54-9458-024fa03354b8` · printing: IKO #32 (2020-04-24) · [rulings](https://api.scryfall.com/cards/535ccc75-b24e-4071-b6a0-fc5267a454e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-04-17* — Some cards with cycling have an ability that triggers when you cycle them, and some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
+  - *2020-04-17* — Triggered abilities from cycling a card and the cycling ability itself aren't spells. Effects that interact with spells (such as that of Cancel) won't affect them.
+  - *2020-04-17* — You can cycle a card even if it has a triggered ability from cycling that won't have a legal target. This is because the cycling ability and the triggered ability are separate. This also means that if either ability is countered (with Disallow, for example), the other ability will still resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/32/splendor-mare) · oracle_id `fd2a00d1-9f21-4d54-9458-024fa03354b8` · printing: IKO #32 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splicer's Skill
 
@@ -190,7 +215,14 @@
   > Splice onto instant or sorcery {3}{W} (As you cast an instant or sorcery spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
 - **Keywords:** Splice
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19747 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/31/splicers-skill) · oracle_id `96fe9bab-0ffa-4d8a-81b7-a48fd532d3f2` · printing: MH1 #31 (2019-06-14) · [rulings](https://api.scryfall.com/cards/c59dfb0f-45c7-431f-b5a3-d9b429fc6dde/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2019-06-14* — If a spell is copied, choices made while casting it are copied, so the copy will have the same abilities spliced onto it as the original.
+  - *2019-06-14* — If all of the spell’s targets are illegal when the spell tries to resolve, it won’t resolve and none of its effects will happen, including those from cards spliced onto it.
+  - *2019-06-14* — If the spell is countered, any cards you spliced onto it remain in your hand.
+  - *2019-06-14* — The abilities spliced onto the spell happen last, after all of that spell’s other effects. Notably, the Golem won’t be on the battlefield yet if the spell has an effect that affects all creatures, all creatures you control, or similar.
+  - *2019-06-14* — The legality of a spell’s targets is checked only as that spell begins to resolve. If the spell this card is spliced onto causes its targets to become illegal while it’s resolving (for example, by removing them from the battlefield) you’ll still create a Golem.
+  - *2019-06-14* — You reveal all cards you intend to splice at the same time. Each individual card can be spliced only once onto any one spell, although multiple cards with the same name may be spliced onto one spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/31/splicers-skill) · oracle_id `96fe9bab-0ffa-4d8a-81b7-a48fd532d3f2` · printing: MH1 #31 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splinter
 
@@ -199,7 +231,11 @@
 - **Oracle text:**
   > Exile target artifact. Search its controller's graveyard, hand, and library for all cards with the same name as that artifact and exile them. Then that player shuffles.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24321 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bok/146/splinter) · oracle_id `90f01e9f-68f1-4e41-97dc-8de990a91504` · printing: BOK #146 (2005-02-04) · [rulings](https://api.scryfall.com/cards/5bcc210b-e37e-463c-8fd4-83e5113429a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — Does not exile other cards of the same name that are on the battlefield. Just from the graveyard, hand, and library.
+  - *2005-02-01* — Splinter can target and exile cards that aren’t always artifacts, but are artifacts when Splinter is cast and resolves (such as an animated Stalking Stones). Splinter’s exile effect only looks for cards by name, not type.
+  - *2005-02-01* — The copies must be found if they are in publicly viewable zones. Finding copies while searching private zones is optional.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bok/146/splinter) · oracle_id `90f01e9f-68f1-4e41-97dc-8de990a91504` · printing: BOK #146 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splinter, Aging Champion
 
@@ -212,7 +248,9 @@
 - **Flavor text** (TMC printing):
   > *Once every decade, Splinter returns to the Battle Nexus. He fights not for glory, but to honor an old friend.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16654 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/104/splinter-aging-champion) · oracle_id `45a87131-ae8a-4e6d-9ac0-e52b4795691b` · printing: TMC #104 (2026-03-06) · [rulings](https://api.scryfall.com/cards/9a9cd2d2-74ba-497a-828c-ba22fbb9f2b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-01-27* — If the target player is an illegal target when Splinter's last ability tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/104/splinter-aging-champion) · oracle_id `45a87131-ae8a-4e6d-9ac0-e52b4795691b` · printing: TMC #104 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splinterfright
 
@@ -243,7 +281,11 @@
   > Other Ninjas you control get +1/+1.
 - **Keywords:** Menace, Sneak
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9987 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/79/splinter-hamato-yoshi) · oracle_id `41fbdaa2-7a7a-44d5-a8f4-77624350eedd` · printing: TMT #79 (2026-03-06) · [rulings](https://api.scryfall.com/cards/9ea9d072-aa98-405e-a475-26f93cc37e53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2026-01-27* — Although a creature put onto the battlefield this way is attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when that creature enters attacking.
+  - *2026-01-27* — If a creature spell's sneak cost was paid, the creature it becomes enters tapped and attacking the same player, planeswalker, or battle as the creature that was returned to its owner's hand to pay its sneak cost. This is a rule specific to sneak; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player, planeswalker, or battle it's attacking.
+  - *2026-01-27* — Spells can only be cast for their sneak costs any time you could play an instant during the declare blockers step on your turn (after your opponent has decided whether to block).
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/79/splinter-hamato-yoshi) · oracle_id `41fbdaa2-7a7a-44d5-a8f4-77624350eedd` · printing: TMT #79 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splintering Wind
 
@@ -252,6 +294,7 @@
 - **Oracle text:**
   > {2}{G}: This enchantment deals 1 damage to target creature. Create a 1/1 green Splinter creature token. It has flying and "Cumulative upkeep {G}." When it leaves the battlefield, it deals 1 damage to you and each creature you control. (At the beginning of its controller's upkeep, that player puts an age counter on it, then sacrifices it unless they pay its upkeep cost for each age counter on it.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29460 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/all/99/splintering-wind) · oracle_id `184f68a1-0c13-42f4-aee6-3ca744f6a30b` · printing: ALL #99 (1996-06-10) · [rulings](https://api.scryfall.com/cards/0afa94e5-fef6-4f3a-9196-d7aa6dd841c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splinter & Leo, Father & Son
@@ -264,6 +307,7 @@
   > • Target player creates a 2/2 red Mutant creature token.
   > • Put a +1/+1 counter on each other creature target player controls.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20170 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/103/splinter-&-leo-father-&-son) · oracle_id `c01095ba-b9c9-44e0-97d1-35cc47c4ed04` · printing: TMC #103 (2026-03-06) · [rulings](https://api.scryfall.com/cards/a8959c36-068f-48fa-ab6a-9dd24ba985ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splinter, Radical Rat
@@ -380,6 +424,7 @@
 - **Oracle text:**
   > Choose target spell or permanent. Exile it with two time counters on it. Create two tokens that are copies of it in exile, with three and four time counters on them, respectively. They all gain suspend.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU03f/split-into-three-parts) · oracle_id `abe92306-e5a9-46c5-8af1-f1ecdced4428` · printing: UNK #RU03f (2026-07-17) · [rulings](https://api.scryfall.com/cards/d498e579-9d3d-4cc9-bcd0-7d97be5cf9d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Split Screen
@@ -391,7 +436,13 @@
   > Play with your libraries' top cards revealed.
   > When this artifact leaves the battlefield, shuffle your libraries together.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/158/split-screen) · oracle_id `e54b5dfc-5046-4653-9ee8-55e8a9e9529a` · printing: UST #158 (2017-12-08) · [rulings](https://api.scryfall.com/cards/02dc5106-5dba-4eae-a102-771a4e893b23/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2018-01-19* — If one of your libraries is empty, you won’t lose unless you try to draw from that one. Don’t do that. If all of your libraries are empty, you may not have much choice.
+  - *2018-01-19* — If you also control Yet Another Aether Vortex, any of the four revealed cards that are permanent cards will also be on the battlefield.
+  - *2018-01-19* — If you cast Animate Library after Split Screen, Animate Library will be attached to only one of the four libraries. This is true even if you cast them in the other order.
+  - *2018-01-19* — If you cast a second Split Screen, one of your four libraries will itself become four libraries. You’ll end up with seven libraries. If one Split Screen leaves the battlefield, you’ll shuffle all your libraries together. The other Split Screen will still apply, so you’ll play with the top card of your one library revealed. When that one leaves the battlefield, you’ll shuffle your library.
+  - *2018-01-19* — If you draw a card, you can draw from any of your four libraries.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/158/split-screen) · oracle_id `e54b5dfc-5046-4653-9ee8-55e8a9e9529a` · printing: UST #158 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splitskin Doll
 
@@ -417,6 +468,7 @@
 - **Flavor text** (BOK printing):
   > *"I wish there were no use for those with my talents. I wish that I could walk Kamigawa forgotten and unneeded, with no war wounds to heal and no broken bones to mend."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26779 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/23/split-tail-miko) · oracle_id `82732de2-b98d-4534-967f-2cf4c9e6bfbe` · printing: BOK #23 (2005-02-04) · [rulings](https://api.scryfall.com/cards/0528fe29-f3c1-4d10-9030-053c3de57b7b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Split the Party
@@ -428,7 +480,9 @@
 - **Flavor text** (AFR printing):
   > *Don't.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21056 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/76/split-the-party) · oracle_id `9ad61841-9894-41da-bdd8-248c2ce21b00` · printing: AFR #76 (2021-07-23) · [rulings](https://api.scryfall.com/cards/743a0a96-f90a-4852-9a92-848795518e0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-07-23* — The player that controls Split the Party chooses which creatures to return to their owner's hand as it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/76/split-the-party) · oracle_id `9ad61841-9894-41da-bdd8-248c2ce21b00` · printing: AFR #76 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Split the Spoils
 
@@ -439,7 +493,10 @@
 - **Flavor text** (CLB printing):
   > *"That half is yours. These halves are mine."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22249 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/257/split-the-spoils) · oracle_id `48ad5bd6-9568-4813-be29-99aef8b9327a` · printing: CLB #257 (2022-06-10) · [rulings](https://api.scryfall.com/cards/55893f8b-0fea-40a5-b96d-954c99938810/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-06-10* — A pile may have zero cards in it but, if your opponent chooses that pile, you put all the cards back into your graveyard.
+  - *2022-06-10* — You decide which opponent chooses the pile while resolving Split the Spoils.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/257/split-the-spoils) · oracle_id `48ad5bd6-9568-4813-be29-99aef8b9327a` · printing: CLB #257 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splitting Headache
 
@@ -452,6 +509,7 @@
 - **Flavor text** (SHM printing):
   > *All faeries delve for dreams. But not all wait for their victims to fall asleep.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31434 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/79/splitting-headache) · oracle_id `3a5937de-5957-47a9-9bd4-0dc7f8b833ef` · printing: SHM #79 (2008-05-02) · [rulings](https://api.scryfall.com/cards/168d790f-9163-498c-b96d-fdeb2070bda0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splitting Slime
@@ -464,7 +522,9 @@
   > When this creature becomes monstrous, create a token that's a copy of this creature. (The token has no counters and isn't monstrous.)
 - **Keywords:** Monstrosity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15690 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/72/splitting-slime) · oracle_id `c2153f2b-4a9f-40b6-8862-0e4143686c8c` · printing: CN2 #72 (2016-08-26) · [rulings](https://api.scryfall.com/cards/c940f17e-7ddd-4a1a-8d6b-a012ced97cf9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-08-23* — The token that’s put onto the battlefield isn’t monstrous at first. If you activate the token’s ability, it will get counters, it will become monstrous, and a new token will be put onto the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/72/splitting-slime) · oracle_id `c2153f2b-4a9f-40b6-8862-0e4143686c8c` · printing: CN2 #72 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splitting the Powerstone
 
@@ -476,7 +536,11 @@
 - **Flavor text** (BRO printing):
   > *As the glowing stone broke apart, so too did the last shred of the brothers' bond.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21824 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/63/splitting-the-powerstone) · oracle_id `178828a5-c202-4503-9755-fc6bb2390209` · printing: BRO #63 (2022-11-18) · [rulings](https://api.scryfall.com/cards/569dab90-a0d8-4c0a-8e32-b2cb3aec39a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-10-14* — Although all the cards in The Brothers' War that create Powerstone tokens create a tapped Powerstone token, entering the battlefield tapped isn't part of the token's definition. Notably, if you create a token that is a copy of a Powerstone token, the token copy won't enter the battlefield tapped.
+  - *2022-10-14* — Powerstone tokens are a kind of predefined token. Each one has the artifact subtype "Powerstone" and the ability "{T}: Add {C}. This mana can't be spent to cast a nonartifact spell."
+  - *2022-10-14* — You can use the {C} added by a Powerstone token on anything that isn't a nonartifact spell. This includes paying costs to activate abilities of both artifact and nonartifact permanents, paying ward costs, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/63/splitting-the-powerstone) · oracle_id `178828a5-c202-4503-9755-fc6bb2390209` · printing: BRO #63 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Split Up
 

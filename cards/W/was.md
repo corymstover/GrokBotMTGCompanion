@@ -74,7 +74,9 @@
   > *Once a fierce foe, she would become one of Madara's greatest protectors.*
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11306 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/293/wasitora-nekoru-queen) · oracle_id `13fc4168-fcc2-4011-804f-211d5d86b7dd` · printing: 2X2 #293 (2022-07-08) · [rulings](https://api.scryfall.com/cards/07790bd5-0d27-490e-b1ae-3b866882461e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-08-25* — If a creature is dealt lethal combat damage at the same time that Wasitora deals combat damage to that creature's controller, that creature will be destroyed before that player chooses a creature to sacrifice.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/293/wasitora-nekoru-queen) · oracle_id `13fc4168-fcc2-4011-804f-211d5d86b7dd` · printing: 2X2 #293 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wasp Lancer
 
@@ -88,6 +90,7 @@
   > *—Awylla, elvish safewright*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29705 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/179/wasp-lancer) · oracle_id `12a9a9a4-6b8c-48a1-833f-457a7ece8e7e` · printing: SHM #179 (2008-05-02) · [rulings](https://api.scryfall.com/cards/ac48a4ff-433b-4fd0-b0d1-43b188ee81b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wasp of the Bitter End
@@ -102,7 +105,9 @@
   > *As the Second Sun glided into its final position in the sky, a chorus of wings sounded to herald the return of Nicol Bolas.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25802 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/206/wasp-of-the-bitter-end) · oracle_id `9331cfd7-a818-45ed-9e4a-4d3c381052e0` · printing: HOU #206 (2017-07-14) · [rulings](https://api.scryfall.com/cards/46d348eb-7db0-4209-8960-c6adc473417d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-07-14* — You choose a target for Wasp of the Bitter End’s triggered ability right after casting a Bolas planeswalker spell, but you don’t choose whether to sacrifice Wasp of the Bitter End or not until that ability resolves. If the creature becomes an illegal target, the entire ability doesn’t resolve and you can’t sacrifice Wasp of the Bitter End.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/206/wasp-of-the-bitter-end) · oracle_id `9331cfd7-a818-45ed-9e4a-4d3c381052e0` · printing: HOU #206 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wasp, Shrinking Savior
 
@@ -116,6 +121,7 @@
   > *"I guess someone needs a little more negative reinforcement."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27287 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/646/wasp-shrinking-savior) · oracle_id `002cd9b4-efce-429f-82cd-d37352d2e932` · printing: MSC #646 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ad66392c-f117-4dfd-8ea1-86291e7e4ce5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waste Away
@@ -128,6 +134,7 @@
 - **Flavor text** (TOR printing):
   > *Chainer's insanity touched nearly every living thing—including viruses.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31645 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/88/waste-away) · oracle_id `d7f25f7f-3fa2-47ba-be33-ba0b08f26c94` · printing: TOR #88 (2002-02-04) · [rulings](https://api.scryfall.com/cards/78e859c2-3457-4c4c-9b1c-0db647dcf259/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wasteful Harvest
@@ -140,7 +147,9 @@
   > *Once the brothers discovered the pristine island of Argoth, the war came down to who could plunder it faster.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15953 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/196/wasteful-harvest) · oracle_id `d44627c0-1617-4706-bbeb-0169745364c7` · printing: BRO #196 (2022-11-18) · [rulings](https://api.scryfall.com/cards/00a0c819-36d1-442b-bec5-e6df58a122c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-14* — If a replacement effect causes the milled cards to be exiled instead of going to the graveyard, this effect can still apply to the cards "milled this way" in exile.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/196/wasteful-harvest) · oracle_id `d44627c0-1617-4706-bbeb-0169745364c7` · printing: BRO #196 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waste Land
 
@@ -150,6 +159,7 @@
   > {T}: Add {C}.
   > {T}, Sacrifice Waste Land: Destroy target nonbasic land. That land's controller creates a Wastes token. (It's a land with {T}: Add {C}.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/121/waste-land) · oracle_id `b19fdaa8-5063-4b87-8ad3-5581cc54e226` · printing: CMB2 #121 (2021-08-20) · [rulings](https://api.scryfall.com/cards/37a5dad0-ad6e-4b7e-8a55-b0aa5b1a8209/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wasteland
@@ -198,6 +208,7 @@
   > *All but the gods fear the scorpion's sting.*
 - **Keywords:** Cycling, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22260 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/116/wasteland-scorpion) · oracle_id `0bc418c3-ebde-4e52-9284-65d7e3433f27` · printing: AKH #116 (2017-04-28) · [rulings](https://api.scryfall.com/cards/2bab1782-498c-40fc-bf2e-5c991d0c3501/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wasteland Strangler
@@ -210,7 +221,17 @@
   > When this creature enters, you may put a card an opponent owns from exile into that player's graveyard. If you do, target creature gets -3/-3 until end of turn.
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24061 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/102/wasteland-strangler) · oracle_id `197f3b17-ce21-430e-8e41-f5d02d5e3637` · printing: BFZ #102 (2015-10-02) · [rulings](https://api.scryfall.com/cards/5e215ab0-efd6-4ea2-8bd2-0a93865e1e3c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2015-08-25* — A card with devoid is just colorless. It’s not colorless and the colors of mana in its mana cost.
+  - *2015-08-25* — Cards with devoid use frames that are variations of the transparent frame traditionally used for Eldrazi. The top part of the card features some color over a background based on the texture of the hedrons that once imprisoned the Eldrazi. This coloration is intended to aid deckbuilding and game play.
+  - *2015-08-25* — Devoid works in all zones, not just on the battlefield.
+  - *2015-08-25* — Face-down cards in exile are grouped using two criteria: what caused them to be exiled face down and when they were exiled face down. If you want to put a face-down card in exile into its owner’s graveyard, you must first choose one of these groups and then choose a card from within that group at random. For example, say an artifact causes your opponent to exile their hand of three cards face down. Then on a later turn, that artifact causes your opponent to exile another two cards face down. If you use Wasteland Strangler to put one of those cards into their graveyard, you would pick the first or second pile and put a card chosen at random from that pile into the graveyard.
+  - *2015-08-25* — If a card loses devoid, it will still be colorless. This is because effects that change an object’s color (like the one created by devoid) are considered before the object loses devoid.
+  - *2015-08-25* — If a replacement effect will cause cards that would be put into a graveyard from anywhere to be exiled instead (such as the one created by Anafenza, the Foremost), you can still put an exiled card into its opponent’s graveyard. The card becomes a new object and remains in exile. In this situation, you can’t use a single exiled card if required to put more than one exiled card into the graveyard. Conversely, you could use the same card in this situation if two separate spells or abilities each required you to put a single exiled card into its owner’s graveyard.
+  - *2015-08-25* — If a spell or ability requires that you put more than one exiled card into the graveyard, you may choose cards owned by different opponents. Each card chosen will be put into its owner’s graveyard.
+  - *2015-08-25* — Other cards and abilities can give a card with devoid color. If that happens, it’s just the new color, not that color and colorless.
+  - *2015-08-25* — You can’t look at face-down cards in exile unless an effect allows you to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/102/wasteland-strangler) · oracle_id `197f3b17-ce21-430e-8e41-f5d02d5e3637` · printing: BFZ #102 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wasteland Viper
 
@@ -237,7 +258,15 @@
   > Exile up to two target cards from a single graveyard. If this spell was kicked, instead exile target player's graveyard. Create a 2/2 black Rogue creature token for each creature card exiled this way.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19407 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/40/waste-management) · oracle_id `8d4e0866-d8f5-4eb6-a0fd-3fa9d4b9cf4a` · printing: NCC #40 (2022-04-29) · [rulings](https://api.scryfall.com/cards/0f979e7a-4e7b-4b7b-b4eb-cefa3c02d64f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-04-29* — Waste Management's controller will create a 2/2 black Rogue creature token for each creature card exiled this way whether it was kicked or not.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/40/waste-management) · oracle_id `8d4e0866-d8f5-4eb6-a0fd-3fa9d4b9cf4a` · printing: NCC #40 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waste Not
 
@@ -258,7 +287,11 @@
 - **Oracle text:**
   > {T}: Add {C}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/191/wastes) · oracle_id `05d24b0c-904a-46b6-b42a-96a4d91a0dd4` · printing: EOC #191 (2025-08-01) · [rulings](https://api.scryfall.com/cards/baf8f4f2-9f25-4cd2-8d78-1041e134aeac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-03-19* — Because Wastes is a basic land, you can include as many of them as you like in your Constructed decks.
+  - *2021-03-19* — In Limited events (including Sealed Deck and Booster Draft), Wastes must be in your card pool to be included in your deck. You can't add Wastes to your card pool in the same way that you can add other basic lands.
+  - *2021-03-19* — Wastes is not a land type. If something asks you to name a land type, you can't choose Wastes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/191/wastes) · oracle_id `05d24b0c-904a-46b6-b42a-96a4d91a0dd4` · printing: EOC #191 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wastescape Battlemage
 

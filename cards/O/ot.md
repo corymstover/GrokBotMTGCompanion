@@ -33,6 +33,7 @@
   > Threshold — As long as there are seven or more cards in your graveyard, this creature gets +3/+0 and attacks each combat if able.
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29680 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/305/otarian-juggernaut) · oracle_id `c19f79bb-a608-4455-98ef-aac129cea8c5` · printing: ODY #305 (2001-10-01) · [rulings](https://api.scryfall.com/cards/752420dc-d69a-4c9d-b563-f8928a4a0920/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Otawara, Soaring City
@@ -63,7 +64,12 @@
   > *Dusk Legion invaders sought lone Oltec travelers to prey upon. The Core's guidestones did not approve.*
 - **Keywords:** Scry, Flying, Craft, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16923 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/29/oteclan-landmark-oteclan-levitator) · oracle_id `2420828e-b886-42d3-81ba-8ee81b6e1eb8` · printing: LCI #29 (2023-11-17) · [rulings](https://api.scryfall.com/cards/099a1d1c-72ba-468e-9385-8f93e1fce001/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-11-10* — If a card that isn't a transforming double-faced card becomes a copy of a card with craft, it'll stay in exile if you activate the craft ability. It won't return to the battlefield.
+  - *2023-11-10* — If the materials required include multiple objects, you may exile some of them from among permanents you control and the rest from among cards in your graveyard. You don't have to choose all permanents or all cards from your graveyard.
+  - *2023-11-10* — The back faces of some cards with craft refer to cards "used to craft" it. This refers to the cards exiled as part of the cost of the craft ability of the front face. Those cards are considered to be "used to craft" that permanent as long as they remain exiled and the permanent remains on the battlefield, even if the permanent's controller changes or some of its characteristics change (because of a copy effect, for example.)
+  - *2023-11-10* — You may exile tokens you control as part of the materials required. However, because they aren't cards and won't stay in exile, any abilities that refer to what you "used to craft" the back faces won't refer to anything.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/29/oteclan-landmark-oteclan-levitator) · oracle_id `2420828e-b886-42d3-81ba-8ee81b6e1eb8` · printing: LCI #29 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Otepec Huntmaster
 
@@ -106,6 +112,7 @@
   > Partner—Friends forever (You can have two commanders if both have this ability.)
 - **Keywords:** Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16806 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/6/othelm-sigardian-outcast) · oracle_id `4ee401bf-dc86-41a9-84f9-57aa0a314d08` · printing: SLX #6 (2022-03-03) · [rulings](https://api.scryfall.com/cards/b867fb22-4f2a-47aa-9432-1bcc5e731947/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Otherworld Atlas
@@ -133,6 +140,7 @@
   > {1}{W}, {T}, Remove a charge counter from this creature: Destroy target creature that dealt damage to you this turn.
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20319 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/12/otherworldly-escort) · oracle_id `c0ebc1df-51ea-413b-bb88-7666a53ad783` · printing: MKC #12 (2024-02-09) · [rulings](https://api.scryfall.com/cards/b50bfde2-6c2d-403e-ab47-c932bcb2116d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Otherworldly Gaze
@@ -179,7 +187,10 @@
 - **Flavor text** (EMN printing):
   > *A tiny crack is enough to open the mind to Emrakul.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15124 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/emn/138/otherworldly-outburst) · oracle_id `43feb61f-5de0-41b6-b678-9785c476dc08` · printing: EMN #138 (2016-07-22) · [rulings](https://api.scryfall.com/cards/34409e34-04e9-4279-8d21-6ef362b20b72/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-07-13* — If the targeted creature dies before Otherworldly Outburst resolves, the spell doesn’t resolve. You won’t get an Eldrazi Horror token.
+  - *2016-07-13* — If the targeted creature doesn’t die this turn, the delayed triggered ability simply won’t trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/emn/138/otherworldly-outburst) · oracle_id `43feb61f-5de0-41b6-b678-9785c476dc08` · printing: EMN #138 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Otrimi, the Ever-Playful
 
@@ -192,7 +203,9 @@
   > Whenever this creature deals combat damage to a player, return target creature card with mutate from your graveyard to your hand.
 - **Keywords:** Mutate, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10149 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/12/otrimi-the-ever-playful) · oracle_id `c5054364-2a19-4b70-869b-94d48b7b12c0` · printing: C20 #12 (2020-04-17) · [rulings](https://api.scryfall.com/cards/639df7bc-b87d-4bf5-8005-8eabc54e955b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-04-17* — If Otrimi deals combat damage to a player at the same time that it’s dealt lethal damage, Otrimi (or any other creature card with mutate that was merged with it) can be the target of its triggered ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/12/otrimi-the-ever-playful) · oracle_id `c5054364-2a19-4b70-869b-94d48b7b12c0` · printing: C20 #12 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Otterball Antics
 
@@ -217,4 +230,7 @@
   > *"Will you go penguin sledding with me?"*
   > *—Aang*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17184 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/67/otter-penguin) · oracle_id `e2171c48-a816-41b2-aa55-e0ba2503fd6a` · printing: TLA #67 (2025-11-21) · [rulings](https://api.scryfall.com/cards/480b6279-bb34-4b3f-a639-868b52af92b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-10-02* — If a card or ability instructs you to put cards into your hand without specifically using the word "draw," it's not a card drawn.
+  - *2025-10-02* — Once Otter-Penguin has been blocked, its triggered ability will not cause it to become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/67/otter-penguin) · oracle_id `e2171c48-a816-41b2-aa55-e0ba2503fd6a` · printing: TLA #67 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

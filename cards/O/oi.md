@@ -25,6 +25,7 @@
   > *Oil-actuated inventions raised eyebrows after the Invasion, but no one could argue against the efficacy of the design.*
 - **Keywords:** Lifelink, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10026 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/215/oildeep-gearhulk) · oracle_id `aff0740f-51d5-41c7-ac13-97c298cfd743` · printing: DFT #215 (2025-02-14) · [rulings](https://api.scryfall.com/cards/a5e2d09e-b9f5-4a0d-96d3-984b5c2c387d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oil-Gorger Troll
@@ -37,6 +38,7 @@
 - **Flavor text** (ONE printing):
   > *Metal or flesh, it didn't matter—seasoned with ichor, it all tasted so good.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24681 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/177/oil-gorger-troll) · oracle_id `238f2c86-4376-48f2-ae71-c10d3d785163` · printing: ONE #177 (2023-02-10) · [rulings](https://api.scryfall.com/cards/78493579-1fad-4664-96d7-195bf59ceef2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oilskelion
@@ -48,6 +50,7 @@
   > Oil Sunburst (This enters the battlefield with an oil counter on it for each color of mana spent to cast it.)
   > Remove an oil counter from Oilskelion: Oilskelion deals 1 damage to any target.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RA05b/oilskelion) · oracle_id `61654a2b-bd08-424b-bc67-7220524470f8` · printing: UNK #RA05b (2023-02-17) · [rulings](https://api.scryfall.com/cards/4a44bec7-23ec-464f-8e98-f90b06068cdf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Óin the Brave
@@ -63,4 +66,11 @@
   > *When the heart of a Dwarf is wakened by gold, he grows suddenly bold and fierce.*
 - **Keywords:** Storied
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11319 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/106/%C3%B3in-the-brave) · oracle_id `a25ba5cc-6ff8-4215-b70d-7e86e15e3c1a` · printing: HOB #106 (2026-08-14) · [rulings](https://api.scryfall.com/cards/9984b9ef-e81c-48f4-aa33-0504171a2d3c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2026-06-29* — A permanent is any object on the battlefield, including tokens and lands. Spells and emblems aren't permanents.
+  - *2026-06-29* — A single permanent can only count once toward the three legendary, Saga, and/or artifact permanents needed to get an enduring story, even if it has more than one of those qualities. If you control one permanent that is a legendary artifact and a second permanent that is a Saga, you will only have two of the three permanents required to get an enduring story.
+  - *2026-06-29* — If you control three legendary, Saga, and/or artifact permanents but don't control a permanent with storied, you don't get an enduring story. For example, if you controlled three artifacts, lost control of two, then cast Thorin Oakenshield, you won't have an enduring story.
+  - *2026-06-29* — If your third legendary, Saga, or artifact permanent enters the battlefield and then one of those permanents leaves the battlefield immediately afterwards (most likely due to the "legend rule" or due to being a creature with 0 toughness), you get an enduring story before it leaves the battlefield.
+  - *2026-06-29* — Once you have an enduring story, you have it for the rest of the game, even if you lose control of some or all of your storied permanents. The enduring story designation is on the player and can't be removed by any effect.
+  - *2026-06-29* — Storied isn't a triggered ability and doesn't use the stack. Players can respond to a spell that will give you your third legendary, Saga, and/or artifact permanent, but they can't respond to you getting an enduring story once you control that third permanent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/106/%C3%B3in-the-brave) · oracle_id `a25ba5cc-6ff8-4215-b70d-7e86e15e3c1a` · printing: HOB #106 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

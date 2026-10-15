@@ -60,7 +60,12 @@
   > *"In the afterlife, I'll have no need of sleep. And until then, I have no time for it!"*
 - **Keywords:** Exert
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30188 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/26/rhet-crop-spearmaster) · oracle_id `4853bb11-2994-4caf-9981-8a480d472004` · printing: AKH #26 (2017-04-28) · [rulings](https://api.scryfall.com/cards/3fcfc2d3-8719-4ba1-b4c5-b2f8f6bab634/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2017-04-18* — All cards in the Amonkhet set that let you exert a creature let you do so as you declare it as an attacking creature, as do some of the cards in the Hour of Devastation set. You can’t do so later in combat, and creatures put onto the battlefield attacking can’t be exerted. Any abilities that trigger on exerting an attacking creature will resolve before blockers are declared.
+  - *2017-04-18* — If an exerted creature is already untapped during your next untap step (most likely because it had vigilance or an effect untapped it), exert’s effect preventing it from untapping expires without having done anything.
+  - *2017-04-18* — If you gain control of another player’s creature until end of turn and exert it, it will untap during that player’s untap step.
+  - *2017-04-18* — You can’t exert a creature unless an effect allows you to do so. Similar effects that “tap and freeze” a creature (such as that of Decision Paralysis) don’t exert that creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/26/rhet-crop-spearmaster) · oracle_id `4853bb11-2994-4caf-9981-8a480d472004` · printing: AKH #26 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhet-Tomb Mystic
 
@@ -87,7 +92,15 @@
   > Augment {3}{W} ({3}{W}, Reveal this card from your hand: Combine it with target host. Augment only as a sorcery.)
 - **Keywords:** Augment
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/18/rhino-) · oracle_id `7c5c5b63-deb7-4111-a0ab-bbc0ee12dee3` · printing: UST #18 (2017-12-08) · [rulings](https://api.scryfall.com/cards/87c56df0-3f4d-489d-90c2-e9574f50929a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2018-01-19* — Augment can (and usually does) change the name, card types, subtypes, rules text, and power/toughness. The combined creature will have (at least) two artists and may now have multiple colors. Anything covered up in the augment process doesn’t count, so ignore things to the left of the “metal bar” in the art of host creatures.
+  - *2018-01-19* — Augment can’t target creatures that aren’t host creatures.
+  - *2018-01-19* — Augment is an activated ability that you activate from your hand. To do so, reveal the card, choose a target host creature, and pay the augment cost. As this ability resolves, if the card with augment is still in your hand, put it onto the battlefield combined with the host creature.
+  - *2018-01-19* — Creatures with augment don’t have a mana cost and can’t be cast.
+  - *2018-01-19* — The creature card with augment isn’t put onto the battlefield until the ability resolves. This means if the host is destroyed, the creature with augment stays in your hand. You can’t choose a different host, but you can activate augment again if there’s another host available.
+  - *2018-01-19* — You can’t activate augment unless there is a host creature on the battlefield. It doesn’t need to be yours. Note though that if you augment another player’s host creature, they control the combined creature.
+  - *2018-01-19* — You can’t put more than one augment card on a single host creature. Once a host creature is augmented, the host part gets covered up and it’s no longer a host creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/18/rhino-) · oracle_id `7c5c5b63-deb7-4111-a0ab-bbc0ee12dee3` · printing: UST #18 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhino, Barreling Brute
 
@@ -102,6 +115,7 @@
   > *—Rhino, Aleksei Sytsevich*
 - **Keywords:** Vigilance, Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13212 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/140/rhino-barreling-brute) · oracle_id `9a6bf8a3-7640-4890-ac62-d5028f41978b` · printing: SPM #140 (2025-09-26) · [rulings](https://api.scryfall.com/cards/4b8ac400-1e98-49fc-94be-00386d15f2ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhino's Rampage
@@ -114,6 +128,7 @@
   > *Spider-Man wasn't looking to fight, but that was all Rhino wanted.*
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11963 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/823/rhinos-rampage) · oracle_id `0a744206-04c4-46cb-b64d-cf192c9324df` · printing: MSC #823 (2026-06-26) · [rulings](https://api.scryfall.com/cards/722c62a0-a8f3-4bc3-b463-8904ba234eed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhino, Terrible Trampler
@@ -128,6 +143,7 @@
   > *"Gettin' in and gettin' out ain't a problem. You want the place to stay standing? No promises there."*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22676 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/730/rhino-terrible-trampler) · oracle_id `4e1c9e10-1cae-4ee5-866e-b7b5bb47bbce` · printing: MSC #730 (2026-06-26) · [rulings](https://api.scryfall.com/cards/4bce41d3-d59a-4d70-8df3-1cbb3a13be94/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhizome Lurcher
@@ -142,7 +158,11 @@
   > *—Devesh, Golgari shaman*
 - **Keywords:** Undergrowth
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18394 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/196/rhizome-lurcher) · oracle_id `85e18895-d1d2-46c7-afd0-31da410c0438` · printing: GRN #196 (2018-10-05) · [rulings](https://api.scryfall.com/cards/db9ce92b-79cc-4e26-b511-30ae8ea6a2a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-10-05* — Because tokens aren't cards, they never count for undergrowth abilities.
+  - *2018-10-05* — Creature cards with other types, such as artifact creature cards, count for undergrowth abilities.
+  - *2018-10-05* — If you return Rhizome Lurcher from your graveyard to the battlefield, its undergrowth ability counts itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/196/rhizome-lurcher) · oracle_id `85e18895-d1d2-46c7-afd0-31da410c0438` · printing: GRN #196 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhoda, Geist Avenger
 
@@ -155,6 +175,7 @@
   > Whenever a creature an opponent controls becomes tapped, if it isn't being declared as an attacker, put a +1/+1 counter on Rhoda.
 - **Keywords:** Partner with, Vigilance, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10845 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner, Partner with
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/8/rhoda-geist-avenger) · oracle_id `3579e40c-6ec5-4927-8252-5a188db400ab` · printing: VOC #8 (2021-11-19) · [rulings](https://api.scryfall.com/cards/c434e774-c908-46b9-ba18-52e1efe092de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhonas's Last Stand
@@ -166,7 +187,10 @@
 - **Flavor text** (HOU printing):
   > *Rhonas continued to fight until his last breath and even beyond.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27464 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/132/rhonass-last-stand) · oracle_id `01c729d7-9b80-479d-8d30-ae47c76c2c50` · printing: HOU #132 (2017-07-14) · [rulings](https://api.scryfall.com/cards/e991d1eb-70ab-4e2c-862d-fb8bfcefc542/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-07-14* — If more than one spell says that lands you control don’t untap during your next untap step, the effects will all wear off during that untap step. You’ll untap lands you control during your untap step after that one.
+  - *2017-07-14* — No lands that you control will untap during your next untap step, even lands that aren’t tapped as this spell resolves. This includes lands that enter the battlefield after this spell resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/132/rhonass-last-stand) · oracle_id `01c729d7-9b80-479d-8d30-ae47c76c2c50` · printing: HOU #132 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhonas's Monument
 
@@ -195,7 +219,13 @@
   > *"Give me some room."*
 - **Keywords:** Exert
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30062 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/133/rhonass-stalwart) · oracle_id `8c95230b-7a4a-4293-ab5f-2070d951082b` · printing: HOU #133 (2017-07-14) · [rulings](https://api.scryfall.com/cards/99d4f791-9084-4644-a1f5-85adbf6dc790/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-04-18* — All cards in the Amonkhet set that let you exert a creature let you do so as you declare it as an attacking creature, as do some of the cards in the Hour of Devastation set. You can’t do so later in combat, and creatures put onto the battlefield attacking can’t be exerted. Any abilities that trigger on exerting an attacking creature will resolve before blockers are declared.
+  - *2017-04-18* — If an exerted creature is already untapped during your next untap step (most likely because it had vigilance or an effect untapped it), exert’s effect preventing it from untapping expires without having done anything.
+  - *2017-04-18* — If you gain control of another player’s creature until end of turn and exert it, it will untap during that player’s untap step.
+  - *2017-04-18* — You can’t exert a creature unless an effect allows you to do so. Similar effects that “tap and freeze” a creature (such as that of Decision Paralysis) don’t exert that creature.
+  - *2017-07-14* — Once a creature with power 3 or greater has blocked an exerted Rhonas’s Stalwart, changing the power of the blocking creature won’t cause Rhonas’s Stalwart to become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/133/rhonass-stalwart) · oracle_id `8c95230b-7a4a-4293-ab5f-2070d951082b` · printing: HOU #133 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhonas the Indomitable
 
@@ -223,7 +253,15 @@
   > When this creature dies, amass Goblins X, where X is this creature's power. (Put X +1/+1 counters on an Army you control. It's also a Goblin. If you don't control an Army, create a 0/0 black Goblin Army creature token first.)
 - **Keywords:** Amass
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14567 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/82/rhovanion-rampager) · oracle_id `008a11c1-d283-49fe-abd7-ff4fe8b1fe79` · printing: HOB #82 (2026-08-14) · [rulings](https://api.scryfall.com/cards/5ee45a5e-3650-47b3-8d31-6b1de9e27a14/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2026-06-29* — Amass Orcs works the same way, except you create a 0/0 black Orc Army creature token if you don't control an Army. And if the Army creature you chose isn't already an Orc, it becomes an Orc in addition to its other types. By combining cards with amass Orcs and amass Goblins, you can end up with a Goblin Orc Army.
+  - *2026-06-29* — If you don't control an Army, the Goblin Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2026-06-29* — In the rare case that you control multiple Army creatures (perhaps because you control a creature with changeling) while you amass Goblins, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't a Goblin, it becomes a Goblin in addition to its other types.
+  - *2026-06-29* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2026-06-29* — Some spells and abilities that amass Goblins may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Goblins.
+  - *2026-06-29* — To amass Goblins N, if you don't control an Army creature, create a 0/0 black Goblin Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Goblin, it becomes a Goblin in addition to its other types.
+  - *2026-06-29* — Use the sacrificed creature's power as it last existed on the battlefield to determine how many counters Rhovanion Rampager gets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/82/rhovanion-rampager) · oracle_id `008a11c1-d283-49fe-abd7-ff4fe8b1fe79` · printing: HOB #82 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhox
 
@@ -235,7 +273,11 @@
   > {2}{G}: Regenerate this creature. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)
 - **Keywords:** Heal, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22755 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/10e/291/rhox) · oracle_id `f6f4c684-2915-4a58-9c4b-487387f7cf73` · printing: 10E #291 (2007-07-13) · [rulings](https://api.scryfall.com/cards/6aa50126-f6ec-4917-ac45-4b1f8f23ca09/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-04-27* — If blocked by a creature with banding, the defending player decides whether or not the damage is assigned “as though it weren’t blocked”.
+  - *2018-04-27* — When assigning combat damage, you choose whether you want to assign all damage to blocking creatures, or if you want to assign all of it to the player or planeswalker this creature is attacking. You can’t split the damage assignment between them.
+  - *2018-04-27* — You can decide to assign damage to the defending player or planeswalker even if the blocking creature has protection from green or damage preventing effects on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/10e/291/rhox) · oracle_id `f6f4c684-2915-4a58-9c4b-487387f7cf73` · printing: 10E #291 (2007-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhox Bodyguard
 
@@ -249,6 +291,7 @@
   > *An enlightened soul caged in a body made for battle.*
 - **Keywords:** Exalted
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25853 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/con/122/rhox-bodyguard) · oracle_id `34bd39ed-4058-4c65-ba5f-9ac5cf7c166a` · printing: CON #122 (2009-02-06) · [rulings](https://api.scryfall.com/cards/1e9f43c8-9df6-49df-b145-4a19bc55e8f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhox Brute
@@ -262,6 +305,7 @@
   > *"In this new world, I have seen the once-devout rhoxes take up arms with the savages of Jund. I would be offended, but I see the wisdom in their choice."*
   > *—Gernan, Dawnray archer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31092 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/227/rhox-brute) · oracle_id `c497c4f2-62c5-44fc-b485-f8d40868d8dc` · printing: BBD #227 (2018-06-08) · [rulings](https://api.scryfall.com/cards/382fba19-78d3-4aa3-9508-c7c1f13e0b33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhox Charger
@@ -276,7 +320,14 @@
   > *"Momentum is a great ally."*
 - **Keywords:** Exalted, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21857 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/145/rhox-charger) · oracle_id `e1b7db10-58a1-46fc-ac6c-287393ed96c2` · printing: ALA #145 (2008-10-03) · [rulings](https://api.scryfall.com/cards/8aaae6a3-ae3c-4b7e-82e8-69147f61ee18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2008-10-01* — Exalted abilities will resolve before blockers are declared.
+  - *2008-10-01* — Exalted bonuses last until end of turn. If an effect creates an additional combat phase during your turn, a creature that attacked alone during the first combat phase will still have its exalted bonuses in that new phase. If a creature attacks alone during the second combat phase, all your exalted abilities will trigger again.
+  - *2008-10-01* — If you attack with multiple creatures, but then all but one are removed from combat, your exalted abilities won’t trigger.
+  - *2008-10-01* — If you declare exactly one creature as an attacker, each exalted ability on each permanent you control (including, perhaps, the attacking creature itself) will trigger. The bonuses are given to the attacking creature, not to the permanent with exalted. Ultimately, the attacking creature will wind up with +1/+1 for each of your exalted abilities.
+  - *2008-10-01* — In a Two-Headed Giant game, a creature “attacks alone” if it’s the only creature declared as an attacker by your entire team. If you control that attacking creature, your exalted abilities will trigger but your teammate’s exalted abilities won’t.
+  - *2008-10-01* — Some effects put creatures onto the battlefield attacking. Since those creatures were never declared as attackers, they’re ignored by exalted abilities. They won’t cause exalted abilities to trigger. If any exalted abilities have already triggered (because exactly one creature was declared as an attacker), those abilities will resolve as normal even though there may now be multiple attackers.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/145/rhox-charger) · oracle_id `e1b7db10-58a1-46fc-ac6c-287393ed96c2` · printing: ALA #145 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhox Faithmender
 
@@ -306,7 +357,11 @@
   > Renown 2 (When this creature deals combat damage to a player, if it isn't renowned, put two +1/+1 counters on it and it becomes renowned.)
 - **Keywords:** Renown, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28095 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/196/rhox-maulers) · oracle_id `019461d9-63ae-43d3-a9d4-bd745d0cf46c` · printing: ORI #196 (2015-07-17) · [rulings](https://api.scryfall.com/cards/64c3c972-82f6-46ea-8f9f-090c65c22e44/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-06-22* — If a creature with renown deals combat damage to its controller because that damage was redirected, renown will trigger.
+  - *2015-06-22* — If a renown ability triggers, but the creature leaves the battlefield before that ability resolves, the creature doesn’t become renowned. Any ability that triggers “whenever a creature becomes renowned” won’t trigger.
+  - *2015-06-22* — Renown won’t trigger when a creature deals combat damage to a planeswalker or another creature. It also won’t trigger when a creature deals noncombat damage to a player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/196/rhox-maulers) · oracle_id `019461d9-63ae-43d3-a9d4-bd745d0cf46c` · printing: ORI #196 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhox Meditant
 
@@ -318,7 +373,9 @@
 - **Flavor text** (CON printing):
   > *The weight of her conviction balances on the harmony of her soul.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29988 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/con/16/rhox-meditant) · oracle_id `832c6834-2cc7-41d5-b881-37c24c13ab8a` · printing: CON #16 (2009-02-06) · [rulings](https://api.scryfall.com/cards/b74f4f8d-2191-4743-aac6-cdcb4a68379c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-02-01* — The “intervening ‘if’ clause” means that (1) the ability won’t trigger at all unless you control a permanent of the specified color, and (2) the ability will do nothing unless you control a permanent of the specified color at the time it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/con/16/rhox-meditant) · oracle_id `832c6834-2cc7-41d5-b881-37c24c13ab8a` · printing: CON #16 (2009-02-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhox Oracle
 
@@ -330,6 +387,7 @@
 - **Flavor text** (M19 printing):
   > *"The further into the future I look, the less certain my vision. Even now, the middle distance is obscured by fire."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27244 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/198/rhox-oracle) · oracle_id `d26d1cce-3bcf-48d4-abce-8b12ca7b7432` · printing: M19 #198 (2018-07-13) · [rulings](https://api.scryfall.com/cards/281f04d5-af45-4494-ac11-a605d3a06643/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhox Pikemaster
@@ -344,6 +402,7 @@
   > *When the rhoxes charge, everyone else knows which way to run.*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23835 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m10/26/rhox-pikemaster) · oracle_id `8866d33e-8159-4e10-8b11-914c12a0918f` · printing: M10 #26 (2009-07-17) · [rulings](https://api.scryfall.com/cards/b3684a28-e819-4909-912e-dec4a9cf1b11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhox Pummeler
@@ -357,7 +416,16 @@
 - **Flavor text** (SNC printing):
   > *When all you have is a warhammer, every face looks like a nail.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25270 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/155/rhox-pummeler) · oracle_id `898c8415-8769-48c4-ad16-a4ba8c3d5d7d` · printing: SNC #155 (2022-04-29) · [rulings](https://api.scryfall.com/cards/c99f5b02-16b9-4672-b0ec-f77662e9de76/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2022-04-29* — "Shield" is not an ability that creatures have and shield counters are not keyword counters. If a creature with a shield counter loses its abilities, the shield counter will still protect it as normal.
+  - *2022-04-29* — A creature with a shield counter on it may still be destroyed by state-based actions if it has damage marked on it equal to its toughness or has been dealt unpreventable damage by a source with deathtouch.
+  - *2022-04-29* — Combat damage is assigned to creatures and players and then dealt simultaneously. Notably, this means blocking a Rhox Pummeler with a shield counter on it won't normally prevent Rhox Pummeler from dealing damage to the defending player due to its trample ability.
+  - *2022-04-29* — If a permanent that would be dealt damage has more than one shield counter on it, that damage is prevented and only one shield counter is removed.
+  - *2022-04-29* — If a permanent with a shield counter is dealt unpreventable damage, that damage will be dealt and a shield counter will still be removed.
+  - *2022-04-29* — If an attacking Rhox Pummeler with one shield counter on it is blocked by a creature with first strike, the shield counter will be removed in the first combat damage step. In that case, Rhox Pummeler won't have trample when it deals combat damage in the second combat damage step.
+  - *2022-04-29* — Removing a shield counter in this way isn't the same as regenerating a creature.
+  - *2022-04-29* — Shield counters don't prevent players from sacrificing creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/155/rhox-pummeler) · oracle_id `898c8415-8769-48c4-ad16-a4ba8c3d5d7d` · printing: SNC #155 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhox Veteran
 
@@ -371,6 +439,7 @@
   > *"Battle is all about where you stand. Never stand in my way."*
 - **Keywords:** Battle Cry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24635 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/24/rhox-veteran) · oracle_id `a681c6ea-b10a-4061-abf4-7b45e06ccebd` · printing: MH1 #24 (2019-06-14) · [rulings](https://api.scryfall.com/cards/6384e266-d0dc-4af1-b3ab-ecaf9be2553c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhox War Monk
@@ -384,6 +453,7 @@
   > *Rhox monks are dedicated to spiritual growth and learning, and most bear the sigils of many students. However, they do not gladly suffer fools or those who disagree with their carefully wrought dogma.*
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27760 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm3/180/rhox-war-monk) · oracle_id `5c05c350-1b11-4dda-9de6-01c7e0f07ffc` · printing: MM3 #180 (2017-03-17) · [rulings](https://api.scryfall.com/cards/bd24e81d-d3a8-4550-bad9-b818f48cc700/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhuk, Hexgold Nabber
@@ -398,7 +468,9 @@
   > *Never get between a goblin and the closest shiny object.*
 - **Keywords:** Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17615 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/407/rhuk-hexgold-nabber) · oracle_id `06607cba-76ba-4145-a5b5-24d3428142ac` · printing: ONE #407 (2023-02-10) · [rulings](https://api.scryfall.com/cards/d7c25806-1da6-4789-a17e-d2440184ec40/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-02-04* — If that creature has more than one Equipment attached to it, you may move all of those Equipment to Rhuk or none of those Equipment to Rhuk. You can't move some of them and leave others.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/407/rhuk-hexgold-nabber) · oracle_id `06607cba-76ba-4145-a5b5-24d3428142ac` · printing: ONE #407 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhys, the Evermore
 
@@ -411,7 +483,11 @@
   > {W}, {T}: Remove any number of counters from target creature you control. Activate only as a sorcery.
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11210 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/32/rhys-the-evermore) · oracle_id `9f013b5d-fff0-4c50-8621-158b6dc34834` · printing: ECL #32 (2026-01-23) · [rulings](https://api.scryfall.com/cards/a7072412-4aa2-40ef-a267-bd717551a42b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-11-17* — If a creature has +1/+1 counters and -1/-1 counters on it, state-based actions remove the same number of each so that it has only one kind of those counters on it. A creature's persist ability can bring it back again if its -1/-1 counters are removed this way.
+  - *2025-11-17* — If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature as it last existed on the battlefield, and it still had -1/-1 counters on it at that point.
+  - *2025-11-17* — If the target creature dies but that card leaves the graveyard before the persist ability resolves, it won't be returned to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/32/rhys-the-evermore) · oracle_id `9f013b5d-fff0-4c50-8621-158b6dc34834` · printing: ECL #32 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhys the Exiled
 
@@ -453,7 +529,11 @@
   > *"All mages dip into the same well; some are just in more of a hurry."*
   > *—Alexi, zephyr mage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20200 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/142/rhystic-cave) · oracle_id `609fbc2c-514a-4feb-aaad-b9e6dcfd335c` · printing: PCY #142 (2000-06-05) · [rulings](https://api.scryfall.com/cards/4ae74463-4426-4ad4-b7a2-324694854245/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — Each player (starting with the current player and going in turn order) gets the option to pay when this ability resolves.
+  - *2004-10-04* — If a player pays {1}, Rhystic Cave does not produce any mana, and is not considered to have been tapped for mana. Things which trigger of the land being tapped for mana will not trigger.
+  - *2004-10-04* — The card’s ability has errata so you can’t activate the ability during casting of a spell or activating of an ability. This prevents you from getting into a position where someone paying {1} could stop you from having enough mana to pay for the spell. If you want to use it pay for a spell or ability, you need to use this card before you start the casting or activating.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/142/rhystic-cave) · oracle_id `609fbc2c-514a-4feb-aaad-b9e6dcfd335c` · printing: PCY #142 (2000-06-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhystic Circle
 
@@ -464,7 +544,9 @@
 - **Flavor text** (PCY printing):
   > *The circle buys time—an important commodity in battle.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27319 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/19/rhystic-circle) · oracle_id `bffb7d30-b9a4-4529-a3fc-c82d6cd4b599` · printing: PCY #19 (2000-06-05) · [rulings](https://api.scryfall.com/cards/4a76711e-b508-4bb7-a87c-911a11905af3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Can’t be used to prevent damage to your creatures, just to you.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/19/rhystic-circle) · oracle_id `bffb7d30-b9a4-4529-a3fc-c82d6cd4b599` · printing: PCY #19 (2000-06-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhystic Deluge
 
@@ -476,7 +558,9 @@
   > *"I'll rain down on you with the power of magic itself. Then we'll see who prevails."*
   > *—Alexi, zephyr mage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24037 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/43/rhystic-deluge) · oracle_id `d59cfff9-2bce-439a-9456-ae68eabbf67d` · printing: PCY #43 (2000-06-05) · [rulings](https://api.scryfall.com/cards/0a3dd540-7f54-46fe-b1e8-7b07f57e71d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The creature’s controller gets the option to pay when this ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/43/rhystic-deluge) · oracle_id `d59cfff9-2bce-439a-9456-ae68eabbf67d` · printing: PCY #43 (2000-06-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhystic Lightning
 
@@ -485,7 +569,9 @@
 - **Oracle text:**
   > Rhystic Lightning deals 4 damage to any target unless that permanent's controller or that player pays {2}. If they do, Rhystic Lightning deals 2 damage to the permanent or player.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26827 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/99/rhystic-lightning) · oracle_id `f6d371e6-e25e-4820-8cf7-f692a4d9be11` · printing: PCY #99 (2000-06-05) · [rulings](https://api.scryfall.com/cards/21ce365e-3002-42e9-aeb5-1b845408271e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The player gets the option to pay when this spell resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/99/rhystic-lightning) · oracle_id `f6d371e6-e25e-4820-8cf7-f692a4d9be11` · printing: PCY #99 (2000-06-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhystic Scrying
 
@@ -497,7 +583,9 @@
   > *"The trick is to ask when no one's listening."*
   > *—Alexi, zephyr mage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27858 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/44/rhystic-scrying) · oracle_id `7a07971a-bfc3-4d36-ad8a-b9d395cbd6e9` · printing: PCY #44 (2000-06-05) · [rulings](https://api.scryfall.com/cards/81a59737-f06f-49b7-a490-3dc1115b47b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Each player (starting with the current player and going in turn order) gets the option to pay when this spell resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/44/rhystic-scrying) · oracle_id `7a07971a-bfc3-4d36-ad8a-b9d395cbd6e9` · printing: PCY #44 (2000-06-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhystic Shield
 
@@ -508,7 +596,10 @@
 - **Flavor text** (PCY printing):
   > *A shield for one is good. A shield for everyone is even better.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29983 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/20/rhystic-shield) · oracle_id `a905dafa-1818-471a-a485-d84be447263b` · printing: PCY #20 (2000-06-05) · [rulings](https://api.scryfall.com/cards/49af7b3f-f56a-4102-b398-5c215dd4fa11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Each player (starting with the current player and going in turn order) gets the option to pay when this spell resolves.
+  - *2004-10-04* — Only affects creatures you control when it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/20/rhystic-shield) · oracle_id `a905dafa-1818-471a-a485-d84be447263b` · printing: PCY #20 (2000-06-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhystic Study
 
@@ -534,6 +625,7 @@
 - **Flavor text** (PCY printing):
   > *Jamuraan wizards are linked together by magic, a bond that only the wicked dare exploit.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29656 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcy/76/rhystic-syphon) · oracle_id `b1eea34a-74ef-4d7c-bf70-c64b3487f296` · printing: PCY #76 (2000-06-05) · [rulings](https://api.scryfall.com/cards/750c5df2-e299-4bf3-8018-725893702314/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhystic Tutor
@@ -545,6 +637,7 @@
 - **Flavor text** (PCY printing):
   > *Any lock can be undone, any secret revealed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13575 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcy/77/rhystic-tutor) · oracle_id `1c6da9a9-6395-460b-8150-ea46d7299dc2` · printing: PCY #77 (2000-06-05) · [rulings](https://api.scryfall.com/cards/e02c1609-9cac-460f-8504-a84e28c340c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhythmic Water Vortex
@@ -555,6 +648,7 @@
   > Return up to two target creatures to their owner's hand.
   > Search your library and/or graveyard for a card named Mu Yanling, reveal it, and put it into your hand. If you search your library this way, shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29969 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gs1/18/rhythmic-water-vortex) · oracle_id `373c6cd0-0bf7-4dab-bc18-7ecf5f015e10` · printing: GS1 #18 (2018-06-22) · [rulings](https://api.scryfall.com/cards/be82ea29-66d4-471d-bef7-c6524207b96d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhythm of the Wild

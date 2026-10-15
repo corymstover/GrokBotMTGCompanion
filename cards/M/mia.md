@@ -48,7 +48,9 @@
   > *"Hush, little ants. I can rid you of your troubles with a breath. All I ask in return is a drop of blood... and a promise."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19889 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/109/miasma-demon) · oracle_id `b1df6475-e1e8-4ef3-a7b2-919d5f121c57` · printing: DSK #109 (2024-09-27) · [rulings](https://api.scryfall.com/cards/6d167c00-75ff-4301-855a-8319b89e3689/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — You don't choose targets for Miasma Demon's last ability at the time it triggers. Rather, a second "reflexive" ability triggers when you discard cards this way. You choose targets for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/109/miasma-demon) · oracle_id `b1df6475-e1e8-4ef3-a7b2-919d5f121c57` · printing: DSK #109 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Miasmic Mummy
 
@@ -60,4 +62,6 @@
 - **Flavor text** (JMP printing):
   > *Its breath doesn't assault the senses. It pollutes the mind.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12661 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/256/miasmic-mummy) · oracle_id `b5b049d4-242a-48ec-85d1-1ef66c8cfa4c` · printing: JMP #256 (2020-07-17) · [rulings](https://api.scryfall.com/cards/405c096c-a94b-4817-8c7f-f0551f6513e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-04-18* — When Miasmic Mummy’s triggered ability resolves, first the player whose turn it is chooses a card to discard, then each other player in turn order chooses a card to discard, then all of those cards are discarded simultaneously. No one sees what the other players are discarding before deciding which card to discard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/256/miasmic-mummy) · oracle_id `b5b049d4-242a-48ec-85d1-1ef66c8cfa4c` · printing: JMP #256 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

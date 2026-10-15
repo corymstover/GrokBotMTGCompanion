@@ -28,7 +28,9 @@
 - **Flavor text** (UGL printing):
   > *The number printed on the card is no longer in service. For help, please go to support.wizards.com.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ugl/53/the-ultimate-nightmare-of-wizards-of-the-coast%C2%AE-customer-service) · oracle_id `9adc9df1-bab0-4458-9453-7028f23693b8` · printing: UGL #53 (1998-08-11) · [rulings](https://api.scryfall.com/cards/616abc97-4276-4e96-bbe8-e47ba7cac075/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-01-11* *(Scryfall note)* — This card recieved errata for its flavor text on Gatherer: http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=9757
+- **Source flags:** [Scryfall](https://scryfall.com/card/ugl/53/the-ultimate-nightmare-of-wizards-of-the-coast%C2%AE-customer-service) · oracle_id `9adc9df1-bab0-4458-9453-7028f23693b8` · printing: UGL #53 (1998-08-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Unagi of Kyoshi Island
 
@@ -96,6 +98,7 @@
   > Fall — Whenever another creature dies, target opponent loses 1 life and you gain 1 life.
   > Winter — Her Majesty can't attack or block.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB13b/the-underworld-fantasy-queen) · oracle_id `6206e6b7-20b4-4299-8c99-0dbc407badda` · printing: UNK #RB13b (2026-05-01) · [rulings](https://api.scryfall.com/cards/89abcf79-8113-49ea-a8c8-ee2e0ebb1acd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Unknown Wizard
@@ -110,6 +113,7 @@
   > *Prize Card for the Unknown events at MagicCon Las Vegas, October 25-27, 2024*
 - **Keywords:** Eminence
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/MZ01/the-unknown-wizard) · oracle_id `29ef75e2-e3c9-4491-8345-b40ff39caadd` · printing: UNK #MZ01 (2024-10-25) · [rulings](https://api.scryfall.com/cards/a0af46f8-5abf-4436-9bb4-906ad44420d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Unluckiest Planeswalker
@@ -124,6 +128,7 @@
   > The Unluckiest Planeswalker can be your commander.
 - **Keywords:** Rulebreaker
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #22693 · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/26/the-unluckiest-planeswalker) · oracle_id `c7ea2ce7-f684-44a2-94b2-d4aa7353f6fc` · printing: MBC #26 (2026-10-19) · [rulings](https://api.scryfall.com/cards/abaa08a6-62aa-4f2f-8be9-5950c2b32dc4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Unspeakable
@@ -138,6 +143,7 @@
   > *The rumors are horrifying; the truth is worse.*
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20016 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dds/13/the-unspeakable) · oracle_id `64e413c9-96e5-43c3-a182-84d53fef4327` · printing: DDS #13 (2017-03-31) · [rulings](https://api.scryfall.com/cards/e956c695-bf0a-430c-a14e-196ae6ab7c9f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ur-Dragon
@@ -169,4 +175,7 @@
   > Whenever one or more Sphinxes you control attack, each player mills that many cards. For each player, you may cast a card that player milled this way without paying its mana cost.
 - **Keywords:** Flying, Eminence, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12850 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/12/the-ur-sphinx) · oracle_id `4a3fdb8e-4699-4bd9-84e6-3cc7fea0e1ef` · printing: FRC #12 (2026-10-02) · [rulings](https://api.scryfall.com/cards/d9e9d9a8-86c2-4e58-b818-466247725259/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-08-21* — If a Sphinx you control enters attacking, it won't cause the Ur-Sphinx's last ability to trigger.
+  - *2026-08-21* — You cast the spells while The Ur-Sphinx's last ability is resolving and still on the stack. You can't wait to cast them later in the turn. Timing restrictions based on the cards' types are ignored. If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If a spell has any mandatory additional costs, you must pay those costs to cast that spell. If a spell has {X} in its mana cost, you must choose 0 as the value of X.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/12/the-ur-sphinx) · oracle_id `4a3fdb8e-4699-4bd9-84e6-3cc7fea0e1ef` · printing: FRC #12 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

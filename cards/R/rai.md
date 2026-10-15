@@ -83,7 +83,9 @@
   > *"To conquer is to eat."*
   > *—Edicts of Ilagra*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14080 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/83/raiders-spoils) · oracle_id `45fd14b9-d66a-452d-add4-36f512fff9c2` · printing: KTK #83 (2014-09-26) · [rulings](https://api.scryfall.com/cards/cd3e423e-cb62-43e1-9d0c-e702f823c8e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-09-20* — You decide whether to pay 1 life as the triggered ability resolves. You may do this only once per ability (in other words, once per Warrior that deals combat damage to a player).
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/83/raiders-spoils) · oracle_id `45fd14b9-d66a-452d-add4-36f512fff9c2` · printing: KTK #83 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raiders' Wake
 
@@ -114,6 +116,7 @@
   > *—Restela, Alaborn marshal*
 - **Keywords:** Landwalk, Swampwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31586 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/p02/84/raiding-nightstalker) · oracle_id `5c4cb33d-2a79-4934-839f-d34e9ca284f8` · printing: P02 #84 (1998-06-24) · [rulings](https://api.scryfall.com/cards/0df2887c-e70b-4ff3-a437-450c0037fb07/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raiding Party
@@ -124,7 +127,11 @@
   > This enchantment can't be the target of white spells or abilities from white sources.
   > Sacrifice an Orc: Each player may tap any number of untapped white creatures they control. For each creature tapped this way, that player chooses up to two Plains. Then destroy all Plains that weren't chosen this way by any player.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31243 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fem/64/raiding-party) · oracle_id `1d9b8859-14e3-4bbe-ad92-916b25a37b31` · printing: FEM #64 (1994-11-01) · [rulings](https://api.scryfall.com/cards/907a3396-706b-4ca2-9973-bca758986032/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — A player can choose zero or one Plains if they want.
+  - *2004-10-04* — The color of creature to be tapped is set when the effect is announced and even if you use Sleight of Mind after that, you can’t change what color creature needs to be tapped to prevent the destruction.
+  - *2004-10-04* — The creatures are tapped during spell resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fem/64/raiding-party) · oracle_id `1d9b8859-14e3-4bbe-ad92-916b25a37b31` · printing: FEM #64 (1994-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raiding Schemes
 
@@ -136,7 +143,16 @@
   > *"Keep enemies close . . . and elves closer."*
   > *—A tale of Auntie Wort*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13219 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/239/raiding-schemes) · oracle_id `854cac11-9a22-4dea-8c1b-c49a4858a754` · printing: ECL #239 (2026-01-23) · [rulings](https://api.scryfall.com/cards/0bab5da5-72a7-4340-9b53-492ab14a9f71/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2025-11-17* — A resolving copy of a permanent spell becomes a token. That token isn't "created" and won't interact with abilities that care about tokens being created.
+  - *2025-11-17* — If a spell has multiple instances of conspire (perhaps from multiple Raiding Schemes), you may choose to pay for each of those abilities individually. Each conspire ability triggers only if you tap two creatures specifically for that ability.
+  - *2025-11-17* — If the copied spell divides damage or distributes counters among a number of targets, the division and number of targets can't be changed. If you choose new targets, you must choose the same number of targets.
+  - *2025-11-17* — If the spell has any targets, the copy will have the same targets unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal.
+  - *2025-11-17* — If the spell that's copied has an X whose value was determined as it was cast, the copy will have the same value of X.
+  - *2025-11-17* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode or modes. You can't choose different ones.
+  - *2025-11-17* — The copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell (such as conspire's triggered ability that creates a copy of the spell) won't trigger.
+  - *2025-11-17* — You can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/239/raiding-schemes) · oracle_id `854cac11-9a22-4dea-8c1b-c49a4858a754` · printing: ECL #239 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Railway Brawler
 
@@ -170,6 +186,7 @@
   > *Children claim no two feathers are exactly the same color, then eagerly gather them for proof.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30697 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/69/rainbow-crow) · oracle_id `79bf98c8-1169-477d-838e-2ebc0fa396dc` · printing: INV #69 (2000-10-02) · [rulings](https://api.scryfall.com/cards/7e622ad2-473f-489e-b4cf-bbdcc44d0cde/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rainbow Dash
@@ -183,6 +200,7 @@
   > Sonic Rainboom — {T}: If you're at least 100% cool, add {W}{U}{B}{R}{G}, draw a card, and reset your coolness.
 - **Keywords:** Flying, Haste, Sonic Rainboom
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/1540/rainbow-dash) · oracle_id `fe0b4822-7db2-4d74-ba31-8df495fbaeb1` · printing: SLD #1540 (2024-03-01) · [rulings](https://api.scryfall.com/cards/6ab2cbaa-58c5-4612-8d99-10f5ee5041ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rainbow Efreet
@@ -198,6 +216,7 @@
   > *—Teferi*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29020 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vis/41/rainbow-efreet) · oracle_id `7c158405-d3ef-4c10-a504-7b061ef71a74` · printing: VIS #41 (1997-02-03) · [rulings](https://api.scryfall.com/cards/1d6f03a6-3665-40e4-ae68-640913972770/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rainbow Vale
@@ -209,7 +228,14 @@
 - **Flavor text** (ME1 printing):
   > *In the feudal days of Icatia, finding the Rainbow Vale was often the goal of knights' quests.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13348 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me1/179/rainbow-vale) · oracle_id `76695b15-d0ba-41eb-85f1-52ba5d14b8ba` · printing: ME1 #179 (2007-09-10) · [rulings](https://api.scryfall.com/cards/51f8b918-ac13-4538-a39d-6553580bf39b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2004-10-04* — Only changes controller at the end of a turn in which it was tapped for mana. It does not change controller if it is not tapped for mana.
+  - *2004-10-04* — Stays in the same tapped/untapped state it is in when it switches controllers.
+  - *2007-09-16* — If Rainbow Vale’s ability is activated during an End step, its “at the beginning of the end step” trigger won’t trigger until the End step of the next turn. If its ability is activated again during that turn, its “at the beginning of the end step” ability will trigger twice at the End step of that turn.
+  - *2007-09-16* — If control of Rainbow Vale has somehow changed before the “at end of turn” ability resolves, the player who activated the mana ability (not the current controller of Rainbow Vale) chooses one of their opponents to gain control of it.
+  - *2007-09-16* — If more than one player manages to tap it for mana in a given turn, then two control-change abilities will trigger at end of the turn. These abilities resolve using the standard order for such things, so the active player’s triggers are put on the stack first, then the opponents’.
+  - *2007-09-16* — The opponent is chosen when the “at end of turn” triggered ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me1/179/rainbow-vale) · oracle_id `76695b15-d0ba-41eb-85f1-52ba5d14b8ba` · printing: ME1 #179 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rain of Blades
 
@@ -220,6 +246,7 @@
 - **Flavor text** (M13 printing):
   > *Some say they are the weapons of heroes fallen in battle, eager for one last chance at glory.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26977 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m13/28/rain-of-blades) · oracle_id `c7d398a4-0eb3-43cc-9952-35f3b791aa7a` · printing: M13 #28 (2012-07-13) · [rulings](https://api.scryfall.com/cards/f3bd6ca4-c4ed-41c3-834c-23e0c1741b72/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rain of Daggers
@@ -231,6 +258,7 @@
 - **Flavor text** (ME4 printing):
   > *Knives in the sky, cries in the air, and blood on the ground.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24909 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/94/rain-of-daggers) · oracle_id `e2048201-6dc9-4cf5-916f-1d867ae8dbdd` · printing: ME4 #94 (2011-01-10) · [rulings](https://api.scryfall.com/cards/f48b345f-c814-4f89-9bff-078d0ec5acfc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rain of Embers
@@ -242,6 +270,7 @@
 - **Flavor text** (RAV printing):
   > *There's plenty to talk about in the marketplaces of Ravnica, be it the latest feud between guilds or the terrible weather.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16858 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/138/rain-of-embers) · oracle_id `041e2a01-3652-46c1-a9d1-d38ae7ee0551` · printing: RAV #138 (2005-10-07) · [rulings](https://api.scryfall.com/cards/2d5391a9-6c30-4f9b-b746-a4427a3e63fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rain of Filth
@@ -269,7 +298,9 @@
   > *"Stay indoors, away from what seeps over the thresholds. This is the Demon's work, and only ill can come of it."*
   > *—Belko, owner of Titan's Keg tavern*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19428 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dis/126/rain-of-gore) · oracle_id `d12b4b66-9453-4494-9547-c737f48277ed` · printing: DIS #126 (2006-05-05) · [rulings](https://api.scryfall.com/cards/9dd62003-e345-48b6-9f93-fc111924c318/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — This does not apply to life gain caused by combat damage from a creature with lifelink.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dis/126/rain-of-gore) · oracle_id `d12b4b66-9453-4494-9547-c737f48277ed` · printing: DIS #126 (2006-05-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rain of Revelation
 
@@ -280,6 +311,7 @@
 - **Flavor text** (M21 printing):
   > *"As the sky opened up, we ran for shelter. Halfway there I came to the sudden realization that, already soaked, there might be more to gain from experiencing the rain than running from it."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14021 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/61/rain-of-revelation) · oracle_id `7d5dfa6b-f685-4925-b93a-ae5815a3c0a7` · printing: M21 #61 (2020-07-03) · [rulings](https://api.scryfall.com/cards/da367981-9d6f-419f-9f58-f969b6183336/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rain of Riches
@@ -307,6 +339,7 @@
   > *On Mirrodin, mages who call upon the power of rust are shunned by their people and often turn mercenary to survive.*
 - **Keywords:** Entwine
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29087 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/76/rain-of-rust) · oracle_id `074e467e-f574-4b44-b5a3-798b592a5a87` · printing: 5DN #76 (2004-06-04) · [rulings](https://api.scryfall.com/cards/13a6ecc6-83c8-408b-8600-687cdb383ca9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rain of Salt
@@ -318,7 +351,9 @@
 - **Flavor text** (USG printing):
   > *Here, rain does not wash the land; it desiccates it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24508 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/206/rain-of-salt) · oracle_id `1219e330-01ac-405a-b75a-dd4298598167` · printing: USG #206 (1998-10-12) · [rulings](https://api.scryfall.com/cards/4792293a-e11d-4c5e-bbd9-6f09e69ee617/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You must target two different lands. You can’t choose to target just one.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/206/rain-of-salt) · oracle_id `1219e330-01ac-405a-b75a-dd4298598167` · printing: USG #206 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rain of Tears
 
@@ -330,6 +365,7 @@
   > *"When mortals die, they have family, friends, compatriots to mourn them. When the land dies, all else dies with it, and there is no one left to weep."*
   > *—Jacinth, Skyshroud ranger*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23123 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/170/rain-of-tears) · oracle_id `72cecab3-519e-4a23-9623-b423a5c5a251` · printing: 10E #170 (2007-07-13) · [rulings](https://api.scryfall.com/cards/5811f4ee-f352-4b41-8f56-da0cb7f3f11b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rain of Thorns
@@ -344,7 +380,9 @@
 - **Flavor text** (C17 printing):
   > *When the forests became havens for evil, the archmages devised new ways to cleanse the wilds.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19150 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c17/156/rain-of-thorns) · oracle_id `363b0504-27bf-40df-96ec-9e3cb1e47588` · printing: C17 #156 (2017-08-25) · [rulings](https://api.scryfall.com/cards/afc3db76-2507-4a91-ab89-7bcdf4ac66b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-05-01* — You can choose just one mode, any two of the modes, or all three. You make this choice as you cast Rain of Thorns.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c17/156/rain-of-thorns) · oracle_id `363b0504-27bf-40df-96ec-9e3cb1e47588` · printing: C17 #156 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rain-Slicked Copse
 
@@ -374,6 +412,7 @@
   > *In the aftermath of war, Temur mages nurtured the land back to its former vitality.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13230 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/152/rainveil-rejuvenator) · oracle_id `6ccf72ee-a86a-4b13-9e76-e308d0d28523` · printing: TDM #152 (2025-04-11) · [rulings](https://api.scryfall.com/cards/9bc5c316-6a41-48ba-864b-da3030dd3e0e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raised by Giants
@@ -408,6 +447,7 @@
   > Enchanted creature gets +1/+1 for each Wolf you control.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13783 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/135/raised-by-wolves) · oracle_id `a9e364e6-6202-4859-9f65-69c9951959ac` · printing: BNG #135 (2014-02-07) · [rulings](https://api.scryfall.com/cards/bcfaace7-86e2-427e-97b1-b09dfdd30fee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raise Dead

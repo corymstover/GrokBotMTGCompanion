@@ -45,7 +45,15 @@
   > Saddle 2 (Tap any number of other creatures you control with total power 2 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)
 - **Keywords:** Saddle, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20568 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/184/stubborn-burrowfiend) · oracle_id `24bc7bd5-f262-45a2-8e94-377fef2ba5d5` · printing: OTJ #184 (2024-04-19) · [rulings](https://api.scryfall.com/cards/6d963eb4-d20b-4d3f-bf5d-c75f7bcb9670/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-04-12* — An ability that triggers when a creature “attacks while saddled” will trigger only if that creature was saddled when it was declared as an attacker.
+  - *2024-04-12* — Creatures with saddle can attack or block as normal even if they aren’t saddled.
+  - *2024-04-12* — If a permanent becomes a copy of a saddled Mount, the copy won’t be saddled.
+  - *2024-04-12* — The value of X is determined as Stubborn Burrowfiend’s triggered ability resolves.
+  - *2024-04-12* — You may activate a permanent’s saddle ability even if that permanent is already saddled.
+  - *2024-04-12* — “Saddle N” means “Tap any number of other untapped creatures you control with total power N or greater: This permanent becomes saddled until end of turn. Activate only as a sorcery.”
+  - *2024-04-12* — “Saddled” isn’t an ability that a creature has. It’s just something true about that creature. It won’t stop being saddled until the turn ends or it leaves the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/184/stubborn-burrowfiend) · oracle_id `24bc7bd5-f262-45a2-8e94-377fef2ba5d5` · printing: OTJ #184 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stubborn Denial
 
@@ -74,7 +82,9 @@
   > Enchanted permanent doesn't untap during its controller's untap step and its activated abilities can't be activated.
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10788 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/76/stuck-in-summoners-sanctum) · oracle_id `84d308ce-c3c5-4612-accc-6e6cc68a33be` · printing: FIN #76 (2025-06-13) · [rulings](https://api.scryfall.com/cards/6678501e-6349-4e37-ab4c-a31a3d408d52/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities (such as equip) are activated abilities and will have a colon in their reminder text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/76/stuck-in-summoners-sanctum) · oracle_id `84d308ce-c3c5-4612-accc-6e6cc68a33be` · printing: FIN #76 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Student of Elements // Tobita, Master of Winds
 
@@ -86,6 +96,7 @@
   - **P/T:** 3/3
   > Creatures you control have flying.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27133 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/93/student-of-elements-tobita-master-of-winds) · oracle_id `59eab251-af80-4091-98de-9ed413c14cdc` · printing: CHK #93 (2004-10-01) · [rulings](https://api.scryfall.com/cards/9de1eebf-5725-438c-bcf0-f3a4d8a89fb0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Student of Ojutai
@@ -98,6 +109,7 @@
 - **Flavor text** (IMA printing):
   > *"Human enlightenment is a firefly that sparks in the night. Dragon enlightenment is a beacon that disperses all darkness."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17979 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/33/student-of-ojutai) · oracle_id `0adcf8d2-6eb9-4679-8ad5-f28e2f4aba39` · printing: IMA #33 (2017-11-17) · [rulings](https://api.scryfall.com/cards/df49884b-9e12-488c-8381-ec543349b97b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Student of Warfare
@@ -115,7 +127,13 @@
   > Double strike
 - **Keywords:** First strike, Level Up, Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18403 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/roe/47/student-of-warfare) · oracle_id `0bc2875b-3a5a-4885-86b9-16ab7330ac10` · printing: ROE #47 (2010-04-23) · [rulings](https://api.scryfall.com/cards/9f4df9be-324b-458a-9379-ab4aa437a6d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2010-06-15* — A creature’s level is based on how many level counters it has on it, not how many times its level up ability has been activated or has resolved. If a leveler gets level counters due to some other effect (such as Clockspinning) or loses level counters for some reason (such as Vampire Hexmage), its level is changed accordingly.
+  - *2010-06-15* — Effects that modify a leveler’s power or toughness, such as the effects of Giant Growth or Glorious Anthem, will apply to it no matter when they started to take effect. The same is true for counters that change the creature’s power or toughness (such as +1/+1 counters) and effects that switch its power and toughness.
+  - *2010-06-15* — Effects that set a leveler’s power or toughness to a specific value, including the effects from a level symbol’s ability, apply in timestamp order. The timestamp of each level symbol’s ability is the same as the timestamp of the leveler itself, regardless of when the most recent level counter was put on it.
+  - *2010-06-15* — If another creature becomes a copy of a leveler, all of the leveler’s printed abilities — including those represented by level symbols — are copied. The current characteristics of the leveler, and the number of level counters on it, are not. The abilities, power, and toughness of the copy will be determined based on how many level counters are on the copy.
+  - *2010-06-15* — The abilities a leveler grants to itself don’t overwrite any other abilities it may have. In particular, they don’t overwrite the creature’s level up ability; it always has that.
+- **Source flags:** [Scryfall](https://scryfall.com/card/roe/47/student-of-warfare) · oracle_id `0bc2875b-3a5a-4885-86b9-16ab7330ac10` · printing: ROE #47 (2010-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Studious First-Year // Rampant Growth
 
@@ -155,7 +173,13 @@
   > {4}, {T}: Investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.")
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13315 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/21/study) · oracle_id `7ffadb3f-0b88-416f-b1a1-876383c22720` · printing: CLU #21 (2024-02-23) · [rulings](https://api.scryfall.com/cards/c694bc39-3eae-4b40-8f85-34785f9e75f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-02-02* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2024-02-02* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
+  - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
+  - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/21/study) · oracle_id `7ffadb3f-0b88-416f-b1a1-876383c22720` · printing: CLU #21 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Study Break
 
@@ -168,7 +192,12 @@
   > *"You've been cramming all night. You're taking a nap whether you like it or not."*
 - **Keywords:** Learn
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25236 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/34/study-break) · oracle_id `7aae7c7b-0b31-4b48-a8d3-81c913f604cf` · printing: STX #34 (2021-04-23) · [rulings](https://api.scryfall.com/cards/ef7cd813-0781-4fd7-8748-2716e1eeb4b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-04-16* — If a card is brought into the game from outside the game, it will stay in the game until it ends or until its owner leaves the game, whichever comes first.
+  - *2021-04-16* — If instructed to learn, you may do nothing. Discarding a card and putting a Lesson card into your hand are both optional.
+  - *2021-04-16* — If you bring a card into the game from outside the game in a Constructed tournament (or a Constructed game played under tournament conditions), you may select only a card from your sideboard. In casual Constructed games, the card comes from your collection.
+  - *2021-04-16* — If you bring a card into the game from outside the game in a Sealed Deck or Booster Draft event, you may select only a card that is in the card pool that you built your deck from.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/34/study-break) · oracle_id `7aae7c7b-0b31-4b48-a8d3-81c913f604cf` · printing: STX #34 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Study Hall
 
@@ -193,7 +222,9 @@
   > *—Michelangelo*
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15199 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/128/study-the-classics) · oracle_id `bfff503e-3d16-436c-afe5-ec6a03794725` · printing: TMC #128 (2026-03-06) · [rulings](https://api.scryfall.com/cards/c609e1a6-3976-4d54-889d-e95ba4f25c1f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-01-27* — To double the number of +1/+1 counters on a creature, put a number of +1/+1 counters on it equal to the number it already has. Other cards that interact with putting counters on it will interact with this effect accordingly.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/128/study-the-classics) · oracle_id `bfff503e-3d16-436c-afe5-ec6a03794725` · printing: TMC #128 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stuffed Bear
 
@@ -204,6 +235,7 @@
 - **Flavor text** (MID printing):
   > *It takes a taxidermist of unusual skill to cleanly stuff and mount a beast without severing its primal, predatory drive.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20276 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/259/stuffed-bear) · oracle_id `1402c116-194e-49ca-a8c1-09ca659c220c` · printing: MID #259 (2021-09-24) · [rulings](https://api.scryfall.com/cards/4cd40276-016b-475f-906f-74d31dceaf70/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stuffy Doll
@@ -233,7 +265,12 @@
 - **Flavor text** (CMR printing):
   > *In preparation to grow new heads, a hydra may rid itself of older ones.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13454 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/367/stumpsquall-hydra) · oracle_id `9b157b9a-92da-4054-8441-04fb4e415d77` · printing: CMR #367 (2020-11-20) · [rulings](https://api.scryfall.com/cards/8fe8096b-332a-4832-b957-7a35bb350e4e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-11-10* — Because Stumpsquall Hydra's ability doesn't target, you choose how to distribute X +1/+1 counters as its ability resolves. Players can't take actions between the time you decide this distribution and the time counters are put on the appropriate permanents.
+  - *2020-11-10* — If Stumpsquall Hydra leaves the battlefield before its triggered ability resolves, you can still distribute the counters among any number of commanders, including none of them.
+  - *2020-11-10* — You can't put +1/+1 counters on commanders that aren't on the battlefield.
+  - *2020-11-10* — You may put +1/+1 counters on commanders that aren't currently creatures (such as Tevesh Szat, Doom of Fools).
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/367/stumpsquall-hydra) · oracle_id `9b157b9a-92da-4054-8441-04fb4e415d77` · printing: CMR #367 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stump Stomp // Burnwillow Clearing
 
@@ -285,7 +322,17 @@
 - **Flavor text** (BBD printing):
   > *The line between victory and defeat can be as slim as a razor's edge.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11570 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/51/stunning-reversal) · oracle_id `3db00947-d568-45d7-82cd-b54b4fcb1312` · printing: BBD #51 (2018-06-08) · [rulings](https://api.scryfall.com/cards/6714197d-7420-43a1-8b08-4e1fd6355b54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2018-06-08* — For your life total to become 1, you gain or lose the appropriate amount of life. For example, if your life total is 4 when Stunning Reversal’s effect applies, it will cause you to lose 3 life; alternatively, if your life total is -5 when it applies, it will cause you to gain 6 life. Other cards that interact with life gain or life loss will interact with this effect accordingly.
+  - *2018-06-08* — If an effect says that an opponent wins the game, Stunning Reversal’s effect doesn’t apply.
+  - *2018-06-08* — If an effect says you can’t lose the game, Stunning Reversal’s effect can’t apply.
+  - *2018-06-08* — If each player would lose the game at the same time, but Stunning Reversal’s effect applies to you losing the game, you win the game as soon as everyone else has lost the game. This is true even if you’d lose the game immediately afterwards, perhaps because you don’t have seven cards in your library to draw or because you couldn’t gain life to raise your life total to 1.
+  - *2018-06-08* — If you have fewer than seven cards in your library, you’ll lose the game immediately after applying Stunning Reversal’s replacement effect.
+  - *2018-06-08* — In a Two-Headed Giant game, if a rule or effect says that your team or your teammate loses the game, your team won’t lose the game, but only you draw seven cards and only you gain or lose life to make your team’s life total become 1.
+  - *2018-06-08* — Stunning Reversal’s effect applies any time you would lose the game, even if you’re not losing due to your life total being 0 or less.
+  - *2018-06-08* — Stunning Reversal’s effect does nothing if you concede the game. A player who concedes leaves the game.
+  - *2018-06-08* — While the replacement effect it creates lasts until end of turn (or until the event it replaces), Stunning Reversal is exiled as it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/51/stunning-reversal) · oracle_id `3db00947-d568-45d7-82cd-b54b4fcb1312` · printing: BBD #51 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stunning Shot
 
@@ -294,6 +341,7 @@
 - **Oracle text:**
   > Put two +1/+1 counters on up to one target creature you control. Tap up to one target creature an opponent controls and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26180 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/610/stunning-shot) · oracle_id `0c0bb9b0-e7e0-465e-826b-2e56032aed1b` · printing: MSC #610 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ed190f57-2061-4c47-860c-85554c576332/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stunning Strike
@@ -307,6 +355,7 @@
   > As long as enchanted creature isn't legendary, it doesn't untap during its controller's untap step.
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24415 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/97/stunning-strike) · oracle_id `139574fd-c61b-4615-9200-59f2c65f5703` · printing: CLB #97 (2022-06-10) · [rulings](https://api.scryfall.com/cards/582dffab-2851-4498-ad69-c4d072617f32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stun Sniper
@@ -319,6 +368,7 @@
 - **Flavor text** (DDL printing):
   > *The tips of her bolts are blunt, but her aim is deadly sharp.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22430 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddl/7/stun-sniper) · oracle_id `f5bdf226-7a83-469b-bc49-87af388d9020` · printing: DDL #7 (2013-09-06) · [rulings](https://api.scryfall.com/cards/277bdef5-4887-42f5-b7c2-8c18f03db365/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stunt Double
@@ -350,6 +400,7 @@
 - **Oracle text:**
   > Target player chooses three cards from their hand and puts them on top of their library in any order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31076 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/179/stunted-growth) · oracle_id `e3480c8f-15ad-451b-bb34-b129805569e1` · printing: ME2 #179 (2008-09-22) · [rulings](https://api.scryfall.com/cards/413bebf6-d47c-4bd2-ad2d-9b1ae70ef066/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stupefying Touch
@@ -364,7 +415,10 @@
   > *"A warrior without wit is simply meat."*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24946 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ema/74/stupefying-touch) · oracle_id `566eafea-c8c2-43d6-b491-f20de276cdb6` · printing: EMA #74 (2016-06-10) · [rulings](https://api.scryfall.com/cards/6355ae63-3072-4c6f-bf46-ee6e9c4fedba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-06-08* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keywords are activated abilities and will have colons in their reminder text.
+  - *2016-06-08* — Unlike many similar abilities, Stupefying Touch's last ability stops mana abilities from being activated.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ema/74/stupefying-touch) · oracle_id `566eafea-c8c2-43d6-b491-f20de276cdb6` · printing: EMA #74 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stupor
 
@@ -376,6 +430,7 @@
   > *There are medicines for all afflictions but idleness.*
   > *—Suq'Ata saying*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25770 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsb/48/stupor) · oracle_id `c19e3560-d304-4d91-aa2a-463d7dbb35bb` · printing: TSB #48 (2006-10-06) · [rulings](https://api.scryfall.com/cards/fd0b4aea-1e01-4afe-8054-77c5cc7935d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sturdy Hatchling
@@ -389,7 +444,10 @@
   > Whenever you cast a green spell, remove a -1/-1 counter from this creature.
   > Whenever you cast a blue spell, remove a -1/-1 counter from this creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28855 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eve/163/sturdy-hatchling) · oracle_id `08e95b6c-9f4c-42d9-ad64-2d905d781d49` · printing: EVE #163 (2008-07-25) · [rulings](https://api.scryfall.com/cards/e41330e2-c6e8-47af-831d-b2d2bd1d06a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-08-01* — If there are no -1/-1 counters on it when the triggered ability resolves, the ability does nothing. There is no penalty for not being able to remove a counter.
+  - *2008-08-01* — If you cast a spell that's both of the listed colors, both abilities will trigger. You'll remove a total of two -1/-1 counters from the Hatchling.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eve/163/sturdy-hatchling) · oracle_id `08e95b6c-9f4c-42d9-ad64-2d905d781d49` · printing: EVE #163 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sturmgeist
 
@@ -402,4 +460,6 @@
   > Whenever this creature deals combat damage to a player, draw a card.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13392 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/isd/82/sturmgeist) · oracle_id `b3045ee5-232b-4e63-8ea8-b5e46b49e71a` · printing: ISD #82 (2011-09-30) · [rulings](https://api.scryfall.com/cards/c409d1d0-fc45-40bf-adac-83b680209a38/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-09-22* — The ability that defines Sturmgeist's power and toughness works in all zones, not just the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/isd/82/sturmgeist) · oracle_id `b3045ee5-232b-4e63-8ea8-b5e46b49e71a` · printing: ISD #82 (2011-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

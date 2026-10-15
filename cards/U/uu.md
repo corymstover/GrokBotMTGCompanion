@@ -21,6 +21,7 @@
 - **Flavor text** (MBC printing):
   > *It doesn't hunt. It doesn't hunger. It simply waits as all oozes eventually find their way back to it.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #15979 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/54/uugguu-the-omniplasm) · oracle_id `df9bb1fc-135d-4efb-b143-81950fc95a27` · printing: MBC #54 (2026-10-19) · [rulings](https://api.scryfall.com/cards/caa3e9e4-e1d9-4896-9a66-493e7446aca0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Uurg, Spawn of Turg

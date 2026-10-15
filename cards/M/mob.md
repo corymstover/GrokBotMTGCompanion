@@ -34,7 +34,14 @@
   > *Not all monsters fight with teeth and claws.*
 - **Keywords:** Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23400 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/97/mob) · oracle_id `5307a61f-2142-4e12-8329-ceb729f6eb79` · printing: MH1 #97 (2019-06-14) · [rulings](https://api.scryfall.com/cards/3c216e13-3779-4734-b481-9aad7aba9925/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/97/mob) · oracle_id `5307a61f-2142-4e12-8329-ceb729f6eb79` · printing: MH1 #97 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mobile Clone
 
@@ -43,7 +50,12 @@
 - **Oracle text:**
   > Using a mobile device, take a picture of target creature. That device enters as a token that's a photocopy of the pictured creature. (Photocopies include Auras, Equipment, counters, and stickers in the shot. Don't touch other people's phones without permission and be careful if you do.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31934 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/51/mobile-clone) · oracle_id `149d5ff0-fd0d-45b5-988e-476a06fa7bae` · printing: UNF #51 (2022-10-07) · [rulings](https://api.scryfall.com/cards/f080ab50-c78c-4a27-a7e5-abfbd93f4e41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-10-07* — Everything in a photocopy on the battlefield is copiable. If you play a Clone copying a photocopy, the Clone would be a copy of the creature in the picture, with all the Auras, Equipment, counters, and stickers in the shot.
+  - *2022-10-07* — If you don’t have a mobile device capable of taking a picture, you are allowed to draw a photocopy. The drawing then enters the battlefield as a token that’s a photocopy of the pictured creature.
+  - *2022-10-07* — Nothing in the photocopy can leave the photocopy. Auras and Equipment can’t be destroyed, attached to other creatures, and so on. Counters can’t be moved. Stickers are stuck. These are memories frozen in time, people. Except these memories can attack and block.
+  - *2022-10-07* — The photocopy will not only be unable to copy any non-copy effects that affected the target creature, it will also be unable to copy any copy effects that it can’t see. If you take a picture of a Clone that’s copying another creature, the photocopy will just be a Clone. Fortunately for you, the Clone entering the battlefieldstill has the ability to enter as a copy of another creature, but it won’t automatically be a copy of what the original Clone was copying like a normal copy would.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/51/mobile-clone) · oracle_id `149d5ff0-fd0d-45b5-988e-476a06fa7bae` · printing: UNF #51 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mobile Fort
 
@@ -55,6 +67,7 @@
   > {3}: This creature gets +3/-1 until end of turn and can attack this turn as though it didn't have defender. Activate only once each turn.
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25501 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/303/mobile-fort) · oracle_id `0547e426-e23e-4c60-ba6b-cfd4b5ff8485` · printing: USG #303 (1998-10-12) · [rulings](https://api.scryfall.com/cards/5f642246-5b2a-46a6-9236-524a297d7608/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mobile Garrison
@@ -67,7 +80,22 @@
   > Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10903 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/165/mobile-garrison) · oracle_id `14ef5aa4-5f61-4fbd-9a8d-35920c40ec25` · printing: AER #165 (2017-01-20) · [rulings](https://api.scryfall.com/cards/da443378-f5cb-4240-9524-2c40ec17c933/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2017-02-09* — All attackers are chosen at once. You can't attack with Mobile Garrison, untap a tapped creature, and then attack with that creature.
+  - *2017-02-09* — Untapping an attacking creature doesn't remove it from combat.
+  - *2017-09-29* — Any untapped creature you control can be tapped to pay a crew cost, even one that just came under your control.
+  - *2017-09-29* — Creatures that crew a Vehicle aren't attached to it or related in any other way. Effects that affect the Vehicle, such as by destroying it or giving it a +1/+1 counter, don't affect the creatures that crewed it.
+  - *2017-09-29* — Each Vehicle is printed with a power and toughness, but it's not a creature. If it becomes a creature (most likely through its crew ability), it will have that power and toughness.
+  - *2017-09-29* — For a Vehicle to be able to attack, it must be a creature as the declare attackers step begins, so the latest you can activate its crew ability to attack with it is during the beginning of combat step. For a Vehicle to be able to block, it must be a creature as the declare blockers step begins, so the latest you can activate its crew ability to block with it is during the declare attackers step. In either case, players may take actions after the crew ability resolves but before the Vehicle has been declared as an attacking or blocking creature.
+  - *2017-09-29* — If a permanent becomes a copy of a Vehicle, the copy won't be a creature, even if the Vehicle it's copying has become an artifact creature.
+  - *2017-09-29* — If an effect causes a Vehicle to become an artifact creature with a specified power and toughness, that effect overwrites the Vehicle's printed power and toughness.
+  - *2017-09-29* — Once a Vehicle becomes a creature, it behaves exactly like any other artifact creature. It can't attack unless you've controlled it continuously since your turn began, it can block if it's untapped, it can be tapped to pay a Vehicle's crew cost, and so on.
+  - *2017-09-29* — Once a player announces that they are activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
+  - *2017-09-29* — Vehicle is an artifact type, not a creature type. A Vehicle that's crewed won't normally have any creature type.
+  - *2017-09-29* — When a Vehicle becomes a creature, that doesn't count as having a creature enter the battlefield. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters the battlefield won't trigger.
+  - *2017-09-29* — You may activate a crew ability of a Vehicle even if it's already an artifact creature. Doing so has no effect on the Vehicle. It doesn't change its power and toughness.
+  - *2017-09-29* — You may tap more creatures than necessary to activate a crew ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/165/mobile-garrison) · oracle_id `14ef5aa4-5f61-4fbd-9a8d-35920c40ec25` · printing: AER #165 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mobile Homestead
 
@@ -80,7 +108,10 @@
   > Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12459 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/245/mobile-homestead) · oracle_id `b71239fb-d7dc-4bac-b8aa-26b454409344` · printing: OTJ #245 (2024-04-19) · [rulings](https://api.scryfall.com/cards/d5fa82e4-0b77-498a-bec0-52764d24957a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-04-12* — Once a Mobile Homestead that came under your control this turn has legally attacked, causing it to lose haste by removing all Mounts you control won't cause Mobile Homestead to stop attacking.
+  - *2024-04-12* — Putting a land card onto the battlefield with Mobile Homestead's triggered ability doesn't count as playing a land. It can put a land card onto the battlefield even if you've already played your land for the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/245/mobile-homestead) · oracle_id `b71239fb-d7dc-4bac-b8aa-26b454409344` · printing: OTJ #245 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mobilization
 
@@ -92,6 +123,7 @@
 - **Flavor text** (C14 printing):
   > *Wars are won with strength, valor, and numbers—especially numbers.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12670 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c14/81/mobilization) · oracle_id `6b8119e9-a9a9-4349-be32-adcb84b8eb79` · printing: C14 #81 (2014-11-07) · [rulings](https://api.scryfall.com/cards/fc25a245-4d47-45fe-82ae-4e0ecd4ed34e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mobilize
@@ -103,6 +135,7 @@
 - **Flavor text** (POR printing):
   > *A rested mind is the sharpest weapon.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10945 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/por/172/mobilize) · oracle_id `7416c8db-ec33-4d92-866c-b7fdc69c8b41` · printing: POR #172 (1997-05-01) · [rulings](https://api.scryfall.com/cards/9712ecaa-4059-44ba-98b7-07bfe7411b5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mobilized District
@@ -163,7 +196,11 @@
   > *—Hammerhead*
 - **Keywords:** Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15373 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/821/mob-lookout) · oracle_id `47654b36-b215-4333-aa70-d88d627447e3` · printing: MSC #821 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3a9d6068-dd7b-4cbe-a9d6-5f716d8d1917/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-09-19* — If a resolving spell or ability instructs a specific creature to connive but that creature has left the battlefield, the creature still connives. If you discard a nonland card this way, you won't put a +1/+1 counter on anything. Abilities that trigger "when [that creature] connives" will trigger.
+  - *2025-09-19* — If no card is discarded, most likely because that player's hand is empty and an effect says they can't draw cards, the conniving creature does not receive a +1/+1 counter.
+  - *2025-09-19* — Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard a nonland card but before it receives a counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/821/mob-lookout) · oracle_id `47654b36-b215-4333-aa70-d88d627447e3` · printing: MSC #821 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mob Mentality
 
@@ -178,6 +215,7 @@
   > *—Rana, Suq'Ata market fool*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22424 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vis/88/mob-mentality) · oracle_id `90e8fb2c-6473-42c3-92f4-f46a744920fa` · printing: VIS #88 (1997-02-03) · [rulings](https://api.scryfall.com/cards/e428d56a-9445-4e86-b281-656e2d251e0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mob Rule

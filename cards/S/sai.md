@@ -32,7 +32,13 @@
   > *"Good luck getting through a class-seven proxy ward, creep."*
 - **Keywords:** Backup, Hexproof, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12258 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/76/saiba-cryptomancer) · oracle_id `15f89b06-5025-4c9f-bf51-e25bc5c2dd6b` · printing: MOM #76 (2023-04-21) · [rulings](https://api.scryfall.com/cards/3934d535-740d-471a-bbf1-c3b26b1cd596/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-04-14* — Backup confers only abilities that are actually printed below it. Any abilities that are gained by the permanent are ignored, including abilities gained due to a resolving spell or ability or copy effects.
+  - *2023-04-14* — If a backup ability causes another creature to gain abilities, the creature with backup will still have those abilities.
+  - *2023-04-14* — If a backup ability targets the creature with backup, that creature will get +1/+1 counters, but it won’t gain additional abilities.
+  - *2023-04-14* — If a permanent enters the battlefield as a copy of a card with a backup ability or a token is created that is a copy of that card, the order of the printed abilities is maintained.
+  - *2023-04-14* — The abilities that backup grants to the target creature are determined only once, at the time the ability triggers. They won’t change if the permanent with backup loses any abilities before the backup ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/76/saiba-cryptomancer) · oracle_id `15f89b06-5025-4c9f-bf51-e25bc5c2dd6b` · printing: MOM #76 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saiba Trespassers
 
@@ -45,7 +51,10 @@
   > *One to clear the way, another to erase their trail.*
 - **Keywords:** Channel
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23747 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/77/saiba-trespassers) · oracle_id `d5cdfa86-a234-4ddd-bfa0-4a3bc51eebce` · printing: NEO #77 (2022-02-18) · [rulings](https://api.scryfall.com/cards/c3dd7f1a-5d43-4218-a9d8-7cc4f6a18ecd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-02-18* — Discarding the card is part of the cost to activate a channel ability.
+  - *2022-02-18* — If a channel ability requires a target, you may not activate it without a target just to discard the card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/77/saiba-trespassers) · oracle_id `d5cdfa86-a234-4ddd-bfa0-4a3bc51eebce` · printing: NEO #77 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Said // Done
 
@@ -55,7 +64,15 @@
 - **Face 2: Done** — {3}{U} — Instant
   > Tap up to two target creatures. Those creatures don't untap during their controller's next untap step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16506 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/60/said-done) · oracle_id `5d1d76e0-049c-4a33-96ec-8e60deed16d5` · printing: MH2 #60 (2021-06-18) · [rulings](https://api.scryfall.com/cards/43ab3ed2-2b50-4488-a21f-60965222970a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-12-08* — A split card's characteristics are a combination of its two halves while it is not on the stack. For example, Assault // Battery has a mana value of 5 while it is in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Assault // Battery.
+  - *2022-12-08* — Each split card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2022-12-08* — Each split card is a single card. For example, if you discard a split card, you've discarded one card, not two. If an effect counts the number of sorcery cards in your graveyard, Assault // Battery counts once, not twice.
+  - *2022-12-08* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the half you're casting. For example, if an effect allows you to cast a sorcery spell with mana value 2 or less from among cards in your graveyard, you could cast Assault this way, but not Battery.
+  - *2022-12-08* — If you copy a spell that's half of a split card, the copy copies that same half. For example, if you copy Assault, the copy is also Assault, not Battery.
+  - *2022-12-08* — Split cards have two card faces on a single card. The characteristics of the half you didn't cast are ignored while the spell is on the stack.
+  - *2022-12-08* — To cast a split card, choose one of its halves to cast. There's no way to cast both halves of this split card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/60/said-done) · oracle_id `5d1d76e0-049c-4a33-96ec-8e60deed16d5` · printing: MH2 #60 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sail into the West
 
@@ -85,6 +102,7 @@
 - **Flavor text** (MMQ printing):
   > *Clients who cheat the sailmonger make an impact on the rest.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28198 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/95/sailmonger) · oracle_id `b15af529-a61a-4228-bf2a-7304c9050720` · printing: MMQ #95 (1999-10-04) · [rulings](https://api.scryfall.com/cards/142479d8-8956-44a2-8c54-9dd6dc1774c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sailor of Means
@@ -98,6 +116,7 @@
   > *The rising tide of Orazca's plunder lifted all ships.*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14363 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/88/sailor-of-means) · oracle_id `c4efae03-99de-4439-925b-504602623bfd` · printing: CMR #88 (2020-11-20) · [rulings](https://api.scryfall.com/cards/212e9011-a9b7-4a60-bb47-ce5c3c147280/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sailors' Bane
@@ -110,6 +129,7 @@
   > Ward {4} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {4}.)
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14900 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/93/sailors-bane) · oracle_id `5d22ab00-b454-4407-93d7-65b47f56cbaa` · printing: CLB #93 (2022-06-10) · [rulings](https://api.scryfall.com/cards/d175a716-5b69-401b-9902-684a30810288/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sai, Master Thopterist
@@ -136,7 +156,10 @@
   > Whenever Saint Traft and Rem Karolus becomes tapped, create a 1/1 red Human creature token if this is the first time this ability has resolved this turn. If it's the second time, create a 1/1 blue Spirit creature token with flying. If it's the third time, create a 4/4 white Angel creature token with flying.
   > Whenever you cast a spell that has convoke, untap Saint Traft and Rem Karolus.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14394 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/9/saint-traft-and-rem-karolus) · oracle_id `3a1be8b3-16e2-4fae-bea7-3a98f2f9db38` · printing: MOC #9 (2023-04-21) · [rulings](https://api.scryfall.com/cards/55a45de4-cc76-4aa0-a1dc-24df8e495215/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-04-14* — If it’s the fourth or subsequent time the first ability has resolved in a turn, nothing happens.
+  - *2023-04-14* — The last ability of Saint Traft and Rem Karolus will trigger whether you tapped any creatures to pay for the spell or not, as long as it has convoke.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/9/saint-traft-and-rem-karolus) · oracle_id `3a1be8b3-16e2-4fae-bea7-3a98f2f9db38` · printing: MOC #9 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sai of the Shinobi
 
@@ -150,4 +173,6 @@
   > *The passing of the sai presages the end of the old clan and the ascent of the new.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15800 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/a25/230/sai-of-the-shinobi) · oracle_id `ec57dcb8-127f-4922-a9f9-5227db1751a9` · printing: A25 #230 (2018-03-16) · [rulings](https://api.scryfall.com/cards/6b77812f-fe6c-4d26-9c34-c51cb05fd43a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-03-16* — If you choose not to attach Sai of the Shinobi to a creature that enters the battlefield, or if you can't (most likely because the creature has left the battlefield by the time the triggered ability resolves), Sai of the Shinobi doesn't move.
+- **Source flags:** [Scryfall](https://scryfall.com/card/a25/230/sai-of-the-shinobi) · oracle_id `ec57dcb8-127f-4922-a9f9-5227db1751a9` · printing: A25 #230 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -16,7 +16,7 @@
 ## Source of truth
 - **Scryfall** `oracle_cards` bulk data (<https://api.scryfall.com/bulk-data>) — one object per Oracle ID, with current Oracle (errata'd) text.
 - Entries are **generated, never hand-typed**, by [`scripts/ingest_scryfall.py`](scripts/ingest_scryfall.py). Every run regenerates all existing entries from the newest bulk file, so Oracle errata and legality changes propagate automatically.
-- Rulings are linked (Scryfall rulings URI) rather than copied, to keep shards small.
+- **Rulings** come from Scryfall's `rulings` bulk file (<https://api.scryfall.com/bulk-data/rulings>), joined to cards by `oracle_id`, and are rendered **inside each card entry** (see [Rulings](#rulings)).
 
 ## Storage layout (scales to ~33,000+ cards)
 ```
@@ -45,6 +45,9 @@ data/categories.json                           curated category trackers (shown 
   > *Flavor text, italicised.*
 - **Keywords:** …                       (only if Scryfall lists keywords)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16 · Game Changer: no · Can be commander: No · Pairing: Partner · Reserved List
+- **Rulings** (2):
+  - *2023-09-01* — Ruling text verbatim.
+  - *2024-01-12* *(Scryfall note)* — Ruling authored by Scryfall rather than Wizards.
 - **Source flags:** [Scryfall](…) · oracle_id `…` · printing: SET #123 (date) · [rulings](…) · source: Scryfall oracle_cards bulk YYYY-MM-DD · status: ✅ verified (Scryfall Oracle)
 ```
 Multi-face cards (split, adventure, transform, MDFC, flip, meld, etc.) show `Layout`, total MV and color identity once, then one `Face N: Name — cost — type line` block per face with that face's Oracle text, P/T/loyalty, and flavor text.
@@ -61,6 +64,14 @@ Multi-face cards (split, adventure, transform, MDFC, flip, meld, etc.) show `Lay
 | Flavor text | Verbatim flavor text **of the printing Scryfall selects for that Oracle ID** (flavor text is printing-specific and can differ between printings; the printing is named). Absent if that printing has none. |
 | Commander notes | Factual, data-derived only: Commander legality, EDHREC rank (popularity rank from Scryfall's `edhrec_rank`; lower = more played), Game Changer flag (Commander Brackets list, via Scryfall `game_changer`), commander eligibility, pairing mechanics (Partner, Partner with, Friends forever, Choose a Background, Doctor's companion, Companion), Reserved List. **No opinions.** |
 | Can be commander | *Derived* from [Comprehensive Rules 903.3](https://magic.wizards.com/en/rules) (2026-09-25 edition): "Yes" if the front face is a legendary creature, legendary Vehicle, or legendary Spacecraft with a P/T box, or the Oracle text says "can be your commander" (903.3a); Backgrounds flagged separately. Check Commander banned-as-commander status (see [EDH Standards](EDH%20Standards.md#banned-list--legality)) for edge cases. |
+
+## Rulings
+- Source: Scryfall `rulings` bulk (one object per ruling: `oracle_id`, `source` = `wotc` or `scryfall`, `published_at`, `comment`). Rulings apply to the Oracle card, so every printing shares them.
+- Rendered after **Commander notes**, sorted by date then text: `  - *YYYY-MM-DD* — comment`. Rulings whose source is Scryfall (not Wizards) are marked *(Scryfall note)*. `<` is escaped; line breaks inside a comment become spaces.
+- `- **Rulings:** none published on Scryfall` means the card was processed and has no rulings. A card with **no Rulings line** has not been processed yet (only possible mid-batch); its Source flags then keep a link to the Scryfall rulings API.
+- Resumable: the `rulings` column of `data/card_index.csv` is empty (pending) or the number of rulings rendered; `data/ingest_state.json` → `rulings` holds totals, `next_batch_size`, `next_target`, and history. Order = the card ingestion order (priority list, Commander-banned, EDHREC rank, …). `--rulings-batch N` processes the next N cards; every run re-renders processed cards from the newest rulings bulk, so new rulings appear automatically.
+- `scripts/verify_cards.py` checks every processed card: ruling count (CSV = file = bulk) and each ruling's date + text verbatim.
+- Coverage on 2026-10-15: **78,943 rulings on 19,889 cards; all 33,894 cards processed** (14,005 cards have no rulings on Scryfall). Largest shard with rulings ≈ 500 KB.
 
 ## Source flags & verification status
 | Flag | Meaning |

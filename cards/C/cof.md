@@ -22,7 +22,9 @@
 - **Flavor text** (PCY printing):
   > *The ground won't accept them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30788 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/60/coffin-puppets) · oracle_id `e49771ab-cabb-4a5f-aef3-a0ac8147e6bf` · printing: PCY #60 (2000-06-05) · [rulings](https://api.scryfall.com/cards/afcda8e4-d3dc-44f8-b277-b61fa261666b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The ability works even if you sacrifice your last swamp to activate it. It only checks for a swamp on activation.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/60/coffin-puppets) · oracle_id `e49771ab-cabb-4a5f-aef3-a0ac8147e6bf` · printing: PCY #60 (2000-06-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coffin Purge
 
@@ -33,7 +35,14 @@
   > Flashback {B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22792 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ody/124/coffin-purge) · oracle_id `9db5aa54-3deb-45ee-82a2-e88a4367c6d9` · printing: ODY #124 (2001-10-01) · [rulings](https://api.scryfall.com/cards/541e06cb-5616-40b4-9d36-89471a795ac8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it’s legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you’re paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card’s type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+  - *2021-03-19* — “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/ody/124/coffin-purge) · oracle_id `9db5aa54-3deb-45ee-82a2-e88a4367c6d9` · printing: ODY #124 (2001-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coffin Queen
 
@@ -44,4 +53,8 @@
   > You may choose not to untap this creature during your untap step.
   > {2}{B}, {T}: Put target creature card from a graveyard onto the battlefield under your control. When this creature becomes untapped or you lose control of this creature, exile that creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12799 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/87/coffin-queen) · oracle_id `c19ec6aa-aadd-4767-b695-384fd07b4ded` · printing: TPR #87 (2015-05-06) · [rulings](https://api.scryfall.com/cards/632b83e3-f0c5-4135-96db-0bf33e6067aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — If the creature put onto the battlefield leaves the battlefield, the tracking effect ends and the creature will no longer be exiled if something happens to the Coffin Queen.
+  - *2004-10-04* — If the creature put onto the battlefield phases out, the tracking effect continues when it phases back in if the Coffin Queen is still on the battlefield. If the Queen left the battlefield while the creature was phased out, the creature phases in as normal.
+  - *2014-02-01* — If Coffin Queen leaves the battlefield before its ability resolves, the delayed trigger condition can never be fulfilled, so the creature will not be exiled. If Coffin Queen is untapped when its ability resolves, the creature will not be exiled until the next time Coffin Queen becomes untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/87/coffin-queen) · oracle_id `c19ec6aa-aadd-4767-b695-384fd07b4ded` · printing: TPR #87 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

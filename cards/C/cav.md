@@ -135,6 +135,7 @@
 - **Oracle text:**
   > When this creature enters, target creature gets +2/+0 and gains first strike until end of turn. (It deals combat damage before creatures without first strike.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27999 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/8/cavalry-drillmaster) · oracle_id `d89bbfe7-e7ef-4f1c-a6b5-6d8ef4079daa` · printing: M19 #8 (2018-07-13) · [rulings](https://api.scryfall.com/cards/62d2e929-7ae3-4560-9cfa-53b89c8a6016/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cavalry Master
@@ -147,7 +148,10 @@
   > Other creatures you control with flanking have flanking. (Each instance of flanking triggers separately.)
 - **Keywords:** Flanking
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27155 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/6/cavalry-master) · oracle_id `7083dedd-b246-4fe0-b1ca-00c490ed9c6b` · printing: TSP #6 (2006-10-06) · [rulings](https://api.scryfall.com/cards/f7b19194-87bf-432c-8d34-91dd9520cbd2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2006-09-25* — Cavalry Master adds only one instance of flanking per creature, even if that creature already has multiple instances of flanking.
+  - *2006-09-25* — If a creature without flanking is given flanking by another effect, then this ability will grant a second instance. Similarly, if a creature loses flanking, then it won’t get the Calvary Master instance either.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/6/cavalry-master) · oracle_id `7083dedd-b246-4fe0-b1ca-00c490ed9c6b` · printing: TSP #6 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cavalry Pegasus
 
@@ -162,7 +166,10 @@
   > *—Cymede, queen of Akros*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14334 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/81/cavalry-pegasus) · oracle_id `1f6fd5d9-d123-4986-a18b-206cc2dfb3f1` · printing: C20 #81 (2020-04-17) · [rulings](https://api.scryfall.com/cards/c552cb9e-41f2-4006-8ff4-5e214b91652e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-09-15* — Once the triggered ability resolves, the attacking Humans will continue to have flying even if Cavalry Pegasus leaves the battlefield.
+  - *2013-09-15* — The attacking Humans gain flying before blockers are declared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/81/cavalry-pegasus) · oracle_id `1f6fd5d9-d123-4986-a18b-206cc2dfb3f1` · printing: C20 #81 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cave-In
 
@@ -174,6 +181,7 @@
 - **Flavor text** (MMQ printing):
   > *One fleet was gone; others were poised.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16542 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/180/cave-in) · oracle_id `7d937265-02f5-4f2c-9fef-c5930e13b3be` · printing: MMQ #180 (1999-10-04) · [rulings](https://api.scryfall.com/cards/440d9d26-f304-467d-af79-914cc65f082e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cave of Temptation
@@ -211,6 +219,7 @@
   > Whenever this creature attacks, it gets +1/-2 until end of turn.
   > {1}{R}{R}, {T}: Target creature gains mountainwalk until end of turn. (It can't be blocked as long as defending player controls a Mountain.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30671 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5ed/215/cave-people) · oracle_id `6a4e8d44-e6ee-40f7-8df4-52fa4cb346aa` · printing: 5ED #215 (1997-03-24) · [rulings](https://api.scryfall.com/cards/fb29b6b9-1674-483f-9912-0892e39ab106/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cavern Crawler
@@ -223,6 +232,7 @@
   > {R}: This creature gets +1/-1 until end of turn.
 - **Keywords:** Landwalk, Mountainwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31539 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/181/cavern-crawler) · oracle_id `c7cfb120-1344-4b4e-9c6f-f969ba9c4a18` · printing: MMQ #181 (1999-10-04) · [rulings](https://api.scryfall.com/cards/bd0a8af9-2e86-4639-a6c9-209f115e95f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cavern Harpy
@@ -236,7 +246,9 @@
   > Pay 1 life: Return this creature to its owner's hand.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16778 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pls/97/cavern-harpy) · oracle_id `81c40bd8-b989-41e8-9527-eae8fb87311d` · printing: PLS #97 (2001-02-05) · [rulings](https://api.scryfall.com/cards/adfb0804-50d6-4bca-8733-72e01030a543/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You choose the creature to return on resolution of the triggered ability. This is not targeted.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pls/97/cavern-harpy) · oracle_id `81c40bd8-b989-41e8-9527-eae8fb87311d` · printing: PLS #97 (2001-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cavern-Hoard Dragon
 
@@ -267,7 +279,13 @@
   > Enchanted creature gets +2/+2 and has intimidate.
 - **Keywords:** Bestow, Intimidate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24595 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/81/cavern-lampad) · oracle_id `6ead91e1-4062-4080-bbc7-a4b62f8c6111` · printing: THS #81 (2013-09-27) · [rulings](https://api.scryfall.com/cards/e340de29-026f-4c76-8cb5-1abfcecbb3b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2013-09-15* — Auras attached to a creature don't become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature.
+  - *2013-09-15* — If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can't choose to pay the bestow cost and have it become an Aura.
+  - *2013-09-15* — On the stack, a spell with bestow is either a creature spell or an Aura spell. It's never both, although it's an enchantment spell in either case.
+  - *2013-09-15* — Unlike other Aura spells, an Aura spell with bestow isn't countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature.
+  - *2013-09-15* — Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/81/cavern-lampad) · oracle_id `6ead91e1-4062-4080-bbc7-a4b62f8c6111` · printing: THS #81 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cavern of Souls
 
@@ -295,6 +313,7 @@
 - **Flavor text** (LCI printing):
   > *Many footprints lead into the cave. None lead out.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15019 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/270/cavernous-maw) · oracle_id `952ab8fe-f7d3-4673-89de-8c6d3f8a081f` · printing: LCI #270 (2023-11-17) · [rulings](https://api.scryfall.com/cards/2a51ebf6-a465-42e2-82b7-d2cb928ca632/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caverns of Despair
@@ -305,7 +324,9 @@
   > No more than two creatures can attack each combat.
   > No more than two creatures can block each combat.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21157 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/leg/136/caverns-of-despair) · oracle_id `a1034a02-36cf-4586-a001-9dc3fb76e904` · printing: LEG #136 (1994-06-01) · [rulings](https://api.scryfall.com/cards/209f7479-b3a0-4c27-9602-78babb8d2e99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — This has the supertype world. When a world permanent enters, any world permanents that were already on the battlefield are put into their owners' graveyards. This is a state-based action called the "world rule." The new world permanent stays on the battlefield. If two world permanents enter at the same time, they're both put into their owners' graveyards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/leg/136/caverns-of-despair) · oracle_id `a1034a02-36cf-4586-a001-9dc3fb76e904` · printing: LEG #136 (1994-06-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cavern Stomper
 
@@ -317,7 +338,10 @@
   > {3}{G}: This creature can't be blocked by creatures with power 2 or less this turn.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15753 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/177/cavern-stomper) · oracle_id `94657522-9977-4d2b-8eb6-f1e64e82cd0f` · printing: LCI #177 (2023-11-17) · [rulings](https://api.scryfall.com/cards/decdfd6b-55ab-47fd-9f98-1845261f1caf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — Activating Cavern Stomper's last ability after it has been blocked by one or more creatures with power 2 or less won't change or undo those blocks.
+  - *2023-11-10* — Reducing a creature's power after it has blocked Cavern Stomper will not remove that blocking creature from combat or make Cavern Stomper unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/177/cavern-stomper) · oracle_id `94657522-9977-4d2b-8eb6-f1e64e82cd0f` · printing: LCI #177 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cavern Thoctar
 
@@ -329,6 +353,7 @@
 - **Flavor text** (ALA printing):
   > *Natives of Naya know better than to loiter near the mouth of a cave. Two glowing red eyes and the stench of foul breath are all the warning you're likely to get.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31733 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ala/125/cavern-thoctar) · oracle_id `4a1b8db2-8814-45b3-ab8a-a1c8522d7fa1` · printing: ALA #125 (2008-10-03) · [rulings](https://api.scryfall.com/cards/34748acb-7045-42b6-a93f-a3f11a1bc839/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cavern Whisperer
@@ -342,7 +367,9 @@
   > Whenever this creature mutates, each opponent discards a card.
 - **Keywords:** Mutate, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10104 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/79/cavern-whisperer) · oracle_id `b42147e1-cf90-4c12-8abe-7f2931d0607c` · printing: IKO #79 (2020-04-24) · [rulings](https://api.scryfall.com/cards/64ae7651-4a5c-41f3-b528-41b9b0f2e5d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-04-17* — As the triggered ability resolves, first the next opponent in turn order (or, if it’s an opponent’s turn, the opponent whose turn it is) chooses a card in hand without revealing it, then each other opponent in turn order does the same. Then all the chosen cards are discarded at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/79/cavern-whisperer) · oracle_id `b42147e1-cf90-4c12-8abe-7f2931d0607c` · printing: IKO #79 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cave Sense
 
@@ -353,6 +380,7 @@
   > Enchanted creature gets +1/+1 and has mountainwalk. (It can't be blocked as long as defending player controls a Mountain.)
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24830 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/179/cave-sense) · oracle_id `7d2fcdac-c8d5-43ca-81bc-130744ed8d3d` · printing: MMQ #179 (1999-10-04) · [rulings](https://api.scryfall.com/cards/2d718421-c742-489c-a243-3adb19f6716a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caves of Chaos Adventurer
@@ -406,4 +434,5 @@
 - **Flavor text** (USG printing):
   > *The druids found a haven in the cool limestone tunnels beneath Argoth. The invaders found only tigers.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29975 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/241/cave-tiger) · oracle_id `d3bac8b8-0b2a-4c67-b087-7a0bf1359468` · printing: USG #241 (1998-10-12) · [rulings](https://api.scryfall.com/cards/c782eb28-0cdd-4c3d-9d89-8b23c29cddd4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

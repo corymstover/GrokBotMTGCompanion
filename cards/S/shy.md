@@ -21,4 +21,7 @@
   > *"Capturing this specimen was not easy. Study it well, that you someday might be as versatile."*
   > *—Gerda Äagesdotter, Archmage of the Unseen*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30924 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me2/66/shyft) · oracle_id `40c3007a-be6c-4400-9139-12b9ca098ac4` · printing: ME2 #66 (2008-09-22) · [rulings](https://api.scryfall.com/cards/d7f2bbf6-65b7-41c4-a219-f8ea4aeb9bbc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-10-01* — Shyft’s ability won’t let you make it colorless. Colorless is not a color.
+  - *2008-10-01* — The ability’s effect has no duration. Shyft will remain the chosen color or colors until the game ends, it leaves the battlefield, or some other effect (such as the next time its ability resolves) changes its colors.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me2/66/shyft) · oracle_id `40c3007a-be6c-4400-9139-12b9ca098ac4` · printing: ME2 #66 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

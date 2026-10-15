@@ -38,6 +38,7 @@
 - **Oracle text:**
   > Whenever this creature attacks alone, this creature can't be blocked this combat.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31695 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/129/yuan-shaos-infantry) · oracle_id `8ad91015-db7f-43ea-97c9-bf2bf5656858` · printing: PTK #129 (1999-05-01) · [rulings](https://api.scryfall.com/cards/a2623481-cee3-4a9d-933b-235fcde9a27b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yuan Shao, the Indecisive
@@ -50,7 +51,9 @@
   > Each creature you control can't be blocked by more than one creature.
 - **Keywords:** Horsemanship
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25224 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ptk/128/yuan-shao-the-indecisive) · oracle_id `2fc5fffa-2eb1-4a3c-af47-3ff8c7df608d` · printing: PTK #128 (1999-05-01) · [rulings](https://api.scryfall.com/cards/5e9b3794-d0f0-4d28-85cb-22492e195ae1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn’t interact with flying or reach.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ptk/128/yuan-shao-the-indecisive) · oracle_id `2fc5fffa-2eb1-4a3c-af47-3ff8c7df608d` · printing: PTK #128 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yuan-Ti Fang-Blade
 
@@ -64,7 +67,18 @@
   > *"The air is sweet with the taste of your fear."*
 - **Keywords:** Venture into the dungeon, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13715 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/128/yuan-ti-fang-blade) · oracle_id `8ef06396-861d-4599-9976-6e5c04575456` · printing: AFR #128 (2021-07-23) · [rulings](https://api.scryfall.com/cards/a7e0e09c-ed43-4a37-85f2-c60bdfdb2624/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2021-07-23* — A player may only have one dungeon in the command zone at a time.
+  - *2021-07-23* — Choosing the dungeon or room to venture into is part of resolving the venture into the dungeon keyword action. Once that choice is made, players may not respond until after the appropriate room ability has triggered.
+  - *2021-07-23* — Dungeon cards are not part of a player's deck or sideboard. In both constructed and limited formats, players can use any dungeon card when they venture into the dungeon.
+  - *2021-07-23* — Dungeons are removed from the game as a state-based action.
+  - *2021-07-23* — If you somehow venture into the dungeon while a room's ability is on the stack, you will continue on in the dungeon. If you're already in the last room, complete that dungeon and start a new one.
+  - *2021-07-23* — Moving into a dungeon room will cause its room ability to trigger.
+  - *2021-07-23* — Once you resolve the last room ability of a dungeon, that dungeon is now completed and is removed from the game.
+  - *2021-07-23* — The player venturing into the dungeon chooses which dungeon they will venture into. They may choose a dungeon that they have already completed this game.
+  - *2021-07-23* — To venture into the dungeon, a player moves their venture marker into the next room of the dungeon they are currently in. If they aren't currently in a dungeon, that player instead chooses a dungeon card from outside the game, puts it into the command zone, and moves their venture marker onto the first room.
+  - *2021-07-23* — You can only move forward (well, downward) in a dungeon, never backwards or sideways.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/128/yuan-ti-fang-blade) · oracle_id `8ef06396-861d-4599-9976-6e5c04575456` · printing: AFR #128 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yuan-Ti Malison
 
@@ -144,6 +158,7 @@
   > When this creature enters, destroy target artifact.
   > Whenever you cast a Spirit or Arcane spell, you may return this creature to its owner's hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22412 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/120/yuki-onna) · oracle_id `8f867a2c-f17b-4608-bca7-5b49d1387bc7` · printing: SOK #120 (2005-06-03) · [rulings](https://api.scryfall.com/cards/63c6e1cd-e25d-41ff-a918-c495998376d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yukora, the Prisoner
@@ -156,6 +171,7 @@
 - **Flavor text** (BOK printing):
   > *It took ninety-nine monks to weave the spell that trapped Yukora. Upon the death of the ninety-nine, the spell was broken, and the demon returned to the mortal world seeking vengeance for its imprisonment.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17573 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/90/yukora-the-prisoner) · oracle_id `10026343-a8cd-4a99-b4d9-ff7611f52052` · printing: BOK #90 (2005-02-04) · [rulings](https://api.scryfall.com/cards/54aeca31-1175-4d2d-adc3-e3682d7e9e07/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yule Ooze
@@ -170,6 +186,7 @@
   > *It loves having family for dinner.*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hho/11/yule-ooze) · oracle_id `a01cab88-0874-4b2d-8fbc-a9601a0572f3` · printing: HHO #11 (2011-12-01) · [rulings](https://api.scryfall.com/cards/34f1e901-7728-41e2-ad1b-94c877404a58/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yuma, Proud Protector
@@ -196,6 +213,7 @@
 - **Flavor text** (MBC printing):
   > *Tales of heroics fill the air between matches at Valor's Reach.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #20985 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/6/yume-chronicler-of-valor) · oracle_id `f6841a6f-7dd3-4976-9891-539189c0e148` · printing: MBC #6 (2026-10-19) · [rulings](https://api.scryfall.com/cards/1aea14a7-ef88-4d88-9b9b-a450d3507414/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yuna, Grand Summoner
@@ -265,6 +283,7 @@
 - **Flavor text** (FRA printing):
   > *"Emperor Tamiyo rules with truth, respect, and passion. She has more than earned my loyalty."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20266 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/210/yuriko-blade-of-the-mighty) · oracle_id `f89b0143-4b19-4ab1-a96b-356b21e435ef` · printing: FRA #210 (2026-10-02) · [rulings](https://api.scryfall.com/cards/ccbe92a5-42bc-4228-9d5a-212df2f5dc15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yuriko, Hope from the Shadows
@@ -279,6 +298,7 @@
   > • Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
 - **Keywords:** Surveil, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20839 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/226/yuriko-hope-from-the-shadows) · oracle_id `983f4fde-ab04-44f0-a294-c3b472de0b19` · printing: FRA #226 (2026-10-02) · [rulings](https://api.scryfall.com/cards/45e81487-8b8c-480b-922a-eaa9edc7201d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yuriko, the Tiger's Shadow
@@ -344,4 +364,5 @@
   > *—Admiral Zhao*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16583 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/161/yuyan-archers) · oracle_id `63e5180f-16d0-4524-94bf-ecbf3c417814` · printing: TLA #161 (2025-11-21) · [rulings](https://api.scryfall.com/cards/99244462-a996-4a5b-91fb-947045647d6d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

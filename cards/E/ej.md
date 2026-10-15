@@ -20,7 +20,9 @@
   > Return target nonland permanent to its owner's hand.
   > Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11191 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/52/eject) · oracle_id `9a18fb98-796a-43b1-8157-e3afca53a1c0` · printing: FIN #52 (2025-06-13) · [rulings](https://api.scryfall.com/cards/aec83c9a-8ec4-4a5a-b27f-0e74a2b3d21e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — If the target permanent is an illegal target as Eject tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/52/eject) · oracle_id `9a18fb98-796a-43b1-8157-e3afca53a1c0` · printing: FIN #52 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eject the Warp Core
 
@@ -31,4 +33,5 @@
   > Target creature gets -2/-2 until end of turn. If this spell was kicked, that creature gets -6/-6 until end of turn instead.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32290 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/105/eject-the-warp-core) · oracle_id `c06c17c2-203c-4b4a-8564-f29bc41c9eb5` · printing: TRK #105 (2026-11-13) · [rulings](https://api.scryfall.com/cards/04a479be-8093-4775-a5d9-8b0e1683bf12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

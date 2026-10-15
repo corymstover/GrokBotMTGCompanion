@@ -77,6 +77,7 @@
   > When this creature enters, tap up to two target creatures.
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12868 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/48/eddymurk-crab) · oracle_id `3c345e24-1726-45ac-91ca-e348d1e7acfe` · printing: BLB #48 (2024-08-02) · [rulings](https://api.scryfall.com/cards/e6d45abe-4962-47d9-a54e-7e623ea8647c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eddytrail Hawk
@@ -90,7 +91,17 @@
   > Whenever this creature attacks, you may pay {E}. If you do, another target attacking creature gains flying until end of turn.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20397 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/12/eddytrail-hawk) · oracle_id `748729bf-bfa0-4cbf-b643-ed5d7d007081` · printing: KLD #12 (2016-09-30) · [rulings](https://api.scryfall.com/cards/81dcaec6-4cb9-46d8-aed1-46f33c67dff2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/12/eddytrail-hawk) · oracle_id `748729bf-bfa0-4cbf-b643-ed5d7d007081` · printing: KLD #12 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Edea, Possessed Sorceress
 
@@ -103,6 +114,7 @@
   > Whenever a creature you control but don't own dies, return it to the battlefield under its owner's control and you draw a card.
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13854 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/448/edea-possessed-sorceress) · oracle_id `7beb7505-b765-486d-a205-78325922a10f` · printing: FIC #448 (2025-12-05) · [rulings](https://api.scryfall.com/cards/6db60c73-5943-49da-9a8a-f4a382a1c0f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### ED-E, Lonesome Eyebot
@@ -147,6 +159,7 @@
 - **Flavor text** (FRA printing):
   > *"Our family was born in blood, and through blood it will endure."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22359 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/270/edgar-ancient-bloodlord) · oracle_id `cab2bc93-f38b-4301-ac42-05765615586b` · printing: FRA #270 (2026-10-02) · [rulings](https://api.scryfall.com/cards/7c619fed-2394-4efc-8cdc-6df5f51c1f57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Edgar, Charmed Groom // Edgar Markov's Coffin
@@ -230,6 +243,7 @@
   > *Innistrad's moonlit nights belong to his pack and his pack alone.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24817 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/257/edgar-moonlit-sovereign) · oracle_id `1917bda6-c0e1-4c80-8009-74c28cf6b8e9` · printing: FRA #257 (2026-10-02) · [rulings](https://api.scryfall.com/cards/dad6afc9-8505-4cdd-bf79-e9ba4670f2bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Edgar's Awakening
@@ -242,7 +256,9 @@
 - **Flavor text** (INR printing):
   > *"Here you go. Can't have you sleeping through your own wedding day."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12078 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/108/edgars-awakening) · oracle_id `2c04371a-af69-4e42-8cda-096cf8312b5e` · printing: INR #108 (2025-01-24) · [rulings](https://api.scryfall.com/cards/b2ff8b0a-f424-4a8d-a682-848bf1f3b07b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-11-19* — You can't discard Edgar's Awakening just because you want to. In order to discard it, a rule or effect needs to allow or instruct you to do so.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/108/edgars-awakening) · oracle_id `2c04371a-af69-4e42-8cda-096cf8312b5e` · printing: INR #108 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Edge of Autumn
 
@@ -271,7 +287,9 @@
   > *The divinity's patronage confers both wicked grace and graceful wickedness.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13851 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eve/87/edge-of-the-divinity) · oracle_id `16ef24ea-4d84-43e5-bd4f-b6efadc87616` · printing: EVE #87 (2008-07-25) · [rulings](https://api.scryfall.com/cards/ffd079d8-b191-4f54-bb04-427b3736f745/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — If the enchanted creature is both of the listed colors, it will get both bonuses.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eve/87/edge-of-the-divinity) · oracle_id `16ef24ea-4d84-43e5-bd4f-b6efadc87616` · printing: EVE #87 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Edge Rover
 
@@ -285,6 +303,7 @@
   > *Charting the Edge, one scan at a time.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16074 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/179/edge-rover) · oracle_id `b907d375-b715-446b-8966-79959feb9f58` · printing: EOE #179 (2025-08-01) · [rulings](https://api.scryfall.com/cards/90741ec9-6893-42d4-b510-8664666094e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Edgewalker
@@ -295,7 +314,11 @@
 - **Oracle text:**
   > Cleric spells you cast cost {W}{B} less to cast. This effect reduces only the amount of colored mana you pay. (For example, if you cast a Cleric spell with mana cost {1}{W}, it costs {1} to cast.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11133 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/scg/137/edgewalker) · oracle_id `71a7f695-06b9-461d-9646-ffb975b375fc` · printing: SCG #137 (2003-05-26) · [rulings](https://api.scryfall.com/cards/c8b477c2-2cd5-41f2-8754-d4d5000df58d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — If you have more than one of these on the battlefield, the cost reduction is cumulative.
+  - *2008-08-01* — If a spell has hybrid mana symbols in its mana cost, you choose which half you will be paying before determining the total cost. If you choose to pay such a cost with {W} or {B}, Edgewalker can reduce that part of the cost.
+  - *2008-08-01* — You apply cost reduction effects after other cost modifiers, so it can reduce additional costs or alternative costs if they include {W} and/or {B}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/scg/137/edgewalker) · oracle_id `71a7f695-06b9-461d-9646-ffb975b375fc` · printing: SCG #137 (2003-05-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Edgewall Inn
 
@@ -307,6 +330,7 @@
   > {T}: Add one mana of the chosen color.
   > {3}, {T}, Sacrifice this land: Return target card that has an Adventure from your graveyard to your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9977 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/255/edgewall-inn) · oracle_id `4dfd33e8-7e30-493b-8564-f7df5f0257aa` · printing: WOE #255 (2023-09-08) · [rulings](https://api.scryfall.com/cards/ec435e54-628a-43bd-8804-cbc37e375bce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Edgewall Innkeeper
@@ -319,7 +343,11 @@
 - **Flavor text** (ELD printing):
   > *"Warmth. Safety. A fully-stocked larder. You'll find nothing like Edgewall Keep in the wilds, I promise you that!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12736 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/151/edgewall-innkeeper) · oracle_id `e3d7cea4-0d4c-4320-966d-17ef69b5e433` · printing: ELD #151 (2019-10-04) · [rulings](https://api.scryfall.com/cards/7c5d0560-f9e6-4c70-8cce-cae61e4e74bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-10-04* — An effect may refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
+  - *2019-10-04* — Edgewall Innkeeper's ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2019-10-04* — If an effect refers to a card, spell, or permanent that has an Adventure, it won't find an instant or sorcery spell on the stack that's been cast as an Adventure.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/151/edgewall-innkeeper) · oracle_id `e3d7cea4-0d4c-4320-966d-17ef69b5e433` · printing: ELD #151 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Edgewall Pack
 
@@ -333,6 +361,7 @@
   > *The mayor sent hounds to root out Lord Skitter, but their loyalty was easily bought with a handful of bones.*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21060 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/126/edgewall-pack) · oracle_id `ef702a1a-4ace-43e0-8e86-dcceb0b1e4d5` · printing: WOE #126 (2023-09-08) · [rulings](https://api.scryfall.com/cards/acda9d02-00fc-49e2-a9f3-176e9c0a8c5f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Edifice of Authority
@@ -343,7 +372,11 @@
   > {1}, {T}: Target creature can't attack this turn. Put a brick counter on this artifact.
   > {1}, {T}: Until your next turn, target creature can't attack or block and its activated abilities can't be activated. Activate only if there are three or more brick counters on this artifact.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22904 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/226/edifice-of-authority) · oracle_id `7c16707e-24da-4a7e-9d24-d3731987f675` · printing: AKH #226 (2017-04-28) · [rulings](https://api.scryfall.com/cards/66e6fa29-087f-4da6-9114-30feec708560/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-04-18* — Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keyword abilities are activated abilities and will have colons in their reminder text. Triggered abilities (starting with “when,” “whenever,” or “at”) are unaffected by the last ability of Edifice of Authority. Notably, exerting a creature isn’t an activated ability.
+  - *2017-04-18* — Edifice of Authority can’t be used to undo an attack or block once it has been declared. Its abilities must be activated no later than the beginning of combat step to stop a creature from attacking, and no later than the declare attackers step to stop a creature from blocking.
+  - *2017-04-18* — Once a player has announced that they are activating the ability of a creature, Edifice of Authority can’t be used to undo it. Its last ability must be activated before the player activates that creature’s ability. The player may respond to Edifice of Authority’s ability with the target creature’s ability if able.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/226/edifice-of-authority) · oracle_id `7c16707e-24da-4a7e-9d24-d3731987f675` · printing: AKH #226 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Edric, Spymaster of Trest
 
@@ -370,6 +403,7 @@
   > {1}{U}, {T}: Surveil 1. If all your commanders have been revealed, draw a card instead.
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/CU04a/educated-detective) · oracle_id `b91d4d0d-52f7-47f3-bfc9-b38263b9cf11` · printing: UNK #CU04a (2024-02-24) · [rulings](https://api.scryfall.com/cards/a4df12a7-6620-413c-b2b4-e0cc0eb14231/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Edward Kenway

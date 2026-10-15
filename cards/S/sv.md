@@ -27,7 +27,9 @@
   > Svega can be your commander.
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
-- **Source flags:** [Scryfall](https://scryfall.com/card/ph22/4/svega-the-unconventional) · oracle_id `fe68fca9-7975-4ad6-a49e-1ed78b815511` · printing: PH22 #4 (2023-08-01) · [rulings](https://api.scryfall.com/cards/058bb1fd-5e1a-4be9-a174-fbe1938e11a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ph22/4/svega-the-unconventional) · oracle_id `fe68fca9-7975-4ad6-a49e-1ed78b815511` · printing: PH22 #4 (2023-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Svella, Ice Shaper
 
@@ -60,7 +62,11 @@
   > {T}: Add {C}.
   > {3}{B}{G}: Until end of turn, this land becomes a black and green Plant Zombie creature with "This creature's power and toughness are each equal to the number of creature cards in your graveyard." It's still a land.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12757 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/270/svogthos-the-restless-tomb) · oracle_id `a34a70b8-02e5-4e8c-a9e7-b21c5a11dddf` · printing: CM2 #270 (2018-06-08) · [rulings](https://api.scryfall.com/cards/ffe08b0f-bb53-40b9-8057-10b60070459b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2005-10-01* — While animated, Svogthos’s power and toughness changes each time a creature card enters or leaves its controller’s graveyard.
+  - *2008-08-01* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn’t matter how long the permanent has been a creature.
+  - *2009-10-01* — Activating the ability that turns it into a creature while it’s already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/270/svogthos-the-restless-tomb) · oracle_id `a34a70b8-02e5-4e8c-a9e7-b21c5a11dddf` · printing: CM2 #270 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Svyelunite Priest
 
@@ -73,7 +79,10 @@
   > *"Early Vodalians worshipped Svyelun, goddess of the Pearl Moon. Later she became a more abstract figure."*
   > *—\*Sarpadian Empires, vol. V\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30844 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fem/26/svyelunite-priest) · oracle_id `fb7adbee-a3b0-42bf-988f-9d4faf6bd006` · printing: FEM #26 (1994-11-01) · [rulings](https://api.scryfall.com/cards/316d25ae-7ac6-4f5b-93ab-0e0e28ec104b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Does not cause Auras on the creature to be removed when the ability is activated. An Aura on the battlefield is neither a spell nor an ability.
+  - *2005-08-01* — The effect prevents spells or the effects of permanents from targeting the creature. Auras which confer an ability (such as Lance or Firebreathing) are not prevented.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fem/26/svyelunite-priest) · oracle_id `fb7adbee-a3b0-42bf-988f-9d4faf6bd006` · printing: FEM #26 (1994-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Svyelunite Temple
 
@@ -84,6 +93,7 @@
   > {T}: Add {U}.
   > {T}, Sacrifice this land: Add {U}{U}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14137 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/237/svyelunite-temple) · oracle_id `5578cf33-62f5-456c-a58c-f744a25df79b` · printing: ME2 #237 (2008-09-22) · [rulings](https://api.scryfall.com/cards/21fe2f1b-bfd1-4682-ae23-069300de3791/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Svyelun of Sea and Sky

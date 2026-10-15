@@ -97,7 +97,10 @@
 - **Flavor text** (THB printing):
   > *Phenax is generous with gifts and unforgiving of debts.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10316 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/117/treacherous-blessing) · oracle_id `17f573c4-3ed4-453e-bfbe-4e42d54633e5` · printing: THB #117 (2020-01-24) · [rulings](https://api.scryfall.com/cards/35b3ad6b-9966-489f-a4c9-2639a634fd62/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-01-24* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2020-01-24* — If you cast a spell that targets Treacherous Blessing, you choose whether you lose 1 life before or after you sacrifice it. You lose 1 life even if you sacrifice it first.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/117/treacherous-blessing) · oracle_id `17f573c4-3ed4-453e-bfbe-4e42d54633e5` · printing: THB #117 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treacherous Greed
 
@@ -109,7 +112,9 @@
 - **Flavor text** (MKM printing):
   > *Loot's easy to divide by one.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11381 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/237/treacherous-greed) · oracle_id `5483f787-7aca-4efe-a39a-ea29f8c07f0d` · printing: MKM #237 (2024-02-09) · [rulings](https://api.scryfall.com/cards/e4b9260b-0993-42c5-9bcf-87ab394d51db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-02-02* — You can sacrifice any creature you control that dealt damage this turn to pay Treacherous Greed's additional cost, even if the permanent it dealt damage to is no longer on the battlefield or the player it dealt damage to is no longer in the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/237/treacherous-greed) · oracle_id `5483f787-7aca-4efe-a39a-ea29f8c07f0d` · printing: MKM #237 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treacherous Link
 
@@ -123,6 +128,7 @@
   > *—Barrin, to Urza*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21233 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ulg/71/treacherous-link) · oracle_id `b7902113-9ddf-4d81-a76a-b54b8a36c154` · printing: ULG #71 (1999-02-15) · [rulings](https://api.scryfall.com/cards/2e5f8581-411b-4403-9c3a-3cf2156f6779/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treacherous Pit-Dweller
@@ -135,6 +141,7 @@
   > Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
 - **Keywords:** Undying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18587 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/avr/121/treacherous-pit-dweller) · oracle_id `899387c5-6781-485b-b8bc-aa89d3b97413` · printing: AVR #121 (2012-05-04) · [rulings](https://api.scryfall.com/cards/eec7dfd7-d7b2-44fa-b351-022a19fe81b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treacherous Terrain
@@ -146,6 +153,7 @@
   > Basic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)
 - **Keywords:** Landcycling, Basic landcycling, Typecycling, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13150 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/znc/105/treacherous-terrain) · oracle_id `eced76b8-b29a-4c89-b77a-cbae99f56cb7` · printing: ZNC #105 (2020-09-25) · [rulings](https://api.scryfall.com/cards/5fb6efb3-bde3-4e29-8637-265e5c1da616/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treacherous Trapezist
@@ -159,7 +167,11 @@
   > Other alliterative creatures you control have flying.
 - **Keywords:** Scry, Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32282 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/60/treacherous-trapezist) · oracle_id `8db4b43d-aabd-45fd-a5f8-6f2a49eec7cf` · printing: UNF #60 (2022-10-07) · [rulings](https://api.scryfall.com/cards/456149a1-0f15-466a-8d07-803efb5721d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-10-07* — An alliterative spell or creature can have other words in its name, capitalized or not, as long as it has two or more capitalized words that begin with the same letter. The two words don’t even need to be adjacent to one another.
+  - *2022-10-07* — Questionable Cuisine is not alliterative. Celestial Crusader is. It’s true that in the real world, alliteration usually refers to the repetition of sounds at the beginnings of words, but it’s also true that porcupines are usually not very aerodynamic, so let’s not get hung up on reality, okay?
+  - *2022-10-07* — The words can be the same word. Casting Decisions, Decisions or Monitor Monitor will cause you to scry 2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/60/treacherous-trapezist) · oracle_id `8db4b43d-aabd-45fd-a5f8-6f2a49eec7cf` · printing: UNF #60 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treacherous Urge
 
@@ -168,7 +180,10 @@
 - **Oracle text:**
   > Target opponent reveals their hand. You may put a creature card from it onto the battlefield under your control. That creature gains haste. Sacrifice it at the beginning of the next end step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18446 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/plc/82/treacherous-urge) · oracle_id `f44f2d2d-7899-4cf4-baf0-64d5bef60006` · printing: PLC #82 (2007-02-02) · [rulings](https://api.scryfall.com/cards/22563bcd-1f29-4544-ba43-173ead61e62a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2007-02-01* — If you cast Treacherous Urge during the End step, you won’t sacrifice the creature until the end of the following turn.
+  - *2007-02-01* — If you don’t control the creature when the ability resolves, the creature won’t be sacrificed. It will have haste permanently.
+- **Source flags:** [Scryfall](https://scryfall.com/card/plc/82/treacherous-urge) · oracle_id `f44f2d2d-7899-4cf4-baf0-64d5bef60006` · printing: PLC #82 (2007-02-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treacherous Vampire
 
@@ -181,6 +196,7 @@
   > Threshold — As long as there are seven or more cards in your graveyard, this creature gets +2/+2 and has "When this creature dies, you lose 6 life."
 - **Keywords:** Flying, Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32046 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jud/75/treacherous-vampire) · oracle_id `1d33d49f-ba12-4bf6-878b-04cee5d5b48d` · printing: JUD #75 (2002-05-27) · [rulings](https://api.scryfall.com/cards/a00562ae-b8b4-4f8f-8ea8-15d20568997d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treacherous Werewolf
@@ -192,7 +208,9 @@
   > Threshold — As long as there are seven or more cards in your graveyard, this creature gets +2/+2 and has "When this creature dies, you lose 4 life."
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31494 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jud/76/treacherous-werewolf) · oracle_id `59681998-c395-4d37-a419-2a78cf894506` · printing: JUD #76 (2002-05-27) · [rulings](https://api.scryfall.com/cards/c9647726-302b-4fc4-91d7-2aa0bba0b653/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The Threshold ability can’t count this card (soon to be in the graveyard) when checking for Threshold.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jud/76/treacherous-werewolf) · oracle_id `59681998-c395-4d37-a419-2a78cf894506` · printing: JUD #76 (2002-05-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treachery
 
@@ -219,7 +237,20 @@
 - **Oracle text:**
   > Whenever you crank this Contraption, until end of turn, target creature gets +1/+2, gains vigilance, and becomes an artifact in addition to its other types.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/208/tread-mill) · oracle_id `bc77365f-bab0-4e20-9a3d-5ef067fc4c66` · printing: UST #208 (2017-12-08) · [rulings](https://api.scryfall.com/cards/70d2f8f3-7bd0-4775-806b-1583da4814a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2018-01-19* — Any Contraption that's on the battlefield and wasn't assembled immediately heads to the scrapyard. However, if it's a not an actual Contraption card (like Copy Artifact isn't), it goes to your graveyard as normal. Non-Contraption cards can't be in the scrapyard.
+  - *2018-01-19* — At the beginning of your upkeep, if you control any Contraptions, move the CRANK! counter to the next sprocket. You may then crank any number of Contraptions on that sprocket, causing their abilities to trigger. Cranking a Contraption is always optional.
+  - *2018-01-19* — Contraptions are artifacts. Anything that interacts with artifacts will interact with Contraptions.
+  - *2018-01-19* — Contraptions aren't put into your main deck. They go into a separate deck called the Contraption deck.
+  - *2018-01-19* — If a Contraption would leave the battlefield and go to any zone other than exile, it instead goes to the scrapyard, the Contraption deck's version of the graveyard. Things that affect the graveyard do not affect the scrapyard. You can exile Contraptions just fine.
+  - *2018-01-19* — If you crank multiple Contraptions, their abilities can be put onto the stack in any order. The ability put onto the stack will resolve first.
+  - *2018-01-19* — If you or a permanent you control are instructed to assemble a Contraption, reveal the top card of your Contraption deck. Put it onto the battlefield on one of the three sprockets.
+  - *2018-01-19* — If you or a permanent you control assembles a Contraption and your Contraption deck is empty, nothing happens. You don't lose the game.
+  - *2018-01-19* — In Constructed formats, a Contraption deck must have at least fifteen different Contraption cards and no more than one of each.
+  - *2018-01-19* — In Limited formats, a Contraption deck may include any number of Contraption cards in your card pool. You don't have to include every Contraption card you draft or open in sealed deck. In those formats, your Contraption deck may include duplicates.
+  - *2018-01-19* — In silver-bordered games using Contraptions, you have three sprockets, illustrated on the back of Contraption cards. At the start of the game, put a CRANK! counter on sprocket 3.
+  - *2018-01-19* — While Contraptions you control are on the battlefield, the Contraption deck is not, even if you are using it to signify the three sprockets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/208/tread-mill) · oracle_id `bc77365f-bab0-4e20-9a3d-5ef067fc4c66` · printing: UST #208 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tread Upon
 
@@ -231,6 +262,7 @@
   > *"Boasting impenetrable defenses only draws the most tenacious of attackers."*
   > *—Yikaro, Atarka warrior*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25872 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/211/tread-upon) · oracle_id `0b3bdbc6-cde7-4187-b13c-82fd02ae4037` · printing: DTK #211 (2015-03-27) · [rulings](https://api.scryfall.com/cards/87f04d27-f38a-4be2-8eb6-7dd0d3a1ac6d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treason of Isengard
@@ -326,6 +358,7 @@
 - **Flavor text** (DDM printing):
   > *Gorgons crave beautiful things: gems, exquisite amulets, the alabaster corpses of the petrified dead . . .*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10938 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddm/70/treasured-find) · oracle_id `e99d6c5c-b029-4cd1-bd7a-6f8ea91eb4a7` · printing: DDM #70 (2014-03-14) · [rulings](https://api.scryfall.com/cards/9317b616-eabe-461a-bd60-6dd8620becb4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treasure Dredger
@@ -339,6 +372,7 @@
   > *The old miners' trail across Blacksnag Bog is littered with lost fortunes and the bones of those who searched for them.*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10308 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/110/treasure-dredger) · oracle_id `9a691e96-fb47-4c23-a063-3b287c51147b` · printing: OTJ #110 (2024-04-19) · [rulings](https://api.scryfall.com/cards/c88df498-147c-4609-8a94-d8d10a87e37c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treasure Hunt
@@ -351,7 +385,10 @@
   > *"The longer the journey, the more one learns."*
   > *—Isanke, Halimar seastalker*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16293 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/109/treasure-hunt) · oracle_id `05079479-86a6-4041-a395-83d325b6ddb7` · printing: C18 #109 (2018-08-10) · [rulings](https://api.scryfall.com/cards/76a2cb0e-3630-4307-ac80-bd850c1c256f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2010-03-01* — If all the cards left in your library are lands, you’ll reveal all of them and put them all into your hand.
+  - *2010-03-01* — The cards you put into your hand this way include one nonland card, plus all the land cards on top of it in your library (if any). If the top card of your library is a nonland card, you just get that one.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/109/treasure-hunt) · oracle_id `05079479-86a6-4041-a395-83d325b6ddb7` · printing: C18 #109 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treasure Hunter
 
@@ -363,6 +400,7 @@
 - **Flavor text** (10E printing):
   > *"The treasures of the ancients belong in museums, not in the grubby hands of grave robbers."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23775 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/52/treasure-hunter) · oracle_id `71ae3bc0-28da-4e91-bffd-a49fe545b7a9` · printing: 10E #52 (2007-07-13) · [rulings](https://api.scryfall.com/cards/0282b59e-78ef-412d-bb76-fb337f32a213/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treasure Keeper
@@ -373,7 +411,13 @@
 - **Oracle text:**
   > When this creature dies, reveal cards from the top of your library until you reveal a nonland card with mana value 3 or less. You may cast that card without paying its mana cost. Put all revealed cards not cast this way on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11072 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/341/treasure-keeper) · oracle_id `3ef7e4c3-f87b-442d-8680-39673ede07e3` · printing: CLB #341 (2022-06-10) · [rulings](https://api.scryfall.com/cards/b68ab416-3394-4cb6-bfc6-33e62964dd1c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-08-07* — If a card in a player's library has {X} in its mana cost, X is considered to be 0.
+  - *2020-08-07* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2020-08-07* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+  - *2020-08-07* — If you don't cast the nonland card with mana value 3 or less, it'll be put on the bottom of your library in a random order with the other cards.
+  - *2020-08-07* — If your library has no nonland cards in it with mana value 3 or less, you'll reveal all the cards in your library, then put them back in a random order.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/341/treasure-keeper) · oracle_id `3ef7e4c3-f87b-442d-8680-39673ede07e3` · printing: CLB #341 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treasure Mage
 
@@ -433,6 +477,7 @@
   > *"Wealth means power; the power to subdue, to crush, to exploit, the power to enslave, to outrage, to degrade."*
   > *—Emma Goldman, "Anarchism"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26553 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/110/treasure-trove) · oracle_id `3c4a6b34-a9bb-426d-908c-7ae0011591df` · printing: 9ED #110 (2005-07-29) · [rulings](https://api.scryfall.com/cards/f145a7d4-151b-41dd-94f9-eda406080222/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treasure Vault
@@ -459,7 +504,12 @@
   > Whenever this creature attacks, you may return target artifact, creature, or enchantment card from your graveyard to your hand.
 - **Keywords:** Extort
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16943 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c15/235/treasury-thrull) · oracle_id `34161ec4-5d99-45e6-b43c-c8d28958660a` · printing: C15 #235 (2015-11-13) · [rulings](https://api.scryfall.com/cards/98a943d6-e79d-4956-82f1-8dfbe5abd643/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-01-12* — The amount of life you gain from extort is based on the total amount of life lost, not necessarily the number of opponents you have. For example, if your opponent's life total can't change (perhaps because that player controls Platinum Emperion), you won't gain any life.
+  - *2024-01-12* — The extort ability doesn't target any player.
+  - *2024-01-12* — The extort ability resolves before the spell that caused it to trigger. The ability resolves even if that spell is countered.
+  - *2024-01-12* — You may pay {W/B} a maximum of one time for each extort triggered ability. You decide whether to pay when the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c15/235/treasury-thrull) · oracle_id `34161ec4-5d99-45e6-b43c-c8d28958660a` · printing: C15 #235 (2015-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treebeard, Gracious Host
 
@@ -501,6 +551,7 @@
 - **Flavor text** (INV printing):
   > *Protected by druids for untold centuries, the forest began to return the favor.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31860 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/218/treefolk-healer) · oracle_id `a5ef15b5-83d2-4b23-9403-a9a52be46154` · printing: INV #218 (2000-10-02) · [rulings](https://api.scryfall.com/cards/73c6f5c0-686d-4b3a-add7-487f9fff5faa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treefolk Mystic
@@ -513,6 +564,7 @@
 - **Flavor text** (ULG printing):
   > *Urza's wards fell from him like autumn leaves as he entered the dreaming grove. He awoke imprisoned in living wood.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27823 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ulg/114/treefolk-mystic) · oracle_id `68a6fd00-9cb0-4518-97aa-b7f475da58c1` · printing: ULG #114 (1999-02-15) · [rulings](https://api.scryfall.com/cards/9697acf5-9bc5-411d-8574-fe6185f18672/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treefolk Seedlings
@@ -526,7 +578,9 @@
   > *Even the grandest forest begins with a single seedling.*
   > *—Llanowar saying*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20372 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/7ed/277/treefolk-seedlings) · oracle_id `87285539-29c8-4cc7-a22c-4a4b96a61e82` · printing: 7ED #277 (2001-04-11) · [rulings](https://api.scryfall.com/cards/4c275bdc-e960-4b6f-a8d3-b662739113c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The toughness is continuously calculated.
+- **Source flags:** [Scryfall](https://scryfall.com/card/7ed/277/treefolk-seedlings) · oracle_id `87285539-29c8-4cc7-a22c-4a4b96a61e82` · printing: 7ED #277 (2001-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treefolk Umbra
 
@@ -577,6 +631,7 @@
   > *The vines and branches of the jungle canopy are all the wings it needs.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12274 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/275/tree-monkey) · oracle_id `d7318464-e400-424f-ae6d-a9070c64df04` · printing: 9ED #275 (2005-07-29) · [rulings](https://api.scryfall.com/cards/4724d00a-b93b-43fd-9c86-56f127db450b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tree of Perdition
@@ -654,6 +709,7 @@
   > *No matter your strength, the Krosan Forest is stronger. No matter your speed, the Wirewood Forest is faster.*
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31595 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/293/treespring-lorian) · oracle_id `6f3ed8a1-ff5f-411b-9d87-0cce52f42344` · printing: ONS #293 (2002-10-07) · [rulings](https://api.scryfall.com/cards/f525d7ce-37d3-4989-beb4-173447cb5294/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treetop Ambusher
@@ -666,7 +722,10 @@
   > Whenever this creature attacks, target creature you control gets +1/+1 until end of turn.
 - **Keywords:** Dash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27230 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/186/treetop-ambusher) · oracle_id `72949d87-76cd-472c-86b3-2b7d5fce3159` · printing: MH1 #186 (2019-06-14) · [rulings](https://api.scryfall.com/cards/e1722a55-850c-4924-be98-45539f4676a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-06-14* — If you pay the dash cost to cast a creature spell, that card will be returned to its owner’s hand only if it’s still on the battlefield when its triggered ability resolves. If it dies or goes to another zone before then, it will stay where it is.
+  - *2019-06-14* — Treetop Ambusher can be the target of its own ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/186/treetop-ambusher) · oracle_id `72949d87-76cd-472c-86b3-2b7d5fce3159` · printing: MH1 #186 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treetop Bracers
 
@@ -679,7 +738,9 @@
   > *Gravity is truly what you make of it.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20245 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/10e/304/treetop-bracers) · oracle_id `ba71eb8a-f9f8-4608-88d8-963a1770d8d4` · printing: 10E #304 (2007-07-13) · [rulings](https://api.scryfall.com/cards/b84185d8-c058-4fe7-b46e-f5ca90e70f12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-05-01* — Creatures with reach (such as Giant Spider) don't actually have flying, so they can't block a creature enchanted with this.
+- **Source flags:** [Scryfall](https://scryfall.com/card/10e/304/treetop-bracers) · oracle_id `ba71eb8a-f9f8-4608-88d8-963a1770d8d4` · printing: 10E #304 (2007-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treetop Defense
 
@@ -689,6 +750,7 @@
   > Cast this spell only during the declare attackers step and only if you've been attacked this step.
   > Creatures you control gain reach until end of turn. (They can block creatures with flying.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32039 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/por/190/treetop-defense) · oracle_id `f215d0f9-a53e-431a-a70d-9dc4e3caa41e` · printing: POR #190 (1997-05-01) · [rulings](https://api.scryfall.com/cards/f5e134b3-e8af-41e9-928d-c217ea7b2b13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treetop Freedom Fighters
@@ -704,6 +766,7 @@
   > *—Jet*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16619 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/156/treetop-freedom-fighters) · oracle_id `922176b8-7174-4248-92fb-b196ceb802c7` · printing: TLA #156 (2025-11-21) · [rulings](https://api.scryfall.com/cards/a9394200-7ffc-440f-8b5f-c08b7930133c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treetop Rangers
@@ -717,7 +780,9 @@
   > *"If you can't catch them, cut the trees down from beneath them. Force them to fight on our terms."*
   > *—Mishra*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30218 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/279/treetop-rangers) · oracle_id `e4606bc2-faaa-4dd8-9109-55ce3440cf5b` · printing: USG #279 (1998-10-12) · [rulings](https://api.scryfall.com/cards/33f1a343-250b-4a30-a3b5-296282a70446/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-05-01* — Creatures with reach (such as Giant Spider) don't actually have flying, so they can't block this.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/279/treetop-rangers) · oracle_id `e4606bc2-faaa-4dd8-9109-55ce3440cf5b` · printing: USG #279 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treetop Scout
 
@@ -729,7 +794,9 @@
 - **Flavor text** (SCG printing):
   > *At home among the swaying, supple branches of the treetops, some scouts live their entire lives never touching ground.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17820 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/scg/130/treetop-scout) · oracle_id `f62d4910-4547-43f6-909c-fc6a86ecc922` · printing: SCG #130 (2003-05-26) · [rulings](https://api.scryfall.com/cards/2fa39646-a609-4b37-b8de-97893ae43c49/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-05-01* — Creatures with reach (such as Giant Spider) don't actually have flying, so they can't block this.
+- **Source flags:** [Scryfall](https://scryfall.com/card/scg/130/treetop-scout) · oracle_id `f62d4910-4547-43f6-909c-fc6a86ecc922` · printing: SCG #130 (2003-05-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treetop Sentinel
 
@@ -742,6 +809,7 @@
   > *Crian's patrols afford him plenty of opportunity to take potshots at the "dirtwalkers" far below.*
 - **Keywords:** Flying, Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30407 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/111/treetop-sentinel) · oracle_id `786afd52-0eae-4453-b1bd-cffc21699849` · printing: ODY #111 (2001-10-01) · [rulings](https://api.scryfall.com/cards/606b4e02-f81a-490c-8d2e-cfea7917d6b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treetop Sentries
@@ -756,7 +824,13 @@
   > *They don't waste arrows on warning shots.*
 - **Keywords:** Forage, Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12182 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/201/treetop-sentries) · oracle_id `5bf5739a-6322-4e6e-b41e-e7bdbb11b1ce` · printing: BLB #201 (2024-08-02) · [rulings](https://api.scryfall.com/cards/e16d4d6e-1fe5-4ff6-9877-8c849a24f5e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-07-26* — If you don't have enough cards in your graveyard or a Food on the battlefield, you can't choose to forage.
+  - *2024-07-26* — Once you announce that you're casting a spell or activating an ability, players can't take actions until you've finished doing so. Notably, opponents can't try to remove cards from your graveyard or Foods you control to stop you from foraging.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/201/treetop-sentries) · oracle_id `5bf5739a-6322-4e6e-b41e-e7bdbb11b1ce` · printing: BLB #201 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treetop Snarespinner
 
@@ -799,6 +873,7 @@
   > Whenever you cast a nostalgic spell, you may pay {2}. If you do, put a +1/+1 counter on Treizeci, then for each +1/+1 counter on it, create a Serra Angel token.
 - **Keywords:** Vigilance, Companion
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Companion
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ph22/1/treizeci-sun-of-serra) · oracle_id `87d5b9d0-3fb3-4554-a27c-0862d59dd59d` · printing: PH22 #1 (2023-08-01) · [rulings](https://api.scryfall.com/cards/ad2bbfa1-81e0-4683-b1dc-a3aaa9837690/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trelane, Squire of Gothos
@@ -814,6 +889,7 @@
   > *"I've been looking in on the doings on your lively little Earth."*
 - **Keywords:** Vigilance, Ward
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32236 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/195/trelane-squire-of-gothos) · oracle_id `3c516327-00a3-4d03-87a3-73b4a90719d3` · printing: TRC #195 (2026-11-13) · [rulings](https://api.scryfall.com/cards/3ff8a24f-2771-454b-abb3-619b1c56f7e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trelasarra, Moon Dancer
@@ -842,6 +918,7 @@
 - **Flavor text** (ODY printing):
   > *Otaria's frequent tremors are the last stages of Dominaria's recovery from the Phyrexian war.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19570 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/225/tremble) · oracle_id `0fa0f562-e66f-4630-890a-9a4ae24fd6c0` · printing: ODY #225 (2001-10-01) · [rulings](https://api.scryfall.com/cards/7e1dc36f-3fdd-42cf-9d3a-695f4bf60c68/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tremor
@@ -853,6 +930,7 @@
 - **Flavor text** (8ED printing):
   > *Where do you run when the earth becomes your enemy?*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19549 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/228/tremor) · oracle_id `4281a153-665b-44cf-bcff-9cf88c14c2b5` · printing: 8ED #228 (2003-07-28) · [rulings](https://api.scryfall.com/cards/7d47f27d-5a25-4d2a-b2a2-027b579b881b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trench Behemoth
@@ -884,7 +962,12 @@
   > When this creature enters, you may search your library for any number of land cards, exile them, then shuffle. If you do, this creature has base power and base toughness each equal to the number of cards exiled this way.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17453 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmd/65/trench-gorger) · oracle_id `a5e37c6e-ae42-4c98-ba20-840ea3c4a6ab` · printing: CMD #65 (2011-06-17) · [rulings](https://api.scryfall.com/cards/b631b71b-78f6-41bc-a26a-c761ee1671a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2011-09-22* — After the ability resolves, Trench Gorger’s power and toughness won’t change if one of the exiled cards leaves exile.
+  - *2011-09-22* — If Trench Gorger leaves the battlefield before its triggered ability resolves, you may still search your library.
+  - *2011-09-22* — If you choose not to search, Trench Gorger will simply be 6/6.
+  - *2011-09-22* — While Trench Gorger’s ability is on the stack, it’s on the battlefield as a 6/6.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmd/65/trench-gorger) · oracle_id `a5e37c6e-ae42-4c98-ba20-840ea3c4a6ab` · printing: CMD #65 (2011-06-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trenching Steed
 
@@ -896,6 +979,7 @@
 - **Flavor text** (PCY printing):
   > *The Keldons took several of the steeds as trophies of war. They'd never seen such a light beast stand so firm.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27618 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcy/26/trenching-steed) · oracle_id `31136103-535a-4d11-819a-1cbd57ad48a4` · printing: PCY #26 (2000-06-05) · [rulings](https://api.scryfall.com/cards/9a359837-2e41-4ddc-9299-89a783d62014/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trenchpost
@@ -922,7 +1006,9 @@
 - **Flavor text** (BRO printing):
   > *It can hear a panicked heartbeat from a thousand paces away.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28473 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/116/trench-stalker) · oracle_id `5a0c215a-2164-4cb8-89ff-2558b6b42dca` · printing: BRO #116 (2022-11-18) · [rulings](https://api.scryfall.com/cards/aa1b987a-a3b9-4cd1-85b0-e58df4130934/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-14* — Trench Stalker doesn't need to have been on the battlefield when you drew the cards. If you draw two cards, then play Trench Stalker, it has deathtouch and lifelink this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/116/trench-stalker) · oracle_id `5a0c215a-2164-4cb8-89ff-2558b6b42dca` · printing: BRO #116 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trench Wurm
 
@@ -935,6 +1021,7 @@
   > *"Their arrival marks the end of Yawgmoth's subtlety."*
   > *—Urza*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29528 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/127/trench-wurm) · oracle_id `9cf65178-6408-46da-a940-f5cb0960b61f` · printing: INV #127 (2000-10-02) · [rulings](https://api.scryfall.com/cards/1b076f85-d1bf-491a-af9d-f35b8e1bd163/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trendy Circus Pirate
@@ -948,6 +1035,7 @@
   > {TK}{TK}{TK} — 3/6
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/2/trendy-circus-pirate) · oracle_id `eb980d94-2860-4fe5-85e0-2757985721f1` · printing: SUNF #2 (2022-10-07) · [rulings](https://api.scryfall.com/cards/96cc18d9-edf1-4cb5-bb0d-a33d380c7d94/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treno, Dark City
@@ -1001,7 +1089,10 @@
 - **Flavor text** (UNF printing):
   > *"All you gotta do is walk with purpose. And run with purpose. And clear a five-foot gate with purpose."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27666 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/61/_____-_____-_____-trespasser) · oracle_id `75854e14-5f15-443d-b342-b27fc3ab4b6e` · printing: UNF #61 (2022-10-07) · [rulings](https://api.scryfall.com/cards/1cacc52b-9e52-42d3-a152-0c96ff55ab44/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-07* — Activating the last ability after blockers have been declared won’t change or undo any blocks.
+  - *2022-10-07* — You can activate this creature’s last ability even if it doesn’t have any name stickers on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/61/_____-_____-_____-trespasser) · oracle_id `75854e14-5f15-443d-b342-b27fc3ab4b6e` · printing: UNF #61 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trespasser il-Vec
 
@@ -1013,7 +1104,9 @@
 - **Flavor text** (TSR printing):
   > *At the epicenter of the Rathi overlay, the City of Traitors did not align with Dominaria. Many of its inhabitants were caught between the two worlds.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26504 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/147/trespasser-il-vec) · oracle_id `90980841-4994-453c-a076-6cdf8d85c809` · printing: TSR #147 (2021-03-19) · [rulings](https://api.scryfall.com/cards/278421ff-5324-44e5-b24f-dfbf9aa9b604/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — You can activate Trespasser il-Vec's ability as many times as you can afford to pay the cost, even if it already has shadow. Multiple instances of shadow on the same creature are redundant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/147/trespasser-il-vec) · oracle_id `90980841-4994-453c-a076-6cdf8d85c809` · printing: TSR #147 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trespasser's Curse
 
@@ -1041,6 +1134,7 @@
   > *"We thank the souleaters for surveilling our lives that we may be preserved from our own ignorance."*
   > *—Drones' hymn of gratitude*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27139 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nph/163/trespassing-souleater) · oracle_id `4d19b4d1-49d1-44e9-a453-dcb08b5fa6e4` · printing: NPH #163 (2011-05-13) · [rulings](https://api.scryfall.com/cards/b5263269-9f64-43de-9e82-408644dbc628/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tresserhorn Sinks
@@ -1056,6 +1150,7 @@
   > *Pray that Springtime loose his hold."*
   > *—\*The Dynasty of Winter Kings\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20273 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/150/tresserhorn-sinks) · oracle_id `74a6597c-13ea-47bd-adb3-45671897b11b` · printing: CSP #150 (2006-07-21) · [rulings](https://api.scryfall.com/cards/4bd8fe2c-2297-4e19-8a87-01eb99b8c6dc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tresserhorn Skyknight
@@ -1070,7 +1165,10 @@
   > *Kjeldorans who fled battle were exiled to the wastes. Those who strayed near Tresserhorn were pressed into service in Haakon's army.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31058 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/csp/73/tresserhorn-skyknight) · oracle_id `df344469-1177-4168-91af-3621b2a65182` · printing: CSP #73 (2006-07-21) · [rulings](https://api.scryfall.com/cards/b852d9f9-069d-419a-b8d1-db30c72aaac6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2006-07-15* — All damage (not just combat damage and not just first-strike combat damage) that would be dealt to Tresserhorn Skyknight by creatures with first strike is prevented.
+  - *2006-07-15* — Damage that would be dealt to Tresserhorn Skyknight by creatures with double strike is dealt as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/csp/73/tresserhorn-skyknight) · oracle_id `df344469-1177-4168-91af-3621b2a65182` · printing: CSP #73 (2006-07-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tresserhorn's Lord, Returned
 
@@ -1085,6 +1183,7 @@
   > *In Lim-Dûl's stead may he forever reign.*
 - **Keywords:** Indestructible, Trample
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #26681 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/52/tresserhorns-lord-returned) · oracle_id `11cc638c-b1c5-4b73-8eac-00cac6ae32b6` · printing: MBC #52 (2026-10-19) · [rulings](https://api.scryfall.com/cards/d58e9893-c05d-4ab0-93b8-b2754ed24e5d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trestle Troll
@@ -1100,6 +1199,7 @@
   > *Unwelcome in Golgari colonies, he found his own dark place from which to represent the Swarm.*
 - **Keywords:** Reach, Regenerate, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27198 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rtr/205/trestle-troll) · oracle_id `8661d773-3b92-4fcf-8ffc-aced1ff7be8a` · printing: RTR #205 (2012-10-05) · [rulings](https://api.scryfall.com/cards/6d224279-83f3-4a29-9fd9-86b72407b87a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treva's Attendant
@@ -1112,6 +1212,7 @@
 - **Flavor text** (INV printing):
   > *"Treva is the voice of the ur-dragon, demanding cries of worship."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31118 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/315/trevas-attendant) · oracle_id `ff7d927f-0a01-4243-ad00-c65686ee86bb` · printing: INV #315 (2000-10-02) · [rulings](https://api.scryfall.com/cards/9857af81-fb95-4dc4-b048-9ce4e96d1eca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treva's Charm
@@ -1124,6 +1225,7 @@
   > • Exile target attacking creature.
   > • Draw a card, then discard a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18871 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dde/61/trevas-charm) · oracle_id `e9795590-0918-49f9-b37c-1278c8616ab1` · printing: DDE #61 (2010-03-19) · [rulings](https://api.scryfall.com/cards/f63c6e81-8d78-4f20-b572-6015385e03ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treva's Ruins
@@ -1134,7 +1236,10 @@
   > When this land enters, sacrifice it unless you return a non-Lair land you control to its owner's hand.
   > {T}: Add {G}, {W}, or {U}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10530 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/260/trevas-ruins) · oracle_id `7b2c7758-2b89-49ff-8838-8dc9880c7209` · printing: DMR #260 (2023-01-13) · [rulings](https://api.scryfall.com/cards/4f39366c-00df-4528-a324-6a89d0c53f0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — If you don't want to unsummon a land, you can play this card then tap it for mana before the enters ability resolves. You may then choose to sacrifice it instead of unsummoning a land.
+  - *2005-08-01* — This land is of type "Lair" only; other subtypes have been removed. It is not a basic land.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/260/trevas-ruins) · oracle_id `7b2c7758-2b89-49ff-8838-8dc9880c7209` · printing: DMR #260 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treva, the Renewer
 
@@ -1146,4 +1251,6 @@
   > Whenever Treva deals combat damage to a player, you may pay {2}{W}. If you do, choose a color, then you gain 1 life for each permanent of that color.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21674 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dde/49/treva-the-renewer) · oracle_id `72524f3c-674b-4ebf-9526-18737b354010` · printing: DDE #49 (2010-03-19) · [rulings](https://api.scryfall.com/cards/74ee66b2-5b69-461b-9590-1143adc692af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You choose the color during resolution. This means your opponent does not get to react after knowing the color you chose.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dde/49/treva-the-renewer) · oracle_id `72524f3c-674b-4ebf-9526-18737b354010` · printing: DDE #49 (2010-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

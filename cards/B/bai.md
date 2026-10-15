@@ -61,4 +61,12 @@
   > *Even in death, he casts his lines, forever fishing for reasons long forgotten.*
 - **Keywords:** Flying, Transform, Disturb
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25995 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/42/baithook-angler-hook-haunt-drifter) · oracle_id `c6bb4b41-8dae-429a-b928-ae9d39c74711` · printing: MID #42 (2021-09-24) · [rulings](https://api.scryfall.com/cards/36e71d16-0964-489d-bea2-9cec7991fc99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-09-24* — "Disturb [cost]" means "You may cast this card transformed from your graveyard by paying [cost] rather than its mana cost."
+  - *2021-09-24* — A spell cast this way enters the battlefield with its back face up.
+  - *2021-09-24* — Disturb is found only on the front faces of some double-faced cards.
+  - *2021-09-24* — If you copy a permanent spell cast this way (perhaps with a card like Double Major), the copy becomes a token that's a copy of the card's back face, even though it isn't itself a double-faced card.
+  - *2021-09-24* — The back face of each card with disturb has an ability that instructs its controller to exile if it would be put into a graveyard from anywhere. This includes going to the graveyard from the stack, so if the spell is countered after you cast it using the disturb ability, it will be put into exile.
+  - *2021-09-24* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a disturb cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using disturb is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was. (This is a special rule that applies only to nonmodal double faced-cards, including ones with disturb.)
+  - *2021-09-24* — When you cast a spell using a card's disturb ability, the card is put onto the stack with its back face up. The resulting spell has all the characteristics of that face.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/42/baithook-angler-hook-haunt-drifter) · oracle_id `c6bb4b41-8dae-429a-b928-ae9d39c74711` · printing: MID #42 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

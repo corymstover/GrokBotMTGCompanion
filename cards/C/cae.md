@@ -21,6 +21,7 @@
 - **Flavor text** (DFT printing):
   > *For centuries, she grew in her benthic home, safe from Muraganda's moonfalls, feeding on the raw leylines that run below the water. When she emerged, the coral depths she called home came with her.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10147 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/40/caelorna-coral-tyrant) · oracle_id `4bbc5df9-60d7-46c1-8856-91c9c74abf18` · printing: DFT #40 (2025-02-14) · [rulings](https://api.scryfall.com/cards/e8654e38-4230-4094-b815-778bfb5d06f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caesar, Legion's Emperor

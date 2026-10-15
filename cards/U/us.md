@@ -22,6 +22,7 @@
 - **Flavor text** (MSH printing):
   > *"Rogers can talk all he wants about unity and dreams. Enemies understand strength."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25912 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/236/usagent-john-walker) · oracle_id `2b6fa8b6-4865-4eb6-974b-00f6b16b6f0f` · printing: MSH #236 (2026-06-26) · [rulings](https://api.scryfall.com/cards/35e11911-799c-4d82-9109-3ca27964bef0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Usher of the Fallen
@@ -35,7 +36,12 @@
   > *"I have led ten thousand through these mists and never lost the way."*
 - **Keywords:** Boast
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19455 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/35/usher-of-the-fallen) · oracle_id `a6eb06dc-a62d-4fdb-b336-e304d8d68c92` · printing: KHM #35 (2021-02-05) · [rulings](https://api.scryfall.com/cards/24e58478-c6a8-4f86-854a-a489c99bd777/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-02-05* — A boast ability can be activated at any point after the creature with that ability has been declared as an attacker. This can be before blockers are declared, after blockers are declared but before combat damage is dealt, during combat after combat damage is dealt, during the postcombat main phase, during the end step, or, in some unusual cases, during the cleanup step.
+  - *2021-02-05* — If a creature with a boast ability is put onto the battlefield attacking, it was never declared as an attacker. Its boast ability can't be activated that turn.
+  - *2021-02-05* — If an effect adds additional combat phases to a turn and a creature with a boast ability attacks more than once during that turn, its boast ability can still be activated only once.
+  - *2021-02-05* — If it's not your turn and you gain control of a creature with a boast ability after that creature attacked, you can activate that creature's boast ability if it hasn't been activated yet that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/35/usher-of-the-fallen) · oracle_id `a6eb06dc-a62d-4fdb-b336-e304d8d68c92` · printing: KHM #35 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### U.S.S. Enterprise-D, Galaxy-Class
 
@@ -48,4 +54,5 @@
   > 7+ | Flying, vigilance
 - **Keywords:** Station
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #27098 · Game Changer: no · Can be commander: Yes (legendary Spacecraft with P/T, CR 903.3)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/273/uss-enterprise-d-galaxy-class) · oracle_id `d95af032-3efd-40c7-8229-ade9d974934f` · printing: TRK #273 (2026-11-13) · [rulings](https://api.scryfall.com/cards/057a4413-6a17-491e-bfd7-6cd427b1a442/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

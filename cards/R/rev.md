@@ -72,7 +72,9 @@
   > *"The sands obscure the vision of others, but clarify ours."*
   > *—Faiso, Dromoka commander*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24624 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/197/revealing-wind) · oracle_id `905a6d6c-5ef8-4afa-89bb-9d85a854743f` · printing: DTK #197 (2015-03-27) · [rulings](https://api.scryfall.com/cards/36bdd624-e412-4ec8-9929-e1f6b4720e82/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-02-25* — You can cast Revealing Wind even if there are no face-down creatures attacking or blocking. The damage-prevention effect will still apply.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/197/revealing-wind) · oracle_id `905a6d6c-5ef8-4afa-89bb-9d85a854743f` · printing: DTK #197 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reveillark
 
@@ -105,6 +107,7 @@
 - **Flavor text** (PCY printing):
   > *"To arms! To arms! The Lion roars!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17975 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcy/18/reveille-squad) · oracle_id `2531eb1a-ae24-450a-b8e8-dbbd65eaad64` · printing: PCY #18 (2000-06-05) · [rulings](https://api.scryfall.com/cards/8f6385bb-18f9-461b-b541-3c2a5e59189b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reveka, Wizard Savant
@@ -118,7 +121,9 @@
   > *"It's nice to see a sister Dwarf in a position of such power, but why'd it have to be one of those seafaring muleheads?"*
   > *—Halina, Dwarven Trader*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24619 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/49/reveka-wizard-savant) · oracle_id `7085d5c6-da96-465e-90cf-8469fcacb474` · printing: ME3 #49 (2009-09-07) · [rulings](https://api.scryfall.com/cards/27c32cc5-b4da-4345-9118-1fe46a5049cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — Reveka's effect causes it not to untap during _your_ next untap step. If another player gains control of it, it will untap during that player's next untap step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/49/reveka-wizard-savant) · oracle_id `7085d5c6-da96-465e-90cf-8469fcacb474` · printing: ME3 #49 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revelation
 
@@ -129,7 +134,9 @@
 - **Flavor text** (CHR printing):
   > *"Many are in high place, and of renown: but mysteries are revealed unto the meek." —Ecclesiasticus 3:19*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22013 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/chr/68/revelation) · oracle_id `251ff4e4-3be4-424e-8dd7-eb4ede7b415c` · printing: CHR #68 (1995-07-01) · [rulings](https://api.scryfall.com/cards/d467517a-1e6f-4c1f-adb5-bf60df1284e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — This has the supertype world. When a world permanent enters, any world permanents that were already on the battlefield are put into their owners' graveyards. This is a state-based action called the "world rule." The new world permanent stays on the battlefield. If two world permanents enter at the same time, they're both put into their owners' graveyards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chr/68/revelation) · oracle_id `251ff4e4-3be4-424e-8dd7-eb4ede7b415c` · printing: CHR #68 (1995-07-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revelation of Power
 
@@ -140,6 +147,7 @@
 - **Flavor text** (SNC printing):
   > *As Ob Nixilis closed in, Halo swept through Giada like an electrical current, and inside her, something long dormant unfurled its wings.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22766 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/28/revelation-of-power) · oracle_id `287f60a6-e83b-487b-add9-2048a06dcca1` · printing: SNC #28 (2022-04-29) · [rulings](https://api.scryfall.com/cards/7e010b11-8f3e-4792-afe4-0a376650b6c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revel in Riches
@@ -168,6 +176,7 @@
   > *"Xenagos has fallen, and the world grows dark without him. What can ever fill that darkness but our rage?"*
   > *—Guruthes, disciple of Xenagos*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22337 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/155/revel-of-the-fallen-god) · oracle_id `5d46b8dd-2a4a-4d9f-b4c6-2b45f05081c2` · printing: JOU #155 (2014-05-02) · [rulings](https://api.scryfall.com/cards/e1d2c774-aab9-4747-af91-da792ed7cfe1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revel Ruiner
@@ -180,7 +189,11 @@
   > When this creature enters, it connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on this creature.)
 - **Keywords:** Menace, Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25177 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/91/revel-ruiner) · oracle_id `adfb28ca-2ba6-4104-b731-f8fd9367f7ec` · printing: SNC #91 (2022-04-29) · [rulings](https://api.scryfall.com/cards/e3fbe7f0-8a91-4832-8953-54ab3669372c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-04-29* — If a resolving spell or ability instructs a specific creature to connive but that creature has left the battlefield, the creature still connives. If you discard a nonland card this way, you won't put a +1/+1 counter on anything. Abilities that trigger “when [that creature] connives” will trigger.
+  - *2022-04-29* — If no card is discarded, most likely because that player's hand is empty and an effect says they can't draw cards, the conniving creature does not receive a +1/+1 counter.
+  - *2022-04-29* — Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard a nonland card but before it receives a counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/91/revel-ruiner) · oracle_id `adfb28ca-2ba6-4104-b731-f8fd9367f7ec` · printing: SNC #91 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revelsong Horn
 
@@ -191,6 +204,7 @@
 - **Flavor text** (SHM printing):
   > *A deflated sigh breathed into the horn emerges as an inspiring melody.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29431 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/261/revelsong-horn) · oracle_id `d80d87f5-af9e-404b-88e3-7a4b419dc32c` · printing: SHM #261 (2008-05-02) · [rulings](https://api.scryfall.com/cards/10a4801c-fa69-47a0-bdfa-f5f110fd0976/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revenant
@@ -206,7 +220,11 @@
   > *—Hans*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19556 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/147/revenant) · oracle_id `05fc62d3-9b3c-409a-a623-9f81f395a5a0` · printing: CMR #147 (2020-11-20) · [rulings](https://api.scryfall.com/cards/307a8465-9e33-4441-b512-a112e8524328/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-11-10* — As long as Revenant is in your graveyard, its ability will count itself.
+  - *2020-11-10* — If Revenant is dealt lethal damage at the same time as another creature you control, both die at the same time. The other creature won't die in time to raise Revenant's toughness.
+  - *2020-11-10* — The ability that defines Revenant's power and toughness applies in all zones, not just the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/147/revenant) · oracle_id `05fc62d3-9b3c-409a-a623-9f81f395a5a0` · printing: CMR #147 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revenant Patriarch
 
@@ -217,6 +235,7 @@
   > When this creature enters, if {W} was spent to cast it, target player skips their next combat phase.
   > This creature can't block.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29937 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddk/16/revenant-patriarch) · oracle_id `942f6260-055e-4cc7-bec6-3a46fd4b048e` · printing: DDK #16 (2013-03-15) · [rulings](https://api.scryfall.com/cards/52f23f01-67f0-49d3-b907-6203976cdf4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revenge of Ravens
@@ -241,7 +260,12 @@
 - **Flavor text** (MID printing):
   > *A heavy net doesn't always mean a good catch.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22237 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/72/revenge-of-the-drowned) · oracle_id `d5d869bc-8996-4d19-9e32-d1cfb968875c` · printing: MID #72 (2021-09-24) · [rulings](https://api.scryfall.com/cards/93be7d72-927a-40ce-8de4-04a3f21c134b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-09-24* — Decayed does not create any attacking requirements. You may choose not to attack with a creature that has decayed.
+  - *2021-09-24* — Decayed does not grant haste. Creatures with decayed that enter the battlefield during your turn may not attack until your next turn.
+  - *2021-09-24* — Decayed represents a static ability and a triggered ability. "Decayed" means "This creature can't block" and "When this creature attacks, sacrifice it at end of combat."
+  - *2021-09-24* — Once a creature with decayed attacks, it will be sacrificed at end of combat, even if it no longer has decayed at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/72/revenge-of-the-drowned) · oracle_id `d5d869bc-8996-4d19-9e32-d1cfb968875c` · printing: MID #72 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revenge of the Hunted
 
@@ -252,6 +276,7 @@
   > Miracle {G} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)
 - **Keywords:** Miracle
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17196 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/avr/191/revenge-of-the-hunted) · oracle_id `6292edfc-d75b-465e-9e10-9d259551b1a5` · printing: AVR #191 (2012-05-04) · [rulings](https://api.scryfall.com/cards/36f7d663-115c-4ad0-a072-633df054cce4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revenge of the Rats
@@ -302,6 +327,7 @@
   > At the beginning of each combat, if you've cast two or more spells this turn, this enchantment becomes a 3/3 Monk creature with haste in addition to its other types until end of turn.
   > {1}{R}, Discard your hand, Sacrifice this enchantment: Draw two cards.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24211 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/117/reverberating-summons) · oracle_id `1fd78bf7-43ba-4e09-834b-14bfc1fd9d0d` · printing: TDM #117 (2025-04-11) · [rulings](https://api.scryfall.com/cards/1af19ce8-bc0c-420c-9e3b-9059b4df32cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reverberation
@@ -311,7 +337,9 @@
 - **Oracle text:**
   > All damage that would be dealt this turn by target sorcery spell is dealt to that spell's controller instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29828 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/leg/74/reverberation) · oracle_id `d3088e1d-62c9-4478-9ef7-fc3c9e5cfadb` · printing: LEG #74 (1994-06-01) · [rulings](https://api.scryfall.com/cards/a3d1f470-058d-41b7-acaf-4f68431de9ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — If used on a sorcery which does damage to multiple creatures and/or players, it will cause that player to take damage equal to the sum of all damage inflicted by the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/leg/74/reverberation) · oracle_id `d3088e1d-62c9-4478-9ef7-fc3c9e5cfadb` · printing: LEG #74 (1994-06-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revered Dead
 
@@ -325,6 +353,7 @@
   > *—Golas Mahr, black knight*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29850 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/plc/29/revered-dead) · oracle_id `96a57ce0-f1ab-4af7-8c18-8e35aad11780` · printing: PLC #29 (2007-02-02) · [rulings](https://api.scryfall.com/cards/f9a78d5c-27f8-4061-be89-0246fb69e752/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revered Elder
@@ -337,6 +366,7 @@
 - **Flavor text** (MMQ printing):
   > *The Cho-Arrim worship life and revere those who've experienced it longest.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32086 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/43/revered-elder) · oracle_id `e8d18dc7-f44b-47f6-8400-3f563c2f19b7` · printing: MMQ #43 (1999-10-04) · [rulings](https://api.scryfall.com/cards/b0793175-e56b-4ff8-9e22-3a96a698068c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revered Unicorn
@@ -352,7 +382,10 @@
   > *—Hanna, \*Weatherlight\* navigator*
 - **Keywords:** Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25710 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/wth/23/revered-unicorn) · oracle_id `18a8b50b-2328-459b-979d-04c4c769e569` · printing: WTH #23 (1997-06-09) · [rulings](https://api.scryfall.com/cards/8c642dd2-1a3e-4b08-917e-6e8aed358b72/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-04-01* — If you choose not to pay Revered Unicorn’s cumulative upkeep, it will still get an age counter before being sacrificed, which impacts the amount of life you gain.
+  - *2008-04-01* — Revered Unicorn’s leaves-the-battlefield ability triggers no matter how it leaves the battlefield, not just when you don’t pay its cumulative upkeep.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wth/23/revered-unicorn) · oracle_id `18a8b50b-2328-459b-979d-04c4c769e569` · printing: WTH #23 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reverence
 
@@ -364,7 +397,9 @@
   > *"Despite the massive forces that allied against him, Konda never once believed he would lose the Kami War."*
   > *—Masako the Humorless*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14336 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sok/26/reverence) · oracle_id `60963292-2dee-4b1c-9c1c-c35cf8ea3496` · printing: SOK #26 (2005-06-03) · [rulings](https://api.scryfall.com/cards/4d5e65e1-be52-4023-81cc-ee4948444195/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-02-01* — Unless some effect explicitly says otherwise, a creature that can’t attack you can still attack a planeswalker you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sok/26/reverence) · oracle_id `60963292-2dee-4b1c-9c1c-c35cf8ea3496` · printing: SOK #26 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reverent Hoplite
 
@@ -395,6 +430,7 @@
 - **Flavor text** (HOB printing):
   > *The grey chief spoke in their dreadful language, and every now and then all the Wargs in the circle would answer together.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16505 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/81/reverent-howl) · oracle_id `86214b4c-a3ad-4372-b5fe-8f742a7a3d4c` · printing: HOB #81 (2026-08-14) · [rulings](https://api.scryfall.com/cards/16765eb2-d497-4cd6-b683-20eac2f10bbf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reverent Hunter
@@ -405,7 +441,12 @@
 - **Oracle text:**
   > When this creature enters, put a number of +1/+1 counters on it equal to your devotion to green. (Each {G} in the mana costs of permanents you control counts toward your devotion to green.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19266 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/173/reverent-hunter) · oracle_id `7b4502bc-9ece-4fd2-978d-bcfdb9358475` · printing: THS #173 (2013-09-27) · [rulings](https://api.scryfall.com/cards/97b4e736-d19a-42ac-8bcb-b8e6b7b7b539/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-09-15* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2013-09-15* — If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it's still on the battlefield at that time.
+  - *2013-09-15* — Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
+  - *2013-09-15* — Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/173/reverent-hunter) · oracle_id `7b4502bc-9ece-4fd2-978d-bcfdb9358475` · printing: THS #173 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reverent Mantra
 
@@ -415,6 +456,7 @@
   > You may exile a white card from your hand rather than pay this spell's mana cost.
   > Choose a color. All creatures gain protection from the chosen color until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13511 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/44/reverent-mantra) · oracle_id `b4f7b1eb-6cd4-40f9-b259-3c39291edf27` · printing: MMQ #44 (1999-10-04) · [rulings](https://api.scryfall.com/cards/48364e19-a3ea-4980-925f-7918e57315f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reverent Silence
@@ -425,6 +467,7 @@
   > If you control a Forest, rather than pay this spell's mana cost, you may have each other player gain 6 life.
   > Destroy all enchantments.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17385 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/111/reverent-silence) · oracle_id `e670d1c9-5e28-4df8-aad9-d08d19dc74e9` · printing: NEM #111 (2000-02-14) · [rulings](https://api.scryfall.com/cards/b82d3432-2167-4a65-8221-cb7b338e60d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reversal of Fortune
@@ -436,7 +479,17 @@
 - **Flavor text** (5DN printing):
   > *"Why learn hundreds of spells when you can learn only one and use it to steal hundreds?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21192 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/77/reversal-of-fortune) · oracle_id `938ba053-35f6-4424-a978-bf915709572c` · printing: 5DN #77 (2004-06-04) · [rulings](https://api.scryfall.com/cards/19cf87c0-369e-4ec2-bb9f-e8e29d63d448/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2004-12-01* — If the copied card is a split card, you may choose to cast either side of the split card but not both.
+  - *2004-12-01* — If you don’t want to cast the copy, you can choose not to; the copy ceases to exist the next time state-based actions are checked.
+  - *2004-12-01* — Reversal of Fortune creates a copy of the card in the other player’s hand, then allows you to cast the copy from that player’s hand without paying its mana cost.
+  - *2004-12-01* — The spell is cast from your opponent’s hand, not yours, which can be important for some cards.
+  - *2004-12-01* — You can’t cast the copy if an effect prevents you from casting instants or sorceries, or from casting that particular instant or sorcery. It doesn’t matter whether your opponent can cast the card at this time; the only thing that matters is whether you can cast it.
+  - *2004-12-01* — You can’t cast the copy unless all of its targets, if any, can be chosen.
+  - *2004-12-01* — You cast the copy while this ability is resolving and still on the stack. Normally, you’re not allowed to cast spells or activate abilities at this time. Reversal of Fortune provides an exception.
+  - *2004-12-01* — You don’t pay the spell’s mana cost. If the spell has X in its mana cost, X is 0. You do pay any additional costs for that spell. You can’t use any alternative costs.
+  - *2005-03-01* — The creation of the copy and then the casting of the copy are both optional.
+- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/77/reversal-of-fortune) · oracle_id `938ba053-35f6-4424-a978-bf915709572c` · printing: 5DN #77 (2004-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reverse Damage
 
@@ -448,7 +501,9 @@
   > *"My enemy's hatred is his weakness. My enemy's anger is my strength."*
   > *—Remin, venerable monk*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19008 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/9ed/35/reverse-damage) · oracle_id `eaaf7c30-f463-4115-a40e-7dc717063413` · printing: 9ED #35 (2005-07-29) · [rulings](https://api.scryfall.com/cards/5f938c52-c7f6-41a4-b480-632b43b60b67/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It only affects damage dealt by the source one time. If the source damages you a second time this turn, the damage will not be reversed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/9ed/35/reverse-damage) · oracle_id `eaaf7c30-f463-4115-a40e-7dc717063413` · printing: 9ED #35 (2005-07-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reverse Engineer
 
@@ -482,6 +537,7 @@
   > Ustujnin {B} ({B}, Return a blocking creature you control to hand: Put this card onto the battlefield from your hand blocking the same creature.)
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/CB02/reverse-ninja) · oracle_id `ef59c3c6-4e99-4d84-9a94-878cc02326b9` · printing: UNK #CB02 (2025-06-20) · [rulings](https://api.scryfall.com/cards/a569ff3d-e972-49b5-9f92-89983262a3d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reverse Polarity
@@ -491,6 +547,7 @@
 - **Oracle text:**
   > You gain X life, where X is twice the damage dealt to you so far this turn by artifacts.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30028 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sum/36/reverse-polarity) · oracle_id `c7076e2c-81f1-44ad-a4dd-45a01802d364` · printing: SUM #36 (1994-06-21) · [rulings](https://api.scryfall.com/cards/1e89856a-2496-41b2-b90c-ed42b02980cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reverse the Polarity
@@ -519,7 +576,10 @@
 - **Flavor text** (C16 printing):
   > *Worse than the years of aging was the burden of memory. The young monk lost his youth and gained a vicarious lifetime of hardship and woe.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12323 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c16/75/reverse-the-sands) · oracle_id `b353f0ab-266c-4448-b93b-fafb68b03765` · printing: C16 #75 (2016-11-11) · [rulings](https://api.scryfall.com/cards/b6d56ce1-fb5d-47c6-961d-65b544a48b32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-12-01* — You can’t split up a life total when you redistribute it. For example, suppose that in a two-player game your life total is 5 and your opponent’s life total is 15 when Reverse the Sands starts to resolve. You can choose to (a) leave the life totals as they are or (b) make your life total 15 and your opponent’s 5. You can’t choose to make your life total 20 and your opponent’s 0.
+  - *2004-12-01* — You choose which player gets which life total when the spell resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c16/75/reverse-the-sands) · oracle_id `b353f0ab-266c-4448-b93b-fafb68b03765` · printing: C16 #75 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revitalize
 
@@ -566,7 +626,10 @@
 - **Flavor text** (C21 printing):
   > *What goes into the vivipods never quite matches what comes out.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20206 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/74/revival-experiment) · oracle_id `913ec957-5f4e-46b4-a819-9448837f72a3` · printing: C21 #74 (2021-04-23) · [rulings](https://api.scryfall.com/cards/cd50007c-5883-4f0c-80c3-41f13f463908/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-04-16* — The cards you return are chosen as Revival Experiment resolves. No player can respond to those choices.
+  - *2021-04-16* — The permanent types are artifact, creature, enchantment, land, and planeswalker. Things like “legendary” or “snow” are supertypes, not types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/74/revival-experiment) · oracle_id `913ec957-5f4e-46b4-a819-9448837f72a3` · printing: C21 #74 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revival of the Ancestors
 
@@ -578,6 +641,7 @@
   > II — Distribute three +1/+1 counters among one, two, or three target creatures you control.
   > III — Creatures you control gain trample and lifelink until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11672 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/218/revival-of-the-ancestors) · oracle_id `5a848c1f-d11a-42fb-b9ce-663901fc9555` · printing: TDM #218 (2025-04-11) · [rulings](https://api.scryfall.com/cards/fd742ff5-f0ea-4f4b-911e-4c09e2154dba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revival // Revenge
@@ -610,6 +674,7 @@
 - **Flavor text** (MM3 printing):
   > *Even what is lost beyond recall returns when coaxed by a dryad's hand.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12724 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm3/133/revive) · oracle_id `51991d28-137e-4690-a674-d852b904bd1a` · printing: MM3 #133 (2017-03-17) · [rulings](https://api.scryfall.com/cards/1b365778-1678-4c1f-ae32-7671a1429a3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revive the Fallen
@@ -620,7 +685,10 @@
   > Return target creature card from a graveyard to its owner's hand. Clash with an opponent. If you win, return Revive the Fallen to its owner's hand. (Each clashing player reveals the top card of their library, then puts that card on their choice of the top or bottom. A player wins if their card had a greater mana value.)
 - **Keywords:** Clash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12527 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mor/76/revive-the-fallen) · oracle_id `2f857ef6-c1e5-4b85-b3fb-8163be4895b5` · printing: MOR #76 (2008-02-01) · [rulings](https://api.scryfall.com/cards/8b0aa3c8-9e11-4917-956b-35b77a100761/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-04-01* — If the spell is countered or doesn't resolve for any reason (for example, if all its targets become illegal), none of its effects happen. There is no clash, and the spell card won't be returned to your hand.
+  - *2008-04-01* — If you win the clash, the spell moves from the stack to your hand as part of its resolution. It never hits the graveyard. If you don't win the clash, the spell is put into the graveyard from the stack as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mor/76/revive-the-fallen) · oracle_id `2f857ef6-c1e5-4b85-b3fb-8163be4895b5` · printing: MOR #76 (2008-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revive the Shire
 
@@ -661,6 +729,7 @@
 - **Flavor text** (CN2 printing):
   > *Samite healers never mix their pungent elixir with sweetener or tea. The threat of a second dose is enough to get most warriors back on their feet.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22058 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/97/reviving-dose) · oracle_id `ad470afc-d1a5-4e64-8192-fb6308ed9bfe` · printing: CN2 #97 (2016-08-26) · [rulings](https://api.scryfall.com/cards/9a2b2de2-7427-42df-b6ad-b159a0f6a13a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reviving Melody
@@ -674,7 +743,10 @@
 - **Flavor text** (JOU printing):
   > *"Listen to my song, and you need never forge a golden mask to return to me."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19273 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jou/138/reviving-melody) · oracle_id `4834e6f2-1544-4e58-9092-ecc136cc0dee` · printing: JOU #138 (2014-05-02) · [rulings](https://api.scryfall.com/cards/49b152cc-d39f-470e-8b62-e4a833db7b88/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-04-26* — If you choose both modes, and only one of the cards is still a legal target when Reviving Melody tries to resolve, only that card is returned to your hand.
+  - *2014-04-26* — You choose which mode you're using—or whether to use both modes—as you're casting the spell. Once this choice is made, it can't be changed later while the spell is on the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jou/138/reviving-melody) · oracle_id `4834e6f2-1544-4e58-9092-ecc136cc0dee` · printing: JOU #138 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reviving Vapors
 
@@ -683,7 +755,9 @@
 - **Oracle text:**
   > Reveal the top three cards of your library and put one of them into your hand. You gain life equal to that card's mana value. Put all other cards revealed this way into your graveyard.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28306 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/205/reviving-vapors) · oracle_id `57104a79-cfb6-4330-8ea1-7726534ada56` · printing: UMA #205 (2018-12-07) · [rulings](https://api.scryfall.com/cards/b7a6c902-4705-4210-8e5e-08d6a6f67573/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-12-07* — If a card in a player’s library has {X} in its mana cost, X is considered to be 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/205/reviving-vapors) · oracle_id `57104a79-cfb6-4330-8ea1-7726534ada56` · printing: UMA #205 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revoke Demise
 
@@ -695,7 +769,10 @@
 - **Flavor text** (J25 printing):
   > *"Arise, sister. Our journey has only just begun."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19721 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/j25/10/revoke-demise) · oracle_id `83f0b573-58a0-457d-80e5-6e0b690e5f4e` · printing: J25 #10 (2024-11-15) · [rulings](https://api.scryfall.com/cards/5503c9aa-faac-427b-9e6e-5272d1b407a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — If the target creature card is an illegal target as Revoke Demise tries to resolve, it won't resolve and none of its effects will happen. You won't gain life.
+  - *2024-11-08* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/j25/10/revoke-demise) · oracle_id `83f0b573-58a0-457d-80e5-6e0b690e5f4e` · printing: J25 #10 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revoke Existence
 
@@ -721,6 +798,7 @@
   > *"By order of Consulate Mandate 482, I am required to detain you, citizen."*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26835 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/26/revoke-privileges) · oracle_id `60b2f991-47ef-4da3-ba61-0692695ea098` · printing: KLD #26 (2016-09-30) · [rulings](https://api.scryfall.com/cards/84e44502-f4e4-440a-92b1-97bfb6314820/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revolutionary Rebuff
@@ -732,6 +810,7 @@
 - **Flavor text** (KLD printing):
   > *By the time a Consulate sanction becomes official, the renegade quicksmiths have already found a way to circumvent it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22311 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/61/revolutionary-rebuff) · oracle_id `879c8663-5058-4998-9a59-f2e9ea8914dc` · printing: KLD #61 (2016-09-30) · [rulings](https://api.scryfall.com/cards/6ea63dad-6afe-464e-ab19-fabd9709c6f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revolutionist
@@ -744,7 +823,17 @@
   > Madness {3}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
 - **Keywords:** Madness
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12728 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/139/revolutionist) · oracle_id `d00607b1-77ce-4b89-ad04-763d0d390c5c` · printing: MH2 #139 (2021-06-18) · [rulings](https://api.scryfall.com/cards/bb8f3008-a3ba-4f73-afa6-ad81074b3196/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2022-12-08* — A card with madness that's discarded counts as having been discarded even though it's put into exile rather than a graveyard. If it was discarded to pay a cost, that cost is still paid. Abilities that trigger when a card is discarded will still trigger.
+  - *2022-12-08* — A spell cast for its madness cost is put onto the stack like any other spell. It can be countered, copied, and so on. As it resolves, it's put onto the battlefield if it's a permanent card or into its owner's graveyard if it's an instant or sorcery card.
+  - *2022-12-08* — Cards are discarded in a Magic game only from a player's hand. Effects that put cards into a player's graveyard from anywhere else do not cause those cards to be discarded.
+  - *2022-12-08* — Casting a spell with madness ignores the timing rules based on the card's card type. For example, you can cast a sorcery with madness if you discard it during an opponent's turn.
+  - *2022-12-08* — If you choose not to cast a card with madness when the madness triggered ability resolves, it's put into your graveyard. Madness doesn't give you another chance to cast it later.
+  - *2022-12-08* — If you discard a card with madness to pay the cost of a spell or activated ability, that card's madness triggered ability (and the spell that card becomes, if you choose to cast it) will resolve before the spell or ability the discard paid for.
+  - *2022-12-08* — If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.
+  - *2022-12-08* — Madness works independently of why you're discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can't discard a card with madness just because you want to, though.
+  - *2022-12-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a madness cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/139/revolutionist) · oracle_id `d00607b1-77ce-4b89-ad04-763d0d390c5c` · printing: MH2 #139 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rev, Tithe Extractor
 

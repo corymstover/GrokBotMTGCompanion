@@ -29,7 +29,9 @@
   > *"As long as each side thinks it can win, the balance holds, and the mage-rings stand."*
   > *—Alhammarret*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25968 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/72/separatist-voidmage) · oracle_id `d9fabfa8-b930-428d-af4e-640fb310a5b2` · printing: ORI #72 (2015-07-17) · [rulings](https://api.scryfall.com/cards/e5634d1a-ca4b-4528-9e0e-b88f1025d434/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-06-22* — Separatist Voidmage’s ability can target itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/72/separatist-voidmage) · oracle_id `d9fabfa8-b930-428d-af4e-640fb310a5b2` · printing: ORI #72 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sephara, Sky's Blade
 
@@ -105,6 +107,7 @@
   > *"This is the end... for all of you."*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10907 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/553/sephiroth-planets-heir) · oracle_id `6af71c5a-2c1b-4120-b3c9-c3c70d94a5c9` · printing: FIN #553 (2025-06-13) · [rulings](https://api.scryfall.com/cards/abd73e52-62f0-4e89-9dc6-90ff0bc2a9b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sephiroth's Intervention
@@ -130,7 +133,10 @@
   > Whenever this creature attacks, if defending player is poisoned, it gets +1/+1 until end of turn.
 - **Keywords:** Infect
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10384 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/55/septic-rats) · oracle_id `c7335845-ace9-402d-a5be-3bfe3fe9b089` · printing: MBS #55 (2011-02-04) · [rulings](https://api.scryfall.com/cards/8e7915d9-b941-4675-9a1b-18e579977144/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-06-01* — A player is poisoned if that player has one or more poison counters.
+  - *2011-06-01* — Septic Rats gets a maximum of +1/+1 from its ability, no matter how many poison counters the defending player has.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/55/septic-rats) · oracle_id `c7335845-ace9-402d-a5be-3bfe3fe9b089` · printing: MBS #55 (2011-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sepulcher Ghoul
 
@@ -142,6 +148,7 @@
 - **Flavor text** (AFR printing):
   > *Ghouls devour the dead and any living creatures unwary enough to fall into their grasp.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23935 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/118/sepulcher-ghoul) · oracle_id `04936cc9-c915-4182-b84a-3491d26be548` · printing: AFR #118 (2021-07-23) · [rulings](https://api.scryfall.com/cards/5b302bc8-683f-4a26-ab86-87eaa19dce4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sepulchral Primordial

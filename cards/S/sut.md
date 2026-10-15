@@ -37,7 +37,11 @@
   > Sutured Ghoul's power is equal to the total power of the exiled cards and its toughness is equal to their total toughness.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26373 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m12/112/sutured-ghoul) · oracle_id `8b4715b0-63d9-4ff8-a667-21a762518687` · printing: M12 #112 (2011-07-15) · [rulings](https://api.scryfall.com/cards/8390d9b7-5adf-4039-8682-02bfba421ff9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2011-09-22* — If any of the creature cards you exile has a characteristic-defining ability that defines its power and/or toughness, that ability will apply. For example, if Dungrove Elder is exiled this way, its power and toughness while it's in exile are equal to the number of Forests you control, and Sutured Ghoul's power and toughness will change as the number of Forests you control changes. If the characteristic-defining ability can't be applied (for instance, it relies on a choice made as the card enters), then use 0.
+  - *2011-09-22* — In zones other than the battlefield, Sutured Ghoul's power and toughness are each 0.
+  - *2011-09-22* — You can't have Sutured Ghoul exile itself, even if it's entering from your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m12/112/sutured-ghoul) · oracle_id `8b4715b0-63d9-4ff8-a667-21a762518687` · printing: M12 #112 (2011-07-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suture Priest
 
@@ -63,4 +67,5 @@
   > *Is her need to heal born out of compassion or penance?*
 - **Keywords:** Flying, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30099 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eve/16/suture-spirit) · oracle_id `4b2eba61-3937-4dc2-ad0a-e51fff8ecb80` · printing: EVE #16 (2008-07-25) · [rulings](https://api.scryfall.com/cards/08520f97-e7f5-45fc-9423-fa6a3a507671/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

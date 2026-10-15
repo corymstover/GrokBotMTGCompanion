@@ -26,7 +26,14 @@
   > *—Azorius Arrester motto*
 - **Keywords:** Detain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20588 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/41/inaction-injunction) · oracle_id `6f6bb2dd-c888-43bd-b9ef-8bd451ab669b` · printing: RTR #41 (2012-10-05) · [rulings](https://api.scryfall.com/cards/5342ec3c-9d26-474a-9df5-c21ac90bb233/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2013-04-15* — Activated abilities include a colon and are written in the form “[cost]: [effect].” No one can activate any activated abilities, including mana abilities, of a detained permanent.
+  - *2013-04-15* — If a creature is already attacking or blocking when it’s detained, it won’t be removed from combat. It will continue to attack or block.
+  - *2013-04-15* — If a noncreature permanent is detained and later turns into a creature, it won’t be able to attack or block.
+  - *2013-04-15* — If a permanent’s activated ability is on the stack when that permanent is detained, the ability will be unaffected.
+  - *2013-04-15* — The static abilities of a detained permanent still apply. The triggered abilities of a detained permanent can still trigger.
+  - *2013-04-15* — When a player leaves a multiplayer game, any continuous effects with durations that last until that player’s next turn or until a specific point in that turn will last until that turn would have begun. They neither expire immediately nor last indefinitely.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/41/inaction-injunction) · oracle_id `6f6bb2dd-c888-43bd-b9ef-8bd451ab669b` · printing: RTR #41 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inalla, Archmage Ritualist
 
@@ -61,7 +68,14 @@
   > When Iname as One enters, if you cast it from your hand, you may search your library for a Spirit permanent card, put it onto the battlefield, then shuffle.
   > When Iname as One dies, you may exile it. If you do, return target Spirit permanent card from your graveyard to the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22863 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/sok/151/iname-as-one) · oracle_id `865e569b-6999-4a03-ad02-4bfd595d5820` · printing: SOK #151 (2005-06-03) · [rulings](https://api.scryfall.com/cards/4e13f122-0dfe-42f3-9815-9ae1a29fca99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2005-06-01* — Effects that put Iname onto the battlefield don't cause its "enters" ability to trigger.
+  - *2005-06-01* — Iname can target itself with the graveyard-triggered ability, but it will be exiled and the ability won't be able to return Iname.
+  - *2005-06-01* — You aren't required to exile Iname. If you don't, the target Spirit card isn't returned to the battlefield.
+  - *2013-07-01* — In a Commander game where this card is your commander, casting it from the Command zone does not count as casting it from your hand.
+  - *2013-09-20* — If a creature (such as Clone) enters the battlefield as a copy of this creature, the copy's "enters-the-battlefield" ability will still trigger as long as you cast that creature spell from your hand.
+  - *2021-06-18* — If Iname is your commander in a game of Commander, you may choose to put it in the command zone after it dies, but if you do, you won't be able to exile it. If you do exile it, you may put it into the command zone from exile after resolving its ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sok/151/iname-as-one) · oracle_id `865e569b-6999-4a03-ad02-4bfd595d5820` · printing: SOK #151 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iname, Death Aspect
 
@@ -73,6 +87,7 @@
 - **Flavor text** (CHK printing):
   > *Iname revels in sadistic glee at the crushing of souls, but soon mourns the lives so cruelly cut short. So the cycle begins anew.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17773 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/118/iname-death-aspect) · oracle_id `46c7f465-304c-4c4b-a1f6-9707706dbf94` · printing: CHK #118 (2004-10-01) · [rulings](https://api.scryfall.com/cards/2dd67e11-3dad-4e59-b15d-02911e53fbbf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iname, Life Aspect
@@ -85,4 +100,9 @@
 - **Flavor text** (CHK printing):
   > *Iname rejoices in the dawn of a new life, but soon becomes jealous of the simple joys denied him by his station. So the cycle begins anew.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20722 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/chk/215/iname-life-aspect) · oracle_id `cb806239-32bf-4850-be65-239444c347a5` · printing: CHK #215 (2004-10-01) · [rulings](https://api.scryfall.com/cards/be027e3c-8891-46f0-bca7-d28a94ca281a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2004-12-01* — The targets of Iname, Life Aspect's ability are chosen when the ability is put onto the stack, but you don't choose whether to exile Iname, Life Aspect until the ability resolves.
+  - *2004-12-01* — You can exile the card even if you choose no targets.
+  - *2004-12-01* — You may target Iname, Life Aspect. However, this doesn't do anything since the card will no longer be in your graveyard when the creature cards are returned to your hand.
+  - *2021-06-18* — If Iname is your commander in a game of Commander, you may choose to put it in the command zone after it dies, but if you do, you won't be able to exile it. If you do exile it, you may put it into the command zone from exile after resolving its ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chk/215/iname-life-aspect) · oracle_id `cb806239-32bf-4850-be65-239444c347a5` · printing: CHK #215 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

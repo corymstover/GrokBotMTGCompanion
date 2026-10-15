@@ -59,7 +59,10 @@
   > *Every path ever charted by an Omenseeker is etched into her eyes.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18463 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/100/inga-rune-eyes) · oracle_id `78afa295-c9f4-4a81-9f7b-5746a3cf6b31` · printing: CMM #100 (2023-08-04) · [rulings](https://api.scryfall.com/cards/c190eceb-f6d8-408f-bbc4-df0fefb778ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-02-05* — The last ability will count any creature that died, no matter who controlled it.
+  - *2021-02-05* — The number of creatures that have died that turn is checked as the last ability resolves. Inga Rune-Eyes will count, as will creatures that die at the same time as Inga Rune-Eyes and creatures that die while that ability is on the stack but has not yet resolved.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/100/inga-rune-eyes) · oracle_id `78afa295-c9f4-4a81-9f7b-5746a3cf6b31` · printing: CMM #100 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ingenious Artillerist
 
@@ -104,6 +107,7 @@
 - **Flavor text** (FDN printing):
   > *Leonin claws were already deadly weapons of natural evolution before he improved upon them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23056 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/495/ingenious-leonin) · oracle_id `99853d2e-2223-4c05-bbd7-0a746f8f810d` · printing: FDN #495 (2024-11-15) · [rulings](https://api.scryfall.com/cards/ea566679-4202-4076-9314-142241485f6e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ingenious Mastery
@@ -115,7 +119,13 @@
   > If the {2}{U} cost was paid, you draw three cards, then an opponent creates two Treasure tokens and they scry 2. If that cost wasn't paid, you draw X cards.
 - **Keywords:** Treasure, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11890 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/44/ingenious-mastery) · oracle_id `dad43a2d-5b30-45f2-a34d-9e68d1fbb716` · printing: STX #44 (2021-04-23) · [rulings](https://api.scryfall.com/cards/2386d020-a9ae-4d54-b5e4-f2cb5a7298cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-04-16* — If an effect increases or decreases the cost of spells you cast, that cost increase or decrease is applied to the alternative cost you chose to pay. In that case, the cost was still paid for the purposes of the effect, even if you paid more or less for it when it was cast.
+  - *2021-04-16* — If you choose to pay one alternative cost, you can’t pay any other alternative costs. For example, if an effect lets you cast a “Mastery” spell “without paying its mana cost,” you can’t also choose to pay its given alternative cost.
+  - *2021-04-16* — If you copy a “Mastery” spell and the alternative cost was paid, the copy will resolve as though the cost was paid.
+  - *2021-04-16* — In a multiplayer game, you choose which opponent takes the prescribed action as the spell resolves.
+  - *2021-04-16* — The mana value of a spell on the stack is determined by its mana cost, not any alternative costs you used to pay for it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/44/ingenious-mastery) · oracle_id `dad43a2d-5b30-45f2-a34d-9e68d1fbb716` · printing: STX #44 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ingenious Prodigy
 
@@ -143,6 +153,7 @@
   > *Heads and shoulders above the rest.*
 - **Keywords:** Prowess
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26143 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/52/ingenious-skaab) · oracle_id `9107ece7-a263-4203-ab09-069193cc4902` · printing: 2X2 #52 (2022-07-08) · [rulings](https://api.scryfall.com/cards/a264f107-f9dd-4599-a134-62db6a242a8b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ingenious Smith
@@ -154,6 +165,7 @@
   > When this creature enters, look at the top four cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
   > Whenever one or more artifacts you control enter, put a +1/+1 counter on this creature. This ability triggers only once each turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13130 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/135/ingenious-smith) · oracle_id `f3988b96-9e00-445c-b3e1-6b2df9b13dac` · printing: MSC #135 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2962e4d3-3f01-47d4-abe3-75658700c132/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ingenious Thief
@@ -166,6 +178,7 @@
   > When this creature enters, look at target player's hand.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29696 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/s99/40/ingenious-thief) · oracle_id `73ea2949-5812-478d-8f09-00743ce4d40f` · printing: S99 #40 (1999-07-01) · [rulings](https://api.scryfall.com/cards/97c47d9a-c942-4b17-99f1-ff7a24134f7c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ingenuity Engine
@@ -217,4 +230,5 @@
   > {4}: Create a 2/2 colorless Wizard Soldier creature token named Cadet. Then creatures you control gain haste until end of turn.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12876 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/137/ingris-stingerquill) · oracle_id `bda098cb-31ec-41a1-a9d7-122877cc69d2` · printing: FRA #137 (2026-10-02) · [rulings](https://api.scryfall.com/cards/6471b135-33a8-4005-9a07-ebb74e0bf145/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

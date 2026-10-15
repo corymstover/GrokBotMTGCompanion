@@ -25,6 +25,7 @@
   > *"Grux, for the last time, you have to do more than simply shout 'Apply!' at the administrators."*
   > *—Pavil, admissions officer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18440 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/50/reject) · oracle_id `198fed4c-297e-41c0-a172-e471c7401fbb` · printing: STX #50 (2021-04-23) · [rulings](https://api.scryfall.com/cards/d77f0731-fb40-4dc2-8530-afcb5ce1f27f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reject Imperfection
@@ -69,7 +70,9 @@
   > Cycling {2} ({2}, Discard this card: Draw a card.)
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30855 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/271/rejuvenate) · oracle_id `35069cdb-e5bd-4224-a1a8-b329054e003b` · printing: USG #271 (1998-10-12) · [rulings](https://api.scryfall.com/cards/fe3709a3-7a1b-4644-b1d5-e1ffef549f94/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/271/rejuvenate) · oracle_id `35069cdb-e5bd-4224-a1a8-b329054e003b` · printing: USG #271 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rejuvenating Springs
 
@@ -95,4 +98,5 @@
   > {T}: You gain 2 life.
 - **Keywords:** Fading
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31323 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/137/rejuvenation-chamber) · oracle_id `c1ebe189-db71-47cd-a763-8cb8c305383a` · printing: NEM #137 (2000-02-14) · [rulings](https://api.scryfall.com/cards/b97f86ce-4758-4ae3-af29-b08a4d771652/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -21,7 +21,10 @@
   > Rekindled Flame deals 4 damage to any target.
   > At the beginning of your upkeep, if an opponent has no cards in hand, you may return this card from your graveyard to your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30089 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eve/61/rekindled-flame) · oracle_id `dd99061d-510d-4935-b44e-54721505515f` · printing: EVE #61 (2008-07-25) · [rulings](https://api.scryfall.com/cards/131c6377-4ed4-4a76-a9cb-be7ad17d76fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-08-01* — Rekindled Flame's triggered ability has an "intervening 'if' clause." That means (1) the ability won't trigger at all unless one of your opponents already has no cards in hand as your upkeep begins, and (2) the ability will do nothing if each of your opponents manages to get a card in hand by the time it resolves.
+  - *2008-08-01* — You don't specify an opponent; the ability will check all of them to see if at least one meets the condition. The opponent that meets the condition when the ability triggers and the one who meets the condition when it resolves can be different players.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eve/61/rekindled-flame) · oracle_id `dd99061d-510d-4935-b44e-54721505515f` · printing: EVE #61 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rekindling Phoenix
 
@@ -33,7 +36,10 @@
   > When this creature dies, create a 0/1 red Elemental creature token with "At the beginning of your upkeep, sacrifice this token and return target card named Rekindling Phoenix from your graveyard to the battlefield. It gains haste until end of turn."
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11936 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/273/rekindling-phoenix) · oracle_id `f34be4b8-126d-4b5c-8ebb-23b5e5370012` · printing: NCC #273 (2022-04-29) · [rulings](https://api.scryfall.com/cards/1a9945ec-0996-434e-b177-97203eabaf24/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-01-19* — If another card copies Rekindling Phoenix (such as Protean Raider may), the Elemental token's triggered ability will look for a card named Rekindling Phoenix, not one with the other card's name. This is true even if the card copying Rekindling Phoenix keeps its name while it's copying Rekindling Phoenix (such as Lazav, Dimir Mastermind does).
+  - *2018-01-19* — If you don't have a card named Rekindling Phoenix in your graveyard, the Elemental token's ability is immediately removed from the stack after it triggers and you won't sacrifice the token. If that target becomes illegal after the ability has triggered but before it resolves, you also won't sacrifice the Elemental token. In either case, it will trigger again during your next upkeep.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/273/rekindling-phoenix) · oracle_id `f34be4b8-126d-4b5c-8ebb-23b5e5370012` · printing: NCC #273 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reki, the History of Kamigawa
 
@@ -62,4 +68,7 @@
   > *—Awylla, elvish safewright*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28667 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/shm/236/reknit) · oracle_id `963e36de-b803-417f-8166-4d328d358203` · printing: SHM #236 (2008-05-02) · [rulings](https://api.scryfall.com/cards/10bde9be-0ad8-4f42-a9a9-838bc476c7a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-05-01* — Regenerating a planeswalker will prevent it from being destroyed as a result of a “destroy” effect (like the one from Reaper King). However, it won’t prevent that planeswalker from being put into its owner’s graveyard when its loyalty becomes 0.
+  - *2008-05-01* — Reknit can regenerate an artifact, creature, enchantment, land, or planeswalker. If you regenerate a noncreature permanent, the next time that permanent would be destroyed that turn, instead tap it. If that permanent had any damage on it (because it had been a creature earlier in the turn), that damage is removed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/shm/236/reknit) · oracle_id `963e36de-b803-417f-8166-4d328d358203` · printing: SHM #236 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

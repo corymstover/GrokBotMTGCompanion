@@ -93,6 +93,7 @@
   > *"For 'immortal conquerors,' these vampires seem very susceptible to being crushed by boulders."*
   > *—Chara Rebal, bat rider*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27921 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/139/calamitous-cave-in) · oracle_id `558135b3-babc-40b6-9d9d-57ab0965ee3d` · printing: LCI #139 (2023-11-17) · [rulings](https://api.scryfall.com/cards/8341ddd9-aac1-4773-b8ce-51e35f696263/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Calamitous Tide
@@ -104,7 +105,9 @@
 - **Flavor text** (BLB printing):
   > *Zoraline turned her attention to the shore. Helga and Ral's conversation quickly faded from her mind as she watched the gigantic wave approach.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15971 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/43/calamitous-tide) · oracle_id `d605d9d1-c01a-4ef6-89f9-06fae8cd57e6` · printing: BLB #43 (2024-08-02) · [rulings](https://api.scryfall.com/cards/178bc8b2-ffa0-4549-aead-aacb3db3cf19/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-26* — If all of the targets are illegal as Calamitous Tide tries to resolve, it won’t resolve and none of its effects will happen. You won’t draw or discard any cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/43/calamitous-tide) · oracle_id `d605d9d1-c01a-4ef6-89f9-06fae8cd57e6` · printing: BLB #43 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Calamity Bearer
 
@@ -193,6 +196,7 @@
 - **Flavor text** (BRO printing):
   > *The sylex's blast had razed the land, leaving behind only snow and sorrow. Urza stood alone in the sudden silence.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10234 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/4/calamitys-wake) · oracle_id `a6436330-f35a-4d31-9230-03e0c62f9e7e` · printing: BRO #4 (2022-11-18) · [rulings](https://api.scryfall.com/cards/013bed2b-25db-4dfc-9283-e80c9ac6c841/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Calciderm
@@ -205,6 +209,7 @@
   > Vanishing 4 (This creature enters with four time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)
 - **Keywords:** Shroud, Vanishing
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29961 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/11/calciderm) · oracle_id `329d53eb-d443-4376-ae5a-4be7dfb1fc91` · printing: TSR #11 (2021-03-19) · [rulings](https://api.scryfall.com/cards/5ae9641c-5792-4f72-b40c-f029af28dab9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Calciform Pools
@@ -216,6 +221,7 @@
   > {1}, {T}: Put a storage counter on this land.
   > {1}, Remove X storage counters from this land: Add X mana in any combination of {W} and/or {U}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11456 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/275/calciform-pools) · oracle_id `2031bc31-81cc-407a-8615-29832f586bbc` · printing: TSR #275 (2021-03-19) · [rulings](https://api.scryfall.com/cards/297a2b09-562a-46d8-905d-0b32e854e9d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Calcite Snapper
@@ -228,7 +234,14 @@
   > Landfall — Whenever a land you control enters, you may switch this creature's power and toughness until end of turn.
 - **Keywords:** Shroud, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22875 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/25/calcite-snapper) · oracle_id `36593200-e53c-46e4-a04e-8deec8273c65` · printing: WWK #25 (2010-02-05) · [rulings](https://api.scryfall.com/cards/aec0c914-1188-45c9-a68c-c3b915dbebf7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature may become lethal if you switch its power and toughness during that turn.
+  - *2021-03-19* — Effects that switch a creature's power and toughness apply after all other effects, regardless of when those effects began to apply. For instance, if you target a 1/2 creature then give it +2/+0 later in the turn, it's a 2/3 creature, not a 4/1 creature.
+  - *2021-03-19* — Switching a creature's power and toughness twice (or any even number of times) effectively returns the creature to the power and toughness it had before any switches.
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/25/calcite-snapper) · oracle_id `36593200-e53c-46e4-a04e-8deec8273c65` · printing: WWK #25 (2010-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Calculated Dismissal
 
@@ -239,7 +252,11 @@
   > Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, scry 2. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)
 - **Keywords:** Spell mastery, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16360 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/48/calculated-dismissal) · oracle_id `d8e63065-9ebc-419d-b7af-5867fd81edff` · printing: ORI #48 (2015-07-17) · [rulings](https://api.scryfall.com/cards/2c42ab35-6050-42b2-9c3c-3252f2e69442/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-06-22* — Check to see if there are two or more instant and/or sorcery cards in your graveyard as the spell resolves to determine whether the spell mastery ability applies. The spell itself won’t count because it’s still on the stack as you make this check.
+  - *2015-06-22* — If the spell mastery ability applies, you’ll scry 2 even if the controller of the spell pays {3}.
+  - *2015-06-22* — In one unusual situation, you can cast Calculated Dismissal targeting an instant or sorcery spell you control while there is one instant or sorcery card in your graveyard. In this situation, if you decline to pay {3}, the spell will be countered and put into your graveyard. The spell mastery ability will then apply and you’ll scry 2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/48/calculated-dismissal) · oracle_id `d8e63065-9ebc-419d-b7af-5867fd81edff` · printing: ORI #48 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Calculating Lich
 
@@ -253,6 +270,7 @@
   > *"We share a common enemy. Does that not make us friends?"*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13553 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/742/calculating-lich) · oracle_id `7264d3b3-fd46-4ea3-a85d-f0b068c331ad` · printing: CLB #742 (2022-06-10) · [rulings](https://api.scryfall.com/cards/a5dccdab-9dda-4964-9b1a-eec6d31c7995/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caldaia Guardian
@@ -265,7 +283,13 @@
   > Blitz {2}{G} (If you cast this spell for its blitz cost, it gains haste and "When this creature dies, draw a card." Sacrifice it at the beginning of the next end step.)
 - **Keywords:** Blitz
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18875 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/56/caldaia-guardian) · oracle_id `fd55d686-510e-4b6c-b8eb-458ee7c19fff` · printing: NCC #56 (2022-04-29) · [rulings](https://api.scryfall.com/cards/f20015ad-8fda-498f-ac28-1ffb824ab480/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-04-29* — If a creature enters the battlefield as a copy of or becomes a copy of a creature whose blitz cost was paid, the copy won't have haste, won't be sacrificed, and its controller won't draw a card when it dies.
+  - *2022-04-29* — If you choose to pay the blitz cost rather than the mana cost, you're still casting the spell. It goes on the stack and can be responded to and countered. You can cast a creature spell for its blitz cost only if you could cast that creature spell. Most of the time, this means during your main phase when the stack is empty.
+  - *2022-04-29* — If you pay the blitz cost to cast a creature spell, that permanent will be sacrificed only if it's still on the battlefield when that triggered ability resolves. If it dies or goes to another zone before then, it will stay where it is.
+  - *2022-04-29* — The triggered ability that lets its controller draw a card triggers when it dies for any reason, not just when you sacrifice it during the end step.
+  - *2022-04-29* — You don't have to attack with the creature with blitz unless another ability says you do.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/56/caldaia-guardian) · oracle_id `fd55d686-510e-4b6c-b8eb-458ee7c19fff` · printing: NCC #56 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caldaia Strongarm
 
@@ -277,7 +301,13 @@
   > Blitz {3}{G} (If you cast this spell for its blitz cost, it gains haste and "When this creature dies, draw a card." Sacrifice it at the beginning of the next end step.)
 - **Keywords:** Blitz
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23848 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/138/caldaia-strongarm) · oracle_id `e0e6938b-7abf-4f69-a3d6-82a58912bff4` · printing: SNC #138 (2022-04-29) · [rulings](https://api.scryfall.com/cards/58b431d2-33c1-49d8-b45d-690c174bb456/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-04-29* — If a creature enters the battlefield as a copy of or becomes a copy of a creature whose blitz cost was paid, the copy won't have haste, won't be sacrificed, and its controller won't draw a card when it dies.
+  - *2022-04-29* — If you choose to pay the blitz cost rather than the mana cost, you're still casting the spell. It goes on the stack and can be responded to and countered. You can cast a creature spell for its blitz cost only if you could cast that creature spell. Most of the time, this means during your main phase when the stack is empty.
+  - *2022-04-29* — If you pay the blitz cost to cast a creature spell, that permanent will be sacrificed only if it's still on the battlefield when that triggered ability resolves. If it dies or goes to another zone before then, it will stay where it is.
+  - *2022-04-29* — The triggered ability that lets its controller draw a card triggers when it dies for any reason, not just when you sacrifice it during the end step.
+  - *2022-04-29* — You don't have to attack with the creature with blitz unless another ability says you do.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/138/caldaia-strongarm) · oracle_id `e0e6938b-7abf-4f69-a3d6-82a58912bff4` · printing: SNC #138 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caldera Hellion
 
@@ -289,7 +319,13 @@
   > When this creature enters, it deals 3 damage to each creature.
 - **Keywords:** Devour
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23507 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/95/caldera-hellion) · oracle_id `86a7dba7-aff9-4086-b149-03eee812249f` · printing: ALA #95 (2008-10-03) · [rulings](https://api.scryfall.com/cards/88866ce7-0b81-4b6c-a17e-ce5e51a0f2da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2008-10-01* — Caldera Hellion will deal 3 damage to itself (as well as to each other creature) when its "enters" ability resolves. This damage will be lethal if Caldera Hellion hasn't devoured any creatures and its toughness hasn't been increased by any other means.
+  - *2008-10-01* — If multiple creatures with devour are entering under your control at the same time, you may use each one's devour ability. A creature you already control can be devoured by only one of them, however. (In other words, you can't sacrifice the same creature to satisfy multiple devour abilities.) All creatures devoured this way are sacrificed at the same time.
+  - *2008-10-01* — If you cast this as a spell, you choose how many and which creatures to devour as part of the resolution of that spell. (It can't be countered at this point.) The same is true of a spell or ability that lets you put a creature with devour onto the battlefield.
+  - *2008-10-01* — You may choose not to sacrifice any creatures for the Devour ability.
+  - *2008-10-01* — You may sacrifice only creatures that are already on the battlefield. If a creature with devour and another creature are entering under your control at the same time, the creature with devour can't devour that other creature. The creature with devour also can't devour itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/95/caldera-hellion) · oracle_id `86a7dba7-aff9-4086-b149-03eee812249f` · printing: ALA #95 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caldera Kavu
 
@@ -302,7 +338,9 @@
 - **Flavor text** (PLS printing):
   > *As powerful and malleable as the molten rock it calls home.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31391 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pls/58/caldera-kavu) · oracle_id `7cdcfbdf-5ec7-451b-8c96-f19d75a4d76c` · printing: PLS #58 (2001-02-05) · [rulings](https://api.scryfall.com/cards/fcad32aa-2ce1-402d-a9d8-ad5c81fe4c5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You choose a color on resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pls/58/caldera-kavu) · oracle_id `7cdcfbdf-5ec7-451b-8c96-f19d75a4d76c` · printing: PLS #58 (2001-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caldera Lake
 
@@ -313,6 +351,7 @@
   > {T}: Add {C}.
   > {T}: Add {U} or {R}. This land deals 1 damage to you.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20759 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/235/caldera-lake) · oracle_id `c737d27b-db14-4bd4-8f16-bcbd4401c47b` · printing: TPR #235 (2015-05-06) · [rulings](https://api.scryfall.com/cards/f79313f8-0b79-4fe3-8eb1-db523587b714/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caldera Pyremaw
@@ -340,7 +379,15 @@
   > Flashback {3}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20365 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/118/calibrated-blast) · oracle_id `d9f5fc77-40df-4872-b633-6bf5a22a8831` · printing: MH2 #118 (2021-06-18) · [rulings](https://api.scryfall.com/cards/37962700-e4d9-419e-8972-d3fd955ff40e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-06-18* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-06-18* — Calibrated Blast goes on the stack without a target. When you reveal a nonland card during its resolution, its reflexive triggered ability triggers and you pick a target to be dealt damage. You'll know the mana value of the revealed nonland card and how much damage will be dealt.
+  - *2021-06-18* — The nonland card revealed this way ends up on the bottom of the library with the other cards.
+  - *2021-06-18* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-06-18* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-06-18* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+  - *2021-06-18* — “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/118/calibrated-blast) · oracle_id `d9f5fc77-40df-4872-b633-6bf5a22a8831` · printing: MH2 #118 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caligo Skin-Witch
 
@@ -354,7 +401,14 @@
   > *"Take their faces. The lips of these unbelievers may yet honor the Demonlord."*
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24597 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/80/caligo-skin-witch) · oracle_id `e62c943e-03ac-4a8a-ad3d-faa76b79824c` · printing: DOM #80 (2018-04-27) · [rulings](https://api.scryfall.com/cards/2e23ee25-2005-4e81-a807-f52c0dbfb192/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/80/caligo-skin-witch) · oracle_id `e62c943e-03ac-4a8a-ad3d-faa76b79824c` · printing: DOM #80 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Calix, Destiny's Hand
 
@@ -425,6 +479,7 @@
 - **Flavor text** (MKM printing):
   > *"Why would a little thing like death stop me from running the Syndicate? I'm going to be here for a long, long time."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11334 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/6/call-a-surprise-witness) · oracle_id `9038a457-ce01-4f6d-9e2b-5220f08b4290` · printing: MKM #6 (2024-02-09) · [rulings](https://api.scryfall.com/cards/f5148def-cf1a-460e-8dfd-856103940892/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call Damage Control
@@ -440,6 +495,7 @@
 - **Flavor text** (MSH printing):
   > *When the heroes clock out, they clock in.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12101 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/162/call-damage-control) · oracle_id `49a32f34-01a9-4f25-bf38-b4d46ca67b2d` · printing: MSH #162 (2026-06-26) · [rulings](https://api.scryfall.com/cards/de1ed886-c33b-4cfd-8442-944cec654a8b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caller of Gales
@@ -452,6 +508,7 @@
 - **Flavor text** (CN2 printing):
   > *"Some merfolk choose to rest their fins in the water. I believe wisdom exists not only where we were born but where we were told not to go."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22554 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/103/caller-of-gales) · oracle_id `86fd8f95-0f1c-42c0-a63e-567c59ce89c4` · printing: CN2 #103 (2016-08-26) · [rulings](https://api.scryfall.com/cards/41bd76f3-299d-4bc0-a603-2cc7db7dac7b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caller of the Claw
@@ -464,6 +521,7 @@
   > When this creature enters, create a 2/2 green Bear creature token for each nontoken creature put into your graveyard from the battlefield this turn.
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10684 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c15/177/caller-of-the-claw) · oracle_id `ec79255f-4b4d-4a0a-89d8-c59ba640275b` · printing: C15 #177 (2015-11-13) · [rulings](https://api.scryfall.com/cards/917c5e37-c15e-4260-b380-f1c73df2bf41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caller of the Hunt
@@ -475,6 +533,7 @@
   > As an additional cost to cast this spell, choose a creature type.
   > Caller of the Hunt's power and toughness are each equal to the number of creatures of the chosen type on the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21749 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/233/caller-of-the-hunt) · oracle_id `2ad60059-7a29-40a8-b595-3932f1222d33` · printing: MMQ #233 (1999-10-04) · [rulings](https://api.scryfall.com/cards/c0e8e1cf-0a47-4ce4-889a-091229d0e466/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caller of the Pack
@@ -487,7 +546,16 @@
   > Myriad (Whenever this creature attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)
 - **Keywords:** Trample, Myriad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11625 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cma/94/caller-of-the-pack) · oracle_id `3b6cbd2a-02ba-4afb-a081-0f25d830a8ee` · printing: CMA #94 (2017-06-09) · [rulings](https://api.scryfall.com/cards/08620dc9-3a83-4d09-a6d4-b25a7d0ac644/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2015-11-04* — Although the tokens enter the battlefield attacking, they were never declared as attackers. Abilities that trigger whenever a creature attacks won’t trigger, including the myriad ability of the tokens. If there any costs to have a creature attack, those costs won’t apply to the tokens.
+  - *2015-11-04* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the copied creature will also work.
+  - *2015-11-04* — Each token copies exactly what was printed on the original creature and nothing else. It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2015-11-04* — If myriad creates more than one token for any given player (due to an effect such as the one Doubling Season creates), you may choose separately for each token whether it’s attacking the player or a planeswalker they control.
+  - *2015-11-04* — If the defending player is your only opponent, no tokens are put onto the battlefield.
+  - *2015-11-04* — The term “defending player” in the myriad rules (or any other ability of an attacking creature) refers to the player the creature with myriad was attacking at the time it became an attacking creature this combat, or the controller of the planeswalker the creature was attacking at the time it became an attacking creature this combat.
+  - *2015-11-04* — The token creatures all enter the battlefield at the same time.
+  - *2015-11-04* — You choose whether each token is attacking the player or a planeswalker they control as the token is created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cma/94/caller-of-the-pack) · oracle_id `3b6cbd2a-02ba-4afb-a081-0f25d830a8ee` · printing: CMA #94 (2017-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caller of the Untamed
 
@@ -498,7 +566,10 @@
   > Before you shuffle your deck to start the game, you may reveal this card from your deck and exile a creature card you drafted that isn't in your deck.
   > {X}, {T}: Create a token that's a copy of a card you exiled with cards named Caller of the Untamed. X is the mana value of that card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31749 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/62/caller-of-the-untamed) · oracle_id `da81d8ad-b2f8-4d7c-bc41-749c95c967b5` · printing: CN2 #62 (2016-08-26) · [rulings](https://api.scryfall.com/cards/c62f25d9-7eb2-491e-ba7b-b71e49ee87b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-08-23* — If there is an {X} in the mana cost of the exiled creature card, that X is 0. Don’t confuse it with the {X} in the activation cost of Caller of the Untamed’s ability.
+  - *2016-08-23* — If you have more than one Caller of the Untamed in your deck, you may reveal any number of them and exile that many creature cards you drafted that aren’t in your deck. You’ll choose which one to copy at the time you choose the value of X while activating the ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/62/caller-of-the-untamed) · oracle_id `da81d8ad-b2f8-4d7c-bc41-749c95c967b5` · printing: CN2 #62 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call for Aid
 
@@ -523,7 +594,12 @@
   > As an additional cost to cast this spell, sacrifice a creature.
   > Target creature gets -X/-X until end of turn, where X is the sacrificed creature's power.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29141 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bok/63/call-for-blood) · oracle_id `f2782c21-ed99-4821-8938-cc539e783ec7` · printing: BOK #63 (2005-02-04) · [rulings](https://api.scryfall.com/cards/be04ed26-8036-4505-83d3-b782e7e1fb45/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2005-02-01* — Uses last known information for the sacrificed creature’s power.
+  - *2005-02-01* — You may sacrifice the creature chosen as the target for Call for Blood (if you control it) when you pay the additional cost for the spell. If you do, Call for Blood doesn’t resolve.
+  - *2013-04-15* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.
+  - *2013-04-15* — You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bok/63/call-for-blood) · oracle_id `f2782c21-ed99-4821-8938-cc539e783ec7` · printing: BOK #63 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call Forth the Tempest
 
@@ -574,7 +650,14 @@
 - **Oracle text:**
   > Put a random creature from a random graveyard into play under your control. Call from the Grave deals to you an amount of damage equal to that creature's casting cost.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/541/call-from-the-grave) · oracle_id `252ff28e-3ea7-4e2c-a30c-3cb80aa278d0` · printing: MB2 #541 (2024-08-02) · [rulings](https://api.scryfall.com/cards/183aca7b-62ce-4891-93d1-f60fc205801a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+  - *2024-11-08* — The amount of damage Call from the Grave deals is determined by the casting cost . . . er, mana value of the permanent that was put onto the battlefield by Call from the Grave (even if it’s not a creature at that time). In the case where no permanent was put onto the battlefield, Call from the Grave won’t deal any damage.
+  - *2024-11-08* — The choices of random creature and random graveyard are made as Call from the Grave resolves.
+  - *2024-11-08* — To choose a random creature from a random graveyard, first choose a random graveyard with at least one creature card in it. Then choose a random creature card from that graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/541/call-from-the-grave) · oracle_id `252ff28e-3ea7-4e2c-a30c-3cb80aa278d0` · printing: MB2 #541 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Callidus Assassin
 
@@ -605,7 +688,9 @@
 - **Flavor text** (SNC printing):
   > *For the next week, Park Heights smelled of burnt oil paint and brimstone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16480 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/103/call-in-a-professional) · oracle_id `ca54e14c-67ee-4de2-bc0f-19a5f9461d37` · printing: SNC #103 (2022-04-29) · [rulings](https://api.scryfall.com/cards/ead68c0a-eed1-4a9c-a790-56f8a79b444c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-04-29* — If Call In a Professional deals damage to a creature with a shield counter on it, that damage will not be prevented, but a shield counter will still be removed. If that damage is enough to be lethal damage, the creature will be destroyed, even if it still has more shield counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/103/call-in-a-professional) · oracle_id `ca54e14c-67ee-4de2-bc0f-19a5f9461d37` · printing: SNC #103 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call of the Conclave
 
@@ -616,6 +701,7 @@
 - **Flavor text** (RVR printing):
   > *Centaurs are sent to evangelize in Gruul territories where words of war speak louder than prayers of peace.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19566 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/169/call-of-the-conclave) · oracle_id `e1635acd-ed1e-4038-a11a-6518df285253` · printing: RVR #169 (2024-01-12) · [rulings](https://api.scryfall.com/cards/88cacc67-5b0e-4cd5-a552-f64934578930/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call of the Death-Dweller
@@ -644,7 +730,10 @@
   > At the beginning of each upkeep, if a player cast two or more spells last turn, sacrifice this Aura.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26688 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/134/call-of-the-full-moon) · oracle_id `3e34a3de-ae30-4d7b-88f1-03e2b79c4451` · printing: ORI #134 (2015-07-17) · [rulings](https://api.scryfall.com/cards/369d837a-a19b-457c-8146-cc1766a63ec1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-06-22* — A single player must have cast two or more spells during the previous turn for Call of the Full Moon's last ability to trigger. If multiple players each cast just one spell during that turn, the ability won't trigger.
+  - *2015-06-22* — Call of the Full Moon's last ability will look at the entire previous turn, even if Call of the Moon wasn't on the battlefield for some or all of that turn. For example, if you cast Call of the Full Moon and another spell on the same turn, you'll have to sacrifice Call of the Full Moon at the beginning of the upkeep of the following turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/134/call-of-the-full-moon) · oracle_id `3e34a3de-ae30-4d7b-88f1-03e2b79c4451` · printing: ORI #134 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call of the Herd
 
@@ -655,7 +744,14 @@
   > Flashback {3}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22808 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/plst/DMR-153/call-of-the-herd) · oracle_id `ee243f81-f51c-4d9a-a396-f7cef84b46c1` · printing: PLST #DMR-153 (2024-08-02) · [rulings](https://api.scryfall.com/cards/892cd7b7-58d0-4bc4-a904-4b64fadd7f3c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+  - *2021-03-19* — “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/plst/DMR-153/call-of-the-herd) · oracle_id `ee243f81-f51c-4d9a-a396-f7cef84b46c1` · printing: PLST #DMR-153 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call of the Nightwing
 
@@ -666,7 +762,20 @@
   > Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)
 - **Keywords:** Cipher
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17388 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/149/call-of-the-nightwing) · oracle_id `919d21ad-3d1e-4f80-8005-64e3f8bf64d1` · printing: GTC #149 (2013-02-01) · [rulings](https://api.scryfall.com/cards/ef30a570-b988-42e8-8910-41fe39ffa260/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2013-01-24* — You can exile Call of the Nightwing encoded on the Horror creature token it just created.
+  - *2013-04-15* — If a creature with an encoded card deals combat damage to more than one player simultaneously (perhaps because some of the combat damage was redirected), the triggered ability will trigger once for each player it deals combat damage to. Each ability will create a copy of the exiled card and allow you to cast it.
+  - *2013-04-15* — If another player gains control of the creature, that player will control the triggered ability. That player will create a copy of the encoded card and may cast it.
+  - *2013-04-15* — If the creature leaves the battlefield, the exiled card will no longer be encoded on any creature. It will stay exiled.
+  - *2013-04-15* — If the spell with cipher doesn’t resolve, none of its effects will happen, including cipher. The card will go to its owner’s graveyard and won’t be encoded on a creature.
+  - *2013-04-15* — If you choose not to cast the copy, or you can’t cast it (perhaps because there are no legal targets available), the copy will cease to exist the next time state-based actions are performed. You won’t get a chance to cast the copy at a later time.
+  - *2013-04-15* — If you want to encode the card with cipher onto a noncreature permanent such as a Keyrune that can turn into a creature, that permanent has to be a creature before the spell with cipher starts resolving. You can choose only a creature to encode the card onto.
+  - *2013-04-15* — The copy of the card with cipher is created in and cast from exile.
+  - *2013-04-15* — The exiled card with cipher grants a triggered ability to the creature it’s encoded on. If that creature loses that ability and subsequently deals combat damage to a player, the triggered ability won’t trigger. However, the exiled card will continue to be encoded on that creature.
+  - *2013-04-15* — The spell with cipher is encoded on the creature as part of that spell’s resolution, just after the spell’s other effects. That card goes directly from the stack to exile. It never goes to the graveyard.
+  - *2013-04-15* — You cast the copy of the card with cipher during the resolution of the triggered ability. Ignore timing restrictions based on the card’s type.
+  - *2013-04-15* — You choose the creature as the spell resolves. The cipher ability doesn’t target that creature, although the spell with cipher may target that creature (or a different creature) because of its other abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/149/call-of-the-nightwing) · oracle_id `919d21ad-3d1e-4f80-8005-64e3f8bf64d1` · printing: GTC #149 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call of the Ring
 
@@ -699,6 +808,7 @@
 - **Flavor text** (8ED printing):
   > *From a whisper to a roar, the call is heard by all and refused by none.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21960 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/235/call-of-the-wild) · oracle_id `882ee72e-2149-4778-a81c-8bf09beb5d66` · printing: 8ED #235 (2003-07-28) · [rulings](https://api.scryfall.com/cards/3332b35c-fd4f-4195-baee-e759dee6a682/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Callous Bloodmage
@@ -724,6 +834,7 @@
   > {1}: Look at the top card of your library.
   > {2}: Reveal the top card of your library. If it's a land card, this creature gets +1/+0 and gains flying until end of turn. Activate only once each turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31333 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/53/callous-deceiver) · oracle_id `e446bfa6-54b8-4dfa-98d3-023d12b7543d` · printing: CHK #53 (2004-10-01) · [rulings](https://api.scryfall.com/cards/628d3058-d32e-438c-9a86-3e9c2be73c4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Callous Dismissal
@@ -738,7 +849,15 @@
   > *—Lavinia*
 - **Keywords:** Amass
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14378 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/44/callous-dismissal) · oracle_id `9219b7d5-642d-4470-a7c4-f3e56bfae8c7` · printing: WAR #44 (2019-05-03) · [rulings](https://api.scryfall.com/cards/66cef326-339c-49e5-9905-21a1603a46ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — Amass Orcs works the same way, except you create a 0/0 black Orc Army creature token if you don't control an Army. If the Army creature you chose isn't already an Orc, it becomes an Orc in addition to its other types. By combining cards with amass Orcs and amass Zombies, you can end up with an Orc Zombie Army.
+  - *2023-06-16* — Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."
+  - *2023-06-16* — If you don't control an Army, the Zombie Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Zombies, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't a Zombie, it becomes a Zombie in addition to its other types.
+  - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2023-06-16* — Some spells and abilities that amass Zombies may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Zombies.
+  - *2023-06-16* — To amass Zombies N, if you don't control an Army creature, create a 0/0 black Zombie Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Zombie, it becomes a Zombie in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/44/callous-dismissal) · oracle_id `9219b7d5-642d-4470-a7c4-f3e56bfae8c7` · printing: WAR #44 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Callous Giant
 
@@ -750,6 +869,7 @@
 - **Flavor text** (INV printing):
   > *"The invasion has awoken slumbering mountains," noted Urza. "Good. We can use all the help we can get."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31432 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/139/callous-giant) · oracle_id `7a2336ff-c8ed-4daa-b182-403c21bc8133` · printing: INV #139 (2000-10-02) · [rulings](https://api.scryfall.com/cards/330028c4-8e91-4fe3-a87d-1660dfd2507e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Callous Inspector
@@ -764,7 +884,10 @@
   > *Protection fees can burn a hole in your pocket, but they're better than the alternative.*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16445 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/89/callous-inspector) · oracle_id `5d950fd4-8956-4b1a-ab0f-ab31bcffce4e` · printing: TLA #89 (2025-11-21) · [rulings](https://api.scryfall.com/cards/f22610e9-6b14-4914-bb67-bd6723bec9aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-10-02* — Clue tokens are artifact tokens with "{2}, Sacrifice this token: Draw a card."
+  - *2025-10-02* — Creating a Clue token this way isn't the same thing as investigating. Notably, an ability that triggers whenever you investigate won't trigger because of creating a Clue token this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/89/callous-inspector) · oracle_id `5d950fd4-8956-4b1a-ab0f-ab31bcffce4e` · printing: TLA #89 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Callous Oppressor
 
@@ -776,6 +899,7 @@
   > As this creature enters, an opponent chooses a creature type.
   > {T}: Gain control of target creature that isn't of the chosen type for as long as this creature remains tapped.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15914 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/72/callous-oppressor) · oracle_id `de14f6a9-1c62-42e9-b174-3e8b1080e0dc` · printing: ONS #72 (2002-10-07) · [rulings](https://api.scryfall.com/cards/b3dd3ce7-e0e3-4412-9983-ff933584f59b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Callous Sell-Sword // Burn Together
@@ -787,7 +911,22 @@
 - **Face 2: Burn Together** — {R} — Sorcery — Adventure
   > Target creature you control deals damage equal to its power to any other target. Then sacrifice it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13427 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/221/callous-sell-sword-burn-together) · oracle_id `0e7405e3-e9e6-4213-a73f-e0c01a7d6721` · printing: WOE #221 (2023-09-08) · [rulings](https://api.scryfall.com/cards/770ee3da-d33e-466f-9a2e-ad2d08ef5012/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2023-09-01* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it’s in your graveyard, Questing Druid is a green creature card whose mana value is 2. It can’t be the target of Tenacious Tomeseeker’s triggered ability (“return target instant or sorcery card from your graveyard to your hand”).
+  - *2023-09-01* — An effect may refer to a card, spell, or permanent that “has an Adventure.” This refers to a card, spell, or permanent that has an adventurer card’s set of alternative characteristics, even if they’re not being used and even if that card was never cast as an Adventure.
+  - *2023-09-01* — Casting a card as an Adventure isn’t casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2023-09-01* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner’s graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won’t be exiled and the spell’s controller won’t be able to cast it as a permanent later.
+  - *2023-09-01* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won’t give you permission to cast it as a permanent spell.
+  - *2023-09-01* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it’s not possible to cast the copy as a permanent.
+  - *2023-09-01* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2023-09-01* — If an effect refers to a card, spell, or permanent that has an Adventure, it won’t find an instant or sorcery spell on the stack that’s been cast as an Adventure.
+  - *2023-09-01* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it’s a token) or cease to be a copy (if it’s a nontoken permanent), and so you won’t be able to cast it as an Adventure.
+  - *2023-09-01* — If the first target of Burn Together is an illegal target as the spell resolves but the last target is still legal, Burn Together will resolve, but no damage will be dealt and nothing will be sacrificed.
+  - *2023-09-01* — If the last target of Burn Together is an illegal target as the spell resolves but the first target is still legal, Burn Together will still resolve and you'll still sacrifice the first target.
+  - *2023-09-01* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer (“Once each turn, you may cast an instant or sorcery spell from the top of your library.”) and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
+  - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/221/callous-sell-sword-burn-together) · oracle_id `0e7405e3-e9e6-4213-a73f-e0c01a7d6721` · printing: WOE #221 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Callow Jushi // Jaraku the Interloper
 
@@ -800,6 +939,7 @@
   - **P/T:** 3/4
   > Remove a ki counter from Jaraku: Counter target spell unless its controller pays {2}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25617 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/31/callow-jushi-jaraku-the-interloper) · oracle_id `7ceaddba-6301-45f8-86a1-ad4c6e6d3297` · printing: BOK #31 (2005-02-04) · [rulings](https://api.scryfall.com/cards/ca03131a-9bd4-4fba-b95c-90f1831e86e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call the Bloodline
@@ -811,7 +951,9 @@
 - **Flavor text** (SOI printing):
   > *At Sorin's appeal, Olivia Voldaren summoned the full might of her bloodline to gather at Lurenbraum Fortress.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13172 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/103/call-the-bloodline) · oracle_id `8e90300b-c0da-4484-b065-e2fafa4e1b15` · printing: SOI #103 (2016-04-08) · [rulings](https://api.scryfall.com/cards/3ec85cca-ac2c-4b1b-850b-6a762df72bd0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-04-08* — You can activate Call the Bloodline’s ability once on each player’s turn, not just your own.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/103/call-the-bloodline) · oracle_id `8e90300b-c0da-4484-b065-e2fafa4e1b15` · printing: SOI #103 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call the Cavalry
 
@@ -822,6 +964,7 @@
 - **Flavor text** (GNT printing):
   > *Benalish citizens born under the same constellations share a star-clan. Their loyalty to one another interlaces the Seven Houses.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19486 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gnt/10/call-the-cavalry) · oracle_id `855b168b-e514-4a43-8bbe-7f1df40031ae` · printing: GNT #10 (2018-11-16) · [rulings](https://api.scryfall.com/cards/5ffd9de5-c0b9-4d41-ab11-c77ce6f67c60/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call the Coppercoats
@@ -853,6 +996,7 @@
   > *"I've heard it said that a Planeswalker is someone who can always run from danger. But Gideon's right: we're also the ones who can choose to stay."*
   > *—Jace Beleren*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11099 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/16/call-the-gatewatch) · oracle_id `652bfa31-b2eb-4cba-850f-1db02a83bb35` · printing: OGW #16 (2016-01-22) · [rulings](https://api.scryfall.com/cards/4719ac60-2cff-4abb-b9cc-b677d3ac945c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call the Mountain Chocobo
@@ -864,7 +1008,14 @@
   > Flashback {5}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13081 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/131/call-the-mountain-chocobo) · oracle_id `a0dd3eb4-f6f1-4bfb-935c-032dd5af3811` · printing: FIN #131 (2025-06-13) · [rulings](https://api.scryfall.com/cards/b2e1986c-2852-4843-bdc4-eddb727ba3d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/131/call-the-mountain-chocobo) · oracle_id `a0dd3eb4-f6f1-4bfb-935c-032dd5af3811` · printing: FIN #131 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call the Scions
 
@@ -877,7 +1028,17 @@
   > *Ulamog's progeny swarm the land, draining Zendikar's mana to feed the titan's insatiable hunger.*
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13016 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/165/call-the-scions) · oracle_id `731a70e8-40d6-47b9-b2b3-b16c818e1935` · printing: BFZ #165 (2015-10-02) · [rulings](https://api.scryfall.com/cards/5d248ed0-c2b4-4558-9a09-ace8fd4b0599/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2015-08-25* — A card with devoid is just colorless. It's not colorless and the colors of mana in its mana cost.
+  - *2015-08-25* — Cards with devoid use frames that are variations of the transparent frame traditionally used for Eldrazi. The top part of the card features some color over a background based on the texture of the hedrons that once imprisoned the Eldrazi. This coloration is intended to aid deckbuilding and game play.
+  - *2015-08-25* — Devoid works in all zones, not just on the battlefield.
+  - *2015-08-25* — Eldrazi Scions are similar to Eldrazi Spawn, seen in the Zendikar block. Note that Eldrazi Scions are 1/1, not 0/1.
+  - *2015-08-25* — Eldrazi and Scion are each separate creature types. Anything that affects Eldrazi will affect these tokens, for example.
+  - *2015-08-25* — If a card loses devoid, it will still be colorless. This is because effects that change an object's color (like the one created by devoid) are considered before the object loses devoid.
+  - *2015-08-25* — Other cards and abilities can give a card with devoid color. If that happens, it's just the new color, not that color and colorless.
+  - *2015-08-25* — Sacrificing an Eldrazi Scion creature token to add {C} is a mana ability. It doesn't use the stack and can't be responded to.
+  - *2015-08-25* — Some instants and sorceries that create Eldrazi Scions require targets. If all targets for such a spell have become illegal by the time that spell tries to resolve, the spell won't resolve and none of its effects will happen. You won't get any Eldrazi Scions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/165/call-the-scions) · oracle_id `731a70e8-40d6-47b9-b2b3-b16c818e1935` · printing: BFZ #165 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call the Skybreaker
 
@@ -890,7 +1051,12 @@
   > *It hears and answers every orison across Shadowmoor.*
 - **Keywords:** Retrace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20073 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/333/call-the-skybreaker) · oracle_id `a7213bef-0e9c-44e1-97cb-d1da0ef370bf` · printing: NCC #333 (2022-04-29) · [rulings](https://api.scryfall.com/cards/e52586f2-dcf2-4605-b354-3ab441a43638/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-08-01* — A retrace card cast from your graveyard follows the normal timing rules for its card type.
+  - *2008-08-01* — Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You're casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs.
+  - *2008-08-01* — If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it's still in the graveyard.
+  - *2008-08-01* — When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it's put back into your graveyard. You may use the retrace ability to cast it again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/333/call-the-skybreaker) · oracle_id `a7213bef-0e9c-44e1-97cb-d1da0ef370bf` · printing: NCC #333 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call the Spirit Dragons
 
@@ -917,7 +1083,13 @@
   > White creatures get +1/+1 as long as the chosen color is the most common color among nontoken permanents the chosen player controls but isn't tied for most common.
   > When the chosen color isn't the most common color among nontoken permanents the chosen player controls or is tied for most common, sacrifice this enchantment.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29548 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/4/call-to-arms) · oracle_id `72eaaa73-3263-46e9-aa86-5862d3aed20a` · printing: ME3 #4 (2009-09-07) · [rulings](https://api.scryfall.com/cards/1a772cac-c853-4621-a61f-a9b06f2e2dec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2004-10-04* — You can't choose "colorless" as a color.
+  - *2009-10-01* — Call to Arms affects all white creatures, not just white creatures you control.
+  - *2009-10-01* — Call to Arms's third ability is a "state trigger." Once a state trigger triggers, it won't trigger again as long as the ability is on the stack. If the ability is countered and the trigger condition is still true, it will immediately trigger again.
+  - *2009-10-01* — If Call to Arms changes controllers, it will continue to check the nontoken permanents controlled by the player chosen as it entered, even if that player isn't an opponent of its current controller.
+  - *2009-10-01* — The game continually counts the number of nontoken permanents of each color the chosen player controls. Multicolored ones are counted for each of their colors; colorless ones are ignored. The moment the number of nontoken permanents of the chosen color that player controls is less than or equal to the number of permanents of one of the other colors that player controls, Call to Arms's second ability stops giving white creatures +1/+1 and its third ability triggers. Call to Arms will be sacrificed when the third ability resolves, even if those numbers have changed by then.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/4/call-to-arms) · oracle_id `72eaaa73-3263-46e9-aa86-5862d3aed20a` · printing: ME3 #4 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call to Glory
 
@@ -929,6 +1101,7 @@
   > *"General Takeno glared at us as if we were the enemy. 'The day is not over yet,' he shouted, 'and unless you have a nezumi's heart, you \*will\* stand and fight!'"*
   > *—\*Battle of Akagi River: A Survivor's Tale\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15952 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/4/call-to-glory) · oracle_id `b01d24d5-79d0-401f-99f5-da036628dd39` · printing: CHK #4 (2004-10-01) · [rulings](https://api.scryfall.com/cards/758fcfe4-0347-4ac6-8e29-f945cb1d7295/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call to Heel
@@ -940,7 +1113,10 @@
 - **Flavor text** (BBD printing):
   > *On Bant, a sigil is both a prize of honor and a bond of duty. The one who bears it may be called to fulfill that charge at any moment.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18399 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/114/call-to-heel) · oracle_id `8ef3dd68-f6a1-43b9-8837-40b326019b1b` · printing: BBD #114 (2018-06-08) · [rulings](https://api.scryfall.com/cards/bdedbb84-7abe-420d-8429-c2d77ee0ae36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-10-01* — If the targeted creature becomes an illegal target before Call to Heel resolves, Call to Heel doesn’t resolve. No one draws a card.
+  - *2008-10-01* — The player who draws a card is the player who controls the creature when Call to Heel resolves. This may not be the player whose hand the creature is put into.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/114/call-to-heel) · oracle_id `8ef3dd68-f6a1-43b9-8837-40b326019b1b` · printing: BBD #114 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call to Mind
 
@@ -952,6 +1128,7 @@
   > *"It's hard to say which is more satisfying: the search for that missing piece or fitting that piece into place."*
   > *—Evo Ragus*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10939 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c14/101/call-to-mind) · oracle_id `72e2b883-a284-4ab6-8174-1ca289141a49` · printing: C14 #101 (2014-11-07) · [rulings](https://api.scryfall.com/cards/9218f8f4-89fd-46a1-928b-2e0e8e2b4458/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call to Serve
@@ -965,7 +1142,9 @@
   > *Grace is a gift, never a reward.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20794 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/avr/9/call-to-serve) · oracle_id `bb4be6b2-507c-4d7c-bea4-010670dce3da` · printing: AVR #9 (2012-05-04) · [rulings](https://api.scryfall.com/cards/ce4a3e80-6e95-4346-8ab8-eecc1a09ca24/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-05-01* — If the enchanted creature becomes black, Call to Serve will be put into its owner’s graveyard the next time state-based actions are performed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/avr/9/call-to-serve) · oracle_id `bb4be6b2-507c-4d7c-bea4-010670dce3da` · printing: AVR #9 (2012-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call to the Feast
 
@@ -976,6 +1155,7 @@
 - **Flavor text** (2X2 printing):
   > *By the law of church and crown, vampires feed only on the blood of the guilty—those declared heretics, rebels, or enemies of war.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14306 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/190/call-to-the-feast) · oracle_id `30536d1f-8b1a-474f-a508-d3426480a532` · printing: 2X2 #190 (2022-07-08) · [rulings](https://api.scryfall.com/cards/cf31f32f-bbca-4e70-93ca-f74c20202939/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call to the Grave
@@ -986,7 +1166,11 @@
   > At the beginning of each player's upkeep, that player sacrifices a non-Zombie creature of their choice.
   > At the beginning of the end step, if no creatures are on the battlefield, sacrifice this enchantment.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13271 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m12/85/call-to-the-grave) · oracle_id `db5a4c25-5ae5-4a04-be79-bdee39b9152c` · printing: M12 #85 (2011-07-15) · [rulings](https://api.scryfall.com/cards/5e1324b6-dba0-4aff-a403-a45d2b405f5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2011-09-22* — If a player controls no creatures, or each creature they control is a Zombie, that player does nothing when the first ability resolves.
+  - *2011-09-22* — If there is at least one creature on the battlefield at the beginning of the end step, the last ability won't trigger. If it does trigger, but a creature enters before it resolves, the ability won't do anything when it resolves. Call to the Grave's controller won't sacrifice it.
+  - *2011-09-22* — In a Two-Headed Giant game, Call to the Grave will trigger twice during each team's upkeep, once for each player. Each of the two players will sacrifice a non-Zombie creature when the ability referring to that player resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m12/85/call-to-the-grave) · oracle_id `db5a4c25-5ae5-4a04-be79-bdee39b9152c` · printing: M12 #85 (2011-07-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call to the Kindred
 
@@ -997,7 +1181,9 @@
   > At the beginning of your upkeep, you may look at the top five cards of your library. If you do, you may put a creature card that shares a creature type with enchanted creature from among them onto the battlefield, then you put the rest of those cards on the bottom of your library in any order.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11031 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dka/30/call-to-the-kindred) · oracle_id `c2fb8d4c-b973-42a0-9e9c-7abd5cc2c22e` · printing: DKA #30 (2012-02-03) · [rulings](https://api.scryfall.com/cards/ee35f96c-6060-4456-897e-27b74c8c2137/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-22* — The creature need only share one creature type with enchanted creature, not necessarily all of them. For example, if the enchanted creature was a Human Soldier, you could put a Human Wizard creature card, a Goblin Soldier creature card, or a Human Soldier Ally creature card onto the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dka/30/call-to-the-kindred) · oracle_id `c2fb8d4c-b973-42a0-9e9c-7abd5cc2c22e` · printing: DKA #30 (2012-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call to the Netherworld
 
@@ -1029,7 +1215,10 @@
 - **Flavor text** (CLB printing):
   > *Bhaal's mortal children carried within them a darkness that, left unchecked, would devour them all.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20033 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/118/call-to-the-void) · oracle_id `c2db2c28-3ddc-41ce-a0c2-ddc555dea133` · printing: CLB #118 (2022-06-10) · [rulings](https://api.scryfall.com/cards/6836cfea-c203-49f4-b8d1-f1e8aa790db5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-06-10* — For each player to secretly choose the creatures, that player should write down their choices without showing them to anyone else. Each player then keeps their choices secret until all players simultaneously reveal their choices.
+  - *2022-06-10* — If a creature is chosen more than once, it is destroyed only once. For example, having a single shield counter on it would allow it to survive.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/118/call-to-the-void) · oracle_id `c2db2c28-3ddc-41ce-a0c2-ddc555dea133` · printing: CLB #118 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call Up Emrakul to Help
 
@@ -1040,6 +1229,7 @@
   > Exile target nonland permanent. Create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C}." If Call Up Emrakul to Help was kicked, instead create a token that's a copy of Emrakul, the Promised End.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RC07a/call-up-emrakul-to-help) · oracle_id `2f55eccf-39d6-471f-805a-f4206fecc4e8` · printing: UNK #RC07a (2023-02-17) · [rulings](https://api.scryfall.com/cards/38f2371f-fc9f-4fe9-b6a0-43c966289066/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Calming Licid
@@ -1051,7 +1241,10 @@
   > {W}, {T}: This creature loses this ability and becomes an Aura enchantment with enchant creature. Attach it to target creature. You may pay {W} to end this effect.
   > Enchanted creature can't attack.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29036 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sth/2/calming-licid) · oracle_id `93d20859-249f-47ae-8f6d-095228e7b6e9` · printing: STH #2 (1998-03-02) · [rulings](https://api.scryfall.com/cards/155fc239-c2eb-41cc-9a0a-2414da3c3d7b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — If a spell that can target enchantments but not creatures (such as Clear) is cast targeting the Licid after it has become an enchantment, but the Licid's controller pays the cost, the Licid will no longer be an enchantment. This will result in the spell failing to resolve for having no legal targets.
+  - *2013-04-15* — Paying the cost to end the effect is a special action and can't be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sth/2/calming-licid) · oracle_id `93d20859-249f-47ae-8f6d-095228e7b6e9` · printing: STH #2 (1998-03-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Calming Verse
 
@@ -1062,7 +1255,9 @@
 - **Flavor text** (PCY printing):
   > *The chattering forest fell silent as the otherworldly song began.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16326 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/110/calming-verse) · oracle_id `c70ae479-0bd1-481c-885f-16bfa096cf58` · printing: PCY #110 (2000-06-05) · [rulings](https://api.scryfall.com/cards/ec38c856-dc21-450d-9aa6-da16c91a489a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It checks if you control an untapped land during resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/110/calming-verse) · oracle_id `c70ae479-0bd1-481c-885f-16bfa096cf58` · printing: PCY #110 (2000-06-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caltrops
 

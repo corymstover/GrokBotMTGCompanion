@@ -28,6 +28,7 @@
   > *The bite of the tinviper feels most like a razor drawn across the tongue.*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29309 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/219/coiled-tinviper) · oracle_id `b0bdc033-29f0-4dcb-87ff-ccd56126f7e5` · printing: TPR #219 (2015-05-06) · [rulings](https://api.scryfall.com/cards/c62c2f66-6419-49ca-82d7-a5e8789a665f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coiling Oracle
@@ -77,7 +78,16 @@
   > Whenever this creature deals combat damage to a player, put a +1/+1 counter on target creature you control that doesn't have a +1/+1 counter on it.
 - **Keywords:** Ninjutsu
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19240 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/179/coiling-stalker) · oracle_id `54dc1c02-2d71-465b-a285-d6d11113991c` · printing: NEO #179 (2022-02-18) · [rulings](https://api.scryfall.com/cards/6eba24f6-8a9c-4398-b2ab-3924b107c7b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2022-02-18* — Although the Ninja is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2022-02-18* — As you activate a ninjutsu ability, you reveal the Ninja card in your hand and return the attacking creature. The Ninja card stays revealed and isn't put onto the battlefield until the ability resolves. If it leaves your hand before then, it won't enter the battlefield at all.
+  - *2022-02-18* — If a creature in combat has first strike or double strike, you can activate the ninjutsu ability during the first-strike combat damage step. The Ninja will deal combat damage during the regular combat damage step, even if it has first strike.
+  - *2022-02-18* — Puff of smoke not included.
+  - *2022-02-18* — The creature with ninjutsu enters the battlefield attacking the same player or planeswalker that the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player or planeswalker it's attacking.
+  - *2022-02-18* — The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. In most cases (see below), if you wait until the combatdamage step or end of combat step, it will be after combat damage has been dealt, so the Ninja won't deal combat damage.
+  - *2022-02-18* — The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
+  - *2022-02-18* — The target of Coiling Stalker's triggered ability will become an illegal target if a +1/+1 counter is placed on it before the triggered ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/179/coiling-stalker) · oracle_id `54dc1c02-2d71-465b-a285-d6d11113991c` · printing: NEO #179 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coiling Woodworm
 
@@ -89,6 +99,7 @@
 - **Flavor text** (NEM printing):
   > *Only the elves know where the woods end and the woodworm begins.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23911 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/103/coiling-woodworm) · oracle_id `75dcdf05-b392-4a96-98ae-5ec4cd425eee` · printing: NEM #103 (2000-02-14) · [rulings](https://api.scryfall.com/cards/341a70be-2dbf-4365-9c7a-e52cb62a74fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coils of the Medusa
@@ -103,6 +114,7 @@
   > *Serpentine locks shape ornate rocks.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27608 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/wth/65/coils-of-the-medusa) · oracle_id `02a8a4e6-2081-4903-81ad-96e5a949dff8` · printing: WTH #65 (1997-06-09) · [rulings](https://api.scryfall.com/cards/502bfb38-4a37-4053-af20-d5606ffc67c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coin of Fate
@@ -114,7 +126,13 @@
   > {3}{W}, {T}, Exile two creature cards from your graveyard, Sacrifice this artifact: An opponent chooses one of the exiled cards. You put that card on the bottom of your library and return the other to the battlefield tapped. You become the monarch.
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13344 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/15/coin-of-fate) · oracle_id `e43b478b-4cb8-42b1-a5b0-0b1421b84852` · printing: FIC #15 (2025-06-13) · [rulings](https://api.scryfall.com/cards/cde3765f-e25c-4d16-b361-448167ed8736/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-06-06* — If combat damage dealt to the monarch causes that player to lose the game, the triggered ability that causes the controller of the attacking creature to become the monarch doesn't resolve. In most cases, the controller of the attacking creature will still become the monarch as it is likely their turn.
+  - *2025-06-06* — If the monarch leaves the game during another player's turn, that player becomes the monarch. If the monarch leaves the game during their turn, the next player in turn order becomes the monarch.
+  - *2025-06-06* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2025-06-06* — The game starts with no monarch. As a player becomes the monarch, the current monarch (if any) ceases being the monarch. There is never more than one monarch at a time.
+  - *2025-06-06* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/15/coin-of-fate) · oracle_id `e43b478b-4cb8-42b1-a5b0-0b1421b84852` · printing: FIC #15 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coin of Mastery
 

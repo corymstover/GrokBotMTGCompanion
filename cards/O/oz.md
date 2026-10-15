@@ -22,6 +22,7 @@
 - **Flavor text** (TLA printing):
   > *"You will learn respect, and suffering will be your teacher."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13544 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/113/ozais-cruelty) · oracle_id `aba5c046-2f8c-4749-b347-9a7d8cb1c865` · printing: TLA #113 (2025-11-21) · [rulings](https://api.scryfall.com/cards/22cad680-d46a-4589-a633-b6ee9a78d61e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ozai, the Phoenix King
@@ -73,4 +74,5 @@
   > Ozox can't block.
   > When Ozox dies, create Jumblebones, a legendary 2/1 black Skeleton creature token with "Jumblebones can't block" and "When Jumblebones leaves the battlefield, return target card named Ozox, the Clattering King from your graveyard to your hand."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10422 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/j25/44/ozox-the-clattering-king) · oracle_id `04e575d1-f843-4330-972f-e77b264073e0` · printing: J25 #44 (2024-11-15) · [rulings](https://api.scryfall.com/cards/02cf5079-9da8-470d-8eea-00d6aac68d04/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

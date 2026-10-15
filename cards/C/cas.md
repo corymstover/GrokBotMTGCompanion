@@ -68,6 +68,7 @@
   > At the beginning of your upkeep, transform Casal.
 - **Keywords:** Vigilance, Transform, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10256 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/29/casal-lurkwood-pathfinder-casal-pathbreaker-owlbear) · oracle_id `b7bdb688-f8ee-4d22-a679-37a2ecd390a1` · printing: SLX #29 (2025-04-25) · [rulings](https://api.scryfall.com/cards/d571c367-c786-41f9-9cdb-cb02594fa413/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cascade Bluffs
@@ -94,7 +95,13 @@
   > *"Perhaps you can't see the path, but that doesn't mean it isn't there."*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24932 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/48/cascade-seer) · oracle_id `08992e72-49b5-4d40-8b44-cb5abfe5ce0d` · printing: ZNR #48 (2020-09-25) · [rulings](https://api.scryfall.com/cards/13105c88-2926-40ad-bc7a-09d515aa36c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-09-25* — An ability referring to the number of creatures in your party gets a number from zero to four. Such abilities never ask which creatures are in your party, and you never have to designate specific creatures as being in your party. You can't choose to exclude creatures from this count to lower the number.
+  - *2020-09-25* — If a creature has more than one party creature type, and there are multiple ways to count that creature that could result in a different number of creatures in your party, the highest such number is used. For example, if you control a Cleric and a Cleric Wizard, the number of creatures in your party is two. You can't choose to have it be just one by counting the Cleric Wizard first as a Cleric.
+  - *2020-09-25* — If an ability of a creature counts the number of creatures in your party, that number is counted as the ability resolves. If that creature is still on the battlefield when the ability resolves, it'll be counted if appropriate.
+  - *2020-09-25* — If there are no creatures in your party as Cascade Seer's ability resolves, you don't scry at all. Abilities that trigger whenever you scry don't trigger.
+  - *2020-09-25* — To determine “the number of creatures in your party,” check whether you control a Cleric, whether you control a Rogue, whether you control a Warrior, and whether you control a Wizard. The number is the total number of those checks to which you answered yes. Each creature you control can be counted for only one of those checks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/48/cascade-seer) · oracle_id `08992e72-49b5-4d40-8b44-cb5abfe5ce0d` · printing: ZNR #48 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cascading Cataracts
 
@@ -121,7 +128,9 @@
   > When this creature enters and whenever you solve a Case, look at the top six cards of your library. You may reveal an enchantment card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
   > You may spend mana as though it were mana of any color to cast Case spells.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24254 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/7/case-file-auditor) · oracle_id `8c612741-2b30-43b3-bd3f-7df19662d298` · printing: MKM #7 (2024-02-09) · [rulings](https://api.scryfall.com/cards/70a52038-9d1c-4be1-8dbe-6f0ee916ba94/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-02-02* — Case File Auditor's first ability triggers whenever a "to solve" ability you control resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/7/case-file-auditor) · oracle_id `8c612741-2b30-43b3-bd3f-7df19662d298` · printing: MKM #7 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Case of the Burning Masks
 
@@ -133,7 +142,23 @@
   > Solved — Sacrifice this Case: Exile the top three cards of your library. Choose one of them. You may play that card this turn.
 - **Keywords:** Solved
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25628 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/113/case-of-the-burning-masks) · oracle_id `7c1eb874-97f3-463f-bf4e-4d82dcc16e69` · printing: MKM #113 (2024-02-09) · [rulings](https://api.scryfall.com/cards/29ee07df-215f-45a6-9a5a-708143d73e45/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2024-02-02* — "Solved — [Triggered ability]" means "[Triggered ability]. This ability triggers only if this Case is solved." Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]."
+  - *2024-02-02* — "Solved — [static ability]" means "As long as this Case is solved, [static ability]." Static abilities are written as statements, such as "Creatures you control get +1/+1" or "Instant and sorcery spells you cast cost {1} less to cast."
+  - *2024-02-02* — "To Solve — [condition]" means "At the beginning of your end step, if [condition] and this Case is not solved, it becomes solved."
+  - *2024-02-02* — "To solve" abilities will check for their condition twice: once when the ability would trigger, and once when it resolves. If the condition isn't true at the beginning of your end step, the ability won't trigger at all. If the condition isn't true when the ability resolves, the Case won't become solved.
+  - *2024-02-02* — A permanent that deals damage multiple times without changing zones still counts as only one source. For example, if you attack with Incinerator of the Guilty and deal combat damage with it, use its triggered ability to deal damage, and then use Hard-Hitting Question to have it deal damage to another creature, it's still just one source even though it dealt damage three times during the turn.
+  - *2024-02-02* — Activated and triggered abilities are not themselves sources of damage. The source of an activated ability is the object whose ability was activated, and the source of a triggered ability (other than a delayed triggered ability) is the object whose ability triggered.
+  - *2024-02-02* — Being solved is not part of a permanent's copiable values. A permanent that becomes a copy of a solved Case is not solved. A solved Case that somehow becomes a copy of a different Case stays solved.
+  - *2024-02-02* — Cases don't lose their other abilities when they become solved.
+  - *2024-02-02* — Each Case has two special keyword abilities: to solve and solved.
+  - *2024-02-02* — If multiple creatures you control deal combat damage, each one counts as a source that dealt damage that turn. A single creature that deals combat damage multiple times in a turn (due to double strike or additional combats) still counts as only one source.
+  - *2024-02-02* — Once a Case becomes solved, it stays solved until it leaves the battlefield.
+  - *2024-02-02* — Something that changes zones becomes a new object in that zone and will therefore be a new source. For example, if you cast Flametongue Kavu, deal damage with its enters-the-battlefield ability, exile and return it to the battlefield with Momentary Blink, deal damage again, then cast Momentary Blink with flashback on Flametongue Kavu to repeat the process one more time, you've fulfilled Case of the Burning Masks's "to solve" trigger condition. 
+  - *2024-02-02* — The meaning of "solved" differs based on what type of ability follows it. "Solved — [activated ability]" means "[Activated ability]. Activate only if this Case is solved." Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." 
+  - *2024-02-02* — You need to control the sources that dealt damage only at the times when they dealt damage. If they die or change control after that point, the "to solve" ability will still trigger at the beginning of your end step as long as you still control Case of the Burning Masks.
+  - *2024-02-02* — You pay all costs and follow all normal timing rules for the card played from exile with Case of the Burning Masks's last ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/113/case-of-the-burning-masks) · oracle_id `7c1eb874-97f3-463f-bf4e-4d82dcc16e69` · printing: MKM #113 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Case of the Crimson Pulse
 
@@ -145,7 +170,18 @@
   > Solved — At the beginning of your upkeep, discard your hand, then draw two cards.
 - **Keywords:** Solved
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13363 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/114/case-of-the-crimson-pulse) · oracle_id `955504bc-050a-42a2-b2e4-ab213183b2be` · printing: MKM #114 (2024-02-09) · [rulings](https://api.scryfall.com/cards/bb18b1de-bc08-4522-b891-6117a8271534/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2024-02-02* — "Solved — [Triggered ability]" means "[Triggered ability]. This ability triggers only if this Case is solved." Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]."
+  - *2024-02-02* — "Solved — [static ability]" means "As long as this Case is solved, [static ability]." Static abilities are written as statements, such as "Creatures you control get +1/+1" or "Instant and sorcery spells you cast cost {1} less to cast."
+  - *2024-02-02* — "To Solve — [condition]" means "At the beginning of your end step, if [condition] and this Case is not solved, it becomes solved."
+  - *2024-02-02* — "To solve" abilities will check for their condition twice: once when the ability would trigger, and once when it resolves. If the condition isn't true at the beginning of your end step, the ability won't trigger at all. If the condition isn't true when the ability resolves, the Case won't become solved.
+  - *2024-02-02* — Being solved is not part of a permanent's copiable values. A permanent that becomes a copy of a solved Case is not solved. A solved Case that somehow becomes a copy of a different Case stays solved.
+  - *2024-02-02* — Cases don't lose their other abilities when they become solved.
+  - *2024-02-02* — Each Case has two special keyword abilities: to solve and solved.
+  - *2024-02-02* — If you have no cards in hand as Case of the Crimson Pulse's first ability resolves, you won't discard a card, but you will still draw two cards. Similarly, if you have no cards in hand when Case of the Crimson Pulse's last ability resolves, you won't discard any cards, but you'll still draw two cards.
+  - *2024-02-02* — Once a Case becomes solved, it stays solved until it leaves the battlefield.
+  - *2024-02-02* — The meaning of "solved" differs based on what type of ability follows it. "Solved — [activated ability]" means "[Activated ability]. Activate only if this Case is solved." Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." 
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/114/case-of-the-crimson-pulse) · oracle_id `955504bc-050a-42a2-b2e4-ab213183b2be` · printing: MKM #114 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Case of the Filched Falcon
 
@@ -157,7 +193,26 @@
   > Solved — {2}{U}, Sacrifice this Case: Put four +1/+1 counters on target noncreature artifact. It becomes a 0/0 Bird creature with flying in addition to its other types.
 - **Keywords:** Investigate, Solved
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18193 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/44/case-of-the-filched-falcon) · oracle_id `33b31fb0-71ce-408a-a256-2a5a3b085cb6` · printing: MKM #44 (2024-02-09) · [rulings](https://api.scryfall.com/cards/266be5bd-71ba-4511-8b71-d0b03885a28d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (18):
+  - *2024-02-02* — "Solved — [Triggered ability]" means "[Triggered ability]. This ability triggers only if this Case is solved." Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]."
+  - *2024-02-02* — "Solved — [static ability]" means "As long as this Case is solved, [static ability]." Static abilities are written as statements, such as "Creatures you control get +1/+1" or "Instant and sorcery spells you cast cost {1} less to cast."
+  - *2024-02-02* — "To Solve — [condition]" means "At the beginning of your end step, if [condition] and this Case is not solved, it becomes solved."
+  - *2024-02-02* — "To solve" abilities will check for their condition twice: once when the ability would trigger, and once when it resolves. If the condition isn't true at the beginning of your end step, the ability won't trigger at all. If the condition isn't true when the ability resolves, the Case won't become solved.
+  - *2024-02-02* — Being solved is not part of a permanent's copiable values. A permanent that becomes a copy of a solved Case is not solved. A solved Case that somehow becomes a copy of a different Case stays solved.
+  - *2024-02-02* — Cases don't lose their other abilities when they become solved.
+  - *2024-02-02* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2024-02-02* — Each Case has two special keyword abilities: to solve and solved.
+  - *2024-02-02* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2024-02-02* — If the target artifact is an attached Equipment, it becomes unattached. If an Equipment without reconfigure becomes an artifact creature, it can't be attached to another creature.
+  - *2024-02-02* — If the target noncreature artifact is a Vehicle, its power and toughness will be set to 0/0. Crewing that Vehicle will not restore its power and toughness.
+  - *2024-02-02* — Once a Case becomes solved, it stays solved until it leaves the battlefield.
+  - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
+  - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
+  - *2024-02-02* — The artifact retains any types, subtypes, or supertypes it has.
+  - *2024-02-02* — The meaning of "solved" differs based on what type of ability follows it. "Solved — [activated ability]" means "[Activated ability]. Activate only if this Case is solved." Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." 
+  - *2024-02-02* — The resulting artifact creature will be able to attack on your turn if it's been under your control continuously since the turn began. That is, it doesn't matter how long it's been a creature, just how long it's been on the battlefield.
+  - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/44/case-of-the-filched-falcon) · oracle_id `33b31fb0-71ce-408a-a256-2a5a3b085cb6` · printing: MKM #44 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Case of the Gateway Express
 
@@ -169,7 +224,17 @@
   > Solved — Creatures you control get +1/+0.
 - **Keywords:** Solved
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17445 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/8/case-of-the-gateway-express) · oracle_id `42a9aeac-5b9c-4675-8c96-7c8ce7e9098c` · printing: MKM #8 (2024-02-09) · [rulings](https://api.scryfall.com/cards/0862bf07-8a76-4e80-bba2-20d22f8eee30/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-02-02* — "Solved — [Triggered ability]" means "[Triggered ability]. This ability triggers only if this Case is solved." Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]."
+  - *2024-02-02* — "Solved — [static ability]" means "As long as this Case is solved, [static ability]." Static abilities are written as statements, such as "Creatures you control get +1/+1" or "Instant and sorcery spells you cast cost {1} less to cast."
+  - *2024-02-02* — "To Solve — [condition]" means "At the beginning of your end step, if [condition] and this Case is not solved, it becomes solved."
+  - *2024-02-02* — "To solve" abilities will check for their condition twice: once when the ability would trigger, and once when it resolves. If the condition isn't true at the beginning of your end step, the ability won't trigger at all. If the condition isn't true when the ability resolves, the Case won't become solved.
+  - *2024-02-02* — Being solved is not part of a permanent's copiable values. A permanent that becomes a copy of a solved Case is not solved. A solved Case that somehow becomes a copy of a different Case stays solved.
+  - *2024-02-02* — Cases don't lose their other abilities when they become solved.
+  - *2024-02-02* — Each Case has two special keyword abilities: to solve and solved.
+  - *2024-02-02* — Once a Case becomes solved, it stays solved until it leaves the battlefield.
+  - *2024-02-02* — The meaning of "solved" differs based on what type of ability follows it. "Solved — [activated ability]" means "[Activated ability]. Activate only if this Case is solved." Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." 
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/8/case-of-the-gateway-express) · oracle_id `42a9aeac-5b9c-4675-8c96-7c8ce7e9098c` · printing: MKM #8 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Case of the Gorgon's Kiss
 
@@ -181,7 +246,19 @@
   > Solved — This Case is a 4/4 Gorgon creature with deathtouch and lifelink in addition to its other types.
 - **Keywords:** Solved
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22110 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/79/case-of-the-gorgons-kiss) · oracle_id `a89f9072-cf06-429f-a9b8-c11b5731ddd3` · printing: MKM #79 (2024-02-09) · [rulings](https://api.scryfall.com/cards/45e4c07a-3205-4193-8163-b0e63e6242a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2024-02-02* — "Solved — [Triggered ability]" means "[Triggered ability]. This ability triggers only if this Case is solved." Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]."
+  - *2024-02-02* — "Solved — [static ability]" means "As long as this Case is solved, [static ability]." Static abilities are written as statements, such as "Creatures you control get +1/+1" or "Instant and sorcery spells you cast cost {1} less to cast."
+  - *2024-02-02* — "To Solve — [condition]" means "At the beginning of your end step, if [condition] and this Case is not solved, it becomes solved."
+  - *2024-02-02* — "To solve" abilities will check for their condition twice: once when the ability would trigger, and once when it resolves. If the condition isn't true at the beginning of your end step, the ability won't trigger at all. If the condition isn't true when the ability resolves, the Case won't become solved.
+  - *2024-02-02* — Being solved is not part of a permanent's copiable values. A permanent that becomes a copy of a solved Case is not solved. A solved Case that somehow becomes a copy of a different Case stays solved.
+  - *2024-02-02* — Cases don't lose their other abilities when they become solved.
+  - *2024-02-02* — Each Case has two special keyword abilities: to solve and solved.
+  - *2024-02-02* — Once a Case becomes solved, it stays solved until it leaves the battlefield.
+  - *2024-02-02* — The "to solve" ability of Case of the Gorgon's Kiss looks at what type the cards are after they move to the graveyard to determine whether the ability should trigger, regardless of any types they may have had before they were in the graveyard. For example, a creature card that has become a noncreature permanent will count toward the ability's condition when it's put into a graveyard. By contrast, a noncreature card that has become a creature on the battlefield will not count toward the ability's condition when it's put into a graveyard.
+  - *2024-02-02* — The meaning of "solved" differs based on what type of ability follows it. "Solved — [activated ability]" means "[Activated ability]. Activate only if this Case is solved." Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." 
+  - *2024-02-02* — Tokens are not cards and, as such, do not count toward Case of the Gorgon's Kiss "to solve" ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/79/case-of-the-gorgons-kiss) · oracle_id `a89f9072-cf06-429f-a9b8-c11b5731ddd3` · printing: MKM #79 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Case of the Locked Hothouse
 
@@ -216,7 +293,22 @@
   > Solved — If one or more tokens would be created under your control, those tokens plus a Clue token are created instead. (It's an artifact with "{2}, Sacrifice this token: Draw a card.")
 - **Keywords:** Solved
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20159 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/9/case-of-the-pilfered-proof) · oracle_id `68d3084b-0f4b-44a6-8954-6ebaf1db9269` · printing: MKM #9 (2024-02-09) · [rulings](https://api.scryfall.com/cards/32927bf2-63c1-4402-99dc-3a0f2f8e0f9c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2024-02-02* — "Solved — [Triggered ability]" means "[Triggered ability]. This ability triggers only if this Case is solved." Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]."
+  - *2024-02-02* — "Solved — [static ability]" means "As long as this Case is solved, [static ability]." Static abilities are written as statements, such as "Creatures you control get +1/+1" or "Instant and sorcery spells you cast cost {1} less to cast."
+  - *2024-02-02* — "To Solve — [condition]" means "At the beginning of your end step, if [condition] and this Case is not solved, it becomes solved."
+  - *2024-02-02* — "To solve" abilities will check for their condition twice: once when the ability would trigger, and once when it resolves. If the condition isn't true at the beginning of your end step, the ability won't trigger at all. If the condition isn't true when the ability resolves, the Case won't become solved.
+  - *2024-02-02* — Being solved is not part of a permanent's copiable values. A permanent that becomes a copy of a solved Case is not solved. A solved Case that somehow becomes a copy of a different Case stays solved.
+  - *2024-02-02* — Cases don't lose their other abilities when they become solved.
+  - *2024-02-02* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2024-02-02* — Each Case has two special keyword abilities: to solve and solved.
+  - *2024-02-02* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2024-02-02* — Once a Case becomes solved, it stays solved until it leaves the battlefield.
+  - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
+  - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
+  - *2024-02-02* — The meaning of "solved" differs based on what type of ability follows it. "Solved — [activated ability]" means "[Activated ability]. Activate only if this Case is solved." Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." 
+  - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/9/case-of-the-pilfered-proof) · oracle_id `68d3084b-0f4b-44a6-8954-6ebaf1db9269` · printing: MKM #9 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Case of the Ransacked Lab
 
@@ -250,7 +342,17 @@
   > Solved — At the beginning of combat on your turn, target creature you control gains flying, double strike, and vigilance until end of turn.
 - **Keywords:** Solved
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11838 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/1/case-of-the-shattered-pact) · oracle_id `d00a089b-7d0d-4b89-902b-7b914e892178` · printing: MKM #1 (2024-02-09) · [rulings](https://api.scryfall.com/cards/2a70f0ae-d49b-4cc8-9f76-895039c3dc39/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-02-02* — "Solved — [Triggered ability]" means "[Triggered ability]. This ability triggers only if this Case is solved." Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]."
+  - *2024-02-02* — "Solved — [static ability]" means "As long as this Case is solved, [static ability]." Static abilities are written as statements, such as "Creatures you control get +1/+1" or "Instant and sorcery spells you cast cost {1} less to cast."
+  - *2024-02-02* — "To Solve — [condition]" means "At the beginning of your end step, if [condition] and this Case is not solved, it becomes solved."
+  - *2024-02-02* — "To solve" abilities will check for their condition twice: once when the ability would trigger, and once when it resolves. If the condition isn't true at the beginning of your end step, the ability won't trigger at all. If the condition isn't true when the ability resolves, the Case won't become solved.
+  - *2024-02-02* — Being solved is not part of a permanent's copiable values. A permanent that becomes a copy of a solved Case is not solved. A solved Case that somehow becomes a copy of a different Case stays solved.
+  - *2024-02-02* — Cases don't lose their other abilities when they become solved.
+  - *2024-02-02* — Each Case has two special keyword abilities: to solve and solved.
+  - *2024-02-02* — Once a Case becomes solved, it stays solved until it leaves the battlefield.
+  - *2024-02-02* — The meaning of "solved" differs based on what type of ability follows it. "Solved — [activated ability]" means "[Activated ability]. Activate only if this Case is solved." Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." 
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/1/case-of-the-shattered-pact) · oracle_id `d00a089b-7d0d-4b89-902b-7b914e892178` · printing: MKM #1 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Case of the Shifting Visage
 
@@ -318,7 +420,17 @@
   > Solved — Whenever you attack, put a +1/+1 counter on target attacking creature. It gains trample until end of turn.
 - **Keywords:** Solved
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11037 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/156/case-of-the-trampled-garden) · oracle_id `575a0dc2-206a-406a-90b3-72a92f2ea87a` · printing: MKM #156 (2024-02-09) · [rulings](https://api.scryfall.com/cards/9e80f5c7-ae29-473c-ac64-04bcbc629385/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-02-02* — "Solved — [Triggered ability]" means "[Triggered ability]. This ability triggers only if this Case is solved." Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]."
+  - *2024-02-02* — "Solved — [static ability]" means "As long as this Case is solved, [static ability]." Static abilities are written as statements, such as "Creatures you control get +1/+1" or "Instant and sorcery spells you cast cost {1} less to cast."
+  - *2024-02-02* — "To Solve — [condition]" means "At the beginning of your end step, if [condition] and this Case is not solved, it becomes solved."
+  - *2024-02-02* — "To solve" abilities will check for their condition twice: once when the ability would trigger, and once when it resolves. If the condition isn't true at the beginning of your end step, the ability won't trigger at all. If the condition isn't true when the ability resolves, the Case won't become solved.
+  - *2024-02-02* — Being solved is not part of a permanent's copiable values. A permanent that becomes a copy of a solved Case is not solved. A solved Case that somehow becomes a copy of a different Case stays solved.
+  - *2024-02-02* — Cases don't lose their other abilities when they become solved.
+  - *2024-02-02* — Each Case has two special keyword abilities: to solve and solved.
+  - *2024-02-02* — Once a Case becomes solved, it stays solved until it leaves the battlefield.
+  - *2024-02-02* — The meaning of "solved" differs based on what type of ability follows it. "Solved — [activated ability]" means "[Activated ability]. Activate only if this Case is solved." Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." 
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/156/case-of-the-trampled-garden) · oracle_id `575a0dc2-206a-406a-90b3-72a92f2ea87a` · printing: MKM #156 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Case of the Uneaten Feast
 
@@ -351,6 +463,7 @@
 - **Flavor text** (SNC printing):
   > *Steel doors and iron bars are child's play for an Obscura operative.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18273 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/37/case-the-joint) · oracle_id `575d067a-83a0-49e7-8a74-e3e46a946c8c` · printing: SNC #37 (2022-04-29) · [rulings](https://api.scryfall.com/cards/0f9edf04-681d-45f9-975f-704154040506/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Casey Jones, Asphalt Hooligan
@@ -365,7 +478,9 @@
   > *"Two minutes for slashing, two minutes for hooking, and my personal favorite, two minutes for high-sticking."*
 - **Keywords:** Double strike, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22159 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/115/casey-jones-asphalt-hooligan) · oracle_id `1eaa37a3-8769-4213-bcd5-39bcf4771273` · printing: TMC #115 (2026-03-06) · [rulings](https://api.scryfall.com/cards/a2754751-031f-4682-86fd-ea9a60a33a05/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-01-27* — To double Casey Jones's power, he gets +X/+0, where X is his power when his last ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/115/casey-jones-asphalt-hooligan) · oracle_id `1eaa37a3-8769-4213-bcd5-39bcf4771273` · printing: TMC #115 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Casey Jones, Back Alley Brute
 
@@ -391,6 +506,7 @@
   > When Casey Jones enters, look at the top four cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17632 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/87/casey-jones-jury-rig-justiciar) · oracle_id `b4c4fdb9-e034-49c0-9f7f-07e8cae19eb2` · printing: TMT #87 (2026-03-06) · [rulings](https://api.scryfall.com/cards/808a5bc0-0999-47cf-854c-30db6277efe5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Casey Jones, Vigilante
@@ -403,6 +519,7 @@
 - **Flavor text** (TMT printing):
   > *"Goongala!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18790 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/88/casey-jones-vigilante) · oracle_id `bc163b5a-0b1a-4257-8c07-5c7d5284015f` · printing: TMT #88 (2026-03-06) · [rulings](https://api.scryfall.com/cards/a6a3258d-2e9b-4862-b2e3-bbfae9bd4d33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Casey & Raph, Hotheads
@@ -416,7 +533,11 @@
   > • Target player creates two Treasure tokens.
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22978 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/114/casey-&-raph-hotheads) · oracle_id `f20a5297-31ba-4bbd-810e-be23175a116f` · printing: TMC #114 (2026-03-06) · [rulings](https://api.scryfall.com/cards/bc235c57-b263-418a-8d33-094d9ba1f5e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2026-01-27* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when playing it without paying its mana cost.
+  - *2026-01-27* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, those must be paid to cast the spell.
+  - *2026-01-27* — The target of the first mode must follow all timing rules for cards played this way. For example, if the exiled card is a land card, they may play it only during their main phase while the stack is empty and only if they have an available land play remaining.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/114/casey-&-raph-hotheads) · oracle_id `f20a5297-31ba-4bbd-810e-be23175a116f` · printing: TMC #114 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cass, Hand of Vengeance
 
@@ -428,7 +549,9 @@
   > Whenever Cass or another creature you control dies, if it was enchanted or equipped, return any number of Aura cards that were attached to it from your graveyard to the battlefield attached to target creature, then attach any number of Equipment that were attached to it to that creature.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11049 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/97/cass-hand-of-vengeance) · oracle_id `f9b6b1db-37c6-43d4-b762-6c9770da5964` · printing: PIP #97 (2024-03-08) · [rulings](https://api.scryfall.com/cards/5b6d7fa6-4de6-4bc8-b250-2ed6eb559618/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-03-08* — You can’t return Aura cards that can’t legally be attached to the target creature. For example, if the target creature has protection from red, you can’t return Grim Reaper’s Sprint to the battlefield with Cass’s last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/97/cass-hand-of-vengeance) · oracle_id `f9b6b1db-37c6-43d4-b762-6c9770da5964` · printing: PIP #97 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cast Away Doubt
 
@@ -439,6 +562,7 @@
 - **Flavor text** (FRA printing):
   > *Every part of Jace's mind that objected to his plan had been cut away. The Theorist was all that remained.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16730 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/51/cast-away-doubt) · oracle_id `bcf29dd7-6d5a-4139-958e-7c59434c0770` · printing: FRA #51 (2026-10-02) · [rulings](https://api.scryfall.com/cards/3b5b28a4-0abd-4dc2-9856-c9a8d27f6a2d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Castaway's Despair
@@ -451,7 +575,9 @@
   > Enchanted creature doesn't untap during its controller's untap step.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26464 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/281/castaways-despair) · oracle_id `9dc4b172-da33-40c0-ab29-d68807dbe93f` · printing: XLN #281 (2017-09-29) · [rulings](https://api.scryfall.com/cards/b3a26ba9-84b8-4f54-918c-f75d4cacad0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-09-29* — Castaway's Despair can target a creature that's already tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/281/castaways-despair) · oracle_id `9dc4b172-da33-40c0-ab29-d68807dbe93f` · printing: XLN #281 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cast Down
 
@@ -476,6 +602,7 @@
   > *"We have no need for military might. We wield two of the sharpest swords ever forged: Faith in our left hand, Wealth in our right."*
   > *—Vuliev of the Ghost Council*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24736 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gpt/106/castigate) · oracle_id `28a972a6-cf67-4ee3-aa91-f7b2549f6c48` · printing: GPT #106 (2006-02-03) · [rulings](https://api.scryfall.com/cards/112c47e4-5ff8-4ea0-ac14-956e4b94119a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Casting of Bones
@@ -490,6 +617,7 @@
   > *—Chaeska, Keeper of Tresserhorn*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20912 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/all/44a/casting-of-bones) · oracle_id `5a747256-4215-4334-98ab-0c2e4ed92e47` · printing: ALL #44a (1996-06-10) · [rulings](https://api.scryfall.com/cards/e823c295-b66e-41c3-bd77-1a13f95e69c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cast into Darkness
@@ -503,6 +631,7 @@
   > *In desperation the soldier prayed to Phenax, begging for the power to cheat the gorgon's gaze.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23272 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/63/cast-into-darkness) · oracle_id `4160e621-3f13-486b-af17-728ce85f7ea5` · printing: JOU #63 (2014-05-02) · [rulings](https://api.scryfall.com/cards/0c1880d4-90c7-46a2-bbc9-d2b52971d11c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cast into the Fire
@@ -532,6 +661,7 @@
   > *—William Shakespeare,*
   > *\*Macbeth\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18235 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/5/castle) · oracle_id `f3179c3c-7e53-44d2-b579-b9e677efe9d9` · printing: 7ED #5 (2001-04-11) · [rulings](https://api.scryfall.com/cards/ffe82e29-e781-48bf-8673-7954553f7cf0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Castle Ardenvale
@@ -626,6 +756,7 @@
   > *"Each place we see is as ruined and lifeless as the last. So here we stay, because this ruin is \*ours\*."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31099 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/12/castle-raptors) · oracle_id `6f967951-99d3-4cce-bb26-b60b22bb99b0` · printing: TSR #12 (2021-03-19) · [rulings](https://api.scryfall.com/cards/4b980a75-8d2d-4d56-be76-48159ef33631/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Castle Sengir
@@ -639,6 +770,7 @@
 - **Flavor text** (HML printing):
   > *Where hope has no champion, evil rules all.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26741 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hml/113/castle-sengir) · oracle_id `c7f0251a-9341-4ff2-8b15-31c06eb4f2e7` · printing: HML #113 (1995-10-01) · [rulings](https://api.scryfall.com/cards/16bfba30-4075-4bd6-9e4b-3a37641d43ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Castle Vantress
@@ -683,7 +815,27 @@
 - **Oracle text:**
   > Instant and sorcery spells you control have rebound. (Exile the spell as it resolves if you cast it from your hand. At the beginning of your next upkeep, you may cast that card from exile without paying its mana cost.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16199 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/roe/55/cast-through-time) · oracle_id `0a911cb2-caae-4378-bf09-1c5b0751dd35` · printing: ROE #55 (2010-04-23) · [rulings](https://api.scryfall.com/cards/c9850489-c056-4b17-8743-a5b514d8edf4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (19):
+  - *2010-06-15* — At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card’s type (if it’s a sorcery) are ignored. Other restrictions are not (such as the one from Rule of Law).
+  - *2010-06-15* — For the rebound effect to happen, Cast Through Time needs to be on the battlefield as the spell _finishes_ resolving. For example, if you cast Warp World from your hand, and as part of its resolution it puts Cast Through Time onto the battlefield, Warp World will rebound. Conversely, if Warp World shuffles your Cast Through Time into your library as part of its resolution, and doesn’t put another one onto the battlefield, it will not rebound.
+  - *2010-06-15* — If a replacement effect would cause a spell with rebound that you cast from your hand to be put somewhere else instead of your graveyard (such as Leyline of the Void might), you choose whether to apply the rebound effect or the other effect as the spell resolves.
+  - *2010-06-15* — If a spell has restrictions on when it can be cast (for example, “Cast [this spell] only during the declare blockers step”), those restrictions may prevent you from casting it from exile during your upkeep.
+  - *2010-06-15* — If a spell moves itself into another zone as part of its resolution (as Arc Blade, All Suns’ Dawn, and Beacon of Unrest do), rebound won’t get a chance to apply.
+  - *2010-06-15* — If a spell with rebound that you cast from your hand doesn’t resolve for any reason (due being countered by a spell like Cancel, or because all of its targets are illegal), rebound has no effect. The spell is simply put into your graveyard. You won’t get to cast it again next turn.
+  - *2010-06-15* — If a spell you cast from your hand has both rebound and buyback (and the buyback cost was paid), you choose which effect to apply as it resolves.
+  - *2010-06-15* — If you are unable to cast a card from exile this way, or you choose not to, nothing happens when the delayed triggered ability resolves. The card remains exiled for the rest of the game, and you won’t get another chance to cast the card. The same is true if the ability is countered (due to Stifle, perhaps).
+  - *2010-06-15* — If you cast a card from exile this way, it will go to your graveyard when it resolves, fails to resolve, or is countered. It won’t go back to exile.
+  - *2010-06-15* — If you cast a card from exile “without paying its mana cost,” you can’t pay any alternative costs. Any X in the mana cost will be 0. On the other hand, if the card has optional additional costs (such as kicker or multikicker), you may pay those when you cast the card. If the card has mandatory additional costs (such as Momentous Fall does), you must pay those if you choose to cast the card.
+  - *2010-06-15* — If you cast a spell using the madness or suspend abilities, you’re casting it from exile, not from your hand. Although those spells will have rebound, the ability won’t have any effect.
+  - *2010-06-15* — If you cast a spell with rebound from anywhere other than your hand (such as from your graveyard due to Sins of the Past, from your library due to cascade, or from your opponent’s hand due to Sen Triplets), rebound won’t have any effect. If you do cast it from your hand, rebound will work regardless of whether you paid its mana cost (for example, if you cast it from your hand due to Maelstrom Archangel).
+  - *2010-06-15* — If you cast a spell with rebound from your hand and it resolves, it isn’t put into your graveyard. Rather, it’s exiled directly from the stack. Effects that care about cards being put into your graveyard won’t do anything.
+  - *2010-06-15* — If you cast an instant or sorcery spell from your hand and it’s exiled due to rebound, the delayed triggered ability will allow you to cast it during your next upkeep even if Cast Through Time has left the battlefield by then.
+  - *2010-06-15* — Multiple instances of rebound on the same spell are redundant.
+  - *2010-06-15* — Rebound will have no effect on copies of spells because you don’t cast them from your hand.
+  - *2010-06-15* — Similarly, if you gain control of an instant or sorcery spell with Commandeer, it will have rebound, but the ability won’t do anything because that spell wasn’t cast from your hand.
+  - *2010-06-15* — The rebound effect is not optional. Each instant and sorcery spell you cast from your hand is exiled instead of being put into your graveyard as it resolves, whether you want it to be or not. Casting the spell during your next upkeep is optional, however.
+  - *2010-06-15* — You’ll be able to cast a spell with flashback three times this way. First you can cast it from your hand. It will be exiled due to rebound as it resolves. Then you can cast it from exile due to rebound’s delayed triggered ability. It will be put into your graveyard as it resolves. Then you can cast it from your graveyard due to flashback. It will be exiled due to flashback as it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/roe/55/cast-through-time) · oracle_id `0a911cb2-caae-4378-bf09-1c5b0751dd35` · printing: ROE #55 (2010-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Casualties of War
 

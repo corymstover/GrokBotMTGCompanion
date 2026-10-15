@@ -27,6 +27,7 @@
   > *—X*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/46/spy-eye) · oracle_id `0b4b9a83-e1bc-446b-9293-0618bb2696cf` · printing: UST #46 (2017-12-08) · [rulings](https://api.scryfall.com/cards/0e84a9db-8130-489b-9f76-e3ecd35a0fd8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spyglass Siren
@@ -60,7 +61,11 @@
   > *Imitation is the sincerest form of treachery.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21687 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/79/spy-kit) · oracle_id `4d94f5bd-42c6-4d15-a693-8be189ec3746` · printing: CN2 #79 (2016-08-26) · [rulings](https://api.scryfall.com/cards/c0fd4069-5860-42f5-9f7f-e07f1d4ff0b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-08-23* — If you named any nonlegendary creature card for hidden agenda or draft abilities that refer to a creature on the battlefield, the equipped creature will have that name and will qualify for any relevant bonuses. For example, equipping Spy Kit to Noble Banneret will enable Noble Banneret's last ability (as long as you noted a nonlegendary card name for it).
+  - *2016-08-23* — Some creature cards have abilities that function during the draft and additional abilities that refer to cards you exiled or information you noted with "cards named [this card's name]." These abilities are linked, so equipping Spy Kit to such a creature won't affect the set of cards it exiled or the information you noted.
+  - *2016-08-23* — The set of names the equipped creature has includes the names of all nonlegendary creature cards in the Oracle card reference, including the back faces of double-faced cards. Notably, the equipped creature won't gain the names of tokens, such as Zombie Token, Goblin Token, and similar. It also won't gain the names of noncreature cards that have become creatures, such as a Wandering Fumarole that has become a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/79/spy-kit) · oracle_id `4d94f5bd-42c6-4d15-a693-8be189ec3746` · printing: CN2 #79 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spymaster's Vault
 
@@ -87,4 +92,6 @@
 - **Oracle text:**
   > Look at target player's hand, the top card of that player's library, and any face-down creatures they control. Look at the top four cards of your library, then put them back in any order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13078 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ons/115/spy-network) · oracle_id `81a5893a-764c-41ea-ba81-346b3c7558a4` · printing: ONS #115 (2002-10-07) · [rulings](https://api.scryfall.com/cards/8a4bed3f-845c-4822-b8af-8b511dce6fe2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Only you get to look. You can't show them to others.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ons/115/spy-network) · oracle_id `81a5893a-764c-41ea-ba81-346b3c7558a4` · printing: ONS #115 (2002-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

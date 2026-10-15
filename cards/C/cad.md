@@ -27,6 +27,7 @@
   > *The mouth must be pried open before rigor mortis sets in. Otherwise the returning soul can find no ingress.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10419 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/141/cadaver-imp) · oracle_id `7265d768-b79f-44eb-9873-d834e55f6463` · printing: CMM #141 (2023-08-04) · [rulings](https://api.scryfall.com/cards/f06ab823-9591-460d-a896-3073d9843df0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cadaverous Bloom
@@ -39,6 +40,7 @@
   > *"It's filthy work, planting them."*
   > *—Kifimbo, Shadow Guildmage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21010 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/258/cadaverous-bloom) · oracle_id `fbb0f73b-5e30-4632-99c1-e49582e41f8d` · printing: MIR #258 (1996-10-08) · [rulings](https://api.scryfall.com/cards/c9bef70b-61c7-4df5-b4df-09cd6ab2015c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cadaverous Knight
@@ -54,6 +56,7 @@
   > *—Shadow Guild saying*
 - **Keywords:** Flanking, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27729 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hop/20/cadaverous-knight) · oracle_id `250a027f-2b3e-4eaf-899a-a9da8be20070` · printing: HOP #20 (2009-09-04) · [rulings](https://api.scryfall.com/cards/6c658ea3-6fb3-4ce4-a6c5-3ed504102f15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cadira, Caller of the Small

@@ -43,6 +43,7 @@
 - **Flavor text** (FUT printing):
   > *"I am irrelevant. The future I hold in my hands is everything."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24165 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fut/129/llanowar-augur) · oracle_id `b3052531-f7cf-44a7-9492-eb155d75268c` · printing: FUT #129 (2007-05-04) · [rulings](https://api.scryfall.com/cards/1c8c9473-97f4-4875-8f06-d3a70d4cbe6d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Llanowar Behemoth
@@ -56,7 +57,9 @@
   > *"Most people can't build decent weapons out of stone or steel. Trust the elves to do it with only mud and vines."*
   > *—Gerrard of the \*Weatherlight\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30465 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/9ed/252/llanowar-behemoth) · oracle_id `4364bef8-f7ec-487c-9b64-b55c4afb864e` · printing: 9ED #252 (2005-07-29) · [rulings](https://api.scryfall.com/cards/f47054d9-ab6c-4d66-8744-b458721a6c98/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-04-01* — Since the activated ability doesn't have a tap symbol in its cost, you can tap a creature (including Llanowar Behemoth itself) that hasn't been under your control since your most recent turn began to pay the cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/9ed/252/llanowar-behemoth) · oracle_id `4364bef8-f7ec-487c-9b64-b55c4afb864e` · printing: 9ED #252 (2005-07-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Llanowar Cavalry
 
@@ -68,6 +71,7 @@
 - **Flavor text** (INV printing):
   > *For the first time, elves welcomed Benalish soldiers into the forest with something other than arrows.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32188 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/195/llanowar-cavalry) · oracle_id `3e6e70eb-6638-4aa6-997b-90f5810e12a0` · printing: INV #195 (2000-10-02) · [rulings](https://api.scryfall.com/cards/21d92191-a743-4916-bbe4-5e207e964d9b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Llanowar Dead
@@ -80,6 +84,7 @@
 - **Flavor text** (APC printing):
   > *Just as leaves fall from the branches of a living tree, so too do the dead leave the elfhame.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15605 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/apc/109/llanowar-dead) · oracle_id `3a48541a-240b-4406-945c-1d0d032eca25` · printing: APC #109 (2001-06-04) · [rulings](https://api.scryfall.com/cards/f271969e-1529-42d1-878b-011f80ab0f05/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Llanowar Druid
@@ -93,7 +98,9 @@
   > *"This forest means more to the druids than their own kin. The loss of a tree is like the loss of a child."*
   > *—Mirri of the \*Weatherlight\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15383 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/wth/133/llanowar-druid) · oracle_id `b8cadeee-36b7-4a61-91ff-7d6c7c780464` · printing: WTH #133 (1997-06-09) · [rulings](https://api.scryfall.com/cards/ffad279c-762a-42cf-ac20-f4e48734c194/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-04-01* — Llanowar Druid’s ability untaps all Forests on the battlefield, not just the ones you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wth/133/llanowar-druid) · oracle_id `b8cadeee-36b7-4a61-91ff-7d6c7c780464` · printing: WTH #133 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Llanowar Elite
 
@@ -106,7 +113,14 @@
   > If this creature was kicked, it enters with five +1/+1 counters on it.
 - **Keywords:** Trample, Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25068 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inv/196/llanowar-elite) · oracle_id `9e112393-962b-461e-a605-9f8d6a1ebaa4` · printing: INV #196 (2000-10-02) · [rulings](https://api.scryfall.com/cards/3e207863-de68-47e1-8c63-413b5fa48943/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inv/196/llanowar-elite) · oracle_id `9e112393-962b-461e-a605-9f8d6a1ebaa4` · printing: INV #196 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Llanowar Elves
 
@@ -130,6 +144,7 @@
   > When this creature enters, scry 2, then reveal the top card of your library. If it's a creature card, put it into your hand. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21317 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddu/18/llanowar-empath) · oracle_id `0f71416c-e244-48b4-acbe-2a8ef540db0f` · printing: DDU #18 (2018-04-06) · [rulings](https://api.scryfall.com/cards/8ad19d75-b506-4d5c-bd94-40e8a1be7f27/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Llanowar Envoy
@@ -143,6 +158,7 @@
   > *"Cherish this world in honor of the martyrs who saved it. We too must be prepared to give our lives."*
   > *—\*The Mending of Dominaria\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26094 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/169/llanowar-envoy) · oracle_id `6f096e98-d351-4050-90ed-4c6f12e129d6` · printing: DOM #169 (2018-04-27) · [rulings](https://api.scryfall.com/cards/1a667bba-ecf0-4212-8ca3-75d4db6abce2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Llanowar Greenwidow
@@ -155,7 +171,10 @@
   > Domain — {7}{G}: Return this card from your graveyard to the battlefield tapped. It gains "If this permanent would leave the battlefield, exile it instead of putting it anywhere else." This ability costs {1} less to activate for each basic land type among lands you control.
 - **Keywords:** Reach, Trample, Domain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13247 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/169/llanowar-greenwidow) · oracle_id `23391456-5dfd-4402-88fa-3b08f5e23864` · printing: DMU #169 (2022-09-09) · [rulings](https://api.scryfall.com/cards/81f90e4d-f60f-4175-830f-c2ce04c5a945/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-09-09* — Domain abilities count the number of basic land types among lands you control, not how many lands you control or how many of any type.
+  - *2022-09-09* — The basic land types are Plains, Island, Swamp, Mountain, and Forest. Land types other than basic land types (such as Desert) don't contribute to domain abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/169/llanowar-greenwidow) · oracle_id `23391456-5dfd-4402-88fa-3b08f5e23864` · printing: DMU #169 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Llanowar Knight
 
@@ -168,6 +187,7 @@
   > *Her armor and steed were borrowed, but her courage was hers alone.*
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30306 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/254/llanowar-knight) · oracle_id `6b26951f-57be-4524-ae0e-a102e84e81ef` · printing: INV #254 (2000-10-02) · [rulings](https://api.scryfall.com/cards/e6c75d89-e432-49aa-a407-555b223b7eff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Llanowar Loamspeaker
@@ -195,7 +215,9 @@
 - **Flavor text** (TSR printing):
   > *"One day the vines of this forest will be as much a part of you as your own fingers."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13190 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/216/llanowar-mentor) · oracle_id `bc7b6508-6522-4772-93b0-3985e7e75048` · printing: TSR #216 (2021-03-19) · [rulings](https://api.scryfall.com/cards/e0f894e7-adf7-4fe5-811a-8e2d8c8a88d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — Unlike the card Llanowar Elves, the token has no mana cost. Its mana value is 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/216/llanowar-mentor) · oracle_id `bc7b6508-6522-4772-93b0-3985e7e75048` · printing: TSR #216 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Llanowar Reborn
 
@@ -236,7 +258,10 @@
   > *"The forest has as many eyes as leaves."*
   > *—Mirri of the \*Weatherlight\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31977 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/10e/275/llanowar-sentinel) · oracle_id `272ab5d5-7edb-4457-8a09-cabe2325c881` · printing: 10E #275 (2007-07-13) · [rulings](https://api.scryfall.com/cards/bda18561-4767-4f8e-bc6d-9117d1a480b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
+  - *2007-07-15* — Llanowar Sentinels can "chain": If you put a second Llanowar Sentinel onto the battlefield as a result of this ability, that creature's "enters" ability triggers and allows you to search for yet another Llanowar Sentinel.
+- **Source flags:** [Scryfall](https://scryfall.com/card/10e/275/llanowar-sentinel) · oracle_id `272ab5d5-7edb-4457-8a09-cabe2325c881` · printing: 10E #275 (2007-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Llanowar Stalker
 
@@ -248,6 +273,7 @@
 - **Flavor text** (DMU printing):
   > *If you spot one elf in Llanowar, it's likely there's another with a knife at your back.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22801 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/171/llanowar-stalker) · oracle_id `90d375fa-0487-4990-9a98-260f9ee28d2a` · printing: DMU #171 (2022-09-09) · [rulings](https://api.scryfall.com/cards/e2d714d8-0e9b-4761-a0ef-3429b4e2f5b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Llanowar Tribe
@@ -273,6 +299,7 @@
 - **Flavor text** (INV printing):
   > *Llanowar rallied around Eladamri's banner and united in his name.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31915 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/197/llanowar-vanguard) · oracle_id `9123086e-ae67-46c5-aed5-6366e2fe5a8c` · printing: INV #197 (2000-10-02) · [rulings](https://api.scryfall.com/cards/72e6ed79-bdfd-49f9-bfa4-be4196880487/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Llanowar Visionary
@@ -314,6 +341,7 @@
   > When Llawan enters, return all blue creatures your opponents control to their owners' hands.
   > Your opponents can't cast blue creature spells.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15531 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/42/llawan-cephalid-empress) · oracle_id `55f9a9a2-2842-4555-8b54-03aebc8d6fb8` · printing: TOR #42 (2002-02-04) · [rulings](https://api.scryfall.com/cards/a9821970-a5da-4045-93d8-f58c9e5797c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lluwen, Exchange Student // Pest Friend
@@ -327,7 +355,23 @@
   > Create a 1/1 black and green Pest creature token with "Whenever this token attacks, you gain 1 life."
 - **Keywords:** Prepared
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10094 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/199/lluwen-exchange-student-pest-friend) · oracle_id `cb125cd4-c7c2-415d-b802-bdcfc2454403` · printing: SOS #199 (2026-04-24) · [rulings](https://api.scryfall.com/cards/a0bcb638-c3c8-4973-9537-5c471f43f34f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2026-03-20* — A creature with a prepare spell can't become prepared more than once at the same time. For example, Emeritus of Ideation is on the battlefield and is prepared. When it attacks, its last ability triggers. When that ability resolves, its controller may still exile eight cards from their graveyard, but doing so won't cause Emeritus of Ideation to become prepared a second time or create a second copy of Ancestral Recall in exile.
+  - *2026-03-20* — A creature without a prepare spell can't become prepared.
+  - *2026-03-20* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Emeritus of Ideation is a blue creature whose mana value is 5. It can't be the target of Zealous Lorecaster's triggered ability ("When this creature enters, return target instant or sorcery card from your graveyard to your hand.").
+  - *2026-03-20* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-03-20* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-03-20* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-03-20* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog.") targeting Goblin Glasswright. The token copy of Goblin Glasswright will enter prepared as a 1/1 green Frog creature, but the copy of Craft with Pride in exile will still be a red sorcery. The copy of Craft with Pride won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-03-20* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-03-20* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-03-20* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-03-20* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-03-20* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
+  - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/199/lluwen-exchange-student-pest-friend) · oracle_id `cb125cd4-c7c2-415d-b802-bdcfc2454403` · printing: SOS #199 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lluwen, Imperfect Naturalist
 

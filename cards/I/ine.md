@@ -34,7 +34,10 @@
 - **Flavor text** (UST printing):
   > *"Hallowed be this assemblage of various stuff!"*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/113a/ineffable-blessing) · oracle_id `c74f2cd8-e06d-4ceb-babd-f16864de57c8` · printing: UST #113a (2017-12-08) · [rulings](https://api.scryfall.com/cards/be3e867a-208d-4a23-b8a8-a48866889a8d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-01-19* — If you choose Flavorful, you'll draw a card even if the flavor text doesn't appear in the text box. Lexivore, for example, is eating its own flavor text.
+  - *2018-01-19* — You can choose differently for each Ineffable Blessing you control. Each will have the ability associated with the choice you made for that Ineffable Blessing. It won't have the other ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/113a/ineffable-blessing) · oracle_id `c74f2cd8-e06d-4ceb-babd-f16864de57c8` · printing: UST #113a (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ineffable Blessing (UST #113b)
 
@@ -46,7 +49,10 @@
 - **Flavor text** (UST printing):
   > *"Hallowed be this assortment of diverse things!"*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/113b/ineffable-blessing) · oracle_id `203ba042-f65b-4052-96b4-f11167693828` · printing: UST #113b (2017-12-08) · [rulings](https://api.scryfall.com/cards/80545e3d-aff4-4501-a173-b7fa02ef816c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-01-19* — You can choose any artist who has ever been credited on a Magic card or printed token. Even Mark Rosewater.
+  - *2018-01-19* — You can ignore all nicknames printed on previous silver-bordered cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/113b/ineffable-blessing) · oracle_id `203ba042-f65b-4052-96b4-f11167693828` · printing: UST #113b (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ineffable Blessing (UST #113c)
 
@@ -58,6 +64,7 @@
 - **Flavor text** (UST printing):
   > *"Hallowed be this compilation of mixed objects!"*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/113c/ineffable-blessing) · oracle_id `b918fee5-8602-4c1a-a802-19c5f1a0aa81` · printing: UST #113c (2017-12-08) · [rulings](https://api.scryfall.com/cards/91144259-d0a1-4e49-9f9b-9be7e36361d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ineffable Blessing (UST #113d)
@@ -70,7 +77,9 @@
 - **Flavor text** (UST printing):
   > *"Hallowed be this collection of miscellaneous items!"*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/113d/ineffable-blessing) · oracle_id `32ee8291-d3f8-4e5f-95f0-ad139fb0200f` · printing: UST #113d (2017-12-08) · [rulings](https://api.scryfall.com/cards/bd0d8fc5-5841-403f-96db-2259048ff424/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-01-19* — For most recent cards, looking at the expansion symbol will tell you what you need to know. Any card with a black expansion symbol is treated as a common, including basic lands. Any card with a silver expansion symbol is treated as an uncommon. Any card with a gold expansion symbol is treated as a rare. Any card with a mythic orange expansion symbol is treated as a mythic rare. Any card with a different colored expansion symbol (such as the purple expansion symbols from the Time Spiral timeshifted sheet) is treated as a special rarity. Cards from before Exodus don’t have expansion symbols. The rarities of those cards can be found on their Gatherer entries.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/113d/ineffable-blessing) · oracle_id `32ee8291-d3f8-4e5f-95f0-ad139fb0200f` · printing: UST #113d (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ineffable Blessing (UST #113e)
 
@@ -82,6 +91,7 @@
 - **Flavor text** (UST printing):
   > *"Hallowed be this gathering of eclectic products!"*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/113e/ineffable-blessing) · oracle_id `ab5e118c-c385-48d0-8dc4-ac58662c11ca` · printing: UST #113e (2017-12-08) · [rulings](https://api.scryfall.com/cards/962272f8-7cea-4766-9980-da99a503ca6d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ineffable Blessing (UST #113f)
@@ -94,7 +104,9 @@
 - **Flavor text** (UST printing):
   > *"Hallowed be this potpourri of sundry goods!"*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/113f/ineffable-blessing) · oracle_id `f876a190-8c4f-4dce-a603-f5b825e6be9d` · printing: UST #113f (2017-12-08) · [rulings](https://api.scryfall.com/cards/65b25c91-892d-48d6-b42e-045d16d35316/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-06-10* — Unless a token is a copy of another permanent or was explicitly given a name by the effect that created it, its name is the subtypes it was given when it was created plus the word "Token." For example, if an effect creates a 1/1 Soldier creature token, that token is named "Soldier Token."
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/113f/ineffable-blessing) · oracle_id `f876a190-8c4f-4dce-a603-f5b825e6be9d` · printing: UST #113f (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inertia Bubble
 
@@ -108,6 +120,7 @@
   > *—Bruenna, Neurok leader*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30630 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/37/inertia-bubble) · oracle_id `864c7575-4589-416c-b143-310d5ef238c5` · printing: MRD #37 (2003-10-02) · [rulings](https://api.scryfall.com/cards/72b2d227-68b3-40e8-bef7-45ea43e17318/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inescapable Blaze
@@ -121,6 +134,7 @@
   > *"The Izzet are blamed for every little disaster, which is unfair because we only cause most of them."*
   > *—Mizzix of the Izmagnus*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21790 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/107/inescapable-blaze) · oracle_id `5fcc057e-e6c2-4e37-a786-9a5ef94926e1` · printing: GRN #107 (2018-10-05) · [rulings](https://api.scryfall.com/cards/46651efd-0906-4350-a1b8-52e3f8aff45d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inescapable Brute
@@ -135,7 +149,9 @@
   > *If you think you made it past him alive, he's just teasing you.*
 - **Keywords:** Wither
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29018 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/shm/95/inescapable-brute) · oracle_id `cb69e07c-c831-4992-8089-3a3a1278c45b` · printing: SHM #95 (2008-05-02) · [rulings](https://api.scryfall.com/cards/ab4a1d42-eaf8-424a-9649-5f3b4602bf0d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-05-01* — If Inescapable Brute is attacking, the defending player must assign at least one blocker to it during the declare blockers step if that player controls any creatures that could block Inescapable Brute.
+- **Source flags:** [Scryfall](https://scryfall.com/card/shm/95/inescapable-brute) · oracle_id `cb69e07c-c831-4992-8089-3a3a1278c45b` · printing: SHM #95 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inevitable Betrayal
 
@@ -192,7 +208,10 @@
   > *—Erebos, god of the dead*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19650 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/102/inevitable-end) · oracle_id `e1a5c389-6a56-4da7-b7c4-e26fdec224e5` · printing: THB #102 (2020-01-24) · [rulings](https://api.scryfall.com/cards/a6522f01-ae7a-467e-9a05-530a5ccd304d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-01-24* — Because Inevitable End grants the ability to the enchanted creature, the triggered ability triggers at the beginning of the upkeep of the controller of the enchanted creature, and that player chooses a creature to sacrifice. They might not sacrifice the enchanted creature right away, but it’s certain that they’ll have to do so eventually.
+  - *2020-01-24* — Players may take actions before the triggered ability granted by Inevitable End resolves, but they can’t take any actions during a turn before that turn’s upkeep begins to try to stop the ability from triggering.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/102/inevitable-end) · oracle_id `e1a5c389-6a56-4da7-b7c4-e26fdec224e5` · printing: THB #102 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inexorable Blob
 
@@ -203,7 +222,16 @@
   > Delirium — Whenever this creature attacks, if there are four or more card types among cards in your graveyard, create a 3/3 green Ooze creature token that's tapped and attacking.
 - **Keywords:** Delirium
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15880 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/212/inexorable-blob) · oracle_id `bddf0772-503c-42f1-bb86-1dfeeedf4a7e` · printing: SOI #212 (2016-04-08) · [rulings](https://api.scryfall.com/cards/0210ff44-19d9-4d24-9d32-f1f9f219d9e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2016-04-08* — Although the token is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2016-04-08* — Because you consider only the characteristics of a double-faced card's front face while it's not on the battlefield, the types of its back face won't be counted for delirium.
+  - *2016-04-08* — If an effect gives the token vigilance, the token will still enter the battlefield tapped.
+  - *2016-04-08* — In some rare cases, you can have a token or a copy of a spell in your graveyard at the moment that an object's delirium ability counts the card types among cards in your graveyard, before that token or copy ceases to exist. Because tokens and copies of spells are not cards, even if they are copies of cards, their types will never be counted.
+  - *2016-04-08* — Most triggered delirium abilities use an intervening "if" clause. There must be four or more card types among cards in your graveyard in order for these abilities to trigger, otherwise they never trigger at all. There's no way to have the ability trigger if there aren't enough card types, even if you intend to raise that number in response to the triggered ability. The number of card types is checked again as the trigger resolves, and if it has become too low somehow, the ability does nothing. If which card types are in your graveyard changes but the quantity of card types stays the same (or increases), then the delirium triggered ability will still resolve.
+  - *2016-04-08* — The card types in Magic are artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Supertypes (such as legendary and basic) and subtypes (such as Human and Equipment) are not counted.
+  - *2016-04-08* — The number of card types matters, not the number of cards. For example, Wicker Witch (an artifact creature) along with Catalog (an instant) and Chaplain's Blessing (a sorcery) will enable delirium.
+  - *2016-04-08* — You declare which player or planeswalker the token is attacking as you put it onto the battlefield. It doesn't have to be the same player or planeswalker Inexorable Blob is attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/212/inexorable-blob) · oracle_id `bddf0772-503c-42f1-bb86-1dfeeedf4a7e` · printing: SOI #212 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inexorable Tide
 

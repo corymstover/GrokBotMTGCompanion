@@ -27,6 +27,7 @@
 - **Flavor text** (UGL printing):
   > *Have you ever noticed how some flavor text has no relevance whatsoever to the card it's on?*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ugl/36/ow) · oracle_id `4c716cff-1f9c-4e34-8e56-e6de61b3f645` · printing: UGL #36 (1998-08-11) · [rulings](https://api.scryfall.com/cards/dd26c2a6-7b08-4de6-afbf-e34d321995ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Owen Grady, Raptor Trainer
@@ -41,7 +42,17 @@
   > *"I don't control the raptors. It's a relationship. It's based on mutual respect."*
 - **Keywords:** Partner with, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12264 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner, Partner with
-- **Source flags:** [Scryfall](https://scryfall.com/card/rex/16/owen-grady-raptor-trainer) · oracle_id `4eda40a2-39e5-4b0e-ba6d-8a6f89d6f55f` · printing: REX #16 (2023-11-17) · [rulings](https://api.scryfall.com/cards/a85a1e4c-af02-4072-872f-956fa74f8aa6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2023-11-10* — "Partner with [name]" represents two abilities. The first is a triggered ability: "When this permanent enters the battlefield, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle their library."
+  - *2023-11-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2023-11-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2023-11-10* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Blue, Loyal Raptor and Owen Grady, Raptor Trainer are your commanders, your deck may contain cards with green, blue, and/or red in their color identity, but not white or black.
+  - *2023-11-10* — Note that the target player searches their library (which may be affected by effects such as that of Stranglehold) and that the card they find is revealed, even though these words aren't included in the ability's reminder text.
+  - *2023-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from one of them, not from both of them combined. Command Beacon's effect puts one into your hand from the command zone, not both.
+  - *2023-11-10* — The second ability represented by the "partner with [name]" keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with "partner with [name]" is designated as your commander, the named legendary creature card can also be designated as your commander.
+  - *2023-11-10* — The triggered ability of the "partner with" keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player, whether or not they have that card in their library.
+  - *2023-11-10* — To have two commanders, both must have the partner ability or corresponding "partner with" abilities as the game begins. A creature with a "partner with" ability can't partner with any creature other than its designated partner. Losing a partner ability during the game doesn't cause either to cease to be your commander.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rex/16/owen-grady-raptor-trainer) · oracle_id `4eda40a2-39e5-4b0e-ba6d-8a6f89d6f55f` · printing: REX #16 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Owlbear
 
@@ -80,7 +91,9 @@
 - **Flavor text** (CLB printing):
   > *When your pack is nowhere to be found, you form a new one.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10794 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/247/owlbear-shepherd) · oracle_id `e81035b5-d922-48f8-af20-0025da4721c6` · printing: CLB #247 (2022-06-10) · [rulings](https://api.scryfall.com/cards/0a4813b2-3fd7-4a2b-b87a-9ce5bb18bdd4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-06-10* — Owlbear Shepherd's ability has an intervening if clause, which means that it checks to see if creatures you control have total power 8 or greater both as it would trigger and as it resolves. If enough creatures have been removed or their total power is reduced to below 8 by the time the ability tries to resolve, you will not draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/247/owlbear-shepherd) · oracle_id `e81035b5-d922-48f8-af20-0025da4721c6` · printing: CLB #247 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Owl Familiar
 
@@ -92,6 +105,7 @@
   > When this creature enters, draw a card, then discard a card.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20811 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/90/owl-familiar) · oracle_id `099a5835-da6c-4e03-ad3e-aeb448897fed` · printing: CLU #90 (2024-02-23) · [rulings](https://api.scryfall.com/cards/8b33923b-1b79-43ab-9a9d-49c05887bce7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Owlin Historian
@@ -105,7 +119,9 @@
   > Whenever one or more cards leave your graveyard, this creature gets +1/+1 until end of turn.
 - **Keywords:** Flying, Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23552 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/24/owlin-historian) · oracle_id `e1ebb60e-fbf3-4f8f-a76f-d637ec59ffb0` · printing: SOS #24 (2026-04-24) · [rulings](https://api.scryfall.com/cards/5fe99be0-e1ec-485e-82f8-02eba7b82441/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — If multiple cards leave your graveyard at the same time, Owlin Historian's last ability will trigger only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/24/owlin-historian) · oracle_id `e1ebb60e-fbf3-4f8f-a76f-d637ec59ffb0` · printing: SOS #24 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Owlin Shieldmage
 
@@ -119,7 +135,9 @@
   > *"Aim higher next time."*
 - **Keywords:** Flying, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29191 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/210/owlin-shieldmage) · oracle_id `50c477c1-8457-40f6-bba9-1a4ba0862178` · printing: STX #210 (2021-04-23) · [rulings](https://api.scryfall.com/cards/d3350367-42bd-44af-be13-ad31c002f8ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-04-16* — If a player casts a spell that targets multiple permanents their opponent controls with ward, each of those ward abilities will trigger. If that player doesn’t pay for all of them, the spell will be countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/210/owlin-shieldmage) · oracle_id `50c477c1-8457-40f6-bba9-1a4ba0862178` · printing: STX #210 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Owlin Spiralmancer
 

@@ -18,4 +18,7 @@
 - **Oracle text:**
   > As this creature enters, you may reveal any number of other artifact cards from your hand. This creature enters with a +1/+1 counter on it for each card revealed this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29463 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hop/96/arsenal-thresher) · oracle_id `76bdc626-f51b-420a-ac5c-5ab33772fabe` · printing: HOP #96 (2009-09-04) · [rulings](https://api.scryfall.com/cards/166fd2e7-8330-447b-889f-8d457d0128aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-05-01* — If Arsenal Thresher and another artifact are entering from your hand at the same time, you may reveal that other artifact for Arsenal Thresher. If that artifact is a second Arsenal Thresher, you may reveal each Arsenal Thresher for the other.
+  - *2009-05-01* — If multiple Arsenal Threshers are entering at the same time (for example, if Warp World is resolving), you may reveal the same artifact cards from your hand for each of them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hop/96/arsenal-thresher) · oracle_id `76bdc626-f51b-420a-ac5c-5ab33772fabe` · printing: HOP #96 (2009-09-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

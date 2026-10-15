@@ -22,6 +22,7 @@
   > Whenever Arvad deals combat damage to an opponent, you may put a legendary permanent card from your hand onto the battlefield.
 - **Keywords:** Rulebreaker
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ06a/arvad-of-the-weatherlight) · oracle_id `a98df6bd-e806-4ee1-a418-ad318d5d0425` · printing: UNK #RZ06a (2023-07-29) · [rulings](https://api.scryfall.com/cards/37a04a94-d5ed-4f30-a750-fe6db7add1d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arvad the Cursed

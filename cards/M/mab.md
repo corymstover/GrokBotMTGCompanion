@@ -25,6 +25,7 @@
   > *With her village destroyed, Mabel turned to the Calamity Beasts to bring down King Glarb.*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25894 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/233/mabel-bitter-recluse) · oracle_id `36924990-8e3a-434e-bcd1-f03603cb350d` · printing: FRA #233 (2026-10-02) · [rulings](https://api.scryfall.com/cards/b2a412b0-2ae4-4552-bc5e-70654b6b9b4e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mabel, Heir to Cragflame
@@ -48,6 +49,7 @@
 - **Flavor text** (BLB printing):
   > *"You stole a child from its nest," Mabel accused. "The only calamity I see here is you."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14327 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/21/mabels-mettle) · oracle_id `c657626f-7444-4c26-842c-dda9b9656fa3` · printing: BLB #21 (2024-08-02) · [rulings](https://api.scryfall.com/cards/5cfcf83f-089c-4e35-855e-b61b98bb1cd8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mabel, Valley Hero
@@ -60,4 +62,5 @@
 - **Flavor text** (FRA printing):
   > *Mabel had learned that mother, adventurer, and protector were not all that far apart.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22952 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/274/mabel-valley-hero) · oracle_id `ab56f7cf-9538-45b5-a657-1e2ebef1e92b` · printing: FRA #274 (2026-10-02) · [rulings](https://api.scryfall.com/cards/47abea4b-9848-48aa-bc1b-f04f4799e920/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

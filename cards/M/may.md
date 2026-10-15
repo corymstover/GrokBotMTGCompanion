@@ -38,6 +38,7 @@
 - **Flavor text** (C13 printing):
   > *The sacred Anima's eyes are blind to all but the grandest truths.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15292 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c13/199/mayael-the-anima) · oracle_id `7f546d54-584d-4bec-8fbb-1ea2f8ab277e` · printing: C13 #199 (2013-11-01) · [rulings](https://api.scryfall.com/cards/309d95ad-e46c-4407-894d-d4cfdc7017f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mayhem Devil
@@ -69,7 +70,13 @@
   > Blitz {1}{R} (If you cast this spell for its blitz cost, it gains haste and "When this creature dies, draw a card." Sacrifice it at the beginning of the next end step.)
 - **Keywords:** Blitz, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19036 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/114/mayhem-patrol) · oracle_id `f77a9160-1d37-476d-8908-29ddcc982328` · printing: SNC #114 (2022-04-29) · [rulings](https://api.scryfall.com/cards/50162cdd-ba30-48df-93ff-197c7f4a2913/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-04-29* — If a creature enters the battlefield as a copy of or becomes a copy of a creature whose blitz cost was paid, the copy won't have haste, won't be sacrificed, and its controller won't draw a card when it dies.
+  - *2022-04-29* — If you choose to pay the blitz cost rather than the mana cost, you're still casting the spell. It goes on the stack and can be responded to and countered. You can cast a creature spell for its blitz cost only if you could cast that creature spell. Most of the time, this means during your main phase when the stack is empty.
+  - *2022-04-29* — If you pay the blitz cost to cast a creature spell, that permanent will be sacrificed only if it's still on the battlefield when that triggered ability resolves. If it dies or goes to another zone before then, it will stay where it is.
+  - *2022-04-29* — The triggered ability that lets its controller draw a card triggers when it dies for any reason, not just when you sacrifice it during the end step.
+  - *2022-04-29* — You don't have to attack with the creature with blitz unless another ability says you do.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/114/mayhem-patrol) · oracle_id `f77a9160-1d37-476d-8908-29ddcc982328` · printing: SNC #114 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### May of the Machine
 
@@ -79,6 +86,7 @@
   > Destroy target creature or planeswalker. If today's date is May 6th, scry 1. If today's date is May 7th, fateseal 1. (To fateseal 1, look at the top card of an opponent's library. You may put that card on the bottom of their library.)
 - **Keywords:** Fateseal, Scry
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/CB03/may-of-the-machine) · oracle_id `8954a62c-3d58-4cca-89a5-e8dd3f859743` · printing: UNK #CB03 (2023-05-06) · [rulings](https://api.scryfall.com/cards/29d6d636-b2ab-4694-adf2-36c438067c21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mayor of Avabruck // Howlpack Alpha
@@ -110,4 +118,5 @@
   > Choose two basic land types. Create the appropriate Shockland token. (For example, if you choose Island and Swamp, you'd get a Watery Grave token.)
 - **Keywords:** Demonstrate
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/CC03/may-the-mana-be-with-you) · oracle_id `9007b1ae-5938-41cf-a190-76c514c3c253` · printing: UNK #CC03 (2025-08-02) · [rulings](https://api.scryfall.com/cards/f0c70102-d966-4453-a1f2-020143c7be5f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

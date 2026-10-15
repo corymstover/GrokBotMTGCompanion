@@ -28,6 +28,7 @@
   > *Or you'll run no more."*
   > *—Traditional children's rhyme*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22267 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/116/chub-toad) · oracle_id `a0daace2-92fc-4c7d-b497-94b4ba775559` · printing: ME1 #116 (2007-09-10) · [rulings](https://api.scryfall.com/cards/4fb0c8a5-ea67-4c18-94b6-757e290ee34e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chulane, Teller of Tales
@@ -57,7 +58,10 @@
   > *It needs no food, yet still it hungers.*
 - **Keywords:** Fathomless descent
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13703 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/97/chupacabra-echo) · oracle_id `68c56db4-c97a-4c1b-a6f6-096392488e21` · printing: LCI #97 (2023-11-17) · [rulings](https://api.scryfall.com/cards/bdd8eed6-91da-4454-a5e3-7bbfac614f47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — Cards with the ability word "fathomless descent" have abilities that care how many permanent cards are in your graveyard.
+  - *2023-11-10* — Some descend triggered abilities include intervening "if" clauses (i.e. "if you have [four or eight] permanent cards in your graveyard" in the middle of the ability). Each of these abilities checks your graveyard at the moment it would trigger to see if it does. If you don't have the required number of permanent cards in your graveyard at that time, the ability doesn't trigger at all. If it does trigger, it will check again as it tries to resolve. If you don't have the required number of permanent cards in your graveyard at that time, the ability won't resolve and none of its effects will happen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/97/chupacabra-echo) · oracle_id `68c56db4-c97a-4c1b-a6f6-096392488e21` · printing: LCI #97 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Churning Eddy
 
@@ -69,6 +73,7 @@
   > *"Magic is like the tide—both ebb, both flow, and both serve my whims."*
   > *—Empress Llawan*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28788 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/32/churning-eddy) · oracle_id `774e53b2-5aec-43e1-b4fe-8812b8430401` · printing: TOR #32 (2002-02-04) · [rulings](https://api.scryfall.com/cards/bd28bc8e-842f-4788-92a0-3019e3c2385f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Churning Reservoir
@@ -79,4 +84,5 @@
   > At the beginning of your upkeep, put an oil counter on another target nontoken artifact or creature you control.
   > {2}, {T}: Create a 1/1 red Phyrexian Goblin creature token. Activate only if an oil counter was removed from a permanent you controlled this turn or a permanent with an oil counter on it was put into a graveyard this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19760 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/127/churning-reservoir) · oracle_id `9d1c5987-3572-4bf9-b01c-eb6e98a7da77` · printing: ONE #127 (2023-02-10) · [rulings](https://api.scryfall.com/cards/0c117239-8e40-4e7e-ab1b-82f2ddf55cf4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

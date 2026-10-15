@@ -39,7 +39,9 @@
   > *—Ulrich, Krallenhorde alpha*
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14585 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/emn/177/waxing-moon) · oracle_id `bbb4f08f-3016-40c2-ae7c-afc720eeb27a` · printing: EMN #177 (2016-07-22) · [rulings](https://api.scryfall.com/cards/617f9f3a-61a1-4c73-8efe-3d74fe362901/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-07-13* — You may cast Waxing Moon without targeting a Werewolf. If you do choose a target, and that target becomes illegal, Waxing Moon doesn’t resolve, and your creatures won’t gain trample.
+- **Source flags:** [Scryfall](https://scryfall.com/card/emn/177/waxing-moon) · oracle_id `bbb4f08f-3016-40c2-ae7c-afc720eeb27a` · printing: EMN #177 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waxmane Baku
 
@@ -50,6 +52,7 @@
   > Whenever you cast a Spirit or Arcane spell, you may put a ki counter on this creature.
   > {1}, Remove X ki counters from this creature: Tap X target creatures.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25228 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/38/waxmane-baku) · oracle_id `bb23221a-f1d0-421d-9769-132e2b26b804` · printing: MM2 #38 (2015-05-22) · [rulings](https://api.scryfall.com/cards/fd0c47e0-c87b-4304-b412-00496c2c289f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wax // Wane
@@ -60,7 +63,15 @@
 - **Face 2: Wane** — {W} — Instant
   > Destroy target enchantment.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20469 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/211/wax-wane) · oracle_id `4744b086-fea2-4992-bfef-68c58cdf9cf0` · printing: DMR #211 (2023-01-13) · [rulings](https://api.scryfall.com/cards/f93b22de-93f3-4f05-8960-fa6a539ea882/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-12-08* — A split card's characteristics are a combination of its two halves while it is not on the stack. For example, Assault // Battery has a mana value of 5 while it is in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Assault // Battery.
+  - *2022-12-08* — Each split card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2022-12-08* — Each split card is a single card. For example, if you discard a split card, you've discarded one card, not two. If an effect counts the number of sorcery cards in your graveyard, Assault // Battery counts once, not twice.
+  - *2022-12-08* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the half you're casting. For example, if an effect allows you to cast a sorcery spell with mana value 2 or less from among cards in your graveyard, you could cast Assault this way, but not Battery.
+  - *2022-12-08* — If you copy a spell that's half of a split card, the copy copies that same half. For example, if you copy Assault, the copy is also Assault, not Battery.
+  - *2022-12-08* — Split cards have two card faces on a single card. The characteristics of the half you didn't cast are ignored while the spell is on the stack.
+  - *2022-12-08* — To cast a split card, choose one of its halves to cast. There's no way to cast both halves of this split card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/211/wax-wane) · oracle_id `4744b086-fea2-4992-bfef-68c58cdf9cf0` · printing: DMR #211 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wax-Wane Witness
 
@@ -74,4 +85,9 @@
   > *Batfolk clerics consider the cycle of light and darkness as a sacred allegory of life and death.*
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13834 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/39/wax-wane-witness) · oracle_id `426dbe89-0cbb-4a3b-8812-d9761d063373` · printing: BLB #39 (2024-08-02) · [rulings](https://api.scryfall.com/cards/d90ea719-5320-46c6-a347-161853a14776/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-07-26* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Wax-Wane Witness’s last ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2024-07-26* — If you gain or lose an amount of life “for each” of something, that life is gained or lost as one event and Wax-Wane Witness’s last ability triggers only once.
+  - *2024-07-26* — In a Two-Headed Giant game, life gained by your teammate won’t cause Wax-Wane Witness’s last ability to trigger even though it caused your team’s life total to increase.
+  - *2024-07-26* — Wax-Wane Witness’s last ability triggers just once for each life-gaining or life-losing event, no matter how much life was gained or lost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/39/wax-wane-witness) · oracle_id `426dbe89-0cbb-4a3b-8812-d9761d063373` · printing: BLB #39 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

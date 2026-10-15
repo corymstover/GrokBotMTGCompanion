@@ -25,6 +25,7 @@
   > *"I am king of Wakanda. A line unbroken. A crown unconquered."*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20299 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/98/tchaka-venerable-king) · oracle_id `2a9f2d69-328c-46f4-be37-60b85b197b72` · printing: MSC #98 (2026-06-26) · [rulings](https://api.scryfall.com/cards/28deeaf6-c32b-41f1-b94f-0ae303377ea0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### T'Challa, the Black Panther
@@ -36,6 +37,7 @@
   > Whenever T'Challa enters or attacks, create a tapped Vibranium token. (It's an artifact with indestructible and "{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.")
   > Whenever you cast an artifact spell with mana value 4 or greater, put two +1/+1 counters on T'Challa.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15170 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lmar/8/tchalla-the-black-panther) · oracle_id `ae10eb15-28e7-46d1-9a2e-85763d93febf` · printing: LMAR #8 (2026-10-08) · [rulings](https://api.scryfall.com/cards/d72c4452-b4f2-45a8-9127-42368a23ac6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tchotchke Elemental
@@ -47,7 +49,12 @@
   > Whenever you create a token or put a counter or a sticker on another permanent, put a knickknack counter on this creature. Use a unique item that completely fits on this creature for each knickknack counter.
   > This creature gets +1/+1 for each knickknack counter on it.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32120 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/158/tchotchke-elemental) · oracle_id `2c25ee6d-36aa-4237-90ac-5a2a6874d5a1` · printing: UNF #158 (2022-10-07) · [rulings](https://api.scryfall.com/cards/658d1a66-27dc-45fa-9b2a-91b012b1a86f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-10-07* — A "unique item" can be anything as long as it fits completely on the card and you don't use the same thing twice. Two items are considered the same for this ability (which is to say, one of them is not unique) if they have the same or nearly the same shape, size, and colors. For example, a 2020 U.S. quarter is the same as a 2021 U.S. quarter, but it's not the same as a Canadian quarter or a U.S. nickel. If all players can't agree, you may ask an outside person for a final determination.
+  - *2022-10-07* — Each knickknack counter must be represented by a different object. You can't use a die to represent multiples, for example. But you could use a six-sided die to represent one and a twenty-sided die to represent another.
+  - *2022-10-07* — Other counters on Tchotchke Elemental can be represented normally.
+  - *2022-10-07* — The knickknack counters can touch each other.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/158/tchotchke-elemental) · oracle_id `2c25ee6d-36aa-4237-90ac-5a2a6874d5a1` · printing: UNF #158 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### TCRI Building
 
@@ -60,4 +67,5 @@
 - **Flavor text** (TMT printing):
   > *The light from the Translocation Matrix could be seen throughout the city. The utroms knew they only had a brief window to escape after its accidental activation.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13312 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/189/tcri-building) · oracle_id `4139f40a-873b-4842-96a2-b7875de1c20a` · printing: TMT #189 (2026-03-06) · [rulings](https://api.scryfall.com/cards/8817a1d6-ef39-4e7c-8277-74aea012803b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

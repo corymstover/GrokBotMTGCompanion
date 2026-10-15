@@ -77,4 +77,13 @@
   > Destroy target creature with mana value 2 or less. If this spell's additional cost was paid, you gain 2 life.
 - **Keywords:** Blight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16191 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/116/requiting-hex) · oracle_id `eda16b31-33db-4ad2-901a-80fbe6273733` · printing: ECL #116 (2026-01-23) · [rulings](https://api.scryfall.com/cards/f21b0fb7-91b6-403f-a81a-562665961276/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2025-11-17* — All of the -1/-1 counters must be put on a single creature. You can't choose to split them up between multiple creatures.
+  - *2025-11-17* — If a creature has +1/+1 counters and -1/-1 counters on it, state-based actions remove the same number of each so that it has only one kind of those counters on it. For example, if a creature has three +1/+1 counters on it and two -1/-1 counters are put on it, state-based actions will remove two of each of those kinds of counters, leaving the creature with just one +1/+1 counter.
+  - *2025-11-17* — If a creature on the battlefield has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+  - *2025-11-17* — If a creature that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, effects that refer to the counters on that creature when it died will see all of those +1/+1 and -1/-1 counters.
+  - *2025-11-17* — If the target creature is an illegal target as Requiting Hex tries to resolve, it won't resolve and none of its effects will happen. You won't gain life even if the additional cost was paid.
+  - *2025-11-17* — If you can't place -1/-1 counters on any creatures you control (probably because you control no creatures), you can't choose to blight.
+  - *2025-11-17* — Once you've announced that you're casting a spell or activating an ability, players can't take actions until you've finished doing so. Notably, opponents can't try to destroy or otherwise remove your creatures to stop you from blighting as part of paying the cost of that spell or ability.
+  - *2025-11-17* — The creature you choose to put -1/-1 counters on doesn't have to have enough toughness to survive the process. For example, if you blight 2, you can choose to put the counters on a 1/1 creature you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/116/requiting-hex) · oracle_id `eda16b31-33db-4ad2-901a-80fbe6273733` · printing: ECL #116 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

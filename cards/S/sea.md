@@ -135,6 +135,7 @@
   > *Seacoast drakes have been known to follow ships for hundreds of miles, waiting to snap up garbage, bait, and the occasional sailor.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29475 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m14/70/seacoast-drake) · oracle_id `2f4b5831-57a2-4778-90c1-0b8ec49afd46` · printing: M14 #70 (2013-07-19) · [rulings](https://api.scryfall.com/cards/5333de10-a6d4-47ff-ab57-4edb49535739/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sea-Dasher Octopus
@@ -163,7 +164,10 @@
   > *Highly territorial, they often attack boats whose colors too closely resemble those of other drakes.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29643 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/268/sea-drake) · oracle_id `44d1029f-604e-44d6-89f6-bd18344f5d79` · printing: MH2 #268 (2021-06-18) · [rulings](https://api.scryfall.com/cards/5a8b69ff-22ef-451f-8322-b54eec79bacf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-06-18* — Although you must choose two lands you control as the targets of Sea Drake's triggered ability, there is no consequence to Sea Drake if the ability doesn't resolve. If one of the lands becomes an illegal target in response, the remaining legal target will be returned to its owner's hand. If both targets have become illegal in response, nothing happens.
+  - *2021-06-18* — If you can't target two lands you control with the triggered ability (perhaps because you control fewer than two lands), the ability will be removed from the stack. You won't return any lands. There is no consequence for this.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/268/sea-drake) · oracle_id `44d1029f-604e-44d6-89f6-bd18344f5d79` · printing: MH2 #268 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sea Eagle
 
@@ -176,6 +180,7 @@
   > *Where air meets water, fish meets talon.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30713 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/S4/sea-eagle) · oracle_id `acb57162-7093-4a3c-9818-d3b61ce757c6` · printing: 8ED #S4 (2003-07-28) · [rulings](https://api.scryfall.com/cards/7e8cacd1-51e7-48af-a7ae-48832dc34a92/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seafarer's Quay
@@ -185,6 +190,7 @@
 - **Oracle text:**
   > Blue legendary creatures you control have "bands with other legendary creatures." (Any legendary creatures can attack in a band as long as at least one has "bands with other legendary creatures." Bands are blocked as a group. If at least two legendary creatures you control, one of which has "bands with other legendary creatures," are blocking or being blocked by the same creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26311 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/leg/306/seafarers-quay) · oracle_id `f71f01bc-caae-426b-a25a-bfbfeb9feb67` · printing: LEG #306 (1994-06-01) · [rulings](https://api.scryfall.com/cards/66641d88-b3f0-4bcd-8d2d-29aa2de69e30/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seafloor Debris
@@ -196,6 +202,7 @@
   > {T}: Add {U}.
   > {T}, Sacrifice this land: Add one mana of any color.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24341 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/325/seafloor-debris) · oracle_id `eef64810-4187-40c1-8e59-1cb8773ebea3` · printing: ODY #325 (2001-10-01) · [rulings](https://api.scryfall.com/cards/9e492399-d514-485a-8cdd-a3797a05e47a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seafloor Oracle
@@ -222,7 +229,14 @@
 - **Flavor text** (ZNR printing):
   > *"Sunken ruins? My specialty."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25843 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/78/seafloor-stalker) · oracle_id `d3ee7f5d-56b4-4d87-9642-dcd8449dfb45` · printing: ZNR #78 (2020-09-25) · [rulings](https://api.scryfall.com/cards/985e9696-6c76-4241-97fc-f166fe2420ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-09-25* — An ability referring to the number of creatures in your party gets a number from zero to four. Such abilities never ask which creatures are in your party, and you never have to designate specific creatures as being in your party. You can't choose to exclude creatures from this count to lower the number.
+  - *2020-09-25* — If a creature has more than one party creature type, and there are multiple ways to count that creature that could result in a different number of creatures in your party, the highest such number is used. For example, if you control a Cleric and a Cleric Wizard, the number of creatures in your party is two. You can't choose to have it be just one by counting the Cleric Wizard first as a Cleric.
+  - *2020-09-25* — Once a creature has blocked Seafloor Stalker, activating its ability won't cause it to become unblocked or remove that blocking creature from combat.
+  - *2020-09-25* — Once you declare that you're activating Seafloor Stalker's ability, no player can take actions to try and change the number of creatures in your party and change the activation cost.
+  - *2020-09-25* — To determine "the number of creatures in your party," check whether you control a Cleric, whether you control a Rogue, whether you control a Warrior, and whether you control a Wizard. The number is the total number of those checks to which you answered yes. Each creature you control can be counted for only one of those checks.
+  - *2020-09-25* — You can activate Seafloor Stalker's ability more than once, even if it already can't be blocked this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/78/seafloor-stalker) · oracle_id `d3ee7f5d-56b4-4d87-9642-dcd8449dfb45` · printing: ZNR #78 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sea Gate
 
@@ -248,6 +262,7 @@
 - **Flavor text** (ZNR printing):
   > *The Sea Gate Expeditionary House was founded after the discovery of the Skyclave over Tazeem. Now its banners fly over every corner of Zendikar.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28351 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/36/sea-gate-banneret) · oracle_id `ddf12758-b356-4ff8-b0ce-547083498335` · printing: ZNR #36 (2020-09-25) · [rulings](https://api.scryfall.com/cards/6ae4634e-1487-4b66-8f70-bcb4b1fa6e77/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sea Gate Colossus
@@ -261,7 +276,13 @@
   > *"When you are battered and exhausted, look up and be inspired by its resolve."*
   > *—Tazri*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20380 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/251/sea-gate-colossus) · oracle_id `ef7f6766-e878-40c6-aa9a-da7415cc757a` · printing: ZNR #251 (2020-09-25) · [rulings](https://api.scryfall.com/cards/b04fd8e8-ee8d-4cb7-87ab-955303c46ece/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-09-25* — An ability referring to the number of creatures in your party gets a number from zero to four. Such abilities never ask which creatures are in your party, and you never have to designate specific creatures as being in your party. You can't choose to exclude creatures from this count to lower the number.
+  - *2020-09-25* — If a creature has more than one party creature type, and there are multiple ways to count that creature that could result in a different number of creatures in your party, the highest such number is used. For example, if you control a Cleric and a Cleric Wizard, the number of creatures in your party is two. You can't choose to have it be just one by counting the Cleric Wizard first as a Cleric.
+  - *2020-09-25* — If a spell has a cost reduction based on the number of creatures in your party, no player may attempt to change that number after you begin to cast the spell but before you pay the cost.
+  - *2020-09-25* — Several cards have a cost reduction based on the number of creatures in your party. To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2020-09-25* — To determine "the number of creatures in your party," check whether you control a Cleric, whether you control a Rogue, whether you control a Warrior, and whether you control a Wizard. The number is the total number of those checks to which you answered yes. Each creature you control can be counted for only one of those checks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/251/sea-gate-colossus) · oracle_id `ef7f6766-e878-40c6-aa9a-da7415cc757a` · printing: ZNR #251 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sea Gate Loremaster
 
@@ -329,7 +350,22 @@
   > When this creature enters, copy the next instant or sorcery spell with mana value 2 or less you cast this turn when you cast it. If this creature was kicked, copy that spell twice instead. You may choose new targets for the copies.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19250 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/77/sea-gate-stormcaller) · oracle_id `675de007-a71e-4036-8204-140c67871b7f` · printing: ZNR #77 (2020-09-25) · [rulings](https://api.scryfall.com/cards/1e14e677-9bfa-4bcc-9772-8e7758d7538a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2020-09-25* — A copy is created even if Sea Gate Stormcaller leaves the battlefield before its delayed triggered ability is created.
+  - *2020-09-25* — A copy is created even if the spell that caused Sea Gate Stormcaller's delayed triggered ability to trigger has been countered by the time that ability resolves. The copy resolves before the original spell.
+  - *2020-09-25* — For spells with {X} in their mana costs, use the value chosen for X to determine the spell's mana value. If it's copied, the copy has the same value of X.
+  - *2020-09-25* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode or modes. You can't choose different ones.
+  - *2020-09-25* — Sea Gate Stormcaller's delayed triggered ability will copy any instant or sorcery spell, not just one with targets.
+  - *2020-09-25* — The copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger.
+  - *2020-09-25* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal.
+  - *2020-09-25* — You can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too. Notably, if the spell you copy was kicked, the copy or copies will also be kicked.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/77/sea-gate-stormcaller) · oracle_id `675de007-a71e-4036-8204-140c67871b7f` · printing: ZNR #77 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sea Gate Wreckage
 
@@ -356,7 +392,14 @@
   > *—Sphinx's riddle*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26392 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/61/sea-gods-revenge) · oracle_id `8ab71a49-ce81-44f7-b940-50e7aba64df9` · printing: THS #61 (2013-09-27) · [rulings](https://api.scryfall.com/cards/5acdf4e4-5933-43dc-bf8b-25f89415db5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2013-09-15* — In multiplayer games, the three target creatures can be controlled by different opponents.
+  - *2013-09-15* — Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
+  - *2013-09-15* — When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
+  - *2013-09-15* — You can cast Sea God's Revenge with no targets. If you do, you'll scry 1 when it resolves. If you choose at least one target, and all chosen targets are illegal when Sea God's Revenge tries to resolve, it won't resolve and none of its effects will happen.
+  - *2013-09-15* — You choose how to order cards returned to your library after scrying no matter where you put them.
+  - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/61/sea-gods-revenge) · oracle_id `8ab71a49-ce81-44f7-b940-50e7aba64df9` · printing: THS #61 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sea God's Scorn
 
@@ -367,6 +410,7 @@
 - **Flavor text** (THB printing):
   > *Instead of performing their daily devotions, Heliod's acolytes spent the morning picking strands of kelp off the altar.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25058 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/63/sea-gods-scorn) · oracle_id `d2497a5e-ff2b-4024-9b14-634304d583fe` · printing: THB #63 (2020-01-24) · [rulings](https://api.scryfall.com/cards/9504dc26-f5d8-4b9d-9eb1-51a12b893beb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seagraf Skaab
@@ -380,6 +424,7 @@
   > *"Your recent work is an inspiration. I have the utmost respect for your approach, and your craft is impeccable. At your convenience, I would be honored to collaborate on a project."*
   > *—Ludevic, letter to Geralf*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29049 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/84/seagraf-skaab) · oracle_id `1c7dd66f-a062-49ac-aa7c-1bf5ec069d73` · printing: SOI #84 (2016-04-08) · [rulings](https://api.scryfall.com/cards/065d497d-5cfd-43c9-8c86-9a1da3d7e17e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sea Hag // Aquatic Ingress
@@ -391,7 +436,19 @@
 - **Face 2: Aquatic Ingress** — {2}{U} — Instant — Adventure
   > Up to two target creatures each get +1/+0 until end of turn and can't be blocked this turn. (Then exile this card. You may cast the creature later from exile.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17804 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/95/sea-hag-aquatic-ingress) · oracle_id `788a1d3f-8d73-4ecd-97ac-77906a873cfe` · printing: CLB #95 (2022-06-10) · [rulings](https://api.scryfall.com/cards/d0f31357-3fd2-4355-acad-05d253a04b4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2022-06-10* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it’s in your graveyard, Altar of Bhaal is an artifact card whose mana value is 2.
+  - *2022-06-10* — An effect may refer to a card, spell, or permanent that “has an Adventure.” This refers to a card, spell, or permanent that has an adventurer card’s set of alternative characteristics, even if they’re not being used and even if that card was never cast as an Adventure.
+  - *2022-06-10* — Casting a card as an Adventure isn’t casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2022-06-10* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner’s graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won’t be exiled and the spell’s controller won’t be able to cast it as a permanent later.
+  - *2022-06-10* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won’t give you permission to cast it as a permanent spell.
+  - *2022-06-10* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it’s not possible to cast the copy from exile.
+  - *2022-06-10* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2022-06-10* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it’s a token) or cease to be a copy (if it’s a nontoken permanent), and so you won’t be able to cast it as an Adventure.
+  - *2022-06-10* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell.
+  - *2022-06-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2022-06-10* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/95/sea-hag-aquatic-ingress) · oracle_id `788a1d3f-8d73-4ecd-97ac-77906a873cfe` · printing: CLB #95 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seahunter
 
@@ -403,7 +460,9 @@
 - **Flavor text** (NEM printing):
   > *"They can't feel pain. They just wiggle 'cause they're scared."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11608 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nem/41/seahunter) · oracle_id `59e1899f-a9e8-48aa-b3fb-0b7d9fd6859c` · printing: NEM #41 (2000-02-14) · [rulings](https://api.scryfall.com/cards/c375f65a-6d88-4d3c-a7a7-8c7a5cc5807f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nem/41/seahunter) · oracle_id `59e1899f-a9e8-48aa-b3fb-0b7d9fd6859c` · printing: NEM #41 (2000-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sea Kings' Blessing
 
@@ -412,6 +471,7 @@
 - **Oracle text:**
   > One or more target creatures become blue until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25534 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/leg/75/sea-kings-blessing) · oracle_id `e6ea475e-61ba-487b-b7e9-683845a90b73` · printing: LEG #75 (1994-06-01) · [rulings](https://api.scryfall.com/cards/11d1f02d-533e-4b77-a72a-ff5f91ae0626/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seal Away
@@ -425,7 +485,11 @@
   > *An ancient nemesis rendered harmless long ago.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16419 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/31/seal-away) · oracle_id `c8909015-ea49-47cb-8d37-653904f965bb` · printing: DOM #31 (2018-04-27) · [rulings](https://api.scryfall.com/cards/8f8d6588-671d-4eb3-874f-f7139da2e05a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-04-27* — Auras attached to the exiled creature will be put into their owners’ graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
+  - *2018-04-27* — If Seal Away leaves the battlefield before its triggered ability resolves, the target creature won’t be exiled.
+  - *2018-04-27* — If a token is exiled this way, it will cease to exist and won’t return to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/31/seal-away) · oracle_id `c8909015-ea49-47cb-8d37-653904f965bb` · printing: DOM #31 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sealed Fate
 
@@ -436,7 +500,9 @@
 - **Flavor text** (MIR printing):
   > *It's good to know more about your enemy's fate than your enemy does.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29745 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mir/282/sealed-fate) · oracle_id `0b9b5856-9396-4a55-8675-58cd171df708` · printing: MIR #282 (1996-10-08) · [rulings](https://api.scryfall.com/cards/36cf9da8-f078-4f6e-8077-bb24a7ed487f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The controller of this spell decides the order of the cards on the library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mir/282/sealed-fate) · oracle_id `0b9b5856-9396-4a55-8675-58cd171df708` · printing: MIR #282 (1996-10-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sea Legs
 
@@ -450,6 +516,7 @@
   > *"When the waves pick up, either you find your feet or you lose your lunch."*
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26080 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/50/sea-legs) · oracle_id `2e66dc2f-44f3-44f1-8ed7-7f991b3718be` · printing: RIX #50 (2018-01-19) · [rulings](https://api.scryfall.com/cards/ae48b747-b9ea-4af1-84c5-3f5835d1ba1f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seal from Existence
@@ -480,7 +547,12 @@
   > When this creature becomes monstrous, target land becomes an Island in addition to its other types.
 - **Keywords:** Monstrosity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23079 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddo/42/sealock-monster) · oracle_id `351c4f85-8792-4710-8cc9-d3e36657f6db` · printing: DDO #42 (2015-02-27) · [rulings](https://api.scryfall.com/cards/cdd98556-42d5-497e-90c7-f3255c0a8863/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-09-15* — An ability that triggers when a creature becomes monstrous won't trigger if that creature isn't on the battlefield when its monstrosity ability resolves.
+  - *2013-09-15* — Monstrous isn't an ability that a creature has. It's just something true about that creature. If the creature stops being a creature or loses its abilities, it will continue to be monstrous.
+  - *2013-09-15* — Once a creature becomes monstrous, it can't become monstrous again. If the creature is already monstrous when the monstrosity ability resolves, nothing happens.
+  - *2013-09-15* — The effect making the land an Island doesn't have a duration and will last indefinitely. The land retains any land types and abilities it already had. An Island has the ability “{T}: Add {U}.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddo/42/sealock-monster) · oracle_id `351c4f85-8792-4710-8cc9-d3e36657f6db` · printing: DDO #42 (2015-02-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seal of Cleansing
 
@@ -518,6 +590,7 @@
 - **Flavor text** (JVC printing):
   > *After the fourth time Chandra left a place engulfed in flames, she decided to just go ahead and make it her thing.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18333 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jvc/50/seal-of-fire) · oracle_id `348a345e-4639-41ca-b015-a5d43459eb64` · printing: JVC #50 (2014-12-05) · [rulings](https://api.scryfall.com/cards/210f4f5a-4a36-4f2f-8821-d04f3f52c8db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seal of Primordium
@@ -558,6 +631,7 @@
 - **Flavor text** (EMA printing):
   > *When does majestic become ominous?*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20452 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/184/seal-of-strength) · oracle_id `e41a68b3-e1cb-4f51-bd54-68882d2cc015` · printing: EMA #184 (2016-06-10) · [rulings](https://api.scryfall.com/cards/559c3909-51e3-4a3e-8570-107ffe69e30d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seal of the Guildpact
@@ -571,7 +645,14 @@
   > *"I'd rather see the guilds contend together with words in the halls of power, than in the streets with swords."*
   > *—Jace Beleren*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12526 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/266/seal-of-the-guildpact) · oracle_id `9a2d60bc-3024-4a1b-ad74-81645fd227c4` · printing: RVR #266 (2024-01-12) · [rulings](https://api.scryfall.com/cards/2707d84f-5ab1-46c6-8932-ec51cae14111/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2015-11-04* — If a spell you cast has {X} in its mana cost, you choose the value of X before calculating the spell's total cost. For example, if that spell's mana cost is {X}{R}{G} and you've chosen red and green, you could choose 5 as the value of X and pay {3}{R}{G} to cast the spell.
+  - *2015-11-04* — If there are additional costs to cast a spell, or if the cost to cast a spell is increased by an effect (such as the one created by Thalia, Guardian of Thraben's ability), apply those increases before applying cost reductions.
+  - *2015-11-04* — Seal of the Guildpact's last ability can't reduce the amount of colored mana you pay for a spell. It reduces only the generic component of that cost.
+  - *2015-11-04* — Seal of the Guildpact's last ability doesn't change the mana cost or mana value of any spell. It changes only the total cost you pay.
+  - *2015-11-04* — The cost reduction can apply to alternative costs such as evoke costs.
+  - *2015-11-04* — You must choose two different colors.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/266/seal-of-the-guildpact) · oracle_id `9a2d60bc-3024-4a1b-ad74-81645fd227c4` · printing: RVR #266 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sea Monster
 
@@ -583,6 +664,7 @@
 - **Flavor text** (TPR printing):
   > *Water is life. Or perhaps it is just something to wash it down with.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28792 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/65/sea-monster) · oracle_id `21b07ce7-b4f9-438c-8c09-e624557d62d2` · printing: TPR #65 (2015-05-06) · [rulings](https://api.scryfall.com/cards/6a1d7d4b-721e-4946-803d-b04ddbe7b718/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seam Rip
@@ -594,7 +676,13 @@
 - **Flavor text** (EOE printing):
   > *Drix hunt down Eldrazi Potentiate without hesitation or explanation.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16216 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/34/seam-rip) · oracle_id `dfd5939e-a71a-4e16-9b93-752162be4ccd` · printing: EOE #34 (2025-08-01) · [rulings](https://api.scryfall.com/cards/9d298847-2d02-4593-b4d3-c5b722edac1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-07-25* — Auras attached to the exiled permanent will be put into their owners’ graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
+  - *2025-07-25* — If Seam Rip leaves the battlefield before its triggered ability resolves, the target permanent won’t be exiled.
+  - *2025-07-25* — If a permanent has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+  - *2025-07-25* — If a token is exiled this way, it will cease to exist and won’t return to the battlefield.
+  - *2025-07-25* — If an Aura is exiled this way, its owner chooses what it will enchant as it returns to the battlefield. An Aura put onto the battlefield this way doesn’t target anything (so it could be attached to an opponent’s permanent with hexproof, for example) , but the Aura’s enchant ability restricts what it can be attached to. If the Aura can’t legally be attached to anything, it remains in exile for the rest of the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/34/seam-rip) · oracle_id `dfd5939e-a71a-4e16-9b93-752162be4ccd` · printing: EOE #34 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Séance
 
@@ -603,7 +691,14 @@
 - **Oracle text:**
   > At the beginning of each upkeep, you may exile target creature card from your graveyard. If you do, create a token that's a copy of that card, except it's a Spirit in addition to its other types. Exile it at the beginning of the next end step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20061 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/22/s%C3%A9ance) · oracle_id `a375b935-c02b-44bc-a942-37c5de58b1e4` · printing: MM3 #22 (2017-03-17) · [rulings](https://api.scryfall.com/cards/2e376bdf-076c-471a-9408-b36fc5b8405b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2017-03-14* — If the card copied by the token had any “when [this permanent] enters the battlefield” abilities, then the token also has those abilities and will trigger them when it’s created. Similarly, any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities that the token has copied will also work.
+  - *2017-03-14* — If the copied card has {X} in its mana cost, X is considered to be 0.
+  - *2017-03-14* — The delayed triggered ability that exiles the token isn’t a characteristic of the token. If an effect such as populate copies the token, the new copy won’t be exiled.
+  - *2017-03-14* — The token copies exactly what was printed on the original card and nothing else. It doesn’t copy any information about the object the card was before it was put into your graveyard.
+  - *2017-03-14* — The token doesn’t have haste (unless the card it’s copying has haste) and usually won’t be able to attack.
+  - *2017-03-14* — The token is a Spirit in addition to its other types. This is a copiable value of the token that other effects may copy.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/22/s%C3%A9ance) · oracle_id `a375b935-c02b-44bc-a942-37c5de58b1e4` · printing: MM3 #22 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Séance Board
 
@@ -642,6 +737,7 @@
 - **Flavor text** (ECL printing):
   > *Everything becomes kindling at the right temperature.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14578 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/154/sear) · oracle_id `23b11fdc-61b5-4f5e-ad80-f81b729fc91d` · printing: ECL #154 (2026-01-23) · [rulings](https://api.scryfall.com/cards/aeb4612c-758b-4492-ba03-eb6741b4176e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Search Elemental
@@ -654,7 +750,14 @@
   > Scryfall — Whenever you scry, put a +1/+1 counter on Search Elemental. It can't be blocked this turn.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/535/search-elemental) · oracle_id `f3d41f6d-1792-4a83-a4e8-d1b6d3ea04a8` · printing: MB2 #535 (2024-08-02) · [rulings](https://api.scryfall.com/cards/b6885228-5eda-4678-a970-82d49b9c4f3a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+  - *2024-11-08* — Search Elemental doesn’t have a third ability as far as we can tell, but feel free to keep looking.
+  - *2024-11-08* — Search Elemental’s first ability won’t be put onto the stack until after the spell or ability that caused you to search your library finishes resolving.
+  - *2024-11-08* — Search Elemental’s second ability won’t be put onto the stack until after the spell or ability that caused you to scry finishes resolving.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/535/search-elemental) · oracle_id `f3d41f6d-1792-4a83-a4e8-d1b6d3ea04a8` · printing: MB2 #535 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Search for Azcanta // Azcanta, the Sunken Ruin
 
@@ -684,6 +787,7 @@
 - **Flavor text** (FIC printing):
   > *"Dagger is more important to me than anything else."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15457 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/459/search-for-dagger) · oracle_id `9bdd6ece-b78c-4814-ac40-b48f91b405b5` · printing: FIC #459 (2025-12-05) · [rulings](https://api.scryfall.com/cards/9adaef20-1d82-4941-b4bb-a037cf3d63db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Search for Glory
@@ -713,6 +817,7 @@
 - **Flavor text** (PCY printing):
   > *There's no rest for a Keldon.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28078 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcy/102/search-for-survivors) · oracle_id `02fd4da6-6c6e-4143-a915-495c668de148` · printing: PCY #102 (2000-06-05) · [rulings](https://api.scryfall.com/cards/2f19a1b5-48ba-44a9-b91f-2f628b223ffb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Search for Tomorrow
@@ -752,6 +857,7 @@
   > *The merging of the spirit and material realms has resulted in some unusual friendships.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19912 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/258/searchlight-companion) · oracle_id `426569c7-d868-4af1-bc83-5b5200532d17` · printing: NEO #258 (2022-02-18) · [rulings](https://api.scryfall.com/cards/0b79b30e-e7aa-490e-b130-de7533e6e13b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Searchlight Geist
@@ -766,6 +872,7 @@
   > *It rises with the fall of darkness, seeking souls to extinguish.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30846 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/avr/119/searchlight-geist) · oracle_id `f9366a4a-54d0-4c65-920b-d8ddd475db3c` · printing: AVR #119 (2012-05-04) · [rulings](https://api.scryfall.com/cards/b0dc1a94-0193-464e-a481-730b34b57db5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Search Party Captain
@@ -779,6 +886,7 @@
 - **Flavor text** (MID printing):
   > *"Werewolves leave messy trails. Easy to follow. Hard to forget."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19037 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/32/search-party-captain) · oracle_id `8721b0a6-52ff-4749-92db-82bb36f5a73e` · printing: MID #32 (2021-09-24) · [rulings](https://api.scryfall.com/cards/cb9006c1-2e6f-4bca-a1c4-3cf2a8b6e964/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Search the City
@@ -789,7 +897,11 @@
   > When this enchantment enters, exile the top five cards of your library.
   > Whenever you play a card with the same name as one of the exiled cards, you may put one of those cards with that name into its owner's hand. Then if there are no cards exiled with this enchantment, sacrifice it. If you do, take an extra turn after this one.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30847 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/49/search-the-city) · oracle_id `fe1b0b19-0994-4bc7-ab6c-d1419d274f40` · printing: RTR #49 (2012-10-05) · [rulings](https://api.scryfall.com/cards/9cd77575-fedc-45b1-a53b-dfed0f34c875/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2012-10-01* — If you don’t sacrifice Search the City, perhaps because it was destroyed in response to its ability triggering, you won’t take an extra turn.
+  - *2012-10-01* — To “play a card” is to play that card as a land or cast that card as a spell, whichever is appropriate.
+  - *2012-10-01* — You can put only one card into its owner’s hand for each card you play.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/49/search-the-city) · oracle_id `fe1b0b19-0994-4bc7-ab6c-d1419d274f40` · printing: RTR #49 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Search the Premises
 
@@ -814,7 +926,9 @@
 - **Flavor text** (RTR printing):
   > *"And would you care to explain why your satchel is radiating an aura of unstable energy?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18957 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/193/search-warrant) · oracle_id `27744033-5cb6-4d26-ad76-f4b4f1c0466c` · printing: RTR #193 (2012-10-05) · [rulings](https://api.scryfall.com/cards/d55f625a-6e9e-40ba-ae46-cf6bafc0a41b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-02-01* — If you target yourself with this spell, you must reveal your entire hand to the other players just as any other player would.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/193/search-warrant) · oracle_id `27744033-5cb6-4d26-ad76-f4b4f1c0466c` · printing: RTR #193 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Searing Barb
 
@@ -826,6 +940,7 @@
   > *"You always were such a sharp student. Shame it took you so long to get the point."*
 - **Keywords:** Incubate, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27013 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/163/searing-barb) · oracle_id `9a1622a5-c982-407b-a158-7b8ad9238aac` · printing: MOM #163 (2023-04-21) · [rulings](https://api.scryfall.com/cards/69f156b6-68c2-4787-b3f0-6d1079bb576f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Searing Barrage
@@ -839,7 +954,14 @@
   > *It emerged from the coldest depths of Lochmere only to face the fires of Irencrag.*
 - **Keywords:** Adamant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26361 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/140/searing-barrage) · oracle_id `26c17025-1123-46d9-a8bd-edbad01c4b6e` · printing: ELD #140 (2019-10-04) · [rulings](https://api.scryfall.com/cards/d2f11135-e9ce-4e4c-bea7-72a46d326e40/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2019-10-04* — Adamant effects check what mana was actually spent to cast a spell. If an effect allows you to spend mana “as though it were mana” of any color or type, that allows you to spend mana you couldn't otherwise spend, but it doesn't change what mana you spent to cast the spell.
+  - *2019-10-04* — If an effect allows you to cast a spell without paying its mana cost, you can't choose to cast it and pay unless another rule or effect allows you to cast that spell for a cost. Similarly, you can't waive a cost reduction unless that effect says you may.
+  - *2019-10-04* — If an instant or sorcery spell has an adamant ability, you perform the spell's instructions in order. You don't perform the adamant instruction before the spell resolves or before any other effects printed above it.
+  - *2019-10-04* — If the target creature is an illegal target by the time Searing Barrage tries to resolve, the spell won't resolve. No player will be dealt damage, even if you spent three red mana.
+  - *2019-10-04* — If you copy a spell that has an adamant ability, no mana was spent to cast the copy at all, so that ability won't apply.
+  - *2019-10-04* — Searing Barrage's adamant ability causes it to deal additional damage. It doesn't replace the damage dealt to the target creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/140/searing-barrage) · oracle_id `26c17025-1123-46d9-a8bd-edbad01c4b6e` · printing: ELD #140 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Searing Blaze
 
@@ -850,7 +972,15 @@
   > Landfall — If you had a land enter the battlefield under your control this turn, Searing Blaze deals 3 damage to that player or planeswalker and 3 damage to that creature instead.
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17326 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddi/67/searing-blaze) · oracle_id `74b08a70-b0bb-4340-98a0-b1d5b7c9d2cc` · printing: DDI #67 (2012-03-30) · [rulings](https://api.scryfall.com/cards/f659d464-13dd-49e2-a842-098dcba49659/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2010-03-01* — If either target is illegal by the time Searing Blaze resolves, it still deals damage to the other target.
+  - *2010-03-01* — You must choose two targets as you cast Searing Blaze: a player and a creature that player controls. If you can't (because there are no creatures on the battlefield, perhaps), then you can't cast the spell.
+  - *2024-11-08* — Having more than one land enter the battlefield under your control this turn provides no additional benefit.
+  - *2024-11-08* — Once the spell resolves, having a land enter under your control provides no further benefit.
+  - *2024-11-08* — The effect of this spell's landfall ability replaces its normal effect. If you had a land enter under your control this turn, only the landfall-based effect happens.
+  - *2024-11-08* — The landfall ability checks for an action that has happened in the past. It doesn't matter if a land that entered the battlefield under your control previously in the turn is still on the battlefield, is still under your control, or is still a land.
+  - *2024-11-08* — Whether you had a land enter the battlefield under your control this turn is checked as this spell resolves, not as you cast it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddi/67/searing-blaze) · oracle_id `74b08a70-b0bb-4340-98a0-b1d5b7c9d2cc` · printing: DDI #67 (2012-03-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Searing Blood
 
@@ -861,7 +991,9 @@
 - **Flavor text** (BNG printing):
   > *Purphoros's blessing: sometimes a boon, sometimes a bane. Always ablaze.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17345 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bng/111/searing-blood) · oracle_id `902b82fd-bb18-4833-b427-af8c9751f870` · printing: BNG #111 (2014-02-07) · [rulings](https://api.scryfall.com/cards/bb43fd07-d281-447d-88bf-c53498c2cf20/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-02-01* — If the target creature dies that turn, Searing Blood will deal 3 damage to whoever controls the creature when it dies, who isn't necessarily the player who controlled it when Searing Blood resolved. It doesn't matter what causes the creature to die.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bng/111/searing-blood) · oracle_id `902b82fd-bb18-4833-b427-af8c9751f870` · printing: BNG #111 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Searing Flesh
 
@@ -872,6 +1004,7 @@
 - **Flavor text** (ONS printing):
   > *Zemoo found out the hard way that "inflammable" and "flammable" mean the same thing.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29697 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/225/searing-flesh) · oracle_id `d9cb5ae8-5594-46c4-9b77-4f9c6402bcd2` · printing: ONS #225 (2002-10-07) · [rulings](https://api.scryfall.com/cards/d83db110-42e7-4823-a686-b83205faf503/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Searing Light
@@ -884,6 +1017,7 @@
   > *"Light can lay bare our fears. It can also make them go away."*
   > *—Nazra of the Stone Havens*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25895 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/33/searing-light) · oracle_id `2bad07d2-6284-4f87-9e2e-2e9ec5d2dd57` · printing: OGW #33 (2016-01-22) · [rulings](https://api.scryfall.com/cards/76dadfd8-8492-4c55-827c-cd4e6a40ae97/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Searing Meditation
@@ -896,7 +1030,9 @@
   > *"When I meditate I see the world as it should be. All that does not fit, I remove."*
   > *—Alovnek, Boros guildmage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26209 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddh/27/searing-meditation) · oracle_id `a6342d2c-06e3-4443-9276-b49f4a06a4da` · printing: DDH #27 (2011-09-02) · [rulings](https://api.scryfall.com/cards/6f5e0200-21c9-4926-b238-3f9b1f5fc6ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2005-10-01* — Searing Meditation doesn’t care how much life you gain. It triggers just once for each life-gaining event, whether it’s 1 life from Firemane Angel or 15 life from Brightflame.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddh/27/searing-meditation) · oracle_id `a6342d2c-06e3-4443-9276-b49f4a06a4da` · printing: DDH #27 (2011-09-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Searing Rays
 
@@ -908,7 +1044,9 @@
   > *"This is a battle of pawns, for the highest stakes imaginable."*
   > *—Urza*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27658 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inv/165/searing-rays) · oracle_id `fd6730e2-3904-43cf-90c6-e3d9fe210bc5` · printing: INV #165 (2000-10-02) · [rulings](https://api.scryfall.com/cards/4f66ff2d-f2d2-4a6b-bf26-b510de60c0b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You choose the color on resolution. Your opponent does not get to respond between the color choice and the damage happening. They need to use any damage prevention they want before you choose a color.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inv/165/searing-rays) · oracle_id `fd6730e2-3904-43cf-90c6-e3d9fe210bc5` · printing: INV #165 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Searing Spear
 
@@ -919,6 +1057,7 @@
 - **Flavor text** (E01 printing):
   > *Sometimes you die a glorious death with your sword held high. Sometimes you're just target practice.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16938 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/e01/56/searing-spear) · oracle_id `aafd44c1-74a9-4aa7-a4a2-67eb39a07478` · printing: E01 #56 (2017-06-16) · [rulings](https://api.scryfall.com/cards/44c5f884-d071-40c2-bb2c-925dc2197ea3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Searing Spear Askari
@@ -933,7 +1072,9 @@
   > *When the other soldiers of Zhalfir fall, the askaris will yet stand.*
 - **Keywords:** Flanking
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29693 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mir/191/searing-spear-askari) · oracle_id `d3c68573-95b1-4db5-bbea-363b86f713c1` · printing: MIR #191 (1996-10-08) · [rulings](https://api.scryfall.com/cards/5cf66916-7f6b-412f-acd6-f96ad4539a46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The ability only does something if used before blockers are declared. You can use it afterwards but to no useful effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mir/191/searing-spear-askari) · oracle_id `d3c68573-95b1-4db5-bbea-363b86f713c1` · printing: MIR #191 (1996-10-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Searing Touch
 
@@ -944,6 +1085,7 @@
   > Searing Touch deals 1 damage to any target.
 - **Keywords:** Buyback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11478 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/155/searing-touch) · oracle_id `1cd9a3ba-a115-4e59-983d-605e4435f3a8` · printing: TPR #155 (2015-05-06) · [rulings](https://api.scryfall.com/cards/34406508-da49-4b63-b123-55f0924a0675/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Searing Wind
@@ -956,6 +1098,7 @@
   > *"The first wind of ascension is Forger, burning away impurity."*
   > *—\*Keld Triumphant\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16023 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/218/searing-wind) · oracle_id `b196045d-ece1-46ac-a647-b65f04225c10` · printing: 8ED #218 (2003-07-28) · [rulings](https://api.scryfall.com/cards/61afd3c5-7103-4247-8bb9-747532ae4265/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Searslicer Goblin
@@ -985,7 +1128,9 @@
 - **Flavor text** (ZEN printing):
   > *"The sky is like another sea. It teems with currents, life, and endless possibility."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15458 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/zen/64/seascape-aerialist) · oracle_id `877c6bb4-487c-4eea-b4af-f28fe1515fb6` · printing: ZEN #64 (2009-10-02) · [rulings](https://api.scryfall.com/cards/3690efc8-de2b-4476-87da-d8ed9572dc84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — The ability affects only Allies you control at the time the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/zen/64/seascape-aerialist) · oracle_id `877c6bb4-487c-4eea-b4af-f28fe1515fb6` · printing: ZEN #64 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sea's Claim
 
@@ -999,6 +1144,7 @@
   > *—Torgle, mountaintop boatmaker*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21208 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/97/seas-claim) · oracle_id `ed11efb6-1423-4ce0-be1d-9e0320124758` · printing: 9ED #97 (2005-07-29) · [rulings](https://api.scryfall.com/cards/82e836c8-4371-402f-8f90-81325a9879b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sea Scryer
@@ -1010,6 +1156,7 @@
   > {T}: Add {C}.
   > {1}, {T}: Add {U}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14908 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/90/sea-scryer) · oracle_id `f17954dd-c8e0-4983-b81e-5440cca41afc` · printing: MIR #90 (1996-10-08) · [rulings](https://api.scryfall.com/cards/124308ac-1bf6-4a79-8aaa-f3be8eeb3e78/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sea Serpent
@@ -1023,6 +1170,7 @@
 - **Flavor text** (ME4 printing):
   > *Legend has it that Serpents used to be bigger, but how could that be?*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29062 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/60/sea-serpent) · oracle_id `c16495fc-784d-4bac-9a68-ed437008df73` · printing: ME4 #60 (2011-01-10) · [rulings](https://api.scryfall.com/cards/1621438d-717a-477c-93ff-ff7415da70c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seashell Cameo
@@ -1035,6 +1183,7 @@
   > *"Today a seashell fell from the empty sky here in Kinymu, a hundred leagues from the sea. I'm torn—shall I carve a woman or a bird?"*
   > *—Isel, master carver*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25096 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/311/seashell-cameo) · oracle_id `383f6020-c26d-43e8-bb07-566886626d74` · printing: INV #311 (2000-10-02) · [rulings](https://api.scryfall.com/cards/9efdbcad-e2e4-4f54-ade5-920b1853109e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seaside Citadel
@@ -1058,6 +1207,7 @@
   > {T}: Add {C}.
   > {W}{U}, {T}, Sacrifice a Bird: Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10179 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/323/seaside-haven) · oracle_id `4adc39dd-8de1-4298-947c-ff666ec3adeb` · printing: ONS #323 (2002-10-07) · [rulings](https://api.scryfall.com/cards/9c940a6b-3c5e-4ce2-92b6-63e2cb575c15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seasinger
@@ -1070,7 +1220,11 @@
   > You may choose not to untap this creature during your untap step.
   > {T}: Gain control of target creature whose controller controls an Island for as long as you control this creature and this creature remains tapped.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21370 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me1/49/seasinger) · oracle_id `13745b92-1e30-4075-9733-5d00da11408c` · printing: ME1 #49 (2007-09-10) · [rulings](https://api.scryfall.com/cards/473c8a26-4971-4b17-bdef-4c8f8120360d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — You do not lose control of the stolen creature if it stops being a creature. You only lose control if Seasinger leaves your control or becomes untapped.
+  - *2007-09-16* — If a creature’s controller doesn’t control an Island, that creature is an illegal target. Whether that player controls an Island is checked both when Seasinger’s ability is activated and when it resolves. However, targeting restrictions aren’t checked continually while a spell or ability is on the stack.
+  - *2007-09-16* — Whether you control Seasinger is checked continually, starting when the ability is activated. If, before the ability resolves, there’s any point at which you don’t control Seasinger, the ability has no effect — even if you control Seasinger again by the time the ability resolves. The same is true regarding whether Seasinger remains tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me1/49/seasinger) · oracle_id `13745b92-1e30-4075-9733-5d00da11408c` · printing: ME1 #49 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sea Snidd
 
@@ -1082,6 +1236,7 @@
 - **Flavor text** (PLS printing):
   > *It always has the home-turf advantage.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31052 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pls/31/sea-snidd) · oracle_id `c5fdcbc9-e7da-4a88-95cf-c526f10ad96e` · printing: PLS #31 (2001-02-05) · [rulings](https://api.scryfall.com/cards/ca11015e-200b-488c-8bf5-662dcc03cd2d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seasonal Sequels
@@ -1093,6 +1248,7 @@
 - **Flavor text** (HHO printing):
   > *NOW SHOWING: \*Sword of Hearth and Home Alone\*, \*Eight Crazy Knights' Charge\*, \*Holiday Incinerate\*, and \*Phyrexian Gremlins\*.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hho/23/seasonal-sequels) · oracle_id `3062f1aa-2bc2-4242-b674-160236a6a873` · printing: HHO #23 (2023-12-01) · [rulings](https://api.scryfall.com/cards/5a2c94d3-a389-4f23-8d32-e71ab8eaf540/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seasoned Buttoneer
@@ -1106,6 +1262,7 @@
   > *Everyone comments on the buttons, but few appreciate the pedals.*
 - **Keywords:** Open an Attraction
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18090 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/58/seasoned-buttoneer) · oracle_id `6048a682-f218-4039-8d5e-3e5156817fb2` · printing: UNF #58 (2022-10-07) · [rulings](https://api.scryfall.com/cards/4d43a529-5005-463f-98f7-8931d955b07e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seasoned Consultant
@@ -1119,7 +1276,9 @@
   > *"I appreciate working with associates whose greatest loyalty is to the job at hand."*
   > *—Skurad of the Foundway Associates*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28423 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/33/seasoned-consultant) · oracle_id `9ee64b00-6619-451e-bb48-10af107dcb2f` · printing: MKM #33 (2024-02-09) · [rulings](https://api.scryfall.com/cards/c0ebfe5d-8819-495d-bf72-b9c28c6fd23e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-02-02* — It doesn't matter what happens to the creatures in response. As long as you attacked with at least three creatures, Seasoned Consultant will still get +2/+0 until end of turn when its triggered ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/33/seasoned-consultant) · oracle_id `9ee64b00-6619-451e-bb48-10af107dcb2f` · printing: MKM #33 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seasoned Cryomancer
 
@@ -1130,6 +1289,7 @@
   > When this creature enters, draw two cards, then discard two cards. When you discard one or more nonland cards this way, tap up to that many target creatures and put a stun counter on each of them.
   > {3}{U}{U}, Exile this card from your graveyard: Draw two cards.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22102 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/38/seasoned-cryomancer) · oracle_id `c3936db3-d3b6-4a92-9773-6f3c52dc419d` · printing: FRA #38 (2026-10-02) · [rulings](https://api.scryfall.com/cards/51d86875-420d-4e82-b69c-4feeb99c9428/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seasoned Dungeoneer
@@ -1165,7 +1325,9 @@
 - **Flavor text** (M21 printing):
   > *"I don't know that I'll win every fight. But I have faith, and that's carried me this far."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19241 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/34/seasoned-hallowblade) · oracle_id `d03dbb60-e32b-4b74-ae8a-73d428d344cd` · printing: M21 #34 (2020-07-03) · [rulings](https://api.scryfall.com/cards/feb59931-8941-46fb-8e1c-f80ff3730dd9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-06-23* — You can activate Seasoned Hallowblade's ability even if nothing's about to destroy it, even if it's already tapped, and even if it already has indestructible.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/34/seasoned-hallowblade) · oracle_id `d03dbb60-e32b-4b74-ae8a-73d428d344cd` · printing: M21 #34 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seasoned Marshal
 
@@ -1177,7 +1339,9 @@
 - **Flavor text** (DDF printing):
   > *There are only two rules of tactics: never be without a plan, and never rely on it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30108 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddf/15/seasoned-marshal) · oracle_id `0c7239bf-dc8a-4d79-867e-7a4225568c49` · printing: DDF #15 (2010-09-03) · [rulings](https://api.scryfall.com/cards/11fafc94-543b-4e9d-83aa-ac510aed87ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Can target an already tapped creature if you want.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddf/15/seasoned-marshal) · oracle_id `0c7239bf-dc8a-4d79-867e-7a4225568c49` · printing: DDF #15 (2010-09-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seasoned Pyromancer
 
@@ -1188,7 +1352,9 @@
   > When this creature enters, discard two cards, then draw two cards. For each nonland card discarded this way, create a 1/1 red Elemental creature token.
   > {3}{R}{R}, Exile this card from your graveyard: Create two 1/1 red Elemental creature tokens.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10084 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/123/seasoned-pyromancer) · oracle_id `02238355-9c84-4ae0-b850-269f460144a8` · printing: 2X2 #123 (2022-07-08) · [rulings](https://api.scryfall.com/cards/1427f615-8430-426e-a669-f9fe12033ac4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-06-14* — If you have fewer than two cards in hand as Seasoned Pyromancer's first ability resolves, you'll discard your hand, then draw two cards regardless of how many you discarded.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/123/seasoned-pyromancer) · oracle_id `02238355-9c84-4ae0-b850-269f460144a8` · printing: 2X2 #123 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seasoned Tactician
 
@@ -1201,6 +1367,7 @@
   > *"The benefits of peace far outweigh the pride of Generals."*
   > *—King Darien of Kjeldor*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31507 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/all/17/seasoned-tactician) · oracle_id `d7c2f27c-8c82-4283-a17d-f979ee636542` · printing: ALL #17 (1996-06-10) · [rulings](https://api.scryfall.com/cards/f8be4b6b-23a2-42d2-911d-fa14f7f5a95b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seasoned Warrenguard
@@ -1213,7 +1380,9 @@
 - **Flavor text** (BLB printing):
   > *Never underestimate what a rabbit can do with a root vegetable and some moxie.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14761 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/30/seasoned-warrenguard) · oracle_id `5bf1dbb6-ed65-4968-8edd-b98e9bd19d4d` · printing: BLB #30 (2024-08-02) · [rulings](https://api.scryfall.com/cards/90873995-876f-4e89-8bc7-41a74f4d931f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-26* — If you controlled at least one token when you declared Seasoned Warrenguard as an attacker, it doesn’t matter whether or not you control any tokens as its ability resolves. Seasoned Warrenguard will still get +2/+0 until end of turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/30/seasoned-warrenguard) · oracle_id `5bf1dbb6-ed65-4968-8edd-b98e9bd19d4d` · printing: BLB #30 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seasoned Weaponsmith
 
@@ -1223,7 +1392,11 @@
 - **Oracle text:**
   > Tasty (This creature can be attacked directly. If it is attacked, it can't block creatures that didn't attack it.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/63/seasoned-weaponsmith) · oracle_id `b8e43e56-d85f-4f5a-9e4b-e9b2f3461653` · printing: CMB2 #63 (2021-08-20) · [rulings](https://api.scryfall.com/cards/6782d565-0043-4cca-b60e-7a0ff433cf6b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-11-12* — A player can use an attacked creature to block a creature attacking it or choose to not block with it at all.
+  - *2019-11-12* — An unblocked attacking creature that’s attacking a creature deals its combat damage to the creature it attacks and vice versa, following the same rules for an attacking creature and a creature blocking it. However, if the attacking creature has trample, it can’t assign trample damage to the defending player.
+  - *2019-11-12* — If a creature attacks a creature, the controller of the attacked creature is the defending player. That player’s creatures that aren’t attacked can block the attacking creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/63/seasoned-weaponsmith) · oracle_id `b8e43e56-d85f-4f5a-9e4b-e9b2f3461653` · printing: CMB2 #63 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Season of Gathering
 
@@ -1297,6 +1470,7 @@
 - **Flavor text** (NEO printing):
   > *Pavement ripped like paper as the ancient kami awoke from her long slumber beneath the city.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12255 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/205/season-of-renewal) · oracle_id `410ce48e-d907-4bc5-ad90-2067161a0e04` · printing: NEO #205 (2022-02-18) · [rulings](https://api.scryfall.com/cards/841f0ec2-94c7-4cec-94bb-b365084ca45f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Season of the Bold
@@ -1353,7 +1527,10 @@
   > At the beginning of your upkeep, sacrifice this enchantment unless you pay 2 life.
   > At the beginning of the end step, destroy all untapped creatures that didn't attack this turn, except for creatures that couldn't attack.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20637 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/drk/52/season-of-the-witch) · oracle_id `307813c5-c3a8-46c5-8ed4-3b244dd169dc` · printing: DRK #52 (1994-08-01) · [rulings](https://api.scryfall.com/cards/06900a71-34ca-48c6-94ac-fca744356829/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-09-20* — A creature won’t be destroyed if it was unable to attack that turn, even if you had a way to enable it to attack. For example, a creature that had summoning sickness wouldn’t be destroyed even if you had a way to give it haste.
+  - *2013-09-20* — At the beginning of every end step, regardless of whose turn it is, the second ability triggers. When it resolves every creature that could have been declared as an attacker during that turn’s Declare Attackers Step but wasn’t will be destroyed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/drk/52/season-of-the-witch) · oracle_id `307813c5-c3a8-46c5-8ed4-3b244dd169dc` · printing: DRK #52 (1994-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Season of Weaving
 
@@ -1391,6 +1568,7 @@
   > *Arriving home, he suddenly longed for the bloodsoaked battlefields behind him.*
 - **Keywords:** Family gathering, Family Gathering
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hho/9/seasons-beatings) · oracle_id `d3c36e20-3c6c-423a-a9ba-8e8bd7b735e6` · printing: HHO #9 (2009-12-01) · [rulings](https://api.scryfall.com/cards/e177c12e-551a-4688-aa34-740f873dd37d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seasons Past
@@ -1420,6 +1598,7 @@
   > *"It rose above our heads, above the ship, and still higher yet. No foggy, ice-laden sea in the world could frighten me more."*
   > *—General Jarkeld, the Arctic Fox*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31920 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/65/sea-spirit) · oracle_id `0ebd8ab3-d4b7-480e-b7b1-267078edddf2` · printing: ME2 #65 (2008-09-22) · [rulings](https://api.scryfall.com/cards/6f0a26cf-03d5-4d4c-83c2-a4544639def4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sea Sprite
@@ -1434,6 +1613,7 @@
   > *—Kakra, sea troll*
 - **Keywords:** Flying, Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27056 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/48/sea-sprite) · oracle_id `b318d94e-314f-4df8-a178-b5ddd756e1c4` · printing: ME1 #48 (2007-09-10) · [rulings](https://api.scryfall.com/cards/6c8b47b2-be16-4f65-814c-5c392cbfebec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seat of the Synod
@@ -1460,4 +1640,5 @@
   > *—Zeki, Reef Pirate*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32173 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hml/39/sea-troll) · oracle_id `feabe30a-3c28-43a1-b538-b0207758520c` · printing: HML #39 (1995-10-01) · [rulings](https://api.scryfall.com/cards/b7da23d4-f9fb-40a5-8395-51b47a064600/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

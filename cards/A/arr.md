@@ -31,7 +31,9 @@
   > *Bladehold houses a rogues' gallery filled with the living "statues" of the worst enemies of the Auriok.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11588 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/9/arrest) · oracle_id `81728b98-8cf9-4734-a318-69184bb4d15c` · printing: MM2 #9 (2015-05-22) · [rulings](https://api.scryfall.com/cards/9fc0be19-e041-4347-a51c-7e93a3d9e712/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-06-08* — Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords are activated abilities and will have colons in their reminder text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/9/arrest) · oracle_id `81728b98-8cf9-4734-a318-69184bb4d15c` · printing: MM2 #9 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arrester's Admonition
 
@@ -44,7 +46,11 @@
   > *Law is the voice of reason.*
 - **Keywords:** Addendum
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18950 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/31/arresters-admonition) · oracle_id `ccfb612a-762d-41a7-bc3d-268c6abf8e85` · printing: RNA #31 (2019-01-25) · [rulings](https://api.scryfall.com/cards/637c2d6a-e6b8-4dc5-81aa-da1b7384e006/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-01-25* — If the target creature is an illegal target by the time Arrester's Admonition tries to resolve, the spell doesn't resolve. You don't draw a card if you cast it during your main phase.
+  - *2024-01-12* — Addendum abilities of instant spells apply while the spell is resolving, not immediately after casting it. If the spell is countered, you don't get the addendum bonus.
+  - *2024-01-12* — If an effect copies a spell with an addendum ability while it's on the stack, the copy wasn't cast at all, so you won't get the addendum bonus.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/31/arresters-admonition) · oracle_id `ccfb612a-762d-41a7-bc3d-268c6abf8e85` · printing: RNA #31 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arrester's Zeal
 
@@ -57,7 +63,10 @@
   > *"Law is the light of civilization."*
 - **Keywords:** Addendum
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17678 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/4/arresters-zeal) · oracle_id `6b70af46-ff27-4eec-9692-248b06248de6` · printing: RVR #4 (2024-01-12) · [rulings](https://api.scryfall.com/cards/f501024b-79e8-48f8-8102-38d3e439dc64/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-01-12* — Addendum abilities of instant spells apply while the spell is resolving, not immediately after casting it. If the spell is countered, you don't get the addendum bonus.
+  - *2024-01-12* — If an effect copies a spell with an addendum ability while it's on the stack, the copy wasn't cast at all, so you won't get the addendum bonus.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/4/arresters-zeal) · oracle_id `6b70af46-ff27-4eec-9692-248b06248de6` · printing: RVR #4 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arrogant Bloodlord
 
@@ -69,7 +78,11 @@
 - **Flavor text** (ROE printing):
   > *"I would rather take my own head than be thwarted by a presumptuous wretch with a shield and a dream."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28966 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/roe/94/arrogant-bloodlord) · oracle_id `a35e1882-b878-49cf-a06c-be12a06d4977` · printing: ROE #94 (2010-04-23) · [rulings](https://api.scryfall.com/cards/5ed08a7f-6682-46a4-89df-b9b418df3f1a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2010-06-15* — If Arrogant Bloodlord becomes blocked by multiple creatures with power 1 or less, its ability triggers that many times. Each of those abilities will cause it to be destroyed separately (in case Arrogant Bloodlord isn't destroyed the first time due to an Aura with umbra armor, for example). The same is true if it somehow blocks multiple creatures with power 1 or less.
+  - *2010-06-15* — If Arrogant Bloodlord blocks or becomes blocked by a creature whose power is 2 or greater, Arrogant Bloodlord's ability won't trigger. It still won't trigger if the other creature's power changes to 1 or less later in combat.
+  - *2010-06-15* — The power of the other creature is checked only when it blocks or becomes blocked by Arrogant Bloodlord. Once the Bloodlord's ability triggers, it will be destroyed at end of combat (after combat damage has been dealt) even if the other creature's power changes before then.
+- **Source flags:** [Scryfall](https://scryfall.com/card/roe/94/arrogant-bloodlord) · oracle_id `a35e1882-b878-49cf-a06c-be12a06d4977` · printing: ROE #94 (2010-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arrogant Outlaw
 
@@ -81,7 +94,9 @@
 - **Flavor text** (MID printing):
   > *The debased remnants of the Falkenrath bloodline prowl the passes near their ruined castles.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17940 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/84/arrogant-outlaw) · oracle_id `f202712d-7cd1-47aa-9664-526a884a1be2` · printing: MID #84 (2021-09-24) · [rulings](https://api.scryfall.com/cards/496a9d45-6197-44b6-b0fc-17aeae281b2f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-09-24* — Arrogant Outlaw's ability cares whether an opponent lost life this turn, not how their life total changed. For example, an opponent who gained 2 life and lost 1 life in the same turn still lost life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/84/arrogant-outlaw) · oracle_id `f202712d-7cd1-47aa-9664-526a884a1be2` · printing: MID #84 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arrogant Poet
 
@@ -93,7 +108,9 @@
 - **Flavor text** (STX printing):
   > *"I would be kinder to my peers, Professor, but I simply don't have any."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27993 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/63/arrogant-poet) · oracle_id `0b2e9571-0c28-4a8f-9ba7-0147b40290a7` · printing: STX #63 (2021-04-23) · [rulings](https://api.scryfall.com/cards/556a0816-83c5-41dc-8546-213b21e2cceb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-04-16* — You choose whether or not to pay 2 life as the ability resolves. Once you make that choice, no one can respond before Arrogant Poet gains flying.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/63/arrogant-poet) · oracle_id `0b2e9571-0c28-4a8f-9ba7-0147b40290a7` · printing: STX #63 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arrogant Vampire
 
@@ -106,6 +123,7 @@
   > *Charm and grace may hide a foul heart.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31028 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/por/79/arrogant-vampire) · oracle_id `5edfe083-391b-41ae-ac4d-d648042cfa5e` · printing: POR #79 (1997-05-01) · [rulings](https://api.scryfall.com/cards/e7342875-d49b-4fa7-a2fb-8dfc5e3d6e4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arrogant Wurm
@@ -120,7 +138,17 @@
   > *It's hard to be humble when the whole world is bite-size.*
 - **Keywords:** Madness, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25684 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/195/arrogant-wurm) · oracle_id `dc7f0c33-80ea-453e-a237-473f077f038e` · printing: VMA #195 (2014-06-16) · [rulings](https://api.scryfall.com/cards/2dd6977e-269a-4cd1-99ad-37846a0647a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2022-12-08* — A card with madness that's discarded counts as having been discarded even though it's put into exile rather than a graveyard. If it was discarded to pay a cost, that cost is still paid. Abilities that trigger when a card is discarded will still trigger.
+  - *2022-12-08* — A spell cast for its madness cost is put onto the stack like any other spell. It can be countered, copied, and so on. As it resolves, it's put onto the battlefield if it's a permanent card or into its owner's graveyard if it's an instant or sorcery card.
+  - *2022-12-08* — Cards are discarded in a Magic game only from a player's hand. Effects that put cards into a player's graveyard from anywhere else do not cause those cards to be discarded.
+  - *2022-12-08* — Casting a spell with madness ignores the timing rules based on the card's card type. For example, you can cast a sorcery with madness if you discard it during an opponent's turn.
+  - *2022-12-08* — If you choose not to cast a card with madness when the madness triggered ability resolves, it's put into your graveyard. Madness doesn't give you another chance to cast it later.
+  - *2022-12-08* — If you discard a card with madness to pay the cost of a spell or activated ability, that card's madness triggered ability (and the spell that card becomes, if you choose to cast it) will resolve before the spell or ability the discard paid for.
+  - *2022-12-08* — If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.
+  - *2022-12-08* — Madness works independently of why you're discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can't discard a card with madness just because you want to, though.
+  - *2022-12-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a madness cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/195/arrogant-wurm) · oracle_id `dc7f0c33-80ea-453e-a237-473f077f038e` · printing: VMA #195 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arrows of Justice
 
@@ -131,7 +159,10 @@
 - **Flavor text** (GTC printing):
   > *Archers from the Horizon Military Academy hone their skills by targeting pickpockets blocks away.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24471 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/211/arrows-of-justice) · oracle_id `46e311ef-c86e-4aad-8b42-ef0d68a90c2e` · printing: GTC #211 (2013-02-01) · [rulings](https://api.scryfall.com/cards/c64a15f4-6e2f-4479-95da-8805ce2091fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-01-24* — An “attacking creature” or “blocking creature” is one that has been declared as an attacker or blocker this combat, or one that was put onto the battlefield attacking or blocking this combat. Unless that creature leaves combat, it continues to be an attacking or blocking creature through the end of combat step, even if the player it was attacking has left the game, the planeswalker it was attacking has left combat, or the creature or creatures it was blocking have left combat, as appropriate.
+  - *2013-01-24* — Arrows of Justice may be cast during the end of combat step, after combat damage has been dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/211/arrows-of-justice) · oracle_id `46e311ef-c86e-4aad-8b42-ef0d68a90c2e` · printing: GTC #211 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arrow Storm
 
@@ -144,7 +175,10 @@
   > *First the thunder, then the rain.*
 - **Keywords:** Raid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23694 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/98/arrow-storm) · oracle_id `a0ce2f5a-9c0b-4801-9105-72f84d8a4a1f` · printing: KTK #98 (2014-09-26) · [rulings](https://api.scryfall.com/cards/c57534fb-2591-4003-aeec-6452faa4a759/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — Raid abilities care only that you attacked with a creature. It doesn't matter how many creatures you attacked with or which player, planeswalker, or battle those creatures attacked.
+  - *2024-11-08* — Raid abilities evaluate the entire turn to see if you attacked with a creature. That creature doesn't have to still be on the battlefield. Similarly, the player, planeswalker, or battle it attacked doesn't have to still be in the game or on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/98/arrow-storm) · oracle_id `a0ce2f5a-9c0b-4801-9105-72f84d8a4a1f` · printing: KTK #98 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arrow Volley Trap
 
@@ -154,4 +188,9 @@
   > If four or more creatures are attacking, you may pay {1}{W} rather than pay this spell's mana cost.
   > Arrow Volley Trap deals 5 damage divided as you choose among any number of target attacking creatures.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26568 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddn/71/arrow-volley-trap) · oracle_id `131dc114-cd48-43d9-93b3-88df85640e09` · printing: DDN #71 (2014-09-05) · [rulings](https://api.scryfall.com/cards/b8b3ea52-2338-4499-9100-c4be73cdfc32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2009-10-01* — Casting a Trap by paying its alternative cost doesn’t change its mana cost or mana value. The only difference is the cost you actually pay.
+  - *2009-10-01* — Effects that increase or reduce the cost to cast a Trap will apply to whichever cost you chose to pay.
+  - *2009-10-01* — You divide the damage as you cast Arrow Volley Trap, not as it resolves. Each target must be assigned at least 1 damage.
+  - *2009-10-01* — You may ignore a Trap’s alternative cost condition and simply cast it for its normal mana cost. This is true even if its alternative cost condition has been met.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddn/71/arrow-volley-trap) · oracle_id `131dc114-cd48-43d9-93b3-88df85640e09` · printing: DDN #71 (2014-09-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

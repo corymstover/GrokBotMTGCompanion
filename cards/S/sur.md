@@ -80,7 +80,10 @@
 - **Flavor text** (ZNR printing):
   > *"I've yet to discover the ruin that can keep me out."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17458 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/83/sure-footed-infiltrator) · oracle_id `e6108735-8370-4611-ad59-d7da7fd0323f` · printing: ZNR #83 (2020-09-25) · [rulings](https://api.scryfall.com/cards/0505053c-8a9c-43ed-b44a-b52c56ba4f77/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-09-25* — Once a creature has blocked Sure-Footed Infiltrator, activating its first ability won't cause it to become unblocked or remove that blocking creature from combat.
+  - *2020-09-25* — You can tap any other untapped Rogue you control, including one you haven't controlled continuously since the beginning of your most recent turn, to pay the cost of Sure-Footed Infiltrator's first ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/83/sure-footed-infiltrator) · oracle_id `e6108735-8370-4611-ad59-d7da7fd0323f` · printing: ZNR #83 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sureshot Sower
 
@@ -94,6 +97,7 @@
   > *Her specialized arrows turn targets to compost before they even hit the ground.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30782 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/115/sureshot-sower) · oracle_id `5bbc9d7d-91bd-4a58-8d19-f7be650720b7` · printing: FRA #115 (2026-10-02) · [rulings](https://api.scryfall.com/cards/b635389c-e286-4edb-80d1-23dbe4a18857/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sure Strike
@@ -105,6 +109,7 @@
 - **Flavor text** (FDN printing):
   > *"Everyone has a weak spot."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10376 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/209/sure-strike) · oracle_id `fb694e7e-f66e-4958-b6ed-aa74bc9ac43e` · printing: FDN #209 (2024-11-15) · [rulings](https://api.scryfall.com/cards/5de6a1e4-5c66-43e6-9f2a-2635bdab03f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surestrike Trident
@@ -116,7 +121,11 @@
   > Equip {4} ({4}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14235 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dst/147/surestrike-trident) · oracle_id `bf09b97b-9387-4b94-a3fc-00080881f052` · printing: DST #147 (2004-02-06) · [rulings](https://api.scryfall.com/cards/cfcb621d-5831-4b7c-b3e1-c321a6e10392/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-12-01* — Surestrike Trident grants an ability to the equipped creature.
+  - *2004-12-01* — The equipped creature’s controller chooses whether or not to activate the activated ability. It doesn’t matter who controls Surestrike Trident.
+  - *2004-12-01* — “Unattach Surestrike Trident” means just that — Surestrike Trident moves off the creature it was equipping and remains on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dst/147/surestrike-trident) · oracle_id `bf09b97b-9387-4b94-a3fc-00080881f052` · printing: DST #147 (2004-02-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surge Conductor
 
@@ -149,7 +158,11 @@
   > {4}{U}{U}: Draw three cards. Activate only if this creature is blue and only once.
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16452 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/81/surge-engine) · oracle_id `864d9db7-34ca-4440-8d6d-096f9eddedd4` · printing: BRO #81 (2022-11-18) · [rulings](https://api.scryfall.com/cards/12b9c9c5-e992-4f1c-a779-124176c3aade/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-10-14* — If Surge Engine loses defender in some way other than its first ability, its second ability may still be activated. Likewise, if it becomes blue in some way other than its second ability, its last ability may still be activated. Note that an effect that allows a creature to "attack as though it didn't have defender" doesn't actually cause it to lose defender.
+  - *2022-10-14* — If a Surge Engine whose last ability has been activated leaves the battlefield and comes back, it's a new object on the battlefield and its last ability can be activated again (once it's blue, of course).
+  - *2022-10-14* — Surge Engine's last ability can be activated only once per game, not once per turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/81/surge-engine) · oracle_id `864d9db7-34ca-4440-8d6d-096f9eddedd4` · printing: BRO #81 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surgehacker Mech
 
@@ -177,6 +190,7 @@
 - **Flavor text** (M19 printing):
   > *When it passes, waves touch the sky.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19738 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/77/surge-mare) · oracle_id `8342de86-5b11-486d-8012-f0f9d2ded8c4` · printing: M19 #77 (2018-07-13) · [rulings](https://api.scryfall.com/cards/9002d0f1-ff2c-4d1c-a7db-3252ef6bebbd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surge Node
@@ -189,7 +203,10 @@
 - **Flavor text** (2XM printing):
   > *Without a foe to focus on, the machine priests had time to indulge in new sciences.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17944 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/294/surge-node) · oracle_id `3b30f043-aa79-4262-b13f-6cd794b1920b` · printing: 2XM #294 (2020-08-07) · [rulings](https://api.scryfall.com/cards/743fc231-2ab3-42f1-9dd3-af42241229aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — Once Surge Node has run out of charge counters, it remains on the battlefield.
+  - *2020-08-07* — Surge Node can be the target of its own activated ability. Because it doesn't “move” a counter, the ability will remove a counter from Surge Node and then put one onto it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/294/surge-node) · oracle_id `3b30f043-aa79-4262-b13f-6cd794b1920b` · printing: 2XM #294 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surge of Brilliance
 
@@ -221,7 +238,10 @@
 - **Flavor text** (DTK printing):
   > *Though she stood alone, she struck with the force of an army.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30611 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/42/surge-of-righteousness) · oracle_id `5c9a2789-4b8c-4706-a95a-99561cd6d09c` · printing: DTK #42 (2015-03-27) · [rulings](https://api.scryfall.com/cards/114366f3-237f-4f96-b644-5bd82d97b18b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-02-25* — However, if the creature becomes an illegal target before Surge of Righteousness resolves, it won’t resolve and none of its effects will happen. You won’t gain life.
+  - *2015-02-25* — If Surge of Righteousness resolves but the creature isn’t destroyed (perhaps because it regenerated or it has indestructible), you’ll still gain 2 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/42/surge-of-righteousness) · oracle_id `5c9a2789-4b8c-4706-a95a-99561cd6d09c` · printing: DTK #42 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surge of Salvation
 
@@ -244,6 +264,7 @@
   > As an additional cost to cast this spell, discard a red or green card.
   > Target creature gains trample and gets +X/+0 until end of turn, where X is that creature's mana value.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29687 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/all/109/surge-of-strength) · oracle_id `bd3e55cf-ffca-402c-91ea-2420035a9dd1` · printing: ALL #109 (1996-06-10) · [rulings](https://api.scryfall.com/cards/96fff700-af02-4861-b7ed-be9950e69bf1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surge of Thoughtweft
@@ -255,7 +276,11 @@
 - **Flavor text** (LRW printing):
   > *Kithkin weave together their very thoughts, creating a depth of cooperation unknown to other races.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21770 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/43/surge-of-thoughtweft) · oracle_id `76aea8c6-3bab-45e9-afb4-65e5597bb2fa` · printing: LRW #43 (2007-10-12) · [rulings](https://api.scryfall.com/cards/e0b61fb2-11e5-45ae-873d-85f79f161950/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
+  - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
+  - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/43/surge-of-thoughtweft) · oracle_id `76aea8c6-3bab-45e9-afb4-65e5597bb2fa` · printing: LRW #43 (2007-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surge of Zeal
 
@@ -268,6 +293,7 @@
   > *—Savra*
 - **Keywords:** Radiance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25165 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/146/surge-of-zeal) · oracle_id `24dca209-9781-4bde-ad61-18c20e8ccbd8` · printing: RAV #146 (2005-10-07) · [rulings](https://api.scryfall.com/cards/b6c07fa6-b575-46f9-ab39-fb777d4b8acd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surgeon General Commander
@@ -282,7 +308,10 @@
   > *Likes: augmentation, fluffy animals, creative templating.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/und/72/surgeon-general-commander) · oracle_id `cd6f44b7-4e30-4728-b199-3d1479e7b27b` · printing: UND #72 (2020-02-29) · [rulings](https://api.scryfall.com/cards/b1e21568-5474-4406-ad54-9e9330e5ff5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-02-29* — Mutate is a keyword from the future! Unless you’re reading this after it’s been released, in which case it’s … &lt;spooky music>a keyword from the present!&lt;/spooky music>. But I suppose you could be reading this in a theoretical future in which the keyword was released, threatened to destroy Magic (as I do occasionally), and removed from the game, in which case it’s… &lt;spookier music>a keyword from the past!&lt;/spookier music>.
+  - *2020-02-29* — Surgeon Commander’s color identity is all five colors, thanks to the mana symbols in its rules text. It can be included only in five-color Commander decks. Creative templating, indeed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/und/72/surgeon-general-commander) · oracle_id `cd6f44b7-4e30-4728-b199-3d1479e7b27b` · printing: UND #72 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surgespanner
 
@@ -321,7 +350,14 @@
   > ({B/P} can be paid with either {B} or 2 life.)
   > Choose target card in a graveyard other than a basic land card. Search its owner's graveyard, hand, and library for any number of cards with the same name as that card and exile them. Then that player shuffles.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13717 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/94/surgical-extraction) · oracle_id `3bfa088c-9a47-4123-aee5-4de44e355bef` · printing: 2X2 #94 (2022-07-08) · [rulings](https://api.scryfall.com/cards/e15d76ac-1c23-4503-8225-375ac2bf2fb6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2011-06-01* — "Any number of cards" means just that. If you wish, you can choose to leave some or all of the cards with the same name as the targeted card, including that card, in the zone they're in.
+  - *2011-06-01* — A card with Phyrexian mana symbols in its mana cost is each color that appears in that mana cost, regardless of how that cost may have been paid.
+  - *2011-06-01* — As you cast a spell or activate an activated ability with one or more Phyrexian mana symbols in its cost, you choose how to pay for each Phyrexian mana symbol at the same time you would choose modes or choose a value for X.
+  - *2011-06-01* — If you're at 1 life or less, you can't pay 2 life.
+  - *2011-06-01* — Phyrexian mana is not a new color. Players can't produce Phyrexian mana.
+  - *2011-06-01* — To calculate the mana value of a card with Phyrexian mana symbols in its cost, count each Phyrexian mana symbol as 1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/94/surgical-extraction) · oracle_id `3bfa088c-9a47-4123-aee5-4de44e355bef` · printing: 2X2 #94 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surgical Precision
 
@@ -334,6 +370,7 @@
 - **Flavor text** (FRA printing):
   > *Vigorbloom battlemages love dueling. Opportunities to hurt sow opportunities to heal.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21711 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/22/surgical-precision) · oracle_id `0caccec3-4942-499a-9434-0c94389afcf8` · printing: FRA #22 (2026-10-02) · [rulings](https://api.scryfall.com/cards/d3acf176-ef02-4729-88c4-0f0dfbfdada4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surgical Skullbomb
@@ -346,7 +383,9 @@
 - **Flavor text** (ONE printing):
   > *It crackles with the intellect of a twisted genius.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13691 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/243/surgical-skullbomb) · oracle_id `6d364283-617a-4661-865d-abd9c304b2f9` · printing: ONE #243 (2023-02-10) · [rulings](https://api.scryfall.com/cards/98c2b2af-739f-413c-8c36-da6f78df0acb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-02-04* — If the target of Surgical Skullbomb's last ability isn't a legal target as the ability tries to resolve (probably because it has left the battlefield), you won't draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/243/surgical-skullbomb) · oracle_id `6d364283-617a-4661-865d-abd9c304b2f9` · printing: ONE #243 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surgical Suite // Hospital Room
 
@@ -387,6 +426,7 @@
   > Return target permanent to its owner's hand.
 - **Keywords:** Ripple
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32033 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/47/surging-aether) · oracle_id `060b1a76-22a4-48a5-a353-4d0501367956` · printing: CSP #47 (2006-07-21) · [rulings](https://api.scryfall.com/cards/bfba9fc2-8746-4693-bb75-01b5d78f7fee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surging Dementia
@@ -398,6 +438,7 @@
   > Target player discards a card.
 - **Keywords:** Ripple
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31835 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/72/surging-dementia) · oracle_id `dd7f46c2-98f7-46e6-92ce-51fa95d2f0c8` · printing: CSP #72 (2006-07-21) · [rulings](https://api.scryfall.com/cards/1eb7cb72-24f7-433b-9858-26009189daaa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surging Flame
@@ -409,6 +450,7 @@
   > Surging Flame deals 2 damage to any target.
 - **Keywords:** Ripple
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32077 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/99/surging-flame) · oracle_id `3c51b991-f6fa-44d2-81a3-0894939f3c22` · printing: CSP #99 (2006-07-21) · [rulings](https://api.scryfall.com/cards/9974a543-7429-458b-a24f-c84cbffbb54d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surging Might
@@ -421,6 +463,7 @@
   > Ripple 4 (When you cast this spell, you may reveal the top four cards of your library. You may cast spells with the same name as this spell from among those cards without paying their mana costs. Put the rest on the bottom of your library.)
 - **Keywords:** Enchant, Ripple
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32215 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/125/surging-might) · oracle_id `04647861-0023-432b-9b24-77264f11e470` · printing: CSP #125 (2006-07-21) · [rulings](https://api.scryfall.com/cards/aa51adee-b343-4a03-8fa0-0d86244db5b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surging Sentinels
@@ -433,6 +476,7 @@
   > Ripple 4 (When you cast this spell, you may reveal the top four cards of your library. You may cast spells with the same name as this spell from among those cards without paying their mana costs. Put the rest on the bottom of your library.)
 - **Keywords:** First strike, Ripple
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32169 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/20/surging-sentinels) · oracle_id `0b98ae2a-56ac-485d-b064-a06e1e8d4055` · printing: CSP #20 (2006-07-21) · [rulings](https://api.scryfall.com/cards/264d120a-d7e2-4b9e-ac85-c66e976c577b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surly Badgersaur
@@ -462,6 +506,7 @@
 - **Flavor text** (ECL printing):
   > *"I don't care what the others say. Luck left us during the Invasion. The only thing we can trust now is our own grit."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20645 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/196/surly-farrier) · oracle_id `ef67c170-68aa-4ada-8cee-261a4dbb1b5d` · printing: ECL #196 (2026-01-23) · [rulings](https://api.scryfall.com/cards/056f7f51-18a9-4d80-8928-decaf4d12c0d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surprise Deployment
@@ -472,7 +517,9 @@
   > Cast this spell only during combat.
   > You may put a nonwhite creature card from your hand onto the battlefield. At the beginning of the next end step, return that creature to your hand. (Return it only if it's on the battlefield.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29120 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pls/18/surprise-deployment) · oracle_id `61a1748c-e772-4338-9edd-720cd5d2fc12` · printing: PLS #18 (2001-02-05) · [rulings](https://api.scryfall.com/cards/9a26148b-b981-4af5-995b-52b1426737e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-05-01* — Putting the card onto the battlefield is optional. When the ability resolves, you can choose not to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pls/18/surprise-deployment) · oracle_id `61a1748c-e772-4338-9edd-720cd5d2fc12` · printing: PLS #18 (2001-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surprise, Nerd!
 
@@ -485,6 +532,7 @@
   > *Designed by players at MagicCon Chicago 2025.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB05b/surprise-nerd!) · oracle_id `9e92ea55-7c9b-4b3d-b579-d3a76259c74a` · printing: UNK #RB05b (2025-06-20) · [rulings](https://api.scryfall.com/cards/d2ed646d-8511-4592-8410-80734ae256e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surprise Party
@@ -495,7 +543,14 @@
   > When this enchantment enters, yell "Surprise!" and put onto the battlefield any number of printed Clown Robot tokens that aren't touching each other, that you hid on the battlefield before you cast this enchantment, and that weren't spotted by an opponent before you cast this enchantment.
   > Robots you control get +1/+0 and have vigilance.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31491 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/29/surprise-party) · oracle_id `889aa070-ab8b-42fa-a17f-742b90a35100` · printing: UNF #29 (2022-10-07) · [rulings](https://api.scryfall.com/cards/33dcfb90-8720-4a85-ab5b-169668871bb2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-10-07* — The tokens can be hidden under other cards or objects, face up or face down, as long as they aren’t touching each other. No stacks o’ Clowns.
+  - *2022-10-07* — You can’t break other rules while hiding the tokens. For example, even if we interpreted your library as part of the battlefield for this purpose, slipping one into the card sleeve of a card in your library during a search effectively marks your deck, and that’s not allowed.
+  - *2022-10-07* — You must hide the tokens while the game is in progress.
+  - *2022-10-07* — Your opponents may report that they’ve spotted a Robot Clown token even if they can’t literally see it, provided they can identify where it is. That is, you can’t just put your hand over it and claim that can’t see it. Well, you can claim that, and it might be true, but it didn’t work for Entirely Normal Armchair and it won’t work this time either.
+  - *2022-10-07* — You’re allowed to hide the tokens anywhere on the battlefield, broadly interpreted as the table where your game is taking place.
+  - *2022-10-07* — “Printed Clown Robot tokens” are official printed creature tokens which are both Clowns and Robots. You can use the ones that appear in some Unfinity booster packs, or ones from any other set that happens to include tokens that are both Clowns and Robots.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/29/surprise-party) · oracle_id `889aa070-ab8b-42fa-a17f-742b90a35100` · printing: UNF #29 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surrak and Goreclaw
 
@@ -523,6 +578,7 @@
 - **Flavor text** (DDO printing):
   > *Surrakar grab things they \*don't\* want.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30765 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddo/43/surrakar-banisher) · oracle_id `d48fd4b7-b60c-4932-abed-a8df1184db25` · printing: DDO #43 (2015-02-27) · [rulings](https://api.scryfall.com/cards/bd577743-43af-4215-8585-52f714694c6e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surrakar Marauder
@@ -534,7 +590,13 @@
   > Landfall — Whenever a land you control enters, this creature gains intimidate until end of turn. (It can't be blocked except by artifact creatures and/or creatures that share a color with it.)
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29422 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/zen/113/surrakar-marauder) · oracle_id `23c52252-1e65-4e04-98d3-0ac06a565016` · printing: ZEN #113 (2009-10-02) · [rulings](https://api.scryfall.com/cards/28a7a1af-14f2-4e22-bd27-9207e837d5fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2009-10-01* — If an attacking creature has intimidate, what colors it is matters only as the defending player declares blockers. Once it's blocked, changing its colors won't change that.
+  - *2009-10-01* — Intimidate looks at the current colors of a creature that has it. Normally, if Surrakar Marauder has intimidate, it can't be blocked except by artifact creatures and/or black creatures. If it's turned white, then it can't be blocked except by artifact creatures and/or white creatures.
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/zen/113/surrakar-marauder) · oracle_id `23c52252-1e65-4e04-98d3-0ac06a565016` · printing: ZEN #113 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surrakar Spellblade
 
@@ -545,7 +607,11 @@
   > Whenever you cast an instant or sorcery spell, you may put a charge counter on this creature.
   > Whenever this creature deals combat damage to a player, you may draw X cards, where X is the number of charge counters on it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17387 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/60/surrakar-spellblade) · oracle_id `e87813a3-893d-4416-9263-2ea2e3140490` · printing: MM2 #60 (2015-05-22) · [rulings](https://api.scryfall.com/cards/a0c26b28-b542-41d4-bfe0-222400653ae9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2010-06-15* — If Surrakar Spellblade leaves the battlefield after its second ability triggers but before it resolves, its last existence on the battlefield is checked to determine how many charge counters were on it.
+  - *2010-06-15* — If you cast an instant or sorcery spell, Surrakar Spellblade’s first ability triggers and goes on the stack on top of it. The ability will resolve before the spell does.
+  - *2010-06-15* — When Surrakar Spellblade’s second ability resolves, you either draw a card for each charge counter on it or you draw no cards at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/60/surrakar-spellblade) · oracle_id `e87813a3-893d-4416-9263-2ea2e3140490` · printing: MM2 #60 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surrak Dragonclaw
 
@@ -607,7 +673,22 @@
   > Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
 - **Keywords:** Rebound
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19614 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/127/surreal-memoir) · oracle_id `fa482ded-b24c-4f9e-948e-d0620e907b8b` · printing: 2X2 #127 (2022-07-08) · [rulings](https://api.scryfall.com/cards/e6c10004-eaef-4b19-828f-a0f9bde82984/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2010-06-15* — All players get to see which card you chose at random.
+  - *2010-06-15* — At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card's type (if it's a sorcery) are ignored. Other restrictions are not (such as the one from Rule of Law).
+  - *2010-06-15* — If a replacement effect would cause a spell with rebound that you cast from your hand to be put somewhere else instead of your graveyard (such as Leyline of the Void might), you choose whether to apply the rebound effect or the other effect as the spell resolves.
+  - *2010-06-15* — If a spell with rebound that you cast from your hand doesn't resolve for any reason (due being countered by a spell like Cancel, or because all of its targets are illegal), rebound has no effect. The spell is simply put into your graveyard. You won't get to cast it again next turn.
+  - *2010-06-15* — If you are unable to cast a card from exile this way, or you choose not to, nothing happens when the delayed triggered ability resolves. The card remains exiled for the rest of the game, and you won't get another chance to cast the card. The same is true if the ability is countered (due to Stifle, perhaps).
+  - *2010-06-15* — If you cast a card from exile this way, it will go to your graveyard when it resolves, fails to resolve, or is countered. It won't go back to exile.
+  - *2010-06-15* — If you cast a spell with rebound from anywhere other than your hand (such as from your graveyard due to Sins of the Past, from your library due to cascade, or from your opponent's hand due to Sen Triplets), rebound won't have any effect. If you do cast it from your hand, rebound will work regardless of whether you paid its mana cost (for example, if you cast it from your hand due to Maelstrom Archangel).
+  - *2010-06-15* — If you cast a spell with rebound from your hand and it resolves, it isn't put into your graveyard. Rather, it's exiled directly from the stack. Effects that care about cards being put into your graveyard won't do anything.
+  - *2010-06-15* — If you have multiple instant cards in your graveyard with the same name, and one of them is being targeted by another spell on the stack or is enchanted (with Spellweaver Volute, for example), you must differentiate them so you know which one (if any) is chosen at random. In that case, it may be better to use dice or another method that allows you to differentiate between the instant cards to choose one at random.
+  - *2010-06-15* — If you have only one instant card in your graveyard as Surreal Memoir resolves, that's the one you'll return to your hand.
+  - *2010-06-15* — If you're playing a format involving cards printed earlier than the _Urza's Saga_ set, you may not reorder your graveyard. In this case, you need to be more careful when selecting an instant card at random, perhaps by using dice, writing the names of the instant cards on slips of paper and choosing one of them randomly, or carefully noting the existing graveyard order so you can reestablish it after performing the method suggested above, for example.
+  - *2010-06-15* — If you're playing a format involving only cards from the _Urza's Saga_(TM) set and later, you may change the order of your graveyard at any time. That means the easiest way to choose an instant card at random from your graveyard is to take all the instant cards in your graveyard, turn them face down, shuffle them, and pick a card. Then you just put the rest back.
+  - *2010-06-15* — Rebound will have no effect on copies of spells because you don't cast them from your hand.
+  - *2010-06-15* — Surreal Memoir isn't targeted. You don't choose an instant card at random from your graveyard until it resolves. Once you randomly select a card, it's too late for players to respond.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/127/surreal-memoir) · oracle_id `fa482ded-b24c-4f9e-948e-d0620e907b8b` · printing: 2X2 #127 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surrounded by Orcs
 
@@ -617,7 +698,15 @@
   > Amass Orcs 3, then target player mills X cards, where X is the amassed Army's power. (To amass Orcs 3, put three +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.)
 - **Keywords:** Amass, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11048 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/73/surrounded-by-orcs) · oracle_id `65c5e120-7a3d-475f-9bb2-8ddb5062e4ba` · printing: LTR #73 (2023-06-23) · [rulings](https://api.scryfall.com/cards/1c50d4c8-2311-4394-b73f-389eb81e898b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — Amass Zombies works the same way, except you create a 0/0 black Zombie Army creature token if you don't control an Army. If the Army creature you chose isn't already a Zombie, it becomes a Zombie in addition to its other types. By combining cards with amass Orcs and amass Zombies, you can end up with an Orc Zombie Army.
+  - *2023-06-16* — Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."
+  - *2023-06-16* — If you don't control an Army, the Orc Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Orcs, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't an Orc, it becomes an Orc in addition to its other types.
+  - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
+  - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/73/surrounded-by-orcs) · oracle_id `65c5e120-7a3d-475f-9bb2-8ddb5062e4ba` · printing: LTR #73 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surtland Elementalist
 
@@ -628,7 +717,12 @@
   > As an additional cost to cast this spell, reveal a Giant card from your hand or pay {2}.
   > Whenever this creature attacks, you may cast an instant or sorcery spell from your hand without paying its mana cost.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17581 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/375/surtland-elementalist) · oracle_id `b1a3b2ab-d9f8-4a0a-b2e2-aaa9989b2e41` · printing: KHM #375 (2021-02-05) · [rulings](https://api.scryfall.com/cards/1c9e7fdc-676f-4901-83ff-bfea3a96d937/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-02-05* — A Giant card is a creature card with the creature type Giant. Presumably, it will be the same size as all your other cards.
+  - *2021-02-05* — If the spell has {X} in its mana cost, you must choose 0 as the value of X.
+  - *2021-02-05* — If you cast a spell using Surtland Elementalist’s triggered ability, you do so as part of the resolution of that ability. You can’t wait to cast the spell later in the turn. Timing permissions based on the card’s type are ignored, and the spell will resolve before blockers are declared.
+  - *2021-02-05* — If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/375/surtland-elementalist) · oracle_id `b1a3b2ab-d9f8-4a0a-b2e2-aaa9989b2e41` · printing: KHM #375 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surtland Flinger
 
@@ -640,7 +734,10 @@
 - **Flavor text** (KHM printing):
   > *Victory before camaraderie.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14195 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/377/surtland-flinger) · oracle_id `f701ada1-e9e1-42ce-9a62-c11bcec03da7` · printing: KHM #377 (2021-02-05) · [rulings](https://api.scryfall.com/cards/4a628052-8175-495f-bfab-eeb3a0388e4e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-02-05* — Surtland Flinger’s triggered ability goes on the stack without a target. While that ability is resolving, you may sacrifice another creature. When you do, the reflexive triggered ability triggers and you pick a target to be dealt damage. This is different from effects that say “If you do” in that players may take actions after you’ve sacrificed the creature but before damage is dealt.
+  - *2021-02-05* — Use the power of the creature as it was sacrificed to determine how much damage is dealt. Damage will be dealt before blockers are declared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/377/surtland-flinger) · oracle_id `f701ada1-e9e1-42ce-9a62-c11bcec03da7` · printing: KHM #377 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surtland Frostpyre
 
@@ -652,6 +749,7 @@
   > {2}{U}{U}{R}, {T}, Sacrifice this land: Scry 2. This land deals 2 damage to each creature. Activate only as a sorcery.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18008 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/271/surtland-frostpyre) · oracle_id `965aa666-3919-4053-8584-b773bdd54f0b` · printing: KHM #271 (2021-02-05) · [rulings](https://api.scryfall.com/cards/0b02149a-4a8f-4be9-9944-3d216248b549/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surtr, Fiery Jötun
@@ -685,7 +783,11 @@
   > *Thopters don't take breaks, and neither does he.*
 - **Keywords:** Collect evidence
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28386 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/73/surveillance-monitor) · oracle_id `9be5a350-c38e-425f-9d6a-8eb111132a89` · printing: MKM #73 (2024-02-09) · [rulings](https://api.scryfall.com/cards/703b874d-6739-4063-9891-e9c040dd9618/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-02-02* — If you can't exile enough cards to meet or exceed the required mana value, you can't choose to collect evidence at all.
+  - *2024-02-02* — Once you've announced that you're casting a spell, players can't take actions until you've finished doing so. Notably, opponents can't try to remove cards from your graveyard to stop you from collecting evidence.
+  - *2024-02-02* — Surveillance Monitor's last ability triggers whenever you collect evidence for any reason, not just when you collect evidence with its first ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/73/surveillance-monitor) · oracle_id `9be5a350-c38e-425f-9d6a-8eb111132a89` · printing: MKM #73 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surveillance Phantasm
 
@@ -698,6 +800,7 @@
   > {3}{U}: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
 - **Keywords:** Flying, Surveil, Vigilance, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24984 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/42/surveillance-phantasm) · oracle_id `b97648b7-ae98-45c9-8f0f-a52d6faf2d2d` · printing: FRA #42 (2026-10-02) · [rulings](https://api.scryfall.com/cards/9df8a06d-c7de-49af-8c01-06dca3dfef4b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surveillance Room
@@ -727,6 +830,7 @@
   > *Their natural curiosity, combined with a knack for trespassing, makes sprites excellent spies.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22463 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddh/43/surveilling-sprite) · oracle_id `449142ff-7190-471b-99a5-f77095a827dd` · printing: DDH #43 (2011-09-02) · [rulings](https://api.scryfall.com/cards/97265692-3b45-47f4-9e9f-e78751240007/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Survey Mechan
@@ -740,7 +844,12 @@
   > {10}, Sacrifice this creature: It deals 3 damage to any target. Target player draws three cards and gains 3 life. This ability costs {X} less to activate, where X is the number of differently named lands you control.
 - **Keywords:** Flying, Hexproof
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10741 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/245/survey-mechan) · oracle_id `53745903-de8f-42cf-a949-842e5831de30` · printing: EOE #245 (2025-08-01) · [rulings](https://api.scryfall.com/cards/9b4278ea-6cd8-45ad-b024-daf3dedd29e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-07-25* — Once you announce you’re activating an ability, no player may take actions until after the ability has been paid for. Notably, opponents can’t try to remove lands you control from the battlefield at that time.
+  - *2025-07-25* — Once you determine the cost to activate Survey Mechan’s last ability, you may activate mana abilities to pay that cost. If the number of differently named lands you control changes while activating mana abilities (probably because you sacrificed one or more lands), the cost to activate the ability remains what you previously determined.
+  - *2025-07-25* — To determine the number of differently named lands you control, count each land you control once, but only if its English name isn’t exactly the same as another land you’ve already counted this way.
+  - *2025-07-25* — Use the sacrificed creature’s power as it last existed on the battlefield to determine how many cards to draw with Susur Secundi’s last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/245/survey-mechan) · oracle_id `53745903-de8f-42cf-a949-842e5831de30` · printing: EOE #245 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surveyor's Scope
 
@@ -763,7 +872,9 @@
 - **Flavor text** (RTR printing):
   > *Goblins and architects seldom get along.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24245 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/107/survey-the-wreckage) · oracle_id `35df2d01-2f9f-49a7-8fa1-cfaa52e5c7b6` · printing: RTR #107 (2012-10-05) · [rulings](https://api.scryfall.com/cards/a6e750f9-ad86-4d60-98a3-78d11cd52cd1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-10-01* — If the target land is an illegal target when Survey the Wreckage tries to resolve, it won’t resolve and none of its effects will happen. You won’t get the creature token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/107/survey-the-wreckage) · oracle_id `35df2d01-2f9f-49a7-8fa1-cfaa52e5c7b6` · printing: RTR #107 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Survival Cache
 
@@ -774,7 +885,17 @@
   > Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
 - **Keywords:** Rebound
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16762 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/34/survival-cache) · oracle_id `5fb8be5a-3666-4680-84e2-341cb269df07` · printing: IMA #34 (2017-11-17) · [rulings](https://api.scryfall.com/cards/2c7b8d1e-a144-432e-b3ac-63c37be55191/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2010-06-15* — At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card’s type (if it’s a sorcery) are ignored. Other restrictions are not (such as the one from Rule of Law).
+  - *2010-06-15* — If a replacement effect would cause a spell with rebound that you cast from your hand to be put somewhere else instead of your graveyard (such as Leyline of the Void might), you choose whether to apply the rebound effect or the other effect as the spell resolves.
+  - *2010-06-15* — If a spell with rebound that you cast from your hand doesn’t resolve for any reason (due being countered by a spell like Cancel, or because all of its targets are illegal), rebound has no effect. The spell is simply put into your graveyard. You won’t get to cast it again next turn.
+  - *2010-06-15* — If you are unable to cast a card from exile this way, or you choose not to, nothing happens when the delayed triggered ability resolves. The card remains exiled for the rest of the game, and you won’t get another chance to cast the card. The same is true if the ability is countered (due to Stifle, perhaps).
+  - *2010-06-15* — If you cast a card from exile this way, it will go to your graveyard when it resolves, fails to resolve, or is countered. It won’t go back to exile.
+  - *2010-06-15* — If you cast a spell with rebound from anywhere other than your hand (such as from your graveyard due to Sins of the Past, from your library due to cascade, or from your opponent’s hand due to Sen Triplets), rebound won’t have any effect. If you do cast it from your hand, rebound will work regardless of whether you paid its mana cost (for example, if you cast it from your hand due to Maelstrom Archangel).
+  - *2010-06-15* — If you cast a spell with rebound from your hand and it resolves, it isn’t put into your graveyard. Rather, it’s exiled directly from the stack. Effects that care about cards being put into your graveyard won’t do anything.
+  - *2010-06-15* — In a Two-Headed Giant game, anything that cares about your life total checks the life total of your team. For example, say that your team has 10 life and your opponent’s team has 11 life when you cast Survival Cache. You’ll gain 2 life, so your team’s life total becomes 12. Since your life total (12) is greater than an opponent’s life total (11), you’ll draw a card.
+  - *2010-06-15* — Rebound will have no effect on copies of spells because you don’t cast them from your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/34/survival-cache) · oracle_id `5fb8be5a-3666-4680-84e2-341cb269df07` · printing: IMA #34 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Survival of the Fittest
 
@@ -798,7 +919,12 @@
   > *The longest nights are measured not in hours, but in heartbeats.*
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21751 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/41/survive-the-night) · oracle_id `e8fcc7ff-6274-4130-a3a5-99f545eeee30` · printing: SOI #41 (2016-04-08) · [rulings](https://api.scryfall.com/cards/5cb4a0bc-196a-466b-a704-377f5c7eb5b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-04-08* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2016-04-08* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2016-04-08* — You can't cast a spell without choosing legal targets. If all of those targets become illegal, the spell doesn't resolve and you won't investigate.
+  - *2016-04-08* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/41/survive-the-night) · oracle_id `e8fcc7ff-6274-4130-a3a5-99f545eeee30` · printing: SOI #41 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Survivor of Korlis
 
@@ -812,6 +938,7 @@
   > *At first, the merchant state of Korlis saw no need to involve itself in the conflict between Yotia and the Fallaji. Mishra's dragon engines changed that.*
 - **Keywords:** First strike, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25153 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/28/survivor-of-korlis) · oracle_id `ca7a25f4-c280-48b8-9e04-b15f4c13e569` · printing: BRO #28 (2022-11-18) · [rulings](https://api.scryfall.com/cards/817bcc8d-a5b7-448c-a3eb-825dc65944ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Survivor of the Unseen
@@ -824,7 +951,10 @@
   > {T}: Draw two cards, then put a card from your hand on top of your library.
 - **Keywords:** Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26215 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/csp/48/survivor-of-the-unseen) · oracle_id `ea96c8c6-b77b-4fc0-8b11-6b31e1ed9554` · printing: CSP #48 (2006-07-21) · [rulings](https://api.scryfall.com/cards/8a28c9cb-ae41-4f9c-b3f6-151ef95c81b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2006-07-15* — If you don’t draw a card because all the draws were replaced (with dredge, for example), you still have to put a card from your hand on top of your library.
+  - *2008-10-01* — Paying cumulative upkeep is always optional. If it’s not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can’t be made. For example, if a permanent with “cumulative upkeep {1}” has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either pay {4} or sacrifice the permanent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/csp/48/survivor-of-the-unseen) · oracle_id `ea96c8c6-b77b-4fc0-8b11-6b31e1ed9554` · printing: CSP #48 (2006-07-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Survivors' Bond
 
@@ -837,6 +967,7 @@
 - **Flavor text** (IKO printing):
   > *"And what did we learn? Never taunt a porcuparrot!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19808 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/172/survivors-bond) · oracle_id `ff53c3a0-988a-40a4-b5f9-e5a4b634f5eb` · printing: IKO #172 (2020-04-24) · [rulings](https://api.scryfall.com/cards/530ff2a1-6447-4653-a661-d9a39156d6fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Survivors' Encampment
@@ -865,4 +996,16 @@
   > • RadAway — Target player loses all rad counters. Sacrifice this artifact.
 - **Keywords:** Stimpak, Food, RadAway, Fancy Lads Snack Cakes
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13469 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/144/survivors-med-kit) · oracle_id `fa08400f-b7ca-4c5c-b7ca-a6583b783878` · printing: PIP #144 (2024-03-08) · [rulings](https://api.scryfall.com/cards/a2f30a39-aad3-45da-8f03-50b1d1806b00/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2024-03-08* — Any effects (such as proliferate) that interact with counters a player gets, has, or loses can interact with rad counters.
+  - *2024-03-08* — If a player has fewer cards remaining in their library than the number of rad counters they have when the triggered ability resolves, they'll mill as many cards as they can.
+  - *2024-03-08* — In a game using the shared team turns option, such as an Archenemy or Two-Headed Giant game, the inherent triggered ability associated with rad counters triggers once for each player on the active team that has rad counters. Each instance of that ability is controlled by one of those players.
+  - *2024-03-08* — Keep track of how many rad counters each player has. Potential ways to track this include writing them down on paper or using dice, but any method that is clear and mutually agreeable is fine.
+  - *2024-03-08* — Rad counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-03-08* — Rad counters don't go away as steps, phases, or turns end. They only go away when an effect instructs a player to remove rad counters from themselves.
+  - *2024-03-08* — The cards are milled all at once, which means abilities that trigger "whenever one or more nonland cards are milled" will trigger exactly once as long as at least one nonland card was milled.
+  - *2024-03-08* — There is an inherent triggered ability associated with having rad counters. This triggered ability has no source and is controlled by the active player. The full text of this ability is "At the beginning of the precombat main phase of a player with rad counters, that player mills cards equal to the number of rad counters they have. For each nonland card milled this way, that player loses 1 life and removes one rad counter from themselves."
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/144/survivors-med-kit) · oracle_id `fa08400f-b7ca-4c5c-b7ca-a6583b783878` · printing: PIP #144 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

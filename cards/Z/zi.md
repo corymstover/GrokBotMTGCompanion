@@ -37,7 +37,14 @@
   > Blitz {2}{B}{R}{G}
 - **Keywords:** Blitz, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12205 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/232/ziatoras-envoy) · oracle_id `93fe1d5b-3ab3-431a-9d78-175550ba9d43` · printing: SNC #232 (2022-04-29) · [rulings](https://api.scryfall.com/cards/ba39154c-aace-4d55-a3ad-7c9eb717ed2b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-04-29* — If a creature enters the battlefield as a copy of or becomes a copy of a creature whose blitz cost was paid, the copy won't have haste, won't be sacrificed, and its controller won't draw a card when it dies.
+  - *2022-04-29* — If you choose to pay the blitz cost rather than the mana cost, you're still casting the spell. It goes on the stack and can be responded to and countered. You can cast a creature spell for its blitz cost only if you could cast that creature spell. Most of the time, this means during your main phase when the stack is empty.
+  - *2022-04-29* — If you pay the blitz cost to cast a creature spell, that permanent will be sacrificed only if it's still on the battlefield when that triggered ability resolves. If it dies or goes to another zone before then, it will stay where it is.
+  - *2022-04-29* — The triggered ability that lets its controller draw a card triggers when it dies for any reason, not just when you sacrifice it during the end step.
+  - *2022-04-29* — You don't have to attack with the creature with blitz unless another ability says you do.
+  - *2022-04-29* — “If you don't” in the second ability refers to whether you played a land or cast a spell from the top of your library, not just whether or not you cast a spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/232/ziatoras-envoy) · oracle_id `93fe1d5b-3ab3-431a-9d78-175550ba9d43` · printing: SNC #232 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ziatora's Proving Ground
 
@@ -110,7 +117,12 @@
 - **Oracle text:**
   > At the beginning of your end step, if a land entered the battlefield under your control this turn and you control a prime number of lands, create Primo, the Indivisible, a legendary 0/0 green and blue Fractal creature token, then put that many +1/+1 counters on it. (2, 3, 5, 7, 11, 13, 17, 19, 23, 29, and 31 are prime numbers.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11732 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/340/zimone-all-questioning) · oracle_id `6c044dd1-8938-4d62-a7b2-e2298de08f70` · printing: SOC #340 (2026-04-24) · [rulings](https://api.scryfall.com/cards/ca09bb5f-feab-4754-ac6b-3f06327d3fe9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-09-20* — If a land hasn't entered the battlefield under your control during your turn by the time your end step begins, Zimone's ability won't trigger at all. You won't be able to put a land onto the battlefield under your control during your end step in time to have the ability trigger.
+  - *2024-09-20* — If you don't control a prime number of lands as Zimone's ability tries to resolve, it won't resolve.
+  - *2024-09-20* — In case you do end up with more than 31 lands, the remaining prime numbers below 100 are 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, and 97.
+  - *2024-09-20* — There are a few more prime numbers, but we couldn't fit them all on the card. (Some of them would take up more room than we have in the text box by themselves, but you probably won't control that many lands.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/340/zimone-all-questioning) · oracle_id `6c044dd1-8938-4d62-a7b2-e2298de08f70` · printing: SOC #340 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zimone and Dina
 
@@ -121,7 +133,10 @@
   > Whenever you draw your second card each turn, target opponent loses 2 life and you gain 2 life.
   > {T}, Sacrifice another creature: Draw a card. You may put a land card from your hand onto the battlefield tapped. If you control eight or more lands, repeat this process once.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10248 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/257/zimone-and-dina) · oracle_id `5bc66b18-22ac-4138-b527-fa711116e298` · printing: MOM #257 (2023-04-21) · [rulings](https://api.scryfall.com/cards/bf2af874-1052-4cad-90ed-d80e49d4c68c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-04-14* — For the activated ability, repeating the process means the entire effect, but not the cost. You don’t have to (and, in fact, can’t) sacrifice another creature. You’ll draw another card, then you may put another land card from your hand onto the battlefield tapped. As this is your second time through the process, the ability will finish resolving.
+  - *2023-04-14* — Zimone and Dina doesn’t need to have been under your control when the first card is drawn for its ability to trigger. As long as you control it when you draw your second card in a turn, that ability will trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/257/zimone-and-dina) · oracle_id `5bc66b18-22ac-4138-b527-fa711116e298` · printing: MOM #257 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zimone, Infinite Analyst
 
@@ -210,6 +225,7 @@
 - **Oracle text:**
   > Look at the top five cards of your library. You may reveal up to two creature and/or land cards from among them, then put the rest on the bottom of your library in a random order. Put all land cards revealed this way onto the battlefield tapped and put all creature cards revealed this way into your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13898 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/169/zimones-experiment) · oracle_id `5faa9e54-1cc4-48c0-bbfa-a495087c36d6` · printing: SOS #169 (2026-04-24) · [rulings](https://api.scryfall.com/cards/a6597852-4267-4ea6-a391-f927e4833be2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zimone's Homework
@@ -220,6 +236,7 @@
   > At the beginning of your end step, if your life total is on the lazy caterer's sequence, create a Food token. If it's a Fibonacci number, create a 0/0 green and blue Fractal creature token, then put a +1/+1 counter on each Fractal you control. If it's a square number, put three +1/+1 counters on each creature you control whose power and toughness are equal. (You'll want to look these up.)
 - **Keywords:** Food
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ12b/zimones-homework) · oracle_id `6998608e-a9bd-48a5-bca3-665dbb0acd7e` · printing: UNK #RZ12b (2024-10-25) · [rulings](https://api.scryfall.com/cards/29f75d69-de91-4a59-8c6e-5968136c26d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zimone's Hypothesis
@@ -300,4 +317,7 @@
 - **Oracle text:**
   > {1}{R}{R}, {T}: Search your library for a Dragon permanent card, put that card onto the battlefield, then shuffle. That Dragon gains haste until end of turn. Exile it at the beginning of the next end step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18541 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/mir/204/zirilan-of-the-claw) · oracle_id `3aeb28ac-8ed2-4a90-a631-d84361ac6acc` · printing: MIR #204 (1996-10-08) · [rulings](https://api.scryfall.com/cards/a105b7f4-c93b-4b54-acf8-7212907d9cd6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to.
+  - *2009-10-01* — If the Dragon is put onto the battlefield and then phases out, the “exile it” ability will still apply. It will trigger at the beginning of the next End step and exile the Dragon if it has phased back in. If the Dragon is still phased out, then it cannot be exiled so ability won’t do anything.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mir/204/zirilan-of-the-claw) · oracle_id `3aeb28ac-8ed2-4a90-a631-d84361ac6acc` · printing: MIR #204 (1996-10-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

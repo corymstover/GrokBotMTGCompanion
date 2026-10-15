@@ -48,6 +48,7 @@
 - **Flavor text** (2XM printing):
   > *If an elf can dream it, a dwarf can build it, and a gremlin can eat it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25786 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/143/salivating-gremlins) · oracle_id `4766f232-8275-4256-b756-8dd5c5e825a3` · printing: 2XM #143 (2020-08-07) · [rulings](https://api.scryfall.com/cards/0cbec0d9-42b4-4aff-8d55-0721c8911de3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sally Pride, Lioness Leader
@@ -61,7 +62,9 @@
 - **Flavor text** (TMT printing):
   > *"I wanna make things better for everyone. No more squalor. No more fear."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12543 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/24/sally-pride-lioness-leader) · oracle_id `b529f6b0-c6b2-4eb3-bb48-178e1eda75f3` · printing: TMT #24 (2026-03-06) · [rulings](https://api.scryfall.com/cards/bcd8ee6b-7142-4548-8b7a-691a36411851/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-01-27* — The value of X is calculated only once, as Sally Pride's first ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/24/sally-pride-lioness-leader) · oracle_id `b529f6b0-c6b2-4eb3-bb48-178e1eda75f3` · printing: TMT #24 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sally Sparrow
 
@@ -73,7 +76,9 @@
   > Whenever one or more other creatures you control leave the battlefield, investigate. This ability triggers only once each turn. (Create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.")
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14463 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/155/sally-sparrow) · oracle_id `5c924f9f-84e2-4051-ae18-0c2cc57cf464` · printing: WHO #155 (2023-10-13) · [rulings](https://api.scryfall.com/cards/b33354a5-d99a-46dd-8715-34dbc5f0ec3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-10-13* — If Sally Sparrow leaves the battlefield at the same time as the other creatures, its last ability will trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/155/sally-sparrow) · oracle_id `5c924f9f-84e2-4051-ae18-0c2cc57cf464` · printing: WHO #155 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saltblast
 
@@ -84,6 +89,7 @@
 - **Flavor text** (TSR printing):
   > *Dominaria erodes with each passing gust.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28836 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/39/saltblast) · oracle_id `a6a9776b-87f4-4a08-8074-d49fbbe417ae` · printing: TSR #39 (2021-03-19) · [rulings](https://api.scryfall.com/cards/61475a0c-f33a-43a7-937c-5a63fc8a54b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saltcrusted Steppe
@@ -95,6 +101,7 @@
   > {1}, {T}: Put a storage counter on this land.
   > {1}, Remove X storage counters from this land: Add X mana in any combination of {G} and/or {W}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12703 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/283/saltcrusted-steppe) · oracle_id `021e4165-2f02-4bd4-86ca-cb7bf4c9e23d` · printing: TSR #283 (2021-03-19) · [rulings](https://api.scryfall.com/cards/f4d757f1-9398-494f-9a24-b01c5c8c6db5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saltfield Recluse
@@ -107,6 +114,7 @@
 - **Flavor text** (TSR printing):
   > *He remembers a past of light and healing. But he lives the bitter present—parching salt, scouring wind, and the withering heat of the desert.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30295 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/40/saltfield-recluse) · oracle_id `c87e056a-6067-49e6-b3f7-bba8234777de` · printing: TSR #40 (2021-03-19) · [rulings](https://api.scryfall.com/cards/ecb21c04-d3f7-4960-9b9b-2354e98becb7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Salt Flats
@@ -118,6 +126,7 @@
   > {T}: Add {C}.
   > {T}: Add {W} or {B}. This land deals 1 damage to you.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20911 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/242/salt-flats) · oracle_id `7a951bd7-4f7d-44ea-9c2f-fe2f6b2f5289` · printing: TPR #242 (2015-05-06) · [rulings](https://api.scryfall.com/cards/93e98e1f-5a51-41b4-b636-86a58e712849/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Salt Marsh
@@ -131,6 +140,7 @@
   > *Only death breeds in stagnant water.*
   > *—Urborg saying*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11635 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/325/salt-marsh) · oracle_id `6a40823f-130c-4416-a987-75e205d3e1dd` · printing: 8ED #325 (2003-07-28) · [rulings](https://api.scryfall.com/cards/3ac23896-d4c9-4543-9edc-1d1bb5c74611/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Salt Road Ambushers
@@ -143,7 +153,12 @@
   > Megamorph {3}{G}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.)
 - **Keywords:** Megamorph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12418 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/184/salt-road-ambushers) · oracle_id `2373e035-25f7-473a-9386-2093f77d3f94` · printing: MKC #184 (2024-02-09) · [rulings](https://api.scryfall.com/cards/741e7d92-1570-4eb2-8195-e48c44672648/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2015-02-25* — If a face-down creature with megamorph is turned face up some other way (for example, if you manifest a card with megamorph and then pay its mana cost to turn it face up), you won't put a +1/+1 counter on it.
+  - *2015-02-25* — Megamorph is a variant of the morph ability. You can find more information on morph on cards with morph from the Khans of Tarkir set.
+  - *2015-02-25* — The face-down permanent must be a creature both before it's turned face up and when the triggered ability resolves to have +1/+1 counters placed on it.
+  - *2015-02-25* — Turning a face-down creature with megamorph face up and putting a +1/+1 counter on it is a special action. It doesn't use the stack and can't be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/184/salt-road-ambushers) · oracle_id `2373e035-25f7-473a-9386-2093f77d3f94` · printing: MKC #184 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Salt Road Packbeast
 
@@ -158,6 +173,7 @@
   > *—Mandakh, Mardu scout*
 - **Keywords:** Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16780 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/23/salt-road-packbeast) · oracle_id `50261b9d-48f2-4bad-a35b-14f13b3cdd32` · printing: TDM #23 (2025-04-11) · [rulings](https://api.scryfall.com/cards/98d548c9-42bc-4155-8211-0aea801c3724/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Salt Road Patrol
@@ -172,7 +188,10 @@
   > *—Kadri, Abzan caravan master*
 - **Keywords:** Outlast
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29989 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/21/salt-road-patrol) · oracle_id `b101943b-23f1-450f-a722-13761dc33419` · printing: KTK #21 (2014-09-26) · [rulings](https://api.scryfall.com/cards/2c5ee84d-e5b9-4103-8ba7-ccd79a272c0f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-09-20* — Several creatures with outlast also grant an ability to creatures you control with +1/+1 counters on them, including themselves. These counters could come from an outlast ability, but any +1/+1 counter on the creature will count.
+  - *2014-09-20* — The cost to activate a creature’s outlast ability includes the tap symbol ({T}). A creature’s outlast ability can’t be activated unless that creature has been under your control continuously since the beginning of your turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/21/salt-road-patrol) · oracle_id `b101943b-23f1-450f-a722-13761dc33419` · printing: KTK #21 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Salt Road Quartermasters
 
@@ -183,6 +202,7 @@
   > This creature enters with two +1/+1 counters on it.
   > {2}{G}, Remove a +1/+1 counter from this creature: Put a +1/+1 counter on target creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29308 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/199/salt-road-quartermasters) · oracle_id `9398fbb4-a2b9-4ae4-9e0f-2553eb570501` · printing: DTK #199 (2015-03-27) · [rulings](https://api.scryfall.com/cards/4076bf6b-c8b1-49ef-8f23-afaf7a234e2d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Salt Road Skirmish
@@ -194,7 +214,9 @@
 - **Flavor text** (TDM printing):
   > *Dariya's first mistake was thinking they could short the Mardu trader on a deal. Their last was not considering the trader would bring backup.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15942 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/88/salt-road-skirmish) · oracle_id `f6e72f4e-d6e0-4537-93c1-7045385c8401` · printing: TDM #88 (2025-04-11) · [rulings](https://api.scryfall.com/cards/8f529a2e-5102-492e-84ab-68541d83b5a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-04-04* — If the target creature is an illegal target at the time Salt Road Skirmish tries to resolve, it won’t resolve and none of its effects will happen. However, if the target is still legal and the target isn’t destroyed (most likely because it has indestructible), you will still create two Warrior tokens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/88/salt-road-skirmish) · oracle_id `f6e72f4e-d6e0-4537-93c1-7045385c8401` · printing: TDM #88 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saltskitter
 
@@ -204,7 +226,9 @@
 - **Oracle text:**
   > Whenever another creature enters, exile this creature. Return this creature to the battlefield under its owner's control at the beginning of the next end step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15530 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fut/14/saltskitter) · oracle_id `831e9f71-9664-4dbb-94f5-935d7cf95d77` · printing: FUT #14 (2007-05-04) · [rulings](https://api.scryfall.com/cards/823bdf79-998f-4d7c-834d-7a474cfa895e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-05-01* — If a creature enters after "at the beginning of the end step" abilities have triggered during that turn, Saltskitter won't return to the battlefield until the end of the following turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fut/14/saltskitter) · oracle_id `831e9f71-9664-4dbb-94f5-935d7cf95d77` · printing: FUT #14 (2007-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Salt Vampire
 
@@ -218,6 +242,7 @@
   > *After the collapse of their civilization, the people of M-113 became little more than predators, but they never abandoned their need for love.*
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31496 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/127/salt-vampire) · oracle_id `31c7453e-33b8-4eb6-abac-28cdb35fb993` · printing: TRK #127 (2026-11-13) · [rulings](https://api.scryfall.com/cards/78faba81-01a3-489f-927e-1adaa8fe4436/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saltwater Stalwart
@@ -230,6 +255,7 @@
 - **Flavor text** (BBD printing):
   > *Every attack is a test of your defenses. Every hit marks the map of your defeat.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26981 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/39/saltwater-stalwart) · oracle_id `04472c4f-0df3-4de8-9cc2-882d95b822be` · printing: BBD #39 (2018-06-08) · [rulings](https://api.scryfall.com/cards/ae11adef-57b1-4f39-951b-cd4d5c0a0b80/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Salvage
@@ -242,6 +268,7 @@
   > *"What was taken shall be restored."*
   > *—Arathel, elvish queen*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22432 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/p02/145/salvage) · oracle_id `c01a090a-11e4-469e-aded-74203c06fef4` · printing: P02 #145 (1998-06-24) · [rulings](https://api.scryfall.com/cards/f3012e10-566b-447c-bb0a-dfc38c8e0fdf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Salvaged Manaworker
@@ -255,6 +282,7 @@
   > *"When weapons of war are repurposed for peaceful ends, you know society has advanced."*
   > *—Jodah*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24224 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/237/salvaged-manaworker) · oracle_id `a96814fe-dc74-4d02-a44e-f7daa794b647` · printing: DMU #237 (2022-09-09) · [rulings](https://api.scryfall.com/cards/5fc22ecb-5d87-464e-8c7d-5d40a52e1e4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Salvage Drone
@@ -268,7 +296,15 @@
   > When this creature dies, you may draw a card. If you do, discard a card.
 - **Keywords:** Devoid, Ingest
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20807 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/65/salvage-drone) · oracle_id `9b18bbf3-3b1c-4010-bc6f-e7eacb2ffb70` · printing: BFZ #65 (2015-10-02) · [rulings](https://api.scryfall.com/cards/4b8ce2a9-9d8e-442b-bc12-74545ceb65bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2015-08-25* — A card with devoid is just colorless. It’s not colorless and the colors of mana in its mana cost.
+  - *2015-08-25* — Cards with devoid use frames that are variations of the transparent frame traditionally used for Eldrazi. The top part of the card features some color over a background based on the texture of the hedrons that once imprisoned the Eldrazi. This coloration is intended to aid deckbuilding and game play.
+  - *2015-08-25* — Devoid works in all zones, not just on the battlefield.
+  - *2015-08-25* — If a card loses devoid, it will still be colorless. This is because effects that change an object’s color (like the one created by devoid) are considered before the object loses devoid.
+  - *2015-08-25* — If the player has no cards in their library when the ingest ability resolves, nothing happens. That player won’t lose the game (until they have to draw a card from an empty library).
+  - *2015-08-25* — Other cards and abilities can give a card with devoid color. If that happens, it’s just the new color, not that color and colorless.
+  - *2015-08-25* — The card exiled by the ingest ability is exiled face up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/65/salvage-drone) · oracle_id `9b18bbf3-3b1c-4010-bc6f-e7eacb2ffb70` · printing: BFZ #65 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Salvager of Ruin
 
@@ -281,7 +317,12 @@
   > *"The next model should be able to achieve a rescue without self-destruction."*
   > *—Sargis Haz, artificer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15466 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/237/salvager-of-ruin) · oracle_id `c6dc70de-4fa5-466b-af28-0ced885d4e12` · printing: M20 #237 (2019-07-12) · [rulings](https://api.scryfall.com/cards/8dd2ebbe-71c6-405b-bad0-5680f0ff575c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-07-12* — A permanent card is an artifact, creature, enchantment, land, or planeswalker card.
+  - *2019-07-12* — Because targets are chosen for activated abilities before costs (such as “Sacrifice Salvager of Ruin”) are paid, Salvager of Ruin’s ability can’t target itself.
+  - *2019-07-12* — Permanent spells that were countered earlier in the turn never entered the battlefield, so they are not legal targets for Salvager of Ruin’s ability.
+  - *2019-07-12* — Salvager of Ruin’s ability can target a permanent card in your graveyard that was put there from the battlefield before Salvager of Ruin entered the battlefield during the same turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/237/salvager-of-ruin) · oracle_id `c6dc70de-4fa5-466b-af28-0ced885d4e12` · printing: M20 #237 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Salvager of Secrets
 
@@ -293,6 +334,7 @@
 - **Flavor text** (GN2 printing):
   > *The greatest treasure of the deep is an echo from above.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14670 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gn2/25/salvager-of-secrets) · oracle_id `3e400e13-6cae-45e6-b5cc-5b5f9d74dec5` · printing: GN2 #25 (2019-11-15) · [rulings](https://api.scryfall.com/cards/c0b5b645-c90d-43aa-996d-03a1d575bdd6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Salvage Scout
@@ -305,6 +347,7 @@
 - **Flavor text** (SOM printing):
   > *"I'm not saying it's dangerous work. I'm just saying don't sign up if you have plans for your seventieth birthday."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18458 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/19/salvage-scout) · oracle_id `502e991c-f4de-4095-adac-cb0c25e44a7c` · printing: SOM #19 (2010-10-01) · [rulings](https://api.scryfall.com/cards/5909e77e-a930-4713-bca4-c6b265238c17/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Salvage Scuttler
@@ -317,7 +360,9 @@
 - **Flavor text** (AER printing):
   > *A hermit crab goes through many shells in its lifetime, and not all are natural in origin.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24430 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/43/salvage-scuttler) · oracle_id `01a6f8e6-439b-4de4-9f0a-21a035fd849e` · printing: AER #43 (2017-01-20) · [rulings](https://api.scryfall.com/cards/480be626-cf37-410d-a9c7-e5464345085f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-02-09* — If you control no artifacts, you won’t return anything to your hand. There’s no penalty for being unable to do so.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/43/salvage-scuttler) · oracle_id `01a6f8e6-439b-4de4-9f0a-21a035fd849e` · printing: AER #43 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Salvage Slasher
 
@@ -329,6 +374,7 @@
 - **Flavor text** (CON printing):
   > *Esper artificers never imagined that one day their scraps would be pressed against their soft and fragile throats.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28835 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/con/52/salvage-slasher) · oracle_id `196d6ef6-80d9-4bfd-a5ed-d9e8b00faad0` · printing: CON #52 (2009-02-06) · [rulings](https://api.scryfall.com/cards/095b0fd1-7445-4dba-bb90-ddd5f5ee8573/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Salvage Titan
@@ -340,7 +386,11 @@
   > You may sacrifice three artifacts rather than pay this spell's mana cost.
   > Exile three artifact cards from your graveyard: Return this card from your graveyard to your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22703 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/104/salvage-titan) · oracle_id `823cd586-92db-4e44-ba1f-394b2404cafc` · printing: 2XM #104 (2020-08-07) · [rulings](https://api.scryfall.com/cards/7175febd-ae8e-4945-91ab-b6c67c40f04b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-08-07* — Casting Salvage Titan by paying its alternative cost doesn't change when you can cast it. You can cast it only at the normal time you could cast a creature spell.
+  - *2020-08-07* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as Salvage Titan's alternative cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+  - *2020-08-07* — You may activate its second ability only if Salvage Titan is in your graveyard. To pay this ability's cost, you may exile any three artifact cards from your graveyard—including Salvage Titan itself. If you exile it to pay the cost, however, it won't be returned to your hand when the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/104/salvage-titan) · oracle_id `823cd586-92db-4e44-ba1f-394b2404cafc` · printing: 2XM #104 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Salvaging Station
 
@@ -350,6 +400,7 @@
   > {T}: Return target noncreature artifact card with mana value 1 or less from your graveyard to the battlefield.
   > Whenever a creature dies, you may untap this artifact.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12547 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/148/salvaging-station) · oracle_id `3501ed98-473c-4a17-8b5f-1e0c00ee75da` · printing: 5DN #148 (2004-06-04) · [rulings](https://api.scryfall.com/cards/f0336e07-8eaf-4b90-af54-4764e5ba50f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Salvation Colossus

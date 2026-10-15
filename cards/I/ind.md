@@ -50,6 +50,7 @@
   > *Crystals nestle in the roots of Indatha's helica trees as if being nurtured by their embrace.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16334 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/235/indatha-crystal) · oracle_id `3617c4ec-dc70-4fa8-94f3-fbc48abcaeea` · printing: IKO #235 (2020-04-24) · [rulings](https://api.scryfall.com/cards/bdace59f-f025-4717-8eb4-3d1e13b31d2b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indatha Triome
@@ -80,6 +81,7 @@
   > *"Forgive me, Saburo. I could not save you. But your blade will not rest in my hand."*
 - **Keywords:** Bushido
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20085 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/9/indebted-samurai) · oracle_id `fee392d9-a961-4f41-81ba-ab1b87c931fa` · printing: BOK #9 (2005-02-04) · [rulings](https://api.scryfall.com/cards/bb03bc2b-6d39-4315-964c-ca7db2db054a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indebted Spirit
@@ -116,6 +118,7 @@
   > *It's not always clear who's the master and who's the servant.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24393 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/85/indentured-djinn) · oracle_id `8ccb3bca-73da-450d-a9d0-61d3e2bd05a5` · printing: MMQ #85 (1999-10-04) · [rulings](https://api.scryfall.com/cards/dae62ce7-852b-42c6-9cbe-4807d8bf5740/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indentured Oaf
@@ -128,6 +131,7 @@
 - **Flavor text** (RAV printing):
   > *All it knows is the difference between friend and food.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32183 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/133/indentured-oaf) · oracle_id `d82bde29-1576-4736-a755-df9c37765202` · printing: RAV #133 (2005-10-07) · [rulings](https://api.scryfall.com/cards/af6e976c-3c0b-4ba5-b614-e1b576b57e86/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Independent Troops
@@ -140,6 +144,7 @@
 - **Flavor text** (PTK printing):
   > *"The empire, long united, must divide, and long divided, must unite."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31824 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/114/independent-troops) · oracle_id `b9a8adf0-60f1-491c-8bbf-0b341fd23fab` · printing: PTK #114 (1999-05-01) · [rulings](https://api.scryfall.com/cards/ff7a4769-7a64-4016-8db0-b56c6b98aff3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indestructibility
@@ -168,7 +173,9 @@
 - **Flavor text** (CHR printing):
   > *Theodar strode the battle lines, snatching swords with his bare hands and casting them aside until all cowered before him.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23986 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/chr/7/indestructible-aura) · oracle_id `e10e8d56-bba6-412d-970e-c24969f32b5b` · printing: CHR #7 (1995-07-01) · [rulings](https://api.scryfall.com/cards/0397a4f3-6d7c-43d1-9fc2-c0eaf780ecb0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Despite the name, this card only prevents damage and not destroy effects. It’s also not an Aura.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chr/7/indestructible-aura) · oracle_id `e10e8d56-bba6-412d-970e-c24969f32b5b` · printing: CHR #7 (1995-07-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Index
 
@@ -179,6 +186,7 @@
 - **Flavor text** (M13 printing):
   > *"What good is having all the right answers if you have them at all the wrong times?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12917 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m13/55/index) · oracle_id `613b824e-39d1-4c6e-a19c-c915abdc860b` · printing: M13 #55 (2012-07-13) · [rulings](https://api.scryfall.com/cards/785fd0b8-7e98-44f5-8012-b9dadb31f9b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indicate
@@ -191,7 +199,12 @@
   > *"You."*
   > *—Sorin Markov*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/501/indicate) · oracle_id `67876214-3777-41b1-935e-75dd5075fa53` · printing: MB2 #501 (2024-08-02) · [rulings](https://api.scryfall.com/cards/e328353e-d43f-46f7-ab4e-d3e1f3e57c7e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — Indicate targets a permanent.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/501/indicate) · oracle_id `67876214-3777-41b1-935e-75dd5075fa53` · printing: MB2 #501 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indigo Faerie
 
@@ -205,7 +218,11 @@
   > *"You should see your face right now."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28468 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eve/24/indigo-faerie) · oracle_id `10ae611f-e56d-47c5-8b6e-d38d95208bba` · printing: EVE #24 (2008-07-25) · [rulings](https://api.scryfall.com/cards/62e6e481-a050-4515-a557-d59ba6136ff6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-08-01* — After Indigo Faerie’s ability resolves, an effect that changes the affected permanent’s colors will overwrite Indigo Faerie’s effect. For example, if Indigo Faerie’s ability is activated on Llanowar Elves, the Elves will be blue and green; if Aphotic Wisps is then cast on the same creature, it’ll be just black.
+  - *2008-08-01* — If something affected by Indigo Faerie’s ability is normally colorless, it will simply be blue. It won’t be both blue and colorless.
+  - *2008-08-01* — This ability doesn’t overwrite any previous colors. Rather, it adds another color.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eve/24/indigo-faerie) · oracle_id `10ae611f-e56d-47c5-8b6e-d38d95208bba` · printing: EVE #24 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indoctrination Attendant
 
@@ -217,7 +234,15 @@
   > When this creature enters, you may return another permanent you control to its owner's hand. If you do, create a 1/1 colorless Phyrexian Mite artifact creature token with toxic 1 and "This token can't block."
 - **Keywords:** Toxic
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13486 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/16/indoctrination-attendant) · oracle_id `9587bdb3-fb6a-47c0-898d-404bf60fcb6b` · printing: ONE #16 (2023-02-10) · [rulings](https://api.scryfall.com/cards/d051bfc7-b402-444d-896e-c3a9562cdb0d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-02-04* — A player with ten or more poison counters loses the game. This is a state-based action and doesn't use the stack. In other words, it happens immediately and players can't respond to it, just like a player losing the game due to having 0 or less life.
+  - *2023-02-04* — Any other effects of that damage, such as life gain from lifelink, still apply.
+  - *2023-02-04* — Conversely, replacement effects that apply to the number of counters put on a player can modify the counters placed this way. For example, Vorinclex, Monstrous Raider's last two abilities can apply to counters placed this way.
+  - *2023-02-04* — Damage dealt by a creature with toxic grants the same number of counters regardless of how much damage is dealt. Notably, if a replacement effect modifies the damage in some way (such as that of Gratuitous Violence), the number of counters given remains unchanged.
+  - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
+  - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
+  - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/16/indoctrination-attendant) · oracle_id `9587bdb3-fb6a-47c0-898d-404bf60fcb6b` · printing: ONE #16 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indominus Rex, Alpha
 
@@ -228,7 +253,11 @@
   > As Indominus Rex enters, discard any number of creature cards. It enters with a flying counter on it if a card discarded this way has flying. The same is true for first strike, double strike, deathtouch, hexproof, haste, indestructible, lifelink, menace, reach, trample, and vigilance.
   > When Indominus Rex enters, draw a card for each counter on it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10372 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/rex/14/indominus-rex-alpha) · oracle_id `723a66c3-2c2c-411c-bba5-922e8601981b` · printing: REX #14 (2023-11-17) · [rulings](https://api.scryfall.com/cards/25e6ebfb-8f0b-44f0-a911-103ade41c6bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-11-10* — If Indominus Rex isn't on the battlefield as its last ability resolves, use the number of counters that were on it when it was last on the battlefield to determine how many cards to draw.
+  - *2023-11-10* — If you put counters on Indominus Rex before its last ability resolves, those counters will count.
+  - *2023-11-10* — Indominus Rex's first ability will give it only one of each kind of counter, even if you discard more than one creature card with the relevant ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rex/14/indominus-rex-alpha) · oracle_id `723a66c3-2c2c-411c-bba5-922e8601981b` · printing: REX #14 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indomitable Ancients
 
@@ -267,7 +296,13 @@
 - **Oracle text:**
   > Destroy X target artifacts and/or creatures. For each permanent destroyed this way, its controller reveals cards from the top of their library until an artifact or creature card is revealed and exiles that card. Those players put the exiled cards onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10863 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/85/indomitable-creativity) · oracle_id `e2161ae2-e5d2-4a56-85d4-d2214c5b3e2e` · printing: AER #85 (2017-01-20) · [rulings](https://api.scryfall.com/cards/edd00e45-2ae1-4cd0-92a1-155c95f8dc72/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-02-09* — All of the exiled cards are put onto the battlefield at the same time.
+  - *2017-02-09* — If a player controls no permanents destroyed this way, that player reveals no cards from their library and doesn't shuffle it.
+  - *2017-02-09* — If a player's library no longer contains an artifact or creature card when instructed to reveal cards, that player reveals the entire library, exiles no cards, and then shuffles it.
+  - *2017-02-09* — If an artifact or creature is targeted but not destroyed (perhaps because it gained indestructible or became an illegal target), it doesn't count as one of the artifacts or creatures destroyed this way. An artifact or creature that's destroyed but put into a zone other than a graveyard (for example, due to the effect of Rest in Peace) does count.
+  - *2017-02-09* — While revealing cards, a player stops as soon as they reveal a card that's an artifact or a creature (or both). That player doesn't choose one type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/85/indomitable-creativity) · oracle_id `e2161ae2-e5d2-4a56-85d4-d2214c5b3e2e` · printing: AER #85 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indomitable Might
 
@@ -298,6 +333,7 @@
   > *—Verenis, priest of Iroas*
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18690 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/109/indomitable-will) · oracle_id `cca60afe-b044-4401-8322-170aa015873c` · printing: JMP #109 (2020-07-17) · [rulings](https://api.scryfall.com/cards/f5ba5d4b-5dbb-43d6-8f44-a2f80944df98/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indoraptor, the Perfect Hybrid
@@ -328,6 +364,7 @@
   > *"An indrik's howl has destructive power much subtler than that of its crushing foot. The sound is mundane, but inaudible vibrations scatter and sunder magical contrivances."*
   > *—Simic research notes*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15597 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/297/indrik-stomphowler) · oracle_id `de47a1e8-9c69-4af6-9d72-1bdd41352b32` · printing: NCC #297 (2022-04-29) · [rulings](https://api.scryfall.com/cards/1fa77af1-96e1-445b-a935-a5eb4c23e954/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indrik Umbra
@@ -340,7 +377,20 @@
   > Umbra armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)
 - **Keywords:** Umbra armor, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19682 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pca/96/indrik-umbra) · oracle_id `b585c218-1793-49a0-8a16-cb23b6efcc3c` · printing: PCA #96 (2016-11-25) · [rulings](https://api.scryfall.com/cards/3f1f1be3-8360-479b-ac87-7700275fbf0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2012-06-01* — If, during a player's declare blockers step, a creature is tapped or it's affected by a spell or ability that says it can't block, then it doesn't block. If there's a cost associated with having a creature block, its controller isn't forced to pay that cost. The creature doesn't have to block.
+  - *2012-06-01* — Indrik Umbra does not give any creature the ability to block the enchanted creature. It just forces those creatures which are already able to block that creature to do so.
+  - *2024-06-07* — If a creature enchanted with an Aura that has umbra armor has indestructible, lethal damage and effects that try to destroy it simply have no effect. Umbra armor won't do anything because it won't have to.
+  - *2024-06-07* — If a creature enchanted with an Aura that has umbra armor would be destroyed by multiple state-based actions at the same time (most likely because a creature with deathtouch has dealt damage to that creature greater than or equal to its toughness), umbra armor's effect will replace all of them and save the creature.
+  - *2024-06-07* — If a creature you control is enchanted with multiple Auras that have umbra armor, and the enchanted creature would be destroyed, one of those Auras is destroyed instead—but only one of them. You choose which one because you control the enchanted creature.
+  - *2024-06-07* — If a spell or ability says that it would "destroy" a creature enchanted with an Aura that has umbra armor, that spell or ability is what causes the Aura to be destroyed instead. Umbra armor doesn't destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has umbra armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability.
+  - *2024-06-07* — If a spell or ability would destroy both an Aura with umbra armor and the creature it's enchanting at the same time, umbra armor's effect will save the enchanted creature from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once.
+  - *2024-06-07* — Some printings of this card refer to the ability "totem armor". This ability's name has been replaced with "umbra armor". This change does not affect the gameplay function of this card.
+  - *2024-06-07* — Umbra armor has no effect if the enchanted creature is put into a graveyard for any other reason, such as if it's sacrificed, if the "legend rule" applies to it, or if its toughness is 0 or less.
+  - *2024-06-07* — Umbra armor's effect is applied no matter why the enchanted creature would be destroyed: because it's been dealt lethal damage, or because it's being affected by an effect that says to "destroy" it (such as Breathe Your Last). In either case, all damage is removed from the creature and the Aura is destroyed instead.
+  - *2024-06-07* — Umbra armor's effect is mandatory. If the enchanted creature would be destroyed, you must remove all damage from it (if it has any) and destroy the Aura that has umbra armor instead.
+  - *2024-06-07* — Umbra armor's effect is not regeneration. Specifically, if umbra armor's effect is applied, the enchanted creature does not become tapped and is not removed from combat as a result. Effects that say the enchanted creature can't be regenerated won't prevent umbra armor's effect from being applied.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pca/96/indrik-umbra) · oracle_id `b585c218-1793-49a0-8a16-cb23b6efcc3c` · printing: PCA #96 (2016-11-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Induced Amnesia
 
@@ -350,7 +400,12 @@
   > When this enchantment enters, target player exiles all cards from their hand face down, then draws that many cards.
   > When this enchantment is put into a graveyard from the battlefield, return the exiled cards to their owner's hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19375 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/40/induced-amnesia) · oracle_id `6f01c124-0518-428c-9efe-7f3741f3c109` · printing: RIX #40 (2018-01-19) · [rulings](https://api.scryfall.com/cards/a4ee56f1-9f08-459f-8517-0fe7bc645fa3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-01-19* — If Induced Amnesia leaves the battlefield before its first ability resolves, its second ability will trigger (if appropriate) and do nothing. Then its first ability will resolve, and the exiled cards will be exiled indefinitely.
+  - *2018-01-19* — If Induced Amnesia leaves the battlefield but isn’t put into a graveyard, the exiled cards are lost forever. They won’t be returned if another Induced Amnesia is put into a graveyard, even if that Induced Amnesia is represented by the same card.
+  - *2018-01-19* — No player may look at the exiled cards.
+  - *2018-01-19* — There are many important moments in the story, but the most crucial—called “story spotlights”—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/40/induced-amnesia) · oracle_id `6f01c124-0518-428c-9efe-7f3741f3c109` · printing: RIX #40 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Induce Despair
 
@@ -362,6 +417,7 @@
 - **Flavor text** (DDP printing):
   > *All the angel saw was her doom.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28574 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddp/53/induce-despair) · oracle_id `1e8ff8b3-5b7f-47f2-9321-7a3b6f6e88aa` · printing: DDP #53 (2015-08-28) · [rulings](https://api.scryfall.com/cards/ba9153ce-2acd-4170-a2ab-c8b660614152/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Induce Paranoia
@@ -372,6 +428,7 @@
   > Counter target spell. If {B} was spent to cast this spell, that spell's controller mills X cards, where X is the spell's mana value.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21666 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/56/induce-paranoia) · oracle_id `ec9475f8-235a-4c85-9b96-9c2085a9b732` · printing: RAV #56 (2005-10-07) · [rulings](https://api.scryfall.com/cards/bc462b75-8b08-47a3-be22-d7b5c062ec5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indulge // Excess
@@ -384,7 +441,18 @@
   > Create a Treasure token for each creature you controlled that dealt combat damage to a player this turn.
 - **Keywords:** Treasure, Aftermath
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11259 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/46/indulge-excess) · oracle_id `abcb5b99-bf5e-402f-97a2-abb1ab39dd72` · printing: NCC #46 (2022-04-29) · [rulings](https://api.scryfall.com/cards/d653b755-1e09-45c4-8d44-8a950151ca51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2022-04-29* — A spell with aftermath cast from a graveyard will always be exiled afterward, whether it resolves, it's countered, or it leaves the stack in some other way.
+  - *2022-04-29* — All split cards have two card faces on a single card, and you put a split card onto the stack with only the half you're casting. The characteristics of the half you didn't cast are ignored while the spell is on the stack.
+  - *2022-04-29* — Each split card has two names. If an effect instructs you to choose a card name, you may choose one, but not both.
+  - *2022-04-29* — Each split card is a single card. For example, if you discard one, you've discarded one card, not two. If an effect counts the number of sorcery cards in your graveyard, Indulge /// Excess counts once, not twice.
+  - *2022-04-29* — Excess counts the number of creatures you controlled that dealt combat damage to a player even if you no longer control one or more of those creatures as it resolves.
+  - *2022-04-29* — If another effect allows you to cast a split card with aftermath from a graveyard, you may cast either half. If you cast the half that has aftermath, you'll exile the card if it would leave the stack.
+  - *2022-04-29* — If another effect allows you to cast a split card with aftermath from any zone other than a graveyard, you can't cast the half with aftermath.
+  - *2022-04-29* — If you cast the first half of a split card with aftermath during your turn, you'll have priority immediately after it resolves. You can cast the half with aftermath from your graveyard before any player can take any other action if it's legal for you to do so.
+  - *2022-04-29* — Once you've started to cast a spell with aftermath from your graveyard, the card is immediately moved to the stack. Opponents can't try to stop the ability by exiling the card with another effect.
+  - *2022-04-29* — While not on the stack, the characteristics of a split card are the combination of its two halves. For example, Indulge /// Excess has a mana value of 5.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/46/indulge-excess) · oracle_id `abcb5b99-bf5e-402f-97a2-abb1ab39dd72` · printing: NCC #46 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indulgent Aristocrat
 

@@ -127,6 +127,7 @@
   > *"Whatever ails you, friends, this will cure it for tonight! And leave you with a little inspiration for tomorrow."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20908 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/32/speakeasy-server) · oracle_id `4e08e07f-ca30-4e34-b207-d8fe62c03777` · printing: SNC #32 (2022-04-29) · [rulings](https://api.scryfall.com/cards/e014d9d0-e6e1-4afb-b94f-b927a09b76c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Speaker of the Heavens
@@ -184,6 +185,7 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thp3/7a/spear-of-the-general) · oracle_id `8069ed10-2ee0-46df-9a69-4f4da65ba8d4` · printing: THP3 #7a (2014-05-02) · [rulings](https://api.scryfall.com/cards/8d10db7e-e680-496a-8845-3bdfb176a989/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spearpoint Oread
@@ -197,7 +199,13 @@
   > Enchanted creature gets +2/+2 and has first strike.
 - **Keywords:** First strike, Bestow
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26956 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/141/spearpoint-oread) · oracle_id `2fa7bb26-18eb-4ff0-8558-f6f3981a84ce` · printing: THS #141 (2013-09-27) · [rulings](https://api.scryfall.com/cards/22d9d241-74b8-4b40-b4b7-b8584012d482/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2013-09-15* — Auras attached to a creature don't become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature.
+  - *2013-09-15* — If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can't choose to pay the bestow cost and have it become an Aura.
+  - *2013-09-15* — On the stack, a spell with bestow is either a creature spell or an Aura spell. It's never both, although it's an enchantment spell in either case.
+  - *2013-09-15* — Unlike other Aura spells, an Aura spell with bestow isn't countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature.
+  - *2013-09-15* — Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/141/spearpoint-oread) · oracle_id `2fa7bb26-18eb-4ff0-8558-f6f3981a84ce` · printing: THS #141 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spear Spewer
 
@@ -227,6 +235,7 @@
   > • Foot Toss — Target creature you control deals damage equal to its power to any other target. Then sacrifice it.
 - **Keywords:** Foot Toss, Dash Attack, Jump Kick
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10413 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/26/special-move) · oracle_id `7564afbb-b29e-4234-a3b2-3354c6f5c90a` · printing: TMC #26 (2026-03-06) · [rulings](https://api.scryfall.com/cards/600e2c3f-dfbd-4d5c-813a-47ae2d75ac12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Species Gorger
@@ -240,6 +249,7 @@
   > *"We raised eelhawks to control the squidflies, then waspcrabs to prey on the eelhawks. Now what do we do with all these waspcrabs?"*
   > *—Gulistan, Simic biomancer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14452 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/105/species-gorger) · oracle_id `0e741c79-5ea4-457d-a7d3-b11154459246` · printing: DGM #105 (2013-05-03) · [rulings](https://api.scryfall.com/cards/e0087a98-55cf-4c8b-a180-fb0d9c336eb2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Species Specialist
@@ -268,7 +278,9 @@
   > When this creature enters, create a 1/1 green Squirrel creature token and a 0/3 blue Crab creature token.
   > When this creature dies, create a token that's a copy of target token you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23125 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/64/specimen-collector) · oracle_id `fdb51cc1-ce0e-4920-b123-1cdd570fc38b` · printing: MH2 #64 (2021-06-18) · [rulings](https://api.scryfall.com/cards/bdfaed69-bc4c-4c73-abc3-00dce5e0177e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-06-18* — For Specimen Collector's last ability, the target token can be any token you control, not necessarily one of the token creatures you created due to its first ability, and not necessarily even a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/64/specimen-collector) · oracle_id `fdb51cc1-ce0e-4920-b123-1cdd570fc38b` · printing: MH2 #64 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Specimen Freighter
 
@@ -282,6 +294,7 @@
   > Whenever this Spacecraft attacks, defending player mills four cards.
 - **Keywords:** Station, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14627 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/76/specimen-freighter) · oracle_id `fb84b94c-dc8c-4182-9b96-abd092b20981` · printing: EOE #76 (2025-08-01) · [rulings](https://api.scryfall.com/cards/b862a9f8-2361-4220-99bd-ae2530905195/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectacle Mage
@@ -296,7 +309,11 @@
   > *"It would be a crime to withhold my light from the world."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21237 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/235/spectacle-mage) · oracle_id `71920c05-7061-4ba5-8903-cffd3d2f85f4` · printing: STX #235 (2021-04-23) · [rulings](https://api.scryfall.com/cards/f74223e1-b66b-42fa-aaac-001f5dab2aac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-04-16* — If there is an {X} in the spell’s mana cost, use the chosen value for X to determine its mana value. For example, if you cast a sorcery with mana cost {X}{U} and choose 4 for X, its mana value is 5.
+  - *2021-04-16* — Spectacle Mage’s second ability can’t reduce the colored mana requirements in spells you cast.
+  - *2021-04-16* — Spectacle Mage’s second ability only looks at the mana value of a spell, not the cost you’re paying for it. For example, if you control two Spectacle Mages and cast a sorcery with mana cost {4}{U}, the cost will be reduced to {2}{U}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/235/spectacle-mage) · oracle_id `71920c05-7061-4ba5-8903-cffd3d2f85f4` · printing: STX #235 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectacle Summit
 
@@ -355,7 +372,9 @@
   > *Rootha was humbled in the whale's presence. It was glorious and beautiful, all on its own terms.*
 - **Keywords:** Flying, Opus
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19046 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/229/spectacular-skywhale) · oracle_id `6a6b19db-cdeb-4922-8642-5d872f90e7a1` · printing: SOS #229 (2026-04-24) · [rulings](https://api.scryfall.com/cards/c90366d5-b4ba-4772-a3c5-f138bbe7f305/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — An opus ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/229/spectacular-skywhale) · oracle_id `6a6b19db-cdeb-4922-8642-5d872f90e7a1` · printing: SOS #229 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectacular Spider-Man
 
@@ -412,6 +431,7 @@
   > When this creature enters, you may exile one or more creature cards from your graveyard. When you do, each other creature gets -X/-X until end of turn, where X is the number of cards exiled this way.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23239 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/107/specter-of-mortality) · oracle_id `caff40b1-28d1-4ef6-90d1-51a1dc06cbcd` · printing: WOE #107 (2023-09-08) · [rulings](https://api.scryfall.com/cards/5e4c00b5-f6d6-4fbd-828f-ad30321f2cd9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Specter of the Fens
@@ -426,6 +446,7 @@
   > *Foul specters hunt down those who try to back out of a deal with a daemogoth.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27035 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/87/specter-of-the-fens) · oracle_id `048925e1-3bd6-4caa-90b9-e75e890032a5` · printing: STX #87 (2021-04-23) · [rulings](https://api.scryfall.com/cards/73e3cfbc-7177-4bbc-89c4-560c9c2f97db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Specter's Shriek
@@ -438,7 +459,9 @@
   > *"Imagine having your skeleton extracted through your ear, one bone at a time."*
   > *—Corliss the Wanderer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27553 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/106/specters-shriek) · oracle_id `8c9164b5-10ed-4cad-af33-7d4b5d3d6bf2` · printing: ELD #106 (2019-10-04) · [rulings](https://api.scryfall.com/cards/edae2c29-1418-477c-9efe-e53fa6c7fe93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-10-04* — If you have no cards in hand, you won't have to exile anything if you have the player exile a nonblack card from their hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/106/specters-shriek) · oracle_id `8c9164b5-10ed-4cad-af33-7d4b5d3d6bf2` · printing: ELD #106 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Specter's Shroud
 
@@ -450,6 +473,7 @@
   > Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21273 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dst/142/specters-shroud) · oracle_id `dbc2b0f9-73e8-41b7-9d64-07f86fbc5d6c` · printing: DST #142 (2004-02-06) · [rulings](https://api.scryfall.com/cards/9a6d2e20-3887-4996-adbe-304dff27dea6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Specter's Wail
@@ -461,6 +485,7 @@
 - **Flavor text** (MMQ printing):
   > *As he gritted his teeth to focus through the pain, Tahngarth glanced at Takara. She seemed completely unaffected.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29057 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/164/specters-wail) · oracle_id `af32ce11-c026-4135-b1e3-10c6aa15c72c` · printing: MMQ #164 (1999-10-04) · [rulings](https://api.scryfall.com/cards/d1637b62-e364-4250-aad5-841c6a47a11e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectral Adversary
@@ -474,7 +499,17 @@
   > When this creature enters, you may pay {1}{U} any number of times. When you pay this cost one or more times, put that many +1/+1 counters on this creature, then up to that many other target artifacts, creatures, and/or enchantments phase out.
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14869 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/77/spectral-adversary) · oracle_id `0de4171e-5908-408e-9852-25f148d0fb47` · printing: MID #77 (2021-09-24) · [rulings](https://api.scryfall.com/cards/7c67fe04-814f-4051-bd13-7c8ee40a6c08/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2021-09-24* — After you pay the {1}{U} cost one or more times, a second ability triggers and you choose the targets for it. Players may respond to the new ability at that point. As that ability resolves, Spectral Adversary gets its +1/+1 counters and the target permanents phase out.
+  - *2021-09-24* — An attacking or blocking creature that phases out is removed from combat.
+  - *2021-09-24* — Any continuous effects with a "for as long as" duration ignore phased-out objects. If ignoring those objects causes the effect's conditions to no longer be met, the duration will expire. For example, phasing out Mind Flayer will cause the duration of its continuous effect ("for as long as you control Mind Flayer") to expire.
+  - *2021-09-24* — As a permanent phases out, Auras and Equipment attached to it also phase out at the same time. Those Auras and Equipment will phase in at the same time that permanent does, and they'll phase in still attached to that permanent.
+  - *2021-09-24* — Choices made for permanents as they entered the battlefield are remembered when they phase in.
+  - *2021-09-24* — If an opponent gains control of one of your permanents, that permanent phases out, and the duration of the control-change effect expires before it phases back in, that permanent phases in under your control as that opponent's next untap step begins. If they leave the game before their next untap step, it phases in as the next untap step begins after their turn would have begun.
+  - *2021-09-24* — Permanents phase back in during their controller's untap step, immediately before that player untaps their permanents. Creatures that phase in this way are able to attack and pay a cost of {T} during that turn. If a permanent had counters on it when it phased out, it will have those counters when it phases back in.
+  - *2021-09-24* — Permanents that are phased out are treated as though they don't exist. They can't be the target of spells or abilities, their static abilities have no effect on the game, their triggered abilities can't trigger, they can't attack or block, and so on.
+  - *2021-09-24* — Phasing out doesn't cause any "leaves the battlefield" abilities to trigger. Similarly, phasing in won't cause any "enters the battlefield" abilities to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/77/spectral-adversary) · oracle_id `0de4171e-5908-408e-9852-25f148d0fb47` · printing: MID #77 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectral Arcanist
 
@@ -486,7 +521,11 @@
   > When this creature enters, you may cast an instant or sorcery spell with mana value less than or equal to the number of Spirits you control from a graveyard without paying its mana cost. If that spell would be put into a graveyard, exile it instead.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12782 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/voc/15/spectral-arcanist) · oracle_id `aba60536-ffbd-480c-8e8f-9639bdc53d4b` · printing: VOC #15 (2021-11-19) · [rulings](https://api.scryfall.com/cards/f65bb20b-e207-49da-9d15-a8718b53783e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-11-19* — If you cast a spell with X in its mana cost this way, you must choose 0 as the value for X.
+  - *2021-11-19* — If you cast a spell without paying its mana cost, you may choose to pay additional costs (such as kicker) but not alternative costs (such as flashback).
+  - *2021-11-19* — If you choose to cast the spell, you must do so as Spectral Arcanist's ability is resolving. You can't wait and cast it later.
+- **Source flags:** [Scryfall](https://scryfall.com/card/voc/15/spectral-arcanist) · oracle_id `aba60536-ffbd-480c-8e8f-9639bdc53d4b` · printing: VOC #15 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectral Bears
 
@@ -499,7 +538,9 @@
   > *"I hear there are bears—or spirits—that guard caravans passing through the forest."*
   > *—Gulsen, abbey matron*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19906 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me1/131/spectral-bears) · oracle_id `539899f3-f3f2-4f7a-a6f6-e80d4a39f753` · printing: ME1 #131 (2007-09-10) · [rulings](https://api.scryfall.com/cards/e56143db-0274-4878-9d54-619e7f037a33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — The checks for black cards is made both at the time you declare attackers and as the ability resolves. If there are any at the time attackers are declared, it won’t trigger at all. If there are any at the time it resolves, the ability will do nothing.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me1/131/spectral-bears) · oracle_id `539899f3-f3f2-4f7a-a6f6-e80d4a39f753` · printing: ME1 #131 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectral Cloak
 
@@ -510,7 +551,9 @@
   > Enchanted creature has shroud as long as it's untapped. (It can't be the target of spells or abilities.)
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29672 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/leg/78/spectral-cloak) · oracle_id `fadfa9f9-d096-4083-8630-1c18928133ff` · printing: LEG #78 (1994-06-01) · [rulings](https://api.scryfall.com/cards/7524fd0d-a675-41d6-bc99-bd3ba336893b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2005-08-01* — Does not destroy Auras already on the creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/leg/78/spectral-cloak) · oracle_id `fadfa9f9-d096-4083-8630-1c18928133ff` · printing: LEG #78 (1994-06-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectral Deluge
 
@@ -553,6 +596,7 @@
   > *—Dierk, geistmage*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19886 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/isd/79/spectral-flight) · oracle_id `d127d1e6-f3a6-4f68-bea5-d7b4123476e5` · printing: ISD #79 (2011-09-30) · [rulings](https://api.scryfall.com/cards/f7149f2a-6917-4ad7-8035-c7a1babd4d4b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectral Force
@@ -568,7 +612,9 @@
   > *—Uros, Pendelhaven elder*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28100 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/217/spectral-force) · oracle_id `271bfde0-6a6f-4bc8-ac0e-d2eff6784463` · printing: TSP #217 (2006-10-06) · [rulings](https://api.scryfall.com/cards/d7dff1c4-6297-46f6-9c70-544c67319dd0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-05-01* — ”Your next untap…” refers to the player who controls Spectral Force when the triggered ability resolves. That means if it’s temporarily stolen (such as with Word of Seizing) and attacked with, it will untap in its previous controller’s untap step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/217/spectral-force) · oracle_id `271bfde0-6a6f-4bc8-ac0e-d2eff6784463` · printing: TSP #217 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectral Gateguards
 
@@ -580,6 +626,7 @@
   > As long as this creature is paired with another creature, both creatures have vigilance.
 - **Keywords:** Soulbond
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28642 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddq/19/spectral-gateguards) · oracle_id `334f7cd5-6c7b-4592-b564-8a0edac4a1b4` · printing: DDQ #19 (2016-02-26) · [rulings](https://api.scryfall.com/cards/8f658073-5d90-4dca-b867-35ab827f22fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectral Grasp
@@ -592,6 +639,7 @@
   > Enchanted creature can't block creatures you control.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15768 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/58/spectral-grasp) · oracle_id `4d2377fb-ac3b-453b-b632-abe918d72529` · printing: CMM #58 (2023-08-04) · [rulings](https://api.scryfall.com/cards/3ee3cce9-d570-4a45-b484-089849a91b6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectral Guardian
@@ -605,6 +653,7 @@
   > *"A treasure to guard other treasures is worth the highest price."*
   > *—Mtai, Civic Guildmage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30818 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/41/spectral-guardian) · oracle_id `87d734bc-4e4d-4013-91ed-c6bf1dde824e` · printing: MIR #41 (1996-10-08) · [rulings](https://api.scryfall.com/cards/2a0bea61-8fd2-4802-90b4-651bebbe9638/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectral Hunt-Caller
@@ -617,6 +666,7 @@
 - **Flavor text** (J22 printing):
   > *The nightsong begins with a lone howl, but soon swells to a deafening chorus.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23833 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/j22/45/spectral-hunt-caller) · oracle_id `d03ef35b-0609-46b5-ab8a-64d8007eab26` · printing: J22 #45 (2022-12-02) · [rulings](https://api.scryfall.com/cards/358fc99b-b2e5-4967-ba5a-ab2caee1751c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectral Interference
@@ -628,6 +678,7 @@
 - **Flavor text** (DFT printing):
   > *"So many fears. Let's make them all come true."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11293 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/63/spectral-interference) · oracle_id `cb5ed146-5079-46ef-a3e0-e584fa4467f6` · printing: DFT #63 (2025-02-14) · [rulings](https://api.scryfall.com/cards/860cb8af-a5f6-47e7-a34b-7b9f11ddc8c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectral Lynx
@@ -642,7 +693,11 @@
   > *A shadowy version of its corporeal cousin, this lynx hunts souls, not meals.*
 - **Keywords:** Regenerate, Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29361 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/28/spectral-lynx) · oracle_id `b5187725-9a39-433c-ae09-eccd6111574c` · printing: DMR #28 (2023-01-13) · [rulings](https://api.scryfall.com/cards/1fa545eb-aa45-4085-8472-676f5d5e1c48/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-12-08* — Activating the ability creates a replacement effect that acts like a shield, replacing the next time Spectral Lynx would be destroyed that turn. This shield works against effects that try to destroy Spectral Lynx or lethal damage that would be dealt to Spectral Lynx.
+  - *2022-12-08* — Spectral Lynx can regenerate even if it isn’t in combat, it’s already tapped, or it’s undamaged.
+  - *2022-12-08* — You can activate the regeneration ability even if Spectral Lynx isn’t at risk of being destroyed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/28/spectral-lynx) · oracle_id `b5187725-9a39-433c-ae09-eccd6111574c` · printing: DMR #28 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectral Prison
 
@@ -654,6 +709,7 @@
   > When enchanted creature becomes the target of a spell, sacrifice this Aura.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29973 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/avr/75/spectral-prison) · oracle_id `b5991a13-5fcd-4d2d-9db2-d3d5af7259f5` · printing: AVR #75 (2012-05-04) · [rulings](https://api.scryfall.com/cards/89d141bc-7307-40c2-a7ed-427caaec5efc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectral Procession
@@ -666,7 +722,12 @@
   > *"I need never remember my past associates, my victims, my mistakes. Innistrad preserves them all for me."*
   > *—Sorin Markov*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11727 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/33/spectral-procession) · oracle_id `376271a6-80f0-47a6-990a-5ec5517aae42` · printing: MM2 #33 (2015-05-22) · [rulings](https://api.scryfall.com/cards/9964629e-d79e-46e4-b3fd-e7d1759cbc60/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-05-01* — A card with a monocolored hybrid mana symbol in its mana cost is each of the colors that appears in its mana cost, regardless of what mana was spent to cast it. Thus, Spectral Procession is white even if you spend six blue mana to cast it.
+  - *2008-05-01* — A card with monocolored hybrid mana symbols in its mana cost has a mana value equal to the highest possible cost it could be cast for. Its mana value never changes. Thus, Spectral Procession has a mana value of 6, even if you spend {W}{W}{W} to cast it.
+  - *2008-05-01* — If a cost includes more than one monocolored hybrid mana symbol, you can choose a different way to pay for each symbol. For example, you can pay for Spectral Procession by spending {W}{W}{W}, {2}{W}{W}, {4}{W}, or {6}.
+  - *2008-05-01* — If an effect reduces the cost to cast a spell by an amount of generic mana, it applies to a monocolored hybrid spell only if you've chosen a method of paying for it that includes generic mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/33/spectral-procession) · oracle_id `376271a6-80f0-47a6-990a-5ec5517aae42` · printing: MM2 #33 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectral Reserves
 
@@ -678,6 +739,7 @@
   > *"My predecessors taught me of duty and commitment. It seems they have more to teach."*
   > *—Wendin, veteran cathar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23936 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/emn/43/spectral-reserves) · oracle_id `628e5c1d-c7f9-4a98-98fb-13d7d5f81f64` · printing: EMN #43 (2016-07-22) · [rulings](https://api.scryfall.com/cards/7618aa2d-d5b3-41e6-978f-2c8292f7f896/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectral Rider
@@ -691,6 +753,7 @@
   > *Never a word. Never a warning. Only the sound of hoofbeats along the crossways, and the screams of the avenged.*
 - **Keywords:** Intimidate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26482 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/isd/35/spectral-rider) · oracle_id `713641c4-544e-4c25-ab11-10894be2cb53` · printing: ISD #35 (2011-09-30) · [rulings](https://api.scryfall.com/cards/b47e4e56-8bde-480d-b59c-17a017665b19/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectral Sailor
@@ -735,6 +798,7 @@
   > *The restless geists of common folk often continue their lifelong labors.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16629 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/41/spectral-shepherd) · oracle_id `d28b7c07-ef65-4187-a15e-2180bdc593d1` · printing: INR #41 (2025-01-24) · [rulings](https://api.scryfall.com/cards/a44cc0d0-5fdf-4090-bedd-a64069831df4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectral Shield
@@ -749,7 +813,9 @@
   > *—Gerda Äagesdotter, Archmage of the Unseen*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28751 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/176/spectral-shield) · oracle_id `37d9c065-598d-4ee3-abfc-625bd6169ff1` · printing: ME3 #176 (2009-09-07) · [rulings](https://api.scryfall.com/cards/57281028-c4ec-4875-9b15-956b153ced41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — The enchanted creature can still be the target of abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/176/spectral-shield) · oracle_id `37d9c065-598d-4ee3-abfc-625bd6169ff1` · printing: ME3 #176 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectral Shift
 
@@ -762,7 +828,9 @@
   > Entwine {2} (Choose both if you pay the entwine cost.)
 - **Keywords:** Entwine
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19351 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/37/spectral-shift) · oracle_id `99eb4f63-841f-4b6b-9794-82bc2ed7b758` · printing: 5DN #37 (2004-06-04) · [rulings](https://api.scryfall.com/cards/b1a3f75d-9a79-4c16-8f50-43a18add4579/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2005-04-01* — Because of updated targeting rulings, it’s possible to target the same spell or permanent with both abilities when cast with Entwine.
+- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/37/spectral-shift) · oracle_id `99eb4f63-841f-4b6b-9794-82bc2ed7b758` · printing: 5DN #37 (2004-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectral Sliver
 
@@ -775,7 +843,10 @@
   > *"Sure, I've seen agents of the Cabal here and there. Well, not here, and certainly not in any of the sliver labs. Oh dear, I've said too much."*
   > *—Apprentice researcher*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23983 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lgn/83/spectral-sliver) · oracle_id `b08d4381-1a75-4c59-9551-b3133f7495a3` · printing: LGN #83 (2003-02-03) · [rulings](https://api.scryfall.com/cards/bec97e3c-7b75-4abb-a50e-86bc8cc3bf06/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit.
+  - *2013-07-01* — If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lgn/83/spectral-sliver) · oracle_id `b08d4381-1a75-4c59-9551-b3133f7495a3` · printing: LGN #83 (2003-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectral Snatcher
 
@@ -787,6 +858,7 @@
   > Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.)
 - **Keywords:** Landcycling, Ward, Typecycling, Cycling, Swampcycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14084 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/116/spectral-snatcher) · oracle_id `371762f6-e07b-4c0e-a4ee-6c35a3809eb6` · printing: DSK #116 (2024-09-27) · [rulings](https://api.scryfall.com/cards/68f90f57-94a0-4ee1-9383-093e8fca52ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectral Steel
@@ -799,6 +871,7 @@
   > {1}{W}, Exile this card from your graveyard: Return another target Aura or Equipment card from your graveyard to your hand.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10952 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/30/spectral-steel) · oracle_id `95f74c0d-3f89-4944-997e-1bdc408bae71` · printing: KHM #30 (2021-02-05) · [rulings](https://api.scryfall.com/cards/cf036489-ef9e-40ee-a1bb-24ee37c554f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectra Ward
@@ -838,6 +911,7 @@
 - **Flavor text** (MSH printing):
   > *"Ah, to be a young and carefree Super Hero! Not a worry in the world for this spandex savior! I wish!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23021 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/227/speedball-new-warrior) · oracle_id `53d3ef8f-8e0f-4119-8cdc-a0bf076b4e91` · printing: MSH #227 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e040b456-9853-4e94-9bf8-9374888168bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Speedway Fanatic
@@ -852,7 +926,9 @@
   > *If her vehicle even has a brake, she couldn't tell you which pedal it is.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15310 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/132/speedway-fanatic) · oracle_id `5e7e1b23-ac4b-4f95-9388-feb099d6779f` · printing: KLD #132 (2016-09-30) · [rulings](https://api.scryfall.com/cards/436ce901-6ac6-4f8c-8ff0-18103f2642b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-09-20* — Speedway Fanatic's triggered ability triggers when it becomes tapped to activate a crew ability. Even if Speedway Fanatic leaves the battlefield before its triggered ability resolves, that Vehicle still gains haste until end of turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/132/speedway-fanatic) · oracle_id `5e7e1b23-ac4b-4f95-9388-feb099d6779f` · printing: KLD #132 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Speed, Young Avenger
 
@@ -866,6 +942,7 @@
   > *"Wait? Sorry, not in my vocabulary."*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18568 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/152/speed-young-avenger) · oracle_id `2fb0f2d2-ed1f-4181-91f2-684a71c34998` · printing: MSH #152 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d15d187b-dc5d-482d-a79a-b9b98193ad7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spellbane Centaur
@@ -878,6 +955,7 @@
 - **Flavor text** (ODY printing):
   > *"No mage's deception can harm those who keep nature balanced."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28073 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/271/spellbane-centaur) · oracle_id `81de0cb1-6665-41eb-8dfc-bb30192e1359` · printing: ODY #271 (2001-10-01) · [rulings](https://api.scryfall.com/cards/72194a6e-481d-4b07-922b-53f919bfa316/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spellbinder
@@ -890,7 +968,13 @@
   > Equip {4}
 - **Keywords:** Equip, Imprint
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15449 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dst/143/spellbinder) · oracle_id `da50989e-4fd4-4353-afd5-9c1354330ec2` · printing: DST #143 (2004-02-06) · [rulings](https://api.scryfall.com/cards/4d193d4f-1beb-4938-b3fb-b2e96d0c9ec4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2004-12-01* — If the copied card is a split card, you choose which one side of it to cast, but you can't cast both sides. You can choose the other side later in the game, though.
+  - *2004-12-01* — Spellbinder imprints a card only once, when it enters. Attaching Spellbinder to a creature doesn't trigger its "enters" ability.
+  - *2004-12-01* — Spellbinder's second ability allows you to create a copy of the imprinted instant card in the Exile zone (that's where the imprinted instant card is) and then cast it without paying its mana cost.
+  - *2004-12-01* — You don't pay the spell's mana cost. If the spell has X in its mana cost, X is 0. You do pay any additional costs for that spell. You can't use any alternative costs.
+  - *2005-03-01* — The creation of the copy and then the casting of the copy are both optional.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dst/143/spellbinder) · oracle_id `da50989e-4fd4-4353-afd5-9c1354330ec2` · printing: DST #143 (2004-02-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spellbinding Soprano
 
@@ -902,6 +986,7 @@
   > Encore {3}{R} ({3}{R}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)
 - **Keywords:** Encore
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19435 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/53/spellbinding-soprano) · oracle_id `dffd5f0f-3a7b-47ed-864e-06c752bdcefc` · printing: NCC #53 (2022-04-29) · [rulings](https://api.scryfall.com/cards/248d71f9-89ef-492e-a854-a890f7d91ef8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spell Blast
@@ -913,7 +998,10 @@
 - **Flavor text** (TPR printing):
   > *Call it the thinking mage's version of brute force.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20112 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/69/spell-blast) · oracle_id `04477339-7ed5-4770-9e5c-6e481ffcc858` · printing: TPR #69 (2015-05-06) · [rulings](https://api.scryfall.com/cards/26fb30a8-9f6b-425b-95d3-0719319dbb3f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-07-01* — Alternative costs, additional costs, cost increases, and cost reductions don't affect a spell's mana value.
+  - *2013-07-01* — If the target spell has {X} in its mana cost, include the value chosen for that X when determining the value of the {X} in Spell Blast's mana cost. For example, if you wish to counter Volcanic Geyser (a spell with mana cost {X}{R}{R}) whose X is 7, you'll need to choose 9 for Spell Blast's X and pay {9}{U}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/69/spell-blast) · oracle_id `04477339-7ed5-4770-9e5c-6e481ffcc858` · printing: TPR #69 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spellbook
 
@@ -940,7 +1028,23 @@
   > Draw two cards, then discard two cards.
 - **Keywords:** Flying, Prepared
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16575 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/68/spellbook-seeker-careful-study) · oracle_id `df5e4100-8c83-42d6-af96-1a1ec84a9210` · printing: SOS #68 (2026-04-24) · [rulings](https://api.scryfall.com/cards/cc44eaa4-59a4-419e-b1d1-d92f354ff588/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2026-03-20* — A creature with a prepare spell can't become prepared more than once at the same time. For example, Emeritus of Ideation is on the battlefield and is prepared. When it attacks, its last ability triggers. When that ability resolves, its controller may still exile eight cards from their graveyard, but doing so won't cause Emeritus of Ideation to become prepared a second time or create a second copy of Ancestral Recall in exile.
+  - *2026-03-20* — A creature without a prepare spell can't become prepared.
+  - *2026-03-20* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Emeritus of Ideation is a blue creature whose mana value is 5. It can't be the target of Zealous Lorecaster's triggered ability ("When this creature enters, return target instant or sorcery card from your graveyard to your hand.").
+  - *2026-03-20* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-03-20* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-03-20* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-03-20* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog.") targeting Goblin Glasswright. The token copy of Goblin Glasswright will enter prepared as a 1/1 green Frog creature, but the copy of Craft with Pride in exile will still be a red sorcery. The copy of Craft with Pride won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-03-20* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-03-20* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-03-20* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-03-20* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-03-20* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
+  - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/68/spellbook-seeker-careful-study) · oracle_id `df5e4100-8c83-42d6-af96-1a1ec84a9210` · printing: SOS #68 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spellbook Vendor
 
@@ -976,7 +1080,9 @@
   > *A king in Jund, a serf in Esper.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21088 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c17/196/spellbound-dragon) · oracle_id `86b8a9ef-7cdf-47e9-accb-16fe1eab718f` · printing: C17 #196 (2017-08-25) · [rulings](https://api.scryfall.com/cards/88eba680-a0d7-4356-bf74-7986a51e545f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-05-01* — You'll discard a card even if some other effect replaces the draw.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c17/196/spellbound-dragon) · oracle_id `86b8a9ef-7cdf-47e9-accb-16fe1eab718f` · printing: C17 #196 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spellbreaker Behemoth
 
@@ -990,7 +1096,11 @@
   > *"Some think its immunity to countermagic evolved because of the constant mage attacks on Naya. I think it just ate a bunch of wizards."*
   > *—Broka, drumhunter*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10634 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c13/216/spellbreaker-behemoth) · oracle_id `cba07472-7212-4411-a9f9-38a48870ad69` · printing: C13 #216 (2013-11-01) · [rulings](https://api.scryfall.com/cards/b8f73857-8bfb-400a-8c33-47c85276fb2a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2009-05-01* — Any spells or abilities that would counter Spellbreaker Behemoth or (once it’s on the battlefield) a creature spell you control with power 5 or greater can still be cast or activated and will still resolve. They just won’t counter that spell. Any other effects they have will happen as normal.
+  - *2009-05-01* — Effects that affect a creature’s power (such as the one from Glorious Anthem, for example) apply only to creatures on the battlefield, not to creature spells on the stack.
+  - *2009-05-01* — If a creature card has “*” in its power, the ability that defines “*” works in all zones, including the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c13/216/spellbreaker-behemoth) · oracle_id `cba07472-7212-4411-a9f9-38a48870ad69` · printing: C13 #216 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spell Burst
 
@@ -1001,7 +1111,9 @@
   > Counter target spell with mana value X.
 - **Keywords:** Buyback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10162 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/88/spell-burst) · oracle_id `141d9b88-5326-4e3d-8f16-5293246fab88` · printing: TSR #88 (2021-03-19) · [rulings](https://api.scryfall.com/cards/8169929c-641f-41c8-a48e-1a7d0c57726b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — For spells with {X} in their mana costs, use the value chosen for X to determine the spell's mana value.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/88/spell-burst) · oracle_id `141d9b88-5326-4e3d-8f16-5293246fab88` · printing: TSR #88 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spell Contortion
 
@@ -1012,7 +1124,16 @@
   > Counter target spell unless its controller pays {2}. Draw a card for each time Spell Contortion was kicked.
 - **Keywords:** Multikicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25043 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/38/spell-contortion) · oracle_id `01003192-8927-4e55-8dd9-e9e088a3fbe4` · printing: WWK #38 (2010-02-05) · [rulings](https://api.scryfall.com/cards/4b748d8b-898f-4b55-bc33-f5bbbc823c45/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2010-03-01* — If Spell Contortion resolves, you draw a card for each time Spell Contortion was kicked, regardless of whether the targeted spell's controller pays {2} or whether the targeted spell is countered this way.
+  - *2010-03-01* — If the targeted spell is an illegal target by the time Spell Contortion resolves, Spell Contortion doesn't resolve. You won't draw any cards.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/38/spell-contortion) · oracle_id `01003192-8927-4e55-8dd9-e9e088a3fbe4` · printing: WWK #38 (2010-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spell Counter
 
@@ -1024,6 +1145,7 @@
 - **Flavor text** (UNH printing):
   > *Playing \*Unhinged\*, . . .*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/46/spell-counter) · oracle_id `7846f566-5fab-4f4e-b424-a23cc9a51538` · printing: UNH #46 (2004-11-19) · [rulings](https://api.scryfall.com/cards/e3d323f0-334f-49d1-b338-24c4b854a112/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spell Crumple
@@ -1033,7 +1155,10 @@
 - **Oracle text:**
   > Counter target spell. If that spell is countered this way, put it on the bottom of its owner's library instead of into that player's graveyard. Put Spell Crumple on the bottom of its owner's library.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12949 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/50/spell-crumple) · oracle_id `d4ab7848-5c37-4c6b-be29-0bb703333e5b` · printing: CM2 #50 (2018-06-08) · [rulings](https://api.scryfall.com/cards/522d6195-7660-42c0-848b-cc46e19fc4eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-09-22* — If the spell is an illegal target when Spell Crumple tries to resolve, it won’t resolve and none of its effects will happen. Spell Crumple will be put into its owner’s graveyard.
+  - *2011-09-22* — If the targeted spell can’t be countered, it won’t be put onto the bottom of its owner’s library. Spell Crumple will still be put on the bottom of its owner’s library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/50/spell-crumple) · oracle_id `d4ab7848-5c37-4c6b-be29-0bb703333e5b` · printing: CM2 #50 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spelleater Wolverine
 
@@ -1046,7 +1171,9 @@
   > *"The monster that scares me the most isn't the biggest."*
   > *—Taelya, Lavabrink pyromage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26719 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/137/spelleater-wolverine) · oracle_id `a3b226b9-f149-4578-882b-77447608380a` · printing: IKO #137 (2020-04-24) · [rulings](https://api.scryfall.com/cards/a5f03ffd-dcdb-441c-8dfc-4fe06a289b22/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-04-17* — If Spelleater Wolverine loses double strike after it deals first-strike damage, it won’t deal regular combat damage. If it gains double strike after other creatures have dealt first-strike damage, it won’t deal first-strike damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/137/spelleater-wolverine) · oracle_id `a3b226b9-f149-4578-882b-77447608380a` · printing: IKO #137 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spellgorger Barbarian
 
@@ -1059,6 +1186,7 @@
 - **Flavor text** (JUD printing):
   > *The epidemic insanity had a lasting effect on certain barbarians—but no one noticed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30841 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jud/100/spellgorger-barbarian) · oracle_id `9c0fd5ad-fbba-4598-80cf-6540888378cb` · printing: JUD #100 (2002-05-27) · [rulings](https://api.scryfall.com/cards/043fcf80-dd20-4cc2-a0d5-4bb22b8b0789/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spellgorger Weird
@@ -1071,7 +1199,9 @@
 - **Flavor text** (CLU printing):
   > *Freed from their respective labs, the two weirds formed a partnership, feeding on the arcane energies of war.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16354 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/148/spellgorger-weird) · oracle_id `550811ca-0995-4886-aa8c-5cee118aa54f` · printing: CLU #148 (2024-02-23) · [rulings](https://api.scryfall.com/cards/9ba52955-2ab9-48a4-bb12-6127bdef1909/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-06-23* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/148/spellgorger-weird) · oracle_id `550811ca-0995-4886-aa8c-5cee118aa54f` · printing: CLU #148 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spellgyre
 
@@ -1098,7 +1228,9 @@
   > *Thaumaturges remain silent around chimeras, lest their words conjure even stranger beasts.*
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15840 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dds/25/spellheart-chimera) · oracle_id `9745fc92-4955-48e3-a6c8-1300891cf078` · printing: DDS #25 (2017-03-31) · [rulings](https://api.scryfall.com/cards/8782a7b7-79ca-4e5c-845b-d662222574c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-09-15* — The ability that defines Spellheart Chimera's power functions in all zones, not just the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dds/25/spellheart-chimera) · oracle_id `9745fc92-4955-48e3-a6c8-1300891cf078` · printing: DDS #25 (2017-03-31) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spelling Bee
 
@@ -1112,7 +1244,11 @@
   > *Just be thankful it wasn't grammar scorpions.*
 - **Keywords:** Deathtouch, Scry, Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #30299 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/155/spelling-bee) · oracle_id `50dd0231-a6a4-419f-a849-0c5b5b2e1bf3` · printing: UNF #155 (2022-10-07) · [rulings](https://api.scryfall.com/cards/40ceb595-33cd-4b5c-8a23-83b1cd5709d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-10-07* — If a redirection effect causes a Spelling Bee you control to deal combat damage to you, you’ll look at the top card of your own library and will choose a word to spell. No one else will be able to verify you did it correctly, but we’ll give you the benefit of the doubt.
+  - *2022-10-07* — If you spell the word correctly, the card you draw will be the card that includes the word. If you don’t, the card you look at to scry 1 will be that card.
+  - *2022-10-07* — The player looking at the top card of your library can choose any word from the card’s name, type line, or text box. Notably, they can’t choose a word that’s only in the artwork or artist credit. It doesn’t have to be a real word from a dictionary; Astroquarium is a perfectly cromulent word, for example.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/155/spelling-bee) · oracle_id `50dd0231-a6a4-419f-a849-0c5b5b2e1bf3` · printing: UNF #155 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spelljack
 
@@ -1121,7 +1257,11 @@
 - **Oracle text:**
   > Counter target spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard. You may play it without paying its mana cost for as long as it remains exiled. (If it has X in its mana cost, X is 0.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17045 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jud/51/spelljack) · oracle_id `7687b2a7-816d-4416-979b-675e35e235fc` · printing: JUD #51 (2002-05-27) · [rulings](https://api.scryfall.com/cards/3eda8c7b-ce35-482a-bece-52a30cc78a9a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — If you cast an instant or sorcery, it goes to its owner’s graveyard when it resolves.
+  - *2004-10-04* — This spell can be used on a spell cast using Flashback.
+  - *2008-08-01* — If you use this on an opponent’s spell which has Buyback, you may pay the Buyback cost as you cast it. If you do so, the card will go to its owner’s hand upon resolution. It will not go to your hand, nor to any player’s graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jud/51/spelljack) · oracle_id `7687b2a7-816d-4416-979b-675e35e235fc` · printing: JUD #51 (2002-05-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spellkeeper Weird
 
@@ -1133,6 +1273,7 @@
 - **Flavor text** (WAR printing):
   > *They worked well as a team, but they knew it couldn't last forever.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23186 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/69/spellkeeper-weird) · oracle_id `91e09399-3f09-4323-8533-51536ecb7869` · printing: WAR #69 (2019-05-03) · [rulings](https://api.scryfall.com/cards/74e42dad-5958-443f-a196-12b3f3e44213/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spellmorph Raise Dead
@@ -1143,7 +1284,21 @@
   > Return target creature card from your graveyard to your hand.
   > Spellmorph {B} (You may cast this card face down as a 2/2 creature for {3}. Cast it any time for its spellmorph cost.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/46/spellmorph-raise-dead) · oracle_id `d8f5c632-48d2-416a-9bdd-59f9b8bcd212` · printing: CMB2 #46 (2021-08-20) · [rulings](https://api.scryfall.com/cards/8a5e3882-af37-4a8b-b41b-c1c064f4dbf9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2019-11-12* — Are you still reading? That’s awesome. Face-down cards are tricky. One more ruling to go.
+  - *2019-11-12* — Because face-down creatures don’t have a name, they can’t have the same name as any other creature or share any creature types with any other creature, even another face-down creature.
+  - *2019-11-12* — If a card with spellmorph is manifested, you can cast it from the battlefield.
+  - *2019-11-12* — If a face-down creature with spellmorph loses all abilities, it can’t be cast from the battlefield.
+  - *2019-11-12* — If a face-down permanent you control leaves the battlefield, you must reveal it. If a face-down spell you control leaves the stack other than by resolving, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends. The game doesn’t count them as being turned face up when you reveal them this way.
+  - *2019-11-12* — If an effect tries to return a face-down creature to the battlefield after it leaves (such Momentary Blink or Adarkar Valkyrie’s delayed triggered ability), that effect returns the card face up. If it tries to put an instant or sorcery card onto the battlefield this way, that card remains in its current zone instead.
+  - *2019-11-12* — Spellmorph is a variant of morph. A spellmorph ability is a morph ability, and a spellmorph cost is a morph cost. All rules and rulings for morph apply to spellmorph, except for how to turn it face up.
+  - *2019-11-12* — The controller of the face-down creature with spellmorph can cast it, regardless of who cast the face-down creature spell.
+  - *2019-11-12* — The face-down characteristics of a permanent are copiable values. If another object becomes a copy of a face-down creature or if a token is created that’s a copy of a face-down creature, that new object is a 2/2 colorless face-up creature with no abilities.
+  - *2019-11-12* — There are no cards in this set that would turn a face-down instant or sorcery card face up, but some older cards can try to do this. If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it’s an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won’t trigger, because even though you revealed the card, it never turned face up.
+  - *2019-11-12* — To cast a spell with a morph ability, you turn it face down before determining whether it’s legal to cast. The face-down spell (and the permanent it becomes) is a 2/2 creature with no name, mana cost, creature types, or abilities. It’s colorless and has a converted mana cost of 0, and the cost to cast the spell is {3}. Other effects that apply to the spell or permanent can still grant or change any of these characteristics.
+  - *2019-11-12* — To cast a spell with spellmorph from the battlefield, first reveal that it has a spellmorph cost. If it does, ignore all effects that are affecting it to determine whether it’s legal to cast; it’s no longer a creature. If it’s legal to cast, move it to the stack. If you realize that you can’t legally cast the spell, the game rewinds and it remains face down on the battlefield.
+  - *2019-11-12* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix them up on the battlefield to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/46/spellmorph-raise-dead) · oracle_id `d8f5c632-48d2-416a-9bdd-59f9b8bcd212` · printing: CMB2 #46 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spell Pierce
 
@@ -1168,7 +1323,13 @@
   > At the beginning of each end step, if you cycled two or more cards this turn, return this card from your graveyard to your hand.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19329 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/56/spellpyre-phoenix) · oracle_id `a86710da-e498-4ca1-832c-8ba4abd6fa46` · printing: C20 #56 (2020-04-17) · [rulings](https://api.scryfall.com/cards/f492c4f5-27b7-4f09-a3af-2fb1aeac50d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-04-17* — If you somehow cycle a card, return it to your hand, and cycle it a second time in one turn, Spellpyre Phoenix's last ability counts each time you cycled it and returns to your hand.
+  - *2020-04-17* — Some cards with cycling have an ability that triggers when you cycle them, and some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
+  - *2020-04-17* — Spellpyre Phoenix's last ability checks the entire turn. Cards you cycled before Spellpyre Phoenix was put into your graveyard count.
+  - *2020-04-17* — Triggered abilities from cycling a card and the cycling ability itself aren't spells. Effects that interact with spells (such as that of Cancel) won't affect them.
+  - *2020-04-17* — You can cycle a card even if it has a triggered ability from cycling that won't have a legal target. This is because the cycling ability and the triggered ability are separate. This also means that if either ability is countered (with Disallow, for example), the other ability will still resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/56/spellpyre-phoenix) · oracle_id `a86710da-e498-4ca1-832c-8ba4abd6fa46` · printing: C20 #56 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spell Queller
 
@@ -1182,7 +1343,15 @@
   > When this creature leaves the battlefield, the exiled card's owner may cast that card without paying its mana cost.
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10410 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/248/spell-queller) · oracle_id `135135f2-1643-40db-91f2-bb7b956d212c` · printing: INR #248 (2025-01-24) · [rulings](https://api.scryfall.com/cards/a9364b43-ab2e-4433-91e8-88a0d5d5965c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-01-24* — For spells with {X} in their mana costs, use the value chosen for X to determine if the spell’s mana value is 4 or less.
+  - *2025-01-24* — If Spell Queller leaves the battlefield before its “enters” ability resolves, its leaves-the-battlefield triggered ability triggers, resolves, and does nothing. Then its first triggered ability resolves and exiles the spell forever.
+  - *2025-01-24* — If a player casts a card “without paying its mana cost,” they can’t choose to cast it for any alternative costs, such as emerge costs. The player can, however, pay additional costs, such as escalate costs. If the card has any mandatory additional costs, those must be paid to cast the card.
+  - *2025-01-24* — If the card has {X} in its mana cost, the player must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2025-01-24* — If the exiled card’s owner casts it, the spell has no relation to the spell that player originally cast. Any choices made for the original spell or effects affecting the original spell aren’t carried over to the new one.
+  - *2025-01-24* — If the player casts the exiled card, they do so as part of the resolution of Spell Queller’s last ability. The player can’t wait to cast it later in the turn. Timing permissions based on the card’s type are ignored, but other restrictions (such as “Cast [this card] only during combat”) are not.
+  - *2025-01-24* — Spells that can’t be countered can be exiled by Spell Queller’s ability. They won’t resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/248/spell-queller) · oracle_id `135135f2-1643-40db-91f2-bb7b956d212c` · printing: INR #248 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spellrune Painter // Spellrune Howler
 
@@ -1197,7 +1366,17 @@
   > Nightbound (If a player casts at least two spells during their own turn, it becomes day next turn.)
 - **Keywords:** Transform, Daybound, Nightbound
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20927 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/160/spellrune-painter-spellrune-howler) · oracle_id `4ff8c359-430f-434e-ac1e-822abdc28360` · printing: MID #160 (2021-09-24) · [rulings](https://api.scryfall.com/cards/d2a5b43d-e21b-4294-9ea2-5bd0264e71d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2021-09-24* — Before a player untaps their permanents during the untap step, the game checks to see if the day/night designation should change.
+  - *2021-09-24* — Day and night are designations that the game itself can have. The game starts as neither. Once the game becomes day (or less commonly, night), the game will be exactly one of them—day or night—going back and forth for the rest of the game.
+  - *2021-09-24* — Double-faced permanents with daybound transform to their nightbound faces as it becomes night. Similarly, double-faced permanents with nightbound transform to their daybound faces as it becomes day. This happens immediately and is not a state-based action. It happens any time it becomes day or night, not just during the untap step.
+  - *2021-09-24* — If it is day, and the active player of the previous turn cast no spells during their turn, it becomes night.
+  - *2021-09-24* — If it is night, and the active player of the previous turn cast two or more spells during their turn, it becomes day.
+  - *2021-09-24* — If it is night, permanents with daybound that enter the battlefield without being cast will enter with their nightbound faces up.
+  - *2021-09-24* — If it's neither day nor night, and a creature with daybound and a creature with nightbound somehow appear on the battlefield at the same time, it becomes day. The creature with nightbound will transform.
+  - *2021-09-24* — If you cast a spell with daybound during night, that spell will be front face up (that is, daybound face up) on the stack. However, it will enter the battlefield with its back face up (that is, with its nightbound face up). It won't enter with its daybound face up and then transform.
+  - *2021-09-24* — Permanents with daybound and nightbound can't transform via any means other than their daybound and nightbound abilities. Notably, older cards such as Moonmist that instruct a player to transform permanents don't affect permanents with daybound or nightbound.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/160/spellrune-painter-spellrune-howler) · oracle_id `4ff8c359-430f-434e-ac1e-822abdc28360` · printing: MID #160 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spell Rupture
 
@@ -1209,7 +1388,9 @@
   > *"Like water, mana will drain from an inferior vessel."*
   > *—Jalan Tosk, Simic forcemage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11633 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/52/spell-rupture) · oracle_id `934c50aa-7d2e-4c9e-b91b-1e8c4055e1c6` · printing: GTC #52 (2013-02-01) · [rulings](https://api.scryfall.com/cards/7267fcec-0879-4743-a45f-35057ccb2596/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-01-24* — The value of X is the greatest power among creatures you control when Spell Rupture resolves. If you control no creatures at that time, X will be 0. The target spell’s controller can choose to pay {0} (simply by indicating they wish to do so). That player can also choose to not pay {0} and the spell will be countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/52/spell-rupture) · oracle_id `934c50aa-7d2e-4c9e-b91b-1e8c4055e1c6` · printing: GTC #52 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spell Satchel
 
@@ -1221,7 +1402,13 @@
   > {3}, {T}, Remove three book counters from this artifact: Draw a card.
 - **Keywords:** Magecraft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14554 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/258/spell-satchel) · oracle_id `912c5e71-554c-4e31-8831-018760752eb1` · printing: STX #258 (2021-04-23) · [rulings](https://api.scryfall.com/cards/7de826a0-6e68-4d40-a51c-8d6e7a4148d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-04-16* — Each magecraft ability has a different effect, although they all have the same trigger condition, whenever you cast or copy an instant or sorcery spell.
+  - *2021-04-16* — For example, if you control Archmage Emeritus and cast an instant or sorcery spell, Archmage Emeritus’s magecraft ability will trigger and you will draw a card.
+  - *2021-04-16* — If an effect creates a copy of an instant or sorcery spell, this will also cause the magecraft ability to trigger.
+  - *2021-04-16* — If an effect creates multiple copies of an instant or sorcery spell, magecraft abilities trigger once for each copy created by the effect.
+  - *2021-04-16* — Some effects instruct you to copy an instant or sorcery card in a zone other than the stack. These copies do not cause magecraft abilities to trigger. However, most effects that do this also allow you to cast the copy, and casting the copy will cause magecraft abilities to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/258/spell-satchel) · oracle_id `912c5e71-554c-4e31-8831-018760752eb1` · printing: STX #258 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spellscorn Coven // Take It Back
 
@@ -1234,7 +1421,22 @@
   > Return target spell to its owner's hand. (Then exile this card. You may cast the creature later from exile.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11534 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/237/spellscorn-coven-take-it-back) · oracle_id `9357fc7f-c9d0-4ce2-a6dd-0ff1f24bfc56` · printing: WOE #237 (2023-09-08) · [rulings](https://api.scryfall.com/cards/8c112f62-6034-4636-a75b-4a45bc916a91/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2023-09-01* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it’s in your graveyard, Questing Druid is a green creature card whose mana value is 2. It can’t be the target of Tenacious Tomeseeker’s triggered ability (“return target instant or sorcery card from your graveyard to your hand”).
+  - *2023-09-01* — An effect may refer to a card, spell, or permanent that “has an Adventure.” This refers to a card, spell, or permanent that has an adventurer card’s set of alternative characteristics, even if they’re not being used and even if that card was never cast as an Adventure.
+  - *2023-09-01* — Casting a card as an Adventure isn’t casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2023-09-01* — If a copy of a spell is returned to its owner's hand, it's moved there, then it will cease to exist as a state-based action. It can't be recast.
+  - *2023-09-01* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner’s graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won’t be exiled and the spell’s controller won’t be able to cast it as a permanent later.
+  - *2023-09-01* — If a spell is returned to its owner's hand, it's removed from the stack and thus will not resolve. The spell isn't countered; it just no longer exists. This works even against a spell that can't be countered.
+  - *2023-09-01* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won’t give you permission to cast it as a permanent spell.
+  - *2023-09-01* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it’s not possible to cast the copy as a permanent.
+  - *2023-09-01* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2023-09-01* — If an effect refers to a card, spell, or permanent that has an Adventure, it won’t find an instant or sorcery spell on the stack that’s been cast as an Adventure.
+  - *2023-09-01* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it’s a token) or cease to be a copy (if it’s a nontoken permanent), and so you won’t be able to cast it as an Adventure.
+  - *2023-09-01* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer (“Once each turn, you may cast an instant or sorcery spell from the top of your library.”) and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
+  - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/237/spellscorn-coven-take-it-back) · oracle_id `9357fc7f-c9d0-4ce2-a6dd-0ff1f24bfc56` · printing: WOE #237 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spellseeker
 
@@ -1257,7 +1459,11 @@
 - **Oracle text:**
   > Counter target instant or sorcery spell. Its controller reveals cards from the top of their library until they reveal an instant or sorcery card. That player may cast that card without paying its mana cost. Then the player shuffles.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26561 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/plc/47/spellshift) · oracle_id `640fc475-5708-4ee6-a1a9-8f0722e22b48` · printing: PLC #47 (2007-02-02) · [rulings](https://api.scryfall.com/cards/f5c897a6-5835-42ac-8cc7-e8d9fc1e7c77/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2007-02-01* — If the revealed instant or sorcery card isn’t cast, it gets shuffled back into the library.
+  - *2007-02-01* — If the targeted spell can’t be countered, it remains on the stack and the rest of Spellshift’s effect continues to happen.
+  - *2007-02-01* — If there are no instant or sorcery cards in the player’s library, the entire library is revealed and then shuffled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/plc/47/spellshift) · oracle_id `640fc475-5708-4ee6-a1a9-8f0722e22b48` · printing: PLC #47 (2007-02-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spellshock
 
@@ -1281,7 +1487,13 @@
   > Counter target spell unless its controller pays {4}. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16967 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/66/spell-shrivel) · oracle_id `bfaf376f-90f9-45d9-bfbe-dd84a2a4688b` · printing: BFZ #66 (2015-10-02) · [rulings](https://api.scryfall.com/cards/efa110cb-f091-48f0-bc62-80f5f18568e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2015-08-25* — A card with devoid is just colorless. It’s not colorless and the colors of mana in its mana cost.
+  - *2015-08-25* — Cards with devoid use frames that are variations of the transparent frame traditionally used for Eldrazi. The top part of the card features some color over a background based on the texture of the hedrons that once imprisoned the Eldrazi. This coloration is intended to aid deckbuilding and game play.
+  - *2015-08-25* — Devoid works in all zones, not just on the battlefield.
+  - *2015-08-25* — If a card loses devoid, it will still be colorless. This is because effects that change an object’s color (like the one created by devoid) are considered before the object loses devoid.
+  - *2015-08-25* — Other cards and abilities can give a card with devoid color. If that happens, it’s just the new color, not that color and colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/66/spell-shrivel) · oracle_id `bfaf376f-90f9-45d9-bfbe-dd84a2a4688b` · printing: BFZ #66 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spellskite
 
@@ -1327,7 +1539,9 @@
   > *—Lodus of the Ethersworn*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27376 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/57/spell-snip) · oracle_id `cfdae813-7241-4f6c-99f0-c772af34af91` · printing: ALA #57 (2008-10-03) · [rulings](https://api.scryfall.com/cards/d6870203-ece9-4fe0-912b-2dcf685f3eb0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/57/spell-snip) · oracle_id `cfdae813-7241-4f6c-99f0-c772af34af91` · printing: ALA #57 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spell Snuff
 
@@ -1340,7 +1554,9 @@
   > *"Good night."*
 - **Keywords:** Fateful hour
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19029 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/70/spell-snuff) · oracle_id `19f3ec61-f334-4708-ad93-04ebe15c1798` · printing: MH1 #70 (2019-06-14) · [rulings](https://api.scryfall.com/cards/efadce19-07f4-47af-abc0-a436bafcdd65/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-06-14* — A spell that can’t be countered is a legal target for Spell Snuff. The spell won’t be countered when Spell Snuff resolves, but if you have 5 or less life, you’ll still draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/70/spell-snuff) · oracle_id `19f3ec61-f334-4708-ad93-04ebe15c1798` · printing: MH1 #70 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spell Stutter
 
@@ -1379,6 +1595,7 @@
   > *S-U-C-K*
 - **Keywords:** Assemble
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/45/spell-suck) · oracle_id `89e0fea2-2777-4533-85d8-6a88a1db2512` · printing: UST #45 (2017-12-08) · [rulings](https://api.scryfall.com/cards/f631bd92-2046-468d-8b10-d583a318ed24/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spell Swindle
@@ -1403,6 +1620,7 @@
 - **Flavor text** (SHM printing):
   > *Warrik Brutehexer felt betrayed that his aura favored the depths of the Wanderbrine River over its rightful place, hovering around him.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20602 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/52/spell-syphon) · oracle_id `f30e9371-2c12-496a-80e1-40c3408defed` · printing: SHM #52 (2008-05-02) · [rulings](https://api.scryfall.com/cards/b883113c-e52b-4633-b4a4-016093327b6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spelltithe Enforcer
@@ -1447,7 +1665,12 @@
   > *Synchronized spellweaving is a difficult but rewarding skill to master.*
 - **Keywords:** Assist
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31039 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/42/spellweaver-duo) · oracle_id `1fd4204f-f627-4919-9d48-79b172f4560e` · printing: BBD #42 (2018-06-08) · [rulings](https://api.scryfall.com/cards/87ba22f6-5299-46c3-bd01-9140634e60ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-06-08* — Assist allows another player to pay for any amount of generic mana. If an effect changes the cost of the spell, the amount that player may pay will be more or less than the amount in the spell’s reminder text.
+  - *2018-06-08* — If an effect allows a player to cast a spell spending mana “as though it were mana of any color” or “of any type,” that player must still pay for the colored mana in that spell’s total cost. That cost doesn’t become generic.
+  - *2018-06-08* — Only the generic mana portion of a spell’s cost can be paid with assist. Any colored mana costs must be paid by the spell’s controller, even if the assisting player paid mana of that color.
+  - *2018-06-08* — You may reveal a card with assist and discuss how to pay for it before you begin to cast the spell. Targets are chosen for that spell before you choose another player to help you pay for it and before that player has committed any mana to doing so.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/42/spellweaver-duo) · oracle_id `1fd4204f-f627-4919-9d48-79b172f4560e` · printing: BBD #42 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spellweaver Eternal
 
@@ -1462,7 +1685,12 @@
   > *—Etha, former Rhet-crop initiate*
 - **Keywords:** Prowess, Afflict
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22568 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/46/spellweaver-eternal) · oracle_id `71f3d3d3-3f82-43f6-b2a9-d21afbdd7739` · printing: HOU #46 (2017-07-14) · [rulings](https://api.scryfall.com/cards/a6bb7d1a-d606-46a8-a592-648c5d2e7382/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2017-07-14* — Afflict causes the defending player to lose life; it's not damage or combat damage.
+  - *2017-07-14* — Afflict resolves before combat damage is dealt. If this loss of life brings a player to 0 life or less, that player loses the game immediately. A blocking creature with lifelink won't deal combat damage in time to save that player.
+  - *2017-07-14* — If multiple creatures block a creature with afflict, afflict triggers only once.
+  - *2023-07-28* — If a creature is attacking a planeswalker, that planeswalker's controller is the defending player. If a creature is attacking a battle, that battle's protector is the defending player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/46/spellweaver-eternal) · oracle_id `71f3d3d3-3f82-43f6-b2a9-d21afbdd7739` · printing: HOU #46 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spellweaver Helix
 
@@ -1473,7 +1701,20 @@
   > Whenever a player casts a card, if it has the same name as one of the cards exiled with this artifact, you may copy the other. If you do, you may cast the copy without paying its mana cost.
 - **Keywords:** Imprint
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11317 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mrd/247/spellweaver-helix) · oracle_id `9aa8eef1-fc67-4d54-9783-4d0175a76741` · printing: MRD #247 (2003-10-02) · [rulings](https://api.scryfall.com/cards/a48d44b4-1c3b-4109-aaad-8351bf8a7624/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2004-10-04* — If the imprinted card leaves the exile zone while the ability to make a copy is on the stack, then no copy will be made.
+  - *2004-10-04* — If this card leaves the battlefield while the ability to make a copy is on the stack, the ability will still make a copy using the last-known-information rule.
+  - *2004-12-01* — If the two imprinted sorcery cards have the same name and a card with that name is cast, only one copy is created, not two.
+  - *2004-12-01* — If there’s only one imprinted sorcery card, nothing happens.
+  - *2004-12-01* — If you don’t want to cast the copy, you can choose not to; the copy ceases to exist the next time state-based actions are checked.
+  - *2004-12-01* — Spellweaver Helix’s second ability creates a copy of the imprinted card in the Exile zone (that’s where the imprinted sorcery card is), then allows you to cast it without paying its mana cost.
+  - *2004-12-01* — You can’t cast the copy if an effect prevents you from casting sorceries or from casting that particular sorcery.
+  - *2004-12-01* — You can’t cast the copy unless all of its targets can be chosen.
+  - *2004-12-01* — You cast the copy while this ability is resolving, and still on the stack. Normally, you’re not allowed to cast spells or activate abilities at this time. Spellweaver Helix’s ability breaks this rule. (The card that triggered this ability is also still on the stack.)
+  - *2004-12-01* — You don’t pay the spell’s mana cost. If a spell has X in its mana cost, X is 0. You do pay any additional costs for that spell. You can’t use any alternative costs.
+  - *2005-03-01* — The creation of the copy and then the casting of the copy are both optional.
+  - *2017-04-18* — A split card has the same name as a spell if either of its names is that spell’s name.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mrd/247/spellweaver-helix) · oracle_id `9aa8eef1-fc67-4d54-9783-4d0175a76741` · printing: MRD #247 (2003-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spellweaver Volute
 
@@ -1484,7 +1725,14 @@
   > Whenever you cast a sorcery spell, copy the enchanted instant card. You may cast the copy without paying its mana cost. If you do, exile the enchanted card and attach this Aura to another instant card in a graveyard.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18763 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fut/59/spellweaver-volute) · oracle_id `3d92e5ce-9d30-4203-9f84-6c36117440cf` · printing: FUT #59 (2007-05-04) · [rulings](https://api.scryfall.com/cards/79cc73ea-3f07-4d11-9961-dc31ac598b73/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2007-05-01* — If the enchanted card changes zones (due to being cast with flashback, or being exiled with Cremate, for example), Spellweaver Volute "falls off" and is put into its owner's graveyard as a state-based action.
+  - *2007-05-01* — Say Spellweaver Volute's ability triggers, then Spellweaver Volute leaves the battlefield in response. Then the instant card that was enchanted is removed from the graveyard in response. When the Volute's ability resolves, it will check its last existence on the battlefield and identify the "enchanted card" as that instant card, so the card is copied and controller of the triggered ability may cast it.
+  - *2007-05-01* — Say Spellweaver Volute's ability triggers, then the enchanted instant card is exiled in response. Spellweaver Volute, which is now enchanting nothing, is put into its owner's graveyard as a state-based action. When the Volute's ability resolves, it will check its last existence on the battlefield and identify the "enchanted card" as "nothing," so no copy is created.
+  - *2007-05-01* — The Aura will be on the battlefield attached to a card in a different zone. The Aura won't be in the graveyard. The enchanted card won't be on the battlefield.
+  - *2007-05-01* — This Aura targets, and enchants, an instant card in a graveyard. This is the first Aura that enchants something that's neither a permanent nor a player.
+  - *2007-05-01* — When you cast a sorcery spell, Spellweaver Volute's ability triggers. It will make a copy of the enchanted card. The copy will exist in the graveyard. You'll have the option to cast the copy. If you don't, the copy remains in the graveyard and ceases to exist the next time state-based actions are checked. If you do cast the copy, the copy is cast from the graveyard. After you finish casting it, the enchanted card is exiled and you must choose a new instant card in a graveyard to attach Spellweaver Volute to. If you can't, Spellweaver Volute remains on the battlefield attached to nothing and is then put into the graveyard the next time state-based actions are checked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fut/59/spellweaver-volute) · oracle_id `3d92e5ce-9d30-4203-9f84-6c36117440cf` · printing: FUT #59 (2007-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spellwild Ouphe
 
@@ -1497,7 +1745,11 @@
   > *"You'd think that their big glowing eyes would be almost hypnotic to look at. In fact, it's the other way around—they are entranced by nearly everything they see."*
   > *—Balecki, Spellwild druid*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16671 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fut/151/spellwild-ouphe) · oracle_id `13979fb6-91ba-4dd2-9bb9-8dbc7307d433` · printing: FUT #151 (2007-05-04) · [rulings](https://api.scryfall.com/cards/231eb017-2945-4915-8032-c09894e88d49/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2007-05-01* — The cost reduction applies to spells cast by any player.
+  - *2007-05-01* — The cost reduction will be {2} no matter how many times the spell targets the same Spellwild Ouphe.
+  - *2007-05-01* — The spell may have any number of other targets; that won’t affect the cost reduction unless the spell targets other Spellwild Ouphes as well. In that case, the spell costs {2} less to cast for each different Spellwild Ouphe it targets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fut/151/spellwild-ouphe) · oracle_id `13979fb6-91ba-4dd2-9bb9-8dbc7307d433` · printing: FUT #151 (2007-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spelunking
 

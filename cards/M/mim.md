@@ -23,6 +23,7 @@
   > Choose target permanent an opponent controls. Search that player's library for a card with the same name and put it onto the battlefield under your control. Then that player shuffles.
 - **Keywords:** Replicate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28026 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gpt/30/mimeofacture) · oracle_id `79b978b8-44c8-4ca8-bdd5-10490145398d` · printing: GPT #30 (2006-02-03) · [rulings](https://api.scryfall.com/cards/f4ada33a-5b7c-426a-8416-4ce01bccaa5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mimeoplasm, Revered One
@@ -34,6 +35,7 @@
   > As Mimeoplasm enters, exile up to X creature cards from your graveyard. It enters with three +1/+1 counters on it for each creature card exiled this way.
   > {2}: Mimeoplasm becomes a copy of target creature card exiled with it, except it's 0/0 and has this ability.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14207 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/214/mimeoplasm-revered-one) · oracle_id `2b8c2882-dbca-466a-a0af-dd1d65edfe7c` · printing: DFT #214 (2025-02-14) · [rulings](https://api.scryfall.com/cards/34e4c342-dc22-4e9c-81fc-a691ae9e21c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mimic
@@ -44,7 +46,10 @@
   > {T}, Sacrifice this artifact: Add one mana of any color.
   > {2}: This artifact becomes a Shapeshifter artifact creature with base power and toughness 3/3 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19024 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/249/mimic) · oracle_id `ba8156cd-2e78-4763-b61d-8bc85b2f3657` · printing: AFR #249 (2021-07-23) · [rulings](https://api.scryfall.com/cards/9da96aab-cf84-4150-b9d0-a4b84fcf585f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-07-23* — If an effect refers to a Treasure, it means any Treasure artifact, not just a Treasure artifact token.
+  - *2021-07-23* — Mimic is still a Treasure after its last ability resolves, but Treasure is an artifact type, never a creature type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/249/mimic) · oracle_id `ba8156cd-2e78-4763-b61d-8bc85b2f3657` · printing: AFR #249 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mimic Vat
 
@@ -82,4 +87,7 @@
   > *"We paid the Simic very well for this capability, but we should quickly recoup our expenses in saved wages."*
   > *—Milana, Orzhov prelate*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15013 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/173/miming-slime) · oracle_id `50e7f705-c347-440b-8159-81a52bbfbdfb` · printing: UMA #173 (2018-12-07) · [rulings](https://api.scryfall.com/cards/80d816cd-9ca6-4118-893e-5c6b167d9d81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-12-07* — The power and toughness of the Ooze token is determined when Miming Slime resolves. It won’t change as the greatest power among creatures you control changes.
+  - *2018-12-07* — The value of X is the greatest power among creatures you control when Miming Slime resolves. If you control no creatures at that time, X will be 0, creating a 0/0 Ooze token that will be put into your graveyard as a state-based action (unless something else is raising its toughness).
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/173/miming-slime) · oracle_id `50e7f705-c347-440b-8159-81a52bbfbdfb` · printing: UMA #173 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

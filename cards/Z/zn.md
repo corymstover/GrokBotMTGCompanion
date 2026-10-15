@@ -22,7 +22,19 @@
   > Whenever a player wins a coin flip, draw a card.
 - **Keywords:** Partner with, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11029 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner, Partner with
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/5/zndrsplt-eye-of-wisdom) · oracle_id `502849a6-8e65-40f3-b348-a41c4f939768` · printing: BBD #5 (2018-06-08) · [rulings](https://api.scryfall.com/cards/76c33402-a022-4d2f-9a83-4b8ddc04e971/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2018-06-08* — "Partner with [name]" represents two abilities. The first is a triggered ability: "When this permanent enters the battlefield, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle their library."
+  - *2018-06-08* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2018-06-08* — Both commanders start in the command zone, and the remaining 98 cards of your deck are shuffled to become your library.
+  - *2018-06-08* — If an effect has a player flip a coin but refers to whether the flip came up heads or tails, that flip has no winner or loser.
+  - *2018-06-08* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Khorvath and Sylvia are your commanders, your deck may contain cards with red and/or white in their color identity, but not blue, black, or green.
+  - *2018-06-08* — Note that the target player searches their library (which may be affected by effects such as that of Stranglehold) and that the card they find is revealed, even though these words aren't included in the ability's reminder text.
+  - *2018-06-08* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from one of them, not from both of them combined. Command Beacon's effect puts one into your hand from the command zone, not both.
+  - *2018-06-08* — The second ability represented by the "partner with [name]" keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with "partner with [name]" is designated as your commander, the named legendary creature card can also be designated as your commander. For more information on the Commander variant, please visit Wizards.com/Commander.
+  - *2018-06-08* — The triggered ability of the "partner with" keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player who might have that card in their library.
+  - *2018-06-08* — To have two commanders, both must have the partner ability (featured in the Magic: The Gathering—Commander™ (2016 Edition) set) or corresponding "partner with" abilities as the game begins. A creature with a "partner with" ability can't partner with any creature other than its designated partner. Losing a partner ability during the game doesn't cause either to cease to be your commander.
+  - *2018-07-13* — If an effect has a player flip a coin and refers to winning or losing a flip, only the player who flipped the coin wins or loses the flip. If that player loses the flip, nobody wins the flip.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/5/zndrsplt-eye-of-wisdom) · oracle_id `502849a6-8e65-40f3-b348-a41c4f939768` · printing: BBD #5 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zndrsplt's Judgment
 
@@ -33,4 +45,16 @@
 - **Flavor text** (NCC printing):
   > *Zndrsplt retired from officiating when she teamed up with Okaun, but she still knows the penalties better than anyone else.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14811 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/240/zndrsplts-judgment) · oracle_id `7aacfc42-be6c-46a8-b474-f43a1b6b2ef8` · printing: NCC #240 (2022-04-29) · [rulings](https://api.scryfall.com/cards/aa97df52-1ae7-4cfe-842a-1b13deef00ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2018-06-08* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any “as [this creature] enters the battlefield” or “[this creature] enters the battlefield with” abilities of the chosen creature will also work.
+  - *2018-06-08* — Each token copies exactly what is printed on the original creature and nothing else (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+  - *2018-06-08* — Friends perform their specified actions before foes. This means that a friend's action may cause a triggered ability of a foe's permanent to trigger before that foe's action causes that permanent to leave the battlefield.
+  - *2018-06-08* — If the copied creature has {X} in its mana cost, X is considered to be 0.
+  - *2018-06-08* — If the copied creature is a token, the token that's created copies the original characteristics of that token as stated by the effect that created the token.
+  - *2018-06-08* — If the copied creature is copying something else (for example, if the copied creature is an Evil Twin), then the token enters the battlefield as whatever that creature copied.
+  - *2018-06-08* — Players can't take actions in between the time that friends perform their actions and the time that foes perform theirs. If any abilities trigger from friends performing actions, those triggers won't be put onto the stack until the foes perform their actions and the spell finishes resolving.
+  - *2018-06-08* — The designation of friend or foe is only relevant to the spell that asks you to choose. A player you call your friend doesn't become your teammate, and the next “friend or foe” spell you cast could name that player your foe.
+  - *2018-06-08* — When Zndrsplt's Judgment resolves and you choose friend or foe, first the next friend in turn order (or, if it's a friend's turn, that friend) chooses a creature they control, then each other friend in turn order does the same, then each of those players create a token at the same time. Friends will know choices made by earlier players when making their choices. Repeat this process for foes, who choose a creature one at a time and then return them all to their owners' hands at the same time.
+  - *2018-06-08* — You make this choice for yourself as well as each other player. In some rare cases, you may wish to call yourself (or your teammate in a Two-Headed Giant game) a foe. You can do that.
+  - *2018-06-08* — You may call a player a friend or a foe even if that player will be instructed to perform an impossible action. For example, for Regna's Sanction, a foe may control no untapped creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/240/zndrsplts-judgment) · oracle_id `7aacfc42-be6c-46a8-b474-f43a1b6b2ef8` · printing: NCC #240 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

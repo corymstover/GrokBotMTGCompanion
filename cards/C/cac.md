@@ -36,7 +36,10 @@
   > *The glittering scales in the Abzan vaults represent mighty deeds of the past and protection for generations to come.*
 - **Keywords:** Bolster
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28474 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frf/126/cached-defenses) · oracle_id `0e564f52-94fb-4c44-926f-0eebedc7d4c0` · printing: FRF #126 (2015-01-23) · [rulings](https://api.scryfall.com/cards/41ad36cf-5f29-41c4-b2a3-6b8e8c0c493f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-11-24* — Bolster itself doesn’t target any creature, though some spells and abilities that bolster may have other effects that target creatures. For example, you could put counters on a creature with protection from white with Abzan Skycaptain’s bolster ability.
+  - *2014-11-24* — You determine which creature to put counters on as the spell or ability that instructs you to bolster resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frf/126/cached-defenses) · oracle_id `0e564f52-94fb-4c44-926f-0eebedc7d4c0` · printing: FRF #126 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cache Grab
 
@@ -62,7 +65,9 @@
 - **Flavor text** (DDI printing):
   > *What the current doesn't take, they do.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28211 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddi/18/cache-raiders) · oracle_id `57947037-91b2-4058-be22-158d3257317e` · printing: DDI #18 (2012-03-30) · [rulings](https://api.scryfall.com/cards/bb75ec92-7c8e-47d3-a412-01d0c98321fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — This ability isn’t targeted. You choose a permanent to return when the ability resolves. No one will be able to respond to the choice.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddi/18/cache-raiders) · oracle_id `57947037-91b2-4058-be22-158d3257317e` · printing: DDI #18 (2012-03-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cackling Counterpart
 
@@ -97,7 +102,9 @@
 - **Flavor text** (DMR printing):
   > *Its windpipe is only the first to amplify its maddening laughter.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21494 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/76/cackling-fiend) · oracle_id `2029954b-6fa7-40d7-bb19-d7534c62be5d` · printing: DMR #76 (2023-01-13) · [rulings](https://api.scryfall.com/cards/c7e4fa7f-a5d7-46cd-bc46-d3d231235460/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — If the opponent has no cards in hand, this has no effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/76/cackling-fiend) · oracle_id `2029954b-6fa7-40d7-bb19-d7534c62be5d` · printing: DMR #76 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cackling Flames
 
@@ -111,6 +118,7 @@
   > *—Rakdos*
 - **Keywords:** Hellbent
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28995 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/59/cackling-flames) · oracle_id `ab48147c-0bd7-4875-8e11-0e26185453dd` · printing: DIS #59 (2006-05-05) · [rulings](https://api.scryfall.com/cards/a54a371e-fb82-41f1-892c-975f932b668e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cackling Imp
@@ -125,6 +133,7 @@
   > *Its laughter drives needles through your mind.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28623 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dvd/41/cackling-imp) · oracle_id `adc8c55c-8fbe-4e07-b1be-8cb796db3d8a` · printing: DVD #41 (2014-12-05) · [rulings](https://api.scryfall.com/cards/351e65ac-25d4-4916-aa33-5bfd9df19b25/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cackling Prowler
@@ -137,7 +146,9 @@
   > Morbid — At the beginning of your end step, if a creature died this turn, put a +1/+1 counter on this creature.
 - **Keywords:** Ward, Morbid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18835 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/101/cackling-prowler) · oracle_id `898da62e-d29a-4ddc-be69-2ddec54614f5` · printing: FDN #101 (2024-11-15) · [rulings](https://api.scryfall.com/cards/1bd8e971-c075-4203-8d83-c28f22d4f9b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — Cackling Prowler's last ability will check as the end step starts to see if a creature died this turn. If none did, the ability won't trigger at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/101/cackling-prowler) · oracle_id `898da62e-d29a-4ddc-be69-2ddec54614f5` · printing: FDN #101 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cackling Slasher
 
@@ -151,6 +162,7 @@
   > *Every death was funnier than the last, until his howling laughter drowned out his victims' screams.*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20137 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/85/cackling-slasher) · oracle_id `b9671f4b-72d2-48d7-a497-2ea0ab72cd0b` · printing: DSK #85 (2024-09-27) · [rulings](https://api.scryfall.com/cards/b1269ccf-febf-42b0-8c20-21ccb731a3ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cackling Witch
@@ -163,6 +175,7 @@
 - **Flavor text** (MMQ printing):
   > *The touch of his madness can drive anyone into a killing frenzy.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28329 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/119/cackling-witch) · oracle_id `ee608650-410a-4d6b-be6e-63d7955cff39` · printing: MMQ #119 (1999-10-04) · [rulings](https://api.scryfall.com/cards/cec755ee-b4c0-47fd-9e61-9a3161766de6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cacophodon
@@ -176,7 +189,10 @@
   > *When a cacophodon is angry, the whole jungle knows.*
 - **Keywords:** Enrage
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10901 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/123/cacophodon) · oracle_id `8bd6dea2-2fdd-482f-9fe8-6f3eeed13872` · printing: RIX #123 (2018-01-19) · [rulings](https://api.scryfall.com/cards/351b213e-b23e-4287-947a-6bd81f1cf751/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-01-19* — If lethal damage is dealt to a creature with an enrage ability, that ability triggers. The creature with that enrage ability leaves the battlefield before that ability resolves, so it won’t be affected by the resolving ability.
+  - *2018-01-19* — If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/123/cacophodon) · oracle_id `8bd6dea2-2fdd-482f-9fe8-6f3eeed13872` · printing: RIX #123 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cacophony Scamp
 
@@ -188,7 +204,15 @@
   > When this creature dies, it deals damage equal to its power to any target.
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11746 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/124/cacophony-scamp) · oracle_id `4854a41e-db49-462f-ae57-0ba4005bae75` · printing: ONE #124 (2023-02-10) · [rulings](https://api.scryfall.com/cards/3553dcef-7b99-49d5-b071-06b894696952/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You choose whether to sacrifice Cacophony Scamp as its first ability resolves. No player may respond between the time you sacrifice it and the time you proliferate.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/124/cacophony-scamp) · oracle_id `4854a41e-db49-462f-ae57-0ba4005bae75` · printing: ONE #124 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cacophony Unleashed
 
@@ -214,7 +238,12 @@
   > Whenever this creature becomes the target of a spell or ability an opponent controls, you may draw a card.
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16348 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/158/cactarantula) · oracle_id `18a5fe34-0c97-486c-b09a-80535a99e982` · printing: OTJ #158 (2024-04-19) · [rulings](https://api.scryfall.com/cards/2e0e27f9-dc2c-4366-b810-3e8d0bdff8c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-04-12* — Cactarantula still costs only {1} less to cast if you control multiple Deserts.
+  - *2024-04-12* — Cactarantula’s last ability resolves before the spell or ability that caused it to trigger. It resolves even if that spell is countered.
+  - *2024-04-12* — If a spell or ability targets Cactarantula more than once, its last ability still triggers only once.
+  - *2024-04-12* — Once you announce that you’re casting Cactarantula, no player may take actions until the spell has been paid for. Notably, opponents can’t try to change whether you control a Desert.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/158/cactarantula) · oracle_id `18a5fe34-0c97-486c-b09a-80535a99e982` · printing: OTJ #158 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cactuar
 
@@ -228,6 +257,7 @@
   > *A cactus with legs that loves to run hither and thither. Watch out for its thorns!*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17755 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/177/cactuar) · oracle_id `3e61d7c4-263f-4077-bdbc-d79020f2a479` · printing: FIN #177 (2025-06-13) · [rulings](https://api.scryfall.com/cards/d5273db4-6214-41e4-825a-612fca8bbe03/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cactusfolk Sureshot

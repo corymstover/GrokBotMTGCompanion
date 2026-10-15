@@ -20,4 +20,5 @@
 - **Flavor text** (UNH printing):
   > *"Let them complain. As long as the addictive ink is working, we can do anything we want." PLAY AT YOUR OWN RISK*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/135/r&ds-secret-lair) · oracle_id `b6be7abe-cee3-418f-bf52-8b5405e3462f` · printing: UNH #135 (2004-11-19) · [rulings](https://api.scryfall.com/cards/9bfdc6a9-0a44-43ef-b065-02ef5d6110dc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

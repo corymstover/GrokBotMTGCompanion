@@ -54,7 +54,13 @@
   > *"You may triumph on the field, for a day. But against the Power that now arises there is no victory."*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15719 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/20/denethor-stone-seer) · oracle_id `6669a19e-7944-44c9-ac37-a92016783375` · printing: LTC #20 (2023-06-23) · [rulings](https://api.scryfall.com/cards/d32d3d8a-7450-4a29-abc7-f472426f0c28/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-06-16* — If combat damage dealt to the monarch causes that player to lose the game, the triggered ability that causes the controller of the attacking creature to become the monarch doesn't resolve. In most cases, the controller of the attacking creature will still become the monarch as it is likely their turn.
+  - *2023-06-16* — If the monarch leaves the game during another player's turn, that player becomes the monarch. If the monarch leaves the game during their turn, the next player in turn order becomes the monarch.
+  - *2023-06-16* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2023-06-16* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
+  - *2023-06-16* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/20/denethor-stone-seer) · oracle_id `6669a19e-7944-44c9-ac37-a92016783375` · printing: LTC #20 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Denied!
 
@@ -65,6 +71,7 @@
 - **Flavor text** (UGL printing):
   > *"Don't worry about it. It happens to every mage sooner or later."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ugl/22/denied!) · oracle_id `4c39b74c-db93-4dba-8ce3-3683b8cfaac5` · printing: UGL #22 (1998-08-11) · [rulings](https://api.scryfall.com/cards/1285c125-e145-4565-a029-352ac6adf688/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Denizen of the Deep
@@ -77,6 +84,7 @@
 - **Flavor text** (DMR printing):
   > *According to merfolk legend, a denizen of the deep swallows the horizon at the end of each day, bringing on the cold blanket of night.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22559 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/47/denizen-of-the-deep) · oracle_id `fc1bb5b9-5e36-4154-b683-e62f4f66f2b6` · printing: DMR #47 (2023-01-13) · [rulings](https://api.scryfall.com/cards/ca7959e9-8ae7-49f7-acf9-a0fc2afa219e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dennick, Pious Apprentice // Dennick, Pious Apparition
@@ -94,7 +102,16 @@
   > If Dennick would be put into a graveyard from anywhere, exile it instead.
 - **Keywords:** Flying, Lifelink, Investigate, Transform, Disturb
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15518 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/217/dennick-pious-apprentice-dennick-pious-apparition) · oracle_id `45802eb2-6848-416c-95e0-c1c1ea0620d0` · printing: MID #217 (2021-09-24) · [rulings](https://api.scryfall.com/cards/35cf2d72-931f-47b1-a1b4-916f0383551a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2021-09-24* — "Disturb [cost]" means "You may cast this card transformed from your graveyard by paying [cost] rather than its mana cost."
+  - *2021-09-24* — A spell cast this way enters the battlefield with its back face up.
+  - *2021-09-24* — Disturb is found only on the front faces of some double-faced cards.
+  - *2021-09-24* — If you copy a permanent spell cast this way (perhaps with a card like Double Major), the copy becomes a token that's a copy of the card's back face, even though it isn't itself a double-faced card.
+  - *2021-09-24* — The back face of each card with disturb has an ability that instructs its controller to exile if it would be put into a graveyard from anywhere. This includes going to the graveyard from the stack, so if the spell is countered after you cast it using the disturb ability, it will be put into exile.
+  - *2021-09-24* — The second ability of Dennick, Pious Apprentice affects only spells and abilities that actually target cards in graveyards. Spells and abilities that affect cards in graveyards without targeting them may still affect them, move them to other zones, and so on.
+  - *2021-09-24* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a disturb cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using disturb is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was. (This is a special rule that applies only to nonmodal double faced-cards, including ones with disturb.)
+  - *2021-09-24* — When you cast a spell using a card's disturb ability, the card is put onto the stack with its back face up. The resulting spell has all the characteristics of that face.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/217/dennick-pious-apprentice-dennick-pious-apparition) · oracle_id `45802eb2-6848-416c-95e0-c1c1ea0620d0` · printing: MID #217 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Den of the Bugbear
 
@@ -151,7 +168,9 @@
 - **Flavor text** (SOK printing):
   > *The orochi learned how to move swiftly and surely along the forest floor, like fish darting through gull-watched waters.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23571 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sok/125/dense-canopy) · oracle_id `d182ab7d-77bd-49d1-9001-9b4016350181` · printing: SOK #125 (2005-06-03) · [rulings](https://api.scryfall.com/cards/9d1480d4-51f8-4233-874c-94502726fe0d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-05-01* — A creature with reach can still block creatures with flying as well as creatures without flying.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sok/125/dense-canopy) · oracle_id `d182ab7d-77bd-49d1-9001-9b4016350181` · printing: SOK #125 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dense Foliage
 
@@ -163,6 +182,7 @@
   > *"Big plants not only good for hidin', but full o' tasty bugs, too."*
   > *—Squee, goblin cabin hand*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21358 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/6ed/221/dense-foliage) · oracle_id `fb1369aa-25a2-4e2a-9cbe-6cfe7e238b1b` · printing: 6ED #221 (1999-04-21) · [rulings](https://api.scryfall.com/cards/f6232f04-cd4c-4889-97dc-cccc4a09f9c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deny Entry
@@ -174,6 +194,7 @@
 - **Flavor text** (TLE printing):
   > *Her judgment was swift and final... and rather rude.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16934 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/222/deny-entry) · oracle_id `a7dad8fe-b0b8-4c6d-ad11-76b402952799` · printing: TLE #222 (2025-11-21) · [rulings](https://api.scryfall.com/cards/9c6a20a8-7869-4b5d-aa22-acf232cc2d41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deny Existence
@@ -185,6 +206,7 @@
 - **Flavor text** (SOI printing):
   > *When all logical solutions fail, try an illogical one.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19858 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/55/deny-existence) · oracle_id `b665a64b-4772-42dd-9fd2-fd8598e689ba` · printing: SOI #55 (2016-04-08) · [rulings](https://api.scryfall.com/cards/16a14eeb-1c85-4029-a047-39a4efef3f74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Denying Wind
@@ -197,6 +219,7 @@
   > *"The third wind of ascension is Eliminator, clearing Keld's path to victory."*
   > *—\*Keld Triumphant\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22440 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcy/32/denying-wind) · oracle_id `8daed4d8-1a43-4452-85dd-51b320714489` · printing: PCY #32 (2000-06-05) · [rulings](https://api.scryfall.com/cards/15f236ce-41ad-4a49-a6f9-7853a2395a84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deny Reality
@@ -208,7 +231,17 @@
   > Return target permanent to its owner's hand.
 - **Keywords:** Cascade
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13464 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pca/85/deny-reality) · oracle_id `f9e31993-bfe1-46fb-8a32-418e97f9cfe1` · printing: PCA #85 (2016-11-25) · [rulings](https://api.scryfall.com/cards/f9baa387-5855-4e13-b99f-7ce0af9895bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2021-06-18* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2021-06-18* — Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+  - *2021-06-18* — Due to a 2021 rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+  - *2021-06-18* — If a spell with cascade is countered, the cascade ability will still resolve normally.
+  - *2021-06-18* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2021-06-18* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
+  - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+  - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pca/85/deny-reality) · oracle_id `f9e31993-bfe1-46fb-8a32-418e97f9cfe1` · printing: PCA #85 (2016-11-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deny the Divine
 
@@ -220,6 +253,7 @@
   > *"A great wave crashed, and a mighty wind blew out the stars."*
   > *—\*The Cosmogony\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19862 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/47/deny-the-divine) · oracle_id `0146de73-29bf-415a-b450-11074553f715` · printing: THB #47 (2020-01-24) · [rulings](https://api.scryfall.com/cards/1200f68a-a8ea-4777-b6b0-de48b2203fd1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deny the Witch
@@ -245,4 +279,5 @@
   > Whenever you scry or surveil, put a +1/+1 counter on each creature you control.
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13088 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/128/denzilore-fatehold) · oracle_id `0f8de7f0-c61d-415d-b4db-4959374343da` · printing: FRA #128 (2026-10-02) · [rulings](https://api.scryfall.com/cards/986f9e98-9d8d-428b-9187-860745cf3269/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

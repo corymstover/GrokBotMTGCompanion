@@ -39,7 +39,13 @@
   > Choose target creature you own. If this spell was kicked, instead choose any number of target creatures you own. Return each chosen creature to your hand. At the beginning of the next upkeep, create a 4/4 white Bird Soldier creature token with flying for each creature returned to your hand this way.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10312 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/12/the-eagles-are-coming!) · oracle_id `169a4a77-12ff-4997-9550-bdcd456aa2f7` · printing: HOB #12 (2026-08-14) · [rulings](https://api.scryfall.com/cards/0bda1b62-47fc-42c2-a841-ccad8ea0db48/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2026-06-29* — Any creature tokens that were returned to your hand are counted by the delayed triggered ability. You'll get a Bird Soldier token for each of them.
+  - *2026-06-29* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2026-06-29* — If you copy a kicked spell on the stack, the copy is also kicked.
+  - *2026-06-29* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2026-06-29* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/12/the-eagles-are-coming!) · oracle_id `169a4a77-12ff-4997-9550-bdcd456aa2f7` · printing: HOB #12 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Earth Crystal
 
@@ -85,6 +91,7 @@
 - **Flavor text** (FRA printing):
   > *The tower transformed to fulfill its true purpose: as a catalyst to merge the old Multiverse with the new.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19031 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/169/the-echoverse-fulcrum) · oracle_id `c04197ad-d2f3-499f-b863-bed0c869519c` · printing: FRA #169 (2026-10-02) · [rulings](https://api.scryfall.com/cards/d71d250f-c0e0-44b2-877c-76f3bcab4f34/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Egotistical Velociraptor
@@ -96,6 +103,7 @@
   > Grumpy Co-play — When The Egotistical Velociraptor enters the battlefield, if you cast it, you may choose another Magic player not currently in a game of Magic and ask them to take over your game until the end of your next turn. If they agree, shuffle your hand into your library, draw four cards and gain 4 life. (You can't give them advice, but witty banter is encouraged.)
 - **Keywords:** Grumpy Co-play
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03b/the-egotistical-velociraptor) · oracle_id `e0fa50f5-43e5-4b84-89b3-9b6eb5bc7bcc` · printing: UNK #RZ03b (2024-06-29) · [rulings](https://api.scryfall.com/cards/f92a38e3-3d47-4a67-8e26-a45b0229e342/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Eighth Doctor
@@ -110,7 +118,11 @@
   > *"Physician, heal thyself."*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12154 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/124/the-eighth-doctor) · oracle_id `0956bc16-ff04-4e96-8059-ef62afa2405f` · printing: WHO #124 (2023-10-13) · [rulings](https://api.scryfall.com/cards/a26bf6fd-ced3-4c37-8adb-9a75c6d6d5cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
+  - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
+  - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/124/the-eighth-doctor) · oracle_id `0956bc16-ff04-4e96-8059-ef62afa2405f` · printing: WHO #124 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Elder Dragon War
 
@@ -137,7 +149,10 @@
 - **Flavor text** (WAR printing):
   > *The path to power is often paved with atrocities.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13681 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/89/the-elderspell) · oracle_id `eff0a1ad-ecc6-416f-a4ae-96b26cd8a905` · printing: WAR #89 (2019-05-03) · [rulings](https://api.scryfall.com/cards/a3b16625-7faf-4de6-abf7-d397988e32fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-05-03* — You can cast The Elderspell without controlling any planeswalkers. The target planeswalkers will still be destroyed. You can also cast it without targeting any planeswalkers if you really want to do so.
+  - *2019-05-03* — You choose the target planeswalkers to destroy as you cast The Elderspell, but you don’t choose a planeswalker to receive loyalty counters until The Elderspell is resolving.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/89/the-elderspell) · oracle_id `eff0a1ad-ecc6-416f-a4ae-96b26cd8a905` · printing: WAR #89 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Eldest Reborn
 
@@ -203,7 +218,19 @@
   > III — Create a token that's a copy of target creature, except it's a legendary Alien named Prisoner Zero.
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13094 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/41/the-eleventh-hour) · oracle_id `6b3e1aaf-6909-400a-88f2-9e9fde9a0cf7` · printing: WHO #41 (2023-10-13) · [rulings](https://api.scryfall.com/cards/ac5c90a9-697a-4bff-a738-0cebfb238bff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2023-10-13* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the chosen creature will also work.
+  - *2023-10-13* — Except for its name and types, the token copies exactly what was printed on the original creature and nothing else (unless that permanent is copying something else or it is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, and so on.
+  - *2023-10-13* — If the copied creature has {X} in its mana cost, X is considered to be 0.
+  - *2023-10-13* — If the copied creature is a token, the new token that's created copies the original characteristics of that token as stated by the effect that created that token, with the exceptions noted above.
+  - *2023-10-13* — If the copied creature is copying something else, then the token enters the battlefield as whatever that creature copied, with the exceptions noted above.
+  - *2023-10-13* — The Eleventh Hour's first ability can find any card with the Doctor creature type, not cards with the word "Doctor" in the name.
+  - *2023-10-13* — The same is true for reducing the cost of Doctor spells.
+  - *2023-10-13* — The token will still have any card types it normally has, such as creature or artifact, but it will lose any non-Alien subtypes it has, such as Human or Vehicle.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/41/the-eleventh-hour) · oracle_id `6b3e1aaf-6909-400a-88f2-9e9fde9a0cf7` · printing: WHO #41 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Emperor of Palamecia // The Lord Master of Hell
 
@@ -240,7 +267,10 @@
   > This spell costs {2} less to cast if your life total is 5 or less.
   > Exile target creature or planeswalker. Search its controller's graveyard, hand, and library for any number of cards with the same name as that permanent and exile them. That player shuffles, then draws a card for each card exiled from their hand this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23840 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/87/the-end) · oracle_id `835c195a-8c35-4076-896d-8d2972cac270` · printing: WOE #87 (2023-09-08) · [rulings](https://api.scryfall.com/cards/b18402dc-c4ab-417c-92d1-5e4d9cfb840d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-09-01* — If the permanent that's exiled was the back face of a double-faced card, you will not be able to exile any additional cards, because those cards have only their front-face characteristics (including name) in the graveyard, hand, and library.
+  - *2023-09-01* — The cost-reduction ability of The End doesn't change its mana cost or mana value, only the total cost you pay. Specifically, the mana value of The End is always 4.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/87/the-end) · oracle_id `835c195a-8c35-4076-896d-8d2972cac270` · printing: WOE #87 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Endstone
 
@@ -332,7 +362,13 @@
 - **Flavor text** (DMC printing):
   > *He could be anyone, anywhere, but he'll never again be "half" of anything.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19522 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/30/the-ever-changing-dane) · oracle_id `bda0468f-1c72-4d3d-ad94-15d446c75313` · printing: DMC #30 (2022-09-09) · [rulings](https://api.scryfall.com/cards/a17c5b28-e7d1-4ca6-bf6b-0a4c8b757232/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-09-09* — If The Ever-Changing ’Dane becomes a copy of a token creature, it copies the original characteristics of that token as defined by the effect that put it onto the battlefield. It won’t become a token creature.
+  - *2022-09-09* — If another creature becomes a copy of The Ever-Changing ’Dane, it will become a copy of whatever The Ever-Changing ’Dane is currently copying (if anything), plus it will have the activated ability.
+  - *2022-09-09* — The Ever-Changing ’Dane copies the printed values of the creature plus any copy effects that have been applied to it. It won’t copy any other effects that have changed that creature’s power, toughness, color, and so on. The Ever-Changing ’Dane won’t copy any counters on the creature, but The Ever-Changing ’Dane will retain any counters it already had on it.
+  - *2022-09-09* — The copy effect lasts indefinitely. Often, it will last until it is overwritten by another copy effect (if it copies another creature on a future turn, perhaps).
+  - *2022-09-09* — When The Ever-Changing ’Dane becomes a copy of a creature, it’s neither entering nor leaving the battlefield. Any enters-the-battlefield or leaves-the-battlefield abilities won’t trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/30/the-ever-changing-dane) · oracle_id `bda0468f-1c72-4d3d-ad94-15d446c75313` · printing: DMC #30 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Everflowing Well // The Myriad Pools
 
@@ -366,6 +402,7 @@
   > Whenever you cast an artifact creature or Equipment spell, you may copy that spell. Do this only once each turn. (The copy becomes a token.)
 - **Keywords:** Rulebreaker
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #19823 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/59/the-everforger) · oracle_id `b8354ac6-5285-43dd-9ba5-93064def2e96` · printing: MBC #59 (2026-10-19) · [rulings](https://api.scryfall.com/cards/1d1a4c67-630c-42de-b37c-1188451d4b20/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Explorer
@@ -375,4 +412,5 @@
 - **Oracle text:**
   > You may play an additional land on each of your turns.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thp2/5/the-explorer) · oracle_id `a3c7b8c6-4995-42bc-973c-45f46b9e32dc` · printing: THP2 #5 (2014-02-07) · [rulings](https://api.scryfall.com/cards/1936aa23-3a5d-4386-bc4d-66841e0cab2c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

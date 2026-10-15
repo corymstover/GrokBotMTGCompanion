@@ -71,7 +71,13 @@
 - **Flavor text** (CN2 printing):
   > *The most effective roadways in Paliano aren't roads at all.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24434 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/28/canal-courier) · oracle_id `efaa1262-b7ac-49ab-831a-d10b59680691` · printing: CN2 #28 (2016-08-26) · [rulings](https://api.scryfall.com/cards/a3af3351-9457-443c-b31f-a57a2fc9be46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2016-08-23* — Abilities that trigger whenever you “become the monarch” trigger only if you aren’t already the monarch. For example, if you are already the monarch as Custodi Lich enters the battlefield, its last ability won’t trigger.
+  - *2016-08-23* — Attacking a planeswalker isn’t the same thing as attacking a player. Both Canal Courier and the other creature must attack different players for the last ability to trigger.
+  - *2016-08-23* — Being the monarch carries two inherent triggered abilities. “At the beginning of the monarch’s end step, that player draws a card” and “Whenever a creature deals combat damage to the monarch, its controller becomes the monarch.”
+  - *2016-08-23* — If the triggered ability that causes the monarch to draw a card goes on the stack, and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2016-08-23* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/28/canal-courier) · oracle_id `efaa1262-b7ac-49ab-831a-d10b59680691` · printing: CN2 #28 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canal Dredger
 
@@ -83,7 +89,11 @@
   > Each player passes the last card from each booster pack to a player who drafted a card named Canal Dredger.
   > {T}: Put target card from your graveyard on the bottom of your library.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23076 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/55/canal-dredger) · oracle_id `bb6bda0d-ddb8-47fa-be07-bbcd73a52830` · printing: CNS #55 (2014-06-06) · [rulings](https://api.scryfall.com/cards/a5365f0d-5e51-4e5d-9385-c4d08882c24f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2014-05-29* — If multiple players have drafted a card named Canal Dredger, each player chooses which of those players to pass the last card to.
+  - *2014-05-29* — If you draft a card named Canal Dredger, you pass the last card from each booster pack to yourself. In other words, when you are passed two cards, you draft both of them.
+  - *2014-05-29* — You draft all cards passed to you this way one at a time. If you also drafted a Cogwork Grinder, you may remove any of those cards from the draft.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/55/canal-dredger) · oracle_id `bb6bda0d-ddb8-47fa-be07-bbcd73a52830` · printing: CNS #55 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canal Monitor
 
@@ -95,6 +105,7 @@
 - **Flavor text** (RIX printing):
   > *The first goblin tried to swim the canal. The second built a raft. The last and craftiest goblin launched herself from a firecannon and soared over the canal, trailing smoke. All were eaten, but only one was cooked.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29440 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/63/canal-monitor) · oracle_id `9dadeecc-1d4b-4799-9ac9-4ca492006e46` · printing: RIX #63 (2018-01-19) · [rulings](https://api.scryfall.com/cards/78226edc-87dd-4c38-987c-52aefe0f9531/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cancel
@@ -135,7 +146,11 @@
   > *"Like a thousand candles fighting back the darkness, we are strongest when we stand together."*
 - **Keywords:** Coven
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25038 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/8/candlegrove-witch) · oracle_id `95f47e9b-0290-4ec4-a1ba-bc5a432ffab2` · printing: MID #8 (2021-09-24) · [rulings](https://api.scryfall.com/cards/dedfe6ea-cd43-4ec4-83a1-1f0f74e27f56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-09-24* — A creature has different power from another if their powers are different numbers. For example, a 1/1 creature and a 2/1 creature have different powers.
+  - *2021-09-24* — For three creatures to have different powers from one another, each of their powers needs to be different. A 1/1 creature, a 2/1 creature, and another 2/1 creature aren't three creatures with different powers, even though both 2/1 creatures have different power than the 1/1 creature.
+  - *2021-09-24* — Many coven abilities, such as that of Dawnhart Wardens above, are triggered abilities with intervening if clauses. You must control three or more creatures with different powers at the time the ability triggers and at the time the ability tries to resolve. They do not, however, need to be the same set of creatures in both cases.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/8/candlegrove-witch) · oracle_id `95f47e9b-0290-4ec4-a1ba-bc5a432ffab2` · printing: MID #8 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Candlekeep Inspiration
 
@@ -184,6 +199,7 @@
   > *Selesnya guildmages do not sleep so the rest of the Conclave can.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19468 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/3/candlelight-vigil) · oracle_id `7153bf15-53f8-445e-acbb-35b4f4b3d551` · printing: GRN #3 (2018-10-05) · [rulings](https://api.scryfall.com/cards/e920a75f-7dec-4815-a358-e174401da83b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Candlelit Cavalry
@@ -197,6 +213,7 @@
   > *"On this night, the dark will fear us."*
 - **Keywords:** Coven
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27494 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/175/candlelit-cavalry) · oracle_id `edfd2614-8875-4741-b64b-390afc0d2376` · printing: MID #175 (2021-09-24) · [rulings](https://api.scryfall.com/cards/a4c3bd60-1ff6-4136-9188-d0620fd299a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Candles' Glow
@@ -208,7 +225,12 @@
   > Splice onto Arcane {1}{W} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
 - **Keywords:** Splice
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26867 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/chk/5/candles-glow) · oracle_id `7509b934-6fbc-42fd-9040-cdf16bbfff42` · printing: CHK #5 (2004-10-01) · [rulings](https://api.scryfall.com/cards/0758d20f-6f0f-462e-a7ec-2511c146983d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-06-07* — A card with a splice ability can’t be spliced onto itself because the spell is on the stack (and not in your hand) when you reveal the cards you want to splice onto it.
+  - *2013-06-07* — If all of the spell’s targets are illegal when the spell tries to resolve, it won’t resolve and none of its effects will happen.
+  - *2013-06-07* — You choose all targets for the spell after revealing cards you want to splice, including any targets required by the text of any of those cards. You may choose a different target for each instance of the word “target” on the resulting spell.
+  - *2013-06-07* — You reveal all cards you intend to splice at the same time. Each individual card can be spliced only once onto any one spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chk/5/candles-glow) · oracle_id `7509b934-6fbc-42fd-9040-cdf16bbfff42` · printing: CHK #5 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Candles of Leng
 
@@ -220,7 +242,9 @@
   > *"A tome stored in its light is as crisp as the day it was written."*
   > *—Ettovard, Tolarian archivist*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28366 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/250/candles-of-leng) · oracle_id `a12ac37d-02b8-4b6c-9595-74c42cfecb0a` · printing: TSP #250 (2006-10-06) · [rulings](https://api.scryfall.com/cards/ee874779-e654-48f0-8f2d-cc98ef150d75/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-09-25* — Unless something weird happens, the card that’s drawn will be the card that was revealed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/250/candles-of-leng) · oracle_id `a12ac37d-02b8-4b6c-9595-74c42cfecb0a` · printing: TSP #250 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Candlestick
 
@@ -232,6 +256,7 @@
   > Equip {2}
 - **Keywords:** Surveil, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12379 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/43/candlestick) · oracle_id `2f7b46c1-3d82-4fd9-9882-589315cab47b` · printing: MKM #43 (2024-02-09) · [rulings](https://api.scryfall.com/cards/5aeae6fb-3834-4891-924e-3d1fb3e19e09/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Candletrap
@@ -245,7 +270,11 @@
   > Coven — {2}{W}, Sacrifice this Aura: Exile enchanted creature. Activate only if you control three or more creatures with different powers.
 - **Keywords:** Enchant, Coven
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17251 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/9/candletrap) · oracle_id `089788ce-d06c-4a85-915c-82e2cb5b0103` · printing: MID #9 (2021-09-24) · [rulings](https://api.scryfall.com/cards/32869a36-f21e-4348-a787-871daa6151df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-09-24* — A creature has different power from another if their powers are different numbers. For example, a 1/1 creature and a 2/1 creature have different powers.
+  - *2021-09-24* — For three creatures to have different powers from one another, each of their powers needs to be different. A 1/1 creature, a 2/1 creature, and another 2/1 creature aren't three creatures with different powers, even though both 2/1 creatures have different power than the 1/1 creature.
+  - *2021-09-24* — Many coven abilities, such as that of Dawnhart Wardens above, are triggered abilities with intervening if clauses. You must control three or more creatures with different powers at the time the ability triggers and at the time the ability tries to resolve. They do not, however, need to be the same set of creatures in both cases.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/9/candletrap) · oracle_id `089788ce-d06c-4a85-915c-82e2cb5b0103` · printing: MID #9 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Candy Grapple
 
@@ -258,7 +287,13 @@
   > *"Don't you mean 'poisonous'? There's no such thing as a venomous—AGGHHH!"*
 - **Keywords:** Bargain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16599 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/83/candy-grapple) · oracle_id `9588a7fd-bbe5-4a81-9a7e-d8e8f6c0537d` · printing: WOE #83 (2023-09-08) · [rulings](https://api.scryfall.com/cards/190d97bc-dbef-496d-9bd1-b785bdf8a964/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-09-01* — Bargain means “As an additional cost to cast this spell, you may sacrifice an artifact, enchantment, or token.”
+  - *2023-09-01* — Bargain represents an optional additional cost. A spell cast with that additional cost paid is “bargained.”
+  - *2023-09-01* — If you copy a bargained spell, the copy is also bargained. If a card or token enters the battlefield as a copy of a permanent that’s already on the battlefield, the new permanent isn’t bargained, even if the original was.
+  - *2023-09-01* — Some instant and sorcery spells require additional targets if they’re bargained. You ignore those targeting requirements if those spells aren’t bargained, and you can’t bargain those spells unless you can choose the appropriate targets. On the other hand, you can bargain a permanent spell even if you won’t be able to choose targets for an enters-the-battlefield ability of that permanent once the spell resolves.
+  - *2023-09-01* — You may sacrifice only one artifact, enchantment, or token to pay a spell’s bargain cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/83/candy-grapple) · oracle_id `9588a7fd-bbe5-4a81-9a7e-d8e8f6c0537d` · printing: WOE #83 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Candy Trail
 
@@ -285,7 +320,9 @@
 - **Flavor text** (UMA printing):
   > *Once the hideous disease takes hold, it spreads through both bark and mind.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27531 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/212/canker-abomination) · oracle_id `4440e41c-042f-4e13-925a-c1e40b77e010` · printing: UMA #212 (2018-12-07) · [rulings](https://api.scryfall.com/cards/f7158f78-daf3-46ff-aa5f-f8cff3a24ed5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-12-07* — You choose an opponent while Canker Abomination is entering the battlefield. No player may take actions between the time you choose the opponent and the time Canker Abomination gets -1/-1 counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/212/canker-abomination) · oracle_id `4440e41c-042f-4e13-925a-c1e40b77e010` · printing: UMA #212 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cankerbloom
 
@@ -317,7 +354,16 @@
 - **Flavor text** (EVE printing):
   > *Nothing warms the bark on a chilly day like a draught of elf.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29506 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eve/116/cankerous-thirst) · oracle_id `724390aa-240d-4023-9dcb-6bdb2c2090f5` · printing: EVE #116 (2008-07-25) · [rulings](https://api.scryfall.com/cards/45840408-33e7-43fa-96ab-d3bd53e3fd6b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2008-08-01* — As you cast Cankerous Thirst, you must target a creature for the first effect and you must target a creature for the second effect. Both targets may be the same. As Cankerous Thirst resolves, you decide whether to apply either effect.
+  - *2008-08-01* — If the spell is copied, the copy will never have had mana of the stated color paid for it, no matter what colors were spent on the original spell.
+  - *2008-08-01* — If the spell is copied, the copy will never have had mana of the stated color paid for it, no matter what colors were spent on the original spell.
+  - *2008-08-01* — The spell cares about what mana was spent to pay its total cost, not just what mana was spent to pay the hybrid part of its cost.
+  - *2008-08-01* — The spell cares about what mana was spent to pay its total cost, not just what mana was spent to pay the hybrid part of its cost.
+  - *2008-08-01* — The spell checks on resolution to see if any mana of the stated colors was spent to pay its cost. If so, it doesn't matter how much mana of that color was spent.
+  - *2008-08-01* — The spell checks on resolution to see if any mana of the stated colors was spent to pay its cost. If so, it doesn't matter how much mana of that color was spent.
+  - *2008-08-01* — When you cast the spell, you choose its targets before you pay for it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eve/116/cankerous-thirst) · oracle_id `724390aa-240d-4023-9dcb-6bdb2c2090f5` · printing: EVE #116 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cannibalize
 
@@ -328,7 +374,9 @@
 - **Flavor text** (TPR printing):
   > *"Mine."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19680 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/83/cannibalize) · oracle_id `bf044267-92b9-4983-964f-2bc4ecf76bce` · printing: TPR #83 (2015-05-06) · [rulings](https://api.scryfall.com/cards/9cdf1311-1660-4ad0-a383-f3ff508ff574/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-05-01* — You choose the two target creatures during announcement. You choose which gets the counters and which is to get exiled on resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/83/cannibalize) · oracle_id `bf044267-92b9-4983-964f-2bc4ecf76bce` · printing: TPR #83 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canonized in Blood
 
@@ -338,7 +386,14 @@
   > At the beginning of your end step, if you descended this turn, put a +1/+1 counter on target creature you control. (You descended if a permanent card was put into your graveyard from anywhere.)
   > {5}{B}{B}, Sacrifice this enchantment: Create a 4/3 white and black Vampire Demon creature token with flying.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16092 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/96/canonized-in-blood) · oracle_id `d491995f-e9b2-4187-852c-8a4c2495eaca` · printing: LCI #96 (2023-11-17) · [rulings](https://api.scryfall.com/cards/384b6892-5dfc-4607-b511-cf83544a9357/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-11-10* — A permanent card is an artifact, battle, creature, enchantment, land, or planeswalker card. Tokens are not cards, and while tokens are put into the graveyard before ceasing to exist, that action doesn't count as a player having descended.
+  - *2023-11-10* — Abilities that begin with "At the beginning of your end step, if you descended this turn" will trigger only once during your end step, no matter how many times you descended this turn. However, if you haven't descended this turn as your end step begins, the ability won't trigger at all. It's not possible to put a permanent card into your graveyard during the end step in time to have the ability trigger.
+  - *2023-11-10* — In either case, it doesn't matter if those cards are still in that player's graveyard.
+  - *2023-11-10* — Multiple cards have abilities that begin with "At the beginning of your end step, if you descended this turn." These cards don't need to have been under your control at the time you descended. For example, if a permanent card is put into your graveyard during your first main phase and you cast Stalactite Stalker your second main phase, its ability will trigger at the beginning of your end step.
+  - *2023-11-10* — Some cards refer to a player who has "descended this turn." This means that a permanent card has been put into that player's graveyard from anywhere this turn.
+  - *2023-11-10* — Some cards refer to the number of times a player descended this turn. Those cards care about the number of permanent cards put into that player's graveyard from anywhere this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/96/canonized-in-blood) · oracle_id `d491995f-e9b2-4187-852c-8a4c2495eaca` · printing: LCI #96 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canoptek Scarab Swarm
 
@@ -412,7 +467,11 @@
   > *—Samila, Murasa Expeditionary House*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17442 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/182/canopy-baloth) · oracle_id `4493828f-144f-49cf-9fd2-61de86e632ec` · printing: ZNR #182 (2020-09-25) · [rulings](https://api.scryfall.com/cards/6b04160c-89a7-4dcd-b05d-5dc846824d64/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/182/canopy-baloth) · oracle_id `4493828f-144f-49cf-9fd2-61de86e632ec` · printing: ZNR #182 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canopy Claws
 
@@ -423,7 +482,14 @@
   > Flashback {G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27963 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jud/108/canopy-claws) · oracle_id `195c6453-e5cc-4b3b-8518-eaccf29bc4a6` · printing: JUD #108 (2002-05-27) · [rulings](https://api.scryfall.com/cards/c4530da2-fd04-40d9-ad69-5c2847921509/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it’s legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you’re paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card’s type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+  - *2021-03-19* — “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/jud/108/canopy-claws) · oracle_id `195c6453-e5cc-4b3b-8518-eaccf29bc4a6` · printing: JUD #108 (2002-05-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canopy Cover
 
@@ -449,7 +515,9 @@
   > {T}: Target creature gets +1/+1 until end of turn for each +1/+1 counter on this creature.
 - **Keywords:** Amplify
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29471 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lgn/122/canopy-crawler) · oracle_id `7fc60ae2-75fc-49e1-9d56-aa5a43844210` · printing: LGN #122 (2003-02-03) · [rulings](https://api.scryfall.com/cards/0ccdc9d7-71b5-4304-8d19-a63952e17a6b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The number of +1/+1 counters for the ability is checked when the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lgn/122/canopy-crawler) · oracle_id `7fc60ae2-75fc-49e1-9d56-aa5a43844210` · printing: LGN #122 (2003-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canopy Dragon
 
@@ -464,6 +532,7 @@
   > *—Sidar Jabari*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30057 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/209/canopy-dragon) · oracle_id `a9e59ee4-02a6-498c-82f0-f4f2ff334d65` · printing: MIR #209 (1996-10-08) · [rulings](https://api.scryfall.com/cards/20c5e4d6-b716-4994-b226-b1eb799bec25/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canopy Gargantuan
@@ -491,6 +560,7 @@
 - **Flavor text** (OGW printing):
   > *The settlement's defenders were glad to have such a massive, ferocious creature join the fight—but less glad to see it flatten their homes along the way.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25377 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/129/canopy-gorger) · oracle_id `1d614b37-d578-4f35-8fd8-3c7800d5f742` · printing: OGW #129 (2016-01-22) · [rulings](https://api.scryfall.com/cards/cbc8957d-769c-4630-9544-56cea8c847c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canopy Spider
@@ -504,7 +574,9 @@
   > *It keeps the upper reaches of the forest free of every menace . . . except for the spider itself.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17000 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/339/canopy-spider) · oracle_id `37f3733e-cc4e-4d84-b29b-d474f6e254a2` · printing: M20 #339 (2019-07-12) · [rulings](https://api.scryfall.com/cards/0ae7fabb-dcb6-4c21-87ee-2893b63814be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-04-01* — This card now uses the Reach keyword ability to enable the blocking of flying creatures. This works because a creature with flying can only be blocked by creatures with flying or reach.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/339/canopy-spider) · oracle_id `37f3733e-cc4e-4d84-b29b-d474f6e254a2` · printing: M20 #339 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canopy Stalker
 
@@ -517,7 +589,13 @@
 - **Flavor text** (M21 printing):
   > *The forest's cover offers shade, shelter, and an increased risk of sudden death.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24107 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/175/canopy-stalker) · oracle_id `b1062763-1fcf-4605-9253-daa1687e8173` · printing: M21 #175 (2020-07-03) · [rulings](https://api.scryfall.com/cards/a3f6a13a-ab38-49d1-8712-f9c9135a23c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-06-23* — Canopy Stalker's triggered ability counts itself, as well as any other creatures that die before the triggered ability resolves.
+  - *2020-06-23* — If each creature the defending player controls can't block for any reason (such as being tapped), then Canopy Stalker isn't blocked. If there's a cost associated with blocking Canopy Stalker, the defending player isn't forced to pay that cost, so it doesn't have to be blocked in that case either.
+  - *2020-06-23* — If your life total is brought to 0 or less at the same time that Canopy Stalker is dealt lethal damage, you lose the game before its last ability goes on the stack.
+  - *2020-06-23* — Only one creature is required to block Canopy Stalker. Other creatures may also block it, and are free to block other creatures or not block at all.
+  - *2020-06-23* — The defending player, not you, chooses which creature blocks Canopy Stalker.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/175/canopy-stalker) · oracle_id `b1062763-1fcf-4605-9253-daa1687e8173` · printing: M21 #175 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canopy Surge
 
@@ -528,7 +606,14 @@
   > Canopy Surge deals 1 damage to each creature with flying and each player. If this spell was kicked, it deals 4 damage to each creature with flying and each player instead.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24516 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inv/184/canopy-surge) · oracle_id `a151c45f-0b9e-41af-90b3-fafa12e3bbce` · printing: INV #184 (2000-10-02) · [rulings](https://api.scryfall.com/cards/2e19d68e-7554-4627-a316-beb1f75fa494/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inv/184/canopy-surge) · oracle_id `a151c45f-0b9e-41af-90b3-fafa12e3bbce` · printing: INV #184 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canopy Tactician
 
@@ -572,6 +657,7 @@
 - **Flavor text** (TRK printing):
   > *"Are you the best crew in the fleet or not?!"*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32323 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/141/cantankerous-captain) · oracle_id `2375e6e4-bea2-4fa2-b0d5-467e3076962c` · printing: TRK #141 (2026-11-13) · [rulings](https://api.scryfall.com/cards/2c053ec5-d1ea-4526-8a0d-e4dfafb8ecdf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cantankerous Keepers
@@ -586,7 +672,10 @@
   > *The guards were decidedly less than pleased, upon waking, to find their prisoners escaped.*
 - **Keywords:** Affinity, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16253 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/122/cantankerous-keepers) · oracle_id `77c97dad-17cc-4a28-a48b-907c044d9034` · printing: HOB #122 (2026-08-14) · [rulings](https://api.scryfall.com/cards/fae46a70-a6d3-4584-859d-6c7425fb1508/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-06-29* — Affinity for Elves reduces only the generic mana in the cost to cast Cantankerous Keepers. The colored mana must still be paid.
+  - *2026-06-29* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Cantankerous Keepers's first ability). The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/122/cantankerous-keepers) · oracle_id `77c97dad-17cc-4a28-a48b-907c044d9034` · printing: HOB #122 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cantivore
 
@@ -598,6 +687,7 @@
   > Cantivore's power and toughness are each equal to the number of enchantment cards in all graveyards.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29719 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/13/cantivore) · oracle_id `2ed5083e-1c58-48c0-8413-390971021d94` · printing: ODY #13 (2001-10-01) · [rulings](https://api.scryfall.com/cards/b5243fc3-176b-44a3-9f1a-ab069a08757a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Can't Quite Recall
@@ -608,6 +698,7 @@
   > Forbidden (This card can't be in your starting deck. Yes, you read that right. You need to figure out a way to get it into the game without it being in your deck.)
   > Target player draws three cards.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/527/cant-quite-recall) · oracle_id `e6d0e62e-2262-4071-95b3-4ad39a3997f5` · printing: MB2 #527 (2024-08-02) · [rulings](https://api.scryfall.com/cards/e65a3a97-88ab-4949-9aa5-3dd43204a804/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Can't Stay Away
@@ -621,7 +712,14 @@
   > *Death is no impediment to dinner.*
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17095 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/213/cant-stay-away) · oracle_id `69ae219e-bf97-4626-9b16-7901f51f0343` · printing: MID #213 (2021-09-24) · [rulings](https://api.scryfall.com/cards/3ccfebf1-add1-4f62-bffa-9023dea5b7c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/213/cant-stay-away) · oracle_id `69ae219e-bf97-4626-9b16-7901f51f0343` · printing: MID #213 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canyon Crab
 
@@ -634,7 +732,9 @@
 - **Flavor text** (OTJ printing):
   > *They cluster near shallow river crossings, blending into the rocks, waiting for unsuspecting travelers to step within range of their claws.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14536 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/40/canyon-crab) · oracle_id `4681facf-21ca-4118-a827-0e3d4233d8e6` · printing: OTJ #40 (2024-04-19) · [rulings](https://api.scryfall.com/cards/b740a8a8-e1d3-4642-a214-03731c9b5553/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-04-12* — At the beginning of your end step, Canyon Crab's ability will check to see if you've cast a spell from your hand this turn. If you have, the ability won't trigger at all. If the ability does trigger, it will check again as it tries to resolve. If you've cast a spell from your hand since the ability triggered, the ability won't do anything.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/40/canyon-crab) · oracle_id `4681facf-21ca-4118-a827-0e3d4233d8e6` · printing: OTJ #40 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canyon Crawler
 
@@ -647,7 +747,12 @@
   > Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.)
 - **Keywords:** Landcycling, Food, Typecycling, Cycling, Swampcycling, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14260 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/90/canyon-crawler) · oracle_id `bac94fc9-808b-4dc9-b405-408dd2aa6194` · printing: TLA #90 (2025-11-21) · [rulings](https://api.scryfall.com/cards/30a30bfb-f0f3-425b-b37d-20079ee27046/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-10-02* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2025-10-02* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Bosco, Just a Bear's ability (an ability with "Sacrifice a Food" in its cost). You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Bosco, Just a Bear's ability.
+  - *2025-10-02* — Some spells and abilities that create Food tokens may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Food tokens.
+  - *2025-10-02* — Whatever you do, don't eat the delicious cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/90/canyon-crawler) · oracle_id `bac94fc9-808b-4dc9-b405-408dd2aa6194` · printing: TLA #90 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canyon Drake
 
@@ -661,6 +766,7 @@
   > *"These runes are tough enough without the distraction," Ertai muttered, one eye on the drake.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32148 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmp/166/canyon-drake) · oracle_id `b5b46c99-1cc1-465a-a831-3fd6665ef560` · printing: TMP #166 (1997-10-14) · [rulings](https://api.scryfall.com/cards/22f84143-5912-43ca-a274-f26ed0dbadd0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canyon Jerboa
@@ -675,7 +781,12 @@
   > *—Bruse Tarl, Goma Fada nomad*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11669 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/7/canyon-jerboa) · oracle_id `254d4918-de40-4ac4-b542-f5c67a5e21eb` · printing: ZNR #7 (2020-09-25) · [rulings](https://api.scryfall.com/cards/26b3938e-ebd7-4668-be3a-422c02ff5b08/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-09-25* — Canyon Jerboa's ability affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won't get +1/+1.
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/7/canyon-jerboa) · oracle_id `254d4918-de40-4ac4-b542-f5c67a5e21eb` · printing: ZNR #7 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canyon Lurkers
 
@@ -688,7 +799,17 @@
   > *The broken Qal Sisma foothills make poor terrain for cavalry, but a perfect setting for ambushes.*
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30828 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/105/canyon-lurkers) · oracle_id `a744c5d7-c903-446a-bb30-30788058d9db` · printing: KTK #105 (2014-09-26) · [rulings](https://api.scryfall.com/cards/ef6c56d1-6eca-43be-9834-0478bea67b48/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2014-09-20* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren’t affected.
+  - *2014-09-20* — Any time you have priority, you may turn the face-down creature face up by revealing what its morph cost is and paying that cost. This is a special action. It doesn’t use the stack and can’t be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2014-09-20* — At any time, you can look at a face-down spell or permanent you control. You can’t look at face-down spells or permanents you don’t control unless an effect instructs you to do so.
+  - *2014-09-20* — Because the permanent is on the battlefield both before and after it’s turned face up, turning a permanent face up doesn’t cause any enters-the-battlefield abilities to trigger.
+  - *2014-09-20* — If a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+  - *2014-09-20* — Morph lets you cast a card face down by paying {3}, and lets you turn the face-down permanent face up any time you have priority by paying its morph cost.
+  - *2014-09-20* — The face-down spell has no mana cost and has a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost.
+  - *2014-09-20* — When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It’s colorless and has a mana value of 0. Other effects that apply to the creature can still grant it any of these characteristics.
+  - *2014-09-20* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/105/canyon-lurkers) · oracle_id `a744c5d7-c903-446a-bb30-30788058d9db` · printing: KTK #105 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canyon Minotaur
 
@@ -704,6 +825,7 @@
   > *"So shouldn't we—"*
   > *"No."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28159 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m14/131/canyon-minotaur) · oracle_id `0c7163e6-f5a1-45a5-88c2-19dd9ef0a587` · printing: M14 #131 (2013-07-19) · [rulings](https://api.scryfall.com/cards/3469d73e-6de1-4b91-83e3-b1714ac29268/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canyon Slough
@@ -731,6 +853,7 @@
 - **Flavor text** (DFT printing):
   > *Some seek thrills in watching the show. Some seek thrills in being the show.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14345 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/8/canyon-vaulter) · oracle_id `829e121f-d2fa-40ef-afc7-9b2072a949d7` · printing: DFT #8 (2025-02-14) · [rulings](https://api.scryfall.com/cards/cc0b15da-a45c-42f5-aafc-20ad9e38bf24/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canyon Wildcat
@@ -744,4 +867,5 @@
   > *"Relative of yours?" Ertai teased. Mirri simply sneered.*
 - **Keywords:** Landwalk, Mountainwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25478 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/127/canyon-wildcat) · oracle_id `dbf7b3ef-1ca4-4b0d-bec2-f5e60b150013` · printing: TPR #127 (2015-05-06) · [rulings](https://api.scryfall.com/cards/4bd2baa7-1264-4139-881d-e8169391c48b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

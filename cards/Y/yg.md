@@ -20,6 +20,7 @@
   > {T}: Exile the top three cards of your library.
   > {4}, {T}: Put a creature card exiled with Yggdrasil onto the battlefield under your control. It gains haste until end of turn. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15444 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/78/yggdrasil-rebirth-engine) · oracle_id `7617a6f7-c83b-4ee5-a681-c7e164456526` · printing: ACR #78 (2024-07-05) · [rulings](https://api.scryfall.com/cards/f240a9ef-06cd-4c48-ba97-fea1e55f20e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ygra, Eater of All

@@ -61,7 +61,12 @@
   > *Those of esteemed birth earn a most esteemed death.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13221 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/222/regal-bloodlord) · oracle_id `ce9d3382-23ca-4d35-ad30-5e2b75517012` · printing: M19 #222 (2018-07-13) · [rulings](https://api.scryfall.com/cards/65a75d3a-58cb-4ee0-88d3-52099cb57ac3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-07-13* — If you didn’t gain life during the turn before the end step begins, Regal Bloodlord’s last ability won’t trigger at all. Gaining life during the end step won’t cause the ability to trigger.
+  - *2018-07-13* — In a Two-Headed Giant game, life gained by your teammate won’t satisfy Regal Bloodlord’s last ability, even though it caused your team’s life total to increase.
+  - *2018-07-13* — Regal Bloodlord’s last ability checks if you gained life at any point during the turn. It doesn’t matter if you also lost life or whether your life total is greater than it was at the beginning of the turn. It also doesn’t matter whether Regal Bloodlord was on the battlefield when the life gain happened.
+  - *2018-07-13* — You create only one Bat token, no matter how much life you gained.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/222/regal-bloodlord) · oracle_id `ce9d3382-23ca-4d35-ad30-5e2b75517012` · printing: M19 #222 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Regal Bunnicorn
 
@@ -131,7 +136,9 @@
   > Whenever this creature mutates, other creatures you control get +2/+1 until end of turn.
 - **Keywords:** Mutate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16435 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/202/regal-leosaur) · oracle_id `fc445b1d-229d-4cf3-8203-8872d8957a15` · printing: IKO #202 (2020-04-24) · [rulings](https://api.scryfall.com/cards/b6fdf313-740b-4976-911f-9fb5eb54afce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-04-17* — Regal Leosaur’s last ability affects only other creatures you control at the time it resolves. Creatures you begin to control later in the turn won’t get +2/+1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/202/regal-leosaur) · oracle_id `fc445b1d-229d-4cf3-8203-8872d8957a15` · printing: IKO #202 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Regal Sliver
 
@@ -144,7 +151,13 @@
   > *"It is possible that some queens are not born queens, but evolve into that form over time."*
   > *—Rukarumel, field notes*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9963 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/724/regal-sliver) · oracle_id `3a68915d-3e8b-4ede-bdd9-6c138ca63220` · printing: CMM #724 (2023-08-04) · [rulings](https://api.scryfall.com/cards/9b081723-41a1-4139-88ee-01c0238e50c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-07-28* — If combat damage dealt to the monarch causes that player to lose the game, the triggered ability that causes the controller of the attacking creature to become the monarch doesn't resolve. In most cases, the controller of the attacking creature will still become the monarch as it is likely their turn.
+  - *2023-07-28* — If the monarch leaves the game during another player's turn, that player becomes the monarch. If the monarch leaves the game during their turn, the next player in turn order becomes the monarch.
+  - *2023-07-28* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2023-07-28* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
+  - *2023-07-28* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/724/regal-sliver) · oracle_id `3a68915d-3e8b-4ede-bdd9-6c138ca63220` · printing: CMM #724 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Regal Unicorn
 
@@ -156,6 +169,7 @@
 - **Flavor text** (6ED printing):
   > *Unicorns don't care if you believe in them any more than you care if they believe in you.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25475 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/6ed/35/regal-unicorn) · oracle_id `2b856a43-ca6b-4f08-b610-9794ee6d7fcf` · printing: 6ED #35 (1999-04-21) · [rulings](https://api.scryfall.com/cards/54ca9b1c-fead-4bb6-800f-8b762a82fda7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Regathan Firecat
@@ -168,6 +182,7 @@
 - **Flavor text** (M14 printing):
   > *It stalks the Regathan highlands, leaving behind melted snow, scorched earth, and the charred corpses of would-be temple robbers.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29005 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m14/150/regathan-firecat) · oracle_id `b3f609b5-fb4e-4e66-a70a-53bbe0fa2b9a` · printing: M14 #150 (2013-07-19) · [rulings](https://api.scryfall.com/cards/4b4df1dd-886d-4fe7-b3f7-2dca044de41c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Regenerate
@@ -180,6 +195,7 @@
   > *"This wound shall be like the chills of winter: swiftly forgotten when spring shoots rise."*
 - **Keywords:** Heal, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24369 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m10/202/regenerate) · oracle_id `4ce6c946-7a93-4a8d-a2c9-086cbd036e3c` · printing: M10 #202 (2009-07-17) · [rulings](https://api.scryfall.com/cards/9a1026f4-b11a-48aa-9191-e0bb51c515a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Regeneration
@@ -191,6 +207,7 @@
   > {G}: Regenerate enchanted creature. (The next time that creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)
 - **Keywords:** Heal, Regenerate, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16113 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/290/regeneration) · oracle_id `89390a33-b289-4edd-a114-6616e49a49c2` · printing: 10E #290 (2007-07-13) · [rulings](https://api.scryfall.com/cards/4b848c69-0f64-4631-84b9-6597c359f3ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Regenerations Restored
@@ -202,6 +219,7 @@
   > Whenever one or more time counters are removed from this enchantment, scry 1 and you gain 1 life. Then if this enchantment has no time counters on it, exile it. When you do, take an extra turn after this one.
 - **Keywords:** Vanishing, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11227 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/151/regenerations-restored) · oracle_id `a1e691f3-a3e9-4cfa-a761-d7e020364dfa` · printing: WHO #151 (2023-10-13) · [rulings](https://api.scryfall.com/cards/3f7c35e0-b304-4b24-a8a1-5ccc4bb2aad0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Regenesis
@@ -214,6 +232,7 @@
   > *"When you get right down to it, the difference between death and life is just a membrane-enclosed environment maintained by a metabolic process."*
   > *—Gulistan, Simic biomancer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21367 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/136/regenesis) · oracle_id `14bc2a2e-a445-4785-9c88-b9ad169c39bc` · printing: RNA #136 (2019-01-25) · [rulings](https://api.scryfall.com/cards/18a362c1-af92-4094-a7c2-f09952767606/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Regent's Authority
@@ -225,7 +244,9 @@
 - **Flavor text** (NEO printing):
   > *Before her spark pulled her away again, the Emperor appointed the wise Light-Paws to guide Kamigawa in her absence.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19924 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/32/regents-authority) · oracle_id `54402930-84ea-4c3e-9880-ca631e47485f` · printing: NEO #32 (2022-02-18) · [rulings](https://api.scryfall.com/cards/79243e97-fe45-4988-b299-f59a7c53ad31/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-02-18* — If it is both an enchantment creature and a legendary creature, you still only put one +1/+1 counter on it and it gets +1/+1 until end of turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/32/regents-authority) · oracle_id `54402930-84ea-4c3e-9880-ca631e47485f` · printing: NEO #32 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Regicide
 
@@ -237,7 +258,14 @@
 - **Flavor text** (CN2 printing):
   > *"You're done!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31701 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/45/regicide) · oracle_id `db8e3c05-12d6-41f6-8cc7-e64c863fca58` · printing: CN2 #45 (2016-08-26) · [rulings](https://api.scryfall.com/cards/07f56287-91e0-418f-8b57-35c6c30cee33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2016-08-23* — If a card would allow you to cast a Regicide but you didn't draft one, you won't be able to cast it because you won't be able to choose a legal target.
+  - *2016-08-23* — If you copy or gain control of a Regicide that's already on the stack but you didn't draft one, you won't be able to choose a new target and Regicide won't resolve as it tries to resolve. The target creature won't be destroyed. On the other hand, if you did draft a Regicide, use the set of colors chosen as you drafted cards named Regicide when choosing a new target (if applicable) or determining if the resolving Regicide's target is legal.
+  - *2016-08-23* — If you draft another Regicide, any additional colors chosen will count for each Regicide you've drafted.
+  - *2016-08-23* — Regicide can't target colorless creatures.
+  - *2016-08-23* — The target creature can be colors that weren't chosen as long as it's also one or more colors that were. For example, if the chosen colors were red, white, and green, Regicide could target a creature that's white and black.
+  - *2016-08-23* — The three chosen colors must be different from one another.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/45/regicide) · oracle_id `db8e3c05-12d6-41f6-8cc7-e64c863fca58` · printing: CN2 #45 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Regisaur Alpha
 
@@ -264,7 +292,14 @@
   > *"Show them the light, my love."*
   > *—Krav, the Unredeemed*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14971 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/30/regnas-sanction) · oracle_id `b594f7f1-1db7-46e9-bbc7-42ccc16ce9a1` · printing: BBD #30 (2018-06-08) · [rulings](https://api.scryfall.com/cards/3ea0c6c5-f782-40bf-a0c9-ee7e97963146/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2018-06-08* — Friends perform their specified actions before foes. This means that a friend’s action may cause a triggered ability of a foe’s permanent to trigger before that foe’s action causes that permanent to leave the battlefield.
+  - *2018-06-08* — Players can’t take actions in between the time that friends perform their actions and the time that foes perform theirs. If any abilities trigger from friends performing actions, those triggers won’t be put onto the stack until the foes perform their actions and the spell finishes resolving.
+  - *2018-06-08* — The designation of friend or foe is only relevant to the spell that asks you to choose. A player you call your friend doesn’t become your teammate, and the next “friend or foe” spell you cast could name that player your foe.
+  - *2018-06-08* — When Regna’s Sanction resolves and your foes perform their actions, first the next foe in turn order (or, if it’s a foe’s turn, that foe) chooses an untapped creature they control, then each other foe in turn order does the same, then all other creatures those players control are tapped at the same time. Foes will know choices made by earlier players when making their choices.
+  - *2018-06-08* — You make this choice for yourself as well as each other player. In some rare cases, you may wish to call yourself (or your teammate in a Two-Headed Giant game) a foe. You can do that.
+  - *2018-06-08* — You may call a player a friend or a foe even if that player will be instructed to perform an impossible action. For example, for Regna’s Sanction, a foe may control no untapped creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/30/regnas-sanction) · oracle_id `b594f7f1-1db7-46e9-bbc7-42ccc16ce9a1` · printing: BBD #30 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Regna, the Redeemer
 
@@ -277,7 +312,20 @@
   > At the beginning of each end step, if your team gained life this turn, create two 1/1 white Warrior creature tokens.
 - **Keywords:** Flying, Partner with, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15872 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner, Partner with
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/3/regna-the-redeemer) · oracle_id `0e14f59f-021a-4ad3-a26b-8f79e680c426` · printing: BBD #3 (2018-06-08) · [rulings](https://api.scryfall.com/cards/0c2bf475-9845-40ed-9f55-669325fb6183/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2018-06-08* — "Partner with [name]" represents two abilities. The first is a triggered ability: "When this permanent enters the battlefield, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle their library."
+  - *2018-06-08* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2018-06-08* — Both commanders start in the command zone, and the remaining 98 cards of your deck are shuffled to become your library.
+  - *2018-06-08* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Khorvath and Sylvia are your commanders, your deck may contain cards with red and/or white in their color identity, but not blue, black, or green.
+  - *2018-06-08* — If your team didn't gain life during the turn before the end step begins, Regna's last ability won't trigger at all. Gaining life during the end step won't cause the ability to trigger.
+  - *2018-06-08* — Note that the target player searches their library (which may be affected by effects such as that of Stranglehold) and that the card they find is revealed, even though these words aren't included in the ability's reminder text.
+  - *2018-06-08* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from one of them, not from both of them combined. Command Beacon's effect puts one into your hand from the command zone, not both.
+  - *2018-06-08* — Regna's last ability checks if any player on your team gained life at any point during the turn. It doesn't matter if the player also lost life or whether the team's life total is greater than it was at the beginning of the turn. It also doesn't matter whether Regna was on the battlefield when the life gain happened.
+  - *2018-06-08* — Regna's last ability has you create two tokens, regardless of which player on your team gained life, how many players on your team gained life, or how much life was gained.
+  - *2018-06-08* — The second ability represented by the "partner with [name]" keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with "partner with [name]" is designated as your commander, the named legendary creature card can also be designated as your commander. For more information on the Commander variant, please visit Wizards.com/Commander.
+  - *2018-06-08* — The triggered ability of the "partner with" keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player who might have that card in their library.
+  - *2018-06-08* — To have two commanders, both must have the partner ability (featured in the Magic: The Gathering—Commander™ (2016 Edition) set) or corresponding "partner with" abilities as the game begins. A creature with a "partner with" ability can't partner with any creature other than its designated partner. Losing a partner ability during the game doesn't cause either to cease to be your commander.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/3/regna-the-redeemer) · oracle_id `0e14f59f-021a-4ad3-a26b-8f79e680c426` · printing: BBD #3 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Regress
 
@@ -289,6 +337,7 @@
   > *"Never look too deep, where the waters turn dark. What the sea has hidden there may not stay down forever."*
   > *—Jaby, Silundi Sea nomad*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26474 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/roe/83/regress) · oracle_id `2fa763ad-4d94-4c3a-a099-13ac22c09ce4` · printing: ROE #83 (2010-04-23) · [rulings](https://api.scryfall.com/cards/b7aba8e0-34e7-43ec-bce5-b6b472daa841/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Regrowth

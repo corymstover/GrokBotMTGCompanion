@@ -24,7 +24,10 @@
   > *"Do not mistake tranquility for domestication. This land is wild, and will always remain so."*
 - **Keywords:** Reach, Defender, Channel
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17772 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/173/bamboo-grove-archer) · oracle_id `657f6318-aa09-46f1-ab69-896b17a48950` · printing: NEO #173 (2022-02-18) · [rulings](https://api.scryfall.com/cards/8b43bb9f-1b84-41cc-a4f9-5875ae6d207c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-02-18* — Discarding the card is part of the cost to activate a channel ability.
+  - *2022-02-18* — If a channel ability requires a target, you may not activate it without a target just to discard the card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/173/bamboo-grove-archer) · oracle_id `657f6318-aa09-46f1-ab69-896b17a48950` · printing: NEO #173 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bamboozle
 
@@ -33,6 +36,7 @@
 - **Oracle text:**
   > Target player reveals the top four cards of their library. You choose two of those cards and put them into that player's graveyard. Put the rest on top of their library in any order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25158 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/68/bamboozle) · oracle_id `a1eccd85-d243-4d27-bf49-d3ac816159e4` · printing: ODY #68 (2001-10-01) · [rulings](https://api.scryfall.com/cards/44012bb8-17b7-4b50-a796-662ef09bfc29/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bamboozling Beeble
@@ -47,4 +51,6 @@
   > *Myra bought beebles because they were cheaper than rubber ducks. Now the infestation is her largest expense.*
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14979 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/37/bamboozling-beeble) · oracle_id `b8645fe4-884b-4511-b138-ea4ba2eee943` · printing: UNF #37 (2022-10-07) · [rulings](https://api.scryfall.com/cards/03511d64-3c8d-40a1-8ce2-afb46922df1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-07* — You choose which roll to ignore after seeing all the results. The ignored roll is considered never to have happened. It can’t cause any abilities to trigger, and no effect will see its result.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/37/bamboozling-beeble) · oracle_id `b8645fe4-884b-4511-b138-ea4ba2eee943` · printing: UNF #37 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

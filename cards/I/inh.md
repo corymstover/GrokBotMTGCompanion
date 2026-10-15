@@ -22,7 +22,9 @@
   > *"More than lessons may be gained from the past."*
   > *—Halvor Arensson, Kjeldoran priest*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25341 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me2/18/inheritance) · oracle_id `742cb752-dd20-4b1f-8d96-7e9a8f864e75` · printing: ME2 #18 (2008-09-22) · [rulings](https://api.scryfall.com/cards/f660a337-09f7-4ae9-b61b-f5ecbda4a4ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — If Inheritance and a creature are each put into a graveyard from the battlefield at the same time, Inheritance’s ability will trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me2/18/inheritance) · oracle_id `742cb752-dd20-4b1f-8d96-7e9a8f864e75` · printing: ME2 #18 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inherited Envelope
 
@@ -55,4 +57,5 @@
 - **Flavor text** (UND printing):
   > *For the mind-minded mastermind.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/und/41/inhumaniac) · oracle_id `dc65cf70-c3aa-4e3c-82c6-260cbdf5f522` · printing: UND #41 (2020-02-29) · [rulings](https://api.scryfall.com/cards/e1150ef5-b529-4ad2-ba27-dd0fcffd8888/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

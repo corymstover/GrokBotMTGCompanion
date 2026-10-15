@@ -51,7 +51,17 @@
   > • Target player mills five cards, then puts each Goblin card milled this way into their hand.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12240 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/228/grubs-command) · oracle_id `8173e160-9a22-43f7-90d1-9ada043bc1b7` · printing: ECL #228 (2026-01-23) · [rulings](https://api.scryfall.com/cards/73013908-feff-495a-a62e-1e19548ffe6f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2025-11-17* — Any enters abilities of the copied permanent will trigger when the token enters. Any "as [this permanent] enters" or "[this permanent] enters with" abilities of the copied permanent will also work.
+  - *2025-11-17* — If all of Grub's Command's targets are illegal as it tries to resolve, it will do nothing. If at least one target is still legal, it will resolve and do as much as it can.
+  - *2025-11-17* — If the copied permanent has {X} in its mana cost, X is 0.
+  - *2025-11-17* — If the copied permanent is a token, the token that's created copies the original characteristics of that token as stated by the effect that created that token.
+  - *2025-11-17* — If the copied permanent is copying something else, then the token enters as whatever that permanent copied.
+  - *2025-11-17* — Kindred is a card type that allows noncreature cards to have creature types. For example, Morcant's Eyes is an Elf (although not a creature) while on the battlefield and an Elf card (although not a creature card) in zones other than the battlefield.
+  - *2025-11-17* — Some older cards were originally printed with the "tribal" card type. That card type has been replaced with "kindred." This change does not affect the gameplay function of these cards.
+  - *2025-11-17* — The token created by the first mode of Grub's Command copies exactly what was printed on the original permanent and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2025-11-17* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/228/grubs-command) · oracle_id `8173e160-9a22-43f7-90d1-9ada043bc1b7` · printing: ECL #228 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grub, Storied Matriarch // Grub, Notorious Auntie
 
@@ -96,7 +106,12 @@
 - **Flavor text** (CNS printing):
   > *"Your defiance is noted."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12122 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/28/grudge-keeper) · oracle_id `ffbf8459-fda2-4c1d-9841-c001c37d2141` · printing: CNS #28 (2014-06-06) · [rulings](https://api.scryfall.com/cards/cf00b8d3-30bb-44b8-8531-4bfd018acc0c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-05-29* — Grudge Keeper’s ability considers only the vote that caused it to trigger, not any previous votes, even if they were caused by the same permanent.
+  - *2014-05-29* — If one of your opponents has additional votes because of Brago’s Representative, and that player votes for more than one choice you didn’t vote for, that player will lose only 2 life.
+  - *2014-05-29* — If you have additional votes because of Brago’s Representative, and you vote for more than one choice, an opponent will lose 2 life only if they voted for none of those choices.
+  - *2014-05-29* — The spell or ability that caused you to vote will finish resolving before Grudge Keeper’s ability is put on the stack. The ability will be put on the stack even if the results of the vote cause Grudge Keeper to leave the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/28/grudge-keeper) · oracle_id `ffbf8459-fda2-4c1d-9841-c001c37d2141` · printing: CNS #28 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gruesome Deformity
 
@@ -109,6 +124,7 @@
   > *She wanted to inspire terror wherever she went. The demons happily granted her wish.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21582 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/isd/103/gruesome-deformity) · oracle_id `9b44cc9e-6ef0-4fee-b79a-3e34cb0a3407` · printing: ISD #103 (2011-09-30) · [rulings](https://api.scryfall.com/cards/5696db03-206f-4e7e-9b65-ccef31bfd7d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gruesome Discovery
@@ -120,6 +136,7 @@
   > Morbid — If a creature died this turn, instead that player reveals their hand, you choose two cards from it, then that player discards those cards.
 - **Keywords:** Morbid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27069 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dka/66/gruesome-discovery) · oracle_id `ecdae60b-c594-4e70-909b-83483104a42c` · printing: DKA #66 (2012-02-03) · [rulings](https://api.scryfall.com/cards/d0a9d733-24b6-49ed-a15a-c00285eea4b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gruesome Encore
@@ -129,6 +146,7 @@
 - **Oracle text:**
   > Put target creature card from an opponent's graveyard onto the battlefield under your control. It gains haste. Exile it at the beginning of the next end step. If that creature would leave the battlefield, exile it instead of putting it anywhere else.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19279 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbs/44/gruesome-encore) · oracle_id `f87bf51e-6218-4418-ae3e-98055e9601e4` · printing: MBS #44 (2011-02-04) · [rulings](https://api.scryfall.com/cards/3f7f31fb-af96-4c8c-80fa-219ebd7c3d4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gruesome Fate
@@ -155,7 +173,12 @@
   > *"Variety is also the spice of death."*
   > *—Cevraya, Golgari shaman*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21361 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/71/gruesome-menagerie) · oracle_id `f95fda8c-0737-447f-9212-1c459062b9e7` · printing: GRN #71 (2018-10-05) · [rulings](https://api.scryfall.com/cards/73c0e4d9-bf0d-4e28-a647-9010701a915e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-10-05* — All of the returned cards enter the battlefield at the same time.
+  - *2018-10-05* — Gruesome Menagerie doesn't target the cards to return. You choose them while it's resolving. No players may take actions between the time you make each choice and the time you return them to the battlefield.
+  - *2018-10-05* — If a card in your graveyard has {X} in its mana cost, X is considered to be 0.
+  - *2018-10-05* — If you don't have a creature card in your graveyard with one mana value, you just continue on to the next.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/71/gruesome-menagerie) · oracle_id `f95fda8c-0737-447f-9212-1c459062b9e7` · printing: GRN #71 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gruesome Realization
 
@@ -168,6 +191,7 @@
 - **Flavor text** (BRO printing):
   > *Mishra was gone—all that remained was a machine wearing his face.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10659 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/103/gruesome-realization) · oracle_id `c24e34e7-0ac6-451a-b73b-31c7f96d123f` · printing: BRO #103 (2022-11-18) · [rulings](https://api.scryfall.com/cards/21cd0ece-a267-42ab-b95a-6e7931bd837a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gruesome Scourger
@@ -180,7 +204,9 @@
 - **Flavor text** (M20 printing):
   > *His whips twist and tremble like living things, moved by the fury of the horde he commands.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24207 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/104/gruesome-scourger) · oracle_id `1b2993fa-b212-4eaa-b3e8-f79c2f2e4cbe` · printing: M20 #104 (2019-07-12) · [rulings](https://api.scryfall.com/cards/0ffbb50e-76ca-4bfd-b6d1-95ab8cf3bbf8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-07-12* — The number of creatures you control is counted as Gruesome Scourger’s ability resolves. If Gruesome Scourger is still on the battlefield, it will count itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/104/gruesome-scourger) · oracle_id `1b2993fa-b212-4eaa-b3e8-f79c2f2e4cbe` · printing: M20 #104 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gruesome Slaughter
 
@@ -256,7 +282,12 @@
   > Combined, enchanted, and equipped creatures you control have menace.
   > {3}{B}{R}, {T}: Put two target creature cards from graveyards onto the battlefield combined into one creature under your control. (Its power is equal to their total power, its toughness is equal to their total toughness, and it has their names, mana costs, types, text boxes, etc.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/132/grusilda-monster-masher) · oracle_id `33b61f1f-190f-4d34-acfb-6301f8baf636` · printing: UST #132 (2017-12-08) · [rulings](https://api.scryfall.com/cards/82ca9cf7-d6ca-4403-84be-719480eb4b7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-01-19* — A combined creature is one of the following: a creature put onto the battlefield using Grusilda's activated ability, a host creature with an augment card attached to it, a melded creature, or a merged permanent.
+  - *2018-01-19* — If you use Grusilda's ability to combine a creature card with augment with a nonhost creature card, the resulting creature will have augment but won't be attached to a host. It (meaning both cards) will be put into your graveyard as a state-based action.
+  - *2018-01-19* — If you use Grusilda's ability to combine two host creature cards, you can later attach a card with augment to that creature.
+  - *2018-01-19* — You can use Grusilda's ability to put a host creature card and a creature card with augment onto the battlefield combined.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/132/grusilda-monster-masher) · oracle_id `33b61f1f-190f-4d34-acfb-6301f8baf636` · printing: UST #132 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gruul Beastmaster
 
@@ -268,7 +299,14 @@
   > Whenever this creature attacks, another target creature you control gets +X/+0 until end of turn, where X is this creature's power.
 - **Keywords:** Riot
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24864 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/129/gruul-beastmaster) · oracle_id `924771b2-8566-4bdf-b089-85c3257b9900` · printing: RNA #129 (2019-01-25) · [rulings](https://api.scryfall.com/cards/2b0aaded-515f-4ac9-a72f-6948b4d4df51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2019-01-25* — If Gruul Beastmaster leaves the battlefield before its triggered ability resolves, use its power as it last existed on the battlefield to determine the value of X.
+  - *2019-01-25* — If Gruul Beastmaster’s power is negative as its triggered ability resolves, X is considered to be 0. In other words, that ability can’t cause the creature to lose power.
+  - *2019-01-25* — If a creature entering the battlefield has riot but can’t have a +1/+1 counter put onto it, it gains haste.
+  - *2019-01-25* — If you choose for the creature to gain haste, it gains haste indefinitely. It won’t lose it as the turn ends or as another player gains control of it.
+  - *2019-01-25* — Riot is a replacement effect. Players can’t respond to your choice of +1/+1 counter or haste, and they can’t take actions while the creature is on the battlefield without one or the other.
+  - *2019-01-25* — The value of X is determined only as Gruul Beastmaster’s triggered ability resolves. Once that happens, the value of X won’t change later in the turn even if Gruul Beastmaster’s power changes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/129/gruul-beastmaster) · oracle_id `924771b2-8566-4bdf-b089-85c3257b9900` · printing: RNA #129 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gruul Charm
 
@@ -283,7 +321,11 @@
   > *"Not Gruul? Then die!"*
   > *—Borborygmos*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11225 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/169/gruul-charm) · oracle_id `e552cab2-cee0-4420-9419-4bada4b2f241` · printing: GTC #169 (2013-02-01) · [rulings](https://api.scryfall.com/cards/9235afe5-0a6b-43c2-921c-18524cf032f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-01-24* — A token is owned by the player under whose control it entered.
+  - *2013-01-24* — If you choose the first mode, no creature without flying will be able to block that turn, including creatures that lose flying and creatures without flying that enter after Gruul Charm resolves.
+  - *2013-01-24* — If you choose the second mode, Gruul Charm's effect will override any other control-changing effects on those permanents.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/169/gruul-charm) · oracle_id `e552cab2-cee0-4420-9419-4bada4b2f241` · printing: GTC #169 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gruul Cluestone
 
@@ -295,6 +337,7 @@
 - **Flavor text** (DGM printing):
   > *Forgotten under rocks and vines, Gruul symbols mark the sites of primitive rituals where shamans once chanted to the wild.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15638 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/140/gruul-cluestone) · oracle_id `80911151-1e72-4d10-b00a-9fcff2dd131a` · printing: DGM #140 (2013-05-03) · [rulings](https://api.scryfall.com/cards/bc47d1fe-8ab2-42f6-bcab-4bc2084ceba7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gruul Guildgate
@@ -322,6 +365,7 @@
   > {3}{R}, Sacrifice a land: This creature deals 2 damage to target player or planeswalker.
   > {3}{G}: Target creature gets +2/+2 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25124 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/189/gruul-guildmage) · oracle_id `75645b1f-0e12-4a05-b47f-0d2e2616c3ca` · printing: RVR #189 (2024-01-12) · [rulings](https://api.scryfall.com/cards/80c29287-d32e-4f7d-8602-240921314804/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gruul Keyrune
@@ -334,7 +378,10 @@
 - **Flavor text** (GTC printing):
   > *As perilous and unpredictable as the wilds themselves.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19757 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/230/gruul-keyrune) · oracle_id `98bdb1e1-7550-47e8-aa06-f81802b257a0` · printing: GTC #230 (2013-02-01) · [rulings](https://api.scryfall.com/cards/7cf96f1c-066e-4fde-acb8-4674842fb6c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — Activating the ability that turns the Keyrune into a creature while it's already a creature will override any effects that set its power and/or toughness to another number, but effects that modify power and/or toughness without directly setting them will still apply.
+  - *2013-04-15* — Until the ability that turns the Keyrune into a creature resolves, the Keyrune is colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/230/gruul-keyrune) · oracle_id `98bdb1e1-7550-47e8-aa06-f81802b257a0` · printing: GTC #230 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gruul Locket
 
@@ -347,6 +394,7 @@
   > *"In life, it was a cunning survivor, fearless and quick. May its power pass to you as you wear its skull."*
   > *—Gna, Gruul shaman*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14741 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/234/gruul-locket) · oracle_id `7018ccd0-96e6-458f-b412-197edcb2bafd` · printing: RNA #234 (2019-01-25) · [rulings](https://api.scryfall.com/cards/1ec78880-a8ec-4c87-bc3f-e2a79d154884/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gruul Nodorog
@@ -360,7 +408,10 @@
   > *Petting the nodorog*
   > *—Gruul expression meaning "making a really big mistake"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31734 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/88/gruul-nodorog) · oracle_id `68fc3611-8d82-4f87-ab50-603790a27455` · printing: GPT #88 (2006-02-03) · [rulings](https://api.scryfall.com/cards/9855ce83-ae26-4b1d-ab7f-637cde09d679/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2006-02-01* — Activating Gruul Nodorog's ability a second time in the same turn has no further effect.
+  - *2006-02-01* — Activating Gruul Nodorog's ability after blockers have been declared has no effect on the creatures already blocking it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/88/gruul-nodorog) · oracle_id `68fc3611-8d82-4f87-ab50-603790a27455` · printing: GPT #88 (2006-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gruul Ragebeast
 
@@ -390,6 +441,7 @@
 - **Flavor text** (GPT printing):
   > *The Gruul aren't satisfied with just smashing things. They continue smashing other things with the things they just smashed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31613 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gpt/89/gruul-scrapper) · oracle_id `878e8980-a2cc-4335-aafe-f5166ef48f79` · printing: GPT #89 (2006-02-03) · [rulings](https://api.scryfall.com/cards/f7f3fdc0-3fd1-47da-b3ed-e4a462179e75/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gruul Signet
@@ -417,7 +469,11 @@
   > *She displays her scars with pride.*
 - **Keywords:** Trample, Riot
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19920 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/179/gruul-spellbreaker) · oracle_id `827b3ed0-09b3-4d89-8b81-dd89cc002782` · printing: RNA #179 (2019-01-25) · [rulings](https://api.scryfall.com/cards/326679a2-782d-45a0-9a06-b147ceff3979/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-01-25* — If a creature entering the battlefield has riot but can’t have a +1/+1 counter put onto it, it gains haste.
+  - *2019-01-25* — If you choose for the creature to gain haste, it gains haste indefinitely. It won’t lose it as the turn ends or as another player gains control of it.
+  - *2019-01-25* — Riot is a replacement effect. Players can’t respond to your choice of +1/+1 counter or haste, and they can’t take actions while the creature is on the battlefield without one or the other.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/179/gruul-spellbreaker) · oracle_id `827b3ed0-09b3-4d89-8b81-dd89cc002782` · printing: RNA #179 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gruul Turf
 
@@ -456,4 +512,8 @@
   > *"Steering apparatus?! What for? Rip it out, sharpen it, and lash it to the front!"*
   > *—Ktank, Gruul plowmaster*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15066 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/151/gruul-war-plow) · oracle_id `6dba119e-1b08-42e0-8d0a-b606bd90af02` · printing: GPT #151 (2006-02-03) · [rulings](https://api.scryfall.com/cards/92efc66e-4112-413b-ae7c-85f270abc4ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2006-02-01* — While it's a creature, Gruul War Plow gives itself trample.
+  - *2006-02-01* — While it's a creature, Gruul War Plow has creature type Juggernaut. It doesn't have any abilities associated with the card named Juggernaut.
+  - *2008-08-01* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/151/gruul-war-plow) · oracle_id `6dba119e-1b08-42e0-8d0a-b606bd90af02` · printing: GPT #151 (2006-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

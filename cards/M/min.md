@@ -182,7 +182,9 @@
   > *The scrollkeepers never stepped an inch away from the doors of the Great Library, not even when the ogres and their oni masters swept through Minamo.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27237 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/101/minamo-scrollkeeper) · oracle_id `9ad4f876-e923-4a09-8e70-eb826aacf89d` · printing: CNS #101 (2014-06-06) · [rulings](https://api.scryfall.com/cards/821c99d3-389a-4138-99a2-0c4a4b243fe7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — If multiple effects modify your hand size, apply them in timestamp order. For example, if you put Null Profusion (an enchantment that says your maximum hand size is two) onto the battlefield and then put Minamo Scrollkeeper onto the battlefield, your maximum hand size will be three. However, if those permanents entered the battlefield in the opposite order, your maximum hand size would be two.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/101/minamo-scrollkeeper) · oracle_id `9ad4f876-e923-4a09-8e70-eb826aacf89d` · printing: CNS #101 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minamo Sightbender
 
@@ -194,6 +196,7 @@
 - **Flavor text** (DDI printing):
   > *Woven from threads of the spirit world, the mistcloak rendered its wearer invisible, but quickly fell to tatters.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27437 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddi/5/minamo-sightbender) · oracle_id `c4f1d8c8-29e5-43fe-8281-7d42d0173dc5` · printing: DDI #5 (2012-03-30) · [rulings](https://api.scryfall.com/cards/a598d08d-c9d4-4de5-bef5-998dd115b8b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minamo's Meddling
@@ -205,6 +208,7 @@
 - **Flavor text** (BOK printing):
   > *Like storm water through the segments of bamboo, the spell followed the links of magic. Then it destroyed them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31159 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/42/minamos-meddling) · oracle_id `6c7239b0-e67f-4848-b244-8be9915bd2dc` · printing: BOK #42 (2005-02-04) · [rulings](https://api.scryfall.com/cards/502c4aca-98f8-4c7d-89fd-ee42c938fac7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minas Morgul, Dark Fortress
@@ -248,7 +252,11 @@
   > Minas Tirith Garrison's power is equal to the number of cards in your hand.
   > Whenever this creature attacks, you may tap any number of untapped Humans you control. Draw a card for each Human tapped this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15585 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/180/minas-tirith-garrison) · oracle_id `b1cc49cd-5039-4c31-a895-4ebf869fc5e4` · printing: HOC #180 (2026-08-14) · [rulings](https://api.scryfall.com/cards/bf30fc6c-9121-4d2d-be69-9d5e84250e4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-11-03* — If Minas Tirith Garrison is untapped as its last ability resolves, it can be tapped for its own last ability.
+  - *2023-11-03* — If an attacking Human is tapped for Minas Tirith Garrison's ability (perhaps because it has vigilance or it was untapped after being declared as an attacker), that Human remains an attacking creature.
+  - *2023-11-03* — You choose how many and which creatures to tap while Minas Tirith Garrison's last ability is resolving. No player may take any other actions between the time you make this choice and the time at which you draw cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/180/minas-tirith-garrison) · oracle_id `b1cc49cd-5039-4c31-a895-4ebf869fc5e4` · printing: HOC #180 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Bend
 
@@ -257,7 +265,15 @@
 - **Oracle text:**
   > Change the text of target permanent by replacing all instances of one color word with another or one basic land type with another. (For example, you may change "nonblack creature" to "nongreen creature" or "forestwalk" to "islandwalk." This effect lasts indefinitely.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15590 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/10e/93/mind-bend) · oracle_id `d8377869-f8f7-4b4b-93ad-3ad3c4826b1a` · printing: 10E #93 (2007-07-13) · [rulings](https://api.scryfall.com/cards/692a5bfa-9a50-4610-acd7-19fc0a53f798/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2004-10-04* — Alters all occurrences of the chosen word in the text box and the type line of the given card.
+  - *2004-10-04* — Can target a card with no appropriate words on it, or even one with no words at all.
+  - *2004-10-04* — It can be used to change a land’s type from one basic land type to another. For example, Forest can be changed to Island so it produces blue mana. It doesn’t change the name of any permanent.
+  - *2004-10-04* — It can’t change a word to the same word. It must be a different word.
+  - *2004-10-04* — It only changes what is printed on the card (or set on a token when it was created or set by a copy effect). It will not change any effects that are on the permanent.
+  - *2004-10-04* — You can’t change proper nouns (i.e. card names) such as “Island Fish Jasconius”.
+  - *2004-10-04* — You choose the words to change on resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/10e/93/mind-bend) · oracle_id `d8377869-f8f7-4b4b-93ad-3ad3c4826b1a` · printing: 10E #93 (2007-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindbender Spores
 
@@ -270,6 +286,7 @@
   > Whenever this creature blocks a creature, put four fungus counters on that creature. The creature gains "This creature doesn't untap during your untap step if it has a fungus counter on it" and "At the beginning of your upkeep, remove a fungus counter from this creature."
 - **Keywords:** Flying, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22180 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/229/mindbender-spores) · oracle_id `0e3b7ec1-3760-4ac4-81ef-1ab389392f1b` · printing: MIR #229 (1996-10-08) · [rulings](https://api.scryfall.com/cards/f41066eb-be5e-4a6d-9156-64f5e56c7ab3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindblade Render
@@ -294,6 +311,7 @@
 - **Oracle text:**
   > Choose a nonland card name and a number greater than 0. Target player reveals their library. If that library contains exactly the chosen number of cards with the chosen name, Mindblaze deals 8 damage to that player. Then that player shuffles.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26356 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/180/mindblaze) · oracle_id `31f3a9f3-881e-4dc9-b71d-5d1fc86477bf` · printing: CHK #180 (2004-10-01) · [rulings](https://api.scryfall.com/cards/59418766-5567-4ec4-af1f-1cb2db2958d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Bomb
@@ -303,6 +321,7 @@
 - **Oracle text:**
   > Each player may discard up to three cards. Mind Bomb deals damage to each player equal to 3 minus the number of cards they discarded this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18088 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5ed/105/mind-bomb) · oracle_id `fad1562d-0ab9-4a3f-b80a-476d8132f66d` · printing: 5ED #105 (1997-03-24) · [rulings](https://api.scryfall.com/cards/3c46d040-58c2-4f7a-8b66-fea33fcb0e11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindbreak Trap
@@ -331,6 +350,7 @@
 - **Flavor text** (ODY printing):
   > *As haunting as a zombie's curse.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32134 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/148/mind-burst) · oracle_id `efc32c4a-ad84-400d-b79f-5861a3e4fa2f` · printing: ODY #148 (2001-10-01) · [rulings](https://api.scryfall.com/cards/c07889a1-1582-4f14-8925-fa21a1a5fd65/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Carver
@@ -343,7 +363,12 @@
   > Equip {2}{B}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22687 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/113/mind-carver) · oracle_id `65d6eae4-4318-4dbe-af7a-9f57bb587605` · printing: ZNR #113 (2020-09-25) · [rulings](https://api.scryfall.com/cards/105b6e18-bcd8-43b7-870d-6c7e5c06f99b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-09-25* — An ability that offers a bonus if an opponent has eight or more cards in their graveyard won't provide additional benefits if more than one opponent has eight or more cards in their graveyard. There are also no additional benefits no matter how many cards are in an opponent's graveyard, as long as there are at least eight.
+  - *2020-09-25* — Attaching an Equipment with its enters-the-battlefield triggered ability isn't the same as using its equip ability. You don't pay mana for the attachment, and if the Equipment enters at a time you couldn't cast a sorcery, you can still attach it to a creature you control.
+  - *2020-09-25* — If the target creature becomes an illegal target, the Equipment remains on the battlefield unattached.
+  - *2020-09-25* — In a multiplayer game, once an opponent leaves the game, they won't be considered for such an effect, no matter how many cards they had in their graveyard before leaving the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/113/mind-carver) · oracle_id `65d6eae4-4318-4dbe-af7a-9f57bb587605` · printing: ZNR #113 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindclaw Shaman
 
@@ -355,7 +380,14 @@
 - **Flavor text** (M13 printing):
   > *Nicol Bolas gives power to those who will abuse it most.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11886 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m13/142/mindclaw-shaman) · oracle_id `018985f5-6a67-4f2f-855c-efa7254ad3f8` · printing: M13 #142 (2012-07-13) · [rulings](https://api.scryfall.com/cards/0f342fe9-aa73-4222-b908-d4035b5746be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2012-07-01* — Any player can respond to Mindclaw Shaman’s triggered ability. However, once that ability starts resolving and the target opponent reveals their hand, players can’t respond until after the ability finishes resolving. For example, the opponent can’t cast the instant or sorcery card you choose to cast in order to stop you from casting it.
+  - *2012-07-01* — If the card has X in its mana cost, you must choose 0 as its value.
+  - *2012-07-01* — If you can’t cast any instant or sorcery card (perhaps because there are no legal targets available) or if you choose not to cast one, then Mindclaw Shaman’s ability finishes resolving and the game moves on.
+  - *2012-07-01* — If you cast a card “without paying its mana cost,” you can’t pay any alternative costs. You can pay additional costs such as kicker costs. If the card has mandatory additional costs, you must pay those.
+  - *2012-07-01* — The card goes to its owner’s graveyard after it resolves (or otherwise leaves the stack), not yours.
+  - *2012-07-01* — You cast the card from the opponent’s hand immediately. Ignore timing restrictions based on the card’s type. Other timing restrictions, such as “Cast [this card] only during combat,” must be followed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m13/142/mindclaw-shaman) · oracle_id `018985f5-6a67-4f2f-855c-efa7254ad3f8` · printing: M13 #142 (2012-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Control
 
@@ -369,7 +401,9 @@
   > *—Noyan Dar, Tazeem lullmage*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12955 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m12/67/mind-control) · oracle_id `5912546a-acc2-448c-b042-64bdac5ec129` · printing: M12 #67 (2011-07-15) · [rulings](https://api.scryfall.com/cards/ec7f77af-17d7-4746-bc83-f455b9b6f9ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2010-08-15* — Gaining control of a creature doesn’t cause you gain control of any Auras or Equipment attached to it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m12/67/mind-control) · oracle_id `5912546a-acc2-448c-b042-64bdac5ec129` · printing: M12 #67 (2011-07-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindcrank
 
@@ -396,7 +430,10 @@
   > *"Why infiltrate their strongholds when what we seek resides in such a poorly guarded safe?"*
   > *—Malcator, Executor of Synthesis*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29480 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nph/39/mindculling) · oracle_id `955a7f4d-7100-4d8b-818c-be8651d0ebe6` · printing: NPH #39 (2011-05-13) · [rulings](https://api.scryfall.com/cards/6faf4372-6fb5-48aa-9b94-b0e77c867116/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-06-01* — If the opponent has one card in hand, that player will discard that card and you will draw two cards. If the opponent has no cards in hand, you will draw two cards.
+  - *2011-06-01* — You must be able to target an opponent to cast Mindculling. If that opponent is an illegal target when Mindculling tries to resolve, it’ll be countered and will have no effect. You won’t draw two cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nph/39/mindculling) · oracle_id `955a7f4d-7100-4d8b-818c-be8651d0ebe6` · printing: NPH #39 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Drain
 
@@ -408,7 +445,9 @@
   > *"The meal was exquisite. The conversation, less so."*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18481 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/114/mind-drain) · oracle_id `0a88d1b1-ac3c-41da-b3f5-b689af0e45d7` · printing: ZNR #114 (2020-09-25) · [rulings](https://api.scryfall.com/cards/0683d586-a54b-425a-a24d-2efb2342f150/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-09-25* — If the target opponent can discard only one card or can’t discard any cards, they still mill a card and lose 1 life, and you gain 1 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/114/mind-drain) · oracle_id `0a88d1b1-ac3c-41da-b3f5-b689af0e45d7` · printing: ZNR #114 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Drill Assailant
 
@@ -422,6 +461,7 @@
   > *"If only you kept your secrets somewhere more secure than your delicate little skull."*
 - **Keywords:** Surveil, Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15713 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/225/mind-drill-assailant) · oracle_id `3b10ab39-3050-475c-af8b-f293794d498c` · printing: BLB #225 (2024-08-02) · [rulings](https://api.scryfall.com/cards/507ba708-ca9b-453e-b4c2-23b6650eb5a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Extraction
@@ -432,7 +472,12 @@
   > As an additional cost to cast this spell, sacrifice a creature.
   > Target player reveals their hand and discards all cards of each of the sacrificed creature's colors.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28348 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/apc/42/mind-extraction) · oracle_id `0077740a-528b-4ee3-b331-fac321b95302` · printing: APC #42 (2001-06-04) · [rulings](https://api.scryfall.com/cards/7d77ddcc-e66b-4036-8a55-ec42953918d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2004-10-04* — If you sacrifice a colorless creature, you get to see their hand but they discard no cards.
+  - *2004-10-04* — If you sacrifice a multicolored creature, all cards that share at least one color with the creature are discarded.
+  - *2013-04-15* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.
+  - *2013-04-15* — You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/apc/42/mind-extraction) · oracle_id `0077740a-528b-4ee3-b331-fac321b95302` · printing: APC #42 (2001-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindeye Drake
 
@@ -446,6 +491,7 @@
   > *They can map both the cityscape and the minds of its architects.*
 - **Keywords:** Flying, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28242 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gtc/43/mindeye-drake) · oracle_id `6e33ec9a-e148-4aa6-bff8-b356c45fb369` · printing: GTC #43 (2013-02-01) · [rulings](https://api.scryfall.com/cards/947f44b0-91be-4115-b499-57893f0f69a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Flayer
@@ -473,6 +519,7 @@
 - **Flavor text** (SOS printing):
   > *"I sometimes think I've learned more from the smallest of beings than from all of my professors combined."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24445 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/154/mindful-biomancer) · oracle_id `03af9d24-2df6-4318-82f2-8abdd22206f1` · printing: SOS #154 (2026-04-24) · [rulings](https://api.scryfall.com/cards/2c3a6eb8-ce0c-4dc8-9ed6-d2a9223eef53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Funeral
@@ -498,6 +545,7 @@
   > Tap target artifact, creature, or land.
 - **Keywords:** Buyback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11195 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sth/38/mind-games) · oracle_id `ea43372f-b0a7-4d1b-be3e-a4a738b06d59` · printing: STH #38 (1998-03-02) · [rulings](https://api.scryfall.com/cards/4da50979-1f5d-48d1-9406-dfc785273c04/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Grind
@@ -524,6 +572,7 @@
   > *Centuries ago, Mangara won the loyalty of the Quirion not by ruling their minds but by supporting their independence.*
 - **Keywords:** Enchant, Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20409 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/78/mind-harness) · oracle_id `bba30360-c54a-4906-8b2e-84bb1209c43d` · printing: MIR #78 (1996-10-08) · [rulings](https://api.scryfall.com/cards/5bf17780-801d-4ab8-91f4-a803ede51395/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind into Matter
@@ -548,6 +597,7 @@
 - **Flavor text** (POR printing):
   > *To dodge the unerring knife, one must be free of thought.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30557 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/por/100/mind-knives) · oracle_id `f9be5566-c3df-44cc-9de4-29510c8c245f` · printing: POR #100 (1997-05-01) · [rulings](https://api.scryfall.com/cards/d17e23a6-6313-416d-b826-5df5833371dc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindlash Sliver
@@ -560,7 +610,10 @@
 - **Flavor text** (TSP printing):
   > *Though Dominaria's queenless slivers lack a single purpose, in some the instinct for self-sacrifice remains extremely strong.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18978 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/118/mindlash-sliver) · oracle_id `7a08b371-1353-476d-ae72-379594f801da` · printing: TSP #118 (2006-10-06) · [rulings](https://api.scryfall.com/cards/f8c54575-dc1d-491c-a4f6-41f76eba2a2d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit.
+  - *2013-07-01* — If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/118/mindlash-sliver) · oracle_id `7a08b371-1353-476d-ae72-379594f801da` · printing: TSP #118 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindleecher
 
@@ -573,7 +626,14 @@
   > Whenever this creature mutates, exile the top card of each opponent's library face down. You may look at and play those cards for as long as they remain exiled.
 - **Keywords:** Flying, Mutate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10260 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/44/mindleecher) · oracle_id `4864cc98-4fde-4010-81e9-ea4944347e7e` · printing: C20 #44 (2020-04-17) · [rulings](https://api.scryfall.com/cards/2bf6b21a-8e18-400c-a39c-d693e487e47b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-04-17* — Casting the card causes it to leave exile. You can’t cast it multiple times.
+  - *2020-04-17* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any spells or permanents you control from Mindleecher are exiled, and any cards remaining in exile remain face down indefinitely. No player may look at them.
+  - *2020-04-17* — Mindleecher doesn’t change when you can cast the exiled cards. For example, if you exile a creature card without flash, you can cast it only during your main phase when the stack is empty.
+  - *2020-04-17* — You can play lands this way only if you have remaining land plays available for the turn.
+  - *2020-04-17* — You may look at and play those cards even if Mindleecher leaves the battlefield. If another player gains control of Mindleecher, that player can’t look at or play the cards, and you still can.
+  - *2020-04-17* — You pay the costs for the exiled cards if you cast them. You may pay alternative costs such as mutate rather than a card’s mana cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/44/mindleecher) · oracle_id `4864cc98-4fde-4010-81e9-ea4944347e7e` · printing: C20 #44 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindleech Ghoul
 
@@ -588,6 +648,7 @@
   > *—Ghoulcaller Gisa*
 - **Keywords:** Exploit
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20121 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/122/mindleech-ghoul) · oracle_id `e0f47fe2-9e97-400e-98c1-a80ca8be66f3` · printing: VOW #122 (2021-11-19) · [rulings](https://api.scryfall.com/cards/f5c4e00d-128a-4ddb-9e1b-3ee93121b262/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindleech Mass
@@ -628,7 +689,10 @@
   > When this enchantment enters and whenever you draw your third card each turn, amass Zombies 3. (Put three +1/+1 counters on an Army you control. It's also a Zombie. If you don't control an Army, create a 0/0 black Zombie Army creature token first.)
 - **Keywords:** Amass
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13140 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/101/mindless-conscription) · oracle_id `bf65e547-9d81-4f4b-8adb-46aee9088906` · printing: MH3 #101 (2024-06-14) · [rulings](https://api.scryfall.com/cards/1af5b195-101a-4265-98a7-522a968cf218/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-06-07* — If you don't control an Army, the Zombie Army token that you create enters the battlefield as a 0/0 creature. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2024-06-07* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Zombies, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't a Zombie, it becomes a Zombie in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/101/mindless-conscription) · oracle_id `bf65e547-9d81-4f4b-8adb-46aee9088906` · printing: MH3 #101 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindless Null
 
@@ -640,7 +704,9 @@
 - **Flavor text** (ZEN printing):
   > *Only a bloodchief can create vampires. The rest sire nulls, who become mindless beasts in their former bodies.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31744 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/zen/103/mindless-null) · oracle_id `22ff4e16-5c66-4076-94cc-32c281d42f03` · printing: ZEN #103 (2009-10-02) · [rulings](https://api.scryfall.com/cards/b5d43b60-5bbc-4f9d-a96b-8d886b0c6dbd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — Whether you control a Vampire matters only at the time you declare blockers. Once Mindless Null blocks a creature, that won’t change, even if all the Vampires you control leave the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/zen/103/mindless-null) · oracle_id `22ff4e16-5c66-4076-94cc-32c281d42f03` · printing: ZEN #103 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindlink Mech
 
@@ -653,7 +719,15 @@
   > Crew 1
 - **Keywords:** Flying, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11790 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/62/mindlink-mech) · oracle_id `009a4073-5946-4131-928c-c5c373745344` · printing: NEO #62 (2022-02-18) · [rulings](https://api.scryfall.com/cards/28273a5b-57b3-4b7a-b017-5886c171c9c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-02-18* — If Mindlink Mech becomes a copy of a creature that is copying something else, it becomes a copy of whatever that creature is a copy of.
+  - *2022-02-18* — If a continuous effect that isn't a copy effect is modifying Mindlink Mech's power, toughness, or types, that effect will continue to apply to it after it becomes a copy.
+  - *2022-02-18* — If a player crews Mindlink Mech with a nonlegendary permanent that is not normally a creature or Vehicle, the resulting permanent Mindlink Mech becomes is a 0/0 artifact creature and will usually be put into its owner's graveyard. This is because a copy effect can't set the power and toughness of a permanent if being a creature isn't part of that permanent's copiable characteristics. The crew effect is then applied after the copy effect, and it becomes a creature with no defined power or toughness, so both are set to 0.
+  - *2022-02-18* — If the creature is a token, Mindlink Mech copies the original characteristics of that token as stated by the effect that put the token onto the battlefield. It doesn't become a token.
+  - *2022-02-18* — Mindlink Mech copies exactly what was printed on the original creature (unless that creature is copying something else or is a token; see below), except that it also has Mindlink Mech's types and is 4/3. It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+  - *2022-02-18* — Mindlink Mech's second ability triggers as its crew ability resolves for the first time each turn.
+  - *2022-02-18* — Mindlink Mech's triggered ability can target only a creature that was tapped to pay its crew cost this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/62/mindlink-mech) · oracle_id `009a4073-5946-4131-928c-c5c373745344` · printing: NEO #62 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindlock Orb
 
@@ -664,7 +738,12 @@
 - **Flavor text** (ALA printing):
   > *Rogue mechanists once rummaged through the wastes of the Tidehollow, constructing unauthorized golems to threaten the hegemony of the sphinxes. The orbs put a stop to that.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19090 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/51/mindlock-orb) · oracle_id `5794b58e-f3b6-4637-b288-283b3a72a718` · printing: ALA #51 (2008-10-03) · [rulings](https://api.scryfall.com/cards/55c84e9f-ccbb-4fbc-98e1-4072968a1f8a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-10-01* — Effects that instruct you to reveal or look at cards from the top of you library will still work. Only effects that use the word "search" are affected.
+  - *2008-10-01* — If an effect says "Search your library . . . then shuffle your library," you shuffle you libraries even though you can't search.
+  - *2008-10-01* — If an effect says "You may search your library . . . If you do, shuffle your library" or "You may search your library . . . then shuffle your library," you can't choose to search, so you won't shuffle.
+  - *2008-10-01* — The only difference between a colored artifact and a colorless artifact is, obviously, its color. Unlike most artifacts, a colored artifact requires colored mana to cast. Also unlike most artifacts, a colored artifact has a color in all zones. It will interact with cards that care about color. Other than that, a colored artifact behaves just like any other artifact. It will interact as normal with any card that cares about artifacts, such as Shatter or Arcbound Ravager.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/51/mindlock-orb) · oracle_id `5794b58e-f3b6-4637-b288-283b3a72a718` · printing: ALA #51 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Maggots
 
@@ -674,7 +753,9 @@
 - **Oracle text:**
   > When this creature enters, discard any number of creature cards. For each card discarded this way, put two +1/+1 counters on this creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28403 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/exo/66/mind-maggots) · oracle_id `fcaa5a54-eb73-4d78-96a3-826d1902f642` · printing: EXO #66 (1998-06-15) · [rulings](https://api.scryfall.com/cards/c3c92a7f-a250-4497-aa7a-0394e94ef13d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You can choose to discard zero creature cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/exo/66/mind-maggots) · oracle_id `fcaa5a54-eb73-4d78-96a3-826d1902f642` · printing: EXO #66 (1998-06-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Meanderer
 
@@ -687,6 +768,7 @@
   > When this creature enters, it fights up to one target creature an opponent controls. (Each deals damage equal to its power to the other.)
 - **Keywords:** Flying, Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31597 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/141/mind-meanderer) · oracle_id `18d1765b-3b60-4dda-93a6-d02a4e53f185` · printing: FRA #141 (2026-10-02) · [rulings](https://api.scryfall.com/cards/94c290ce-252c-42b3-bcb0-c1ef621df566/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindmelter
@@ -700,6 +782,7 @@
   > {3}{C}: Target opponent exiles a card from their hand. Activate only as a sorcery. ({C} represents colorless mana.)
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25378 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/149/mindmelter) · oracle_id `dbcceed6-51a9-4ab4-b9a8-d65140661195` · printing: OGW #149 (2016-01-22) · [rulings](https://api.scryfall.com/cards/4a5bf575-6d09-4cb0-8fe0-8e49d2c39fd5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindmoil
@@ -712,7 +795,11 @@
   > *"My criticism of the Izzet is that their impulse for learning seems too much like impulse and too little like learning."*
   > *—Trigori, Azorius senator*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15404 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rav/135/mindmoil) · oracle_id `41e4ba67-d038-4d0a-b740-709cb2350192` · printing: RAV #135 (2005-10-07) · [rulings](https://api.scryfall.com/cards/0ccc79f7-2f35-4daf-a0c2-775f5fa6c249/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2005-10-01* — After Mindmoil’s ability resolves, but before the spell that triggered it does, you can cast instants from your new hand of cards. Each time you do, Mindmoil’s ability triggers again.
+  - *2005-10-01* — After Mindmoil’s ability triggers, players may cast instants and activate activated abilities. Each time you cast an instant spell “in response,” Mindmoil’s ability triggers again.
+  - *2005-10-01* — Whenever you cast a spell, Mindmoil’s ability triggers. The ability will resolve before the spell does.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rav/135/mindmoil) · oracle_id `41e4ba67-d038-4d0a-b740-709cb2350192` · printing: RAV #135 (2005-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Over Matter
 
@@ -736,6 +823,7 @@
   > Target player discards a card.
 - **Keywords:** Buyback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29395 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sth/63/mind-peel) · oracle_id `4f424d94-1544-4086-a57d-2add17332094` · printing: STH #63 (1998-03-02) · [rulings](https://api.scryfall.com/cards/92bd531c-fdd1-4a22-816e-258b2975c1a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Rake
@@ -769,7 +857,17 @@
   > *It consumes any dreams of victory.*
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25003 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/95/mind-raker) · oracle_id `060076e7-3705-4f8e-8fac-59402835902b` · printing: BFZ #95 (2015-10-02) · [rulings](https://api.scryfall.com/cards/a4d07fea-e16a-45e3-a172-9d726cd42769/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2015-08-25* — A card with devoid is just colorless. It’s not colorless and the colors of mana in its mana cost.
+  - *2015-08-25* — Cards with devoid use frames that are variations of the transparent frame traditionally used for Eldrazi. The top part of the card features some color over a background based on the texture of the hedrons that once imprisoned the Eldrazi. This coloration is intended to aid deckbuilding and game play.
+  - *2015-08-25* — Devoid works in all zones, not just on the battlefield.
+  - *2015-08-25* — Face-down cards in exile are grouped using two criteria: what caused them to be exiled face down and when they were exiled face down. If you want to put a face-down card in exile into its owner’s graveyard, you must first choose one of these groups and then choose a card from within that group at random. For example, say an artifact causes your opponent to exile their hand of three cards face down. Then on a later turn, that artifact causes your opponent to exile another two cards face down. If you use Wasteland Strangler to put one of those cards into their graveyard, you would pick the first or second pile and put a card chosen at random from that pile into the graveyard.
+  - *2015-08-25* — If a card loses devoid, it will still be colorless. This is because effects that change an object’s color (like the one created by devoid) are considered before the object loses devoid.
+  - *2015-08-25* — If a replacement effect will cause cards that would be put into a graveyard from anywhere to be exiled instead (such as the one created by Anafenza, the Foremost), you can still put an exiled card into its opponent’s graveyard. The card becomes a new object and remains in exile. In this situation, you can’t use a single exiled card if required to put more than one exiled card into the graveyard. Conversely, you could use the same card in this situation if two separate spells or abilities each required you to put a single exiled card into its owner’s graveyard.
+  - *2015-08-25* — If a spell or ability requires that you put more than one exiled card into the graveyard, you may choose cards owned by different opponents. Each card chosen will be put into its owner’s graveyard.
+  - *2015-08-25* — Other cards and abilities can give a card with devoid color. If that happens, it’s just the new color, not that color and colorless.
+  - *2015-08-25* — You can’t look at face-down cards in exile unless an effect allows you to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/95/mind-raker) · oracle_id `060076e7-3705-4f8e-8fac-59402835902b` · printing: BFZ #95 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Ravel
 
@@ -781,7 +879,9 @@
 - **Flavor text** (5ED printing):
   > *An end to reason, an end to order. Forget all that has been.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27950 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/5ed/176/mind-ravel) · oracle_id `8cd0fcac-800a-431c-aca9-804998704606` · printing: 5ED #176 (1997-03-24) · [rulings](https://api.scryfall.com/cards/1a9a0296-3690-45c7-98af-d546296ad9fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You still draw a card if opponent had no cards in hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/5ed/176/mind-ravel) · oracle_id `8cd0fcac-800a-431c-aca9-804998704606` · printing: 5ED #176 (1997-03-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindreaver
 
@@ -793,7 +893,13 @@
   > {U}{U}, Sacrifice this creature: Counter target spell with the same name as a card exiled with this creature.
 - **Keywords:** Heroic
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31278 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bng/44/mindreaver) · oracle_id `f606ab91-1f20-4351-acd3-6366b1895f72` · printing: BNG #44 (2014-02-07) · [rulings](https://api.scryfall.com/cards/87912ae7-3edc-4ea2-9b4b-caf2bc149ad1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2013-09-15* — Heroic abilities will resolve before the spell that caused them to trigger.
+  - *2013-09-15* — Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times.
+  - *2013-09-15* — Heroic abilities won’t trigger when a copy of a spell is created on the stack or when a spell’s targets are changed to include a creature with a heroic ability.
+  - *2014-02-01* — If Mindreaver leaves the battlefield, and later another Mindreaver enters the battlefield, it is a new object (even if the two were represented by the same card). The last ability of the second Mindreaver doesn’t refer to any cards exiled with the first one.
+  - *2014-02-01* — The cards are exiled face up. All players can look at them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bng/44/mindreaver) · oracle_id `f606ab91-1f20-4351-acd3-6366b1895f72` · printing: BNG #44 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Roots
 
@@ -804,6 +910,7 @@
 - **Flavor text** (SOS printing):
   > *The best ideas stem from dreams.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20513 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/203/mind-roots) · oracle_id `5d32dbf3-c157-4543-8813-da88f463de0e` · printing: SOS #203 (2026-04-24) · [rulings](https://api.scryfall.com/cards/9d5fdbda-ebbe-45d6-a668-5ddee057a063/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Rot
@@ -815,6 +922,7 @@
 - **Flavor text** (M21 printing):
   > *Many an inventor has collapsed under the pressure to create a flawless design.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12672 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/115/mind-rot) · oracle_id `ad44cf74-b717-48fb-9fa2-77512024d76a` · printing: M21 #115 (2020-07-03) · [rulings](https://api.scryfall.com/cards/833a8604-92d5-443b-9bc0-bd91c973ef07/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minds Aglow
@@ -842,6 +950,7 @@
   > *—Kyu, Sage-Eye mystic*
 - **Keywords:** Flying, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23363 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frf/41/mindscour-dragon) · oracle_id `c5d326a9-c047-4f77-9f0c-b30daf268f15` · printing: FRF #41 (2015-01-23) · [rulings](https://api.scryfall.com/cards/c5708290-60ae-400c-b149-2a63153c2890/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Sculpt
@@ -855,7 +964,9 @@
   > *—Jace Beleren*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11819 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m15/70/mind-sculpt) · oracle_id `4d8592d7-2e36-4a7a-be9e-7c8f512d5f62` · printing: M15 #70 (2014-07-18) · [rulings](https://api.scryfall.com/cards/037d6277-1fc3-41a4-ade6-7cca10535b0f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-07-01* — You can cast Mind Sculpt no matter how many cards are in the opponent’s library. If there are fewer than seven, the opponent will put all of them into their graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m15/70/mind-sculpt) · oracle_id `4d8592d7-2e36-4a7a-be9e-7c8f512d5f62` · printing: M15 #70 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind's Desire
 
@@ -905,7 +1016,12 @@
   > *—Garruk, to Vraska*
 - **Keywords:** Surveil, Empower Jace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23068 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/33/mindseeker-oculus) · oracle_id `aa9547b3-e4e4-4557-9dd1-3aa9a7cb9937` · printing: FRA #33 (2026-10-02) · [rulings](https://api.scryfall.com/cards/f5324741-353a-4a70-adb2-b631b00806dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2026-08-21* — Empower Jace won't let you put loyalty counters on nontoken Jace planeswalkers. However, if you control a Jace planeswalker token that you got another way (such as an effect that creates a token that's a copy of a permanent), empower Jace will put loyalty counters on that.
+  - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
+  - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
+  - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/33/mindseeker-oculus) · oracle_id `aa9547b3-e4e4-4557-9dd1-3aa9a7cb9937` · printing: FRA #33 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind's Eye
 
@@ -928,6 +1044,7 @@
 - **Flavor text** (MM3 printing):
   > *Dark thoughts hatch and twist within the mind, straining to take wing.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19480 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm3/77/mind-shatter) · oracle_id `26809033-a823-4251-887e-0410a545f993` · printing: MM3 #77 (2017-03-17) · [rulings](https://api.scryfall.com/cards/28c44782-a12f-4ecc-a6e8-d569e2942a9a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindshrieker
@@ -940,6 +1057,7 @@
   > {2}: Target player mills a card. This creature gets +X/+X until end of turn, where X is the milled card's mana value.
 - **Keywords:** Flying, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16393 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/isd/67/mindshrieker) · oracle_id `f638ceaf-6b44-4d99-95f3-0aa97b1738fe` · printing: ISD #67 (2011-09-30) · [rulings](https://api.scryfall.com/cards/ab1e52af-6746-4ec6-afbf-008594c874f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Slash
@@ -951,6 +1069,7 @@
 - **Flavor text** (8ED printing):
   > *"I can't think with all that screaming."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16081 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/145/mind-slash) · oracle_id `47e79913-322e-4ba6-9bf8-3b4c1c82a6c4` · printing: 8ED #145 (2003-07-28) · [rulings](https://api.scryfall.com/cards/76da89df-edb9-482c-a3bb-e7cf650990cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindslaver
@@ -990,6 +1109,7 @@
   > • You discard X cards.
   > • You sacrifice X permanents.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RA11a/mindslaver-toolkit) · oracle_id `8a782e99-78f8-4de4-b46e-3465fe6c8da5` · printing: UNK #RA11a (2023-02-17) · [rulings](https://api.scryfall.com/cards/3cb0701f-9ba0-4731-970f-a9b097dac1eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindslicer
@@ -1015,6 +1135,7 @@
   > *"Guard your thoughts. You never know who might wish to take them from you."*
   > *—Kalitas, Bloodchief of Ghet*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20174 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/zen/102/mind-sludge) · oracle_id `86e64a29-6ed1-451b-a114-f74341322eeb` · printing: ZEN #102 (2009-10-02) · [rulings](https://api.scryfall.com/cards/7aaedf6d-171b-4845-8815-debbe06b5b66/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindsparker
@@ -1027,7 +1148,10 @@
   > Whenever an opponent casts a white or blue instant or sorcery spell, this creature deals 2 damage to that player.
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20286 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/628/mindsparker) · oracle_id `54866c25-b332-46c8-a2c5-1a71b702ddc0` · printing: FDN #628 (2024-11-15) · [rulings](https://api.scryfall.com/cards/4c8b3e58-be07-451e-a5c7-61c70cc3a5a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — If an opponent casts a spell that's both white and blue, Mindsparker's last ability triggers only once.
+  - *2024-11-08* — Mindsparker's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/628/mindsparker) · oracle_id `54866c25-b332-46c8-a2c5-1a71b702ddc0` · printing: FDN #628 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Spiral
 
@@ -1038,7 +1162,17 @@
   > Target player draws three cards. If the gift was promised, tap target creature an opponent controls and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
 - **Keywords:** Gift
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13811 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/59/mind-spiral) · oracle_id `03e356ae-f1e8-4730-8d2b-b9e2f32db915` · printing: BLB #59 (2024-08-02) · [rulings](https://api.scryfall.com/cards/7e24fe6a-607b-49b8-9fca-cecb1e40de7f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-07-26* — As an additional cost to cast a spell with gift, you can promise the listed gift to an opponent. That opponent is chosen as part of that additional cost. The gift isn’t given at this time; rather, it’s given at a later time based on whether or not the spell is a permanent spell.
+  - *2024-07-26* — For instants and sorceries with gift, the gift is given to the appropriate opponent as part of the resolution of the spell. This happens before any of the spell’s other effects would take place.
+  - *2024-07-26* — For permanent spells with gift, an ability triggers when that permanent enters if the gift was promised. When that ability resolves, the gift is given to the appropriate opponent.
+  - *2024-07-26* — If a spell for which the gift was promised is countered, doesn’t resolve (perhaps because all of its targets are illegal), or is otherwise removed from the stack, the gift won’t be given. None of its other effects will happen either.
+  - *2024-07-26* — If you copy a spell for which the gift was promised, the gift was also promised to the same opponent for the copy. If a card or token enters as a copy of a permanent that’s already on the battlefield, the gift isn’t promised for that new permanent, even if it was promised for the original.
+  - *2024-07-26* — In the main set, there are four different kinds of gifts. “Gift a Food” causes the chosen opponent to create a Food token, while “Gift a Treasure” causes the chosen opponent to create a Treasure token. “Gift a card” causes them to draw a card, and “Gift a tapped Fish” causes them to create a tapped 1/1 blue Fish creature token. The Commander decks contain two more kinds of gifts: “Gift an Octopus,” which causes the chosen opponent to create an 8/8 blue Octopus creature token, and “Gift an extra turn,” which causes them to take an extra turn after the current turn ends.
+  - *2024-07-26* — Some instant or sorcery spells require alternative or additional targets if the gift was promised. You ignore these targeting requirements if the gifts aren’t promised for those spells. On the other hand, you can promise a gift for a permanent spell even if you won’t be able to choose targets for an enters ability of that permanent once the spell resolves.
+  - *2024-07-26* — You can’t pay a gift cost more than once.
+  - *2024-07-26* — You may target a creature that is already tapped with Mind Spiral. If the target creature is already tapped as Mind Spiral resolves, you will still put a stun counter on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/59/mind-spiral) · oracle_id `03e356ae-f1e8-4730-8d2b-b9e2f32db915` · printing: BLB #59 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindsplice Apparatus
 
@@ -1076,7 +1210,11 @@
   > *The Invasion roused the reclusive jalpari from the depths. Since then, they had fully integrated into Avishkari society.*
 - **Keywords:** Exhaust
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10290 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/51/mindspring-merfolk) · oracle_id `35142b01-4b8d-4335-a943-a3172fa04573` · printing: DFT #51 (2025-02-14) · [rulings](https://api.scryfall.com/cards/b6250b8b-1943-445f-ada9-30b41eb6d29b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-02-07* — Exhaust abilities can be activated any time you could normally activate an ability.
+  - *2025-02-07* — If an ability triggers whenever you activate an exhaust ability, that ability resolves before the exhaust ability resolves.
+  - *2025-02-07* — If an exhaust ability of a permanent is activated, and then that permanent leaves the battlefield and returns to the battlefield, it becomes a new object so its exhaust ability can be activated again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/51/mindspring-merfolk) · oracle_id `35142b01-4b8d-4335-a943-a3172fa04573` · printing: DFT #51 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindstab
 
@@ -1087,7 +1225,21 @@
   > Suspend 4—{B} (Rather than cast this card from your hand, you may pay {B} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)
 - **Keywords:** Suspend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24400 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/123/mindstab) · oracle_id `338c06ec-47b5-47e7-9fe1-39ff381b36a5` · printing: TSR #123 (2021-03-19) · [rulings](https://api.scryfall.com/cards/542f97fa-6295-4c87-86a8-7ff2bc8b5e81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/123/mindstab) · oracle_id `338c06ec-47b5-47e7-9fe1-39ff381b36a5` · printing: TSR #123 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindstab Thrull
 
@@ -1097,7 +1249,10 @@
 - **Oracle text:**
   > Whenever this creature attacks and isn't blocked, you may sacrifice it. If you do, defending player discards three cards.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27234 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me1/76/mindstab-thrull) · oracle_id `43abe1f3-7b92-411a-bf93-e158f949685c` · printing: ME1 #76 (2007-09-10) · [rulings](https://api.scryfall.com/cards/55ef78dd-7336-4f4e-969f-95a7bc604ded/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — The defending player gets to choose which cards they discard.
+  - *2013-04-15* — An ability that triggers when something “attacks and isn’t blocked” triggers in the declare blockers step after blockers are declared if (1) that creature is attacking and (2) no creatures are declared to block it. It will trigger even if that creature was put onto the battlefield attacking rather than having been declared as an attacker in the declare attackers step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me1/76/mindstab-thrull) · oracle_id `43abe1f3-7b92-411a-bf93-e158f949685c` · printing: ME1 #76 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindstatic
 
@@ -1109,6 +1264,7 @@
   > *"It's always satisfying to stymie the best efforts of a rival, but the reactions of the Gruul are particularly amusing."*
   > *—Bori Andon, Izzet blastseeker*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22937 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/14/mindstatic) · oracle_id `880e0177-f1d2-4bdc-83b4-cae6a0706ef9` · printing: DGM #14 (2013-05-03) · [rulings](https://api.scryfall.com/cards/55d3fad5-a12a-4b41-9c7b-c1af5e0b5ca8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Stone
@@ -1132,7 +1288,10 @@
 - **Oracle text:**
   > At the beginning of your upkeep, draw a card if you had no cards in hand at the beginning of this turn. If you had a card in hand, this artifact deals 1 damage to you.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23024 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mrd/207/mindstorm-crown) · oracle_id `0ad26c65-bc2c-4aa7-8c5d-e4c8f0629cb7` · printing: MRD #207 (2003-10-02) · [rulings](https://api.scryfall.com/cards/347c1442-036b-43e7-9f86-b81a54d6bc41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-12-01* — Mindstorm Crown cares about the number of cards in your hand at the time the turn started, not as the ability resolves. So if you have more than one Crown on the battlefield and no cards in your hand at the start of the turn, you draw a card for each Crown.
+  - *2004-12-01* — Mindstorm Crown’s ability doesn’t have an “intervening ‘if’ clause.” It always goes onto the stack at the start of your upkeep.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mrd/207/mindstorm-crown) · oracle_id `0ad26c65-bc2c-4aa7-8c5d-e4c8f0629cb7` · printing: MRD #207 (2003-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindswipe
 
@@ -1144,7 +1303,10 @@
   > *"The past and the unwritten are frozen. To understand their meaning requires heat."*
   > *—Arel the Whisperer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14875 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/189/mindswipe) · oracle_id `4682c39e-c21a-4c8b-bc63-9cbac59dc563` · printing: KTK #189 (2014-09-26) · [rulings](https://api.scryfall.com/cards/557e8303-a021-4257-b41a-7d25f04618c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-09-20* — If the controller of the target spell pays {X}, the spell won’t be countered. Mindswipe will still deal damage to that player.
+  - *2014-09-20* — If the target spell is an illegal target as Mindswipe tries to resolve (perhaps because it was countered by another spell or ability), Mindswipe won’t resolve and none of its effects will happen. No damage will be dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/189/mindswipe) · oracle_id `4682c39e-c21a-4c8b-bc63-9cbac59dc563` · printing: KTK #189 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Swords
 
@@ -1154,7 +1316,9 @@
   > If you control a Swamp, you may sacrifice a creature rather than pay this spell's mana cost.
   > Each player exiles two cards from their hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24511 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nem/60/mind-swords) · oracle_id `4af20f8c-2ba0-49d5-a64e-d3668cec30cd` · printing: NEM #60 (2000-02-14) · [rulings](https://api.scryfall.com/cards/3d6d91df-008b-48f2-a84f-550702fbcdb3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The active player chooses two cards, then the other player chooses two cards, then all the chosen cards are exiled simultaneously.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nem/60/mind-swords) · oracle_id `4af20f8c-2ba0-49d5-a64e-d3668cec30cd` · printing: NEM #60 (2000-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Transfer Protocol
 
@@ -1167,7 +1331,10 @@
   > *"You will experience some discomfort. Then, for better or worse, the concepts of comfort and discomfort will become quite alien."*
   > *—Fugitoid*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20519 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/45/mind-transfer-protocol) · oracle_id `0d80d0f7-a436-431c-a54e-e7dd7dbba8de` · printing: TMT #45 (2026-03-06) · [rulings](https://api.scryfall.com/cards/2ddfcc4d-dd5f-42f1-8f33-a8e8b5354534/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-01-27* — Effects that modify the creature's power and/or toughness, such as the effect of Karai's Technique, will apply to the creature no matter when they started to take effect. The same is true for counters that change its power and/or toughness and effects that switch its power and toughness.
+  - *2026-01-27* — Mind Transfer Protocol overwrites all previous effects that set the creature or artifact's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply afterward will overwrite this effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/45/mind-transfer-protocol) · oracle_id `0d80d0f7-a436-431c-a54e-e7dd7dbba8de` · printing: TMT #45 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Twist
 
@@ -1176,6 +1343,7 @@
 - **Oracle text:**
   > Target player discards X cards at random.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12158 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/72/mind-twist) · oracle_id `78f9c223-9982-4282-a496-a6f892f0a5bf` · printing: ME3 #72 (2009-09-07) · [rulings](https://api.scryfall.com/cards/9763ea41-55c4-4b0a-9dc2-91ad4938b343/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Unbound
@@ -1187,7 +1355,9 @@
 - **Flavor text** (M12 printing):
   > *The creations of the hand are confined by reality. The creations of the mind know no such limits.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14091 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m12/68/mind-unbound) · oracle_id `0f12aec9-5898-4261-bebd-1b545e0aea68` · printing: M12 #68 (2011-07-15) · [rulings](https://api.scryfall.com/cards/fd90cf36-9841-4adf-b5cb-0a7bf103eb93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-09-22* — The ability is mandatory. You can’t choose to draw fewer cards than the number of lore counters on Mind Unbound.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m12/68/mind-unbound) · oracle_id `0f12aec9-5898-4261-bebd-1b545e0aea68` · printing: M12 #68 (2011-07-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Warp
 
@@ -1198,7 +1368,9 @@
 - **Flavor text** (6ED printing):
   > *The hardest of wizards can have the softest of minds.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28901 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/6ed/143/mind-warp) · oracle_id `5109aa76-ca40-44d1-abb4-5e7a23a2c274` · printing: 6ED #143 (1999-04-21) · [rulings](https://api.scryfall.com/cards/e1f0d58c-24fa-498f-9531-e62144401e86/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The target player decides what order to put the cards in the graveyard. You decide which cards, but they do the discarding.
+- **Source flags:** [Scryfall](https://scryfall.com/card/6ed/143/mind-warp) · oracle_id `5109aa76-ca40-44d1-abb4-5e7a23a2c274` · printing: 6ED #143 (1999-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindwarper
 
@@ -1209,6 +1381,7 @@
   > This creature enters with three +1/+1 counters on it.
   > {2}{B}, Remove a +1/+1 counter from this creature: Target player discards a card. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31014 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sth/64/mindwarper) · oracle_id `efb42ccc-6fed-47f0-84b4-e2a9a42e4dfa` · printing: STH #64 (1998-03-02) · [rulings](https://api.scryfall.com/cards/ebe796e1-97f9-469a-a6b6-a09161058e12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Whip
@@ -1223,6 +1396,7 @@
   > *—Lim-Dûl, the Necromancer*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29382 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/149/mind-whip) · oracle_id `e26f7a58-18ae-432b-bc3f-c410512eb6bf` · printing: ICE #149 (1995-06-03) · [rulings](https://api.scryfall.com/cards/3f3ff5fb-4126-4a18-b540-2beaae382e59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindwhip Sliver
@@ -1236,7 +1410,12 @@
   > *"They share more than their thoughts. We must shatter their link quickly!"*
   > *—Hanna, to Orim*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26646 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmp/145/mindwhip-sliver) · oracle_id `e9e43839-7cc1-40ff-a8ec-a47316de6440` · printing: TMP #145 (1997-10-14) · [rulings](https://api.scryfall.com/cards/fa966fbb-140d-4057-a4fc-998ebe07c307/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-04-15* — If you cast a Sliver as normal during your main phase, it will enter the battlefield and you’ll receive priority. If no abilities trigger because of this, you can activate its ability immediately, before any other player has a chance to remove it from the battlefield.
+  - *2013-04-15* — If you cast this as normal during your main phase, it will enter the battlefield and you’ll receive priority. If no abilities trigger because of this, you can activate its ability immediately, before any other player has a chance to remove it from the battlefield.
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit.
+  - *2013-07-01* — If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmp/145/mindwhip-sliver) · oracle_id `e9e43839-7cc1-40ff-a8ec-a47316de6440` · printing: TMP #145 (1997-10-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindwhisker
 
@@ -1262,7 +1441,13 @@
   > Delirium — At the beginning of your upkeep, you lose 4 life unless there are four or more card types among cards in your graveyard.
 - **Keywords:** Flying, Delirium, Trample, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19992 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/124/mindwrack-demon) · oracle_id `3dda8d3d-89e2-4600-be8d-9b76b4f36e33` · printing: SOI #124 (2016-04-08) · [rulings](https://api.scryfall.com/cards/b804cb9c-349e-4143-a372-cf65470d5b46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2016-04-08* — Because you consider only the characteristics of a double-faced card's front face while it's not on the battlefield, the types of its back face won't be counted for delirium.
+  - *2016-04-08* — In some rare cases, you can have a token or a copy of a spell in your graveyard at the moment that an object's delirium ability counts the card types among cards in your graveyard, before that token or copy ceases to exist. Because tokens and copies of spells are not cards, even if they are copies of cards, their types will never be counted.
+  - *2016-04-08* — Mindwrack Demon's delirium triggered ability does not include an intervening "if" clause. This ability triggers at the beginning of your upkeep regardless of the number of types in your graveyard, and it checks that number as it resolves to determine whether you lose 4 life or not.
+  - *2016-04-08* — The card types in Magic are artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Supertypes (such as legendary and basic) and subtypes (such as Human and Equipment) are not counted.
+  - *2016-04-08* — The number of card types matters, not the number of cards. For example, Wicker Witch (an artifact creature) along with Catalog (an instant) and Chaplain's Blessing (a sorcery) will enable delirium.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/124/mindwrack-demon) · oracle_id `3dda8d3d-89e2-4600-be8d-9b76b4f36e33` · printing: SOI #124 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindwrack Harpy
 
@@ -1289,7 +1474,9 @@
   > Other red creatures you control get +1/+1.
   > {U/R}{U/R}{U/R}{U/R}: You may put a blue or red creature card from your hand onto the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19935 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/255/mindwrack-liege) · oracle_id `c24b3135-5f23-461c-9e57-de747ca8978a` · printing: 2X2 #255 (2022-07-08) · [rulings](https://api.scryfall.com/cards/8f6dd439-78f6-480b-bdc3-1cb3481bcaf1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — The abilities are separate and cumulative. If another creature you control is both of the listed colors, it will get a total of +2/+2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/255/mindwrack-liege) · oracle_id `c24b3135-5f23-461c-9e57-de747ca8978a` · printing: 2X2 #255 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mine Bearer
 
@@ -1301,6 +1488,7 @@
 - **Flavor text** (PCY printing):
   > *"The Keldons may have explosive tempers, but \*I\* have explosives."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29389 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcy/16/mine-bearer) · oracle_id `19fba3c8-3363-4f2f-a2fb-01e59a77447c` · printing: PCY #16 (2000-06-05) · [rulings](https://api.scryfall.com/cards/a8151510-2445-4244-b851-ab332b908170/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minecart Daredevil // Ride the Rails
@@ -1316,7 +1504,20 @@
 - **Flavor text** (WOE printing):
   > *Mines that once rang with the strikes of pickaxes now echo with shouts of reckless glee.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20168 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/141/minecart-daredevil-ride-the-rails) · oracle_id `df555f60-2164-49dc-be67-00aca9eb0d45` · printing: WOE #141 (2023-09-08) · [rulings](https://api.scryfall.com/cards/5b2a02f3-3921-4f40-9ffa-70bc08b052e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2023-09-01* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it’s in your graveyard, Questing Druid is a green creature card whose mana value is 2. It can’t be the target of Tenacious Tomeseeker’s triggered ability (“return target instant or sorcery card from your graveyard to your hand”).
+  - *2023-09-01* — An effect may refer to a card, spell, or permanent that “has an Adventure.” This refers to a card, spell, or permanent that has an adventurer card’s set of alternative characteristics, even if they’re not being used and even if that card was never cast as an Adventure.
+  - *2023-09-01* — Casting a card as an Adventure isn’t casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2023-09-01* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner’s graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won’t be exiled and the spell’s controller won’t be able to cast it as a permanent later.
+  - *2023-09-01* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won’t give you permission to cast it as a permanent spell.
+  - *2023-09-01* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it’s not possible to cast the copy as a permanent.
+  - *2023-09-01* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2023-09-01* — If an effect refers to a card, spell, or permanent that has an Adventure, it won’t find an instant or sorcery spell on the stack that’s been cast as an Adventure.
+  - *2023-09-01* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it’s a token) or cease to be a copy (if it’s a nontoken permanent), and so you won’t be able to cast it as an Adventure.
+  - *2023-09-01* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer (“Once each turn, you may cast an instant or sorcery spell from the top of your library.”) and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
+  - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/141/minecart-daredevil-ride-the-rails) · oracle_id `df555f60-2164-49dc-be67-00aca9eb0d45` · printing: WOE #141 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mine Collapse
 
@@ -1328,6 +1529,7 @@
 - **Flavor text** (MH2 printing):
   > *"Good ol' rock," muttered Rhirhok as the shaking began. "Nice ol' rock . . . ."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13326 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/135/mine-collapse) · oracle_id `83df0f44-86ca-4adb-9f3a-da1ba6dd7a6d` · printing: MH2 #135 (2021-06-18) · [rulings](https://api.scryfall.com/cards/56e2e8b5-660d-4469-a4fe-2367dfadb709/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mine Excavation
@@ -1339,6 +1541,7 @@
   > Conspire (As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose a new target for the copy.)
 - **Keywords:** Conspire
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20776 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/13/mine-excavation) · oracle_id `9bd5dc7a-11b0-48eb-bf52-2956dd3989ab` · printing: SHM #13 (2008-05-02) · [rulings](https://api.scryfall.com/cards/eee9dce2-3d2c-4ac4-a61e-3e352b6d4557/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mine Layer
@@ -1351,6 +1554,7 @@
   > Whenever a land with a mine counter on it becomes tapped, destroy it.
   > When this creature leaves the battlefield, remove all mine counters from all lands.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19182 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/205/mine-layer) · oracle_id `7cf29c48-ba07-4af3-b846-7f81046f4059` · printing: ODY #205 (2001-10-01) · [rulings](https://api.scryfall.com/cards/497efda1-5013-45d2-b717-b0296218c42b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mine, Mine, Mine!
@@ -1363,6 +1567,7 @@
   > Each player can't cast more than one spell each turn.
   > When this enchantment leaves the battlefield, each player shuffles their hand and graveyard into their library.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ugl/65/mine-mine-mine!) · oracle_id `dc9da00f-7624-4926-8d75-fd945f1b8a29` · printing: UGL #65 (1998-08-11) · [rulings](https://api.scryfall.com/cards/a91f28e0-867a-4713-955d-582201af63ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mine Raider
@@ -1375,7 +1580,11 @@
   > When this creature enters, if you control another outlaw, create a Treasure token. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws. A Treasure token is an artifact with "{T}, Sacrifice this token: Add one mana of any color.")
 - **Keywords:** Treasure, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17839 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/135/mine-raider) · oracle_id `5d575b78-3d7b-4860-abc3-e99e429279a1` · printing: OTJ #135 (2024-04-19) · [rulings](https://api.scryfall.com/cards/19cfacff-e884-4954-aa6b-ed56ca942bf2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-04-12* — A card, spell, or permanent is an outlaw if it has the Assassin, Mercenary, Pirate, Rogue, or Warlock creature type. It doesn't matter if it has more than one of those creature types; as long as it has at least one, it's an outlaw.
+  - *2024-04-12* — If an ability refers to an outlaw or whether a player controls an outlaw, it's referring only to permanents with one or more of the creature types specified above. Notably, it's not referring to any spell or card not on the battlefield. However, other abilities may refer to an "outlaw spell" or "outlaw card" in a zone other than the battlefield. Those abilities refer to spells and cards with one or more of the specified creature types.
+  - *2024-04-12* — Outlaw is not a creature type. If an effect asks you to choose a creature type, you can't choose outlaw.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/135/mine-raider) · oracle_id `5d575b78-3d7b-4860-abc3-e99e429279a1` · printing: OTJ #135 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Miner's Bane
 
@@ -1387,6 +1596,7 @@
 - **Flavor text** (M15 printing):
   > *There are certain stones even dwarves know to leave in the earth.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30345 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m15/157/miners-bane) · oracle_id `3ca75f61-60bf-487f-8cb3-b955cdd81e2a` · printing: M15 #157 (2014-07-18) · [rulings](https://api.scryfall.com/cards/c52d48ac-1685-4061-9907-31248ae38cc9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Miner's Guidewing
@@ -1399,7 +1609,14 @@
   > When this creature dies, target creature you control explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)
 - **Keywords:** Flying, Vigilance, Explore
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11361 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/24/miners-guidewing) · oracle_id `eb161d0b-e534-463c-b1d1-7210bfba5d28` · printing: LCI #24 (2023-11-17) · [rulings](https://api.scryfall.com/cards/9048cd9d-df3f-4705-a5f4-e5b09760c631/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-11-10* — If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature explores" trigger as appropriate.
+  - *2023-11-10* — If an ability instructs a creature to explore, its controller reveals the top card of their library. If it's a land card, they'll put it into their hand. Otherwise, they'll put a +1/+1 counter on that creature, then choose to either leave that card on top of their library or put it into their graveyard.
+  - *2023-11-10* — If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+  - *2023-11-10* — In some unusual cases, noncreature permanents may explore. For example, if the creature card returned by Defossilize is somehow not a creature once it's on the battlefield, it can still explore. You'll take all the same actions, and you may end up putting a +1/+1 counter on the permanent. (Note that some effects target a creature, and those effects would still require a legal target to have it explore.)
+  - *2023-11-10* — Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+  - *2023-11-10* — Some spells or abilities might cause a creature to explore multiple times in a row. If you reveal a nonland card when a creature explores and leave it on top of your library, then the creature explores again immediately afterwards, you'll reveal the same card again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/24/miners-guidewing) · oracle_id `eb161d0b-e534-463c-b1d1-7210bfba5d28` · printing: LCI #24 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mineshaft Spider
 
@@ -1413,7 +1630,9 @@
   > *Anything that falls into the pit—relics, rubble, even corpses—ends up snared in its magic-infused web.*
 - **Keywords:** Reach, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20054 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/202/mineshaft-spider) · oracle_id `e5aa32b6-2eaf-4b48-81cc-cd3db976513d` · printing: LCI #202 (2023-11-17) · [rulings](https://api.scryfall.com/cards/b75a3639-a917-4700-a093-14a4cda78d9f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-11-10* — If you don't have at least two cards in your library, you can't choose to mill two cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/202/mineshaft-spider) · oracle_id `e5aa32b6-2eaf-4b48-81cc-cd3db976513d` · printing: LCI #202 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mines of Moria
 
@@ -1442,7 +1661,9 @@
 - **Flavor text** (BRO printing):
   > *Following his hunger for knowledge and power from the past, Urza starved Dominaria's future.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18890 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/239/mine-worker) · oracle_id `4de71245-9d9b-44ca-9c13-37dc3dfbbcd5` · printing: BRO #239 (2022-11-18) · [rulings](https://api.scryfall.com/cards/5aa63321-aa28-449d-a31f-869a98c5a6be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-14* — You will gain 3 life instead of 1 if, at the time the ability resolves, you control at least one creature named Power Plant Worker and at least one creature named Tower Worker.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/239/mine-worker) · oracle_id `4de71245-9d9b-44ca-9c13-37dc3dfbbcd5` · printing: BRO #239 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minimus Containment
 
@@ -1469,6 +1690,7 @@
 - **Flavor text** (MSC printing):
   > *"You're fired!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25015 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/663/minion-missile) · oracle_id `670cf656-5c72-4d28-b5e6-dc77781dc001` · printing: MSC #663 (2026-06-26) · [rulings](https://api.scryfall.com/cards/cc8567c6-f409-44d4-a19c-480c6e4abe56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minion of Leshrac
@@ -1482,7 +1704,10 @@
   > {T}: Destroy target creature or land.
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24042 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me2/104/minion-of-leshrac) · oracle_id `8af3b981-6eda-46b0-a7b8-226bc719d137` · printing: ME2 #104 (2008-09-22) · [rulings](https://api.scryfall.com/cards/a4bbed56-50c9-4a57-b0f2-ddf4a94fbdb8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-10-01* — If you don’t sacrifice a creature at the beginning of your upkeep (either by choice or because you can’t), but you somehow prevent all the damage Minion of Leshrac would deal to you, then you don’t tap Minion of Leshrac.
+  - *2008-10-01* — Minion of Leshrac can’t target itself with its activated ability because it has protection from black.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me2/104/minion-of-leshrac) · oracle_id `8af3b981-6eda-46b0-a7b8-226bc719d137` · printing: ME2 #104 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minion of Tevesh Szat
 
@@ -1496,6 +1721,7 @@
   > *"A minion given over to Tevesh Szat is a stronger minion gained."*
   > *—Lim-Dûl, the Necromancer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30754 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/91/minion-of-tevesh-szat) · oracle_id `93fbf4a7-4283-4eec-afde-6780149b56df` · printing: ME4 #91 (2011-01-10) · [rulings](https://api.scryfall.com/cards/c234a73c-4257-47af-a710-29ab765a7b2d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minion of the Mighty
@@ -1525,7 +1751,9 @@
   > Minion of the Wastes's power and toughness are each equal to the life paid as it entered.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24700 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmp/146/minion-of-the-wastes) · oracle_id `2593944c-1bde-4307-b3ca-f7ecbeb027c1` · printing: TMP #146 (1997-10-14) · [rulings](https://api.scryfall.com/cards/d9f120fc-c681-47b6-827e-1cc7ead47a0f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-25* — The life is paid as Minion of the Wastes enters. If Minion of the Wastes is countered, you don't get the opportunity to pay any life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmp/146/minion-of-the-wastes) · oracle_id `2593944c-1bde-4307-b3ca-f7ecbeb027c1` · printing: TMP #146 (1997-10-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minion Reflector
 
@@ -1536,7 +1764,11 @@
 - **Flavor text** (ALA printing):
   > *To crack a mirror is to provide an opening for the reflection to escape.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15082 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/211/minion-reflector) · oracle_id `0124977f-06e6-430a-a874-f7d05883a97c` · printing: ALA #211 (2008-10-03) · [rulings](https://api.scryfall.com/cards/5d2a48f9-4f14-4d19-b3dc-3bf3fafac32d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-10-01* — As the token is created, it checks the printed values of the creature it’s copying, as well as any copy effects that have been applied to it. It won’t copy counters on the creature, nor will it copy other effects that have changed the creature’s power, toughness, types, color, and so on.
+  - *2008-10-01* — If the creature that caused Minion Reflector’s ability to trigger has already left the battlefield by the time the ability resolves, you can still pay {2}. If you do, you’ll still put a token onto the battlefield. That token has the copiable values of the characteristics of that nontoken creature as it last existed on the battlefield.
+  - *2008-10-01* — The copiable values of the token’s characteristics are the same as the copiable values of the characteristics of the creature it’s copying, plus haste and “At end of turn, sacrifice this permanent.” That means if something becomes a copy of the token, it will also have haste and it will also have to be sacrificed at the end of the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/211/minion-reflector) · oracle_id `0124977f-06e6-430a-a874-f7d05883a97c` · printing: ALA #211 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minions' Murmurs
 
@@ -1548,6 +1780,7 @@
   > *"They are quick to offer advice, those whose mistakes doomed them to undeath. How can I not listen to the wisdom of failure?"*
   > *—Ratadrabik of Urborg*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15549 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/124/minions-murmurs) · oracle_id `fd755ec1-6727-4165-a7fd-5d9b59754ada` · printing: TSR #124 (2021-03-19) · [rulings](https://api.scryfall.com/cards/0c42fded-49e8-4c69-8ade-ba5e76e44b45/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minion's Return
@@ -1578,6 +1811,7 @@
 - **Flavor text** (DIS printing):
   > *When it takes forever to learn all the rules, no time is left for breaking them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13646 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/144/minister-of-impediments) · oracle_id `5a51a0ee-bc81-4c42-bb17-a41cea957d9a` · printing: DIS #144 (2006-05-05) · [rulings](https://api.scryfall.com/cards/96aada87-a880-4d33-8694-9fbc74211755/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minister of Inquiries
@@ -1592,7 +1826,17 @@
   > *"This research violates Consulate law."*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19574 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/57/minister-of-inquiries) · oracle_id `99894900-771f-4fca-bebf-9f23ec4654c2` · printing: KLD #57 (2016-09-30) · [rulings](https://api.scryfall.com/cards/0e6c31d1-6e2a-41b3-aa4f-d30a7cd997d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/57/minister-of-inquiries) · oracle_id `99894900-771f-4fca-bebf-9f23ec4654c2` · printing: KLD #57 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minister of Pain
 
@@ -1606,7 +1850,13 @@
   > *Draconic words need not be shouted. A whisper will suffice.*
 - **Keywords:** Exploit
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26567 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/111/minister-of-pain) · oracle_id `5d5b63a4-c9d9-4971-9d4e-2eab86f251e2` · printing: DTK #111 (2015-03-27) · [rulings](https://api.scryfall.com/cards/3cf4c637-82c3-41fa-b484-31e7dcf475a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2015-02-25* — A creature with exploit “exploits a creature” when the controller of the exploit ability sacrifices a creature as that ability resolves.
+  - *2015-02-25* — If the creature with exploit isn’t on the battlefield as the exploit ability resolves, you won’t get any bonus from the creature with exploit, even if you sacrifice a creature. Because the creature with exploit isn’t on the battlefield, its other triggered ability won’t trigger.
+  - *2015-02-25* — You can sacrifice the creature with exploit if it’s still on the battlefield. This will cause its other ability to trigger.
+  - *2015-02-25* — You can’t sacrifice more than one creature to any one exploit ability.
+  - *2015-02-25* — You choose whether to sacrifice a creature and which creature to sacrifice as the exploit ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/111/minister-of-pain) · oracle_id `5d5b63a4-c9d9-4971-9d4e-2eab86f251e2` · printing: DTK #111 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ministrant of Obligation
 
@@ -1634,6 +1884,7 @@
 - **Flavor text** (UNK printing):
   > *Prize Card for the Unknown event at MagicCon Minneapolis, May 6, 2023.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/MG01/minnea-planar-tourist) · oracle_id `7ecb079a-bafb-4e3a-b43a-7e06f5deff4c` · printing: UNK #MG01 (2023-05-06) · [rulings](https://api.scryfall.com/cards/d06db963-9574-4e49-83e7-84e931ff7a28/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minn, Wily Illusionist
@@ -1658,7 +1909,9 @@
 - **Flavor text** (ONE printing):
   > *No matter how many times he saw it, Sarnvax always relished the look of dawning horror as his foes realized their mistake.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14959 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/64/minor-misstep) · oracle_id `d91b3c6f-f8a1-4859-90ca-22cd79517552` · printing: ONE #64 (2023-02-10) · [rulings](https://api.scryfall.com/cards/360ca37b-5bbd-4923-a493-7674786a36af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-02-04* — While a spell with {X} in its mana cost is on the stack, use the value of X that was chosen when it was cast to determine its mana value. Normally, this means that a spell with {X} in its mana cost will have a mana value greater than 1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/64/minor-misstep) · oracle_id `d91b3c6f-f8a1-4859-90ca-22cd79517552` · printing: ONE #64 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minotaur Abomination
 
@@ -1671,6 +1924,7 @@
   > *"Look at that. Shuffling, wobbling, entrails placed haphazardly. It's shameful. Who would let that kind of work flap about for all to see?"*
   > *—Lestin, necromancer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29016 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m14/107/minotaur-abomination) · oracle_id `017568ea-613f-4057-9a8d-61b087d6dc92` · printing: M14 #107 (2013-07-19) · [rulings](https://api.scryfall.com/cards/9dca75a1-443d-4f8e-b12b-2aada3a8e3e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minotaur Aggressor
@@ -1684,6 +1938,7 @@
   > *The smelting district is home to many who see the guilds as not for them.*
 - **Keywords:** First strike, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26084 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rtr/100/minotaur-aggressor) · oracle_id `7576bfba-eb4f-4d3e-aec5-52daee84d1d6` · printing: RTR #100 (2012-10-05) · [rulings](https://api.scryfall.com/cards/e22959dc-8759-454e-80b9-623a799af354/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minotaur de Force
@@ -1698,6 +1953,7 @@
   > *"If I ever need a haircut, I just fall a little to the left."*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26565 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/114/minotaur-de-force) · oracle_id `67151297-3d25-4882-b562-56025ee81f48` · printing: UNF #114 (2022-10-07) · [rulings](https://api.scryfall.com/cards/e8994e99-2a63-4b2f-906f-373065aa3319/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minotaur Explorer
@@ -1710,6 +1966,7 @@
 - **Flavor text** (ODY printing):
   > *After the invasion devastated the Talruum and Hurloon tribes, the survivors began to search for other minotaurs.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30544 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/206/minotaur-explorer) · oracle_id `22374ec2-61b3-46eb-82ed-93bbb42403c4` · printing: ODY #206 (2001-10-01) · [rulings](https://api.scryfall.com/cards/55725e38-d60a-41a2-93b0-2eefe6d2cc59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minotaur Illusionist
@@ -1721,6 +1978,7 @@
   > {1}{U}: This creature gains shroud until end of turn. (It can't be the target of spells or abilities.)
   > {R}, Sacrifice this creature: It deals damage equal to its power to target creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32057 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/apc/111/minotaur-illusionist) · oracle_id `ee5fc6e9-0c10-4015-8853-dd1f33dcc27e` · printing: APC #111 (2001-06-04) · [rulings](https://api.scryfall.com/cards/d8a49d29-6d01-4b1d-80c8-9e5378a76878/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minotaur, Roxxon CEO
@@ -1733,6 +1991,7 @@
 - **Flavor text** (MSC printing):
   > *"When I became CEO, Roxxon was stepping up their renewable energy program. I took us in the opposite direction. Weaponry."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22623 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/539/minotaur-roxxon-ceo) · oracle_id `f81207e8-d5a2-4a5e-8a81-803ac563fe76` · printing: MSC #539 (2026-06-26) · [rulings](https://api.scryfall.com/cards/7a40c996-7b64-4d56-a21f-b68ac64c1e99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minotaur Skullcleaver
@@ -1748,6 +2007,7 @@
   > *—Kleon the Iron-Booted*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23465 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/349/minotaur-skullcleaver) · oracle_id `dd36aea8-9f1c-4daf-86f6-ab9307279ce7` · printing: JMP #349 (2020-07-17) · [rulings](https://api.scryfall.com/cards/b6fef9f8-ff3e-4a3f-a3ff-4534ff0c3946/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minotaur Sureshot
@@ -1762,6 +2022,7 @@
   > *"Those wings are no advantage. I will pin them to the ceiling of the Hekma."*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22387 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/350/minotaur-sureshot) · oracle_id `cbb6c481-bcf1-459d-a6fb-bb46cc521368` · printing: JMP #350 (2020-07-17) · [rulings](https://api.scryfall.com/cards/cbd65150-a698-4f23-836c-5cd0fb153eb3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minotaur Tactician
@@ -1775,6 +2036,7 @@
   > This creature gets +1/+1 as long as you control a blue creature.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32143 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/apc/65/minotaur-tactician) · oracle_id `197fd850-0a08-4e82-9249-a8d719436f77` · printing: APC #65 (2001-06-04) · [rulings](https://api.scryfall.com/cards/097decb6-03bd-4a84-ab9a-75becf85cae8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minotaur Warrior
@@ -1787,6 +2049,7 @@
 - **Flavor text** (POR printing):
   > *The herd's patience, the stampede's fury.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30963 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/por/140/minotaur-warrior) · oracle_id `53fb9a9b-1f5d-48c9-88c0-0864c187f15e` · printing: POR #140 (1997-05-01) · [rulings](https://api.scryfall.com/cards/c694f5db-a4ad-4abd-acff-d6b340d2387c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minsc, Beloved Ranger
@@ -1798,7 +2061,10 @@
   > When Minsc enters, create Boo, a legendary 1/1 red Hamster creature token with trample and haste.
   > {X}: Until end of turn, target creature you control has base power and toughness X/X and becomes a Giant in addition to its other types. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16905 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/227/minsc-beloved-ranger) · oracle_id `2cd10c6c-f946-457e-9175-92501322f7a5` · printing: AFR #227 (2021-07-23) · [rulings](https://api.scryfall.com/cards/72405607-a60e-42af-b523-64008d3f89b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-07-23* — Minsc has asked us (repeatedly) to let you know that Boo is the only miniature giant space hamster in the Realms.
+  - *2021-07-23* — The activated ability will overwrite any previous effects that set the creature's power and toughness to specific values. Effects that otherwise modify the target creature's power and toughness will still apply no matter when they took effect. The same is true for +1/+1 counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/227/minsc-beloved-ranger) · oracle_id `2cd10c6c-f946-457e-9175-92501322f7a5` · printing: AFR #227 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minsc & Boo, Timeless Heroes
 
@@ -1841,7 +2107,11 @@
   > *If the sugary abominations of Sweettooth Village were ever under someone's control, that time is long past.*
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16476 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/100/mintstrosity) · oracle_id `c8c88c33-b8df-4b19-b12c-79c9709af8f1` · printing: WOE #100 (2023-09-08) · [rulings](https://api.scryfall.com/cards/d902f154-6fe8-4b97-aa67-4d4696abf887/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/100/mintstrosity) · oracle_id `c8c88c33-b8df-4b19-b12c-79c9709af8f1` · printing: WOE #100 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minwu, White Mage
 

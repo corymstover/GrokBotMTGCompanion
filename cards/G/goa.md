@@ -20,7 +20,14 @@
 - **Flavor text** (ECL printing):
   > *Jealous of his sister's cloudgoat, the giant went to find the next best thing.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14870 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/142/goatnap) · oracle_id `060e7187-0c7d-4022-9a1f-36a6f75314ca` · printing: ECL #142 (2026-01-23) · [rulings](https://api.scryfall.com/cards/7d8dbec5-ae71-4f82-898a-b930ec677403/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2019-06-14* — Goat is a creature type. You won't see this creature type printed on creatures in this set, but keep in mind that creatures with the changeling ability are Goats.
+  - *2019-06-14* — Goatnap can target any creature, even one that's untapped or one you already control.
+  - *2019-06-14* — To determine whether the target creature gets +3/+0, look at its creature types after you've gained control of it, untapped it, and given it haste. If it's not a Goat at this time, it won't get +3/+0, even if it becomes a Goat later in the turn. If it is a Goat, it gets +3/+0, even if it stops being a Goat later in the turn.
+  - *2025-11-17* — Goat is a creature type. Keep in mind that creatures with the changeling ability are Goats. (Whether they're "goated" or not is too subjective for this ruling to address.)
+  - *2025-11-17* — Goatnap can target any creature, even one that's untapped or one you already control.
+  - *2025-11-17* — To determine whether the target creature gets +3/+0, look at its creature types after you've gained control of it, untapped it, and given it haste. If it's not a Goat at this time, it won't get +3/+0, even if it becomes a Goat later in the turn. If it is a Goat, it gets +3/+0, even if it stops being a Goat later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/142/goatnap) · oracle_id `060e7187-0c7d-4022-9a1f-36a6f75314ca` · printing: ECL #142 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goatnapper
 
@@ -32,4 +39,6 @@
 - **Flavor text** (LRW printing):
   > *Kith goats are just for practice. The real prize, of course, is a giant's cloudgoat.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28647 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/172/goatnapper) · oracle_id `6875839a-9815-4ed2-adcf-b4d097c9bafd` · printing: LRW #172 (2007-10-12) · [rulings](https://api.scryfall.com/cards/78f32852-2a18-453d-910a-829c3a2b5b1b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-10-01* — Yes, target Goat. Goat is a creature type. Keep in mind that each permanent with changeling is a Goat, as is any permanent affected by a spell or ability that gives it every creature type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/172/goatnapper) · oracle_id `6875839a-9815-4ed2-adcf-b4d097c9bafd` · printing: LRW #172 (2007-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

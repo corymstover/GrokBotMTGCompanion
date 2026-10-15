@@ -55,6 +55,7 @@
   > −40: Pass Go — Create 200 Treasure tokens.
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ph23/1/mr-monopoly-on-the-go) · oracle_id `9537cca4-7c58-4f89-95f0-f5186d04c025` · printing: PH23 #1 (2025-08-24) · [rulings](https://api.scryfall.com/cards/ac583256-9a7e-4e22-93c8-78a0f42b8125/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mr. Orfeo, the Boulder
@@ -83,4 +84,5 @@
   > Partner (You can have two commanders if both have partner.)
 - **Keywords:** Flying, Mono Eminence, Partner
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG03b/mr-wiggles-helpful-butterfly) · oracle_id `551121ed-38bd-428d-b813-b395a67e111c` · printing: UNK #RG03b (2023-07-29) · [rulings](https://api.scryfall.com/cards/8cdb7e98-727d-4c64-ab1d-178209dede57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

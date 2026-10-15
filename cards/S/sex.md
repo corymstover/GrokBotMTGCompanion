@@ -17,4 +17,5 @@
 - **Oracle text:**
   > Prevent the next 3 damage that would be dealt this turn to any number of targets, divided as you choose. If there are more people in the room of a different gender than you are as you cast this spell, prevent the next 6 damage this way instead.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ugl/13/sex-appeal) · oracle_id `36cc06c3-d295-46e1-851b-f8f099f44dd0` · printing: UGL #13 (1998-08-11) · [rulings](https://api.scryfall.com/cards/97cfc18c-ed01-4016-86a2-162d7bc1bf33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

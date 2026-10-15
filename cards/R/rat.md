@@ -64,6 +64,7 @@
   > Whenever a creature you control enchanted by a Chef Role attacks or blocks, it gets +X/+X until end of turn, where X is Ratatwotwo's power.
 - **Keywords:** Role token, Food
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW03c/ratatwotwo) · oracle_id `0edd7d9a-af37-4d3b-8b4b-913c36dadf82` · printing: UNK #RW03c (2023-09-23) · [rulings](https://api.scryfall.com/cards/d7250e0f-c8ec-49a0-88db-3c6a9470d34a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ratcatcher
@@ -94,7 +95,20 @@
 - **Flavor text** (WOE printing):
   > *"Where do they keep coming from?!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16829 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/144/ratcatcher-trainee-pest-problem) · oracle_id `ecc91e38-90fa-4d89-b262-d5f36dce5be4` · printing: WOE #144 (2023-09-08) · [rulings](https://api.scryfall.com/cards/7f4c0959-a107-4d61-9e51-256b2955f6ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2023-09-01* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it’s in your graveyard, Questing Druid is a green creature card whose mana value is 2. It can’t be the target of Tenacious Tomeseeker’s triggered ability (“return target instant or sorcery card from your graveyard to your hand”).
+  - *2023-09-01* — An effect may refer to a card, spell, or permanent that “has an Adventure.” This refers to a card, spell, or permanent that has an adventurer card’s set of alternative characteristics, even if they’re not being used and even if that card was never cast as an Adventure.
+  - *2023-09-01* — Casting a card as an Adventure isn’t casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2023-09-01* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner’s graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won’t be exiled and the spell’s controller won’t be able to cast it as a permanent later.
+  - *2023-09-01* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won’t give you permission to cast it as a permanent spell.
+  - *2023-09-01* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it’s not possible to cast the copy as a permanent.
+  - *2023-09-01* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2023-09-01* — If an effect refers to a card, spell, or permanent that has an Adventure, it won’t find an instant or sorcery spell on the stack that’s been cast as an Adventure.
+  - *2023-09-01* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it’s a token) or cease to be a copy (if it’s a nontoken permanent), and so you won’t be able to cast it as an Adventure.
+  - *2023-09-01* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer (“Once each turn, you may cast an instant or sorcery spell from the top of your library.”) and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
+  - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/144/ratcatcher-trainee-pest-problem) · oracle_id `ecc91e38-90fa-4d89-b262-d5f36dce5be4` · printing: WOE #144 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ratchet Bomb
 
@@ -104,7 +118,10 @@
   > {T}: Put a charge counter on this artifact.
   > {T}, Sacrifice this artifact: Destroy each nonland permanent with mana value equal to the number of charge counters on this artifact.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14147 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/284/ratchet-bomb) · oracle_id `255d752a-8251-4e4c-99d6-4a1648de1474` · printing: 2XM #284 (2020-08-07) · [rulings](https://api.scryfall.com/cards/d5bd85da-9aba-46ea-9c10-617bec99a2f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — If a permanent has {X} in its mana cost, X is considered to be 0.
+  - *2020-08-07* — Tokens that aren't a copy of something else don't have a mana cost. Anything without a mana cost normally has a mana value of 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/284/ratchet-bomb) · oracle_id `255d752a-8251-4e4c-99d6-4a1648de1474` · printing: 2XM #284 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ratchet, Field Medic // Ratchet, Rescue Racer
 
@@ -164,7 +181,9 @@
   > {1}{B}{B}, {T}: Destroy target tapped nonblack creature.
   > {3}, {T}: Search your library for a Mercenary permanent card with mana value 3 or less, put it onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25219 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nem/67/rathi-assassin) · oracle_id `1ea0c775-fde0-4a21-b4c2-8bcec0e4f4f8` · printing: NEM #67 (2000-02-14) · [rulings](https://api.scryfall.com/cards/3e3597c3-3053-49f8-ab7e-a774e2fb082f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nem/67/rathi-assassin) · oracle_id `1ea0c775-fde0-4a21-b4c2-8bcec0e4f4f8` · printing: NEM #67 (2000-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rathi Dragon
 
@@ -178,6 +197,7 @@
   > *Wrap the flame as twine, Kingdoms will be thine.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31346 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/150/rathi-dragon) · oracle_id `6a180f07-7afa-4605-9c58-4521a5f3fcc1` · printing: TPR #150 (2015-05-06) · [rulings](https://api.scryfall.com/cards/9ec3d43c-2b3e-4b79-a61d-03efd6a689d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rathi Fiend
@@ -189,7 +209,9 @@
   > When this creature enters, each player loses 3 life.
   > {3}, {T}: Search your library for a Mercenary permanent card with mana value 3 or less, put it onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28015 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nem/68/rathi-fiend) · oracle_id `b336d819-f299-4de3-9b23-51f83da59efb` · printing: NEM #68 (2000-02-14) · [rulings](https://api.scryfall.com/cards/07ca1184-ade0-4d6d-87f9-ad17f37679b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nem/68/rathi-fiend) · oracle_id `b336d819-f299-4de3-9b23-51f83da59efb` · printing: NEM #68 (2000-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rathi Intimidator
 
@@ -201,7 +223,9 @@
   > {2}, {T}: Search your library for a Mercenary permanent card with mana value 2 or less, put it onto the battlefield, then shuffle.
 - **Keywords:** Fear
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27481 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nem/69/rathi-intimidator) · oracle_id `a24f4198-2412-4b73-8e20-4ced3a826301` · printing: NEM #69 (2000-02-14) · [rulings](https://api.scryfall.com/cards/6fc59fa5-144f-49e6-b6bd-2ba6d3f2eff2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nem/69/rathi-intimidator) · oracle_id `a24f4198-2412-4b73-8e20-4ced3a826301` · printing: NEM #69 (2000-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rathi Trapper
 
@@ -213,6 +237,7 @@
 - **Flavor text** (TSR printing):
   > *Tangling vines, fetid murk, paralyzing poisons, and crawling dead. The swamp is nature's trap waiting to be exploited by unnatural minds.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21724 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/133/rathi-trapper) · oracle_id `0920d6aa-eab7-4116-b2f8-b13080d5d7e3` · printing: TSR #133 (2021-03-19) · [rulings](https://api.scryfall.com/cards/e30c08c7-ff2b-40cb-93d0-18e48bf0cf4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rath's Edge
@@ -223,6 +248,7 @@
   > {T}: Add {C}.
   > {4}, {T}, Sacrifice a land: Rath's Edge deals 1 damage to any target.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18383 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/142/raths-edge) · oracle_id `e10e84a7-d564-487a-ac64-5a001a45ee90` · printing: NEM #142 (2000-02-14) · [rulings](https://api.scryfall.com/cards/42681dce-5c63-4e56-955e-39f085ea6ae9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rat in the Hat
@@ -235,7 +261,16 @@
 - **Flavor text** (UNF printing):
   > *While the gremlin, beeble, and squirrel infestations wreaked havoc on the park, Roxi was able to spin the numerous rat colonies as a "robust recycling program."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #29208 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/86/rat-in-the-hat) · oracle_id `b18489a8-d5c1-4ae4-a419-ba0868cf2653` · printing: UNF #86 (2022-10-07) · [rulings](https://api.scryfall.com/cards/6c41ae26-23be-4ebe-9ca2-b972ca2b8f91/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2022-10-07* — A creature "has a hat" if the creature depicted in the art is in possession of a hat. That creature doesn't need to be wearing the hat. A background character such as a scale bird having a hat won't count.
+  - *2022-10-07* — A hat is a garment worn on the head that's not part of another garment. Hoodies, for example, are not hats. Items that cover only the face and not the top of the head, such as a face mask, are also not hats. Hats are purposely decorative. Simply balancing a thing on your head doesn't make that thing a hat.
+  - *2022-10-07* — Key in this set—space helmets are not hats, although some creatures with space helmets also are wearing hats underneath those helmets.
+  - *2022-10-07* — No player can remove another player's hat. That's unsporting conduct.
+  - *2022-10-07* — The above information pertaining to hats for creatures also pertains to actual hats for players.
+  - *2022-10-07* — Wigs and headbands count as hats. There are wig and headband stickers.
+  - *2022-10-07* — You "have a hat" if you have a hat with you, not if you own one somewhere. You don't have to be wearing the hat. But if you have a hat with you, why wouldn't you be wearing it? Does it not fit? Is it for a sports team that's bad? Did you just get your hair done? We're just curious. You don't have to explain.
+  - *2022-10-07* — You're "wearing a hat" if you're wearing a hat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/86/rat-in-the-hat) · oracle_id `b18489a8-d5c1-4ae4-a419-ba0868cf2653` · printing: UNF #86 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rat King, Pale Piper
 
@@ -276,6 +311,7 @@
 - **Flavor text** (UNK printing):
   > *Designed by players at MagicCon: Atlanta 2025.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB05d/rat-of-god) · oracle_id `05bebb63-0e3a-42c2-a5c1-6a3f7d60dd5e` · printing: UNK #RB05d (2026-05-01) · [rulings](https://api.scryfall.com/cards/7db195f6-07d9-4808-9449-250523f5b971/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ratonhnhaké꞉ton
@@ -302,7 +338,9 @@
   > *"Hold this for me."*
   > *—Totentanz, swarm piper*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10330 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/103/rat-out) · oracle_id `37043e1e-4556-45f7-9484-15dd8ed5272b` · printing: WOE #103 (2023-09-08) · [rulings](https://api.scryfall.com/cards/f2c42755-bf91-4c75-95c6-d2a60ba3492a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-09-01* — You can cast Rat Out without a target just to create a Rat token. However, if you do choose a target, and that target is illegal at the time Rat Out tries to resolve, the spell won't resolve and none of its effects will happen. You won't create a Rat token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/103/rat-out) · oracle_id `37043e1e-4556-45f7-9484-15dd8ed5272b` · printing: WOE #103 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rats' Feast
 
@@ -314,6 +352,7 @@
   > *"That does it—I quit!"*
   > *—Cabal grave robber*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28138 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jud/71/rats-feast) · oracle_id `327c5ca2-4eeb-49cb-84fb-f6a4b06b24bc` · printing: JUD #71 (2002-05-27) · [rulings](https://api.scryfall.com/cards/b243ce02-4fff-444c-acc4-e1a199621a53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rats of Rath
@@ -327,6 +366,7 @@
   > *"These creatures offer new challenges in the scrutiny of entrails."*
   > *—Oracle \*en\*-Vec*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24349 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/111/rats-of-rath) · oracle_id `75458175-eeb1-4a6b-93d9-c744c93b3759` · printing: TPR #111 (2015-05-06) · [rulings](https://api.scryfall.com/cards/318c2cf5-6246-41e6-b391-7be39368ae65/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rattleback Apothecary
@@ -341,7 +381,14 @@
   > *"Looking for a little liquid courage? I also stock liquid murder, if that's what you're after."*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11526 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/100/rattleback-apothecary) · oracle_id `5538d4cf-98eb-4e20-a9c1-42c7cdcad194` · printing: OTJ #100 (2024-04-19) · [rulings](https://api.scryfall.com/cards/9a88e233-f09c-49e7-b1e3-386fba851fdf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-04-12* — A player can commit only one crime per spell or ability they control. Targeting multiple opponents, permanents, spells, abilities, and/or cards with the same spell or ability doesn’t constitute committing multiple crimes.
+  - *2024-04-12* — A player commits a crime as they cast a spell, activate an ability, or put a triggered ability on the stack that targets at least one opponent, at least one permanent, spell, or ability an opponent controls, and/or at least one card in an opponent’s graveyard.
+  - *2024-04-12* — Changing the target or targets of a spell or ability won’t affect whether or not the controller of that spell or ability has committed a crime. Only the initial targets chosen for that spell or ability are used to determine whether or not its controller committed a crime.
+  - *2024-04-12* — For example, an ability that triggers when you cast a spell that targets an opponent will trigger at the same time as an ability that triggers whenever you commit a crime. Those abilities can be put on the stack in either order (if you control them both), and they’ll both resolve before the spell that caused them to trigger.
+  - *2024-04-12* — The spell or ability that constituted a crime doesn’t have to have resolved yet or at all. As soon as you’re finished casting the spell, activating the ability, or putting the triggered ability on the stack, you’ve committed a crime.
+  - *2024-04-12* — You choose which ability the target creature gets as Rattleback Apothecary’s triggered ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/100/rattleback-apothecary) · oracle_id `5538d4cf-98eb-4e20-a9c1-42c7cdcad194` · printing: OTJ #100 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rattleblaze Scarecrow
 
@@ -352,7 +399,15 @@
   > This creature has persist as long as you control a black creature. (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
   > This creature has haste as long as you control a red creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17065 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/shm/259/rattleblaze-scarecrow) · oracle_id `313130ab-13db-4d0a-b3f3-b60e060b303c` · printing: SHM #259 (2008-05-02) · [rulings](https://api.scryfall.com/cards/4b46425f-516c-42f5-8df1-79af17d02a4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2013-06-07* — If a creature with persist stops being a creature, persist will still work.
+  - *2013-06-07* — If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.
+  - *2013-06-07* — If a permanent has multiple instances of persist, they'll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
+  - *2013-06-07* — If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can't return to the battlefield.
+  - *2013-06-07* — If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
+  - *2013-06-07* — The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it.
+  - *2013-06-07* — When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
+- **Source flags:** [Scryfall](https://scryfall.com/card/shm/259/rattleblaze-scarecrow) · oracle_id `313130ab-13db-4d0a-b3f3-b60e060b303c` · printing: SHM #259 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rattlechains
 
@@ -366,6 +421,7 @@
   > You may cast Spirit spells as though they had flash.
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10612 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/110/rattlechains) · oracle_id `ee2ca311-7639-436d-8ecb-d2aad075f25f` · printing: VOC #110 (2021-11-19) · [rulings](https://api.scryfall.com/cards/709f6376-9a33-4900-a7ae-00767fb9f9bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rattleclaw Mystic

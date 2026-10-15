@@ -21,4 +21,5 @@
 - **Flavor text** (TRK printing):
   > *"Damn. Where are the calluses we doctors are supposed to grow over our feelings?"*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #20617 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/13/dr-beverly-crusher) · oracle_id `5fe6f4ae-3fb1-4df6-8760-88c8666068df` · printing: TRK #13 (2026-11-13) · [rulings](https://api.scryfall.com/cards/ef9c5790-d909-4271-90bd-5fa4816ddd6b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

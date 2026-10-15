@@ -22,4 +22,7 @@
   > *"Of course I talk to myself. Who wouldn't want to hear me speak?"*
 - **Keywords:** Vigilance, Repartee
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24592 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/29/rehearsed-debater) · oracle_id `e30ccf07-0969-4e81-ba43-c50a2ff9c040` · printing: SOS #29 (2026-04-24) · [rulings](https://api.scryfall.com/cards/fc6a1425-6733-42a2-94d9-605966398092/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-03-20* — A repartee ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+  - *2026-03-20* — It doesn't matter if the creature or creatures targeted by the spell that caused the repartee ability to trigger leave the battlefield or stop being creatures before that spell resolves. As long as that spell targeted one or more creatures when it was cast, the repartee ability will trigger and later resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/29/rehearsed-debater) · oracle_id `e30ccf07-0969-4e81-ba43-c50a2ff9c040` · printing: SOS #29 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

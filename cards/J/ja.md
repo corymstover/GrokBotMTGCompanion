@@ -139,7 +139,9 @@
 - **Oracle text:**
   > {1}, {T}: Target creature gains flanking until end of turn. (Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27597 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/wth/150/jabaris-banner) · oracle_id `79560d80-1745-4773-a5c4-4c8e98475135` · printing: WTH #150 (1997-06-09) · [rulings](https://api.scryfall.com/cards/3d51a496-1ca6-4286-bdbe-990d43196a25/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-04-01* — Giving a creature flanking after blockers have been declared won’t have any effect. Specifically: — If you give flanking to an attacking creature after blockers have been declared, it’s too late for flanking to trigger. — If you give flanking to a creature that’s blocking an attacking creature with flanking, it’s too late to prevent the blocking creature from getting -1/-1, even if the attacker’s flanking ability hasn’t resolved yet.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wth/150/jabaris-banner) · oracle_id `79560d80-1745-4773-a5c4-4c8e98475135` · printing: WTH #150 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jabari's Influence
 
@@ -152,6 +154,7 @@
   > *"Common soldiers can't understand what a sidar knows: the enemy can be a resource."*
   > *—Sidar Jabari*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27179 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/24/jabaris-influence) · oracle_id `8930b1ce-80ac-48b6-a368-ccff9fd01d38` · printing: MIR #24 (1996-10-08) · [rulings](https://api.scryfall.com/cards/c9f764d7-4c18-40ef-8373-ef1e2a88007e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jabs, Mistress of Mockery
@@ -164,6 +167,7 @@
 - **Flavor text** (MBC printing):
   > *All her shows have a captive audience.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #23220 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/23/jabs-mistress-of-mockery) · oracle_id `723959e1-8356-4fdb-99e2-818df317dc72` · printing: MBC #23 (2026-10-19) · [rulings](https://api.scryfall.com/cards/97ef5bee-81d8-4dc2-9ad8-7b6a8fac5026/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jace, Arcane Strategist
@@ -176,7 +180,12 @@
   > +1: Draw a card.
   > −7: Creatures you control can't be blocked this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11487 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/270/jace-arcane-strategist) · oracle_id `4126bab7-6a2a-43b2-ba65-77299f9bb8cf` · printing: WAR #270 (2019-05-03) · [rulings](https://api.scryfall.com/cards/b6a857fb-159f-40c4-8988-da91d8521a60/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-05-03* — If a spell or ability causes you to put cards into your hand without specifically using the word “draw,” it’s not a card drawn.
+  - *2019-05-03* — If an effect instructs you to draw multiple cards, Jace’s first ability triggers after you draw whichever is the second one for the turn (if any). You choose a target for the ability after you’ve drawn all of the cards.
+  - *2019-05-03* — Jace’s first ability can trigger only once each turn. It doesn’t matter whether Jace was on the battlefield when the first card was drawn.
+  - *2019-05-03* — Once Jace’s last ability has resolved, its effect applies even if Jace has left the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/270/jace-arcane-strategist) · oracle_id `4126bab7-6a2a-43b2-ba65-77299f9bb8cf` · printing: WAR #270 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jace, Architect of Thought
 
@@ -226,7 +235,13 @@
   > −2: Create a 2/2 blue Illusion creature token with "When this token becomes the target of a spell, sacrifice it."
   > −5: Create two tokens that are copies of Jace, except they're not legendary.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11307 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/60/jace-cunning-castaway) · oracle_id `d2341a16-ffde-42fa-9746-0d8888e812d4` · printing: XLN #60 (2017-09-29) · [rulings](https://api.scryfall.com/cards/b75f56f2-88fd-44ba-ad02-56ea3391f173/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-09-29* — If a token created by Jace's second ability becomes the target of a spell, its ability triggers and goes on the stack on top of that spell. The ability will resolve first (causing the token to be sacrificed). Unless the spell has another target, it will then be countered when it tries to resolve for having no legal targets.
+  - *2017-09-29* — The delayed triggered ability created by Jace's first ability can trigger more than once in a turn if creatures you control deal combat damage at different times in a turn (most likely because one or more has first strike) or if creatures you control deal combat damage to more than one player at once.
+  - *2017-09-29* — The tokens created by Jace's last ability don't have the legendary supertype. If another object becomes a copy of the token, that copy also won't be legendary.
+  - *2017-09-29* — The tokens from Jace's last ability copy exactly what is printed on Jace and nothing else. They don't copy how many counters are on him or Auras attached to him, or any non-copy effects that have changed his color or types, and so on. They'll each enter the battlefield with three loyalty counters. You can activate one loyalty ability of each of the tokens this turn.
+  - *2017-09-29* — You can control one legendary Jace, Cunning Castaway in addition to any number of nonlegendary copies of Jace, Cunning Castaway.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/60/jace-cunning-castaway) · oracle_id `d2341a16-ffde-42fa-9746-0d8888e812d4` · printing: XLN #60 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jace, Ingenious Mind-Mage
 
@@ -238,7 +253,10 @@
   > +1: Untap all creatures you control.
   > −9: Gain control of up to three target creatures.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12415 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/280/jace-ingenious-mind-mage) · oracle_id `fe0fcb4e-92fd-4e64-99d1-043092ea21e3` · printing: XLN #280 (2017-09-29) · [rulings](https://api.scryfall.com/cards/e3b274f6-833f-430f-ac1a-d1d1d5b03e71/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-09-29* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well, and any effects that give the player control of permanents immediately end.
+  - *2017-09-29* — The control-change effect of Jace’s last ability lasts indefinitely. It doesn’t wear off during the cleanup step or when you lose control of Jace.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/280/jace-ingenious-mind-mage) · oracle_id `fe0fcb4e-92fd-4e64-99d1-043092ea21e3` · printing: XLN #280 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jace, Memory Adept
 
@@ -310,7 +328,12 @@
   > 0: Exile all but the bottom card of each opponent's library. Activate only if there are twenty-five or more loyalty counters among Jaces you control.
 - **Keywords:** Empower Jace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13058 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/216/jace-reality-sculptor) · oracle_id `bf0e9e00-fba5-448a-9052-ae730aea4bf8` · printing: FRA #216 (2026-10-02) · [rulings](https://api.scryfall.com/cards/74087795-0b38-4fd2-9841-147583baca41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2026-08-21* — Empower Jace won't let you put loyalty counters on nontoken Jace planeswalkers. However, if you control a Jace planeswalker token that you got another way (such as an effect that creates a token that's a copy of a permanent), empower Jace will put loyalty counters on that.
+  - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
+  - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
+  - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/216/jace-reality-sculptor) · oracle_id `bf0e9e00-fba5-448a-9052-ae730aea4bf8` · printing: FRA #216 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jace Reawakened
 
@@ -367,6 +390,7 @@
   > *—Nicol Bolas*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23744 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/38/jaces-defeat) · oracle_id `8ed8e27b-2137-4e19-99bb-5e0d6d32e3af` · printing: HOU #38 (2017-07-14) · [rulings](https://api.scryfall.com/cards/c6b103c1-9b25-4bfe-9081-570977e9fdad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jace's Erasure
@@ -393,6 +417,7 @@
 - **Flavor text** (M15 printing):
   > *"Brute force can sometimes kick down a locked door, but knowledge is a skeleton key."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15821 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m15/63/jaces-ingenuity) · oracle_id `ce588fd3-642e-4df9-8061-6fcfc6e81270` · printing: M15 #63 (2014-07-18) · [rulings](https://api.scryfall.com/cards/ad4932ba-e272-4f22-89f5-a6153ca570b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jace's Machinations
@@ -404,7 +429,13 @@
   > Empower Jace 8. (Put eight loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with "[−1]: Surveil 1" and "[−3]: Draw a card.")
 - **Keywords:** Surveil, Empower Jace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13529 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/32/jaces-machinations) · oracle_id `89bd056d-8f5b-4d0e-b80a-58a984e21100` · printing: FRA #32 (2026-10-02) · [rulings](https://api.scryfall.com/cards/282588b9-3656-453b-aa25-2419e078ddc1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2026-08-21* — Empower Jace won't let you put loyalty counters on nontoken Jace planeswalkers. However, if you control a Jace planeswalker token that you got another way (such as an effect that creates a token that's a copy of a permanent), empower Jace will put loyalty counters on that.
+  - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
+  - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
+  - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+  - *2026-08-21* — You may still activate only one loyalty ability of each permanent you control during the turn you cast Jace's Machinations.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/32/jaces-machinations) · oracle_id `89bd056d-8f5b-4d0e-b80a-58a984e21100` · printing: FRA #32 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jace's Mindseeker
 
@@ -416,7 +447,14 @@
   > When this creature enters, target opponent mills five cards. You may cast an instant or sorcery spell from among them without paying its mana cost.
 - **Keywords:** Flying, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14455 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddm/19/jaces-mindseeker) · oracle_id `8ebf337d-eac0-40de-978c-3a8fc3bbe03c` · printing: DDM #19 (2014-03-14) · [rulings](https://api.scryfall.com/cards/aeec1661-43e9-4e64-8798-c9aebad421e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2013-07-01* — If a card has {X} in its mana cost, you must choose 0 as its value.
+  - *2013-07-01* — If the five cards are put into a public zone such as exile instead of a graveyard (perhaps due to the ability of Rest in Peace), you can cast one of those instant or sorcery cards from that zone.
+  - *2013-07-01* — If you cast a card “without paying its mana cost,” you can’t pay alternative costs such as overload costs. You can pay additional costs such as kicker costs. If the card has mandatory additional costs, you must pay those.
+  - *2013-07-01* — If you cast an instant or sorcery card this way, you do so while the ability of Jace’s Mindseeker is resolving. If you choose not to (or can’t), you won’t get a chance to cast one later.
+  - *2013-07-01* — When casting an instant or sorcery card this way, ignore timing restrictions based on the card’s type. Other timing restrictions, such as “Cast [this spell] only during combat,” must be followed.
+  - *2013-07-01* — “From among them” means the five cards put into the graveyard, not all cards in that graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddm/19/jaces-mindseeker) · oracle_id `8ebf337d-eac0-40de-978c-3a8fc3bbe03c` · printing: DDM #19 (2014-03-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jace's Phantasm
 
@@ -447,7 +485,11 @@
 - **Flavor text** (WAR printing):
   > *"Pardon me if I seem distracted. Part of me is reconnoitering the Tenth District."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14798 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/272/jaces-projection) · oracle_id `ff8db8aa-1d5a-42f8-8056-8da0da9846bc` · printing: WAR #272 (2019-05-03) · [rulings](https://api.scryfall.com/cards/c4d35a34-01b7-41e1-8491-a6589175d027/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-05-03* — If a spell or ability causes you to put cards into your hand without specifically using the word “draw,” the triggered ability of Jace’s Projection won’t trigger.
+  - *2019-05-03* — If an effect instructs you to draw multiple cards, the triggered ability of Jace’s Projection triggers that many times.
+  - *2019-05-03* — Putting a loyalty counter on a Jace planeswalker doesn’t cause any of its activated abilities to become activated.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/272/jaces-projection) · oracle_id `ff8db8aa-1d5a-42f8-8056-8da0da9846bc` · printing: WAR #272 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jace's Ruse
 
@@ -458,7 +500,9 @@
 - **Flavor text** (WAR printing):
   > *"The Eternals can recognize faces. They just think I look like a blue minotaur."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21949 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/273/jaces-ruse) · oracle_id `59cbed39-a07e-491e-a95a-adafe19eb652` · printing: WAR #273 (2019-05-03) · [rulings](https://api.scryfall.com/cards/03e8d2c7-cd6e-48bf-9d54-73f3d6cff0aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-05-03* — You may cast Jace’s Ruse without choosing any target creatures. You’ll just search for Jace, Arcane Strategist. However, if you choose any targets and all of those targets become illegal before Jace’s Ruse resolves, the spell won’t resolve and you won’t search.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/273/jaces-ruse) · oracle_id `59cbed39-a07e-491e-a95a-adafe19eb652` · printing: WAR #273 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jace's Sanctum
 
@@ -490,7 +534,12 @@
   > *"Just a collage of images: cryptoliths, the sea, a tangle of shipwrecks."*
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21997 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/70/jaces-scrutiny) · oracle_id `8578c462-7b2d-4b69-ad10-a2eab44ac98d` · printing: SOI #70 (2016-04-08) · [rulings](https://api.scryfall.com/cards/3d0eea0d-c790-4d91-962f-f05b22d0c8fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-04-08* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2016-04-08* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2016-04-08* — You can't cast a spell without choosing legal targets. If all of those targets become illegal, the spell doesn't resolve and you won't investigate.
+  - *2016-04-08* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/70/jaces-scrutiny) · oracle_id `8578c462-7b2d-4b69-ad10-a2eab44ac98d` · printing: SOI #70 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jace's Sentinel
 
@@ -502,6 +551,7 @@
 - **Flavor text** (XLN printing):
   > *"We drove the Sun Empire out of the forest long ago, and we will not let them return."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23563 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/283/jaces-sentinel) · oracle_id `bfd2ef5d-618d-4062-9cb2-9dbef5432865` · printing: XLN #283 (2017-09-29) · [rulings](https://api.scryfall.com/cards/9131361b-ec1e-4390-82c9-b9b9f77792a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jace's Triumph
@@ -513,7 +563,10 @@
 - **Flavor text** (WAR printing):
   > *His triumph was not in outsmarting Bolas's plan, but in understanding why ultimate power is self-defeating.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16830 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/55/jaces-triumph) · oracle_id `bfcffe67-7db6-41bb-bfcc-400cbb8c8a9c` · printing: WAR #55 (2019-05-03) · [rulings](https://api.scryfall.com/cards/4924f177-5ee2-4d3f-9603-4b9aef4dac09/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-05-03* — Controlling more than one planeswalker of the appropriate type won’t have any more of a benefit than just controlling one.
+  - *2019-05-03* — Whether you control an appropriate planeswalker is checked only as the spell resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/55/jaces-triumph) · oracle_id `bfcffe67-7db6-41bb-bfcc-400cbb8c8a9c` · printing: WAR #55 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jace, the Living Guildpact
 
@@ -525,7 +578,9 @@
   > −3: Return another target nonland permanent to its owner's hand.
   > −8: Each player shuffles their hand and graveyard into their library. You draw seven cards.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15492 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m15/62/jace-the-living-guildpact) · oracle_id `55259de3-561d-4a9e-bb28-63c6a7ac5c68` · printing: M15 #62 (2014-07-18) · [rulings](https://api.scryfall.com/cards/99713bb4-186f-42b6-aa66-e94ec8858e6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-07-18* — When the first ability resolves, the card you don't put into your graveyard stays on top of your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m15/62/jace-the-living-guildpact) · oracle_id `55259de3-561d-4a9e-bb28-63c6a7ac5c68` · printing: M15 #62 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jace, the Mind Sculptor
 
@@ -642,7 +697,12 @@
   > *"Let the gray-hairs keep their ravens and drakes. My familiar will be a reflection of me: bloodthirsty, with a predator's instinct."*
   > *—Taivang, barbarian warlord*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30161 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m10/143/jackal-familiar) · oracle_id `e4d5d666-fd55-4c1a-89c8-2348288f6b30` · printing: M10 #143 (2009-07-17) · [rulings](https://api.scryfall.com/cards/0a47a2dc-f7f2-4103-9ebe-8cd8b83915ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2009-10-01* — An effect may put Jackal Familiar onto the battlefield attacking even if no other creatures are attacking. That’s because it wasn’t declared as an attacker in this case. Similarly, an effect may put Jackal Familiar onto the battlefield blocking even if no other creatures are blocking.
+  - *2009-10-01* — Once Jackal Familiar has been legally declared as an attacking or blocking creature, how many other creatures it’s attacking or blocking with no longer matters. For example, if Jackal Familiar and Canyon Minotaur both attack, then Canyon Minotaur leaves the battlefield, Jackal Familiar continues to attack even though it’s now attacking alone.
+  - *2009-10-01* — “Can’t attack alone” means Jackal Familiar can’t be declared as an attacker during the declare attackers step unless at least one other creature is also declared as an attacker at that time (either by you or your Two-Headed Giant teammate).
+  - *2009-10-01* — “Can’t block alone” has a similar meaning. Note that the other blocker(s) doesn’t have to block the same attacker as Jackal Familiar.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m10/143/jackal-familiar) · oracle_id `e4d5d666-fd55-4c1a-89c8-2348288f6b30` · printing: M10 #143 (2009-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jackal, Genius Geneticist
 
@@ -656,7 +716,10 @@
   > *For Professor Miles Warren, all any problem needs is a lot of clones and not a lot of ethics.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15532 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/131/jackal-genius-geneticist) · oracle_id `5998f07e-01f9-4d02-94dd-867c7166463f` · printing: SPM #131 (2025-09-26) · [rulings](https://api.scryfall.com/cards/c0ab07d6-b7c3-4129-9aef-cfdcfabec4b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-09-19* — If a spell has {X} in its mana cost, use the value chosen for that X to determine the mana value of that spell.
+  - *2025-09-19* — If the spell that's copied has an X whose value was determined as it was cast, the copy will have the same value of X.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/131/jackal-genius-geneticist) · oracle_id `5998f07e-01f9-4d02-94dd-867c7166463f` · printing: SPM #131 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jackalope Herd
 
@@ -668,7 +731,9 @@
 - **Flavor text** (EXO printing):
   > *There's little more demeaning than getting your butt kicked by a bunch of bunnies.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29525 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/exo/111/jackalope-herd) · oracle_id `bcc8ce61-a881-42be-ab2c-64351d17f9f8` · printing: EXO #111 (1998-06-15) · [rulings](https://api.scryfall.com/cards/cb80105c-d2c0-4f8c-9302-5e6152a60f54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It will only return if it is still on the battlefield when the triggered ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/exo/111/jackalope-herd) · oracle_id `bcc8ce61-a881-42be-ab2c-64351d17f9f8` · printing: EXO #111 (1998-06-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jackal Pup
 
@@ -680,6 +745,7 @@
 - **Flavor text** (A25 printing):
   > *The first morning after acquiring her familiar, the wizard awoke with fleabites and mange.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24249 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/139/jackal-pup) · oracle_id `993e41e6-0643-4a1f-8ada-b7a4aae486d9` · printing: A25 #139 (2018-03-16) · [rulings](https://api.scryfall.com/cards/9d8743b2-30e3-4d15-89fc-72974747aec5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jackdaw
@@ -748,6 +814,7 @@
   > *—Mr. Orfeo, the Boulder*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25238 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/111/jackhammer) · oracle_id `f73d89ec-05c9-4998-a24b-bc675b04ec16` · printing: SNC #111 (2022-04-29) · [rulings](https://api.scryfall.com/cards/d74ba9fe-2dcb-4da7-ba64-cd932edb5b24/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jack-in-the-Mox
@@ -763,6 +830,7 @@
   > 5 — Add {R}.
   > 6 — Add {G}.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/und/78/jack-in-the-mox) · oracle_id `86c3c5b5-fdc0-4562-ba7b-be84f6b027b6` · printing: UND #78 (2020-02-29) · [rulings](https://api.scryfall.com/cards/c4e30889-d245-4f20-938a-1295ddbcfac6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jackknight
@@ -775,6 +843,7 @@
 - **Flavor text** (UST printing):
   > *"My sword is at your service, as are my scissors, corkscrew, and bottle opener."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/11/jackknight) · oracle_id `81025603-f62b-4635-bbf1-5814cc60d615` · printing: UST #11 (2017-12-08) · [rulings](https://api.scryfall.com/cards/3d84953b-c59c-45f8-aedd-e68bff7c7ce3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jack of Hearts, Volatile Hero
@@ -788,6 +857,7 @@
   > Power-up — {4}{R}{R}: Discard your hand, then draw three cards. Put two +1/+1 counters on Jack of Hearts. (Activate each power-up ability only once. Reduce the cost by his mana cost if he entered this turn.)
 - **Keywords:** Flying, Power-up, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25583 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/693/jack-of-hearts-volatile-hero) · oracle_id `25b30117-03ef-49a5-8743-2d1c167d4bc3` · printing: MSC #693 (2026-06-26) · [rulings](https://api.scryfall.com/cards/7882b42b-d88f-48fe-9b30-cfb338accadb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jack-o'-Lantern
@@ -800,6 +870,7 @@
 - **Flavor text** (MID printing):
   > *By the end of the festival, it was the only thing still grinning.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15357 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/254/jack-o-lantern) · oracle_id `192b5dd7-f420-4d5b-86d6-66e86fa67f41` · printing: MID #254 (2021-09-24) · [rulings](https://api.scryfall.com/cards/21b589ab-45a0-480a-a891-581c34f8a9bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jacob Frye
@@ -840,7 +911,12 @@
   > Once during each of your turns, you may play a land or cast a spell from among the cards exiled with this permanent without paying its mana cost.
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11844 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/65/jacob-hauken-inspector-haukens-insight) · oracle_id `16d2a56a-7181-4ef3-866b-10dd8615d9e9` · printing: VOW #65 (2021-11-19) · [rulings](https://api.scryfall.com/cards/6b4529c3-8edb-4909-b910-806450a39d2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-11-19* — Once Hauken's Insight leaves the battlefield, the player that controlled it may no longer play the exiled cards. If it's destroyed and somehow returns to the battlefield, it's a new object with no memory of the previously exiled cards.
+  - *2021-11-19* — Paying {4}{U}{U} and transforming Jacob Hauken, Inspector is part of the resolution of the activated ability. You draw a card and exile a card before choosing whether to pay.
+  - *2021-11-19* — Playing a card using the last ability of Hauken's Insight follows all the normal timing rules for that card. For example, if you play a land this way, you may do so only during your main phase while the stack is empty and only if you haven't yet played a land (unless another effect allows you to play additional lands).
+  - *2021-11-19* — You may play cards this way that were exiled with Jacob Hauken, Inspector before it transformed into Hauken's Insight.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/65/jacob-hauken-inspector-haukens-insight) · oracle_id `16d2a56a-7181-4ef3-866b-10dd8615d9e9` · printing: VOW #65 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jacques le Vert
 
@@ -852,7 +928,9 @@
 - **Flavor text** (ME1 printing):
   > *Abandoning his sword to return to the lush forest of Pendelhaven, Jacques le Vert devoted his life to protecting the creatures of his homeland.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28448 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me1/147/jacques-le-vert) · oracle_id `c030ca14-33cb-40b3-a1f5-b6d0cb0efd49` · printing: ME1 #147 (2007-09-10) · [rulings](https://api.scryfall.com/cards/6fde1e41-bb06-457e-8c61-4a41535e3a73/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Gives himself +0/+2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me1/147/jacques-le-vert) · oracle_id `c030ca14-33cb-40b3-a1f5-b6d0cb0efd49` · printing: ME1 #147 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jadar, Ghoulcaller of Nephalia
 
@@ -881,7 +959,9 @@
 - **Flavor text** (DDR printing):
   > *Nature's arms encircle all who are willing to draw close.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26448 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddr/12/jaddi-lifestrider) · oracle_id `9c8027b7-b823-4214-936c-91b7a8986228` · printing: DDR #12 (2016-09-02) · [rulings](https://api.scryfall.com/cards/2dff438a-925c-4fca-a2e3-3e9519b7afed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2010-06-15* — You don’t choose which creatures to tap until the ability resolves. You may tap Jaddi Lifestrider itself this way, assuming it’s still on the battlefield untapped by this time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddr/12/jaddi-lifestrider) · oracle_id `9c8027b7-b823-4214-936c-91b7a8986228` · printing: DDR #12 (2016-09-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jaddi Offshoot
 
@@ -914,6 +994,7 @@
   > *—Traditional children's rhyme*
 - **Keywords:** Bushido
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12656 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/167/jade-avenger) · oracle_id `177248b7-f3fd-42f8-b325-2625a2bb28ff` · printing: MH2 #167 (2021-06-18) · [rulings](https://api.scryfall.com/cards/f81500be-c959-4f38-bcf2-d63519168f67/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jade Bearer
@@ -926,6 +1007,7 @@
 - **Flavor text** (RIX printing):
   > *"Sisora wore this, who defeated the tyrant of Azcanta, and before her Natena of Vuhana's band. May it bring you their strength."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22807 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/134/jade-bearer) · oracle_id `72ddbc9b-f584-433f-9d2d-6e4c374129c4` · printing: RIX #134 (2018-01-19) · [rulings](https://api.scryfall.com/cards/696bb954-353e-488b-a1e8-0df75da6339b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jade-Cast Sentinel
@@ -940,6 +1022,7 @@
   > *Set in motion by artificers long forgotten, it remained loyal through the ages to the occupants of Kheru City.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18087 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/243/jade-cast-sentinel) · oracle_id `985192cd-ceb6-48ad-80b9-e10fc544260e` · printing: TDM #243 (2025-04-11) · [rulings](https://api.scryfall.com/cards/516ce5fa-bd00-429b-ba22-b38c7dd9306c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jadecraft Artisan
@@ -952,6 +1035,7 @@
 - **Flavor text** (RIX printing):
   > *"A blade is not fully forged until it is given."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29968 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/135/jadecraft-artisan) · oracle_id `9290f549-3e5d-4e39-a20e-8be6b674abc7` · printing: RIX #135 (2018-01-19) · [rulings](https://api.scryfall.com/cards/2b745934-c1fe-49f5-bda4-b0eafa1408e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jaded Analyst
@@ -966,6 +1050,7 @@
   > *"Oh, good, another case with too many victims and not enough clues."*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26629 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/62/jaded-analyst) · oracle_id `e43400fe-3df5-4942-abc3-b9bba34fc7cd` · printing: MKM #62 (2024-02-09) · [rulings](https://api.scryfall.com/cards/2807dcfb-d99c-483b-835f-2606eae4bd30/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jaded Response
@@ -978,7 +1063,9 @@
   > *"Calm down everyone; it's nothing we haven't seen before."*
   > *—Sisay*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21489 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/apc/26/jaded-response) · oracle_id `23917517-7561-45b3-b156-77cd2f340466` · printing: APC #26 (2001-06-04) · [rulings](https://api.scryfall.com/cards/6a9ab1f0-4e75-4165-85bc-6f838c221d6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It does not check colors until it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/apc/26/jaded-response) · oracle_id `23917517-7561-45b3-b156-77cd2f340466` · printing: APC #26 (2001-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jaded Sell-Sword
 
@@ -990,6 +1077,7 @@
 - **Flavor text** (AFR printing):
   > *"Today? That'll cost you extra."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23047 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/152/jaded-sell-sword) · oracle_id `f666a990-bd9c-4160-9770-4758fd40ca92` · printing: AFR #152 (2021-07-23) · [rulings](https://api.scryfall.com/cards/ff5219c0-fb43-47b1-b682-131ba7c70990/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jade Guardian
@@ -1004,7 +1092,9 @@
   > *The River Heralds believe that jade gives weight to their magic.*
 - **Keywords:** Hexproof
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25765 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/194/jade-guardian) · oracle_id `9128b952-bd36-4a3a-9566-34d999305991` · printing: XLN #194 (2017-09-29) · [rulings](https://api.scryfall.com/cards/aca83e48-6e32-477f-8714-6103e77c06df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-09-29* — Jade Guardian can be the target of its own ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/194/jade-guardian) · oracle_id `9128b952-bd36-4a3a-9566-34d999305991` · printing: XLN #194 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jade Idol
 
@@ -1015,7 +1105,9 @@
 - **Flavor text** (CHK printing):
   > *Before the Kami War, the shishi were symbolic guardians, protecting the shrines where they stood. But after the kami turned on the material world, shishi began pouncing from their perches to attack would-be supplicants.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30778 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/chk/256/jade-idol) · oracle_id `36b4daf5-6568-402b-a4f9-fe3ffddc847c` · printing: CHK #256 (2004-10-01) · [rulings](https://api.scryfall.com/cards/a58f63c5-cdc5-4079-a727-cff45668d546/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn’t matter how long the permanent has been a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chk/256/jade-idol) · oracle_id `36b4daf5-6568-402b-a4f9-fe3ffddc847c` · printing: CHK #256 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jade Leech
 
@@ -1028,6 +1120,7 @@
   > *"It took magic to extract one of the stones and five people to carry it."*
   > *—Tolarian research notes*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31659 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/190/jade-leech) · oracle_id `495e08a8-e654-4a0b-a25f-1e344ae2a0fa` · printing: INV #190 (2000-10-02) · [rulings](https://api.scryfall.com/cards/3392171d-ed25-46a1-91cc-a4f24537617d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jadelight Ranger
@@ -1039,7 +1132,16 @@
   > When this creature enters, it explores, then it explores again. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard. Then repeat this process.)
 - **Keywords:** Explore
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13762 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/136/jadelight-ranger) · oracle_id `0b5d174c-7d4d-4c31-a582-8169d3bc932a` · printing: RIX #136 (2018-01-19) · [rulings](https://api.scryfall.com/cards/9fe5c719-f20d-4469-9750-fb689d5f3fc8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2018-01-19* — If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature explores" trigger as appropriate.
+  - *2018-01-19* — If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.
+  - *2018-01-19* — If an ability instructs a creature to explore, its controller reveals the top card of their library. If it's a land card, they'll put it into their hand. Otherwise, they'll put a +1/+1 counter on that creature, then choose to either leave that card on top of their library or put it into their graveyard.
+  - *2018-01-19* — If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+  - *2018-01-19* — If you reveal a nonland card the first time Jadelight Ranger explores and leave it on top of your library, you'll reveal the same card the second time it explores. If you don't pretend to be surprised, you'll hurt Jadelight Ranger's feelings.
+  - *2018-01-19* — In some unusual cases, noncreature permanents may explore. For example, if the creature card returned by Defossilize is somehow not a creature once it's on the battlefield, it can still explore. You'll take all the same actions, and you may end up putting a +1/+1 counter on the permanent. (Note that some effects target a creature, and those effects would still require a legal target to have it explore.)
+  - *2018-01-19* — Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+  - *2018-01-19* — Some spells or abilities might cause a creature to explore multiple times in a row. If you reveal a nonland card when a creature explores and leave it on top of your library, then the creature explores again immediately afterwards, you'll reveal the same card again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/136/jadelight-ranger) · oracle_id `0b5d174c-7d4d-4c31-a582-8169d3bc932a` · printing: RIX #136 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jadelight Spelunker
 
@@ -1072,6 +1174,7 @@
 - **Flavor text** (CMM printing):
   > *"Loneliness is a symptom of civilization."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10045 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/298/jade-mage) · oracle_id `6daf3c59-7636-4d44-872b-67722b4868cb` · printing: CMM #298 (2023-08-04) · [rulings](https://api.scryfall.com/cards/995140fa-dc1f-4b75-9cea-079ea03c485f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jade Monolith
@@ -1081,6 +1184,7 @@
 - **Oracle text:**
   > {1}: The next time a source of your choice would deal damage to target creature this turn, that source deals that damage to you instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16809 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/208/jade-monolith) · oracle_id `1e105ab7-fb10-4cfd-ac2f-5e11488cf1b0` · printing: ME4 #208 (2011-01-10) · [rulings](https://api.scryfall.com/cards/482d9aab-7ff1-47ee-9862-8a8c687f14bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jade Orb of Dragonkind
@@ -1110,7 +1214,15 @@
   > *When the merfolk fled underground, they brought the life force of the jungle with them.*
 - **Keywords:** Craft, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22697 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/195/jade-seedstones-jadeheart-attendant) · oracle_id `fa2c984a-6bc1-4ec8-93d7-87f9f06b841e` · printing: LCI #195 (2023-11-17) · [rulings](https://api.scryfall.com/cards/bb95ffc2-ef35-49bf-8211-c5354d176051/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-11-10* — If a card that isn't a transforming double-faced card becomes a copy of a card with craft, it'll stay in exile if you activate the craft ability. It won't return to the battlefield.
+  - *2023-11-10* — If some of the creatures are illegal targets as the first ability of Jade Seedstones tries to resolve, the original distribution of counters still applies and the counters that would have been put on the illegal targets are lost. They won't be put instead on a legal target.
+  - *2023-11-10* — If the materials required include multiple objects, you may exile some of them from among permanents you control and the rest from among cards in your graveyard. You don't have to choose all permanents or all cards from your graveyard.
+  - *2023-11-10* — In some unusual cases, multiple cards may be exiled to craft Jadeheart Attendant. For example, if an effect makes Jade Seedstones a copy of a permanent with a craft ability that requires multiple components, the copy effect will expire as Jade Seedstones leaves the battlefield and it will return as Jadeheart Attendant. The enters-the-battlefield ability will count all the exiled cards, and you'll gain life equal to their total mana values.
+  - *2023-11-10* — The back faces of some cards with craft refer to cards "used to craft" it. This refers to the cards exiled as part of the cost of the craft ability of the front face. Those cards are considered to be "used to craft" that permanent as long as they remain exiled and the permanent remains on the battlefield, even if the permanent's controller changes or some of its characteristics change (because of a copy effect, for example.)
+  - *2023-11-10* — You choose how many targets the first ability of Jade Seedstones has and how the counters will be distributed as that ability is put on the stack.  Each target must receive at least one counter.
+  - *2023-11-10* — You may exile tokens you control as part of the materials required. However, because they aren't cards and won't stay in exile, any abilities that refer to what you "used to craft" the back faces won't refer to anything.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/195/jade-seedstones-jadeheart-attendant) · oracle_id `fa2c984a-6bc1-4ec8-93d7-87f9f06b841e` · printing: LCI #195 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jade Statue
 
@@ -1122,7 +1234,13 @@
   > *"The paradox of jade statues is that their victims never really expect attack, but they are never completely surprised either."*
   > *—Kabel, Tolarian archivist*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30695 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/9ed/300/jade-statue) · oracle_id `96162b22-41e7-4559-aa1b-c18f42abcb52` · printing: 9ED #300 (2005-07-29) · [rulings](https://api.scryfall.com/cards/af0495f8-4f18-4860-b1b4-58fa67414c8e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2004-10-04* — It can only make itself into a creature during combat phases and therefore it is difficult to get Auras placed on it.
+  - *2005-08-01* — A delayed triggered ability that refers to Jade Statue still affects it even if it's no longer a creature. For example, if Jade Statue blocks the Kashi-Tribe Warriors ("Whenever Kashi-Tribe Warriors deals combat damage to a creature, tap that creature and it doesn't untap during its controller's next untap step."), the Warriors' effect stops Jade Statue from untapping.
+  - *2005-08-01* — If Jade Statue's ability has been activated, abilities that trigger "at end of combat" will see Jade Statue as an artifact creature.
+  - *2008-08-01* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
+  - *2013-09-20* — If Jade Statue is animated by some other effect, you get an artifact creature with whatever power, toughness, and creature types (if any) are specified by that effect. If you subsequently use Jade Statue's ability during combat, it will become 3/6 and gain the creature type Golem in addition to those creature types until end of combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/9ed/300/jade-statue) · oracle_id `96162b22-41e7-4559-aa1b-c18f42abcb52` · printing: 9ED #300 (2005-07-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jadzi, Oracle of Arcavios // Journey to the Oracle
 
@@ -1137,7 +1255,20 @@
   > *To find Jadzi, one need only wander.*
 - **Keywords:** Magecraft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10688 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/151/jadzi-oracle-of-arcavios-journey-to-the-oracle) · oracle_id `ca79cd3f-13ba-4d11-b885-48a504ae69aa` · printing: STX #151 (2021-04-23) · [rulings](https://api.scryfall.com/cards/d7148d24-373e-4485-860b-c3429c2337f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2021-04-16* — Because the magecraft ability supplies an alternative cost of {1} for the spell, you cannot pay any other alternative costs that may apply. However, you may pay additional costs and must pay any additional costs that are required.
+  - *2021-04-16* — Each magecraft ability has a different effect, although they all have the same trigger condition, whenever you cast or copy an instant or sorcery spell.
+  - *2021-04-16* — For example, if you control Archmage Emeritus and cast an instant or sorcery spell, Archmage Emeritus’s magecraft ability will trigger and you will draw a card.
+  - *2021-04-16* — If an effect creates a copy of an instant or sorcery spell, this will also cause the magecraft ability to trigger.
+  - *2021-04-16* — If an effect creates multiple copies of an instant or sorcery spell, magecraft abilities trigger once for each copy created by the effect.
+  - *2021-04-16* — If you cast a spell with {X} in its mana cost using Jadzi’s magecraft ability, you must choose 0 as the value of X.
+  - *2021-04-16* — If you reveal a modal double-faced card with Jadzi’s triggered ability, and both faces are nonland, you may cast either face by paying {1} rather than its mana cost. If only the back face is a land, you may cast the front face. If both faces are lands, you will put onto the battlefield front face up.
+  - *2021-04-16* — If you’re casting the card you reveal with Jadzi’s ability, you ignore normal timing restrictions.
+  - *2021-04-16* — Putting a land onto the battlefield does not count as playing a land for the turn and doesn’t use the normal timing restrictions.
+  - *2021-04-16* — Some effects instruct you to copy an instant or sorcery card in a zone other than the stack. These copies do not cause magecraft abilities to trigger. However, most effects that do this also allow you to cast the copy, and casting the copy will cause magecraft abilities to trigger.
+  - *2021-04-16* — You may activate Jadzi’s activated ability only while Jadzi is on the battlefield. If Jadzi is no longer on the battlefield as the ability resolves, it won’t return her to your hand from any other zone.
+  - *2021-04-16* — You may choose not to cast a nonland card revealed by Jadzi’s triggered ability. If you don’t cast it, it stays on top of your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/151/jadzi-oracle-of-arcavios-journey-to-the-oracle) · oracle_id `ca79cd3f-13ba-4d11-b885-48a504ae69aa` · printing: STX #151 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jadzi, Steward of Fate // Oracle's Gift
 
@@ -1150,7 +1281,23 @@
   > Create X 0/0 green and blue Fractal creature tokens, then put X +1/+1 counters on each Fractal you control.
 - **Keywords:** Prepared
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13111 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/55/jadzi-steward-of-fate-oracles-gift) · oracle_id `c63b3511-d597-4c6e-9094-eabdeaa8a394` · printing: SOS #55 (2026-04-24) · [rulings](https://api.scryfall.com/cards/a95b6baf-01e6-49c3-9a26-394b127d53c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2026-03-20* — A creature with a prepare spell can't become prepared more than once at the same time. For example, Emeritus of Ideation is on the battlefield and is prepared. When it attacks, its last ability triggers. When that ability resolves, its controller may still exile eight cards from their graveyard, but doing so won't cause Emeritus of Ideation to become prepared a second time or create a second copy of Ancestral Recall in exile.
+  - *2026-03-20* — A creature without a prepare spell can't become prepared.
+  - *2026-03-20* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Emeritus of Ideation is a blue creature whose mana value is 5. It can't be the target of Zealous Lorecaster's triggered ability ("When this creature enters, return target instant or sorcery card from your graveyard to your hand.").
+  - *2026-03-20* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-03-20* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-03-20* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-03-20* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog.") targeting Goblin Glasswright. The token copy of Goblin Glasswright will enter prepared as a 1/1 green Frog creature, but the copy of Craft with Pride in exile will still be a red sorcery. The copy of Craft with Pride won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-03-20* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-03-20* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-03-20* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-03-20* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-03-20* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
+  - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/55/jadzi-steward-of-fate-oracles-gift) · oracle_id `c63b3511-d597-4c6e-9094-eabdeaa8a394` · printing: SOS #55 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jagged Barrens
 
@@ -1175,6 +1322,7 @@
 - **Oracle text:**
   > Jagged Lightning deals 3 damage to each of two target creatures.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29733 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/s99/109/jagged-lightning) · oracle_id `b5d5cfc0-17e0-42d1-b5bd-9f27b11191f9` · printing: S99 #109 (1999-07-01) · [rulings](https://api.scryfall.com/cards/51f724db-0427-44f9-963d-ae2356c928f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jagged Poppet
@@ -1189,6 +1337,7 @@
   > *Few puppets are so willing.*
 - **Keywords:** Hellbent
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22717 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/115/jagged-poppet) · oracle_id `4beec1a6-a9c6-471f-b6fa-c754a42ad227` · printing: DIS #115 (2006-05-05) · [rulings](https://api.scryfall.com/cards/e796a838-3599-4769-b90b-9bbbaad76fcb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jagged-Scar Archers
@@ -1215,6 +1364,7 @@
   > *—Chadir the Navigator*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29491 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/wwk/58/jagwasp-swarm) · oracle_id `376d90f6-2ceb-4d9e-a04d-3dd5bafd1e8b` · printing: WWK #58 (2010-02-05) · [rulings](https://api.scryfall.com/cards/bd4e933b-de65-4089-877f-c598004b8e7e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jaheira, Friend of the Forest
@@ -1264,7 +1414,9 @@
 - **Flavor text** (NCC printing):
   > *Obscura spies rarely stay locked up long enough to make it to trial.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13085 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/17/jailbreak) · oracle_id `169cf74a-07bf-4841-83f3-904df8a0a39b` · printing: NCC #17 (2022-04-29) · [rulings](https://api.scryfall.com/cards/5884d98e-3e02-48ae-9904-4ebbf1e90f6d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-04-29* — You don't choose a target from your own graveyard until after the permanent card from your opponent's graveyard has entered the battlefield. If that card doesn't enter the battlefield for some reason, you will not be able to target and return a card from your own graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/17/jailbreak) · oracle_id `169cf74a-07bf-4841-83f3-904df8a0a39b` · printing: NCC #17 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jailbreak Scheme
 
@@ -1278,7 +1430,22 @@
   > *Satoru insisted he was just about to free himself.*
 - **Keywords:** Spree
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15932 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/53/jailbreak-scheme) · oracle_id `bc7f39e1-97bf-4725-a84a-2a04121530c6` · printing: OTJ #53 (2024-04-19) · [rulings](https://api.scryfall.com/cards/a4be8e47-9006-4770-8d99-68a684064a43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2024-04-12* — Each additional cost and associated mode in the text box is also preceded with a + indicator. These symbols also have no rules meaning and serve only to remind players that the listed costs are additional costs.
+  - *2024-04-12* — If a mode requires a target, you can select that mode only if there’s a legal target available. Ignore the targeting requirements for modes you don’t choose.
+  - *2024-04-12* — If a spell with spree is copied, the effect that creates the copy may allow you to choose new targets. You cannot choose new modes.
+  - *2024-04-12* — If all targets for the chosen modes become illegal before a spell with spree resolves, the spell won’t resolve and none of its effects will happen. If at least one target is still legal, the spell will resolve but will have no effect on any illegal targets.
+  - *2024-04-12* — If an effect allows you to cast a spell with spree “without paying its mana cost,” you must still choose at least one mode and pay the associated additional costs.
+  - *2024-04-12* — If multiple cards are put into the library this way (such as when the spell targets a melded permanent), that permanent’s owner puts all the cards on top or all the cards on the bottom. They put them in whatever order they wish, and do not need to reveal the order.
+  - *2024-04-12* — No matter which modes you choose, you always follow the instructions in the order they are written.
+  - *2024-04-12* — No player can cast spells or activate abilities in between the modes of a resolving spell. Any abilities that trigger won’t be put onto the stack until the spell is done resolving.
+  - *2024-04-12* — Spells with spree have a + (plus sign) indicator in the upper right corner of the card frame. This has no rules meaning and serves only to remind players that at least one additional cost is required to cast the spell.
+  - *2024-04-12* — The mana value of a spell with spree is determined only by its mana cost (in the upper right corner of the card). It doesn’t matter which modes you choose or which additional costs you pay, including any additional costs imposed by other effects.
+  - *2024-04-12* — The permanent’s owner chooses whether to put it on the top or bottom of their library.
+  - *2024-04-12* — You can’t choose the same mode more than once.
+  - *2024-04-12* — You choose the modes as you cast the spell with spree. Once modes are chosen, they can’t be changed.
+  - *2024-04-12* — You must choose at least one of the listed modes and pay its associated additional cost in order to cast a spell with spree.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/53/jailbreak-scheme) · oracle_id `bc7f39e1-97bf-4725-a84a-2a04121530c6` · printing: OTJ #53 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jalira, Master Polymorphist
 
@@ -1290,7 +1457,9 @@
 - **Flavor text** (A25 printing):
   > *"You can become anything if I just put my mind to it."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14503 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/a25/63/jalira-master-polymorphist) · oracle_id `62ad15f1-ee51-4991-8e52-06a3cbd8f395` · printing: A25 #63 (2018-03-16) · [rulings](https://api.scryfall.com/cards/1f9719c8-2dfe-4141-9ede-2ee3a282b5e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-03-16* — If your library has no nonlegendary creature cards in it, you'll reveal all the cards in your library, then put them in a random order. Although this is not technically shuffling your library, no player is allowed to know the order of those cards and you will randomize the cards in your deck.
+- **Source flags:** [Scryfall](https://scryfall.com/card/a25/63/jalira-master-polymorphist) · oracle_id `62ad15f1-ee51-4991-8e52-06a3cbd8f395` · printing: A25 #63 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jalum Grifter
 
@@ -1300,6 +1469,7 @@
 - **Oracle text:**
   > {1}{R}, {T}: Shuffle Jalum Grifter and two lands you control face down. Target opponent chooses one of those cards. Turn the cards face up. If they chose Jalum Grifter, sacrifice it. Otherwise, destroy target permanent.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ugl/47/jalum-grifter) · oracle_id `fc127648-0f52-4219-990e-39abd7004bf2` · printing: UGL #47 (1998-08-11) · [rulings](https://api.scryfall.com/cards/9b5d0ead-7798-49a2-8106-418db1d4fd69/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jalum Tome
@@ -1311,7 +1481,9 @@
 - **Flavor text** (DMR printing):
   > *Most books simply deliver knowledge. This one expects some in return.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15257 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/226/jalum-tome) · oracle_id `32d9fd98-142b-41d2-b8f0-40ae1d4cb991` · printing: DMR #226 (2023-01-13) · [rulings](https://api.scryfall.com/cards/3d2db45f-4cdb-4b7f-a270-44b2b1482f69/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-11-10* — You draw a card and discard a card all while Jalum Tome's ability is resolving. Nothing can happen in between, and no player can choose to take actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/226/jalum-tome) · oracle_id `32d9fd98-142b-41d2-b8f0-40ae1d4cb991` · printing: DMR #226 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### James, Wandering Dad // Follow Him
 
@@ -1344,7 +1516,15 @@
   > *"Creag an tuire!"*
 - **Keywords:** Trample, Doctor's companion
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15898 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Doctor's companion
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/105/jamie-mccrimmon) · oracle_id `c9f074cb-6dcb-4c25-8332-9b15e4881d33` · printing: WHO #105 (2023-10-13) · [rulings](https://api.scryfall.com/cards/75cececf-8547-4355-972b-7ffbafcda1c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-10-13* — Although Doctor's companion is a new variant of the partner ability, the rules for partner have not otherwise changed. Notably, Time Lord Doctors and cards with Doctor's companion do not interact with cards which have another partner ability.
+  - *2023-10-13* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2023-10-13* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2023-10-13* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2023-10-13* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders' combined color identities.
+  - *2023-10-13* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined.
+  - *2023-10-13* — The Doctor's companion ability allows you to have two commanders if one has the ability and the other is a legendary creature that is a Time Lord Doctor and has no other creature types. Creatures with the changeling ability, for example, can't be a second commander this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/105/jamie-mccrimmon) · oracle_id `c9f074cb-6dcb-4c25-8332-9b15e4881d33` · printing: WHO #105 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jamming Device
 
@@ -1353,7 +1533,20 @@
 - **Oracle text:**
   > Whenever you crank this Contraption, creatures target player controls get -1/-1 until end of turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/192/jamming-device) · oracle_id `2426a8f9-2864-47a0-8004-0adb9eb4c4d6` · printing: UST #192 (2017-12-08) · [rulings](https://api.scryfall.com/cards/fe920f24-720b-4b92-bac4-651b8faae90e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2018-01-19* — Any Contraption that's on the battlefield and wasn't assembled immediately heads to the scrapyard. However, if it's a not an actual Contraption card (like Copy Artifact isn't), it goes to your graveyard as normal. Non-Contraption cards can't be in the scrapyard.
+  - *2018-01-19* — At the beginning of your upkeep, if you control any Contraptions, move the CRANK! counter to the next sprocket. You may then crank any number of Contraptions on that sprocket, causing their abilities to trigger. Cranking a Contraption is always optional.
+  - *2018-01-19* — Contraptions are artifacts. Anything that interacts with artifacts will interact with Contraptions.
+  - *2018-01-19* — Contraptions aren't put into your main deck. They go into a separate deck called the Contraption deck.
+  - *2018-01-19* — If a Contraption would leave the battlefield and go to any zone other than exile, it instead goes to the scrapyard, the Contraption deck's version of the graveyard. Things that affect the graveyard do not affect the scrapyard. You can exile Contraptions just fine.
+  - *2018-01-19* — If you crank multiple Contraptions, their abilities can be put onto the stack in any order. The ability put onto the stack will resolve first.
+  - *2018-01-19* — If you or a permanent you control are instructed to assemble a Contraption, reveal the top card of your Contraption deck. Put it onto the battlefield on one of the three sprockets.
+  - *2018-01-19* — If you or a permanent you control assembles a Contraption and your Contraption deck is empty, nothing happens. You don't lose the game.
+  - *2018-01-19* — In Constructed formats, a Contraption deck must have at least fifteen different Contraption cards and no more than one of each.
+  - *2018-01-19* — In Limited formats, a Contraption deck may include any number of Contraption cards in your card pool. You don't have to include every Contraption card you draft or open in sealed deck. In those formats, your Contraption deck may include duplicates.
+  - *2018-01-19* — In silver-bordered games using Contraptions, you have three sprockets, illustrated on the back of Contraption cards. At the start of the game, put a CRANK! counter on sprocket 3.
+  - *2018-01-19* — While Contraptions you control are on the battlefield, the Contraption deck is not, even if you are using it to signify the three sprockets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/192/jamming-device) · oracle_id `2426a8f9-2864-47a0-8004-0adb9eb4c4d6` · printing: UST #192 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jamuraan Lion
 
@@ -1366,6 +1559,7 @@
   > *The lion blinked*
   > *—Femeref expression meaning "situation avoided"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28610 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vis/10/jamuraan-lion) · oracle_id `b558541f-ae57-41f7-a5bd-e23fa35e68b4` · printing: VIS #10 (1997-02-03) · [rulings](https://api.scryfall.com/cards/bfc681f5-9fff-48b6-98d9-e85c85e582a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jandor, Fortuned Traveler
@@ -1378,6 +1572,7 @@
   > Whenever a saddled creature you control attacks, it gets +2/+2 until end of turn. Draw a card. Create a Food token.
 - **Keywords:** Food
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #23704 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/42/jandor-fortuned-traveler) · oracle_id `8c05de43-6f9e-46c1-bc01-551a7fc570d0` · printing: MBC #42 (2026-10-19) · [rulings](https://api.scryfall.com/cards/05c31120-7d4a-42d9-adad-53970fdf566e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jandor's Ring
@@ -1387,7 +1582,10 @@
 - **Oracle text:**
   > {2}, {T}, Discard the last card you drew this turn: Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29503 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sum/256/jandors-ring) · oracle_id `737db899-dcdb-48f9-8d30-cbbce3ae3434` · printing: SUM #256 (1994-06-21) · [rulings](https://api.scryfall.com/cards/af9988fd-72a0-42dc-9f10-85edd3133977/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — If you do not have the card still in your hand, you can’t pay the cost. There is currently no way to prove that it was the card you drew except to get a judge or 3rd party involved, or to put cards you draw aside until you decide whether or not to use this.
+  - *2004-10-04* — If you draw more than one card due to a spell or ability, you must discard the last one of those drawn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sum/256/jandors-ring) · oracle_id `737db899-dcdb-48f9-8d30-cbbce3ae3434` · printing: SUM #256 (1994-06-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jandor's Saddlebags
 
@@ -1399,6 +1597,7 @@
   > *Your heart's desire is found within.*
   > *—Saddlebag inscription*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16268 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/304/jandors-saddlebags) · oracle_id `3aa0e73f-ac88-47a5-9cc5-0c941a939eae` · printing: 7ED #304 (2001-04-11) · [rulings](https://api.scryfall.com/cards/d4f8d1ec-a55c-409f-be42-ae1c0f8c66e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jangling Automaton
@@ -1412,6 +1611,7 @@
   > *"We always look upon our first creations as masterpieces, no matter how awful they are."*
   > *—Hanna, \*Weatherlight\* navigator*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22477 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/wth/151/jangling-automaton) · oracle_id `b6f67539-9f76-42b2-96a8-575f27ba928e` · printing: WTH #151 (1997-06-09) · [rulings](https://api.scryfall.com/cards/2e2a427b-9869-4059-aeeb-d9b97b324e4e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jan Jansen, Chaos Crafter
@@ -1439,7 +1639,17 @@
 - **Flavor text** (KLD printing):
   > *Janjeet Observatory is open to the public, but access to the adjoining laboratories is restricted.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22198 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/53/janjeet-sentry) · oracle_id `fb818d43-8e5d-41aa-98f8-5826dfd5dfdb` · printing: KLD #53 (2016-09-30) · [rulings](https://api.scryfall.com/cards/826b9080-2b6d-4f4e-93a6-cf977d40654f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/53/janjeet-sentry) · oracle_id `fb818d43-8e5d-41aa-98f8-5826dfd5dfdb` · printing: KLD #53 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jarad, Golgari Lich Lord
 
@@ -1497,7 +1707,16 @@
 - **Flavor text** (CMR printing):
   > *"I'm here for what's mine."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14468 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/281/jared-carthalion-true-heir) · oracle_id `b48da54c-002f-4afb-9fdf-2a3e1cf77383` · printing: CMR #281 (2020-11-20) · [rulings](https://api.scryfall.com/cards/81bd293b-07b9-4d7c-826a-948d5b01ab5e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2020-11-10* — If combat damage dealt to the monarch causes that player to lose the game, the triggered ability that causes the controller of the attacking creature to become the monarch doesn't resolve. In most cases, the controller of the attacking creature will still become the monarch as it is likely their turn.
+  - *2020-11-10* — If damage that can't be prevented is dealt to Jared Carthalion while you're the monarch, the damage is dealt and you'll simultaneously put that many +1/+1 counters on it, all before the game checks for lethal damage.
+  - *2020-11-10* — If the first ability resolves but the target opponent can't become the monarch (perhaps because they also had a Jared Carthalion enter the battlefield earlier in the turn), the current monarch stays the monarch, even if that player is you.
+  - *2020-11-10* — If the monarch leaves the game during another player's turn, that player becomes the monarch. If the monarch leaves the game during their turn, the next player in turn order becomes the monarch.
+  - *2020-11-10* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2020-11-10* — If you're the monarch and damage would be dealt to Jared Carthalion at the same time combat damage is dealt to you, Jared Carthalion's last ability will prevent damage and put counters on it before the triggered ability that makes another player the monarch resolves.
+  - *2020-11-10* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
+  - *2020-11-10* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/281/jared-carthalion-true-heir) · oracle_id `b48da54c-002f-4afb-9fdf-2a3e1cf77383` · printing: CMR #281 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jareth, Leonine Titan
 
@@ -1510,6 +1729,7 @@
 - **Flavor text** (CM2 printing):
   > *Light's champion in the stronghold of darkness.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11213 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cm2/30/jareth-leonine-titan) · oracle_id `019aa6a6-7be8-4c3d-8f3e-4ccce2b9c3d3` · printing: CM2 #30 (2018-06-08) · [rulings](https://api.scryfall.com/cards/bf57d9ec-d161-4cb4-989b-72278bfdba4c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jarl of the Forsaken
@@ -1523,7 +1743,11 @@
   > Foretell {1}{B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 - **Keywords:** Flash, Foretell
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22186 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/100/jarl-of-the-forsaken) · oracle_id `294c1fed-9473-4fbe-b10e-71a7a432b98d` · printing: KHM #100 (2021-02-05) · [rulings](https://api.scryfall.com/cards/f5b12c6c-c3d6-4b8a-bed4-d61f67f565b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-02-05* — Because exiling a card with foretell from your hand is a special action, you can do so any time you have priority during your turn, including in response to spells and abilities. Once you announce you’re taking the action, no other player can respond by trying to remove the card from your hand.
+  - *2021-02-05* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player’s turn. In most cases, if you foretell a card that isn’t an instant (or doesn’t have flash), you’ll have to wait until your next turn to cast it.
+  - *2021-02-05* — If you’re casting a foretold card from exile for its foretell cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/100/jarl-of-the-forsaken) · oracle_id `294c1fed-9473-4fbe-b10e-71a7a432b98d` · printing: KHM #100 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jar of Eyeballs
 
@@ -1533,6 +1757,7 @@
   > Whenever a creature you control dies, put two eyeball counters on this artifact.
   > {3}, {T}, Remove all eyeball counters from this artifact: Look at the top X cards of your library, where X is the number of eyeball counters removed this way. Put one of them into your hand and the rest on the bottom of your library in any order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19327 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c13/244/jar-of-eyeballs) · oracle_id `3075dadd-240f-4455-9286-9f1d48f53a3f` · printing: C13 #244 (2013-11-01) · [rulings](https://api.scryfall.com/cards/72da56bd-dd1c-4b3c-a655-afa31e9adca0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jarvis, Earth's Mightiest Butler
@@ -1545,6 +1770,7 @@
 - **Flavor text** (MSC printing):
   > *"My association with the Avengers is far more than a job. It's more a duty of friendship and loyalty. A calling I cherish deeply."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12962 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/34/jarvis-earths-mightiest-butler) · oracle_id `63e17cbd-6dae-42d2-a074-7924db1477bf` · printing: MSC #34 (2026-06-26) · [rulings](https://api.scryfall.com/cards/62c31cd8-0c30-4cfb-89d6-2e4dac19f6ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jasconian Isle
@@ -1558,7 +1784,12 @@
   > Jasconian Isle doesn't untap during your untap step.
   > At the beginning of your upkeep, you may pay {U}{U}. If you do, untap Jasconian Isle.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/117/jasconian-isle) · oracle_id `02b91673-48f0-44ad-b7dd-5ee81affbd67` · printing: CMB2 #117 (2021-08-20) · [rulings](https://api.scryfall.com/cards/5695b1a8-17bd-495d-8fbf-17948f55ea65/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-11-12* — If Jasconian Isle is changed into another basic land type (such as by Cyclopean Titan), it continues to be a 3/4 creature and a Fish, but it loses all of its abilities.
+  - *2019-11-12* — If an effect allows you to cast a creature spell, you can’t play Jasconian Isle that way.
+  - *2019-11-12* — Playing Jasconian Isle as a land uses a land drop, the same as playing an artifact land or enchantment land.
+  - *2019-11-12* — This card will have a blue color indicator, which will make it blue. That’s why the reminder text says so. Color indicators are added later in editing.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/117/jasconian-isle) · oracle_id `02b91673-48f0-44ad-b7dd-5ee81affbd67` · printing: CMB2 #117 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jasmine Boreal
 
@@ -1570,6 +1801,7 @@
 - **Flavor text** (TSB printing):
   > *"Peace must prevail, even if the wicked must die."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22178 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsb/93/jasmine-boreal) · oracle_id `942407bf-862a-4a0b-b19d-b9f8ee833026` · printing: TSB #93 (2006-10-06) · [rulings](https://api.scryfall.com/cards/004af467-815a-47c0-a974-1ae49ca3a1a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jasmine Boreal of the Seven
@@ -1583,7 +1815,10 @@
 - **Flavor text** (DMC printing):
   > *"I've had my adventures. All I wish now is to sit in peace and speak with the pines."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11763 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/33/jasmine-boreal-of-the-seven) · oracle_id `138201c0-556d-4c76-b383-90fc9dad0fe0` · printing: DMC #33 (2022-09-09) · [rulings](https://api.scryfall.com/cards/c1f5bcc4-3ec7-42ae-8e4b-80a9b9135ff0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-09-09* — Checking whether a creature has abilities for Jasmine Boreal of the Seven’s last ability happens only once each combat, as blockers are declared. This means that, once a creature you control with no abilities has been blocked, giving an ability to a creature blocking it won’t cause the creature you control to become unblocked.
+  - *2022-09-09* — Some effects give spells a player controls an ability. In that case, mana from Jasmine Boreal of the Seven’s mana ability can’t be spent to cast that spell, even if it is a creature spell that normally has no abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/33/jasmine-boreal-of-the-seven) · oracle_id `138201c0-556d-4c76-b383-90fc9dad0fe0` · printing: DMC #33 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jasmine Dragon Tea Shop
 
@@ -1607,7 +1842,9 @@
 - **Oracle text:**
   > {2}{W}, {T}: Reveal any number of white cards in your hand. You gain 2 life for each card revealed this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31219 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uds/10/jasmine-seer) · oracle_id `d934a7f0-eb46-4a2c-b0fd-e3071e23da4a` · printing: UDS #10 (1999-06-07) · [rulings](https://api.scryfall.com/cards/a6641dd2-5b9c-4089-8a71-a3a1a9c29f8b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You can reveal zero cards and gain zero life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uds/10/jasmine-seer) · oracle_id `d934a7f0-eb46-4a2c-b0fd-e3071e23da4a` · printing: UDS #10 (1999-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jason Bright, Glowing Prophet
 
@@ -1652,7 +1889,11 @@
   > Equip {4} ({4}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16136 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/185/javelin-of-lightning) · oracle_id `3f244320-3e74-4eff-ba4e-a345700c40c9` · printing: CLB #185 (2022-06-10) · [rulings](https://api.scryfall.com/cards/13d2f660-97f9-404b-82bb-37e396602580/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-06-10* — Attaching an Equipment with its enters-the-battlefield triggered ability isn't the same as using its equip ability. You don't pay mana for the attachment, and the timing restrictions for equip abilities don't apply.
+  - *2022-06-10* — If the target creature becomes an illegal target, the Equipment remains on the battlefield unattached.
+  - *2022-06-10* — Javelin of Lightning doesn't enter the battlefield attached to a creature. Instead, the Equipment enters the battlefield and then a triggered ability attaches it to a creature. You may cast Javelin of Lightning even if you don't control any creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/185/javelin-of-lightning) · oracle_id `3f244320-3e74-4eff-ba4e-a345700c40c9` · printing: CLB #185 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jawbone Duelist
 
@@ -1666,7 +1907,15 @@
   > *"I have room for a few more teeth in my collection. Who's next?"*
 - **Keywords:** Toxic, Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10043 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/18/jawbone-duelist) · oracle_id `14af3ec5-d90a-4560-a70a-8645765f1253` · printing: ONE #18 (2023-02-10) · [rulings](https://api.scryfall.com/cards/b00ea7bb-705b-4669-bb2a-560bed04b14a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-02-04* — A player with ten or more poison counters loses the game. This is a state-based action and doesn't use the stack. In other words, it happens immediately and players can't respond to it, just like a player losing the game due to having 0 or less life.
+  - *2023-02-04* — Any other effects of that damage, such as life gain from lifelink, still apply.
+  - *2023-02-04* — Conversely, replacement effects that apply to the number of counters put on a player can modify the counters placed this way. For example, Vorinclex, Monstrous Raider's last two abilities can apply to counters placed this way.
+  - *2023-02-04* — Damage dealt by a creature with toxic grants the same number of counters regardless of how much damage is dealt. Notably, if a replacement effect modifies the damage in some way (such as that of Gratuitous Violence), the number of counters given remains unchanged.
+  - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
+  - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
+  - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/18/jawbone-duelist) · oracle_id `14af3ec5-d90a-4560-a70a-8645765f1253` · printing: ONE #18 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jawbone Skulkin
 
@@ -1679,6 +1928,7 @@
   > *"Ah, skull of shrew—a very potent substance. In powdered form, it gives thrice the zing of noggle hoof pulp."*
   > *—Boghald, Barrenton medic*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16961 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eve/170/jawbone-skulkin) · oracle_id `1cbcc073-1645-4d7f-98f4-7309d7b35692` · printing: EVE #170 (2008-07-25) · [rulings](https://api.scryfall.com/cards/3a88f807-96ce-432f-aaf5-d0097d234a4b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jaws of Defeat
@@ -1704,7 +1954,11 @@
 - **Flavor text** (DDI printing):
   > *When giants find their mountain homes infested, they have a whole range of solutions.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24588 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddi/72/jaws-of-stone) · oracle_id `af6a8149-a849-4e6a-bf9d-e6b4bb9b1a04` · printing: DDI #72 (2012-03-30) · [rulings](https://api.scryfall.com/cards/5b018d93-a1c5-4729-b9c7-01d6ca5130f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-05-01* — If you control no Mountains as you cast Jaws of Stone, the number of targets must be zero.
+  - *2008-05-01* — The amount of damage is locked in as you cast Jaws of Stone. It won’t change, even if the number of Mountains you control changes.
+  - *2008-05-01* — You divide the damage among the targets as you cast Jaws of Stone. Each target must be assigned at least 1 damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddi/72/jaws-of-stone) · oracle_id `af6a8149-a849-4e6a-bf9d-e6b4bb9b1a04` · printing: DDI #72 (2012-03-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jaws, Relentless Predator
 
@@ -1772,6 +2026,7 @@
   > {1}{R}, {T}, Discard a card: Jaya Ballard deals 3 damage to any target. A creature dealt damage this way can't be regenerated this turn.
   > {5}{R}{R}, {T}, Discard a card: Jaya Ballard deals 6 damage to each creature and each player.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17219 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/172/jaya-ballard-task-mage) · oracle_id `cbbad3da-695e-4527-9678-0942f3751287` · printing: TSR #172 (2021-03-19) · [rulings](https://api.scryfall.com/cards/2890840e-da0b-40ba-b3c2-7e4af39922b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jaya, Fiery Negotiator
@@ -1785,7 +2040,16 @@
   > −2: Choose target creature an opponent controls. Whenever you attack this turn, Jaya deals damage equal to the number of attacking creatures to that creature.
   > −8: You get an emblem with "Whenever you cast a red instant or sorcery spell, copy it twice. You may choose new targets for the copies."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11860 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/133/jaya-fiery-negotiator) · oracle_id `2458aa66-5b20-4811-a4a4-8375ad0a6498` · printing: DMU #133 (2022-09-09) · [rulings](https://api.scryfall.com/cards/3b9f54f0-4368-4d28-aa21-3f1e7be1b23a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2022-09-09* — Activating Jaya's third loyalty ability creates a delayed triggered ability that will trigger each time you declare attackers this turn (usually, this will only happen once). This ability will trigger even if Jaya is no longer on the battlefield. If anything needs information about the source of that damage, use Jaya's characteristics as she last existed on the battlefield.
+  - *2022-09-09* — Copies are created even if the spell that caused the ability to trigger has been countered by the time that ability resolves. The copies resolve before the original spell.
+  - *2022-09-09* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copies will have the same mode or modes. You can't choose different ones.
+  - *2022-09-09* — The copies are created on the stack, so they're not "cast." Abilities that trigger when a player casts a spell won't trigger.
+  - *2022-09-09* — The copies will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal.
+  - *2022-09-09* — The triggered ability of Jaya's emblem will copy any red instant or sorcery spell you cast, not just one with targets.
+  - *2022-09-09* — You can't choose to pay any additional costs for the copies. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copies too. Notably, if the spell you copy was kicked, the copies will also be kicked.
+  - *2022-09-09* — You must pay all costs and follow all normal timing rules to play a card chosen for Jaya's second loyalty ability. For example, if you choose a land card, you may only play it during one of your main phases while the stack is empty, and only if you haven't yet played a land in the same turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/133/jaya-fiery-negotiator) · oracle_id `2458aa66-5b20-4811-a4a4-8375ad0a6498` · printing: DMU #133 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jaya's Firenado
 
@@ -1798,7 +2062,9 @@
   > *—Jaya Ballard*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24674 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/134/jayas-firenado) · oracle_id `250f804f-b5d5-414c-bb25-476d1fe1f85a` · printing: DMU #134 (2022-09-09) · [rulings](https://api.scryfall.com/cards/4b78eaab-819c-4f06-b3b1-a25c17ab2235/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-09-09* — If the target is illegal as Jaya's Firenado tries to resolve, you won't get to scry.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/134/jayas-firenado) · oracle_id `250f804f-b5d5-414c-bb25-476d1fe1f85a` · printing: DMU #134 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jaya's Greeting
 
@@ -1810,7 +2076,9 @@
   > *"We have visitors? Well, it'd be rude not to give them a traditional Keral Keep welcome."*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20381 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/136/jayas-greeting) · oracle_id `1be474c6-5a9f-4c58-adc6-c1508348adea` · printing: WAR #136 (2019-05-03) · [rulings](https://api.scryfall.com/cards/ec66f169-5cf9-4d7c-a5ab-c64fc4801358/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-05-03* — If the target creature is an illegal target by the time Jaya’s Greeting tries to resolve, the spell doesn’t resolve. You won’t scry 1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/136/jayas-greeting) · oracle_id `1be474c6-5a9f-4c58-adc6-c1508348adea` · printing: WAR #136 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jaya's Immolating Inferno
 
@@ -1854,7 +2122,11 @@
   > If another red source you control would deal damage to a permanent or player, it deals that much damage plus 1 to that permanent or player instead.
   > −2: Jaya deals 2 damage to any target.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13798 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/135/jaya-venerated-firemage) · oracle_id `10a87c58-2d8b-4658-b7d6-8dcbb44a2d2f` · printing: WAR #135 (2019-05-03) · [rulings](https://api.scryfall.com/cards/129dc8a8-9fbc-4300-b559-243395dc6ed5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-05-03* — If another effect modifies how much damage your red source would deal, including preventing some of it, the player being dealt damage or the controller of the permanent being dealt damage chooses an order in which to apply those effects. If all of the damage is prevented, Jaya's effect no longer applies.
+  - *2019-05-03* — If damage dealt by a source you control is being divided or assigned among multiple permanents an opponent controls or among an opponent and one or more permanents they control simultaneously, divide the original amount before adding 1. For example, if you attack with a 5/5 red creature with trample and your opponent blocks with a 2/2 creature, you can assign 2 damage to the blocker and 3 damage to the defending player. These amounts are then modified to 3 and 4, respectively.
+  - *2019-05-03* — Jaya's first ability doesn't cause Jaya to deal damage; it affects the amount of damage dealt by the original red source.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/135/jaya-venerated-firemage) · oracle_id `10a87c58-2d8b-4658-b7d6-8dcbb44a2d2f` · printing: WAR #135 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jayemdae Tome
 
@@ -1865,6 +2137,7 @@
 - **Flavor text** (ORI printing):
   > *A true scribe devotes an entire lifetime to the creation of a single volume, a masterpiece as unique as its maker.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20119 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/231/jayemdae-tome) · oracle_id `39ee576a-0803-4063-9c84-f2b537e4d44c` · printing: ORI #231 (2015-07-17) · [rulings](https://api.scryfall.com/cards/518af905-f518-4269-89b4-781085be8dd2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jazal Goldmane

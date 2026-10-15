@@ -34,6 +34,7 @@
   > At the beginning of your upkeep, randomly put a card from each pile into your hand. The other cards advance to the next round. If only one card remains, you may cast it without paying its mana cost four times.
 - **Keywords:** Hexproof
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ08/the-octopus-official) · oracle_id `3b110c44-aa85-48d6-b5cd-10b07ada43ac` · printing: UNK #RZ08 (2025-09-26) · [rulings](https://api.scryfall.com/cards/de521917-2e17-41e6-b06c-e73ce8d80d12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Odd Acorn Gang
@@ -106,6 +107,7 @@
   > Partner (You can have two commanders if both have partner.)
 - **Keywords:** Mono Eminence, Partner
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW04e/theopholos-order-acolyte) · oracle_id `aecb67cf-59e9-4afc-b2ad-5827ae31c5cc` · printing: UNK #RW04e (2023-07-29) · [rulings](https://api.scryfall.com/cards/3c05f4ae-13d3-4495-8a4a-b4d65941537d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Theoretical Duplication
@@ -131,6 +133,7 @@
 - **Flavor text** (FRA printing):
   > *"Mortality is just one more parameter to define and defy."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28540 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/69/theoretical-necromancer) · oracle_id `6c5ed756-b999-49f7-9a52-fb8196202f0f` · printing: FRA #69 (2026-10-02) · [rulings](https://api.scryfall.com/cards/e36a7908-1e22-494b-adb4-e72ac0974d62/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Theorist's Proxy
@@ -144,7 +147,12 @@
   > {U}, Sacrifice this creature: The next spell you cast this turn can't be countered.
 - **Keywords:** Surveil, Empower Jace, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18469 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/44/theorists-proxy) · oracle_id `0089acfe-da66-4dd7-b1e5-4d7407f58257` · printing: FRA #44 (2026-10-02) · [rulings](https://api.scryfall.com/cards/710302ca-c4be-4069-8ce1-f531414c74e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2026-08-21* — Empower Jace won't let you put loyalty counters on nontoken Jace planeswalkers. However, if you control a Jace planeswalker token that you got another way (such as an effect that creates a token that's a copy of a permanent), empower Jace will put loyalty counters on that.
+  - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
+  - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
+  - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/44/theorists-proxy) · oracle_id `0089acfe-da66-4dd7-b1e5-4d7407f58257` · printing: FRA #44 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Theorist's Sanctum
 
@@ -156,7 +164,12 @@
   > {2}{U}, {T}: Empower Jace 2.
 - **Keywords:** Empower Jace, Behold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13652 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/191/theorists-sanctum) · oracle_id `37513bd8-7303-4ac6-a7a7-224184faf758` · printing: FRA #191 (2026-10-02) · [rulings](https://api.scryfall.com/cards/22db5bba-46c9-4a26-821d-303ddb386ea4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2026-08-21* — Empower Jace won't let you put loyalty counters on nontoken Jace planeswalkers. However, if you control a Jace planeswalker token that you got another way (such as an effect that creates a token that's a copy of a permanent), empower Jace will put loyalty counters on that.
+  - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
+  - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
+  - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/191/theorists-sanctum) · oracle_id `37513bd8-7303-4ac6-a7a7-224184faf758` · printing: FRA #191 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Theorix Annex
 
@@ -168,7 +181,9 @@
 - **Flavor text** (FRA printing):
   > *Battlemages of Theorix, the school of esoteric mathematics, reshape reality itself to their whim.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18123 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/192/theorix-annex) · oracle_id `00ad5200-5179-4d1b-8bb3-a09e1b31be58` · printing: FRA #192 (2026-10-02) · [rulings](https://api.scryfall.com/cards/97bbbd23-ecb1-4407-ac14-dede08532a1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-08-21* — If this land enters at the same time as a planeswalker, that planeswalker isn't considered when determining if this land enters the battlefield tapped or untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/192/theorix-annex) · oracle_id `00ad5200-5179-4d1b-8bb3-a09e1b31be58` · printing: FRA #192 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Theorix Charm
 
@@ -181,6 +196,7 @@
   > • Mill three cards, then draw a card. (To mill three cards, put the top three cards of your library into your graveyard.)
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20974 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/155/theorix-charm) · oracle_id `cf527bbd-e898-4aa9-909d-daec2f4b62ad` · printing: FRA #155 (2026-10-02) · [rulings](https://api.scryfall.com/cards/2835c9aa-0904-44db-8da2-e8c4e04201aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Theorix Metamage // Omit Variables
@@ -194,7 +210,23 @@
   > Mill three cards. (Put the top three cards of your library into your graveyard.)
 - **Keywords:** Threshold, Prepared, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27008 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/156/theorix-metamage-omit-variables) · oracle_id `92a0aa44-0ef7-4e6f-8288-7c33067c5fd1` · printing: FRA #156 (2026-10-02) · [rulings](https://api.scryfall.com/cards/fb6bad96-841d-4738-8e62-92f346f914fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2026-08-21* — A creature with a prepare spell can't become prepared more than once at the same time. For example, say Bloodline Recollector is on the battlefield and is prepared. During the current turn, three creatures die. At the beginning of the end step, Bloodline Recollector's last ability triggers. When that ability resolves, since Bloodline Recollector is already prepared, the ability won't cause it to become prepared a second time or create a second copy of Ancestral Craving in exile.
+  - *2026-08-21* — A creature without a prepare spell can't become prepared.
+  - *2026-08-21* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Diviner of Victory is a blue creature card whose mana value is 1. It can't be the target of Stingcaster Mage's triggered ability ("When this creature enters, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost.").
+  - *2026-08-21* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-08-21* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-08-21* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-08-21* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog") targeting Diviner of Victory. The token copy of Diviner of Victory will enter prepared as a 1/1 green Frog creature, but the copy of Unwind History in exile will still be a blue sorcery. The copy of Unwind History won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-08-21* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-08-21* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-08-21* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-08-21* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-08-21* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-08-21* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-08-21* — Preparation cards can be cast only with their base characteristics.
+  - *2026-08-21* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/156/theorix-metamage-omit-variables) · oracle_id `92a0aa44-0ef7-4e6f-8288-7c33067c5fd1` · printing: FRA #156 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ozolith
 

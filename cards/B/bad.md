@@ -30,6 +30,7 @@
   > *He wanders the land in search of Good Ass.*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/49/bad-ass) · oracle_id `77014a94-650a-46e4-8d62-abbd31ee5b99` · printing: UNH #49 (2004-11-19) · [rulings](https://api.scryfall.com/cards/33b41832-f549-42e3-871e-e3a03372dbba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bad Deal
@@ -41,7 +42,13 @@
 - **Flavor text** (M21 printing):
   > *There are still places where a smile and a handshake are all you need to seal a deal.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12723 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/89/bad-deal) · oracle_id `47258c3e-b4a7-466d-9464-3924f75d9293` · printing: M21 #89 (2020-07-03) · [rulings](https://api.scryfall.com/cards/7a3f8bc2-ef66-474f-92a3-9c4df1670cec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-06-23* — As Bad Deal resolves, first you draw two cards. Then the next opponent in turn order (or, if it's an opponent's turn, the opponent whose turn it is) chooses two cards in hand without revealing them, then each other opponent in turn order does the same. All the chosen cards are discarded at the same time. Then each player loses 2 life.
+  - *2020-06-23* — Each player loses 2 life, including you, regardless of how many cards they draw or discard.
+  - *2020-06-23* — If an opponent has just one card in hand, that player discards just one card. Other opponents still discard two if able.
+  - *2020-06-23* — In a Two-Headed Giant game, Bad Deal causes each team to lose 4 life. Your teammate doesn't draw or discard any cards.
+  - *2020-06-23* — You draw just two cards no matter how many opponents you have.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/89/bad-deal) · oracle_id `47258c3e-b4a7-466d-9464-3924f75d9293` · printing: M21 #89 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Badgermole
 
@@ -95,6 +102,7 @@
 - **Flavor text** (TRC printing):
   > *"Can I teach you a lesson?"*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31416 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/152/badgey-malicious-glitch) · oracle_id `227fb13b-0a07-4937-9048-7cf02efbc8e3` · printing: TRC #152 (2026-11-13) · [rulings](https://api.scryfall.com/cards/294e0651-99b4-4792-8ee8-107e7484117d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bad Knight
@@ -108,6 +116,7 @@
   > If Bad Knight is on the battlefield at the end of the game, score an additional point for the Phyrexian team.
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UB02a/bad-knight) · oracle_id `95abf085-3276-4209-b9ec-1d7ef1698dc8` · printing: UNK #UB02a (2023-02-17) · [rulings](https://api.scryfall.com/cards/02a14c29-0b59-45ce-96b6-ca12f8bdf234/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Badlands
@@ -133,6 +142,7 @@
 - **Flavor text** (OTJ printing):
   > *The cactusfolk were a young culture, but they already knew the pains of death and joys of birth.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13071 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/194/badlands-revival) · oracle_id `a61267d2-2cc7-4208-a365-581d56b92e1c` · printing: OTJ #194 (2024-04-19) · [rulings](https://api.scryfall.com/cards/8d3ef971-cdd4-410c-97c3-df98e4f02ab2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bad Moon

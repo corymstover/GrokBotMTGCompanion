@@ -20,4 +20,5 @@
   > When this creature enters, you gain protection from the color of your choice until end of turn. (You can't be targeted, dealt damage, or enchanted by anything of the chosen color.)
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14350 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/72/sehts-tiger) · oracle_id `7d71a78d-fda8-424d-b343-b901a0df3acf` · printing: C17 #72 (2017-08-25) · [rulings](https://api.scryfall.com/cards/5970a4c8-0e1f-42cc-bd8e-7ba3946c6e41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -66,7 +66,9 @@
   > *The strength of the one is the strength of the many.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20669 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/51/squad-captain) · oracle_id `865812c2-1838-4015-bf0d-990af76f7000` · printing: CMR #51 (2020-11-20) · [rulings](https://api.scryfall.com/cards/24c98bc7-f6a9-4aaf-a6dc-7067c3d8a41a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-07-12* — If Squad Captain somehow enters the battlefield at the same time as another creature you control, it doesn't count that other creature. It counts only creatures that are already on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/51/squad-captain) · oracle_id `865812c2-1838-4015-bf0d-990af76f7000` · printing: CMR #51 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squad Commander
 
@@ -97,6 +99,7 @@
 - **Flavor text** (FDN printing):
   > *Between the call of the bugler and the shrill squawk of her mount, not a soul slept through morning muster.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21641 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/24/squad-rallier) · oracle_id `e0b15374-b4f6-48e0-8477-4eb5d5c2a938` · printing: FDN #24 (2024-11-15) · [rulings](https://api.scryfall.com/cards/65e1ee86-6f08-4aa0-bf63-ae12028ef080/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squadron Hawk
@@ -109,6 +112,7 @@
   > When this creature enters, you may search your library for up to three cards named Squadron Hawk, reveal them, put them into your hand, then shuffle.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30200 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/34/squadron-hawk) · oracle_id `00ab9841-934f-4a66-a98d-68d01661b1c9` · printing: A25 #34 (2018-03-16) · [rulings](https://api.scryfall.com/cards/9e81806d-5d87-4032-ad94-c2cdeabecdbf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squall
@@ -121,6 +125,7 @@
   > *"To-night the winds begin to rise . . . The rooks are blown about the skies . . . ."*
   > *—Alfred, Lord Tennyson, In Memoriam*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31308 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/168/squall) · oracle_id `16fe0abe-04fa-4023-8ee0-043a076e78bb` · printing: ME4 #168 (2011-01-10) · [rulings](https://api.scryfall.com/cards/2fab5336-a020-4d08-87fd-d2534d98bee1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squall Drifter
@@ -136,6 +141,7 @@
   > *—Aevar Borg, northern guide, journal entry*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16170 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/17/squall-drifter) · oracle_id `63ec5617-0da6-4534-b502-34304b1ea02b` · printing: CSP #17 (2006-07-21) · [rulings](https://api.scryfall.com/cards/b3ecb728-4b54-47d0-bbef-d39e5f7d172f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squall, Gunblade Duelist
@@ -149,7 +155,10 @@
   > Whenever one or more creatures attack one of your opponents, if any of those creatures have power or toughness equal to the chosen number, Squall deals damage equal to its power to defending player.
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16898 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/453/squall-gunblade-duelist) · oracle_id `880c2b0a-b708-4f11-a88a-ec990c904602` · printing: FIC #453 (2025-12-05) · [rulings](https://api.scryfall.com/cards/682b9f3c-960b-4600-b650-eefd588071d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-10-02* — If Squall isn't on the battlefield as its last ability resolves, use its power as it last existed on the battlefield to determine how much damage the ability deals.
+  - *2025-10-02* — Squall's last ability checks the power and toughness of the attacking creatures at the moment it would trigger. If none of them have power or toughness equal to the chosen number, the ability won't trigger at all. If it does trigger, the ability will check the power and toughness of those creatures as it tries to resolve. If none of them have power or toughness equal to the chosen number, the ability won't resolve and none of its effects will happen. If any of those creatures have left the battlefield since the first time the ability checked their power and toughness, use their power and toughness as they last existed on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/453/squall-gunblade-duelist) · oracle_id `880c2b0a-b708-4f11-a88a-ec990c904602` · printing: FIC #453 (2025-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squall Line
 
@@ -160,6 +169,7 @@
 - **Flavor text** (TSP printing):
   > *The constant shifting of Dominaria's shredded timeline played havoc with its atmosphere, combining savage electrical storms from ages past.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13420 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsp/222/squall-line) · oracle_id `cdf9fab2-bfdb-4bf3-a06a-b21e07600e23` · printing: TSP #222 (2006-10-06) · [rulings](https://api.scryfall.com/cards/3f368729-a6f2-4bf7-8b06-39c551f0b24a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squallmonger
@@ -172,6 +182,7 @@
 - **Flavor text** (CMD printing):
   > *"Squall, gale, hurricane—it's all a matter of size . . . and price."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23631 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmd/173/squallmonger) · oracle_id `50bf5af6-50d7-4dea-936e-508e24db0a03` · printing: CMD #173 (2011-06-17) · [rulings](https://api.scryfall.com/cards/0ec3f9b9-07f1-465a-9b5f-5205d5ff16e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squall, SeeD Mercenary
@@ -215,7 +226,10 @@
 - **Flavor text** (STX printing):
   > *Sometimes the most radical thing you can do is think inside the box.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27925 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/238/square-up) · oracle_id `013a465b-7034-45fe-bf62-c3d273131ec5` · printing: STX #238 (2021-04-23) · [rulings](https://api.scryfall.com/cards/3d548d5a-1dd7-448a-8483-249572e08c47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-04-16* — Any effects that modify a creature’s power and/or toughness without setting them to a specific value (i.e. ones that don’t affect base power and/or toughness) will apply after its base power and toughness are set, regardless of the order those effects were created. The same is true for counters that modify its power and toughness.
+  - *2021-04-16* — Square Up overwrites all previous effects that set the target creature’s power and toughness to specific values. Other effects that set its power or toughness to specific values that start to apply after Square Up resolves will overwrite this effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/238/square-up) · oracle_id `013a465b-7034-45fe-bf62-c3d273131ec5` · printing: STX #238 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squash
 
@@ -227,7 +241,10 @@
 - **Flavor text** (KHM printing):
   > *The troll had recently crushed a human in much the same way. Sadly, he expired too quickly to appreciate the irony.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15658 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/152/squash) · oracle_id `54bd7b7c-4052-437d-b2e4-311339e8e16e` · printing: KHM #152 (2021-02-05) · [rulings](https://api.scryfall.com/cards/e0b99299-bf84-4654-a331-e4406768b33c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-02-05* — If you control more than one Giant, Squash’s cost is reduced by only {3}.
+  - *2021-02-05* — Once you announce that you’re casting Squash, no player may take other actions until the spell’s been paid for. Notably, players can’t try to change the cost by removing your Giants.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/152/squash) · oracle_id `54bd7b7c-4052-437d-b2e4-311339e8e16e` · printing: KHM #152 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squawkroaster
 
@@ -241,7 +258,11 @@
   > *As Sanar watched the tangle of chirps and flames run by, his eyes lit up. "I want one," he whispered.*
 - **Keywords:** Double strike, Vivid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25921 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/160/squawkroaster) · oracle_id `6b79404b-2fae-41fb-994c-d4cd895e8f09` · printing: ECL #160 (2026-01-23) · [rulings](https://api.scryfall.com/cards/4112f960-70af-4e2d-bcd4-9e9cf7aac4fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-11-17* — Lands are normally colorless permanents, even if they tap for mana of a certain color.
+  - *2025-11-17* — The ability that defines Squawkroaster's power applies in all zones, not just the battlefield.
+  - *2025-11-17* — The colors are white, blue, black, red, and green. Colorless is not a color.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/160/squawkroaster) · oracle_id `6b79404b-2fae-41fb-994c-d4cd895e8f09` · printing: ECL #160 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squeaking Pie Grubfellows
 
@@ -252,7 +273,14 @@
   > Kinship — At the beginning of your upkeep, you may look at the top card of your library. If it shares a creature type with this creature, you may reveal it. If you do, each opponent discards a card.
 - **Keywords:** Kinship
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26975 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mor/78/squeaking-pie-grubfellows) · oracle_id `bb4107f8-817c-43b2-b64c-f3b4c64eb3f0` · printing: MOR #78 (2008-02-01) · [rulings](https://api.scryfall.com/cards/81290ae9-9217-482a-ae1a-be1a0ef47b5d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2008-04-01* — After the kinship ability finishes resolving, the card you looked at remains on top of your library.
+  - *2008-04-01* — If the top card of your library is already revealed (due to Magus of the Future, for example), you still have the option to reveal it or not as part of a kinship ability’s effect.
+  - *2008-04-01* — If you have multiple creatures with kinship abilities, each triggers and resolves separately. You’ll look at the same card for each one, unless you have some method of shuffling your library or moving that card to a different zone.
+  - *2008-04-01* — Kinship is an ability word that indicates a group of similar triggered abilities that appear on _Morningtide_ creatures. It doesn’t have any special rules associated with it.
+  - *2008-04-01* — The first two sentences of every kinship ability are the same (except for the creature’s name). Only the last sentence varies from one kinship ability to the next.
+  - *2008-04-01* — You don’t have to reveal the top card of your library, even if it shares a creature type with the creature that has the kinship ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mor/78/squeaking-pie-grubfellows) · oracle_id `bb4107f8-817c-43b2-b64c-f3b4c64eb3f0` · printing: MOR #78 (2008-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squeaking Pie Sneak
 
@@ -267,6 +295,7 @@
   > *—Borb of the Squeaking Pie warren*
 - **Keywords:** Fear
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28505 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/142/squeaking-pie-sneak) · oracle_id `7243b935-73fc-47d2-ac65-ab390ed94f3f` · printing: LRW #142 (2007-10-12) · [rulings](https://api.scryfall.com/cards/b7184715-3ed3-4f56-9bf3-ff431cca86be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squealing Devil
@@ -280,7 +309,11 @@
   > When this creature enters, sacrifice it unless {B} was spent to cast it.
 - **Keywords:** Fear
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30510 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dis/72/squealing-devil) · oracle_id `9a5b404c-b55f-47ad-8f5d-322a1ec6650f` · printing: DIS #72 (2006-05-05) · [rulings](https://api.scryfall.com/cards/1b445a0e-798d-4f82-88cc-04f600d38e49/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2006-05-01* — For this creature to not be sacrificed, {B} must have been spent on the {1}{R} mana cost. It doesn't matter if {B} is spent on {X}.
+  - *2006-05-01* — If this enters in a way other than announcing it as a spell, then the appropriate mana can't have been paid, and you'll have to sacrifice it.
+  - *2006-05-01* — You choose the value of X as Squealing Devil's ability resolves. X can be 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dis/72/squealing-devil) · oracle_id `9a5b404c-b55f-47ad-8f5d-322a1ec6650f` · printing: DIS #72 (2006-05-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squee, Dubious Monarch
 
@@ -325,6 +358,7 @@
   > When enchanted creature dies, return that card to its owner's hand.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16891 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/apc/122/squees-embrace) · oracle_id `095f8dac-15b8-4c28-ae33-6dc71152bcc7` · printing: APC #122 (2001-06-04) · [rulings](https://api.scryfall.com/cards/e682a705-9341-4d1e-a9c5-d428e50b9a03/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squee's Revenge
@@ -346,6 +380,7 @@
 - **Flavor text** (TMP printing):
   > *As the horrors closed in on Gerrard, Squee trembled and clutched his toy for comfort. He didn't know where it came from or why it was so warm, but he was glad he'd kept it near.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18802 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmp/309/squees-toy) · oracle_id `d0e33a3f-659a-4889-98f6-d0f385e259f1` · printing: TMP #309 (1997-10-14) · [rulings](https://api.scryfall.com/cards/2b524ae7-cb24-41af-b41b-3cb3ee8cf3b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squee, the Immortal
@@ -372,6 +407,7 @@
 - **Flavor text** (MMQ printing):
   > *Any pirate would prefer Rishada's swift and cruel justice to Saprazzo's patient punishments.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26386 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/105/squeeze) · oracle_id `e18d8326-c3c3-43c2-ac13-6861c0ef3888` · printing: MMQ #105 (1999-10-04) · [rulings](https://api.scryfall.com/cards/bbe63220-992b-459c-81ca-d4e2de273ce1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squelch
@@ -384,7 +420,10 @@
 - **Flavor text** (CHK printing):
   > *Oku-Doku had gone through all the motions: the same akki cursewords, the same ingredients with their horrid stink, the same rude gestures. Yet not a person died.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22504 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/chk/92/squelch) · oracle_id `b8fe20ee-d52d-4494-acf4-202808a2a22d` · printing: CHK #92 (2004-10-01) · [rulings](https://api.scryfall.com/cards/29421dd2-70a7-4623-afe0-ca4cb415ec87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-12-01* — Squelch can’t target a mana ability because mana abilities don’t use the stack.
+  - *2016-06-08* — Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords are activated abilities and will have colons in their reminder text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chk/92/squelch) · oracle_id `b8fe20ee-d52d-4494-acf4-202808a2a22d` · printing: CHK #92 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squelching Leeches
 
@@ -396,7 +435,10 @@
 - **Flavor text** (DDR printing):
   > *Setting foot in their muck is an open invitation.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18354 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddr/62/squelching-leeches) · oracle_id `662a2158-4176-4b4a-be6a-13f4501d22f9` · printing: DDR #62 (2016-09-02) · [rulings](https://api.scryfall.com/cards/694a0e92-8e5c-404e-a8bb-52139884e41a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-04-26* — Squelching Leeches's power and toughness will change as the number of Swamps you control changes. Its ability counts all lands you control with the subtype Swamp, not just those named Swamp.
+  - *2014-04-26* — The ability that defines Squelching Leeches's power and toughness works in all zones, not just the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddr/62/squelching-leeches) · oracle_id `662a2158-4176-4b4a-be6a-13f4501d22f9` · printing: DDR #62 (2016-09-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squid Fire Knight
 
@@ -409,6 +451,7 @@
   > {TK}{TK}{TK}{TK} — 6/6
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/27/squid-fire-knight) · oracle_id `5bd19c93-4b1b-45d7-9764-1327fffe94ca` · printing: SUNF #27 (2022-10-07) · [rulings](https://api.scryfall.com/cards/c65b391d-a5fb-4f0d-8082-cc636ab95b28/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squidnapper
@@ -420,7 +463,12 @@
   > When Squidnapper enters, gain control of target creature an opponent controls until Squidnapper leaves the battlefield or that player pays the ransom.
   > Ransom — {6} and 2 life
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/29/squidnapper) · oracle_id `49aa8f14-8458-403b-b722-12542806967d` · printing: CMB2 #29 (2021-08-20) · [rulings](https://api.scryfall.com/cards/cbe69f7e-e881-4698-8313-ce49b8873d2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-11-12* — If Squidnapper leaves the battlefield before its triggered ability resolves, you won’t gain control of the target creature at all.
+  - *2019-11-12* — If a card with a ransom ability loses that ability, it has no ransom cost. No player may pay its ransom cost.
+  - *2019-11-12* — Pay no attention to any other card in this set using the word “ransom” when determining how Squidnapper’s ransom ability works.
+  - *2019-11-12* — Paying a ransom cost to end an effect is a special action. The card’s owner may pay that cost any time they have priority, and players can’t take actions in between the time the player announces their intent to pay and the time the card returns to the zone from which it came.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/29/squidnapper) · oracle_id `49aa8f14-8458-403b-b722-12542806967d` · printing: CMB2 #29 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squire
 
@@ -436,6 +484,7 @@
   > *—Geoffrey Chaucer,*
   > *\*The Canterbury Tales\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30575 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsb/15/squire) · oracle_id `aa6cdcc7-f5ea-47bf-9448-1c63e36b18d1` · printing: TSB #15 (2006-10-06) · [rulings](https://api.scryfall.com/cards/96c9c4d1-dd43-4156-b25f-0e707b6c4b23/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squire's Devotion
@@ -448,7 +497,10 @@
   > When this Aura enters, create a 1/1 white Vampire creature token with lifelink.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15480 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/25/squires-devotion) · oracle_id `4770ad4a-a346-4108-8f61-a077155d4bd1` · printing: RIX #25 (2018-01-19) · [rulings](https://api.scryfall.com/cards/91de07da-564d-42f3-987d-a2321c3216bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-01-19* — If the creature this Aura would enchant is an illegal target by the time Squire's Devotion tries to resolve, the Aura spell doesn't resolve. It won't enter the battlefield, so its ability won't trigger.
+  - *2018-01-19* — You need a creature for Squire's Devotion to target as you cast it. There's no way to have it enter the battlefield attached to the Vampire token it'll create.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/25/squires-devotion) · oracle_id `4770ad4a-a346-4108-8f61-a077155d4bd1` · printing: RIX #25 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squire's Lightblade
 
@@ -461,6 +513,7 @@
   > Equip {3}
 - **Keywords:** Equip, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18114 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/36/squires-lightblade) · oracle_id `0ea2a099-7c81-4012-8148-4d377f2d64e1` · printing: EOE #36 (2025-08-01) · [rulings](https://api.scryfall.com/cards/2a0accba-85d4-4aa4-a70c-80fcce48c261/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squirming Emergence
@@ -491,6 +544,7 @@
   > *Only the coldest hearts and the strongest stomachs can stand against it.*
 - **Keywords:** Fear
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28355 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/uds/73/squirming-mass) · oracle_id `2c526c61-6cdb-440c-b4c8-b6d1503cef73` · printing: UDS #73 (1999-06-07) · [rulings](https://api.scryfall.com/cards/e47793a3-9a98-4733-8d6a-2fb1a67b15c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squirrelanoids
@@ -504,6 +558,7 @@
   > *It's best to never discover what they squirrel away.*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15980 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/81/squirrelanoids) · oracle_id `315ddc7a-c39c-43d9-b134-23acbd865e3e` · printing: TMT #81 (2026-03-06) · [rulings](https://api.scryfall.com/cards/be08d2b0-375b-434f-9e6d-060809e0ed34/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squirrel Dealer
@@ -516,7 +571,11 @@
 - **Flavor text** (UST printing):
   > *"You see that sheen on the fur? The glint in their eyes? Top quality. These are the real deal."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/123/squirrel-dealer) · oracle_id `82ee9fb6-d279-4eee-91e9-56c767e727a4` · printing: UST #123 (2017-12-08) · [rulings](https://api.scryfall.com/cards/89757c05-72af-4bfe-a4c0-abc5d1155b61/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-01-19* — If there’s no one around to make a decision, you can call or text someone if you need to. If there’s a physical action required, such as high-fiving, you’ll need someone there.
+  - *2018-01-19* — It doesn’t have to be someone who plays Magic. This may be fun.
+  - *2018-01-19* — You can choose any player not currently in your game. This includes people who used to be in your game but left it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/123/squirrel-dealer) · oracle_id `82ee9fb6-d279-4eee-91e9-56c767e727a4` · printing: UST #123 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squirrel Farm
 
@@ -528,6 +587,7 @@
   > *"And the ignorant shall fall to the squirrels."*
   > *—Chip 2:54*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/und/71/squirrel-farm) · oracle_id `8673cc01-7d5d-41ee-aede-f21efc74216c` · printing: UND #71 (2020-02-29) · [rulings](https://api.scryfall.com/cards/cc67b0f2-c36d-4ad8-b2ec-08934568526b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squirrel Mob
@@ -567,6 +627,7 @@
 - **Flavor text** (UST printing):
   > *Lucinda didn't know which she enjoyed most: the science, the squirrels, or the maniacal laughter.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/70/squirrel-powered-scheme) · oracle_id `07e7bcff-f95b-4b02-9827-86ee319be5b8` · printing: UST #70 (2017-12-08) · [rulings](https://api.scryfall.com/cards/f6f735f1-2528-424d-8454-e94746a2b58f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squirrel Sanctuary
@@ -606,6 +667,7 @@
   > *Such plush accommodations.*
 - **Keywords:** Open an Attraction
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16397 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/156/squirrel-squatters) · oracle_id `7af6b952-9e53-4f5d-ba6f-d31b42e91bbe` · printing: UNF #156 (2022-10-07) · [rulings](https://api.scryfall.com/cards/a1ba935d-43b9-4661-8d2c-9e6b457c5b68/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squirrel Stack
@@ -617,7 +679,12 @@
   > Prize — Create a 1/1 green Squirrel creature token for each die you stacked above the fourth, then sacrifice this Attraction and open an Attraction.
 - **Keywords:** Open an Attraction
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/228a/squirrel-stack) · oracle_id `edafe116-69d2-4fea-a977-1c4dcbfea419` · printing: UNF #228a (2022-10-07) · [rulings](https://api.scryfall.com/cards/de665505-0896-46c6-a6b5-d3b57a9a01e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-10-07* — No other player may interfere with your stacking attempt, including shaking the table.
+  - *2022-10-07* — The best stack we ever got was nine dice for five Squirrels. Happy stacking!
+  - *2022-10-07* — The dice must stay stacked for a few seconds after the five seconds have elapsed in order to count. If they’re tipping over as time expires but haven’t quite fallen yet, it’s not a successful stack.
+  - *2022-10-07* — You must use actual dice, although the dice don’t have to be six-sided, nor do they all have to be the same size. However, using coins and calling them “two-sided dice” isn’t allowed. We recommend against using four-sided dice for this (except maybe at the top).
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/228a/squirrel-stack) · oracle_id `edafe116-69d2-4fea-a977-1c4dcbfea419` · printing: UNF #228a (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squirrel Wrangler
 
@@ -630,7 +697,9 @@
 - **Flavor text** (PCY printing):
   > *"Gnawed to death. Bad way to go."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16913 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/127/squirrel-wrangler) · oracle_id `4021b6b4-9b87-4dd5-a5df-79540bedbe87` · printing: PCY #127 (2000-06-05) · [rulings](https://api.scryfall.com/cards/7094be2a-454e-4e4d-a540-c5c80e37468a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Only affects Squirrels on the battlefield when the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/127/squirrel-wrangler) · oracle_id `4021b6b4-9b87-4dd5-a5df-79540bedbe87` · printing: PCY #127 (2000-06-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squishy Sphinx Ninja
 
@@ -643,4 +712,5 @@
   > {TK}{TK}{TK}{TK}{TK} — 7/7
 - **Keywords:** Provoke, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/37/squishy-sphinx-ninja) · oracle_id `d198b39d-2c5f-4150-8c54-a00d33d74a28` · printing: SUNF #37 (2022-10-07) · [rulings](https://api.scryfall.com/cards/14222486-bcd3-42be-9598-4976ec9c08ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -44,6 +44,7 @@
   > Echo {1}{G}{G} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
 - **Keywords:** Echo, Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26736 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/243/uktabi-drake) · oracle_id `c12b4b1a-fab0-4e9f-8e04-d8a409a965bc` · printing: TSR #243 (2021-03-19) · [rulings](https://api.scryfall.com/cards/8b8c401a-8c66-4054-894f-afd866b3b95b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Uktabi Efreet
@@ -58,7 +59,9 @@
   > *—Mirri of the \*Weatherlight\**
 - **Keywords:** Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32128 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/wth/143/uktabi-efreet) · oracle_id `2fd9a37f-151a-4501-9d8e-bc67cc902592` · printing: WTH #143 (1997-06-09) · [rulings](https://api.scryfall.com/cards/3678a224-d314-4108-8a39-de0c1b635b5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Paying cumulative upkeep is always optional. If it’s not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can’t be made. For example, if a permanent with “cumulative upkeep {1}” has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either pay {4} or sacrifice the permanent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wth/143/uktabi-efreet) · oracle_id `2fd9a37f-151a-4501-9d8e-bc67cc902592` · printing: WTH #143 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Uktabi Faerie
 
@@ -73,6 +76,7 @@
   > *—Suq'Ata expression meaning "broken"*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29276 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/247/uktabi-faerie) · oracle_id `447f1cce-bbc5-473b-a838-34070f8fd2dc` · printing: MIR #247 (1996-10-08) · [rulings](https://api.scryfall.com/cards/c3cdee9f-7ea9-4397-a230-ce610be5d3af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Uktabi Kong
@@ -88,6 +92,7 @@
   > *"I desire the acquisition of a potassium-rich fruit comestible of \*substantial\* magnitude."*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/115/uktabi-kong) · oracle_id `e2438ff9-f260-454d-a256-e38c22446f49` · printing: UNH #115 (2004-11-19) · [rulings](https://api.scryfall.com/cards/bd6d8520-0a7c-489c-8ae9-aed07c7df6df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Uktabi Orangutan
@@ -114,6 +119,7 @@
   > {G}, Sacrifice a Forest: Regenerate this creature.
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24482 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/278/uktabi-wildcats) · oracle_id `dd25afe0-a69a-4e0b-b364-b88d3a522ed3` · printing: 7ED #278 (2001-04-11) · [rulings](https://api.scryfall.com/cards/700bb560-5a4a-4422-9158-1c2edad1913f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ukud Cobra
@@ -128,4 +134,5 @@
   > *—Khibat, Kolaghan warrior*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24265 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/123/ukud-cobra) · oracle_id `d38cbb37-0ddd-4768-bb05-f35b38730e44` · printing: DTK #123 (2015-03-27) · [rulings](https://api.scryfall.com/cards/71d2f6ee-af76-48f0-898d-3a19698d2790/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

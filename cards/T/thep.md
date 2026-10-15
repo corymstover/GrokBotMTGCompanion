@@ -34,7 +34,15 @@
   > You may choose not to untap The Pandorica during your untap step.
   > {1}{W}, {T}: Untap another target nonland permanent, then it phases out. It can't phase in for as long as The Pandorica remains tapped. When The Pandorica becomes untapped or leaves the battlefield, that permanent phases in. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13826 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/25/the-pandorica) · oracle_id `94d5c904-6504-4df2-b242-daf88a988475` · printing: WHO #25 (2023-10-13) · [rulings](https://api.scryfall.com/cards/c1642e04-d39a-46dc-8157-549c225c992f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-10-13* — Abilities that trigger when a creature becomes tapped won't trigger when a creature phases in tapped. (This might happen if the creature in question has one or more stun counters on it.)
+  - *2023-10-13* — Any continuous effects with a "for as long as" duration ignore phased-out objects. Any such effects will expire if their conditions are no longer met after ignoring the phased-out objects.
+  - *2023-10-13* — Any one-shot effects that are waiting "until [this] leaves the battlefield," won't happen when a permanent phases out.
+  - *2023-10-13* — Choices made for permanents as they entered the battlefield are remembered when they phase in.
+  - *2023-10-13* — Each Aura and Equipment attached to a permanent that's phasing out also phases out. They will phase in with that permanent and still be attached to it. Similarly, permanents that phase out with counters phase in with those counters.
+  - *2023-10-13* — Phasing out doesn't cause any "leaves the battlefield" abilities to trigger. Similarly, phasing in won't cause any "enters the battlefield" abilities to trigger.
+  - *2023-10-13* — While a permanent is phased out, it's treated as though it doesn't exist. It can't be the target of spells or abilities, its static abilities have no effect on the game, its triggered abilities can't trigger, it can't attack or block, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/25/the-pandorica) · oracle_id `94d5c904-6504-4df2-b242-daf88a988475` · printing: WHO #25 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Paradise Bird
 
@@ -48,6 +56,7 @@
   > If The Paradise Bird is your commander, your deck can include cards of any color identity.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG03f/the-paradise-bird) · oracle_id `8e9629e2-f131-446b-80bf-12f2f2e9b26a` · printing: UNK #RG03f (2024-10-25) · [rulings](https://api.scryfall.com/cards/15e6523d-e80a-4ae3-9373-7eef3d5ead7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Parting of the Ways
@@ -115,7 +124,17 @@
   > III — Destroy all creatures. For each creature destroyed this way, its controller creates a 2/2 black Phyrexian creature token.
 - **Keywords:** Read Ahead
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11247 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/59/the-phasing-of-zhalfir) · oracle_id `6b92a5f4-a241-48c8-9aec-c8e9d5b01fa5` · printing: DMU #59 (2022-09-09) · [rulings](https://api.scryfall.com/cards/0770eb6a-4f01-4677-a401-14c1b30692c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2022-09-09* — An attacking or blocking creature that phases out is removed from combat.
+  - *2022-09-09* — Any continuous effects with a "for as long as" duration, such as that of Extraction Specialist, ignore phased-out objects. If ignoring those objects causes the effect's conditions to no longer be met, the duration will expire.
+  - *2022-09-09* — As a Saga with read ahead enters the battlefield, its controller chooses a number from one to that Saga's greatest chapter number. The Saga enters the battlefield with the chosen number of lore counters. Neither choosing the number nor putting the counters on the Saga use the stack, and neither can be responded to.
+  - *2022-09-09* — As a permanent is phased out, Auras and Equipment attached to it also phase out at the same time. Those Auras and Equipment will phase in at the same time that permanent does, and they'll phase in still attached to it.
+  - *2022-09-09* — Choices made for permanents as they entered the battlefield are remembered when they phase in.
+  - *2022-09-09* — Normally, permanents phase back in during their controller's untap step, immediately before that player untaps their permanents. Creatures that phase in this way are able to attack and pay a cost of {T} during that turn. If a permanent had counters on it when it phased out, it will have those counters when it phases back in.
+  - *2022-09-09* — Permanents that phase out as The Phasing of Zhalfir's first and second chapter abilities resolve don't phase in during their controllers' untap steps while the Saga is on the battlefield. After it leaves the battlefield, they will phase in during their controller's next untap step as normal.
+  - *2022-09-09* — Phased-out permanents are treated as though they don't exist. They can't be the targets of spells or abilities, their static abilities have no effect on the game, their triggered abilities can't trigger, they can't attack or block, and so on.
+  - *2022-09-09* — Phasing out doesn't cause any "leaves the battlefield" abilities to trigger. Similarly, phasing in won't cause any "enters the battlefield" abilities to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/59/the-phasing-of-zhalfir) · oracle_id `6b92a5f4-a241-48c8-9aec-c8e9d5b01fa5` · printing: DMU #59 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Philosopher
 
@@ -124,6 +143,7 @@
 - **Oracle text:**
   > {2}, {T}: Tap target creature.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thp1/1b/the-philosopher) · oracle_id `9c4d82e9-c3bb-46f0-b1d1-74992d0d8180` · printing: THP1 #1b (2013-09-27) · [rulings](https://api.scryfall.com/cards/efbffd56-92a1-4b17-8d53-e9f28b1872e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Playful Winners
@@ -136,6 +156,7 @@
   > If you win a game while you control The Playful Winners or it's your commander, put a tally mark on it.
   > The Playful Winners gets +2/+2 for each tally mark on it. (No cheating!)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU05e/the-playful-winners) · oracle_id `5f0000d2-2d3b-48fb-8845-f6bbaf0d8bd7` · printing: UNK #RU05e (2026-05-01) · [rulings](https://api.scryfall.com/cards/50516169-7eaa-4787-a849-9df6a0c86e35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Pleasant Taxer
@@ -147,6 +168,7 @@
   > As The Pleasant Taxer enters the battlefield, choose casting creature spells, casting noncreature spells, searching libraries, drawing a card beyond the first each turn, or activating abilities other than mana abilities.
   > Doing the chosen action costs players {1} more.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/WW02/the-pleasant-taxer) · oracle_id `04a44086-ba0f-48cc-b5d2-12ed7a6c2a53` · printing: UNK #WW02 (2024-06-29) · [rulings](https://api.scryfall.com/cards/b1d48f3c-cdd6-44db-a71d-627a5aee77f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Policy Maker
@@ -157,6 +179,7 @@
 - **Oracle text:**
   > Whenever The Policy Maker enters or attacks, ask a player outside the game to propose a new rule. If each player in the game agrees to the rule, apply it for the rest of the game. If an opponent doesn't agree to the rule, put a +1/+1 counter on The Policy Maker.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03o/the-policy-maker) · oracle_id `2d426c89-6cef-44be-8e56-ccf6d94c2d3d` · printing: UNK #RZ03o (2025-09-26) · [rulings](https://api.scryfall.com/cards/12ff4dec-d19a-4ca6-b066-cf6152c3156e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Powerful Dragon
@@ -170,6 +193,7 @@
   > Whenever one or more +1/+1 counters are put on a creature you control, exile the top card of your library. Until end of turn, you may play that card.
 - **Keywords:** Flying, Mentor
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR06b/the-powerful-dragon) · oracle_id `4bfaa867-ed9b-477d-9787-0ff884fb906b` · printing: UNK #RR06b (2024-10-25) · [rulings](https://api.scryfall.com/cards/4a374f23-0f4c-4be2-adec-8e3956efc035/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Pride of Hull Clade
@@ -203,7 +227,9 @@
   > Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Flying, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19703 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/64/the-prima-vista) · oracle_id `a09d9754-a321-4018-a237-e613e915b642` · printing: FIN #64 (2025-06-13) · [rulings](https://api.scryfall.com/cards/e3998132-5746-4dde-9529-97d3ad7d7361/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — The Prima Vista's second ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/64/the-prima-vista) · oracle_id `a09d9754-a321-4018-a237-e613e915b642` · printing: FIN #64 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Princess Takes Flight
 
@@ -215,7 +241,9 @@
   > II — Target creature you control gets +2/+2 and gains flying until end of turn.
   > III — Return the exiled card to the battlefield under its owner's control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12688 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/23/the-princess-takes-flight) · oracle_id `70d52457-1867-482c-ba7a-1f7dacc4514f` · printing: WOE #23 (2023-09-08) · [rulings](https://api.scryfall.com/cards/dad7bd06-22e4-40f8-bda9-bcdbb2d8f632/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-09-01* — If The Princess Takes Flight's first chapter ability exiled more than one creature (usually because the ability was copied), its third chapter ability will return all of the exiled cards to the battlefield under their owners' control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/23/the-princess-takes-flight) · oracle_id `70d52457-1867-482c-ba7a-1f7dacc4514f` · printing: WOE #23 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Prismatic Piper
 
@@ -229,7 +257,15 @@
   > *It is everything and nothing.*
 - **Keywords:** Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28445 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1/the-prismatic-piper) · oracle_id `b2aeee90-7b8d-47a6-9167-cc21f7fbfd43` · printing: CMM #1 (2023-08-04) · [rulings](https://api.scryfall.com/cards/c78c2713-39e7-4a6e-a132-027099a89665/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2020-11-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2020-11-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2020-11-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2020-11-10* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Falthis and Kediss are your commanders, your deck may contain cards with black and/or red in their color identity, but not cards with green, white, or blue.
+  - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
+  - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
+  - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1/the-prismatic-piper) · oracle_id `b2aeee90-7b8d-47a6-9167-cc21f7fbfd43` · printing: CMM #1 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Protector
 
@@ -238,6 +274,7 @@
 - **Oracle text:**
   > {T}: Prevent the next 1 damage that would be dealt to any target this turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thp1/1a/the-protector) · oracle_id `9048bb17-46ad-44a3-a828-deaafd4c5f21` · printing: THP1 #1a (2013-09-27) · [rulings](https://api.scryfall.com/cards/ca66cd86-1574-4e6e-94de-a19d8d26836f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Provider
@@ -247,6 +284,7 @@
 - **Oracle text:**
   > Exile The Provider: Put two +1/+1 counters on target creature you control. You gain life equal to that creature's toughness.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thp2/4e/the-provider) · oracle_id `a4377dfb-966b-460e-b23a-d4bbb609e0e9` · printing: THP2 #4e (2014-02-07) · [rulings](https://api.scryfall.com/cards/d9987b43-7f20-46ce-b7dd-f3126e5bc991/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Prydwen, Steel Flagship

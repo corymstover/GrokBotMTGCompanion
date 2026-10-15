@@ -44,7 +44,9 @@
   > Squirrel creatures get +1/+1.
 - **Keywords:** Echo
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12107 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/202/deranged-hermit) · oracle_id `b9cd714b-2ad8-4fdb-a8aa-82b17730e071` · printing: VMA #202 (2014-06-16) · [rulings](https://api.scryfall.com/cards/c25df202-0dd4-448d-8cb3-11fd7df0d505/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The Squirrel tokens get the bonus, so they are effectively 2/2 creatures until the Hermit leaves the battlefield. And they get bigger if multiple Hermits are on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/202/deranged-hermit) · oracle_id `b9cd714b-2ad8-4fdb-a8aa-82b17730e071` · printing: VMA #202 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deranged Outcast
 
@@ -56,7 +58,10 @@
 - **Flavor text** (DKA printing):
   > *Cast out by his village, he now takes grim offense at refugees who seek shelter in his forest.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27756 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dka/112/deranged-outcast) · oracle_id `115f1397-fa24-4412-80b7-e2a6ddedcd4c` · printing: DKA #112 (2012-02-03) · [rulings](https://api.scryfall.com/cards/e2b35fee-8e24-4d89-ad77-d55d06bb1d7f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-01-22* — Because targets are chosen before costs are paid, you can activate Deranged Outcast’s ability targeting itself and then sacrifice Deranged Outcast to pay the cost.
+  - *2011-01-22* — You can sacrifice any Human you control, including Deranged Outcast itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dka/112/deranged-outcast) · oracle_id `115f1397-fa24-4412-80b7-e2a6ddedcd4c` · printing: DKA #112 (2012-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deranged Whelp
 
@@ -70,6 +75,7 @@
   > *—Raf Gyel of the Quiver of Kessig*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25346 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/emn/125/deranged-whelp) · oracle_id `6f246109-8c8b-4909-9888-561bc46ad776` · printing: EMN #125 (2016-07-22) · [rulings](https://api.scryfall.com/cards/fd06f9eb-112e-458b-83c8-3761df6d60ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Derelict Attic // Widow's Walk
@@ -113,6 +119,7 @@
   > *"Strength it has, but at the cost of a continuous supply of energy. Such failure can bear only one result."*
   > *—Execution order of Endrek Sahr, master breeder*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31027 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/66/derelor) · oracle_id `43f2969e-46eb-4fd4-8b2d-ff81aafcc24a` · printing: ME1 #66 (2007-09-10) · [rulings](https://api.scryfall.com/cards/7793c8e6-8f5f-473c-99ea-a74dff8cecd2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Derevi, Empyrial Tactician
@@ -143,7 +150,9 @@
   > When this creature is turned face up, you may put a creature card with a morph ability from your hand onto the battlefield face up. If you do, return this creature to its owner's hand.
 - **Keywords:** Flying, Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27819 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lgn/35/dermoplasm) · oracle_id `963d4712-51b2-4102-9626-d810e4696b70` · printing: LGN #35 (2003-02-03) · [rulings](https://api.scryfall.com/cards/cf2f5dca-e01f-41e3-bb6f-a60162118c6d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The trigger occurs when you use the Morph ability to turn the card face up, or when an effect turns it face up. It will not trigger on being revealed or on leaving the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lgn/35/dermoplasm) · oracle_id `963d4712-51b2-4102-9626-d810e4696b70` · printing: LGN #35 (2003-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dermotaxi
 
@@ -155,4 +164,9 @@
   > Tap two untapped creatures you control: Until end of turn, this Vehicle becomes a copy of the exiled card, except it's a Vehicle artifact in addition to its other types.
 - **Keywords:** Imprint
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13044 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/224/dermotaxi) · oracle_id `b065ef1d-5cba-41f2-a4b4-a6ae479323d3` · printing: MH2 #224 (2021-06-18) · [rulings](https://api.scryfall.com/cards/43a37428-e969-4c0c-8e1c-55d1adf9c171/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-06-18* — Dermotaxi does not have a crew ability. Activating the ability to have it become a copy of the exiled card doesn't count as crewing a Vehicle. If a creature you tap to activate the ability has a triggered ability that triggers whenever it crews a Vehicle (such as that of Gearshift Ace), that ability won't trigger.
+  - *2021-06-18* — If you activate the ability, but there's no exiled card to reference (perhaps because there wasn't one in any graveyard to imprint), the ability does nothing. Dermotaxi won't become a copy of anything.
+  - *2021-06-18* — The choice of what card is exiled is a replacement effect, not a triggered ability. Players can't respond to the card being exiled.
+  - *2021-06-18* — The imprint ability is linked to the activated ability that makes Dermotaxi a creature. This means that the second ability refers only to the card exiled by the first, even if it becomes a copy of something that later exiles other cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/224/dermotaxi) · oracle_id `b065ef1d-5cba-41f2-a4b4-a6ae479323d3` · printing: MH2 #224 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

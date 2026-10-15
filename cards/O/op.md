@@ -61,7 +61,14 @@
   > Whenever an opponent casts a creature spell, if this permanent is an enchantment, it becomes a 2/4 Soldier creature.
   > {0}: This permanent becomes an enchantment.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30708 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/22/opal-acrolith) · oracle_id `d08b8dd6-3a44-4e86-8ce8-2d0a014a9aa8` · printing: USG #22 (1998-10-12) · [rulings](https://api.scryfall.com/cards/839b4c10-f68f-4321-82ee-5ec257f63866/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2004-10-04* — Changes into a creature even if the spell is countered.
+  - *2004-10-04* — It triggers when the spell is cast, which means it becomes a creature before that spell resolves.
+  - *2004-10-04* — When it turns into a creature, it is no longer an enchantment.
+  - *2004-10-04* — When it turns into an enchantment, it is no longer a creature.
+  - *2008-04-01* — A "creature spell" is any spell with the type Creature, even if it has other types such as Artifact or Enchantment. Older cards of type Summon are also Creature spells.
+  - *2008-08-01* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/22/opal-acrolith) · oracle_id `d08b8dd6-3a44-4e86-8ce8-2d0a014a9aa8` · printing: USG #22 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Opal Archangel
 
@@ -70,7 +77,13 @@
 - **Oracle text:**
   > When an opponent casts a creature spell, if this permanent is an enchantment, it becomes a 5/5 Angel creature with flying and vigilance.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29731 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/23/opal-archangel) · oracle_id `888d12d4-aaa5-406f-9dc8-8c4e856eb2fe` · printing: USG #23 (1998-10-12) · [rulings](https://api.scryfall.com/cards/a75fca33-fa06-4385-866c-5d463ae6aaf6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2004-10-04* — It changes into a creature even if the spell is countered.
+  - *2004-10-04* — It triggers when the spell is cast, which means it becomes a creature before that spell resolves.
+  - *2004-10-04* — When it turns into a creature, it is no longer an enchantment.
+  - *2008-04-01* — A "creature spell" is any spell with the type Creature, even if it has other types such as Artifact or Enchantment. Older cards of type Summon are also Creature spells.
+  - *2008-08-01* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/23/opal-archangel) · oracle_id `888d12d4-aaa5-406f-9dc8-8c4e856eb2fe` · printing: USG #23 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Opal Avenger
 
@@ -81,7 +94,10 @@
 - **Flavor text** (ULG printing):
   > *As the sun grew cold in the realm, the statue grew warm.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31783 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/15/opal-avenger) · oracle_id `13a85c9f-f653-4d90-bea6-94022ee82527` · printing: ULG #15 (1999-02-15) · [rulings](https://api.scryfall.com/cards/f9337bbe-e092-469d-8122-77f92e233306/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — When it turns into a creature, it is no longer an enchantment.
+  - *2008-08-01* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/15/opal-avenger) · oracle_id `13a85c9f-f653-4d90-bea6-94022ee82527` · printing: ULG #15 (1999-02-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Opal Caryatid
 
@@ -90,7 +106,13 @@
 - **Oracle text:**
   > When an opponent casts a creature spell, if this permanent is an enchantment, it becomes a 2/2 Soldier creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30784 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/24/opal-caryatid) · oracle_id `eabcb1bd-5317-4e01-8f18-94f01c12c852` · printing: USG #24 (1998-10-12) · [rulings](https://api.scryfall.com/cards/3a8a2e24-c959-40a2-883d-c0114589cfe7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2004-10-04* — It changes into a creature even if the spell is countered.
+  - *2004-10-04* — It triggers when the spell is cast, which means it becomes a creature before that spell resolves.
+  - *2004-10-04* — When it turns into a creature, it is no longer an enchantment.
+  - *2008-04-01* — A "creature spell" is any spell with the type Creature, even if it has other types such as Artifact or Enchantment. Older cards of type Summon are also Creature spells.
+  - *2008-08-01* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/24/opal-caryatid) · oracle_id `eabcb1bd-5317-4e01-8f18-94f01c12c852` · printing: USG #24 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Opal Champion
 
@@ -99,7 +121,13 @@
 - **Oracle text:**
   > When an opponent casts a creature spell, if this permanent is an enchantment, it becomes a 3/3 Knight creature with first strike.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30808 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/16/opal-champion) · oracle_id `0d3617c3-1526-40e6-bc90-6139b5d3e1f1` · printing: ULG #16 (1999-02-15) · [rulings](https://api.scryfall.com/cards/2699cf3b-df54-4c77-ba19-3bc7598ae3fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2004-10-04* — It changes into a creature even if the spell is countered.
+  - *2004-10-04* — It triggers when the spell is cast, so it becomes a creature before the spell resolves. A creature that would destroy an enchantment when it enters can't be used to destroy this card, since it will no longer be an enchantment when the creature enters.
+  - *2004-10-04* — When it turns into a creature, it is no longer an enchantment.
+  - *2008-04-01* — A "creature spell" is any spell with the type Creature, even if it has other types such as Artifact or Enchantment. Older cards of type Summon are also Creature spells.
+  - *2008-08-01* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/16/opal-champion) · oracle_id `0d3617c3-1526-40e6-bc90-6139b5d3e1f1` · printing: ULG #16 (1999-02-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Opalescence
 
@@ -108,7 +136,12 @@
 - **Oracle text:**
   > Each other non-Aura enchantment is a creature in addition to its other types and has base power and base toughness each equal to its mana value.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13472 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/uds/13/opalescence) · oracle_id `59489b46-9d02-4f3c-bcd0-884e7605e9a5` · printing: UDS #13 (1999-06-07) · [rulings](https://api.scryfall.com/cards/3c0071fb-afa5-47b5-b266-2b10a4f5a98a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2004-10-04* — Does not animate itself. But can be animated by another Opalescence.
+  - *2006-02-01* — With a Humility and two Opalescences on the battlefield, if Humility has the latest timestamp, then all creatures are 1/1 with no abilities. If the timestamp order is Opalescence, Humility, Opalescence, the second Opalescence is 1/1, and the Humility and first Opalescence are 4/4. If Humility has the earliest timestamp, then everything is 4/4.
+  - *2008-08-01* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
+  - *2009-10-01* — This is the current interaction between Humility and Opalescence: The type-changing effect applies at layer 4, but the rest happens in the applicable layers. The rest of it will apply even if the permanent loses its ability before it's finished applying. So if Opalescence, Humility, and Worship are on the battlefield and Opalescence entered before Humility, the following is true: Layer 4: Humility and Worship each become creatures that are still enchantments. (Opalescence). Layer 6: Humility and Worship each lose their abilities. (Humility) Layer 7b: Humility becomes 4/4 and Worship becomes 4/4. (Opalescence). Humility becomes 1/1 and Worship becomes 1/1 (Humility). But if Humility entered before Opalescence, the following is true: Layer 4: Humility and Worship each become creatures that are still enchantments (Opalescence). Layer 6: Humility and Worship each lose their abilities (Humility). Layer 7b: Humility becomes 1/1 and Worship becomes 1/1 (Humility). Humility becomes 4/4 and Worship becomes 4/4 (Opalescence).
+- **Source flags:** [Scryfall](https://scryfall.com/card/uds/13/opalescence) · oracle_id `59489b46-9d02-4f3c-bcd0-884e7605e9a5` · printing: UDS #13 (1999-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Opal-Eye, Konda's Yojimbo
 
@@ -122,6 +155,7 @@
   > {1}{W}: Prevent the next 1 damage that would be dealt to Opal-Eye this turn.
 - **Keywords:** Bushido, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17770 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/17/opal-eye-kondas-yojimbo) · oracle_id `e4acac65-112b-48fc-bea3-44747c1389a3` · printing: BOK #17 (2005-02-04) · [rulings](https://api.scryfall.com/cards/e08d5618-4fe0-4ae5-af16-696467aae02d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Opal Gargoyle
@@ -131,7 +165,13 @@
 - **Oracle text:**
   > When an opponent casts a creature spell, if this permanent is an enchantment, it becomes a 2/2 Gargoyle creature with flying.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30682 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/25/opal-gargoyle) · oracle_id `efef2d33-5354-4fce-880e-cb91fa60f730` · printing: USG #25 (1998-10-12) · [rulings](https://api.scryfall.com/cards/a8a67943-8f07-445b-a84c-893879dae7ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2004-10-04* — It changes into a creature even if the spell is countered.
+  - *2004-10-04* — It triggers when the spell is cast, which means it becomes a creature before that spell resolves.
+  - *2004-10-04* — When it turns into a creature, it is no longer an enchantment.
+  - *2008-04-01* — A "creature spell" is any spell with the type Creature, even if it has other types such as Artifact or Enchantment. Older cards of type Summon are also Creature spells.
+  - *2008-08-01* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/25/opal-gargoyle) · oracle_id `efef2d33-5354-4fce-880e-cb91fa60f730` · printing: USG #25 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Opal Guardian
 
@@ -142,7 +182,12 @@
 - **Flavor text** (TSP printing):
   > *It was a moment in time, cast in stone—a moment whose time had come again.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30750 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/30/opal-guardian) · oracle_id `b7c2c174-668d-4094-9aef-8b60c504b9b4` · printing: TSP #30 (2006-10-06) · [rulings](https://api.scryfall.com/cards/905ad286-e70b-46cd-87fd-eec13ed2d43b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2006-09-25* — A face-down creature spell will cause Opal Guardian's ability to trigger (if it's an enchantment).
+  - *2006-09-25* — After the triggered ability resolves, Opal Guardian is no longer an enchantment.
+  - *2006-09-25* — Guardian's effect doesn't wear off.
+  - *2008-08-01* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/30/opal-guardian) · oracle_id `b7c2c174-668d-4094-9aef-8b60c504b9b4` · printing: TSP #30 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Opaline Bracers
 
@@ -154,6 +199,7 @@
   > Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Sunburst, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26227 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/141/opaline-bracers) · oracle_id `a4d6cb66-698d-4b76-b922-f799ad9d8805` · printing: 5DN #141 (2004-06-04) · [rulings](https://api.scryfall.com/cards/3ae84edd-1294-4722-89d1-84d9f336871c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Opaline Sliver
@@ -167,7 +213,10 @@
   > *"When struck, its hide shimmers through sequences of color—a signaling language I am eager to unravel."*
   > *—Rukarumel, field journal*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10847 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/244/opaline-sliver) · oracle_id `a871b03e-0218-4c15-8ad8-c8284b5be45f` · printing: TSP #244 (2006-10-06) · [rulings](https://api.scryfall.com/cards/75af1cc6-cb40-48c8-818b-91e64bdbe691/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit.
+  - *2013-07-01* — If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/244/opaline-sliver) · oracle_id `a871b03e-0218-4c15-8ad8-c8284b5be45f` · printing: TSP #244 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Opaline Unicorn
 
@@ -179,6 +228,7 @@
 - **Flavor text** (CN2 printing):
   > *Purphoros once loved Nylea, the god of the hunt. His passion inspired his most astounding works of art.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10809 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/213/opaline-unicorn) · oracle_id `ca5ca2c9-2ddd-4e70-b738-8de61aa82570` · printing: CN2 #213 (2016-08-26) · [rulings](https://api.scryfall.com/cards/160d39b0-76c5-4218-97e5-5903f781dafc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Opal Lake Gatekeepers
@@ -191,6 +241,7 @@
 - **Flavor text** (DGM printing):
   > *Sentries guard Ravnica's landmarks and outlying districts, unaware of these places' import to the maze.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23311 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/16/opal-lake-gatekeepers) · oracle_id `a5375366-7ddc-4bd5-91c9-dc08f8beb3f6` · printing: DGM #16 (2013-05-03) · [rulings](https://api.scryfall.com/cards/f43ac38f-5cd0-46cf-8623-d82cb8fb719b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Opal Palace
@@ -216,7 +267,14 @@
 - **Oracle text:**
   > When an opponent casts a creature spell, if this permanent is an enchantment, it becomes a 4/4 Giant creature with protection from each of that spell's colors.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30111 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/26/opal-titan) · oracle_id `ce06fe83-a8c5-46b7-b30c-b8189d217741` · printing: USG #26 (1998-10-12) · [rulings](https://api.scryfall.com/cards/379f1f01-88c6-4cc2-9049-078aa6980582/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2004-10-04* — If the spell was colorless (an artifact), this card does not get any form of Protection.
+  - *2004-10-04* — It changes into a creature even if the spell is countered.
+  - *2004-10-04* — It triggers when the spell is cast, which means it becomes a creature before that spell resolves.
+  - *2004-10-04* — When it turns into a creature, it is no longer an enchantment.
+  - *2008-04-01* — A "creature spell" is any spell with the type Creature, even if it has other types such as Artifact or Enchantment. Older cards of type Summon are also Creature spells.
+  - *2008-08-01* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/26/opal-titan) · oracle_id `ce06fe83-a8c5-46b7-b30c-b8189d217741` · printing: USG #26 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Open Communications
 
@@ -228,6 +286,7 @@
 - **Flavor text** (TRK printing):
   > *Some gestures are universal.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32047 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/76/open-communications) · oracle_id `b08c5b86-4f84-46a3-877f-bbf71ec17adb` · printing: TRK #76 (2026-11-13) · [rulings](https://api.scryfall.com/cards/8eeec269-13f0-4923-9f13-e995acd73e00/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Open Fire
@@ -239,6 +298,7 @@
 - **Flavor text** (HOU printing):
   > *Some khenra archers fashion their arrows with a personal touch.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23767 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/105/open-fire) · oracle_id `8b218023-50b8-4d9d-b17b-9647479d3675` · printing: HOU #105 (2017-07-14) · [rulings](https://api.scryfall.com/cards/448f9fb5-ffb5-4325-9f81-ce8782e5f9e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Opening Ceremony
@@ -253,7 +313,12 @@
   > *"Aaaaaaaaah!"*
   > *—Also the crowd*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32297 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/118/opening-ceremony) · oracle_id `f11303c2-6478-4e39-b229-13e99c25cdc1` · printing: UNF #118 (2022-10-07) · [rulings](https://api.scryfall.com/cards/1725526f-9a18-4cbd-83cf-16334aa56e76/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-10-07* — Opening Ceremony has four lines of flavor text.
+  - *2022-10-07* — The spells you cast this way are cast from outside the game. Casting a card brings it into the game. After the spell leaves the stack, it will go to the battlefield, the graveyard, exile, or wherever it’s supposed to go depending on what type of spell it is. Remove the card from your deck after the game ends.
+  - *2022-10-07* — You can use any unopened, official Magic booster pack, including promotional booster packs.
+  - *2022-10-07* — You must still pay all costs and follow all normal timing rules when casting spells from among the cards in the booster pack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/118/opening-ceremony) · oracle_id `f11303c2-6478-4e39-b229-13e99c25cdc1` · printing: UNF #118 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Open into Wonder
 
@@ -314,6 +379,7 @@
   > • Add two mana of any one color and two mana of any other color. Spend this mana only to cast creature or enchantment spells.
   > • Creatures you control get +1/+0 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12741 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/143/open-the-omenpaths) · oracle_id `9ac01998-6e26-4ba5-b66c-614ec831caef` · printing: KHM #143 (2021-02-05) · [rulings](https://api.scryfall.com/cards/4e4023c8-8e7f-42b9-99e5-87e80fc3d6c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Open the Vaults
@@ -370,6 +436,7 @@
   > Whenever this creature attacks, put a +1/+1 counter on it.
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32067 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/192/operations-officer) · oracle_id `c8ed45e6-ae4f-4c44-9f73-45793f30acd6` · printing: TRC #192 (2026-11-13) · [rulings](https://api.scryfall.com/cards/40a37274-af28-4019-86fc-197e764e9e3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ophidian
@@ -380,7 +447,9 @@
 - **Oracle text:**
   > Whenever this creature attacks and isn't blocked, you may draw a card. If you do, this creature assigns no combat damage this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26763 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jvc/9/ophidian) · oracle_id `953bdefa-4639-4524-af5c-5055d1289f40` · printing: JVC #9 (2014-12-05) · [rulings](https://api.scryfall.com/cards/03be605e-dddf-4a1f-a4ee-0d71ab771e47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — An ability that triggers when something “attacks and isn’t blocked” triggers in the declare blockers step after blockers are declared if (1) that creature is attacking and (2) no creatures are declared to block it. It will trigger even if that creature was put onto the battlefield attacking rather than having been declared as an attacker in the declare attackers step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jvc/9/ophidian) · oracle_id `953bdefa-4639-4524-af5c-5055d1289f40` · printing: JVC #9 (2014-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ophidian Eye
 
@@ -422,6 +491,7 @@
 - **Flavor text** (TMP printing):
   > *The third time the Oracle glanced suspiciously at him, Starke decided she had glanced twice too often.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31712 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmp/194/opportunist) · oracle_id `5b5524f7-3c68-4c7b-be1b-745ffcad8006` · printing: TMP #194 (1997-10-14) · [rulings](https://api.scryfall.com/cards/ae0026c0-8f61-4485-8909-6a44c2ca9169/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Opportunistic Dragon
@@ -450,6 +520,7 @@
 - **Flavor text** (BBD printing):
   > *"Opportunity isn't something you wait for. It's something you create."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15080 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/126/opportunity) · oracle_id `1f544a9f-c238-4858-be19-d6cd7d023dcc` · printing: BBD #126 (2018-06-08) · [rulings](https://api.scryfall.com/cards/49233196-82e4-44c4-86f0-6eb2db7293a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Opposition
@@ -513,7 +584,10 @@
   > Activated abilities of enchanted creature cost {3} more to activate.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16102 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m15/21/oppressive-rays) · oracle_id `4a17fb46-70db-4c9a-ac0e-dfc774345673` · printing: M15 #21 (2014-07-18) · [rulings](https://api.scryfall.com/cards/53555768-edad-4441-b6a7-ea2a7cb38abd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-07-18* — Activated abilities are written in the form “Cost: Effect.” Some keywords are activated abilities and will have colons in their reminder texts. Static and triggered abilities are unaffected by Oppressive Rays.
+  - *2014-07-18* — The enchanted creature's controller can choose to not attack or block with it even if it must attack or block if able. Players can't be forced to pay a cost to attack or block.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m15/21/oppressive-rays) · oracle_id `4a17fb46-70db-4c9a-ac0e-dfc774345673` · printing: M15 #21 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oppressive Will
 
@@ -524,6 +598,7 @@
 - **Flavor text** (SOK printing):
   > *When Minamo was abandoned, its younger students found themselves thrust into a war beyond their skill with talents beyond their control.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24381 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/50/oppressive-will) · oracle_id `983a2a50-3634-4783-8576-30916c3d0818` · printing: SOK #50 (2005-06-03) · [rulings](https://api.scryfall.com/cards/abcb5e75-c7a1-41de-a952-05aefb115270/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Opt
@@ -547,7 +622,20 @@
 - **Oracle text:**
   > Whenever you crank this Contraption, until end of turn, target creature becomes an artifact in addition to its other types and gains "{T}: Draw a card."
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/197/optical-optimizer) · oracle_id `e0679009-36f0-48ba-ae1a-d12091a4c700` · printing: UST #197 (2017-12-08) · [rulings](https://api.scryfall.com/cards/c505f1be-4d9f-4536-a3f7-c6e6e19d5678/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2018-01-19* — Any Contraption that's on the battlefield and wasn't assembled immediately heads to the scrapyard. However, if it's a not an actual Contraption card (like Copy Artifact isn't), it goes to your graveyard as normal. Non-Contraption cards can't be in the scrapyard.
+  - *2018-01-19* — At the beginning of your upkeep, if you control any Contraptions, move the CRANK! counter to the next sprocket. You may then crank any number of Contraptions on that sprocket, causing their abilities to trigger. Cranking a Contraption is always optional.
+  - *2018-01-19* — Contraptions are artifacts. Anything that interacts with artifacts will interact with Contraptions.
+  - *2018-01-19* — Contraptions aren't put into your main deck. They go into a separate deck called the Contraption deck.
+  - *2018-01-19* — If a Contraption would leave the battlefield and go to any zone other than exile, it instead goes to the scrapyard, the Contraption deck's version of the graveyard. Things that affect the graveyard do not affect the scrapyard. You can exile Contraptions just fine.
+  - *2018-01-19* — If you crank multiple Contraptions, their abilities can be put onto the stack in any order. The ability put onto the stack will resolve first.
+  - *2018-01-19* — If you or a permanent you control are instructed to assemble a Contraption, reveal the top card of your Contraption deck. Put it onto the battlefield on one of the three sprockets.
+  - *2018-01-19* — If you or a permanent you control assembles a Contraption and your Contraption deck is empty, nothing happens. You don't lose the game.
+  - *2018-01-19* — In Constructed formats, a Contraption deck must have at least fifteen different Contraption cards and no more than one of each.
+  - *2018-01-19* — In Limited formats, a Contraption deck may include any number of Contraption cards in your card pool. You don't have to include every Contraption card you draft or open in sealed deck. In those formats, your Contraption deck may include duplicates.
+  - *2018-01-19* — In silver-bordered games using Contraptions, you have three sprockets, illustrated on the back of Contraption cards. At the start of the game, put a CRANK! counter on sprocket 3.
+  - *2018-01-19* — While Contraptions you control are on the battlefield, the Contraption deck is not, even if you are using it to signify the three sprockets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/197/optical-optimizer) · oracle_id `e0679009-36f0-48ba-ae1a-d12091a4c700` · printing: UST #197 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Optimistic Scavenger
 
@@ -610,7 +698,9 @@
 - **Flavor text** (PH18 printing):
   > *"Roll out!"*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ph18/2/optimus-prime-inspiring-leader) · oracle_id `9cf22aee-0f97-4bf6-8941-22c7e0dcafd7` · printing: PH18 #2 (2019-08-01) · [rulings](https://api.scryfall.com/cards/eac33481-3c68-4b29-92bf-c448368a5793/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ph18/2/optimus-prime-inspiring-leader) · oracle_id `9cf22aee-0f97-4bf6-8941-22c7e0dcafd7` · printing: PH18 #2 (2019-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Opulent Palace
 

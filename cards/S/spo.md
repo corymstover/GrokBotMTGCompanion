@@ -55,6 +55,7 @@
   > *"In critical moments, men sometimes see exactly what they wish to see."*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31348 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/194/spock-logical-choice) · oracle_id `a877820f-8999-4dfe-a50d-09f63c885ce3` · printing: TRC #194 (2026-11-13) · [rulings](https://api.scryfall.com/cards/5a741052-e92d-4e9c-8cfa-3b5ed1f432f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spoils of Adventure
@@ -67,7 +68,13 @@
 - **Flavor text** (ZNR printing):
   > *Survival itself is no small reward.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12752 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/237/spoils-of-adventure) · oracle_id `c4f3a6c6-a123-43ad-9513-d65fbff10d02` · printing: ZNR #237 (2020-09-25) · [rulings](https://api.scryfall.com/cards/9b3b1ef0-a653-4adb-8112-82d4822446b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-09-25* — An ability referring to the number of creatures in your party gets a number from zero to four. Such abilities never ask which creatures are in your party, and you never have to designate specific creatures as being in your party. You can't choose to exclude creatures from this count to lower the number.
+  - *2020-09-25* — If a creature has more than one party creature type, and there are multiple ways to count that creature that could result in a different number of creatures in your party, the highest such number is used. For example, if you control a Cleric and a Cleric Wizard, the number of creatures in your party is two. You can't choose to have it be just one by counting the Cleric Wizard first as a Cleric.
+  - *2020-09-25* — If a spell has a cost reduction based on the number of creatures in your party, no player may attempt to change that number after you begin to cast the spell but before you pay the cost.
+  - *2020-09-25* — Several cards have a cost reduction based on the number of creatures in your party. To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2020-09-25* — To determine "the number of creatures in your party," check whether you control a Cleric, whether you control a Rogue, whether you control a Warrior, and whether you control a Wizard. The number is the total number of those checks to which you answered yes. Each creature you control can be counted for only one of those checks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/237/spoils-of-adventure) · oracle_id `c4f3a6c6-a123-43ad-9513-d65fbff10d02` · printing: ZNR #237 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spoils of Blood
 
@@ -79,7 +86,9 @@
   > *"There are always leftovers."*
   > *—Derecht, flesh carver*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15469 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c14/30/spoils-of-blood) · oracle_id `26516566-c837-428d-bc81-582c74da2c28` · printing: C14 #30 (2014-11-07) · [rulings](https://api.scryfall.com/cards/d9df391c-eb76-45b1-a58d-8211538a22ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-11-07* — Use the number of creatures that died that turn as Spoils of Blood resolves to determine the value of X. In other words, creatures that die in response to Spoils of Blood will count.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c14/30/spoils-of-blood) · oracle_id `26516566-c837-428d-bc81-582c74da2c28` · printing: C14 #30 (2014-11-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spoils of Evil
 
@@ -91,7 +100,9 @@
   > *"Virtue has its rewards, as does its opposite."*
   > *—Lim-Dûl, the Necromancer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18964 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/ice/163/spoils-of-evil) · oracle_id `a40c52ee-4b45-4b14-8fbc-6529b42bfc9d` · printing: ICE #163 (1995-06-03) · [rulings](https://api.scryfall.com/cards/fd368eb6-72f0-42d4-afa5-3daa7de949ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The text “for each artifact or creature” means the sum of cards which are either creature and/or artifact. Artifact creatures are not double counted.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ice/163/spoils-of-evil) · oracle_id `a40c52ee-4b45-4b14-8fbc-6529b42bfc9d` · printing: ICE #163 (1995-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spoils of the Hunt
 
@@ -102,6 +113,7 @@
 - **Flavor text** (AFR printing):
   > *"Every coin helps rebuild the town they destroyed."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27910 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/205/spoils-of-the-hunt) · oracle_id `c29713ee-57e9-40b4-8ca3-a4cc6ede0f46` · printing: AFR #205 (2021-07-23) · [rulings](https://api.scryfall.com/cards/10dfdfd4-8621-40ef-a60f-74e9c107bbaf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spoils of the Vault
@@ -111,7 +123,9 @@
 - **Oracle text:**
   > Choose a card name. Reveal cards from the top of your library until you reveal a card with that name, then put that card into your hand. Exile all other cards revealed this way, and you lose 1 life for each of the exiled cards.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22749 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/116/spoils-of-the-vault) · oracle_id `ef86f861-1fdf-4be0-9497-8adc064af3de` · printing: UMA #116 (2018-12-07) · [rulings](https://api.scryfall.com/cards/6eb97a96-2c56-4638-b971-00cdf1eafd43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-12-07* — You don’t have to choose the name of a card that’s still in your library, or even a card that’s in your deck at all. If no card with the chosen name is in your library, you exile your library and lose 1 life for each of those cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/116/spoils-of-the-vault) · oracle_id `ef86f861-1fdf-4be0-9497-8adc064af3de` · printing: UMA #116 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spoils of Victory
 
@@ -120,7 +134,10 @@
 - **Oracle text:**
   > Search your library for a Plains, Island, Swamp, Mountain, or Forest card and put that card onto the battlefield. Then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14380 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c13/172/spoils-of-victory) · oracle_id `852bd598-6e48-43c8-9211-740ae9e0c42e` · printing: C13 #172 (2013-11-01) · [rulings](https://api.scryfall.com/cards/8a7ee186-b25f-4185-830d-e8e7cf23d4e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to.
+  - *2009-10-01* — Spoils of Victory allows you to search your library for any card with the land type Plains, Island, Swamp, Mountain, or Forest, not just a card with one of those names.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c13/172/spoils-of-victory) · oracle_id `852bd598-6e48-43c8-9211-740ae9e0c42e` · printing: C13 #172 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spoils of War
 
@@ -133,7 +150,9 @@
   > *"This is the fun part!"*
   > *—Ib Halfheart, Goblin Tactician*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28580 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/ice/164/spoils-of-war) · oracle_id `f3240a86-28b6-4338-9a59-1fb6f795d713` · printing: ICE #164 (1995-06-03) · [rulings](https://api.scryfall.com/cards/b38af8bd-d927-46d0-a1b1-fb437ea9ea66/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — X is set as you cast the spell to be exactly the number of appropriate cards in an opponent’s graveyard. You can’t choose a higher or lower value for X.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ice/164/spoils-of-war) · oracle_id `f3240a86-28b6-4338-9a59-1fb6f795d713` · printing: ICE #164 (1995-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spontaneous Artist
 
@@ -146,7 +165,17 @@
 - **Flavor text** (KLD printing):
   > *Graffiti of the "leaking spire" symbol is found wherever the renegades have been.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26436 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/134/spontaneous-artist) · oracle_id `c0602911-7d44-4a7a-a04c-837036ed3b82` · printing: KLD #134 (2016-09-30) · [rulings](https://api.scryfall.com/cards/b8bbeb22-5e50-4b90-b756-9d420f9cfe7f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/134/spontaneous-artist) · oracle_id `c0602911-7d44-4a7a-a04c-837036ed3b82` · printing: KLD #134 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spontaneous Combustion
 
@@ -158,7 +187,10 @@
 - **Flavor text** (CNS printing):
   > *"Heat of battle" is usually a metaphor.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24064 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/194/spontaneous-combustion) · oracle_id `0f81064d-01cd-4a61-8aea-2544e4d14b70` · printing: CNS #194 (2014-06-06) · [rulings](https://api.scryfall.com/cards/55d50177-736a-44d6-a2a3-f6892d7037b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.
+  - *2013-04-15* — You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/194/spontaneous-combustion) · oracle_id `0f81064d-01cd-4a61-8aea-2544e4d14b70` · printing: CNS #194 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spontaneous Flight
 
@@ -169,6 +201,7 @@
 - **Flavor text** (IKO printing):
   > *"Amazing! And I was only trying to teach her to sit!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22406 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/33/spontaneous-flight) · oracle_id `04da8c46-9703-47f2-974b-c144464ec380` · printing: IKO #33 (2020-04-24) · [rulings](https://api.scryfall.com/cards/3dc24dd4-d259-4687-8247-f56aa7abb5b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spontaneous Generation
@@ -180,6 +213,7 @@
 - **Flavor text** (MMQ printing):
   > *Saprolings always thrive on the ruins of others, and Mercadia ruins more than most.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18016 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/274/spontaneous-generation) · oracle_id `d5b021e3-a0c1-471b-9088-a76816806354` · printing: MMQ #274 (1999-10-04) · [rulings](https://api.scryfall.com/cards/ce5765cb-00cd-4920-9fe8-68791048ec4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spontaneous Mutation
@@ -192,7 +226,9 @@
   > Enchanted creature gets -X/-0, where X is the number of cards in your graveyard.
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20938 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/86/spontaneous-mutation) · oracle_id `ab78fa13-f599-4d08-bd27-d3d8740ae58f` · printing: INR #86 (2025-01-24) · [rulings](https://api.scryfall.com/cards/3ae07900-e07e-47d3-b8a1-f69cec94864b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-11-10* — The value of X will constantly update as the number of cards in your graveyard changes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/86/spontaneous-mutation) · oracle_id `ab78fa13-f599-4d08-bd27-d3d8740ae58f` · printing: INR #86 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spooky Clown Mox
 
@@ -205,6 +241,7 @@
   > {TK}{TK}{TK} — 5/4
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/10/spooky-clown-mox) · oracle_id `785e6563-51c4-4063-9ad9-0392954e135e` · printing: SUNF #10 (2022-10-07) · [rulings](https://api.scryfall.com/cards/ecae5a63-8494-4454-889c-2a69b98254f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sporeback Troll
@@ -217,6 +254,7 @@
   > {1}{G}: Regenerate target creature with a +1/+1 counter on it.
 - **Keywords:** Graft, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19769 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/94/sporeback-troll) · oracle_id `339bddf5-a8fb-46d3-877e-b0441ca8a597` · printing: DIS #94 (2006-05-05) · [rulings](https://api.scryfall.com/cards/18bdca24-3beb-4d0d-b3bc-b98c23316fe7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sporeback Wolf
@@ -229,6 +267,7 @@
 - **Flavor text** (VOW printing):
   > *The mushrooms growing in the wolves' fur possess curative properties incredible enough to tempt many alchemists into risking their lives to track one down.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23330 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/223/sporeback-wolf) · oracle_id `6fd5f773-e53e-4a7d-9093-dddd9b2e741f` · printing: VOW #223 (2021-11-19) · [rulings](https://api.scryfall.com/cards/3fb04879-9348-4d4f-9a23-c82fd99d04c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spore Burst
@@ -241,7 +280,10 @@
   > *Seeds from Jund don't drift gently on the wind. They get up and stampede.*
 - **Keywords:** Domain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25598 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/con/93/spore-burst) · oracle_id `27a9e0af-76f0-4910-9f93-2a3617b4e79a` · printing: CON #93 (2009-02-06) · [rulings](https://api.scryfall.com/cards/92fab6e3-29a5-42e0-872e-5c2f4f72bfc5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-06-18* — Domain abilities count the number of basic land types among lands you control, not how many lands you control or how many of any type.
+  - *2021-06-18* — The basic land types are Plains, Island, Swamp, Mountain, and Forest. Land types other than basic land types (such as Desert) don't contribute to domain abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/con/93/spore-burst) · oracle_id `27a9e0af-76f0-4910-9f93-2a3617b4e79a` · printing: CON #93 (2009-02-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sporecap Spider
 
@@ -254,6 +296,7 @@
   > *After years of taunts and aerial assaults from Rankle's minions, the witches of Maraleaf Forest acquired new familiars.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15791 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/176/sporecap-spider) · oracle_id `e9b5d4f3-b98a-463a-b628-289c2df81204` · printing: ELD #176 (2019-10-04) · [rulings](https://api.scryfall.com/cards/7bc33252-145f-45c0-bb70-23183c698f66/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spore Cloud
@@ -263,7 +306,11 @@
 - **Oracle text:**
   > Tap all blocking creatures. Prevent all combat damage that would be dealt this turn. Each attacking creature and each blocking creature doesn't untap during its controller's next untap step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17276 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me2/176/spore-cloud) · oracle_id `36d55084-4696-4d16-ab3a-b00f1456603f` · printing: ME2 #176 (2008-09-22) · [rulings](https://api.scryfall.com/cards/7a2cd32d-dea1-4d58-b8d6-5d7176c967f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — Only makes attackers or blockers that have been declared before the spell is cast unable to untap as normal next turn. So, if used before attackers or blockers are declared, it is simply a Fog-like effect. If used after attackers are declared but before blockers are declared, it does the Fog effect and makes attackers not untap as normal. If done after blockers are declared, it has full effect.
+  - *2008-10-01* — If a creature affected by Spore Cloud is untapped at the time its controller’s next untap step begins, the “doesn’t untap” effect doesn’t do anything. It won’t apply at some later time when that creature is tapped.
+  - *2008-10-01* — Spore Cloud doesn’t track the creatures’ controllers. If an affected creature changes controllers before its old controller’s next untap step, Spore Cloud will prevent it from being untapped during its new controller’s next untap step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me2/176/spore-cloud) · oracle_id `36d55084-4696-4d16-ab3a-b00f1456603f` · printing: ME2 #176 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spore Crawler
 
@@ -276,6 +323,7 @@
   > *"Remember to come back in a few years when that fungus has died off. Then we'll see what's in the chest."*
   > *—Old Rutstein*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19432 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/218/spore-crawler) · oracle_id `fa7c13c0-350b-4ed6-8c16-590d2b988184` · printing: INR #218 (2025-01-24) · [rulings](https://api.scryfall.com/cards/a2a37c40-6d33-4e32-ab7b-4a7c2d10b757/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sporecrown Thallid
@@ -303,6 +351,7 @@
   > At the beginning of your upkeep, put a spore counter on this creature.
   > Remove three spore counters from this creature: Prevent all combat damage that would be dealt this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15139 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/177/spore-flower) · oracle_id `f352ec62-bf09-45f2-b5b7-75931177b15f` · printing: ME2 #177 (2008-09-22) · [rulings](https://api.scryfall.com/cards/0c8adf5d-db30-433a-a0f0-89566d8bef28/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spore Frog
@@ -356,6 +405,7 @@
 - **Flavor text** (DOM printing):
   > *As the irrepressible power of a dormant Multani courses through Yavimaya, the forest passes judgment on travelers and natives alike. Only the fungus prospers.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10034 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/180/spore-swarm) · oracle_id `8fb599a7-2c61-446b-a7a7-cd5367f9b796` · printing: DOM #180 (2018-04-27) · [rulings](https://api.scryfall.com/cards/b2314215-23af-4c8e-860f-b029e151af36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sporeweb Weaver
@@ -404,7 +454,12 @@
   > Whenever a creature with a fungus counter on it dies, create a 1/1 green Saproling creature token for each fungus counter on that creature.
   > When this enchantment leaves the battlefield, remove all fungus counters from all creatures.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18201 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/273/sporogenesis) · oracle_id `33005c63-fe9f-4051-b781-eacf1ca5eec6` · printing: USG #273 (1998-10-12) · [rulings](https://api.scryfall.com/cards/839d969b-b1f7-4978-b00c-db0766161f63/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2004-10-04* — Adding a counter is optional. If you forget to add one during your upkeep, you cannot back up and add one later.
+  - *2004-10-04* — If a non-creature with fungus counters on it leaves the battlefield, there is no effect.
+  - *2004-10-04* — If more than one Sporogenesis is on the battlefield and a creature with fungus counters on it leaves the battlefield, each Sporogenesis will put a Saproling onto the battlefield for each counter. In other words if there are N copies of Sporogenesis and the creature had M fungus counters, you get N * M Saprolings.
+  - *2004-10-04* — If one Sporogenesis leaves the battlefield, all fungus counters are removed even if other Sporogenesis cards are on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/273/sporogenesis) · oracle_id `33005c63-fe9f-4051-b781-eacf1ca5eec6` · printing: USG #273 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sporogenic Infection
 
@@ -416,7 +471,9 @@
   > When enchanted creature is dealt damage, destroy it.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12486 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/117/sporogenic-infection) · oracle_id `659a259d-f75e-4af3-b568-c63225e647de` · printing: DSK #117 (2024-09-27) · [rulings](https://api.scryfall.com/cards/eaae086e-0781-4f4d-bc9c-a98228bc380c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — Sporogenic Infection's second ability can target any player, not just the controller of the enchanted creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/117/sporogenic-infection) · oracle_id `659a259d-f75e-4af3-b568-c63225e647de` · printing: DSK #117 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sporoloth Ancient
 
@@ -442,6 +499,7 @@
   > Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Crew, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17898 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/30/spotcycle-scouter) · oracle_id `0f1ada92-538b-40cb-9bf3-5c415f5325e6` · printing: DFT #30 (2025-02-14) · [rulings](https://api.scryfall.com/cards/f0489108-75b7-441c-888d-12987c0c1080/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spotted Griffin
@@ -455,6 +513,7 @@
   > *When the cat flies and the bird stalks, guard your horses carefully.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29977 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/28/spotted-griffin) · oracle_id `4916773d-5ccb-48ff-8aa3-09771ae88e81` · printing: ME4 #28 (2011-01-10) · [rulings](https://api.scryfall.com/cards/5fbba1f3-53c6-4c74-850b-dde17bde0021/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spotter Thopter
@@ -468,4 +527,13 @@
   > When this creature enters, scry X, where X is its power.
 - **Keywords:** Prototype, Scry, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20233 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/80/spotter-thopter) · oracle_id `ccf13531-60bd-4ebd-9a5b-68e2d05ce620` · printing: BRO #80 (2022-11-18) · [rulings](https://api.scryfall.com/cards/d90175ae-4109-4845-b3ff-1531fb67a0e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2022-10-14* — A prototype card is a colorless card in every zone except the stack or the battlefield, as well as while on the stack or the battlefield if not cast as a prototyped spell. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Blitz Automaton is a colorless creature card with mana value 7. It can't be the target of Recommission, a spell that targets an artifact or creature card with mana value 3 or less in your graveyard.
+  - *2022-10-14* — Casting a prototyped spell isn't the same as casting it for an alternative cost, and an alternative cost may be applied to a spell cast this way. For example, if an effect allows you to cast an artifact card without paying its mana cost, you could either cast Blitz Automaton normally, or as a prototyped spell.
+  - *2022-10-14* — If an effect copies a prototyped spell, that copy (as well as the token it becomes on the battlefield) will have the same characteristics as the prototyped spell. Similarly, if an effect creates a token that's a copy of a prototyped permanent or causes another permanent to become a copy of it, the copy would have the same characteristics as the prototyped permanent.
+  - *2022-10-14* — Regardless of how it was cast, a prototype card always has the same name, abilities, types, and so on. Only the mana cost, mana value, color, power, and toughness change depending on whether the card was cast as a prototyped spell.
+  - *2022-10-14* — The prototype ability functions in any zone that the spell could be cast from. For example, if an effect allows you to cast artifact spells from your graveyard, you could cast a prototyped Blitz Automaton from your graveyard.
+  - *2022-10-14* — Use Spotter Thopter's power at the time its triggered ability resolves (not the time it triggered) to determine the value of X. If Spotter Thopter is no longer on the battlefield at the time the ability resolves, use its power as it existed the last time it was on the battlefield.
+  - *2022-10-14* — When cast as a prototyped spell, that spell has the mana cost, power, and toughness characteristics shown in its colored, secondary text box rather than the normal values of those characteristics. Its color and mana value are determined by that mana cost. The permanent that spell becomes as it resolves has the same characteristics. If the spell leaves the stack in any other way, or the permanent it becomes leaves the battlefield, it immediately resumes using its normal characteristics.
+  - *2022-10-14* — When casting a prototyped spell, use only its prototype characteristics to determine whether it's legal to cast it. For example, if Blitz Automaton is exiled with the last ability of Chandra, Dressed to Kill, you would be able to cast it for {2}{R} (because it's a red spell), even though you wouldn't be able to cast it as a colorless spell for its normal cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/80/spotter-thopter) · oracle_id `ccf13531-60bd-4ebd-9a5b-68e2d05ce620` · printing: BRO #80 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

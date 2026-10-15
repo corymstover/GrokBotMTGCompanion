@@ -23,6 +23,7 @@
 - **Flavor text** (MBC printing):
   > *"Only through sacred infection can a vessel become pure."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #16236 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/1/ekthi-contaminator-priest) · oracle_id `e298a2a4-0e04-4af9-8638-7c01668d97d0` · printing: MBC #1 (2026-10-19) · [rulings](https://api.scryfall.com/cards/967e3120-a12b-4051-a8fc-98e9cdd987f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ekundu Cyclops
@@ -36,6 +37,7 @@
   > *"Big one I, One big eye. One-eye see Two-eye die!"*
   > *—Traditional cyclops chant*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31328 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/171/ekundu-cyclops) · oracle_id `6c89e4e6-c4d7-416c-b985-41739c6f5b50` · printing: MIR #171 (1996-10-08) · [rulings](https://api.scryfall.com/cards/9047d292-8f5c-4a6b-b74e-c8dbf3e0ab24/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ekundu Griffin
@@ -50,4 +52,5 @@
   > *—Suq'Ata trader*
 - **Keywords:** Flying, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25000 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/6ed/18/ekundu-griffin) · oracle_id `852b6e19-4594-41ea-9267-0911df643af5` · printing: 6ED #18 (1999-04-21) · [rulings](https://api.scryfall.com/cards/a1eec4ac-7d28-4f76-a1d5-a0a19c142514/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

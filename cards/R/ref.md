@@ -43,7 +43,15 @@
   > When this creature enters, tap target creature an opponent controls and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
 - **Keywords:** Vigilance, Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19289 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/327/referee-squad) · oracle_id `e14532e9-ecc2-4028-b99e-3629533962bc` · printing: MOM #327 (2023-04-21) · [rulings](https://api.scryfall.com/cards/434515bf-de57-4c00-b0b4-c9579cc1b84c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-04-14* — Referee Squad's enters-the-battlefield ability can target a creature that's already tapped.
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/327/referee-squad) · oracle_id `e14532e9-ecc2-4028-b99e-3629533962bc` · printing: MOM #327 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Refibrillator
 
@@ -52,7 +60,20 @@
 - **Oracle text:**
   > Whenever you crank this Contraption, return target creature card from your graveyard to your hand.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/202/refibrillator) · oracle_id `1334adab-9beb-486d-96b5-bb63448117f8` · printing: UST #202 (2017-12-08) · [rulings](https://api.scryfall.com/cards/a8b3b81f-7393-4f85-8b1c-59d560778ca1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2018-01-19* — Any Contraption that's on the battlefield and wasn't assembled immediately heads to the scrapyard. However, if it's a not an actual Contraption card (like Copy Artifact isn't), it goes to your graveyard as normal. Non-Contraption cards can't be in the scrapyard.
+  - *2018-01-19* — At the beginning of your upkeep, if you control any Contraptions, move the CRANK! counter to the next sprocket. You may then crank any number of Contraptions on that sprocket, causing their abilities to trigger. Cranking a Contraption is always optional.
+  - *2018-01-19* — Contraptions are artifacts. Anything that interacts with artifacts will interact with Contraptions.
+  - *2018-01-19* — Contraptions aren't put into your main deck. They go into a separate deck called the Contraption deck.
+  - *2018-01-19* — If a Contraption would leave the battlefield and go to any zone other than exile, it instead goes to the scrapyard, the Contraption deck's version of the graveyard. Things that affect the graveyard do not affect the scrapyard. You can exile Contraptions just fine.
+  - *2018-01-19* — If you crank multiple Contraptions, their abilities can be put onto the stack in any order. The ability put onto the stack will resolve first.
+  - *2018-01-19* — If you or a permanent you control are instructed to assemble a Contraption, reveal the top card of your Contraption deck. Put it onto the battlefield on one of the three sprockets.
+  - *2018-01-19* — If you or a permanent you control assembles a Contraption and your Contraption deck is empty, nothing happens. You don't lose the game.
+  - *2018-01-19* — In Constructed formats, a Contraption deck must have at least fifteen different Contraption cards and no more than one of each.
+  - *2018-01-19* — In Limited formats, a Contraption deck may include any number of Contraption cards in your card pool. You don't have to include every Contraption card you draft or open in sealed deck. In those formats, your Contraption deck may include duplicates.
+  - *2018-01-19* — In silver-bordered games using Contraptions, you have three sprockets, illustrated on the back of Contraption cards. At the start of the game, put a CRANK! counter on sprocket 3.
+  - *2018-01-19* — While Contraptions you control are on the battlefield, the Contraption deck is not, even if you are using it to signify the three sprockets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/202/refibrillator) · oracle_id `1334adab-9beb-486d-96b5-bb63448117f8` · printing: UST #202 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reflect Damage
 
@@ -64,6 +85,7 @@
   > *From you to me, so me to you.*
   > *—Femeref children's taunt*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20493 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/277/reflect-damage) · oracle_id `21565b0d-f814-49ca-8613-f40040c4ba6c` · printing: MIR #277 (1996-10-08) · [rulings](https://api.scryfall.com/cards/3a2bf39b-9665-426b-b618-eb731d24a1ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reflecting Mirror
@@ -73,7 +95,11 @@
 - **Oracle text:**
   > {X}, {T}: Change the target of target spell with a single target if that target is you. The new target must be a player. X is twice the mana value of that spell.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29577 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/drk/106/reflecting-mirror) · oracle_id `2fb505c6-3d28-4b83-9820-4b9db64c8304` · printing: DRK #106 (1994-08-01) · [rulings](https://api.scryfall.com/cards/d551ff93-d8da-4c21-bc3c-6451c0dde07e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — Can’t be used on abilities of permanents. Those are abilities and not spells.
+  - *2004-10-04* — This can’t be used on spells which affect “you” and which do not say they target you.
+  - *2004-10-04* — This spell only changes the target of a spell, and not the player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/drk/106/reflecting-mirror) · oracle_id `2fb505c6-3d28-4b83-9820-4b9db64c8304` · printing: DRK #106 (1994-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reflecting Pool
 
@@ -120,6 +146,7 @@
   > {T}: Add one mana of any color that shares a color with a permanent a player controls.
   > {2}, {T}, Sacrifice this land: You gain 3 life.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UL03a/reflective-gate) · oracle_id `dc9192c2-cc45-42ae-a340-68a9e088f459` · printing: UNK #UL03a (2025-02-21) · [rulings](https://api.scryfall.com/cards/7c3676fe-b687-4b6b-b2df-3ce443edbc6b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reflective Golem
@@ -132,6 +159,7 @@
 - **Flavor text** (STX printing):
   > *"We don't cut through Sedgemoor anymore. Can't get five steps without a groff trying to fight its own reflection."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24223 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/257/reflective-golem) · oracle_id `3c067dbb-934b-4ebb-a656-8541349a4b2a` · printing: STX #257 (2021-04-23) · [rulings](https://api.scryfall.com/cards/c01770c4-8848-495d-8af4-26152d45e9d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reflector Mage
@@ -157,6 +185,7 @@
   > Enchanted creature has first strike. (It deals combat damage before creatures without first strike.)
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26239 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/211/reflexes) · oracle_id `dc87b0a5-3d9d-44eb-b415-b022acd63cf1` · printing: 9ED #211 (2005-07-29) · [rulings](https://api.scryfall.com/cards/139d9770-4316-4ac1-b235-5a1d6e15cece/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reflex Sliver
@@ -170,7 +199,10 @@
   > *"This sliver comes into the world a perfect predator. It's ready to hunt and devour its first meal within seconds of hatching."*
   > *—Rukarumel, field journal*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14173 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/226/reflex-sliver) · oracle_id `80e4e857-3f7e-4344-bf41-64d3b32f328f` · printing: TSR #226 (2021-03-19) · [rulings](https://api.scryfall.com/cards/2e14da2f-0e35-4586-8435-de0859aad060/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn't provide any additional benefit.
+  - *2013-07-01* — If the creature type of a Sliver changes so it's no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/226/reflex-sliver) · oracle_id `80e4e857-3f7e-4344-bf41-64d3b32f328f` · printing: TSR #226 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Refocus
 
@@ -207,7 +239,17 @@
   > If an opponent cast a red instant or sorcery spell this turn, you may pay {W} rather than pay this spell's mana cost.
   > Prevent the next 3 damage that a source of your choice would deal to you and/or permanents you control this turn. If damage is prevented this way, Refraction Trap deals that much damage to any target.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29794 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/17/refraction-trap) · oracle_id `0fc0554d-da45-49d2-941b-3f6c6458e823` · printing: WWK #17 (2010-02-05) · [rulings](https://api.scryfall.com/cards/bcdceb36-fd36-4315-8ebe-9b8fc3777428/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2010-03-01* — If Refraction Trap doesn’t prevent any damage (perhaps because a different prevention effect is applied to the damage the source would deal, or because the damage is unpreventable), Refraction Trap won’t deal any damage itself.
+  - *2010-03-01* — If the chosen source would deal damage, Refraction Trap prevents 3 of that source’s damage and the source deals its excess damage (if any) at the same time. Immediately afterward, as part of that same prevention effect, Refraction Trap deals its damage. This happens before state-based actions are checked, and before the spell or ability that caused damage to be dealt resumes its resolution.
+  - *2010-03-01* — If the chosen source would simultaneously deal damage to multiple permanents you control, or would simultaneously deal damage to you and at least one permanent you control, you choose which of that damage to prevent. For example, if the chosen source is Earthquake, you might choose to prevent the next 2 damage it would deal to you and the next 1 damage it would deal to a creature you control. You don’t decide until the point at which the source would deal its damage.
+  - *2010-03-01* — If the targeted permanent or player is an illegal target by the time Refraction Trap resolves, the entire spell doesn’t resolve. No damage will be prevented.
+  - *2010-03-01* — Refraction Trap can prevent damage that would be dealt to you, one or more creatures you control, and/or one or more planeswalkers you control.
+  - *2010-03-01* — Refraction Trap doesn’t target the source of the damage it prevents. You choose that source as Refraction Trap resolves. If you cast Refraction Trap for {W}, the source you choose doesn’t have to be the red instant or sorcery spell an opponent cast.
+  - *2010-03-01* — Refraction Trap’s effect is not a redirection effect. If it prevents damage, Refraction Trap (not the chosen source) deals damage to the targeted permanent or player as part of that prevention effect. Refraction Trap is the source of the new damage, so the characteristics of the original source (such as its color, or whether it had lifelink or deathtouch) don’t affect this damage. The new damage is not combat damage, even if the prevented damage was.
+  - *2010-03-01* — Refraction Trap’s only target is the permanent or player it may deal damage to. You choose that target as you cast Refraction Trap, not at the time it prevents damage.
+  - *2010-03-01* — Whether the targeted permanent or player is still a legal target is no longer checked after Refraction Trap resolves. For example, if a creature targeted by Refraction Trap gains shroud after Refraction Trap resolves but before it prevents damage, Refraction Trap will still prevent damage and still deal damage to that creature. If Refraction Trap can’t deal damage to the targeted permanent or player (because the creature is no longer on the battlefield, or is no longer a creature, or the player is no longer in the game, for example), it will still prevent damage. It just won’t deal any damage itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/17/refraction-trap) · oracle_id `0fc0554d-da45-49d2-941b-3f6c6458e823` · printing: WWK #17 (2010-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Refresh
 
@@ -221,6 +263,7 @@
   > *—Nantuko teaching*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25569 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/264/refresh) · oracle_id `1a4c6643-c48b-4e83-b0c4-96873c13408c` · printing: ODY #264 (2001-10-01) · [rulings](https://api.scryfall.com/cards/0084ba4e-98eb-4eb4-b23e-c5ab4d7d95cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Refreshing Elixir
@@ -232,6 +275,7 @@
   > Hero's Reward — When Refreshing Elixir is put into a graveyard from anywhere, each player gains 5 life.
 - **Keywords:** Hero's Reward
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tbth/14/refreshing-elixir) · oracle_id `c1bf4f41-1afa-467d-96f0-a7b610907d2d` · printing: TBTH #14 (2014-03-01) · [rulings](https://api.scryfall.com/cards/b1d75296-e2a5-48f3-a98d-3633be9f6138/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Refreshing Rain
@@ -242,6 +286,7 @@
   > If an opponent controls a Swamp and you control a Forest, you may cast this spell without paying its mana cost.
   > Target player gains 6 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28222 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/110/refreshing-rain) · oracle_id `c6f69168-71c2-41a2-ab95-cfd7baf0ba68` · printing: NEM #110 (2000-02-14) · [rulings](https://api.scryfall.com/cards/c5e24850-bd9b-40ab-878f-b8a554da1956/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Refurbish
@@ -254,6 +299,7 @@
   > *"There's no reason to buy a new one when I've got the tools to fix the one you've got."*
   > *—Ripu, repair specialist*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15927 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/25/refurbish) · oracle_id `e4e61fe3-27a4-4149-bdfb-67dcfc8eb32c` · printing: KLD #25 (2016-09-30) · [rulings](https://api.scryfall.com/cards/f60e2ac4-f21f-4232-abc8-db078472408b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Refurbished Familiar
@@ -283,7 +329,27 @@
   > Copy target instant or sorcery spell. You may choose new targets for the copy.
 - **Keywords:** Aftermath
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17179 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/199/refuse-cooperate) · oracle_id `7db22241-fe43-4071-9af9-de1cf394f7f5` · printing: C19 #199 (2019-08-23) · [rulings](https://api.scryfall.com/cards/ca4caa4e-6b8f-4be8-b177-de2ebe2c9201/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (19):
+  - *2017-04-18* — A spell with aftermath cast from a graveyard will always be exiled afterward, whether it resolves, it's countered, or it leaves the stack in some other way.
+  - *2017-04-18* — All split cards have two card faces on a single card, and you put a split card onto the stack with only the half you're casting. The characteristics of the half of the card you didn't cast are ignored while the spell is on the stack. For example, if an effect prevents you from casting green spells, you can cast Destined of Destined // Lead, but not Lead.
+  - *2017-04-18* — Each split card has two names. If an effect instructs you to choose a card name, you may choose one, but not both.
+  - *2017-04-18* — Each split card is a single card. For example, if you discard one, you've discarded one card, not two. If an effect counts the number of instant and sorcery cards in your graveyard, Destined // Lead counts once, not twice.
+  - *2017-04-18* — If another effect allows you to cast a split card with aftermath from a graveyard, you may cast either half. If you cast the half that has aftermath, you'll exile the card if it would leave the stack.
+  - *2017-04-18* — If another effect allows you to cast a split card with aftermath from any zone other than a graveyard, you can't cast the half with aftermath.
+  - *2017-04-18* — If you cast the first half of a split card with aftermath during your turn, you'll have priority immediately after it resolves. You can cast the half with aftermath from your graveyard before any player can take any other action if it's legal for you to do so.
+  - *2017-04-18* — Split cards with aftermath have a new frame treatment—the half you can cast from your hand is oriented the same as other cards you'd cast from your hand, while the half you can cast from your graveyard is a traditional split card half. This frame treatment is for your convenience and has no rules significance.
+  - *2017-04-18* — While not on the stack, the characteristics of a split card are the combination of its two halves. For example, Destined // Lead is a green and black card, it is both an instant card and a sorcery card, and its mana value is 6. This means that if an effect allows you to cast a card with mana value 2 from your hand, you can't cast Destined. This is a change from the previous rules for split cards.
+  - *2017-07-14* — Cooperate can copy any instant or sorcery spell, not just one with targets.
+  - *2017-07-14* — If a spell has {X} in its mana cost, include the value chosen for that X when determining the mana value of that spell.
+  - *2017-07-14* — If the spell has damage divided as it was cast (like Chandra's Pyrohelix), the division can't be changed (although the targets receiving that damage still can).
+  - *2017-07-14* — If the spell that's copied has an X whose value was determined as it was cast (like Torment of Hailfire does), the copy will have the same value of X.
+  - *2017-07-14* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode. A different mode can't be chosen.
+  - *2017-07-14* — If you copy a spell, you control the copy. It will resolve before the original spell does.
+  - *2017-07-14* — Once you've started to cast a spell with aftermath from your graveyard, the card is immediately moved to the stack. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+  - *2017-07-14* — The controller of a copy can't choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
+  - *2017-07-14* — The copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger.
+  - *2017-07-14* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/199/refuse-cooperate) · oracle_id `7db22241-fe43-4071-9af9-de1cf394f7f5` · printing: C19 #199 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Refuse to Yield
 
@@ -294,6 +360,7 @@
 - **Flavor text** (SNC printing):
   > *Her opponent threw her through the window, so she retaliated by throwing the window through her opponent.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12102 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/27/refuse-to-yield) · oracle_id `d05aeada-2a9f-464d-8a66-b6e90f43bae3` · printing: SNC #27 (2022-04-29) · [rulings](https://api.scryfall.com/cards/a7b597b3-5792-49e4-9bcb-74012e4e9cb6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Refute
@@ -320,4 +387,5 @@
   > *Quandrix believed in finding the equations of the natural world. Hexhaven disrupted the pattern of existence.*
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26683 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/18/refute-destiny) · oracle_id `2a18b3f0-8a78-46d8-b60f-3cd634062f1b` · printing: FRA #18 (2026-10-02) · [rulings](https://api.scryfall.com/cards/2c588954-c6eb-4aae-a2fa-0651ccf2d90a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

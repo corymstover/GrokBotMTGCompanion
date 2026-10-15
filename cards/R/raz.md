@@ -56,6 +56,7 @@
   > *"The blood ritual is complete. The end approaches."*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10327 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/74/razakeths-rite) · oracle_id `0ab0be8e-d6be-411b-827f-584bb5d03766` · printing: HOU #74 (2017-07-14) · [rulings](https://api.scryfall.com/cards/dd36987a-48c3-477b-b859-0268e84b7e7b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razaketh, the Foulblooded
@@ -83,6 +84,7 @@
 - **Flavor text** (USG printing):
   > *The viashino believe that the oldest mountains hate everyone equally.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21362 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/207/raze) · oracle_id `02fde433-955d-49df-bd72-270b6feac9e7` · printing: USG #207 (1998-10-12) · [rulings](https://api.scryfall.com/cards/56d51b3c-24e9-41b6-b7cd-c70329e498ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raze the Effigy
@@ -109,7 +111,9 @@
 - **Flavor text** (BRO printing):
   > *First one, then a second, then a third of the ivory towers fell to the invaders, who moved in a circle around the city like an apocalyptic clock.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22479 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/149/raze-to-the-ground) · oracle_id `efe24eed-e1e2-4807-ae61-2e5be529ae3c` · printing: BRO #149 (2022-11-18) · [rulings](https://api.scryfall.com/cards/838b25d2-7615-4375-a5e6-3d762c9072a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-14* — "This spell can't be countered" means it can't be countered even by the ward keyword ability. The spell's controller may still pay the ward cost if it targets an artifact with ward, but Raze to the Ground won't be countered if they don't.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/149/raze-to-the-ground) · oracle_id `efe24eed-e1e2-4807-ae61-2e5be529ae3c` · printing: BRO #149 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razia, Boros Archangel
 
@@ -123,7 +127,10 @@
   > *Her sword burns with such brightness that foes avert their eyes and arrows divert their paths.*
 - **Keywords:** Flying, Vigilance, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20378 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/hop/92/razia-boros-archangel) · oracle_id `d830a136-6fb9-42e7-81f1-97e1d713ee82` · printing: HOP #92 (2009-09-04) · [rulings](https://api.scryfall.com/cards/87e80447-9572-43a7-8487-3249cd9ce596/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2005-10-01* — If either target creature leaves the battlefield before damage is dealt, that damage won’t be redirected. It doesn’t matter if Razia leaves the battlefield.
+  - *2005-10-01* — The 3 damage doesn’t have to be from the same source, and it doesn’t have to be all dealt at once. If only 2 damage is redirected, the next 1 damage will also be redirected.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hop/92/razia-boros-archangel) · oracle_id `d830a136-6fb9-42e7-81f1-97e1d713ee82` · printing: HOP #92 (2009-09-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razia's Purification
 
@@ -134,7 +141,10 @@
 - **Flavor text** (RAV printing):
   > *Only the chosen ones are spared.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21498 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rav/224/razias-purification) · oracle_id `60e95faf-1496-4298-9588-52b50b05fc6b` · printing: RAV #224 (2005-10-07) · [rulings](https://api.scryfall.com/cards/73bfefd3-bddd-47bb-92f3-9356a7bca637/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2005-10-01* — If a player doesn’t control three permanents, that player chooses all the permanents they do control and doesn’t sacrifice anything.
+  - *2005-10-01* — Players choose permanents in turn order around the table, then simultaneously sacrifice all permanents not chosen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rav/224/razias-purification) · oracle_id `60e95faf-1496-4298-9588-52b50b05fc6b` · printing: RAV #224 (2005-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razing Snidd
 
@@ -145,7 +155,10 @@
   > When this creature enters, return a black or red creature you control to its owner's hand.
   > When this creature enters, each player sacrifices a land of their choice.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32124 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pls/121/razing-snidd) · oracle_id `bbcd2045-cf51-4346-a561-ebae8ffdc181` · printing: PLS #121 (2001-02-05) · [rulings](https://api.scryfall.com/cards/d2090b80-2ce2-4c9a-87fe-d221f3c677b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — It probably won’t matter much, but you choose the order in which the two triggered abilities are placed on the stack.
+  - *2004-10-04* — You choose the creature to return on resolution of the triggered ability. This is not targeted.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pls/121/razing-snidd) · oracle_id `bbcd2045-cf51-4346-a561-ebae8ffdc181` · printing: PLS #121 (2001-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razor Barrier
 
@@ -156,6 +169,7 @@
 - **Flavor text** (DDF printing):
   > *"We protect our homelands. Why should they not protect us?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24950 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddf/26/razor-barrier) · oracle_id `669701a5-fd7a-43f8-93f4-da7a8c4dd3dc` · printing: DDF #26 (2010-09-03) · [rulings](https://api.scryfall.com/cards/0455bae2-030b-4176-9953-11be82021145/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razor Boomerang
@@ -169,7 +183,12 @@
   > *Few can catch it without losing a finger.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27946 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/129/razor-boomerang) · oracle_id `f2649e48-4252-43f3-bd1e-c4c6fcb0aa3a` · printing: WWK #129 (2010-02-05) · [rulings](https://api.scryfall.com/cards/41526ad7-730d-44ad-bd19-e1b8a2717cf7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2010-03-01* — If Razor Boomerang is no longer on the battlefield by time the equipped creature’s ability resolves, it’s not returned to its owner’s hand. The rest of the ability resolves as normal, so Razor Boomerang will still deal damage to the targeted creature.
+  - *2010-03-01* — If the targeted creature is an illegal target by the time the equipped creature’s ability resolves, the entire ability doesn’t resolve. Razor Boomerang remains on the battlefield unattached.
+  - *2010-03-01* — The source of the damage is Razor Boomerang, not the equipped creature. However, the equipped creature’s ability is what targets the permanent or player. If Razor Boomerang is equipped to a red creature, for example, the ability couldn’t target a creature with protection from red. It could target a creature with protection from artifacts, but all the damage would be prevented.
+  - *2010-03-01* — Unattaching Razor Boomerang is a cost to activate the equipped creature’s ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/129/razor-boomerang) · oracle_id `f2649e48-4252-43f3-bd1e-c4c6fcb0aa3a` · printing: WWK #129 (2010-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razorclaw Bear
 
@@ -182,6 +201,7 @@
   > *One razorclaw is three bears too many.*
   > *—Elvish saying*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21002 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/p02/142/razorclaw-bear) · oracle_id `3ee07899-e6d6-4dcf-8596-4d2420690d7c` · printing: P02 #142 (1998-06-24) · [rulings](https://api.scryfall.com/cards/08c0cdbe-ca74-4edc-96ea-6db8eefe99d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razorfield Rhino
@@ -195,6 +215,7 @@
   > *Adapted to tread on razorgrass, the rhino proved adept at treading on Phyrexians as well.*
 - **Keywords:** Metalcraft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27306 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbs/127/razorfield-rhino) · oracle_id `834efbf7-7b93-42ac-ab20-0b7b8ca58a16` · printing: MBS #127 (2011-02-04) · [rulings](https://api.scryfall.com/cards/2019a1b4-7f88-4c8a-9ef4-bdfbd2f9e9cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razorfield Ripper
@@ -240,6 +261,7 @@
 - **Flavor text** (SOM printing):
   > *DANGER! Keep appendages clear of front of machine. And rear of machine. And side of machine. And top of machine.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28870 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/197/razorfield-thresher) · oracle_id `a8b9e29d-e757-4758-8c5e-7013853e2e92` · printing: SOM #197 (2010-10-01) · [rulings](https://api.scryfall.com/cards/b0a74203-d342-489d-a584-bca78ef3331d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razorfin Abolisher
@@ -252,7 +274,10 @@
 - **Flavor text** (EVE printing):
   > *Once you have been marked by the merrow, you are not long for their waters.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27976 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eve/28/razorfin-abolisher) · oracle_id `38a2ded4-77c5-4d2b-b411-7dca8108aa02` · printing: EVE #28 (2008-07-25) · [rulings](https://api.scryfall.com/cards/ed978036-c473-46d8-8302-3707d222aff5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-08-01* — If the targeted creature no longer has any counters on it when the ability resolves, the ability won’t resolve because its only target is illegal. The creature will stay on the battlefield.
+  - *2008-08-01* — Razorfin Abolisher’s ability can target a creature with any kind of counter on it, not just a -1/-1 counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eve/28/razorfin-abolisher) · oracle_id `38a2ded4-77c5-4d2b-b411-7dca8108aa02` · printing: EVE #28 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razorfin Hunter
 
@@ -264,6 +289,7 @@
 - **Flavor text** (APC printing):
   > *No one knew if they'd been lurking under the sea all along, or if they'd been created by the Phyrexian overlay.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15467 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/apc/119/razorfin-hunter) · oracle_id `45baa5d1-79aa-4583-b938-0d5feaa5aa0c` · printing: APC #119 (2001-06-04) · [rulings](https://api.scryfall.com/cards/99829552-917a-4373-9772-4255dff542d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razorfoot Griffin
@@ -278,6 +304,7 @@
   > *Like a meteor, it strikes from above without warning. Unlike a meteor, it then carries you off and eats you.*
 - **Keywords:** Flying, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23771 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m15/27/razorfoot-griffin) · oracle_id `c7ecb785-2bfc-4953-b356-db7c27406dbb` · printing: M15 #27 (2014-07-18) · [rulings](https://api.scryfall.com/cards/662d812f-4936-48e4-acbe-abccf9ab21c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razor Golem
@@ -292,6 +319,7 @@
   > *The longer it stands among the deadly blades of the Razor Fields, the more it adopts their harsh exterior.*
 - **Keywords:** Affinity, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25560 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dst/137/razor-golem) · oracle_id `c7b2188a-7571-48b8-ac66-ca741bf2e779` · printing: DST #137 (2004-02-06) · [rulings](https://api.scryfall.com/cards/64a86ec3-378f-4fca-b5f7-6dc02d47f7b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razorgrass Ambush // Razorgrass Field
@@ -328,7 +356,9 @@
   > *"Let the beauty of our land lull them so that they may stumble upon its hidden thorns."*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26045 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/j25/22/razorgrass-invoker) · oracle_id `ea2a6bee-8634-429d-a5ca-e5f9f7eb9350` · printing: J25 #22 (2024-11-15) · [rulings](https://api.scryfall.com/cards/41a76981-b792-49da-8c1c-34991adf3ff4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — You don't have to choose a target for Razorgrass Invoker's last ability. However, if you do and the target creature is an illegal target as the ability tries to resolve, it won't resolve and none of its effects will happen. Razorgrass Invoker won't get +3/+3. (Razorgrass cuts both ways, apparently.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/j25/22/razorgrass-invoker) · oracle_id `ea2a6bee-8634-429d-a5ca-e5f9f7eb9350` · printing: J25 #22 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razorgrass Screen
 
@@ -342,6 +372,7 @@
   > *Hand-stitched, and marked by the blood of the Auriok.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26685 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/145/razorgrass-screen) · oracle_id `1818324c-2738-42e2-a78b-63abf325d8e9` · printing: 5DN #145 (2004-06-04) · [rulings](https://api.scryfall.com/cards/21e79f57-2214-414a-ab34-2b737d4bb972/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razor Hippogriff
@@ -356,7 +387,10 @@
   > *She incubates her eggs in gold and mana.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27354 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c13/19/razor-hippogriff) · oracle_id `d121108e-f0bc-469b-bf94-e5e5308014a2` · printing: C13 #19 (2013-11-01) · [rulings](https://api.scryfall.com/cards/3ed71d2e-dbf4-42e0-a70c-ab82b59bc048/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-01-01* — If the artifact card in your graveyard is an illegal target by the time the ability resolves, the ability won’t resolve. You won’t gain any life.
+  - *2011-01-01* — If the mana cost of the targeted card includes {X}, X is considered to be 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c13/19/razor-hippogriff) · oracle_id `d121108e-f0bc-469b-bf94-e5e5308014a2` · printing: C13 #19 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razorjaw Oni
 
@@ -368,6 +402,7 @@
 - **Flavor text** (CMA printing):
   > *It gnashed its teeth, and the battlefield filled with the screech of blade striking blade.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29352 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cma/63/razorjaw-oni) · oracle_id `ed8bc0f2-5a65-4eb4-bf88-3642a55b6889` · printing: CMA #63 (2017-06-09) · [rulings](https://api.scryfall.com/cards/dc2f0652-acb6-4392-968e-7d0e9143a925/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razorkin Hordecaller
@@ -382,7 +417,9 @@
   > *"Know your place, pets! First blood is mine!"*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16931 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/152/razorkin-hordecaller) · oracle_id `3fc4bdf1-7da3-4f9f-806f-f82cd18ea65f` · printing: DSK #152 (2024-09-27) · [rulings](https://api.scryfall.com/cards/f7fb0f11-d1d0-4941-a1a7-a2db88f30394/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — Attacking with any creatures will cause Razorkin Hordecaller's last ability to trigger. Razorkin Hordecaller doesn't have to be among them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/152/razorkin-hordecaller) · oracle_id `3fc4bdf1-7da3-4f9f-806f-f82cd18ea65f` · printing: DSK #152 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razorkin Needlehead
 
@@ -408,6 +445,7 @@
   > This creature can't block.
   > {4}{B}{B}: Return this card from your graveyard to the battlefield with a +1/+1 counter on it. This ability costs {4} less to activate if an opponent controls four or more nonbasic lands.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11937 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/122/razorlash-transmogrant) · oracle_id `580996d4-db9a-4b57-a0e1-a2dbb524121a` · printing: BRO #122 (2022-11-18) · [rulings](https://api.scryfall.com/cards/edfaf8cc-7819-4ec2-8d79-e3b0c1814590/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razormane Masticore
@@ -421,6 +459,7 @@
   > At the beginning of your draw step, you may have this creature deal 3 damage to target creature.
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27412 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddf/56/razormane-masticore) · oracle_id `ee45b588-b424-49d3-9e37-270f2ae9490d` · printing: DDF #56 (2010-09-03) · [rulings](https://api.scryfall.com/cards/5e40c79e-3177-416f-b10e-036553d611d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razor Pendulum
@@ -433,6 +472,7 @@
   > *"Amazing thing, gravity. It seems to work every time."*
   > *—Telim'Tor*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30466 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/317/razor-pendulum) · oracle_id `bf7c16db-01c9-41ed-bda6-c5326198ce77` · printing: MIR #317 (1996-10-08) · [rulings](https://api.scryfall.com/cards/72562860-6097-4c63-9858-ae130805f4d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razor Rings
@@ -445,7 +485,9 @@
   > *"There's someone in there! He's bending the vines!"*
   > *—Sokka*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15900 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/33/razor-rings) · oracle_id `eb5afbd7-4d21-4449-9204-eeb4ebf6a72a` · printing: TLA #33 (2025-11-21) · [rulings](https://api.scryfall.com/cards/b05cfee5-ee59-4df6-a5f6-d9ef0fa7f98a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-10-02* — Excess damage has been dealt to a creature if the damage dealt to it is greater than lethal damage. Usually, this means damage greater than its toughness, although damage already marked on the creature is taken into account.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/33/razor-rings) · oracle_id `eb5afbd7-4d21-4449-9204-eeb4ebf6a72a` · printing: TLA #33 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razor Swine
 
@@ -460,6 +502,7 @@
   > *—Furnace boss, sector 12*
 - **Keywords:** First strike, Infect
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18567 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nph/92/razor-swine) · oracle_id `4d5649a1-5716-4560-a956-84300bf6a2f4` · printing: NPH #92 (2011-05-13) · [rulings](https://api.scryfall.com/cards/2fb022a3-5f9e-491e-8340-087e33f927d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razortide Bridge
@@ -487,6 +530,7 @@
   > *"It no longer surprises me what shows up in our raid of a Rakdos revue."*
   > *—Janik Bara, Wojek captain*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25962 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gtc/235/razortip-whip) · oracle_id `44cf7fd5-721f-41f4-ae78-cf93afeff5f1` · printing: GTC #235 (2013-02-01) · [rulings](https://api.scryfall.com/cards/24619d3f-1051-4d8e-9c8d-70a12621b282/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razortooth Rats
@@ -501,6 +545,7 @@
   > *—Crovax, ascendant evincar*
 - **Keywords:** Fear
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18911 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/158/razortooth-rats) · oracle_id `72e9a207-dad9-4c51-8040-e90a36bd35e6` · printing: 9ED #158 (2005-07-29) · [rulings](https://api.scryfall.com/cards/92750247-eba4-4810-a758-f943cd8a16b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razortrap Gorge
@@ -542,4 +587,7 @@
 - **Flavor text** (OTJ printing):
   > *"Now you see me, now you—"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15179 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/63/razzle-dazzler) · oracle_id `a1ac6d5c-b2d0-4ca4-8af8-16fd3dd3b3b5` · printing: OTJ #63 (2024-04-19) · [rulings](https://api.scryfall.com/cards/f7d08008-9272-405e-82ef-566e6d42bb17/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-04-12* — Once Razzle-Dazzler has been blocked, casting your second spell for the turn won’t remove the blocking creature from combat or cause Razzle-Dazzler to become unblocked.
+  - *2024-04-12* — Spells that were cast before Razzle-Dazzler entered the battlefield count. If Razzle-Dazzler was the first spell you cast this turn, the next spell you cast this turn is your second spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/63/razzle-dazzler) · oracle_id `a1ac6d5c-b2d0-4ca4-8af8-16fd3dd3b3b5` · printing: OTJ #63 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

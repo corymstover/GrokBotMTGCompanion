@@ -49,7 +49,9 @@
 - **Flavor text** (M19 printing):
   > *"The land already knows its destiny. I simply ask it to share the tale with me."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17986 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/178/dryad-greenseeker) · oracle_id `5c43c1d7-1899-45c1-992b-443873890d78` · printing: M19 #178 (2018-07-13) · [rulings](https://api.scryfall.com/cards/30171803-1e7b-430b-a0de-2dfd2f1115ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-07-13* — If the top card of your library isn’t a land card, or if you choose not to reveal it, it remains on top of your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/178/dryad-greenseeker) · oracle_id `5c43c1d7-1899-45c1-992b-443873890d78` · printing: M19 #178 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dryad Militant
 
@@ -62,7 +64,10 @@
 - **Flavor text** (FDN printing):
   > *"Once, my guild welcomed outsiders. Too many preyed on our generosity, mistaking it for weakness. No more."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19053 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/656/dryad-militant) · oracle_id `b8ca5877-ac9e-4b15-8c23-c70f61b01895` · printing: FDN #656 (2024-11-15) · [rulings](https://api.scryfall.com/cards/8fb36712-26e9-4ec7-8946-626bb7094c15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2012-10-01* — If an instant or sorcery card is discarded while Dryad Militant is on the battlefield, abilities that function when a card is discarded (such as madness) still work, even though that card never reaches a graveyard. In addition, spells or abilities that check the characteristics of a discarded card (such as Chandra Ablaze's first ability) can find that card in exile.
+  - *2012-10-01* — If an instant or sorcery spell destroys Dryad Militant directly (like Murder does), that instant or sorcery card will be put into its owner's graveyard. However, if an instant or sorcery card deals lethal damage to Dryad Militant, Dryad Militant will remain on the battlefield until the next time state-based actions are checked, which is after the instant or sorcery finishes resolving. The instant or sorcery will be exiled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/656/dryad-militant) · oracle_id `b8ca5877-ac9e-4b15-8c23-c70f61b01895` · printing: FDN #656 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dryad of the Ilysian Grove
 
@@ -92,7 +97,10 @@
   > *"I awoke to the face of beauty, my body fully healed. In that moment I knew my destiny was the Conclave's to shape."*
   > *—Rogad, Selesnya initiate*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26760 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rav/160/dryads-caress) · oracle_id `7df07d16-e5cf-4c58-980a-632909aa1357` · printing: RAV #160 (2005-10-07) · [rulings](https://api.scryfall.com/cards/8cf707f2-1a62-458e-bcc8-8b1cd081f225/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2005-10-01* — If the spell is copied (such as with Twincast), the copy will never have had mana of the stated color paid for it, no matter what colors were spent on the original spell.
+  - *2005-10-01* — The spell checks on resolution to see if any mana of the stated color was spent to pay its cost. It doesn’t matter how much mana of that color was spent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rav/160/dryads-caress) · oracle_id `7df07d16-e5cf-4c58-980a-632909aa1357` · printing: RAV #160 (2005-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dryad's Favor
 
@@ -105,7 +113,9 @@
   > *She grants knowledge of the ways to traverse the forest's invisible connections.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18920 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m11/169/dryads-favor) · oracle_id `af740170-af87-487c-abab-a6ccdea82d97` · printing: M11 #169 (2010-07-16) · [rulings](https://api.scryfall.com/cards/c259509e-9f95-4566-b78a-ba34107539f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2010-08-15* — Forestwalk cares about lands with the land type Forest, not necessarily lands named Forest.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m11/169/dryads-favor) · oracle_id `af740170-af87-487c-abab-a6ccdea82d97` · printing: M11 #169 (2010-07-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dryad Sophisticate
 
@@ -118,7 +128,9 @@
   > *From Tin Street to the Outcast Mansions, she walks unbidden and unbound, her graceful silence never shaken by the riot of city life around her.*
 - **Keywords:** Landwalk, Nonbasic landwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18633 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/83/dryad-sophisticate) · oracle_id `7cf59255-0ad7-4ca8-bc95-f3a8cc2643d5` · printing: GPT #83 (2006-02-03) · [rulings](https://api.scryfall.com/cards/0b5bf5ce-f7f8-47cb-abb8-f14ce5f1af67/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-02-01* — "Nonbasic landwalk" means "This creature can't be blocked as long as defending player controls a nonbasic land." A nonbasic land is any land that lacks the basic supertype, whether or not it has a basic land type (such as Island).
+- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/83/dryad-sophisticate) · oracle_id `7cf59255-0ad7-4ca8-bc95-f3a8cc2643d5` · printing: GPT #83 (2006-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dryad's Revival
 
@@ -150,4 +162,5 @@
   > *"Wherever water is lacking, all things suffer."*
   > *—Autumn Willow*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22195 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/87/dry-spell) · oracle_id `980a9957-6b52-45c6-b847-f84974d5a653` · printing: ME2 #87 (2008-09-22) · [rulings](https://api.scryfall.com/cards/54558c35-89fd-4733-8419-81fd7a619319/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

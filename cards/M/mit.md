@@ -63,7 +63,11 @@
   > *"They can't even comprehend nature. How could they improve it?"*
   > *—Venser*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15356 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/27/mitotic-manipulation) · oracle_id `69cc006d-172f-4e4c-bb75-10d772b061b1` · printing: MBS #27 (2011-02-04) · [rulings](https://api.scryfall.com/cards/2abd4521-62c8-4b2f-a406-a8ddfa8f475a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2011-06-01* — No matter how many of the seven cards have the same name as a permanent, you can put only one of them onto the battlefield.
+  - *2011-06-01* — You don’t reveal any of the other cards or the order in which they go to the bottom of your library.
+  - *2011-06-01* — “The same name as a permanent” means the same name as a permanent currently on the battlefield as Mitotic Manipulation resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/27/mitotic-manipulation) · oracle_id `69cc006d-172f-4e4c-bb75-10d772b061b1` · printing: MBS #27 (2011-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mitotic Slime
 

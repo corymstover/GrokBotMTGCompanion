@@ -20,6 +20,7 @@
 - **Flavor text** (UNH printing):
   > *The only rare you'll ever need. Okay, not really.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/119/rare-b-gone) · oracle_id `9856a5f8-88bf-43cd-9527-8fd1d9b0101f` · printing: UNH #119 (2004-11-19) · [rulings](https://api.scryfall.com/cards/09274a32-c764-4239-bab0-675ddcb57c13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rarity
@@ -33,4 +34,5 @@
 - **Flavor text** (PTG printing):
   > *"I simply cannot let crimes against fabulosity go uncorrected."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptg/3/rarity) · oracle_id `d7d46d09-eadf-4e82-8a4e-86ce981a7b0f` · printing: PTG #3 (2019-10-22) · [rulings](https://api.scryfall.com/cards/9ad30de4-8299-4252-99f9-866719ec047d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

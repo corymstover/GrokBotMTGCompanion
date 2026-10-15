@@ -59,7 +59,9 @@
   > *"There will be no mercy for thee!"*
 - **Keywords:** Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10293 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/16/cyan-vengeful-samurai) · oracle_id `5a2fa420-c27f-4c14-b285-e0bb2828e053` · printing: FIC #16 (2025-06-13) · [rulings](https://api.scryfall.com/cards/a1e779b4-32dd-406b-8b68-48f6df458005/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — If multiple creature cards leave your graveyard at the same time, Cyan's last ability will trigger only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/16/cyan-vengeful-samurai) · oracle_id `5a2fa420-c27f-4c14-b285-e0bb2828e053` · printing: FIC #16 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cyber Conversion
 
@@ -115,6 +117,7 @@
   > Whenever this creature attacks and isn't blocked, it gets +X/+0 until end of turn, where X is the number of attacking artifact creatures.
 - **Keywords:** Skulk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12586 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/175/cybermat) · oracle_id `ca173221-1661-41f6-a353-29a32d6ccce0` · printing: WHO #175 (2023-10-13) · [rulings](https://api.scryfall.com/cards/db625a36-5b87-4ddd-8c9e-0969ff8e6488/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cybermen Squadron
@@ -150,7 +153,9 @@
   > *"Engaging Protector protocol."*
 - **Keywords:** Field Reprogramming, Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17365 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/114/cybernetica-datasmith) · oracle_id `23a265ef-d651-4d8d-94dd-0072f83541f9` · printing: 40K #114 (2022-10-07) · [rulings](https://api.scryfall.com/cards/28624370-ba28-4879-bd43-0a00761e780d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-07* — Both targets must be chosen when putting Cybernetica Datasmith's activated ability on the stack. Notably, this means that if you target yourself to draw a card, you don't get to see what that card is before choosing which player to give a Robot to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/114/cybernetica-datasmith) · oracle_id `23a265ef-d651-4d8d-94dd-0072f83541f9` · printing: 40K #114 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cybernetic Specialist
 
@@ -164,6 +169,7 @@
   > *What Airiam lost made what she kept so much more precious.*
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31140 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/262/cybernetic-specialist) · oracle_id `9fc49a69-f80c-478f-b237-66f155c0c09a` · printing: TRK #262 (2026-11-13) · [rulings](https://api.scryfall.com/cards/b147f16e-a2d6-4d43-9213-9a2723b0d3ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cybership
@@ -194,7 +200,9 @@
 - **Flavor text** (MIR printing):
   > *Thus does nature assert herself.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31673 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/mir/211/cycle-of-life) · oracle_id `5941374b-eeb8-4d0e-9367-f7f0f8b79739` · printing: MIR #211 (1996-10-08) · [rulings](https://api.scryfall.com/cards/49b53861-97aa-4fff-9526-7d496d1717a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — This does not work on creatures which are put onto the battlefield by an effect instead of by being cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mir/211/cycle-of-life) · oracle_id `5941374b-eeb8-4d0e-9367-f7f0f8b79739` · printing: MIR #211 (1996-10-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cycle of Renewal
 
@@ -218,7 +226,21 @@
   > Suspend 3—{2}{G} (Rather than cast this card from your hand, you may pay {2}{G} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)
 - **Keywords:** Suspend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26287 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fut/125/cyclical-evolution) · oracle_id `bc8213f9-bef7-4077-a919-4347ec373de7` · printing: FUT #125 (2007-05-04) · [rulings](https://api.scryfall.com/cards/f2b2fa14-b08b-4cb9-bd77-c9da1dfa91d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fut/125/cyclical-evolution) · oracle_id `bc8213f9-bef7-4077-a919-4347ec373de7` · printing: FUT #125 (2007-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cyclone
 
@@ -227,6 +249,7 @@
 - **Oracle text:**
   > At the beginning of your upkeep, put a wind counter on this enchantment, then sacrifice this enchantment unless you pay {G} for each wind counter on it. If you pay, this enchantment deals damage equal to the number of wind counters on it to each creature and each player.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26979 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/148/cyclone) · oracle_id `fc9e82b2-f148-431b-9312-97b7101cffe4` · printing: ME4 #148 (2011-01-10) · [rulings](https://api.scryfall.com/cards/e5b304be-916f-46bc-8b09-cf1bbeb1872b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cyclone Sire
@@ -241,7 +264,9 @@
   > *The rampaging Roil creates life out of the most volatile elements.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28210 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/54/cyclone-sire) · oracle_id `4b1c5278-76a9-4c96-b13a-0737aefb79d9` · printing: OGW #54 (2016-01-22) · [rulings](https://api.scryfall.com/cards/bff62270-57ed-4706-bedf-11f60ae2da43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-01-22* — If you target a land that’s already a creature with Cyclone Sire’s triggered ability, that land creature’s base power and toughness will become 0/0, overwriting its previous base power and toughness. Other effects that modify its power and/or toughness (including the new and any previously-existing +1/+1 counters) will continue to apply.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/54/cyclone-sire) · oracle_id `4b1c5278-76a9-4c96-b13a-0737aefb79d9` · printing: OGW #54 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cyclone Summoner
 
@@ -289,7 +314,23 @@
   > Whenever Cyclonus deals combat damage to a player, convert it. If you do, there is an additional beginning phase after this phase. (The beginning phase includes the untap, upkeep, and draw steps.)
 - **Keywords:** Flying, Living metal, Convert, More Than Meets the Eye, Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12537 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/bot/9/cyclonus-the-saboteur-cyclonus-cybertronian-fighter) · oracle_id `7ead01b9-def3-4f9d-a860-af64e94cb45e` · printing: BOT #9 (2022-11-18) · [rulings](https://api.scryfall.com/cards/2d3bb50a-2892-4e28-aa70-ab8d0fcdcc73/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2022-10-14* — "Living metal" means "As long as it's your turn, this permanent is an artifact creature in addition to its other types."
+  - *2022-10-14* — "More Than Meets the Eye [cost]" means "You may cast this card converted by paying [cost] rather than its mana cost." It functions in any zone from which the spell can be cast.
+  - *2022-10-14* — A spell cast this way enters the battlefield with its back face up.
+  - *2022-10-14* — After Cyclonus, Cybertronian Fighter converts into Cyclonus, the Saboteur, it's still an attacking creature in combat, and will still have any gained abilities. Notably, if it has somehow gained double strike, it will convert before dealing combat damage in the regular combat damage step. This may cause it to convert again when it deals combat damage to a player a second time.
+  - *2022-10-14* — Any triggered ability of another card that triggers whenever a permanent transforms will also trigger whenever a permanent converts.
+  - *2022-10-14* — Converting a permanent doesn't affect any Auras or Equipment that are attached to it. Similarly, any counters on the permanent will remain on that permanent after it converts. Any continuous effects from a resolved spell or ability will continue to affect it. Any spells or abilities on the stack that target a permanent continue to do so after that permanent converts.
+  - *2022-10-14* — If a static ability of another permanent applies only to noncreature permanents, that ability applies to a Vehicle with living metal only during your opponents' turns. For example, if you control Arcee, Acrobatic Coupe and March of the Machines, Arcee will be a 2/2 artifact creature during your turn and a 3/3 artifact creature (because its mana value is 3) during each opponent's turn.
+  - *2022-10-14* — If you copy a permanent spell cast this way, the copy has the characteristics of the card's back face, even though it isn't itself a double-faced card.
+  - *2022-10-14* — Similarly, an ability of another card that instructs you to "transform" one of these cards will cause you to convert it, even if that ability doesn't use the word "convert."
+  - *2022-10-14* — The convert keyword action functions the same way as the transform keyword action found on some other cards; to convert a permanent on the battlefield, turn it over so that its other face is up.
+  - *2022-10-14* — The cost is an alternative cost, so it can't be combined with any other alternative costs. It can be combined with any applicable additional costs.
+  - *2022-10-14* — The mana value of a converted permanent on the battlefield is equal to the mana value of the card's front face, no matter which face is up.
+  - *2022-10-14* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a More Than Meets the Eye cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using More Than Meets the Eye is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was.
+  - *2022-10-14* — When you cast a spell using its More Than Meets the Eye ability, the card is put onto the stack with its back face up. The resulting spell has all characteristics of that face.
+  - *2022-10-14* — While it's a creature, the Vehicle has its printed power and toughness.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bot/9/cyclonus-the-saboteur-cyclonus-cybertronian-fighter) · oracle_id `7ead01b9-def3-4f9d-a860-af64e94cb45e` · printing: BOT #9 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cyclopean Giant
 
@@ -301,7 +342,10 @@
 - **Flavor text** (TSP printing):
   > *A tomb-eye may remain shut for centuries. It opens when it sees a world as twisted and hollow as the wretch beneath its lid.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30428 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/100/cyclopean-giant) · oracle_id `d02427fa-3ef0-484f-acad-63a1d5218727` · printing: TSP #100 (2006-10-06) · [rulings](https://api.scryfall.com/cards/fab6bc89-492a-46a4-90dc-95ae2e2bc483/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2006-09-25* — If a Vesuvan Shapeshifter that’s copying Cyclopean Giant is put into a graveyard, the Shapeshifter will be exiled when the ability resolves even though it’s not a Cyclopean Giant anymore.
+  - *2006-09-25* — If the triggered ability doesn’t resolve (the targeted land becomes an illegal target, for example), Cyclopean Giant remains in the graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/100/cyclopean-giant) · oracle_id `d02427fa-3ef0-484f-acad-63a1d5218727` · printing: TSP #100 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cyclopean Mummy
 
@@ -311,7 +355,10 @@
 - **Oracle text:**
   > When this creature dies, exile it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31717 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/72/cyclopean-mummy) · oracle_id `f5f2c98c-dd89-4b60-83e5-07f5fdc699ef` · printing: ME4 #72 (2011-01-10) · [rulings](https://api.scryfall.com/cards/8de50323-7ce8-4ca6-a90b-b4be9d639752/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — It does not get exiled if it goes to the graveyard from someplace other than the battlefield. This includes discarding from your hand or if the spell is countered.
+  - *2004-10-04* — The Mummy does go to the graveyard and trigger abilities which watch for something going to the graveyard. It then gets exiled as a triggered ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/72/cyclopean-mummy) · oracle_id `f5f2c98c-dd89-4b60-83e5-07f5fdc699ef` · printing: ME4 #72 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cyclopean Snare
 
@@ -322,6 +369,7 @@
 - **Flavor text** (RAV printing):
   > *The spoiled, gluttonous halls of the Orzhov teem with gaudy, needless wealth. Even their security measures are made for beauty first, efficiency second.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30147 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/259/cyclopean-snare) · oracle_id `6f5a86bf-caa7-48c9-a59f-b13fb483a9d4` · printing: RAV #259 (2005-10-07) · [rulings](https://api.scryfall.com/cards/22ba776a-c959-4d15-aa36-9fba1fcb512d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cyclopean Titan
@@ -333,7 +381,10 @@
   > When Cyclopean Titan dies, two target lands become Swamps. Exile Cyclopean Titan.
   > {3}, {T}: Tap target creature, then return Cyclopean Titan to its owner's hand.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/40/cyclopean-titan) · oracle_id `31f59a3e-a040-451c-999e-1f60cb957c57` · printing: CMB2 #40 (2021-08-20) · [rulings](https://api.scryfall.com/cards/42940241-a173-4f0a-85ec-be589c9c048b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-11-12* — If a land becomes a basic land type (such as Swamp) but not “in addition to its other types,” it loses all other land types it has and all abilities from its rules text and it has “{T}: Add {B}.”
+  - *2019-11-12* — If both target lands become illegal targets, Cyclopean Titan’s triggered ability won’t resolve. It will remain in your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/40/cyclopean-titan) · oracle_id `31f59a3e-a040-451c-999e-1f60cb957c57` · printing: CMB2 #40 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cyclopean Tomb
 
@@ -343,7 +394,11 @@
   > {2}, {T}: Put a mire counter on target non-Swamp land. That land is a Swamp for as long as it has a mire counter on it. Activate only during your upkeep.
   > When this artifact is put into a graveyard from the battlefield, at the beginning of each of your upkeeps for the rest of the game, remove all mire counters from a land that a mire counter was put onto with this artifact but that a mire counter has not been removed from with this artifact.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29220 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/195/cyclopean-tomb) · oracle_id `1edee40f-d153-4d67-aee7-ef08e11e4a79` · printing: ME4 #195 (2011-01-10) · [rulings](https://api.scryfall.com/cards/7c77c7c1-39a5-4049-8e2c-3561b046152e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2006-10-15* — Will not add or remove the supertype snow to or from a land.
+  - *2008-08-01* — The delayed triggered ability created when Cyclopean Tomb is put into a graveyard from the battlefield triggers during each of your upkeeps for the rest of the game. As it resolves, you must remove a mire counter from a land that had a mire counter put on it by that instance of Cyclopean Tomb, but it doesn't matter where the mire counter you remove came from. For instance, you could remove mire counters that were put on the land by Gilder Bairn.
+  - *2008-08-01* — The land remains a Swamp as long as it has a mire counter on it. This effect is not tied to the Tomb remaining on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/195/cyclopean-tomb) · oracle_id `1edee40f-d153-4d67-aee7-ef08e11e4a79` · printing: ME4 #195 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cyclops Electromancer
 
@@ -355,7 +410,10 @@
 - **Flavor text** (CMM printing):
   > *Every storm has an eye.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22726 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/212/cyclops-electromancer) · oracle_id `638ecc20-a275-4810-9669-89a0730c5362` · printing: CMM #212 (2023-08-04) · [rulings](https://api.scryfall.com/cards/bd56c7dd-8388-400c-a8fb-bc6a69655c56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-05-03* — A split card that's both an instant and a sorcery is counted only once for Cyclops Electromancer's ability.
+  - *2019-05-03* — The number of instant and sorcery cards in your graveyard is counted only as Cyclops Electromancer's ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/212/cyclops-electromancer) · oracle_id `638ecc20-a275-4810-9669-89a0730c5362` · printing: CMM #212 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cyclops Gladiator
 
@@ -365,7 +423,11 @@
 - **Oracle text:**
   > Whenever this creature attacks, you may have it deal damage equal to its power to target creature defending player controls. If you do, that creature deals damage equal to its power to this creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24590 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m11/131/cyclops-gladiator) · oracle_id `ca5711d1-8cc9-4540-a567-778b56d51f50` · printing: M11 #131 (2010-07-16) · [rulings](https://api.scryfall.com/cards/b6f2eddc-b296-40d0-bf59-44899f1570e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2010-08-15* — Cyclops Gladiator’s ability triggers and resolves during the declare attackers step, before blockers are declared. If it survives, it continues to attack (presumably with some damage marked on it) and may be blocked.
+  - *2010-08-15* — If the targeted creature leaves the battlefield (or otherwise becomes an illegal target) before the ability resolves, the ability doesn’t resolve. Cyclops Gladiator isn’t dealt damage.
+  - *2010-08-15* — On the other hand, if Cyclops Gladiator leaves the battlefield before the ability resolves, the ability continues to resolve. Cyclops Gladiator deals damage to the targeted creature equal to the power it had as it last existed on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m11/131/cyclops-gladiator) · oracle_id `ca5711d1-8cc9-4540-a567-778b56d51f50` · printing: M11 #131 (2010-07-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cyclops of Eternal Fury
 
@@ -378,7 +440,9 @@
   > *"The anger that festers inside this one is contagious."*
   > *—Anthousa of Setessa*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16428 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jou/92/cyclops-of-eternal-fury) · oracle_id `f7875f87-d774-4811-a4a7-349ec01bf95b` · printing: JOU #92 (2014-05-02) · [rulings](https://api.scryfall.com/cards/44a92b7a-7119-45b3-b9ed-5dbf5abca818/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-04-26* — Cyclops of Eternal Fury's ability gives itself haste.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jou/92/cyclops-of-eternal-fury) · oracle_id `f7875f87-d774-4811-a4a7-349ec01bf95b` · printing: JOU #92 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cyclops of One-Eyed Pass
 
@@ -391,6 +455,7 @@
   > *The Champion armed herself to face the cyclops, heedless of her companions' despair. "How will you defeat it with only one spear?" asked young Althemone. The Champion raised her weapon. "It has but one eye."*
   > *—\*The Theriad\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29872 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/90/cyclops-of-one-eyed-pass) · oracle_id `78922912-d7b9-47cc-8908-f44d7cc3fc4b` · printing: BNG #90 (2014-02-07) · [rulings](https://api.scryfall.com/cards/71a25c69-8e57-4a44-955a-da1541bbe0fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cyclops Superconductor
@@ -404,7 +469,10 @@
   > When this creature dies, you may pay {E}{E}{E}. When you do, this creature deals damage equal to its power to any target.
 - **Keywords:** Prowess
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17351 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/182/cyclops-superconductor) · oracle_id `10bca1b1-4f92-40e8-b9c0-d08c534903e1` · printing: MH3 #182 (2024-06-14) · [rulings](https://api.scryfall.com/cards/69ce6839-92d1-497b-9760-6fdc7388614e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-06-07* — Use the power of Cyclops Superconductor as it last existed on the battlefield to determine the amount of damage Cyclops Superconductor deals due to its reflexive triggered ability.
+  - *2024-06-07* — You don't choose a target for Cyclops Superconductor's last ability at the time it triggers. Rather, a second "reflexive" ability triggers when you pay {E}{E}{E} this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/182/cyclops-superconductor) · oracle_id `10bca1b1-4f92-40e8-b9c0-d08c534903e1` · printing: MH3 #182 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cyclops Tyrant
 
@@ -418,7 +486,9 @@
   > *A single eye, blinded by rage.*
 - **Keywords:** Intimidate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31415 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m14/135/cyclops-tyrant) · oracle_id `40ac0cb0-bdf7-447d-9875-0eb3cc5d0adc` · printing: M14 #135 (2013-07-19) · [rulings](https://api.scryfall.com/cards/f0b8e733-22a7-4696-83b3-297cbe75dadc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-07-01* — If Cyclops Tyrant blocks a creature with power 3 or greater, and then that creature's power becomes 2 or less, Cyclops Tyrant continues to block that creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m14/135/cyclops-tyrant) · oracle_id `40ac0cb0-bdf7-447d-9875-0eb3cc5d0adc` · printing: M14 #135 (2013-07-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cylian Elf
 
@@ -430,6 +500,7 @@
 - **Flavor text** (ALA printing):
   > *From her sunsail tent high above the forest floor, an elf harkener can hear the footfalls of a single creature through the cacophony of Naya's jungle sounds.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25672 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ala/127/cylian-elf) · oracle_id `2d425f5d-326f-46f8-ab84-852b01db4adb` · printing: ALA #127 (2008-10-03) · [rulings](https://api.scryfall.com/cards/b3afaab6-4768-4852-a0b6-4e6a0295bde7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cylian Sunsinger
@@ -442,7 +513,10 @@
 - **Flavor text** (CON printing):
   > *"The sun shines bright upon the strong."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32161 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/con/80/cylian-sunsinger) · oracle_id `dcc82c14-d632-4333-be35-4a206a10b184` · printing: CON #80 (2009-02-06) · [rulings](https://api.scryfall.com/cards/90665426-118e-4f0b-8222-1b516678a2f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-02-01* — If Cylian Sunsinger has left the battlefield by the time its ability resolves, its ability will affect each creature whose name is the same as the name Cylian Sunsinger had as it last existed on the battlefield.
+  - *2009-02-01* — When the ability resolves, it gives the +3/+3 bonus to the source of the ability and each other creature that shares a name with that source, even if that source isn't actually named Cylian Sunsinger. This could happen if Skill Borrower gains this ability, or if Cylian Sunsinger's name is changed (due to Mirrorweave, perhaps) before the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/con/80/cylian-sunsinger) · oracle_id `dcc82c14-d632-4333-be35-4a206a10b184` · printing: CON #80 (2009-02-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cynette, Jelly Drover
 
@@ -455,7 +529,9 @@
 - **Flavor text** (J25 printing):
   > *"Once you build up an immunity to their deadly venom, they're really quite cuddly!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12280 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/j25/35/cynette-jelly-drover) · oracle_id `8170ddd6-c054-4851-bdc2-4d319b60ba41` · printing: J25 #35 (2024-11-15) · [rulings](https://api.scryfall.com/cards/8810b817-7349-468b-bcca-ba0843bbc852/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to creatures you control with flying may become lethal if Cynette leaves the battlefield during that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/j25/35/cynette-jelly-drover) · oracle_id `8170ddd6-c054-4851-bdc2-4d319b60ba41` · printing: J25 #35 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cynical Loner
 
@@ -488,7 +564,14 @@
   > *Phyrexia strives to simulate natural life, but it can't resist improving on the design.*
 - **Keywords:** Infect
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17512 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/som/117/cystbearer) · oracle_id `81704164-bad9-4e52-9b69-3d49e92fe284` · printing: SOM #117 (2010-10-01) · [rulings](https://api.scryfall.com/cards/b6c10302-f0b3-4076-ae5c-a8c8c09a7d41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2011-01-01* — A player who has ten or more poison counters loses the game. This is a state-based action.
+  - *2011-01-01* — Damage from a source with infect affects planeswalkers normally.
+  - *2011-01-01* — Damage from a source with infect is damage in all respects. If the source with infect also has lifelink, damage dealt by that source also causes its controller to gain that much life. Damage from a source with infect can be prevented or redirected. Abilities that trigger on damage being dealt will trigger if a source with infect deals damage, if appropriate.
+  - *2011-01-01* — If damage from a source with infect that would be dealt to a player is prevented, that player doesn’t get poison counters. If damage from a source with infect that would be dealt to a creature is prevented, that creature doesn’t get -1/-1 counters.
+  - *2011-01-01* — Infect’s effect applies to any damage, not just combat damage.
+  - *2011-01-01* — The -1/-1 counters remain on the creature indefinitely. They’re not removed if the creature regenerates or the turn ends.
+- **Source flags:** [Scryfall](https://scryfall.com/card/som/117/cystbearer) · oracle_id `81704164-bad9-4e52-9b69-3d49e92fe284` · printing: SOM #117 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cytoplast Manipulator
 
@@ -500,7 +583,10 @@
   > {U}, {T}: Gain control of target creature with a +1/+1 counter on it for as long as this creature remains on the battlefield.
 - **Keywords:** Graft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13938 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dis/23/cytoplast-manipulator) · oracle_id `026ef98e-4f0a-4a6d-b74f-d17ac8b10e37` · printing: DIS #23 (2006-05-05) · [rulings](https://api.scryfall.com/cards/cfb6b06d-b132-44e9-a743-61187afb6152/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2006-05-01* — If the ability is activated and Cytoplast Manipulator leaves the battlefield before it resolves, the ability does nothing. The target creature will remain under its current controller's control.
+  - *2006-05-01* — The control change lasts as long as Cytoplast Manipulator is on the battlefield. It doesn't end if the creature loses all its +1/+1 counters, it stops being a creature, or if Cytoplast Manipulator becomes untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dis/23/cytoplast-manipulator) · oracle_id `026ef98e-4f0a-4a6d-b74f-d17ac8b10e37` · printing: DIS #23 (2006-05-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cytoplast Root-Kin
 
@@ -513,6 +599,7 @@
   > {2}: Move a +1/+1 counter from target creature you control onto this creature.
 - **Keywords:** Graft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18606 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/143/cytoplast-root-kin) · oracle_id `c9ed4397-e7b7-469c-94e3-8fc70d88664f` · printing: MM2 #143 (2015-05-22) · [rulings](https://api.scryfall.com/cards/22e149b2-6bac-4749-ab06-edde21dc408e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cytoshape
@@ -525,7 +612,16 @@
   > *"Though highly effective at reshaping flesh, these specially bred cytoplasts leave the subject reeking of omnibian mucus."*
   > *—Simic research notes*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26662 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dis/108/cytoshape) · oracle_id `14221c18-7801-49c9-a2c8-53b8c5181d63` · printing: DIS #108 (2006-05-05) · [rulings](https://api.scryfall.com/cards/758023cb-548a-4a98-a355-f5c6e9eab5ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2006-05-01* — A creature may become a copy of itself this way. This generally won’t have any visible effect.
+  - *2006-05-01* — At the end of the turn, the creature reverts to what it was before. If two Cytoshapes affect the same creature on the same turn, they’ll both wear off at the same time.
+  - *2006-05-01* — Effects that have already applied to the target creature will continue to apply to it. For example, if Giant Growth had given it +3/+3 earlier in the turn, then Cytoshape makes it a copy of Grizzly Bears, it will be a 5/5 Grizzly Bears.
+  - *2006-05-01* — If the creature becomes a copy of a face-down creature, it will become a 2/2 creature with no name, creature type, abilities, mana cost, or color. It will not become face-down and thus can’t be turned face up.
+  - *2006-05-01* — If the creature copies a creature that’s copying a creature, it will become whatever the chosen creature is copying.
+  - *2006-05-01* — Only the creature that’s becoming a copy is targeted. The creature that it will copy isn’t chosen until Cytoshape resolves.
+  - *2006-05-01* — The creature copies the printed values of the chosen creature, plus any copy effects that have been applied to it. It won’t copy counters on that creature. It won’t copy effects that have changed the creature’s power, toughness, types, color, or so on.
+  - *2006-05-01* — This effect can cause the target to stop being a creature. For example, if it becomes a copy of an animated Blinkmoth Nexus, the printed wording will be copied and it will become an unanimated Blinkmoth Nexus.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dis/108/cytoshape) · oracle_id `14221c18-7801-49c9-a2c8-53b8c5181d63` · printing: DIS #108 (2006-05-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cytospawn Shambler
 
@@ -537,4 +633,5 @@
   > {G}: Target creature with a +1/+1 counter on it gains trample until end of turn.
 - **Keywords:** Graft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24569 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/82/cytospawn-shambler) · oracle_id `514c6831-63ac-4fc0-8950-526813591710` · printing: DIS #82 (2006-05-05) · [rulings](https://api.scryfall.com/cards/17c87c15-742b-47fb-9d4c-0a985cc1e15a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

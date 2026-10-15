@@ -65,7 +65,14 @@
   > Whenever this creature attacks and isn't blocked, you may have it deal 1 damage to target creature. If you do, prevent all combat damage this creature would deal this turn.
 - **Keywords:** Shadow
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24448 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/47/zealot-il-vec) · oracle_id `4107d0e3-608b-4024-b433-40c5d8b63549` · printing: TSP #47 (2006-10-06) · [rulings](https://api.scryfall.com/cards/3a2a2740-68cb-48c9-9716-081d369075e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2006-09-25* — If you choose to have Zealot il-Vec deal 1 damage to a creature and that damage is prevented or replaced, Zealot il-Vec’s combat damage will still be prevented.
+  - *2006-09-25* — When Zealot il-Vec attacks and isn’t blocked, you must choose a target for its ability even if you don’t use it.
+  - *2013-04-15* — An ability that triggers when something “attacks and isn’t blocked” triggers in the declare blockers step after blockers are declared if (1) that creature is attacking and (2) no creatures are declared to block it. It will trigger even if that creature was put onto the battlefield attacking rather than having been declared as an attacker in the declare attackers step.
+  - *2021-03-19* — If an attacking creature has multiple evasion abilities, such as shadow and flying, a creature can block it only if that creature satisfies all of the appropriate evasion abilities.
+  - *2021-03-19* — Multiple instances of shadow on the same creature are redundant.
+  - *2021-03-19* — Once a creature has been blocked, that creature remains blocked and will deal and be dealt combat damage even if it gains or loses shadow or if the blocking creature gains or loses shadow.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/47/zealot-il-vec) · oracle_id `4107d0e3-608b-4024-b433-40c5d8b63549` · printing: TSP #47 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zealot of the God-Pharaoh
 
@@ -77,6 +84,7 @@
 - **Flavor text** (GN2 printing):
   > *The God-Pharaoh's most devoted took it upon themselves to follow his example.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29059 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gn2/45/zealot-of-the-god-pharaoh) · oracle_id `2911d52f-7faf-455a-acdf-77269c9ee8ce` · printing: GN2 #45 (2019-11-15) · [rulings](https://api.scryfall.com/cards/1fe6dd47-92f9-4dbe-8747-352023377e07/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zealot's Conviction
@@ -90,6 +98,7 @@
   > Corrupted — As long as an opponent has three or more poison counters, enchanted creature gets an additional +1/+0 and has first strike.
 - **Keywords:** Enchant, Corrupted, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17644 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/39/zealots-conviction) · oracle_id `79ab207f-e7ff-4236-b260-5a109a73fbed` · printing: ONE #39 (2023-02-10) · [rulings](https://api.scryfall.com/cards/3a419ba1-7bd3-48e3-8f88-d9f833b25d6d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zealots en-Dal
@@ -103,6 +112,7 @@
   > *"Great chains shall free our warriors."*
   > *—Oracle \*en\*-Vec*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32002 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/exo/26/zealots-en-dal) · oracle_id `3fa67c92-6328-4d0a-95e3-656d447ab20e` · printing: EXO #26 (1998-06-15) · [rulings](https://api.scryfall.com/cards/6a9fb486-1d6a-478e-af6e-fd8539dc646d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zealous Conscripts
@@ -128,6 +138,7 @@
 - **Flavor text** (EOE printing):
   > *The Sunstar Free Company is not swayed by profit. Sunstar is their faith, the prism through which they cast light across Sothera.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17272 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/45/zealous-display) · oracle_id `0ff3afba-7a90-4f62-a1b0-b553ad81c32b` · printing: EOE #45 (2025-08-01) · [rulings](https://api.scryfall.com/cards/f5973fd3-d6bc-48f1-8a44-57d2a6dda228/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zealous Guardian
@@ -141,6 +152,7 @@
   > *Parapet watchers patrol the outer edges of the doun, signaling to others who wait patiently in shadow.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28420 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/157/zealous-guardian) · oracle_id `508fdfb1-87d6-4342-a05a-01158f253896` · printing: SHM #157 (2008-05-02) · [rulings](https://api.scryfall.com/cards/9951214b-43a9-4c51-bbb4-05bac81b9866/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zealous Inquisitor
@@ -153,6 +165,7 @@
 - **Flavor text** (9ED printing):
   > *Wine and balm for the confessions of the repentant. Razors and irons for the confessions of the unrepentant.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31436 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/57/zealous-inquisitor) · oracle_id `e85f6251-8801-414b-adc9-5488794e7456` · printing: 9ED #57 (2005-07-29) · [rulings](https://api.scryfall.com/cards/7621b1af-fdbd-4604-b37c-04fb8f68c3b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zealous Lorecaster
@@ -165,6 +178,7 @@
 - **Flavor text** (SOS printing):
   > *"Sometimes the only way to learn from history is by repeating it."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20287 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/137/zealous-lorecaster) · oracle_id `f82265fd-e772-4347-a27f-37b00ccd416b` · printing: SOS #137 (2026-04-24) · [rulings](https://api.scryfall.com/cards/36ab2130-9f21-4d30-873a-aa72d3d15fa8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zealous Persecution
@@ -177,6 +191,7 @@
   > *"Jharic returned from Grixis changed, a haunted look in her eyes. She destroyed them with an unholy glee that made me shudder."*
   > *—Knight-Captain Wyhorn*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20046 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/213/zealous-persecution) · oracle_id `ccf8d919-1399-4bef-94ac-04c67f122828` · printing: EMA #213 (2016-06-10) · [rulings](https://api.scryfall.com/cards/7a5e69fc-9a3e-4830-a0ea-36183274325a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zealous Strike
@@ -188,6 +203,7 @@
 - **Flavor text** (CN2 printing):
   > *"Cower, fiend. The night is yours no longer."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27984 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/101/zealous-strike) · oracle_id `d820ddf4-315d-470a-8d66-663a76a240c6` · printing: CN2 #101 (2016-08-26) · [rulings](https://api.scryfall.com/cards/f0b97681-4483-462b-ae9e-47ccb7900f3c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zebra Unicorn
@@ -201,6 +217,7 @@
   > *"I'll capture gentle zebras / for your steeds and fill the stable with every kind of unicorn."*
   > *—"Love Song of Night and Day"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23902 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/290/zebra-unicorn) · oracle_id `2f91818f-a6fe-4472-b52b-ab574f790905` · printing: MIR #290 (1996-10-08) · [rulings](https://api.scryfall.com/cards/a663ee9d-78f1-4c89-af9e-c788e165fa91/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zedruu the Greathearted
@@ -243,7 +260,11 @@
   > Remove three quest counters from this enchantment and sacrifice it: Create a 7/1 red Elemental creature token with trample and haste. Exile it at the beginning of the next end step.
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19498 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/zen/155/zektar-shrine-expedition) · oracle_id `45bd5e97-f34e-47bc-ad21-da42d3444431` · printing: ZEN #155 (2009-10-02) · [rulings](https://api.scryfall.com/cards/f12d2c01-0ef2-40e6-8c7d-8512e2c8c074/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/zen/155/zektar-shrine-expedition) · oracle_id `45bd5e97-f34e-47bc-ad21-da42d3444431` · printing: ZEN #155 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zell Dincht
 
@@ -295,6 +316,7 @@
 - **Flavor text** (FEM printing):
   > *No sheath shall hold what finds its home in flesh.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30863 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fem/91/zelyon-sword) · oracle_id `991038e0-f8d6-42e6-b8a2-3d77aae7a256` · printing: FEM #91 (1994-11-01) · [rulings](https://api.scryfall.com/cards/4137160b-5248-4fbd-8ae8-25e9afd8fb5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zendikar Farguide
@@ -308,6 +330,7 @@
   > *Expeditions follow the paths it leaves in its wake.*
 - **Keywords:** Landwalk, Forestwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31235 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/zen/194/zendikar-farguide) · oracle_id `01ab37a4-21d2-49f4-9b85-cb522a4d04ad` · printing: ZEN #194 (2009-10-02) · [rulings](https://api.scryfall.com/cards/b3aeb7fb-8618-4595-84b4-20881b824b3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zendikar Incarnate
@@ -321,7 +344,9 @@
   > *"Her people angered Zendikar, and they faced the land's wrath. That is why Nissa is the last of the animists."*
   > *—Numa, Joraga chieftain*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16682 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/195/zendikar-incarnate) · oracle_id `ecd307e6-9096-401f-bd82-ad190532d389` · printing: C18 #195 (2018-08-10) · [rulings](https://api.scryfall.com/cards/8d883c60-1512-4bcc-8a0c-3db5acce63e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-06-22* — The ability defining Zendikar Incarnate’s power works in all zones, not just the battlefield. Zendikar Incarnate’s power changes as the number of lands you control does.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/195/zendikar-incarnate) · oracle_id `ecd307e6-9096-401f-bd82-ad190532d389` · printing: C18 #195 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zendikar Resurgent
 
@@ -393,7 +418,9 @@
   > *"I defy this world to try our defenses now. Send pterons and skycats. Send Vadrok!"*
   > *—Janae, Coppercoat architect*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16533 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/217/zenith-flare) · oracle_id `ae005f00-3817-40ca-b8be-069a4085cfee` · printing: IKO #217 (2020-04-24) · [rulings](https://api.scryfall.com/cards/0efac1ed-3f01-487c-86be-8239568b4425/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-04-17* — If the chosen target is an illegal target by the time Zenith Flare tries to resolve, the spell won’t resolve. You won’t gain X life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/217/zenith-flare) · oracle_id `ae005f00-3817-40ca-b8be-069a4085cfee` · printing: IKO #217 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zenith Seeker
 
@@ -407,7 +434,13 @@
   > *Only from the sky can one fully understand the horrors of the wastes and the wonder of the Hekma's protection.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25903 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/77/zenith-seeker) · oracle_id `a0fdc716-31b9-47f6-8639-de8bb7e3629f` · printing: AKH #77 (2017-04-28) · [rulings](https://api.scryfall.com/cards/47b711b5-aeec-47c4-a718-6bf43e561944/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-04-18* — An ability that triggers whenever you discard a card doesn’t give you permission to discard cards. You’ll need another effect that instructs or allows you to discard them.
+  - *2017-04-18* — An ability that triggers whenever you “cycle or discard” a card triggers only once if you cycle a card. The ability “Whenever you discard a card” is functionally identical to this ability; cycling is mentioned for clarity.
+  - *2017-04-18* — Giving a creature flying after it’s already been blocked won’t change or undo that block. If you want the flying to affect what can block the creature, you must cycle or discard a card during the declare attackers step at the latest.
+  - *2017-04-18* — If a player discards a card during their cleanup step due to having too many cards in hand, any appropriate abilities that trigger on discarding that card trigger. If this happens, those triggered abilities are put onto the stack and players receive priority in that cleanup step to cast spells or activate abilities (normally, no players may take actions during a cleanup step). Another cleanup step is created following that one.
+  - *2017-04-18* — Some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/77/zenith-seeker) · oracle_id `a0fdc716-31b9-47f6-8639-de8bb7e3629f` · printing: AKH #77 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zenos yae Galvus // Shinryu, Transcendent Rival
 
@@ -450,6 +483,7 @@
   > *Once you've seen one, you'll understand why spells won't go near them.*
 - **Keywords:** Flying, Shroud
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31719 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/113/zephid) · oracle_id `88aa710c-26ed-490d-9a4b-4a2b48df1733` · printing: USG #113 (1998-10-12) · [rulings](https://api.scryfall.com/cards/e0317fff-dbad-4c47-a191-0369d81cdda2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zephid's Embrace
@@ -463,6 +497,7 @@
   > *Spells will shun you, as will everyone else.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17611 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/114/zephids-embrace) · oracle_id `2f8b07ef-9d00-4eb6-a395-b5033aa3f80e` · printing: USG #114 (1998-10-12) · [rulings](https://api.scryfall.com/cards/fb3312de-c153-4e75-8f8c-b7762b30d492/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zephyr Boots
@@ -488,6 +523,7 @@
   > *"The knights charged forward on wings of wind, and the necromancer's horde roared in helpless rage."*
   > *—Krinnea, \*Siege of the Bone Spire\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23643 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/82/zephyr-charge) · oracle_id `576128ba-28aa-4ef9-9e72-8ca13f42c9b4` · printing: M20 #82 (2019-07-12) · [rulings](https://api.scryfall.com/cards/da749962-25f2-4ddc-9e55-bf74d216284e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zephyr Falcon
@@ -501,6 +537,7 @@
   > *Although greatly prized among falconers, the zephyr falcon is capricious and not easily tamed.*
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26967 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5ed/137/zephyr-falcon) · oracle_id `b5e44bd6-0b67-4770-868d-c46af5b6a42f` · printing: 5ED #137 (1997-03-24) · [rulings](https://api.scryfall.com/cards/6d11923e-98c6-4041-b115-f4847fb71149/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zephyrim
@@ -514,7 +551,25 @@
   > Miracle {1}{W} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)
 - **Keywords:** Flying, Miracle, Vigilance, Squad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11968 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/20/zephyrim) · oracle_id `d29551ab-e314-4872-9fc5-fe9a442dc8a9` · printing: 40K #20 (2022-10-07) · [rulings](https://api.scryfall.com/cards/f78f5b9a-bd80-41e9-873e-826628dc44a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (17):
+  - *2022-10-07* — If an effect puts a card into your hand without using the word "draw," the card wasn't drawn.
+  - *2022-10-07* — If the card with miracle leaves your hand before the triggered ability resolves, you won't be able to cast it using its miracle ability.
+  - *2022-10-07* — If the spell is countered, the squad ability will not trigger, and no tokens will be created.
+  - *2022-10-07* — If you cast Zephyrim for its miracle cost, you may also choose to pay its squad cost one or more times.
+  - *2022-10-07* — If, for some reason, the creature doesn't have the squad ability when it's on the battlefield, the ability won't trigger, even if you've paid the squad cost one or more times.
+  - *2022-10-07* — It's important to reveal a card with miracle before it is mixed with the other cards in your hand.
+  - *2022-10-07* — Miracle is an alternative cost to cast the spell with miracle. It can't be combined with other alternative costs, such as casting a spell "without paying its mana cost."
+  - *2022-10-07* — Multiple card draws are always treated as a sequence of individual card draws. For example, if you haven't drawn any cards yet during a turn and cast a spell that instructs you to draw three cards, you'll draw them one at a time. Only the first card drawn this way may be revealed and cast using its miracle ability.
+  - *2022-10-07* — See also "New Keyword Ability: Squad" and "Returning Keyword Ability: Miracle" in the General Notes section.
+  - *2022-10-07* — The tokens created by the squad ability aren't "cast," so any abilities that trigger when a spell is cast won't trigger for the copies.
+  - *2022-10-07* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a miracle cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+  - *2022-10-07* — You can cast a card for its miracle cost only as the miracle triggered ability resolves. If you don't want to cast it at that time (or you can't cast it, perhaps because there are no legal targets available), you won't be able to cast it later for the miracle cost.
+  - *2022-10-07* — You can reveal and cast a card with miracle on any turn, not just your own, if it's the first card you've drawn that turn.
+  - *2022-10-07* — You cast the card with miracle during the resolution of the triggered ability. Ignore any timing rules based on the card's type.
+  - *2022-10-07* — You don't have to reveal a drawn card with miracle if you don't wish to cast it at that time.
+  - *2022-10-07* — You may pay the squad cost any number of times. You will get a token that is a copy of that permanent for each time you paid the squad cost.
+  - *2022-10-07* — You still draw the card, whether you use the miracle ability or not. Any ability that triggers whenever you draw a card, for example, will trigger. If you don't cast the card using its miracle ability, it will remain in your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/20/zephyrim) · oracle_id `d29551ab-e314-4872-9fc5-fe9a442dc8a9` · printing: 40K #20 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zephyr Net
 
@@ -527,6 +582,7 @@
   > *Faeries hang beings that interest them as ornaments in the sky, each clique competing to outshine the prize of the last.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29411 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/98/zephyr-net) · oracle_id `cd510cf2-df54-4024-919b-e4377cdb2be1` · printing: LRW #98 (2007-10-12) · [rulings](https://api.scryfall.com/cards/817b8996-388f-4704-a4c8-ef99d4701805/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zephyr Scribe
@@ -541,6 +597,7 @@
   > *"Ojutai's rule has allowed Tarkir's monks to learn from the truly enlightened."*
   > *—Sarkhan Vol*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23267 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/85/zephyr-scribe) · oracle_id `a1841bcc-738e-4f4b-a88f-571a93c59ad7` · printing: DTK #85 (2015-03-27) · [rulings](https://api.scryfall.com/cards/d23ae0d2-0ca1-4095-8710-be5800e389cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zephyr Sentinel
@@ -554,6 +611,7 @@
   > When this creature enters, return up to one other target creature you control to its owner's hand. If it was a Soldier, put a +1/+1 counter on this creature.
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19248 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/74/zephyr-sentinel) · oracle_id `dcddd143-a7d9-4a38-a2da-dd6bd2e48205` · printing: BRO #74 (2022-11-18) · [rulings](https://api.scryfall.com/cards/f935adbb-d2e3-48d0-b38c-41f3b583fecb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zephyr Singer
@@ -567,7 +625,15 @@
   > When this creature enters, put a flying counter on each creature that convoked it.
 - **Keywords:** Flying, Vigilance, Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10459 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/86/zephyr-singer) · oracle_id `1800ae74-0b54-4547-ab8f-ea61418d73e8` · printing: MOM #86 (2023-04-21) · [rulings](https://api.scryfall.com/cards/9678966b-65f1-405c-b8db-5f2d4f434933/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-04-14* — You can't tap more creatures to convoke Zephyr Singer than is necessary to pay for the spell. In most cases, this means four creatures. However, if there are any additional costs to cast Zephyr Singer, you may use convoke to pay those additional costs as well.
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/86/zephyr-singer) · oracle_id `1800ae74-0b54-4547-ab8f-ea61418d73e8` · printing: MOM #86 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zephyr Spirit
 
@@ -579,6 +645,7 @@
 - **Flavor text** (RAV printing):
   > *A spiteful force exists on Ravnica that binds these ghosts to the land of the living but forbids them to touch it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30878 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/76/zephyr-spirit) · oracle_id `ff640343-6980-4668-a41f-0f01b0bbc0f2` · printing: RAV #76 (2005-10-07) · [rulings](https://api.scryfall.com/cards/e6cbe78f-4325-416b-bf23-282efed5b407/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zephyr Sprite
@@ -592,6 +659,7 @@
   > *"I've never understood why so many beings lumber around on the ground. There are three dimensions, yet they use only two."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21429 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m10/82/zephyr-sprite) · oracle_id `11f77158-0240-4882-94a4-6bd6b3d94bcc` · printing: M10 #82 (2009-07-17) · [rulings](https://api.scryfall.com/cards/b256f91a-e797-41d7-82a6-3dcd691bbeed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zephyr Winder
@@ -606,6 +674,7 @@
   > *It twines through the roiling cloudscape feeding on the energies of nascent storms.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25299 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/328/zephyr-winder) · oracle_id `13c4437e-48a9-4c51-9b76-9e83e3ec362f` · printing: MOM #328 (2023-04-21) · [rulings](https://api.scryfall.com/cards/14456a8e-016c-4407-8410-c490db3f5ea9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zerapa Minotaur
@@ -620,6 +689,7 @@
   > *There's no difference between bone and crystal when it's piercing your throat.*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31531 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcy/108/zerapa-minotaur) · oracle_id `4520c630-3650-462f-ab01-215eb2bdbbf5` · printing: PCY #108 (2000-06-05) · [rulings](https://api.scryfall.com/cards/55a8e1ce-e394-48d6-938a-aa76c0273abe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zeriam, Golden Wind
@@ -635,6 +705,7 @@
   > *—Afari, \*Tales\**
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14609 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/5/zeriam-golden-wind) · oracle_id `fa1dc21d-f7f6-425f-a4ae-2b0f143091e3` · printing: DMC #5 (2022-09-09) · [rulings](https://api.scryfall.com/cards/e7efbb9a-e0b3-412c-9ee7-a90123033999/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zero Point Ballad
@@ -676,6 +747,7 @@
   > Whenever Zethi attacks, copy each exiled card you own with a kick counter on it. You may cast the copies.
 - **Keywords:** Multikicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11512 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/17/zethi-arcane-blademaster) · oracle_id `ac136d46-32b7-4222-a840-b8be011c1872` · printing: SLX #17 (2023-02-10) · [rulings](https://api.scryfall.com/cards/87b56584-8a61-40bc-99b5-7434a681fcdc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zevlor, Elturel Exile
@@ -688,4 +760,14 @@
   > {2}, {T}: When you next cast an instant or sorcery spell that targets only a single opponent or a single permanent an opponent controls this turn, for each other opponent, choose that player or a permanent they control, copy that spell, and the copy targets the chosen player or permanent.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13389 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/296/zevlor-elturel-exile) · oracle_id `0c85a577-db82-4a36-bc42-49644eba1cf2` · printing: CLB #296 (2022-06-10) · [rulings](https://api.scryfall.com/cards/d1e51138-9745-465d-84dd-27605f8a2264/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2022-06-10* — As you make your choices for each other opponent, you can choose that opponent or any permanent they control, but if the chosen player or permanent isn't a legal target for the spell, the copy won't be created.
+  - *2022-06-10* — If instant or sorcery spell could have multiple targets but only one target is chosen as it is cast, that spell will cause Zevlor's delayed triggered ability to trigger. The copies will similarly have only one target. For example, if you cast Explosive Entry (“Destroy up to one target artifact. Put a +1/+1 counter on up to one target creature”) targeting only a creature, the copies can each legally target a single creature.
+  - *2022-06-10* — If the spell has an X whose value was determined as it was cast (like Fireball does), the copy has the same value of X.
+  - *2022-06-10* — If the spell is modal (that is, it has a bulleted list of choices), the copies will have the same mode(s). You can't choose different ones.
+  - *2022-06-10* — Like any spell, each copy will check to see if its target is still legal as it tries to resolve.
+  - *2022-06-10* — The delayed triggered ability can copy the spell that caused it to trigger even if that spell has been countered by the time that ability resolves.
+  - *2022-06-10* — When the delayed triggered ability of Zevlor, Elturel Exile resolves, it may create one or more copies of a spell. You control each of the copies. Those copies are created on the stack, so they're not “cast.” Abilities that trigger when a player casts a spell won't trigger. The copies will then resolve like normal spells, after players get a chance to cast spells and activate abilities.
+  - *2022-06-10* — You can't choose to pay any additional costs for the copies. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copies too. For example, if you sacrifice a 3/3 creature to cast Fling and then copy it, each copy of Fling will also deal 3 damage to its target.
+  - *2022-06-10* — Zevlor, Elturel Exile has received an update to its Oracle text. The word “only” was inadvertently left off the printed card. The updated text is included above. Notably, an instant or sorcery spell with multiple targets will not cause the delayed triggered ability to trigger, even if only one of those targets is an opponent or an permanent an opponent controls.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/296/zevlor-elturel-exile) · oracle_id `0c85a577-db82-4a36-bc42-49644eba1cf2` · printing: CLB #296 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

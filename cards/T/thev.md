@@ -45,6 +45,7 @@
   > *NAME*
 - **Keywords:** Food
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU07a/the-value-knight) · oracle_id `30e1cddd-686a-437d-96ac-1bcb8f22f74c` · printing: UNK #RU07a (2024-02-24) · [rulings](https://api.scryfall.com/cards/540d1f33-85a4-4f1a-a994-37d5187d4434/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Vanquisher
@@ -55,6 +56,7 @@
   > Your starting hand size is increased by one.
   > Your maximum hand size is increased by one.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thp2/6/the-vanquisher) · oracle_id `3aebafe3-5d5d-4163-bd52-70c71a9c23e2` · printing: THP2 #6 (2014-02-07) · [rulings](https://api.scryfall.com/cards/08a63083-997b-4a72-af48-cd35e6e9599d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Vast Scrier
@@ -67,6 +69,7 @@
   > Whenever The Vast Scrier attacks a player, you may put a Soldier, Warrior, or Wizard creature card from your hand onto the battlefield tapped and attacking that player. If it has any "Whenever this creature attacks" triggers, those trigger. If you don't put a card onto the battlefield this way, scry 2.
 - **Keywords:** Scry, Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04u/the-vast-scrier) · oracle_id `173d63fa-c467-4871-b2e1-6507cf3fb2c2` · printing: UNK #RZ04u (2025-09-26) · [rulings](https://api.scryfall.com/cards/f3fe34d8-ee91-447d-a09f-15b41689ab13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Vegetable Car
@@ -81,6 +84,7 @@
   > The Vegetable Car can be your commander.
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ02/the-vegetable-car) · oracle_id `46c45085-9a2d-41e6-9f15-142676409c00` · printing: UNK #RZ02 (2025-06-20) · [rulings](https://api.scryfall.com/cards/9dd68ae8-6df7-4697-bed8-b8c50e51689e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Vision
@@ -111,4 +115,5 @@
   > *No matter how many times they are disassembled, teleported, or possessed, their love always brings them back together.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11700 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/707/the-vision-and-scarlet-witch) · oracle_id `33219792-f0a7-4849-bfca-70ee2d410b9e` · printing: MSC #707 (2026-06-26) · [rulings](https://api.scryfall.com/cards/930afb5f-54b7-4cca-8c28-3e48938f3a43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

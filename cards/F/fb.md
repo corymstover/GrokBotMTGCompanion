@@ -23,7 +23,9 @@
 - **Flavor text** (FRA printing):
   > *Fblthp had \*definitely\* made a wrong turn.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16457 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/213/fblthp-impossibly-lost) · oracle_id `17e7212e-69d8-4014-af98-447baed2cae7` · printing: FRA #213 (2026-10-02) · [rulings](https://api.scryfall.com/cards/a3a2edbb-d144-4670-acad-17316cea98d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-08-21* — Losing the game due to drawing from an empty library happens as a state-based action. At certain times (usually after each spell and ability resolves) the game checks to see if any state-based actions need to be performed, then does so. Since Fblthp's ability causes you to win the game while that ability is still resolving, this happens before those state-based actions would be checked and performed. Notably, drawing cards from an empty library at any other time while Fblthp is on the battlefield will still cause you to lose the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/213/fblthp-impossibly-lost) · oracle_id `17e7212e-69d8-4014-af98-447baed2cae7` · printing: FRA #213 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fblthp, Knows the Way
 
@@ -37,6 +39,7 @@
   > *Fblthp had always loved to travel.*
 - **Keywords:** Domain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24555 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/258/fblthp-knows-the-way) · oracle_id `48b891b6-3175-4864-bb98-af131098c557` · printing: FRA #258 (2026-10-02) · [rulings](https://api.scryfall.com/cards/28fbb55a-5c9d-45ee-bf42-a84b1048f5d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fblthp, Lost on the Range

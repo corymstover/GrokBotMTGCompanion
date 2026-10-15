@@ -27,6 +27,7 @@
   > *—Lazav*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23842 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gtc/217/coerced-confession) · oracle_id `49b84c50-ca0a-4947-8225-ae41aa08e1f1` · printing: GTC #217 (2013-02-01) · [rulings](https://api.scryfall.com/cards/d76102f1-b05f-472b-81cf-eae424c55638/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coerced to Kill
@@ -42,7 +43,10 @@
   > *—Alquist Proft*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18244 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/192/coerced-to-kill) · oracle_id `3a007dbd-18fd-44d1-a305-7cc8dd6231eb` · printing: MKM #192 (2024-02-09) · [rulings](https://api.scryfall.com/cards/2dc9f352-5076-4b5f-9815-cf47abb63d5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-02-02* — Coerced to Kill overwrites all previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after the ability resolves will overwrite this effect.
+  - *2024-02-02* — Effects that modify a creature's power and/or toughness, such as the effect of Auspicious Arrival, will apply to the creature no matter when they started to take effect. The same is true for any counters that change its power and/or toughness and effects that switch its power and toughness.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/192/coerced-to-kill) · oracle_id `3a007dbd-18fd-44d1-a305-7cc8dd6231eb` · printing: MKM #192 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coercion
 
@@ -54,6 +58,7 @@
   > *"There's very little that escapes me, Greven. And you will escape very little if you fail."*
   > *—Volrath*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22772 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/86/coercion) · oracle_id `68413337-ddb9-46f8-8c8e-f3d2d672c652` · printing: TPR #86 (2015-05-06) · [rulings](https://api.scryfall.com/cards/8c0459ca-1646-46a0-9fc2-709b321bb41f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coercive Impetus
@@ -115,4 +120,5 @@
 - **Flavor text** (FIN printing):
   > *A lean and limber predator whose whiskers acquire charge from naturally-occurring electric particles in the atmosphere.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17537 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/12/coeurl) · oracle_id `00d1596a-c3e2-4109-86da-388934a0c652` · printing: FIN #12 (2025-06-13) · [rulings](https://api.scryfall.com/cards/7604b534-5480-42fa-bc36-bbae730f8582/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

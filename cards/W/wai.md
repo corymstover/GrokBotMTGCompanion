@@ -26,6 +26,7 @@
   > *—Ghoulcaller Gisa*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19848 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/286/wailing-ghoul) · oracle_id `6ce24851-70d2-416c-8733-78928b4eee74` · printing: JMP #286 (2020-07-17) · [rulings](https://api.scryfall.com/cards/4e35a461-9a8e-4d08-b963-14c8b5237eec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wail of the Forgotten
@@ -39,7 +40,11 @@
   > • Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.
 - **Keywords:** Descend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14125 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/244/wail-of-the-forgotten) · oracle_id `030b5408-f216-43e4-8593-f78d22821876` · printing: LCI #244 (2023-11-17) · [rulings](https://api.scryfall.com/cards/67108256-b7da-44bd-9639-4264931d348f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-11-10* — Cards with the ability word "descend N" have abilities that care if you have at least N permanent cards in your graveyard.
+  - *2023-11-10* — If all targets for the chosen modes become illegal before Wail of the Forgotten resolves, the spell will be countered and none of its effects will happen. If at least one target is still legal, the spell will resolve but will have no effect on any illegal targets.
+  - *2023-11-10* — Some descend triggered abilities include intervening "if" clauses (i.e. "if you have [four or eight] permanent cards in your graveyard" in the middle of the ability). Each of these abilities checks your graveyard at the moment it would trigger to see if it does. If you don't have the required number of permanent cards in your graveyard at that time, the ability doesn't trigger at all. If it does trigger, it will check again as it tries to resolve. If you don't have the required number of permanent cards in your graveyard at that time, the ability won't resolve and none of its effects will happen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/244/wail-of-the-forgotten) · oracle_id `030b5408-f216-43e4-8593-f78d22821876` · printing: LCI #244 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wail of the Nim
 
@@ -52,6 +57,7 @@
   > Entwine {B} (Choose both if you pay the entwine cost.)
 - **Keywords:** Regenerate, Entwine
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12216 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/81/wail-of-the-nim) · oracle_id `dcf503b5-c7ef-49e5-87ed-3b8758197446` · printing: MRD #81 (2003-10-02) · [rulings](https://api.scryfall.com/cards/a8c32faa-c6d1-418a-aed6-ccc5849daa1f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wail of War
@@ -65,6 +71,7 @@
 - **Flavor text** (TDM printing):
   > *Mardu war shrieks ensure their enemies are defeated before the battle even starts.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14368 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/98/wail-of-war) · oracle_id `fc0abdf3-3a88-4cb2-ba79-35fcaebbf7d2` · printing: TDM #98 (2025-04-11) · [rulings](https://api.scryfall.com/cards/7e9430dd-f583-400d-808a-64e2b5fa54f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waiting in the Weeds
@@ -76,4 +83,5 @@
 - **Flavor text** (6ED printing):
   > *The trees have ears, eyes, and teeth.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21746 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/6ed/266/waiting-in-the-weeds) · oracle_id `5a61d51e-1a3f-49f6-9a94-a708dd6f69df` · printing: 6ED #266 (1999-04-21) · [rulings](https://api.scryfall.com/cards/7e2d5a77-6ee8-463d-9e6a-fdb1cc6d70e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -27,6 +27,7 @@
   > *—Professor Berta*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16351 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/215/pterafractyl) · oracle_id `cca03b76-dd3c-4228-b97a-f7fa20819b2e` · printing: SOS #215 (2026-04-24) · [rulings](https://api.scryfall.com/cards/ecd33152-e290-4505-addd-a8d08cefdddd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pteramander
@@ -39,7 +40,11 @@
   > {7}{U}: Adapt 4. This ability costs {1} less to activate for each instant and sorcery card in your graveyard. (If this creature has no +1/+1 counters on it, put four +1/+1 counters on it.)
 - **Keywords:** Flying, Adapt
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16357 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/109/pteramander) · oracle_id `00187de2-bc48-4137-97d8-a9a0fafc76c1` · printing: OTC #109 (2024-04-19) · [rulings](https://api.scryfall.com/cards/0072bbbf-a695-47dd-9615-db2659f357db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-01-25* — If a creature somehow loses all of its +1/+1 counters, it can adapt again and get more +1/+1 counters.
+  - *2019-01-25* — Pteramander's activated ability can't reduce itself to less than {U} to activate.
+  - *2019-01-25* — You can always activate an ability that will cause a creature to adapt. As that ability resolves, if the creature has a +1/+1 counter on it for any reason, you simply won't put any +1/+1 counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/109/pteramander) · oracle_id `00187de2-bc48-4137-97d8-a9a0fafc76c1` · printing: OTC #109 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pterodon Knight
 
@@ -51,6 +56,7 @@
 - **Flavor text** (XLN printing):
   > *"To rise like the sun—there is no greater feeling."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29720 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/28/pterodon-knight) · oracle_id `8feb7149-a4dc-491a-a0b4-d2e8b85a97ce` · printing: XLN #28 (2017-09-29) · [rulings](https://api.scryfall.com/cards/41f00a04-1336-4830-a6c2-514848afefd2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pteron Ghost
@@ -65,4 +71,5 @@
   > *Defending to the death isn't always enough.*
 - **Keywords:** Flying, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27345 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dst/10/pteron-ghost) · oracle_id `783c48b8-a760-4334-ac70-557af7802f33` · printing: DST #10 (2004-02-06) · [rulings](https://api.scryfall.com/cards/1aff26fc-e6d3-4135-96b9-0da7cb8b6dae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

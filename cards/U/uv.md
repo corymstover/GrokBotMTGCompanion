@@ -21,4 +21,11 @@
   > At the beginning of your upkeep, exile the top card of each opponent's library. Until end of turn, you may cast spells from among those exiled cards, and you may spend mana as though it were mana of any color to cast those spells.
   > Whenever you cast a spell from exile, put a +1/+1 counter on Nassari.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16959 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/160/uvilda-dean-of-perfection-nassari-dean-of-expression) · oracle_id `63c4915f-5ad9-468f-95c5-d44f1b71631e` · printing: STX #160 (2021-04-23) · [rulings](https://api.scryfall.com/cards/8cfd0887-0c83-4b33-a85e-8b8ec5bf758d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-04-16* — After removing the last hone counter, casting the spell is optional. Timing permissions based on the card’s type are ignored. If an effect prohibits you from casting the card or you choose not to cast it, it remains exiled with no hone counters on it, and you won’t be able to cast it later.
+  - *2021-04-16* — Any cards exiled with Nassari’s ability that you don’t cast will remain exiled. You won’t be able to cast those cards on future turns, although Nassari’s ability will give you another group of cards to choose from each time it resolves.
+  - *2021-04-16* — Nassari’s last ability triggers when you cast any spell from exile, not just the cards that were exiled with its first ability.
+  - *2021-04-16* — The cost reduction given by Uvilda, Dean of Perfection won’t reduce any colored mana requirements in the spell’s cost.
+  - *2021-04-16* — To determine the total cost of a spell, start with the mana cost or alternative cost you’re paying, add any cost increases, then apply any cost reductions (such as that of Uvilda, Dean of Perfection). The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-04-16* — You exile cards with Nassari, Dean of Expression face up. Casting those spells is subject to the normal timing restrictions for spells.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/160/uvilda-dean-of-perfection-nassari-dean-of-expression) · oracle_id `63c4915f-5ad9-468f-95c5-d44f1b71631e` · printing: STX #160 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

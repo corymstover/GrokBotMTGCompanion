@@ -50,6 +50,7 @@
   > *Cast from dreams and forged in hope.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19405 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/1344/arden-angel) · oracle_id `82d51c8a-d42b-48b3-a726-3a8d28d057e5` · printing: SLD #1344 (2023-08-10) · [rulings](https://api.scryfall.com/cards/ceb42fb7-1ac5-4923-bec8-2aa2d4dbefd5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ardenn, Intrepid Archaeologist
@@ -86,7 +87,13 @@
 - **Flavor text** (STX printing):
   > *"The Founder Dragons weren't even hatched when this scroll was written!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21802 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/92/ardent-dustspeaker) · oracle_id `370974e7-d242-4f24-a031-cba71c935306` · printing: STX #92 (2021-04-23) · [rulings](https://api.scryfall.com/cards/7ff4832a-26c0-4da5-abbb-1941e7084e72/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-04-16* — Any cards exiled with Ardent Dustspeaker that you don’t play remain exiled. You will not be able to play them on later turns, even if Ardent Dustspeaker’s ability triggers again.
+  - *2021-04-16* — Playing the cards exiled with Ardent Dustspeaker follows the normal rules for playing those cards. You must pay their costs, if any, and you must follow all applicable timing rules. For example, if one of the cards is a creature card, you can cast that card by paying its mana cost only during your main phase while the stack is empty.
+  - *2021-04-16* — The cards exiled by Ardent Dustspeaker’s ability are exiled face up.
+  - *2021-04-16* — Unless an effect allows you to play additional lands that turn, you can play land cards exiled with Ardent Dustspeaker only if you haven’t played a land yet that turn. In most cases, if you exile two land cards, you won’t be able to play both.
+  - *2021-04-16* — You may play those cards that turn even if Ardent Dustspeaker leaves the battlefield or another player gains control of it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/92/ardent-dustspeaker) · oracle_id `370974e7-d242-4f24-a031-cba71c935306` · printing: STX #92 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ardent Electromancer
 
@@ -98,7 +105,13 @@
 - **Flavor text** (ZNR printing):
   > *"Trust me, we won't need torches."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21797 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/135/ardent-electromancer) · oracle_id `43827acb-70cf-44a3-8560-e9f7330c835e` · printing: ZNR #135 (2020-09-25) · [rulings](https://api.scryfall.com/cards/e8685c8e-935f-49f2-acf2-8e3c41c5b330/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-09-25* — An ability referring to the number of creatures in your party gets a number from zero to four. Such abilities never ask which creatures are in your party, and you never have to designate specific creatures as being in your party. You can’t choose to exclude creatures from this count to lower the number.
+  - *2020-09-25* — Ardent Electromancer’s ability uses the stack and players may respond to it. It isn’t a mana ability because the event that causes it to trigger isn’t a mana ability.
+  - *2020-09-25* — If a creature has more than one party creature type, and there are multiple ways to count that creature that could result in a different number of creatures in your party, the highest such number is used. For example, if you control a Cleric and a Cleric Wizard, the number of creatures in your party is two. You can’t choose to have it be just one by counting the Cleric Wizard first as a Cleric.
+  - *2020-09-25* — If an ability of a creature counts the number of creatures in your party, that number is counted as the ability resolves. If that creature is still on the battlefield when the ability resolves, it’ll be counted if appropriate.
+  - *2020-09-25* — To determine “the number of creatures in your party,” check whether you control a Cleric, whether you control a Rogue, whether you control a Warrior, and whether you control a Wizard. The number is the total number of those checks to which you answered yes. Each creature you control can be counted for only one of those checks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/135/ardent-electromancer) · oracle_id `43827acb-70cf-44a3-8560-e9f7330c835e` · printing: ZNR #135 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ardent Elementalist
 
@@ -124,6 +137,7 @@
   > *Knights fight for honor and mercenaries fight for gold. The militia fights for hearth and home.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30725 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/3/ardent-militia) · oracle_id `23625877-b6db-480c-8885-a62b7d0457df` · printing: 8ED #3 (2003-07-28) · [rulings](https://api.scryfall.com/cards/8c78d392-9f2f-4241-9a10-6ac9b1e86154/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ardent Plea
@@ -135,7 +149,17 @@
   > Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)
 - **Keywords:** Exalted, Cascade
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16079 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/arb/1/ardent-plea) · oracle_id `49a8ca54-30d3-42d3-b122-334d24805e1b` · printing: ARB #1 (2009-04-30) · [rulings](https://api.scryfall.com/cards/9d521737-ee07-4387-bc07-5ced53db374d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2021-06-18* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2021-06-18* — Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+  - *2021-06-18* — Due to a 2021 rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+  - *2021-06-18* — If a spell with cascade is countered, the cascade ability will still resolve normally.
+  - *2021-06-18* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2021-06-18* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
+  - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+  - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/arb/1/ardent-plea) · oracle_id `49a8ca54-30d3-42d3-b122-334d24805e1b` · printing: ARB #1 (2009-04-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ardent Recruit
 
@@ -148,6 +172,7 @@
   > *"We lost our homes and our kin. We won't let those rotters take our future as well."*
 - **Keywords:** Metalcraft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25581 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/td2/4/ardent-recruit) · oracle_id `9275108c-7eaf-4edd-aa6d-e5263d5ac7fd` · printing: TD2 #4 (2011-05-14) · [rulings](https://api.scryfall.com/cards/3a7f9bd7-7232-4956-873d-52ff82eabfb3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ardent Soldier
@@ -161,7 +186,14 @@
   > If this creature was kicked, it enters with a +1/+1 counter on it.
 - **Keywords:** Vigilance, Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31077 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inv/3/ardent-soldier) · oracle_id `a56d301b-8f4c-4f12-8ee0-34c6b66faee0` · printing: INV #3 (2000-10-02) · [rulings](https://api.scryfall.com/cards/39dce974-846f-4365-b0a5-851e38668e7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inv/3/ardent-soldier) · oracle_id `a56d301b-8f4c-4f12-8ee0-34c6b66faee0` · printing: INV #3 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ardenvale Paladin
 
@@ -174,7 +206,11 @@
   > *"Even when hope is but a small flame fighting the night, I will serve the absent king."*
 - **Keywords:** Adamant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25039 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/4/ardenvale-paladin) · oracle_id `30393cb0-f461-4899-8aae-609bc8378f36` · printing: ELD #4 (2019-10-04) · [rulings](https://api.scryfall.com/cards/a32fa360-6c41-4146-931b-c19e9a766803/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-10-04* — Adamant effects check what mana was actually spent to cast a spell. If an effect allows you to spend mana “as though it were mana” of any color or type, that allows you to spend mana you couldn't otherwise spend, but it doesn't change what mana you spent to cast the spell.
+  - *2019-10-04* — If an effect allows you to cast a spell without paying its mana cost, you can't choose to cast it and pay unless another rule or effect allows you to cast that spell for a cost. Similarly, you can't waive a cost reduction unless that effect says you may.
+  - *2019-10-04* — If you copy a spell that has an adamant ability, no mana was spent to cast the copy at all, so that ability won't apply.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/4/ardenvale-paladin) · oracle_id `30393cb0-f461-4899-8aae-609bc8378f36` · printing: ELD #4 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ardenvale Tactician // Dizzying Swoop
 
@@ -190,7 +226,19 @@
   > *In a castle that prizes loyalty above all, the bond between knight and griffin is unmatched.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16404 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/5/ardenvale-tactician-dizzying-swoop) · oracle_id `ea27c8bf-33c5-443f-b8b2-51235efc2491` · printing: ELD #5 (2019-10-04) · [rulings](https://api.scryfall.com/cards/c7d5e394-8e41-442e-ae97-a478a61e1b9d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2019-10-04* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Giant Killer is a white creature card whose mana value is 1. It can't be the target of the triggered ability of Mystic Sanctuary.
+  - *2019-10-04* — Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2019-10-04* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to cast it as a permanent later.
+  - *2019-10-04* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to cast it as a permanent spell.
+  - *2019-10-04* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to cast the copy as a permanent.
+  - *2019-10-04* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2019-10-04* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+  - *2019-10-04* — If two targets are chosen for Dizzying Swoop and one of them becomes an illegal target but not the other, the legal target will be tapped and Dizzying Swoop will be exiled. If both targets are illegal, Dizzying Swoop will be put into your graveyard.
+  - *2019-10-04* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if Giant Killer is exiled with the last ability of Vivien, Champion of the Wilds, you can't cast it as Chop Down.
+  - *2019-10-04* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2019-10-04* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/5/ardenvale-tactician-dizzying-swoop) · oracle_id `ea27c8bf-33c5-443f-b8b2-51235efc2491` · printing: ELD #5 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ardoz, Cobbler of War
 
@@ -203,6 +251,7 @@
   > {3}{R}: Create a 1/1 red Goblin creature token with haste. Activate only as a sorcery.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10367 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/j22/29/ardoz-cobbler-of-war) · oracle_id `bcd5e175-2ef0-48f4-b9bd-14383dd234e0` · printing: J22 #29 (2022-12-02) · [rulings](https://api.scryfall.com/cards/2a012f05-0009-42cf-8a69-07140b2a2aef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ardyn, the Usurper

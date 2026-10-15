@@ -37,7 +37,11 @@
   > *Descendant of a vanished land, student of a forgotten general, and master of blades no smith could forge anew. He honors them all by living a life worthy of song.*
 - **Keywords:** Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10105 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/25/kwende-pride-of-femeref) · oracle_id `3adebbbf-39fe-4b42-b719-2f8edb009693` · printing: DOM #25 (2018-04-27) · [rulings](https://api.scryfall.com/cards/b4d3b6a8-3e4a-4e2b-900a-9a21fa0ced4c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-04-27* — A creature with first strike and double strike deals combat damage the same as a creature with double strike. It doesn't deal damage three times or before other creatures with first strike.
+  - *2018-04-27* — If a creature loses double strike after first strike damage is dealt, it won't deal normal combat damage.
+  - *2018-04-27* — If a creature you control gains first strike after Kwende has entered the battlefield, that creature also gains double strike.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/25/kwende-pride-of-femeref) · oracle_id `3adebbbf-39fe-4b42-b719-2f8edb009693` · printing: DOM #25 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kwia Vigorbloom
 
@@ -49,4 +53,5 @@
   > Whenever you gain life, create a colorless artifact token named Lotus with "{T}, Sacrifice this token: Add three mana of any one color." This ability triggers only once each turn.
 - **Keywords:** Flying, Lifelink, Vigilance, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13100 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/140/kwia-vigorbloom) · oracle_id `07a28621-e617-46b0-af3e-2efb03b5056a` · printing: FRA #140 (2026-10-02) · [rulings](https://api.scryfall.com/cards/2d6ff182-a853-4898-895b-072c89324ca7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

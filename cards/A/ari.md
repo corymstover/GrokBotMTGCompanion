@@ -65,6 +65,7 @@
   > *"I'm not picky about what comes up, but the less decay, the better."*
   > *—Liliana Vess*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24846 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/292/arisen-gorgon) · oracle_id `69858691-1190-4454-af0a-87c2ac4ab6ec` · printing: M19 #292 (2018-07-13) · [rulings](https://api.scryfall.com/cards/e39502fd-193c-4526-8dd8-0cd8c822552c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arixmethes, Slumbering Isle

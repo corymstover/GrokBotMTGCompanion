@@ -66,7 +66,10 @@
   > This creature enters with X +1/+1 counters on it.
   > If damage would be dealt to this creature while it has a +1/+1 counter on it, prevent that damage and remove that many +1/+1 counters from this creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11879 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/3/ugins-conjurant) · oracle_id `787055e6-5d65-458e-a56e-66ef0574d2ca` · printing: WAR #3 (2019-05-03) · [rulings](https://api.scryfall.com/cards/9957ecca-5ea0-446f-bfd3-46c2aaa42f08/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-05-03* — If Ugin’s Conjurant would be dealt more damage than it has counters, you remove all of the +1/+1 counters it has on it and prevent all of that damage. If another effect is raising its toughness, it will survive until the next time it’s dealt lethal damage.
+  - *2019-05-03* — To cast Ugin’s Conjurant, first choose the value for X you’d like, then apply any cost increases, then any cost reductions. The number of counters it enters with may be different than the amount of mana you pay if an effect (such as that of Ugin, the Ineffable) causes that you pay an amount of mana other than {X}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/3/ugins-conjurant) · oracle_id `787055e6-5d65-458e-a56e-66ef0574d2ca` · printing: WAR #3 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ugin's Construct
 
@@ -78,7 +81,9 @@
 - **Flavor text** (FRF printing):
   > *While trapping the Eldrazi on Zendikar, Ugin learned little from Sorin, but he gleaned the rudiments of lithomancy from Nahiri.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27736 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frf/164/ugins-construct) · oracle_id `6b87a933-b0d2-4120-b4a0-65ab0f3dbe48` · printing: FRF #164 (2015-01-23) · [rulings](https://api.scryfall.com/cards/7ee009a4-72d0-4828-b826-3ed7c7d87b53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-11-24* — If you control only colorless permanents as the ability resolves (for example, basic lands and face-down permanents), you won’t sacrifice anything.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frf/164/ugins-construct) · oracle_id `6b87a933-b0d2-4120-b4a0-65ab0f3dbe48` · printing: FRF #164 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ugin's Insight
 

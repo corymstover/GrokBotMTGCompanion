@@ -59,6 +59,7 @@
   > Anything that could have changed The Game-Changing Host on the turn it enters applies retroactively. (He's been here the whole time.)
   > {T}: Create a copy of a game changer at random. You may play the copy without paying its mana cost. (There are currently 61. Perhaps look at a list and randomize?)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ05j/the-game-changing-host) · oracle_id `d021623a-8087-4ec0-825a-adcd8b3b5ace` · printing: UNK #RZ05j (2025-06-20) · [rulings](https://api.scryfall.com/cards/df4742d0-526c-4549-aea1-413093d72bbc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The General
@@ -68,6 +69,7 @@
 - **Oracle text:**
   > Exile The General: Creatures you control get +1/+1 until end of turn. Untap them.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thp2/4a/the-general) · oracle_id `633c0f56-08f9-4762-aacf-1c25daa8fa17` · printing: THP2 #4a (2014-02-07) · [rulings](https://api.scryfall.com/cards/68a4653a-5063-4fa9-8cbe-21d3ddebe3df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Generational Historian
@@ -81,6 +83,7 @@
 - **Flavor text** (UNK printing):
   > *Prize Card for the Unknown events at GenCon, July 30-August 2, 2026*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/MG05/the-generational-historian) · oracle_id `409fc553-a5e2-44fa-87eb-cd88eded5a75` · printing: UNK #MG05 (2026-07-30) · [rulings](https://api.scryfall.com/cards/b2be17ee-af9f-4667-a05b-d4e71c959897/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ghoul, Gunslinger
@@ -95,6 +98,7 @@
   > *"Feo, fuerte, y formal."*
 - **Keywords:** First strike, Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12075 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2448/the-ghoul-gunslinger) · oracle_id `ddfa5c7d-bc47-43e0-9607-b3baa8e6a17d` · printing: SLD #2448 (2026-01-26) · [rulings](https://api.scryfall.com/cards/e7ed7d2c-c49b-4786-86eb-125863e874a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Girl in the Fireplace
@@ -108,7 +112,10 @@
   > III — Whenever a creature you control deals combat damage to a player this turn, time travel.
 - **Keywords:** Time Travel
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13912 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/21/the-girl-in-the-fireplace) · oracle_id `39068bf1-cae4-4ac9-82ef-4e81bf59446e` · printing: WHO #21 (2023-10-13) · [rulings](https://api.scryfall.com/cards/1e3a5da4-0d8e-4db1-b827-ddfeb5ce0f1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-10-13* — Time counters are usually found on cards with suspend and vanishing, but may be found on other cards as well. Notably, Sagas use lore counters to track their progress, not time counters. You can't move a Saga's chapters forward and backward this way.
+  - *2023-10-13* — To time travel, look at each permanent you control with a time counter on it and each suspended card you own in exile with a time counter on it. For each of them, you choose whether you want to put a time counter on that card or permanent, remove a time counter from it, or do neither. Then those changes all happen simultaneously.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/21/the-girl-in-the-fireplace) · oracle_id `39068bf1-cae4-4ac9-82ef-4e81bf59446e` · printing: WHO #21 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Gitrog Monster
 
@@ -157,6 +164,7 @@
   > As long as you control The Goblin Mastermind or it's your commander, permanents you control are Kindred Goblins in addition to their other types. The same is true for spells you control and cards that you own that aren't on the battlefield.
   > Whenever The Goblin Mastermind deals combat damage to a player, you create a token that's a copy of one of Skirk Prospector, Goblin Lackey, Goblin Piledriver, Goblin Warchief, Boggart Harbinger, or Goblin Ringleader, chosen at random.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04w/the-goblin-mastermind) · oracle_id `6662d30d-6ca5-4c32-a1c1-43fe4de2b96b` · printing: UNK #RZ04w (2026-05-01) · [rulings](https://api.scryfall.com/cards/25201096-048a-4a12-980b-f97942e6df65/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Goblin Sparring Grounds
@@ -169,6 +177,7 @@
   > {B}{R}: Until end of turn, The Goblin Sparring Grounds becomes a Goblin creature in addition to its other types and gains "This creature's power and toughness are each equal to the number of experience counters you have."
   > The Goblin Sparring Grounds can be your commander.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RL01f/the-goblin-sparring-grounds) · oracle_id `20f917f4-4430-4d91-8b31-8473a8f0baea` · printing: UNK #RL01f (2026-05-01) · [rulings](https://api.scryfall.com/cards/7a6120dc-4d21-4074-9e66-2c34394f07be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Golden Throne
@@ -216,6 +225,7 @@
   > When The Good Gamers enters, create X tokens that are copies of it. Give this creature and the tokens unique names.
   > All damage dealt by this creature to an opponent counts as commander damage for your commander (including noncombat damage and even if this isn't your commander).
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03q/the-good-gamers) · oracle_id `52072751-bceb-40a4-ae37-29ec89faca36` · printing: UNK #RZ03q (2026-05-01) · [rulings](https://api.scryfall.com/cards/73baefef-bf64-4d3b-b792-8800038f820f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Good Time Sleuth
@@ -227,6 +237,7 @@
   > When The Good Time Sleuth enters, exile the top card of your library and each nontoken creature you control in a face-down pile, shuffle that pile, then manifest those cards. Then create a Blood token for each face-down creature you control. Those creature gain "Sacrifice a Blood: Turn this creature face up." Secretly choose one of them. As that creature is turned face up, reveal the choice and it becomes a 5/5 black Demon.
 - **Keywords:** Manifest
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ05h/the-good-time-sleuth) · oracle_id `3ee92331-5c48-4941-997b-11229298fca7` · printing: UNK #RZ05h (2025-02-21) · [rulings](https://api.scryfall.com/cards/1ebeb002-43f5-4580-85e4-adde8c120f7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Goose Mother
@@ -259,7 +270,13 @@
   > At the beginning of each player's end step, if that player's program has fewer than five cards, they draw cards equal to the difference.
   > The Grand Calcutron can be your commander.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/131/the-grand-calcutron) · oracle_id `7ff359ec-8386-4e06-93b5-7f8eead486b3` · printing: UST #131 (2017-12-08) · [rulings](https://api.scryfall.com/cards/3c1e38a2-d817-4f19-aabf-02dc72c78259/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2018-01-19* — After The Grand Calcutron leaves the battlefield, players pick their cards up and put them back in their hand. They are no longer public and no longer follow the rules of The Grand Calcutron.
+  - *2018-01-19* — In Commander games allowing silver-bordered cards, The Grand Calcutron can be your commander.
+  - *2018-01-19* — When The Grand Calcutron enters the battlefield, all players take their hands and place them face up on the table. They then order them as they choose into a row, called a "program." The only card they may cast is the first card in their program.
+  - *2018-01-19* — Whenever a card would go to a player's hand (they drew it, it got bounced, etc.) that player can put the card anywhere in their program they wish. At the beginning of each end step, if you have fewer than five cards in your program, you draw cards until you have five.
+  - *2018-01-19* — Your program is still your hand. If you discard a card, it goes from your program to your graveayard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/131/the-grand-calcutron) · oracle_id `7ff359ec-8386-4e06-93b5-7f8eead486b3` · printing: UST #131 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Grand Tour
 
@@ -268,7 +285,12 @@
 - **Oracle text:**
   > Exile target permanent, then put it into its owner's hand. That player discards that card, then puts it on top of their library. Then they put it onto the battlefield.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/30/the-grand-tour) · oracle_id `eddfcf9f-7696-46fb-8589-d8444b438db4` · printing: CMB2 #30 (2021-08-20) · [rulings](https://api.scryfall.com/cards/89476a59-f75d-4037-80af-a59d54df82c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-11-12* — If the target permanent is a token, it stops at exile. It doesn’t move to any of the other zones or return to the battlefield. It does not pass Go. It does not collect two hundred mana.
+  - *2019-11-12* — No player may take actions while The Grand Tour is resolving, and any abilities that trigger while the permanent is on tour won’t be put onto the stack until The Grand Tour has finished resolving.
+  - *2019-11-12* — Once the exiled permanent returns, it’s considered a new object with no relation to the object that it was. Auras attached to the exiled permanent will be put into their owners’ graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
+  - *2019-11-12* — The Grand Tour does not include the command zone or zones belonging to any player other than its owner. Look for The MegaGrand Tour, coming soon.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/30/the-grand-tour) · oracle_id `eddfcf9f-7696-46fb-8589-d8444b438db4` · printing: CMB2 #30 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Great Aurora
 
@@ -277,7 +299,12 @@
 - **Oracle text:**
   > Each player shuffles all cards from their hand and all permanents they own into their library, then draws that many cards. Each player may put any number of land cards from their hand onto the battlefield. Exile The Great Aurora.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12169 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/179/the-great-aurora) · oracle_id `b9d7341e-10e7-43f9-bee2-e8053b287acd` · printing: ORI #179 (2015-07-17) · [rulings](https://api.scryfall.com/cards/b1d0eb3b-00b9-42ca-9f7d-5543bffc3480/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2015-06-22* — A token is owned by the player under whose control it entered the battlefield. Tokens shuffled into a library count toward the number of cards drawn, though they cease to exist upon becoming part of a library. Regardless of what you’re using to represent tokens, you won’t shuffle that physical object into your library.
+  - *2015-06-22* — As The Great Aurora resolves, first you choose any number of land cards in your hand to put onto the battlefield, and then each other player in turn order does the same. The lands enter the battlefield simultaneously.
+  - *2015-06-22* — If a player is required to draw more cards than their library contains, that player loses the game. If all players lose the game this way, the game is a draw.
+  - *2015-06-22* — The number of cards you draw is equal to the number of permanents on the battlefield that you shuffle into your library plus the number of cards from your hand that you shuffle into your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/179/the-great-aurora) · oracle_id `b9d7341e-10e7-43f9-bee2-e8053b287acd` · printing: ORI #179 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Great Goblin
 
@@ -319,6 +346,7 @@
   > At the beginning of your upkeep, sacrifice The Great Juggernaut unless you discard a card.
   > Whenever The Great Juggernaut attacks, shuffle your library then exile the top card of your library. You may play that card without paying its mana cost this turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR04b/the-great-juggernaut) · oracle_id `539c5bb8-d5d0-4901-a45b-594514948be6` · printing: UNK #RR04b (2024-06-29) · [rulings](https://api.scryfall.com/cards/0026d249-079a-4ead-a502-401ec792fb88/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Great Mound
@@ -332,6 +360,7 @@
 - **Flavor text** (MSC printing):
   > *Mena Ngai, where the heaven-sent metal dwells.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12206 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/120/the-great-mound) · oracle_id `6b78e417-44f8-4ab6-9d3c-e71704fc648e` · printing: MSC #120 (2026-06-26) · [rulings](https://api.scryfall.com/cards/11b3f96c-138e-431e-a1d6-5ebae4cb6b2f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Grey Havens
@@ -358,7 +387,13 @@
   > {T}: Until end of turn, each creature card in your graveyard gains "Escape—{3}{B}, Exile four other cards from your graveyard." (You may cast a card with escape from your graveyard for its escape cost.)
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9989 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/82/the-grim-captains-locker) · oracle_id `29931e18-9dac-46fe-b9a4-72d838d79882` · printing: LCC #82 (2023-11-17) · [rulings](https://api.scryfall.com/cards/3f10a61b-d48b-4519-8c7d-d8bbf70091b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-11-10* — Escape's permission doesn't change when you may cast the spell from your graveyard.
+  - *2023-11-10* — If a card has multiple abilities giving you permission to cast it, such as two escape abilities or an escape ability and a flashback ability, you choose which one to apply. The others have no effect.
+  - *2023-11-10* — If you cast a spell with its escape permission, you can't choose to apply any other alternative costs or to cast it without paying its mana cost. If it has any additional costs, you must pay those.
+  - *2023-11-10* — Once you begin casting a spell with escape, it immediately moves to the stack. Players can't take any other actions until you're done casting the spell.
+  - *2023-11-10* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an escape cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was and no matter whether an alternative cost was paid.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/82/the-grim-captains-locker) · oracle_id `29931e18-9dac-46fe-b9a4-72d838d79882` · printing: LCC #82 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Gunky Runner
 
@@ -371,4 +406,5 @@
   > Ready to run (You can have two commanders if both have ready to run.)
 - **Keywords:** Ew-minance
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB04/the-gunky-runner) · oracle_id `7d3b14c9-0a0a-479b-a7fe-a87ec708e74d` · printing: UNK #RB04 (2024-10-25) · [rulings](https://api.scryfall.com/cards/13aee090-abba-4385-bb28-553583779100/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

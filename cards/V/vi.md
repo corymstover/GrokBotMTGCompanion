@@ -287,6 +287,7 @@
   > *"The artificer assured me that the vial is strong enough to contain the dragon's breath. I just need to make sure to throw it far enough."*
   > *—Kunh Mei, last words*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26471 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/417/vial-of-dragonfire) · oracle_id `17be934e-1e33-4b95-a984-242fa018e280` · printing: CMM #417 (2023-08-04) · [rulings](https://api.scryfall.com/cards/c924502b-a49e-4bf6-9e1a-9aa83f279228/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vial of Poison
@@ -298,6 +299,7 @@
 - **Flavor text** (M14 printing):
   > *There are worse ways to die, but not many.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24255 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m14/226/vial-of-poison) · oracle_id `3d51077f-4ce5-475a-9e65-e9076d779825` · printing: M14 #226 (2013-07-19) · [rulings](https://api.scryfall.com/cards/7769159b-5a6a-45e5-b69b-8db2a6ef5418/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vial Smasher, Gleeful Grenadier
@@ -310,7 +312,11 @@
 - **Flavor text** (OTJ printing):
   > *It wasn't quite home, but the fire still burned bright and the bombs still went boom.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10446 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/235/vial-smasher-gleeful-grenadier) · oracle_id `a66d8dc6-ced4-4b24-b0c2-3557b2a851be` · printing: OTJ #235 (2024-04-19) · [rulings](https://api.scryfall.com/cards/3afce4e6-ac59-4fba-b63a-8fed96bbdc4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-04-12* — A card, spell, or permanent is an outlaw if it has the Assassin, Mercenary, Pirate, Rogue, or Warlock creature type. It doesn't matter if it has more than one of those creature types; as long as it has at least one, it's an outlaw.
+  - *2024-04-12* — If an ability refers to an outlaw or whether a player controls an outlaw, it's referring only to permanents with one or more of the creature types specified above. Notably, it's not referring to any spell or card not on the battlefield. However, other abilities may refer to an "outlaw spell" or "outlaw card" in a zone other than the battlefield. Those abilities refer to spells and cards with one or more of the specified creature types.
+  - *2024-04-12* — Outlaw is not a creature type. If an effect asks you to choose a creature type, you can't choose outlaw.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/235/vial-smasher-gleeful-grenadier) · oracle_id `a66d8dc6-ced4-4b24-b0c2-3557b2a851be` · printing: OTJ #235 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vial Smasher the Fierce
 
@@ -349,7 +355,9 @@
   > *When the bey runs, match his stride.*
   > *—Viashino saying*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32196 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/93/viashino-bey) · oracle_id `d9c9b933-74f4-4898-bbb8-2da76b86ccda` · printing: ULG #93 (1999-02-15) · [rulings](https://api.scryfall.com/cards/26cc07c6-60c7-4abe-8197-7544887ec64d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The ability is not a triggered ability. It is a constraint on declaring an attack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/93/viashino-bey) · oracle_id `d9c9b933-74f4-4898-bbb8-2da76b86ccda` · printing: ULG #93 (1999-02-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viashino Bladescout
 
@@ -363,6 +371,7 @@
   > *"Find your courage in a desperate moment, and you turn the tide of history. So sayeth the bey."*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29586 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsp/185/viashino-bladescout) · oracle_id `e23d88c4-8c9c-41cb-b4ff-ebb3f880ab63` · printing: TSP #185 (2006-10-06) · [rulings](https://api.scryfall.com/cards/41fce1b3-0961-4672-845f-e1c6ce101c1b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viashino Branchrider
@@ -377,7 +386,14 @@
   > {2}{R}: This creature gets +2/+0 until end of turn.
 - **Keywords:** Haste, Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24646 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/150/viashino-branchrider) · oracle_id `50fcb431-626c-4db5-aa2c-445f3b81e7fa` · printing: DMU #150 (2022-09-09) · [rulings](https://api.scryfall.com/cards/1f08749e-05e0-4fb4-a4ae-35e7187584ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/150/viashino-branchrider) · oracle_id `50fcb431-626c-4db5-aa2c-445f3b81e7fa` · printing: DMU #150 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viashino Cutthroat
 
@@ -392,7 +408,9 @@
   > *—Vark, goblin scout, last words*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29606 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/94/viashino-cutthroat) · oracle_id `6dc1305a-d6ca-4280-ba5d-5ed91f78ced0` · printing: ULG #94 (1999-02-15) · [rulings](https://api.scryfall.com/cards/bcbab69d-3259-40f4-a588-ab550858a178/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It is returned to its owner’s hand at the end of turn only if it is on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/94/viashino-cutthroat) · oracle_id `6dc1305a-d6ca-4280-ba5d-5ed91f78ced0` · printing: ULG #94 (1999-02-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viashino Fangtail
 
@@ -405,6 +423,7 @@
   > *"When the bony terminus gets too large, it's shed from the tail in coinciding periods of heightened aggression and hunger."*
   > *—Simic research notes*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24384 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/148/viashino-fangtail) · oracle_id `5140cd2f-af30-4405-b5e4-996ef6349f59` · printing: RAV #148 (2005-10-07) · [rulings](https://api.scryfall.com/cards/2616dac9-bbcf-453a-9205-8e433a1c62aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viashino Firstblade
@@ -420,6 +439,7 @@
   > *—Tajic, Blade of the Legion*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26613 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/113/viashino-firstblade) · oracle_id `766e277c-983e-488c-a885-c03c3c0d3357` · printing: DGM #113 (2013-05-03) · [rulings](https://api.scryfall.com/cards/1cb0c21c-bdf1-478a-9ad8-6c6bda6ffb0f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viashino Grappler
@@ -433,6 +453,7 @@
   > *"They've returned for the mana rig, but it no longer belongs to them."*
   > *—Viashino bey*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32266 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/179/viashino-grappler) · oracle_id `74c5bfb0-1375-46e9-9a6c-1b9fada2913b` · printing: INV #179 (2000-10-02) · [rulings](https://api.scryfall.com/cards/4a94aeb4-349c-4394-848d-c1c9133856e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viashino Heretic
@@ -445,6 +466,7 @@
 - **Flavor text** (ULG printing):
   > *"The past is buried for good reason."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13488 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ulg/95/viashino-heretic) · oracle_id `36896550-151d-472c-bfc1-1d9bbf7cc04d` · printing: ULG #95 (1999-02-15) · [rulings](https://api.scryfall.com/cards/143e435e-e3a1-45b0-81c3-bd47916df8ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viashino Lashclaw
@@ -457,6 +479,7 @@
 - **Flavor text** (MH2 printing):
   > *"Victory is the greatest motivator of all. So sayeth the bey."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22032 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/146/viashino-lashclaw) · oracle_id `02358f98-99d5-45a3-b7e3-f2cbf08fa52c` · printing: MH2 #146 (2021-06-18) · [rulings](https://api.scryfall.com/cards/3457e346-a5de-4624-b577-f59d4c186537/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viashino Outrider
@@ -470,6 +493,7 @@
   > *"Give thy ration to thy mount, if the road be long. So sayeth the bey."*
 - **Keywords:** Echo
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32181 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/223/viashino-outrider) · oracle_id `3e81c22e-52ec-4142-9a98-88681d04ce60` · printing: USG #223 (1998-10-12) · [rulings](https://api.scryfall.com/cards/26ba659c-7e0f-4d8b-b91c-3c0725102ba2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viashino Pyromancer
@@ -482,6 +506,7 @@
 - **Flavor text** (FDN printing):
   > *"I trained with the Ghitu, and I respect the fire as they do."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16675 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/634/viashino-pyromancer) · oracle_id `5e78e6e0-60f0-4c3c-b8dd-bd673f5152b8` · printing: FDN #634 (2024-11-15) · [rulings](https://api.scryfall.com/cards/9f52ada2-cabc-46a3-99df-271833a86909/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viashino Racketeer
@@ -494,6 +519,7 @@
 - **Flavor text** (RTR printing):
   > *"You may call me a fool, selling this stuff on Orzhov turf. Well, you need to be a little reckless to survive."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27292 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rtr/112/viashino-racketeer) · oracle_id `18b09c2d-20cb-40e9-8209-8a1ec2edde97` · printing: RTR #112 (2012-10-05) · [rulings](https://api.scryfall.com/cards/bf4c2d22-9c36-42cc-854d-f96410bb5cf1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viashino Runner
@@ -508,6 +534,7 @@
   > *—Jula, goblin raider*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31690 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/245/viashino-runner) · oracle_id `ac7e317b-387c-403f-bcf1-403f96302f21` · printing: 10E #245 (2007-07-13) · [rulings](https://api.scryfall.com/cards/8aa862a0-388d-43b8-973f-3a00ebf53952/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viashino Sandscout
@@ -520,7 +547,9 @@
   > At the beginning of the end step, return this creature to its owner's hand. (Return it only if it's on the battlefield.)
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26429 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/10e/246/viashino-sandscout) · oracle_id `f8d5a65c-382b-4277-9c08-5dec9e395b02` · printing: 10E #246 (2007-07-13) · [rulings](https://api.scryfall.com/cards/102f139d-1baf-4ca6-a940-70b7efdc29f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It is returned to its owner’s hand at the end of turn only if it is on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/10e/246/viashino-sandscout) · oracle_id `f8d5a65c-382b-4277-9c08-5dec9e395b02` · printing: 10E #246 (2007-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viashino Sandsprinter
 
@@ -533,6 +562,7 @@
   > Cycling {R} ({R}, Discard this card: Draw a card.)
 - **Keywords:** Haste, Trample, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19083 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/153/viashino-sandsprinter) · oracle_id `6560517d-41c0-4c9c-b9d5-3ecfcb2b99fd` · printing: MH1 #153 (2019-06-14) · [rulings](https://api.scryfall.com/cards/f7d1def0-1450-44ec-b7c4-0fa50fe12c15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viashino Sandstalker
@@ -548,7 +578,9 @@
   > *—\*Zhalfirin Guide to the Desert\**
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26346 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/9ed/225/viashino-sandstalker) · oracle_id `cbfccfc0-3117-4ca0-b7ce-8e2d67ec49ab` · printing: 9ED #225 (2005-07-29) · [rulings](https://api.scryfall.com/cards/1954d2eb-c1d0-4b99-a89c-357beb710055/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It is returned to its owner’s hand at the end of any turn in which it is on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/9ed/225/viashino-sandstalker) · oracle_id `cbfccfc0-3117-4ca0-b7ce-8e2d67ec49ab` · printing: 9ED #225 (2005-07-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viashino Sandswimmer
 
@@ -560,6 +592,7 @@
 - **Flavor text** (USG printing):
   > *Few swim in a place of such thirst.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25788 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/225/viashino-sandswimmer) · oracle_id `1d82f01a-29be-4756-8745-e2c04bf77c61` · printing: USG #225 (1998-10-12) · [rulings](https://api.scryfall.com/cards/0790607f-51b7-40ff-80f9-4f7f5cd2d63c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viashino Shanktail
@@ -574,6 +607,7 @@
   > *The Slizt Clan's battle cry is an impressive display of fury, defiance, and spit.*
 - **Keywords:** First strike, Bloodrush
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27014 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gtc/110/viashino-shanktail) · oracle_id `1e49f33b-84c0-4b68-abd4-e8c00b3ce98f` · printing: GTC #110 (2013-02-01) · [rulings](https://api.scryfall.com/cards/f5dd72d5-548a-4b0e-95bb-e6b8d2de0fbe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viashino Skeleton
@@ -587,6 +621,7 @@
   > *Underneath the Dregscape lay the remains of creatures long extinct from Grixis.*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31527 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ala/118/viashino-skeleton) · oracle_id `a85e893c-6027-42eb-8d05-14c745cc8c95` · printing: ALA #118 (2008-10-03) · [rulings](https://api.scryfall.com/cards/b9451a62-31a4-4aaf-beef-2bf149f25ae3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viashino Slasher
@@ -599,6 +634,7 @@
 - **Flavor text** (RAV printing):
   > *Citizens of Ravnica stick to the main streets. Shortcuts may look tempting, but down each alley, dozens of hungry hands await, and screams do not carry into the busy market throng.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31768 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/149/viashino-slasher) · oracle_id `63908256-a8a4-494f-b5b1-4b92c064af1d` · printing: RAV #149 (2005-10-07) · [rulings](https://api.scryfall.com/cards/5fa18f23-c995-4fcc-8e95-bbf76426e703/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viashino Slaughtermaster
@@ -613,6 +649,7 @@
   > *"I'll fight two at once, and then lick their guts from my blades."*
 - **Keywords:** Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31361 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/133/viashino-slaughtermaster) · oracle_id `34bdf2f1-0cc9-4588-9a3e-5cfe5cde815d` · printing: MM2 #133 (2015-05-22) · [rulings](https://api.scryfall.com/cards/a441fae0-a9c7-4d91-a69e-8ea1f8fa6947/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viashino Spearhunter
@@ -626,6 +663,7 @@
   > *Viashino lack the majesty of their draconic ancestors, but they lash out with equal rage and twice the spite.*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31130 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m10/161/viashino-spearhunter) · oracle_id `bf302113-7f2e-4ceb-a26f-1fd6e010be8a` · printing: M10 #161 (2009-07-17) · [rulings](https://api.scryfall.com/cards/232226ab-918c-49b6-9f5b-fa0e0a1ba1d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viashino Warrior
@@ -639,6 +677,7 @@
   > *"When traveling the Great Desert avoid wearing the scales of lizards, for the Viashino rule the sands and look poorly on the skinning of their cousins."*
   > *—\*Zhalfirin Guide to the Desert\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31649 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/6ed/213/viashino-warrior) · oracle_id `f46e06e2-1658-4bec-b94e-91935cc667fb` · printing: 6ED #213 (1999-04-21) · [rulings](https://api.scryfall.com/cards/bb467271-898f-4bcd-8533-e8165b318b43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viashino Weaponsmith
@@ -651,6 +690,7 @@
 - **Flavor text** (USG printing):
   > *Within the rig settlement, those who have mastered the making of weapons earn highest honor.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31618 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/226/viashino-weaponsmith) · oracle_id `f4d17f41-efd6-4173-ab6e-28b6fbcee10d` · printing: USG #226 (1998-10-12) · [rulings](https://api.scryfall.com/cards/def316ed-b080-4d1d-b946-d7a86ebb8ad9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viashivan Dragon
@@ -666,6 +706,7 @@
   > *The Viashivan understand that cruelty arises from opportunity.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30546 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vis/140/viashivan-dragon) · oracle_id `86fb1fc1-7784-4c94-a80c-21ad87e50fc4` · printing: VIS #140 (1997-02-03) · [rulings](https://api.scryfall.com/cards/7172ef0b-ca9e-47cf-8ec6-2d8cb18f2283/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vibrance
@@ -700,6 +741,7 @@
   > *—T'Challa, the Black Panther*
 - **Keywords:** Indestructible, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14747 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/254/vibranium-energy-daggers) · oracle_id `be0b86fc-8450-41d4-9836-6de11cecb857` · printing: MSH #254 (2026-06-26) · [rulings](https://api.scryfall.com/cards/4fe5952d-f50f-443a-b960-657fc4bc1965/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vibranium Mining Mech
@@ -714,6 +756,7 @@
   > Crew 2
 - **Keywords:** Crew, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13132 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/117/vibranium-mining-mech) · oracle_id `1bea6d02-186e-46d8-b788-d4cc37dbb480` · printing: MSC #117 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2212e15b-5deb-4ab8-9f6f-7991e750e21a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vibranium Strike Gauntlets
@@ -727,6 +770,7 @@
   > Equip {3}
 - **Keywords:** Equip, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11011 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/118/vibranium-strike-gauntlets) · oracle_id `4a9d36eb-db72-459a-8de9-6d04a1d7563c` · printing: MSC #118 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2b47e8b0-471c-4429-8273-d114fdf95e13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vibrant Cityscape
@@ -751,6 +795,7 @@
 - **Flavor text** (SOS printing):
   > *"I'll show you a 'colorful insult'!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14826 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/240/vibrant-outburst) · oracle_id `a0cbb1ba-73b1-4418-bbe3-5d1a02007c08` · printing: SOS #240 (2026-04-24) · [rulings](https://api.scryfall.com/cards/f9ba68ef-6efc-4249-8b74-e33f47173902/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vibrating Sphere
@@ -764,7 +809,9 @@
   > *"Unearthly and invisible fibers emanate from this sphere, entangling all who draw near."*
   > *—Arcum Dagsson, Soldevi Machinist*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30135 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/238/vibrating-sphere) · oracle_id `8a8fe94f-81aa-4725-ace6-ed56a1e1ed91` · printing: ME4 #238 (2011-01-10) · [rulings](https://api.scryfall.com/cards/7f0da2b7-ed3b-47fd-962e-ca5dc745cfc7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Any creature which is lowered below a toughness of 1 will die at the beginning of the upkeep step, since that is the first time State-Based Actions are checked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/238/vibrating-sphere) · oracle_id `8a8fe94f-81aa-4725-ace6-ed56a1e1ed91` · printing: ME4 #238 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vicious Battlerager
 
@@ -776,7 +823,19 @@
   > Spiked Retribution — Whenever this creature becomes blocked by a creature, that creature's controller loses 5 life.
 - **Keywords:** Spiked Retribution
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11729 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/155/vicious-battlerager) · oracle_id `b8942c72-16ce-4f2f-875f-97a56e85a03e` · printing: CLB #155 (2022-06-10) · [rulings](https://api.scryfall.com/cards/20f939d8-3d41-4d8b-baea-7f022104c704/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2022-06-10* — A player who currently has the initiative may take the initiative again. This causes that player to venture into Undercity again, but does not cause them to have multiple initiative designations.
+  - *2022-06-10* — If Vicious Battlerager becomes blocked by more than one creature, its triggered ability triggers once for each creature that blocked it.
+  - *2022-06-10* — If the player with the initiative leaves the game, the active player takes the initiative at the same time that player leaves the game. If the active player is leaving the game or if there is no active player, the next player in turn order takes the initiative.
+  - *2022-06-10* — If you aren’t in a dungeon when instructed to venture into Undercity, you will put Undercity into the command zone and move your venture marker to Secret Entrance (the first room).
+  - *2022-06-10* — If you’re already in a dungeon when instructed to venture into Undercity, you move to the next room of that dungeon. If you are already in the last room, you will complete that dungeon and start Undercity. This is true whether you’re already in Undercity or any other dungeon.
+  - *2022-06-10* — In a Two-Headed Giant game, if both players on a team deal combat damage to the player that has the initiative at the same time, the player with the initiative will choose the order of the triggered abilities. Then, as those abilities resolve, one team member takes the initiative (and ventures into Undercity) and then the other team member does the same. The last player to take the initiative keeps it until the initiative changes again.
+  - *2022-06-10* — Only one player can have the initiative at a time. As one player takes the initiative, any other player that had the initiative ceases to have it.
+  - *2022-06-10* — Similarly, when instructed to venture into Undercity, you can’t start a dungeon that isn’t Undercity.
+  - *2022-06-10* — The initiative is a designation a player can have. A player with the initiative designation is said to “have the initiative.” The initiative carries two inherent rules. First, whenever a player takes the initiative, and at the beginning of the upkeep of the player with the initiative, that player ventures into Undercity. Second, whenever one or more creatures a player controls deal combat damage to the player who has the initiative, the first player takes the initiative. Also, some abilities will refer to having the initiative and provide other benefits.
+  - *2022-06-10* — There is no initiative in a game until an effect instructs a player to take the initiative. Once a player is instructed to do this, they have the initiative until another player takes the initiative.
+  - *2022-06-10* — You cannot venture into Undercity unless instructed to do so, either because you have the initiative at the beginning of your upkeep or because you take the initiative. Notably, if you aren’t in a dungeon and an effect instructs you to venture into the dungeon (not venture into Undercity), you can’t start Undercity.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/155/vicious-battlerager) · oracle_id `b8942c72-16ce-4f2f-875f-97a56e85a03e` · printing: CLB #155 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vicious Betrayal
 
@@ -786,6 +845,7 @@
   > As an additional cost to cast this spell, sacrifice any number of creatures.
   > Target creature gets +2/+2 until end of turn for each creature sacrificed this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28976 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/60/vicious-betrayal) · oracle_id `be1015a7-2ace-4b97-8884-202abae8401b` · printing: 5DN #60 (2004-06-04) · [rulings](https://api.scryfall.com/cards/75ca003f-dc03-4533-a245-fde836aab5eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vicious Clown
@@ -798,7 +858,9 @@
 - **Flavor text** (DSK printing):
   > *"Surprise! Aaahahahahah! You should see the look on your face. Here, let's peel it off so you can!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20015 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/163/vicious-clown) · oracle_id `e02abbc0-687b-4aef-95b8-bf18e199725a` · printing: DSK #163 (2024-09-27) · [rulings](https://api.scryfall.com/cards/12649f73-9d29-4eed-bc89-cc0d1a8969e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — Vicious Clown's ability checks the power of the other creature only at the moment it enters. If a creature enters with counters, those counters are included. If a creature's power is 2 or less when it enters but becomes greater than 2 while Vicious Clown's ability is still on the stack, Vicious Clown will still get +2/+0 until end of turn when its ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/163/vicious-clown) · oracle_id `e02abbc0-687b-4aef-95b8-bf18e199725a` · printing: DSK #163 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vicious Conquistador
 
@@ -823,6 +885,7 @@
 - **Flavor text** (GVL printing):
   > *Only the most ravenous soul feeds on the health of the weak.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28406 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gvl/50/vicious-hunger) · oracle_id `38ea22cd-2c5d-4f66-a111-207aca4c67c3` · printing: GVL #50 (2014-12-05) · [rulings](https://api.scryfall.com/cards/a232093a-f136-428d-9a6d-c03b1a20126a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vicious Kavu
@@ -835,6 +898,7 @@
 - **Flavor text** (INV printing):
   > *As battle raged in Shiv, a strange new ally appeared from below the ravaged ground.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30915 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/284/vicious-kavu) · oracle_id `236fbf12-f908-4918-babb-1558e767cbe3` · printing: INV #284 (2000-10-02) · [rulings](https://api.scryfall.com/cards/31e9e629-7c25-4d45-aa35-9ba5f95b43cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vicious Offering
@@ -846,7 +910,14 @@
   > Target creature gets -2/-2 until end of turn. If this spell was kicked, that creature gets -5/-5 until end of turn instead.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23333 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/110/vicious-offering) · oracle_id `c6adfaa7-d9cf-4501-8e7d-e035369390d2` · printing: DOM #110 (2018-04-27) · [rulings](https://api.scryfall.com/cards/aaed7828-57c1-4ad3-a91b-209c66f0876b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/110/vicious-offering) · oracle_id `c6adfaa7-d9cf-4501-8e7d-e035369390d2` · printing: DOM #110 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vicious Rivalry
 
@@ -888,7 +959,10 @@
   > *"Thrashes of the ancient past still linger in spirit and shadow, desperate to sink their claws into our souls."*
   > *—Rakka Mar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11837 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/119/vicious-shadows) · oracle_id `9707ac4f-6493-47fe-9c31-4daf469b5c6e` · printing: ALA #119 (2008-10-03) · [rulings](https://api.scryfall.com/cards/d040791e-eee4-4eef-ace1-507216a5d268/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-10-01* — The number of cards in the targeted opponent’s hand is checked only when the ability resolves.
+  - *2008-10-01* — The player you target doesn’t have to be the controller of the creature that was put into a graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/119/vicious-shadows) · oracle_id `9707ac4f-6493-47fe-9c31-4daf469b5c6e` · printing: ALA #119 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viconia, Drow Apostate
 
@@ -940,6 +1014,7 @@
   > *"Do not touch a drop. Not yet. I want to watch this so-called slayer's last crisis of faith."*
   > *—Olivia Voldaren*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10007 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddq/67/victim-of-night) · oracle_id `d92b9f63-17b6-4ed2-b6ae-083a8161863e` · printing: DDQ #67 (2016-02-26) · [rulings](https://api.scryfall.com/cards/c128272d-4611-477c-84b9-081bddcc7188/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Victorious Destruction
@@ -952,6 +1027,7 @@
   > *"The refugees look at these structures with hope. We must relieve them of this burden."*
   > *—Juex, tormentor exarch*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29992 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nph/99/victorious-destruction) · oracle_id `fa5d6c02-53b2-4144-87cb-e223b529ba7d` · printing: NPH #99 (2011-05-13) · [rulings](https://api.scryfall.com/cards/7b81cb30-e9f8-41f3-a10b-26e0ba2503aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Victor Mancha, Runaway
@@ -965,6 +1041,7 @@
   > *"Truly, you are my greatest creation."*
   > *—Ultron*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22502 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/574/victor-mancha-runaway) · oracle_id `606a83ae-c774-4abc-ba30-c113cbd1c05b` · printing: MSC #574 (2026-06-26) · [rulings](https://api.scryfall.com/cards/4d9bc6d6-fada-41f9-8a85-483e8806bb4b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Victor Timely, Wily Tycoon
@@ -977,6 +1054,7 @@
 - **Flavor text** (MSC printing):
   > *"No time like the present. No present like the future."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26843 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/642/victor-timely-wily-tycoon) · oracle_id `2ad77eb7-9466-432f-87b4-e80e4b66e143` · printing: MSC #642 (2026-06-26) · [rulings](https://api.scryfall.com/cards/60178b2b-a049-4254-b754-b56910cece84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Victor, Valgavoth's Seneschal
@@ -1019,6 +1097,7 @@
 - **Flavor text** (MIC printing):
   > *Her paean is the clash of spears, her prayer a battle cry.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10178 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/96/victorys-envoy) · oracle_id `fbdff913-8f86-4fcb-87c3-de2011fd036d` · printing: MIC #96 (2021-09-24) · [rulings](https://api.scryfall.com/cards/b9fd4bad-0227-484d-ba48-4e7f75bb804d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Victory's Herald
@@ -1033,7 +1112,10 @@
   > *The corruption stirred the heavens above, awaking a shining champion.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11649 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/38/victorys-herald) · oracle_id `e410f80f-cf67-46ff-aeb3-da0204237d66` · printing: CM2 #38 (2018-06-08) · [rulings](https://api.scryfall.com/cards/33366563-6cb8-46f6-82c9-d7541a52af33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-06-01* — Even though the triggered ability affects only attacking creatures, the bonuses will remain for the rest of the turn.
+  - *2011-06-01* — Victory’s Herald also gains flying (which will likely be redundant) and lifelink if it’s still attacking when the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/38/victorys-herald) · oracle_id `e410f80f-cf67-46ff-aeb3-da0204237d66` · printing: CM2 #38 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Victual Sliver
 
@@ -1045,7 +1127,10 @@
 - **Flavor text** (TPR printing):
   > *"We are kinfolk," explained Karn to the sliver queen. "Just as you need your progeny to complete you, so do I need the pieces of the Legacy to make me whole."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21396 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/215/victual-sliver) · oracle_id `bd803b1c-1370-40db-a6c6-abad4b3d1602` · printing: TPR #215 (2015-05-06) · [rulings](https://api.scryfall.com/cards/097d513b-23e9-49a5-aa14-a381a3018cec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit.
+  - *2013-07-01* — If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/215/victual-sliver) · oracle_id `bd803b1c-1370-40db-a6c6-abad4b3d1602` · printing: TPR #215 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### View from Above
 
@@ -1056,7 +1141,11 @@
 - **Flavor text** (CON printing):
   > *"This air feels so heavy and thick. There are no winds to speak of. I fear the knowledge that comes from a place like this."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15661 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/con/38/view-from-above) · oracle_id `3a128587-c751-4b27-b608-d4e47646b80e` · printing: CON #38 (2009-02-06) · [rulings](https://api.scryfall.com/cards/0dc73034-4886-4855-b6de-392fa053fe9e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2009-02-01* — If View from Above doesn’t resolve for any reason (for example, if its target has become illegal), none of its effects happen. It will be put into your graveyard as normal.
+  - *2009-02-01* — If you control a white permanent, View from Above moves from the stack to your hand as part of its resolution. It never hits the graveyard. If you don’t control a white permanent, View from Above is put into the graveyard from the stack as normal.
+  - *2009-02-01* — This checks the colors of permanents you control as it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/con/38/view-from-above) · oracle_id `3a128587-c751-4b27-b608-d4e47646b80e` · printing: CON #38 (2009-02-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viewpoint Synchronization
 
@@ -1082,6 +1171,7 @@
   > {1}{U}: Untap target creature with a +1/+1 counter on it.
 - **Keywords:** Graft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13193 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/68/vigean-graftmage) · oracle_id `4c209165-a159-4cd7-8e99-1e533d3a22a6` · printing: MM2 #68 (2015-05-22) · [rulings](https://api.scryfall.com/cards/4aa0a951-0018-41bb-8e82-c3844983a753/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vigean Hydropon
@@ -1096,7 +1186,9 @@
   > *Fruits of magic, roots in science.*
 - **Keywords:** Graft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25706 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dis/135/vigean-hydropon) · oracle_id `3eab4c00-a8ae-4912-bee1-68376de700a3` · printing: DIS #135 (2006-05-05) · [rulings](https://api.scryfall.com/cards/6373aedc-4385-4608-bfbc-1937d6528d28/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-05-01* — Even though this creature can't attack, it doesn't have defender.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dis/135/vigean-hydropon) · oracle_id `3eab4c00-a8ae-4912-bee1-68376de700a3` · printing: DIS #135 (2006-05-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vigean Intuition
 
@@ -1105,6 +1197,7 @@
 - **Oracle text:**
   > Choose a card type, then reveal the top four cards of your library. Put all cards of the chosen type revealed this way into your hand and the rest into your graveyard. (Artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery are card types.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30993 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/136/vigean-intuition) · oracle_id `0be157fa-b2d3-415e-acb0-173fd1603fde` · printing: DIS #136 (2006-05-05) · [rulings](https://api.scryfall.com/cards/be493737-0457-447b-802b-043d7a77f389/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vigilance
@@ -1119,6 +1212,7 @@
   > *—Sensei Golden-Tail*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24436 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/49/vigilance) · oracle_id `70570170-be76-4c56-9151-c4b6e253f462` · printing: CHK #49 (2004-10-01) · [rulings](https://api.scryfall.com/cards/d24dc353-abc9-430a-a7f5-5da3b38cd411/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vigilant Baloth
@@ -1132,6 +1226,7 @@
   > *Villagers employ watchdogs as guardians and companions. Druids prefer something a little bigger.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27820 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/206/vigilant-baloth) · oracle_id `caf1bc69-a8d7-454b-9cc6-2e4d003776a8` · printing: M19 #206 (2018-07-13) · [rulings](https://api.scryfall.com/cards/34ad8e5d-0c26-4588-8161-b22197715d63/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vigilant Drake
@@ -1146,6 +1241,7 @@
   > *It can stay aloft for weeks with little or no sleep.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32036 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/109/vigilant-drake) · oracle_id `4f5eaf5a-dd52-4d48-91b5-d48763d13159` · printing: 7ED #109 (2001-04-11) · [rulings](https://api.scryfall.com/cards/5bb4be1f-3e5b-4881-9fae-9ed022f8eeac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vigilante Justice
@@ -1157,6 +1253,7 @@
 - **Flavor text** (C20 printing):
   > *It begins as a whisper and ends with the red roar of fire.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17430 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/164/vigilante-justice) · oracle_id `9610176a-dcd6-4117-89db-45f56b16cdd6` · printing: C20 #164 (2020-04-17) · [rulings](https://api.scryfall.com/cards/10474e9b-213c-4134-ad49-e3d17d7e0a8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vigilant Martyr
@@ -1169,6 +1266,7 @@
   > {W}{W}, {T}, Sacrifice this creature: Counter target spell that targets an enchantment.
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21068 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/45/vigilant-martyr) · oracle_id `122dfe9f-e0e2-4f69-9637-289c956fd54a` · printing: MIR #45 (1996-10-08) · [rulings](https://api.scryfall.com/cards/a02e3c10-cc21-4e06-a987-b03aee61bd50/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vigilant Sentry
@@ -1180,7 +1278,10 @@
   > Threshold — As long as there are seven or more cards in your graveyard, this creature gets +1/+1 and has "{T}: Target attacking or blocking creature gets +3/+3 until end of turn."
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30364 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/33/vigilant-sentry) · oracle_id `9bb66d53-a83c-4313-91c3-4df09c248558` · printing: DMR #33 (2023-01-13) · [rulings](https://api.scryfall.com/cards/c75772e5-257e-4b08-90a4-492a43f229b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-12-08* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to Vigilant Sentry may become lethal if the number of cards in your graveyard falls below seven.
+  - *2022-12-08* — Once you activate the ability Vigilant Sentry gives itself, it doesn’t matter what happens to the number of cards in your graveyard. That ability will still resolve even if that number drops below seven in response.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/33/vigilant-sentry) · oracle_id `9bb66d53-a83c-4313-91c3-4df09c248558` · printing: DMR #33 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vigil for the Lost
 
@@ -1191,7 +1292,9 @@
 - **Flavor text** (SOM printing):
   > *"As she grew cold in my arms, I swore an oath that her funeral pyre would be dwarfed by a bonfire of our enemies."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28554 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/som/26/vigil-for-the-lost) · oracle_id `87a4caa4-cb08-4a0c-b57a-d6d8474b1f5e` · printing: SOM #26 (2010-10-01) · [rulings](https://api.scryfall.com/cards/4a87b48b-2ae9-4753-8719-62411f94ca87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-01* — As the ability resolves, you choose a value for X and decide whether to pay {X}. If you do decide to pay {X}, it’s too late for any player to respond since the ability is already in the midst of resolving.
+- **Source flags:** [Scryfall](https://scryfall.com/card/som/26/vigil-for-the-lost) · oracle_id `87a4caa4-cb08-4a0c-b57a-d6d8474b1f5e` · printing: SOM #26 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vigor
 
@@ -1221,7 +1324,9 @@
 - **Flavor text** (FRA printing):
   > *Battlemages of Vigorbloom, the school of invasive healing, tend to the health of Hexhaven, no matter the cost.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19143 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/194/vigorbloom-annex) · oracle_id `fcb35d42-bcd2-427c-9640-ff3602b79912` · printing: FRA #194 (2026-10-02) · [rulings](https://api.scryfall.com/cards/db8c7bdd-76cd-4be0-ae0d-d430e9a5fe7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-08-21* — If this land enters at the same time as a planeswalker, that planeswalker isn't considered when determining if this land enters the battlefield tapped or untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/194/vigorbloom-annex) · oracle_id `fcb35d42-bcd2-427c-9640-ff3602b79912` · printing: FRA #194 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vigorbloom Charm
 
@@ -1234,6 +1339,7 @@
   > • Put a +1/+1 counter on target creature you control. Then it fights target creature an opponent controls. (Each deals damage equal to its power to the other.)
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14649 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/160/vigorbloom-charm) · oracle_id `826f17d1-3806-4579-8b1b-2082b7b03d69` · printing: FRA #160 (2026-10-02) · [rulings](https://api.scryfall.com/cards/2b198e10-b507-4314-a29c-a219f06e48b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vigorbloom Vanguard // Seed Suture
@@ -1247,7 +1353,23 @@
   > Put a +1/+1 counter on target creature. You gain 1 life.
 - **Keywords:** Prepared
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20530 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/161/vigorbloom-vanguard-seed-suture) · oracle_id `bd416426-d037-45e3-9647-816bf982cbea` · printing: FRA #161 (2026-10-02) · [rulings](https://api.scryfall.com/cards/acefc515-bf97-4dc0-b0f7-ae8ae5a61671/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2026-08-21* — A creature with a prepare spell can't become prepared more than once at the same time. For example, say Bloodline Recollector is on the battlefield and is prepared. During the current turn, three creatures die. At the beginning of the end step, Bloodline Recollector's last ability triggers. When that ability resolves, since Bloodline Recollector is already prepared, the ability won't cause it to become prepared a second time or create a second copy of Ancestral Craving in exile.
+  - *2026-08-21* — A creature without a prepare spell can't become prepared.
+  - *2026-08-21* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Diviner of Victory is a blue creature card whose mana value is 1. It can't be the target of Stingcaster Mage's triggered ability ("When this creature enters, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost.").
+  - *2026-08-21* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-08-21* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-08-21* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-08-21* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog") targeting Diviner of Victory. The token copy of Diviner of Victory will enter prepared as a 1/1 green Frog creature, but the copy of Unwind History in exile will still be a blue sorcery. The copy of Unwind History won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-08-21* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-08-21* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-08-21* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-08-21* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-08-21* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-08-21* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-08-21* — Preparation cards can be cast only with their base characteristics.
+  - *2026-08-21* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/161/vigorbloom-vanguard-seed-suture) · oracle_id `bd416426-d037-45e3-9647-816bf982cbea` · printing: FRA #161 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vigor Mortis
 
@@ -1258,7 +1380,9 @@
 - **Flavor text** (DDJ printing):
   > *After fear and weakness rot away, that which remains is stronger than its living form.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18575 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddj/74/vigor-mortis) · oracle_id `6de27cba-5500-4448-abef-68e69fe519dc` · printing: DDJ #74 (2012-09-07) · [rulings](https://api.scryfall.com/cards/59587fde-c3f9-48c3-b991-46abb5423314/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2005-10-01* — The +1/+1 counter from this ability is in addition to any other counters the creature enters with.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddj/74/vigor-mortis) · oracle_id `6de27cba-5500-4448-abef-68e69fe519dc` · printing: DDJ #74 (2012-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vigorous Charge
 
@@ -1269,7 +1393,14 @@
   > Target creature gains trample until end of turn. Whenever that creature deals combat damage this turn, if this spell was kicked, you gain life equal to that damage.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28507 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inv/222/vigorous-charge) · oracle_id `b8ce3f84-2053-4d16-ab3d-e552bd8d0e8c` · printing: INV #222 (2000-10-02) · [rulings](https://api.scryfall.com/cards/af6f57ad-d370-4c81-8da0-c15d87725ab1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inv/222/vigorous-charge) · oracle_id `b8ce3f84-2053-4d16-ab3d-e552bd8d0e8c` · printing: INV #222 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vigorspore Wurm
 
@@ -1281,7 +1412,13 @@
   > This creature can't be blocked by more than one creature.
 - **Keywords:** Undergrowth
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22169 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/147/vigorspore-wurm) · oracle_id `be843255-7408-45b9-b0ca-c79342daa353` · printing: GRN #147 (2018-10-05) · [rulings](https://api.scryfall.com/cards/b62625de-3a2f-43d6-8cf7-ea38f038f3b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2018-10-05* — Because tokens aren't cards, they never count for undergrowth abilities.
+  - *2018-10-05* — Creature cards with other types, such as artifact creature cards, count for undergrowth abilities.
+  - *2018-10-05* — If Vigorspore Wurm gains menace, it can't be blocked at all.
+  - *2018-10-05* — If there are no creature cards in your graveyard, the target creature just gains vigilance until end of turn.
+  - *2018-10-05* — The value of X is determined only as the undergrowth ability resolves. If the number of creature cards in your graveyard changes later in the turn, the target creature is unaffected.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/147/vigorspore-wurm) · oracle_id `be843255-7408-45b9-b0ca-c79342daa353` · printing: GRN #147 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vihaan, Goldwaker
 
@@ -1310,6 +1447,7 @@
   > {4}{R}, {Q}, Discard a card: Vikya, Scorching Stalwart deals damage equal to its power to any target. If excess damage was dealt to a creature this way, draw a card. ({Q} is the untap symbol.)
 - **Keywords:** Training
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18450 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/11/vikya-scorching-stalwart) · oracle_id `ad43ccce-3052-4817-8c46-f5c23cb49300` · printing: SLX #11 (2023-02-10) · [rulings](https://api.scryfall.com/cards/f3a9eac0-cc71-48ae-bb60-ae26160f2000/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vildin-Pack Outcast // Dronepack Kindred
@@ -1328,7 +1466,9 @@
   > *These new terrors will not recede with the setting of the moon.*
 - **Keywords:** Transform, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26850 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/emn/148/vildin-pack-outcast-dronepack-kindred) · oracle_id `6e6f9269-c72b-4449-9c2d-a720b9bd6f06` · printing: EMN #148 (2016-07-22) · [rulings](https://api.scryfall.com/cards/460f7733-c0a6-4439-a313-7b26ae6ee15b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-07-13* — For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+- **Source flags:** [Scryfall](https://scryfall.com/card/emn/148/vildin-pack-outcast-dronepack-kindred) · oracle_id `6e6f9269-c72b-4449-9c2d-a720b9bd6f06` · printing: EMN #148 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vile Aggregate
 
@@ -1342,7 +1482,16 @@
   > Ingest (Whenever this creature deals combat damage to a player, that player exiles the top card of their library.)
 - **Keywords:** Devoid, Trample, Ingest
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20556 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/137/vile-aggregate) · oracle_id `4a6b254e-76fb-4712-ac34-5e26c311b2e4` · printing: BFZ #137 (2015-10-02) · [rulings](https://api.scryfall.com/cards/1ec66525-a7e9-450f-83df-03d9957837d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2015-08-25* — A card with devoid is just colorless. It’s not colorless and the colors of mana in its mana cost.
+  - *2015-08-25* — Cards with devoid use frames that are variations of the transparent frame traditionally used for Eldrazi. The top part of the card features some color over a background based on the texture of the hedrons that once imprisoned the Eldrazi. This coloration is intended to aid deckbuilding and game play.
+  - *2015-08-25* — Devoid works in all zones, not just on the battlefield.
+  - *2015-08-25* — If a card loses devoid, it will still be colorless. This is because effects that change an object’s color (like the one created by devoid) are considered before the object loses devoid.
+  - *2015-08-25* — If the player has no cards in their library when the ingest ability resolves, nothing happens. That player won’t lose the game (until they have to draw a card from an empty library).
+  - *2015-08-25* — Other cards and abilities can give a card with devoid color. If that happens, it’s just the new color, not that color and colorless.
+  - *2015-08-25* — The ability that defines Vile Aggregate’s power works in all zones, not just the battlefield. If Vile Aggregate is on the battlefield, it will count itself.
+  - *2015-08-25* — The card exiled by the ingest ability is exiled face up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/137/vile-aggregate) · oracle_id `4a6b254e-76fb-4712-ac34-5e26c311b2e4` · printing: BFZ #137 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vile Bile
 
@@ -1352,6 +1501,7 @@
 - **Oracle text:**
   > Whenever a player's skin or fingernail touches this creature, that player loses 2 life.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/65/vile-bile) · oracle_id `9dc97983-2403-4a1e-8317-fa8ed7c1c13d` · printing: UNH #65 (2004-11-19) · [rulings](https://api.scryfall.com/cards/333be977-050e-4885-b631-70fd043ebeca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vile Consumption
@@ -1363,6 +1513,7 @@
 - **Flavor text** (INV printing):
   > *The plague moved faster than an army and was far more deadly.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13636 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/285/vile-consumption) · oracle_id `b6a005db-e7e2-4b88-bc8a-c257bcc31cf5` · printing: INV #285 (2000-10-02) · [rulings](https://api.scryfall.com/cards/7f7e5716-77f3-45d2-a40a-f5bf500f6ad7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vile Deacon
@@ -1375,6 +1526,7 @@
 - **Flavor text** (LGN printing):
   > *"The Cabal and the Order really aren't that different. After all, we are both empowered by faith."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26068 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lgn/85/vile-deacon) · oracle_id `123147b4-57d0-44cd-bdd5-a449ac86c1cb` · printing: LGN #85 (2003-02-03) · [rulings](https://api.scryfall.com/cards/b2641bd5-c845-47a1-8038-bb28b06f896e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vile Entomber
@@ -1404,7 +1556,11 @@
   > *The glyphs writhed and twisted, spewing out dark, vengeful magic.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19801 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/80/vile-manifestation) · oracle_id `3d747c43-a09b-4209-b042-2b89156612d8` · printing: HOU #80 (2017-07-14) · [rulings](https://api.scryfall.com/cards/7160bc31-bdfa-4654-9d69-95ee2a5fe870/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-07-14* — Certain older cards have variants of cycling, such as basic landcycling or Wizardcycling. Vile Manifestation’s effect counts these cards.
+  - *2017-07-14* — Vile Manifestation’s first ability applies only while it’s on the battlefield. In all other zones, its power is 0.
+  - *2017-07-14* — Vile Manifestation’s first ability counts only the cards with cycling abilities in your graveyard. It doesn’t care whether or not they were cycled to get there.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/80/vile-manifestation) · oracle_id `3d747c43-a09b-4209-b042-2b89156612d8` · printing: HOU #80 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vile Mutilator
 
@@ -1430,7 +1586,9 @@
 - **Flavor text** (M14 printing):
   > *Grave robbers digging down cautiously listen for anything digging up.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18013 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m14/121/vile-rebirth) · oracle_id `6845a62f-e0f1-448c-beeb-abac2dabd975` · printing: M14 #121 (2013-07-19) · [rulings](https://api.scryfall.com/cards/3fd46f2b-1458-44b1-9c65-960b261b81a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-07-01* — If the creature card is an illegal target when Vile Rebirth tries to resolve, it won’t resolve and none of its effects will happen. You won’t put a Zombie token onto the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m14/121/vile-rebirth) · oracle_id `6845a62f-e0f1-448c-beeb-abac2dabd975` · printing: M14 #121 (2013-07-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vile Redeemer
 
@@ -1443,7 +1601,10 @@
   > When you cast this spell, you may pay {C}. If you do, create a 1/1 colorless Eldrazi Scion creature token for each nontoken creature that died under your control this turn. Those tokens have "Sacrifice this token: Add {C}."
 - **Keywords:** Devoid, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10983 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/125/vile-redeemer) · oracle_id `a7a88bcc-eac2-4f74-804f-b49d16560184` · printing: OGW #125 (2016-01-22) · [rulings](https://api.scryfall.com/cards/f48b0613-127a-4338-aea4-ad0b8aa96d77/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-01-22* — Vile Redeemer's last ability will count any nontoken creature that died while under your control, even if you weren't the creature's owner. It doesn't matter where the card is as the ability resolves. It doesn't have to still be in a graveyard.
+  - *2016-01-22* — Vile Redeemer's last ability won't count nontoken creatures that didn't go to a graveyard because of a replacement effect (for example, a creature that was exiled instead).
+- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/125/vile-redeemer) · oracle_id `a7a88bcc-eac2-4f74-804f-b49d16560184` · printing: OGW #125 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vile Requiem
 
@@ -1453,7 +1614,9 @@
   > At the beginning of your upkeep, you may put a verse counter on this enchantment.
   > {1}{B}, Sacrifice this enchantment: Destroy up to X target nonblack creatures, where X is the number of verse counters on this enchantment. They can't be regenerated.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22382 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c13/98/vile-requiem) · oracle_id `a72213e7-16f0-4fbe-91d3-750ca51a4336` · printing: C13 #98 (2013-11-01) · [rulings](https://api.scryfall.com/cards/923972d3-d838-43f8-800a-904489c5791a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Adding a counter is optional. If you forget to add one during your upkeep, you cannot back up and add one later.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c13/98/vile-requiem) · oracle_id `a72213e7-16f0-4fbe-91d3-750ca51a4336` · printing: C13 #98 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vilespawn Spider
 
@@ -1466,6 +1629,7 @@
   > {2}{G}{U}, {T}, Sacrifice this creature: Create a 1/1 green Insect creature token for each creature card in your graveyard. Activate only as a sorcery.
 - **Keywords:** Reach, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16634 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/251/vilespawn-spider) · oracle_id `3e969073-76cc-4a2c-9abd-3a4094488fe5` · printing: INR #251 (2025-01-24) · [rulings](https://api.scryfall.com/cards/58901777-f8bf-450b-acf8-d60a73c3322f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vilis, Broker of Blood
@@ -1512,6 +1676,7 @@
 - **Flavor text** (ISD printing):
   > *Some have endured the horrors of Innistrad by becoming the worst monsters of all.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26458 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/isd/125/village-cannibals) · oracle_id `973504d6-e2e4-49c4-86cb-69f31d66388b` · printing: ISD #125 (2011-09-30) · [rulings](https://api.scryfall.com/cards/a5400460-da9d-437b-bb81-cf382beb371e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Village Elder
@@ -1526,6 +1691,7 @@
   > *—"Love Song of Night and Day"*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25284 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/251/village-elder) · oracle_id `adea6cb4-1e74-4137-9c80-1dde004a6b26` · printing: MIR #251 (1996-10-08) · [rulings](https://api.scryfall.com/cards/253a1d97-ec45-41c9-ba81-bbb6ab584b2b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Village Ironsmith // Ironfang
@@ -1545,7 +1711,9 @@
   > *Each morning, he repairs the front door.*
 - **Keywords:** Transform, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25530 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/isd/168/village-ironsmith-ironfang) · oracle_id `c7b1aaff-e2c3-427c-8478-1fd053f7ffb2` · printing: ISD #168 (2011-09-30) · [rulings](https://api.scryfall.com/cards/cd5435d0-789f-4c42-8efc-165c072404a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-07-13* — For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+- **Source flags:** [Scryfall](https://scryfall.com/card/isd/168/village-ironsmith-ironfang) · oracle_id `c7b1aaff-e2c3-427c-8478-1fd053f7ffb2` · printing: ISD #168 (2011-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Village Messenger // Moonrise Intruder
 
@@ -1562,7 +1730,10 @@
   > At the beginning of each upkeep, if a player cast two or more spells last turn, transform this creature.
 - **Keywords:** Transform, Haste, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15406 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/179/village-messenger-moonrise-intruder) · oracle_id `f6634a84-a9ce-4bbd-bc2c-3f9179b7f16a` · printing: INR #179 (2025-01-24) · [rulings](https://api.scryfall.com/cards/8bdc98cd-d03a-4c24-8642-b9ffb1f144c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-04-08* — The abilities that transform a Werewolf back and forth look at the entire previous turn, even if the Werewolf with that ability wasn't on the battlefield for some or all of that turn.
+  - *2016-04-08* — To trigger the Werewolf's back face's transform ability, a single player must have cast two or more spells during the previous turn. If multiple players each cast just one spell during the previous turn, the ability won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/179/village-messenger-moonrise-intruder) · oracle_id `f6634a84-a9ce-4bbd-bc2c-3f9179b7f16a` · printing: INR #179 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Village Pillagers
 
@@ -1608,7 +1779,9 @@
   > *Estwald's citizens don't dislike outsiders—they taste just fine.*
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25296 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/224/villagers-of-estwald-howlpack-of-estwald) · oracle_id `dcf692f6-baec-4b60-a6e3-2a8b731d7816` · printing: INR #224 (2025-01-24) · [rulings](https://api.scryfall.com/cards/319b65f6-a6e6-45ea-9837-bc5831f54205/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-07-13* — For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/224/villagers-of-estwald-howlpack-of-estwald) · oracle_id `dcf692f6-baec-4b60-a6e3-2a8b731d7816` · printing: INR #224 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Village Survivors
 
@@ -1622,7 +1795,9 @@
   > *As their villages fell to werewolves, fleeing refugees discovered they too had remarkable survival instincts.*
 - **Keywords:** Fateful hour, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31848 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dka/130/village-survivors) · oracle_id `c26dd36f-a81a-4d97-9be2-d350e93da79e` · printing: DKA #130 (2012-02-03) · [rulings](https://api.scryfall.com/cards/13c0e852-9966-4145-b7c3-ac957f729376/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-22* — Tapping creatures to attack with them happens just before any required costs to attack with those creatures are paid. If paying such a cost causes your life total to fall below 6, your tapped attackers will have vigilance, but the ability will have no benefit that combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dka/130/village-survivors) · oracle_id `c26dd36f-a81a-4d97-9be2-d350e93da79e` · printing: DKA #130 (2012-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Village Watch // Village Reavers
 
@@ -1641,7 +1816,17 @@
   > *With no guards to be seen, the cobbled streets of Gatstaf echoed with howls.*
 - **Keywords:** Transform, Daybound, Haste, Nightbound
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11171 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/165/village-watch-village-reavers) · oracle_id `b2ecaae4-41ee-4c61-b5ce-db4364b307fc` · printing: MID #165 (2021-09-24) · [rulings](https://api.scryfall.com/cards/1bf48d2b-eb68-4f47-a80a-4751a4fa20a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2021-09-24* — Before a player untaps their permanents during the untap step, the game checks to see if the day/night designation should change.
+  - *2021-09-24* — Day and night are designations that the game itself can have. The game starts as neither. Once the game becomes day (or less commonly, night), the game will be exactly one of them—day or night—going back and forth for the rest of the game.
+  - *2021-09-24* — Double-faced permanents with daybound transform to their nightbound faces as it becomes night. Similarly, double-faced permanents with nightbound transform to their daybound faces as it becomes day. This happens immediately and is not a state-based action. It happens any time it becomes day or night, not just during the untap step.
+  - *2021-09-24* — If it is day, and the active player of the previous turn cast no spells during their turn, it becomes night.
+  - *2021-09-24* — If it is night, and the active player of the previous turn cast two or more spells during their turn, it becomes day.
+  - *2021-09-24* — If it is night, permanents with daybound that enter the battlefield without being cast will enter with their nightbound faces up.
+  - *2021-09-24* — If it's neither day nor night, and a creature with daybound and a creature with nightbound somehow appear on the battlefield at the same time, it becomes day. The creature with nightbound will transform.
+  - *2021-09-24* — If you cast a spell with daybound during night, that spell will be front face up (that is, daybound face up) on the stack. However, it will enter the battlefield with its back face up (that is, with its nightbound face up). It won't enter with its daybound face up and then transform.
+  - *2021-09-24* — Permanents with daybound and nightbound can't transform via any means other than their daybound and nightbound abilities. Notably, older cards such as Moonmist that instruct a player to transform permanents don't affect permanents with daybound or nightbound.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/165/village-watch-village-reavers) · oracle_id `b2ecaae4-41ee-4c61-b5ce-db4364b307fc` · printing: MID #165 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Villainous Hideout
 
@@ -1669,6 +1854,7 @@
   > *—\*Observations of the Kami War\**
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31294 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/148/villainous-ogre) · oracle_id `30b54308-73c7-4352-a62c-10f69ab6ff22` · printing: CHK #148 (2004-10-01) · [rulings](https://api.scryfall.com/cards/0277c1ba-eae4-442b-8b80-20869ba20568/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Villainous Syndication
@@ -1680,6 +1866,7 @@
   > When the fourth plan counter is put on this enchantment, sacrifice it. When you do, return target creature card from your graveyard to the battlefield.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22625 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/672/villainous-syndication) · oracle_id `4777fa96-12a5-42d5-840f-ddd85f4a4b68` · printing: MSC #672 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f6fd33b2-a784-49c8-a0f5-7246f3afcef6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Villainous Wealth
@@ -1799,6 +1986,7 @@
 - **Flavor text** (ONE printing):
   > *Her faith burns hot enough to sear away the flesh of the heretic.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11408 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/154/vindictive-flamestoker) · oracle_id `7ed9a887-9942-4482-942e-b3b05feb6342` · printing: ONE #154 (2023-02-10) · [rulings](https://api.scryfall.com/cards/f67e7a16-ff30-4fb9-9fcb-6561eec50caf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vindictive Lich
@@ -1830,6 +2018,7 @@
 - **Flavor text** (RAV printing):
   > *Many minds, a single madness.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32082 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/112/vindictive-mob) · oracle_id `af55096c-af6b-479f-8257-144e596e89d8` · printing: RAV #112 (2005-10-07) · [rulings](https://api.scryfall.com/cards/23c5c72c-982c-4cfd-b576-089200b4cc04/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vindictive Triumph
@@ -1841,7 +2030,9 @@
 - **Flavor text** (FRA printing):
   > *As much as Liliana never wanted to see her opaline double again, she had always been loath to prematurely discard a useful tool.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22385 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/162/vindictive-triumph) · oracle_id `d6b478d1-5015-49ba-b1aa-cbc2b08107a6` · printing: FRA #162 (2026-10-02) · [rulings](https://api.scryfall.com/cards/a803dbe7-153a-4e92-ad4d-c2babebe003d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-08-21* — If the permanent had {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/162/vindictive-triumph) · oracle_id `d6b478d1-5015-49ba-b1aa-cbc2b08107a6` · printing: FRA #162 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vindictive Vampire
 
@@ -1870,7 +2061,13 @@
   > {3}: This creature deals 1 damage to each opponent.
 - **Keywords:** Firebending, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11597 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/249/vindictive-warden) · oracle_id `43b339ec-4d7d-41ac-a5ab-96c6a6de00e2` · printing: TLA #249 (2025-11-21) · [rulings](https://api.scryfall.com/cards/0f34de05-39a9-425f-a3b4-3a9d46c917ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — "Firebending N" is a keyword that represents the ability "Whenever this creature attacks, add N {R}. Until end of combat, you don't lose this mana as steps end."
+  - *2025-10-02* — Any other mana you add during combat will still be lost as normal when moving between steps of combat.
+  - *2025-10-02* — Firebending abilities aren't mana abilities. They use the stack and can be responded to.
+  - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
+  - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/249/vindictive-warden) · oracle_id `43b339ec-4d7d-41ac-a5ab-96c6a6de00e2` · printing: TLA #249 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vinebred Brawler
 
@@ -1883,6 +2080,7 @@
 - **Flavor text** (ECL printing):
   > *Once looked down upon, vinebreeders proved invaluable during the Phyrexian Invasion and soon became exquisite in the eyes of elves.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16698 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/201/vinebred-brawler) · oracle_id `5fffd840-1e6e-4f5d-b847-802f9a25eb5c` · printing: ECL #201 (2026-01-23) · [rulings](https://api.scryfall.com/cards/63c573fe-e74c-48ca-ad05-92f37dc466f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vine Dryad
@@ -1896,6 +2094,7 @@
   > Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)
 - **Keywords:** Landwalk, Forestwalk, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27286 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/284/vine-dryad) · oracle_id `990cd7de-66a2-4def-bf00-390b2682e995` · printing: MMQ #284 (1999-10-04) · [rulings](https://api.scryfall.com/cards/fc9c9158-faed-42ae-9f6b-71dee49ff79f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vine Gecko
@@ -1910,6 +2109,7 @@
   > *"It's cute now, but those things tend to get a lot bigger when you're not looking."*
   > *—Fahar, expedition wizard*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19993 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/219/vine-gecko) · oracle_id `a9596b05-e0bb-4e70-82fe-5db60f87bf3d` · printing: ZNR #219 (2020-09-25) · [rulings](https://api.scryfall.com/cards/7a6f9984-dec7-4a1f-91d6-1e85b5df5e4c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vineglimmer Snarl
@@ -1939,6 +2139,7 @@
   > Soulshift 6 (When this creature dies, you may return target Spirit card with mana value 6 or less from your graveyard to your hand.)
 - **Keywords:** Menace, Soulshift
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28122 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/249/vine-kami) · oracle_id `e77923b9-7c72-4cc3-96dd-084908593a98` · printing: CHK #249 (2004-10-01) · [rulings](https://api.scryfall.com/cards/fa5241c8-7f50-413e-9ac0-9ab0ad5c884c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vinelasher Adept
@@ -1954,6 +2155,7 @@
   > *Some battlevine cultivars can grasp flesh as easily as they can climb walls.*
 - **Keywords:** Reach, Landcycling, Basic landcycling, Typecycling, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28745 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/119/vinelasher-adept) · oracle_id `b5918fb0-c33f-4e33-ac6d-8f94723d4296` · printing: FRA #119 (2026-10-02) · [rulings](https://api.scryfall.com/cards/e5ed142b-2b61-4ef5-8b23-2db2a0a0319d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vinelasher Kudzu
@@ -1967,7 +2169,11 @@
   > *It grows to hate you.*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13521 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddm/50/vinelasher-kudzu) · oracle_id `62204fac-a367-475c-bfb9-80a87af2d2f1` · printing: DDM #50 (2014-03-14) · [rulings](https://api.scryfall.com/cards/bcae0517-f7d1-4b67-9ca3-608f2d8a70f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddm/50/vinelasher-kudzu) · oracle_id `62204fac-a367-475c-bfb9-80a87af2d2f1` · printing: DDM #50 (2014-03-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vine Mare
 
@@ -1981,6 +2187,7 @@
   > *When it passes, the dead are displaced by flourishing life.*
 - **Keywords:** Hexproof
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23307 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/207/vine-mare) · oracle_id `499c7ee3-08a3-4f40-809a-3f7087ab9b24` · printing: M19 #207 (2018-07-13) · [rulings](https://api.scryfall.com/cards/b9980835-cd32-4870-88df-c79cd5534968/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vinereap Mentor
@@ -2010,7 +2217,10 @@
 - **Flavor text** (XLN printing):
   > *She has never touched a loom, yet the tapestries she weaves are vast and beautiful.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24063 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/214/vineshaper-mystic) · oracle_id `ca514283-c58b-4108-82b2-3b6b15b467f4` · printing: XLN #214 (2017-09-29) · [rulings](https://api.scryfall.com/cards/c4a27502-f6f4-4c12-af0e-eab00d942ada/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-09-29* — Vineshaper Mystic can be the target of its own ability.
+  - *2017-09-29* — You can’t target the same Merfolk twice to have it receive two +1/+1 counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/214/vineshaper-mystic) · oracle_id `ca514283-c58b-4108-82b2-3b6b15b467f4` · printing: XLN #214 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vineshaper Prodigy
 
@@ -2022,7 +2232,14 @@
   > When this creature enters, if it was kicked, look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23961 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/187/vineshaper-prodigy) · oracle_id `c41172c6-5133-48ed-bde0-3168b5371c18` · printing: DMU #187 (2022-09-09) · [rulings](https://api.scryfall.com/cards/545cddde-8018-4fdd-874d-b5193b73b414/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/187/vineshaper-prodigy) · oracle_id `c41172c6-5133-48ed-bde0-3168b5371c18` · printing: DMU #187 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vine Snare
 
@@ -2033,7 +2250,9 @@
 - **Flavor text** (ORI printing):
   > *Nissa found that the vines of the marsh could ensnare just as well as forest vines could—maybe even better.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28040 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/205/vine-snare) · oracle_id `f3303d45-b3ee-4389-8172-d9ffa8bf251b` · printing: ORI #205 (2015-07-17) · [rulings](https://api.scryfall.com/cards/d2241f71-4319-49bf-905a-b6b774ffcb27/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-06-22* — Check the power of each creature as it would deal combat damage to determine if that damage is prevented. It doesn’t matter what any creature’s power is as Vine Snare resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/205/vine-snare) · oracle_id `f3303d45-b3ee-4389-8172-d9ffa8bf251b` · printing: ORI #205 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vines of the Recluse
 
@@ -2044,7 +2263,9 @@
 - **Flavor text** (CLU printing):
   > *"The most elegant solutions are found in nature. You just have to know where to look."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19488 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/178/vines-of-the-recluse) · oracle_id `5372445b-5f67-435e-a736-61c6cb4f9c6e` · printing: CLU #178 (2024-02-23) · [rulings](https://api.scryfall.com/cards/02109319-105b-4c00-abf9-1f012ae98e33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-01-22* — You can target an untapped creature with Vines of the Recluse. It will still get the other bonuses.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/178/vines-of-the-recluse) · oracle_id `5372445b-5f67-435e-a736-61c6cb4f9c6e` · printing: CLU #178 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vines of Vastwood
 
@@ -2092,7 +2313,9 @@
   > *Fortified by the wilds.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27734 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m15/207/vineweft) · oracle_id `f4a2d9eb-7f2b-4ee6-b38e-cf6e3a837b49` · printing: M15 #207 (2014-07-18) · [rulings](https://api.scryfall.com/cards/4578f064-e9f8-4e87-8f46-7536af6c144e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-07-18* — You can activate the last ability only if Vineweft is in your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m15/207/vineweft) · oracle_id `f4a2d9eb-7f2b-4ee6-b38e-cf6e3a837b49` · printing: M15 #207 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vintara Elephant
 
@@ -2106,6 +2329,7 @@
   > *Trained with the aid of rhystic magic, they become uneasy in its absence.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31935 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcy/131/vintara-elephant) · oracle_id `0a73b4da-9b5c-480e-b58b-6a82a52ea71e` · printing: PCY #131 (2000-06-05) · [rulings](https://api.scryfall.com/cards/f99f7aef-7398-4e10-9f4e-68e7c294c101/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vintara Snapper
@@ -2120,6 +2344,7 @@
   > *And strikes when all are dozing."*
   > *—\*Tales of the Vintara Forest\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27689 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcy/132/vintara-snapper) · oracle_id `57c5cbd6-432d-4d48-9fc6-5b8a6eb223f1` · printing: PCY #132 (2000-06-05) · [rulings](https://api.scryfall.com/cards/897edf01-fc6f-4835-b025-c137d921ce09/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Violent Echoes
@@ -2132,7 +2357,14 @@
   > *Two Multiverses. Only one future.*
 - **Keywords:** Surveil, Empower Jace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24994 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/95/violent-echoes) · oracle_id `e8ecec61-cc47-4051-a599-0e7470764488` · printing: FRA #95 (2026-10-02) · [rulings](https://api.scryfall.com/cards/ad03ba90-2442-4a71-94df-2088b5b63662/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2026-08-21* — Empower Jace won't let you put loyalty counters on nontoken Jace planeswalkers. However, if you control a Jace planeswalker token that you got another way (such as an effect that creates a token that's a copy of a permanent), empower Jace will put loyalty counters on that.
+  - *2026-08-21* — Excess damage has been dealt to a creature if the damage dealt to it is greater than lethal damage. Usually, this means damage greater than its toughness, although damage already marked on the creature is taken into account.
+  - *2026-08-21* — For a planeswalker, excess damage means damage in excess of the planeswalker's loyalty (the number of loyalty counters it has on it).
+  - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
+  - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
+  - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/95/violent-echoes) · oracle_id `e8ecec61-cc47-4051-a599-0e7470764488` · printing: FRA #95 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Violent Eruption
 
@@ -2143,7 +2375,17 @@
   > Madness {1}{R}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
 - **Keywords:** Madness
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14734 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/154/violent-eruption) · oracle_id `842578ca-0a86-4e96-bfd5-45931488f7c1` · printing: C19 #154 (2019-08-23) · [rulings](https://api.scryfall.com/cards/419e6697-89ab-49f1-a867-8f86f001c80c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2022-12-08* — A card with madness that's discarded counts as having been discarded even though it's put into exile rather than a graveyard. If it was discarded to pay a cost, that cost is still paid. Abilities that trigger when a card is discarded will still trigger.
+  - *2022-12-08* — A spell cast for its madness cost is put onto the stack like any other spell. It can be countered, copied, and so on. As it resolves, it's put onto the battlefield if it's a permanent card or into its owner's graveyard if it's an instant or sorcery card.
+  - *2022-12-08* — Cards are discarded in a Magic game only from a player's hand. Effects that put cards into a player's graveyard from anywhere else do not cause those cards to be discarded.
+  - *2022-12-08* — Casting a spell with madness ignores the timing rules based on the card's card type. For example, you can cast a sorcery with madness if you discard it during an opponent's turn.
+  - *2022-12-08* — If you choose not to cast a card with madness when the madness triggered ability resolves, it's put into your graveyard. Madness doesn't give you another chance to cast it later.
+  - *2022-12-08* — If you discard a card with madness to pay the cost of a spell or activated ability, that card's madness triggered ability (and the spell that card becomes, if you choose to cast it) will resolve before the spell or ability the discard paid for.
+  - *2022-12-08* — If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.
+  - *2022-12-08* — Madness works independently of why you're discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can't discard a card with madness just because you want to, though.
+  - *2022-12-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a madness cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/154/violent-eruption) · oracle_id `842578ca-0a86-4e96-bfd5-45931488f7c1` · printing: C19 #154 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Violent Impact
 
@@ -2156,6 +2398,7 @@
   > *Initiates in the heat of combat must be able to adapt to changing conditions.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20566 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/154/violent-impact) · oracle_id `d48d9e93-72a2-48f2-8164-8032615ee217` · printing: AKH #154 (2017-04-28) · [rulings](https://api.scryfall.com/cards/49b8673a-ce93-4881-b712-8db82446d83c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Violent Outburst
@@ -2167,7 +2410,17 @@
   > Creatures you control get +1/+0 until end of turn.
 - **Keywords:** Cascade
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13693 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/arb/63/violent-outburst) · oracle_id `c0f69063-9079-4e7a-98dc-c29da8171d33` · printing: ARB #63 (2009-04-30) · [rulings](https://api.scryfall.com/cards/1b58856a-f88e-4625-8636-62b5c717b956/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2021-06-18* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2021-06-18* — Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+  - *2021-06-18* — Due to a 2021 rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+  - *2021-06-18* — If a spell with cascade is countered, the cascade ability will still resolve normally.
+  - *2021-06-18* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2021-06-18* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
+  - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+  - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/arb/63/violent-outburst) · oracle_id `c0f69063-9079-4e7a-98dc-c29da8171d33` · printing: ARB #63 (2009-04-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Violent Ultimatum
 
@@ -2179,7 +2432,9 @@
   > *"Words are a waste of time. Destruction is a language everyone understands."*
   > *—Sarkhan Vol*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18736 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/206/violent-ultimatum) · oracle_id `a04cfcc5-7bb4-4352-ad8d-9d625585e656` · printing: ALA #206 (2008-10-03) · [rulings](https://api.scryfall.com/cards/7e6ac9ce-e163-426f-8fbd-5ee1ec177dc1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — You must target three different permanents. If some of the permanents become illegal targets before the spell resolves, Violent Ultimatum will still destroy the rest of them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/206/violent-ultimatum) · oracle_id `a04cfcc5-7bb4-4352-ad8d-9d625585e656` · printing: ALA #206 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Violent Urge
 
@@ -2192,6 +2447,7 @@
   > *Rage can be a potent antidote to fear.*
 - **Keywords:** Delirium
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16311 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/164/violent-urge) · oracle_id `0ef80a38-f464-4d1f-9e81-d4087d6ecc9b` · printing: DSK #164 (2024-09-27) · [rulings](https://api.scryfall.com/cards/a47c968b-1edd-45ac-a67c-311647e7e2fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Violet Pall
@@ -2203,7 +2459,12 @@
 - **Flavor text** (MOR printing):
   > *A faerie is the offspring of Oona and mischief.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22071 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mor/81/violet-pall) · oracle_id `bf6ea336-6a4d-4653-acdd-f09af0b9f0e3` · printing: MOR #81 (2008-02-01) · [rulings](https://api.scryfall.com/cards/bdfd0fa3-37d2-403e-99fe-8c9e57515e9d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-04-01* — You get the token, not the player who controlled the creature.
+  - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
+  - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
+  - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mor/81/violet-pall) · oracle_id `bf6ea336-6a4d-4653-acdd-f09af0b9f0e3` · printing: MOR #81 (2008-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viper, Cruel Conspirator
 
@@ -2216,6 +2477,7 @@
 - **Flavor text** (MSC printing):
   > *"Before unleashing my master plan, I will pay back those few animals who dared defy me in the past."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22050 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/673/viper-cruel-conspirator) · oracle_id `6824a6ed-37d0-4db5-b2d4-9c737d0c49f9` · printing: MSC #673 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3a57b64f-2b57-44f3-8d4d-2ff5c5615601/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viper's Kiss
@@ -2230,6 +2492,7 @@
   > *—Aescalos, healer of Pharika*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18718 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/109/vipers-kiss) · oracle_id `35dead9a-20ab-45e9-be3e-36857c928ab9` · printing: THS #109 (2013-09-27) · [rulings](https://api.scryfall.com/cards/0906ebfc-4756-4caf-83ff-859e181f3bef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viral Drake
@@ -2261,7 +2524,14 @@
   > Corrupted — As long as an opponent has three or more poison counters and this card is in your graveyard, it has flashback {2}{G}. (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Corrupted
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16737 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/194/viral-spawning) · oracle_id `9945c7eb-97a9-42df-a051-1ea514973280` · printing: ONE #194 (2023-02-10) · [rulings](https://api.scryfall.com/cards/85ad30a1-3ecc-42ca-afe8-85df5bad9196/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-02-04* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2023-02-04* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2023-02-04* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2023-02-04* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2023-02-04* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2023-02-04* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/194/viral-spawning) · oracle_id `9945c7eb-97a9-42df-a051-1ea514973280` · printing: ONE #194 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viridescent Bog
 
@@ -2285,7 +2555,11 @@
 - **Flavor text** (SHM printing):
   > *In the wisps that night, the once timid boggart saw all the terrible, bloody things he was capable of. And it was glorious.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13323 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/shm/132/viridescent-wisps) · oracle_id `3003e19e-ae60-4e10-b688-d0cac2a63cb2` · printing: SHM #132 (2008-05-02) · [rulings](https://api.scryfall.com/cards/6c33871f-0e6a-4616-b484-e79b1945255f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-05-01* — An effect that changes a permanent’s colors overwrites all its old colors unless it specifically says “in addition to its other colors.” For example, after Cerulean Wisps resolves, the affected creature will just be blue. It doesn’t matter what colors it used to be (even if, for example, it used to be blue and black).
+  - *2008-05-01* — Changing a permanent’s color won’t change its text. If you turn Wilt-Leaf Liege blue, it will still affect green creatures and white creatures.
+  - *2008-05-01* — Colorless is not a color.
+- **Source flags:** [Scryfall](https://scryfall.com/card/shm/132/viridescent-wisps) · oracle_id `3003e19e-ae60-4e10-b688-d0cac2a63cb2` · printing: SHM #132 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viridian Acolyte
 
@@ -2297,6 +2571,7 @@
 - **Flavor text** (DST printing):
   > *"We have no sun to guide our dead, so I tend the prismatic flames of the spirit fires that show the souls their way. When I die, I hope there is one left to guide my spirit home."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26354 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dst/89/viridian-acolyte) · oracle_id `9db7d8f0-0712-4e32-825c-1339e7a8d768` · printing: DST #89 (2004-02-06) · [rulings](https://api.scryfall.com/cards/64448241-978c-43e0-b0ea-b4bb3e25b715/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viridian Betrayers
@@ -2309,7 +2584,10 @@
 - **Flavor text** (NPH printing):
   > *To secure a place in Phyrexia's ranks, they hunted their surviving kin.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22026 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nph/124/viridian-betrayers) · oracle_id `1d5ebb4b-0248-4255-8e1a-bcba4d5eaf7f` · printing: NPH #124 (2011-05-13) · [rulings](https://api.scryfall.com/cards/cc6ea52f-4b24-45ff-99e1-4d0e1bd42875/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-06-01* — A player is poisoned if that player has one or more poison counters.
+  - *2011-06-01* — The player must be poisoned when Viridian Betrayers deals damage in order for Viridian Betrayers to have infect. If the player has no poison counters, damage dealt to that player by Viridian Betrayers will result in loss of life, even if it's dealt at the same time as damage from another creature with infect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nph/124/viridian-betrayers) · oracle_id `1d5ebb4b-0248-4255-8e1a-bcba4d5eaf7f` · printing: NPH #124 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viridian Claw
 
@@ -2322,6 +2600,7 @@
   > *"Phyrexians can't corrupt what they can't get close enough to touch."*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20063 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/td2/27/viridian-claw) · oracle_id `11ba27f4-decf-4447-9808-0d58844655cf` · printing: TD2 #27 (2011-05-14) · [rulings](https://api.scryfall.com/cards/79650c82-2364-441c-9df3-fe9d8255374b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viridian Corrupter
@@ -2347,6 +2626,7 @@
 - **Oracle text:**
   > When this creature dies, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9995 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cma/162/viridian-emissary) · oracle_id `c93bce5a-48cc-4dc5-930b-1e084c2bae7d` · printing: CMA #162 (2017-06-09) · [rulings](https://api.scryfall.com/cards/e488ed05-d63a-4852-b5e9-d7357c60c3e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viridian Harvest
@@ -2361,7 +2641,9 @@
   > *—Ezuri*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29413 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nph/125/viridian-harvest) · oracle_id `48dc8f34-8c73-4155-8a3d-b26a35260e6b` · printing: NPH #125 (2011-05-13) · [rulings](https://api.scryfall.com/cards/666eb9a5-b105-45c1-be3e-7ac5cc650338/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-06-01* — If the enchanted artifact and Viridian Harvest are put into the graveyard at the same time, you’ll still gain 6 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nph/125/viridian-harvest) · oracle_id `48dc8f34-8c73-4155-8a3d-b26a35260e6b` · printing: NPH #125 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viridian Joiner
 
@@ -2398,6 +2680,7 @@
 - **Flavor text** (5DN printing):
   > *A small band of elves pledged many years ago to avoid the Edges of Forgetting. They have remained hidden until now.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29818 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/99/viridian-lorebearers) · oracle_id `080c0557-59ee-4c46-afd9-5baabf0dc3d3` · printing: 5DN #99 (2004-06-04) · [rulings](https://api.scryfall.com/cards/85673b93-39b7-44e1-b27d-b716bde42f0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viridian Revel
@@ -2424,6 +2707,7 @@
 - **Flavor text** (5DN printing):
   > *They know a hoverguard's only blind spot is directly above it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32194 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/100/viridian-scout) · oracle_id `c5b4bc25-0f32-4e1d-b6fe-f122140f2207` · printing: 5DN #100 (2004-06-04) · [rulings](https://api.scryfall.com/cards/3260a427-b67f-4908-8c56-5c0fab009598/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viridian Shaman
@@ -2436,6 +2720,7 @@
 - **Flavor text** (DDU printing):
   > *She stands as a living symbol of the natural world and an enemy of the forces that threaten it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16591 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddu/25/viridian-shaman) · oracle_id `5aa6d553-a144-4c5b-83fa-65e931903899` · printing: DDU #25 (2018-04-06) · [rulings](https://api.scryfall.com/cards/bed8b8aa-2c1f-4a5b-af6e-16802b3b9453/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viridian Zealot
@@ -2448,6 +2733,7 @@
 - **Flavor text** (CMA printing):
   > *"I will fight only the way nature intended—and nature intended us to win."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17759 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cma/163/viridian-zealot) · oracle_id `9410ae41-b6db-47c6-ae0a-4e33aad1d3ce` · printing: CMA #163 (2017-06-09) · [rulings](https://api.scryfall.com/cards/4c2052ce-0c60-4baa-8bac-4a479a7368e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Virtual Assistant
@@ -2462,6 +2748,7 @@
   > *"This new suit has some interesting possibilities, Mister Stark."*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30176 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/643/virtual-assistant) · oracle_id `69db9cb8-9152-4d1b-9ac9-16aac42c0908` · printing: MSC #643 (2026-06-26) · [rulings](https://api.scryfall.com/cards/89d43d64-eb3b-4152-90f7-2fca851499c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Virtue of Courage // Embereth Blaze
@@ -2612,6 +2899,7 @@
 - **Flavor text** (POR printing):
   > *All must fall, and those who stand highest fall hardest.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25860 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/por/116/virtues-ruin) · oracle_id `fc070e97-73ac-4028-9432-ff2012f2e778` · printing: POR #116 (1997-05-01) · [rulings](https://api.scryfall.com/cards/7854928a-d467-4616-b96b-de7e5fe7303e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Virtuous Charge
@@ -2623,6 +2911,7 @@
 - **Flavor text** (PTK printing):
   > *"The empire belongs to no one man but to all in the empire. He who has virtue shall possess it."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31218 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/29/virtuous-charge) · oracle_id `5315ed83-cb93-4522-b439-3784e7f31e37` · printing: PTK #29 (1999-05-01) · [rulings](https://api.scryfall.com/cards/72ad4c79-a85d-4fc6-95ab-5a6d6d667579/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Virtuous Variant
@@ -2638,6 +2927,7 @@
   > *—Spider-Man, Max Borne*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28399 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/758/virtuous-variant) · oracle_id `fa4ed027-6e18-4a87-9845-e13f274d9994` · printing: MSC #758 (2026-06-26) · [rulings](https://api.scryfall.com/cards/87c73b0e-6df9-46db-a14f-f4f5ccc30d91/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Virtus's Maneuver
@@ -2649,7 +2939,14 @@
 - **Flavor text** (BBD printing):
   > *Brutality had never been so exquisite.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12608 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/54/virtuss-maneuver) · oracle_id `1c2d6b55-653a-41fd-8a5e-6463a992640b` · printing: BBD #54 (2018-06-08) · [rulings](https://api.scryfall.com/cards/73f2e058-c1a8-4a66-b1da-1b3885c6736f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2018-06-08* — Friends perform their specified actions before foes. This means that a friend’s action may cause a triggered ability of a foe’s permanent to trigger before that foe’s action causes that permanent to leave the battlefield.
+  - *2018-06-08* — Players can’t take actions in between the time that friends perform their actions and the time that foes perform theirs. If any abilities trigger from friends performing actions, those triggers won’t be put onto the stack until the foes perform their actions and the spell finishes resolving.
+  - *2018-06-08* — The designation of friend or foe is only relevant to the spell that asks you to choose. A player you call your friend doesn’t become your teammate, and the next “friend or foe” spell you cast could name that player your foe.
+  - *2018-06-08* — When Virtus’s Maneuver resolves and you choose friend or foe, first the next friend in turn order (or, if it’s a friend’s turn, that friend) chooses a creature card in their graveyard, then each other friend in turn order does the same, then each of those players return those cards to their hands at the same time. Friends will know choices made by earlier players when making their choices. Repeat this process for foes, who choose a creature one at a time and then sacrifice them all at the same time.
+  - *2018-06-08* — You make this choice for yourself as well as each other player. In some rare cases, you may wish to call yourself (or your teammate in a Two-Headed Giant game) a foe. You can do that.
+  - *2018-06-08* — You may call a player a friend or a foe even if that player will be instructed to perform an impossible action. For example, for Regna’s Sanction, a foe may control no untapped creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/54/virtuss-maneuver) · oracle_id `1c2d6b55-653a-41fd-8a5e-6463a992640b` · printing: BBD #54 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Virtus the Veiled
 
@@ -2701,7 +2998,9 @@
   > *"This pestilence robs us of glorious death in battle. We starve to death with full bellies and drown trying to slake our unnatural thirst."*
   > *—Kerai Hatesinger, Kolaghan warrior*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17285 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/125/virulent-plague) · oracle_id `adfba95e-c73c-415d-adea-edcd04372ba4` · printing: DTK #125 (2015-03-27) · [rulings](https://api.scryfall.com/cards/3c5f82b6-53d9-43ce-8a17-c680c443e586/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-02-25* — If an effect creates a creature token that normally has toughness 2 or less, it will enter the battlefield with toughness 0 or less, be put into its owner’s graveyard, and then cease to exist. Any abilities that trigger when a creature enters the battlefield or dies will trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/125/virulent-plague) · oracle_id `adfba95e-c73c-415d-adea-edcd04372ba4` · printing: DTK #125 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Virulent Silencer
 
@@ -2741,7 +3040,16 @@
   > Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
 - **Keywords:** Rebound
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19794 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/113/virulent-swipe) · oracle_id `77f53f6a-36ab-43d1-b547-4578fd724864` · printing: IMA #113 (2017-11-17) · [rulings](https://api.scryfall.com/cards/d1d6ca74-70f5-44c6-82f7-dae8980bdd44/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2010-06-15* — At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card’s type (if it’s a sorcery) are ignored. Other restrictions are not (such as the one from Rule of Law).
+  - *2010-06-15* — If a replacement effect would cause a spell with rebound that you cast from your hand to be put somewhere else instead of your graveyard (such as Leyline of the Void might), you choose whether to apply the rebound effect or the other effect as the spell resolves.
+  - *2010-06-15* — If a spell with rebound that you cast from your hand doesn’t resolve for any reason (due being countered by a spell like Cancel, or because all of its targets are illegal), rebound has no effect. The spell is simply put into your graveyard. You won’t get to cast it again next turn.
+  - *2010-06-15* — If you are unable to cast a card from exile this way, or you choose not to, nothing happens when the delayed triggered ability resolves. The card remains exiled for the rest of the game, and you won’t get another chance to cast the card. The same is true if the ability is countered (due to Stifle, perhaps).
+  - *2010-06-15* — If you cast a card from exile this way, it will go to your graveyard when it resolves, fails to resolve, or is countered. It won’t go back to exile.
+  - *2010-06-15* — If you cast a spell with rebound from anywhere other than your hand (such as from your graveyard due to Sins of the Past, from your library due to cascade, or from your opponent’s hand due to Sen Triplets), rebound won’t have any effect. If you do cast it from your hand, rebound will work regardless of whether you paid its mana cost (for example, if you cast it from your hand due to Maelstrom Archangel).
+  - *2010-06-15* — If you cast a spell with rebound from your hand and it resolves, it isn’t put into your graveyard. Rather, it’s exiled directly from the stack. Effects that care about cards being put into your graveyard won’t do anything.
+  - *2010-06-15* — Rebound will have no effect on copies of spells because you don’t cast them from your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/113/virulent-swipe) · oracle_id `77f53f6a-36ab-43d1-b547-4578fd724864` · printing: IMA #113 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Virulent Wound
 
@@ -2752,7 +3060,9 @@
 - **Flavor text** (MBS printing):
   > *Sadly, the extent of Gerkk's healing knowledge was "don't pick at it."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14107 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/57/virulent-wound) · oracle_id `6a555c10-4dc2-455d-87b4-c7fdbf3d29a6` · printing: MBS #57 (2011-02-04) · [rulings](https://api.scryfall.com/cards/7ae09e1a-c257-45e9-88c8-7b1a7a6d714b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-06-01* — If the creature is not put into a graveyard on the turn Virulent Wound resolves, its controller won’t get a poison counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/57/virulent-wound) · oracle_id `6a555c10-4dc2-455d-87b4-c7fdbf3d29a6` · printing: MBS #57 (2011-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Virus Beetle
 
@@ -2800,6 +3110,7 @@
   > When this artifact enters, you may search your library and/or graveyard for a card named Nicol Bolas, the Deceiver, reveal it, and put it into your hand. If you search your library this way, shuffle.
   > {T}: Add {U}, {B}, or {R}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17863 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/208/visage-of-bolas) · oracle_id `21bb3c03-c1c0-40ec-8df4-8d0054c3742b` · printing: HOU #208 (2017-07-14) · [rulings](https://api.scryfall.com/cards/f29bbfe2-d59f-4361-8ea4-6a8d1b909769/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Visage of Dread // Dread Osseosaur
@@ -2817,7 +3128,13 @@
   > *—Diego, Brazen Coalition translator*
 - **Keywords:** Craft, Transform, Menace, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19354 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/129/visage-of-dread-dread-osseosaur) · oracle_id `7cad43df-31c9-47b5-bc05-4a0f6544b396` · printing: LCI #129 (2023-11-17) · [rulings](https://api.scryfall.com/cards/3d4b61c6-3e88-49f5-9e16-aa8a59653327/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-11-10* — If a card that isn't a transforming double-faced card becomes a copy of a card with craft, it'll stay in exile if you activate the craft ability. It won't return to the battlefield.
+  - *2023-11-10* — If the materials required include multiple objects, you may exile some of them from among permanents you control and the rest from among cards in your graveyard. You don't have to choose all permanents or all cards from your graveyard.
+  - *2023-11-10* — If you don't have at least two cards in your library, you can't choose to mill two cards.
+  - *2023-11-10* — The back faces of some cards with craft refer to cards "used to craft" it. This refers to the cards exiled as part of the cost of the craft ability of the front face. Those cards are considered to be "used to craft" that permanent as long as they remain exiled and the permanent remains on the battlefield, even if the permanent's controller changes or some of its characteristics change (because of a copy effect, for example.)
+  - *2023-11-10* — You may exile tokens you control as part of the materials required. However, because they aren't cards and won't stay in exile, any abilities that refer to what you "used to craft" the back faces won't refer to anything.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/129/visage-of-dread-dread-osseosaur) · oracle_id `7cad43df-31c9-47b5-bc05-4a0f6544b396` · printing: LCI #129 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Visara the Dreadful
 
@@ -2831,6 +3148,7 @@
   > *"My eyes are my strongest feature."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13975 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/114/visara-the-dreadful) · oracle_id `79b999bc-2d4b-41e1-b64e-f0c080a9a2c5` · printing: EMA #114 (2016-06-10) · [rulings](https://api.scryfall.com/cards/03f66946-ff52-4ce4-af25-b81196fa451b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viscera Dragger
@@ -2843,7 +3161,13 @@
   > Unearth {1}{B} ({1}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
 - **Keywords:** Unearth, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23570 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/92/viscera-dragger) · oracle_id `77630700-3828-4063-95a7-f6283f0f9da5` · printing: ALA #92 (2008-10-03) · [rulings](https://api.scryfall.com/cards/6d6d2d84-7141-4485-8379-b3c71af47cd1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2008-10-01* — Activating a creature card's unearth ability isn't the same as casting the creature card. The unearth ability is put on the stack, but the creature card is not. Spells and abilities that interact with activated abilities (such as Stifle) will interact with unearth, but spells and abilities that interact with spells (such as Remove Soul) will not.
+  - *2008-10-01* — At the beginning of the end step, a creature returned to the battlefield with unearth is exiled. This is a delayed triggered ability, and it can be countered by effects such as Stifle or Voidslime that counter triggered abilities. If the ability is countered, the creature will stay on the battlefield and the delayed trigger won't trigger again. However, the replacement effect will still exile the creature when it eventually leaves the battlefield.
+  - *2008-10-01* — If a creature returned to the battlefield with unearth would leave the battlefield for any reason, it's exiled instead — unless the spell or ability that's causing the creature to leave the battlefield is actually trying to exile it! In that case, it succeeds at exiling it. If it later returns the creature card to the battlefield (as Oblivion Ring or Flickerwisp might, for example), the creature card will return to the battlefield as a new object with no relation to its previous existence. The unearth effect will no longer apply to it.
+  - *2008-10-01* — If you activate a card's unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will resolve and do nothing.
+  - *2008-10-01* — Unearth grants haste to the creature that's returned to the battlefield. However, neither of the "exile" abilities is granted to that creature. If that creature loses all its abilities, it will still be exiled at the beginning of the end step, and if it would leave the battlefield, it is still exiled instead.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/92/viscera-dragger) · oracle_id `77630700-3828-4063-95a7-f6283f0f9da5` · printing: ALA #92 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viscera Seer
 
@@ -2873,6 +3197,7 @@
   > *A fallen viscerid's only tribute is to be worn by a comrade.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30577 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/72/viscerid-armor) · oracle_id `87b4cbec-3521-4bdb-bf01-64ddb526b655` · printing: ME2 #72 (2008-09-22) · [rulings](https://api.scryfall.com/cards/a9906f76-3b14-4cf4-90c1-b9bbb594256b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viscerid Deepwalker
@@ -2885,7 +3210,22 @@
   > Suspend 4—{U} (Rather than cast this card from your hand, you may pay {U} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.)
 - **Keywords:** Suspend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28444 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/91/viscerid-deepwalker) · oracle_id `9dea848b-d758-46d0-829d-b096061fd460` · printing: TSP #91 (2006-10-06) · [rulings](https://api.scryfall.com/cards/cdc9f54e-7fba-4f03-83ca-6d293dffc07a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2024-02-02* — A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it. (In some rare cases, another player may gain control of the creature spell itself. If this happens, the creature won't enter the battlefield with haste.)
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/91/viscerid-deepwalker) · oracle_id `9dea848b-d758-46d0-829d-b096061fd460` · printing: TSP #91 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viscerid Drone
 
@@ -2898,6 +3238,7 @@
 - **Flavor text** (ME2 printing):
   > *Not all of Terisiare's flooding was natural . . . .*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29755 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/73/viscerid-drone) · oracle_id `5fd4be4c-70a3-4c91-a4c6-788a2051ff13` · printing: ME2 #73 (2008-09-22) · [rulings](https://api.scryfall.com/cards/9a8871a9-6dc2-487a-83d0-9f08f7ca806a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viscid Lemures
@@ -2911,6 +3252,7 @@
   > *"Lemurs? Is that all? Finally, something harmless . . ."*
   > *—Norin the Wary*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26628 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsp/141/viscid-lemures) · oracle_id `738d8d1c-4ceb-4115-89e1-1f2149fb4f5f` · printing: TSP #141 (2006-10-06) · [rulings](https://api.scryfall.com/cards/863f04d7-da34-41e3-9153-97891a428889/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viseling
@@ -2923,6 +3265,7 @@
 - **Flavor text** (C13 printing):
   > *"This may hurt a lot."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10696 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c13/269/viseling) · oracle_id `05b9dccb-2364-4bca-a12e-8cb54a3f3a0b` · printing: C13 #269 (2013-11-01) · [rulings](https://api.scryfall.com/cards/38a6105e-a67b-4805-b50c-dea404f60fac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vishgraz, the Doomhive
@@ -2958,7 +3301,10 @@
   > Remove all +1/+1 counters from Vish Kal: Target creature gets -1/-1 until end of turn for each +1/+1 counter removed this way.
 - **Keywords:** Flying, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16309 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/226/vish-kal-blood-arbiter) · oracle_id `ba3bfe0c-2bd6-469c-802c-440b7caf7fb5` · printing: 2XM #226 (2020-08-07) · [rulings](https://api.scryfall.com/cards/ba5f9d21-4cc9-4b7e-9f55-322dcf91c1b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — Use the sacrificed creature's power as it last existed on the battlefield to determine how many +1/+1 counters to put on Vish Kal.
+  - *2020-08-07* — Vish Kal's last ability doesn't deal damage. It doesn't cause you to gain any life from its lifelink ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/226/vish-kal-blood-arbiter) · oracle_id `ba3bfe0c-2bd6-469c-802c-440b7caf7fb5` · printing: 2XM #226 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Visionary Augmenter
 
@@ -2971,7 +3317,11 @@
   > *"It's a multifunctional radial extension system with superlateral, force-amplifying rigging. Of course it will win."*
 - **Keywords:** Fabricate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25385 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/34/visionary-augmenter) · oracle_id `1782bfd7-7d8f-4ed2-9d45-ba9adb41e996` · printing: KLD #34 (2016-09-30) · [rulings](https://api.scryfall.com/cards/918691b1-f927-4027-a444-adc418f3ab16/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-09-20* — Fabricate doesn't cause the creature with the ability to enter the battlefield with +1/+1 counters already on it. For example, Weaponcraft Enthusiast will enter the battlefield as a 0/1 creature, then its fabricate ability goes on the stack. Players may take actions (such as casting instants) while the ability is waiting to resolve.
+  - *2016-09-20* — If you can't put +1/+1 counters on the creature for any reason as fabricate resolves (for instance, if it's no longer on the battlefield), you just create Servo tokens.
+  - *2016-09-20* — You choose whether to put +1/+1 counters on the creature or create Servo tokens as the fabricate ability is resolving. No player may take actions between the time you choose and the time that counters are added or tokens are created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/34/visionary-augmenter) · oracle_id `1782bfd7-7d8f-4ed2-9d45-ba9adb41e996` · printing: KLD #34 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Visionary's Dance
 
@@ -2983,7 +3333,9 @@
 - **Flavor text** (SOS printing):
   > *Choreography powers the spell, but improvisation shapes it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18824 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/242/visionarys-dance) · oracle_id `c9f35490-462a-4c8f-9d8b-d8abca6596f7` · printing: SOS #242 (2026-04-24) · [rulings](https://api.scryfall.com/cards/846a0e79-a530-429e-8f7f-4b87f1b0156e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — If there is only one card in your library, you put it into your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/242/visionarys-dance) · oracle_id `c9f35490-462a-4c8f-9d8b-d8abca6596f7` · printing: SOS #242 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vision Charm
 
@@ -2996,7 +3348,9 @@
   > • Target artifact phases out. (While it's phased out, it's treated as though it doesn't exist. It phases in before its controller untaps during their next untap step.)
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20684 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vis/49/vision-charm) · oracle_id `c56d2c5b-c3e3-4236-bc38-286e250aa4f7` · printing: VIS #49 (1997-02-03) · [rulings](https://api.scryfall.com/cards/78b384d3-3adf-493a-8b89-bfe68fd1c3e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — All lands changed are changed to the same type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vis/49/vision-charm) · oracle_id `c56d2c5b-c3e3-4236-bc38-286e250aa4f7` · printing: VIS #49 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vision of Love
 
@@ -3019,6 +3373,7 @@
 - **Flavor text** (MSH printing):
   > *"Is there a problem, Wanda?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15848 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/237/vision-quest) · oracle_id `240410a0-3288-4336-b1ad-34936e64ccf2` · printing: MSH #237 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c01afea6-645d-4d4f-bdaa-90794a628bcd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Visions
@@ -3032,7 +3387,11 @@
   > *Ye unborn ages, crowd not on my soul!"*
   > *—Thomas Gray, "The Bard"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27859 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/4ed/54/visions) · oracle_id `448fa4e3-7269-446b-8089-675bc1bff5f9` · printing: 4ED #54 (1995-04-01) · [rulings](https://api.scryfall.com/cards/b0fed0e6-0e56-4987-b0dd-b294156c0233/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — If there are less than 5 cards in the library, you look at whatever ones remain and you still get the option to shuffle.
+  - *2004-10-04* — This is not a draw and will not cause a player to lose if there are less than 5 cards in the library.
+  - *2004-10-04* — You can’t rearrange the cards. You put them back in the same order or have the whole library shuffled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/4ed/54/visions) · oracle_id `448fa4e3-7269-446b-8089-675bc1bff5f9` · printing: 4ED #54 (1995-04-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vision Skeins
 
@@ -3071,6 +3430,7 @@
   > Whenever enchanted creature deals damage, its controller loses that much life.
 - **Keywords:** Devoid, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13259 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/81/visions-of-brutality) · oracle_id `66553485-4e9d-4049-9e80-3ac903f8127a` · printing: OGW #81 (2016-01-22) · [rulings](https://api.scryfall.com/cards/ec9ed374-54ad-4b81-b071-0b4668feb282/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Visions of Dominance
@@ -3103,7 +3463,17 @@
   > Flashback {8}{B}{B}. This spell costs {X} less to cast this way, where X is the greatest mana value of a commander you own on the battlefield or in the command zone. (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18110 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mic/34/visions-of-dread) · oracle_id `0b12fee3-1ad1-4dc3-bd19-e9ccce5cb829` · printing: MIC #34 (2021-09-24) · [rulings](https://api.scryfall.com/cards/2716d5b6-9ca7-4c8f-a363-1934221606a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2021-09-24* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-09-24* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-09-24* — If you leave the game while controlling permanents owned by other players that entered the battlefield under your control, those permanents are exiled. If the other players leave the game, they take their cards with them. (By contrast, if you leave the game while controlling permanents owned by another player you gained control of, those control-changing effects end and the permanents return to their previous controllers.)
+  - *2021-09-24* — If your commander is under the control of another player as you cast Visions of Dread using its flashback ability, that commander's mana value can be used to determine the value of X.
+  - *2021-09-24* — The cost-reduction effect that applies if you cast Visions of Dread using flashback applies only to the generic portion of the cost to cast it, although it can apply to any additional costs there may be to cast the spell. It can't reduce any colored mana required to cast the spell.
+  - *2021-09-24* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-09-24* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-09-24* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+  - *2021-09-24* — “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/mic/34/visions-of-dread) · oracle_id `0b12fee3-1ad1-4dc3-bd19-e9ccce5cb829` · printing: MIC #34 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Visions of Duplicity
 
@@ -3114,7 +3484,14 @@
   > Flashback {8}{U}{U}. This spell costs {X} less to cast this way, where X is the greatest mana value of a commander you own on the battlefield or in the command zone. (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17395 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mic/33/visions-of-duplicity) · oracle_id `ba85f0b0-b08c-4e62-a56e-b3ab7d699175` · printing: MIC #33 (2021-09-24) · [rulings](https://api.scryfall.com/cards/f2b7a2ab-4b1b-4ab4-92b6-b6fc842fbea6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-09-24* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-09-24* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-09-24* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-09-24* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-09-24* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+  - *2021-09-24* — “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/mic/33/visions-of-duplicity) · oracle_id `ba85f0b0-b08c-4e62-a56e-b3ab7d699175` · printing: MIC #33 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Visions of Glory
 
@@ -3179,6 +3556,7 @@
 - **Flavor text** (MSH printing):
   > *As Thanos gazed into the cosmic vortex of the Infinity Well, he beheld the means to serve Death all the better.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13463 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/120/visions-of-villainy) · oracle_id `3b46800b-711b-4cbb-b296-26115b4f6839` · printing: MSH #120 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f8f1e4f9-7415-437f-b694-ecbdd76db114/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vision, Spectral Synthezoid
@@ -3193,6 +3571,7 @@
   > *"If I am to be called 'The Vision,' is it not logical for me to look the part? Spectral . . . unearthly . . ."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16527 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/644/vision-spectral-synthezoid) · oracle_id `1a44261a-2b6a-45dc-91a4-b2eb219ba6fb` · printing: MSC #644 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c3da7f82-d2f7-4aaa-b62a-238b3e3e4871/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vision, Synthezoid Avenger
@@ -3207,6 +3586,7 @@
   > • Vision phases out. (Treat him and anything attached to him as though they don't exist until your next turn.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15678 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/119/vision-synthezoid-avenger) · oracle_id `2f4360f6-9ac7-499f-b0a5-769550ea15ba` · printing: MSC #119 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f7007b77-84ec-4391-b279-8c188dd569d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Visitor from Planet Q
@@ -3218,7 +3598,11 @@
   > All creature cards you own with flash are instants in addition to their other types.
   > Whenever you cast another spell with two or more card types, you may draw a card, then discard a card.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/33/visitor-from-planet-q) · oracle_id `98ababb4-a027-4340-94f0-9a2359a8c48f` · printing: CMB2 #33 (2021-08-20) · [rulings](https://api.scryfall.com/cards/262a6b0a-6af1-4390-8801-334b2ce5bec0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-11-12* — If you don’t draw a card, you don’t discard a card.
+  - *2019-11-12* — Some playtest cards have unusual type lines. To determine whether those cards have a card type not listed above, refer to that card’s rulings on Gatherer.wizards.com.
+  - *2019-11-12* — The card types that can normally appear on spells are artifact, creature, enchantment, instant, land, planeswalker, sorcery, and tribal. Legendary, basic, and snow are supertypes, not card types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/33/visitor-from-planet-q) · oracle_id `98ababb4-a027-4340-94f0-9a2359a8c48f` · printing: CMB2 #33 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vislor Turlough
 
@@ -3231,7 +3615,15 @@
   > Doctor's companion (You can have two commanders if the other is the Doctor.)
 - **Keywords:** Deal with the Black Guardian, Goad, Doctor's companion
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12517 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Doctor's companion
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/74/vislor-turlough) · oracle_id `cdf5c31c-c324-471f-b6d7-06a06e91daa3` · printing: WHO #74 (2023-10-13) · [rulings](https://api.scryfall.com/cards/f25ec946-036b-480a-bab6-c4102e5c31db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-10-13* — Although Doctor's companion is a new variant of the partner ability, the rules for partner have not otherwise changed. Notably, Time Lord Doctors and cards with Doctor's companion do not interact with cards which have another partner ability.
+  - *2023-10-13* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2023-10-13* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2023-10-13* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2023-10-13* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders' combined color identities.
+  - *2023-10-13* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined.
+  - *2023-10-13* — The Doctor's companion ability allows you to have two commanders if one has the ability and the other is a legendary creature that is a Time Lord Doctor and has no other creature types. Creatures with the changeling ability, for example, can't be a second commander this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/74/vislor-turlough) · oracle_id `cdf5c31c-c324-471f-b6d7-06a06e91daa3` · printing: WHO #74 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vitality Charm
 
@@ -3244,6 +3636,7 @@
   > • Regenerate target Beast.
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22069 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/296/vitality-charm) · oracle_id `74f5b4a9-8358-40b1-b38a-e034e2b916ac` · printing: ONS #296 (2002-10-07) · [rulings](https://api.scryfall.com/cards/e1abae21-ed8f-4e21-b227-f721b840c11f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vitality Hunter
@@ -3257,7 +3650,10 @@
   > When this creature becomes monstrous, put a lifelink counter on each of up to X target creatures.
 - **Keywords:** Lifelink, Monstrosity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21073 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/30/vitality-hunter) · oracle_id `d383c589-d8c7-4c4d-8084-37034d14b385` · printing: C20 #30 (2020-04-17) · [rulings](https://api.scryfall.com/cards/2bec0d43-f321-49eb-9402-83632d00d4be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-04-17* — Monstrous isn’t an ability that a creature has. It’s just something true about that creature. If the creature stops being a creature, loses its abilities, or loses its +1/+1 counters, it will continue to be monstrous.
+  - *2020-04-17* — Once a creature becomes monstrous, it can’t become monstrous again. If the creature is already monstrous when the monstrosity ability resolves, nothing happens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/30/vitality-hunter) · oracle_id `d383c589-d8c7-4c4d-8084-37034d14b385` · printing: C20 #30 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vitality Salve
 
@@ -3268,6 +3664,7 @@
   > Hero's Reward — When Vitality Salve is put into a graveyard from anywhere, each player returns a creature card from their graveyard to the battlefield.
 - **Keywords:** Hero's Reward
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tbth/15/vitality-salve) · oracle_id `d13c60f7-5517-4421-8326-6fd86f59ec98` · printing: TBTH #15 (2014-03-01) · [rulings](https://api.scryfall.com/cards/6ede8ada-95c6-426b-83f6-17f25afc3c21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vitalize
@@ -3293,6 +3690,7 @@
   > *"Water is like breathing—necessary for life."*
   > *—Asmira, Holy Avenger*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27732 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/286/vitalizing-cascade) · oracle_id `aaf176ff-646f-4182-a546-fe648498587d` · printing: MIR #286 (1996-10-08) · [rulings](https://api.scryfall.com/cards/5fe8a5b8-1a87-46f5-920f-fbbb05bfd563/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vitalizing Wind
@@ -3305,7 +3703,9 @@
   > *"The fifth wind of ascension is Exalter, fulfilling Keld's destiny."*
   > *—\*Keld Triumphant\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15688 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/133/vitalizing-wind) · oracle_id `98b802f3-4785-41af-adfe-e77d0ae4648c` · printing: PCY #133 (2000-06-05) · [rulings](https://api.scryfall.com/cards/0fbd7c20-d527-4d97-9630-896d5e7bf1de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Only affects creatures you control when the spell resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/133/vitalizing-wind) · oracle_id `98b802f3-4785-41af-adfe-e77d0ae4648c` · printing: PCY #133 (2000-06-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vital Splicer
 
@@ -3320,6 +3720,7 @@
   > *—Vorinclex, Voice of Hunger*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12639 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm3/145/vital-splicer) · oracle_id `e1899133-635d-46ff-b90d-6f8d46a1ffe1` · printing: MM3 #145 (2017-03-17) · [rulings](https://api.scryfall.com/cards/d13cf68c-b54c-46e1-a720-af57aac9e570/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vital Surge
@@ -3331,7 +3732,12 @@
   > Splice onto Arcane {1}{G} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
 - **Keywords:** Splice
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25107 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bok/150/vital-surge) · oracle_id `e19c0205-67e3-4e44-995b-751e18fdaafd` · printing: BOK #150 (2005-02-04) · [rulings](https://api.scryfall.com/cards/ba28f326-67d1-4afb-90fe-e9f036210942/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-06-07* — A card with a splice ability can’t be spliced onto itself because the spell is on the stack (and not in your hand) when you reveal the cards you want to splice onto it.
+  - *2013-06-07* — If all of the spell’s targets are illegal when the spell tries to resolve, it won’t resolve and none of its effects will happen.
+  - *2013-06-07* — You choose all targets for the spell after revealing cards you want to splice, including any targets required by the text of any of those cards. You may choose a different target for each instance of the word “target” on the resulting spell.
+  - *2013-06-07* — You reveal all cards you intend to splice at the same time. Each individual card can be spliced only once onto any one spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bok/150/vital-surge) · oracle_id `e19c0205-67e3-4e44-995b-751e18fdaafd` · printing: BOK #150 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vitaspore Thallid
 
@@ -3343,6 +3749,7 @@
   > Remove three spore counters from this creature: Create a 1/1 green Saproling creature token.
   > Sacrifice a Saproling: Target creature gains haste until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9978 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/plc/143/vitaspore-thallid) · oracle_id `8940f80b-9c8d-48c0-97c0-c18d77797911` · printing: PLC #143 (2007-02-02) · [rulings](https://api.scryfall.com/cards/cad14bc9-b90e-48e0-9e72-173874dab6bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vithian Renegades
@@ -3355,7 +3762,9 @@
 - **Flavor text** (ARB printing):
   > *"Here is the proof that what has been done may yet be undone. The hope we thought dead will be gloriously reborn."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28256 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/arb/64/vithian-renegades) · oracle_id `78fa248d-7f45-4d43-b3e3-c726db938b0f` · printing: ARB #64 (2009-04-30) · [rulings](https://api.scryfall.com/cards/7459a075-1a5d-4053-ab49-21bb696b6400/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-05-01* — The "enters" ability is mandatory. If you're the only player who controls any artifacts, you must target one of them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/arb/64/vithian-renegades) · oracle_id `78fa248d-7f45-4d43-b3e3-c726db938b0f` · printing: ARB #64 (2009-04-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vithian Stinger
 
@@ -3367,7 +3776,13 @@
   > Unearth {1}{R} ({1}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
 - **Keywords:** Unearth
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17559 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/115/vithian-stinger) · oracle_id `1c329131-bef2-41c6-823a-136c110ff0ad` · printing: MM3 #115 (2017-03-17) · [rulings](https://api.scryfall.com/cards/dbca500a-f349-4873-a2d5-f8dfbd957a3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2008-10-01* — Activating a creature card's unearth ability isn't the same as casting the creature card. The unearth ability is put on the stack, but the creature card is not. Spells and abilities that interact with activated abilities (such as Stifle) will interact with unearth, but spells and abilities that interact with spells (such as Remove Soul) will not.
+  - *2008-10-01* — At the beginning of the end step, a creature returned to the battlefield with unearth is exiled. This is a delayed triggered ability, and it can be countered by effects such as Stifle or Voidslime that counter triggered abilities. If the ability is countered, the creature will stay on the battlefield and the delayed trigger won't trigger again. However, the replacement effect will still exile the creature when it eventually leaves the battlefield.
+  - *2008-10-01* — If a creature returned to the battlefield with unearth would leave the battlefield for any reason, it's exiled instead — unless the spell or ability that's causing the creature to leave the battlefield is actually trying to exile it! In that case, it succeeds at exiling it. If it later returns the creature card to the battlefield (as Oblivion Ring or Flickerwisp might, for example), the creature card will return to the battlefield as a new object with no relation to its previous existence. The unearth effect will no longer apply to it.
+  - *2008-10-01* — If you activate a card's unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will resolve and do nothing.
+  - *2008-10-01* — Unearth grants haste to the creature that's returned to the battlefield. However, neither of the "exile" abilities is granted to that creature. If that creature loses all its abilities, it will still be exiled at the beginning of the end step, and if it would leave the battlefield, it is still exiled instead.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/115/vithian-stinger) · oracle_id `1c329131-bef2-41c6-823a-136c110ff0ad` · printing: MM3 #115 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vito, Fanatic of Aclazotz
 
@@ -3394,6 +3809,7 @@
 - **Flavor text** (LCI printing):
   > *"We usher in the Age of Everflowing Blood, when those who are fed upon will be fed, and those who feed will be satiated."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18819 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/130/vitos-inquisitor) · oracle_id `03ee49c9-95a3-44f1-b010-f7c4b2f86a7c` · printing: LCI #130 (2023-11-17) · [rulings](https://api.scryfall.com/cards/9030048a-b866-4a89-8d4a-aa55411463e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vito, Thorn of the Dusk Rose
@@ -3427,7 +3843,14 @@
   > *"Preachers of freedom forget that conformity can be beautiful."*
 - **Keywords:** Populate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14702 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/206/vitu-ghazi-guildmage) · oracle_id `da6f79ec-5f7e-4099-89c5-6d2bfc14d957` · printing: C19 #206 (2019-08-23) · [rulings](https://api.scryfall.com/cards/275a3199-1297-4281-a95c-374bcdc198ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-01-12* — Any enters-the-battlefield abilities of the copied token will trigger when the new token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the copied token will also work.
+  - *2024-01-12* — If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
+  - *2024-01-12* — If you control no creature tokens when you populate, nothing will happen.
+  - *2024-01-12* — Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control.
+  - *2024-01-12* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
+  - *2024-01-12* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/206/vitu-ghazi-guildmage) · oracle_id `da6f79ec-5f7e-4099-89c5-6d2bfc14d957` · printing: C19 #206 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vitu-Ghazi Inspector
 
@@ -3440,7 +3863,11 @@
   > When this creature enters, if evidence was collected, put a +1/+1 counter on target creature and you gain 2 life.
 - **Keywords:** Collect evidence, Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26351 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/183/vitu-ghazi-inspector) · oracle_id `22a33139-a730-4792-9dd5-2c0f99f96855` · printing: MKM #183 (2024-02-09) · [rulings](https://api.scryfall.com/cards/664d15d7-2724-4a9b-b5a7-8042d4b7da7b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-02-02* — If the target creature is an illegal target as Vitu-Ghazi Inspector's triggered ability tries to resolve, it won't resolve and none of its effects will happen. You won't gain life.
+  - *2024-02-02* — If you can't exile enough cards to meet or exceed the required mana value, you can't choose to collect evidence at all.
+  - *2024-02-02* — Once you've announced that you're casting a spell, players can't take actions until you've finished doing so. Notably, opponents can't try to remove cards from your graveyard to stop you from collecting evidence.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/183/vitu-ghazi-inspector) · oracle_id `22a33139-a730-4792-9dd5-2c0f99f96855` · printing: MKM #183 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vitu-Ghazi, the City-Tree
 
@@ -3489,6 +3916,7 @@
 - **Flavor text** (GS1 printing):
   > *The rainbow seen above the Great Lake of Cloud Dream just after the rain is nothing but the vivid-colored flying fishes' ritual dance.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27235 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gs1/4/vivid-flying-fish) · oracle_id `e8ec9ba4-dc6b-437d-863f-5ec37f4ae9cd` · printing: GS1 #4 (2018-06-22) · [rulings](https://api.scryfall.com/cards/c6783b19-4d23-445c-9c4c-bb485a1e4149/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vivid Grove
@@ -3536,7 +3964,9 @@
 - **Flavor text** (GRN printing):
   > *Golgari crops bloom in strange soils, touched only by long-traveled light.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23675 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/148/vivid-revival) · oracle_id `b5d856a3-0305-4c3b-b447-99570d6e8195` · printing: GRN #148 (2018-10-05) · [rulings](https://api.scryfall.com/cards/9e67fcfd-0e9e-4b88-8c65-2125fac10a3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-10-05* — If some, but not all, targets for Vivid Revival become illegal, the remaining targets are returned to your hand and Vivid Revival is exiled. If all of its targets become illegal, Vivid Revival doesn’t resolve and it’s put into your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/148/vivid-revival) · oracle_id `b5d856a3-0305-4c3b-b447-99570d6e8195` · printing: GRN #148 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vivien, Arkbow Ranger
 
@@ -3548,7 +3978,13 @@
   > −3: Target creature you control deals damage equal to its power to target creature or planeswalker.
   > −5: You may reveal a creature card you own from outside the game and put it into your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15760 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/199/vivien-arkbow-ranger) · oracle_id `3e83dec6-e1a0-4137-aaab-308dfd3122e1` · printing: M20 #199 (2019-07-12) · [rulings](https://api.scryfall.com/cards/592c5e27-c538-425e-b41f-1d6708428853/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2019-07-12* — If either target is an illegal target as Vivien’s second ability tries to resolve, the creature you control won’t deal damage.
+  - *2019-07-12* — If one of the two target creatures becomes an illegal target in response to Vivien’s first ability, the +1/+1 counter that would have been put on that creature is lost. It can’t be put on the legal target.
+  - *2019-07-12* — In a casual game, a card you choose from outside the game comes from your personal collection. In a tournament event, a card you choose from outside the game must come from your sideboard. You may look at your sideboard at any time.
+  - *2019-07-12* — You can activate Vivien’s first ability without choosing any target creatures. The counters won’t be put on anything. This is a change from previous rules regarding distributing counters.
+  - *2019-07-12* — You choose how the counters will be distributed as you activate Vivien’s first ability. Each target creature must be assigned at least one counter. This means that you can’t put two counters on one creature but give two creatures trample.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/199/vivien-arkbow-ranger) · oracle_id `3e83dec6-e1a0-4137-aaab-308dfd3122e1` · printing: M20 #199 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vivien, Champion of the Wilds
 
@@ -3599,7 +4035,9 @@
   > −1: Reveal cards from the top of your library until you reveal a creature card. Put that card into your hand and the rest on the bottom of your library in a random order.
   > −6: Target creature gets +10/+10 and gains trample until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19790 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/298/vivien-natures-avenger) · oracle_id `5513b150-c08f-4f3e-8e41-fd7b43d00b78` · printing: M20 #298 (2019-07-12) · [rulings](https://api.scryfall.com/cards/f7ead409-3bce-47c8-ace7-498c38522369/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-07-12* — If there are no creature cards in your library as Vivien’s second ability resolves, you reveal your library then put it back in a random order.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/298/vivien-natures-avenger) · oracle_id `5513b150-c08f-4f3e-8e41-fd7b43d00b78` · printing: M20 #298 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vivien of the Arkbow
 
@@ -3611,7 +4049,10 @@
   > −3: Target creature you control deals damage equal to its power to target creature you don't control.
   > −9: Creatures you control get +4/+4 and gain trample until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20124 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/301/vivien-of-the-arkbow) · oracle_id `34fe53c2-8909-4786-b5c0-331de997ff81` · printing: M19 #301 (2018-07-13) · [rulings](https://api.scryfall.com/cards/8c185555-acd4-461a-821a-b21b7b0914a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-07-13* — If either creature is an illegal target as Vivien’s second ability tries to resolve, the creature you control won’t deal damage.
+  - *2018-07-13* — Vivien’s last ability affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won’t get +4/+4 or gain trample.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/301/vivien-of-the-arkbow) · oracle_id `34fe53c2-8909-4786-b5c0-331de997ff81` · printing: M19 #301 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vivien on the Hunt
 
@@ -3648,7 +4089,9 @@
 - **Oracle text:**
   > {X}, {T}, Discard a card: Look at the top X cards of your library. You may put a creature card with mana value X or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16690 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/181/viviens-arkbow) · oracle_id `efe3204d-2013-47a1-ad68-adfbb2d0be8f` · printing: WAR #181 (2019-05-03) · [rulings](https://api.scryfall.com/cards/eecc846f-5b78-4d54-8d29-642ad7a852bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-05-03* — If a card in your library has {X} in its mana cost, X is considered to be 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/181/viviens-arkbow) · oracle_id `efe3204d-2013-47a1-ad68-adfbb2d0be8f` · printing: WAR #181 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vivien's Crocodile
 
@@ -3661,7 +4104,9 @@
   > *"Regardless of where they come from, crocs are usually able to find their way home. For this one, home is me."*
   > *—Vivien Reid*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30804 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/301/viviens-crocodile) · oracle_id `b49791f9-525c-4b04-954d-d7678c5565e3` · printing: M20 #301 (2019-07-12) · [rulings](https://api.scryfall.com/cards/7c51c6bd-2ecc-4d92-a406-fcb31e889b45/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-07-12* — Because damage remains marked on a creature until it’s removed as the turn ends, nonlethal damage dealt to Vivien’s Crocodile may become lethal if your Vivien planeswalker leaves the battlefield during that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/301/viviens-crocodile) · oracle_id `b49791f9-525c-4b04-954d-d7678c5565e3` · printing: M20 #301 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vivien's Grizzly
 
@@ -3671,7 +4116,9 @@
 - **Oracle text:**
   > {3}{G}: Look at the top card of your library. If it's a creature or planeswalker card, you may reveal it and put it into your hand. If you don't put the card into your hand, put it on the bottom of your library.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13595 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/182/viviens-grizzly) · oracle_id `6dbd0764-4bfe-4a58-905d-aeee70ceb798` · printing: WAR #182 (2019-05-03) · [rulings](https://api.scryfall.com/cards/37f2571b-6756-462c-9e71-3121fa458160/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-05-03* — The ability of Vivien’s Grizzly has you put the card on the bottom of your library if you don’t put it into your hand for any reason, whether it’s not a creature or planeswalker card or whether you choose not to put it into your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/182/viviens-grizzly) · oracle_id `6dbd0764-4bfe-4a58-905d-aeee70ceb798` · printing: WAR #182 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vivien's Invocation
 
@@ -3680,7 +4127,10 @@
 - **Oracle text:**
   > Look at the top seven cards of your library. You may put a creature card from among them onto the battlefield. Put the rest on the bottom of your library in a random order. When a creature is put onto the battlefield this way, it deals damage equal to its power to target creature an opponent controls.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21679 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/209/viviens-invocation) · oracle_id `5e2b30d2-81e9-40cd-86dd-3ec5dd06ced0` · printing: M19 #209 (2018-07-13) · [rulings](https://api.scryfall.com/cards/784c4711-223d-4b95-a163-87e57f87b8db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-07-13* — If the creature you put onto the battlefield leaves the battlefield before damage is dealt, its last known existence on the battlefield is used to determine how much damage it deals to the target creature.
+  - *2018-07-13* — You don’t choose any targets as you cast Vivien’s Invocation. While that spell is resolving, you may put a creature card from among the cards you look at onto the battlefield. If you do, a separate ability triggers and you pick a target creature an opponent controls to be dealt damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/209/viviens-invocation) · oracle_id `5e2b30d2-81e9-40cd-86dd-3ec5dd06ced0` · printing: M19 #209 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vivien's Jaguar
 
@@ -3694,7 +4144,9 @@
   > *Each of Vivien's arrows is an invocation of a species.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30851 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/305/viviens-jaguar) · oracle_id `32412a41-2929-4417-90bc-21c5659eeb72` · printing: M19 #305 (2018-07-13) · [rulings](https://api.scryfall.com/cards/d4b406cf-738b-4e65-ac00-b1c36ded5f96/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-07-13* — If a Vivien planeswalker and Vivien's Jaguar are both dealt lethal damage at the same time (most likely in combat), they'll be put into their owner's graveyard at the same time. You won't be able to activate the last ability of Vivien's Jaguar before Vivien leaves the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/305/viviens-jaguar) · oracle_id `32412a41-2929-4417-90bc-21c5659eeb72` · printing: M19 #305 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vivien's Stampede
 
@@ -3704,6 +4156,7 @@
   > Each creature you control gains vigilance, trample, and melee until end of turn. (Whenever a creature with melee attacks, it gets +1/+1 until end of turn for each opponent you attacked this combat.)
   > At the beginning of the next main phase this turn, draw a card for each player who was dealt combat damage this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15836 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/65/viviens-stampede) · oracle_id `b0700c79-f948-4235-ad87-f8c6079a368a` · printing: NCC #65 (2022-04-29) · [rulings](https://api.scryfall.com/cards/de108ae1-7201-4849-9f68-92edff66649c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vivien's Talent
@@ -3716,7 +4169,9 @@
   > Whenever a nontoken creature you control enters, put a loyalty counter on enchanted planeswalker.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20259 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/78/viviens-talent) · oracle_id `968f0edb-b81f-465a-84b2-f077af61e51b` · printing: MOC #78 (2023-04-21) · [rulings](https://api.scryfall.com/cards/36dc7851-795b-4d59-bcd9-16d2c87d3e19/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-04-14* — You can activate one loyalty ability of each planeswalker you control during each of your turns, whether that ability is one it always has or the one it gains because of Vivien's Talent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/78/viviens-talent) · oracle_id `968f0edb-b81f-465a-84b2-f077af61e51b` · printing: MOC #78 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vivify
 
@@ -3728,7 +4183,9 @@
 - **Flavor text** (ODY printing):
   > *Near the Krosan border, farmers keep watch over their fields lest the sod get up and wander away.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29846 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ody/281/vivify) · oracle_id `7b58e277-a969-4c7f-8143-ee4f6bd1e3ed` · printing: ODY #281 (2001-10-01) · [rulings](https://api.scryfall.com/cards/f8b5e7ed-a0ab-48f6-8f69-56a8bd115007/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn’t matter how long the permanent has been a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ody/281/vivify) · oracle_id `7b58e277-a969-4c7f-8143-ee4f6bd1e3ed` · printing: ODY #281 (2001-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vivi Ornitier
 
@@ -3754,7 +4211,10 @@
 - **Flavor text** (MID printing):
   > *Though their work is widely reviled, stitchers see themselves as being on the cutting edge of science.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21006 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/83/vivisection) · oracle_id `46f78c42-85d1-4cd4-9fc3-d5fdec04a4c8` · printing: MID #83 (2021-09-24) · [rulings](https://api.scryfall.com/cards/91be6a06-9c36-45a3-a591-183cb5c0f800/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.
+  - *2013-04-15* — You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/83/vivisection) · oracle_id `46f78c42-85d1-4cd4-9fc3-d5fdec04a4c8` · printing: MID #83 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vivisection Evangelist
 
@@ -3768,6 +4228,7 @@
   > *"May you rejoice in the magnificence of Norn. May your flesh serve perfection."*
 - **Keywords:** Vigilance, Corrupted
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21908 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/220/vivisection-evangelist) · oracle_id `007f3b20-d58b-4986-8de8-9e419af88628` · printing: ONE #220 (2023-02-10) · [rulings](https://api.scryfall.com/cards/626c46a3-72b8-4e04-adf2-c9c7aaf94f04/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vivi's Persistence
@@ -3812,6 +4273,7 @@
   > Power-up — {7}: Put two +1/+1 counters on Viv Vision. (Activate each power-up ability only once. Reduce the cost by her mana cost if she entered this turn.)
 - **Keywords:** Flying, Power-up, Cybernetic Senses
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15991 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/256/viv-vision-teen-synthezoid) · oracle_id `f67a599c-200a-4831-9e73-126c7435a396` · printing: MSH #256 (2026-06-26) · [rulings](https://api.scryfall.com/cards/85cc170a-ecd2-4870-b675-7ece88813995/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vizier of Deferment
@@ -3824,7 +4286,11 @@
   > When this creature enters, you may exile target creature if it attacked or blocked this turn. Return that card to the battlefield under its owner's control at the beginning of the next end step.
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23701 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/37/vizier-of-deferment) · oracle_id `008d5896-6fc9-4aaa-8c6f-a44c2feb98bb` · printing: AKH #37 (2017-04-28) · [rulings](https://api.scryfall.com/cards/2684f2e5-e3f9-4277-94a1-aba6913ac53b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-04-18* — A token creature exiled this way won’t return to the battlefield.
+  - *2017-04-18* — After the target creature returns to the battlefield, it will be a new object with no connection to the creature that was exiled. It won’t be in combat or have any additional abilities it may have had when it was exiled. Any counters on it or Auras attached to it are removed, and any Equipment will no longer be attached.
+  - *2017-04-18* — Vizier of Deferment’s triggered ability can target any creature, but it will affect a creature only if that creature was declared as an attacker or blocker this turn, whether you cast Vizier of Deferment during combat or later in the turn. Notably, the ability won’t affect a creature that entered the battlefield attacking or blocking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/37/vizier-of-deferment) · oracle_id `008d5896-6fc9-4aaa-8c6f-a44c2feb98bb` · printing: AKH #37 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vizier of Many Faces
 
@@ -3862,7 +4328,13 @@
 - **Flavor text** (AKH printing):
   > *"You'll need all your strength for the trials to come."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11788 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/38/vizier-of-remedies) · oracle_id `79770e65-740a-44c7-bea2-a24e6a722c22` · printing: AKH #38 (2017-04-28) · [rulings](https://api.scryfall.com/cards/36ab760e-93e0-4dbc-aaa1-02316f62ed3f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-04-18* — Each additional Vizier of Remedies you control will decrease the number of -1/-1 counters put on a creature by one.
+  - *2017-04-18* — If a creature you control is dealt damage by a source with wither or infect, that much damage is dealt, but one fewer -1/-1 counter is put on your creature. For example, if a 2/2 creature with lifelink and infect is blocked by Vizier of Remedies, the first creature’s controller gains 2 life and puts one -1/-1 counter on Vizier of Remedies.
+  - *2017-04-18* — If an effect puts Vizier of Remedies onto the battlefield with one or more -1/-1 counters on it, its effect won’t apply. This is because you must control Vizier of Remedies before the creature begins to enter the battlefield for its effect to apply. The same is true of any creatures entering the battlefield with -1/-1 counters on them at the same time as Vizier of Remedies enters the battlefield.
+  - *2017-04-18* — If multiple creatures with wither and/or infect deal damage to a creature at once, Vizier of Remedies causes only one counter fewer to be put on that creature. Its effect doesn’t apply separately for each creature dealing damage.
+  - *2017-04-18* — “Put on a creature you control” includes that creature entering the battlefield with -1/-1 counters on it. If a creature would enter the battlefield under your control with a number of -1/-1 counters on it while you control Vizier of Remedies, it enters with that many counters minus one.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/38/vizier-of-remedies) · oracle_id `79770e65-740a-44c7-bea2-a24e6a722c22` · printing: AKH #38 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vizier of the Anointed
 
@@ -3873,7 +4345,9 @@
   > When this creature enters, you may search your library for a creature card with eternalize or embalm, put that card into your graveyard, then shuffle.
   > Whenever you activate an eternalize or embalm ability, draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27297 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/55/vizier-of-the-anointed) · oracle_id `cb5aa38e-6a76-4c0c-be14-3c546acd353d` · printing: HOU #55 (2017-07-14) · [rulings](https://api.scryfall.com/cards/68ef426c-b396-4767-b360-435f67207022/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-07-14* — If you activate an eternalize or embalm ability, you’ll draw a card before that ability resolves, but after you’ve paid all of the costs for that ability. If an eternalize ability requires a discard to activate, you’ll need to have another card available to discard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/55/vizier-of-the-anointed) · oracle_id `cb5aa38e-6a76-4c0c-be14-3c546acd353d` · printing: HOU #55 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vizier of the Menagerie
 
@@ -3928,7 +4402,14 @@
   > *Outnumbered, but not outmatched.*
 - **Keywords:** Exert
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28986 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/28/vizier-of-the-true) · oracle_id `0e31d70e-2b5e-4c32-81cf-aed2a13e8aa5` · printing: HOU #28 (2017-07-14) · [rulings](https://api.scryfall.com/cards/c1800882-e886-48d5-ac85-0a8e5841dc9a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2017-04-18* — All cards in the Amonkhet set that let you exert a creature let you do so as you declare it as an attacking creature, as do some of the cards in the Hour of Devastation set. You can’t do so later in combat, and creatures put onto the battlefield attacking can’t be exerted. Any abilities that trigger on exerting an attacking creature will resolve before blockers are declared.
+  - *2017-04-18* — If a creature has a targeted triggered ability that triggers when you exert it, you can exert it even if there isn’t a legal target for that triggered ability.
+  - *2017-04-18* — If an exerted creature is already untapped during your next untap step (most likely because it had vigilance or an effect untapped it), exert’s effect preventing it from untapping expires without having done anything.
+  - *2017-04-18* — If you gain control of another player’s creature until end of turn and exert it, it will untap during that player’s untap step.
+  - *2017-04-18* — Some cards have abilities that trigger whenever you exert any creature. These abilities trigger when you exert that creature or any other creature you control.
+  - *2017-04-18* — You can’t exert a creature unless an effect allows you to do so. Similar effects that “tap and freeze” a creature (such as that of Decision Paralysis) don’t exert that creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/28/vizier-of-the-true) · oracle_id `0e31d70e-2b5e-4c32-81cf-aed2a13e8aa5` · printing: HOU #28 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vizier of Tumbling Sands
 
@@ -3958,7 +4439,15 @@
   > When this creature enters, pay any amount of life. Target opponent reveals that many cards from their hand. You choose one of them and exile it.
 - **Keywords:** Extort
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23147 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/205/vizkopa-confessor) · oracle_id `9db7cb7f-1309-4f1d-9c9d-423c91c0896c` · printing: GTC #205 (2013-02-01) · [rulings](https://api.scryfall.com/cards/cac639b9-6c20-45ac-a61f-082bdcebdb83/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2013-01-24* — If the target opponent is an illegal target when Vizkopa Confessor's last ability tries to resolve, it won't resolve and none of its effects will happen. You won't pay life and no player will reveal any cards.
+  - *2013-01-24* — The amount of life you pay is chosen when Vizkopa Confessor's last ability resolves.
+  - *2013-01-24* — You may pay 0 life when Vizkopa Confessor's "enters" ability resolves. If you do, no cards are revealed or exiled.
+  - *2024-01-12* — The amount of life you gain from extort is based on the total amount of life lost, not necessarily the number of opponents you have. For example, if your opponent's life total can't change (perhaps because that player controls Platinum Emperion), you won't gain any life.
+  - *2024-01-12* — The extort ability doesn't target any player.
+  - *2024-01-12* — The extort ability resolves before the spell that caused it to trigger. The ability resolves even if that spell is countered.
+  - *2024-01-12* — You may pay {W/B} a maximum of one time for each extort triggered ability. You decide whether to pay when the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/205/vizkopa-confessor) · oracle_id `9db7cb7f-1309-4f1d-9c9d-423c91c0896c` · printing: GTC #205 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vizkopa Guildmage
 
@@ -3986,6 +4475,7 @@
   > *Orzhov vampires look for allies in unlikely places in case their new guildmaster turns on them. The fate of the Obzedat is proof of Kaya's power and her hatred of the living dead.*
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25769 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/217/vizkopa-vampire) · oracle_id `fcedc288-5e27-45a2-a07b-06c7aa7a9230` · printing: CLU #217 (2024-02-23) · [rulings](https://api.scryfall.com/cards/3b4404a1-b1ab-4a11-98b0-fe3b6723fcb8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vizzerdrix
@@ -3998,4 +4488,5 @@
 - **Flavor text** (9ED printing):
   > *A bored wizard once created a vizzerdrix out of a bunny and a piranha. He never made \*that\* mistake again.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29094 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/S7/vizzerdrix) · oracle_id `a6649a99-c9cd-474e-91f2-cc8e75496864` · printing: 9ED #S7 (2005-07-29) · [rulings](https://api.scryfall.com/cards/9a82ffff-e02a-4ecb-a92d-8ed571beac46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

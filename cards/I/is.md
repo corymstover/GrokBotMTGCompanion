@@ -45,6 +45,7 @@
 - **Oracle text:**
   > Whenever another legendary creature or creature with mana value one enters the battlefield under your control, put a +1/+1 counter on Isamaru and Yoshimaru.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW02b/isamaru-and-yoshimaru) · oracle_id `c22cb20a-f280-4e47-9556-ca8b465f9b17` · printing: UNK #RW02b (2023-05-06) · [rulings](https://api.scryfall.com/cards/32e7bc06-504b-467c-9bff-51cc77f68c75/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isamaru, Hound of Konda
@@ -74,6 +75,7 @@
   > *—Lord Konda*
 - **Keywords:** Bushido, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23244 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/129/isao-enlightened-bushi) · oracle_id `15ec1bfc-b0a0-4058-87bb-8dbaf17b7f3b` · printing: BOK #129 (2005-02-04) · [rulings](https://api.scryfall.com/cards/90334b59-73d8-4459-af59-d7a0539e2cc5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isareth the Awakener
@@ -86,7 +88,14 @@
   > Whenever Isareth attacks, you may pay {X}. When you do, return target creature card with mana value X from your graveyard to the battlefield with a corpse counter on it. If that creature would leave the battlefield, exile it instead of putting it anywhere else.
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14882 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/168/isareth-the-awakener) · oracle_id `7af0e2da-9163-42d9-bf69-439cc61cd28d` · printing: CMM #168 (2023-08-04) · [rulings](https://api.scryfall.com/cards/d5de9b95-1c20-4d1a-be7d-4307ec2803ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2018-07-13* — Because all attacking creatures are chosen at once, a creature returned this way can't attack during the same combat as it returns, even if it has haste.
+  - *2018-07-13* — Because to die means to be put into a graveyard from the battlefield, a creature that is exiled instead doesn't "die." Abilities that would trigger when it dies won't trigger.
+  - *2018-07-13* — If Isareth leaves the battlefield, the replacement effect continues to apply. If one of the creatures it returned would leave the battlefield, it'll be exiled instead.
+  - *2018-07-13* — If a card in your graveyard has {X} in its mana cost, X is considered to be 0.
+  - *2018-07-13* — If you somehow remove a corpse counter from a creature Isareth has returned to the battlefield, the replacement effect that will exile it continues to apply. The counter is only to help remind you which creatures will be exiled if they would leave the battlefield.
+  - *2018-07-13* — Isareth's triggered ability goes on the stack without a target. While that ability is resolving, you may pay {X}. When you do, a second ability triggers and you pick a target creature card to return. This is different from abilities that say "If you do . . ." in that players may cast spells and activate abilities after mana is paid and the target creature card is chosen, but before that card is returned.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/168/isareth-the-awakener) · oracle_id `7af0e2da-9163-42d9-bf69-439cc61cd28d` · printing: CMM #168 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isengard Unleashed
 
@@ -175,6 +184,7 @@
   > *"Here fell Ishi-Ishi, King of the Flaming Pebbles, Scourge of the Mountain Kami, Lover of Goats. May his shell never burn."*
   > *—Cave inscription*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30429 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/110/ishi-ishi-akki-crackshot) · oracle_id `30265fce-28e6-4994-83f7-0e4c4b22df35` · printing: BOK #110 (2005-02-04) · [rulings](https://api.scryfall.com/cards/8e94fec2-dc56-4961-ba80-b9c904a345ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ishkanah, Grafwidow
@@ -202,7 +212,11 @@
 - **Flavor text** (LTR printing):
   > *Isildur cut the Ring from Sauron's hand with the hilt-shard of his father's sword, and Sauron himself was overthrown.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9986 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/91/isildurs-fateful-strike) · oracle_id `a43e98d1-684a-4198-bc7e-877b9f6d5357` · printing: LTR #91 (2023-06-23) · [rulings](https://api.scryfall.com/cards/4bf08071-fbf8-463e-9a57-59dbf0280dd8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-06-16* — Isildur's Fateful Strike is the first legendary instant. It is subject to the same casting restrictions as existing legendary sorceries, as listed in the following rulings.
+  - *2023-06-16* — Other than the casting restriction, the legendary supertype on an instant carries no additional rules. You may cast any number of legendary instants in a turn, and your deck may contain any number of legendary cards (but no more than four of any with the same name).
+  - *2023-06-16* — You can't cast a legendary instant unless you control a legendary creature or a legendary planeswalker. Once you begin to cast a legendary instant, losing control of your legendary creatures and planeswalkers won't affect that spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/91/isildurs-fateful-strike) · oracle_id `a43e98d1-684a-4198-bc7e-877b9f6d5357` · printing: LTR #91 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Island
 
@@ -214,6 +228,7 @@
   > *"The Dream Dimension. A benevolent fountain of ideals, the source of humanity's collective inspiration, and the home of the muses themselves. Its wonder never ceases to amaze me."*
   > *—Doctor Strange*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mdd/294/island) · oracle_id `b2c6aa39-2d2a-459c-a555-fb48ba993373` · printing: MDD #294 (2027-04-09) · [rulings](https://api.scryfall.com/cards/1335d293-3dd2-4f13-bd2c-22181f4528ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Island Fish Jasconius
@@ -227,7 +242,9 @@
   > This creature can't attack unless defending player controls an Island.
   > When you control no Islands, sacrifice this creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26876 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/4ed/78/island-fish-jasconius) · oracle_id `bb217f12-532f-4833-a27a-99e290aa47d0` · printing: 4ED #78 (1995-04-01) · [rulings](https://api.scryfall.com/cards/84f18188-70fa-433e-a114-2f1dd49388ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-05-01* — Reworded so that it triggers only once at beginning of upkeep, instead of being an activated ability usable any time during your upkeep. You can no longer make infinite combos with this ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/4ed/78/island-fish-jasconius) · oracle_id `bb217f12-532f-4833-a27a-99e290aa47d0` · printing: 4ED #78 (1995-04-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Island of Wak-Wak
 
@@ -238,7 +255,10 @@
 - **Flavor text** (ME1 printing):
   > *The Isle of Wak-Wak, home to a tribe of winged folk, is named for a peculiar fruit that grows there. The fruit looks like a woman's head, and when ripe speaks the word "Wak."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22843 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me1/176/island-of-wak-wak) · oracle_id `d427e61d-5b30-4d2a-bad2-2e7f016036ca` · printing: ME1 #176 (2007-09-10) · [rulings](https://api.scryfall.com/cards/17f4a1aa-395f-423c-b70c-00cf178bb84d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — This is not an Island.
+  - *2005-11-01* — Sets power to 0 instead of giving the creature -X/-0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me1/176/island-of-wak-wak) · oracle_id `d427e61d-5b30-4d2a-bad2-2e7f016036ca` · printing: ME1 #176 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Island Sanctuary
 
@@ -247,7 +267,11 @@
 - **Oracle text:**
   > If you would draw a card during your draw step, instead you may skip that draw. If you do, until your next turn, you can't be attacked except by creatures with flying and/or islandwalk.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10668 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/15/island-sanctuary) · oracle_id `7d1769d0-d942-45b3-a31c-2bbe45e68661` · printing: ME4 #15 (2011-01-10) · [rulings](https://api.scryfall.com/cards/5160e700-3bca-4992-a772-48f1f124cee6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — If the replacement effect is applied, the effect will continue until your next turn even if this card leaves the battlefield.
+  - *2004-10-04* — If you get multiple draws or you use a spell or ability during the draw step to draw extra cards, you can have the replacement effect apply to any one or all of those. You need only have it apply once to get the effect. If you skip more than one, there is no additional effect.
+  - *2004-10-04* — Since the draw is replaced, you can't use the same draw to do other things.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/15/island-sanctuary) · oracle_id `7d1769d0-d942-45b3-a31c-2bbe45e68661` · printing: ME4 #15 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isleback Spawn
 
@@ -261,7 +285,9 @@
   > *The more deadly the lake monster, the shorter the tale.*
 - **Keywords:** Shroud
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26288 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/shm/40/isleback-spawn) · oracle_id `05ad7ec4-f48d-4cbe-be58-f871dc19702b` · printing: SHM #40 (2008-05-02) · [rulings](https://api.scryfall.com/cards/e769b1b2-c2a9-4db1-bf1f-01863aa2cd0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-05-01* — It doesn't matter which library has twenty or fewer cards in it, and you don't have to specify a library. If multiple libraries have twenty or fewer cards in them, Isleback Spawn will still get its bonus only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/shm/40/isleback-spawn) · oracle_id `05ad7ec4-f48d-4cbe-be58-f871dc19702b` · printing: SHM #40 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isochron Scepter
 
@@ -289,7 +315,9 @@
 - **Flavor text** (M19 printing):
   > *Threefold were his crimes, doubled were his pleas, singular was his fate.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26272 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/17/isolate) · oracle_id `f42d4556-5be2-4861-9f88-1b630b43eff2` · printing: M19 #17 (2018-07-13) · [rulings](https://api.scryfall.com/cards/3d9ce5eb-eaeb-4c93-8d31-4aeb8fcc4cce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-07-13* — If a permanent has {X} in its mana cost, X is considered to be 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/17/isolate) · oracle_id `f42d4556-5be2-4861-9f88-1b630b43eff2` · printing: M19 #17 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isolated Chapel
 
@@ -313,7 +341,9 @@
   > {2}, {T}: Scry 1, then you may reveal the top card of your library. If a basic land card is revealed this way, put it onto the battlefield tapped. Activate only if an opponent controls at least two more lands than you.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10284 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/59/isolated-watchtower) · oracle_id `3893f320-47fd-49ec-a78c-80bfb607a279` · printing: C18 #59 (2018-08-10) · [rulings](https://api.scryfall.com/cards/9ee3c4f0-ec6b-48cd-b1be-4620aea337d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-07-13* — You can activate Isolated Watchtower’s ability if you control more lands than an opponent, as long as at least one opponent also controls two or more lands than you.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/59/isolated-watchtower) · oracle_id `3893f320-47fd-49ec-a78c-80bfb607a279` · printing: C18 #59 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isolation at Orthanc
 
@@ -325,7 +355,9 @@
   > *"They took me and set me on the pinnacle of Orthanc. I stood alone on an island in the clouds; I had no chance of escape, and my days were bitter and cold."*
   > *—Gandalf*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20736 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/57/isolation-at-orthanc) · oracle_id `6dc6536f-455a-4d7b-beed-a78ec63c0030` · printing: LTR #57 (2023-06-23) · [rulings](https://api.scryfall.com/cards/54b9c323-ac9b-4864-bd57-81b557f44114/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — If the target creature's controller has zero cards left in their library when Isolation at Orthanc resolves, that creature becomes the top card of their library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/57/isolation-at-orthanc) · oracle_id `6dc6536f-455a-4d7b-beed-a78ec63c0030` · printing: LTR #57 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isolation Cell
 
@@ -337,6 +369,7 @@
   > *"Attrition is the answer. Starve them, and let their despair be their undoing."*
   > *—Sheoldred, Whispering One*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12708 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nph/141/isolation-cell) · oracle_id `56c558f3-535d-49aa-a2de-54e0bb598483` · printing: NPH #141 (2011-05-13) · [rulings](https://api.scryfall.com/cards/c5e72c64-cb0e-4a04-97d0-3537bb0420cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isolation Zone
@@ -348,7 +381,13 @@
 - **Flavor text** (OGW printing):
   > *When properly aligned, hedrons become powerful tools of binding.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26755 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/22/isolation-zone) · oracle_id `7c1890cf-36db-4720-a472-9158bdc0d8aa` · printing: OGW #22 (2016-01-22) · [rulings](https://api.scryfall.com/cards/1ca698e3-1249-4a08-be04-bae3bd944e99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2016-01-22* — Auras attached to the exiled creature or enchantment will be put into their owners’ graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
+  - *2016-01-22* — If Isolation Zone leaves the battlefield before its triggered ability resolves, the target creature or enchantment won’t be exiled.
+  - *2016-01-22* — If a token is exiled, it ceases to exist. It won’t be returned to the battlefield.
+  - *2016-01-22* — In a multiplayer game, if Isolation Zone’s owner leaves the game, the exiled card will return to the battlefield. Because the one-shot effect that returns the card isn’t an ability that goes on the stack, it won’t cease to exist along with the leaving player’s spells and abilities on the stack.
+  - *2016-01-22* — The exiled card returns to the battlefield immediately after Isolation Zone leaves the battlefield. Nothing happens between the two events, including state-based actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/22/isolation-zone) · oracle_id `7c1890cf-36db-4720-a472-9158bdc0d8aa` · printing: OGW #22 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isperia's Skywatch
 
@@ -360,7 +399,14 @@
   > When this creature enters, detain target creature an opponent controls. (Until your next turn, that creature can't attack or block and its activated abilities can't be activated.)
 - **Keywords:** Flying, Detain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27970 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/43/isperias-skywatch) · oracle_id `5101fa05-3cca-499c-8c48-198ba0f8c672` · printing: RTR #43 (2012-10-05) · [rulings](https://api.scryfall.com/cards/019ba84d-d236-45c5-a8ad-75def7736d0c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2013-04-15* — Activated abilities include a colon and are written in the form “[cost]: [effect].” No one can activate any activated abilities, including mana abilities, of a detained permanent.
+  - *2013-04-15* — If a creature is already attacking or blocking when it’s detained, it won’t be removed from combat. It will continue to attack or block.
+  - *2013-04-15* — If a noncreature permanent is detained and later turns into a creature, it won’t be able to attack or block.
+  - *2013-04-15* — If a permanent’s activated ability is on the stack when that permanent is detained, the ability will be unaffected.
+  - *2013-04-15* — The static abilities of a detained permanent still apply. The triggered abilities of a detained permanent can still trigger.
+  - *2013-04-15* — When a player leaves a multiplayer game, any continuous effects with durations that last until that player’s next turn or until a specific point in that turn will last until that turn would have begun. They neither expire immediately nor last indefinitely.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/43/isperias-skywatch) · oracle_id `5101fa05-3cca-499c-8c48-198ba0f8c672` · printing: RTR #43 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isperia, Supreme Judge
 
@@ -387,7 +433,9 @@
   > Whenever Isperia deals combat damage to a player, choose a card name. That player reveals their hand. If a card with the chosen name is revealed this way, search your library for a creature card with flying, reveal it, put it into your hand, then shuffle.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18696 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dis/114/isperia-the-inscrutable) · oracle_id `7aa39b85-6646-4365-99c3-9de31ab0594f` · printing: DIS #114 (2006-05-05) · [rulings](https://api.scryfall.com/cards/b2b365b0-6949-41d2-be60-eb2162b1f882/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-05-01* — The card is named when the ability resolves. The named card can't be played after it's named but before the player's hand is revealed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dis/114/isperia-the-inscrutable) · oracle_id `7aa39b85-6646-4365-99c3-9de31ab0594f` · printing: DIS #114 (2006-05-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isshin, Two Heavens as One
 
@@ -416,6 +464,7 @@
 - **Flavor text** (MBC printing):
   > *No beast in Terisiare is more frightening than the man who haunts its woods.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #26053 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/14/istvan-butcher-of-eln) · oracle_id `5e277de5-793a-4364-923a-a55b53c0fa85` · printing: MBC #14 (2026-10-19) · [rulings](https://api.scryfall.com/cards/b30b1577-6b04-4ab5-92bc-ab54fdd5a621/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isu the Abominable
@@ -428,4 +477,7 @@
   > You may play snow lands and cast snow spells from the top of your library.
   > Whenever another snow permanent you control enters, you may pay {G}, {W}, or {U}. If you do, put a +1/+1 counter on Isu.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18080 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/j22/12/isu-the-abominable) · oracle_id `b34823a3-7bee-4e71-a3df-9b533c8ddf15` · printing: J22 #12 (2022-12-02) · [rulings](https://api.scryfall.com/cards/1e1d50c3-3219-49cb-8f63-c1faff93215c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-12-02* — The top card of your library is still in your library and not in your hand. You can't discard cards from the top of your library or activate abilities of cards on top of your library that normally work in your hand.
+  - *2022-12-02* — You must pay all costs and follow all timing rules for cards played from the top of your library this way. For example, you may play a snow land this way only while the stack is empty during one of your own main phases, and only if you haven't played a land yet this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/j22/12/isu-the-abominable) · oracle_id `b34823a3-7bee-4e71-a3df-9b533c8ddf15` · printing: J22 #12 (2022-12-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

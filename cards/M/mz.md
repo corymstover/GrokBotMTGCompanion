@@ -21,4 +21,5 @@
   > Partner (You can have two commanders if both have partner.)
 - **Keywords:** Mono Eminence, Partner
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR04a/mzed-mercenary-leader) · oracle_id `762a51ac-4391-41f9-a88d-d8cb7af85d87` · printing: UNK #RR04a (2023-07-29) · [rulings](https://api.scryfall.com/cards/dc609305-dc6a-4cf2-a8e4-28642ded298c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

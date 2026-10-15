@@ -64,7 +64,11 @@
   > All Slivers have "{B}: Regenerate this permanent." (The next time it would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)
 - **Keywords:** Heal, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11911 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/187/sedge-sliver) · oracle_id `027b0223-173f-4f8b-a38c-59bab391f472` · printing: TSR #187 (2021-03-19) · [rulings](https://api.scryfall.com/cards/0af3c6b1-9139-46a3-ad41-91aabbdda55f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn't provide any additional benefit.
+  - *2013-07-01* — If the creature type of a Sliver changes so it's no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+  - *2021-03-19* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a Sliver may become lethal if Sedge Sliver leaves the battlefield during that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/187/sedge-sliver) · oracle_id `027b0223-173f-4f8b-a38c-59bab391f472` · printing: TSR #187 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sedge Troll
 
@@ -78,6 +82,7 @@
   > *The stench in the hovel was overpowering; something loathsome was cooking. Occasionally something surfaced in the thick paste, but my host would casually push it down before I could make out what it was.*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30997 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/135/sedge-troll) · oracle_id `a6a43190-cca2-4f07-afe9-8af681d777da` · printing: ME4 #135 (2011-01-10) · [rulings](https://api.scryfall.com/cards/78de6044-1ed8-4fd9-822c-69658e3f3fba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sedraxis Alchemist
@@ -90,7 +95,10 @@
 - **Flavor text** (CON printing):
   > *The problem with a liquid that can dissolve anything is finding something to carry it in.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22573 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/con/54/sedraxis-alchemist) · oracle_id `56f3f1b4-c36a-41f3-95a1-45e9d7e74cf9` · printing: CON #54 (2009-02-06) · [rulings](https://api.scryfall.com/cards/7fbbc5d7-86d0-4e09-b37c-e40eb88f3f33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-02-01* — The "intervening 'if' clause" means that (1) the ability won't trigger at all unless you control a permanent of the specified color, and (2) the ability will do nothing unless you control a permanent of the specified color at the time it resolves.
+  - *2009-02-01* — This ability isn't optional. When Sedraxis Alchemist enters, if you control a blue permanent and no other player controls a nonland permanent, you'll have to target a nonland permanent you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/con/54/sedraxis-alchemist) · oracle_id `56f3f1b4-c36a-41f3-95a1-45e9d7e74cf9` · printing: CON #54 (2009-02-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sedraxis Specter
 
@@ -103,7 +111,13 @@
   > Unearth {1}{B} ({1}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
 - **Keywords:** Flying, Unearth
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20944 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/273/sedraxis-specter) · oracle_id `eccc1230-df5a-44a0-859b-9e1e0d176dff` · printing: 2X2 #273 (2022-07-08) · [rulings](https://api.scryfall.com/cards/89a0fe75-cfaf-483e-8412-9ffb5d96ae25/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2008-10-01* — Activating a creature card's unearth ability isn't the same as casting the creature card. The unearth ability is put on the stack, but the creature card is not. Spells and abilities that interact with activated abilities (such as Stifle) will interact with unearth, but spells and abilities that interact with spells (such as Remove Soul) will not.
+  - *2008-10-01* — At the beginning of the end step, a creature returned to the battlefield with unearth is exiled. This is a delayed triggered ability, and it can be countered by effects such as Stifle or Voidslime that counter triggered abilities. If the ability is countered, the creature will stay on the battlefield and the delayed trigger won't trigger again. However, the replacement effect will still exile the creature when it eventually leaves the battlefield.
+  - *2008-10-01* — If a creature returned to the battlefield with unearth would leave the battlefield for any reason, it's exiled instead — unless the spell or ability that's causing the creature to leave the battlefield is actually trying to exile it! In that case, it succeeds at exiling it. If it later returns the creature card to the battlefield (as Oblivion Ring or Flickerwisp might, for example), the creature card will return to the battlefield as a new object with no relation to its previous existence. The unearth effect will no longer apply to it.
+  - *2008-10-01* — If you activate a card's unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will resolve and do nothing.
+  - *2008-10-01* — Unearth grants haste to the creature that's returned to the battlefield. However, neither of the "exile" abilities is granted to that creature. If that creature loses all its abilities, it will still be exiled at the beginning of the end step, and if it would leave the battlefield, it is still exiled instead.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/273/sedraxis-specter) · oracle_id `eccc1230-df5a-44a0-859b-9e1e0d176dff` · printing: 2X2 #273 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sedris, the Traitor King
 
@@ -115,4 +129,12 @@
 - **Flavor text** (2X2 printing):
   > *He bids his minions rise from their graves to their knees.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13151 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/274/sedris-the-traitor-king) · oracle_id `48054407-b5e1-431c-ad03-c12a31d0d9a8` · printing: 2X2 #274 (2022-07-08) · [rulings](https://api.scryfall.com/cards/a4e787a7-3721-4ba7-b643-a103488cfc8a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2008-10-01* — Activating a creature card's unearth ability isn't the same as casting the creature card. The unearth ability is put on the stack, but the creature card is not. Spells and abilities that interact with activated abilities (such as Stifle) will interact with unearth, but spells and abilities that interact with spells (such as Remove Soul) will not.
+  - *2008-10-01* — At the beginning of the end step, a creature returned to the battlefield with unearth is exiled. This is a delayed triggered ability, and it can be countered by effects such as Stifle or Voidslime that counter triggered abilities. If the ability is countered, the creature will stay on the battlefield and the delayed trigger won't trigger again. However, the replacement effect will still exile the creature when it eventually leaves the battlefield.
+  - *2008-10-01* — Despite the appearance of the reminder text, the unearth abilities that Sedris grants are activated abilities of each individual creature card in your graveyard. They're not activated abilities of Sedris.
+  - *2008-10-01* — If a creature returned to the battlefield with unearth would leave the battlefield for any reason, it's exiled instead — unless the spell or ability that's causing the creature to leave the battlefield is actually trying to exile it! In that case, it succeeds at exiling it. If it later returns the creature card to the battlefield (as Oblivion Ring or Flickerwisp might, for example), the creature card will return to the battlefield as a new object with no relation to its previous existence. The unearth effect will no longer apply to it.
+  - *2008-10-01* — If you activate a card's unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will resolve and do nothing.
+  - *2008-10-01* — Sedris may cause a creature card in your graveyard to have multiple unearth abilities. (For example, a Fatestitcher in your graveyard would have unearth {U} and unearth {2}{B}.) You may activate either of those abilities.
+  - *2008-10-01* — Unearth grants haste to the creature that's returned to the battlefield. However, neither of the "exile" abilities is granted to that creature. If that creature loses all its abilities, it will still be exiled at the beginning of the end step, and if it would leave the battlefield, it is still exiled instead.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/274/sedris-the-traitor-king) · oracle_id `48054407-b5e1-431c-ad03-c12a31d0d9a8` · printing: 2X2 #274 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

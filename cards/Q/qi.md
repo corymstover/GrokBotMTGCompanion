@@ -21,6 +21,7 @@
   > *"Interesting . . . This mortal being seems to have been blessed with Qilin's essence."*
   > *—Mu Yanling's journal*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30010 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gs1/14/qilins-blessing) · oracle_id `31585036-cdc3-47f5-9fc7-913212826f2a` · printing: GS1 #14 (2018-06-22) · [rulings](https://api.scryfall.com/cards/028ad74f-8366-4c14-b532-63fa892f5784/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Qiqirn Merchant
@@ -34,4 +35,5 @@
 - **Flavor text** (FIN printing):
   > *Small Beastmen that live alongside humans in the Aht Urhgan Empire. Their ancestors were nomads in the north, and their unique culture and customs can be seen even now.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16059 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/65/qiqirn-merchant) · oracle_id `560cb970-1c1b-4ba7-8352-bc67b4ea7843` · printing: FIN #65 (2025-06-13) · [rulings](https://api.scryfall.com/cards/a75a6ecc-a6a5-462c-bd92-ae57dde9b965/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

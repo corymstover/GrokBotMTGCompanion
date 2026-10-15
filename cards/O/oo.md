@@ -64,6 +64,7 @@
   > *"So now you've seen Glen Elendra. Take a good look. It will be the last thing you'll ever see."*
 - **Keywords:** Flying, Defender, Wither
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23388 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/173/oonas-gatewarden) · oracle_id `439f7ac8-19f0-4227-82a7-48294adc2114` · printing: SHM #173 (2008-05-02) · [rulings](https://api.scryfall.com/cards/972bb6e4-300c-49f5-8305-459a3ba67baa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oona's Grace
@@ -77,7 +78,12 @@
   > *Oona grants her favored subjects a dream from her own guarded heart.*
 - **Keywords:** Retrace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15956 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/91/oonas-grace) · oracle_id `380e9992-b5d2-4fbe-a8c3-c37220846e0a` · printing: C19 #91 (2019-08-23) · [rulings](https://api.scryfall.com/cards/e2128105-de04-4f51-81c7-37f30cf324d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-08-01* — A retrace card cast from your graveyard follows the normal timing rules for its card type.
+  - *2008-08-01* — Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You’re casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs.
+  - *2008-08-01* — If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it’s still in the graveyard.
+  - *2008-08-01* — When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it’s put back into your graveyard. You may use the retrace ability to cast it again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/91/oonas-grace) · oracle_id `380e9992-b5d2-4fbe-a8c3-c37220846e0a` · printing: C19 #91 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oona's Prowler
 
@@ -91,6 +97,7 @@
   > *Deep in Glen Elendra blossoms Oona, queen of the faeries, nourished by secrets and pollinated by stolen dreams.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21297 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/85/oonas-prowler) · oracle_id `4f87252e-3218-4759-accc-a4f186fa8857` · printing: 2X2 #85 (2022-07-08) · [rulings](https://api.scryfall.com/cards/cd79780e-ddad-4ef4-a94d-ab191d118882/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oozeavite
@@ -105,6 +112,7 @@
 - **Flavor text** (UNK printing):
   > *Designed by players at MagicCon Amsterdam 2024.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG05b/oozeavite) · oracle_id `165d3bf9-6cdc-4866-895b-60306accaeef` · printing: UNK #RG05b (2024-10-25) · [rulings](https://api.scryfall.com/cards/435905eb-3ae4-4f06-98bf-16c9fc79bee2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ooze Flux
@@ -114,6 +122,7 @@
 - **Oracle text:**
   > {1}{G}, Remove one or more +1/+1 counters from among creatures you control: Create an X/X green Ooze creature token, where X is the number of +1/+1 counters removed this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16322 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gtc/128/ooze-flux) · oracle_id `631d0de7-4810-4bc3-b86b-8e2505ed91f4` · printing: GTC #128 (2013-02-01) · [rulings](https://api.scryfall.com/cards/e9554369-7961-4cea-9da0-a1235805a26a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ooze Garden
@@ -125,7 +134,9 @@
 - **Flavor text** (ALA printing):
   > *Jund has little necromancy. Instead, the flesh of its dead gives rise to algal fiends.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22033 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/143/ooze-garden) · oracle_id `ed1e065d-93b8-4017-9e12-427443548fc5` · printing: ALA #143 (2008-10-03) · [rulings](https://api.scryfall.com/cards/623e57ed-7ed7-4283-b48f-77ecacad70b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — X is equal to the power of the sacrificed creature as it last existed on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/143/ooze-garden) · oracle_id `ed1e065d-93b8-4017-9e12-427443548fc5` · printing: ALA #143 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ooze Patrol
 
@@ -138,6 +149,7 @@
   > *As it digested the demonic roadster, it too learned the thrill of speed.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18973 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/172/ooze-patrol) · oracle_id `a9e3e8b0-4276-419d-9326-be56af3c41be` · printing: DFT #172 (2025-02-14) · [rulings](https://api.scryfall.com/cards/101d22c6-830d-4908-9003-6b206f694eba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ooze Spill
@@ -149,4 +161,7 @@
 - **Flavor text** (TMT printing):
   > *Lab safety is everyone's business.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13669 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/48/ooze-spill) · oracle_id `c1c5f9da-1396-4406-b803-b64f66b8e49d` · printing: TMT #48 (2026-03-06) · [rulings](https://api.scryfall.com/cards/beef76b7-856e-48ab-bc73-e4f456c3a100/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-01-27* — Mutagen tokens are a kind of predefined token. Each one is a colorless artifact with the artifact subtype Mutagen and the ability "{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."
+  - *2026-01-27* — Some spells and abilities that create Mutagen tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Mutagen token won't be created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/48/ooze-spill) · oracle_id `c1c5f9da-1396-4406-b803-b64f66b8e49d` · printing: TMT #48 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

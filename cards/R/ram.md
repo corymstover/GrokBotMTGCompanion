@@ -68,7 +68,14 @@
   > Saddle 1 (Tap any number of other creatures you control with total power 1 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)
 - **Keywords:** Saddle
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21334 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/176/rambling-possum) · oracle_id `4b100e6f-6c19-49d2-b9c4-613d63d42151` · printing: OTJ #176 (2024-04-19) · [rulings](https://api.scryfall.com/cards/19d1e75f-0fee-4e07-9420-df771b696e85/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-04-12* — An ability that triggers when a creature “attacks while saddled” will trigger only if that creature was saddled when it was declared as an attacker.
+  - *2024-04-12* — Creatures with saddle can attack or block as normal even if they aren’t saddled.
+  - *2024-04-12* — If a permanent becomes a copy of a saddled Mount, the copy won’t be saddled.
+  - *2024-04-12* — You may activate a permanent’s saddle ability even if that permanent is already saddled.
+  - *2024-04-12* — “Saddle N” means “Tap any number of other untapped creatures you control with total power N or greater: This permanent becomes saddled until end of turn. Activate only as a sorcery.”
+  - *2024-04-12* — “Saddled” isn’t an ability that a creature has. It’s just something true about that creature. It won’t stop being saddled until the turn ends or it leaves the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/176/rambling-possum) · oracle_id `4b100e6f-6c19-49d2-b9c4-613d63d42151` · printing: OTJ #176 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rambunctious Mutt
 
@@ -80,6 +87,7 @@
 - **Flavor text** (M21 printing):
   > *Emphatic words with powerful gestures. Clearly this was playtime.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12397 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/30/rambunctious-mutt) · oracle_id `48a53d6e-0320-4b9c-b692-6d0fc00e46cc` · printing: M21 #30 (2020-07-03) · [rulings](https://api.scryfall.com/cards/3f602ecc-c264-4f3e-adeb-d0186668653e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ramirez DePietro
@@ -93,6 +101,7 @@
   > *Ramirez DePietro is a most flamboyant pirate. Be careful not to believe his tall tales, especially when you ask his age.*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28781 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/168/ramirez-depietro) · oracle_id `48b9c510-03ed-41cb-8c17-16110d447490` · printing: ME3 #168 (2009-09-07) · [rulings](https://api.scryfall.com/cards/c9890742-f1cb-41fd-bf14-297b3ca88b93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ramirez DePietro, Pillager
@@ -154,7 +163,9 @@
   > *The Cho-Arrim believe in leading by example.*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23596 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/35/ramosian-captain) · oracle_id `30255f36-2e26-4990-8b54-27f38130d45b` · printing: MMQ #35 (1999-10-04) · [rulings](https://api.scryfall.com/cards/0e9d2e2a-c608-4787-bbd9-e1871f681b58/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/35/ramosian-captain) · oracle_id `30255f36-2e26-4990-8b54-27f38130d45b` · printing: MMQ #35 (1999-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ramosian Commander
 
@@ -166,7 +177,9 @@
 - **Flavor text** (MMQ printing):
   > *"Cho-Manno guides your spirit. I guide your sword."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25141 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/36/ramosian-commander) · oracle_id `05baf38c-677a-42e3-bb8c-a52a0a478984` · printing: MMQ #36 (1999-10-04) · [rulings](https://api.scryfall.com/cards/867f5d82-71c2-455f-ab16-5a32bba46986/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/36/ramosian-commander) · oracle_id `05baf38c-677a-42e3-bb8c-a52a0a478984` · printing: MMQ #36 (1999-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ramosian Greatsword
 
@@ -178,7 +191,14 @@
   > Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip, Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17456 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/159/ramosian-greatsword) · oracle_id `8c53a177-c8c8-4b9f-a221-f205da67daa5` · printing: MOM #159 (2023-04-21) · [rulings](https://api.scryfall.com/cards/efd6f04e-e83d-4580-ae3f-583ada848868/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/159/ramosian-greatsword) · oracle_id `8c53a177-c8c8-4b9f-a221-f205da67daa5` · printing: MOM #159 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ramosian Lieutenant
 
@@ -190,7 +210,9 @@
 - **Flavor text** (MMQ printing):
   > *"Give me your hand and I will give you victory."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23108 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/37/ramosian-lieutenant) · oracle_id `ddd2a87e-4020-4408-b4e6-a2120d485855` · printing: MMQ #37 (1999-10-04) · [rulings](https://api.scryfall.com/cards/debe840a-ebc9-43c4-9bf7-7eb292b65bf9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/37/ramosian-lieutenant) · oracle_id `ddd2a87e-4020-4408-b4e6-a2120d485855` · printing: MMQ #37 (1999-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ramosian Rally
 
@@ -200,6 +222,7 @@
   > If you control a Plains, you may tap an untapped creature you control rather than pay this spell's mana cost.
   > Creatures you control get +1/+1 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27113 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/38/ramosian-rally) · oracle_id `2731c237-eda1-4b74-a294-502d574f4435` · printing: MMQ #38 (1999-10-04) · [rulings](https://api.scryfall.com/cards/7fc0ff04-43e7-4a0d-b7e2-8bab72cc6cc0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ramosian Revivalist
@@ -212,7 +235,9 @@
 - **Flavor text** (FUT printing):
   > *The Ramosian tradition is alive, but its namesake has long since been forgotten.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24605 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fut/30/ramosian-revivalist) · oracle_id `f62b38d5-0bf9-4805-814a-d15689114817` · printing: FUT #30 (2007-05-04) · [rulings](https://api.scryfall.com/cards/250ee8d2-6f03-44a5-8f4c-ced4eaa4cdea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-05-01* — A “permanent card” is an artifact card, a creature card, an enchantment card, a planeswalker card, or a land card. Most “Rebel permanent cards” are creature cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fut/30/ramosian-revivalist) · oracle_id `f62b38d5-0bf9-4805-814a-d15689114817` · printing: FUT #30 (2007-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ramosian Sergeant
 
@@ -224,7 +249,9 @@
 - **Flavor text** (MMQ printing):
   > *Her commands are part rallying cry, part sermon, and wholly undeniable.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22900 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/39/ramosian-sergeant) · oracle_id `9b0a14b9-977d-4e25-a519-eaddb0f94b6a` · printing: MMQ #39 (1999-10-04) · [rulings](https://api.scryfall.com/cards/ef2b036d-5721-4a6e-bf43-69148b90da10/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/39/ramosian-sergeant) · oracle_id `9b0a14b9-977d-4e25-a519-eaddb0f94b6a` · printing: MMQ #39 (1999-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ramosian Sky Marshal
 
@@ -238,7 +265,9 @@
   > *The Cho-Arrim fell from the sky onto Mercadia City like a vengeful rain.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26049 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/40/ramosian-sky-marshal) · oracle_id `52fcc5b6-6ada-457f-be76-fa674c74b4fd` · printing: MMQ #40 (1999-10-04) · [rulings](https://api.scryfall.com/cards/16638976-8a78-4233-8ebc-42ea9bb49e0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/40/ramosian-sky-marshal) · oracle_id `52fcc5b6-6ada-457f-be76-fa674c74b4fd` · printing: MMQ #40 (1999-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampage of the Clans
 
@@ -334,6 +363,7 @@
 - **Flavor text** (LCI printing):
   > *Anticipating tight spaces and trivial fauna, the first Dusk Legion expeditions were small, mobile, and lightly armored. Hundreds of casualties later, they started sending plate-clad platoons.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12463 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/162/rampaging-ceratops) · oracle_id `91d01119-9b3e-4629-8cf0-bbca2c19a7cc` · printing: LCI #162 (2023-11-17) · [rulings](https://api.scryfall.com/cards/8bab3f8f-cb06-466d-a35d-0b5e1a2b524c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampaging Classmate
@@ -347,6 +377,7 @@
   > *"I just . . . just . . . wanted to be special . . . like you, Gwen."*
   > *—Lizard, Peter Parker (Earth-65)*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25314 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spe/16/rampaging-classmate) · oracle_id `bf3ff6ff-eb0e-4d0a-99cb-c377622ae640` · printing: SPE #16 (2025-09-26) · [rulings](https://api.scryfall.com/cards/58bd0a52-3e71-4059-b1c5-b3b3e3e99cfd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampaging Cyclops
@@ -359,7 +390,9 @@
 - **Flavor text** (DOM printing):
   > *Keldon warriors take advantage of the cyclops's inability to focus on more than one thing at a time.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31978 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/139/rampaging-cyclops) · oracle_id `cee8ad22-12a7-4da6-a7d9-e205ada16489` · printing: DOM #139 (2018-04-27) · [rulings](https://api.scryfall.com/cards/7fdac0c6-bf72-4a9b-9fad-ae7bc2632a4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-04-27* — If all but one of Rampaging Cyclops’s blockers are removed from combat, Rampaging Cyclops’s effect immediately stops reducing its power.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/139/rampaging-cyclops) · oracle_id `cee8ad22-12a7-4da6-a7d9-e205ada16489` · printing: DOM #139 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampaging Ferocidon
 
@@ -393,6 +426,7 @@
   > *The Phyrexian juggernaut found itself crushed between a rock and a hard place.*
 - **Keywords:** Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22434 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/251/rampaging-geoderm) · oracle_id `e536e0d2-7117-4ca8-bdb4-e7dd380113c6` · printing: MOM #251 (2023-04-21) · [rulings](https://api.scryfall.com/cards/a973e70f-9e3e-47a3-94b9-7bb8a198a438/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampaging Growth
@@ -404,6 +438,7 @@
 - **Flavor text** (J22 printing):
   > *When they had the house checked for bugs, they didn't think big enough.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18001 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/j22/43/rampaging-growth) · oracle_id `acd81d2c-e438-44db-86eb-32fc9cb3fd8f` · printing: J22 #43 (2022-12-02) · [rulings](https://api.scryfall.com/cards/57218779-7e18-4fa2-a0bb-c07052951a78/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampaging Hippo
@@ -419,6 +454,7 @@
   > *—Sana, former Ahn-crop initiate*
 - **Keywords:** Trample, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22956 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/128/rampaging-hippo) · oracle_id `e48aa13b-7488-4644-9080-6c342a8ac463` · printing: HOU #128 (2017-07-14) · [rulings](https://api.scryfall.com/cards/4c97229f-2fc8-439a-a18b-efa09b366b70/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampaging Monument
@@ -434,7 +470,9 @@
   > *"Be advised: suspect is nine stories tall, marble hair, answers to Saint Gusztav."*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24514 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/239/rampaging-monument) · oracle_id `3984478b-debb-4a65-ab5b-4bc134e03d82` · printing: GRN #239 (2018-10-05) · [rulings](https://api.scryfall.com/cards/b5fbe445-a788-4624-8ecf-8bc06c3ca8f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-10-05* — Rampaging Monument's triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/239/rampaging-monument) · oracle_id `3984478b-debb-4a65-ab5b-4bc134e03d82` · printing: GRN #239 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampaging Raptor
 
@@ -447,7 +485,9 @@
   > Whenever this creature deals combat damage to an opponent, it deals that much damage to target planeswalker that player controls or battle that player protects.
 - **Keywords:** Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16997 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/160/rampaging-raptor) · oracle_id `450a07f5-709c-48a6-aaa8-ddbd7da4fd2e` · printing: MOM #160 (2023-04-21) · [rulings](https://api.scryfall.com/cards/64b80ddb-ce55-4ebc-b587-77843abc8bad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-04-14* — Unlike many similar abilities, Rampaging Raptor's triggered ability triggers whenever it deals combat damage to an opponent, not to a player. If it happens to deal combat damage to you (usually due to a redirection effect, which would be unusual), the ability won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/160/rampaging-raptor) · oracle_id `450a07f5-709c-48a6-aaa8-ddbd7da4fd2e` · printing: MOM #160 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampaging Rendhorn
 
@@ -460,7 +500,11 @@
   > *Tumult is its natural habitat.*
 - **Keywords:** Riot
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27527 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/154/rampaging-rendhorn) · oracle_id `b867deb4-a088-492e-95fe-487071ebfe8d` · printing: RVR #154 (2024-01-12) · [rulings](https://api.scryfall.com/cards/c74cb111-0034-43a9-8e3e-79be929b418f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-01-25* — If a creature entering the battlefield has riot but can’t have a +1/+1 counter put onto it, it gains haste.
+  - *2019-01-25* — If you choose for the creature to gain haste, it gains haste indefinitely. It won’t lose it as the turn ends or as another player gains control of it.
+  - *2019-01-25* — Riot is a replacement effect. Players can’t respond to your choice of +1/+1 counter or haste, and they can’t take actions while the creature is on the battlefield without one or the other.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/154/rampaging-rendhorn) · oracle_id `b867deb4-a088-492e-95fe-487071ebfe8d` · printing: RVR #154 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampaging Soulrager
 
@@ -472,6 +516,7 @@
 - **Flavor text** (DSK printing):
   > *The souls of those who perished before Valgavoth's Ascension exist now only as fractured echoes of who they once were.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25157 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/151/rampaging-soulrager) · oracle_id `f6d8e6cb-0878-4f2c-9a89-ce84cb4f5bbc` · printing: DSK #151 (2024-09-27) · [rulings](https://api.scryfall.com/cards/569c914b-95af-428f-a142-6f20e418bc59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampaging Spiketail
@@ -484,6 +529,7 @@
   > Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.)
 - **Keywords:** Landcycling, Typecycling, Cycling, Swampcycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15500 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/116/rampaging-spiketail) · oracle_id `41f6d6d9-3fe5-44b0-904d-1cb90d36f2b6` · printing: LCI #116 (2023-11-17) · [rulings](https://api.scryfall.com/cards/aad0adcb-80e5-4c6d-bcdd-9e5d18c017b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampaging War Mammoth
@@ -532,6 +578,7 @@
 - **Flavor text** (INV printing):
   > *No matter how righteous the cause, it helps to bring along some muscle.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31411 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/28/rampant-elephant) · oracle_id `aaaaf370-6486-4e17-9a93-92e05ebcf29f` · printing: INV #28 (2000-10-02) · [rulings](https://api.scryfall.com/cards/752642d2-3dad-4f58-b154-beb5982141dc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampant Frogantua
@@ -573,6 +620,7 @@
   > Spell commander (This card can be your commander. In Limited, it can partner like other monocolored legends.)
   > Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UG12/rampant-growth) · oracle_id `d07dbd41-b2c1-4ed0-a781-74dde481518b` · printing: UNK #UG12 (2023-07-29) · [rulings](https://api.scryfall.com/cards/38f974f9-4b08-4c1e-a2d7-e135344e6f47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampant Rejuvenator
@@ -611,6 +659,7 @@
   > *"Not even the magistrate in his lofty tower is out of our reach."*
   > *—Cateran overlord*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28989 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/156/rampart-crawler) · oracle_id `302c0400-043d-42fa-abbb-488e520116ba` · printing: MMQ #156 (1999-10-04) · [rulings](https://api.scryfall.com/cards/8b60f86f-c78a-4dfb-bb18-e9bcf21b26c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampart Hunter
@@ -625,6 +674,7 @@
   > *The Eradia surrounding Hexhaven is rife with mage hunters drawn to the powerful magic emanating from the school's tower.*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29612 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/60/rampart-hunter) · oracle_id `0867755a-9fb9-42ad-897e-6206fbfbc1f8` · printing: FRA #60 (2026-10-02) · [rulings](https://api.scryfall.com/cards/f4a80225-7459-4151-86bb-8fdea31c39a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampart Smasher
@@ -638,6 +688,7 @@
   > *"He has strength and courage—just way, way too much of both."*
   > *—Syr Faren, the Hengehammer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30459 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/213/rampart-smasher) · oracle_id `5ece1778-fb19-40d5-8bcc-f23033e1d5c0` · printing: ELD #213 (2019-10-04) · [rulings](https://api.scryfall.com/cards/2fb9a632-a56b-48fb-bc24-14572b6a8a55/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ramroller
@@ -651,7 +702,9 @@
 - **Flavor text** (ORI printing):
   > *As unstoppable as it is unsteerable.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27828 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/237/ramroller) · oracle_id `d670d937-aaa7-4a96-9c6a-916ff7a6b935` · printing: ORI #237 (2015-07-17) · [rulings](https://api.scryfall.com/cards/07f7ba4d-26bb-4631-a135-f27d94f376d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-06-22* — If, during its controller's declare attackers step, Ramroller is tapped or is affected by a spell or ability that says it can't attack, then Ramroller doesn't attack. If there's a cost associated with having it attack, its controller isn't forced to pay that cost. If they don't, Ramroller doesn't have to attack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/237/ramroller) · oracle_id `d670d937-aaa7-4a96-9c6a-916ff7a6b935` · printing: ORI #237 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ramses, Assassin Lord
 
@@ -681,7 +734,9 @@
 - **Oracle text:**
   > {T}: Destroy target enchanted creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27897 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/169/ramses-overdark) · oracle_id `6c9a9071-8159-4607-9465-de796f1dc2cc` · printing: ME3 #169 (2009-09-07) · [rulings](https://api.scryfall.com/cards/61bb42b2-327b-47d3-9fe3-76c029d91ee9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2005-08-01* — A creature is “enchanted” if it has any Auras attached to it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/169/ramses-overdark) · oracle_id `6c9a9071-8159-4607-9465-de796f1dc2cc` · printing: ME3 #169 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ram Through
 
@@ -726,7 +781,9 @@
   > This creature gets +1/+1 as long as there is a Desert card in your graveyard.
 - **Keywords:** Reach, Vigilance, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16759 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/130/ramunap-hydra) · oracle_id `a2dadaf5-eaa1-4c43-9e21-bb2334ceb918` · printing: HOU #130 (2017-07-14) · [rulings](https://api.scryfall.com/cards/953f3722-2126-4eb3-a3d8-cff4b0703a9c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-07-14* — Unlike other cards in this set that care only whether you control a Desert or there is a Desert card in your graveyard, Ramunap Hydra's abilities reward you for meeting both conditions. If you control one or more Deserts and have one or more Desert cards in your graveyard, it'll get +2/+2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/130/ramunap-hydra) · oracle_id `a2dadaf5-eaa1-4c43-9e21-bb2334ceb918` · printing: HOU #130 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ramunap Ruins
 

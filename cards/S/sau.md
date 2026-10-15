@@ -32,6 +32,7 @@
   > *The Voth are one of the Galaxy's oldest spacefaring species.*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31379 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/213/saurian-explorer) · oracle_id `00f4cab8-b135-4118-8e3a-92097178abb6` · printing: TRK #213 (2026-11-13) · [rulings](https://api.scryfall.com/cards/197abe5e-cde2-4b29-a10f-d6b789776bfa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saurian Symbiote
@@ -48,6 +49,7 @@
   > *It's a living, self-contained ecosystem.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20810 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/j25/23/saurian-symbiote) · oracle_id `14b180d2-5701-452d-8deb-cf0845c95df5` · printing: J25 #23 (2024-11-15) · [rulings](https://api.scryfall.com/cards/b32224ef-cfd4-42ef-857a-24386590c360/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sauroform Hybrid
@@ -62,7 +64,10 @@
   > *—Zija, Simic mutationist*
 - **Keywords:** Adapt
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29544 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/173/sauroform-hybrid) · oracle_id `559c9949-faaf-41bc-9349-b6738b4763a2` · printing: CLU #173 (2024-02-23) · [rulings](https://api.scryfall.com/cards/ff22e36c-079e-4cd4-bf74-ff053b24db71/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-01-25* — If a creature somehow loses all of its +1/+1 counters, it can adapt again and get more +1/+1 counters.
+  - *2019-01-25* — You can always activate an ability that will cause a creature to adapt. As that ability resolves, if the creature has a +1/+1 counter on it for any reason, you simply won’t put any +1/+1 counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/173/sauroform-hybrid) · oracle_id `559c9949-faaf-41bc-9349-b6738b4763a2` · printing: CLU #173 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sauron, Dino Devotee
 
@@ -76,6 +81,7 @@
   > • Turn People into Dinosaurs — Put a saurian counter on another target creature. It's a green Dinosaur with base power and toughness 5/5 for as long as it has a saurian counter on it.
 - **Keywords:** Flying, Cure Cancer, Turn People into Dinosaurs
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18519 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/731/sauron-dino-devotee) · oracle_id `f5295bfe-7e73-44ad-9cfd-200e31c5d52b` · printing: MSC #731 (2026-06-26) · [rulings](https://api.scryfall.com/cards/6f8f9a5d-514b-491d-a802-3a7629340bca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sauron, Lord of the Rings
@@ -176,6 +182,7 @@
 - **Flavor text** (LTR printing):
   > *There is an Eye in the Dark Tower that does not sleep.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10887 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/288/sauron-the-lidless-eye) · oracle_id `00b9d3a3-fd64-4757-9159-b3af06b5f5b1` · printing: LTR #288 (2023-06-23) · [rulings](https://api.scryfall.com/cards/d82a4c78-d2fc-425a-8d0e-2e64509a08f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sauron, the Necromancer
@@ -206,6 +213,7 @@
   > *"Selecting the proper beeble is the key to a good sauté. The pinker the fur and the heartier the yelp, the more succulent the beeble will be when you pop it in your mouth."*
   > *—Asmoranomardicadaistinaculdacar, \*The Underworld Cookbook\**
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/88/saut%C3%A9) · oracle_id `9e66a867-d502-4630-9d74-830b67712302` · printing: UNH #88 (2004-11-19) · [rulings](https://api.scryfall.com/cards/85cbebbb-7ea4-4140-933f-186cad08697d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sautekh Immortal
@@ -221,4 +229,5 @@
   > *—Commander Zander At'lan, Tallarn 115th Armoured Regiment*
 - **Keywords:** Elite Troops, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16545 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/54/sautekh-immortal) · oracle_id `7388a797-d40d-4783-a281-d17bc159b856` · printing: 40K #54 (2022-10-07) · [rulings](https://api.scryfall.com/cards/c57778d7-fbd7-482f-b895-c033592f7af6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

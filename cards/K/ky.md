@@ -47,7 +47,18 @@
   > *She bears the greatest burden of all: that of knowing.*
 - **Keywords:** Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12619 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
-- **Source flags:** [Scryfall](https://scryfall.com/card/c16/35/kydele-chosen-of-kruphix) · oracle_id `5fca0ce6-e6ba-4319-b3c4-b4d48901e9b4` · printing: C16 #35 (2016-11-11) · [rulings](https://api.scryfall.com/cards/0f961cec-2f1f-4cd5-bcc3-72e1deb8779e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2020-11-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2020-11-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2020-11-10* — Cards put into your hand without using the word "draw" don't count as cards drawn for Kydele's ability.
+  - *2020-11-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2020-11-10* — If you haven't drawn any cards this turn, you can activate Kydele's mana ability, but it won't produce any mana.
+  - *2020-11-10* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Falthis and Kediss are your commanders, your deck may contain cards with black and/or red in their color identity, but not cards with green, white, or blue.
+  - *2020-11-10* — Kydele's ability counts every card you've drawn this turn, whether or not they're still in your hand and whether or not Kydele was on the battlefield or under your control at the time they were drawn.
+  - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
+  - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
+  - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c16/35/kydele-chosen-of-kruphix) · oracle_id `5fca0ce6-e6ba-4319-b3c4-b4d48901e9b4` · printing: C16 #35 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kykar, Wind's Fury
 
@@ -90,6 +101,7 @@
   > When Kylem All-Star enters the battlefield, create a token copy of All that Glitters and attach it to this creature. (It's an aura with "enchanted creature gets +1/+1 for each artifact and/or enchantment you control.)
   > Enchantments you control are Gold artifacts in addition to their other types and have "Sacrifice this artifact: Add one mana of any color."
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW04b/kylem-all-star) · oracle_id `c7cef71e-731b-409c-8c2a-5777e00cbf5d` · printing: UNK #RW04b (2023-05-06) · [rulings](https://api.scryfall.com/cards/9f20754e-14be-4fed-bdc8-af973c3fc626/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kyler, Sigardian Emissary
@@ -119,7 +131,11 @@
   > Crew 2
 - **Keywords:** Collect evidence, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23114 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/215/kyloxs-voltstrider) · oracle_id `e7b746c8-1b32-42ed-8328-4e16274209d8` · printing: MKM #215 (2024-02-09) · [rulings](https://api.scryfall.com/cards/86a8a1af-b1cf-47fc-ab42-7efa07a1c95b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-02-02* — If you can't exile enough cards to meet or exceed the required mana value, you can't choose to collect evidence at all.
+  - *2024-02-02* — Once you've announced that you're casting a spell, players can't take actions until you've finished doing so. Notably, opponents can't try to remove cards from your graveyard to stop you from collecting evidence.
+  - *2024-02-02* — You choose whether or not to cast a spell from among the exiled cards as Kylox's Voltstrider's triggered ability resolves. If you do, you do so as part of the resolution of that ability. You can't wait to cast it later in the turn. Timing restrictions based on the card's type are ignored.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/215/kyloxs-voltstrider) · oracle_id `e7b746c8-1b32-42ed-8328-4e16274209d8` · printing: MKM #215 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kylox, Visionary Inventor
 
@@ -131,7 +147,12 @@
   > Whenever Kylox attacks, sacrifice any number of other creatures, then exile the top X cards of your library, where X is their total power. You may cast any number of instant and/or sorcery spells from among the exiled cards without paying their mana costs.
 - **Keywords:** Haste, Menace, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18305 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/214/kylox-visionary-inventor) · oracle_id `37f6bbb8-2136-4f03-966c-85d72180e71f` · printing: MKM #214 (2024-02-09) · [rulings](https://api.scryfall.com/cards/00faa272-91ad-407b-9175-8fa1d02585b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-02-02* — If the spell you cast has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If you cast a spell "without paying its mana cost", you can't choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+  - *2024-02-02* — Use the power of the sacrificed creatures as they last existed on the battlefield to determine the value of X.
+  - *2024-02-02* — You choose which spells to cast (if any) as Kylox, Visionary Inventor's last ability resolves. If you choose to cast any spells, you do so as part of the resolution of that ability. You can't wait to cast them later in the turn. Timing restrictions based on the cards' types are ignored.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/214/kylox-visionary-inventor) · oracle_id `37f6bbb8-2136-4f03-966c-85d72180e71f` · printing: MKM #214 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kynaios and Tiro of Meletis
 
@@ -160,6 +181,7 @@
   > {W}{U}{B}{R}{G}: Kyodai gets +5/+5 until end of turn.
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11521 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/23/kyodai-soul-of-kamigawa) · oracle_id `d89bd776-8489-4c34-94ea-db1b088d9379` · printing: NEO #23 (2022-02-18) · [rulings](https://api.scryfall.com/cards/cbbfd21e-96f1-4e5b-8546-73bb5a887b98/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kyoki, Sanity's Eclipse
@@ -173,7 +195,10 @@
   > *"Kyoki, Eater of Minds, Corrupter of Thoughts, Bringer of Madness, Lord of Fear. Return, by our blood, and walk again."*
   > *—Ogre chant*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19782 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/bok/72/kyoki-sanitys-eclipse) · oracle_id `f5240f9a-597b-43e7-9876-74559df1354e` · printing: BOK #72 (2005-02-04) · [rulings](https://api.scryfall.com/cards/dc0969e6-f667-4e29-a038-8569022cce32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2005-02-01* — Cards exiled by Kyoki’s ability are exiled face up.
+  - *2005-02-01* — Cards exiled by Kyoki’s ability stay exiled even if Kyoki leaves the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bok/72/kyoki-sanitys-eclipse) · oracle_id `f5240f9a-597b-43e7-9876-74559df1354e` · printing: BOK #72 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kyoshi Battle Fan
 
@@ -187,7 +212,9 @@
   > *Kyoshi Warriors wield traditional war fans to honor their namesake.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12464 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/257/kyoshi-battle-fan) · oracle_id `849e54f9-7662-4186-859c-e4f52afbccac` · printing: TLA #257 (2025-11-21) · [rulings](https://api.scryfall.com/cards/257e6862-96fe-4312-aff2-509d0696843a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-10-02* — The Ally creature token enters as a 1/1 creature. Any abilities that trigger when a creature with a certain power or toughness enters will see the token enter as a 1/1 creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/257/kyoshi-battle-fan) · oracle_id `849e54f9-7662-4186-859c-e4f52afbccac` · printing: TLA #257 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kyoshi Island Plaza
 
@@ -226,6 +253,7 @@
 - **Flavor text** (TLE printing):
   > *Like the Avatar that is their namesake, the Kyoshi Warriors fight with dedication, strategy, and ferocity.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17336 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/140/kyoshi-warrior-exemplars) · oracle_id `4bb0596f-df1d-4977-bb8b-4d2e6648dcb3` · printing: TLE #140 (2025-11-21) · [rulings](https://api.scryfall.com/cards/052c27d2-1aa4-44be-b0eb-39f413a7205d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kyoshi Warrior Guard
@@ -238,6 +266,7 @@
 - **Flavor text** (TLE printing):
   > *Kyoshi Warrior drills are designed to encourage individual discipline as well as uncompromising trust in their fellow warriors.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22798 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/216/kyoshi-warrior-guard) · oracle_id `18fe834f-4417-4df8-a49c-98e9bf2f87d2` · printing: TLE #216 (2025-11-21) · [rulings](https://api.scryfall.com/cards/7a2acb28-c0e2-492b-a227-ef49e905e0fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kyoshi Warriors
@@ -250,6 +279,7 @@
 - **Flavor text** (TLA printing):
   > *As long as a single Kyoshi Warrior is alive, their island remains protected.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12364 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/26/kyoshi-warriors) · oracle_id `b29abb09-75ea-431c-ab60-f2940d002e83` · printing: TLA #26 (2025-11-21) · [rulings](https://api.scryfall.com/cards/211045e1-85c7-4088-b830-a2afa0fe520b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kyren Archive
@@ -260,6 +290,7 @@
   > At the beginning of your upkeep, you may exile the top card of your library face down.
   > {5}, Discard your hand, Sacrifice this artifact: Put all cards exiled with this artifact into their owner's hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29084 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/302/kyren-archive) · oracle_id `f8c7da00-69e1-459d-9b66-6de649c5c511` · printing: MMQ #302 (1999-10-04) · [rulings](https://api.scryfall.com/cards/5e65a06a-e7af-422a-9481-446731009935/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kyren Glider
@@ -274,6 +305,7 @@
   > *Mercadia's Kyren goblins are the opposite of Dominarian goblins: they're smart and cowardly.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30138 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/196/kyren-glider) · oracle_id `6ae3a901-9f9a-4a99-94db-22c38fda7aef` · printing: MMQ #196 (1999-10-04) · [rulings](https://api.scryfall.com/cards/0bc55e01-342e-4856-937e-14561b8d165b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kyren Legate
@@ -286,6 +318,7 @@
   > Haste
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28132 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/197/kyren-legate) · oracle_id `41b46aa5-6091-4bc4-8d17-d2c6b5fe1c5e` · printing: MMQ #197 (1999-10-04) · [rulings](https://api.scryfall.com/cards/6f0e9806-be8c-4b88-a4be-0111d1be81d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kyren Negotiations
@@ -297,6 +330,7 @@
 - **Flavor text** (MMQ printing):
   > *Kyren goblins always speak in questions and never allow wrong answers.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15268 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/198/kyren-negotiations) · oracle_id `50090188-651d-4402-968f-3f6bf9276029` · printing: MMQ #198 (1999-10-04) · [rulings](https://api.scryfall.com/cards/0c263a17-bbc2-433e-93f8-72e57b818322/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kyren Sniper
@@ -309,6 +343,7 @@
 - **Flavor text** (MMQ printing):
   > *Kyren goblins always act behind the scenes—even in battle.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25780 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/199/kyren-sniper) · oracle_id `7661dda6-4e7b-42d0-8374-0a1fe65b83e4` · printing: MMQ #199 (1999-10-04) · [rulings](https://api.scryfall.com/cards/4df99e19-0b1e-48ec-a146-38cf147eab61/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kyren Toy
@@ -319,6 +354,7 @@
   > {1}, {T}: Put a charge counter on this artifact.
   > {T}, Remove X charge counters from this artifact: Add an amount of {C} equal to X plus one.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25793 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/303/kyren-toy) · oracle_id `f1a0d112-9e1b-4354-bd7f-0051bff8f904` · printing: MMQ #303 (1999-10-04) · [rulings](https://api.scryfall.com/cards/7a8318bb-bc3c-45e9-bd57-60ae72b6f8b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kyscu Drake
@@ -332,7 +368,9 @@
   > Sacrifice this creature and a creature named Spitting Drake: Search your library for a card named Viashivan Dragon, put that card onto the battlefield, then shuffle.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32050 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vis/111/kyscu-drake) · oracle_id `94806688-329d-429d-8126-2c9187e71f54` · printing: VIS #111 (1997-02-03) · [rulings](https://api.scryfall.com/cards/b6f14bbe-2436-4a5a-8e2a-8066b740b715/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vis/111/kyscu-drake) · oracle_id `94806688-329d-429d-8126-2c9187e71f54` · printing: VIS #111 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kytheon, Hero of Akros // Gideon, Battle-Forged
 
@@ -348,7 +386,26 @@
   > 0: Until end of turn, Gideon becomes a 4/4 Human Soldier creature with indestructible that's still a planeswalker. Prevent all damage that would be dealt to him this turn.
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11565 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/23/kytheon-hero-of-akros-gideon-battle-forged) · oracle_id `e49d745c-5130-4b54-bcbb-643b08528456` · printing: ORI #23 (2015-07-17) · [rulings](https://api.scryfall.com/cards/58c39df6-b237-40d1-bdcb-2fe5d05392a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (18):
+  - *2015-06-22* — A Magic Origins planeswalker that enters the battlefield because of the ability of its front face will enter with loyalty counters as normal.
+  - *2015-06-22* — A double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed, in which case it enters with its back face up.
+  - *2015-06-22* — Each face of a double-faced card has its own set of characteristics: name, types, subtypes, power and toughness, loyalty, abilities, and so on. While a double-faced card is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored. While a double-faced card isn't on the battlefield, consider only the characteristics of its front face.
+  - *2015-06-22* — Gideon's first ability causes a creature to attack him if able. If, during its controller's declare attackers step, that creature is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under its controller's control continuously since that player's turn began, then that creature doesn't attack. If there's a cost associated with having that creature attack, its controller isn't forced to pay that cost. If they don't, the creature doesn't have to attack.
+  - *2015-06-22* — Gideon's third ability causes him to become a creature with the creature types Human Soldier. He remains a planeswalker with the planeswalker type Gideon. (He also retains any other card types or subtypes he may have had.) Each subtype is correlated to the proper card type: Gideon is just a planeswalker type (not a creature type), and Human and Soldier are just creature types (not planeswalker types).
+  - *2015-06-22* — If Gideon becomes a creature due to his third ability, that doesn't count as having a creature enter the battlefield. Gideon was already on the battlefield; he only changed his types. Abilities that trigger whenever a creature enters the battlefield won't trigger.
+  - *2015-06-22* — If Gideon can't be attacked, perhaps because he has left the battlefield before the creature's controller's next combat, the creature targeted by Gideon's first ability can attack you or another planeswalker you control, or its controller can choose to have it not attack at all.
+  - *2015-06-22* — If a double-faced card is manifested, it will be put onto the battlefield face down (this is also true if it's put onto the battlefield face down some other way). Note that "face down" is not synonymous with "with its back face up." A manifested double-faced card is a 2/2 creature with no name, mana cost, creature types, or abilities. While face down, it can't transform. If the front face of a manifested double-faced card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up. A double-faced card on the battlefield can't be turned face down.
+  - *2015-06-22* — If the creature targeted by Gideon's first ability changes controllers before it has the chance to attack Gideon, the ability will apply to it during its new controller's next turn.
+  - *2015-06-22* — If you activate Gideon's third ability and then damage is dealt to him that can't be prevented, that damage has all applicable results: specifically, the damage is marked on Gideon (since he's a creature) and that damage causes that many loyalty counters to be removed from him (since he's a planeswalker). If Gideon has no loyalty counters on him, he's put into his owner's graveyard as a state-based action. (As long as he still has indestructible, the marked damage won't cause him to be destroyed.)
+  - *2015-06-22* — In some rare cases, a spell or ability may cause one of these five cards to transform while it's a creature (front face up) on the battlefield. If this happens, the resulting planeswalker won't have any loyalty counters on it and will subsequently be put into its owner's graveyard.
+  - *2015-06-22* — Kytheon's first ability will count creatures that attacked but are no longer on the battlefield (perhaps because they didn't survive combat damage being dealt). It will not count any creatures that were put onto the battlefield attacking, as those creatures were never declared as attackers.
+  - *2015-06-22* — Say you activate Gideon's third ability, then an opponent gains control of him before combat. You may have any of your creatures attack Gideon (since he's still a planeswalker). Then Gideon may block (since he's a creature). He may block any eligible attacking creature, including one that's attacking him. During combat, he behaves as an attacked planeswalker and/or a blocking creature, as appropriate. For example, he deals combat damage to any creatures he's blocking, but he doesn't deal combat damage to any unblocked creatures that are attacking him.
+  - *2015-06-22* — The back face of a double-faced card (in the case of Magic Origins, the planeswalker face) can't be cast.
+  - *2015-06-22* — The mana value of a double-faced card not on the battlefield is the mana value of its front face.
+  - *2015-06-22* — You can activate one of the planeswalker's loyalty abilities the turn it enters the battlefield. However, you may do so only during one of your main phases when the stack is empty. For example, if the planeswalker enters the battlefield during combat, there will be an opportunity for your opponent to remove it before you can activate one of its abilities.
+  - *2016-04-08* — The back face of a double-faced card doesn't have a mana cost. A double-faced permanent with its back face up has a mana value equal to the mana value of its front face. Each back face has a color indicator that defines its color.
+  - *2017-09-29* — You can control two of this permanent, one front-face up and the other back-face up, at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/23/kytheon-hero-of-akros-gideon-battle-forged) · oracle_id `e49d745c-5130-4b54-bcbb-643b08528456` · printing: ORI #23 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kytheon's Irregulars
 
@@ -362,7 +419,11 @@
   > *Kytheon and his irregulars worked outside the law to bring justice to the streets of Akros.*
 - **Keywords:** Renown
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25181 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gn2/8/kytheons-irregulars) · oracle_id `ccfddb1a-1b7f-44f9-89c4-1907e27e1c4a` · printing: GN2 #8 (2019-11-15) · [rulings](https://api.scryfall.com/cards/b861a011-ec5a-471f-b2a3-d8af52af07b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-06-22* — If a creature with renown deals combat damage to its controller because that damage was redirected, renown will trigger.
+  - *2015-06-22* — If a renown ability triggers, but the creature leaves the battlefield before that ability resolves, the creature doesn’t become renowned. Any ability that triggers “whenever a creature becomes renowned” won’t trigger.
+  - *2015-06-22* — Renown won’t trigger when a creature deals combat damage to a planeswalker or another creature. It also won’t trigger when a creature deals noncombat damage to a player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gn2/8/kytheons-irregulars) · oracle_id `ccfddb1a-1b7f-44f9-89c4-1907e27e1c4a` · printing: GN2 #8 (2019-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kytheon's Tactics
 
@@ -375,4 +436,6 @@
   > *"Seal the gate. This is our fight now."*
 - **Keywords:** Spell mastery
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26417 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/25/kytheons-tactics) · oracle_id `8ecbbf14-68c3-4378-9fce-383f9d901bfa` · printing: ORI #25 (2015-07-17) · [rulings](https://api.scryfall.com/cards/b0521669-206e-4909-be6f-a74603203a70/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-06-22* — Check to see if there are two or more instant and/or sorcery cards in your graveyard as the spell resolves to determine whether the spell mastery ability applies. The spell itself won’t count because it’s still on the stack as you make this check.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/25/kytheons-tactics) · oracle_id `8ecbbf14-68c3-4378-9fce-383f9d901bfa` · printing: ORI #25 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -22,4 +22,5 @@
   > *"Direct me to that which you wish stomped flat. It shall be done."*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18154 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/70/wkabi-shield-of-the-nation) · oracle_id `66950068-adf4-42d7-ad72-fdb4a0e58922` · printing: MSC #70 (2026-06-26) · [rulings](https://api.scryfall.com/cards/9fb292a4-cf71-4aeb-b92e-eab2e3177653/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -32,6 +32,7 @@
 - **Oracle text:**
   > At the beginning of your upkeep, exile the top three cards of your library. Each opponent secretly chooses a number 0 or greater. Then those numbers are revealed. Choose an opponent with the highest number. Itazura deals that much damage to them, then they may cast a spell from among those cards without paying its mana cost. You put a card from among them that wasn't cast this way into your hand.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #21792 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/41/itazura-lingering-wick) · oracle_id `55b45ac9-9ce7-4d17-9efb-3c0c51482950` · printing: MBC #41 (2026-10-19) · [rulings](https://api.scryfall.com/cards/414c5fd9-e1be-4b82-9aec-85c19ca0f480/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### It Came from Planet Glurg
@@ -44,7 +45,10 @@
 - **Flavor text** (UNF printing):
   > *A sludge with a grudge.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #27798 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/169/it-came-from-planet-glurg) · oracle_id `d9aecc0c-1383-431e-b235-67039ac2d5b3` · printing: UNF #169 (2022-10-07) · [rulings](https://api.scryfall.com/cards/c93330c2-b79b-4211-87ca-6ebc45b70dd9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-07* — If an effect needs information about the creature's name, it looks at all its names to determine that information. For example, if It Came from Planet Glurg becomes a copy of both Blorbian Buddy and Rat in the Hat, it has six words in its name. The first letters of its name are B and R. A creature with alpha strike whose name came before Rat in the Hat alphabetically would have first strike while in combat with it.
+  - *2022-10-07* — It Came from Planet Glurg copies exactly what was printed on the original creatures and nothing more (unless any of those creatures are copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters or stickers on it, and Auras or Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/169/it-came-from-planet-glurg) · oracle_id `d9aecc0c-1383-431e-b235-67039ac2d5b3` · printing: UNF #169 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### It Doesn't Add Up
 
@@ -56,7 +60,13 @@
   > *Etrata had committed dozens of murders, all of which she recalled in perfect, loving detail. But no matter how hard she tried, she couldn't remember killing Zegana.*
 - **Keywords:** Suspect
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19761 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/89/it-doesnt-add-up) · oracle_id `dcfc8c59-d032-414d-9da6-125ebcb1366c` · printing: MKM #89 (2024-02-09) · [rulings](https://api.scryfall.com/cards/fa02dbc2-ad01-47fd-b39e-f0a695029f26/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-02-02* — Being suspected isn't a copiable value. If a permanent becomes a copy of a suspected creature, it won't be suspected.
+  - *2024-02-02* — If a creature is already suspected, suspecting it again won't have any effect.
+  - *2024-02-02* — If a suspected creature loses all abilities, it will lose menace and "This creature can't block", but it won't stop being suspected.
+  - *2024-02-02* — There's no limit to the number of creatures that can be suspected simultaneously. Suspecting a new creature doesn't cause other creatures to stop being suspected.
+  - *2024-02-02* — When an effect suspects a creature, it becomes suspected. It gains menace and "This creature can't block" for as long as it's suspected. It stays suspected until it leaves the battlefield or another effect causes it to no longer be suspected.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/89/it-doesnt-add-up) · oracle_id `dcfc8c59-d032-414d-9da6-125ebcb1366c` · printing: MKM #89 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Item Crate
 
@@ -69,6 +79,7 @@
   > • Star with "{T}, Sacrifice this token: Target creature gains deathtouch and indestructible until end of turn."
   > • Best Shell with "{T}, Sacrifice this token: Destroy target creature with the greatest power."
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/CA02c/item-crate) · oracle_id `9c56d72a-b9aa-4b9f-86e9-2d32c60add5e` · printing: UNK #CA02c (2025-02-21) · [rulings](https://api.scryfall.com/cards/2c6217e6-b276-4051-8f83-8e5ebf232eb1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Item Shopkeep
@@ -81,7 +92,9 @@
 - **Flavor text** (FIN printing):
   > *"What can I do for you?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13608 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/142/item-shopkeep) · oracle_id `7532f0ea-9d13-43ca-9b7d-2d22f2a66017` · printing: FIN #142 (2025-06-13) · [rulings](https://api.scryfall.com/cards/bd2db3f5-fd0d-4817-af90-6bea1f07e16b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — If the target creature isn't both attacking and equipped when Item Shopkeep's ability tries to resolve, it won't resolve and none of its effects will happen. However, in cases where it does resolve, it doesn't matter what happens to any of the Equipment on that creature. It'll still have menace even if it stops being equipped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/142/item-shopkeep) · oracle_id `7532f0ea-9d13-43ca-9b7d-2d22f2a66017` · printing: FIN #142 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iterative Analysis
 
@@ -121,7 +134,26 @@
   > Suspend 4—{W}{U}
 - **Keywords:** Vigilance, Suspend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20274 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/255/ith-high-arcanist) · oracle_id `eb933723-b879-44c8-bbc8-d8c84ce5ab12` · printing: TSR #255 (2021-03-19) · [rulings](https://api.scryfall.com/cards/54c32735-e8e7-46a1-84ea-92806f459e84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (18):
+  - *2013-07-01* — In a Commander game where this card is your commander, you cannot suspend it from the Command zone.
+  - *2021-03-19* — Ith's ability can target an untapped attacking creature. It will still prevent any combat damage dealt to and dealt by that creature this turn.
+  - *2021-03-19* — The creature isn't removed from combat; it just has its damage prevented. It's still an attacking creature until the combat phase is complete.
+  - *2021-03-19* — You can activate Ith's ability targeting an attacking creature you control during the combat damage step or the end of combat step. It'll untap and the damage it had already dealt won't be undone.
+  - *2024-02-02* — A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it. (In some rare cases, another player may gain control of the creature spell itself. If this happens, the creature won't enter the battlefield with haste.)
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/255/ith-high-arcanist) · oracle_id `eb933723-b879-44c8-bbc8-d8c84ce5ab12` · printing: TSR #255 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ithilien Kingfisher
 
@@ -135,6 +167,7 @@
   > *After their reunion, the Hobbits spent many days in Ithilien. The stream that flowed from the falls of Henneth Annûn could be heard in the night as it rushed down through its rocky gate.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19213 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/177/ithilien-kingfisher) · oracle_id `a2dd89a1-9b3e-4bd1-9b48-36516d63726a` · printing: HOC #177 (2026-08-14) · [rulings](https://api.scryfall.com/cards/8526b72e-936e-4592-9538-37acca0a6fc5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### It'll Quench Ya!
@@ -159,7 +192,20 @@
   > When you cast this spell, create two 1/1 green Insect creature tokens.
 - **Keywords:** Emerge
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20165 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/6/it-of-the-horrid-swarm) · oracle_id `f4ad190a-6c82-4923-af54-b4cce8d6465f` · printing: INR #6 (2025-01-24) · [rulings](https://api.scryfall.com/cards/ba983caf-72b4-419e-84dc-1ad0215a865c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2025-01-24* — A creature’s mana value is determined solely by the mana symbols printed in its upper right corner (unless that creature is the back face of a double-faced card, is a melded permanent, or is copying something else; see below). If the mana cost includes {X}, X is 0. If it’s a single-faced card with no mana symbols in its upper right corner (because it’s an animated land, for example), its mana value is 0. Ignore any alternative costs or additional costs (such as kicker) that were paid as the creature was cast.
+  - *2025-01-24* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
+  - *2025-01-24* — Colored mana components of emerge costs can’t be reduced with emerge.
+  - *2025-01-24* — Emerge represents two static abilities that function while the spell with emerge is on the stack. “Emerge [cost]” means “You may cast this spell by paying [cost] and sacrificing a creature rather than paying its mana cost” and “If you chose to pay this spell’s emerge cost, its total cost is reduced by an amount of generic mana equal to the sacrificed creature’s mana value.”
+  - *2025-01-24* — If you cast a spell for another cost “rather than paying its mana cost,” such as an emerge cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the spell has any mandatory additional costs, those must be paid to cast it.
+  - *2025-01-24* — If you sacrifice a creature with {X} in its mana cost, that X is 0.
+  - *2025-01-24* — Once you begin to cast a spell with emerge, no player may take actions until you’re done. Notably, opponents can’t try to remove the creature you wish to sacrifice.
+  - *2025-01-24* — The creature chosen to be sacrificed is still on the battlefield as the cost of the emerge spell is determined and as you activate mana abilities to cast the emerge spell. Its abilities may affect the spell’s cost, be activated to generate mana, and so on. However, if it has an ability that triggers when a spell is cast, it will have been sacrificed before that ability can trigger.
+  - *2025-01-24* — The mana value of a creature spell with emerge isn’t affected by whether its emerge cost is paid. For example, if you cast Decimator of the Provinces for its emerge cost and sacrifice a creature whose mana value is 3, Decimator of the Provinces’s mana value remains 10.
+  - *2025-01-24* — The mana value of the back face of a double-faced card is the mana value of its front face. The mana value of a melded permanent is the sum of the mana values of its front faces. A creature that’s a copy of either has a mana value of 0.
+  - *2025-01-24* — You may sacrifice a creature with a mana value of 0, such as a token creature that’s not a copy of another permanent, to cast a spell for its emerge cost. You’ll just pay the full emerge cost with no reduction.
+  - *2025-01-24* — You may sacrifice a creature with mana value greater than or equal to the emerge cost. If you do, you’ll pay only the colored mana component of the emerge cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/6/it-of-the-horrid-swarm) · oracle_id `f4ad190a-6c82-4923-af54-b4cce8d6465f` · printing: INR #6 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### It's Clobberin' Time!
 
@@ -172,6 +218,7 @@
   > Rebound
 - **Keywords:** Rebound
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15996 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/66/its-clobberin-time!) · oracle_id `4a75ef46-c5ae-4b1a-a681-d439b01f6731` · printing: MSC #66 (2026-06-26) · [rulings](https://api.scryfall.com/cards/7665948b-23d0-4b06-a32a-bfab8009b04f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### It That Betrays
@@ -207,7 +254,13 @@
 - **Flavor text** (UST printing):
   > *"Give me . . . some skin."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/89/it-that-gets-left-hanging) · oracle_id `c4c853de-bf18-458a-af32-936b865a2a86` · printing: UST #89 (2017-12-08) · [rulings](https://api.scryfall.com/cards/c1131b87-8e59-47e7-a760-848a455c82b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2018-01-19* — If there are no other people around to ask, It That Gets Left Hanging won't gain haste.
+  - *2018-01-19* — If there's no one around to make a decision, you can call or text someone if you need to. If there's a physical action required, such as high-fiving, you'll need someone there.
+  - *2018-01-19* — It doesn't have to be someone who plays Magic. This may be fun.
+  - *2018-01-19* — You can choose any player not currently in your game. This includes people who used to be in your game but left it.
+  - *2018-01-19* — You must clearly ask for the high-five, although this needn't be verbal. The other person must clearly decline, although this too needn't be verbal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/89/it-that-gets-left-hanging) · oracle_id `c4c853de-bf18-458a-af32-936b865a2a86` · printing: UST #89 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### It That Heralds the End
 

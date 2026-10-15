@@ -63,7 +63,12 @@
 - **Flavor text** (TMT printing):
   > *Bebop and Rocksteady's new Cretaceous stowaway quickly developed a taste for leftovers . . . and ears.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20590 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/130/ragamuffin-raptor) · oracle_id `71b81f3f-6092-4819-8529-e27bccfcf088` · printing: TMT #130 (2026-03-06) · [rulings](https://api.scryfall.com/cards/2edc1d40-3154-4ec0-88c7-faf35fd5e560/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2026-01-27* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2026-01-27* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Pizza Face (a Legendary Artifact Creature — Food Mutant) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost). You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+  - *2026-01-27* — Some spells and abilities that create Food tokens may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Food tokens.
+  - *2026-01-27* — Whatever you do, don't eat the cards. (Also, don't make the pizzas pictured on the cards. You don't have the digestive system of a Ninja Turtle.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/130/ragamuffin-raptor) · oracle_id `71b81f3f-6092-4819-8529-e27bccfcf088` · printing: TMT #130 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ragamuffyn
 
@@ -76,6 +81,7 @@
   > *They cut the stitches and give her sips of her brew. Then they sew her up again, and she's back to stirring.*
 - **Keywords:** Hellbent
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29509 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/51/ragamuffyn) · oracle_id `20d09deb-6b78-4aa9-93c2-81385e0091a9` · printing: DIS #51 (2006-05-05) · [rulings](https://api.scryfall.com/cards/2db5cccc-e9e4-4db8-affb-93d629d67b91/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ragavan, Nimble Pilferer
@@ -108,6 +114,7 @@
   > *"After General Takeno found the Oathkeeper amidst the bamboo marshes, more scavengers braved the swamp's nezumi, oni, and kami in hopes of glory."*
   > *—\*The History of Kamigawa\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29834 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/138/rag-dealer) · oracle_id `493acba2-92b0-43a4-9f4b-d49a91ca77f5` · printing: CHK #138 (2004-10-01) · [rulings](https://api.scryfall.com/cards/18ef007a-fcf4-4293-933e-4f9f7f602002/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rageblood Shaman
@@ -123,6 +130,7 @@
   > *—Hira, street oracle*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16478 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/357/rageblood-shaman) · oracle_id `2608f905-a678-4e40-9e73-cf1c42ec880d` · printing: JMP #357 (2020-07-17) · [rulings](https://api.scryfall.com/cards/568a31c0-799b-48b6-a91c-95d176b22670/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rage Extractor
@@ -135,7 +143,14 @@
 - **Flavor text** (NPH printing):
   > *New Phyrexia is an engine that both consumes and creates malice.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30880 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nph/91/rage-extractor) · oracle_id `e45f0a12-e1ca-432f-a208-9359dd18513d` · printing: NPH #91 (2011-05-13) · [rulings](https://api.scryfall.com/cards/d8cebc2c-a46b-4459-b62b-7fce1a744b11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2011-06-01* — A card with Phyrexian mana symbols in its mana cost is each color that appears in that mana cost, regardless of how that cost may have been paid.
+  - *2011-06-01* — As you cast a spell or activate an activated ability with one or more Phyrexian mana symbols in its cost, you choose how to pay for each Phyrexian mana symbol at the same time you would choose modes or choose a value for X.
+  - *2011-06-01* — If you're at 1 life or less, you can't pay 2 life.
+  - *2011-06-01* — Phyrexian mana is not a new color. Players can't produce Phyrexian mana.
+  - *2011-06-01* — Rage Extractor's ability checks for any spell you cast with any Phyrexian mana symbol in its mana cost, regardless of that symbol's color or how the cost was paid.
+  - *2011-06-01* — To calculate the mana value of a card with Phyrexian mana symbols in its cost, count each Phyrexian mana symbol as 1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nph/91/rage-extractor) · oracle_id `e45f0a12-e1ca-432f-a208-9359dd18513d` · printing: NPH #91 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ragefire
 
@@ -146,6 +161,7 @@
 - **Flavor text** (RNA printing):
   > *"Your precious laws can't save you now!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29690 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/270/ragefire) · oracle_id `91b8c0bc-2599-4423-a23f-5dc95b23cf25` · printing: RNA #270 (2019-01-25) · [rulings](https://api.scryfall.com/cards/cb13420d-d295-4000-9c38-fa5d10e06ece/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ragefire Hellkite
@@ -161,6 +177,7 @@
   > *—George, Coalition scout*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20057 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/285/ragefire-hellkite) · oracle_id `0166996d-941f-49fe-bf4f-64b6fd4b69e9` · printing: DMU #285 (2022-09-09) · [rulings](https://api.scryfall.com/cards/23ccd68d-0162-4a4c-892e-1726b8b28612/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rage Forger
@@ -172,6 +189,7 @@
   > When this creature enters, put a +1/+1 counter on each other Shaman creature you control.
   > Whenever a creature you control with a +1/+1 counter on it attacks, you may have that creature deal 1 damage to target player or planeswalker.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25347 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mor/97/rage-forger) · oracle_id `669830ea-f55c-447a-aa3a-8965fa6d2a33` · printing: MOR #97 (2008-02-01) · [rulings](https://api.scryfall.com/cards/fe140361-93b2-4382-b85e-8c263d2f446e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rageform
@@ -183,7 +201,24 @@
   > Enchanted creature has double strike. (It deals both first-strike and regular combat damage.)
 - **Keywords:** Manifest
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26243 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frf/112/rageform) · oracle_id `2a108899-76b4-4f85-8a59-91838fc26f4a` · printing: FRF #112 (2015-01-23) · [rulings](https://api.scryfall.com/cards/038ed726-bde8-46b0-bdf5-f88e2f074434/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2014-11-24* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
+  - *2014-11-24* — Any time you have priority, you may turn a manifested creature face up by revealing that it's a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2014-11-24* — At any time, you can look at a face-down permanent you control. You can't look at face-down permanents you don't control unless an effect allows you to or instructs you to.
+  - *2014-11-24* — Because face-down creatures don't have names, they can't have the same name as any other creature, even another face-down creature.
+  - *2014-11-24* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2014-11-24* — If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can't transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up.
+  - *2014-11-24* — If a face-down permanent you control leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+  - *2014-11-24* — If a manifested creature would have morph if it were face up, you may also turn it face up by paying its morph cost.
+  - *2014-11-24* — If the enchanted creature is turned face up, the "Form" will continue to enchant it.
+  - *2014-11-24* — If you have no cards in your library as the ability resolves, the "Form" will be put into its owner's graveyard as a state-based action.
+  - *2014-11-24* — The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant or change any of these characteristics.
+  - *2014-11-24* — There are no cards in the Fate Reforged set that would turn a face-down instant or sorcery card on the battlefield face up, but some older cards can try to do this. If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it's an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won't trigger, because even though you revealed the card, it never turned face up.
+  - *2014-11-24* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2014-11-24* — Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
+  - *2014-11-24* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on).
+  - *2014-11-24* — You'll still manifest the top card of your library even if the "Form" isn't on the battlefield as its enters-the-battlefield ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frf/112/rageform) · oracle_id `2a108899-76b4-4f85-8a59-91838fc26f4a` · printing: FRF #112 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rage into the Valley
 
@@ -196,7 +231,14 @@
   > *The Goblin army poured in, driving wildly between the arms of the Mountain, seeking for the foe.*
 - **Keywords:** Amass
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13306 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/79/rage-into-the-valley) · oracle_id `8c7641b6-3a6c-4441-a98c-3b5d61d91f76` · printing: HOB #79 (2026-08-14) · [rulings](https://api.scryfall.com/cards/8651958c-3b94-47a9-a751-faf8f6236a42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2026-06-29* — Amass Orcs works the same way, except you create a 0/0 black Orc Army creature token if you don't control an Army. And if the Army creature you chose isn't already an Orc, it becomes an Orc in addition to its other types. By combining cards with amass Orcs and amass Goblins, you can end up with a Goblin Orc Army.
+  - *2026-06-29* — If you don't control an Army, the Goblin Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2026-06-29* — In the rare case that you control multiple Army creatures (perhaps because you control a creature with changeling) while you amass Goblins, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't a Goblin, it becomes a Goblin in addition to its other types.
+  - *2026-06-29* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2026-06-29* — Some spells and abilities that amass Goblins may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Goblins.
+  - *2026-06-29* — To amass Goblins N, if you don't control an Army creature, create a 0/0 black Goblin Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Goblin, it becomes a Goblin in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/79/rage-into-the-valley) · oracle_id `8c7641b6-3a6c-4441-a98c-3b5d61d91f76` · printing: HOB #79 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ragemonger
 
@@ -206,7 +248,11 @@
 - **Oracle text:**
   > Minotaur spells you cast cost {B}{R} less to cast. This effect reduces only the amount of colored mana you pay. (For example, if you cast a Minotaur spell with mana cost {2}{R}, it costs {2} to cast.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17147 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bng/153/ragemonger) · oracle_id `0fcfc145-9371-40a8-9194-84e5fd700a8d` · printing: BNG #153 (2014-02-07) · [rulings](https://api.scryfall.com/cards/1eb6eda2-e3df-440a-8900-8310f11db6e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2014-02-01* — If a spell has hybrid mana symbols in its mana cost, you choose which half you will be paying before determining the total cost. If you choose to pay such a cost with {B} or {R}, Ragemonger can reduce that part of the cost.
+  - *2014-02-01* — If you control more than one Ragemonger, the cost reduction is cumulative.
+  - *2014-02-01* — You apply cost reduction effects after other cost modifiers, so Ragemonger can reduce additional costs or alternative costs of Minotaur spells if they include {B} and/or {R}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bng/153/ragemonger) · oracle_id `0fcfc145-9371-40a8-9194-84e5fd700a8d` · printing: BNG #153 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rage Nimbus
 
@@ -220,7 +266,9 @@
   > *The settlement knew there was something strange about the cloud when the old priest Mandli suddenly grabbed an axe and ran screaming into the hills.*
 - **Keywords:** Flying, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23622 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/roe/160/rage-nimbus) · oracle_id `ab5b49d4-e648-43f1-bcc0-7dd4763316ee` · printing: ROE #160 (2010-04-23) · [rulings](https://api.scryfall.com/cards/7c213b45-d86b-4ced-9ab9-44cd84ad94a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2010-06-15* — If, during its controller’s declare attackers step, a creature affected by Rage Nimbus’s activated ability is tapped, is affected by a spell or ability that says it can’t attack, or is affected by “summoning sickness,” then that creature doesn’t attack. If there’s a cost associated with having that creature attack, its controller isn’t forced to pay that cost, so the creature doesn’t have to attack in that case either.
+- **Source flags:** [Scryfall](https://scryfall.com/card/roe/160/rage-nimbus) · oracle_id `ab5b49d4-e648-43f1-bcc0-7dd4763316ee` · printing: ROE #160 (2010-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rage of Purphoros
 
@@ -230,7 +278,13 @@
   > Rage of Purphoros deals 4 damage to target creature. It can't be regenerated this turn. Scry 1. (Look at the top card of your library. You may put that card on the bottom.)
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29600 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/137/rage-of-purphoros) · oracle_id `d6667a93-c706-451f-a83d-ffe5b9b9e53e` · printing: THS #137 (2013-09-27) · [rulings](https://api.scryfall.com/cards/1e249f31-cc67-4d0c-9db5-962d10cf74ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2013-09-15* — If Rage of Purphoros resolves but the damage is redirected to a different creature or to a player, the target creature still won't be able to regenerate that turn. This is also true if the damage is prevented.
+  - *2013-09-15* — Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
+  - *2013-09-15* — When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
+  - *2013-09-15* — You choose how to order cards returned to your library after scrying no matter where you put them.
+  - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/137/rage-of-purphoros) · oracle_id `d6667a93-c706-451f-a83d-ffe5b9b9e53e` · printing: THS #137 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rage Reflection
 
@@ -255,6 +309,7 @@
 - **Flavor text** (THB printing):
   > *The fury of the slaughter god Mogis burns within him.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25195 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/113/rage-scarred-berserker) · oracle_id `658d54d4-e967-490c-b958-3743b3b1ef45` · printing: THB #113 (2020-01-24) · [rulings](https://api.scryfall.com/cards/1f76d7c4-a5d6-4144-b5f3-e43b96b695b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rage Thrower
@@ -267,7 +322,9 @@
 - **Flavor text** (ISD printing):
   > *"Some lament these haunted times, but I'm a geistflame-tank-half-full kind of person."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19599 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/isd/157/rage-thrower) · oracle_id `f9697a59-46e2-4612-b30b-d041a38fdd30` · printing: ISD #157 (2011-09-30) · [rulings](https://api.scryfall.com/cards/f16db004-3e0c-491b-b8b6-0ae046d11761/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-09-22* — If Rage Thrower dies at the same time as another creature, its ability will trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/isd/157/rage-thrower) · oracle_id `f9697a59-46e2-4612-b30b-d041a38fdd30` · printing: ISD #157 (2011-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rage Weaver
 
@@ -279,6 +336,7 @@
 - **Flavor text** (10E printing):
   > *"Let my passion spur your victory."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31870 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/223/rage-weaver) · oracle_id `9777a54b-1c60-4d6b-bb83-c57cb3a1d7e6` · printing: 10E #223 (2007-07-13) · [rulings](https://api.scryfall.com/cards/57cec628-5f6a-4b42-9044-3f9a80cac3e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raggadragga, Goreguts Boss
@@ -307,7 +365,10 @@
 - **Flavor text** (DSK printing):
   > *"You tried to throw me away, Henry. I don't like that at all."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10230 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/150/ragged-playmate) · oracle_id `d0732ebf-91ad-4e3c-a09a-f410d20587fc` · printing: DSK #150 (2024-09-27) · [rulings](https://api.scryfall.com/cards/000499a4-3f39-4d25-a2a2-b2f014e30754/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-09-20* — Once Ragged Playmate's ability has resolved, raising the affected creature's power above 2 won't cause it to be able to be blocked this turn.
+  - *2024-09-20* — Once a creature with power 2 or less has been blocked, activating Ragged Playmate's ability targeting that creature won't cause it to stop being blocked once the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/150/ragged-playmate) · oracle_id `d0732ebf-91ad-4e3c-a09a-f410d20587fc` · printing: DSK #150 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ragged Recluse // Odious Witch
 
@@ -324,6 +385,7 @@
   > *Her cauldron refilled, she settled in to wait for the next unsuspecting traveler to knock at her door.*
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25981 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/127/ragged-recluse-odious-witch) · oracle_id `9ad999fe-889a-426a-86b3-c0c311b82041` · printing: VOW #127 (2021-11-19) · [rulings](https://api.scryfall.com/cards/7fb728de-0d6e-4b32-b0c4-edd7382d1391/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ragged Short Spear
@@ -338,6 +400,7 @@
   > *Spears served Goblins better than swords or bows—they were quick to make and quiet to use.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16051 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/108/ragged-short-spear) · oracle_id `bb67d0a4-864e-4f46-8538-fdd920bf0197` · printing: HOB #108 (2026-08-14) · [rulings](https://api.scryfall.com/cards/7bf81a8b-52ad-49f5-a3d4-22613cad3a3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ragged Veins
@@ -350,6 +413,7 @@
   > Whenever enchanted creature is dealt damage, its controller loses that much life.
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18297 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/139/ragged-veins) · oracle_id `c111703f-e37a-4eaf-b6e1-708a448e61aa` · printing: CHK #139 (2004-10-01) · [rulings](https://api.scryfall.com/cards/c7f3312f-71d0-4dfd-ba39-c2a2ff8d5bd0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raging Battle Mouse
@@ -362,7 +426,17 @@
   > Celebration — At the beginning of combat on your turn, if two or more nonland permanents entered the battlefield under your control this turn, target creature you control gets +1/+1 until end of turn.
 - **Keywords:** Celebration
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12428 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/143/raging-battle-mouse) · oracle_id `9ffe4d90-b46c-4606-89cb-1b724104f6ea` · printing: WOE #143 (2023-09-08) · [rulings](https://api.scryfall.com/cards/4d0ab162-540e-4999-902c-9dacd6687aca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2023-09-01* — Celebration abilities only care if two or more nonland permanents entered the battlefield under your control in a turn. They won't get more powerful if more than two permanents entered the battlefield under your control in a turn.
+  - *2023-09-01* — Each celebration ability has a different effect.
+  - *2023-09-01* — Others are static abilities that give creatures abilities or power and toughness increases as long as two or more nonland permanents entered the battlefield under your control that turn.
+  - *2023-09-01* — Raging Battle Mouse can't reduce its own cost, even if it's the second spell you cast in a turn.
+  - *2023-09-01* — Raging Battle Mouse's cost-reduction ability can't reduce the amount of colored mana you pay for a spell. It reduces only the generic mana component of that cost.
+  - *2023-09-01* — Raging Battle Mouse's cost-reduction ability doesn't change the mana cost or mana value of any spell. It changes only the total cost you pay.
+  - *2023-09-01* — Some celebration abilities trigger at specific parts of the turn and check whether two or more nonland permanents entered the battlefield under your control already in that turn.
+  - *2023-09-01* — Spells that were cast before Raging Battle Mouse entered the battlefield count. If Raging Battle Mouse was the first spell you cast this turn, the next spell you cast this turn is your second spell.
+  - *2023-09-01* — The permanents that entered the battlefield don't need to remain on the battlefield or under your control. Celebration abilities are checking for past events, not the current game state.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/143/raging-battle-mouse) · oracle_id `9ffe4d90-b46c-4606-89cb-1b724104f6ea` · printing: WOE #143 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raging Bull
 
@@ -375,6 +449,7 @@
   > *"Sometimes the bulls win, and sometimes the bears win. But the bulls have more fun."*
   > *—Anonymous*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27849 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/leg/163/raging-bull) · oracle_id `341680e2-12a8-484f-be09-24dae9dbfaea` · printing: LEG #163 (1994-06-01) · [rulings](https://api.scryfall.com/cards/ec10a51c-d2c3-4d14-9a71-9e59155bf980/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raging Cougar
@@ -388,6 +463,7 @@
   > *Mountaineers quickly learn to travel with their spears always pointed up.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31455 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/por/144/raging-cougar) · oracle_id `695ebb35-55fd-4ed1-8cbe-e3fc1223115b` · printing: POR #144 (1997-05-01) · [rulings](https://api.scryfall.com/cards/fd9d126a-9db9-4adc-9cf6-11408c63201d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raging Goblin
@@ -399,6 +475,7 @@
   > Haste (This creature can attack and {T} as soon as it comes under your control.)
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16298 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/oana/43/raging-goblin) · oracle_id `30997b43-fc13-41d3-8064-1ccc2cb6fd2b` · printing: OANA #43 (2018-07-14) · [rulings](https://api.scryfall.com/cards/3480927c-10da-4817-9954-10aea2bc7100/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raging Goblinoids
@@ -414,7 +491,10 @@
   > *—Spider-Man*
 - **Keywords:** Mayhem, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15231 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/85/raging-goblinoids) · oracle_id `c807b53f-2917-41a0-812c-57240b623365` · printing: SPM #85 (2025-09-26) · [rulings](https://api.scryfall.com/cards/8519598f-ab7f-49b0-90cc-c0b6422ebdf8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-09-19* — Mayhem represents an alternative cost that can be paid to cast a spell from your graveyard if you discarded the card with mayhem that turn. You must pay any additional costs the spell has.
+  - *2025-09-19* — You must follow all normal timing rules when casting a spell with mayhem. For example, you can't cast a creature card with mayhem you couldn't normally cast during an opponent's turn, even if you discard that card during an opponent's turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/85/raging-goblinoids) · oracle_id `c807b53f-2917-41a0-812c-57240b623365` · printing: SPM #85 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raging Gorilla
 
@@ -427,6 +507,7 @@
   > *"Every temper tantrum makes another angry gorilla."*
   > *—Femeref children's myth*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20430 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vis/90/raging-gorilla) · oracle_id `1dd6df3f-eac4-4f30-b832-4a3f3a97632f` · printing: VIS #90 (1997-02-03) · [rulings](https://api.scryfall.com/cards/07c284ce-33b8-4fb2-9dd9-4c477bedc774/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raging Kavu
@@ -441,6 +522,7 @@
   > *It took Yavimaya a thousand years to breed them, but it took only seconds for them to prove their worth.*
 - **Keywords:** Haste, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29285 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/262/raging-kavu) · oracle_id `d126bb08-be60-4046-91f1-65672ef42c63` · printing: INV #262 (2000-10-02) · [rulings](https://api.scryfall.com/cards/27573679-e9e5-4bfc-b5d5-85d4648b01b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raging Kronch
@@ -454,7 +536,13 @@
   > *"Seeing so much easy prey makes her crazy. See how she snorts and drools?"*
   > *—Dhuuz, kronch wrangler*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30442 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/141/raging-kronch) · oracle_id `c05c2eae-1a9c-4ce7-9c76-22e40781c1a9` · printing: WAR #141 (2019-05-03) · [rulings](https://api.scryfall.com/cards/ae38aa2d-6c0e-409a-bfc7-ed4281457670/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2019-05-03* — Although Raging Kronch can’t attack alone, other attacking creatures don’t have to attack the same player or planeswalker. For example, Raging Kronch could attack an opponent and another creature could attack a planeswalker that opponent controls.
+  - *2019-05-03* — If a creature that can’t attack alone also must attack if able, its controller must attack with it and another creature if able.
+  - *2019-05-03* — If you control more than one creature that can’t attack alone, they can attack together, even if no other creatures attack.
+  - *2019-05-03* — In a Two-Headed Giant game, Raging Kronch can attack along with a creature controlled by your teammate, even if no other creatures you control attack.
+  - *2019-05-03* — Raging Kronch can be declared as an attacker only if another creature is declared as an attacker at the same time. Once it’s attacking, removing the other creature won’t cause Raging Kronch to stop attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/141/raging-kronch) · oracle_id `c05c2eae-1a9c-4ce7-9c76-22e40781c1a9` · printing: WAR #141 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raging Minotaur
 
@@ -467,6 +555,7 @@
   > *The only thing worse than a minotaur with an axe is an angry minotaur with an axe.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31311 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/109/raging-minotaur) · oracle_id `4cfd04b3-57bd-4860-8b47-57a0fd0a23fa` · printing: ME3 #109 (2009-09-07) · [rulings](https://api.scryfall.com/cards/c52f5e44-4ab6-43d7-aecb-5b95f84d5475/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raging Poltergeist
@@ -479,6 +568,7 @@
 - **Flavor text** (AVR printing):
   > *Some tried cremating their dead to stop the ghoulcallers. But the dead returned, furious about their fate.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30294 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/avr/150/raging-poltergeist) · oracle_id `15d460da-9110-4f33-a24f-8582a2bcd96f` · printing: AVR #150 (2012-05-04) · [rulings](https://api.scryfall.com/cards/78833788-ffb2-43fc-9345-975f1cd46f38/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raging Ravine
@@ -507,6 +597,7 @@
   > *Many tales of redcap terror begin with two simple things: bloodlust and stolen steel.*
 - **Keywords:** Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19905 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/543/raging-redcap) · oracle_id `679841ad-f3ac-48e2-ba11-2cf6d78642b4` · printing: FDN #543 (2024-11-15) · [rulings](https://api.scryfall.com/cards/9627b0a7-bda9-44df-81c9-aa70cc976331/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raging Regisaur
@@ -530,7 +621,10 @@
 - **Oracle text:**
   > Whenever one or more creatures you control attack, each defending player divides all creatures without flying they control into a "left" pile and a "right" pile. Then, for each attacking creature you control, choose "left" or "right." That creature can't be blocked this combat except by creatures with flying and creatures in a pile with the chosen label.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20682 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/2ed/169/raging-river) · oracle_id `a2310312-6e1e-4e34-a351-9aef499a810f` · printing: 2ED #169 (1993-12-01) · [rulings](https://api.scryfall.com/cards/7ee63877-056e-413d-932a-a393a4183686/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-05-01* — If a creature enters (or something becomes a creature) after the ability resolves, that creature will not be able to block any creature that was attacking at the time the ability resolved.
+  - *2008-05-01* — If a creature is put onto the battlefield attacking after the ability resolves, it can be blocked by any creature that could normally block it (including creatures that entered after the ability resolved).
+- **Source flags:** [Scryfall](https://scryfall.com/card/2ed/169/raging-river) · oracle_id `a2310312-6e1e-4e34-a351-9aef499a810f` · printing: 2ED #169 (1993-12-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raging Spirit
 
@@ -543,6 +637,7 @@
   > *"Its burning power is more elusive than shade on the Unyaro Plains, more perilous than the horn of a rhino."*
   > *—Akin, seasoned askari*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32271 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/188/raging-spirit) · oracle_id `137e0ad2-e10a-4327-86a3-5ac7bc7fc469` · printing: MIR #188 (1996-10-08) · [rulings](https://api.scryfall.com/cards/a196c21b-e9f5-4ae8-8a1e-668685ef4cf0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raging Swordtooth
@@ -570,6 +665,7 @@
 - **Flavor text** (7ED printing):
   > *He hunts what might have been.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27311 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/156/rag-man) · oracle_id `8132c521-44e2-4fc0-b3de-e5b92d04463a` · printing: 7ED #156 (2001-04-11) · [rulings](https://api.scryfall.com/cards/8e3809e6-41ac-47e8-80dc-9e9c8be1ed7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ragnar
@@ -583,6 +679,7 @@
   > *"On the field of honor, a soldier need have no fear."*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28258 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/167/ragnar) · oracle_id `6d474413-e72f-414e-872f-aa00d38b7da4` · printing: ME3 #167 (2009-09-07) · [rulings](https://api.scryfall.com/cards/0a96bd0c-7b04-45ea-9b6f-e827a64a1bad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ragnarok, Divine Deliverance
@@ -597,7 +694,27 @@
   > *When prayers turn to promises, not even fate can stand in their way.*
 - **Keywords:** Reach, Vigilance, Haste, Trample, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/99b/ragnarok-divine-deliverance) · oracle_id `14b839ef-80b1-4e7d-b2fd-38e973899cde` · printing: FIN #99b (2025-06-13) · [rulings](https://api.scryfall.com/cards/01c5bafe-c995-4cef-90fb-7ccb95858511/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (19):
+  - *2025-06-06* — A nonmodal double-faced card enters with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or allows you to cast it transformed, in which case it enters with its back face up.
+  - *2025-06-06* — A player prompted to name a card may name the combined back face, and each player has the right to know that combined back face's characteristics at all times.
+  - *2025-06-06* — A token that is created as a copy of a double-faced permanent or a double-faced card in another zone is a double-faced token. It will have both the front face and back face of whatever object it's copying. If it's copying a double-faced permanent whose back face is up, the token will enter with its back face up. It can transform if instructed to do so.
+  - *2025-06-06* — Each face of a nonmodal double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a nonmodal double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-06-06* — Each nonmodal double-faced card in this release is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2025-06-06* — If an effect moves a melded permanent to a new zone and then affects "that card," it affects both cards.
+  - *2025-06-06* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Crystal Fragments, it will be exiled during the resolution of its second ability and remain in exile.
+  - *2025-06-06* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Cecil, Dark Knight's color identity is black and white, since its front face is black and its back face has a white color indicator.
+  - *2025-06-06* — In the Commander variant, a meld card's color identity is determined only by the mana costs and mana symbols in the rules text of its front face. No symbols or rules text of the permanent it melds into are considered.
+  - *2025-06-06* — Note that the permanent represented by the combined back faces is colorless unless it has a color indicator.
+  - *2025-06-06* — One card in each pair of meld cards has an ability that instructs you to exile the two cards and meld them. If you control more than one object with the specified name, you select one object with that name to exile.
+  - *2025-06-06* — Only two cards belonging to the same meld pair can be melded. Tokens, cards that aren't meld cards, or meld cards that don't form a meld pair can't be melded. If an effect instructs a player to meld cards that can't be melded, those cards remain in exile.
+  - *2025-06-06* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
+  - *2025-06-06* — The mana value of a melded permanent is the sum of the mana values of its front faces. A permanent that becomes a copy of a melded permanent has only the characteristics of that combined back face, and its mana value is 0.
+  - *2025-06-06* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+  - *2025-06-06* — When two cards (for example, Fang, Fearless l'Cie and Vanille, Cheerful l'Cie) are melded, the result is a single permanent (in this case, Ragnarok, Divine Deliverance) that's represented by two cards. If the melded permanent goes to your graveyard from the battlefield, both cards are put into your graveyard. As the melded permanent leaves the battlefield, both of those cards are turned face up again. If the cards are put on the top or bottom of a library, their owner chooses their relative order.
+  - *2025-06-06* — When two cards are exiled and melded, they each leave the battlefield, then return together as one new untapped object with no relation to either of the objects that left the battlefield. Counters, Auras, Equipment, and other effects that affected those two cards don't affect the melded permanent.
+  - *2025-06-06* — While a meld card is in any zone other than the battlefield, it has only the characteristics of its front face. The same is true while it's on the battlefield with its front face up.
+  - *2025-06-06* — While a melded permanent is on the battlefield, it has only the characteristics of its combined back face. Any effects that modify how the new object enters the battlefield will consider only the combined back face.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/99b/ragnarok-divine-deliverance) · oracle_id `14b839ef-80b1-4e7d-b2fd-38e973899cde` · printing: FIN #99b (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ragost, Deft Gastronaut
 
@@ -627,4 +744,21 @@
   > Each opponent chooses a creature they control. You gain control of those creatures.
 - **Keywords:** Aftermath
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15222 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/222/rags-riches) · oracle_id `c2c66419-c2ca-4259-afc6-eaec6d3bb897` · printing: AKH #222 (2017-04-28) · [rulings](https://api.scryfall.com/cards/11d84618-aca9-47dc-ae73-36a2c29f584c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2017-04-18* — A spell with aftermath cast from a graveyard will always be exiled afterward, whether it resolves, it's countered, or it leaves the stack in some other way.
+  - *2017-04-18* — All split cards have two card faces on a single card, and you put a split card onto the stack with only the half you're casting. The characteristics of the half of the card you didn't cast are ignored while the spell is on the stack. For example, if an effect prevents you from casting green spells, you can cast Destined of Destined // Lead, but not Lead.
+  - *2017-04-18* — Each split card has two names. If an effect instructs you to choose a card name, you may choose one, but not both.
+  - *2017-04-18* — Each split card is a single card. For example, if you discard one, you've discarded one card, not two. If an effect counts the number of instant and sorcery cards in your graveyard, Destined // Lead counts once, not twice.
+  - *2017-04-18* — If another effect allows you to cast a split card with aftermath from a graveyard, you may cast either half. If you cast the half that has aftermath, you'll exile the card if it would leave the stack.
+  - *2017-04-18* — If another effect allows you to cast a split card with aftermath from any zone other than a graveyard, you can't cast the half with aftermath.
+  - *2017-04-18* — If you cast the first half of a split card with aftermath during your turn, you'll have priority immediately after it resolves. You can cast the half with aftermath from your graveyard before any player can take any other action if it's legal for you to do so.
+  - *2017-04-18* — In a multiplayer game, each opponent in turn order chooses a creature they control, if they control any creatures. After each opponent has done so, you gain control of each chosen creature simultaneously.
+  - *2017-04-18* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well, and any effects that give the player control of permanents immediately end.
+  - *2017-04-18* — Once Riches begins to resolve, no player may take other actions until it's done. Notably, opponents can't try to remove a creature after choosing it but before you gain control of it.
+  - *2017-04-18* — Rags affects only creatures on the battlefield at the time it resolves. It won't affect creatures that enter the battlefield or noncreature permanents that become creatures later in the turn.
+  - *2017-04-18* — Riches's effect doesn't target. Creatures with hexproof may be lured away this way.
+  - *2017-04-18* — Riches's effect lasts indefinitely. It doesn't wear off during the cleanup step.
+  - *2017-04-18* — Split cards with aftermath have a new frame treatment—the half you can cast from your hand is oriented the same as other cards you'd cast from your hand, while the half you can cast from your graveyard is a traditional split card half. This frame treatment is for your convenience and has no rules significance.
+  - *2017-04-18* — While not on the stack, the characteristics of a split card are the combination of its two halves. For example, Destined // Lead is a green and black card, it is both an instant card and a sorcery card, and its mana value is 6. This means that if an effect allows you to cast a card with mana value 2 from your hand, you can't cast Destined. This is a change from the previous rules for split cards.
+  - *2017-07-14* — Once you've started to cast a spell with aftermath from your graveyard, the card is immediately moved to the stack. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/222/rags-riches) · oracle_id `c2c66419-c2ca-4259-afc6-eaec6d3bb897` · printing: AKH #222 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

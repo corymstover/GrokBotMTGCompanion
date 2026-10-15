@@ -20,6 +20,7 @@
 - **Flavor text** (SCG printing):
   > *When opened, it erases entire landscapes from minds and maps.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25006 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/scg/140/ark-of-blight) · oracle_id `b4505b07-ac99-4706-88b2-6164389e447c` · printing: SCG #140 (2003-05-26) · [rulings](https://api.scryfall.com/cards/f3b09956-cc34-4472-8b9f-ae355522bd5a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ark of Hunger

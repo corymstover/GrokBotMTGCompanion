@@ -40,7 +40,10 @@
   > *While hunting aether, a gremlin may ignore other stimuli, including threats to its own life.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23131 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/10/caught-in-the-brights) · oracle_id `fa131186-d730-460b-b9e5-b97d89857e24` · printing: AER #10 (2017-01-20) · [rulings](https://api.scryfall.com/cards/4d5bea27-d825-4691-8ae0-c4831574ec53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-02-09* — After the enchanted creature is exiled, Caught in the Brights is put into its owner’s graveyard.
+  - *2017-02-09* — If Caught in the Brights leaves the battlefield in response to its triggered ability, the resolving ability will exile the creature Caught in the Brights was enchanting as it left the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/10/caught-in-the-brights) · oracle_id `fa131186-d730-460b-b9e5-b97d89857e24` · printing: AER #10 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caught in the Crossfire
 
@@ -52,7 +55,23 @@
   > + {1} — Caught in the Crossfire deals 2 damage to each non-outlaw creature.
 - **Keywords:** Spree
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16270 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/117/caught-in-the-crossfire) · oracle_id `d262f3e1-b5bc-4dab-86c2-cd89c2419e54` · printing: OTJ #117 (2024-04-19) · [rulings](https://api.scryfall.com/cards/3a2fd0c4-509e-49c2-ad57-f772efcbc207/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2024-04-12* — A card, spell, or permanent is an outlaw if it has the Assassin, Mercenary, Pirate, Rogue, or Warlock creature type. It doesn’t matter if it has more than one of those creature types; as long as it has at least one, it’s an outlaw.
+  - *2024-04-12* — Each additional cost and associated mode in the text box is also preceded with a + indicator. These symbols also have no rules meaning and serve only to remind players that the listed costs are additional costs.
+  - *2024-04-12* — If a mode requires a target, you can select that mode only if there’s a legal target available. Ignore the targeting requirements for modes you don’t choose.
+  - *2024-04-12* — If a spell with spree is copied, the effect that creates the copy may allow you to choose new targets. You cannot choose new modes.
+  - *2024-04-12* — If all targets for the chosen modes become illegal before a spell with spree resolves, the spell won’t resolve and none of its effects will happen. If at least one target is still legal, the spell will resolve but will have no effect on any illegal targets.
+  - *2024-04-12* — If an ability refers to an outlaw or whether a player controls an outlaw, it’s referring only to permanents with one or more of the creature types specified above. Notably, it’s not referring to any spell or card not on the battlefield. However, other abilities may refer to an “outlaw spell” or “outlaw card” in a zone other than the battlefield. Those abilities refer to spells and cards with one or more of the specified creature types.
+  - *2024-04-12* — If an effect allows you to cast a spell with spree “without paying its mana cost,” you must still choose at least one mode and pay the associated additional costs.
+  - *2024-04-12* — No matter which modes you choose, you always follow the instructions in the order they are written.
+  - *2024-04-12* — No player can cast spells or activate abilities in between the modes of a resolving spell. Any abilities that trigger won’t be put onto the stack until the spell is done resolving.
+  - *2024-04-12* — Outlaw is not a creature type. If an effect asks you to choose a creature type, you can’t choose outlaw.
+  - *2024-04-12* — Spells with spree have a + (plus sign) indicator in the upper right corner of the card frame. This has no rules meaning and serves only to remind players that at least one additional cost is required to cast the spell.
+  - *2024-04-12* — The mana value of a spell with spree is determined only by its mana cost (in the upper right corner of the card). It doesn’t matter which modes you choose or which additional costs you pay, including any additional costs imposed by other effects.
+  - *2024-04-12* — You can’t choose the same mode more than once.
+  - *2024-04-12* — You choose the modes as you cast the spell with spree. Once modes are chosen, they can’t be changed.
+  - *2024-04-12* — You must choose at least one of the listed modes and pay its associated additional cost in order to cast a spell with spree.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/117/caught-in-the-crossfire) · oracle_id `d262f3e1-b5bc-4dab-86c2-cd89c2419e54` · printing: OTJ #117 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caught Red-Handed
 
@@ -65,7 +84,13 @@
   > *"Wait, stop! I've been framed! Extremely convincingly!"*
 - **Keywords:** Suspect
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17955 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/115/caught-red-handed) · oracle_id `484b3586-c0ed-4793-a3c0-e99f265e092d` · printing: MKM #115 (2024-02-09) · [rulings](https://api.scryfall.com/cards/95bc5f89-2f01-40c4-9883-4c90ab89fcbb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-02-02* — Being suspected isn't a copiable value. If a permanent becomes a copy of a suspected creature, it won't be suspected.
+  - *2024-02-02* — If a creature is already suspected, suspecting it again won't have any effect.
+  - *2024-02-02* — If a suspected creature loses all abilities, it will lose menace and "This creature can't block", but it won't stop being suspected.
+  - *2024-02-02* — There's no limit to the number of creatures that can be suspected simultaneously. Suspecting a new creature doesn't cause other creatures to stop being suspected.
+  - *2024-02-02* — When an effect suspects a creature, it becomes suspected. It gains menace and "This creature can't block" for as long as it's suspected. It stays suspected until it leaves the battlefield or another effect causes it to no longer be suspected.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/115/caught-red-handed) · oracle_id `484b3586-c0ed-4793-a3c0-e99f265e092d` · printing: MKM #115 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cauldron Dance
 
@@ -76,7 +101,11 @@
   > Return target creature card from your graveyard to the battlefield. That creature gains haste. Return it to your hand at the beginning of the next end step.
   > You may put a creature card from your hand onto the battlefield. That creature gains haste. Its controller sacrifices it at the beginning of the next end step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13597 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c17/166/cauldron-dance) · oracle_id `e9784eb4-96f2-409e-a7b5-eb6478644943` · printing: C17 #166 (2017-08-25) · [rulings](https://api.scryfall.com/cards/50e70e67-eba0-46f4-97d8-62c249b267c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — If the targeted creature card in the graveyard is removed before resolution, this spell won’t resolve since its only target will be invalid.
+  - *2004-10-04* — You can cast this spell when you have no creature card in your hand. If this happens, simply ignore that part of the spell. You still put the graveyard creature onto the battlefield and still return it to your hand at the beginning of the end step.
+  - *2004-10-04* — You must have a creature in your graveyard to cast this spell since it requires a valid target.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c17/166/cauldron-dance) · oracle_id `e9784eb4-96f2-409e-a7b5-eb6478644943` · printing: C17 #166 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cauldron Familiar
 
@@ -102,7 +131,17 @@
 - **Oracle text:**
   > Choose any number of target creatures. Each of those creatures gains persist until end of turn. (When it dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10508 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eve/84/cauldron-haze) · oracle_id `56309bbe-86aa-4003-a531-0ef1e318ba15` · printing: EVE #84 (2008-07-25) · [rulings](https://api.scryfall.com/cards/a8d0def7-42dd-46f4-8499-d79876783a39/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2008-08-01* — If a creature has multiple instances of persist, the result is largely the same as having just one instance of persist. When the creature is put into a graveyard, each persist ability will trigger. The first one to resolve will return the creature to the battlefield with a -1/-1 counter on it. The rest will do nothing.
+  - *2008-08-01* — If a nontoken creature that gains persist this way is put into a graveyard, that card will be returned to the battlefield with a -1/-1 counter on it. However, because it’s a new object with no relation to its previous existence, that permanent will not have persist.
+  - *2013-06-07* — If a creature with persist stops being a creature, persist will still work.
+  - *2013-06-07* — If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner’s graveyard for having 0 or less toughness, persist won’t trigger and the card won’t return to the battlefield. That’s because persist checks the creature’s existence just before it leaves the battlefield, and it still has all those counters on it at that point.
+  - *2013-06-07* — If a permanent has multiple instances of persist, they’ll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
+  - *2013-06-07* — If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can’t return to the battlefield.
+  - *2013-06-07* — If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player’s persist creatures will return to the battlefield first, then the active player’s persist creatures do the same. The creatures return to the battlefield one at a time.
+  - *2013-06-07* — The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it.
+  - *2013-06-07* — When a permanent with persist returns to the battlefield, it’s a new object with no memory of or connection to its previous existence.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eve/84/cauldron-haze) · oracle_id `56309bbe-86aa-4003-a531-0ef1e318ba15` · printing: EVE #84 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cauldron of Essence
 
@@ -146,7 +185,15 @@
   > You may choose a creature card in your graveyard. If you do, return it to the battlefield with an additional +1/+1 counter on it.
 - **Keywords:** Adamant, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19470 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/83/cauldrons-gift) · oracle_id `152bbb62-195b-4de1-90c6-10dd953f8c4b` · printing: ELD #83 (2019-10-04) · [rulings](https://api.scryfall.com/cards/5db19a94-1170-45a0-9f06-893bf58b7233/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2019-10-04* — Adamant effects check what mana was actually spent to cast a spell. If an effect allows you to spend mana “as though it were mana” of any color or type, that allows you to spend mana you couldn't otherwise spend, but it doesn't change what mana you spent to cast the spell.
+  - *2019-10-04* — If an effect allows you to cast a spell without paying its mana cost, you can't choose to cast it and pay unless another rule or effect allows you to cast that spell for a cost. Similarly, you can't waive a cost reduction unless that effect says you may.
+  - *2019-10-04* — If an instant or sorcery spell has an adamant ability, you perform the spell's instructions in order. You don't perform the adamant instruction before the spell resolves or before any other effects printed above it.
+  - *2019-10-04* — If the creature would enter the battlefield with no +1/+1 counters on it, it enters with one +1/+1 counter on it.
+  - *2019-10-04* — If you copy a spell that has an adamant ability, no mana was spent to cast the copy at all, so that ability won't apply.
+  - *2019-10-04* — No player may take actions between the time you put cards into your graveyard, the time you choose a creature card to return, and the time you return that card to the battlefield.
+  - *2019-10-04* — The creature card you return with Cauldron's Gift may be one that you just put into your graveyard with its adamant ability. This is because Cauldron's Gift doesn't target the card that you'll return.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/83/cauldrons-gift) · oracle_id `152bbb62-195b-4de1-90c6-10dd953f8c4b` · printing: ELD #83 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caustic Bronco
 
@@ -196,7 +243,11 @@
   > *Novice explorers can mistake the acid-carved stone lairs for ancient ruins. They rarely survive to learn better.*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18135 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/54/caustic-crawler) · oracle_id `91c83b1e-32d9-4bb4-9a71-05fbb0cb8134` · printing: WWK #54 (2010-02-05) · [rulings](https://api.scryfall.com/cards/80076580-23f1-4008-ab91-9dad8c806cfa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/54/caustic-crawler) · oracle_id `91c83b1e-32d9-4bb4-9a71-05fbb0cb8134` · printing: WWK #54 (2010-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caustic Exhale
 
@@ -207,7 +258,12 @@
   > Target creature gets -3/-3 until end of turn.
 - **Keywords:** Behold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16699 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/74/caustic-exhale) · oracle_id `c4023e1f-26e3-4225-98d0-3d33f6654616` · printing: TDM #74 (2025-04-11) · [rulings](https://api.scryfall.com/cards/488152ce-2048-4ccb-b2d6-b9628958286f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-04-04* — Effects that say “If a [quality] was beheld” only care if a card of that quality was revealed or a permanent you control of that quality was chosen. No matter what happens to that card or permanent after that, it was still beheld, and any additional effects that depend on that card or permanent being beheld will still happen.
+  - *2025-04-04* — If a card in your hand is already revealed (perhaps because it was revealed to pay a cost of a spell that’s still on the stack or due to the effect of a card like Telepathy), you may reveal it again to pay the cost of another spell or ability that requires you to reveal a card from your hand.
+  - *2025-04-04* — If a cost to cast a spell includes revealing a card, that card remains revealed from the time the spell is announced until the time it leaves the stack.
+  - *2025-04-04* — If an effect refers to a “[subtype] card,” it refers only to a card that has that subtype. For example, Teeming Dragonstorm is a card that cares about Dragons and features Dragons in its art, but it isn’t a Dragon card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/74/caustic-exhale) · oracle_id `c4023e1f-26e3-4225-98d0-3d33f6654616` · printing: TDM #74 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caustic Hound
 
@@ -219,6 +275,7 @@
 - **Flavor text** (MBS printing):
   > *At first, the Mirrans aimed for its exposed gut. The survivors quickly learned to do otherwise.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28277 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbs/40/caustic-hound) · oracle_id `032cc574-f7e7-4753-9a30-76cbd45d9563` · printing: MBS #40 (2011-02-04) · [rulings](https://api.scryfall.com/cards/2a54115f-150a-4ae2-a5c7-20e2ba884dd1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caustic Rain
@@ -231,6 +288,7 @@
   > *"Looking out the great windows of Vitu-Ghazi at the foundry stacks belching their smoke to the sky, I wonder when the sky will take its vengeance."*
   > *—Heruj, Selesnya initiate*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30056 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gpt/44/caustic-rain) · oracle_id `8df1cbbc-87fc-4948-b224-9175b9f396d9` · printing: GPT #44 (2006-02-03) · [rulings](https://api.scryfall.com/cards/71fde21d-ce4e-41b7-97d5-c982f90b84a0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caustic Tar
@@ -244,6 +302,7 @@
   > *The spite of the Cabal turns meadow into mire.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23605 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/81/caustic-tar) · oracle_id `2b5f70ec-33da-4dff-9cff-fe05eb906685` · printing: A25 #81 (2018-03-16) · [rulings](https://api.scryfall.com/cards/9002443d-a296-4f68-8a94-991165e6ea38/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caustic Wasps
@@ -258,6 +317,7 @@
   > *Even the wasp knows how to pay the magistrate his due respect.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15156 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/234/caustic-wasps) · oracle_id `fea997a4-3ed1-4f83-b16a-56939f4b2211` · printing: MMQ #234 (1999-10-04) · [rulings](https://api.scryfall.com/cards/59a46e20-2910-4287-a5e0-bccac8cbabcd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cautery Sliver
@@ -269,7 +329,11 @@
   > All Slivers have "{1}, Sacrifice this permanent: This permanent deals 1 damage to any target."
   > All Slivers have "{1}, Sacrifice this permanent: Prevent the next 1 damage that would be dealt to target player, planeswalker, or Sliver creature this turn."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21112 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/248/cautery-sliver) · oracle_id `93a9423c-2b1b-41ce-80f4-157140c684ad` · printing: TSR #248 (2021-03-19) · [rulings](https://api.scryfall.com/cards/11df0ed7-ae08-4a95-8b79-d6be0df9e31a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2007-02-01* — Note that the first ability can affect any kind of creature, but the second ability can affect only Slivers. Both abilities can affect players.
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn't provide any additional benefit.
+  - *2013-07-01* — If the creature type of a Sliver changes so it's no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/248/cautery-sliver) · oracle_id `93a9423c-2b1b-41ce-80f4-157140c684ad` · printing: TSR #248 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cautious Survivor
 
@@ -282,4 +346,9 @@
   > *She came back alone, with her recorder broken and its footage scrambled. Whatever she had experienced, she never spoke of again.*
 - **Keywords:** Survival
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19777 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/172/cautious-survivor) · oracle_id `28eb696f-a42c-4444-8139-dfd62029e020` · printing: DSK #172 (2024-09-27) · [rulings](https://api.scryfall.com/cards/ee2b4c1a-e058-4e06-bc46-e250fd9c9b54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-09-20* — If a creature with a survival ability isn't tapped when your second main phase begins, the ability won't trigger at all. You won't be able to tap it during your second main phase in time to have that ability trigger.
+  - *2024-09-20* — If a creature's survival ability triggers but that creature is untapped when the ability begins to resolve, that ability won't do anything.
+  - *2024-09-20* — If a creature's survival ability triggers but the creature leaves the battlefield before the ability resolves, use its tapped or untapped status as it last existed on the battlefield to determine whether or not the ability will do anything.
+  - *2024-09-20* — Survival abilities (and other abilities that trigger at the beginning of your second main phase) will trigger at the beginning of the second main phase you take in a turn. They won't trigger during your third, fourth, or other additional main phases in a single turn, if effects somehow cause you to have more than two main phases.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/172/cautious-survivor) · oracle_id `28eb696f-a42c-4444-8139-dfd62029e020` · printing: DSK #172 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -59,6 +59,7 @@
   > Super-Adaptoid's power is equal to the number of legendary creatures you control.
   > Whenever Super-Adaptoid enters or attacks, choose another target creature. If that creature has haste and Super-Adaptoid doesn't, put a haste counter on Super-Adaptoid. Do the same for flying, first strike, double strike, deathtouch, indestructible, lifelink, menace, reach, trample, and vigilance.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13778 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/250/super-adaptoid) · oracle_id `f93fa6ec-1f13-4109-aa60-11e148f7ba88` · printing: MSH #250 (2026-06-26) · [rulings](https://api.scryfall.com/cards/fbbd8609-5a00-4188-96fe-77251579b88d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Super Combo
@@ -88,7 +89,12 @@
   > *"Comin' through!"*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/und/59/super-duper-death-ray) · oracle_id `741bddca-4b1f-48dd-b7f4-56984c2360f7` · printing: UND #59 (2020-02-29) · [rulings](https://api.scryfall.com/cards/c5b0255d-0dde-4a0c-b5fd-70ac4b72133e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-02-29* — If Super-Duper Death Ray doesn’t resolve because its target leaves the battlefield or otherwise becomes an illegal target in response, it will have no effect. It won’t deal damage to any creature or player.
+  - *2020-02-29* — If damage is already marked on the creature, that damage is considered when calculating excess damage. For example, say your opponent controls a 6/6 creature. Your first Super-Duper Death Ray deals 4 damage to it. Then your SECOND Super-Duper Death Ray (i.e. the one they never see coming) deals 2 damage to the creature and 2 damage to your opponent.
+  - *2020-02-29* — Super-Duper Death Ray targets only the creature. It can deal damage to a player with hexproof, for example.
+  - *2020-02-29* — Trample on an instant or sorcery is similar to how it works on an attacking creature. If Super-Duper Death Ray would deal more damage that what it would take to destroy the creature (called “excess damage”), it deals the excess to the creature’s controller. For example, if you aim Super-Duper Death Ray at a 1/1 creature, it will deal 1 damage to the creature and 3 damage to its controller.
+- **Source flags:** [Scryfall](https://scryfall.com/card/und/59/super-duper-death-ray) · oracle_id `741bddca-4b1f-48dd-b7f4-56984c2360f7` · printing: UND #59 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Super-Duper Lost
 
@@ -99,7 +105,10 @@
 - **Flavor text** (UNF printing):
   > *Fblthp decided to get some sleep, nestled among the plush Ajanis until morning.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32053 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/59/super-duper-lost) · oracle_id `388ea914-9483-4510-937e-4491d638392b` · printing: UNF #59 (2022-10-07) · [rulings](https://api.scryfall.com/cards/450c264f-008b-4360-b0ee-f0448ca8fedc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-07* — The doors you’re looking for are the kind you’d find built into walls. Doors that are parts of other objects, such as cabinet doors, don’t count. Car doors don’t count.
+  - *2022-10-07* — You must remain in your seat while looking around the room. No, you can’t pick up your seat and go through doors to find more doors to increase the value of X.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/59/super-duper-lost) · oracle_id `388ea914-9483-4510-937e-4491d638392b` · printing: UNF #59 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Super Intelligence
 
@@ -128,7 +137,9 @@
   > *Boomerang managed to assemble a squad that really wasn't all that sinister and certainly wasn't all that six.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15215 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/167/superior-foes-of-spider-man) · oracle_id `a6a7af21-e52c-4f7f-a57f-bd365d075966` · printing: MSC #167 (2026-06-26) · [rulings](https://api.scryfall.com/cards/bb759a0b-df7b-43c8-8e8e-bd52535cdbc0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-09-19* — You must follow all normal timing rules when playing a land or casting a spell this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/167/superior-foes-of-spider-man) · oracle_id `a6a7af21-e52c-4f7f-a57f-bd365d075966` · printing: MSC #167 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Superior Numbers
 
@@ -137,7 +148,10 @@
 - **Oracle text:**
   > Superior Numbers deals damage to target creature equal to the number of creatures you control in excess of the number of creatures target opponent controls.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31110 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mir/244/superior-numbers) · oracle_id `b98177b5-599f-41b0-aa1e-4769d7005bbd` · printing: MIR #244 (1996-10-08) · [rulings](https://api.scryfall.com/cards/43d90914-ddfc-49c2-8e58-fdc3693040f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-08-01* — As you cast this, you target a creature and an opponent. The opponent does not have to be that creature’s controller.
+  - *2008-08-01* — If the creature becomes an illegal target before the spell resolves (but the opponent doesn’t), the spell will be unable to affect that creature. Although the spell will still resolve, it won’t deal any damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mir/244/superior-numbers) · oracle_id `b98177b5-599f-41b0-aa1e-4769d7005bbd` · printing: MIR #244 (1996-10-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Superior Spider-Man
 
@@ -168,6 +182,7 @@
   > *Out in the wastelands, everything's a steal.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15436 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/85/super-mutant-scavenger) · oracle_id `2972b9c8-d9b3-4bb3-b9c5-9aa70fb1ac71` · printing: PIP #85 (2024-03-08) · [rulings](https://api.scryfall.com/cards/41f48a99-eaf7-42ec-bab3-9ebbc735a82a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Supernatural Rescue
@@ -181,6 +196,7 @@
   > Enchanted creature gets +1/+2.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25065 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/37/supernatural-rescue) · oracle_id `a77510ef-baf0-4cc5-b659-6aaaed0b02f4` · printing: VOW #37 (2021-11-19) · [rulings](https://api.scryfall.com/cards/960ca69c-916d-4af3-82a4-5f6fb614d6a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Supernatural Stamina
@@ -207,6 +223,7 @@
 - **Flavor text** (UNH printing):
   > *"Ooh . . . shiny!"*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/141/super-secret-tech) · oracle_id `56bb1d43-17cf-420e-8650-eef943a4cb14` · printing: UNH #141 (2004-11-19) · [rulings](https://api.scryfall.com/cards/45af7f55-9a69-43dd-969f-65411711b13e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Super Shredder
@@ -233,6 +250,7 @@
 - **Flavor text** (UNH printing):
   > *You want "mise" with that?*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/113/supersize) · oracle_id `d8ce919b-dfcf-4e10-b999-805a4369240c` · printing: UNH #113 (2004-11-19) · [rulings](https://api.scryfall.com/cards/cfb07d9b-947d-475f-b4fd-2590b95a7f91/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Super-Skrull
@@ -248,6 +266,7 @@
   > {5}{U}: Target player draws four cards.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17789 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/115/super-skrull) · oracle_id `4644013f-c96a-450e-a7bc-ddfa7a563050` · printing: MSH #115 (2026-06-26) · [rulings](https://api.scryfall.com/cards/11fc8221-756a-4919-9272-38793e9c1ad9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Super-Soldier Serum
@@ -274,6 +293,7 @@
   > Enchanted creature gets +1/+0 and has haste.
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20246 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/154/super-speed) · oracle_id `88923ca1-a793-42f0-b9f8-ed9ff9c1185d` · printing: MSH #154 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2aa2e596-e5e0-4c60-8eea-14adda1cdaae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Super State
@@ -300,6 +320,7 @@
   > *"SEE! HULK STRONG . . . STRONGEST THERE IS!"*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15422 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/189/super-strength) · oracle_id `e1b577ad-1488-43b5-83d9-e40bd60c74be` · printing: MSH #189 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1d24d200-63d4-44cf-8d3a-6c6ece5e16ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Super Suit
@@ -313,6 +334,7 @@
   > Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18194 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/78/super-suit) · oracle_id `606092eb-8fe3-4ef7-aaf1-2d3b2687d27a` · printing: MSH #78 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e87f3a26-c2e5-47c7-b19d-bc01cb794805/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Super Villain Lockup
@@ -326,6 +348,7 @@
   > *"Welcome to the Raft, pal."*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20830 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/37/super-villain-lockup) · oracle_id `192e150a-96b0-42d6-9d39-03d0bed61f41` · printing: MSH #37 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1af5a1ca-3d11-45e3-ba12-c455c5a7fea1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suplex
@@ -352,7 +375,11 @@
 - **Flavor text** (HOB printing):
   > *The spiders laughed. "You were quite right," they said, "the meat's alive and kicking!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14347 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/86/supper-for-spiders) · oracle_id `4d891515-39da-492e-ac19-1aa524245449` · printing: HOB #86 (2026-08-14) · [rulings](https://api.scryfall.com/cards/5b25e454-06bb-43ca-9a9f-57164f7a70c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2026-06-29* — The effect making the permanents Food artifacts lasts indefinitely. It doesn't expire during the cleanup step.
+  - *2026-06-29* — The returned cards lose any other subtypes and card types and will be only Food artifacts. They retain their name, mana cost, mana value, and abilities. If any of them are legendary, they remain legendary.
+  - *2026-06-29* — Whatever you do, don't eat your opponents' delicious cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/86/supper-for-spiders) · oracle_id `4d891515-39da-492e-ac19-1aa524245449` · printing: HOB #86 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Supplant Form
 
@@ -364,7 +391,14 @@
   > *"Ice can be shaped to any form, even the whisper of a memory."*
   > *—Mytha, Temur shaman*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13706 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frf/54/supplant-form) · oracle_id `7e49f689-996a-477e-a327-32b69fbc0d85` · printing: FRF #54 (2015-01-23) · [rulings](https://api.scryfall.com/cards/3df927c0-9aa9-450b-ab2a-ae12c5489d57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2014-11-24* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any “As [this creature] enters the battlefield” or “[This creature] enters the battlefield with” abilities of the copied creature will also work.
+  - *2014-11-24* — If the copied creature had {X} in its mana cost, X is 0.
+  - *2014-11-24* — If the copied creature is a token, the token created by Supplant Form copies the original characteristics of that token as stated by the effect that put it onto the battlefield.
+  - *2014-11-24* — If the copied creature was copying something else, the token enters the battlefield as whatever that creature was copying.
+  - *2014-11-24* — If you return a face-down creature to its owner’s hand, the token will be a face-up colorless 2/2 creature with no name, no abilities, and no creature types. (The face-down creature card will be revealed to all players as it leaves the battlefield.)
+  - *2014-11-24* — The token copies exactly what was printed on the creature and nothing else (unless that creature was copying something else or was a token; see below). It doesn’t copy whether that creature was tapped or untapped, whether it had any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frf/54/supplant-form) · oracle_id `7e49f689-996a-477e-a327-32b69fbc0d85` · printing: FRF #54 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Supply Caravan
 
@@ -377,7 +411,10 @@
   > *"We each have a weight to carry on the road to the afterlife."*
   > *—Oketra, god of solidarity*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30477 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/30/supply-caravan) · oracle_id `1abcfe8d-4beb-4910-b353-1227e1256329` · printing: AKH #30 (2017-04-28) · [rulings](https://api.scryfall.com/cards/d247bd88-9593-462c-8f9e-28e29c064c10/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-04-18* — If an effect causes Supply Caravan to enter the battlefield tapped, it will satisfy its own triggered ability.
+  - *2017-04-18* — If you don’t control a tapped creature as Supply Caravan enters the battlefield, its ability doesn’t trigger, even if you can tap a creature right away. If you control no tapped creatures as the ability resolves, nothing happens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/30/supply-caravan) · oracle_id `1abcfe8d-4beb-4910-b353-1227e1256329` · printing: AKH #30 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Supply // Demand
 
@@ -387,7 +424,15 @@
 - **Face 2: Demand** — {1}{W}{U} — Sorcery
   > Search your library for a multicolored card, reveal it, put it into your hand, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20291 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dis/157/supply-demand) · oracle_id `d7158101-f6ac-4d61-9570-a3adc3c8b583` · printing: DIS #157 (2006-05-05) · [rulings](https://api.scryfall.com/cards/d4628887-bda4-47e4-84d1-d31a8298f9e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-12-08* — A split card's characteristics are a combination of its two halves while it is not on the stack. For example, Assault // Battery has a mana value of 5 while it is in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Assault // Battery.
+  - *2022-12-08* — Each split card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2022-12-08* — Each split card is a single card. For example, if you discard a split card, you've discarded one card, not two. If an effect counts the number of sorcery cards in your graveyard, Assault // Battery counts once, not twice.
+  - *2022-12-08* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the half you're casting. For example, if an effect allows you to cast a sorcery spell with mana value 2 or less from among cards in your graveyard, you could cast Assault this way, but not Battery.
+  - *2022-12-08* — If you copy a spell that's half of a split card, the copy copies that same half. For example, if you copy Assault, the copy is also Assault, not Battery.
+  - *2022-12-08* — Split cards have two card faces on a single card. The characteristics of the half you didn't cast are ignored while the spell is on the stack.
+  - *2022-12-08* — To cast a split card, choose one of its halves to cast. There's no way to cast both halves of this split card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dis/157/supply-demand) · oracle_id `d7158101-f6ac-4d61-9570-a3adc3c8b583` · printing: DIS #157 (2006-05-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Supply Drop
 
@@ -401,6 +446,7 @@
   > *New armaments, fresh provisions, and best of all, dry socks.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27108 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/250/supply-drop) · oracle_id `9594b8e0-a176-447a-a52e-e1a77175b748` · printing: BRO #250 (2022-11-18) · [rulings](https://api.scryfall.com/cards/82a5d3e9-bada-448b-894d-9d4e7e0463c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Supply-Line Cranes
@@ -415,6 +461,7 @@
   > *They are trained from hatching to deliver aid where it is needed most.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29472 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/28/supply-line-cranes) · oracle_id `bf3811b3-f3d2-4ffb-8019-e403a2cc1d81` · printing: JOU #28 (2014-05-02) · [rulings](https://api.scryfall.com/cards/764bd86e-4156-4c58-9ce0-ca3dffbc7298/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Supply Runners
@@ -427,6 +474,7 @@
 - **Flavor text** (CMM printing):
   > *Good dogs stay by your side until the end. Great dogs leave to bring back aid.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13847 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/63/supply-runners) · oracle_id `4d6da25d-7b62-4a64-bbaa-ae8edab1dd51` · printing: CMM #63 (2023-08-04) · [rulings](https://api.scryfall.com/cards/e41cbc3b-a2e9-4a14-a603-581413bc0b17/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Supportive Parents
@@ -440,6 +488,7 @@
   > *"Te amamos, mijo."*
   > *—Rio Morales*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11298 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/119/supportive-parents) · oracle_id `b1266feb-516e-4b44-b750-7988ca6e6e55` · printing: SPM #119 (2025-09-26) · [rulings](https://api.scryfall.com/cards/d3fe8a5b-4166-46cc-b910-71cd1a19ae1b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Support Mission
@@ -451,6 +500,7 @@
 - **Flavor text** (TRK printing):
   > *Before the Cardassian occupation, Bajor was a center of culture and learning.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31536 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/216/support-mission) · oracle_id `59a4c4cf-07b4-4009-bbea-7da7b31f09a1` · printing: TRK #216 (2026-11-13) · [rulings](https://api.scryfall.com/cards/9e8b404c-6e2a-4966-ac4b-c9981c1c6fee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suppress
@@ -460,6 +510,7 @@
 - **Oracle text:**
   > Target player exiles all cards from their hand face down. At the beginning of the end step of that player's next turn, that player returns those cards to their hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28047 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/apc/52/suppress) · oracle_id `b39651ad-1c05-45f8-b036-536c4d7324c0` · printing: APC #52 (2001-06-04) · [rulings](https://api.scryfall.com/cards/642eefde-8727-44ff-9e04-373abfcd0679/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suppression Bonds
@@ -474,7 +525,10 @@
   > *—Warden Hixus, to Kytheon*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23101 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/34/suppression-bonds) · oracle_id `e844ded0-821a-4378-8f58-bf1e1c0269d5` · printing: ORI #34 (2015-07-17) · [rulings](https://api.scryfall.com/cards/d34c717b-224b-4289-826d-f5b1f7c3dbfb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-06-22* — Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords are activated abilities and will have colons in their reminder texts. The loyalty abilities of planeswalkers are activated abilities.
+  - *2015-06-22* — Suppression Bonds can enchant any nonland permanent, not just a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/34/suppression-bonds) · oracle_id `e844ded0-821a-4378-8f58-bf1e1c0269d5` · printing: ORI #34 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suppression Field
 
@@ -485,7 +539,10 @@
 - **Flavor text** (RAV printing):
   > *The most feared of Azorius punishments is to be freed—sent back out into the world, stripped of all magical defenses.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13671 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rav/31/suppression-field) · oracle_id `63439f19-01e5-4ae1-9841-90493d62d0c8` · printing: RAV #31 (2005-10-07) · [rulings](https://api.scryfall.com/cards/0df7883b-f744-4410-a682-7391bd697afb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2005-10-01* — Suppression Field’s ability doesn’t affect static abilities, triggered abilities, or mana abilities. (A “mana ability” is an ability that produces mana, not an ability that costs mana.)
+  - *2016-06-08* — Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords are activated abilities and will have colons in their reminder text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rav/31/suppression-field) · oracle_id `63439f19-01e5-4ae1-9841-90493d62d0c8` · printing: RAV #31 (2005-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suppression Ray // Orderly Plaza
 
@@ -547,6 +604,7 @@
   > Champion an Elemental (When this enters, sacrifice it unless you exile another Elemental you control. When this leaves the battlefield, that card returns to the battlefield.)
 - **Keywords:** Flying, Champion
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24291 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mor/53/supreme-exemplar) · oracle_id `bb9ed5c8-0437-4705-9133-9863786e6af8` · printing: MOR #53 (2008-02-01) · [rulings](https://api.scryfall.com/cards/2bea92ba-d6e3-4fba-be81-86b10852a9d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Supreme Inquisitor
@@ -559,7 +617,9 @@
 - **Flavor text** (ONS printing):
   > *"It's hard to fight on an empty mind."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22823 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ons/117/supreme-inquisitor) · oracle_id `4460962e-c9cd-4cfd-b227-4278ee636206` · printing: ONS #117 (2002-10-07) · [rulings](https://api.scryfall.com/cards/867de3d2-2178-4931-823e-ff439e1a45ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You may tap any untapped permanents you control with the appropriate creature type (including this creature) to pay the cost of the ability, including creatures that haven't been under your control continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ons/117/supreme-inquisitor) · oracle_id `4460962e-c9cd-4cfd-b227-4278ee636206` · printing: ONS #117 (2002-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Supreme Phantom
 

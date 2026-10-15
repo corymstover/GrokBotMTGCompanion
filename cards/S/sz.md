@@ -23,7 +23,9 @@
   > If Szadek would deal combat damage to a player, instead put that many +1/+1 counters on Szadek and that player mills that many cards.
 - **Keywords:** Flying, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18850 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/168/szadek-lord-of-secrets) · oracle_id `c40c823c-5954-457a-81a6-02683da57f7f` · printing: CM2 #168 (2018-06-08) · [rulings](https://api.scryfall.com/cards/dac8975a-0d41-4538-8e49-a2de5d410b6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2005-10-01* — If another effect would prevent Szadek's combat damage from being dealt to the defending player or replace it with something else, that player chooses which effect applies first. For example, the player can choose to first have Mending Hands prevent 4 of the damage and then apply Szadek's ability so that it gets only one counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/168/szadek-lord-of-secrets) · oracle_id `c40c823c-5954-457a-81a6-02683da57f7f` · printing: CM2 #168 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Szarekh, the Silent King
 
@@ -35,6 +37,7 @@
   > My Will Be Done — Whenever Szarekh attacks, mill three cards. You may put an artifact creature card or Vehicle card from among the cards milled this way into your hand.
 - **Keywords:** Flying, My Will Be Done, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10167 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/1/szarekh-the-silent-king) · oracle_id `9a63f950-2e8a-4617-896c-1d0af538dbc7` · printing: 40K #1 (2022-10-07) · [rulings](https://api.scryfall.com/cards/e11174b2-2423-4a6e-9dcf-ff550eee7e5a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Szarel, Genesis Shepherd

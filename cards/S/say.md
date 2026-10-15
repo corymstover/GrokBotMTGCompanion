@@ -19,4 +19,5 @@
   > Exile this card and two other cards named Say Its Name from your graveyard: Search your graveyard, hand, and/or library for a card named Altanak, the Thrice-Called and put it onto the battlefield. If you search your library this way, shuffle. Activate only as a sorcery.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16970 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/197/say-its-name) · oracle_id `474f0675-4088-4f77-8081-f9ed7d492837` · printing: DSK #197 (2024-09-27) · [rulings](https://api.scryfall.com/cards/94c58683-b5f2-4863-9562-6f6be1ec21fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -21,4 +21,6 @@
   > −4: You get an emblem with "Your opponents play with their hands revealed" and "Whenever an opponent draws a card, this emblem deals 1 damage to them."
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ph17/2/inzerva-master-of-insights) · oracle_id `bbc6c518-40f7-4010-a6fe-c4a73ed80305` · printing: PH17 #2 (2018-08-01) · [rulings](https://api.scryfall.com/cards/b47e59bb-8d47-46a7-8ce5-b2060b4e3c19/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ph17/2/inzerva-master-of-insights) · oracle_id `bbc6c518-40f7-4010-a6fe-c4a73ed80305` · printing: PH17 #2 (2018-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

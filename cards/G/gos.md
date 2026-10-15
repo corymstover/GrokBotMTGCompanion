@@ -119,7 +119,10 @@
   > *"Harah swung his sword mightily, but still the air held him fast."*
   > *—Azeworai, "Kenechi's Dream"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21676 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vis/6/gossamer-chains) · oracle_id `af3936ab-0156-438d-9fef-a924d2fcffc3` · printing: VIS #6 (1997-02-03) · [rulings](https://api.scryfall.com/cards/e9917a29-c6b4-4e0a-a301-21868bd27e17/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — A creature is only considered an “unblocked creature” if it is an attacker during combat after blockers are declared.
+  - *2004-10-04* — The return of this card to your hand is part of the activation cost and is paid on activation. You do not have a choice to pay this cost zero times or more than one time in order to multiply the effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vis/6/gossamer-chains) · oracle_id `af3936ab-0156-438d-9fef-a924d2fcffc3` · printing: VIS #6 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gossamer Phantasm
 
@@ -134,7 +137,10 @@
   > *—Hakim, Loreweaver*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29791 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/70/gossamer-phantasm) · oracle_id `5ed23ed2-be2f-4958-affe-429f58e9dca5` · printing: TSR #70 (2021-03-19) · [rulings](https://api.scryfall.com/cards/bf05ed80-8abf-4c2c-97d7-a96961c35f35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-03-19* — Gossamer Phantasm's triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2021-03-19* — If the spell that targets Gossamer Phantasm has no other targets, it won't resolve (because it no longer has a legal target after Gossamer Phantasm has been sacrificed).
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/70/gossamer-phantasm) · oracle_id `5ed23ed2-be2f-4958-affe-429f58e9dca5` · printing: TSR #70 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gossip's Talent
 
@@ -173,4 +179,5 @@
   > Creatures with islandwalk can be blocked as though they didn't have islandwalk.
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30950 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/leg/227/gosta-dirk) · oracle_id `fb966147-1d60-4150-b4e7-acf301b2d067` · printing: LEG #227 (1994-06-01) · [rulings](https://api.scryfall.com/cards/92ef316b-dd22-40d1-82e8-8890976684c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

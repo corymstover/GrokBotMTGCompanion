@@ -21,7 +21,9 @@
   > *"They think they're winning. But they're just lining up to be dinner."*
   > *—Rakka Mar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30613 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/con/128/suicidal-charge) · oracle_id `7b052ce1-ee82-4335-bc1d-9563bc59b948` · printing: CON #128 (2009-02-06) · [rulings](https://api.scryfall.com/cards/c9375d8c-b429-4349-bc4d-cb08799bdb58/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-02-01* — Suicidal Charge’s ability affects only the creatures your opponents control at the time it resolves. If another creature comes under the control of one of those players by the time that turn’s combat step begins, it won’t have to attack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/con/128/suicidal-charge) · oracle_id `7b052ce1-ee82-4335-bc1d-9563bc59b948` · printing: CON #128 (2009-02-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suit Up
 
@@ -33,4 +35,7 @@
 - **Flavor text** (NEO printing):
   > *With a reckless leap into the pilot's seat, Hirori went from smallest kid on the block to biggest hero in the city.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19444 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/81/suit-up) · oracle_id `29bbbbfe-77cb-411f-9c1b-f7e4724685c6` · printing: NEO #81 (2022-02-18) · [rulings](https://api.scryfall.com/cards/50870bfd-7779-4a1c-b18f-57fac7e193b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-02-18* — If Suit Up causes a Vehicle to become an artifact creature, it doesn't count as “crewing” that Vehicle for any ability that would trigger off of a Vehicle becoming crewed.
+  - *2022-02-18* — Suit Up will overwrite any previous effects that set the creature or Vehicle's power and toughness to specific numbers. Effects that otherwise modify its power and toughness will still apply no matter when they took effect. The same is true for +1/+1 counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/81/suit-up) · oracle_id `29bbbbfe-77cb-411f-9c1b-f7e4724685c6` · printing: NEO #81 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

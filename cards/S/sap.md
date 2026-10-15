@@ -77,6 +77,7 @@
   > • Target creature gains flying until end of turn.
   > • Target creature an opponent controls phases out. (While it's phased out, it's treated as though it doesn't exist. It phases in before its controller untaps during their next untap step.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15871 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/89/sapphire-charm) · oracle_id `2ea2bf6c-a427-4d0c-b447-159959327697` · printing: MIR #89 (1996-10-08) · [rulings](https://api.scryfall.com/cards/2944e5df-eef9-42be-a591-5ac15e306ad8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sapphire Collector
@@ -90,6 +91,7 @@
   > {2}{U}: Target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost.
 - **Keywords:** Prowess, Conjure
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32212 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/68/sapphire-collector) · oracle_id `7de34763-6d81-4bec-92cf-61a0d15ad45f` · printing: MBC #68 (2026-10-19) · [rulings](https://api.scryfall.com/cards/908b6257-be6d-4141-8e75-9edeed4f3f17/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sapphire Dragon // Psionic Pulse
@@ -129,6 +131,7 @@
   > *Sapphire drakes can communicate over great distances, their calls resonating in the gems fixed in their skulls.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22485 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gtc/47/sapphire-drake) · oracle_id `1987bb61-a31b-4d5a-910f-88e9cbc6c8b3` · printing: GTC #47 (2013-02-01) · [rulings](https://api.scryfall.com/cards/d0fe14cf-5d34-47d1-9071-4a532819719b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sapphire Leech
@@ -144,6 +147,7 @@
   > *—Tolarian research notes*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28539 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/71/sapphire-leech) · oracle_id `500aff17-0d69-46ac-a4f9-2fc6db061ce7` · printing: INV #71 (2000-10-02) · [rulings](https://api.scryfall.com/cards/e6763ffd-9d89-4f26-871a-be24fbdef38d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sapphire Medallion
@@ -172,6 +176,7 @@
   > When this creature enters, exile all artifact and enchantment cards from all graveyards.
   > When this creature leaves the battlefield, return all artifact and enchantment cards from all graveyards to their owners' hands.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30359 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/97/saprazzan-bailiff) · oracle_id `1f861517-ac53-4218-b62e-35e971098b6d` · printing: MMQ #97 (1999-10-04) · [rulings](https://api.scryfall.com/cards/a9f50964-1b57-426a-ac46-c90c045c7e40/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saprazzan Breaker
@@ -183,6 +188,7 @@
   > {U}: Mill a card. If a land card was milled this way, this creature can't be blocked this turn.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32031 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/98/saprazzan-breaker) · oracle_id `f3413f57-229e-49dd-a776-6905b80b2b12` · printing: MMQ #98 (1999-10-04) · [rulings](https://api.scryfall.com/cards/2de7bf0f-5ad5-467b-ad80-28517951bbe1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saprazzan Cove
@@ -194,6 +200,7 @@
   > {T}: Put a storage counter on this land.
   > {T}, Remove any number of storage counters from this land: Add {U} for each storage counter removed this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17993 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/327/saprazzan-cove) · oracle_id `f7dda04a-c9c6-4952-9bbc-87e3c7480347` · printing: MMQ #327 (1999-10-04) · [rulings](https://api.scryfall.com/cards/52a69122-19c0-47ec-8bea-478511ba88e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saprazzan Heir
@@ -206,7 +213,9 @@
 - **Flavor text** (MMQ printing):
   > *Within the walls of the floating city, Saprazzan wealth is like Saprazzan water: abundant, free-flowing, and accessible to all.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21756 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/99/saprazzan-heir) · oracle_id `8685ebfd-d04d-47f5-a919-e118db1e2276` · printing: MMQ #99 (1999-10-04) · [rulings](https://api.scryfall.com/cards/0e3d913d-2dcf-4747-8169-0c44ec895864/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It triggers only once even if blocked by more than one creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/99/saprazzan-heir) · oracle_id `8685ebfd-d04d-47f5-a919-e118db1e2276` · printing: MMQ #99 (1999-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saprazzan Legate
 
@@ -218,6 +227,7 @@
   > Flying
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21264 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/100/saprazzan-legate) · oracle_id `d20b62fc-e248-4c84-87ac-7319b92531d4` · printing: MMQ #100 (1999-10-04) · [rulings](https://api.scryfall.com/cards/db9adf84-ee7e-472b-bd96-9abf853afa83/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saprazzan Outrigger
@@ -230,6 +240,7 @@
 - **Flavor text** (MMQ printing):
   > *The Saprazzans excel at both tactics: hit \*and\* run.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31663 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/101/saprazzan-outrigger) · oracle_id `cd57638e-8444-4522-8638-4514dec8b3ed` · printing: MMQ #101 (1999-10-04) · [rulings](https://api.scryfall.com/cards/b28048f1-4cf5-4389-9e69-9b5e1bc95396/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saprazzan Raider
@@ -242,7 +253,9 @@
 - **Flavor text** (MMQ printing):
   > *Some quick dagger work and then back to the sea—that's the Saprazzan way.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32085 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/102/saprazzan-raider) · oracle_id `ca011fb1-fdc6-4eec-9344-c247339292ab` · printing: MMQ #102 (1999-10-04) · [rulings](https://api.scryfall.com/cards/62493f34-cea8-4d9f-8781-005947b69c9d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It returns as soon as it is blocked. It does not remain on the battlefield long enough to deal damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/102/saprazzan-raider) · oracle_id `ca011fb1-fdc6-4eec-9344-c247339292ab` · printing: MMQ #102 (1999-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saprazzan Skerry
 
@@ -265,7 +278,9 @@
   > When this enchantment leaves the battlefield, destroy all tokens created with this enchantment. They can't be regenerated.
 - **Keywords:** Fading
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19264 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/230/saproling-burst) · oracle_id `7b31ecf8-5266-4376-ace0-8b873706c4ea` · printing: VMA #230 (2014-06-16) · [rulings](https://api.scryfall.com/cards/1534b459-62eb-42ef-a3c6-2e57348b04be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Each token knows which Saproling Burst it came from.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/230/saproling-burst) · oracle_id `7b31ecf8-5266-4376-ace0-8b873706c4ea` · printing: VMA #230 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saproling Cluster
 
@@ -274,6 +289,7 @@
 - **Oracle text:**
   > {1}, Discard a card: Create a 1/1 green Saproling creature token. Any player may activate this ability.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16320 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/114/saproling-cluster) · oracle_id `3b64051e-d320-4991-bc9e-6e1435a23c17` · printing: NEM #114 (2000-02-14) · [rulings](https://api.scryfall.com/cards/5f50072b-aedd-4074-b1f7-f9ce477c26c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saproling Infestation
@@ -285,6 +301,7 @@
 - **Flavor text** (INV printing):
   > *"My army took centuries to gather," remarked Urza. "Yavimaya seems to conjure hers out of thin air."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25538 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/208/saproling-infestation) · oracle_id `dd257eb3-4112-41e5-9c7d-00d1f683dbdb` · printing: INV #208 (2000-10-02) · [rulings](https://api.scryfall.com/cards/8642e530-914c-4149-944a-c4966ee27299/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saproling Migration
@@ -337,4 +354,17 @@
 - **Oracle text:**
   > Whenever you crank this Contraption, add {G}. Until end of turn, you don't lose this mana as steps and phases end.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/203/sap-sucker) · oracle_id `bc298113-393f-4bc4-acfc-ce1109d21305` · printing: UST #203 (2017-12-08) · [rulings](https://api.scryfall.com/cards/fd8d38a8-e835-4314-80eb-6a574756431d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2018-01-19* — Any Contraption that's on the battlefield and wasn't assembled immediately heads to the scrapyard. However, if it's a not an actual Contraption card (like Copy Artifact isn't), it goes to your graveyard as normal. Non-Contraption cards can't be in the scrapyard.
+  - *2018-01-19* — At the beginning of your upkeep, if you control any Contraptions, move the CRANK! counter to the next sprocket. You may then crank any number of Contraptions on that sprocket, causing their abilities to trigger. Cranking a Contraption is always optional.
+  - *2018-01-19* — Contraptions are artifacts. Anything that interacts with artifacts will interact with Contraptions.
+  - *2018-01-19* — Contraptions aren't put into your main deck. They go into a separate deck called the Contraption deck.
+  - *2018-01-19* — If a Contraption would leave the battlefield and go to any zone other than exile, it instead goes to the scrapyard, the Contraption deck's version of the graveyard. Things that affect the graveyard do not affect the scrapyard. You can exile Contraptions just fine.
+  - *2018-01-19* — If you crank multiple Contraptions, their abilities can be put onto the stack in any order. The ability put onto the stack will resolve first.
+  - *2018-01-19* — If you or a permanent you control are instructed to assemble a Contraption, reveal the top card of your Contraption deck. Put it onto the battlefield on one of the three sprockets.
+  - *2018-01-19* — If you or a permanent you control assembles a Contraption and your Contraption deck is empty, nothing happens. You don't lose the game.
+  - *2018-01-19* — In Constructed formats, a Contraption deck must have at least fifteen different Contraption cards and no more than one of each.
+  - *2018-01-19* — In Limited formats, a Contraption deck may include any number of Contraption cards in your card pool. You don't have to include every Contraption card you draft or open in sealed deck. In those formats, your Contraption deck may include duplicates.
+  - *2018-01-19* — In silver-bordered games using Contraptions, you have three sprockets, illustrated on the back of Contraption cards. At the start of the game, put a CRANK! counter on sprocket 3.
+  - *2018-01-19* — While Contraptions you control are on the battlefield, the Contraption deck is not, even if you are using it to signify the three sprockets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/203/sap-sucker) · oracle_id `bc298113-393f-4bc4-acfc-ce1109d21305` · printing: UST #203 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

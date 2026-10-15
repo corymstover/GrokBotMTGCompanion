@@ -40,6 +40,7 @@
   > *—Troll chant*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30270 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsb/71/uthden-troll) · oracle_id `d6329dcc-b450-482a-8ee3-45449f7a4b3d` · printing: TSB #71 (2006-10-06) · [rulings](https://api.scryfall.com/cards/18bd9ec1-4784-4b8d-bdeb-8df4b91c954f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Uthros Psionicist
@@ -85,6 +86,7 @@
   > 8+ | Flying
 - **Keywords:** Station
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14307 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/85/uthros-scanship) · oracle_id `7b4c37dc-8cb0-4870-929e-11c2a45952a2` · printing: EOE #85 (2025-08-01) · [rulings](https://api.scryfall.com/cards/1f93887f-35c5-472f-83d0-54227b3bd1d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Uthros, Titanic Godcore
@@ -113,7 +115,10 @@
   > *"Hold on a second, I have just the thing."*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19110 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/256/utility-knife) · oracle_id `b546c78c-5180-46c3-8594-b9d5ad9c3988` · printing: ZNR #256 (2020-09-25) · [rulings](https://api.scryfall.com/cards/1e5c781d-cd89-4671-8fbe-fae82c33357b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-09-25* — Attaching an Equipment with its enters-the-battlefield triggered ability isn't the same as using its equip ability. You don't pay mana for the attachment, and if the Equipment enters at a time you couldn't cast a sorcery, you can still attach it to a creature you control.
+  - *2020-09-25* — If the target creature becomes an illegal target, the Equipment remains on the battlefield unattached.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/256/utility-knife) · oracle_id `b546c78c-5180-46c3-8594-b9d5ad9c3988` · printing: ZNR #256 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Utopia Mycon
 
@@ -151,6 +156,7 @@
 - **Flavor text** (9ED printing):
   > *The fruit of this fabled tree takes on the flavor of whatever food you love most.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17244 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/277/utopia-tree) · oracle_id `73a9122c-60d2-4fdc-bc7b-3576bcbca241` · printing: 9ED #277 (2005-07-29) · [rulings](https://api.scryfall.com/cards/49bed540-da8d-4148-8794-8e8d01ed5387/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Utopia Vow
@@ -165,6 +171,7 @@
   > *"I'll guard this fruit and its seedling until the land is healed. My life now belongs to Dominaria."*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22965 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/245/utopia-vow) · oracle_id `917652c7-ac12-4cd7-ab2d-f2260a620d02` · printing: TSR #245 (2021-03-19) · [rulings](https://api.scryfall.com/cards/55dcec32-6ff2-4f47-b3e2-ab621f58d498/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Utrom Monitor
@@ -179,7 +186,9 @@
   > *The utrom are a peace-minded people, up to a point. Beyond that, they are a laser-minded people.*
 - **Keywords:** Flying, Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26129 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/113/utrom-monitor) · oracle_id `976e1fe6-ac32-4ea9-9828-acd3c4791e01` · printing: TMC #113 (2026-03-06) · [rulings](https://api.scryfall.com/cards/8ce6647c-343a-45e8-9b6e-0292ae01ec81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-01-27* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as affinity for artifacts). The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/113/utrom-monitor) · oracle_id `976e1fe6-ac32-4ea9-9828-acd3c4791e01` · printing: TMC #113 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Utrom Scientists
 
@@ -191,6 +200,7 @@
 - **Flavor text** (TMT printing):
   > *Using exoskeletons and false skins, the utroms took up residence on Earth after their ship crashed. Returning home using only Earth's primitive technology has proven challenging.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21957 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/56/utrom-scientists) · oracle_id `89793c8c-98a3-4621-ad3d-cfc5949c65da` · printing: TMT #56 (2026-03-06) · [rulings](https://api.scryfall.com/cards/6da89625-5278-49d4-813b-a1a631f114f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Utter End
@@ -252,4 +262,5 @@
   > *He wages war wherever the wind carries him.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26009 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/153/utvara-scalper) · oracle_id `58e754ad-88b4-47c5-b105-8b50e54143c8` · printing: CLU #153 (2024-02-23) · [rulings](https://api.scryfall.com/cards/19098bc5-c5bc-4cef-9c73-1d5f3e0ac4e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

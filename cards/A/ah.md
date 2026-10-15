@@ -24,7 +24,15 @@
   > *"The Second Sun nears its destination! Let it light the way to ours!"*
 - **Keywords:** Exert
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24253 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/194/ahn-crop-champion) · oracle_id `c03d073e-ea59-4873-952a-bcf2730f1115` · printing: AKH #194 (2017-04-28) · [rulings](https://api.scryfall.com/cards/2ddda94a-4b2d-47b0-8d2c-3ad70a0d5584/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2017-04-18* — All attackers are chosen at once. You can’t attack with Ahn-Crop Champion, untap a tapped creature, and then attack with that creature.
+  - *2017-04-18* — All cards in the Amonkhet set that let you exert a creature let you do so as you declare it as an attacking creature, as do some of the cards in the Hour of Devastation set. You can’t do so later in combat, and creatures put onto the battlefield attacking can’t be exerted. Any abilities that trigger on exerting an attacking creature will resolve before blockers are declared.
+  - *2017-04-18* — If an exerted creature is already untapped during your next untap step (most likely because it had vigilance or an effect untapped it), exert’s effect preventing it from untapping expires without having done anything.
+  - *2017-04-18* — If you attack with two Ahn-Crop Champions and exert both, each will untap the other.
+  - *2017-04-18* — If you gain control of another player’s creature until end of turn and exert it, it will untap during that player’s untap step.
+  - *2017-04-18* — Untapping an attacking creature doesn’t remove it from combat.
+  - *2017-04-18* — You can’t exert a creature unless an effect allows you to do so. Similar effects that “tap and freeze” a creature (such as that of Decision Paralysis) don’t exert that creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/194/ahn-crop-champion) · oracle_id `c03d073e-ea59-4873-952a-bcf2730f1115` · printing: AKH #194 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ahn-Crop Crasher
 
@@ -39,7 +47,13 @@
   > *—Anep, vizier of Hazoret*
 - **Keywords:** Haste, Exert
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17401 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/117/ahn-crop-crasher) · oracle_id `5b3ef91a-5804-43cc-a947-f25f33b7b88c` · printing: AKH #117 (2017-04-28) · [rulings](https://api.scryfall.com/cards/dd5db68c-24d5-44ce-9809-e446f26fac5d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-04-18* — All cards in the Amonkhet set that let you exert a creature let you do so as you declare it as an attacking creature, as do some of the cards in the Hour of Devastation set. You can't do so later in combat, and creatures put onto the battlefield attacking can't be exerted. Any abilities that trigger on exerting an attacking creature will resolve before blockers are declared.
+  - *2017-04-18* — If a creature has a targeted triggered ability that triggers when you exert it, you can exert it even if there isn't a legal target for that triggered ability.
+  - *2017-04-18* — If an exerted creature is already untapped during your next untap step (most likely because it had vigilance or an effect untapped it), exert's effect preventing it from untapping expires without having done anything.
+  - *2017-04-18* — If you gain control of another player's creature until end of turn and exert it, it will untap during that player's untap step.
+  - *2017-04-18* — You can't exert a creature unless an effect allows you to do so. Similar effects that "tap and freeze" a creature (such as that of Decision Paralysis) don't exert that creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/117/ahn-crop-crasher) · oracle_id `5b3ef91a-5804-43cc-a947-f25f33b7b88c` · printing: AKH #117 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ahn-Crop Invader
 
@@ -53,6 +67,7 @@
   > *"Give me a crew like this one and I'd rule any sea I sailed."*
   > *—Angrath*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23867 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/113/ahn-crop-invader) · oracle_id `d7d163a7-6f3f-40ab-a47c-ed497df92244` · printing: WAR #113 (2019-05-03) · [rulings](https://api.scryfall.com/cards/2dea2466-5c7f-40ce-b749-100ae89d2c90/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ahriman
@@ -67,4 +82,5 @@
   > *"The Wrath of Dark has nearly reached its zenith! No one can stop it! Least of all you!"*
 - **Keywords:** Deathtouch, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11044 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/87/ahriman) · oracle_id `37d1d507-25dc-4cd0-b51e-2f1e9b24832c` · printing: FIN #87 (2025-06-13) · [rulings](https://api.scryfall.com/cards/162a415c-5465-497e-8f4e-c6f09681641d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

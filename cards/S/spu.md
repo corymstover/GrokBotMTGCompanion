@@ -23,6 +23,7 @@
 - **Flavor text** (PCY printing):
   > *Grapplers hunt in packs, driving their victims over steep mountain cliffs.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32158 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcy/104/spur-grappler) · oracle_id `42784364-719a-49ca-b515-64146a8f82e8` · printing: PCY #104 (2000-06-05) · [rulings](https://api.scryfall.com/cards/50bf91a7-4d04-437c-a290-6adb52f25312/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spurnmage Advocate
@@ -35,7 +36,10 @@
 - **Flavor text** (CMD printing):
   > *"Our unity humbles our foes."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16689 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmd/33/spurnmage-advocate) · oracle_id `0477b923-9f32-4e7f-ac08-c715cca819a4` · printing: CMD #33 (2011-06-17) · [rulings](https://api.scryfall.com/cards/9c014b89-895c-432f-94f5-cda2dfac57e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — The ability is not countered if both cards are missing from the graveyard on resolution and the creature target is there. This makes it possible to have two Spurnmage Advocates both target the same two cards and end up destroying two creatures.
+  - *2004-10-04* — You can’t activate this ability unless a single opponent has at least two cards in their graveyard to target.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmd/33/spurnmage-advocate) · oracle_id `0477b923-9f32-4e7f-ac08-c715cca819a4` · printing: CMD #33 (2011-06-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spurred Wolverine
 
@@ -47,7 +51,9 @@
 - **Flavor text** (ONS printing):
   > *After a few painful experiences, goblins learned not to pick their noses around the beasts.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31285 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ons/237/spurred-wolverine) · oracle_id `245b62a8-b606-4106-87c3-a60ce3e16906` · printing: ONS #237 (2002-10-07) · [rulings](https://api.scryfall.com/cards/46d7aaea-226b-4820-8db2-89dcdcbcc557/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You may tap any untapped permanents you control with the appropriate creature type (including this creature) to pay the cost of the ability, including creatures that haven't been under your control continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ons/237/spurred-wolverine) · oracle_id `245b62a8-b606-4106-87c3-a60ce3e16906` · printing: ONS #237 (2002-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spuzzem Strategist
 
@@ -57,4 +63,9 @@
 - **Oracle text:**
   > You make all choices for Spuzzems you control.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/584/spuzzem-strategist) · oracle_id `209377f6-e958-43dc-94f6-eb4e6ac6ecc4` · printing: MB2 #584 (2024-08-02) · [rulings](https://api.scryfall.com/cards/6ab644ff-38f9-43bf-aa2f-db2f2daf1ca5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+  - *2024-11-08* — This is already true almost all of the time, but if you manage to engineer a game state involving Floral Spuzzem and R&D’s Secret Lair, you’ll be glad you have this.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/584/spuzzem-strategist) · oracle_id `209377f6-e958-43dc-94f6-eb4e6ac6ecc4` · printing: MB2 #584 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

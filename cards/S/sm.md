@@ -93,6 +93,7 @@
 - **Flavor text** (UNH printing):
   > *"I don't get it. Why doesn't anybody like me?"*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/45/smart-ass) · oracle_id `5d170890-4c9c-4a06-b16e-eef0932b9099` · printing: UNH #45 (2004-11-19) · [rulings](https://api.scryfall.com/cards/090e83c2-375d-4470-a559-c37e8e7cefca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smash
@@ -105,6 +106,7 @@
 - **Flavor text** (10E printing):
   > *Ravnica's laws protect not its citizens but its industry. Aging equipment is destroyed rather than restored, to bring more money into the factories' coffers.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18312 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/235/smash) · oracle_id `1602f8c7-fe00-4bc9-b4fc-b26b7223ac75` · printing: 10E #235 (2007-07-13) · [rulings](https://api.scryfall.com/cards/40c39852-efd3-4a25-b33b-3c13dad96e7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smashing Spree
@@ -116,6 +118,7 @@
 - **Flavor text** (MSC printing):
   > *"Puny humans! Still you get in my way!? That just makes me mad. And the madder I get . . . the stronger I am!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23219 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/555/smashing-spree) · oracle_id `f0371d3d-ca11-432a-bebd-684caad5781f` · printing: MSC #555 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1d607221-943f-469b-914b-24b1753a6d2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smashing Success
@@ -129,6 +132,7 @@
   > *—Magda, brazen outlaw*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15123 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/151/smashing-success) · oracle_id `cb19d2f7-0511-4c66-ba4c-f38516920c20` · printing: KHM #151 (2021-02-05) · [rulings](https://api.scryfall.com/cards/c22c7383-ba4d-4b3c-91d6-2d6528e19825/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smash to Dust
@@ -153,7 +157,9 @@
 - **Flavor text** (ORI printing):
   > *The giant Tarvik dreamed that trinkets and machines caused all the world's woe. When he awoke from his troubled sleep, he took the name Tarvik Relicsmasher.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12745 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/163/smash-to-smithereens) · oracle_id `e0583f29-c344-4b56-b0dc-bef1089a95c7` · printing: ORI #163 (2015-07-17) · [rulings](https://api.scryfall.com/cards/655c489f-bffb-45a4-8e7c-2d1a35220197/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-06-22* — Smash to Smithereens targets only the artifact, not any player. If that artifact becomes an illegal target by the time Smash to Smithereens tries to resolve, Smash to Smithereens won’t resolve and none of its effects will happen. No damage will be dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/163/smash-to-smithereens) · oracle_id `e0583f29-c344-4b56-b0dc-bef1089a95c7` · printing: ORI #163 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smaug's Fury
 
@@ -164,6 +170,7 @@
 - **Flavor text** (HOB printing):
   > *The Dwarves had barely time to fly back to the tunnel when Smaug came hurtling from the north, licking the mountainsides with flame, beating his great wings with a noise like a roaring wind.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17300 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/111/smaugs-fury) · oracle_id `5c034266-8e63-4b43-8f9e-564e6fff6ec1` · printing: HOB #111 (2026-08-14) · [rulings](https://api.scryfall.com/cards/a16f203a-785e-4c78-9410-fb9f8a0ffa01/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smaug, the Great Calamity // Spew Flame
@@ -180,7 +187,20 @@
   > *"My armor is like tenfold shields, my teeth are swords, my wings a hurricane, and my breath death!"*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16924 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/109/smaug-the-great-calamity-spew-flame) · oracle_id `fc75cfec-e1f6-4cb5-8a3c-2f7b2c39c03f` · printing: HOB #109 (2026-08-14) · [rulings](https://api.scryfall.com/cards/419ca9e5-8413-4378-a4ef-eda5a1024218/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2026-06-29* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Bilbo, Luckwearer is a blue creature card whose mana value is 2. It can't be put into your hand by the effect of Speak Secrets ("Mill four cards, then put an instant or sorcery card from among them into your hand.").
+  - *2026-06-29* — An effect may refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
+  - *2026-06-29* — Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2026-06-29* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may play it using its primary characteristics. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to cast it as a permanent later.
+  - *2026-06-29* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to cast it as a permanent spell.
+  - *2026-06-29* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to cast the copy as a permanent.
+  - *2026-06-29* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-06-29* — If an effect refers to a card, spell, or permanent that has an Adventure, it won't find an instant or sorcery spell on the stack that's been cast as an Adventure.
+  - *2026-06-29* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+  - *2026-06-29* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Gandalf, Party Guest ("At the beginning of combat on your turn, you may cast an instant or sorcery spell with mana value X or less from your hand without paying its mana cost, where X is twice the number of legendary Wizards you control."), you could cast Burglar's Plot from your hand without paying its mana cost (provided you control enough legendary Wizards), but not Bilbo, Luckwearer.
+  - *2026-06-29* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2026-06-29* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/109/smaug-the-great-calamity-spew-flame) · oracle_id `fc75cfec-e1f6-4cb5-8a3c-2f7b2c39c03f` · printing: HOB #109 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smaug the Impenetrable
 
@@ -293,6 +313,7 @@
 - **Flavor text** (M19 printing):
   > *The creation of new weapons demands the destruction of others.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12261 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/158/smelt) · oracle_id `b5f4b732-099c-46e7-a03d-d8e4c78245b8` · printing: M19 #158 (2018-07-13) · [rulings](https://api.scryfall.com/cards/9a13293d-89a7-400c-8309-9f62eeb4769c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smelted Chargebug
@@ -306,7 +327,17 @@
   > Whenever this creature attacks, you may pay {E}. If you do, another target attacking creature gets +1/+0 and gains menace until end of turn.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18844 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/139/smelted-chargebug) · oracle_id `8bc30bd5-554e-4fcf-9dec-c7634921858a` · printing: MH3 #139 (2024-06-14) · [rulings](https://api.scryfall.com/cards/7dad40bf-2cd0-47f5-a878-9a289d1d58d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/139/smelted-chargebug) · oracle_id `8bc30bd5-554e-4fcf-9dec-c7634921858a` · printing: MH3 #139 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smelt // Herd // Saw
 
@@ -318,6 +349,7 @@
 - **Face 3: Saw** — {1}{B} — Sorcery
   > Destroy target creature. Its controller creates two 1/2 red Half creature tokens.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/100/smelt-herd-saw) · oracle_id `5db492f2-21c0-4eee-843a-509fa0d3a327` · printing: CMB2 #100 (2021-08-20) · [rulings](https://api.scryfall.com/cards/097165ee-f959-49e3-a5c1-f78043e538d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smelting Vat
@@ -327,7 +359,9 @@
 - **Oracle text:**
   > {1}, {T}, Sacrifice another artifact: Reveal the top eight cards of your library. Put up to two noncreature artifact cards with total mana value less than or equal to the sacrificed artifact's mana value from among them onto the battlefield and the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14288 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/brc/18/smelting-vat) · oracle_id `71d2a0fe-5426-4fa3-85a4-564c37184996` · printing: BRC #18 (2022-11-18) · [rulings](https://api.scryfall.com/cards/e5b82177-3795-470a-abff-a4a936b27430/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-14* — If an artifact revealed this way has an {X} is its mana cost, X is 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/brc/18/smelting-vat) · oracle_id `71d2a0fe-5426-4fa3-85a4-564c37184996` · printing: BRC #18 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smelt-Ward Gatekeepers
 
@@ -337,6 +371,7 @@
 - **Oracle text:**
   > When this creature enters, if you control two or more Gates, gain control of target creature an opponent controls until end of turn. Untap that creature. It gains haste until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25675 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/39/smelt-ward-gatekeepers) · oracle_id `7c6d213b-448a-4231-9f6f-65c8ad49a5f1` · printing: DGM #39 (2013-05-03) · [rulings](https://api.scryfall.com/cards/8237b11f-36d2-4624-a0ef-520663385891/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smelt-Ward Ignus
@@ -349,7 +384,10 @@
 - **Flavor text** (RNA printing):
   > *"Come in, yes? Is warm!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27791 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/116/smelt-ward-ignus) · oracle_id `494b642c-b2b5-40a0-b741-dca1aa9bdb59` · printing: RNA #116 (2019-01-25) · [rulings](https://api.scryfall.com/cards/4f24b2b6-b994-455f-b8e6-aa73e1be81b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-01-25* — Once Smelt-Ward Ignus’s ability has resolved, you retain control the creature even if its power is raised above 3.
+  - *2019-01-25* — Smelt-Ward Ignus’s ability can target any creature with power 3 or less, even one that’s untapped or one you already control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/116/smelt-ward-ignus) · oracle_id `494b642c-b2b5-40a0-b741-dca1aa9bdb59` · printing: RNA #116 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smelt-Ward Minotaur
 
@@ -362,7 +400,10 @@
   > *"Don't arrest him—enlist him!"*
   > *—Commander Yaszen*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20249 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/116/smelt-ward-minotaur) · oracle_id `ee25680a-d01a-4ddb-908b-27a9bea0ceae` · printing: GRN #116 (2018-10-05) · [rulings](https://api.scryfall.com/cards/f851d74e-90ad-417f-8372-8437d2d68b0d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-10-05* — Resolving Smelt-Ward Minotaur’s triggered ability after a creature has blocked won’t remove the blocking creature from combat or cause the creature it blocked to become unblocked.
+  - *2018-10-05* — Smelt-Ward Minotaur’s triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/116/smelt-ward-minotaur) · oracle_id `ee25680a-d01a-4ddb-908b-27a9bea0ceae` · printing: GRN #116 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smile at Death
 
@@ -407,7 +448,9 @@
   > *"You've got your childhood wish at last. Now you get to die."*
   > *—Gerrard, to Volrath*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19969 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/28/smite) · oracle_id `367379f2-e1e4-48e7-b2c0-1003de55adbe` · printing: TPR #28 (2015-05-06) · [rulings](https://api.scryfall.com/cards/b2286067-c964-4bed-bfb8-c6280f104b63/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2010-06-15* — A “blocked creature” is an attacking creature that has been blocked by a creature this combat, or has become blocked as the result of a spell or ability this combat. Unless the attacking creature leaves combat, it continues to be a blocked creature through the end of combat step, even if the creature or creatures that blocked it are no longer on the battlefield or have otherwise left combat by then.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/28/smite) · oracle_id `367379f2-e1e4-48e7-b2c0-1003de55adbe` · printing: TPR #28 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smite the Deathless
 
@@ -418,7 +461,11 @@
 - **Flavor text** (HOC printing):
   > *"No living man am I!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10068 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/202/smite-the-deathless) · oracle_id `37994591-3494-4314-a7da-49c112b0866f` · printing: HOC #202 (2026-08-14) · [rulings](https://api.scryfall.com/cards/c7a56386-12c8-48c1-895c-9f3af29ea1d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-06-16* — If Smite the Deathless doesn't deal damage to the target creature (perhaps because that damage was prevented), the additional effects will still apply. It will still lose indestructible, and it will be exiled instead of dying that turn.
+  - *2023-06-16* — The damaged creature will be exiled if it would die for any reason that turn, not just if it dies due to damage from Smite the Deathless.
+  - *2023-06-16* — You can target a creature that doesn't have indestructible with Smite the Deathless. It will still be exiled if it would die this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/202/smite-the-deathless) · oracle_id `37994591-3494-4314-a7da-49c112b0866f` · printing: HOC #202 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smite the Monstrous
 
@@ -430,6 +477,7 @@
   > *"Darkness always flees from the light, and I am the breaking dawn."*
   > *—Kordain, luminarch of Kabira*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19863 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/42/smite-the-monstrous) · oracle_id `649512ed-4908-450a-9652-b2c80df5e24d` · printing: ZNR #42 (2020-09-25) · [rulings](https://api.scryfall.com/cards/9c103163-31b7-4d25-aa2c-02ca082ee1bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smiting Helix
@@ -443,7 +491,16 @@
   > *Malice is appropriate when vengeance is called for.*
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30581 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/109/smiting-helix) · oracle_id `19d19e32-af13-4bb3-925f-8ed54cce2fcb` · printing: MH1 #109 (2019-06-14) · [rulings](https://api.scryfall.com/cards/5fa3e132-125a-492f-aab7-c560ea36b779/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2019-06-14* — If the chosen target is an illegal target by the time Smiting Helix tries to resolve, the spell doesn’t resolve. You won’t gain 3 life.
+  - *2019-06-14* — Smiting Helix is always a black spell. It’s not red and white if you cast it for its flashback cost.
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it’s legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you’re paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card’s type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+  - *2021-03-19* — “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/109/smiting-helix) · oracle_id `19d19e32-af13-4bb3-925f-8ed54cce2fcb` · printing: MH1 #109 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smitten Swordmaster // Curry Favor
 
@@ -486,6 +543,7 @@
   > *—Writings of Cica, Skyjek scout*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27845 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gtc/79/smog-elemental) · oracle_id `8e51a07d-8618-4908-8798-bd28bc9b5bbb` · printing: GTC #79 (2013-02-01) · [rulings](https://api.scryfall.com/cards/667871d3-0d1b-496b-afbd-7504989798e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smogsteed Rider
@@ -499,7 +557,10 @@
   > *"An entire order of mages who draw their power from Ravnica's smog? Yet another indicator of our world's decay."*
   > *—Dravash, dowsing shaman*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25337 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/63/smogsteed-rider) · oracle_id `a23cb875-2ef8-4457-81eb-e66b67a3c477` · printing: GPT #63 (2006-02-03) · [rulings](https://api.scryfall.com/cards/04d2b2bf-92bc-4362-b232-8a403b9a7ade/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2006-02-01* — Smogsteed Rider doesn't give itself fear, but if two are attacking, each will give the other one fear.
+  - *2006-02-01* — The creatures gain fear before blockers can be declared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/63/smogsteed-rider) · oracle_id `a23cb875-2ef8-4457-81eb-e66b67a3c477` · printing: GPT #63 (2006-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smoke
 
@@ -567,6 +628,7 @@
 - **Flavor text** (LGN printing):
   > *The Mirari festers in its flesh.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31201 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lgn/81/smokespew-invoker) · oracle_id `a6df9679-1e4c-4791-855b-28bc2fa35b49` · printing: LGN #81 (2003-02-03) · [rulings](https://api.scryfall.com/cards/fea393a4-58c8-4a42-bd95-a3312504f2e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smoke Spirits' Aid
@@ -577,7 +639,9 @@
   > For each of up to X target creatures, create a red Aura enchantment token named Smoke Blessing attached to that creature. Those tokens have enchant creature and "When enchanted creature dies, it deals 1 damage to its controller and you create a Treasure token."
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10115 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nec/22/smoke-spirits-aid) · oracle_id `8fef58ff-4743-4065-9df0-c5edf9aa2502` · printing: NEC #22 (2022-02-18) · [rulings](https://api.scryfall.com/cards/e492a245-46ba-438e-8d81-4626faa49bff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-02-18* — If a Smoke Blessing that would be created by Smoke Spirits' Aid can't be attached to that creature for any reason, the token isn't created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nec/22/smoke-spirits-aid) · oracle_id `8fef58ff-4743-4065-9df0-c5edf9aa2502` · printing: NEC #22 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smokestack
 
@@ -602,7 +666,10 @@
 - **Flavor text** (KTK printing):
   > *"See your enemies from a thousand sides. Then you will find a thousand ways to kill them."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32162 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/151/smoke-teller) · oracle_id `387a5937-cdbd-4e8e-8efb-4d444aa9cbc9` · printing: KTK #151 (2014-09-26) · [rulings](https://api.scryfall.com/cards/1916a2d9-4747-4118-b1b2-7a5ce492e3fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-09-20* — Smoke Teller’s ability lets you look at the creature as the ability resolves. It doesn’t let you look at it later, although you should be given a reasonable amount of time to look at it. In a multiplayer game, be sure not to reveal the card to other players.
+  - *2014-09-20* — You could target a creature you control with Smoke Teller’s ability, but there’s no benefit to doing so. Remember, you may look at face-down spells you control on the stack and face-down permanents you control at any time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/151/smoke-teller) · oracle_id `387a5937-cdbd-4e8e-8efb-4d444aa9cbc9` · printing: KTK #151 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smoky Lounge // Misty Salon
 
@@ -614,7 +681,25 @@
   > When you unlock this door, create an X/X blue Spirit creature token with flying, where X is the number of unlocked doors among Rooms you control.
   > (You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11155 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/235/smoky-lounge-misty-salon) · oracle_id `4f70b0ee-c24c-45fa-b878-9ba69266344f` · printing: DSK #235 (2024-09-27) · [rulings](https://api.scryfall.com/cards/4700987d-fc55-44eb-bc9f-0e0316ca65e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (17):
+  - *2024-09-20* — An ability that triggers "when you unlock this door" triggers when that door becomes unlocked. This can happen one of two ways: (1) the door becomes unlocked on the battlefield or (2) the door becomes unlocked as the Room enters the battlefield because you cast the corresponding half. In the latter case, since the door becoming unlocked is what causes the ability to trigger, effects that cause abilities that trigger when a permanent enters to trigger an additional time (such as that of Panharmonicon) won't apply.
+  - *2024-09-20* — An ability that triggers "whenever you fully unlock a Room" triggers when a door becomes unlocked and the other door of that Room is already unlocked, or when both doors of that Room become unlocked simultaneously.
+  - *2024-09-20* — Any time you have priority during a main phase of your turn and the stack is empty, you may pay the mana cost of a locked door (also called its "unlock cost"). That door becomes unlocked. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2024-09-20* — Each Room card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2024-09-20* — Each Room card is a single card. For example, if you discard a Room card, you've discarded one card, not two. If an effect counts the number of enchantment cards in your graveyard, Bottomless Pool // Locker Room counts once, not twice.
+  - *2024-09-20* — If a Room enters from any zone other than the stack, it will enter with both halves locked.
+  - *2024-09-20* — If a spell or ability would create a copy of a Room spell on the stack, the copy retains the choice of which door was cast but also retains the full characteristics of the spell. The characteristics of the door that wasn't cast are still ignored while the copy is on the stack, and when the copy resolves, the token it becomes will enter with the appropriate door unlocked.
+  - *2024-09-20* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the door you're casting. For example, if an effect allows you to cast a permanent spell with mana value 3 or less from among cards in your graveyard, you could cast Bottomless Pool this way, but not Locker Room.
+  - *2024-09-20* — If neither door of a Room is unlocked, it's a Room enchantment with no name and no abilities.
+  - *2024-09-20* — Room cards have two card faces with a shared type line on a single card. The characteristics of the door you didn't cast are ignored while the spell is on the stack.
+  - *2024-09-20* — Some abilities allow you to lock a door of a Room you control. You can't choose to lock a door that's already locked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are locked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some abilities allow you to unlock a door of a Room you control. You can't choose to unlock a door that's already unlocked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are unlocked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some doors have abilities that trigger whenever you unlock that door and require one or more targets. You can unlock that door even if there would be insufficient legal targets for that triggered ability. The triggered ability won't go on the stack.
+  - *2024-09-20* — The value of X is calculated only once, as Misty Salon's ability resolves. Changes in the number of unlocked doors among Rooms you control that occur after the ability resolves won't affect the power or toughness of the token.
+  - *2024-09-20* — To cast a Room spell, choose a half (or "door") to cast. There's no way to cast both halves of a Room card. When the Room spell resolves, the corresponding door becomes unlocked as the Room enters.
+  - *2024-09-20* — While in any zone other than the stack or the battlefield, a Room card's characteristics are a combination of its two doors. For example, Bottomless Pool // Locker Room has a mana value of 6 while it's in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Bottomless Pool // Locker Room.
+  - *2024-09-20* — While on the battlefield, a Room's characteristics are a combination of the characteristics of its unlocked doors. For example, if Bottomless Pool // Locker Room is on the battlefield with both doors unlocked, its names are Bottomless Pool and Locker Room, its mana value is 6, it's a Room Enchantment, and it has the abilities in each door's text box.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/235/smoky-lounge-misty-salon) · oracle_id `4f70b0ee-c24c-45fa-b878-9ba69266344f` · printing: DSK #235 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smoldering Butcher
 
@@ -627,6 +712,7 @@
   > *A cinder's axe bears no marks from parrying a foe's blade.*
 - **Keywords:** Wither
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25364 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eve/42/smoldering-butcher) · oracle_id `b0f56eef-1abc-437e-8e2e-c079731fe783` · printing: EVE #42 (2008-07-25) · [rulings](https://api.scryfall.com/cards/7f764936-fceb-4a3d-ac32-15397d7ce664/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smoldering Crater
@@ -652,6 +738,7 @@
 - **Flavor text** (FRF printing):
   > *The efreet are drawn to the Kaisham Wanderers, a loosely organized Jeskai school where trickery is employed to challenge the status quo and upend the belief systems of others.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31222 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frf/115/smoldering-efreet) · oracle_id `789b6a61-656e-40c0-be78-9c89c4ecfb0b` · printing: FRF #115 (2015-01-23) · [rulings](https://api.scryfall.com/cards/af33b204-6b50-4404-b986-9f6b970a7f06/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smoldering Egg // Ashmouth Dragon
@@ -669,6 +756,7 @@
   > *A dragon is born. A province burns.*
 - **Keywords:** Flying, Transform, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10702 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/159/smoldering-egg-ashmouth-dragon) · oracle_id `7493d78c-26c4-402e-bec5-6449773d0344` · printing: MID #159 (2021-09-24) · [rulings](https://api.scryfall.com/cards/41b6381f-4ff8-49e9-bf00-cfe32851318b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smoldering Marsh
@@ -696,6 +784,7 @@
   > When this land enters, target creature can't block this turn.
   > {T}: Add {R}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14477 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/e01/96/smoldering-spires) · oracle_id `cfa3288d-e521-4a13-bcb3-7950a94e1746` · printing: E01 #96 (2017-06-16) · [rulings](https://api.scryfall.com/cards/e6741f53-f02e-4f1b-9620-e49ad00e7e1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smoldering Stagecoach
@@ -709,7 +798,19 @@
   > Crew 2
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16275 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/30/smoldering-stagecoach) · oracle_id `83f87884-f0f9-482e-887e-35a8a5c20eb0` · printing: OTC #30 (2024-04-19) · [rulings](https://api.scryfall.com/cards/a39d6484-6530-4237-84b9-68ab8a056e7c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2024-04-12* — "Cascade" means "When you cast this spell, exile cards from the top of your library until you exile a nonland card whose mana value is less than this spell's mana value. You may cast that card without paying its mana cost if the resulting spell's mana value is less than this spell's mana value. Then put all cards exiled this way that weren't cast on the bottom of your library in a random order."
+  - *2024-04-12* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2024-04-12* — Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+  - *2024-04-12* — Due to a 2021 rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+  - *2024-04-12* — If a spell with cascade is countered, the cascade ability will still resolve normally.
+  - *2024-04-12* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-04-12* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, you must pay those to cast the card.
+  - *2024-04-12* — The ability that defines Smoldering Stagecoach's power works in all zones, not just the battlefield.
+  - *2024-04-12* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
+  - *2024-04-12* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether you cast the last card exiled.
+  - *2024-04-12* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/30/smoldering-stagecoach) · oracle_id `83f87884-f0f9-482e-887e-35a8a5c20eb0` · printing: OTC #30 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smoldering Tar
 
@@ -719,7 +820,9 @@
   > At the beginning of your upkeep, target player loses 1 life.
   > Sacrifice this enchantment: It deals 4 damage to target creature. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29635 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inv/275/smoldering-tar) · oracle_id `f268699f-c0a2-43f7-b933-7665599ab5ff` · printing: INV #275 (2000-10-02) · [rulings](https://api.scryfall.com/cards/fcdc55c0-c8ac-49d5-969b-9bf0ee8e696c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — If you cast this as normal during your main phase, it will enter the battlefield and you’ll receive priority. If no abilities trigger because of this, you can activate its ability immediately, before any other player has a chance to remove it from the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inv/275/smoldering-tar) · oracle_id `f268699f-c0a2-43f7-b933-7665599ab5ff` · printing: INV #275 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smoldering Werewolf // Erupting Dreadwolf
 
@@ -739,7 +842,10 @@
   > *—Raf Gyel of the Quiver of Kessig*
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21653 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/171/smoldering-werewolf-erupting-dreadwolf) · oracle_id `372a01f7-6e58-4424-9405-0ee4acbb9346` · printing: INR #171 (2025-01-24) · [rulings](https://api.scryfall.com/cards/e724d16c-d44b-4b8f-9616-64923e2cdeb2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-07-13* — Erupting Dreadwolf's triggered ability resolves before blockers are chosen. A creature dealt lethal damage this way won't be around to block.
+  - *2016-07-13* — If you transform Smoldering Werewolf into Erupting Dreadwolf after it has attacked, Erupting Dreadwolf's triggered ability won't trigger that combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/171/smoldering-werewolf-erupting-dreadwolf) · oracle_id `372a01f7-6e58-4424-9405-0ee4acbb9346` · printing: INR #171 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smolder Initiate
 
@@ -751,6 +857,7 @@
 - **Flavor text** (SHM printing):
   > *"Life is a circle. Death is a vicious circle."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28209 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/78/smolder-initiate) · oracle_id `0300d8a1-ff4e-4e05-a097-4822f80c47e1` · printing: SHM #78 (2008-05-02) · [rulings](https://api.scryfall.com/cards/16ecbed3-3a41-4823-8cd2-498daaaa0d4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smother
@@ -763,7 +870,11 @@
   > *"Before I hire new recruits, I test how long they can hold their breath. You'd be surprised how often it comes up."*
   > *—Zahr Gada, Halimar expedition leader*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23809 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddp/57/smother) · oracle_id `acdf9fb0-96eb-4520-bd4b-b6480c7c9b29` · printing: DDP #57 (2015-08-28) · [rulings](https://api.scryfall.com/cards/cf605c8e-e59f-4f49-bb55-1824e7eadec0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2010-03-01* — A creature's mana value is determined solely by the mana symbols printed in its upper right corner (unless that creature is copying something else; see below). If its mana cost includes {X}, X is considered to be 0. If it has no mana symbols in its upper right corner (because it's an animated land, for example), its mana value is 0. Ignore any alternative costs or additional costs (such as kicker) paid when the creature was cast.
+  - *2010-03-01* — A token has a mana value of 0, unless it is copying something else.
+  - *2010-03-01* — If a creature is copying something else, its mana value is the mana value of whatever it's copying.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddp/57/smother) · oracle_id `acdf9fb0-96eb-4520-bd4b-b6480c7c9b29` · printing: DDP #57 (2015-08-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smothering Abomination
 
@@ -813,7 +924,9 @@
   > As you draft a card, you may reveal it, note its name, then turn this card face down.
   > When this creature enters, you may search your library for a card with a name you noted for cards named Smuggler Captain, reveal it, put it into your hand, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32135 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/47/smuggler-captain) · oracle_id `dc90b4aa-ba5e-4188-939d-b3920bd9ab0d` · printing: CN2 #47 (2016-08-26) · [rulings](https://api.scryfall.com/cards/b10ce284-c994-429c-ad61-ffe1ca88d691/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-08-23* — If a Smuggler Captain enters the battlefield under your control, but you didn't draft one, there will be no applicable noted names. You may search and shuffle your library, but you can't find any cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/47/smuggler-captain) · oracle_id `dc90b4aa-ba5e-4188-939d-b3920bd9ab0d` · printing: CN2 #47 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smuggler's Buggy
 
@@ -826,7 +939,12 @@
   > Crew 2
 - **Keywords:** Crew, Hideaway
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10468 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/84/smugglers-buggy) · oracle_id `e19e1e83-75e5-4cfa-8d50-8ed0b027a202` · printing: NCC #84 (2022-04-29) · [rulings](https://api.scryfall.com/cards/0c635ea1-6395-4b28-86e7-6e136c95ca8a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-04-29* — "Hideaway N" means "When this permanent enters the battlefield, look at the top N cards of your library. Exile one of them face down and put the rest on the bottom of your library in a random order. The exiled card gains 'The player who controls the permanent that exiled this card may look at this card in the exile zone.'"
+  - *2022-04-29* — Any player who has controlled a permanent with a hideaway ability since a card was exiled with it may look at that card.
+  - *2022-04-29* — Hideaway now causes you to put the rest of the cards on the bottom of your library in a random order instead of any order.
+  - *2022-04-29* — Previously, permanents with hideaway entered the battlefield tapped. This ability has been removed from the definition of hideaway. Older cards have received errata to have an additional paragraph that reads "[This permanent] enters the battlefield tapped," and they now have hideaway 4.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/84/smugglers-buggy) · oracle_id `e19e1e83-75e5-4cfa-8d50-8ed0b027a202` · printing: NCC #84 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smuggler's Copter
 

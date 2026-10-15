@@ -45,7 +45,12 @@
   > Fire Cross — Whenever Seifer Almasy deals combat damage to a player, you may cast target instant or sorcery card with mana value 3 or less from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead.
 - **Keywords:** Fire Cross
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10461 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/156/seifer-almasy) · oracle_id `7088a901-0489-41c3-9f2f-633939514de8` · printing: FIN #156 (2025-06-13) · [rulings](https://api.scryfall.com/cards/9c776984-99ea-4181-ac95-78c41ba9d54f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-06-06* — A creature attacks alone if it's the only creature declared as an attacker during the declare attackers step (including creatures controlled by your teammates, if applicable). For example, Seifer Almasy's first ability won't trigger if you attack with multiple creatures and all but one of them are removed from combat. Similarly, creatures that enter the battlefield attacking later in combat won't be considered when determining whether or not a creature attacked alone.
+  - *2025-06-06* — If a card in your graveyard has {X} in its mana cost, X is 0 for the purpose of determining its mana value and you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2025-06-06* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the spell.
+  - *2025-06-06* — You cast the instant or sorcery while Seifer Almasy's last ability is resolving and still on the stack. You can't wait to cast it later in the turn. Timing restrictions based on the card's type are ignored.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/156/seifer-almasy) · oracle_id `7088a901-0489-41c3-9f2f-633939514de8` · printing: FIN #156 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seifer, Balamb Rival
 
@@ -58,7 +63,15 @@
   > Whenever a creature attacking one of your opponents becomes blocked by two or more creatures, that attacking creature gains deathtouch until end of turn.
 - **Keywords:** Goad, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15175 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/451/seifer-balamb-rival) · oracle_id `417b9d9c-0a67-4554-a275-a6ae15a04bfb` · printing: FIC #451 (2025-12-05) · [rulings](https://api.scryfall.com/cards/8a24c7c8-18c6-4e0d-b49b-05c19deaf31e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-10-02* — Attacking with a goaded creature doesn't cause it to stop being goaded. If there is an additional combat phase that turn, or if another player gains control of it before it stops being goaded, it must attack again if able.
+  - *2025-10-02* — Being goaded isn't an ability the creature has. Once it's been goaded, it must attack as detailed above even if it loses all abilities.
+  - *2025-10-02* — If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks.
+  - *2025-10-02* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent protects, or the player that goaded it.
+  - *2025-10-02* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
+  - *2025-10-02* — Once Seifer's last ability has triggered, it doesn't matter what happens to the blocking creatures. The creature will keep deathtouch even if one or more of the creatures blocking it are removed from combat or leave the battlefield.
+  - *2025-10-02* — Seifer's last ability triggers regardless of which player controls the attacking creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/451/seifer-balamb-rival) · oracle_id `417b9d9c-0a67-4554-a275-a6ae15a04bfb` · printing: FIC #451 (2025-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seismic Assault
 
@@ -70,7 +83,9 @@
   > *"In a war for survival, Dominaria itself became a weapon. The malice is gone, but the danger remains."*
   > *—Jhoira*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13658 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/146/seismic-assault) · oracle_id `8ad4f2fe-6d98-4279-a331-3817d40ae46d` · printing: UMA #146 (2018-12-07) · [rulings](https://api.scryfall.com/cards/6b2eb4e6-4ce1-4f72-9b3d-b6a44b22bd2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-12-07* — If an effect instructs you to draw cards and then discard cards, you can't take actions in between. For example, if you have no cards in hand and cast Faithless Looting, you can't activate Seismic Assault's ability between the time you draw two cards and discard those two cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/146/seismic-assault) · oracle_id `8ad4f2fe-6d98-4279-a331-3817d40ae46d` · printing: UMA #146 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seismic Elemental
 
@@ -83,7 +98,9 @@
   > *"Trying to stop it would be foolish. If you feel it coming—run!"*
   > *—Sergeant Ryda*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27227 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/362/seismic-elemental) · oracle_id `61ec78da-979c-45cf-8be6-12aa24dc833a` · printing: JMP #362 (2020-07-17) · [rulings](https://api.scryfall.com/cards/9dcec0d7-897e-4593-bd09-460207e28c90/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-06-22* — No creature without flying will be able to block that turn, including creatures that lose flying after Seismic Elemental’s ability resolves and creatures without flying that enter the battlefield after that ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/362/seismic-elemental) · oracle_id `61ec78da-979c-45cf-8be6-12aa24dc833a` · printing: JMP #362 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seismic Mage
 
@@ -95,6 +112,7 @@
 - **Flavor text** (MMQ printing):
   > *The ground shakes when he walks. His customers shake if they're late with his fee.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29346 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/211/seismic-mage) · oracle_id `a1f7e43a-f126-47d8-bd59-339ae052e81b` · printing: MMQ #211 (1999-10-04) · [rulings](https://api.scryfall.com/cards/9524432a-3186-4c7b-a780-28bdbe36053f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seismic Monstrosaur
@@ -108,6 +126,7 @@
   > Mountaincycling {2} ({2}, Discard this card: Search your library for a Mountain card, reveal it, put it into your hand, then shuffle.)
 - **Keywords:** Mountaincycling, Landcycling, Trample, Typecycling, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13725 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/166/seismic-monstrosaur) · oracle_id `3b66d2c2-be7a-4296-9888-f0cfb2975e89` · printing: LCI #166 (2023-11-17) · [rulings](https://api.scryfall.com/cards/98aeb9dc-18f9-4120-ac3d-226c62a1dc1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seismic Rupture
@@ -119,6 +138,7 @@
 - **Flavor text** (FDN printing):
   > *The raiding party advanced on the lone figure, confident they had her cornered and helpless. Then she raised her hands, and the ground opened with a fiery roar.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17735 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/205/seismic-rupture) · oracle_id `3b1f1a57-d83a-443f-b190-03df63d2bfe6` · printing: FDN #205 (2024-11-15) · [rulings](https://api.scryfall.com/cards/2519a51a-26a0-4884-9ba8-9db135c9ee49/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seismic Sense
@@ -143,6 +163,7 @@
   > *"Shiv is a restless land. It heaves ash, bleeds lava, and scabs over in black obsidian."*
   > *—\*The First Eruption\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23367 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/141/seismic-shift) · oracle_id `b81894bc-d5ca-44ee-b837-bdb8fec32881` · printing: DOM #141 (2018-04-27) · [rulings](https://api.scryfall.com/cards/dad40a04-a026-4285-8c78-088a356652d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seismic Shudder
@@ -155,6 +176,7 @@
   > *"The land here seems to go out of its way to kill you."*
   > *—Chandra Nalaar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25435 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/zen/147/seismic-shudder) · oracle_id `10c0f705-4c23-4761-afa9-4a29cf90e8ae` · printing: ZEN #147 (2009-10-02) · [rulings](https://api.scryfall.com/cards/20365082-6102-4e3b-8791-c9b66846270d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seismic Spike
@@ -166,6 +188,7 @@
 - **Flavor text** (RAV printing):
   > *Natural disasters in Ravnica are largely nullified by the Izzet. Unnatural disasters, on the other hand, happen all the time.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16856 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/141/seismic-spike) · oracle_id `25ec6309-0ccb-4f27-80f1-ec6dcc6461fa` · printing: RAV #141 (2005-10-07) · [rulings](https://api.scryfall.com/cards/b9caddbe-1329-4ac2-9071-6fc5059d4dec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seismic Stomp
@@ -178,7 +201,9 @@
   > *"It is not in me to tread lightly."*
   > *—Ryda, geomancer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18991 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ema/146/seismic-stomp) · oracle_id `a1d02a70-2543-45c6-a9a1-c1941f2f68f3` · printing: EMA #146 (2016-06-10) · [rulings](https://api.scryfall.com/cards/d7bb50b1-e65c-4d56-8705-f20f6fa1ca12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-06-08* — No creature without flying will be able to block that turn, including creatures that lose flying after Seismic Stomp resolves and creatures without flying that enter the battlefield after Seismic Stomp resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ema/146/seismic-stomp) · oracle_id `a1d02a70-2543-45c6-a9a1-c1941f2f68f3` · printing: EMA #146 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seismic Strike
 
@@ -190,6 +215,7 @@
   > *"Life up here is simple. Adapt to the ways of the mountains and they will reward you. Fight them and they will end you."*
   > *—Kezim, prodigal pyromancer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14031 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m15/280/seismic-strike) · oracle_id `3513d862-ef0d-4949-b33a-3fa9437cc444` · printing: M15 #280 (2014-07-18) · [rulings](https://api.scryfall.com/cards/972d0b03-8602-4ada-86b9-4262941bae67/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seismic Tutelage
@@ -204,6 +230,7 @@
   > *"The key is being completely rooted—physically and mentally unmovable."*
 - **Keywords:** Enchant, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11141 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/254/seismic-tutelage) · oracle_id `7ece47b1-0b4b-40ac-a90f-4573a8e3b8bd` · printing: TLE #254 (2025-11-21) · [rulings](https://api.scryfall.com/cards/7e6939a5-0890-4c2f-b517-7d16f6490e76/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seismic Wave
@@ -215,6 +242,7 @@
 - **Flavor text** (NEO printing):
   > *"Step carefully, Imperial. Even the earth rises against you."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20089 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/161/seismic-wave) · oracle_id `6a56e2ef-75dd-47d5-b61c-11faaba8cd9a` · printing: NEO #161 (2022-02-18) · [rulings](https://api.scryfall.com/cards/e55b8ffb-c2e4-4676-9051-ff6c686cad0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seizan, Perverter of Truth
@@ -241,6 +269,7 @@
 - **Flavor text** (DSK printing):
   > *Tyson tried to scream for help, but his lungs simply unraveled.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13643 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/28/seized-from-slumber) · oracle_id `7ac608bc-dc2a-43c9-9b3b-1b985c121d60` · printing: DSK #28 (2024-09-27) · [rulings](https://api.scryfall.com/cards/24456083-0c76-46c5-9b18-8d468702df69/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seize Opportunity
@@ -254,7 +283,9 @@
 - **Flavor text** (TDM printing):
   > *In this year's Lightning Proving, Paala reclaimed her confidence and her place in the Mardu.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11501 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/119/seize-opportunity) · oracle_id `d0458ffe-9a61-443f-8e80-3d2dde224a4d` · printing: TDM #119 (2025-04-11) · [rulings](https://api.scryfall.com/cards/f7818d28-b9a5-4341-9adc-666070b8878d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-04-04* — You pay all costs and follow all timing rules for cards played this way. For example, if one of the exiled cards is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/119/seize-opportunity) · oracle_id `d0458ffe-9a61-443f-8e80-3d2dde224a4d` · printing: TDM #119 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seize the Day
 
@@ -286,7 +317,9 @@
 - **Flavor text** (SOM printing):
   > *The time between spotting a leonin shikari and feeling its claws is just time enough to draw your last breath.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29950 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/som/20/seize-the-initiative) · oracle_id `f6653d90-cd30-4b2b-9592-97d5769dc3d8` · printing: SOM #20 (2010-10-01) · [rulings](https://api.scryfall.com/cards/6d745f35-944a-4157-a351-baa06f67b725/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-01* — A creature that gains first strike after other creatures with first strike or double strike deal combat damage in the first combat damage step will still deal damage in the second combat damage step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/som/20/seize-the-initiative) · oracle_id `f6653d90-cd30-4b2b-9592-97d5769dc3d8` · printing: SOM #20 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seize the Secrets
 
@@ -298,7 +331,13 @@
 - **Flavor text** (OTJ printing):
   > *Nolan refused to give up the vault's location. The strange figure simply smiled and reached into his mind.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12953 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/64/seize-the-secrets) · oracle_id `db070312-9a27-435f-8b23-e538441103ec` · printing: OTJ #64 (2024-04-19) · [rulings](https://api.scryfall.com/cards/1bdbdfa8-aa28-4b3d-95e7-3d0e7e37f982/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-04-12* — A player can commit only one crime per spell or ability they control. Targeting multiple opponents, permanents, spells, abilities, and/or cards with the same spell or ability doesn’t constitute committing multiple crimes.
+  - *2024-04-12* — A player commits a crime as they cast a spell, activate an ability, or put a triggered ability on the stack that targets at least one opponent, at least one permanent, spell, or ability an opponent controls, and/or at least one card in an opponent’s graveyard.
+  - *2024-04-12* — Changing the target or targets of a spell or ability won’t affect whether or not the controller of that spell or ability has committed a crime. Only the initial targets chosen for that spell or ability are used to determine whether or not its controller committed a crime.
+  - *2024-04-12* — For example, an ability that triggers when you cast a spell that targets an opponent will trigger at the same time as an ability that triggers whenever you commit a crime. Those abilities can be put on the stack in either order (if you control them both), and they’ll both resolve before the spell that caused them to trigger.
+  - *2024-04-12* — The spell or ability that constituted a crime doesn’t have to have resolved yet or at all. As soon as you’re finished casting the spell, activating the ability, or putting the triggered ability on the stack, you’ve committed a crime.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/64/seize-the-secrets) · oracle_id `db070312-9a27-435f-8b23-e538441103ec` · printing: OTJ #64 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seize the Soul
 
@@ -310,7 +349,10 @@
   > When the creature this card haunts dies, destroy target nonwhite, nonblack creature. Create a 1/1 white Spirit creature token with flying.
 - **Keywords:** Haunt
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26102 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/61/seize-the-soul) · oracle_id `91557f08-15b1-4e3e-90fd-cec35ed0868a` · printing: GPT #61 (2006-02-03) · [rulings](https://api.scryfall.com/cards/29bf245f-e8e0-4d32-8cd7-06d832609910/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2006-02-01* — A "nonwhite nonblack" creature is a creature that's neither white nor black. It can be any other color or combination of colors, or it can be colorless.
+  - *2006-02-01* — If you can't choose a nonwhite nonblack creature to target when the haunted creature is put into a graveyard, or if the target becomes illegal, you don't get a token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/61/seize-the-soul) · oracle_id `91557f08-15b1-4e3e-90fd-cec35ed0868a` · printing: GPT #61 (2006-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seize the Spoils
 
@@ -348,7 +390,17 @@
   > Flashback {6}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14574 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/170/seize-the-storm) · oracle_id `d3455e93-3a05-42db-945d-c4c85f4ac827` · printing: INR #170 (2025-01-24) · [rulings](https://api.scryfall.com/cards/45ec2af6-8397-429f-900f-846a5056f8e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2021-09-24* — If you cast Seize the Storm with no instant or sorcery cards in your graveyard and no cards with flashback in exile, the Elemental will start as a 0/0 creature. However, state-based actions won't be checked until after Seize the Storm has finished resolving. The Elemental will then be a 1/1 creature and survive because Seize the Storm will either be in your graveyard or in exile.
+  - *2021-09-24* — The power and toughness of the Elemental token will change as the number of instant and sorcery cards in your graveyard and the number of cards with flashback you own in exile change.
+  - *2021-09-24* — While a spell is on the stack, it is neither in your graveyard nor in exile, so it won't contribute to the Elemental's power and toughness. For example, with Seize the Storm in your graveyard and no cards in exile, the 1/1 Elemental in the above scenario will become 0/0 and die if you cast Seize the Storm from your graveyard using flashback.
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/170/seize-the-storm) · oracle_id `d3455e93-3a05-42db-945d-c4c85f4ac827` · printing: INR #170 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seizures
 
@@ -362,4 +414,5 @@
   > *—Lim-Dûl, the Necromancer*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24470 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/159/seizures) · oracle_id `550921f5-ec65-460d-9ada-f2c5a4c4b2c4` · printing: ICE #159 (1995-06-03) · [rulings](https://api.scryfall.com/cards/da369c86-7e17-43d8-b626-b6842e3d2d50/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

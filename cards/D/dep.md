@@ -37,7 +37,10 @@
   > Each Vehicle you control gets +1/+1 as long as it's a creature.
   > Whenever Depala becomes tapped, you may pay {X}. If you do, reveal the top X cards of your library, put all Dwarf and Vehicle cards from among them into your hand, then put the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10713 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/178/depala-pilot-exemplar) · oracle_id `cc913f28-18ef-485e-8d2b-ae0115523020` · printing: KLD #178 (2016-09-30) · [rulings](https://api.scryfall.com/cards/592f3a92-787e-4180-9d0b-06c973ce8975/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-09-20* — Depala, Pilot Exemplar's last ability is a triggered ability, not an activated ability. It doesn't allow you to tap Depala whenever you want; rather, you need some other way of tapping it, such as by attacking.
+  - *2016-09-20* — For the ability to trigger, Depala has to actually change from untapped to tapped. If an effect attempts to tap Depala, but it was already tapped at the time, this ability won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/178/depala-pilot-exemplar) · oracle_id `cc913f28-18ef-485e-8d2b-ae0115523020` · printing: KLD #178 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Departed Deckhand
 
@@ -66,7 +69,11 @@
   > *"My home calls to me, I must go."*
 - **Keywords:** Foretell
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10083 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/53/depart-the-realm) · oracle_id `ae069ba4-8ca6-4eda-8f5d-fc82072d7d40` · printing: KHM #53 (2021-02-05) · [rulings](https://api.scryfall.com/cards/2ce0403d-76ed-4eb0-abdd-74ed28f96137/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-02-05* — Because exiling a card with foretell from your hand is a special action, you can do so any time you have priority during your turn, including in response to spells and abilities. Once you announce you’re taking the action, no other player can respond by trying to remove the card from your hand.
+  - *2021-02-05* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player’s turn. In most cases, if you foretell a card that isn’t an instant (or doesn’t have flash), you’ll have to wait until your next turn to cast it.
+  - *2021-02-05* — If you’re casting a foretold card from exile for its foretell cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/53/depart-the-realm) · oracle_id `ae069ba4-8ca6-4eda-8f5d-fc82072d7d40` · printing: KHM #53 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dependable Quinjet
 
@@ -82,6 +89,7 @@
   > *—She-Hulk, Jennifer Walters*
 - **Keywords:** Flying, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15278 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/246/dependable-quinjet) · oracle_id `60105eb8-bdca-44b9-a970-68a7615526e8` · printing: MSH #246 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c035c625-4de5-4c3b-9d07-aa1df8fc7b78/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deploy the Gatewatch
@@ -93,6 +101,7 @@
 - **Flavor text** (CMM printing):
   > *Gideon and Liliana may not have seen eye to eye, but that did not stop them from fighting side by side.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10404 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/819/deploy-the-gatewatch) · oracle_id `e17ea7eb-362e-4c61-97cd-537f3921bced` · printing: CMM #819 (2023-08-04) · [rulings](https://api.scryfall.com/cards/34f4c453-97b4-4cd5-a766-85e5647f71d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deploy to the Front
@@ -117,6 +126,7 @@
 - **Flavor text** (SNC printing):
   > *No screams rang out. No blood stained the streets. In an instant, the bustling metropolis simply fell silent.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10614 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/10/depopulate) · oracle_id `4a83c2fa-f2d2-4b86-8407-4269f127936d` · printing: SNC #10 (2022-04-29) · [rulings](https://api.scryfall.com/cards/c53c1898-9107-4bf8-b249-d0502fb9596d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Depose // Deploy
@@ -128,7 +138,17 @@
 - **Face 2: Deploy** — {2}{W}{U} — Instant
   > Create two 1/1 colorless Thopter artifact creature tokens with flying, then you gain 1 life for each creature you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17800 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/185/depose-deploy) · oracle_id `c547c9ab-a303-48fb-9579-37f9de9a558b` · printing: CLU #185 (2024-02-23) · [rulings](https://api.scryfall.com/cards/0bda0b80-8a41-4001-9f60-06b1d7f9b1fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2019-01-25* — If the target creature is an illegal target by the time Depose tries to resolve, the spell doesn't resolve. You don't draw a card. If the target is legal but not tapped (most likely because it was already tapped), you do draw a card.
+  - *2019-01-25* — You create Thopters and gain life all while Deploy is resolving. Nothing can happen between the two, and no player may choose to take actions.
+  - *2022-12-08* — A split card's characteristics are a combination of its two halves while it is not on the stack. For example, Assault // Battery has a mana value of 5 while it is in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Assault // Battery.
+  - *2022-12-08* — Each split card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2022-12-08* — Each split card is a single card. For example, if you discard a split card, you've discarded one card, not two. If an effect counts the number of sorcery cards in your graveyard, Assault // Battery counts once, not twice.
+  - *2022-12-08* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the half you're casting. For example, if an effect allows you to cast a sorcery spell with mana value 2 or less from among cards in your graveyard, you could cast Assault this way, but not Battery.
+  - *2022-12-08* — If you copy a spell that's half of a split card, the copy copies that same half. For example, if you copy Assault, the copy is also Assault, not Battery.
+  - *2022-12-08* — Split cards have two card faces on a single card. The characteristics of the half you didn't cast are ignored while the spell is on the stack.
+  - *2022-12-08* — To cast a split card, choose one of its halves to cast. There's no way to cast both halves of this split card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/185/depose-deploy) · oracle_id `c547c9ab-a303-48fb-9579-37f9de9a558b` · printing: CLU #185 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Depower
 
@@ -141,6 +161,7 @@
 - **Flavor text** (MSH printing):
   > *"WAIT . . . I feel funny . . . something's not right."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18527 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/50/depower) · oracle_id `33f89437-885b-4850-88b7-239f5dfcc8b1` · printing: MSH #50 (2026-06-26) · [rulings](https://api.scryfall.com/cards/36e9a6e9-1f9d-4860-97ee-f01e66f8eb4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Depressurize
@@ -152,6 +173,7 @@
 - **Flavor text** (EOE printing):
   > *The Sunstar faith teaches of Perfect Void—of emptying oneself so that the light may fill the hollow. But in the void of death, its teachings bring little comfort.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18086 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/95/depressurize) · oracle_id `abcb5321-c295-4abf-8622-7de79679d27a` · printing: EOE #95 (2025-08-01) · [rulings](https://api.scryfall.com/cards/25520d5a-1a83-42cc-8ace-8b1156019d64/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deprive
@@ -179,7 +201,15 @@
   > {3}: Untap this creature.
 - **Keywords:** Prototype
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21893 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/78/depth-charge-colossus) · oracle_id `f376f4c6-4526-4ae3-a84a-e8ea50fe78b6` · printing: BRO #78 (2022-11-18) · [rulings](https://api.scryfall.com/cards/34e09173-a92d-4cc3-9d02-bf18ab0850ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-10-14* — A prototype card is a colorless card in every zone except the stack or the battlefield, as well as while on the stack or the battlefield if not cast as a prototyped spell. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Blitz Automaton is a colorless creature card with mana value 7. It can't be the target of Recommission, a spell that targets an artifact or creature card with mana value 3 or less in your graveyard.
+  - *2022-10-14* — Casting a prototyped spell isn't the same as casting it for an alternative cost, and an alternative cost may be applied to a spell cast this way. For example, if an effect allows you to cast an artifact card without paying its mana cost, you could either cast Blitz Automaton normally, or as a prototyped spell.
+  - *2022-10-14* — If an effect copies a prototyped spell, that copy (as well as the token it becomes on the battlefield) will have the same characteristics as the prototyped spell. Similarly, if an effect creates a token that's a copy of a prototyped permanent or causes another permanent to become a copy of it, the copy would have the same characteristics as the prototyped permanent.
+  - *2022-10-14* — Regardless of how it was cast, a prototype card always has the same name, abilities, types, and so on. Only the mana cost, mana value, color, power, and toughness change depending on whether the card was cast as a prototyped spell.
+  - *2022-10-14* — The prototype ability functions in any zone that the spell could be cast from. For example, if an effect allows you to cast artifact spells from your graveyard, you could cast a prototyped Blitz Automaton from your graveyard.
+  - *2022-10-14* — When cast as a prototyped spell, that spell has the mana cost, power, and toughness characteristics shown in its colored, secondary text box rather than the normal values of those characteristics. Its color and mana value are determined by that mana cost. The permanent that spell becomes as it resolves has the same characteristics. If the spell leaves the stack in any other way, or the permanent it becomes leaves the battlefield, it immediately resumes using its normal characteristics.
+  - *2022-10-14* — When casting a prototyped spell, use only its prototype characteristics to determine whether it's legal to cast it. For example, if Blitz Automaton is exiled with the last ability of Chandra, Dressed to Kill, you would be able to cast it for {2}{R} (because it's a red spell), even though you wouldn't be able to cast it as a colorless spell for its normal cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/78/depth-charge-colossus) · oracle_id `f376f4c6-4526-4ae3-a84a-e8ea50fe78b6` · printing: BRO #78 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Depth Defiler
 
@@ -194,7 +224,21 @@
   > • Target player draws two cards, then discards a card.
 - **Keywords:** Devoid, Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19312 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/58/depth-defiler) · oracle_id `8ca4ca66-30b1-4074-a2e3-545b7682381b` · printing: MH3 #58 (2024-06-14) · [rulings](https://api.scryfall.com/cards/37684797-7503-460d-9f74-047b1ab2fac3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2024-06-07* — A card with devoid is just colorless. It's not colorless and the colors of mana in its mana cost.
+  - *2024-06-07* — Devoid doesn't affect the color identity of the card for the purposes of the Commander variant. For example, while Abstruse Appropriation is colorless because it has devoid, its color identity is still white and black, and it can't be included in a Commander deck where the commander's color identity doesn't include both white and black.
+  - *2024-06-07* — Devoid works in all zones, not just on the battlefield.
+  - *2024-06-07* — Each chosen mode is performed in the order specified. Abilities that trigger while one mode is being performed won't be put onto the stack until Depth Defiler's triggered ability has finished resolving.
+  - *2024-06-07* — If a card loses devoid, it will still be colorless. This is because effects that change an object's color (like the one created by devoid) are considered before the object loses devoid.
+  - *2024-06-07* — Other cards and abilities can give a card with devoid a color. If that happens, it's just the new color, not that color and colorless.
+  - *2024-06-07* — The triggered ability will resolve before Depth Defiler does. If Depth Defiler is countered or otherwise leaves the stack in response to its triggered ability, the triggered ability will still resolve as normal. If Depth Defiler was kicked, you'll still follow the instructions of both modes.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/58/depth-defiler) · oracle_id `8ca4ca66-30b1-4074-a2e3-545b7682381b` · printing: MH3 #58 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Depthshaker Titan
 
@@ -220,6 +264,7 @@
   > *Pockets full of gold, lungs full of brine.*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15522 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/52/depths-of-desire) · oracle_id `caa0c20c-594b-4ffd-87de-60bf15d8c3be` · printing: XLN #52 (2017-09-29) · [rulings](https://api.scryfall.com/cards/63420437-76a9-40cf-aedc-0ca1e73fcc0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deputized Protester
@@ -234,7 +279,12 @@
   > *Butcher's training, warrior's heart.*
 - **Keywords:** Melee, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26946 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/131/deputized-protester) · oracle_id `09947592-1730-4c1c-bfa5-be53a68d6919` · printing: CLU #131 (2024-02-23) · [rulings](https://api.scryfall.com/cards/ea01ecdf-f201-4304-9d6a-d96d313ed7b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-08-23* — Creatures that enter the battlefield attacking were never declared as attackers, so they won’t count toward melee’s effect. Similarly, if a creature with melee enters the battlefield attacking, melee won’t trigger.
+  - *2016-08-23* — It doesn’t matter how many creatures you attacked a player with, only that you attacked a player with at least one creature. For example, if you attack one player with Wings of the Guard and another player with five creatures, Wings of the Guard will get +2/+2 until end of turn.
+  - *2016-08-23* — Melee will trigger if the creature with melee attacks a planeswalker. However, the effect counts only opponents (and not planeswalkers) that you attacked with a creature when determining the bonus.
+  - *2016-08-23* — You determine the size of the bonus as the melee ability resolves. Count each opponent that you attacked with one or more creatures. It doesn’t matter if the attacking creatures are still attacking or even if they are still on the battlefield. It also doesn’t matter if the opponent you attacked is still in the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/131/deputized-protester) · oracle_id `09947592-1730-4c1c-bfa5-be53a68d6919` · printing: CLU #131 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deputy of Acquittals
 
@@ -248,6 +298,7 @@
   > *"Everyone deserves a day in court."*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17784 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/177/deputy-of-acquittals) · oracle_id `3cbb5045-8566-4279-b7d3-3e599b11ccc5` · printing: RVR #177 (2024-01-12) · [rulings](https://api.scryfall.com/cards/d2bd4630-9623-4a41-bc16-c017e63f8122/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deputy of Detention
@@ -258,4 +309,12 @@
 - **Oracle text:**
   > When this creature enters, exile target nonland permanent an opponent controls and all other nonland permanents that player controls with the same name as that permanent until this creature leaves the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15514 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/165/deputy-of-detention) · oracle_id `0e4150db-ac43-48b4-9791-0d874906acf5` · printing: RNA #165 (2019-01-25) · [rulings](https://api.scryfall.com/cards/7e362055-78a1-48fa-a4ef-6cf7e0b21b14/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2019-01-25* — A face-down creature has no name, so it can't share a name with anything. This includes other creatures with no name.
+  - *2019-01-25* — Auras attached to the exiled permanents will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanents will cease to exist.
+  - *2019-01-25* — If Deputy of Detention leaves the battlefield before its triggered ability resolves, nothing is exiled.
+  - *2019-01-25* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2019-01-25* — If the target nonland permanent is an illegal target by the time this ability tries to resolve, the ability doesn't resolve. Nothing is exiled.
+  - *2019-01-25* — This ability has only one target. The other permanents with that name aren't targeted. For example, a permanent with hexproof will be exiled if it has the same name as the target nonland permanent.
+  - *2022-06-10* — Unless a token is a copy of another permanent or was explicitly given a name by the effect that created it, its name is the subtypes it was given when it was created plus the word "Token." For example, if an effect creates a 1/1 Soldier creature token, that token is named "Soldier Token."
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/165/deputy-of-detention) · oracle_id `0e4150db-ac43-48b4-9791-0d874906acf5` · printing: RNA #165 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

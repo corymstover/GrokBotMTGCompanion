@@ -52,7 +52,16 @@
   > Revolt — At the beginning of your end step, if a permanent left the battlefield under your control this turn, reveal the top card of your library. If it's a permanent card, you may put it onto the battlefield. Otherwise, you may put it on the bottom of your library.
 - **Keywords:** Revolt
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11129 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/290/aid-from-the-cowl) · oracle_id `9597c974-6120-43a7-9ad3-7e4fddc8c9f5` · printing: MOC #290 (2023-04-21) · [rulings](https://api.scryfall.com/cards/327dbb25-833a-4293-b397-ebe7859227a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2017-02-09* — A permanent card is an artifact, creature, enchantment, land, or planeswalker card.
+  - *2017-02-09* — All cards in the Aether Revolt set with triggered revolt abilities use an intervening "if" clause. A permanent you controlled must have left the battlefield earlier in the turn in order for these abilities to trigger; otherwise they do nothing. In other words, there's no way to have the ability trigger if no permanent you controlled has left the battlefield that turn, even if you intend to have one do so in response to the triggered ability.
+  - *2017-02-09* — Energy counters aren't permanents. Paying {E} won't satisfy a revolt ability.
+  - *2017-02-09* — If a permanent put onto the battlefield this way has an ability that triggers at the beginning of your end step, it won't trigger during this end step.
+  - *2017-02-09* — If the revealed card is not a permanent card or if you choose not to put it onto the battlefield, you may put it on the bottom of your library. If you don't, it remains on top of your library.
+  - *2017-02-09* — Revolt abilities check only whether a permanent you controlled left the battlefield this turn or not. They don't apply multiple times if more than one permanent you controlled left the battlefield. They don't check whether the permanent that left the battlefield is still in the zone it moved to.
+  - *2017-02-09* — Revolt abilities don't care why the permanent left the battlefield, who caused it to move, or where it moved to. They're equally satisfied by an artifact you sacrificed to pay a cost, a creature you controlled that was destroyed by Murder, or an enchantment you returned to your hand with Leave in the Dust.
+  - *2017-02-09* — Tokens that leave the battlefield will satisfy a revolt ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/290/aid-from-the-cowl) · oracle_id `9597c974-6120-43a7-9ad3-7e4fddc8c9f5` · printing: MOC #290 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aid the Fallen
 
@@ -65,6 +74,7 @@
 - **Flavor text** (WAR printing):
   > *"I never liked you. Now get up—we have a fight to finish."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12185 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/76/aid-the-fallen) · oracle_id `acb0084d-3b09-4d2a-a4c1-848c92588845` · printing: WAR #76 (2019-05-03) · [rulings](https://api.scryfall.com/cards/5f8bc010-f1af-42a2-9009-2039cf3d8f0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### A.I.M. Bot
@@ -78,6 +88,7 @@
   > *"Thank you for visiting the Advanced Idea Mechanics laboratory. You will now be eradicated. Goodbye!"*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28413 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/529/aim-bot) · oracle_id `bd269d87-5f72-4559-bf2b-270e2ebe6154` · printing: MSC #529 (2026-06-26) · [rulings](https://api.scryfall.com/cards/52b09b2a-8876-4b7d-97bd-2f46fd96849a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aim for the Head
@@ -92,7 +103,9 @@
   > *"Works every time."*
   > *—Halana, Kessig ranger*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23179 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/92/aim-for-the-head) · oracle_id `b191ae0c-7d54-459f-abe3-aab5d792e514` · printing: VOW #92 (2021-11-19) · [rulings](https://api.scryfall.com/cards/1174e8e1-2e8e-4070-9871-7d5d93e0dd56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-11-19* — If the target opponent only has one card in hand, they will exile that card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/92/aim-for-the-head) · oracle_id `b191ae0c-7d54-459f-abe3-aab5d792e514` · printing: VOW #92 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aim High
 
@@ -104,7 +117,10 @@
   > *"A slayer gets by on wits and reflexes."*
   > *—Higa, slayer-captain of Gatstaf*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15461 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/185/aim-high) · oracle_id `c169929a-850b-4d46-9f14-a922f4465d85` · printing: INR #185 (2025-01-24) · [rulings](https://api.scryfall.com/cards/b28dbf2c-9bfe-42be-be55-1e7fb523df36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-01-24* — Aim High can target a creature that’s already untapped. It still gets +2/+2 and gains reach until end of turn.
+  - *2025-01-24* — Untapping an attacking creature doesn’t cause it to be removed from combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/185/aim-high) · oracle_id `c169929a-850b-4d46-9f14-a922f4465d85` · printing: INR #185 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### A.I.M. Labs
 
@@ -118,6 +134,7 @@
   > *"Once I was a mere human guinea pig for A.I.M. scientists. But they did their job too well, and now I am their master!"*
   > *—M.O.D.O.K.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14393 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/257/aim-labs) · oracle_id `8417f2d5-93c9-474a-a143-5c4e17097a88` · printing: MSH #257 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ca24cd9f-fd9f-4ea0-8b9c-ecf98db219a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### A.I.M. Scientists
@@ -132,6 +149,7 @@
   > *Science demands sacrifice.*
 - **Keywords:** Landcycling, Basic landcycling, Typecycling, Cycling, Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21339 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/44/aim-scientists) · oracle_id `fa732888-5b7d-4087-a6e5-1db1c98fbd4c` · printing: MSH #44 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ab96b656-100e-491a-a8c9-94dbb9482c4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### A.I.M. Synthoids
@@ -145,6 +163,7 @@
   > *"M.O.D.O.K.—commands—that—you—be—neutralized! Nothing—must—interfere—with—our—programmed—mission!"*
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19170 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/242/aim-synthoids) · oracle_id `10916f33-aaa6-43a1-9835-b60fd061161f` · printing: MSH #242 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f29dee50-ea7e-4a54-bc91-99928a8405e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ainok Artillerist
@@ -158,6 +177,7 @@
   > *"In the Tarkir I once knew, the Abzan revered their ancestor trees. Now, as Dromoka, they cut their finest groves to make weapons."*
   > *—Sarkhan Vol*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24240 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/171/ainok-artillerist) · oracle_id `860d0449-8032-458b-8335-30be238d6689` · printing: DTK #171 (2015-03-27) · [rulings](https://api.scryfall.com/cards/3a4c8964-06e4-4a24-9a7e-9cac0fb8518e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ainok Bond-Kin
@@ -187,7 +207,10 @@
   > • Put a +1/+1 counter on this creature.
   > • Search your library for a basic land card, reveal it, then shuffle and put that card on top.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17158 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frf/121/ainok-guide) · oracle_id `e5f96482-4bae-4d1b-97b2-dcc09676eb6e` · printing: FRF #121 (2015-01-23) · [rulings](https://api.scryfall.com/cards/c361ea9c-a989-4ded-8b2c-f565aa9d8a1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-11-24* — If a mode requires a target and there are no legal targets available, that mode can't be chosen. You must choose another mode if able.
+  - *2014-11-24* — You choose which mode you're using as you put the ability on the stack, after the creature has entered the battlefield. Once you've chosen a mode, you can't change that mode even if the creature leaves the battlefield in response to that ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frf/121/ainok-guide) · oracle_id `e5f96482-4bae-4d1b-97b2-dcc09676eb6e` · printing: FRF #121 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ainok Strike Leader
 
@@ -231,7 +254,17 @@
   > *Some ainok of the mountains are accepted among the Temur as trusted hunt-mates.*
 - **Keywords:** Morph, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29583 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/96/ainok-tracker) · oracle_id `bf84a598-12d3-406d-8eeb-40592e782b87` · printing: KTK #96 (2014-09-26) · [rulings](https://api.scryfall.com/cards/0ff9400d-4842-471f-bf7e-3b21df352e0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2014-09-20* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren’t affected.
+  - *2014-09-20* — Any time you have priority, you may turn the face-down creature face up by revealing what its morph cost is and paying that cost. This is a special action. It doesn’t use the stack and can’t be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2014-09-20* — At any time, you can look at a face-down spell or permanent you control. You can’t look at face-down spells or permanents you don’t control unless an effect instructs you to do so.
+  - *2014-09-20* — Because the permanent is on the battlefield both before and after it’s turned face up, turning a permanent face up doesn’t cause any enters-the-battlefield abilities to trigger.
+  - *2014-09-20* — If a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+  - *2014-09-20* — Morph lets you cast a card face down by paying {3}, and lets you turn the face-down permanent face up any time you have priority by paying its morph cost.
+  - *2014-09-20* — The face-down spell has no mana cost and has a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost.
+  - *2014-09-20* — When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It’s colorless and has a mana value of 0. Other effects that apply to the creature can still grant it any of these characteristics.
+  - *2014-09-20* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/96/ainok-tracker) · oracle_id `bf84a598-12d3-406d-8eeb-40592e782b87` · printing: KTK #96 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ainok Wayfarer
 
@@ -244,6 +277,7 @@
   > *"There has to be a faster route through Sagu Jungle. Give me a week."*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11924 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/134/ainok-wayfarer) · oracle_id `8134f3fd-197a-4b44-a370-311cc955dea3` · printing: TDM #134 (2025-04-11) · [rulings](https://api.scryfall.com/cards/57695a9b-8f72-4ccc-a946-5d5037b09b8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Airbender Ascension
@@ -318,6 +352,7 @@
   > *Random mutations among Rootwater merfolk were common—and disturbing.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27023 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/28/air-bladder) · oracle_id `25c8a3b0-c393-4fc6-a373-808cd8e9850c` · printing: NEM #28 (2000-02-14) · [rulings](https://api.scryfall.com/cards/a7363c6f-53a3-4f41-b451-8120bc24f1ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Airborne Aid
@@ -345,6 +380,7 @@
   > *Elemental Evil distorts the natural elements, limiting them to aspects of destruction.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24071 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/45/air-cult-elemental) · oracle_id `6ec2d957-c6d9-469f-8190-8b621c490238` · printing: AFR #45 (2021-07-23) · [rulings](https://api.scryfall.com/cards/fba82564-a9a9-4ded-a5fa-0e5fab2a3faa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Airdrop Aeronauts
@@ -359,7 +395,13 @@
   > *"Supplies inbound. Keep that pressure on."*
 - **Keywords:** Flying, Revolt
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26804 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/5/airdrop-aeronauts) · oracle_id `009a399b-c78e-475b-8bc3-7db2afc9d676` · printing: AER #5 (2017-01-20) · [rulings](https://api.scryfall.com/cards/49827a57-cf10-4a44-a1fd-ac611da39dc9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-02-09* — All cards in the Aether Revolt set with triggered revolt abilities use an intervening "if" clause. A permanent you controlled must have left the battlefield earlier in the turn in order for these abilities to trigger; otherwise they do nothing. In other words, there's no way to have the ability trigger if no permanent you controlled has left the battlefield that turn, even if you intend to have one do so in response to the triggered ability.
+  - *2017-02-09* — Energy counters aren't permanents. Paying {E} won't satisfy a revolt ability.
+  - *2017-02-09* — Revolt abilities check only whether a permanent you controlled left the battlefield this turn or not. They don't apply multiple times if more than one permanent you controlled left the battlefield. They don't check whether the permanent that left the battlefield is still in the zone it moved to.
+  - *2017-02-09* — Revolt abilities don't care why the permanent left the battlefield, who caused it to move, or where it moved to. They're equally satisfied by an artifact you sacrificed to pay a cost, a creature you controlled that was destroyed by Murder, or an enchantment you returned to your hand with Leave in the Dust.
+  - *2017-02-09* — Tokens that leave the battlefield will satisfy a revolt ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/5/airdrop-aeronauts) · oracle_id `009a399b-c78e-475b-8bc3-7db2afc9d676` · printing: AER #5 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Airdrop Condor
 
@@ -373,6 +415,7 @@
   > *It has two kinds of droppings, neither of which is particularly pleasant.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29729 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/186/airdrop-condor) · oracle_id `25fc274f-d5af-4174-b8e8-c2e65bb4c13f` · printing: ONS #186 (2002-10-07) · [rulings](https://api.scryfall.com/cards/ec9796ac-11e2-4295-bf00-f684d0111970/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Air Elemental
@@ -386,6 +429,7 @@
   > *As the ship approached, the jade totem rose high overhead. Power rippled. Eyes of stone glowed and crackled. Out hissed a breath of the world, and a windstorm came alive.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24465 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/44/air-elemental) · oracle_id `7744bae4-a8b7-44a5-9b4c-0048ad4cc448` · printing: M20 #44 (2019-07-12) · [rulings](https://api.scryfall.com/cards/a27efec0-40c4-48bc-a21a-3af28a6529b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Airlift Chaplain
@@ -398,6 +442,7 @@
   > When this creature enters, mill three cards. You may put a Plains card or a creature card with mana value 3 or less from among the cards milled this way into your hand. If you don't, put a +1/+1 counter on this creature. (To mill a card, put the top card of your library into your graveyard.)
 - **Keywords:** Flying, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18197 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/2/airlift-chaplain) · oracle_id `719aeb50-c8cf-4cd8-b74c-d2cef408b52e` · printing: BRO #2 (2022-11-18) · [rulings](https://api.scryfall.com/cards/7ad55575-6053-43b1-9496-bcb1ea25e2a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Air Marshal
@@ -410,6 +455,7 @@
 - **Flavor text** (BRO printing):
   > *"Today our blades remember Kroog! May the seven brass gods be with us!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28737 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/43/air-marshal) · oracle_id `59b2edf0-00e4-4cd4-88ac-6dd74e9b1b14` · printing: BRO #43 (2022-11-18) · [rulings](https://api.scryfall.com/cards/991e1a6c-914b-45c8-9170-c09e72696117/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Air Nomad Legacy
@@ -422,7 +468,10 @@
 - **Flavor text** (TLA printing):
   > *Ancient stories of flying monks inspired generations of gliders to come.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13077 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/206/air-nomad-legacy) · oracle_id `9e830359-ab92-4bfd-82b3-d9c67ac80cf7` · printing: TLA #206 (2025-11-21) · [rulings](https://api.scryfall.com/cards/10874416-fa4c-4aa3-b885-4351d011d208/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-10-02* — Clue tokens are artifact tokens with "{2}, Sacrifice this token: Draw a card."
+  - *2025-10-02* — Creating a Clue token this way isn't the same thing as investigating. Notably, an ability that triggers whenever you investigate won't trigger because of creating a Clue token this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/206/air-nomad-legacy) · oracle_id `9e830359-ab92-4bfd-82b3-d9c67ac80cf7` · printing: TLA #206 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Air Nomad Student
 
@@ -436,6 +485,7 @@
   > *"Hey everybody! I'm doing it!"*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24765 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/75/air-nomad-student) · oracle_id `a468f6ab-c0a8-4295-8b01-7147d3f889b4` · printing: TLE #75 (2025-11-21) · [rulings](https://api.scryfall.com/cards/18e539c8-f0c5-4715-97a5-b060d996eef2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Air Response Unit
@@ -450,6 +500,7 @@
   > *Wherever the racers go, help follows.*
 - **Keywords:** Flying, Vigilance, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17946 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/1/air-response-unit) · oracle_id `18a22d9f-81bc-4ed5-bd83-e3f8ec5e38c8` · printing: DFT #1 (2025-02-14) · [rulings](https://api.scryfall.com/cards/d77c8e29-de24-4664-baf8-959608dd99ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Air Servant
@@ -464,6 +515,7 @@
   > *Wind is forceful, yet ephemeral. It can knock a dragon out of the sky, yet pass through the smallest crack unhindered.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27106 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/w16/4/air-servant) · oracle_id `49638d96-e83e-4aab-bafb-d6183a6e3ff6` · printing: W16 #4 (2016-04-08) · [rulings](https://api.scryfall.com/cards/01007d7f-e29b-49d5-bc60-44b2fb77ed3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Airship Crash
@@ -478,6 +530,7 @@
   > *—Baku, Tantalus leader*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9972 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/171/airship-crash) · oracle_id `72a0e0f1-e8be-441a-bcaf-029fb1bd1fd2` · printing: FIN #171 (2025-06-13) · [rulings](https://api.scryfall.com/cards/ec91c4e4-711f-464d-bc83-e6813f4fdcdb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Airship Engine Room
@@ -505,7 +558,13 @@
   > Enchanted creature gets +2/+2 and can't become suspected.
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18744 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/149/airtight-alibi) · oracle_id `cb666ea8-55e3-4e27-ae6d-806677dfc17a` · printing: MKM #149 (2024-02-09) · [rulings](https://api.scryfall.com/cards/bffbbe21-0a1d-48b9-903e-81c109aa11de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-02-02* — Being suspected isn't a copiable value. If a permanent becomes a copy of a suspected creature, it won't be suspected.
+  - *2024-02-02* — If a creature is already suspected, suspecting it again won't have any effect.
+  - *2024-02-02* — If a suspected creature loses all abilities, it will lose menace and "This creature can't block", but it won't stop being suspected.
+  - *2024-02-02* — There's no limit to the number of creatures that can be suspected simultaneously. Suspecting a new creature doesn't cause other creatures to stop being suspected.
+  - *2024-02-02* — When an effect suspects a creature, it becomes suspected. It gains menace and "This creature can't block" for as long as it's suspected. It stays suspected until it leaves the battlefield or another effect causes it to no longer be suspected.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/149/airtight-alibi) · oracle_id `cb666ea8-55e3-4e27-ae6d-806677dfc17a` · printing: MKM #149 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aisha of Sparks and Smoke
 
@@ -518,6 +577,7 @@
   > Whenever Aisha deals combat damage, you may cast a sorcery spell from your hand with mana value less than or equal to that damage without paying its mana cost.
 - **Keywords:** Prowess
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16818 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/12/aisha-of-sparks-and-smoke) · oracle_id `eae3e762-dacd-4bd2-923c-3abb5ceb729a` · printing: SLX #12 (2023-02-10) · [rulings](https://api.scryfall.com/cards/093aa76d-2154-4e71-a2bf-461d1afb887b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aisling Leprechaun
@@ -528,4 +588,8 @@
 - **Oracle text:**
   > Whenever this creature blocks or becomes blocked by a creature, that creature becomes green. (This effect lasts indefinitely.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30197 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/leg/173/aisling-leprechaun) · oracle_id `5456f00c-0bef-4c14-902f-f5c14475f284` · printing: LEG #173 (1994-06-01) · [rulings](https://api.scryfall.com/cards/640a161d-ad7b-4e5b-8f2d-d3753cb9daa3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — A Leprechaun with Protection from Green can be blocked by a creature (since it is not green at that time) but will not take damage from the creature (since it is green during the combat damage step).
+  - *2004-10-04* — Creatures change color as a triggered ability upon the block being declared.
+  - *2004-10-04* — The change to green does not end even if the Leprechaun leaves the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/leg/173/aisling-leprechaun) · oracle_id `5456f00c-0bef-4c14-902f-f5c14475f284` · printing: LEG #173 (1994-06-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

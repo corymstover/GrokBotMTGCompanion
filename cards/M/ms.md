@@ -37,6 +37,7 @@
   > Whenever a creature you control with power greater than its base power deals combat damage to a player, draw a card. This ability triggers only once each turn.
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27344 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/744/ms-marvel-elastic-ally) · oracle_id `26a1b36c-3c27-4eb4-b85f-63459653b773` · printing: MSC #744 (2026-06-26) · [rulings](https://api.scryfall.com/cards/bf9ce355-f472-4f0f-8d8e-96df363e1b02/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ms. Marvel, Kamala Khan
@@ -50,4 +51,5 @@
   > Embiggen Fist — Whenever you cast a spell that targets a creature you control, draw a card. Until end of turn, Ms. Marvel gains "Ms. Marvel's base power is equal to the number of cards in your hand."
 - **Keywords:** Reach, Vigilance, Embiggen Fist
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14849 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/67/ms-marvel-kamala-khan) · oracle_id `ebedff30-ae43-4861-aab2-afe1fc88337e` · printing: MSH #67 (2026-06-26) · [rulings](https://api.scryfall.com/cards/9dd2d627-10fc-4045-8545-03bcf75e60ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

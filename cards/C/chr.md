@@ -50,6 +50,7 @@
   > Strange new worlds — When Christine Chapel enters, you gain life equal to the number of differently named lands you control.
   > Whenever you gain life, put two +1/+1 counters on Christine Chapel.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31090 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/78/christine-chapel-combat-medic) · oracle_id `330e8a18-d224-4416-b59d-02b749c3a674` · printing: TRC #78 (2026-11-13) · [rulings](https://api.scryfall.com/cards/f2efcab5-3aad-4edd-87d1-289978e8855e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chromanticore
@@ -83,6 +84,7 @@
   > {X}: Put a sleight counter on this Aura and choose a color. X is the number of sleight counters on this Aura.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27809 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/283/chromatic-armor) · oracle_id `65b3a40e-1d2b-4b24-996f-c935414ded7d` · printing: ICE #283 (1995-06-03) · [rulings](https://api.scryfall.com/cards/2657e85b-8f77-41fa-9df2-233443efef43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chromatic Lantern
@@ -154,6 +156,7 @@
   > *—Lord Xander*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22148 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/236/chrome-cat) · oracle_id `0e2f8758-7457-4b54-ae61-a9c68cea4a23` · printing: SNC #236 (2022-04-29) · [rulings](https://api.scryfall.com/cards/85da50ba-2061-40f0-b3af-950b87f812cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chrome Companion
@@ -167,6 +170,7 @@
 - **Flavor text** (EOE printing):
   > *Liberation Station's morale greatly improved after Rover took up residence.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9925 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/236/chrome-companion) · oracle_id `1ac6fabb-71db-442f-8c14-ba9e659f906c` · printing: EOE #236 (2025-08-01) · [rulings](https://api.scryfall.com/cards/8ef269a0-1cb9-4901-81e6-43db3ae3756c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chrome Courier
@@ -179,6 +183,7 @@
   > When this creature enters, reveal the top two cards of your library. Put one of them into your hand and the other into your graveyard. If you put an artifact card into your hand this way, you gain 3 life.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16631 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/190/chrome-courier) · oracle_id `a07ceaca-9964-4c24-937e-090b6643b327` · printing: MH2 #190 (2021-06-18) · [rulings](https://api.scryfall.com/cards/a11d8da1-a183-470a-b4ed-2e35ac5ab9a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chrome Dome
@@ -241,6 +246,7 @@
   > *It can catch a rat and perform a spinal tap with one graceful swipe of its paw.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20043 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/45/chrome-prowler) · oracle_id `6d16c2fa-4118-4b81-92ca-6c8e9efe03b6` · printing: ONE #45 (2023-02-10) · [rulings](https://api.scryfall.com/cards/a94378a2-cbde-4adf-b889-43e90fc6ba28/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chrome Replicator
@@ -253,7 +259,10 @@
 - **Flavor text** (M21 printing):
   > *Who would you trust to watch your back more than yourself?*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29901 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/229/chrome-replicator) · oracle_id `f379fa0b-e9fc-4307-a574-a0c95e5e7f72` · printing: M21 #229 (2020-07-03) · [rulings](https://api.scryfall.com/cards/1e01bcb4-e823-4da5-b433-e75be3356367/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-06-23* — Chrome Replicator's ability creates just one Construct, no matter how many namesake pairs of permanents you control.
+  - *2020-06-23* — If you don't control two nonland, nontoken permanents with the same name immediately after Chrome Replicator enters the battlefield, its ability doesn't trigger. If you don't control two as the ability resolves, you don't create a token. They don't have to be the same pair, however.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/229/chrome-replicator) · oracle_id `f379fa0b-e9fc-4307-a574-a0c95e5e7f72` · printing: M21 #229 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chromescale Drake
 
@@ -266,6 +275,7 @@
   > When this creature enters, reveal the top three cards of your library. Put all artifact cards revealed this way into your hand and the rest into your graveyard.
 - **Keywords:** Flying, Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23109 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dst/20/chromescale-drake) · oracle_id `534eb5bd-1eb0-4a12-8e98-e964495aa7e9` · printing: DST #20 (2004-02-06) · [rulings](https://api.scryfall.com/cards/d22aa7ef-da34-49c1-9aac-67d129ffa6fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chromeshell Crab
@@ -297,6 +307,7 @@
   > *According to Auriok myth, it collects scrap in order to reassemble its lost rider.*
 - **Keywords:** Metalcraft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20444 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/142/chrome-steed) · oracle_id `8475f55e-473c-4df0-bae2-3cbbbde4ff12` · printing: SOM #142 (2010-10-01) · [rulings](https://api.scryfall.com/cards/ce881675-690f-4d4c-a951-ab8302e904ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chromium
@@ -310,6 +321,7 @@
   > At the beginning of your upkeep, sacrifice Chromium unless you pay {W}{U}{B}.
 - **Keywords:** Flying, Rampage
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24411 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/147/chromium) · oracle_id `7c91ae5d-0320-46a7-98d2-df0918202478` · printing: ME3 #147 (2009-09-07) · [rulings](https://api.scryfall.com/cards/15ec5a20-4e8f-40b2-9abf-c0bf1cf816c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chromium, the Mutable
@@ -324,7 +336,13 @@
   > Discard a card: Until end of turn, Chromium becomes a Human with base power and toughness 1/1, loses all abilities, and gains hexproof. It can't be blocked this turn.
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17116 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/214/chromium-the-mutable) · oracle_id `58d8ff36-4a4d-40e0-b812-3d23b2c7606a` · printing: M19 #214 (2018-07-13) · [rulings](https://api.scryfall.com/cards/50c1de2c-1acc-47c8-9b5e-a9dae3da8a49/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2018-07-13* — Activating Chromium's last ability after it has become blocked won't cause Chromium to become unblocked.
+  - *2018-07-13* — Chromium stops being an Elder Dragon for the turn once its last ability has resolved. It's still a legendary creature named Chromium, the Mutable.
+  - *2018-07-13* — Chromium's activated ability overwrites all previous effects that set its base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after that ability resolves will overwrite this effect.
+  - *2018-07-13* — Effects that raise or lower a creature's power and/or toughness, such as the effect of Titanic Growth, will apply to the creature no matter when they started to take effect. The same is true for any counters that change its power and/or toughness and effects that switch its power and toughness.
+  - *2018-07-13* — If Chromium gains an ability after its activated ability resolves, it will keep that ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/214/chromium-the-mutable) · oracle_id `58d8ff36-4a4d-40e0-b812-3d23b2c7606a` · printing: M19 #214 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chronatog
 
@@ -336,7 +354,9 @@
 - **Flavor text** (VIS printing):
   > *For the chronatog, there is no meal like the present.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21107 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vis/28/chronatog) · oracle_id `bb300e38-32d7-4152-9a82-88d43af99f19` · printing: VIS #28 (1997-02-03) · [rulings](https://api.scryfall.com/cards/05ada02f-04e9-4269-b04a-97a7eaac2c46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You can only activate the ability once each turn for each Chronatog.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vis/28/chronatog) · oracle_id `bb300e38-32d7-4152-9a82-88d43af99f19` · printing: VIS #28 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chronatog Totem
 
@@ -347,7 +367,9 @@
   > {1}{U}: This artifact becomes a 1/2 blue Atog artifact creature until end of turn.
   > {0}: This creature gets +3/+3 until end of turn. You skip your next turn. Activate only once each turn and only if this permanent is a creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20825 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/252/chronatog-totem) · oracle_id `24542d66-e67a-4403-91a8-bb4231ea1f50` · printing: TSP #252 (2006-10-06) · [rulings](https://api.scryfall.com/cards/5acd482c-9815-4ff5-99ef-fb1a014251bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/252/chronatog-totem) · oracle_id `24542d66-e67a-4403-91a8-bb4231ea1f50` · printing: TSP #252 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chronic Flooding
 
@@ -360,7 +382,10 @@
   > *With the Izzet occupied elsewhere, many of their public works fell into disrepair.*
 - **Keywords:** Enchant, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13824 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/32/chronic-flooding) · oracle_id `474db5db-914e-474d-b0c2-7987d5986dc3` · printing: RTR #32 (2012-10-05) · [rulings](https://api.scryfall.com/cards/1a757425-3cf2-4aca-b415-5ec2d5f753fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2012-10-01* — Chronic Flooding becoming attached to a tapped land won’t cause its ability to immediately trigger. That land must go from untapped to tapped.
+  - *2012-10-01* — Chronic Flooding’s ability will trigger whenever the enchanted land becomes tapped for any reason, not just because its controller taps it for mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/32/chronic-flooding) · oracle_id `474db5db-914e-474d-b0c2-7987d5986dc3` · printing: RTR #32 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chronicle of Victory
 
@@ -390,7 +415,9 @@
 - **Flavor text** (2X2 printing):
   > *She paints pictures with words, though not all pictures show the truth.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24583 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/193/chronicler-of-heroes) · oracle_id `c3779271-1186-4754-8b8d-0ee18e585bb6` · printing: 2X2 #193 (2022-07-08) · [rulings](https://api.scryfall.com/cards/76a60ba3-208c-41c9-a40a-46d3586acdfd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-11-17* — Whether you control a creature with a +1/+1 counter on it is checked only when Chronicler of Heroes's ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/193/chronicler-of-heroes) · oracle_id `c3779271-1186-4754-8b8d-0ee18e585bb6` · printing: 2X2 #193 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chronobot
 
@@ -400,7 +427,11 @@
 - **Oracle text:**
   > When Chronobot enters, switch upkeep steps with target opponent for as long as it remains on the battlefield. (You take your upkeep on their turn, and they take their upkeep on your turn.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/105/chronobot) · oracle_id `61ba11bf-9bc2-4408-bef2-42f59088c815` · printing: CMB2 #105 (2021-08-20) · [rulings](https://api.scryfall.com/cards/8d4a660d-46c7-4290-9145-6f7ca4d8a991/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-11-12* — If Chronobot enters the battlefield during an upkeep step, its effect doesn’t affect that upkeep step. Similarly, if Chronobot leaves the battlefield during an upkeep step, its effect doesn’t expire until the upkeep step is over.
+  - *2019-11-12* — Untapping your permanents occurs in the untap step, and drawing a card occurs in the draw step. Neither of these are affected by Chronobot’s theft of time.
+  - *2019-11-12* — While it’s your upkeep during your opponent’s turn, you’re the active player. However, any rules or effects that check whose turn it is will still know that it’s your opponent’s turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/105/chronobot) · oracle_id `61ba11bf-9bc2-4408-bef2-42f59088c815` · printing: CMB2 #105 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chronomancer
 
@@ -430,7 +461,23 @@
   > Suspend 3—{2}{W} (Rather than cast this card from your hand, you may pay {2}{W} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)
 - **Keywords:** Suspend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12303 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fut/4/chronomantic-escape) · oracle_id `629133e2-af20-4107-bc82-11ba32d5e2a6` · printing: FUT #4 (2007-05-04) · [rulings](https://api.scryfall.com/cards/cb6989fd-05cf-4169-96c0-37c556454b92/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2013-04-15* — Chronomantic Escape can affect creatures that aren't on the battlefield at the time it resolves, because it modifies the announcement of an attack, not the creatures on the battlefield. For example, if Chronomantic Escape resolves on your turn, then on your opponent's turn they cast a creature with haste, that creature can't attack that turn.
+  - *2014-02-01* — Unless some effect explicitly says otherwise, a creature that can't attack you can still attack a planeswalker you control.
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fut/4/chronomantic-escape) · oracle_id `629133e2-af20-4107-bc82-11ba32d5e2a6` · printing: FUT #4 (2007-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chronomaton
 
@@ -442,6 +489,7 @@
 - **Flavor text** (DDM printing):
   > *On the third night, the villagers destroyed their clocks. The sounds of whirring gears and chiming metal held only dread for them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17055 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddm/2/chronomaton) · oracle_id `610f25b0-770f-457a-b0eb-6deb832f71d4` · printing: DDM #2 (2014-03-14) · [rulings](https://api.scryfall.com/cards/787b6916-3fce-41dd-ab52-f17546fd04ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chronosavant
@@ -454,7 +502,9 @@
 - **Flavor text** (TSP printing):
   > *"In my dreams, I hear the voices of my future selves who have died in times yet to come. I use that knowledge to avoid those dark futures and continue my search for peace."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30959 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/9/chronosavant) · oracle_id `969c9864-f78b-46b2-b35b-c9adaf355c2d` · printing: TSP #9 (2006-10-06) · [rulings](https://api.scryfall.com/cards/d6264d4f-adf1-4d7b-b17a-fd7122e9b2cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-09-25* — If Chronosavant is in your graveyard, you can activate this ability multiple times in response to itself. The first one that resolves will return Chronosavant to the battlefield and make you skip your next turn. The others will just make you skip turns.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/9/chronosavant) · oracle_id `969c9864-f78b-46b2-b35b-c9adaf355c2d` · printing: TSP #9 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chronostutter
 
@@ -465,6 +515,7 @@
 - **Flavor text** (M15 printing):
   > *Timing is everything.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30098 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m15/48/chronostutter) · oracle_id `a7c46e5f-6e3a-405b-86fa-404d3b6971db` · printing: M15 #48 (2014-07-18) · [rulings](https://api.scryfall.com/cards/bbef107d-c19f-4af3-9236-c66123075b41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chronozoa
@@ -478,4 +529,8 @@
   > When this creature dies, if it had no time counters on it, create two tokens that are copies of it.
 - **Keywords:** Flying, Vanishing
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12331 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/plc/37/chronozoa) · oracle_id `29ccf76e-dfa3-4144-8ec2-6d56ae0bfa9e` · printing: PLC #37 (2007-02-02) · [rulings](https://api.scryfall.com/cards/a77c1ac0-5548-42b0-aa46-d532b3518632/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2007-02-01* — Chronozoa's last ability creates two Chronozoa tokens that each enter with three time counters and have all of Chronozoa's abilities.
+  - *2007-02-01* — If Chronozoa becomes a copy of another creature and is put into the graveyard from the battlefield, no copies will be created. If another creature becomes a copy of Chronozoa and is put into a graveyard from the battlefield (with no time counters on it), two copies of Chronozoa will be created.
+  - *2007-02-01* — The ability checks to see if Chronozoa had no time counters on it at the time it was put into a graveyard from the battlefield. This doesn't necessarily mean it must have been sacrificed due to vanishing; it could have been put into the graveyard some other way (say, while the sacrifice ability of vanishing is on the stack).
+- **Source flags:** [Scryfall](https://scryfall.com/card/plc/37/chronozoa) · oracle_id `29ccf76e-dfa3-4144-8ec2-6d56ae0bfa9e` · printing: PLC #37 (2007-02-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

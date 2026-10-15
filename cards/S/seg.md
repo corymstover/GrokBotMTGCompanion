@@ -25,7 +25,11 @@
   > *The list of things a krotiq eats is as long as the krotiq itself.*
 - **Keywords:** Megamorph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27885 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/202/segmented-krotiq) · oracle_id `05221ba6-53fd-4f45-b8b4-493724f75963` · printing: DTK #202 (2015-03-27) · [rulings](https://api.scryfall.com/cards/dcdbe824-f9c7-4f4d-af92-438b16057d99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-02-25* — If a face-down creature with megamorph is turned face up some other way (for example, if you manifest a card with megamorph and then pay its mana cost to turn it face up), you won’t put a +1/+1 counter on it.
+  - *2015-02-25* — Megamorph is a variant of the morph ability. You can find more information on morph on cards with morph from the Khans of Tarkir set.
+  - *2015-02-25* — Turning a face-down creature with megamorph face up and putting a +1/+1 counter on it is a special action. It doesn’t use the stack and can’t be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/202/segmented-krotiq) · oracle_id `05221ba6-53fd-4f45-b8b4-493724f75963` · printing: DTK #202 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Segmented Wurm
 
@@ -38,6 +42,7 @@
   > *"If only we could so easily leave behind those parts of ourselves that pain us."*
   > *—Crovax*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32265 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmp/269/segmented-wurm) · oracle_id `eb1baf72-4ef6-4967-8a22-2022c633f3d3` · printing: TMP #269 (1997-10-14) · [rulings](https://api.scryfall.com/cards/18be7cfa-bf75-407d-b79f-2fec4b1aacf5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Segovian Angel
@@ -66,6 +71,7 @@
   > *—\*The Bible\*, Job 41:1*
 - **Keywords:** Landwalk, Islandwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28112 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/6ed/97/segovian-leviathan) · oracle_id `853b02e1-fc0a-413b-8381-88596624440f` · printing: 6ED #97 (1999-04-21) · [rulings](https://api.scryfall.com/cards/8f796dd2-9ecf-490a-86c0-acb46130518b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Segovian Sword
@@ -78,4 +84,5 @@
   > Equip {3}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UA03e/segovian-sword) · oracle_id `1f3b89b7-aeb2-4d9f-85a3-f33a1d6a65e8` · printing: UNK #UA03e (2023-05-06) · [rulings](https://api.scryfall.com/cards/f2c6c70f-da30-4585-b40c-a7c6d1c9a8d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

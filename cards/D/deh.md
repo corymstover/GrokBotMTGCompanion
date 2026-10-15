@@ -19,4 +19,5 @@
   > Enchanted creature doesn't untap during its controller's untap step.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28959 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/78/dehydration) · oracle_id `db27c686-e202-4b60-9a10-0a0fef25576c` · printing: 10E #78 (2007-07-13) · [rulings](https://api.scryfall.com/cards/4414ad73-146e-47a6-926a-ec148194bb50/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

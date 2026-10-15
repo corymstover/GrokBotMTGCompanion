@@ -84,7 +84,12 @@
   > Whenever you roll a 6, return target creature card from your graveyard to your hand.
 - **Keywords:** Open an Attraction
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20074 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/167/dee-kay-finder-of-the-lost) · oracle_id `e4a338d5-8cd5-4583-893b-ebbede2280c6` · printing: UNF #167 (2022-10-07) · [rulings](https://api.scryfall.com/cards/6607b2ac-e196-4586-b7a5-7c68621084c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-10-07* — If the spell or ability that caused you to roll a die includes any effects due to the result, resolve those effects before putting Dee Kay's triggered abilities on the stack.
+  - *2022-10-07* — If you roll a 2, a 4, or a 6 while rolling to visit your attractions, and one or more visit abilities also trigger from that roll, you choose the order in which those abilities and Dee Kay's ability go on the stack. You can have Dee Kay's ability resolve before those visit abilities, after them, or in between any of them.
+  - *2022-10-07* — If you roll more than one die at a time, Dee Kay's abilities will trigger for each corresponding result. For example, if I roll 2, 2, and 4 on three six-sided dice, her second ability will trigger twice and her third ability will trigger once.
+  - *2022-10-07* — It doesn't matter why you rolled a die or how many sides that die has: if you roll a 2, a 4, or a 6, the corresponding ability will trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/167/dee-kay-finder-of-the-lost) · oracle_id `e4a338d5-8cd5-4583-893b-ebbede2280c6` · printing: UNF #167 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deem Inferior
 
@@ -96,7 +101,9 @@
 - **Flavor text** (MH3 printing):
   > *Forced to behold such a pitiful demonstration of scholarship, Archmage Jeven could hold his tongue no longer.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17858 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/57/deem-inferior) · oracle_id `f0bd4a29-ac13-4d4f-8479-e0e80f8d846f` · printing: MH3 #57 (2024-06-14) · [rulings](https://api.scryfall.com/cards/cc0835c7-58ca-4f16-984a-c590ce6a229a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-06-07* — The permanent's owner chooses whether to put it second from the top or on the bottom of their library. If multiple cards are put into the library this way (such as when this spell targets a melded permanent), that permanent's owner puts all the cards second from the top or all the cards on the bottom. They put them in whatever order they wish and do not need to reveal the order.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/57/deem-inferior) · oracle_id `f0bd4a29-ac13-4d4f-8479-e0e80f8d846f` · printing: MH3 #57 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deem Worthy
 
@@ -108,7 +115,10 @@
   > When you cycle this card, you may have it deal 2 damage to target creature.
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21991 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/127/deem-worthy) · oracle_id `008c92bc-3022-4d34-aa04-584576ff8f8e` · printing: AKH #127 (2017-04-28) · [rulings](https://api.scryfall.com/cards/99a2ed5f-62b8-4308-a656-f273f62f6ab8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-12-08* — The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (because, for example, it has been countered, or all of its targets have become illegal), the cycling ability will still resolve, and you'll draw a card.
+  - *2022-12-08* — When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/127/deem-worthy) · oracle_id `008c92bc-3022-4d34-aa04-584576ff8f8e` · printing: AKH #127 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deep Analysis
 
@@ -156,7 +166,9 @@
   > Echo—Discard a card. (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
 - **Keywords:** Echo, Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28865 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/110/deepcavern-imp) · oracle_id `1f295f2f-969a-4b82-98d1-7fe307ec83a7` · printing: TSR #110 (2021-03-19) · [rulings](https://api.scryfall.com/cards/13cfa5f3-495f-457b-ad44-bd2cf3414ce4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-05-01* — If you have no cards in hand, you can't pay the echo cost and Deepcavern Imp will be sacrificed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/110/deepcavern-imp) · oracle_id `1f295f2f-969a-4b82-98d1-7fe307ec83a7` · printing: TSR #110 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deepchannel Duelist
 
@@ -169,6 +181,7 @@
 - **Flavor text** (ECL printing):
   > *"Bargain with ruthless cunning, and when all else fails, make sure you fight with the same."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16998 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/213/deepchannel-duelist) · oracle_id `c892d28c-4a78-4a7f-b8d5-c3663b819c5e` · printing: ECL #213 (2026-01-23) · [rulings](https://api.scryfall.com/cards/1b742172-7118-45e7-9945-62bd77d94e85/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deepchannel Mentor
@@ -193,6 +206,7 @@
   > {2}, Sacrifice Deep Dish Pizza: Gain 3 life, draw three cards, and Deep Dish Pizza deals 3 damage to each opponent.
 - **Keywords:** Suspend
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UA02b/deep-dish-pizza) · oracle_id `0b68594c-0146-4f0d-b569-8bcf443514aa` · printing: UNK #UA02b (2024-02-24) · [rulings](https://api.scryfall.com/cards/77b32e51-3998-42f0-850d-eada220e4974/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deepfathom Echo
@@ -204,7 +218,20 @@
   > At the beginning of combat on your turn, this creature explores. Then you may have it become a copy of another creature you control until end of turn. (To have this creature explore, reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
 - **Keywords:** Explore
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9923 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/228/deepfathom-echo) · oracle_id `0c0d6c7e-a7cc-49e0-bf84-3fc33dd10b90` · printing: LCI #228 (2023-11-17) · [rulings](https://api.scryfall.com/cards/c7c7fb87-8448-49f4-a9ed-db97f6a41d98/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2023-11-10* — Deepfathom Echo copies exactly what is printed on the chosen creature (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+  - *2023-11-10* — If Deepfathom Echo becomes a copy of a creature that is copying something else, it becomes a copy of whatever that creature is a copy of.
+  - *2023-11-10* — If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature explores" trigger as appropriate.
+  - *2023-11-10* — If an ability instructs a creature to explore, its controller reveals the top card of their library. If it's a land card, they'll put it into their hand. Otherwise, they'll put a +1/+1 counter on that creature, then choose to either leave that card on top of their library or put it into their graveyard.
+  - *2023-11-10* — If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+  - *2023-11-10* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2023-11-10* — If the copied creature is a token, Deepfathom Echo copies the original characteristics of that token as stated by the effect that created that token. Deepfathom Echo doesn't become a token (although it might already be one).
+  - *2023-11-10* — In some unusual cases, noncreature permanents may explore. For example, if the creature card returned by Defossilize is somehow not a creature once it's on the battlefield, it can still explore. You'll take all the same actions, and you may end up putting a +1/+1 counter on the permanent. (Note that some effects target a creature, and those effects would still require a legal target to have it explore.)
+  - *2023-11-10* — Non-copy effects that have already applied to Deepfathom Echo will continue to apply to it. For example, +1/+1 counters on it will still affect it.
+  - *2023-11-10* — Once Deepfathom Echo becomes a copy of another creature, it no longer has its triggered ability until end of turn.
+  - *2023-11-10* — Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+  - *2023-11-10* — Some spells or abilities might cause a creature to explore multiple times in a row. If you reveal a nonland card when a creature explores and leave it on top of your library, then the creature explores again immediately afterwards, you'll reveal the same card again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/228/deepfathom-echo) · oracle_id `0c0d6c7e-a7cc-49e0-bf84-3fc33dd10b90` · printing: LCI #228 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deepfathom Skulker
 
@@ -232,7 +259,9 @@
   > *"There are deep, deep places in this world that have long burned hot with little regard for the whitening of the earth's thin skin."*
   > *—Sek'Kuar, Deathkeeper*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28288 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c13/185/deepfire-elemental) · oracle_id `c8119ebe-aedd-4bdb-8f7f-368674a049fd` · printing: C13 #185 (2013-11-01) · [rulings](https://api.scryfall.com/cards/d81fc89c-6eb8-4b75-bbaf-a7eb9679bab2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-07-15* — For example, for Deepfire Elemental to destroy a creature with mana value 4 would cost {4}+{4}+{1} = {9}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c13/185/deepfire-elemental) · oracle_id `c8119ebe-aedd-4bdb-8f7f-368674a049fd` · printing: C13 #185 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deep Forest Hermit
 
@@ -259,7 +288,11 @@
   > *For cryomancers, studying the Ice Age isn't just an academic exercise.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18315 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/50/deep-freeze) · oracle_id `648aead4-dc0b-47bc-911c-8dcd2cfd32d3` · printing: DOM #50 (2018-04-27) · [rulings](https://api.scryfall.com/cards/51765d87-e842-4d84-aaf0-998737fe754c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-04-27* — Deep Freeze overwrites all previous effects that set the creature’s base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after the ability resolves will overwrite this effect.
+  - *2018-04-27* — Effects that modify a creature’s power and/or toughness, such as the effect of Titanic Growth, will apply to the creature no matter when they started to take effect. The same is true for any counters that change its power and/or toughness and effects that switch its power and toughness.
+  - *2018-04-27* — If the enchanted creature has an ability that grants abilities to other objects, Deep Freeze’s effect will stop it from doing so. If the enchanted creature gains an ability after Deep Freeze resolves, it will keep that ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/50/deep-freeze) · oracle_id `648aead4-dc0b-47bc-911c-8dcd2cfd32d3` · printing: DOM #50 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deep-Fried Plague Myr
 
@@ -272,6 +305,7 @@
   > {TK}{TK}{TK}{TK} — 8/4
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/14/deep-fried-plague-myr) · oracle_id `43f5ce56-6ad1-4a42-b1d7-26f1c7933693` · printing: SUNF #14 (2022-10-07) · [rulings](https://api.scryfall.com/cards/907157c3-f562-403c-94cb-9171deadaee4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deepglow Skate
@@ -316,7 +350,14 @@
   > *"Go away! I found it first!"*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19080 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/101/deep-goblin-skulltaker) · oracle_id `b7f56bbb-961a-4641-9446-7292ef188b1d` · printing: LCI #101 (2023-11-17) · [rulings](https://api.scryfall.com/cards/0b24bb7c-6b34-48b6-af94-f312ebdbb759/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-11-10* — A permanent card is an artifact, battle, creature, enchantment, land, or planeswalker card. Tokens are not cards, and while tokens are put into the graveyard before ceasing to exist, that action doesn't count as a player having descended.
+  - *2023-11-10* — Abilities that begin with "At the beginning of your end step, if you descended this turn" will trigger only once during your end step, no matter how many times you descended this turn. However, if you haven't descended this turn as your end step begins, the ability won't trigger at all. It's not possible to put a permanent card into your graveyard during the end step in time to have the ability trigger.
+  - *2023-11-10* — In either case, it doesn't matter if those cards are still in that player's graveyard.
+  - *2023-11-10* — Multiple cards have abilities that begin with "At the beginning of your end step, if you descended this turn." These cards don't need to have been under your control at the time you descended. For example, if a permanent card is put into your graveyard during your first main phase and you cast Stalactite Stalker your second main phase, its ability will trigger at the beginning of your end step.
+  - *2023-11-10* — Some cards refer to a player who has "descended this turn." This means that a permanent card has been put into that player's graveyard from anywhere this turn.
+  - *2023-11-10* — Some cards refer to the number of times a player descended this turn. Those cards care about the number of permanent cards put into that player's graveyard from anywhere this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/101/deep-goblin-skulltaker) · oracle_id `b7f56bbb-961a-4641-9446-7292ef188b1d` · printing: LCI #101 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deepmuck Desperado
 
@@ -329,7 +370,13 @@
   > *"Heard you've been horning in on my turf. How about I introduce you to some surf?"*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10204 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/42/deepmuck-desperado) · oracle_id `b75ffa62-a291-44d7-a950-b50c8394e066` · printing: OTJ #42 (2024-04-19) · [rulings](https://api.scryfall.com/cards/f95ee726-7465-40f8-a954-19b19e636c12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-04-12* — A player can commit only one crime per spell or ability they control. Targeting multiple opponents, permanents, spells, abilities, and/or cards with the same spell or ability doesn’t constitute committing multiple crimes.
+  - *2024-04-12* — A player commits a crime as they cast a spell, activate an ability, or put a triggered ability on the stack that targets at least one opponent, at least one permanent, spell, or ability an opponent controls, and/or at least one card in an opponent’s graveyard.
+  - *2024-04-12* — Changing the target or targets of a spell or ability won’t affect whether or not the controller of that spell or ability has committed a crime. Only the initial targets chosen for that spell or ability are used to determine whether or not its controller committed a crime.
+  - *2024-04-12* — For example, an ability that triggers when you cast a spell that targets an opponent will trigger at the same time as an ability that triggers whenever you commit a crime. Those abilities can be put on the stack in either order (if you control them both), and they’ll both resolve before the spell that caused them to trigger.
+  - *2024-04-12* — The spell or ability that constituted a crime doesn’t have to have resolved yet or at all. As soon as you’re finished casting the spell, activating the ability, or putting the triggered ability on the stack, you’ve committed a crime.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/42/deepmuck-desperado) · oracle_id `b75ffa62-a291-44d7-a950-b50c8394e066` · printing: OTJ #42 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deep Reconnaissance
 
@@ -340,7 +387,14 @@
   > Flashback {4}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17420 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ody/236/deep-reconnaissance) · oracle_id `a823e880-3d5f-4186-a7da-e710a7db583c` · printing: ODY #236 (2001-10-01) · [rulings](https://api.scryfall.com/cards/148ce683-3911-4b77-9e07-3985766a3777/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ody/236/deep-reconnaissance) · oracle_id `a823e880-3d5f-4186-a7da-e710a7db583c` · printing: ODY #236 (2001-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deeproot Champion
 
@@ -352,7 +406,9 @@
 - **Flavor text** (XLN printing):
   > *"No good will come from what you seek. Turn back now or suffer an ignoble death far from your home."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20302 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/185/deeproot-champion) · oracle_id `507c2921-7070-482d-8754-dc667e3315bd` · printing: XLN #185 (2017-09-29) · [rulings](https://api.scryfall.com/cards/ea1e7fed-e6f3-4445-8d01-dca3971f726f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-09-29* — Deeproot Champion’s ability resolves before the spell that caused it to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/185/deeproot-champion) · oracle_id `507c2921-7070-482d-8754-dc667e3315bd` · printing: XLN #185 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deeproot Elite
 
@@ -406,7 +462,9 @@
   > *"We breathe from our soul and bones to give strength to the jungle. The jungle breathes from its roots and rivers to give strength to us."*
   > *—Shaper Falani*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28425 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/186/deeproot-warrior) · oracle_id `2af1930c-a5f2-4e7e-910f-e84458b051ac` · printing: XLN #186 (2017-09-29) · [rulings](https://api.scryfall.com/cards/7c1a1963-ec46-4ed3-9be1-e4cc09687922/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-09-29* — Deeproot Warrior’s ability triggers only once if multiple creatures block it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/186/deeproot-warrior) · oracle_id `2af1930c-a5f2-4e7e-910f-e84458b051ac` · printing: XLN #186 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deeproot Waters
 
@@ -433,7 +491,9 @@
   > *Her warning raced through the roots and rivers of Ixalan: prepare for war.*
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11896 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/184/deeproot-wayfinder) · oracle_id `3ec767f2-40ba-46c9-b7cd-5821986dda0c` · printing: MOM #184 (2023-04-21) · [rulings](https://api.scryfall.com/cards/b4066d41-0eb5-4dfd-93ec-2f242c3a27a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-04-14* — The land card you return from your graveyard, if any, isn’t a target of the ability. You choose that card as the ability is resolving, after you surveil 1. It can be a land card you just put into your graveyard or one that was already there.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/184/deeproot-wayfinder) · oracle_id `3ec767f2-40ba-46c9-b7cd-5821986dda0c` · printing: MOM #184 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deep-Sea Kraken
 
@@ -473,6 +533,7 @@
 - **Flavor text** (POR printing):
   > *Sailors fear the deep-sea serpent; others thank the gods it has no legs.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30624 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/por/51/deep-sea-serpent) · oracle_id `7fbb98cc-585c-4184-97f5-9b3d3ebdb1e5` · printing: POR #51 (1997-05-01) · [rulings](https://api.scryfall.com/cards/f2d7f8d8-30fb-47c7-8927-646c41f0b9bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deep-Sea Terror
@@ -485,7 +546,9 @@
 - **Flavor text** (ORI printing):
   > *After stripping the sunken ships, it rises to the surface for another helping.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28089 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/52/deep-sea-terror) · oracle_id `36775412-0280-4acc-bae8-3ea5d4e341be` · printing: ORI #52 (2015-07-17) · [rulings](https://api.scryfall.com/cards/007b526c-5387-4ed4-a320-b826d507e014/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-06-22* — Deep-Sea Terror’s ability only checks as attackers are declared. After Deep-Sea Terror legally attacks, reducing the number of cards in your graveyard won’t cause it to stop attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/52/deep-sea-terror) · oracle_id `36775412-0280-4acc-bae8-3ea5d4e341be` · printing: ORI #52 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deep-Slumber Titan
 
@@ -499,6 +562,7 @@
 - **Flavor text** (SHM printing):
   > *Do not disturb.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26281 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/89/deep-slumber-titan) · oracle_id `d8f2c12c-d463-42dc-95f1-2daf68f99873` · printing: SHM #89 (2008-05-02) · [rulings](https://api.scryfall.com/cards/cbe3a68e-c29e-48a8-a2d7-49c8bff3dd8a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deep Spawn
@@ -512,6 +576,7 @@
   > {U}: This creature gains shroud until end of turn and doesn't untap during your next untap step. Tap this creature. (A creature with shroud can't be the target of spells or abilities.)
 - **Keywords:** Trample, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28496 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/45/deep-spawn) · oracle_id `d1aba343-d85a-4829-bdfe-db31fcb3c320` · printing: ME2 #45 (2008-09-22) · [rulings](https://api.scryfall.com/cards/e70373b7-ced5-4d88-9ff3-04b6f59c69c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deeptread Merrow
@@ -524,6 +589,7 @@
 - **Flavor text** (LRW printing):
   > *"My success at navigating the Dark Meanders irritates the Inkfathom school. They consider themselves peerless divers, but I try to remind them that they cannot own commodities like bravery and cunning."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27695 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/57/deeptread-merrow) · oracle_id `b301b371-e99e-43cc-af7f-dbd7b2abe5f8` · printing: LRW #57 (2007-10-12) · [rulings](https://api.scryfall.com/cards/42ebd6ff-2b1c-4e93-81cc-81998459c5c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deep Water
@@ -533,7 +599,10 @@
 - **Oracle text:**
   > {U}: Until end of turn, if you tap a land you control for mana, it produces {U} instead of any other type.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30077 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/drk/23/deep-water) · oracle_id `cf9ef041-5396-4f18-8233-42d667db0888` · printing: DRK #23 (1994-08-01) · [rulings](https://api.scryfall.com/cards/9dd6a230-6bc0-499c-b7fd-4aaa2569f98f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Deep Waters affects lands you control when it resolves and any lands you gain control of this turn.
+  - *2008-08-01* — The amount of mana produced is unchanged, but it will all be {U}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/drk/23/deep-water) · oracle_id `cf9ef041-5396-4f18-8233-42d667db0888` · printing: DRK #23 (1994-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deepwater Hypnotist
 
@@ -547,7 +616,12 @@
   > *—Meletian proverb*
 - **Keywords:** Inspired
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27152 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bng/35/deepwater-hypnotist) · oracle_id `e30c639a-d46c-4488-bfdd-d4282046153c` · printing: BNG #35 (2014-02-07) · [rulings](https://api.scryfall.com/cards/4ab7c6a7-8214-4644-8f2e-ec74d2aff27e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-02-01* — If an inspired ability triggers during your untap step, the ability will be put on the stack at the beginning of your upkeep. If the ability creates one or more token creatures, those creatures won’t be able to attack that turn (unless they gain haste).
+  - *2014-02-01* — If the inspired ability includes an optional cost, you decide whether to pay that cost as the ability resolves. You can do this even if the creature leaves the battlefield in response to the ability.
+  - *2014-02-01* — Inspired abilities don’t trigger when the creature enters the battlefield.
+  - *2014-02-01* — Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bng/35/deepwater-hypnotist) · oracle_id `e30c639a-d46c-4488-bfdd-d4282046153c` · printing: BNG #35 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deepway Navigator
 
@@ -560,6 +634,7 @@
   > As long as you attacked with three or more Merfolk this turn, Merfolk you control get +1/+0.
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18074 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/214/deepway-navigator) · oracle_id `812df594-75af-494f-be09-5f9633aca46a` · printing: ECL #214 (2026-01-23) · [rulings](https://api.scryfall.com/cards/d988e28b-fa60-4b60-8229-7a15932c784b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deep Wood
@@ -570,6 +645,7 @@
   > Cast this spell only during the declare attackers step and only if you've been attacked this step.
   > Prevent all damage that would be dealt to you this turn by attacking creatures.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24992 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/p02/126/deep-wood) · oracle_id `3f01f627-9fbd-470b-8001-974784ccf421` · printing: P02 #126 (1998-06-24) · [rulings](https://api.scryfall.com/cards/cfa04db1-bf4a-4824-9dc9-f5c510ba62bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deepwood Denizen
@@ -584,6 +660,7 @@
   > *"You didn't come all this way just to bother me, did you? Say your piece and be gone."*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10585 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/155/deepwood-denizen) · oracle_id `4a6887e3-7a65-4f24-be71-183b00a0ad56` · printing: MH2 #155 (2021-06-18) · [rulings](https://api.scryfall.com/cards/333f02f7-3b8a-41e3-9ae5-2151539e64ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deepwood Drummer
@@ -596,6 +673,7 @@
 - **Flavor text** (MMQ printing):
   > *His drums echo Deepwood's heartbeat.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30608 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/239/deepwood-drummer) · oracle_id `b2bbb4e5-05b1-49e5-ad02-7384e115e06b` · printing: MMQ #239 (1999-10-04) · [rulings](https://api.scryfall.com/cards/acbed0f5-2ac0-48d8-b5ab-b4cd7176fde2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deepwood Elder
@@ -608,6 +686,7 @@
 - **Flavor text** (MMQ printing):
   > *They'd guarded the Henge so long that they were as attuned to the powerstones as they were to the trees.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30112 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/240/deepwood-elder) · oracle_id `ffb62e4a-802d-4f1e-b92e-ec0919baafd5` · printing: MMQ #240 (1999-10-04) · [rulings](https://api.scryfall.com/cards/d2a1ed74-027e-4c8e-ac7e-e58c5fccff14/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deepwood Ghoul
@@ -621,6 +700,7 @@
   > *They feed on the living to stay undead.*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21119 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/127/deepwood-ghoul) · oracle_id `d99cd2d0-32b8-4edc-8089-557c48dd4be0` · printing: 8ED #127 (2003-07-28) · [rulings](https://api.scryfall.com/cards/cd4c5c2f-0c1e-44e8-a7f8-2dc2954eacd8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deepwood Legate
@@ -632,6 +712,7 @@
   > If an opponent controls a Forest and you control a Swamp, you may cast this spell without paying its mana cost.
   > {B}: This creature gets +1/+1 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24524 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/132/deepwood-legate) · oracle_id `414eb407-dd39-41d2-bf25-a7a77ff35cb4` · printing: MMQ #132 (1999-10-04) · [rulings](https://api.scryfall.com/cards/54f01925-7fd0-472d-91a4-3309e615f22f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deepwood Tantiv
@@ -644,6 +725,7 @@
 - **Flavor text** (MMQ printing):
   > *A single tantiv is just as dangerous as a herd.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32155 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/241/deepwood-tantiv) · oracle_id `3b31a9a7-6c97-4e82-bf72-de83034f81a9` · printing: MMQ #241 (1999-10-04) · [rulings](https://api.scryfall.com/cards/bfa2028e-4e73-4ff2-a9e2-9ac347d67893/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deepwood Wolverine
@@ -656,6 +738,7 @@
 - **Flavor text** (MMQ printing):
   > *The jhovalls are depleting its food sources, the Mercadians are eroding its home, and you're wondering why it's angry?*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30598 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/242/deepwood-wolverine) · oracle_id `ca8060a7-30e7-49a4-a720-da5b995dd31f` · printing: MMQ #242 (1999-10-04) · [rulings](https://api.scryfall.com/cards/db9a9a76-741a-4ba3-bd4b-0eb87d678253/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deer-Dog
@@ -669,4 +752,5 @@
   > *A predator once abundant in the dunes of ages past, now most commonly found as pets napping in the shady areas of the Misty Palms Oasis.*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25331 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/114/deer-dog) · oracle_id `76c7a339-015b-4074-8e10-14d52b784f9b` · printing: TLE #114 (2025-11-21) · [rulings](https://api.scryfall.com/cards/54ec5233-6b27-4655-b68c-4c1aaf64d89b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

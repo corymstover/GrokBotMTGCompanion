@@ -104,6 +104,7 @@
   > {T}: Add {∞}.
   > {100}: Add one mana of any color.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/124/mox-lotus) · oracle_id `6b3d54a0-278a-4785-a508-8ed928425356` · printing: UNH #124 (2004-11-19) · [rulings](https://api.scryfall.com/cards/e8241a53-8b88-474e-a46c-44b3d1f3b0df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mox Opal
@@ -137,7 +138,11 @@
 - **Oracle text:**
   > {T}: Add one mana of any color. You get two poison counters.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/608/mox-poison) · oracle_id `8d1a45b1-08c4-441d-86d6-f44061230c0b` · printing: MB2 #608 (2024-08-02) · [rulings](https://api.scryfall.com/cards/543ce1cc-5918-40bf-921c-855268d51356/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/608/mox-poison) · oracle_id `8d1a45b1-08c4-441d-86d6-f44061230c0b` · printing: MB2 #608 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mox Ruby
 

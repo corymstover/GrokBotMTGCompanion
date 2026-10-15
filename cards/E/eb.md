@@ -32,7 +32,9 @@
   > Morph {3}{B}{B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9981 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ons/141/ebonblade-reaper) · oracle_id `86fd4652-a629-429a-bf95-0b8724708a71` · printing: ONS #141 (2002-10-07) · [rulings](https://api.scryfall.com/cards/16ebef2c-8bb2-4816-a628-0062f95e512e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-02-01* — If you attempt to halve a negative life total, you halve 0. This means that the life total stays the same. A life total of -10 would remain -10.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ons/141/ebonblade-reaper) · oracle_id `86fd4652-a629-429a-bf95-0b8724708a71` · printing: ONS #141 (2002-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ebondeath, Dracolich
 
@@ -62,6 +64,7 @@
   > When this creature enters, you may have target opponent discard a card.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28229 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/80/ebon-dragon) · oracle_id `12e4d2bd-83e9-4120-a2e8-0645c0ed2387` · printing: ME4 #80 (2011-01-10) · [rulings](https://api.scryfall.com/cards/63ec235b-7d9a-4600-89db-48b14beb1aa7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ebon Drake
@@ -76,7 +79,9 @@
   > *The deadliest killers serve only those who are not afraid to die.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10399 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/48/ebon-drake) · oracle_id `db4242ab-fdf3-487a-bc77-42bd2ef973c3` · printing: 5DN #48 (2004-06-04) · [rulings](https://api.scryfall.com/cards/254ea05c-c349-4a95-8751-779b044603bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-12-01* — This ability triggers off anyone casting a spell, including you, not just Ebon Drake’s controller or an opponent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/48/ebon-drake) · oracle_id `db4242ab-fdf3-487a-bc77-42bd2ef973c3` · printing: 5DN #48 (2004-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ebon Praetor
 
@@ -89,6 +94,7 @@
   > Sacrifice a creature: Remove a -2/-2 counter from this creature. If the sacrificed creature was a Thrull, put a +1/+0 counter on this creature. Activate only during your upkeep and only once each turn.
 - **Keywords:** First strike, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28809 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/89/ebon-praetor) · oracle_id `0501af1f-c67c-4cb1-aced-4be426c83316` · printing: ME2 #89 (2008-09-22) · [rulings](https://api.scryfall.com/cards/6438dc8e-eb21-4db7-aeab-bb062acd6029/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ebon Stronghold
@@ -100,6 +106,7 @@
   > {T}: Add {B}.
   > {T}, Sacrifice this land: Add {B}{B}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10521 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/228/ebon-stronghold) · oracle_id `4d4b9512-d29d-4b99-9249-d37e1199a1f5` · printing: ME2 #228 (2008-09-22) · [rulings](https://api.scryfall.com/cards/add84934-3067-4f01-9b43-5af4ff247de3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ebony Charm
@@ -112,7 +119,9 @@
   > • Exile up to three target cards from a single graveyard.
   > • Target creature gains fear until end of turn. (It can't be blocked except by artifact creatures and/or black creatures.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19394 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mir/120/ebony-charm) · oracle_id `2f3237fe-9e07-4aad-8bc8-7ef4b510dd36` · printing: MIR #120 (1996-10-08) · [rulings](https://api.scryfall.com/cards/937c8016-43c8-418b-9057-b5d6715f71f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It targets the cards in the graveyard. These targets are selected when casting the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mir/120/ebony-charm) · oracle_id `2f3237fe-9e07-4aad-8bc8-7ef4b510dd36` · printing: MIR #120 (1996-10-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ebony Fly
 
@@ -145,6 +154,7 @@
 - **Oracle text:**
   > {2}, {T}: Untap target attacking creature you control. Prevent all combat damage that would be dealt to and dealt by that creature this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24703 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/198/ebony-horse) · oracle_id `4eb67ba3-35e3-47c3-820f-62814cf202a7` · printing: ME4 #198 (2011-01-10) · [rulings](https://api.scryfall.com/cards/441ac6f6-c233-4fd4-8005-2ecf0579a538/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ebony Owl Netsuke
@@ -157,6 +167,7 @@
   > *"Owls filled the skies during the Kami War, harbingers of darker times to come."*
   > *—\*The History of Kamigawa\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12985 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/154/ebony-owl-netsuke) · oracle_id `dcacb717-4ca4-47c0-9b23-26e4eb4ffdc8` · printing: SOK #154 (2005-06-03) · [rulings](https://api.scryfall.com/cards/39e0c24f-2312-4b40-9cd1-2b83d501e485/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ebony Rhino
@@ -171,6 +182,7 @@
   > *—Chandler*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30657 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/199/ebony-rhino) · oracle_id `3d2b5201-c2bf-4753-89ad-543795740216` · printing: ME4 #199 (2011-01-10) · [rulings](https://api.scryfall.com/cards/0cc3d3c7-f76c-4d54-83b8-ccc04c8f2241/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ebony Treefolk
@@ -183,4 +195,5 @@
 - **Flavor text** (APC printing):
   > *Its roots are equally happy to drink the water of a clear stream or the oily blood of a Phyrexian warrior.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30434 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/apc/97/ebony-treefolk) · oracle_id `04683bd7-b100-4fc8-8165-316c5508c255` · printing: APC #97 (2001-06-04) · [rulings](https://api.scryfall.com/cards/2b85dadb-351f-4975-a2c3-febf5e80bc85/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

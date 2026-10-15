@@ -63,6 +63,7 @@
   > *"I made a family, just like everyone else."*
   > *—Scarlet Witch, Wanda Maximoff*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15009 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/708/wandas-vision) · oracle_id `1448eadb-e8b1-4e8f-9697-3bb919085dab` · printing: MSC #708 (2026-06-26) · [rulings](https://api.scryfall.com/cards/43cf33cc-c1ac-4196-aa82-b27083694f64/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wanderbrine Preacher
@@ -75,6 +76,7 @@
 - **Flavor text** (ECL printing):
   > *"Truly, I am sustained by the faith of my congregation."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17827 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/41/wanderbrine-preacher) · oracle_id `4b4dcdb1-0017-494f-8d83-6706b188e575` · printing: ECL #41 (2026-01-23) · [rulings](https://api.scryfall.com/cards/3fc3f5f2-5a83-4358-8f23-42f26f345140/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wanderbrine Rootcutters
@@ -87,6 +89,7 @@
 - **Flavor text** (SHM printing):
   > *Most dirtwalkers only know of the vicious merrows that dwell in the shallows. They can't begin to fathom the wickedness that skulks in the Dark Meanders.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31919 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/178/wanderbrine-rootcutters) · oracle_id `7e2e96db-e4df-41de-b5a7-712c4a8fe7be` · printing: SHM #178 (2008-05-02) · [rulings](https://api.scryfall.com/cards/ab739d64-cdcd-4f07-9854-e067c37c4f41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wanderbrine Trapper
@@ -99,6 +102,7 @@
 - **Flavor text** (ECL printing):
   > *Merrow nets snare struggling prey and panicking foe alike.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20408 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/42/wanderbrine-trapper) · oracle_id `915d70ac-46ce-41d0-a137-f17e7aaea87d` · printing: ECL #42 (2026-01-23) · [rulings](https://api.scryfall.com/cards/f4c134ed-adbf-4e88-80e0-75c176ce94c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wanderer's Intervention
@@ -110,6 +114,7 @@
 - **Flavor text** (NEO printing):
   > *Just as Jin-Gitaxias's victory seemed certain, the Wanderer appeared, her blade already in motion. One mighty slash was enough to take the praetor out of the fight.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19187 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/41/wanderers-intervention) · oracle_id `4497d0b9-cf4b-4c9d-bf7e-8ed85aa6b5b8` · printing: NEO #41 (2022-02-18) · [rulings](https://api.scryfall.com/cards/43708ec9-a85a-4244-86b4-67b30b41d854/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wanderer's Strike
@@ -123,7 +128,14 @@
   > *—Lavinia*
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12612 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/69/wanderers-strike) · oracle_id `d6239ada-c72a-49b2-882c-6dae1dd366e3` · printing: CMM #69 (2023-08-04) · [rulings](https://api.scryfall.com/cards/8ecb14b6-1fd8-49be-bf95-f147f48b072c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/69/wanderers-strike) · oracle_id `d6239ada-c72a-49b2-882c-6dae1dd366e3` · printing: CMM #69 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wanderer's Twig
 
@@ -134,6 +146,7 @@
 - **Flavor text** (LRW printing):
   > *For every tree who falls, there are countless sprouts waiting to rise.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15782 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/265/wanderers-twig) · oracle_id `fd15a4b0-abd7-4bae-8331-81b85c94fce8` · printing: LRW #265 (2007-10-12) · [rulings](https://api.scryfall.com/cards/8ea7b2c0-c641-478f-b8d9-17aa17fa1cbe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wanderguard Sentry
@@ -146,6 +159,7 @@
 - **Flavor text** (9ED printing):
   > *It allows those with dangerous weapons to pass. But not those with dangerous thoughts.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31895 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/111/wanderguard-sentry) · oracle_id `cd02e276-3c2d-4177-aa60-294a31bae0db` · printing: 9ED #111 (2005-07-29) · [rulings](https://api.scryfall.com/cards/562a6a76-7242-4a22-9545-e6aa2dbd5564/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wander in Death
@@ -159,6 +173,7 @@
   > *Forever restless. Forever growing in number.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16500 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/115/wander-in-death) · oracle_id `f25c5451-58fa-4916-8342-ae88c5e406cc` · printing: AKH #115 (2017-04-28) · [rulings](https://api.scryfall.com/cards/aea7ad5c-d9b9-4b12-90dd-c02399d73b26/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wandering Archaic // Explore the Vastlands
@@ -189,7 +204,11 @@
 - **Flavor text** (UMA printing):
   > *"Learn from your enemies, but do not tolerate them."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29443 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/42/wandering-champion) · oracle_id `54af9e23-459e-470d-9b0e-e91a0fa45c98` · printing: UMA #42 (2018-12-07) · [rulings](https://api.scryfall.com/cards/f02599bd-c5d8-4bdc-9478-a7bad8185552/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-12-07* — If the only blue or red permanent you control is a creature that’s dealt lethal damage at the same time as Wandering Champion deals combat damage, Wandering Champion’s ability triggers.
+  - *2018-12-07* — If you don’t control a blue or red permanent as Wandering Champion’s ability resolves, you can’t discard and draw a card. The blue or red permanent you control as the ability resolves doesn’t have to be one you controlled as the ability triggered.
+  - *2018-12-07* — Wandering Champion’s ability doesn’t trigger if you don’t control a blue or red permanent immediately after it deals combat damage to a player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/42/wandering-champion) · oracle_id `54af9e23-459e-470d-9b0e-e91a0fa45c98` · printing: UMA #42 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wandering Eye
 
@@ -203,6 +222,7 @@
   > *The evincar has many ways of keeping track of his subjects.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21618 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/50/wandering-eye) · oracle_id `59015068-6868-4235-981b-96137123c685` · printing: NEM #50 (2000-02-14) · [rulings](https://api.scryfall.com/cards/2869efd2-060f-4af3-b0dc-b7dc5e1143b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wandering Fumarole
@@ -235,7 +255,10 @@
   > *Tired of waiting for a dragon to eat them, some hardy goblins struck out to become meals for the unknown.*
 - **Keywords:** Domain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30021 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/con/76/wandering-goblins) · oracle_id `8046981c-d68c-4fbb-a133-8037996c9d10` · printing: CON #76 (2009-02-06) · [rulings](https://api.scryfall.com/cards/217281d9-a8f4-4e7a-987f-7ece0ae15eba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-06-18* — Domain abilities count the number of basic land types among lands you control, not how many lands you control or how many of any type.
+  - *2021-06-18* — The basic land types are Plains, Island, Swamp, Mountain, and Forest. Land types other than basic land types (such as Desert) don't contribute to domain abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/con/76/wandering-goblins) · oracle_id `8046981c-d68c-4fbb-a133-8037996c9d10` · printing: CON #76 (2009-02-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wandering Graybeard
 
@@ -248,7 +271,14 @@
   > *His tales are as tall as he is, and only a giant's life is long enough to listen to them all.*
 - **Keywords:** Kinship
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25782 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mor/27/wandering-graybeard) · oracle_id `ea7d5ada-78ac-405b-887e-b262e4935bd3` · printing: MOR #27 (2008-02-01) · [rulings](https://api.scryfall.com/cards/ea5c82f9-4bc5-4326-92c0-d2aa4b4838a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2008-04-01* — After the kinship ability finishes resolving, the card you looked at remains on top of your library.
+  - *2008-04-01* — If the top card of your library is already revealed (due to Magus of the Future, for example), you still have the option to reveal it or not as part of a kinship ability’s effect.
+  - *2008-04-01* — If you have multiple creatures with kinship abilities, each triggers and resolves separately. You’ll look at the same card for each one, unless you have some method of shuffling your library or moving that card to a different zone.
+  - *2008-04-01* — Kinship is an ability word that indicates a group of similar triggered abilities that appear on _Morningtide_ creatures. It doesn’t have any special rules associated with it.
+  - *2008-04-01* — The first two sentences of every kinship ability are the same (except for the creature’s name). Only the last sentence varies from one kinship ability to the next.
+  - *2008-04-01* — You don’t have to reveal the top card of your library, even if it shares a creature type with the creature that has the kinship ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mor/27/wandering-graybeard) · oracle_id `ea7d5ada-78ac-405b-887e-b262e4935bd3` · printing: MOR #27 (2008-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wandering Mage
 
@@ -260,7 +290,10 @@
   > {U}: Prevent the next 1 damage that would be dealt to target Cleric or Wizard creature this turn.
   > {B}, Put a -1/-1 counter on a creature you control: Prevent the next 2 damage that would be dealt to target player or planeswalker this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31194 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/186/wandering-mage) · oracle_id `ac9c81a1-f444-4051-b309-f1af1b5df12a` · printing: ME3 #186 (2009-09-07) · [rulings](https://api.scryfall.com/cards/75a5fe4d-ef72-47cd-805d-bfc90755590f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-10-01* — If you activate Wandering Mage’s third ability, you put the -1/-1 counter on a creature you control as a cost. That means it happens when you activate the ability, not when it resolves. If paying the cost causes the only creature you control to have 0 toughness, it’s put into the graveyard before you can pay the cost again.
+  - *2009-10-01* — The second ability checks that the targeted creature is a Cleric or Wizard only at the time the ability is activated and at the time it resolves. It doesn’t check at the time the damage is actually prevented.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/186/wandering-mage) · oracle_id `ac9c81a1-f444-4051-b309-f1af1b5df12a` · printing: ME3 #186 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wandering Mind
 
@@ -272,6 +305,7 @@
   > When this creature enters, look at the top six cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20110 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/252/wandering-mind) · oracle_id `0fa886c2-9b58-4368-b2d0-e619c62a554f` · printing: INR #252 (2025-01-24) · [rulings](https://api.scryfall.com/cards/b57491d9-ac52-4598-ac36-bed842f141a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wandering Musicians
@@ -284,6 +318,7 @@
 - **Flavor text** (TLA printing):
   > *"Even if you're lost, you can't lose the love because it's in your heart."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20699 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/250/wandering-musicians) · oracle_id `7166bf81-05c2-457d-a0bb-a175175b8e79` · printing: TLA #250 (2025-11-21) · [rulings](https://api.scryfall.com/cards/3da81dbd-dc80-47ff-a33b-270d23a24e0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wandering Ones
@@ -297,6 +332,7 @@
   > *"I saw them once, when I was a child. They led me to my parents' arms when I was lost. Why have they abandoned me now? Why won't they take me home again?"*
   > *—Unnamed beggar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29275 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/100/wandering-ones) · oracle_id `1bbddbd2-9c85-4a1d-87aa-0c2eb2e0fb73` · printing: CHK #100 (2004-10-01) · [rulings](https://api.scryfall.com/cards/8f973d6b-4a34-4b0e-b092-ead05bf2e535/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wandering Stream
@@ -310,7 +346,10 @@
   > *—Molimo, maro-sorcerer*
 - **Keywords:** Domain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29727 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inv/224/wandering-stream) · oracle_id `1f592b83-7838-4466-8bcb-093ac7346c55` · printing: INV #224 (2000-10-02) · [rulings](https://api.scryfall.com/cards/6da5cb6c-253b-44f0-98f9-d75f42c6e14b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-06-18* — Domain abilities count the number of basic land types among lands you control, not how many lands you control or how many of any type.
+  - *2021-06-18* — The basic land types are Plains, Island, Swamp, Mountain, and Forest. Land types other than basic land types (such as Desert) don't contribute to domain abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inv/224/wandering-stream) · oracle_id `1f592b83-7838-4466-8bcb-093ac7346c55` · printing: INV #224 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wandering Tombshell
 
@@ -322,6 +361,7 @@
 - **Flavor text** (DTK printing):
   > *The crumbling temples on the tortoise's back are monuments to the decadence of the ancient Sultai. Though it harkens back to the era of the khans, Silumgar allows it to walk his territory as a warning to those who would oppose him.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23620 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/127/wandering-tombshell) · oracle_id `768c78f3-f09c-4b77-974d-514925e8df5e` · printing: DTK #127 (2015-03-27) · [rulings](https://api.scryfall.com/cards/e66e1d97-d676-471a-a140-deb39600a7a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wandering Troubadour
@@ -335,7 +375,18 @@
   > *"There's a new ballad waiting to be born around every corner."*
 - **Keywords:** Venture into the dungeon
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17149 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/210/wandering-troubadour) · oracle_id `1a304703-6b48-4f3f-bd41-7f10ce0a751c` · printing: AFR #210 (2021-07-23) · [rulings](https://api.scryfall.com/cards/d3c7f123-31c8-469b-85e5-d20c4d21b2a0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2021-07-23* — A player may only have one dungeon in the command zone at a time.
+  - *2021-07-23* — Choosing the dungeon or room to venture into is part of resolving the venture into the dungeon keyword action. Once that choice is made, players may not respond until after the appropriate room ability has triggered.
+  - *2021-07-23* — Dungeon cards are not part of a player's deck or sideboard. In both constructed and limited formats, players can use any dungeon card when they venture into the dungeon.
+  - *2021-07-23* — Dungeons are removed from the game as a state-based action.
+  - *2021-07-23* — If you somehow venture into the dungeon while a room's ability is on the stack, you will continue on in the dungeon. If you're already in the last room, complete that dungeon and start a new one.
+  - *2021-07-23* — Moving into a dungeon room will cause its room ability to trigger.
+  - *2021-07-23* — Once you resolve the last room ability of a dungeon, that dungeon is now completed and is removed from the game.
+  - *2021-07-23* — The player venturing into the dungeon chooses which dungeon they will venture into. They may choose a dungeon that they have already completed this game.
+  - *2021-07-23* — To venture into the dungeon, a player moves their venture marker into the next room of the dungeon they are currently in. If they aren't currently in a dungeon, that player instead chooses a dungeon card from outside the game, puts it into the command zone, and moves their venture marker onto the first room.
+  - *2021-07-23* — You can only move forward (well, downward) in a dungeon, never backwards or sideways.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/210/wandering-troubadour) · oracle_id `1a304703-6b48-4f3f-bd41-7f10ce0a751c` · printing: AFR #210 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wandering Wolf
 
@@ -347,7 +398,9 @@
 - **Flavor text** (BBD printing):
   > *Humans still feared wolves, though no connection between them and the curse of lycanthropy had ever been proved.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19396 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/216/wandering-wolf) · oracle_id `1750cf0a-0709-4f02-90ea-572ff88a37a5` · printing: BBD #216 (2018-06-08) · [rulings](https://api.scryfall.com/cards/96d4361f-a889-4031-8b95-27dbef3922f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-05-01* — The comparison of power is only done when blockers are declared. Increasing the power of a blocking creature (or decreasing the power of Wandering Wolf) after this point won’t cause any creature to stop blocking or become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/216/wandering-wolf) · oracle_id `1750cf0a-0709-4f02-90ea-572ff88a37a5` · printing: BBD #216 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wanderlight Spirit
 
@@ -361,6 +414,7 @@
   > *The towers and catwalks of the Voldaren fortress are lit by the lanterns of geists endlessly seeking a way out.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30257 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/86/wanderlight-spirit) · oracle_id `7b4c2dcf-86f4-409d-90c3-8fe83966cac0` · printing: VOW #86 (2021-11-19) · [rulings](https://api.scryfall.com/cards/7bb3ce5d-330d-427e-a053-8cc4eeb2941b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wanderlust
@@ -372,6 +426,7 @@
   > At the beginning of the upkeep of enchanted creature's controller, this Aura deals 1 damage to that player.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29646 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/137/wanderlust) · oracle_id `73bddfdb-d1fb-4038-b676-201f6b82beb0` · printing: ME1 #137 (2007-09-10) · [rulings](https://api.scryfall.com/cards/089b7137-8824-449b-890f-97e761950a17/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wandermare
@@ -385,7 +440,11 @@
   > *"A good steed will carry you home. A great steed will carry you to glory."*
   > *—Syr Alin, the Lion's Claw*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24140 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/204/wandermare) · oracle_id `7c25470c-7be0-495c-b756-6a4fc230d660` · printing: ELD #204 (2019-10-04) · [rulings](https://api.scryfall.com/cards/9a72fb5b-5c55-4ce9-b9d0-98f924d6f338/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-10-04* — An effect may refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
+  - *2019-10-04* — If an effect refers to a card, spell, or permanent that has an Adventure, it won't find an instant or sorcery spell on the stack that's been cast as an Adventure.
+  - *2019-10-04* — Wandermare's ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/204/wandermare) · oracle_id `7c25470c-7be0-495c-b756-6a4fc230d660` · printing: ELD #204 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wander Off
 
@@ -397,6 +456,7 @@
   > *"This place may be the Titan's Grave, but if you aren't careful it can be yours as well."*
   > *—Professor Dellian Fel*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15370 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/104/wander-off) · oracle_id `b14d3226-adc2-4bdd-9e69-fefdc946ac04` · printing: SOS #104 (2026-04-24) · [rulings](https://api.scryfall.com/cards/3d409512-50b9-4a38-91b0-19ba25227992/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wandertale Mentor
@@ -426,6 +486,7 @@
 - **Flavor text** (ECL printing):
   > *Merrow glamers have disarmed many a foe when a shield has failed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23143 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/82/wanderwine-distracter) · oracle_id `6c0f6673-bc24-4c84-b4e7-736283ffd60e` · printing: ECL #82 (2026-01-23) · [rulings](https://api.scryfall.com/cards/cbf593a7-d4ae-4771-926a-3c1b2c8c901a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wanderwine Farewell
@@ -437,7 +498,15 @@
   > Return one or two target nonland permanents to their owners' hands. Then if you control a Merfolk, create a 1/1 white and blue Merfolk creature token for each permanent returned to its owner's hand this way.
 - **Keywords:** Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18678 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/83/wanderwine-farewell) · oracle_id `7e1da4a1-5922-4a2e-8bbc-25fbcbf20935` · printing: ECL #83 (2026-01-23) · [rulings](https://api.scryfall.com/cards/473123a0-1366-406b-9b9e-154c0e9c224f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-11-17* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2025-11-17* — Kindred is a card type that allows noncreature cards to have creature types. For example, Morcant's Eyes is an Elf (although not a creature) while on the battlefield and an Elf card (although not a creature card) in zones other than the battlefield.
+  - *2025-11-17* — Some older cards were originally printed with the "tribal" card type. That card type has been replaced with "kindred." This change does not affect the gameplay function of these cards.
+  - *2025-11-17* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2025-11-17* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2025-11-17* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+  - *2025-11-17* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/83/wanderwine-farewell) · oracle_id `7e1da4a1-5922-4a2e-8bbc-25fbcbf20935` · printing: ECL #83 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wanderwine Hub
 
@@ -449,6 +518,7 @@
 - **Flavor text** (LRW printing):
   > *Below the great river, a bustling hub channels the flow of merrow trade.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13807 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/280/wanderwine-hub) · oracle_id `c3b46bd6-b3ef-452d-a916-995c44f1da07` · printing: LRW #280 (2007-10-12) · [rulings](https://api.scryfall.com/cards/ccec69de-7203-4810-a8ec-8748705ee3a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wanderwine Prophets
@@ -473,6 +543,7 @@
 - **Flavor text** (6ED printing):
   > *You'll never miss what you never had.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20268 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/6ed/317/wand-of-denial) · oracle_id `9d32da71-60e5-4eb3-97ca-ae76e2f5df57` · printing: 6ED #317 (1999-04-21) · [rulings](https://api.scryfall.com/cards/f6f37dd8-87d6-432f-a60d-a7a699da3080/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wand of Ith
@@ -482,7 +553,9 @@
 - **Oracle text:**
   > {3}, {T}: Target player reveals a card at random from their hand. If it's a land card, that player discards it unless they pay 1 life. If it isn't a land card, the player discards it unless they pay life equal to its mana value. Activate only during your turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29523 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/drk/114/wand-of-ith) · oracle_id `3ec1ccd7-4970-4032-be7a-9e76ca6a139e` · printing: DRK #114 (1994-08-01) · [rulings](https://api.scryfall.com/cards/80c9070a-8c70-480e-a476-e00f8e2c71b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Any X in the mana cost of a card is zero for purposes of the Wand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/drk/114/wand-of-ith) · oracle_id `3ec1ccd7-4970-4032-be7a-9e76ca6a139e` · printing: DRK #114 (1994-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wand of Orcus
 
@@ -507,6 +580,7 @@
 - **Flavor text** (DST printing):
   > *It gives legs to the earth and wings to the sky.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30686 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dst/158/wand-of-the-elements) · oracle_id `b4931b44-815e-40b5-b239-682d350f3347` · printing: DST #158 (2004-02-06) · [rulings](https://api.scryfall.com/cards/1131c187-8fc3-4cee-9422-355ef6622de7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wand of the Worldsoul
@@ -542,6 +616,7 @@
   > *Made by the mad for the work of the wicked.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12607 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/242/wand-of-vertebrae) · oracle_id `dbf7d799-98c9-4dc6-a58c-258bd9c19425` · printing: GRN #242 (2018-10-05) · [rulings](https://api.scryfall.com/cards/87f208bc-e4dc-4d3a-8906-dccde3cc251b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wand of Wonder
@@ -566,6 +641,7 @@
   > Vanishing 2 (This creature enters with two time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)
 - **Keywords:** Vanishing
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18987 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/plc/83/waning-wurm) · oracle_id `4921a314-fce7-4f3c-8546-6cf520a2c104` · printing: PLC #83 (2007-02-02) · [rulings](https://api.scryfall.com/cards/b20b0048-f93a-4349-b5d1-201ab0a38d1b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wan Shi Tong, All-Knowing
@@ -579,7 +655,9 @@
   > Whenever one or more cards are put into a library from anywhere, create two 1/1 colorless Spirit creature tokens with "This token can't block or be blocked by non-Spirit creatures."
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14108 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/98/wan-shi-tong-all-knowing) · oracle_id `6927bd2e-cb05-487a-af86-89ede6e8dabd` · printing: TLE #98 (2025-11-21) · [rulings](https://api.scryfall.com/cards/777fcc21-2856-4181-8ecd-c272f9769e36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-10-02* — Wan Shi Tong, All-Knowing's last ability triggers only when cards are put into a library from somewhere other than the library. It won't trigger when you scry, surveil, or otherwise reorder cards in your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/98/wan-shi-tong-all-knowing) · oracle_id `6927bd2e-cb05-487a-af86-89ede6e8dabd` · printing: TLE #98 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wan Shi Tong, Librarian
 
@@ -610,6 +688,7 @@
   > *Many a would-be captor has gotten close enough to count its feathers, only to be left behind with nothing but regret and a dangling rope.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24668 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/38/wanted-griffin) · oracle_id `c1348afe-4dc7-41bb-9d3f-1e8751abd7db` · printing: OTJ #38 (2024-04-19) · [rulings](https://api.scryfall.com/cards/624a176b-fe24-4441-8877-464cf172ccff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wanted Scoundrels
@@ -623,4 +702,5 @@
   > *"Trust me. The reward's not worth it."*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21328 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/131/wanted-scoundrels) · oracle_id `1c63c4ca-5d5a-4ab9-af0d-ed1254b581cc` · printing: XLN #131 (2017-09-29) · [rulings](https://api.scryfall.com/cards/6704e4c9-3b5e-4ba5-a5bc-6d684e2983e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -37,6 +37,7 @@
 - **Flavor text** (TLE printing):
   > *"The silk thread symbolizes the brave blood that flows through our veins. The gold insignia represents the honor of the warrior's heart."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15755 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/85/suki-kyoshi-captain) · oracle_id `558513bb-a76d-434a-98fc-3707a5d8886a` · printing: TLE #85 (2025-11-21) · [rulings](https://api.scryfall.com/cards/97f713ae-c70a-401c-ad10-323f1d7b8f47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suki, Kyoshi Warrior

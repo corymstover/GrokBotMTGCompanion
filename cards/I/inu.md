@@ -19,4 +19,6 @@
 - **Flavor text** (EVE printing):
   > *"For years, the landfolk have emptied their refuse into the waters. It's time to return the favor."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12725 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eve/25/inundate) · oracle_id `0390a3dc-386c-402f-a89c-b94867bfb0a2` · printing: EVE #25 (2008-07-25) · [rulings](https://api.scryfall.com/cards/d5047c92-2885-4a7b-b51f-f3e093dca5ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — A hybrid creature that’s blue and another color is *not* a nonblue creature. Since it’s blue, it can’t be nonblue!
+- **Source flags:** [Scryfall](https://scryfall.com/card/eve/25/inundate) · oracle_id `0390a3dc-386c-402f-a89c-b94867bfb0a2` · printing: EVE #25 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

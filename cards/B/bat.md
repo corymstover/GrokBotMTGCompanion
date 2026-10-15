@@ -95,7 +95,10 @@
   > Augment {1}{B} ({1}{B}, Reveal this card from your hand: Combine it with target host. Augment only as a sorcery.)
 - **Keywords:** Flying, Augment
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/und/32/bat-) · oracle_id `e2225848-bfde-4921-b47f-b93da10140a9` · printing: UND #32 (2020-02-29) · [rulings](https://api.scryfall.com/cards/b14ebf7a-c616-4a89-904b-75c5602c54de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-02-29* — If the only opponent who lost 3 life during the turn isn’t in the game at the beginning of that turn’s end step, the triggered ability will still trigger.
+  - *2020-02-29* — In a multiplayer game, the triggered ability will trigger no more than once a turn, even if multiple opponents lost 3 life during the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/und/32/bat-) · oracle_id `e2225848-bfde-4921-b47f-b93da10140a9` · printing: UND #32 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bat Colony
 
@@ -105,6 +108,7 @@
   > When this enchantment enters, create a 1/1 black Bat creature token with flying for each mana from a Cave spent to cast it.
   > Whenever a Cave you control enters, put a +1/+1 counter on target creature you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21336 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/5/bat-colony) · oracle_id `c2022f95-2c26-4a2a-b83b-60efa937cdde` · printing: LCI #5 (2023-11-17) · [rulings](https://api.scryfall.com/cards/1c02134c-ec9f-4090-820e-8ba7ae4a8c2b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bathe in Dragonfire
@@ -116,6 +120,7 @@
 - **Flavor text** (JMP printing):
   > *The scent of cooked flesh lingers in the charred landscape of Tarkir.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19628 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/293/bathe-in-dragonfire) · oracle_id `72d793e8-1d19-4ca1-894c-8851a2ebecde` · printing: JMP #293 (2020-07-17) · [rulings](https://api.scryfall.com/cards/102740d0-ca74-460d-af30-c71bddad87c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bathe in Light
@@ -128,7 +133,14 @@
   > *"Truth shines even in darkness. Those who march on the side of truth walk always in righteous light."*
 - **Keywords:** Radiance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17623 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cma/6/bathe-in-light) · oracle_id `8e862a8e-7954-43ad-9bc0-09ce7b9859f0` · printing: CMA #6 (2017-06-09) · [rulings](https://api.scryfall.com/cards/d1d6dc01-278e-44cc-a488-7e3c2f2e0861/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2005-10-01* — A creature “shares a color” with any creature that is at least one of its colors. For example, a green-white creature shares a color with creatures that are green, white, green-white, red-white, black-green, and so on.
+  - *2005-10-01* — All creatures that share a color are affected, even your own.
+  - *2005-10-01* — If it targets a colorless creature, it doesn’t affect any other creatures. A colorless creature shares a color with nothing, not even other colorless creatures.
+  - *2005-10-01* — Only one creature is targeted. If that creature leaves the battlefield or otherwise becomes an illegal target, the entire spell doesn’t resolve. No other creatures are affected.
+  - *2005-10-01* — The color you choose as the spell resolves has nothing to do with the color or colors shared by the affected creatures.
+  - *2005-10-01* — You check which creatures share a color with the target when the spell resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cma/6/bathe-in-light) · oracle_id `8e862a8e-7954-43ad-9bc0-09ce7b9859f0` · printing: CMA #6 (2017-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bat'leth
 
@@ -142,6 +154,7 @@
   > *"Your tongue is as sharp as a warrior's! Let's see if your blade is as well!"*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32312 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/94/batleth) · oracle_id `1000d26e-7a29-48df-806f-9eb7d4e1082d` · printing: TRK #94 (2026-11-13) · [rulings](https://api.scryfall.com/cards/888e6e0f-43c3-4516-88ff-8a8d814478d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baton of Courage
@@ -154,6 +167,7 @@
   > Remove a charge counter from this artifact: Target creature gets +1/+1 until end of turn.
 - **Keywords:** Sunburst, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28698 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/105/baton-of-courage) · oracle_id `a20bb8b3-b724-4fec-b179-ca9e6adc4718` · printing: 5DN #105 (2004-06-04) · [rulings](https://api.scryfall.com/cards/d363970c-2418-42f9-8d13-0e5700161b62/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baton of Morale
@@ -166,7 +180,12 @@
   > *"The Goblins would kill to get ahold of this one."*
   > *—Arcum Dagsson, Soldevi Machinist*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18893 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ice/313/baton-of-morale) · oracle_id `879011c6-550e-4e33-a664-fffb655321d9` · printing: ICE #313 (1995-06-03) · [rulings](https://api.scryfall.com/cards/8bc29872-b1a2-4851-9eca-f3e67ae6e14c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-10-01* — A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it.
+  - *2008-10-01* — Creatures in the same band must all attack the same player or planeswalker.
+  - *2008-10-01* — If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a "band." The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned.
+  - *2009-10-01* — If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ice/313/baton-of-morale) · oracle_id `879011c6-550e-4e33-a664-fffb655321d9` · printing: ICE #313 (1995-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Batroc the Leaper
 
@@ -179,6 +198,7 @@
   > When Batroc enters, he deals damage equal to his power to each of up to X targets, where X is the number of times he was kicked.
 - **Keywords:** Multikicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20262 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/49/batroc-the-leaper) · oracle_id `ebbea7a7-c990-43fa-8f67-a5da17fbbb10` · printing: MSC #49 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e34e33ea-042e-409c-b304-52644ec5b1f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battalion Foot Soldier
@@ -191,6 +211,7 @@
 - **Flavor text** (M20 printing):
   > *"With me! Break this line and the rest will fall!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31607 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/7/battalion-foot-soldier) · oracle_id `f6f39a85-28b9-49f3-ab90-2ff99169de42` · printing: M20 #7 (2019-07-12) · [rulings](https://api.scryfall.com/cards/1db6393a-88b0-4973-9832-1482f69917ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Batterbone
@@ -230,6 +251,7 @@
 - **Flavor text** (RTR printing):
   > *Novice shopkeeps spend hours deciding how best to display their wares. Veterans focus on portability.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26481 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rtr/87/batterhorn) · oracle_id `b9dd5841-7e4b-40bf-9969-e8fb5df46763` · printing: RTR #87 (2012-10-05) · [rulings](https://api.scryfall.com/cards/a7b40f74-893f-4bfc-87b2-7f8df4c912d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battering Craghorn
@@ -244,6 +266,7 @@
   > *Their skeletons can be found all over Skirk Ridge, tangled in each other's horns.*
 - **Keywords:** Morph, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29283 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/arc/30/battering-craghorn) · oracle_id `a084bca4-fe72-443e-adf4-ab5456c7e699` · printing: ARC #30 (2010-06-18) · [rulings](https://api.scryfall.com/cards/69786e07-1b2c-4af9-82f1-222fb9fb4e85/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battering Krasis
@@ -256,7 +279,14 @@
   > Evolve (Whenever a creature you control enters, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)
 - **Keywords:** Evolve, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23086 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/41/battering-krasis) · oracle_id `3d0c1301-4fa7-4245-a13f-f613188eb638` · printing: DGM #41 (2013-05-03) · [rulings](https://api.scryfall.com/cards/5d9aa740-9adf-412a-b6ec-0b9bb1b4618b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2013-04-15* — If a creature enters the battlefield with +1/+1 counters on it, consider those counters when determining if evolve will trigger. For example, a 1/1 creature that enters the battlefield with two +1/+1 counters on it will cause the evolve ability of a 2/2 creature to trigger.
+  - *2013-04-15* — If evolve triggers, the stat comparison will happen again when the ability tries to resolve. If neither stat of the new creature is greater, the ability will do nothing. If the creature that entered the battlefield leaves the battlefield before evolve tries to resolve, use its last known power and toughness to compare the stats.
+  - *2013-04-15* — If multiple creatures enter the battlefield at the same time, evolve may trigger multiple times, although the stat comparison will take place each time one of those abilities tries to resolve. For example, if you control a 2/2 creature with evolve and two 3/3 creatures enter the battlefield, evolve will trigger twice. The first ability will resolve and put a +1/+1 counter on the creature with evolve. When the second ability tries to resolve, neither the power nor the toughness of the new creature is greater than that of the creature with evolve, so that ability does nothing.
+  - *2013-04-15* — When comparing the stats as the evolve ability resolves, it’s possible that the stat that’s greater changes from power to toughness or vice versa. If this happens, the ability will still resolve and you’ll put a +1/+1 counter on the creature with evolve. For example, if you control a 2/2 creature with evolve and a 1/3 creature enters the battlefield under your control, it toughness is greater so evolve will trigger. In response, the 1/3 creature gets +2/-2. When the evolve trigger tries to resolve, its power is greater. You’ll put a +1/+1 counter on the creature with evolve.
+  - *2013-04-15* — When comparing the stats of the two creatures for evolve, you always compare power to power and toughness to toughness.
+  - *2013-04-15* — Whenever a creature enters the battlefield under your control, check its power and toughness against the power and toughness of the creature with evolve. If neither stat of the new creature is greater, evolve won’t trigger at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/41/battering-krasis) · oracle_id `3d0c1301-4fa7-4245-a13f-f613188eb638` · printing: DGM #41 (2013-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battering Ram
 
@@ -269,7 +299,12 @@
 - **Flavor text** (5ED printing):
   > *By the time Mishra was defeated, no mage was foolish enough to rely heavily on walls.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25363 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/5ed/353/battering-ram) · oracle_id `e7b91fba-8d96-4040-95e8-f0023b65c497` · printing: 5ED #353 (1997-03-24) · [rulings](https://api.scryfall.com/cards/e7e2857f-f6eb-4091-b758-7bb508544170/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-10-01* — A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it.
+  - *2008-10-01* — Creatures in the same band must all attack the same player or planeswalker.
+  - *2008-10-01* — If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a "band." The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned.
+  - *2009-10-01* — If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/5ed/353/battering-ram) · oracle_id `e7b91fba-8d96-4040-95e8-f0023b65c497` · printing: 5ED #353 (1997-03-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battering Sliver
 
@@ -281,7 +316,10 @@
 - **Flavor text** (TSR printing):
   > *Covered with hard shell-like plates, these slivers burrow through solid rock to carve out new nests for their hives.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13217 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/154/battering-sliver) · oracle_id `4adf959b-2e09-47ff-a1b1-b889348735b8` · printing: TSR #154 (2021-03-19) · [rulings](https://api.scryfall.com/cards/7f65a72b-d24c-4016-befc-91018a1b62e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn't provide any additional benefit.
+  - *2013-07-01* — If the creature type of a Sliver changes so it's no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/154/battering-sliver) · oracle_id `4adf959b-2e09-47ff-a1b1-b889348735b8` · printing: TSR #154 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battering Wurm
 
@@ -293,7 +331,9 @@
   > Creatures with power less than this creature's power can't block it.
 - **Keywords:** Bloodthirst
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26106 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/79/battering-wurm) · oracle_id `fdcfa49a-70ed-48a4-b424-527a1698fd85` · printing: GPT #79 (2006-02-03) · [rulings](https://api.scryfall.com/cards/5a0fb683-2e9b-465c-9fb5-2eb334c2739a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-02-01* — Battering Wurm compares each blocker's power against its own as blockers are being declared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/79/battering-wurm) · oracle_id `fdcfa49a-70ed-48a4-b424-527a1698fd85` · printing: GPT #79 (2006-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battershield Warrior
 
@@ -306,7 +346,12 @@
   > *"I need no axe to best these weaklings."*
 - **Keywords:** Boast
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27959 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/2/battershield-warrior) · oracle_id `f8e8cdc6-5685-4986-a14b-20bb9e31d9cf` · printing: KHM #2 (2021-02-05) · [rulings](https://api.scryfall.com/cards/fb79dc85-f85a-4846-9ac3-c75c64ea9c0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-02-05* — A boast ability can be activated at any point after the creature with that ability has been declared as an attacker. This can be before blockers are declared, after blockers are declared but before combat damage is dealt, during combat after combat damage is dealt, during the postcombat main phase, during the end step, or, in some unusual cases, during the cleanup step.
+  - *2021-02-05* — If a creature with a boast ability is put onto the battlefield attacking, it was never declared as an attacker. Its boast ability can't be activated that turn.
+  - *2021-02-05* — If an effect adds additional combat phases to a turn and a creature with a boast ability attacks more than once during that turn, its boast ability can still be activated only once.
+  - *2021-02-05* — If it's not your turn and you gain control of a creature with a boast ability after that creature attacked, you can activate that creature's boast ability if it hasn't been activated yet that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/2/battershield-warrior) · oracle_id `f8e8cdc6-5685-4986-a14b-20bb9e31d9cf` · printing: KHM #2 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Batterskull
 
@@ -338,6 +383,7 @@
 - **Flavor text** (BRO printing):
   > *She always leads the charge.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25938 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/207/battery-bearer) · oracle_id `de6fd93e-16d8-4855-a655-1cc0755c5d15` · printing: BRO #207 (2022-11-18) · [rulings](https://api.scryfall.com/cards/bb5306d6-0f08-429a-8590-1b8136f953a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle Angels of Tyr
@@ -375,7 +421,19 @@
   > *—Tezzeret*
 - **Keywords:** Improvise
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11798 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/53/battle-at-the-bridge) · oracle_id `3d63ad3a-4e9f-4968-a576-4be063f4ecbf` · printing: AER #53 (2017-01-20) · [rulings](https://api.scryfall.com/cards/74d8b644-4cca-451e-a46c-5237c13bf373/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2017-02-09* — Because improvise isn’t an alternative cost, it can be used in conjunction with alternative costs.
+  - *2017-02-09* — Equipment attached to a creature doesn’t become tapped when that creature becomes tapped, and tapping that Equipment doesn’t cause the creature to become tapped.
+  - *2017-02-09* — If an artifact you control has a mana ability with {T} in the cost, activating that ability while casting a spell with improvise will result in the artifact being tapped when you pay the spell’s costs. You won’t be able to tap it again for improvise. Similarly, if you sacrifice an artifact to activate a mana ability while casting a spell with improvise, that artifact won’t be on the battlefield when you pay the spell’s costs, so you won’t be able to tap it for improvise.
+  - *2017-02-09* — If the target creature becomes an illegal target, Battle at the Bridge doesn’t resolve and none of its effects happen. You won’t gain life.
+  - *2017-02-09* — Improvise can’t be used to pay for anything other than the cost of casting the spell. For example, it can’t be used during the resolution of an ability that says “Counter target spell unless its controller pays {3}.”
+  - *2017-02-09* — Improvise can’t pay for {W}, {U}, {B}, {R}, {G}, or {C} mana symbols in a spell’s total cost.
+  - *2017-02-09* — Improvise doesn’t change a spell’s mana cost or mana value.
+  - *2017-02-09* — Tapping an artifact won’t cause its abilities to stop applying unless those abilities say so.
+  - *2017-02-09* — When calculating a spell’s total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Improvise applies after the total cost is calculated.
+  - *2017-02-09* — When using improvise to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell’s total cost. Then you can tap artifacts you control to help pay that cost. For example, if you cast Whir of Invention (a spell with improvise and mana cost {X}{U}{U}{U}) and choose X to be 3, the total cost is {3}{U}{U}{U}. If you tap two artifacts, you’ll have to pay {1}{U}{U}{U}.
+  - *2018-01-19* — There are many important moments in the story, but the most crucial—called “story spotlights”—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/53/battle-at-the-bridge) · oracle_id `3d63ad3a-4e9f-4968-a576-4be063f4ecbf` · printing: AER #53 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle at the Helvault
 
@@ -403,7 +461,9 @@
 - **Flavor text** (FRF printing):
   > *Every time he returns from battle unscathed, he feels a tinge of disappointment.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25050 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frf/63/battle-brawler) · oracle_id `d46d8913-7575-4aef-b511-6c0ca9d4b506` · printing: FRF #63 (2015-01-23) · [rulings](https://api.scryfall.com/cards/7c9b5baf-6163-48a9-b58d-195edfeb437d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-11-24* — If Battle Brawler assigns combat damage during the first combat damage step, and then it loses first strike before the second combat damage step (perhaps because you no longer control a red or white permanent), it won't assign combat damage again in the second combat damage step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frf/63/battle-brawler) · oracle_id `d46d8913-7575-4aef-b511-6c0ca9d4b506` · printing: FRF #63 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle Cry
 
@@ -416,6 +476,7 @@
   > *"In the thick of battle, you must keep your wits about you. Yelling a lot helps, too."*
   > *—General Jarkeld, the Arctic Fox*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28481 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/5/battle-cry) · oracle_id `b92afdba-5aea-42c8-bdd8-6ba5ff6cba4f` · printing: ICE #5 (1995-06-03) · [rulings](https://api.scryfall.com/cards/c558a8c4-035c-464e-9ff8-c188c1bb619e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle Cry Goblin
@@ -442,6 +503,7 @@
 - **Flavor text** (BRO printing):
   > *"Any more giant metal monsters want to try their luck? I'm just getting warmed up!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24373 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/86/battlefield-butcher) · oracle_id `2978ba77-c0ce-4411-99c7-ef05dd602c8d` · printing: BRO #86 (2022-11-18) · [rulings](https://api.scryfall.com/cards/90c47e31-d4f6-46f3-94b7-1726c4a4a8eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battlefield Forge
@@ -483,7 +545,9 @@
 - **Flavor text** (ONS printing):
   > *"Death never stops to rest. Neither can we."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23895 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ons/9/battlefield-medic) · oracle_id `a600af0b-ea04-4813-b700-f51820868c86` · printing: ONS #9 (2002-10-07) · [rulings](https://api.scryfall.com/cards/9c444503-42a8-4952-819b-bbca89b06abc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The value of X is determined when this resolves, not later when damage would be dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ons/9/battlefield-medic) · oracle_id `a600af0b-ea04-4813-b700-f51820868c86` · printing: ONS #9 (2002-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battlefield Percher
 
@@ -496,6 +560,7 @@
   > {1}{B}: This creature gets +1/+1 until end of turn.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32174 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/52/battlefield-percher) · oracle_id `2836c144-7268-411a-b651-351cc4ef8fe9` · printing: NEM #52 (2000-02-14) · [rulings](https://api.scryfall.com/cards/f1ebf021-02a1-4a47-b581-c85a7a76cdec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battlefield Promotion
@@ -507,7 +572,9 @@
 - **Flavor text** (2X2 printing):
   > *"Welcome to the Legion. You saved a district—now let's go save the world."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18149 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/7/battlefield-promotion) · oracle_id `303d74d0-84db-4694-bb1a-470cf470bc4f` · printing: 2X2 #7 (2022-07-08) · [rulings](https://api.scryfall.com/cards/4e4e3a08-05a6-4730-8b4a-a8cb440dc299/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-05-03* — If the target creature is an illegal target by the time Battlefield Promotion tries to resolve, the spell doesn't resolve. You don't gain 2 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/7/battlefield-promotion) · oracle_id `303d74d0-84db-4694-bb1a-470cf470bc4f` · printing: 2X2 #7 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battlefield Raptor
 
@@ -533,7 +600,13 @@
   > Whenever you exert a creature, you may discard a card. If you do, draw a card.
 - **Keywords:** Exert
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26222 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/118/battlefield-scavenger) · oracle_id `f88b0634-144a-4a33-a369-62df8edf05fe` · printing: AKH #118 (2017-04-28) · [rulings](https://api.scryfall.com/cards/f0eb1a40-8239-4544-96a1-a4acaf7e2054/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-04-18* — All cards in the Amonkhet set that let you exert a creature let you do so as you declare it as an attacking creature, as do some of the cards in the Hour of Devastation set. You can't do so later in combat, and creatures put onto the battlefield attacking can't be exerted. Any abilities that trigger on exerting an attacking creature will resolve before blockers are declared.
+  - *2017-04-18* — If an exerted creature is already untapped during your next untap step (most likely because it had vigilance or an effect untapped it), exert's effect preventing it from untapping expires without having done anything.
+  - *2017-04-18* — If you gain control of another player's creature until end of turn and exert it, it will untap during that player's untap step.
+  - *2017-04-18* — Some cards have abilities that trigger whenever you exert any creature. These abilities trigger when you exert that creature or any other creature you control.
+  - *2017-04-18* — You can't exert a creature unless an effect allows you to do so. Similar effects that "tap and freeze" a creature (such as that of Decision Paralysis) don't exert that creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/118/battlefield-scavenger) · oracle_id `f88b0634-144a-4a33-a369-62df8edf05fe` · printing: AKH #118 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battlefield Scrounger
 
@@ -544,7 +617,9 @@
   > Threshold — Put three cards from your graveyard on the bottom of your library: This creature gets +3/+3 until end of turn. Activate only once each turn and only if there are seven or more cards in your graveyard.
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28940 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/150/battlefield-scrounger) · oracle_id `92ac7531-10bb-47a2-9dd0-378d547b4ed6` · printing: DMR #150 (2023-01-13) · [rulings](https://api.scryfall.com/cards/f5a9f234-c1c1-4b4b-8385-6e0ced9977f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — Check the number of cards in your graveyard before activating the ability. If activating the ability causes that number to fall below seven, the ability still resolves as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/150/battlefield-scrounger) · oracle_id `92ac7531-10bb-47a2-9dd0-378d547b4ed6` · printing: DMR #150 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battlefield Thaumaturge
 
@@ -556,7 +631,15 @@
   > Heroic — Whenever you cast a spell that targets this creature, this creature gains hexproof until end of turn.
 - **Keywords:** Heroic
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14294 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jou/31/battlefield-thaumaturge) · oracle_id `70d2f5f7-f727-48e1-9532-8d365b1c1ae5` · printing: JOU #31 (2014-05-02) · [rulings](https://api.scryfall.com/cards/467ffc93-b107-457c-af04-a1b682a4b886/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2014-04-26* — Battlefield Thaumaturge's first ability doesn't change that spell's mana cost or mana value. It changes only the amount you actually pay (the “total cost” of the spell).
+  - *2014-04-26* — Heroic abilities will resolve before the spell that caused them to trigger.
+  - *2014-04-26* — Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times.
+  - *2014-04-26* — Heroic abilities won't trigger when a copy of a spell is created on the stack or when a spell's targets are changed to include a creature with a heroic ability.
+  - *2014-04-26* — The cost reduction created by Battlefield Thaumaturge's first ability can reduce only the generic portion of the spell's total cost. Colored mana requirements aren't affected.
+  - *2014-04-26* — The cost reduction is {1} per target creature, even if the spell targets a creature more than once.
+  - *2014-04-26* — To calculate the total cost of an instant or sorcery spell you're casting, start with the mana cost (or alternative cost, if applicable), add all cost increases (including additional costs such as those imposed by strive abilities), then subtract all cost reductions (such as the one created by Battlefield Thaumaturge's first ability).
+- **Source flags:** [Scryfall](https://scryfall.com/card/jou/31/battlefield-thaumaturge) · oracle_id `70d2f5f7-f727-48e1-9532-8d365b1c1ae5` · printing: JOU #31 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battleflight Eagle
 
@@ -570,7 +653,9 @@
   > *Eagles make fine mounts, but they're too proud to carry anyone for long.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29757 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m13/7/battleflight-eagle) · oracle_id `f36e316d-c0ad-414d-8cf0-b1c9ea779e03` · printing: M13 #7 (2012-07-13) · [rulings](https://api.scryfall.com/cards/4182dbd5-8eae-4f4b-86aa-2bfc24481800/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-07-01* — Battleflight Eagle’s ability is mandatory, although you can choose Battleflight Eagle as the target.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m13/7/battleflight-eagle) · oracle_id `f36e316d-c0ad-414d-8cf0-b1c9ea779e03` · printing: M13 #7 (2012-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battlefly Swarm
 
@@ -623,6 +708,7 @@
   > *"One day you, too, shall drink the blood of your foes. It is something to look forward to."*
   > *—Toothlicker Harj, Orcish Captain*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31216 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/175/battle-frenzy) · oracle_id `0fca46ec-ec1a-4e6c-bb0e-cdb834b38c92` · printing: ICE #175 (1995-06-03) · [rulings](https://api.scryfall.com/cards/a85ae675-56ca-4a00-83d2-ee035f33d6d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battlefront Krushok
@@ -636,7 +722,9 @@
 - **Flavor text** (CLU printing):
   > *Krushoks clear debris from fertile fields, fallow fields, and battlefields.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15659 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/157/battlefront-krushok) · oracle_id `6a003988-f126-4309-9166-50f3fbf0f30c` · printing: CLU #157 (2024-02-23) · [rulings](https://api.scryfall.com/cards/3f365bd0-a979-4b86-afa5-426f1813851e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-11-24* — The second ability applies only as blockers are declared. If a creature you control with no +1/+1 counters on it becomes blocked by more than one creature, putting a +1/+1 counter on it won’t change or undo the block.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/157/battlefront-krushok) · oracle_id `6a003988-f126-4309-9166-50f3fbf0f30c` · printing: CLU #157 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battlegate Mimic
 
@@ -648,7 +736,12 @@
 - **Flavor text** (HOP printing):
   > *Mimics don't need perfect disguises. They need only the perfect victims: the naive, the young, or the poor of sight.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26422 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hop/98/battlegate-mimic) · oracle_id `0af189d3-4de1-483e-aac4-dd5d51a57d9c` · printing: HOP #98 (2009-09-04) · [rulings](https://api.scryfall.com/cards/c330f44c-0479-472d-81ed-16445d182c37/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-08-01* — Any other abilities the Mimic may have gained are not affected.
+  - *2008-08-01* — If you cast a spell that’s the two appropriate colors for the second time in a turn, the ability triggers again. The Mimic will once again become the power and toughness stated in its ability, which could overwrite power- and toughness-setting effects that have been applied to it in the meantime.
+  - *2008-08-01* — The ability triggers whenever you cast a spell that’s both of its listed colors. It doesn’t matter whether that spell also happens to be any other colors.
+  - *2009-10-01* — The effect from the ability overwrites other effects that set power and/or toughness if and only if those effects existed before the ability resolved. It will not overwrite effects that modify power or toughness (whether from a static ability, counters, or a resolved spell or ability), nor will it overwrite effects that set power and toughness which come into existence after the ability resolves. Effects that switch the creature’s power and toughness are always applied after any other power or toughness changing effects, including this one, regardless of the order in which they are created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hop/98/battlegate-mimic) · oracle_id `0af189d3-4de1-483e-aac4-dd5d51a57d9c` · printing: HOP #98 (2009-09-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battlegrace Angel
 
@@ -661,7 +754,15 @@
   > Whenever a creature you control attacks alone, it gains lifelink until end of turn.
 - **Keywords:** Flying, Exalted
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12662 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/10/battlegrace-angel) · oracle_id `40216d09-ae4d-4a41-b3f6-1a8035093045` · printing: MM2 #10 (2015-05-22) · [rulings](https://api.scryfall.com/cards/1cf72b23-a951-4e88-a52b-b3abe8f16bf4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2008-10-01* — Exalted abilities will resolve before blockers are declared.
+  - *2008-10-01* — Exalted bonuses last until end of turn. If an effect creates an additional combat phase during your turn, a creature that attacked alone during the first combat phase will still have its exalted bonuses in that new phase. If a creature attacks alone during the second combat phase, all your exalted abilities will trigger again.
+  - *2008-10-01* — If you attack with multiple creatures, but then all but one are removed from combat, your exalted abilities won’t trigger.
+  - *2008-10-01* — If you declare exactly one creature as an attacker, each exalted ability on each permanent you control (including, perhaps, the attacking creature itself) will trigger. The bonuses are given to the attacking creature, not to the permanent with exalted. Ultimately, the attacking creature will wind up with +1/+1 for each of your exalted abilities.
+  - *2008-10-01* — In a Two-Headed Giant game, a creature “attacks alone” if it’s the only creature declared as an attacker by your entire team. If you control that attacking creature, your exalted abilities will trigger but your teammate’s exalted abilities won’t.
+  - *2008-10-01* — Some effects put creatures onto the battlefield attacking. Since those creatures were never declared as attackers, they’re ignored by exalted abilities. They won’t cause exalted abilities to trigger. If any exalted abilities have already triggered (because exactly one creature was declared as an attacker), those abilities will resolve as normal even though there may now be multiple attackers.
+  - *2009-10-01* — Battlegrace Angel could cause a creature to have multiple instances of lifelink. For example, a creature you control that already has lifelink could attack alone while you control Battlegrace Angel, or a creature you control could attack alone while you control more than one Battlegrace Angel. If a creature has multiple instances of lifelink, they are redundant. You’ll still only gain life equal to the damage dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/10/battlegrace-angel) · oracle_id `40216d09-ae4d-4a41-b3f6-1a8035093045` · printing: MM2 #10 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battleground Geist
 
@@ -675,6 +776,7 @@
   > *Not content to nudge vases and chill drawing rooms, some geists muster spectral armies to claw at the hearts of the living.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22540 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/53/battleground-geist) · oracle_id `2450d35b-7d87-4885-b396-f8e1d3ac0b22` · printing: INR #53 (2025-01-24) · [rulings](https://api.scryfall.com/cards/3507e285-fabb-45e3-af4c-52032558cf03/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battlegrowth
@@ -686,6 +788,7 @@
 - **Flavor text** (MRD printing):
   > *"I would gladly die for the forest, but I'm much better at killing for it."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22631 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/113/battlegrowth) · oracle_id `650bf82e-7f83-470c-bf4a-34281bfe9341` · printing: MRD #113 (2003-10-02) · [rulings](https://api.scryfall.com/cards/2b34e76b-86b3-464e-93e7-c3f2074028fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle Hurda
@@ -700,6 +803,7 @@
   > *—Bruse Tarl, Goma Fada nomad*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31962 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/wwk/4/battle-hurda) · oracle_id `46762944-8364-45c4-8008-e693e97ddc46` · printing: WWK #4 (2010-02-05) · [rulings](https://api.scryfall.com/cards/2f540b83-67fd-4630-a461-69bc84b88ed3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle Hymn
@@ -728,6 +832,7 @@
   > *"I fought fiercely, bravely, and without mercy. Had I not struck down my captain in the heat of battle, I might have become a hero instead of an outcast."*
 - **Keywords:** Bushido
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24520 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/156/battle-mad-ronin) · oracle_id `39a7c52d-0b89-47c1-a376-5004c94c2e0f` · printing: CHK #156 (2004-10-01) · [rulings](https://api.scryfall.com/cards/a6e4394a-fa91-4cf9-99c1-dc0bc1011c5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battlemage's Bracers
@@ -808,6 +913,7 @@
   > When Battle Myrsphere enters the battlefield, reveal cards from the top of your library until you reveal a battle card. Put it onto the battlefield, and the rest on the bottom of your library in a random order.
   > Whenever Battle Myrsphere attacks, you may tap X untapped battles you control (so they're oriented like a regular Magic card). If you do, Battle Myrsphere gets +X/+0 until end of turn and deals X damage to the player or permanent.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RA07a/battle-myrsphere) · oracle_id `d058d075-9b5e-4ff5-b95f-cc8ab315d90d` · printing: UNK #RA07a (2023-05-06) · [rulings](https://api.scryfall.com/cards/0f184745-749f-4574-9123-c325e2dab39c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle of Frost and Fire
@@ -821,7 +927,16 @@
   > III — Whenever you cast a spell with mana value 5 or greater this turn, draw two cards, then discard a card.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16666 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/204/battle-of-frost-and-fire) · oracle_id `5a7b89a6-d42d-4fd4-8754-d9c3e3df2118` · printing: KHM #204 (2021-02-05) · [rulings](https://api.scryfall.com/cards/620ed5b7-8874-40d0-9245-98876bdec153/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2021-02-05* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won't trigger again.
+  - *2021-02-05* — As a Saga enters the battlefield, its controller puts a lore counter on it. As your precombat main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2021-02-05* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2021-02-05* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2021-02-05* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2021-02-05* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2021-02-05* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+  - *2021-02-05* — The triggered ability created by the chapter III ability may trigger multiple times during the turn, even though Battle of Frost and Fire will likely no longer be on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/204/battle-of-frost-and-fire) · oracle_id `5a7b89a6-d42d-4fd4-8754-d9c3e3df2118` · printing: KHM #204 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle of Hoover Dam
 
@@ -849,7 +964,10 @@
 - **Flavor text** (M13 printing):
   > *There is no loftier ambition than the pursuit of knowledge.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15501 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m13/44/battle-of-wits) · oracle_id `9b544415-841d-4038-841b-efb0cede5c24` · printing: M13 #44 (2012-07-13) · [rulings](https://api.scryfall.com/cards/b4be15a4-693f-4e22-a46c-38bb440c073c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2012-07-01* — Battle of Wits has an “intervening ‘if’ clause.” This means that if you don’t have 200 or more cards in your library at the beginning of your upkeep, the ability won’t trigger. If the ability does trigger, but you have fewer than 200 cards in your library when the ability resolves, the ability will do nothing.
+  - *2012-07-01* — In tournaments, you must be able to shuffle your entire deck within a reasonable amount of time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m13/44/battle-of-wits) · oracle_id `9b544415-841d-4038-841b-efb0cede5c24` · printing: M13 #44 (2012-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle Plan
 
@@ -860,7 +978,10 @@
   > Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)
 - **Keywords:** Landcycling, Basic landcycling, Typecycling, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21776 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/114/battle-plan) · oracle_id `09b4fba6-d943-49e4-9f9e-a74fcbabe83f` · printing: MH2 #114 (2021-06-18) · [rulings](https://api.scryfall.com/cards/2bc1e907-0e77-42ee-9eca-eae632020204/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-06-18* — Typecycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being typecycled. Any ability that stops a cycling ability from being activated also stops a typecycling ability from being activated.
+  - *2021-06-18* — Unlike the normal cycling ability, typecycling doesn't allow you to draw a card. Rather, it lets you search your library for a card with the type or types indicated by the ability name. For example, a card with basic landcycling lets you search for a basic land card, and a card with Wizardcycling lets you search for a Wizard card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/114/battle-plan) · oracle_id `09b4fba6-d943-49e4-9f9e-a74fcbabe83f` · printing: MH2 #114 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle-Rage Blessing
 
@@ -872,6 +993,7 @@
   > *"Since when is it cheating to give one side an unfair advantage?"*
   > *—Braids*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10000 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/80/battle-rage-blessing) · oracle_id `533d6b9f-a145-44c4-9d16-74fcd9c0ae2f` · printing: DMU #80 (2022-09-09) · [rulings](https://api.scryfall.com/cards/7cfc631b-49d1-4f1c-adac-5b07a2ccd06f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle Rampart
@@ -887,6 +1009,7 @@
   > *—Yannash, outpost builder*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24133 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/165/battle-rampart) · oracle_id `ec187304-4c05-44da-8ad5-7c56f6b05212` · printing: BBD #165 (2018-06-08) · [rulings](https://api.scryfall.com/cards/dca8dfb9-fda0-4eb8-a337-406689ece41a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle-Rattle Shaman
@@ -899,7 +1022,10 @@
 - **Flavor text** (FDN printing):
   > *A few moments of her rattle's infuriating clattering is enough to provoke even lifelong pacifists into a howling, violent rage.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19602 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/533/battle-rattle-shaman) · oracle_id `72dc807b-35fb-4d69-ae4c-04eed0646170` · printing: FDN #533 (2024-11-15) · [rulings](https://api.scryfall.com/cards/fee05f7e-d4da-4a72-8140-d505eecbdd32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-03-14* — Battle-Rattle Shaman's ability triggers when the beginning of combat step starts during each of your turns. It resolves before you declare attackers.
+  - *2017-03-14* — If a spell or ability causes your turn to have multiple combat phases, Battle Rattle Shaman's ability triggers during each of them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/533/battle-rattle-shaman) · oracle_id `72dc807b-35fb-4d69-ae4c-04eed0646170` · printing: FDN #533 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle-Scarred Goblin
 
@@ -912,7 +1038,9 @@
   > *"An Orc shot Balin from behind a stone. We slew the Orc, but many more came."*
   > *—\*Book of Mazarbul\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16713 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/192/battle-scarred-goblin) · oracle_id `3e765710-e567-4af0-b5f5-7c182649b757` · printing: HOC #192 (2026-08-14) · [rulings](https://api.scryfall.com/cards/289d3d6c-8f7b-42d9-be9c-59c93128d207/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — The ability triggers only once, no matter how many creatures are blocking it. The ability resolves and deals damage to those creatures before combat damage is dealt. Even if that damage destroys all creatures blocking Battle-Scarred Goblin, Battle-Scarred Goblin doesn't become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/192/battle-scarred-goblin) · oracle_id `3e765710-e567-4af0-b5f5-7c182649b757` · printing: HOC #192 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle-Scarred Survivalist
 
@@ -926,6 +1054,7 @@
   > *"I will rest when my blade knows vengeance."*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32136 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/95/battle-scarred-survivalist) · oracle_id `0e0e15d9-bd29-495a-9975-d1bd2ebb4bff` · printing: TRK #95 (2026-11-13) · [rulings](https://api.scryfall.com/cards/c567253e-a2ee-45de-b3c6-3aeafbf8237b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle Screech
@@ -960,7 +1089,10 @@
   > *"One emitted a strange series of buzzing clicks and guttural commands, then clawed arms emerged from all of them. Is there no limit to their adaptations?"*
   > *—Hastric, Thunian scout*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17315 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m14/128/battle-sliver) · oracle_id `d513e5df-31b0-4756-bf47-403460d0068e` · printing: M14 #128 (2013-07-19) · [rulings](https://api.scryfall.com/cards/68490b8c-e9d1-4f5c-9001-750be0e0569f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit.
+  - *2013-07-01* — If you change the creature type of a Sliver you control so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m14/128/battle-sliver) · oracle_id `d513e5df-31b0-4756-bf47-403460d0068e` · printing: M14 #128 (2013-07-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battlesong Berserker
 
@@ -972,6 +1104,7 @@
 - **Flavor text** (FDN printing):
   > *The thud of her axe striking armor and flesh gives rhythm to her song of bloody victory.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20808 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/78/battlesong-berserker) · oracle_id `396cc8ce-9efa-4fc7-90a6-b439b2b021db` · printing: FDN #78 (2024-11-15) · [rulings](https://api.scryfall.com/cards/a1f8b199-5d62-485f-b1c3-b30aa550595b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle Squadron
@@ -986,7 +1119,9 @@
   > *The goblins made an unruly pile with military precision.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10369 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddt/33/battle-squadron) · oracle_id `5783e71e-2497-4241-9d1a-8bced4745b1d` · printing: DDT #33 (2017-10-24) · [rulings](https://api.scryfall.com/cards/01c3c73d-03e8-4afc-bbfd-08fc87808012/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-06-08* — Battle Squadron’s last ability applies in all zones. While it’s on the battlefield, it counts itself, so it’ll be at least 1/1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddt/33/battle-squadron) · oracle_id `5783e71e-2497-4241-9d1a-8bced4745b1d` · printing: DDT #33 (2017-10-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle Strain
 
@@ -997,6 +1132,7 @@
 - **Flavor text** (ODY printing):
   > *The pits swallow the weak as predators swallow prey.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21351 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/177/battle-strain) · oracle_id `c4d49ecc-8650-4e91-9a39-a4a25213a5f7` · printing: ODY #177 (2001-10-01) · [rulings](https://api.scryfall.com/cards/ee1be893-1287-40a3-81d6-271df3154b45/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battletide Alchemist
@@ -1009,7 +1145,11 @@
 - **Flavor text** (MOR printing):
   > *"I do not heal. Healing means that the pain has already been felt. To stop suffering, one must prevent the world's wounds altogether."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16522 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mor/2/battletide-alchemist) · oracle_id `4867cc47-de84-4958-b1de-4a0a5050210e` · printing: MOR #2 (2008-02-01) · [rulings](https://api.scryfall.com/cards/9a5357e0-ff69-4bb9-9a02-b0372e0ea5e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-04-01* — If a source would deal damage to multiple players at the same time, you may prevent X damage that source would deal to each of those players. The choice for each player is made separately.
+  - *2008-04-01* — If the same source would deal damage to a player at different times, you may prevent X of that damage each time.
+  - *2008-04-01* — You count the number of Clerics you control at the time the damage would be dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mor/2/battletide-alchemist) · oracle_id `4867cc47-de84-4958-b1de-4a0a5050210e` · printing: MOR #2 (2008-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battlewand Oak
 
@@ -1020,6 +1160,7 @@
   > Whenever a Forest you control enters, this creature gets +2/+2 until end of turn.
   > Whenever you cast a Treefolk spell, this creature gets +2/+2 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17660 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/197/battlewand-oak) · oracle_id `98d3d1f1-ac72-4b1e-87da-b4c1e4f03d08` · printing: LRW #197 (2007-10-12) · [rulings](https://api.scryfall.com/cards/8a128ea6-cd00-4410-8dc4-cf66ce6f0fa1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battlewing Mystic
@@ -1033,7 +1174,14 @@
   > When this creature enters, if it was kicked, discard your hand, then draw two cards.
 - **Keywords:** Kicker, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26870 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/43/battlewing-mystic) · oracle_id `49f0b317-6b06-482e-ab64-e02713e6c7e8` · printing: DMU #43 (2022-09-09) · [rulings](https://api.scryfall.com/cards/000376ef-8b6c-490d-98cb-d6de15b2e585/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/43/battlewing-mystic) · oracle_id `49f0b317-6b06-482e-ab64-e02713e6c7e8` · printing: DMU #43 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battlewise Aven
 
@@ -1047,6 +1195,7 @@
   > *Experience is a good teacher, not a kind one.*
 - **Keywords:** Flying, Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30853 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jud/4/battlewise-aven) · oracle_id `f165e482-5b87-4062-87ac-bbe8303f74c9` · printing: JUD #4 (2002-05-27) · [rulings](https://api.scryfall.com/cards/ca363409-cba9-43ed-bf88-3519521e1983/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battlewise Hoplite
@@ -1058,7 +1207,15 @@
   > Heroic — Whenever you cast a spell that targets this creature, put a +1/+1 counter on this creature, then scry 1. (To scry 1, look at the top card of your library, then you may put that card on the bottom.)
 - **Keywords:** Heroic, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25743 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/189/battlewise-hoplite) · oracle_id `416de3dd-c15d-4596-9386-5cac53302724` · printing: THS #189 (2013-09-27) · [rulings](https://api.scryfall.com/cards/4c929a57-2c23-4bbf-b265-666630a4fde8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2013-09-15* — Heroic abilities will resolve before the spell that caused them to trigger.
+  - *2013-09-15* — Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times.
+  - *2013-09-15* — Heroic abilities won't trigger when a copy of a spell is created on the stack or when a spell's targets are changed to include a creature with a heroic ability.
+  - *2013-09-15* — Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
+  - *2013-09-15* — When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
+  - *2013-09-15* — You choose how to order cards returned to your library after scrying no matter where you put them.
+  - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/189/battlewise-hoplite) · oracle_id `416de3dd-c15d-4596-9386-5cac53302724` · printing: THS #189 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battlewise Valor
 
@@ -1070,7 +1227,12 @@
   > *It's never good to walk into an ambush, but with the right spell you might walk out again.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26063 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/1/battlewise-valor) · oracle_id `b4540f6a-bec8-4942-aebe-d3285b8a8134` · printing: THS #1 (2013-09-27) · [rulings](https://api.scryfall.com/cards/7d967a4c-2323-4361-a907-5ca9140d8793/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-09-15* — Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
+  - *2013-09-15* — When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
+  - *2013-09-15* — You choose how to order cards returned to your library after scrying no matter where you put them.
+  - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/1/battlewise-valor) · oracle_id `b4540f6a-bec8-4942-aebe-d3285b8a8134` · printing: THS #1 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bat Whisperer
 
@@ -1082,7 +1244,9 @@
 - **Flavor text** (MID printing):
   > *"My little winged friends tell me which of these townsfolk are worth tasting for myself."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20538 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/86/bat-whisperer) · oracle_id `f20f6da9-d678-486b-99f9-7121669fef81` · printing: MID #86 (2021-09-24) · [rulings](https://api.scryfall.com/cards/4412c901-0ec8-437a-9d1e-ce318bbe2b03/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-09-24* — Bat Whisperer's ability cares whether an opponent lost life this turn, not how their life total changed. For example, an opponent who gained 2 life and lost 1 life in the same turn still lost life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/86/bat-whisperer) · oracle_id `f20f6da9-d678-486b-99f9-7121669fef81` · printing: MID #86 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Batwing Brume
 

@@ -36,7 +36,19 @@
   > Partner (You can have two commanders if both have partner.)
 - **Keywords:** Treasure, Partner
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #27967 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/112/ignacio-of-myras-marvels) · oracle_id `45945f99-b5a0-48b6-8a99-a3e0b97a27a6` · printing: UNF #112 (2022-10-07) · [rulings](https://api.scryfall.com/cards/8bb6342b-0b9e-4379-b433-70bbaeb04c19/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2022-10-07* — A book is any bound pages of writing, usually with a spine of some sort. Scrolls are not books. They are scrolls. See: Scroll.
+  - *2022-10-07* — A bottle is a device intended to hold liquid or small objects. It is usually made of glass. Bottles typically have necks and are designed to pour their contents. The bottle may be empty, but it should clearly be designed to hold something.
+  - *2022-10-07* — A fang is a tooth, typically longer than a creature’s other teeth, and typically used to puncture enemies, often to drink their blood. The presence of non-fang teeth is important to establish that what you see are fangs and the creature just doesn’t have very long teeth.
+  - *2022-10-07* — A scroll is one or more pages or parchments, usually designed to be rolled up. Scrolls can be open or closed. Books are not scrolls. They are books. See: Book.
+  - *2022-10-07* — A spear is the recommended serving size of pickle. It is also a pole with a pointed blade on one end. It is traditionally a weapon. For our purposes, the spear can be thrown (javelins are okay), as long the weapon’s general shape clearly implies spear. It can be sticking out of a body.
+  - *2022-10-07* — A sword is a bladed weapon with a handle. If a creature is wearing a scabbard with a sword in it, and all you can see is the handle, that counts.
+  - *2022-10-07* — Armor is a covering worn on the body to protect against damage. It is typically metal or leather, although it can be made from anything. It can’t be a natural part of the creature.
+  - *2022-10-07* — Blood is a liquid, usually red, that comes from within a creature’s circulatory system. If the blood isn’t with its previous owner—say it’s in a pool on the floor—the previous owner doesn’t need to be in the art. The blood does need to contextually be blood. Red liquid in a goblet might not be blood. Red liquid in a goblet held by a vampire? Blood. Red anything at a wedding for a pair of ancient vampires? Take a wild guess.
+  - *2022-10-07* — Fire is combustion or burning, whereby substances combine chemically with oxygen from the air and typically give out bright light, heat, and smoke. Fire is usually red, orange, or yellow, but it can be other colors. Note that being a hot thing doesn’t necessarily make something fire. Magma and lava, for example, are not inherently fire, although they may cause fire.
+  - *2022-10-07* — If all players can’t agree on what’s in the art, you may consult an outside person for a final determination.
+  - *2022-10-07* — Water is a liquid found in lakes, oceans, pools, wells, rivers, and glasses both half-empty and half-full. The liquid must contextually be water. Rain counts. Note that you must see the water. A well wouldn’t count if you couldn’t see the water inside, for example, even if the water is implied.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/112/ignacio-of-myras-marvels) · oracle_id `45945f99-b5a0-48b6-8a99-a3e0b97a27a6` · printing: UNF #112 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Igneous Cur
 
@@ -48,6 +60,7 @@
 - **Flavor text** (M21 printing):
   > *Some dogs just aren't meant to be indoor pets.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21330 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/153/igneous-cur) · oracle_id `0d899095-cef7-43d2-aaf7-eb73b62f5ec8` · printing: M21 #153 (2020-07-03) · [rulings](https://api.scryfall.com/cards/d2bfec5d-3182-415a-afe8-0b5511cfd656/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Igneous Elemental
@@ -61,7 +74,9 @@
 - **Flavor text** (MH1 printing):
   > *Volcanic violence made manifest.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30462 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/133/igneous-elemental) · oracle_id `4dc8e91a-2c00-4de2-bada-80f323a4ec9d` · printing: MH1 #133 (2019-06-14) · [rulings](https://api.scryfall.com/cards/974bf524-5322-4287-ac49-face12655874/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-06-14* — Igneous Elemental costs only {2} less to cast if you have more than one land card in your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/133/igneous-elemental) · oracle_id `4dc8e91a-2c00-4de2-bada-80f323a4ec9d` · printing: MH1 #133 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Igneous Golem
 
@@ -74,6 +89,7 @@
   > *"The creature rose from the mountain, its body weeping fire."*
   > *—Afari, \*Tales\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31782 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/305/igneous-golem) · oracle_id `7c4408eb-b3e2-407f-9018-197787edeae7` · printing: MIR #305 (1996-10-08) · [rulings](https://api.scryfall.com/cards/f44c5e24-98f9-4a4d-9ecc-c862363eb66d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Igneous Inspiration
@@ -87,7 +103,12 @@
   > *Prismari fosters a burning need to create.*
 - **Keywords:** Learn
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25777 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/107/igneous-inspiration) · oracle_id `2e31af8f-5e94-4888-857d-911253eac2cd` · printing: STX #107 (2021-04-23) · [rulings](https://api.scryfall.com/cards/5781ad7b-dc1b-4cc1-9e72-6e714b9ba1de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-04-16* — If a card is brought into the game from outside the game, it will stay in the game until it ends or until its owner leaves the game, whichever comes first.
+  - *2021-04-16* — If instructed to learn, you may do nothing. Discarding a card and putting a Lesson card into your hand are both optional.
+  - *2021-04-16* — If you bring a card into the game from outside the game in a Constructed tournament (or a Constructed game played under tournament conditions), you may select only a card from your sideboard. In casual Constructed games, the card comes from your collection.
+  - *2021-04-16* — If you bring a card into the game from outside the game in a Sealed Deck or Booster Draft event, you may select only a card that is in the card pool that you built your deck from.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/107/igneous-inspiration) · oracle_id `2e31af8f-5e94-4888-857d-911253eac2cd` · printing: STX #107 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Igneous Pouncer
 
@@ -99,7 +120,13 @@
   > Swampcycling {2}, mountaincycling {2} ({2}, Discard this card: Search your library for a Swamp or Mountain card, reveal it, put it into your hand, then shuffle.)
 - **Keywords:** Mountaincycling, Landcycling, Haste, Typecycling, Cycling, Swampcycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22250 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddh/57/igneous-pouncer) · oracle_id `ee6f1ddb-6749-4394-b2b0-4d293376f1af` · printing: DDH #57 (2011-09-02) · [rulings](https://api.scryfall.com/cards/b5a0be3b-ca79-45b9-8e9b-308d93d7ea54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2009-05-01* — A landcycling ability lets you search for any card in your library with the stated land type. It doesn’t have to be a basic land.
+  - *2009-05-01* — Landcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being landcycled. Any ability that stops a cycling ability from being activated also stops a landcycling ability from being activated.
+  - *2009-05-01* — Unlike the normal cycling ability, landcycling doesn’t allow you to draw a card. Instead, it lets you search your library for a land card of the specified land type, reveal it, put it into your hand, then shuffle your library.
+  - *2009-05-01* — You can choose to find any card with the appropriate land type, including nonbasic lands. You can also choose not to find a card, even if there is a land card with the appropriate type in your library.
+  - *2009-05-01* — You may only activate one landcycling ability at a time. You must specify which landcycling ability you are activating as you cycle this card, not as the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddh/57/igneous-pouncer) · oracle_id `ee6f1ddb-6749-4394-b2b0-4d293376f1af` · printing: DDH #57 (2011-09-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ignis Scientia
 
@@ -111,7 +138,10 @@
   > I've Come Up with a New Recipe! — {1}{G}{U}, {T}: Exile target card from a graveyard. If a creature card was exiled this way, create a Food token.
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10624 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/227/ignis-scientia) · oracle_id `23320d55-80cb-4da3-a53c-8c75abdc8c8f` · printing: FIN #227 (2025-06-13) · [rulings](https://api.scryfall.com/cards/ab4f9721-5b2c-4371-98a5-3f6714265e57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-06-06* — A Food token is an artifact token with "{2}, {T}, Sacrifice this token: You gain 3 life."
+  - *2025-06-06* — If the target card is an illegal target as Ignis Scientia's last ability resolves, it won't resolve and none of its effects will happen. You won't create a Food token even if the target card was a creature card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/227/ignis-scientia) · oracle_id `23320d55-80cb-4da3-a53c-8c75abdc8c8f` · printing: FIN #227 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ignite Disorder
 
@@ -122,7 +152,11 @@
 - **Flavor text** (M10 printing):
   > *The shaman prowled the academy halls, shaking his head at the pomp and babble of the sages inside. He knew just the spell to liven the place up.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31464 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m10/141/ignite-disorder) · oracle_id `8f66317c-06fe-4320-9d98-eaedaef67c85` · printing: M10 #141 (2009-07-17) · [rulings](https://api.scryfall.com/cards/c425d61c-f224-4ba6-a32e-44e3a3954c1b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2009-02-01* — The number of targets must be at least 1 and at most 3.
+  - *2009-02-01* — You divide the damage as you cast Ignite Disorder, not as it resolves. Each target must be assigned at least 1 damage.
+  - *2009-10-01* — The number of targets chosen for Ignite Disorder must be at least 1 and at most 3. You divide the damage as you cast the spell, not as it resolves. Each target must be assigned at least 1 damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m10/141/ignite-disorder) · oracle_id `8f66317c-06fe-4320-9d98-eaedaef67c85` · printing: M10 #141 (2009-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ignite Memories
 
@@ -133,7 +167,13 @@
   > Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)
 - **Keywords:** Storm
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12847 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/164/ignite-memories) · oracle_id `5f186092-0f87-4a0f-ac45-fff5359c93ae` · printing: TSP #164 (2006-10-06) · [rulings](https://api.scryfall.com/cards/2f7b7831-27a1-4c0a-8ed1-6dddf2754d65/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-12-08* — A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won't affect the copies.
+  - *2022-12-08* — Spells cast from zones other than a player's hand and spells that were countered are counted by the storm ability.
+  - *2022-12-08* — The copies are put directly onto the stack. They aren't cast and won't be counted by other spells with storm cast later in the turn.
+  - *2022-12-08* — The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack.
+  - *2022-12-08* — You may choose new targets for any of the copies. You can make different choices for each copy.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/164/ignite-memories) · oracle_id `5f186092-0f87-4a0f-ac45-fff5359c93ae` · printing: TSP #164 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ignite the Beacon
 
@@ -145,6 +185,7 @@
   > *"If you can't save yourself, you fight to give someone else a chance."*
   > *—Ajani Goldmane*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13343 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/18/ignite-the-beacon) · oracle_id `1f74d046-e695-4ad9-a27c-8ff1f30d4c23` · printing: WAR #18 (2019-05-03) · [rulings](https://api.scryfall.com/cards/4e11d6f9-0b80-4b19-ab96-23f80b66b409/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ignite the Future
@@ -179,7 +220,13 @@
   > This creature enters with X +1/+1 counters on it, where X is the number of tapped lands on the battlefield.
   > {2}{R}, Remove a +1/+1 counter from this creature: Target land becomes a 4/4 red Elemental creature until end of turn. It's still a land.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22478 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/34/ignition-team) · oracle_id `9edaadc9-6bbd-4727-9884-1c6b13c778bb` · printing: CNS #34 (2014-06-06) · [rulings](https://api.scryfall.com/cards/9dc89eb3-4497-4f05-8fed-d378b6e425ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2014-05-29* — Copies of the affected land won’t be 4/4 red Elemental creatures. For example, if the target land is a basic Mountain, a copy of that creature would just be a basic Mountain.
+  - *2014-05-29* — Effects that modify power and/or toughness without setting them to a specific value (like the one created by Giant Growth), power and toughness changes from counters, and effects that switch a creature’s power and toughness will continue to apply. This may happen if the land was already a creature when the ability resolved.
+  - *2014-05-29* — If the target land hasn’t been under its controller’s control continuously since the beginning of their most recent turn, that land won’t be able to attack and its {T} abilities can’t be activated. In most cases, that means it will no longer be able to be tapped for mana that turn.
+  - *2014-05-29* — Ignition Team’s ability doesn’t affect the land’s name or any other types, subtypes, or supertypes (such as basic or legendary) the land may have. The land will also keep any abilities it had.
+  - *2014-05-29* — This doesn’t count as a creature entering the battlefield. The land was already on the battlefield; it only changed types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/34/ignition-team) · oracle_id `9edaadc9-6bbd-4727-9884-1c6b13c778bb` · printing: CNS #34 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ignoble Hierarch
 
@@ -207,6 +254,7 @@
 - **Flavor text** (MMQ printing):
   > *Cowardice is a term invented by those with no cunning.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31844 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/22/ignoble-soldier) · oracle_id `52a61983-53e2-440f-af03-cebe57b102f2` · printing: MMQ #22 (1999-10-04) · [rulings](https://api.scryfall.com/cards/676a2506-17f8-4b8e-be0c-eacc0fe972f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ignorant Bliss
@@ -219,7 +267,11 @@
   > *"A quick step beyond oblivion lies a place so full of thoughts that it leaves no room for your own."*
   > *—Quyzl, chronarch prodigy*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25395 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dis/64/ignorant-bliss) · oracle_id `9cf12838-64fe-49c9-9181-e0f6118c0bf6` · printing: DIS #64 (2006-05-05) · [rulings](https://api.scryfall.com/cards/1a2db886-d394-4a8b-8fe0-dc2613500adc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2006-05-01* — If the delayed triggered ability is countered (for example, with Voidslime), the cards remain exiled forever.
+  - *2006-05-01* — If you cast this during the End step, you won’t return the cards to your hand or draw a card until the next turn’s End step.
+  - *2006-05-01* — No player may look at the cards while they’re face down.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dis/64/ignorant-bliss) · oracle_id `9cf12838-64fe-49c9-9181-e0f6118c0bf6` · printing: DIS #64 (2006-05-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iguana Parrot
 
@@ -233,4 +285,5 @@
   > *A common companion for pirates, beloved for their loyalty and craftiness.*
 - **Keywords:** Flying, Prowess, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16494 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/56/iguana-parrot) · oracle_id `edd3a3ea-6bde-408c-8b16-85ed3cc312b2` · printing: TLA #56 (2025-11-21) · [rulings](https://api.scryfall.com/cards/7faa3e3d-c08a-4908-85ef-1370d3f90815/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

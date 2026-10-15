@@ -58,7 +58,9 @@
 - **Oracle text:**
   > When this creature enters, roll a six-sided die. Put a number of +1/+1 counters on this creature equal to the result.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/und/66/mother-kangaroo) · oracle_id `f186865d-a7f2-4813-bb24-dec845532728` · printing: UND #66 (2020-02-29) · [rulings](https://api.scryfall.com/cards/933630cb-e812-436e-a35e-8247557f72a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-01-19* — Host creatures each have an ability that triggers when it enters the battlefield. It functions like any other creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/und/66/mother-kangaroo) · oracle_id `f186865d-a7f2-4813-bb24-dec845532728` · printing: UND #66 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mother of Goons
 
@@ -70,6 +72,7 @@
 - **Flavor text** (UNH printing):
   > *"Word to me."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/59/mother-of-goons) · oracle_id `e193348b-d00c-47b4-9548-dde51b821c60` · printing: UNH #59 (2004-11-19) · [rulings](https://api.scryfall.com/cards/3e6c3e15-ecae-4719-9b00-eb088223632b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mother of Runes
@@ -95,7 +98,17 @@
   > As long as you control exactly two permanents named Mothers Yamazaki, the "legend rule" doesn't apply to them, and Samurai you control get +2/+2 and have vigilance and haste.
 - **Keywords:** Partner with, Partner
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander") · Pairing: Partner, Partner with
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/598/mothers-yamazaki) · oracle_id `23b9a4af-e531-4897-9b3f-b944890c51a0` · printing: MB2 #598 (2024-08-02) · [rulings](https://api.scryfall.com/cards/5e05e9af-33e4-4c4d-a3b0-1f2988cd4386/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-11-08* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2024-11-08* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — Mothers Yamazaki’s “partner with itself” represents three abilities. The first is a triggered ability: “When this permanent enters, target player may search their library for a card named Mothers Yamazaki, reveal it, put it into their hand, then shuffle.”
+  - *2024-11-08* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from one of them, not from both of them combined. Command Beacon’s effect puts one into your hand from the command zone, not both.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+  - *2024-11-08* — The second and third abilities represented by Mothers Yamazaki’s “partner with itself” keyword modify the rules for deck construction in the Commander variant and have no function outside of that variant. They are “A Commander deck can have two cards named Mothers Yamazaki” and “You can designate two cards named Mothers Yamazaki as your commanders.”
+  - *2024-11-08* — The triggered ability of the “partner with itself” keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player, whether or not they have that card in their library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/598/mothers-yamazaki) · oracle_id `23b9a4af-e531-4897-9b3f-b944890c51a0` · printing: MB2 #598 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moth Herb Elixir
 
@@ -105,6 +118,7 @@
   > {T}: Put an acquired taste counter on this artifact.
   > {T}, Sacrifice this artifact: You draw two cards and lose 4 life. Then you gain 1 life for each acquired taste counter on this artifact.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UA01c/moth-herb-elixir) · oracle_id `d331db6a-21ff-4dec-aa6a-e30bf925ca32` · printing: UNK #UA01c (2025-02-21) · [rulings](https://api.scryfall.com/cards/765fcd8f-e9d7-48eb-b34a-8697d2976c07/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mothrider Patrol
@@ -120,6 +134,7 @@
   > *—Swift-Arm, Golden-Tail headmaster*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18276 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/30/mothrider-patrol) · oracle_id `c4073754-7d92-4976-8e7d-d6eb85b91608` · printing: NEO #30 (2022-02-18) · [rulings](https://api.scryfall.com/cards/f657f2dc-adc8-4a66-b081-a71b3a127389/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mothrider Samurai
@@ -134,6 +149,7 @@
   > *When the night blossoms open, the wings of Eiganjo take flight.*
 - **Keywords:** Flying, Bushido
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22028 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/34/mothrider-samurai) · oracle_id `38530399-d2c9-4445-92ba-14c5cd438055` · printing: CHK #34 (2004-10-01) · [rulings](https://api.scryfall.com/cards/35a236f7-f008-4eb8-91d9-31ea8589cf0c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Motion Sickness
@@ -147,7 +163,10 @@
   > Whenever you visit an Attraction, you may attach this Aura to target tapped creature.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22628 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/53/motion-sickness) · oracle_id `d0bb7a44-f93b-4acb-b69f-81efe0a3ae2d` · printing: UNF #53 (2022-10-07) · [rulings](https://api.scryfall.com/cards/6c1d2b1d-d264-4a8e-9c33-c35f5d1e80bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-07* — If the target creature has become untapped as the last ability tries to resolve, Motion Sickness stays attached to the creature it's already on.
+  - *2022-10-07* — Taking a break and looking at the horizon is said to help those suffering with motion sickness. It won't remove the enchantment, but it can't really hurt either.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/53/motion-sickness) · oracle_id `d0bb7a44-f93b-4acb-b69f-81efe0a3ae2d` · printing: UNF #53 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Motivated Pony
 

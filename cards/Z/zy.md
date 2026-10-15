@@ -20,7 +20,12 @@
   > Body-print — {2}{U}: Tap another target creature and put a stun counter on it. This creature becomes a copy of that creature for as long as that creature remains tapped. Activate only as a sorcery. (If a permanent with a stun counter would become untapped, remove one from it instead.)
 - **Keywords:** Body-print
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15525 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/63/zygon-infiltrator) · oracle_id `693c071a-d6b5-4a96-8fe3-8c61fa9406bc` · printing: WHO #63 (2023-10-13) · [rulings](https://api.scryfall.com/cards/71b5538b-4561-4929-8e1c-9763e75cad0e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-10-13* — If another creature becomes a copy of Zygon Infiltrator, it will become a copy of whatever Zygon Infiltrator is currently copying (if anything).
+  - *2023-10-13* — If it becomes a copy of a token creature, it copies the original characteristics of that token as defined by the effect that created the token. It won't become a token creature.
+  - *2023-10-13* — When Zygon Infiltrator becomes a copy of a creature, it's neither entering nor leaving the battlefield. Any enters-the-battlefield or leaves-the-battlefield abilities won't trigger.
+  - *2023-10-13* — Zygon Infiltrator copies the printed values of the creature plus any copy effects that have been applied to it. It won't copy any other effects that have changed that creature's power, toughness, color, and so on. Zygon Infiltrator won't copy any counters on the creature, but it will retain any counters it already had on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/63/zygon-infiltrator) · oracle_id `693c071a-d6b5-4a96-8fe3-8c61fa9406bc` · printing: WHO #63 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zyym, Mesmeric Lord
 
@@ -32,4 +37,6 @@
   > When Zyym, Mesmeric Lord enters the battlefield, target opponent chooses an order for the cards in their hand, then reveals them one by one until you say stop. That player then discards the most recently revealed card.
 - **Keywords:** Deathtouch, Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/104/zyym-mesmeric-lord) · oracle_id `fbd4ffd6-1ffb-4822-9ee8-ee2133e03b4b` · printing: CMB2 #104 (2021-08-20) · [rulings](https://api.scryfall.com/cards/71615ac1-0df6-452e-a14e-237c35bac09f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-11-12* — While resolving Zyym’s triggered ability, the target opponent can’t rush through revealing their cards. After each is revealed, they must wait for you to choose to continue or stop.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/104/zyym-mesmeric-lord) · oracle_id `fbd4ffd6-1ffb-4822-9ee8-ee2133e03b4b` · printing: CMB2 #104 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -39,6 +39,7 @@
 - **Flavor text** (MSH printing):
   > *"This will be our night of glory! Hail HYDRA!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11459 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/221/madame-hydra) · oracle_id `d812c8e3-a475-4ad2-a93f-7208ad873676` · printing: MSH #221 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e94ccedb-1d27-4098-8823-d8d99b30387c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Madame Hydra, Reanimated
@@ -52,6 +53,7 @@
   > Whenever Madame Hydra enters or attacks, mill two cards. (Put the top two cards of your library into your graveyard.)
 - **Keywords:** Menace, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22678 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/538/madame-hydra-reanimated) · oracle_id `7274f6ed-310d-4b65-8083-eedb8e885a33` · printing: MSC #538 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c831bdda-06a9-465a-bec5-2b380d28d82a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Madame Masque
@@ -64,6 +66,7 @@
   > Whenever you draw your second card each turn, create a 2/1 black Villain creature token with menace. (It can't be blocked except by two or more creatures.)
 - **Keywords:** Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15128 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/104/madame-masque) · oracle_id `b5b0e85f-6651-4667-829c-2253ff8b130d` · printing: MSH #104 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f54197b8-6279-43ee-9340-69bd22cf3775/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Madame Null, Power Broker
@@ -93,7 +96,15 @@
   > Whenever a creature dealt damage by Madame Vastra this turn dies, create a Clue token and a Food token.
 - **Keywords:** Partner with, Food, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20244 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner, Partner with
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/142/madame-vastra) · oracle_id `4789357c-3ab7-4327-b5ee-b1110ddb876f` · printing: WHO #142 (2023-10-13) · [rulings](https://api.scryfall.com/cards/94849571-928a-4c6d-9868-58f606941679/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-10-13* — "Partner with [name]" represents two abilities. The first is a triggered ability: "When this permanent enters the battlefield, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle."
+  - *2023-10-13* — If Madame Vastra is blocking or being blocked by another creature and both of those creatures are dealt lethal combat damage at the same time, they each die at the same time and the last ability will trigger.
+  - *2023-10-13* — Note that the target player searches their library (which may be affected by effects such as that of Stranglehold) and that the card they find is revealed, even though these words aren't included in the ability's reminder text.
+  - *2023-10-13* — The second ability represented by the "partner with [name]" keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with "partner with [name]" is designated as your commander, the named legendary creature card can also be designated as your commander.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/142/madame-vastra) · oracle_id `4789357c-3ab7-4327-b5ee-b1110ddb876f` · printing: WHO #142 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Madame Web, Clairvoyant
 
@@ -106,7 +117,11 @@
   > Whenever you attack, you may mill a card. (You may put the top card of your library into your graveyard.)
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12183 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/36/madame-web-clairvoyant) · oracle_id `b1e0841d-b004-40f9-a644-aecb422f6ad5` · printing: SPM #36 (2025-09-26) · [rulings](https://api.scryfall.com/cards/a16ca3fc-3cdf-4333-93e0-524afafe367b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-09-19* — If the top card of your library changes while you're casting a spell, playing a land, activating an ability, or taking a special action, you can't look at the new top card until you finish doing so. This means that if you cast the top card of your library, you can't look at the next one until you're done paying for that spell.
+  - *2025-09-19* — Madame Web lets you look at the top card of your library whenever you want (with one restriction—see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
+  - *2025-09-19* — You must follow all normal timing rules when casting a spell this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/36/madame-web-clairvoyant) · oracle_id `b1e0841d-b004-40f9-a644-aecb422f6ad5` · printing: SPM #36 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mad Auntie
 
@@ -120,7 +135,9 @@
   > *One part cunning, one part wise, and many, many parts demented.*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10262 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mma/90/mad-auntie) · oracle_id `b582b696-17fa-4eea-8124-293f9bd3a208` · printing: MMA #90 (2013-06-07) · [rulings](https://api.scryfall.com/cards/00215182-51bd-4c7e-9675-179749a25a07/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-10-01* — The second ability can target any Goblin permanent except the Mad Auntie whose ability is being activated. It can target a different Mad Auntie.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mma/90/mad-auntie) · oracle_id `b582b696-17fa-4eea-8124-293f9bd3a208` · printing: MMA #90 (2013-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Madblind Mountain
 
@@ -131,6 +148,7 @@
   > This land enters tapped.
   > {R}, {T}: Shuffle your library. Activate only if you control two or more red permanents.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14538 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/274/madblind-mountain) · oracle_id `0ee0b090-3f1e-49d6-bcad-91e0cf1d12ae` · printing: SHM #274 (2008-05-02) · [rulings](https://api.scryfall.com/cards/513adae2-6436-4284-9f23-87ef627e81b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Madcap Experiment
@@ -140,7 +158,12 @@
 - **Oracle text:**
   > Reveal cards from the top of your library until you reveal an artifact card. Put that card onto the battlefield and the rest on the bottom of your library in a random order. Madcap Experiment deals damage to you equal to the number of cards revealed this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21868 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/122/madcap-experiment) · oracle_id `684e2237-b860-45bf-a053-a02cc7ed1527` · printing: KLD #122 (2016-09-30) · [rulings](https://api.scryfall.com/cards/05768b87-d2df-42fc-bf63-e471d31b32e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-09-20* — Any abilities that trigger as the artifact enters the battlefield aren't put onto the stack until Madcap Experiment is done resolving.
+  - *2016-09-20* — If you don't reveal an artifact card, you'll randomize your library and be dealt damage equal to the number of cards in your library.
+  - *2016-09-20* — Once Madcap Experiment begins resolving, no player may take any actions other than those specified by Madcap Experiment until it's done resolving.
+  - *2016-09-20* — The number of cards revealed this way includes the artifact card you put onto the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/122/madcap-experiment) · oracle_id `684e2237-b860-45bf-a053-a02cc7ed1527` · printing: KLD #122 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Madcap Skills
 
@@ -153,6 +176,7 @@
   > *The larger the crowd, the harder it is for them to run away.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12981 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm3/99/madcap-skills) · oracle_id `4a9dc9ef-a603-467a-aeed-32cc111394b0` · printing: MM3 #99 (2017-03-17) · [rulings](https://api.scryfall.com/cards/ba77b1ff-e73d-4181-9564-d71df348b2fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maddening Cacophony
@@ -210,7 +234,9 @@
   > {T}: Non-Wall creatures the active player controls attack this turn if able. At the beginning of the next end step, destroy each of those creatures that didn't attack this turn. Activate only during an opponent's turn and only before combat.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22705 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmp/143/maddening-imp) · oracle_id `97dea59e-2090-4653-9ed9-86820a20605f` · printing: TMP #143 (1997-10-14) · [rulings](https://api.scryfall.com/cards/dda08eb5-c75c-4c21-bfd1-1f04a3575241/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — If a creature can’t attack because of some restriction, or because it is tapped, it is destroyed at the end of the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmp/143/maddening-imp) · oracle_id `97dea59e-2090-4653-9ed9-86820a20605f` · printing: TMP #143 (1997-10-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maddening Wind
 
@@ -225,6 +251,7 @@
   > *—Kolbjörn, Elder Druid of the Juniper Order*
 - **Keywords:** Enchant, Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31433 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/254/maddening-wind) · oracle_id `c9798915-3f9e-466b-bbd6-f4e126bdb67d` · printing: ICE #254 (1995-06-03) · [rulings](https://api.scryfall.com/cards/5277656c-70f5-4660-bd58-7d9261d53fb5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mad Dog
@@ -237,6 +264,7 @@
 - **Flavor text** (ODY printing):
   > *The bones it buries may be yours.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29265 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/202/mad-dog) · oracle_id `097bce84-22b1-4d7b-b566-e7c23eb626b9` · printing: ODY #202 (2001-10-01) · [rulings](https://api.scryfall.com/cards/7be2da24-a0cd-4e90-bc29-4da649fa56bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Madlands
@@ -249,7 +277,19 @@
   > Madness {0} (If you discard this card, discard it into exile. When you do, play it for its madness cost or put it into your graveyard. You can play a land only during your turn and only if you have an available land play remaining.)
 - **Keywords:** Madness
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/614/madlands) · oracle_id `f6521057-432a-4ff7-a400-3bb8d3275c27` · printing: MB2 #614 (2024-08-02) · [rulings](https://api.scryfall.com/cards/4056ecfe-6817-4138-b76d-0caa61e1529b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2024-11-08* — A card with madness that’s discarded counts as having been discarded even though it’s put into exile rather than a graveyard. If it was discarded to pay a cost, that cost is still paid. Abilities that trigger when a card is discarded will still trigger.
+  - *2024-11-08* — Cards are discarded in a Magic game only from a player’s hand. Effects that put cards into a player’s graveyard from anywhere else do not cause those cards to be discarded.
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — If you choose not to play a card with madness when the madness triggered ability resolves, it’s put into your graveyard. Madness doesn’t give you another chance to play it later.
+  - *2024-11-08* — If you discard a card with madness to pay the cost of a spell or activated ability, that card’s madness triggered ability will resolve before the spell or ability the discard paid for.
+  - *2024-11-08* — If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.
+  - *2024-11-08* — If you discard a card with madness, you discard it into exile instead of into your graveyard. When you do, you can either play it from exile for its madness cost or put it into your graveyard.
+  - *2024-11-08* — Madness works independently of why you’re discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can’t discard a card with madness just because you want to, though.
+  - *2024-11-08* — Normally, playing a land can only be done as a sorcery, but the madness trigger circumvents that timing restriction, allowing you to play the land even if it’s not your main phase and even if the stack is not empty. However, you can still only play a land during your turn and only if you have an available land play remaining.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/614/madlands) · oracle_id `f6521057-432a-4ff7-a400-3bb8d3275c27` · printing: MB2 #614 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mad Prophet
 
@@ -263,7 +303,9 @@
   > *"I have seen it. Seen the end, seen the beginning, the beginning of the end. Not death, no, no. Transcendence!"*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23628 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/137/mad-prophet) · oracle_id `91081181-aec6-47de-b8ef-241a2f4fe880` · printing: UMA #137 (2018-12-07) · [rulings](https://api.scryfall.com/cards/89a62145-8dad-4385-9c6d-8cf8bfdad681/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-05-01* — Discarding a card is part of the ability’s activation cost. You can’t activate the ability if you have no cards in hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/137/mad-prophet) · oracle_id `91081181-aec6-47de-b8ef-241a2f4fe880` · printing: UMA #137 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mad Ratter
 
@@ -275,7 +317,11 @@
 - **Flavor text** (ELD printing):
   > *"Gather round and tell me all from the courts and castles."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11529 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/130/mad-ratter) · oracle_id `779fa24d-e9d2-475d-b3aa-dc0388b18307` · printing: ELD #130 (2019-10-04) · [rulings](https://api.scryfall.com/cards/9a4cabcc-fb29-4bf2-b5ba-32b8c96aefd6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-10-04* — If a spell or ability causes you to put cards into your hand without specifically using the word “draw,” it's not a card drawn.
+  - *2019-10-04* — If an effect instructs you to draw multiple cards, the ability triggers after you draw whichever is the second one for the turn. You choose a target (if any) for the ability after you've drawn and looked at all of the cards and finished resolving the spell or ability that caused you to draw them.
+  - *2019-10-04* — The triggered ability can trigger only once each turn. It doesn't matter whether the permanent with that ability was on the battlefield when the first card was drawn. If it's not on the battlefield when the second card is drawn, the ability can't trigger at all that turn. It won't trigger when the third or fourth card is drawn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/130/mad-ratter) · oracle_id `779fa24d-e9d2-475d-b3aa-dc0388b18307` · printing: ELD #130 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Madrush Cyclops
 
@@ -287,7 +333,9 @@
 - **Flavor text** (ARB printing):
   > *Death comes in the blink of an eye.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23468 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/arb/119/madrush-cyclops) · oracle_id `f45a2a66-04cc-4622-9c70-f2dfc1391bb1` · printing: ARB #119 (2009-04-30) · [rulings](https://api.scryfall.com/cards/21d4fd58-2052-4f97-b634-f89e2139d980/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-05-01* — Madrush Cyclops gives itself haste.
+- **Source flags:** [Scryfall](https://scryfall.com/card/arb/119/madrush-cyclops) · oracle_id `f45a2a66-04cc-4622-9c70-f2dfc1391bb1` · printing: ARB #119 (2009-04-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mad Science Fair Project
 
@@ -298,4 +346,5 @@
 - **Flavor text** (UST printing):
   > *"When it comes down to it, science is more art than science."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/154/mad-science-fair-project) · oracle_id `da3f2cd9-50d1-4d30-867e-3e6400d6ca62` · printing: UST #154 (2017-12-08) · [rulings](https://api.scryfall.com/cards/82b605c5-c2fa-452d-a062-8ca67c1d5243/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

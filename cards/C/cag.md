@@ -36,7 +36,9 @@
 - **Flavor text** (M21 printing):
   > *"Six consecutive life sentences" takes on a new meaning when necromancy is involved.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24304 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/91/caged-zombie) · oracle_id `430b3e61-09a5-4390-b377-89830cacf66e` · printing: M21 #91 (2020-07-03) · [rulings](https://api.scryfall.com/cards/f8067745-35b6-4abd-9ae9-712159a26c89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-06-23* — In a Two-Headed Giant game, Caged Zombie's ability causes the opposing team to lose 4 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/91/caged-zombie) · oracle_id `430b3e61-09a5-4390-b377-89830cacf66e` · printing: M21 #91 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cagemail
 
@@ -50,6 +52,7 @@
   > *—Commander Eesha*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30588 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jud/7/cagemail) · oracle_id `fe1f40fe-011b-4686-b865-fed00c56d30a` · printing: JUD #7 (2002-05-27) · [rulings](https://api.scryfall.com/cards/72ab91ab-2bcf-4617-bec3-2bf040d4997c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cage of Hands
@@ -62,4 +65,6 @@
   > {1}{W}: Return this Aura to its owner's hand.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16811 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/14/cage-of-hands) · oracle_id `18ffd8ad-1556-450d-8bc1-8103a3d0404e` · printing: CMR #14 (2020-11-20) · [rulings](https://api.scryfall.com/cards/655aefd8-8b0b-4c65-9973-376bbf05375b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-11-10* — The ability to return Cage of Hands to its owner's hand can only be activated if Cage of Hands is on the battlefield. If Cage of Hands is no longer on the battlefield when the ability resolves, Cage of Hands remains in its new zone and isn't returned to its owner's hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/14/cage-of-hands) · oracle_id `18ffd8ad-1556-450d-8bc1-8103a3d0404e` · printing: CMR #14 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

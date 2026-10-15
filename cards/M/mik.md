@@ -57,7 +57,11 @@
   > You may play lands and cast Mutant, Ninja, or Turtle spells from the top of your library. If you cast a creature spell this way, that creature enters with an additional +1/+1 counter on it.
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11616 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/157/mikey-&-don-party-planners) · oracle_id `529178e8-425e-4d59-948c-ca7d0663f6ff` · printing: TMT #157 (2026-03-06) · [rulings](https://api.scryfall.com/cards/6353df1a-9a1b-41fd-985b-8c8acba36c23/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2026-01-27* — If the top card of your library changes while you're casting a spell, playing a land, activating an ability, or taking a special action, you can't look at the new top card until you finish doing so. This means that if you cast the top card of your library, you can't look at the next one until you're done paying for that spell.
+  - *2026-01-27* — Mikey & Don's last ability allows you to cast the top card of your library if the resulting spell is a Mutant, Ninja, or Turtle spell. You pay all required costs, and timing restrictions apply. If that spell is an instant (most likely a kindred instant) or has flash, you'll be able to cast it any time you could cast an instant, even on an opponent's turn.
+  - *2026-01-27* — Mikey & Don's second ability lets you look at the top card of your library whenever you want (with one restriction—see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/157/mikey-&-don-party-planners) · oracle_id `529178e8-425e-4d59-948c-ca7d0663f6ff` · printing: TMT #157 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mikey & Leo, Chaos & Order
 
@@ -82,6 +86,7 @@
   > • Target player chooses a creature they control and puts two +1/+1 counters on it.
   > • Target player returns a creature or land card from their graveyard to their hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22388 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/125/mikey-&-mona-mutant-sitters) · oracle_id `15e14a91-a596-465f-becc-cef2e7fbbd30` · printing: TMC #125 (2026-03-06) · [rulings](https://api.scryfall.com/cards/fb7fdad9-8a39-4c66-b9d2-cfce8c4928a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mikokoro, Center of the Sea

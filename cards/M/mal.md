@@ -60,6 +60,7 @@
 - **Flavor text** (MRD printing):
   > *Centuries before the first branches of the Tangle gave shelter from the suns' cold light, the shadows of golems were Mirrodin's only shade.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31288 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/202/malachite-golem) · oracle_id `54e71732-6575-48f4-838b-35d44eba51cf` · printing: MRD #202 (2003-10-02) · [rulings](https://api.scryfall.com/cards/d1193164-5ee5-40ff-b244-f80d426bbf89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malachite Talisman
@@ -69,6 +70,7 @@
 - **Oracle text:**
   > Whenever a player casts a green spell, you may pay {3}. If you do, untap target permanent.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22182 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/328/malachite-talisman) · oracle_id `0be4877d-72ff-4951-aa52-f4f816abc844` · printing: ICE #328 (1995-06-03) · [rulings](https://api.scryfall.com/cards/63fb8a24-ce53-4a69-be2a-55c6dbba5ee7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malach of the Dawn
@@ -84,6 +86,7 @@
   > *—Sister Betje, \*Miracles of the Saints\**
 - **Keywords:** Flying, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29943 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/plc/24/malach-of-the-dawn) · oracle_id `c351a325-42cb-43ad-8648-c204e2317b50` · printing: PLC #24 (2007-02-02) · [rulings](https://api.scryfall.com/cards/6f5df373-5dad-4e33-9e2b-351f1f4bdde4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malakir Blood-Priest
@@ -96,7 +99,13 @@
 - **Flavor text** (CLB printing):
   > *"From your veins to mine."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12545 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/760/malakir-blood-priest) · oracle_id `3a3cb6fe-24ef-4c09-8ff8-f303fc472a8b` · printing: CLB #760 (2022-06-10) · [rulings](https://api.scryfall.com/cards/bbbd64da-6071-49f4-87aa-066209ec1ae9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-09-25* — An ability referring to the number of creatures in your party gets a number from zero to four. Such abilities never ask which creatures are in your party, and you never have to designate specific creatures as being in your party. You can't choose to exclude creatures from this count to lower the number.
+  - *2020-09-25* — If a creature has more than one party creature type, and there are multiple ways to count that creature that could result in a different number of creatures in your party, the highest such number is used. For example, if you control a Cleric and a Cleric Wizard, the number of creatures in your party is two. You can't choose to have it be just one by counting the Cleric Wizard first as a Cleric.
+  - *2020-09-25* — If an ability of a creature counts the number of creatures in your party, that number is counted as the ability resolves. If that creature is still on the battlefield when the ability resolves, it'll be counted if appropriate.
+  - *2020-09-25* — In a Two-Headed Giant game, Malakir Blood-Priest's ability causes the opposing team to lose twice X life and you to gain X life.
+  - *2020-09-25* — To determine “the number of creatures in your party,” check whether you control a Cleric, whether you control a Rogue, whether you control a Warrior, and whether you control a Wizard. The number is the total number of those checks to which you answered yes. Each creature you control can be counted for only one of those checks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/760/malakir-blood-priest) · oracle_id `3a3cb6fe-24ef-4c09-8ff8-f303fc472a8b` · printing: CLB #760 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malakir Bloodwitch
 
@@ -121,6 +130,7 @@
 - **Flavor text** (ORI printing):
   > *Each cut stains his blade with fresh blood that he samples to increase his strength.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16378 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/108/malakir-cullblade) · oracle_id `4fbaf052-a8c3-4395-8f40-0cb3a10d5ccd` · printing: ORI #108 (2015-07-17) · [rulings](https://api.scryfall.com/cards/70861692-1eb2-4cb1-8d7f-b881386c37d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malakir Familiar
@@ -136,7 +146,11 @@
   > *—Harak, Malakir bloodwitch*
 - **Keywords:** Deathtouch, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14022 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/253/malakir-familiar) · oracle_id `12eeabe1-a02c-42a3-aa87-6774c4de7093` · printing: JMP #253 (2020-07-17) · [rulings](https://api.scryfall.com/cards/24fe5c92-7da2-47b5-ad13-f95590e93ac2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-08-25* — A creature with lifelink dealing combat damage is a single life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, the ability will trigger twice. However, if a single creature with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2015-08-25* — In a Two-Headed Giant game, life gained by your teammate won’t cause the ability to trigger, even though it causes your team’s life total to increase.
+  - *2015-08-25* — The ability triggers just once for each life-gaining event, whether it’s 1 life from Drana’s Emissary or 7 life from Nissa’s Renewal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/253/malakir-familiar) · oracle_id `12eeabe1-a02c-42a3-aa87-6774c4de7093` · printing: JMP #253 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malakir Rebirth // Malakir Mire
 
@@ -178,7 +192,9 @@
   > *"Your blood whispers secrets your mind could never comprehend."*
 - **Keywords:** Cohort
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25934 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/87/malakir-soothsayer) · oracle_id `6ebfce76-82a2-4168-bd64-99cf16882dee` · printing: OGW #87 (2016-01-22) · [rulings](https://api.scryfall.com/cards/72cb3c2c-5d5a-4c9b-a381-ab4dd477d84d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-01-22* — To activate a cohort ability, the Ally with that ability must have been under your control continuously since the beginning of your most recent turn. Informally, it can’t have “summoning sickness.” However, the other Ally you tap can be one that just came under your control. (Note that tapping the second Ally doesn’t use {T} [the tap symbol].)
+- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/87/malakir-soothsayer) · oracle_id `6ebfce76-82a2-4168-bd64-99cf16882dee` · printing: OGW #87 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malamet Battle Glyph
 
@@ -191,7 +207,9 @@
   > *—Daram, Malamet marshal*
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15401 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/198/malamet-battle-glyph) · oracle_id `483a0caa-e912-41e9-aaa3-bcea9369ec06` · printing: LCI #198 (2023-11-17) · [rulings](https://api.scryfall.com/cards/2259f959-ca97-4df9-8d50-0532090fb967/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-11-10* — If the target creature you control entered the battlefield this turn and is still a legal target as Malamet Battle Glyph resolves but the target creature you don't control isn't, you will still put a +1/+1 counter on the creature you control. The creatures will not fight each other.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/198/malamet-battle-glyph) · oracle_id `483a0caa-e912-41e9-aaa3-bcea9369ec06` · printing: LCI #198 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malamet Brawler
 
@@ -203,6 +221,7 @@
 - **Flavor text** (LCI printing):
   > *"I bear the marking of the Deep King, and in his name I will rend you to nothing but spores on the wind!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16635 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/199/malamet-brawler) · oracle_id `06905dfb-b2df-4849-8848-fd3c964aa8c9` · printing: LCI #199 (2023-11-17) · [rulings](https://api.scryfall.com/cards/47d2fb65-cc3d-4664-bee0-8cf1cba5d8fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malamet Scythe
@@ -216,6 +235,7 @@
   > Equip {4} ({4}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21110 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/200/malamet-scythe) · oracle_id `99c5630e-cc04-4203-9006-3bc6a6807762` · printing: LCI #200 (2023-11-17) · [rulings](https://api.scryfall.com/cards/df6776a4-cc01-46a3-90df-04e1e3ba513c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malamet Veteran
@@ -230,7 +250,10 @@
   > *The mightiest Malamet warriors train as titan-killers, elite champions capable of facing down the caverns' most fearsome beasts.*
 - **Keywords:** Descend, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20243 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/201/malamet-veteran) · oracle_id `25a9c864-59c6-4230-a234-bf78bf1ef24c` · printing: LCI #201 (2023-11-17) · [rulings](https://api.scryfall.com/cards/4b9b16b3-1cbd-4b63-85b2-e4053dfc1e93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — Cards with the ability word "descend N" have abilities that care if you have at least N permanent cards in your graveyard.
+  - *2023-11-10* — Some descend triggered abilities include intervening "if" clauses (i.e. "if you have [four or eight] permanent cards in your graveyard" in the middle of the ability). Each of these abilities checks your graveyard at the moment it would trigger to see if it does. If you don't have the required number of permanent cards in your graveyard at that time, the ability doesn't trigger at all. If it does trigger, it will check again as it tries to resolve. If you don't have the required number of permanent cards in your graveyard at that time, the ability won't resolve and none of its effects will happen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/201/malamet-veteran) · oracle_id `25a9c864-59c6-4230-a234-bf78bf1ef24c` · printing: LCI #201 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malamet War Scribe
 
@@ -242,6 +265,7 @@
 - **Flavor text** (LCI printing):
   > *The glyph is mightier than the sword.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21696 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/21/malamet-war-scribe) · oracle_id `8978a30a-7918-4851-92ef-f40fdf90c379` · printing: LCI #21 (2023-11-17) · [rulings](https://api.scryfall.com/cards/b92a6ba0-cea0-4084-92f1-2bd60ea25fb0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malanthrope
@@ -254,6 +278,7 @@
   > Scavenge the Dead — When this creature enters, exile target player's graveyard. Put a +1/+1 counter on this creature for each creature card exiled this way.
 - **Keywords:** Flying, Scavenge the Dead
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12106 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/132/malanthrope) · oracle_id `0f99e921-61e7-4fc8-8115-4162712b4737` · printing: 40K #132 (2022-10-07) · [rulings](https://api.scryfall.com/cards/28d4eb51-a6ec-488a-a79a-ec4676d7af52/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malboro
@@ -295,6 +320,7 @@
   > *Each of the Gitaxian sectives watches the others, looking for any hint of imperfection.*
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14789 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/58/malcators-watcher) · oracle_id `b0493924-dc6d-4655-865f-7e9b40f547ea` · printing: ONE #58 (2023-02-10) · [rulings](https://api.scryfall.com/cards/95a7e5ff-ba81-4b45-933e-0ac747525ab8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malcolm, Alluring Scoundrel
@@ -366,6 +392,7 @@
   > Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18994 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/112/malefic-scythe) · oracle_id `0b4925d7-e2bb-4b74-a538-80fe759799ad` · printing: M21 #112 (2020-07-03) · [rulings](https://api.scryfall.com/cards/89e2bc57-8f18-4ba1-a11b-9d69d029f56a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malevolent Awakening
@@ -377,6 +404,7 @@
 - **Flavor text** (ODY printing):
   > *The most popular pit fighters are brought back for encore performances.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21553 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/147/malevolent-awakening) · oracle_id `522fc178-d11a-4919-83b0-e58453e3a160` · printing: ODY #147 (2001-10-01) · [rulings](https://api.scryfall.com/cards/35d94052-aae3-4ced-9309-fc4a0d1f159d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malevolent Chandelier
@@ -392,6 +420,7 @@
   > *—Winter*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19409 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/252/malevolent-chandelier) · oracle_id `437553c1-0aa4-4093-b6e5-c175ede5f278` · printing: DSK #252 (2024-09-27) · [rulings](https://api.scryfall.com/cards/ef09d296-4493-47f7-ad76-ad76c747df78/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malevolent Hermit // Benevolent Geist
@@ -430,6 +459,7 @@
 - **Flavor text** (ELD printing):
   > *He has slain a dozen witches, luring each with a promise of fresh children's bones.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27067 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/95/malevolent-noble) · oracle_id `4c23ae3a-108f-4a09-b89f-8c43c33dd144` · printing: ELD #95 (2019-10-04) · [rulings](https://api.scryfall.com/cards/6bc7e996-151f-4d88-8e1e-91bb88f5db02/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malevolent Rumble
@@ -453,7 +483,19 @@
   > Madness {3}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
 - **Keywords:** Madness
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14742 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/150/malevolent-whispers) · oracle_id `b7ff27b6-7591-44b9-86b9-ee12f795ec25` · printing: C19 #150 (2019-08-23) · [rulings](https://api.scryfall.com/cards/b4b0da4b-88b0-4f9a-b16f-3ad383493d1f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2018-12-07* — Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it, even though those remain attached to it.
+  - *2018-12-07* — Malevolent Whispers can target any creature, even one that's untapped or one you already control.
+  - *2022-12-08* — A card with madness that's discarded counts as having been discarded even though it's put into exile rather than a graveyard. If it was discarded to pay a cost, that cost is still paid. Abilities that trigger when a card is discarded will still trigger.
+  - *2022-12-08* — A spell cast for its madness cost is put onto the stack like any other spell. It can be countered, copied, and so on. As it resolves, it's put onto the battlefield if it's a permanent card or into its owner's graveyard if it's an instant or sorcery card.
+  - *2022-12-08* — Cards are discarded in a Magic game only from a player's hand. Effects that put cards into a player's graveyard from anywhere else do not cause those cards to be discarded.
+  - *2022-12-08* — Casting a spell with madness ignores the timing rules based on the card's card type. For example, you can cast a sorcery with madness if you discard it during an opponent's turn.
+  - *2022-12-08* — If you choose not to cast a card with madness when the madness triggered ability resolves, it's put into your graveyard. Madness doesn't give you another chance to cast it later.
+  - *2022-12-08* — If you discard a card with madness to pay the cost of a spell or activated ability, that card's madness triggered ability (and the spell that card becomes, if you choose to cast it) will resolve before the spell or ability the discard paid for.
+  - *2022-12-08* — If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.
+  - *2022-12-08* — Madness works independently of why you're discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can't discard a card with madness just because you want to, though.
+  - *2022-12-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a madness cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/150/malevolent-whispers) · oracle_id `b7ff27b6-7591-44b9-86b9-ee12f795ec25` · printing: C19 #150 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malevolent Witchkite
 
@@ -468,7 +510,10 @@
   > *—Osval, adventurer*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14855 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/315/malevolent-witchkite) · oracle_id `aee2cd1b-9bf9-4b91-83a4-2f1dbc82dcf4` · printing: WOE #315 (2023-09-08) · [rulings](https://api.scryfall.com/cards/d6cb3c6d-560d-40ca-b5c0-27322863cead/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-09-01* — As Malevolent Witchkite's triggered ability resolves, you may choose to sacrifice zero permanents.
+  - *2023-09-01* — If any abilities trigger when you sacrifice permanents, those abilities won't be put onto the stack until after you've drawn cards. Those abilities won't trigger if you choose to sacrifice zero permanents.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/315/malevolent-witchkite) · oracle_id `aee2cd1b-9bf9-4b91-83a4-2f1dbc82dcf4` · printing: WOE #315 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malfegor
 
@@ -482,7 +527,10 @@
   > *A demon cannot be trusted, and a dragon will not be ruled.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14708 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/205/malfegor) · oracle_id `52e1546a-63eb-48d7-acc4-81b912aabc90` · printing: IMA #205 (2017-11-17) · [rulings](https://api.scryfall.com/cards/010a4b07-c2d5-433e-9898-6e148104e9e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-11-17* — After you discard your hand and the number of creatures each opponent must sacrifice has been determined, each opponent in turn order, starting with the player whose turn it is if that player is your opponent, chooses which creatures they will sacrifice, then all the chosen creatures are all sacrificed at the same time.
+  - *2017-11-17* — Malfegor’s ability is not optional. You must discard your entire hand no matter how many creatures your opponents control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/205/malfegor) · oracle_id `52e1546a-63eb-48d7-acc4-81b912aabc90` · printing: IMA #205 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malfunction
 
@@ -496,6 +544,7 @@
   > *"They don't make them like they used to."*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26939 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/55/malfunction) · oracle_id `d2f98983-f395-4166-aa5a-309b4769baab` · printing: KLD #55 (2016-09-30) · [rulings](https://api.scryfall.com/cards/c41f907f-4512-4c5d-827b-fef04613d641/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malfunctioning Holodeck
@@ -510,6 +559,7 @@
   > *—Ensign Kei*
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31928 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/22/malfunctioning-holodeck) · oracle_id `3f04c38b-d6bd-405f-b69c-009df87801dd` · printing: TRK #22 (2026-11-13) · [rulings](https://api.scryfall.com/cards/0faeffee-bb07-4b9d-8cdd-e9731bbd2396/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malicious Advice
@@ -522,6 +572,7 @@
   > *"Rule through fear, Darigaaz. Only if the dragons feel terror will they truly be your servants."*
   > *—Tevesh Szat*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31365 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pls/114/malicious-advice) · oracle_id `14c1adf8-950b-4f64-9c84-956a623448f4` · printing: PLS #114 (2001-02-05) · [rulings](https://api.scryfall.com/cards/7b1547c2-ae9f-4871-a675-4026bf20e7e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malicious Affliction
@@ -550,7 +601,10 @@
 - **Flavor text** (LCI printing):
   > *Aclazotz laughed as the dark shards closed around Chimil, plunging the Core into unnatural darkness. At long last, his bloody reign would begin.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19852 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/111/malicious-eclipse) · oracle_id `5beb8d6e-d3c1-46a5-8516-d6bf66413cff` · printing: LCI #111 (2023-11-17) · [rulings](https://api.scryfall.com/cards/2796fffa-8cbf-4ec9-91a8-7b6f39fd50ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — Creatures opponents control will be exiled if they would die for any reason that turn, not just if they die by being reduced to 0 or less toughness by Malicious Eclipse.
+  - *2023-11-10* — While the -2/-2 applies only to creatures that are on the battlefield as Malicious Eclipse resolves, the replacement effect applies to all creatures opponents control that turn, including ones that enter the battlefield after Malicious Eclipse resolves, noncreatures that become creatures after Malicious Eclipse resolves, and creatures that become controlled by opponents after Malicious Eclipse resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/111/malicious-eclipse) · oracle_id `5beb8d6e-d3c1-46a5-8516-d6bf66413cff` · printing: LCI #111 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malicious Intent
 
@@ -563,7 +617,9 @@
   > *As peace returned to Thraben, some cathars made the mistake of letting down their guard.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29392 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/avr/147/malicious-intent) · oracle_id `8aac06d0-c353-4af9-a243-feb59b9d0c54` · printing: AVR #147 (2012-05-04) · [rulings](https://api.scryfall.com/cards/f1dda42d-55eb-46fc-89da-17cc5bfaa823/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-05-01* — Once a creature has been declared as a blocking creature, making it unable to block will have no effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/avr/147/malicious-intent) · oracle_id `8aac06d0-c353-4af9-a243-feb59b9d0c54` · printing: AVR #147 (2012-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malicious Malfunction
 
@@ -575,7 +631,10 @@
   > *"That? A minor test, nothing more. Incompleat flesh is weak."*
   > *—Jin-Gitaxias*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23020 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/110/malicious-malfunction) · oracle_id `c7ecaa1a-fbf7-436b-a1c9-d7810b0dc5dc` · printing: NEO #110 (2022-02-18) · [rulings](https://api.scryfall.com/cards/56e7415f-f014-4ece-81db-d8271444d9e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-02-18* — Creatures that would die for any reason this turn are exiled instead, not just creatures that would die after getting -2/-2.
+  - *2022-02-18* — While the -2/-2 applies only to creatures that are on the battlefield as Malicious Malfunction resolves, the replacement effect applies to all creatures that turn, including ones that enter the battlefield after Malicious Malfunction resolves or noncreatures that become creatures after Malicious Malfunction resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/110/malicious-malfunction) · oracle_id `c7ecaa1a-fbf7-436b-a1c9-d7810b0dc5dc` · printing: NEO #110 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malignant Growth
 
@@ -587,7 +646,10 @@
   > At the beginning of each opponent's draw step, that player draws an additional card for each growth counter on this enchantment, then this enchantment deals damage to the player equal to the number of cards they drew this way.
 - **Keywords:** Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28664 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/mir/272/malignant-growth) · oracle_id `b3235d21-ce52-4a99-a2fe-99b0fe7cc8bc` · printing: MIR #272 (1996-10-08) · [rulings](https://api.scryfall.com/cards/760b6703-ac92-45f6-8c32-60f760eba866/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — In multiplayer games it affects all opponents.
+  - *2013-04-15* — The triggered ability is put onto the stack after you have already drawn your card for the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mir/272/malignant-growth) · oracle_id `b3235d21-ce52-4a99-a2fe-99b0fe7cc8bc` · printing: MIR #272 (1996-10-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malignus
 
@@ -614,6 +676,7 @@
   > Whenever an opponent sacrifices a creature, you create a Treasure token.
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13345 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/23/malik-grim-manipulator) · oracle_id `416608a1-89a4-44ce-8fd0-fab6b023d3d4` · printing: SLX #23 (2023-09-08) · [rulings](https://api.scryfall.com/cards/5cf4fee3-3059-4ca4-a47d-0848410b294d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malleable Impostor

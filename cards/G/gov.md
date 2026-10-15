@@ -19,4 +19,5 @@
   > Forecast — {1}{U}, Reveal this card from your hand: Target creature becomes the color or colors of your choice until end of turn. (Activate only during your upkeep and only once each turn.)
 - **Keywords:** Forecast
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23278 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/25/govern-the-guildless) · oracle_id `a9a0605d-295a-47e6-9f49-3c82a7ef1e7b` · printing: DIS #25 (2006-05-05) · [rulings](https://api.scryfall.com/cards/23106341-9200-4eee-93d0-d6173b0b39c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

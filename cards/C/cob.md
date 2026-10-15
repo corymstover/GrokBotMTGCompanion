@@ -24,6 +24,7 @@
 - **Flavor text** (MRD printing):
   > *Centuries before the first tides of the Quicksilver Sea rose to meet each new sun, Mirrodin's light shone on the golems alone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31651 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/157/cobalt-golem) · oracle_id `1e50af57-e49d-4b94-a370-44846d9f6b33` · printing: MRD #157 (2003-10-02) · [rulings](https://api.scryfall.com/cards/ec5e72f6-f573-4e37-9daa-abe6561ab086/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cobblebrute
@@ -36,6 +37,7 @@
 - **Flavor text** (ORI printing):
   > *Ravnica's most ancient streets take on a life of their own. A few have decided to move to nicer neighborhoods.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28460 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/138/cobblebrute) · oracle_id `6d4ed1f2-0918-444c-95ef-d58beb5aa216` · printing: ORI #138 (2015-07-17) · [rulings](https://api.scryfall.com/cards/ffa87a70-c9fb-4ab3-ac16-367888aa775b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cobbled Lancer
@@ -50,6 +52,7 @@
   > *"Don't worry everyone—I hear hoofbeats! The Gavony Riders are coming to save us!"*
   > *—Adin, Moorland villager*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22496 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/56/cobbled-lancer) · oracle_id `200bbf1d-835d-4d61-a6ab-a0b2abfbed79` · printing: INR #56 (2025-01-24) · [rulings](https://api.scryfall.com/cards/ad933b4d-e1e7-49cc-aa18-8eee2ec8c8a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cobbled Wings
@@ -63,6 +66,7 @@
   > *For the necro-alchemist, any puzzle can be solved with intelligence and harvested body parts.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11355 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/258/cobbled-wings) · oracle_id `8d8682f3-9ef3-4aa7-9ea6-8a2ce09bff6f` · printing: INR #258 (2025-01-24) · [rulings](https://api.scryfall.com/cards/e8bb16f6-71b2-4338-a546-27f37f50e811/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cobra Trap
@@ -73,4 +77,9 @@
   > If a noncreature permanent under your control was destroyed this turn by a spell or ability an opponent controlled, you may pay {G} rather than pay this spell's mana cost.
   > Create four 1/1 green Snake creature tokens.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15788 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c15/180/cobra-trap) · oracle_id `f3953f48-01c0-4647-9e4a-d70708d01e33` · printing: C15 #180 (2015-11-13) · [rulings](https://api.scryfall.com/cards/a8954f5e-9904-426f-9b66-8cdf86438f6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2009-10-01* — A spell or ability destroys a permanent only if that spell or ability specifically contains the word “destroy” in its text. If a spell or ability an opponent controls exiles a noncreature permanent you control, causes you to sacrifice a noncreature permanent, removes all loyalty counters from a planeswalker you control, or causes an ability you control to trigger (and then that ability destroys a permanent you control), Cobra Trap’s alternative cost condition hasn’t been met.
+  - *2009-10-01* — Casting a Trap by paying its alternative cost doesn’t change its mana cost or mana value. The only difference is the cost you actually pay.
+  - *2009-10-01* — Effects that increase or reduce the cost to cast a Trap will apply to whichever cost you chose to pay.
+  - *2009-10-01* — You may ignore a Trap’s alternative cost condition and simply cast it for its normal mana cost. This is true even if its alternative cost condition has been met.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c15/180/cobra-trap) · oracle_id `f3953f48-01c0-4647-9e4a-d70708d01e33` · printing: C15 #180 (2015-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

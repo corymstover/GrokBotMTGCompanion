@@ -22,7 +22,9 @@
   > Whenever this creature attacks and isn't blocked, defending player gets a poison counter. (A player with ten or more poison counters loses the game.)
 - **Keywords:** Fear
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22641 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vis/69/suqata-assassin) · oracle_id `db43b866-13e0-4336-a580-b64fe1ee5954` · printing: VIS #69 (1997-02-03) · [rulings](https://api.scryfall.com/cards/1b7178c6-f989-437d-83e3-04b9817f2c54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — An ability that triggers when something “attacks and isn’t blocked” triggers in the declare blockers step after blockers are declared if (1) that creature is attacking and (2) no creatures are declared to block it. It will trigger even if that creature was put onto the battlefield attacking rather than having been declared as an attacker in the declare attackers step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vis/69/suqata-assassin) · oracle_id `db43b866-13e0-4336-a580-b64fe1ee5954` · printing: VIS #69 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suq'Ata Firewalker
 
@@ -36,6 +38,7 @@
   > *"Comfortable even in a furnace? I've never met one who'd accept my wager."*
   > *—Talibah, embermage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20751 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/94/suqata-firewalker) · oracle_id `c9c0bb7e-8dfc-481c-80f7-b6652b63df39` · printing: MIR #94 (1996-10-08) · [rulings](https://api.scryfall.com/cards/b8a7c22e-fe96-4960-96d4-ee85abec3281/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suq'Ata Lancer
@@ -51,4 +54,5 @@
   > *—Telim'Tor*
 - **Keywords:** Flanking, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27448 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/145/suqata-lancer) · oracle_id `f348b326-8a73-4df9-8faf-e271a36ce373` · printing: DMR #145 (2023-01-13) · [rulings](https://api.scryfall.com/cards/c9cd519a-c6f4-47a8-b773-a058e50e4440/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

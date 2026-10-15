@@ -67,6 +67,7 @@
   > *"You better throw in an extra 'yip'! We gotta move!"*
   > *—Sokka*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11285 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/43/yip-yip!) · oracle_id `5453550f-9136-4568-baf8-c3d20e33fbb6` · printing: TLA #43 (2025-11-21) · [rulings](https://api.scryfall.com/cards/43f4b10e-165b-4100-82f3-728e1b0c78ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yisan, the Wanderer Bard
@@ -91,4 +92,12 @@
 - **Flavor text** (TSR printing):
   > *"I have an eternity to know the souls who are bound here, to behold their every facet. But moments from now they will be gagged and masked, and they shall be known by none other."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25879 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/149/yixlid-jailer) · oracle_id `1f55303e-1369-4e42-9ed4-36609887c7c1` · printing: TSR #149 (2021-03-19) · [rulings](https://api.scryfall.com/cards/3f2ef91f-d113-4e8d-a164-c6e261aa9c12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-03-19* — If a card in a graveyard has an ability that defines a * in its power or toughness, that * is 0. For example, Tarmogoyf is a 0/1 creature card in your graveyard while you control Yixlid Jailer.
+  - *2021-03-19* — If a card with changeling is in a graveyard, it still has all creature types.
+  - *2021-03-19* — If a spell or ability allows you to cast a spell from your graveyard, the first step in doing so is to move it to the stack. That spell's additional and alternative costs may be applied. However, if a card's own ability allows you to cast it from your graveyard (such as a flashback ability) Yixlid Jailer stops that ability.
+  - *2021-03-19* — If an ability triggers when the object that has it is put into a graveyard from anywhere other than the battlefield, such as Krosan Tusker or Narcomoeba, that ability triggers from the graveyard. Yixlid Jailer stops those abilities from triggering at all. This includes abilities that trigger when a card is put into a graveyard "from anywhere," even if that card was on the battlefield.
+  - *2021-03-19* — If an ability triggers when the object that has it is put into a graveyard from the battlefield, that ability triggers from the battlefield and isn't affected by Yixlid Jailer.
+  - *2021-03-19* — Some cards have abilities that apply "as [this card] enters the battlefield" or state that "[this card] enters the battlefield with" counters. Although these cards won't have these abilities in the graveyard, they will be applied if the cards are put onto the battlefield from the graveyard (due to Zombify, perhaps). What matters is that these cards will have these abilities on the battlefield.
+  - *2021-03-19* — Some replacement effects cause a card to be put somewhere else instead of being put into a graveyard (such as that of Darksteel Colossus). These effects mean the card is never actually put into the graveyard, so Yixlid Jailer doesn't affect that ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/149/yixlid-jailer) · oracle_id `1f55303e-1369-4e42-9ed4-36609887c7c1` · printing: TSR #149 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -29,6 +29,7 @@
   > *In a world of bright, cloudless skies, she is the dark storm on the horizon.*
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18027 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/235/wydwen-the-biting-gale) · oracle_id `7891ec87-8d1c-42fc-b00a-4c64ee5edbff` · printing: C20 #235 (2020-04-17) · [rulings](https://api.scryfall.com/cards/62b8f8e9-a2b0-41c5-9fae-340f7caaeff9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wyleth, Soul of Steel
@@ -115,6 +116,7 @@
   > *"When one wolf calls, others follow. Who wants to fight creatures that eat scorpions?"*
   > *—Maimun al-Wyluli, diary*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28560 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/139/wyluli-wolf) · oracle_id `00185f3b-2777-4417-a8e0-4691f41c0ec1` · printing: ME1 #139 (2007-09-10) · [rulings](https://api.scryfall.com/cards/3c97d419-6fee-4a32-9e64-8a827da59934/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wyrm's Crossing Patrol

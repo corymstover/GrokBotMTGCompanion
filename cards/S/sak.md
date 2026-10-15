@@ -146,6 +146,7 @@
 - **Flavor text** (CMM printing):
   > *"My heart beats with the rhythm of the forest."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10473 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/319/sakiko-mother-of-summer) · oracle_id `e4021e30-16bf-4178-9a3b-565bfdce4384` · printing: CMM #319 (2023-08-04) · [rulings](https://api.scryfall.com/cards/8dbdb5f5-cd6e-47cd-b83d-ff71b00c369e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sakura-Tribe Elder
@@ -183,4 +184,5 @@
 - **Oracle text:**
   > At the beginning of your upkeep, add {G}. Until end of turn, you don't lose this mana as steps and phases end.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22218 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/142/sakura-tribe-springcaller) · oracle_id `675a0eff-4da0-45cd-9371-fca96c313f4c` · printing: BOK #142 (2005-02-04) · [rulings](https://api.scryfall.com/cards/b2ca7687-ba90-4479-8c6e-ece3f29fff12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

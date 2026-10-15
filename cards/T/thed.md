@@ -57,6 +57,7 @@
 - **Flavor text** (MDD printing):
   > *The first words scrawled against its pages birthed the concept of evil into the universe.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #30126 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mdd/92/the-darkhold) · oracle_id `3981970f-b332-49b7-9698-3296830ac399` · printing: MDD #92 (2027-04-09) · [rulings](https://api.scryfall.com/cards/fca11cb7-0896-4927-8f11-0e9dec2de416/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Darkness Crystal
@@ -102,7 +103,9 @@
   > I, II, III — Exile cards from the top of your library until you exile a legendary card. You may play that card for as long as this Saga remains on the battlefield. Put the rest of those exiled cards on the bottom of your library in a random order.
   > IV — Choose up to three Doctors. You may exile all other creatures. If you do, this Saga deals 13 damage to you.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15209 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/121/the-day-of-the-doctor) · oracle_id `c2ee17b2-6119-4ade-b806-1add64513c3a` · printing: WHO #121 (2023-10-13) · [rulings](https://api.scryfall.com/cards/9767f42c-df04-4426-929a-87e51aa2b8a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-10-13* — As the last chapter ability resolves, you may choose to exile all other creatures even if you didn't choose any Doctors. In that case, all creatures are exiled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/121/the-day-of-the-doctor) · oracle_id `c2ee17b2-6119-4ade-b806-1add64513c3a` · printing: WHO #121 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Death of Gwen Stacy
 
@@ -148,6 +151,7 @@
 - **Oracle text:**
   > Spells you control that target a creature you control cost {2} less to cast.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thp3/8/the-destined) · oracle_id `c8616b26-b627-488d-a7ba-8cb555f0a59b` · printing: THP3 #8 (2014-05-02) · [rulings](https://api.scryfall.com/cards/80c9f81c-a6d7-4ffd-b2c8-01ef025b272f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Destined Black Mage
@@ -178,7 +182,13 @@
   > {U}, {T}: Another target creature you control can't be blocked this turn.
   > Whenever one or more creatures you control deal combat damage to one or more players, draw a card, then discard a card. If you have a full party, instead draw three cards.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11697 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/446/the-destined-thief) · oracle_id `7857c7b6-9676-47ac-bb28-d0b4cbda5fa7` · printing: FIC #446 (2025-12-05) · [rulings](https://api.scryfall.com/cards/de95250d-294d-4a0e-8049-e0a877078e2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — If a creature has more than one party creature type, and there are multiple ways to count that creature that could result in a different number of creatures in your party, the highest such number is used. For example, if you control a Cleric and a Cleric Wizard, the number of creatures in your party is two. You can't choose to have it be just one by counting the Cleric Wizard first as a Cleric.
+  - *2025-10-02* — If you have a full party, you won't discard at all when The Destined Thief's last ability resolves.
+  - *2025-10-02* — Once a creature you control has been blocked, activating The Destined Thief's second ability targeting that creature won't cause it to become unblocked.
+  - *2025-10-02* — Some cards refer to you having a "full party." This is true if the number of creatures in your party is four.
+  - *2025-10-02* — To determine "the number of creatures in your party," check whether you control a Cleric, whether you control a Rogue, whether you control a Warrior, and whether you control a Wizard. The number is the total number of those checks to which you answered yes. Each creature you control can be counted for only one of those checks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/446/the-destined-thief) · oracle_id `7857c7b6-9676-47ac-bb28-d0b4cbda5fa7` · printing: FIC #446 (2025-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Destined Warrior
 
@@ -191,7 +201,14 @@
   > At the beginning of combat on your turn, creatures you control get +1/+0 until end of turn. If you have a full party, creatures you control get +3/+0 until end of turn instead.
 - **Keywords:** Vigilance, First strike, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12965 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/443/the-destined-warrior) · oracle_id `393a5d32-fc8e-422b-a957-59e545a54cb6` · printing: FIC #443 (2025-12-05) · [rulings](https://api.scryfall.com/cards/743ee254-07f1-4d13-9ec7-6cb6358b9303/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-10-02* — If a creature has more than one party creature type, and there are multiple ways to count that creature that could result in a different number of creatures in your party, the highest such number is used. For example, if you control a Cleric and a Cleric Wizard, the number of creatures in your party is two. You can't choose to have it be just one by counting the Cleric Wizard first as a Cleric.
+  - *2025-10-02* — Some cards refer to you having a "full party." This is true if the number of creatures in your party is four.
+  - *2025-10-02* — The cost reduction applies only once to any spell you cast that's a Cleric, Rogue, Warrior, or Wizard. A spell with more than one of these subtypes will still have its cost reduced by just {1}.
+  - *2025-10-02* — The cost reduction applies only to generic mana in the total cost of Cleric, Rogue, Warrior, and Wizard spells you cast.
+  - *2025-10-02* — To determine "the number of creatures in your party," check whether you control a Cleric, whether you control a Rogue, whether you control a Warrior, and whether you control a Wizard. The number is the total number of those checks to which you answered yes. Each creature you control can be counted for only one of those checks.
+  - *2025-10-02* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a flashback cost), add any cost increases (such as kicker costs), then apply any cost reductions (such as that of The Destined Warrior's fourth ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/443/the-destined-warrior) · oracle_id `393a5d32-fc8e-422b-a957-59e545a54cb6` · printing: FIC #443 (2025-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Destined White Mage
 
@@ -226,6 +243,7 @@
   > Partner (You can have two commanders if both have partner.)
 - **Keywords:** Partner, Horsemanship
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG03d/the-dilu-horse) · oracle_id `d8fb309d-e3c9-4d51-8596-baae80b130a1` · printing: UNK #RG03d (2023-07-29) · [rulings](https://api.scryfall.com/cards/f1caaf2d-b0f1-4733-8dc5-2540af3a809e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Disciple of Nissa
@@ -236,6 +254,7 @@
 - **Oracle text:**
   > Whenever the Disciple of Nissa attacks, you may pay {X}{X}{X}{G}{G}. When you do, create X tokens that are copies of different Nissa planeswalkers chosen at random. They each enter with an additional loyalty counter. (There are currently eleven. Yes, Nissa, Sage Animist counts. Perhaps look up the list and roll a D20?)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG01b/the-disciple-of-nissa) · oracle_id `848f9062-298d-4faf-84aa-702474e0c549` · printing: UNK #RG01b (2024-06-29) · [rulings](https://api.scryfall.com/cards/d5226a9b-14bd-4b34-8abb-67ac59e7a017/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Disciple of Vess
@@ -249,6 +268,7 @@
 - **Flavor text** (UNK printing):
   > *PERSON*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB54/the-disciple-of-vess) · oracle_id `85b2dcd3-a364-4da2-a46d-f2c6c268b48f` · printing: UNK #RB54 (2024-02-24) · [rulings](https://api.scryfall.com/cards/0e83124c-6b96-4c44-a054-c91d9b86310e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Dogronmaster
@@ -263,6 +283,7 @@
   > *OR*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ24/the-dogronmaster) · oracle_id `0631a529-4af6-47a4-b913-efbe6b2aadfd` · printing: UNK #RZ24 (2024-02-24) · [rulings](https://api.scryfall.com/cards/e1c87a1b-cb0f-4235-b597-8efd0ce50c5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Dominion Bracelet
@@ -274,7 +295,19 @@
   > Equip {1}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10008 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/239/the-dominion-bracelet) · oracle_id `c017f8ae-9103-4965-a07a-f259f44a157d` · printing: EOE #239 (2025-08-01) · [rulings](https://api.scryfall.com/cards/f5360880-2849-45d6-b1aa-08c7e01083af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2025-07-25* — If the targeted player skips their next turn, you’ll control the next turn the affected player actually takes.
+  - *2025-07-25* — Multiple player-controlling effects that affect the same player overwrite each other. The last one to be created is the one that works.
+  - *2025-07-25* — The cost of the activated ability granted by The Dominion Bracelet is locked in before costs are paid. For example, if the power of the equipped creature is 3 (including the +1/+1 granted by The Dominion Bracelet’s ability), the granted ability will cost {12} to activate.
+  - *2025-07-25* — The player you’re controlling is still the active player during that turn.
+  - *2025-07-25* — While controlling another player, you also continue to make your own choices and decisions.
+  - *2025-07-25* — While controlling another player, you make all choices and decisions that player is allowed to make or is told to make during that turn. This includes choices about what spells to cast or what abilities to activate, as well as any decisions called for by triggered abilities or for any other reason.
+  - *2025-07-25* — You also can’t make any choices or decisions for the player that would be called for by the tournament rules (such as whether to take an intentional draw or whether to call a judge).
+  - *2025-07-25* — You can use only the affected player’s resources (cards, mana, and so on) to pay costs for that player; you can’t use your own. Similarly, you can use the affected player’s resources only to pay that player’s costs; you can’t spend them on your costs.
+  - *2025-07-25* — You can’t make any illegal decisions or illegal choices—you can’t do anything that player couldn’t do. You can’t make choices or decisions for that player that aren’t called for by the game rules or by any cards, permanents, spells, abilities, and so on. If an effect causes another player to make decisions that the affected player would normally make (such as Master Warcraft does), that effect takes precedence. In other words, if the affected player wouldn’t make a decision, you wouldn’t make that decision on that player’s behalf.
+  - *2025-07-25* — You can’t make the affected player concede. That player may choose to concede at any time, even while you’re controlling that player.
+  - *2025-07-25* — You only control the player. You don’t control any of that player’s permanents, spells, or abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/239/the-dominion-bracelet) · oracle_id `c017f8ae-9103-4965-a07a-f259f44a157d` · printing: EOE #239 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Dragon-Kami Reborn // Dragon-Kami's Egg
 
@@ -288,7 +321,16 @@
   > Whenever this creature or a Dragon you control dies, you may cast a creature spell from among cards you own in exile with hatching counters on them without paying its mana cost.
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16851 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/181/the-dragon-kami-reborn-dragon-kamis-egg) · oracle_id `c3a46eb3-38d9-4f47-9b71-26c9ea7ef1ce` · printing: NEO #181 (2022-02-18) · [rulings](https://api.scryfall.com/cards/2534caaa-a793-415f-977f-1d0fac3642ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2022-02-18* — A transforming double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or you cast it transformed, in which case it enters with its back face up.
+  - *2022-02-18* — Each face of a transforming double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a transforming double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2022-02-18* — Each transforming double-faced card in this set is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2022-02-18* — If Dragon-Kami's Egg and one or more Dragons you control die at the same time, the ability of Dragon-Kami's Egg will trigger once for each of them. Each time one of those abilities resolves, you'll be able to cast a creature spell from among cards you own in exile with hatchling counters on them.
+  - *2022-02-18* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter the battlefield at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Azusa's Many Journeys, the chapter III ability will cause it to be exiled and then remain in exile.
+  - *2022-02-18* — The back face of a transforming double-faced card usually has a color indicator that defines its color.
+  - *2022-02-18* — The mana value of a transforming double-faced card is the mana value of its front face, no matter which face is up.
+  - *2022-02-18* — You may look at the cards you exile with The Dragon-Kami Reborn's first two chapter abilities, and you may continue to do so after it has left the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/181/the-dragon-kami-reborn-dragon-kamis-egg) · oracle_id `c3a46eb3-38d9-4f47-9b71-26c9ea7ef1ce` · printing: NEO #181 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Dross Pits
 
@@ -315,6 +357,7 @@
 - **Flavor text** (UNK printing):
   > *LETTER*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ34/the-duke-of-midrange) · oracle_id `98d7a603-e9df-47fc-921c-974e29c5af8b` · printing: UNK #RZ34 (2024-02-24) · [rulings](https://api.scryfall.com/cards/ace5388e-c0b7-483b-a888-d6fe1bc10034/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Duke, Rebel Sentry
@@ -328,4 +371,5 @@
 - **Flavor text** (TLE printing):
   > *A royal pain in the Fire Nation's backside.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11849 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/76/the-duke-rebel-sentry) · oracle_id `1c55047d-badc-49bb-b791-e9759577e4eb` · printing: TLE #76 (2025-11-21) · [rulings](https://api.scryfall.com/cards/cd9d91a8-7315-4355-af99-941f3cf7398c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

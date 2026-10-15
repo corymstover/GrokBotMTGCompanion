@@ -43,7 +43,12 @@
   > *—Herzag, mayor of Havengul*
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24610 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/67/gone-missing) · oracle_id `a31a66ee-5ddf-4d70-9ae9-725fc7327706` · printing: SOI #67 (2016-04-08) · [rulings](https://api.scryfall.com/cards/e88ae6bf-9c58-4543-ba66-19ea41d01e9b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-04-08* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2016-04-08* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2016-04-08* — You can't cast a spell without choosing legal targets. If all of those targets become illegal, the spell doesn't resolve and you won't investigate.
+  - *2016-04-08* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/67/gone-missing) · oracle_id `a31a66ee-5ddf-4d70-9ae9-725fc7327706` · printing: SOI #67 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gongaga, Reactor Town
 
@@ -69,7 +74,10 @@
   > • Exile target creature you control, then return it to the battlefield under its owner's control.
   > • Go Ninja Go deals damage equal to the greatest power among creatures you control to target creature an opponent controls.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16872 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/149/go-ninja-go) · oracle_id `46f77c8c-6817-4aea-a80a-d91f508ccbd0` · printing: TMT #149 (2026-03-06) · [rulings](https://api.scryfall.com/cards/90e68cd8-ea76-4bd1-9199-474da9c3e8bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-01-27* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2026-01-27* — Once the exiled creature returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled creature will be put into their owners' graveyards. Equipment attached to the exiled creature will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/149/go-ninja-go) · oracle_id `46f77c8c-6817-4aea-a80a-d91f508ccbd0` · printing: TMT #149 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gonti, Canny Acquisitor
 
@@ -152,7 +160,20 @@
 - **Flavor text** (AER printing):
   > *"I am confident that all our enterprises can benefit from this little revolution."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15917 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/63/gontis-machinations) · oracle_id `4e6238d8-bd6a-4952-a7dd-9c41a78a2cba` · printing: AER #63 (2017-01-20) · [rulings](https://api.scryfall.com/cards/6c97f5a9-6e04-45c3-aa8d-dcf0fd81d5b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2017-02-09* — In a Two-Headed Giant game, Gonti's Machinations's second ability causes the opposing team to lose a total of 6 life.
+  - *2017-02-09* — In a Two-Headed Giant game, damage and life loss happen to individual players, and the result affects the team's life total. Combat damage is assigned and dealt to specific players. If your teammate is dealt damage or otherwise loses life, Gonti's Machinations doesn't trigger, even though your life total went down.
+  - *2017-02-09* — The triggered ability gives you at most one energy counter each turn, regardless of how much life you lost.
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/63/gontis-machinations) · oracle_id `4e6238d8-bd6a-4952-a7dd-9c41a78a2cba` · printing: AER #63 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Go Nuts!
 
@@ -165,4 +186,5 @@
   > • Target creature you control fights target creature an opponent controls.
 - **Keywords:** Fight, Teamwork
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14057 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/168/go-nuts!) · oracle_id `0efe1357-bfbb-42c0-9cc9-6a919d686c66` · printing: MSH #168 (2026-06-26) · [rulings](https://api.scryfall.com/cards/152a7b5b-2d95-45d3-8fd9-0ca1d5a79f8b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

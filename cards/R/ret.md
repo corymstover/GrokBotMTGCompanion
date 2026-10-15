@@ -66,6 +66,7 @@
 - **Flavor text** (5DN printing):
   > *The Auriok learned perseverance from their forebears. They learned justice from the leonin.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24039 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/13/retaliate) · oracle_id `37f5d022-2989-4b44-9bca-dc6b606afe10` · printing: 5DN #13 (2004-06-04) · [rulings](https://api.scryfall.com/cards/58acdda6-6754-46f2-ad68-f1580b8ab0dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retaliation
@@ -77,6 +78,7 @@
 - **Flavor text** (USG printing):
   > *A foul, metallic stench clogged Urza's senses. It was then he knew his brother was no more.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24697 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/272/retaliation) · oracle_id `51571fa8-fd52-4439-8331-4eb4f651e764` · printing: USG #272 (1998-10-12) · [rulings](https://api.scryfall.com/cards/7a6e3814-5b9f-40da-8205-263fc49294da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retaliator Griffin
@@ -91,7 +93,13 @@
   > *For every eye, an eye. For every tooth, a tooth. Griffins are nothing if not fair.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22481 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/arb/123/retaliator-griffin) · oracle_id `dd4b9e5a-b3ab-4b70-b200-228c8add9f52` · printing: ARB #123 (2009-04-30) · [rulings](https://api.scryfall.com/cards/289adeb9-952d-437e-aa66-358a780dc083/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2009-05-01* — If Retaliator Griffin is dealt lethal damage at the same time that you’re dealt damage by a source an opponent controls, Retaliator Griffin will be put into a graveyard before it would receive any counters. Its ability will still trigger, but it will do nothing when it resolves.
+  - *2009-05-01* — If a spell causes damage to be dealt, that spell will always identify the source of the damage. In most cases, the source is the spell itself. For example, Breath of Malfegor says “Breath of Malfegor deals 5 damage to each opponent.”
+  - *2009-05-01* — If an ability causes damage to be dealt, that ability will always identify the source of the damage. The ability itself is never the source. However, the source of the ability is often the source of the damage. For example, Deathbringer Thoctar’s ability says “Deathbringer Thoctar deals 1 damage to any target.”
+  - *2009-05-01* — If the source of the damage is a permanent, Retaliator Griffin checks whether an opponent controls that permanent at the time that damage is dealt. If the permanent has left the battlefield by then, its last known information is used. If the source of the damage is a spell, whether it’s controlled by an opponent is obvious. If the source of the damage is a card in some other zone (such as a cycled Jund Sojourners), Retaliator Griffin checks whether the card’s owner, rather than its controller, is an opponent.
+  - *2009-05-01* — The source of combat damage is the creature that dealt it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/arb/123/retaliator-griffin) · oracle_id `dd4b9e5a-b3ab-4b70-b200-228c8add9f52` · printing: ARB #123 (2009-04-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retched Wretch
 
@@ -103,7 +111,9 @@
 - **Flavor text** (ECL printing):
   > *"Told ya I taste terrible!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21491 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/117/retched-wretch) · oracle_id `0d3b6e27-2f8b-42e0-9490-7b134e84bb6b` · printing: ECL #117 (2026-01-23) · [rulings](https://api.scryfall.com/cards/c7a4d7f1-976a-4a28-97a9-ff089a241c9d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-11-17* — The effect of Retched Wretch's last ability that causes it to lose all abilities lasts indefinitely. It doesn't expire during the cleanup step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/117/retched-wretch) · oracle_id `0d3b6e27-2f8b-42e0-9490-7b134e84bb6b` · printing: ECL #117 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retether
 
@@ -128,7 +138,9 @@
 - **Flavor text** (PCY printing):
   > *"Are you \*sure\* you want to do that?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23329 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/42/rethink) · oracle_id `ede61683-fa78-4103-8248-e0e64162ed49` · printing: PCY #42 (2000-06-05) · [rulings](https://api.scryfall.com/cards/915ae03f-22f3-4ecc-a875-5226d8dec384/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The spell’s controller gets the option to pay when this spell resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/42/rethink) · oracle_id `ede61683-fa78-4103-8248-e0e64162ed49` · printing: PCY #42 (2000-06-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retraced Image
 
@@ -139,6 +151,7 @@
 - **Flavor text** (TOR printing):
   > *An army from a soldier, a flock from a bird, a school from a fish . . . a profit from an atrocity.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10976 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/46/retraced-image) · oracle_id `a97f2f2a-5a8c-4f8a-99d1-83ebc4b0bdba` · printing: TOR #46 (2002-02-04) · [rulings](https://api.scryfall.com/cards/c62fa778-ce44-4a3e-958a-91dfe5398944/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retract
@@ -151,6 +164,7 @@
   > *"Secrets are meant to remain secret."*
   > *—Memnarch*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13213 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dst/32/retract) · oracle_id `31cefc9d-cc13-4b32-a1f8-edbcaf35aa3b` · printing: DST #32 (2004-02-06) · [rulings](https://api.scryfall.com/cards/4e09a443-0a00-458a-b351-8cb188e9218c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retraction Helix
@@ -239,7 +253,11 @@
   > • Target creature can't block this turn.
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16140 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/153/retreat-to-valakut) · oracle_id `91108ed7-5b24-4b51-b01d-85005998c69d` · printing: BFZ #153 (2015-10-02) · [rulings](https://api.scryfall.com/cards/f7a9ce97-ef6d-468c-b389-8d19c76174c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/153/retreat-to-valakut) · oracle_id `91108ed7-5b24-4b51-b01d-85005998c69d` · printing: BFZ #153 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retribution
 
@@ -248,7 +266,9 @@
 - **Oracle text:**
   > Choose two target creatures controlled by the same opponent. That player chooses and sacrifices one of those creatures. Put a -1/-1 counter on the other.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28760 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me2/148/retribution) · oracle_id `2c7b0034-7eb5-4950-b6dc-8e1d07d26899` · printing: ME2 #148 (2008-09-22) · [rulings](https://api.scryfall.com/cards/55bacf5b-70d4-45bc-a7e2-44492fa182bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — The player chooses which one to sacrifice as Retribution resolves. If only one of the targets is still legal at that time, then the player must choose that one to sacrifice.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me2/148/retribution) · oracle_id `2c7b0034-7eb5-4950-b6dc-8e1d07d26899` · printing: ME2 #148 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retribution of the Ancients
 
@@ -273,6 +293,7 @@
   > *"Tread upon the meek, and they shall wound your feet and make you crawl."*
   > *—Asmira, Holy Avenger*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12751 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vis/19/retribution-of-the-meek) · oracle_id `61f2083b-3018-43a4-8852-8e6d2a97d5d6` · printing: VIS #19 (1997-02-03) · [rulings](https://api.scryfall.com/cards/860b8633-1bfc-426a-8666-5e6a584d4525/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retributive Wand
@@ -286,7 +307,9 @@
   > *"The last blast is the biggest."*
   > *—Sargis Haz, artificer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23528 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/236/retributive-wand) · oracle_id `b550a94d-3a92-416e-b651-510cdbdd05f1` · printing: M20 #236 (2019-07-12) · [rulings](https://api.scryfall.com/cards/5521cb92-03b0-44ab-a141-40dc0eb5a79f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-07-12* — Retributive Wand's last ability doesn't allow you to sacrifice it whenever you wish. You'll need to use another spell or ability to break it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/236/retributive-wand) · oracle_id `b550a94d-3a92-416e-b651-510cdbdd05f1` · printing: M20 #236 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retrieval Agent
 
@@ -298,6 +321,7 @@
 - **Flavor text** (BRO printing):
   > *The humming tome burned his leather glove, nearly taking his hand along with it. Then a strange power coursed through him.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31623 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/60/retrieval-agent) · oracle_id `2a6a1e58-85a9-436e-b1a0-373baa44d6f2` · printing: BRO #60 (2022-11-18) · [rulings](https://api.scryfall.com/cards/f333a7b1-936e-42f3-ba22-2c76dd2f1c9a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retrieve
@@ -309,6 +333,7 @@
 - **Flavor text** (VOW printing):
   > *The roots preserved the armor for a hundred years, safeguarding it for a traveler in need.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15901 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/215/retrieve) · oracle_id `157a4cba-b2e6-4c42-b7dc-62db19625c9c` · printing: VOW #215 (2021-11-19) · [rulings](https://api.scryfall.com/cards/9e997f78-22a2-4b66-ac10-1adc9a72ce3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retriever Phoenix
@@ -322,7 +347,14 @@
   > As long as this card is in your graveyard, if you would learn, you may instead return this card to the battlefield.
 - **Keywords:** Flying, Haste, Learn
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26203 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/113/retriever-phoenix) · oracle_id `279e573d-b7a3-4e62-a708-3ec992d97972` · printing: STX #113 (2021-04-23) · [rulings](https://api.scryfall.com/cards/4dd6cb53-3c82-4ac3-be1e-311322729198/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-04-16* — If Retriever Phoenix somehow dies with its triggered ability on the stack, you may return it to the battlefield with that triggered ability.
+  - *2021-04-16* — If a card is brought into the game from outside the game, it will stay in the game until it ends or until its owner leaves the game, whichever comes first.
+  - *2021-04-16* — If instructed to learn, you may do nothing. Discarding a card and putting a Lesson card into your hand are both optional.
+  - *2021-04-16* — If you bring a card into the game from outside the game in a Constructed tournament (or a Constructed game played under tournament conditions), you may select only a card from your sideboard. In casual Constructed games, the card comes from your collection.
+  - *2021-04-16* — If you bring a card into the game from outside the game in a Sealed Deck or Booster Draft event, you may select only a card that is in the card pool that you built your deck from.
+  - *2021-04-16* — Retriever Phoenix must be in your graveyard at the moment you're instructed to learn if you want to use the last ability to return it to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/113/retriever-phoenix) · oracle_id `279e573d-b7a3-4e62-a708-3ec992d97972` · printing: STX #113 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retrieve the Esper
 
@@ -333,7 +365,14 @@
   > Flashback {5}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16947 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/68/retrieve-the-esper) · oracle_id `9d6fdbd4-ba51-4df1-b383-9b709b36a8d7` · printing: FIN #68 (2025-06-13) · [rulings](https://api.scryfall.com/cards/ebd733f0-8883-434a-b36c-ef76b091fe8e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/68/retrieve-the-esper) · oracle_id `9d6fdbd4-ba51-4df1-b383-9b709b36a8d7` · printing: FIN #68 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retrofitted Transmogrant
 
@@ -346,6 +385,7 @@
   > *"Repair it again! I need reinforcements by tomorrow."*
   > *—Ashnod*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11733 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/106/retrofitted-transmogrant) · oracle_id `058dae67-807e-4542-ae51-f2b1216ffaed` · printing: MH3 #106 (2024-06-14) · [rulings](https://api.scryfall.com/cards/12c1b83d-710b-4680-855a-02ba1f72abf0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retrofitter Foundry
@@ -371,6 +411,7 @@
 - **Flavor text** (USG printing):
   > *"If one harm us, strike them in return. So sayeth the bey."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31255 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/209/retromancer) · oracle_id `2c34949d-0765-455d-9ef4-81bc162b48d9` · printing: USG #209 (1998-10-12) · [rulings](https://api.scryfall.com/cards/e9fbf63d-7106-47d5-97c3-4596d8239925/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retro-Mutation
@@ -383,7 +424,10 @@
   > Enchanted creature is a Turtle with base power and toughness 0/1. It can't attack and loses all abilities. (It also loses all other creature types.)
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15504 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/51/retro-mutation) · oracle_id `d8b5de6d-8654-4550-bccb-79de6cbef4d5` · printing: TMT #51 (2026-03-06) · [rulings](https://api.scryfall.com/cards/4af284ba-fa54-43c5-8c76-3e1128957452/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-01-27* — Effects that modify the creature's power and/or toughness, such as the effect of Karai's Technique, will apply to the creature no matter when they started to take effect. The same is true for counters that change its power and/or toughness and effects that switch its power and toughness.
+  - *2026-01-27* — Retro-Mutation overwrites all previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply afterward will overwrite this effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/51/retro-mutation) · oracle_id `d8b5de6d-8654-4550-bccb-79de6cbef4d5` · printing: TMT #51 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retto, Family Racer
 
@@ -394,6 +438,7 @@
   > Before the game begins, if this is your commander or in your deck, secretly write down the names of five creature cards to be part of your family.
   > As members of your family enters, you may say "Nothing is stronger than family" and reveal its name from your list. That creature enters with two +1/+1 counters on it.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG02/retto-family-racer) · oracle_id `2bdf4c31-fbcc-4523-8ae3-b17cf6b64ce3` · printing: UNK #RG02 (2025-02-21) · [rulings](https://api.scryfall.com/cards/56f28cc7-3cec-4f2e-9a27-d7c349b27f7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Returned Centaur
@@ -407,6 +452,7 @@
   > *Driven away by his living kin, he wanders mourning through the wilderness, seeking the dead city of Asphodel.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21597 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/116/returned-centaur) · oracle_id `223c97fb-dc96-41ba-be9d-bad9b5e4876f` · printing: ORI #116 (2015-07-17) · [rulings](https://api.scryfall.com/cards/103b369c-da58-40e7-98aa-5a5471434bca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Returned Pastcaller
@@ -421,6 +467,7 @@
   > *Lorehold spirit statues are not forbidden from raising statues of their own.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22563 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/224/returned-pastcaller) · oracle_id `58b9f933-7b13-4335-996c-4722ab9e08b2` · printing: STX #224 (2021-04-23) · [rulings](https://api.scryfall.com/cards/7aa0e762-0fec-4f6b-b3d7-ad8295bf557d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Returned Phalanx
@@ -435,6 +482,7 @@
   > *They lived in different nations and fought in different eras, but as the Returned, they link arms as one.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29381 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/106/returned-phalanx) · oracle_id `f8d64a8e-1bff-4960-bc36-1fbb4fc18c8f` · printing: A25 #106 (2018-03-16) · [rulings](https://api.scryfall.com/cards/aeaa1dc6-b2e7-457b-9ad4-d024f21e8888/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Returned Reveler
@@ -448,6 +496,7 @@
   > *The flesh is dead and the life forgotten, but old habits persist.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17997 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/79/returned-reveler) · oracle_id `f90df69a-d53f-44b1-833a-5223d2e6c296` · printing: JOU #79 (2014-05-02) · [rulings](https://api.scryfall.com/cards/9ea61098-2c6a-48d2-b99f-f3065c67d8e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Return from Extinction
@@ -461,7 +510,10 @@
 - **Flavor text** (MH1 printing):
   > *The First Sliver calls. The dead answer.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11914 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/104/return-from-extinction) · oracle_id `3937a96c-3be1-465d-98b6-1db67d2215e6` · printing: MH1 #104 (2019-06-14) · [rulings](https://api.scryfall.com/cards/c6db664e-f0c4-4e60-add7-89b9f210cbc7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-06-14* — If you choose the second mode and one of the two cards leaves your graveyard, you’ll still return the other card to your hand as long as it has a creature type that the other card had as it left your graveyard.
+  - *2019-06-14* — If you choose the second mode, the cards must share at least one creature type, such as Sliver or Warrior. Card types such as artifact, and supertypes such as legendary or snow, aren’t creature types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/104/return-from-extinction) · oracle_id `3937a96c-3be1-465d-98b6-1db67d2215e6` · printing: MH1 #104 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Return from the Wilds
 
@@ -489,6 +541,7 @@
   > {5}{G}, Sacrifice this enchantment: Create X 1/1 green Minion creature tokens named Moloid, where X is the number of permanent cards in your graveyard. The tokens have "Whenever this token attacks, you may mill a card." Activate only as a sorcery.
 - **Keywords:** Mill, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17574 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/729/return-of-the-mole-man) · oracle_id `a38f7ce1-6ccc-4fd3-9e02-631e8933c1f8` · printing: MSC #729 (2026-06-26) · [rulings](https://api.scryfall.com/cards/fe75cfa6-614a-43f7-9088-ec8ab00a8738/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Return of the Nightstalkers
@@ -498,6 +551,7 @@
 - **Oracle text:**
   > Return all Nightstalker permanent cards from your graveyard to the battlefield. Then destroy all Swamps you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32000 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/p02/88/return-of-the-nightstalkers) · oracle_id `6082f66e-3641-4b09-bb04-86bf29ee1c6f` · printing: P02 #88 (1998-06-24) · [rulings](https://api.scryfall.com/cards/e85d85c2-9f34-4375-adcd-a1c5b487cacc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Return of the Wildspeaker
@@ -596,6 +650,7 @@
 - **Flavor text** (PTK printing):
   > *"Swallowing his eye, the valiant Xiahou Dun fought on; / But Cao Cao's vanguard, its commander wounded, could not hold out for long."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27132 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/81/return-to-battle) · oracle_id `cf6676b7-b40a-46bd-b166-bd3cbb49d80d` · printing: PTK #81 (1999-05-01) · [rulings](https://api.scryfall.com/cards/1841e615-fdcd-4187-bd69-d07abde0e1ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Return to Dust
@@ -638,6 +693,7 @@
   > *"Dragons are feared for their breath and their bite, but it is their wings that make them unconquerable. Bring them to earth, and they die like any other beast."*
   > *—Kassur, Sultai hunter*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22796 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/210/return-to-the-earth) · oracle_id `722f2965-a1ec-4b97-a4bd-b99364f58b1e` · printing: BBD #210 (2018-06-08) · [rulings](https://api.scryfall.com/cards/0e7a0409-02f1-43c2-b4f1-e7ce7f371789/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Return to the Light Realms
@@ -650,6 +706,7 @@
   > *"For every living person there are generations of souls reaching out to be remembered."*
   > *—Liliana the Faultless*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12710 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/20/return-to-the-light-realms) · oracle_id `217e76ca-ea94-417c-b5b0-82e2302eeee8` · printing: FRA #20 (2026-10-02) · [rulings](https://api.scryfall.com/cards/9e72f397-2384-40f1-882b-f627664d97df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Return to the Ranks
@@ -661,7 +718,15 @@
   > Return X target creature cards with mana value 2 or less from your graveyard to the battlefield.
 - **Keywords:** Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10839 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m15/29/return-to-the-ranks) · oracle_id `0d4ee553-f206-4e70-a7b2-a3670440aee7` · printing: M15 #29 (2014-07-18) · [rulings](https://api.scryfall.com/cards/9fccce64-abac-4b90-bbe5-dbba8434b3b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Chord of Calling (a spell with convoke and mana cost {X}{G}{G}{G}) and choose X to be 3, the total cost is {3}{G}{G}{G}. If you tap two green creatures and two red creatures, you'll have to pay {1}{G}.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m15/29/return-to-the-ranks) · oracle_id `0d4ee553-f206-4e70-a7b2-a3670440aee7` · printing: M15 #29 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Return to the Sewers
 
@@ -673,7 +738,10 @@
   > *"We strike hard and fade away into the night."*
   > *—Leonardo*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21342 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/52/return-to-the-sewers) · oracle_id `a3ee8565-f34c-4073-bc94-3fe9ec6bbe8a` · printing: TMT #52 (2026-03-06) · [rulings](https://api.scryfall.com/cards/52e99505-17dc-4051-99f6-e23559fc6c95/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-01-27* — Mutagen tokens are a kind of predefined token. Each one is a colorless artifact with the artifact subtype Mutagen and the ability "{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."
+  - *2026-01-27* — Some spells and abilities that create Mutagen tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Mutagen token won't be created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/52/return-to-the-sewers) · oracle_id `a3ee8565-f34c-4073-bc94-3fe9ec6bbe8a` · printing: TMT #52 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Return Triumphant
 
@@ -683,7 +751,16 @@
   > Return target creature card with mana value 3 or less from your graveyard to the battlefield. Create a Young Hero Role token attached to it. (Enchanted creature has "Whenever this creature attacks, if its toughness is 3 or less, put a +1/+1 counter on it." If you put another Role on the creature later, put this one into the graveyard.)
 - **Keywords:** Role token
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14277 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/26/return-triumphant) · oracle_id `a4814615-ffa2-4692-86bc-3a1b7fc2acc8` · printing: WOE #26 (2023-09-08) · [rulings](https://api.scryfall.com/cards/f5209c13-9591-48eb-8d6c-112b3bdd429a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-09-01* — A permanent can have multiple Roles attached to it if each one is controlled by a different player.
+  - *2023-09-01* — Cards in the Wilds of Eldraine main set create six different Role tokens: Cursed, Monster, Royal, Sorcerer, Wicked, and Young Hero. A seventh Role token, Virtuous, is created by Ellivere of the Wild Court, the commander of the “Virtue and Valor” Commander Deck.
+  - *2023-09-01* — Hexproof and shroud won’t prevent a Role from becoming attached to a permanent if the ability creating that Role attached to that permanent doesn’t target it.
+  - *2023-09-01* — If a permanent has more than one Role attached to it controlled by the same player, each of those Roles except the one with the most recent timestamp is put into its owner’s graveyard. This is a state-based action.
+  - *2023-09-01* — If two or more Roles controlled by the same player become attached to a permanent at the same time (perhaps due to an effect such as that of Doubling Season), that player chooses which one to keep and which are put into their owners’ graveyards.
+  - *2023-09-01* — In rare cases, a spell or ability might attempt to create a Role token enchanting a permanent that it can’t legally enchant (because of an ability like protection from enchantments). In such cases, the Role token isn’t created.
+  - *2023-09-01* — Roles are colorless enchantment tokens. Each one has the Aura and Role subtypes and the enchant creature ability.
+  - *2023-09-01* — Some spells and abilities that create Role tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won’t resolve. The Role token won’t be created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/26/return-triumphant) · oracle_id `a4814615-ffa2-4692-86bc-3a1b7fc2acc8` · printing: WOE #26 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Return Upon the Tide
 
@@ -694,4 +771,10 @@
   > Foretell {3}{B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 - **Keywords:** Foretell
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11374 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/106/return-upon-the-tide) · oracle_id `b0bd6135-4257-4f71-bdfe-71fb3f7a36a5` · printing: KHM #106 (2021-02-05) · [rulings](https://api.scryfall.com/cards/470601b0-9598-487f-bb14-4bfec7ca6d61/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-02-05* — Because exiling a card with foretell from your hand is a special action, you can do so any time you have priority during your turn, including in response to spells and abilities. Once you announce you’re taking the action, no other player can respond by trying to remove the card from your hand.
+  - *2021-02-05* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player’s turn. In most cases, if you foretell a card that isn’t an instant (or doesn’t have flash), you’ll have to wait until your next turn to cast it.
+  - *2021-02-05* — If you’re casting a foretold card from exile for its foretell cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+  - *2021-02-05* — Players can’t take any actions in between the card returning to the battlefield and Elf Warrior tokens being created.
+  - *2021-02-05* — You check if the creature is an Elf once it’s on the battlefield. You’ll create tokens if it is, even if the card in the graveyard wasn’t an Elf card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/106/return-upon-the-tide) · oracle_id `b0bd6135-4257-4f71-bdfe-71fb3f7a36a5` · printing: KHM #106 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

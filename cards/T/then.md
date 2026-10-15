@@ -23,6 +23,7 @@
 - **Oracle text:**
   > Create X 6/6 green Dinosaur creature tokens with trample named Colossal Dreadmaw.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG08/then-dreadmaws-ate-everyone) · oracle_id `82f1e02b-7a1a-4771-b435-e00214a73e07` · printing: UNK #RG08 (2023-02-17) · [rulings](https://api.scryfall.com/cards/eb41631e-3545-4dc3-861e-1dbe3d82898b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Necrobloom
@@ -59,7 +60,12 @@
   > Whenever The Neutrinos attack, exile up to one target creature you own, then return it to the battlefield under your control tapped and attacking.
 - **Keywords:** Flying, Alliance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18521 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/160/the-neutrinos) · oracle_id `b1462c82-7702-451b-b612-990353a79ac4` · printing: TMT #160 (2026-03-06) · [rulings](https://api.scryfall.com/cards/1308dadc-08a9-40bd-98a4-fb66d792e27d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2026-01-27* — Although the creature you put onto the battlefield is attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when that creature enters attacking. (Any abilities that triggered before The Neutrinos exiled the creature are unaffected, and the source of those abilities is that creature as it last existed on the battlefield, not the creature that's attacking now.)
+  - *2026-01-27* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2026-01-27* — Once a creature exiled this way returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled creature will be put into their owners' graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+  - *2026-01-27* — You choose the player, planeswalker, or battle the returned creature is attacking. It doesn't need to be the same player, planeswalker, or battle that The Neutrinos or any other attacking creatures are attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/160/the-neutrinos) · oracle_id `b1462c82-7702-451b-b612-990353a79ac4` · printing: TMT #160 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Night of the Doctor
 
@@ -101,7 +107,10 @@
 - **Flavor text** (PIP printing):
   > *Oliver Swanick won the only lottery that matters: a chance to live another day.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11339 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/113/the-nipton-lottery) · oracle_id `8af798a9-2198-4f39-aa6d-5420a0f1203c` · printing: PIP #113 (2024-03-08) · [rulings](https://api.scryfall.com/cards/a0abd847-1c9d-45cd-a6d1-3a0cda3687cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-03-08* — Players can’t take actions between the time the creature is randomly chosen and the time at which the rest of the effects occur.
+  - *2024-03-08* — The creature chosen at random isn’t targeted, so a creature with shroud or an opponent’s creature with hexproof can be chosen this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/113/the-nipton-lottery) · oracle_id `8af798a9-2198-4f39-aa6d-5420a0f1203c` · printing: PIP #113 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Notary Hobbits
 
@@ -114,4 +123,5 @@
 - **Flavor text** (HOB printing):
   > *Since Bilbo was presumed dead, his belongings were auctioned by three of the town's best lawyers: Messrs. Grubb, Grubb, and Burrowes.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10439 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/131/the-notary-hobbits) · oracle_id `dc20b29b-856e-4d45-99cd-5e12cfc2324d` · printing: HOB #131 (2026-08-14) · [rulings](https://api.scryfall.com/cards/d876315f-b269-4254-a517-905c6e927462/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -103,6 +103,7 @@
   > *—Jolene, plundering pugilist*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12161 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/24/cataclysmic-prospecting) · oracle_id `76dc9452-4e81-4152-bb4d-cdec6db767ed` · printing: OTC #24 (2024-04-19) · [rulings](https://api.scryfall.com/cards/149829e6-94bd-49a0-be35-51f37bea7ffb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Catacomb Crocodile
@@ -117,6 +118,7 @@
   > *"No, I am king!" said Zombie. "I am cold and deadly and no rot can harm me."*
   > *Then Croc came and ate them both.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25930 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/67/catacomb-crocodile) · oracle_id `edc52483-19c7-4d3a-8915-6b1f41b2d6e5` · printing: RNA #67 (2019-01-25) · [rulings](https://api.scryfall.com/cards/440c53f0-7922-4e14-802d-d7a22f8fed85/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Catacomb Dragon
@@ -129,6 +131,7 @@
   > Whenever this creature becomes blocked by a nonartifact, non-Dragon creature, that creature gets -X/-0 until end of turn, where X is half the creature's power, rounded down.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26756 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/112/catacomb-dragon) · oracle_id `a5e9f72b-7628-4265-8b43-592a0bf678b3` · printing: MIR #112 (1996-10-08) · [rulings](https://api.scryfall.com/cards/46daebe4-199e-4580-8a52-1aebc8492d8c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Catacomb Sifter
@@ -165,6 +168,7 @@
   > *"The entire murder scene was covered in dripping, oozing slime. No need for a soothsayer to solve that one."*
   > *—Pel Javya, Wojek investigator*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27752 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/86/catacomb-slug) · oracle_id `1b0b5264-2810-4ac5-8b2e-8abbf4016287` · printing: ORI #86 (2015-07-17) · [rulings](https://api.scryfall.com/cards/d30d6df7-6199-4b06-9d45-785ee1e2ed3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Catalog
@@ -177,6 +181,7 @@
   > *"The appearance of these warped stones throughout the provinces is too pervasive to be random. More evidence is needed to determine the reason behind them."*
   > *—Tamiyo's journal*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16989 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/51/catalog) · oracle_id `965139fb-2e58-4ef2-b639-3ceaa2995c00` · printing: SOI #51 (2016-04-08) · [rulings](https://api.scryfall.com/cards/1b069516-1465-4acf-b4b9-ca7f1238b4fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Catalyst Elemental
@@ -189,6 +194,7 @@
 - **Flavor text** (M19 printing):
   > *As the hyperstormic generator crept past redline, a being emerged from the arc.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17901 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/132/catalyst-elemental) · oracle_id `7779525d-080d-4669-bb65-af532bf0983e` · printing: M19 #132 (2018-07-13) · [rulings](https://api.scryfall.com/cards/e83a678b-19d4-47a5-aa1c-c2437e5009c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Catalyst Stone
@@ -201,6 +207,7 @@
 - **Flavor text** (ODY printing):
   > *The gems' incandescence invades the dreams of all who see them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12947 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/297/catalyst-stone) · oracle_id `d32f7af3-b371-4883-b619-5a569767ff89` · printing: ODY #297 (2001-10-01) · [rulings](https://api.scryfall.com/cards/aaca85d4-b4c2-4adc-a0f9-26339bacfd92/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Catapult Fodder // Catapult Captain
@@ -218,7 +225,9 @@
   > *And they're more than happy to share the wealth.*
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10875 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/99/catapult-fodder-catapult-captain) · oracle_id `aa2c0d23-8df8-408b-a8c0-c4cd005f078d` · printing: VOW #99 (2021-11-19) · [rulings](https://api.scryfall.com/cards/e61b3afa-66e0-4f7b-84bc-7ae2cc6d28d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-11-19* — To satisfy Catapult Fodder's condition, each of the three creatures must have toughness greater than its own power, regardless of the power and toughness of the other two creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/99/catapult-fodder-catapult-captain) · oracle_id `aa2c0d23-8df8-408b-a8c0-c4cd005f078d` · printing: VOW #99 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Catapult Master
 
@@ -230,7 +239,9 @@
 - **Flavor text** (DDF printing):
   > *"There's no 'I' in 'team,' but there's a 'we' in 'weapon.'"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11121 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddf/18/catapult-master) · oracle_id `02da2145-0edb-44be-8622-360182a8c25a` · printing: DDF #18 (2010-09-03) · [rulings](https://api.scryfall.com/cards/544df614-277e-43dd-8611-3ec1e1747f57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You may tap any untapped permanents you control with the appropriate creature type (including this creature) to pay the cost of the ability, including creatures that haven't been under your control continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddf/18/catapult-master) · oracle_id `02da2145-0edb-44be-8622-360182a8c25a` · printing: DDF #18 (2010-09-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Catapult Squad
 
@@ -242,7 +253,9 @@
 - **Flavor text** (ONS printing):
   > *Together they could hit anything between the heavens and the horizon.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23804 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ons/11/catapult-squad) · oracle_id `f1ff7a67-1add-4de1-bc25-62f63626c43a` · printing: ONS #11 (2002-10-07) · [rulings](https://api.scryfall.com/cards/75a71d29-29eb-43c4-b0f3-457435e8f629/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You may tap any untapped permanents you control with the appropriate creature type (including this creature) to pay the cost of the ability, including creatures that haven't been under your control continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ons/11/catapult-squad) · oracle_id `f1ff7a67-1add-4de1-bc25-62f63626c43a` · printing: ONS #11 (2002-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Catastrophe
 
@@ -267,6 +280,7 @@
 - **Flavor text** (EXO printing):
   > *The \*il\*-Kor no longer roam the open plains, but they are still hunters.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29889 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/exo/54/cat-burglar) · oracle_id `16aea5b3-9f43-4852-b8b8-80e87909b794` · printing: EXO #54 (1998-06-15) · [rulings](https://api.scryfall.com/cards/947109f9-7035-4a2a-bbc2-a2958f8c5d01/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Catch of the Day
@@ -281,7 +295,15 @@
   > Size → 6/2; 4/4; or 2/6.
 - **Keywords:** Goad, Scry
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/528/catch-of-the-day) · oracle_id `9681be84-240c-4ea9-9aa0-5563c7933ceb` · printing: MB2 #528 (2024-08-02) · [rulings](https://api.scryfall.com/cards/1a701069-7fdd-4fce-858c-1d9e6fe9410d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-11-08* — Catch of the Day doesn’t have any of the listed keywords, triggered abilities, or power and toughness combinations if it’s not on the battlefield.
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — If an object enters the battlefield as a copy of Catch of the Day, it copies the values chosen previously for Catch of the Day’s enters-the-battlefield replacement effect. However, as the copy enters, it’ll also apply Catch of the Day’s replacement effect again, allowing the copy’s controller to choose an option for Keyword, Whenever this creature attacks, and Size. The newly chosen Size will overwrite the original Catch of the Day’s power and toughness, but the newly chosen Keyword and Whenever this creature attacks abilities will be added on top of any copied abilities. For example, this can cause you to have a Catch of the Day with vigilance, ward {3}, and two “Whenever this creature attacks” abilities. You can even make the exact same ability choices as the original Catch of the Day, and the copy will have two instances of the chosen abilities. For instance, you can have a creature with ward {3} and ward {3} and “Whenever this creature attacks, scry 2” and “Whenever this creature attacks, scry 2.” Each of those abilities would trigger separately.
+  - *2024-11-08* — If an object on the battlefield becomes a copy of Catch of the Day, it’ll copy the values chosen for Catch of the Day’s enters-the-battlefield replacement effect.
+  - *2024-11-08* — If you cast Catch of the Day, you don’t make any choices until it resolves. Opponents won’t know what it is until you serve it up! Once it leaves the battlefield, it forgets the choices you made.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/528/catch-of-the-day) · oracle_id `9681be84-240c-4ea9-9aa0-5563c7933ceb` · printing: MB2 #528 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Catch // Release
 
@@ -294,7 +316,22 @@
   > Fuse (You may cast one or both halves of this card from your hand.)
 - **Keywords:** Fuse
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25411 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/125/catch-release) · oracle_id `a7df5dc0-2564-4288-bc53-59affd896f79` · printing: DGM #125 (2013-05-03) · [rulings](https://api.scryfall.com/cards/29968873-56f3-4528-ab0b-f11dd67dd162/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2013-04-15* — Catch can target any permanent, including one that’s untapped or one you already control.
+  - *2013-04-15* — If a player names a card, the player may name either half of a split card, but not both. A split card has the chosen name if one of its two names matches the chosen name.
+  - *2013-04-15* — If you cast Catch/Release as a fused split spell, you can sacrifice the permanent you just gained control of.
+  - *2013-04-15* — If you cast a split card with fuse from your hand without paying its mana cost, you can choose to use its fuse ability and cast both halves without paying their mana costs.
+  - *2013-04-15* — If you control an artifact creature, a nonartifact creature, and no other artifacts or creatures, you must sacrifice both permanents. You must choose the artifact creature as the artifact and the nonartifact creature as the creature. The same is true for any combination of types—you sacrifice a number of permanents as close to five as possible.
+  - *2013-04-15* — If you’re casting a split card with fuse from any zone other than your hand, you can’t cast both halves. You’ll only be able to cast one half or the other.
+  - *2013-04-15* — On the stack, a split spell that hasn’t been fused has only that half’s characteristics and mana value. The other half is treated as though it didn’t exist.
+  - *2013-04-15* — Some split cards with fuse have two halves that are both multicolored. That card is multicolored no matter which half is cast, or if both halves are cast. It’s also multicolored while not on the stack.
+  - *2013-04-15* — Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
+  - *2013-04-15* — To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its mana value is the total amount of mana in both costs.
+  - *2013-04-15* — To resolve Release, the active player chooses a permanent they control for each of the listed types, then each other player in turn order does the same, then all the chosen permanents are sacrificed simultaneously.
+  - *2013-04-15* — When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
+  - *2013-04-15* — When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn’t resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can’t perform any actions or have any actions performed on it.
+  - *2013-04-15* — You can choose the same object as the target of each half of a fused split spell, if appropriate.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/125/catch-release) · oracle_id `a7df5dc0-2564-4288-bc53-59affd896f79` · printing: DGM #125 (2013-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Catch-Up Mechanic
 
@@ -307,6 +344,7 @@
   > • Return target artifact card from your graveyard to your hand.
   > • Look at the top five cards of your library. Reveal an artifact card from among them and put it into your hand. Put the rest on the bottom in a random order.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/CW05/catch-up-mechanic) · oracle_id `2246853a-4626-4d2e-bb18-88277f8c9b69` · printing: UNK #CW05 (2025-02-21) · [rulings](https://api.scryfall.com/cards/1e818652-6d6a-4643-b339-427c66cc2adc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cat Collector
@@ -336,7 +374,9 @@
 - **Flavor text** (MMQ printing):
   > *The Cateran guild prefers to call them "public relations."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28342 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/120/cateran-brute) · oracle_id `f60d03ae-f45f-45b2-a0f7-108acb0a45db` · printing: MMQ #120 (1999-10-04) · [rulings](https://api.scryfall.com/cards/73b6ce76-0ed0-4994-ae2c-d8e51ae09920/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/120/cateran-brute) · oracle_id `f60d03ae-f45f-45b2-a0f7-108acb0a45db` · printing: MMQ #120 (1999-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cateran Enforcer
 
@@ -348,7 +388,9 @@
   > {4}, {T}: Search your library for a Mercenary permanent card with mana value 4 or less, put it onto the battlefield, then shuffle.
 - **Keywords:** Fear
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27201 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/121/cateran-enforcer) · oracle_id `a2f3139e-80f6-43fb-bdb7-d45d6eb2a652` · printing: MMQ #121 (1999-10-04) · [rulings](https://api.scryfall.com/cards/9e9b6da8-39da-4fce-89cf-ea972f981331/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/121/cateran-enforcer) · oracle_id `a2f3139e-80f6-43fb-bdb7-d45d6eb2a652` · printing: MMQ #121 (1999-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cateran Kidnappers
 
@@ -360,7 +402,9 @@
 - **Flavor text** (MMQ printing):
   > *Recruits aren't always volunteers.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27805 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/122/cateran-kidnappers) · oracle_id `938c4f2e-6dda-4ac4-b50c-40dc165b4eaa` · printing: MMQ #122 (1999-10-04) · [rulings](https://api.scryfall.com/cards/3768bdc1-4055-423a-a1cc-69b4c620e3e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/122/cateran-kidnappers) · oracle_id `938c4f2e-6dda-4ac4-b50c-40dc165b4eaa` · printing: MMQ #122 (1999-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cateran Overlord
 
@@ -372,7 +416,9 @@
   > {6}, {T}: Search your library for a Mercenary permanent card with mana value 6 or less, put it onto the battlefield, then shuffle.
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28519 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/123/cateran-overlord) · oracle_id `c2223cdf-419d-4153-9551-705557461664` · printing: MMQ #123 (1999-10-04) · [rulings](https://api.scryfall.com/cards/e8a1ffcb-40a7-423f-b28a-b5b4c1c9ffd0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/123/cateran-overlord) · oracle_id `c2223cdf-419d-4153-9551-705557461664` · printing: MMQ #123 (1999-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cateran Persuader
 
@@ -382,7 +428,9 @@
 - **Oracle text:**
   > {1}, {T}: Search your library for a Mercenary permanent card with mana value 1 or less, put it onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29316 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/124/cateran-persuader) · oracle_id `415e9484-0788-4c00-bb1f-19308511114b` · printing: MMQ #124 (1999-10-04) · [rulings](https://api.scryfall.com/cards/a98bdbf1-32a6-4d9b-8e57-5d3aca6b05bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/124/cateran-persuader) · oracle_id `415e9484-0788-4c00-bb1f-19308511114b` · printing: MMQ #124 (1999-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cateran Slaver
 
@@ -394,7 +442,9 @@
   > {5}, {T}: Search your library for a Mercenary permanent card with mana value 5 or less, put it onto the battlefield, then shuffle.
 - **Keywords:** Landwalk, Swampwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27817 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/125/cateran-slaver) · oracle_id `e7989ef3-d2a5-41c6-944c-f969d850f557` · printing: MMQ #125 (1999-10-04) · [rulings](https://api.scryfall.com/cards/2d293c51-714c-45b8-bfa4-fe35e8f3fbc1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/125/cateran-slaver) · oracle_id `e7989ef3-d2a5-41c6-944c-f969d850f557` · printing: MMQ #125 (1999-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cateran Summons
 
@@ -405,7 +455,9 @@
 - **Flavor text** (MMQ printing):
   > *Even when recruitment is slow, the guild can always cook something up.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18278 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/126/cateran-summons) · oracle_id `910ff092-7c9d-49d3-a6df-497683e45bbd` · printing: MMQ #126 (1999-10-04) · [rulings](https://api.scryfall.com/cards/af3de1f9-9038-4352-b4bf-2e9c5c27495a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/126/cateran-summons) · oracle_id `910ff092-7c9d-49d3-a6df-497683e45bbd` · printing: MMQ #126 (1999-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caterwauling Boggart
 
@@ -418,7 +470,9 @@
   > *"As far as I can tell, that frog dangling from the stick serves absolutely no purpose whatsoever."*
   > *—Gaddock Teeg*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16691 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/157/caterwauling-boggart) · oracle_id `ab3f4455-7329-4145-b9c4-93eef38bf327` · printing: LRW #157 (2007-10-12) · [rulings](https://api.scryfall.com/cards/ee8337bf-9fe8-45a0-974c-8911306b19ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-10-01* — Each creature you control that’s both a Goblin and an Elemental can’t be blocked except by two or more creatures (as opposed to four or more creatures).
+- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/157/caterwauling-boggart) · oracle_id `ab3f4455-7329-4145-b9c4-93eef38bf327` · printing: LRW #157 (2007-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cat-Gator
 
@@ -432,6 +486,7 @@
   > *People don't go fishing for cat-gators. Cat-gators go fishing for people.*
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18553 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/91/cat-gator) · oracle_id `349e6b9e-40a8-49bc-9cd3-4a22f5363fa5` · printing: TLA #91 (2025-11-21) · [rulings](https://api.scryfall.com/cards/ec83a825-79e6-42a4-919c-3bc498ff4433/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cathar Commando
@@ -475,7 +530,9 @@
   > *"Unwavering and loyal, they represent stability in uncertain times."*
   > *—Rem Karolus, Slayer of Angels*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23523 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/94/cathars-companion) · oracle_id `668f646b-94f0-4f1a-badd-2d69b559d8a2` · printing: JMP #94 (2020-07-17) · [rulings](https://api.scryfall.com/cards/0291a964-1117-4fbd-9193-9719b273c348/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-04-08* — Cathar’s Companion’s triggered ability resolves before the spell that caused it to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/94/cathars-companion) · oracle_id `668f646b-94f0-4f1a-badd-2d69b559d8a2` · printing: JMP #94 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cathars' Crusade
 
@@ -501,7 +558,13 @@
   > Evoke {R/W}{R/W} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters.)
 - **Keywords:** Evoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16716 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/209/catharsis) · oracle_id `9e3303aa-2484-4832-86ac-f5ae290d02f1` · printing: ECL #209 (2026-01-23) · [rulings](https://api.scryfall.com/cards/affb4500-2704-49fc-bbb4-02ed4bfb3b76/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-11-17* — Catharsis's first and second abilities care about what mana was spent to pay its total cost, not just what mana was spent to pay the hybrid mana symbols in its cost.
+  - *2025-11-17* — Catharsis's first and second abilities check to see if at least two mana of the appropriate colors were spent to pay Catharsis's cost. It doesn't matter if more than two mana of that color was spent; the effect isn't multiplied.
+  - *2025-11-17* — If this spell is copied, the copy will not have had any colors of mana paid for it, no matter what colors were spent on the original spell.
+  - *2025-11-17* — If you pay the evoke cost, you can have the creature's own triggered ability or abilities resolve before the evoke triggered ability. You can cast spells after that ability resolves but before you have to sacrifice the creature.
+  - *2025-11-17* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an evoke cost), add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/209/catharsis) · oracle_id `9e3303aa-2484-4832-86ac-f5ae290d02f1` · printing: ECL #209 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cathar's Shield
 
@@ -529,6 +592,7 @@
   > *"Forget. Only then will there be space for hope between the pain and fear."*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16658 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ala/34/cathartic-adept) · oracle_id `44d30168-8203-4a8e-a11f-b4a068231e55` · printing: ALA #34 (2008-10-03) · [rulings](https://api.scryfall.com/cards/8e63626d-f55c-4155-9712-511f591c0614/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cathartic Parting
@@ -540,7 +604,9 @@
 - **Flavor text** (DSK printing):
   > *"We got more than most people do. We got the chance to say goodbye."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14633 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/171/cathartic-parting) · oracle_id `0ea80bd9-ab7e-4a8f-85b0-167fe7fae43a` · printing: DSK #171 (2024-09-27) · [rulings](https://api.scryfall.com/cards/6afc250a-854d-4555-ba78-db9283fa7c22/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — You may target zero cards in your graveyard and still choose to shuffle your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/171/cathartic-parting) · oracle_id `0ea80bd9-ab7e-4a8f-85b0-167fe7fae43a` · printing: DSK #171 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cathartic Pyre
 
@@ -597,7 +663,14 @@
   > When this creature dies during combat, it deals 6 damage to each creature it blocked this combat.
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17956 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nph/5/cathedral-membrane) · oracle_id `0297eeb2-47ec-4f9a-b1ad-4e7286994f00` · printing: NPH #5 (2011-05-13) · [rulings](https://api.scryfall.com/cards/07592731-68be-4218-bb2c-c2523c5a27f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2011-06-01* — A card with Phyrexian mana symbols in its mana cost is each color that appears in that mana cost, regardless of how that cost may have been paid.
+  - *2011-06-01* — As you cast a spell or activate an activated ability with one or more Phyrexian mana symbols in its cost, you choose how to pay for each Phyrexian mana symbol at the same time you would choose modes or choose a value for X.
+  - *2011-06-01* — Cathedral Membrane's ability will trigger no matter why it's put into a graveyard during the combat phase, not just because of combat damage.
+  - *2011-06-01* — If you're at 1 life or less, you can't pay 2 life.
+  - *2011-06-01* — Phyrexian mana is not a new color. Players can't produce Phyrexian mana.
+  - *2011-06-01* — To calculate the mana value of a card with Phyrexian mana symbols in its cost, count each Phyrexian mana symbol as 1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nph/5/cathedral-membrane) · oracle_id `0297eeb2-47ec-4f9a-b1ad-4e7286994f00` · printing: NPH #5 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cathedral of Serra
 
@@ -606,6 +679,7 @@
 - **Oracle text:**
   > White legendary creatures you control have "bands with other legendary creatures." (Any legendary creatures can attack in a band as long as at least one has "bands with other legendary creatures." Bands are blocked as a group. If at least two legendary creatures you control, one of which has "bands with other legendary creatures," are blocking or being blocked by the same creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21231 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/leg/301/cathedral-of-serra) · oracle_id `4b9922b9-c5b5-467e-8a5b-1e45e862194d` · printing: LEG #301 (1994-06-01) · [rulings](https://api.scryfall.com/cards/e65356e6-0ead-49fd-b069-be1ea9b1c105/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cathedral of War
@@ -631,6 +705,7 @@
 - **Flavor text** (DDQ printing):
   > *"Evil will soon be vanquished. What Innistrad most needs now is healing."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19464 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddq/3/cathedral-sanctifier) · oracle_id `1050f029-60d4-4769-b39f-9100c949a822` · printing: DDQ #3 (2016-02-26) · [rulings](https://api.scryfall.com/cards/de3d0a45-3b3a-4718-9cb8-ff0c2464d634/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cathodion
@@ -658,6 +733,7 @@
   > {T}, Sacrifice a Food: Create a 1/1 black Cat creature token. Each opponent loses 1 life and you gain 1 life.
 - **Keywords:** Food
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UA02a/cat-oven) · oracle_id `6b30e368-a22b-46c8-8b81-8b2bf1718e1f` · printing: UNK #UA02a (2023-09-23) · [rulings](https://api.scryfall.com/cards/94c35726-8392-4afe-8d75-00706631aef7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cat-Owl
@@ -672,6 +748,7 @@
   > *When it's feeling bored, it chases itself.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18513 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/212/cat-owl) · oracle_id `ba6840a6-b6fd-4b91-ac1a-a61b7b15849a` · printing: TLA #212 (2025-11-21) · [rulings](https://api.scryfall.com/cards/d7df3391-dbe5-4eb4-85c1-037c5f3ea971/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Catti-brie of Mithral Hall
@@ -685,7 +762,10 @@
   > {1}, Remove all +1/+1 counters from Catti-brie: It deals X damage to target attacking or blocking creature an opponent controls, where X is the number of counters removed this way.
 - **Keywords:** Reach, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16150 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/44/catti-brie-of-mithral-hall) · oracle_id `f44ffa35-bd88-4996-8b20-46329565df9b` · printing: AFC #44 (2021-07-23) · [rulings](https://api.scryfall.com/cards/d3626ede-6c69-4fd5-8de1-cf85f50cd435/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-07-23* — If Catti-brie of Mithral Hall has no counters, you can still activate the last ability. This won't deal any damage, but it will count as targeting something for abilities like that of Fey Steed.
+  - *2021-07-23* — If a blocking creature is destroyed due to damage dealt this way, the creature it was blocking is still considered blocked. Unless the attacking creature has trample, it won't deal any damage to the player or planeswalker it is attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/44/catti-brie-of-mithral-hall) · oracle_id `f44ffa35-bd88-4996-8b20-46329565df9b` · printing: AFC #44 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cat Warriors
 
@@ -698,4 +778,5 @@
   > *These stealthy felines have survived so many battles that some believe they must possess many lives.*
 - **Keywords:** Landwalk, Forestwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25019 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/6ed/219/cat-warriors) · oracle_id `cee3d8e5-f26f-4f47-8a7b-9ac07ebf9025` · printing: 6ED #219 (1999-04-21) · [rulings](https://api.scryfall.com/cards/90823485-83cd-4260-b860-7f05d8588905/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

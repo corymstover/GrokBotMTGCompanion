@@ -21,7 +21,9 @@
 - **Flavor text** (RAV printing):
   > *Three hundred years of practice thwarted by an instant of mischief.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16446 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rav/139/reroute) · oracle_id `997f5a5a-9ee1-4b66-9ffc-d1a2e996e615` · printing: RAV #139 (2005-10-07) · [rulings](https://api.scryfall.com/cards/42794e10-ddcd-4d2d-ab0c-a6b99b6d4662/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-06-08* — Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords are activated abilities and will have colons in their reminder text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rav/139/reroute) · oracle_id `997f5a5a-9ee1-4b66-9ffc-d1a2e996e615` · printing: RAV #139 (2005-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reroute Systems
 
@@ -32,4 +34,5 @@
   > • Target artifact or creature gains indestructible until end of turn. (Damage and effects that say "destroy" don't destroy it.)
   > • Reroute Systems deals 2 damage to target tapped creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12156 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/31/reroute-systems) · oracle_id `26d2762b-4346-40d0-b93d-b0dbfeb6e2bc` · printing: EOE #31 (2025-08-01) · [rulings](https://api.scryfall.com/cards/3bbdba38-2b99-4226-98e3-6d2580345d6d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

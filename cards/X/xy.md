@@ -38,4 +38,7 @@
   > Whenever Xyru Specter deals damage to an opponent, that player discards a card unless they challenge you. If challenged, and you show them two black cards in your hand, they must discard two cards.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/51/xyru-specter) · oracle_id `3b544e2b-a79b-4725-9f85-ccaa3702f371` · printing: CMB2 #51 (2021-08-20) · [rulings](https://api.scryfall.com/cards/35db376d-187c-4f88-a784-4cfde5292499/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-11-12* — If you’re challenged, you may reveal any number of cards from your hand. The effect that allowed a player to challenge you will specify what you must reveal to win the challenge.
+  - *2019-11-12* — “Summon” isn’t a card type. Xyru Specter is a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/51/xyru-specter) · oracle_id `3b544e2b-a79b-4725-9f85-ccaa3702f371` · printing: CMB2 #51 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

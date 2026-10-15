@@ -43,7 +43,11 @@
   > *"Good things come to those who are judicious in their appetites."*
   > *—\*The Book of Bruna\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15428 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/206/moderation) · oracle_id `57f94fcb-a224-410b-a38e-3ed8cca7d0c7` · printing: MH2 #206 (2021-06-18) · [rulings](https://api.scryfall.com/cards/c41b3d7a-f8e1-46b8-a689-6125dcd9cb17/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-06-18* — If an effect says you can't cast spells, and another effect instructs you to cast a spell, such as that of the ability that triggers when you remove the last time counter from a card with suspend, you won't be able to cast that spell.
+  - *2021-06-18* — If you cast Moderation, you've already cast at least one spell that turn (Moderation itself) so you won't be able to cast any more spells until the next turn. If Moderation comes under your control on a turn you haven't cast any spells, you'll be able to cast one spell that turn.
+  - *2021-06-18* — Moderation's triggered ability works only while it's on the battlefield, so it doesn't let you draw a card when you cast it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/206/moderation) · oracle_id `57f94fcb-a224-410b-a38e-3ed8cca7d0c7` · printing: MH2 #206 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Modify Memory
 
@@ -81,6 +85,7 @@
   > Whenever you draw your second card each turn, target opponent sacrifices a nontoken creature of their choice.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16040 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/509/modok-evil-intellect) · oracle_id `59f75a19-95cd-4ac8-94f1-27c1f915c34a` · printing: MSC #509 (2026-06-26) · [rulings](https://api.scryfall.com/cards/de490be1-4b62-4dc8-ad00-55de74d501dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### M'Odo, the Gnarled Oracle
@@ -94,7 +99,9 @@
   > *Those with vision always have a path.*
 - **Keywords:** Eminence
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ph17/3/modo-the-gnarled-oracle) · oracle_id `8579ff4f-6e23-47dd-bae6-06e827644b20` · printing: PH17 #3 (2018-08-01) · [rulings](https://api.scryfall.com/cards/3e6a0359-f4da-442f-a130-08d278ec2fec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ph17/3/modo-the-gnarled-oracle) · oracle_id `8579ff4f-6e23-47dd-bae6-06e827644b20` · printing: PH17 #3 (2018-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Modular Monstrosity
 
@@ -104,4 +111,9 @@
 - **Oracle text:**
   > Whenever an opponent casts a spell, you have five seconds to choose a keyword you haven't chosen for a card named Modular Monstrosity today that's been printed on a creature card. If you do, this creature gains that ability. Otherwise, this creature loses all keyword abilities.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/155/modular-monstrosity) · oracle_id `c5d69038-d6c6-4c80-af86-a5df237d280f` · printing: UST #155 (2017-12-08) · [rulings](https://api.scryfall.com/cards/a1498cb2-9f95-4c24-924b-a9a98e54f24c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-01-19* — Each keyword can be chosen only once on any given day. And that counts every Modular Monstrosity you play with that day. You also can't reuse a keyword with a new modifier. For example, if you choose protection from Demons and from Dragons (totally counts), you can't choose protection from red later that day. Protection has already been used.
+  - *2018-01-19* — If you haven't made a valid choice after five seconds, Modular Monstrosity loses all keyword abilities, including ones its picked up in other ways.
+  - *2018-01-19* — If you make an invalid choice, you can still make a valid choice as long as time hasn't expired.
+  - *2018-01-19* — You may choose any keyword ability that appears on any printed Magic creature card. You can't pick keyword actions like explore or scry. If the keyword has a modifier, such as a mana cost or a number, you must choose a modifier that's been printed. Sorry, "annihilator 500" fans.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/155/modular-monstrosity) · oracle_id `c5d69038-d6c6-4c80-af86-a5df237d280f` · printing: UST #155 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

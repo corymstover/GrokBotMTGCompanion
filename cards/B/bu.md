@@ -159,6 +159,7 @@
   > *"This device was commisioned by a king who desired peace. Unfortunately, the royal artificer was also the king's jester."*
   > *—Hanna, \*Weatherlight\* navigator*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18846 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/wth/146/bubble-matrix) · oracle_id `50261dca-bfeb-40b3-95b6-9057491ef3ad` · printing: WTH #146 (1997-06-09) · [rulings](https://api.scryfall.com/cards/0ca9c239-84ff-4527-aa23-bdb11856744c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bubble Smuggler
@@ -173,7 +174,20 @@
   > *By the time they noticed the missing vials, Glovax was three fathoms away.*
 - **Keywords:** Disguise
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21408 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/41/bubble-smuggler) · oracle_id `ca22fa33-5460-4d31-a9c8-4115d35b994c` · printing: MKM #41 (2024-02-09) · [rulings](https://api.scryfall.com/cards/6b863ee0-d9f3-4b1e-993d-5212731d9353/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2024-02-02* — A disguise ability lets you cast a card face down by paying {3} and announcing that you are using a disguise ability. Any time you have priority, you can turn a face-down permanent with disguise face up by paying its disguise cost.
+  - *2024-02-02* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent and Auras and Equipment that were attached to that permanent aren't affected unless the new characteristics of the object change the legality of those targets or attachments.
+  - *2024-02-02* — Any time you have priority, you may turn the face-down creature face up by revealing what its disguise cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2024-02-02* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down permanents or spells you don't control unless an effect instructs or allows you to do so.
+  - *2024-02-02* — Because face-down creatures don't have a name, they can't have the same name as any other creature, even another face-down creature.
+  - *2024-02-02* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2024-02-02* — If a face-down creature loses its abilities, it can't be turned face up with a disguise ability because it will no longer have a disguise ability (or a disguise cost) once face up.
+  - *2024-02-02* — If a face-down spell leaves the stack and goes to any zone other than the battlefield (if it was countered, for example), you must reveal it. Similarly, if a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or the game ends.
+  - *2024-02-02* — The creature spell is a 2/2 creature spell with ward {2} that has no name, mana cost, or creature types. The resulting creature is a 2/2 creature with ward {2} that has no name, mana cost, or creature types. Both the spell and the resulting creature are colorless and have a mana value of 0. Other effects that apply to the spell or creature can still grant it any characteristics it doesn't have or change the characteristics it does have.
+  - *2024-02-02* — The face-down spell has no mana cost and a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3} to cast it. This is an alternative cost.
+  - *2024-02-02* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2024-02-02* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/41/bubble-smuggler) · oracle_id `ca22fa33-5460-4d31-a9c8-4115d35b994c` · printing: MKM #41 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bubble Snare
 
@@ -186,7 +200,14 @@
   > Enchanted creature doesn't untap during its controller's untap step.
 - **Keywords:** Enchant, Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20998 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/47/bubble-snare) · oracle_id `be315fa6-afb5-4ab6-a143-7bbf37046d15` · printing: ZNR #47 (2020-09-25) · [rulings](https://api.scryfall.com/cards/1bfba7a0-d5ca-4197-9e58-21f28345f1a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/47/bubble-snare) · oracle_id `be315fa6-afb5-4ab6-a143-7bbf37046d15` · printing: ZNR #47 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bubbling Beebles
 
@@ -199,6 +220,7 @@
   > *"Chancellor Rayne canceled the annual beeble roast. I should have married a crueler woman."*
   > *—Barrin*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29952 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/uds/29/bubbling-beebles) · oracle_id `75903c3b-2dbe-4662-b6a8-39599e49adde` · printing: UDS #29 (1999-06-07) · [rulings](https://api.scryfall.com/cards/002cf7d8-3fc2-48eb-a727-a1ce5a049665/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bubbling Cauldron
@@ -209,6 +231,7 @@
   > {1}, {T}, Sacrifice a creature: You gain 4 life.
   > {1}, {T}, Sacrifice a creature named Festering Newt: Each opponent loses 4 life. You gain life equal to the life lost this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17111 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/460/bubbling-cauldron) · oracle_id `ca9dde44-fdee-4bc1-a2ea-ef171737b9e4` · printing: JMP #460 (2020-07-17) · [rulings](https://api.scryfall.com/cards/955aa79b-448e-4752-8e36-0fe80c18280c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bubbling Muck
@@ -236,6 +259,7 @@
 - **Flavor text** (RIX printing):
   > *Never underestimate the power of panache.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19563 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/96/buccaneers-bravado) · oracle_id `e85421f3-37f6-49ee-9fc4-4424fd4f5236` · printing: RIX #96 (2018-01-19) · [rulings](https://api.scryfall.com/cards/d82c583f-3d2b-4c7f-a6f4-97da150423b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bucket List
@@ -246,7 +270,13 @@
   > Whenever you cast a spell of a type showing on Bucket List, put a counter over that type and draw a card. If all five types on Bucket List have counters over them, sacrifice it and draw one more card.
   > ☐ artifact ☐ creature ☐ enchantment ☐ instant ☐ sorcery
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/89/bucket-list) · oracle_id `81d80885-3b21-4730-83bf-c519984a210c` · printing: CMB2 #89 (2021-08-20) · [rulings](https://api.scryfall.com/cards/af0cdce5-02b9-462e-88c5-e35ea69808f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2019-11-12* — Bucket List has an associated tracker list. The tracker list is (kind of) graphically represented on the card, but this list isn’t an ability or a characteristic of the object.
+  - *2019-11-12* — If an object becomes a copy of Bucket List, it has the tracker list for as long as it’s a copy of it. This new tracker list will start empty, even if the tracker list of the original Bucket List had any counters. The new tracker list and any counters it gets cease to exist when the copy effect ends.
+  - *2019-11-12* — If you cast a spell that has more than one card type, you put a counter on each of those types on the tracker list.
+  - *2019-11-12* — The counter isn’t put on Bucket List; it’s put on the tracker list. Because it isn’t on an object or player, it can’t be proliferated, removed, or so on.
+  - *2019-11-12* — You sacrifice Bucket List and draw an additional card while resolving the ability that triggers when you cast the fifth spell that covers the last card type on its tracker list.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/89/bucket-list) · oracle_id `81d80885-3b21-4730-83bf-c519984a210c` · printing: CMB2 #89 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bucknard's Everfull Purse
 
@@ -283,6 +313,7 @@
   > *"Yes sir, Cap! I won't let you down."*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22289 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/586/bucky-barnes-eager-ally) · oracle_id `55bc5d06-7dd1-4403-af32-0e10d8bbe327` · printing: MSC #586 (2026-06-26) · [rulings](https://api.scryfall.com/cards/58a6ca84-64b8-4137-b3ce-9540b6dfa162/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bucolic Ranch
@@ -294,6 +325,7 @@
   > {T}: Add one mana of any color. Spend this mana only to cast a Mount spell.
   > {3}, {T}: Look at the top card of your library. If it's a Mount card, you may reveal it and put it into your hand. If you don't put it into your hand, you may put it on the bottom of your library.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14278 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/265/bucolic-ranch) · oracle_id `8f5902bf-4bc4-4d0c-84ea-a425307a4eb2` · printing: OTJ #265 (2024-04-19) · [rulings](https://api.scryfall.com/cards/6c4f6b81-53d0-49fb-b404-c2ad67de7493/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Budding Insurgent
@@ -308,6 +340,7 @@
   > *"If we're going to fix things, we should start here. Why does no one question the Theorist?"*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27447 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/99/budding-insurgent) · oracle_id `723669e0-4a04-45ec-8c76-b1a369aa6892` · printing: FRA #99 (2026-10-02) · [rulings](https://api.scryfall.com/cards/18c59d60-2640-4576-9375-3ba38aa3ecb7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Budoka Gardener // Dokai, Weaver of Life
@@ -320,7 +353,10 @@
   - **P/T:** 3/3
   > {4}{G}{G}, {T}: Create an X/X green Elemental creature token, where X is the number of lands you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11873 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/134/budoka-gardener-dokai-weaver-of-life) · oracle_id `cb952c81-c7bb-4670-938d-296d35551986` · printing: C18 #134 (2018-08-10) · [rulings](https://api.scryfall.com/cards/58164521-aeec-43fc-9db9-d595432dea6f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-12-01* — Budoka Gardener flips if you control ten or more lands when its ability resolves, even if you don’t use its ability to put a land onto the battlefield.
+  - *2013-07-01* — Budoka Gardener flips even if you put a second copy of a legendary land onto the battlefield. You’ll have ten lands on the battlefield while the ability is resolving, so the Gardener flips. Then you will choose one of the legendary lands to keep and put the other into its owner’s graveyard as a state-based action.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/134/budoka-gardener-dokai-weaver-of-life) · oracle_id `cb952c81-c7bb-4670-938d-296d35551986` · printing: C18 #134 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Budoka Pupil // Ichiga, Who Topples Oaks
 
@@ -335,6 +371,7 @@
   > Remove a ki counter from Ichiga: Target creature gets +2/+2 until end of turn.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28794 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/122/budoka-pupil-ichiga-who-topples-oaks) · oracle_id `6f571092-7244-4223-aa14-f5133cc000d8` · printing: BOK #122 (2005-02-04) · [rulings](https://api.scryfall.com/cards/73636ca0-2309-4bb3-9300-8bd0c0bb5b31/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bugenhagen, Wise Elder
@@ -363,6 +400,7 @@
 - **Flavor text** (MIR printing):
   > *There is only so much a person may be buried with.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26202 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/160/builders-bane) · oracle_id `814adb99-6100-4c36-96d9-763bc20dca5d` · printing: MIR #160 (1996-10-08) · [rulings](https://api.scryfall.com/cards/fb398027-5a29-4c81-aab5-b1a2b82fd655/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Builder's Blessing
@@ -375,6 +413,7 @@
   > *"Mix the mortar with holy wards, or blood will run in the streets."*
   > *—Vadvar, Thraben stonewright*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17714 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/avr/8/builders-blessing) · oracle_id `33a64de1-dc78-43d3-b89e-b4b13049e174` · printing: AVR #8 (2012-05-04) · [rulings](https://api.scryfall.com/cards/2ad27af1-b482-40d5-9dbb-11201ffa0410/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Builder's Talent
@@ -389,7 +428,14 @@
   > {4}{W}: Level 3
   > When this Class becomes level 3, return target noncreature, nonland permanent card from your graveyard to the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11235 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/5/builders-talent) · oracle_id `0b19082c-8f80-448b-9e1b-0f324a159409` · printing: BLB #5 (2024-08-02) · [rulings](https://api.scryfall.com/cards/15fa581a-724e-4196-a9a3-ff84c54bdb7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-07-26* — Each Class has five abilities. The three in the major sections of its text box are class abilities. Class abilities can be static, activated, or triggered abilities. The other two are level abilities, one activated ability to advance the Class to level 2 and another to advance the Class to level 3.
+  - *2024-07-26* — Each Class starts with only the first of its three class abilities. As the first level ability resolves, the Class becomes level 2 and gains the second class ability. As the second level ability resolves, the Class becomes level 3 and gains the third class ability.
+  - *2024-07-26* — Gaining a level is a normal activated ability. It uses the stack and can be responded to.
+  - *2024-07-26* — Gaining a level won't remove abilities that a Class had at a previous level.
+  - *2024-07-26* — There's no restriction on how many Class permanents you can control, whether they're the same or different classes. Each Class permanent tracks its own level separately.
+  - *2024-07-26* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/5/builders-talent) · oracle_id `0b19082c-8f80-448b-9e1b-0f324a159409` · printing: BLB #5 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Built Bear
 
@@ -403,7 +449,19 @@
   > 3 points each → +1/+1; or +0/+2
   > 4 points → When this creature enters the battlefield, draw a card.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/572/built-bear) · oracle_id `9a422c31-817d-4a86-b54b-720de3a4c50d` · printing: MB2 #572 (2024-08-02) · [rulings](https://api.scryfall.com/cards/571ac996-8fbb-4315-820e-5023db0ae972/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2024-11-08* — All of the circled abilities are considered to be printed on the card. They are also part of Built Bear’s copiable characteristics.
+  - *2024-11-08* — Built Bear’s legacy ability can increase its mana cost depending on how many points you spend. If you spend 0 or 1 points, its mana cost remains {1}{G}. If you spend 2 or 3 points, its mana cost becomes {2}{G}. If you spend 4 or 5 points, its mana cost becomes {3}{G}. And so on.
+  - *2024-11-08* — Calculate Built Bear’s mana cost after you’ve finished circling options. That mana cost is considered to be printed on the card and is part of its copiable characteristics.
+  - *2024-11-08* — During a game, ignore any printed parts of Built Bear’s rules text that isn’t circled except for the legacy ability. For example, a Built Bear that doesn’t have any options circled is a {1}{G} 2/2 with no abilities except for legacy (which has no in-game effect because nothing is circled for it).
+  - *2024-11-08* — During deckbuilding, you may circle any number of options in Built Bear’s text box, such as flash, ward {2}, +1/+1, and “When this creature enters the battlefield, draw a card.” Each option is delineated with a line break or semicolon, and each option can only be circled once. The options you circled must be clear and understandable to all players.
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — If you circled any of the power/toughness changes (+1/+1 or +0/+2), they are applied to Built Bear’s printed power and toughness and are also part of Built Bear’s copiable characteristics. For example, if you circle +1/+1, Built Bear’s printed power/toughness is 3/3. But if you circle both +1/+1 and +0/+2, its printed power/toughness is 3/5.
+  - *2024-11-08* — If your deck and/or sideboard include multiple copies of Built Bear, you can circle different options for each Built Bear as long as the choices for each one are clear and understandable to all players. Each individual Built Bear can have a different mana cost and different printed characteristics depending on what was circled for it.
+  - *2024-11-08* — In a Limited format with Continuous Construction, you can modify your circled options for Built Bear in between matches, but you can’t modify those options during a match (such as while sideboarding in between games).
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/572/built-bear) · oracle_id `9a422c31-817d-4a86-b54b-720de3a4c50d` · printing: MB2 #572 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Built to Last
 
@@ -414,7 +472,9 @@
 - **Flavor text** (KLD printing):
   > *Consulate-built automatons have a lifetime warranty.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19713 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/7/built-to-last) · oracle_id `403e554b-72a5-48b3-acea-0b4062ffb913` · printing: KLD #7 (2016-09-30) · [rulings](https://api.scryfall.com/cards/ef3e09a4-93d0-4ed7-bbee-82108672d5f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-09-20* — An artifact creature gains indestructible in addition to getting +2/+2, not instead of it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/7/built-to-last) · oracle_id `403e554b-72a5-48b3-acea-0b4062ffb913` · printing: KLD #7 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Built to Smash
 
@@ -425,7 +485,9 @@
 - **Flavor text** (KLD printing):
   > *Free from Consulate regulations, renegade-built automatons push performance to the limit.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11309 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/108/built-to-smash) · oracle_id `c363f338-0777-45e6-b13c-f15ba026b63a` · printing: KLD #108 (2016-09-30) · [rulings](https://api.scryfall.com/cards/6f054978-446c-4565-b51e-8f1f0e0f01e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-09-20* — An artifact creature gains trample in addition to getting +3/+3, not instead of it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/108/built-to-smash) · oracle_id `c363f338-0777-45e6-b13c-f15ba026b63a` · printing: KLD #108 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bulette
 
@@ -437,6 +499,7 @@
 - **Flavor text** (AFR printing):
   > *Capable of moving swiftly through even tightly-packed earth and leaping surprising distances above ground, bulettes are difficult to escape once they've caught scent of prey.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23785 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/173/bulette) · oracle_id `4e690b82-9877-41f2-9dcd-cffdb6e3cd64` · printing: AFR #173 (2021-07-23) · [rulings](https://api.scryfall.com/cards/206a9e7b-45c1-4213-8fc4-27d90e2ab0e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bulk Up
@@ -472,7 +535,9 @@
   > *The aurochs herd is content to graze—until the bull provides the dissenting urge to charge.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30571 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/csp/107/bull-aurochs) · oracle_id `edd5b228-f19f-4b27-8b92-75545389da14` · printing: CSP #107 (2006-07-21) · [rulings](https://api.scryfall.com/cards/2d59bd4a-006b-4dd8-ab33-d931196f3a8a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-07-15* — Abilities of Aurochs care about other creatures that have creature type Aurochs, which includes (but is not limited to) the Ice Age card namedAurochs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/csp/107/bull-aurochs) · oracle_id `edd5b228-f19f-4b27-8b92-75545389da14` · printing: CSP #107 (2006-07-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bull Cerodon
 
@@ -485,6 +550,7 @@
   > *It holds motionless vigil, watching Naya in silence through the screen of the whitecover. When it senses anything amiss, it launches forward with the uncanny sound of torn fog.*
 - **Keywords:** Vigilance, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29074 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hop/84/bull-cerodon) · oracle_id `363f5ed8-a7a0-4cde-b09d-9baa26bad347` · printing: HOP #84 (2009-09-04) · [rulings](https://api.scryfall.com/cards/1d375f2c-8d43-4e25-a0fb-9e936a03d5f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bull Elephant
@@ -498,6 +564,7 @@
   > *Four gray trees and a long, coiling snake. What am I?*
   > *—Zhalfirin riddle*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30528 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vis/101/bull-elephant) · oracle_id `4ed04ece-64d2-41a4-bf36-b993cbbf2aac` · printing: VIS #101 (1997-02-03) · [rulings](https://api.scryfall.com/cards/fa7f5f41-ed30-412b-b51e-37d26e9e6455/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bull Hippo
@@ -511,6 +578,7 @@
   > *The merfolk may rule the waters, but hippos have never had much respect for authority.*
 - **Keywords:** Landwalk, Islandwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28502 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/233/bull-hippo) · oracle_id `4d62a448-b6a5-43b1-a281-9e9361a5524a` · printing: 7ED #233 (2001-04-11) · [rulings](https://api.scryfall.com/cards/044785ad-0f05-4944-aab3-49236727078d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bull Rush
@@ -522,6 +590,7 @@
 - **Flavor text** (WWK printing):
   > *"It's gone mad! Loose the chains and save what you can!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24613 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/wwk/73/bull-rush) · oracle_id `0140cf53-71ef-4d37-9197-48aab35ca4a2` · printing: WWK #73 (2010-02-05) · [rulings](https://api.scryfall.com/cards/9ed55a4d-d99c-44ae-a5b9-fd9d1b8477f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bull-Rush Bruiser
@@ -534,7 +603,9 @@
 - **Flavor text** (BBD printing):
   > *There will always be a spot at Valor's Reach for headlong violence.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26328 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/57/bull-rush-bruiser) · oracle_id `d5a7412a-2258-4d3e-9e0f-a150cc69081e` · printing: BBD #57 (2018-06-08) · [rulings](https://api.scryfall.com/cards/f0270fed-4591-4111-a95f-91d4a0ab0d14/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-06-08* — Whether your team controls another Warrior is checked as Bull-Rush Bruiser’s triggered ability triggers and again as it resolves. Once it gains first strike this way, it won’t lose it, even if your team loses its other Warriors.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/57/bull-rush-bruiser) · oracle_id `d5a7412a-2258-4d3e-9e0f-a150cc69081e` · printing: BBD #57 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bullseye, Death Dealer
 
@@ -547,6 +618,7 @@
 - **Flavor text** (MSH printing):
   > *"I don't miss."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21737 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/209/bullseye-death-dealer) · oracle_id `10db57b4-f895-4514-b610-2252ba676353` · printing: MSH #209 (2026-06-26) · [rulings](https://api.scryfall.com/cards/fd1f0b5f-5e0e-4da1-ab54-a62db5af3591/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bull's Strength
@@ -558,6 +630,7 @@
 - **Flavor text** (AFR printing):
   > *As the iron bars of the portcullis parted like reeds, the defenders of the keep suddenly felt much less secure.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17013 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/174/bulls-strength) · oracle_id `a5f10b54-10db-4c92-a596-8afea4e470f5` · printing: AFR #174 (2021-07-23) · [rulings](https://api.scryfall.com/cards/092cab70-c771-4c96-a5ce-22f2e32e3ea8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bullwhip
@@ -570,7 +643,9 @@
   > *"Pain is a crude way to enforce obedience, but it is cheap and plentiful."*
   > *—Volrath*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25602 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sth/132/bullwhip) · oracle_id `d4e7a9f5-5228-4e41-8f58-6e7453fe68dc` · printing: STH #132 (1998-03-02) · [rulings](https://api.scryfall.com/cards/ff312dd7-456c-4ce5-9614-e2cbe3c2219c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — If the creature can attack, it must. If it cannot, then nothing happens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sth/132/bullwhip) · oracle_id `d4e7a9f5-5228-4e41-8f58-6e7453fe68dc` · printing: STH #132 (1998-03-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bulwark
 
@@ -582,7 +657,9 @@
   > *"It will be the goblin's first bath, and its last."*
   > *—Fire Eye, viashino bey*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26449 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/178/bulwark) · oracle_id `259da825-02f7-4e72-8f44-01683330f457` · printing: USG #178 (1998-10-12) · [rulings](https://api.scryfall.com/cards/a2041b95-ec5b-4512-b012-f875ca686669/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Counts cards during resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/178/bulwark) · oracle_id `259da825-02f7-4e72-8f44-01683330f457` · printing: USG #178 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bulwark Giant
 
@@ -595,6 +672,7 @@
   > *"Where did \*she\* come from? More importantly, are there more like her?"*
   > *—Gideon Jura*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23032 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/11/bulwark-giant) · oracle_id `f606bd15-b380-447f-b147-72f811266593` · printing: RVR #11 (2024-01-12) · [rulings](https://api.scryfall.com/cards/ebf3a622-6aad-4d74-8098-ffbf21555956/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bulwark Ox
@@ -642,7 +720,9 @@
 - **Oracle text:**
   > When this creature enters, you may destroy target artifact.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/78/bumbling-pangolin) · oracle_id `22600e35-cd8b-4e63-9de1-e96ad66cf719` · printing: UST #78 (2017-12-08) · [rulings](https://api.scryfall.com/cards/4930b9d5-939f-4463-9f9a-235aa3a4f8c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-01-19* — Host creatures each have an ability that triggers when it enters the battlefield. It functions like any other creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/78/bumbling-pangolin) · oracle_id `22600e35-cd8b-4e63-9de1-e96ad66cf719` · printing: UST #78 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bumi Bash
 
@@ -655,6 +735,7 @@
 - **Flavor text** (TLA printing):
   > *"You thought I was a frail old man, but I'm the most powerful Earthbender you'll ever see."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11134 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/125/bumi-bash) · oracle_id `629f247c-1e64-4c32-8892-0716ed469d1c` · printing: TLA #125 (2025-11-21) · [rulings](https://api.scryfall.com/cards/e8895479-26cb-4ee8-98ca-6d46c43f0dbd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bumi, Eclectic Earthbender
@@ -688,7 +769,15 @@
   > • Earthbend 3. (Target land you control becomes a 0/0 creature with haste that's still a land. Put three +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)
 - **Keywords:** Earthbend, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10195 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/169/bumi-king-of-three-trials) · oracle_id `f7493bcf-5c17-4562-a759-37082ec49ff8` · printing: TLA #169 (2025-11-21) · [rulings](https://api.scryfall.com/cards/a268697b-22b0-4e1b-a5b6-d9be95025e57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-10-02* — "Earthbend N" means "Target land you control becomes a 0/0 land creature with haste in addition to its other types. Put N +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control."
+  - *2025-10-02* — Earthbend doesn't give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.
+  - *2025-10-02* — If a land was animated by earthbend and would go to any zone other than the graveyard or exile, it will not be returned to the battlefield by the delayed triggered ability created by earthbend.
+  - *2025-10-02* — If the targeted land becomes an illegal target before the spell or ability that includes earthbend resolves, earthbend does nothing. If the spell or ability didn't have other targets, it won't resolve.
+  - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
+  - *2025-10-02* — You can't choose the same mode of Bumi, King of Three Trials's triggered ability more than once. As there are only three modes, even if X is greater than three, you won't get additional effects after choosing each mode once.
+  - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/169/bumi-king-of-three-trials) · oracle_id `f7493bcf-5c17-4562-a759-37082ec49ff8` · printing: TLA #169 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bumi's Feast Lecture
 
@@ -698,7 +787,18 @@
   > Create a Food token. Then earthbend X, where X is twice the number of Foods you control. (A Food token is an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life." To earthbend X, target land you control becomes a 0/0 creature with haste that's still a land. Put X +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)
 - **Keywords:** Food, Earthbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11956 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/133/bumis-feast-lecture) · oracle_id `41f53bb5-8a62-4e6b-b9c3-5aa530a036bc` · printing: TLE #133 (2025-11-21) · [rulings](https://api.scryfall.com/cards/f29ba4cb-112a-4065-883b-94d1e154b83f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2025-10-02* — "Earthbend N" means "Target land you control becomes a 0/0 land creature with haste in addition to its other types. Put N +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control."
+  - *2025-10-02* — Earthbend doesn't give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.
+  - *2025-10-02* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2025-10-02* — If a land was animated by earthbend and would go to any zone other than the graveyard or exile, it will not be returned to the battlefield by the delayed triggered ability created by earthbend.
+  - *2025-10-02* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Bosco, Just a Bear's ability (an ability with "Sacrifice a Food" in its cost). You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Bosco, Just a Bear's ability.
+  - *2025-10-02* — If the targeted land becomes an illegal target before the spell or ability that includes earthbend resolves, earthbend does nothing. If the spell or ability didn't have other targets, it won't resolve.
+  - *2025-10-02* — Some spells and abilities that create Food tokens may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Food tokens.
+  - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
+  - *2025-10-02* — Whatever you do, don't eat the delicious cards.
+  - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/133/bumis-feast-lecture) · oracle_id `41f53bb5-8a62-4e6b-b9c3-5aa530a036bc` · printing: TLE #133 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bumi, Unleashed
 
@@ -731,7 +831,10 @@
   > *"These bumping cars remind me of the time your amusement park smashed into my planet."*
   > *—Ambassador Blorpityblorpboop*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32338 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/202a/bumper-cars) · oracle_id `f2fe3d93-77f0-400f-85f1-dc6e84111bff` · printing: UNF #202a (2022-10-07) · [rulings](https://api.scryfall.com/cards/2bdefffa-14bb-4a2b-9e75-13e29eaa6677/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-07* — During the declare blockers step, the defending player must assign at least one blocker to each creature that must be blocked if that player controls any creatures that could block it.
+  - *2022-10-07* — If multiple attacking creatures must be blocked, the defending player must assign blockers in such a way that the greatest number of those attacking creatures are blocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/202a/bumper-cars) · oracle_id `f2fe3d93-77f0-400f-85f1-dc6e84111bff` · printing: UNF #202a (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bump in the Night
 
@@ -744,7 +847,14 @@
   > *It's not just the wind. It's not all in your head. And it's \*definitely\* something to worry about.*
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25662 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddk/57/bump-in-the-night) · oracle_id `d9f2c571-b357-4d4d-94c5-fd47551bb842` · printing: DDK #57 (2013-03-15) · [rulings](https://api.scryfall.com/cards/320e394c-c8b1-42ad-91a5-6d57296f85ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it’s legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you’re paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card’s type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+  - *2021-03-19* — “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddk/57/bump-in-the-night) · oracle_id `d9f2c571-b357-4d4d-94c5-fd47551bb842` · printing: DDK #57 (2013-03-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Buoyancy
 
@@ -758,6 +868,7 @@
   > *Saprazzan merfolk become legged on land, but some find it quicker to bring the water with them.*
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28526 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/63/buoyancy) · oracle_id `f4e4060d-bfff-4991-9ae5-8f848304cd1e` · printing: MMQ #63 (1999-10-04) · [rulings](https://api.scryfall.com/cards/b208dad2-a412-45fd-b19a-d370426ef5b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burakos, Party Leader
@@ -796,7 +907,10 @@
   > *"Curse this glorious golden weight!"*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17476 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/38/burdened-aerialist) · oracle_id `dd39cccb-095c-4ef4-8423-f4d328849295` · printing: MH2 #38 (2021-06-18) · [rulings](https://api.scryfall.com/cards/8387bc7c-2e0a-4ff2-9882-e5e7c92c8463/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-06-18* — Burdened Aerialist's ability will trigger whenever you sacrifice a token for any reason, not just when you sacrifice Treasure tokens.
+  - *2021-06-18* — If a blocked creature gains flying after blockers are declared, it won't cause that creature to become unblocked, even if the blocking creature doesn't have flying or reach.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/38/burdened-aerialist) · oracle_id `dd39cccb-095c-4ef4-8423-f4d328849295` · printing: MH2 #38 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burdened Stoneback
 
@@ -807,6 +921,7 @@
   > This creature enters with two -1/-1 counters on it.
   > {1}{W}, Remove a counter from this creature: Target creature gains indestructible until end of turn. Activate only as a sorcery. (Damage and effects that say "destroy" don't destroy it. If its toughness is 0 or less, it still dies.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20739 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/8/burdened-stoneback) · oracle_id `8a5e17a0-6f3c-49ed-b328-ed90a46ed6c5` · printing: ECL #8 (2026-01-23) · [rulings](https://api.scryfall.com/cards/3278b8d0-3d2b-4d3d-bbf1-fd9b714b53ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burden of Greed
@@ -819,6 +934,7 @@
   > *"The one who dies with the most toys is still dead."*
   > *—Geth, keeper of the Vault*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28776 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dst/38/burden-of-greed) · oracle_id `a80c13db-949d-4784-8177-04aaa22b96b0` · printing: DST #38 (2004-02-06) · [rulings](https://api.scryfall.com/cards/d37abcf5-f009-4258-bf32-b93b47cb71dc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burden of Guilt
@@ -833,7 +949,9 @@
   > *—Thalia, Knight-Cathar*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22446 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dka/4/burden-of-guilt) · oracle_id `1ae88ba6-4973-45d1-a251-4d924ab4bc73` · printing: DKA #4 (2012-02-03) · [rulings](https://api.scryfall.com/cards/d7440288-6c55-4502-bf20-3c5b50a2de5a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-22* — Only Burden of Guilt’s controller can activate its ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dka/4/burden-of-guilt) · oracle_id `1ae88ba6-4973-45d1-a251-4d924ab4bc73` · printing: DKA #4 (2012-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burden of Proof
 
@@ -847,7 +965,9 @@
   > *"You must have known all those lies would catch up to you eventually."*
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23460 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/42/burden-of-proof) · oracle_id `d1767573-713d-4f63-a09d-e94150655093` · printing: MKM #42 (2024-02-09) · [rulings](https://api.scryfall.com/cards/4ea29c34-4b55-4170-9120-0a8dda61f2eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-02-02* — Once a Detective has been blocked, attaching Burden of Proof to a creature blocking it won't cause that Detective to become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/42/burden-of-proof) · oracle_id `d1767573-713d-4f63-a09d-e94150655093` · printing: MKM #42 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bureaucracy
 
@@ -857,6 +977,7 @@
   > Pursuant to subsection 3.1(4) of Richard's Rules of Order, at the beginning of the upkeep of each participant in this game of the Magic: The Gathering® trading card game (hereafter known as "PLAYER"), that PLAYER performs all actions in the sequence of previously added actions (hereafter known as "ACTION QUEUE"), in the order those actions were added, then adds another action to the end of the ACTION QUEUE. All actions must be simple physical or verbal actions that a player can perform while sitting in a chair, without jeopardizing the health and security of said PLAYER.
   > When any PLAYER does not perform all the prescribed actions in the correct order, sacrifice this enchantment and said PLAYER discards their complement of cards in hand (hereafter known as "HAND").
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ugl/14/bureaucracy) · oracle_id `22826477-c096-4b28-aa58-8368525209eb` · printing: UGL #14 (1998-08-11) · [rulings](https://api.scryfall.com/cards/43417d07-725e-4c3d-99d2-bbbfbdeee770/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bureau Headmaster
@@ -940,7 +1061,9 @@
 - **Oracle text:**
   > You may begin the game with Buried Ogre in your graveyard. If you do, you lose 1 life.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/36/buried-ogre) · oracle_id `d21cd679-b25c-4ff7-b65f-d2fd371b35cb` · printing: CMB2 #36 (2021-08-20) · [rulings](https://api.scryfall.com/cards/65a0a783-d8bb-4c51-b2bc-5cfd6a9c29e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-11-12* — You may put Buried Ogre into your graveyard before shuffling the other cards in your deck to become your library. If you do, you lose 1 life immediately after setting your starting life total.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/36/buried-ogre) · oracle_id `d21cd679-b25c-4ff7-b65f-d2fd371b35cb` · printing: CMB2 #36 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Buried Ruin
 
@@ -964,7 +1087,17 @@
   > {5}, Exile this card from your graveyard: Discover 5. Activate only as a sorcery. (Exile cards from the top of your library until you exile a nonland card with mana value 5 or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.)
 - **Keywords:** Discover
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13874 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/246/buried-treasure) · oracle_id `56f5ed8d-ef53-4766-9ef3-1e24a10e267b` · printing: LCI #246 (2023-11-17) · [rulings](https://api.scryfall.com/cards/4c9c45b6-dedd-4481-a06a-c83ace2f18fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2023-11-10* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2023-11-10* — If the discovered card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2023-11-10* — If you can't cast the discovered card (perhaps because there are no legal targets for the spell), you'll put it into your hand.
+  - *2023-11-10* — If you cast a spell "without paying its mana cost", you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, you must pay those to cast it.
+  - *2023-11-10* — If you discover an adventurer card, split card, or modal double-faced card, you might be able to cast that card with either set of characteristics depending on the effect's discover value. For example, if you discover 4 and reveal Galvanic Giant (an adventurer card from Wilds of Eldraine with a mana value of 4), you could cast Galvanic Giant, but not Storm Reading (its Adventure, which has a mana value of 7). If you discover 7 and reveal Galvanic Giant, you could cast either Galvanic Giant or Storm Reading.
+  - *2023-11-10* — Some spells and abilities that cause you to discover may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve and you won't discover.
+  - *2023-11-10* — The mana value of a split card is determined by the combined mana cost of its two halves. If discover allows you to cast a split card, you may cast either half (as long as its mana value is less than or equal to the effect's discover value) but not both halves.
+  - *2023-11-10* — When you discover, you must exile cards. The only optional part of the ability is whether you cast the exiled card or put it into your hand.
+  - *2023-11-10* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/246/buried-treasure) · oracle_id `56f5ed8d-ef53-4766-9ef3-1e24a10e267b` · printing: LCI #246 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burlfist Oak
 
@@ -976,7 +1109,9 @@
 - **Flavor text** (M21 printing):
   > *If a tree fells you in the forest and no one is around to hear it, "does it make a sound" is the last thing you need to worry about.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22065 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/174/burlfist-oak) · oracle_id `95a08f25-8d44-4704-a4d1-a098bf010932` · printing: M21 #174 (2020-07-03) · [rulings](https://api.scryfall.com/cards/3d0ec3bd-d894-4861-abcb-7b2e4f4de05c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-06-23* — If a spell or ability causes a player to put a card into their hand without specifically using the word “draw,” it's not a card drawn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/174/burlfist-oak) · oracle_id `95a08f25-8d44-4704-a4d1-a098bf010932` · printing: M21 #174 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burly Breaker // Dire-Strain Demolisher
 
@@ -991,7 +1126,17 @@
   > Nightbound (If a player casts at least two spells during their own turn, it becomes day next turn.)
 - **Keywords:** Transform, Daybound, Ward, Nightbound
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15533 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/174/burly-breaker-dire-strain-demolisher) · oracle_id `4cbfb898-e1ca-4e34-9cb2-11ba50272984` · printing: MID #174 (2021-09-24) · [rulings](https://api.scryfall.com/cards/3849ad37-f80d-4ffc-9240-25a63326b3dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2021-09-24* — Before a player untaps their permanents during the untap step, the game checks to see if the day/night designation should change.
+  - *2021-09-24* — Day and night are designations that the game itself can have. The game starts as neither. Once the game becomes day (or less commonly, night), the game will be exactly one of them—day or night—going back and forth for the rest of the game.
+  - *2021-09-24* — Double-faced permanents with daybound transform to their nightbound faces as it becomes night. Similarly, double-faced permanents with nightbound transform to their daybound faces as it becomes day. This happens immediately and is not a state-based action. It happens any time it becomes day or night, not just during the untap step.
+  - *2021-09-24* — If it is day, and the active player of the previous turn cast no spells during their turn, it becomes night.
+  - *2021-09-24* — If it is night, and the active player of the previous turn cast two or more spells during their turn, it becomes day.
+  - *2021-09-24* — If it is night, permanents with daybound that enter the battlefield without being cast will enter with their nightbound faces up.
+  - *2021-09-24* — If it's neither day nor night, and a creature with daybound and a creature with nightbound somehow appear on the battlefield at the same time, it becomes day. The creature with nightbound will transform.
+  - *2021-09-24* — If you cast a spell with daybound during night, that spell will be front face up (that is, daybound face up) on the stack. However, it will enter the battlefield with its back face up (that is, with its nightbound face up). It won't enter with its daybound face up and then transform.
+  - *2021-09-24* — Permanents with daybound and nightbound can't transform via any means other than their daybound and nightbound abilities. Notably, older cards such as Moonmist that instruct a player to transform permanents don't affect permanents with daybound or nightbound.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/174/burly-breaker-dire-strain-demolisher) · oracle_id `4cbfb898-e1ca-4e34-9cb2-11ba50272984` · printing: MID #174 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burn at the Stake
 
@@ -1001,7 +1146,11 @@
   > As an additional cost to cast this spell, tap any number of untapped creatures you control.
   > Burn at the Stake deals damage to any target equal to three times the number of creatures tapped this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11803 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/avr/130/burn-at-the-stake) · oracle_id `eb23bbb0-dd12-44f1-8645-d92f46cbe8ff` · printing: AVR #130 (2012-05-04) · [rulings](https://api.scryfall.com/cards/d46e9902-81fb-4a3c-9f2f-d3faf031631d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2012-05-01* — All creatures tapped this way become tapped at the same time.
+  - *2012-05-01* — Players may not respond to the paying of costs. Once Burn at the Stake has been announced and put on the stack, no one can try to respond by tapping any creatures.
+  - *2012-05-01* — The amount of damage Burn at the Stake deals won’t change if any creatures tapped to cast it become untapped or leave the battlefield before it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/avr/130/burn-at-the-stake) · oracle_id `eb23bbb0-dd12-44f1-8645-d92f46cbe8ff` · printing: AVR #130 (2012-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burn Away
 
@@ -1013,7 +1162,9 @@
   > *"Your corruption will burn, serpent, until there is nothing left to defile."*
   > *—Asmala, bloodfire mystic*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21939 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/151/burn-away) · oracle_id `65dcad6b-9a87-4313-bc71-682e1de262d0` · printing: CN2 #151 (2016-08-26) · [rulings](https://api.scryfall.com/cards/b09c774a-0ea0-4bb8-9195-ea2d83461e75/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-09-20* — If the creature doesn’t die that turn, the delayed triggered ability will simply cease to exist. It won’t trigger on a future turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/151/burn-away) · oracle_id `65dcad6b-9a87-4313-bc71-682e1de262d0` · printing: CN2 #151 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burn Bright
 
@@ -1025,6 +1176,7 @@
   > *"From a great bonfire at the dawn of time, the first Gruul kindled their rage. The same flame burns in you."*
   > *—Kroshkar, Gruul shaman*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16709 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/103/burn-bright) · oracle_id `ed14c7fa-632c-47ee-9db0-8c492771121a` · printing: RVR #103 (2024-01-12) · [rulings](https://api.scryfall.com/cards/d10a0f92-c42d-4257-8f64-89fe26687fba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burn, Burn, Tree and Fern
@@ -1037,6 +1189,7 @@
   > II — Destroy target artifact an opponent controls.
   > III, IV — Add {R}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15613 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/90/burn-burn-tree-and-fern) · oracle_id `a97d6c5c-1cff-442d-b535-fc8389160b0b` · printing: HOB #90 (2026-08-14) · [rulings](https://api.scryfall.com/cards/fceb1a2d-121e-49ad-acf2-1bb5aebec116/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burn Down the House
@@ -1062,7 +1215,9 @@
   > Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Crew, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16037 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/114/burner-rocket) · oracle_id `0d07eb9f-46f4-466d-acb6-609437c34f13` · printing: DFT #114 (2025-02-14) · [rulings](https://api.scryfall.com/cards/ecee6509-1103-4ae5-a2e7-0441f5d4a872/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-02-07* — This Vehicle’s triggered ability requires a target at the time you put it on the stack, which means you can’t crew this Vehicle in time to make it a legal target for its own triggered ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/114/burner-rocket) · oracle_id `0d07eb9f-46f4-466d-acb6-609437c34f13` · printing: DFT #114 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burn from Within
 
@@ -1071,7 +1226,11 @@
 - **Oracle text:**
   > Burn from Within deals X damage to any target. If a creature is dealt damage this way, it loses indestructible until end of turn. If that creature would die this turn, exile it instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12769 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/148/burn-from-within) · oracle_id `8a1ccbdb-3d89-42fb-a731-6db4241acf24` · printing: SOI #148 (2016-04-08) · [rulings](https://api.scryfall.com/cards/f8bdc165-4c6f-47e6-8bda-877c0be3613b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-04-08* — If Burn from Within doesn’t deal damage to the target creature (perhaps because that damage was prevented or X is 0), neither additional effect will apply. It won’t lose indestructible, and it won’t be exiled instead of dying that turn.
+  - *2016-04-08* — The damaged creature will be exiled if it would die for any reason that turn, not just if it dies due to damage from Burn from Within.
+  - *2016-04-08* — You can target a creature that doesn’t have indestructible with Burn from Within. It will still be exiled if it would die this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/148/burn-from-within) · oracle_id `8a1ccbdb-3d89-42fb-a731-6db4241acf24` · printing: SOI #148 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning Anger
 
@@ -1084,7 +1243,10 @@
   > *"With rage as your forge, your hammer can smite anything."*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12625 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/166/burning-anger) · oracle_id `a2c76ac2-5ab1-450c-b64e-e9a6c4dad1ca` · printing: CMR #166 (2020-11-20) · [rulings](https://api.scryfall.com/cards/3d5a8f92-4418-4993-9f56-0b2f5069597c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-11-10* — The enchanted creature is the source of the activated ability, not Burning Anger. For example, if the enchanted creature is green, you could activate the ability choosing a creature with protection from red as the target.
+  - *2020-11-10* — Use the power of the enchanted creature as the activated ability resolves to determine how much damage is dealt. If the creature isn't on the battlefield at that time, use its power as it last existed on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/166/burning-anger) · oracle_id `a2c76ac2-5ab1-450c-b64e-e9a6c4dad1ca` · printing: CMR #166 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning Cinder Fury of Crimson Chaos Fire
 
@@ -1094,6 +1256,7 @@
   > Whenever any player taps a permanent, that player chooses one of their opponents. The chosen player gains control of that permanent at the beginning of the next end step.
   > At the beginning of each player's end step, if that player didn't tap any nonland permanents that turn, this enchantment deals 3 damage to that player.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ugl/40/burning-cinder-fury-of-crimson-chaos-fire) · oracle_id `9716976e-1b52-4351-932e-b99fe206afbd` · printing: UGL #40 (1998-08-11) · [rulings](https://api.scryfall.com/cards/17ed4800-dc0f-4681-9ae6-74bd0018e8dc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning Cloak
@@ -1103,6 +1266,7 @@
 - **Oracle text:**
   > Target creature gets +2/+0 until end of turn. Burning Cloak deals 2 damage to that creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31227 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/por/120/burning-cloak) · oracle_id `4527c622-cebe-41eb-9178-4895cccffe99` · printing: POR #120 (1997-05-01) · [rulings](https://api.scryfall.com/cards/e2b8f443-dba5-45a5-bb2e-f57b4fdd1d01/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning Curiosity
@@ -1151,7 +1315,9 @@
 - **Oracle text:**
   > When this creature dies, if 4 or more damage was dealt to it this turn, this creature deals 3 damage to any target.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30917 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sok/95/burning-eye-zubera) · oracle_id `24bf8773-c8bb-494c-a0af-aef80f5b3d47` · printing: SOK #95 (2005-06-03) · [rulings](https://api.scryfall.com/cards/ae9ca5c3-8367-4e08-a318-634f9d36dbdc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2005-06-01* — Burning-Eye Zubera’s ability counts all damage dealt to it this turn, from all sources.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sok/95/burning-eye-zubera) · oracle_id `24bf8773-c8bb-494c-a0af-aef80f5b3d47` · printing: SOK #95 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning Fields
 
@@ -1163,6 +1329,7 @@
   > *"In raiding and plundering, be like fire, in immovability like a mountain."*
   > *—Sun Tzu, \*Art of War\* (trans. Giles)*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30614 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/103/burning-fields) · oracle_id `b3b58231-d532-423b-91d0-78d9c0f66f0f` · printing: PTK #103 (1999-05-01) · [rulings](https://api.scryfall.com/cards/dee12f01-581e-4a3c-a8b5-41bef2516781/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning-Fist Minotaur
@@ -1177,6 +1344,7 @@
   > *"There is no afterlife. Not for me, and not for you. So think again before getting in my way."*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22682 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/85/burning-fist-minotaur) · oracle_id `5460c76f-39dc-4db0-acf7-146d533d822b` · printing: HOU #85 (2017-07-14) · [rulings](https://api.scryfall.com/cards/52f191fb-eaf6-432f-a668-37ad48ffabaf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning Hands
@@ -1188,6 +1356,7 @@
 - **Flavor text** (AFR printing):
   > *A simple fire spell that grows in intensity along with its caster.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21689 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/135/burning-hands) · oracle_id `51a0d1c2-ff29-4ac9-84a2-ad4f566fee8d` · printing: AFR #135 (2021-07-23) · [rulings](https://api.scryfall.com/cards/66e2d723-3fa0-4411-8f98-e4e6b3a5e6df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning Inquiry
@@ -1211,7 +1380,13 @@
 - **Oracle text:**
   > You destroy four lands you control, then target opponent destroys four lands they control. Then Burning of Xinye deals 4 damage to each creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26000 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/151/burning-of-xinye) · oracle_id `3a3cec13-4766-40d2-88e0-41bcdd5249e9` · printing: VMA #151 (2014-06-16) · [rulings](https://api.scryfall.com/cards/9aae2b96-36f5-4492-a942-cc988408b1e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2009-10-01* — A land with a regeneration shield on it will regenerate from Burning of Xinye’s destruction effect. However, the spell or ability that creates that shield must be cast or activated before Burning of Xinye starts to resolve.
+  - *2009-10-01* — Burning of Xinye targets only an opponent. If that player is an illegal target by the time Burning of Xinye resolves, the entire spell doesn’t resolve.
+  - *2009-10-01* — In a multiplayer game, only lands controlled by two players (you and the targeted opponent) are destroyed. However, Burning of Xinye will deal 4 damage to each creature, even those controlled by other players.
+  - *2009-10-01* — The lands that will be destroyed aren’t chosen until Burning of Xinye resolves.
+  - *2013-07-01* — As Burning of Xinye resolves, first you destroy four lands you control (all at the same time), then the targeted opponent destroys four lands they control (all at the same time). That player chooses which of their lands to destroy. Neither of you can choose to destroy a land with indestructible.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/151/burning-of-xinye) · oracle_id `3a3cec13-4766-40d2-88e0-41bcdd5249e9` · printing: VMA #151 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning Oil
 
@@ -1224,7 +1399,14 @@
   > *Every now and then, a devil's prank can give you a good idea.*
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29205 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dka/84/burning-oil) · oracle_id `c8e9bec0-43e5-4e84-9e0e-5f3db362f1e4` · printing: DKA #84 (2012-02-03) · [rulings](https://api.scryfall.com/cards/47773da8-afe4-43e1-8355-6ab51451ee00/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it’s legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you’re paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card’s type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+  - *2021-03-19* — “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/dka/84/burning-oil) · oracle_id `c8e9bec0-43e5-4e84-9e0e-5f3db362f1e4` · printing: DKA #84 (2012-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning Palm Efreet
 
@@ -1236,6 +1418,7 @@
 - **Flavor text** (MIR printing):
   > *Even the lion envies the lark.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31906 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/161/burning-palm-efreet) · oracle_id `55cbc0e8-eeec-433a-b70c-3501238b658b` · printing: MIR #161 (1996-10-08) · [rulings](https://api.scryfall.com/cards/a194488a-1d6f-4bc3-8f30-82e2c3c91389/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning Prophet
@@ -1249,7 +1432,9 @@
   > *"This day will end in death, but not the one you hoped for. This day will end in victory, but not the one you expected."*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12747 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/104/burning-prophet) · oracle_id `1e462ce2-15d3-473c-8f48-9c9363fc65eb` · printing: RVR #104 (2024-01-12) · [rulings](https://api.scryfall.com/cards/fdc5436b-9655-4fd4-bb1e-9d6a30dfeb81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-05-03* — Burning Prophet’s ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/104/burning-prophet) · oracle_id `1e462ce2-15d3-473c-8f48-9c9363fc65eb` · printing: RVR #104 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning-Rune Demon
 
@@ -1276,6 +1461,7 @@
   > *"Pain teaches lessons no scholar can."*
   > *—Kamahl, pit fighter*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18936 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/180/burning-sands) · oracle_id `262dd956-d90d-4782-91b6-6d183ec08b6c` · printing: ODY #180 (2001-10-01) · [rulings](https://api.scryfall.com/cards/9a5d5eef-6e3c-4907-a277-a13de2916e2b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning Shield Askari
@@ -1291,6 +1477,7 @@
   > *—Akin, seasoned askari*
 - **Keywords:** Flanking
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29225 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/162/burning-shield-askari) · oracle_id `042fd95a-5e85-4ce5-bb68-066a295c54fb` · printing: MIR #162 (1996-10-08) · [rulings](https://api.scryfall.com/cards/486547cd-d2e7-4c46-9f7b-81c4267d65cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning Sun Cavalry
@@ -1303,7 +1490,9 @@
 - **Flavor text** (LCI printing):
   > *"By fire and lightning, tooth and claw, we will send these invaders fleeing back to Torrezon!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26176 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/138/burning-sun-cavalry) · oracle_id `9da7e8b5-887d-4174-b7aa-982fd052fcd1` · printing: LCI #138 (2023-11-17) · [rulings](https://api.scryfall.com/cards/0c491ac0-4752-47a7-967e-456b6e4245de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-11-10* — If you controlled a Dinosaur when you declared Burning Sun Cavalry as an attacker or blocker, it doesn't matter whether you still control one as its ability resolves. Burning Sun Cavalry will still get +1/+1 until end of turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/138/burning-sun-cavalry) · oracle_id `9da7e8b5-887d-4174-b7aa-982fd052fcd1` · printing: LCI #138 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning Sun's Avatar
 
@@ -1316,7 +1505,10 @@
   > *"Tilonalli's searing rays carry the spark of life's eventual destruction as all light fades."*
   > *—Chitlati, Lightning Rider*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10801 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/135/burning-suns-avatar) · oracle_id `248d7759-aa73-4430-aa86-d45dc607944b` · printing: XLN #135 (2017-09-29) · [rulings](https://api.scryfall.com/cards/146c0cab-5f6b-425d-9f50-33d8da266235/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-09-29* — If the ability of Burning Sun’s Avatar has two targets and one becomes illegal, the other will still be dealt damage.
+  - *2017-09-29* — The ability of Burning Sun’s Avatar can target any creature, not just one controlled by the target opponent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/135/burning-suns-avatar) · oracle_id `248d7759-aa73-4430-aa86-d45dc607944b` · printing: XLN #135 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning Sun's Fury
 
@@ -1329,7 +1521,14 @@
   > *Ixalan greeted Phyrexia with a defiant roar.*
 - **Keywords:** Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20769 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/133/burning-suns-fury) · oracle_id `9c0073d7-a12a-45ba-8ac3-9e2230e2fb06` · printing: MOM #133 (2023-04-21) · [rulings](https://api.scryfall.com/cards/2731e181-f59c-446c-bb86-8f93bfbb10e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/133/burning-suns-fury) · oracle_id `9c0073d7-a12a-45ba-8ac3-9e2230e2fb06` · printing: MOM #133 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning-Tree Bloodscale
 
@@ -1342,7 +1541,9 @@
   > {2}{G}: Target creature blocks this creature this turn if able.
 - **Keywords:** Bloodthirst
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30335 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/104/burning-tree-bloodscale) · oracle_id `a9be4be0-71fe-41d9-8f30-351385753fc9` · printing: GPT #104 (2006-02-03) · [rulings](https://api.scryfall.com/cards/c6492648-8115-41ff-a184-08efebae28b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-02-01* — If both abilities are used on the same creature, it can't block Burning-Tree Bloodscale.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/104/burning-tree-bloodscale) · oracle_id `a9be4be0-71fe-41d9-8f30-351385753fc9` · printing: GPT #104 (2006-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning-Tree Emissary
 
@@ -1354,7 +1555,9 @@
 - **Flavor text** (2X2 printing):
   > *Those who regard the Gruul as savage simpletons underestimate the subtle power of their shamans.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14778 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/189/burning-tree-emissary) · oracle_id `327d9679-0049-4401-8dab-e0fb362306bd` · printing: 2X2 #189 (2022-07-08) · [rulings](https://api.scryfall.com/cards/ba327a5e-bd57-4e24-b4b4-062202df30e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-03-14* — Burning-Tree Emissary's ability isn't a mana ability. It uses the stack and can be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/189/burning-tree-emissary) · oracle_id `327d9679-0049-4401-8dab-e0fb362306bd` · printing: 2X2 #189 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning-Tree Shaman
 
@@ -1366,7 +1569,10 @@
 - **Flavor text** (GPT printing):
   > *Gruul shamans are bent on punishing the civilized. Any act more complex than rubbing sticks together or eating with utensils is met with the stinging burn of their magic.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22645 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/105/burning-tree-shaman) · oracle_id `8593e899-8e6f-4d40-96ab-98788b3d9486` · printing: GPT #105 (2006-02-03) · [rulings](https://api.scryfall.com/cards/133863fc-e820-4be6-a354-a02e7fe25eae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2006-02-01* — A mana ability is an ability that adds mana, not one that costs mana to activate.
+  - *2013-04-15* — A mana ability is an ability that (1) isn't a loyalty ability, (2) doesn't target, and (3) could add mana when it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/105/burning-tree-shaman) · oracle_id `8593e899-8e6f-4d40-96ab-98788b3d9486` · printing: GPT #105 (2006-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning-Tree Vandal
 
@@ -1380,7 +1586,11 @@
   > *The ostentatious splendor of the Orzhov church was just asking to be smashed.*
 - **Keywords:** Riot
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21661 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/105/burning-tree-vandal) · oracle_id `5bed3702-984d-436f-bb71-e16eaeffe902` · printing: RVR #105 (2024-01-12) · [rulings](https://api.scryfall.com/cards/f61d0a8a-8c2b-4870-83d3-8286a63637b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-01-25* — If a creature entering the battlefield has riot but can’t have a +1/+1 counter put onto it, it gains haste.
+  - *2019-01-25* — If you choose for the creature to gain haste, it gains haste indefinitely. It won’t lose it as the turn ends or as another player gains control of it.
+  - *2019-01-25* — Riot is a replacement effect. Players can’t respond to your choice of +1/+1 counter or haste, and they can’t take actions while the creature is on the battlefield without one or the other.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/105/burning-tree-vandal) · oracle_id `5bed3702-984d-436f-bb71-e16eaeffe902` · printing: RVR #105 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning Vengeance
 
@@ -1391,7 +1601,10 @@
 - **Flavor text** (INR printing):
   > *Mist is the geists' sorrow. Wind is their pain. Fire is their vengeance.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13147 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/147/burning-vengeance) · oracle_id `ef1fb174-9a34-43d0-8caf-9c1938147a12` · printing: INR #147 (2025-01-24) · [rulings](https://api.scryfall.com/cards/389c7393-a10d-48c0-8b64-73faa8f7d3d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-01-24* — Burning Vengeance doesn’t trigger when you activate an ability of a card in your graveyard, such as unearth or the ability of Reassembling Skeleton.
+  - *2025-01-24* — Burning Vengeance’s triggered ability will resolve before the spell you cast from your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/147/burning-vengeance) · oracle_id `ef1fb174-9a34-43d0-8caf-9c1938147a12` · printing: INR #147 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning Wish
 
@@ -1402,7 +1615,12 @@
 - **Flavor text** (CN2 printing):
   > *She wished for a weapon, but not for the skill to wield it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27274 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/152/burning-wish) · oracle_id `13a884b5-8970-4d71-9082-a8b6c8db9a01` · printing: CN2 #152 (2016-08-26) · [rulings](https://api.scryfall.com/cards/3abb0b65-b3de-4193-ae60-9b8ba55636b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2004-10-04* — Can’t acquire the Ante cards. They are considered still “in the game” as are cards in the library and the graveyard.
+  - *2007-09-16* — Can’t acquire cards that are phased out.
+  - *2009-10-01* — In a sanctioned event, a card that’s “outside the game” is one that’s in your sideboard. In an unsanctioned event, you may choose any card from your collection.
+  - *2009-10-01* — You can’t acquire exiled cards because those cards are still in one of the game’s zones.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/152/burning-wish) · oracle_id `13a884b5-8970-4d71-9082-a8b6c8db9a01` · printing: CN2 #152 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning-Yard Trainer
 
@@ -1416,6 +1634,7 @@
   > *"For every scar I've received, I've given ten back."*
 - **Keywords:** Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28041 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/117/burning-yard-trainer) · oracle_id `6ea7a921-45b2-4589-833b-75b6dc6aed07` · printing: ELD #117 (2019-10-04) · [rulings](https://api.scryfall.com/cards/17755d1b-3a56-4362-a534-85b35ceb1802/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burnished Hart
@@ -1442,7 +1661,9 @@
   > *"GOTCHA!"*
   > *—Jaya Ballard, task mage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12462 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me2/121/burnout) · oracle_id `90865918-2f9a-4ab6-a881-e86f61a527cc` · printing: ME2 #121 (2008-09-22) · [rulings](https://api.scryfall.com/cards/8c8d78d3-6760-4a66-adbd-d8aa2544e057/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — You may target any instant spell with Burnout. If it’s blue at the time Burnout resolves, that spell will be countered and you’ll draw a card at the beginning of the next turn’s upkeep. If it’s not blue at the time Burnout resolves, that spell won’t be countered, but you’ll still draw a card at the beginning of the next turn’s upkeep.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me2/121/burnout) · oracle_id `90865918-2f9a-4ab6-a881-e86f61a527cc` · printing: ME2 #121 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burnout Bashtronaut
 
@@ -1456,7 +1677,14 @@
   > Max speed — This creature has double strike.
 - **Keywords:** Max speed, Menace, Start your engines!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10063 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/115/burnout-bashtronaut) · oracle_id `1b122fbb-c2e1-42d1-bfc5-fcacacdfa0bc` · printing: DFT #115 (2025-02-14) · [rulings](https://api.scryfall.com/cards/4db66e7b-cb7a-4d86-a563-d570946aeb0d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-02-07* — A player “has max speed” if their speed is 4.
+  - *2025-02-07* — Each player tracks their speed (or lack thereof) separately. Increasing your speed has no effect on whether another player has speed.
+  - *2025-02-07* — If an effect needs to know what a player’s speed is and that player doesn’t have a speed, their speed is considered 0.
+  - *2025-02-07* — Start your engines! isn’t a triggered ability. Increasing your speed to 1 is something that happens as a state-based action as soon as you control a permanent with the ability. Notably, this includes gaining control of a permanent with the ability that another player controls.
+  - *2025-02-07* — Your speed doesn’t change until a spell or ability says so, such as the inherent triggered ability that cares about opponents losing life during your turn. Notably, losing control of permanents with start your engines! doesn’t affect your speed.
+  - *2025-02-07* — “Max speed — [ability]” means “As long as you have max speed, this object has [ability].” If the granted ability functions in a zone other than the battlefield, the max speed ability does too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/115/burnout-bashtronaut) · oracle_id `1b122fbb-c2e1-42d1-bfc5-fcacacdfa0bc` · printing: DFT #115 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burn the Accursed
 
@@ -1467,6 +1695,7 @@
 - **Flavor text** (MID printing):
   > *Nothing remained but a few drifting embers and the smell of smoldering hair.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20977 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/132/burn-the-accursed) · oracle_id `b5aae42b-3fde-4f10-b85e-882c528badef` · printing: MID #132 (2021-09-24) · [rulings](https://api.scryfall.com/cards/ff4d4e6b-564d-46da-8e32-09ed08c8ddc5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burn the Impure
@@ -1478,7 +1707,9 @@
 - **Flavor text** (MBS printing):
   > *Flame doesn't kneel to Phyrexia.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29163 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/59/burn-the-impure) · oracle_id `9503c801-eb6f-4f34-9062-c56105509b7b` · printing: MBS #59 (2011-02-04) · [rulings](https://api.scryfall.com/cards/b5641730-428d-4484-866e-ec1ac669537f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-06-01* — If the creature is an illegal target when Burn the Impure resolves, the spell won’t resolve and none of its effects will happen, even if that creature has infect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/59/burn-the-impure) · oracle_id `9503c801-eb6f-4f34-9062-c56105509b7b` · printing: MBS #59 (2011-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burn the Phyresis
 
@@ -1488,6 +1719,7 @@
   > Poison Tolerance +2 (It takes two additional poison counters for you to lose the game to poison.)
   > When Burn the Phyresis enters the battlefield, it deals 3 damage to any target.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/CR13/burn-the-phyresis) · oracle_id `24c90595-e5e9-4e27-acd0-661b27afad88` · printing: UNK #CR13 (2023-02-17) · [rulings](https://api.scryfall.com/cards/bcfdcd78-bba0-4b0b-b72f-fe8c918756e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burnt Offering
@@ -1515,6 +1747,7 @@
   > Conspire (As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose a new target for the copy.)
 - **Keywords:** Conspire
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29658 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/86/burn-trail) · oracle_id `566b4dcc-b7d7-4443-b2d0-954f1fc33a11` · printing: SHM #86 (2008-05-02) · [rulings](https://api.scryfall.com/cards/7f01f9a0-f1d0-4241-a270-df4ed673d1fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burrenton Bombardier
@@ -1529,6 +1762,7 @@
   > *The flasks provide ballast, a means of steering, and—with a little luck—a way to deliver ward-spells to cohorts below.*
 - **Keywords:** Flying, Reinforce
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28394 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddf/11/burrenton-bombardier) · oracle_id `13ec2390-e08a-4645-99e9-bac7e41917bb` · printing: DDF #11 (2010-09-03) · [rulings](https://api.scryfall.com/cards/fd872395-f351-4f7e-9290-c34d1c98a567/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burrenton Forge-Tender
@@ -1543,7 +1777,11 @@
   > *"We are a clachan of smiths. The forge is as comfortable to us as a small fire during a cool winter's evening."*
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23860 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/14/burrenton-forge-tender) · oracle_id `70bb275b-3458-4690-a50f-b231fbf0bccb` · printing: IMA #14 (2017-11-17) · [rulings](https://api.scryfall.com/cards/40dd31ae-f252-449b-9d79-749a9a255763/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-11-17* — If a permanent spell is chosen as the source of damage, Burrenton Forge-Tender’s prevention effect continues to apply for the rest of the turn to the permanent that spell becomes once it has entered the battlefield.
+  - *2017-11-17* — If the red source you chose changes colors before it deals damage, the damage-prevention effect doesn’t apply.
+  - *2017-11-17* — The last ability of Burrenton Forge-Tender doesn’t target anything. You choose a source of damage as the ability resolves, if able. You can activate it even if there is no source to choose.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/14/burrenton-forge-tender) · oracle_id `70bb275b-3458-4690-a50f-b231fbf0bccb` · printing: IMA #14 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burrenton Shield-Bearers
 
@@ -1555,6 +1793,7 @@
 - **Flavor text** (MOR printing):
   > *Soul and bones, kithkin are woven into their clans. They fight fiercely and without self-interest.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30349 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mor/4/burrenton-shield-bearers) · oracle_id `8d038c81-b43f-4721-abda-5dacfc194ed3` · printing: MOR #4 (2008-02-01) · [rulings](https://api.scryfall.com/cards/1afc1033-0004-43c1-9341-c5ed0b0048f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burr Grafter
@@ -1567,6 +1806,7 @@
   > Soulshift 3 (When this creature dies, you may return target Spirit card with mana value 3 or less from your graveyard to your hand.)
 - **Keywords:** Soulshift
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27920 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/203/burr-grafter) · oracle_id `eb527a7d-8957-4667-b50d-ed4398418664` · printing: CHK #203 (2004-10-01) · [rulings](https://api.scryfall.com/cards/935e52a1-a651-4d88-99a8-7de074a01576/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burrog Banemaker
@@ -1581,6 +1821,7 @@
   > *In most colleges, Erren's poisonous skin would have made them a pariah. In Witherbloom, they were one of the most popular students on campus.*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16470 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/75/burrog-banemaker) · oracle_id `c531801c-acf0-45ae-a112-054cc5ccb6ed` · printing: SOS #75 (2026-04-24) · [rulings](https://api.scryfall.com/cards/3e4f9d23-1a17-4188-ac91-f8ddea46a1c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burrog Barrage
@@ -1592,6 +1833,7 @@
 - **Flavor text** (SOS printing):
   > *"I had to leave Doradur to attend Strixhaven, so I brought a piece of home with me."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20710 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/141/burrog-barrage) · oracle_id `c47caa45-e7fc-414a-8a5d-59b58f1751f3` · printing: SOS #141 (2026-04-24) · [rulings](https://api.scryfall.com/cards/95d5b0a8-2b66-418e-9e5e-ecf7b304c31e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burrog Befuddler
@@ -1606,6 +1848,7 @@
   > *Students who seek river herbs in Doradur quickly find themselves slightly damp and thoroughly surrounded.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16784 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/504/burrog-befuddler) · oracle_id `73b60c2c-7c74-4554-8861-daa0d6fc22b4` · printing: FDN #504 (2024-11-15) · [rulings](https://api.scryfall.com/cards/c5f11ea2-cd4c-417a-804c-3df80d9ddd5f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burrowguard Mentor
@@ -1633,6 +1876,7 @@
   > Enchanted creature has mountainwalk. (It can't be blocked as long as defending player controls a Mountain.)
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22622 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/6ed/170/burrowing) · oracle_id `d6b9b88b-e31b-4b88-9d53-3df5687804ba` · printing: 6ED #170 (1999-04-21) · [rulings](https://api.scryfall.com/cards/c665180c-a69b-446e-9894-3b3be624db7f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burrowing Razormaw
@@ -1647,6 +1891,7 @@
   > *—Lognell, Argivian scout*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24941 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/173/burrowing-razormaw) · oracle_id `8551e1df-47eb-419e-8dd2-e96b9a450912` · printing: BRO #173 (2022-11-18) · [rulings](https://api.scryfall.com/cards/a7c8c73c-ee2e-4aa9-aa6c-42cf9d58d9cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bursting Beebles
@@ -1659,6 +1904,7 @@
 - **Flavor text** (UNH printing):
   > *Like thousands of others, the beebles quit Magic for several years following the release of the \*Mercadian Masques\* set.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/28/bursting-beebles) · oracle_id `0575ee9a-1940-4b38-b269-5b806b2b6173` · printing: UNH #28 (2004-11-19) · [rulings](https://api.scryfall.com/cards/1d7262a7-f48c-411b-8a0e-c5bd8f646145/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burst Lightning
@@ -1689,6 +1935,7 @@
   > *"I stand ready to die for our world. Who will stand with me?"*
   > *—Radiant, archangel*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18710 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ulg/3/burst-of-energy) · oracle_id `b795ecfd-31ac-4a2a-9679-97b088932d93` · printing: ULG #3 (1999-02-15) · [rulings](https://api.scryfall.com/cards/43d590d2-cfa3-43d1-9e65-bc68b5a2a3ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burst of Speed
@@ -1700,7 +1947,9 @@
 - **Flavor text** (M10 printing):
   > *Great generals inspire by example. Goblin chieftains inspire by electrifying the barracks.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19004 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m10/129/burst-of-speed) · oracle_id `91e33674-b13a-41de-8998-4b57016ae42f` · printing: M10 #129 (2009-07-17) · [rulings](https://api.scryfall.com/cards/dc8c7aa0-2067-4513-a658-ed866279e671/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — Burst of Speed affects only creatures you control at the time it resolves. It won’t affect creatures that come under your control later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m10/129/burst-of-speed) · oracle_id `91e33674-b13a-41de-8998-4b57016ae42f` · printing: M10 #129 (2009-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burst of Strength
 
@@ -1712,7 +1961,9 @@
   > *"Our fight is not about territory or revenge. It is about freedom, plain and simple."*
   > *—Ruric Thar, Ghor-Clan chieftain*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13656 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/115/burst-of-strength) · oracle_id `1ab592fa-adfb-4879-af6c-0204eab323fb` · printing: GTC #115 (2013-02-01) · [rulings](https://api.scryfall.com/cards/d1cbd617-9f2e-4882-b8f0-dfc2fced2281/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-01-24* — Burst of Strength can target and put a +1/+1 counter on a creature that’s already untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/115/burst-of-strength) · oracle_id `1ab592fa-adfb-4879-af6c-0204eab323fb` · printing: GTC #115 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bury in Books
 
@@ -1724,7 +1975,9 @@
 - **Flavor text** (STX printing):
   > *There are no weapons allowed in the Biblioplex, but a clever mage is never truly defenseless.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20993 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/39/bury-in-books) · oracle_id `d5e67016-1740-42f8-8be2-9eb9d4adb142` · printing: STX #39 (2021-04-23) · [rulings](https://api.scryfall.com/cards/ac2a2cf5-80cf-4c06-8b04-bc04a5460de5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-04-16* — If the target creature's controller has zero cards left in their library when Bury in Books resolves, that creature becomes the top card of their library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/39/bury-in-books) · oracle_id `d5e67016-1740-42f8-8be2-9eb9d4adb142` · printing: STX #39 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bushi Tenderfoot // Kenzo the Hardhearted
 
@@ -1737,6 +1990,7 @@
   > Double strike; bushido 2 (Whenever this creature blocks or becomes blocked, it gets +2/+2 until end of turn.)
 - **Keywords:** Bushido, Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20488 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/2/bushi-tenderfoot-kenzo-the-hardhearted) · oracle_id `82959ca2-cd96-4cca-9ce0-afb8db209860` · printing: CHK #2 (2004-10-01) · [rulings](https://api.scryfall.com/cards/864ad989-19a6-4930-8efc-bbc077a18c32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bushmaster, Coiled Henchman
@@ -1751,6 +2005,7 @@
   > *"Lost my limbs in an accident. Roxxon labs put me back together as a snake. Zemo offers me a job . . . I go where I'm wanted."*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15447 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/716/bushmaster-coiled-henchman) · oracle_id `21067a25-f749-4b79-bc6d-820a91af2834` · printing: MSC #716 (2026-06-26) · [rulings](https://api.scryfall.com/cards/0e249024-f9d6-459e-ac2e-53209abb7d53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bushmeat Poacher
@@ -1763,7 +2018,10 @@
 - **Flavor text** (IKO printing):
   > *"If you've never feasted on Zagoth terror-pig, I got the best price you'll find."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15758 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/77/bushmeat-poacher) · oracle_id `0287d541-3f73-4c8b-9a77-87f99898758d` · printing: IKO #77 (2020-04-24) · [rulings](https://api.scryfall.com/cards/cc01faf4-fabb-40c9-a1d6-359280535f91/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-04-17* — Use the sacrificed creature’s toughness as it last existed on the battlefield to determine how much life you gain.
+  - *2020-04-17* — You draw only one card, no matter how much life you gain.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/77/bushmeat-poacher) · oracle_id `0287d541-3f73-4c8b-9a77-87f99898758d` · printing: IKO #77 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bushwhack
 
@@ -1788,7 +2046,23 @@
   > When this creature enters, you may forage. If you do, put two +1/+1 counters on it. (To forage, exile three cards from your graveyard or sacrifice a Food.)
 - **Keywords:** Forage, Offspring
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10579 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/166/bushy-bodyguard) · oracle_id `5436bb0d-b5c7-43a9-8b3f-67cdc0dd0381` · printing: BLB #166 (2024-08-02) · [rulings](https://api.scryfall.com/cards/0de60cf7-fa82-4b6f-9f88-6590fba5c863/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2024-07-26* — Any "enters" abilities of the copied creature will trigger when the token enters. Any "as [this creature] enters" or "[this creature] enters with" abilities of the copied creature will also work.
+  - *2024-07-26* — If the spell is countered, the offspring ability will not trigger, and no token will be created.
+  - *2024-07-26* — If the spell resolves but the creature with offspring leaves the battlefield before the offspring ability resolves, you'll still create a token copy of it.
+  - *2024-07-26* — If you don't have enough cards in your graveyard or a Food on the battlefield, you can't choose to forage.
+  - *2024-07-26* — In the rare case where the creature doesn't have the offspring ability when it enters, the ability won't trigger even if you paid the offspring cost.
+  - *2024-07-26* — In the rare case where the original creature is copying something else when the offspring ability resolves, the token enters as whatever that creature copied, except it's a 1/1.
+  - *2024-07-26* — Many creatures with offspring abilities have other abilities that refer to them as "this creature" rather than referring to them by name. This difference is for clarity purposes and does not change the function of any of these abilities.
+  - *2024-07-26* — Once you announce that you're casting a spell or activating an ability, players can't take actions until you've finished doing so. Notably, opponents can't try to remove cards from your graveyard or Foods you control to stop you from foraging.
+  - *2024-07-26* — The token copies exactly what was printed on the original creature and nothing else, except it's a 1/1 (unless that creature is copying something else; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its types, color, or so on.
+  - *2024-07-26* — The token created by the offspring ability isn't "cast", so abilities that trigger when a creature spell is cast won't trigger for the copy.
+  - *2024-07-26* — You can pay an offspring cost only once as you cast a spell with offspring. You can't try to pay it multiple times to get more token copies.
+  - *2024-07-26* — You decide whether to forage or not as Bushy Bodyguard's last ability resolves. Once that ability starts resolving, it's too late for any player to respond before Bushy Bodyguard gets the +1/+1 counters if you foraged.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/166/bushy-bodyguard) · oracle_id `5436bb0d-b5c7-43a9-8b3f-67cdc0dd0381` · printing: BLB #166 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Busted!
 
@@ -1799,7 +2073,9 @@
 - **Flavor text** (UNF printing):
   > *"All you gotta do is panic with purpose. And plead your innocence with purpose. And have your mom bail you out with purpose."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31636 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/41/busted!) · oracle_id `69671d09-fbb6-4b85-a3d1-e9e52253ef6a` · printing: UNF #41 (2022-10-07) · [rulings](https://api.scryfall.com/cards/233a7a72-74b8-43de-8638-ea2f2edecb87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-07* — Look at permanents you control as Busted! resolves to determine the value of X.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/41/busted!) · oracle_id `69671d09-fbb6-4b85-a3d1-e9e52253ef6a` · printing: UNF #41 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Buster Sword
 
@@ -1828,7 +2104,9 @@
   > {1}{B}: Put a menace counter on another target creature. It becomes a Rogue in addition to its other types.
 - **Keywords:** Menace, Tunnel Snakes Rule!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11847 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/43/butch-deloria-tunnel-snake) · oracle_id `20f92504-d03c-437e-9814-b25ee384b3ba` · printing: PIP #43 (2024-03-08) · [rulings](https://api.scryfall.com/cards/d6ed508c-ff2c-444c-8149-34b29e2fbebe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-03-08* — A permanent that's both a Rogue and a Snake is counted only once for Butch DeLoria's second ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/43/butch-deloria-tunnel-snake) · oracle_id `20f92504-d03c-437e-9814-b25ee384b3ba` · printing: PIP #43 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Butcher Ghoul
 
@@ -1873,7 +2151,9 @@
   > Sacrifice another creature: This creature gains your choice of vigilance, lifelink, or haste until end of turn.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21164 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/168/butcher-of-the-horde) · oracle_id `1ff93e62-6ae0-4438-a88e-ae6fd7d91e41` · printing: KTK #168 (2014-09-26) · [rulings](https://api.scryfall.com/cards/4c76027b-9c8d-4181-9311-270fed0212e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-09-20* — You choose which ability Butcher of the Horde gains when the activated ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/168/butcher-of-the-horde) · oracle_id `1ff93e62-6ae0-4438-a88e-ae6fd7d91e41` · printing: KTK #168 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Butcher Orgg
 
@@ -1885,7 +2165,11 @@
 - **Flavor text** (ONS printing):
   > *It can kill you with three arms tied behind its back.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29169 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ons/192/butcher-orgg) · oracle_id `6656d47a-9490-46ee-a6ed-7cbcab7539c8` · printing: ONS #192 (2002-10-07) · [rulings](https://api.scryfall.com/cards/7f2a29cf-4b2e-44c0-af73-512d6fed0dae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — If it is blocked but then all of its blockers are removed before combat damage is assigned, then it won't be able to deal combat damage and you won't be able to use its ability.
+  - *2004-10-04* — If you choose to use the ability to divide up the damage (and there is at least one point of damage to be assigned), you must choose at least one creature or the defending player, and can't choose more total creatures and players than the amount of damage being assigned (minimum 1 point per player or creature).
+  - *2004-10-04* — You can use the ability to divide damage even if it is not blocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ons/192/butcher-orgg) · oracle_id `6656d47a-9490-46ee-a6ed-7cbcab7539c8` · printing: ONS #192 (2002-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Butcher's Cleaver
 
@@ -1899,6 +2183,7 @@
   > *Meat is meat.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13257 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/256/butchers-cleaver) · oracle_id `5cc5be7a-cbe6-4853-bb95-0390e25b4f2b` · printing: INR #256 (2025-01-24) · [rulings](https://api.scryfall.com/cards/3c55bce1-8746-4554-9876-f443c37a125b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Butcher's Glee
@@ -1911,7 +2196,9 @@
   > *The Crave made Kneecleaver think she was bigger than the dragon.*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20407 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/84/butchers-glee) · oracle_id `bd637245-52bc-4cc9-810d-253e69dc3394` · printing: IMA #84 (2017-11-17) · [rulings](https://api.scryfall.com/cards/92a00c8d-9dac-4edc-b66c-ab3245d80969/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-11-17* — Multiple instances of lifelink on the same creature are redundant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/84/butchers-glee) · oracle_id `bd637245-52bc-4cc9-810d-253e69dc3394` · printing: IMA #84 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Butterbur, Bree Innkeeper
 
@@ -1924,7 +2211,13 @@
   > *"I hope you'll be comfortable. You'll be wanting supper, I don't doubt. As soon as may be. This way now!"*
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12590 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/197/butterbur-bree-innkeeper) · oracle_id `ec136f6f-015b-4200-97b6-a2c1bf39e135` · printing: LTR #197 (2023-06-23) · [rulings](https://api.scryfall.com/cards/f3fd9ff1-278b-4e6a-b30b-90250d8b5762/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-06-16* — Butterbur, Bree Innkeeper's ability checks if you control a Food at the beginning of your end step. If you do, the ability won't trigger.
+  - *2023-06-16* — If the ability does trigger, but you control a Food when it tries to resolve, the ability will do nothing. No Food will be created.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/197/butterbur-bree-innkeeper) · oracle_id `ec136f6f-015b-4200-97b6-a2c1bf39e135` · printing: LTR #197 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Buy Your Silence
 
@@ -1936,6 +2229,7 @@
   > *Mikey "the Mouth" kept his nickname after he struck his deal with Gregorio, even though he never spoke another word.*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23852 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/6/buy-your-silence) · oracle_id `2fd01a30-0c0e-4ac5-b96d-b2a6dad31f0c` · printing: SNC #6 (2022-04-29) · [rulings](https://api.scryfall.com/cards/8c9ac05f-f47c-4569-a06e-793d28cbb936/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Buzzard-Wasp Colony
@@ -1951,7 +2245,13 @@
   > *What doesn't survive the Si Wong Desert assures that the buzzard-wasps do.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15221 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/88/buzzard-wasp-colony) · oracle_id `29fd050c-dd1d-4e1b-b3cc-f7d8d18e4dcb` · printing: TLA #88 (2025-11-21) · [rulings](https://api.scryfall.com/cards/42d83229-0555-4361-8964-4b525c825843/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — Buzzard-Wasp Colony's last ability doesn't cause you to move counters from the creature that died onto it. Rather, you put the same number of each kind of counter the creature had when it died onto Buzzard-Wasp Colony.
+  - *2025-10-02* — Buzzard-Wasp Colony's last ability puts all counters that were on the creature that died onto Buzzard-Wasp Colony, not just its +1/+1 counters.
+  - *2025-10-02* — If another creature you control has -1/-1 counters on it when it dies, Buzzard-Wasp Colony's ability will include those as well. This may result in Buzzard-Wasp Colony dying.
+  - *2025-10-02* — If enough -1/-1 counters are put on a creature you control at the same time to make its toughness 0 or less, Buzzard-Wasp Colony's last ability will see all of the +1/+1 counters it had when it died as well as the -1/-1 counters it had, and an equal number of each of those types of counters (plus any other applicable counters) will be put onto Buzzard-Wasp Colony.
+  - *2025-10-02* — You may end up putting the appropriate counters on more than one permanent. For example, if you control two Buzzard-Wasp Colonies when a creature dies, you'll put the appropriate number of each kind of counter onto both of them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/88/buzzard-wasp-colony) · oracle_id `29fd050c-dd1d-4e1b-b3cc-f7d8d18e4dcb` · printing: TLA #88 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Buzz Bots
 
@@ -1965,6 +2265,7 @@
   > *Designed for autonomous pollination, the Stocktronics buzz bot's souped-up power plant allows for months of independent service. The optional taser is for defensive purposes only, of course.*
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17257 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/32/buzz-bots) · oracle_id `434e720f-2bfa-49b6-a5ac-fe0c0b24764d` · printing: TMT #32 (2026-03-06) · [rulings](https://api.scryfall.com/cards/7c375190-f81b-4ab1-a1b6-fe432796821f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Buzz Buggy
@@ -1974,7 +2275,20 @@
 - **Oracle text:**
   > Whenever you crank this Contraption, target creature gets +2/+0 and gains trample until end of turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/173/buzz-buggy) · oracle_id `dcde16e9-9fdd-42cb-9354-f7638fa5eef7` · printing: UST #173 (2017-12-08) · [rulings](https://api.scryfall.com/cards/f7bac075-aa1f-4c8a-9d82-8b6c1ff9b97a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2018-01-19* — Any Contraption that's on the battlefield and wasn't assembled immediately heads to the scrapyard. However, if it's a not an actual Contraption card (like Copy Artifact isn't), it goes to your graveyard as normal. Non-Contraption cards can't be in the scrapyard.
+  - *2018-01-19* — At the beginning of your upkeep, if you control any Contraptions, move the CRANK! counter to the next sprocket. You may then crank any number of Contraptions on that sprocket, causing their abilities to trigger. Cranking a Contraption is always optional.
+  - *2018-01-19* — Contraptions are artifacts. Anything that interacts with artifacts will interact with Contraptions.
+  - *2018-01-19* — Contraptions aren't put into your main deck. They go into a separate deck called the Contraption deck.
+  - *2018-01-19* — If a Contraption would leave the battlefield and go to any zone other than exile, it instead goes to the scrapyard, the Contraption deck's version of the graveyard. Things that affect the graveyard do not affect the scrapyard. You can exile Contraptions just fine.
+  - *2018-01-19* — If you crank multiple Contraptions, their abilities can be put onto the stack in any order. The ability put onto the stack will resolve first.
+  - *2018-01-19* — If you or a permanent you control are instructed to assemble a Contraption, reveal the top card of your Contraption deck. Put it onto the battlefield on one of the three sprockets.
+  - *2018-01-19* — If you or a permanent you control assembles a Contraption and your Contraption deck is empty, nothing happens. You don't lose the game.
+  - *2018-01-19* — In Constructed formats, a Contraption deck must have at least fifteen different Contraption cards and no more than one of each.
+  - *2018-01-19* — In Limited formats, a Contraption deck may include any number of Contraption cards in your card pool. You don't have to include every Contraption card you draft or open in sealed deck. In those formats, your Contraption deck may include duplicates.
+  - *2018-01-19* — In silver-bordered games using Contraptions, you have three sprockets, illustrated on the back of Contraption cards. At the start of the game, put a CRANK! counter on sprocket 3.
+  - *2018-01-19* — While Contraptions you control are on the battlefield, the Contraption deck is not, even if you are using it to signify the three sprockets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/173/buzz-buggy) · oracle_id `dcde16e9-9fdd-42cb-9354-f7638fa5eef7` · printing: UST #173 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Buzzing Whack-a-Doodle
 
@@ -1986,4 +2300,5 @@
   > • Doodle — {T}: You gain 3 life.
   > • Buzz — {2}, {T}: Draw a card.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/141/buzzing-whack-a-doodle) · oracle_id `de13c8ab-295c-4561-830e-b5235a164c92` · printing: UST #141 (2017-12-08) · [rulings](https://api.scryfall.com/cards/4e18540e-6a64-4f0e-89d4-bd67c41194c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

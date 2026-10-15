@@ -28,7 +28,10 @@
 - **Flavor text** (BBD printing):
   > *"Everyone has a price."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10297 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/223/gwafa-hazid-profiteer) · oracle_id `7ba31f45-c178-4bac-ab7b-5ba4d050133c` · printing: BBD #223 (2018-06-08) · [rulings](https://api.scryfall.com/cards/da097d1a-6e51-41d7-8dfe-f26acfb0038f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-02-01* — Creatures with bribery counters on them can't be declared as attackers or blockers. However, if a bribery counter is put on a creature that's already been declared as an attacker or blocker, that creature will continue to attack or block that combat.
+  - *2009-02-01* — If Gwafa Hazid leaves the battlefield, any bribery counters will remain where they are. However, without a Gwafa Hazid on the battlefield, creatures with bribery counters on them can attack and block as normal. If another Gwafa Hazid enters, its ability will affect all creatures with bribery counters on them, including the ones that received counters from a different Gwafa Hazid.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/223/gwafa-hazid-profiteer) · oracle_id `7ba31f45-c178-4bac-ab7b-5ba4d050133c` · printing: BBD #223 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gwaihir, Greatest of the Eagles
 
@@ -73,6 +76,7 @@
 - **Flavor text** (ME3 printing):
   > *Urborg became the final resting place of many swordsmen of renown, their steel outmatched by the wiles of Gwendlyn.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24945 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/149/gwendlyn-di-corci) · oracle_id `de44e7c8-01f9-44f9-9716-9e8a5b82b1ff` · printing: ME3 #149 (2009-09-07) · [rulings](https://api.scryfall.com/cards/a496823b-c864-4591-b395-5493383d11a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gwenna, Eyes of Gaea
@@ -147,4 +151,9 @@
   > When this creature enters, if you control two or more Plains, you may create a 1/1 white Kithkin Soldier creature token.
   > When this creature enters, if you control two or more Swamps, you may put a -1/-1 counter on target creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29347 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cma/201/gwyllion-hedge-mage) · oracle_id `b89b285d-62d3-4013-b881-23f0f236337d` · printing: CMA #201 (2017-06-09) · [rulings](https://api.scryfall.com/cards/e77fb4ee-7595-47e9-846a-73dc0f55bd33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-08-01* — Both abilities are optional; you choose whether to use them when they resolve. If an ability has a target, you must choose a target even if you don't plan to use the ability.
+  - *2008-08-01* — Both abilities trigger at the same time. You can put them on the stack in any order.
+  - *2008-08-01* — Each of the triggered abilities has an "intervening 'if' clause." That means (1) the ability won't trigger at all unless you control two or more lands of the appropriate land type when the Hedge-Mage enters, and (2) the ability will do nothing if you don't control two or more lands of the appropriate land type by the time it resolves.
+  - *2008-08-01* — Each of the triggered abilities look at your lands individually. This means that if you only control two dual-lands of the appropriate types, both of the abilities will trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cma/201/gwyllion-hedge-mage) · oracle_id `b89b285d-62d3-4013-b881-23f0f236337d` · printing: CMA #201 (2017-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

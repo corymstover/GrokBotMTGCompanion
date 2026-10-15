@@ -106,6 +106,7 @@
   > −3: Destroy target creature.
   > −10: For each creature card in your graveyard, put a +1/+1 counter on each creature you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19326 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/269/vraska-regal-gorgon) · oracle_id `7616e834-4852-40c8-9de6-d89f96119f12` · printing: GRN #269 (2018-10-05) · [rulings](https://api.scryfall.com/cards/4299dbe6-c94d-4ecc-8bfd-741d2649cba1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vraska, Relic Seeker
@@ -134,7 +135,10 @@
   > −3: Destroy target creature.
   > −10: Until end of turn, creatures you control gain deathtouch and "Whenever this creature deals damage to an opponent, that player loses the game."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15554 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/197/vraska-scheming-gorgon) · oracle_id `83045a9c-57da-411f-80aa-56178d14856b` · printing: RIX #197 (2018-01-19) · [rulings](https://api.scryfall.com/cards/91685732-c118-4f52-ac77-f96866a687a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-01-19* — The triggered ability Vraska grants to creatures with her third ability triggers on any damage those creatures deal, including noncombat damage. If multiple players are dealt damage simultaneously by affected creatures, you choose the order in which those triggers resolve. If all your opponents have lost the game, you’ll win the game before any more of the triggers resolve.
+  - *2018-01-19* — Vraska’s first and last abilities affect only creatures you control at the time it resolves. Creatures you begin to control later in the turn won’t get +1/+0 or gain abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/197/vraska-scheming-gorgon) · oracle_id `83045a9c-57da-411f-80aa-56178d14856b` · printing: RIX #197 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vraska's Conquistador
 
@@ -146,6 +150,7 @@
 - **Flavor text** (RIX printing):
   > *Abandoning both queen and church, he chose to follow power.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28607 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/199/vraskas-conquistador) · oracle_id `d3839a3f-3018-4a8d-b298-3f5b5fc70cd1` · printing: RIX #199 (2018-01-19) · [rulings](https://api.scryfall.com/cards/4d890a17-ffd4-4bda-bef3-2c116f7bf66f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vraska's Contempt
@@ -157,7 +162,10 @@
 - **Flavor text** (XLN printing):
   > *It wasn't long before the taverns of High and Dry were full of whispers about the new captain who could turn a person to stone with a glance.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12689 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/129/vraskas-contempt) · oracle_id `38ddbe0b-07ef-4cdf-ad6c-cd8b8ba6d206` · printing: XLN #129 (2017-09-29) · [rulings](https://api.scryfall.com/cards/bd7550dd-dfc5-43cd-a117-1244ee3086a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-09-29* — If the target creature or planeswalker is an illegal target by the time Vraska’s Contempt resolves, the entire spell doesn’t resolve. You won’t gain life.
+  - *2018-01-19* — There are many important moments in the story, but the most crucial—called “story spotlights”—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/129/vraskas-contempt) · oracle_id `38ddbe0b-07ef-4cdf-ad6c-cd8b8ba6d206` · printing: XLN #129 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vraska's Fall
 
@@ -182,7 +190,12 @@
   > • You lose 2 life. Empower Jace 6. (Put six loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with "[−1]: Surveil 1" and "[−3]: Draw a card.")
 - **Keywords:** Surveil, Empower Jace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17824 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/71/vraskas-final-mercy) · oracle_id `7799413d-e313-4a05-ad28-f4c926c26d28` · printing: FRA #71 (2026-10-02) · [rulings](https://api.scryfall.com/cards/992bd991-7cfb-459f-bafd-9a44f3c925c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2026-08-21* — Empower Jace won't let you put loyalty counters on nontoken Jace planeswalkers. However, if you control a Jace planeswalker token that you got another way (such as an effect that creates a token that's a copy of a permanent), empower Jace will put loyalty counters on that.
+  - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
+  - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
+  - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/71/vraskas-final-mercy) · oracle_id `7799413d-e313-4a05-ad28-f4c926c26d28` · printing: FRA #71 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vraska's Finisher
 
@@ -194,6 +207,7 @@
 - **Flavor text** (WAR printing):
   > *"You might have pleaded your case with my queen earlier. Now I am here, and it is far too late."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21747 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/112/vraskas-finisher) · oracle_id `5df16529-6f1d-4978-b364-97d91abac441` · printing: WAR #112 (2019-05-03) · [rulings](https://api.scryfall.com/cards/f89fa379-7fae-4fbf-8e31-0ef3645353c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vraska, Soul of Stone
@@ -208,7 +222,10 @@
   > *"Paths to peace are carved in flesh and stone. This is how we reform what has failed before."*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12083 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/277/vraska-soul-of-stone) · oracle_id `cad63b31-667b-4518-bc49-be4ffb82bc63` · printing: FRA #277 (2026-10-02) · [rulings](https://api.scryfall.com/cards/f3869752-eade-4e7a-8dd1-68cafb9e10be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-08-21* — Sculpture is a creature type. Treasure is an artifact type.
+  - *2026-08-21* — Vraska's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/277/vraska-soul-of-stone) · oracle_id `cad63b31-667b-4518-bc49-be4ffb82bc63` · printing: FRA #277 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vraska's Scorn
 
@@ -217,6 +234,7 @@
 - **Oracle text:**
   > Target opponent loses 4 life. You may search your library and/or graveyard for a card named Vraska, Scheming Gorgon, reveal it, and put it into your hand. If you search your library this way, shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24757 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/200/vraskas-scorn) · oracle_id `020c26ba-ed46-47c3-925c-b9f32500f503` · printing: RIX #200 (2018-01-19) · [rulings](https://api.scryfall.com/cards/569ff807-365d-4f25-9fad-86617ed1c8f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vraska's Stoneglare
@@ -226,7 +244,10 @@
 - **Oracle text:**
   > Destroy target creature. You gain life equal to its toughness. You may search your library and/or graveyard for a card named Vraska, Regal Gorgon, reveal it, and put it into your hand. If you search your library this way, shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24501 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/272/vraskas-stoneglare) · oracle_id `c39e2046-173a-44b6-8e93-b22ede35485d` · printing: GRN #272 (2018-10-05) · [rulings](https://api.scryfall.com/cards/27fc4db6-a5f5-4254-ae64-c8eaf2c98030/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-10-05* — If the target creature becomes an illegal target for Vraska’s Stoneglare, the spell doesn’t resolve. You don’t gain life or search for Vraska, Regal Gorgon.
+  - *2018-10-05* — The amount of life gained is equal to the destroyed creature’s toughness as it last existed on the battlefield. If it wasn’t destroyed (most likely because it has indestructible), you gain life equal to its toughness as it currently exists on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/272/vraskas-stoneglare) · oracle_id `c39e2046-173a-44b6-8e93-b22ede35485d` · printing: GRN #272 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vraska, Swarm's Eminence
 
@@ -237,6 +258,7 @@
   > Whenever a creature you control with deathtouch deals damage to a player or planeswalker, put a +1/+1 counter on that creature.
   > −2: Create a 1/1 black Assassin creature token with deathtouch and "Whenever this token deals damage to a planeswalker, destroy that planeswalker."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12558 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/236/vraska-swarms-eminence) · oracle_id `cff8b4e9-c60c-42c1-ad2e-74ae9d7f3afb` · printing: WAR #236 (2019-05-03) · [rulings](https://api.scryfall.com/cards/59ee2974-07e9-4506-903c-457cb7327dd8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vraska, the Cutting Glare
@@ -251,7 +273,9 @@
   > *"No one can remake me. Not Bolas, not Phyrexia, and not you, Jace."*
 - **Keywords:** Treasure, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22652 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/278/vraska-the-cutting-glare) · oracle_id `580de511-863c-4b7a-9d2e-fcdf6e12d54b` · printing: FRA #278 (2026-10-02) · [rulings](https://api.scryfall.com/cards/5c28b012-5efb-488f-a1c1-09e2dddfd6ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-08-21* — Vraska's last ability checks at the moment it would trigger to see if you control six or more lands. If you don't, the ability won't trigger at all. If it does trigger, the ability will check again as it tries to resolve. If you don't control six or more lands at that time, the ability won't resolve and its effect won't happen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/278/vraska-the-cutting-glare) · oracle_id `580de511-863c-4b7a-9d2e-fcdf6e12d54b` · printing: FRA #278 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vraska, the Silencer
 
@@ -312,6 +336,7 @@
   > Whenever you attack with one or more Insects, put a +1/+1 counter on each of them.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13878 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/166/vrestin-menoptra-leader) · oracle_id `1db6a042-303e-4b76-bb6c-63df846fd6c9` · printing: WHO #166 (2023-10-13) · [rulings](https://api.scryfall.com/cards/b117d388-ac94-4e20-84f0-f4d242121d7f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vrock
@@ -327,6 +352,7 @@
   > *—Volo's field notes*
 - **Keywords:** Flying, Toxic Spores
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17499 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/157/vrock) · oracle_id `f50d2a5c-2408-4c09-81cd-55e2ca9b1ce1` · printing: CLB #157 (2022-06-10) · [rulings](https://api.scryfall.com/cards/5111905c-3d19-4a06-b8c6-a253260b5d24/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vrondiss, Rage of Ancients
@@ -339,6 +365,7 @@
   > Whenever you roll one or more dice, you may have Vrondiss deal 1 damage to itself.
 - **Keywords:** Enrage
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11022 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/4/vrondiss-rage-of-ancients) · oracle_id `2160c837-342b-409f-a1db-0ec5ac023ccf` · printing: AFC #4 (2021-07-23) · [rulings](https://api.scryfall.com/cards/683ca7f0-e9df-459b-a8e3-cf80b39c732d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vronos, Masked Inquisitor

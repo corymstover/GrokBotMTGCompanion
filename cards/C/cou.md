@@ -70,7 +70,15 @@
   > Will of the council — When this creature enters, starting with you, each player votes for blue, black, red, or green. This creature gains protection from each color with the most votes or tied for most votes.
 - **Keywords:** Will of the council
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18208 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/15/council-guardian) · oracle_id `4f212675-e34d-4387-a125-e17b25757083` · printing: CNS #15 (2014-06-06) · [rulings](https://api.scryfall.com/cards/3394ecc3-3b37-4e4a-880b-3aa62b288900/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2014-05-29* — Because the votes are cast in turn order, each player will know the votes of players who voted beforehand.
+  - *2014-05-29* — If Council Guardian is not on the battlefield when its ability resolves, the vote will still take place; it simply won't have any effect. However, cards that care about voting (for example, Grudge Keeper) will still see the vote.
+  - *2014-05-29* — No player votes until the spell or ability resolves. Any responses to that spell or ability must be made without knowing the outcome of the vote.
+  - *2014-05-29* — Players can't do anything after they finish voting but before the spell or ability that included the vote finishes resolving.
+  - *2014-05-29* — The phrase "the vote is tied" refers only to when there is more than one choice that received the most votes. For example, if a 5-player vote from among three different choices ends 3 votes to 1 vote to 1 vote, the vote isn't tied.
+  - *2014-05-29* — The vote happens as the ability resolves. Until this happens, Council Guardian doesn't have protection from any color. Spells and abilities may target Council Guardian as normal in response to its enters-the-battlefield ability, but not in response to the vote. Once players have started voting, it's too late to respond.
+  - *2014-05-29* — You must vote for one of the available options. You can't abstain.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/15/council-guardian) · oracle_id `4f212675-e34d-4387-a125-e17b25757083` · printing: CNS #15 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Council of Advisors
 
@@ -82,6 +90,7 @@
 - **Flavor text** (PTK printing):
   > *Sun Quan's long and successful rule in the years 199 to 251 was due to his ability to choose and foster talented advisors and generals.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26924 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/40/council-of-advisors) · oracle_id `ff427657-173a-4845-89af-6f0a93467130` · printing: PTK #40 (1999-05-01) · [rulings](https://api.scryfall.com/cards/0c59f45b-46fa-4494-9b25-cf9d3e462539/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Council of Echoes
@@ -96,7 +105,10 @@
   > *The Komon Winaq, ancestors of the Oltec, linger on as the eldest of the Echoes.*
 - **Keywords:** Flying, Descend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26667 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/51/council-of-echoes) · oracle_id `7b513bd0-27df-45f3-a85f-1f0aba3cae48` · printing: LCI #51 (2023-11-17) · [rulings](https://api.scryfall.com/cards/85ad358d-a520-4d57-82b0-d2297da1fbde/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — Cards with the ability word "descend N" have abilities that care if you have at least N permanent cards in your graveyard.
+  - *2023-11-10* — Some descend triggered abilities include intervening "if" clauses (i.e. "if you have [four or eight] permanent cards in your graveyard" in the middle of the ability). Each of these abilities checks your graveyard at the moment it would trigger to see if it does. If you don't have the required number of permanent cards in your graveyard at that time, the ability doesn't trigger at all. If it does trigger, it will check again as it tries to resolve. If you don't have the required number of permanent cards in your graveyard at that time, the ability won't resolve and none of its effects will happen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/51/council-of-echoes) · oracle_id `7b513bd0-27df-45f3-a85f-1f0aba3cae48` · printing: LCI #51 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Council of Reeds
 
@@ -109,6 +121,7 @@
 - **Flavor text** (MSC printing):
   > *"Reed Richards of Earth-616, it is time you reached your full potential."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12389 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/28/council-of-reeds) · oracle_id `33fa949c-f29e-4a98-9381-ecfa9e5c3f6d` · printing: MSC #28 (2026-06-26) · [rulings](https://api.scryfall.com/cards/a0d824ea-75d2-4de5-923b-813bba44e80b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Council of the Absolute
@@ -121,7 +134,14 @@
   > Your opponents can't cast spells with the chosen name.
   > Spells with the chosen name you cast cost {2} less to cast.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24383 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/62/council-of-the-absolute) · oracle_id `464d5db8-5da1-4ced-aebf-33b3b6cb5bb2` · printing: DGM #62 (2013-05-03) · [rulings](https://api.scryfall.com/cards/da18a6a5-0042-40ae-bd33-a6d5a65a9944/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2013-04-15* — If a spell with the chosen name includes one generic mana in its cost to cast, that cost will be reduced by {1}.
+  - *2013-04-15* — If there are additional costs to cast the spell, such as kicker costs, apply those increases before applying cost reductions.
+  - *2013-04-15* — If you name half of a split card with fuse, and then you cast both halves, the cost reduction will apply to the total cost of the spell. This is true even if the half with the chosen name requires only colored mana to cast.
+  - *2013-04-15* — The last ability can reduce alternative costs such as overload costs.
+  - *2013-04-15* — The last ability can’t reduce the colored mana requirement of a spell.
+  - *2013-04-15* — You can name either half of a split card, but not both. If you name half of a split card, your opponents can cast the other half. If that split card has fuse, your opponents can’t cast that card as a fused split card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/62/council-of-the-absolute) · oracle_id `464d5db8-5da1-4ced-aebf-33b3b6cb5bb2` · printing: DGM #62 (2013-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Council's Deliberation
 
@@ -134,6 +154,7 @@
   > *"I will take the Ring to Mordor, though I do not know the way."*
   > *—Frodo*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11836 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/46/councils-deliberation) · oracle_id `3280488d-e94b-4d53-b279-c32ed711d4bc` · printing: LTR #46 (2023-06-23) · [rulings](https://api.scryfall.com/cards/651503a2-5d1e-408a-9cdc-0cee05ab3ef0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Council's Judgment
@@ -164,6 +185,7 @@
 - **Flavor text** (10E printing):
   > *"Wisdom is not the counting of all the drops in a waterfall. Wisdom is learning why the water seeks the earth."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17608 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/76/counsel-of-the-soratami) · oracle_id `62ddc5ae-ced9-4319-854c-1a114c6afc3f` · printing: 10E #76 (2007-07-13) · [rulings](https://api.scryfall.com/cards/1224718a-e1a7-473d-ac9d-497e624376cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Counterbalance
@@ -185,7 +207,13 @@
 - **Oracle text:**
   > Counter target spell. Search its controller's graveyard, hand, and library for all cards with the same name as that spell and exile them. Then that player shuffles.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27088 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/shm/33/counterbore) · oracle_id `1198ec53-9050-417d-812f-692e1378d346` · printing: SHM #33 (2008-05-02) · [rulings](https://api.scryfall.com/cards/f4228b80-d87d-4ebe-ae92-04e4a7d0dc43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2008-05-01* — Counterbore has no effect on cards on the battlefield that have the same name as the targeted spell.
+  - *2008-05-01* — If the spell’s controller isn’t the same as its owner (due to Commandeer, for example), it won’t be exiled. The spell is countered and put into its owner’s graveyard. Then the spell’s controller’s graveyard, hand, and library are searched.
+  - *2008-05-01* — If the targeted spell can’t be countered (it’s Vexing Shusher, for example), that spell will remain on the stack. Counterbore will continue to resolve. You still get to search for and exile all other cards with that name.
+  - *2008-05-01* — In most cases, Counterbore will exile the targeted spell. Its first sentence counters the spell, which puts it into its owner’s graveyard. Its second sentence then removes it from the graveyard. However, there are some exceptions to this, as listed below.
+  - *2008-05-01* — The cards you’re searching for must be found if they’re in the graveyard, because that’s a zone everyone can see. Finding those cards in the hand and library is optional, though.
+- **Source flags:** [Scryfall](https://scryfall.com/card/shm/33/counterbore) · oracle_id `1198ec53-9050-417d-812f-692e1378d346` · printing: SHM #33 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Counterflux
 
@@ -213,6 +241,7 @@
 - **Flavor text** (PTK printing):
   > *Before the battle of Red Cliffs, a supposedly sleeping Zhou Yu allowed his old friend, a Wei advisor, to steal a planted letter forged as if from Wei's two best admirals.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28265 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/41/counterintelligence) · oracle_id `0c4e64d1-cdcf-4e96-8bf4-ed1414f6ad62` · printing: PTK #41 (1999-05-01) · [rulings](https://api.scryfall.com/cards/eafbeafb-ef84-4a8d-9ca8-ca305b1feeea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Counterlash
@@ -224,7 +253,11 @@
 - **Flavor text** (DKA printing):
   > *"Pathetic. Let me show you how it's done."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16859 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dka/33/counterlash) · oracle_id `16de96d0-a58e-42a7-9a13-45358542a246` · printing: DKA #33 (2012-02-03) · [rulings](https://api.scryfall.com/cards/d3ec2c57-8e67-472d-8f2e-0492d311f130/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2011-01-22* — If the card has {X} in its mana cost, you must choose 0 as its value.
+  - *2011-01-22* — If you cast a card “without paying its mana cost,” you can’t pay any alternative costs. You can pay additional costs, such as kicker costs. If the card has mandatory additional costs, you must pay those.
+  - *2011-01-22* — You cast the card in your hand as part of the resolution of Counterlash. Timing restrictions based on the card’s type (such as creature or sorcery) are ignored. Other restrictions are not (such as “Cast [this card] only during combat”).
+- **Source flags:** [Scryfall](https://scryfall.com/card/dka/33/counterlash) · oracle_id `16de96d0-a58e-42a7-9a13-45358542a246` · printing: DKA #33 (2012-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Countermand
 
@@ -236,7 +269,10 @@
   > *The physical pain was nothing compared to the agony in his mind.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14343 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jou/33/countermand) · oracle_id `43402a6c-9fba-4a80-90b3-14bac05c574b` · printing: JOU #33 (2014-05-02) · [rulings](https://api.scryfall.com/cards/07815e32-0b64-4c2b-84e6-a72336c45cf5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-04-26* — If the target spell is an illegal target when Countermand tries to resolve, Countermand won't resolve and none of its effects will happen. The target's controller won't put any cards from the top of their library into their graveyard.
+  - *2014-04-26* — You may target a spell that can't be countered with Countermand. If you do, when Countermand resolves, the target spell won't be countered, but its controller will still put the top four cards of their library into their graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jou/33/countermand) · oracle_id `43402a6c-9fba-4a80-90b3-14bac05c574b` · printing: JOU #33 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Counterpoint
 
@@ -265,7 +301,12 @@
   > Counter target spell. Empower Jace 1. (Put a loyalty counter on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with "[−1]: Surveil 1" and "[−3]: Draw a card.")
 - **Keywords:** Surveil, Empower Jace, Behold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15245 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/25/countersculpt) · oracle_id `fc3353e9-fe24-4ca7-bff8-9da767f2903a` · printing: FRA #25 (2026-10-02) · [rulings](https://api.scryfall.com/cards/145b928d-a7ff-4fe5-ae4d-bbae7b1d955b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2026-08-21* — Empower Jace won't let you put loyalty counters on nontoken Jace planeswalkers. However, if you control a Jace planeswalker token that you got another way (such as an effect that creates a token that's a copy of a permanent), empower Jace will put loyalty counters on that.
+  - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
+  - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
+  - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/25/countersculpt) · oracle_id `fc3353e9-fe24-4ca7-bff8-9da767f2903a` · printing: FRA #25 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Counterspell
 
@@ -316,7 +357,13 @@
   > *"Go forth and cause trouble, my little one!"*
 - **Keywords:** Revolt
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26173 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/13/countless-gears-renegade) · oracle_id `9d1f9036-a466-46b6-ab7c-2de487876978` · printing: AER #13 (2017-01-20) · [rulings](https://api.scryfall.com/cards/c2d6f334-0040-42b1-9c72-362e4dcaa65e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-02-09* — All cards in the Aether Revolt set with triggered revolt abilities use an intervening "if" clause. A permanent you controlled must have left the battlefield earlier in the turn in order for these abilities to trigger; otherwise they do nothing. In other words, there's no way to have the ability trigger if no permanent you controlled has left the battlefield that turn, even if you intend to have one do so in response to the triggered ability.
+  - *2017-02-09* — Energy counters aren't permanents. Paying {E} won't satisfy a revolt ability.
+  - *2017-02-09* — Revolt abilities check only whether a permanent you controlled left the battlefield this turn or not. They don't apply multiple times if more than one permanent you controlled left the battlefield. They don't check whether the permanent that left the battlefield is still in the zone it moved to.
+  - *2017-02-09* — Revolt abilities don't care why the permanent left the battlefield, who caused it to move, or where it moved to. They're equally satisfied by an artifact you sacrificed to pay a cost, a creature you controlled that was destroyed by Murder, or an enchantment you returned to your hand with Leave in the Dust.
+  - *2017-02-09* — Tokens that leave the battlefield will satisfy a revolt ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/13/countless-gears-renegade) · oracle_id `9d1f9036-a466-46b6-ab7c-2de487876978` · printing: AER #13 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Count Nefaria
 
@@ -330,6 +377,7 @@
   > *"If I already possess so much, what more could I want? Why, the rest of it, of course!"*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30067 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/651/count-nefaria) · oracle_id `5ec4f81e-ede4-4d45-b768-16583f6f5b8d` · printing: MSC #651 (2026-06-26) · [rulings](https://api.scryfall.com/cards/06fe30ef-75bb-43aa-827c-234dcf57eb6d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Count on Luck
@@ -366,7 +414,10 @@
   > At the beginning of your upkeep, reveal the top card of your library. If it's a land card, put it into your graveyard and repeat this process.
   > Whenever a land card is put into your graveyard from anywhere, put a +1/+1 counter on this creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21907 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mma/108/countryside-crusher) · oracle_id `1636c4d2-f699-4af7-8508-dbce2f0b7b52` · printing: MMA #108 (2013-06-07) · [rulings](https://api.scryfall.com/cards/54582b89-a152-4686-8172-82db740dfea2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-04-01* — Each time you put a land card into your graveyard with the first ability, the second ability will trigger. Those triggers wait to be put onto the stack until the first ability has completely finished resolving.
+  - *2008-04-01* — The first ability will keep putting cards from the top of your library into your graveyard until you reveal a nonland card. That nonland card remains on top of your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mma/108/countryside-crusher) · oracle_id `1636c4d2-f699-4af7-8508-dbce2f0b7b52` · printing: MMA #108 (2013-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Courage in Crisis
 
@@ -397,7 +448,9 @@
 - **Flavor text** (FDN printing):
   > *"Yeah! What he said!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16650 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/82/courageous-goblin) · oracle_id `c107e271-5741-4a84-bfc4-3bc322972d0d` · printing: FDN #82 (2024-11-15) · [rulings](https://api.scryfall.com/cards/8db6819c-666a-409d-85a5-b9ac34d8dd2f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — If you controlled a creature with power 4 or greater when you declared Courageous Goblin as an attacker, it doesn't matter whether you still control one as its ability resolves. Courageous Goblin will still get +1/+0 and gain menace until end of turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/82/courageous-goblin) · oracle_id `c107e271-5741-4a84-bfc4-3bc322972d0d` · printing: FDN #82 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Courageous Outrider
 
@@ -409,6 +462,7 @@
 - **Flavor text** (EMN printing):
   > *One silvery blast signaled that she wouldn't be arriving at Thraben alone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26116 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/emn/18/courageous-outrider) · oracle_id `00915480-ffa8-4930-a158-b1c1f75b7876` · printing: EMN #18 (2016-07-22) · [rulings](https://api.scryfall.com/cards/4123da54-9947-462e-9862-3eecc459a75b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Courageous Resolve
@@ -420,7 +474,22 @@
   > Fateful hour — If you have 5 or less life, you can't lose life this turn, you can't lose the game this turn, and your opponents can't win the game this turn.
 - **Keywords:** Fateful hour
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10477 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/506/courageous-resolve) · oracle_id `3f7452aa-b075-47d9-b61f-061d61c7d1b4` · printing: LTC #506 (2023-11-03) · [rulings](https://api.scryfall.com/cards/5e6ce397-e888-46a6-aa1f-0954df95179f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2023-11-03* — Abilities that trigger whenever damage is dealt to you will still trigger because that damage is still dealt, even though your life total won't change as a result.
+  - *2023-11-03* — Courageous Resolve checks your life total only at the time it resolves. If it's 5 or less at that time, even if you gain life later in the turn, you'll still be unable to lose life or lose the game that turn, and your opponents will still be unable to win the game that turn.
+  - *2023-11-03* — Courageous Resolve doesn't prevent damage. Rather, it changes the results of that damage. For example, if a creature with lifelink deals damage to you, you won't lose any life, but its controller will still gain that much life. Similarly, if a creature with infect deals damage to you, you'll still receive that many poison counters.
+  - *2023-11-03* — Effects that replace an event with having you lose life (such as Tainted Remedy) will end up replacing the event with nothing.
+  - *2023-11-03* — If an effect says to set your life total to a certain number and that number is less than your current life total, that part of the effect won't do anything.
+  - *2023-11-03* — If an effect would cause you to exchange life totals with another player whose life total is lower than yours, the exchange won't happen. Neither player's life total changes.
+  - *2023-11-03* — If you cast Courageous Resolve and your life total is 5 or less when it resolves, for the rest of that turn, no game effect can cause you to lose the game or cause any opponent to win the game. It doesn't matter whether you have 0 or less life, you're forced to draw a card while your library is empty, you have ten or more poison counters, you're at the end of your Nine Lives, your opponent is a Triskaidekaphile, and so on. You keep playing.
+  - *2023-11-03* — If you cast Courageous Resolve in a Two-Headed Giant game and your team's life total is 5 or less when it resolves, your team can't lose the game that turn and the opposing team can't win the game that turn.
+  - *2023-11-03* — In a Commander game, combat damage you're dealt by a commander is still tracked, even if you don't lose life as a result.
+  - *2023-11-03* — Other circumstances can still cause you to lose the game. For example, you will lose a game if you concede or if you're penalized with a Game Loss or a Match Loss during a sanctioned tournament due to a tournament rules infraction.
+  - *2023-11-03* — Protection from your opponents means that the target creature has protection from each object controlled by those opponents. If an object has no controller (such as a card in a graveyard), its owner is considered its controller for this purpose.
+  - *2023-11-03* — Spells and abilities that would normally cause you to lose life still resolve, but the life-loss part simply has no effect.
+  - *2023-11-03* — You can choose not to target a creature just to draw a card and, if you have 5 or less life, to get the additional effects listed. However, if you do choose a target, and that target is illegal at the time Courageous Resolve tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card, and the additional effects won't occur even if you have 5 or less life.
+  - *2023-11-03* — You can't pay a cost that includes the payment of any amount of life other than 0 life. However, you can choose to be dealt damage, even though that damage won't result in your life total changing.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/506/courageous-resolve) · oracle_id `3f7452aa-b075-47d9-b61f-061d61c7d1b4` · printing: LTC #506 (2023-11-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Courier Bat
 
@@ -434,7 +503,9 @@
   > *Swarms of bats poured from Lurenbraum Fortress carrying wedding invitations to vampires of every bloodline.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12316 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/102/courier-bat) · oracle_id `d8ff239c-cd71-4cd2-9e96-792a116989ca` · printing: VOW #102 (2021-11-19) · [rulings](https://api.scryfall.com/cards/4d9a8dc7-1ee9-4731-bd72-3d02f4e7c6c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-11-19* — Courier Bat's ability will trigger if you gained any amount of life this turn. It doesn't matter if you also lost that much life or more.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/102/courier-bat) · oracle_id `d8ff239c-cd71-4cd2-9e96-792a116989ca` · printing: VOW #102 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Courier Griffin
 
@@ -449,6 +520,7 @@
   > *—Message from Tars Olan, kor world-gift*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23561 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/21/courier-griffin) · oracle_id `2bb0a5e3-ccb0-4f87-b021-e60ebfa35b2b` · printing: BFZ #21 (2015-10-02) · [rulings](https://api.scryfall.com/cards/4d3afc71-f5db-45c3-96b2-8454b7f33542/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Courier Hawk
@@ -462,6 +534,7 @@
   > *The Orzhov started using hawks as messengers in order to bypass the many toll roads and bridges that dot Ravnica. Soon the service became one of their most profitable businesses.*
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23384 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cns/68/courier-hawk) · oracle_id `7fc904aa-377b-4671-8308-275205f56d81` · printing: CNS #68 (2014-06-06) · [rulings](https://api.scryfall.com/cards/9395663f-c7af-4d51-ba2a-3b76db8c25ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Courier of Comestibles
@@ -475,7 +548,12 @@
   > *Forgiveness is divine, but never pay full price for late pizza.*
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18470 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/112/courier-of-comestibles) · oracle_id `049d8b06-db90-4b9c-8195-d987b3ef1005` · printing: TMT #112 (2026-03-06) · [rulings](https://api.scryfall.com/cards/53f5f704-2265-42bb-bff5-fd9d85bc2bfb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2026-01-27* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2026-01-27* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Pizza Face (a Legendary Artifact Creature — Food Mutant) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost). You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+  - *2026-01-27* — Some spells and abilities that create Food tokens may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Food tokens.
+  - *2026-01-27* — Whatever you do, don't eat the cards. (Also, don't make the pizzas pictured on the cards. You don't have the digestive system of a Ninja Turtle.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/112/courier-of-comestibles) · oracle_id `049d8b06-db90-4b9c-8195-d987b3ef1005` · printing: TMT #112 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Courier's Briefcase
 
@@ -486,6 +564,7 @@
   > {T}, Sacrifice this artifact: Add one mana of any color.
   > {W}{U}{B}{R}{G}, {T}, Sacrifice this artifact: Draw three cards.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26256 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/142/couriers-briefcase) · oracle_id `00cd3bf9-0dd6-4ec0-a841-1839a71604ab` · printing: SNC #142 (2022-04-29) · [rulings](https://api.scryfall.com/cards/2f375674-7ae2-4430-b1f3-c26fa5b201d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Courier's Capsule
@@ -497,7 +576,9 @@
 - **Flavor text** (ALA printing):
   > *In ages past, Esper couriers bore messages written on ornate scrolls. The medium has grown more sophisticated, but the principle remains the same.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20778 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/37/couriers-capsule) · oracle_id `4e694613-e2e1-4ae3-baa8-f372259e91cf` · printing: ALA #37 (2008-10-03) · [rulings](https://api.scryfall.com/cards/39ae12ff-8039-4aac-aa50-f879376888a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — The only difference between a colored artifact and a colorless artifact is, obviously, its color. Unlike most artifacts, a colored artifact requires colored mana to cast. Also unlike most artifacts, a colored artifact has a color in all zones. It will interact with cards that care about color. Other than that, a colored artifact behaves just like any other artifact. It will interact as normal with any card that cares about artifacts, such as Shatter or Arcbound Ravager.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/37/couriers-capsule) · oracle_id `4e694613-e2e1-4ae3-baa8-f372259e91cf` · printing: ALA #37 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Courser of Kruphix
 
@@ -527,7 +608,14 @@
   > *Bleak rumors reached Trostani's ears. She decreed that no one should travel alone.*
 - **Keywords:** Populate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26079 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/154/coursers-accord) · oracle_id `23674648-d1a0-437d-8a0b-4173c75b4507` · printing: RTR #154 (2012-10-05) · [rulings](https://api.scryfall.com/cards/f027ceb0-5d2b-4cf6-87ad-e6b9b1e20634/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-01-12* — Any enters-the-battlefield abilities of the copied token will trigger when the new token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the copied token will also work.
+  - *2024-01-12* — If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
+  - *2024-01-12* — If you control no creature tokens when you populate, nothing will happen.
+  - *2024-01-12* — Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control.
+  - *2024-01-12* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
+  - *2024-01-12* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/154/coursers-accord) · oracle_id `23674648-d1a0-437d-8a0b-4173c75b4507` · printing: RTR #154 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Court Archers
 
@@ -541,7 +629,14 @@
   > *The Sun-Dappled Court of Valeron stands secure behind a wall of steel-tipped arrows.*
 - **Keywords:** Reach, Exalted
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20599 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/126/court-archers) · oracle_id `cc1cb63e-5811-44ab-af50-37a96f79fc78` · printing: ALA #126 (2008-10-03) · [rulings](https://api.scryfall.com/cards/a3776b1c-4a3f-43b9-962e-64010f286ba5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2008-10-01* — Exalted abilities will resolve before blockers are declared.
+  - *2008-10-01* — Exalted bonuses last until end of turn. If an effect creates an additional combat phase during your turn, a creature that attacked alone during the first combat phase will still have its exalted bonuses in that new phase. If a creature attacks alone during the second combat phase, all your exalted abilities will trigger again.
+  - *2008-10-01* — If you attack with multiple creatures, but then all but one are removed from combat, your exalted abilities won’t trigger.
+  - *2008-10-01* — If you declare exactly one creature as an attacker, each exalted ability on each permanent you control (including, perhaps, the attacking creature itself) will trigger. The bonuses are given to the attacking creature, not to the permanent with exalted. Ultimately, the attacking creature will wind up with +1/+1 for each of your exalted abilities.
+  - *2008-10-01* — In a Two-Headed Giant game, a creature “attacks alone” if it’s the only creature declared as an attacker by your entire team. If you control that attacking creature, your exalted abilities will trigger but your teammate’s exalted abilities won’t.
+  - *2008-10-01* — Some effects put creatures onto the battlefield attacking. Since those creatures were never declared as attackers, they’re ignored by exalted abilities. They won’t cause exalted abilities to trigger. If any exalted abilities have already triggered (because exactly one creature was declared as an attacker), those abilities will resolve as normal even though there may now be multiple attackers.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/126/court-archers) · oracle_id `cc1cb63e-5811-44ab-af50-37a96f79fc78` · printing: ALA #126 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Court Cleric
 
@@ -556,7 +651,9 @@
   > *—Ajani Goldmane*
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28116 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/283/court-cleric) · oracle_id `dec9edbb-677b-4773-8bc4-b388d7592276` · printing: M19 #283 (2018-07-13) · [rulings](https://api.scryfall.com/cards/dc2e1a93-4b5c-4f89-9e11-1693dee64b63/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-07-13* — Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to Court Cleric may become lethal if you cease to control an Ajani planeswalker during that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/283/court-cleric) · oracle_id `dec9edbb-677b-4773-8bc4-b388d7592276` · printing: M19 #283 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Court Homunculus
 
@@ -568,6 +665,7 @@
 - **Flavor text** (MM2 printing):
   > *Mages of Esper measure their wealth and status by the number of servants in their retinues.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26521 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/13/court-homunculus) · oracle_id `b597e801-2648-48b9-8a21-02baa13e37af` · printing: MM2 #13 (2015-05-22) · [rulings](https://api.scryfall.com/cards/5a61aded-0007-48fb-b1d6-1c69a8703400/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Court Hussar
@@ -581,7 +679,9 @@
   > When this creature enters, sacrifice it unless {W} was spent to cast it.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25387 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/a25/51/court-hussar) · oracle_id `74fedfc4-3eb7-4845-9d3e-9d5243a0062a` · printing: A25 #51 (2018-03-16) · [rulings](https://api.scryfall.com/cards/f3843e98-192c-44a2-be54-9ba79e51657c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-05-01* — If this enters in a way other than announcing it as a spell, then the appropriate mana can't have been paid, and you'll have to sacrifice it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/a25/51/court-hussar) · oracle_id `74fedfc4-3eb7-4845-9d3e-9d5243a0062a` · printing: A25 #51 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Courtly Provocateur
 
@@ -594,7 +694,12 @@
 - **Flavor text** (M13 printing):
   > *"My one regret is that I have mastered an art that leaves its audience unable to applaud."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21629 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m13/46/courtly-provocateur) · oracle_id `3752277a-5b3c-4902-90a1-63acdac66dc9` · printing: M13 #46 (2012-07-13) · [rulings](https://api.scryfall.com/cards/ba912207-a8bf-4ffb-9967-34029cb09f7f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2012-07-01* — After the first ability resolves, the creature attacks only if it’s able to do so as the declare attackers step begins. If, at that time, the creature is tapped, is affected by a spell or ability that says it can’t attack, or hasn’t been under that player’s control continuously since the turn began (and doesn’t have haste), then it doesn’t attack. If there’s a cost associated with having the creature attack, the player isn’t forced to pay that cost, so it doesn’t attack in that case either.
+  - *2012-07-01* — After the second ability resolves, the creature blocks only if it’s able to do so as the declare blockers step begins. If, at that time, the creature is tapped, is affected by a spell or ability that says it can’t block, or no creatures are attacking that player or a planeswalker controlled by that player, then it doesn’t block. If there’s a cost associated with having the creature block, the player isn’t forced to pay that cost, so it doesn’t block in that case either.
+  - *2012-07-01* — The controller of the creature targeted by the first ability chooses which player or planeswalker that creature attacks.
+  - *2012-07-01* — The controller of the creature targeted by the second ability chooses which attacking creature that creature blocks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m13/46/courtly-provocateur) · oracle_id `3752277a-5b3c-4902-90a1-63acdac66dc9` · printing: M13 #46 (2012-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Court of Ambition
 

@@ -22,6 +22,7 @@
 - **Flavor text** (FIN printing):
   > *The parasitic moss that grows in the folds of the goobbue's back is highly valued as an ingredient in various potions and medicines.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10191 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/188/goobbue-gardener) · oracle_id `b5c64331-2ba5-43ad-b77c-979875cc39e3` · printing: FIN #188 (2025-06-13) · [rulings](https://api.scryfall.com/cards/b7c3544a-5dd5-423e-8a40-ac4803db8adc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Good-Fortune Unicorn
@@ -48,4 +49,5 @@
   > If Good Knight is on the battlefield at the end of the game, score an additional point for the Mirran team.
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UW01/good-knight) · oracle_id `28690379-bc88-48ab-bb7f-8664abc0f7df` · printing: UNK #UW01 (2023-02-17) · [rulings](https://api.scryfall.com/cards/675af263-421f-4df8-aac2-ff4166f0efa6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

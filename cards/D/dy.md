@@ -48,6 +48,7 @@
   > −6: Search your library for an artifact card, put it onto the battlefield, then shuffle.
   > Dyfed, the Guiding Hand can be your commander.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #26218 · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/7/dyfed-the-guiding-hand) · oracle_id `ab23a9e4-2d62-4b01-9d52-593de40811b0` · printing: MBC #7 (2026-10-19) · [rulings](https://api.scryfall.com/cards/067f5bb8-eff0-4b6f-8b2a-77c902f6584e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dying to Serve
@@ -74,7 +75,10 @@
   > *This is a world of spiteful wasps that sting and kill even as they die.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29453 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uds/58/dying-wail) · oracle_id `78a9cb8d-52bb-4182-ad7d-e4f8f0bb9797` · printing: UDS #58 (1999-06-07) · [rulings](https://api.scryfall.com/cards/2a25a472-495e-4062-b66f-c37f148b494f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — If they have less than 2 cards, they discard all the cards they have.
+  - *2004-10-04* — It only triggers on a creature going to the graveyard from the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uds/58/dying-wail) · oracle_id `78a9cb8d-52bb-4182-ad7d-e4f8f0bb9797` · printing: UDS #58 (1999-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dying Wish
 
@@ -87,7 +91,10 @@
   > *"I wish I could rewrite my every deed and kill you with my first breath instead of my last."*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12591 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/64/dying-wish) · oracle_id `302407c8-0842-4f8e-a5aa-5c11a69851c4` · printing: GTC #64 (2013-02-01) · [rulings](https://api.scryfall.com/cards/b46e83d3-c66d-42fb-8435-b6c448db01ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-01-24* — If another player gains control of either Dying Wish or the enchanted creature (but not both), Dying Wish will be enchanting an illegal permanent. The Aura will be put into its owner’s graveyard as a state-based action.
+  - *2013-01-24* — Use the creature’s power the last time it was on the battlefield to determine how much life the target player loses and how much life you gain.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/64/dying-wish) · oracle_id `302407c8-0842-4f8e-a5aa-5c11a69851c4` · printing: GTC #64 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dynacharge
 
@@ -100,7 +107,13 @@
   > *Nothing evens the odds like a little lightning.*
 - **Keywords:** Overload
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16240 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/94/dynacharge) · oracle_id `61869f52-51a8-4126-af06-5f5c3d80c28c` · printing: MM3 #94 (2017-03-17) · [rulings](https://api.scryfall.com/cards/a9e530cc-21b9-43c2-a6a9-f1d96e06c2cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-03-14* — An overloaded Dynacharge affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won't get +2/+0.
+  - *2024-01-12* — Because a spell with overload doesn't target when its overload cost is paid, it may affect permanents with hexproof or with protection from the appropriate color.
+  - *2024-01-12* — If you are instructed to cast a spell with overload "without paying its mana cost," you can't choose to pay its overload cost instead.
+  - *2024-01-12* — If you don't pay the overload cost of a spell with overload, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
+  - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an overload cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/94/dynacharge) · oracle_id `61869f52-51a8-4126-af06-5f5c3d80c28c` · printing: MM3 #94 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dynaheir, Invoker Adept
 
@@ -113,7 +126,10 @@
   > {T}: When you next activate an ability that isn't a mana ability this turn by spending four or more mana to activate it, copy that ability. You may choose new targets for the copy.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13566 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/273/dynaheir-invoker-adept) · oracle_id `a968524a-3d2d-4c0c-8f66-bfbfb9ff3c36` · printing: CLB #273 (2022-06-10) · [rulings](https://api.scryfall.com/cards/c301b389-d802-4a8b-8681-9b50c8667423/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-06-10* — Dynaheir has received an update to its Oracle text. Specifically, the delayed triggered ability doesn't trigger if you activate a mana ability that costs four or more mana to activate.
+  - *2022-06-10* — Dynaheir, Invoker Adept doesn't actually grant haste to creatures you control, nor does it let you attack with them as though they had haste.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/273/dynaheir-invoker-adept) · oracle_id `a968524a-3d2d-4c0c-8f66-bfbfb9ff3c36` · printing: CLB #273 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dynamite Diver
 
@@ -127,7 +143,9 @@
   > *"Launch the explosives! No, you idiot, not like that!"*
   > *—Redshift, Rocketeer chief*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13334 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/123/dynamite-diver) · oracle_id `5f9ef763-22aa-4d43-b084-ef02465b489c` · printing: DFT #123 (2025-02-14) · [rulings](https://api.scryfall.com/cards/5a4f96f6-dd91-4357-ae19-1c35db2c2bcb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-02-07* — Saddling a Mount or crewing a Vehicle doesn’t cause this creature’s power to change.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/123/dynamite-diver) · oracle_id `5f9ef763-22aa-4d43-b084-ef02465b489c` · printing: DFT #123 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dynavolt Tower
 
@@ -140,7 +158,18 @@
   > *"I like that Tezzeret. He has vision the other judges don't. He sees the potential in what we're making here."*
   > *—Faiz, inventor*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16245 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/208/dynavolt-tower) · oracle_id `59f56dd9-cc82-4f0d-a522-0d8ed274fa40` · printing: KLD #208 (2016-09-30) · [rulings](https://api.scryfall.com/cards/c45fd2ae-0f91-47ca-99bd-22ddf946df9f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2016-09-20* — Dynavolt Tower's triggered ability resolves before the spell that caused it to trigger.
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/208/dynavolt-tower) · oracle_id `59f56dd9-cc82-4f0d-a522-0d8ed274fa40` · printing: KLD #208 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dystopia
 
@@ -151,4 +180,6 @@
   > At the beginning of each player's upkeep, that player sacrifices a green or white permanent of their choice.
 - **Keywords:** Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25319 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me2/88/dystopia) · oracle_id `d0e6203b-cef2-470f-8c79-7b139290e2d5` · printing: ME2 #88 (2008-09-22) · [rulings](https://api.scryfall.com/cards/452c1fe9-1640-4d0e-9f54-7c673b13b091/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The permanent is chosen and sacrificed during resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me2/88/dystopia) · oracle_id `d0e6203b-cef2-470f-8c79-7b139290e2d5` · printing: ME2 #88 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -36,7 +36,11 @@
   > *When outsiders interrupted the matca championship, things got ugly.*
 - **Keywords:** Domain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29298 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/148/matca-rioters) · oracle_id `b46294cb-9971-415e-90d1-a02c44cd1391` · printing: MM2 #148 (2015-05-22) · [rulings](https://api.scryfall.com/cards/0eac937f-9d61-4da2-8946-187839e13590/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2009-02-01* — Matca Rioters' ability is a "characteristic-defining ability." It applies at all times in all zones.
+  - *2021-06-18* — Domain abilities count the number of basic land types among lands you control, not how many lands you control or how many of any type.
+  - *2021-06-18* — The basic land types are Plains, Island, Swamp, Mountain, and Forest. Land types other than basic land types (such as Desert) don't contribute to domain abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/148/matca-rioters) · oracle_id `b46294cb-9971-415e-90d1-a02c44cd1391` · printing: MM2 #148 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Match the Odds
 
@@ -48,6 +52,7 @@
   > *"Here's your chance, Earthbenders! Take it! Your fate is in your own hands!"*
   > *—Katara*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11998 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/253/match-the-odds) · oracle_id `797d8776-9dcf-45b1-8c5e-1d025f916773` · printing: TLE #253 (2025-11-21) · [rulings](https://api.scryfall.com/cards/28494ff6-efb7-4d3b-a7b3-21425df80490/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mathas, Fiend Seeker
@@ -62,7 +67,12 @@
   > *"All will know of your crimes."*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10387 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/252/mathas-fiend-seeker) · oracle_id `1e8d9d0c-185b-4149-9ec9-74a2f2fe8764` · printing: 2X2 #252 (2022-07-08) · [rulings](https://api.scryfall.com/cards/921b65b1-18bf-4b02-a35d-7eaee1846611/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2017-08-25* — Creatures that receive a bounty counter other than from Mathas's ability resolving won't gain the triggered ability. Creatures that receive more than one bounty counter as Mathas's ability resolves (most likely due to Doubling Season) won't have the ability multiple times.
+  - *2017-08-25* — If Mathas's ability resolves two separate times targeting the same creature, that creature will have two instances of the triggered ability. Each triggers separately when that creature dies.
+  - *2017-08-25* — The opponents who each draw a card and gain 2 life are the opponents of the player who controlled the creature as it died. This may not be the player who controlled the creature when it received a bounty counter.
+  - *2017-08-25* — The target creature that gets a bounty counter still has the triggered ability it gains even if Mathas leaves the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/252/mathas-fiend-seeker) · oracle_id `1e8d9d0c-185b-4149-9ec9-74a2f2fe8764` · printing: 2X2 #252 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mathemagics
 
@@ -88,6 +98,7 @@
   > 10-19 | You draw a card.
   > 20 | Copy that spell. You may choose new targets for the copy.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13075 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/25/mathise-surge-channeler) · oracle_id `61be7df8-cc78-4822-9e70-f226a8a96c9d` · printing: SLX #25 (2025-04-25) · [rulings](https://api.scryfall.com/cards/3c560e53-73d9-4b0e-9b93-c729e00e7bbe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Math is for Blockers
@@ -98,6 +109,7 @@
   > Damage can't be prevented this turn.
   > Creatures you control have double strike, trample, and must attack if able until end of turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR16/math-is-for-blockers) · oracle_id `1048c9f7-5b8f-4abd-be8c-881b58c97ec2` · printing: UNK #RR16 (2023-07-29) · [rulings](https://api.scryfall.com/cards/2e0c466a-55f4-410a-aac1-5bccaaa9bd96/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Matoc, Lavamancer
@@ -109,6 +121,7 @@
   > Whenever a source you control deals damage, if at least one permanent or player was dealt exactly 2 of that damage, exile the top card of your library. You may play it until the end of your next turn.
   > {R}, {T}, Exile two cards from your graveyard: Matoc deals 2 damage to any other target.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #28381 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/25/matoc-lavamancer) · oracle_id `bbe79ca2-8f05-4f1b-b5d3-84724d3eff3a` · printing: MBC #25 (2026-10-19) · [rulings](https://api.scryfall.com/cards/9acfac7e-11c9-4b5b-8cad-03923024d837/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Matopi Golem
@@ -122,6 +135,7 @@
   > *Some potmakers claim to use the mud of such creatures to make their finest bowls—and that the bowls scream when fired.*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31525 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vis/150/matopi-golem) · oracle_id `0308b9f2-11da-41d0-8d18-18e8c0c600ab` · printing: VIS #150 (1997-02-03) · [rulings](https://api.scryfall.com/cards/92378d6f-89ee-49dc-8964-0e9c55daeffc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Matoya, Archon Elder
@@ -146,6 +160,7 @@
   > Whenever this creature deals combat damage to a creature, tap that creature and it doesn't untap during its controller's next untap step.
   > {G}: This creature gains reach until end of turn. (It can block creatures with flying.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27384 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/137/matsu-tribe-birdstalker) · oracle_id `4c90ca5c-551c-4da5-9482-62521b1ae17c` · printing: SOK #137 (2005-06-03) · [rulings](https://api.scryfall.com/cards/f1afb0c0-e138-4d2b-b3aa-fa40778f8d79/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Matsu-Tribe Decoy
@@ -157,6 +172,7 @@
   > {2}{G}: Target creature blocks this creature this turn if able.
   > Whenever this creature deals combat damage to a creature, tap that creature and it doesn't untap during its controller's next untap step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26730 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/227/matsu-tribe-decoy) · oracle_id `90d8020c-a3e4-4dee-9abf-25d80406b8ab` · printing: CHK #227 (2004-10-01) · [rulings](https://api.scryfall.com/cards/14bf9bec-9a5d-48a6-941b-95e1633b9484/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Matsu-Tribe Sniper
@@ -168,6 +184,7 @@
   > {T}: This creature deals 1 damage to target creature with flying.
   > Whenever this creature deals damage to a creature, tap that creature and it doesn't untap during its controller's next untap step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18094 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/136/matsu-tribe-sniper) · oracle_id `c20728ac-c01c-470f-a43b-de6104836645` · printing: BOK #136 (2005-02-04) · [rulings](https://api.scryfall.com/cards/143af295-040d-400e-ae23-59abd2f88e11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Matterbending Mage
@@ -179,7 +196,9 @@
   > When this creature enters, return up to one other target creature to its owner's hand.
   > Whenever you cast a spell with {X} in its mana cost, this creature can't be blocked this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24683 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/59/matterbending-mage) · oracle_id `94688e25-28cb-45aa-95ea-0d6f547cae57` · printing: SOS #59 (2026-04-24) · [rulings](https://api.scryfall.com/cards/460c6afd-cddf-4fea-925f-b27517ff250a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — Matterbending Mage's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/59/matterbending-mage) · oracle_id `94688e25-28cb-45aa-95ea-0d6f547cae57` · printing: SOS #59 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Matter Reshaper
 
@@ -204,6 +223,7 @@
   > At the beginning of combat on your turn, you may pay {1}. When you do, put a +1/+1 counter on target creature you control.
   > Each creature you control with a counter on it has ward {1}. (Whenever it becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14414 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/602/matt-murdock-justice-seeker) · oracle_id `e64efd0d-3de3-42e2-949e-4a152d08def8` · printing: MSC #602 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ab8e5c5d-e6a0-4666-930a-0a1f475d3c2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Matzalantli, the Great Door // The Core

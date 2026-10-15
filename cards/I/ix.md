@@ -27,7 +27,17 @@
 - **Flavor text** (XLN printing):
   > *Jace awoke to the certainty that he was lost.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24678 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/17/ixalans-binding) · oracle_id `5a2d0df9-950e-4c3d-8a08-275f179e33c7` · printing: XLN #17 (2017-09-29) · [rulings](https://api.scryfall.com/cards/5f3c8c31-ceb8-4a2c-beb6-0ff5f7b6ae07/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2017-09-29* — Auras attached to the exiled permanent will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
+  - *2017-09-29* — If Ixalan's Binding leaves the battlefield before its triggered ability resolves, the target permanent won't be exiled.
+  - *2017-09-29* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2017-09-29* — If the exiled card has a different name in exile than it did on the battlefield, Ixalan's Binding stops players from casting spells with the name of that card as it exists in exile.
+  - *2017-09-29* — If the exiled card is a land card that's become a nonland permanent, Ixalan's Binding won't stop players from playing lands with that name.
+  - *2017-09-29* — If there is no exiled card (perhaps because the exiled permanent was a token or was a commander that was moved to the command zone in a Commander game), Ixalan's Binding won't stop players from casting spells.
+  - *2017-09-29* — In a multiplayer game, if Ixalan's Binding's owner leaves the game and another player owns the exiled card, the exiled card will return to the battlefield under its owner's control. Because the one-shot effect that returns the card isn't an ability that goes on the stack, it won't cease to exist along with the leaving player's spells and abilities on the stack.
+  - *2017-09-29* — The exiled card returns to the battlefield immediately after Ixalan's Binding leaves the battlefield. Nothing happens between the two events, including state-based actions.
+  - *2018-01-19* — There are many important moments in the story, but the most crucial—called "story spotlights"—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/17/ixalans-binding) · oracle_id `5a2d0df9-950e-4c3d-8a08-275f179e33c7` · printing: XLN #17 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ixalli's Diviner
 
@@ -38,7 +48,15 @@
   > When this creature enters, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
 - **Keywords:** Explore
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22858 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/192/ixallis-diviner) · oracle_id `56c930c4-77e8-4547-8d55-663dc68ccf13` · printing: XLN #192 (2017-09-29) · [rulings](https://api.scryfall.com/cards/b22b55f6-681f-45da-bc57-a0cf7b8f671d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2018-01-19* — If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature explores" trigger as appropriate.
+  - *2018-01-19* — If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.
+  - *2018-01-19* — If an ability instructs a creature to explore, its controller reveals the top card of their library. If it's a land card, they'll put it into their hand. Otherwise, they'll put a +1/+1 counter on that creature, then choose to either leave that card on top of their library or put it into their graveyard.
+  - *2018-01-19* — If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+  - *2018-01-19* — In some unusual cases, noncreature permanents may explore. For example, if the creature card returned by Defossilize is somehow not a creature once it's on the battlefield, it can still explore. You'll take all the same actions, and you may end up putting a +1/+1 counter on the permanent. (Note that some effects target a creature, and those effects would still require a legal target to have it explore.)
+  - *2018-01-19* — Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+  - *2018-01-19* — Some spells or abilities might cause a creature to explore multiple times in a row. If you reveal a nonland card when a creature explores and leave it on top of your library, then the creature explores again immediately afterwards, you'll reveal the same card again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/192/ixallis-diviner) · oracle_id `56c930c4-77e8-4547-8d55-663dc68ccf13` · printing: XLN #192 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ixalli's Keeper
 
@@ -50,6 +68,7 @@
 - **Flavor text** (XLN printing):
   > *The people of the Sun Empire worship the sun in three aspects. Ixalli is the Verdant Sun, who fosters growth in all things.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29593 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/193/ixallis-keeper) · oracle_id `183e2796-2fc1-4f0e-b1be-95285d2ea046` · printing: XLN #193 (2017-09-29) · [rulings](https://api.scryfall.com/cards/e5b98537-abf4-46cb-853f-9561811ab439/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ixalli's Lorekeeper
@@ -102,7 +121,9 @@
 - **Flavor text** (ONS printing):
   > *"Reality has exiled me. I am no longer bound by its laws."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11614 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ons/89/ixidor-reality-sculptor) · oracle_id `90b98aa7-c8d0-4853-887c-164f8160c3f3` · printing: ONS #89 (2002-10-07) · [rulings](https://api.scryfall.com/cards/314d5e89-55f7-42b4-af19-d4d0f499a265/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — When you turn a card face up, its controller does not have to pay its Morph cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ons/89/ixidor-reality-sculptor) · oracle_id `90b98aa7-c8d0-4853-887c-164f8160c3f3` · printing: ONS #89 (2002-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ixidor's Will
 
@@ -113,6 +134,7 @@
 - **Flavor text** (ONS printing):
   > *"Some dreams should not come to be."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22877 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/90/ixidors-will) · oracle_id `a84c9507-d054-4770-84f3-5a4b5a01d826` · printing: ONS #90 (2002-10-07) · [rulings](https://api.scryfall.com/cards/1b713448-853a-41ee-a302-963e9c1c1c65/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ixidron

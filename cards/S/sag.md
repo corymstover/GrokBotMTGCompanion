@@ -54,6 +54,7 @@
 - **Flavor text** (UNK printing):
   > *Designed by players at MagicCon Las Vegas 2025.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ05m/saga-of-krark-losing-his-thumb) · oracle_id `f4226b45-88c5-429f-bec1-6fbee6ef7c55` · printing: UNK #RZ05m (2025-08-02) · [rulings](https://api.scryfall.com/cards/c9b93a82-cbd7-440c-87ec-016f24ba4b44/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sage Aven
@@ -66,6 +67,7 @@
   > When this creature enters, look at the top four cards of your library, then put them back in any order.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28254 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/95/sage-aven) · oracle_id `f57c6bfb-8dd4-429d-8ced-65145e2f7adb` · printing: 9ED #95 (2005-07-29) · [rulings](https://api.scryfall.com/cards/af71e998-0ce3-4533-84cd-91cc6f288986/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sage-Eye Avengers
@@ -78,7 +80,12 @@
   > Whenever this creature attacks, you may return target creature to its owner's hand if its power is less than this creature's power.
 - **Keywords:** Prowess
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24413 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dds/8/sage-eye-avengers) · oracle_id `97a1b49e-d6bc-46ba-88c1-991057e64170` · printing: DDS #8 (2017-03-31) · [rulings](https://api.scryfall.com/cards/026e33ed-2f2d-4345-8a89-58c9f2f6c727/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-11-24* — Any spell you cast that doesn’t have the type creature will cause prowess to trigger. If a spell has multiple types, and one of those types is creature (such as an artifact creature), casting it won’t cause prowess to trigger. Playing a land also won’t cause prowess to trigger.
+  - *2014-11-24* — Once it triggers, prowess isn’t connected to the spell that caused it to trigger. If that spell is countered, prowess will still resolve.
+  - *2014-11-24* — Prowess goes on the stack on top of the spell that caused it to trigger. It will resolve before that spell.
+  - *2014-11-24* — Prowess triggers only once for any spell, even if that spell has multiple types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dds/8/sage-eye-avengers) · oracle_id `97a1b49e-d6bc-46ba-88c1-991057e64170` · printing: DDS #8 (2017-03-31) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sage-Eye Harrier
 
@@ -92,7 +99,17 @@
   > *These winged warriors meditate in flight, tracing mandalas in the clouds.*
 - **Keywords:** Flying, Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30856 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/20/sage-eye-harrier) · oracle_id `589d1c6e-5808-424c-a6e4-dadef90d119e` · printing: KTK #20 (2014-09-26) · [rulings](https://api.scryfall.com/cards/3cc7b4c3-647e-48da-86f8-f55e3e990ac1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2014-09-20* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
+  - *2014-09-20* — Any time you have priority, you may turn the face-down creature face up by revealing what its morph cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2014-09-20* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down spells or permanents you don't control unless an effect instructs you to do so.
+  - *2014-09-20* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2014-09-20* — If a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+  - *2014-09-20* — Morph lets you cast a card face down by paying {3}, and lets you turn the face-down permanent face up any time you have priority by paying its morph cost.
+  - *2014-09-20* — The face-down spell has no mana cost and has a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost.
+  - *2014-09-20* — When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the creature can still grant it any of these characteristics.
+  - *2014-09-20* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/20/sage-eye-harrier) · oracle_id `589d1c6e-5808-424c-a6e4-dadef90d119e` · printing: KTK #20 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sage of Ancient Lore // Werewolf of Ancient Hunger
 
@@ -109,7 +126,11 @@
   > At the beginning of each upkeep, if a player cast two or more spells last turn, transform this creature.
 - **Keywords:** Vigilance, Transform, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10486 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/225/sage-of-ancient-lore-werewolf-of-ancient-hunger) · oracle_id `a46454ad-d912-42f7-b228-492796161d82` · printing: SOI #225 (2016-04-08) · [rulings](https://api.scryfall.com/cards/94c5f7fe-9ca6-4040-bf7c-062ab22e6a02/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-04-08* — If you have no cards in hand after Sage of Ancient Lore enters the battlefield, it will be put into your graveyard before its first triggered ability resolves. You'll draw a card, but Sage of Ancient Lore will already be gone.
+  - *2016-04-08* — The abilities that transform a Werewolf back and forth look at the entire previous turn, even if the Werewolf with that ability wasn't on the battlefield for some or all of that turn.
+  - *2016-04-08* — To trigger the Werewolf's back face's transform ability, a single player must have cast two or more spells during the previous turn. If multiple players each cast just one spell during the previous turn, the ability won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/225/sage-of-ancient-lore-werewolf-of-ancient-hunger) · oracle_id `a46454ad-d912-42f7-b228-492796161d82` · printing: SOI #225 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sage of Days
 
@@ -121,6 +142,7 @@
 - **Flavor text** (LCI printing):
   > *"After this age, another."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25343 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/73/sage-of-days) · oracle_id `656fc672-efa5-484a-b5e8-eac262331439` · printing: LCI #73 (2023-11-17) · [rulings](https://api.scryfall.com/cards/a6e53495-c76c-4cd4-b93e-b2c491d2c13a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sage of Epityr
@@ -133,6 +155,7 @@
 - **Flavor text** (TSP printing):
   > *Clairvoyants across Dominaria were driven mad by the overload from the widening time rifts, while other random folk gained the gift of future sight.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17628 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsp/74/sage-of-epityr) · oracle_id `ef893585-246c-4028-bd2b-14ac51ce29be` · printing: TSP #74 (2006-10-06) · [rulings](https://api.scryfall.com/cards/8e2ea578-069e-4020-a762-d108a3e14861/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sage of Fables
@@ -178,6 +201,7 @@
 - **Flavor text** (DOM printing):
   > *Though it was laid to waste by the brothers, many schools of magic trace their origins to the College of Lat-Nam, including the first Tolarian Academy.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14582 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/64/sage-of-lat-nam) · oracle_id `f34be3cc-ff47-4415-a6a8-ed142891dc0c` · printing: DOM #64 (2018-04-27) · [rulings](https://api.scryfall.com/cards/f7395b77-f7f7-404b-8639-9db6dc28d558/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sage of Mysteries
@@ -191,7 +215,10 @@
   > *"I see destruction, suffering, and one tormented glimmer of hope."*
 - **Keywords:** Mill, Constellation
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17332 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/62/sage-of-mysteries) · oracle_id `62c949c8-0011-4ab7-8388-e643be79df83` · printing: THB #62 (2020-01-24) · [rulings](https://api.scryfall.com/cards/4138fd65-e0c3-42a1-9c0d-4d5f20228b55/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-01-24* — A constellation ability triggers whenever an enchantment enters the battlefield under your control for any reason. Enchantments with other card types, such as enchantment creatures, will also cause constellation abilities to trigger.
+  - *2020-01-24* — An Aura spell that has an illegal target when it tries to resolve doesn’t resolve and is instead put into its owner’s graveyard. It doesn’t enter the battlefield, so constellation abilities don’t trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/62/sage-of-mysteries) · oracle_id `62c949c8-0011-4ab7-8388-e643be79df83` · printing: THB #62 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sage of Shaila's Claim
 
@@ -203,7 +230,17 @@
 - **Flavor text** (KLD printing):
   > *Even now, Shaila's descendants proudly occupy the greenway that she refused to relinquish to the Consulate.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22694 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/168/sage-of-shailas-claim) · oracle_id `a0b413cc-b16f-4112-8061-2ccded7f481d` · printing: KLD #168 (2016-09-30) · [rulings](https://api.scryfall.com/cards/0987d29a-2043-4341-89d5-5e34bb6507e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/168/sage-of-shailas-claim) · oracle_id `a0b413cc-b16f-4112-8061-2ccded7f481d` · printing: KLD #168 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sage of the Beyond
 
@@ -234,7 +271,10 @@
 - **Flavor text** (ELD printing):
   > *Ask a merfolk even a simple question and the answer is a journey far beyond the known.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14933 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/63/sage-of-the-falls) · oracle_id `852621bf-9ab7-4027-89fb-b438e4080684` · printing: ELD #63 (2019-10-04) · [rulings](https://api.scryfall.com/cards/274e3aa4-4b46-4daa-a7a8-400a20c59435/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-10-04* — If more than one non-Human creature enters the battlefield at the same time, Sage of the Falls's ability triggers that many times. You'll resolve the abilities one at a time—you won't draw that many cards at once and then discard that many cards.
+  - *2019-10-04* — You draw a card and discard a card all while Sage of the Falls's ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/63/sage-of-the-falls) · oracle_id `852621bf-9ab7-4027-89fb-b438e4080684` · printing: ELD #63 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sage of the Fang
 
@@ -246,7 +286,9 @@
   > Renew — {3}{G}, Exile this card from your graveyard: Put a +1/+1 counter on target creature, then double the number of +1/+1 counters on that creature. Activate only as a sorcery.
 - **Keywords:** Renew, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14604 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/155/sage-of-the-fang) · oracle_id `d6eb2bfc-1e86-4e36-9d48-12de16955b98` · printing: TDM #155 (2025-04-11) · [rulings](https://api.scryfall.com/cards/1ebf4a9d-d90c-4017-9f00-fca89899f301/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-04-04* — If a card with a renew ability is put into your graveyard during your turn, you can activate that ability if it’s legal to do so before any other player can take any actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/155/sage-of-the-fang) · oracle_id `d6eb2bfc-1e86-4e36-9d48-12de16955b98` · printing: TDM #155 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sage of the Inward Eye
 
@@ -260,6 +302,7 @@
   > *"No one petal claims beauty for the lotus."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21211 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/195/sage-of-the-inward-eye) · oracle_id `02c741d0-99d3-48e5-9846-0fea5a0a29fe` · printing: KTK #195 (2014-09-26) · [rulings](https://api.scryfall.com/cards/297c336b-3f70-4518-b1f1-7b773774895d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sage of the Maze
@@ -288,6 +331,7 @@
   > *"Gravity is just a suggestion."*
 - **Keywords:** Flying, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12628 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/22/sage-of-the-skies) · oracle_id `cfc7cef7-0a95-49f8-970f-abff2cacd82d` · printing: TDM #22 (2025-04-11) · [rulings](https://api.scryfall.com/cards/6ade6918-6d1d-448d-ab56-93996051e9a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sage of the Unknowable
@@ -300,7 +344,9 @@
 - **Flavor text** (MH3 printing):
   > *"Someday, we will walk the Blind Eternities and see the truths that lie beyond the stifling veil of reality."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20818 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/68/sage-of-the-unknowable) · oracle_id `359a570e-92a7-4954-9a05-89cc75df57e7` · printing: MH3 #68 (2024-06-14) · [rulings](https://api.scryfall.com/cards/9f481ab3-ca6c-4a5c-aa32-d087464fc4da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-06-07* — The mana generated by Sage of the Unknowable's activated ability can be used to activate any ability, not just abilities of colorless sources.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/68/sage-of-the-unknowable) · oracle_id `359a570e-92a7-4954-9a05-89cc75df57e7` · printing: MH3 #68 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sage Owl
 
@@ -314,6 +360,7 @@
   > *Some owls house the souls of archmages of ages past.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14698 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m10/69/sage-owl) · oracle_id `d47fc902-51f7-4ad1-8ee4-c973e32192b8` · printing: M10 #69 (2009-07-17) · [rulings](https://api.scryfall.com/cards/d48af662-25a3-46a0-a48c-ba8cc417490c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sage's Dousing
@@ -326,7 +373,12 @@
   > *"Curse these merrows and their meddling! Since coming near the river, I can't so much as sneeze without being soaked."*
   > *—Ashling the Pilgrim*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19276 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mor/48/sages-dousing) · oracle_id `374f550a-a761-4994-a4aa-b05a2ec415de` · printing: MOR #48 (2008-02-01) · [rulings](https://api.scryfall.com/cards/75ccd5f6-b363-433f-9e98-f65e10b10bc9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-04-01* — If you control a Wizard, you draw a card regardless of whether the targeted spell was countered or {3} was paid.
+  - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
+  - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
+  - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mor/48/sages-dousing) · oracle_id `374f550a-a761-4994-a4aa-b05a2ec415de` · printing: MOR #48 (2008-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sage's Knowledge
 
@@ -339,6 +391,7 @@
   > *—Lao Tzu, \*Tao Te Ching\**
   > *(trans. Feng and English)*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28541 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/52/sages-knowledge) · oracle_id `b8ffd53b-5b10-4866-83fe-630eee58c514` · printing: PTK #52 (1999-05-01) · [rulings](https://api.scryfall.com/cards/156d7c70-6c6d-4052-9d44-029ba1bb66e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sage's Nouliths
@@ -351,7 +404,12 @@
   > Hagneia — Equip {3}
 - **Keywords:** Hagneia, Job select, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11135 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/70/sages-nouliths) · oracle_id `97248734-6e99-42a2-8f11-f3337b25f8ab` · printing: FIN #70 (2025-06-13) · [rulings](https://api.scryfall.com/cards/a12ff7c3-6ae0-4098-9240-ff3fd16a5288/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-06-06* — If the Hero token is destroyed, the Equipment stays on the battlefield.
+  - *2025-06-06* — If the job select ability causes two Hero tokens to be created (due to an effect such as that of Doubling Season), the Equipment becomes attached to only one of them.
+  - *2025-06-06* — The Hero token enters as a 1/1 creature, then the Equipment becomes attached to it. Abilities that trigger when a creature enters the battlefield see that a 1/1 creature entered the battlefield.
+  - *2025-06-06* — You may pay the Equipment's equip cost as normal to move it from the Hero token to another creature you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/70/sages-nouliths) · oracle_id `97248734-6e99-42a2-8f11-f3337b25f8ab` · printing: FIN #70 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sages of the Anima
 
@@ -363,7 +421,14 @@
 - **Flavor text** (ARB printing):
   > *Godtrackers found new pantheons of beast-gods beyond Naya's borders.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25664 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/arb/103/sages-of-the-anima) · oracle_id `d6c008c7-6c87-4677-ba0e-6d95f10d10bc` · printing: ARB #103 (2009-04-30) · [rulings](https://api.scryfall.com/cards/f98a21af-cd1a-4438-a4c2-0c92ad92efef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2009-05-01* — If a spell or ability causes you to put cards in your hand without specifically using the word “draw,” Sages of the Anima’s ability won’t affect it.
+  - *2009-05-01* — If an effect would cause you to draw multiple cards, each individual draw is replaced by Sages of the Anima’s effect. Process the draws one at a time.
+  - *2009-05-01* — If there are fewer than three cards in your library, you’ll reveal all of them.
+  - *2009-05-01* — If two or more replacement effects would apply to a card-drawing event, the player who’s drawing the card chooses what order to apply them. It’s possible that after applying one of them, the others will no longer be applicable because the player would no longer draw a card. For example, if you have more than one Sages of the Anima on the battlefield and you would draw a card, each Sages of the Anima’s replacement effect could apply. Once you use one, the rest are no longer applicable.
+  - *2009-05-01* — Other players don’t get to see the order that you put the cards on the bottom of your library.
+  - *2009-05-01* — This effect is mandatory. Even if there are no more creature cards in your library, you have to do this instead of drawing a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/arb/103/sages-of-the-anima) · oracle_id `d6c008c7-6c87-4677-ba0e-6d95f10d10bc` · printing: ARB #103 (2009-04-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sage's Reverie
 
@@ -391,6 +456,7 @@
   > *"Forget what you have learned from other teachers. I bring you the truth."*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18271 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/73/sages-row-denizen) · oracle_id `fc59aa9a-3abd-4479-a63e-ef0eeb35b5f2` · printing: M20 #73 (2019-07-12) · [rulings](https://api.scryfall.com/cards/06ad3e3e-176b-48f0-af2f-fa4fc4759775/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sage's Row Savant
@@ -404,6 +470,7 @@
   > *The streets of Ravnica are full of former guild members now using their institutional skills for personal gain.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23780 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/97/sages-row-savant) · oracle_id `6eaf5cdc-2843-4167-bd18-df4c2ac73ac0` · printing: CLU #97 (2024-02-23) · [rulings](https://api.scryfall.com/cards/20ceccb4-c7c7-487e-8f74-2d89d2a86f34/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sagittars' Volley
@@ -416,7 +483,10 @@
   > *"My bowstring hums in tune with the song of the Worldsoul."*
   > *—Alcarus, Selesnya sagittar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28510 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/138/sagittars-volley) · oracle_id `d4c4c7d7-744a-4548-adad-a5fc4fb3f586` · printing: RNA #138 (2019-01-25) · [rulings](https://api.scryfall.com/cards/d3104cad-e684-4bd7-b26b-5aa862f7a2b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-01-25* — Each creature with flying controlled by any of your opponents is dealt damage, even if that opponent didn’t control the target creature with flying.
+  - *2019-01-25* — If the target creature is an illegal target by the time Sagittars’ Volley tries to resolve, the spell doesn’t resolve. No creatures are dealt damage. If the target is legal but not destroyed (most likely because it has indestructible), creatures with flying your opponents control are dealt damage, possibly including the target creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/138/sagittars-volley) · oracle_id `d4c4c7d7-744a-4548-adad-a5fc4fb3f586` · printing: RNA #138 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sagrada Familiar
 
@@ -429,6 +499,7 @@
   > Whenever you cast a commander spell, create X 1/1 Stained Glass artifact creature tokens that are all colors, where X is the number of colors of that commander.
 - **Keywords:** Reach, Defender
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UA03d/sagrada-familiar) · oracle_id `ba621907-7aaa-448a-8acc-5d28521eb581` · printing: UNK #UA03d (2023-07-29) · [rulings](https://api.scryfall.com/cards/7ea5d47c-26e0-41df-ae33-1ca0908782f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sagu Archer
@@ -443,7 +514,17 @@
   > *His arrows whistle like a serpent's hiss.*
 - **Keywords:** Reach, Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29537 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/146/sagu-archer) · oracle_id `cf8a8482-e243-4155-bc21-a1e474c6f1e7` · printing: KTK #146 (2014-09-26) · [rulings](https://api.scryfall.com/cards/3a26baca-467e-4d94-873e-f266bebd5fd8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2014-09-20* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
+  - *2014-09-20* — Any time you have priority, you may turn the face-down creature face up by revealing what its morph cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2014-09-20* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down spells or permanents you don't control unless an effect instructs you to do so.
+  - *2014-09-20* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2014-09-20* — If a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+  - *2014-09-20* — Morph lets you cast a card face down by paying {3}, and lets you turn the face-down permanent face up any time you have priority by paying its morph cost.
+  - *2014-09-20* — The face-down spell has no mana cost and has a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost.
+  - *2014-09-20* — When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the creature can still grant it any of these characteristics.
+  - *2014-09-20* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/146/sagu-archer) · oracle_id `cf8a8482-e243-4155-bc21-a1e474c6f1e7` · printing: KTK #146 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sagu Mauler
 
@@ -457,7 +538,17 @@
   > *The Sagu Jungle's thick undergrowth conceals even the largest predators—if they wish to remain hidden.*
 - **Keywords:** Morph, Hexproof, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15111 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/200/sagu-mauler) · oracle_id `8d877ee9-1751-48a1-9f2f-02897dae153b` · printing: C19 #200 (2019-08-23) · [rulings](https://api.scryfall.com/cards/23de1159-4466-432d-917c-0f77d0610b4e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2014-09-20* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
+  - *2014-09-20* — Any time you have priority, you may turn the face-down creature face up by revealing what its morph cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2014-09-20* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down spells or permanents you don't control unless an effect instructs you to do so.
+  - *2014-09-20* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2014-09-20* — If a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+  - *2014-09-20* — Morph lets you cast a card face down by paying {3}, and lets you turn the face-down permanent face up any time you have priority by paying its morph cost.
+  - *2014-09-20* — The face-down spell has no mana cost and has a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost.
+  - *2014-09-20* — When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the creature can still grant it any of these characteristics.
+  - *2014-09-20* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/200/sagu-mauler) · oracle_id `8d877ee9-1751-48a1-9f2f-02897dae153b` · printing: C19 #200 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sagu Pummeler
 
@@ -472,7 +563,9 @@
   > *—Tarkir expression meaning "a failure of diplomacy"*
 - **Keywords:** Reach, Renew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20616 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/156/sagu-pummeler) · oracle_id `00f1d167-c143-471d-bd52-da2a65d087c4` · printing: TDM #156 (2025-04-11) · [rulings](https://api.scryfall.com/cards/def9cb5b-4062-481e-b682-3a30443c2e56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-04-04* — If a card with a renew ability is put into your graveyard during your turn, you can activate that ability if it’s legal to do so before any other player can take any actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/156/sagu-pummeler) · oracle_id `00f1d167-c143-471d-bd52-da2a65d087c4` · printing: TDM #156 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sagu Wildling // Roost Seek
 

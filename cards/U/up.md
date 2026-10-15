@@ -28,6 +28,7 @@
   > *"Come one, come all! this rock shall fly From its firm base as soon as I."*
   > *—Sir Walter Scott, "The Lady of the Lake"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25339 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5ed/133/updraft) · oracle_id `ff0d5cbe-99d3-4d3b-9a5b-80223fc18869` · printing: 5ED #133 (1997-03-24) · [rulings](https://api.scryfall.com/cards/7b4c1316-d6df-4bc4-9bfe-0458ff7c2908/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Updraft Elemental
@@ -42,6 +43,7 @@
   > *—Chanyi, Ojutai monk*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31409 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/82/updraft-elemental) · oracle_id `a33982e4-d7d2-4319-bf04-534b8f253dfb` · printing: DTK #82 (2015-03-27) · [rulings](https://api.scryfall.com/cards/9621c700-569d-4d07-847e-68b97113415f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Upheaval
@@ -65,6 +67,7 @@
 - **Flavor text** (MMQ printing):
   > *Cho-Manno knew he had no choice but to ally with Gerrard. If that's what it took to free his people, he'd pay the price.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14930 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/222/uphill-battle) · oracle_id `349a18bf-5c61-4fe6-a5e5-5e7cad6b4ba6` · printing: MMQ #222 (1999-10-04) · [rulings](https://api.scryfall.com/cards/73fa3455-3ba0-41ad-aefd-40f183aed2a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Upriser Renegade
@@ -77,7 +80,11 @@
 - **Flavor text** (NEO printing):
   > *"My streets, my rules. You picked the wrong neighborhood for a fight."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16056 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/170/upriser-renegade) · oracle_id `9f9b3ef8-e0ce-4906-96b3-a7727d7cc662` · printing: NEO #170 (2022-02-18) · [rulings](https://api.scryfall.com/cards/62d878c2-a340-4751-adaa-e50b0bb85423/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-02-18* — A creature that is equipped is considered modified no matter who controls the Equipment that's attached to it.
+  - *2022-02-18* — A creature with a counter on it is considered modified no matter what kind of counter it is or which player put it on that creature.
+  - *2022-02-18* — An Aura controlled by an opponent does not cause a creature you control to be modified.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/170/upriser-renegade) · oracle_id `9f9b3ef8-e0ce-4906-96b3-a7727d7cc662` · printing: NEO #170 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Uproot
 
@@ -89,6 +96,7 @@
   > *"We arrived at the battlefield too late. \*Again\*. Another error on your part, and you will have to answer to me personally."*
   > *—General Takeno, letter to the imperial mapmaker*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29902 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/149/uproot) · oracle_id `891d5c5e-3d4d-4183-b9fd-ab694639d1c3` · printing: BOK #149 (2005-02-04) · [rulings](https://api.scryfall.com/cards/88357572-0edd-4115-93c3-49f6f5a191b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Up the Beanstalk
@@ -114,4 +122,6 @@
 - **Flavor text** (10E printing):
   > *Freyalise promised a dawn that would never end, a day of limitless life. As many dread her promise as revere it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14315 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/10e/306/upwelling) · oracle_id `420ff0f4-6056-4b40-9a28-fd4c23d6b81c` · printing: 10E #306 (2007-07-13) · [rulings](https://api.scryfall.com/cards/d5c47cac-679f-4b48-977f-2fa149a6c3c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — Players can keep unspent mana indefinitely while this is on the battlefield, but once it leaves the battlefield, they have until the end of the current step (or phase) to use the mana before it disappears.
+- **Source flags:** [Scryfall](https://scryfall.com/card/10e/306/upwelling) · oracle_id `420ff0f4-6056-4b40-9a28-fd4c23d6b81c` · printing: 10E #306 (2007-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -36,7 +36,9 @@
   > Remove two carrion counters from this creature: This creature gets +1/+1 until end of turn.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29366 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/21/osai-vultures) · oracle_id `65b7a7ca-0e39-4612-9bcd-743bf903544a` · printing: ME4 #21 (2011-01-10) · [rulings](https://api.scryfall.com/cards/2c665c02-4010-4bc6-85f0-bc03bef38ce9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Only gets one counter per turn, not one per creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/21/osai-vultures) · oracle_id `65b7a7ca-0e39-4612-9bcd-743bf903544a` · printing: ME4 #21 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### _____-o-saurus
 
@@ -51,6 +53,7 @@
   > *—Astrotorium waiver*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25078 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/148/_____-o-saurus) · oracle_id `32921952-8846-418d-8689-c42dbc24a7b8` · printing: UNF #148 (2022-10-07) · [rulings](https://api.scryfall.com/cards/a4db23c3-7ff6-4b86-a6a6-7c1d9c810e6e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oscorp Industries
@@ -80,6 +83,7 @@
 - **Flavor text** (SPM printing):
   > *Norman Osborn relentlessly pursues success, and he demands everyone in his employ do the same.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23227 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/40/oscorp-research-team) · oracle_id `4d2e233c-0173-417f-82a0-1e692a400ae1` · printing: SPM #40 (2025-09-26) · [rulings](https://api.scryfall.com/cards/a800ffb4-0c48-41eb-b221-cf1d855131d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Osgir, the Reconstructor
@@ -107,7 +111,12 @@
   > Paradox — Whenever you cast a spell from anywhere other than your hand, investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.")
 - **Keywords:** Investigate, Paradox
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13416 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/191/osgood-operation-double) · oracle_id `292aafef-8945-4827-90b2-1dd9764e517b` · printing: WHO #191 (2023-10-13) · [rulings](https://api.scryfall.com/cards/d180a882-84d9-4e38-8aed-1fc6ecd1df72/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-10-13* — A triggered ability that triggers when a spell is cast from anywhere other than your hand, such as that of The Thirteenth Doctor, functions only on the battlefield, so it doesn't trigger when you cast that spell from a zone other than your hand.
+  - *2023-10-13* — An instant or sorcery that counts how many spells you've cast from anywhere other than your hand, such as Surge of Brilliance, counts itself if it was cast from a zone other than your hand.
+  - *2023-10-13* — If a spell or ability allows you to copy a spell on the stack but doesn't specify that the spell is cast, that spell wasn't cast and won't be counted by paradox abilities. However, if a spell or ability allows you to cast a copy of a spell, that spell will be counted for paradox abilities.
+  - *2023-10-13* — Paradox abilities count any spells cast from zones other than your hand. These are usually spells cast from exile, the graveyard, or the command zone. They also count spells cast from outside the game, such as spells cast with Wish or Garth One-Eye's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/191/osgood-operation-double) · oracle_id `292aafef-8945-4827-90b2-1dd9764e517b` · printing: WHO #191 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oskar, Rubbish Reclaimer
 
@@ -120,7 +129,13 @@
 - **Flavor text** (NCC printing):
   > *"So many fools think throwing something away is the same as disposing of it."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10675 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/77/oskar-rubbish-reclaimer) · oracle_id `14c2c818-0ce2-4809-a5ff-ee4a6253defa` · printing: NCC #77 (2022-04-29) · [rulings](https://api.scryfall.com/cards/ed87e25f-9dad-4858-92bc-e859fd2be2a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-04-29* — The mana value of a double-faced card in your graveyard is always the mana value of the front face.
+  - *2022-04-29* — The mana value of a land card is 0.
+  - *2022-04-29* — The mana value of a split card in the graveyard is the total mana value of both halves of that card. It does not have two mana values.
+  - *2022-04-29* — X is 0 when determining the mana value of a card in your graveyard.
+  - *2022-04-29* — You may cast the spell immediately. You must pay all costs for a spell cast this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/77/oskar-rubbish-reclaimer) · oracle_id `14c2c818-0ce2-4809-a5ff-ee4a6253defa` · printing: NCC #77 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Osseous Exhale
 
@@ -131,7 +146,12 @@
   > Osseous Exhale deals 5 damage to target attacking or blocking creature. If a Dragon was beheld, you gain 2 life.
 - **Keywords:** Behold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17143 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/17/osseous-exhale) · oracle_id `8d84a706-080c-4fb2-b1b9-3dbb3294fb7b` · printing: TDM #17 (2025-04-11) · [rulings](https://api.scryfall.com/cards/2300da2f-2297-4c2f-90c1-11ce2b42d91f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-04-04* — Effects that say “If a [quality] was beheld” only care if a card of that quality was revealed or a permanent you control of that quality was chosen. No matter what happens to that card or permanent after that, it was still beheld, and any additional effects that depend on that card or permanent being beheld will still happen.
+  - *2025-04-04* — If a card in your hand is already revealed (perhaps because it was revealed to pay a cost of a spell that’s still on the stack or due to the effect of a card like Telepathy), you may reveal it again to pay the cost of another spell or ability that requires you to reveal a card from your hand.
+  - *2025-04-04* — If a cost to cast a spell includes revealing a card, that card remains revealed from the time the spell is announced until the time it leaves the stack.
+  - *2025-04-04* — If an effect refers to a “[subtype] card,” it refers only to a card that has that subtype. For example, Teeming Dragonstorm is a card that cares about Dragons and features Dragons in its art, but it isn’t a Dragon card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/17/osseous-exhale) · oracle_id `8d84a706-080c-4fb2-b1b9-3dbb3294fb7b` · printing: TDM #17 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Osseous Sticktwister
 
@@ -175,6 +195,7 @@
 - **Flavor text** (J22 printing):
   > *You know you've ventured too deep when the rats stop running and hold their ground.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20919 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/j22/24/ossuary-rats) · oracle_id `a1380d07-f582-46dd-a63a-9806123ebcd3` · printing: J22 #24 (2022-12-02) · [rulings](https://api.scryfall.com/cards/c93dc52c-6f62-45cc-a5e2-95f794e04b94/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Osteomancer Adept
@@ -211,6 +232,7 @@
 - **Flavor text** (GPT printing):
   > *Orzhov churches don't pass the plate for collection. They charge for admission.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31190 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gpt/55/ostiary-thrull) · oracle_id `1c99c9d9-3ea8-43bc-96d7-4dea12770b5c` · printing: GPT #55 (2006-02-03) · [rulings](https://api.scryfall.com/cards/26407330-d7a1-4915-b7c6-e08e166cf638/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ostracize
@@ -222,6 +244,7 @@
 - **Flavor text** (7ED printing):
   > *"You won't be needing this."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24002 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/153/ostracize) · oracle_id `43975c07-103c-4664-b7e6-55bb29d85183` · printing: 7ED #153 (2001-04-11) · [rulings](https://api.scryfall.com/cards/abdaffcc-59f6-4489-88bf-1061ad6b0512/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ostrich-Horse
@@ -235,6 +258,7 @@
   > *Ostrich-horses are renowned in the Earth Kingdom as reliable steeds for couriers, soldiers, and merchants.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17785 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/188/ostrich-horse) · oracle_id `2b6cb199-1564-4214-b24f-624dc962c907` · printing: TLA #188 (2025-11-21) · [rulings](https://api.scryfall.com/cards/5ca3fd45-9301-44ef-afc0-4d7999d66d36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oswald Fiddlebender

@@ -29,7 +29,15 @@
   > *Energy surges in Izzet labs are opportunities for experimentation.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18613 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/64/mizzium-meddler) · oracle_id `48a909b6-e6ee-4148-8b50-b35f11bc065f` · printing: ORI #64 (2015-07-17) · [rulings](https://api.scryfall.com/cards/762d568d-a2d6-449b-85c2-a92755efe4c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2015-06-22* — If Mizzium Meddler leaves the battlefield before its ability resolves, the targets remain unchanged.
+  - *2015-06-22* — If Mizzium Meddler’s triggered ability targets a spell or ability with no targets, nothing happens.
+  - *2015-06-22* — If a spell or ability has a variable number of targets, you can’t change the number of targets.
+  - *2015-06-22* — If changing one target of a spell or ability to Mizzium Meddler would make other targets of that spell or ability illegal, the targets remain unchanged.
+  - *2015-06-22* — If the spell or ability has multiple instances of the word “target,” you choose which target you’re changing to Mizzium Meddler as Mizium Meddler’s ability resolves.
+  - *2015-06-22* — Mizzium Meddler’s triggered ability can target a spell or ability even if Mizzium Meddler wouldn’t be a legal target for that spell or ability. However, the target of that spell or ability will remain unchanged.
+  - *2015-06-22* — The target of the spell or ability won’t change unless Mizzium Meddler fulfills all the targeting criteria. If a spell or ability has multiple targets, such as Send to Sleep, you can change only one of the targets to Mizzium Meddler.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/64/mizzium-meddler) · oracle_id `48a909b6-e6ee-4148-8b50-b35f11bc065f` · printing: ORI #64 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mizzium Mortars
 
@@ -75,7 +83,10 @@
   > Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Crew, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18205 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/138/mizzium-tank) · oracle_id `60957bfd-2460-429a-a7a7-d99424946f83` · printing: WAR #138 (2019-05-03) · [rulings](https://api.scryfall.com/cards/5643253b-0996-45a8-9488-5bcc9192f867/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-05-03* — Mizzium Tank's triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2019-05-03* — Mizzium Tank's triggered ability triggers even if it's already a creature. In this case, it gets an additional +1/+1 until end of turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/138/mizzium-tank) · oracle_id `60957bfd-2460-429a-a7a7-d99424946f83` · printing: WAR #138 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mizzium Transreliquat
 
@@ -88,7 +99,13 @@
   > *"What is it? Um . . . what do you \*want\* it to be?"*
   > *—Juzba, Izzet tinker*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24215 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/153/mizzium-transreliquat) · oracle_id `a1f73421-cda5-4029-9bcf-f2baee179e5c` · printing: GPT #153 (2006-02-03) · [rulings](https://api.scryfall.com/cards/d29c3bf9-d37c-4e0a-ac44-15d47770ed44/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2006-02-01* — An artifact's "copiable values" are those printed on it, as modified by other copy effects, plus any values set by "enters as" abilities. Counters and other effects aren't copied. For example, if you copy a Gruul War Plow that's been turned into an artifact creature, the result will be just an artifact.
+  - *2006-02-01* — If you use Mizzium Transreliquat's abilities multiple times in a turn in response to one another, then each time one of those abilities resolves, it will overwrite whatever the permanent was copying. The Transreliquat will wind up as a copy of the artifact targeted by the last ability to resolve. When the turn ends, all instances of its first ability will wear off at the same time. If one of those was the last copy ability to resolve, the Transreliquat will become what it was before those abilities resolved. This will likely be either the original Mizzium Transreliquat or whatever it copied with the last instance of its second ability to resolve.
+  - *2006-02-01* — If you use the first ability, Mizzium Transreliquat loses both of its copy abilities until the effect wears off (unless it copied itself or another Mizzium Transreliquat). When it wears off, Mizzium Transreliquat loses all abilities it gained this way and goes back to being what it was before.
+  - *2006-02-01* — The results of all copy effects are copied. If Mizzium Transreliquat is copied, the copy will be a Mizzium Transreliquat after applying all copy effects currently affecting the original. For example, Copy Artifact copying a Transreliquat that's using its first ability to copy an Izzet Signet will be an Izzet Signet. The effect won't wear off at the end of the turn; rather, the Copy Artifact will remain an Izzet Signet for the rest of the game.
+  - *2006-02-01* — The second ability doesn't wear off. If you use it, Mizzium Transreliquat becomes a copy of target artifact permanently and gains the {1}{U}{R} ability. It no longer has the {3} ability (unless it copied itself or another Mizzium Transreliquat).
+- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/153/mizzium-transreliquat) · oracle_id `a1f73421-cda5-4029-9bcf-f2baee179e5c` · printing: GPT #153 (2006-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mizzix of the Izmagnus
 
@@ -121,7 +138,15 @@
   > Whenever you cast a spell from anywhere other than your hand, you may pay {1}{U/R}. If you do, copy that spell and you may choose new targets for the copy. If the copy is a permanent spell, it gains haste and "At the beginning of your end step, sacrifice this permanent." (A copy of a permanent spell becomes a token.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10673 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/j22/35/mizzix-replica-rider) · oracle_id `24a7e1d2-0bc9-40a9-a606-f0017bde3dab` · printing: J22 #35 (2022-12-02) · [rulings](https://api.scryfall.com/cards/8faf1d83-3b6b-4e07-a024-3dfd37c29814/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-12-02* — Any spell you cast will be copied if you pay the cost, not just one that requires targets.
+  - *2022-12-02* — If a copy is created, you control the copy. That copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger. The copy will then resolve like a normal spell, after players get a chance to cast spells and activate abilities.
+  - *2022-12-02* — If the copied spell has an X whose value was determined as it was cast, the copy has the same value of X.
+  - *2022-12-02* — If the copied spell is modal (that is, it says "Choose one –" or the like), the copy will have the same mode. You can't choose a different one.
+  - *2022-12-02* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2022-12-02* — You can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too. For example, if you sacrifice a 3/3 creature to cast Fling, and you copy it, the copy of Fling will also deal 3 damage to its target.
+  - *2022-12-02* — You may only pay the cost once, as the triggered ability resolves. You can't pay it more than once to get additional copies.
+- **Source flags:** [Scryfall](https://scryfall.com/card/j22/35/mizzix-replica-rider) · oracle_id `24a7e1d2-0bc9-40a9-a606-f0017bde3dab` · printing: J22 #35 (2022-12-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mizzix's Mastery
 

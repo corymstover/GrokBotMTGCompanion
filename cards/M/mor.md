@@ -83,6 +83,7 @@
   > *"After Lacjsi's speech, the Knights grew determined to crush their ancient enemies clan by clan."*
   > *—Tivadar of Thorn, \*History of the Goblin Wars\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30567 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/4ed/36/morale) · oracle_id `8af9d623-efa3-4cbc-a903-aaec32d78b0a` · printing: 4ED #36 (1995-04-01) · [rulings](https://api.scryfall.com/cards/b52cdfe3-fca1-420c-b5c0-2366ea58345b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morality Shift
@@ -94,7 +95,10 @@
 - **Flavor text** (JUD printing):
   > *The mind sings, though at times it sings a dirge.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13883 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jud/70/morality-shift) · oracle_id `82e36ba9-9652-4594-8660-86c766b47709` · printing: JUD #70 (2002-05-27) · [rulings](https://api.scryfall.com/cards/b5c83e4d-ccc1-4ebf-9e74-2cc1ff9a7b07/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — This spell works even if your graveyard or library is empty.
+  - *2004-10-04* — You can choose the order of the cards being placed into the graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jud/70/morality-shift) · oracle_id `82e36ba9-9652-4594-8660-86c766b47709` · printing: JUD #70 (2002-05-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moratorium Stone
 
@@ -104,6 +108,7 @@
   > {2}, {T}: Exile target card from a graveyard.
   > {2}{W}{B}, {T}, Sacrifice this artifact: Exile target nonland card from a graveyard, all other cards from graveyards with the same name as that card, and all permanents with that name.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31800 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gpt/154/moratorium-stone) · oracle_id `bb0d89e7-4ae6-4ac2-a0e6-51ab08226069` · printing: GPT #154 (2006-02-03) · [rulings](https://api.scryfall.com/cards/5529edfc-22bd-43dc-878b-6ec9fba74795/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moraug, Fury of Akoum
@@ -134,7 +139,10 @@
   > *"From the damned I make my garden."*
   > *—Jorshu of Clan Nel Toth*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21496 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/arb/94/morbid-bloom) · oracle_id `aacec73f-9c60-4c3f-b323-6261eab342af` · printing: ARB #94 (2009-04-30) · [rulings](https://api.scryfall.com/cards/684ebc3a-e3b4-4dee-92ff-4a85556e0571/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-05-01* — If a creature card has “*” in its toughness, the ability that defines “*” works in all zones. The value of X is equal to the toughness of the targeted creature card as it last existed in the graveyard.
+  - *2009-05-01* — If the targeted card is removed from the graveyard before Morbid Bloom resolves, the spell doesn’t resolve. You won’t get any Saproling tokens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/arb/94/morbid-bloom) · oracle_id `aacec73f-9c60-4c3f-b323-6261eab342af` · printing: ARB #94 (2009-04-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morbid Curiosity
 
@@ -161,7 +169,14 @@
   > Flashback {7}{B}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31138 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ody/150/morbid-hunger) · oracle_id `6e7e9685-ebe9-4db2-b52c-f6ce95e37e56` · printing: ODY #150 (2001-10-01) · [rulings](https://api.scryfall.com/cards/47a4e7d0-ff09-4e19-8456-f4845f56dc8b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ody/150/morbid-hunger) · oracle_id `6e7e9685-ebe9-4db2-b52c-f6ce95e37e56` · printing: ODY #150 (2001-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morbid Opportunist
 
@@ -186,6 +201,7 @@
 - **Flavor text** (TD2 printing):
   > *Even the dead are raw materials for the Phyrexian vision of perfection.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21614 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/td2/72/morbid-plunder) · oracle_id `1bb7009b-aeb0-4545-be4c-c8c5d723bcf5` · printing: TD2 #72 (2011-05-14) · [rulings](https://api.scryfall.com/cards/ab414eb3-c53b-4805-85f1-2bbea321f261/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morbius the Living Vampire
@@ -200,6 +216,7 @@
   > *"Nothing matters—except the ravening thirst of Morbius! A thirst which must be quenched!"*
 - **Keywords:** Flying, Lifelink, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12821 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/137/morbius-the-living-vampire) · oracle_id `1a947e4d-8a14-45f1-bb80-760a317b1ed0` · printing: SPM #137 (2025-09-26) · [rulings](https://api.scryfall.com/cards/b978d0e2-f5a7-4ade-befc-11b406e84477/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morcant's Eyes
@@ -211,7 +228,12 @@
   > {4}{G}{G}, Sacrifice this enchantment: Create X 2/2 black and green Elf creature tokens, where X is the number of Elf cards in your graveyard. Activate only as a sorcery.
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9920 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/185/morcants-eyes) · oracle_id `c55a27cc-8e25-4714-b1da-86e5c1c6661a` · printing: ECL #185 (2026-01-23) · [rulings](https://api.scryfall.com/cards/a730b254-ff7c-4f89-a559-b44ad7fd6c6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-11-17* — Kindred is a card type that allows noncreature cards to have creature types. For example, Morcant's Eyes is an Elf (although not a creature) while on the battlefield and an Elf card (although not a creature card) in zones other than the battlefield.
+  - *2025-11-17* — Some older cards were originally printed with the "tribal" card type. That card type has been replaced with "kindred." This change does not affect the gameplay function of these cards.
+  - *2025-11-17* — The value of X is calculated only once, as Morcant's Eyes's last ability resolves. In most cases, Morcant's Eyes will be in your graveyard at that time, so it will count toward the value of X.
+  - *2025-11-17* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/185/morcants-eyes) · oracle_id `c55a27cc-8e25-4714-b1da-86e5c1c6661a` · printing: ECL #185 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morcant's Loyalist
 
@@ -239,6 +261,7 @@
   > Whenever this creature deals combat damage to a player, you may have it deal that much damage to target creature that player controls.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12787 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddg/58/mordant-dragon) · oracle_id `c02ed1b7-1f8d-4196-a9b6-65e1b5a763d7` · printing: DDG #58 (2011-04-01) · [rulings](https://api.scryfall.com/cards/b278baec-573a-4864-9bc5-4941ceb5adb2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mordenkainen
@@ -265,7 +288,10 @@
 - **Flavor text** (AFR printing):
   > *"Your purpose may change along with your shape, but you will serve regardless."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22142 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/65/mordenkainens-polymorph) · oracle_id `5ac8c234-030d-4ba1-bc2f-d05761045278` · printing: AFR #65 (2021-07-23) · [rulings](https://api.scryfall.com/cards/b6551442-d74c-4f16-a9de-0cfdc88208a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-07-23* — Mordenkainen's Polymorph will overwrite any previous effects that set the creature's power and toughness to specific values. Effects that otherwise modify the target creature's power and toughness will still apply no matter when they took effect. The same is true for +1/+1 counters.
+  - *2021-07-23* — The creature doesn't lose any of its abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/65/mordenkainens-polymorph) · oracle_id `5ac8c234-030d-4ba1-bc2f-d05761045278` · printing: AFR #65 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mordor Muster
 
@@ -298,7 +324,16 @@
   > Storm (When you cast this spell, copy it for each spell cast before it this turn.)
 - **Keywords:** Storm
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15723 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/512/mordor-on-the-march) · oracle_id `60fa9f5f-2360-4d5e-b291-1318803e3c9f` · printing: LTC #512 (2023-11-03) · [rulings](https://api.scryfall.com/cards/6d553b1e-701b-4f09-80ce-2a16ab53e316/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-11-03* — A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won't affect the copies.
+  - *2023-11-03* — Any enters-the-battlefield abilities of the copied creature card will trigger when the token enters the battlefield. Any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities of the copied creature card will also work.
+  - *2023-11-03* — If Mordor on the March creates multiple tokens due to a replacement effect (such as the one Doubling Season creates), each of those tokens will gain haste, and you'll exile each of them at the beginning of the next end step.
+  - *2023-11-03* — If another creature becomes a copy of, or enters the battlefield as, a copy of the token, that creature will copy the creature card the token is copying. However, the new copy won't gain haste and you won't exile it at the beginning of the next end step.
+  - *2023-11-03* — If the copied creature card has {X} in its mana cost, X is 0.
+  - *2023-11-03* — Spells cast from zones other than a player's hand and spells that were countered or otherwise failed to resolve are still counted by the storm ability.
+  - *2023-11-03* — The copies of Mordor on the March created by its storm ability are put directly onto the stack. They aren't cast and won't be counted by other spells with storm cast later in the turn.
+  - *2023-11-03* — The token copies exactly what was printed on the original creature card and nothing else.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/512/mordor-on-the-march) · oracle_id `60fa9f5f-2360-4d5e-b291-1318803e3c9f` · printing: LTC #512 (2023-11-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mordor Trebuchet
 
@@ -310,7 +345,9 @@
   > Whenever you attack with one or more Goblins and/or Orcs, create a 2/1 colorless Construct artifact creature token with flying named Ballistic Boulder that's tapped and attacking. Sacrifice that token at end of combat.
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14072 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/97/mordor-trebuchet) · oracle_id `8a8e0d0a-1101-45b6-8f70-1de2c07bc369` · printing: LTR #97 (2023-06-23) · [rulings](https://api.scryfall.com/cards/648bc8ae-1798-4c2f-a372-0487a90ba4d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — Mordor Trebuchet's controller chooses which player, planeswalker, or battle the token is attacking. It doesn't need to be the same player, planeswalker, or battle that any of the Goblins and/or Orcs are attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/97/mordor-trebuchet) · oracle_id `8a8e0d0a-1101-45b6-8f70-1de2c07bc369` · printing: LTR #97 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### More of That Strange Oil...
 
@@ -322,6 +359,7 @@
   > • That Could Actually Be Dangerous — Counter target creature, artifact, or planeswalker spell. Scry 1.
 - **Keywords:** It's Probably Nothing, Proliferate, That Could Actually Be Dangerous, Scry
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/CU13/more-of-that-strange-oil) · oracle_id `2e7d04df-f754-43fe-b207-412d382e6a56` · printing: UNK #CU13 (2023-02-17) · [rulings](https://api.scryfall.com/cards/3471b267-4ca0-4fbc-bb81-4cfcce0ed2e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### More or Less
@@ -333,7 +371,15 @@
 - **Flavor text** (UST printing):
   > *Why was 5 afraid of 6? Because 678.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/40/more-or-less) · oracle_id `0b834f43-4ded-49f7-b549-e8219aa37df4` · printing: UST #40 (2017-12-08) · [rulings](https://api.scryfall.com/cards/b111425a-adaa-4938-88a1-6fdd0bcecc39/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2018-01-19* — Indefinite articles such as “a” in “draw a card” aren’t number words and can’t be modified.
+  - *2018-01-19* — You can change power or toughness. If you change a toughness of 1 to 0, the creature will probably die.
+  - *2018-01-19* — You can change the number of dice rolled for an effect only if the original instruction included a number word to describe how many dice to roll. You can’t change the “a” in “roll a six-sided die,” but you could change the “two” in “roll two six-sided dice.”
+  - *2018-01-19* — You can change the number of sides on a die. If you don’t have any five-sided, seven-sided dice, or d21s handy, you can use other dice to simulate the rolls.
+  - *2018-01-19* — You can change the numeral inside of a mana symbol, but you can’t modify the cost of a spell in time to pay less for it. It must already be on the stack to be a valid target for More or Less.
+  - *2018-01-19* — You can turn a 0 into a -1. Sources that would deal 0 or less damage don’t deal any damage, even in silver-bordered games.
+  - *2018-01-19* — You can’t change any instance of X.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/40/more-or-less) · oracle_id `0b834f43-4ded-49f7-b549-e8219aa37df4` · printing: UST #40 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morgue Burst
 
@@ -345,7 +391,10 @@
   > *"Let him in. He's on the list."*
   > *—Olrich, Rakdos club owner*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23090 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/86/morgue-burst) · oracle_id `ee3b72ac-35b6-45d0-bb50-5a5899b291b1` · printing: DGM #86 (2013-05-03) · [rulings](https://api.scryfall.com/cards/7b3c2909-87ab-4027-9b56-58a2abae3fa3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — If the creature card is an illegal target when Morgue Burst tried to resolve (most likely because it was exiled in response), it won’t be returned to your hand and no damage will be dealt to the target.
+  - *2013-04-15* — Use the power of the card as it last existed in your graveyard to determine how much damage will be dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/86/morgue-burst) · oracle_id `ee3b72ac-35b6-45d0-bb50-5a5899b291b1` · printing: DGM #86 (2013-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morgue Theft
 
@@ -356,7 +405,14 @@
   > Flashback {4}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22771 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ody/151/morgue-theft) · oracle_id `0b8a508b-20c0-4a87-a73a-08af72c39a0a` · printing: ODY #151 (2001-10-01) · [rulings](https://api.scryfall.com/cards/937465ca-4cf7-4412-86eb-264efb0fdddd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ody/151/morgue-theft) · oracle_id `0b8a508b-20c0-4a87-a73a-08af72c39a0a` · printing: ODY #151 (2001-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morgue Thrull
 
@@ -369,6 +425,7 @@
   > *It's so hard to find good help these days.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27733 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sth/65/morgue-thrull) · oracle_id `fc759e09-34b2-4004-8474-a6500dd1280c` · printing: STH #65 (1998-03-02) · [rulings](https://api.scryfall.com/cards/270a26ce-3435-4fef-bc34-abbc6f1cf3f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morgue Toad
@@ -382,6 +439,7 @@
   > *"The toads of Urborg aren't fast, powerful, or pleasant, but they have their uses."*
   > *—Ertai*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29684 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddh/47/morgue-toad) · oracle_id `c615540b-bf85-4e16-8ac2-9d541cba732f` · printing: DDH #47 (2011-09-02) · [rulings](https://api.scryfall.com/cards/a58ee3b2-45db-48b5-b8fd-f8b9468b17b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morgul-Knife Wound
@@ -395,7 +453,9 @@
   > *Frodo felt a pain like a dart of poisoned ice pierce his left shoulder.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14377 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/98/morgul-knife-wound) · oracle_id `f48b2349-797e-4e79-aea7-2413e78129e1` · printing: LTR #98 (2023-06-23) · [rulings](https://api.scryfall.com/cards/5ae08177-48ee-4404-834d-d3cd7482ae81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — The creature's controller chooses whether or not to pay 2 life as the triggered ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/98/morgul-knife-wound) · oracle_id `f48b2349-797e-4e79-aea7-2413e78129e1` · printing: LTR #98 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moria Marauder
 
@@ -446,7 +506,9 @@
   > *—Crovax*
 - **Keywords:** Cumulative upkeep, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27836 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/wth/75/morinfen) · oracle_id `d69f3aaf-8462-432d-afaf-4176ac04962b` · printing: WTH #75 (1997-06-09) · [rulings](https://api.scryfall.com/cards/b5006ad3-16ca-4be3-8d56-d4fe4e9e0a44/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Paying cumulative upkeep is always optional. If it’s not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can’t be made. For example, if a permanent with “cumulative upkeep {1}” has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either pay {4} or sacrifice the permanent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wth/75/morinfen) · oracle_id `d69f3aaf-8462-432d-afaf-4176ac04962b` · printing: WTH #75 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moriok Reaver
 
@@ -459,6 +521,7 @@
   > *"The Moriok are fools. They try so hard to gain my favor. All I want is for them to die quickly, to join the ranks of the nim."*
   > *—Geth, Lord of the Vault*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31634 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/70/moriok-reaver) · oracle_id `9bd62fa0-b99c-4b64-a6f6-608cf01f8ef3` · printing: SOM #70 (2010-10-01) · [rulings](https://api.scryfall.com/cards/e2a0410f-95c5-49bf-856d-dea796c96e3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moriok Replica
@@ -471,6 +534,7 @@
 - **Flavor text** (SOM printing):
   > *All the secrets of the Moriok with only a trace of their corruption.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22610 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/178/moriok-replica) · oracle_id `6273cd72-5330-4712-ae73-b058023f0435` · printing: SOM #178 (2010-10-01) · [rulings](https://api.scryfall.com/cards/480311ae-b9af-4fb7-881b-35566598cf07/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moriok Rigger
@@ -483,6 +547,7 @@
 - **Flavor text** (5DN printing):
   > *The Moriok scavenge for weapons, for armor, for food—and ultimately for their souls.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24388 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/54/moriok-rigger) · oracle_id `9364b5bc-3e78-4b9d-9993-0081bbe2eef6` · printing: 5DN #54 (2004-06-04) · [rulings](https://api.scryfall.com/cards/47ffdeb8-52d2-4059-b9c6-0ad71b96516a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moriok Scavenger
@@ -495,6 +560,7 @@
 - **Flavor text** (MRD printing):
   > *Many go to Mephidross in search of lost riches. Most end up as part of the cache.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30234 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/68/moriok-scavenger) · oracle_id `fdccdd9f-6bf9-4339-ad7a-e9dd8f771b22` · printing: MRD #68 (2003-10-02) · [rulings](https://api.scryfall.com/cards/0f27426b-3679-44e4-9249-f57b92baa3f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moritte of the Frost
@@ -539,7 +605,10 @@
   > *Cover your ears and you may never hear her coming—both a blessing and a curse.*
 - **Keywords:** Morbid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25473 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/125/morkrut-banshee) · oracle_id `e2fe1847-4003-41c5-a64b-03afd888b81e` · printing: INR #125 (2025-01-24) · [rulings](https://api.scryfall.com/cards/14ab7063-1704-4c56-a58d-4f4287299bd7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — If there are no other creatures on the battlefield when the morbid ability triggers, the ability must target Morkrut Banshee itself.
+  - *2020-08-07* — Morkrut Banshee's morbid ability triggers only once, not once for each creature that has died this turn. If no creatures have died by the time it enters the battlefield, its ability won't trigger at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/125/morkrut-banshee) · oracle_id `e2fe1847-4003-41c5-a64b-03afd888b81e` · printing: INR #125 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morkrut Behemoth
 
@@ -554,6 +623,7 @@
   > *—Ghoulcaller Gisa*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21070 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/114/morkrut-behemoth) · oracle_id `76c2571d-7d45-4c7a-99d1-302e2b26f8f6` · printing: MID #114 (2021-09-24) · [rulings](https://api.scryfall.com/cards/318fe8a2-a68a-4c7e-9581-ae6800826164/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morkrut Necropod
@@ -569,7 +639,10 @@
   > *—Ghoulcaller Enslow*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18997 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/125/morkrut-necropod) · oracle_id `ed3990cd-fa67-427b-bbe4-a2b1942e9be2` · printing: SOI #125 (2016-04-08) · [rulings](https://api.scryfall.com/cards/f726f215-d0a5-4e2c-b874-9dc209479993/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-04-08* — In the unusual situation that you control no other creatures or lands, the last ability won't do anything. Morkrut Necropod can attack or block with no penalty.
+  - *2016-04-08* — When Morkrut Necropod attacks, its trigger doesn't resolve until after all attackers have been chosen. The same is true for when it blocks. This means that another creature, such as one enchanted with Invocation of Saint Traft, can also attack or block and then be sacrificed. Sacrificing a blocking creature this way doesn't cause the creature it blocked to become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/125/morkrut-necropod) · oracle_id `ed3990cd-fa67-427b-bbe4-a2b1942e9be2` · printing: SOI #125 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morlun, Devourer of Spiders
 
@@ -597,6 +670,7 @@
   > *"The spirits of the righteous shall rise into the sky. Even dirtwalkers will fly like aven."*
   > *—Major Teroh*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28963 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/10/morningtide) · oracle_id `a8432372-672b-4bf7-9000-17e43356f149` · printing: TOR #10 (2002-02-04) · [rulings](https://api.scryfall.com/cards/a62e17a7-3602-45af-bdb6-fa5f2a9f1155/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morningtide's Light
@@ -623,7 +697,10 @@
 - **Flavor text** (ECL printing):
   > *Maralen is more forgiving than Oona was, but her rule is no less absolute.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10667 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/111/mornsong-aria) · oracle_id `8ca2f668-2a4d-4a1e-abcc-093ccbc29295` · printing: ECL #111 (2026-01-23) · [rulings](https://api.scryfall.com/cards/9985c554-8338-46b1-ac36-526d2eb61570/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-11-17* — If an effect says to set a player's life total to a number that's higher than the player's current life total while Mornsong Aria is on the battlefield, the player's life total doesn't change.
+  - *2025-11-17* — Spells and abilities that cause players to draw cards or gain life still resolve while Mornsong Aria is on the battlefield. No player will draw cards or gain life, but any other effects of that spell or ability will still happen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/111/mornsong-aria) · oracle_id `8ca2f668-2a4d-4a1e-abcc-093ccbc29295` · printing: ECL #111 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moroii
 
@@ -638,6 +715,7 @@
   > *—Undercity slang meaning "to grow old"*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29706 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/202/moroii) · oracle_id `418be12f-b40a-4018-86c1-98c9000a999a` · printing: RVR #202 (2024-01-12) · [rulings](https://api.scryfall.com/cards/3f01c66d-042a-497c-bc86-cad414fa4d60/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morophon, the Boundless
@@ -686,6 +764,7 @@
   > {1}: This creature gets +1/-1 until end of turn.
   > {1}: This creature gets -1/+1 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18703 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/81/morphling) · oracle_id `19f233b2-8be6-4172-abf9-b132fc3393d9` · printing: VMA #81 (2014-06-16) · [rulings](https://api.scryfall.com/cards/a0d09164-f53f-4f80-8166-8faeacaff418/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morselhoarder
@@ -699,6 +778,7 @@
 - **Flavor text** (SHM printing):
   > *It scours the hills for living matter, savoring even the tang of poisonous fungi.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19978 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/212/morselhoarder) · oracle_id `8fe687aa-d134-4a29-9c93-64086c4a1977` · printing: SHM #212 (2008-05-02) · [rulings](https://api.scryfall.com/cards/589f477e-fd69-4410-b9ba-1d45b25fec31/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morsel Theft
@@ -710,7 +790,11 @@
   > Target player loses 3 life and you gain 3 life. If this spell's prowl cost was paid, draw a card.
 - **Keywords:** Prowl
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27025 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mor/68/morsel-theft) · oracle_id `b58878ce-dd5a-4c43-882c-639de4f4a111` · printing: MOR #68 (2008-02-01) · [rulings](https://api.scryfall.com/cards/cac48152-81c0-4cdc-8e3c-bfbe7b068b28/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
+  - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
+  - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mor/68/morsel-theft) · oracle_id `b58878ce-dd5a-4c43-882c-639de4f4a111` · printing: MOR #68 (2008-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morska, Undersea Sleuth
 
@@ -740,7 +824,10 @@
 - **Flavor text** (10E printing):
   > *The crowd roared, the fighters bled, and the dead piled high in the pits. Only the Cabal could win.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12744 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/10e/160/mortal-combat) · oracle_id `dc9d1d0c-5310-460a-a3cd-1ff1f4f83c8f` · printing: 10E #160 (2007-07-13) · [rulings](https://api.scryfall.com/cards/f1d9cfce-1507-4cdf-9d58-6ebaf44e72e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2007-07-15* — If you don’t have twenty or more creature cards in your graveyard by the time your upkeep starts, the ability won’t trigger that turn.
+  - *2007-07-15* — Mortal Combat’s ability has an “intervening ‘if’ clause,” so the condition is checked again when the triggered ability resolves. If you don’t still have twenty creature cards in your graveyard, the ability does nothing.
+- **Source flags:** [Scryfall](https://scryfall.com/card/10e/160/mortal-combat) · oracle_id `dc9d1d0c-5310-460a-a3cd-1ff1f4f83c8f` · printing: 10E #160 (2007-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mortality Spear
 
@@ -766,7 +853,10 @@
   > Whenever enchanted creature deals combat damage to a player, you may sacrifice this Aura. If you do, destroy target enchantment.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17152 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jou/17/mortal-obstinacy) · oracle_id `ea29c489-bd04-4f36-8b59-bccaac153152` · printing: JOU #17 (2014-05-02) · [rulings](https://api.scryfall.com/cards/67652df1-f2cc-44cd-ac66-9722d4cd86e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-04-26* — If another player gains control of the enchanted creature, Mortal Obstinacy will be put into its owner's graveyard.
+  - *2014-04-26* — You decide whether to sacrifice Mortal Obstinacy as its triggered ability resolves. If it's not on the battlefield at that time, you can't sacrifice it and destroy the target enchantment.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jou/17/mortal-obstinacy) · oracle_id `ea29c489-bd04-4f36-8b59-bccaac153152` · printing: JOU #17 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mortal's Ardor
 
@@ -778,6 +868,7 @@
   > *"Such deeds should be common fare for such as us."*
   > *—Anax, king of Akros*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20567 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddo/19/mortals-ardor) · oracle_id `c3401995-4fb4-4b43-b852-5ccad6dc3154` · printing: DDO #19 (2015-02-27) · [rulings](https://api.scryfall.com/cards/75743f66-fd2d-47e7-b56f-1c95311d09c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mortal's Resolve
@@ -789,6 +880,7 @@
 - **Flavor text** (BNG printing):
   > *The Fates tried to cut her string but found the thread had turned to iron.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13648 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/127/mortals-resolve) · oracle_id `ef29f979-1a6d-47bb-83f5-4679389471da` · printing: BNG #127 (2014-02-07) · [rulings](https://api.scryfall.com/cards/131a96b4-393d-4e8e-9b6a-f15f3804febb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mortal Wound
@@ -803,6 +895,7 @@
   > *—"Love Song of Night and Day"*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26597 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vis/113/mortal-wound) · oracle_id `f7b70077-5518-45f9-9833-01a4f8afac71` · printing: VIS #113 (1997-02-03) · [rulings](https://api.scryfall.com/cards/808830ff-496a-41dc-8b64-334ddaca9435/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mortarion, Daemon Primarch
@@ -815,7 +908,10 @@
   > Primarch of the Death Guard — At the beginning of your end step, you may pay {X}. If you do, create X 2/2 black Astartes Warrior creature tokens with menace. X can't be greater than the amount of life you lost this turn.
 - **Keywords:** Flying, Primarch of the Death Guard
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12279 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/41/mortarion-daemon-primarch) · oracle_id `588eecbf-dcfc-4b97-b81c-8b9f3d39e08f` · printing: 40K #41 (2022-10-07) · [rulings](https://api.scryfall.com/cards/3b6b1bcf-10a4-4643-9db0-b2a4fee340a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-07* — If a spell or ability sets a player's life total to a specified amount, that player gains or loses the appropriate amount of life. For example, if your life total is 20 and an effect sets your life total to 15, you lost 5 life.
+  - *2022-10-07* — Mortarion, Demon Primarch's ability looks only at the amount of life you've lost this turn, regardless of any life you may have gained. For example, if you lost 3 life due to combat damage, but gained 2 life later in the turn, X may be up to 3 for this ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/41/mortarion-daemon-primarch) · oracle_id `588eecbf-dcfc-4b97-b81c-8b9f3d39e08f` · printing: 40K #41 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mortarpod
 
@@ -827,7 +923,13 @@
   > Equip {2}
 - **Keywords:** Equip, Living weapon
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16873 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/222/mortarpod) · oracle_id `77248a76-373c-48fc-939f-aa378ab57f7c` · printing: MM2 #222 (2015-05-22) · [rulings](https://api.scryfall.com/cards/f1e6b292-41e7-40f9-b9fe-34f27d4526af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2011-06-01* — If you sacrifice the equipped creature to deal 1 damage to a target permanent or player, the damage is dealt by the creature as it last existed on the battlefield.
+  - *2020-08-07* — If the Germ token is destroyed, the Equipment remains on the battlefield as with any other Equipment.
+  - *2020-08-07* — If the living weapon trigger causes two Germs to be created (due to an effect such as that of Doubling Season), the Equipment becomes attached to one of them. The other will be put into your graveyard and subsequently cease to exist, unless another effect raises its toughness above 0.
+  - *2020-08-07* — Like other Equipment, each Equipment with living weapon has an equip cost. You can pay this cost to attach an Equipment to another creature you control. Once the Germ token is no longer equipped, it will be put into your graveyard and subsequently cease to exist, unless another effect raises its toughness above 0.
+  - *2020-08-07* — The Germ token enters the battlefield as a 0/0 creature and the Equipment becomes attached to it before state-based actions would cause the token to die. Abilities that trigger as the token enters the battlefield see that a 0/0 creature entered the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/222/mortarpod) · oracle_id `77248a76-373c-48fc-939f-aa378ab57f7c` · printing: MM2 #222 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mortician Beetle
 
@@ -839,7 +941,10 @@
 - **Flavor text** (MM3 printing):
   > *To the soldier, war is famine; to the scavenger, a feast.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10163 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/78/mortician-beetle) · oracle_id `dc5c4a38-a415-466a-a7ea-dc04eee7f691` · printing: MM3 #78 (2017-03-17) · [rulings](https://api.scryfall.com/cards/978f2a31-1c89-43cb-92f2-195026c9311a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-03-14* — If a creature is sacrificed as a cost to cast a spell or activate an ability, Mortician Beetle’s ability resolves before that spell or ability.
+  - *2017-03-14* — Mortician Beetle’s ability triggers whenever any player, including you, sacrifices a creature because some other spell, ability, or cost instructed the player to do so. Mortician Beetle itself doesn’t allow you to sacrifice any creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/78/mortician-beetle) · oracle_id `dc5c4a38-a415-466a-a7ea-dc04eee7f691` · printing: MM3 #78 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mortify
 
@@ -864,6 +969,7 @@
 - **Flavor text** (RAV printing):
   > *Mortipede pheromones choke the streets with sickly sweetness, luring the rash and unwary into its waiting jaws.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25217 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/96/mortipede) · oracle_id `a5122d52-cebc-435b-a077-cc64376d7a86` · printing: RAV #96 (2005-10-07) · [rulings](https://api.scryfall.com/cards/94a8ae6e-51b1-4985-9d09-f9c3818df911/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mortiphobia
@@ -874,6 +980,7 @@
   > {1}{B}, Discard a card: Exile target card from a graveyard.
   > {1}{B}, Sacrifice this enchantment: Exile target card from a graveyard.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30032 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/72/mortiphobia) · oracle_id `4fb8312c-058a-415c-93ab-59d37ebad270` · printing: TOR #72 (2002-02-04) · [rulings](https://api.scryfall.com/cards/c7b93caa-0f43-43ac-84e9-99f6bcbf9e81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mortis Dogs
@@ -885,7 +992,9 @@
   > Whenever this creature attacks, it gets +2/+0 until end of turn.
   > When this creature dies, target player loses life equal to its power.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27835 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nph/66/mortis-dogs) · oracle_id `a89994d0-2110-4ca0-abfc-5dd232981acf` · printing: NPH #66 (2011-05-13) · [rulings](https://api.scryfall.com/cards/3cae1f40-0e43-41d8-bc5c-aa9873f7d7d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-06-01* — The loss of life is equal to Mortis Dogs’s power as it last existed on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nph/66/mortis-dogs) · oracle_id `a89994d0-2110-4ca0-abfc-5dd232981acf` · printing: NPH #66 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mortivore
 
@@ -912,7 +1021,9 @@
   > *"Think of them not as failures but as works in progress."*
   > *—Volrath*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13118 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sth/66/mortuary) · oracle_id `8bd2af55-5a48-4300-a893-ae6cd548db24` · printing: STH #66 (1998-03-02) · [rulings](https://api.scryfall.com/cards/860f46ea-6fd0-456d-971d-8d1eccc7fa60/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — This is not an optional ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sth/66/mortuary) · oracle_id `8bd2af55-5a48-4300-a893-ae6cd548db24` · printing: STH #66 (1998-03-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mortuary Mire
 
@@ -936,4 +1047,6 @@
 - **Flavor text** (RVR printing):
   > *Dimir's best agents hide from death itself.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22745 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/203/mortus-strider) · oracle_id `15af3bd0-022b-472e-b21e-29b925b7692b` · printing: RVR #203 (2024-01-12) · [rulings](https://api.scryfall.com/cards/67280eed-e4ed-4bbe-9829-24785ebe2ad0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-01-24* — Mortus Strider will return to its owner's hand only if it is still in the graveyard when its ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/203/mortus-strider) · oracle_id `15af3bd0-022b-472e-b21e-29b925b7692b` · printing: RVR #203 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

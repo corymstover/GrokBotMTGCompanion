@@ -51,6 +51,7 @@
   > • Tap target creature.
   > • Prevent the next 1 damage that would be dealt to any target this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29823 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/23/ivory-charm) · oracle_id `dded2874-e80f-401a-b700-52c54dd6da60` · printing: MIR #23 (1996-10-08) · [rulings](https://api.scryfall.com/cards/0706acf6-587e-4f29-944a-fdf25aeacb6d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ivory Crane Netsuke
@@ -62,6 +63,7 @@
 - **Flavor text** (SOK printing):
   > *It is said that the feathers of a crane are clouds, plucked and sewn together by the hands of the kami.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24612 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/155/ivory-crane-netsuke) · oracle_id `ab151429-0890-4231-a3a7-34e8455dac70` · printing: SOK #155 (2005-06-03) · [rulings](https://api.scryfall.com/cards/dfd84d1a-1e74-4779-996f-f8518f0b5f8c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ivory Cup
@@ -73,6 +75,7 @@
 - **Flavor text** (8ED printing):
   > *Blessed by a thousand prayers.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25024 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/305/ivory-cup) · oracle_id `8e2017c3-057d-4e30-bd60-f486fddbc6ca` · printing: 8ED #305 (2003-07-28) · [rulings](https://api.scryfall.com/cards/fc4cd379-caba-485c-8c0f-e59804c387c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ivory Gargoyle
@@ -86,7 +89,10 @@
   > {4}{W}: Exile this creature.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30531 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me2/19/ivory-gargoyle) · oracle_id `e8cc9f83-4e4c-4820-9a7a-f82f728e9767` · printing: ME2 #19 (2008-09-22) · [rulings](https://api.scryfall.com/cards/07d79058-2a78-4237-83b0-4715053e8267/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-10-01* — The player who controlled Ivory Gargoyle when it was put into a graveyard will skip their next draw step even if Ivory Gargoyle is returned to the battlefield under a different player’s control (because it’s owned by someone else) or isn’t returned to the battlefield at all (because it left the graveyard before the end of the turn, for example).
+  - *2008-10-01* — The second ability can be activated only if Ivory Gargoyle is on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me2/19/ivory-gargoyle) · oracle_id `e8cc9f83-4e4c-4820-9a7a-f82f728e9767` · printing: ME2 #19 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ivory Giant
 
@@ -98,7 +104,22 @@
   > Suspend 5—{W} (Rather than cast this card from your hand, you may pay {W} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.)
 - **Keywords:** Suspend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23255 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/20/ivory-giant) · oracle_id `38132f50-9e2d-433b-9f2f-9bd0a7925b68` · printing: TSR #20 (2021-03-19) · [rulings](https://api.scryfall.com/cards/c1b1b580-4a2c-41a4-a1e0-85b659b3a30e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2024-02-02* — A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it. (In some rare cases, another player may gain control of the creature spell itself. If this happens, the creature won't enter the battlefield with haste.)
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/20/ivory-giant) · oracle_id `38132f50-9e2d-433b-9f2f-9bd0a7925b68` · printing: TSR #20 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ivory Guardians
 
@@ -112,7 +133,11 @@
   > *The elite guard of the Mesa High Priests, the Ivory Guardians, were created to protect the innocent and faithful. Some say their actions are above the law.*
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32015 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/15/ivory-guardians) · oracle_id `78171447-1bc8-4588-b427-5b82701324c5` · printing: ME3 #15 (2009-09-07) · [rulings](https://api.scryfall.com/cards/e8142471-0ded-410b-bdd5-ac241735b0ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2009-10-01* — Each ability applies a maximum of once, even if an opponent controls multiple nontoken red permanents or multiple opponents each control a nontoken red permanent.
+  - *2009-10-01* — The abilities from multiple Ivory Guardians are cumulative. For example, if you control two different Ivory Guardians and an opponent controls a nontoken red permanent, each of your Ivory Guardians will be 5/5.
+  - *2009-10-01* — The ability of an Ivory Guardians will affect itself as well as all other creatures named Ivory Guardians (not just the ones you control).
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/15/ivory-guardians) · oracle_id `78171447-1bc8-4588-b427-5b82701324c5` · printing: ME3 #15 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ivory Mask
 
@@ -123,6 +148,7 @@
 - **Flavor text** (9ED printing):
   > *Made from its wearer's hopes, the mask ensures that those hopes will be fulfilled.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22111 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/23/ivory-mask) · oracle_id `028bc726-0e86-4c53-9648-625153ae4b01` · printing: 9ED #23 (2005-07-29) · [rulings](https://api.scryfall.com/cards/b02422f7-728b-481b-9eb1-34d17c696ce6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ivory Tower
@@ -148,7 +174,11 @@
 - **Flavor text** (KTK printing):
   > *Abzan soldiers march to war confident that their Houses march with them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18067 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/179/ivorytusk-fortress) · oracle_id `10ae7744-5f98-4d6f-993a-ffb2a34b23e7` · printing: KTK #179 (2014-09-26) · [rulings](https://api.scryfall.com/cards/75a8df73-0141-4c07-87d8-b1f34a4b374b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2014-09-20* — Controlling more than one Ivorytusk Fortress doesn’t allow you to untap any creature more than once during a single untap step.
+  - *2014-09-20* — Each creature you control with a +1/+1 counter on it untaps at the same time as the active player’s permanents. You can’t choose to not untap them at that time.
+  - *2014-09-20* — Effects that state a creature you control doesn’t untap during your untap step won’t apply during another player’s untap step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/179/ivorytusk-fortress) · oracle_id `10ae7744-5f98-4d6f-993a-ffb2a34b23e7` · printing: KTK #179 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ivy Dancer
 
@@ -160,6 +190,7 @@
 - **Flavor text** (RAV printing):
   > *Her ivy locks are a remnant of the wooded wilds now lost to Ravnica forever.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26018 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/171/ivy-dancer) · oracle_id `f2e081be-87ef-457a-a5cb-2c2ff10cbcf5` · printing: RAV #171 (2005-10-07) · [rulings](https://api.scryfall.com/cards/73597c90-a527-4338-9668-126c6cf15927/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ivy Elemental
@@ -172,6 +203,7 @@
 - **Flavor text** (IKO printing):
   > *For safety reasons, the keeping of houseplants within Ikoria's sanctuaries is heavily discouraged.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18322 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/161/ivy-elemental) · oracle_id `38517711-e570-4337-b269-addcf8bfdd74` · printing: IKO #161 (2020-04-24) · [rulings](https://api.scryfall.com/cards/8e8aea71-02aa-4799-86fb-efd2a36efc22/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ivy, Gleeful Spellthief
@@ -218,4 +250,6 @@
 - **Oracle text:**
   > {2}{G}, {T}: Reveal any number of green cards in your hand. Target creature gets +X/+X until end of turn, where X is the number of cards revealed this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31671 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uds/110/ivy-seer) · oracle_id `f61591d5-0f2a-48cd-a091-863d2e93e019` · printing: UDS #110 (1999-06-07) · [rulings](https://api.scryfall.com/cards/018ad11c-1351-4eff-94ac-3926037d7247/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You can reveal zero cards and give +0/+0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uds/110/ivy-seer) · oracle_id `f61591d5-0f2a-48cd-a091-863d2e93e019` · printing: UDS #110 (1999-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

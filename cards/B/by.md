@@ -43,7 +43,9 @@
 - **Flavor text** (UST printing):
   > *There's no race like gnome.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/4/by-gnome-means) · oracle_id `bc827191-e7ed-45ae-a084-a19d16b936e3` · printing: UST #4 (2017-12-08) · [rulings](https://api.scryfall.com/cards/e6921466-edac-40fc-8f5e-d8b2e766d1dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-01-19* — You can put any established kind of counter on any permanent using the last ability. If that counter has no mechanical relevance, it’s still put on the creature. For example, you can put a loyalty counter on a creature this way. The loyalty counter won’t do anything, but who knows? The creature might one day become a planeswalker, and then it will. Dream big!
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/4/by-gnome-means) · oracle_id `bc827191-e7ed-45ae-a084-a19d16b936e3` · printing: UST #4 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bygone Bishop
 
@@ -117,7 +119,9 @@
   > Your deck can include Universes Beyond cards of any color identity.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
-- **Source flags:** [Scryfall](https://scryfall.com/card/ph21/3/byode-inverse-sun) · oracle_id `892abda5-f2c4-478c-ab43-938785abb5a6` · printing: PH21 #3 (2022-08-01) · [rulings](https://api.scryfall.com/cards/cea94853-1a2c-4b17-b863-d2c130757538/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ph21/3/byode-inverse-sun) · oracle_id `892abda5-f2c4-478c-ab43-938785abb5a6` · printing: PH21 #3 (2022-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Byrke, Long Ear of the Law
 
@@ -146,7 +150,12 @@
   > *"This trinket has saved my hide more times than I can count. I couldn't possibly let it go for less than say . . . four acorns."*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11792 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/129/byway-barterer) · oracle_id `a864b032-6e1a-4211-ad6e-54a5a5c7321b` · printing: BLB #129 (2024-08-02) · [rulings](https://api.scryfall.com/cards/f41fc718-641b-4f32-a8c1-3e5591a05bf8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-07-26* — A permanent with an ability that triggers whenever you “expend N” will see mana you spent to cast spells the turn it enters, including mana you spent before it entered. For example, if you cast Junkblade Bruiser (a creature with a mana value of 5 and an ability that triggers whenever you expend 4) by paying its full cost of five mana, you’ll already have spent four mana on spells before Junkblade Bruiser enters, and therefore its ability that triggers whenever you expend 4 won’t be able to trigger at all that turn.
+  - *2024-07-26* — Abilities that trigger whenever you “expend N” only trigger when you reach that specific amount of mana spent on casting spells that turn. This can only happen once per turn. For example, if you’ve spent three mana on spells so far this turn and you control a permanent with an ability that triggers “whenever you expend 4,” that ability will trigger the next time you spend at least one mana to cast a spell this turn. It won’t trigger again if you spend another four mana to cast spells later in the turn.
+  - *2024-07-26* — If the cost to cast a spell is increased, decreased, or changed because of additional or alternative costs, expend counts only the mana you actually spent.
+  - *2024-07-26* — You may choose to discard your hand even if your hand contains zero cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/129/byway-barterer) · oracle_id `a864b032-6e1a-4211-ad6e-54a5a5c7321b` · printing: BLB #129 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Byway Courier
 
@@ -159,4 +168,8 @@
   > *A good courier travels fast and asks no questions.*
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27485 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/196/byway-courier) · oracle_id `e186cc6f-8c11-4475-a704-0b4c3a9eade9` · printing: SOI #196 (2016-04-08) · [rulings](https://api.scryfall.com/cards/2f243a51-bbd3-4028-a469-469ab5591aae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-04-08* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2016-04-08* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2016-04-08* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/196/byway-courier) · oracle_id `e186cc6f-8c11-4475-a704-0b4c3a9eade9` · printing: SOI #196 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

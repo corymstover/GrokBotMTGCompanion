@@ -56,7 +56,10 @@
   > *The largest dunk tank in forty-seven galaxies.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27395 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/50/make-a-_____-splash) · oracle_id `fe2601a4-cbd5-4866-92a2-5586f737c9af` · printing: UNF #50 (2022-10-07) · [rulings](https://api.scryfall.com/cards/6a10b13c-ad97-49a7-9026-dcbd3599ce4c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-07* — Once the last ability triggers and targets are chosen, changing the number of u’s in name stickers on this enchantment won’t change the number of targets.
+  - *2022-10-07* — The last ability will trigger whenever you put any kind of sticker on this enchantment, not just name stickers, although only u’s in name stickers will count toward the number of targets. Notably, u’s in ability and art stickers won’t count.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/50/make-a-_____-splash) · oracle_id `fe2601a4-cbd5-4866-92a2-5586f737c9af` · printing: UNF #50 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Make a Stand
 
@@ -79,7 +82,11 @@
 - **Flavor text** (ISD printing):
   > *In Gavony wishing is taken as a sign of weakness, yet the wells usually brim with silver.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26703 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/isd/192/make-a-wish) · oracle_id `888ccda6-896f-40f3-93a1-efc48254af34` · printing: ISD #192 (2011-09-30) · [rulings](https://api.scryfall.com/cards/d0a8508d-25a7-4fb2-8aa3-349275f80c42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2011-09-22* — If you only have one card in your graveyard when Make a Wish resolves, that card will be returned to your hand.
+  - *2011-09-22* — Make a Wish isn’t put into its owner’s graveyard until it is finished resolving, so it can’t be returned by its own effect.
+  - *2011-09-22* — The cards aren’t randomly chosen until Make a Wish resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/isd/192/make-a-wish) · oracle_id `888ccda6-896f-40f3-93a1-efc48254af34` · printing: ISD #192 (2011-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Make Disappear
 
@@ -90,7 +97,12 @@
   > Counter target spell unless its controller pays {2}.
 - **Keywords:** Casualty
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15184 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/49/make-disappear) · oracle_id `5f12f665-f083-48ae-b61a-541051c996ec` · printing: SNC #49 (2022-04-29) · [rulings](https://api.scryfall.com/cards/3f2d6a21-ea77-484b-9e3a-1bd49806f907/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-04-29* — Casualty N means “As an additional cost to cast this spell, you may sacrifice a creature with power N or greater.” and “When you cast this spell, if a casualty cost was paid for it, copy it. If the spell has any targets, you may choose new targets for the copy.”
+  - *2022-04-29* — If you pay the casualty cost of a spell, the copy will resolve before the original spell.
+  - *2022-04-29* — The copy of the spell is created on the stack, so it's not “cast.” Abilities that trigger when a player casts a spell won't trigger.
+  - *2022-04-29* — You may sacrifice only one creature to pay a spell's casualty cost, and you copy the spell only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/49/make-disappear) · oracle_id `5f12f665-f083-48ae-b61a-541051c996ec` · printing: SNC #49 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Make Mischief
 
@@ -101,6 +113,7 @@
 - **Flavor text** (EMN printing):
   > *A tidy desk is as good as an invitation.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18557 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/emn/135/make-mischief) · oracle_id `5de50aa5-3b30-4d7d-9203-bc8fc0f8fb34` · printing: EMN #135 (2016-07-22) · [rulings](https://api.scryfall.com/cards/a2049072-5901-4edd-8305-ce55f256bca5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Make Obsolete
@@ -112,7 +125,9 @@
 - **Flavor text** (KLD printing):
   > *Yesterday's marvels are today's antiques.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15694 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/89/make-obsolete) · oracle_id `3ce755f5-855f-4b88-aa10-22f4ee76b28a` · printing: KLD #89 (2016-09-30) · [rulings](https://api.scryfall.com/cards/e0a96feb-accc-4c30-8ecd-7d9272ebd45b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-09-20* — The set of creatures affected by Make Obsolete is determined as the spell resolves. Creatures your opponents begin to control later in the turn and noncreature permanents that become creatures later in the turn won't get -1/-1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/89/make-obsolete) · oracle_id `3ce755f5-855f-4b88-aa10-22f4ee76b28a` · printing: KLD #89 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Makeshift Battalion
 
@@ -125,7 +140,11 @@
   > *Their ranks are thin, their formation is improvised, their weapons are borrowed, and you'd best get out of their way.*
 - **Keywords:** Battalion
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22716 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/22/makeshift-battalion) · oracle_id `8b6e2feb-9e8f-4912-ada0-1614502d9813` · printing: RVR #22 (2024-01-12) · [rulings](https://api.scryfall.com/cards/1ef55c3a-bba0-4379-b744-79eb91bcafe7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-06-23* — Once Makeshift Battalion's ability has triggered, it doesn't matter how many creatures are still attacking when that ability resolves.
+  - *2024-01-12* — Makeshift Battalion and the other attacking creatures don't have to be attacking the same player, planeswalker, or battle.
+  - *2024-01-12* — Once Makeshift Battalion's ability has triggered, it doesn't matter how many creatures are still attacking when that ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/22/makeshift-battalion) · oracle_id `8b6e2feb-9e8f-4912-ada0-1614502d9813` · printing: RVR #22 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Makeshift Binding
 
@@ -136,7 +155,10 @@
 - **Flavor text** (MKM printing):
   > *Kaya clung to the cords of the barrier ward with all her might, trapping the thrashing dryad like a fly in a spider's web.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16158 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/23/makeshift-binding) · oracle_id `942f3f06-1df0-40b4-8537-71cbec111852` · printing: MKM #23 (2024-02-09) · [rulings](https://api.scryfall.com/cards/e45d2e0c-d70d-40e5-8c3d-db6803393516/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-02-02* — If Makeshift Binding leaves the battlefield before its triggered ability resolves, the target creature won't be exiled, but you'll still gain 2 life.
+  - *2024-02-02* — If the target creature is an illegal target as Makeshift Binding's ability tries to resolve, it won't resolve and none of its effects will happen. You won't gain life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/23/makeshift-binding) · oracle_id `942f3f06-1df0-40b4-8537-71cbec111852` · printing: MKM #23 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Makeshift Mannequin
 
@@ -148,6 +170,7 @@
   > *"This vulgar mimicry will end now."*
   > *—Desmera, perfect of Wren's Run*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19299 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/arc/20/makeshift-mannequin) · oracle_id `d9dfdbbb-75b3-43d3-8ed6-371cb98a0124` · printing: ARC #20 (2010-06-18) · [rulings](https://api.scryfall.com/cards/89dfcad2-a737-405b-b3df-9583e6f0dd54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Makeshift Mauler
@@ -161,7 +184,10 @@
   > *"It always amazes me what perfectly good things people throw away."*
   > *—Ludevic, necro-alchemist*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26549 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/73/makeshift-mauler) · oracle_id `03025ec0-75fe-439d-b0c1-9bdb0f0ff336` · printing: INR #73 (2025-01-24) · [rulings](https://api.scryfall.com/cards/404c6bb8-4c64-458f-a4aa-98beb2c6a77c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to otherwise remove the creature card you exiled in order to prevent you from casting this spell.
+  - *2013-04-15* — You must exile exactly one creature card from your graveyard to cast this spell; you cannot cast it without exiling a creature card, and you cannot exile additional creature cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/73/makeshift-mauler) · oracle_id `03025ec0-75fe-439d-b0c1-9bdb0f0ff336` · printing: INR #73 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Makeshift Munitions
 
@@ -172,7 +198,9 @@
 - **Flavor text** (CMM printing):
   > *"Grease up a firecannon good and proper with dinosaur-liver oil, and it'll shoot just about anything."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11358 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/242/makeshift-munitions) · oracle_id `2421bec6-7647-4684-be61-d1aa951c6b4f` · printing: CMM #242 (2023-08-04) · [rulings](https://api.scryfall.com/cards/60715b6d-b223-431a-85d8-27d7c05469b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-11-10* — If an artifact or creature has an ability allowing you to sacrifice it for mana, you can't sacrifice that permanent to generate mana and also to pay the sacrifice cost for the activated ability of Makeshift Munitions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/242/makeshift-munitions) · oracle_id `2421bec6-7647-4684-be61-d1aa951c6b4f` · printing: CMM #242 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Make Your Mark
 
@@ -183,6 +211,7 @@
 - **Flavor text** (STX printing):
   > *Those who do learn from history may still choose to repeat it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19772 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/204/make-your-mark) · oracle_id `1c7ca399-7d85-452b-97c0-5d7f6c0eeb12` · printing: STX #204 (2021-04-23) · [rulings](https://api.scryfall.com/cards/7e937830-3804-44e8-b9d0-3e5f5cf39eab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Make Your Move
@@ -230,6 +259,7 @@
   > *"The Eldrazi have surprised us before. It's my job to make sure that never happens again."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27567 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/27/makindi-aeronaut) · oracle_id `9f980829-90c1-43e2-a103-915f38317ed0` · printing: OGW #27 (2016-01-22) · [rulings](https://api.scryfall.com/cards/a35d3113-6cb7-4b74-94a3-8160d9ac1b89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Makindi Griffin
@@ -243,6 +273,7 @@
   > *As the hedrons began to coalesce into colossal Eldrazi superstructures, the griffins were forced to seek new territory lest their aeries be crushed between the massive stone monoliths.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27888 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddp/6/makindi-griffin) · oracle_id `af2a951f-7630-48fe-bb37-273b66901eb6` · printing: DDP #6 (2015-08-28) · [rulings](https://api.scryfall.com/cards/05c4a9c4-20d5-457d-9127-c27b8768255a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Makindi Ox
@@ -257,7 +288,11 @@
   > *—Bruse Tarl, Goma Fada nomad*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18873 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/25/makindi-ox) · oracle_id `e4f0fa12-542b-485f-a792-3a8aba933522` · printing: ZNR #25 (2020-09-25) · [rulings](https://api.scryfall.com/cards/fd0d164a-bce2-4474-abe0-b735eb6c9442/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/25/makindi-ox) · oracle_id `e4f0fa12-542b-485f-a792-3a8aba933522` · printing: ZNR #25 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Makindi Patrol
 
@@ -270,7 +305,11 @@
   > *Working with his noble mount, he notices every form on the horizon, every scent in the air, every tremor in the earth.*
 - **Keywords:** Rally
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15573 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/39/makindi-patrol) · oracle_id `d3f58efb-ba75-4caf-9e33-74236c707b83` · printing: BFZ #39 (2015-10-02) · [rulings](https://api.scryfall.com/cards/ae03f018-3062-4b1c-99b8-13fcffd70b49/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-08-25* — If a creature with a rally ability enters the battlefield under your control at the same time as other Allies, that ability will trigger once for each of those creatures and once for the creature with the ability itself.
+  - *2015-08-25* — Vigilance matters only as attackers are declared. Giving a creature vigilance after that point won’t untap it, even if it’s attacking.
+  - *2015-08-25* — When an Ally enters the battlefield under your control, each rally ability of the permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/39/makindi-patrol) · oracle_id `d3f58efb-ba75-4caf-9e33-74236c707b83` · printing: BFZ #39 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Makindi Shieldmate
 
@@ -284,7 +323,9 @@
   > *The more who rely on him, the more resolute he becomes.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24910 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/zen/26/makindi-shieldmate) · oracle_id `b8a65e49-2379-42bf-823e-c208c2550aeb` · printing: ZEN #26 (2009-10-02) · [rulings](https://api.scryfall.com/cards/e76e9555-966c-4fc3-9ef4-a0154ccb8329/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — This ability triggers on this creature entering, so it will enter with its unmodified power and toughness, and then receive a +1/+1 counter a short time later. It does not enter with the +1/+1 counter already on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/zen/26/makindi-shieldmate) · oracle_id `b8a65e49-2379-42bf-823e-c208c2550aeb` · printing: ZEN #26 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Makindi Sliderunner
 
@@ -298,7 +339,11 @@
   > *After a battle, it breaks the hillsides into manageable pieces to prepare for next time.*
 - **Keywords:** Trample, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24556 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/148/makindi-sliderunner) · oracle_id `4754e9c6-1790-4c01-87c2-3a16ce7e65f5` · printing: BFZ #148 (2015-10-02) · [rulings](https://api.scryfall.com/cards/9e6da400-ee4e-44d1-887d-1e2fb59b9322/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/148/makindi-sliderunner) · oracle_id `4754e9c6-1790-4c01-87c2-3a16ce7e65f5` · printing: BFZ #148 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Makindi Stampede // Makindi Mesas
 

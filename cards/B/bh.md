@@ -21,7 +21,9 @@
   > Whenever another nontoken creature you control dies, put a +1/+1 counter on target creature and goad it.
 - **Keywords:** Goad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16112 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/268/bhaal-lord-of-murder) · oracle_id `0d2dd78c-103c-4286-a3a1-e471dc77ed91` · printing: CLB #268 (2022-06-10) · [rulings](https://api.scryfall.com/cards/88b11da8-f9af-4ef3-9bc2-c28f0a8a5dd1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-06-10* — If Bhaal, Lord of Murder is dealt lethal damage at the same time that its controller's life total is reduced to less than or equal to half their starting life total, Bhaal will have indestructible at the time state-based actions are performed and survive.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/268/bhaal-lord-of-murder) · oracle_id `0d2dd78c-103c-4286-a3a1-e471dc77ed91` · printing: CLB #268 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bhaal's Invoker
 
@@ -34,4 +36,5 @@
   > *"The Lord of Murder has freed me from the shackles of mortal laws and gifted me with fire to carry out his will."*
 - **Keywords:** Scorching Ray
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12043 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/163/bhaals-invoker) · oracle_id `92512acd-bf1e-4133-93cd-6c6af5affb95` · printing: CLB #163 (2022-06-10) · [rulings](https://api.scryfall.com/cards/3fd3e535-8412-4f79-a2b1-dfda9db1c496/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

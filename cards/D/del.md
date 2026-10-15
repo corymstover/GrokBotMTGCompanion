@@ -86,7 +86,9 @@
   > If damage would be dealt to you, put that many delay counters on this enchantment instead.
   > At the beginning of your upkeep, remove all delay counters from this enchantment. For each delay counter removed this way, you lose 1 life unless you pay {1}{W}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14843 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ody/17/delaying-shield) · oracle_id `e03b553a-3d0d-453e-ad3e-f7d4b9fb2624` · printing: ODY #17 (2001-10-01) · [rulings](https://api.scryfall.com/cards/14e8195a-d0e4-4b11-b413-765ed1cae834/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Note that the damage is replaced and is not “prevented”. This means it can replace damage that “can’t be prevented”.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ody/17/delaying-shield) · oracle_id `e03b553a-3d0d-453e-ad3e-f7d4b9fb2624` · printing: ODY #17 (2001-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Delete
 
@@ -123,7 +125,11 @@
   > *"Where is it written that beasts must cause pain?"*
   > *—Delif, \*Ponderings\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13784 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fem/84/delifs-cone) · oracle_id `8af33199-d3ad-44fe-8ee0-abbe36a2278b` · printing: FEM #84 (1994-11-01) · [rulings](https://api.scryfall.com/cards/262b8788-c5a0-4c8e-9d58-b769b1b0a2ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — If you use the ability after blockers are declared, it won’t trigger at all. So you want to use it before blockers are declared.
+  - *2004-10-04* — This card has an activated ability that creates a triggered ability which watches the target creature.
+  - *2013-04-15* — An ability that triggers when something “attacks and isn’t blocked” triggers in the declare blockers step after blockers are declared if (1) that creature is attacking and (2) no creatures are declared to block it. It will trigger even if that creature was put onto the battlefield attacking rather than having been declared as an attacker in the declare attackers step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fem/84/delifs-cone) · oracle_id `8af33199-d3ad-44fe-8ee0-abbe36a2278b` · printing: FEM #84 (1994-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Delif's Cube
 
@@ -134,7 +140,11 @@
   > {2}, Remove a cube counter from this artifact: Regenerate target creature.
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28093 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/fem/85/delifs-cube) · oracle_id `3106ba15-08d7-474c-a384-6848b713ba8d` · printing: FEM #85 (1994-11-01) · [rulings](https://api.scryfall.com/cards/14749600-9eca-4122-b04f-30ddda091b74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — If you use the ability after blockers are declared, it won’t trigger at all. So you want to use it before blockers are declared.
+  - *2004-10-04* — This card has an activated ability that creates a triggered ability which watches the target creature.
+  - *2013-04-15* — An ability that triggers when something “attacks and isn’t blocked” triggers in the declare blockers step after blockers are declared if (1) that creature is attacking and (2) no creatures are declared to block it. It will trigger even if that creature was put onto the battlefield attacking rather than having been declared as an attacker in the declare attackers step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fem/85/delifs-cube) · oracle_id `3106ba15-08d7-474c-a384-6848b713ba8d` · printing: FEM #85 (1994-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Delighted Halfling
 
@@ -162,6 +172,7 @@
 - **Flavor text** (UST printing):
   > *"click . . . click . . . whirrrr . . . beep."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/145b/delighted-killbot) · oracle_id `9881b8b6-2e0a-492e-a1d1-40a087158784` · printing: UST #145b (2017-12-08) · [rulings](https://api.scryfall.com/cards/8aa7a8ac-65ed-4f16-9f31-08183f97da74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Delightful Discovery
@@ -175,7 +186,10 @@
   > *"What do you think? New class pet?"*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15837 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/j25/6/delightful-discovery) · oracle_id `705cc928-d6d4-4294-979b-a385d1b07dc6` · printing: J25 #6 (2024-11-15) · [rulings](https://api.scryfall.com/cards/dee342ec-f546-41b7-add5-0a85f5c8bc57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — Delightful Discovery's first ability can't reduce its cost below {U}.
+  - *2024-11-08* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/j25/6/delightful-discovery) · oracle_id `705cc928-d6d4-4294-979b-a385d1b07dc6` · printing: J25 #6 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Delina, Wild Mage
 
@@ -201,7 +215,9 @@
   > Cast this spell only during an opponent's turn.
   > Tap target creature that player controls. That creature deals damage equal to its power to the player. Prevent all combat damage that would be dealt to and dealt by the creature this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11960 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mir/260/delirium) · oracle_id `a00e5eb6-b916-4cd6-8ff2-c02f4929abc7` · printing: MIR #260 (1996-10-08) · [rulings](https://api.scryfall.com/cards/c52981ea-1173-4f4b-a929-705a11c6e381/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Tapping the creature is part of the effect and not the cost, therefore you can cast this targeting a tapped creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mir/260/delirium) · oracle_id `a00e5eb6-b916-4cd6-8ff2-c02f4929abc7` · printing: MIR #260 (1996-10-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Delirium Skeins
 
@@ -224,7 +240,13 @@
   > Choose up to four target cards in your graveyard. If you control a Bolas planeswalker, return those cards to your hand. Otherwise, an opponent chooses two of them. Leave the chosen cards in your graveyard and put the rest into your hand.
   > Exile Deliver Unto Evil.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13816 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/85/deliver-unto-evil) · oracle_id `9e73f938-0aa4-4639-a97a-f7e68f645623` · printing: WAR #85 (2019-05-03) · [rulings](https://api.scryfall.com/cards/67aa7104-7acc-4827-b763-ac053c99baab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2019-05-03* — If some of the targets chosen are no longer legal targets as Deliver Unto Evil resolves, an opponent chooses among the targets that remain legal. If no targets remain legal, the spell doesn’t resolve. It’s put into its owner’s graveyard and isn’t exiled.
+  - *2019-05-03* — Whether you control a Bolas planeswalker is checked only as this spell resolves.
+  - *2019-05-03* — You choose one opponent to make the final choice of which cards remains in your graveyard, but all players may discuss and advise this choice.
+  - *2019-05-03* — You may cast Deliver Unto Evil with fewer than four targets. However, if you don’t control a Bolas planeswalker as Deliver Unto Evil resolves, your opponent will choose two of however many cards you did target (or one or zero, if you chose fewer than two) and the remainder (if any) will be put into your hand.
+  - *2019-05-03* — You may cast Deliver Unto Evil with no targets if you wish. It will be exiled, and nothing else happens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/85/deliver-unto-evil) · oracle_id `9e73f938-0aa4-4639-a97a-f7e68f645623` · printing: WAR #85 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Delivery Moogle
 
@@ -276,6 +298,7 @@
   > Phyrexian Victory — Mirrodin Besieged, New Phyrexia, All Will be One, and March of the Machine.
 - **Keywords:** Mirran Victory, Phyrexian Victory
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/MZ02/delphia-undecided) · oracle_id `9a4243b5-6924-4e41-a119-3c9e6df34198` · printing: UNK #MZ02 (2023-02-17) · [rulings](https://api.scryfall.com/cards/560960de-7f35-480e-b343-057c903d1651/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Delraich
@@ -290,6 +313,7 @@
   > *It wears the souls of its victims like jewels on a chain.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27763 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/133/delraich) · oracle_id `38f9e766-a2ad-437b-a38c-d6f3ffd261fb` · printing: MMQ #133 (1999-10-04) · [rulings](https://api.scryfall.com/cards/da64094f-df6e-4c43-b4ae-03aab6b92816/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Delta Bloodflies
@@ -304,7 +328,9 @@
   > *With the rising waters, bloodflies were found far from their usual swamps.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16194 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/77/delta-bloodflies) · oracle_id `8a64cf8e-ae7f-4697-93fc-9c946eb1088b` · printing: TDM #77 (2025-04-11) · [rulings](https://api.scryfall.com/cards/119bb72d-aed9-47dc-9285-7bc836cc3776/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-04-04* — Delta Bloodflies’s last ability checks at the moment it would trigger to see if you control a creature with a counter on it. If you don’t, the ability won’t trigger at all. If it does trigger, the ability will check again as it tries to resolve. If you don’t control a creature with a counter on it at that time, the ability won’t resolve and none of its effects will happen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/77/delta-bloodflies) · oracle_id `8a64cf8e-ae7f-4697-93fc-9c946eb1088b` · printing: TDM #77 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deluge
 
@@ -316,6 +342,7 @@
   > *"From the sea came all life, and to the sea it will return. The sooner the better."*
   > *—Emperor Aboshan*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12810 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/79/deluge) · oracle_id `cd271e61-0135-484f-ae02-5aaca57c1124` · printing: 10E #79 (2007-07-13) · [rulings](https://api.scryfall.com/cards/baf37153-ec4c-4c2f-89f7-450f0a157311/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deluge of Doom
@@ -328,6 +355,7 @@
   > *"I told you there were no razorkin down that passage. I never said it was \*safe\*."*
   > *—Winter*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10588 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/18/deluge-of-doom) · oracle_id `a81fcdf8-59e7-471d-96ce-f87e656572b1` · printing: DSC #18 (2024-09-27) · [rulings](https://api.scryfall.com/cards/948927b2-087a-4f57-844e-68fc8ab01bc0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deluge Virtuoso
@@ -340,7 +368,9 @@
   > Opus — Whenever you cast an instant or sorcery spell, this creature gets +1/+1 until end of turn. If five or more mana was spent to cast that spell, this creature gets +2/+2 until end of turn instead.
 - **Keywords:** Opus
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21052 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/42/deluge-virtuoso) · oracle_id `416c70ab-f136-43e0-b5d5-9af8d4211c01` · printing: SOS #42 (2026-04-24) · [rulings](https://api.scryfall.com/cards/2e3b16ed-8727-48fd-8b1f-c0cbd329385e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — An opus ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/42/deluge-virtuoso) · oracle_id `416c70ab-f136-43e0-b5d5-9af8d4211c01` · printing: SOS #42 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Delusions of Mediocrity
 
@@ -352,6 +382,7 @@
 - **Flavor text** (7ED printing):
   > *When nothing but second best will do.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14155 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/70/delusions-of-mediocrity) · oracle_id `a1fb6dfc-1dab-4337-8311-b4ab2ef336c0` · printing: 7ED #70 (2001-04-11) · [rulings](https://api.scryfall.com/cards/ab43fba7-699e-4bb5-ab3e-b5b1c290340c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deluxe Dragster
@@ -385,7 +416,9 @@
   > *—Laboratory notes, final entry*
 - **Keywords:** Flying, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16235 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/60/delver-of-secrets-insectile-aberration) · oracle_id `edd531b9-f615-4399-8c8c-1c5e18c4acbf` · printing: INR #60 (2025-01-24) · [rulings](https://api.scryfall.com/cards/6904ea20-e504-47da-95a0-08739fdde260/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-09-22* — You may reveal the card even if it's not an instant or sorcery. Whether or not you reveal it, the card stays on top of your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/60/delver-of-secrets-insectile-aberration) · oracle_id `edd531b9-f615-4399-8c8c-1c5e18c4acbf` · printing: INR #60 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Delver's Torch
 
@@ -399,7 +432,18 @@
   > *"Not all of us have darkvision, okay?"*
 - **Keywords:** Equip, Venture into the dungeon
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13471 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/10/delvers-torch) · oracle_id `a1c8b833-8c74-4f95-8a47-1dd41ef99361` · printing: AFR #10 (2021-07-23) · [rulings](https://api.scryfall.com/cards/53df7b80-71bf-4013-ad44-f76eae8ac81b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2021-07-23* — A player may only have one dungeon in the command zone at a time.
+  - *2021-07-23* — Choosing the dungeon or room to venture into is part of resolving the venture into the dungeon keyword action. Once that choice is made, players may not respond until after the appropriate room ability has triggered.
+  - *2021-07-23* — Dungeon cards are not part of a player's deck or sideboard. In both constructed and limited formats, players can use any dungeon card when they venture into the dungeon.
+  - *2021-07-23* — Dungeons are removed from the game as a state-based action.
+  - *2021-07-23* — If you somehow venture into the dungeon while a room's ability is on the stack, you will continue on in the dungeon. If you're already in the last room, complete that dungeon and start a new one.
+  - *2021-07-23* — Moving into a dungeon room will cause its room ability to trigger.
+  - *2021-07-23* — Once you resolve the last room ability of a dungeon, that dungeon is now completed and is removed from the game.
+  - *2021-07-23* — The player venturing into the dungeon chooses which dungeon they will venture into. They may choose a dungeon that they have already completed this game.
+  - *2021-07-23* — To venture into the dungeon, a player moves their venture marker into the next room of the dungeon they are currently in. If they aren't currently in a dungeon, that player instead chooses a dungeon card from outside the game, puts it into the command zone, and moves their venture marker onto the first room.
+  - *2021-07-23* — You can only move forward (well, downward) in a dungeon, never backwards or sideways.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/10/delvers-torch) · oracle_id `a1c8b833-8c74-4f95-8a47-1dd41ef99361` · printing: AFR #10 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Delve too Deep
 
@@ -410,4 +454,5 @@
   > Target creature gets -X/-X until end of turn. If X was 7 or greater, create a 7/7 black and red Demon creature token.
 - **Keywords:** Delve
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UB11/delve-too-deep) · oracle_id `3ace4689-c822-4434-bb6f-64e56b167a44` · printing: UNK #UB11 (2023-07-29) · [rulings](https://api.scryfall.com/cards/c9f4a115-23a9-446f-884e-9fb4dd659b08/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

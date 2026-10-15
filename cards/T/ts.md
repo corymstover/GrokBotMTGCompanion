@@ -23,6 +23,7 @@
 - **Oracle text:**
   > {T}: Destroy target creature if it shares a color with the most common color among all permanents or a color tied for most common. A creature destroyed this way can't be regenerated.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25059 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/128/tsabos-assassin) · oracle_id `4d00c44b-8953-4b18-af73-2944321b6cd1` · printing: INV #128 (2000-10-02) · [rulings](https://api.scryfall.com/cards/0047302d-4e3d-4327-9bb2-ecd5b00b00e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tsabo's Decree
@@ -32,6 +33,7 @@
 - **Oracle text:**
   > Choose a creature type. Target player reveals their hand and discards all creature cards of that type. Then destroy all creatures of that type that player controls. They can't be regenerated.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23656 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/129/tsabos-decree) · oracle_id `4e0de4d9-7a30-4a2b-94ba-8239baad2a0a` · printing: INV #129 (2000-10-02) · [rulings](https://api.scryfall.com/cards/0c1a0ebd-1add-49e6-b5e6-5b26abb1de88/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tsabo's Web
@@ -42,7 +44,10 @@
   > When this artifact enters, draw a card.
   > Each land with an activated ability that isn't a mana ability doesn't untap during its controller's untap step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19864 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inv/317/tsabos-web) · oracle_id `96a4e515-2b4e-4c2d-aa1a-963597484723` · printing: INV #317 (2000-10-02) · [rulings](https://api.scryfall.com/cards/0dee69f8-cceb-41b9-a0ee-6b2ac9f4bad9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — A mana ability is an ability that (1) isn't a loyalty ability, (2) doesn't target, and (3) could add mana when it resolves.
+  - *2016-06-08* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keywords are activated abilities and will have colons in their reminder text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inv/317/tsabos-web) · oracle_id `96a4e515-2b4e-4c2d-aa1a-963597484723` · printing: INV #317 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tsabo Tavoc
 
@@ -56,7 +61,9 @@
   > *"I might almost pity my enemies—if it wasn't so amusing to watch them die."*
 - **Keywords:** First strike, Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23778 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/inv/281/tsabo-tavoc) · oracle_id `f98f1f71-99ec-4ffb-9d8e-acbab173f972` · printing: INV #281 (2000-10-02) · [rulings](https://api.scryfall.com/cards/ccbe2539-7a7c-468b-a270-7ca1bdcccb1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2005-08-01* — The destroy ability only works on legendary creatures, not on other legendary permanents.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inv/281/tsabo-tavoc) · oracle_id `f98f1f71-99ec-4ffb-9d8e-acbab173f972` · printing: INV #281 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tsagan, Raider Warlord
 
@@ -70,6 +77,7 @@
   > Max speed — Tsagan has deathtouch and other creatures you control have first strike.
 - **Keywords:** Max speed, Double strike, Start your engines!
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #20021 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/53/tsagan-raider-warlord) · oracle_id `3194c964-1693-40b6-b4f2-64fe056e7cd9` · printing: MBC #53 (2026-10-19) · [rulings](https://api.scryfall.com/cards/2ac9f9f1-fa80-4f56-8184-dadfe1a81d4c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tsunami
@@ -79,4 +87,5 @@
 - **Oracle text:**
   > Destroy all Islands.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19226 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/171/tsunami) · oracle_id `ef2b1565-7b02-4cab-9031-beb1701ee929` · printing: ME4 #171 (2011-01-10) · [rulings](https://api.scryfall.com/cards/f83a6709-f26d-41fc-b63a-739377ba49f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

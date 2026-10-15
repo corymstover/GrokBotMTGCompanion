@@ -47,7 +47,9 @@
   > *"If you don't speak wolf, allow me to translate: 'One step closer and I'll rip out your throat.'"*
   > *—Arlinn Kord*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20840 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/151/arlinns-wolf) · oracle_id `fe4c0f02-c5fd-4cd5-9f80-0936e3875f1c` · printing: WAR #151 (2019-05-03) · [rulings](https://api.scryfall.com/cards/747223a5-c669-4d0e-a062-265eb47710cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-05-03* — Once a creature with power 3 or greater has blocked this creature, changing the power of the blocking creature won’t cause this creature to become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/151/arlinns-wolf) · oracle_id `fe4c0f02-c5fd-4cd5-9f80-0936e3875f1c` · printing: WAR #151 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arlinn, the Pack's Hope // Arlinn, the Moon's Fury
 
@@ -85,4 +87,8 @@
   > Each creature you control that's a Wolf or a Werewolf enters with an additional +1/+1 counter on it.
   > −2: Create a 2/2 green Wolf creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12365 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/150/arlinn-voice-of-the-pack) · oracle_id `a15b83df-91b7-49f0-9bec-5776a3dac8bd` · printing: WAR #150 (2019-05-03) · [rulings](https://api.scryfall.com/cards/5391d2f1-e8d3-4d39-98cf-367888e10534/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-05-03* — A creature that’s a Wolf or Werewolf enters the battlefield with one +1/+1 counter if it would otherwise enter with no +1/+1 counters.
+  - *2019-05-03* — A creature that’s both a Wolf and a Werewolf receives only one additional +1/+1 counter from Arlinn’s ability.
+  - *2019-05-03* — If Arlinn leaves the battlefield before her last ability resolves, most likely because she only had 2 loyalty when you activated the ability, the Wolf token won’t enter the battlefield with a +1/+1 counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/150/arlinn-voice-of-the-pack) · oracle_id `a15b83df-91b7-49f0-9bec-5776a3dac8bd` · printing: WAR #150 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

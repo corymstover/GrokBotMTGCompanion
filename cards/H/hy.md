@@ -70,6 +70,7 @@
   > *"I was wrong! Not harmless at all!"*
   > *—Norin the Wary*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25198 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/89/hyalopterous-lemure) · oracle_id `bc3576fb-3c08-456e-b3b6-9eb01b2366d6` · printing: DMR #89 (2023-01-13) · [rulings](https://api.scryfall.com/cards/875b7d0b-8354-41a0-9a53-8bc19ffdc016/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### HYDRA Assault Robot
@@ -82,6 +83,7 @@
 - **Flavor text** (MSH printing):
   > *"I have come for you, Nick Fury!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14118 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/137/hydra-assault-robot) · oracle_id `a2558476-5506-4a09-93fc-b8ab33c98985` · printing: MSH #137 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e3b23fff-7d3b-4341-b556-82136f8c113b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hydra Broodmaster
@@ -111,6 +113,7 @@
   > Equip {4} ({4}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27593 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/660/hydra-disintegrator) · oracle_id `cf16702d-9a0e-4e4c-82cb-d9b0b1e23f15` · printing: MSC #660 (2026-06-26) · [rulings](https://api.scryfall.com/cards/932cb77d-3d01-4212-b6ab-bbe66acd2563/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hydradoodle
@@ -125,7 +128,9 @@
   > *Less housebroken than housebreaking.*
 - **Keywords:** Reach, Trample
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/112/hydradoodle) · oracle_id `49b567ed-591e-4a57-9573-7a04b1510623` · printing: UST #112 (2017-12-08) · [rulings](https://api.scryfall.com/cards/760e482c-8725-410e-9d9f-c377649fe8bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-01-19* — You can choose 0 as the value of X. However, you won't roll any dice as it enters and it will be a 0/0. Unless something else is raising its toughness, it will be put into its owner's graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/112/hydradoodle) · oracle_id `49b567ed-591e-4a57-9573-7a04b1510623` · printing: UST #112 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### HYDRA Infiltration
 
@@ -137,6 +142,7 @@
 - **Flavor text** (MSH printing):
   > *"HYDRA has spread its tentacles throughout all levels of society. The only question is, where will we strike next?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20878 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/100/hydra-infiltration) · oracle_id `27692079-a517-4d38-b452-7409980b5912` · printing: MSH #100 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c2e446e1-e384-4d5f-8099-544f78c08510/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hydra Omnivore
@@ -176,6 +182,7 @@
 - **Oracle text:**
   > Each Head gains indestructible until the end of the Hydra's next turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tfth/9/hydras-impenetrable-hide) · oracle_id `157686aa-9ae3-471d-b6f8-5136380d6ad1` · printing: TFTH #9 (2013-10-19) · [rulings](https://api.scryfall.com/cards/6f85efed-56e7-488f-ac82-8829ad8b64ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hydra Trainer
@@ -188,7 +195,15 @@
   > {2}{G}: Adapt 2. (If this creature has no +1/+1 counters on it, put two +1/+1 counters on it.)
 - **Keywords:** Adapt, Exert
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12651 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/159/hydra-trainer) · oracle_id `c428cbe2-17fd-4bd2-9810-de2561519f14` · printing: MH3 #159 (2024-06-14) · [rulings](https://api.scryfall.com/cards/9d28ae5c-eec3-445a-81d6-42bf9789afce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-06-07* — If a creature somehow loses all of its +1/+1 counters, it can adapt again and get more +1/+1 counters.
+  - *2024-06-07* — If an exerted permanent is already untapped during your next untap step (most likely because an effect untapped it), exert's effect preventing it from untapping expires without having done anything.
+  - *2024-06-07* — If you gain control of another player's permanent until end of turn and exert it, and then that player regains control of it, it will untap during that player's untap step.
+  - *2024-06-07* — The value of X is determined only once, as the reflexive triggered ability resolves.
+  - *2024-06-07* — You can always activate an ability that will cause a creature to adapt. As that ability resolves, if the creature has a +1/+1 counter on it for any reason, you simply won't put any +1/+1 counters on it.
+  - *2024-06-07* — You can exert Hydra Trainer as you declare it as an attacking creature. You can't do so later in combat, and creatures put onto the battlefield attacking can't be exerted. Any abilities that trigger on exerting an attacking creature will resolve before blockers are declared.
+  - *2024-06-07* — You don't choose a target for Hydra Trainer's first ability at the time it triggers. Rather, a second "reflexive" ability triggers when you exert Hydra Trainer this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/159/hydra-trainer) · oracle_id `c428cbe2-17fd-4bd2-9810-de2561519f14` · printing: MH3 #159 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### HYDRA Troopers
 
@@ -201,6 +216,7 @@
   > *Evil never lacks foot soldiers to do its will.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21486 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/101/hydra-troopers) · oracle_id `6de67fad-0d01-443d-9ae0-4126ae903069` · printing: MSH #101 (2026-06-26) · [rulings](https://api.scryfall.com/cards/40c202f1-6e0d-42f4-a41e-e0be3362d585/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hydraulic Helper
@@ -216,6 +232,7 @@
   > *—Tony Stark*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17741 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/57/hydraulic-helper) · oracle_id `503928cd-1abd-44cd-92c3-6dc19bb07f78` · printing: MSH #57 (2026-06-26) · [rulings](https://api.scryfall.com/cards/06d8a2a0-775b-4813-973f-8b15612b38d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hydroblast
@@ -229,7 +246,10 @@
 - **Flavor text** (EMA printing):
   > *Fire can be savage, but it is fickle. Water is always true, its flow steady and world-shaping.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12702 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ema/55/hydroblast) · oracle_id `b94c0336-2ca8-4bb1-bb1f-e9babd1826ad` · printing: EMA #55 (2016-06-10) · [rulings](https://api.scryfall.com/cards/4c9c9b16-5567-4473-95e6-622292f77336/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — The decision to counter a spell or destroy a permanent is a decision made on announcement before the target is selected. If the spell is redirected, this mode can't be changed, so only targets of the selected type are valid.
+  - *2016-06-08* — Hydroblast can target any spell or permanent, not just a red one. It checks the color of the target only on resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ema/55/hydroblast) · oracle_id `b94c0336-2ca8-4bb1-bb1f-e9babd1826ad` · printing: EMA #55 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hydro-Channeler
 
@@ -242,6 +262,7 @@
 - **Flavor text** (SOS printing):
   > *Only when they can defy the laws of nature can a Quandrix student claim to have mastered a spell.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12773 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/54/hydro-channeler) · oracle_id `95630a83-3699-4340-b3e5-17e81db1b82f` · printing: SOS #54 (2026-04-24) · [rulings](https://api.scryfall.com/cards/099f8400-d70a-48ef-8ff6-645eae97e072/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hydroelectric Specimen // Hydroelectric Laboratory
@@ -281,7 +302,11 @@
   > *"While the sea may be our home, the sky is our destiny."*
   > *—Prime Speaker Zegana*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27702 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/172/hydroform) · oracle_id `d8b6ea82-da4e-4763-84b1-4caa214ed945` · printing: GTC #172 (2013-02-01) · [rulings](https://api.scryfall.com/cards/2c4e1f41-4aed-451b-bbaa-6cc6780cd6c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-01-24* — Effects that modify power and/or toughness but don’t set them to a specific value (like the one created by Giant Growth), power/toughness changes from counters, and effects that switch a creature’s power and toughness will continue to apply. This may happen if the land was already a creature when Hydroform resolved.
+  - *2013-01-24* — Hydroform doesn’t affect the land’s name or any other types, subtypes, or supertypes (such as basic or legendary) the land may have. The land will also keep any abilities it had.
+  - *2013-01-24* — If the target land hasn’t been under its controller’s control continuously since the beginning of their most recent turn, that land won’t be able to attack and its {T} abilities won’t be able to be activated. In most cases, that means it will no longer be able to be tapped for mana that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/172/hydroform) · oracle_id `d8b6ea82-da4e-4763-84b1-4caa214ed945` · printing: GTC #172 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hydroid Krasis
 
@@ -311,7 +336,9 @@
   > *"I don't need your mage-rings or your mana equations. I call, and the sea answers."*
   > *—Keyta, rebel hydromancer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27917 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gnt/22/hydrolash) · oracle_id `31279757-499a-4d52-aa81-76b6f1983b53` · printing: GNT #22 (2018-11-16) · [rulings](https://api.scryfall.com/cards/5d219ee8-ca60-4850-9652-a7274eb4c443/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-06-22* — You may cast Hydrolash even if there aren’t any attacking creatures simply to draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gnt/22/hydrolash) · oracle_id `31279757-499a-4d52-aa81-76b6f1983b53` · printing: GNT #22 (2018-11-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hydro-Man, Fluid Felon
 
@@ -325,7 +352,10 @@
   > *"Well, I always wanted a waterfront view."*
   > *—Spider-Man*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11973 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/33/hydro-man-fluid-felon) · oracle_id `a93a8edf-2879-4cae-b3b9-b46298270823` · printing: SPM #33 (2025-09-26) · [rulings](https://api.scryfall.com/cards/e53115a4-8959-40fa-b763-931504a1c5a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-09-19* — After the triggered ability resolves during your end step, however, you may tap him for {U}, even if he entered the battlefield this turn.
+  - *2025-09-19* — The effect of Hydro-Man's last ability ends as your turn begins. There is no opportunity to tap Hydro-Man for {U} once your turn has started.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/33/hydro-man-fluid-felon) · oracle_id `a93a8edf-2879-4cae-b3b9-b46298270823` · printing: SPM #33 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hydromorph Guardian
 
@@ -337,6 +367,7 @@
 - **Flavor text** (TOR printing):
   > *In front of every strong leader is a pool of loyal bodyguards.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26893 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/39/hydromorph-guardian) · oracle_id `c426c2b0-82fa-4ea0-bbdb-3a40e60c495e` · printing: TOR #39 (2002-02-04) · [rulings](https://api.scryfall.com/cards/40e4ace0-421d-4e8e-ab85-8f74757e99c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hydromorph Gull
@@ -352,6 +383,7 @@
   > *—Kamahl, pit fighter*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29056 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/40/hydromorph-gull) · oracle_id `124fea1b-c0e9-4e56-b026-82dddee0d36e` · printing: TOR #40 (2002-02-04) · [rulings](https://api.scryfall.com/cards/06b1c8fc-e09b-479b-ac15-f659acb2f50f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hydrosurge
@@ -364,6 +396,7 @@
   > *"Thirsty?"*
   > *—Drunvalus, hydromancer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26839 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m15/58/hydrosurge) · oracle_id `4c2059d5-9a2e-4b89-a617-9125eb0cd570` · printing: M15 #58 (2014-07-18) · [rulings](https://api.scryfall.com/cards/1fd4dacb-912e-4e54-ab60-16a5262d0fbb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hyena Pack
@@ -376,6 +409,7 @@
 - **Flavor text** (AKH printing):
   > *With carrion a rarity in the Broken Lands, the hyenas that stalk the deserts hunt in packs.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31179 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/139/hyena-pack) · oracle_id `d38b027d-eb24-46ba-9d46-3be08eedbe2a` · printing: AKH #139 (2017-04-28) · [rulings](https://api.scryfall.com/cards/f9fa8351-567e-4ef4-8346-c58e50c778a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hyena Umbra
@@ -440,6 +474,7 @@
   > Equip {4} ({4}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip, Void
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15781 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/106/hylderblade) · oracle_id `64ca59b8-6e90-46c8-8047-6172b9c84226` · printing: EOE #106 (2025-08-01) · [rulings](https://api.scryfall.com/cards/ac80cf18-0707-4358-bdd4-0c2b90d0a1d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hymn of Rebirth
@@ -452,6 +487,7 @@
   > *"There will come soft rains, and spring shall be amongst us, a welcome friend."*
   > *—Halvor Arenson, Kjeldoran priest*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24774 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/146/hymn-of-rebirth) · oracle_id `f06fca68-593b-4fbd-a5a9-618060311172` · printing: ME1 #146 (2007-09-10) · [rulings](https://api.scryfall.com/cards/be69ba4b-934f-4ee8-849a-0df5a61ee804/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hymn of the Faller
@@ -465,6 +501,7 @@
   > *"Does truth lie in the void between stanzas?"*
 - **Keywords:** Surveil, Void
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12090 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/107/hymn-of-the-faller) · oracle_id `ab1379b7-0016-4d2a-a83b-952666e43b89` · printing: EOE #107 (2025-08-01) · [rulings](https://api.scryfall.com/cards/e468d528-6cf0-4563-9da2-e388ba56cb9d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hymn of the Wilds
@@ -516,7 +553,28 @@
   > Starting with you, each player may put an artifact, creature, enchantment, or land card from their hand onto the battlefield. Repeat this process until no one puts a card onto the battlefield.
 - **Keywords:** Suspend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13253 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/210/hypergenesis) · oracle_id `cf288b0a-a343-4ef7-ba02-4f83a6dabeaf` · printing: TSR #210 (2021-03-19) · [rulings](https://api.scryfall.com/cards/65757321-2f26-44dc-a4f8-31d40fbf1681/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (20):
+  - *2006-10-15* — Anything that triggers during the resolution of this will wait to be put on the stack until everything is put onto the battlefield and resolution is complete. The player whose turn it is will put all of their triggered abilities on the stack in any order, then each other player in turn order will do the same. (The last ability put on the stack will be the first one that resolves.)
+  - *2013-06-07* — Although originally printed with a characteristic-defining ability that defined its color, this card now has a color indicator. This color indicator can't be affected by text-changing effects (such as the one created by Crystal Spray), although color-changing effects can still overwrite it.
+  - *2021-03-19* — If a player chooses not to put a card onto the battlefield but the process repeats, that player may put a card onto the battlefield the next time the process gets around to them.
+  - *2021-03-19* — The permanents enter the battlefield sequentially. This means that ones put onto the battlefield earlier may affect how later ones enter and later ones may cause triggered abilities of earlier ones to trigger, but not vice versa.
+  - *2021-03-19* — The process ends when all players (starting with you) choose not to put a card onto the battlefield during one loop of the process. It doesn't end the first time one player chooses not to put a card onto the battlefield.
+  - *2024-02-02* — A card with no mana cost can't be cast normally; you'll need a way to cast it for an alternative cost or without paying its mana cost, such as by suspending it.
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If a card with no mana cost is given an alternative cost equal to its mana cost (by Snapcaster Mage, for example), that cost cannot be paid and the card cannot be cast this way.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/210/hypergenesis) · oracle_id `cf288b0a-a343-4ef7-ba02-4f83a6dabeaf` · printing: TSR #210 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hyperion Blacksmith
 
@@ -529,7 +587,9 @@
   > *"The smith a mighty man is he/ With large and sinewy hands./ And the muscles of his brawny arms/ Are strong as iron bands."*
   > *—Henry Wadsworth Longfellow, The Village Blacksmith*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31952 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/leg/152/hyperion-blacksmith) · oracle_id `bafad165-c2aa-45d1-8f99-05e752450dfd` · printing: LEG #152 (1994-06-01) · [rulings](https://api.scryfall.com/cards/44d499a9-fe7c-4a1a-9eb3-a7fd9f85ae08/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You decide whether you are tapping or untapping the artifact on resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/leg/152/hyperion-blacksmith) · oracle_id `bafad165-c2aa-45d1-8f99-05e752450dfd` · printing: LEG #152 (1994-06-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hyperion's Atomic Vision
 
@@ -540,6 +600,7 @@
   > Destroy target tapped creature. If a Hero was beheld, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)
 - **Keywords:** Behold, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28723 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/600/hyperions-atomic-vision) · oracle_id `e1e82283-01ec-447f-b0d4-5bd4619ab3d8` · printing: MSC #600 (2026-06-26) · [rulings](https://api.scryfall.com/cards/13940d64-16f6-473b-9b6c-80a187c3d4fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hyperion, Supreme Hero
@@ -555,6 +616,7 @@
   > *"Truth without compromise. Thought without error. All things for the betterment of the whole."*
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17981 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/599/hyperion-supreme-hero) · oracle_id `4f4a5966-3713-45c7-acc2-9ddb4ff73eab` · printing: MSC #599 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1604acc8-0d54-42bb-ac4b-399987a6b554/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hypersonic Dragon
@@ -570,7 +632,10 @@
   > *—Niv-Mizzet*
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13362 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/196/hypersonic-dragon) · oracle_id `e1bf20b0-2bd7-4a0f-9a02-41e43bd44641` · printing: CLU #196 (2024-02-23) · [rulings](https://api.scryfall.com/cards/c64cad22-7532-419d-86de-f77fb2ffb09d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-11-17* — Hypersonic Dragon’s last ability applies to sorcery cards in any zone, provided something is allowing you to cast them. For example, you could cast a sorcery with flashback as though it had flash.
+  - *2017-11-17* — Hypersonic Dragon’s last ability has no effect on abilities that you can activate “any time you could cast a sorcery.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/196/hypersonic-dragon) · oracle_id `e1bf20b0-2bd7-4a0f-9a02-41e43bd44641` · printing: CLU #196 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hypervolt Grasp
 
@@ -584,6 +649,7 @@
   > *Zap on. Zap off.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29072 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gpt/67/hypervolt-grasp) · oracle_id `269a2b53-52d7-4032-ba62-7b7742e7a159` · printing: GPT #67 (2006-02-03) · [rulings](https://api.scryfall.com/cards/fdaa3c6e-1f8a-4580-8e03-e670f50ab958/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hypnotic Cloud
@@ -595,7 +661,14 @@
   > Target player discards a card. If this spell was kicked, that player discards three cards instead.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29391 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddm/67/hypnotic-cloud) · oracle_id `277757c6-4c4c-4a4c-84f6-4a64fe3b3bfe` · printing: DDM #67 (2014-03-14) · [rulings](https://api.scryfall.com/cards/62e55607-4c1f-46ab-aae7-391b65a125c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddm/67/hypnotic-cloud) · oracle_id `277757c6-4c4c-4a4c-84f6-4a64fe3b3bfe` · printing: DDM #67 (2014-03-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hypnotic Grifter
 
@@ -608,7 +681,11 @@
   > *"All is calm. All is well. You know me to be a trusted member of your family, and I would like to discuss the contents of our safe."*
 - **Keywords:** Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22567 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/45/hypnotic-grifter) · oracle_id `5df80355-b12a-4989-94e5-1e0fa27350e8` · printing: SNC #45 (2022-04-29) · [rulings](https://api.scryfall.com/cards/69af30b3-d4b0-453a-891f-4506e06b5e14/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-04-29* — If a resolving spell or ability instructs a specific creature to connive but that creature has left the battlefield, the creature still connives. If you discard a nonland card this way, you won't put a +1/+1 counter on anything. Abilities that trigger "when [that creature] connives" will trigger.
+  - *2022-04-29* — If no card is discarded, most likely because that player's hand is empty and an effect says they can't draw cards, the conniving creature does not receive a +1/+1 counter.
+  - *2022-04-29* — Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard a nonland card but before it receives a counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/45/hypnotic-grifter) · oracle_id `5df80355-b12a-4989-94e5-1e0fa27350e8` · printing: SNC #45 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hypnotic Siren
 
@@ -622,7 +699,15 @@
   > Enchanted creature gets +1/+1 and has flying.
 - **Keywords:** Flying, Bestow
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11938 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jou/42/hypnotic-siren) · oracle_id `54aede54-4f7d-40f5-bad0-2448293e2cf0` · printing: JOU #42 (2014-05-02) · [rulings](https://api.scryfall.com/cards/3b2f562f-00d1-41da-a6ac-bc019cce7fe7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2013-10-17* — If you cast Hypnotic Siren for its bestow cost, and you gain control of a creature with a constellation ability, that ability will trigger when Hypnotic Siren enters the battlefield. You'll control that triggered ability.
+  - *2014-04-26* — Auras attached to a creature don't become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature.
+  - *2014-04-26* — Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it.
+  - *2014-04-26* — If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can't choose to pay the bestow cost and have it become an Aura.
+  - *2014-04-26* — On the stack, a spell with bestow is either a creature spell or an Aura spell. It's never both, although it's an enchantment spell in either case.
+  - *2014-04-26* — Unlike other Aura spells, an Aura spell with bestow isn't countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature.
+  - *2014-04-26* — Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jou/42/hypnotic-siren) · oracle_id `54aede54-4f7d-40f5-bad0-2448293e2cf0` · printing: JOU #42 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hypnotic Specter
 
@@ -673,7 +758,20 @@
   > Whenever you crank this Contraption, target player mills X cards, where X is the number of creatures you control.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/189/hypnotic-swirly-disc) · oracle_id `90dedce1-087c-44c5-b62c-cbf1ecf92cfa` · printing: UST #189 (2017-12-08) · [rulings](https://api.scryfall.com/cards/13d193e9-8bcd-452e-a7d8-37b519b6c2b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2018-01-19* — Any Contraption that's on the battlefield and wasn't assembled immediately heads to the scrapyard. However, if it's a not an actual Contraption card (like Copy Artifact isn't), it goes to your graveyard as normal. Non-Contraption cards can't be in the scrapyard.
+  - *2018-01-19* — At the beginning of your upkeep, if you control any Contraptions, move the CRANK! counter to the next sprocket. You may then crank any number of Contraptions on that sprocket, causing their abilities to trigger. Cranking a Contraption is always optional.
+  - *2018-01-19* — Contraptions are artifacts. Anything that interacts with artifacts will interact with Contraptions.
+  - *2018-01-19* — Contraptions aren't put into your main deck. They go into a separate deck called the Contraption deck.
+  - *2018-01-19* — If a Contraption would leave the battlefield and go to any zone other than exile, it instead goes to the scrapyard, the Contraption deck's version of the graveyard. Things that affect the graveyard do not affect the scrapyard. You can exile Contraptions just fine.
+  - *2018-01-19* — If you crank multiple Contraptions, their abilities can be put onto the stack in any order. The ability put onto the stack will resolve first.
+  - *2018-01-19* — If you or a permanent you control are instructed to assemble a Contraption, reveal the top card of your Contraption deck. Put it onto the battlefield on one of the three sprockets.
+  - *2018-01-19* — If you or a permanent you control assembles a Contraption and your Contraption deck is empty, nothing happens. You don't lose the game.
+  - *2018-01-19* — In Constructed formats, a Contraption deck must have at least fifteen different Contraption cards and no more than one of each.
+  - *2018-01-19* — In Limited formats, a Contraption deck may include any number of Contraption cards in your card pool. You don't have to include every Contraption card you draft or open in sealed deck. In those formats, your Contraption deck may include duplicates.
+  - *2018-01-19* — In silver-bordered games using Contraptions, you have three sprockets, illustrated on the back of Contraption cards. At the start of the game, put a CRANK! counter on sprocket 3.
+  - *2018-01-19* — While Contraptions you control are on the battlefield, the Contraption deck is not, even if you are using it to signify the three sprockets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/189/hypnotic-swirly-disc) · oracle_id `90dedce1-087c-44c5-b62c-cbf1ecf92cfa` · printing: UST #189 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hypnox
 
@@ -686,7 +784,9 @@
   > When this creature leaves the battlefield, return the exiled cards to their owner's hand.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21727 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tor/64/hypnox) · oracle_id `b850015f-527f-4e5a-87a6-46a0814bdb70` · printing: TOR #64 (2002-02-04) · [rulings](https://api.scryfall.com/cards/0e0e53a1-11d5-4975-b698-8b5d72d241f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-09-20* — If a creature (such as Clone) enters the battlefield as a copy of this creature, the copy’s “enters-the-battlefield” ability will still trigger as long as you cast that creature spell from your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tor/64/hypnox) · oracle_id `b850015f-527f-4e5a-87a6-46a0814bdb70` · printing: TOR #64 (2002-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hypochondria
 
@@ -696,6 +796,7 @@
   > {W}, Discard a card: Prevent the next 3 damage that would be dealt to any target this turn.
   > {W}, Sacrifice this enchantment: Prevent the next 3 damage that would be dealt to any target this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29962 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/7/hypochondria) · oracle_id `74c90ddc-4c6e-479d-ad68-b444d3109258` · printing: TOR #7 (2002-02-04) · [rulings](https://api.scryfall.com/cards/3467c940-dae4-4667-bec8-524dbce13283/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hypothesizzle
@@ -708,7 +809,9 @@
   > *"It's like blowing up an arcane library in a thermobaric explosion. But in a good way."*
   > *—Bori Andon, Izzet blastseeker*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15047 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/178/hypothesizzle) · oracle_id `e4e6cb61-f673-4f36-b95c-c84a68459503` · printing: GRN #178 (2018-10-05) · [rulings](https://api.scryfall.com/cards/d5690329-feb8-49c0-8f59-ee13782e8d3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-04-12* — You don't choose a target creature at the time you cast Hypothesizzle. Rather, a second "reflexive" ability triggers when you discard a nonland card. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal. Notably, the triggered ability isn't a crime, but the reflexive triggered ability potentially is.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/178/hypothesizzle) · oracle_id `e4e6cb61-f673-4f36-b95c-c84a68459503` · printing: GRN #178 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hyrax Tower Scout
 
@@ -734,7 +837,10 @@
   > *"The panic is amusing, but the real fun comes when the spell passes and the villagers start looking for a scapegoat."*
   > *—Ludevic, necro-alchemist*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28465 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/isd/59/hysterical-blindness) · oracle_id `705531b3-77cc-4d1f-851b-45e03c029991` · printing: ISD #59 (2011-09-30) · [rulings](https://api.scryfall.com/cards/5aeaa757-e3b0-4606-a689-e8a20a686c3a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-09-22* — Hysterical Blindness's effect will continue to apply to a creature even if you (or a teammate) gains control of that creature later in the turn.
+  - *2011-09-22* — Only creatures controlled by your opponent when Hysterical Blindness resolves will get -4/-0. Creatures that enter or that an opponent gains control of later in the turn will be unaffected.
+- **Source flags:** [Scryfall](https://scryfall.com/card/isd/59/hysterical-blindness) · oracle_id `705531b3-77cc-4d1f-851b-45e03c029991` · printing: ISD #59 (2011-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hystrodon
 
@@ -747,6 +853,7 @@
   > Morph {1}{G}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 - **Keywords:** Morph, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20822 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/266/hystrodon) · oracle_id `17191fa9-e956-4f46-b541-465790125b6b` · printing: ONS #266 (2002-10-07) · [rulings](https://api.scryfall.com/cards/1c964473-7c54-4c2d-a3eb-dba01c842103/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hythonia the Cruel
@@ -760,4 +867,8 @@
   > When Hythonia becomes monstrous, destroy all non-Gorgon creatures.
 - **Keywords:** Monstrosity, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17870 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/91/hythonia-the-cruel) · oracle_id `48e3d832-2fe9-4ffd-8258-75451100dcfc` · printing: THS #91 (2013-09-27) · [rulings](https://api.scryfall.com/cards/a9fbc814-4281-4ac6-a844-68bcd848f229/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-09-15* — An ability that triggers when a creature becomes monstrous won't trigger if that creature isn't on the battlefield when its monstrosity ability resolves.
+  - *2013-09-15* — Monstrous isn't an ability that a creature has. It's just something true about that creature. If the creature stops being a creature or loses its abilities, it will continue to be monstrous.
+  - *2013-09-15* — Once a creature becomes monstrous, it can't become monstrous again. If the creature is already monstrous when the monstrosity ability resolves, nothing happens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/91/hythonia-the-cruel) · oracle_id `48e3d832-2fe9-4ffd-8258-75451100dcfc` · printing: THS #91 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

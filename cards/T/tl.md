@@ -18,7 +18,13 @@
 - **Oracle text:**
   > Exile target creature if it has any abilities other than keywords. (Flying, protection, and partner are all keywords. See rule 702 for details. Landfall and scry aren't keywords; they're an ability word and a keyword action respectively. Yes, there's a difference.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/553/tl;dr) · oracle_id `071de5f6-4b88-421c-847c-14efa774268d` · printing: MB2 #553 (2024-08-02) · [rulings](https://api.scryfall.com/cards/e6f78f7f-a5cb-4cc8-a23d-efb085cdd3c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+  - *2024-11-08* — Yes, a keyword action is technically also a keyword, but it’s not possible for a creature to have a keyword action without having some other ability.
+  - *2024-11-08* — You can target a creature with no abilities other than keywords with TL;DR, but when TL;DR resolves, it won’t exile that creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/553/tl;dr) · oracle_id `071de5f6-4b88-421c-847c-14efa774268d` · printing: MB2 #553 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tlincalli Hunter // Retrieve Prey
 

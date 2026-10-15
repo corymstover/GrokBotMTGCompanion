@@ -31,7 +31,14 @@
   > If a nontoken creature would die, exile that card with a blood counter on it instead.
   > As long as an exiled creature card with a blood counter on it has flying, Rayami has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, protection, reach, trample, and vigilance.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21940 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/48/rayami-first-of-the-fallen) · oracle_id `f196ae91-be5c-461b-a69f-aecb538923b4` · printing: C19 #48 (2019-08-23) · [rulings](https://api.scryfall.com/cards/6997ad62-f34c-4490-aee4-6d5c08e14709/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2019-08-23* — If a nontoken creature that isn't normally a creature (such as a Vehicle) would die, Rayami exiles it with a blood counter on it, although Rayami won't gain any of its abilities.
+  - *2019-08-23* — If an exiled creature card has one of the listed keywords only if certain conditions are met, the ability granting that keyword doesn't apply while the card is in exile. Rayami won't gain that ability from that card.
+  - *2019-08-23* — If an exiled creature card has one or more variants of the listed keywords (for example, protection from black or hexproof from white), Rayami gains those specific variants.
+  - *2019-08-23* — If multiple replacement effects try to change where a dying creature would go, the controller of the creature chooses one to apply. If Rayami's effect doesn't exile the creature, it won't have a blood counter on it, even if another effect exiles it.
+  - *2019-08-23* — Nontoken creatures that would die at the same time that Rayami leaves the battlefield are exiled with blood counters.
+  - *2019-08-23* — Rayami looks at all exiled creature cards with blood counters, not only those exiled with its ability. It even looks at those exiled by an ability of another player's Rayami, First of the Fallen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/48/rayami-first-of-the-fallen) · oracle_id `f196ae91-be5c-461b-a69f-aecb538923b4` · printing: C19 #48 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rayblade Trooper
 
@@ -44,7 +51,9 @@
   > Warp {1}{W} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)
 - **Keywords:** Warp
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15236 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/30/rayblade-trooper) · oracle_id `792da586-a687-428c-a10e-75431249df5b` · printing: EOE #30 (2025-08-01) · [rulings](https://api.scryfall.com/cards/c08c7bf9-a2ed-45c6-8b48-15122d9d9e37/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-07-25* — If Rayblade Trooper dies at the same time as one or more creatures you control with +1/+1 counters on them, its second ability will trigger for each of those creatures. This includes Rayblade Trooper itself if it had a +1/+1 counter on it when it died.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/30/rayblade-trooper) · oracle_id `792da586-a687-428c-a10e-75431249df5b` · printing: EOE #30 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ray Fillet, Man Ray
 
@@ -57,7 +66,10 @@
   > {2}, Remove a +1/+1 counter from a creature you control: Draw a card.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18361 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/49/ray-fillet-man-ray) · oracle_id `698098b8-b8e4-4e88-b13a-6b039579d192` · printing: TMT #49 (2026-03-06) · [rulings](https://api.scryfall.com/cards/14e0892c-a556-43c3-974f-6be44188da2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-01-27* — Mutagen tokens are a kind of predefined token. Each one is a colorless artifact with the artifact subtype Mutagen and the ability "{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."
+  - *2026-01-27* — Some spells and abilities that create Mutagen tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Mutagen token won't be created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/49/ray-fillet-man-ray) · oracle_id `698098b8-b8e4-4e88-b13a-6b039579d192` · printing: TMT #49 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ray Fillet, Wave Warrior
 
@@ -87,7 +99,11 @@
 - **Oracle text:**
   > Whenever you or a permanent you control becomes the target of a spell or ability an opponent controls, you may draw a card. You may draw an additional card if Rayne is enchanted.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20636 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/uds/43/rayne-academy-chancellor) · oracle_id `6933a7bf-10ed-46c8-a49c-ce200bce3eea` · printing: UDS #43 (1999-06-07) · [rulings](https://api.scryfall.com/cards/8ee6480c-7697-47e2-893b-ca88c0ab3376/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — If a spell or ability targets multiple permanents you control or targets you and one or more of your permanents, this triggers once for each such target.
+  - *2004-10-04* — The "if" in the card text does not have a special meaning. You check if this card is enchanted when the ability resolves and draw 1 or 2 cards.
+  - *2005-08-01* — When casting an Aura on this card, the triggered ability will resolve before the Aura enters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uds/43/rayne-academy-chancellor) · oracle_id `6933a7bf-10ed-46c8-a49c-ce200bce3eea` · printing: UDS #43 (1999-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ray of Command
 
@@ -98,7 +114,11 @@
 - **Flavor text** (DDM printing):
   > *"Heel."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17696 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddm/29/ray-of-command) · oracle_id `adf41d29-403d-4936-9689-3148d103e700` · printing: DDM #29 (2014-03-14) · [rulings](https://api.scryfall.com/cards/7ca8a427-5c20-4650-bbb5-9895e4f2c009/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — The creature returns to the opponent when the “until end of turn” effect wears off during the cleanup step. It taps during the Cleanup step (if it is not already tapped), so any abilities triggered off it tapping happen at that time.
+  - *2004-10-04* — You may target an untapped creature with Ray of Command.
+  - *2008-10-01* — You tap the creature when you lose control of it for any reason — because Ray of Command’s effect ends, or because a spell or ability causes another player to gain control of it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddm/29/ray-of-command) · oracle_id `adf41d29-403d-4936-9689-3148d103e700` · printing: DDM #29 (2014-03-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ray of Dissolution
 
@@ -109,6 +129,7 @@
 - **Flavor text** (THS printing):
   > *The works of one god last only as long as the patience of another.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22489 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/27/ray-of-dissolution) · oracle_id `509bfcbc-a59a-47c8-be78-29823fc010e3` · printing: THS #27 (2013-09-27) · [rulings](https://api.scryfall.com/cards/b55c31d1-6b05-4ea1-a444-51ad57ebcfa0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ray of Distortion
@@ -122,7 +143,14 @@
   > *"Now your staff is as twisted as your soul."*
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24424 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/72/ray-of-distortion) · oracle_id `1c838441-4713-49dd-97e6-4fb7155c36c8` · printing: C19 #72 (2019-08-23) · [rulings](https://api.scryfall.com/cards/ba1af997-bf99-4330-b24d-368615107ebc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/72/ray-of-distortion) · oracle_id `1c838441-4713-49dd-97e6-4fb7155c36c8` · printing: C19 #72 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ray of Enfeeblement
 
@@ -133,6 +161,7 @@
 - **Flavor text** (AFR printing):
   > *Erigan cried out in pain as a hideous weakness settled into his bones.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23667 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/116/ray-of-enfeeblement) · oracle_id `647e5639-6339-48af-af96-e48729e1cad3` · printing: AFR #116 (2021-07-23) · [rulings](https://api.scryfall.com/cards/ff5d948b-fd89-4b90-9b63-ad7da13b5f0e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ray of Erasure
@@ -147,6 +176,7 @@
   > *—Gerda Äagesdotter, Archmage of the Unseen*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21668 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/93/ray-of-erasure) · oracle_id `29d828fa-a813-48f6-8dcb-43f6047b88a3` · printing: ICE #93 (1995-06-03) · [rulings](https://api.scryfall.com/cards/5a09fc0b-7b9c-4283-8336-f2607f5ffaf5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ray of Frost
@@ -161,7 +191,12 @@
   > Enchanted creature doesn't untap during its controller's untap step.
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23912 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/68/ray-of-frost) · oracle_id `3de32046-454b-40be-b522-a3d1d5302b10` · printing: AFR #68 (2021-07-23) · [rulings](https://api.scryfall.com/cards/7edd5058-a964-4288-937b-84df6e9ba7c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-07-23* — If the enchanted creature is red (or if it becomes red), it loses all abilities that it had prior to the time Ray of Frost became attached to it. It will keep any abilities that were granted to it after Ray of Frost became attached to it.
+  - *2021-07-23* — If the enchanted creature is red and has a characteristic-defining ability that specifies its power and/or toughness, that ability will not have its effect. In that case, its power and/or toughness (as appropriate) become 0.
+  - *2021-07-23* — If the enchanted creature is red and has a characteristic-defining ability that specifies its types or colors, that ability will still have its effect because it's applied before the creature loses the ability.
+  - *2021-07-23* — Some noncreature permanents, such as Grand Master of Flowers, become creatures because of a static ability they have. If Ray of Frost becomes attached to such a creature and that creature is red or becomes red, that permanent will remain a creature even though it loses the ability that is making it a creature after that ability applies.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/68/ray-of-frost) · oracle_id `3de32046-454b-40be-b522-a3d1d5302b10` · printing: AFR #68 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ray of Revelation
 
@@ -175,7 +210,14 @@
   > *—Tomb inscription of Saint Raban*
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21055 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dka/17/ray-of-revelation) · oracle_id `4620bfa8-7198-44ae-a162-51a19ca0f555` · printing: DKA #17 (2012-02-03) · [rulings](https://api.scryfall.com/cards/d7e2c5a4-cf92-46bd-9033-8036436488cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dka/17/ray-of-revelation) · oracle_id `4620bfa8-7198-44ae-a162-51a19ca0f555` · printing: DKA #17 (2012-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ray of Ruin
 
@@ -188,4 +230,5 @@
   > *—Akal Pakal, First Steward of Oteclan*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25180 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/117/ray-of-ruin) · oracle_id `e36b78ed-4e3e-406d-85b3-fe0deb493418` · printing: LCI #117 (2023-11-17) · [rulings](https://api.scryfall.com/cards/d440d90e-ac7e-4715-971a-700c977c7fde/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

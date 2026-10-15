@@ -53,6 +53,7 @@
   > *Not all victories require defeat.*
   > *—Onean idiom*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16030 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5ed/65/truce) · oracle_id `fe4aa72b-f176-461a-aca0-1519721609b2` · printing: 5ED #65 (1997-03-24) · [rulings](https://api.scryfall.com/cards/de4f53fc-69d7-49fb-885b-4cc02bf5facc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Truck Toss
@@ -66,6 +67,7 @@
   > *"NO! I LOVE TACOS!"*
   > *—Hulk*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25076 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/157/truck-toss) · oracle_id `7d765055-da62-43f7-9580-98e9d164753b` · printing: MSH #157 (2026-06-26) · [rulings](https://api.scryfall.com/cards/60f02fbf-1416-48a3-bf94-f27509f6983a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trudge Garden
@@ -111,6 +113,7 @@
 - **Flavor text** (10E printing):
   > *So great is his certainty that mere facts cannot shake it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21645 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/53/true-believer) · oracle_id `5a0cd4dd-2212-4408-819e-0cb7c150418b` · printing: 10E #53 (2007-07-13) · [rulings](https://api.scryfall.com/cards/85a9c5c4-47d1-4b87-8cbd-2212ee6c5887/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### True Conviction
@@ -135,6 +138,7 @@
   > Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20714 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/267/true-faith-censer) · oracle_id `330f2e60-810d-4fe0-9a35-b3f2b29e3e2a` · printing: SOI #267 (2016-04-08) · [rulings](https://api.scryfall.com/cards/815eb91c-06fa-4362-803e-e9bf7d374856/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Truefire Captain
@@ -147,7 +151,13 @@
   > Whenever this creature is dealt damage, it deals that much damage to target player.
 - **Keywords:** Mentor
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12802 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/235/truefire-captain) · oracle_id `3677e743-8d3d-4ec7-8bfe-21e36979a79b` · printing: RVR #235 (2024-01-12) · [rulings](https://api.scryfall.com/cards/eddcf0fd-bcbb-4ce9-ab94-9d4b81c0222d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2018-10-05* — If the creature with mentor leaves the battlefield with mentor on the stack, use its power as that creature last existed on the battlefield to determine whether the target creature has less power.
+  - *2018-10-05* — If the target creature’s power is no longer less than the attacking creature’s power as the ability resolves, mentor doesn’t add a +1/+1 counter. For example, if two 3/3 creatures with mentor attack and both mentor triggers target the same 2/2 creature, the first to resolve puts a +1/+1 counter on it and the second does nothing.
+  - *2018-10-05* — If your life total is brought to 0 or less at the same time that Truefire Captain is dealt damage, you lose the game before its triggered ability goes on the stack.
+  - *2018-10-05* — Mentor compares the power of the creature with mentor with that of the target creature at two different times: once as the triggered ability is put onto the stack, and once as the triggered ability resolves. If you wish to raise a creature’s power so its mentor ability can target a bigger creature, the last chance you have to do so is during the beginning of combat step.
+  - *2018-10-05* — Truefire Captain’s last ability will trigger even if it is dealt lethal damage. For example, if it’s dealt damage by a 7/7 creature it’s blocking, its ability will trigger and Truefire Captain will deal 7 damage to the target player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/235/truefire-captain) · oracle_id `3677e743-8d3d-4ec7-8bfe-21e36979a79b` · printing: RVR #235 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Truefire Paladin
 
@@ -160,6 +170,7 @@
   > {R}{W}: This creature gains first strike until end of turn.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25352 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddl/8/truefire-paladin) · oracle_id `2a8a239c-7cc7-48d5-b34b-60b0da4e4b20` · printing: DDL #8 (2013-09-06) · [rulings](https://api.scryfall.com/cards/a42906c1-cf32-4c14-b08a-d800d1858d8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trueheart Duelist
@@ -172,7 +183,13 @@
   > Embalm {2}{W} ({2}{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Human Warrior with no mana cost. Embalm only as a sorcery.)
 - **Keywords:** Embalm
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25811 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/35/trueheart-duelist) · oracle_id `a0185db5-8988-4f63-8f3c-a19b4807a431` · printing: AKH #35 (2017-04-28) · [rulings](https://api.scryfall.com/cards/628f5230-6c0d-4f24-b89a-7f3d443511f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-04-18* — For each card with embalm, a corresponding game play supplement token can be found in some Amonkhet booster packs. These supplements are not required to play with cards with embalm; you can use the same items to represent an embalmed token as you would any other token.
+  - *2017-04-18* — The token copies exactly what was printed on the original card and nothing else. It doesn't copy any information about the object the card was before it was put into your graveyard.
+  - *2017-04-18* — The token is a Zombie in addition to its other types and is white instead of its other colors. It has no mana cost, and thus its mana value is 0. These are copiable values of the token that other effects may copy.
+  - *2017-07-14* — If a spell or ability puts a creature card with embalm into your graveyard during your main phase, you'll have priority immediately after that spell or ability resolves. You can activate the creature card's embalm ability before any player can exile it with an effect, such as that of Crook of Condemnation, if it's legal for you to do so.
+  - *2017-07-14* — Once you've activated an embalm ability, the card is immediately exiled. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/35/trueheart-duelist) · oracle_id `a0185db5-8988-4f63-8f3c-a19b4807a431` · printing: AKH #35 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trueheart Twins
 
@@ -186,7 +203,13 @@
   > *Shoulder to shoulder until blade must turn against blade.*
 - **Keywords:** Exert
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27436 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/153/trueheart-twins) · oracle_id `5d3be0d2-0940-4904-9f12-de592c990bdb` · printing: AKH #153 (2017-04-28) · [rulings](https://api.scryfall.com/cards/ac510911-1a65-4509-b6c9-ddac1950c838/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-04-18* — All cards in the Amonkhet set that let you exert a creature let you do so as you declare it as an attacking creature, as do some of the cards in the Hour of Devastation set. You can't do so later in combat, and creatures put onto the battlefield attacking can't be exerted. Any abilities that trigger on exerting an attacking creature will resolve before blockers are declared.
+  - *2017-04-18* — If an exerted creature is already untapped during your next untap step (most likely because it had vigilance or an effect untapped it), exert's effect preventing it from untapping expires without having done anything.
+  - *2017-04-18* — If you gain control of another player's creature until end of turn and exert it, it will untap during that player's untap step.
+  - *2017-04-18* — Some cards have abilities that trigger whenever you exert any creature. These abilities trigger when you exert that creature or any other creature you control.
+  - *2017-04-18* — You can't exert a creature unless an effect allows you to do so. Similar effects that "tap and freeze" a creature (such as that of Decision Paralysis) don't exert that creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/153/trueheart-twins) · oracle_id `5d3be0d2-0940-4904-9f12-de592c990bdb` · printing: AKH #153 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### True Identity
 
@@ -197,7 +220,20 @@
   > Disguise {W} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)
 - **Keywords:** Disguise, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17592 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/16/true-identity) · oracle_id `901d3027-4394-481e-9a0e-dec4513d9f88` · printing: MKC #16 (2024-02-09) · [rulings](https://api.scryfall.com/cards/979c3262-7680-49a3-b0dc-12154e44c317/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2024-02-02* — A disguise ability lets you cast a card face down by paying {3} and announcing that you are using a disguise ability. Any time you have priority, you can turn a face-down permanent with disguise face up by paying its disguise cost.
+  - *2024-02-02* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent and Auras and Equipment that were attached to that permanent aren’t affected unless the new characteristics of the object change the legality of those targets or attachments.
+  - *2024-02-02* — Any time you have priority, you may turn the face-down creature face up by revealing what its disguise cost is and paying that cost. This is a special action. It doesn’t use the stack and can’t be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2024-02-02* — At any time, you can look at a face-down spell or permanent you control. You can’t look at face-down permanents or spells you don’t control unless an effect instructs or allows you to do so.
+  - *2024-02-02* — Because face-down creatures don’t have a name, they can’t have the same name as any other creature, even another face-down creature.
+  - *2024-02-02* — Because the permanent is on the battlefield both before and after it’s turned face up, turning a permanent face up doesn’t cause any enters-the-battlefield abilities to trigger.
+  - *2024-02-02* — If a face-down creature loses its abilities, it can’t be turned face up with a disguise ability because it will no longer have a disguise ability (or a disguise cost) once face up.
+  - *2024-02-02* — If a face-down spell leaves the stack and goes to any zone other than the battlefield (if it was countered, for example), you must reveal it. Similarly, if a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or the game ends.
+  - *2024-02-02* — The creature spell is a 2/2 creature spell with ward {2} that has no name, mana cost, or creature types. The resulting creature is a 2/2 creature with ward {2} that has no name, mana cost, or creature types. Both the spell and the resulting creature are colorless and have a mana value of 0. Other effects that apply to the spell or creature can still grant it any characteristics it doesn’t have or change the characteristics it does have.
+  - *2024-02-02* — The face-down spell has no mana cost and a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3} to cast it. This is an alternative cost.
+  - *2024-02-02* — Turning a permanent face up or face down doesn’t change whether that permanent is tapped or untapped.
+  - *2024-02-02* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/16/true-identity) · oracle_id `901d3027-4394-481e-9a0e-dec4513d9f88` · printing: MKC #16 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### True Love's Kiss
 
@@ -210,7 +246,9 @@
   > *"Be careful, dear. Some people deserve their curses."*
   > *—Marawen, barrow witch*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17271 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/34/true-loves-kiss) · oracle_id `9506aba2-5e1d-48c5-ace8-4beb824ad8af` · printing: ELD #34 (2019-10-04) · [rulings](https://api.scryfall.com/cards/23a4bac2-f6cb-4712-8510-a63657c43a5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-10-04* — If the target artifact or enchantment is an illegal target by the time True Love's Kiss tries to resolve, the spell won't resolve. You won't draw a card or live happily ever after.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/34/true-loves-kiss) · oracle_id `9506aba2-5e1d-48c5-ace8-4beb824ad8af` · printing: ELD #34 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### True-Name Nemesis
 
@@ -221,7 +259,9 @@
   > As this creature enters, choose a player.
   > This creature has protection from the chosen player.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11449 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/136/true-name-nemesis) · oracle_id `112322ad-8f66-4cd4-98a1-f425d61a69ce` · printing: BBD #136 (2018-06-08) · [rulings](https://api.scryfall.com/cards/2da0b45b-0ca9-40c4-bc7f-791039bc1876/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — Protection from a player means that True-Name Nemesis has protection from each object controlled by that player. If an object has no controller (such as a card in a graveyard), its owner is considered its controller for this purpose.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/136/true-name-nemesis) · oracle_id `112322ad-8f66-4cd4-98a1-f425d61a69ce` · printing: BBD #136 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### True Polymorph
 
@@ -232,7 +272,15 @@
 - **Flavor text** (AFR printing):
   > *Maybe a little \*too\* convincing.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17372 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/80/true-polymorph) · oracle_id `8d24e181-74c1-4913-a18a-59378ec7d9e7` · printing: AFR #80 (2021-07-23) · [rulings](https://api.scryfall.com/cards/04a1f384-9266-425c-b739-09d74871fc7b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-07-23* — If an effect begins to apply to the first target permanent before it becomes a copy of another permanent, that effect will continue to apply.
+  - *2021-07-23* — If either target is an illegal target for True Polymorph as it resolves, the spell will do nothing.
+  - *2021-07-23* — If the first target becomes a creature the same turn it entered the battlefield, you can't attack with it or use any of its {T} abilities unless it has haste.
+  - *2021-07-23* — If the first target permanent copies a permanent that's copying something else, it will become whatever the second target is copying.
+  - *2021-07-23* — If the target permanent is an Equipment attached to a creature and it becomes a copy of a non-Equipment permanent, it becomes unattached. If it becomes a copy of an Equipment, it remains attached.
+  - *2021-07-23* — True Polymorph causes the first target permanent to copy the printed values of the second target permanent, including any copy and mutate effects that have been applied to it. It won't copy counters on that permanent or effects that have changed its power, toughness, types, color, and so on.
+  - *2021-07-23* — True Polymorph's effect does not have a duration. The copy effect it creates lasts as long as the first target remains on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/80/true-polymorph) · oracle_id `8d24e181-74c1-4913-a18a-59378ec7d9e7` · printing: AFR #80 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trufflesnout
 
@@ -246,6 +294,7 @@
 - **Flavor text** (M21 printing):
   > *Its exploits are the stuff of legends among local chefs and fuel for nightmares among the forest thallids.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24202 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/212/trufflesnout) · oracle_id `8a15841a-dcb6-454a-b865-43a067f42b4e` · printing: M21 #212 (2020-07-03) · [rulings](https://api.scryfall.com/cards/8bba47c1-a874-456e-bea3-e99e2d61cfba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trumpet Blast
@@ -257,7 +306,11 @@
 - **Flavor text** (M19 printing):
   > *The sound of the trumpets lights a fire in the hearts of the bold and snuffs the courage of the cowardly.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15968 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/165/trumpet-blast) · oracle_id `d3b408e7-4d39-47a3-b00c-846903f8ae77` · printing: M19 #165 (2018-07-13) · [rulings](https://api.scryfall.com/cards/c676a5b0-bd46-46b3-b71b-a50b86c9b0bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2009-10-01* — An "attacking creature" is one that has been declared as an attacker this combat, or one that was put onto the battlefield attacking this combat. Unless that creature leaves combat, it continues to be an attacking creature through the end of combat step, even if the player it was attacking has left the game, or the planeswalker it was attacking has left combat.
+  - *2009-10-01* — Even though Trumpet Blast affects only attacking creatures, the bonus will remain for the rest of the turn.
+  - *2014-09-20* — Only creatures that are attacking as Trumpet Blast resolves will receive the bonus. In other words, casting it before you've declared attackers usually won't do anything.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/165/trumpet-blast) · oracle_id `d3b408e7-4d39-47a3-b00c-846903f8ae77` · printing: M19 #165 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trumpeting Armodon
 
@@ -269,6 +322,7 @@
 - **Flavor text** (TMP printing):
   > *These are its last days. But it will not go quietly.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31281 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmp/262/trumpeting-armodon) · oracle_id `7fc3c2a5-2754-4237-8a37-cb3166c20c3c` · printing: TMP #262 (1997-10-14) · [rulings](https://api.scryfall.com/cards/38f94fd1-6f85-41ad-9674-f05cc893324f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trumpeting Carnosaur
@@ -318,7 +372,10 @@
   > *An elephant never forgives.*
 - **Keywords:** Rebound
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25144 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/187/trumpeting-herd) · oracle_id `69501650-ed48-4ebf-9287-b0338c5bc5d5` · printing: MH1 #187 (2019-06-14) · [rulings](https://api.scryfall.com/cards/b0f3b68e-f616-4687-bc2d-075165162cd1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-06-14* — Casting the card again due to rebound’s delayed triggered ability is optional. If you choose not to cast the card, or if you can’t because an effect prohibits it, the card will stay exiled. You won’t get another chance to cast it on a future turn. If you do cast the card, it’s put into its owner’s graveyard as normal once it resolves.
+  - *2019-06-14* — If a spell with rebound that you cast from your hand is countered for any reason, that spell won’t resolve and none of its effects will happen, including rebound. The spell will be put into its owner’s graveyard and you won’t get to cast it again on your next turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/187/trumpeting-herd) · oracle_id `69501650-ed48-4ebf-9287-b0338c5bc5d5` · printing: MH1 #187 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Truss, Chief Engineer
 
@@ -329,7 +386,16 @@
   > Whenever Truss, Chief Engineer enters or another creature dies, put a hack counter on Truss.
   > {2}, {T}, Remove X hack counters from Truss: Add or subtract X from a number or number word on target spell or permanent until end of turn. This effect can't reduce a number below 1 or a number word below one.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #30835 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/181/truss-chief-engineer) · oracle_id `e4f218b3-d96d-49c5-8dfa-8fcf993f795f` · printing: UNF #181 (2022-10-07) · [rulings](https://api.scryfall.com/cards/73b6f092-08b9-4c67-836a-28006ea3b2df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2022-10-07* — Indefinite articles such as “a” in “draw a card” aren’t number words and can’t be modified.
+  - *2022-10-07* — Note that you’re changing numbers, not digits. For example, if you remove two hack counters from Truss, you could change 10 to 12 or 8. You couldn’t change it to 30.
+  - *2022-10-07* — Truss’s last ability affects a single number or number word on the spell or permanent. It can be anything—power, toughness, something in rules text, the name of a card (Four Wishes, anyone?), collector number, and so on. Mark says you can even change the copyright date, but don’t tell the lawyers.
+  - *2022-10-07* — You can change the number of dice rolled for an effect only if the original instruction included a number word to describe how many dice to roll. You can’t change the “a” in “roll a six-sided die,” but you could change the “two” in “roll two six-sided dice.”
+  - *2022-10-07* — You can change the number of sides on a die. If you don’t have any thirteen-sided dice handy, you can use other dice to simulate the rolls.
+  - *2022-10-07* — You can change the numeral inside of a mana symbol, but you can’t modify the cost of a spell in time to pay less for it. It must already be on the stack to be a valid target for Truss’s ability.
+  - *2022-10-07* — You can’t change any instance of X.
+  - *2022-10-07* — You can’t use Truss’s last ability to change the 1 in Truss’s last ability to a 0. Nice try though.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/181/truss-chief-engineer) · oracle_id `e4f218b3-d96d-49c5-8dfa-8fcf993f795f` · printing: UNF #181 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trusted Advisor
 
@@ -342,7 +408,9 @@
 - **Flavor text** (SOK printing):
   > *Some of Minamo's students claimed he was as old as the knowledge he dispensed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21054 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sok/59/trusted-advisor) · oracle_id `430e4e74-33ee-49f2-aef5-6d09079c5eb7` · printing: SOK #59 (2005-06-03) · [rulings](https://api.scryfall.com/cards/ee63cba4-ab12-4adb-8463-d42edbf5794d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — If multiple effects modify your hand size, apply them in timestamp order. For example, if you put Null Profusion (an enchantment that says your maximum hand size is two) onto the battlefield and then put Trusted Advisor onto the battlefield, your maximum hand size will be four. However, if those permanents entered in the opposite order, your maximum hand size would be two.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sok/59/trusted-advisor) · oracle_id `430e4e74-33ee-49f2-aef5-6d09079c5eb7` · printing: SOK #59 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trusted Forcemage
 
@@ -354,6 +422,7 @@
   > As long as this creature is paired with another creature, each of those creatures gets +1/+1.
 - **Keywords:** Soulbond
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30827 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/avr/199/trusted-forcemage) · oracle_id `663ef3c9-f897-4875-b029-82ee6672db00` · printing: AVR #199 (2012-05-04) · [rulings](https://api.scryfall.com/cards/3ee66ef9-10a7-4aab-88f7-84956811cc6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trusted Pegasus
@@ -368,6 +437,7 @@
   > *"Would you give your life to save this world?" Gideon murmured. The pegasus snorted and spread wide its mighty wings.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17589 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/77/trusted-pegasus) · oracle_id `18729459-8669-4c56-a78d-fd5982c3b2ac` · printing: CLU #77 (2024-02-23) · [rulings](https://api.scryfall.com/cards/4ef0fcc8-a7be-4239-9a63-92e0c647de35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trustworthy Scout
@@ -380,6 +450,7 @@
 - **Flavor text** (MH1 printing):
   > *"Don't worry. If you lose me I'll be right behind you."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32219 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/33/trustworthy-scout) · oracle_id `51d7b287-90d5-4e3b-a82c-6b98996154e1` · printing: MH1 #33 (2019-06-14) · [rulings](https://api.scryfall.com/cards/8a65f118-3812-4698-8f43-669ceb6b7982/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trusty Boomerang
@@ -394,6 +465,7 @@
   > *—Sokka*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14223 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/260/trusty-boomerang) · oracle_id `3c032e74-69c6-48ca-95d4-51aa3d894c14` · printing: TLA #260 (2025-11-21) · [rulings](https://api.scryfall.com/cards/df99a166-6d58-4d92-9037-2fdfbaf65629/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trusty Companion
@@ -408,7 +480,13 @@
   > *It shows affection an automaton never could.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31320 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/33/trusty-companion) · oracle_id `bd8c633c-ba99-47ac-a1d1-9e15aa948933` · printing: KLD #33 (2016-09-30) · [rulings](https://api.scryfall.com/cards/0a79eefb-50a4-41c4-93cf-378fa546f539/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2016-09-20* — Although Trusty Companion can't attack alone, other attacking creatures don't have to attack the same player or planeswalker. For example, Trusty Companion could attack an opponent and another creature could attack a planeswalker that opponent controls.
+  - *2016-09-20* — If a creature that can't attack alone also must attack if able, its controller must attack with it and another creature if able.
+  - *2016-09-20* — If you control more than one creature that can't attack alone, they can attack together, even if no other creatures attack.
+  - *2016-09-20* — In a Two-Headed Giant game, Trusty Companion can attack along with a creature controlled by your teammate, even if no other creatures you control attack.
+  - *2016-09-20* — Trusty Companion can be declared as an attacker only if another creature is declared as an attacker at the same time. Once it's attacking, removing the other creature won't cause Trusty Companion to stop attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/33/trusty-companion) · oracle_id `bd8c633c-ba99-47ac-a1d1-9e15aa948933` · printing: KLD #33 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trusty Machete
 
@@ -422,6 +500,7 @@
   > *—Yon Basrel, Oran-Rief survivalist*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21030 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/zen/209/trusty-machete) · oracle_id `394fae8f-3757-4e08-b97c-5d7c451f4e72` · printing: ZEN #209 (2009-10-02) · [rulings](https://api.scryfall.com/cards/86c9838e-aa72-49fc-bae2-f880bcbc9313/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trusty Packbeast
@@ -435,6 +514,7 @@
   > *"Margaret has traveled with me to the end of the world and back."*
   > *—Hewen Frit, merchant*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20671 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/53/trusty-packbeast) · oracle_id `12c7289f-da53-403a-a607-227f43c7e171` · printing: CMR #53 (2020-11-20) · [rulings](https://api.scryfall.com/cards/0fcfe1b5-e35b-4a23-8ca8-4dee2ef94f32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trusty Retriever
@@ -449,6 +529,7 @@
 - **Flavor text** (JMP printing):
   > *Wipe away the slobber and it's as good as new, give or take a few bite marks.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13082 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/8/trusty-retriever) · oracle_id `06a2a50d-f54f-4eb7-9cf8-ce37d802794a` · printing: JMP #8 (2020-07-17) · [rulings](https://api.scryfall.com/cards/ab4eb490-acd0-4162-8e8a-7e7ff003d0f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Truth or Consequences
@@ -459,6 +540,7 @@
   > Secret council — Each player secretly votes for truth or consequences, then those votes are revealed. You draw cards equal to the number of truth votes. Then choose an opponent at random. Truth or Consequences deals 3 damage to that player for each consequences vote.
 - **Keywords:** Secret council
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11078 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/163/truth-or-consequences) · oracle_id `58d944fb-d1ba-4141-baaf-37dd10978656` · printing: WHO #163 (2023-10-13) · [rulings](https://api.scryfall.com/cards/ce8771cc-1042-47b1-b4fa-459c3eeece04/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Truth or Dare
@@ -471,7 +553,11 @@
   > • Dare — Mill all but the bottom ten cards of that player's library. (To mill, put the top card of that library into its owner's graveyard.)
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/32/truth-or-dare) · oracle_id `0deeaca6-730a-425a-a117-875c928c9913` · printing: CMB2 #32 (2021-08-20) · [rulings](https://api.scryfall.com/cards/6cdfd834-edf0-4ed0-89ba-5f39c1a15cf2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-11-12* — If you need to choose a card in your hand without revealing it to other players (most likely because an effect instructs each player to discard a card), you can hide your hand while choosing one or use any other method to keep your choice secret.
+  - *2019-11-12* — One a spell or ability has had another player choose modes for it, a player can’t choose to not finish casting or activating that spell or ability unless there’s no way for the player to complete the process. For example, the player can’t choose to not activate mana abilities to pay for the spell.
+  - *2019-11-12* — While playing with your hand revealed, you can still reveal cards to pay a cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/32/truth-or-dare) · oracle_id `0deeaca6-730a-425a-a117-875c928c9913` · printing: CMB2 #32 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Truth or Tale
 
@@ -480,4 +566,6 @@
 - **Oracle text:**
   > Reveal the top five cards of your library and separate them into two piles. An opponent chooses one of those piles. Put a card from the chosen pile into your hand, then put all other cards revealed this way on the bottom of your library in any order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16273 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/89/truth-or-tale) · oracle_id `10674c2f-7920-4505-b8d5-e96f3da1cda3` · printing: TSP #89 (2006-10-06) · [rulings](https://api.scryfall.com/cards/5b3e301a-02a5-4d92-9cdd-5ab877bf8ed3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-09-25* — Here’s how this works: Step 1: You reveal the top five cards of your library. Step 2: You separate those cards into two piles. (A pile can have zero cards.) Step 3: An opponent of your choice chooses one of those piles. Step 4: You choose one of the cards in the chosen pile. Step 5: You put the chosen card in your hand. Step 6: You put all other revealed cards (from both piles) on the bottom of your library in any order.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/89/truth-or-tale) · oracle_id `10674c2f-7920-4505-b8d5-e96f3da1cda3` · printing: TSP #89 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -169,7 +169,12 @@
   > Equip {1}{B}
 - **Keywords:** Equip, Learn
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17463 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/82/poets-quill) · oracle_id `f474d421-5fd0-4d76-95cb-4824a2381a29` · printing: STX #82 (2021-04-23) · [rulings](https://api.scryfall.com/cards/e7006f43-0b10-4693-b06f-e7cf86ab4129/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-04-16* — If a card is brought into the game from outside the game, it will stay in the game until it ends or until its owner leaves the game, whichever comes first.
+  - *2021-04-16* — If instructed to learn, you may do nothing. Discarding a card and putting a Lesson card into your hand are both optional.
+  - *2021-04-16* — If you bring a card into the game from outside the game in a Constructed tournament (or a Constructed game played under tournament conditions), you may select only a card from your sideboard. In casual Constructed games, the card comes from your collection.
+  - *2021-04-16* — If you bring a card into the game from outside the game in a Sealed Deck or Booster Draft event, you may select only a card that is in the card pool that you built your deck from.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/82/poets-quill) · oracle_id `f474d421-5fd0-4d76-95cb-4824a2381a29` · printing: STX #82 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pointed Discussion
 
@@ -195,7 +200,14 @@
   > {3}{G}, Sacrifice this enchantment: Search your library for up to X basic land cards, where X is your speed. Put those cards onto the battlefield tapped, then shuffle.
 - **Keywords:** Start your engines!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13318 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/175/point-the-way) · oracle_id `0ffe9c8b-e0cb-4a29-bc14-649dbec5d1f3` · printing: DFT #175 (2025-02-14) · [rulings](https://api.scryfall.com/cards/8fd4c73d-0e9a-4ffe-8062-f2f4d0e601fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-02-07* — A player “has max speed” if their speed is 4.
+  - *2025-02-07* — Each player tracks their speed (or lack thereof) separately. Increasing your speed has no effect on whether another player has speed.
+  - *2025-02-07* — If an effect needs to know what a player’s speed is and that player doesn’t have a speed, their speed is considered 0.
+  - *2025-02-07* — Start your engines! isn’t a triggered ability. Increasing your speed to 1 is something that happens as a state-based action as soon as you control a permanent with the ability. Notably, this includes gaining control of a permanent with the ability that another player controls.
+  - *2025-02-07* — Your speed doesn’t change until a spell or ability says so, such as the inherent triggered ability that cares about opponents losing life during your turn. Notably, losing control of permanents with start your engines! doesn’t affect your speed.
+  - *2025-02-07* — “Max speed — [ability]” means “As long as you have max speed, this object has [ability].” If the granted ability functions in a zone other than the battlefield, the max speed ability does too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/175/point-the-way) · oracle_id `0ffe9c8b-e0cb-4a29-bc14-649dbec5d1f3` · printing: DFT #175 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Point to the Scoreboard
 
@@ -206,6 +218,7 @@
   > Exile Point to the Scoreboard.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/CU11/point-to-the-scoreboard) · oracle_id `0c9fe04c-ca8f-4087-bf3f-c59c049e7fdc` · printing: UNK #CU11 (2023-02-17) · [rulings](https://api.scryfall.com/cards/6bc5cbf3-2491-4964-a640-1802c6f50fe7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pointy Finger of Doom
@@ -217,7 +230,12 @@
 - **Flavor text** (UND printing):
   > *Nails and destruction on point.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/und/81/pointy-finger-of-doom) · oracle_id `6cd1be31-f009-4e88-a81c-23d3b664e296` · printing: UND #81 (2020-02-29) · [rulings](https://api.scryfall.com/cards/aab83fbe-c8b7-448c-81b6-b2e46b9f5f95/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-02-29* — If you create a token that’s a copy of Pointy Finger of Doom, spin whatever object you’re using to represent the token. Do not use living beings to represent the token.
+  - *2020-02-29* — Once the Finger starts spinning, no permanents can be moved until after the ability completely resolves.
+  - *2020-02-29* — Pointy Finger of Doom must rotate at least 360 degrees to count. There is no penalty for failing to spin it properly other than you must try again.
+  - *2020-02-29* — Pointy Finger of Doom won’t destroy itself, even though it is very close to itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/und/81/pointy-finger-of-doom) · oracle_id `6cd1be31-f009-4e88-a81c-23d3b664e296` · printing: UND #81 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Poised Practitioner
 
@@ -231,7 +249,9 @@
   > *—Narset*
 - **Keywords:** Flurry, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18956 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/18/poised-practitioner) · oracle_id `e08debdc-2db5-4562-8a02-4158bfc0db88` · printing: TDM #18 (2025-04-11) · [rulings](https://api.scryfall.com/cards/bb25366d-a647-4c5e-bcc7-7e54659aacbd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-04-04* — Spells that were cast before a permanent with flurry count. If that permanent was the first spell you cast that turn, the next spell you cast that turn is your second spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/18/poised-practitioner) · oracle_id `e08debdc-2db5-4562-8a02-4158bfc0db88` · printing: TDM #18 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Poison Arrow
 
@@ -242,6 +262,7 @@
 - **Flavor text** (PTK printing):
   > *In ancient China, not wearing armor could be a fatal mistake. Guan Yu, Zhou Yu, Sun Ce, and other heros were struck by poison arrows.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31754 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/80/poison-arrow) · oracle_id `6d920c99-8a85-4b20-97c2-7aa0c79ae70a` · printing: PTK #80 (1999-05-01) · [rulings](https://api.scryfall.com/cards/6b7b5f34-c250-484e-9bae-94789b2a87fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Poisonbelly Ogre
@@ -254,7 +275,9 @@
 - **Flavor text** (GPT printing):
   > *Some claim it's a failed Simic experiment, others say a Golgari creation. Both guilds deny all responsibility, while secretly studying its strange virulence.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28319 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/57/poisonbelly-ogre) · oracle_id `38872730-0fd1-414e-8015-29d1bc649913` · printing: GPT #57 (2006-02-03) · [rulings](https://api.scryfall.com/cards/a168b953-eac4-472e-ac74-598febb05f83/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-02-01* — The controller of the creature that entered loses the life. This may or may not be the same player as Poisonbelly Ogre's controller.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/57/poisonbelly-ogre) · oracle_id `38872730-0fd1-414e-8015-29d1bc649913` · printing: GPT #57 (2006-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Poison-Blade Mentor
 
@@ -269,6 +292,7 @@
   > *—Pierre Bellec*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12539 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/288/poison-blade-mentor) · oracle_id `60a3345c-3234-4f4b-baab-df12dad6b44b` · printing: ACR #288 (2024-07-05) · [rulings](https://api.scryfall.com/cards/e3efb96a-a722-493a-be0e-a64583f8c3df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Poison Counter
@@ -278,6 +302,7 @@
 - **Oracle text:**
   > (A player with ten or more poison counters loses the game.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tecc/13/poison-counter) · oracle_id `60acebe2-e1e5-478a-ab88-6a9c1409bca5` · printing: TECC #13 (2026-01-23) · [rulings](https://api.scryfall.com/cards/8a9cb417-8709-4336-be36-2fb0cea31fe1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Poison Dart Frog
@@ -308,7 +333,9 @@
   > *"Does this taste like hemlock to you?"*
 - **Keywords:** Infusion
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24386 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/92/poisoners-apprentice) · oracle_id `4b0e5626-0282-42e5-abef-a079b26a8e5f` · printing: SOS #92 (2026-04-24) · [rulings](https://api.scryfall.com/cards/3755a2e9-af55-4625-a006-2a86c7893a96/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — The infusion ability will trigger when Poisoner's Apprentice enters regardless of whether you've gained life this turn, and you'll choose a target. As that ability resolves, it will check to see if you've gained life this turn. If you have, the target creature will get -4/-4 until end of turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/92/poisoners-apprentice) · oracle_id `4b0e5626-0282-42e5-abef-a079b26a8e5f` · printing: SOS #92 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Poison the Blade
 
@@ -320,6 +347,7 @@
 - **Flavor text** (CLB printing):
   > *"Breath of basilisk, sting of scorpion, or medusa's tears? All may be distilled, for a price."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11304 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/248/poison-the-blade) · oracle_id `8af22295-0d6b-4cdc-b815-eb81ade241ec` · printing: CLB #248 (2022-06-10) · [rulings](https://api.scryfall.com/cards/3de4bf10-a502-4748-9118-5459684542a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Poison the Cup
@@ -333,7 +361,12 @@
   > *Dark schemes cut down what armies cannot.*
 - **Keywords:** Foretell, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11052 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/103/poison-the-cup) · oracle_id `58020778-554c-4af6-8484-0b90f64bc5d9` · printing: KHM #103 (2021-02-05) · [rulings](https://api.scryfall.com/cards/7fb94456-5266-47db-b514-a0e17e34b771/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-02-05* — Because exiling a card with foretell from your hand is a special action, you can do so any time you have priority during your turn, including in response to spells and abilities. Once you announce you’re taking the action, no other player can respond by trying to remove the card from your hand.
+  - *2021-02-05* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player’s turn. In most cases, if you foretell a card that isn’t an instant (or doesn’t have flash), you’ll have to wait until your next turn to cast it.
+  - *2021-02-05* — If the target creature is an illegal target as Poison the Cup tries to resolve, it won’t resolve and none of its effects will happen. You won’t scry 2 if Poison the Cup was foretold.
+  - *2021-02-05* — If you’re casting a foretold card from exile for its foretell cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/103/poison-the-cup) · oracle_id `58020778-554c-4af6-8484-0b90f64bc5d9` · printing: KHM #103 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Poison the Waters
 
@@ -346,6 +379,7 @@
 - **Flavor text** (FIN printing):
   > *"Hee-hee... Nothing beats the sweet music of hundreds of voices screaming in unison! Uwee-hee-hee!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13166 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/111/poison-the-waters) · oracle_id `2c9bf40b-ddcb-4f46-a81e-56b91dfc784f` · printing: FIN #111 (2025-06-13) · [rulings](https://api.scryfall.com/cards/ff2bafe7-4d0f-464d-b7ba-55a54366fc68/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Poison the Well
@@ -357,6 +391,7 @@
 - **Flavor text** (SHM printing):
   > *Wells that provide clean, unhaunted water are rare enough to be worth building an entire town around.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29520 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/193/poison-the-well) · oracle_id `a47ae84f-dcbc-4a60-9266-c1a02f92e7f8` · printing: SHM #193 (2008-05-02) · [rulings](https://api.scryfall.com/cards/cb86eeec-d50f-4823-86bd-35437926a6e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Poison-Tip Archer
@@ -388,7 +423,16 @@
   > If you would roll a d20, you may instead flip a coin. Tails is 1 and heads is 20. (It counts as flipping a coin, not rolling a die.)
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/600/pokey-the-scallywagg) · oracle_id `146fe477-129f-42af-825d-6e524089fd5a` · printing: MB2 #600 (2024-08-02) · [rulings](https://api.scryfall.com/cards/320ca807-2c10-49cb-ad14-2ad1f4593cef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-11-08* — Each time a spell or ability instructs you to flip a coin, you may apply Pokey’s second ability as a replacement effect to roll a d20 instead. If the result of that roll is 1-10, the original spell or ability sees the result of the flip as tails. If the result of the roll is 11-20, the original spell or ability sees the result of the flip as heads. If the result of the roll is somehow less than 1 or greater than 20, the original spell or ability doesn’t see heads nor tails (you’ll have to read the effect carefully then to determine what happens).
+  - *2024-11-08* — Each time a spell or ability instructs you to roll a d20, you may apply Pokey’s third ability as a replacement effect to flip a coin instead. If the coin comes up heads, the original spell or ability sees the result of the roll as 20. If the coin comes up tails, the original spell or ability sees the result of the roll as 1. If the coin somehow doesn’t come up heads or tails . . . good luck!
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — If you apply Pokey’s second ability as a replacement effect to flipping a coin, other than the original effect that called for the coin flip, all other game effects, including replacement effects and triggered abilities, recognize that you rolled a d20 rather than flipped a coin. For example, you can then apply the replacement effect of Pixie Guide but not the replacement effect of Krark’s Thumb. And after the roll, the ability of Brazen Dwarf would trigger, while the first ability of Tavern Scoundrel would not trigger.
+  - *2024-11-08* — If you apply Pokey’s third ability as a replacement effect to rolling a d20, other than the original effect that called for the d20 roll, all other game effects, including replacement effects and triggered abilities, recognize that you flipped a coin rather than rolled a d20. For example, you can then apply the replacement effect of Krark’s Thumb but not the replacement effect of Pixie Guide. And after the roll, the ability of Tavern Scoundrel would trigger, while the first ability of Brazen Dwarf would not trigger.
+  - *2024-11-08* — If you really want to, you can apply the effects of both Pokey’s second and third abilities to a coin flip or a d20 roll. For example, if you would flip a coin, you can choose to replace that flip with a d20 roll, and you can choose to replace that d20 roll with a coin flip. (Since you can only apply a replacement effect to a single event once, the nonsense stops there.) In that case, you’d flip a coin. If it’s heads, that would count as 20 for the replaced d20 roll, which would count as heads for the originally replaced coin flip. Great job.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/600/pokey-the-scallywagg) · oracle_id `146fe477-129f-42af-825d-6e524089fd5a` · printing: MB2 #600 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Polar Kraken
 
@@ -404,7 +448,9 @@
   > *—Arna Kennerüd, skyknight*
 - **Keywords:** Trample, Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25891 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me1/44/polar-kraken) · oracle_id `d0ff30c8-ddb7-439d-b14d-c83fe3c8da87` · printing: ME1 #44 (2007-09-10) · [rulings](https://api.scryfall.com/cards/c4643512-6071-45c4-bffc-8feec5bb094f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Paying cumulative upkeep is always optional. If it's not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can't be made. For example, if a permanent with "cumulative upkeep {1}" has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either pay {4} or sacrifice the permanent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me1/44/polar-kraken) · oracle_id `d0ff30c8-ddb7-439d-b14d-c83fe3c8da87` · printing: ME1 #44 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Polis Crusher
 
@@ -417,7 +463,13 @@
   > Whenever this creature deals combat damage to a player, if this creature is monstrous, destroy target enchantment that player controls.
 - **Keywords:** Protection, Trample, Monstrosity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23948 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/198/polis-crusher) · oracle_id `ffd6f55f-2592-46a5-94da-cb9424783004` · printing: THS #198 (2013-09-27) · [rulings](https://api.scryfall.com/cards/80874006-d057-49b8-981c-1d685ad1474b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2013-09-15* — An ability that triggers when a creature becomes monstrous won't trigger if that creature isn't on the battlefield when its monstrosity ability resolves.
+  - *2013-09-15* — Monstrous isn't an ability that a creature has. It's just something true about that creature. If the creature stops being a creature or loses its abilities, it will continue to be monstrous.
+  - *2013-09-15* — Once a creature becomes monstrous, it can't become monstrous again. If the creature is already monstrous when the monstrosity ability resolves, nothing happens.
+  - *2013-09-15* — Polis Crusher must be monstrous as it deals combat damage to a player in order for its last ability to trigger. Once the ability triggers, it resolves even if Polis Crusher isn't on the battlefield at that time.
+  - *2013-09-15* — “Protection from enchantments” means that Polis Crusher can't be enchanted, it can't be targeted by Aura spells or by abilities of enchantments, all damage that would be dealt to it by enchantments is prevented, and it can't be blocked by enchantment creatures. Notably, it doesn't have protection from enchanted creatures (unless those creatures are also enchantments).
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/198/polis-crusher) · oracle_id `ffd6f55f-2592-46a5-94da-cb9424783004` · printing: THS #198 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Polis the Planeshifter
 
@@ -430,6 +482,7 @@
 - **Flavor text** (UNK printing):
   > *Prize Card for the Unknown event at MagicCon Minneapolis, May 7, 2023.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/MR01/polis-the-planeshifter) · oracle_id `0392f4ee-0614-4330-96ba-36d310c818e4` · printing: UNK #MR01 (2023-05-07) · [rulings](https://api.scryfall.com/cards/7e6e84d8-f40d-4e58-b795-818a69121d01/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Political Trickery
@@ -442,6 +495,7 @@
   > *"Politics is a game—move a stone here, move a stone there—except sometimes the stones bleed."*
   > *—Shauku, Endbringer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18075 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/81/political-trickery) · oracle_id `e0eaa43f-1c46-4299-9ecd-5f4a32d292cd` · printing: MIR #81 (1996-10-08) · [rulings](https://api.scryfall.com/cards/3e56e720-5e8b-4685-969c-e073de78b9a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Political Triumph
@@ -453,6 +507,7 @@
   > When the fourth plan counter is put on this enchantment, sacrifice it, draw a card, and put a +1/+1 counter on each creature you control.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13765 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/31/political-triumph) · oracle_id `0bbceb51-1fb8-44d7-8afc-b4746d292262` · printing: MSH #31 (2026-06-26) · [rulings](https://api.scryfall.com/cards/dec3dd36-b8ca-432b-8973-d37c6efc4c1a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pol Jamaar, Illusionist
@@ -467,7 +522,9 @@
   > *"'Real' is a more flexible concept than you might think."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13701 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/j25/38/pol-jamaar-illusionist) · oracle_id `2f200a14-7e5b-4b7c-a283-5cf9abb1f95d` · printing: J25 #38 (2024-11-15) · [rulings](https://api.scryfall.com/cards/63e806ee-3c32-48bf-97a1-160a74765e76/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — The choice of creature type is made as Pol Jamaar's last ability resolves. Players can't take any actions between the time the choice is made and the time you draw cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/j25/38/pol-jamaar-illusionist) · oracle_id `2f200a14-7e5b-4b7c-a283-5cf9abb1f95d` · printing: J25 #38 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pollenbright Druid
 
@@ -500,6 +557,7 @@
   > Whenever enchanted creature deals combat damage to a player, create that many 1/1 green Saproling creature tokens.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14729 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pca/103/pollenbright-wings) · oracle_id `582c8030-1d41-4c63-8ed6-06aad398a96c` · printing: PCA #103 (2016-11-25) · [rulings](https://api.scryfall.com/cards/dcea15a8-c150-4e84-a919-6c9b3cf4e178/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pollen Lullaby
@@ -510,6 +568,7 @@
   > Prevent all combat damage that would be dealt this turn. Clash with an opponent. If you win, creatures that player controls don't untap during the player's next untap step. (Each clashing player reveals the top card of their library, then puts that card on their choice of the top or bottom. A player wins if their card had a greater mana value.)
 - **Keywords:** Clash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19357 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmd/26/pollen-lullaby) · oracle_id `1f64d70d-ea38-4419-be91-8b68aab3401e` · printing: CMD #26 (2011-06-17) · [rulings](https://api.scryfall.com/cards/5d033d41-2b64-4b9b-98d2-d32bb21f080f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pollen Remedy
@@ -521,7 +580,14 @@
   > Prevent the next 3 damage that would be dealt this turn to any number of targets, divided as you choose. If this spell was kicked, prevent the next 6 damage this way instead.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22277 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pls/13/pollen-remedy) · oracle_id `ff52f955-98de-4f12-9ec7-f1d73e3edae9` · printing: PLS #13 (2001-02-05) · [rulings](https://api.scryfall.com/cards/9797c813-0cda-44ad-ae41-330e9bde9cb9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pls/13/pollen-remedy) · oracle_id `ff52f955-98de-4f12-9ec7-f1d73e3edae9` · printing: PLS #13 (2001-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pollen-Shield Hare // Hare Raising
 
@@ -619,6 +685,7 @@
 - **Flavor text** (AVR printing):
   > *After the zombie attack, crops withered on the vine, and the thriving village became a ghost town almost overnight.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24978 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/avr/116/polluted-dead) · oracle_id `5ffca600-5286-4086-9efe-c398babeb6ae` · printing: AVR #116 (2012-05-04) · [rulings](https://api.scryfall.com/cards/036c1954-37d3-4787-8df8-f2d0dd39058a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Polluted Delta
@@ -701,7 +768,9 @@
   > Whenever Polukranos or another nontoken Hydra you control dies, create a 3/3 green and white Phyrexian Hydra creature token with reach and a 3/3 green and white Phyrexian Hydra creature token with lifelink.
 - **Keywords:** Lifelink, Reach, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14161 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/200/polukranos-reborn-polukranos-engine-of-ruin) · oracle_id `7a9fa906-b43e-4d98-b134-5936d3085851` · printing: MOM #200 (2023-04-21) · [rulings](https://api.scryfall.com/cards/47f7d313-8333-41fe-8bfa-c96774dac228/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-04-14* — If Polukranos, Engine of Ruin and other nontoken Hydras you control die at the same time, Polukranos’s triggered ability will trigger once for itself and once for each of those other Hydras.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/200/polukranos-reborn-polukranos-engine-of-ruin) · oracle_id `7a9fa906-b43e-4d98-b134-5936d3085851` · printing: MOM #200 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Polukranos, Unchained
 
@@ -715,7 +784,18 @@
   > Escape—{4}{B}{G}, Exile six other cards from your graveyard.
 - **Keywords:** Fight, Escape
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12111 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/224/polukranos-unchained) · oracle_id `649e7237-b38b-43e9-83f4-763751fb1bea` · printing: THB #224 (2020-01-24) · [rulings](https://api.scryfall.com/cards/87858278-632c-4d82-b3a3-adfc6f2f4fc6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2020-01-24* — After an escaped spell resolves, it returns to its owner's graveyard if it's not a permanent spell. If it is a permanent spell, it enters the battlefield and will return to its owner's graveyard if it dies later. Perhaps it will escape again—good underworld security is so hard to come by these days.
+  - *2020-01-24* — Escape's permission doesn't change when you may cast the spell from your graveyard.
+  - *2020-01-24* — If a card has multiple abilities giving you permission to cast it, such as two escape abilities or an escape ability and a flashback ability, you choose which one to apply. The others have no effect.
+  - *2020-01-24* — If a card with escape is put into your graveyard during your turn, you'll be able to cast it right away if it's legal to do so, before an opponent can take any actions.
+  - *2020-01-24* — If an amount of damage would be dealt to Polukranos greater than the number of +1/+1 counters on it, all of that damage is prevented, and all of those counters are removed. In most cases, this will result in Polukranos having 0 toughness, so it will be put into its owner's graveyard.
+  - *2020-01-24* — If damage that can't be prevented is dealt to Polukranos, the damage is dealt and you'll simultaneously remove that many +1/+1 counters from it, all before the game checks for lethal damage.
+  - *2020-01-24* — If the target creature is an illegal target when Polukranos's activated ability tries to resolve, the ability doesn't resolve. If Polukranos is no longer on the battlefield, the target creature won't deal or be dealt damage.
+  - *2020-01-24* — If you cast a spell with its escape permission, you can't choose to apply any other alternative costs or to cast it without paying its mana cost. If it has any additional costs, you must pay those.
+  - *2020-01-24* — Once you begin casting a spell with escape, it immediately moves to the stack. Players can't take any other actions until you're done casting the spell.
+  - *2020-01-24* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an escape cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was and no matter whether an alternative cost was paid.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/224/polukranos-unchained) · oracle_id `649e7237-b38b-43e9-83f4-763751fb1bea` · printing: THB #224 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Polukranos, World Eater
 
@@ -727,7 +807,15 @@
   > When Polukranos becomes monstrous, it deals X damage divided as you choose among any number of target creatures your opponents control. Each of those creatures deals damage equal to its power to Polukranos.
 - **Keywords:** Monstrosity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11066 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/172/polukranos-world-eater) · oracle_id `ecbf5560-853a-43a9-bf70-ac8d403b0ce8` · printing: THS #172 (2013-09-27) · [rulings](https://api.scryfall.com/cards/4979cc1b-9c1a-47e4-ae37-7c41798eb89a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2013-09-15* — An ability that triggers when a creature becomes monstrous won't trigger if that creature isn't on the battlefield when its monstrosity ability resolves.
+  - *2013-09-15* — As Polukranos's triggered ability resolves, Polukranos deals damage first, then the target creatures do. Although no creature will die until after the ability finishes resolving, the order could matter if Polukranos has wither or infect.
+  - *2013-09-15* — If some, but not all, of the ability's targets become illegal, you can't change the division of damage. Damage that would've been dealt to illegal targets simply isn't dealt.
+  - *2013-09-15* — Monstrous isn't an ability that a creature has. It's just something true about that creature. If the creature stops being a creature or loses its abilities, it will continue to be monstrous.
+  - *2013-09-15* — Once a creature becomes monstrous, it can't become monstrous again. If the creature is already monstrous when the monstrosity ability resolves, nothing happens.
+  - *2013-09-15* — The value of X in Polukranos's last ability is equal to the value chosen for X when its activated ability was activated.
+  - *2013-09-15* — You choose the division of damage as you put the ability on the stack, not as it resolves. Each target must be assigned at least 1 damage. In multiplayer games, you may choose creatures controlled by different opponents.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/172/polukranos-world-eater) · oracle_id `ecbf5560-853a-43a9-bf70-ac8d403b0ce8` · printing: THS #172 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Polygoyf
 
@@ -762,7 +850,13 @@
   > {2}, {T}, Collect evidence 3: Each opponent loses 3 life unless they discard a card or sacrifice a creature. (To collect evidence 3, exile cards with total mana value 3 or greater from your graveyard.)
 - **Keywords:** Collect evidence
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23488 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/99/polygraph-orb) · oracle_id `bb039957-9e88-48cf-b41c-38d42eb87251` · printing: MKM #99 (2024-02-09) · [rulings](https://api.scryfall.com/cards/a6cc4c6f-4a84-4d42-89fa-7405f7ad6ba0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-02-02* — If you can't exile enough cards to meet or exceed the required mana value, you can't choose to collect evidence at all.
+  - *2024-02-02* — In a Two-Headed Giant game, Polygraph Orb's last ability causes both opponents to sacrifice a creature, discard a card, or lose 3 life.
+  - *2024-02-02* — In a multiplayer game, each opponent in turn order makes their choice once, then all of the actions occur simultaneously. Opponents will know choices made by earlier opponents when making their choices, although a card chosen to be discarded this way isn't revealed until it's discarded.
+  - *2024-02-02* — Once you've announced that you're casting a spell, players can't take actions until you've finished doing so. Notably, opponents can't try to remove cards from your graveyard to stop you from collecting evidence.
+  - *2024-02-02* — While resolving Polygraph Orb's last ability, your opponent chooses a card to be discarded without revealing it, chooses a creature to be sacrificed, or chooses to do neither. Then that player discards that card, sacrifices that creature, or loses 3 life. Your opponent can always choose to lose 3 life, even if they have cards to discard or creatures to sacrifice.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/99/polygraph-orb) · oracle_id `bb039957-9e88-48cf-b41c-38d42eb87251` · printing: MKM #99 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Polymorph
 
@@ -808,7 +902,18 @@
   > Choose a creature on the battlefield. Any number of target creatures you control each become a copy of that creature until end of turn.
 - **Keywords:** Strive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21639 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jou/46/polymorphous-rush) · oracle_id `3098626a-b786-4f54-83df-51833729c1ec` · printing: JOU #46 (2014-05-02) · [rulings](https://api.scryfall.com/cards/2ff5f703-339f-430c-b342-77bcc2c63222/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2014-04-26* — Effects that have already applied to the target creatures will continue to apply to them. For example, if Giant Growth had given one of those creatures +3/+3 earlier in the turn, then Polymorphous Rush makes it a copy of Pensive Minotaur (a 2/3 creature), it will become a 5/6 Pensive Minotaur.
+  - *2014-04-26* — If a spell or ability allows you to cast a strive spell without paying its mana cost, you must pay the additional costs for any targets beyond the first.
+  - *2014-04-26* — If all of the spell's targets are illegal when the spell tries to resolve, it won't resolve and none of its effects will happen. If one or more of its targets are legal when it tries to resolve, the spell will resolve and affect only those legal targets. It will have no effect on any illegal targets.
+  - *2014-04-26* — If such a spell is copied, and the effect that copies the spell allows a player to choose new targets for the copy, the number of targets can't be changed. The player may change any number of the targets, including all of them or none of them. If, for one of the targets, the player can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2014-04-26* — If the creatures copy a creature that's copying a creature, they will become whatever the chosen creature is copying.
+  - *2014-04-26* — The creature that's copied isn't targeted by Polymorphous Rush. You choose that creature as the spell resolves. It can be one of the targeted creatures. A creature can become a copy of itself this way, though this usually won't have any noticeable effect.
+  - *2014-04-26* — The mana cost and mana value of strive spells don't change no matter how many targets they have. Strive abilities affect only what you pay.
+  - *2014-04-26* — The target creatures copy the printed values of the chosen creature, plus any copy effects that have been applied to it. They won't copy counters on that creature or effects that have changed the creature's power, toughness, types, color, or so on.
+  - *2014-04-26* — This effect can cause the targets to stop being creatures. For example, if they each become a copy of a land that has become a creature, the effect that turned that land into a creature won't be copied. The targets will become noncreature lands.
+  - *2014-04-26* — You choose how many targets each spell with a strive ability has and what those targets are as you cast it. It's legal to cast such a spell with no targets, although this is rarely a good idea. You can't choose the same target more than once for a single strive spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jou/46/polymorphous-rush) · oracle_id `3098626a-b786-4f54-83df-51833729c1ec` · printing: JOU #46 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Polyraptor
 
@@ -840,7 +945,23 @@
   > You may discard a card. If you do, draw a card.
 - **Keywords:** Prowess, Prepared
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20772 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/90/pompous-battlemage-improvised-act) · oracle_id `33e3793c-098f-4897-88f3-9f9ce9081e0f` · printing: FRA #90 (2026-10-02) · [rulings](https://api.scryfall.com/cards/aa0f77ac-741a-444a-8bf0-a42c644726bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2026-08-21* — A creature with a prepare spell can't become prepared more than once at the same time. For example, say Bloodline Recollector is on the battlefield and is prepared. During the current turn, three creatures die. At the beginning of the end step, Bloodline Recollector's last ability triggers. When that ability resolves, since Bloodline Recollector is already prepared, the ability won't cause it to become prepared a second time or create a second copy of Ancestral Craving in exile.
+  - *2026-08-21* — A creature without a prepare spell can't become prepared.
+  - *2026-08-21* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Diviner of Victory is a blue creature card whose mana value is 1. It can't be the target of Stingcaster Mage's triggered ability ("When this creature enters, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost.").
+  - *2026-08-21* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-08-21* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-08-21* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-08-21* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog") targeting Diviner of Victory. The token copy of Diviner of Victory will enter prepared as a 1/1 green Frog creature, but the copy of Unwind History in exile will still be a blue sorcery. The copy of Unwind History won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-08-21* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-08-21* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-08-21* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-08-21* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-08-21* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-08-21* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-08-21* — Preparation cards can be cast only with their base characteristics.
+  - *2026-08-21* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/90/pompous-battlemage-improvised-act) · oracle_id `33e3793c-098f-4897-88f3-9f9ce9081e0f` · printing: FRA #90 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pompous Gadabout
 
@@ -853,7 +974,10 @@
 - **Flavor text** (MKM printing):
   > *"Stand aside, nobodies."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29893 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/171/pompous-gadabout) · oracle_id `0361b9b7-9097-4aae-aa06-c63a5fb47a76` · printing: MKM #171 (2024-02-09) · [rulings](https://api.scryfall.com/cards/6d803b93-c1df-4a02-9dbb-d347c841d4d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-02-02* — Face-down creatures don't have names unless an effect says otherwise.
+  - *2024-02-02* — Once Pompous Gadabout has been blocked by a creature, turning that creature face down or otherwise causing it to lose its name won't cause it to stop blocking Pompous Gadabout.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/171/pompous-gadabout) · oracle_id `0361b9b7-9097-4aae-aa06-c63a5fb47a76` · printing: MKM #171 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ponder
 
@@ -879,6 +1003,7 @@
 - **Flavor text** (MH1 printing):
   > *"Never leave the future to fate."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20084 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/63/pondering-mage) · oracle_id `3f278970-201d-4a93-b038-cc7218f2ac57` · printing: MH1 #63 (2019-06-14) · [rulings](https://api.scryfall.com/cards/c08c5ac8-5c0b-4c89-8f06-e5aadfccee01/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pond Prophet
@@ -934,7 +1059,17 @@
   > Morph {2}{R}{W}{B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25642 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/191/ponyback-brigade) · oracle_id `8cfb5181-8ab7-484b-8821-a62c561f762f` · printing: KTK #191 (2014-09-26) · [rulings](https://api.scryfall.com/cards/192d77ef-e8b5-44e2-842b-2c1f342c1e69/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2014-09-20* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
+  - *2014-09-20* — Any time you have priority, you may turn the face-down creature face up by revealing what its morph cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2014-09-20* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down spells or permanents you don't control unless an effect instructs you to do so.
+  - *2014-09-20* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2014-09-20* — If a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+  - *2014-09-20* — Morph lets you cast a card face down by paying {3}, and lets you turn the face-down permanent face up any time you have priority by paying its morph cost.
+  - *2014-09-20* — The face-down spell has no mana cost and has a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost.
+  - *2014-09-20* — When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the creature can still grant it any of these characteristics.
+  - *2014-09-20* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/191/ponyback-brigade) · oracle_id `8cfb5181-8ab7-484b-8821-a62c561f762f` · printing: KTK #191 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pooling Venom
 
@@ -948,7 +1083,10 @@
   > *The land can only hold so much poison before it begins to bite back.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26856 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fut/74/pooling-venom) · oracle_id `4933c2a9-0ef7-4b59-8c55-faa1cb3abbc2` · printing: FUT #74 (2007-05-04) · [rulings](https://api.scryfall.com/cards/0911fb8b-d27a-4afc-9114-212f3e090393/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2007-05-01* — Only Pooling Venom’s controller can activate the activated ability.
+  - *2007-05-01* — The triggered ability triggers whenever the enchanted land becomes tapped, not just when it’s tapped for mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fut/74/pooling-venom) · oracle_id `4933c2a9-0ef7-4b59-8c55-faa1cb3abbc2` · printing: FUT #74 (2007-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Poppet Stitcher // Poppet Factory
 
@@ -982,7 +1120,12 @@
   > *"Today is hydromancy? I thought it was amplimancy! I studied for amplimancy!"*
 - **Keywords:** Learn
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25135 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/49/pop-quiz) · oracle_id `dda9ac6c-1ab2-4f77-b499-f03d587163d8` · printing: STX #49 (2021-04-23) · [rulings](https://api.scryfall.com/cards/d16892d8-9d10-45de-ab79-0e645c4b5588/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-04-16* — If a card is brought into the game from outside the game, it will stay in the game until it ends or until its owner leaves the game, whichever comes first.
+  - *2021-04-16* — If instructed to learn, you may do nothing. Discarding a card and putting a Lesson card into your hand are both optional.
+  - *2021-04-16* — If you bring a card into the game from outside the game in a Constructed tournament (or a Constructed game played under tournament conditions), you may select only a card from your sideboard. In casual Constructed games, the card comes from your collection.
+  - *2021-04-16* — If you bring a card into the game from outside the game in a Sealed Deck or Booster Draft event, you may select only a card that is in the card pool that you built your deck from.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/49/pop-quiz) · oracle_id `dda9ac6c-1ab2-4f77-b499-f03d587163d8` · printing: STX #49 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Popular Egotist
 
@@ -995,7 +1138,10 @@
 - **Flavor text** (DSK printing):
   > *"I know you'd want me to live, bestie!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12473 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/114/popular-egotist) · oracle_id `e6377683-1c36-4786-bd8d-c62ff2d25767` · printing: DSK #114 (2024-09-27) · [rulings](https://api.scryfall.com/cards/35e64605-8edb-4def-9522-765e90d1f0f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-09-20* — If you sacrifice Popular Egotist, its last ability will trigger. If you sacrifice other permanents at the same time, its last ability will trigger for each of those permanents as well.
+  - *2024-09-20* — If you sacrifice a permanent as part of casting a spell or activating an ability, Popular Egotist's last ability will resolve before that spell or ability. It will resolve even if that spell or ability is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/114/popular-egotist) · oracle_id `e6377683-1c36-4786-bd8d-c62ff2d25767` · printing: DSK #114 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Popular Entertainer
 
@@ -1033,7 +1179,13 @@
   > *—Izathel, priest of the Annex*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24779 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nph/19/porcelain-legionnaire) · oracle_id `66442396-f804-47f3-8daa-0d43d8cfb482` · printing: NPH #19 (2011-05-13) · [rulings](https://api.scryfall.com/cards/2616aa0e-8413-4e63-877c-bffd5263f552/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2011-06-01* — A card with Phyrexian mana symbols in its mana cost is each color that appears in that mana cost, regardless of how that cost may have been paid.
+  - *2011-06-01* — As you cast a spell or activate an activated ability with one or more Phyrexian mana symbols in its cost, you choose how to pay for each Phyrexian mana symbol at the same time you would choose modes or choose a value for X.
+  - *2011-06-01* — If you're at 1 life or less, you can't pay 2 life.
+  - *2011-06-01* — Phyrexian mana is not a new color. Players can't produce Phyrexian mana.
+  - *2011-06-01* — To calculate the mana value of a card with Phyrexian mana symbols in its cost, count each Phyrexian mana symbol as 1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nph/19/porcelain-legionnaire) · oracle_id `66442396-f804-47f3-8daa-0d43d8cfb482` · printing: NPH #19 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Porcelain Zealot
 
@@ -1045,6 +1197,7 @@
 - **Flavor text** (ONE printing):
   > *"There is a single, glorious truth, etched in the hearts of the faithful. Join in unity, or be washed away."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19261 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/30/porcelain-zealot) · oracle_id `4c11bda3-903f-4b7c-9e5e-f6c5c91977cf` · printing: ONE #30 (2023-02-10) · [rulings](https://api.scryfall.com/cards/0409bacf-b728-473d-bf9b-41fdf364e783/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Porcuparrot
@@ -1057,6 +1210,7 @@
   > {T}: This creature deals X damage to any target, where X is the number of times this creature has mutated.
 - **Keywords:** Mutate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13894 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/128/porcuparrot) · oracle_id `e1efd99f-d918-4cd1-b85f-b90b106c3c88` · printing: IKO #128 (2020-04-24) · [rulings](https://api.scryfall.com/cards/856892c8-ba47-46d0-aec2-0416b55b9e88/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pore Over the Pages
@@ -1068,7 +1222,9 @@
 - **Flavor text** (SOI printing):
   > *"'I'm certain that the fate of Markov Manor is connected to these cryptoliths . . .' This Tamiyo was on to something."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12984 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/79/pore-over-the-pages) · oracle_id `55fe5ec3-1c81-4e9d-9e4c-f68ce6d7c2de` · printing: SOI #79 (2016-04-08) · [rulings](https://api.scryfall.com/cards/b2288f7b-05b1-4a6c-8d02-42ffcadc6f0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-04-08* — You choose which lands to untap after you have drawn three cards. Lands controlled by any player may be untapped this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/79/pore-over-the-pages) · oracle_id `55fe5ec3-1c81-4e9d-9e4c-f68ce6d7c2de` · printing: SOI #79 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Porphyry Nodes
 
@@ -1078,7 +1234,12 @@
   > At the beginning of your upkeep, destroy the creature with the least power. It can't be regenerated. If two or more creatures are tied for least power, you choose one of them.
   > When there are no creatures on the battlefield, sacrifice this enchantment.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21787 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/32/porphyry-nodes) · oracle_id `7cfeb732-8a35-4a1f-a417-11db4c1499fd` · printing: TSR #32 (2021-03-19) · [rulings](https://api.scryfall.com/cards/dfe6f333-ccb4-44ea-be59-bba6335acf99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-03-19* — If all creatures on the battlefield leave and immediately return (perhaps because Momentary Blink exiled and returned the only creature), the last ability of Porphyry Nodes triggers. You'll sacrifice it even though a creature's on the battlefield by the time the ability resolves.
+  - *2021-03-19* — If one of the creatures with the least power has indestructible, you must destroy one without indestructible. If all creatures with the least power have indestructible, you don't destroy any creature.
+  - *2021-03-19* — No player can take actions between the time you choose which creature to destroy and the time it's destroyed.
+  - *2021-03-19* — The first ability of Porphyry Nodes doesn't target. You can destroy a creature with shroud or protection from white.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/32/porphyry-nodes) · oracle_id `7cfeb732-8a35-4a1f-a417-11db4c1499fd` · printing: TSR #32 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Portable Hole
 
@@ -1089,7 +1250,13 @@
 - **Flavor text** (AFR printing):
   > *"They fall for it every time."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10216 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/33/portable-hole) · oracle_id `5e57a8cd-f4f0-40b2-84a0-e002751c0d40` · printing: AFR #33 (2021-07-23) · [rulings](https://api.scryfall.com/cards/80fca8c0-ae3e-439e-b202-228b9f360e9a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-07-23* — Auras attached to the exiled permanent will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
+  - *2021-07-23* — If Portable Hole leaves the battlefield before its ability resolves, the target permanent won't be exiled.
+  - *2021-07-23* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2021-07-23* — If an Aura is exiled this way, its owner chooses what it will enchant as it returns to the battlefield. An Aura put onto the battlefield this way doesn't target anything (so it could be attached to a permanent with shroud, for example), but the Aura's enchant ability restricts what it can be attached to. If the Aura can't legally be attached to anything, it remains in exile for the rest of the game.
+  - *2021-07-23* — We recommend keeping your Bag of Holding far, far away.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/33/portable-hole) · oracle_id `5e57a8cd-f4f0-40b2-84a0-e002751c0d40` · printing: AFR #33 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Portal Mage
 
@@ -1101,7 +1268,13 @@
   > When this creature enters during the declare attackers step, you may reselect which player or permanent target attacking creature is attacking. (It can't attack its controller or their permanents.)
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10492 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/112/portal-mage) · oracle_id `4d19ea6d-cabe-4a25-a911-dd744517dd73` · printing: CMM #112 (2023-08-04) · [rulings](https://api.scryfall.com/cards/fe9924a6-2470-44b6-9f54-766996aef57f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-08-25* — If an ability targets something controlled by the “defending player” of an attacking creature and the defending player for that creature changes before that ability resolves, the ability won’t resolve because its target has become illegal.
+  - *2017-08-25* — If you reselect which player or planeswalker an attacking creature is attacking, that creature is still considered to have attacked the player or planeswalker as declared, but it is now attacking the new player or planeswalker.
+  - *2017-08-25* — Reselecting which player or planeswalker a creature is attacking doesn’t cause “whenever this creature attacks” abilities to trigger. Notably, the Curses in this set (such as Curse of Vitality) won’t trigger while Portal Mage’s ability is resolving.
+  - *2017-08-25* — Reselecting which player or planeswalker a creature is attacking ignores all requirements, restrictions, and costs associated with attacking.
+  - *2017-08-25* — You may cast Portal Mage outside of a declare attackers step. If Portal Mage enters the battlefield outside of a declare attackers step, its ability simply doesn’t trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/112/portal-mage) · oracle_id `4d19ea6d-cabe-4a25-a911-dd744517dd73` · printing: CMM #112 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Portal Manipulator
 
@@ -1115,7 +1288,13 @@
   > *"The next punch you throw hits the back of your own head."*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14506 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/40/portal-manipulator) · oracle_id `0dd3127e-de13-4785-b5f2-0af996e9f15f` · printing: CLU #40 (2024-02-23) · [rulings](https://api.scryfall.com/cards/a17c0eb0-86b0-471f-bd54-7b3c36e5833f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-02-02* — If an ability targets something controlled by the "defending player" of an attacking creature and the defending player for that creature changes before that ability resolves, the ability won't resolve because its target has become illegal.
+  - *2024-02-02* — Once Portal Manipulator's triggered ability resolves, the target attacking creatures are still considered to have attacked the player, planeswalker, or battle they were initially declared as attacking, but they are now attacking the target player.
+  - *2024-02-02* — Portal Manipulator's triggered ability doesn't cause "whenever this creature attacks" abilities to trigger.
+  - *2024-02-02* — Portal Manipulator's triggered ability ignores all requirements, restrictions, and costs associated with attacking.
+  - *2024-02-02* — You may cast Portal Manipulator outside of a declare attackers step. If Portal Manipulator enters the battlefield outside of a declare attackers step, its ability simply doesn't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/40/portal-manipulator) · oracle_id `0dd3127e-de13-4785-b5f2-0af996e9f15f` · printing: CLU #40 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Portal of Sanctuary
 
@@ -1127,7 +1306,9 @@
   > *"If you need to disappear for a while, I know a place."*
   > *—Bilivus, master archivist*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18648 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/71/portal-of-sanctuary) · oracle_id `c30491b5-08fe-4694-9ac8-53be7b4b92ce` · printing: M20 #71 (2019-07-12) · [rulings](https://api.scryfall.com/cards/37c66692-2880-4ea2-abaf-8926c6950826/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-07-12* — Equipment attached to the target creature remains on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/71/portal-of-sanctuary) · oracle_id `c30491b5-08fe-4694-9ac8-53be7b4b92ce` · printing: M20 #71 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Portal to Phyrexia
 
@@ -1149,7 +1330,13 @@
 - **Oracle text:**
   > Whenever a creature enters, if there are two or more other creatures on the battlefield, exile that creature. Return that card to the battlefield under its owner's control when this artifact leaves the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18245 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sth/139/portcullis) · oracle_id `6230c179-0263-4fa4-b0ff-f2cb621de147` · printing: STH #139 (1998-03-02) · [rulings](https://api.scryfall.com/cards/a4de4af2-fa75-4a87-b0e1-0117727917a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2004-10-04* — Creatures which are phasing in will not trigger this card's ability.
+  - *2004-10-04* — If the creature that triggered Portcullis is no longer on the battlefield when the ability resolves, then it fails to do anything.
+  - *2004-10-04* — You check the count of the number of creatures on the battlefield again during resolution. The creature will not be exiled if the count is 2 or less.
+  - *2009-10-01* — The "when Portcullis leaves the battlefield" ability is set up as part of the ability that exiles the creature. It will trigger when Portcullis leaves the battlefield even if Portcullis has somehow lost its abilities at that time.
+  - *2009-10-01* — The creature does enter, so any other abilities that trigger on it entering trigger. This follows the normal rules for timing triggered abilities: first, the current player puts their abilities on the stack in any order, then each other player in turn order does the same. Portcullis' own ability is included in this, so it could result in the creature being exiled after some abilities have resolved, but before others.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sth/139/portcullis) · oracle_id `6230c179-0263-4fa4-b0ff-f2cb621de147` · printing: STH #139 (1998-03-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Portcullis Vine
 
@@ -1163,7 +1350,9 @@
   > *Nature's way of saying "take the long way home."*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15389 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/195/portcullis-vine) · oracle_id `a217f386-11b5-48f0-b173-3b0700ba295f` · printing: M21 #195 (2020-07-03) · [rulings](https://api.scryfall.com/cards/d1abd95a-4ecc-479c-b200-5aaf7c993ef8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-06-23* — Portcullis Vine can be sacrificed to pay the cost of its last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/195/portcullis-vine) · oracle_id `a217f386-11b5-48f0-b173-3b0700ba295f` · printing: M21 #195 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Portent
 
@@ -1185,7 +1374,15 @@
   > Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. Scry 1. (Look at the top card of your library. You may put that card on the bottom.)
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17093 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/194/portent-of-betrayal) · oracle_id `15d794f4-7789-40e3-9ee0-b09250c0516d` · printing: CMR #194 (2020-11-20) · [rulings](https://api.scryfall.com/cards/6288606e-182a-4260-bbe9-3f8f09c2f33c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2013-09-15* — Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
+  - *2013-09-15* — When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
+  - *2013-09-15* — You choose how to order cards returned to your library after scrying no matter where you put them.
+  - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
+  - *2020-11-10* — Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it.
+  - *2020-11-10* — If the target creature is an illegal target by the time Portent of Betrayal tries to resolve, the spell won't resolve. You won't scry 1.
+  - *2020-11-10* — Portent of Betrayal can target any creature, even one that's untapped or one you already control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/194/portent-of-betrayal) · oracle_id `15d794f4-7789-40e3-9ee0-b09250c0516d` · printing: CMR #194 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Portent of Calamity
 
@@ -1194,7 +1391,12 @@
 - **Oracle text:**
   > Reveal the top X cards of your library. For each card type, you may exile a card of that type from among them. Put the rest into your graveyard. You may cast a spell from among the exiled cards without paying its mana cost if you exiled four or more cards this way. Then put the rest of the exiled cards into your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10116 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/66/portent-of-calamity) · oracle_id `0d49187a-1c37-4c3a-afc2-fac2bbc6b29a` · printing: BLB #66 (2024-08-02) · [rulings](https://api.scryfall.com/cards/8599e2dd-9164-4da3-814f-adccef3b9497/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-07-26* — If the spell you cast has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-07-26* — If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+  - *2024-07-26* — The card types that can appear on cards you reveal with Portent of Calamity are artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Legendary, basic, and snow are supertypes, not card types. Raccoon and Scout are subtypes, not card types.
+  - *2024-07-26* — You choose which spell to cast (if any) as Portent of Calamity resolves. If you choose to cast a spell this way, you do so as part of the resolution of Portent of Calamity. You can’t wait to cast it later in the turn. Timing restrictions based on the card’s types are ignored.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/66/portent-of-calamity) · oracle_id `0d49187a-1c37-4c3a-afc2-fac2bbc6b29a` · printing: BLB #66 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Portent Tracker
 
@@ -1207,7 +1409,9 @@
 - **Flavor text** (MOM printing):
   > *In the days before the invasion, the symbol of its perpetrator appeared in strange places all across the Multiverse.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15409 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/201/portent-tracker) · oracle_id `ca49d6ad-97b1-4fd4-b1cf-fecd9cafee6d` · printing: MOM #201 (2023-04-21) · [rulings](https://api.scryfall.com/cards/bc6104d4-d0af-40da-8227-14243d778e96/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-04-14* — Portent Tracker’s first ability isn’t a mana ability. Notably, it can’t be used while you’re activating an ability or casting a spell. If you plan to use it to produce enough mana to activate an ability or cast a spell, you must do so ahead of time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/201/portent-tracker) · oracle_id `ca49d6ad-97b1-4fd4-b1cf-fecd9cafee6d` · printing: MOM #201 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Port Inspector
 
@@ -1219,6 +1423,7 @@
 - **Flavor text** (MMQ printing):
   > *"There may be a few minor additional fees, levies, duties, surtaxes, tariffs, imposts, tolls . . . ."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31034 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/90/port-inspector) · oracle_id `25450b06-3065-4b4f-975e-586d045e5815` · printing: MMQ #90 (1999-10-04) · [rulings](https://api.scryfall.com/cards/ef25d969-68d9-4580-bb29-f72bd5646a3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Port of Karfell
@@ -1279,6 +1484,7 @@
   > Threshold — As long as there are seven or more cards in your graveyard, this creature gets +1/+1, is black, and has "{2}{B}, {T}: Destroy target blue creature."
 - **Keywords:** Flying, Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30710 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/45/possessed-aven) · oracle_id `1a5f1670-3e71-4379-90ee-a883c8dc6070` · printing: TOR #45 (2002-02-04) · [rulings](https://api.scryfall.com/cards/997c56c7-c625-4209-b4b6-d274dee2db48/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Possessed Barbarian
@@ -1291,6 +1497,7 @@
   > Threshold — As long as there are seven or more cards in your graveyard, this creature gets +1/+1, is black, and has "{2}{B}, {T}: Destroy target red creature."
 - **Keywords:** First strike, Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31856 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/111/possessed-barbarian) · oracle_id `ee51365b-9f36-44a7-8706-ae5b2f86bd29` · printing: TOR #111 (2002-02-04) · [rulings](https://api.scryfall.com/cards/57e79610-8cfe-4711-bc71-8c25d68036da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Possessed Centaur
@@ -1303,6 +1510,7 @@
   > Threshold — As long as there are seven or more cards in your graveyard, this creature gets +1/+1, is black, and has "{2}{B}, {T}: Destroy target green creature."
 - **Keywords:** Trample, Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31929 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/137/possessed-centaur) · oracle_id `2fd1707b-917c-4842-a5c6-dfffbedcf918` · printing: TOR #137 (2002-02-04) · [rulings](https://api.scryfall.com/cards/608e11b2-9636-48a0-8705-f5ce3bc98117/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Possessed Goat
@@ -1315,6 +1523,7 @@
 - **Flavor text** (DSK printing):
   > *When their would-be sacrifice wandered back to their encampment, the survivors breathed a sigh of relief, assuming the demon had departed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21742 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/25/possessed-goat) · oracle_id `821f4ff3-ebc7-4f47-ac35-d00093b6d35b` · printing: DSK #25 (2024-09-27) · [rulings](https://api.scryfall.com/cards/cd02b8ff-ff65-4a38-b8fb-f8dd130edbf7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Possessed Nomad
@@ -1327,6 +1536,7 @@
   > Threshold — As long as there are seven or more cards in your graveyard, this creature gets +1/+1, is black, and has "{2}{B}, {T}: Destroy target white creature."
 - **Keywords:** Vigilance, Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32240 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/13/possessed-nomad) · oracle_id `9bf9870e-32a3-494c-bd42-f9f013463619` · printing: TOR #13 (2002-02-04) · [rulings](https://api.scryfall.com/cards/5d9dfae5-63f6-401a-9dec-afe838190824/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Possessed Portal
@@ -1337,6 +1547,7 @@
   > If a player would draw a card, that player skips that draw instead.
   > At the beginning of each end step, each player sacrifices a permanent of their choice unless they discard a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17429 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/144/possessed-portal) · oracle_id `33345c43-3e77-4d9c-a9b5-5d723e1e5c69` · printing: 5DN #144 (2004-06-04) · [rulings](https://api.scryfall.com/cards/616836e6-caf4-4398-a772-9c67f84c73c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Possessed Skaab
@@ -1350,7 +1561,9 @@
 - **Flavor text** (ORI printing):
   > *A stitcher's attempt at a skaab with a soul.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22025 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/215/possessed-skaab) · oracle_id `a42b567d-6bfc-49e7-8f91-917e2bb3046c` · printing: ORI #215 (2015-07-17) · [rulings](https://api.scryfall.com/cards/6ebc94e5-a595-43ab-929b-426009190669/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-06-22* — Possessed Skaab’s last ability will apply no matter what caused it to die (lethal damage, being sacrificed, enough -1/-1 counters, and so on). Possessed Skaab won’t go to the graveyard. It will be put from the battlefield into exile. Abilities that trigger whenever a creature dies won’t trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/215/possessed-skaab) · oracle_id `a42b567d-6bfc-49e7-8f91-917e2bb3046c` · printing: ORI #215 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Possession Engine
 
@@ -1364,6 +1577,7 @@
   > *"Here's a tip: If your ride needs souls for fuel, make sure to always keep one handy."*
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10130 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/54/possession-engine) · oracle_id `ab7c0256-eea9-4e0d-932d-c25460eed836` · printing: DFT #54 (2025-02-14) · [rulings](https://api.scryfall.com/cards/f206b0a1-50d8-4d53-850d-fb15fd328267/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Possibility Storm
@@ -1392,7 +1606,10 @@
   > Warp {1}{R} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)
 - **Keywords:** Warp
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17060 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/153/possibility-technician) · oracle_id `ebbf84f7-d142-4de5-bfc1-ea86f082d733` · printing: EOE #153 (2025-08-01) · [rulings](https://api.scryfall.com/cards/4b146c78-403f-48c8-941d-41114498bb89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-07-25* — If Possibility Technician leaves the battlefield, the effect allowing you to play the exiled cards if you control a Kavu continues to apply, even during later turns.
+  - *2025-07-25* — You pay all costs and follow all timing rules for cards played with the permission granted by Possibility Technician’s first ability. For example, if an exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/153/possibility-technician) · oracle_id `ebbf84f7-d142-4de5-bfc1-ea86f082d733` · printing: EOE #153 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Postmortem Lunge
 
@@ -1402,7 +1619,15 @@
   > ({B/P} can be paid with either {B} or 2 life.)
   > Return target creature card with mana value X from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18945 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nph/70/postmortem-lunge) · oracle_id `aacd1aae-1bf0-43e4-99f4-c6d738af812c` · printing: NPH #70 (2011-05-13) · [rulings](https://api.scryfall.com/cards/d5f8b46e-1ad3-4c6e-aa63-376f2d222d46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2011-06-01* — A card with Phyrexian mana symbols in its mana cost is each color that appears in that mana cost, regardless of how that cost may have been paid.
+  - *2011-06-01* — As you cast a spell or activate an activated ability with one or more Phyrexian mana symbols in its cost, you choose how to pay for each Phyrexian mana symbol at the same time you would choose modes or choose a value for X.
+  - *2011-06-01* — If the creature card has {X} in its mana cost, that X is 0. Remember that the value of X chosen for Postmortem Lunge is independent of the value of X on other cards.
+  - *2011-06-01* — If the creature is no longer on the battlefield at the beginning of the next end step, it won't be exiled.
+  - *2011-06-01* — If you're at 1 life or less, you can't pay 2 life.
+  - *2011-06-01* — Phyrexian mana is not a new color. Players can't produce Phyrexian mana.
+  - *2011-06-01* — To calculate the mana value of a card with Phyrexian mana symbols in its cost, count each Phyrexian mana symbol as 1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nph/70/postmortem-lunge) · oracle_id `aacd1aae-1bf0-43e4-99f4-c6d738af812c` · printing: NPH #70 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Postmortem Professor
 
@@ -1414,6 +1639,7 @@
   > Whenever this creature attacks, each opponent loses 1 life and you gain 1 life.
   > {1}{B}, Exile an instant or sorcery card from your graveyard: Return this card from your graveyard to the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15625 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/93/postmortem-professor) · oracle_id `0859d16e-2a1f-4b48-8687-99af8a8bdb38` · printing: SOS #93 (2026-04-24) · [rulings](https://api.scryfall.com/cards/174f5d7e-5d36-4d13-96bf-9b12cd644716/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Potatoes
@@ -1427,6 +1653,7 @@
   > • Stew — Gain 3 life. Draw a card.
 - **Keywords:** Mash, Food, Stew, Boil
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/CAa/potatoes) · oracle_id `7fc7ceb0-5846-491b-8e6e-8f9f655250f1` · printing: UNK #CAa (2023-07-29) · [rulings](https://api.scryfall.com/cards/8e267868-9870-4db1-a37c-7322917da4bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pothole Mole
@@ -1441,6 +1668,7 @@
   > *—Termin, track designer*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19195 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/176/pothole-mole) · oracle_id `8a8bc537-b69f-441d-a10e-d7f17f2f75bb` · printing: DFT #176 (2025-02-14) · [rulings](https://api.scryfall.com/cards/21c7b59f-fdae-4a11-9784-497a8165d75a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Potioner's Trove
@@ -1453,6 +1681,7 @@
 - **Flavor text** (SOS printing):
   > *The shops of Ribtruss Town sell anything that can be gathered within Titan's Grave. Just don't ask where they acquired their goods.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10848 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/251/potioners-trove) · oracle_id `d604c75e-9d81-49de-80bc-08f4ef3ee975` · printing: SOS #251 (2026-04-24) · [rulings](https://api.scryfall.com/cards/2123b349-4649-4a15-a8b5-b54414d2b1b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Potion of Healing
@@ -1465,6 +1694,7 @@
 - **Flavor text** (AFR printing):
   > *Magic can knit the body back together, but the courage to fight on comes only from within.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14867 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/34/potion-of-healing) · oracle_id `11fb3fee-ae84-4bf3-b834-63d3b8987df3` · printing: AFR #34 (2021-07-23) · [rulings](https://api.scryfall.com/cards/d5edb608-c7d7-4fa9-b969-262c9789fc17/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Poultice Sliver
@@ -1479,7 +1709,10 @@
   > *—Rukarumel, field journal*
 - **Keywords:** Heal, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18826 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/33/poultice-sliver) · oracle_id `6be3cf35-f774-4afb-8c1f-5c9b616a2b3f` · printing: TSR #33 (2021-03-19) · [rulings](https://api.scryfall.com/cards/bc6db2cf-5171-4791-82b4-c9fac37902a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn't provide any additional benefit.
+  - *2013-07-01* — If the creature type of a Sliver changes so it's no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/33/poultice-sliver) · oracle_id `6be3cf35-f774-4afb-8c1f-5c9b616a2b3f` · printing: TSR #33 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Poultrygeist
 
@@ -1493,6 +1726,7 @@
   > *Farmer Brown never ate eggs again.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/und/43/poultrygeist) · oracle_id `76407853-7103-4010-b198-33a04ece7b23` · printing: UND #43 (2020-02-29) · [rulings](https://api.scryfall.com/cards/d7317f1f-dff3-4d38-98be-2b4907bdd523/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pounce
@@ -1505,7 +1739,9 @@
   > *The drive to hunt and feed is raw instinct for dinosaurs. The trick is simply to channel it in the right direction.*
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13341 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/200/pounce) · oracle_id `f4126dac-add4-4d5f-bf52-6f74c7c6aa67` · printing: XLN #200 (2017-09-29) · [rulings](https://api.scryfall.com/cards/2b96cba6-33d7-4e1d-88f7-da3da681540d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-09-29* — If either or both targets are illegal when Pounce tries to resolve, no creature will deal or be dealt damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/200/pounce) · oracle_id `f4126dac-add4-4d5f-bf52-6f74c7c6aa67` · printing: XLN #200 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pouncing Cheetah
 
@@ -1518,6 +1754,7 @@
   > *Rhonas's monument is home to a wider variety of creatures than anywhere else in the city of Naktamun—a feature most initiates fail to appreciate.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26660 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/419/pouncing-cheetah) · oracle_id `1d5e32b1-1a2d-4b3d-80f2-f8c688b90587` · printing: JMP #419 (2020-07-17) · [rulings](https://api.scryfall.com/cards/73f5156b-b200-41f7-8b93-557c4cdc2bf7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pouncing Jaguar
@@ -1531,6 +1768,7 @@
   > *One pounce, she's hungry—you die quickly. Two, she's teaching her cubs—you're in for a long day.*
 - **Keywords:** Echo
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29751 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/269/pouncing-jaguar) · oracle_id `70a2b5ea-dae4-46e8-87eb-8c8d8dfb242b` · printing: USG #269 (1998-10-12) · [rulings](https://api.scryfall.com/cards/d35ac6e5-3e46-4290-9683-51d6f54e4edf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pouncing Kavu
@@ -1544,7 +1782,15 @@
   > If this creature was kicked, it enters with two +1/+1 counters on it and with haste.
 - **Keywords:** First strike, Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28747 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inv/158/pouncing-kavu) · oracle_id `5f9a968d-cc23-46d3-b28f-3779dd89c531` · printing: INV #158 (2000-10-02) · [rulings](https://api.scryfall.com/cards/7e6e2e49-7bde-43c1-8caf-43d237dfc052/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2004-10-04* — If the Pouncing Kavu is kicked, it enters with haste and will keep this ability until it leaves the battlefield.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inv/158/pouncing-kavu) · oracle_id `5f9a968d-cc23-46d3-b28f-3779dd89c531` · printing: INV #158 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pouncing Lynx
 
@@ -1556,6 +1802,7 @@
 - **Flavor text** (WAR printing):
   > *"I don't understand. He's normally so well behaved!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25426 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/25/pouncing-lynx) · oracle_id `d8d92f97-d54c-4954-8324-b9c0a9b96ec2` · printing: WAR #25 (2019-05-03) · [rulings](https://api.scryfall.com/cards/9383956f-90bc-40e4-ae5c-503e98e21832/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pouncing Shoreshark
@@ -1582,7 +1829,15 @@
   > If this creature was kicked, it enters with three +1/+1 counters on it and with haste.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23368 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/plc/136/pouncing-wurm) · oracle_id `3e299484-32e9-4646-9032-062d08a70bb9` · printing: PLC #136 (2007-02-02) · [rulings](https://api.scryfall.com/cards/8e48a2f3-9c30-4187-868e-33dbf5e279fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2007-02-01* — If the Pouncing Wurm is kicked, Pouncing Wurm has haste permanently.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/plc/136/pouncing-wurm) · oracle_id `3e299484-32e9-4646-9032-062d08a70bb9` · printing: PLC #136 (2007-02-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Powder Ganger
 
@@ -1594,7 +1849,13 @@
   > When this creature enters, destroy up to one target artifact.
 - **Keywords:** Squad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10663 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/65/powder-ganger) · oracle_id `b34507d3-55ba-4629-9581-7983d0025e89` · printing: PIP #65 (2024-03-08) · [rulings](https://api.scryfall.com/cards/7bb57c73-a454-450d-9db9-67501bf4559d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-03-08* — If the spell is countered, the squad ability will not trigger, and no tokens will be created.
+  - *2024-03-08* — If the spell resolves but the creature with squad leaves the battlefield before its squad ability resolves, you’ll still create the token copies.
+  - *2024-03-08* — If, for some reason, the creature doesn’t have the squad ability when it’s on the battlefield, the ability won’t trigger, even if you’ve paid the squad cost one or more times.
+  - *2024-03-08* — The tokens created by the squad ability aren’t “cast,” so any abilities that trigger when a spell is cast won’t trigger for the copies.
+  - *2024-03-08* — You may pay the squad cost any number of times. You will create a token that is a copy of that permanent for each time you paid the squad cost. If you paid the squad cost multiple times, the tokens will all enter the battlefield simultaneously.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/65/powder-ganger) · oracle_id `b34507d3-55ba-4629-9581-7983d0025e89` · printing: PIP #65 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Powder Keg
 
@@ -1604,7 +1865,10 @@
   > At the beginning of your upkeep, you may put a fuse counter on this artifact.
   > {T}, Sacrifice this artifact: Destroy each artifact and creature with mana value equal to the number of fuse counters on this artifact.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24706 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/uds/136/powder-keg) · oracle_id `ca1144c2-49a3-49b4-9085-3094141769ea` · printing: UDS #136 (1999-06-07) · [rulings](https://api.scryfall.com/cards/4d9715c2-9036-4ae2-a5b4-1b190d50c963/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Only destroys artifacts and creatures with exactly the specified cost. It does not mean “less than or equal to”.
+  - *2004-10-04* — Putting on a counter is optional. If you forget, you can’t go back later even if it is something you usually do.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uds/136/powder-keg) · oracle_id `ca1144c2-49a3-49b4-9085-3094141769ea` · printing: UDS #136 (1999-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Power Armor
 
@@ -1617,7 +1881,10 @@
   > *—Urza*
 - **Keywords:** Domain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28400 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dde/62/power-armor) · oracle_id `1423b8e6-9165-4a89-a6ed-18085f460bca` · printing: DDE #62 (2010-03-19) · [rulings](https://api.scryfall.com/cards/20bc8710-3d56-45fb-81e7-383a274a2374/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-06-18* — Domain abilities count the number of basic land types among lands you control, not how many lands you control or how many of any type.
+  - *2021-06-18* — The basic land types are Plains, Island, Swamp, Mountain, and Forest. Land types other than basic land types (such as Desert) don't contribute to domain abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dde/62/power-armor) · oracle_id `1423b8e6-9165-4a89-a6ed-18085f460bca` · printing: DDE #62 (2010-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Power Artifact
 
@@ -1663,6 +1930,7 @@
 - **Flavor text** (MSC printing):
   > *Daredevil could feel his enemies fall back as the Scarlet Witch's energy surged around him. He didn't give them time to retreat.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27215 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/852/power-boost) · oracle_id `fed58ccc-db56-4094-8b56-bd29b00e9327` · printing: MSC #852 (2026-06-26) · [rulings](https://api.scryfall.com/cards/b562c7d0-60f6-4db3-a427-f553aefdd86d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Power Conduit
@@ -1721,6 +1989,7 @@
 - **Flavor text** (MSH printing):
   > *"Our new product makes disobedience literally unthinkable!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19657 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/179/powerful-broker) · oracle_id `2b3d76e7-faaa-4e6f-9e21-a88dd719247e` · printing: MSH #179 (2026-06-26) · [rulings](https://api.scryfall.com/cards/801f0417-b663-4e28-9a61-9570061654d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Power Leak
@@ -1732,6 +2001,7 @@
   > At the beginning of the upkeep of enchanted enchantment's controller, that player may pay any amount of mana. This Aura deals 2 damage to that player. Prevent X of that damage, where X is the amount of mana that player paid this way.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27529 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/4ed/92/power-leak) · oracle_id `dc2f0000-870b-487f-9623-618fc8eb9765` · printing: 4ED #92 (1995-04-01) · [rulings](https://api.scryfall.com/cards/99f235d7-8f6b-4d17-bc36-6f2cb6d5deec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Powerleech
@@ -1743,7 +2013,9 @@
 - **Flavor text** (ATQ printing):
   > *The Forest of Argoth has developed a resistance to mechanical intrusion.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21611 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/atq/34/powerleech) · oracle_id `877d42be-f74d-4521-87b7-bb59824d0acc` · printing: ATQ #34 (1994-03-04) · [rulings](https://api.scryfall.com/cards/ae1d7b09-3a1f-410f-b330-04ae768b0455/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — In a multi-player game it affects all opponents.
+- **Source flags:** [Scryfall](https://scryfall.com/card/atq/34/powerleech) · oracle_id `877d42be-f74d-4521-87b7-bb59824d0acc` · printing: ATQ #34 (1994-03-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Power Level Analyzer
 
@@ -1753,6 +2025,7 @@
 - **Oracle text:**
   > As Power Level Analyzer enters the battlefield, you and target opponent each secretly choose a number between 1 and 10, then reveal. Power Level Analyzer enters with a number of +1/+1 counters equal to the distance between the two numbers. If both players chose the same number, put seven +1/+1 counters on Power Level Analyzer instead.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UA05c/power-level-analyzer) · oracle_id `13e13155-93b1-49ee-9f18-4dd0d2b3dd06` · printing: UNK #UA05c (2023-07-29) · [rulings](https://api.scryfall.com/cards/ff212f41-0c0c-4447-9c59-ae2316eda0a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Power Matrix
@@ -1764,6 +2037,7 @@
 - **Flavor text** (MMQ printing):
   > *As he repaired the ship's planeswalking engine, Karn saw for the first time how he could catalyze the \*Weatherlight\*'s evolution.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15528 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/309/power-matrix) · oracle_id `4355507e-e3a4-4c49-a1f7-344150213a2f` · printing: MMQ #309 (1999-10-04) · [rulings](https://api.scryfall.com/cards/a578599c-7d90-4881-b59a-9cf64b90d917/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Power of Fire
@@ -1777,6 +2051,7 @@
   > *The cinders believe their flame was stolen by one they call the Extinguisher. All who now wield fire draw their desperate wrath.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21400 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cns/150/power-of-fire) · oracle_id `df4903cb-50fa-4620-8470-6a6a398fc1ef` · printing: CNS #150 (2014-06-06) · [rulings](https://api.scryfall.com/cards/094553a7-9513-4be5-aa24-4dbd939412c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Power of Persuasion
@@ -1789,7 +2064,18 @@
   > 10—19 | Its owner puts it on their choice of the top or bottom of their library.
   > 20 | Gain control of it until the end of your next turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14898 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/67/power-of-persuasion) · oracle_id `5c615c99-77b7-4bea-9286-1e8d257153fb` · printing: AFR #67 (2021-07-23) · [rulings](https://api.scryfall.com/cards/8d84cb72-d0a0-4af0-aded-47e5fb7addef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2021-07-23* — An ability that tells you to roll a die will also specify what to do with the result of that roll. Most often, this is in the form of a “results table” in the card text.
+  - *2021-07-23* — An effect that says “choose a target, then roll a d20” or similar still uses the normal process of putting an ability on the stack and resolving it. Choosing targets is part of putting the ability on the stack and rolling the d20 happens later, as the ability resolves.
+  - *2021-07-23* — Dice are identified by the number of faces each one has. For example, a d20 is a twenty-sided die.
+  - *2021-07-23* — Dice used must have equally likely outcomes and the roll must be fair. Although physical dice are recommended, digital substitutes are allowed, provided they have the same number of equally likely outcomes as specified in the original roll instruction.
+  - *2021-07-23* — Some abilities, like that of Pixie Guide and Barbarian Class, replace rolling a die with rolling extra dice and ignoring the lowest roll. The ignored rolls are not considered for the effect that instructed you to roll a die, and do not cause abilities to trigger. For all intents and purposes, once you determine which dice count, any extra dice were never rolled.
+  - *2021-07-23* — Some effects instruct you to roll again. This uses the same number and type of dice as the original roll, and that roll will use the same set of possible outcomes.
+  - *2021-07-23* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die or it may come from other cards. Anything that references the “result” of a die roll is looking for the result after these modifications. Anything that is looking for the “natural result” is looking for the number shown on the face of the die before these modifications.
+  - *2021-07-23* — The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
+  - *2021-07-23* — Tournament events have more specific rules regarding dice and die-rolling. For more information, please see the most recent version of the Magic Tournament Rules at https://wpn.wizards.com/en/document/magic-gathering-tournament-rules.
+  - *2021-07-23* — While playing Planechase, rolling the planar die will cause any ability that triggers whenever a player rolls one or more dice to trigger. However, any effect that refers to a numerical result will ignore the rolling of the planar die.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/67/power-of-persuasion) · oracle_id `5c615c99-77b7-4bea-9286-1e8d257153fb` · printing: AFR #67 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Power Pack
 
@@ -1801,6 +2087,7 @@
   > Whenever Power Pack deals combat damage to a player, exile target instant or sorcery card from your graveyard chosen at random. At the beginning of your next upkeep, you may cast that card without paying its mana cost. If that spell would be put into your graveyard, exile it instead.
 - **Keywords:** Flying, Vigilance, Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18211 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/90/power-pack) · oracle_id `3d5c98ff-fcf1-42bd-9533-2648791a4f45` · printing: MSC #90 (2026-06-26) · [rulings](https://api.scryfall.com/cards/04f8aa71-f27b-48b3-9146-b9e785555428/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Power Plant Worker
@@ -1813,7 +2100,9 @@
 - **Flavor text** (BRO printing):
   > *Mechanical workers toiled away, tirelessly fueling the impossible.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19773 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/241/power-plant-worker) · oracle_id `054c6250-ac96-42f6-931d-925761ab7764` · printing: BRO #241 (2022-11-18) · [rulings](https://api.scryfall.com/cards/99965310-e4bd-40d9-80f5-3fd1754c61c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-14* — Power Plant Worker will get two +1/+1 counters instead of getting +2/+2 if, at the time the ability resolves, you control at least one creature named Mine Worker and at least one creature named Tower Worker.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/241/power-plant-worker) · oracle_id `054c6250-ac96-42f6-931d-925761ab7764` · printing: BRO #241 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Power Play
 
@@ -1857,7 +2146,11 @@
 - **Flavor text** (BRO printing):
   > *"Well there's your problem—resonance leak lowering output by thirty percent. I can patch that up."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26271 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/20/powerstone-engineer) · oracle_id `f2ffc999-609f-4424-8d40-ebc042357a40` · printing: BRO #20 (2022-11-18) · [rulings](https://api.scryfall.com/cards/2901c5f6-5d83-437d-b434-d9beb115dd82/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-10-14* — Although all the cards in The Brothers' War that create Powerstone tokens create a tapped Powerstone token, entering the battlefield tapped isn't part of the token's definition. Notably, if you create a token that is a copy of a Powerstone token, the token copy won't enter the battlefield tapped.
+  - *2022-10-14* — Powerstone tokens are a kind of predefined token. Each one has the artifact subtype "Powerstone" and the ability "{T}: Add {C}. This mana can't be spent to cast a nonartifact spell."
+  - *2022-10-14* — You can use the {C} added by a Powerstone token on anything that isn't a nonartifact spell. This includes paying costs to activate abilities of both artifact and nonartifact permanents, paying ward costs, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/20/powerstone-engineer) · oracle_id `f2ffc999-609f-4424-8d40-ebc042357a40` · printing: BRO #20 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Powerstone Fracture
 
@@ -1870,6 +2163,7 @@
   > *"Move! When the powerstone blows, that behemoth will be nothing but a hole in the ground."*
   > *—Ashnod, to Hajar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19257 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/112/powerstone-fracture) · oracle_id `f13baf38-27fc-4c5d-8fee-459eefdb32da` · printing: BRO #112 (2022-11-18) · [rulings](https://api.scryfall.com/cards/2323301f-565a-4c0f-bffd-18386ccd1f7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Powerstone Minefield
@@ -1882,6 +2176,7 @@
   > *"We have fought this far and lost too much. We will not turn back."*
   > *—Grizzlegom*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19515 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/apc/115/powerstone-minefield) · oracle_id `3a8a67ad-e4ff-4b55-9976-a2f13cc9b41b` · printing: APC #115 (2001-06-04) · [rulings](https://api.scryfall.com/cards/b17807b9-8feb-48ac-813a-829577f5b9e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Powerstone Shard
@@ -1894,7 +2189,9 @@
   > *"Light passing through a powerstone is refracted by eternity and colored by planar energy. I wonder how the world appeared through Urza's eyes?"*
   > *—Teferi*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15615 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/227/powerstone-shard) · oracle_id `769c45ae-5d49-4815-944e-98790ad4efb0` · printing: DOM #227 (2018-04-27) · [rulings](https://api.scryfall.com/cards/d62fd366-c287-48c3-9ded-5dc63a34518c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-04-27* — Powerstone Shard’s activated ability is a mana ability. It doesn’t use the stack and can’t be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/227/powerstone-shard) · oracle_id `769c45ae-5d49-4815-944e-98790ad4efb0` · printing: DOM #227 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Power Surge
 
@@ -1903,7 +2200,9 @@
 - **Oracle text:**
   > At the beginning of each player's upkeep, this enchantment deals X damage to that player, where X is the number of untapped lands they controlled at the beginning of this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11683 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/4ed/216/power-surge) · oracle_id `156b2228-f7b2-4816-b894-c4953a32c05f` · printing: 4ED #216 (1995-04-01) · [rulings](https://api.scryfall.com/cards/0b5717af-a1a3-45cb-8b05-7543eed5532a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — This card knows how many were untapped even if it was not on the battlefield at the beginning of the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/4ed/216/power-surge) · oracle_id `156b2228-f7b2-4816-b894-c4953a32c05f` · printing: 4ED #216 (1995-04-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Power Taint
 
@@ -1915,7 +2214,9 @@
   > Cycling {2} ({2}, Discard this card: Draw a card.)
 - **Keywords:** Enchant, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26572 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/90/power-taint) · oracle_id `585a1c82-8a6c-4770-be9c-3a4916b74a9f` · printing: USG #90 (1998-10-12) · [rulings](https://api.scryfall.com/cards/13d0296c-c0f5-491e-9e61-be8f5af2e631/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/90/power-taint) · oracle_id `585a1c82-8a6c-4770-be9c-3a4916b74a9f` · printing: USG #90 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Power Word Kill
 

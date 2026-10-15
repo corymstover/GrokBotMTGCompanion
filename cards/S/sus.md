@@ -36,7 +36,18 @@
   > Doctor's companion (You can have two commanders if the other is the Doctor.)
 - **Keywords:** Doctor's companion
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19152 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Doctor's companion
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/110/susan-foreman) · oracle_id `0f21f3b1-aee9-4272-ad02-067aa5f6a7c8` · printing: WHO #110 (2023-10-13) · [rulings](https://api.scryfall.com/cards/ad40ec4f-37e7-4e6d-b47b-8b13ea2c9157/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2023-10-13* — Although Doctor's companion is a new variant of the partner ability, the rules for partner have not otherwise changed. Notably, Time Lord Doctors and cards with Doctor's companion do not interact with cards which have another partner ability.
+  - *2023-10-13* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2023-10-13* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
+  - *2023-10-13* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2023-10-13* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders' combined color identities.
+  - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
+  - *2023-10-13* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined.
+  - *2023-10-13* — The Doctor's companion ability allows you to have two commanders if one has the ability and the other is a legendary creature that is a Time Lord Doctor and has no other creature types. Creatures with the changeling ability, for example, can't be a second commander this way.
+  - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/110/susan-foreman) · oracle_id `0f21f3b1-aee9-4272-ad02-067aa5f6a7c8` · printing: WHO #110 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suspend
 
@@ -74,7 +85,10 @@
   > *"Knowledge is your armor. Use it wisely, and it will keep you safe."*
   > *—Augusta, dean of order*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14555 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/236/suspend-aggression) · oracle_id `883267f0-be7e-43c3-b7f8-82981f6d8c23` · printing: SOS #236 (2026-04-24) · [rulings](https://api.scryfall.com/cards/135c0696-d86d-4e48-988c-5c218de451fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-03-20* — If the target permanent is an illegal target as Suspend Aggression tries to resolve, it won't resolve and none of its effects will happen. No cards will be exiled.
+  - *2026-03-20* — Players pay all costs and follow all timing rules for cards played this way. For example, if the card exiled from your library is a sorcery, you may cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/236/suspend-aggression) · oracle_id `883267f0-be7e-43c3-b7f8-82981f6d8c23` · printing: SOS #236 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suspended Sentence
 
@@ -107,7 +121,15 @@
 - **Oracle text:**
   > When this enchantment enters, you may exile target creature with toughness 3 or greater until this enchantment leaves the battlefield. (That creature returns under its owner's control.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21043 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/25/suspension-field) · oracle_id `baf8310f-5baf-459e-95ae-6b43a1d47e24` · printing: KTK #25 (2014-09-26) · [rulings](https://api.scryfall.com/cards/ba5c9628-1801-43d9-8bb4-4cca168510b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2014-09-20* — Auras attached to the exiled creature will be put into their owners’ graveyards. Equipment attached to the exiled creature will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+  - *2014-09-20* — If Suspension Field leaves the battlefield before its enters-the-battlefield ability resolves, the target creature won’t be exiled.
+  - *2014-09-20* — If a token is exiled this way, it ceases to exist. It won’t be returned to the battlefield.
+  - *2014-09-20* — If the target creature becomes an illegal target before the ability resolves, perhaps because its toughness was lowered, the ability won’t resolve and none of its effects will happen. No creature will be exiled, and Suspension Field will remain on the battlefield.
+  - *2014-09-20* — In a multiplayer game, if Suspension Field’s owner leaves the game, the exiled card will return to the battlefield. Because the one-shot effect that returns the card isn’t an ability that goes on the stack, it won’t cease to exist along with the leaving player’s spells and abilities on the stack.
+  - *2014-09-20* — Suspension Field’s ability causes a zone change with a duration. It’s a single ability that creates two one-shot effects: one that exiles the creature when the ability resolves, and another that returns the exiled card to the battlefield immediately after Suspension Field leaves the battlefield.
+  - *2014-09-20* — The exiled card returns to the battlefield immediately after Suspension Field leaves the battlefield. Nothing happens between these two events, including state-based actions. Suspension Field and the returned card aren’t on the battlefield at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/25/suspension-field) · oracle_id `baf8310f-5baf-459e-95ae-6b43a1d47e24` · printing: KTK #25 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suspicious Bookcase
 
@@ -137,7 +159,9 @@
   > *"Clearly someone wanted us to find this."*
   > *—Runubi of the Foundway Associates*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23640 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/145/suspicious-detonation) · oracle_id `91f7672c-3090-48f4-8586-0426341c3159` · printing: MKM #145 (2024-02-09) · [rulings](https://api.scryfall.com/cards/6e280482-ed7e-4011-899e-096ff7bd4c41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-02-02* — If you target a creature or planeswalker with ward, you may still pay the ward cost, but Suspicious Detonation won't be countered even if you don't.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/145/suspicious-detonation) · oracle_id `91f7672c-3090-48f4-8586-0426341c3159` · printing: MKM #145 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suspicious Nanny
 
@@ -150,6 +174,7 @@
   > *"Afternoon, folks. Lovely day for a stroll with my authentic human baby."*
 - **Keywords:** Assemble
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/47/suspicious-nanny) · oracle_id `2be2b936-3899-4932-940e-7ec989607ec8` · printing: UST #47 (2017-12-08) · [rulings](https://api.scryfall.com/cards/726e1f2c-da19-45aa-9f48-997a0d62587e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suspicious Shambler
@@ -162,6 +187,7 @@
 - **Flavor text** (FDN printing):
   > *It was the perfect disguise—at least until its stomach started moaning.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24505 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/527/suspicious-shambler) · oracle_id `ea6ee33f-0cba-4e96-817f-dc89c9064ead` · printing: FDN #527 (2024-11-15) · [rulings](https://api.scryfall.com/cards/3d2c5345-eb55-4bca-9183-b4e1404405f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suspicious Stowaway // Seafaring Werewolf
@@ -179,7 +205,17 @@
   > Nightbound (If a player casts at least two spells during their own turn, it becomes day next turn.)
 - **Keywords:** Transform, Daybound, Nightbound
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16687 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/80/suspicious-stowaway-seafaring-werewolf) · oracle_id `da412474-1da8-409b-bd7b-87cbfc239fb0` · printing: MID #80 (2021-09-24) · [rulings](https://api.scryfall.com/cards/ab17c8fa-4c06-4542-848a-e3f2f9f47c27/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2021-09-24* — Before a player untaps their permanents during the untap step, the game checks to see if the day/night designation should change.
+  - *2021-09-24* — Day and night are designations that the game itself can have. The game starts as neither. Once the game becomes day (or less commonly, night), the game will be exactly one of them—day or night—going back and forth for the rest of the game.
+  - *2021-09-24* — Double-faced permanents with daybound transform to their nightbound faces as it becomes night. Similarly, double-faced permanents with nightbound transform to their daybound faces as it becomes day. This happens immediately and is not a state-based action. It happens any time it becomes day or night, not just during the untap step.
+  - *2021-09-24* — If it is day, and the active player of the previous turn cast no spells during their turn, it becomes night.
+  - *2021-09-24* — If it is night, and the active player of the previous turn cast two or more spells during their turn, it becomes day.
+  - *2021-09-24* — If it is night, permanents with daybound that enter the battlefield without being cast will enter with their nightbound faces up.
+  - *2021-09-24* — If it's neither day nor night, and a creature with daybound and a creature with nightbound somehow appear on the battlefield at the same time, it becomes day. The creature with nightbound will transform.
+  - *2021-09-24* — If you cast a spell with daybound during night, that spell will be front face up (that is, daybound face up) on the stack. However, it will enter the battlefield with its back face up (that is, with its nightbound face up). It won't enter with its daybound face up and then transform.
+  - *2021-09-24* — Permanents with daybound and nightbound can't transform via any means other than their daybound and nightbound abilities. Notably, older cards such as Moonmist that instruct a player to transform permanents don't affect permanents with daybound or nightbound.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/80/suspicious-stowaway-seafaring-werewolf) · oracle_id `da412474-1da8-409b-bd7b-87cbfc239fb0` · printing: MID #80 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sustainer of the Realm
 
@@ -193,7 +229,9 @@
   > *You may break her shield, but you'll never break her spirit.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27051 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/35/sustainer-of-the-realm) · oracle_id `2c99d52d-f909-4494-aeee-937ae779fd4a` · printing: IMA #35 (2017-11-17) · [rulings](https://api.scryfall.com/cards/e9f7e21e-d4d8-4d6c-9530-b17d5204e9e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It gets the bonus only once, not once per creature it blocks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/35/sustainer-of-the-realm) · oracle_id `2c99d52d-f909-4494-aeee-937ae779fd4a` · printing: IMA #35 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sustaining Spirit
 
@@ -208,7 +246,15 @@
   > *—Halvor Arensson, Kjeldoran priest*
 - **Keywords:** Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24930 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me2/36/sustaining-spirit) · oracle_id `683c81ae-38cd-4db1-b7e7-a09d34b6431e` · printing: ME2 #36 (2008-09-22) · [rulings](https://api.scryfall.com/cards/9fe9e2e6-c430-4806-b833-dc6d91f7ed80/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2004-10-04* — Does not affect damage if you are already at zero or negative life. You still take it all.
+  - *2008-10-01* — If an effect asks you to pay life, you can’t pay more life than you have.
+  - *2008-10-01* — Paying cumulative upkeep is always optional. If it’s not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can’t be made. For example, if a permanent with “cumulative upkeep {1}” has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either pay {4} or sacrifice the permanent.
+  - *2008-10-01* — Sustaining Spirit won’t prevent you from losing the game if your life total is 0 or less or some other effect causes you to lose the game.
+  - *2008-10-01* — The ability doesn’t change how much damage is dealt; it just changes how much life that damage makes you lose. An effect such as Spirit Link will see the full amount of damage being dealt.
+  - *2008-10-01* — The second ability applies only if your life total is being reduced by damage. Other effects or costs (such as “lose 1 life” or “pay 1 life”) can reduce your life total below 1 as normal.
+  - *2008-10-01* — The second ability is not a prevention effect. It stops unpreventable damage from reducing your life total below 1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me2/36/sustaining-spirit) · oracle_id `683c81ae-38cd-4db1-b7e7-a09d34b6431e` · printing: ME2 #36 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sustenance
 
@@ -219,6 +265,7 @@
 - **Flavor text** (MMQ printing):
   > *Like the dryads, the forest itself willingly gives up some of its life for the sake of the future.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27400 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/278/sustenance) · oracle_id `d32a32d2-203d-4be1-8a33-e037747053c7` · printing: MMQ #278 (1999-10-04) · [rulings](https://api.scryfall.com/cards/5a61db44-80dc-4058-9c9d-65cd18e63fd4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Susurian Dirgecraft
@@ -232,6 +279,7 @@
   > 7+ | Flying
 - **Keywords:** Station
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15323 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/117/susurian-dirgecraft) · oracle_id `f1d826d1-d2da-46ce-b1db-81393c88d865` · printing: EOE #117 (2025-08-01) · [rulings](https://api.scryfall.com/cards/b67cdb6e-9a3b-4887-924d-318faa3c443d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Susurian Voidborn

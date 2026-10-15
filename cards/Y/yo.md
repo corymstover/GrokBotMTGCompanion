@@ -75,6 +75,7 @@
 - **Flavor text** (M20 printing):
   > *The courage of those who work the land is born of long days of labor in the hot summer sun and the cold winter wind. It is the courage of the earth itself.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17067 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/41/yoked-ox) · oracle_id `19b4cf0b-e1e4-4e50-80bc-673bc6ef8bb8` · printing: M20 #41 (2019-07-12) · [rulings](https://api.scryfall.com/cards/a73f186b-c897-4a98-bc25-8e4aa348d8c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yoked Plowbeast
@@ -89,7 +90,9 @@
   > *—Syeena, elvish godtoucher*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26404 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/31/yoked-plowbeast) · oracle_id `07237694-b5d5-4c92-a429-55e343b8dd1c` · printing: ALA #31 (2008-10-03) · [rulings](https://api.scryfall.com/cards/ddbbc7dc-efdf-46e8-bf19-0daa4034f6ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/31/yoked-plowbeast) · oracle_id `07237694-b5d5-4c92-a429-55e343b8dd1c` · printing: ALA #31 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yoke of the Damned
 
@@ -102,6 +105,7 @@
   > *The demon's yoke is part leash, part noose.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25192 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddj/68/yoke-of-the-damned) · oracle_id `af08dae2-ba32-4a34-b8c1-b49d45ce0b6b` · printing: DDJ #68 (2012-09-07) · [rulings](https://api.scryfall.com/cards/8786d461-0ea5-4224-82e4-bfbe4d0d8b9f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yomiji, Who Bars the Way
@@ -115,7 +119,10 @@
   > *"As I died, I rejoiced. I would see my family again. But then I woke up back on the battlefield. Back in Kamigawa. Back in hell."*
   > *—Kenzo the Hardhearted*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19988 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/bok/30/yomiji-who-bars-the-way) · oracle_id `438be2fa-5f8d-42ff-894a-671ba4221196` · printing: BOK #30 (2005-02-04) · [rulings](https://api.scryfall.com/cards/f611af49-3c59-4365-a398-93f7e05ff0d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2005-02-01* — Yomiji's ability triggers even if Yomiji is going to the graveyard at the same time as the other legendary permanent.
+  - *2005-02-01* — Yomiji's ability triggers whenever any legendary permanent is put into a graveyard from the battlefield, not just legendary creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bok/30/yomiji-who-bars-the-way) · oracle_id `438be2fa-5f8d-42ff-894a-671ba4221196` · printing: BOK #30 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yore-Tiller Nephilim
 
@@ -127,7 +134,11 @@
 - **Flavor text** (GPT printing):
   > *When it awoke, the worms of the earth hissed in a chorus of beckoning.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18106 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/140/yore-tiller-nephilim) · oracle_id `7e9d61d3-6ba7-45ac-a55c-a2f36595c5d2` · printing: GPT #140 (2006-02-03) · [rulings](https://api.scryfall.com/cards/0247d76c-dee4-4d1b-9c25-faa56171541e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2006-02-01* — In a multiplayer game in which you're allowed to attack only one player each combat, the new creature will be attacking the same player as Yore-Tiller Nephilim. In a multiplayer game in which you may attack multiple players, you choose the player the new creature is attacking. It must be a player you're allowed to attack.
+  - *2006-02-01* — Putting an attacking creature onto the battlefield doesn't trigger "When this creature attacks" abilities. It also won't check attacking restrictions, costs, or requirements.
+  - *2006-02-01* — The creature you put onto the battlefield from your graveyard is attacking, even if the attack couldn't legally be declared (for example, if that creature has defender or an effect says that no more than one creature can attack).
+- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/140/yore-tiller-nephilim) · oracle_id `7e9d61d3-6ba7-45ac-a55c-a2f36595c5d2` · printing: GPT #140 (2006-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yorion, Sky Nomad
 
@@ -187,7 +198,13 @@
   > *The caress of the morning star frees all from the clutch of darkness.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10245 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/39/yosei-the-morning-star) · oracle_id `5c2d0ead-8bfc-4ca7-9b38-2fc07af1c1d5` · printing: IMA #39 (2017-11-17) · [rulings](https://api.scryfall.com/cards/47af956c-e2ba-47c5-bc5d-ec0ab345ce57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-11-17* — If a permanent won't untap during its controller's next untap step, that effect waits to apply until its controller has an untap step that isn't skipped.
+  - *2017-11-17* — If all of the permanents targeted by Yosei's ability become illegal targets, nothing becomes tapped, but the target player still skips their untap step.
+  - *2017-11-17* — If any of the targets of Yosei's ability are illegal, they won't be tapped.
+  - *2017-11-17* — If more than one effect instructs a player to skip their next untap step, such as if Yosei dies more than once in a turn, that player skips that many untap steps. This is different from effects that state that something doesn't untap during an untap step.
+  - *2017-11-17* — If the player becomes an illegal target, the target permanents are tapped, but the player doesn't skip their untap step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/39/yosei-the-morning-star) · oracle_id `5c2d0ead-8bfc-4ca7-9b38-2fc07af1c1d5` · printing: IMA #39 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yoshimaru, Beloved Companion
 
@@ -200,6 +217,7 @@
 - **Flavor text** (FRA printing):
   > *The Emperor spared no comfort for the friend who had so diligently awaited her return.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15958 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/209/yoshimaru-beloved-companion) · oracle_id `c00a0be5-d9a9-4263-a87e-7bf2d128ab3a` · printing: FRA #209 (2026-10-02) · [rulings](https://api.scryfall.com/cards/384f3b7d-8d7f-41bf-bebd-64e8babe7fca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yoshimaru, Ever Faithful
@@ -229,6 +247,7 @@
   > *His cunning leadership of Towashi's dogs earned him the nickname "The Stray Emperor."*
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24325 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/269/yoshimaru-scrappy-stray) · oracle_id `c87da757-3daa-4874-a1e4-be0aa2adcb28` · printing: FRA #269 (2026-10-02) · [rulings](https://api.scryfall.com/cards/b8dfd087-2434-42c6-ac4c-1decbcdde2db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yotia Declares War
@@ -242,7 +261,12 @@
   > III — Up to one target artifact you control becomes an artifact creature with base power and toughness 4/4 until end of turn.
 - **Keywords:** Read Ahead
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21456 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/153/yotia-declares-war) · oracle_id `4ce785b9-aee0-4ac6-ab20-ee20d0551be4` · printing: DMU #153 (2022-09-09) · [rulings](https://api.scryfall.com/cards/3bd9e99a-ae8c-4323-aa86-b19288c877d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-09-09* — As a Saga with read ahead enters the battlefield, its controller chooses a number from one to that Saga's greatest chapter number. The Saga enters the battlefield with the chosen number of lore counters. Neither choosing the number nor putting the counters on the Saga use the stack, and neither can be responded to.
+  - *2022-09-09* — If you choose to tap zero artifacts as the second chapter ability resolves, the reflexive triggered ability still triggers, but deals no damage to the target creature or planeswalker.
+  - *2022-09-09* — Yotia Declares War was mistakenly printed with the word "artifact" omitted from its final chapter ability, and it has received an update to its Oracle text. 
+  - *2022-09-09* — You don't choose the target creature or planeswalker as you put the second chapter ability of Yotia Declares War on the stack. First, you tap any number of artifacts. Then, a second "reflexive" ability triggers (denoted by the phrase "when you do") that requires a target. Players may respond to the reflexive triggered ability as normal, and they will know how many artifacts were tapped when they do.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/153/yotia-declares-war) · oracle_id `4ce785b9-aee0-4ac6-ab20-ee20d0551be4` · printing: DMU #153 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yotian Dissident
 
@@ -254,6 +278,7 @@
 - **Flavor text** (BRO printing):
   > *"I joined this war to protect my homeland, not to destroy someone else's."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10039 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/227/yotian-dissident) · oracle_id `6ad61622-a70f-423c-99e3-b1ef6ead0b31` · printing: BRO #227 (2022-11-18) · [rulings](https://api.scryfall.com/cards/1eb02f00-c188-4193-a049-d26f7643e5da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yotian Frontliner
@@ -266,7 +291,13 @@
   > Unearth {W} ({W}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
 - **Keywords:** Unearth
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21578 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/42/yotian-frontliner) · oracle_id `cd39e485-71ba-40cb-8608-f5a0dfb7ef5f` · printing: BRO #42 (2022-11-18) · [rulings](https://api.scryfall.com/cards/bfa05d1e-6728-4e77-bfb2-da0b9598e44b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-10-14* — Activating a card's unearth ability isn't the same as casting that card. The unearth ability is put on the stack, but the card is not. Spells and abilities that interact with activated abilities (such as Defabricate's second mode) will interact with unearth, but spells and abilities that interact with spells (such as Scatter Ray) will not.
+  - *2022-10-14* — At the beginning of the next end step, a permanent returned to the battlefield with unearth is exiled. This is a delayed triggered ability, and it can be countered by effects such as Defabricate that counter triggered abilities. If the ability is countered, the permanent will stay on the battlefield and the delayed triggered ability won't trigger again. However, the replacement effect will still exile the permanent if it eventually leaves the battlefield.
+  - *2022-10-14* — If a permanent returned to the battlefield with unearth would leave the battlefield for any reason, it's exiled instead—unless the spell or ability that's causing the permanent to leave the battlefield is actually trying to exile it! In that case, it succeeds at exiling it. If that spell or ability later returns the card to the battlefield (as Static Net might, for example), the permanent card will return to the battlefield as a new object with no relation to its previous existence. The unearth effects will no longer apply to it.
+  - *2022-10-14* — If you activate a card's unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will do nothing as it resolves.
+  - *2022-10-14* — Unearth grants haste to the permanent that's returned to the battlefield (even if it's not a creature card). However, neither of the "exile" abilities is granted to that permanent. If that permanent loses all its abilities, it will still be exiled at the beginning of the next end step, and if it would leave the battlefield, it is still exiled instead.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/42/yotian-frontliner) · oracle_id `cd39e485-71ba-40cb-8608-f5a0dfb7ef5f` · printing: BRO #42 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yotian Medic
 
@@ -280,6 +311,7 @@
   > *—Queen Kayla bin-Kroog*
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25819 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/33/yotian-medic) · oracle_id `d218b9ad-3a6f-4bda-90c6-3f869c6c4e6d` · printing: BRO #33 (2022-11-18) · [rulings](https://api.scryfall.com/cards/f21b9c48-6eca-4677-961b-614f5ec594ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yotian Soldier
@@ -293,6 +325,7 @@
   > *Poets dream the verses of otherworldly stories. Artificers dream the blueprints of otherplanar artifacts.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26385 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/249/yotian-soldier) · oracle_id `645571f1-a775-4834-8b79-8852d38c9587` · printing: BBD #249 (2018-06-08) · [rulings](https://api.scryfall.com/cards/9e71190b-c96c-4aea-9696-780c69eff395/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yotian Tactician
@@ -305,6 +338,7 @@
 - **Flavor text** (BRO printing):
   > *"Time for the Iron Alliance to remind the qadir's army how inhospitable the Sword Marches can be."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19781 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/228/yotian-tactician) · oracle_id `0d9d7f04-6319-4596-8b74-de5a794936e5` · printing: BRO #228 (2022-11-18) · [rulings](https://api.scryfall.com/cards/760c0369-c2e4-4bd7-a301-9f707f5f48a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You and Ooze Army?
@@ -314,6 +348,7 @@
 - **Oracle text:**
   > Amass Oozes X, where X is the number of creature types among creatures on the battlefield. Don't count changelings. That would be ridiculous. (To amass Oozes X, put X +1/+1 counters on an Army you control. It's also an Ooze. If you don't control an Army, create a 0/0 black Ooze Army creature token first.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UG04a/you-and-ooze-army%3F) · oracle_id `cc51796f-e29c-4aa2-a12c-faf8493ccc42` · printing: UNK #UG04a (2025-06-20) · [rulings](https://api.scryfall.com/cards/31fc3b0b-3a37-4fe1-8aba-7ca75f26b54e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You Are Already Dead
@@ -338,7 +373,10 @@
 - **Flavor text** (LTR printing):
   > *It raised the whip, and the thongs whined and cracked. Fire came from its nostrils. But Gandalf stood firm.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10484 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/38/you-cannot-pass!) · oracle_id `8e94ccdb-5978-440b-b7cd-11c7ca6b2c98` · printing: LTR #38 (2023-06-23) · [rulings](https://api.scryfall.com/cards/116d4030-acd2-4aa2-8254-aaaff1264459/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-06-16* — You Cannot Pass! can target a creature that's currently blocking or being blocked by a legendary creature, or one that blocked or was blocked by a legendary creature earlier in the turn.
+  - *2023-06-16* — You Cannot Pass! only cares that the second creature was a legendary creature at the moment it blocked or became blocked by the target creature. If that legendary creature has become a nonlegendary creature (perhaps because it's no longer your Ring-bearer) or left the battlefield, You Cannot Pass! can still target the first creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/38/you-cannot-pass!) · oracle_id `8e94ccdb-5978-440b-b7cd-11c7ca6b2c98` · printing: LTR #38 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You Come to a River
 
@@ -365,7 +403,9 @@
   > *"Easy now, everyone. I'll take care of this."*
   > *—Nadaar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18117 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/168/you-come-to-the-gnoll-camp) · oracle_id `e0945337-1833-4545-a83f-fca673e7f0d0` · printing: AFR #168 (2021-07-23) · [rulings](https://api.scryfall.com/cards/0e893613-423e-409b-9334-292bd252405b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-07-23* — Casting this spell and choosing the Intimidate Them mode after blockers have been declared won't change or undo any blocks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/168/you-come-to-the-gnoll-camp) · oracle_id `e0945337-1833-4545-a83f-fca673e7f0d0` · printing: AFR #168 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You Compleat Me
 
@@ -374,7 +414,13 @@
 - **Oracle text:**
   > If your life total is greater than 10, it becomes 10. For the rest of the game, your maximum life total is 10. You get an emblem with "Pay 2 life: Add one mana of any color" and "At the beginning of your upkeep, you draw a card and you lose 1 life."
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/556/you-compleat-me) · oracle_id `01ac8323-28c5-4ab6-984c-5067aacb89c5` · printing: MB2 #556 (2024-08-02) · [rulings](https://api.scryfall.com/cards/afb8ebe9-8648-4bd1-b725-e0d9656f53e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — If an effect would cause you to gain life past your maximum life total, you won’t gain any life above your maximum life total. For example, say your life total is 8 and your maximum life total is 10. You cast Azorius Herald, which has “When this creature enters, you gain 4 life.” You’ll gain 2 life, putting your life total back up to its maximum of 10.
+  - *2024-11-08* — Maximum life total means just that. After resolving You Compleat Me, you can’t have more than 10 life. Ever. No matter what.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/556/you-compleat-me) · oracle_id `01ac8323-28c5-4ab6-984c-5067aacb89c5` · printing: MB2 #556 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You Find a Cursed Idol
 
@@ -387,7 +433,18 @@
   > • Steal Its Eyes — Create a Treasure token and venture into the dungeon. (Enter the first room or advance to the next room.)
 - **Keywords:** Treasure, Venture into the dungeon
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12636 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/213/you-find-a-cursed-idol) · oracle_id `aa7b41ba-08eb-40b8-a8d5-e67dc09c88ba` · printing: AFR #213 (2021-07-23) · [rulings](https://api.scryfall.com/cards/efb5671a-942a-4730-9756-32fe600e0528/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2021-07-23* — A player may only have one dungeon in the command zone at a time.
+  - *2021-07-23* — Choosing the dungeon or room to venture into is part of resolving the venture into the dungeon keyword action. Once that choice is made, players may not respond until after the appropriate room ability has triggered.
+  - *2021-07-23* — Dungeon cards are not part of a player's deck or sideboard. In both constructed and limited formats, players can use any dungeon card when they venture into the dungeon.
+  - *2021-07-23* — Dungeons are removed from the game as a state-based action.
+  - *2021-07-23* — If you somehow venture into the dungeon while a room's ability is on the stack, you will continue on in the dungeon. If you're already in the last room, complete that dungeon and start a new one.
+  - *2021-07-23* — Moving into a dungeon room will cause its room ability to trigger.
+  - *2021-07-23* — Once you resolve the last room ability of a dungeon, that dungeon is now completed and is removed from the game.
+  - *2021-07-23* — The player venturing into the dungeon chooses which dungeon they will venture into. They may choose a dungeon that they have already completed this game.
+  - *2021-07-23* — To venture into the dungeon, a player moves their venture marker into the next room of the dungeon they are currently in. If they aren't currently in a dungeon, that player instead chooses a dungeon card from outside the game, puts it into the command zone, and moves their venture marker onto the first room.
+  - *2021-07-23* — You can only move forward (well, downward) in a dungeon, never backwards or sideways.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/213/you-find-a-cursed-idol) · oracle_id `aa7b41ba-08eb-40b8-a8d5-e67dc09c88ba` · printing: AFR #213 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You Find Some Prisoners
 
@@ -437,6 +494,7 @@
   > • Rouse the Party — Creatures you control get +1/+1 until end of turn.
   > • Set Off Traps — This spell deals 5 damage to target attacking creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20861 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/42/you-hear-something-on-watch) · oracle_id `55d94c09-b6aa-4af5-923a-b4efc2a245df` · printing: AFR #42 (2021-07-23) · [rulings](https://api.scryfall.com/cards/76e939ab-9d0c-4685-805c-c8bc4e6af163/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You, Iterative Playtester
@@ -448,6 +506,7 @@
   > {T}: Choose another target playtest card. Increase or decrease a number of your choice on it by 1 for as long as it remains on the stack or battlefield. (You can change numerals or number words.)
   > {W}{U}{B}{R}{G}: Reveal the top eight cards of your library. Put each playtest card among them into your hand. Put the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/MW02a/you-iterative-playtester) · oracle_id `978dd38e-a015-4f1f-9cca-8705f6fd33ce` · printing: UNK #MW02a (2025-02-21) · [rulings](https://api.scryfall.com/cards/88526e64-0b1a-48b4-9f11-8233871f2665/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You Look Upon the Tarrasque
@@ -474,6 +533,7 @@
 - **Flavor text** (UNK printing):
   > *Prize Card for the Unknown events at MagicCon Las Vegas, September 23-24, 2023.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/MW02/you-magic-playtester) · oracle_id `cc924286-3421-442e-b1a9-0b371a75159c` · printing: UNK #MW02 (2023-09-23) · [rulings](https://api.scryfall.com/cards/5e65800a-6dbd-44ec-b630-79fc4ad6ffe1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You Meet in a Tavern
@@ -485,6 +545,7 @@
   > • Form a Party — Look at the top five cards of your library. You may reveal any number of creature cards from among them and put them into your hand. Put the rest on the bottom of your library in a random order.
   > • Start a Brawl — Creatures you control get +2/+2 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15272 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/263/you-meet-in-a-tavern) · oracle_id `c735077a-fae8-4c5f-a5bf-35969696460c` · printing: CLB #263 (2022-06-10) · [rulings](https://api.scryfall.com/cards/9fddbd7a-799c-4432-810c-d839c5c354b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Young Blue Dragon // Sand Augury
@@ -501,7 +562,19 @@
   > *"I see the far side of tomorrow and the lost memories of queens. What do you wish to learn?"*
 - **Keywords:** Scry, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10089 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/106/young-blue-dragon-sand-augury) · oracle_id `fff28b30-9903-4a0a-a723-31216abd457d` · printing: CLB #106 (2022-06-10) · [rulings](https://api.scryfall.com/cards/56b0f66b-dca9-4a01-9394-20a513c2b225/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2022-06-10* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it’s in your graveyard, Altar of Bhaal is an artifact card whose mana value is 2.
+  - *2022-06-10* — An effect may refer to a card, spell, or permanent that “has an Adventure.” This refers to a card, spell, or permanent that has an adventurer card’s set of alternative characteristics, even if they’re not being used and even if that card was never cast as an Adventure.
+  - *2022-06-10* — Casting a card as an Adventure isn’t casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2022-06-10* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner’s graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won’t be exiled and the spell’s controller won’t be able to cast it as a permanent later.
+  - *2022-06-10* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won’t give you permission to cast it as a permanent spell.
+  - *2022-06-10* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it’s not possible to cast the copy from exile.
+  - *2022-06-10* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2022-06-10* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it’s a token) or cease to be a copy (if it’s a nontoken permanent), and so you won’t be able to cast it as an Adventure.
+  - *2022-06-10* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell.
+  - *2022-06-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2022-06-10* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/106/young-blue-dragon-sand-augury) · oracle_id `fff28b30-9903-4a0a-a723-31216abd457d` · printing: CLB #106 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Young Deathclaws
 
@@ -513,7 +586,13 @@
   > Each creature card in your graveyard has scavenge. The scavenge cost is equal to its mana cost. (Exile a creature card from your graveyard and pay its mana cost: Put a number of +1/+1 counters equal to that card's power on target creature. Scavenge only as a sorcery.)
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11715 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/125/young-deathclaws) · oracle_id `f24fc213-6341-482c-a056-946d0f1dd76b` · printing: PIP #125 (2024-03-08) · [rulings](https://api.scryfall.com/cards/64d5e6bd-de46-4bc2-854b-cc6cae713f98/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-03-08* — Exiling the creature card with scavenge is part of the cost of activating the scavenge ability. Once the ability is activated and the cost is paid, it’s too late to stop the ability from being activated by trying to remove the creature card from the graveyard.
+  - *2024-03-08* — If a creature card has multiple instances of scavenge, you can activate either ability (but not both, as the card will be exiled when you activate one of them). Young Deathclaws’s ability doesn’t affect the scavenge cost of a creature’s other scavenge ability.
+  - *2024-03-08* — If the creature card you scavenge has {X} in its mana cost, X is 0.
+  - *2024-03-08* — The number of counters that a card’s scavenge ability puts on a creature is based on the card’s power as it last existed in the graveyard.
+  - *2024-03-08* — While Young Deathclaws is on the battlefield, the scavenge cost of a creature card in your graveyard is equal to its mana cost, including any colored mana requirements.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/125/young-deathclaws) · oracle_id `f24fc213-6341-482c-a056-946d0f1dd76b` · printing: PIP #125 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Young Necromancer
 
@@ -525,7 +604,9 @@
 - **Flavor text** (MH2 printing):
   > *"Who needs imaginary friends when you've got dead ones?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14752 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/110/young-necromancer) · oracle_id `17455491-c295-4130-99b4-1b5c6ac1cd25` · printing: MH2 #110 (2021-06-18) · [rulings](https://api.scryfall.com/cards/84b5f6da-5e0f-4cce-92fe-7aa69124e265/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-06-18* — Young Necromancer's reflexive triggered ability (the one that returns a card to the battlefield) triggers when you exile two cards from your graveyard. Players may respond to that ability before the card is returned.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/110/young-necromancer) · oracle_id `17455491-c295-4130-99b4-1b5c6ac1cd25` · printing: MH2 #110 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Young Pyromancer
 
@@ -556,7 +637,19 @@
   > *For most, deadly. For a dragon, decadent.*
 - **Keywords:** Flying, Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11541 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/210/young-red-dragon-bathe-in-gold) · oracle_id `2f865ae9-9328-4f6f-924f-d5e0a65aaa96` · printing: CLB #210 (2022-06-10) · [rulings](https://api.scryfall.com/cards/d0b9865a-be87-48fd-a325-be6aca8a31e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2022-06-10* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it’s in your graveyard, Altar of Bhaal is an artifact card whose mana value is 2.
+  - *2022-06-10* — An effect may refer to a card, spell, or permanent that “has an Adventure.” This refers to a card, spell, or permanent that has an adventurer card’s set of alternative characteristics, even if they’re not being used and even if that card was never cast as an Adventure.
+  - *2022-06-10* — Casting a card as an Adventure isn’t casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2022-06-10* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner’s graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won’t be exiled and the spell’s controller won’t be able to cast it as a permanent later.
+  - *2022-06-10* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won’t give you permission to cast it as a permanent spell.
+  - *2022-06-10* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it’s not possible to cast the copy from exile.
+  - *2022-06-10* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2022-06-10* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it’s a token) or cease to be a copy (if it’s a nontoken permanent), and so you won’t be able to cast it as an Adventure.
+  - *2022-06-10* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell.
+  - *2022-06-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2022-06-10* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/210/young-red-dragon-bathe-in-gold) · oracle_id `2f865ae9-9328-4f6f-924f-d5e0a65aaa96` · printing: CLB #210 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Young Wei Recruits
 
@@ -569,6 +662,7 @@
   > *"To send the common people to war untrained is to throw them away."*
   > *—Confucius, The Analects (trans. Lau)*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32060 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/84/young-wei-recruits) · oracle_id `cdada8f0-d001-485c-a245-5e1c1ab748ab` · printing: ME3 #84 (2009-09-07) · [rulings](https://api.scryfall.com/cards/9cae2231-183a-4627-be49-f59fb1d951cf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Young Wolf
@@ -596,6 +690,7 @@
 - **Flavor text** (AFR printing):
   > *"Hand over your loot and no one gets hurt!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20339 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/43/youre-ambushed-on-the-road) · oracle_id `934ef52e-3e97-418a-bbcf-114badbb2c8a` · printing: AFR #43 (2021-07-23) · [rulings](https://api.scryfall.com/cards/726da84a-fdd4-46df-8ba4-f94d582bcce4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You're Confronted by Robbers
@@ -610,6 +705,7 @@
   > *Their only mistake was giving the bard time to speak.*
 - **Keywords:** Call for Aid, Stall for Time
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16301 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/53/youre-confronted-by-robbers) · oracle_id `7d10ad59-e90d-4726-bd55-5680d7c21638` · printing: CLB #53 (2022-06-10) · [rulings](https://api.scryfall.com/cards/f76e5d23-a45f-4100-8638-fce33f290fc6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You're in Command
@@ -619,7 +715,14 @@
 - **Oracle text:**
   > Choose target creature you own and control. That creature becomes your commander. Any other commanders you have are no longer your commander. (That creature starts with a commander tax of {0}.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/15/youre-in-command) · oracle_id `2234989f-270e-4d4c-9800-4fbf3176939d` · printing: CMB2 #15 (2021-08-20) · [rulings](https://api.scryfall.com/cards/f8604945-8dbb-47d1-a56c-9dcd84d2a6e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2019-11-12* — If You’re in Command targets a creature that’s represented by multiple cards, each of those cards become your commander. The additional cost to cast them and combat damage dealt by them are tracked separately for each card. Damage dealt while they’re together representing one creature counts for each of those commanders.
+  - *2019-11-12* — If a card becomes your commander during a game, no deckbuilding rules of the Commander variant apply. You can still play cards that don’t correspond to that commander’s color identity.
+  - *2019-11-12* — If you cast You’re in Command targeting a token and that token leaves the battlefield, it ceases to exist. Why did you put a token in charge?
+  - *2019-11-12* — If you have a commander in the command zone as You’re in Command resolves, that card is no longer your commander. It remains in the command zone and can’t be cast.
+  - *2019-11-12* — To become your commander, the following things are true: If your commander would be put into a zone other than the stack or battlefield, you may put it into the command zone instead. You may cast that commander from the command zone. You pay an additional {2} for each time you’ve cast it from the command zone this game. If a commander has dealt 21 combat damage to a player while it’s a commander, that player loses the game. Damage dealt before it was your commander isn’t counted.
+  - *2019-11-12* — You’re in Command gives you a commander even if you’re not playing a Commander game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/15/youre-in-command) · oracle_id `2234989f-270e-4d4c-9800-4fbf3176939d` · printing: CMB2 #15 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You're Not Alone
 
@@ -631,6 +734,7 @@
   > *"You've always protected us. But you still don't understand that we looked out for you, too!"*
   > *—Dagger*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12518 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/44/youre-not-alone) · oracle_id `9dbc2fc8-ed42-4534-9676-bf0695cd518c` · printing: FIN #44 (2025-06-13) · [rulings](https://api.scryfall.com/cards/1867b5cb-2bb0-4f49-b302-036fdffa2344/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You're Toast!
@@ -640,6 +744,7 @@
 - **Oracle text:**
   > Exile target nonland permanent. Its controller manifests bread. (They look at the top two cards of their library and put one into their graveyard and the other onto the battlefield face down as a Food artifact with "{2}, {T}, Sacrifice this artifact: You gain 3 life." It can't be turned face up. It's bread.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UW13/youre-toast!) · oracle_id `c650d0ae-d63e-4647-89cb-360d853e9985` · printing: UNK #UW13 (2025-06-20) · [rulings](https://api.scryfall.com/cards/8f23d316-6892-4720-8b93-1a7f223ad2f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Your Fate Ends Here
@@ -652,7 +757,9 @@
   > *"The future looms large over the present, and you're blocking my view."*
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24655 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/24/your-fate-ends-here) · oracle_id `28a362c2-0c99-48e0-b9cb-485a6c1f350b` · printing: FRA #24 (2026-10-02) · [rulings](https://api.scryfall.com/cards/25000a17-b701-4d69-b2ef-2c74029199d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-08-21* — If a creature or planeswalker has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/24/your-fate-ends-here) · oracle_id `28a362c2-0c99-48e0-b9cb-485a6c1f350b` · printing: FRA #24 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Your Favorite Character
 
@@ -662,6 +769,7 @@
 - **Oracle text:**
   > As the game begins, if Your Favorite Character is your commander, or as Your Favorite Character enters the battlefield if it's not your commander, name a character from the Magic storyline. Choose up to three colors, two creature types, and then two keywords from among vigilance, flying, haste, trample, and menace. Your Favorite Character has the chosen name, types, colors, and keywords.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RC05c/your-favorite-character) · oracle_id `314e0ba3-7245-40d8-b356-93384124c405` · printing: UNK #RC05c (2023-07-29) · [rulings](https://api.scryfall.com/cards/e973ca42-22ff-4e50-a9af-548bfc866484/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Your Favorite Missing Character
@@ -677,6 +785,7 @@
   > • Whenever you cast a noncreature spell, this creature deals 1 damage to each opponent.
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UZ03/your-favorite-missing-character) · oracle_id `d0908840-684a-40fe-a066-88f0f97d010c` · printing: UNK #UZ03 (2025-06-20) · [rulings](https://api.scryfall.com/cards/6e072dfb-c484-43a9-a276-09f210b54e7f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Your Mana Rock
@@ -688,6 +797,7 @@
   > During deckbuilding, write two different colors on Your Mana Rock.
   > {T}: Add one mana of a color written on Your Mana Rock.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/CA02b/your-mana-rock) · oracle_id `5fb2aa71-0be9-44af-b5c1-02ab1c9c1733` · printing: UNK #CA02b (2023-07-29) · [rulings](https://api.scryfall.com/cards/1835cc39-4370-4534-9c2a-03596c6f8070/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Your Temple Is Under Attack
@@ -712,7 +822,14 @@
 - **Oracle text:**
   > You may cast an instant or sorcery spell from your sideboard. If you cast a modal spell this way, you may choose an additional mode. (A modal spell lets you choose one or more modes from a bulleted list.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/540/your-wish-is-my-command) · oracle_id `47a6a5e9-61a2-45a8-b2b9-90d12d16658d` · printing: MB2 #540 (2024-08-02) · [rulings](https://api.scryfall.com/cards/95b399c4-d221-4312-a0fd-6bd43e8ba30b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — As Your Wish Is My Command resolves, you find an instant or sorcery spell from among cards in your sideboard and choose whether or not to cast it. If you do, you cast it as part of the resolution of Your Wish Is My Command. You can’t wait to cast it later in the turn. Timing restrictions based on the card’s type are ignored.
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+  - *2024-11-08* — The additional mode you choose can’t be the same as one you’re already choosing with that spell unless that spell allows you to choose the same mode more than once.
+  - *2024-11-08* — You pay all costs for the instant or sorcery spell you cast this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/540/your-wish-is-my-command) · oracle_id `47a6a5e9-61a2-45a8-b2b9-90d12d16658d` · printing: MB2 #540 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You See a Guard Approach
 
@@ -755,6 +872,7 @@
   > *—Syr Alin, the Lion's Claw*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23564 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/37/youthful-knight) · oracle_id `ef2a24f5-ce5e-4054-843a-2cae0c66318a` · printing: ELD #37 (2019-10-04) · [rulings](https://api.scryfall.com/cards/3d1a3fec-39de-4223-9da2-22749a58cd62/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Youthful Scholar
@@ -768,6 +886,7 @@
   > *"Too dumb, and you end up a sibsig. Too smart, and you end up a meal. Mediocrity is the key to a long life."*
   > *—Mogai, Silumgar noble*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27322 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/84/youthful-scholar) · oracle_id `070bd1e8-6c61-4b0e-b179-e375b843410f` · printing: DTK #84 (2015-03-27) · [rulings](https://api.scryfall.com/cards/43ae8147-bf25-44f9-b75f-837b81ebe0de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Youthful Valkyrie
@@ -795,4 +914,5 @@
   > • Bribe the Guards — You create a Treasure token for each opponent who was dealt damage this turn. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.")
 - **Keywords:** Bribe the Guards, Treasure, Threaten the Merchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13040 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/211/youve-been-caught-stealing) · oracle_id `750b61a1-7eb1-4ce2-8a56-fa63f8e48755` · printing: CLB #211 (2022-06-10) · [rulings](https://api.scryfall.com/cards/82730ad9-26d1-4349-a1f0-10307d76ad97/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

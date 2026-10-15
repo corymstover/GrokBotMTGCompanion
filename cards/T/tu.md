@@ -95,7 +95,19 @@
 - **Oracle text:**
   > Players play a subgame starting at 5 life and with up to three permanent cards with different names from their main-game library on the battlefield. As the subgame ends, the winner chooses one of the cards they put onto the battlefield as the subgame began and puts it onto the battlefield rather than shuffling it into their library.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32272 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/159/tug-of-war) · oracle_id `c9f084fa-d2ed-450a-abab-aaa26a57da3c` · printing: UNF #159 (2022-10-07) · [rulings](https://api.scryfall.com/cards/db51cafc-7177-4644-b149-4bef3b73fea8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2022-10-07* — After subgame mulligans are complete, the starting player puts the cards they set aside onto the battlefield. Each other player in turn order does the same.
+  - *2022-10-07* — After the subgame ends, each player shuffles their cards from the subgame to re-form their main-game library (and Attraction deck, if applicable), and they return to the main game from the point they left off, with Tug of War finishing resolving and the winner of the subgame getting their reward. No counters, stickers, or other effects from the subgame move back into the main game.
+  - *2022-10-07* — As players are shuffling their main-game libraries to form their subgame libraries, they should set aside the cards they wish to have on the subgame battlefield as the subgame begins.
+  - *2022-10-07* — If a player has fewer than seven cards in their main-game library, they’ll lose the subgame as it begins, regardless of how many mulligans that player takes.
+  - *2022-10-07* — If any abilities trigger during this process, they’ll be put on the stack the next time a player gets priority, usually during the subgame’s first upkeep.
+  - *2022-10-07* — If the subgame is a draw, no player won the subgame, so nobody gets to put a permanent onto the battlefield in the main game.
+  - *2022-10-07* — In a Commander game, if a commander is in the command zone, its owner puts it into the command zone of the subgame and removes all stickers from it. After the subgame, each player may put any commanders they own in the subgame into the command zone of the main game. If a commander was in the command zone of the subgame, it automatically moves to the command zone of the main game.
+  - *2022-10-07* — In a Constructed format, each player selects a new set of sticker sheets at the start of the subgame from among all sticker sheets they have (including the ones in the main game) the same way they do at the start of a normal game of Magic. This doesn’t impact the sticker sheets they are allowed to use in the main game.
+  - *2022-10-07* — In a Limited format, each player selects three sticker sheets at the start of the subgame from among all sticker sheets they opened (including the ones in the main game) the same way they would at the start of a normal game of Magic. This doesn’t have any effect on which sticker sheets they are allowed to use in the main game.
+  - *2022-10-07* — The card that the subgame winner puts onto the main-game battlefield doesn’t have to come from the subgame battlefield. It could have died, been shuffled into a library, or anything else during the subgame.
+  - *2022-10-07* — To play a subgame, all players start a new game using their libraries as their decks. Any supplementary decks a player has (for example, an Attraction deck) also get shuffled and brought into the subgame. No other cards, tokens, emblems, or anything else from the main game are included in the subgame unless otherwise specified here or in the effect that created that subgame.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/159/tug-of-war) · oracle_id `c9f084fa-d2ed-450a-abab-aaa26a57da3c` · printing: UNF #159 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tui and La, Moon and Ocean
 
@@ -109,6 +121,7 @@
   > *"Our strength comes from the spirit of the moon; our life comes from the spirit of the ocean. They work together to keep balance."*
   > *—Princess Yue*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12312 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/96/tui-and-la-moon-and-ocean) · oracle_id `781c9391-0322-40ad-8050-07151e2e6fc7` · printing: TLE #96 (2025-11-21) · [rulings](https://api.scryfall.com/cards/edf0d06a-4eef-40cb-951c-74d7e0ffae13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tuinvale Guide
@@ -123,7 +136,13 @@
   > *"Weary traveler, follow me. The night is a cage, and my light is the key."*
 - **Keywords:** Flying, Celebration
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29341 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/36/tuinvale-guide) · oracle_id `dab16c93-9788-46e0-9345-838ebeda8d54` · printing: WOE #36 (2023-09-08) · [rulings](https://api.scryfall.com/cards/01334fed-781e-4864-83fd-d37f787a778b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-09-01* — Celebration abilities only care if two or more nonland permanents entered the battlefield under your control in a turn. They won't get more powerful if more than two permanents entered the battlefield under your control in a turn.
+  - *2023-09-01* — Each celebration ability has a different effect.
+  - *2023-09-01* — Others are static abilities that give creatures abilities or power and toughness increases as long as two or more nonland permanents entered the battlefield under your control that turn.
+  - *2023-09-01* — Some celebration abilities trigger at specific parts of the turn and check whether two or more nonland permanents entered the battlefield under your control already in that turn.
+  - *2023-09-01* — The permanents that entered the battlefield don't need to remain on the battlefield or under your control. Celebration abilities are checking for past events, not the current game state.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/36/tuinvale-guide) · oracle_id `dab16c93-9788-46e0-9345-838ebeda8d54` · printing: WOE #36 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tuinvale Treefolk // Oaken Boon
 
@@ -138,7 +157,18 @@
 - **Flavor text** (ELD printing):
   > *"Right now you are a feeble stick, but I will help you grow some rings."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16623 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/180/tuinvale-treefolk-oaken-boon) · oracle_id `09193c40-538c-4154-a671-076eece35e54` · printing: ELD #180 (2019-10-04) · [rulings](https://api.scryfall.com/cards/8bc518fc-904e-4e39-aeda-ffb222bfcc82/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2019-10-04* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Giant Killer is a white creature card whose mana value is 1. It can't be the target of the triggered ability of Mystic Sanctuary.
+  - *2019-10-04* — Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2019-10-04* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to cast it as a permanent later.
+  - *2019-10-04* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to cast it as a permanent spell.
+  - *2019-10-04* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to cast the copy as a permanent.
+  - *2019-10-04* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2019-10-04* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+  - *2019-10-04* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if Giant Killer is exiled with the last ability of Vivien, Champion of the Wilds, you can't cast it as Chop Down.
+  - *2019-10-04* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2019-10-04* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/180/tuinvale-treefolk-oaken-boon) · oracle_id `09193c40-538c-4154-a671-076eece35e54` · printing: ELD #180 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tukatongue Thallid
 
@@ -150,6 +180,7 @@
 - **Flavor text** (PCA printing):
   > *Jund's thallids tried to disguise their deliciousness by covering themselves in spines harvested from the tukatongue tree.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13983 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pca/79/tukatongue-thallid) · oracle_id `c7dbd008-e941-497e-8305-80c53b1dffe2` · printing: PCA #79 (2016-11-25) · [rulings](https://api.scryfall.com/cards/e870e12e-feed-46e1-ac3c-3b6687780825/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tuknir Deathlock
@@ -164,6 +195,7 @@
   > *An explorer of the Æther, Tuknir often discovers himself in the most unusual physical realms.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30903 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/184/tuknir-deathlock) · oracle_id `0b6fa658-a344-4202-866b-e19997e32ff2` · printing: ME3 #184 (2009-09-07) · [rulings](https://api.scryfall.com/cards/5ab10b32-00b6-40b7-ad5e-ff2fd35951ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tuktuk Grunts
@@ -178,7 +210,9 @@
   > *Goblins are more aggressive with a crowd to cheer them on.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27686 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/zen/152/tuktuk-grunts) · oracle_id `200ce414-8583-4bbd-88a6-ca30babb613d` · printing: ZEN #152 (2009-10-02) · [rulings](https://api.scryfall.com/cards/e6f37982-d2ae-4ff1-b5da-3936733f8108/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — This ability triggers on this creature entering, so it will enter with its unmodified power and toughness, and then receive a +1/+1 counter a short time later. It does not enter with the +1/+1 counter already on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/zen/152/tuktuk-grunts) · oracle_id `200ce414-8583-4bbd-88a6-ca30babb613d` · printing: ZEN #152 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tuktuk Rubblefort
 
@@ -203,7 +237,10 @@
 - **Oracle text:**
   > Whenever this creature or another Ally you control enters, you may destroy target artifact. If that artifact is put into a graveyard this way, this creature deals damage to that artifact's controller equal to the number of Allies you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10797 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/94/tuktuk-scrapper) · oracle_id `85cf2403-b419-4364-8ac9-67dd1ceddf9e` · printing: WWK #94 (2010-02-05) · [rulings](https://api.scryfall.com/cards/d3a84a2a-6384-497a-8ee2-de0fa74fcc80/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2010-03-01* — A token permanent that’s destroyed is put into its owner’s graveyard before it ceases to exist. If a token is destroyed by Tuktuk Scrapper’s ability, Tuktuk Scrapper deals damage to that token’s controller.
+  - *2013-07-01* — If the targeted artifact hass indestructible or regenerates (or you choose not to destroy it), Tuktuk Scrapper doesn’t deal damage to that artifact’s controller. Similarly, if the targeted artifact is destroyed but a replacement effect moves it to a different zone instead of its owner’s graveyard, Tuktuk Scrapper doesn’t deal damage to that artifact’s controller.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/94/tuktuk-scrapper) · oracle_id `85cf2403-b419-4364-8ac9-67dd1ceddf9e` · printing: WWK #94 (2010-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tuktuk the Explorer
 
@@ -217,7 +254,9 @@
   > *Remade by Eldrazi magic, Tuktuk inspired an entire clan of misguided goblins.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15273 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/149/tuktuk-the-explorer) · oracle_id `754e227b-ff31-4b5c-b612-2221c2b44246` · printing: 2XM #149 (2020-08-07) · [rulings](https://api.scryfall.com/cards/b17f5403-7692-41ca-a3c9-b81c31bddc00/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2010-06-15* — Both Tuktuk the Explorer and Tuktuk the Returned are legendary creatures. However, since they have different names, one of each may coexist without being affected by the “legend rule.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/149/tuktuk-the-explorer) · oracle_id `754e227b-ff31-4b5c-b612-2221c2b44246` · printing: 2XM #149 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tumble Magnet
 
@@ -229,7 +268,9 @@
 - **Flavor text** (2XM printing):
   > *Magnetic devices that keep massive golems and structures standing can also be used for the opposite purpose.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26745 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/304/tumble-magnet) · oracle_id `0481adcd-b66d-432e-80ba-3a4718bb3a7d` · printing: 2XM #304 (2020-08-07) · [rulings](https://api.scryfall.com/cards/74baa632-d046-401a-9172-1ab6284240bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — Once Tumble Magnet has run out of charge counters, it remains on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/304/tumble-magnet) · oracle_id `0481adcd-b66d-432e-80ba-3a4718bb3a7d` · printing: 2XM #304 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tumbleweed Rising
 
@@ -242,7 +283,14 @@
   > *When weeds tumble against the wind, \*run\*.*
 - **Keywords:** Plot
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13996 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/187/tumbleweed-rising) · oracle_id `ef574346-1d98-447d-acb6-4d8d53c5f651` · printing: OTJ #187 (2024-04-19) · [rulings](https://api.scryfall.com/cards/275d2d2a-ef85-48c9-919d-bc62cdad8a10/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-04-12* — Exiling a card using its plot ability is a special action. Once you announce you’re taking that action, no other player can respond by trying to remove that card from your hand.
+  - *2024-04-12* — If a plotted card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-04-12* — If you’re casting a plotted card from exile without paying its mana cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the plotted card has any mandatory additional costs, those must still be paid to cast the spell.
+  - *2024-04-12* — Plot abilities are written “Plot [cost],” which means “Any time you have priority during your main phase while the stack is empty, you may pay [cost] and exile this card from your hand. It becomes plotted.”
+  - *2024-04-12* — The value of X is determined only once, as Tumbleweed Rising resolves. If you don’t control any creatures at that time, you’ll create a 0/0 Elemental token, which will likely immediately die unless something else is raising its toughness.
+  - *2024-04-12* — You can’t cast a plotted card on the same turn it became plotted. On any future turn, you may cast that card from exile without paying its mana cost during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/187/tumbleweed-rising) · oracle_id `ef574346-1d98-447d-acb6-4d8d53c5f651` · printing: OTJ #187 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tundra
 
@@ -265,7 +313,16 @@
 - **Flavor text** (KHM printing):
   > *The only thing that smells worse than troll is burnt troll.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23046 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/156/tundra-fumarole) · oracle_id `52befc89-e895-4dd5-95e4-8f6d03e627aa` · printing: KHM #156 (2021-02-05) · [rulings](https://api.scryfall.com/cards/b251aa7c-d011-4b52-ab92-415d536c0182/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2021-02-05* — If Tundra Fumarole is copied, no snow mana was spent to cast the copy, so you won’t add any mana. Damage will still be dealt.
+  - *2021-02-05* — If the target creature or planeswalker is an illegal target as Tundra Fumarole tries to resolve, it won’t resolve and none of its effects will happen. You won’t add mana.
+  - *2021-02-05* — If you cast Tundra Fumarole without spending snow mana, you won’t add any mana. Damage will still be dealt.
+  - *2021-02-05* — Snow is a supertype, not a card type. It has no rules meaning or function by itself, but spells and abilities may refer to it.
+  - *2021-02-05* — Snow isn’t a type of mana. If an effect says you may spend mana as though it were any type, you can’t pay for {S} using mana that wasn’t produced by a snow source.
+  - *2021-02-05* — Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don’t spend any snow mana to cast them; their additional effects simply won’t do anything.
+  - *2021-02-05* — The Kaldheim set doesn’t have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn’t apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
+  - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/156/tundra-fumarole) · oracle_id `52befc89-e895-4dd5-95e4-8f6d03e627aa` · printing: KHM #156 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tundra Kavu
 
@@ -277,6 +334,7 @@
 - **Flavor text** (APC printing):
   > *A cross between a jaguar and an armadillo.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29979 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/apc/71/tundra-kavu) · oracle_id `b0b7d88b-694b-4bbe-888d-05245e7d1c3e` · printing: APC #71 (2001-06-04) · [rulings](https://api.scryfall.com/cards/fc34e735-ac3c-4954-a4c8-3ed55d811715/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tundra Tank
@@ -290,7 +348,13 @@
   > Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Crew, Firebending
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18467 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/121/tundra-tank) · oracle_id `2ded4b02-7aa4-46a1-b10f-8480eb942cd4` · printing: TLA #121 (2025-11-21) · [rulings](https://api.scryfall.com/cards/13c66fce-8f8e-4a98-8413-9f05aebf6e13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — "Firebending N" is a keyword that represents the ability "Whenever this creature attacks, add N {R}. Until end of combat, you don't lose this mana as steps end."
+  - *2025-10-02* — Any other mana you add during combat will still be lost as normal when moving between steps of combat.
+  - *2025-10-02* — Firebending abilities aren't mana abilities. They use the stack and can be responded to.
+  - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
+  - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/121/tundra-tank) · oracle_id `2ded4b02-7aa4-46a1-b10f-8480eb942cd4` · printing: TLA #121 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tundra Wall
 
@@ -303,6 +367,7 @@
   > *Wolf Cove's snow fort doubles as Sokka's watchtower and a playground for Water Tribe children.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25577 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/220/tundra-wall) · oracle_id `68df4c46-513a-4d75-9d4b-ac95d45be255` · printing: TLE #220 (2025-11-21) · [rulings](https://api.scryfall.com/cards/49ae7f36-4b37-415e-ab39-5fa1e3f2e3e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tundra Wolves
@@ -317,6 +382,7 @@
   > *—Onean scout*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22924 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/54/tundra-wolves) · oracle_id `2155864e-5788-4e72-a800-e2cf25cf59a7` · printing: 10E #54 (2007-07-13) · [rulings](https://api.scryfall.com/cards/15f573db-f4f8-4311-ba47-234e5171da3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tune the Narrative
@@ -341,6 +407,7 @@
   > *"For most people? The odds would be insurmountable," Daretti said.*
   > *"But we're not most people," Pia replied.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11120 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/33/tune-up) · oracle_id `aaa14260-2537-4668-8517-c825118777cc` · printing: DFT #33 (2025-02-14) · [rulings](https://api.scryfall.com/cards/f8bddc5f-8f25-4313-b5bb-e5eae2923878/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tunnel
@@ -350,6 +417,7 @@
 - **Oracle text:**
   > Destroy target Wall. It can't be regenerated.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31773 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/4ed/227/tunnel) · oracle_id `80559618-9dd9-4987-b3bc-1a1b5537bbc5` · printing: 4ED #227 (1995-04-01) · [rulings](https://api.scryfall.com/cards/9483f5d0-c627-43ed-bfaa-1559855c8a6d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tunneler Wurm
@@ -363,6 +431,7 @@
   > *If an anurid's lucky, it'll find a warm tunnel for bedtime. If a wurm's lucky, it'll find a warm anurid for breakfast.*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28719 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jud/135/tunneler-wurm) · oracle_id `31370fdf-c666-40d2-a7ff-3ba1dfe350cd` · printing: JUD #135 (2002-05-27) · [rulings](https://api.scryfall.com/cards/c8e246c8-3b3f-47c4-8a1b-b5f2d36f0ca4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tunnel Ignus
@@ -375,7 +444,10 @@
 - **Flavor text** (SOM printing):
   > *Fight mischief with mischief.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18491 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/som/105/tunnel-ignus) · oracle_id `41353001-eba4-45b5-8dd2-09d49b63b6b1` · printing: SOM #105 (2010-10-01) · [rulings](https://api.scryfall.com/cards/c3016e6b-32b2-4fa7-91c0-ec8fbe345760/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-01-01* — If multiple lands an opponent controls enter at the same time, Tunnel Ignus's ability triggers that many times, even if no other lands had entered the battlefield under that player's control earlier in the turn. That's because each ability takes into consideration the other land(s) that entered at the same time as the one that caused it to trigger.
+  - *2011-01-01* — Whenever a land an opponent controls enters, this ability triggers only if another land had already entered the battlefield under that opponent's control this turn. It doesn't matter if that other land is still on the battlefield, is still under that player's control, or is still a land.
+- **Source flags:** [Scryfall](https://scryfall.com/card/som/105/tunnel-ignus) · oracle_id `41353001-eba4-45b5-8dd2-09d49b63b6b1` · printing: SOM #105 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tunneling Geopede
 
@@ -402,7 +474,9 @@
   > Visit — Choose an opponent. They choose a creature they control, then you choose a creature you control. You may exile the chosen creatures. If you do, return them to the battlefield under their owners' control at the beginning of the next end step. Otherwise, the chosen creatures fight each other.
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32333 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/234a/tunnel-of-love) · oracle_id `e6dd25bd-8017-4691-86ba-466c68d9fd8a` · printing: UNF #234a (2022-10-07) · [rulings](https://api.scryfall.com/cards/9f902fef-5905-4e72-b838-22acdb01ccc8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-07* — If either you or the chosen opponent controls no creatures, the other player still chooses a creature they control. You can exile that creature and return it to the battlefield under its owner’s control at the beginning of the next end step. If you don’t exile it, nothing happens. It won’t fight anything.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/234a/tunnel-of-love) · oracle_id `e6dd25bd-8017-4691-86ba-466c68d9fd8a` · printing: UNF #234a (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tunnel Rats
 
@@ -414,6 +488,7 @@
 - **Flavor text** (TMT printing):
   > *The Rat King's subjects are everywhere you don't want to be.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22120 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/84/tunnel-rats) · oracle_id `0a8e5c48-885d-4ea8-9c68-a3e9213d4289` · printing: TMT #84 (2026-03-06) · [rulings](https://api.scryfall.com/cards/70faf7d8-008a-454a-a21b-702aa661b8f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tunnel Surveyor
@@ -426,6 +501,7 @@
 - **Flavor text** (DSK printing):
   > *Though he needed to know what lay beyond the intersection, Harp couldn't suppress a shiver of disquiet as his glimmer disappeared into the darkness ahead.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25031 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/76/tunnel-surveyor) · oracle_id `7aae54a6-3011-4867-b5ee-21a2111aecc6` · printing: DSK #76 (2024-09-27) · [rulings](https://api.scryfall.com/cards/12ee2690-f464-4a38-81e1-6dd2053a3327/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tunnel Tipster
@@ -439,7 +515,9 @@
 - **Flavor text** (MKM printing):
   > *"When your perp goes underground, I know where to find 'em."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15911 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/180/tunnel-tipster) · oracle_id `8d0bf685-e521-4d72-acc6-86794f685ce2` · printing: MKM #180 (2024-02-09) · [rulings](https://api.scryfall.com/cards/3e29b890-35b9-4e2a-9b4c-9417ca7db31d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-02-02* — Tunnel Tipster's first ability will trigger as long as a face-down creature entered the battlefield under your control this turn, even if that creature has turned face up or left the battlefield since. A creature that enters the battlefield face up and turns face down later in the turn won't cause Tunnel Tipster's first ability to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/180/tunnel-tipster) · oracle_id `8d0bf685-e521-4d72-acc6-86794f685ce2` · printing: MKM #180 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tunnel Vision
 
@@ -448,7 +526,9 @@
 - **Oracle text:**
   > Choose a card name. Target player reveals cards from the top of their library until a card with that name is revealed. If it is, that player puts the rest of the revealed cards into their graveyard and puts the card with the chosen name on top of their library. Otherwise, the player shuffles.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14360 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rav/72/tunnel-vision) · oracle_id `0e134040-1fe3-410c-aac5-94ae1bd17637` · printing: RAV #72 (2005-10-07) · [rulings](https://api.scryfall.com/cards/ae3eba31-02eb-449a-8a36-899ada5664bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2005-10-01* — If the named card is found, everything from the top of the library down to the named card is put into the graveyard and the library isn’t shuffled. If the named card isn’t in the library, no cards are put into the graveyard and the library is shuffled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rav/72/tunnel-vision) · oracle_id `0e134040-1fe3-410c-aac5-94ae1bd17637` · printing: RAV #72 (2005-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tura Kennerüd, Skyknight
 
@@ -462,7 +542,9 @@
   > *"The sky is my birthright. I dare you to try and take it from me."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16269 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/224/tura-kenner%C3%BCd-skyknight) · oracle_id `4cb3a303-9ded-46d5-90e7-1cc1c65a75da` · printing: DMU #224 (2022-09-09) · [rulings](https://api.scryfall.com/cards/c839d302-bf85-4a30-a49a-dbbd48695b5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-09-09* — Tura’s triggered ability resolves before the spell that caused it to trigger. The ability will resolve even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/224/tura-kenner%C3%BCd-skyknight) · oracle_id `4cb3a303-9ded-46d5-90e7-1cc1c65a75da` · printing: DMU #224 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turbo-Thwacking Auto-Hammer
 
@@ -471,7 +553,20 @@
 - **Oracle text:**
   > Whenever you crank this Contraption, target creature gains double strike until end of turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/209/turbo-thwacking-auto-hammer) · oracle_id `0dcc0317-bab6-4600-a7bc-2c190394fbcc` · printing: UST #209 (2017-12-08) · [rulings](https://api.scryfall.com/cards/be96ad59-cec0-4b82-877d-7ffa2755cebf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2018-01-19* — Any Contraption that's on the battlefield and wasn't assembled immediately heads to the scrapyard. However, if it's a not an actual Contraption card (like Copy Artifact isn't), it goes to your graveyard as normal. Non-Contraption cards can't be in the scrapyard.
+  - *2018-01-19* — At the beginning of your upkeep, if you control any Contraptions, move the CRANK! counter to the next sprocket. You may then crank any number of Contraptions on that sprocket, causing their abilities to trigger. Cranking a Contraption is always optional.
+  - *2018-01-19* — Contraptions are artifacts. Anything that interacts with artifacts will interact with Contraptions.
+  - *2018-01-19* — Contraptions aren't put into your main deck. They go into a separate deck called the Contraption deck.
+  - *2018-01-19* — If a Contraption would leave the battlefield and go to any zone other than exile, it instead goes to the scrapyard, the Contraption deck's version of the graveyard. Things that affect the graveyard do not affect the scrapyard. You can exile Contraptions just fine.
+  - *2018-01-19* — If you crank multiple Contraptions, their abilities can be put onto the stack in any order. The ability put onto the stack will resolve first.
+  - *2018-01-19* — If you or a permanent you control are instructed to assemble a Contraption, reveal the top card of your Contraption deck. Put it onto the battlefield on one of the three sprockets.
+  - *2018-01-19* — If you or a permanent you control assembles a Contraption and your Contraption deck is empty, nothing happens. You don't lose the game.
+  - *2018-01-19* — In Constructed formats, a Contraption deck must have at least fifteen different Contraption cards and no more than one of each.
+  - *2018-01-19* — In Limited formats, a Contraption deck may include any number of Contraption cards in your card pool. You don't have to include every Contraption card you draft or open in sealed deck. In those formats, your Contraption deck may include duplicates.
+  - *2018-01-19* — In silver-bordered games using Contraptions, you have three sprockets, illustrated on the back of Contraption cards. At the start of the game, put a CRANK! counter on sprocket 3.
+  - *2018-01-19* — While Contraptions you control are on the battlefield, the Contraption deck is not, even if you are using it to signify the three sprockets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/209/turbo-thwacking-auto-hammer) · oracle_id `0dcc0317-bab6-4600-a7bc-2c190394fbcc` · printing: UST #209 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turbulent Crater
 
@@ -499,6 +594,7 @@
 - **Flavor text** (TOR printing):
   > *Laquatus dreams of seizing control.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15375 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/49/turbulent-dreams) · oracle_id `83134570-debe-4bc0-9656-2a16801a3592` · printing: TOR #49 (2002-02-04) · [rulings](https://api.scryfall.com/cards/d879226b-8ee3-4a48-b03a-d183594dc586/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turbulent Fen
@@ -621,6 +717,7 @@
   > When this enchantment enters, for each player, put a contested counter on target land that player controls.
   > Whenever a creature deals combat damage to a player, if that player controls one or more lands with contested counters on them, that creature's controller gains control of one of those lands of their choice and untaps it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21806 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/54/turf-war) · oracle_id `8e1b84d7-b0ae-4e9d-bc1a-c84832fea9f9` · printing: NCC #54 (2022-04-29) · [rulings](https://api.scryfall.com/cards/5e7fecbd-66f6-44b7-8fe4-b9b5bfce3e2c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turf Wound
@@ -634,7 +731,9 @@
   > *"I can't imagine how anyone lives in Shiv, let alone why they choose to stay."*
   > *—Sisay*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27125 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inv/177/turf-wound) · oracle_id `8dc48180-1482-40c4-8c5f-1724018e9c5b` · printing: INV #177 (2000-10-02) · [rulings](https://api.scryfall.com/cards/91392e9f-f96a-4ac5-b1f1-c73540cf249e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Stops the player from playing a land, but not from putting a land onto the battlefield using a spell or ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inv/177/turf-wound) · oracle_id `8dc48180-1482-40c4-8c5f-1724018e9c5b` · printing: INV #177 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turnabout
 
@@ -660,7 +759,15 @@
   > *"No, don't! Nal, it's me—"*
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25136 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/135/turn-against) · oracle_id `634d6357-af76-4e25-8c63-81522bc726f5` · printing: BFZ #135 (2015-10-02) · [rulings](https://api.scryfall.com/cards/4de8ef35-f141-4bc6-8ea1-f87aa6f5ecd7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2015-08-25* — A card with devoid is just colorless. It’s not colorless and the colors of mana in its mana cost.
+  - *2015-08-25* — Cards with devoid use frames that are variations of the transparent frame traditionally used for Eldrazi. The top part of the card features some color over a background based on the texture of the hedrons that once imprisoned the Eldrazi. This coloration is intended to aid deckbuilding and game play.
+  - *2015-08-25* — Devoid works in all zones, not just on the battlefield.
+  - *2015-08-25* — Gaining control of a creature doesn’t cause you to gain control of any Auras or Equipment attached to it.
+  - *2015-08-25* — If a card loses devoid, it will still be colorless. This is because effects that change an object’s color (like the one created by devoid) are considered before the object loses devoid.
+  - *2015-08-25* — Other cards and abilities can give a card with devoid color. If that happens, it’s just the new color, not that color and colorless.
+  - *2015-08-25* — Turn Against can target any creature, even one that’s untapped or one you already control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/135/turn-against) · oracle_id `634d6357-af76-4e25-8c63-81522bc726f5` · printing: BFZ #135 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turn Aside
 
@@ -687,7 +794,23 @@
   > Fuse (You may cast one or both halves of this card from your hand.)
 - **Keywords:** Fuse
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19430 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/134/turn-burn) · oracle_id `41841bbf-1c51-494b-b299-c997cce88e44` · printing: DGM #134 (2013-05-03) · [rulings](https://api.scryfall.com/cards/8d7fdd59-6d76-4a0c-ac75-816345ef4a39/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2013-04-15* — Effects that modify the targeted creature's power or toughness, such as the effects of Phytoburst or Legion's Initiative, will apply to it no matter when they started to take effect. The same is true for counters that change the creature's power or toughness (such as +1/+1 counters) and effects that switch its power and toughness.
+  - *2013-04-15* — If a player names a card, the player may name either half of a split card, but not both. A split card has the chosen name if one of its two names matches the chosen name.
+  - *2013-04-15* — If the affected creature gains an ability after Turn resolves, it will keep that ability.
+  - *2013-04-15* — If you cast a split card with fuse from your hand without paying its mana cost, you can choose to use its fuse ability and cast both halves without paying their mana costs.
+  - *2013-04-15* — If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
+  - *2013-04-15* — On the stack, a split spell that hasn't been fused has only that half's characteristics and mana value. The other half is treated as though it didn't exist.
+  - *2013-04-15* — Some split cards with fuse have two halves that are both multicolored. That card is multicolored no matter which half is cast, or if both halves are cast. It's also multicolored while not on the stack.
+  - *2013-04-15* — Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
+  - *2013-04-15* — To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its mana value is the total amount of mana in both costs.
+  - *2013-04-15* — Turn doesn't counter abilities that have already triggered or been activated. In particular, there is no way to cast this to stop a creature's "At the beginning of your upkeep" or "When this creature enters the battlefield" abilities from triggering.
+  - *2013-04-15* — Turn overwrites all previous effects that set the targeted creature's power or toughness to specific values. Effects that set its power or toughness to specific values that start to apply after Turn resolves will overwrite this effect.
+  - *2013-04-15* — Turn will cause the creature lose all other colors and creature types, but it will retain any other card types (such as artifact) it may have.
+  - *2013-04-15* — When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
+  - *2013-04-15* — When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+  - *2013-04-15* — You can choose the same object as the target of each half of a fused split spell, if appropriate.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/134/turn-burn) · oracle_id `41841bbf-1c51-494b-b299-c997cce88e44` · printing: DGM #134 (2013-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turncoat Kunoichi
 
@@ -699,7 +822,14 @@
   > When this creature enters, choose target creature an opponent controls. Exile that creature until this creature leaves the battlefield. If this creature's sneak cost was paid, instead exile the chosen creature.
 - **Keywords:** Sneak
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13025 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/26/turncoat-kunoichi) · oracle_id `0f35cf85-6783-4d69-b5e6-a81f7c1f21e7` · printing: TMT #26 (2026-03-06) · [rulings](https://api.scryfall.com/cards/3ae61336-a4ee-40cd-9a18-392d96b873a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2026-01-27* — Although a creature put onto the battlefield this way is attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when that creature enters attacking.
+  - *2026-01-27* — Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist. If the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
+  - *2026-01-27* — If Turncoat Kunoichi's sneak cost wasn't paid and it leaves the battlefield before its triggered ability resolves, the target creature won't be exiled.
+  - *2026-01-27* — If a creature spell's sneak cost was paid, the creature it becomes enters tapped and attacking the same player, planeswalker, or battle as the creature that was returned to its owner's hand to pay its sneak cost. This is a rule specific to sneak; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player, planeswalker, or battle it's attacking.
+  - *2026-01-27* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2026-01-27* — Spells can only be cast for their sneak costs any time you could play an instant during the declare blockers step on your turn (after your opponent has decided whether to block).
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/26/turncoat-kunoichi) · oracle_id `0f35cf85-6783-4d69-b5e6-a81f7c1f21e7` · printing: TMT #26 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turn Inside Out
 
@@ -711,7 +841,24 @@
   > *"Scared, are you? Need a hug?"*
 - **Keywords:** Manifest, Manifest dread
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11148 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/160/turn-inside-out) · oracle_id `be0a3925-8e0d-4ef6-85cb-c9f5eef6b4bb` · printing: DSK #160 (2024-09-27) · [rulings](https://api.scryfall.com/cards/57e2a92c-06d3-4cb5-883d-cba428a7e98e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2024-09-20* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent and Auras and Equipment that were attached to that permanent aren't affected unless the new characteristics of the object change the legality of those targets or attachments.
+  - *2024-09-20* — Any time you have priority, you can turn a manifested permanent you control face up by revealing that it's a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2024-09-20* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down permanents or spells you don't control unless an effect instructs or allows you to do so.
+  - *2024-09-20* — Because face-down creatures don't have a name, they can't have the same name as any other creature, even another face-down creature.
+  - *2024-09-20* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2024-09-20* — If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can't transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up.
+  - *2024-09-20* — If a face-down creature loses its abilities, it can't be turned face up with a disguise or morph ability because it will no longer have that ability (or the associated cost) once face up.
+  - *2024-09-20* — If a face-down spell leaves the stack and goes to any zone other than the battlefield (if it was countered, for example), you must reveal it. Similarly, if a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or the game ends.
+  - *2024-09-20* — If a manifested creature would have disguise or morph if it were face up, you may also turn it face up by paying its disguise or morph cost, as appropriate.
+  - *2024-09-20* — If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it's an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won't trigger, because even though you revealed the card, it never turned face up.
+  - *2024-09-20* — If your library contains only one card when you manifest dread, you'll look at that card and put it onto the battlefield face down. You won't have the option to put it into your graveyard instead. If your library contains no cards when you manifest dread, you won't do anything.
+  - *2024-09-20* — Some cards in the Duskmourn release have abilities that trigger "whenever you manifest dread." In circumstances where you are instructed to manifest dread but can't perform some or all of the steps of manifesting dread (probably because your library has one or fewer cards in it), these abilities will still trigger.
+  - *2024-09-20* — To manifest dread, look at the top two cards of your library. Manifest one (by putting it onto the battlefield face down) and put the other into your graveyard. The card you put onto the battlefield becomes a 2/2 face-down creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant it any characteristics it doesn't have or change the characteristics it does have.
+  - *2024-09-20* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2024-09-20* — Unlike a face-down creature that was cast using a disguise or morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
+  - *2024-09-20* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered should remain clear, as well as what ability caused them to be face down. (This includes manifest, disguise, cloak, morph, and a few older effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/160/turn-inside-out) · oracle_id `be0a3925-8e0d-4ef6-85cb-c9f5eef6b4bb` · printing: DSK #160 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turn into a Pumpkin
 
@@ -722,7 +869,17 @@
   > Adamant — If at least three blue mana was spent to cast this spell, create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.")
 - **Keywords:** Adamant, Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22530 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/69/turn-into-a-pumpkin) · oracle_id `cfda6f65-3755-40e5-8061-a21941c4b1bd` · printing: ELD #69 (2019-10-04) · [rulings](https://api.scryfall.com/cards/f2a37dcb-4a18-4f03-b28c-27188a1a5ec1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2019-10-04* — Adamant effects check what mana was actually spent to cast a spell. If an effect allows you to spend mana "as though it were mana" of any color or type, that allows you to spend mana you couldn't otherwise spend, but it doesn't change what mana you spent to cast the spell.
+  - *2019-10-04* — If an effect allows you to cast a spell without paying its mana cost, you can't choose to cast it and pay unless another rule or effect allows you to cast that spell for a cost. Similarly, you can't waive a cost reduction unless that effect says you may.
+  - *2019-10-04* — If an instant or sorcery spell has an adamant ability, you perform the spell's instructions in order. You don't perform the adamant instruction before the spell resolves or before any other effects printed above it.
+  - *2019-10-04* — If the target nonland permanent is an illegal target by the time Turn into a Pumpkin tries to resolve, the spell won't resolve. You won't draw a card, and you won't create a Food if you spent three blue mana to cast the spell.
+  - *2019-10-04* — If you copy a spell that has an adamant ability, no mana was spent to cast the copy at all, so that ability won't apply.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Some spells and abilities that create Food tokens may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Food tokens.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/69/turn-into-a-pumpkin) · oracle_id `cfda6f65-3755-40e5-8061-a21941c4b1bd` · printing: ELD #69 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turn the Earth
 
@@ -733,7 +890,17 @@
   > Flashback {1}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12523 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/205/turn-the-earth) · oracle_id `ebb445f7-75da-4af4-9153-93d419c838e0` · printing: MID #205 (2021-09-24) · [rulings](https://api.scryfall.com/cards/34076a93-9e8f-45d4-a1d7-31f40210a5b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2021-09-24* — Each affected library is shuffled only once, even if multiple cards are being shuffled into it.
+  - *2021-09-24* — If you choose target cards in graveyards and all of those targets are somehow illegal as Turn the Earth tries to resolve (perhaps because your opponent responded with a Turn the Earth of their own), the spell will not resolve and you will gain no life.
+  - *2021-09-24* — You may choose no targets for Turn the Earth. In that case, no libraries will be shuffled and you'll just gain 2 life.
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/205/turn-the-earth) · oracle_id `ebb445f7-75da-4af4-9153-93d419c838e0` · printing: MID #205 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turn the Tables
 
@@ -744,7 +911,10 @@
 - **Flavor text** (DST printing):
   > *"Your arrogance is my best weapon."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24900 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dst/18/turn-the-tables) · oracle_id `bd5ad7c3-4477-4278-9875-d2ffbb0e8089` · printing: DST #18 (2004-02-06) · [rulings](https://api.scryfall.com/cards/f79b38c5-4be1-4f33-92e8-6fe0476b5299/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-12-01* — If the targeted creature has been removed from combat but is still on the battlefield, the damage will be redirected.
+  - *2004-12-01* — If the targeted creature isn’t on the battlefield when the combat damage would be dealt, the damage isn’t redirected.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dst/18/turn-the-tables) · oracle_id `bd5ad7c3-4477-4278-9875-d2ffbb0e8089` · printing: DST #18 (2004-02-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turn the Tide
 
@@ -756,7 +926,9 @@
   > *"Let their mindless armies come and face the might of genius."*
   > *—Varil, Neurok partisan*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29235 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/110/turn-the-tide) · oracle_id `2546db90-1f6e-43f7-a116-2fefe67d489d` · printing: CNS #110 (2014-06-06) · [rulings](https://api.scryfall.com/cards/8007dd67-bde8-4c61-ac8e-a25abdf99467/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-06-01* — Only creatures your opponents control when Turn the Tide resolves are affected. Creatures that enter later in the turn are not.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/110/turn-the-tide) · oracle_id `2546db90-1f6e-43f7-a116-2fefe67d489d` · printing: CNS #110 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turntimber Ascetic
 
@@ -768,6 +940,7 @@
 - **Flavor text** (ZNR printing):
   > *"For so long, this land cried out in pain. Now, as the flow returns to its balance point, a new harmony echoes in the trees."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28466 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/214/turntimber-ascetic) · oracle_id `90b16d52-4cf4-4788-a0d7-264d1bcd17f0` · printing: ZNR #214 (2020-09-25) · [rulings](https://api.scryfall.com/cards/b33b6922-2584-43e1-98d4-e722e7c9393c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turntimber Basilisk
@@ -780,7 +953,16 @@
   > Landfall — Whenever a land you control enters, you may have target creature block this creature this turn if able.
 - **Keywords:** Deathtouch, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15974 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/e01/76/turntimber-basilisk) · oracle_id `661a99ef-8d5b-4aac-98f6-52b17a8ecf52` · printing: E01 #76 (2017-06-16) · [rulings](https://api.scryfall.com/cards/3f203c27-0474-449d-aa24-2125ad80fb68/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2009-10-01* — Deciding to have the targeted creature block doesn't force you to attack with Turntimber Basilisk that turn. If Turntimber Basilisk doesn't attack, the targeted creature is free to block whichever creature its controller chooses, or block no creatures at all.
+  - *2009-10-01* — If Turntimber Basilisk's landfall ability triggers multiple times during the same turn, you can have multiple creatures block it that turn if able.
+  - *2009-10-01* — If you choose to have the targeted creature block but that creature isn't able to block Turntimber Basilisk (for example, because the targeted creature can block only creatures with flying), the requirement to block does nothing. The targeted creature is free to block whichever creature its controller chooses, or block no creatures at all.
+  - *2009-10-01* — Tapped creatures, creatures that can't block as the result of an effect, creatures with unpaid costs to block (such as those from War Cadence), and creatures that aren't controlled by the defending player are exempt from effects that would require them to block. Such creatures can be targeted by Turntimber Basilisk's landfall ability, but the requirement to block does nothing.
+  - *2009-10-01* — You decide whether to have the targeted creature block Turntimber Basilisk this turn if able at the time the landfall ability resolves, not at the time Turntimber Basilisk attacks.
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/e01/76/turntimber-basilisk) · oracle_id `661a99ef-8d5b-4aac-98f6-52b17a8ecf52` · printing: E01 #76 (2017-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turntimber Grove
 
@@ -791,6 +973,7 @@
   > When this land enters, target creature gets +1/+1 until end of turn.
   > {T}: Add {G}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18460 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddp/34/turntimber-grove) · oracle_id `62934aab-b6fa-41b2-ac05-d3fa0e3c5a79` · printing: DDP #34 (2015-08-28) · [rulings](https://api.scryfall.com/cards/d0c5c07b-df81-4941-ae7e-2d38e317059d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turntimber Ranger
@@ -803,7 +986,9 @@
 - **Flavor text** (ZEN printing):
   > *The lone wolf dies alone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12565 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/zen/191/turntimber-ranger) · oracle_id `391fdf1e-e489-410e-9f33-b674fd98d0fc` · printing: ZEN #191 (2009-10-02) · [rulings](https://api.scryfall.com/cards/a24bba56-3256-489b-82a2-22748388e110/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — This ability triggers on this creature entering, so it will enter with its unmodified power and toughness, and then receive a +1/+1 counter a short time later. It does not enter with the +1/+1 counter already on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/zen/191/turntimber-ranger) · oracle_id `391fdf1e-e489-410e-9f33-b674fd98d0fc` · printing: ZEN #191 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turntimber Sower
 
@@ -855,6 +1040,7 @@
 - **Flavor text** (MRD printing):
   > *Mirrodin's inhabitants must be prepared for anything—including suddenly being unprepared.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26917 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/137/turn-to-dust) · oracle_id `56828166-eaa3-4711-91b6-401a3e3b733f` · printing: MRD #137 (2003-10-02) · [rulings](https://api.scryfall.com/cards/fcfcb643-bbd1-419a-b1a8-daae1062c8bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turn to Frog
@@ -885,7 +1071,10 @@
   > *"Did you expect me to dodge? How quaint."*
   > *—Olka, mistmeadow witch*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12837 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/214/turn-to-mist) · oracle_id `631f04d6-5693-4414-a378-fd839c3b6f6d` · printing: CLU #214 (2024-02-23) · [rulings](https://api.scryfall.com/cards/8be0076c-3f9c-4120-b768-4e8985ee6a7c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-12-07* — If a token is exiled this way, it will cease to exist and won’t return to the battlefield.
+  - *2018-12-07* — Once the exiled creature returns, it’s considered a new object with no relation to the object that it was. Auras attached to the exiled creature will be put into their owners’ graveyards. Equipment attached to the exiled creature will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/214/turn-to-mist) · oracle_id `631f04d6-5693-4414-a378-fd839c3b6f6d` · printing: CLU #214 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turn to Slag
 
@@ -897,7 +1086,10 @@
   > *"If it wasn't a blackened, stinking, melted abomination before, it certainly is now."*
   > *—Koth of the Hammer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23530 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/168/turn-to-slag) · oracle_id `4339f621-8502-4433-a37a-654591ca1b43` · printing: M21 #168 (2020-07-03) · [rulings](https://api.scryfall.com/cards/38c18541-e95e-4ae0-be18-3bfcafa24ca2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-06-23* — If the target creature is an illegal target by the time Turn to Slag tries to resolve, the spell won't resolve. You won't destroy any Equipment.
+  - *2020-06-23* — Turn to Slag can target a creature that has no Equipment attached to it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/168/turn-to-slag) · oracle_id `4339f621-8502-4433-a37a-654591ca1b43` · printing: M21 #168 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turret Ogre
 
@@ -911,7 +1103,11 @@
   > *Common Gruul career aspirations: berserker, shaman, catapult.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24466 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/152/turret-ogre) · oracle_id `fb4a044b-f25d-47ff-b272-754e577ce50a` · printing: CLU #152 (2024-02-23) · [rulings](https://api.scryfall.com/cards/1d28484d-c6fd-490b-b73c-77e98ca2ab19/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-06-23* — If you don't control another creature with power 4 or greater immediately after Turret Ogre enters the battlefield, its ability doesn't trigger, even if you can raise a creature's power right away. If you control no other creature with power 4 or greater as the ability resolves, nothing happens. These don't have to be the same creature, though.
+  - *2020-06-23* — In a Two-Headed Giant game, Turret Ogre's ability causes the opposing team to lose 4 life.
+  - *2020-06-23* — Turret Ogre's ability doesn't deal more than 2 damage to each opponent if you control more than one other creature with power 4 or greater.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/152/turret-ogre) · oracle_id `fb4a044b-f25d-47ff-b272-754e577ce50a` · printing: CLU #152 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turtle Blimp
 
@@ -924,6 +1120,7 @@
   > Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Flying, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22958 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/180/turtle-blimp) · oracle_id `bb8c6dd2-1abe-4eb2-be1f-b0c078e5f257` · printing: TMT #180 (2026-03-06) · [rulings](https://api.scryfall.com/cards/6e118fc5-b0ae-4592-8292-d611856ae203/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turtle-Duck
@@ -936,7 +1133,10 @@
 - **Flavor text** (TLA printing):
   > *A turtle-duckling's greatest defense comes not from their shell, but from their mother.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14987 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/200/turtle-duck) · oracle_id `e93782e3-1b93-459a-a7de-06c3b6591e6f` · printing: TLA #200 (2025-11-21) · [rulings](https://api.scryfall.com/cards/aefcd734-3916-4c77-9d98-3ea2c2795658/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-10-02* — Effects that modify Turtle-Duck's power without setting it will apply no matter when they started to take effect. The same is true for counters that change its power.
+  - *2025-10-02* — Turtle-Duck's ability overwrites all previous effects that set its power to a specific value. Other effects that set its power to a specific value that start to apply after the ability resolves will overwrite that part of the effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/200/turtle-duck) · oracle_id `e93782e3-1b93-459a-a7de-06c3b6591e6f` · printing: TLA #200 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turtle Lair
 
@@ -964,6 +1164,7 @@
   > *Unnoticed by the crowd, the strange canister bounced several more times, striking and smashing a glass jar which held four small turtles . . .*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18823 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/135/turtle-power!) · oracle_id `15934a19-a29e-4728-816f-20b610eec377` · printing: TMT #135 (2026-03-06) · [rulings](https://api.scryfall.com/cards/4079ca90-dcc3-4184-9dfc-a626e0776332/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turtle-Seals
@@ -977,6 +1178,7 @@
   > *Their underwater ice caves weave throughout the north pole, providing traversal for those willing to brave the cold.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26854 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/226/turtle-seals) · oracle_id `e0172cad-8b93-4d1a-b442-5eced3212b17` · printing: TLE #226 (2025-11-21) · [rulings](https://api.scryfall.com/cards/3a144e7f-e0f7-4346-a4e8-f4a358c3b4a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turtles Forever
@@ -989,7 +1191,9 @@
   > *"See you around the multiverse, bros."*
   > *—One Leonardo or another*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13320 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/27/turtles-forever) · oracle_id `cff5aca2-72c5-4053-a32c-c0bd3174c52d` · printing: TMT #27 (2026-03-06) · [rulings](https://api.scryfall.com/cards/f0db974a-3289-4727-9aaf-e9cca9113c87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-01-27* — In a casual game, a card you choose from outside the game comes from your personal collection. In a tournament event, a card you choose from outside the game must come from your sideboard. You may look at your sideboard at any time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/27/turtles-forever) · oracle_id `cff5aca2-72c5-4053-a32c-c0bd3174c52d` · printing: TMT #27 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turtleshell Changeling
 
@@ -1003,7 +1207,11 @@
   > *A changeling involuntarily mimics the nearest being at hand, sometimes trading a borrowed shell for borrowed claws.*
 - **Keywords:** Changeling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21500 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/94/turtleshell-changeling) · oracle_id `87f8b403-765c-4a2a-8b21-edaaaa889234` · printing: LRW #94 (2007-10-12) · [rulings](https://api.scryfall.com/cards/a72b078e-e324-4775-9d38-08943017a48e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-03-19* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature may become lethal if you switch its power and toughness during that turn.
+  - *2021-03-19* — Effects that switch a creature's power and toughness apply after all other effects, regardless of when those effects began to apply. For instance, if you target a 1/2 creature then give it +2/+0 later in the turn, it's a 2/3 creature, not a 4/1 creature.
+  - *2021-03-19* — Switching a creature's power and toughness twice (or any even number of times) effectively returns the creature to the power and toughness it had before any switches.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/94/turtleshell-changeling) · oracle_id `87f8b403-765c-4a2a-8b21-edaaaa889234` · printing: LRW #94 (2007-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turtles in Time
 
@@ -1016,7 +1224,9 @@
   > *"When are we now?"*
   > *—Donatello*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18119 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/55/turtles-in-time) · oracle_id `803971e6-67f3-4fda-aeb6-69ef8ea4b54e` · printing: TMT #55 (2026-03-06) · [rulings](https://api.scryfall.com/cards/bdb3efe7-7b12-4503-83e9-7977eb099db5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-01-27* — Players decide and announce in turn order, starting with the active player, whether or not they want to shuffle their hand and graveyard into their library. Then, all players who chose to do so shuffle their hands and graveyards into their libraries and draw seven cards. Players later in the turn order will know the choices made by players before them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/55/turtles-in-time) · oracle_id `803971e6-67f3-4fda-aeb6-69ef8ea4b54e` · printing: TMT #55 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turtle Tracks
 
@@ -1027,6 +1237,7 @@
 - **Flavor text** (TMC printing):
   > *A good view isn't about location. It's about perspective.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25433 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/129/turtle-tracks) · oracle_id `4921dac2-4adf-4ac4-b1f4-d53385afd802` · printing: TMC #129 (2026-03-06) · [rulings](https://api.scryfall.com/cards/b7e2ece7-8182-4ad8-a266-bffcb4be4522/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turtle Van
@@ -1039,7 +1250,9 @@
   > Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Crew, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15074 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/181/turtle-van) · oracle_id `aeb9a2e6-ad11-4e2c-81d0-caf279d31ece` · printing: TMT #181 (2026-03-06) · [rulings](https://api.scryfall.com/cards/fce6a8b6-b43c-4045-9378-97b2463f9b4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-01-27* — To double the number of +1/+1 counters on a creature, put a number of +1/+1 counters on it equal to the number it already has. Other cards that interact with putting counters on it will interact with this effect accordingly.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/181/turtle-van) · oracle_id `aeb9a2e6-ad11-4e2c-81d0-caf279d31ece` · printing: TMT #181 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tusk and Whiskers
 
@@ -1052,6 +1265,7 @@
 - **Flavor text** (UNF printing):
   > *Weighing in at a combined thirteen thousand pounds and two ounces.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28648 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/182/tusk-and-whiskers) · oracle_id `de45de7e-5bba-4612-8bb7-755710d93ecf` · printing: UNF #182 (2022-10-07) · [rulings](https://api.scryfall.com/cards/903168f6-c195-47af-bdf7-b5748108d2a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tusked Colossodon
@@ -1064,6 +1278,7 @@
 - **Flavor text** (KTK printing):
   > *A band of Temur hunters, fleeing the Mardu, dug a hideout beneath such a creature as it slept. The horde found them and attacked. For three days the Temur held them at bay, and all the while the great beast slumbered.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26007 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/155/tusked-colossodon) · oracle_id `bba11c0e-01a3-45ad-8de4-2148cf660ba8` · printing: KTK #155 (2014-09-26) · [rulings](https://api.scryfall.com/cards/2d511407-0c1e-4342-a578-ca557c6886fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tuskeri Firewalker
@@ -1077,7 +1292,16 @@
   > *"Toralf blessed me with fire. I am worthy of Starnheim!"*
 - **Keywords:** Boast
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25102 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/157/tuskeri-firewalker) · oracle_id `36dda03b-a3c1-4ef4-ae62-da318028a39e` · printing: KHM #157 (2021-02-05) · [rulings](https://api.scryfall.com/cards/a54d0170-a375-4e65-b98d-3e94a3aeef90/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2021-02-05* — A boast ability can be activated at any point after the creature with that ability has been declared as an attacker. This can be before blockers are declared, after blockers are declared but before combat damage is dealt, during combat after combat damage is dealt, during the postcombat main phase, during the end step, or, in some unusual cases, during the cleanup step.
+  - *2021-02-05* — If a creature with a boast ability is put onto the battlefield attacking, it was never declared as an attacker. Its boast ability can't be activated that turn.
+  - *2021-02-05* — If an effect adds additional combat phases to a turn and a creature with a boast ability attacks more than once during that turn, its boast ability can still be activated only once.
+  - *2021-02-05* — If it's not your turn and you gain control of a creature with a boast ability after that creature attacked, you can activate that creature's boast ability if it hasn't been activated yet that turn.
+  - *2021-02-05* — If you don't play the card by the end of the turn, it will remain exiled. Boasting again on a future turn won't let you play that card.
+  - *2021-02-05* — Playing a card this way follows the normal rules for playing the card. You must pay its costs, and you must follow all applicable timing rules. For example, if the card is a sorcery card, you can cast it only during your main phase while the stack is empty.
+  - *2021-02-05* — The card you exile with the boast ability is exiled face up.
+  - *2021-02-05* — Under normal circumstances, you can play a land this way only if you haven't played a land yet that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/157/tuskeri-firewalker) · oracle_id `36dda03b-a3c1-4ef4-ae62-da318028a39e` · printing: KHM #157 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tuskguard Captain
 
@@ -1122,4 +1346,7 @@
 - **Flavor text** (CMM printing):
   > *"Send in your cavalry! Diaglu loves horsemeat."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10764 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/360/tuya-bearclaw) · oracle_id `63e8ac70-0ec3-4bef-832f-e3f4c8a692ad` · printing: CMM #360 (2023-08-04) · [rulings](https://api.scryfall.com/cards/e146e10c-3104-442d-9383-0f670960180d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-11-10* — Once the ability resolves and the bonus is applied, that bonus won't change, even if the greatest power among other creatures you control does.
+  - *2020-11-10* — The value of X is calculated as Tuya Bearclaw's ability resolves. If you control no other creatures at that time or if the greatest power among other creatures you control is 0 or less, X will be 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/360/tuya-bearclaw) · oracle_id `63e8ac70-0ec3-4bef-832f-e3f4c8a692ad` · printing: CMM #360 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -22,4 +22,7 @@
   > *He speaks directly into his supplicants' minds using fiery words that inflame their thoughts and incite their passions.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13742 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/172/arjun-the-shifting-flame) · oracle_id `ea904852-6322-4a24-9145-190acfce54ec` · printing: 2X2 #172 (2022-07-08) · [rulings](https://api.scryfall.com/cards/2fb83da3-5a8e-4349-bbcc-dcbd3b70264b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-11-04* — After Arjun's ability triggers, players may cast instants and activate activated abilities. Each time, you cast an instant spell "in response, Arjun's ability triggers again.
+  - *2015-11-04* — Arjun's triggered ability will resolve before the spell that caused it to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/172/arjun-the-shifting-flame) · oracle_id `ea904852-6322-4a24-9145-190acfce54ec` · printing: 2X2 #172 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -21,6 +21,7 @@
   > Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11821 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/74/goggles-of-night) · oracle_id `af27761d-88df-4d4f-a366-d55ed62d1d33` · printing: CLB #74 (2022-06-10) · [rulings](https://api.scryfall.com/cards/deb2aa14-4b8d-4f33-856d-296bc59a0ade/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gogo, Master of Mimicry

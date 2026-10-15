@@ -56,7 +56,10 @@
   > *Its stature and stride increase with each step it takes.*
 - **Keywords:** Domain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31367 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inv/44/wayfaring-giant) · oracle_id `e20e5ad9-36b5-4962-acc2-555d069c5daf` · printing: INV #44 (2000-10-02) · [rulings](https://api.scryfall.com/cards/57e45de5-0e8b-41d3-979b-ec5a29cac682/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-06-18* — Domain abilities count the number of basic land types among lands you control, not how many lands you control or how many of any type.
+  - *2021-06-18* — The basic land types are Plains, Island, Swamp, Mountain, and Forest. Land types other than basic land types (such as Desert) don't contribute to domain abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inv/44/wayfaring-giant) · oracle_id `e20e5ad9-36b5-4962-acc2-555d069c5daf` · printing: INV #44 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wayfaring Temple
 
@@ -68,7 +71,16 @@
   > Whenever this creature deals combat damage to a player, populate. (Create a token that's a copy of a creature token you control.)
 - **Keywords:** Populate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11313 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/208/wayfaring-temple) · oracle_id `c0525645-9b5a-488d-b4d1-e80f16a1e4e1` · printing: C19 #208 (2019-08-23) · [rulings](https://api.scryfall.com/cards/77d4920f-94f7-4780-9c5f-f0df6f6d3d6e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2017-03-14* — As long as Wayfaring Temple is on the battlefield, its first ability will count itself, so it'll be at least 1/1.
+  - *2017-03-14* — The ability that defines Wayfaring Temple's power and toughness works in all zones, not just the battlefield.
+  - *2024-01-12* — Any enters-the-battlefield abilities of the copied token will trigger when the new token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the copied token will also work.
+  - *2024-01-12* — If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
+  - *2024-01-12* — If you control no creature tokens when you populate, nothing will happen.
+  - *2024-01-12* — Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control.
+  - *2024-01-12* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
+  - *2024-01-12* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/208/wayfaring-temple) · oracle_id `c0525645-9b5a-488d-b4d1-e80f16a1e4e1` · printing: C19 #208 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waylay
 
@@ -79,6 +91,7 @@
 - **Flavor text** (USG printing):
   > *"You reek of corruption," spat the knight. "Why are you even here?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29147 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/56/waylay) · oracle_id `f0db78c7-09b5-4981-8ca8-6dbab597c5d9` · printing: USG #56 (1998-10-12) · [rulings](https://api.scryfall.com/cards/867a33ee-0340-413a-8243-9d6bc2d944e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waylaying Pirates
@@ -91,7 +104,9 @@
 - **Flavor text** (LCI printing):
   > *"The only drink in your future is seawater."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21226 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/85/waylaying-pirates) · oracle_id `5453e4fa-49ea-43fc-8de5-6873d29ef627` · printing: LCI #85 (2023-11-17) · [rulings](https://api.scryfall.com/cards/ded2bb06-7163-47fe-bede-9c192c9b8952/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-11-10* — The enters-the-battlefield ability can target an artifact or creature that's already tapped. If so, you'll just put a stun counter on that artifact or creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/85/waylaying-pirates) · oracle_id `5453e4fa-49ea-43fc-8de5-6873d29ef627` · printing: LCI #85 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Way of the Cryomancer
 
@@ -102,7 +117,20 @@
   > Planeswalkers you control have "[−3]: When you next cast an instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy."
 - **Keywords:** Surveil, Empower Jace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16794 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/223/way-of-the-cryomancer) · oracle_id `7d32c63d-aa9e-4f5d-a3e6-51377a786009` · printing: FRA #223 (2026-10-02) · [rulings](https://api.scryfall.com/cards/838b0efb-7398-4df9-8fdf-b8af43b47938/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2026-08-21* — Any choices made when the spell resolves won't have been made yet when it's copied. Any such choices will be made separately when the copy resolves.
+  - *2026-08-21* — Empower Jace won't let you put loyalty counters on nontoken Jace planeswalkers. However, if you control a Jace planeswalker token that you got another way (such as an effect that creates a token that's a copy of a permanent), empower Jace will put loyalty counters on that.
+  - *2026-08-21* — If the copied spell divides damage or distributes counters among a number of targets, the division and number of targets can't be changed. If you choose new targets, you must choose the same number of targets.
+  - *2026-08-21* — If the spell that's copied has an X whose value was determined as it was cast, the copy has the same value of X.
+  - *2026-08-21* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode or modes. You can't choose different ones.
+  - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
+  - *2026-08-21* — Only one loyalty ability of each planeswalker may be activated per turn, no matter how many it has gained.
+  - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
+  - *2026-08-21* — The copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger.
+  - *2026-08-21* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+  - *2026-08-21* — You can't choose to pay any additional costs for a copied spell. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/223/way-of-the-cryomancer) · oracle_id `7d32c63d-aa9e-4f5d-a3e6-51377a786009` · printing: FRA #223 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Way of the Deathbringer
 
@@ -113,7 +141,13 @@
   > Planeswalkers you control have "[−2]: You may sacrifice a creature. If you do, create a 4/4 green Beast creature token with trample."
 - **Keywords:** Surveil, Empower Jace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20521 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/238/way-of-the-deathbringer) · oracle_id `54775625-bf44-4035-969e-7e70578c8b98` · printing: FRA #238 (2026-10-02) · [rulings](https://api.scryfall.com/cards/12dd46b2-e892-4660-b120-55766fd4d878/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2026-08-21* — Empower Jace won't let you put loyalty counters on nontoken Jace planeswalkers. However, if you control a Jace planeswalker token that you got another way (such as an effect that creates a token that's a copy of a permanent), empower Jace will put loyalty counters on that.
+  - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
+  - *2026-08-21* — Only one loyalty ability of each planeswalker may be activated per turn, no matter how many it has gained.
+  - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
+  - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/238/way-of-the-deathbringer) · oracle_id `54775625-bf44-4035-969e-7e70578c8b98` · printing: FRA #238 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Way of the Healer
 
@@ -124,7 +158,13 @@
   > Planeswalkers you control have "[−2]: Create a 2/2 colorless Wizard Soldier creature token named Cadet. Surveil 1."
 - **Keywords:** Surveil, Empower Jace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17576 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/207/way-of-the-healer) · oracle_id `cb27dc83-85ee-4f54-b032-41cd1806d3ac` · printing: FRA #207 (2026-10-02) · [rulings](https://api.scryfall.com/cards/50326a2a-7e10-464b-a97e-e880bda0558c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2026-08-21* — Empower Jace won't let you put loyalty counters on nontoken Jace planeswalkers. However, if you control a Jace planeswalker token that you got another way (such as an effect that creates a token that's a copy of a permanent), empower Jace will put loyalty counters on that.
+  - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
+  - *2026-08-21* — Only one loyalty ability of each planeswalker may be activated per turn, no matter how many it has gained.
+  - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
+  - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/207/way-of-the-healer) · oracle_id `cb27dc83-85ee-4f54-b032-41cd1806d3ac` · printing: FRA #207 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Way of the Mentor
 
@@ -135,7 +175,13 @@
   > Whenever you gain life, put a loyalty counter on each planeswalker you control.
 - **Keywords:** Surveil, Empower Jace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15786 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/208/way-of-the-mentor) · oracle_id `ce924285-f4c5-44e6-909b-f5f7d302ebaf` · printing: FRA #208 (2026-10-02) · [rulings](https://api.scryfall.com/cards/1a59d5b1-12d6-486b-bd29-ca371359addd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2026-08-21* — Empower Jace won't let you put loyalty counters on nontoken Jace planeswalkers. However, if you control a Jace planeswalker token that you got another way (such as an effect that creates a token that's a copy of a permanent), empower Jace will put loyalty counters on that.
+  - *2026-08-21* — If more than one creature you control with lifelink deals combat damage at the same time, the last ability will trigger once for each of those creatures.
+  - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
+  - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
+  - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/208/way-of-the-mentor) · oracle_id `ce924285-f4c5-44e6-909b-f5f7d302ebaf` · printing: FRA #208 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Way of the Mind Sculptor
 
@@ -146,7 +192,13 @@
   > Whenever you activate a loyalty ability, if you removed two or more loyalty counters to activate it, draw a card.
 - **Keywords:** Surveil, Empower Jace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14914 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/224/way-of-the-mind-sculptor) · oracle_id `94be2e86-ba0e-4b8d-9b9c-114adacb26db` · printing: FRA #224 (2026-10-02) · [rulings](https://api.scryfall.com/cards/5838af68-66c3-4fe8-ab89-0a1721b0cfeb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2026-08-21* — Empower Jace won't let you put loyalty counters on nontoken Jace planeswalkers. However, if you control a Jace planeswalker token that you got another way (such as an effect that creates a token that's a copy of a permanent), empower Jace will put loyalty counters on that.
+  - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
+  - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
+  - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+  - *2026-08-21* — You will draw the card before the loyalty ability that you activated resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/224/way-of-the-mind-sculptor) · oracle_id `94be2e86-ba0e-4b8d-9b9c-114adacb26db` · printing: FRA #224 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Way of the Necromancer
 
@@ -157,7 +209,12 @@
   > Whenever a creature you control dies, put a loyalty counter on each planeswalker you control.
 - **Keywords:** Surveil, Empower Jace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14263 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/239/way-of-the-necromancer) · oracle_id `f3087daa-d2ff-4227-abff-3398da6297af` · printing: FRA #239 (2026-10-02) · [rulings](https://api.scryfall.com/cards/a0ff9689-ea49-4fff-b37c-4abbaeb0f73d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2026-08-21* — Empower Jace won't let you put loyalty counters on nontoken Jace planeswalkers. However, if you control a Jace planeswalker token that you got another way (such as an effect that creates a token that's a copy of a permanent), empower Jace will put loyalty counters on that.
+  - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
+  - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
+  - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/239/way-of-the-necromancer) · oracle_id `f3087daa-d2ff-4227-abff-3398da6297af` · printing: FRA #239 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Way of the Paradox
 
@@ -168,7 +225,12 @@
   > Whenever you activate a loyalty ability, you gain 1 life. You may play an additional land this turn.
 - **Keywords:** Surveil, Empower Jace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14449 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/267/way-of-the-paradox) · oracle_id `76771cd1-6b74-49bb-9421-8845fe344567` · printing: FRA #267 (2026-10-02) · [rulings](https://api.scryfall.com/cards/98dc5470-507a-4364-8480-42607255e56c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2026-08-21* — Empower Jace won't let you put loyalty counters on nontoken Jace planeswalkers. However, if you control a Jace planeswalker token that you got another way (such as an effect that creates a token that's a copy of a permanent), empower Jace will put loyalty counters on that.
+  - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
+  - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
+  - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/267/way-of-the-paradox) · oracle_id `76771cd1-6b74-49bb-9421-8845fe344567` · printing: FRA #267 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Way of the Pyromancer
 
@@ -179,7 +241,14 @@
   > Planeswalkers you control have "[+1]: Add {R}."
 - **Keywords:** Surveil, Empower Jace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12635 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/254/way-of-the-pyromancer) · oracle_id `68d3f547-674a-4d8a-b02f-01bc2f161916` · printing: FRA #254 (2026-10-02) · [rulings](https://api.scryfall.com/cards/c1a00020-7c14-4503-a057-5763704bb83e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2026-08-21* — Empower Jace won't let you put loyalty counters on nontoken Jace planeswalkers. However, if you control a Jace planeswalker token that you got another way (such as an effect that creates a token that's a copy of a permanent), empower Jace will put loyalty counters on that.
+  - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
+  - *2026-08-21* — Loyalty abilities can't be mana abilities. The ability granted by Way of the Pyromancer uses the stack and can be countered or otherwise responded to. Like all loyalty abilities, it can be activated only once per turn, during your main phase, when the stack is empty, and only if no other loyalty abilities of this permanent have been activated this turn.
+  - *2026-08-21* — Only one loyalty ability of each planeswalker may be activated per turn, no matter how many it has gained.
+  - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
+  - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/254/way-of-the-pyromancer) · oracle_id `68d3f547-674a-4d8a-b02f-01bc2f161916` · printing: FRA #254 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Way of the Thief
 
@@ -193,6 +262,7 @@
   > *A true shortcut isn't a way other people don't know; it's a way other people can't go.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17424 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gtc/56/way-of-the-thief) · oracle_id `b43ba23b-ff92-4f52-a4f4-2d0825abb7ed` · printing: GTC #56 (2013-02-01) · [rulings](https://api.scryfall.com/cards/b249ca81-bd8d-4d3d-81d6-15e8d669c416/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Way of the Warlord
@@ -204,7 +274,13 @@
   > Planeswalkers you control have "[−4]: This planeswalker deals 2 damage to up to one target creature or planeswalker and 2 damage to target player."
 - **Keywords:** Surveil, Empower Jace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20900 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/255/way-of-the-warlord) · oracle_id `10721d62-dc68-43b4-bfa2-dcb8cf8ea980` · printing: FRA #255 (2026-10-02) · [rulings](https://api.scryfall.com/cards/6d86e410-20c4-4248-96bf-5780ece6274a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2026-08-21* — Empower Jace won't let you put loyalty counters on nontoken Jace planeswalkers. However, if you control a Jace planeswalker token that you got another way (such as an effect that creates a token that's a copy of a permanent), empower Jace will put loyalty counters on that.
+  - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
+  - *2026-08-21* — Only one loyalty ability of each planeswalker may be activated per turn, no matter how many it has gained.
+  - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
+  - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/255/way-of-the-warlord) · oracle_id `10721d62-dc68-43b4-bfa2-dcb8cf8ea980` · printing: FRA #255 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Way of the Wildspeaker
 
@@ -215,7 +291,13 @@
   > Planeswalkers you control have "[−4]: Create a 4/4 green Beast creature token with trample."
 - **Keywords:** Surveil, Empower Jace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21219 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/268/way-of-the-wildspeaker) · oracle_id `501580b9-692c-4804-be34-012a25ba8adf` · printing: FRA #268 (2026-10-02) · [rulings](https://api.scryfall.com/cards/a252cb01-537b-4afe-9abc-81a98c4a1439/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2026-08-21* — Empower Jace won't let you put loyalty counters on nontoken Jace planeswalkers. However, if you control a Jace planeswalker token that you got another way (such as an effect that creates a token that's a copy of a permanent), empower Jace will put loyalty counters on that.
+  - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
+  - *2026-08-21* — Only one loyalty ability of each planeswalker may be activated per turn, no matter how many it has gained.
+  - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
+  - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/268/way-of-the-wildspeaker) · oracle_id `501580b9-692c-4804-be34-012a25ba8adf` · printing: FRA #268 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wayspeaker Bodyguard
 
@@ -227,7 +309,10 @@
   > Flurry — Whenever you cast your second spell each turn, tap target creature an opponent controls.
 - **Keywords:** Flurry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21779 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/34/wayspeaker-bodyguard) · oracle_id `b93eaf66-91b3-44da-851c-79810901be0c` · printing: TDM #34 (2025-04-11) · [rulings](https://api.scryfall.com/cards/5e5b2324-69fe-4105-b6f8-14dfbe359d59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-04-04* — If a card in a graveyard has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+  - *2025-04-04* — Spells that were cast before a permanent with flurry count. If that permanent was the first spell you cast that turn, the next spell you cast that turn is your second spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/34/wayspeaker-bodyguard) · oracle_id `b93eaf66-91b3-44da-851c-79810901be0c` · printing: TDM #34 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wayta, Trainer Prodigy
 
@@ -256,7 +341,9 @@
   > Threshold — As long as there are seven or more cards in your graveyard, this creature gets +3/+3, is black, has trample, and has "At the beginning of your upkeep, sacrifice a creature."
 - **Keywords:** Flying, Vigilance, Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30183 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ody/57/wayward-angel) · oracle_id `bf169a7a-e3cf-44b2-83eb-c2597bcf22d9` · printing: ODY #57 (2001-10-01) · [rulings](https://api.scryfall.com/cards/1fb726e8-162d-4143-9778-32476c0e1ab1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — When you have seven or more cards in your graveyard, this card is black. It is not white and black.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ody/57/wayward-angel) · oracle_id `bf169a7a-e3cf-44b2-83eb-c2597bcf22d9` · printing: ODY #57 (2001-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wayward Giant
 
@@ -270,6 +357,7 @@
   > *—Sram, senior edificer*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30468 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/139/wayward-giant) · oracle_id `124cf15a-587a-4f1f-a943-f462072f2098` · printing: KLD #139 (2016-09-30) · [rulings](https://api.scryfall.com/cards/db01e574-7a96-472c-8e5a-bbd503280c71/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wayward Guide-Beast
@@ -284,6 +372,7 @@
   > *Goblin cavalry tactics consist of pointing a beast in a direction and hanging on for as long as possible.*
 - **Keywords:** Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23929 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/176/wayward-guide-beast) · oracle_id `c752e001-56cc-46dc-acb3-3fca6c0bdd2e` · printing: ZNR #176 (2020-09-25) · [rulings](https://api.scryfall.com/cards/d00f8ab0-61cd-4721-b974-a2516da77d39/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wayward Servant
@@ -314,6 +403,7 @@
   > *—Stronghold graffito*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31918 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/78/wayward-soul) · oracle_id `319b4715-c3eb-49bf-b8d2-4d41e601ebe4` · printing: TPR #78 (2015-05-06) · [rulings](https://api.scryfall.com/cards/4a761397-3613-4d91-adbf-978a12e7ef32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wayward Swordtooth

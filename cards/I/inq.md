@@ -29,7 +29,9 @@
 - **Flavor text** (DRK printing):
   > *Many of those entrusted to Primata Delphine's care tended to express themselves with screams.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31549 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/drk/47/inquisition) · oracle_id `9178253e-0d89-450d-a93b-ed4765e945db` · printing: DRK #47 (1994-08-01) · [rulings](https://api.scryfall.com/cards/5f133f06-6398-4db1-8577-66c16fd3e00d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-02-01* — If you target yourself with this spell, you must reveal your entire hand to the other players just as any other player would.
+- **Source flags:** [Scryfall](https://scryfall.com/card/drk/47/inquisition) · oracle_id `9178253e-0d89-450d-a93b-ed4765e945db` · printing: DRK #47 (1994-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inquisition of Kozilek
 
@@ -73,6 +75,7 @@
   > *—\*Beyond the Great Henge\**
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17072 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/223/inquisitive-puppet) · oracle_id `015004d7-989b-4549-9ffa-b062126d04d2` · printing: ELD #223 (2019-10-04) · [rulings](https://api.scryfall.com/cards/807a570a-b5eb-420d-9fa5-6e5364025510/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inquisitor Eisenhorn
@@ -85,7 +88,15 @@
   > Whenever Inquisitor Eisenhorn deals combat damage to a player, investigate that many times. (Create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.")
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13515 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/127/inquisitor-eisenhorn) · oracle_id `db07a3f9-c6d1-4cae-a899-12b3e8d94018` · printing: 40K #127 (2022-10-07) · [rulings](https://api.scryfall.com/cards/bdf1ccf7-e95f-4d08-be51-83fba78c4c2d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-10-07* — If an effect puts a card into your hand without using the word "draw," the card wasn't drawn.
+  - *2022-10-07* — If the card leaves your hand before Inquisitor Eisenhorn's triggered ability resolves, you'll still create a Cherubael token.
+  - *2022-10-07* — If you reveal a card this way, it remains revealed until Inquisitor Eisenhorn's triggered ability finishes resolving.
+  - *2022-10-07* — It's important to reveal the first card you draw each turn (or choose not to reveal it) before it is mixed with the other cards in your hand. You look at the card as you draw it before choosing whether to reveal it.
+  - *2022-10-07* — Multiple card draws are always treated as a sequence of individual card draws. For example, if you haven't drawn any cards yet during a turn and cast a spell that instructs you to draw three cards, you'll draw them one at a time. Only the first card drawn this way may be revealed with Inquisitor Eisenhorn's ability.
+  - *2022-10-07* — You can reveal an instant or sorcery card this way on any turn to create a token, not just your own, if it's the first card you've drawn that turn.
+  - *2022-10-07* — You don't have to reveal a drawn card if you don't wish to create a Cherubael token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/127/inquisitor-eisenhorn) · oracle_id `db07a3f9-c6d1-4cae-a899-12b3e8d94018` · printing: 40K #127 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inquisitor Exarch
 
@@ -100,6 +111,7 @@
   > *"Skin is the prison of the blessed and the stronghold of the heretic."*
   > *—Argent Etchings, plate 64, passage 17*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21196 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nph/12/inquisitor-exarch) · oracle_id `7deae378-9291-487e-9f0b-1deaf37218a8` · printing: NPH #12 (2011-05-13) · [rulings](https://api.scryfall.com/cards/49e241a0-a027-494b-8187-6ecb006d1d33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inquisitor Greyfax
@@ -113,6 +125,7 @@
   > Hunt for Heresy — {1}, {T}: Tap target creature an opponent controls. Investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.")
 - **Keywords:** Investigate, Vigilance, Unquestionable Wisdom, Hunt for Heresy
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10050 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/3/inquisitor-greyfax) · oracle_id `9439d6eb-4c10-451d-85c4-3752611c671c` · printing: 40K #3 (2022-10-07) · [rulings](https://api.scryfall.com/cards/86a4afac-69fd-46e9-8009-58de59bf3f5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inquisitorial Rosette
@@ -155,7 +168,13 @@
   > *Many fields now lie fallow in Gavony, as the oxen have been confiscated to perform other duties.*
 - **Keywords:** Delirium
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25650 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/24/inquisitors-ox) · oracle_id `224788aa-3876-4844-949e-918e6273151d` · printing: SOI #24 (2016-04-08) · [rulings](https://api.scryfall.com/cards/fd1401fe-9e88-401b-96f0-5f58808a519f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2016-04-08* — Because you consider only the characteristics of a double-faced card's front face while it's not on the battlefield, the types of its back face won't be counted for delirium.
+  - *2016-04-08* — Gaining vigilance any time after the moment you choose to attack with Inquisitor's Ox won't cause it to become untapped.
+  - *2016-04-08* — In some rare cases, you can have a token or a copy of a spell in your graveyard at the moment that an object's delirium ability counts the card types among cards in your graveyard, before that token or copy ceases to exist. Because tokens and copies of spells are not cards, even if they are copies of cards, their types will never be counted.
+  - *2016-04-08* — The card types in Magic are artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Supertypes (such as legendary and basic) and subtypes (such as Human and Equipment) are not counted.
+  - *2016-04-08* — The number of card types matters, not the number of cards. For example, Wicker Witch (an artifact creature) along with Catalog (an instant) and Chaplain's Blessing (a sorcery) will enable delirium.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/24/inquisitors-ox) · oracle_id `224788aa-3876-4844-949e-918e6273151d` · printing: SOI #24 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inquisitor's Snare
 
@@ -166,4 +185,6 @@
 - **Flavor text** (SHM printing):
   > *Driven by their paranoia, kithkin inflict on their foes all the agonies they believe would have been inflicted on them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28092 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/shm/8/inquisitors-snare) · oracle_id `55e3dfcb-0999-401a-ae59-9804e12f4cfe` · printing: SHM #8 (2008-05-02) · [rulings](https://api.scryfall.com/cards/c607ec00-2d44-485e-ad85-24c0c7a284f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-05-01* — The prevention effect applies even after the creature leaves the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/shm/8/inquisitors-snare) · oracle_id `55e3dfcb-0999-401a-ae59-9804e12f4cfe` · printing: SHM #8 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -23,4 +23,7 @@
   > *—\*The Seer's Parables\**
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19543 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddl/54/deus-of-calamity) · oracle_id `f263f9d0-2ca9-4d3f-9b41-c67bdc73281a` · printing: DDL #54 (2013-09-06) · [rulings](https://api.scryfall.com/cards/a3b03ce9-a0fb-4b0c-b02d-e4f93ef87445/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-05-01* — This ability triggers from any damage, not just combat damage, that Deus of Calamity deals to an opponent in increments of 6 or more.
+  - *2008-05-01* — This ability will trigger when Deus of Calamity deals 6 damage to an opponent at one time. It won’t keep track of the accumulated damage that it deals at different times.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddl/54/deus-of-calamity) · oracle_id `f263f9d0-2ca9-4d3f-9b41-c67bdc73281a` · printing: DDL #54 (2013-09-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

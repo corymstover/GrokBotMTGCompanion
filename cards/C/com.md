@@ -118,7 +118,9 @@
   > *Etherium does not know sleep. Only magic can teach it the resting state of cold steel.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30417 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/36/coma-veil) · oracle_id `c062bd12-34cf-4177-92d4-8ce91206989d` · printing: ALA #36 (2008-10-03) · [rulings](https://api.scryfall.com/cards/2d5b820c-fd07-4e1f-9451-da9267347acd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Coma Veil may target and may enchant an untapped artifact or creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/36/coma-veil) · oracle_id `c062bd12-34cf-4177-92d4-8ce91206989d` · printing: ALA #36 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Combat Calligrapher
 
@@ -165,7 +167,13 @@
   > Unearth {U} ({U}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
 - **Keywords:** Unearth
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13176 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/77/combat-courier) · oracle_id `54d32245-c796-4e8e-b61e-c218e3902565` · printing: BRO #77 (2022-11-18) · [rulings](https://api.scryfall.com/cards/171edf80-ffc1-4894-9be5-c3e93a96f734/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-10-14* — Activating a card's unearth ability isn't the same as casting that card. The unearth ability is put on the stack, but the card is not. Spells and abilities that interact with activated abilities (such as Defabricate's second mode) will interact with unearth, but spells and abilities that interact with spells (such as Scatter Ray) will not.
+  - *2022-10-14* — At the beginning of the next end step, a permanent returned to the battlefield with unearth is exiled. This is a delayed triggered ability, and it can be countered by effects such as Defabricate that counter triggered abilities. If the ability is countered, the permanent will stay on the battlefield and the delayed triggered ability won't trigger again. However, the replacement effect will still exile the permanent if it eventually leaves the battlefield.
+  - *2022-10-14* — If a permanent returned to the battlefield with unearth would leave the battlefield for any reason, it's exiled instead—unless the spell or ability that's causing the permanent to leave the battlefield is actually trying to exile it! In that case, it succeeds at exiling it. If that spell or ability later returns the card to the battlefield (as Static Net might, for example), the permanent card will return to the battlefield as a new object with no relation to its previous existence. The unearth effects will no longer apply to it.
+  - *2022-10-14* — If you activate a card's unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will do nothing as it resolves.
+  - *2022-10-14* — Unearth grants haste to the permanent that's returned to the battlefield (even if it's not a creature card). However, neither of the "exile" abilities is granted to that permanent. If that permanent loses all its abilities, it will still be exiled at the beginning of the next end step, and if it would leave the battlefield, it is still exiled instead.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/77/combat-courier) · oracle_id `54d32245-c796-4e8e-b61e-c218e3902565` · printing: BRO #77 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Combat Medic
 
@@ -178,6 +186,7 @@
   > *"Without combat medics, Icatia would probably not have withstood the forces of chaos as long as it did."*
   > *—\*Sarpadian Empires, vol. VI\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30961 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/9/combat-medic) · oracle_id `541b7b2f-7bb0-4858-8dc5-6e50de443c33` · printing: ME2 #9 (2008-09-22) · [rulings](https://api.scryfall.com/cards/97cc7e09-315f-44fd-b7ce-03d4c18d88be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Combat Professor
@@ -192,6 +201,7 @@
   > *"Before Yovus was cut down at Pranticle Peak, she performed which maneuver? Anyone? From the reading?"*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24145 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/11/combat-professor) · oracle_id `1b59665f-23c7-4df9-8e71-f9b1a419063b` · printing: STX #11 (2021-04-23) · [rulings](https://api.scryfall.com/cards/3f669ac4-98ed-4e23-91a9-281f8277ab04/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Combat Research
@@ -219,7 +229,15 @@
   > When this creature enters, draw a card.
 - **Keywords:** Double strike, Prototype
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13505 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/35/combat-thresher) · oracle_id `0c460bdd-460b-4312-9ed2-32f3809a7d36` · printing: BRO #35 (2022-11-18) · [rulings](https://api.scryfall.com/cards/74dfabfd-e13b-4512-a733-abe514be6404/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-10-14* — A prototype card is a colorless card in every zone except the stack or the battlefield, as well as while on the stack or the battlefield if not cast as a prototyped spell. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Blitz Automaton is a colorless creature card with mana value 7. It can't be the target of Recommission, a spell that targets an artifact or creature card with mana value 3 or less in your graveyard.
+  - *2022-10-14* — Casting a prototyped spell isn't the same as casting it for an alternative cost, and an alternative cost may be applied to a spell cast this way. For example, if an effect allows you to cast an artifact card without paying its mana cost, you could either cast Blitz Automaton normally, or as a prototyped spell.
+  - *2022-10-14* — If an effect copies a prototyped spell, that copy (as well as the token it becomes on the battlefield) will have the same characteristics as the prototyped spell. Similarly, if an effect creates a token that's a copy of a prototyped permanent or causes another permanent to become a copy of it, the copy would have the same characteristics as the prototyped permanent.
+  - *2022-10-14* — Regardless of how it was cast, a prototype card always has the same name, abilities, types, and so on. Only the mana cost, mana value, color, power, and toughness change depending on whether the card was cast as a prototyped spell.
+  - *2022-10-14* — The prototype ability functions in any zone that the spell could be cast from. For example, if an effect allows you to cast artifact spells from your graveyard, you could cast a prototyped Blitz Automaton from your graveyard.
+  - *2022-10-14* — When cast as a prototyped spell, that spell has the mana cost, power, and toughness characteristics shown in its colored, secondary text box rather than the normal values of those characteristics. Its color and mana value are determined by that mana cost. The permanent that spell becomes as it resolves has the same characteristics. If the spell leaves the stack in any other way, or the permanent it becomes leaves the battlefield, it immediately resumes using its normal characteristics.
+  - *2022-10-14* — When casting a prototyped spell, use only its prototype characteristics to determine whether it's legal to cast it. For example, if Blitz Automaton is exiled with the last ability of Chandra, Dressed to Kill, you would be able to cast it for {2}{R} (because it's a red spell), even though you wouldn't be able to cast it as a colorless spell for its normal cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/35/combat-thresher) · oracle_id `0c460bdd-460b-4312-9ed2-32f3809a7d36` · printing: BRO #35 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Combat Tutorial
 
@@ -258,7 +276,11 @@
   > {1}{G}, {T}: This turn, each creature you control enters with an additional +1/+1 counter on it.
   > {1}{U}, {T}: Move a +1/+1 counter from target creature you control onto another target creature you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18202 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/163/combine-guildmage) · oracle_id `90abb55d-5c05-453f-b4a6-c0741dc36694` · printing: RNA #163 (2019-01-25) · [rulings](https://api.scryfall.com/cards/3a6e2816-d50b-41a5-b503-faa58dc7c94a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-01-25* — If a creature would normally enter the battlefield with no +1/+1 counters on it, Combine Guildmage’s first ability causes it to enter the battlefield with a +1/+1 counter on it.
+  - *2019-01-25* — If either target creature is an illegal target by the time Combine Guildmage’s second ability tries to resolve, nothing happens. No creature loses or gets a +1/+1 counter.
+  - *2019-01-25* — If the first target creature for Combine Guildmage’s second ability has no +1/+1 counters on it as the ability resolves, nothing happens. The second target creature doesn’t get a +1/+1 counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/163/combine-guildmage) · oracle_id `90abb55d-5c05-453f-b4a6-c0741dc36694` · printing: RNA #163 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Combo Attack
 
@@ -269,7 +291,9 @@
 - **Flavor text** (BBD printing):
   > *Success at Valor's Reach requires not only individual skill but also the ability to merge that skill with a partner's.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27723 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/67/combo-attack) · oracle_id `037eccdb-21c3-4048-af4f-b25dcbe99134` · printing: BBD #67 (2018-06-08) · [rulings](https://api.scryfall.com/cards/d7703507-e7f1-47fd-97f3-ef6319b807a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-06-08* — You can’t cast Combo Attack without targeting two creatures your team controls. If one of those creatures is an illegal target as Combo Attack resolves, the other will still deal damage equal to its power.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/67/combo-attack) · oracle_id `037eccdb-21c3-4048-af4f-b25dcbe99134` · printing: BBD #67 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Combust
 
@@ -279,7 +303,14 @@
   > This spell can't be countered.
   > Combust deals 5 damage to target white or blue creature. The damage can't be prevented.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24167 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/110/combust) · oracle_id `f1ba56e3-3d09-4610-88e7-8681b5736105` · printing: MM2 #110 (2015-05-22) · [rulings](https://api.scryfall.com/cards/a0acedb1-874c-48ea-820d-f1b1f8cb2553/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2010-08-15* — Combust can be targeted by spells and abilities that try to counter it (such as Cancel). Those spells and abilities will resolve, but the part of their effect that would counter Combust won’t do anything. Any other effects those spells and abilities have will work as normal.
+  - *2010-08-15* — Effects that replace or redirect damage without using the word “prevent” aren’t affected by Combust; they’ll work as normal.
+  - *2010-08-15* — If a creature is dealt lethal damage by Combust, it can still regenerate. If it does, the damage marked on it will be removed from it.
+  - *2010-08-15* — If a static ability would prevent damage from being dealt to the targeted creature, it fails to prevent the damage dealt by Combust. If that ability has an additional effect that doesn’t depend on the amount of damage prevented, that additional effect will still work. It’s applied just once as Combust resolves.
+  - *2010-08-15* — If the targeted creature is an illegal target by the time Combust would resolve, Combust won’t resolve for having an illegal target.
+  - *2010-08-15* — Spells that create prevention effects affecting the targeted creature can still be cast, and abilities that create prevention effects affecting the targeted creature can still be activated. However, damage prevention shields (including those created before Combust was cast) don’t have any effect on the damage dealt by Combust. If such a prevention effect has an additional effect, the additional effect will still work (if possible).
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/110/combust) · oracle_id `f1ba56e3-3d09-4610-88e7-8681b5736105` · printing: MM2 #110 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Combustible Gearhulk
 
@@ -352,6 +383,7 @@
   > *—Decrypted log 2.23*
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18142 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/92/comet-crawler) · oracle_id `0c1b6305-8863-43e0-b50d-ae1c5e31be55` · printing: EOE #92 (2025-08-01) · [rulings](https://api.scryfall.com/cards/becca990-ab2e-4aa4-be7d-293ec727cb08/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Comet, Stellar Pup
@@ -423,6 +455,7 @@
 - **Flavor text** (SOS printing):
   > *In the grief that followed the Invasion, Willowdusk's office turned into an unofficial hideaway for overwhelmed students.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10375 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/143/comforting-counsel) · oracle_id `5fd193c0-ed9f-4afb-b6cd-c1a20008fc0b` · printing: SOS #143 (2026-04-24) · [rulings](https://api.scryfall.com/cards/5223a04f-6b47-4379-80ce-8489c4a91734/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coming Attraction
@@ -435,6 +468,7 @@
   > *The Astrotorium adds new attractions almost as fast as Captain Nebula can crash them into asteroids.*
 - **Keywords:** Open an Attraction
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15633 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/135/coming-attraction) · oracle_id `5d9c7ca4-f735-4bee-b03f-4c0c76ee48ed` · printing: UNF #135 (2022-10-07) · [rulings](https://api.scryfall.com/cards/93a0f726-fc72-42ac-b350-3c2813abefa4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coming In Hot
@@ -447,6 +481,7 @@
   > *"I have a reckless idea," Koth offered. Chandra grinned and cracked her knuckles.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18143 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/136/coming-in-hot) · oracle_id `9666729d-3a06-43f9-a957-d5cc4d25b974` · printing: MOM #136 (2023-04-21) · [rulings](https://api.scryfall.com/cards/4f6eb966-67af-4b18-8899-4a99a5179aa3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Command Beacon
@@ -493,6 +528,7 @@
   > *"If we're going to be damned, let's be damned for what we really are."*
   > *—Captain Jean-Luc Picard*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31857 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/8/command-decision) · oracle_id `1c4afb0d-6d6e-4d21-9fe0-5621cd2fd27c` · printing: TRK #8 (2026-11-13) · [rulings](https://api.scryfall.com/cards/9f1f789b-5c08-4a4d-b3a3-4d51ad9f1a4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Commandeer
@@ -525,6 +561,7 @@
   > *"War glides on the simplest updrafts while peace struggles against hurricane winds. It is the way of the world. It must change."*
 - **Keywords:** Flying, Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16100 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jud/9/commander-eesha) · oracle_id `b9b9edb2-62f5-499c-b2fc-359dc673c4b4` · printing: JUD #9 (2002-05-27) · [rulings](https://api.scryfall.com/cards/3607f6a9-b8d2-4119-9f70-95dcedc0662d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Commander Greven il-Vec
@@ -539,6 +576,7 @@
   > *"Rage is the only freedom left to me."*
 - **Keywords:** Fear
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26742 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/88/commander-greven-il-vec) · oracle_id `08fa1bee-cedf-4a29-9b02-cbdcc0926f8f` · printing: TPR #88 (2015-05-06) · [rulings](https://api.scryfall.com/cards/8a8ddd65-c482-426c-b4cd-9ad0206942ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Commander Liara Portyr
@@ -568,7 +606,9 @@
   > {2}{R}{W}: Until end of turn, Soldiers you control gain "Whenever this creature attacks, it deals 1 damage to defending player."
 - **Keywords:** Vigilance, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11799 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/6/commander-mustard) · oracle_id `3fdbe867-63cd-42c5-9843-46b0992b9628` · printing: CLU #6 (2024-02-23) · [rulings](https://api.scryfall.com/cards/c1fa8c23-5501-476f-9614-162d7bd95b23/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-02-02* — Activating Commander Mustard's last ability multiple times will cause Soldiers you control to gain multiple instances of the triggered ability. For example, if you activate Commander Mustard's last ability twice and then attack with Commander Mustard, it will have two instances of the triggered ability. Both will trigger, and the defending player will take 2 damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/6/commander-mustard) · oracle_id `3fdbe867-63cd-42c5-9843-46b0992b9628` · printing: CLU #6 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Commander's Authority
 
@@ -581,7 +621,9 @@
   > *"Wear her symbol with honor, a sign of faith upheld and honest deeds bravely done."*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17832 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/avr/13/commanders-authority) · oracle_id `57bc1106-81a0-4d91-94db-25e3a5f989cb` · printing: AVR #13 (2012-05-04) · [rulings](https://api.scryfall.com/cards/08ef4383-11e7-4426-a04a-058570f46e47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-05-01* — The controller of the enchanted creature gets the token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/avr/13/commanders-authority) · oracle_id `57bc1106-81a0-4d91-94db-25e3a5f989cb` · printing: AVR #13 (2012-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Commander's Insight
 
@@ -619,7 +661,11 @@
   > Crash Landing — When Commander Sofia Daguerre enters, destroy up to one target legendary permanent. That permanent's controller creates a Junk token. (It's an artifact with "{T}, Sacrifice this token: Exile the top card of your library. You may play that card this turn. Activate only as a sorcery.")
 - **Keywords:** Crash Landing, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11468 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/15/commander-sofia-daguerre) · oracle_id `a3fdb633-7fe9-4e72-a3a3-aa17b6f17864` · printing: PIP #15 (2024-03-08) · [rulings](https://api.scryfall.com/cards/712697a4-69b4-4237-9340-96f0e5a32229/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-03-08* — Some spells and abilities that create Junk tokens may require targets. If each target chosen is illegal as that spell or ability tries to resolve, it won't resolve and none of its effects happen. You won't create any Junk tokens.
+  - *2024-03-08* — You can't sacrifice a Junk token to pay multiple costs. For example, you can't sacrifice a Junk token to activate its own ability and also to activate the second ability of Junk Jet.
+  - *2024-03-08* — You pay all costs and follow all normal timing rules for the card played from exile with a Junk token's ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/15/commander-sofia-daguerre) · oracle_id `a3fdb633-7fe9-4e72-a3a3-aa17b6f17864` · printing: PIP #15 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Commander's Plate
 
@@ -663,6 +709,7 @@
   > (Start the game with this conspiracy face up in the command zone.)
   > Players play with each of their commanders face down and secret until they cast them for the first time. (Be sure to tell your opponent you're using this right at the beginning of the game, so they don't reveal their commanders to you yet!)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RC01b/command-from-the-shadows) · oracle_id `2874b19b-8b22-48a2-a410-f7a29f8f738b` · printing: UNK #RC01b (2023-07-29) · [rulings](https://api.scryfall.com/cards/c80da5cb-abb3-448b-8660-9628e67ba0ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Commanding Presence
@@ -676,6 +723,7 @@
   > *"In every one of you I see a hero's heart."*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16820 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/7/commanding-presence) · oracle_id `03160a74-8b83-4e07-b702-977a91a6311f` · printing: THB #7 (2020-01-24) · [rulings](https://api.scryfall.com/cards/24e2f681-918e-4f1f-afb1-0f9587c0d7bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Command Mine
@@ -685,6 +733,7 @@
 - **Oracle text:**
   > {T}: Add one mana of any color in your commander's color identity. If you control a Command Tower and a Command Power Plant, add two mana of any color in your commander's color identity instead.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/CL03b/command-mine) · oracle_id `0765d1f4-b7a2-4215-842a-6eeeefab2da0` · printing: UNK #CL03b (2023-09-23) · [rulings](https://api.scryfall.com/cards/2a404d12-08e2-496d-8ff7-61be03a9ff8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Command of Unsummoning
@@ -695,6 +744,7 @@
   > Cast this spell only during the declare attackers step and only if you've been attacked this step.
   > Return one or two target attacking creatures to their owner's hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28668 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/por/48/command-of-unsummoning) · oracle_id `fd57dfa5-f29d-4b79-8748-c34a73efb7f0` · printing: POR #48 (1997-05-01) · [rulings](https://api.scryfall.com/cards/e61b97fc-fa42-40a6-918e-e06383bfcae3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Commando Raid
@@ -704,6 +754,7 @@
 - **Oracle text:**
   > Until end of turn, target creature you control gains "When this creature deals combat damage to a player, you may have it deal damage equal to its power to target creature that player controls."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27492 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/195/commando-raid) · oracle_id `3bd57758-00a6-4d49-b1fc-b14f8203da0b` · printing: ONS #195 (2002-10-07) · [rulings](https://api.scryfall.com/cards/bb237330-ac2e-411d-836c-6628f96f3262/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Command Performance
@@ -718,7 +769,9 @@
   > • You may put a sticker on a nonland permanent you own.
 - **Keywords:** Roll to Visit Your Attractions, Open an Attraction
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13664 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/42/command-performance) · oracle_id `f6c079cd-69c2-4da4-ba41-91844a4d2f06` · printing: UNF #42 (2022-10-07) · [rulings](https://api.scryfall.com/cards/082b93fc-3490-4598-95a3-302481e8679d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-07* — No matter which two modes you choose, you always follow the instructions in the order they're written. You'll open an Attraction before rolling to visit them, if applicable, and similarly you'll get tickets before you may put a sticker on a nonland permanent you own.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/42/command-performance) · oracle_id `f6c079cd-69c2-4da4-ba41-91844a4d2f06` · printing: UNF #42 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Command Power Plant
 
@@ -728,6 +781,7 @@
   > {T}: Add one mana of any color in your commander's color identity. If you control a Command Tower and a Command Mine, add two mana of any color in your commander's color identity instead.
   > Command Towers you control have, "{T}: If you control a Command Mine and a Command Power Plant, add three mana of any color in your commander's color identity."
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/CL04/command-power-plant) · oracle_id `d01f1b05-33c2-4143-9b02-c13ea931ab01` · printing: UNK #CL04 (2023-09-23) · [rulings](https://api.scryfall.com/cards/c8178185-7816-486e-91db-3715705b4ff6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Command the Chaff
@@ -738,7 +792,13 @@
   > Look at target opponent's sideboard. You may cast a card from that sideboard without paying its mana cost.
   > Exile Command the Chaff.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/18/command-the-chaff) · oracle_id `c1b8145a-7c54-49fb-b1be-9c745a581e56` · printing: CMB2 #18 (2021-08-20) · [rulings](https://api.scryfall.com/cards/f6bc829f-e29d-40b8-8350-fdb68e43da21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2019-11-12* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2019-11-12* — If you cast a card “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Tormenting Voice, you must pay those to cast the card.
+  - *2019-11-12* — In a Limited event, each card a player opened (in a Sealed Deck event) or drafted (in a Booster Draft event) is their sideboard.
+  - *2019-11-12* — You can’t play land cards from that sideboard.
+  - *2019-11-12* — You must cast the sideboard card you wish to cast while Command the Chaff is resolving. You can’t cast it later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/18/command-the-chaff) · oracle_id `c1b8145a-7c54-49fb-b1be-9c745a581e56` · printing: CMB2 #18 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Command the Dreadhorde
 
@@ -765,6 +825,7 @@
 - **Flavor text** (FRA printing):
   > *Stingerquill admits only the fiercest hearts.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22442 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/77/command-the-stage) · oracle_id `13bfc51f-d079-40ef-a4ba-47d06d3150a3` · printing: FRA #77 (2026-10-02) · [rulings](https://api.scryfall.com/cards/f3307da2-6dad-4ef2-9614-a7d34f38088e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Command the Storm
@@ -776,6 +837,7 @@
 - **Flavor text** (GRN printing):
   > *In the wake of Niv-Mizzet's disappearance, Ral found himself leading the guild. He had dreamed of this day, but couldn't help feeling like a pawn in someone else's game.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24894 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/94/command-the-storm) · oracle_id `1dc816b5-8918-4a0c-bb10-74abe579a98c` · printing: GRN #94 (2018-10-05) · [rulings](https://api.scryfall.com/cards/c4144e98-957e-43ac-b107-8ccf450748df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Command Tower
@@ -802,6 +864,7 @@
 - **Flavor text** (KLD printing):
   > *Never before have there been so many brilliant minds and wondrous inventions in one place. Denizens from every corner of Kaladesh will flock to the once-in-a-lifetime Inventors' Fair.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14839 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/148/commencement-of-festivities) · oracle_id `56ea8f6b-a765-44e7-bf0e-4d4a2405684b` · printing: KLD #148 (2016-09-30) · [rulings](https://api.scryfall.com/cards/f1724602-2ae1-40a4-aeb0-51a483a6948c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Commence the Endgame
@@ -907,7 +970,11 @@
   > • That creature's controller mills cards equal to its power.
 - **Keywords:** Treasure, Food, Mill
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/543/common-black-removal) · oracle_id `f64eff0e-dda7-457b-adf9-aa4e537f4f58` · printing: MB2 #543 (2024-08-02) · [rulings](https://api.scryfall.com/cards/44ba16ca-bc75-4d7b-9f40-547ff76ac02b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/543/common-black-removal) · oracle_id `f64eff0e-dda7-457b-adf9-aa4e537f4f58` · printing: MB2 #543 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Common Bond
 
@@ -919,7 +986,9 @@
 - **Flavor text** (RTR printing):
   > *Wolf riders hone their skills traversing the perilous rooftops, each dizzying step bringing elf and wolf closer together.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24227 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/151/common-bond) · oracle_id `d52e9255-62e7-479f-8def-e92b96efdb89` · printing: RTR #151 (2012-10-05) · [rulings](https://api.scryfall.com/cards/59965953-1522-4103-9a6c-5534205d34d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-10-01* — You may choose the same creature for both targets. You may also choose two different creatures. This is because the word “target” is used twice.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/151/common-bond) · oracle_id `d52e9255-62e7-479f-8def-e92b96efdb89` · printing: RTR #151 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Common Cause
 
@@ -930,7 +999,10 @@
 - **Flavor text** (MMQ printing):
   > *Mercadia City's troops are at their best when they have no enemy to fight.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29860 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/13/common-cause) · oracle_id `d1dac139-de12-46ba-94b1-42e107c2c95f` · printing: MMQ #13 (1999-10-04) · [rulings](https://api.scryfall.com/cards/eae4c25f-2005-4ac0-a5f0-2fc250520995/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — It really does mean “all creatures”, including your opponent’s.
+  - *2004-10-04* — The ability gives +2/+2 to all creatures which are not artifact creatures, as long as every one of those creatures is of the same color. They can have additional colors beyond the one they share, but they all have to share one color. If any creature is not of the shared color, the bonus is lost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/13/common-cause) · oracle_id `d1dac139-de12-46ba-94b1-42e107c2c95f` · printing: MMQ #13 (1999-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Common Courtesy
 
@@ -942,7 +1014,9 @@
 - **Flavor text** (UND printing):
   > *"You didn't say the Magic word."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/und/22/common-courtesy) · oracle_id `a8f0974a-8706-476f-82ee-72485b6b558e` · printing: UND #22 (2020-02-29) · [rulings](https://api.scryfall.com/cards/357cb220-47c4-438d-bc24-abd68ed4273c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-02-29* — You do have to ask yourself permission to cast spells, although you can give yourself a one-time permission that applies to all future spells you cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/und/22/common-courtesy) · oracle_id `a8f0974a-8706-476f-82ee-72485b6b558e` · printing: UND #22 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Common Crook
 
@@ -956,6 +1030,7 @@
   > *—Spider-Man*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11378 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/792/common-crook) · oracle_id `ebcbfdba-34c7-40eb-91a9-d306ff5ae8b9` · printing: MSC #792 (2026-06-26) · [rulings](https://api.scryfall.com/cards/79f4fd9c-8ec1-4ccd-95aa-12f169032e1b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Common Curve Filler
@@ -966,6 +1041,7 @@
 - **Oracle text:**
   > During deckbuilding, choose a number from one to nine. Write that number in this card's mana cost, power, and toughness.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/CC01/common-curve-filler) · oracle_id `acd0151b-bbf4-4f40-82d1-2fcdb0c09749` · printing: UNK #CC01 (2023-05-06) · [rulings](https://api.scryfall.com/cards/b82f5174-f339-4d25-92c9-d2b99a1418ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Common Goal
@@ -977,6 +1053,7 @@
 - **Flavor text** (TRK printing):
   > *"So be it, human. We shall work together, if only so I can be the one to kill you."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32289 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/190/common-goal) · oracle_id `d4030d30-4c24-458c-87a9-c2f80bb68d27` · printing: TRK #190 (2026-11-13) · [rulings](https://api.scryfall.com/cards/4fddc950-fbc5-4cf7-b694-dcd54ffccb31/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Common Iguana
@@ -987,7 +1064,9 @@
 - **Oracle text:**
   > When this creature enters, you may discard a card. If you do, draw a card.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/und/50/common-iguana) · oracle_id `668c2c40-5334-493b-ae8e-913b26877732` · printing: UND #50 (2020-02-29) · [rulings](https://api.scryfall.com/cards/487de7fb-51b5-48bf-89cc-a0539ac1b994/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-01-19* — Host creatures each have an ability that triggers when it enters the battlefield. It functions like any other creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/und/50/common-iguana) · oracle_id `668c2c40-5334-493b-ae8e-913b26877732` · printing: UND #50 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Communal Brewing
 
@@ -1024,7 +1103,9 @@
 - **Flavor text** (MSC printing):
   > *"Ssstegron reignsss sssupreme!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10099 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/814/commune-with-dinosaurs) · oracle_id `27ca27f0-95a5-4292-b30b-1db3e9d639f8` · printing: MSC #814 (2026-06-26) · [rulings](https://api.scryfall.com/cards/afdb523f-68e7-43f9-b327-e356a67a09cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-01-19* — If an effect refers to a "[subtype] spell" or "[subtype] card," it refers only to a spell or card that has that subtype. For example, March of the Drowned is a card that benefits Pirates and features Pirates in its illustration, but it isn't a Pirate card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/814/commune-with-dinosaurs) · oracle_id `27ca27f0-95a5-4292-b30b-1db3e9d639f8` · printing: MSC #814 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Commune with Evil
 
@@ -1035,6 +1116,7 @@
 - **Flavor text** (DSK printing):
   > *Elsa swelled with euphoria and power as she stepped over her friends' corpses. She should have bargained with a demon a lot sooner.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10950 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/87/commune-with-evil) · oracle_id `0248bf01-14e0-4a39-ba3a-5177fe272fe9` · printing: DSK #87 (2024-09-27) · [rulings](https://api.scryfall.com/cards/9ab94ebe-b51b-4c6f-af43-0ed80e2808a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Commune with Lava
@@ -1062,7 +1144,9 @@
 - **Flavor text** (WOE printing):
   > *Agatha befriended the beasts of the wilds, and under her influence they grew bolder ... and more savage. Some herbivores developed a taste for flesh.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13887 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/166/commune-with-nature) · oracle_id `d4ed4260-5f38-4b55-ba6e-9f54f04d2360` · printing: WOE #166 (2023-09-08) · [rulings](https://api.scryfall.com/cards/5224eec3-2941-4d16-a713-099e34e93eee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-12-01* — If you don't reveal a creature card, put all the cards on the bottom of your library in any order.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/166/commune-with-nature) · oracle_id `d4ed4260-5f38-4b55-ba6e-9f54f04d2360` · printing: WOE #166 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Commune with Spirits
 
@@ -1073,6 +1157,7 @@
 - **Flavor text** (NEO printing):
   > *The kami of Jukai Forest accept only the most respectful petitioners.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14782 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/180/commune-with-spirits) · oracle_id `68f8ed23-024e-414f-bbb2-ab73fbe21b69` · printing: NEO #180 (2022-02-18) · [rulings](https://api.scryfall.com/cards/a35ff4dd-bad3-4496-82b3-8253f48af06d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Commune with the Gods
@@ -1084,6 +1169,7 @@
 - **Flavor text** (EMA printing):
   > *For the first time in many years, Elspeth asked for help.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10937 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/162/commune-with-the-gods) · oracle_id `6042a806-6e6a-4f1d-9563-5932a17f32f9` · printing: EMA #162 (2016-06-10) · [rulings](https://api.scryfall.com/cards/67d95f6f-3ff0-483d-b98f-ccb4fb5715f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Companion of the Trials
@@ -1099,7 +1185,9 @@
   > *—Gideon Jura*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29446 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/271/companion-of-the-trials) · oracle_id `3aa654cb-c0a0-48e7-901a-c690120b1510` · printing: AKH #271 (2017-04-28) · [rulings](https://api.scryfall.com/cards/637ac220-058f-4212-ba8b-a389bb0528bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-04-18* — Untapping an attacking creature doesn’t remove it from combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/271/companion-of-the-trials) · oracle_id `3aa654cb-c0a0-48e7-901a-c690120b1510` · printing: AKH #271 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Company Commander
 
@@ -1126,7 +1214,12 @@
   > *—Jace Beleren*
 - **Keywords:** Surge
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21469 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/51/comparative-analysis) · oracle_id `59b869b9-cb48-4152-ad91-52f582e2df5b` · printing: OGW #51 (2016-01-22) · [rulings](https://api.scryfall.com/cards/dd83129b-7e8c-4cc5-a7b3-e0ae221d7ad4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-01-22* — Casting a spell for its surge cost doesn't change its mana cost or its mana value.
+  - *2016-01-22* — For some cards, surge represents only an alternative cost, a discount that applies if you or a teammate has cast another spell this turn. Other cards, like Reckless Bushwhacker, have additional abilities or effects if you paid the surge cost to cast the spell.
+  - *2016-01-22* — If an instant or sorcery spell cast for its surge cost is copied, the copy is also considered to have had its surge cost paid.
+  - *2016-01-22* — The other spell that you or a teammate cast can be one that's resolved, one that was countered, or (for instants with surge) one that's still on the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/51/comparative-analysis) · oracle_id `59b869b9-cb48-4152-ad91-52f582e2df5b` · printing: OGW #51 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Compass Gnome
 
@@ -1139,6 +1232,7 @@
   > *"I'm certain it's some kind of sophisticated navigational tool. If only I had any idea what it was telling me!"*
   > *—Colbo, Brazen Coalition surveyor*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16586 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/250/compass-gnome) · oracle_id `b64051c0-e791-4fcb-b79f-4287e1b06468` · printing: LCI #250 (2023-11-17) · [rulings](https://api.scryfall.com/cards/10e1030e-2b95-4807-9111-e495a2fc8813/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Compassionate Healer
@@ -1152,7 +1246,9 @@
   > *Waterbending does not only heal physical wounds. It can also soothe the spirit and calm the mind.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11915 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/13/compassionate-healer) · oracle_id `6ef464bd-2ed0-4f99-af4a-ebf276f55384` · printing: TLA #13 (2025-11-21) · [rulings](https://api.scryfall.com/cards/88d5f8fd-d4de-4e64-9b74-e53719ffbcdc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-10-02* — Compassionate Healer's triggered ability doesn't allow you to tap Compassionate Healer. You have to find some other way to tap it, such as paying a waterbend cost or attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/13/compassionate-healer) · oracle_id `6ef464bd-2ed0-4f99-af4a-ebf276f55384` · printing: TLA #13 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Compel Brutality
 
@@ -1163,7 +1259,9 @@
   > • Target creature you control deals damage equal to its power to target creature or planeswalker an opponent controls.
   > • Target planeswalker you control deals damage equal to its loyalty to target creature or planeswalker an opponent controls.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23177 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/101/compel-brutality) · oracle_id `3a9059ac-c595-4e71-b704-b04d2d47db70` · printing: FRA #101 (2026-10-02) · [rulings](https://api.scryfall.com/cards/bd32d736-7a58-46b9-90b4-2cac3c3e80a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-08-21* — The power of the creature or the loyalty of the planeswalker is checked as the spell resolves. If that creature or planeswalker is no longer on the battlefield at the time the spell resolves, no damage is dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/101/compel-brutality) · oracle_id `3a9059ac-c595-4e71-b704-b04d2d47db70` · printing: FRA #101 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Compelled Duel
 
@@ -1174,7 +1272,10 @@
 - **Flavor text** (AFR printing):
   > *"You might be four times my size, but I will not be ignored!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15981 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/178/compelled-duel) · oracle_id `256cc907-2a13-4f43-9d37-2e52034cdaf4` · printing: AFR #178 (2021-07-23) · [rulings](https://api.scryfall.com/cards/2a7e501d-943e-4e6d-9d8e-6bedc32a0dd8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-07-23* — If each creature the defending player controls can't block for any reason (such as being tapped), then the affected creature isn't blocked. If there's a cost associated with blocking the affected creature, the defending player isn't forced to pay that cost, so it doesn't have to be blocked in that case either.
+  - *2021-07-23* — Only one creature is required to block the affected creature. Other creatures may also block it and are free to block other creatures or not block at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/178/compelled-duel) · oracle_id `256cc907-2a13-4f43-9d37-2e52034cdaf4` · printing: AFR #178 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Compelling Argument
 
@@ -1188,6 +1289,7 @@
   > *—Ukhat, vizier of initiation*
 - **Keywords:** Mill, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16507 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/47/compelling-argument) · oracle_id `686e0b86-121c-45be-842d-c83d3b6547f6` · printing: AKH #47 (2017-04-28) · [rulings](https://api.scryfall.com/cards/7c35f4d5-2337-4ea0-a571-5a73e2d0d54a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Compelling Deterrence
@@ -1199,7 +1301,11 @@
 - **Flavor text** (INR printing):
   > *"So much for neighborly hospitality!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17211 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/57/compelling-deterrence) · oracle_id `fb0c9048-73ee-434b-a018-dbfbe32e56f5` · printing: INR #57 (2025-01-24) · [rulings](https://api.scryfall.com/cards/62ffc952-b763-4b9e-acdf-164253bdfe72/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-01-24* — Compelling Deterrence checks to see if you control a Zombie after the target nonland permanent is returned to its owner’s hand. For example, if you target the only Zombie you control with Compelling Deterrence, you won’t discard a card.
+  - *2025-01-24* — If the target nonland permanent is an illegal target as Compelling Deterrence tries to resolve, it won’t resolve and none of its effects will happen. No player will discard a card.
+  - *2025-01-24* — The card returned to its owner’s hand may be the card they discard. If it’s the only card in that player’s hand, it must be discarded if you control a Zombie.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/57/compelling-deterrence) · oracle_id `fb0c9048-73ee-434b-a018-dbfbe32e56f5` · printing: INR #57 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Complaints Clerk
 
@@ -1213,6 +1319,7 @@
   > *The longest lines in the park.*
 - **Keywords:** Open an Attraction
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17329 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/7/complaints-clerk) · oracle_id `018627e1-ba32-4452-b3d1-6c2a39759aff` · printing: UNF #7 (2022-10-07) · [rulings](https://api.scryfall.com/cards/c733e915-aead-4f82-92d0-37eabbfd0017/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Compleat Devotion
@@ -1224,6 +1331,7 @@
 - **Flavor text** (ONE printing):
   > *"Elspeth, my friend, the Multiverse has answered my prayers to bring you here so that I may gather you into my pride and forever protect you."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17805 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/7/compleat-devotion) · oracle_id `c2a6cfb7-e5bd-49c8-aa51-fd5203eca8b8` · printing: ONE #7 (2023-02-10) · [rulings](https://api.scryfall.com/cards/2bb29a69-3e42-4268-8026-f01072d7b56c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Compleated Clone Shell
@@ -1236,6 +1344,7 @@
   > When Compleated Clone Shell dies, turn the exiled card face up. You may cast it without paying its mana cost.
 - **Keywords:** Imprint
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UA05a/compleated-clone-shell) · oracle_id `d7125892-71f2-4baa-ba2f-065b2595eb8f` · printing: UNK #UA05a (2023-02-17) · [rulings](https://api.scryfall.com/cards/743d352f-1f52-473c-b835-d27db750967e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Compleated Huntmaster
@@ -1249,6 +1358,7 @@
   > *The elves of Lorwyn sought perfection. The Etched Host supplied it.*
 - **Keywords:** Incubate, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12057 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/96/compleated-huntmaster) · oracle_id `65b8bb9b-91f9-44e2-aa6e-e82e3760a4d9` · printing: MOM #96 (2023-04-21) · [rulings](https://api.scryfall.com/cards/4fc23af5-18dd-45f9-8d82-76b48aaf6d4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Complete Disregard
@@ -1263,7 +1373,13 @@
   > *—Javad Nasrin, outrider captain*
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24677 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/90/complete-disregard) · oracle_id `b0bd842c-d518-42b3-850c-22a70f7f1436` · printing: BFZ #90 (2015-10-02) · [rulings](https://api.scryfall.com/cards/7d94e878-6c49-4420-9d34-f9ee64e811ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2015-08-25* — A card with devoid is just colorless. It’s not colorless and the colors of mana in its mana cost.
+  - *2015-08-25* — Cards with devoid use frames that are variations of the transparent frame traditionally used for Eldrazi. The top part of the card features some color over a background based on the texture of the hedrons that once imprisoned the Eldrazi. This coloration is intended to aid deckbuilding and game play.
+  - *2015-08-25* — Devoid works in all zones, not just on the battlefield.
+  - *2015-08-25* — If a card loses devoid, it will still be colorless. This is because effects that change an object’s color (like the one created by devoid) are considered before the object loses devoid.
+  - *2015-08-25* — Other cards and abilities can give a card with devoid color. If that happens, it’s just the new color, not that color and colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/90/complete-disregard) · oracle_id `b0bd842c-d518-42b3-850c-22a70f7f1436` · printing: BFZ #90 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Complete the Circuit
 
@@ -1304,6 +1420,7 @@
   > *"This wasteful design cannot possibly be Phyrexian."*
   > *—Belbe*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30894 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/128/complex-automaton) · oracle_id `e4951b4e-ba68-495c-8062-e89250d02cf3` · printing: NEM #128 (2000-02-14) · [rulings](https://api.scryfall.com/cards/5fb3c7af-74e1-4072-953b-b3e9ccd8aa03/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Complicate
@@ -1316,7 +1433,11 @@
   > When you cycle this card, you may counter target spell unless its controller pays {1}.
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13634 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ons/76/complicate) · oracle_id `fc09cbc0-2d28-44c6-b9a9-b95e9e58bb1b` · printing: ONS #76 (2002-10-07) · [rulings](https://api.scryfall.com/cards/33f69670-e494-42b8-9148-fe105ec61aa0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-12-08* — The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (because, for example, it has been countered, or all of its targets have become illegal), the cycling ability will still resolve, and you'll draw a card.
+  - *2022-12-08* — When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
+  - *2022-12-08* — You can cycle this card even if there are no legal targets for the triggered ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ons/76/complicate) · oracle_id `fc09cbc0-2d28-44c6-b9a9-b95e9e58bb1b` · printing: ONS #76 (2002-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Component Collector
 
@@ -1329,7 +1450,13 @@
 - **Flavor text** (MID printing):
   > *"Keep master busy with new bits or else maybe she wonders if I'm made of bits too."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25908 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/43/component-collector) · oracle_id `6950ab0f-f448-4ed1-9dd4-868cc79a5982` · printing: MID #43 (2021-09-24) · [rulings](https://api.scryfall.com/cards/956b74fc-1355-4668-838b-e8927794608c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-09-24* — Before a player untaps their permanents during the untap step, the game checks to see if the day/night designation should change.
+  - *2021-09-24* — Day and night are designations that the game itself can have. The game starts as neither. Once the game becomes day (or less commonly, night), the game will be exactly one of them—day or night—going back and forth for the rest of the game.
+  - *2021-09-24* — If a triggered ability triggers whenever day becomes night or night becomes day, it only triggers if it was already either day/night and becomes the other. It does not trigger when the game becomes day or night for the first time.
+  - *2021-09-24* — If it is day, and the active player of the previous turn cast no spells during their turn, it becomes night.
+  - *2021-09-24* — If it is night, and the active player of the previous turn cast two or more spells during their turn, it becomes day.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/43/component-collector) · oracle_id `6950ab0f-f448-4ed1-9dd4-868cc79a5982` · printing: MID #43 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Component Pouch
 
@@ -1376,6 +1503,7 @@
 - **Flavor text** (10E printing):
   > *An artificer's experiment in cross-material engineering found its own purpose as an interpreter between cultures.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18865 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/318/composite-golem) · oracle_id `784970de-ef8c-4672-b5d0-24a4b0a978a3` · printing: 10E #318 (2007-07-13) · [rulings](https://api.scryfall.com/cards/aafd4637-737d-4913-80e3-ab4bf3428680/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Compost
@@ -1400,6 +1528,7 @@
   > {1}{U}, Discard a card: Draw a card.
   > {1}{U}, Sacrifice this enchantment: Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13539 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/34/compulsion) · oracle_id `3fafb6b2-5cae-45b6-8550-3ff8daa02802` · printing: TOR #34 (2002-02-04) · [rulings](https://api.scryfall.com/cards/2d1f56e8-55cb-4b81-9946-9f0f813e3d4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Compulsive Research
@@ -1427,7 +1556,9 @@
   > *The pain of death is nothing compared to the pain of failure.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23497 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/9/compulsory-rest) · oracle_id `020225db-5623-49c2-8cdf-1ec2a05b8b0a` · printing: AKH #9 (2017-04-28) · [rulings](https://api.scryfall.com/cards/11cb3a5b-beee-4f53-a6b5-e9b5603546fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-04-18* — Compulsory Rest grants the activated ability to the enchanted creature. That creature’s controller (not the controller of Compulsory Rest) may activate the ability and gain 2 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/9/compulsory-rest) · oracle_id `020225db-5623-49c2-8cdf-1ec2a05b8b0a` · printing: AKH #9 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Compy Swarm
 

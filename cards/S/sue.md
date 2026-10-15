@@ -21,4 +21,5 @@
   > Fossilize {R}{G}{W} (Return this card from your graveyard to the battlefield with a finality counter on it. It's an artifact and not a creature.)
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ06e/sue-everlasting-dinosaur) · oracle_id `fd641846-ab14-40c3-9fe9-fa0745724f5c` · printing: UNK #RZ06e (2025-02-21) · [rulings](https://api.scryfall.com/cards/b03a0789-b82b-4549-b9f9-a5663432b448/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

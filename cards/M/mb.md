@@ -19,4 +19,5 @@
   > At the beginning of your end step, if there is no monarch, target opponent becomes the monarch.
   > Whenever a creature attacks one of your opponents, if that player is the monarch, that creature gets +1/+1 and gains trample until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19260 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/67/mbaku-jabari-chieftain) · oracle_id `9e4656ba-c375-4ef8-ba1d-5a7b0833242f` · printing: MSC #67 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2e330643-5714-4724-a65c-0873ce9cc5a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

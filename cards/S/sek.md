@@ -21,7 +21,12 @@
   > If damage would be dealt to Sekki, prevent that damage, remove that many +1/+1 counters from Sekki, and create that many 1/1 colorless Spirit creature tokens.
   > Sacrifice eight Spirits: Return this card from your graveyard to the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18595 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/sok/148/sekki-seasons-guide) · oracle_id `1b92501c-80fe-4ae7-834e-72f57ba41a6a` · printing: SOK #148 (2005-06-03) · [rulings](https://api.scryfall.com/cards/9883e973-54c3-4bec-91d8-22f2829cdfa2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2005-06-01* — Creature tokens are put onto the battlefield even if there are no more +1/+1 counters to remove. For example, attempting to deal 9 damage to Sekki causes its replacement effect to 1) prevent the 9 damage, 2) remove all eight of the +1/+1 counters, and 3) put nine Spirit creature tokens onto the battlefield.
+  - *2005-06-01* — Damage that can't be prevented still causes counters to be removed from Sekki and puts creature tokens onto the battlefield.
+  - *2005-06-01* — Increasing Sekki's toughness with a card like Indomitable Will allows Sekki to prevent damage and make tokens even it if has no +1/+1 counters to be removed.
+  - *2005-08-01* — You can sacrifice any eight Spirits to pay for Sekki's activated ability, not just the Spirit creature tokens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sok/148/sekki-seasons-guide) · oracle_id `1b92501c-80fe-4ae7-834e-72f57ba41a6a` · printing: SOK #148 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sek'Kuar, Deathkeeper
 
@@ -33,4 +38,5 @@
 - **Flavor text** (CMM printing):
   > *The orcs believe Sek'Kuar still lives in the Karplusan Mountains, gathering his dead army, intent on revenge.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16638 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/354/sekkuar-deathkeeper) · oracle_id `94426127-65c2-435e-ba92-423a3c102061` · printing: CMM #354 (2023-08-04) · [rulings](https://api.scryfall.com/cards/a873dbe5-d95a-4ecb-ac0a-8dc6c40f3576/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

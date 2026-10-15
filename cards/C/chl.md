@@ -20,4 +20,5 @@
   > Threshold — As long as there are seven or more cards in your graveyard, this creature has "At the beginning of your upkeep, you may put another +1/+1 counter on this creature."
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28253 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/234/chlorophant) · oracle_id `ad80d9a8-187f-4ecf-94be-e23ac3a57179` · printing: ODY #234 (2001-10-01) · [rulings](https://api.scryfall.com/cards/c4fd0ea3-4134-4f7d-a0c8-01c49bacfcfc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

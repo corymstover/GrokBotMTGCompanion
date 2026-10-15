@@ -104,7 +104,15 @@
   > Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 - **Keywords:** Persist, Wither
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15832 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eve/127/rendclaw-trow) · oracle_id `86177c7e-a6eb-448b-baf8-aedd06f0a2f3` · printing: EVE #127 (2008-07-25) · [rulings](https://api.scryfall.com/cards/bc293a4b-abd6-47b6-99d1-578bc22580de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2013-06-07* — If a creature with persist stops being a creature, persist will still work.
+  - *2013-06-07* — If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner’s graveyard for having 0 or less toughness, persist won’t trigger and the card won’t return to the battlefield. That’s because persist checks the creature’s existence just before it leaves the battlefield, and it still has all those counters on it at that point.
+  - *2013-06-07* — If a permanent has multiple instances of persist, they’ll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
+  - *2013-06-07* — If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can’t return to the battlefield.
+  - *2013-06-07* — If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player’s persist creatures will return to the battlefield first, then the active player’s persist creatures do the same. The creatures return to the battlefield one at a time.
+  - *2013-06-07* — The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it.
+  - *2013-06-07* — When a permanent with persist returns to the battlefield, it’s a new object with no memory of or connection to its previous existence.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eve/127/rendclaw-trow) · oracle_id `86177c7e-a6eb-448b-baf8-aedd06f0a2f3` · printing: EVE #127 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Render Inert
 
@@ -116,7 +124,10 @@
 - **Flavor text** (MOM printing):
   > *As New Phyrexia phased out of existence, glistening oil all across the Multiverse was cut off from its source. The \*compleated\* invaders ceased to function and crumpled to the ground.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20432 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/123/render-inert) · oracle_id `e9ece3c6-81c2-441a-acce-c109aaa9026b` · printing: MOM #123 (2023-04-21) · [rulings](https://api.scryfall.com/cards/b3b66ef5-9b93-4042-a618-c1ade83d0004/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-04-14* — You can choose a permanent with no counters on it as the target. You’ll still draw a card.
+  - *2023-04-14* — You choose which counters to remove from the permanent, no matter who controls it. You may choose counters of different kinds.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/123/render-inert) · oracle_id `e9ece3c6-81c2-441a-acce-c109aaa9026b` · printing: MOM #123 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Render Silent
 
@@ -145,6 +156,7 @@
 - **Flavor text** (SOS printing):
   > *"Seems like I took the words right out of your mouth."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20923 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/220/render-speechless) · oracle_id `6fdddab4-fcc9-4622-9c17-c69f9d4bca08` · printing: SOS #220 (2026-04-24) · [rulings](https://api.scryfall.com/cards/25bbb1c7-14e8-444f-ab98-e95f50927460/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rend Flesh
@@ -157,6 +169,7 @@
   > *"The Reito Massacre was a testament to the kami's unstoppable power. The human defenders might as well have been moths battling a forest fire."*
   > *—\*Great Battles of Kamigawa\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18096 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/140/rend-flesh) · oracle_id `079d4698-dc11-4d29-91b6-725d78dfb75d` · printing: CHK #140 (2004-10-01) · [rulings](https://api.scryfall.com/cards/92b300a3-e6a8-4ca9-bb26-03f57b5ff6ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rending Flame
@@ -169,6 +182,7 @@
   > *"It is our duty to bring the Blessed Sleep to the dead, even if they resist that gift."*
   > *—Grete, Order of Saint Traft*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23815 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/175/rending-flame) · oracle_id `24ac7e7e-b60d-4965-91c1-7ea7e6387737` · printing: VOW #175 (2021-11-19) · [rulings](https://api.scryfall.com/cards/51332c31-41df-4379-aa63-6a734a4df618/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rending Vines
@@ -179,6 +193,7 @@
   > Destroy target artifact or enchantment if its mana value is less than or equal to the number of cards in your hand.
   > Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18153 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/143/rending-vines) · oracle_id `64ab6dfe-ed87-47ec-afd5-a7f2e7e6bbd2` · printing: SOK #143 (2005-06-03) · [rulings](https://api.scryfall.com/cards/34cf7931-d086-496e-98dc-5daa60e01f5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rending Volley
@@ -191,6 +206,7 @@
 - **Flavor text** (DTK printing):
   > *The sky offers few hiding places.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13746 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/150/rending-volley) · oracle_id `0324941f-484c-4656-8d1c-66e919c2bc7c` · printing: DTK #150 (2015-03-27) · [rulings](https://api.scryfall.com/cards/8234090e-9df1-4915-90ef-8a4bc6212655/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rendmaw, Creaking Nest
@@ -222,6 +238,7 @@
   > *"The battle at Ganzan Pass was a testament to human endurance. The untrained and frightened group escaped three legions of kami, leaving more than their share of slain foes in their wake."*
   > *—\*Great Battles of Kamigawa\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32238 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/141/rend-spirit) · oracle_id `cca698b3-b86f-45a2-aa3f-bab7d5a56e8a` · printing: CHK #141 (2004-10-01) · [rulings](https://api.scryfall.com/cards/100f0235-a7fe-4e23-b154-3d30668a29a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renegade Bull
@@ -235,7 +252,15 @@
   > Whenever this creature attacks, exile up to one target instant or sorcery card from your graveyard and copy it. You may cast the copy without paying its mana cost.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13914 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/36/renegade-bull) · oracle_id `61747805-0c34-4beb-8cbf-97bac7a998d0` · printing: SOC #36 (2026-04-24) · [rulings](https://api.scryfall.com/cards/aa23e922-f44b-4af8-8ce0-bc1bc1e65bad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2026-03-20* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2026-03-20* — For spells on the stack with {X} in their mana costs, use the value chosen for X to determine the spell's mana value.
+  - *2026-03-20* — If the spell you cast has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2026-03-20* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the spell.
+  - *2026-03-20* — If you don't want to cast the copy, you can choose not to; the copy ceases to exist the next time state-based actions are checked.
+  - *2026-03-20* — Renegade Bull's second ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
+  - *2026-03-20* — You cast the copy while Renegade Bull's last ability is resolving and still on the stack. You can't wait to cast it later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/36/renegade-bull) · oracle_id `61747805-0c34-4beb-8cbf-97bac7a998d0` · printing: SOC #36 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renegade Demon
 
@@ -247,6 +272,7 @@
 - **Flavor text** (DDR printing):
   > *Confront it at your own peril, for it will confront you for its own amusement.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28268 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddr/59/renegade-demon) · oracle_id `5f444efc-3bc2-4ca8-986c-f804f9e1a95e` · printing: DDR #59 (2016-09-02) · [rulings](https://api.scryfall.com/cards/bbd61cbe-92b8-4141-b11c-04046e35578a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renegade Doppelganger
@@ -259,7 +285,22 @@
 - **Flavor text** (ROE printing):
   > *To truly know a creature, slither a mile in its tentacles.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19302 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/roe/84/renegade-doppelganger) · oracle_id `08528c5e-9a01-42a4-a00b-c1ec5eaae64d` · printing: ROE #84 (2010-04-23) · [rulings](https://api.scryfall.com/cards/f6453040-38a3-4d3a-8e4b-51b72aa80186/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2010-06-15* — During the cleanup step, Renegade Doppelganger's copy effect wears off. It will go back to being a 0/1 blue creature named Renegade Doppelganger, and will have its original ability again. Note that this happens at the same time that damage marked on the Renegade Doppelganger is removed. If it was dealt damage earlier in the turn, this damage will not cause Renegade Doppelganger to be destroyed when its copy effect wears off.
+  - *2010-06-15* — If Renegade Doppelganger and another creature enter under your control at the same time, Renegade Doppelganger's ability will trigger. When the ability resolves, Renegade Doppelganger can become a copy of that creature.
+  - *2010-06-15* — If Renegade Doppelganger becomes a copy of a creature that is itself copying something else (for example, if the creature that entered is a Clone), then Renegade Doppelganger becomes a copy of whatever that creature is copying.
+  - *2010-06-15* — If Renegade Doppelganger becomes a copy of a creature with an ability that causes you to make a choice (such as naming a card or choosing a color) as it enters, and another ability that refers to that choice, those abilities of the Doppelganger won't do anything. You won't have the chance to make a choice since the Doppelganger is already on the battlefield, so the value of that choice is undefined.
+  - *2010-06-15* — If Renegade Doppelganger becomes a copy of a token, Renegade Doppelganger copies the original characteristics of that token as stated by the effect that put it onto the battlefield. Renegade Doppelganger doesn't become a token.
+  - *2010-06-15* — If Renegade Doppelganger becomes a copy of another creature, it copies exactly what was printed on that card and nothing more (unless that card is copying something else or it's a token; see below). It doesn't copy whether the original creature is tapped or untapped, whether it has any counters on it or Auras attached to it, or whether it's been affected by any noncopy effects that changed its power, toughness, types, color, or so on.
+  - *2010-06-15* — If Renegade Doppelganger becomes a copy of another creature, that doesn't count as having a creature enter. Renegade Doppelganger was already on the battlefield; it only changed its characteristics. If Renegade Doppelganger gains any "enters" triggered abilities, they won't do anything. The same is true of any "as [this creature] enters" or "[this creature] enters with" abilities.
+  - *2010-06-15* — If a creature enters under your control and Renegade Doppelganger's ability triggers, it can become a copy of that creature when the ability resolves even if that creature has left the battlefield by then. If it has, its last existence on the battlefield is checked to see what it was (specifically, if it was itself or if it was copying something else).
+  - *2010-06-15* — If multiple creatures enter under your control at the same time, Renegade Doppelganger's ability will trigger once for each of them. You choose the order that those abilities will resolve. It's possible to have Renegade Doppelganger become a copy of something, activate an activated ability of that creature, then have it become a copy of something else under this scenario. The last ability that resolves that you choose to use determines what it ends up a copy of.
+  - *2010-06-15* — If the creature Renegade Doppelganger copies has an ability that triggers at the beginning of the end step, that ability will trigger and resolve before Renegade Doppelganger's copy effect wears off.
+  - *2010-06-15* — Noncopy effects that have already applied to Renegade Doppelganger will continue to apply to it after it becomes a copy of something else. For example, if Giant Growth had given it +3/+3 earlier in the turn, then it becomes a copy of Runeclaw Bear (a 2/2 creature), it will be a 5/5 Runeclaw Bear.
+  - *2010-06-15* — Renegade Doppelganger's ability isn't targeted. It can copy a creature with shroud or protection.
+  - *2010-06-15* — When a creature enters under your control, you can choose not to copy it. In that case, Renegade Doppelganger remains 0/1 and still has its triggered ability.
+  - *2013-07-01* — If Renegade Doppelganger becomes a copy of a legendary creature, you will have to put one of them into the graveyard as a state-based action.
+- **Source flags:** [Scryfall](https://scryfall.com/card/roe/84/renegade-doppelganger) · oracle_id `08528c5e-9a01-42a4-a00b-c1ec5eaae64d` · printing: ROE #84 (2010-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renegade Firebrand
 
@@ -271,6 +312,7 @@
 - **Flavor text** (KLD printing):
   > *"For freedom! For fame! For fire!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27870 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/268/renegade-firebrand) · oracle_id `d4b0a6e6-937d-428a-a469-bc09c30ac276` · printing: KLD #268 (2016-09-30) · [rulings](https://api.scryfall.com/cards/4b633884-867c-4b51-bd5b-5f246d0ecd4e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renegade Freighter
@@ -283,7 +325,20 @@
   > Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19106 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/230/renegade-freighter) · oracle_id `5e73c8d2-5cad-4201-b9ef-32be82797e3b` · printing: KLD #230 (2016-09-30) · [rulings](https://api.scryfall.com/cards/7a10e2c3-0132-4eb2-94f0-5915caca2a17/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2017-09-29* — Any untapped creature you control can be tapped to pay a crew cost, even one that just came under your control.
+  - *2017-09-29* — Creatures that crew a Vehicle aren't attached to it or related in any other way. Effects that affect the Vehicle, such as by destroying it or giving it a +1/+1 counter, don't affect the creatures that crewed it.
+  - *2017-09-29* — Each Vehicle is printed with a power and toughness, but it's not a creature. If it becomes a creature (most likely through its crew ability), it will have that power and toughness.
+  - *2017-09-29* — For a Vehicle to be able to attack, it must be a creature as the declare attackers step begins, so the latest you can activate its crew ability to attack with it is during the beginning of combat step. For a Vehicle to be able to block, it must be a creature as the declare blockers step begins, so the latest you can activate its crew ability to block with it is during the declare attackers step. In either case, players may take actions after the crew ability resolves but before the Vehicle has been declared as an attacking or blocking creature.
+  - *2017-09-29* — If a permanent becomes a copy of a Vehicle, the copy won't be a creature, even if the Vehicle it's copying has become an artifact creature.
+  - *2017-09-29* — If an effect causes a Vehicle to become an artifact creature with a specified power and toughness, that effect overwrites the Vehicle's printed power and toughness.
+  - *2017-09-29* — Once a Vehicle becomes a creature, it behaves exactly like any other artifact creature. It can't attack unless you've controlled it continuously since your turn began, it can block if it's untapped, it can be tapped to pay a Vehicle's crew cost, and so on.
+  - *2017-09-29* — Once a player announces that they are activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
+  - *2017-09-29* — Vehicle is an artifact type, not a creature type. A Vehicle that's crewed won't normally have any creature type.
+  - *2017-09-29* — When a Vehicle becomes a creature, that doesn't count as having a creature enter the battlefield. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters the battlefield won't trigger.
+  - *2017-09-29* — You may activate a crew ability of a Vehicle even if it's already an artifact creature. Doing so has no effect on the Vehicle. It doesn't change its power and toughness.
+  - *2017-09-29* — You may tap more creatures than necessary to activate a crew ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/230/renegade-freighter) · oracle_id `5e73c8d2-5cad-4201-b9ef-32be82797e3b` · printing: KLD #230 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renegade Krasis
 
@@ -295,7 +350,16 @@
   > Whenever this creature evolves, put a +1/+1 counter on each other creature you control with a +1/+1 counter on it.
 - **Keywords:** Evolve
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15041 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/47/renegade-krasis) · oracle_id `7b7e622c-815a-44a0-88ff-62bbe8dd5582` · printing: DGM #47 (2013-05-03) · [rulings](https://api.scryfall.com/cards/23b68921-0c34-4d92-83c3-21542f62c7f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2013-04-15* — If a creature enters the battlefield with +1/+1 counters on it, consider those counters when determining if evolve will trigger. For example, a 1/1 creature that enters the battlefield with two +1/+1 counters on it will cause the evolve ability of a 2/2 creature to trigger.
+  - *2013-04-15* — If evolve triggers, the stat comparison will happen again when the ability tries to resolve. If neither stat of the new creature is greater, the ability will do nothing. If the creature that entered the battlefield leaves the battlefield before evolve tries to resolve, use its last known power and toughness to compare the stats.
+  - *2013-04-15* — If multiple creatures enter the battlefield at the same time, evolve may trigger multiple times, although the stat comparison will take place each time one of those abilities tries to resolve. For example, if you control a 2/2 creature with evolve and two 3/3 creatures enter the battlefield, evolve will trigger twice. The first ability will resolve and put a +1/+1 counter on the creature with evolve. When the second ability tries to resolve, neither the power nor the toughness of the new creature is greater than that of the creature with evolve, so that ability does nothing.
+  - *2013-04-15* — Renegade Krasis “evolves” when its evolve ability resolves and a +1/+1 counter is put on it. If a replacement effect such as Doubling Season’s causes the evolve ability to put more than one +1/+1 counter on Renegade Krasis, its last ability triggers only once. If no +1/+1 counter is put on it (perhaps because it left the battlefield in response to its evolve ability triggering), then its last ability doesn’t trigger.
+  - *2013-04-15* — Renegade Krasis’s last ability won’t trigger if a +1/+1 counter is put on it for any reason other than its evolve ability resolving.
+  - *2013-04-15* — When comparing the stats as the evolve ability resolves, it’s possible that the stat that’s greater changes from power to toughness or vice versa. If this happens, the ability will still resolve and you’ll put a +1/+1 counter on the creature with evolve. For example, if you control a 2/2 creature with evolve and a 1/3 creature enters the battlefield under your control, it toughness is greater so evolve will trigger. In response, the 1/3 creature gets +2/-2. When the evolve trigger tries to resolve, its power is greater. You’ll put a +1/+1 counter on the creature with evolve.
+  - *2013-04-15* — When comparing the stats of the two creatures for evolve, you always compare power to power and toughness to toughness.
+  - *2013-04-15* — Whenever a creature enters the battlefield under your control, check its power and toughness against the power and toughness of the creature with evolve. If neither stat of the new creature is greater, evolve won’t trigger at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/47/renegade-krasis) · oracle_id `7b7e622c-815a-44a0-88ff-62bbe8dd5582` · printing: DGM #47 (2013-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renegade Map
 
@@ -307,6 +371,7 @@
 - **Flavor text** (AER printing):
   > *"We have safe houses in every zone, but you'll never find one without this."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13233 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/173/renegade-map) · oracle_id `f8506acb-3fc5-4fdf-8304-586843db6cfd` · printing: AER #173 (2017-01-20) · [rulings](https://api.scryfall.com/cards/ac063445-d0e2-4015-96dc-97098433f30a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renegade Rallier
@@ -320,7 +385,18 @@
   > *"This fight belongs to us all."*
 - **Keywords:** Revolt
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15596 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/133/renegade-rallier) · oracle_id `6fa07b6c-f01a-4416-b0fc-986b0fc4e412` · printing: AER #133 (2017-01-20) · [rulings](https://api.scryfall.com/cards/90bad312-80e3-45b0-9556-60ce06808a47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2017-02-09* — A permanent card is an artifact, creature, enchantment, land, or planeswalker card.
+  - *2017-02-09* — All cards in the Aether Revolt set with triggered revolt abilities use an intervening "if" clause. A permanent you controlled must have left the battlefield earlier in the turn in order for these abilities to trigger; otherwise they do nothing. In other words, there's no way to have the ability trigger if no permanent you controlled has left the battlefield that turn, even if you intend to have one do so in response to the triggered ability.
+  - *2017-02-09* — Energy counters aren't permanents. Paying {E} won't satisfy a revolt ability.
+  - *2017-02-09* — If a card in your graveyard has no mana symbols in its upper right corner (because it's a land card, for example), its mana value is 0.
+  - *2017-02-09* — If the mana cost of a card in your graveyard includes {X}, X is considered to be 0.
+  - *2017-02-09* — Revolt abilities check only whether a permanent you controlled left the battlefield this turn or not. They don't apply multiple times if more than one permanent you controlled left the battlefield. They don't check whether the permanent that left the battlefield is still in the zone it moved to.
+  - *2017-02-09* — Revolt abilities don't care why the permanent left the battlefield, who caused it to move, or where it moved to. They're equally satisfied by an artifact you sacrificed to pay a cost, a creature you controlled that was destroyed by Murder, or an enchantment you returned to your hand with Leave in the Dust.
+  - *2017-02-09* — The mana value of a card in your graveyard is determined solely by the mana symbols printed in its upper right corner. The mana value is the total amount of mana in that cost, regardless of color. For example, a card with mana cost {1}{U}{U} has mana value 3.
+  - *2017-02-09* — Tokens that leave the battlefield will satisfy a revolt ability.
+  - *2017-02-09* — You can target any permanent card in your graveyard with mana value 2 or less, not just one that was put there from the battlefield this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/133/renegade-rallier) · oracle_id `6fa07b6c-f01a-4416-b0fc-986b0fc4e412` · printing: AER #133 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renegade Reaper
 
@@ -332,6 +408,7 @@
   > When this creature enters, mill four cards. If at least one Angel card is milled this way, you gain 4 life. (To mill a card, put the top card of your library into your graveyard.)
 - **Keywords:** Flying, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12347 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/386/renegade-reaper) · oracle_id `d72489b5-a213-4bd8-a519-8caeb1acea5f` · printing: KHM #386 (2021-02-05) · [rulings](https://api.scryfall.com/cards/a5675655-dc9f-45ad-9cd0-ce28fba1f972/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renegade's Getaway
@@ -343,7 +420,10 @@
 - **Flavor text** (AER printing):
   > *You can't fight what you can't find.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20884 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/69/renegades-getaway) · oracle_id `4b77479e-8d49-46f6-b774-d8caf151c15c` · printing: AER #69 (2017-01-20) · [rulings](https://api.scryfall.com/cards/49b0a5d5-99d7-492b-bd85-77c3cee12c8d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-02-09* — If the target permanent becomes an illegal target, Renegade’s Getaway doesn’t resolve and none of its effects happen. You won’t create a Servo token.
+  - *2017-02-09* — There’s no way to have Renegade’s Getaway’s effect create a Servo token and give that token indestructible.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/69/renegades-getaway) · oracle_id `4b77479e-8d49-46f6-b774-d8caf151c15c` · printing: AER #69 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renegade Silent
 
@@ -356,7 +436,15 @@
   > *"Silence will fall."*
 - **Keywords:** Goad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11370 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/53/renegade-silent) · oracle_id `6b5565a2-be5c-46b1-99df-8094e77446cc` · printing: WHO #53 (2023-10-13) · [rulings](https://api.scryfall.com/cards/6deb8b33-723d-4927-934c-5d049125d235/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-10-13* — Any continuous effects with a "for as long as" duration, such as that of Mind Flayer, ignore phased-out objects. If ignoring those objects causes the effect's conditions to no longer be met, the duration will expire.
+  - *2023-10-13* — As Renegade Silent phases out, Auras and Equipment attached to it also phase out at the same time. Those Auras and Equipment will phase in at the same time Renegade Silent does, and they'll phase in still attached to Renegade Silent. Similarly, it will phase in with any counters it had on it.
+  - *2023-10-13* — Choices made for permanents as they entered the battlefield are remembered when they phase in.
+  - *2023-10-13* — If an opponent gains control of your Renegade Silent until end of turn, it will phase out while they still have control of it. The control-changing effect ends while it is phased out, and it phases in under your control as that opponent's next untap step begins. If they leave the game before their next untap step, Renegade Silent phases in as the next untap step begins after their turn would have begun.
+  - *2023-10-13* — Permanents phase back in during their controller's untap step, immediately before that player untaps their permanents. Creatures that phase in this way are able to attack and pay a cost of {T} during that turn.
+  - *2023-10-13* — Phased-out permanents are treated as though they don't exist. They can't be the targets of spells or abilities, their static abilities have no effect on the game, their triggered abilities can't trigger, they can't attack or block, and so on.
+  - *2023-10-13* — Phasing out doesn't cause any "leaves the battlefield" abilities to trigger. Similarly, phasing in won't cause any "enters the battlefield" abilities to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/53/renegade-silent) · oracle_id `6b5565a2-be5c-46b1-99df-8094e77446cc` · printing: WHO #53 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renegade Tactics
 
@@ -383,6 +471,7 @@
   > *"Across the land rebellions seethed and swarmed / As vicious war lords swooped down on all sides."*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32122 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/120/renegade-troops) · oracle_id `83a81308-4a15-49cd-b2f6-51431cca79e9` · printing: PTK #120 (1999-05-01) · [rulings](https://api.scryfall.com/cards/a75095f4-a77f-4237-ae25-2e6f2f8788c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renegade Warlord
@@ -398,6 +487,7 @@
   > *—Volrath*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31664 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/151/renegade-warlord) · oracle_id `ae63849d-7352-4a2b-9d64-f3005146bd22` · printing: TPR #151 (2015-05-06) · [rulings](https://api.scryfall.com/cards/7f9db6c9-b84d-43de-88b1-fe60ba8dcfd4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renegade Wheelsmith
@@ -410,7 +500,10 @@
 - **Flavor text** (AER printing):
   > *Many veterans of the Ovalchase racetrack turned their talents to the renegade cause.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18212 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/134/renegade-wheelsmith) · oracle_id `d3caee32-25b7-4ef7-9f9a-e31d08720086` · printing: AER #134 (2017-01-20) · [rulings](https://api.scryfall.com/cards/6956a341-10fd-48af-b382-88c2b2934a3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-02-09* — For the ability to trigger, Renegade Wheelsmith has to actually change from untapped to tapped. If an effect attempts to tap it, but it was already tapped at the time, this ability won’t trigger.
+  - *2017-02-09* — This is a triggered ability, not an activated ability. It doesn’t allow you to tap Renegade Wheelsmith whenever you want; rather, you need some other way of tapping it, such as by attacking or crewing a Vehicle.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/134/renegade-wheelsmith) · oracle_id `d3caee32-25b7-4ef7-9f9a-e31d08720086` · printing: AER #134 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renet, Temporal Apprentice
 
@@ -424,6 +517,7 @@
   > *"You guys don't get sick during time travel, do you?"*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21162 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/50/renet-temporal-apprentice) · oracle_id `6c754808-86a6-43d3-8aeb-96ec19f7396c` · printing: TMT #50 (2026-03-06) · [rulings](https://api.scryfall.com/cards/2ae30766-c858-4f4e-a042-14af55698cb2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renewal
@@ -435,7 +529,9 @@
   > Search your library for a basic land card, put that card onto the battlefield, then shuffle.
   > Draw a card at the beginning of the next turn's upkeep.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24884 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hml/93/renewal) · oracle_id `8df46910-ee13-416e-8282-dfe85a90e6d5` · printing: HML #93 (1995-10-01) · [rulings](https://api.scryfall.com/cards/ab998cd1-2f49-42e7-b889-c6717b0ce884/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hml/93/renewal) · oracle_id `8df46910-ee13-416e-8282-dfe85a90e6d5` · printing: HML #93 (1995-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renewed Faith
 
@@ -449,7 +545,11 @@
   > *Skepticism fades in the face of the miraculous.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16430 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/23/renewed-faith) · oracle_id `aa4ecefa-808e-4706-af16-4ea5af9743fc` · printing: DMR #23 (2023-01-13) · [rulings](https://api.scryfall.com/cards/a7d66dd3-330f-4b12-81f6-52d7a31013a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-01-19* — There are many important moments in the story, but the most crucial—called "story spotlights"—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+  - *2022-12-08* — The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (because, for example, it has been countered, or all of its targets have become illegal), the cycling ability will still resolve, and you'll draw a card.
+  - *2022-12-08* — When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/23/renewed-faith) · oracle_id `aa4ecefa-808e-4706-af16-4ea5af9743fc` · printing: DMR #23 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renewed Solidarity
 
@@ -475,6 +575,7 @@
 - **Flavor text** (POR printing):
   > *Dawn brings a new day, and a new day brings hope.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31819 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/por/23/renewing-dawn) · oracle_id `54ea46ea-7c83-44a9-85b0-eff9745c6ffa` · printing: POR #23 (1997-05-01) · [rulings](https://api.scryfall.com/cards/e56300cb-6b44-47fe-9508-c33ad5670b4b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renewing Touch
@@ -486,6 +587,7 @@
 - **Flavor text** (S99 printing):
   > *Death just encourages life the more.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27052 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/s99/140/renewing-touch) · oracle_id `1bd5fd97-f898-4e17-9e8f-5fa93b9eef71` · printing: S99 #140 (1999-07-01) · [rulings](https://api.scryfall.com/cards/6b038fbf-d8cc-48c2-a2b6-893c4b5c5f05/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reno and Rude
@@ -498,7 +600,9 @@
   > Whenever Reno and Rude deals combat damage to a player, exile the top card of that player's library. Then you may sacrifice another creature or artifact. If you do, you may play the exiled card this turn, and mana of any type can be spent to cast it.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12767 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/113/reno-and-rude) · oracle_id `f749a6d6-2c55-439f-bb02-e95fa54c2ef3` · printing: FIN #113 (2025-06-13) · [rulings](https://api.scryfall.com/cards/b5eb0064-c7c4-4e3e-add2-b86269de3fb9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — You pay all costs and follow all timing rules for cards played this way. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/113/reno-and-rude) · oracle_id `f749a6d6-2c55-439f-bb02-e95fa54c2ef3` · printing: FIN #113 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renounce
 
@@ -509,7 +613,9 @@
 - **Flavor text** (MMQ printing):
   > *Gerrard offered no defense to Orim's condemnation; the mission was under his command, and he was responsible.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21249 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/42/renounce) · oracle_id `72f9a6f7-ea26-438d-aafa-758239fd3681` · printing: MMQ #42 (1999-10-04) · [rulings](https://api.scryfall.com/cards/8bb2bfb9-cc4a-4d33-99f9-17db4d9fc718/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You choose what to sacrifice on resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/42/renounce) · oracle_id `72f9a6f7-ea26-438d-aafa-758239fd3681` · printing: MMQ #42 (1999-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renounce the Guilds
 
@@ -521,7 +627,10 @@
   > *"Scores will die in the name of peace. That is what you call compromise?"*
   > *—Gideon Jura, to Aurelia*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23116 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/5/renounce-the-guilds) · oracle_id `c854f9e8-6a1c-4515-9912-3847978bf5d5` · printing: DGM #5 (2013-05-03) · [rulings](https://api.scryfall.com/cards/bc9acc14-24e0-4c03-a09a-2afee351f2cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — Renounce the Guilds doesn’t target any player and may be cast even if a player doesn’t control a multicolored permanent.
+  - *2013-04-15* — The active player (the player whose turn it is) chooses which multicolored permanent will be sacrificed, then each other player in turn order does the same. Then all chosen permanents are sacrificed at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/5/renounce-the-guilds) · oracle_id `c854f9e8-6a1c-4515-9912-3847978bf5d5` · printing: DGM #5 (2013-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renowned Weaponsmith
 
@@ -532,7 +641,10 @@
   > {T}: Add {C}{C}. Spend this mana only to cast artifact spells or activate abilities of artifacts.
   > {U}, {T}: Search your library for a card named Heart-Piercer Bow or Vial of Dragonfire, reveal it, put it into your hand, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14976 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/114/renowned-weaponsmith) · oracle_id `40c1375b-1d15-4525-894a-16b7a0ac02b4` · printing: CMM #114 (2023-08-04) · [rulings](https://api.scryfall.com/cards/5a397298-9d7d-495f-983a-1683291a7b9f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-07-12* — Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keyword abilities, such as equip, are activated abilities and will have colons in their reminder text. You can’t spend mana added by this ability to pay costs of triggered abilities of artifacts such as the first ability of Chandra’s Regulator.
+  - *2019-07-12* — The mana generated by Renowned Weaponsmith’s first ability can’t be spent to activate abilities of artifact sources that aren’t on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/114/renowned-weaponsmith) · oracle_id `40c1375b-1d15-4525-894a-16b7a0ac02b4` · printing: CMM #114 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renowned Weaver
 
@@ -544,7 +656,9 @@
 - **Flavor text** (JOU printing):
   > *"You think your weaving as beautiful as mine? Let me show you the true meaning of the craft."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25928 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jou/137/renowned-weaver) · oracle_id `562684ca-6e3c-47df-9e94-8ff772c25a96` · printing: JOU #137 (2014-05-02) · [rulings](https://api.scryfall.com/cards/240830be-53f8-4f46-a0fb-6ecc439d1349/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-04-26* — If Renowned Weaver is attacking or blocking, and you activate its ability before combat damage is assigned and dealt, it won't deal combat damage. If it was blocking a creature, that creature will remain blocked. If you don't activate the ability before the combat damage step, it must survive combat for its ability to be activated later.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jou/137/renowned-weaver) · oracle_id `562684ca-6e3c-47df-9e94-8ff772c25a96` · printing: JOU #137 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rent Is Due
 
@@ -555,4 +669,5 @@
 - **Flavor text** (SPM printing):
   > *"You're a month late again, Parker! Give me my money or you're out on the street!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11970 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/11/rent-is-due) · oracle_id `3fe1530d-bcf2-440b-a905-5a2216daa7eb` · printing: SPM #11 (2025-09-26) · [rulings](https://api.scryfall.com/cards/b3f8d221-081f-49f5-a501-07e5eb21a840/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

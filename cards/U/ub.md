@@ -34,4 +34,5 @@
 - **Flavor text** (DGM printing):
   > *There are many gates into the undercity, but few ways out.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26299 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/30/ubul-sar-gatekeepers) · oracle_id `f4e15575-2277-4cb1-a343-e9407c050eb1` · printing: DGM #30 (2013-05-03) · [rulings](https://api.scryfall.com/cards/f5b2e327-adfd-459b-8d18-faa39d88b5de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

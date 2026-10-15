@@ -37,6 +37,7 @@
 - **Flavor text** (MSC printing):
   > *"Foul villain! Have at thee and feel the might of Mjölnir!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24120 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/697/mj%C3%B6lnirs-might) · oracle_id `8c944733-3fb5-4d1f-af1a-3fd31377eb9a` · printing: MSC #697 (2026-06-26) · [rulings](https://api.scryfall.com/cards/fbf0cc78-15e3-4924-a4c2-96db5c384a89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mjölnir, Storm Hammer
@@ -65,4 +66,10 @@
   > *"Will they? Won't they? Find out next time, on the season finale of \*Secret Hospital\*."*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15630 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/773/mj-rising-star) · oracle_id `06f647a7-ee53-42bd-8c73-53a0c6ede34a` · printing: MSC #773 (2026-06-26) · [rulings](https://api.scryfall.com/cards/55428059-6222-470b-8d01-d398d763ffdb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-09-19* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, MJ, Rising Star's ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, planeswalkers, and/or battles at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2025-09-19* — If MJ, Rising Star is dealt lethal damage at the same time that you gain life, she won't receive a counter from her ability in time to save her.
+  - *2025-09-19* — If you gain an amount of life "for each" of something or "equal to the number" of something, that life is gained as one event and MJ, Rising Star's ability triggers only once.
+  - *2025-09-19* — In a Two-Headed Giant game, life gained by your teammate won't cause MJ, Rising Star's ability to trigger, even though it caused your team's life total to increase.
+  - *2025-09-19* — The ability of MJ, Rising Star triggers just once for each life-gaining event, regardless of how much life is gained.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/773/mj-rising-star) · oracle_id `06f647a7-ee53-42bd-8c73-53a0c6ede34a` · printing: MSC #773 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

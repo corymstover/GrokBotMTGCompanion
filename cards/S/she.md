@@ -69,6 +69,7 @@
   > When Shedding Snake enters the battlefield, you may pay 2 life. If you do, the commander tax on each of your commanders is reduced back to zero.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/CB05/shedding-snake) · oracle_id `10debff6-facb-4bbb-b183-a6e7208d7141` · printing: UNK #CB05 (2023-07-29) · [rulings](https://api.scryfall.com/cards/e8e6d90b-a0d9-4ac1-89e4-02adc7901447/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shed Weakness
@@ -80,6 +81,7 @@
 - **Flavor text** (UMA printing):
   > *To prepare for the Trial of Strength, nagas shed their old skin—and with it their scars, their doubts, and their fears.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27410 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/181/shed-weakness) · oracle_id `e3390776-66cc-4e0a-a034-701793b05db8` · printing: UMA #181 (2018-12-07) · [rulings](https://api.scryfall.com/cards/467d9e99-5624-44ac-ab33-c4ebb338e6bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sheer Drop
@@ -91,7 +93,14 @@
   > Awaken 3—{5}{W} (If you cast this spell for {5}{W}, also put three +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.)
 - **Keywords:** Awaken
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25870 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/48/sheer-drop) · oracle_id `7c42123d-c8e2-4571-b07d-f782e9ad1f8b` · printing: BFZ #48 (2015-10-02) · [rulings](https://api.scryfall.com/cards/75c85fa4-862d-4f94-9531-b62775838ab9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2015-08-25* — Awaken doesn’t give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.
+  - *2015-08-25* — If a spell with awaken has multiple targets (including the land you control), and some but not all of those targets become illegal by the time the spell tries to resolve, the spell won’t affect the illegal targets in any way.
+  - *2015-08-25* — If the non-awaken part of the spell doesn’t require a target and you cast the spell for its awaken cost, then the spell won’t resolve if the target land you control becomes illegal before the spell resolves (such as due to being destroyed in response to the spell being cast).
+  - *2015-08-25* — If the non-awaken part of the spell requires a target, you must choose a legal target. You can’t cast the spell if you can’t choose a legal target for each instance of the word “target” (though you only need a legal target for the awaken ability if you’re casting the spell for its awaken cost).
+  - *2015-08-25* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that’s turned into a creature this way can still be tapped for {G}.
+  - *2015-08-25* — You can cast a spell with awaken for its mana cost and get only its first effect. If you cast a spell for its awaken cost, you’ll get both effects.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/48/sheer-drop) · oracle_id `7c42123d-c8e2-4571-b07d-f782e9ad1f8b` · printing: BFZ #48 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shefet Archfiend
 
@@ -106,6 +115,7 @@
   > *It yields only to the gods themselves.*
 - **Keywords:** Flying, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16134 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/104/shefet-archfiend) · oracle_id `06355d3f-a82d-4f12-a399-016a12824795` · printing: DFT #104 (2025-02-14) · [rulings](https://api.scryfall.com/cards/079dc8d2-0de3-415e-8af8-b8dec669368a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shefet Dunes
@@ -132,7 +142,10 @@
   > When you cycle this card, you may search your library for a basic land card or a Desert card, put it onto the battlefield, then shuffle. (Do this before you draw.)
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13514 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/186/shefet-monitor) · oracle_id `14f081bb-dd7a-4419-af9b-f75d91e1a6d0` · printing: AKH #186 (2017-04-28) · [rulings](https://api.scryfall.com/cards/2688ef62-875a-4735-9a63-6f3152d10d61/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-12-08* — The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (because, for example, it has been countered, or all of its targets have become illegal), the cycling ability will still resolve, and you'll draw a card.
+  - *2022-12-08* — When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/186/shefet-monitor) · oracle_id `14f081bb-dd7a-4419-af9b-f75d91e1a6d0` · printing: AKH #186 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### She-Hulk, Attorney-at-Law
 
@@ -144,6 +157,7 @@
   > Power-up — {6}{G/W}: Put a +1/+1 counter on She-Hulk. Then double the number of +1/+1 counters on each creature you control. (Activate each power-up ability only once. Reduce the cost by her mana cost if she entered this turn.)
 - **Keywords:** Power-up, Vigilance, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24112 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/745/she-hulk-attorney-at-law) · oracle_id `db99d52b-bbe6-4a48-8f2c-bf77912dc0a9` · printing: MSC #745 (2026-06-26) · [rulings](https://api.scryfall.com/cards/93a44ea5-a571-4abb-b8fa-14b8224ecaeb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### She-Hulk, Jade Defender
@@ -158,6 +172,7 @@
   > *"Buddy, you blew through the wrong stop sign."*
 - **Keywords:** Power-up, Reach, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16517 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/188/she-hulk-jade-defender) · oracle_id `bbd0a2a4-f81b-4a6b-bc4d-d7e53dc51333` · printing: MSH #188 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d22a8d02-023c-4f71-a771-16b5aa2a05d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### She-Hulk, Jennifer Walters
@@ -172,6 +187,7 @@
   > *"Consider yourselves served."*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23514 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/554/she-hulk-jennifer-walters) · oracle_id `d62b8609-78a5-43ef-8e6e-dbfe8c7453ca` · printing: MSC #554 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1b5f334a-ff12-493c-b710-0ee3c0ea43bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### She-Hulk, Wallbreaker
@@ -187,6 +203,7 @@
   > *"Knock knock!"*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11384 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/60/she-hulk-wallbreaker) · oracle_id `c8d74a25-78a9-46ad-ab24-97f6221fd8dd` · printing: MSC #60 (2026-06-26) · [rulings](https://api.scryfall.com/cards/8c57fb16-f4a3-437c-be27-d1c00a2be01e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shelinda, Yevon Acolyte
@@ -214,7 +231,9 @@
 - **Flavor text** (LEG printing):
   > *Leave a bowl of milk on your doorstep each night for the brownies, or they'll cause you no end of mischief.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31463 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/leg/204/shelkin-brownie) · oracle_id `507ce455-bd02-49f9-bf64-4b2d21ffe0ea` · printing: LEG #204 (1994-06-01) · [rulings](https://api.scryfall.com/cards/fddcc557-871d-425b-b4ee-bc0c9bc717aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Can only remove “bands with other” and not normal “banding” ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/leg/204/shelkin-brownie) · oracle_id `507ce455-bd02-49f9-bf64-4b2d21ffe0ea` · printing: LEG #204 (1994-06-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shelldock Isle
 
@@ -227,7 +246,13 @@
   > {U}, {T}: You may play the exiled card without paying its mana cost if a library has twenty or fewer cards in it.
 - **Keywords:** Hideaway
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16449 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/272/shelldock-isle) · oracle_id `f748b2fb-6c2a-400a-8e96-fa4e4a1dfe80` · printing: LRW #272 (2007-10-12) · [rulings](https://api.scryfall.com/cards/4216656e-90e8-45fc-a0f6-0d0d79d0a021/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2007-10-01* — It doesn't matter which library has twenty or fewer cards in it, and you don't have to specify a library.
+  - *2022-04-29* — "Hideaway N" means "When this permanent enters the battlefield, look at the top N cards of your library. Exile one of them face down and put the rest on the bottom of your library in a random order. The exiled card gains 'The player who controls the permanent that exiled this card may look at this card in the exile zone.'"
+  - *2022-04-29* — Any player who has controlled a permanent with a hideaway ability since a card was exiled with it may look at that card.
+  - *2022-04-29* — Hideaway now causes you to put the rest of the cards on the bottom of your library in a random order instead of any order.
+  - *2022-04-29* — Previously, permanents with hideaway entered the battlefield tapped. This ability has been removed from the definition of hideaway. Older cards have received errata to have an additional paragraph that reads "[This permanent] enters the battlefield tapped," and they now have hideaway 4.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/272/shelldock-isle) · oracle_id `f748b2fb-6c2a-400a-8e96-fa4e4a1dfe80` · printing: LRW #272 (2007-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shellephant
 
@@ -239,7 +264,11 @@
   > • Shellephant has base power and toughness 1/4.
   > • Shellephant has base power and toughness 3/3.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/121/shellephant) · oracle_id `544f35f0-56b7-44f9-ae82-3a425553c5cd` · printing: UST #121 (2017-12-08) · [rulings](https://api.scryfall.com/cards/dad58131-2bfe-4796-ab7d-44364a0d0acc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-01-19* — If Shellephant has first strike, double strike, or triple strike, you can have it deal combat damage as a 3/3 and then change it to a 1/4 before normal combat damage happens. This will also work if the creature Shellephant is in combat with has last strike.
+  - *2018-01-19* — If you haven’t activated Shellephant’s ability, its power and toughness are 0/0.
+  - *2018-01-19* — You can change Shellephant’s creature types at any time and while Shellephant is in any zone. It can be a Turtle, an Elephant, or both. “And/or” isn’t a creature type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/121/shellephant) · oracle_id `544f35f0-56b7-44f9-ae82-3a425553c5cd` · printing: UST #121 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shell of the Last Kappa
 
@@ -249,7 +278,10 @@
   > {3}, {T}: Exile target instant or sorcery spell that targets you. (The spell has no effect.)
   > {3}, {T}, Sacrifice Shell of the Last Kappa: You may cast a spell from among cards exiled with Shell of the Last Kappa without paying its mana cost.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22410 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/chk/269/shell-of-the-last-kappa) · oracle_id `a8b24b38-019c-45e7-a5f4-a1bc3014f7a2` · printing: CHK #269 (2004-10-01) · [rulings](https://api.scryfall.com/cards/4d80f3e7-c3f0-462f-8ae9-8b27a7c15fcd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-12-01* — Exiling a spell prevents that spell from resolving, but it doesn’t technically “counter” anything. This means that Shell of the Last Kappa can exile spells which “can’t be countered.”
+  - *2004-12-01* — Shell of the Last Kappa’s first ability can only target a spell that targets you.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chk/269/shell-of-the-last-kappa) · oracle_id `a8b24b38-019c-45e7-a5f4-a1bc3014f7a2` · printing: CHK #269 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shell Shield
 
@@ -260,7 +292,14 @@
   > Target creature you control gets +0/+3 until end of turn. If this spell was kicked, that creature also gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16398 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/79/shell-shield) · oracle_id `73535033-2875-4a82-98d5-84548e349f13` · printing: ZNR #79 (2020-09-25) · [rulings](https://api.scryfall.com/cards/3daede39-8eef-4272-a483-312dbd2dd30f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/79/shell-shield) · oracle_id `73535033-2875-4a82-98d5-84548e349f13` · printing: ZNR #79 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shellshock
 
@@ -269,7 +308,10 @@
 - **Oracle text:**
   > For each opponent, choose up to one target creature that player controls. Shellshock deals X damage to each of those creatures. You create a Mutagen token for each creature dealt damage this way. (They're artifacts with "{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery.")
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10129 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/25/shellshock) · oracle_id `f406630b-d9f1-4fc5-b3f3-5327384b2901` · printing: TMC #25 (2026-03-06) · [rulings](https://api.scryfall.com/cards/7d180bb8-6a33-4c55-b4c0-2abbf6595d7b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-01-27* — Mutagen tokens are a kind of predefined token. Each one is a colorless artifact with the artifact subtype Mutagen and the ability "{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."
+  - *2026-01-27* — Some spells and abilities that create Mutagen tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Mutagen token won't be created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/25/shellshock) · oracle_id `f406630b-d9f1-4fc5-b3f3-5327384b2901` · printing: TMC #25 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shell Skulkin
 
@@ -281,6 +323,7 @@
 - **Flavor text** (EVE printing):
   > *Skulkins confer strange benefits on unsuspecting patrons.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19246 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eve/173/shell-skulkin) · oracle_id `82df38bc-f29b-49f8-b734-e4df6d0f645a` · printing: EVE #173 (2008-07-25) · [rulings](https://api.scryfall.com/cards/c0953373-66e1-4af1-a4ec-cc990e20a1de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shelob, Child of Ungoliant
@@ -367,6 +410,7 @@
   > *Dromoka's scalelords patrol the skies over Arashin, offering her people safety from the harsh world.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16965 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/206/sheltered-aerie) · oracle_id `f2c408f6-3994-4a90-a9f5-f248eb976017` · printing: DTK #206 (2015-03-27) · [rulings](https://api.scryfall.com/cards/afecf5a8-3c9e-48e0-8818-e2e3183e958c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sheltered by Ghosts
@@ -407,6 +451,7 @@
   > At the beginning of your upkeep, if you control three or fewer lands, you gain 1 life.
   > {T}: Add {C}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27477 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/all/142/sheltered-valley) · oracle_id `cd535fa3-6fd8-4227-97fd-3ef07cb0598d` · printing: ALL #142 (1996-06-10) · [rulings](https://api.scryfall.com/cards/049d7a08-1605-4ce2-b8c5-634ce2a261e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sheltering Ancient
@@ -419,7 +464,12 @@
   > Cumulative upkeep—Put a +1/+1 counter on a creature an opponent controls. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
 - **Keywords:** Trample, Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11144 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/csp/121/sheltering-ancient) · oracle_id `4554ce06-4992-4689-8a40-558a1545b968` · printing: CSP #121 (2006-07-21) · [rulings](https://api.scryfall.com/cards/d16535ae-6e03-4992-9459-d31626a3222e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2006-07-15* — Creatures that can’t be the target of abilities can have +1/+1 counters put on them by Sheltering Ancient’s cumulative upkeep ability because it doesn’t target them. The same is true for creatures with protection from green or protection from any other quality Sheltering Ancient has.
+  - *2006-07-15* — If no opponent controls a creature, you can’t pay the upkeep and must sacrifice Sheltering Ancient.
+  - *2006-07-15* — You may choose a different creature to put each counter on, but you can also choose the same creature multiple times. The creatures don’t have to be controlled by the same opponent.
+  - *2008-10-01* — Paying cumulative upkeep is always optional. If it’s not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can’t be made. For example, if a permanent with “cumulative upkeep {1}” has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either pay {4} or sacrifice the permanent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/csp/121/sheltering-ancient) · oracle_id `4554ce06-4992-4689-8a40-558a1545b968` · printing: CSP #121 (2006-07-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sheltering Boughs
 
@@ -434,7 +484,9 @@
   > *—Marel, Dawnhart witch*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20582 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/218/sheltering-boughs) · oracle_id `b6bde4eb-15f0-4e6e-9d25-459a2f75ccf2` · printing: VOW #218 (2021-11-19) · [rulings](https://api.scryfall.com/cards/915dd4c2-0e9f-440c-8e4c-80db351a5eba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-11-19* — If the creature the Aura spell targets isn't a legal target as it tries to resolve, Sheltering Boughs is put into its owner's graveyard from the stack. It doesn't enter the battlefield and you won't draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/218/sheltering-boughs) · oracle_id `b6bde4eb-15f0-4e6e-9d25-459a2f75ccf2` · printing: VOW #218 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sheltering Landscape
 
@@ -459,6 +511,7 @@
   > *Those who wield the power of the sun protect the Empire from darkness.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10639 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/35/sheltering-light) · oracle_id `551ac58e-3a27-4ee3-ac91-16873562c0bc` · printing: XLN #35 (2017-09-29) · [rulings](https://api.scryfall.com/cards/b0c945c7-6c31-4c4f-9203-3dc2aef50820/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sheltering Prayers
@@ -470,6 +523,7 @@
 - **Flavor text** (PCY printing):
   > *"It matters not if the gods hear my prayers. Jamuraa does."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32121 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcy/22/sheltering-prayers) · oracle_id `44075eea-ab9d-4252-b77c-597d19a10fc4` · printing: PCY #22 (2000-06-05) · [rulings](https://api.scryfall.com/cards/a30803e6-7f0e-4832-b121-b18480c6465c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sheltering Word
@@ -479,7 +533,9 @@
 - **Oracle text:**
   > Target creature you control gains hexproof until end of turn. You gain life equal to that creature's toughness. (A creature with hexproof can't be the target of spells or abilities your opponents control.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10994 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/avr/192/sheltering-word) · oracle_id `77aaaad5-7960-453d-b024-6dacbca3d606` · printing: AVR #192 (2012-05-04) · [rulings](https://api.scryfall.com/cards/93cd9be4-1ce4-4a7c-b2a6-98d3fde0a92b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-05-01* — If a creature gains hexproof in response to a spell or ability controlled by an opponent that targets only it, that spell or ability doesn’t resolve for having an illegal target when it tries to resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/avr/192/sheltering-word) · oracle_id `77aaaad5-7960-453d-b024-6dacbca3d606` · printing: AVR #192 (2012-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shenanigans
 
@@ -512,6 +568,7 @@
   > Whenever a permanent named Dragonstorm Globe you control enters, draw a card. Then if you control seven permanents named Dragonstorm Globe, you win the game.
 - **Keywords:** Flying, Defender
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04q/shen-wish-granter) · oracle_id `15feddee-9e2a-48a9-842b-3e9e9b5664c2` · printing: UNK #RZ04q (2025-06-20) · [rulings](https://api.scryfall.com/cards/42307332-d5d3-4ebd-8b55-0a6b247d46ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sheoldred's Edict
@@ -541,7 +598,15 @@
   > *The punishment for sedition, like every other crime in the Dross Pits, is execution.*
 - **Keywords:** Toxic, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14697 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/109/sheoldreds-headcleaver) · oracle_id `a7df9a4e-d556-4345-9884-0724a3f9d5f8` · printing: ONE #109 (2023-02-10) · [rulings](https://api.scryfall.com/cards/8c6b818f-6912-4ea1-a35a-c8cd7ee9aead/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-02-04* — A player with ten or more poison counters loses the game. This is a state-based action and doesn't use the stack. In other words, it happens immediately and players can't respond to it, just like a player losing the game due to having 0 or less life.
+  - *2023-02-04* — Any other effects of that damage, such as life gain from lifelink, still apply.
+  - *2023-02-04* — Conversely, replacement effects that apply to the number of counters put on a player can modify the counters placed this way. For example, Vorinclex, Monstrous Raider's last two abilities can apply to counters placed this way.
+  - *2023-02-04* — Damage dealt by a creature with toxic grants the same number of counters regardless of how much damage is dealt. Notably, if a replacement effect modifies the damage in some way (such as that of Gratuitous Violence), the number of counters given remains unchanged.
+  - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
+  - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
+  - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/109/sheoldreds-headcleaver) · oracle_id `a7df9a4e-d556-4345-9884-0724a3f9d5f8` · printing: ONE #109 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sheoldred's Restoration
 
@@ -553,7 +618,15 @@
   > Exile Sheoldred's Restoration.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22003 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/108/sheoldreds-restoration) · oracle_id `df587772-516f-4ae8-aefe-e6fc63f8b365` · printing: DMU #108 (2022-09-09) · [rulings](https://api.scryfall.com/cards/ed719f25-1aab-4a1e-8c9f-dd574db5de0c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-09-09* — If the target creature card is an illegal target as Sheoldred's Restoration tries to resolve (usually because the card has been removed from the graveyard in response), it won't do anything. You won't gain or lose life, and Sheoldred's Restoration will go to the graveyard rather than be exiled by its last ability.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/108/sheoldreds-restoration) · oracle_id `df587772-516f-4ae8-aefe-e6fc63f8b365` · printing: DMU #108 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sheoldred's Terror
 
@@ -562,6 +635,7 @@
 - **Oracle text:**
   > Destroy target creature not originally printed in an Argentum expansion. (Mirrodin, Darksteel, Fifth Dawn, Scars of Mirrodin, Mirrodin Besieged, New Phyrexia, and Phyrexia: All Will Be One are Argentum expansions. Argentum is Karn's original name for that plane, now you know!)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UB12/sheoldreds-terror) · oracle_id `b0a4bbfe-cb61-4624-ac83-b50bae352d10` · printing: UNK #UB12 (2023-02-17) · [rulings](https://api.scryfall.com/cards/f00d01be-4fa5-4fb1-8c0e-d6ea9ef726af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sheoldred, the Apocalypse
@@ -633,6 +707,7 @@
   > *"This way, Melinda. A hundred years haven't improved your sense of direction."*
 - **Keywords:** Flying, Plainscycling, Landcycling, Typecycling, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19362 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/31/shepherding-spirits) · oracle_id `e8ff3e99-eca9-44a5-baac-99ee34df3c36` · printing: DSK #31 (2024-09-27) · [rulings](https://api.scryfall.com/cards/86c02ab1-0fb2-4cb0-a871-bfad406726fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shepherd of Heroes
@@ -647,7 +722,12 @@
   > *"Rest, friends. I will protect you."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21901 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/38/shepherd-of-heroes) · oracle_id `6a732900-6529-4d5c-ab94-52bd0048d483` · printing: ZNR #38 (2020-09-25) · [rulings](https://api.scryfall.com/cards/1f70baa3-5232-4e10-80b4-a9ead6ed6ec3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-09-25* — An ability referring to the number of creatures in your party gets a number from zero to four. Such abilities never ask which creatures are in your party, and you never have to designate specific creatures as being in your party. You can’t choose to exclude creatures from this count to lower the number.
+  - *2020-09-25* — If a creature has more than one party creature type, and there are multiple ways to count that creature that could result in a different number of creatures in your party, the highest such number is used. For example, if you control a Cleric and a Cleric Wizard, the number of creatures in your party is two. You can’t choose to have it be just one by counting the Cleric Wizard first as a Cleric.
+  - *2020-09-25* — If an ability of a creature counts the number of creatures in your party, that number is counted as the ability resolves. If that creature is still on the battlefield when the ability resolves, it’ll be counted if appropriate.
+  - *2020-09-25* — To determine “the number of creatures in your party,” check whether you control a Cleric, whether you control a Rogue, whether you control a Warrior, and whether you control a Wizard. The number is the total number of those checks to which you answered yes. Each creature you control can be counted for only one of those checks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/38/shepherd-of-heroes) · oracle_id `6a732900-6529-4d5c-ab94-52bd0048d483` · printing: ZNR #38 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shepherd of Rot
 
@@ -675,7 +755,11 @@
   > *It catches those who are not ready to fall.*
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15384 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/28/shepherd-of-the-clouds) · oracle_id `c0535854-e4e7-43e4-bc5c-7cc95fb17929` · printing: OTJ #28 (2024-04-19) · [rulings](https://api.scryfall.com/cards/c2245f36-2138-4f01-9b70-151137a5ac59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-04-12* — A permanent card is an artifact, battle, creature, enchantment, land, or planeswalker card.
+  - *2024-04-12* — If the mana cost of a card in your graveyard includes {X}, X is 0 for the purpose of determining its mana value.
+  - *2024-04-12* — If you return an Aura to the battlefield this way, you choose what the Aura will enchant just before it enters the battlefield. An Aura returning to the battlefield this way doesn’t target the player or permanent it will enchant, so permanents or players with hexproof may be chosen; however, the chosen recipient must be able to legally be enchanted by the Aura, so a player or permanent with protection from one of the Aura’s qualities can’t be chosen this way. If there’s nothing legal for the Aura to enchant, it stays in the graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/28/shepherd-of-the-clouds) · oracle_id `c0535854-e4e7-43e4-bc5c-7cc95fb17929` · printing: OTJ #28 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shepherd of the Cosmos
 
@@ -688,7 +772,14 @@
   > Foretell {3}{W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 - **Keywords:** Flying, Foretell
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16543 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/28/shepherd-of-the-cosmos) · oracle_id `2c5aa155-646c-47f6-ba5c-6e1b41fd4bb2` · printing: KHM #28 (2021-02-05) · [rulings](https://api.scryfall.com/cards/ce33c84e-008c-48d8-a8e8-77cd19cc4f1f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-02-05* — A permanent card is an artifact, creature, enchantment, land, or planeswalker card.
+  - *2021-02-05* — Because exiling a card with foretell from your hand is a special action, you can do so any time you have priority during your turn, including in response to spells and abilities. Once you announce you’re taking the action, no other player can respond by trying to remove the card from your hand.
+  - *2021-02-05* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player’s turn. In most cases, if you foretell a card that isn’t an instant (or doesn’t have flash), you’ll have to wait until your next turn to cast it.
+  - *2021-02-05* — If the mana cost of a card in your graveyard includes {X}, X is considered to be 0.
+  - *2021-02-05* — If you return an Aura this way, you choose what the Aura will enchant just before it enters the battlefield. An Aura returning to the battlefield this way doesn’t target the player or permanent it will enchant, so permanents or players with hexproof may be chosen; however, the chosen recipient must be able to legally be enchanted by the Aura, so a player or permanent with protection from one of the Aura’s qualities can’t be chosen this way. If there’s nothing legal for the Aura to enchant, it stays in the graveyard.
+  - *2021-02-05* — If you’re casting a foretold card from exile for its foretell cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/28/shepherd-of-the-cosmos) · oracle_id `2c5aa155-646c-47f6-ba5c-6e1b41fd4bb2` · printing: KHM #28 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shepherd of the Flock // Usher to Safety
 
@@ -703,7 +794,18 @@
 - **Flavor text** (ELD printing):
   > *Not all heroes carry swords.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12563 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/28/shepherd-of-the-flock-usher-to-safety) · oracle_id `6d611800-5b0e-40ca-82a2-5b294a1ebf6d` · printing: ELD #28 (2019-10-04) · [rulings](https://api.scryfall.com/cards/c0b4f0ce-0d18-4546-803d-94a2f4f30951/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2019-10-04* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Giant Killer is a white creature card whose mana value is 1. It can't be the target of the triggered ability of Mystic Sanctuary.
+  - *2019-10-04* — Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2019-10-04* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to cast it as a permanent later.
+  - *2019-10-04* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to cast it as a permanent spell.
+  - *2019-10-04* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to cast the copy as a permanent.
+  - *2019-10-04* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2019-10-04* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+  - *2019-10-04* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if Giant Killer is exiled with the last ability of Vivien, Champion of the Wilds, you can't cast it as Chop Down.
+  - *2019-10-04* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2019-10-04* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/28/shepherd-of-the-flock-usher-to-safety) · oracle_id `6d611800-5b0e-40ca-82a2-5b294a1ebf6d` · printing: ELD #28 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shepherd of the Lost
 
@@ -717,6 +819,7 @@
   > *—Emeria's Creed*
 - **Keywords:** Flying, Vigilance, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25673 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/zen/34/shepherd-of-the-lost) · oracle_id `d8c70f2f-985c-4982-97eb-99da3810e048` · printing: ZEN #34 (2009-10-02) · [rulings](https://api.scryfall.com/cards/ff23b1c2-7b99-4504-8944-ada264725524/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sheriff of Safe Passage
@@ -729,7 +832,14 @@
   > Plot {1}{W} (You may pay {1}{W} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)
 - **Keywords:** Plot
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17913 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/29/sheriff-of-safe-passage) · oracle_id `ec16008f-18d6-4461-b99c-0a504f211618` · printing: OTJ #29 (2024-04-19) · [rulings](https://api.scryfall.com/cards/c38a845d-f25d-45ab-9154-3fa5291b0ba0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-04-12* — Exiling a card using its plot ability is a special action. Once you announce you’re taking that action, no other player can respond by trying to remove that card from your hand.
+  - *2024-04-12* — If Sheriff of Safe Passage enters the battlefield under your control at the same time as one or more other creatures, it doesn’t take those creatures into consideration when determining how many +1/+1 counters it enters the battlefield with.
+  - *2024-04-12* — If a plotted card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-04-12* — If you’re casting a plotted card from exile without paying its mana cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the plotted card has any mandatory additional costs, those must still be paid to cast the spell.
+  - *2024-04-12* — Plot abilities are written “Plot [cost],” which means “Any time you have priority during your main phase while the stack is empty, you may pay [cost] and exile this card from your hand. It becomes plotted.”
+  - *2024-04-12* — You can’t cast a plotted card on the same turn it became plotted. On any future turn, you may cast that card from exile without paying its mana cost during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/29/sheriff-of-safe-passage) · oracle_id `ec16008f-18d6-4461-b99c-0a504f211618` · printing: OTJ #29 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shessra, Death's Whisper
 
@@ -740,4 +850,7 @@
   > Bewitching Whispers — When Shessra enters, target creature blocks this turn if able.
   > Whispers of the Grave — At the beginning of your end step, if a creature died this turn, you may pay 2 life. If you do, draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17363 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/231/shessra-deaths-whisper) · oracle_id `fb29737c-2dfa-4139-988b-29dc8b829c08` · printing: AFR #231 (2021-07-23) · [rulings](https://api.scryfall.com/cards/60ca5fef-af21-4e2b-9efa-61e08a638a1f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-07-23* — If the creature affected by the Bewitching Whispers ability is tapped or is affected by a spell or ability that says it can't block, then it doesn't block. If there's a cost associated with having that creature block, its controller isn't forced to pay that cost, so it doesn't have to block in that case either.
+  - *2021-07-23* — Shessra, Death's Whisper's last ability will trigger only once during your end step, no matter how many creatures died this turn. However, if no creatures have died so far this turn as the end step begins, the ability won't trigger at all. It's not possible to cause a creature to die during the end step in time to have the ability trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/231/shessra-deaths-whisper) · oracle_id `fb29737c-2dfa-4139-988b-29dc8b829c08` · printing: AFR #231 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

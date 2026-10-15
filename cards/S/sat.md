@@ -126,6 +126,7 @@
 - **Flavor text** (BNG printing):
   > *His heart, the coal; his eye, the spark; his hand, the whirling flame.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16572 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/108/satyr-firedancer) · oracle_id `b30edff0-3716-4dbb-b445-5329b08e36f4` · printing: BNG #108 (2014-02-07) · [rulings](https://api.scryfall.com/cards/7fc6a735-cbf5-4af2-b15c-7ced82f0d9da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Satyr Grovedancer
@@ -138,6 +139,7 @@
 - **Flavor text** (JOU printing):
   > *"Some of my kin dance for themselves, without greater purpose. Nylea gives me purpose, and with it strength."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21529 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/139/satyr-grovedancer) · oracle_id `49f3bd5a-9c2a-45b8-aa10-9c6471028a0f` · printing: JOU #139 (2014-05-02) · [rulings](https://api.scryfall.com/cards/d46febca-f3c0-4467-aef4-4dfcdf3009fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Satyr Hedonist
@@ -150,7 +152,9 @@
 - **Flavor text** (THS printing):
   > *"Any festival you can walk away from wasn't worth attending in the first place."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18768 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/174/satyr-hedonist) · oracle_id `a75bf714-ed3e-4403-a009-3a81f430bc64` · printing: THS #174 (2013-09-27) · [rulings](https://api.scryfall.com/cards/88c67e15-833c-406a-b75f-8de97fbacf5a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-09-15* — Satyr Hedonist's ability is a mana ability. It doesn't use the stack and can't be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/174/satyr-hedonist) · oracle_id `a75bf714-ed3e-4403-a009-3a81f430bc64` · printing: THS #174 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Satyr Hoplite
 
@@ -163,7 +167,11 @@
   > *"Xenagos has become what he once despised: a tyrant and an oppressor."*
 - **Keywords:** Heroic
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21265 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jou/110/satyr-hoplite) · oracle_id `ee7dc820-10ee-429a-a1ef-ecd6a11f5608` · printing: JOU #110 (2014-05-02) · [rulings](https://api.scryfall.com/cards/b8754d66-facb-432e-a6c2-91430a6dec94/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2014-04-26* — Heroic abilities will resolve before the spell that caused them to trigger.
+  - *2014-04-26* — Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times.
+  - *2014-04-26* — Heroic abilities won't trigger when a copy of a spell is created on the stack or when a spell's targets are changed to include a creature with a heroic ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jou/110/satyr-hoplite) · oracle_id `ee7dc820-10ee-429a-a1ef-ecd6a11f5608` · printing: JOU #110 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Satyr Nyx-Smith
 
@@ -175,7 +183,12 @@
   > Inspired — Whenever this creature becomes untapped, you may pay {2}{R}. If you do, create a 3/1 red Elemental enchantment creature token with haste.
 - **Keywords:** Inspired, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23828 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bng/109/satyr-nyx-smith) · oracle_id `3ad9d55d-02f7-412e-8756-6a026f8e68d7` · printing: BNG #109 (2014-02-07) · [rulings](https://api.scryfall.com/cards/3bc2c65e-3cba-4813-9949-87e15f592247/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-02-01* — If an inspired ability triggers during your untap step, the ability will be put on the stack at the beginning of your upkeep. If the ability creates one or more token creatures, those creatures won’t be able to attack that turn (unless they gain haste).
+  - *2014-02-01* — If the inspired ability includes an optional cost, you decide whether to pay that cost as the ability resolves. You can do this even if the creature leaves the battlefield in response to the ability.
+  - *2014-02-01* — Inspired abilities don’t trigger when the creature enters the battlefield.
+  - *2014-02-01* — Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bng/109/satyr-nyx-smith) · oracle_id `3ad9d55d-02f7-412e-8756-6a026f8e68d7` · printing: BNG #109 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Satyr Piper
 
@@ -188,7 +201,10 @@
   > *"When I asked my commander the reward for killing that prancing nuisance, he told me, 'None! I want to kill him myself!'"*
   > *—Phrogas, soldier of Akros*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23237 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/175/satyr-piper) · oracle_id `d15eed8e-6c2c-4427-9f72-a46e90c562b9` · printing: THS #175 (2013-09-27) · [rulings](https://api.scryfall.com/cards/e244c4d0-2c30-4a56-94bb-0fff9ffe4a6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-09-15* — During the declare blockers step, the defending player must assign at least one blocker to each creature that must be blocked if that player controls any creatures that could block it.
+  - *2013-09-15* — If multiple attacking creatures must be blocked, the defending player must assign blockers in such a way that the greatest number of those attacking creatures are blocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/175/satyr-piper) · oracle_id `d15eed8e-6c2c-4427-9f72-a46e90c562b9` · printing: THS #175 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Satyr Rambler
 
@@ -201,6 +217,7 @@
   > *A satyr is bound by nothing—not home, not family, not loyalty.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24149 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/139/satyr-rambler) · oracle_id `6ea0d274-564b-4785-801d-b3272a7b6bfa` · printing: THS #139 (2013-09-27) · [rulings](https://api.scryfall.com/cards/fabccddd-c0ea-45a5-bebc-d8f858242a2a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Satyr's Cunning
@@ -214,7 +231,15 @@
   > *It's hard to keep a satyr down, even in the Underworld.*
 - **Keywords:** Escape
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18650 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/152/satyrs-cunning) · oracle_id `46fd9b9e-ef8f-41d6-9f1d-040bb7fe74c1` · printing: THB #152 (2020-01-24) · [rulings](https://api.scryfall.com/cards/646d8201-be68-42fa-bcfd-42d81a2ad195/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2020-01-24* — After an escaped spell resolves, it returns to its owner's graveyard if it's not a permanent spell. If it is a permanent spell, it enters the battlefield and will return to its owner's graveyard if it dies later. Perhaps it will escape again—good underworld security is so hard to come by these days.
+  - *2020-01-24* — Escape's permission doesn't change when you may cast the spell from your graveyard.
+  - *2020-01-24* — If a card has multiple abilities giving you permission to cast it, such as two escape abilities or an escape ability and a flashback ability, you choose which one to apply. The others have no effect.
+  - *2020-01-24* — If a card with escape is put into your graveyard during your turn, you'll be able to cast it right away if it's legal to do so, before an opponent can take any actions.
+  - *2020-01-24* — If you cast a spell with its escape permission, you can't choose to apply any other alternative costs or to cast it without paying its mana cost. If it has any additional costs, you must pay those.
+  - *2020-01-24* — Once you begin casting a spell with escape, it immediately moves to the stack. Players can't take any other actions until you're done casting the spell.
+  - *2020-01-24* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an escape cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was and no matter whether an alternative cost was paid.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/152/satyrs-cunning) · oracle_id `46fd9b9e-ef8f-41d6-9f1d-040bb7fe74c1` · printing: THB #152 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Satyr Wayfinder
 

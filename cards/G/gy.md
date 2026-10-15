@@ -28,7 +28,16 @@
   > • Create a Monster Role token attached to that creature.
 - **Keywords:** Role token
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11184 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/woc/4/gylwain-casting-director) · oracle_id `e7dfe47f-41fc-4071-9ad3-96cd8d9be52e` · printing: WOC #4 (2023-09-08) · [rulings](https://api.scryfall.com/cards/79e4242c-a53a-4287-976b-8e545888a1fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-09-01* — A permanent can have multiple Roles attached to it if each one is controlled by a different player.
+  - *2023-09-01* — Cards in the Wilds of Eldraine main set create six different Role tokens: Cursed, Monster, Royal, Sorcerer, Wicked, and Young Hero. A seventh Role token, Virtuous, is created by Ellivere of the Wild Court, the commander of the "Virtue and Valor" Commander Deck.
+  - *2023-09-01* — Hexproof and shroud won't prevent a Role from becoming attached to a permanent if the ability creating that Role attached to that permanent doesn't target it.
+  - *2023-09-01* — If a permanent has more than one Role attached to it controlled by the same player, each of those Roles except the one with the most recent timestamp is put into its owner's graveyard. This is a state-based action.
+  - *2023-09-01* — If two or more Roles controlled by the same player become attached to a permanent at the same time (perhaps due to an effect such as that of Doubling Season), that player chooses which one to keep and which are put into their owners' graveyards.
+  - *2023-09-01* — In rare cases, a spell or ability might attempt to create a Role token enchanting a permanent that it can't legally enchant (because of an ability like protection from enchantments). In such cases, the Role token isn't created.
+  - *2023-09-01* — Roles are colorless enchantment tokens. Each one has the Aura and Role subtypes and the enchant creature ability.
+  - *2023-09-01* — Some spells and abilities that create Role tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Role token won't be created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woc/4/gylwain-casting-director) · oracle_id `e7dfe47f-41fc-4071-9ad3-96cd8d9be52e` · printing: WOC #4 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gyome, Master Chef
 
@@ -121,7 +130,16 @@
   > Gyrus enters with a number of +1/+1 counters on it equal to the amount of mana spent to cast it.
   > Whenever Gyrus attacks, you may exile target creature card with lesser power from your graveyard. If you do, create a token that's a copy of that card and that's tapped and attacking. Exile the token at end of combat.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19054 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/41/gyrus-waker-of-corpses) · oracle_id `2deae472-3cfe-4d7b-b9cf-a045f07a002e` · printing: C18 #41 (2018-08-10) · [rulings](https://api.scryfall.com/cards/91585912-038d-4d26-b552-0e7c48ba1e4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2018-07-13* — Although the token is attacking, it was never declared as an attacking creature (for the purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2018-07-13* — Any enters-the-battlefield abilities of the copied creature card will trigger when the token enters the battlefield. Any "as [this creature card] enters the battlefield" or "[this creature card] enters the battlefield with" abilities of the chosen creature card will also work.
+  - *2018-07-13* — Gyrus's token copies exactly what was printed on the original creature card and nothing else. It doesn't copy any effects that modified it before it was put into your graveyard.
+  - *2018-07-13* — If Gyrus enters the battlefield without being cast, then no mana was spent to cast it. It enters the battlefield without any +1/+1 counters. If no other effects are increasing its toughness at that time, it will be put into its owner's graveyard as a state-based action.
+  - *2018-07-13* — If another creature enters the battlefield as a copy of Gyrus, consider how much mana was spent to cast that creature to determine how many +1/+1 counters it enters with.
+  - *2018-07-13* — If the copied creature card has {X} in its mana cost, X is considered to be 0.
+  - *2018-07-13* — The amount of mana you spent to cast Gyrus is usually equal to its mana value, normally 3 plus the value chosen for X. However, you also include any additional costs you pay, including the commander tax.
+  - *2018-07-13* — You choose which player or planeswalker the token is attacking. It doesn't have to be attacking the same player or planeswalker that Gyrus is attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/41/gyrus-waker-of-corpses) · oracle_id `2deae472-3cfe-4d7b-b9cf-a045f07a002e` · printing: C18 #41 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gysahl Greens
 

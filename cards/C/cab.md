@@ -44,7 +44,9 @@
 - **Flavor text** (ONS printing):
   > *"You are weak. I am strong. The protocol is obvious."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22164 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ons/129/cabal-archon) · oracle_id `7d80f016-5a4a-4843-9aec-0fe64f7f7ae8` · printing: ONS #129 (2002-10-07) · [rulings](https://api.scryfall.com/cards/4bdf6e2a-1bf5-4d63-a58b-883cfb1ea0fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It can sacrifice itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ons/129/cabal-archon) · oracle_id `7d80f016-5a4a-4843-9aec-0fe64f7f7ae8` · printing: ONS #129 (2002-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabal Coffers
 
@@ -71,6 +73,7 @@
   > *Speak only the Cabal's word."*
   > *—Cabal mantra*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20611 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/scg/56/cabal-conditioning) · oracle_id `37a04d5a-9272-42bd-b448-c658375bbbc3` · printing: SCG #56 (2003-05-26) · [rulings](https://api.scryfall.com/cards/eb81c6e6-fded-4cd3-a6fa-486419a5408a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabal Evangel
@@ -83,6 +86,7 @@
 - **Flavor text** (DOM printing):
   > *"All hail the Demonlord Belzenlok, Evincar of the Stronghold, Scion of Darkness, Doom of Fools, Lord of the Wastes, Master of the Ebon Hand, Eternal Patriarch of the Cabal . . ."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28564 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/78/cabal-evangel) · oracle_id `a4fed66f-ef3c-4547-8612-46e65d63ef1f` · printing: DOM #78 (2018-04-27) · [rulings](https://api.scryfall.com/cards/d218d2a2-bb5d-4ea8-a131-341c574410b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabal Executioner
@@ -95,6 +99,7 @@
   > Morph {3}{B}{B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26333 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/130/cabal-executioner) · oracle_id `b7817579-df4d-41db-bb90-2aabac58f299` · printing: ONS #130 (2002-10-07) · [rulings](https://api.scryfall.com/cards/cd7727a7-0cdf-4fd5-82b4-e6587c10ca80/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabal Initiate
@@ -109,6 +114,7 @@
   > *"Hear our prayers, oh Shadowed One, and bless us in bloody agony."*
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16852 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/78/cabal-initiate) · oracle_id `2fc19fa3-c6c2-42c0-85fa-8d13e1baa145` · printing: MH2 #78 (2021-06-18) · [rulings](https://api.scryfall.com/cards/b279a03f-85ab-43f2-b5ca-1bc10563e5ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabal Inquisitor
@@ -120,6 +126,7 @@
   > Threshold — {1}{B}, {T}, Exile two cards from your graveyard: Target player discards a card. Activate only as a sorcery and only if there are seven or more cards in your graveyard.
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30329 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/119/cabal-inquisitor) · oracle_id `5bebf38e-bff6-470b-a2b8-cb0a87a7372f` · printing: ODY #119 (2001-10-01) · [rulings](https://api.scryfall.com/cards/c0530e09-5206-460e-abd2-e928eca294a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabal Interrogator
@@ -130,6 +137,7 @@
 - **Oracle text:**
   > {X}{B}, {T}: Target player reveals X cards from their hand and you choose one of them. That player discards that card. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23709 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/scg/57/cabal-interrogator) · oracle_id `769ae101-73cc-4ac5-8f46-8af8e7de6581` · printing: SCG #57 (2003-05-26) · [rulings](https://api.scryfall.com/cards/256a7a37-6f47-47a3-b149-5692aee8b34a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabal Paladin
@@ -143,7 +151,12 @@
   > *"The Demonlord has ruled every age. Every ruin, myth, and nightmare proves his power."*
   > *—"Rite of Belzenlok"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16567 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/79/cabal-paladin) · oracle_id `1104a746-169c-450a-80ad-bea0493c0576` · printing: DOM #79 (2018-04-27) · [rulings](https://api.scryfall.com/cards/2cff2cb9-f4e6-4fee-94ef-ad11e24525c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-04-27* — A card, spell, or permanent is historic if it has the legendary supertype, the artifact card type, or the Saga subtype. Having two of those qualities doesn’t make an object more historic than another or provide an additional bonus—an object either is historic or it isn’t.
+  - *2018-04-27* — An ability that triggers “whenever you cast a historic spell” doesn’t trigger if a historic card is put onto the battlefield without being cast.
+  - *2018-04-27* — Lands are never cast, so abilities that trigger “whenever you cast a historic spell” won’t trigger if you play a legendary land. They also won’t trigger if a card on the battlefield transforms into a legendary land, as the Ixalan and Rivals of Ixalan double-faced cards do.
+  - *2018-04-27* — Some abilities trigger “whenever you cast a historic spell.” Such an ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/79/cabal-paladin) · oracle_id `1104a746-169c-450a-80ad-bea0493c0576` · printing: DOM #79 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabal Patriarch
 
@@ -154,6 +167,7 @@
   > {2}{B}, Sacrifice a creature: Target creature gets -2/-2 until end of turn.
   > {2}{B}, Exile a creature card from your graveyard: Target creature gets -2/-2 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27185 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/140/cabal-patriarch) · oracle_id `70d1caee-1c35-4fa3-bbc3-a7dcc226be90` · printing: CMM #140 (2023-08-04) · [rulings](https://api.scryfall.com/cards/9e9a1276-5ad5-44ee-83e5-2d1ab728946e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabal Pit
@@ -190,6 +204,7 @@
 - **Oracle text:**
   > Whenever a player casts a spell, that player discards X cards, where X is the number of cards in all graveyards with the same name as that spell.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31443 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/121/cabal-shrine) · oracle_id `3a1b4d0f-7051-4913-bced-bf7596b36668` · printing: ODY #121 (2001-10-01) · [rulings](https://api.scryfall.com/cards/dd376a52-5dfd-49f3-a520-537cd4527439/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabal Slaver
@@ -202,6 +217,7 @@
 - **Flavor text** (ONS printing):
   > *"In its natural habitat, the goblin is stupid, yet devious. Now it's stupid, devious, and powerful."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25822 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/131/cabal-slaver) · oracle_id `22a189a9-e755-4cbb-b419-5ba2e5acbe1b` · printing: ONS #131 (2002-10-07) · [rulings](https://api.scryfall.com/cards/b9c04fd3-021a-4011-be9b-0d268557aa06/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabal Stronghold
@@ -227,6 +243,7 @@
 - **Flavor text** (TOR printing):
   > *"Clerics give up when their patients die. Can I help it if I'm more compassionate?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30004 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/52/cabal-surgeon) · oracle_id `5528d0f1-4774-419f-ba1e-b2abdbce8735` · printing: TOR #52 (2002-02-04) · [rulings](https://api.scryfall.com/cards/29ce55a2-d838-48ab-862e-d419b0cda3c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabal Therapist
@@ -239,7 +256,9 @@
   > At the beginning of your first main phase, you may sacrifice a creature. When you do, choose a nonland card name, then target player reveals their hand and discards all cards with that name.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19963 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/80/cabal-therapist) · oracle_id `9b7870df-6bca-499f-bc6e-e57f2ddfe640` · printing: MH1 #80 (2019-06-14) · [rulings](https://api.scryfall.com/cards/eaa8f485-0f3d-4a0b-bcdf-6c27d1d2bce0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-06-14* — You name the card as Cabal Therapist’s reflexive triggered ability resolves, not as it’s put onto the stack. Then the targeted player reveals their hand and discards if appropriate. No player may choose to take actions between you naming the card and the targeted player revealing and discarding.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/80/cabal-therapist) · oracle_id `9b7870df-6bca-499f-bc6e-e57f2ddfe640` · printing: MH1 #80 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabal Therapy
 
@@ -250,7 +269,15 @@
   > Flashback—Sacrifice a creature. (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15657 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ema/83/cabal-therapy) · oracle_id `018107d1-ebf7-4657-bc91-c8374af55cc5` · printing: EMA #83 (2016-06-10) · [rulings](https://api.scryfall.com/cards/2f5b12f0-986f-43d0-a81b-64111e7f17e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2016-06-08* — You name the card as Cabal Therapy resolves, not as you cast it. Then the targeted player reveals their hand and discards if appropriate. No player may choose to take actions between you naming the card and the targeted player revealing and discarding.
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it’s legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you’re paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card’s type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+  - *2021-03-19* — “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/ema/83/cabal-therapy) · oracle_id `018107d1-ebf7-4657-bc91-c8374af55cc5` · printing: EMA #83 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabal Torturer
 
@@ -262,6 +289,7 @@
   > Threshold — {3}{B}{B}, {T}: Target creature gets -2/-2 until end of turn. Activate only if there are seven or more cards in your graveyard.
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27821 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/53/cabal-torturer) · oracle_id `fbd295ee-545a-4eab-b000-c0b228dd412d` · printing: TOR #53 (2002-02-04) · [rulings](https://api.scryfall.com/cards/ebcf8dd7-f45c-4ac2-9507-fa175fe89887/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabal Trainee
@@ -275,6 +303,7 @@
   > *"Ah, a faceshredder. Very rare. Nearly unstoppable. Good luck!"*
   > *—Cabal instructor*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26735 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jud/63/cabal-trainee) · oracle_id `fce68545-c31d-4dc2-9f1b-aadf924a07d1` · printing: JUD #63 (2002-05-27) · [rulings](https://api.scryfall.com/cards/d345d702-b205-4391-985a-6201e707f0ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabaretti Ascendancy
@@ -286,6 +315,7 @@
 - **Flavor text** (SNC printing):
   > *"Whatever you're looking for—food, family, Halo—we've got the best in town."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14546 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/172/cabaretti-ascendancy) · oracle_id `c35c39be-6db4-4a80-ace1-07932d1bb460` · printing: SNC #172 (2022-04-29) · [rulings](https://api.scryfall.com/cards/9738d616-b38f-4968-89d6-805ae368e2d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabaretti Charm
@@ -311,7 +341,9 @@
   > • Exile target artifact or enchantment.
   > • Creatures target player controls get +1/+1 and gain first strike until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17001 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/69/cabaretti-confluence) · oracle_id `99c32f20-da98-477d-9eb2-9c0b189d8d88` · printing: NCC #69 (2022-04-29) · [rulings](https://api.scryfall.com/cards/374198ef-91b6-45ad-acc9-adf659b5763b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-04-29* — If you choose the first and third mode, the creature tokens will enter the battlefield before the creatures target player controls get +1/+1 and gain first strike. If you target yourself with the third mode, the tokens will get that bonus.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/69/cabaretti-confluence) · oracle_id `99c32f20-da98-477d-9eb2-9c0b189d8d88` · printing: NCC #69 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabaretti Courtyard
 
@@ -336,4 +368,5 @@
   > *"Now there's a fellow who knows how to have a good time!"*
   > *—Jetmir*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29898 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/137/cabaretti-initiate) · oracle_id `5e0d877c-6ce3-462b-9746-7fc921c93be9` · printing: SNC #137 (2022-04-29) · [rulings](https://api.scryfall.com/cards/6c691f62-009b-4178-8e8b-d6e88229a282/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

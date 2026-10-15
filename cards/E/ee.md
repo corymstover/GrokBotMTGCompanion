@@ -28,7 +28,11 @@
 - **Flavor text** (UNF printing):
   > *The midway's games aren't so much rigged as they are insulated and grounded.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25099 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/106/eelectrocute) · oracle_id `8c56530b-098a-4afd-9022-76bfaa1f6a7c` · printing: UNF #106 (2022-10-07) · [rulings](https://api.scryfall.com/cards/b19d1e98-f667-4a3b-9e78-a416118aec52/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-10-07* — For the last ability, it doesn't matter how many pips the die you rolled a 6 on had, whether that was a six-sided die or a d20. As long as you rolled a 6 on any die that turn, you may cast Eelectrocute from your graveyard.
+  - *2022-10-07* — If you cast Eelectrocute from your graveyard using another permission, you won't exile it instead (unless that permission also states that you exile it).
+  - *2022-10-07* — If you cast Eelectrocute from your graveyard, you still pay its costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/106/eelectrocute) · oracle_id `8c56530b-098a-4afd-9022-76bfaa1f6a7c` · printing: UNF #106 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eel-Hounds
 
@@ -43,6 +47,7 @@
   > *—Master Piandao*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20724 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/250/eel-hounds) · oracle_id `25432a3a-bcfd-4c43-b662-07676e9b3fdd` · printing: TLE #250 (2025-11-21) · [rulings](https://api.scryfall.com/cards/05a50445-6d0f-423d-b27b-b2b0611f85d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eel Umbra
@@ -81,6 +86,7 @@
   > *—Peter Parker*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12675 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/824/eerie-gravestone) · oracle_id `cbf5bd0a-20ef-4dce-9f70-13339d438ff7` · printing: MSC #824 (2026-06-26) · [rulings](https://api.scryfall.com/cards/0d7705e8-b233-4cd0-ad8c-90d900b3cf79/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eerie Interference
@@ -120,6 +126,7 @@
   > *"Though in years past speculation was not encouraged about the strange ways of kami, now we must understand their motivations, if such is even possible to the mortal mind."*
   > *—Lady Azami*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20317 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/58/eerie-procession) · oracle_id `58dde1b0-bb01-4f72-9408-21c0404c1cfd` · printing: CHK #58 (2004-10-01) · [rulings](https://api.scryfall.com/cards/3af326c1-fcc8-45c3-b75e-ae4dbbd59ced/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eerie Soultender
@@ -132,6 +139,7 @@
   > {4}{B}, Exile this card from your graveyard: Return another target creature card from your graveyard to your hand.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17756 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/92/eerie-soultender) · oracle_id `a3e4d14b-818a-4a4b-8462-1de9ad844941` · printing: DMU #92 (2022-09-09) · [rulings](https://api.scryfall.com/cards/335f3146-743c-4a25-86b5-c45e9c66eb15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eerie Ultimatum

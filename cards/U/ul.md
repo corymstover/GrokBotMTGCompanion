@@ -107,7 +107,12 @@
 - **Oracle text:**
   > As this creature enters, you may put two cards your opponents own from exile into their owners' graveyards. If you do, this creature enters with four +1/+1 counters on it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18910 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/16/ulamogs-despoiler) · oracle_id `e0457123-7ba1-44fa-8e0d-6f1f17534b29` · printing: BFZ #16 (2015-10-02) · [rulings](https://api.scryfall.com/cards/55b6b7f0-d7fc-46b6-99ff-ba8206ecd628/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2015-08-25* — Face-down cards in exile are grouped using two criteria: what caused them to be exiled face down and when they were exiled face down. If you want to put a face-down card in exile into its owner’s graveyard, you must first choose one of these groups and then choose a card from within that group at random. For example, say an artifact causes your opponent to exile their hand of three cards face down. Then on a later turn, that artifact causes your opponent to exile another two cards face down. If you use Wasteland Strangler to put one of those cards into their graveyard, you would pick the first or second pile and put a card chosen at random from that pile into the graveyard.
+  - *2015-08-25* — If a replacement effect will cause cards that would be put into a graveyard from anywhere to be exiled instead (such as the one created by Anafenza, the Foremost), you can still put an exiled card into its opponent’s graveyard. The card becomes a new object and remains in exile. In this situation, you can’t use a single exiled card if required to put more than one exiled card into the graveyard. Conversely, you could use the same card in this situation if two separate spells or abilities each required you to put a single exiled card into its owner’s graveyard.
+  - *2015-08-25* — If a spell or ability requires that you put more than one exiled card into the graveyard, you may choose cards owned by different opponents. Each card chosen will be put into its owner’s graveyard.
+  - *2015-08-25* — You can’t look at face-down cards in exile unless an effect allows you to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/16/ulamogs-despoiler) · oracle_id `e0457123-7ba1-44fa-8e0d-6f1f17534b29` · printing: BFZ #16 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ulamog's Dreadsire
 
@@ -141,7 +146,17 @@
   > When this creature enters, you may put two cards your opponents own from exile into their owners' graveyards. If you do, counter target spell.
 - **Keywords:** Flying, Devoid, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14796 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/207/ulamogs-nullifier) · oracle_id `bd213210-42d1-49af-9959-08188abe692a` · printing: BFZ #207 (2015-10-02) · [rulings](https://api.scryfall.com/cards/acd482ad-ca4a-470f-8a76-14ec7b58316a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2015-08-25* — A card with devoid is just colorless. It’s not colorless and the colors of mana in its mana cost.
+  - *2015-08-25* — Cards with devoid use frames that are variations of the transparent frame traditionally used for Eldrazi. The top part of the card features some color over a background based on the texture of the hedrons that once imprisoned the Eldrazi. This coloration is intended to aid deckbuilding and game play.
+  - *2015-08-25* — Devoid works in all zones, not just on the battlefield.
+  - *2015-08-25* — Face-down cards in exile are grouped using two criteria: what caused them to be exiled face down and when they were exiled face down. If you want to put a face-down card in exile into its owner’s graveyard, you must first choose one of these groups and then choose a card from within that group at random. For example, say an artifact causes your opponent to exile their hand of three cards face down. Then on a later turn, that artifact causes your opponent to exile another two cards face down. If you use Wasteland Strangler to put one of those cards into their graveyard, you would pick the first or second pile and put a card chosen at random from that pile into the graveyard.
+  - *2015-08-25* — If a card loses devoid, it will still be colorless. This is because effects that change an object’s color (like the one created by devoid) are considered before the object loses devoid.
+  - *2015-08-25* — If a replacement effect will cause cards that would be put into a graveyard from anywhere to be exiled instead (such as the one created by Anafenza, the Foremost), you can still put an exiled card into its opponent’s graveyard. The card becomes a new object and remains in exile. In this situation, you can’t use a single exiled card if required to put more than one exiled card into the graveyard. Conversely, you could use the same card in this situation if two separate spells or abilities each required you to put a single exiled card into its owner’s graveyard.
+  - *2015-08-25* — If a spell or ability requires that you put more than one exiled card into the graveyard, you may choose cards owned by different opponents. Each card chosen will be put into its owner’s graveyard.
+  - *2015-08-25* — Other cards and abilities can give a card with devoid color. If that happens, it’s just the new color, not that color and colorless.
+  - *2015-08-25* — You can’t look at face-down cards in exile unless an effect allows you to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/207/ulamogs-nullifier) · oracle_id `bd213210-42d1-49af-9959-08188abe692a` · printing: BFZ #207 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ulamog's Reclaimer
 
@@ -153,7 +168,17 @@
   > When this creature enters, you may put a card an opponent owns from exile into that player's graveyard. If you do, return target instant or sorcery card from your graveyard to your hand.
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24813 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/68/ulamogs-reclaimer) · oracle_id `137de343-e3d0-4ccb-b8fc-680024387367` · printing: BFZ #68 (2015-10-02) · [rulings](https://api.scryfall.com/cards/29a237a6-0e72-47ce-b28d-a0260963f406/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2015-08-25* — A card with devoid is just colorless. It’s not colorless and the colors of mana in its mana cost.
+  - *2015-08-25* — Cards with devoid use frames that are variations of the transparent frame traditionally used for Eldrazi. The top part of the card features some color over a background based on the texture of the hedrons that once imprisoned the Eldrazi. This coloration is intended to aid deckbuilding and game play.
+  - *2015-08-25* — Devoid works in all zones, not just on the battlefield.
+  - *2015-08-25* — Face-down cards in exile are grouped using two criteria: what caused them to be exiled face down and when they were exiled face down. If you want to put a face-down card in exile into its owner’s graveyard, you must first choose one of these groups and then choose a card from within that group at random. For example, say an artifact causes your opponent to exile their hand of three cards face down. Then on a later turn, that artifact causes your opponent to exile another two cards face down. If you use Wasteland Strangler to put one of those cards into their graveyard, you would pick the first or second pile and put a card chosen at random from that pile into the graveyard.
+  - *2015-08-25* — If a card loses devoid, it will still be colorless. This is because effects that change an object’s color (like the one created by devoid) are considered before the object loses devoid.
+  - *2015-08-25* — If a replacement effect will cause cards that would be put into a graveyard from anywhere to be exiled instead (such as the one created by Anafenza, the Foremost), you can still put an exiled card into its opponent’s graveyard. The card becomes a new object and remains in exile. In this situation, you can’t use a single exiled card if required to put more than one exiled card into the graveyard. Conversely, you could use the same card in this situation if two separate spells or abilities each required you to put a single exiled card into its owner’s graveyard.
+  - *2015-08-25* — If a spell or ability requires that you put more than one exiled card into the graveyard, you may choose cards owned by different opponents. Each card chosen will be put into its owner’s graveyard.
+  - *2015-08-25* — Other cards and abilities can give a card with devoid color. If that happens, it’s just the new color, not that color and colorless.
+  - *2015-08-25* — You can’t look at face-down cards in exile unless an effect allows you to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/68/ulamogs-reclaimer) · oracle_id `137de343-e3d0-4ccb-b8fc-680024387367` · printing: BFZ #68 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ulamog, the Ceaseless Hunger
 
@@ -225,7 +250,9 @@
   > • Ulasht deals 1 damage to target creature.
   > • Create a 1/1 green Saproling creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13105 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/289/ulasht-the-hate-seed) · oracle_id `796f1e1f-7fec-429d-82ae-125f541d6cc7` · printing: 2X2 #289 (2022-07-08) · [rulings](https://api.scryfall.com/cards/002fe870-eae5-42cc-a44c-32906f60719e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-02-01* — Creatures that are both red and green provide two +1/+1 counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/289/ulasht-the-hate-seed) · oracle_id `796f1e1f-7fec-429d-82ae-125f541d6cc7` · printing: 2X2 #289 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ulcerate
 
@@ -237,7 +264,9 @@
   > *"If it were merely lethal, that would be sufficient. The art, however, is in maximizing the suffering it causes."*
   > *—Liliana Vess*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16363 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/112/ulcerate) · oracle_id `4a9e73b7-8c8b-4489-b670-ce49c2c8a46a` · printing: IMA #112 (2017-11-17) · [rulings](https://api.scryfall.com/cards/f78ab496-a19f-4c70-a56c-09a512d40c87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-11-17* — The loss of life isn't a cost. If the target creature is an illegal target when Ulcerate tries to resolve, it won't resolve and none of its effects will happen. You won't lose any life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/112/ulcerate) · oracle_id `4a9e73b7-8c8b-4489-b670-ce49c2c8a46a` · printing: IMA #112 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Uldaros Theorix
 
@@ -249,7 +278,9 @@
   > When Uldaros Theorix enters, if you cast him, exile up to one target nonland card of each card type from your graveyard. Copy those cards. You may cast any number of spells with total mana value 6 or less from among the copies without paying their mana costs. (Permanent spells cast this way become tokens.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15542 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/159/uldaros-theorix) · oracle_id `020d561b-2e5d-439e-9e6a-318d23e73542` · printing: FRA #159 (2026-10-02) · [rulings](https://api.scryfall.com/cards/a7ad622a-42ff-48fa-ae95-12e0a5bd9387/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-08-21* — If you cast a spell with {X} in its mana cost without paying its mana cost, you must choose 0 as the value for X. This means that X will also be 0 when calculating the mana value of that spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/159/uldaros-theorix) · oracle_id `020d561b-2e5d-439e-9e6a-318d23e73542` · printing: FRA #159 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ulgrotha Charm
 
@@ -261,6 +292,7 @@
   > • Memory Lapse (Counter a spell and put it on top of its owner's library.)
   > • Forget (Target player discards 2, then draws that many.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UU03b/ulgrotha-charm) · oracle_id `065cb9e3-138a-4305-9ad2-7c8b28562445` · printing: UNK #UU03b (2023-05-06) · [rulings](https://api.scryfall.com/cards/299b4f97-c38b-467a-8c82-013d8cc3532c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ulna Alley Shopkeep
@@ -275,6 +307,7 @@
   > *"This one's from my private stock."*
 - **Keywords:** Infusion, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25403 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/103/ulna-alley-shopkeep) · oracle_id `9da7f9ec-872a-471d-8d60-5f4213f0204f` · printing: SOS #103 (2026-04-24) · [rulings](https://api.scryfall.com/cards/c25e1ae5-f17c-4eee-98f1-5681981af31c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ulrich of the Krallenhorde // Ulrich, Uncontested Alpha
@@ -290,7 +323,14 @@
   > At the beginning of each upkeep, if a player cast two or more spells last turn, transform Ulrich.
 - **Keywords:** Transform, Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11045 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/emn/191/ulrich-of-the-krallenhorde-ulrich-uncontested-alpha) · oracle_id `0d397c05-a680-4274-972f-6a5f778b5133` · printing: EMN #191 (2016-07-22) · [rulings](https://api.scryfall.com/cards/3e2011f0-a640-4579-bd67-1dfbc09b8c09/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2016-07-13* — If Ulrich is no longer on the battlefield as Ulrich, Uncontested Alpha's first ability resolves, the targeted creature won't deal or be dealt damage.
+  - *2016-07-13* — If the targeted creature is an illegal target when Ulrich, Uncontested Alpha's first ability tries to resolve, the ability doesn't resolve.
+  - *2016-07-13* — The abilities that transform a Werewolf back and forth look at the entire previous turn, even if the Werewolf with that ability wasn't on the battlefield for some or all of that turn.
+  - *2016-07-13* — To trigger the Werewolf's back face's transform ability, a single player must have cast two or more spells during the previous turn. If multiple players each cast just one spell during the previous turn, the ability won't trigger.
+  - *2016-07-13* — Ulrich, Uncontested Alpha's last ability only triggers if a single player has cast two or more spells during the previous turn. If multiple players each cast just one spell during the previous turn, the ability won't trigger.
+  - *2016-07-13* — You choose the target of the Ulrich, Uncontested Alpha's first ability as it goes on the stack, but you choose whether or not to fight as that ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/emn/191/ulrich-of-the-krallenhorde-ulrich-uncontested-alpha) · oracle_id `0d397c05-a680-4274-972f-6a5f778b5133` · printing: EMN #191 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ulrich's Kindred
 
@@ -305,6 +345,7 @@
   > *—Ulrich, Krallenhorde alpha*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17936 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/176/ulrichs-kindred) · oracle_id `41fd1557-8dba-4bbf-9954-5c4f4f541812` · printing: INR #176 (2025-01-24) · [rulings](https://api.scryfall.com/cards/a461ca76-ce52-4f6a-bbc0-601c683eaaa0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ultima
@@ -348,6 +389,7 @@
   > *"When you said 'no man can equal you'? You had to know that was just begging for Jen to hit you."*
   > *—Spider-Man, Peter Parker*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25155 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/611/ultimate-alliance) · oracle_id `e59c07ab-08fd-4d5b-978e-1594604ba410` · printing: MSC #611 (2026-06-26) · [rulings](https://api.scryfall.com/cards/6b328224-fa09-41b0-aa55-8ebc841f8f7e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ultimate Green Goblin
@@ -407,6 +449,7 @@
 - **Flavor text** (MSC printing):
   > *The Ultimate Nullifier, the one weapon Galactus fears, holds the means to lay waste to a universe.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21793 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/26/ultimate-nullification) · oracle_id `2fe0ebf5-52ed-4e92-9b93-81e9ae564439` · printing: MSC #26 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3c27ca1c-8f2d-4ac8-aef1-bb6201763392/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ultimate Price
@@ -419,7 +462,9 @@
   > *"Let him be an example to others who would default on their debts to us."*
   > *—"The Cozen," Orzhov assassin*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14974 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/95/ultimate-price) · oracle_id `d740453b-d8f8-48d0-8c50-72a7cdb791b5` · printing: RVR #95 (2024-01-12) · [rulings](https://api.scryfall.com/cards/253c6342-fec3-459c-8376-8ccf8aea2905/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-01-12* — A monocolored creature is exactly one color. Colorless creatures aren't monocolored.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/95/ultimate-price) · oracle_id `d740453b-d8f8-48d0-8c50-72a7cdb791b5` · printing: RVR #95 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ultima Weapon
 
@@ -466,7 +511,16 @@
   > *"Time... it will not wait... no matter... how hard you hold on. It escapes you..."*
 - **Keywords:** Surveil, Transform, Menace, Time Compression
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11050 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/247/ultimecia-time-sorceress-ultimecia-omnipotent) · oracle_id `70773879-b773-4e81-99ca-8f4bba478962` · printing: FIN #247 (2025-06-13) · [rulings](https://api.scryfall.com/cards/2d6a2b68-5407-464e-a335-7866fd969c30/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2025-06-06* — A nonmodal double-faced card enters with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or allows you to cast it transformed, in which case it enters with its back face up.
+  - *2025-06-06* — A token that is created as a copy of a double-faced permanent or a double-faced card in another zone is a double-faced token. It will have both the front face and back face of whatever object it's copying. If it's copying a double-faced permanent whose back face is up, the token will enter with its back face up. It can transform if instructed to do so.
+  - *2025-06-06* — Each face of a nonmodal double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a nonmodal double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-06-06* — Each nonmodal double-faced card in this release is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2025-06-06* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Crystal Fragments, it will be exiled during the resolution of its second ability and remain in exile.
+  - *2025-06-06* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Cecil, Dark Knight's color identity is black and white, since its front face is black and its back face has a white color indicator.
+  - *2025-06-06* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
+  - *2025-06-06* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/247/ultimecia-time-sorceress-ultimecia-omnipotent) · oracle_id `70773879-b773-4e81-99ca-8f4bba478962` · printing: FIN #247 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ultimo, Civilization's End
 
@@ -479,6 +533,7 @@
   > {2}{B}, Discard this card: Each opponent sacrifices a creature of their choice.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19785 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/540/ultimo-civilizations-end) · oracle_id `43d79ee6-8ba1-4ec9-9bb2-907ed8401a2f` · printing: MSC #540 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d40e073a-ec98-4f8e-ae4b-6cfd0530bcdf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ultra Magnus, Tactician // Ultra Magnus, Armored Carrier
@@ -496,7 +551,24 @@
   > Formidable — Whenever Ultra Magnus attacks, attacking creatures you control gain indestructible until end of turn. If those creatures have total power 8 or greater, convert Ultra Magnus.
 - **Keywords:** Living metal, Haste, Convert, More Than Meets the Eye, Ward, Formidable
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15793 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/bot/15/ultra-magnus-tactician-ultra-magnus-armored-carrier) · oracle_id `48e913c0-efeb-47f5-9dcb-b795751e6b6d` · printing: BOT #15 (2022-11-18) · [rulings](https://api.scryfall.com/cards/687695ad-d212-4da4-a326-ce9876afdda2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2022-10-14* — "Living metal" means "As long as it's your turn, this permanent is an artifact creature in addition to its other types."
+  - *2022-10-14* — "More Than Meets the Eye [cost]" means "You may cast this card converted by paying [cost] rather than its mana cost." It functions in any zone from which the spell can be cast.
+  - *2022-10-14* — A spell cast this way enters the battlefield with its back face up.
+  - *2022-10-14* — An artifact creature card put onto the battlefield by Ultra Magnus, Tactician's last ability is an attacking creature, but since it wasn't declared as an attacker, it never "attacked," and this will not cause abilities that trigger when a creature attacks to trigger.
+  - *2022-10-14* — Any triggered ability of another card that triggers whenever a permanent transforms will also trigger whenever a permanent converts.
+  - *2022-10-14* — Converting a permanent doesn't affect any Auras or Equipment that are attached to it. Similarly, any counters on the permanent will remain on that permanent after it converts. Any continuous effects from a resolved spell or ability will continue to affect it. Any spells or abilities on the stack that target a permanent continue to do so after that permanent converts.
+  - *2022-10-14* — If a static ability of another permanent applies only to noncreature permanents, that ability applies to a Vehicle with living metal only during your opponents' turns. For example, if you control Arcee, Acrobatic Coupe and March of the Machines, Arcee will be a 2/2 artifact creature during your turn and a 3/3 artifact creature (because its mana value is 3) during each opponent's turn.
+  - *2022-10-14* — If you copy a permanent spell cast this way, the copy has the characteristics of the card's back face, even though it isn't itself a double-faced card.
+  - *2022-10-14* — Similarly, an ability of another card that instructs you to "transform" one of these cards will cause you to convert it, even if that ability doesn't use the word "convert."
+  - *2022-10-14* — The convert keyword action functions the same way as the transform keyword action found on some other cards; to convert a permanent on the battlefield, turn it over so that its other face is up.
+  - *2022-10-14* — The cost is an alternative cost, so it can't be combined with any other alternative costs. It can be combined with any applicable additional costs.
+  - *2022-10-14* — The mana value of a converted permanent on the battlefield is equal to the mana value of the card's front face, no matter which face is up.
+  - *2022-10-14* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a More Than Meets the Eye cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using More Than Meets the Eye is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was.
+  - *2022-10-14* — Ultra Magnus's controller chooses which player or planeswalker the artifact creature is attacking. It doesn't have to be the same player or planeswalker that Ultra Magnus is attacking.
+  - *2022-10-14* — When you cast a spell using its More Than Meets the Eye ability, the card is put onto the stack with its back face up. The resulting spell has all characteristics of that face.
+  - *2022-10-14* — While it's a creature, the Vehicle has its printed power and toughness.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bot/15/ultra-magnus-tactician-ultra-magnus-armored-carrier) · oracle_id `48e913c0-efeb-47f5-9dcb-b795751e6b6d` · printing: BOT #15 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ultramarines Honour Guard
 
@@ -540,6 +612,7 @@
   > *Many eyes. Many hands. One mind.*
 - **Keywords:** Power-up
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16444 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/253/ultron-drone) · oracle_id `51c1f21d-1512-4885-bfdc-58790cf77d51` · printing: MSH #253 (2026-06-26) · [rulings](https://api.scryfall.com/cards/149a0a3b-c470-414c-a7de-d773b8b4cc82/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ultron, Machine Overlord
@@ -552,6 +625,7 @@
   > Other Robots and Constructs you control get +2/+2.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13930 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/507/ultron-machine-overlord) · oracle_id `19fd953c-b6d4-457f-b85f-b681c5b0e341` · printing: MSC #507 (2026-06-26) · [rulings](https://api.scryfall.com/cards/b38f8149-0ab8-42cb-9af6-8c647550ab68/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ultron's Auxiliary
@@ -564,6 +638,7 @@
   > Whenever another artifact is put into your graveyard from the battlefield or an artifact card is put into your graveyard from anywhere other than the battlefield, put a +1/+1 counter on this creature.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19505 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/669/ultrons-auxiliary) · oracle_id `ff1ddf25-df25-4733-b9f1-236ad5a08782` · printing: MSC #669 (2026-06-26) · [rulings](https://api.scryfall.com/cards/b6f246bc-beb1-4dc6-9603-8f3b8fc65edb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ultron the Annihilator
@@ -577,6 +652,7 @@
   > Whenever another artifact is put into your graveyard from the battlefield or an artifact card is put into your graveyard from anywhere other than the battlefield, each opponent loses 1 life.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12925 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/668/ultron-the-annihilator) · oracle_id `33f2c6cb-f864-4bee-b365-aedf33fbedf5` · printing: MSC #668 (2026-06-26) · [rulings](https://api.scryfall.com/cards/51879585-9cdf-499b-b7cc-226319c74a0c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ultron, Unlimited
@@ -602,7 +678,9 @@
   > Whenever you cast a noncreature spell, if at least four mana was spent to cast it, tap target creature an opponent controls and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
   > Whenever you cast a noncreature spell, if at least eight mana was spent to cast it, put eight +1/+1 counters on Ultros.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14667 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/83/ultros-obnoxious-octopus) · oracle_id `b6f4b524-1081-4263-b7e4-9aee93131b31` · printing: FIN #83 (2025-06-13) · [rulings](https://api.scryfall.com/cards/14379198-9a0a-4853-9d51-fb074a24b1c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — Each of Ultros's abilities resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/83/ultros-obnoxious-octopus) · oracle_id `b6f4b524-1081-4263-b7e4-9aee93131b31` · printing: FIN #83 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ulvenwald Bear
 
@@ -616,6 +694,7 @@
   > *—Kessig expression meaning "died in the woods"*
 - **Keywords:** Morbid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11930 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dka/129/ulvenwald-bear) · oracle_id `2a79c29c-e539-49c5-b10c-1d5fd77842c9` · printing: DKA #129 (2012-02-03) · [rulings](https://api.scryfall.com/cards/9e3837a7-854a-440d-93d7-d36f50149346/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ulvenwald Captive // Ulvenwald Abomination
@@ -637,7 +716,9 @@
   > *—Nissa Revane*
 - **Keywords:** Transform, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14539 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/emn/175/ulvenwald-captive-ulvenwald-abomination) · oracle_id `0272ca81-e727-4f4b-b06e-072d70bb5558` · printing: EMN #175 (2016-07-22) · [rulings](https://api.scryfall.com/cards/0dbaef61-fa39-4ea7-bc21-445401c373e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-07-13* — For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+- **Source flags:** [Scryfall](https://scryfall.com/card/emn/175/ulvenwald-captive-ulvenwald-abomination) · oracle_id `0272ca81-e727-4f4b-b06e-072d70bb5558` · printing: EMN #175 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ulvenwald Hydra
 
@@ -684,7 +765,9 @@
   > *". . . and embrace the ancient ferocity of the undying Wild."*
 - **Keywords:** Transform, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26938 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/isd/208/ulvenwald-mystics-ulvenwald-primordials) · oracle_id `4418ff27-57c0-4c94-8aee-6151e4f8b0f9` · printing: ISD #208 (2011-09-30) · [rulings](https://api.scryfall.com/cards/8325c570-4d74-4e65-891c-3e153abf4bf9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-09-22* — You can regenerate Ulvenwald Primordials in response to the triggered ability that would transform it. If you do, the regeneration shield will apply to Ulvenwald Mystics that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/isd/208/ulvenwald-mystics-ulvenwald-primordials) · oracle_id `4418ff27-57c0-4c94-8aee-6151e4f8b0f9` · printing: ISD #208 (2011-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ulvenwald Observer
 
@@ -697,7 +780,10 @@
   > *"I tell you, the trees were closing in! It's by the grace of the Heron alone that I made it out of the Ulvenwald!"*
   > *—Ricton, traveling merchant*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11249 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/emn/176/ulvenwald-observer) · oracle_id `dff3cfff-69f9-4afd-af28-b75504d30ffa` · printing: EMN #176 (2016-07-22) · [rulings](https://api.scryfall.com/cards/7a9d23d5-2f94-48e6-824f-f1de8f742989/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-07-13* — If Ulvenwald Observer dies at the same time as other creatures with toughness 4 or greater, its ability will trigger for each of those creatures.
+  - *2016-07-13* — If Ulvenwald Observer’s toughness is still 4 or greater at the time it dies, its ability triggers.
+- **Source flags:** [Scryfall](https://scryfall.com/card/emn/176/ulvenwald-observer) · oracle_id `dff3cfff-69f9-4afd-af28-b75504d30ffa` · printing: EMN #176 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ulvenwald Oddity // Ulvenwald Behemoth
 

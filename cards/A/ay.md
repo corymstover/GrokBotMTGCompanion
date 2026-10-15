@@ -101,7 +101,13 @@
   > {T}: Counter target activated ability from an artifact source unless that ability's controller pays {W}. (Mana abilities can't be targeted.)
 - **Keywords:** Banding
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26121 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/chr/73/ayesha-tanaka) · oracle_id `35e4ed0e-8ce2-4729-a009-0d6be8f47663` · printing: CHR #73 (1995-07-01) · [rulings](https://api.scryfall.com/cards/8ce912d9-406b-4eba-97be-3bf1d425ee05/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2008-10-01* — A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it.
+  - *2008-10-01* — Creatures in the same band must all attack the same player or planeswalker.
+  - *2008-10-01* — If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a "band." The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned.
+  - *2009-10-01* — If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it.
+  - *2016-06-08* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keywords are activated abilities and will have colons in their reminder text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chr/73/ayesha-tanaka) · oracle_id `35e4ed0e-8ce2-4729-a009-0d6be8f47663` · printing: CHR #73 (1995-07-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ayesha Tanaka, Armorer
 
@@ -112,7 +118,10 @@
   > Whenever Ayesha Tanaka attacks, look at the top four cards of your library. You may put any number of artifact cards with mana value less than or equal to Ayesha Tanaka's power from among them onto the battlefield tapped. Put the rest on the bottom of your library in a random order.
   > Ayesha Tanaka can't be blocked as long as defending player controls three or more artifacts.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19936 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/29/ayesha-tanaka-armorer) · oracle_id `59fcd09c-4633-457e-b36a-488e94c1c941` · printing: DMC #29 (2022-09-09) · [rulings](https://api.scryfall.com/cards/dab74812-89c9-42e2-8b9d-bf5b35a7cf7e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-09-09* — Ayesha's power is checked only once, as the triggered ability resolves. If it is no longer on the battlefield at that point, use its power as it last existed on the battlefield.
+  - *2022-09-09* — Each of the artifact cards needs to have mana value less than or equal to Ayesha's Power. It's not the total mana value of all the artifact cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/29/ayesha-tanaka-armorer) · oracle_id `59fcd09c-4633-457e-b36a-488e94c1c941` · printing: DMC #29 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ayli, Eternal Pilgrim
 
@@ -141,6 +150,7 @@
 - **Flavor text** (HML printing):
   > *Serra's gift to her people: a symbol of faith and hope.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27648 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hml/112/aysen-abbey) · oracle_id `6ff85e73-bf7a-4a9c-80ef-6ce76656fab7` · printing: HML #112 (1995-10-01) · [rulings](https://api.scryfall.com/cards/2a2e669b-61b2-4729-b636-094796fb1d93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aysen Bureaucrats
@@ -154,7 +164,9 @@
   > *"I would say that our bureaucrats are no better than vipers—but I shouldn't insult the vipers."*
   > *—Murat, death speaker*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28624 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me2/6/aysen-bureaucrats) · oracle_id `786b2028-cf24-4f00-b1d6-05b94e78d617` · printing: ME2 #6 (2008-09-22) · [rulings](https://api.scryfall.com/cards/194a17ad-8393-44d4-a5d1-a61f9a875573/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — This checks the power of the creature on activation and on resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me2/6/aysen-bureaucrats) · oracle_id `786b2028-cf24-4f00-b1d6-05b94e78d617` · printing: ME2 #6 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aysen Crusader
 
@@ -167,7 +179,9 @@
   > *"A renegade rallying the rabble does not a true crusader make."*
   > *—Irini Sengir*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29465 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me2/7/aysen-crusader) · oracle_id `3ebbe05c-7cc4-4845-87e5-ab93d7ac9623` · printing: ME2 #7 (2008-09-22) · [rulings](https://api.scryfall.com/cards/b865abb2-6bfe-4368-920b-a2c327fa6e43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Aysen Crusader’s ability counts the number of permanents you control that are Soldiers and/or Warriors. A permanent with both creature types is counted only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me2/7/aysen-crusader) · oracle_id `3ebbe05c-7cc4-4845-87e5-ab93d7ac9623` · printing: ME2 #7 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aysen Highway
 
@@ -179,6 +193,7 @@
   > *"Tread the roads of righteousness, Murat, lest you lose your way and be consumed."*
   > *—Baris, Serra Inquisitor*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28304 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hml/5/aysen-highway) · oracle_id `415bc26d-60fb-41ac-8006-7dd861671c14` · printing: HML #5 (1995-10-01) · [rulings](https://api.scryfall.com/cards/adfa87eb-9a11-459c-bff8-87bb09b61b87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ayula, Queen Among Bears
@@ -223,4 +238,6 @@
   > *Before Shinka's walls were built, before the torii at Okina stood, she was there, tall and proud against the sky, and she will be there long after they have fallen into dust.*
 - **Keywords:** Landwalk, Legendary landwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22854 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/sok/122/ayumi-the-last-visitor) · oracle_id `12acd466-deb9-4e68-b75b-aed86680b917` · printing: SOK #122 (2005-06-03) · [rulings](https://api.scryfall.com/cards/f037520e-2a44-4650-b7cb-c81d93d1418d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2005-06-01* — Nonland legendary permanents don’t affect whether Ayumi can be blocked or not, only legendary lands.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sok/122/ayumi-the-last-visitor) · oracle_id `12acd466-deb9-4e68-b75b-aed86680b917` · printing: SOK #122 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

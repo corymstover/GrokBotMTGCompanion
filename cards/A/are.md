@@ -29,7 +29,14 @@
   > As long as two or more hands are touching this creature, it has menace.
   > As long as three or more hands are touching this creature, it has lifelink.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32092 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/87/a-real-handful) · oracle_id `94e675d9-f426-4c36-aade-698967e1ed78` · printing: UNF #87 (2022-10-07) · [rulings](https://api.scryfall.com/cards/ef3e053a-1287-4f4d-b1c2-daf0819c9230/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-10-07* — Bonuses will turn on and off as the number of hands touching A Real Handful changes. Touching A Real Handful isn’t a game action, so it doesn’t use the stack. You can just do it at any time.
+  - *2022-10-07* — Generally, only hands attached to humans count for these abilities. Hands of cards don’t count, nor do hands of clocks, hands of dolls, and so on. Every hand that touches A Real Handful must do so willingly.
+  - *2022-10-07* — Lifelink matters only as damage is dealt.
+  - *2022-10-07* — Menace matters only as blockers are being declared. If A Real Handful doesn’t have menace and is blocked by one creature, giving it menace won’t change or undo that block.
+  - *2022-10-07* — Pay attention to whether the +2/+2 bonus is applying or not. Damage can suddenly become lethal if A Real Handful loses the bonus after damage has been dealt to it.
+  - *2022-10-07* — The same hand can be touching multiple A Real Handfuls at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/87/a-real-handful) · oracle_id `94e675d9-f426-4c36-aade-698967e1ed78` · printing: UNF #87 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### A Realm Reborn
 
@@ -69,7 +76,12 @@
   > *The Iroan Games award no medals. Athletes vie for a visit from Iroas, god of victory.*
 - **Keywords:** Heroic
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24702 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/123/arena-athlete) · oracle_id `4dfea3bf-dfd1-4abd-a17e-f3a07488a069` · printing: UMA #123 (2018-12-07) · [rulings](https://api.scryfall.com/cards/bacc2881-26b8-4199-9b7d-e12c75effe6e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-09-15* — Heroic abilities will resolve before the spell that caused them to trigger.
+  - *2013-09-15* — Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times.
+  - *2013-09-15* — Heroic abilities won't trigger when a copy of a spell is created on the stack or when a spell's targets are changed to include a creature with a heroic ability.
+  - *2018-12-07* — Resolving Arena Athlete's ability after a creature has blocked won't remove the blocking creature from combat or cause the creature it blocked to become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/123/arena-athlete) · oracle_id `4dfea3bf-dfd1-4abd-a17e-f3a07488a069` · printing: UMA #123 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arena of Glory
 
@@ -100,6 +112,7 @@
   > Legendary creatures don't untap during their controllers' untap steps.
   > When this artifact enters, tap all legendary creatures.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18940 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/188/arena-of-the-ancients) · oracle_id `12584f75-77c1-4b6b-ae9d-1882792b6b94` · printing: ME3 #188 (2009-09-07) · [rulings](https://api.scryfall.com/cards/68ebdcc2-4449-4b10-82fb-51f5e14eab37/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arena Rector
@@ -126,7 +139,12 @@
 - **Flavor text** (THB printing):
   > *"It's not enough to surprise your opponent. You have to delight the crowd as well."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27878 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/126/arena-trickster) · oracle_id `69c27223-d676-4916-899b-297dc4ed2d59` · printing: THB #126 (2020-01-24) · [rulings](https://api.scryfall.com/cards/e096049d-9f02-4abb-bb5a-97b14fd17099/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-01-24* — An ability that triggers when you cast a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2020-01-24* — If you have more than one opponent, this ability can trigger once during each of those opponents’ turns.
+  - *2020-01-24* — In a Two-Headed Giant game, this ability triggers no more than once during each opposing team’s turn.
+  - *2020-01-24* — This ability triggers only on your very first spell during an opponent’s turn, not the first spell after the card is on the battlefield. If you cast a spell before it’s on the battlefield (including if you cast this card somehow during an opponent’s turn), the ability won’t trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/126/arena-trickster) · oracle_id `69c27223-d676-4916-899b-297dc4ed2d59` · printing: THB #126 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arenson's Aura
 
@@ -139,6 +157,7 @@
   > *"Cloak me in mystery, hide my names from my enemies, and let me draw from the well of power."*
   > *—Halvor Arenson, Kjeldoran priest*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26626 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5ed/6/arensons-aura) · oracle_id `465843dc-57d0-46fd-ac47-238723034563` · printing: 5ED #6 (1997-03-24) · [rulings](https://api.scryfall.com/cards/ba2bf14c-f04d-4380-b0d5-25028ddd999b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ares, God of War
@@ -152,4 +171,5 @@
 - **Flavor text** (MSH printing):
   > *"Let the slaughter begin!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10598 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/202/ares-god-of-war) · oracle_id `8a09d4a2-4796-4a15-ab75-a3a0b717f62d` · printing: MSH #202 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3e121d65-d341-40b9-bebc-1e7d1b83905c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

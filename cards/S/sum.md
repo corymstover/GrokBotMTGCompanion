@@ -65,7 +65,17 @@
   > Myriad (Whenever this creature attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)
 - **Keywords:** Myriad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19086 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/45/sumala-rumblers) · oracle_id `09189f67-b33f-4775-bfd5-862154da7526` · printing: CLU #45 (2024-02-23) · [rulings](https://api.scryfall.com/cards/314e1434-61a8-4587-812e-720a92493fb3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-02-02* — Although the tokens enter the battlefield attacking, they were never declared as attackers. Abilities that trigger whenever a creature attacks won't trigger, including the myriad ability of the tokens. If there are any costs to have a creature attack, those costs won't apply to the tokens.
+  - *2024-02-02* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities of the copied creature will also work.
+  - *2024-02-02* — Each token copies exactly what was printed on the original creature and nothing else. It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2024-02-02* — If myriad creates more than one token for any given player (due to an effect such as the one Doubling Season creates), you may choose separately for each token whether it's attacking the player or a planeswalker they control.
+  - *2024-02-02* — If the defending player is your only opponent, no tokens are put onto the battlefield.
+  - *2024-02-02* — The ability that defines Sumala Rumblers's power works in all zones, not just the battlefield.
+  - *2024-02-02* — The term "defending player" in the myriad rules (or any other ability of an attacking creature) refers to the player the creature with myriad was attacking at the time it became an attacking creature this combat, the controller of the planeswalker the creature was attacking at the time it became an attacking creature this combat, or the protector of the battle this creature was attacking at the time it became an attacking creature this combat.
+  - *2024-02-02* — The token creatures all enter the battlefield at the same time.
+  - *2024-02-02* — You choose whether each token is attacking the player or a planeswalker they control as the token is created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/45/sumala-rumblers) · oracle_id `09189f67-b33f-4775-bfd5-862154da7526` · printing: CLU #45 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sumala Sentry
 
@@ -79,7 +89,9 @@
   > *The great meditation garden of Sumala was no place for Ravnica's rising crime wave, and he would keep it that way.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23644 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/233/sumala-sentry) · oracle_id `6b869c33-a77c-4eb7-9df9-9815d70f7444` · printing: MKM #233 (2024-02-09) · [rulings](https://api.scryfall.com/cards/3b9d4691-59d1-4e97-9b5d-8017788fbcb3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-02-02* — If the permanent that was turned face up is no longer on the battlefield when Sumala Sentry's triggered ability resolves, you'll still put a +1/+1 counter on Sumala Sentry. Similarly, if Sumala Sentry is no longer on the battlefield, you'll still put a +1/+1 counter on the permanent that turned face up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/233/sumala-sentry) · oracle_id `6b869c33-a77c-4eb7-9df9-9815d70f7444` · printing: MKM #233 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sumala Woodshaper
 
@@ -89,6 +101,7 @@
 - **Oracle text:**
   > When this creature enters, look at the top four cards of your library. You may reveal a creature or enchantment card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24553 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/200/sumala-woodshaper) · oracle_id `5a44062b-f1db-4122-8570-1241a16cb895` · printing: GRN #200 (2018-10-05) · [rulings](https://api.scryfall.com/cards/8c4e427e-c061-43c5-9e8e-34bf5b447ab1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summary Dismissal
@@ -116,7 +129,10 @@
   > *Any challenge to Azorius authority is met with swift and potent retribution.*
 - **Keywords:** Addendum
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25035 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/27/summary-judgment) · oracle_id `ae198ce9-097b-4204-b599-12bdb36f5195` · printing: RVR #27 (2024-01-12) · [rulings](https://api.scryfall.com/cards/84628a1e-17d4-4037-9b53-6ac123746ed7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-01-12* — Addendum abilities of instant spells apply while the spell is resolving, not immediately after casting it. If the spell is countered, you don't get the addendum bonus.
+  - *2024-01-12* — If an effect copies a spell with an addendum ability while it's on the stack, the copy wasn't cast at all, so you won't get the addendum bonus.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/27/summary-judgment) · oracle_id `ae198ce9-097b-4204-b599-12bdb36f5195` · printing: RVR #27 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summer Bloom
 
@@ -142,7 +158,9 @@
   > *"If you climb Skyfang Peak, avoid the pass. Generations of apes made that trail, and they don't tolerate trespassers."*
   > *—Sachir, Akoum Expeditionary House*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13137 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/114/summit-apes) · oracle_id `01799149-4bca-417b-9e89-14493fd46c79` · printing: WWK #114 (2010-02-05) · [rulings](https://api.scryfall.com/cards/367e7821-44f1-4064-a9a3-d9852c7c235c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2010-03-01* — Whether you control a Mountain matters only as the defending player declares blockers. Once it’s blocked, gaining or losing control of a Mountain won’t affect Summit Apes’s blockers.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/114/summit-apes) · oracle_id `01799149-4bca-417b-9e89-14493fd46c79` · printing: WWK #114 (2010-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summit Intimidator
 
@@ -157,6 +175,7 @@
   > *—Nitula, Temur hunter*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25026 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/125/summit-intimidator) · oracle_id `b772d35a-d365-47ce-b1dd-a2ba574c74ea` · printing: TDM #125 (2025-04-11) · [rulings](https://api.scryfall.com/cards/e3cba0b1-7c22-4e51-b9cf-5bf01e67a222/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summit Prowler
@@ -170,6 +189,7 @@
   > *"Do you not hunt the yetis of the high peaks, stripling? Their meat is as tender as a bear's and their blood as warming as fire. They are prey that will please Atarka."*
   > *—Surrak, the Hunt Caller*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30870 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/160/summit-prowler) · oracle_id `c63a9a3d-13df-4a94-a8e1-18071c351a8d` · printing: DTK #160 (2015-03-27) · [rulings](https://api.scryfall.com/cards/eec9005d-eca8-45a6-b221-9d5a2cfb1e91/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summit Sentinel
@@ -182,6 +202,7 @@
 - **Flavor text** (ECL printing):
   > *No visitors make the ascent of Mount Tanufel without catching the eye of its rimekin guardians.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21617 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/73/summit-sentinel) · oracle_id `e7b88da3-7dd1-45f8-b555-98ad838b2917` · printing: ECL #73 (2026-01-23) · [rulings](https://api.scryfall.com/cards/81251057-f270-4f05-9dc5-205c70e1f295/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Anima
@@ -296,6 +317,7 @@
   > *The camel had traveled this route so often in life that its spirit began moving as soon as the mage finished the summoning.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24053 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/37/summoned-dromedary) · oracle_id `697b14c6-fe6a-4880-9cf2-b6602a52ca0b` · printing: SOS #37 (2026-04-24) · [rulings](https://api.scryfall.com/cards/44d0277c-ca82-4334-a15a-cd67a9db0d02/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summoner's Bane
@@ -308,7 +330,10 @@
   > *"I don't need to have the perfect plan. My foe just has to have an imperfect one."*
   > *—Jace Beleren*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23664 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddm/31/summoners-bane) · oracle_id `b9b0c209-e346-45ee-a272-0b53589c21df` · printing: DDM #31 (2014-03-14) · [rulings](https://api.scryfall.com/cards/54a9a782-3479-41cd-9c4f-fa38bfad98c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-10-01* — If the targeted spell is an illegal target by the time Summoner’s Bane resolves, the entire spell doesn’t resolve. You won’t get a creature token.
+  - *2009-10-01* — You get the token creature, not the controller of the creature spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddm/31/summoners-bane) · oracle_id `b9b0c209-e346-45ee-a272-0b53589c21df` · printing: DDM #31 (2014-03-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summoner's Bond
 
@@ -349,7 +374,11 @@
   > When this creature dies, turn the exiled card face up. If it's a creature card, put it onto the battlefield under your control.
 - **Keywords:** Imprint
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15858 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/157/summoners-egg) · oracle_id `2209ebd4-1131-4b8e-b0f5-aa9506dc0057` · printing: 5DN #157 (2004-06-04) · [rulings](https://api.scryfall.com/cards/3581ac02-5dab-423a-9cf3-275d9203f26d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-12-01* — Any “When this creature is turned face up” abilities that the exiled card may have don’t trigger because the card isn’t being turned face up while it’s on the battlefield.
+  - *2004-12-01* — If the card is not a creature card when it’s turned face up, it remains exiled face up.
+  - *2004-12-01* — The card is imprinted face down. This means that other players don’t know what the card is and you can’t look at the card once it’s imprinted (until it’s turned face up, of course). Note that effects that exile cards, including all previous imprint cards, exile those cards face up unless the effect says otherwise.
+- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/157/summoners-egg) · oracle_id `2209ebd4-1131-4b8e-b0f5-aa9506dc0057` · printing: 5DN #157 (2004-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summoner's Grimoire
 
@@ -406,7 +435,18 @@
 - **Flavor text** (FIN printing):
   > *"I am Ramuh—the esper."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10137 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/161/summon:-esper-ramuh) · oracle_id `0d054301-8465-4a4c-91e7-9a28dda92e57` · printing: FIN #161 (2025-06-13) · [rulings](https://api.scryfall.com/cards/840659ee-1493-4190-a514-c2c9ae14e331/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2025-06-06* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won't trigger again.
+  - *2025-06-06* — As a Saga enters, its controller puts a lore counter on it. As your first main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2025-06-06* — Due to a rules change that takes effect with this release (see below for details), a Saga that somehow loses all of its chapter abilities will not be sacrificed as a state-based action. It will also not gain a lore counter at the beginning of each of its controller's first main phases.
+  - *2025-06-06* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2025-06-06* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2025-06-06* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2025-06-06* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+  - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
+  - *2025-06-06* — Use the number of noncreature, nonland cards in your graveyard as Summon: Esper Ramuh's first chapter ability resolves to determine how much damage is dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/161/summon:-esper-ramuh) · oracle_id `0d054301-8465-4a4c-91e7-9a28dda92e57` · printing: FIN #161 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Esper Valigarmanda
 
@@ -596,6 +636,7 @@
   > {T}: Create a 2/2 colorless Pincher creature token.
   > Whenever an artifact is put into a graveyard from the battlefield, you may untap this artifact.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12357 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/158/summoning-station) · oracle_id `01bba3b8-6372-437e-ab34-ae2c8105cd28` · printing: 5DN #158 (2004-06-04) · [rulings](https://api.scryfall.com/cards/c8072944-268a-41e0-a1d8-9fe33e964bff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summoning Trap
@@ -606,7 +647,12 @@
   > If a creature spell you cast this turn was countered by a spell or ability an opponent controlled, you may pay {0} rather than pay this spell's mana cost.
   > Look at the top seven cards of your library. You may put a creature card from among them onto the battlefield. Put the rest on the bottom of your library in any order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18052 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/139/summoning-trap) · oracle_id `2faa8dc1-0370-458c-9aef-44f81a9b5cd5` · printing: MM3 #139 (2017-03-17) · [rulings](https://api.scryfall.com/cards/55b71fb4-27ea-4846-87e4-efd2190faf36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2009-10-01* — Casting a Trap by paying its alternative cost doesn't change its mana cost or mana value. The only difference is the cost you actually pay.
+  - *2009-10-01* — Effects that increase or reduce the cost to cast a Trap will apply to whichever cost you chose to pay.
+  - *2009-10-01* — If there are seven or fewer cards in your library, you'll look at all of them.
+  - *2009-10-01* — You may ignore a Trap's alternative cost condition and simply cast it for its normal mana cost. This is true even if its alternative cost condition has been met.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/139/summoning-trap) · oracle_id `2faa8dc1-0370-458c-9aef-44f81a9b5cd5` · printing: MM3 #139 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Ixion
 
@@ -849,7 +895,11 @@
 - **Oracle text:**
   > Open a sealed Magic booster pack, reveal the cards, and put all creature cards revealed this way onto the battlefield under your control. They're Zombies in addition to their other types. (Remove those cards from your deck before beginning a new game.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/74/summon-the-pack) · oracle_id `5e1e6057-9779-469b-b150-eb7f4215f3ca` · printing: UST #74 (2017-12-08) · [rulings](https://api.scryfall.com/cards/cd66d5bb-a0cc-48fa-9d98-4195debc188a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-01-19* — You can use any unopened, official Magic booster pack, including promotional booster packs.
+  - *2018-01-19* — You must put all the creature cards revealed this way onto the battlefield.
+  - *2018-01-19* — You own creatures put onto the battlefield this way. If they die, they’ll go to your graveyard. They can be returned to your hand, shuffled into your library, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/74/summon-the-pack) · oracle_id `5e1e6057-9779-469b-b150-eb7f4215f3ca` · printing: UST #74 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon the School
 
@@ -862,7 +912,11 @@
   > *"When merrows talk, listeners grow fins."*
   > *—Kithkin saying*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19389 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/42/summon-the-school) · oracle_id `00909d51-3da8-41eb-a535-0c325fedc59f` · printing: LRW #42 (2007-10-12) · [rulings](https://api.scryfall.com/cards/13a4c124-216b-44b1-b49a-3db3f033e4cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
+  - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
+  - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/42/summon-the-school) · oracle_id `00909d51-3da8-41eb-a535-0c325fedc59f` · printing: LRW #42 (2007-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Titan
 
@@ -900,7 +954,11 @@
   > *The air itself shuddered at the wizard's words, and from the dark beyond, her call was answered.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14501 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/151/summon-undead) · oracle_id `c86ff0e3-5d6e-4981-a2da-8da70b9daeb0` · printing: CLB #151 (2022-06-10) · [rulings](https://api.scryfall.com/cards/278f7705-01a4-4baf-929b-b93e538a8d77/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-06-10* — If you have fewer than three cards in your library, you can't choose to mill any cards this way.
+  - *2022-06-10* — You can return a creature card that you milled or one that was already in your graveyard.
+  - *2022-06-10* — You return a creature card if there is one to return, even if you chose not to mill three cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/151/summon-undead) · oracle_id `c86ff0e3-5d6e-4981-a2da-8da70b9daeb0` · printing: CLB #151 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Valefor
 

@@ -40,6 +40,7 @@
   > Echo {1}{R}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
 - **Keywords:** Landwalk, Mountainwalk, Echo
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31650 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/227/vug-lizard) · oracle_id `ac9ec838-fbad-4f01-846b-3084e1d37a44` · printing: USG #227 (1998-10-12) · [rulings](https://api.scryfall.com/cards/39bbb1f6-f3c4-4e11-bb71-91ea31797d1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vulpikeet
@@ -53,6 +54,7 @@
   > Whenever this creature mutates, put a +1/+1 counter on it.
 - **Keywords:** Flying, Mutate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13034 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/37/vulpikeet) · oracle_id `11d0c8a4-1dd0-4707-9c1d-19ed27d1934e` · printing: IKO #37 (2020-04-24) · [rulings](https://api.scryfall.com/cards/07bce816-3d18-4ca1-b88f-7307ec7c345d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vulpine Goliath
@@ -67,6 +69,7 @@
   > *—Corisande, Setessan hunter*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23990 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/183/vulpine-goliath) · oracle_id `e4c96980-31ed-494e-89db-c0a0f1fd23fd` · printing: THS #183 (2013-09-27) · [rulings](https://api.scryfall.com/cards/cdacb147-35ce-4751-961e-576b5f958048/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vulpine Harvester
@@ -93,6 +96,7 @@
   > Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21499 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/418/vulshok-battlegear) · oracle_id `708df587-3b13-42cb-8341-f476ab4cbe45` · printing: CMM #418 (2023-08-04) · [rulings](https://api.scryfall.com/cards/8363acf3-eff9-4f57-8b8a-683256d279e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vulshok Battlemaster
@@ -107,7 +111,11 @@
   > *"I could demonstrate how the leonin sunsplicer works, but then you'd be too dead to buy one."*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21961 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mrd/110/vulshok-battlemaster) · oracle_id `cf01312d-305a-4587-8f54-03ee471bdf8c` · printing: MRD #110 (2003-10-02) · [rulings](https://api.scryfall.com/cards/083f3b83-b7d3-472f-87b2-ed247c9c937e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-12-01* — If an Equipment can't equip Vulshok Battlemaster, it isn't attached to the Battlemaster, and it doesn't become unattached (if it's attached to a creature).
+  - *2004-12-01* — Other players' Equipment is moved onto the Battlemaster as well as your own. This doesn't change who controls the Equipment or who can activate its equip ability to move it onto another creature.
+  - *2004-12-01* — The "enters" effect moves all Equipment onto the Battlemaster, regardless of whether that Equipment was attached to other creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mrd/110/vulshok-battlemaster) · oracle_id `cf01312d-305a-4587-8f54-03ee471bdf8c` · printing: MRD #110 (2003-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vulshok Berserker
 
@@ -120,6 +128,7 @@
   > *He experiences every emotion with passion and repays every slight with vengeance.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31313 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddi/53/vulshok-berserker) · oracle_id `694f7e51-7b8b-4f00-bd77-a52eded4aaa1` · printing: DDI #53 (2012-03-30) · [rulings](https://api.scryfall.com/cards/1dd6e25f-e58e-4ff8-83f3-b01d5f783632/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vulshok Factory
@@ -130,6 +139,7 @@
   > {T}: Add {R}. Put a charge counter on this artifact.
   > {2}{R}, {T}, Sacrifice this artifact: Create an X/X colorless Golem artifact creature token with haste, where X is the number of charge counters on Vulshok Factory. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15925 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/onc/16/vulshok-factory) · oracle_id `c5b0d98b-9743-488e-a3be-07043d6ad78a` · printing: ONC #16 (2023-02-10) · [rulings](https://api.scryfall.com/cards/b1c40dd7-6839-49ae-9901-443fd5748877/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vulshok Gauntlets
@@ -141,6 +151,7 @@
   > Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25336 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/305/vulshok-gauntlets) · oracle_id `e8b1672c-e5b1-41e7-9f34-c822f1587369` · printing: 2XM #305 (2020-08-07) · [rulings](https://api.scryfall.com/cards/7318db50-1b78-4cc0-954b-9798af26a633/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vulshok Heartstoker
@@ -153,6 +164,7 @@
 - **Flavor text** (SOM printing):
   > *He fashions stirring words with as much passion as a smith fashioning a warhammer.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31867 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/107/vulshok-heartstoker) · oracle_id `0d996788-7193-45cd-bc6d-0f470521d1ca` · printing: SOM #107 (2010-10-01) · [rulings](https://api.scryfall.com/cards/9d3152bc-5c59-4e98-95de-a51de05a3c98/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vulshok Morningstar
@@ -164,6 +176,7 @@
   > Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24500 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddi/66/vulshok-morningstar) · oracle_id `12a8adc4-927f-4314-b2ef-9c647ace68d5` · printing: DDI #66 (2012-03-30) · [rulings](https://api.scryfall.com/cards/033aa2cd-531c-4594-a7eb-b3cbeb2c5a3c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vulshok Refugee
@@ -177,6 +190,7 @@
   > *"I will carve my people's vengeance on the face of Phyrexia."*
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31453 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nph/101/vulshok-refugee) · oracle_id `7220769a-9d63-4211-9365-9feaf4d9a518` · printing: NPH #101 (2011-05-13) · [rulings](https://api.scryfall.com/cards/0b1615ec-21b3-4575-8b02-fd2bccb930ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vulshok Replica
@@ -189,6 +203,7 @@
 - **Flavor text** (SOM printing):
   > *All the fury of the Vulshok with only a trace of their recklessness.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31352 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/221/vulshok-replica) · oracle_id `da8e2236-88ae-4f30-884b-b961231fba8f` · printing: SOM #221 (2010-10-01) · [rulings](https://api.scryfall.com/cards/32885a6c-b293-405f-9f2e-9e0dd7d1cb8c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vulshok Sorcerer
@@ -203,6 +218,7 @@
   > *Vulshok sorcerers train by leaping into electrified storm clouds. Dead or alive, they come back down with smiles on their faces.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13223 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddi/50/vulshok-sorcerer) · oracle_id `6f858405-dfe4-4ca2-b2e3-80ce8cda5522` · printing: DDI #50 (2012-03-30) · [rulings](https://api.scryfall.com/cards/b7153854-c548-48de-b9e2-72b7d9397563/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vulshok Splitter
@@ -218,7 +234,11 @@
   > *—Nahiri*
 - **Keywords:** For Mirrodin!, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17641 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/156/vulshok-splitter) · oracle_id `6253f9d4-83ff-4a0b-b465-e9f9a565f664` · printing: ONE #156 (2023-02-10) · [rulings](https://api.scryfall.com/cards/f05078dd-b928-4b3f-9636-f299ebac180b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-02-04* — If the Rebel is destroyed, the Equipment stays on the battlefield. Similarly, you may pay its equip cost to move it from the Rebel token to another creature you control.
+  - *2023-02-04* — If the ability causes two Rebel tokens to be created (due to an effect such as that of Mondrak, Glory Dominus), the Equipment becomes attached to only one of them.
+  - *2023-02-04* — The Rebel enters the battlefield as a 2/2 creature, then the Equipment becomes attached to it. Abilities that trigger when a creature enters the battlefield see that a 2/2 creature entered the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/156/vulshok-splitter) · oracle_id `6253f9d4-83ff-4a0b-b465-e9f9a565f664` · printing: ONE #156 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vulshok War Boar
 
@@ -230,6 +250,7 @@
 - **Flavor text** (DST printing):
   > *It must eat its weight in metal daily, or its furnacelike belly will consume itself for lack of fuel.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31669 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dst/72/vulshok-war-boar) · oracle_id `4641e86f-5370-4b25-bd76-07bea856c032` · printing: DST #72 (2004-02-06) · [rulings](https://api.scryfall.com/cards/bb6b232a-834c-4c9a-bf36-821d125dc318/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vulture, Feathered Fiend
@@ -244,6 +265,7 @@
   > *"A simple plan. If you can fly."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19223 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/645/vulture-feathered-fiend) · oracle_id `c598d97f-fec6-4238-8eed-8051e9541d31` · printing: MSC #645 (2026-06-26) · [rulings](https://api.scryfall.com/cards/af3951cc-c3af-4064-9354-af14c3273613/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vulture, Scheming Scavenger
@@ -258,6 +280,7 @@
   > *"For all that web-slinging, Spider-Man, you seldom look up."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14103 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/158/vulture-scheming-scavenger) · oracle_id `0409765a-bbb4-465e-99b3-3687bffc3cf9` · printing: SPM #158 (2025-09-26) · [rulings](https://api.scryfall.com/cards/e29281be-e722-4149-93a0-6dd3f0f64253/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vulturous Aven
@@ -271,7 +294,13 @@
   > When this creature exploits a creature, you draw two cards and you lose 2 life.
 - **Keywords:** Flying, Exploit
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22287 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/126/vulturous-aven) · oracle_id `83c0c648-f000-470d-bcc3-9ec81257d0cd` · printing: DTK #126 (2015-03-27) · [rulings](https://api.scryfall.com/cards/b2fb0cc9-aebd-4bbf-8735-add3b753c118/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2015-02-25* — A creature with exploit “exploits a creature” when the controller of the exploit ability sacrifices a creature as that ability resolves.
+  - *2015-02-25* — If the creature with exploit isn’t on the battlefield as the exploit ability resolves, you won’t get any bonus from the creature with exploit, even if you sacrifice a creature. Because the creature with exploit isn’t on the battlefield, its other triggered ability won’t trigger.
+  - *2015-02-25* — You can sacrifice the creature with exploit if it’s still on the battlefield. This will cause its other ability to trigger.
+  - *2015-02-25* — You can’t sacrifice more than one creature to any one exploit ability.
+  - *2015-02-25* — You choose whether to sacrifice a creature and which creature to sacrifice as the exploit ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/126/vulturous-aven) · oracle_id `83c0c648-f000-470d-bcc3-9ec81257d0cd` · printing: DTK #126 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vulturous Zombie
 
@@ -286,7 +315,10 @@
   > *—Ezoc, Golgari rot farmer*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16727 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/170/vulturous-zombie) · oracle_id `11a28f60-2456-4ed5-b1cc-03c395f55e59` · printing: CM2 #170 (2018-06-08) · [rulings](https://api.scryfall.com/cards/7f562c38-3c53-4dc6-9816-6e4be3355e2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2005-10-01* — The ability doesn’t care why a card goes to your opponent’s graveyard — only that it does. The ability triggers when a card is put into your opponent’s graveyard from the stack (a spell resolves, fails to resolve, or is countered), from the battlefield (a permanent is destroyed or sacrificed), from the player’s hand (a card is discarded), from the player’s library (from a Millstone-like effect), or from any other zone.
+  - *2005-10-01* — This ability triggers only on cards, so it won’t trigger when a token is put into your opponent’s graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/170/vulturous-zombie) · oracle_id `11a28f60-2456-4ed5-b1cc-03c395f55e59` · printing: CM2 #170 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vuzzle Spaceship
 
@@ -298,4 +330,9 @@
   > Thrusters [6] → Flying
   > Lasers [3] → Whenever Vuzzle Spaceship attacks, it deals 1 damage to any target.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/569/vuzzle-spaceship) · oracle_id `e2470cf2-7640-416d-a7b6-c6c272803212` · printing: MB2 #569 (2024-08-02) · [rulings](https://api.scryfall.com/cards/a08483e0-7b75-4141-8707-57e22438168d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — If Vuzzle Spaceship is blocking a creature with flying, causing it to lose flying by removing counters from it won’t stop it from blocking. Similarly, once Vuzzle Spaceship’s “Lasers” ability is on the stack, removing counters from it to cause it to lose that ability won’t affect the ability on the stack.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/569/vuzzle-spaceship) · oracle_id `e2470cf2-7640-416d-a7b6-c6c272803212` · printing: MB2 #569 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

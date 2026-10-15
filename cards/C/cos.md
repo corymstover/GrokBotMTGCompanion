@@ -74,7 +74,11 @@
   > *—Zakken, Enclave cleric*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16953 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddi/52/cosis-ravager) · oracle_id `1253de62-6218-401c-9d98-a5ec8617e0d8` · printing: DDI #52 (2012-03-30) · [rulings](https://api.scryfall.com/cards/cab3f6db-862f-4d85-9879-6f1b74e67a6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddi/52/cosis-ravager) · oracle_id `1253de62-6218-401c-9d98-a5ec8617e0d8` · printing: DDI #52 (2012-03-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cosi's Trickster
 
@@ -86,7 +90,11 @@
 - **Flavor text** (ZEN printing):
   > *She watches the chaos created by the Roil, seeking strength in the patterns of anarchy.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15502 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/zen/45/cosis-trickster) · oracle_id `372633d9-ac74-4630-a1ae-a1906bb2aed0` · printing: ZEN #45 (2009-10-02) · [rulings](https://api.scryfall.com/cards/e1eb7372-481a-44a6-937d-21430ee02ff9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2009-10-01* — Cosi’s Trickster’s ability triggers when an opponent shuffles their library because that player was instructed to do so by a spell or ability that specifically contains the word “shuffle” in its text or (in the case of a keyword ability) in its rules.
+  - *2009-10-01* — If an opponent’s library is empty or has just a single card in it when a spell or ability instructs that player to shuffle their library, Cosi’s Trickster’s ability will still trigger.
+  - *2009-10-01* — The cascade ability doesn’t cause a player to shuffle their library, even if that player revealed their entire library. The revealed cards are put on the bottom of their owner’s library in a random order, but they’re not “shuffled.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/zen/45/cosis-trickster) · oracle_id `372633d9-ac74-4630-a1ae-a1906bb2aed0` · printing: ZEN #45 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cosmic Crucible
 
@@ -98,6 +106,7 @@
 - **Flavor text** (MSC printing):
   > *"We ignored the risks and the cosmic rays tore through our ship. That's how it all began."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14212 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/79/cosmic-crucible) · oracle_id `2469c0b7-a045-4733-bf53-28f3fdbe3797` · printing: MSC #79 (2026-06-26) · [rulings](https://api.scryfall.com/cards/7436364b-5604-44c8-b539-9b7c3221ccdf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cosmic Cube
@@ -122,7 +131,9 @@
   > *"All knowledge, past and future, is etched upon reality. Every answer we seek is out there, hidden only by the limits of our minds."*
   > *—Jodah*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15264 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/283/cosmic-epiphany) · oracle_id `fad32e19-2eda-46b7-8d3c-b95a7dbeabc2` · printing: DMU #283 (2022-09-09) · [rulings](https://api.scryfall.com/cards/79718dbe-d5d6-4f24-b514-5c392963f021/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-09-09* — Cosmic Epiphany is still resolving at the time that the instant and sorcery cards in your graveyard are counted, so it isn’t in your graveyard yet and won’t be counted.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/283/cosmic-epiphany) · oracle_id `fad32e19-2eda-46b7-8d3c-b95a7dbeabc2` · printing: DMU #283 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cosmic Horror
 
@@ -137,7 +148,9 @@
   > *—Alexander Pope, The Rape of the Lock*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28676 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/61/cosmic-horror) · oracle_id `d73df13d-942a-4104-ac9d-de7c100c086f` · printing: ME3 #61 (2009-09-07) · [rulings](https://api.scryfall.com/cards/64288873-d3bf-49f6-b0e4-a1e712f8ba58/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-07-01* — If you choose not to pay Cosmic Horror’s upkeep cost, it deals 7 damage to you only if it’s actually destroyed. If it regenerates or an effect has given it indestructible, it deals no damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/61/cosmic-horror) · oracle_id `d73df13d-942a-4104-ac9d-de7c100c086f` · printing: ME3 #61 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cosmic Hunger
 
@@ -183,6 +196,7 @@
   > *For millennia they wandered from plane to plane, devouring all metal. Finally, their wanderings are over.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19771 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/63/cosmic-larva) · oracle_id `97428d25-d850-4a98-8852-9440e06a9091` · printing: 5DN #63 (2004-06-04) · [rulings](https://api.scryfall.com/cards/deaa0b9b-258e-4daf-8fec-ce64864d6bbf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cosmic Rebirth
@@ -224,6 +238,7 @@
 - **Flavor text** (LCI printing):
   > *Cosmium is the tangible essence of Chimil's power. The Oltec's cosmium-laced tattoos ensure that power can be called upon when needed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21059 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/7/cosmium-blast) · oracle_id `52c96b5a-ce47-4bde-b530-0033b9bfd808` · printing: LCI #7 (2023-11-17) · [rulings](https://api.scryfall.com/cards/193d1eac-ede7-4f75-9c74-05133b215f93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cosmium Confluence
@@ -236,7 +251,16 @@
   > • Put three +1/+1 counters on a Cave you control. It becomes a 0/0 Elemental creature with haste. It's still a land.
   > • Destroy target enchantment.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15830 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/181/cosmium-confluence) · oracle_id `798aaf78-16d9-474b-a963-f5e9c39aae6e` · printing: LCI #181 (2023-11-17) · [rulings](https://api.scryfall.com/cards/490a5054-0607-4e4a-a0a9-0e9eea7adb00/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-11-10* — If a Confluence is copied, the effect that creates the copy will usually allow you to choose new targets, but you can't choose new modes.
+  - *2023-11-10* — If a mode requires a target, you can select that mode only if there's a legal target available. Ignore the targeting requirements for modes you don't choose. Each time you select that mode, you can choose a different target, or you can choose the same target.
+  - *2023-11-10* — If all targets for the chosen modes become illegal before a Confluence resolves, the spell will be countered and none of its effects will happen. If at least one target is still legal, the spell will resolve but will have no effect on any illegal targets.
+  - *2023-11-10* — If the same mode is chosen more than once, you choose their relative order as you cast the spell. For example, if you choose the last mode of Cosmium Confluence more than once, you choose the relative order to destroy the target enchantments.
+  - *2023-11-10* — No matter which combination of modes you choose, you always follow the instructions in the order they are written.
+  - *2023-11-10* — No player can cast spells or activate abilities in between the modes of a resolving spell. Any abilities that trigger won't be put onto the stack until a spell is done resolving.
+  - *2023-11-10* — Notably, the second mode doesn't require any targets. You choose the Cave you control that will be affected as Cosmium Confluence is resolving. You may choose a Cave you just put onto the battlefield with the first mode, if applicable.
+  - *2023-11-10* — You choose the modes as you cast the spell. Once modes are chosen, they can't be changed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/181/cosmium-confluence) · oracle_id `798aaf78-16d9-474b-a963-f5e9c39aae6e` · printing: LCI #181 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cosmogoyf
 
@@ -250,7 +274,9 @@
   > *>Recommended Action: RUN*
   > *—PSS \*Erix\* shipboard computer, final transmission*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15392 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/215/cosmogoyf) · oracle_id `99d8c5f9-ad8f-450e-9a7c-51a4c0ca5043` · printing: EOE #215 (2025-08-01) · [rulings](https://api.scryfall.com/cards/5e07d3c6-60a5-44d1-a926-6414be85bd50/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-07-25* — The ability that defines Cosmogoyf’s power and toughness works in all zones, not just the battlefield. If Cosmogoyf is in exile, its ability will count itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/215/cosmogoyf) · oracle_id `99d8c5f9-ad8f-450e-9a7c-51a4c0ca5043` · printing: EOE #215 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cosmogrand Zenith
 
@@ -281,7 +307,15 @@
   > Foretell {2}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 - **Keywords:** Flying, Flash, Foretell
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12566 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/51/cosmos-charger) · oracle_id `603e518c-8f12-432c-ae03-790db5be77bf` · printing: KHM #51 (2021-02-05) · [rulings](https://api.scryfall.com/cards/4ec318c6-b718-436f-b9e8-e0c6154e5010/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-02-05* — Because exiling a card with foretell from your hand is a special action, you can do so any time you have priority during your turn, including in response to spells and abilities. Once you announce you’re taking the action, no other player can respond by trying to remove the card from your hand.
+  - *2021-02-05* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player’s turn. In most cases, if you foretell a card that isn’t an instant (or doesn’t have flash), you’ll have to wait until your next turn to cast it.
+  - *2021-02-05* — Cosmos Charger’s third ability applies only if it’s on the battlefield. Notably, it doesn’t affect when you can foretell Cosmos Charger itself or how much you pay to do so.
+  - *2021-02-05* — If you control two Cosmos Chargers, you can foretell cards from your hand by paying {0}. Additional Cosmos Chargers won’t affect this cost further.
+  - *2021-02-05* — If you’re casting a foretold card from exile for its foretell cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+  - *2021-02-05* — The cost reduction refers to the cost you pay as you exile the card from your hand face down, not the cost you pay as you cast the spell from exile.
+  - *2021-02-05* — While you control Cosmos Charger, you can foretell cards any time you have priority.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/51/cosmos-charger) · oracle_id `603e518c-8f12-432c-ae03-790db5be77bf` · printing: KHM #51 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cosmos Elixir
 
@@ -305,7 +339,9 @@
 - **Flavor text** (CLU printing):
   > *"This sort of innovation occurs when you set out to improve an electric tea kettle and misplace a decimal."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11399 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/129/cosmotronic-wave) · oracle_id `079ac521-9414-46c1-acd9-2ff2ff047d22` · printing: CLU #129 (2024-02-23) · [rulings](https://api.scryfall.com/cards/ab898473-5e46-489c-97c7-94058f2f6b5d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-10-05* — Because Cosmotronic Wave doesn’t change the characteristics of any permanents, the set of creatures affected by its second effect is constantly updated. Creatures that come under an opponent’s control later in the turn can’t block.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/129/cosmotronic-wave) · oracle_id `079ac521-9414-46c1-acd9-2ff2ff047d22` · printing: CLU #129 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Costly Plunder
 
@@ -332,6 +368,7 @@
   > *"There will be moments when you are exhausted, with nothing left to give. Remember them when you finally succeed."*
   > *—Embrose, dean of shadow*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12424 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/77/cost-of-brilliance) · oracle_id `b45afde2-eaaf-4174-8082-d344efa54c44` · printing: SOS #77 (2026-04-24) · [rulings](https://api.scryfall.com/cards/3a46816b-9f75-4c72-9ec6-cded6a4a0d01/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Costume Closet
@@ -343,7 +380,14 @@
   > {T}: Move a +1/+1 counter from this artifact onto target creature you control. Activate only as a sorcery.
   > Whenever a modified creature you control leaves the battlefield, put a +1/+1 counter on this artifact. (Equipment, Auras you control, and counters are modifications.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10469 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/770/costume-closet) · oracle_id `072d05c4-e0d7-47af-b2a9-16b90810fd30` · printing: MSC #770 (2026-06-26) · [rulings](https://api.scryfall.com/cards/23a623f0-2b7b-4e9b-84e3-9e7406b569c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-09-19* — A creature that is equipped is considered modified no matter who controls the Equipment that's attached to it.
+  - *2025-09-19* — A creature with a counter on it is considered modified no matter what kind of counter it is or which player put it on that creature.
+  - *2025-09-19* — An Aura controlled by an opponent does not cause a creature you control to be modified.
+  - *2025-09-19* — If Costume Closet has left the battlefield or has no +1/+1 counters on it by the time its activated ability resolves, you won't put a +1/+1 counter on the target creature. If the creature becomes an illegal target or can't have a +1/+1 counter put onto it for some other reason, you won't remove a +1/+1 counter from Costume Closet.
+  - *2025-09-19* — Once Costume Closet runs out of +1/+1 counters, it remains on the battlefield. However, activating its second ability won't do anything.
+  - *2025-09-19* — The +1/+1 counters on Costume Closet won't affect it unless it somehow becomes a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/770/costume-closet) · oracle_id `072d05c4-e0d7-47af-b2a9-16b90810fd30` · printing: MSC #770 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Costume Shop
 
@@ -354,4 +398,5 @@
 - **Flavor text** (UNF printing):
   > *Outfits you'll love at prices you'll tolerate.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32340 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/206a/costume-shop) · oracle_id `24c52448-03f2-43cd-9172-487384baeb18` · printing: UNF #206a (2022-10-07) · [rulings](https://api.scryfall.com/cards/c81dd9df-0eeb-42fd-8dd0-fd7f154954e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

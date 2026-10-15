@@ -33,7 +33,10 @@
 - **Flavor text** (FIN printing):
   > *"Pshhh... Shhhilence, shhhorewalker! Try to eshhhcape, and I'll shhhlice gills into your neck!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17567 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/71/sahagin) · oracle_id `24310f49-2156-4c0d-b3b1-40ca3182474f` · printing: FIN #71 (2025-06-13) · [rulings](https://api.scryfall.com/cards/516940c7-c271-4f64-af75-c7ba98548382/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-06-06* — Once Sahagin has been blocked, casting a noncreature spell in order to cause Sahagin's ability to trigger won't cause Sahagin to become unblocked.
+  - *2025-06-06* — Sahagin's ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/71/sahagin) · oracle_id `24310f49-2156-4c0d-b3b1-40ca3182474f` · printing: FIN #71 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saheeli, Consul of Oversight
 
@@ -47,6 +50,7 @@
   > *"A creative mind is a dangerous thing."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21026 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/203/saheeli-consul-of-oversight) · oracle_id `dfa95c0e-393d-4b22-9de3-45a7efc0ba14` · printing: FRA #203 (2026-10-02) · [rulings](https://api.scryfall.com/cards/07572be0-6610-493c-a21e-14b78e9805c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saheeli, Filigree Master
@@ -77,6 +81,7 @@
 - **Flavor text** (FRA printing):
   > *"Life isn't worth living without freedom of expression."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17101 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/275/saheeli-jewel-of-avishkar) · oracle_id `83705258-1f42-41db-a32e-de99ffd759eb` · printing: FRA #275 (2026-10-02) · [rulings](https://api.scryfall.com/cards/28d84ef6-e190-46d4-882d-1cea5e111e2a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saheeli, Radiant Creator
@@ -157,7 +162,19 @@
   > Reveal the top X cards of your library. You may put any number of artifact cards with mana value X or less from among them onto the battlefield. Then put all cards revealed this way that weren't put onto the battlefield into your graveyard.
 - **Keywords:** Improvise
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11077 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/26/saheelis-directive) · oracle_id `1aee3a93-d064-4d10-9fe6-879a1f342c1f` · printing: C18 #26 (2018-08-10) · [rulings](https://api.scryfall.com/cards/494c32ef-6fce-4330-9e34-a68497ae865e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2018-07-13* — All of the artifacts put onto the battlefield this way enter at the same time. If any have triggered abilities that trigger on something else entering the battlefield, they'll see each other.
+  - *2018-07-13* — Equipment attached to a creature doesn't become tapped when that creature becomes tapped, and tapping that Equipment doesn't cause the creature to become tapped.
+  - *2018-07-13* — If a card in your library has {X} in its mana cost, X is considered to be 0.
+  - *2018-07-13* — If an artifact you control has a mana ability with {T} in the cost, activating that ability while casting a spell with improvise will result in the artifact being tapped when you pay the spell's costs. You won't be able to tap it again for improvise. Similarly, if you sacrifice an artifact to activate a mana ability while casting a spell with improvise, that artifact won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for improvise.
+  - *2018-07-13* — Improvise can't be used to pay for anything other than the cost of casting the spell. For example, it can't be used during the resolution of an ability that says "Counter target spell unless its controller pays {3}."
+  - *2018-07-13* — Improvise can't pay for {W}, {U}, {B}, {R}, {G}, or {C} mana symbols in a spell's total cost.
+  - *2018-07-13* — Improvise doesn't change a spell's mana cost or mana value.
+  - *2018-07-13* — Saheeli's Directive considers the individual mana values of the artifact cards you reveal. The sum of their mana values may be greater than X.
+  - *2018-07-13* — Tapping an artifact won't cause its abilities to stop applying unless those abilities say so.
+  - *2018-07-13* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Improvise applies after the total cost is calculated.
+  - *2018-07-13* — When using improvise to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap artifacts you control to help pay that cost. For example, if you cast Saheeli's Directive and choose X to be 3, the total cost is {3}{R}{R}{R}. If you tap two artifacts, you'll have to pay {1}{R}{R}{R}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/26/saheelis-directive) · oracle_id `1aee3a93-d064-4d10-9fe6-879a1f342c1f` · printing: C18 #26 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saheeli's Lattice // Mastercraft Raptor
 
@@ -172,7 +189,13 @@
   > *While Huatli ventured underground, Saheeli used her unique expertise to bolster the Sun Empire's defenses.*
 - **Keywords:** Craft, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15043 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/164/saheelis-lattice-mastercraft-raptor) · oracle_id `ef8df503-6160-4e40-a689-49e97fd56cd0` · printing: LCI #164 (2023-11-17) · [rulings](https://api.scryfall.com/cards/0bdc79c6-1193-46bd-931d-2c2a0381e420/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-11-10* — If a card that isn't a transforming double-faced card becomes a copy of a card with craft, it'll stay in exile if you activate the craft ability. It won't return to the battlefield.
+  - *2023-11-10* — If any of the exiled cards has a characteristic-defining ability that defines its power, that ability will apply. For example, if you somehow used Souls of the Lost to craft Mastercraft Raptor (perhaps because it became a copy of a Dinosaur), its power while in exile is equal to the number of permanent cards in your graveyard, and Mastercraft Raptor's power will change as the number of permanent cards in your graveyard changes. If the characteristic-defining ability can't be applied, then use 0.
+  - *2023-11-10* — If the materials required include multiple objects, you may exile some of them from among permanents you control and the rest from among cards in your graveyard. You don't have to choose all permanents or all cards from your graveyard.
+  - *2023-11-10* — The back faces of some cards with craft refer to cards "used to craft" it. This refers to the cards exiled as part of the cost of the craft ability of the front face. Those cards are considered to be "used to craft" that permanent as long as they remain exiled and the permanent remains on the battlefield, even if the permanent's controller changes or some of its characteristics change (because of a copy effect, for example.)
+  - *2023-11-10* — You may exile tokens you control as part of the materials required. However, because they aren't cards and won't stay in exile, any abilities that refer to what you "used to craft" the back faces won't refer to anything.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/164/saheelis-lattice-mastercraft-raptor) · oracle_id `ef8df503-6160-4e40-a689-49e97fd56cd0` · printing: LCI #164 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saheeli's Silverwing
 
@@ -186,6 +209,7 @@
   > *"Track the source of those thopters," Saheeli told her creation. "And feel free to snack on as many as you want."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27876 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/243/saheelis-silverwing) · oracle_id `ab5f6e83-a151-48b6-8cc5-3b2dae94079c` · printing: WAR #243 (2019-05-03) · [rulings](https://api.scryfall.com/cards/dba77c07-5d23-4a1a-90a0-b8293848d637/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saheeli, Sublime Artificer
@@ -219,7 +243,16 @@
   > −7: For each artifact you control, create a token that's a copy of it. Those tokens gain haste. Exile those tokens at the beginning of the next end step.
   > Saheeli, the Gifted can be your commander.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9959 · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/44/saheeli-the-gifted) · oracle_id `0e084342-31ff-47a5-9fd8-5b385add7a1a` · printing: C18 #44 (2018-08-10) · [rulings](https://api.scryfall.com/cards/ca095559-ac77-4186-8d9b-b75ce0607582/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2018-07-13* — Any enters-the-battlefield abilities of a copied artifact will trigger when the token enters the battlefield. Any "as [this artifact] enters the battlefield" or "[this artifact] enters the battlefield with" abilities of the artifact will also work.
+  - *2018-07-13* — If a copied artifact has {X} in its mana cost, X is considered to be 0.
+  - *2018-07-13* — If a copied artifact is a token, the token that's created copies the original characteristics of that token as stated by the effect that created the token.
+  - *2018-07-13* — If a copied artifact is copying something else (for example, if the copied artifact is a Sculpting Steel), then the token enters the battlefield as whatever that artifact copied.
+  - *2018-07-13* — Saheeli's second ability reduces only generic mana in the cost of the next spell you cast.
+  - *2018-07-13* — The total cost to cast a spell is locked in before you pay that cost. For example, if you control three artifacts, including one you can sacrifice to add {C}, Saheeli's second ability will reduce the cost of a spell you cast by {3}. Then you can sacrifice the artifact when you activate mana abilities just before paying the cost, and it remains reduced by {3}.
+  - *2018-07-13* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Saheeli's second ability). The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+  - *2018-07-13* — While resolving Saheeli's third ability, each token copies exactly what was printed on the original artifact and nothing else (unless that artifact is copying something else or is a token; see below). It doesn't copy whether that artifact is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its types, color, or so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/44/saheeli-the-gifted) · oracle_id `0e084342-31ff-47a5-9fd8-5b385add7a1a` · printing: C18 #44 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saheeli, the Sun's Brilliance
 
@@ -249,4 +282,5 @@
   > Whenever a source you control deals exactly 1 damage to you and whenever a spell or ability you control causes you to lose exactly 1 life, put a +1/+1 counter on Sahir. If this is the second time this ability has resolved this turn, draw a card.
 - **Keywords:** Eminence
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #27773 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/18/sahir-visitor-in-darkness) · oracle_id `e1a8f5cf-9b59-46c6-8e41-6e44225ec0f4` · printing: MBC #18 (2026-10-19) · [rulings](https://api.scryfall.com/cards/87e0781e-7e69-4914-8387-b34190187401/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

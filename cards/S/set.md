@@ -40,7 +40,11 @@
   > *The envoy spoke, and Sidisi replied.*
 - **Keywords:** Delve
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23117 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/54/set-adrift) · oracle_id `f27f51e1-b881-4639-9d36-47cdf2a61117` · printing: KTK #54 (2014-09-26) · [rulings](https://api.scryfall.com/cards/cdad122d-a872-449f-9a7c-0f054b711d11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-03-19* — Because delve isn't an alternative cost, it can be used in conjunction with alternative costs, such as flashback. It can also be used to pay for additional costs that include generic mana.
+  - *2021-03-19* — Delve doesn't change a spell's mana cost or mana value. For example, Treasure Cruise's mana value is 8 even if you exiled three cards to cast it.
+  - *2021-03-19* — You can exile cards to pay only for generic mana, and you can't exile more cards than the generic mana requirement of a spell with delve. For example, you can't exile more than seven cards from your graveyard to cast Treasure Cruise unless an effect has increased its cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/54/set-adrift) · oracle_id `f27f51e1-b881-4639-9d36-47cdf2a61117` · printing: KTK #54 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Setessan Battle Priest
 
@@ -53,7 +57,11 @@
   > *"Your god teaches you only how to kill. Karametra teaches me to defend what I hold dear. That is why I will prevail."*
 - **Keywords:** Heroic
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27349 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/29/setessan-battle-priest) · oracle_id `e2886098-0309-4da5-b2e5-a06af5cfe5b8` · printing: THS #29 (2013-09-27) · [rulings](https://api.scryfall.com/cards/9c9cfa33-dcec-4b34-9218-c08ad932d27b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-09-15* — Heroic abilities will resolve before the spell that caused them to trigger.
+  - *2013-09-15* — Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times.
+  - *2013-09-15* — Heroic abilities won't trigger when a copy of a spell is created on the stack or when a spell's targets are changed to include a creature with a heroic ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/29/setessan-battle-priest) · oracle_id `e2886098-0309-4da5-b2e5-a06af5cfe5b8` · printing: THS #29 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Setessan Champion
 
@@ -84,7 +92,9 @@
   > *Most griffins must be caught and broken into the service of the polis. Not so in Setessa, where they volunteer.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32230 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/30/setessan-griffin) · oracle_id `fbab033e-3a8f-4c08-a445-46ae34c283eb` · printing: THS #30 (2013-09-27) · [rulings](https://api.scryfall.com/cards/35d2ae77-b16c-4a01-84ce-5c78be5a54d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-09-15* — If Setessan Griffin's ability is activated by one player, then another player gains control of it during the same turn, the second player can't activate its ability that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/30/setessan-griffin) · oracle_id `fbab033e-3a8f-4c08-a445-46ae34c283eb` · printing: THS #30 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Setessan Oathsworn
 
@@ -97,7 +107,11 @@
   > *"Setessa is not the city of my birth, but it is the place I fight for, and the place I'm willing to die for. Does that not make it my home?"*
 - **Keywords:** Heroic
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23891 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bng/138/setessan-oathsworn) · oracle_id `78d5f882-5d17-4228-b9b5-d460ab2bef08` · printing: BNG #138 (2014-02-07) · [rulings](https://api.scryfall.com/cards/e5579755-4718-406a-bba6-27f1f2811e59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-09-15* — Heroic abilities will resolve before the spell that caused them to trigger.
+  - *2013-09-15* — Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times.
+  - *2013-09-15* — Heroic abilities won’t trigger when a copy of a spell is created on the stack or when a spell’s targets are changed to include a creature with a heroic ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bng/138/setessan-oathsworn) · oracle_id `78d5f882-5d17-4228-b9b5-d460ab2bef08` · printing: BNG #138 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Setessan Petitioner
 
@@ -109,7 +123,13 @@
 - **Flavor text** (THB printing):
   > *"Cypress leaves for family, larkspur for protection, amaranth for a bountiful harvest."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22094 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/199/setessan-petitioner) · oracle_id `63d92a82-d77d-4c47-a49b-bde6a8c9dd8d` · printing: THB #199 (2020-01-24) · [rulings](https://api.scryfall.com/cards/384495c2-238b-4f8d-89c2-e05b64f9dde0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-01-24* — Colorless and generic mana symbols ({C}, {0}, {1}, {2}, {X}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color.
+  - *2020-01-24* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2020-01-24* — If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time.
+  - *2020-01-24* — If you put an Aura on an opponent’s permanent, you still control the Aura, and mana symbols in its mana cost count towards your devotion.
+  - *2020-01-24* — Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/199/setessan-petitioner) · oracle_id `63d92a82-d77d-4c47-a49b-bde6a8c9dd8d` · printing: THB #199 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Setessan Skirmisher
 
@@ -122,7 +142,10 @@
   > *Bassara, the tower of the fox, houses the elite skirmishers who guard the Nessian Wood against trespassers.*
 - **Keywords:** Constellation
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28449 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/200/setessan-skirmisher) · oracle_id `789d2858-f342-422c-9187-c6ace9485ed5` · printing: THB #200 (2020-01-24) · [rulings](https://api.scryfall.com/cards/46739993-6afe-428d-bf63-b57649e38a65/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-01-24* — A constellation ability triggers whenever an enchantment enters the battlefield under your control for any reason. Enchantments with other card types, such as enchantment creatures, will also cause constellation abilities to trigger.
+  - *2020-01-24* — An Aura spell that has an illegal target when it tries to resolve doesn’t resolve and is instead put into its owner’s graveyard. It doesn’t enter the battlefield, so constellation abilities don’t trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/200/setessan-skirmisher) · oracle_id `789d2858-f342-422c-9187-c6ace9485ed5` · printing: THB #200 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Setessan Starbreaker
 
@@ -134,6 +157,7 @@
 - **Flavor text** (BNG printing):
   > *"Who says you cannot touch the stars?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31476 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/139/setessan-starbreaker) · oracle_id `bc84a4e7-5f5f-4105-b0f8-c06ebcde6218` · printing: BNG #139 (2014-02-07) · [rulings](https://api.scryfall.com/cards/03af8b3b-a897-43e2-a87d-833da93edc41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Setessan Tactics
@@ -145,7 +169,14 @@
   > Until end of turn, any number of target creatures each get +1/+1 and gain "{T}: This creature fights another target creature."
 - **Keywords:** Fight, Strive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11777 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jou/140/setessan-tactics) · oracle_id `755e2f3e-bb32-4902-af8d-d80f9899c69f` · printing: JOU #140 (2014-05-02) · [rulings](https://api.scryfall.com/cards/385a1939-15e5-4f13-b01b-7cdc6835da2a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2014-04-26* — Each of the two creatures that fight deals damage equal to its power to the other. If either one of the creatures isn't on the battlefield when the ability that instructs them to fight resolves, no damage is dealt.
+  - *2014-04-26* — If a spell or ability allows you to cast a strive spell without paying its mana cost, you must pay the additional costs for any targets beyond the first.
+  - *2014-04-26* — If all of the spell's targets are illegal when the spell tries to resolve, it won't resolve and none of its effects will happen. If one or more of its targets are legal when it tries to resolve, the spell will resolve and affect only those legal targets. It will have no effect on any illegal targets.
+  - *2014-04-26* — If such a spell is copied, and the effect that copies the spell allows a player to choose new targets for the copy, the number of targets can't be changed. The player may change any number of the targets, including all of them or none of them. If, for one of the targets, the player can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2014-04-26* — The mana cost and mana value of strive spells don't change no matter how many targets they have. Strive abilities affect only what you pay.
+  - *2014-04-26* — You choose how many targets each spell with a strive ability has and what those targets are as you cast it. It's legal to cast such a spell with no targets, although this is rarely a good idea. You can't choose the same target more than once for a single strive spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jou/140/setessan-tactics) · oracle_id `755e2f3e-bb32-4902-af8d-d80f9899c69f` · printing: JOU #140 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Setessan Training
 
@@ -157,7 +188,9 @@
   > Enchanted creature gets +1/+0 and has trample. (It can deal excess combat damage to the player or planeswalker it's attacking.)
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10836 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/205/setessan-training) · oracle_id `3ff3b9c4-80ec-44d9-99ec-6fea3a86468b` · printing: M21 #205 (2020-07-03) · [rulings](https://api.scryfall.com/cards/1947f64a-5ca0-4dda-8bbd-8472e72ecf18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-06-23* — If the creature Setessan Training would enchant is an illegal target by the time the Aura spell resolves, the entire spell doesn't resolve. It won't enter the battlefield, so its ability won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/205/setessan-training) · oracle_id `3ff3b9c4-80ec-44d9-99ec-6fea3a86468b` · printing: M21 #205 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sethron, Hurloon General
 
@@ -168,6 +201,7 @@
   > Whenever Sethron or another nontoken Minotaur you control enters, create a 2/3 red Minotaur creature token.
   > {2}{B/R}: Minotaurs you control get +1/+0 and gain menace and haste until end of turn. ({B/R} can be paid with either {B} or {R}.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17146 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/25/sethron-hurloon-general) · oracle_id `561c1ce9-41e7-474a-9476-bb9a7d24f0d5` · printing: JMP #25 (2020-07-17) · [rulings](https://api.scryfall.com/cards/274cdb39-1454-4c9b-acd8-4f762a48e71f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seton, Krosan Protector
@@ -180,6 +214,7 @@
 - **Flavor text** (ODY printing):
   > *"Survival of the fittest is not only the law of the pits, it is the law of nature. That is why I fight."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18825 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/267/seton-krosan-protector) · oracle_id `48d9747f-f9eb-4f71-93c9-e5151a7ff3ea` · printing: ODY #267 (2001-10-01) · [rulings](https://api.scryfall.com/cards/641a3bae-9146-4e70-862a-86a56f7c3816/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seton's Desire
@@ -192,7 +227,9 @@
   > Threshold — As long as there are seven or more cards in your graveyard, all creatures able to block enchanted creature do so.
 - **Keywords:** Enchant, Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21600 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/176/setons-desire) · oracle_id `76fe7cfa-c3db-4122-b262-f7c5c90fcdd7` · printing: DMR #176 (2023-01-13) · [rulings](https://api.scryfall.com/cards/72c7f922-c334-4a75-9f5a-e68595049318/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — If a creature the defending player controls can't block the enchanted creature for any reason (such as being tapped), then it doesn't block that creature. If there's a cost associated with having a creature block the enchanted creature, the defending player isn't forced to pay that cost, so it doesn't have to block in that case either.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/176/setons-desire) · oracle_id `76fe7cfa-c3db-4122-b262-f7c5c90fcdd7` · printing: DMR #176 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seton's Scout
 
@@ -204,6 +241,7 @@
   > Threshold — This creature gets +2/+2 as long as there are seven or more cards in your graveyard.
 - **Keywords:** Reach, Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29909 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/138/setons-scout) · oracle_id `7b2a32ca-ef5b-40a5-acf7-aefac1d09e5b` · printing: TOR #138 (2002-02-04) · [rulings](https://api.scryfall.com/cards/732bf7bb-5326-4742-8311-96ddbfe14b38/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Set Phasers to . . .
@@ -215,6 +253,7 @@
   > • Stun — Tap target creature and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
   > • Kill — This spell deals 3 damage to target attacking creature.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #30705 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/34/set-phasers-to-) · oracle_id `4da9b548-898d-431b-8aa5-9cb7bf579219` · printing: TRK #34 (2026-11-13) · [rulings](https://api.scryfall.com/cards/54dbf416-973d-46c8-b9be-e863283d328b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Settle Beyond Reality
@@ -228,7 +267,10 @@
 - **Flavor text** (2X2 printing):
   > *Two taken, two judged, one returned.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16630 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/30/settle-beyond-reality) · oracle_id `2debd9f1-6d3a-4f0a-8488-603447c44490` · printing: 2X2 #30 (2022-07-08) · [rulings](https://api.scryfall.com/cards/ca74453c-278e-4a6c-aa37-e5654e16b08b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-06-14* — If a token you control is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2019-06-14* — Once the exiled creature you control returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled creatures will be put into their owners' graveyards. Equipment attached to the exiled creatures will become unattached and remain on the battlefield. Any counters on the exiled creatures will cease to exist.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/30/settle-beyond-reality) · oracle_id `2debd9f1-6d3a-4f0a-8488-603447c44490` · printing: 2X2 #30 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Settlement Blacksmith
 
@@ -241,6 +283,7 @@
   > *"Weapons, armor, shields, or tools—whatever the Raven Clan needs, my forge will provide."*
   > *—Gunnar of Ravensthorpe*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21375 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/280/settlement-blacksmith) · oracle_id `f98d0f8a-c8b5-4fb8-b598-e70ffab3c0ff` · printing: ACR #280 (2024-07-05) · [rulings](https://api.scryfall.com/cards/301310b3-c031-4fd3-a47e-9645b6177329/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Settle the Score
@@ -253,7 +296,11 @@
   > *"You bound me with a contract only your death could end—and you thought me the fool?"*
   > *—Liliana Vess*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13350 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/276/settle-the-score) · oracle_id `2f18bb2d-249f-4d7a-a0f7-8a285d365777` · printing: JMP #276 (2020-07-17) · [rulings](https://api.scryfall.com/cards/ee181d58-fed1-4f6d-96a3-4bf057ddd36e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-04-27* — Both loyalty counters must be put onto the same planeswalker.
+  - *2018-04-27* — If the target creature is an illegal target by the time Settle the Score tries to resolve, the spell doesn’t resolve. You won’t put loyalty counters on a planeswalker.
+  - *2018-04-27* — You don’t choose which planeswalker receives loyalty counters until Settle the Score resolves. If you don’t control a planeswalker, you’ll simply exile the target creature and not put loyalty counters on anything.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/276/settle-the-score) · oracle_id `2f18bb2d-249f-4d7a-a0f7-8a285d365777` · printing: JMP #276 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Settle the Wreckage
 
@@ -284,4 +331,6 @@
   > Whenever you win a coin flip, create two tapped Treasure tokens.
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12053 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/93/setzer-wandering-gambler) · oracle_id `acdd5082-7b3c-4fd3-941b-d19dd72698ec` · printing: FIC #93 (2025-06-13) · [rulings](https://api.scryfall.com/cards/5e3e5b0f-c702-4671-ad95-ab0cda1ab83d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — Some effects that instruct a player to flip a coin care only about whether the coin comes up heads or tails. These effects don't normally cause any player to win or lose that coin flip.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/93/setzer-wandering-gambler) · oracle_id `acdd5082-7b3c-4fd3-941b-d19dd72698ec` · printing: FIC #93 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
