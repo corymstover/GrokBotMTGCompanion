@@ -59,7 +59,8 @@ HEADERS = {
 REQUEST_DELAY = 0.1  # seconds between Scryfall requests (Scryfall asks for 50-100 ms)
 
 EXCLUDED_LAYOUTS = {"token", "double_faced_token", "art_series", "emblem",
-                    "vanguard", "scheme", "planar", "reversible_card"}
+                    "vanguard", "scheme", "planar", "reversible_card",
+                    "front_card"}  # front_card = Jumpstart theme/front cards, not game cards
 COLOR_NAMES = {"W": "White", "U": "Blue", "B": "Black", "R": "Red", "G": "Green"}
 CSV_FIELDS = ["name", "oracle_id", "shard", "anchor", "edhrec_rank", "color_identity",
               "type_line", "commander_legality", "game_changer", "batch"]
@@ -206,8 +207,19 @@ def stat_line(obj: dict) -> str:
     return " · ".join(parts)
 
 
+DUP_NAMES: set = set()
+
+
+def heading(c: dict) -> str:
+    """Card name, disambiguated with set + collector number when several Oracle cards share it
+    (e.g. Unstable variants, Un-set vs. Universes Beyond namesakes)."""
+    if c["name"] in DUP_NAMES:
+        return f"{c['name']} ({c.get('set', '').upper()} #{c.get('collector_number', '')})"
+    return c["name"]
+
+
 def render_entry(c: dict, bulk_date: str) -> str:
-    L = [f"### {c['name']}", ""]
+    L = [f"### {heading(c)}", ""]
     faces = c.get("card_faces")
     mv = c.get("cmc", 0)
     mv = int(mv) if float(mv).is_integer() else mv
@@ -312,6 +324,8 @@ def main() -> int:
 
     universe = [c for c in cards if c.get("layout") not in EXCLUDED_LAYOUTS and in_universe(c)]
     configure_shards(universe)
+    DUP_NAMES.clear()
+    DUP_NAMES.update(n for n, k in Counter(c["name"] for c in universe).items() if k > 1)
     by_id = {c["oracle_id"]: c for c in universe}
     by_name = {c["name"].lower(): c for c in universe}
     for c in universe:  # allow face names (e.g. "Fire") to resolve
@@ -383,16 +397,16 @@ def main() -> int:
         anchors = Counter()
         body = []
         for c in cs:
-            a = gh_anchor(c["name"])
+            a = gh_anchor(heading(c))
             if anchors[a]:
                 a2 = f"{a}-{anchors[a]}"
             else:
                 a2 = a
             anchors[a] += 1
-            head.append(f"- [{c['name']}](#{a2})")
+            head.append(f"- [{heading(c)}](#{a2})")
             body.append(render_entry(c, bulk_updated))
             r = index[c["oracle_id"]]
-            rows.append({"name": c["name"], "oracle_id": c["oracle_id"], "shard": f"cards/{shard}",
+            rows.append({"name": heading(c), "oracle_id": c["oracle_id"], "shard": f"cards/{shard}",
                          "anchor": a2, "edhrec_rank": c.get("edhrec_rank") or "",
                          "color_identity": "".join(c.get("color_identity", [])) or "C",
                          "type_line": c.get("type_line", ""),
@@ -421,8 +435,8 @@ def main() -> int:
         else:
             break
     hist = state.get("history", [])
-    if added or not hist:
-        hist.append({"date": today, "label": label, "added": len(added), "total": total})
+    if added or dropped or not hist:
+        hist.append({"date": today, "label": label, "added": len(added), "removed": len(dropped), "total": total})
     state.update({
         "schema": 1,
         "source": "scryfall oracle_cards bulk",
@@ -553,14 +567,16 @@ def bar(frac: float, width: int = 30) -> str:
 def write_dashboard(state):
     total, uni = state["ingested_total"], state["universe_size"]
     nt = state.get("next_target") or {}
+    lb = next((h for h in reversed(state["history"]) if h.get("added")), state["history"][-1])
     block = "\n".join([
         f"**Cards with full Scryfall-verified entries: {total:,} / {uni:,}** ({total / uni:.1%}) — working target {UNIVERSE_TARGET_LABEL}",
         "",
         f"`{bar(total / uni)}`",
         "",
         f"- EDHREC coverage: every Commander-legal card ranked ≤ **{state['ingested_edhrec_rank_contiguous_through']:,}** has an entry",
-        f"- Last batch: `{state['history'][-1]['label']}` (+{state['history'][-1]['added']:,} cards) · last run {state['last_run']} · Scryfall bulk {state['bulk_updated_at'][:10]}",
-        f"- Next card target: **{nt.get('name', '—')}** (EDHREC rank {nt.get('edhrec_rank', '—')}) · default batch {state['next_batch_size']:,}",
+        f"- Last batch: `{lb['label']}` (+{lb['added']:,} cards) · last run {state['last_run']} · Scryfall bulk {state['bulk_updated_at'][:10]}",
+        (f"- Next card target: **{nt.get('name')}** (EDHREC rank {nt.get('edhrec_rank') or '—'}) · default batch {state['next_batch_size']:,}"
+         if nt else "- Next card target: **none — full coverage.** Each run auto-adds newly released Scryfall cards and refreshes Oracle text/legality."),
     ])
     replace_block(README, "CARD-STATS", block)
     replace_block(TRACKER, "CARD-STATS", block)

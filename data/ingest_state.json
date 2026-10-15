@@ -2,24 +2,19 @@
   "schema": 1,
   "source": "scryfall oracle_cards bulk",
   "bulk_updated_at": "2026-10-15T09:02:01.217+00:00",
-  "universe_size": 34185,
+  "universe_size": 33894,
   "universe_definition": "Scryfall oracle_cards that exist in paper (paper printing, or legal/banned/restricted in Vintage/Legacy/Commander); excludes Arena/Alchemy-only cards and token/emblem/art_series/planar/scheme/vanguard/reversible layouts",
-  "ingested_total": 20100,
-  "batches_run": 5,
+  "ingested_total": 33894,
+  "batches_run": 6,
   "next_batch_size": 2000,
-  "last_run": "2026-10-15T10:44:20+00:00",
-  "last_added": 100,
-  "ingested_edhrec_rank_contiguous_through": 20038,
-  "max_ingested_edhrec_rank": 30683,
-  "next_target": {
-    "name": "Diminish",
-    "oracle_id": "3e554ab4-8179-4d3e-84ba-9a67b51cff7f",
-    "edhrec_rank": 20039,
-    "commander_legality": "legal"
-  },
+  "last_run": "2026-10-15T10:49:25+00:00",
+  "last_added": 0,
+  "ingested_edhrec_rank_contiguous_through": 32351,
+  "max_ingested_edhrec_rank": 32353,
+  "next_target": null,
   "missing_priority_names": [],
   "dropped_oracle_ids": [],
-  "shards": 636,
+  "shards": 684,
   "history": [
     {
       "date": "2026-10-15",
@@ -50,6 +45,20 @@
       "label": "2026-10-15-b5",
       "added": 100,
       "total": 20100
+    },
+    {
+      "date": "2026-10-15",
+      "label": "2026-10-15-b6",
+      "added": 14085,
+      "total": 34185
+    },
+    {
+      "date": "2026-10-15",
+      "label": "2026-10-15-b6-cleanup",
+      "added": 0,
+      "removed": 291,
+      "total": 33894,
+      "note": "Jumpstart front_card layout excluded from universe"
     }
   ]
 }

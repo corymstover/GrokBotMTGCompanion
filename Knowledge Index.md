@@ -29,6 +29,8 @@
 | [cards/](cards/) | Card entries, sharded `cards/<L>/<LL>.md`. |
 | [data/](data/) | `card_index.csv`, `ingest_state.json`, `priority_cards.txt`, `categories.json`. |
 | [scripts/ingest_scryfall.py](scripts/ingest_scryfall.py) | Resumable Scryfall ingestion; regenerates cards, Card Index, dashboard stats. |
+| [scripts/verify_cards.py](scripts/verify_cards.py) | Verifies every card entry verbatim against Scryfall bulk (must be 0 problems). |
+| [scripts/build_deck_skeleton.py](scripts/build_deck_skeleton.py) | Builds + validates EDHREC-derived deck skeletons (identity, singleton, legality, bracket floor). |
 | [scripts/check_links.py](scripts/check_links.py) | Validates relative links/anchors in the hand-written docs (also run in CI). |
 
 ## Maintenance rules
@@ -55,7 +57,7 @@
 4. Anything else → ⚠️ Unverified until confirmed by 1–3.
 
 ## Improvement-cycle checklist
-1. `python3 scripts/ingest_scryfall.py` (default batch from `data/ingest_state.json`) → commit `feat(cards): …` → push.
+1. `python3 scripts/ingest_scryfall.py` (adds any new Scryfall cards, default batch from `data/ingest_state.json`, and refreshes all entries) → `python3 scripts/verify_cards.py` (0 problems) → commit `feat(cards): …` / `chore(cards): refresh …` → push.
 2. Pick the highest-impact open issue (labels `high-priority`, then `cards` / `lore` / `edh`), mark `in-progress`, do the work with citations.
 3. Update [Update Log](Update%20Log.md), [Progress Tracker](Progress%20Tracker.md), README priorities; run `python3 scripts/check_links.py`.
 4. Close finished issues with "Closed by <commit>"; open issues for new gaps; tag milestones when thresholds are crossed (`v0.N-<count>-cards`).
