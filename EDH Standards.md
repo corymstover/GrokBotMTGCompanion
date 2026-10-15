@@ -19,6 +19,8 @@
 - [Open questions](#open-questions)
 
 ## Core rules (verified)
+
+> Deeper rules topics (layers, replacement vs. triggers, SBAs, copy effects, color identity, command-zone returns) with verbatim CR 2026-09-25 text: [Rules Interactions](Rules%20Interactions.md).
 | Rule | Source |
 |---|---|
 | Exactly **100 cards** including the commander. | CR 903.5a |
