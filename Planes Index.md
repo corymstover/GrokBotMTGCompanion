@@ -5,7 +5,7 @@ tags: [planes]
 issues: [7, 12]
 generated_by: hand-written
 sources: [wizards-story]
-related: ["Characters Index.md", "Conflicts & Arcs.md", "Master Timeline.md", "Planeswalker Dossiers.md", "Story Arc Summaries.md", "Card Index.md"]
+related: ["Characters Index.md", "Conflicts & Arcs.md", "Contradictions & Retcons Log.md", "Master Timeline.md", "Planeswalker Dossiers.md", "Story Arc Summaries.md"]
 schema: 2
 ---
 
@@ -17,7 +17,7 @@ schema: 2
 ## Contents
 - [Planes with official profiles](#planes-with-official-profiles)
 - [Other planes in recent stories (Omenpath era)](#other-planes-in-recent-stories-omenpath-era)
-- [Detailed plane entries](#detailed-plane-entries): [Kaldheim](#kaldheim) · [Eldraine](#eldraine) · [Ikoria](#ikoria) · [New Capenna](#new-capenna) · [Phyrexia & New Phyrexia's spheres](#phyrexia-old-phyrexia--new-phyrexias-spheres) · [Ravnica after the invasion](#ravnica-after-the-invasion-murders-at-karlov-manor) · [Skalla](#skalla) · [Vryn](#vryn) · [Regatha](#regatha) · [Rath](#rath) · [Mercadia](#mercadia) · [Ulgrotha](#ulgrotha) · [Ergamon](#ergamon) · [Theros Underworld](#theros-the-underworld-theros-beyond-death) · [Muraganda](#muraganda) · [Kylem](#kylem) · [Gobakhan](#gobakhan) · [Shenmeng](#shenmeng) · [Segovia](#segovia) · [Zendikar (ZNR)](#zendikar-zendikar-rising-era) · [Kamigawa (NEO)](#kamigawa-neon-dynasty-era) · [Dominaria (DMU)](#dominaria-dominaria-united-era) · [Arcavios colleges](#arcavios--the-strixhaven-colleges)
+- [Detailed plane entries](#detailed-plane-entries): [Kaldheim](#kaldheim) · [Eldraine](#eldraine) · [Ikoria](#ikoria) · [New Capenna](#new-capenna) · [Phyrexia & New Phyrexia's spheres](#phyrexia-old-phyrexia--new-phyrexias-spheres) · [Ravnica after the invasion](#ravnica-after-the-invasion-murders-at-karlov-manor) · [Skalla](#skalla) · [Vryn](#vryn) · [Regatha](#regatha) · [Rath](#rath) · [Mercadia](#mercadia) · [Ulgrotha](#ulgrotha) · [Ergamon](#ergamon) · [Theros Underworld](#theros-the-underworld-theros-beyond-death) · [Muraganda](#muraganda) · [Kylem](#kylem) · [Gobakhan](#gobakhan) · [Shenmeng](#shenmeng) · [Segovia](#segovia) · [Zendikar (ZNR)](#zendikar-zendikar-rising-era) · [Kamigawa (NEO)](#kamigawa-neon-dynasty-era) · [Dominaria (DMU)](#dominaria-dominaria-united-era) · [Arcavios colleges](#arcavios--the-strixhaven-colleges) · [Kaladesh → Avishkar](#kaladesh--avishkar) · [Amonkhet](#amonkhet) · [Ixalan](#ixalan) *(Bot cycle 25)*
 - [Special realms & cosmology](#special-realms--cosmology)
 - [Gaps / next to add](#gaps--next-to-add)
 
@@ -223,6 +223,27 @@ No standalone official profile was found in the 2026-10-15 sitemap for these; fa
 
 - ✅ After the Blood Age, "The Founder Dragons rang in a new era of magical research with the founding of Strixhaven University". Graduates may join the Dragonsguard, who "work directly with the five Founder Dragons" (same source). The color pairs are not quoted from the guide; they come from the color identity of each college's Campus land (Scryfall Oracle, e.g. [Silverquill Campus](cards/S/si.md#silverquill-campus) W/B).
 
+### Kaladesh → Avishkar
+*Added Bot cycle 25.*
+- ✅ "Kaladesh owes its bright existence to the presence of a mystical blue substance known as aether", which there "can be seen, touched, and even devoured" ([Planeswalker's Guide to Kaladesh](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-kaladesh-2016-11-02)).
+- ✅ Politics (same source): the Consulate "developed methods for mass production and distribution of refined aether". The renegades believe "the Consulate is concealing information and innovation from the public" and that its quotas infringe "on their freedoms".
+- ✅ The revolution: "Under the guise of benevolence, the Consulate acted as an oppressive force that strove to control aether technology and stifle innate magic." The Inventors' Fair "was a deception—its true purpose was to gather Avishkar's newest technologies so the Consulate could control them" ([Avishkar profile](https://magic.wizards.com/en/story/avishkar-plane)).
+- ✅ Latest: "The plane formerly known as Kaladesh has been reborn as Avishkar." It is "united under a new planar government called the Avishkar Assembly, who plan to resurrect the Ghirapur Grand Prix" (same source). Arcs: [Kaladesh revolt](Conflicts%20%26%20Arcs.md#kaladesh-revolt), [Aetherdrift](Conflicts%20%26%20Arcs.md#aetherdrift-2025). Retcon: [Kaladesh → Avishkar rename](Contradictions%20%26%20Retcons%20Log.md#kaladesh--avishkar-rename). Characters: [Chandra Nalaar](Characters%20Index.md#chandra-nalaar), [Saheeli Rai](Characters%20Index.md#saheeli-rai).
+
+### Amonkhet
+*Added Bot cycle 25.*
+- ✅ "Awe-inspiring, animal-headed gods walk among the people." "A wide, life-giving river offers its abundant bounty," but "Beyond the lush river valley lies endless, scorching desert," where "Accursed, desiccated mummies roam" ([Amonkhet profile](https://magic.wizards.com/en/story/amonkhet-plane)).
+- ✅ The trials: "The gods are custodians of the path to the afterlife, established by the God-Pharaoh." Each god oversees one trial for "one of the five aspects of mortal perfection: solidarity, knowledge, strength, ambition, and zeal" (same source).
+- ✅ The truth: Bolas "came and killed but did not stay and left an entire culture with a crude outline of whatever existed before" ([The Writing on the Wall](https://magic.wizards.com/en/news/magic-story/writing-wall-2017-04-12)). He returns in the Hours and surveys "the devastation he had wrought" ([Hour of Devastation](https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26)).
+- ✅ After the invasion, Samut leads "the living in Naktamun" ([Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)). Arc: [Amonkhet & the God-Pharaoh](Conflicts%20%26%20Arcs.md#amonkhet--the-god-pharaoh). Retcon: [Did Bolas create Amonkhet?](Contradictions%20%26%20Retcons%20Log.md#did-bolas-create-amonkhet).
+
+### Ixalan
+*Added Bot cycle 25.*
+- ✅ "The merfolk of the River Heralds and the humans of the Sun Empire have shared the continent of Ixalan for ages"; then "the treasure-hungry pirates of the Brazen Coalition and now the sinister fleets of the Legion of Dusk" upset the balance, all seeking the Immortal Sun in Orazca ([Ixalan profile](https://magic.wizards.com/en/story/ixalan-plane)).
+- ✅ After *Rivals*: "The original Ixalan block ends with the Sun Empire restored, holding Ixalan all but unopposed and prepared for war with Torrezon" ([Planeswalker's Guide to LCI](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-the-lost-caverns-of-ixalan)). Huatli's commandos and the defense of Pachatupa "saved the Sun Empire and Ixalan from falling to the Phyrexians" (same source).
+- ✅ Below the surface: "The Core of Paradise is a massive, hollow space inside Ixalan that encompasses a small, life-giving god-star, Chimil." "The Oltec are the dominant civilization of the Core and living human ancestors of the Sun Empire." Mycoids, "Introduced by the Oltec on accident to the caverns millennia ago," now overwhelm "much of Ixalan's underground" (same source).
+- ✅ Torrezon: "Alta Torrezon now rules triumphant over a conquered continent"; legionnaires feel Aclazotz "below the earth of Ixalan, waiting for his children" (same source). Arcs: [Ixalan & the Immortal Sun](Conflicts%20%26%20Arcs.md#ixalan--the-immortal-sun), [Lost Caverns of Ixalan](Conflicts%20%26%20Arcs.md#the-lost-caverns-of-ixalan-2023). Retcon: [Rivals alternate endings vs LCI](Contradictions%20%26%20Retcons%20Log.md#rivals-of-ixalan-alternate-endings-vs-lci-canon).
+
 ## Special realms & cosmology
 - **Blind Eternities** — the chaotic void between planes, home of the Eldrazi titans ([Zendikar profile](https://magic.wizards.com/en/story/zendikar-plane)).
 - **Omenpaths** — portals between planes that appeared after the Phyrexian Invasion, letting non-Planeswalkers travel (used throughout OTJ, Lorwyn Eclipsed and SOS stories; ✅ e.g. [OTJ Episode 1](https://magic.wizards.com/en/news/magic-story/episode-1-an-offer-of-revenge)). ⚠️ The exact in-story origin of the Omenpaths is not yet cited here — open question for next cycle.
@@ -232,4 +253,5 @@ No standalone official profile was found in the 2026-10-15 sitemap for these; fa
 ## Gaps / next to add
 - **Done in Bot cycle 2:** Eldraine, Kaldheim, Ikoria, New Capenna, Phyrexia (original) + New Phyrexia's spheres, Ravnica post-invasion, Skalla, Vryn (stub).
 - **Done in Bot cycle 5:** Mercadia and Ulgrotha (sourced from the official *Known Multiverse* overview), Ergamon, Vryn (mage-rings and factions), Zendikar Rising-era Zendikar, Neon Dynasty Kamigawa, Dominaria United-era Dominaria, and the Strixhaven colleges.
+- **Done in Bot cycle 25:** Kaladesh → Avishkar, Amonkhet, Ixalan (detailed entries from PW Guides, profiles and episodes).
 - **Still to add:** Nauctis (announced set "Nauctis: The Sunken Realm", Scryfall release 2027-02 — ❓ no story yet). Tracked in GitHub issue #12.

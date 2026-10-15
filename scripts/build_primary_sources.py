@@ -40,8 +40,18 @@ ARCS = [
  ('KLD/AER', 'Kaladesh revolt', r'torch-defiance|renegade-prime|born-aether|bottled-2016|release-2016|very-arena|grateful-consulate|quiet-moments|breakthrough-2016|revolution-begins|skies-over-ghirapur|breaking-points|puppets-2017|renewal-2017|planeswalkers-guide-kaladesh|homesick-2016|time-innovation'),
  ('AKH/HOU', 'Amonkhet & the God-Pharaoh', r'^trust-2017|writing-wall|servants-2017|hand-moves|brazen-2017|trespass-2017|judgment-2017|^hour-(revelation|glory|promise|eternity|devastation)|^amonkhet-plane$|feast-2017|favor-2017|endure-2017'),
  ('XLN/RIX', 'Ixalan & the Immortal Sun', r'jace-alone|question-confidence|talented-captain|shapers-2017|something-else-entirely|race-part|flood-2018|glimpse-far-side|arbiter-law|sabotage-2018|who-tells-stories|wool-over-eyes|planeswalkers-guide-ixalan-part|^ixalan-plane$|rivals-ixalan'),
+ # Bot cycle 25: last six arcs to full format + 2015–19 episode upgrades
+ ('ELD', 'Throne of Eldraine (2019)', r'planeswalkers-guide-eldraine'),
+ ('THB', 'Theros Beyond Death (2020)', r'theros-beyond-death|journeys-end-2014'),
+ ('IKO', 'Ikoria: Lair of Behemoths (2020)', r'ikoria'),
+ ('BRO', "The Brothers' War frame story (2022)", r'the-brothers-war-(chapter|episode)'),
+ ('MAT', 'March of the Machine: The Aftermath (2023)', r'she-who-breaks-the-world|beyond-repair'),
+ ('LCI', 'The Lost Caverns of Ixalan (2023)', r'lost-caverns-of-ixalan|rivals-ixalan-magic-story-alternate'),
+ ('BFZ/OGW', 'Eldrazi Awaken / Battle for Zendikar / Gatewatch', r'battle-zendikar-story|oath-gatewatch|zendikars-last-stand|zendikar-resurgent|brink-extinction|rise-kozilek|hedron-alignment|promises-keep|retaliation-ob-nixilis|blight-we-were-born|flames-2016|beneath-surface|revelation-eye|shaping-army|liberation-sea-gate|any-cost-2015|family-values-2015|battle-of-fort-keff|believers-pilgrimage'),
+ ('SOI/EMN', 'Innistrad & Emrakul', r'under-silver-moon|gaze-blank|unwelcome-2016|sacrifice-2016|mystery-markov|drownyard|promises-old-and-new|lilianas-indignation|games-2016|lunarch-inquisition|stories-and-endings|i-am-avacyn|prodigal-sorcerers|archmage-goldnight|stone-and-blood|innistrads-last-hope|campaign-vengeance|saint-traft|battle-thraben|promised-end|emrakul-rises'),
+ ('DOM/WAR', 'Return to Dominaria & War of the Spark', r'return-dominaria-episode|war-spark-ravnica'),
 ]
-DEEPENED = {'KHM','STX','MID/VOW','NEO','SNC','DMU','ONE','MOM','WOE','MKM','OTJ','BLB','DSK','DFT','TDM','EOE','ECL','SOS','RF','THS','KLD/AER','AKH/HOU','XLN/RIX'}  # +9 in Bot cycle 24
+DEEPENED = {'KHM','STX','MID/VOW','NEO','SNC','DMU','ONE','MOM','WOE','MKM','OTJ','BLB','DSK','DFT','TDM','EOE','ECL','SOS','RF','THS','KLD/AER','AKH/HOU','XLN/RIX','ELD','THB','IKO','BRO','MAT','LCI','BFZ/OGW','SOI/EMN','DOM/WAR'}  # +9 in Bot cycle 24, +10 in Bot cycle 25
 
 def anchor(t):
     a = re.sub(r'[^\w\- ]', '', t.lower()).replace(' ', '-')
@@ -74,7 +84,7 @@ def page(rows):
          'issues: [73]', 'generated_by: scripts/build_primary_sources.py', 'sources: [wizards-story]',
          'related: ["Conflicts & Arcs.md", "Side-Media Index.md", "Contradictions & Retcons Log.md"]', 'schema: 2', '---', '',
          '# Lore Primary Sources', '',
-         f'> **Generated (Bot cycle 22, [#73](https://github.com/corymstover/GrokBotMTGCompanion/issues/73)).** Official Wizards pages fetched for the Phase 6 primary-source pass: **{len(rows)} pages** ({total_words:,} words), incl. **{len(guides)} Planeswalker\'s Guides**. Page text is cached locally (`.cache/story/text22/`, gitignored) and is never committed; this page lists titles, dates and URLs only. Quotes added to [Conflicts & Arcs](Conflicts%20%26%20Arcs.md), the [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md) and [Planeswalker Dossiers](Planeswalker%20Dossiers.md) in cycles 22 and 24 were matched against this text (cycle 24 added pre-2019 web fiction for Kaladesh, Amonkhet, Ixalan and Theros).',
+         f'> **Generated (Bot cycle 22, [#73](https://github.com/corymstover/GrokBotMTGCompanion/issues/73)).** Official Wizards pages fetched for the Phase 6 primary-source pass: **{len(rows)} pages** ({total_words:,} words), incl. **{len(guides)} Planeswalker\'s Guides**. Page text is cached locally (`.cache/story/text22/`, gitignored) and is never committed; this page lists titles, dates and URLs only. Quotes added to [Conflicts & Arcs](Conflicts%20%26%20Arcs.md), the [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md) and [Planeswalker Dossiers](Planeswalker%20Dossiers.md) in cycles 22, 24 and 25 were matched against this text (cycle 24 added pre-2019 web fiction for Kaladesh, Amonkhet, Ixalan and Theros; cycle 25 added ELD/THB/IKO/BRO-frame/MAT/LCI and the BFZ, SOI/EMN, Dominaria and WAR episodes).',
          '', '**Flags:** ✅ deepened this cycle (Cause · Key beats · Outcome · Lasting consequences, primary quotes) · 📚 fetched, deepening queued · ⚠️ secondary material (novels / e-books / comics) is **not** in this list — see [Side-Media Index](Side-Media%20Index.md).', '',
          '## Contents', '- [Coverage by arc](#coverage-by-arc)', "- [Planeswalker's Guides](#planeswalkers-guides)", '- [Secondary material (not ingested)](#secondary-material-not-ingested)', '- [Rebuild](#rebuild)', '',
          '## Coverage by arc', '| Arc | Status | Pages | Words | Conflicts & Arcs |', '|---|---|---|---|---|']

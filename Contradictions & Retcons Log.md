@@ -5,7 +5,7 @@ tags: [retcons, contradictions, canon]
 issues: [73, 76]
 generated_by: hand-written
 sources: [wizards-story]
-related: ["Conflicts & Arcs.md", "Characters Index.md", "Master Timeline.md", "Planeswalker Dossiers.md", "Lore Primary Sources.md"]
+related: ["Conflicts & Arcs.md", "Characters Index.md", "Master Timeline.md", "Planes Index.md", "Planeswalker Dossiers.md", "Lore Primary Sources.md"]
 schema: 2
 ---
 
@@ -35,6 +35,10 @@ schema: 2
   - [Oko's origin revealed](#okos-origin-revealed)
   - [Tam revealed as Jace's creation](#tam-revealed-as-jaces-creation)
   - [Did Bolas create Amonkhet?](#did-bolas-create-amonkhet)
+- [Added Bot cycle 25](#added-bot-cycle-25)
+  - [Rivals of Ixalan alternate endings vs LCI canon](#rivals-of-ixalan-alternate-endings-vs-lci-canon)
+  - [Spark loss after the invasion (MAT → LCI)](#spark-loss-after-the-invasion-mat--lci)
+  - [Teferi's spark: given up, then a Planeswalker again](#teferis-spark-given-up-then-a-planeswalker-again)
 - [Queue for later cycles](#queue-for-later-cycles)
 - [Open / do-not-resolve](#open--do-not-resolve)
 
@@ -193,12 +197,41 @@ Recent-arc and pre-2019 primary-source pass ([#72](https://github.com/corymstove
 | **KB treatment** | Amonkhet existed before Bolas, who conquered and reshaped it. Liliana's line reflects her limited knowledge. |
 | **Related** | [Conflicts → Amonkhet](Conflicts%20%26%20Arcs.md#amonkhet--the-god-pharaoh) · [Conflicts → Kaladesh](Conflicts%20%26%20Arcs.md#kaladesh-revolt) |
 
+## Added Bot cycle 25
+Retcon-queue pass and 2015–2023 arc upgrades ([#72](https://github.com/corymstover/GrokBotMTGCompanion/issues/72), [#76](https://github.com/corymstover/GrokBotMTGCompanion/issues/76)). Every quote below was checked verbatim against the fetched text.
+
+### Rivals of Ixalan alternate endings vs LCI canon
+| Field | Detail |
+|---|---|
+| **Type** | 📝 clarification (which branch is canon) — resolved from the queue |
+| **Earlier statement** | Rivals of Ixalan ended with a fan vote. The Alternate Endings page says "The people have spoken, and the Sun Empire emerged victorious to claim control of Orazca!" and calls the other faction endings "(now non-canon) stories" ([Alternate Endings](https://magic.wizards.com/en/news/magic-story/rivals-ixalan-magic-story-alternate-endings-2018-02-21)). |
+| **Later / overriding statement** | Five years later: "The original Ixalan block ends with the Sun Empire restored, holding Ixalan all but unopposed and prepared for war with Torrezon to get revenge for the vampire kingdom's attempted conquest of their land" ([PW Guide to LCI](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-the-lost-caverns-of-ixalan)). |
+| **KB treatment** | Canon = the Sun Empire ending. The River Heralds, Legion of Dusk and Brazen Coalition endings on the Alternate Endings page are 🚫 non-canonical; do not cite them as events. |
+| **Related** | [Conflicts → Ixalan](Conflicts%20%26%20Arcs.md#ixalan--the-immortal-sun) · [Conflicts → LCI](Conflicts%20%26%20Arcs.md#the-lost-caverns-of-ixalan-2023) · [Planes → Ixalan](Planes%20Index.md#ixalan) |
+
+### Spark loss after the invasion (MAT → LCI)
+| Field | Detail |
+|---|---|
+| **Type** | 🔄 in-world change (Planeswalkers lose sparks after the invasion); partly resolved |
+| **Earlier statement** | Nissa, Nahiri, Teferi, Koth, Huatli and Saheeli are Planeswalkers in earlier stories (see [Planeswalker Dossiers](Planeswalker%20Dossiers.md)). |
+| **Later / overriding statement** | "Teferi's spark had faded … Koth's as well. Chandra is the only one among them who seemed to have kept hers—well, Chandra and Ajani"; for Nissa, "Karn theorized it was damaged when the Phyrexians altered Nissa's mind and body" ([She Who Breaks the World](https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world)). Nissa "can no longer planeswalk"; Nahiri "was no longer a Planeswalker" ([Beyond Repair](https://magic.wizards.com/en/news/magic-story/beyond-repair)). Huatli: "With my spark, I felt whole … Now that it is gone"; Saheeli tried to walk: "I felt nothing" ([LCI: Pawns](https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-pawns)). |
+| **KB treatment** | Treat these six as sparkless from MAT/LCI onward unless a later cited story restores a spark. ❓ The fetched sources do not give one cause for every case (Nissa's is a theory: "Karn theorized"). Later restorations stay queued. |
+| **Related** | [Conflicts → MAT](Conflicts%20%26%20Arcs.md#march-of-the-machine-the-aftermath-2023) · [Conflicts → LCI](Conflicts%20%26%20Arcs.md#the-lost-caverns-of-ixalan-2023) · [Characters Index](Characters%20Index.md) |
+
+### Teferi's spark: given up, then a Planeswalker again
+| Field | Detail |
+|---|---|
+| **Type** | ❓ open (a spark is surrendered and later present again) |
+| **Earlier statement** | In Dominaria (2018) Jhoira asks, "So you don't regret it, then. Giving up your spark?" Teferi: "I regret a lot of things. But not that." ([RtD Ep. 10](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-10-2018-05-16)). |
+| **Later / overriding statement** | Teferi is a Planeswalker again in the invasion era, and after the invasion "Teferi's spark had faded sometime after the invasion" ([She Who Breaks the World](https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world)). |
+| **KB treatment** | Teferi: mortal at the start of DOM (2018), a Planeswalker again by the invasion, and sparkless after MAT. ❓ The story moment his spark returned is not in the fetched sources, so the KB does not date it. |
+| **Related** | [Planeswalker Dossiers → Teferi](Planeswalker%20Dossiers.md#teferi) · [Conflicts → DOM/WAR](Conflicts%20%26%20Arcs.md#return-to-dominaria--war-of-the-spark) |
+
 ## Queue for later cycles
 | Candidate | Why queued | Needed sources |
 |---|---|---|
 | Weatherlight / Invasion-block novel continuity vs modern plane profiles | Profiles summarize; novels not fetched ⚠️ | Official novels / e-books once accessible; flag secondary until read |
-| Ixalan Rivals alternate endings vs later LCI canon | Alternate endings page exists; which branches bind? | [Alternate Endings](https://magic.wizards.com/en/news/magic-story/rivals-ixalan-magic-story-alternate-endings-2018-02-21) + LCI episodes |
-| Spark status lists after MOM Aftermath | Multiple characters desparked; later stories restore or clarify unevenly | Characters Index spark table + each dossier's sources |
+| Spark restorations after MOM Aftermath (losses logged Bot cycle 25) | Later stories may restore sparks unevenly | Characters Index spark table + each dossier's sources |
 | Pre-Mending godlike Planeswalker power vs post-Mending portrayals in side media | Scope of Mending discussed unevenly | Time Spiral–era official text + modern clarifications |
 
 ## Open / do-not-resolve

@@ -11,7 +11,7 @@ schema: 2
 
 # Lore Primary Sources
 
-> **Generated (Bot cycle 22, [#73](https://github.com/corymstover/GrokBotMTGCompanion/issues/73)).** Official Wizards pages fetched for the Phase 6 primary-source pass: **584 pages** (2,705,205 words), incl. **60 Planeswalker's Guides**. Page text is cached locally (`.cache/story/text22/`, gitignored) and is never committed; this page lists titles, dates and URLs only. Quotes added to [Conflicts & Arcs](Conflicts%20%26%20Arcs.md), the [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md) and [Planeswalker Dossiers](Planeswalker%20Dossiers.md) in cycles 22 and 24 were matched against this text (cycle 24 added pre-2019 web fiction for Kaladesh, Amonkhet, Ixalan and Theros).
+> **Generated (Bot cycle 22, [#73](https://github.com/corymstover/GrokBotMTGCompanion/issues/73)).** Official Wizards pages fetched for the Phase 6 primary-source pass: **588 pages** (2,708,959 words), incl. **60 Planeswalker's Guides**. Page text is cached locally (`.cache/story/text22/`, gitignored) and is never committed; this page lists titles, dates and URLs only. Quotes added to [Conflicts & Arcs](Conflicts%20%26%20Arcs.md), the [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md) and [Planeswalker Dossiers](Planeswalker%20Dossiers.md) in cycles 22, 24 and 25 were matched against this text (cycle 24 added pre-2019 web fiction for Kaladesh, Amonkhet, Ixalan and Theros; cycle 25 added ELD/THB/IKO/BRO-frame/MAT/LCI and the BFZ, SOI/EMN, Dominaria and WAR episodes).
 
 **Flags:** ✅ deepened this cycle (Cause · Key beats · Outcome · Lasting consequences, primary quotes) · 📚 fetched, deepening queued · ⚠️ secondary material (novels / e-books / comics) is **not** in this list — see [Side-Media Index](Side-Media%20Index.md).
 
@@ -47,7 +47,16 @@ schema: 2
 | KLD/AER | ✅ | 17 | 110,994 | [Kaladesh revolt](Conflicts%20%26%20Arcs.md#kaladesh-revolt) |
 | AKH/HOU | ✅ | 16 | 78,651 | [Amonkhet & the God-Pharaoh](Conflicts%20%26%20Arcs.md#amonkhet--the-god-pharaoh) |
 | XLN/RIX | ✅ | 17 | 81,346 | [Ixalan & the Immortal Sun](Conflicts%20%26%20Arcs.md#ixalan--the-immortal-sun) |
-| other (older arcs, profiles, features) | 📚 | 350 | 1,446,100 | — |
+| ELD | ✅ | 1 | 7,147 | [Throne of Eldraine (2019)](Conflicts%20%26%20Arcs.md#throne-of-eldraine-2019) |
+| THB | ✅ | 3 | 2,499 | [Theros Beyond Death (2020)](Conflicts%20%26%20Arcs.md#theros-beyond-death-2020) |
+| IKO | ✅ | 3 | 7,431 | [Ikoria: Lair of Behemoths (2020)](Conflicts%20%26%20Arcs.md#ikoria-lair-of-behemoths-2020) |
+| BRO | ✅ | 10 | 75,416 | [The Brothers' War frame story (2022)](Conflicts%20%26%20Arcs.md#the-brothers-war-frame-story-2022) |
+| MAT | ✅ | 2 | 13,102 | [March of the Machine: The Aftermath (2023)](Conflicts%20%26%20Arcs.md#march-of-the-machine-the-aftermath-2023) |
+| LCI | ✅ | 8 | 68,074 | [The Lost Caverns of Ixalan (2023)](Conflicts%20%26%20Arcs.md#the-lost-caverns-of-ixalan-2023) |
+| BFZ/OGW | ✅ | 19 | 87,311 | [Eldrazi Awaken / Battle for Zendikar / Gatewatch](Conflicts%20%26%20Arcs.md#eldrazi-awaken--battle-for-zendikar--gatewatch) |
+| SOI/EMN | ✅ | 21 | 116,748 | [Innistrad & Emrakul](Conflicts%20%26%20Arcs.md#innistrad--emrakul) |
+| DOM/WAR | ✅ | 18 | 109,846 | [Return to Dominaria & War of the Spark](Conflicts%20%26%20Arcs.md#return-to-dominaria--war-of-the-spark) |
+| other (older arcs, profiles, features) | 📚 | 269 | 962,280 | — |
 
 ## Planeswalker's Guides
 | Date | Title | Words |

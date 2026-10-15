@@ -47,9 +47,9 @@ schema: 2
 | Master Timeline | 🟢 deepened (cycle 3; **cycle 20**: 6 era summaries with lasting consequences, Outcome column on 18 Post-Mending rows) | 7 era tables (was 6 one-row eras) · **8 AR-dated events** (was 0) · 15 post-Mending steps, 5 invasion phases, 12 Omenpath rows with quoted relative markers · 56 links into Conflicts & Arcs · 23 release-chronology rows |
 | Planes Index | 🟢 complete for named targets (cycle 5) | **23 detailed entries** (was 18). Mercadia and Ulgrotha went from ⚠️ stubs to ✅ sourced (*Known Multiverse*, Wizards 2008). Added Ergamon, ZNR Zendikar, NEO Kamigawa, DMU Dominaria and the Arcavios colleges; Vryn deepened. Only Nauctis remains (no story yet) |
 | Characters Index | 🟢 complete for profiled PWs (cycle 4) | **78 entries** (was 59); **61 ✅ / 10 ❓ / 6 ⚠️ / 1 🚫** (was 54 / 1 / 3 / 1); 0 profiled Planeswalkers left unreviewed (was 19) |
-| Conflicts & Arcs | 🟢 cycle 24 (Phase 6) | **34 arcs** with Cause · Key beats · Outcome · Lasting consequences (of 40 entries); cycle 22 pass on 14 post-2020 arcs; cycle 24 on TDM/EOE/ECL/SOS/RF + Kaladesh/Amonkhet/Ixalan/Alara/Mirrodin + new Theros arc |
-| Contradictions & Retcons Log | 🟢 cycle 24 | **15** cited entries (+4 in cycle 24) · 4 queued |
-| Lore Primary Sources | 🟢 cycle 24 (#73) | [584 fetched pages](Lore%20Primary%20Sources.md) incl. 60 Planeswalker's Guides; 23 arc codes ✅ |
+| Conflicts & Arcs | 🟢 cycle 25 (Phase 6) | **40/40 arcs** with Cause · Key beats · Outcome · Lasting consequences; cycle 25 on ELD/THB/IKO/BRO frame/MAT/LCI + BFZ/SOI/DOM/WAR episode beats; cycle 22 pass on 14 post-2020 arcs; cycle 24 on TDM/EOE/ECL/SOS/RF + Kaladesh/Amonkhet/Ixalan/Alara/Mirrodin + new Theros arc |
+| Contradictions & Retcons Log | 🟢 cycle 25 | **18** cited entries (+3 in cycle 25) · 3 queued |
+| Lore Primary Sources | 🟢 cycle 25 (#73) | [588 fetched pages](Lore%20Primary%20Sources.md) incl. 60 Planeswalker's Guides; 33 arc codes ✅ |
 | Lore-themed EDH decks | 🟢 cycle 23 | [Guide](EDH%20Lore-Themed%20Deckbuilding.md) · 2 decks at the **85% standard** (cycle 23, all non-basic cards incl. lands): Urza Brothers' War **93.8%**; Nahiri **86.8%**; Gate L; `kind: lore` + `lore_score` front matter |
 | Story Arc Summaries | ✅ Phase 2 done (cycles 7–8, #34) | **19 arcs and 135 cited beats** (was 7 / 52). Cycle 8 added BFZ/OGW, SOI/EMN, KLD/AER, AKH/HOU, DOM, WAR, WOE, LCI, DFT, EOE, ECL, SOS and RF, and folded ONE+MOM into one Phyrexia arc. Other pre-2022 arcs stay as entries in Conflicts & Arcs |
 | Planeswalker Dossiers | ✅ Phase 2 done (cycles 7–8, #35) | **21 dossiers** (was 13). Cycle 8 newly sourced the spark moments of Gideon, Sorin, Ugin and Bolas, plus Karn's partial (Venser's spark). Still ❓: Teferi, Kaya, Vraska, Tamiyo, Nahiri, Ral, Oko, Tezzeret, and Ajani's ignition scene |
@@ -110,5 +110,5 @@ schema: 2
 | Phase 4 — Structure & usability | ✅ closed (Bot cycle 14: #46; Bot cycle 15: #44, #45, #47) | `v1.8-cycle15-phase4-complete` |
 | Grixis integration (Bot cycle 16) | ✅ #59–#62 done; #63 (follow-ups) open | `v1.9-grixis-integration` |
 | Phase 5 — Optimization pass (Bot cycles 17–19) | ✅ closed (Bot cycle 17: #65, #67; Bot cycle 18: #66; Bot cycle 19: #68) | `v2.0-phase5-optimization` |
-| Phase 6 — Lore deepening sprint | 🟡 Bot cycle 20 arcs/timeline/retcons; cycle 21 lore deckbuilding (#79–#81); **cycle 22** primary-source pass (#73); **cycle 23** 85% lore-deck standard; **cycle 24** recent + pre-2019 arcs, dossiers started (#74) | milestone 15 |
+| Phase 6 — Lore deepening sprint | 🟡 Bot cycle 20 arcs/timeline/retcons; cycle 21 lore deckbuilding (#79–#81); **cycle 22** primary-source pass (#73); **cycle 23** 85% lore-deck standard; **cycle 24** recent + pre-2019 arcs, dossiers started (#74); **cycle 25** all 40 arcs full format, 4 dossiers + 3 plane entries | milestone 15 |
 

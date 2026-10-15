@@ -5,7 +5,7 @@ tags: [changelog]
 issues: []
 generated_by: hand-written
 sources: []
-related: ["Knowledge Index.md", "Contradictions & Retcons Log.md", "Front-Matter Schema.md", "Conflicts & Arcs.md", "EDH Deck Evaluation Checklist.md", "EDH Deck Template.md"]
+related: ["Contradictions & Retcons Log.md", "Knowledge Index.md", "Conflicts & Arcs.md", "Front-Matter Schema.md", "Lore Primary Sources.md", "EDH Deck Evaluation Checklist.md"]
 schema: 2
 ---
 
@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-15 — Bot cycle 25 (Phase 6: last six arcs, episode upgrades, dossiers)](#2026-10-15--bot-cycle-25-phase-6-last-six-arcs-episode-upgrades-dossiers)
 - [2026-10-15 — Bot cycle 24 (Phase 6: newest arcs, pre-2019 arcs, dossiers)](#2026-10-15--bot-cycle-24-phase-6-newest-arcs-pre-2019-arcs-dossiers)
 - [2026-10-15 — Bot cycle 23 (lore decks: 85% standard incl. lands)](#2026-10-15--bot-cycle-23-lore-decks-85-standard-incl-lands)
 - [2026-10-15 — Bot cycle 22 (Phase 6: primary-source ingestion & thin arcs)](#2026-10-15--bot-cycle-22-phase-6-primary-source-ingestion--thin-arcs)
@@ -38,6 +39,30 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-15 — Bot cycle 25 (Phase 6: last six arcs, episode upgrades, dossiers)
+Issues [#72](https://github.com/corymstover/GrokBotMTGCompanion/issues/72), [#73](https://github.com/corymstover/GrokBotMTGCompanion/issues/73), [#74](https://github.com/corymstover/GrokBotMTGCompanion/issues/74), [#76](https://github.com/corymstover/GrokBotMTGCompanion/issues/76); milestone 15.
+
+- [Conflicts & Arcs](Conflicts%20%26%20Arcs.md): the **last 6 short arcs** are rewritten in Cause · Key beats · Outcome · Lasting consequences · Sources format, so all **40/40** entries are now in full format:
+  - Throne of Eldraine (PW Guide + publisher listing + Story Spotlights; ⚠️ novel not fetched).
+  - Theros Beyond Death (Story Summary + Story on Cards + Journey's End).
+  - Ikoria (PW Guide + Story on Cards; image text kept, ⚠️ not machine-verifiable).
+  - The Brothers' War frame story (5 chapters + 5 episodes).
+  - March of the Machine: The Aftermath (both official side stories).
+  - The Lost Caverns of Ixalan (PW Guide + 6 episodes + Pawns).
+- Episode-cited beats were added to **BFZ/OGW** (Sea Gate, Kiora vs Ulamog, the hedron prison), **SOI/EMN** (the Helvault, Avacyn's death, the moon binding) and **Dominaria/WAR** (Teferi's spark, Belzenlok, Jace's rally, Gideon's Blackblade).
+- `build_primary_sources.py` gains 10 arc codes (33 total): ELD, THB, IKO, BRO, MAT, LCI, BFZ/OGW, SOI/EMN, DOM/WAR. 588 pages in [Lore Primary Sources](Lore%20Primary%20Sources.md).
+- [Planeswalker Dossiers](Planeswalker%20Dossiers.md) (#74): **+19 timeline rows** for Chandra (AER, HOU, DOM, WAR, BRO, MAT), Nissa (BFZ, AKH, DOM, WAR, MAT), Liliana (SOI, EMN, AER, HOU, DOM, WAR) and Gideon (EMN, WAR oath).
+- [Planes Index](Planes%20Index.md) (#74): new detailed entries for **Kaladesh → Avishkar**, **Amonkhet** and **Ixalan**, including the Core of Paradise and Chimil.
+- [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md): **+3 cited entries** (18 total):
+  - Rivals of Ixalan alternate endings vs LCI canon. The Sun Empire ending is canon; this resolves a queued item.
+  - Spark loss after the invasion (Nissa, Nahiri, Teferi, Koth, Huatli, Saheeli).
+  - Teferi's spark: given up, then a Planeswalker again. ❓ The return is undated.
+- Fixes:
+  - Inti dies in LCI **Ep. 5**, not Ep. 6.
+  - Liliana's Gatewatch oath is now cited from *The Promised End*; the dossier had said it was not covered.
+  - The BRO frame outcome now cites Ch. 5 and Ep. 5 directly.
+- Every new quote was checked verbatim against the fetched text (0 misses in the new material; the remaining misses are older quotes from uncached profiles, card flavor text and image text). `validate_all.py` PASS. Grixis #63 remains ON HOLD.
 
 ## 2026-10-15 — Bot cycle 24 (Phase 6: newest arcs, pre-2019 arcs, dossiers)
 Issues [#72](https://github.com/corymstover/GrokBotMTGCompanion/issues/72), [#73](https://github.com/corymstover/GrokBotMTGCompanion/issues/73), [#74](https://github.com/corymstover/GrokBotMTGCompanion/issues/74), [#76](https://github.com/corymstover/GrokBotMTGCompanion/issues/76); milestone 15.
