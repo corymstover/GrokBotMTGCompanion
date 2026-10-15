@@ -25,6 +25,8 @@ sources: [cr, wotc-articles]
 - [Synergy notes](#synergy-notes)
 - [Staples by color & role → EDH Staples](EDH%20Staples.md)
 - [Deck-building checklist](#deck-building-checklist)
+- [Deck evaluation method (from the Grixis repo)](#deck-evaluation-method-from-the-grixis-repo)
+- [Official legality vs house exceptions](#official-legality-vs-house-exceptions)
 - [Open questions](#open-questions)
 
 ## Core rules (verified)
@@ -235,8 +237,18 @@ Built by [`scripts/build_deck_skeleton.py`](scripts/build_deck_skeleton.py): hig
 4. Count Game Changers → bracket floor; flag extra turns, mass land denial, two-card combos.
 5. Output in Archidekt format; link each card to its entry; label any recommendation **Opinion**.
 6. Typical ratios (e.g., ~36 lands, ~10 ramp, ~10 draw, ~8–10 interaction) are **community convention / Opinion**, not rules.
+7. For an external or hand-built list, run `python3 scripts/evaluate_decklist.py list.txt --combos` (any identity). It checks steps 1–4 and prints the bracket floor (Bot cycle 16).
+
+## Deck evaluation method (from the Grixis repo)
+Bot cycle 16 ([#62](https://github.com/corymstover/GrokBotMTGCompanion/issues/62)) adopted the user's Grixis project method ([grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), Deck Quality Gates v3 and Refinement Protocol v1) as this repo's **standard process for building or refining any deck**. The rules above still decide legality. The method adds the strategic and evidence gates:
+- **Commander-first blueprint** before any card is evaluated. **Whole-list audit** of all 99 slots. **Named swaps** (candidate vs cut) in a ledger. A 0–5 **card-fit rubric**. **Red-team** and **commander-necessity** reviews. **Evidence labels** (VERIFIED / HIGH_CONFIDENCE / PROVISIONAL / TEST_REQUIRED / BLOCKED). A **stop rule** (a complete pass with zero new material improvements) and explicit **reopen triggers**.
+- Pages: [EDH Deck Template](EDH%20Deck%20Template.md) (blueprint, role map, ledger, rubric, finalization record) · [EDH Deck Evaluation Checklist](EDH%20Deck%20Evaluation%20Checklist.md) (gates A–E). Worked examples: the 40 [Grixis decks](grixis/README.md).
+- **Repo addition:** every stated target bracket must be ≥ the Game Changer and combo floor. The Grixis records never counted Game Changers, so the import added them ([Grixis Corrections](grixis/Grixis%20Corrections.md)).
+
+## Official legality vs house exceptions
+A Rule 0 group may allow banned cards or companions. Lists published in this repo must be **officially Commander-legal**. A house-allowed card is recorded separately and replaced or flagged, never labeled legal. Example: the Grixis import replaced Trade Secrets and Yawgmoth's Bargain and dropped Lutri as companion ([corrections table](grixis/Grixis%20Corrections.md#corrections-table)).
 
 ## Open questions
 - ❓ The Commander format page says "choose a legendary creature or artifact" while CR 903.3 (2026-09-25) specifies creature, Vehicle, or Spacecraft-with-P/T. This repo follows the CR.
 - ❓ Brackets remain "beta"; the Feb 2026 update said the beta tag may be dropped later in 2026. Re-check each cycle.
-- ⚠️ Two-card combo detection is not automated (candidate future source: Commander Spellbook).
+- ✅ Two-card combo detection is automated through Commander Spellbook (`scripts/detect_combos.py`, `scripts/evaluate_decklist.py --combos`). Spellbook is community-maintained, so a missing combo does not prove that none exists.
