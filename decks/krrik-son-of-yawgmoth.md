@@ -1,3 +1,14 @@
+---
+title: "Deck Skeleton — K'rrik, Son of Yawgmoth"
+category: deck
+kind: core
+commander: "K'rrik, Son of Yawgmoth"
+color_identity: B
+bracket_floor: 4
+game_changers: 7
+validated: true
+---
+
 # Deck Skeleton — K'rrik, Son of Yawgmoth
 
 > **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/krrik-son-of-yawgmoth) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).

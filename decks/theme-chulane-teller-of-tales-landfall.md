@@ -1,3 +1,14 @@
+---
+title: "Deck Skeleton — Chulane, Teller of Tales — Landfall theme"
+category: deck
+kind: theme
+commander: "Chulane, Teller of Tales"
+color_identity: GUW
+bracket_floor: 3
+game_changers: 1
+validated: true
+---
+
 # Deck Skeleton — Chulane, Teller of Tales — Landfall theme
 
 > **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/chulane-teller-of-tales/landfall) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).

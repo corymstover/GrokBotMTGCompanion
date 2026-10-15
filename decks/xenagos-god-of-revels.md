@@ -1,3 +1,14 @@
+---
+title: "Deck Skeleton — Xenagos, God of Revels"
+category: deck
+kind: core
+commander: "Xenagos, God of Revels"
+color_identity: GR
+bracket_floor: 3
+game_changers: 0
+validated: true
+---
+
 # Deck Skeleton — Xenagos, God of Revels
 
 > **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/xenagos-god-of-revels) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).

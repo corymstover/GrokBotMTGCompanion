@@ -1,3 +1,12 @@
+---
+title: "Story Arc Summaries"
+category: lore
+tags: [arcs, story-beats]
+issues: [34]
+generated_by: hand-written
+sources: [wizards-story]
+---
+
 # Story Arc Summaries
 
 > **Bot cycles 7–8 · issue [#34](https://github.com/corymstover/GrokBotMTGCompanion/issues/34).** Narrative summaries of major story arcs, with key beats, outcome and lasting consequences. **Every beat cites the official magic.wizards.com episode it comes from.** Quotes are verbatim; the rest paraphrases the cited episode.

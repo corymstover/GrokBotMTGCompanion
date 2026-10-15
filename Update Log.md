@@ -1,9 +1,18 @@
+---
+title: "Update Log"
+category: meta
+tags: [changelog]
+issues: []
+generated_by: hand-written
+sources: []
+---
+
 # Update Log
 
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
-- [2026-10-15 — Bot cycle 9 (Phase 3 complete; Phase 4 started)](#2026-10-15--bot-cycle-9-phase-3-complete-phase-4-started)
+- [2026-10-15 — Bot cycle 15 (Phase 4 complete; duplicate cleanup)](#2026-10-15--bot-cycle-15-phase-4-complete-duplicate-cleanup)
 - [2026-10-15 — Bot cycle 14 (Phase 4: Lookup Guide)](#2026-10-15--bot-cycle-14-phase-4-lookup-guide)
 - [2026-10-15 — Bot cycle 13 (Phase 3 complete: Artist Index)](#2026-10-15--bot-cycle-13-phase-3-complete-artist-index)
 - [2026-10-15 — Bot cycle 12 (Phase 3: Tokens, Emblems & Dungeons)](#2026-10-15--bot-cycle-12-phase-3-tokens-emblems--dungeons)
@@ -18,6 +27,18 @@
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-15 — Bot cycle 15 (Phase 4 complete; duplicate cleanup)
+
+> All entries in this section are **Bot cycle 15** (Grok Bot) changes, on branch `bot-cycle15`.
+
+| # | Summary | Files affected | Reason |
+|---|---|---|---|
+| 15.1 | Bot cycle 15: **duplicate cleanup**. My commit 5f899da (labelled "Bot cycle 9") landed on main after the parallel Bot cycle 9–14 PRs (#51–#57) had already logged the same Phase 3 work. Removed its duplicate Update Log section, the duplicate Progress Tracker rows (3 card rows, 1 legality row), 4 duplicate Knowledge Index rows and a duplicate README key-files row. ROADMAP now credits #40–#43 to the cycles that merged them (10–13, PRs #52–#55). No generated page or data file was changed. | `Update Log.md`, `Progress Tracker.md`, `Knowledge Index.md`, `README.md`, `ROADMAP.md` | dedupe |
+| 15.2 | Bot cycle 15: **YAML front-matter** on 37 major pages and 46 decks. Pages: title, category, tags, issues, generator, sources. Decks: kind, commander, identity, bracket floor (combo-adjusted), GC count, validated, all parsed from the deck body. `scripts/front_matter.py --check` verifies presence, required keys and staleness. Lookup Guide gains a filter section. | `scripts/front_matter.py`, all registry pages, `decks/*.md`, `Lookup Guide.md` | #44 |
+| 15.3 | Bot cycle 15: **FAQ**, 29 Q&As (9 lore, 9 rules, 7 Commander, 4 cards & collecting). Each answer summarizes existing cited pages and links to the exact section. | `FAQ.md` | #45 |
+| 15.4 | Bot cycle 15: **Knowledge Snapshots**: tag policy plus all 14 snapshots with commits. Created the missing `v1.7-cycle9-phase3-complete` on 63dbeb7 (PR #55 merge) and closed the Phase 3 milestone. `v1.8-cycle15-phase4-complete` goes on this cycle's merge. | `Knowledge Snapshots.md` | #47 |
+| 15.5 | Bot cycle 15: README (Phase 4 complete; queued follow-ups noted as not started), Progress Tracker, Knowledge Index, ROADMAP, Update Log. | `README.md`, `Progress Tracker.md`, `Knowledge Index.md`, `ROADMAP.md`, `Update Log.md` | docs |
 
 ## 2026-10-15 — Bot cycle 14 (Phase 4: Lookup Guide)
 
@@ -72,20 +93,6 @@
 |---|---|---|---|
 | 9.1 | Bot cycle 9: **Keyword Encyclopedia** finish for [#39](https://github.com/corymstover/GrokBotMTGCompanion/issues/39). Added **44** status labels (🌲 evergreen / 🍂 deciduous / 🍁 retired from evergreen / mill note) only where official Wizards articles name the term (Evergreen Eggs & Ham 2015, Introducing Ward 2021, Deciduous 2022, M21 release notes). Everything else stays unlabeled. Added shared WotC **ruling excerpts** on **217** entries (top shared comments among that keyword's cards). | `Keyword Encyclopedia.md`, `scripts/build_keywords.py` | #39 |
 | 9.2 | Bot cycle 9: README dashboard, Progress Tracker, Knowledge Index, ROADMAP tracking table, Update Log (#39 ✅; Phase 3 continues with #40–#43). | `README.md`, `Progress Tracker.md`, `Knowledge Index.md`, `ROADMAP.md`, `Update Log.md` | docs |
-
-## 2026-10-15 — Bot cycle 9 (Phase 3 complete; Phase 4 started)
-
-> All entries in this section are **Bot cycle 9** (Grok Bot) changes, on branch `bot-cycle9`.
-
-| # | Summary | Files affected | Reason |
-|---|---|---|---|
-| 9.1 | Bot cycle 9: **Keyword Encyclopedia finished**. 44 status labels (🌲 evergreen / 🍂 deciduous / 🍁 retired), each from an official Wizards article (*Evergreen Eggs & Ham* 2015, *Introducing Ward* 2021, *Deciduous* 2022, M21 release notes) with a quote. ⚠️ protection is ambiguous per the 2022 article. Unlabeled entries are not called set-specific without a source. Verbatim official ruling excerpts on 217 entries (most widely shared ruling first; card-name-only matches excluded). | `Keyword Encyclopedia.md`, `scripts/build_keywords.py` | #39 |
-| 9.2 | Bot cycle 9: **Printing History**. Per-card printing summary as a separate CSV, so card files don't grow: 33,894 rows, 102,823 paper printings, first/latest set, longest gap, set types, Reserved List (571, quoting the Official Reprint Policy). Page lists most-printed, longest gaps and single-printing Commander staples. | `Printing History.md`, `data/printings_summary.csv`, `scripts/build_printings.py` | #40 |
-| 9.3 | Bot cycle 9: **Format Legality Matrix**. 23 Scryfall formats × 33,894 cards (L/N/B/R), totals, and 1,390 banned/restricted entries across 21 formats. Links the official Wizards B&R list. ⚠️ no claim about who governs each format. | `Format Legality Matrix.md`, `data/legality_matrix.csv`, `scripts/build_legality.py` | #41 |
-| 9.4 | Bot cycle 9: **Tokens, Emblems & Dungeons** (🚫 not cards, CR 111.1/114.1/309.2 quoted). 780 creature and 105 noncreature tokens, 89 emblems, 5 dungeons, with Oracle text and makers (861 linked via Scryfall `all_parts`). Also 159 adventurer cards (real cards, CR 715). | `Tokens, Emblems & Dungeons.md`, `data/tokens.json`, `scripts/build_tokens.py` | #42 |
-| 9.5 | Bot cycle 9: **Artist Index**. 2,440 credited artists with illustrations, printings, card entries, active years and best-known cards. ⚠️ spelling variants are not merged. | `Artist Index.md`, `data/artists.csv`, `scripts/build_artists.py` | #43 |
-| 9.6 | Bot cycle 9: **Lookup Guide** (Phase 4 start). Where each kind of fact lives, with tested `rg`/Python lookups, and which source wins. | `Lookup Guide.md` | #46 |
-| 9.7 | Bot cycle 9: README dashboard and cycle commands, Progress Tracker (Phase 3 closed, Phase 4 open), Knowledge Index, ROADMAP tracking table, Update Log. | `README.md`, `Progress Tracker.md`, `Knowledge Index.md`, `ROADMAP.md`, `Update Log.md` | docs |
 
 ## 2026-10-15 — Bot cycle 8 (Phase 2 complete; Phase 3 keyword encyclopedia started)
 

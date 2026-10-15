@@ -1,3 +1,14 @@
+---
+title: "Deck Skeleton — Talrand, Sky Summoner"
+category: deck
+kind: core
+commander: "Talrand, Sky Summoner"
+color_identity: U
+bracket_floor: 3
+game_changers: 3
+validated: true
+---
+
 # Deck Skeleton — Talrand, Sky Summoner
 
 > **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/talrand-sky-summoner) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).

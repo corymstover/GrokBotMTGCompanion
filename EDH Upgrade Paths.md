@@ -1,3 +1,12 @@
+---
+title: "EDH Upgrade Paths"
+category: edh
+tags: [upgrades, budget]
+issues: [30]
+generated_by: scripts/build_upgrade_paths.py
+sources: [scryfall, edhrec]
+---
+
 # EDH Upgrade Paths
 
 > **Auto-generated** by `scripts/build_upgrade_paths.py` (Bot cycle 7, issue [#30](https://github.com/corymstover/GrokBotMTGCompanion/issues/30)) from Scryfall Oracle bulk 2026-10-15. Do not hand-edit.

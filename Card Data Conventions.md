@@ -1,3 +1,12 @@
+---
+title: "Card Data Conventions"
+category: meta
+tags: [conventions, card-entries]
+issues: []
+generated_by: hand-written
+sources: [scryfall]
+---
+
 # Card Data Conventions
 
 > How card entries are stored, formatted, sourced, and flagged. Applies to every file under [`cards/`](cards/).

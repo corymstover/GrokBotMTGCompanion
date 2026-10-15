@@ -1,3 +1,12 @@
+---
+title: "Story Archive Index"
+category: lore
+tags: [story-archive, sources]
+issues: [14]
+generated_by: scripts/crawl_story_index.py
+sources: [wizards-story]
+---
+
 # Story Archive Index
 
 > This index lists every official Wizards of the Coast story or lore page in the project's research corpus: **612 pages**. Of these, 575 are live on magic.wizards.com and **37 are archived** copies read from the Internet Archive. Built by `scripts/crawl_story_index.py` (Bot cycle 5, issue [#14](https://github.com/corymstover/GrokBotMTGCompanion/issues/14)).

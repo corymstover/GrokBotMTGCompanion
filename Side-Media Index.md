@@ -1,3 +1,12 @@
+---
+title: "Side-Media Index"
+category: lore
+tags: [novels, comics, side-media]
+issues: [38]
+generated_by: hand-written
+sources: [wizards-story, wotc-articles]
+---
+
 # Side-Media Index
 
 > **Bot cycle 8 · issue [#38](https://github.com/corymstover/GrokBotMTGCompanion/issues/38).** Novels, novellas, e-books, comics, games and screen projects tied to Magic's story, with relevance notes. **Each entry cites an official Wizards of the Coast page** (magic.wizards.com) where one was found. A licensed partner's own announcement is marked ⚠️, and anything not confirmed by an official page is ❓. Descriptions paraphrase the cited page. None of these titles was read in full this cycle. Every quoted phrase comes from the linked page.

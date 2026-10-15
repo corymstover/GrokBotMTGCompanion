@@ -1,3 +1,12 @@
+---
+title: "Omenpath & Multiverse Connections"
+category: lore
+tags: [omenpaths, multiverse, planes]
+issues: [36]
+generated_by: hand-written
+sources: [wizards-story]
+---
+
 # Omenpath & Multiverse Connections
 
 > **Bot cycle 7 · issue [#36](https://github.com/corymstover/GrokBotMTGCompanion/issues/36).** Notes on how planes connect in the post-invasion ("Omenpath era") story. Every line cites an official magic.wizards.com story page. ❓ marks what the fetched sources don't establish.

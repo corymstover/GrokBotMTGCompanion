@@ -1,3 +1,15 @@
+---
+title: "Deck Skeleton — Syr Konrad, the Grim — Eldraine-only"
+category: deck
+kind: plane
+commander: "Syr Konrad, the Grim"
+color_identity: B
+bracket_floor: 2
+game_changers: 0
+validated: true
+plane: eldraine
+---
+
 # Deck Skeleton — Syr Konrad, the Grim — Eldraine-only
 
 > **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/syr-konrad-the-grim) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).

@@ -1,3 +1,12 @@
+---
+title: "Planes Index"
+category: lore
+tags: [planes]
+issues: [7, 12]
+generated_by: hand-written
+sources: [wizards-story]
+---
+
 # Planes Index
 
 > Planes of the Magic Multiverse: what each is, its key story sets, and official sources. Characters link to [Characters Index](Characters%20Index.md); wars and arcs to [Conflicts & Arcs](Conflicts%20%26%20Arcs.md); dates to [Master Timeline](Master%20Timeline.md).

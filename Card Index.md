@@ -1,3 +1,12 @@
+---
+title: "Card Index"
+category: cards
+tags: [index, coverage]
+issues: [1, 2, 5]
+generated_by: scripts/ingest_scryfall.py
+sources: [scryfall]
+---
+
 # Card Index
 
 > **Auto-generated** by `scripts/ingest_scryfall.py` — do not hand-edit. Tracks which cards have full entries. Machine-readable index: [`data/card_index.csv`](data/card_index.csv). State: [`data/ingest_state.json`](data/ingest_state.json).

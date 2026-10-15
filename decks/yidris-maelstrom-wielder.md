@@ -1,3 +1,14 @@
+---
+title: "Deck Skeleton — Yidris, Maelstrom Wielder"
+category: deck
+kind: core
+commander: "Yidris, Maelstrom Wielder"
+color_identity: BGRU
+bracket_floor: 2
+game_changers: 0
+validated: true
+---
+
 # Deck Skeleton — Yidris, Maelstrom Wielder
 
 > **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/yidris-maelstrom-wielder) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).

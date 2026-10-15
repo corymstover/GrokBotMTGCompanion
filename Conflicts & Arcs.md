@@ -1,3 +1,12 @@
+---
+title: "Conflicts & Arcs"
+category: lore
+tags: [arcs, conflicts]
+issues: [7, 13, 34]
+generated_by: hand-written
+sources: [wizards-story]
+---
+
 # Conflicts & Arcs
 
 > **Deepened (Bot cycle 3, 2026-10-15).** Wars and multi-set story arcs in story order. Each entry: **Sets** (release month from Scryfall), **Timeline** placement, **Planes**, **Characters**, sourced **Events**, **Outcome**, and **Sources** with a note on what each page establishes. Cross-arc storylines are traced in [Cross-arc threads](#cross-arc-threads). Related: [Characters Index](Characters%20Index.md) · [Planes Index](Planes%20Index.md) · [Master Timeline](Master%20Timeline.md).

@@ -1,3 +1,14 @@
+---
+title: "Deck Skeleton — Gishath, Sun's Avatar"
+category: deck
+kind: core
+commander: "Gishath, Sun's Avatar"
+color_identity: GRW
+bracket_floor: 3
+game_changers: 0
+validated: true
+---
+
 # Deck Skeleton — Gishath, Sun's Avatar
 
 > **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/gishath-suns-avatar) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).

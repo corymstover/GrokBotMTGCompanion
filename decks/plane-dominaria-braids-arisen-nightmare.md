@@ -1,3 +1,15 @@
+---
+title: "Deck Skeleton — Braids, Arisen Nightmare — Dominaria-only"
+category: deck
+kind: plane
+commander: "Braids, Arisen Nightmare"
+color_identity: B
+bracket_floor: 3
+game_changers: 0
+validated: true
+plane: dominaria
+---
+
 # Deck Skeleton — Braids, Arisen Nightmare — Dominaria-only
 
 > **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/braids-arisen-nightmare) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).

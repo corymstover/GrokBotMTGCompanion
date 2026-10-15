@@ -1,3 +1,12 @@
+---
+title: "EDH Interaction"
+category: edh
+tags: [removal, interaction, stax]
+issues: [28]
+generated_by: scripts/build_interaction.py
+sources: [scryfall, edhrec]
+---
+
 # EDH Interaction
 
 > **Auto-generated** by `scripts/build_interaction.py` (Bot cycle 6, issue [#28](https://github.com/corymstover/GrokBotMTGCompanion/issues/28)) from Scryfall Oracle bulk 2026-10-15. Do not hand-edit.

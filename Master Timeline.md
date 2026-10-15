@@ -1,3 +1,12 @@
+---
+title: "Master Timeline"
+category: lore
+tags: [timeline, eras]
+issues: [7]
+generated_by: hand-written
+sources: [wizards-story]
+---
+
 # Master Timeline
 
 > **Deepened (Bot cycle 3, 2026-10-15).** Three views: **(A) in-universe eras** — every row links its arc in [Conflicts & Arcs](Conflicts%20%26%20Arcs.md) and its characters in [Characters Index](Characters%20Index.md); **(A1) dated events** — the only absolute dates (AR = *After Reckoning*) printed in fetched official fiction; **(B) real-world release chronology** (Scryfall set dates). Planes: [Planes Index](Planes%20Index.md).

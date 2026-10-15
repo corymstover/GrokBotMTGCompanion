@@ -1,3 +1,12 @@
+---
+title: "EDH Themed & Plane-Restricted Decks"
+category: edh
+tags: [decks, plane-restricted, themes]
+issues: [33]
+generated_by: scripts/build_themed_index.py
+sources: [scryfall, edhrec]
+---
+
 # EDH Themed & Plane-Restricted Decks
 
 > **Auto-generated** by `scripts/build_themed_index.py` (Bot cycle 7, issue [#33](https://github.com/corymstover/GrokBotMTGCompanion/issues/33)). Each deck is a 100-card **outline** built by `scripts/build_deck_skeleton.py` and checked the same way as every other deck in `decks/`: exact 100 cards, singleton, Commander-legal, strict color identity, the Game Changer bracket floor, Commander Spellbook combo detection, and a rules & rulings block.

@@ -1,3 +1,12 @@
+---
+title: "EDH Staples"
+category: edh
+tags: [staples, color-identity]
+issues: []
+generated_by: scripts/build_staples.py
+sources: [scryfall, edhrec]
+---
+
 # EDH Staples
 
 > **Auto-generated** by `scripts/build_staples.py` from Scryfall Oracle bulk data (2026-10-15) — do not hand-edit. **Data, not opinion:** lists are Commander-legal cards ordered by Scryfall's `edhrec_rank` (EDHREC popularity: the lower the rank, the more decks play it). Popularity ≠ power or fit for your deck. **GC** = on the official Game Changers list (affects [Commander Brackets](EDH%20Standards.md#power-bracket-assessment)). Strict color identity: a card fits a deck only if its identity is a subset of the commander's ([EDH Standards](EDH%20Standards.md#color-identity-strict)).

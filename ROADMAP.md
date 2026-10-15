@@ -1,3 +1,12 @@
+---
+title: "MTG Companion Refinement Sprint (user brief, 2026-10-15)"
+category: meta
+tags: [roadmap, sprint]
+issues: []
+generated_by: hand-written
+sources: []
+---
+
 > **Roadmap**: the user's refinement sprint brief (2026-10-15), copied verbatim below. Bot cycle 6 created one GitHub milestone per phase and one issue per bullet. Progress is tracked on GitHub ([milestones](https://github.com/corymstover/GrokBotMTGCompanion/milestones)) and in [Progress Tracker](Progress%20Tracker.md).
 
 # MTG Companion Refinement Sprint (user brief, 2026-10-15)
@@ -54,11 +63,11 @@ Rules: well-structured, cross-referenced, source-noted, no redundancy; official 
 | Phase 2 | [#37](https://github.com/corymstover/GrokBotMTGCompanion/issues/37) | Art & flavor integration tying significant cards back to story moments | ✅ Bot cycle 8 | [Art & Flavor Story Links](Art%20%26%20Flavor%20Story%20Links.md) |
 | Phase 2 | [#38](https://github.com/corymstover/GrokBotMTGCompanion/issues/38) | Side-media index (novels, webcomics, etc.) with relevance notes | ✅ Bot cycle 8 | [Side-Media Index](Side-Media%20Index.md) |
 | Phase 3 | [#39](https://github.com/corymstover/GrokBotMTGCompanion/issues/39) | Keyword & ability encyclopedia (evergreen and set-specific) with examples and ruling links | ✅ Bot cycle 9: 264 entries, 44 sourced status labels, ruling excerpts | [Keyword Encyclopedia](Keyword%20Encyclopedia.md) |
-| Phase 3 | [#40](https://github.com/corymstover/GrokBotMTGCompanion/issues/40) | Reprint & set-history notes per card where useful | ✅ Bot cycle 9 | [Printing History](Printing%20History.md) · `data/printings_summary.csv` |
-| Phase 3 | [#41](https://github.com/corymstover/GrokBotMTGCompanion/issues/41) | Format legality matrix beyond Commander | ✅ Bot cycle 9 | [Format Legality Matrix](Format%20Legality%20Matrix.md) · `data/legality_matrix.csv` |
-| Phase 3 | [#42](https://github.com/corymstover/GrokBotMTGCompanion/issues/42) | Structured token, emblem, and dungeon/adventure data | ✅ Bot cycle 9 | [Tokens, Emblems & Dungeons](Tokens%2C%20Emblems%20%26%20Dungeons.md) · `data/tokens.json` |
-| Phase 3 | [#43](https://github.com/corymstover/GrokBotMTGCompanion/issues/43) | Artist / art-credit index | ✅ Bot cycle 9 | [Artist Index](Artist%20Index.md) · `data/artists.csv` |
-| Phase 4 | [#44](https://github.com/corymstover/GrokBotMTGCompanion/issues/44) | Consistent tagging or YAML front-matter on major entries for easier filtering | ⏳ open | — |
-| Phase 4 | [#45](https://github.com/corymstover/GrokBotMTGCompanion/issues/45) | Central FAQ for common lore and rules questions with internal links | ⏳ open | — |
+| Phase 3 | [#40](https://github.com/corymstover/GrokBotMTGCompanion/issues/40) | Reprint & set-history notes per card where useful | ✅ Bot cycle 10 (PR #52) | [Printing History](Printing%20History.md) · `data/printings_summary.csv` |
+| Phase 3 | [#41](https://github.com/corymstover/GrokBotMTGCompanion/issues/41) | Format legality matrix beyond Commander | ✅ Bot cycle 11 (PR #53) | [Format Legality Matrix](Format%20Legality%20Matrix.md) · `data/legality_matrix.csv` |
+| Phase 3 | [#42](https://github.com/corymstover/GrokBotMTGCompanion/issues/42) | Structured token, emblem, and dungeon/adventure data | ✅ Bot cycle 12 (PR #54) | [Tokens, Emblems & Dungeons](Tokens%2C%20Emblems%20%26%20Dungeons.md) · `data/tokens.json` |
+| Phase 3 | [#43](https://github.com/corymstover/GrokBotMTGCompanion/issues/43) | Artist / art-credit index | ✅ Bot cycle 13 (PR #55) | [Artist Index](Artist%20Index.md) · `data/artists.csv` |
+| Phase 4 | [#44](https://github.com/corymstover/GrokBotMTGCompanion/issues/44) | Consistent tagging or YAML front-matter on major entries for easier filtering | ✅ Bot cycle 15 | `scripts/front_matter.py` · [Lookup Guide → filters](Lookup%20Guide.md#filtering-by-front-matter) |
+| Phase 4 | [#45](https://github.com/corymstover/GrokBotMTGCompanion/issues/45) | Central FAQ for common lore and rules questions with internal links | ✅ Bot cycle 15 | [FAQ](FAQ.md) |
 | Phase 4 | [#46](https://github.com/corymstover/GrokBotMTGCompanion/issues/46) | Documented lookup patterns or simple helper notes so entries are faster to retrieve | ✅ Bot cycle 14 | [Lookup Guide](Lookup%20Guide.md) |
-| Phase 4 | [#47](https://github.com/corymstover/GrokBotMTGCompanion/issues/47) | Additional knowledge-snapshot tags at meaningful milestones | ⏳ open | — |
+| Phase 4 | [#47](https://github.com/corymstover/GrokBotMTGCompanion/issues/47) | Additional knowledge-snapshot tags at meaningful milestones | ✅ Bot cycle 15 | [Knowledge Snapshots](Knowledge%20Snapshots.md) |
