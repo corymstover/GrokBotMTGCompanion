@@ -180,7 +180,7 @@ schema: 2
 - **Rulings** (2):
   - *2017-09-29* — Huatli’s last ability affects only Dinosaurs you control at the time it resolves. Dinosaurs you begin to control later in the turn or creatures that become Dinosaurs later in the turn won’t get +4/+4.
   - *2017-09-29* — If either creature is an illegal target as Huatli’s second ability resolves, the creature you control won’t deal damage.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#huatli-dinosaur-knight)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/H.md#huatli-dinosaur-knight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/285/huatli-dinosaur-knight) · oracle_id `04aa210a-235f-4e07-87d1-0d28cdf6888b` · printing: XLN #285 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Huatli, Poet of Unity // Roar of the Fifth People
@@ -200,7 +200,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9406 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-11-10* — Roar of the Fifth People's second chapter ability doesn't have a duration. It will continue to apply as long as Roar of the Fifth People remains on the battlefield.
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/H.md#huatli-poet-of-unity--roar-of-the-fifth-people)
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/H.md#huatli-poet-of-unity--roar-of-the-fifth-people)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/189/huatli-poet-of-unity-roar-of-the-fifth-people) · oracle_id `2e6ed3e6-d2b8-4b75-b7e1-0773da4987a1` · printing: LCI #189 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Huatli, Radiant Champion
@@ -216,7 +216,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-01-19* — If you activate Huatli's first ability while you control no creatures, she'll get one loyalty counter from the ability's activation cost and no others as it resolves.
   - *2018-01-19* — The number of creatures you control is counted only as Huatli's first or second ability resolves. Once her second ability resolves, the bonus won't change, even if the number of creatures you control changes later in the turn.
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/H.md#huatli-radiant-champion)
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/H.md#huatli-radiant-champion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/159/huatli-radiant-champion) · oracle_id `5ab5b82a-83e1-44d7-b8c3-9cd7accc1ca4` · printing: RIX #159 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Huatli's Final Strike
@@ -293,7 +293,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-05-03* — Huatli’s first ability doesn’t actually change any creature’s power. It changes only the amount of combat damage it assigns. All other rules and effects that check power or toughness use the real values. For example, Domri’s Ambush won’t cause a creature to deal damage equal to its toughness.
   - *2019-05-03* — The greatest toughness among creatures you control is determined only as Huatli’s loyalty ability begins to resolve.
-- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/H.md#huatli-the-suns-heart)
+- **Referenced in:** 3 pages (3 lore & story) → [reverse index](../../references/H.md#huatli-the-suns-heart)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/230/huatli-the-suns-heart) · oracle_id `e1a13723-a6b1-4160-8eb5-f7a4860898a3` · printing: WAR #230 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Huatli, Warrior Poet
@@ -311,7 +311,7 @@ schema: 2
   - *2017-09-29* — The greatest power among creatures you control is determined as Huatli's first ability resolves. If that number is negative, you won't gain or lose any life.
   - *2017-09-29* — You can activate Huatli's first ability even if you control no creatures. You simply won't gain any life.
   - *2017-09-29* — You divide the damage among the target creatures as you activate Huatli's last ability. Each target must be assigned at least 1 damage. If X is 0, you can't choose any targets.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#huatli-warrior-poet)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/H.md#huatli-warrior-poet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/224/huatli-warrior-poet) · oracle_id `3ec889bc-f4d7-492a-91c3-d3691eb90eac` · printing: XLN #224 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hua Tuo, Honored Physician

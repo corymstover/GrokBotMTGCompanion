@@ -352,7 +352,7 @@ schema: 2
   > *Samut doesn't pretend to know the best path, but she does know that Amonkhet will only thrive if its people keep moving forward.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8813 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/S.md#samut-hazorets-champion)
+- **Referenced in:** 3 pages (1 decks · 2 lore & story) → [reverse index](../../references/S.md#samut-hazorets-champion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/251/samut-hazorets-champion) · oracle_id `add02a36-8811-438b-a8e1-f5c8a8146b4e` · printing: FRA #251 (2026-10-02) · [rulings](https://api.scryfall.com/cards/ba920f23-f05c-410e-8516-c93abedf1d4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samut's Sprint
@@ -388,7 +388,7 @@ schema: 2
   - *2025-02-07* — Start your engines! isn’t a triggered ability. Increasing your speed to 1 is something that happens as a state-based action as soon as you control a permanent with the ability. Notably, this includes gaining control of a permanent with the ability that another player controls.
   - *2025-02-07* — Your speed doesn’t change until a spell or ability says so, such as the inherent triggered ability that cares about opponents losing life during your turn. Notably, losing control of permanents with start your engines! doesn’t affect your speed.
   - *2025-02-07* — “Max speed — [ability]” means “As long as you have max speed, this object has [ability].” If the granted ability functions in a zone other than the battlefield, the max speed ability does too.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#samut-the-driving-force)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/S.md#samut-the-driving-force)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/222/samut-the-driving-force) · oracle_id `ee89c719-5ae8-4316-bfd0-cfe3684b5859` · printing: DFT #222 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samut, the Tested
@@ -405,7 +405,7 @@ schema: 2
   - *2017-07-14* — If Samut's second ability has two targets and one becomes an illegal target, the remaining target is dealt 1 damage, not 2.
   - *2017-07-14* — While resolving Samut's last ability, all of the creatures and planeswalkers put onto the battlefield this way enter at the same time. If any have triggered abilities that trigger on something else entering the battlefield, they'll see each other.
   - *2017-07-14* — You divide the damage as you activate Samut's second ability, not as it resolves. Each target must be assigned at least 1 damage. In other words, as you activate the ability, you choose whether to have it deal 2 damage to a single target, or deal 1 damage to each of two targets.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#samut-the-tested)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/S.md#samut-the-tested)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/144/samut-the-tested) · oracle_id `fffdc2ac-bde4-4e4c-a5bd-0e6c6e49ad91` · printing: HOU #144 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samut, Tyrant of Naktamun
@@ -424,7 +424,7 @@ schema: 2
   - *2026-08-21* — If the resolution of a triggered ability involves casting a spell, that spell can't be cast if a spell with split second is on the stack.
   - *2026-08-21* — Players still get priority while a card with split second is on the stack; their options are just limited to mana abilities and certain special actions.
   - *2026-08-21* — Split second doesn't stop triggered abilities from triggering. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal.
-- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/S.md#samut-tyrant-of-naktamun)
+- **Referenced in:** 3 pages (1 decks · 2 lore & story) → [reverse index](../../references/S.md#samut-tyrant-of-naktamun)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/220/samut-tyrant-of-naktamun) · oracle_id `a275f7ac-7dae-4422-875a-f34f24b6f28a` · printing: FRA #220 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samut, Tyrant Smasher
@@ -439,7 +439,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16783 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-05-03* — If the target creature is an illegal target by the time Samut’s loyalty ability tries to resolve, the ability doesn’t resolve. You won’t scry 1.
-- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/S.md#samut-tyrant-smasher)
+- **Referenced in:** 3 pages (3 lore & story) → [reverse index](../../references/S.md#samut-tyrant-smasher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/235/samut-tyrant-smasher) · oracle_id `80405d7a-f533-44bd-ac85-890476cf2b78` · printing: WAR #235 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samut, Vizier of Naktamun
@@ -455,7 +455,7 @@ schema: 2
 - **Keywords:** Vigilance, First strike, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7126 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#samut-vizier-of-naktamun)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/S.md#samut-vizier-of-naktamun)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mat/45/samut-vizier-of-naktamun) · oracle_id `178b3fdf-dbee-4245-a811-b21ff8a24f66` · printing: MAT #45 (2023-05-12) · [rulings](https://api.scryfall.com/cards/a0f3fdb0-47ad-4df6-a95c-a2c81aaf7af5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samut, Voice of Dissent
@@ -473,7 +473,7 @@ schema: 2
 - **Keywords:** Vigilance, Haste, Double strike, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6345 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 4 pages (1 decks · 1 edh guides · 2 lore & story) → [reverse index](../../references/S.md#samut-voice-of-dissent)
+- **Referenced in:** 5 pages (1 decks · 1 edh guides · 3 lore & story) → [reverse index](../../references/S.md#samut-voice-of-dissent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/205/samut-voice-of-dissent) · oracle_id `b1eee275-5106-4c8d-a497-d7945ad81d74` · printing: AKH #205 (2017-04-28) · [rulings](https://api.scryfall.com/cards/60f2d8f1-43a9-438a-830c-9d6b5701f950/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samwise Gamgee

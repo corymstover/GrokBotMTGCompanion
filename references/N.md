@@ -190,37 +190,37 @@ schema: 2
 
 ### Narset, Enlightened Exile
 
-[Card entry](../cards/N/na.md#narset-enlightened-exile) · **2 pages** (edh guides 1 · lore & story 1)
+[Card entry](../cards/N/na.md#narset-enlightened-exile) · **3 pages** (edh guides 1 · lore & story 2)
 
 - **EDH guides (1):** [EDH Staples → Jeskai (WUR)](../EDH%20Staples.md#jeskai-wur)
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Narset, Enlightened Master
 
-[Card entry](../cards/N/na.md#narset-enlightened-master) · **1 pages** (lore & story 1)
+[Card entry](../cards/N/na.md#narset-enlightened-master) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Narset, Jeskai Waymaster
 
-[Card entry](../cards/N/na.md#narset-jeskai-waymaster) · **1 pages** (lore & story 1)
+[Card entry](../cards/N/na.md#narset-jeskai-waymaster) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Narset of the Ancient Way
 
-[Card entry](../cards/N/na.md#narset-of-the-ancient-way) · **2 pages** (lore & story 1 · card data 1)
+[Card entry](../cards/N/na.md#narset-of-the-ancient-way) · **3 pages** (lore & story 2 · card data 1)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
 
 ### Narset, Parter of Veils
 
-[Card entry](../cards/N/na.md#narset-parter-of-veils) · **6 pages** (decks 2 · edh guides 1 · lore & story 1 · card data 2)
+[Card entry](../cards/N/na.md#narset-parter-of-veils) · **7 pages** (decks 2 · edh guides 1 · lore & story 2 · card data 2)
 
 - **Decks (2):** [Atraxa, Praetors' Voice (planeswalkers theme)](../decks/theme-atraxa-praetors-voice-planeswalkers.md) · [Kraum, Ludevic's Opus (Grixis)](../grixis/decks/grixistax-october-2026.md)
 - **EDH guides (1):** [EDH Standards → Game Changers](../EDH%20Standards.md#game-changers)
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (2):** [Artist Index → Artists A](../Artist%20Index.md#artists-a) (+3 more) · [Format Legality Matrix → vintage](../Format%20Legality%20Matrix.md#vintage)
 
 ### Narset's Rebuke
@@ -239,10 +239,10 @@ schema: 2
 
 ### Narset Transcendent
 
-[Card entry](../cards/N/na.md#narset-transcendent) · **3 pages** (decks 1 · lore & story 1 · card data 1)
+[Card entry](../cards/N/na.md#narset-transcendent) · **4 pages** (decks 1 · lore & story 2 · card data 1)
 
 - **Decks (1):** [Atraxa, Praetors' Voice (planeswalkers theme)](../decks/theme-atraxa-praetors-voice-planeswalkers.md)
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
 
 ### Naru Meha, Master Wizard

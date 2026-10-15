@@ -1177,7 +1177,7 @@
 "Planes Index.md",
 "Contradictions & Retcons Log.md",
 "Lore Primary Sources.md",
-"Story Arc Summaries.md"
+"Items & Artifacts Index.md"
 ]
 },
 {
@@ -1355,6 +1355,21 @@
 3,
 "The Living Guildpact: Jace, then Niv-Mizzet",
 "the-living-guildpact-jace-then-niv-mizzet"
+],
+[
+2,
+"Added Bot cycle 29",
+"added-bot-cycle-29"
+],
+[
+3,
+"Who made the sylex?",
+"who-made-the-sylex"
+],
+[
+3,
+"Vraska's spark after compleation",
+"vraskas-spark-after-compleation"
 ],
 [
 2,
@@ -3811,6 +3826,16 @@
 "theros-god-weapons"
 ],
 [
+3,
+"Mana Rig, powerstones & Thran steel (DMU)",
+"mana-rig-powerstones--thran-steel-dmu"
+],
+[
+3,
+"Singularity beads (EOE)",
+"singularity-beads-eoe"
+],
+[
 2,
 "Spells & world-scale magic",
 "spells--world-scale-magic"
@@ -4606,6 +4631,26 @@
 "shandalar"
 ],
 [
+3,
+"Thunder Junction",
+"thunder-junction"
+],
+[
+3,
+"Bloomburrow",
+"bloomburrow"
+],
+[
+3,
+"Duskmourn",
+"duskmourn"
+],
+[
+3,
+"Sothera system (the Edge)",
+"sothera-system-the-edge"
+],
+[
 2,
 "Special realms & cosmology",
 "special-realms--cosmology"
@@ -4764,6 +4809,36 @@
 2,
 "Niv-Mizzet",
 "niv-mizzet"
+],
+[
+2,
+"Kiora",
+"kiora"
+],
+[
+2,
+"Koth",
+"koth"
+],
+[
+2,
+"Narset",
+"narset"
+],
+[
+2,
+"Saheeli Rai",
+"saheeli-rai"
+],
+[
+2,
+"Huatli",
+"huatli"
+],
+[
+2,
+"Samut",
+"samut"
 ],
 [
 2,
@@ -5425,6 +5500,11 @@
 "headings": [
 [
 2,
+"2026-10-15 — Bot cycle 29 (Phase 6: dossiers, Omenpath-era planes, items)",
+"2026-10-15--bot-cycle-29-phase-6-dossiers-omenpath-era-planes-items"
+],
+[
+2,
 "2026-10-15 — Bot cycle 28 (Phase 6: dossiers, items, planes, retcons)",
 "2026-10-15--bot-cycle-28-phase-6-dossiers-items-planes-retcons"
 ],
@@ -5568,10 +5648,10 @@
 "related": [
 "Contradictions & Retcons Log.md",
 "Planeswalker Dossiers.md",
-"Knowledge Index.md",
 "Lore Primary Sources.md",
 "Planes Index.md",
-"Characters Index.md"
+"Items & Artifacts Index.md",
+"Knowledge Index.md"
 ]
 },
 {
@@ -51465,6 +51545,11 @@
 3,
 "The Lost and the Damned",
 "the-lost-and-the-damned"
+],
+[
+3,
+"The Mana Rig",
+"the-mana-rig"
 ],
 [
 3,

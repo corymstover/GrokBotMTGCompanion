@@ -2441,7 +2441,7 @@ schema: 2
   - *2022-09-09* — If a spell or an activated ability that isn’t a mana ability has a cost that requires a player to pay life, that spell or ability can’t be cast or activated.
   - *2022-09-09* — Other things may still cause players to pay life, such as a resolving spell or ability.
   - *2022-09-09* — Players may always pay 0 life, even if an effect says they can’t pay life.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/K.md#karns-sylex)
+- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/K.md#karns-sylex)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/234/karns-sylex) · oracle_id `c5e817f9-a003-45b5-8e16-1746e6096166` · printing: DMU #234 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Karn's Temporal Sundering

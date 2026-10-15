@@ -1414,7 +1414,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4234 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-02-04* — Koth's emblem is colorless. Notably, this means that protection from red won't stop a permanent or player from being the target of the emblem's ability, nor will it prevent the damage being dealt. Replacement effects that care about damage from a red source don't apply to it.
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/K.md#koth-fire-of-resistance)
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/K.md#koth-fire-of-resistance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/138/koth-fire-of-resistance) · oracle_id `2c75b870-263b-41ab-9ece-6e3845bc3d8d` · printing: ONE #138 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Koth of the Hammer
@@ -1433,7 +1433,7 @@ schema: 2
   - *2011-01-01* — Koth’s emblem grants an activated ability to each Mountain you control at any given time for the rest of the game. It will continuously check which permanents you control are Mountains to determine what has the ability. For example, a Mountain that comes under your control later in the game will have the ability, while a Mountain you controlled at the time the emblem was created, but that later came under the control of another player, will no longer have the ability.
   - *2011-01-01* — Koth’s first ability can target any Mountain, including an untapped Mountain and/or a Mountain another player controls.
   - *2011-01-01* — Loyalty abilities can’t be mana abilities. Koth’s second ability uses the stack and can be countered or otherwise responded to. Like all loyalty abilities, it can be activated only once per turn, during your main phase, when the stack is empty, and only if no other loyalty abilities of this permanent have been activated this turn.
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/K.md#koth-of-the-hammer)
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/K.md#koth-of-the-hammer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddi/44/koth-of-the-hammer) · oracle_id `589186e0-3ebe-46a3-a9e7-798b1712fa93` · printing: DDI #44 (2012-03-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Koth of the Homestead
@@ -1450,7 +1450,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20092 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-08-21* — When a Plains you control enters, both of Koth's abilities will trigger. In that case, Koth's controller determines what order those abilities are placed on the stack.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/K.md#koth-of-the-homestead)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/K.md#koth-of-the-homestead)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/199/koth-of-the-homestead) · oracle_id `567aeb60-a441-41b1-98f4-54510d299317` · printing: FRA #199 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kothophed, Soul Hoarder
@@ -1498,7 +1498,7 @@ schema: 2
 - **Keywords:** Reach, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15036 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/K.md#koth-the-geomancer)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/K.md#koth-the-geomancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/248/koth-the-geomancer) · oracle_id `3b17da84-ae4d-4fc1-a327-85e54e6156c6` · printing: FRA #248 (2026-10-02) · [rulings](https://api.scryfall.com/cards/54f64e95-5a97-4d7c-9939-7f33a3165562/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kotis, Sibsig Champion

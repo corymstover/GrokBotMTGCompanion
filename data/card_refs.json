@@ -1,7 +1,7 @@
 {
 "generated_by": "scripts/build_crossrefs.py",
 "bulk": "2026-10-15",
-"cards_referenced": 8535,
+"cards_referenced": 8536,
 "cards": {
 "00037840-6089-42ec-8c5c-281f9f474504": {
 "name": "Nissa, Worldsoul Speaker",
@@ -967,9 +967,9 @@
 },
 "02b41d0e-82e7-4307-8cc4-8175ff78ea1f": {
 "name": "Kiora of Fire and Ashes",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/K.md#kiora-of-fire-and-ashes"
 },
@@ -1461,9 +1461,9 @@
 },
 "04aa210a-235f-4e07-87d1-0d28cdf6888b": {
 "name": "Huatli, Dinosaur Knight",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/H.md#huatli-dinosaur-knight"
 },
@@ -3470,9 +3470,9 @@
 },
 "0b829189-ff9d-4f6c-9a2a-fdb4a9bfeeb6": {
 "name": "Kiora, Master of the Depths",
-"n": 3,
+"n": 4,
 "kinds": {
-"lore": 2,
+"lore": 3,
 "cards": 1
 },
 "index": "references/K.md#kiora-master-of-the-depths"
@@ -4212,9 +4212,9 @@
 },
 "0e084342-31ff-47a5-9fd8-5b385add7a1a": {
 "name": "Saheeli, the Gifted",
-"n": 2,
+"n": 3,
 "kinds": {
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/S.md#saheeli-the-gifted"
@@ -7109,9 +7109,9 @@
 },
 "178b3fdf-dbee-4245-a811-b21ff8a24f66": {
 "name": "Samut, Vizier of Naktamun",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/S.md#samut-vizier-of-naktamun"
 },
@@ -7903,9 +7903,9 @@
 },
 "1a2a74b8-0689-4959-9348-02cc832194cf": {
 "name": "Narset, Jeskai Waymaster",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/N.md#narset-jeskai-waymaster"
 },
@@ -9078,9 +9078,9 @@
 },
 "1efe485e-6874-4f4c-b981-e10f41670865": {
 "name": "Kiora, Behemoth Beckoner",
-"n": 2,
+"n": 3,
 "kinds": {
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/K.md#kiora-behemoth-beckoner"
@@ -9661,9 +9661,9 @@
 },
 "20f602b3-814f-406c-b7eb-2d1fc98f8cf1": {
 "name": "Saheeli, Radiant Creator",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/S.md#saheeli-radiant-creator"
 },
@@ -12751,9 +12751,9 @@
 },
 "2c75b870-263b-41ab-9ece-6e3845bc3d8d": {
 "name": "Koth, Fire of Resistance",
-"n": 2,
+"n": 3,
 "kinds": {
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/K.md#koth-fire-of-resistance"
@@ -13344,9 +13344,9 @@
 },
 "2e6ed3e6-d2b8-4b75-b7e1-0773da4987a1": {
 "name": "Huatli, Poet of Unity // Roar of the Fifth People",
-"n": 2,
+"n": 3,
 "kinds": {
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/H.md#huatli-poet-of-unity--roar-of-the-fifth-people"
@@ -17268,9 +17268,9 @@
 },
 "3b17da84-ae4d-4fc1-a327-85e54e6156c6": {
 "name": "Koth, the Geomancer",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/K.md#koth-the-geomancer"
 },
@@ -18350,9 +18350,9 @@
 },
 "3ec889bc-f4d7-492a-91c3-d3691eb90eac": {
 "name": "Huatli, Warrior Poet",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/H.md#huatli-warrior-poet"
 },
@@ -24874,9 +24874,9 @@
 },
 "567aeb60-a441-41b1-98f4-54510d299317": {
 "name": "Koth of the Homestead",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/K.md#koth-of-the-homestead"
 },
@@ -25414,6 +25414,14 @@
 },
 "index": "references/L.md#lightning-army-of-one"
 },
+"58678469-77e5-4c1b-88d6-5e6642b0c8ca": {
+"name": "The Mana Rig",
+"n": 1,
+"kinds": {
+"lore": 1
+},
+"index": "references/T.md#the-mana-rig"
+},
 "587368eb-068c-44a3-ba8c-5ad0f59f880f": {
 "name": "Tooth and Claw",
 "n": 1,
@@ -25440,9 +25448,9 @@
 },
 "589186e0-3ebe-46a3-a9e7-798b1712fa93": {
 "name": "Koth of the Hammer",
-"n": 2,
+"n": 3,
 "kinds": {
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/K.md#koth-of-the-hammer"
@@ -25523,9 +25531,9 @@
 },
 "58cc2097-f4b4-4695-9076-78666050cdb6": {
 "name": "Kiora, the Crashing Wave",
-"n": 3,
+"n": 4,
 "kinds": {
-"lore": 2,
+"lore": 3,
 "cards": 1
 },
 "index": "references/K.md#kiora-the-crashing-wave"
@@ -25972,17 +25980,17 @@
 },
 "5aa76c5d-8046-42ce-b61d-cc9b4806c11a": {
 "name": "Saheeli, the Sun's Brilliance",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/S.md#saheeli-the-suns-brilliance"
 },
 "5ab5b82a-83e1-44d7-b8c3-9cd7accc1ca4": {
 "name": "Huatli, Radiant Champion",
-"n": 2,
+"n": 3,
 "kinds": {
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/H.md#huatli-radiant-champion"
@@ -26756,9 +26764,9 @@
 },
 "5d748bce-dff8-46fa-a3d1-633863b7bbff": {
 "name": "Kiora, the Rising Tide",
-"n": 2,
+"n": 3,
 "kinds": {
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/K.md#kiora-the-rising-tide"
@@ -27232,9 +27240,9 @@
 },
 "5f3fe679-aff1-41b3-8d75-c78c2c0636f0": {
 "name": "Saheeli Rai",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/S.md#saheeli-rai"
 },
@@ -30052,10 +30060,10 @@
 },
 "68cf7415-b434-4284-89b4-c7d44a003eb8": {
 "name": "Saheeli, Filigree Master",
-"n": 3,
+"n": 4,
 "kinds": {
 "edh": 1,
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/S.md#saheeli-filigree-master"
@@ -33856,8 +33864,9 @@
 },
 "760ede92-a826-4144-9de8-84ba9b8743d1": {
 "name": "Sothera, the Supervoid",
-"n": 1,
+"n": 2,
 "kinds": {
+"lore": 1,
 "cards": 1
 },
 "index": "references/S.md#sothera-the-supervoid"
@@ -36762,9 +36771,9 @@
 },
 "80405d7a-f533-44bd-ac85-890476cf2b78": {
 "name": "Samut, Tyrant Smasher",
-"n": 2,
+"n": 3,
 "kinds": {
-"lore": 2
+"lore": 3
 },
 "index": "references/S.md#samut-tyrant-smasher"
 },
@@ -37447,9 +37456,9 @@
 },
 "83705258-1f42-41db-a32e-de99ffd759eb": {
 "name": "Saheeli, Jewel of Avishkar",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/S.md#saheeli-jewel-of-avishkar"
 },
@@ -42389,9 +42398,9 @@
 },
 "95df54e2-0196-4e54-8144-de5982ce07f5": {
 "name": "Kiora, Sovereign of the Deep",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/K.md#kiora-sovereign-of-the-deep"
 },
@@ -45836,10 +45845,10 @@
 },
 "a275f7ac-7dae-4422-875a-f34f24b6f28a": {
 "name": "Samut, Tyrant of Naktamun",
-"n": 2,
+"n": 3,
 "kinds": {
 "deck": 1,
-"lore": 1
+"lore": 2
 },
 "index": "references/S.md#samut-tyrant-of-naktamun"
 },
@@ -48276,11 +48285,11 @@
 },
 "ab26fbe2-e808-48b9-8d0d-3fbb6c3d554f": {
 "name": "Narset, Parter of Veils",
-"n": 6,
+"n": 7,
 "kinds": {
 "deck": 2,
 "edh": 1,
-"lore": 1,
+"lore": 2,
 "cards": 2
 },
 "index": "references/N.md#narset-parter-of-veils"
@@ -48346,10 +48355,10 @@
 },
 "ab655810-f67e-4576-9174-35b16f5e3235": {
 "name": "Saheeli, Sublime Artificer",
-"n": 4,
+"n": 5,
 "kinds": {
 "deck": 1,
-"lore": 1,
+"lore": 2,
 "cards": 2
 },
 "index": "references/S.md#saheeli-sublime-artificer"
@@ -49073,10 +49082,10 @@
 },
 "add02a36-8811-438b-a8e1-f5c8a8146b4e": {
 "name": "Samut, Hazoret's Champion",
-"n": 2,
+"n": 3,
 "kinds": {
 "deck": 1,
-"lore": 1
+"lore": 2
 },
 "index": "references/S.md#samut-hazorets-champion"
 },
@@ -49290,9 +49299,9 @@
 },
 "aeaf7768-ed67-487d-8506-e667babb88ba": {
 "name": "Narset, Enlightened Master",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/N.md#narset-enlightened-master"
 },
@@ -50167,11 +50176,11 @@
 },
 "b1eee275-5106-4c8d-a497-d7945ad81d74": {
 "name": "Samut, Voice of Dissent",
-"n": 4,
+"n": 5,
 "kinds": {
 "deck": 1,
 "edh": 1,
-"lore": 2
+"lore": 3
 },
 "index": "references/S.md#samut-voice-of-dissent"
 },
@@ -51595,9 +51604,9 @@
 },
 "b7ac6e89-941f-4ad9-a437-38ec38ec5263": {
 "name": "Narset of the Ancient Way",
-"n": 2,
+"n": 3,
 "kinds": {
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/N.md#narset-of-the-ancient-way"
@@ -55284,9 +55293,10 @@
 },
 "c5e817f9-a003-45b5-8e16-1746e6096166": {
 "name": "Karn's Sylex",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 1,
+"lore": 1
 },
 "index": "references/K.md#karns-sylex"
 },
@@ -60903,10 +60913,10 @@
 },
 "d92725de-ead0-4a6c-83db-55ec3acc7184": {
 "name": "Narset, Enlightened Exile",
-"n": 2,
+"n": 3,
 "kinds": {
 "edh": 1,
-"lore": 1
+"lore": 2
 },
 "index": "references/N.md#narset-enlightened-exile"
 },
@@ -62799,9 +62809,9 @@
 },
 "dfa95c0e-393d-4b22-9de3-45a7efc0ba14": {
 "name": "Saheeli, Consul of Oversight",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/S.md#saheeli-consul-of-oversight"
 },
@@ -63365,9 +63375,9 @@
 },
 "e1a13723-a6b1-4160-8eb5-f7a4860898a3": {
 "name": "Huatli, the Sun's Heart",
-"n": 2,
+"n": 3,
 "kinds": {
-"lore": 2
+"lore": 3
 },
 "index": "references/H.md#huatli-the-suns-heart"
 },
@@ -63451,10 +63461,10 @@
 },
 "e1de0c94-0ecc-425a-9b92-27c2745d07e7": {
 "name": "Narset Transcendent",
-"n": 3,
+"n": 4,
 "kinds": {
 "deck": 1,
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/N.md#narset-transcendent"
@@ -64695,9 +64705,9 @@
 },
 "e70bb7f8-8098-49c5-929c-68f63cd821c5": {
 "name": "Kiora of Salt and Sand",
-"n": 2,
+"n": 3,
 "kinds": {
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/K.md#kiora-of-salt-and-sand"
@@ -66942,9 +66952,9 @@
 },
 "ee89c719-5ae8-4316-bfd0-cfe3684b5859": {
 "name": "Samut, the Driving Force",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/S.md#samut-the-driving-force"
 },
@@ -71951,9 +71961,9 @@
 },
 "fffdc2ac-bde4-4e4c-a5bd-0e6c6e49ad91": {
 "name": "Samut, the Tested",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/S.md#samut-the-tested"
 }

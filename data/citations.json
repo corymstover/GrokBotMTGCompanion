@@ -76,6 +76,10 @@
    "status": "sitemap",
    "checked": "2026-10-15"
   },
+  "https://magic.wizards.com/en/news/announcements/a-first-look-at-outlaws-of-thunder-junction": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
   "https://magic.wizards.com/en/news/announcements/a-first-look-at-wilds-of-eldraine": {
    "status": "sitemap",
    "checked": "2026-10-15"
@@ -101,6 +105,10 @@
    "checked": "2026-10-15"
   },
   "https://magic.wizards.com/en/news/card-preview/introducing-ward-2021-03-25": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/a-legendary-crew-for-an-unbelievable-heist-outlaws-of-thunder-junction": {
    "status": "sitemap",
    "checked": "2026-10-15"
   },
@@ -2937,7 +2945,7 @@
   },
   "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/magic-story/brulis-2017-01-04": {
    "status": "archived",
-   "http": 0,
+   "http": 200,
    "checked": "2026-10-15"
   },
   "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/magic-story/die-erschaffung-von-kaladesh-2016-11-09": {
@@ -2957,17 +2965,17 @@
   },
   "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/battle-ninth-2013-06-18": {
    "status": "archived",
-   "http": 0,
+   "http": 200,
    "checked": "2026-10-15"
   },
   "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/behind-black-sun-2013-03-27": {
    "status": "archived",
-   "http": 200,
+   "http": 0,
    "checked": "2026-10-15"
   },
   "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/bilagru-will-come-you-2013-03-11": {
    "status": "archived",
-   "http": 200,
+   "http": 0,
    "checked": "2026-10-15"
   },
   "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/blood-will-have-blood-2014-06-04": {
@@ -2977,7 +2985,7 @@
   },
   "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/building-toward-dream-part-1-2013-11-26": {
    "status": "archived",
-   "http": 200,
+   "http": 0,
    "checked": "2026-10-15"
   },
   "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/burying-part-1-2013-01-28": {
@@ -2987,7 +2995,7 @@
   },
   "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/consequences-attraction-2013-10-07": {
    "status": "archived",
-   "http": 0,
+   "http": 200,
    "checked": "2026-10-15"
   },
   "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/dance-flitterstep-2014-02-18": {
@@ -2997,7 +3005,7 @@
   },
   "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/el-grito-silencioso-2015-08-26": {
    "status": "archived",
-   "http": 200,
+   "http": 0,
    "checked": "2026-10-15"
   },
   "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/expectations-2013-04-24": {
@@ -3012,12 +3020,12 @@
   },
   "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/fblthp-2013-02-27": {
    "status": "archived",
-   "http": 200,
+   "http": 0,
    "checked": "2026-10-15"
   },
   "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/gorgon-and-guildpact-2014-03-12-0": {
    "status": "archived",
-   "http": 200,
+   "http": 0,
    "checked": "2026-10-15"
   },
   "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/greater-good-2013-02-04": {
@@ -3027,7 +3035,7 @@
   },
   "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/guild-deals-2013-02-12": {
    "status": "archived",
-   "http": 0,
+   "http": 200,
    "checked": "2026-10-15"
   },
   "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/guild-deals-2013-02-13": {
@@ -3042,7 +3050,7 @@
   },
   "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/hero-iroas-2014-03-04": {
    "status": "archived",
-   "http": 0,
+   "http": 200,
    "checked": "2026-10-15"
   },
   "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/i-iroan-2013-11-06": {
@@ -3067,7 +3075,7 @@
   },
   "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/los-supervivientes-de-la-roca-celeste-2015-09-09": {
    "status": "archived",
-   "http": 200,
+   "http": 0,
    "checked": "2026-10-15"
   },
   "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/nissa-worldwaker-2014-12-24": {
@@ -3082,17 +3090,17 @@
   },
   "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/pursuit-part-1-2013-04-30": {
    "status": "archived",
-   "http": 0,
+   "http": 200,
    "checked": "2026-10-15"
   },
   "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/pursuit-part-2-2013-05-14": {
    "status": "archived",
-   "http": 200,
+   "http": 0,
    "checked": "2026-10-15"
   },
   "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/seasons-setessa-2014-03-26": {
    "status": "archived",
-   "http": 0,
+   "http": 200,
    "checked": "2026-10-15"
   },
   "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/seven-bells-part-1-2012-11-05": {
@@ -3112,12 +3120,12 @@
   },
   "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/walls-akros-2014-02-26-0": {
    "status": "archived",
-   "http": 200,
+   "http": 0,
    "checked": "2026-10-15"
   },
   "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/zurbits-day-2013-07-30": {
    "status": "archived",
-   "http": 0,
+   "http": 200,
    "checked": "2026-10-15"
   },
   "https://wpn.wizards.com/en/document/magic-gathering-tournament-rules": {

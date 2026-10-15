@@ -154,6 +154,7 @@ schema: 2
   - *2022-09-09* — Although all the cards in the Dominaria United set that create Powerstone tokens create a tapped Powerstone token, entering the battlefield tapped isn’t part of the token’s definition. Notably, if you create a token that is a copy of a Powerstone token, the token copy won’t enter the battlefield tapped.
   - *2022-09-09* — Powerstone tokens are a new kind of predefined token. Each one has the artifact subtype “Powerstone” and the ability “{T}: Add {C}. This mana can’t be spent to cast a nonartifact spell.”
   - *2022-09-09* — You can use the {C} added by a Powerstone token on anything that isn’t a nonartifact spell. This includes paying costs to activate abilities of both artifact and nonartifact permanents, paying ward costs, and so on.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#the-mana-rig)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/28/the-mana-rig) · oracle_id `58678469-77e5-4c1b-88d6-5e6642b0c8ca` · printing: DMC #28 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Many Deeds of Belzenlok

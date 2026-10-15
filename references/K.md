@@ -287,9 +287,10 @@ schema: 2
 
 ### Karn's Sylex
 
-[Card entry](../cards/K/ka.md#karns-sylex) · **1 pages** (decks 1)
+[Card entry](../cards/K/ka.md#karns-sylex) · **2 pages** (decks 1 · lore & story 1)
 
 - **Decks (1):** [Braids, Arisen Nightmare (Dominaria-only)](../decks/plane-dominaria-braids-arisen-nightmare.md)
+- **Lore & story (1):** [Items & Artifacts Index → Golgothian Sylex](../Items%20%26%20Artifacts%20Index.md#golgothian-sylex)
 
 ### Karn, the Great Creator
 
@@ -972,9 +973,9 @@ schema: 2
 
 ### Kiora, Behemoth Beckoner
 
-[Card entry](../cards/K/ki.md#kiora-behemoth-beckoner) · **2 pages** (lore & story 1 · card data 1)
+[Card entry](../cards/K/ki.md#kiora-behemoth-beckoner) · **3 pages** (lore & story 2 · card data 1)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Artist Index → Artists Y](../Artist%20Index.md#artists-y)
 
 ### Kiora Bests the Sea God
@@ -986,22 +987,22 @@ schema: 2
 
 ### Kiora, Master of the Depths
 
-[Card entry](../cards/K/ki.md#kiora-master-of-the-depths) · **3 pages** (lore & story 2 · card data 1)
+[Card entry](../cards/K/ki.md#kiora-master-of-the-depths) · **4 pages** (lore & story 3 · card data 1)
 
-- **Lore & story (2):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens) (+1 more)
 
 ### Kiora of Fire and Ashes
 
-[Card entry](../cards/K/ki.md#kiora-of-fire-and-ashes) · **1 pages** (lore & story 1)
+[Card entry](../cards/K/ki.md#kiora-of-fire-and-ashes) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Kiora of Salt and Sand
 
-[Card entry](../cards/K/ki.md#kiora-of-salt-and-sand) · **2 pages** (lore & story 1 · card data 1)
+[Card entry](../cards/K/ki.md#kiora-of-salt-and-sand) · **3 pages** (lore & story 2 · card data 1)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Kiora's Follower
@@ -1012,22 +1013,22 @@ schema: 2
 
 ### Kiora, Sovereign of the Deep
 
-[Card entry](../cards/K/ki.md#kiora-sovereign-of-the-deep) · **1 pages** (lore & story 1)
+[Card entry](../cards/K/ki.md#kiora-sovereign-of-the-deep) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Kiora, the Crashing Wave
 
-[Card entry](../cards/K/ki.md#kiora-the-crashing-wave) · **3 pages** (lore & story 2 · card data 1)
+[Card entry](../cards/K/ki.md#kiora-the-crashing-wave) · **4 pages** (lore & story 3 · card data 1)
 
-- **Lore & story (2):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens) (+1 more)
 
 ### Kiora, the Rising Tide
 
-[Card entry](../cards/K/ki.md#kiora-the-rising-tide) · **2 pages** (lore & story 1 · card data 1)
+[Card entry](../cards/K/ki.md#kiora-the-rising-tide) · **3 pages** (lore & story 2 · card data 1)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Kird Ape
@@ -1352,23 +1353,23 @@ schema: 2
 
 ### Koth, Fire of Resistance
 
-[Card entry](../cards/K/ko.md#koth-fire-of-resistance) · **2 pages** (lore & story 1 · card data 1)
+[Card entry](../cards/K/ko.md#koth-fire-of-resistance) · **3 pages** (lore & story 2 · card data 1)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
 
 ### Koth of the Hammer
 
-[Card entry](../cards/K/ko.md#koth-of-the-hammer) · **2 pages** (lore & story 1 · card data 1)
+[Card entry](../cards/K/ko.md#koth-of-the-hammer) · **3 pages** (lore & story 2 · card data 1)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
 
 ### Koth of the Homestead
 
-[Card entry](../cards/K/ko.md#koth-of-the-homestead) · **1 pages** (lore & story 1)
+[Card entry](../cards/K/ko.md#koth-of-the-homestead) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Kothophed, Soul Hoarder
 
@@ -1378,9 +1379,9 @@ schema: 2
 
 ### Koth, the Geomancer
 
-[Card entry](../cards/K/ko.md#koth-the-geomancer) · **1 pages** (lore & story 1)
+[Card entry](../cards/K/ko.md#koth-the-geomancer) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Kotis, the Fangkeeper
 

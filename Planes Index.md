@@ -17,7 +17,7 @@ schema: 2
 ## Contents
 - [Planes with official profiles](#planes-with-official-profiles)
 - [Other planes in recent stories (Omenpath era)](#other-planes-in-recent-stories-omenpath-era)
-- [Detailed plane entries](#detailed-plane-entries): [Kaldheim](#kaldheim) · [Eldraine](#eldraine) · [Ikoria](#ikoria) · [New Capenna](#new-capenna) · [Phyrexia & New Phyrexia's spheres](#phyrexia-old-phyrexia--new-phyrexias-spheres) · [Ravnica after the invasion](#ravnica-after-the-invasion-murders-at-karlov-manor) · [Skalla](#skalla) · [Vryn](#vryn) · [Regatha](#regatha) · [Rath](#rath) · [Mercadia](#mercadia) · [Ulgrotha](#ulgrotha) · [Ergamon](#ergamon) · [Theros Underworld](#theros-the-underworld-theros-beyond-death) · [Muraganda](#muraganda) · [Kylem](#kylem) · [Gobakhan](#gobakhan) · [Shenmeng](#shenmeng) · [Segovia](#segovia) · [Zendikar (ZNR)](#zendikar-zendikar-rising-era) · [Kamigawa (NEO)](#kamigawa-neon-dynasty-era) · [Dominaria (DMU)](#dominaria-dominaria-united-era) · [Arcavios colleges](#arcavios--the-strixhaven-colleges) · [Kaladesh → Avishkar](#kaladesh--avishkar) · [Amonkhet](#amonkhet) · [Ixalan](#ixalan) *(Bot cycle 25)* · [Innistrad](#innistrad) · [Zendikar (Eldrazi era)](#zendikar-eldrazi-era) · [Theros](#theros) · [Tarkir](#tarkir) *(Bot cycle 26)* · *(Bot cycle 27)* [Ravnica (before the invasion)](#ravnica-before-the-invasion) · [Alara](#alara) · [Mirrodin (before Phyrexia)](#mirrodin-before-phyrexia) · [Lorwyn-Shadowmoor](#lorwyn-shadowmoor) · *(Bot cycle 28)* [Dominaria (before DMU)](#dominaria-before-dominaria-united) · [Kamigawa (Kami War era)](#kamigawa-kami-war-era) · [Fiora](#fiora) · [Shandalar](#shandalar)
+- [Detailed plane entries](#detailed-plane-entries): [Kaldheim](#kaldheim) · [Eldraine](#eldraine) · [Ikoria](#ikoria) · [New Capenna](#new-capenna) · [Phyrexia & New Phyrexia's spheres](#phyrexia-old-phyrexia--new-phyrexias-spheres) · [Ravnica after the invasion](#ravnica-after-the-invasion-murders-at-karlov-manor) · [Skalla](#skalla) · [Vryn](#vryn) · [Regatha](#regatha) · [Rath](#rath) · [Mercadia](#mercadia) · [Ulgrotha](#ulgrotha) · [Ergamon](#ergamon) · [Theros Underworld](#theros-the-underworld-theros-beyond-death) · [Muraganda](#muraganda) · [Kylem](#kylem) · [Gobakhan](#gobakhan) · [Shenmeng](#shenmeng) · [Segovia](#segovia) · [Zendikar (ZNR)](#zendikar-zendikar-rising-era) · [Kamigawa (NEO)](#kamigawa-neon-dynasty-era) · [Dominaria (DMU)](#dominaria-dominaria-united-era) · [Arcavios colleges](#arcavios--the-strixhaven-colleges) · [Kaladesh → Avishkar](#kaladesh--avishkar) · [Amonkhet](#amonkhet) · [Ixalan](#ixalan) *(Bot cycle 25)* · [Innistrad](#innistrad) · [Zendikar (Eldrazi era)](#zendikar-eldrazi-era) · [Theros](#theros) · [Tarkir](#tarkir) *(Bot cycle 26)* · *(Bot cycle 27)* [Ravnica (before the invasion)](#ravnica-before-the-invasion) · [Alara](#alara) · [Mirrodin (before Phyrexia)](#mirrodin-before-phyrexia) · [Lorwyn-Shadowmoor](#lorwyn-shadowmoor) · *(Bot cycle 28)* [Dominaria (before DMU)](#dominaria-before-dominaria-united) · [Kamigawa (Kami War era)](#kamigawa-kami-war-era) · [Fiora](#fiora) · [Shandalar](#shandalar) · *(Bot cycle 29)* [Thunder Junction](#thunder-junction) · [Bloomburrow](#bloomburrow) · [Duskmourn](#duskmourn) · [Sothera system (the Edge)](#sothera-system-the-edge)
 - [Special realms & cosmology](#special-realms--cosmology)
 - [Gaps / next to add](#gaps--next-to-add)
 
@@ -315,6 +315,31 @@ No standalone official profile was found in the 2026-10-15 sitemap for these; fa
 - ✅ "Abnormally mana-rich, Shandalar is a place where magic flows freely: from the wilds of Kalonia and the kingdom of Thune to the shadows of Xathrid, the peak of Valkas, and the remote Evos Isle." "It was once home to the Onakke, an ogre civilization adept at using the plane's abundant mana to craft artifacts of terrible power"; now its people "must combat the growing hive mind of the slivers" ([Shandalar profile](https://magic.wizards.com/en/story/shandalar-plane)).
 - ✅ The Chain Veil came from here: "While hunting a beast across Shandalar, Garruk's path led him to the Onakke Catacombs" ([Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)). See [Items → Chain Veil](Items%20%26%20Artifacts%20Index.md#chain-veil).
 
+### Thunder Junction
+*Added Bot cycle 29.* ⚠️ No Planeswalker's Guide was published for this set; facts below come from the official announcement, the crew feature and the episodes.
+- ✅ "Welcome to the brand-spankin'-new frontier plane of Thunder Junction"; "The Omenpaths are open, and everyone's blowing into town to seek their fortune as an outlaw." "An ancient vault has been discovered in Thunder Junction, and it's rumored to hide untold riches and power" ([A First Look at OTJ](https://magic.wizards.com/en/news/announcements/a-first-look-at-outlaws-of-thunder-junction)).
+- ✅ Places: "The sun set over Omenport" ([OTJ Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-an-offer-of-revenge)); a train "to Prosperity, escorted by Sterling mercenaries" ([Ep. 3](https://magic.wizards.com/en/news/magic-story/episode-3-a-train-to-prosperity)); "the unbreakable vault that floats above the Hellspur city of Tarnation" ([A Legendary Crew](https://magic.wizards.com/en/news/feature/a-legendary-crew-for-an-unbelievable-heist-outlaws-of-thunder-junction)). Inside, "At the top of the innermost platform was a pod-like structure encased in glass" ([Ep. 6](https://magic.wizards.com/en/news/magic-story/episode-6-the-ballad-of-thieves-and-thunderslingers)).
+- Arc: [Outlaws of Thunder Junction](Conflicts%20%26%20Arcs.md#outlaws-of-thunder-junction-2024).
+
+### Bloomburrow
+*Added Bot cycle 29.*
+- ✅ "This set explores the region of Bloomburrow known as Valley, a pastoral land whose fields teem with the abundance of life and whose inhabitants welcome all visitors." Its peoples: "Those that banded together were called animalfolk" ([PW Guide to Bloomburrow Pt 1](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-bloomburrow-part-1)).
+- ✅ History: "The most powerful of all were the Calamity Beasts: towering, wordless creatures whose supernatural presence brought blizzards, floods, droughts, and blight" (same source).
+- Arc: [Bloomburrow](Conflicts%20%26%20Arcs.md#bloomburrow-2024).
+
+### Duskmourn
+*Added Bot cycle 29.*
+- ✅ "Welcome to Duskmourn, a plane steeped in pain and fear, driven by the unrelenting hunger of its demonic ruler." "The plane exists entirely within the House" ([PW Guide to Duskmourn](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-duskmourn)).
+- ✅ Origin: "Originally, the House was an ordinary dwelling, within which the demonic entity known as Valgavoth had been imprisoned"; "Remnants of ancient artifacts scattered throughout the House hint at a plane both magically and technologically advanced" (same source). "Previously, Valgavoth was able to temporarily force open doors to other planes, which he would use to lure in unsuspecting victims" (same source).
+- Arc: [Duskmourn: House of Horror](Conflicts%20%26%20Arcs.md#duskmourn-house-of-horror-2024).
+
+### Sothera system (the Edge)
+*Added Bot cycle 29.*
+- ✅ "In Edge of Eternities, you'll take your first steps into the cosmic wonders of the Sothera system"; at its heart is "the supervoid". The universe's shape is "In a word, annular"; locals call it "the Edge" or "the Edge of Eternity" ([PW Guide to EOE](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-edge-of-eternities)).
+- ✅ Travel: "most interstellar travel takes place at different lamellae, actuated by Pinnacle's eternity columns system"; "Eternity drives allow ships to escape the rules of physics and time that govern the annular universe and travel faster than light via slipping into and out of the Weft" (same source).
+- ✅ Faith: the Monoists' Immortal Faller "can be observed approaching the center of every supervoid, known as the Zero Point" (same source).
+- Arc: [Edge of Eternities](Conflicts%20%26%20Arcs.md#edge-of-eternities-2025) · **Card:** [Sothera, the Supervoid](cards/S/so.md#sothera-the-supervoid).
+
 ## Special realms & cosmology
 - **Blind Eternities** — the chaotic void between planes, home of the Eldrazi titans ([Zendikar profile](https://magic.wizards.com/en/story/zendikar-plane)).
 - **Omenpaths** — portals between planes that appeared after the Phyrexian Invasion, letting non-Planeswalkers travel (used throughout OTJ, Lorwyn Eclipsed and SOS stories; ✅ e.g. [OTJ Episode 1](https://magic.wizards.com/en/news/magic-story/episode-1-an-offer-of-revenge)). ⚠️ The exact in-story origin of the Omenpaths is not yet cited here — open question for next cycle.
@@ -328,4 +353,5 @@ No standalone official profile was found in the 2026-10-15 sitemap for these; fa
 - **Done in Bot cycle 26:** Innistrad, Zendikar (Eldrazi era), Theros, Tarkir.
 - **Done in Bot cycle 27:** Ravnica (before the invasion), Alara, Mirrodin (before Phyrexia), Lorwyn-Shadowmoor.
 - **Done in Bot cycle 28:** Dominaria (before Dominaria United), Kamigawa (Kami War era), Fiora, Shandalar.
+- **Done in Bot cycle 29:** Thunder Junction (⚠️ no PW Guide published), Bloomburrow, Duskmourn, Sothera system (the Edge).
 - **Still to add:** Nauctis (announced set "Nauctis: The Sunken Realm", Scryfall release 2027-02 — ❓ no story yet). Tracked in GitHub issue #12.

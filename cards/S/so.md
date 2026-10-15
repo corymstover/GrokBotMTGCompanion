@@ -3200,7 +3200,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-07-25* — If Sothera leaves the battlefield at the same time as one or more creatures you control die, its first ability will trigger for each of those creatures.
   - *2025-07-25* — Sothera’s last ability will check as your end step starts to see if any player controls no creatures. If no player does, the ability won’t trigger at all. You won’t be able to remove creatures from the battlefield during your end step in time to have the ability trigger. If every player controls a creature when the ability resolves, the ability won’t do anything. (The player or players who control no creatures when the ability resolves don’t have to be the same ones who controlled no creatures when it triggered.)
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sothera-the-supervoid)
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/S.md#sothera-the-supervoid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/115/sothera-the-supervoid) · oracle_id `760ede92-a826-4144-9de8-84ba9b8743d1` · printing: EOE #115 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### So Tiny
