@@ -34,9 +34,9 @@
 | File | Status | Count |
 |---|---|---|
 | Master Timeline | 🟢 deepened (cycle 3) | 7 era tables (was 6 one-row eras) · **8 AR-dated events** (was 0) · 15 post-Mending steps, 5 invasion phases, 12 Omenpath rows with quoted relative markers · 56 links into Conflicts & Arcs · 23 release-chronology rows |
-| Planes Index | 🟡 deepening | 15 profiled planes + 6 recent settings + 4 special realms + **12 detailed entries** (cycle 3: +Regatha, +Rath sourced; Mercadia, Ulgrotha ⚠️ stubs — no official source; cycle 2: 6 new planes: Kaldheim, Eldraine, Ikoria, New Capenna, Skalla, Vryn; 2 deepened: Phyrexia/New Phyrexia, Ravnica post-invasion); 72 card links; 8 new official sources (Planeswalker's Guides) |
-| Characters Index | 🟢 deepened | 59 entries (was 47 rows); 54 ✅ / 1 ❓ / 3 ⚠️ / 1 🚫 (was 29 ✅ / 20 ⚠️); 19 names queued (#20) |
-| Conflicts & Arcs | 🟢 deepened (cycle 3) | **36 sourced arc entries / 40 headings** (was 15 single-paragraph arcs + a 9-row table); cross-arc threads table (5 threads); ⚠️ ELD/THB/IKO unsourced |
+| Planes Index | 🟢 deepened (cycle 4) | **18 detailed entries** (was 12): cycle 4 added the Theros Underworld, Muraganda, Kylem, Gobakhan, Shenmeng and Segovia. Plus 15 profiled planes, 6 recent settings and 4 special realms. Mercadia and Ulgrotha are ⚠️ stubs |
+| Characters Index | 🟢 complete for profiled PWs (cycle 4) | **78 entries** (was 59); **61 ✅ / 10 ❓ / 6 ⚠️ / 1 🚫** (was 54 / 1 / 3 / 1); 0 profiled Planeswalkers left unreviewed (was 19) |
+| Conflicts & Arcs | 🟢 deepened (cycle 4) | **39 sourced arc entries / 42 headings** (was 36 / 40); ELD, THB and IKO are now sourced (was ⚠️). Cross-arc threads table (5 threads) |
 | Sources crawled | — | 563 magic.wizards.com story pages (79 profiles + 484 Magic Story articles); text kept off-repo |
 
 ## EDH
@@ -45,13 +45,13 @@
 | EDH Standards | ✅ CR 903 rules, strict color identity, Archidekt format, Brackets (beta, Oct 2025 + Feb 2026 updates), auto banned list (83) and Game Changers (53) |
 | Deck skeletons | **32 validated — all 32 color identities** (was 8): C, 5 mono, 10 pairs, 10 three-color, 5 four-color (Atraxa, Breya, Yidris, Saskia, Kynaios & Tiro), WUBRG; each with a Commander rules & rulings block |
 | EDH Staples | ✅ auto-generated: top 15 per color identity (C, 5 mono, 10 two-color, 10 three-color) + top 15 per role/archetype (14 roles) from 32,048 ranked Commander-legal cards |
-| Synergy notes | 15 commander engines (was 3) with Oracle text + official rulings; ⚠️ two-card combos flagged |
-| Combo detection | 🔴 open (#15) |
+| Synergy notes | 15 commander engines with Oracle text + official rulings · **12 archetype guides** in [EDH Archetypes](EDH%20Archetypes.md) (was 0) |
+| Combo detection | ✅ (#15) Commander Spellbook API on all 32 decks: **189 complete combos, 51 two-card infinite in 14 decks**; combo-adjusted floors (Xenagos and Gishath 2 → 3) |
 
 ## Rules
 | Item | Status |
 |---|---|
-| Rules-interactions section | 🟡 started (#9) — [Rules Interactions](Rules%20Interactions.md): 7 topics (was 0), CR 2026-09-25 quoted verbatim, 35 official rulings linked |
+| Rules-interactions section | 🟢 (#9) **17 topics** (was 7) · 20 official CR examples (was 0) · 87 linked rulings (was 35) |
 | Rulings in card entries | ✅ 78,943 rulings on 19,889 cards; all 33,894 cards processed (#10 closed) |
 
 ## Milestones & tags

@@ -3,9 +3,24 @@
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-15 — Bot cycle 4 (sprint: rules topics, Planeswalker review, ELD/THB/IKO sources, combos & archetypes)](#2026-10-15--bot-cycle-4-sprint-rules-topics-planeswalker-review-eldthbiko-sources-combos--archetypes)
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-15 — Bot cycle 4 (sprint: rules topics, Planeswalker review, ELD/THB/IKO sources, combos & archetypes)
+
+> All entries in this section are **Bot cycle 4** (Grok Bot) changes. Sprint mode: the only committing process.
+
+| # | Summary | Files affected | Reason |
+|---|---|---|---|
+| 4.1 | Bot cycle 4: **Rules Interactions 7 → 17 topics**: stack & priority, casting vs. copying, combat damage, deathtouch + trample, protection, hexproof/shroud/ward, ETB/LTB look-back, mutate/merge, commander tax, worked layer examples. CR 2026-09-25 is quoted verbatim. The generator now attaches the CR's own *Example* paragraphs: 20 official examples (was 0) and 87 linked rulings (was 35). | `Rules Interactions.md`, `scripts/build_rules_interactions.py` | Issue #9. |
+| 4.2 | Bot cycle 4: **Characters Index — the 19 remaining profiled Planeswalkers reviewed** (59 → 78 entries). Each status comes from the profile plus the latest fetched story naming the character. Echoverse versions in *Legends of Reality Fracture* (Dack "Helping Hand", Ob Nixilis "Ascended Angel") are flagged and not used as Multiverse status. Totals: 61 ✅ / 10 ❓ / 6 ⚠️ / 1 🚫. | `Characters Index.md` | Issue #20. |
+| 4.3 | Bot cycle 4: **ELD/THB/IKO sourced** (was ⚠️). THB: official Story Summary and Story on Cards pages. IKO: Story on Cards page, with the plot read from its 14 story images. ELD: official ebook publisher listing plus Story Spotlight card flavor text (Scryfall ELD printings). Now 39 sourced arcs; Master Timeline gains 3 post-Mending rows; Xenagos (✅ dead) and Calix updated. | `Conflicts & Arcs.md`, `Master Timeline.md`, `Characters Index.md` | User priority (2). |
+| 4.4 | Bot cycle 4: **Planes Index 12 → 18 detailed entries**: Theros Underworld, Muraganda, Kylem, Gobakhan, Shenmeng, Segovia. Content from the Echoverse-mixed *Legends of Reality Fracture* article is flagged ⚠️. | `Planes Index.md` | Issue #12. |
+| 4.5 | Bot cycle 4: **combo detection** via the Commander Spellbook public API (`find-my-combos`) for all 32 decks: 189 complete combos, 51 two-card infinite combos in 14 decks. Each deck gets a Combos block; EDH Standards gains combo columns and combo-adjusted floors (Xenagos and Gishath 2 → 3). | `scripts/detect_combos.py`, `data/combos.json`, `decks/*`, `EDH Standards.md` | Issue #15. |
+| 4.6 | Bot cycle 4: **12 archetype guides** (`EDH Archetypes.md`, generated from repo data only; plans labeled Opinion). | `EDH Archetypes.md`, `scripts/build_archetypes.py`, `EDH Standards.md` | Issue #19. |
+| 4.7 | Bot cycle 4: README dashboard, Progress Tracker, Knowledge Index, Update Log refreshed. | `README.md`, `Progress Tracker.md`, `Knowledge Index.md`, `Update Log.md` | Keep the dashboard current. |
 
 ## 2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)
 
