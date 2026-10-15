@@ -34,7 +34,7 @@
 | File | Status | Count |
 |---|---|---|
 | Master Timeline | 🟢 deepened (cycle 3) | 7 era tables (was 6 one-row eras) · **8 AR-dated events** (was 0) · 15 post-Mending steps, 5 invasion phases, 12 Omenpath rows with quoted relative markers · 56 links into Conflicts & Arcs · 23 release-chronology rows |
-| Planes Index | 🟢 deepened (cycle 4) | **18 detailed entries** (was 12): cycle 4 added the Theros Underworld, Muraganda, Kylem, Gobakhan, Shenmeng and Segovia. Plus 15 profiled planes, 6 recent settings and 4 special realms. Mercadia and Ulgrotha are ⚠️ stubs |
+| Planes Index | 🟢 complete for named targets (cycle 5) | **23 detailed entries** (was 18). Mercadia and Ulgrotha went from ⚠️ stubs to ✅ sourced (*Known Multiverse*, Wizards 2008). Added Ergamon, ZNR Zendikar, NEO Kamigawa, DMU Dominaria and the Arcavios colleges; Vryn deepened. Only Nauctis remains (no story yet) |
 | Characters Index | 🟢 complete for profiled PWs (cycle 4) | **78 entries** (was 59); **61 ✅ / 10 ❓ / 6 ⚠️ / 1 🚫** (was 54 / 1 / 3 / 1); 0 profiled Planeswalkers left unreviewed (was 19) |
 | Conflicts & Arcs | 🟢 deepened (cycle 4) | **39 sourced arc entries / 42 headings** (was 36 / 40); ELD, THB and IKO are now sourced (was ⚠️). Cross-arc threads table (5 threads) |
 | Sources crawled | — | 563 magic.wizards.com story pages (79 profiles + 484 Magic Story articles); text kept off-repo |
@@ -51,7 +51,8 @@
 ## Rules
 | Item | Status |
 |---|---|
-| Rules-interactions section | 🟢 (#9) **17 topics** (was 7) · 20 official CR examples (was 0) · 87 linked rulings (was 35) |
+| Story archive index | 🟢 (#14) **612 pages indexed** (was 0 indexed; corpus was 563 sitemap pages): 575 live, 37 🗄️ archived. 104 Wayback candidates unresolved (mostly translated duplicates or date-only listing pages) |
+| Rules-interactions section | 🟢 (#9) **27 topics** (was 17) · 37 official CR examples (was 20) · 139 linked rulings (was 87) |
 | Rulings in card entries | ✅ 78,943 rulings on 19,889 cards; all 33,894 cards processed (#10 closed) |
 
 ## Milestones & tags
@@ -63,6 +64,6 @@
 | v0.4 – 20,000 cards | ✅ closed | `v0.4-20000-cards` |
 | v1.0 – Full card coverage | ✅ closed | `v1.0-33894-cards` |
 | Bot cycle 3 sprint (lore, EDH, rules) | — | `v1.1-cycle3-lore-edh-rules` |
-| Lore foundation | 🟡 open (3 closed incl. #20; #12 open) | — |
+| Lore foundation | ✅ closed (Bot cycle 5: #12, #14 done) | v1.3-cycle5-rules-lore-maintenance |
 | EDH foundation | ✅ closed (Bot cycle 4: #15, #19 done) | v1.2-cycle4-rules-lore-edh |
-| Rules interactions | 🟡 open (#9: 17 topics) | — |
+| Rules interactions | ✅ closed (Bot cycle 5: #9, 27 topics) | v1.3-cycle5-rules-lore-maintenance |

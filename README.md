@@ -22,17 +22,18 @@
 |---|---|---|
 | Cards | ✅ **Full coverage** — 33,894 entries (Oracle text, flavor text, cost, type, identity, Commander notes), verified verbatim against Scryfall (0 problems) | [Card Index](Card%20Index.md) · [cards/](cards/) |
 | Master Timeline | 🟢 Deepened (Bot cycle 3) — 7 in-universe era tables with per-arc rows cross-linked to Conflicts & Arcs and Characters, **8 official AR-dated events** (28–85 AR + 4562 AR, from *The Brothers' War*), quoted relative markers for the Omenpath era, release chronology 2007–2027 | [Master Timeline](Master%20Timeline.md) |
-| Planes | 🟢 Deepened — 15 profiled planes + 6 Omenpath-era settings + **18 detailed entries** (cycle 4 added the Theros Underworld, Muraganda, Kylem, Gobakhan, Shenmeng and Segovia; ⚠️ Mercadia and Ulgrotha are stubs with no official source) with source notes and card links | [Planes Index](Planes%20Index.md) |
+| Planes | 🟢 Complete for named targets (Bot cycle 5) — 15 profiled planes + 6 Omenpath-era settings + **23 detailed entries**. Cycle 5 sourced Mercadia and Ulgrotha from Wizards' official *Known Multiverse* overview, and added Ergamon, Zendikar Rising-era Zendikar, Neon Dynasty Kamigawa, Dominaria United-era Dominaria and the Strixhaven colleges (with story outcomes), plus Vryn's mage-rings. Only Nauctis (no story yet) remains | [Planes Index](Planes%20Index.md) |
 | Characters | 🟢 Complete for profiled Planeswalkers (Bot cycle 4) — **78 entries** (was 59): all 19 remaining profiled Planeswalkers reviewed ([#20](https://github.com/corymstover/GrokBotMTGCompanion/issues/20)). **61 ✅ · 10 ❓ · 6 ⚠️ · 1 🚫**; Echoverse versions from *Reality Fracture* are flagged | [Characters Index](Characters%20Index.md) |
 | Conflicts & Arcs | 🟢 Deepened — **39 sourced arc entries** (was 36). Throne of Eldraine, Theros Beyond Death and Ikoria are now sourced from official Wizards story summary and story-on-cards pages and Story Spotlight cards. Includes a cross-arc threads table | [Conflicts & Arcs](Conflicts%20%26%20Arcs.md) |
 | EDH | 🟢 Standards + **32 validated skeletons (every color identity)** + **12 [archetype guides](EDH%20Archetypes.md)** ([#19](https://github.com/corymstover/GrokBotMTGCompanion/issues/19)) + **Commander Spellbook combo detection** on every deck (189 complete combos, 51 two-card infinite in 14 decks; combo-adjusted bracket floors, [#15](https://github.com/corymstover/GrokBotMTGCompanion/issues/15)) + [EDH Staples](EDH%20Staples.md) + 15 rulings-backed synergy notes | [EDH Standards](EDH%20Standards.md) · [EDH Archetypes](EDH%20Archetypes.md) · [EDH Staples](EDH%20Staples.md) · [decks/](decks/) |
-| Rules interactions | 🟢 **17 topics** (was 7): layers + official worked examples, dependency, replacement vs. triggers, SBAs, copy, stack & priority, cast vs. copy, combat damage, deathtouch + trample, protection, hexproof/shroud/ward, ETB/LTB, mutate/merge, commander tax, color identity, command zone. CR 2026-09-25 quoted verbatim, **20 official CR examples**, **87 linked rulings** ([#9](https://github.com/corymstover/GrokBotMTGCompanion/issues/9)) | [Rules Interactions](Rules%20Interactions.md) |
+| Story archive | 🟢 **612 official story/lore pages indexed** (575 live, 37 🗄️ archived from the Internet Archive), from the sitemap plus the Wayback Machine index of the retired Uncharted Realms and magic-story paths ([#14](https://github.com/corymstover/GrokBotMTGCompanion/issues/14)) | [Story Archive Index](Story%20Archive%20Index.md) |
+| Rules interactions | 🟢 **27 topics** (was 17). Cycle 5 added sagas, classes, phasing, DFCs/transform, the legend rule, "can't" beats "can", replacement-effect ordering, commander damage, partner/backgrounds, and leaving a multiplayer game. CR 2026-09-25 quoted verbatim, **37 official CR examples**, **139 linked rulings** ([#9](https://github.com/corymstover/GrokBotMTGCompanion/issues/9)) | [Rules Interactions](Rules%20Interactions.md) |
 
 ### Next priorities
-1. **Rules interactions:** sagas & classes, phasing, DFCs/transform, the legend rule, "can't" vs. "can", and worked replacement-ordering examples — [#9](https://github.com/corymstover/GrokBotMTGCompanion/issues/9)
-2. **Lore:** sources for Mercadia, Ulgrotha and Ergamon; DMU-era Dominaria, Zendikar Rising, NEO Kamigawa and the Strixhaven colleges — [#12](https://github.com/corymstover/GrokBotMTGCompanion/issues/12); story archive crawl beyond the sitemap — [#14](https://github.com/corymstover/GrokBotMTGCompanion/issues/14)
-3. **EDH:** tune archetype guides with more skeletons per archetype; re-run combo detection each cycle (`scripts/detect_combos.py`)
-4. **Maintenance:** refresh cards / ingest new sets each cycle — [#17](https://github.com/corymstover/GrokBotMTGCompanion/issues/17)
+1. **Rules (optional extras):** morph/disguise & face-down, split/adventure cards, monarch & initiative, day/night, dungeons — [#9](https://github.com/corymstover/GrokBotMTGCompanion/issues/9)
+2. **Lore (as stories release):** Nauctis when its story publishes; re-check ❓ character statuses; re-run `scripts/crawl_story_index.py` — [#12](https://github.com/corymstover/GrokBotMTGCompanion/issues/12), [#14](https://github.com/corymstover/GrokBotMTGCompanion/issues/14)
+3. **EDH:** more skeletons per archetype (optional); re-run combo detection each cycle (`scripts/detect_combos.py`)
+4. **Maintenance (main ongoing work):** each cycle, refresh cards, ingest new sets (Star Trek 2026-11, Nauctis 2027-02), re-run combos, and check the B&R list — [#17](https://github.com/corymstover/GrokBotMTGCompanion/issues/17)
 
 ## 🗂 Key files
 | File | Purpose |
@@ -42,7 +43,7 @@
 | [Card Data Conventions](Card%20Data%20Conventions.md) · [Card Index](Card%20Index.md) | Card entry format & storage · which cards have entries |
 | [EDH Standards](EDH%20Standards.md) · [EDH Archetypes](EDH%20Archetypes.md) · [EDH Staples](EDH%20Staples.md) | Commander rules, color identity, Archidekt format, brackets, synergy notes · 12 archetype guides · data-derived staples by identity and role |
 | [Rules Interactions](Rules%20Interactions.md) | CR 2026-09-25 rules topics, quoted verbatim, with official rulings linked to card entries |
-| [Master Timeline](Master%20Timeline.md) · [Planes Index](Planes%20Index.md) · [Characters Index](Characters%20Index.md) · [Conflicts & Arcs](Conflicts%20%26%20Arcs.md) | Lore |
+| [Master Timeline](Master%20Timeline.md) · [Planes Index](Planes%20Index.md) · [Characters Index](Characters%20Index.md) · [Conflicts & Arcs](Conflicts%20%26%20Arcs.md) · [Story Archive Index](Story%20Archive%20Index.md) | Lore |
 
 ## 🔁 Running a cycle
 ```bash
@@ -55,11 +56,12 @@ python3 scripts/deck_rules_notes.py         # refresh the Commander rules & ruli
 python3 scripts/build_rules_interactions.py # regenerate Rules Interactions.md (needs the CR .txt in .cache/)
 python3 scripts/detect_combos.py           # Commander Spellbook combo check for every deck → decks/*, data/combos.json
 python3 scripts/build_archetypes.py         # regenerate EDH Archetypes.md
+python3 scripts/crawl_story_index.py enumerate && python3 scripts/crawl_story_index.py fetch && python3 scripts/crawl_story_index.py index   # story archive index
 python3 scripts/resolve_card_links.py "Planes Index.md"   # turn [[Card Name]] placeholders in hand-written pages into card-entry links
 ```
 State: [`data/ingest_state.json`](data/ingest_state.json) · index: [`data/card_index.csv`](data/card_index.csv).
 
 ## 🏷 Releases
-`v0.1-1000-cards` · `v0.2-5000-cards` · `v0.3-10000-cards` · `v0.4-20000-cards` · `v1.0-33894-cards` · `v1.1-cycle3-lore-edh-rules` · `v1.2-cycle4-rules-lore-edh`
+`v0.1-1000-cards` · `v0.2-5000-cards` · `v0.3-10000-cards` · `v0.4-20000-cards` · `v1.0-33894-cards` · `v1.1-cycle3-lore-edh-rules` · `v1.2-cycle4-rules-lore-edh` · `v1.3-cycle5-rules-lore-maintenance`
 
 *Card data © Wizards of the Coast, via [Scryfall](https://scryfall.com). Lore summaries cite official [magic.wizards.com](https://magic.wizards.com/en/story) pages. Unofficial fan project under the Wizards Fan Content Policy.*
