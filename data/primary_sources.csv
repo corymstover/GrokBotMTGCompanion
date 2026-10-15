@@ -108,6 +108,7 @@ date,title,kind,arc,words,url
 2014-05-08,The Path or the Horizon,story,,1809,https://magic.wizards.com/en/news/magic-story/path-or-horizon-2014-05-07
 2014-05-14,Betrayal,story,,1790,https://magic.wizards.com/en/news/magic-story/betrayal-2014-05-14
 2014-05-22,The Black Rose,story,,2201,https://magic.wizards.com/en/news/magic-story/black-rose-2014-05-21
+2014-05-26,Journey's End,story,THB,1144,https://magic.wizards.com/en/news/making-magic/journeys-end-2014-05-26
 2014-05-29,Like Cogwork,story,,2115,https://magic.wizards.com/en/news/magic-story/cogwork-2014-05-28
 2014-06-11,Kruphix's Insight,story,,2647,https://magic.wizards.com/en/news/magic-story/kruphixs-insight-2014-06-11
 2014-07-02,Veil of Deceit,story,,3542,https://magic.wizards.com/en/news/magic-story/veil-deceit-2014-07-01
@@ -151,29 +152,29 @@ date,title,kind,arc,words,url
 2015-07-29,Unkindness of Ravens,story,,2664,https://magic.wizards.com/en/news/magic-story/unkindness-ravens-2015-07-29
 2015-08-05,Offers to the Fire,story,,4032,https://magic.wizards.com/en/news/magic-story/offers-fire-2015-08-05
 2015-11-05,All the Cairns of Jund,story,,6257,https://magic.wizards.com/en/news/magic-story/all-cairns-jund-2015-11-04
-2015-11-12,Family Values,story,,4378,https://magic.wizards.com/en/news/magic-story/family-values-2015-11-11
-2015-12-24,Battle for Zendikar Story Summary,story,,1748,https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23
-2016-02-25,Zendikar Resurgent,story,,7110,https://magic.wizards.com/en/news/magic-story/zendikar-resurgent-2016-02-24
-2016-03-16,Unwelcome,story,,4204,https://magic.wizards.com/en/news/magic-story/unwelcome-2016-03-16
-2016-03-23,Sacrifice,story,,9099,https://magic.wizards.com/en/news/magic-story/sacrifice-2016-03-23
-2016-03-30,The Mystery of Markov Manor,story,,3472,https://magic.wizards.com/en/news/magic-story/mystery-markov-manor-2016-03-30
-2016-04-06,The Drownyard Temple,story,,5980,https://magic.wizards.com/en/news/magic-story/drownyard-temple-2016-04-06
-2016-04-13,Promises Old and New,story,,4059,https://magic.wizards.com/en/news/magic-story/promises-old-and-new-2016-04-13
-2016-04-20,Liliana's Indignation,story,,3920,https://magic.wizards.com/en/news/magic-story/lilianas-indignation-2016-04-20
-2016-04-27,Games,story,,2904,https://magic.wizards.com/en/news/magic-story/games-2016-04-27
-2016-05-04,The Lunarch Inquisition,story,,4148,https://magic.wizards.com/en/news/magic-story/lunarch-inquisition-2016-05-04
-2016-05-11,Stories and Endings,story,,4627,https://magic.wizards.com/en/news/magic-story/stories-and-endings-2016-05-11
-2016-05-18,I Am Avacyn,story,,3849,https://magic.wizards.com/en/news/magic-story/i-am-avacyn-2016-05-18
-2016-05-25,The Prodigal Sorcerers,story,,3996,https://magic.wizards.com/en/news/magic-story/prodigal-sorcerers-2016-05-25
+2015-11-12,Family Values,story,BFZ/OGW,4378,https://magic.wizards.com/en/news/magic-story/family-values-2015-11-11
+2015-12-24,Battle for Zendikar Story Summary,story,BFZ/OGW,1748,https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23
+2016-02-25,Zendikar Resurgent,story,BFZ/OGW,7110,https://magic.wizards.com/en/news/magic-story/zendikar-resurgent-2016-02-24
+2016-03-16,Unwelcome,story,SOI/EMN,4204,https://magic.wizards.com/en/news/magic-story/unwelcome-2016-03-16
+2016-03-23,Sacrifice,story,SOI/EMN,9099,https://magic.wizards.com/en/news/magic-story/sacrifice-2016-03-23
+2016-03-30,The Mystery of Markov Manor,story,SOI/EMN,3472,https://magic.wizards.com/en/news/magic-story/mystery-markov-manor-2016-03-30
+2016-04-06,The Drownyard Temple,story,SOI/EMN,5980,https://magic.wizards.com/en/news/magic-story/drownyard-temple-2016-04-06
+2016-04-13,Promises Old and New,story,SOI/EMN,4059,https://magic.wizards.com/en/news/magic-story/promises-old-and-new-2016-04-13
+2016-04-20,Liliana's Indignation,story,SOI/EMN,3920,https://magic.wizards.com/en/news/magic-story/lilianas-indignation-2016-04-20
+2016-04-27,Games,story,SOI/EMN,2904,https://magic.wizards.com/en/news/magic-story/games-2016-04-27
+2016-05-04,The Lunarch Inquisition,story,SOI/EMN,4148,https://magic.wizards.com/en/news/magic-story/lunarch-inquisition-2016-05-04
+2016-05-11,Stories and Endings,story,SOI/EMN,4627,https://magic.wizards.com/en/news/magic-story/stories-and-endings-2016-05-11
+2016-05-18,I Am Avacyn,story,SOI/EMN,3849,https://magic.wizards.com/en/news/magic-story/i-am-avacyn-2016-05-18
+2016-05-25,The Prodigal Sorcerers,story,SOI/EMN,3996,https://magic.wizards.com/en/news/magic-story/prodigal-sorcerers-2016-05-25
 2016-06-01,The Magic Story Shadows over Innistrad E-Book Collection,story,,97,https://magic.wizards.com/en/news/magic-story/magic-story-shadows-over-innistrad-e-book-collection-2016-06-01
-2016-06-08,The Archmage of Goldnight,story,,7129,https://magic.wizards.com/en/news/magic-story/archmage-goldnight-2016-06-08
-2016-06-15,Stone and Blood,story,,7370,https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15
-2016-06-22,Emrakul Rises,story,,4411,https://magic.wizards.com/en/news/magic-story/emrakul-rises
-2016-06-29,Innistrad's Last Hope,story,,3851,https://magic.wizards.com/en/news/magic-story/innistrads-last-hope-2016-06-29
-2016-07-06,Campaign of Vengeance,story,,4608,https://magic.wizards.com/en/news/magic-story/campaign-vengeance-2016-07-06
-2016-07-13,Saint Traft and the Flight of Nightmares,story,,7632,https://magic.wizards.com/en/news/magic-story/saint-traft-and-flight-nightmares-2016-07-13
-2016-07-20,Battle of Thraben,story,,3162,https://magic.wizards.com/en/news/magic-story/battle-thraben-2016-07-20
-2016-07-27,The Promised End,story,,11932,https://magic.wizards.com/en/news/magic-story/promised-end-2016-07-27
+2016-06-08,The Archmage of Goldnight,story,SOI/EMN,7129,https://magic.wizards.com/en/news/magic-story/archmage-goldnight-2016-06-08
+2016-06-15,Stone and Blood,story,SOI/EMN,7370,https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15
+2016-06-22,Emrakul Rises,story,SOI/EMN,4411,https://magic.wizards.com/en/news/magic-story/emrakul-rises
+2016-06-29,Innistrad's Last Hope,story,SOI/EMN,3851,https://magic.wizards.com/en/news/magic-story/innistrads-last-hope-2016-06-29
+2016-07-06,Campaign of Vengeance,story,SOI/EMN,4608,https://magic.wizards.com/en/news/magic-story/campaign-vengeance-2016-07-06
+2016-07-13,Saint Traft and the Flight of Nightmares,story,SOI/EMN,7632,https://magic.wizards.com/en/news/magic-story/saint-traft-and-flight-nightmares-2016-07-13
+2016-07-20,Battle of Thraben,story,SOI/EMN,3162,https://magic.wizards.com/en/news/magic-story/battle-thraben-2016-07-20
+2016-07-27,The Promised End,story,SOI/EMN,11932,https://magic.wizards.com/en/news/magic-story/promised-end-2016-07-27
 2016-08-03,Laid to Rest,story,,5074,https://magic.wizards.com/en/news/magic-story/laid-rest-2016-08-03
 2016-08-10,Tyrants,story,,4424,https://magic.wizards.com/en/news/magic-story/tyrants-2016-08-10
 2016-08-15,Proclamation by Queen Marchesa,story,,415,https://magic.wizards.com/en/news/magic-story/proclamation-queen-marchesa-2016-08-15
@@ -195,8 +196,8 @@ date,title,kind,arc,words,url
 2016-11-30,In the Dead of Night,story,,6788,https://magic.wizards.com/en/news/magic-story/dead-night-2016-11-30
 2016-12-08,Quiet Moments,story,KLD/AER,4835,https://magic.wizards.com/en/news/magic-story/quiet-moments-2016-12-07
 2016-12-15,Breakthrough,story,KLD/AER,7461,https://magic.wizards.com/en/news/magic-story/breakthrough-2016-12-14
-2016-12-22,Under the Silver Moon,story,,7760,https://magic.wizards.com/en/news/magic-story/under-silver-moon-2016-03-02
-2016-12-29,A Gaze Blank and Pitiless,story,,8635,https://magic.wizards.com/en/news/magic-story/gaze-blank-and-pitiless-2016-03-09
+2016-12-22,Under the Silver Moon,story,SOI/EMN,7760,https://magic.wizards.com/en/news/magic-story/under-silver-moon-2016-03-02
+2016-12-29,A Gaze Blank and Pitiless,story,SOI/EMN,8635,https://magic.wizards.com/en/news/magic-story/gaze-blank-and-pitiless-2016-03-09
 2017-01-03,Revolution Begins,story,KLD/AER,5890,https://magic.wizards.com/en/news/magic-story/revolution-begins-2017-01-02
 2017-01-12,The Skies over Ghirapur,story,KLD/AER,8485,https://magic.wizards.com/en/news/magic-story/skies-over-ghirapur-2017-01-11
 2017-01-18,Breaking Points,story,KLD/AER,5017,https://magic.wizards.com/en/news/magic-story/breaking-points-2017-01-18
@@ -237,18 +238,18 @@ date,title,kind,arc,words,url
 2018-02-08,Who Tells the Stories,story,XLN/RIX,3686,https://magic.wizards.com/en/news/magic-story/who-tells-stories-2018-02-07
 2018-02-15,Wool Over the Eyes,story,XLN/RIX,4162,https://magic.wizards.com/en/news/magic-story/wool-over-eyes-2018-02-14
 2018-02-22,Rivals of Ixalan Magic Story Alternate Endings,story,XLN/RIX,1442,https://magic.wizards.com/en/news/magic-story/rivals-ixalan-magic-story-alternate-endings-2018-02-21
-2018-03-21,Return to Dominaria: Episode 1,story,,5857,https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-1-2018-03-21
-2018-03-22,Return to Dominaria: Episode 2,story,,5762,https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-2-2018-03-22
-2018-03-28,Return to Dominaria: Episode 3,story,,4374,https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-3-2018-03-28
-2018-04-04,Return to Dominaria: Episode 4,story,,5574,https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-4-2018-04-04
-2018-04-11,Return to Dominaria: Episode 5,story,,6949,https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-5-2018-04-11
-2018-04-18,Return to Dominaria: Episode 6,story,,5010,https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-6-2018-04-18
-2018-04-25,Return to Dominaria: Episode 7,story,,5581,https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-7-2018-04-25
-2018-05-02,Return to Dominaria: Episode 8,story,,4888,https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-8-2018-05-02
-2018-05-09,Return to Dominaria: Episode 9,story,,5879,https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-9-2018-05-09
-2018-05-16,Return to Dominaria: Episode 10,story,,4464,https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-10-2018-05-16
-2018-05-23,Return to Dominaria: Episode 11,story,,6230,https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-11-2018-05-23
-2018-05-30,Return to Dominaria: Episode 12,story,,9077,https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-12-2018-05-30
+2018-03-21,Return to Dominaria: Episode 1,story,DOM/WAR,5857,https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-1-2018-03-21
+2018-03-22,Return to Dominaria: Episode 2,story,DOM/WAR,5762,https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-2-2018-03-22
+2018-03-28,Return to Dominaria: Episode 3,story,DOM/WAR,4374,https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-3-2018-03-28
+2018-04-04,Return to Dominaria: Episode 4,story,DOM/WAR,5574,https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-4-2018-04-04
+2018-04-11,Return to Dominaria: Episode 5,story,DOM/WAR,6949,https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-5-2018-04-11
+2018-04-18,Return to Dominaria: Episode 6,story,DOM/WAR,5010,https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-6-2018-04-18
+2018-04-25,Return to Dominaria: Episode 7,story,DOM/WAR,5581,https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-7-2018-04-25
+2018-05-02,Return to Dominaria: Episode 8,story,DOM/WAR,4888,https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-8-2018-05-02
+2018-05-09,Return to Dominaria: Episode 9,story,DOM/WAR,5879,https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-9-2018-05-09
+2018-05-16,Return to Dominaria: Episode 10,story,DOM/WAR,4464,https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-10-2018-05-16
+2018-05-23,Return to Dominaria: Episode 11,story,DOM/WAR,6230,https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-11-2018-05-23
+2018-05-30,Return to Dominaria: Episode 12,story,DOM/WAR,9077,https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-12-2018-05-30
 2018-06-13,Chronicle of Bolas: The Twins,story,,6139,https://magic.wizards.com/en/news/magic-story/chronicle-bolas-twins-2018-06-13
 2018-06-20,Chronicle of Bolas: The First Lesson,story,,7427,https://magic.wizards.com/en/news/magic-story/chronicle-bolas-first-lesson-2018-06-20
 2018-06-27,Chronicle of Bolas: Things Unseen,story,,7035,https://magic.wizards.com/en/news/magic-story/chronicle-bolas-things-unseen-2018-06-27
@@ -270,15 +271,18 @@ date,title,kind,arc,words,url
 2019-02-07,The Principles of Unnatural Selection,story,,6659,https://magic.wizards.com/en/news/magic-story/principles-unnatural-selection-2019-02-06
 2019-02-21,The Ledger of Hidden Fortunes,story,,5934,https://magic.wizards.com/en/news/magic-story/ledger-hidden-fortunes-2019-02-20
 2019-02-28,The Ascension of Reza,story,,6592,https://magic.wizards.com/en/news/magic-story/ascension-reza-2019-02-27
-2019-05-08,War of the Spark: Ravnica—Old Friends and New,story,,7344,https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-old-friends-and-new-2019-05-08
-2019-05-15,War of the Spark: Ravnica – The Path to Opulent,story,,4864,https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-path-opulent-2019-05-15
-2019-05-22,War of the Spark: Ravnica – Rallying the Reluctant,story,,4516,https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22
-2019-05-29,War of the Spark: Ravnica—Desperate Operatives,story,,7961,https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-desperate-operatives-2019-05-29
-2019-06-05,War of the Spark: Ravnica—Operation Desperation,story,,7348,https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05
-2019-06-12,War of the Spark: Ravnica—Ashes,story,,8168,https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12
-2019-10-31,Planeswalker's Guide to Eldraine,planeswalkers-guide,,7147,https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31
-2020-01-10,Theros Beyond Death Story Summary,feature,,1022,https://magic.wizards.com/en/news/feature/theros-beyond-death-story-summary-2020-01-10
-2020-04-02,Planeswalker's Guide to Ikoria,planeswalkers-guide,,5154,https://magic.wizards.com/en/news/feature/planeswalkers-guide-ikoria-2020-04-02
+2019-05-08,War of the Spark: Ravnica—Old Friends and New,story,DOM/WAR,7344,https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-old-friends-and-new-2019-05-08
+2019-05-15,War of the Spark: Ravnica – The Path to Opulent,story,DOM/WAR,4864,https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-path-opulent-2019-05-15
+2019-05-22,War of the Spark: Ravnica – Rallying the Reluctant,story,DOM/WAR,4516,https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22
+2019-05-29,War of the Spark: Ravnica—Desperate Operatives,story,DOM/WAR,7961,https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-desperate-operatives-2019-05-29
+2019-06-05,War of the Spark: Ravnica—Operation Desperation,story,DOM/WAR,7348,https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05
+2019-06-12,War of the Spark: Ravnica—Ashes,story,DOM/WAR,8168,https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12
+2019-10-31,Planeswalker's Guide to Eldraine,planeswalkers-guide,ELD,7147,https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31
+2019-12-16,The Theros Beyond Death Story on Cards,feature,THB,333,https://magic.wizards.com/en/news/feature/theros-beyond-death-story-cards-2019-12-16
+2020-01-10,Theros Beyond Death Story Summary,feature,THB,1022,https://magic.wizards.com/en/news/feature/theros-beyond-death-story-summary-2020-01-10
+2020-04-02,Planeswalker's Guide to Ikoria,planeswalkers-guide,IKO,5154,https://magic.wizards.com/en/news/feature/planeswalkers-guide-ikoria-2020-04-02
+2020-04-07,Worldbuilding Ikoria,feature,IKO,2176,https://magic.wizards.com/en/news/feature/worldbuilding-ikoria-2020-04-07
+2020-04-10,The Ikoria: Lair of Behemoths Story on Cards,feature,IKO,101,https://magic.wizards.com/en/news/feature/ikoria-lair-behemoths-story-cards-2020-04-10
 2020-06-16,The Lore of Core Set 2021 on the Cards,story,,82,https://magic.wizards.com/en/news/magic-story/lore-core-set-2021-cards-2020-06-16
 2020-09-02,Episode 1: In the Heart of the Skyclave,story,,6264,https://magic.wizards.com/en/news/magic-story/episode-1-heart-skyclave-2020-09-02
 2020-09-04,Red Route,story,,4749,https://magic.wizards.com/en/news/magic-story/red-route-2020-09-04
@@ -367,16 +371,16 @@ date,title,kind,arc,words,url
 2022-08-17,Shards of Nightmares,story,,6028,https://magic.wizards.com/en/news/magic-story/shards-nightmares-2022-08-17
 2022-08-18,Episode 5: A Whisper in the Wind,story,DMU,6135,https://magic.wizards.com/en/news/magic-story/episode-5-whisper-wind-2022-08-18
 2022-08-31,Planeswalker's Guide to Dominaria,planeswalkers-guide,DMU,2516,https://magic.wizards.com/en/news/feature/planeswalkers-guide-dominaria-2022-08-31
-2022-10-20,The Brothers' War | Episode 1: The End,story,,8160,https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end
-2022-10-20,The Brothers' War | Episode 2: The Beginning,story,,9630,https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-2-the-beginning
-2022-10-21,The Brothers' War | Chapter 1: Stronghold,story,,5850,https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-1-stronghold
-2022-10-21,The Brothers' War | Episode 3: Sword One,story,,7127,https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-3-sword-one
-2022-10-24,The Brothers' War | Chapter 2: Antiquities,story,,6193,https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-2-antiquities
-2022-10-24,The Brothers' War | Episode 4: The Ink of Empires,story,,10271,https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-4-the-ink-of-empires
-2022-10-25,The Brothers' War | Chapter 3: Nemesis,story,,6095,https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-3-nemesis
-2022-10-25,The Brothers' War | Chapter 4: The Dark,story,,8238,https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-4-the-dark
-2022-10-26,The Brothers' War | Chapter 5: Exodus,story,,7139,https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-5-exodus
-2022-10-26,"The Brothers' War | Episode 5: As Cruel, As Necessary",story,,6713,https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary
+2022-10-20,The Brothers' War | Episode 1: The End,story,BRO,8160,https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end
+2022-10-20,The Brothers' War | Episode 2: The Beginning,story,BRO,9630,https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-2-the-beginning
+2022-10-21,The Brothers' War | Chapter 1: Stronghold,story,BRO,5850,https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-1-stronghold
+2022-10-21,The Brothers' War | Episode 3: Sword One,story,BRO,7127,https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-3-sword-one
+2022-10-24,The Brothers' War | Chapter 2: Antiquities,story,BRO,6193,https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-2-antiquities
+2022-10-24,The Brothers' War | Episode 4: The Ink of Empires,story,BRO,10271,https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-4-the-ink-of-empires
+2022-10-25,The Brothers' War | Chapter 3: Nemesis,story,BRO,6095,https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-3-nemesis
+2022-10-25,The Brothers' War | Chapter 4: The Dark,story,BRO,8238,https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-4-the-dark
+2022-10-26,The Brothers' War | Chapter 5: Exodus,story,BRO,7139,https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-5-exodus
+2022-10-26,"The Brothers' War | Episode 5: As Cruel, As Necessary",story,BRO,6713,https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary
 2023-01-12,Phyrexia: All Will Be One | A Hollow Body,story,,5046,https://magic.wizards.com/en/news/magic-story/a-hollow-body
 2023-01-12,Phyrexia: All Will Be One | Cinders,story,,5126,https://magic.wizards.com/en/news/magic-story/cinders
 2023-01-13,Assault on New Phyrexia | Episode 1: Uncontrolled Descent,story,ONE,4966,https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-1-uncontrolled-descent
@@ -407,21 +411,21 @@ date,title,kind,arc,words,url
 2023-03-28,March of the Machine | Episode 10: The Rhythms of Life,story,MOM,6278,https://magic.wizards.com/en/news/magic-story/episode-10-the-rhythms-of-life
 2023-03-28,March of the Machine | Episode 9: The Old Sins of New Phyrexia,story,MOM,4913,https://magic.wizards.com/en/news/magic-story/episode-9-the-old-sins-of-new-phyrexia
 2023-04-11,Planeswalker's Guide to March of the Machine: The Phyrexian Invasion of the Multiverse,planeswalkers-guide,MOM,3065,https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-march-of-the-machine
-2023-05-01,March of the Machine: The Aftermath | She Who Breaks the World,story,,7042,https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world
-2023-05-02,March of the Machine: The Aftermath | Beyond Repair,story,,6060,https://magic.wizards.com/en/news/magic-story/beyond-repair
+2023-05-01,March of the Machine: The Aftermath | She Who Breaks the World,story,MAT,7042,https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world
+2023-05-02,March of the Machine: The Aftermath | Beyond Repair,story,MAT,6060,https://magic.wizards.com/en/news/magic-story/beyond-repair
 2023-08-08,Wilds of Eldraine | Episode 1: Pure of Heart,story,WOE,5580,https://magic.wizards.com/en/news/magic-story/episode-1-pure-of-heart
 2023-08-09,"Wilds of Eldraine | Episode 2: Wandering Knight, Budding Hero",story,WOE,5463,https://magic.wizards.com/en/news/magic-story/episode-2-wandering-knight-budding-hero
 2023-08-10,Wilds of Eldraine | Episode 3: Two Great Banquets,story,WOE,5987,https://magic.wizards.com/en/news/magic-story/episode-3-two-great-banquets
 2023-08-11,Wilds of Eldraine | Episode 4: Ruby and the Frozen Heart,story,WOE,5447,https://magic.wizards.com/en/news/magic-story/episode-4-ruby-and-the-frozen-heart
 2023-08-14,Wilds of Eldraine | Episode 5: Broken Oaths,story,WOE,6400,https://magic.wizards.com/en/news/magic-story/episode-5-broken-oaths
-2023-10-20,The Lost Caverns of Ixalan | Episode 1,story,,5794,https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-1
-2023-10-20,The Lost Caverns of Ixalan | Episode 2,story,,5454,https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-2
-2023-10-20,The Lost Caverns of Ixalan | Episode 3,story,,5889,https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-3
-2023-10-20,The Lost Caverns of Ixalan | Episode 4,story,,6399,https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-4
-2023-10-20,The Lost Caverns of Ixalan | Episode 5,story,,6166,https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-5
-2023-10-20,The Lost Caverns of Ixalan | Episode 6,story,,8395,https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-6
-2023-10-20,The Lost Caverns of Ixalan | Pawns,story,,10045,https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-pawns
-2023-11-10,Planeswalker's Guide to The Lost Caverns of Ixalan,planeswalkers-guide,,19932,https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-the-lost-caverns-of-ixalan
+2023-10-20,The Lost Caverns of Ixalan | Episode 1,story,LCI,5794,https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-1
+2023-10-20,The Lost Caverns of Ixalan | Episode 2,story,LCI,5454,https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-2
+2023-10-20,The Lost Caverns of Ixalan | Episode 3,story,LCI,5889,https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-3
+2023-10-20,The Lost Caverns of Ixalan | Episode 4,story,LCI,6399,https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-4
+2023-10-20,The Lost Caverns of Ixalan | Episode 5,story,LCI,6166,https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-5
+2023-10-20,The Lost Caverns of Ixalan | Episode 6,story,LCI,8395,https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-6
+2023-10-20,The Lost Caverns of Ixalan | Pawns,story,LCI,10045,https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-pawns
+2023-11-10,Planeswalker's Guide to The Lost Caverns of Ixalan,planeswalkers-guide,LCI,19932,https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-the-lost-caverns-of-ixalan
 2023-12-05,Murders at Karlov Manor | Episode 1: Ghosts of Our Past,story,MKM,4870,https://magic.wizards.com/en/news/magic-story/episode-1-ghosts-of-our-past
 2024-01-08,Murders at Karlov Manor | Episode 2: Monsters We Became,story,MKM,4934,https://magic.wizards.com/en/news/magic-story/episode-2-monsters-we-became
 2024-01-09,Murders at Karlov Manor | Episode 3: Shadows of Regret,story,MKM,4976,https://magic.wizards.com/en/news/magic-story/episode-3-shadows-of-regret
@@ -450,32 +454,32 @@ date,title,kind,arc,words,url
 2024-05-13,Limits,story,,6186,https://magic.wizards.com/en/news/magic-story/limits-2015-07-15
 2024-05-13,"Nissa, Worldwaker",story,,2956,https://magic.wizards.com/en/news/magic-story/nissa-worldwaker-2014-06-25
 2024-05-13,Nissa's Origin: Home,story,,8315,https://magic.wizards.com/en/news/magic-story/nissas-origin-home-2015-07-08
-2024-05-13,The Battle of Fort Keff,story,,2957,https://magic.wizards.com/en/news/magic-story/the-battle-of-fort-keff
+2024-05-13,The Battle of Fort Keff,story,BFZ/OGW,2957,https://magic.wizards.com/en/news/magic-story/the-battle-of-fort-keff
 2024-05-13,The Lithomancer,story,,4354,https://magic.wizards.com/en/news/magic-story/the-lithomancer
-2024-05-15,The Believers' Pilgrimage,story,,3418,https://magic.wizards.com/en/news/magic-story/believers-pilgrimage-2015-09-02
+2024-05-15,The Believers' Pilgrimage,story,BFZ/OGW,3418,https://magic.wizards.com/en/news/magic-story/believers-pilgrimage-2015-09-02
 2024-05-15,Catching Up,story,,4923,https://magic.wizards.com/en/news/magic-story/catching-2015-07-22
 2024-05-15,Home Waters,story,,4909,https://magic.wizards.com/en/news/magic-story/home-waters-2015-09-30
-2024-05-15,The Liberation of Sea Gate,story,,5920,https://magic.wizards.com/en/news/magic-story/liberation-sea-gate-2015-10-28
+2024-05-15,The Liberation of Sea Gate,story,BFZ/OGW,5920,https://magic.wizards.com/en/news/magic-story/liberation-sea-gate-2015-10-28
 2024-05-15,Memories of Blood,story,,5811,https://magic.wizards.com/en/news/magic-story/memories-blood-2015-09-16
 2024-05-15,Nissa's Quest,story,,4623,https://magic.wizards.com/en/news/magic-story/nissas-quest-2015-09-23
 2024-05-15,Nissa's Resolve,story,,6018,https://magic.wizards.com/en/news/magic-story/nissas-resolve-2015-10-07
-2024-05-15,Revelation at the Eye,story,,4717,https://magic.wizards.com/en/news/magic-story/revelation-eye-2015-10-14
-2024-05-15,Shaping an Army,story,,4284,https://magic.wizards.com/en/news/magic-story/shaping-army-2015-10-21
+2024-05-15,Revelation at the Eye,story,BFZ/OGW,4717,https://magic.wizards.com/en/news/magic-story/revelation-eye-2015-10-14
+2024-05-15,Shaping an Army,story,BFZ/OGW,4284,https://magic.wizards.com/en/news/magic-story/shaping-army-2015-10-21
 2024-05-15,The Silent Cry,story,,7860,https://magic.wizards.com/en/news/magic-story/silent-cry-2015-08-26
 2024-05-15,Slaughter at the Refuge,story,,4961,https://magic.wizards.com/en/news/magic-story/slaughter-refuge-2015-08-19
 2024-05-15,The Survivors of Sky Rock,story,,6712,https://magic.wizards.com/en/news/magic-story/survivors-sky-rock-2015-09-09
 2024-05-15,For Zendikar,story,,5930,https://magic.wizards.com/en/news/magic-story/zendikar-2015-08-12
-2024-05-17,At Any Cost,story,,3100,https://magic.wizards.com/en/news/magic-story/any-cost-2015-11-25
-2024-05-17,Beneath the Surface,story,,5969,https://magic.wizards.com/en/news/magic-story/beneath-surface-2016-01-27
-2024-05-17,The Blight We Were Born For,story,,7145,https://magic.wizards.com/en/news/magic-story/blight-we-were-born-2016-01-13
-2024-05-17,Brink of Extinction,story,,4019,https://magic.wizards.com/en/news/magic-story/brink-extinction-2016-02-10
-2024-05-17,Up in Flames,story,,4541,https://magic.wizards.com/en/news/magic-story/flames-2016-01-20
-2024-05-17,Hedron Alignment,story,,8707,https://magic.wizards.com/en/news/magic-story/hedron-alignment-2015-11-18
-2024-05-17,Oath of the Gatewatch,story,,2116,https://magic.wizards.com/en/news/magic-story/oath-gatewatch-2016-02-03
-2024-05-17,Promises to Keep,story,,4433,https://magic.wizards.com/en/news/magic-story/promises-keep-2015-12-02
-2024-05-17,Retaliation of Ob Nixilis,story,,4601,https://magic.wizards.com/en/news/magic-story/retaliation-ob-nixilis-2015-12-30
-2024-05-17,The Rise of Kozilek,story,,3598,https://magic.wizards.com/en/news/magic-story/rise-kozilek-2015-12-09
-2024-05-17,Zendikar's Last Stand,story,,4550,https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17
+2024-05-17,At Any Cost,story,BFZ/OGW,3100,https://magic.wizards.com/en/news/magic-story/any-cost-2015-11-25
+2024-05-17,Beneath the Surface,story,BFZ/OGW,5969,https://magic.wizards.com/en/news/magic-story/beneath-surface-2016-01-27
+2024-05-17,The Blight We Were Born For,story,BFZ/OGW,7145,https://magic.wizards.com/en/news/magic-story/blight-we-were-born-2016-01-13
+2024-05-17,Brink of Extinction,story,BFZ/OGW,4019,https://magic.wizards.com/en/news/magic-story/brink-extinction-2016-02-10
+2024-05-17,Up in Flames,story,BFZ/OGW,4541,https://magic.wizards.com/en/news/magic-story/flames-2016-01-20
+2024-05-17,Hedron Alignment,story,BFZ/OGW,8707,https://magic.wizards.com/en/news/magic-story/hedron-alignment-2015-11-18
+2024-05-17,Oath of the Gatewatch,story,BFZ/OGW,2116,https://magic.wizards.com/en/news/magic-story/oath-gatewatch-2016-02-03
+2024-05-17,Promises to Keep,story,BFZ/OGW,4433,https://magic.wizards.com/en/news/magic-story/promises-keep-2015-12-02
+2024-05-17,Retaliation of Ob Nixilis,story,BFZ/OGW,4601,https://magic.wizards.com/en/news/magic-story/retaliation-ob-nixilis-2015-12-30
+2024-05-17,The Rise of Kozilek,story,BFZ/OGW,3598,https://magic.wizards.com/en/news/magic-story/rise-kozilek-2015-12-09
+2024-05-17,Zendikar's Last Stand,story,BFZ/OGW,4550,https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17
 2024-07-01,Bloomburrow | Episode 1: Calamity Comes to Valley,story,BLB,4923,https://magic.wizards.com/en/news/magic-story/episode-1-calamity-comes-to-valley
 2024-07-02,Bloomburrow | Episode 2: An Expected Party,story,BLB,4913,https://magic.wizards.com/en/news/magic-story/episode-2-an-expected-party
 2024-07-03,Bloomburrow | Episode 3: The Lost and the Found,story,BLB,4959,https://magic.wizards.com/en/news/magic-story/episode-3-the-lost-and-the-found

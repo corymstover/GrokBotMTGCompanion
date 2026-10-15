@@ -5,7 +5,7 @@ tags: [planeswalkers, dossiers, sparks]
 issues: [35]
 generated_by: hand-written
 sources: [wizards-story]
-related: ["Characters Index.md", "EDH Lore-Themed Deckbuilding.md", "Planes Index.md", "Contradictions & Retcons Log.md", "Art & Flavor Story Links.md", "Lore Primary Sources.md"]
+related: ["Characters Index.md", "Contradictions & Retcons Log.md", "EDH Lore-Themed Deckbuilding.md", "Planes Index.md", "Art & Flavor Story Links.md", "Lore Primary Sources.md"]
 schema: 2
 ---
 
@@ -18,7 +18,7 @@ schema: 2
 ## Contents
 - [Jace Beleren](#jace-beleren) · [Chandra Nalaar](#chandra-nalaar) · [Nissa Revane](#nissa-revane) · [Liliana Vess](#liliana-vess) · [Elspeth Tirel](#elspeth-tirel) · [Karn](#karn) · [Teferi](#teferi)
 - [Ajani Goldmane](#ajani-goldmane) · [Kaya](#kaya) · [Kaito Shizuki](#kaito-shizuki) · [Vraska](#vraska) · [Tamiyo](#tamiyo) · [Sarkhan Vol](#sarkhan-vol)
-- [Gideon Jura](#gideon-jura) · [Nahiri](#nahiri) · [Sorin Markov](#sorin-markov) · [Ugin](#ugin) · [Nicol Bolas](#nicol-bolas) · [Ral Zarek](#ral-zarek) · [Oko](#oko) · [Tezzeret](#tezzeret) *(Bot cycle 8)* · [Tam](#tam) *(Bot cycle 24)*
+- [Gideon Jura](#gideon-jura) · [Nahiri](#nahiri) · [Sorin Markov](#sorin-markov) · [Ugin](#ugin) · [Nicol Bolas](#nicol-bolas) · [Ral Zarek](#ral-zarek) · [Oko](#oko) · [Tezzeret](#tezzeret) *(Bot cycle 8)* · [Tam](#tam) *(Bot cycle 24)* · Chandra, Nissa, Liliana and Gideon extended *(Bot cycle 25)*
 - [Spark & allegiance summary](#spark--allegiance-summary)
 - [Character cards (name-matched)](#character-cards-name-matched)
 
@@ -49,8 +49,14 @@ schema: 2
 | Origins (2015) | Spark ignites on Kaladesh as she escapes Baral; goes to Regatha. | [Renegade Prime](https://magic.wizards.com/en/news/magic-story/renegade-prime-2016-09-14) · [Chandra's Origin: Fire Logic](https://magic.wizards.com/en/news/feature/chandras-origin-fire-logic-2015-06-10) |
 | Oath of the Gatewatch (2016) | "Every world has its tyrants … So I'll say it: never again." | [Oath of the Gatewatch](https://magic.wizards.com/en/news/magic-story/oath-gatewatch-2016-02-03) |
 | Kaladesh (2016) | Returns home "for the first time since her Planeswalker spark ignited". | [Torch of Defiance](https://magic.wizards.com/en/news/magic-story/torch-defiance-2016-09-07) |
+| Aether Revolt (2017) *(Bot cycle 25)* | Chandra and Pia are "reunited after twelve years thinking each other dead". | [Renewal](https://magic.wizards.com/en/news/magic-story/renewal-2017-02-01) |
+| Hour of Devastation (2017) *(Bot cycle 25)* | The Gatewatch is routed: "Bolas ignored Chandra's fire, trampled Liliana's dead, and broke Nissa's vines." | [Hour of Devastation](https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26) |
+| Dominaria (2018) *(Bot cycle 25)* | Trains with Jaya; "She really wanted to set something on fire, but had just enough control of her temper to know that would be a bad, bad idea." | [RtD Ep. 9](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-9-2018-05-09) |
+| WAR (2019) *(Bot cycle 25)* | Renews her oath: "If it means folks can live in freedom, I will keep watch. With all of you." | [WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12) |
+| BRO (2022) *(Bot cycle 25)* | Returns to Dominaria with Nissa to help the sylex search. | [BRO Ch. 5](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-5-exodus) |
 | MOM (2023) | Refuses compleated Nissa's offer: "I miss you so much. But I can't." Reunites with the restored Nissa on Zhalfir. | [MOM Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-cathartic-reunion) · [Ep. 10](https://magic.wizards.com/en/news/magic-story/episode-10-the-rhythms-of-life) |
 | MAT (2023) | One of the few who kept their spark: "Chandra is the only one among them who seemed to have kept hers—well, Chandra and Ajani." | [She Who Breaks the World](https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world) |
+| MAT (2023) *(Bot cycle 25)* | With Nissa, "Hand in hand," she steps "through the portal into just one of infinite possibilities". | [She Who Breaks the World](https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world) |
 
 **Allegiances:** Gatewatch. Partner to Nissa ([MOM Ep. 10](https://magic.wizards.com/en/news/magic-story/episode-10-the-rhythms-of-life)).
 **Status:** [Characters Index → Chandra Nalaar](Characters%20Index.md#chandra-nalaar).
@@ -63,9 +69,14 @@ schema: 2
 |---|---|---|
 | Origins (2015) | Spark ignites at Akoum on Zendikar. | [Nissa's Origin: Home](https://magic.wizards.com/en/news/magic-story/nissas-origin-home-2015-07-08) |
 | Oath of the Gatewatch (2016) | "For Zendikar and the life it nurtures, for the life of every plane, I will keep watch." | [Oath of the Gatewatch](https://magic.wizards.com/en/news/magic-story/oath-gatewatch-2016-02-03) |
+| BFZ (2015) *(Bot cycle 25, placed by story order)* | Earlier, believing the titans would leave, she "broke the last bonds holding them in". She later traps Ulamog: "Nissa had heaved the last hedron into place". | [Battle of Fort Keff](https://magic.wizards.com/en/news/magic-story/the-battle-of-fort-keff) · [Retaliation of Ob Nixilis](https://magic.wizards.com/en/news/magic-story/retaliation-ob-nixilis-2015-12-30) |
+| Amonkhet (2017) *(Bot cycle 25)* | Senses "The city of Naktamun is too perfect to be real"; later the Gatewatch falls to Bolas. | [The Writing on the Wall](https://magic.wizards.com/en/news/magic-story/writing-wall-2017-04-12) · [Hour of Devastation](https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26) |
+| Dominaria (2018) *(Bot cycle 25)* | Quits the Gatewatch: "I'm sorry, but my watch is over" (as recalled in BRO). | [BRO Ch. 5](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-5-exodus) |
+| WAR (2019) *(Bot cycle 25)* | Renews her oath: "For Zendikar and the life it nurtures, for Ravnica and the life of every plane, I will keep watch." | [WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12) |
 | ONE (2023) | Revealed compleated at Norn's side: "The Nissa she knew was gone." | [ONE Ep. 5](https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-5-inevitable-resolutions) |
 | MOM (2023) | Tends the Invasion Tree as Norn's lieutenant; restored on Zhalfir. | [MOM Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless) · [Ep. 10](https://magic.wizards.com/en/news/magic-story/episode-10-the-rhythms-of-life) |
 | MAT (2023) | "she can no longer planeswalk". | [Beyond Repair](https://magic.wizards.com/en/news/magic-story/beyond-repair) |
+| MAT (2023) *(Bot cycle 25)* | Asks "is this what happens when a Planeswalker loses her spark?"; "Karn theorized it was damaged when the Phyrexians altered Nissa's mind and body." Leaves with Chandra through a portal. | [She Who Breaks the World](https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world) |
 
 **Allegiances:** Gatewatch. Partner to Chandra.
 **Status:** [Characters Index → Nissa Revane](Characters%20Index.md#nissa-revane).
@@ -77,9 +88,15 @@ schema: 2
 | When (story) | Event | Source |
 |---|---|---|
 | Origins (2015) | Spark ignites in desolation and carries her to Innistrad. The pre-Mending spark had made her "immortal and virtually omnipotent" until "the Multiverse reshaped itself". | [The Fourth Pact](https://magic.wizards.com/en/news/feature/lilianas-origin-fourth-pact-2015-06-17) · [Homecoming](https://magic.wizards.com/en/news/magic-story/homecoming-2022-08-12) |
+| SOI (2016) *(Bot cycle 25)* | "She'd made demonic pacts to make herself ageless, undying, at the paltry cost of a soul she was hardly using anyway." | [Liliana's Indignation](https://magic.wizards.com/en/news/magic-story/lilianas-indignation-2016-04-20) |
+| EMN (2016) *(Bot cycle 25)* | Joins the Gatewatch: "If that means I can do what needs to be done without relying on the Chain Veil, then I'll keep watch. Happy now?" | [The Promised End](https://magic.wizards.com/en/news/magic-story/promised-end-2016-07-27) |
+| Aether Revolt (2017) *(Bot cycle 25)* | Hunts Tezzeret: "Tezzeret had to die". | [Puppets](https://magic.wizards.com/en/news/magic-story/puppets-2017-01-25) |
+| Hour of Devastation (2017) *(Bot cycle 25)* | Bolas "trampled Liliana's dead". | [Hour of Devastation](https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26) |
+| Dominaria (2018) *(Bot cycle 25)* | Hopes "the Blackblade rips Belzenlok apart". After his death she leaves alone: "She could have left any moment after Belzenlok was killed." | [RtD Ep. 11](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-11-2018-05-23) · [Ep. 12](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-12-2018-05-30) |
+| WAR (2019) *(Bot cycle 25)* | Controls the Eternals for Bolas, then turns. Gideon saves her: "her black death was transferring over to him". | [WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12) |
 | STX / later | Gideon "took my death"; she becomes a professor at Strixhaven and is later held in the Echoverse. | [Characters Index → Liliana](Characters%20Index.md#liliana-vess) (sources there) |
 
-**Allegiances:** ❓ Not covered by the fetched sources beyond the above. The Gatewatch oath page doesn't include her oath.
+**Allegiances:** Gatewatch from Eldritch Moon (her oath above, sworn with calculated cynicism: "She needed a delicate touch, a hint of cynicism"). She serves Bolas under contract in WAR before turning on him. *Corrected in Bot cycle 25: earlier this line said her oath was not covered.*
 **Status:** [Characters Index → Liliana Vess](Characters%20Index.md#liliana-vess).
 
 ## Elspeth Tirel
@@ -214,9 +231,11 @@ schema: 2
 |---|---|---|
 | Origins (2015) | The Irregulars die; his spark ignites; arrives in Bant. | [Kytheon Iora of Akros](https://magic.wizards.com/en/news/feature/gideons-origin-kytheon-iora-akros-2015-07-01) |
 | BFZ/OGW (2015–16) | Leads Zendikar's army; founds the Gatewatch ("To keep watch"). | [Liberation of Sea Gate](https://magic.wizards.com/en/news/magic-story/liberation-sea-gate-2015-10-28) · [Oath of the Gatewatch](https://magic.wizards.com/en/news/magic-story/oath-gatewatch-2016-02-03) |
+| EMN (2016) *(Bot cycle 25)* | Asks Liliana for her oath at Thraben: "When Gideon asked her for her oath, she was ready." | [The Promised End](https://magic.wizards.com/en/news/magic-story/promised-end-2016-07-27) |
 | Aether Revolt (2017) | Hangs up his sural to follow Chandra: "You're not going alone." | [Breaking Points](https://magic.wizards.com/en/news/magic-story/breaking-points-2017-01-18) |
 | Amonkhet (2017) | Drawn to Oketra; warned "I see your death, Kytheon Iora. You are no god." | [Trust](https://magic.wizards.com/en/news/magic-story/trust-2017-04-05) · [Judgment](https://magic.wizards.com/en/news/magic-story/judgment-2017-05-17) |
 | Dominaria (2018) | Goes into the Stronghold pit to buy time; leaves to strike Bolas. | [RtD Ep. 11](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-11-2018-05-23) · [Ep. 12](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-12-2018-05-30) |
+| WAR (2019) *(Bot cycle 25)* | Renews his oath with Blackblade: "for Sea Gate, for Zendikar, for Ravnica and all its people, for justice and peace, I will keep watch." | [WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12) |
 | WAR (2019) | Takes Liliana's "black death" onto himself and disintegrates: "Mister Jura's dead." | [WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12) |
 
 **Allegiances:** Founder of the Gatewatch. Leader of Theros's Irregulars as Kytheon.

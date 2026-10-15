@@ -1176,8 +1176,8 @@
 "Master Timeline.md",
 "Planes Index.md",
 "Contradictions & Retcons Log.md",
-"Story Arc Summaries.md",
-"Lore Primary Sources.md"
+"Lore Primary Sources.md",
+"Story Arc Summaries.md"
 ]
 },
 {
@@ -1288,6 +1288,26 @@
 ],
 [
 2,
+"Added Bot cycle 25",
+"added-bot-cycle-25"
+],
+[
+3,
+"Rivals of Ixalan alternate endings vs LCI canon",
+"rivals-of-ixalan-alternate-endings-vs-lci-canon"
+],
+[
+3,
+"Spark loss after the invasion (MAT → LCI)",
+"spark-loss-after-the-invasion-mat--lci"
+],
+[
+3,
+"Teferi's spark: given up, then a Planeswalker again",
+"teferis-spark-given-up-then-a-planeswalker-again"
+],
+[
+2,
 "Queue for later cycles",
 "queue-for-later-cycles"
 ],
@@ -1305,6 +1325,7 @@
 "Conflicts & Arcs.md",
 "Characters Index.md",
 "Master Timeline.md",
+"Planes Index.md",
 "Planeswalker Dossiers.md",
 "Lore Primary Sources.md"
 ]
@@ -4312,6 +4333,21 @@
 "arcavios--the-strixhaven-colleges"
 ],
 [
+3,
+"Kaladesh → Avishkar",
+"kaladesh--avishkar"
+],
+[
+3,
+"Amonkhet",
+"amonkhet"
+],
+[
+3,
+"Ixalan",
+"ixalan"
+],
+[
 2,
 "Special realms & cosmology",
 "special-realms--cosmology"
@@ -4329,10 +4365,10 @@
 "related": [
 "Characters Index.md",
 "Conflicts & Arcs.md",
+"Contradictions & Retcons Log.md",
 "Master Timeline.md",
 "Planeswalker Dossiers.md",
-"Story Arc Summaries.md",
-"Card Index.md"
+"Story Arc Summaries.md"
 ]
 },
 {
@@ -4472,9 +4508,9 @@
 ],
 "related": [
 "Characters Index.md",
+"Contradictions & Retcons Log.md",
 "EDH Lore-Themed Deckbuilding.md",
 "Planes Index.md",
-"Contradictions & Retcons Log.md",
 "Art & Flavor Story Links.md",
 "Lore Primary Sources.md"
 ]
@@ -5116,6 +5152,11 @@
 "headings": [
 [
 2,
+"2026-10-15 — Bot cycle 25 (Phase 6: last six arcs, episode upgrades, dossiers)",
+"2026-10-15--bot-cycle-25-phase-6-last-six-arcs-episode-upgrades-dossiers"
+],
+[
+2,
 "2026-10-15 — Bot cycle 24 (Phase 6: newest arcs, pre-2019 arcs, dossiers)",
 "2026-10-15--bot-cycle-24-phase-6-newest-arcs-pre-2019-arcs-dossiers"
 ],
@@ -5237,12 +5278,12 @@
 ],
 "issues": [],
 "related": [
-"Knowledge Index.md",
 "Contradictions & Retcons Log.md",
-"Front-Matter Schema.md",
+"Knowledge Index.md",
 "Conflicts & Arcs.md",
-"EDH Deck Evaluation Checklist.md",
-"EDH Deck Template.md"
+"Front-Matter Schema.md",
+"Lore Primary Sources.md",
+"EDH Deck Evaluation Checklist.md"
 ]
 },
 {
