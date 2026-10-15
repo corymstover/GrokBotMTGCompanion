@@ -61,6 +61,7 @@
 | Keyword Encyclopedia | ✅ (#39, Bot cycles 8–9) **194 keyword abilities (188 matched to cards) + 70 keyword actions (50 matched)** · **44** official status labels (🌲 evergreen / 🍂 deciduous / 🍁 retired, cited from Wizards articles only) · ruling excerpts on **217** entries · ✅ marks from Common Keywords |
 | Printing History | ✅ (#40, Bot cycle 10) **33,894** card rows in `data/printings_summary.csv` · **571** Reserved List · distribution + most-printed / longest-gap / single-printing staples in [Printing History](Printing%20History.md) |
 | Format Legality Matrix | ✅ (#41, Bot cycle 11) **33,894 × 23** formats in `data/legality_matrix.csv` · banned/restricted lists (**1,390** entries across 21 formats) in [Format Legality Matrix](Format%20Legality%20Matrix.md) |
+| Tokens, Emblems & Dungeons | ✅ (#42, Bot cycle 12) **780** creature tokens · **133** noncreature · **89** emblems · **5** dungeons · **159** adventurer cards · `data/tokens.json` |
 | Rules-interactions section | 🟢 (#9) **27 topics** (was 17) · 37 official CR examples (was 20) · 139 linked rulings (was 87) |
 | Rulings in card entries | ✅ 78,943 rulings on 19,889 cards; all 33,894 cards processed (#10 closed) |
 
@@ -78,5 +79,5 @@
 | Rules interactions | ✅ closed (Bot cycle 5: #9, 27 topics) | v1.3-cycle5-rules-lore-maintenance |
 | Phase 1 — EDH & Deckbuilding depth | ✅ closed (Bot cycle 6: 7 issues; Bot cycle 7: #30, #33) | `v1.4-cycle6-edh-depth` · `v1.5-cycle7-phase1-complete` |
 | Phase 2 — Lore & Story depth | ✅ closed (Bot cycle 7: #36; Bot cycle 8: #34, #35, #37, #38) | `v1.6-cycle8-phase2-complete` |
-| Phase 3 — Card & Rules enrichment | 🟡 open (Bot cycle 11: #39–#41 ✅; #42–#43 open) | — |
+| Phase 3 — Card & Rules enrichment | 🟡 open (Bot cycle 12: #39–#42 ✅; #43 artist index open) | — |
 | Phase 4 — Structure & usability | ⏳ open (#44–#47) | — |
