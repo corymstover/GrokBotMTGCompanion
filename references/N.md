@@ -69,7 +69,7 @@ schema: 2
 
 - **Lore & story (3):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planes Index → Zendikar (Zendikar Rising era)](../Planes%20Index.md#zendikar-zendikar-rising-era) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
-- **Lore entries (3; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Zendikar (Zendikar Rising era)](../Planes%20Index.md#zendikar-zendikar-rising-era) (featured) · [Nahiri](../Characters%20Index.md#nahiri) (name-match) · [Nahiri](../Planeswalker%20Dossiers.md#nahiri) (name-match)
+- **Lore entries (3; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Zendikar (Zendikar Rising era)](../Planes%20Index.md#zendikar-zendikar-rising-era) (featured) · [Nahiri](../Characters%20Index.md#nahiri) (depicts) · [Nahiri](../Planeswalker%20Dossiers.md#nahiri) (depicts)
 
 ### Nahiri's Binding
 
@@ -102,7 +102,7 @@ schema: 2
 [Card entry](../cards/N/na.md#nahiri-the-harbinger) · **3 pages** (lore & story 3)
 
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Nahiri](../Characters%20Index.md#nahiri) (name-match) · [Nahiri](../Planeswalker%20Dossiers.md#nahiri) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Nahiri](../Characters%20Index.md#nahiri) (depicts) · [Nahiri](../Planeswalker%20Dossiers.md#nahiri) (depicts)
 
 ### Nahiri, the Lithomancer
 
@@ -111,7 +111,7 @@ schema: 2
 - **Decks (1):** [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens) (+1 more)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Nahiri](../Characters%20Index.md#nahiri) (name-match) · [Nahiri](../Planeswalker%20Dossiers.md#nahiri) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Nahiri](../Characters%20Index.md#nahiri) (depicts) · [Nahiri](../Planeswalker%20Dossiers.md#nahiri) (depicts)
 
 ### Nahiri, the Unforgiving
 
@@ -209,7 +209,7 @@ schema: 2
 
 - **EDH guides (1):** [EDH Packages → Card advantage: Impulse / exile-to-play](../EDH%20Packages.md#card-advantage-impulse--exile-to-play)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Narset](../Characters%20Index.md#narset) (name-match) · [Narset](../Planeswalker%20Dossiers.md#narset) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Narset](../Characters%20Index.md#narset) (depicts) · [Narset](../Planeswalker%20Dossiers.md#narset) (depicts)
 
 ### Narset, Jeskai Waymaster
 
@@ -258,7 +258,7 @@ schema: 2
 - **Decks (1):** [Atraxa, Praetors' Voice (planeswalkers theme)](../decks/theme-atraxa-praetors-voice-planeswalkers.md)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Narset](../Characters%20Index.md#narset) (name-match) · [Narset](../Planeswalker%20Dossiers.md#narset) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Narset](../Characters%20Index.md#narset) (depicts) · [Narset](../Planeswalker%20Dossiers.md#narset) (depicts)
 
 ### Naru Meha, Master Wizard
 
@@ -650,7 +650,7 @@ schema: 2
 [Card entry](../cards/N/ni.md#nicol-bolas-god-pharaoh) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Nicol Bolas](../Characters%20Index.md#nicol-bolas) (name-match) · [Nicol Bolas](../Planeswalker%20Dossiers.md#nicol-bolas) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Nicol Bolas](../Characters%20Index.md#nicol-bolas) (depicts) · [Nicol Bolas](../Planeswalker%20Dossiers.md#nicol-bolas) (depicts)
 
 ### Nicol Bolas, Planeswalker
 
@@ -664,14 +664,14 @@ schema: 2
 [Card entry](../cards/N/ni.md#nicol-bolas-the-deceiver) · **3 pages** (lore & story 3)
 
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Nicol Bolas](../Characters%20Index.md#nicol-bolas) (name-match) · [Nicol Bolas](../Planeswalker%20Dossiers.md#nicol-bolas) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Nicol Bolas](../Characters%20Index.md#nicol-bolas) (depicts) · [Nicol Bolas](../Planeswalker%20Dossiers.md#nicol-bolas) (depicts)
 
 ### Nicol Bolas, the Ravager // Nicol Bolas, the Arisen
 
 [Card entry](../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Nicol Bolas](../Characters%20Index.md#nicol-bolas) (name-match) · [Nicol Bolas](../Planeswalker%20Dossiers.md#nicol-bolas) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Nicol Bolas](../Characters%20Index.md#nicol-bolas) (depicts) · [Nicol Bolas](../Planeswalker%20Dossiers.md#nicol-bolas) (depicts)
 
 ### Nightblade Brigade
 
@@ -826,7 +826,7 @@ schema: 2
 
 - **EDH guides (1):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) (+1 more)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Nissa Revane](../Characters%20Index.md#nissa-revane) (name-match) · [Nissa Revane](../Planeswalker%20Dossiers.md#nissa-revane) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Nissa Revane](../Characters%20Index.md#nissa-revane) (depicts) · [Nissa Revane](../Planeswalker%20Dossiers.md#nissa-revane) (depicts)
 
 ### Nissa, Nature's Artisan
 
@@ -841,7 +841,7 @@ schema: 2
 
 - **EDH guides (1):** [EDH Packages → Lands / landfall: Landfall payoffs](../EDH%20Packages.md#lands--landfall-landfall-payoffs)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Nissa Revane](../Characters%20Index.md#nissa-revane) (name-match) · [Nissa Revane](../Planeswalker%20Dossiers.md#nissa-revane) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Nissa Revane](../Characters%20Index.md#nissa-revane) (depicts) · [Nissa Revane](../Planeswalker%20Dossiers.md#nissa-revane) (depicts)
 
 ### Nissa, Resurgent Animist
 
@@ -857,7 +857,7 @@ schema: 2
 [Card entry](../cards/N/ni.md#nissa-revane) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Nissa Revane](../Characters%20Index.md#nissa-revane) (name-match) · [Nissa Revane](../Planeswalker%20Dossiers.md#nissa-revane) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Nissa Revane](../Characters%20Index.md#nissa-revane) (depicts) · [Nissa Revane](../Planeswalker%20Dossiers.md#nissa-revane) (depicts)
 
 ### Nissa's Defeat
 
@@ -893,7 +893,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Lands / landfall: Landfall payoffs](../EDH%20Packages.md#lands--landfall-landfall-payoffs)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Nissa Revane](../Characters%20Index.md#nissa-revane) (name-match) · [Nissa Revane](../Planeswalker%20Dossiers.md#nissa-revane) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Nissa Revane](../Characters%20Index.md#nissa-revane) (depicts) · [Nissa Revane](../Planeswalker%20Dossiers.md#nissa-revane) (depicts)
 
 ### Nissa, Vital Force
 
@@ -902,14 +902,14 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) (+2 more)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Nissa Revane](../Characters%20Index.md#nissa-revane) (name-match) · [Nissa Revane](../Planeswalker%20Dossiers.md#nissa-revane) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Nissa Revane](../Characters%20Index.md#nissa-revane) (depicts) · [Nissa Revane](../Planeswalker%20Dossiers.md#nissa-revane) (depicts)
 
 ### Nissa, Voice of Zendikar
 
 [Card entry](../cards/N/ni.md#nissa-voice-of-zendikar) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Nissa Revane](../Characters%20Index.md#nissa-revane) (name-match) · [Nissa Revane](../Planeswalker%20Dossiers.md#nissa-revane) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Nissa Revane](../Characters%20Index.md#nissa-revane) (depicts) · [Nissa Revane](../Planeswalker%20Dossiers.md#nissa-revane) (depicts)
 
 ### Nissa, Who Shakes the World
 
@@ -917,7 +917,7 @@ schema: 2
 
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (2):** [Artist Index → Artists A](../Artist%20Index.md#artists-a) (+2 more) · [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Nissa Revane](../Characters%20Index.md#nissa-revane) (name-match) · [Nissa Revane](../Planeswalker%20Dossiers.md#nissa-revane) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Nissa Revane](../Characters%20Index.md#nissa-revane) (depicts) · [Nissa Revane](../Planeswalker%20Dossiers.md#nissa-revane) (depicts)
 
 ### Nissa, Worldsoul Speaker
 
@@ -932,71 +932,71 @@ schema: 2
 [Card entry](../cards/N/ni.md#nissa-worldwaker) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Nissa Revane](../Characters%20Index.md#nissa-revane) (name-match) · [Nissa Revane](../Planeswalker%20Dossiers.md#nissa-revane) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Nissa Revane](../Characters%20Index.md#nissa-revane) (depicts) · [Nissa Revane](../Planeswalker%20Dossiers.md#nissa-revane) (depicts)
 
 ### Niv-Mizzet, Dracogenius
 
-[Card entry](../cards/N/ni.md#niv-mizzet-dracogenius) · **3 pages** (edh guides 1 · lore & story 2)
+[Card entry](../cards/N/ni.md#niv-mizzet-dracogenius) · **2 pages** (edh guides 1 · lore & story 1)
 
 - **EDH guides (1):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents)
-- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Proft, Etrata, Aminatou, Niv-Mizzet](../Characters%20Index.md#proft-etrata-aminatou-niv-mizzet) (name-match) · [Niv-Mizzet](../Planeswalker%20Dossiers.md#niv-mizzet) (name-match)
+- **Lore & story (1):** [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Niv-Mizzet](../Planeswalker%20Dossiers.md#niv-mizzet) (depicts)
 
 ### Niv-Mizzet, Ghost Counsel
 
-[Card entry](../cards/N/ni.md#niv-mizzet-ghost-counsel) · **2 pages** (lore & story 2)
+[Card entry](../cards/N/ni.md#niv-mizzet-ghost-counsel) · **1 pages** (lore & story 1)
 
-- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Proft, Etrata, Aminatou, Niv-Mizzet](../Characters%20Index.md#proft-etrata-aminatou-niv-mizzet) (name-match) · [Niv-Mizzet](../Planeswalker%20Dossiers.md#niv-mizzet) (name-match)
+- **Lore & story (1):** [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Niv-Mizzet](../Planeswalker%20Dossiers.md#niv-mizzet) (depicts)
 
 ### Niv-Mizzet, Guildpact
 
-[Card entry](../cards/N/ni.md#niv-mizzet-guildpact) · **2 pages** (lore & story 2)
+[Card entry](../cards/N/ni.md#niv-mizzet-guildpact) · **1 pages** (lore & story 1)
 
-- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Proft, Etrata, Aminatou, Niv-Mizzet](../Characters%20Index.md#proft-etrata-aminatou-niv-mizzet) (name-match) · [Niv-Mizzet](../Planeswalker%20Dossiers.md#niv-mizzet) (name-match)
+- **Lore & story (1):** [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Niv-Mizzet](../Planeswalker%20Dossiers.md#niv-mizzet) (name-match)
 
 ### Niv-Mizzet, Parun
 
-[Card entry](../cards/N/ni.md#niv-mizzet-parun) · **12 pages** (decks 3 · edh guides 6 · lore & story 2 · card data 1)
+[Card entry](../cards/N/ni.md#niv-mizzet-parun) · **11 pages** (decks 3 · edh guides 6 · lore & story 1 · card data 1)
 
 - **Decks (3):** [Bjorna, Nightfall Alchemist (Grixis)](../grixis/decks/bjorna-nightfall-alchemist-cecily.md) · [Nekusar, the Mindrazer (Grixis)](../grixis/decks/nekusar-the-mindrazer.md) · [Niv-Mizzet, Parun](../decks/niv-mizzet-parun.md)
 - **EDH guides (6):** [cEDH Primer → Compact combos](../cEDH%20Primer.md#compact-combos) · [EDH Archetypes → Spellslinger (instants & sorceries)](../EDH%20Archetypes.md#spellslinger-instants--sorceries) · [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [EDH Standards → Draw ↔ damage loop — Niv-Mizzet, Parun (UR, spellslinger) ⚠️ two-card combo](../EDH%20Standards.md#draw--damage-loop--niv-mizzet-parun-ur-spellslinger--two-card-combo) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) · [EDH Win Conditions → Combo kills (Commander Spellbook)](../EDH%20Win%20Conditions.md#combo-kills-commander-spellbook)
-- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
+- **Lore & story (1):** [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Artist Index → Artists E](../Artist%20Index.md#artists-e) (+1 more)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Proft, Etrata, Aminatou, Niv-Mizzet](../Characters%20Index.md#proft-etrata-aminatou-niv-mizzet) (name-match) · [Niv-Mizzet](../Planeswalker%20Dossiers.md#niv-mizzet) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Niv-Mizzet](../Planeswalker%20Dossiers.md#niv-mizzet) (name-match)
 
 ### Niv-Mizzet Reborn
 
-[Card entry](../cards/N/ni.md#niv-mizzet-reborn) · **4 pages** (lore & story 4)
+[Card entry](../cards/N/ni.md#niv-mizzet-reborn) · **3 pages** (lore & story 3)
 
-- **Lore & story (4):** [Art & Flavor Story Links → War of the Spark (2019)](../Art%20%26%20Flavor%20Story%20Links.md#war-of-the-spark-2019) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planes Index → Ravnica after the invasion (Murders at Karlov Manor)](../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (3; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ravnica after the invasion (Murders at Karlov Manor)](../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor) (featured) · [Proft, Etrata, Aminatou, Niv-Mizzet](../Characters%20Index.md#proft-etrata-aminatou-niv-mizzet) (name-match) · [Niv-Mizzet](../Planeswalker%20Dossiers.md#niv-mizzet) (name-match)
+- **Lore & story (3):** [Art & Flavor Story Links → War of the Spark (2019)](../Art%20%26%20Flavor%20Story%20Links.md#war-of-the-spark-2019) · [Planes Index → Ravnica after the invasion (Murders at Karlov Manor)](../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ravnica after the invasion (Murders at Karlov Manor)](../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor) (featured) · [Niv-Mizzet](../Planeswalker%20Dossiers.md#niv-mizzet) (depicts)
 
 ### Niv-Mizzet, Supreme
 
-[Card entry](../cards/N/ni.md#niv-mizzet-supreme) · **2 pages** (lore & story 2)
+[Card entry](../cards/N/ni.md#niv-mizzet-supreme) · **1 pages** (lore & story 1)
 
-- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Proft, Etrata, Aminatou, Niv-Mizzet](../Characters%20Index.md#proft-etrata-aminatou-niv-mizzet) (name-match) · [Niv-Mizzet](../Planeswalker%20Dossiers.md#niv-mizzet) (name-match)
+- **Lore & story (1):** [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Niv-Mizzet](../Planeswalker%20Dossiers.md#niv-mizzet) (name-match)
 
 ### Niv-Mizzet, the Firemind
 
-[Card entry](../cards/N/ni.md#niv-mizzet-the-firemind) · **6 pages** (decks 1 · edh guides 3 · lore & story 2)
+[Card entry](../cards/N/ni.md#niv-mizzet-the-firemind) · **5 pages** (decks 1 · edh guides 3 · lore & story 1)
 
 - **Decks (1):** [Niv-Mizzet, Parun](../decks/niv-mizzet-parun.md)
 - **EDH guides (3):** [EDH Archetypes → Spellslinger (instants & sorceries)](../EDH%20Archetypes.md#spellslinger-instants--sorceries) · [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [EDH Win Conditions → Combo kills (Commander Spellbook)](../EDH%20Win%20Conditions.md#combo-kills-commander-spellbook)
-- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Proft, Etrata, Aminatou, Niv-Mizzet](../Characters%20Index.md#proft-etrata-aminatou-niv-mizzet) (name-match) · [Niv-Mizzet](../Planeswalker%20Dossiers.md#niv-mizzet) (name-match)
+- **Lore & story (1):** [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Niv-Mizzet](../Planeswalker%20Dossiers.md#niv-mizzet) (depicts)
 
 ### Niv-Mizzet, Visionary
 
-[Card entry](../cards/N/ni.md#niv-mizzet-visionary) · **5 pages** (decks 1 · edh guides 2 · lore & story 2)
+[Card entry](../cards/N/ni.md#niv-mizzet-visionary) · **4 pages** (decks 1 · edh guides 2 · lore & story 1)
 
 - **Decks (1):** [Niv-Mizzet, Parun](../decks/niv-mizzet-parun.md)
 - **EDH guides (2):** [EDH Archetypes → Spellslinger (instants & sorceries)](../EDH%20Archetypes.md#spellslinger-instants--sorceries) · [EDH Win Conditions → Combo kills (Commander Spellbook)](../EDH%20Win%20Conditions.md#combo-kills-commander-spellbook)
-- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Proft, Etrata, Aminatou, Niv-Mizzet](../Characters%20Index.md#proft-etrata-aminatou-niv-mizzet) (name-match) · [Niv-Mizzet](../Planeswalker%20Dossiers.md#niv-mizzet) (name-match)
+- **Lore & story (1):** [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Niv-Mizzet](../Planeswalker%20Dossiers.md#niv-mizzet) (name-match)
 
 ### Noble Heritage
 

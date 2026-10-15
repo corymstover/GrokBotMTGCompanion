@@ -389,6 +389,11 @@
 ],
 [
 2,
+"Name-match audit",
+"name-match-audit"
+],
+[
+2,
 "Enriched cards",
 "enriched-cards"
 ],

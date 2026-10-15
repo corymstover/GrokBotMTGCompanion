@@ -463,7 +463,7 @@ schema: 2
 
 - **EDH guides (1):** [EDH Packages → Spellslinger: Spell copiers](../EDH%20Packages.md#spellslinger-spell-copiers)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Venser](../Characters%20Index.md#venser) (name-match) · [Venser](../Planeswalker%20Dossiers.md#venser) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Venser](../Characters%20Index.md#venser) (depicts) · [Venser](../Planeswalker%20Dossiers.md#venser) (name-match)
 
 ### Venser, Shaper Savant
 
@@ -940,7 +940,7 @@ schema: 2
 [Card entry](../cards/V/vi.md#vivien-of-the-arkbow) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Vivien Reid](../Characters%20Index.md#vivien-reid) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Vivien Reid](../Characters%20Index.md#vivien-reid) (depicts)
 
 ### Vivien on the Hunt
 
@@ -1180,7 +1180,7 @@ schema: 2
 - **Decks (2):** [Atraxa, Praetors' Voice](../decks/atraxa-praetors-voice.md) · [Atraxa, Praetors' Voice (planeswalkers theme)](../decks/theme-atraxa-praetors-voice-planeswalkers.md)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planes Index → Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres)
 - **Card data (1):** [Artist Index → Artists R](../Artist%20Index.md#artists-r)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres) (featured) · [Vorinclex](../Characters%20Index.md#vorinclex) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres) (featured) · [Vorinclex](../Characters%20Index.md#vorinclex) (depicts)
 
 ### Vorinclex // The Grand Evolution
 
@@ -1198,7 +1198,7 @@ schema: 2
 - **Decks (1):** [Trostani, Selesnya's Voice](../decks/trostani-selesnyas-voice.md)
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
 - **Card data (1):** [Artist Index → Artists J](../Artist%20Index.md#artists-j) (+1 more)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Vorinclex](../Characters%20Index.md#vorinclex) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Vorinclex](../Characters%20Index.md#vorinclex) (depicts)
 
 ### Vorpal Sword
 
@@ -1268,7 +1268,7 @@ schema: 2
 - **EDH guides (1):** [EDH Win Conditions → "loses the game" effects](../EDH%20Win%20Conditions.md#loses-the-game-effects)
 - **Lore & story (3):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planes Index → Ravnica after the invasion (Murders at Karlov Manor)](../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (2):** [Artist Index → Artists M](../Artist%20Index.md#artists-m) · [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (3; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ravnica after the invasion (Murders at Karlov Manor)](../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor) (featured) · [Vraska](../Characters%20Index.md#vraska) (name-match) · [Vraska](../Planeswalker%20Dossiers.md#vraska) (name-match)
+- **Lore entries (3; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ravnica after the invasion (Murders at Karlov Manor)](../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor) (featured) · [Vraska](../Characters%20Index.md#vraska) (depicts) · [Vraska](../Planeswalker%20Dossiers.md#vraska) (depicts)
 
 ### Vraska Joins Up
 
@@ -1321,7 +1321,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Spellslinger: Cast-trigger payoffs](../EDH%20Packages.md#spellslinger-cast-trigger-payoffs)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Vraska](../Characters%20Index.md#vraska) (name-match) · [Vraska](../Planeswalker%20Dossiers.md#vraska) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Vraska](../Characters%20Index.md#vraska) (depicts) · [Vraska](../Planeswalker%20Dossiers.md#vraska) (depicts)
 
 ### Vraska, Swarm's Eminence
 
@@ -1329,21 +1329,21 @@ schema: 2
 
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Vraska](../Characters%20Index.md#vraska) (name-match) · [Vraska](../Planeswalker%20Dossiers.md#vraska) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Vraska](../Characters%20Index.md#vraska) (depicts) · [Vraska](../Planeswalker%20Dossiers.md#vraska) (depicts)
 
 ### Vraska, the Cutting Glare
 
 [Card entry](../cards/V/vr.md#vraska-the-cutting-glare) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Vraska](../Characters%20Index.md#vraska) (name-match) · [Vraska](../Planeswalker%20Dossiers.md#vraska) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Vraska](../Characters%20Index.md#vraska) (depicts) · [Vraska](../Planeswalker%20Dossiers.md#vraska) (depicts)
 
 ### Vraska, the Silencer
 
 [Card entry](../cards/V/vr.md#vraska-the-silencer) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Vraska](../Characters%20Index.md#vraska) (name-match) · [Vraska](../Planeswalker%20Dossiers.md#vraska) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Vraska](../Characters%20Index.md#vraska) (depicts) · [Vraska](../Planeswalker%20Dossiers.md#vraska) (depicts)
 
 ### Vraska the Unseen
 
@@ -1352,7 +1352,7 @@ schema: 2
 - **EDH guides (2):** [EDH Packages → Aristocrats: Fodder makers (multiple creature tokens)](../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [EDH Win Conditions → "loses the game" effects](../EDH%20Win%20Conditions.md#loses-the-game-effects)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Vraska](../Characters%20Index.md#vraska) (name-match) · [Vraska](../Planeswalker%20Dossiers.md#vraska) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Vraska](../Characters%20Index.md#vraska) (depicts) · [Vraska](../Planeswalker%20Dossiers.md#vraska) (depicts)
 
 ### Vren, the Relentless
 

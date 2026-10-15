@@ -1015,7 +1015,7 @@ schema: 2
 [Card entry](../cards/C/cha.md#chandra-ablaze) · **3 pages** (lore & story 3)
 
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Chandra Nalaar](../Characters%20Index.md#chandra-nalaar) (name-match) · [Chandra Nalaar](../Planeswalker%20Dossiers.md#chandra-nalaar) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Chandra Nalaar](../Characters%20Index.md#chandra-nalaar) (depicts) · [Chandra Nalaar](../Planeswalker%20Dossiers.md#chandra-nalaar) (depicts)
 
 ### Chandra, Acolyte of Flame
 
@@ -1039,7 +1039,7 @@ schema: 2
 [Card entry](../cards/C/cha.md#chandra-bold-pyromancer) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Chandra Nalaar](../Characters%20Index.md#chandra-nalaar) (name-match) · [Chandra Nalaar](../Planeswalker%20Dossiers.md#chandra-nalaar) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Chandra Nalaar](../Characters%20Index.md#chandra-nalaar) (depicts) · [Chandra Nalaar](../Planeswalker%20Dossiers.md#chandra-nalaar) (depicts)
 
 ### Chandra, Chill of Compliance
 
@@ -1048,7 +1048,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Chandra Nalaar](../Characters%20Index.md#chandra-nalaar) (name-match) · [Chandra Nalaar](../Planeswalker%20Dossiers.md#chandra-nalaar) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Chandra Nalaar](../Characters%20Index.md#chandra-nalaar) (depicts) · [Chandra Nalaar](../Planeswalker%20Dossiers.md#chandra-nalaar) (depicts)
 
 ### Chandra, Dressed to Kill
 
@@ -1057,7 +1057,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Card advantage: Impulse / exile-to-play](../EDH%20Packages.md#card-advantage-impulse--exile-to-play)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Chandra Nalaar](../Characters%20Index.md#chandra-nalaar) (name-match) · [Chandra Nalaar](../Planeswalker%20Dossiers.md#chandra-nalaar) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Chandra Nalaar](../Characters%20Index.md#chandra-nalaar) (depicts) · [Chandra Nalaar](../Planeswalker%20Dossiers.md#chandra-nalaar) (depicts)
 
 ### Chandra, Fire Artisan
 
@@ -1066,7 +1066,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Card advantage: Impulse / exile-to-play](../EDH%20Packages.md#card-advantage-impulse--exile-to-play)
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Artist Index → Artists R](../Artist%20Index.md#artists-r)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Chandra Nalaar](../Characters%20Index.md#chandra-nalaar) (name-match) · [Chandra Nalaar](../Planeswalker%20Dossiers.md#chandra-nalaar) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Chandra Nalaar](../Characters%20Index.md#chandra-nalaar) (depicts) · [Chandra Nalaar](../Planeswalker%20Dossiers.md#chandra-nalaar) (depicts)
 
 ### Chandra, Fire of Kaladesh // Chandra, Roaring Flame
 
@@ -1074,7 +1074,7 @@ schema: 2
 
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Chandra Nalaar](../Characters%20Index.md#chandra-nalaar) (name-match) · [Chandra Nalaar](../Planeswalker%20Dossiers.md#chandra-nalaar) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Chandra Nalaar](../Characters%20Index.md#chandra-nalaar) (depicts) · [Chandra Nalaar](../Planeswalker%20Dossiers.md#chandra-nalaar) (depicts)
 
 ### Chandra, Flamecaller
 
@@ -1083,14 +1083,14 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Aristocrats: Fodder makers (multiple creature tokens)](../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Chandra Nalaar](../Characters%20Index.md#chandra-nalaar) (name-match) · [Chandra Nalaar](../Planeswalker%20Dossiers.md#chandra-nalaar) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Chandra Nalaar](../Characters%20Index.md#chandra-nalaar) (depicts) · [Chandra Nalaar](../Planeswalker%20Dossiers.md#chandra-nalaar) (depicts)
 
 ### Chandra, Flame's Catalyst
 
 [Card entry](../cards/C/cha.md#chandra-flames-catalyst) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Chandra Nalaar](../Characters%20Index.md#chandra-nalaar) (name-match) · [Chandra Nalaar](../Planeswalker%20Dossiers.md#chandra-nalaar) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Chandra Nalaar](../Characters%20Index.md#chandra-nalaar) (depicts) · [Chandra Nalaar](../Planeswalker%20Dossiers.md#chandra-nalaar) (depicts)
 
 ### Chandra, Flame's Fury
 
@@ -1120,7 +1120,7 @@ schema: 2
 
 - **EDH guides (1):** [EDH Packages → Card advantage: Impulse / exile-to-play](../EDH%20Packages.md#card-advantage-impulse--exile-to-play)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Chandra Nalaar](../Characters%20Index.md#chandra-nalaar) (name-match) · [Chandra Nalaar](../Planeswalker%20Dossiers.md#chandra-nalaar) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Chandra Nalaar](../Characters%20Index.md#chandra-nalaar) (depicts) · [Chandra Nalaar](../Planeswalker%20Dossiers.md#chandra-nalaar) (depicts)
 
 ### Chandra, Hope's Beacon
 
@@ -1211,7 +1211,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Card advantage: Impulse / exile-to-play](../EDH%20Packages.md#card-advantage-impulse--exile-to-play)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Chandra Nalaar](../Characters%20Index.md#chandra-nalaar) (name-match) · [Chandra Nalaar](../Planeswalker%20Dossiers.md#chandra-nalaar) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Chandra Nalaar](../Characters%20Index.md#chandra-nalaar) (depicts) · [Chandra Nalaar](../Planeswalker%20Dossiers.md#chandra-nalaar) (depicts)
 
 ### Changeling Outcast
 

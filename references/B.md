@@ -443,7 +443,7 @@ schema: 2
 [Card entry](../cards/B/bas.md#basri-devoted-paladin) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Basri Ket](../Characters%20Index.md#basri-ket) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Basri Ket](../Characters%20Index.md#basri-ket) (depicts)
 
 ### Basri Ket
 

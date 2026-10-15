@@ -26,14 +26,14 @@ schema: 2
 [Card entry](../cards/J/ja.md#jace-arcane-strategist) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Jace Beleren](../Characters%20Index.md#jace-beleren) (name-match) · [Jace Beleren](../Planeswalker%20Dossiers.md#jace-beleren) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Jace Beleren](../Characters%20Index.md#jace-beleren) (depicts) · [Jace Beleren](../Planeswalker%20Dossiers.md#jace-beleren) (depicts)
 
 ### Jace, Architect of Thought
 
 [Card entry](../cards/J/ja.md#jace-architect-of-thought) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Jace Beleren](../Characters%20Index.md#jace-beleren) (name-match) · [Jace Beleren](../Planeswalker%20Dossiers.md#jace-beleren) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Jace Beleren](../Characters%20Index.md#jace-beleren) (depicts) · [Jace Beleren](../Planeswalker%20Dossiers.md#jace-beleren) (depicts)
 
 ### Jace Beleren
 
@@ -50,7 +50,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Jace Beleren](../Characters%20Index.md#jace-beleren) (name-match) · [Jace Beleren](../Planeswalker%20Dossiers.md#jace-beleren) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Jace Beleren](../Characters%20Index.md#jace-beleren) (depicts) · [Jace Beleren](../Planeswalker%20Dossiers.md#jace-beleren) (depicts)
 
 ### Jace, Ingenious Mind-Mage
 
@@ -71,21 +71,21 @@ schema: 2
 [Card entry](../cards/J/ja.md#jace-mirror-mage) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Jace Beleren](../Characters%20Index.md#jace-beleren) (name-match) · [Jace Beleren](../Planeswalker%20Dossiers.md#jace-beleren) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Jace Beleren](../Characters%20Index.md#jace-beleren) (depicts) · [Jace Beleren](../Planeswalker%20Dossiers.md#jace-beleren) (depicts)
 
 ### Jace, Multiverse Architect
 
 [Card entry](../cards/J/ja.md#jace-multiverse-architect) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Jace Beleren](../Characters%20Index.md#jace-beleren) (name-match) · [Jace Beleren](../Planeswalker%20Dossiers.md#jace-beleren) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Jace Beleren](../Characters%20Index.md#jace-beleren) (depicts) · [Jace Beleren](../Planeswalker%20Dossiers.md#jace-beleren) (depicts)
 
 ### Jace, Reality Sculptor
 
 [Card entry](../cards/J/ja.md#jace-reality-sculptor) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Jace Beleren](../Characters%20Index.md#jace-beleren) (name-match) · [Jace Beleren](../Planeswalker%20Dossiers.md#jace-beleren) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Jace Beleren](../Characters%20Index.md#jace-beleren) (depicts) · [Jace Beleren](../Planeswalker%20Dossiers.md#jace-beleren) (depicts)
 
 ### Jace Reawakened
 
@@ -126,7 +126,7 @@ schema: 2
 [Card entry](../cards/J/ja.md#jace-the-living-guildpact) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Jace Beleren](../Characters%20Index.md#jace-beleren) (name-match) · [Jace Beleren](../Planeswalker%20Dossiers.md#jace-beleren) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Jace Beleren](../Characters%20Index.md#jace-beleren) (depicts) · [Jace Beleren](../Planeswalker%20Dossiers.md#jace-beleren) (depicts)
 
 ### Jace, the Mind Sculptor
 
@@ -151,7 +151,7 @@ schema: 2
 
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (2):** [Artist Index → Artists N](../Artist%20Index.md#artists-n) · [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Jace Beleren](../Characters%20Index.md#jace-beleren) (name-match) · [Jace Beleren](../Planeswalker%20Dossiers.md#jace-beleren) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Jace Beleren](../Characters%20Index.md#jace-beleren) (depicts) · [Jace Beleren](../Planeswalker%20Dossiers.md#jace-beleren) (depicts)
 
 ### Jace, Vryn's Prodigy // Jace, Telepath Unbound
 
@@ -159,7 +159,7 @@ schema: 2
 
 - **Lore & story (3):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planes Index → Vryn](../Planes%20Index.md#vryn) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (3; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Vryn](../Planes%20Index.md#vryn) (depicts) · [Jace Beleren](../Characters%20Index.md#jace-beleren) (name-match) · [Jace Beleren](../Planeswalker%20Dossiers.md#jace-beleren) (name-match)
+- **Lore entries (3; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Vryn](../Planes%20Index.md#vryn) (depicts) · [Jace Beleren](../Characters%20Index.md#jace-beleren) (depicts) · [Jace Beleren](../Planeswalker%20Dossiers.md#jace-beleren) (depicts)
 
 ### Jace, Wielder of Mysteries
 
@@ -279,7 +279,7 @@ schema: 2
 
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Jaya Ballard](../Characters%20Index.md#jaya-ballard) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Jaya Ballard](../Characters%20Index.md#jaya-ballard) (depicts)
 
 ### Jaya Ballard, Task Mage
 
@@ -516,7 +516,7 @@ schema: 2
 
 - **EDH guides (1):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents)
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Jiang Yanggu](../Characters%20Index.md#jiang-yanggu) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Jiang Yanggu](../Characters%20Index.md#jiang-yanggu) (depicts)
 
 ### Jiang Yanggu, Never Alone
 
@@ -524,7 +524,7 @@ schema: 2
 
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Jiang Yanggu](../Characters%20Index.md#jiang-yanggu) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Jiang Yanggu](../Characters%20Index.md#jiang-yanggu) (depicts)
 
 ### Jiang Yanggu, Wildcrafter
 
@@ -559,7 +559,7 @@ schema: 2
 [Card entry](../cards/J/ji.md#jin-gitaxias-core-augur) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Jin-Gitaxias](../Characters%20Index.md#jin-gitaxias) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Jin-Gitaxias](../Characters%20Index.md#jin-gitaxias) (depicts)
 
 ### Jin-Gitaxias, Progress Tyrant
 

@@ -755,7 +755,7 @@ schema: 2
 
 - **EDH guides (1):** [EDH Packages → Graveyard: Recursion to hand](../EDH%20Packages.md#graveyard-recursion-to-hand)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Liliana Vess](../Characters%20Index.md#liliana-vess) (name-match) · [Liliana Vess](../Planeswalker%20Dossiers.md#liliana-vess) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Liliana Vess](../Characters%20Index.md#liliana-vess) (depicts) · [Liliana Vess](../Planeswalker%20Dossiers.md#liliana-vess) (depicts)
 
 ### Liliana, Death's Majesty
 
@@ -763,7 +763,7 @@ schema: 2
 
 - **EDH guides (1):** [EDH Packages → Graveyard: Self-mill](../EDH%20Packages.md#graveyard-self-mill) (+1 more)
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Liliana Vess](../Characters%20Index.md#liliana-vess) (name-match) · [Liliana Vess](../Planeswalker%20Dossiers.md#liliana-vess) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Liliana Vess](../Characters%20Index.md#liliana-vess) (depicts) · [Liliana Vess](../Planeswalker%20Dossiers.md#liliana-vess) (depicts)
 
 ### Liliana, Death Wielder
 
@@ -780,7 +780,7 @@ schema: 2
 - **EDH guides (2):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [EDH Staples → Board wipes](../EDH%20Staples.md#board-wipes)
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Liliana Vess](../Characters%20Index.md#liliana-vess) (name-match) · [Liliana Vess](../Planeswalker%20Dossiers.md#liliana-vess) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Liliana Vess](../Characters%20Index.md#liliana-vess) (depicts) · [Liliana Vess](../Planeswalker%20Dossiers.md#liliana-vess) (depicts)
 
 ### Liliana, Heretical Healer // Liliana, Defiant Necromancer
 
@@ -788,7 +788,7 @@ schema: 2
 
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Liliana Vess](../Characters%20Index.md#liliana-vess) (name-match) · [Liliana Vess](../Planeswalker%20Dossiers.md#liliana-vess) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Liliana Vess](../Characters%20Index.md#liliana-vess) (depicts) · [Liliana Vess](../Planeswalker%20Dossiers.md#liliana-vess) (depicts)
 
 ### Liliana of the Dark Realms
 
@@ -804,7 +804,7 @@ schema: 2
 
 - **Decks (1):** [Braids, Arisen Nightmare (Dominaria-only)](../decks/plane-dominaria-braids-arisen-nightmare.md)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Liliana Vess](../Characters%20Index.md#liliana-vess) (name-match) · [Liliana Vess](../Planeswalker%20Dossiers.md#liliana-vess) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Liliana Vess](../Characters%20Index.md#liliana-vess) (depicts) · [Liliana Vess](../Planeswalker%20Dossiers.md#liliana-vess) (depicts)
 
 ### Liliana's Caress
 
@@ -855,7 +855,7 @@ schema: 2
 [Card entry](../cards/L/li.md#liliana-the-faultless) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Liliana Vess](../Characters%20Index.md#liliana-vess) (name-match) · [Liliana Vess](../Planeswalker%20Dossiers.md#liliana-vess) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Liliana Vess](../Characters%20Index.md#liliana-vess) (depicts) · [Liliana Vess](../Planeswalker%20Dossiers.md#liliana-vess) (depicts)
 
 ### Liliana, the Last Hope
 
@@ -864,7 +864,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Aristocrats: Fodder makers (multiple creature tokens)](../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) (+1 more)
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Liliana Vess](../Characters%20Index.md#liliana-vess) (name-match) · [Liliana Vess](../Planeswalker%20Dossiers.md#liliana-vess) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Liliana Vess](../Characters%20Index.md#liliana-vess) (depicts) · [Liliana Vess](../Planeswalker%20Dossiers.md#liliana-vess) (depicts)
 
 ### Liliana, the Necromancer
 
@@ -880,7 +880,7 @@ schema: 2
 
 - **EDH guides (1):** [EDH Packages → Graveyard: Self-mill](../EDH%20Packages.md#graveyard-self-mill)
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Liliana Vess](../Characters%20Index.md#liliana-vess) (name-match) · [Liliana Vess](../Planeswalker%20Dossiers.md#liliana-vess) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Liliana Vess](../Characters%20Index.md#liliana-vess) (depicts) · [Liliana Vess](../Planeswalker%20Dossiers.md#liliana-vess) (depicts)
 
 ### Liliana, Untouched by Death
 
@@ -896,7 +896,7 @@ schema: 2
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Artist Index → Artists J](../Artist%20Index.md#artists-j)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Liliana Vess](../Characters%20Index.md#liliana-vess) (name-match) · [Liliana Vess](../Planeswalker%20Dossiers.md#liliana-vess) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Liliana Vess](../Characters%20Index.md#liliana-vess) (depicts) · [Liliana Vess](../Planeswalker%20Dossiers.md#liliana-vess) (depicts)
 
 ### Liliana, Waker of the Dead
 
@@ -905,7 +905,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Graveyard: Reanimation](../EDH%20Packages.md#graveyard-reanimation)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Liliana Vess](../Characters%20Index.md#liliana-vess) (name-match) · [Liliana Vess](../Planeswalker%20Dossiers.md#liliana-vess) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Liliana Vess](../Characters%20Index.md#liliana-vess) (depicts) · [Liliana Vess](../Planeswalker%20Dossiers.md#liliana-vess) (depicts)
 
 ### Lilting Refrain
 
@@ -1120,7 +1120,7 @@ schema: 2
 
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kirol, Abigale, Lluwen, Sanar](../Characters%20Index.md#kirol-abigale-lluwen-sanar) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kirol, Abigale, Lluwen, Sanar](../Characters%20Index.md#kirol-abigale-lluwen-sanar) (depicts)
 
 ### Lluwen, Imperfect Naturalist
 
@@ -1129,7 +1129,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Graveyard: Self-mill](../EDH%20Packages.md#graveyard-self-mill)
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kirol, Abigale, Lluwen, Sanar](../Characters%20Index.md#kirol-abigale-lluwen-sanar) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kirol, Abigale, Lluwen, Sanar](../Characters%20Index.md#kirol-abigale-lluwen-sanar) (depicts)
 
 ### Loam Dryad
 

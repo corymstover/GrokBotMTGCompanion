@@ -242,14 +242,14 @@ schema: 2
 
 - **Decks (1):** [Lord of Tresserhorn (Grixis)](../grixis/decks/lord-of-tresserhorn.md)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Karn](../Characters%20Index.md#karn) (name-match) · [Karn](../Planeswalker%20Dossiers.md#karn) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Karn](../Characters%20Index.md#karn) (depicts) · [Karn](../Planeswalker%20Dossiers.md#karn) (depicts)
 
 ### Karn, Gilded Guardian
 
 [Card entry](../cards/K/ka.md#karn-gilded-guardian) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Karn](../Characters%20Index.md#karn) (name-match) · [Karn](../Planeswalker%20Dossiers.md#karn) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Karn](../Characters%20Index.md#karn) (depicts) · [Karn](../Planeswalker%20Dossiers.md#karn) (depicts)
 
 ### Karn, Legacy Reforged
 
@@ -287,14 +287,14 @@ schema: 2
 
 - **Decks (2):** [Braids, Arisen Nightmare (Dominaria-only)](../decks/plane-dominaria-braids-arisen-nightmare.md) · [Urza, Lord High Artificer](../decks/lore-brothers-war-urza-lord-high-artificer.md)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Karn](../Characters%20Index.md#karn) (name-match) · [Karn](../Planeswalker%20Dossiers.md#karn) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Karn](../Characters%20Index.md#karn) (depicts) · [Karn](../Planeswalker%20Dossiers.md#karn) (depicts)
 
 ### Karn, Silver Golem
 
 [Card entry](../cards/K/ka.md#karn-silver-golem) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Karn](../Characters%20Index.md#karn) (name-match) · [Karn](../Planeswalker%20Dossiers.md#karn) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Karn](../Characters%20Index.md#karn) (depicts) · [Karn](../Planeswalker%20Dossiers.md#karn) (depicts)
 
 ### Karn's Sylex
 
@@ -455,14 +455,14 @@ schema: 2
 
 - **EDH guides (1):** [EDH Packages → Tokens: Token doublers](../EDH%20Packages.md#tokens-token-doublers)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kaya](../Characters%20Index.md#kaya) (name-match) · [Kaya](../Planeswalker%20Dossiers.md#kaya) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kaya](../Characters%20Index.md#kaya) (depicts) · [Kaya](../Planeswalker%20Dossiers.md#kaya) (depicts)
 
 ### Kaya, Ghost Assassin
 
 [Card entry](../cards/K/ka.md#kaya-ghost-assassin) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kaya](../Characters%20Index.md#kaya) (name-match) · [Kaya](../Planeswalker%20Dossiers.md#kaya) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kaya](../Characters%20Index.md#kaya) (depicts) · [Kaya](../Planeswalker%20Dossiers.md#kaya) (depicts)
 
 ### Kaya, Ghost Haunter
 
@@ -514,7 +514,7 @@ schema: 2
 - **Decks (1):** [Atraxa, Praetors' Voice (planeswalkers theme)](../decks/theme-atraxa-praetors-voice-planeswalkers.md)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kaya](../Characters%20Index.md#kaya) (name-match) · [Kaya](../Planeswalker%20Dossiers.md#kaya) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kaya](../Characters%20Index.md#kaya) (depicts) · [Kaya](../Planeswalker%20Dossiers.md#kaya) (depicts)
 
 ### Kayla's Command
 
@@ -664,7 +664,7 @@ schema: 2
 [Card entry](../cards/K/ke.md#kellan-the-kid) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kellan](../Characters%20Index.md#kellan) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kellan](../Characters%20Index.md#kellan) (depicts)
 
 ### Kelsien, the Plague
 
@@ -1037,14 +1037,14 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Aristocrats: Fodder makers (multiple creature tokens)](../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens)
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens) (+1 more)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kiora](../Characters%20Index.md#kiora) (name-match) · [Kiora](../Planeswalker%20Dossiers.md#kiora) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kiora](../Characters%20Index.md#kiora) (depicts) · [Kiora](../Planeswalker%20Dossiers.md#kiora) (depicts)
 
 ### Kiora of Fire and Ashes
 
 [Card entry](../cards/K/ki.md#kiora-of-fire-and-ashes) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kiora](../Characters%20Index.md#kiora) (name-match) · [Kiora](../Planeswalker%20Dossiers.md#kiora) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kiora](../Characters%20Index.md#kiora) (name-match) · [Kiora](../Planeswalker%20Dossiers.md#kiora) (depicts)
 
 ### Kiora of Salt and Sand
 
@@ -1052,7 +1052,7 @@ schema: 2
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kiora](../Characters%20Index.md#kiora) (name-match) · [Kiora](../Planeswalker%20Dossiers.md#kiora) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kiora](../Characters%20Index.md#kiora) (depicts) · [Kiora](../Planeswalker%20Dossiers.md#kiora) (depicts)
 
 ### Kiora's Follower
 
@@ -1074,7 +1074,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Lands / landfall: Extra land drops](../EDH%20Packages.md#lands--landfall-extra-land-drops)
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens) (+1 more)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kiora](../Characters%20Index.md#kiora) (name-match) · [Kiora](../Planeswalker%20Dossiers.md#kiora) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kiora](../Characters%20Index.md#kiora) (depicts) · [Kiora](../Planeswalker%20Dossiers.md#kiora) (depicts)
 
 ### Kiora, the Rising Tide
 
@@ -1101,14 +1101,14 @@ schema: 2
 [Card entry](../cards/K/ki.md#kirol-attentive-first-year) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Art & Flavor Story Links → Lorwyn Eclipsed (2025–26)](../Art%20%26%20Flavor%20Story%20Links.md#lorwyn-eclipsed-202526) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kirol, Abigale, Lluwen, Sanar](../Characters%20Index.md#kirol-abigale-lluwen-sanar) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kirol, Abigale, Lluwen, Sanar](../Characters%20Index.md#kirol-abigale-lluwen-sanar) (depicts)
 
 ### Kirol, History Buff // Pack a Punch
 
 [Card entry](../cards/K/ki.md#kirol-history-buff--pack-a-punch) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kirol, Abigale, Lluwen, Sanar](../Characters%20Index.md#kirol-abigale-lluwen-sanar) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kirol, Abigale, Lluwen, Sanar](../Characters%20Index.md#kirol-abigale-lluwen-sanar) (depicts)
 
 ### Kitesail Freebooter
 
@@ -1420,7 +1420,7 @@ schema: 2
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Koth](../Characters%20Index.md#koth) (name-match) · [Koth](../Planeswalker%20Dossiers.md#koth) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Koth](../Characters%20Index.md#koth) (depicts) · [Koth](../Planeswalker%20Dossiers.md#koth) (depicts)
 
 ### Koth of the Hammer
 
@@ -1428,7 +1428,7 @@ schema: 2
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Koth](../Characters%20Index.md#koth) (name-match) · [Koth](../Planeswalker%20Dossiers.md#koth) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Koth](../Characters%20Index.md#koth) (depicts) · [Koth](../Planeswalker%20Dossiers.md#koth) (name-match)
 
 ### Koth of the Homestead
 
@@ -1436,7 +1436,7 @@ schema: 2
 
 - **EDH guides (1):** [EDH Packages → Lands / landfall: Landfall payoffs](../EDH%20Packages.md#lands--landfall-landfall-payoffs)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Koth](../Characters%20Index.md#koth) (name-match) · [Koth](../Planeswalker%20Dossiers.md#koth) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Koth](../Characters%20Index.md#koth) (depicts) · [Koth](../Planeswalker%20Dossiers.md#koth) (depicts)
 
 ### Kothophed, Soul Hoarder
 
@@ -1450,7 +1450,7 @@ schema: 2
 
 - **EDH guides (1):** [EDH Packages → Lands / landfall: Landfall payoffs](../EDH%20Packages.md#lands--landfall-landfall-payoffs)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Koth](../Characters%20Index.md#koth) (name-match) · [Koth](../Planeswalker%20Dossiers.md#koth) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Koth](../Characters%20Index.md#koth) (depicts) · [Koth](../Planeswalker%20Dossiers.md#koth) (depicts)
 
 ### Kotis, the Fangkeeper
 

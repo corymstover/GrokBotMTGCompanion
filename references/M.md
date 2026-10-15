@@ -1972,7 +1972,7 @@ schema: 2
 [Card entry](../cards/M/mis.md#mishra-excavation-prodigy) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Mishra](../Characters%20Index.md#mishra) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Mishra](../Characters%20Index.md#mishra) (depicts)
 
 ### Mishra, Lost to Phyrexia
 
@@ -2026,7 +2026,7 @@ schema: 2
 [Card entry](../cards/M/mis.md#mishra-tamer-of-mak-fawa) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Mishra](../Characters%20Index.md#mishra) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Mishra](../Characters%20Index.md#mishra) (depicts)
 
 ### Missy
 

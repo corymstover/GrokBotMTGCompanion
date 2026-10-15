@@ -504,7 +504,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Tokens: Anthems](../EDH%20Packages.md#tokens-anthems)
 - **Rules (1):** [Rules Interactions → The legend rule](../Rules%20Interactions.md#the-legend-rule)
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Elesh Norn](../Characters%20Index.md#elesh-norn) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Elesh Norn](../Characters%20Index.md#elesh-norn) (depicts)
 
 ### Elesh Norn, Mother of Machines
 
@@ -514,7 +514,7 @@ schema: 2
 - **EDH guides (2):** [EDH Packages → Blink: ETB doublers](../EDH%20Packages.md#blink-etb-doublers) · [EDH Themed & Plane-Restricted Decks → Plane-restricted](../EDH%20Themed%20Decks.md#plane-restricted)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planes Index → Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres)
 - **Card data (1):** [Artist Index → Artists J](../Artist%20Index.md#artists-j) (+3 more)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres) (featured) · [Elesh Norn](../Characters%20Index.md#elesh-norn) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres) (featured) · [Elesh Norn](../Characters%20Index.md#elesh-norn) (depicts)
 
 ### Elesh Norn // The Argent Etchings
 
@@ -631,7 +631,7 @@ schema: 2
 - **EDH guides (3):** [EDH Interaction → 1. Creature wipes](../EDH%20Interaction.md#1-creature-wipes) · [EDH Packages → Aristocrats: Fodder makers (multiple creature tokens)](../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) (+1 more) · [EDH Staples → Board wipes](../EDH%20Staples.md#board-wipes)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (2):** [Artist Index → Artists U](../Artist%20Index.md#artists-u) · [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens) (+1 more)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Elspeth Tirel](../Characters%20Index.md#elspeth-tirel) (name-match) · [Elspeth Tirel](../Planeswalker%20Dossiers.md#elspeth-tirel) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Elspeth Tirel](../Characters%20Index.md#elspeth-tirel) (depicts) · [Elspeth Tirel](../Planeswalker%20Dossiers.md#elspeth-tirel) (depicts)
 
 ### Elspeth, Sun's Nemesis
 

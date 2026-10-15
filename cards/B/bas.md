@@ -509,7 +509,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-06-23* — After activating Basri's second ability, a creature that attacks gets a +1/+1 counter before blockers are chosen.
   - *2020-06-23* — Basri's last ability affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won't get +2/+2 or gain flying.
-- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Basri Ket](../../Characters%20Index.md#basri-ket) · [format](../../Card%20Enrichment.md#lore-line)
+- **Lore:** Depicts: [Character → Basri Ket](../../Characters%20Index.md#basri-ket) — name match confirmed: official page names the card ([source](https://magic.wizards.com/en/news/feature/core-set-2021-and-jumpstart-release-notes-2020-06-20)) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,335 decks; most often under [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (0.2% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (0.1% of its decks), [Lae'zel, Vlaakith's Champion // Noble Heritage](../../cards/L/la.md#laezel-vlaakiths-champion) (6.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#basri-devoted-paladin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/320/basri-devoted-paladin) · oracle_id `1601e553-31c2-4e04-9f0c-bc17e49eeff7` · printing: M21 #320 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

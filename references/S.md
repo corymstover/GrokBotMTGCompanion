@@ -91,7 +91,7 @@ schema: 2
 [Card entry](../cards/S/sah.md#saheeli-consul-of-oversight) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Saheeli Rai](../Characters%20Index.md#saheeli-rai) (name-match) · [Saheeli Rai](../Planeswalker%20Dossiers.md#saheeli-rai) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Saheeli Rai](../Characters%20Index.md#saheeli-rai) (depicts) · [Saheeli Rai](../Planeswalker%20Dossiers.md#saheeli-rai) (depicts)
 
 ### Saheeli, Filigree Master
 
@@ -108,7 +108,7 @@ schema: 2
 
 - **EDH guides (1):** [EDH Packages → Spellslinger: Cast-trigger payoffs](../EDH%20Packages.md#spellslinger-cast-trigger-payoffs)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Saheeli Rai](../Characters%20Index.md#saheeli-rai) (name-match) · [Saheeli Rai](../Planeswalker%20Dossiers.md#saheeli-rai) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Saheeli Rai](../Characters%20Index.md#saheeli-rai) (depicts) · [Saheeli Rai](../Planeswalker%20Dossiers.md#saheeli-rai) (depicts)
 
 ### Saheeli, Radiant Creator
 
@@ -122,7 +122,7 @@ schema: 2
 [Card entry](../cards/S/sah.md#saheeli-rai) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Saheeli Rai](../Characters%20Index.md#saheeli-rai) (name-match) · [Saheeli Rai](../Planeswalker%20Dossiers.md#saheeli-rai) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Saheeli Rai](../Characters%20Index.md#saheeli-rai) (depicts) · [Saheeli Rai](../Planeswalker%20Dossiers.md#saheeli-rai) (depicts)
 
 ### Saheeli, Sublime Artificer
 
@@ -268,7 +268,7 @@ schema: 2
 
 - **Decks (1):** [Goro-Goro and Satoru (Grixis)](../grixis/decks/goro-goro-and-satoru.md)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Samut](../Characters%20Index.md#samut) (name-match) · [Samut](../Planeswalker%20Dossiers.md#samut) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Samut](../Characters%20Index.md#samut) (depicts) · [Samut](../Planeswalker%20Dossiers.md#samut) (depicts)
 
 ### Samut, the Driving Force
 
@@ -290,14 +290,14 @@ schema: 2
 
 - **Decks (1):** [Fire Lord Azula (Grixis)](../grixis/decks/fire-lord-azula.md)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Samut](../Characters%20Index.md#samut) (name-match) · [Samut](../Planeswalker%20Dossiers.md#samut) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Samut](../Characters%20Index.md#samut) (depicts) · [Samut](../Planeswalker%20Dossiers.md#samut) (depicts)
 
 ### Samut, Tyrant Smasher
 
 [Card entry](../cards/S/sam.md#samut-tyrant-smasher) · **3 pages** (lore & story 3)
 
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Samut](../Characters%20Index.md#samut) (name-match) · [Samut](../Planeswalker%20Dossiers.md#samut) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Samut](../Characters%20Index.md#samut) (depicts) · [Samut](../Planeswalker%20Dossiers.md#samut) (depicts)
 
 ### Samut, Vizier of Naktamun
 
@@ -314,7 +314,7 @@ schema: 2
 - **Decks (1):** [Saskia the Unyielding](../decks/saskia-the-unyielding.md)
 - **EDH guides (1):** [EDH Standards → Combat damage, redirected — Saskia the Unyielding (BRGW, aggro)](../EDH%20Standards.md#combat-damage-redirected--saskia-the-unyielding-brgw-aggro)
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Samut](../Characters%20Index.md#samut) (name-match) · [Samut](../Planeswalker%20Dossiers.md#samut) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Samut](../Characters%20Index.md#samut) (depicts) · [Samut](../Planeswalker%20Dossiers.md#samut) (depicts)
 
 ### Samwise Gamgee
 
@@ -327,14 +327,14 @@ schema: 2
 [Card entry](../cards/S/san.md#sanar-innovative-first-year) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kirol, Abigale, Lluwen, Sanar](../Characters%20Index.md#kirol-abigale-lluwen-sanar) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kirol, Abigale, Lluwen, Sanar](../Characters%20Index.md#kirol-abigale-lluwen-sanar) (depicts)
 
 ### Sanar, Unfinished Genius // Wild Idea
 
 [Card entry](../cards/S/san.md#sanar-unfinished-genius--wild-idea) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kirol, Abigale, Lluwen, Sanar](../Characters%20Index.md#kirol-abigale-lluwen-sanar) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kirol, Abigale, Lluwen, Sanar](../Characters%20Index.md#kirol-abigale-lluwen-sanar) (depicts)
 
 ### Sanctimony
 
@@ -494,7 +494,7 @@ schema: 2
 
 - **EDH guides (1):** [EDH Packages → Aristocrats: Fodder makers (multiple creature tokens)](../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Sarkhan Vol](../Characters%20Index.md#sarkhan-vol) (name-match) · [Sarkhan Vol](../Planeswalker%20Dossiers.md#sarkhan-vol) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Sarkhan Vol](../Characters%20Index.md#sarkhan-vol) (depicts) · [Sarkhan Vol](../Planeswalker%20Dossiers.md#sarkhan-vol) (depicts)
 
 ### Sarkhan, Soul Aflame
 
@@ -524,7 +524,7 @@ schema: 2
 - **Decks (1):** [Atarka, World Render (Tarkir-only)](../decks/plane-tarkir-atarka-world-render.md)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Sarkhan Vol](../Characters%20Index.md#sarkhan-vol) (name-match) · [Sarkhan Vol](../Planeswalker%20Dossiers.md#sarkhan-vol) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Sarkhan Vol](../Characters%20Index.md#sarkhan-vol) (depicts) · [Sarkhan Vol](../Planeswalker%20Dossiers.md#sarkhan-vol) (depicts)
 
 ### Sarkhan the Mad
 
@@ -546,7 +546,7 @@ schema: 2
 [Card entry](../cards/S/sar.md#sarkhan-unbroken) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Sarkhan Vol](../Characters%20Index.md#sarkhan-vol) (name-match) · [Sarkhan Vol](../Planeswalker%20Dossiers.md#sarkhan-vol) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Sarkhan Vol](../Characters%20Index.md#sarkhan-vol) (depicts) · [Sarkhan Vol](../Planeswalker%20Dossiers.md#sarkhan-vol) (depicts)
 
 ### Sarkhan Vol
 
@@ -2272,7 +2272,7 @@ schema: 2
 - **Rules (1):** [Keyword Encyclopedia → Landwalk](../Keyword%20Encyclopedia.md#landwalk)
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
 - **Card data (1):** [Artist Index → Artists F](../Artist%20Index.md#artists-f)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Sheoldred](../Characters%20Index.md#sheoldred) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Sheoldred](../Characters%20Index.md#sheoldred) (depicts)
 
 ### Shepherd of the Flock // Usher to Safety
 
@@ -3795,14 +3795,14 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Tokens: Anthems](../EDH%20Packages.md#tokens-anthems)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens) (+1 more)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Sorin Markov](../Characters%20Index.md#sorin-markov) (name-match) · [Sorin Markov](../Planeswalker%20Dossiers.md#sorin-markov) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Sorin Markov](../Characters%20Index.md#sorin-markov) (depicts) · [Sorin Markov](../Planeswalker%20Dossiers.md#sorin-markov) (depicts)
 
 ### Sorin Markov
 
 [Card entry](../cards/S/so.md#sorin-markov) · **3 pages** (lore & story 3)
 
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Sorin Markov](../Characters%20Index.md#sorin-markov) (name-match) · [Sorin Markov](../Planeswalker%20Dossiers.md#sorin-markov) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Sorin Markov](../Characters%20Index.md#sorin-markov) (depicts) · [Sorin Markov](../Planeswalker%20Dossiers.md#sorin-markov) (depicts)
 
 ### Sorin of House Markov // Sorin, Ravenous Neonate
 
@@ -3819,7 +3819,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Tokens: Anthems](../EDH%20Packages.md#tokens-anthems)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens) (+1 more)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Sorin Markov](../Characters%20Index.md#sorin-markov) (name-match) · [Sorin Markov](../Planeswalker%20Dossiers.md#sorin-markov) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Sorin Markov](../Characters%20Index.md#sorin-markov) (depicts) · [Sorin Markov](../Planeswalker%20Dossiers.md#sorin-markov) (depicts)
 
 ### Sorin's Thirst
 
@@ -3833,7 +3833,7 @@ schema: 2
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (2):** [Artist Index → Artists A](../Artist%20Index.md#artists-a) · [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Sorin Markov](../Characters%20Index.md#sorin-markov) (name-match) · [Sorin Markov](../Planeswalker%20Dossiers.md#sorin-markov) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Sorin Markov](../Characters%20Index.md#sorin-markov) (depicts) · [Sorin Markov](../Planeswalker%20Dossiers.md#sorin-markov) (depicts)
 
 ### Sorin, Vampire Lord
 

@@ -50,7 +50,7 @@ schema: 2
 - **EDH guides (1):** [EDH Upgrade Paths → Xenagos, God of Revels](../EDH%20Upgrade%20Paths.md#xenagos-god-of-revels)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Artist Index → Artists A](../Artist%20Index.md#artists-a)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Xenagos](../Characters%20Index.md#xenagos) (name-match) · [Xenagos](../Planeswalker%20Dossiers.md#xenagos) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Xenagos](../Characters%20Index.md#xenagos) (depicts) · [Xenagos](../Planeswalker%20Dossiers.md#xenagos) (depicts)
 
 ### Xenagos, the Reveler
 
@@ -58,7 +58,7 @@ schema: 2
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Xenagos](../Characters%20Index.md#xenagos) (name-match) · [Xenagos](../Planeswalker%20Dossiers.md#xenagos) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Xenagos](../Characters%20Index.md#xenagos) (depicts) · [Xenagos](../Planeswalker%20Dossiers.md#xenagos) (depicts)
 
 ### Xenic Poltergeist
 

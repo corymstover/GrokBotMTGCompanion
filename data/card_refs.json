@@ -5010,9 +5010,9 @@
 },
 "10764b35-5c6c-4161-8579-1124d5963a0e": {
 "name": "Niv-Mizzet Reborn",
-"n": 4,
+"n": 3,
 "kinds": {
-"lore": 4
+"lore": 3
 },
 "index": "references/N.md#niv-mizzet-reborn"
 },
@@ -15072,11 +15072,11 @@
 },
 "33666a98-812f-4892-9f8d-33e0cbecc340": {
 "name": "Niv-Mizzet, Parun",
-"n": 12,
+"n": 11,
 "kinds": {
 "deck": 3,
 "edh": 6,
-"lore": 2,
+"lore": 1,
 "cards": 1
 },
 "index": "references/N.md#niv-mizzet-parun"
@@ -20525,9 +20525,9 @@
 },
 "46570366-5e58-40b7-b725-833321a3b7b1": {
 "name": "Niv-Mizzet, Guildpact",
-"n": 2,
+"n": 1,
 "kinds": {
-"lore": 2
+"lore": 1
 },
 "index": "references/N.md#niv-mizzet-guildpact"
 },
@@ -22216,9 +22216,9 @@
 },
 "4c3a865a-88b1-43e0-b326-17c45670da54": {
 "name": "Niv-Mizzet, Supreme",
-"n": 2,
+"n": 1,
 "kinds": {
-"lore": 2
+"lore": 1
 },
 "index": "references/N.md#niv-mizzet-supreme"
 },
@@ -39608,10 +39608,10 @@
 },
 "899d58dc-60b2-4013-9f91-c1888c585d66": {
 "name": "Niv-Mizzet, Dracogenius",
-"n": 3,
+"n": 2,
 "kinds": {
 "edh": 1,
-"lore": 2
+"lore": 1
 },
 "index": "references/N.md#niv-mizzet-dracogenius"
 },
@@ -42815,11 +42815,11 @@
 },
 "959acb66-84ca-4535-bca2-ad591895735e": {
 "name": "Niv-Mizzet, the Firemind",
-"n": 6,
+"n": 5,
 "kinds": {
 "deck": 1,
 "edh": 3,
-"lore": 2
+"lore": 1
 },
 "index": "references/N.md#niv-mizzet-the-firemind"
 },
@@ -47181,9 +47181,9 @@
 },
 "a5350327-e84c-44b6-8359-87882e521048": {
 "name": "Niv-Mizzet, Ghost Counsel",
-"n": 2,
+"n": 1,
 "kinds": {
-"lore": 2
+"lore": 1
 },
 "index": "references/N.md#niv-mizzet-ghost-counsel"
 },
@@ -61958,11 +61958,11 @@
 },
 "d9f1dc61-831e-4244-a2da-aa9da6fd5b50": {
 "name": "Niv-Mizzet, Visionary",
-"n": 5,
+"n": 4,
 "kinds": {
 "deck": 1,
 "edh": 2,
-"lore": 2
+"lore": 1
 },
 "index": "references/N.md#niv-mizzet-visionary"
 },

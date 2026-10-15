@@ -1925,7 +1925,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Tokens: Anthems](../EDH%20Packages.md#tokens-anthems)
 - **Lore & story (2):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
 - **Card data (1):** [Artist Index → Artists R](../Artist%20Index.md#artists-r)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Domri Rade](../Characters%20Index.md#domri-rade) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Domri Rade](../Characters%20Index.md#domri-rade) (depicts)
 
 ### Domri, Chaos Bringer
 
@@ -2175,7 +2175,7 @@ schema: 2
 
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Dovin Baan](../Characters%20Index.md#dovin-baan) (name-match) · [Dovin Baan](../Planeswalker%20Dossiers.md#dovin-baan) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Dovin Baan](../Characters%20Index.md#dovin-baan) (depicts) · [Dovin Baan](../Planeswalker%20Dossiers.md#dovin-baan) (depicts)
 
 ### Dovin, Grand Arbiter
 
@@ -2190,7 +2190,7 @@ schema: 2
 
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Artist Index → Artists N](../Artist%20Index.md#artists-n)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Dovin Baan](../Characters%20Index.md#dovin-baan) (name-match) · [Dovin Baan](../Planeswalker%20Dossiers.md#dovin-baan) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Dovin Baan](../Characters%20Index.md#dovin-baan) (depicts) · [Dovin Baan](../Planeswalker%20Dossiers.md#dovin-baan) (depicts)
 
 ### Dovin's Acuity
 

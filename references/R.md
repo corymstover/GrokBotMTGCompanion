@@ -419,14 +419,14 @@ schema: 2
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Artist Index → Artists F](../Artist%20Index.md#artists-f)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ral Zarek](../Characters%20Index.md#ral-zarek) (name-match) · [Ral Zarek](../Planeswalker%20Dossiers.md#ral-zarek) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ral Zarek](../Characters%20Index.md#ral-zarek) (depicts) · [Ral Zarek](../Planeswalker%20Dossiers.md#ral-zarek) (depicts)
 
 ### Ral Zarek, Guest Lecturer
 
 [Card entry](../cards/R/ral.md#ral-zarek-guest-lecturer) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ral Zarek](../Characters%20Index.md#ral-zarek) (name-match) · [Ral Zarek](../Planeswalker%20Dossiers.md#ral-zarek) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ral Zarek](../Characters%20Index.md#ral-zarek) (depicts) · [Ral Zarek](../Planeswalker%20Dossiers.md#ral-zarek) (depicts)
 
 ### Ramirez DePietro, Pillager
 
@@ -2606,7 +2606,7 @@ schema: 2
 - **EDH guides (1):** [EDH Pairings — Partner, Background, Friends forever & Doctor's companion → Partner with](../EDH%20Pairings.md#partner-with)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Rowan Kenrith](../Characters%20Index.md#rowan-kenrith) (name-match) · [Rowan & Will Kenrith](../Planeswalker%20Dossiers.md#rowan--will-kenrith) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Rowan Kenrith](../Characters%20Index.md#rowan-kenrith) (name-match) · [Rowan & Will Kenrith](../Planeswalker%20Dossiers.md#rowan--will-kenrith) (depicts)
 
 ### Rowan, Scholar of Sparks // Will, Scholar of Frost
 

@@ -204,7 +204,7 @@ schema: 2
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (2):** [Artist Index → Artists J](../Artist%20Index.md#artists-j) · [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens) (+1 more)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Garruk Wildspeaker](../Characters%20Index.md#garruk-wildspeaker) (name-match) · [Garruk Wildspeaker](../Planeswalker%20Dossiers.md#garruk-wildspeaker) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Garruk Wildspeaker](../Characters%20Index.md#garruk-wildspeaker) (depicts) · [Garruk Wildspeaker](../Planeswalker%20Dossiers.md#garruk-wildspeaker) (depicts)
 
 ### Garruk, Caller of Beasts
 
@@ -221,7 +221,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Garruk Wildspeaker](../Characters%20Index.md#garruk-wildspeaker) (name-match) · [Garruk Wildspeaker](../Planeswalker%20Dossiers.md#garruk-wildspeaker) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Garruk Wildspeaker](../Characters%20Index.md#garruk-wildspeaker) (depicts) · [Garruk Wildspeaker](../Planeswalker%20Dossiers.md#garruk-wildspeaker) (depicts)
 
 ### Garruk, Cursed Huntsman
 
@@ -254,7 +254,7 @@ schema: 2
 [Card entry](../cards/G/ga.md#garruk-savage-herald) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Garruk Wildspeaker](../Characters%20Index.md#garruk-wildspeaker) (name-match) · [Garruk Wildspeaker](../Planeswalker%20Dossiers.md#garruk-wildspeaker) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Garruk Wildspeaker](../Characters%20Index.md#garruk-wildspeaker) (depicts) · [Garruk Wildspeaker](../Planeswalker%20Dossiers.md#garruk-wildspeaker) (depicts)
 
 ### Garruk's Lost Wolf // Hey, Has Anyone Seen Garruk?
 
@@ -290,7 +290,7 @@ schema: 2
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Garruk Wildspeaker](../Characters%20Index.md#garruk-wildspeaker) (name-match) · [Garruk Wildspeaker](../Planeswalker%20Dossiers.md#garruk-wildspeaker) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Garruk Wildspeaker](../Characters%20Index.md#garruk-wildspeaker) (depicts) · [Garruk Wildspeaker](../Planeswalker%20Dossiers.md#garruk-wildspeaker) (depicts)
 
 ### Garruk, Veiled Butcher
 
@@ -298,7 +298,7 @@ schema: 2
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Garruk Wildspeaker](../Characters%20Index.md#garruk-wildspeaker) (name-match) · [Garruk Wildspeaker](../Planeswalker%20Dossiers.md#garruk-wildspeaker) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Garruk Wildspeaker](../Characters%20Index.md#garruk-wildspeaker) (depicts) · [Garruk Wildspeaker](../Planeswalker%20Dossiers.md#garruk-wildspeaker) (depicts)
 
 ### Garruk Wildspeaker
 
@@ -841,7 +841,7 @@ schema: 2
 
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens) (+1 more)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Gideon Jura](../Characters%20Index.md#gideon-jura) (name-match) · [Gideon Jura](../Planeswalker%20Dossiers.md#gideon-jura) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Gideon Jura](../Characters%20Index.md#gideon-jura) (depicts) · [Gideon Jura](../Planeswalker%20Dossiers.md#gideon-jura) (depicts)
 
 ### Gideon Blackblade
 
@@ -856,7 +856,7 @@ schema: 2
 [Card entry](../cards/G/gi.md#gideon-champion-of-justice) · **3 pages** (lore & story 3)
 
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Gideon Jura](../Characters%20Index.md#gideon-jura) (name-match) · [Gideon Jura](../Planeswalker%20Dossiers.md#gideon-jura) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Gideon Jura](../Characters%20Index.md#gideon-jura) (depicts) · [Gideon Jura](../Planeswalker%20Dossiers.md#gideon-jura) (depicts)
 
 ### Gideon Jura
 
@@ -916,7 +916,7 @@ schema: 2
 [Card entry](../cards/G/gi.md#gideon-the-oathless) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Gideon Jura](../Characters%20Index.md#gideon-jura) (name-match) · [Gideon Jura](../Planeswalker%20Dossiers.md#gideon-jura) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Gideon Jura](../Characters%20Index.md#gideon-jura) (name-match) · [Gideon Jura](../Planeswalker%20Dossiers.md#gideon-jura) (depicts)
 
 ### Gideon, the Oathsworn
 

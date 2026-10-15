@@ -114,14 +114,14 @@ schema: 2
 [Card entry](../cards/A/ab.md#abigale-eloquent-first-year) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kirol, Abigale, Lluwen, Sanar](../Characters%20Index.md#kirol-abigale-lluwen-sanar) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kirol, Abigale, Lluwen, Sanar](../Characters%20Index.md#kirol-abigale-lluwen-sanar) (depicts)
 
 ### Abigale, Poet Laureate // Heroic Stanza
 
 [Card entry](../cards/A/ab.md#abigale-poet-laureate--heroic-stanza) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kirol, Abigale, Lluwen, Sanar](../Characters%20Index.md#kirol-abigale-lluwen-sanar) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Kirol, Abigale, Lluwen, Sanar](../Characters%20Index.md#kirol-abigale-lluwen-sanar) (depicts)
 
 ### Abjure
 
@@ -820,7 +820,7 @@ schema: 2
 [Card entry](../cards/A/aj.md#ajani-mentor-of-heroes) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ajani Goldmane](../Characters%20Index.md#ajani-goldmane) (name-match) · [Ajani Goldmane](../Planeswalker%20Dossiers.md#ajani-goldmane) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ajani Goldmane](../Characters%20Index.md#ajani-goldmane) (depicts) · [Ajani Goldmane](../Planeswalker%20Dossiers.md#ajani-goldmane) (depicts)
 
 ### Ajani, Nacatl Pariah // Ajani, Nacatl Avenger
 
@@ -845,7 +845,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Tokens: Anthems](../EDH%20Packages.md#tokens-anthems)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens) (+1 more)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ajani Goldmane](../Characters%20Index.md#ajani-goldmane) (name-match) · [Ajani Goldmane](../Planeswalker%20Dossiers.md#ajani-goldmane) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ajani Goldmane](../Characters%20Index.md#ajani-goldmane) (depicts) · [Ajani Goldmane](../Planeswalker%20Dossiers.md#ajani-goldmane) (depicts)
 
 ### Ajani's Chosen
 
@@ -905,21 +905,21 @@ schema: 2
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ajani Goldmane](../Characters%20Index.md#ajani-goldmane) (name-match) · [Ajani Goldmane](../Planeswalker%20Dossiers.md#ajani-goldmane) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ajani Goldmane](../Characters%20Index.md#ajani-goldmane) (depicts) · [Ajani Goldmane](../Planeswalker%20Dossiers.md#ajani-goldmane) (depicts)
 
 ### Ajani Unyielding
 
 [Card entry](../cards/A/aj.md#ajani-unyielding) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ajani Goldmane](../Characters%20Index.md#ajani-goldmane) (name-match) · [Ajani Goldmane](../Planeswalker%20Dossiers.md#ajani-goldmane) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ajani Goldmane](../Characters%20Index.md#ajani-goldmane) (depicts) · [Ajani Goldmane](../Planeswalker%20Dossiers.md#ajani-goldmane) (depicts)
 
 ### Ajani, Valiant Protector
 
 [Card entry](../cards/A/aj.md#ajani-valiant-protector) · **3 pages** (lore & story 3)
 
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ajani Goldmane](../Characters%20Index.md#ajani-goldmane) (name-match) · [Ajani Goldmane](../Planeswalker%20Dossiers.md#ajani-goldmane) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ajani Goldmane](../Characters%20Index.md#ajani-goldmane) (depicts) · [Ajani Goldmane](../Planeswalker%20Dossiers.md#ajani-goldmane) (depicts)
 
 ### Ajani Vengeant
 
@@ -1787,7 +1787,7 @@ schema: 2
 [Card entry](../cards/A/an.md#angrath-minotaur-pirate) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Angrath](../Characters%20Index.md#angrath) (name-match) · [Angrath](../Planeswalker%20Dossiers.md#angrath) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Angrath](../Characters%20Index.md#angrath) (depicts) · [Angrath](../Planeswalker%20Dossiers.md#angrath) (depicts)
 
 ### Angrath's Marauders
 
@@ -2624,7 +2624,7 @@ schema: 2
 
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Arlinn Kord](../Characters%20Index.md#arlinn-kord) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Arlinn Kord](../Characters%20Index.md#arlinn-kord) (depicts)
 
 ### Arlinn, the Pack's Hope // Arlinn, the Moon's Fury
 
@@ -2633,7 +2633,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Aristocrats: Fodder makers (multiple creature tokens)](../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens)
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
 - **Card data (1):** [Artist Index → Artists E](../Artist%20Index.md#artists-e)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Arlinn Kord](../Characters%20Index.md#arlinn-kord) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Arlinn Kord](../Characters%20Index.md#arlinn-kord) (depicts)
 
 ### Arlinn, Voice of the Pack
 
@@ -2829,7 +2829,7 @@ schema: 2
 - **Decks (4):** [Atraxa, Praetors' Voice (planeswalkers theme)](../decks/theme-atraxa-praetors-voice-planeswalkers.md) · [Kraum, Ludevic's Opus (Grixis)](../grixis/decks/grixistax-october-2026.md) · [Muldrotha, the Gravetide](../decks/muldrotha-the-gravetide.md) · [Muldrotha, the Gravetide (self mill theme)](../decks/theme-muldrotha-the-gravetide-self-mill.md)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (2):** [Artist Index → Artists H](../Artist%20Index.md#artists-h) · [Format Legality Matrix → tlr](../Format%20Legality%20Matrix.md#tlr)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ashiok](../Characters%20Index.md#ashiok) (name-match) · [Ashiok](../Planeswalker%20Dossiers.md#ashiok) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ashiok](../Characters%20Index.md#ashiok) (depicts) · [Ashiok](../Planeswalker%20Dossiers.md#ashiok) (depicts)
 
 ### Ashiok, Nightmare Muse
 
@@ -2844,7 +2844,7 @@ schema: 2
 [Card entry](../cards/A/as.md#ashiok-nightmare-weaver) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ashiok](../Characters%20Index.md#ashiok) (name-match) · [Ashiok](../Planeswalker%20Dossiers.md#ashiok) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ashiok](../Characters%20Index.md#ashiok) (depicts) · [Ashiok](../Planeswalker%20Dossiers.md#ashiok) (depicts)
 
 ### Ashiok, Sculptor of Fears
 

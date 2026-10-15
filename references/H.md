@@ -1618,7 +1618,7 @@ schema: 2
 [Card entry](../cards/H/hu.md#huatli-dinosaur-knight) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Huatli](../Characters%20Index.md#huatli) (name-match) · [Huatli](../Planeswalker%20Dossiers.md#huatli) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Huatli](../Characters%20Index.md#huatli) (depicts) · [Huatli](../Planeswalker%20Dossiers.md#huatli) (depicts)
 
 ### Huatli, Poet of Unity // Roar of the Fifth People
 
@@ -1627,7 +1627,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Aristocrats: Fodder makers (multiple creature tokens)](../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Huatli](../Characters%20Index.md#huatli) (name-match) · [Huatli](../Planeswalker%20Dossiers.md#huatli) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Huatli](../Characters%20Index.md#huatli) (depicts) · [Huatli](../Planeswalker%20Dossiers.md#huatli) (depicts)
 
 ### Huatli, Radiant Champion
 
@@ -1636,7 +1636,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Huatli](../Characters%20Index.md#huatli) (name-match) · [Huatli](../Planeswalker%20Dossiers.md#huatli) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Huatli](../Characters%20Index.md#huatli) (depicts) · [Huatli](../Planeswalker%20Dossiers.md#huatli) (depicts)
 
 ### Huatli's Final Strike
 
@@ -1649,7 +1649,7 @@ schema: 2
 [Card entry](../cards/H/hu.md#huatli-the-suns-heart) · **3 pages** (lore & story 3)
 
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Huatli](../Characters%20Index.md#huatli) (name-match) · [Huatli](../Planeswalker%20Dossiers.md#huatli) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Huatli](../Characters%20Index.md#huatli) (depicts) · [Huatli](../Planeswalker%20Dossiers.md#huatli) (depicts)
 
 ### Huatli, Warrior Poet
 

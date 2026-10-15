@@ -277,7 +277,7 @@ schema: 2
 - **EDH guides (2):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [EDH Staples → Bant (WUG)](../EDH%20Staples.md#bant-wug)
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (2):** [Artist Index → Artists T](../Artist%20Index.md#artists-t) · [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Tamiyo](../Characters%20Index.md#tamiyo) (name-match) · [Tamiyo](../Planeswalker%20Dossiers.md#tamiyo) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Tamiyo](../Characters%20Index.md#tamiyo) (depicts) · [Tamiyo](../Planeswalker%20Dossiers.md#tamiyo) (depicts)
 
 ### Tamiyo, Inquisitive Student // Tamiyo, Seasoned Scholar
 
@@ -308,21 +308,21 @@ schema: 2
 - **Decks (1):** [Atraxa, Praetors' Voice (planeswalkers theme)](../decks/theme-atraxa-praetors-voice-planeswalkers.md)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Tamiyo](../Characters%20Index.md#tamiyo) (name-match) · [Tamiyo](../Planeswalker%20Dossiers.md#tamiyo) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Tamiyo](../Characters%20Index.md#tamiyo) (depicts) · [Tamiyo](../Planeswalker%20Dossiers.md#tamiyo) (depicts)
 
 ### Tamiyo, Upriser Crowned
 
 [Card entry](../cards/T/ta.md#tamiyo-upriser-crowned) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Tamiyo](../Characters%20Index.md#tamiyo) (name-match) · [Tamiyo](../Planeswalker%20Dossiers.md#tamiyo) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Tamiyo](../Characters%20Index.md#tamiyo) (name-match) · [Tamiyo](../Planeswalker%20Dossiers.md#tamiyo) (depicts)
 
 ### Tam, Mindful First-Year
 
 [Card entry](../cards/T/ta.md#tam-mindful-first-year) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Tam](../Characters%20Index.md#tam) (name-match) · [Tam](../Planeswalker%20Dossiers.md#tam) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Tam](../Characters%20Index.md#tam) (depicts) · [Tam](../Planeswalker%20Dossiers.md#tam) (depicts)
 
 ### Tam, Observant Sequencer // Deep Sight
 
@@ -330,7 +330,7 @@ schema: 2
 
 - **EDH guides (1):** [EDH Packages → Lands / landfall: Landfall payoffs](../EDH%20Packages.md#lands--landfall-landfall-payoffs)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Tam](../Characters%20Index.md#tam) (name-match) · [Tam](../Planeswalker%20Dossiers.md#tam) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Tam](../Characters%20Index.md#tam) (depicts) · [Tam](../Planeswalker%20Dossiers.md#tam) (depicts)
 
 ### Tam, the Possibility
 
@@ -339,7 +339,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Ramp: Cost reducers](../EDH%20Packages.md#ramp-cost-reducers) (+1 more)
 - **Rules (1):** [Keyword Encyclopedia → Proliferate](../Keyword%20Encyclopedia.md#proliferate)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Tam](../Characters%20Index.md#tam) (name-match) · [Tam](../Planeswalker%20Dossiers.md#tam) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Tam](../Characters%20Index.md#tam) (depicts) · [Tam](../Planeswalker%20Dossiers.md#tam) (depicts)
 
 ### Tandem Lookout
 
@@ -602,14 +602,14 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (2):** [Artist Index → Artists K](../Artist%20Index.md#artists-k) · [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Teferi](../Characters%20Index.md#teferi) (name-match) · [Teferi](../Planeswalker%20Dossiers.md#teferi) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Teferi](../Characters%20Index.md#teferi) (depicts) · [Teferi](../Planeswalker%20Dossiers.md#teferi) (depicts)
 
 ### Teferi, Mage of Zhalfir
 
 [Card entry](../cards/T/te.md#teferi-mage-of-zhalfir) · **3 pages** (lore & story 3)
 
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Teferi](../Characters%20Index.md#teferi) (name-match) · [Teferi](../Planeswalker%20Dossiers.md#teferi) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Teferi](../Characters%20Index.md#teferi) (depicts) · [Teferi](../Planeswalker%20Dossiers.md#teferi) (depicts)
 
 ### Teferi, Master of Time
 
@@ -617,7 +617,7 @@ schema: 2
 
 - **Decks (1):** [Atraxa, Praetors' Voice (planeswalkers theme)](../decks/theme-atraxa-praetors-voice-planeswalkers.md)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Teferi](../Characters%20Index.md#teferi) (name-match) · [Teferi](../Planeswalker%20Dossiers.md#teferi) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Teferi](../Characters%20Index.md#teferi) (depicts) · [Teferi](../Planeswalker%20Dossiers.md#teferi) (depicts)
 
 ### Teferi's Ageless Insight
 
@@ -691,14 +691,14 @@ schema: 2
 [Card entry](../cards/T/te.md#teferi-timebender) · **3 pages** (lore & story 3)
 
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Teferi](../Characters%20Index.md#teferi) (name-match) · [Teferi](../Planeswalker%20Dossiers.md#teferi) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Teferi](../Characters%20Index.md#teferi) (depicts) · [Teferi](../Planeswalker%20Dossiers.md#teferi) (depicts)
 
 ### Teferi, Timeless Voyager
 
 [Card entry](../cards/T/te.md#teferi-timeless-voyager) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Teferi](../Characters%20Index.md#teferi) (name-match) · [Teferi](../Planeswalker%20Dossiers.md#teferi) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Teferi](../Characters%20Index.md#teferi) (depicts) · [Teferi](../Planeswalker%20Dossiers.md#teferi) (depicts)
 
 ### Teferi, Time Raveler
 
@@ -1222,7 +1222,7 @@ schema: 2
 [Card entry](../cards/T/te.md#teyo-diamondblade-mage) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Teyo Verada](../Characters%20Index.md#teyo-verada) (name-match) · [Teyo Verada](../Planeswalker%20Dossiers.md#teyo-verada) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Teyo Verada](../Characters%20Index.md#teyo-verada) (depicts) · [Teyo Verada](../Planeswalker%20Dossiers.md#teyo-verada) (depicts)
 
 ### Teyo, Geometric Tactician
 
@@ -1237,7 +1237,7 @@ schema: 2
 [Card entry](../cards/T/te.md#teyo-lightshield-expert) · **2 pages** (lore & story 2)
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Teyo Verada](../Characters%20Index.md#teyo-verada) (name-match) · [Teyo Verada](../Planeswalker%20Dossiers.md#teyo-verada) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Teyo Verada](../Characters%20Index.md#teyo-verada) (depicts) · [Teyo Verada](../Planeswalker%20Dossiers.md#teyo-verada) (depicts)
 
 ### Teyo, the Shieldmage
 
@@ -1245,7 +1245,7 @@ schema: 2
 
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (2):** [Artist Index → Artists F](../Artist%20Index.md#artists-f) · [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Teyo Verada](../Characters%20Index.md#teyo-verada) (name-match) · [Teyo Verada](../Planeswalker%20Dossiers.md#teyo-verada) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Teyo Verada](../Characters%20Index.md#teyo-verada) (depicts) · [Teyo Verada](../Planeswalker%20Dossiers.md#teyo-verada) (depicts)
 
 ### Teysa, Envoy of Ghosts
 
@@ -1304,7 +1304,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Artifacts: Artifact payoffs](../EDH%20Packages.md#artifacts-artifact-payoffs)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Tezzeret](../Characters%20Index.md#tezzeret) (name-match) · [Tezzeret](../Planeswalker%20Dossiers.md#tezzeret) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Tezzeret](../Characters%20Index.md#tezzeret) (depicts) · [Tezzeret](../Planeswalker%20Dossiers.md#tezzeret) (depicts)
 
 ### Tezzeret, Cruel Machinist
 

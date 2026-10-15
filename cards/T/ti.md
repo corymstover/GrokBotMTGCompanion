@@ -333,7 +333,7 @@ schema: 2
   - *2019-11-12* — The copy is created outside the game. After the copy resolves, it ceases to exist.
   - *2019-11-12* — You cast the copy while Tibalt’s ability is resolving. You can’t wait to cast it later in the turn.
   - *2019-11-12* — You cast the copy without paying its mana cost. Note that this is unique to Tibalt and is not the normal process for casting a copy of a card. If this card survived playtesting, we’d probably add words to make it more obvious.
-- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Tibalt](../../Characters%20Index.md#tibalt) · [format](../../Card%20Enrichment.md#lore-line)
+- **Lore:** ⚠️ Name match only (not a canon claim): [Character → Tibalt](../../Characters%20Index.md#tibalt) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/T.md#tibalt-the-chaotic)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/66/tibalt-the-chaotic) · oracle_id `f8e4f19a-c224-4e42-b80b-69fa12d46c12` · printing: CMB2 #66 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -152,7 +152,7 @@ schema: 2
 
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ob Nixilis](../Characters%20Index.md#ob-nixilis) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ob Nixilis](../Characters%20Index.md#ob-nixilis) (depicts)
 
 ### Ob Nixilis, the Adversary
 
@@ -176,7 +176,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Lands / landfall: Landfall payoffs](../EDH%20Packages.md#lands--landfall-landfall-payoffs)
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
 - **Card data (1):** [Artist Index → Artists S](../Artist%20Index.md#artists-s)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ob Nixilis](../Characters%20Index.md#ob-nixilis) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ob Nixilis](../Characters%20Index.md#ob-nixilis) (depicts)
 
 ### Ob Nixilis, the Hate-Twisted
 
@@ -191,7 +191,7 @@ schema: 2
 [Card entry](../cards/O/ob.md#ob-nixilis-unshackled) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ob Nixilis](../Characters%20Index.md#ob-nixilis) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ob Nixilis](../Characters%20Index.md#ob-nixilis) (depicts)
 
 ### Oboro, Palace in the Clouds
 
@@ -399,7 +399,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Aristocrats: Fodder makers (multiple creature tokens)](../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) (+1 more)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens) (+1 more)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Oko](../Characters%20Index.md#oko) (name-match) · [Oko](../Planeswalker%20Dossiers.md#oko) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Oko](../Characters%20Index.md#oko) (depicts) · [Oko](../Planeswalker%20Dossiers.md#oko) (depicts)
 
 ### Oko, the Ringleader
 
@@ -407,7 +407,7 @@ schema: 2
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Oko](../Characters%20Index.md#oko) (name-match) · [Oko](../Planeswalker%20Dossiers.md#oko) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Oko](../Characters%20Index.md#oko) (depicts) · [Oko](../Planeswalker%20Dossiers.md#oko) (depicts)
 
 ### Oko, the Trickster
 
@@ -423,7 +423,7 @@ schema: 2
 - **Decks (1):** [Atraxa, Praetors' Voice (planeswalkers theme)](../decks/theme-atraxa-praetors-voice-planeswalkers.md)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Format Legality Matrix → pioneer](../Format%20Legality%20Matrix.md#pioneer) (+6 more)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Oko](../Characters%20Index.md#oko) (name-match) · [Oko](../Planeswalker%20Dossiers.md#oko) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Oko](../Characters%20Index.md#oko) (depicts) · [Oko](../Planeswalker%20Dossiers.md#oko) (depicts)
 
 ### Old Flitterfang
 

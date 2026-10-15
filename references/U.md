@@ -67,7 +67,7 @@ schema: 2
 - **EDH guides (1):** [EDH Upgrade Paths → Kozilek, the Great Distortion](../EDH%20Upgrade%20Paths.md#kozilek-the-great-distortion)
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Format Legality Matrix → brawl](../Format%20Legality%20Matrix.md#brawl)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ugin](../Characters%20Index.md#ugin) (name-match) · [Ugin](../Planeswalker%20Dossiers.md#ugin) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Ugin](../Characters%20Index.md#ugin) (depicts) · [Ugin](../Planeswalker%20Dossiers.md#ugin) (depicts)
 
 ### Ukkima, Stalking Shadow
 
@@ -692,7 +692,7 @@ schema: 2
 
 - **EDH guides (1):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) (+1 more)
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Urabrask](../Characters%20Index.md#urabrask) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Urabrask](../Characters%20Index.md#urabrask) (depicts)
 
 ### Urabrask's Forge
 
@@ -717,7 +717,7 @@ schema: 2
 
 - **EDH guides (2):** [EDH Interaction → 4. Untap restriction](../EDH%20Interaction.md#4-untap-restriction) · [EDH Win Conditions → Haste enablers](../EDH%20Win%20Conditions.md#haste-enablers)
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Urabrask](../Characters%20Index.md#urabrask) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Urabrask](../Characters%20Index.md#urabrask) (depicts)
 
 ### Urban Evolution
 
@@ -848,7 +848,7 @@ schema: 2
 
 - **EDH guides (1):** [EDH Packages → Tokens: Anthems](../EDH%20Packages.md#tokens-anthems)
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Urza](../Characters%20Index.md#urza) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Urza](../Characters%20Index.md#urza) (depicts)
 
 ### Urza's Armor
 

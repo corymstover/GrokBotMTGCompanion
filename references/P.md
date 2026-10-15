@@ -2002,7 +2002,7 @@ schema: 2
 [Card entry](../cards/P/pr.md#proft-consulting-detective) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Proft, Etrata, Aminatou, Niv-Mizzet](../Characters%20Index.md#proft-etrata-aminatou-niv-mizzet) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Proft, Etrata, Aminatou, Niv-Mizzet](../Characters%20Index.md#proft-etrata-aminatou-niv-mizzet) (depicts)
 
 ### Proft's Eidetic Memory
 
@@ -2015,7 +2015,7 @@ schema: 2
 [Card entry](../cards/P/pr.md#proft-sinister-mastermind) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Proft, Etrata, Aminatou, Niv-Mizzet](../Characters%20Index.md#proft-etrata-aminatou-niv-mizzet) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Proft, Etrata, Aminatou, Niv-Mizzet](../Characters%20Index.md#proft-etrata-aminatou-niv-mizzet) (depicts)
 
 ### Progenitor's Icon
 
