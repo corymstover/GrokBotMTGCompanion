@@ -1000,7 +1000,9 @@ schema: 2
   - *2020-06-23* — If your opponent attacks you with one creature and your planeswalker with another, you draw a card.
   - *2020-06-23* — Players can cast spells and activate abilities after the triggered ability resolves but before the spell that caused it to trigger does.
   - *2020-06-23* — You draw just one card, no matter how many creatures are attacking you and your planeswalkers beyond the second.
-- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/M.md#mangara-the-diplomat)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 961 decks; highest synergy [Sun Titan](../../cards/S/sun.md#sun-titan) (+39%), [Archivist of Oghma](../../cards/A/arc.md#archivist-of-oghma) (+35%), [Weathered Wayfarer](../../cards/W/we.md#weathered-wayfarer) (+33%) · EDHREC: in 223,787 decks; most often under [Ms. Bumbleflower](../../cards/M/ms.md#ms-bumbleflower) (41.6% of its decks), [Queen Marchesa](../../cards/Q/qu.md#queen-marchesa) (55.2% of its decks), [Hope Estheim](../../cards/H/ho.md#hope-estheim) (30.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/M.md#mangara-the-diplomat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/155/mangara-the-diplomat) · oracle_id `cbcb6d9a-6ae5-4bcd-8013-2b657553764a` · printing: SOC #155 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Manglehorn

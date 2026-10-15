@@ -1189,8 +1189,9 @@ schema: 2
 
 ### Lolth, Spider Queen
 
-[Card entry](../cards/L/lo.md#lolth-spider-queen) · **1 pages** (card data 1)
+[Card entry](../cards/L/lo.md#lolth-spider-queen) · **2 pages** (edh guides 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Aristocrats: Fodder makers (multiple creature tokens)](../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens) (+1 more)
 
 ### Lonely Sandbar
@@ -1378,8 +1379,9 @@ schema: 2
 
 ### Losheel, Clockwork Scholar
 
-[Card entry](../cards/L/lo.md#losheel-clockwork-scholar) · **1 pages** (card data 1)
+[Card entry](../cards/L/lo.md#losheel-clockwork-scholar) · **2 pages** (edh guides 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents)
 - **Card data (1):** [Artist Index → Artists D](../Artist%20Index.md#artists-d)
 
 ### Lost in Space
@@ -1624,8 +1626,9 @@ schema: 2
 
 ### Luxior, Ignited
 
-[Card entry](../cards/L/lu.md#luxior-ignited) · **1 pages** (card data 1)
+[Card entry](../cards/L/lu.md#luxior-ignited) · **2 pages** (edh guides 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Voltron (equipment & auras): Evasion & double strike](../EDH%20Packages.md#voltron-equipment--auras-evasion--double-strike)
 - **Card data (1):** [Artist Index → Artists A](../Artist%20Index.md#artists-a)
 
 ### Luxknight Breacher

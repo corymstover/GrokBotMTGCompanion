@@ -69,6 +69,9 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/M.md#mr-monopoly-on-the-go)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ph23/1/mr-monopoly-on-the-go) · oracle_id `9537cca4-7c58-4f89-95f0-f5186d04c025` · printing: PH23 #1 (2025-08-24) · [rulings](https://api.scryfall.com/cards/ac583256-9a7e-4e22-93c8-78a0f42b8125/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mr. Orfeo, the Boulder

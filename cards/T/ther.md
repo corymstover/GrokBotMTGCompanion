@@ -524,6 +524,8 @@ schema: 2
   - *2019-10-04* — If you draw fewer than four cards while resolving the last ability of The Royal Scions, its reflexive triggered ability doesn't trigger.
   - *2019-10-04* — The Royal Scions's last ability goes on the stack without a target. While that ability is resolving, you draw four cards. When you do, the reflexive triggered ability triggers and you pick a target to be dealt damage. This is different from effects that say “If you do . . .” in that you choose a target after looking at the cards you draw.
   - *2019-10-04* — You draw a card and discard a card all while The Royal Scions's first ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 9,807 decks; most often under [Captain Howler, Sea Scourge](../../cards/C/cap.md#captain-howler-sea-scourge) (16.6% of its decks), [Child of Alara](../../cards/C/chi.md#child-of-alara) (7.8% of its decks), [Commodore Guff](../../cards/C/com.md#commodore-guff) (6.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/199/the-royal-scions) · oracle_id `4ecde8d1-e4ec-4bd9-8a80-49885b032557` · printing: ELD #199 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ruinous Powers

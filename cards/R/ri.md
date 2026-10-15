@@ -2986,6 +2986,8 @@ schema: 2
   - *2017-02-09* — Each creature you control has Rishkar's mana ability as long as that creature has any kind of counter on it. The effect isn't limited to those with +1/+1 counters.
   - *2017-02-09* — Rishkar can be a target of its own triggered ability.
   - *2017-02-09* — You can't target the same creature twice to have one recipient get two +1/+1 counters.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 46 combos; most popular [Tayam, Luminous Enigma + Rishkar, Peema Renegade + Barrenton Medic](https://commanderspellbook.com/combo/687-2335-2387/) (Infinite self-mill, Put a selection of permanant cards from your library and graveyard onto the battlefield) · EDHREC as commander: 358 decks; highest synergy [Inspiring Call](../../cards/I/ins.md#inspiring-call) (+50%), [Armorcraft Judge](../../cards/A/arm.md#armorcraft-judge) (+49%), [Forgotten Ancient](../../cards/F/fo.md#forgotten-ancient) (+42%) · EDHREC: in 168,834 decks; most often under [Ms. Bumbleflower](../../cards/M/ms.md#ms-bumbleflower) (38.2% of its decks), [Tayam, Luminous Enigma](../../cards/T/ta.md#tayam-luminous-enigma) (73.2% of its decks), [Voja, Jaws of the Conclave](../../cards/V/vo.md#voja-jaws-of-the-conclave) (36.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/317/rishkar-peema-renegade) · oracle_id `761021ce-4559-464e-aa03-85c2fe78e267` · printing: CMM #317 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rishkar's Expertise

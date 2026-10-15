@@ -955,6 +955,8 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3479 · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 18 combos; most popular [Dihada, Binder of Wills + Underworld Breach + Flicker](https://commanderspellbook.com/combo/1368-3556-5287/) (Infinite self-mill, Near-infinite colored mana) · EDHREC as commander: 11,090 decks; highest synergy [Shanid, Sleepers' Scourge](../../cards/S/sha.md#shanid-sleepers-scourge) (+62%), [Primevals' Glorious Rebirth](../../cards/P/pr.md#primevals-glorious-rebirth) (+60%), [Urza's Ruinous Blast](../../cards/U/ur.md#urzas-ruinous-blast) (+56%) · EDHREC: in 36,765 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (24.7% of its decks), [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (28.2% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (9.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/D.md#dihada-binder-of-wills)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/1/dihada-binder-of-wills) · oracle_id `d326de4d-6157-4586-91b8-5668e1381ac3` · printing: DMC #1 (2022-09-09) · [rulings](https://api.scryfall.com/cards/ddeb54d6-a600-42b9-98df-20f8d58caed8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

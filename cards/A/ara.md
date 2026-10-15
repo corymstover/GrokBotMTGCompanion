@@ -76,6 +76,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2282 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-09-20* — The value of X is determined only once, as Arabella's ability resolves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Arabella, Abandoned Doll + Storm Herd](https://commanderspellbook.com/combo/2067-5960/) (Near-infinite damage, Near-infinite lifegain) · EDHREC as commander: 21,630 decks; highest synergy [Dusk // Dawn](../../cards/D/du.md#dusk--dawn) (+54%), [Welcoming Vampire](../../cards/W/we.md#welcoming-vampire) (+52%), [Enduring Innocence](../../cards/E/en.md#enduring-innocence) (+51%) · EDHREC: in 50,459 decks; most often under [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (23.2% of its decks), [Caesar, Legion's Emperor](../../cards/C/cae.md#caesar-legions-emperor) (23.3% of its decks), [Zinnia, Valley's Voice](../../cards/Z/zi.md#zinnia-valleys-voice) (26.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/208/arabella-abandoned-doll) · oracle_id `7c4bbb1b-29c4-4e06-aed0-b361293a585b` · printing: DSK #208 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arachne, Psionic Weaver
@@ -486,6 +488,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1024 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2020-01-24* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Uro, Titan of Nature's Wrath (Theros-only)](../../decks/plane-theros-uro-titan-of-natures-wrath.md) · [Trostani, Selesnya's Voice](../../decks/trostani-selesnyas-voice.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 431 decks; highest synergy [Arachnogenesis](../../cards/A/ara.md#arachnogenesis) (+63%), [Twin-Silk Spider](../../cards/T/tw.md#twin-silk-spider) (+49%), [Curse of Clinging Webs](../../cards/C/cu.md#curse-of-clinging-webs) (+46%) · EDHREC: in 151,754 decks; most often under [Shelob, Child of Ungoliant](../../cards/S/she.md#shelob-child-of-ungoliant) (95.1% of its decks), [Blech, Loafing Pest](../../cards/B/ble.md#blech-loafing-pest) (65.4% of its decks), [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (59.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (2 decks · 2 card data) → [reverse index](../../references/A.md#arasta-of-the-endless-web)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/244/arasta-of-the-endless-web) · oracle_id `695eea46-1535-48c5-bbb6-0b8379e77bfc` · printing: TDC #244 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

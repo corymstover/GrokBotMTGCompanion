@@ -1961,6 +1961,8 @@ schema: 2
   - *2023-11-10* — When you discover, you must exile cards. The only optional part of the ability is whether you cast the exiled card or put it into your hand.
   - *2023-11-10* — You exile the cards face up. All players will be able to see them.
   - *2023-11-10* — You must follow all normal timing rules for a card you play with Quintorius Kand's last ability and, if it's a spell, you must pay its costs to cast it.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 22 combos; most popular [Quintorius Kand + Flicker + Bonus Round + Biblioplex Assistant](https://commanderspellbook.com/combo/1190-2492-2845-3556/) (Infinite damage, Infinite creature ETB) · EDHREC: in 29,434 decks; most often under [Rocco, Street Chef](../../cards/R/ro.md#rocco-street-chef) (40.1% of its decks), [Fire Lord Zuko](../../cards/F/fi.md#fire-lord-zuko) (23.5% of its decks), [Gwen Stacy](../../cards/G/gw.md#gwen-stacy--ghost-spider) (52.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/Q.md#quintorius-kand)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/238/quintorius-kand) · oracle_id `91babc5f-ebeb-4894-8c35-b0f60249cb80` · printing: LCI #238 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

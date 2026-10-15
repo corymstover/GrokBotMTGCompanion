@@ -238,8 +238,9 @@ schema: 2
 
 ### Jared Carthalion
 
-[Card entry](../cards/J/ja.md#jared-carthalion) · **1 pages** (card data 1)
+[Card entry](../cards/J/ja.md#jared-carthalion) · **2 pages** (edh guides 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Graveyard: Recursion to hand](../EDH%20Packages.md#graveyard-recursion-to-hand)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Jarl of the Forsaken
@@ -490,10 +491,10 @@ schema: 2
 
 ### Jhoira, Weatherlight Captain
 
-[Card entry](../cards/J/jh.md#jhoira-weatherlight-captain) · **7 pages** (decks 5 · edh guides 1 · card data 1)
+[Card entry](../cards/J/jh.md#jhoira-weatherlight-captain) · **8 pages** (decks 5 · edh guides 2 · card data 1)
 
 - **Decks (5):** [Ashad, the Lone Cyberman (Grixis)](../grixis/decks/ashad-the-lone-cyberman.md) · [Ashnod the Uncaring (Grixis)](../grixis/decks/ashnod-the-uncaring.md) · [Breya, Etherium Shaper](../decks/breya-etherium-shaper.md) · [Mai and Zuko (Grixis)](../grixis/decks/mai-and-zuko.md) · [Mishra, Artificer Prodigy (Grixis)](../grixis/decks/mishra-artificer-prodigy.md)
-- **EDH guides (1):** [Grixis Packages → Draw](../grixis/Grixis%20Packages.md#draw)
+- **EDH guides (2):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [Grixis Packages → Draw](../grixis/Grixis%20Packages.md#draw)
 - **Card data (1):** [Artist Index → Artists B](../Artist%20Index.md#artists-b) (+1 more)
 
 ### Jhoira, Weatherlight Corsair

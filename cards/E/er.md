@@ -879,6 +879,8 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
 - **Rulings** (1):
   - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ph21/4/ersta-friend-to-all) · oracle_id `9d54827a-5f7a-4907-bee5-276e92a95500` · printing: PH21 #4 (2022-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Erstwhile Trooper

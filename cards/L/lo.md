@@ -1147,7 +1147,9 @@ schema: 2
   > −8: You get an emblem with "Whenever an opponent is dealt combat damage by one or more creatures you control, if that player lost less than 8 life this turn, they lose life equal to the difference."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4280 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lolth-spider-queen)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 38,296 decks; most often under [Shelob, Child of Ungoliant](../../cards/S/she.md#shelob-child-of-ungoliant) (68.5% of its decks), [Carth the Lion](../../cards/C/car.md#carth-the-lion) (48.9% of its decks), [Teysa Karlov](../../cards/T/te.md#teysa-karlov) (6.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/L.md#lolth-spider-queen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/112/lolth-spider-queen) · oracle_id `7a8edf45-206e-4d0e-bd69-06f1ca70d17c` · printing: AFR #112 (2021-07-23) · [rulings](https://api.scryfall.com/cards/420a5689-d73e-4dda-82fd-8b8897ff5b55/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lona, Tracker of the Known
@@ -1887,6 +1889,8 @@ schema: 2
 - **Rulings** (2):
   - *2024-11-08* — If a creature card in your library has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
   - *2024-11-08* — The effect of Loot's first ability is cumulative with similar effects. For example, if you control both Loot and Exploration (an enchantment with "You may play an additional land on each of your turns"), you'll be able to play three lands during each of your turns.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Tatyova, Benthic Druid](../../decks/tatyova-benthic-druid.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 5,967 decks; highest synergy [Rampaging Baloths](../../cards/R/ram.md#rampaging-baloths) (+50%), [Avenger of Zendikar](../../cards/A/av.md#avenger-of-zendikar) (+44%), [Augur of Autumn](../../cards/A/au.md#augur-of-autumn) (+41%) · EDHREC: in 164,857 decks; most often under [Tifa Lockhart](../../cards/T/ti.md#tifa-lockhart) (49.3% of its decks), [Flubs, the Fool](../../cards/F/fl.md#flubs-the-fool) (28.2% of its decks), [The Wandering Minstrel](../../cards/T/thew.md#the-wandering-minstrel) (29.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Lands / landfall: Extra land drops](../../EDH%20Packages.md#lands--landfall-extra-land-drops) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/L.md#loot-exuberant-explorer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/106/loot-exuberant-explorer) · oracle_id `f6476884-f73f-465f-8e7f-ea312a5b306d` · printing: FDN #106 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1999,6 +2003,8 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #340 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Brago, King Eternal](../../decks/brago-king-eternal.md) · Commander Spellbook: 3 combos; most popular [Mind Over Matter + Loran of the Third Path](https://commanderspellbook.com/combo/1668-4067/) (Infinite draw triggers, Infinite looting) · EDHREC as commander: 306 decks; highest synergy [Ephemerate](../../cards/E/ep.md#ephemerate) (+38%), [Tataru Taru](../../cards/T/ta.md#tataru-taru) (+37%), [Liquimetal Torque](../../cards/L/li.md#liquimetal-torque) (+31%) · EDHREC: in 341,567 decks; most often under [Ms. Bumbleflower](../../cards/M/ms.md#ms-bumbleflower) (60.4% of its decks), [Queen Marchesa](../../cards/Q/qu.md#queen-marchesa) (39.8% of its decks), [Terra, Herald of Hope](../../cards/T/te.md#terra-herald-of-hope) (37.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/L.md#loran-of-the-third-path)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/71/loran-of-the-third-path) · oracle_id `b3d81980-76f2-44e2-b1c9-01e30c726312` · printing: MKC #71 (2024-02-09) · [rulings](https://api.scryfall.com/cards/9e83a0ef-4fea-45ba-86c0-130d6687f7fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2327,6 +2333,8 @@ schema: 2
   > At the beginning of combat on your turn, create a 1/1 black Rat creature token with "This token can't block."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2389 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Syr Konrad, the Grim (Eldraine-only)](../../decks/plane-eldraine-syr-konrad-the-grim.md) · Commander Spellbook: 8 combos; most popular [Lord Skitter, Sewer King + Void Attendant + Pitiless Plunderer + Conspiracy](https://commanderspellbook.com/combo/230-853-4871-4875/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 702 decks; highest synergy [Piper of the Swarm](../../cards/P/pi.md#piper-of-the-swarm) (+71%), [Pack Rat](../../cards/P/pa.md#pack-rat) (+67%), [Marrow-Gnawer](../../cards/M/mar.md#marrow-gnawer) (+66%) · EDHREC: in 68,385 decks; most often under [Wick, the Whorled Mind](../../cards/W/wi.md#wick-the-whorled-mind) (80.0% of its decks), [Marrow-Gnawer](../../cards/M/mar.md#marrow-gnawer) (64.3% of its decks), [Vren, the Relentless](../../cards/V/vr.md#vren-the-relentless) (64.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/L.md#lord-skitter-sewer-king)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/97/lord-skitter-sewer-king) · oracle_id `f5bed085-bb7a-4250-9599-b2a8a95e6b6f` · printing: WOE #97 (2023-09-08) · [rulings](https://api.scryfall.com/cards/729877be-4894-4ef5-9e60-de8a8fb2bdc0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2727,7 +2735,9 @@ schema: 2
   > Whenever one or more artifact creatures you control enter, draw a card. This ability triggers only once each turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1601 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#losheel-clockwork-scholar)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 547 decks; highest synergy [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) (+77%), [Steel Overseer](../../cards/S/ste.md#steel-overseer) (+73%), [Bronze Guardian](../../cards/B/br.md#bronze-guardian) (+70%) · EDHREC: in 101,681 decks; most often under [Mr. House, President and CEO](../../cards/M/mr.md#mr-house-president-and-ceo) (59.9% of its decks), [Urza, Chief Artificer](../../cards/U/ur.md#urza-chief-artificer) (67.0% of its decks), [Mendicant Core, Guidelight](../../cards/M/me.md#mendicant-core-guidelight) (43.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/L.md#losheel-clockwork-scholar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/38/losheel-clockwork-scholar) · oracle_id `f8c2a972-e38f-47e5-a355-6f30ad09b1ae` · printing: CMM #38 (2023-08-04) · [rulings](https://api.scryfall.com/cards/ee6b54de-8e79-4f60-b642-3d259bf74ea0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lossarnach Captain
@@ -3104,6 +3114,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #410 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-06-16* — Spells that were cast before Lotho, Corrupt Shirriff count. If Lotho, Corrupt Shirriff was the first spell you cast this turn, the next spell you cast this turn is your second spell.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,935 decks; highest synergy [Esper Sentinel](../../cards/E/es.md#esper-sentinel) (+44%), [Archivist of Oghma](../../cards/A/arc.md#archivist-of-oghma) (+41%), [Bennie Bracks, Zoologist](../../cards/B/be.md#bennie-bracks-zoologist) (+41%) · EDHREC: in 300,338 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (29.7% of its decks), [Frodo, Adventurous Hobbit // Sam, Loyal Attendant](../../cards/F/fr.md#frodo-adventurous-hobbit) (45.2% of its decks), [Marneus Calgar](../../cards/M/mar.md#marneus-calgar) (61.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Treasure: Repeatable Treasure makers](../../EDH%20Packages.md#treasure-repeatable-treasure-makers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (2 edh guides · 1 card data) → [reverse index](../../references/L.md#lotho-corrupt-shirriff)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/213/lotho-corrupt-shirriff) · oracle_id `135cc078-1c45-465e-b0b9-7168c89f56f4` · printing: LTR #213 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

@@ -795,6 +795,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-02-18* — Discarding the card is part of the cost to activate a channel ability.
   - *2022-02-18* — If a channel ability requires a target, you may not activate it without a target just to discard the card.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 5 combos; most popular [Shigeki, Jukai Visionary + Early Harvest + Regrowth](https://commanderspellbook.com/combo/5088-5148-5252/) (Infinite magecraft triggers, Infinite mana basic lands you control can produce) · EDHREC as commander: 1,711 decks; highest synergy [Regrowth](../../cards/R/reg.md#regrowth) (+57%), [Grapple with the Past](../../cards/G/gra.md#grapple-with-the-past) (+56%), [Early Harvest](../../cards/E/ea.md#early-harvest) (+45%) · EDHREC: in 92,631 decks; most often under [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (35.9% of its decks), [Zimone, Mystery Unraveler](../../cards/Z/zi.md#zimone-mystery-unraveler) (41.3% of its decks), [Rendmaw, Creaking Nest](../../cards/R/ren.md#rendmaw-creaking-nest) (48.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shigeki-jukai-visionary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/270/shigeki-jukai-visionary) · oracle_id `cbad3570-5417-42e6-b3ef-f42194098314` · printing: TDC #270 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

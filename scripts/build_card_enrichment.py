@@ -102,8 +102,8 @@ def type_group(c):
 NO_LORE = "❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story)"
 # Bot cycle 35 is enriched in slices of ~250 cards (checkpoint pushed after each): PW35 adds every remaining planeswalker,
 # RANK35 the legendary creatures up to that EDHREC rank (2026-10-15 bulk). 6,915 = the 1,000th not-yet-enriched one.
-PW35 = False
-RANK35 = 0
+PW35 = True
+RANK35 = 2409
 BATCHES = [(33, "legendary cards and planeswalkers already linked from lore entries",
             lambda c, tiers: "entry-linked" in tiers and is_legend_or_pw(c)),
            (34, "every other lore-entry-linked card, every name-matched character card, every story-flavor card",

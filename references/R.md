@@ -1792,9 +1792,10 @@ schema: 2
 
 ### Rev, Tithe Extractor
 
-[Card entry](../cards/R/rev.md#rev-tithe-extractor) · **1 pages** (decks 1)
+[Card entry](../cards/R/rev.md#rev-tithe-extractor) · **2 pages** (decks 1 · edh guides 1)
 
 - **Decks (1):** [Nathan Drake, Treasure Hunter (Grixis)](../grixis/decks/nathan-drake-treasure-hunter.md)
+- **EDH guides (1):** [EDH Packages → Treasure: Repeatable Treasure makers](../EDH%20Packages.md#treasure-repeatable-treasure-makers)
 
 ### Rewind
 

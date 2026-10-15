@@ -2166,8 +2166,9 @@ schema: 2
 
 ### Comet, Stellar Pup
 
-[Card entry](../cards/C/com.md#comet-stellar-pup) · **2 pages** (card data 2)
+[Card entry](../cards/C/com.md#comet-stellar-pup) · **3 pages** (edh guides 1 · card data 2)
 
+- **EDH guides (1):** [EDH Packages → Aristocrats: Fodder makers (multiple creature tokens)](../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens)
 - **Card data (2):** [Artist Index → Artists D](../Artist%20Index.md#artists-d) · [Format Legality Matrix → duel](../Format%20Legality%20Matrix.md#duel)
 
 ### Comeuppance

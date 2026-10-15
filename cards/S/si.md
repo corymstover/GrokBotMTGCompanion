@@ -1282,6 +1282,9 @@ schema: 2
 - **Keywords:** Goad
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #25372 · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Warren Soultrader + Gravecrawler + Sifa Grent](https://commanderspellbook.com/combo/2577-5670-7918/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 227 decks; highest synergy [Vengeful Ancestor](../../cards/V/ve.md#vengeful-ancestor) (+58%), [Puppet Master, String Puller](../../cards/P/pu.md#puppet-master-string-puller) (+54%), [Disrupt Decorum](../../cards/D/di.md#disrupt-decorum) (+51%) · EDHREC: in 559 decks; most often under [Kardur, Doomscourge](../../cards/K/ka.md#kardur-doomscourge) (2.8% of its decks), [Xantcha, Sleeper Agent](../../cards/X/xa.md#xantcha-sleeper-agent) (3.6% of its decks), [Karazikar, the Eye Tyrant](../../cards/K/ka.md#karazikar-the-eye-tyrant) (5.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Death-trigger drain payoffs](../../EDH%20Packages.md#aristocrats-death-trigger-drain-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#sifa-grent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/51/sifa-grent) · oracle_id `9a3d148c-e1bb-4e7a-a588-00a24041ebf7` · printing: MBC #51 (2026-10-19) · [rulings](https://api.scryfall.com/cards/f8724ac3-45f2-4f4e-91c4-04c8d1c4eed5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sif's Spearmaster
@@ -5077,6 +5080,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-09-09* — A player who controls a creature that “attacks if able” can decline to pay additional costs to have that creature attack. If they do and there’s no other player or planeswalker to attack, that creature simply doesn’t attack.
   - *2022-09-09* — In a Two-Headed Giant game, creatures can attack your teammate and planeswalkers your teammate controls without requiring a life payment.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,518 decks; highest synergy [Crux of Fate](../../cards/C/cr.md#crux-of-fate) (+74%), [Silumgar, the Drifting Death](../../cards/S/si.md#silumgar-the-drifting-death) (+74%), [Dragonlord Silumgar](../../cards/D/dra.md#dragonlord-silumgar) (+73%) · EDHREC: in 11,364 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (9.8% of its decks), [Tiamat](../../cards/T/ti.md#tiamat) (11.6% of its decks), [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (6.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/43/sivitri-dragon-master) · oracle_id `5cf86603-cc47-4644-890a-0997c694817f` · printing: DMC #43 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sivitri Scarzam
@@ -5153,6 +5158,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #590 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-06-07* — If a spell you cast with retrace is countered, it's put back into your graveyard. You may use the retrace ability to cast it again.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Muldrotha, the Gravetide](../../decks/muldrotha-the-gravetide.md) · [Muldrotha, the Gravetide (self mill theme)](../../decks/theme-muldrotha-the-gravetide-self-mill.md) · Commander Spellbook: 100+ combos; most popular [Six + Life from the Loam + Lion's Eye Diamond](https://commanderspellbook.com/combo/2051-3518-5751--38/) (Infinite self-mill, Near-infinite storm count) · EDHREC as commander: 3,269 decks; highest synergy [Life from the Loam](../../cards/L/li.md#life-from-the-loam) (+73%), [Aftermath Analyst](../../cards/A/af.md#aftermath-analyst) (+64%), [Satyr Wayfinder](../../cards/S/sat.md#satyr-wayfinder) (+51%) · EDHREC: in 228,908 decks; most often under [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (60.7% of its decks), [The Necrobloom](../../cards/T/then.md#the-necrobloom) (65.5% of its decks), [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (26.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 5 pages (2 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/S.md#six)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/169/six) · oracle_id `dbcbdf37-c40f-4068-b4a7-a849cab1056c` · printing: MH3 #169 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

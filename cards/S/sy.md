@@ -1488,6 +1488,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-10-04* — If one or more creatures die at the same time as Syr Konrad, its first ability triggers for each of those creatures.
   - *2019-10-04* — In a Two-Headed Giant game, Syr Konrad's first ability causes it to deal 1 damage twice.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (6): [Karador, Ghost Chieftain](../../decks/karador-ghost-chieftain.md) · [Muldrotha, the Gravetide](../../decks/muldrotha-the-gravetide.md) · [Syr Konrad, the Grim (Eldraine-only)](../../decks/plane-eldraine-syr-konrad-the-grim.md) · [Teysa Karlov](../../decks/teysa-karlov.md) … · Commander Spellbook: 48 combos; most popular [The Mindskinner + Syr Konrad, the Grim](https://commanderspellbook.com/combo/1819-6003/) (Near-infinite mill) · EDHREC as commander: 6,230 decks; highest synergy [Mindcrank](../../cards/M/min.md#mindcrank) (+56%), [Tortured Existence](../../cards/T/to.md#tortured-existence) (+49%), [Mesmeric Orb](../../cards/M/me.md#mesmeric-orb) (+41%) · EDHREC: in 403,048 decks; most often under [The Wise Mothman](../../cards/T/thew.md#the-wise-mothman) (51.0% of its decks), [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (38.0% of its decks), [Valgavoth, Harrower of Souls](../../cards/V/va.md#valgavoth-harrower-of-souls) (43.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 11 pages (6 decks · 3 edh guides · 1 rules · 1 card data) → [reverse index](../../references/S.md#syr-konrad-the-grim)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/158/syr-konrad-the-grim) · oracle_id `14c3ff84-1e82-4606-a433-869fc52cc382` · printing: DSC #158 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1544,7 +1546,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1022 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2021-06-18* — Sythis, Harvest Hand's ability doesn't trigger when it is cast.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sythis-harvests-hand)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 14,282 decks; highest synergy [Sanctum Weaver](../../cards/S/san.md#sanctum-weaver) (+76%), [Enchantress's Presence](../../cards/E/en.md#enchantresss-presence) (+75%), [Destiny Spinner](../../cards/D/des.md#destiny-spinner) (+68%) · EDHREC: in 137,894 decks; most often under [Go-Shintai of Life's Origin](../../cards/G/gos.md#go-shintai-of-lifes-origin) (77.4% of its decks), [Tom Bombadil](../../cards/T/to.md#tom-bombadil) (71.2% of its decks), [Anikthea, Hand of Erebos](../../cards/A/an.md#anikthea-hand-of-erebos) (88.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/S.md#sythis-harvests-hand)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/938/sythis-harvests-hand) · oracle_id `0fc64fd6-f057-4056-9dca-47accb7ff036` · printing: CMM #938 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syx, Robot Overlord

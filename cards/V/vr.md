@@ -445,6 +445,8 @@ schema: 2
   - *2023-07-28* — The resulting artifact creature will be able to attack on your turn if it's been under your control continuously since the turn began. It doesn't matter how long it's been a creature, just how long it's been on the battlefield.
   - *2023-07-28* — Vronos, Masked Inquisitor's last ability causes the target artifact to lose any other creature types it has. It retains any other types, subtypes, and supertypes.
   - *2023-07-28* — Vronos, Masked Inquisitor's last ability doesn't remove any abilities the target artifact has.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 21,960 decks; most often under [Commodore Guff](../../cards/C/com.md#commodore-guff) (78.1% of its decks), [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (19.1% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (3.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/729/vronos-masked-inquisitor) · oracle_id `86851bdb-9b2f-4407-97a1-a6a9f2e0ef66` · printing: CMM #729 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vryn Wingmare

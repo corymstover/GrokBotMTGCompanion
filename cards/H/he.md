@@ -2603,6 +2603,8 @@ schema: 2
   - *2020-01-24* — The type-changing ability that can make a God not be a creature functions only on the battlefield. It's always a creature card in other zones, regardless of your devotion to its color. It's always a creature spell while it's on the stack.
   - *2020-01-24* — When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
   - *2023-07-28* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Heliod's ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, planeswalkers, and/or battles at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Heliod, Sun-Crowned + Walking Ballista](https://commanderspellbook.com/combo/1274-3693/) (Infinite damage, Infinite lifegain) · EDHREC as commander: 5,290 decks; highest synergy [Daxos, Blessed by the Sun](../../cards/D/da.md#daxos-blessed-by-the-sun) (+55%), [Soul Warden](../../cards/S/so.md#soul-warden) (+54%), [Soul's Attendant](../../cards/S/so.md#souls-attendant) (+52%) · EDHREC: in 147,764 decks; most often under [Oloro, Ageless Ascetic](../../cards/O/ol.md#oloro-ageless-ascetic) (32.6% of its decks), [Hope Estheim](../../cards/H/ho.md#hope-estheim) (37.3% of its decks), [Sythis, Harvest's Hand](../../cards/S/sy.md#sythis-harvests-hand) (42.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/H.md#heliod-sun-crowned)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/29/heliod-sun-crowned) · oracle_id `63e596a2-9126-4af6-8782-c38687d664ad` · printing: CMM #29 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4520,6 +4522,8 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
 - **Rulings** (1):
   - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ph22/3/heroes-of-kamigawa) · oracle_id `720614e0-a94a-44e0-b937-b0a6e28b386d` · printing: PH22 #3 (2023-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Heroes of the Revel

@@ -589,6 +589,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1574 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 39 combos; most popular [Selvala, Heart of the Wilds + Temur Sabertooth + Surrak and Goreclaw](https://commanderspellbook.com/combo/215-527-713/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 556 decks; highest synergy [Goreclaw, Terror of Qal Sisma](../../cards/G/gor.md#goreclaw-terror-of-qal-sisma) (+48%), [Ghalta, Primal Hunger](../../cards/G/gh.md#ghalta-primal-hunger) (+38%), [Gwenna, Eyes of Gaea](../../cards/G/gw.md#gwenna-eyes-of-gaea) (+30%) · EDHREC: in 103,786 decks; most often under [Helga, Skittish Seer](../../cards/H/he.md#helga-skittish-seer) (38.3% of its decks), [Ayula, Queen Among Bears](../../cards/A/ay.md#ayula-queen-among-bears) (71.0% of its decks), [Beorn the Fierce](../../cards/B/be.md#beorn-the-fierce) (68.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/337/surrak-and-goreclaw) · oracle_id `95be5f72-1f81-4ec6-9bd9-f0b07bfc874b` · printing: MOM #337 (2023-04-21) · [rulings](https://api.scryfall.com/cards/9c10934d-9016-43c4-a7ab-56cc7d8f671f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surrakar Banisher

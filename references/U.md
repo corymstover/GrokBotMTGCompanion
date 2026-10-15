@@ -779,10 +779,10 @@ schema: 2
 
 ### Uro, Titan of Nature's Wrath
 
-[Card entry](../cards/U/ur.md#uro-titan-of-natures-wrath) · **5 pages** (decks 1 · edh guides 1 · rules 1 · card data 2)
+[Card entry](../cards/U/ur.md#uro-titan-of-natures-wrath) · **6 pages** (decks 1 · edh guides 2 · rules 1 · card data 2)
 
 - **Decks (1):** [Uro, Titan of Nature's Wrath (Theros-only)](../decks/plane-theros-uro-titan-of-natures-wrath.md)
-- **EDH guides (1):** [EDH Themed & Plane-Restricted Decks → Plane-restricted](../EDH%20Themed%20Decks.md#plane-restricted)
+- **EDH guides (2):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [EDH Themed & Plane-Restricted Decks → Plane-restricted](../EDH%20Themed%20Decks.md#plane-restricted)
 - **Rules (1):** [Keyword Encyclopedia → Escape](../Keyword%20Encyclopedia.md#escape)
 - **Card data (2):** [Artist Index → Artists R](../Artist%20Index.md#artists-r) · [Format Legality Matrix → pioneer](../Format%20Legality%20Matrix.md#pioneer) (+4 more)
 

@@ -505,6 +505,8 @@ schema: 2
   - *2021-07-23* — If you have more than one of Zariel's emblem, the abilities will each trigger at the end of the first combat phase on your turn. You can choose the same creature as the target of each ability. Those targets will untap before any additional combats. No creatures will untap between the first additional combat and the second additional combat (or between the second and third, and so on, and wow, how long was Zariel under your control?!)
   - *2021-07-23* — The ability of the emblem can target any creature you control, not just one that's tapped.
   - *2021-07-23* — There is no main phase between the combat phases. You move from the first combat phase directly into the second combat phase.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 23,858 decks; most often under [Raphael, Fiendish Savior](../../cards/R/rap.md#raphael-fiendish-savior) (55.2% of its decks), [Zurzoth, Chaos Rider](../../cards/Z/zu.md#zurzoth-chaos-rider) (35.0% of its decks), [Karlach, Fury of Avernus // Raised by Giants](../../cards/K/ka.md#karlach-fury-of-avernus) (33.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zariel-archduke-of-avernus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/172/zariel-archduke-of-avernus) · oracle_id `04ddb495-e9b0-47bf-b892-c7ae7b87c10c` · printing: AFR #172 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

@@ -594,6 +594,8 @@ schema: 2
   - *2019-11-12* — If you control Abian but haven't become Abian, its loyalty abilities function as normal, drawing from its loyalty counters and not your life. Its last ability causes you, the player, to deal damage, although the source of the ability is Abian.
   - *2019-11-12* — To activate your last ability, you can't pay more life than you have.
   - *2019-11-12* — While Abian is on the battlefield, you're both a player and a permanent. You're a legendary planeswalker that's red and green.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#abian-luvion-usurper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/87/abian-luvion-usurper) · oracle_id `2df37779-2ec0-48ac-8be9-5d3b0e9679e6` · printing: CMB2 #87 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

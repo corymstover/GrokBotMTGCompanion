@@ -103,6 +103,8 @@ schema: 2
   > Whenever you cast a creature spell with power 5 or greater, put a +1/+1 counter on Gwenna and untap it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1673 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 84 combos; most popular [Brinelin, the Moon Kraken + Gwenna, Eyes of Gaea + Primeval Protector + Ghalta, Primal Hunger](https://commanderspellbook.com/combo/470-1319-2661-6789/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 817 decks; highest synergy [Goreclaw, Terror of Qal Sisma](../../cards/G/gor.md#goreclaw-terror-of-qal-sisma) (+53%), [Ghalta, Primal Hunger](../../cards/G/gh.md#ghalta-primal-hunger) (+52%), [Soul of the Harvest](../../cards/S/so.md#soul-of-the-harvest) (+51%) · EDHREC: in 96,828 decks; most often under [Eshki, Temur's Roar](../../cards/E/es.md#eshki-temurs-roar) (49.7% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (14.3% of its decks), [Animar, Soul of Elements](../../cards/A/an.md#animar-soul-of-elements) (14.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/185/gwenna-eyes-of-gaea) · oracle_id `7d95e72a-461e-4993-a190-847466a4b17c` · printing: BRO #185 (2022-11-18) · [rulings](https://api.scryfall.com/cards/7ee387b7-18e4-41b7-aefe-f2b5954e3051/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gwenom, Remorseless

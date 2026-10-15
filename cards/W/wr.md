@@ -548,6 +548,8 @@ schema: 2
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
   - *2024-11-08* — Wrenn and One is played as a land. It doesn’t use the stack, it’s not a spell, it can’t be responded to, it has no mana cost, and it counts as your land play for the turn.
   - *2024-11-08* — Wrenn is a planeswalker type, not a land type.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wrenn-and-one)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/588/wrenn-and-one) · oracle_id `7b587921-00d3-42c0-b295-b62310173390` · printing: MB2 #588 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

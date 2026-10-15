@@ -993,7 +993,9 @@ schema: 2
 - **Rulings** (2):
   - *2024-11-08* — Balmor's last ability affects only creatures you control at the time it resolves, including Balmor itself. Creatures you begin to control later in the turn or noncreature permanents that become creatures later won't get the bonus.
   - *2024-11-08* — Balmor's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#balmor-battlemage-captain)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,203 decks; highest synergy [Young Pyromancer](../../cards/Y/yo.md#young-pyromancer) (+50%), [Third Path Iconoclast](../../cards/T/thi.md#third-path-iconoclast) (+43%), [Warlord's Fury](../../cards/W/war.md#warlords-fury) (+42%) · EDHREC: in 74,651 decks; most often under [Narset, Enlightened Exile](../../cards/N/na.md#narset-enlightened-exile) (62.2% of its decks), [Bria, Riptide Rogue](../../cards/B/br.md#bria-riptide-rogue) (60.8% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (14.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/B.md#balmor-battlemage-captain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/237/balmor-battlemage-captain) · oracle_id `7da19fc5-cb85-4ec7-beea-95210378bbfe` · printing: FDN #237 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Balor

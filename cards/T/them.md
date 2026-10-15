@@ -621,6 +621,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2167 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-09-20* — If you somehow control more than one of The Mindskinner, the multiple replacement effects will have no effect. Damage dealt to an opponent by a source you control will be replaced only once with that opponent milling that many cards.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [The Mindskinner + Syr Konrad, the Grim](https://commanderspellbook.com/combo/1819-6003/) (Near-infinite mill) · EDHREC as commander: 12,031 decks; highest synergy [Ruin Crab](../../cards/R/ru.md#ruin-crab) (+66%), [Fractured Sanity](../../cards/F/fr.md#fractured-sanity) (+65%), [Maddening Cacophony](../../cards/M/mad.md#maddening-cacophony) (+63%) · EDHREC: in 64,317 decks; most often under [Captain N'ghathrod](../../cards/C/cap.md#captain-nghathrod) (42.9% of its decks), [The Wise Mothman](../../cards/T/thew.md#the-wise-mothman) (22.1% of its decks), [Umbris, Fear Manifest](../../cards/U/um.md#umbris-fear-manifest) (55.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-mindskinner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/66/the-mindskinner) · oracle_id `2e3ec514-fc9e-4964-a493-2a6cc9e63630` · printing: DSK #66 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

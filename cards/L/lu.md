@@ -968,6 +968,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1128 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-07-26* — The ability that defines Lumra's power and toughness functions in all zones, not just the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Lumra, Bellow of the Woods + Springheart Nantuko + Zuran Orb + Lotus Cobra](https://commanderspellbook.com/combo/1315-3470-5531-5702/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 8,947 decks; highest synergy [Zuran Orb](../../cards/Z/zu.md#zuran-orb) (+70%), [Lotus Field](../../cards/L/lo.md#lotus-field) (+67%), [Six](../../cards/S/si.md#six) (+67%) · EDHREC: in 130,763 decks; most often under [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (29.6% of its decks), [The Necrobloom](../../cards/T/then.md#the-necrobloom) (35.2% of its decks), [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (18.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [Lands / landfall: Lands from graveyard](../../EDH%20Packages.md#lands--landfall-lands-from-graveyard) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 edh guides · 2 card data) → [reverse index](../../references/L.md#lumra-bellow-of-the-woods)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/183/lumra-bellow-of-the-woods) · oracle_id `97a84e9d-bfc4-4ca2-b1e8-908dba56ccdb` · printing: BLB #183 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1756,7 +1758,9 @@ schema: 2
   - *2024-11-08* — Luxior can still be attacked even if it’s attached to a creature.
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#luxior-ignited)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Voltron (equipment & auras): Evasion & double strike](../../EDH%20Packages.md#voltron-equipment--auras-evasion--double-strike) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/L.md#luxior-ignited)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/606/luxior-ignited) · oracle_id `23b10fbe-8de0-4829-ac49-6ff425acca1e` · printing: MB2 #606 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Luxknight Breacher

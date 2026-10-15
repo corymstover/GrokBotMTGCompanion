@@ -2426,6 +2426,8 @@ schema: 2
   > Worzel, the Protector can be your commander.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #17338 · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 507 decks; highest synergy [Ajani Steadfast](../../cards/A/aj.md#ajani-steadfast) (+82%), [Elspeth, Sun's Champion](../../cards/E/el.md#elspeth-suns-champion) (+82%), [Elspeth, Storm Slayer](../../cards/E/el.md#elspeth-storm-slayer) (+77%) · EDHREC: in 3,187 decks; most often under [Commodore Guff](../../cards/C/com.md#commodore-guff) (11.3% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (3.0% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/5/worzel-the-protector) · oracle_id `15084803-8470-469b-8cd9-154c2341b96d` · printing: MBC #5 (2026-10-19) · [rulings](https://api.scryfall.com/cards/309a0207-41a3-4038-98c2-fc9badbf671c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wose Pathfinder

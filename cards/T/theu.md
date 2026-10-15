@@ -143,6 +143,8 @@ schema: 2
 - **Keywords:** Rulebreaker
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #22693 · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,013 decks; highest synergy [Swamp](../../cards/S/sw.md#swamp) (+88%), [Forest](../../cards/F/fo.md#forest) (+86%), [Island](../../cards/I/is.md#island) (+86%) · EDHREC: in 355 decks; most often under [Lynde, Cheerful Tormentor](../../cards/L/ly.md#lynde-cheerful-tormentor) (20.1% of its decks), [Ardenn, Intrepid Archaeologist // Vial Smasher the Fierce](../../cards/A/ard.md#ardenn-intrepid-archaeologist) (8.6% of its decks), [Kaima, the Fractured Calm](../../cards/K/ka.md#kaima-the-fractured-calm) (1.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/26/the-unluckiest-planeswalker) · oracle_id `c7ea2ce7-f684-44a2-94b2-d4aa7353f6fc` · printing: MBC #26 (2026-10-19) · [rulings](https://api.scryfall.com/cards/abaa08a6-62aa-4f2f-8be9-5950c2b32dc4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Unspeakable

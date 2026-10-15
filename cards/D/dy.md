@@ -61,6 +61,8 @@ schema: 2
   > Dyfed, the Guiding Hand can be your commander.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #26218 · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 115 decks; highest synergy [Seat of the Synod](../../cards/S/sea.md#seat-of-the-synod) (+54%), [Uthros, Titanic Godcore](../../cards/U/ut.md#uthros-titanic-godcore) (+51%), [Academy Ruins](../../cards/A/ac.md#academy-ruins) (+50%) · EDHREC: in 528 decks; most often under [Urza, Lord Protector](../../cards/U/ur.md#urza-lord-protector) (2.4% of its decks), [Kilo, Apogee Mind](../../cards/K/ki.md#kilo-apogee-mind) (0.4% of its decks), [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/7/dyfed-the-guiding-hand) · oracle_id `ab23a9e4-2d62-4b01-9d52-593de40811b0` · printing: MBC #7 (2026-10-19) · [rulings](https://api.scryfall.com/cards/067f5bb8-eff0-4b6f-8b2a-77c902f6584e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dying to Serve

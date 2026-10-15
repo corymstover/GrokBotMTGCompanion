@@ -675,7 +675,9 @@ schema: 2
 - **Rulings** (2):
   - *2006-05-01* — Spells you cast that are both blue and white cost {2} less to cast.
   - *2006-05-01* — This reduces only generic mana portion of mana costs. A spell you cast with mana cost {1}{W}{U} will cost {W}{U} to cast.
-- **Referenced in:** 3 pages (3 edh guides) → [reverse index](../../references/G.md#grand-arbiter-augustin-iv)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Appa, Steadfast Guardian + Restoration Angel + Pearl Medallion + Grand Arbiter Augustin IV](https://commanderspellbook.com/combo/1090-1895-5998-6867/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 14,206 decks; highest synergy [Aura of Silence](../../cards/A/au.md#aura-of-silence) (+53%), [Lavinia, Azorius Renegade](../../cards/L/la.md#lavinia-azorius-renegade) (+50%), [Ghostly Prison](../../cards/G/gh.md#ghostly-prison) (+48%) · EDHREC: in 77,197 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (11.6% of its decks), [Oloro, Ageless Ascetic](../../cards/O/ol.md#oloro-ageless-ascetic) (20.2% of its decks), [Hope Estheim](../../cards/H/ho.md#hope-estheim) (20.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (4 edh guides) → [reverse index](../../references/G.md#grand-arbiter-augustin-iv)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/221/grand-arbiter-augustin-iv) · oracle_id `1f8d4d5f-e82f-45f3-823e-1bb6b536eb18` · printing: 2X2 #221 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grand Architect
@@ -805,6 +807,8 @@ schema: 2
   - *2021-07-23* — The first ability of Grand Master of Flowers doesn't use the stack and can't be responded to. Similarly, players can't respond to paying the cost of adding loyalty counters for an ability. Therefore, if Grand Master of Flowers has six loyalty and you activate one of his abilities, he will be a 7/7 Dragon God with flying and indestructible before players can respond to the loyalty ability.
   - *2021-07-23* — While Grand Master of Flowers is a creature, he is not a planeswalker. He cannot be attacked and damage dealt to him while he is a creature will not reduce the number of loyalty counters he has. However, you may still activate his loyalty abilities as normal.
   - *2021-07-23* — You can activate the last ability of Grand Master of Flowers even if there isn't a card named Monk of the Open Hand in your library or graveyard.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 3,018 decks; most often under [Tiamat](../../cards/T/ti.md#tiamat) (1.3% of its decks), [Atreus, Impulsive Son // Kratos, Stoic Father](../../cards/A/at.md#atreus-impulsive-son) (0.9% of its decks), [Commodore Guff](../../cards/C/com.md#commodore-guff) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/17/grand-master-of-flowers) · oracle_id `1f3dbc53-4075-40b8-b70d-ce74d3ff5f6d` · printing: AFR #17 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grand Melee
@@ -2584,7 +2588,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2006 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2021-07-23* — Grazilaxx's first ability triggers before combat damage is dealt. If you choose to return the creature to your hand, it won't deal or receive combat damage.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#grazilaxx-illithid-scholar)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Goro-Goro and Satoru (Grixis)](../../grixis/decks/goro-goro-and-satoru.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 849 decks; highest synergy [Slither Blade](../../cards/S/sl.md#slither-blade) (+55%), [Triton Shorestalker](../../cards/T/tri.md#triton-shorestalker) (+50%), [Bident of Thassa](../../cards/B/bi.md#bident-of-thassa) (+48%) · EDHREC: in 81,632 decks; most often under [Captain N'ghathrod](../../cards/C/cap.md#captain-nghathrod) (79.8% of its decks), [Umbris, Fear Manifest](../../cards/U/um.md#umbris-fear-manifest) (65.6% of its decks), [Satoru Umezawa](../../cards/S/sat.md#satoru-umezawa) (41.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/G.md#grazilaxx-illithid-scholar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/723/grazilaxx-illithid-scholar) · oracle_id `d22ff377-d282-4a28-9dce-96f25913dc96` · printing: CLB #723 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grazing Gladehart

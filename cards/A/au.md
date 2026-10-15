@@ -845,7 +845,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1795 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-02-02* — For both triggered abilities, it doesn't matter what happens to the attacking creatures in response. As long as a player attacked with at least the appropriate number of creatures, the effects of Aurelia's triggered abilities will still occur.
-- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/A.md#aurelia-the-law-above)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Aurelia, the Warleader (Ravnica-only)](../../decks/plane-ravnica-aurelia-the-warleader.md) · [Saskia the Unyielding](../../decks/saskia-the-unyielding.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,685 decks; highest synergy [Firemane Commando](../../cards/F/fi.md#firemane-commando) (+54%), [Disrupt Decorum](../../cards/D/di.md#disrupt-decorum) (+44%), [Aurelia, the Warleader](../../cards/A/au.md#aurelia-the-warleader) (+43%) · EDHREC: in 89,261 decks; most often under [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (42.6% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (24.5% of its decks), [Sonic the Hedgehog](../../cards/S/so.md#sonic-the-hedgehog) (44.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/A.md#aurelia-the-law-above)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/188/aurelia-the-law-above) · oracle_id `2a800427-ff8c-4b3c-baee-85211b70656d` · printing: MKM #188 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aurelia, the Warleader

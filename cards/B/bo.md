@@ -468,7 +468,9 @@ schema: 2
   - *2020-02-29* — If B.O.B. gains loyalty, the Beeble you create is a 1/1 blue Beeble creature token.
   - *2020-02-29* — If you control Doubling Season or a similar card that applies “is an effect would create one or more tokens,” you’d create eight Beebles as B.O.B. enters the battlefield. However, because such cards apply only to effects and not costs, you’d still create only one Beeble if you activated B.O.B.’s first loyalty ability.
   - *2020-02-29* — Sacrificing Beebles to account for B.O.B.’s lost loyalty happens before state-based actions clean up the lethally-damaged Beebles. The one that blocked can heroically be the one you sacrifice. Farewell, brave Beeble. B.O.B.-speed.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bob-bevy-of-beebles)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/B.md#bob-bevy-of-beebles)
 - **Source flags:** [Scryfall](https://scryfall.com/card/und/18/bob-(bevy-of-beebles)) · oracle_id `c33af24f-3371-4af9-af33-940078d3cef2` · printing: UND #18 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bobby, Another Dwarf
@@ -3921,6 +3923,8 @@ schema: 2
   - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
   - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
   - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 16 combos; most popular [Ratadrabik of Urborg + Boromir, Warden of the Tower](https://commanderspellbook.com/combo/2523-3213/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 179 decks; highest synergy [Horn of Gondor](../../cards/H/ho.md#horn-of-gondor) (+34%), [Vanquish the Horde](../../cards/V/va.md#vanquish-the-horde) (+33%), [Faramir, Field Commander](../../cards/F/fa.md#faramir-field-commander) (+29%) · EDHREC: in 170,187 decks; most often under [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (39.6% of its decks), [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (59.0% of its decks), [Éowyn, Shieldmaiden](../../cards/E/eo.md#éowyn-shieldmaiden) (52.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 edh guides · 2 card data) → [reverse index](../../references/B.md#boromir-warden-of-the-tower)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/4/boromir-warden-of-the-tower) · oracle_id `d72b57e5-1c6e-4f02-968f-7e2dd24f0d3c` · printing: LTR #4 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

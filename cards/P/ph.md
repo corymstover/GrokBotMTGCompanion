@@ -1003,6 +1003,8 @@ schema: 2
   - *2024-06-07* — If the permanent that returns to the battlefield has any abilities that trigger at the beginning of the end step, those abilities won't trigger that turn.
   - *2024-06-07* — Phelia is a good dog.
   - *2024-06-07* — The exiled card will return to the battlefield at the beginning of the end step even if Phelia is no longer on the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 7 combos; most popular [Timestream Navigator + Recruiter of the Guard + Phelia, Exuberant Shepherd](https://commanderspellbook.com/combo/1061-5625-7679/) (Infinite turns, Lock) · EDHREC as commander: 4,298 decks; highest synergy [Spirited Companion](../../cards/S/spi.md#spirited-companion) (+69%), [Ephemerate](../../cards/E/ep.md#ephemerate) (+59%), [Flickerwisp](../../cards/F/fl.md#flickerwisp) (+52%) · EDHREC: in 99,590 decks; most often under [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (34.0% of its decks), [Ketramose, the New Dawn](../../cards/K/ke.md#ketramose-the-new-dawn) (56.9% of its decks), [Sophia, Dogged Detective](../../cards/S/so.md#sophia-dogged-detective) (65.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#phelia-exuberant-shepherd)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/40/phelia-exuberant-shepherd) · oracle_id `5d86a59a-ba1f-45f7-b829-dca6f9f3e624` · printing: MH3 #40 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

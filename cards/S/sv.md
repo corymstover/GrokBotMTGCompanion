@@ -41,6 +41,9 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
 - **Rulings** (1):
   - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Lands / landfall: Landfall payoffs](../../EDH%20Packages.md#lands--landfall-landfall-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#svega-the-unconventional)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ph22/4/svega-the-unconventional) · oracle_id `fe68fca9-7975-4ad6-a49e-1ed78b815511` · printing: PH22 #4 (2023-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Svella, Ice Shaper

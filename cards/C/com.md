@@ -427,7 +427,9 @@ schema: 2
   - *2022-10-07* — Results can be numbers not ordinarily possible on a six-sided die. Spells like Scooch can change the result to 0 or 7, for example.
   - *2022-10-07* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die, or it may come from other cards. Anything that references the "result" of a die roll is looking for the result after these modifications.
   - *2022-10-07* — Something in the game must tell you to roll a die. If you roll a die for any other reason (to simulate a coin flip, to choose pizza toppings, to create alternate timelines), that roll doesn't count.
-- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/C.md#comet-stellar-pup)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 23,801 decks; most often under [Mr. House, President and CEO](../../cards/M/mr.md#mr-house-president-and-ceo) (69.4% of its decks), [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (3.8% of its decks), [Commodore Guff](../../cards/C/com.md#commodore-guff) (11.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 edh guides · 2 card data) → [reverse index](../../references/C.md#comet-stellar-pup)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/166/comet-stellar-pup) · oracle_id `e7c67480-1816-4071-9eab-a1d1b535a344` · printing: UNF #166 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Comet Storm
@@ -998,6 +1000,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6494 · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
 - **Rulings** (1):
   - *2023-07-28* — The value of X is determined as Commodore Guff's third ability resolves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7,746 decks; highest synergy [Oath of Teferi](../../cards/O/oa.md#oath-of-teferi) (+90%), [Chandra, Legacy of Fire](../../cards/C/cha.md#chandra-legacy-of-fire) (+86%), [Interplanar Beacon](../../cards/I/int.md#interplanar-beacon) (+84%) · EDHREC: in 16,161 decks; most often under [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (12.2% of its decks), [Leori, Sparktouched Hunter](../../cards/L/le.md#leori-sparktouched-hunter) (68.1% of its decks), [Jared Carthalion](../../cards/J/ja.md#jared-carthalion) (20.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/C.md#commodore-guff)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/706/commodore-guff) · oracle_id `7e5a7a1d-dcfb-4ab8-b773-f521cb4d3fa6` · printing: CMM #706 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

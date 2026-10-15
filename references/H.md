@@ -1334,7 +1334,7 @@ schema: 2
 [Card entry](../cards/H/ho.md#honest-rutstein) · **2 pages** (decks 1 · edh guides 1)
 
 - **Decks (1):** [Karador, Ghost Chieftain](../decks/karador-ghost-chieftain.md)
-- **EDH guides (1):** [EDH Packages → Graveyard: Recursion to hand](../EDH%20Packages.md#graveyard-recursion-to-hand)
+- **EDH guides (1):** [EDH Packages → Ramp: Cost reducers](../EDH%20Packages.md#ramp-cost-reducers) (+1 more)
 
 ### Honor
 

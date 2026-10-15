@@ -218,6 +218,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-12-08* — Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to an Angel you control may become lethal if Lyra leaves the battlefield during that turn.
   - *2022-12-08* — Multiple instances of lifelink on the same creature are redundant.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Giada, Font of Hope](../../decks/giada-font-of-hope.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,610 decks; highest synergy [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (+76%), [Righteous Valkyrie](../../cards/R/ri.md#righteous-valkyrie) (+56%), [Angel of Vitality](../../cards/A/an.md#angel-of-vitality) (+54%) · EDHREC: in 92,600 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (88.7% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (26.7% of its decks), [Shilgengar, Sire of Famine](../../cards/S/shi.md#shilgengar-sire-of-famine) (70.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/L.md#lyra-dawnbringer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/738/lyra-dawnbringer) · oracle_id `592c91fc-6430-4c76-9460-65f047350f67` · printing: FDN #738 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

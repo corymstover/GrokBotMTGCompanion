@@ -128,9 +128,10 @@ schema: 2
 
 ### Wan Shi Tong, Librarian
 
-[Card entry](../cards/W/wan.md#wan-shi-tong-librarian) · **4 pages** (decks 3 · card data 1)
+[Card entry](../cards/W/wan.md#wan-shi-tong-librarian) · **5 pages** (decks 3 · edh guides 1 · card data 1)
 
 - **Decks (3):** [Evelyn, the Covetous (Grixis)](../grixis/decks/evelyn-the-covetous.md) · [Fire Lord Azula (Grixis)](../grixis/decks/fire-lord-azula.md) · [Marchesa, Dealer of Death (Grixis)](../grixis/decks/marchesa-dealer-of-death.md)
+- **EDH guides (1):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents)
 - **Card data (1):** [Artist Index → Artists R](../Artist%20Index.md#artists-r)
 
 ### Warbriar Blessing

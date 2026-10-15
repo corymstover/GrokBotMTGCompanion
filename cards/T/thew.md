@@ -87,6 +87,8 @@ schema: 2
   - *2025-10-02* — A battle with indestructible still loses defense counters as it's dealt damage. If it's a Siege, it will still be exiled when the last defense counter is removed from it, and its controller may still cast it transformed without paying its mana cost.
   - *2025-10-02* — A planeswalker with indestructible still loses loyalty as it's dealt damage. It is put into its owner's graveyard if its loyalty becomes 0.
   - *2025-10-02* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature you control may become lethal if The Walls of Ba Sing Se leave the battlefield during that turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 6 combos; most popular [Phenax, God of Deception + The Walls of Ba Sing Se + Freed from the Real](https://commanderspellbook.com/combo/1055-4222-7059/) (Near-infinite mill, Near-infinite self-mill) · EDHREC as commander: 1,513 decks; highest synergy [Walking Bulwark](../../cards/W/wal.md#walking-bulwark) (+72%), [Shield-Wall Sentinel](../../cards/S/shi.md#shield-wall-sentinel) (+52%), [Warmonger's Chariot](../../cards/W/war.md#warmongers-chariot) (+51%) · EDHREC: in 86,624 decks; most often under [Felothar the Steadfast](../../cards/F/fe.md#felothar-the-steadfast) (62.2% of its decks), [Arcades, the Strategist](../../cards/A/arc.md#arcades-the-strategist) (63.7% of its decks), [Doran, Besieged by Time](../../cards/D/do.md#doran-besieged-by-time) (43.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/T.md#the-walls-of-ba-sing-se)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/261/the-walls-of-ba-sing-se) · oracle_id `af7d7da5-aff5-48e1-901a-f81257a85f71` · printing: TLA #261 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -121,6 +123,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5525 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-02-18* — You may still only activate one of The Wandering Emperor's loyalty abilities on the turn she entered the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Isshin, Two Heavens as One (Kamigawa-only)](../../decks/plane-kamigawa-isshin-two-heavens-as-one.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 28,877 decks; most often under [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (6.1% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (3.5% of its decks), [Commodore Guff](../../cards/C/com.md#commodore-guff) (13.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/T.md#the-wandering-emperor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/42/the-wandering-emperor) · oracle_id `0c7f18d5-36cb-4bc6-a358-443b97666215` · printing: NEO #42 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
