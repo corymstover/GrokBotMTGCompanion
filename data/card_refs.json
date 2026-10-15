@@ -2758,9 +2758,9 @@
 },
 "092ceffb-1ee4-452c-b15e-5b79267d42a6": {
 "name": "Angrath, the Flame-Chained",
-"n": 2,
+"n": 3,
 "kinds": {
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/A.md#angrath-the-flame-chained"
@@ -4194,9 +4194,9 @@
 },
 "0dfdf1a1-a3a9-490f-bd9d-dcba088c6785": {
 "name": "Teyo, Geometric Tactician",
-"n": 2,
+"n": 3,
 "kinds": {
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/T.md#teyo-geometric-tactician"
@@ -4552,11 +4552,11 @@
 },
 "0f41cefc-d6ff-4db7-ba35-502b7e081de1": {
 "name": "Venser, Shaper Savant",
-"n": 4,
+"n": 5,
 "kinds": {
 "deck": 1,
 "edh": 1,
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/V.md#venser-shaper-savant"
@@ -7179,9 +7179,9 @@
 },
 "17c934a7-3480-4309-a217-ca2550538ae7": {
 "name": "Venser, Corpse Puppet",
-"n": 2,
+"n": 3,
 "kinds": {
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/V.md#venser-corpse-puppet"
@@ -11403,9 +11403,9 @@
 },
 "2737a78c-77ed-4bd0-ac0d-39ca2d816e83": {
 "name": "Angrath, Minotaur Pirate",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/A.md#angrath-minotaur-pirate"
 },
@@ -14836,9 +14836,9 @@
 },
 "333c15c6-c8fd-4cdd-89d2-06b921edeb8b": {
 "name": "Rowan, Scion of War",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/R.md#rowan-scion-of-war"
 },
@@ -25690,9 +25690,9 @@
 },
 "596237da-3d51-4052-a8ca-2218efc1afb3": {
 "name": "Dovin, Grand Arbiter",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/D.md#dovin-grand-arbiter"
 },
@@ -26118,9 +26118,9 @@
 },
 "5b33bfbf-e4e1-43de-9c96-ccdc2916510a": {
 "name": "Dovin Baan",
-"n": 3,
+"n": 4,
 "kinds": {
-"lore": 2,
+"lore": 3,
 "cards": 1
 },
 "index": "references/D.md#dovin-baan"
@@ -29673,10 +29673,10 @@
 },
 "67d66678-a8e6-4f80-bade-1f1daf4b0610": {
 "name": "Ashiok, Wicked Manipulator",
-"n": 3,
+"n": 4,
 "kinds": {
 "deck": 1,
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/A.md#ashiok-wicked-manipulator"
@@ -34254,9 +34254,9 @@
 },
 "77a9fac6-3c26-4456-9e0b-f5839a3dcae2": {
 "name": "Teyo, Lightshield Expert",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/T.md#teyo-lightshield-expert"
 },
@@ -41738,10 +41738,10 @@
 },
 "93723b12-db34-4047-885e-8606415b1553": {
 "name": "Ashiok, Dream Render",
-"n": 7,
+"n": 8,
 "kinds": {
 "deck": 4,
-"lore": 1,
+"lore": 2,
 "cards": 2
 },
 "index": "references/A.md#ashiok-dream-render"
@@ -41935,9 +41935,9 @@
 },
 "942a318e-90eb-4f10-bb30-2e10f5cc922a": {
 "name": "Xenagos, the Reveler",
-"n": 2,
+"n": 3,
 "kinds": {
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/X.md#xenagos-the-reveler"
@@ -42357,9 +42357,9 @@
 },
 "95bbe04c-bcea-461d-9946-6c1a35dfbeb1": {
 "name": "Dovin, Hand of Control",
-"n": 3,
+"n": 4,
 "kinds": {
-"lore": 2,
+"lore": 3,
 "cards": 1
 },
 "index": "references/D.md#dovin-hand-of-control"
@@ -43968,9 +43968,9 @@
 },
 "9b1ae6d8-0cf3-4a67-9241-37f4bc5ddbdd": {
 "name": "Venser, Fervent Forger",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/V.md#venser-fervent-forger"
 },
@@ -46029,9 +46029,9 @@
 },
 "a3386efe-d6c5-4853-a4db-61460da3364a": {
 "name": "Dovin, Architect of Law",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/D.md#dovin-architect-of-law"
 },
@@ -46256,9 +46256,9 @@
 },
 "a3bfbe1a-7831-45bd-9e42-790c28f6054c": {
 "name": "Teyo, Diamondblade Mage",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/T.md#teyo-diamondblade-mage"
 },
@@ -47627,10 +47627,10 @@
 },
 "a8bf8ff8-d924-4fd2-b5ed-05b38f55325a": {
 "name": "Venser, the Sojourner",
-"n": 3,
+"n": 4,
 "kinds": {
 "edh": 1,
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/V.md#venser-the-sojourner"
@@ -51439,9 +51439,9 @@
 },
 "b6f52260-9ad5-4024-acf9-d77f3c08c872": {
 "name": "Ashiok, Nightmare Weaver",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/A.md#ashiok-nightmare-weaver"
 },
@@ -56792,11 +56792,11 @@
 },
 "cb15a8dd-57fe-466f-847e-66476b690a1f": {
 "name": "Xenagos, God of Revels",
-"n": 4,
+"n": 5,
 "kinds": {
 "deck": 1,
 "edh": 1,
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/X.md#xenagos-god-of-revels"
@@ -57460,9 +57460,9 @@
 },
 "cd83f886-c651-4ad7-82ca-2446c60c8f94": {
 "name": "Rowan, Fearless Sparkmage",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/R.md#rowan-fearless-sparkmage"
 },
@@ -57493,9 +57493,9 @@
 },
 "cda93cf5-da51-4117-b461-f4448aa2d16c": {
 "name": "Teyo, the Shieldmage",
-"n": 4,
+"n": 5,
 "kinds": {
-"lore": 2,
+"lore": 3,
 "cards": 2
 },
 "index": "references/T.md#teyo-the-shieldmage"
@@ -57661,9 +57661,9 @@
 },
 "ce79bbd2-edf0-4d5e-9aaf-717ec3960c48": {
 "name": "Ashiok, Sculptor of Fears",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/A.md#ashiok-sculptor-of-fears"
 },
@@ -62176,9 +62176,9 @@
 },
 "dd06c11c-c4fd-414e-ac63-5556f31491f5": {
 "name": "Rowan, Scholar of Sparks // Will, Scholar of Frost",
-"n": 2,
+"n": 3,
 "kinds": {
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/R.md#rowan-scholar-of-sparks--will-scholar-of-frost"
@@ -62442,9 +62442,9 @@
 },
 "de08f5d4-8868-4d0f-8c0e-d0d3a2105581": {
 "name": "Angrath, Captain of Chaos",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/A.md#angrath-captain-of-chaos"
 },
@@ -63357,10 +63357,10 @@
 },
 "e191976c-6ab1-4a23-aeb8-8a88bd4bd203": {
 "name": "Rowan Kenrith",
-"n": 3,
+"n": 4,
 "kinds": {
 "edh": 1,
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/R.md#rowan-kenrith"
@@ -66128,9 +66128,9 @@
 },
 "ebc9ff52-c914-4c48-9d35-0e4cd07741cb": {
 "name": "Ashiok, Nightmare Muse",
-"n": 2,
+"n": 3,
 "kinds": {
-"lore": 1,
+"lore": 2,
 "cards": 1
 },
 "index": "references/A.md#ashiok-nightmare-muse"
@@ -66490,9 +66490,10 @@
 },
 "ecfbebc9-7fc7-474e-8c59-8ede800e082e": {
 "name": "Crucible of the Spirit Dragon",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 1,
+"lore": 1
 },
 "index": "references/C.md#crucible-of-the-spirit-dragon"
 },
@@ -68640,9 +68641,9 @@
 },
 "f4a64308-5f24-47c0-83f9-ee16a3b4f143": {
 "name": "Venser, Visionary Traveler",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/V.md#venser-visionary-traveler"
 },

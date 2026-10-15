@@ -43,18 +43,18 @@ schema: 2
 
 ### Xenagos, God of Revels
 
-[Card entry](../cards/X/xe.md#xenagos-god-of-revels) · **4 pages** (decks 1 · edh guides 1 · lore & story 1 · card data 1)
+[Card entry](../cards/X/xe.md#xenagos-god-of-revels) · **5 pages** (decks 1 · edh guides 1 · lore & story 2 · card data 1)
 
 - **Decks (1):** [Xenagos, God of Revels](../decks/xenagos-god-of-revels.md)
 - **EDH guides (1):** [EDH Upgrade Paths → Xenagos, God of Revels](../EDH%20Upgrade%20Paths.md#xenagos-god-of-revels)
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Artist Index → Artists A](../Artist%20Index.md#artists-a)
 
 ### Xenagos, the Reveler
 
-[Card entry](../cards/X/xe.md#xenagos-the-reveler) · **2 pages** (lore & story 1 · card data 1)
+[Card entry](../cards/X/xe.md#xenagos-the-reveler) · **3 pages** (lore & story 2 · card data 1)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Xenic Poltergeist

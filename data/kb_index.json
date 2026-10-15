@@ -1176,8 +1176,8 @@
 "Master Timeline.md",
 "Planes Index.md",
 "Contradictions & Retcons Log.md",
-"Lore Primary Sources.md",
-"Items & Artifacts Index.md"
+"Items & Artifacts Index.md",
+"Lore Primary Sources.md"
 ]
 },
 {
@@ -1373,6 +1373,21 @@
 ],
 [
 2,
+"Added Bot cycle 30",
+"added-bot-cycle-30"
+],
+[
+3,
+"Which \"Ashiok\" is Ashiok? (2023–24)",
+"which-ashiok-is-ashiok-202324"
+],
+[
+3,
+"Venser: dead in canon, alive in the Echoverse",
+"venser-dead-in-canon-alive-in-the-echoverse"
+],
+[
+2,
 "Queue for later cycles",
 "queue-for-later-cycles"
 ],
@@ -1389,8 +1404,8 @@
 "related": [
 "Conflicts & Arcs.md",
 "Characters Index.md",
-"Items & Artifacts Index.md",
 "Planeswalker Dossiers.md",
+"Items & Artifacts Index.md",
 "Planes Index.md",
 "Master Timeline.md"
 ]
@@ -3836,6 +3851,11 @@
 "singularity-beads-eoe"
 ],
 [
+3,
+"A piece of the House (Duskmourn)",
+"a-piece-of-the-house-duskmourn"
+],
+[
 2,
 "Spells & world-scale magic",
 "spells--world-scale-magic"
@@ -3851,6 +3871,11 @@
 "realmbreaker-the-invasion-tree"
 ],
 [
+3,
+"Stormnexus Ritual & the Crucible of the Spirit Dragon (Tarkir)",
+"stormnexus-ritual--the-crucible-of-the-spirit-dragon-tarkir"
+],
+[
 2,
 "Queue",
 "queue"
@@ -3863,7 +3888,8 @@
 "Conflicts & Arcs.md",
 "Contradictions & Retcons Log.md",
 "Planes Index.md",
-"Lore Primary Sources.md"
+"Lore Primary Sources.md",
+"Planeswalker Dossiers.md"
 ]
 },
 {
@@ -4842,6 +4868,41 @@
 ],
 [
 2,
+"Dovin Baan",
+"dovin-baan"
+],
+[
+2,
+"Angrath",
+"angrath"
+],
+[
+2,
+"Venser",
+"venser"
+],
+[
+2,
+"Xenagos",
+"xenagos"
+],
+[
+2,
+"Ashiok",
+"ashiok"
+],
+[
+2,
+"Rowan & Will Kenrith",
+"rowan--will-kenrith"
+],
+[
+2,
+"Teyo Verada",
+"teyo-verada"
+],
+[
+2,
 "Spark & allegiance summary",
 "spark--allegiance-summary"
 ],
@@ -4860,7 +4921,7 @@
 "EDH Lore-Themed Deckbuilding.md",
 "Planes Index.md",
 "Art & Flavor Story Links.md",
-"Lore Primary Sources.md"
+"Items & Artifacts Index.md"
 ]
 },
 {
@@ -4942,6 +5003,11 @@
 ],
 [
 2,
+"Phase 6 status",
+"phase-6-status"
+],
+[
+2,
 "Milestones & tags",
 "milestones--tags"
 ]
@@ -4949,11 +5015,11 @@
 "issues": [],
 "related": [
 "Front-Matter Schema.md",
+"ROADMAP.md",
 "EDH Lore-Themed Deckbuilding.md",
 "Knowledge Index.md",
-"ROADMAP.md",
-"Artist Index.md",
-"EDH Archetypes.md"
+"Update Log.md",
+"Artist Index.md"
 ]
 },
 {
@@ -4985,16 +5051,21 @@
 2,
 "Phase 6",
 "phase-6"
+],
+[
+3,
+"Phase 6 status (Bot cycle 30, 2026-10-15)",
+"phase-6-status-bot-cycle-30-2026-10-15"
 ]
 ],
 "issues": [],
 "related": [
 "Front-Matter Schema.md",
+"Progress Tracker.md",
 "EDH Lore-Themed Deckbuilding.md",
 "Items & Artifacts Index.md",
 "Lookup Guide.md",
-"Lore Primary Sources.md",
-"Planeswalker Dossiers.md"
+"Lore Primary Sources.md"
 ]
 },
 {
@@ -5500,6 +5571,11 @@
 "headings": [
 [
 2,
+"2026-10-15 — Bot cycle 30 (Phase 6: final dossiers, status, snapshot)",
+"2026-10-15--bot-cycle-30-phase-6-final-dossiers-status-snapshot"
+],
+[
+2,
 "2026-10-15 — Bot cycle 29 (Phase 6: dossiers, Omenpath-era planes, items)",
 "2026-10-15--bot-cycle-29-phase-6-dossiers-omenpath-era-planes-items"
 ],
@@ -5648,9 +5724,9 @@
 "related": [
 "Contradictions & Retcons Log.md",
 "Planeswalker Dossiers.md",
+"Items & Artifacts Index.md",
 "Lore Primary Sources.md",
 "Planes Index.md",
-"Items & Artifacts Index.md",
 "Knowledge Index.md"
 ]
 },

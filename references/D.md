@@ -2129,28 +2129,28 @@ schema: 2
 
 ### Dovin, Architect of Law
 
-[Card entry](../cards/D/do.md#dovin-architect-of-law) · **1 pages** (lore & story 1)
+[Card entry](../cards/D/do.md#dovin-architect-of-law) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Dovin Baan
 
-[Card entry](../cards/D/do.md#dovin-baan) · **3 pages** (lore & story 2 · card data 1)
+[Card entry](../cards/D/do.md#dovin-baan) · **4 pages** (lore & story 3 · card data 1)
 
-- **Lore & story (2):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
 
 ### Dovin, Grand Arbiter
 
-[Card entry](../cards/D/do.md#dovin-grand-arbiter) · **1 pages** (lore & story 1)
+[Card entry](../cards/D/do.md#dovin-grand-arbiter) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Dovin, Hand of Control
 
-[Card entry](../cards/D/do.md#dovin-hand-of-control) · **3 pages** (lore & story 2 · card data 1)
+[Card entry](../cards/D/do.md#dovin-hand-of-control) · **4 pages** (lore & story 3 · card data 1)
 
-- **Lore & story (2):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Artist Index → Artists N](../Artist%20Index.md#artists-n)
 
 ### Dovin's Veto

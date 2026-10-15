@@ -2792,7 +2792,7 @@ schema: 2
   - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Zombies, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't a Zombie, it becomes a Zombie in addition to its other types.
   - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
   - *2023-06-16* — To amass Zombies N, if you don't control an Army creature, create a 0/0 black Zombie Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Zombie, it becomes a Zombie in addition to its other types.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#angrath-captain-of-chaos)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/A.md#angrath-captain-of-chaos)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/227/angrath-captain-of-chaos) · oracle_id `de08f5d4-8868-4d0f-8c0e-d0d3a2105581` · printing: WAR #227 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Angrath, Minotaur Pirate
@@ -2811,7 +2811,7 @@ schema: 2
   - *2018-01-19* — Any abilities of the destroyed creatures that trigger when the player is dealt damage won't trigger.
   - *2018-01-19* — Any abilities that trigger when creatures die while resolving Angrath's last ability won't be put on the stack until after the player is dealt damage. If the player's life total becomes 0 or less, those triggers won't resolve in time to save that player.
   - *2018-01-19* — If a creature controlled by the target opponent isn't destroyed as Angrath's last ability resolves (most likely because it has indestructible), its power still contributes to the amount of damage dealt. Use its power as it currently exists on the battlefield to determine the total power of the creatures.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#angrath-minotaur-pirate)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/A.md#angrath-minotaur-pirate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/201/angrath-minotaur-pirate) · oracle_id `2737a78c-77ed-4bd0-ac0d-39ca2d816e83` · printing: RIX #201 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Angrath's Ambusher
@@ -2887,7 +2887,7 @@ schema: 2
   - *2018-01-19* — In a Two-Headed Giant game, Angrath’s first ability causes the opposing team to lose 4 life, and each player on that team discards a card. His last ability causes the opposing team to lose life equal to the number of cards in both graveyards.
   - *2018-01-19* — Whether the target creature has mana value 3 or less is checked only as the delayed triggered ability from Angrath’s second ability resolves during the end step.
   - *2018-01-19* — You can target and gain control of an untapped creature with Angrath’s second ability. You can also untap a creature you already control and give it haste.
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/A.md#angrath-the-flame-chained)
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/A.md#angrath-the-flame-chained)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/152/angrath-the-flame-chained) · oracle_id `092ceffb-1ee4-452c-b15e-5b79267d42a6` · printing: RIX #152 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Angry Mob

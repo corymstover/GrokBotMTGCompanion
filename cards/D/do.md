@@ -2609,7 +2609,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-01-25* — Dovin’s second ability can target a creature that’s already tapped. That creature won’t untap during its controller’s next untap step.
   - *2019-01-25* — In a Two-Headed Giant game, if a player is instructed to skip their next untap step, the entire team skips that step.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#dovin-architect-of-law)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/D.md#dovin-architect-of-law)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/265/dovin-architect-of-law) · oracle_id `a3386efe-d6c5-4853-a4db-61460da3364a` · printing: RNA #265 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dovin Baan
@@ -2626,7 +2626,7 @@ schema: 2
   - *2016-09-20* — Activated abilities contain a colon. They're generally written “[Cost]: [Effect].” Some keywords are activated abilities and will have colons in their reminder text.
   - *2016-09-20* — An opponent affected by Dovin Baan's emblem chooses which two of their permanents to untap, not you.
   - *2016-09-20* — Dovin Baan's first ability can target any creature, not just one with an activated ability. It can also be activated targeting no creature at all.
-- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/D.md#dovin-baan)
+- **Referenced in:** 4 pages (3 lore & story · 1 card data) → [reverse index](../../references/D.md#dovin-baan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/179/dovin-baan) · oracle_id `5b33bfbf-e4e1-43de-9c96-ccdc2916510a` · printing: KLD #179 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dovin, Grand Arbiter
@@ -2642,7 +2642,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-01-25* — If you have fewer than ten cards in your library as Dovin's last ability resolves, look at however many cards you have, put three of them into your hand (or all of them if you have fewer than three cards in your library), and then put the rest back in a random order.
   - *2019-01-25* — The delayed triggered ability created by Dovin's first ability triggers for each creature you control that deals combat damage to a player this turn. Dovin gets only one loyalty counter as each ability resolves, no matter how much damage was dealt.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#dovin-grand-arbiter)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/D.md#dovin-grand-arbiter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/153/dovin-grand-arbiter) · oracle_id `596237da-3d51-4052-a8ca-2218efc1afb3` · printing: VOC #153 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dovin, Hand of Control
@@ -2658,7 +2658,7 @@ schema: 2
   - *2019-05-03* — Dovin’s loyalty ability can target any permanent an opponent controls, not just one that can deal or be dealt damage.
   - *2019-05-03* — In a multiplayer game, if you leave the game after Dovin’s last ability resolves but before your next turn begins, its effect lasts until your next turn would have begun. It neither expires immediately nor lasts indefinitely.
   - *2019-05-03* — Once Dovin’s loyalty ability resolves, the damage prevention continues to apply even if Dovin leaves the battlefield.
-- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/D.md#dovin-hand-of-control)
+- **Referenced in:** 4 pages (3 lore & story · 1 card data) → [reverse index](../../references/D.md#dovin-hand-of-control)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/229/dovin-hand-of-control) · oracle_id `95bbe04c-bcea-461d-9946-6c1a35dfbeb1` · printing: WAR #229 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dovin's Acuity

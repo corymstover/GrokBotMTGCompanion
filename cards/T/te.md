@@ -5189,7 +5189,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28305 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-08-21* — If the target permanent is somehow both a creature and a planeswalker as Teyo's last ability resolves, it will get both kinds of counters.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#teyo-diamondblade-mage)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/T.md#teyo-diamondblade-mage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/236/teyo-diamondblade-mage) · oracle_id `a3bfbe1a-7831-45bd-9e42-790c28f6054c` · printing: FRA #236 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Teyo, Geometric Tactician
@@ -5207,7 +5207,7 @@ schema: 2
   - *2023-07-28* — In a multiplayer game, players may use any mutually agreeable method to determine seating order after they've chosen decks but before the game begins. If players can't agree, they should be seated randomly.
   - *2023-07-28* — Teyo, Geometric Tactician's last ability affects only what players and planeswalkers each player may attack. It doesn't affect what players may be targeted by spells or abilities or other interactions.
   - *2023-07-28* — Teyo, Geometric Tactician's last ability doesn't affect creatures that enter the battlefield attacking.
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/T.md#teyo-geometric-tactician)
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/T.md#teyo-geometric-tactician)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/725/teyo-geometric-tactician) · oracle_id `0dfdf1a1-a3a9-490f-bd9d-dcba088c6785` · printing: CMM #725 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Teyo, Lightshield Expert
@@ -5222,7 +5222,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19660 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-08-21* — If the target permanent is somehow both a creature and a planeswalker as Teyo's last ability resolves, it will get both kinds of counters.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#teyo-lightshield-expert)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/T.md#teyo-lightshield-expert)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/204/teyo-lightshield-expert) · oracle_id `77a9fac6-3c26-4456-9e0b-f5839a3dcae2` · printing: FRA #204 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Teyo's Lightshield
@@ -5249,7 +5249,7 @@ schema: 2
   > −2: Create a 0/3 white Wall creature token with defender.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8976 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 4 pages (2 lore & story · 2 card data) → [reverse index](../../references/T.md#teyo-the-shieldmage)
+- **Referenced in:** 5 pages (3 lore & story · 2 card data) → [reverse index](../../references/T.md#teyo-the-shieldmage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/32/teyo-the-shieldmage) · oracle_id `cda93cf5-da51-4117-b461-f4448aa2d16c` · printing: WAR #32 (2019-05-03) · [rulings](https://api.scryfall.com/cards/a974571c-d8d5-4860-9077-2023e5f32a24/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Teysa, Envoy of Ghosts

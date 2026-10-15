@@ -5,7 +5,7 @@ tags: [retcons, contradictions, canon]
 issues: [73, 76]
 generated_by: hand-written
 sources: [wizards-story]
-related: ["Conflicts & Arcs.md", "Characters Index.md", "Items & Artifacts Index.md", "Planeswalker Dossiers.md", "Planes Index.md", "Master Timeline.md"]
+related: ["Conflicts & Arcs.md", "Characters Index.md", "Planeswalker Dossiers.md", "Items & Artifacts Index.md", "Planes Index.md", "Master Timeline.md"]
 schema: 2
 ---
 
@@ -52,6 +52,9 @@ schema: 2
 - [Added Bot cycle 29](#added-bot-cycle-29)
   - [Who made the sylex?](#who-made-the-sylex)
   - [Vraska's spark after compleation](#vraskas-spark-after-compleation)
+- [Added Bot cycle 30](#added-bot-cycle-30)
+  - [Which "Ashiok" is Ashiok? (2023–24)](#which-ashiok-is-ashiok-202324)
+  - [Venser: dead in canon, alive in the Echoverse](#venser-dead-in-canon-alive-in-the-echoverse)
 - [Queue for later cycles](#queue-for-later-cycles)
 - [Open / do-not-resolve](#open--do-not-resolve)
 
@@ -332,6 +335,27 @@ Dossier, plane and items pass ([#74](https://github.com/corymstover/GrokBotMTGCo
 | **Later / overriding statement** | "Fused with metal and corrupted beyond recognition, somehow Vraska has returned to her former body and former self—only without her Planeswalker's spark" ([A Legendary Crew (OTJ)](https://magic.wizards.com/en/news/feature/a-legendary-crew-for-an-unbelievable-heist-outlaws-of-thunder-junction)). |
 | **KB treatment** | Vraska = spark lost (✅). The Characters Index sparks table and the dossier summary are updated. |
 | **Related** | [Dossiers → Vraska](Planeswalker%20Dossiers.md#vraska) · [Characters → Sparks after the invasion](Characters%20Index.md#sparks-after-the-phyrexian-invasion) |
+
+## Added Bot cycle 30
+Final dossier batch ([#74](https://github.com/corymstover/GrokBotMTGCompanion/issues/74), [#76](https://github.com/corymstover/GrokBotMTGCompanion/issues/76)). Every quote below was checked verbatim against the fetched text.
+
+### Which "Ashiok" is Ashiok? (2023–24)
+| Field | Detail |
+|---|---|
+| **Type** | ⚠️ partly resolved (disguise reveal) |
+| **Earlier statement** | Official OTJ copy names the patron as Ashiok: Eriette was "freed by the mysterious Planeswalker Ashiok," and "Vraska's here on Ashiok's behalf" ([A Legendary Crew (OTJ)](https://magic.wizards.com/en/news/feature/a-legendary-crew-for-an-unbelievable-heist-outlaws-of-thunder-junction)). |
+| **Later / overriding statement** | Bloomburrow reveals that Jace was believed dead, but "he'd instead been masquerading as the nightmarish Ashiok so he could steal some kind of weird animal" ([BLB Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-calamity-comes-to-valley)); "Jace as Ashiok smiles without eyes" at Eriette's cell ([OTJ Epilogue 2](https://magic.wizards.com/en/news/magic-story/epilogue-2-bring-the-end-part-2)). |
+| **KB treatment** | The OTJ-era "Ashiok" who works with Eriette, Oko and Vraska is Jace. The real Ashiok's last confirmed appearances are THB (2020), *A Garden of Flesh* (2022) and the BRO letter to Elspeth (2022). ❓ Whether every WOE "Ashiok" scene was Jace is not stated outright. |
+| **Related** | [Dossiers → Ashiok](Planeswalker%20Dossiers.md#ashiok) · [Dossiers → Jace Beleren](Planeswalker%20Dossiers.md#jace-beleren) · [Characters → Ashiok](Characters%20Index.md#ashiok) |
+
+### Venser: dead in canon, alive in the Echoverse
+| Field | Detail |
+|---|---|
+| **Type** | 🚫 non-canonical counterpart (no contradiction) |
+| **Earlier statement** | "Venser gave up his spark to Karn, to rescue him. Venser did not survive." ([RtD Ep. 5](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-5-2018-04-11)). |
+| **Later / overriding statement** | Legends of Reality Fracture (2026): "With her dedicated first mate, Venser, at her side, Jhoira led a daring crew of pirates to battle against the Cabal during the Second Brothers' War" ([Legends of RF](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)). |
+| **KB treatment** | The 2026 Venser is an Echoverse counterpart (🚫). Canon Venser remains dead. Apply the same rule to every Legends of RF "echo" card. |
+| **Related** | [Dossiers → Venser](Planeswalker%20Dossiers.md#venser) · [Dossiers → Karn](Planeswalker%20Dossiers.md#karn) |
 
 ## Queue for later cycles
 | Candidate | Why queued | Needed sources |

@@ -5,7 +5,7 @@ tags: [roadmap, sprint]
 issues: []
 generated_by: hand-written
 sources: []
-related: ["Front-Matter Schema.md", "EDH Lore-Themed Deckbuilding.md", "Items & Artifacts Index.md", "Lookup Guide.md", "Lore Primary Sources.md", "Planeswalker Dossiers.md"]
+related: ["Front-Matter Schema.md", "Progress Tracker.md", "EDH Lore-Themed Deckbuilding.md", "Items & Artifacts Index.md", "Lookup Guide.md", "Lore Primary Sources.md"]
 schema: 2
 ---
 
@@ -105,18 +105,39 @@ Phase 5 complete in Bot cycle 19; snapshot tag `v2.0-phase5-optimization`.
 - 🟡 **Bot cycle 26:** dossiers extended for Kaya, Teferi, Karn, Sorin, Nahiri, Ral, Tezzeret (+14 rows); plane entries Innistrad, Zendikar (Eldrazi era), Theros, Tarkir (30 detailed entries); new [Items & Artifacts Index](Items%20%26%20Artifacts%20Index.md) (#75, 14 entries); Teferi's spark resolved (DOM Ep. 11) + 2 retcon entries (20); Master Timeline rows for ELD/THB/IKO/MAT deepened. Next: cycle 27 (dossiers Vraska/Tamiyo/Sarkhan/Ugin/Bolas/Kaito/Oko, items queue, Characters Index refresh).
 - 🟡 **Bot cycle 27:** dossiers extended for Vraska, Tamiyo, Sarkhan, Ugin, Bolas, Kaito, Oko (+14 rows); Items & Artifacts Index +5 (Halo, Lithoform Core, Mightstone & Weakstone, Celestus/Sungold Lock/Moonsilver Key, Biblioplex & Blood Avatar; 19 entries); plane entries Ravnica (before the invasion), Alara, Mirrodin (before Phyrexia), Lorwyn-Shadowmoor (34 detailed entries); Characters Index spark refresh (Nahiri → lost; Teferi reclaim cited); +2 retcon entries (22). Next: cycle 28 (dossiers Jace/Ajani/Garruk/Elspeth/Wrenn/Niv-Mizzet; items Reality Chip, World Tree; planes Dominaria pre-DMU, Kamigawa pre-NEO, Fiora, Shandalar).
 - 🟡 **Bot cycle 28:** Jace, Elspeth, Ajani extended (+7 rows); new dossiers Garruk Wildspeaker, Wrenn, Niv-Mizzet (📝 non-Planeswalker) → 25 dossiers; Items +3 (Reality Chip, World Tree & Sword of the Realms, Theros god weapons) + sylex copy's fate → 22 entries; planes Dominaria (before DMU), Kamigawa (Kami War era), Fiora, Shandalar → 38 detailed entries (all 15 profiled planes covered); +3 retcon entries (25); Teyo/Will/Bolas spark statements re-checked (Bolas: "we don't know whether his spark is intact"). Next: cycle 29 (dossiers Kiora, Koth, Narset, Saheeli, Huatli, Samut; Omenpath-era planes Thunder Junction, Bloomburrow, Duskmourn, the Edge).
+- ✅ **Bot cycle 30:** final dossier batch: Dovin Baan, Angrath, Venser, Xenagos, Ashiok, Rowan & Will Kenrith, Teyo Verada (7 dossiers, 23 rows) → **38 dossiers**; Items +2 (a piece of the House, Stormnexus Ritual & Crucible of the Spirit Dragon) → 26; +2 retcons (which "Ashiok" is Ashiok; Venser canon vs Echoverse) → 29. #72, #74, #75 closed; #73, #76, #77 stay open for blocked work.
 - 🟡 **Bot cycle 29:** new dossiers Kiora, Koth, Narset, Saheeli, Huatli, Samut (+25 rows) → 31; Vraska OTJ row + spark → lost; planes Thunder Junction (⚠️ no PW Guide), Bloomburrow, Duskmourn, Sothera system → 42 detailed entries; Items +2 (Mana Rig/powerstones/Thran steel, singularity beads) → 24, Endstone expanded, sylex origin statements; +2 retcons (27). Next: cycle 30 (last dossier batch: Dovin, Angrath, Venser, Xenagos, Ashiok, Rowan & Will, Teyo), then maintenance.
 - ✅ **Bot cycle 23:** lore-deck standard raised to ≥ 85% story-linked over all non-basic cards (non-basic lands included); both example decks rebuilt (Urza 93.8%, Nahiri 86.8%); `validate_all` step `lore`.
  — Lore deepening sprint (Bot cycles 20+; Cory, 2026-10-15)
-Canonical lore & history deepening; all other queued work on hold. Milestone: [Phase 6 — Lore deepening sprint](https://github.com/corymstover/GrokBotMTGCompanion/milestone/15).
+Canonical lore & history deepening; all other queued work on hold.
+
+### Phase 6 status (Bot cycle 30, 2026-10-15)
+Snapshot tag: `v2.1-phase6-lore`. Maintenance mode has **not** started yet.
+
+| Area | Total | Notes |
+|---|---|---|
+| Arcs (Conflicts & Arcs) | **40/40** in full format | 33 arc codes in Lore Primary Sources |
+| Planeswalker Dossiers | **38** | includes Niv-Mizzet (📝 non-Planeswalker) and Rowan & Will (shared) |
+| Planes Index | **42** detailed entries | incl. pre-Mending eras and Omenpath-era planes |
+| Items & Artifacts Index | **26** entries | 23 artifacts/objects, 3 spells |
+| Contradictions & Retcons Log | **29** entries | 4 queued |
+| Characters Index | **78** entries | 8 open ❓ questions |
+| Primary sources | **596** official pages (60 Planeswalker's Guides) | all quotes verified verbatim |
+
+**Still blocked (needs sources the bot cannot read):**
+- **Novels / e-books** (Weatherlight, Invasion-block, *Godsend*, etc.): not fetchable, so novel-only details stay ⚠️ secondary or are left out. Issue #73.
+- **Image-only text:** the IKO "Story on Cards" page (Ozolith), card flavor text and art captions cannot be machine-verified, so they stay ⚠️.
+- **Open ❓ in official text:** spark status of Teyo and Will Kenrith (no statement) and Bolas ("we don't know whether his spark is intact"); spark-ignition scenes for Kiora, Koth, Saheeli, Angrath, Dovin, Ashiok and others; Dovin after WAR; which WOE "Ashiok" scenes were Jace; the Endstone's maker; the fate of the original 2018 sylex; who made the sylex; 8 open questions in the Characters Index (e.g. Sarkhan's survival, Tibalt's fate, Garruk and the Kenrith twins). These wait for future stories. Issues #76, #77.
+- **No official guide:** Thunder Junction has no Planeswalker's Guide (⚠️ flagged).
+ Milestone: [Phase 6 — Lore deepening sprint](https://github.com/corymstover/GrokBotMTGCompanion/milestone/15).
 
 | Issue | Item | Status | Output |
 |---|---|---|---|
-| [#72](https://github.com/corymstover/GrokBotMTGCompanion/issues/72) | P6.1 Deepen eras/arcs (beats, causes, outcomes, consequences) | 🟡 Bot cycles 20–25: all 40 arcs in full format + 6 era summaries | [Conflicts & Arcs](Conflicts%20%26%20Arcs.md) · [Master Timeline](Master%20Timeline.md) |
-| [#73](https://github.com/corymstover/GrokBotMTGCompanion/issues/73) | P6.2 Ingest primary material (stories, PW Guides, novels — secondary flagged) | 🟡 Bot cycles 22–29: 596 pages; 33 arc codes deepened from primary text | [Lore Primary Sources](Lore%20Primary%20Sources.md) |
-| [#74](https://github.com/corymstover/GrokBotMTGCompanion/issues/74) | P6.3 Dossiers & plane entries | 🟡 Bot cycles 24–29 (Tam, Garruk, Wrenn, Niv-Mizzet, Kiora, Koth, Narset, Saheeli, Huatli, Samut dossiers; 19 plane entries incl. Thunder Junction, Bloomburrow, Duskmourn, Sothera; 26 dossiers extended; 15 plane entries: Kaladesh, Amonkhet, Ixalan, Innistrad, Zendikar, Theros, Tarkir, Ravnica, Alara, Mirrodin, Lorwyn-Shadowmoor, Dominaria, Kamigawa, Fiora, Shandalar) | [Planeswalker Dossiers](Planeswalker%20Dossiers.md) |
-| [#75](https://github.com/corymstover/GrokBotMTGCompanion/issues/75) | P6.4 Items/spells/artifacts index | 🟡 Bot cycles 26–29 (24 entries) | [Items & Artifacts Index](Items%20%26%20Artifacts%20Index.md) |
-| [#76](https://github.com/corymstover/GrokBotMTGCompanion/issues/76) | P6.5 Contradictions & Retcons Log | 🟡 Bot cycles 20–29: 27 entries | [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md) |
+| [#72](https://github.com/corymstover/GrokBotMTGCompanion/issues/72) | P6.1 Deepen eras/arcs (beats, causes, outcomes, consequences) | ✅ closed Bot cycle 30 · Bot cycles 20–25: all 40 arcs in full format + 6 era summaries | [Conflicts & Arcs](Conflicts%20%26%20Arcs.md) · [Master Timeline](Master%20Timeline.md) |
+| [#73](https://github.com/corymstover/GrokBotMTGCompanion/issues/73) | P6.2 Ingest primary material (stories, PW Guides, novels — secondary flagged) | 🟡 open (novels blocked) · Bot cycles 22–30: 596 pages; 33 arc codes deepened from primary text | [Lore Primary Sources](Lore%20Primary%20Sources.md) |
+| [#74](https://github.com/corymstover/GrokBotMTGCompanion/issues/74) | P6.3 Dossiers & plane entries | ✅ closed Bot cycle 30 (38 dossiers, 42 plane entries) · Bot cycles 24–30 (Tam, Garruk, Wrenn, Niv-Mizzet, Kiora, Koth, Narset, Saheeli, Huatli, Samut dossiers; 19 plane entries incl. Thunder Junction, Bloomburrow, Duskmourn, Sothera; 26 dossiers extended; 15 plane entries: Kaladesh, Amonkhet, Ixalan, Innistrad, Zendikar, Theros, Tarkir, Ravnica, Alara, Mirrodin, Lorwyn-Shadowmoor, Dominaria, Kamigawa, Fiora, Shandalar) | [Planeswalker Dossiers](Planeswalker%20Dossiers.md) |
+| [#75](https://github.com/corymstover/GrokBotMTGCompanion/issues/75) | P6.4 Items/spells/artifacts index | ✅ closed Bot cycle 30 (26 entries; Ozolith stays ⚠️) | [Items & Artifacts Index](Items%20%26%20Artifacts%20Index.md) |
+| [#76](https://github.com/corymstover/GrokBotMTGCompanion/issues/76) | P6.5 Contradictions & Retcons Log | 🟡 Bot cycles 20–30: 29 entries (open: blocked queue) | [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md) |
 | [#77](https://github.com/corymstover/GrokBotMTGCompanion/issues/77) | P6.6 Structure, cross-refs, lore checks | 🟡 ongoing | `scripts/validate_all.py` |
 | [#79](https://github.com/corymstover/GrokBotMTGCompanion/issues/79)–[#81](https://github.com/corymstover/GrokBotMTGCompanion/issues/81) | Lore-themed deckbuilding (guide, examples, template/Gate L) | ✅ Bot cycle 21 | [EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md) · [Urza](decks/lore-brothers-war-urza-lord-high-artificer.md) · [Nahiri](decks/lore-nahiri-the-lithomancer.md) |
 

@@ -5,7 +5,7 @@ tags: [progress, milestones]
 issues: []
 generated_by: hand-written
 sources: []
-related: ["Front-Matter Schema.md", "EDH Lore-Themed Deckbuilding.md", "Knowledge Index.md", "ROADMAP.md", "Artist Index.md", "EDH Archetypes.md"]
+related: ["Front-Matter Schema.md", "ROADMAP.md", "EDH Lore-Themed Deckbuilding.md", "Knowledge Index.md", "Update Log.md", "Artist Index.md"]
 schema: 2
 ---
 
@@ -18,6 +18,7 @@ schema: 2
 - [Lore](#lore)
 - [EDH](#edh)
 - [Rules](#rules)
+- [Phase 6 status](#phase-6-status)
 - [Milestones & tags](#milestones--tags)
 
 ## Cards
@@ -48,12 +49,12 @@ schema: 2
 | Planes Index | 🟢 cycles 5, 25–29 | **42 detailed entries** (cycle 29: Thunder Junction, Bloomburrow, Duskmourn, Sothera system) (cycle 28: Dominaria before DMU, Kamigawa Kami War era, Fiora, Shandalar — all 15 profiled planes covered) (cycle 25: Kaladesh→Avishkar, Amonkhet, Ixalan; cycle 26: Innistrad, Zendikar Eldrazi era, Theros, Tarkir; cycle 27: Ravnica pre-invasion, Alara, Mirrodin pre-Phyrexia, Lorwyn-Shadowmoor). Cycle 5: 23 (was 18). Mercadia and Ulgrotha went from ⚠️ stubs to ✅ sourced (*Known Multiverse*, Wizards 2008). Added Ergamon, ZNR Zendikar, NEO Kamigawa, DMU Dominaria and the Arcavios colleges; Vryn deepened. Only Nauctis remains (no story yet) |
 | Characters Index | 🟢 complete for profiled PWs (cycle 4) | **78 entries** (was 59); **61 ✅ / 10 ❓ / 6 ⚠️ / 1 🚫** (was 54 / 1 / 3 / 1); 0 profiled Planeswalkers left unreviewed (was 19) |
 | Conflicts & Arcs | 🟢 cycle 25 (Phase 6) | **40/40 arcs** with Cause · Key beats · Outcome · Lasting consequences; cycle 25 on ELD/THB/IKO/BRO frame/MAT/LCI + BFZ/SOI/DOM/WAR episode beats; cycle 22 pass on 14 post-2020 arcs; cycle 24 on TDM/EOE/ECL/SOS/RF + Kaladesh/Amonkhet/Ixalan/Alara/Mirrodin + new Theros arc |
-| Contradictions & Retcons Log | 🟢 cycle 29 | **27** cited entries (+2 in cycle 29: who made the sylex ❓, Vraska's spark ✅) · 4 queued; earlier: (+3 in cycle 28: sylex blast vs spark loss ❓, Elspeth's return ✅, Living Guildpact transfer 🔄) · 3 queued |
-| Items & Artifacts Index | 🟢 cycles 26–29 (#75) | **24** cited entries (cycle 29: Mana Rig/powerstones, singularity beads; Endstone expanded) (cycle 28: Reality Chip, World Tree & Sword of the Realms, Theros god weapons; sylex copy's fate added) (17 artifacts/places/substances, 2 spells/world-scale magic; cycle 27: Halo, Lithoform Core, Mightstone & Weakstone, Celestus/Moonsilver Key, Biblioplex) with card links; queue listed |
+| Contradictions & Retcons Log | 🟢 cycle 30 | **29** cited entries (cycle 30: which Ashiok, Venser vs Echoverse); earlier 27 (+2 in cycle 29: who made the sylex ❓, Vraska's spark ✅) · 4 queued; earlier: (+3 in cycle 28: sylex blast vs spark loss ❓, Elspeth's return ✅, Living Guildpact transfer 🔄) · 3 queued |
+| Items & Artifacts Index | 🟢 cycles 26–30 (#75 closed) | **26** cited entries (cycle 30: piece of the House, Stormnexus Ritual); earlier 24 (cycle 29: Mana Rig/powerstones, singularity beads; Endstone expanded) (cycle 28: Reality Chip, World Tree & Sword of the Realms, Theros god weapons; sylex copy's fate added) (17 artifacts/places/substances, 2 spells/world-scale magic; cycle 27: Halo, Lithoform Core, Mightstone & Weakstone, Celestus/Moonsilver Key, Biblioplex) with card links; queue listed |
 | Lore Primary Sources | 🟢 cycle 25 (#73) | [588 fetched pages](Lore%20Primary%20Sources.md) incl. 60 Planeswalker's Guides; 33 arc codes ✅ |
 | Lore-themed EDH decks | 🟢 cycle 23 | [Guide](EDH%20Lore-Themed%20Deckbuilding.md) · 2 decks at the **85% standard** (cycle 23, all non-basic cards incl. lands): Urza Brothers' War **93.8%**; Nahiri **86.8%**; Gate L; `kind: lore` + `lore_score` front matter |
 | Story Arc Summaries | ✅ Phase 2 done (cycles 7–8, #34) | **19 arcs and 135 cited beats** (was 7 / 52). Cycle 8 added BFZ/OGW, SOI/EMN, KLD/AER, AKH/HOU, DOM, WAR, WOE, LCI, DFT, EOE, ECL, SOS and RF, and folded ONE+MOM into one Phyrexia arc. Other pre-2022 arcs stay as entries in Conflicts & Arcs |
-| Planeswalker Dossiers | 🟢 cycles 7–8, 24–29 (#35, #74) | **31 dossiers** (cycle 29 added Kiora, Koth, Narset, Saheeli, Huatli, Samut); earlier 25 (cycle 28 added Garruk, Wrenn, Niv-Mizzet and extended Jace, Elspeth, Ajani); cycles 24–27 added Tam and extended 23 (cycle 26: Kaya, Teferi, Karn, Sorin, Nahiri, Ral, Tezzeret, +14 rows; cycle 27: Vraska, Tamiyo, Sarkhan, Ugin, Bolas, Kaito, Oko, +14 rows). Cycle 8: 21 (was 13). Cycle 8 newly sourced the spark moments of Gideon, Sorin, Ugin and Bolas, plus Karn's partial (Venser's spark). Still ❓: Teferi, Kaya, Vraska, Tamiyo, Nahiri, Ral, Oko, Tezzeret, and Ajani's ignition scene |
+| Planeswalker Dossiers | 🟢 cycles 7–8, 24–30 (#35, #74) | **38 dossiers** (cycle 30: Dovin, Angrath, Venser, Xenagos, Ashiok, Rowan & Will, Teyo); earlier 31 (cycle 29 added Kiora, Koth, Narset, Saheeli, Huatli, Samut); earlier 25 (cycle 28 added Garruk, Wrenn, Niv-Mizzet and extended Jace, Elspeth, Ajani); cycles 24–27 added Tam and extended 23 (cycle 26: Kaya, Teferi, Karn, Sorin, Nahiri, Ral, Tezzeret, +14 rows; cycle 27: Vraska, Tamiyo, Sarkhan, Ugin, Bolas, Kaito, Oko, +14 rows). Cycle 8: 21 (was 13). Cycle 8 newly sourced the spark moments of Gideon, Sorin, Ugin and Bolas, plus Karn's partial (Venser's spark). Still ❓: Teferi, Kaya, Vraska, Tamiyo, Nahiri, Ral, Oko, Tezzeret, and Ajani's ignition scene |
 | Omenpath & Multiverse | 🟢 first pass (cycle 7, #36) | 5 definition facts, 5 known connections, 4 infrastructure items, 4 exceptions, 3 open ❓ |
 | Art & Flavor Story Links | ✅ new (cycle 8, #37) | **269 Story Spotlight cards** in 17 arcs (verbatim Scryfall flavor and artist) · **32** linked to the story page captioning their art · **263** more captioned cards on 53 cited pages · 1,716 captions harvested (`data/story_art_captions.csv`) |
 | Side-Media Index | ✅ new (cycle 8, #38) | **22 items**: 14 novels, novellas and anthologies, 3 e-book collections, 2 comics, 3 other (D&D adventure, 1994 short story, Netflix series), each with an official Wizards citation or a ⚠️/❓ flag |
@@ -93,6 +94,26 @@ schema: 2
 | Rules-interactions section | 🟢 (#9) **27 topics** (was 17) · 37 official CR examples (was 20) · 139 linked rulings (was 87) |
 | Rulings in card entries | ✅ 78,943 rulings on 19,889 cards; all 33,894 cards processed (#10 closed) |
 
+## Phase 6 status
+*Bot cycle 30, 2026-10-15.* Same totals as [ROADMAP → Phase 6](ROADMAP.md#phase-6).
+Snapshot tag: `v2.1-phase6-lore`. Maintenance mode has **not** started yet.
+
+| Area | Total | Notes |
+|---|---|---|
+| Arcs (Conflicts & Arcs) | **40/40** in full format | 33 arc codes in Lore Primary Sources |
+| Planeswalker Dossiers | **38** | includes Niv-Mizzet (📝 non-Planeswalker) and Rowan & Will (shared) |
+| Planes Index | **42** detailed entries | incl. pre-Mending eras and Omenpath-era planes |
+| Items & Artifacts Index | **26** entries | 23 artifacts/objects, 3 spells |
+| Contradictions & Retcons Log | **29** entries | 4 queued |
+| Characters Index | **78** entries | 8 open ❓ questions |
+| Primary sources | **596** official pages (60 Planeswalker's Guides) | all quotes verified verbatim |
+
+**Still blocked (needs sources the bot cannot read):**
+- **Novels / e-books** (Weatherlight, Invasion-block, *Godsend*, etc.): not fetchable, so novel-only details stay ⚠️ secondary or are left out. Issue #73.
+- **Image-only text:** the IKO "Story on Cards" page (Ozolith), card flavor text and art captions cannot be machine-verified, so they stay ⚠️.
+- **Open ❓ in official text:** spark status of Teyo and Will Kenrith (no statement) and Bolas ("we don't know whether his spark is intact"); spark-ignition scenes for Kiora, Koth, Saheeli, Angrath, Dovin, Ashiok and others; Dovin after WAR; which WOE "Ashiok" scenes were Jace; the Endstone's maker; the fate of the original 2018 sylex; who made the sylex; 8 open questions in the Characters Index (e.g. Sarkhan's survival, Tibalt's fate, Garruk and the Kenrith twins). These wait for future stories. Issues #76, #77.
+- **No official guide:** Thunder Junction has no Planeswalker's Guide (⚠️ flagged).
+
 ## Milestones & tags
 | Milestone | State | Tag |
 |---|---|---|
@@ -111,5 +132,5 @@ schema: 2
 | Phase 4 — Structure & usability | ✅ closed (Bot cycle 14: #46; Bot cycle 15: #44, #45, #47) | `v1.8-cycle15-phase4-complete` |
 | Grixis integration (Bot cycle 16) | ✅ #59–#62 done; #63 (follow-ups) open | `v1.9-grixis-integration` |
 | Phase 5 — Optimization pass (Bot cycles 17–19) | ✅ closed (Bot cycle 17: #65, #67; Bot cycle 18: #66; Bot cycle 19: #68) | `v2.0-phase5-optimization` |
-| Phase 6 — Lore deepening sprint | 🟡 Bot cycle 20 arcs/timeline/retcons; cycle 21 lore deckbuilding (#79–#81); **cycle 22** primary-source pass (#73); **cycle 23** 85% lore-deck standard; **cycle 24** recent + pre-2019 arcs, dossiers started (#74); **cycle 25** all 40 arcs full format, 4 dossiers + 3 plane entries; **cycle 26** 7 dossiers, 4 plane entries, Items index (#75); **cycle 27** 7 dossiers, 5 items, 4 plane entries, spark refresh; **cycle 28** 3 new + 3 extended dossiers, 3 items, 4 plane entries; **cycle 29** 6 new dossiers, 4 plane entries, 2 items | milestone 15 |
+| Phase 6 — Lore deepening sprint | 🟡 Bot cycle 20 arcs/timeline/retcons; cycle 21 lore deckbuilding (#79–#81); **cycle 22** primary-source pass (#73); **cycle 23** 85% lore-deck standard; **cycle 24** recent + pre-2019 arcs, dossiers started (#74); **cycle 25** all 40 arcs full format, 4 dossiers + 3 plane entries; **cycle 26** 7 dossiers, 4 plane entries, Items index (#75); **cycle 27** 7 dossiers, 5 items, 4 plane entries, spark refresh; **cycle 28** 3 new + 3 extended dossiers, 3 items, 4 plane entries; **cycle 29** 6 new dossiers, 4 plane entries, 2 items; **cycle 30** final 7 dossiers (38), 2 items (26), 2 retcons (29); tag `v2.1-phase6-lore` | milestone 15 |
 
